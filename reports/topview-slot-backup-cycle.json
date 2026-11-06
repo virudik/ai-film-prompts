@@ -13,16 +13,36 @@
   "lease_commit": "d23afd7bd549b3ea25c634d164fda9229ac65a38",
   "started_at": "2026-11-06T10:28:59.541909Z",
   "receipt_started_at": "2026-11-06T10:38:10.921Z",
-  "phase": "started",
-  "status": "started",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
-    "complete": false
+    "complete": true,
+    "scope": "Direct Topview connector account-wide board listing, 14 boards, 18 nonempty task-list pages, all mediaTypes; last full page scan 2026-11-06T10:32:34Z; My First Board active page rechecked 10:39:29Z",
+    "boards_scanned": 14,
+    "pages_scanned": 18,
+    "video_tasks_scanned": 630,
+    "status_counts": {
+      "success": 601,
+      "fail": 23,
+      "init": 6
+    },
+    "active_task_ids": [
+      "101221814fd5430697f697f95a3f4252",
+      "3ebe7c23db05479e9b6f762a75b832e7",
+      "365cf639589a4a5da834d70193d5e8f6",
+      "be960f5e3bf54563aff663fed9da8906",
+      "de8e44bb15d64dc7a4eb640d27a726e4",
+      "431180d384cc43bebe7afc702e4eb4e6"
+    ],
+    "checked_at": "2026-11-06T10:39:29Z",
+    "readiness_checked_at": "2026-11-06T10:14:45Z",
+    "note": "SHA256 queue/task-map not independently recomputed in this no-Create cycle; readiness report source checks inherited only; prompt/reference/UI-preflight intentionally skipped because no capacity."
   },
   "slots": {
     "capacity": 6,
-    "occupied": null,
-    "free": null,
-    "complete_scan_verified": false
+    "occupied": 6,
+    "free": 0,
+    "complete_scan_verified": true
   },
   "new_submissions": 0,
   "browser_transport": "not_invoked",
@@ -31,24 +51,38 @@
   "tinyfish_estimated_cost_usd": 0,
   "tinyfish_confirmed_cost_usd": 0,
   "topview_credits_cost": 0,
-  "outcome": "started",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": false,
   "task_ids": [],
   "acceptance": {
     "scheduled_runtime": true,
-    "full_scan": false,
+    "full_scan": true,
     "tinyfish_current_session_verified": false,
     "tinyfish_file_upload_verified": false,
     "tinyfish_unlimited_zero_verified": false,
-    "tinyfish_production_submission_verified": false
+    "tinyfish_production_submission_verified": false,
+    "verified_task_id_for_new_submission": false
   },
-  "updated_at": "2026-11-06T10:38:10.921Z",
+  "updated_at": "2026-11-06T10:40:27.181Z",
   "prior_run_id": "04fbf634-1174-8325-8016-387d08d4504d",
   "prior_receipt": {
     "execution_instance_id": "965a152a-89f0-470d-9ba5-4984236a662c",
     "phase": "started",
     "updated_at": "2026-11-06T10:12:04Z",
     "note": "Previous execution left started receipt and expired independent lease; do not adopt prior holder or infer prior completion."
-  }
+  },
+  "completed_at": "2026-11-06T10:40:27.181Z",
+  "queue_reconciliation": {
+    "queue_items": 63,
+    "submitted_with_task_id": 15,
+    "ready_items_in_derived_readiness": 26,
+    "next_candidate": "S49B",
+    "next_priority": 1.21,
+    "create_authorized": false
+  },
+  "owner_tasks": {
+    "open": 0
+  },
+  "known_telemetry_issue": "robot unmapped_active:101221814fd5430697f697f95a3f4252 remains a previously reported publisher blocker; direct scan independently verifies that task as live S49A, not a free slot."
 }
