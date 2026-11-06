@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/projects/raznoe/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-06T12:20:58Z",
+  "synced_at": "2026-11-06T12:32:21Z",
   "revision_date": "06.11.2026",
   "master_declared_last_full_sync": "06.11.2026 · сцена 3 RESOURCE: native-нарезка 19 клипов / 114 с в той же сцене; исходные вкладки 2 × 15 с сохранены; шесть попыток v1 в папке Саши не приняты.",
   "canonical_master_sha256": "b3073bbd40ab438f066db430041651b94dac99b84e090e440f0ae734c1171f1e",
@@ -24,20 +24,20 @@
   "latest_scene": 4,
   "reserved_scene_ids": [],
   "instruction_sync": {
-    "health": "stale",
-    "snapshot_at": "2026-11-06T12:20:58.505Z",
+    "health": "ok",
+    "snapshot_at": "2026-11-06T12:23:49.342Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": -0.0,
+    "age_hours_at_status_build": 0.142,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
         "drive_copy_sha256": "cd2a433494410b09a061a3cf1566b8eae5ab3c87ce2e2f70e7a4286e7d73f432",
         "drive_copy_checked_at": "2026-11-06T10:54:36.135Z",
         "drive_copy_modified_at": "2026-11-06T10:54:25.659Z",
-        "github_blob": "1cf69d19a190a2e08e32cda2427dd1eeeb0aedeb",
-        "mirror_sha256": "fa2de2b0b70832fa5de3011f2cffc584494ec0331cc5c87a3cf06f6c4038b4bb",
+        "github_blob": "a48bf1c4eade088256e52923c489e82d0bd56fad",
+        "mirror_sha256": "11a4faff1ca82f943c31e3834b139aa0e4c9c3e7703daef05101a37a7715e348",
         "match": true,
         "drive_copy_match": false
       },
@@ -106,8 +106,8 @@
   "warnings": [],
   "maintenance": {
     "instruction_verification": {
-      "state": "stale",
-      "age_hours": -0.0,
+      "state": "ok",
+      "age_hours": 0.142,
       "blocking": false
     },
     "topview_task_map": {
@@ -209,7 +209,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "06.11.2026",
-    "synced_at": "2026-11-06T12:20:58Z",
+    "synced_at": "2026-11-06T12:32:21Z",
     "canonical_master_sha256": "b3073bbd40ab438f066db430041651b94dac99b84e090e440f0ae734c1171f1e",
     "canonical_revision_sha256": "dc306606eb184e37f9bcc37281d42532b000a46712693a81a12a4e66e127f5f9",
     "scene_count": 4,
@@ -223,7 +223,7 @@
     "work_items": [],
     "slow_scenes": [],
     "health": "ok",
-    "instruction_sync_health": "stale"
+    "instruction_sync_health": "ok"
   },
   "health": "ok",
   "checks": {
@@ -256,7 +256,8 @@
     "scene_meta_allowed_fields_valid": true,
     "scene_meta_dialogue_valid": true,
     "scene_meta_tags_valid": true,
-    "scene_meta_target_engine_valid": true
+    "scene_meta_target_engine_valid": true,
+    "instruction_mirrors_match_drive": true
   },
   "project": "raznoe",
   "project_name": "Разное"
