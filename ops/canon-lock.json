@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:096faa12-730a-4164-b3ee-14bbc3580ac0",
   "task": "Seregius ordinary HH:00 backup: read-only 14-board reconciliation, S49B readiness and safe launch preflight",
   "acquired_at": "2026-11-06T18:01:52.251Z",
-  "expires_at": "2026-11-06T18:31:52.251Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-06T18:11:34.191Z",
   "rules": "ops/CANON-LOCK.md"
 }
