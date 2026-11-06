@@ -958,6 +958,30 @@
         ]
       },
       "observed_at": "2026-11-03T15:10:55Z"
+    },
+    {
+      "event_id": "result:22dbd25cdd9f47cd9e44300e55f5e44f",
+      "issue_number": 372,
+      "message_id": "244335152700542976",
+      "relay_event_id": "evt_dce5b2907b900817d1731adfebc38eb0",
+      "checked_at": "2026-11-06T05:54:02.023Z",
+      "outcome": "started",
+      "reason": "Authenticated event; reconciling existing S49A submission and global slots.",
+      "task_ids": [],
+      "retryable": true,
+      "source": "Agent Relay webhook",
+      "runner": "chatgpt_event_trigger",
+      "execution_instance_id": "98d70903-c10c-4328-a8c9-1fbfa957f21a",
+      "route_generation": 3,
+      "run_id": null,
+      "run_id_reason": "Runtime run_id not exposed",
+      "execution": {
+        "state": "intake",
+        "stage": "intake",
+        "started_at": "2026-11-06T05:54:02.023Z",
+        "updated_at": "2026-11-06T05:54:02.023Z"
+      },
+      "new_submissions": 0
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
