@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "rules": "ops/OWNER-TASKS.md",
-  "updated_at": "2026-11-06T10:12:38Z",
+  "updated_at": "2026-11-06T10:24:10Z",
   "tasks": [
     {
       "id": "0948c546-0ea2-4443-9429-6dcf43bddc81",
@@ -202,9 +202,12 @@
       "to": "any",
       "source": "self-heal",
       "text": "Самопроверка: Робот сканирует, но статус Topview на сайте не обновлялся 159 мин. Последнее решение робота: «hold — unmapped_active:10122181». Обычно это пауза робота (hold): задача без сцены, неполный скан или сбой проверки публикации. Робот уже запустил полный скан Topview 2026-11-06T07:49:34Z, не помогло. Найти причину и починить; правила — ops/SELF-HEAL.md.",
-      "status": "taken",
+      "status": "done",
       "taken_by": "chatgpt:ordinary:965a152a-89f0-470d-9ba5-4984236a662c",
-      "taken_at": "2026-11-06T10:12:38Z"
+      "taken_at": "2026-11-06T10:12:38Z",
+      "result": "Причина подтверждена: новая S49A task 101221814fd5430697f697f95a3f4252 была сохранена в очереди/receipt, но отсутствовала в topview-task-map.json.active_by_scene; поэтому штатный скан отмечал unmapped_active и блокировал публикацию. Под своей lease исправлена точная привязка к сцене 49 и атомарно обновлён SHA queue-readiness, коммит 3bfde979b67fadc3ac11ec97c8159ef4a51e6c04. Независимый штатный shadow-скан 2026-11-06T10:20:25Z подтвердил scene_id=49 и unknown_new=0. Публикация canonical topview-status.json ещё требует самостоятельного успешного цикла GitHub-робота; checked_at искусственно не обновлялся, запуск видео не производился.",
+      "result_commit": "3bfde979b67fadc3ac11ec97c8159ef4a51e6c04",
+      "closed_at": "2026-11-06T10:24:10Z"
     }
   ]
 }
