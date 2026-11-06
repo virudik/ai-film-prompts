@@ -28,8 +28,9 @@
         "motion_audio_qc": false
       },
       "input_slot": {
-        "clip": "A06_print-v2",
-        "slot": "IMAGE 1"
+        "clip": "A06_print-v3",
+        "slot": "IMAGE 1",
+        "native_token": "<IMAGE_0>"
       },
       "real_video_frame": false
     },
@@ -58,8 +59,9 @@
         "motion_audio_qc": false
       },
       "input_slot": {
-        "clip": "B02_install-v2",
-        "slot": "IMAGE 3"
+        "clip": "B02_install-v3",
+        "slot": "IMAGE 3",
+        "native_token": "<IMAGE_2>"
       },
       "real_video_frame": false
     },
@@ -130,12 +132,17 @@
       "site_published": {
         "repo_path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-press-scrap-loaded.png",
         "git_blob_sha": "b07f48d47b1c66e1164ca7d0859bccca730f0919"
+      },
+      "input_slot": {
+        "clip": "C04_recycle-v3",
+        "slot": "IMAGE 1",
+        "native_token": "<IMAGE_0>"
       }
     }
   ],
-  "updated_at": "2026-11-06T19:00:12.360Z",
+  "updated_at": "2026-11-06T21:18:18.348Z",
   "generated_image_count": 4,
-  "status": "reference_images_complete_awaiting_editorial_review",
+  "status": "all_images_published_v3_active_not_approved",
   "pending_references": [],
   "generated_private_library_image_count": 0
 }
