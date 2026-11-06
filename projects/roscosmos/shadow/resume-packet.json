@@ -3,14 +3,16 @@
   "generator": "continue-2.0",
   "project": "roscosmos",
   "project_name": "Роскосмос",
-  "checked_at": "2026-11-06T18:03:06+00:00",
-  "source_head": "8eeb9e970c229d5bea9ddd3de0d41cac2d075e2a",
-  "source_fingerprint": "ead1fa9ee85f25333e79251f02db8518f1f2c16bde7702bd27e15a7e99cc80ae",
+  "checked_at": "2026-11-06T18:13:53+00:00",
+  "source_head": "da89ec5d1815f672c79404e3f7df31ef5a41fec7",
+  "source_fingerprint": "9b75eddfd6b9e1610386447a576a25a7cbe07bee72c64ef4618afc47d30f4de7",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": null,
   "reasons": [
+    "brief was invalid at generation",
+    "instruction certificate mismatch: NEW-CHAT-HANDOFF.md",
     "recovery evidence changed: projects/roscosmos/reports/terratech-revision-2026-11-04.json"
   ],
   "selected_work": null,
@@ -133,8 +135,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "11a4faff1ca82f943c31e3834b139aa0e4c9c3e7703daef05101a37a7715e348",
-      "bytes": 34939
+      "sha256": "e4704ce18cb7b34db5ecb02b434c3cb5db23d85c72b2160979d43872486ea261",
+      "bytes": 35755
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -228,13 +230,13 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "7bf04f463b3c7b46882b33057a947fd163dd816849ae493c06d44f39e2f22166",
-      "bytes": 34740
+      "sha256": "61f1552f39bada9abe38d7216252e0a55cdd1e988ebb713ae76e00d0d96e8c48",
+      "bytes": 35556
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "4ac2cbb6258529f0e1b0a1755965344eab90f1516921a64a75bd70b349e70117",
-      "bytes": 25158
+      "sha256": "a60165cc554c1b1c508c654bb3b07e6bf68019a7d9bb2091d148f5ac92a25142",
+      "bytes": 25185
     },
     {
       "file": "video-prompts.md",
@@ -242,5 +244,5 @@
       "bytes": 1353952
     }
   ],
-  "packet_bytes": 4683
+  "packet_bytes": 4773
 }
