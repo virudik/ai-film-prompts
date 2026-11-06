@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:honor-contest-20261107-fencefix",
   "task": "Fix markdown code fence escaping in the newly added HONOR X9e Pro Scene5 to restore project health",
   "acquired_at": "2026-11-06T22:04:05.364Z",
-  "expires_at": "2026-11-06T22:24:05.364Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-06T22:04:50.422Z",
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }
