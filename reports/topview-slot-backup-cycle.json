@@ -3,18 +3,18 @@
   "project": "seregius",
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "4f0f8b97-d6c3-4b1b-b8b1-0f966b8bb6a4",
-  "run_id": "9f333067-53e4-832d-aeff-d6095c8b6edb",
+  "execution_instance_id": "26bc648a-b119-4110-9b93-a3a81c1c4b65",
+  "run_id": "6ab3825f-49f8-8324-bce9-be1d03257b09",
   "runtime_run_id_source": "Automations.peek current in_progress last_run.id",
-  "source_head": "3396c54c6107a449bf71625703d7f991bae050c9",
+  "source_head": "e99a4a8016d91c1a1ec5e0574f754c1cb244c7b5",
   "route_generation": 3,
-  "lease_holder": "chatgpt:ordinary:4f0f8b97-d6c3-4b1b-b8b1-0f966b8bb6a4",
-  "lease_acquired_at": "2026-11-06T00:09:30.284Z",
-  "lease_commit": "3e64c016148cdaa6f9bebe608d0b3005b557f6c0",
-  "started_at": "2026-11-06T00:01:59.186606Z",
-  "receipt_started_at": "2026-11-06T00:11:38.114Z",
-  "phase": "finished",
-  "status": "completed",
+  "lease_holder": "chatgpt:ordinary:26bc648a-b119-4110-9b93-a3a81c1c4b65",
+  "lease_acquired_at": "2026-11-06T01:04:21.782Z",
+  "lease_commit": "312bdbc8a230f721a6679afdf4a2654a77a63338",
+  "started_at": "2026-11-06T00:56:09.710059Z",
+  "receipt_started_at": "2026-11-06T01:05:05.654Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan": {
     "complete": true,
     "source": "Topview read-only connector / all boards and pages",
@@ -34,17 +34,7 @@
       "de8e44bb15d64dc7a4eb640d27a726e4",
       "431180d384cc43bebe7afc702e4eb4e6",
       "22dbd25cdd9f47cd9e44300e55f5e44f"
-    ],
-    "first_scan_completed_at": "2026-11-06T00:07:00Z",
-    "active_parameters_verified": {
-      "all_six_on_target_board": true,
-      "read_method": "six independent read-only Topview get_board_task reads",
-      "useUnlimitMode": true,
-      "credits_cost": 0,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "verified_at": "2026-11-06T00:12:17.378Z"
-    }
+    ]
   },
   "slots": {
     "capacity": 6,
@@ -59,7 +49,7 @@
     "submission_unknown": 0,
     "submitted_ids_verified": 14,
     "queue_sha256": "53ec38d8ae8db5b244cb3f871761b7915f691d1a5e5eddef490f1b59110baad0",
-    "task_map_sha256": "cc414986a44e6d95e145df6502c39b66bdcfafc73803f9316c550e735009334c",
+    "task_map_sha256": "2c254a9c6c8a64b280ec2613765ef7015cb152383a415070022e7a31a6ceb97c",
     "readiness_hashes_match": true,
     "next_ready": {
       "id": "S49A",
@@ -72,8 +62,6 @@
       "blocked_inputs": 21
     },
     "all_submitted_found": true,
-    "source": "14 independent Topview read-only task detail checks",
-    "sha_method": "Exact UTF8 bytes SHA-256 via tested JS implementation",
     "checked_owner_tasks_open": 0
   },
   "browser_transport": "not_used_no_free_slot",
@@ -97,26 +85,5 @@
     "task_id_of_new_submission_verified": false,
     "production_tinyfish_submission_verified": false
   },
-  "finished_at": "2026-11-06T00:13:08.958Z",
-  "automation_checks": {
-    "self": {
-      "id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-      "is_enabled": true,
-      "runtime_last_run_id": "9f333067-53e4-832d-aeff-d6095c8b6edb"
-    },
-    "relay": {
-      "id": "6adc585e7ac08191bb93825117dc7213",
-      "is_enabled": true,
-      "last_run_id": "d62b3913-0a54-8321-a22c-efc668fb40ae"
-    },
-    "hh55": {
-      "id": "6acae6ab433481919e88665c520b8ef2",
-      "is_enabled": false,
-      "last_run_id": "0696a58c-bd14-8333-960c-4a7757864e1c"
-    },
-    "preferred_executor": "work",
-    "work_recovery_evidence": "none verified"
-  },
-  "github_issue_context": "https://github.com/virudik/ai-film-prompts/issues/355; https://github.com/virudik/ai-film-prompts/issues/356 (historical wake events, not fresh free slots)",
-  "notes": "Live account-wide scan 629 video tasks confirmed six init; no paid TinyFish or Create, credits 0. Scheduled ordinary task unchanged. No new owner tasks; no Work-quota recovery evidence."
+  "finished_at": null
 }
