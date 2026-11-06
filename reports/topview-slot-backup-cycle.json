@@ -3,16 +3,16 @@
   "project": "seregius",
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "965a152a-89f0-470d-9ba5-4984236a662c",
+  "execution_instance_id": "a9cf4963-0528-4cbd-ab7c-eef1005f968d",
   "run_id": "04fbf634-1174-8325-8016-387d08d4504d",
-  "runtime_run_id_source": "Automations.peek last_run.id recorded_status=in_progress and started_at 2026-11-06T10:00:56.586612Z",
-  "source_head": "dbc3c262171434b7dd0bc79e30351d5ab7fecca2",
+  "runtime_run_id_source": "Automations.peek current last_run.id, scheduled_for 2026-11-06T10:00:00Z, started_at 2026-11-06T10:28:59.541909Z",
+  "source_head": "35d62a5218246ae4d797cc1c21f442086f3cfa54",
   "route_generation": 3,
-  "lease_holder": "chatgpt:ordinary:965a152a-89f0-470d-9ba5-4984236a662c",
-  "lease_acquired_at": "2026-11-06T10:11:20Z",
-  "lease_commit": "e9afd3fe1b9f4a49ad9b8113664b01946d6524c9",
-  "started_at": "2026-11-06T10:00:56.586612Z",
-  "receipt_started_at": "2026-11-06T10:12:04Z",
+  "lease_holder": "chatgpt:ordinary:a9cf4963-0528-4cbd-ab7c-eef1005f968d",
+  "lease_acquired_at": "2026-11-06T10:37:22.272Z",
+  "lease_commit": "d23afd7bd549b3ea25c634d164fda9229ac65a38",
+  "started_at": "2026-11-06T10:28:59.541909Z",
+  "receipt_started_at": "2026-11-06T10:38:10.921Z",
   "phase": "started",
   "status": "started",
   "scan": {
@@ -43,6 +43,12 @@
     "tinyfish_unlimited_zero_verified": false,
     "tinyfish_production_submission_verified": false
   },
-  "updated_at": "2026-11-06T10:12:04Z",
-  "prior_run_id": "4beb1a4e-566c-832c-820c-ca0844fa4180"
+  "updated_at": "2026-11-06T10:38:10.921Z",
+  "prior_run_id": "04fbf634-1174-8325-8016-387d08d4504d",
+  "prior_receipt": {
+    "execution_instance_id": "965a152a-89f0-470d-9ba5-4984236a662c",
+    "phase": "started",
+    "updated_at": "2026-11-06T10:12:04Z",
+    "note": "Previous execution left started receipt and expired independent lease; do not adopt prior holder or infer prior completion."
+  }
 }
