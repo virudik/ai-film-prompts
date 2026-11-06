@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-06T14:05:13+00:00",
+  "last_updated_at": "2026-11-06T22:29:35.696Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -1196,6 +1196,15 @@
         "film-backlog.md",
         "reports/topview-workflows-2026-10-23.md"
       ]
+    },
+    {
+      "work_id": "SEREGIUS-S73-CREDITS-20261107",
+      "status": "awaiting_validation_and_editorial_review",
+      "project": "seregius",
+      "last_confirmed_action": "Scene73 and editor credits template committed; new video not generated, old scenes71/72 untouched.",
+      "next_action": "Confirm GitHub status health and Pages; fill genuine human contributor credits from verified role list, inspect S28/71 QC and connect final footage. Avoid duplicate Topview submit or credit spend.",
+      "created_at": "2026-11-06T22:29:35.696Z",
+      "updated_at": "2026-11-06T22:29:35.696Z"
     }
   ],
   "rules": [
