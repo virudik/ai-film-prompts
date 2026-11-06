@@ -14,47 +14,104 @@
   "lease_commit": "cf2bd2e212a632c860667906521c70a29f4be9aa",
   "started_at": "2026-11-06T17:57:40.878610Z",
   "receipt_started_at": "2026-11-06T18:02:20.492Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": false,
-    "source": "GitHub robot historical full scan 2026-11-06T17:26:24Z; fresh 2026-11-06T18:00:27Z slot wake; independent live per-board scan pending",
+    "source": "GitHub robot telemetry and bot wake, read-only; no independent contemporaneous live all-page scan possible through ordinary connector",
     "boards_scanned": null,
     "pages_scanned": null,
     "video_tasks_scanned": null,
-    "checked_at": null
+    "checked_at": "2026-11-06T18:10:13.823Z",
+    "source_observation": {
+      "checked_at": "2026-11-06T17:26:24Z",
+      "complete": true,
+      "boards_scanned": 14,
+      "pages_scanned": 16,
+      "video_tasks_scanned": 630,
+      "scope": "all_owned_boards_unlimited_video_tasks",
+      "active_task_ids": [
+        "101221814fd5430697f697f95a3f4252",
+        "365cf639589a4a5da834d70193d5e8f6",
+        "3ebe7c23db05479e9b6f762a75b832e7",
+        "be960f5e3bf54563aff663fed9da8906",
+        "de8e44bb15d64dc7a4eb640d27a726e4"
+      ]
+    },
+    "bot_wake": {
+      "issue": 388,
+      "event_id": "slots:c48ed7e4:13",
+      "observed_at": "2026-11-06T18:00:27Z",
+      "reported_free_slots": 1
+    }
   },
   "slots": {
     "capacity": 6,
     "occupied": null,
     "free": null,
-    "complete_scan_verified": false
+    "complete_scan_verified": false,
+    "last_verified": {
+      "occupied": 5,
+      "free": 1,
+      "checked_at": "2026-11-06T17:26:24Z"
+    }
   },
   "candidate": "S49B",
   "wake_issue": 388,
   "wake_event_id": "slots:c48ed7e4:13",
   "new_submissions": 0,
-  "browser_transport": "not_invoked",
-  "tinyfish_run_ids": [],
-  "tinyfish_steps": 0,
-  "tinyfish_estimated_cost_usd": 0,
-  "tinyfish_confirmed_cost_usd": 0,
+  "browser_transport": "TinyFish saved profile: read-only preparation without Create",
+  "tinyfish_run_ids": [
+    "97f6704a-9c5d-4e59-b864-c3c4b849b25f"
+  ],
+  "tinyfish_steps": 22,
+  "tinyfish_estimated_cost_usd": 0.3565,
+  "tinyfish_confirmed_cost_usd": null,
   "topview_credits_cost": 0,
-  "outcome": "started",
-  "blocker": null,
+  "outcome": "blocked_browser_input",
+  "blocker": "S49B: correct authenticated My First Board opened via saved TinyFish profile; native import of 6 exact originals and dedicated Omni-reference form not reachable in tested UI. Prompt not entered; Unlimited0/visible price0 not verified. No Create, taskID, claim or retry. Persistent detail saved in ops/slot-backup.json:tinyfish_fallback.latest_blocker; no paid re-test of unchanged blocker.",
   "retryable": false,
   "task_ids": [],
   "acceptance": {
     "scheduled_runtime": true,
     "full_scan": false,
-    "tinyfish_current_session_verified": false,
+    "tinyfish_current_session_verified": true,
     "tinyfish_file_upload_verified": false,
     "tinyfish_unlimited_zero_verified": false,
     "tinyfish_production_submission_verified": false,
     "verified_task_id_for_new_submission": false
   },
   "prior_run_id": "151c76a5-3e48-832b-aa03-70c6aec31989",
-  "updated_at": "2026-11-06T18:02:20.492Z",
-  "completed_at": null,
-  "lease_released_at": null
+  "updated_at": "2026-11-06T18:10:13.823Z",
+  "completed_at": "2026-11-06T18:10:13.823Z",
+  "lease_released_at": null,
+  "checked_at": "2026-11-06T18:10:13.823Z",
+  "selected_item": "S49B",
+  "selected_item_priority": 1.21,
+  "queue_sha": "4f880de6954ea55a77c4a720fa54556e424d8113",
+  "queue_reconciliation": {
+    "submitted_count": 15,
+    "active_unknown_claims": 0,
+    "current_item_state": "waiting_for_slot",
+    "item_task_id": null,
+    "complete_task_id_reconciliation_this_run": false
+  },
+  "tinyfish_duration_seconds": 135,
+  "tinyfish_wallet": {
+    "before_usd": 11.872,
+    "after_usd": 11.52,
+    "source": "get_wallet snapshots, difference is not a provider invoice",
+    "auto_reload": "unconfigured"
+  },
+  "owner_tasks": {
+    "open_count": 0,
+    "taken_count": 0
+  },
+  "peer_status": {
+    "work_preferred": true,
+    "last_hh55_automations_id": "2b7835be-7fe8-8323-9617-bbe9671ea882",
+    "last_hh55_status": "no_update",
+    "relay_last_run_id": "9d616c26-5b5c-8326-8ca0-048485656ef8",
+    "relay_last_status": "no_update"
+  }
 }
