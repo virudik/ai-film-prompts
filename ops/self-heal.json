@@ -1,21 +1,24 @@
 {
   "schema_version": 1,
   "rules": "ops/SELF-HEAL.md",
-  "status": "ok",
-  "problems": {},
+  "status": "fixing",
+  "problems": {
+    "run-failed-sync-from-drive": {
+      "text": "Последний запуск «проверка канона и кнопок» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/42273055264",
+      "since": "2026-11-06T18:49:45Z",
+      "fixes": 1,
+      "last_fix_at": "2026-11-06T18:49:45Z",
+      "escalated_at": null
+    },
+    "run-failed-canon-health": {
+      "text": "Последний запуск «здоровье канона» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/42273253484",
+      "since": "2026-11-06T18:49:45Z",
+      "fixes": 1,
+      "last_fix_at": "2026-11-06T18:49:45Z",
+      "escalated_at": null
+    }
+  },
   "log": [
-    {
-      "at": "2026-11-03T22:32:09Z",
-      "kind": "fixed",
-      "key": "run-failed-canon-health",
-      "text": "Нашёл: Последний запуск «здоровье канона» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/41728164706 Сделал: повторил упавший запуск «здоровье канона»."
-    },
-    {
-      "at": "2026-11-03T22:49:24Z",
-      "kind": "escalated",
-      "key": "run-failed-canon-health",
-      "text": "Не чинится само: Последний запуск «здоровье канона» на GitHub упал (попытка 2): https://github.com/virudik/ai-film-prompts/actions/runs/41728164706 Передал агенту (задача в списке под очередью)."
-    },
     {
       "at": "2026-11-03T23:19:22Z",
       "kind": "resolved",
@@ -123,7 +126,19 @@
       "kind": "resolved",
       "key": "lock-forgotten",
       "text": "Прошло: Замок канона (chatgpt:ordinary:d793beda-169e-49a5-adf7-b595625ce027) истёк 06.11 16:31 UTC и не снят."
+    },
+    {
+      "at": "2026-11-06T18:49:45Z",
+      "kind": "fixed",
+      "key": "run-failed-sync-from-drive",
+      "text": "Нашёл: Последний запуск «проверка канона и кнопок» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/42273055264 Сделал: повторил упавший запуск «проверка канона и кнопок»."
+    },
+    {
+      "at": "2026-11-06T18:49:45Z",
+      "kind": "fixed",
+      "key": "run-failed-canon-health",
+      "text": "Нашёл: Последний запуск «здоровье канона» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/42273253484 Сделал: повторил упавший запуск «здоровье канона»."
     }
   ],
-  "changed_at": "2026-11-06T17:49:38Z"
+  "changed_at": "2026-11-06T18:49:45Z"
 }
