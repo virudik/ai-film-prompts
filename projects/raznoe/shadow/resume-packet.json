@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-06T04:23:58+00:00",
-  "source_head": "5676f61074c80e59a3bc4f8f8641c3fe346c5bc9",
-  "source_fingerprint": "0ee47ed3170d80ebf29dc5915c36e1ca2949933cc6e7212854758f10ff481731",
+  "checked_at": "2026-11-06T04:31:30+00:00",
+  "source_head": "b2a2e4ba26b728bc7d167b2ec14701c3d293cf53",
+  "source_fingerprint": "6333c88db350202487feebe05979d5c421e8642b3a00a45d1e1fa88f39412f05",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -230,13 +230,13 @@
     },
     {
       "file": "projects/raznoe/HANDOFF.md",
-      "sha256": "90f80d4835feeb012b725ba0eaa295bced5b8e791439ae7476f43f716d1fe3ba",
-      "bytes": 10993
+      "sha256": "bb827f7d0aef90bc0aca29761a8d087ba9a1642645fd6cee4a1fa067efc0e4e3",
+      "bytes": 11686
     },
     {
       "file": "projects/raznoe/INSTRUCTIONS.md",
-      "sha256": "52349e5071a58c0cd13ff16fe9ca9f15e1c09840bed34202d764fd6d70f35ebb",
-      "bytes": 2200
+      "sha256": "ec1f3df48c46edb6245660cf1381e258a845fd4d54b07248dc21039c72e903d8",
+      "bytes": 2363
     },
     {
       "file": "projects/raznoe/ops/topview-launch-queue.json",
@@ -245,8 +245,8 @@
     },
     {
       "file": "projects/raznoe/project-status.json",
-      "sha256": "85ae501325c7bb400e9bd9b8b7e63907bb81c5fa086ec65dc738c0d2f49ad15d",
-      "bytes": 8614
+      "sha256": "03191be52eb4ba84806e2f5915b80738d46512db84f07c99cb630efc097eee11",
+      "bytes": 8916
     },
     {
       "file": "projects/raznoe/references/darya.png",
@@ -280,8 +280,8 @@
     },
     {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
-      "sha256": "f291c7eaf4756024a24adc0752e181b7c10b0157c71d1aedbc1c7fdae4b15951",
-      "bytes": 30693
+      "sha256": "1c3116229701e5a17236126c631acfb3969228c4b1e61bd2a7f704dbbb7b707f",
+      "bytes": 31902
     },
     {
       "file": "projects/raznoe/reports/handoff-receipts.json",
@@ -290,13 +290,13 @@
     },
     {
       "file": "projects/raznoe/video-prompts.md",
-      "sha256": "bbb5837ba2adf230fc143a9fa0ee4d3c83a08b8d333ab4897dc175ec6cb19c7d",
-      "bytes": 291379
+      "sha256": "a6cc812a8bc8fc67382cb093d025ed027bfb90b14fd6983a7221233be6a9b8d2",
+      "bytes": 338381
     },
     {
       "file": "projects/raznoe/work-resume-register.json",
-      "sha256": "0f50868467177ecf1e0fbbbd38dede7b1d0120df25e8b4dc50dc443cc483e05f",
-      "bytes": 11804
+      "sha256": "24b640ec99d7bd8101d8ca72d96d2ca55672b5f5ba6924e507df1908b4ca6147",
+      "bytes": 14340
     },
     {
       "file": "reports/seregius-topview-production-audit-2026-11-02.md",
