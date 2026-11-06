@@ -4,11 +4,11 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**06.11.2026 · 4 сцены к генерации/доработке · 38 полных текста промта (сцены 1–2 без изменений; сцена 3 RESOURCE без изменений; сцена 4 HONOR: три варианта, у каждого Wan 30 с и Seedance 2 × 15 с) · три кадра настроения сцены 4 не одобрены; все сцены DRAFT, видео не запускались.**
+**06.11.2026 · 4 сцены к генерации/доработке · 65 полных текста промта (сцены 1–2 и сцена 3 RESOURCE без изменений; сцена 4 HONOR: три ролика по 120 с, у каждого 4 клипа Wan по 30 с и 8 клипов Seedance по 15 с) · три кадра настроения не одобрены; все сцены DRAFT, видео не запускались.**
 
 - **🛠️ 0** рабочих направлений W.
 - **⏳ 0** сцен сейчас в медленной генерации: **нет**.
-- **Последняя полная синхронизация:** **06.11.2026 · сцена 4 HONOR добавлена отдельным пакетом из трёх вариантов; сцена 3 RESOURCE и сцены 1–2 не переписывались; видео не запускались.**
+- **Последняя полная синхронизация:** **06.11.2026 · сцена 4 HONOR расширена: каждый из трёх вариантов стал роликом на 120 с монтажа; сцена 3 RESOURCE не переписывалась; видео не запускались.**
 
 **Референсы · 02.11.2026:** **59/59** сохранены: сцена 1 — **26/26**, сцена 2 — **33/33**. Все `not_approved`, ожидают просмотра владельцем. [Исходное задание](projects/raznoe/references/GPT-TASK.md) · [реестр](projects/raznoe/references/generation-progress.json). **Разрешения на платные видео нет.**
 
@@ -19,11 +19,11 @@
 | 1 | [Тихий маяк — история Ярика](#scene-1) | Ярик, мама Лена, Соня, Анна Сергеевна, пёс Бублик, Варя | Мальчик с особенностями развития рассказывает о громком внутреннем мире и о людях, которые становятся его маяком. 4 ролика по 30 с (B1–B4) или 8 подсцен по 15 с (A1–A8) |
 | 2 | [Тихая планета — история Мирона](#scene-2) | Мирон, мама Вера, бабушка Нина, Дарья Андреевна, доктор Марк Львович, парикмахер Лиля, лошадь Туман | Мальчик с аутизмом рассказывает о громком мире, трудных днях, бабушке, которая нашла помощь, успехах, школе и надежде. Структура рилса, вертикаль 9:16, 4 ролика по 30 с или 8 по 15 с |
 | 3 | [RESOURCE](#scene-3) | Инженер (лист 45726), работница сортировки | Фотореал 16:9, около 30 с: мастерская и синий контейнер, затем завод, шредер, хлопья и полимерный захват. Исходник Grok Imagine 2 × 15 с. Не одобрено |
-| 4 | [HONOR](#scene-4) | изделие не выбрано; пустой прокси | Три ролика по 30 с: реализм, 3D, рисовка. Кадры только настроение. Не одобрено |
+| 4 | [HONOR](#scene-4) | изделие не выбрано; пустой прокси | Три ролика по 120 с: реализм, 3D, рисовка. Кадры только настроение. Не одобрено |
 
 ## Сцены в работе
 
-Сцены 1 и 2 — **DRAFT**; все **26/26** и **33/33** референсов технически готовы, но **not_approved**. Сцена 3 RESOURCE — отдельный фотореал 16:9, тоже **DRAFT** и **not_approved**; десять исходных кадров на месте, металлический финал только в архиве. Платных и бесплатных видеозапусков нет, очередь не менялась. Следующий шаг по сценам 1–2 — художественная проверка и выбор клиентского объёма. Сцена 4 HONOR — отдельный черновик из трёх вариантов, not_approved; модель не выбрана. Старые космические сцены — в проекте «Роскосмос».
+Сцены 1 и 2 — **DRAFT**; все **26/26** и **33/33** референсов технически готовы, но **not_approved**. Сцена 3 RESOURCE — отдельный фотореал 16:9, тоже **DRAFT** и **not_approved**; десять исходных кадров на месте, металлический финал только в архиве. Платных и бесплатных видеозапусков нет, очередь не менялась. Следующий шаг по сценам 1–2 — художественная проверка и выбор клиентского объёма. Сцена 4 HONOR — три ролика по 120 с каждый, not_approved; модель не выбрана. Старые космические сцены — в проекте «Роскосмос».
 
 <a id="misc-pricing"></a>
 ## Стоимость производства (простыми словами, редакция 03.11.2026, версия 3)
@@ -2781,115 +2781,265 @@ The final image should communicate that discarded plastic has become a useful en
 7. Keep the same transparent plastic bottle visually consistent throughout Video 1.
 8. Do not show the main engineer in Video 2.
 9. Preserve the intended visual progression: ordinary waste → separate collection → industrial sorting → shredding → recycled plastic flakes → 3D-printed engineering component.
-</pre>
-
-<a id="scene-4"></a>
+</pr<a id="scene-4"></a>
 ## Сцена 4 — HONOR
 
-<!-- scene-meta: {"target_engine":"уточнить","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","pitch","landscape_16x9","mood_refs_only","not_approved","raznoe_scene_4"]} -->
+<!-- scene-meta: {"target_engine":"уточнить","production_state":"DRAFT","duration_s":120,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["owner_requested","draft","pitch","landscape_16x9","mood_refs_only","not_approved","raznoe_scene_4","three_films_120s"]} -->
 
-**Контекст использования:** отдельная сцена-пакет в «Разном», по устройству карточки как сцены Роскосмоса: история, кадры по времени, закадр, карта референсов и готовые тексты промтов. Три варианта — реализм, 3D и рисовка — живут внутри этой одной сцены. Это не RESOURCE и не перестановка Роскосмоса. Предлагаемая длина каждого варианта 30 секунд. Площадка не задана, старт — горизонталь 16:9. Тексты не являются снятым видео.
+**Контекст использования:** та же сцена 4. Теперь каждый из трёх вариантов — отдельный рекламный ролик на 120 секунд готового монтажа. Вместе это шесть минут предложений, не один фильм и не три новые сцены. Это не RESOURCE и не Роскосмос. Площадка не задана; старт — горизонталь 16:9. Тексты не сняты.
 
-**Концепт-кадры. Модель устройства не выбрана; продуктовый кадр требует утверждённых референсов.** Три PNG ниже — только настроение и стилистика. Они не фиксируют форму, камеры, кнопки и грани телефона и не являются раскадровкой каждого плана.
+**Концепт-кадры. Модель устройства не выбрана; продуктовый кадр требует утверждённых референсов.** Три PNG — только настроение. Они не фиксируют корпус и не покрывают двухминутную раскадровку.
 
-**Что происходит:** у всех трёх вариантов один приём. Внимание собирается вокруг пустого места, куда позже встанет настоящее изделие. Свет, металл и рисунок — метафоры, не доказательство функций.
+**Счёт времени, один вариант.** Модели в этом репозитории не собирают 120 с одним клипом. Wan 3.0 и тот же текст для Seedance 2.5 — клип до 30 с. Seedance 2.0 — клип до 15 с. Поэтому 4 × 30 = 120 и 8 × 15 = 120. Последние 3 с предыдущего клипа — вход для стыка, не вторая копия времени и не повод вычитать 3 с на каждом склее. Семь склеек по 3 с дали бы 99 с, если бы хвост повторялся и вырезался; в этой таблице повтора нет.
 
-**С чего пробовать:** вариант 3D «Скульптурная сцена». Он уже говорит языком предметной рекламы и не притворяется фотографией телефона. Реализм второй, когда будет утверждённый фронт. Рисовка — третий, отдельный тон.
+**С чего пробовать:** по-прежнему 3D «Скульптурная сцена». Реализм второй. Рисовка третья.
 
-**Готовность:** DRAFT, not_approved. В очередь не ставилось. Видео не запускалось. Пока нет слота H-FRONT, ни один вариант не является готовым к производству.
-
-**Референсы настроения, не листы изделия:**
-
-| Файл | Вариант | Что фиксирует | Чего не фиксирует |
-|---|---|---|---|
-| `projects/raznoe/references/scenes/scene-4/01-honor-realism.png` | реализм, «Неоновый орбитал» | ночь, дождь, циан и маджента, пустой прокси | модель, объектив, точный первый кадр |
-| `projects/raznoe/references/scenes/scene-4/02-honor-3d.png` | 3D, «Скульптурная сцена» | золото, жемчуг, стекло, пустой прокси | чертёж корпуса |
-| `projects/raznoe/references/scenes/scene-4/03-honor-drawn.png` | рисовка, «Штрих → мир» | бумага, индиго, волна, крыши, фонари, птицы, золотой контур | один физический непрерывный штрих, форма изделия |
+**Готовность:** DRAFT, not_approved. Очередь не менялась. Видео не запускалось. Короткий пакет на 30 с снят с активного мастера и лежит в архиве: `projects/raznoe/archive/scene-4/short-30s-2026-11-06.md`.
 
 <div class="scene-ref-gallery"><figure><a href="projects/raznoe/references/scenes/scene-4/01-honor-realism.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-4/01-honor-realism.png" alt="01 · Неоновый орбитал · реализм · только настроение · не одобрено" loading="lazy"></a><figcaption>01 · Неоновый орбитал · реализм · только настроение · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-4/02-honor-3d.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-4/02-honor-3d.png" alt="02 · Скульптурная сцена · 3D · только настроение · не одобрено" loading="lazy"></a><figcaption>02 · Скульптурная сцена · 3D · только настроение · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-4/03-honor-drawn.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-4/03-honor-drawn.png" alt="03 · Штрих → мир · рисовка · только настроение · не одобрено" loading="lazy"></a><figcaption>03 · Штрих → мир · рисовка · только настроение · не одобрено</figcaption></figure></div>
 
-**Слоты, которых нет. Ссылок на них нет, потому что файлов нет:**
+**Чего нет, без пустых ссылок:**
 
 | Слот | Зачем | Состояние |
 |---|---|---|
-| H-FRONT | утверждённый фронт выбранной модели, замена прокси в финальном hold всех трёх вариантов | нет файла |
-| H-BACK | утверждённый вид сзади | нет файла |
-| H-CAM | блок камер выбранной модели, только если он есть у неё | нет файла, не выдумывать |
-| H-34 | утверждённые три четверти | нет файла |
-| H-LOGO | логотип и фирменный шрифт только для монтажа | нет файла, в генерацию не класть |
+| H-FRONT | утверждённый фронт, замена прокси на финальном удержании каждого ролика | нет файла |
+| H-BACK | вид сзади | нет файла |
+| H-CAM | блок камер выбранной модели, только если он у неё есть | нет файла, не выдумывать |
+| H-34 | три четверти | нет файла |
+| H-LOGO | логотип и шрифт только в монтаже | нет файла |
+| Кадры открытия, поворота и финала с изделием | отдельные рисунки планов двух минут | не заказывались |
 
-**Уточнить до производства:** конкретная модель, аудитория, площадка, финальная длина, право использовать марку. Слова владельца о возможном показе коммерческой стороне — пожелание к будущему питчу, не установленный факт о компании и не поручение кому-либо писать.
+**Уточнить:** модель, аудитория, площадка, финальная длина, право на марку. Пожелание показать ролик коммерческой стороне — не установленный факт о компании.
 
 ### 3D · Скульптурная сцена
 
-**История, 30 с, предложение:** В тёмной студии ленты золота, матового жемчуга и стекла ещё разрознены. Они стекаются и собирают скульптурную сцену вокруг пустого матового прямоугольника. Лицо прямоугольника не закрывается. В конце камера медленно обходит готовую сцену и оставляет центр пустым: туда позже встанет утверждённый фронт изделия, слот H-FRONT. Металл и стекло — метафора сборки внимания, не функция устройства.
+**История на 120 с готового монтажа:** За две минуты разрозненные золото, жемчуг и стекло спорят, едва не закрывают середину и сами отступают, затем собирают сцену вокруг пустого центра. Желание направлено на место, которое готовят для вещи, а не на выдуманную функцию.
 
-**Кадр за кадром:**
+**Кадр за кадром.** Восемь кусков по 15 с без дыр и нахлёстов. Сумма 120 с.
 
-| Время | Кадр | Чем обеспечен |
+| Время | Действие | Референс |
 |---|---|---|
-| 0:00–0:06 | Пустая студия, материалы ещё врозь | настроение кадра 02, не геометрия изделия |
-| 0:06–0:14 | Ленты золота, жемчуга и стекла стекаются, не закрывая лицо прокси | настроение кадра 02 |
-| 0:14–0:22 | Сцена и тонкие кольца собраны | настроение кадра 02; H-FRONT ещё не подставлен |
-| 0:22–0:30 | Медленный обход и удержание пустого центра | слот H-FRONT отсутствует, в генерации не заменять выдуманным телефоном |
+| 0:00–0:15 | Чёрная студия. Одна золотая нить плывёт и исчезает. Прокси ещё нет. | настроение кадра, не отдельный раскадр |
+| 0:15–0:30 | Жемчужная лента пересекает путь нити и промахивается. Обе уходят. | настроение кадра, не отдельный раскадр |
+| 0:30–0:45 | Снизу поднимается стекло. В центре проявляется пустой матовый прямоугольник, ещё небольшой. | настроение кадра, не отдельный раскадр |
+| 0:45–1:00 | Материалы кружат. Золото почти закрывает лицо прокси и само отклеивается. | настроение кадра, не отдельный раскадр |
+| 1:00–1:15 | Золото, жемчуг и стекло перестают спорить и начинают собирать кольца. | настроение кадра, не отдельный раскадр |
+| 1:15–1:30 | Крещендо: сцена сходится, свет находит пустой центр, оборот ускоряется и стихает. | настроение кадра, не отдельный раскадр |
+| 1:30–1:45 | Тихий обход. Только отражения. Лицо по-прежнему пустое. | настроение кадра, не отдельный раскадр |
+| 1:45–2:00 | Удержание пустого центра под будущий фронт изделия. Без титра и без логотипа. | настроение кадра, не отдельный раскадр |
 
-**Закадр — предложение автора, не утверждено, не факт о товаре:**
+Кадр настроения `projects/raznoe/references/scenes/scene-4/02-honor-3d.png` не является раскадровкой этих восьми планов. Отдельных кадров на открытие, поворот и финал с настоящим изделием нет: файлов не создавали и ссылок на них нет.
 
-- [0:04–0:10] «Свет ещё не предмет.»
-- [0:12–0:20] «Он только собирает сцену.»
-- [0:22–0:28] «Середина пока пустая. Так и задумано.»
+**Закадр — предложение автора, не утверждено, не факт о товаре.** Между репликами тишина.
 
-В генерацию 15-секундных частей эти фразы не вкладывать: их кладёт монтаж. В 30-секундном тексте Wan они даны как единственные допустимые слова, без добавлений.
+- [0:12–0:18] «Одна нить.»
+- [0:32–0:40] «Она ищет форму.»
+- [0:55–1:05] «Чуть не закрыла середину. И отступила.»
+- [1:22–1:32] «Сцена готова.»
+- [1:50–1:58] «Середина ждёт вещь, которую вы выберете.»
 
-**Монтаж и марка:** логотип, шрифт и слот H-FRONT ставятся после генерации, отдельным слоем. Пока файлов нет, финал остаётся с пустым прокси. Не писать на картинке название марки.
+**Титр для монтажа, не для генерации:** «Сначала сцена.»
 
-**Статус варианта:** DRAFT, not_approved. Это не готовый ролик и не разрешение на запуск.
+**Стык и счёт.** Wan: 4 клипа × 30 с = 120 с. Seedance 2.0: 8 клипов × 15 с = 120 с. Последние 3 с предыдущего клипа — только вход @Video1. Их не прибавляют и не вычитают. Если модель повторит хвост внутри нового клипа, это дефект: вырезать фактический повтор, а не считать фильм заранее короче.
+
+**Монтаж:** слот H-FRONT ставится на финальное удержание. Логотип и титр — отдельным слоем. Пока файлов нет, в кадре остаётся пустой прокси.
+
+**Статус:** DRAFT, not_approved. Не снято и не готово к производству без модели и слотов ниже.
 
 <div class="engine-tabs" data-scene="4">
 
 <div class="engine-pane" data-engine="wan30">
 
-#### 4 · 3D · Wan 3.0 · 30 с
+#### 4 · 3D · Wan 3.0 часть 1 · клип 30 с
 
-**Входы:** @Image1 = `projects/raznoe/references/scenes/scene-4/02-honor-3d.png`. Кадр настроения, не чертёж изделия. Слоты H-FRONT, H-BACK, H-CAM, H-34 файлов не имеют.
+**Входы:** см. блок ниже. Клип 1 из 4, плёнка 0:00–0:30.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 / Seedance 2.5 | Unofficial concept | Proposed duration 30s for the whole treatment | Not a finished render
+Optimized for Wan 3.0 / Seedance 2.5 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — mood and style only, «Скульптурная сцена»: gold, pearl and glass ribbons around a matte black blank proxy. It does not lock a phone's geometry, cameras or edges. File: projects/raznoe/references/scenes/scene-4/02-honor-3d.png.
-Priority: Image1 controls only palette, material character and the fact of an empty center. It must not invent cameras, buttons, a notch or a brand. Missing slots H-FRONT, H-BACK, H-CAM and H-34 have no files and must not be hallucinated.
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/02-honor-3d.png.
+Image1 is style and palette only.
+Mood still «Скульптурная сцена» matches the assembled stage in the last minute only. It does not depict the opening thread or the near-miss.
+
+STYLE LOCK:
+Premium 3D CGI, sculptural gold, pearl and glass. No photoreal city and no ink.
 
 PRODUCT / PROXY LOCK — CRITICAL:
-The centered dark rectangle is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone model and not a specification. Do not refine it into a device. Leave the face empty so slot H-FRONT can replace it in editing. Any brand name or logo is a later editing asset, never generated lettering. Light, metal and ink are metaphors. They are not evidence of a camera, a battery, durability or any other function. This block is a draft prompt, not a rendered commercial.
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
 
 START STATE:
-The studio is quiet. Gold, pearl and glass are still separate. The proxy is already centered and blank.
+Black studio. One gold thread drifts across and leaves. No proxy yet.
 
 TIMELINE:
-[0:00–0:06] The studio is quiet. Gold, pearl and glass are still separate. The proxy is already centered and blank.
-[0:06–0:14] Ribbons flow in and assemble the stage. They never cover the face.
-[0:14–0:22] Thin rings settle. The face remains an empty slot.
-[0:22–0:30] A slow orbit and a hold. No logo and no end card.
+[0:00–0:15] Film 0:00–0:15. Black studio. One gold thread drifts across and leaves. No proxy yet.
+[0:15–0:30] Film 0:15–0:30. A pearl ribbon crosses the thread's path and misses. Both leave the frame.
 
 END STATE:
-The empty center is held. No logo, no end card, no device details.
+A pearl ribbon crosses the thread's path and misses. Both leave the frame. Hold the last 3 seconds as a readable handoff, without a fade.
 
 CAMERA / SPACE:
-Landscape 16:9. The empty proxy stays large enough to replace later. No portrait crop, no side bars, no letterbox. One readable move, then a hold.
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
 
 PERFORMANCE:
-No person. Materials have weight and do not freeze into a poster until the last hold.
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
 
 LIGHTING / MATERIALS:
-Charcoal studio, champagne rim light, brushed gold, frosted glass and pearl. The proxy stays matte and blank.
+Stay inside this treatment's materials only.
 
 AUDIO:
-Proposed author voice-over, not an approved claim and not a product fact. A calm Russian voice speaks only these lines and no others: [0:04–0:10] «Свет ещё не предмет.» [0:12–0:20] «Он только собирает сцену.» [0:22–0:28] «Середина пока пустая. Так и задумано.» No extra sentence, no specification, no brand name, no sung slogan. Original quiet music under the voice. No known commercial track.
+Proposed author voice-over only, not an approved claim and not a product fact. Speak only these Russian lines, at those film times, and leave the rest of the clip without speech: [0:12–0:18] «Одна нить.» No extra sentence, no brand name, no specification. Original quiet music underneath. No known commercial track.
 
 NEGATIVE PROMPT:
-Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, glass reflections of a logo, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness. The dark rectangle stays a blank compositing proxy.
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+#### 4 · 3D · Wan 3.0 часть 2 · клип 30 с
+
+**Входы:** см. блок ниже. Клип 2 из 4, плёнка 0:30–1:00.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/02-honor-3d.png.
+@Video1 — last 3 seconds of Wan part 1 of THIS treatment only. Conditioning input for the cut. Do not replay those 3 seconds. This 30 seconds is new story time.
+Image1 is style and palette only.
+Mood still «Скульптурная сцена» matches the assembled stage in the last minute only. It does not depict the opening thread or the near-miss.
+
+STYLE LOCK:
+Premium 3D CGI, sculptural gold, pearl and glass. No photoreal city and no ink.
+
+PRODUCT / PROXY LOCK — CRITICAL:
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+
+START STATE:
+Cut forward from the end of the previous Wan clip. New action: Glass rises from below. A small blank matte rectangle fades in at the center.
+
+TIMELINE:
+[0:00–0:15] Film 0:30–0:45. Glass rises from below. A small blank matte rectangle fades in at the center.
+[0:15–0:30] Film 0:45–1:00. Materials circle. Gold nearly seals the proxy face, then peels away by itself.
+
+END STATE:
+Materials circle. Gold nearly seals the proxy face, then peels away by itself. Hold the last 3 seconds as a readable handoff, without a fade.
+
+CAMERA / SPACE:
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
+
+PERFORMANCE:
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
+
+LIGHTING / MATERIALS:
+Stay inside this treatment's materials only.
+
+AUDIO:
+Proposed author voice-over only, not an approved claim and not a product fact. Speak only these Russian lines, at those film times, and leave the rest of the clip without speech: [0:32–0:40] «Она ищет форму.» No extra sentence, no brand name, no specification. Original quiet music underneath. No known commercial track.
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+#### 4 · 3D · Wan 3.0 часть 3 · клип 30 с
+
+**Входы:** см. блок ниже. Клип 3 из 4, плёнка 1:00–1:30.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/02-honor-3d.png.
+@Video1 — last 3 seconds of Wan part 2 of THIS treatment only. Conditioning input for the cut. Do not replay those 3 seconds. This 30 seconds is new story time.
+Image1 is style and palette only.
+Mood still «Скульптурная сцена» matches the assembled stage in the last minute only. It does not depict the opening thread or the near-miss.
+
+STYLE LOCK:
+Premium 3D CGI, sculptural gold, pearl and glass. No photoreal city and no ink.
+
+PRODUCT / PROXY LOCK — CRITICAL:
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+
+START STATE:
+Cut forward from the end of the previous Wan clip. New action: Gold, pearl and glass stop competing and start building rings.
+
+TIMELINE:
+[0:00–0:15] Film 1:00–1:15. Gold, pearl and glass stop competing and start building rings.
+[0:15–0:30] Film 1:15–1:30. Crescendo: the stage locks, light finds the empty center, the orbit speeds up and then calms.
+
+END STATE:
+Crescendo: the stage locks, light finds the empty center, the orbit speeds up and then calms. Hold the last 3 seconds as a readable handoff, without a fade.
+
+CAMERA / SPACE:
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
+
+PERFORMANCE:
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
+
+LIGHTING / MATERIALS:
+Stay inside this treatment's materials only.
+
+AUDIO:
+Silence except original quiet music and motivated ambience. No speech in this clip. No known commercial track.
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+#### 4 · 3D · Wan 3.0 часть 4 · клип 30 с
+
+**Входы:** см. блок ниже. Клип 4 из 4, плёнка 1:30–2:00.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/02-honor-3d.png.
+@Video1 — last 3 seconds of Wan part 3 of THIS treatment only. Conditioning input for the cut. Do not replay those 3 seconds. This 30 seconds is new story time.
+Image1 is style and palette only.
+Mood still «Скульптурная сцена» matches the assembled stage in the last minute only. It does not depict the opening thread or the near-miss.
+
+STYLE LOCK:
+Premium 3D CGI, sculptural gold, pearl and glass. No photoreal city and no ink.
+
+PRODUCT / PROXY LOCK — CRITICAL:
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+
+START STATE:
+Cut forward from the end of the previous Wan clip. New action: A quiet orbit. Reflections only. The face is still blank.
+
+TIMELINE:
+[0:00–0:15] Film 1:30–1:45. A quiet orbit. Reflections only. The face is still blank.
+[0:15–0:30] Film 1:45–2:00. Hold the empty center for a later product front. No end card and no logo.
+
+END STATE:
+Hold the empty center for a later product front. No end card and no logo. Final hold of this 120-second film. No fade, no generated slogan.
+
+CAMERA / SPACE:
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
+
+PERFORMANCE:
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
+
+LIGHTING / MATERIALS:
+Stay inside this treatment's materials only.
+
+AUDIO:
+Proposed author voice-over only, not an approved claim and not a product fact. Speak only these Russian lines, at those film times, and leave the rest of the clip without speech: [1:50–1:58] «Середина ждёт вещь, которую вы выберете.» No extra sentence, no brand name, no specification. Original quiet music underneath. No known commercial track.
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
 
 FRAME FILL / NO BARS:
 Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
@@ -2899,90 +3049,384 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 
 <div class="engine-pane" data-engine="sd20x2">
 
-#### 4 · 3D · Seedance 2.0 часть 1 · 15 с
+#### 4 · 3D · Seedance 2.0 часть 1 · клип 15 с
 
-**Входы:** @Image1 = `projects/raznoe/references/scenes/scene-4/02-honor-3d.png`.
+**Входы:** см. блок ниже. Клип 1 из 8, плёнка 0:00–0:15.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Unofficial concept | Proposed duration 30s for the whole treatment | Not a finished render
+Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — mood and style only, «Скульптурная сцена»: gold, pearl and glass ribbons around a matte black blank proxy. It does not lock a phone's geometry, cameras or edges. File: projects/raznoe/references/scenes/scene-4/02-honor-3d.png.
-Priority: Image1 controls only palette, material character and the fact of an empty center. It must not invent cameras, buttons, a notch or a brand. Missing slots H-FRONT, H-BACK, H-CAM and H-34 have no files and must not be hallucinated. This is part 1 of this treatment only.
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/02-honor-3d.png.
+Image1 is style and palette only.
+Mood still «Скульптурная сцена» matches the assembled stage in the last minute only. It does not depict the opening thread or the near-miss.
+
+STYLE LOCK:
+Premium 3D CGI, sculptural gold, pearl and glass. No photoreal city and no ink.
 
 PRODUCT / PROXY LOCK — CRITICAL:
-The centered dark rectangle is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone model and not a specification. Do not refine it into a device. Leave the face empty so slot H-FRONT can replace it in editing. Any brand name or logo is a later editing asset, never generated lettering. Light, metal and ink are metaphors. They are not evidence of a camera, a battery, durability or any other function. This block is a draft prompt, not a rendered commercial.
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
 
 START STATE:
-Materials flow in toward the blank proxy.
+Black studio. One gold thread drifts across and leaves. No proxy yet.
 
 TIMELINE:
-[0:00–0:07] Materials flow in toward the blank proxy.
-[0:07–0:15] The stage starts to form. Keep continuous motion through the last 3 seconds. No fade.
+[0:00–0:15] Film 0:00–0:15. Black studio. One gold thread drifts across and leaves. No proxy yet.
 
 END STATE:
-Motion is still alive. The center is blank. No fade and no end card.
+Black studio. One gold thread drifts across and leaves. No proxy yet. Last 3 seconds stay readable for the next clip. No fade.
 
 CAMERA / SPACE:
-Landscape 16:9. The empty proxy stays large enough to replace later. No portrait crop, no side bars, no letterbox. End with three seconds of continuous motion for the Seedance handoff.
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
 
 PERFORMANCE:
-No person. Materials have weight and do not freeze into a poster until the last hold.
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
 
 LIGHTING / MATERIALS:
-Charcoal studio, champagne rim light, brushed gold, frosted glass and pearl. The proxy stays matte and blank.
+Stay inside this treatment's materials only.
 
 AUDIO:
-Do not generate speech. Leave room for an editorial voice-over that will be added later. The proposed lines are not to be spoken by the model. Original quiet music and motivated ambience only. No known commercial track.
+Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
 
 NEGATIVE PROMPT:
-Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, glass reflections of a logo, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness. The dark rectangle stays a blank compositing proxy.
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
 
 FRAME FILL / NO BARS:
 Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
 ```
 
-#### 4 · 3D · Seedance 2.0 часть 2 · 15 с
+#### 4 · 3D · Seedance 2.0 часть 2 · клип 15 с
 
-**Входы:** @Video1 — последние 3 секунды фактической части 1 этого же варианта; до результата часть 2 не запускать. @Image1 = `projects/raznoe/references/scenes/scene-4/02-honor-3d.png`.
+**Входы:** см. блок ниже. Клип 2 из 8, плёнка 0:15–0:30.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Unofficial concept | Proposed duration 30s for the whole treatment | Not a finished render
+Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — mood and style only, «Скульптурная сцена»: gold, pearl and glass ribbons around a matte black blank proxy. It does not lock a phone's geometry, cameras or edges. File: projects/raznoe/references/scenes/scene-4/02-honor-3d.png.
-@Video1 — the last 3 seconds of the actual part 1 of THIS treatment. Do not launch part 2 before that result exists. This is not an already rendered clip.
-Priority: @Video1 owns the opening motion. Image1 then keeps palette and the blank center. Do not restart the story.
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/02-honor-3d.png.
+@Video1 — last 3 seconds of Seedance part 1 of THIS treatment only. Conditioning input, not repeated output. This 15 seconds is new story time.
+Image1 is style and palette only.
+Mood still «Скульптурная сцена» matches the assembled stage in the last minute only. It does not depict the opening thread or the near-miss.
+
+STYLE LOCK:
+Premium 3D CGI, sculptural gold, pearl and glass. No photoreal city and no ink.
 
 PRODUCT / PROXY LOCK — CRITICAL:
-The centered dark rectangle is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone model and not a specification. Do not refine it into a device. Leave the face empty so slot H-FRONT can replace it in editing. Any brand name or logo is a later editing asset, never generated lettering. Light, metal and ink are metaphors. They are not evidence of a camera, a battery, durability or any other function. This block is a draft prompt, not a rendered commercial.
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
 
 START STATE:
-Start on the moving end of @Video1. The center is still the blank proxy.
+Cut forward from the previous Seedance clip. New action: A pearl ribbon crosses the thread's path and misses. Both leave the frame.
 
 TIMELINE:
-[0:00–0:06] Finish the stage without covering the face.
-[0:06–0:15] Slow orbit and hold on the empty center.
+[0:00–0:15] Film 0:15–0:30. A pearl ribbon crosses the thread's path and misses. Both leave the frame.
 
 END STATE:
-Hold on the empty center. No logo.
+A pearl ribbon crosses the thread's path and misses. Both leave the frame. Last 3 seconds stay readable for the next clip. No fade.
 
 CAMERA / SPACE:
-Landscape 16:9. The empty proxy stays large enough to replace later. No portrait crop, no side bars, no letterbox. Continue the same style. Do not switch treatment.
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
 
 PERFORMANCE:
-No person. Materials have weight and do not freeze into a poster until the last hold.
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
 
 LIGHTING / MATERIALS:
-Charcoal studio, champagne rim light, brushed gold, frosted glass and pearl. The proxy stays matte and blank.
+Stay inside this treatment's materials only.
 
 AUDIO:
-Do not generate speech. Leave room for an editorial voice-over that will be added later. The proposed lines are not to be spoken by the model. Original quiet music and motivated ambience only. No known commercial track. Continue the music from @Video1 without a new fanfare.
+Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
 
 NEGATIVE PROMPT:
-Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, glass reflections of a logo, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness. The dark rectangle stays a blank compositing proxy.
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+#### 4 · 3D · Seedance 2.0 часть 3 · клип 15 с
+
+**Входы:** см. блок ниже. Клип 3 из 8, плёнка 0:30–0:45.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/02-honor-3d.png.
+@Video1 — last 3 seconds of Seedance part 2 of THIS treatment only. Conditioning input, not repeated output. This 15 seconds is new story time.
+Image1 is style and palette only.
+Mood still «Скульптурная сцена» matches the assembled stage in the last minute only. It does not depict the opening thread or the near-miss.
+
+STYLE LOCK:
+Premium 3D CGI, sculptural gold, pearl and glass. No photoreal city and no ink.
+
+PRODUCT / PROXY LOCK — CRITICAL:
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+
+START STATE:
+Cut forward from the previous Seedance clip. New action: Glass rises from below. A small blank matte rectangle fades in at the center.
+
+TIMELINE:
+[0:00–0:15] Film 0:30–0:45. Glass rises from below. A small blank matte rectangle fades in at the center.
+
+END STATE:
+Glass rises from below. A small blank matte rectangle fades in at the center. Last 3 seconds stay readable for the next clip. No fade.
+
+CAMERA / SPACE:
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
+
+PERFORMANCE:
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
+
+LIGHTING / MATERIALS:
+Stay inside this treatment's materials only.
+
+AUDIO:
+Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. Editor may later place: [0:32–0:40] «Она ищет форму.»
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+#### 4 · 3D · Seedance 2.0 часть 4 · клип 15 с
+
+**Входы:** см. блок ниже. Клип 4 из 8, плёнка 0:45–1:00.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/02-honor-3d.png.
+@Video1 — last 3 seconds of Seedance part 3 of THIS treatment only. Conditioning input, not repeated output. This 15 seconds is new story time.
+Image1 is style and palette only.
+Mood still «Скульптурная сцена» matches the assembled stage in the last minute only. It does not depict the opening thread or the near-miss.
+
+STYLE LOCK:
+Premium 3D CGI, sculptural gold, pearl and glass. No photoreal city and no ink.
+
+PRODUCT / PROXY LOCK — CRITICAL:
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+
+START STATE:
+Cut forward from the previous Seedance clip. New action: Materials circle. Gold nearly seals the proxy face, then peels away by itself.
+
+TIMELINE:
+[0:00–0:15] Film 0:45–1:00. Materials circle. Gold nearly seals the proxy face, then peels away by itself.
+
+END STATE:
+Materials circle. Gold nearly seals the proxy face, then peels away by itself. Last 3 seconds stay readable for the next clip. No fade.
+
+CAMERA / SPACE:
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
+
+PERFORMANCE:
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
+
+LIGHTING / MATERIALS:
+Stay inside this treatment's materials only.
+
+AUDIO:
+Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+#### 4 · 3D · Seedance 2.0 часть 5 · клип 15 с
+
+**Входы:** см. блок ниже. Клип 5 из 8, плёнка 1:00–1:15.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/02-honor-3d.png.
+@Video1 — last 3 seconds of Seedance part 4 of THIS treatment only. Conditioning input, not repeated output. This 15 seconds is new story time.
+Image1 is style and palette only.
+Mood still «Скульптурная сцена» matches the assembled stage in the last minute only. It does not depict the opening thread or the near-miss.
+
+STYLE LOCK:
+Premium 3D CGI, sculptural gold, pearl and glass. No photoreal city and no ink.
+
+PRODUCT / PROXY LOCK — CRITICAL:
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+
+START STATE:
+Cut forward from the previous Seedance clip. New action: Gold, pearl and glass stop competing and start building rings.
+
+TIMELINE:
+[0:00–0:15] Film 1:00–1:15. Gold, pearl and glass stop competing and start building rings.
+
+END STATE:
+Gold, pearl and glass stop competing and start building rings. Last 3 seconds stay readable for the next clip. No fade.
+
+CAMERA / SPACE:
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
+
+PERFORMANCE:
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
+
+LIGHTING / MATERIALS:
+Stay inside this treatment's materials only.
+
+AUDIO:
+Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+#### 4 · 3D · Seedance 2.0 часть 6 · клип 15 с
+
+**Входы:** см. блок ниже. Клип 6 из 8, плёнка 1:15–1:30.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/02-honor-3d.png.
+@Video1 — last 3 seconds of Seedance part 5 of THIS treatment only. Conditioning input, not repeated output. This 15 seconds is new story time.
+Image1 is style and palette only.
+Mood still «Скульптурная сцена» matches the assembled stage in the last minute only. It does not depict the opening thread or the near-miss.
+
+STYLE LOCK:
+Premium 3D CGI, sculptural gold, pearl and glass. No photoreal city and no ink.
+
+PRODUCT / PROXY LOCK — CRITICAL:
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+
+START STATE:
+Cut forward from the previous Seedance clip. New action: Crescendo: the stage locks, light finds the empty center, the orbit speeds up and then calms.
+
+TIMELINE:
+[0:00–0:15] Film 1:15–1:30. Crescendo: the stage locks, light finds the empty center, the orbit speeds up and then calms.
+
+END STATE:
+Crescendo: the stage locks, light finds the empty center, the orbit speeds up and then calms. Last 3 seconds stay readable for the next clip. No fade.
+
+CAMERA / SPACE:
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
+
+PERFORMANCE:
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
+
+LIGHTING / MATERIALS:
+Stay inside this treatment's materials only.
+
+AUDIO:
+Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+#### 4 · 3D · Seedance 2.0 часть 7 · клип 15 с
+
+**Входы:** см. блок ниже. Клип 7 из 8, плёнка 1:30–1:45.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/02-honor-3d.png.
+@Video1 — last 3 seconds of Seedance part 6 of THIS treatment only. Conditioning input, not repeated output. This 15 seconds is new story time.
+Image1 is style and palette only.
+Mood still «Скульптурная сцена» matches the assembled stage in the last minute only. It does not depict the opening thread or the near-miss.
+
+STYLE LOCK:
+Premium 3D CGI, sculptural gold, pearl and glass. No photoreal city and no ink.
+
+PRODUCT / PROXY LOCK — CRITICAL:
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+
+START STATE:
+Cut forward from the previous Seedance clip. New action: A quiet orbit. Reflections only. The face is still blank.
+
+TIMELINE:
+[0:00–0:15] Film 1:30–1:45. A quiet orbit. Reflections only. The face is still blank.
+
+END STATE:
+A quiet orbit. Reflections only. The face is still blank. Last 3 seconds stay readable for the next clip. No fade.
+
+CAMERA / SPACE:
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
+
+PERFORMANCE:
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
+
+LIGHTING / MATERIALS:
+Stay inside this treatment's materials only.
+
+AUDIO:
+Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+#### 4 · 3D · Seedance 2.0 часть 8 · клип 15 с
+
+**Входы:** см. блок ниже. Клип 8 из 8, плёнка 1:45–2:00.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/02-honor-3d.png.
+@Video1 — last 3 seconds of Seedance part 7 of THIS treatment only. Conditioning input, not repeated output. This 15 seconds is new story time.
+Image1 is style and palette only.
+Mood still «Скульптурная сцена» matches the assembled stage in the last minute only. It does not depict the opening thread or the near-miss.
+
+STYLE LOCK:
+Premium 3D CGI, sculptural gold, pearl and glass. No photoreal city and no ink.
+
+PRODUCT / PROXY LOCK — CRITICAL:
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+
+START STATE:
+Cut forward from the previous Seedance clip. New action: Hold the empty center for a later product front. No end card and no logo.
+
+TIMELINE:
+[0:00–0:15] Film 1:45–2:00. Hold the empty center for a later product front. No end card and no logo.
+
+END STATE:
+Hold the empty center for a later product front. No end card and no logo. Final hold. No generated slogan.
+
+CAMERA / SPACE:
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
+
+PERFORMANCE:
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
+
+LIGHTING / MATERIALS:
+Stay inside this treatment's materials only.
+
+AUDIO:
+Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. Editor may later place: [1:50–1:58] «Середина ждёт вещь, которую вы выберете.»
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
 
 FRAME FILL / NO BARS:
 Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
@@ -2994,74 +3438,233 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 
 ### реализм · Неоновый орбитал
 
-**История, 30 с, предложение:** Ночная дождливая улица вымышленного города. Прохожие остаются мягким фоном и никого не рекламируют. Свет витрин и фонарей на несколько секунд собирается в ленты циан, мадженты и золота и зависает кольцом вокруг пустого тёмного прямоугольника. Это метафора внимания, не демонстрация камеры, защиты от воды или другой функции. Финальный крупный план оставляет лицо прокси пустым под слот H-FRONT.
+**История на 120 с готового монтажа:** За две минуты дождливый город проносится мимо одного человека. Он останавливается, и только тогда уличный свет срывается лентами и сходится в кольцо вокруг пустого места. Это пауза среди спешки, не демонстрация возможностей телефона.
 
-**Кадр за кадром:**
+**Кадр за кадром.** Восемь кусков по 15 с без дыр и нахлёстов. Сумма 120 с.
 
-| Время | Кадр | Чем обеспечен |
+| Время | Действие | Референс |
 |---|---|---|
-| 0:00–0:06 | Мокрый асфальт, дождь, люди в расфокусе | кадр 01 задаёт только ночь, дождь и неон, не этот точный ракурс |
-| 0:06–0:14 | Свет улицы отрывается лентами | настроение кадра 01 |
-| 0:14–0:22 | Ленты выходят на орбиту вокруг прокси | настроение кадра 01; прокси не становится моделью |
-| 0:22–0:30 | Удержание пустого лица | слот H-FRONT отсутствует |
+| 0:00–0:15 | Дождь, лужа, взрослый человек в тёмном пальто едва не ступает в воду. Город спешит. Вывески нечитаемы. | настроение кадра, не отдельный раскадр |
+| 0:15–0:30 | Человек идёт дальше. Неон мажется в воде. В камеру никто не смотрит. | настроение кадра, не отдельный раскадр |
+| 0:30–0:45 | Человек останавливается под козырьком. Толпа проходит мимо. | настроение кадра, не отдельный раскадр |
+| 0:45–1:00 | Один фонарь мигает. Лента циан отрывается от света и зависает. | настроение кадра, не отдельный раскадр |
+| 1:00–1:15 | Маджента и золото следуют за паузой, не за функцией товара. | настроение кадра, не отдельный раскадр |
+| 1:15–1:30 | Ленты собирают кольцо в воздухе. Внутри проявляется пустой тёмный прямоугольник. | настроение кадра, не отдельный раскадр |
+| 1:30–1:45 | Человек отступает. Кольцо выравнивается. Дождь тише. | настроение кадра, не отдельный раскадр |
+| 1:45–2:00 | Удержание пустого прокси. Город вокруг снова обычный. Место ждёт настоящий фронт. | настроение кадра, не отдельный раскадр |
 
-**Закадр — предложение автора, не утверждено, не факт о товаре:**
+Кадр настроения `projects/raznoe/references/scenes/scene-4/01-honor-realism.png` не является раскадровкой этих восьми планов. Отдельных кадров на открытие, поворот и финал с настоящим изделием нет: файлов не создавали и ссылок на них нет.
 
-- [0:03–0:09] «Город не останавливается.»
-- [0:12–0:20] «Только свет на минуту сходится в кольцо.»
-- [0:22–0:28] «Внутри кольца пока нет вещи.»
+**Закадр — предложение автора, не утверждено, не факт о товаре.** Между репликами тишина.
 
-В генерацию 15-секундных частей эти фразы не вкладывать: их кладёт монтаж. В 30-секундном тексте Wan они даны как единственные допустимые слова, без добавлений.
+- [0:08–0:16] «Город не ждёт.»
+- [0:40–0:50] «Кто-то всё же останавливается.»
+- [1:05–1:18] «Свет срывается с витрин и идёт за паузой.»
+- [1:28–1:40] «Кольцо. Внутри пусто.»
+- [1:50–1:58] «Пустое место — пока только обещание вечера.»
 
-**Монтаж и марка:** логотип, шрифт и слот H-FRONT ставятся после генерации, отдельным слоем. Пока файлов нет, финал остаётся с пустым прокси. Не писать на картинке название марки.
+**Титр для монтажа, не для генерации:** «Свет сходится.»
 
-**Статус варианта:** DRAFT, not_approved. Это не готовый ролик и не разрешение на запуск.
+**Стык и счёт.** Wan: 4 клипа × 30 с = 120 с. Seedance 2.0: 8 клипов × 15 с = 120 с. Последние 3 с предыдущего клипа — только вход @Video1. Их не прибавляют и не вычитают. Если модель повторит хвост внутри нового клипа, это дефект: вырезать фактический повтор, а не считать фильм заранее короче.
+
+**Монтаж:** слот H-FRONT ставится на финальное удержание. Логотип и титр — отдельным слоем. Пока файлов нет, в кадре остаётся пустой прокси.
+
+**Статус:** DRAFT, not_approved. Не снято и не готово к производству без модели и слотов ниже.
 
 <div class="engine-tabs" data-scene="4">
 
 <div class="engine-pane" data-engine="wan30">
 
-#### 4 · реализм · Wan 3.0 · 30 с
+#### 4 · реализм · Wan 3.0 часть 1 · клип 30 с
 
-**Входы:** @Image1 = `projects/raznoe/references/scenes/scene-4/01-honor-realism.png`. Кадр настроения, не чертёж изделия. Слоты H-FRONT, H-BACK, H-CAM, H-34 файлов не имеют.
+**Входы:** см. блок ниже. Клип 1 из 4, плёнка 0:00–0:30.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 / Seedance 2.5 | Unofficial concept | Proposed duration 30s for the whole treatment | Not a finished render
+Optimized for Wan 3.0 / Seedance 2.5 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — mood and style only, «Неоновый орбитал»: rainy night street, cyan and magenta ribbons around a blank proxy. Not a locked camera, not a location plate, not a device. File: projects/raznoe/references/scenes/scene-4/01-honor-realism.png.
-Priority: Image1 controls only palette, material character and the fact of an empty center. It must not invent cameras, buttons, a notch or a brand. Missing slots H-FRONT, H-BACK, H-CAM and H-34 have no files and must not be hallucinated.
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/01-honor-realism.png.
+Image1 is style and palette only.
+Mood still «Неоновый орбитал» matches the orbit in the rainy street, not the opening puddle and not a device.
+
+STYLE LOCK:
+Photoreal rainy night city plus light ribbons. No CGI sculpture and no ink drawing.
 
 PRODUCT / PROXY LOCK — CRITICAL:
-The centered dark rectangle is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone model and not a specification. Do not refine it into a device. Leave the face empty so slot H-FRONT can replace it in editing. Any brand name or logo is a later editing asset, never generated lettering. Light, metal and ink are metaphors. They are not evidence of a camera, a battery, durability or any other function. This block is a draft prompt, not a rendered commercial.
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
 
 START STATE:
-Rain and reflections. Signs stay illegible. People are soft shapes.
+Rain, a puddle, one adult in a dark coat almost steps in. The city rushes. Signs are illegible.
 
 TIMELINE:
-[0:00–0:06] Rain and reflections. Signs stay illegible. People are soft shapes.
-[0:06–0:14] Street light lifts into cyan, magenta and gold ribbons.
-[0:14–0:22] The ribbons orbit the blank proxy and hang in the air.
-[0:22–0:30] Hold on the empty face. Rain continues. No logo.
+[0:00–0:15] Film 0:00–0:15. Rain, a puddle, one adult in a dark coat almost steps in. The city rushes. Signs are illegible.
+[0:15–0:30] Film 0:15–0:30. They walk on. Neon smears in the water. Nobody looks into the lens.
 
 END STATE:
-The empty center is held. No logo, no end card, no device details.
+They walk on. Neon smears in the water. Nobody looks into the lens. Hold the last 3 seconds as a readable handoff, without a fade.
 
 CAMERA / SPACE:
-Landscape 16:9. The empty proxy stays large enough to replace later. No portrait crop, no side bars, no letterbox. One readable move, then a hold.
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
 
 PERFORMANCE:
-Background people only walk. Nobody presents the object or looks into the lens as a spokesperson.
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
 
 LIGHTING / MATERIALS:
-Wet asphalt, practical neon, cyan magenta and soft gold ribbons. The proxy does not grow a screen image.
+Stay inside this treatment's materials only.
 
 AUDIO:
-Proposed author voice-over, not an approved claim and not a product fact. A calm Russian voice speaks only these lines and no others: [0:03–0:09] «Город не останавливается.» [0:12–0:20] «Только свет на минуту сходится в кольцо.» [0:22–0:28] «Внутри кольца пока нет вещи.» No extra sentence, no specification, no brand name, no sung slogan. Original quiet music under the voice. No known commercial track.
+Proposed author voice-over only, not an approved claim and not a product fact. Speak only these Russian lines, at those film times, and leave the rest of the clip without speech: [0:08–0:16] «Город не ждёт.» No extra sentence, no brand name, no specification. Original quiet music underneath. No known commercial track.
 
 NEGATIVE PROMPT:
-Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, glass reflections of a logo, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness. The dark rectangle stays a blank compositing proxy.
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+#### 4 · реализм · Wan 3.0 часть 2 · клип 30 с
+
+**Входы:** см. блок ниже. Клип 2 из 4, плёнка 0:30–1:00.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/01-honor-realism.png.
+@Video1 — last 3 seconds of Wan part 1 of THIS treatment only. Conditioning input for the cut. Do not replay those 3 seconds. This 30 seconds is new story time.
+Image1 is style and palette only.
+Mood still «Неоновый орбитал» matches the orbit in the rainy street, not the opening puddle and not a device.
+
+STYLE LOCK:
+Photoreal rainy night city plus light ribbons. No CGI sculpture and no ink drawing.
+
+PRODUCT / PROXY LOCK — CRITICAL:
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+
+START STATE:
+Cut forward from the end of the previous Wan clip. New action: They stop under an awning. The crowd keeps moving past.
+
+TIMELINE:
+[0:00–0:15] Film 0:30–0:45. They stop under an awning. The crowd keeps moving past.
+[0:15–0:30] Film 0:45–1:00. One lamp flickers. A cyan ribbon peels off the light and hangs.
+
+END STATE:
+One lamp flickers. A cyan ribbon peels off the light and hangs. Hold the last 3 seconds as a readable handoff, without a fade.
+
+CAMERA / SPACE:
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
+
+PERFORMANCE:
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
+
+LIGHTING / MATERIALS:
+Stay inside this treatment's materials only.
+
+AUDIO:
+Proposed author voice-over only, not an approved claim and not a product fact. Speak only these Russian lines, at those film times, and leave the rest of the clip without speech: [0:40–0:50] «Кто-то всё же останавливается.» No extra sentence, no brand name, no specification. Original quiet music underneath. No known commercial track.
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+#### 4 · реализм · Wan 3.0 часть 3 · клип 30 с
+
+**Входы:** см. блок ниже. Клип 3 из 4, плёнка 1:00–1:30.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/01-honor-realism.png.
+@Video1 — last 3 seconds of Wan part 2 of THIS treatment only. Conditioning input for the cut. Do not replay those 3 seconds. This 30 seconds is new story time.
+Image1 is style and palette only.
+Mood still «Неоновый орбитал» matches the orbit in the rainy street, not the opening puddle and not a device.
+
+STYLE LOCK:
+Photoreal rainy night city plus light ribbons. No CGI sculpture and no ink drawing.
+
+PRODUCT / PROXY LOCK — CRITICAL:
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+
+START STATE:
+Cut forward from the end of the previous Wan clip. New action: Magenta and gold follow the pause, not a product function.
+
+TIMELINE:
+[0:00–0:15] Film 1:00–1:15. Magenta and gold follow the pause, not a product function.
+[0:15–0:30] Film 1:15–1:30. The ribbons form an orbit. Inside it a blank dark rectangle appears.
+
+END STATE:
+The ribbons form an orbit. Inside it a blank dark rectangle appears. Hold the last 3 seconds as a readable handoff, without a fade.
+
+CAMERA / SPACE:
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
+
+PERFORMANCE:
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
+
+LIGHTING / MATERIALS:
+Stay inside this treatment's materials only.
+
+AUDIO:
+Proposed author voice-over only, not an approved claim and not a product fact. Speak only these Russian lines, at those film times, and leave the rest of the clip without speech: [1:05–1:18] «Свет срывается с витрин и идёт за паузой.» No extra sentence, no brand name, no specification. Original quiet music underneath. No known commercial track.
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+#### 4 · реализм · Wan 3.0 часть 4 · клип 30 с
+
+**Входы:** см. блок ниже. Клип 4 из 4, плёнка 1:30–2:00.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/01-honor-realism.png.
+@Video1 — last 3 seconds of Wan part 3 of THIS treatment only. Conditioning input for the cut. Do not replay those 3 seconds. This 30 seconds is new story time.
+Image1 is style and palette only.
+Mood still «Неоновый орбитал» matches the orbit in the rainy street, not the opening puddle and not a device.
+
+STYLE LOCK:
+Photoreal rainy night city plus light ribbons. No CGI sculpture and no ink drawing.
+
+PRODUCT / PROXY LOCK — CRITICAL:
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+
+START STATE:
+Cut forward from the end of the previous Wan clip. New action: The person steps back. The orbit steadies. Rain softens.
+
+TIMELINE:
+[0:00–0:15] Film 1:30–1:45. The person steps back. The orbit steadies. Rain softens.
+[0:15–0:30] Film 1:45–2:00. Hold the blank proxy. The city around it is ordinary again. The slot waits for a real front.
+
+END STATE:
+Hold the blank proxy. The city around it is ordinary again. The slot waits for a real front. Final hold of this 120-second film. No fade, no generated slogan.
+
+CAMERA / SPACE:
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
+
+PERFORMANCE:
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
+
+LIGHTING / MATERIALS:
+Stay inside this treatment's materials only.
+
+AUDIO:
+Proposed author voice-over only, not an approved claim and not a product fact. Speak only these Russian lines, at those film times, and leave the rest of the clip without speech: [1:50–1:58] «Пустое место — пока только обещание вечера.» No extra sentence, no brand name, no specification. Original quiet music underneath. No known commercial track.
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
 
 FRAME FILL / NO BARS:
 Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
@@ -3071,90 +3674,384 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 
 <div class="engine-pane" data-engine="sd20x2">
 
-#### 4 · реализм · Seedance 2.0 часть 1 · 15 с
+#### 4 · реализм · Seedance 2.0 часть 1 · клип 15 с
 
-**Входы:** @Image1 = `projects/raznoe/references/scenes/scene-4/01-honor-realism.png`.
+**Входы:** см. блок ниже. Клип 1 из 8, плёнка 0:00–0:15.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Unofficial concept | Proposed duration 30s for the whole treatment | Not a finished render
+Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — mood and style only, «Неоновый орбитал»: rainy night street, cyan and magenta ribbons around a blank proxy. Not a locked camera, not a location plate, not a device. File: projects/raznoe/references/scenes/scene-4/01-honor-realism.png.
-Priority: Image1 controls only palette, material character and the fact of an empty center. It must not invent cameras, buttons, a notch or a brand. Missing slots H-FRONT, H-BACK, H-CAM and H-34 have no files and must not be hallucinated. This is part 1 of this treatment only.
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/01-honor-realism.png.
+Image1 is style and palette only.
+Mood still «Неоновый орбитал» matches the orbit in the rainy street, not the opening puddle and not a device.
+
+STYLE LOCK:
+Photoreal rainy night city plus light ribbons. No CGI sculpture and no ink drawing.
 
 PRODUCT / PROXY LOCK — CRITICAL:
-The centered dark rectangle is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone model and not a specification. Do not refine it into a device. Leave the face empty so slot H-FRONT can replace it in editing. Any brand name or logo is a later editing asset, never generated lettering. Light, metal and ink are metaphors. They are not evidence of a camera, a battery, durability or any other function. This block is a draft prompt, not a rendered commercial.
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
 
 START STATE:
-Wet street, proxy already present and blank.
+Rain, a puddle, one adult in a dark coat almost steps in. The city rushes. Signs are illegible.
 
 TIMELINE:
-[0:00–0:06] Wet street, proxy already present and blank.
-[0:06–0:15] Ribbons leave the lamps and curl toward the proxy. Keep the last 3 seconds moving. No fade.
+[0:00–0:15] Film 0:00–0:15. Rain, a puddle, one adult in a dark coat almost steps in. The city rushes. Signs are illegible.
 
 END STATE:
-Motion is still alive. The center is blank. No fade and no end card.
+Rain, a puddle, one adult in a dark coat almost steps in. The city rushes. Signs are illegible. Last 3 seconds stay readable for the next clip. No fade.
 
 CAMERA / SPACE:
-Landscape 16:9. The empty proxy stays large enough to replace later. No portrait crop, no side bars, no letterbox. End with three seconds of continuous motion for the Seedance handoff.
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
 
 PERFORMANCE:
-Background people only walk. Nobody presents the object or looks into the lens as a spokesperson.
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
 
 LIGHTING / MATERIALS:
-Wet asphalt, practical neon, cyan magenta and soft gold ribbons. The proxy does not grow a screen image.
+Stay inside this treatment's materials only.
 
 AUDIO:
-Do not generate speech. Leave room for an editorial voice-over that will be added later. The proposed lines are not to be spoken by the model. Original quiet music and motivated ambience only. No known commercial track.
+Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
 
 NEGATIVE PROMPT:
-Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, glass reflections of a logo, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness. The dark rectangle stays a blank compositing proxy.
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
 
 FRAME FILL / NO BARS:
 Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
 ```
 
-#### 4 · реализм · Seedance 2.0 часть 2 · 15 с
+#### 4 · реализм · Seedance 2.0 часть 2 · клип 15 с
 
-**Входы:** @Video1 — последние 3 секунды фактической части 1 этого же варианта; до результата часть 2 не запускать. @Image1 = `projects/raznoe/references/scenes/scene-4/01-honor-realism.png`.
+**Входы:** см. блок ниже. Клип 2 из 8, плёнка 0:15–0:30.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Unofficial concept | Proposed duration 30s for the whole treatment | Not a finished render
+Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — mood and style only, «Неоновый орбитал»: rainy night street, cyan and magenta ribbons around a blank proxy. Not a locked camera, not a location plate, not a device. File: projects/raznoe/references/scenes/scene-4/01-honor-realism.png.
-@Video1 — the last 3 seconds of the actual part 1 of THIS treatment. Do not launch part 2 before that result exists. This is not an already rendered clip.
-Priority: @Video1 owns the opening motion. Image1 then keeps palette and the blank center. Do not restart the story.
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/01-honor-realism.png.
+@Video1 — last 3 seconds of Seedance part 1 of THIS treatment only. Conditioning input, not repeated output. This 15 seconds is new story time.
+Image1 is style and palette only.
+Mood still «Неоновый орбитал» matches the orbit in the rainy street, not the opening puddle and not a device.
+
+STYLE LOCK:
+Photoreal rainy night city plus light ribbons. No CGI sculpture and no ink drawing.
 
 PRODUCT / PROXY LOCK — CRITICAL:
-The centered dark rectangle is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone model and not a specification. Do not refine it into a device. Leave the face empty so slot H-FRONT can replace it in editing. Any brand name or logo is a later editing asset, never generated lettering. Light, metal and ink are metaphors. They are not evidence of a camera, a battery, durability or any other function. This block is a draft prompt, not a rendered commercial.
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
 
 START STATE:
-Start on the moving end of @Video1. The center is still the blank proxy.
+Cut forward from the previous Seedance clip. New action: They walk on. Neon smears in the water. Nobody looks into the lens.
 
 TIMELINE:
-[0:00–0:07] Complete the orbit.
-[0:07–0:15] Hold the empty face while rain continues.
+[0:00–0:15] Film 0:15–0:30. They walk on. Neon smears in the water. Nobody looks into the lens.
 
 END STATE:
-Hold on the empty center. No logo.
+They walk on. Neon smears in the water. Nobody looks into the lens. Last 3 seconds stay readable for the next clip. No fade.
 
 CAMERA / SPACE:
-Landscape 16:9. The empty proxy stays large enough to replace later. No portrait crop, no side bars, no letterbox. Continue the same style. Do not switch treatment.
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
 
 PERFORMANCE:
-Background people only walk. Nobody presents the object or looks into the lens as a spokesperson.
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
 
 LIGHTING / MATERIALS:
-Wet asphalt, practical neon, cyan magenta and soft gold ribbons. The proxy does not grow a screen image.
+Stay inside this treatment's materials only.
 
 AUDIO:
-Do not generate speech. Leave room for an editorial voice-over that will be added later. The proposed lines are not to be spoken by the model. Original quiet music and motivated ambience only. No known commercial track. Continue the music from @Video1 without a new fanfare.
+Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
 
 NEGATIVE PROMPT:
-Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, glass reflections of a logo, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness. The dark rectangle stays a blank compositing proxy.
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+#### 4 · реализм · Seedance 2.0 часть 3 · клип 15 с
+
+**Входы:** см. блок ниже. Клип 3 из 8, плёнка 0:30–0:45.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/01-honor-realism.png.
+@Video1 — last 3 seconds of Seedance part 2 of THIS treatment only. Conditioning input, not repeated output. This 15 seconds is new story time.
+Image1 is style and palette only.
+Mood still «Неоновый орбитал» matches the orbit in the rainy street, not the opening puddle and not a device.
+
+STYLE LOCK:
+Photoreal rainy night city plus light ribbons. No CGI sculpture and no ink drawing.
+
+PRODUCT / PROXY LOCK — CRITICAL:
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+
+START STATE:
+Cut forward from the previous Seedance clip. New action: They stop under an awning. The crowd keeps moving past.
+
+TIMELINE:
+[0:00–0:15] Film 0:30–0:45. They stop under an awning. The crowd keeps moving past.
+
+END STATE:
+They stop under an awning. The crowd keeps moving past. Last 3 seconds stay readable for the next clip. No fade.
+
+CAMERA / SPACE:
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
+
+PERFORMANCE:
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
+
+LIGHTING / MATERIALS:
+Stay inside this treatment's materials only.
+
+AUDIO:
+Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+#### 4 · реализм · Seedance 2.0 часть 4 · клип 15 с
+
+**Входы:** см. блок ниже. Клип 4 из 8, плёнка 0:45–1:00.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/01-honor-realism.png.
+@Video1 — last 3 seconds of Seedance part 3 of THIS treatment only. Conditioning input, not repeated output. This 15 seconds is new story time.
+Image1 is style and palette only.
+Mood still «Неоновый орбитал» matches the orbit in the rainy street, not the opening puddle and not a device.
+
+STYLE LOCK:
+Photoreal rainy night city plus light ribbons. No CGI sculpture and no ink drawing.
+
+PRODUCT / PROXY LOCK — CRITICAL:
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+
+START STATE:
+Cut forward from the previous Seedance clip. New action: One lamp flickers. A cyan ribbon peels off the light and hangs.
+
+TIMELINE:
+[0:00–0:15] Film 0:45–1:00. One lamp flickers. A cyan ribbon peels off the light and hangs.
+
+END STATE:
+One lamp flickers. A cyan ribbon peels off the light and hangs. Last 3 seconds stay readable for the next clip. No fade.
+
+CAMERA / SPACE:
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
+
+PERFORMANCE:
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
+
+LIGHTING / MATERIALS:
+Stay inside this treatment's materials only.
+
+AUDIO:
+Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+#### 4 · реализм · Seedance 2.0 часть 5 · клип 15 с
+
+**Входы:** см. блок ниже. Клип 5 из 8, плёнка 1:00–1:15.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/01-honor-realism.png.
+@Video1 — last 3 seconds of Seedance part 4 of THIS treatment only. Conditioning input, not repeated output. This 15 seconds is new story time.
+Image1 is style and palette only.
+Mood still «Неоновый орбитал» matches the orbit in the rainy street, not the opening puddle and not a device.
+
+STYLE LOCK:
+Photoreal rainy night city plus light ribbons. No CGI sculpture and no ink drawing.
+
+PRODUCT / PROXY LOCK — CRITICAL:
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+
+START STATE:
+Cut forward from the previous Seedance clip. New action: Magenta and gold follow the pause, not a product function.
+
+TIMELINE:
+[0:00–0:15] Film 1:00–1:15. Magenta and gold follow the pause, not a product function.
+
+END STATE:
+Magenta and gold follow the pause, not a product function. Last 3 seconds stay readable for the next clip. No fade.
+
+CAMERA / SPACE:
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
+
+PERFORMANCE:
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
+
+LIGHTING / MATERIALS:
+Stay inside this treatment's materials only.
+
+AUDIO:
+Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+#### 4 · реализм · Seedance 2.0 часть 6 · клип 15 с
+
+**Входы:** см. блок ниже. Клип 6 из 8, плёнка 1:15–1:30.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/01-honor-realism.png.
+@Video1 — last 3 seconds of Seedance part 5 of THIS treatment only. Conditioning input, not repeated output. This 15 seconds is new story time.
+Image1 is style and palette only.
+Mood still «Неоновый орбитал» matches the orbit in the rainy street, not the opening puddle and not a device.
+
+STYLE LOCK:
+Photoreal rainy night city plus light ribbons. No CGI sculpture and no ink drawing.
+
+PRODUCT / PROXY LOCK — CRITICAL:
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+
+START STATE:
+Cut forward from the previous Seedance clip. New action: The ribbons form an orbit. Inside it a blank dark rectangle appears.
+
+TIMELINE:
+[0:00–0:15] Film 1:15–1:30. The ribbons form an orbit. Inside it a blank dark rectangle appears.
+
+END STATE:
+The ribbons form an orbit. Inside it a blank dark rectangle appears. Last 3 seconds stay readable for the next clip. No fade.
+
+CAMERA / SPACE:
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
+
+PERFORMANCE:
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
+
+LIGHTING / MATERIALS:
+Stay inside this treatment's materials only.
+
+AUDIO:
+Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+#### 4 · реализм · Seedance 2.0 часть 7 · клип 15 с
+
+**Входы:** см. блок ниже. Клип 7 из 8, плёнка 1:30–1:45.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/01-honor-realism.png.
+@Video1 — last 3 seconds of Seedance part 6 of THIS treatment only. Conditioning input, not repeated output. This 15 seconds is new story time.
+Image1 is style and palette only.
+Mood still «Неоновый орбитал» matches the orbit in the rainy street, not the opening puddle and not a device.
+
+STYLE LOCK:
+Photoreal rainy night city plus light ribbons. No CGI sculpture and no ink drawing.
+
+PRODUCT / PROXY LOCK — CRITICAL:
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+
+START STATE:
+Cut forward from the previous Seedance clip. New action: The person steps back. The orbit steadies. Rain softens.
+
+TIMELINE:
+[0:00–0:15] Film 1:30–1:45. The person steps back. The orbit steadies. Rain softens.
+
+END STATE:
+The person steps back. The orbit steadies. Rain softens. Last 3 seconds stay readable for the next clip. No fade.
+
+CAMERA / SPACE:
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
+
+PERFORMANCE:
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
+
+LIGHTING / MATERIALS:
+Stay inside this treatment's materials only.
+
+AUDIO:
+Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+#### 4 · реализм · Seedance 2.0 часть 8 · клип 15 с
+
+**Входы:** см. блок ниже. Клип 8 из 8, плёнка 1:45–2:00.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/01-honor-realism.png.
+@Video1 — last 3 seconds of Seedance part 7 of THIS treatment only. Conditioning input, not repeated output. This 15 seconds is new story time.
+Image1 is style and palette only.
+Mood still «Неоновый орбитал» matches the orbit in the rainy street, not the opening puddle and not a device.
+
+STYLE LOCK:
+Photoreal rainy night city plus light ribbons. No CGI sculpture and no ink drawing.
+
+PRODUCT / PROXY LOCK — CRITICAL:
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+
+START STATE:
+Cut forward from the previous Seedance clip. New action: Hold the blank proxy. The city around it is ordinary again. The slot waits for a real front.
+
+TIMELINE:
+[0:00–0:15] Film 1:45–2:00. Hold the blank proxy. The city around it is ordinary again. The slot waits for a real front.
+
+END STATE:
+Hold the blank proxy. The city around it is ordinary again. The slot waits for a real front. Final hold. No generated slogan.
+
+CAMERA / SPACE:
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
+
+PERFORMANCE:
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
+
+LIGHTING / MATERIALS:
+Stay inside this treatment's materials only.
+
+AUDIO:
+Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. Editor may later place: [1:50–1:58] «Пустое место — пока только обещание вечера.»
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
 
 FRAME FILL / NO BARS:
 Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
@@ -3166,74 +4063,233 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 
 ### рисовка · Штрих → мир
 
-**История, 30 с, предложение:** Плоская иллюстрация на индиго-бумаге. Слева приходит чернильная волна, справа расцветают крыши, фонари, птицы и цветы. Золотой контур в центре остаётся пустым силуэтом. Кадр-настроение стилизован; его не нужно читать как один физически непрерывный мазок. Рисунок не доказывает свойство изделия. Финальный hold снова оставляет контур пустым под слот H-FRONT.
+**История на 120 с готового монтажа:** За две минуты на пустом листе штрих ошибается, начинается заново, становится тропинкой, крышами, фонарями и птицами и останавливается у золотой рамки. Весь фильм не обязан быть одним физическим мазком.
 
-**Кадр за кадром:**
+**Кадр за кадром.** Восемь кусков по 15 с без дыр и нахлёстов. Сумма 120 с.
 
-| Время | Кадр | Чем обеспечен |
+| Время | Действие | Референс |
 |---|---|---|
-| 0:00–0:07 | Чистая бумага и золотой контур | кадр 03 задаёт бумагу, индиго и контур, не обязательный первый кадр |
-| 0:07–0:16 | Волна входит слева | настроение кадра 03; не обещать один непрерывный физический штрих |
-| 0:16–0:24 | Крыши, фонари, птицы и цветы расцветают справа | настроение кадра 03 |
-| 0:24–0:30 | Удержание пустого контура | слот H-FRONT отсутствует |
+| 0:00–0:15 | Чистая индиго-бумага. Короткий чернильный штрих появляется и останавливается. | настроение кадра, не отдельный раскадр |
+| 0:15–0:30 | Штрих неудачный. Рядом начинается второй, это не один бесконечный мазок. | настроение кадра, не отдельный раскадр |
+| 0:30–0:45 | Штрихи складываются в тропинку. | настроение кадра, не отдельный раскадр |
+| 0:45–1:00 | Тропинка отращивает крыши. | настроение кадра, не отдельный раскадр |
+| 1:00–1:15 | Зажигаются фонари. Прилетают птицы. | настроение кадра, не отдельный раскадр |
+| 1:15–1:30 | Рисунок бежит к золотому контуру и останавливается у края. | настроение кадра, не отдельный раскадр |
+| 1:30–1:45 | Мир дышит: птицы садятся на рамку, цветы укладываются. | настроение кадра, не отдельный раскадр |
+| 1:45–2:00 | Удержание пустого золотого контура. Внутри ничего нет. | настроение кадра, не отдельный раскадр |
 
-**Закадр — предложение автора, не утверждено, не факт о товаре:**
+Кадр настроения `projects/raznoe/references/scenes/scene-4/03-honor-drawn.png` не является раскадровкой этих восьми планов. Отдельных кадров на открытие, поворот и финал с настоящим изделием нет: файлов не создавали и ссылок на них нет.
 
-- [0:02–0:08] «С края листа приходит линия.»
-- [0:12–0:20] «Рядом просыпаются крыши и фонари.»
-- [0:22–0:28] «Внутри контура пока ничего нет.»
+**Закадр — предложение автора, не утверждено, не факт о товаре.** Между репликами тишина.
 
-В генерацию 15-секундных частей эти фразы не вкладывать: их кладёт монтаж. В 30-секундном тексте Wan они даны как единственные допустимые слова, без добавлений.
+- [0:10–0:18] «Лист был пуст.»
+- [0:36–0:48] «Линия ошиблась и пошла снова.»
+- [1:02–1:14] «Из штриха вышли крыши.»
+- [1:24–1:34] «Птицы долетели до рамки и сели на край.»
+- [1:48–1:58] «Дальше место для вещи, не для нового штриха.»
 
-**Монтаж и марка:** логотип, шрифт и слот H-FRONT ставятся после генерации, отдельным слоем. Пока файлов нет, финал остаётся с пустым прокси. Не писать на картинке название марки.
+**Титр для монтажа, не для генерации:** «Штрих останавливается здесь.»
 
-**Статус варианта:** DRAFT, not_approved. Это не готовый ролик и не разрешение на запуск.
+**Стык и счёт.** Wan: 4 клипа × 30 с = 120 с. Seedance 2.0: 8 клипов × 15 с = 120 с. Последние 3 с предыдущего клипа — только вход @Video1. Их не прибавляют и не вычитают. Если модель повторит хвост внутри нового клипа, это дефект: вырезать фактический повтор, а не считать фильм заранее короче.
+
+**Монтаж:** слот H-FRONT ставится на финальное удержание. Логотип и титр — отдельным слоем. Пока файлов нет, в кадре остаётся пустой прокси.
+
+**Статус:** DRAFT, not_approved. Не снято и не готово к производству без модели и слотов ниже.
 
 <div class="engine-tabs" data-scene="4">
 
 <div class="engine-pane" data-engine="wan30">
 
-#### 4 · рисовка · Wan 3.0 · 30 с
+#### 4 · рисовка · Wan 3.0 часть 1 · клип 30 с
 
-**Входы:** @Image1 = `projects/raznoe/references/scenes/scene-4/03-honor-drawn.png`. Кадр настроения, не чертёж изделия. Слоты H-FRONT, H-BACK, H-CAM, H-34 файлов не имеют.
+**Входы:** см. блок ниже. Клип 1 из 4, плёнка 0:00–0:30.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 / Seedance 2.5 | Unofficial concept | Proposed duration 30s for the whole treatment | Not a finished render
+Optimized for Wan 3.0 / Seedance 2.5 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — mood and style only, «Штрих → мир»: indigo ink and paint, a wave, miniature roofs, lanterns and birds around a gold-outlined blank silhouette. Stylization, not a physical one-stroke constraint and not a device. File: projects/raznoe/references/scenes/scene-4/03-honor-drawn.png.
-Priority: Image1 controls only palette, material character and the fact of an empty center. It must not invent cameras, buttons, a notch or a brand. Missing slots H-FRONT, H-BACK, H-CAM and H-34 have no files and must not be hallucinated.
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/03-honor-drawn.png.
+Image1 is style and palette only.
+Mood still «Штрих → мир» matches the blooming roofs and the gold outline, not the first failed mark. It is stylization, not one physical stroke.
+
+STYLE LOCK:
+Flat ink and paint on indigo paper. No photoreal skin and no 3D metal.
 
 PRODUCT / PROXY LOCK — CRITICAL:
-The centered dark rectangle is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone model and not a specification. Do not refine it into a device. Leave the face empty so slot H-FRONT can replace it in editing. Any brand name or logo is a later editing asset, never generated lettering. Light, metal and ink are metaphors. They are not evidence of a camera, a battery, durability or any other function. This block is a draft prompt, not a rendered commercial.
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
 
 START STATE:
-Indigo paper and a gold outline. The illustrated world has not bloomed.
+Blank indigo paper. A short ink mark appears and stops.
 
 TIMELINE:
-[0:00–0:07] Indigo paper and a gold outline. The illustrated world has not bloomed.
-[0:07–0:16] An ink wave moves in from the left. Do not treat it as one physically unbroken stroke.
-[0:16–0:24] Roofs, lanterns, birds and flowers bloom on the right.
-[0:24–0:30] Hold. The silhouette stays a flat empty slot. No letters.
+[0:00–0:15] Film 0:00–0:15. Blank indigo paper. A short ink mark appears and stops.
+[0:15–0:30] Film 0:15–0:30. The mark is wrong. A second stroke starts beside it. This is not one endless stroke.
 
 END STATE:
-The empty center is held. No logo, no end card, no device details.
+The mark is wrong. A second stroke starts beside it. This is not one endless stroke. Hold the last 3 seconds as a readable handoff, without a fade.
 
 CAMERA / SPACE:
-Landscape 16:9. The empty proxy stays large enough to replace later. No portrait crop, no side bars, no letterbox. One readable move, then a hold.
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
 
 PERFORMANCE:
-Birds and lanterns move as drawing. No real person.
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
 
 LIGHTING / MATERIALS:
-Flat illustration: indigo paper, coral, gold and teal. Paper grain stays visible. No photoreal skin and no CG metal.
+Stay inside this treatment's materials only.
 
 AUDIO:
-Proposed author voice-over, not an approved claim and not a product fact. A calm Russian voice speaks only these lines and no others: [0:02–0:08] «С края листа приходит линия.» [0:12–0:20] «Рядом просыпаются крыши и фонари.» [0:22–0:28] «Внутри контура пока ничего нет.» No extra sentence, no specification, no brand name, no sung slogan. Original quiet music under the voice. No known commercial track.
+Proposed author voice-over only, not an approved claim and not a product fact. Speak only these Russian lines, at those film times, and leave the rest of the clip without speech: [0:10–0:18] «Лист был пуст.» No extra sentence, no brand name, no specification. Original quiet music underneath. No known commercial track.
 
 NEGATIVE PROMPT:
-Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, glass reflections of a logo, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness. The dark rectangle stays a blank compositing proxy.
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+#### 4 · рисовка · Wan 3.0 часть 2 · клип 30 с
+
+**Входы:** см. блок ниже. Клип 2 из 4, плёнка 0:30–1:00.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/03-honor-drawn.png.
+@Video1 — last 3 seconds of Wan part 1 of THIS treatment only. Conditioning input for the cut. Do not replay those 3 seconds. This 30 seconds is new story time.
+Image1 is style and palette only.
+Mood still «Штрих → мир» matches the blooming roofs and the gold outline, not the first failed mark. It is stylization, not one physical stroke.
+
+STYLE LOCK:
+Flat ink and paint on indigo paper. No photoreal skin and no 3D metal.
+
+PRODUCT / PROXY LOCK — CRITICAL:
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+
+START STATE:
+Cut forward from the end of the previous Wan clip. New action: The strokes become a path.
+
+TIMELINE:
+[0:00–0:15] Film 0:30–0:45. The strokes become a path.
+[0:15–0:30] Film 0:45–1:00. The path grows roofs.
+
+END STATE:
+The path grows roofs. Hold the last 3 seconds as a readable handoff, without a fade.
+
+CAMERA / SPACE:
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
+
+PERFORMANCE:
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
+
+LIGHTING / MATERIALS:
+Stay inside this treatment's materials only.
+
+AUDIO:
+Proposed author voice-over only, not an approved claim and not a product fact. Speak only these Russian lines, at those film times, and leave the rest of the clip without speech: [0:36–0:48] «Линия ошиблась и пошла снова.» No extra sentence, no brand name, no specification. Original quiet music underneath. No known commercial track.
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+#### 4 · рисовка · Wan 3.0 часть 3 · клип 30 с
+
+**Входы:** см. блок ниже. Клип 3 из 4, плёнка 1:00–1:30.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/03-honor-drawn.png.
+@Video1 — last 3 seconds of Wan part 2 of THIS treatment only. Conditioning input for the cut. Do not replay those 3 seconds. This 30 seconds is new story time.
+Image1 is style and palette only.
+Mood still «Штрих → мир» matches the blooming roofs and the gold outline, not the first failed mark. It is stylization, not one physical stroke.
+
+STYLE LOCK:
+Flat ink and paint on indigo paper. No photoreal skin and no 3D metal.
+
+PRODUCT / PROXY LOCK — CRITICAL:
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+
+START STATE:
+Cut forward from the end of the previous Wan clip. New action: Lanterns light. Birds arrive.
+
+TIMELINE:
+[0:00–0:15] Film 1:00–1:15. Lanterns light. Birds arrive.
+[0:15–0:30] Film 1:15–1:30. The drawing rushes toward a gold outline and stops at its edge.
+
+END STATE:
+The drawing rushes toward a gold outline and stops at its edge. Hold the last 3 seconds as a readable handoff, without a fade.
+
+CAMERA / SPACE:
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
+
+PERFORMANCE:
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
+
+LIGHTING / MATERIALS:
+Stay inside this treatment's materials only.
+
+AUDIO:
+Proposed author voice-over only, not an approved claim and not a product fact. Speak only these Russian lines, at those film times, and leave the rest of the clip without speech: [1:02–1:14] «Из штриха вышли крыши.» No extra sentence, no brand name, no specification. Original quiet music underneath. No known commercial track.
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+#### 4 · рисовка · Wan 3.0 часть 4 · клип 30 с
+
+**Входы:** см. блок ниже. Клип 4 из 4, плёнка 1:30–2:00.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/03-honor-drawn.png.
+@Video1 — last 3 seconds of Wan part 3 of THIS treatment only. Conditioning input for the cut. Do not replay those 3 seconds. This 30 seconds is new story time.
+Image1 is style and palette only.
+Mood still «Штрих → мир» matches the blooming roofs and the gold outline, not the first failed mark. It is stylization, not one physical stroke.
+
+STYLE LOCK:
+Flat ink and paint on indigo paper. No photoreal skin and no 3D metal.
+
+PRODUCT / PROXY LOCK — CRITICAL:
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+
+START STATE:
+Cut forward from the end of the previous Wan clip. New action: The world breathes: birds perch on the frame, flowers settle.
+
+TIMELINE:
+[0:00–0:15] Film 1:30–1:45. The world breathes: birds perch on the frame, flowers settle.
+[0:15–0:30] Film 1:45–2:00. Hold the empty gold outline. The inside stays blank.
+
+END STATE:
+Hold the empty gold outline. The inside stays blank. Final hold of this 120-second film. No fade, no generated slogan.
+
+CAMERA / SPACE:
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
+
+PERFORMANCE:
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
+
+LIGHTING / MATERIALS:
+Stay inside this treatment's materials only.
+
+AUDIO:
+Proposed author voice-over only, not an approved claim and not a product fact. Speak only these Russian lines, at those film times, and leave the rest of the clip without speech: [1:48–1:58] «Дальше место для вещи, не для нового штриха.» No extra sentence, no brand name, no specification. Original quiet music underneath. No known commercial track.
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
 
 FRAME FILL / NO BARS:
 Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
@@ -3243,90 +4299,384 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 
 <div class="engine-pane" data-engine="sd20x2">
 
-#### 4 · рисовка · Seedance 2.0 часть 1 · 15 с
+#### 4 · рисовка · Seedance 2.0 часть 1 · клип 15 с
 
-**Входы:** @Image1 = `projects/raznoe/references/scenes/scene-4/03-honor-drawn.png`.
+**Входы:** см. блок ниже. Клип 1 из 8, плёнка 0:00–0:15.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Unofficial concept | Proposed duration 30s for the whole treatment | Not a finished render
+Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — mood and style only, «Штрих → мир»: indigo ink and paint, a wave, miniature roofs, lanterns and birds around a gold-outlined blank silhouette. Stylization, not a physical one-stroke constraint and not a device. File: projects/raznoe/references/scenes/scene-4/03-honor-drawn.png.
-Priority: Image1 controls only palette, material character and the fact of an empty center. It must not invent cameras, buttons, a notch or a brand. Missing slots H-FRONT, H-BACK, H-CAM and H-34 have no files and must not be hallucinated. This is part 1 of this treatment only.
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/03-honor-drawn.png.
+Image1 is style and palette only.
+Mood still «Штрих → мир» matches the blooming roofs and the gold outline, not the first failed mark. It is stylization, not one physical stroke.
+
+STYLE LOCK:
+Flat ink and paint on indigo paper. No photoreal skin and no 3D metal.
 
 PRODUCT / PROXY LOCK — CRITICAL:
-The centered dark rectangle is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone model and not a specification. Do not refine it into a device. Leave the face empty so slot H-FRONT can replace it in editing. Any brand name or logo is a later editing asset, never generated lettering. Light, metal and ink are metaphors. They are not evidence of a camera, a battery, durability or any other function. This block is a draft prompt, not a rendered commercial.
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
 
 START STATE:
-The wave enters across the paper.
+Blank indigo paper. A short ink mark appears and stops.
 
 TIMELINE:
-[0:00–0:07] The wave enters across the paper.
-[0:07–0:15] The first roofs and lanterns appear. Keep drawn motion through the last 3 seconds.
+[0:00–0:15] Film 0:00–0:15. Blank indigo paper. A short ink mark appears and stops.
 
 END STATE:
-Motion is still alive. The center is blank. No fade and no end card.
+Blank indigo paper. A short ink mark appears and stops. Last 3 seconds stay readable for the next clip. No fade.
 
 CAMERA / SPACE:
-Landscape 16:9. The empty proxy stays large enough to replace later. No portrait crop, no side bars, no letterbox. End with three seconds of continuous motion for the Seedance handoff.
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
 
 PERFORMANCE:
-Birds and lanterns move as drawing. No real person.
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
 
 LIGHTING / MATERIALS:
-Flat illustration: indigo paper, coral, gold and teal. Paper grain stays visible. No photoreal skin and no CG metal.
+Stay inside this treatment's materials only.
 
 AUDIO:
-Do not generate speech. Leave room for an editorial voice-over that will be added later. The proposed lines are not to be spoken by the model. Original quiet music and motivated ambience only. No known commercial track.
+Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
 
 NEGATIVE PROMPT:
-Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, glass reflections of a logo, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness. The dark rectangle stays a blank compositing proxy.
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
 
 FRAME FILL / NO BARS:
 Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
 ```
 
-#### 4 · рисовка · Seedance 2.0 часть 2 · 15 с
+#### 4 · рисовка · Seedance 2.0 часть 2 · клип 15 с
 
-**Входы:** @Video1 — последние 3 секунды фактической части 1 этого же варианта; до результата часть 2 не запускать. @Image1 = `projects/raznoe/references/scenes/scene-4/03-honor-drawn.png`.
+**Входы:** см. блок ниже. Клип 2 из 8, плёнка 0:15–0:30.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Unofficial concept | Proposed duration 30s for the whole treatment | Not a finished render
+Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — mood and style only, «Штрих → мир»: indigo ink and paint, a wave, miniature roofs, lanterns and birds around a gold-outlined blank silhouette. Stylization, not a physical one-stroke constraint and not a device. File: projects/raznoe/references/scenes/scene-4/03-honor-drawn.png.
-@Video1 — the last 3 seconds of the actual part 1 of THIS treatment. Do not launch part 2 before that result exists. This is not an already rendered clip.
-Priority: @Video1 owns the opening motion. Image1 then keeps palette and the blank center. Do not restart the story.
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/03-honor-drawn.png.
+@Video1 — last 3 seconds of Seedance part 1 of THIS treatment only. Conditioning input, not repeated output. This 15 seconds is new story time.
+Image1 is style and palette only.
+Mood still «Штрих → мир» matches the blooming roofs and the gold outline, not the first failed mark. It is stylization, not one physical stroke.
+
+STYLE LOCK:
+Flat ink and paint on indigo paper. No photoreal skin and no 3D metal.
 
 PRODUCT / PROXY LOCK — CRITICAL:
-The centered dark rectangle is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone model and not a specification. Do not refine it into a device. Leave the face empty so slot H-FRONT can replace it in editing. Any brand name or logo is a later editing asset, never generated lettering. Light, metal and ink are metaphors. They are not evidence of a camera, a battery, durability or any other function. This block is a draft prompt, not a rendered commercial.
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
 
 START STATE:
-Start on the moving end of @Video1. The center is still the blank proxy.
+Cut forward from the previous Seedance clip. New action: The mark is wrong. A second stroke starts beside it. This is not one endless stroke.
 
 TIMELINE:
-[0:00–0:08] Birds and flowers finish blooming.
-[0:08–0:15] Hold on the empty gold outline.
+[0:00–0:15] Film 0:15–0:30. The mark is wrong. A second stroke starts beside it. This is not one endless stroke.
 
 END STATE:
-Hold on the empty center. No logo.
+The mark is wrong. A second stroke starts beside it. This is not one endless stroke. Last 3 seconds stay readable for the next clip. No fade.
 
 CAMERA / SPACE:
-Landscape 16:9. The empty proxy stays large enough to replace later. No portrait crop, no side bars, no letterbox. Continue the same style. Do not switch treatment.
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
 
 PERFORMANCE:
-Birds and lanterns move as drawing. No real person.
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
 
 LIGHTING / MATERIALS:
-Flat illustration: indigo paper, coral, gold and teal. Paper grain stays visible. No photoreal skin and no CG metal.
+Stay inside this treatment's materials only.
 
 AUDIO:
-Do not generate speech. Leave room for an editorial voice-over that will be added later. The proposed lines are not to be spoken by the model. Original quiet music and motivated ambience only. No known commercial track. Continue the music from @Video1 without a new fanfare.
+Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
 
 NEGATIVE PROMPT:
-Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, glass reflections of a logo, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness. The dark rectangle stays a blank compositing proxy.
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+#### 4 · рисовка · Seedance 2.0 часть 3 · клип 15 с
+
+**Входы:** см. блок ниже. Клип 3 из 8, плёнка 0:30–0:45.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/03-honor-drawn.png.
+@Video1 — last 3 seconds of Seedance part 2 of THIS treatment only. Conditioning input, not repeated output. This 15 seconds is new story time.
+Image1 is style and palette only.
+Mood still «Штрих → мир» matches the blooming roofs and the gold outline, not the first failed mark. It is stylization, not one physical stroke.
+
+STYLE LOCK:
+Flat ink and paint on indigo paper. No photoreal skin and no 3D metal.
+
+PRODUCT / PROXY LOCK — CRITICAL:
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+
+START STATE:
+Cut forward from the previous Seedance clip. New action: The strokes become a path.
+
+TIMELINE:
+[0:00–0:15] Film 0:30–0:45. The strokes become a path.
+
+END STATE:
+The strokes become a path. Last 3 seconds stay readable for the next clip. No fade.
+
+CAMERA / SPACE:
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
+
+PERFORMANCE:
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
+
+LIGHTING / MATERIALS:
+Stay inside this treatment's materials only.
+
+AUDIO:
+Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+#### 4 · рисовка · Seedance 2.0 часть 4 · клип 15 с
+
+**Входы:** см. блок ниже. Клип 4 из 8, плёнка 0:45–1:00.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/03-honor-drawn.png.
+@Video1 — last 3 seconds of Seedance part 3 of THIS treatment only. Conditioning input, not repeated output. This 15 seconds is new story time.
+Image1 is style and palette only.
+Mood still «Штрих → мир» matches the blooming roofs and the gold outline, not the first failed mark. It is stylization, not one physical stroke.
+
+STYLE LOCK:
+Flat ink and paint on indigo paper. No photoreal skin and no 3D metal.
+
+PRODUCT / PROXY LOCK — CRITICAL:
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+
+START STATE:
+Cut forward from the previous Seedance clip. New action: The path grows roofs.
+
+TIMELINE:
+[0:00–0:15] Film 0:45–1:00. The path grows roofs.
+
+END STATE:
+The path grows roofs. Last 3 seconds stay readable for the next clip. No fade.
+
+CAMERA / SPACE:
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
+
+PERFORMANCE:
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
+
+LIGHTING / MATERIALS:
+Stay inside this treatment's materials only.
+
+AUDIO:
+Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+#### 4 · рисовка · Seedance 2.0 часть 5 · клип 15 с
+
+**Входы:** см. блок ниже. Клип 5 из 8, плёнка 1:00–1:15.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/03-honor-drawn.png.
+@Video1 — last 3 seconds of Seedance part 4 of THIS treatment only. Conditioning input, not repeated output. This 15 seconds is new story time.
+Image1 is style and palette only.
+Mood still «Штрих → мир» matches the blooming roofs and the gold outline, not the first failed mark. It is stylization, not one physical stroke.
+
+STYLE LOCK:
+Flat ink and paint on indigo paper. No photoreal skin and no 3D metal.
+
+PRODUCT / PROXY LOCK — CRITICAL:
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+
+START STATE:
+Cut forward from the previous Seedance clip. New action: Lanterns light. Birds arrive.
+
+TIMELINE:
+[0:00–0:15] Film 1:00–1:15. Lanterns light. Birds arrive.
+
+END STATE:
+Lanterns light. Birds arrive. Last 3 seconds stay readable for the next clip. No fade.
+
+CAMERA / SPACE:
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
+
+PERFORMANCE:
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
+
+LIGHTING / MATERIALS:
+Stay inside this treatment's materials only.
+
+AUDIO:
+Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. Editor may later place: [1:02–1:14] «Из штриха вышли крыши.»
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+#### 4 · рисовка · Seedance 2.0 часть 6 · клип 15 с
+
+**Входы:** см. блок ниже. Клип 6 из 8, плёнка 1:15–1:30.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/03-honor-drawn.png.
+@Video1 — last 3 seconds of Seedance part 5 of THIS treatment only. Conditioning input, not repeated output. This 15 seconds is new story time.
+Image1 is style and palette only.
+Mood still «Штрих → мир» matches the blooming roofs and the gold outline, not the first failed mark. It is stylization, not one physical stroke.
+
+STYLE LOCK:
+Flat ink and paint on indigo paper. No photoreal skin and no 3D metal.
+
+PRODUCT / PROXY LOCK — CRITICAL:
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+
+START STATE:
+Cut forward from the previous Seedance clip. New action: The drawing rushes toward a gold outline and stops at its edge.
+
+TIMELINE:
+[0:00–0:15] Film 1:15–1:30. The drawing rushes toward a gold outline and stops at its edge.
+
+END STATE:
+The drawing rushes toward a gold outline and stops at its edge. Last 3 seconds stay readable for the next clip. No fade.
+
+CAMERA / SPACE:
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
+
+PERFORMANCE:
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
+
+LIGHTING / MATERIALS:
+Stay inside this treatment's materials only.
+
+AUDIO:
+Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+#### 4 · рисовка · Seedance 2.0 часть 7 · клип 15 с
+
+**Входы:** см. блок ниже. Клип 7 из 8, плёнка 1:30–1:45.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/03-honor-drawn.png.
+@Video1 — last 3 seconds of Seedance part 6 of THIS treatment only. Conditioning input, not repeated output. This 15 seconds is new story time.
+Image1 is style and palette only.
+Mood still «Штрих → мир» matches the blooming roofs and the gold outline, not the first failed mark. It is stylization, not one physical stroke.
+
+STYLE LOCK:
+Flat ink and paint on indigo paper. No photoreal skin and no 3D metal.
+
+PRODUCT / PROXY LOCK — CRITICAL:
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+
+START STATE:
+Cut forward from the previous Seedance clip. New action: The world breathes: birds perch on the frame, flowers settle.
+
+TIMELINE:
+[0:00–0:15] Film 1:30–1:45. The world breathes: birds perch on the frame, flowers settle.
+
+END STATE:
+The world breathes: birds perch on the frame, flowers settle. Last 3 seconds stay readable for the next clip. No fade.
+
+CAMERA / SPACE:
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
+
+PERFORMANCE:
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
+
+LIGHTING / MATERIALS:
+Stay inside this treatment's materials only.
+
+AUDIO:
+Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+#### 4 · рисовка · Seedance 2.0 часть 8 · клип 15 с
+
+**Входы:** см. блок ниже. Клип 8 из 8, плёнка 1:45–2:00.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — mood still only. File: projects/raznoe/references/scenes/scene-4/03-honor-drawn.png.
+@Video1 — last 3 seconds of Seedance part 7 of THIS treatment only. Conditioning input, not repeated output. This 15 seconds is new story time.
+Image1 is style and palette only.
+Mood still «Штрих → мир» matches the blooming roofs and the gold outline, not the first failed mark. It is stylization, not one physical stroke.
+
+STYLE LOCK:
+Flat ink and paint on indigo paper. No photoreal skin and no 3D metal.
+
+PRODUCT / PROXY LOCK — CRITICAL:
+When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+
+START STATE:
+Cut forward from the previous Seedance clip. New action: Hold the empty gold outline. The inside stays blank.
+
+TIMELINE:
+[0:00–0:15] Film 1:45–2:00. Hold the empty gold outline. The inside stays blank.
+
+END STATE:
+Hold the empty gold outline. The inside stays blank. Final hold. No generated slogan.
+
+CAMERA / SPACE:
+Landscape 16:9. Keep the eventual hero area large when the proxy is present. No portrait crop, no side bars, no letterbox.
+
+PERFORMANCE:
+One clear change in this clip. Do not repeat the previous clip and do not freeze into a poster until a stated hold.
+
+LIGHTING / MATERIALS:
+Stay inside this treatment's materials only.
+
+AUDIO:
+Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. Editor may later place: [1:48–1:58] «Дальше место для вещи, не для нового штриха.»
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
 
 FRAME FILL / NO BARS:
 Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.

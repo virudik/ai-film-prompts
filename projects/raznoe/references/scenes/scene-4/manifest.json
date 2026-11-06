@@ -3,7 +3,7 @@
   "project": "raznoe",
   "scene": 4,
   "title": "HONOR",
-  "updated_at": "2026-11-06T04:45:00Z",
+  "updated_at": "2026-11-06T05:00:00Z",
   "status": "mood_frames_only",
   "editorial_status": "not_approved",
   "aspect": "16:9",
@@ -49,5 +49,10 @@
       "editorial_status": "not_approved",
       "not_a_product_reference": true
     }
-  ]
+  ],
+  "films": 3,
+  "edited_runtime_s_each": 120,
+  "wan_clips_each": "4x30",
+  "seedance_clips_each": "8x15",
+  "conditioning": "last 3s is input only, not subtracted"
 }
