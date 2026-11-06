@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-06T11:10:23Z",
+  "checked_at": "2026-11-06T11:20:24Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -67,8 +67,8 @@
       "model": "Seedance 2.0",
       "scene_id": 49,
       "mapping": "task_map",
-      "queue_count": 4210,
-      "wait_seconds": 196060,
+      "queue_count": 4200,
+      "wait_seconds": 195459,
       "process_seconds": null
     },
     {
@@ -80,8 +80,8 @@
       "model": "Wan 3.0",
       "scene_id": 63,
       "mapping": "task_map",
-      "queue_count": 3200,
-      "wait_seconds": 135580,
+      "queue_count": 3190,
+      "wait_seconds": 134978,
       "process_seconds": null
     },
     {
@@ -93,8 +93,8 @@
       "model": "Wan 3.0",
       "scene_id": 64,
       "mapping": "task_map",
-      "queue_count": 3489,
-      "wait_seconds": 152860,
+      "queue_count": 3479,
+      "wait_seconds": 152258,
       "process_seconds": null
     },
     {
@@ -106,8 +106,8 @@
       "model": "Wan 3.0",
       "scene_id": 71,
       "mapping": "task_map",
-      "queue_count": 640,
-      "wait_seconds": 14620,
+      "queue_count": 618,
+      "wait_seconds": 14018,
       "process_seconds": null
     },
     {
@@ -119,8 +119,8 @@
       "model": "Seedance 2.0",
       "scene_id": 56,
       "mapping": "task_map",
-      "queue_count": 2910,
-      "wait_seconds": 118300,
+      "queue_count": 2900,
+      "wait_seconds": 117698,
       "process_seconds": null
     },
     {
@@ -132,8 +132,8 @@
       "model": "Seedance 2.0",
       "scene_id": 48,
       "mapping": "task_map",
-      "queue_count": 1974,
-      "wait_seconds": 66460,
+      "queue_count": 1961,
+      "wait_seconds": 65859,
       "process_seconds": null
     }
   ],
@@ -157,24 +157,12 @@
     }
   ],
   "comparison": {
-    "monitor_checked_at": "2026-11-06T05:40:25Z",
-    "monitor_age_minutes": 330,
-    "monitor_occupied": 5,
+    "monitor_checked_at": "2026-11-06T11:10:23Z",
+    "monitor_age_minutes": 10,
+    "monitor_occupied": 6,
     "robot_occupied": 6,
-    "consistent": false,
-    "monitor_may_lag": true,
-    "differences": [
-      {
-        "type": "only_in_robot",
-        "task_id": "101221814fd5430697f697f95a3f4252",
-        "scene_id": 49,
-        "mapping": "task_map"
-      },
-      {
-        "type": "occupied_differs",
-        "monitor": 5,
-        "robot": 6
-      }
-    ]
+    "consistent": true,
+    "monitor_may_lag": false,
+    "differences": []
   }
 }
