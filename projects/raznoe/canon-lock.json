@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:948a3c55-20f6-4917-a3a9-75dc47c1b605",
   "task": "RESOURCE fourth press reference PNG upload and activation of 9 reviewed draft prompts; HONOR review",
   "acquired_at": "2026-11-06T18:43:16.110Z",
-  "expires_at": "2026-11-06T19:28:16.110Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-06T19:18:40.349Z",
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }
