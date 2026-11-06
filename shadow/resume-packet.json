@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-06T22:28:44+00:00",
-  "source_head": "19a8a8a857290b5be181cbe417fe782814c3b6c5",
-  "source_fingerprint": "050af2cba0f1aa541440181349d9a013929e08c9e793f7cbb8e32b56f9a41344",
+  "checked_at": "2026-11-06T22:30:46+00:00",
+  "source_head": "29e12fa1ac5b3e6ed5949882c51024621290fffb",
+  "source_fingerprint": "34ae9f2e5f74ff22180e14e8131660880d36de100ea429771e3f0205dfe5d423",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -424,8 +424,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "b7c53b2ac6e03ac151771f50f6b80e35f487c6ee8384056cf9d0332720eb767b",
-      "bytes": 34352
+      "sha256": "17663f8e234936076c73d9104c28b7b82d3d5313b75a22cd4bd2b3ef56f4c8ed",
+      "bytes": 35412
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -449,7 +449,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "c433dc6e8c9efb6e69254b6e34449eba467216fe2630737e074f7eab31277be4",
+      "sha256": "8a6eb0b34c56752ad7cbfffaaa00b3afd4e755168060c3dbb2628f4c69fb9c16",
       "bytes": 5136
     },
     {
@@ -479,8 +479,8 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "bf6d8e1e89d0b476d66a1b0c7fb331547cc6d9ca8e0b0fa1de126f2f1f0a57fb",
-      "bytes": 34060
+      "sha256": "1d3f68466f0344976a1b977c7089ae6ebd798760c9e39d902ced4bb41927133d",
+      "bytes": 35692
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -494,12 +494,12 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "d4be4b64124d51fdc8e888c64f6cde4c68984c252e3a96772560b5f71bb5f1c1",
-      "bytes": 34153
+      "sha256": "1e2c5399141fb0705f5edb9e076b42dd07cd07828ba1ac2972fa1649f5151835",
+      "bytes": 35213
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "9d3aa597de64fb17907ceac7a7e6d5e39cf1189132a9fa9d28fe6b7aad01726e",
+      "sha256": "2bffca15cee3dee0982da7ad2e5c10b4df136728b2fb51dab1aaf38434d67249",
       "bytes": 25512
     },
     {
@@ -509,8 +509,8 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "0edea1d4d6d34766757de7de7ac3916c9e18b3a6a968e4caca0aa5b859a2392e",
-      "bytes": 98792
+      "sha256": "44364718f4b538ddb8a0712656a378745345b793ce0623eaff8b506eb7e3a6c2",
+      "bytes": 99392
     }
   ],
   "packet_bytes": 8359
