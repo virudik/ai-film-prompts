@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:raznoe-handoff-cleanup-20261106",
   "task": "archive duplicate pricing handoff block to resolve canon-health warning",
   "acquired_at": "2026-11-06T18:18:25.810Z",
-  "expires_at": "2026-11-06T18:30:25.810Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-06T18:19:29.949Z",
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }
