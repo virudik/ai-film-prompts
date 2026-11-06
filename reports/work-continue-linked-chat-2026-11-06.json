@@ -402,5 +402,394 @@
     "HONOR creative proposals are recorded; product/voice choice is required before future production, no generation authorized by this audit.",
     "Topview queue waits for a real free slot; full new preflight required before submission."
   ],
-  "followup_owner_request": "Довести RESOURCE и HONOR, включая референсы и последнюю модель телефона, проверить предупреждение сайта; подготовить и загрузить руководство и инструкции в папку Саша на Drive. Работа продолжается отдельно в проекте Разное."
+  "followup_owner_request": "Довести RESOURCE и HONOR, включая референсы и последнюю модель телефона, проверить предупреждение сайта; подготовить и загрузить руководство и инструкции в папку Саша на Drive. Работа продолжается отдельно в проекте Разное.",
+  "followup_audit": {
+    "checked_at": "2026-11-06T13:30:20+00:00",
+    "source_head": "465bd2e684d848dc3d9be6cbe7298c37bb5cbb3f",
+    "scope": "Read-only linked-chat audit and verification; no new Topview scan or submission in this followup",
+    "writer": {
+      "holder": "chatgpt:work:94763d01-f2f0-4e0c-bcf3-ee9925c133ae",
+      "local_session_id": "94763d01-f2f0-4e0c-bcf3-ee9925c133ae",
+      "chat_id": null,
+      "chat_identity_status": "unavailable",
+      "role": "delegated_auditor_for_current_Work",
+      "new_primary_chat_takeover_receipt_created": false,
+      "receipt_reason": "Delegated audit, not a new primary chat takeover; no unobserved intake/owner_decisions claim"
+    },
+    "linked_chats": [
+      {
+        "url": "https://chatgpt.com/share/6aedd10a-aec0-83eb-a76e-575eb3277177?ogimg=plain",
+        "title": "Продолжи задания чата",
+        "read_via": "visible browser UI, expanded work block",
+        "owner_messages": 1,
+        "directly_links_to": "https://chatgpt.com/share/6aedc24c-72f0-83eb-8fa5-53786fdf6366",
+        "additional_owner_tasks": false,
+        "final_answer_visible": false
+      },
+      {
+        "url": "https://chatgpt.com/share/6aedc24c-72f0-83eb-8fa5-53786fdf6366",
+        "title": "Разбор заметок Work",
+        "read_via": "visible browser UI plus earlier saved owner-message transcript",
+        "scope": "Keep; parallel project/site work; hourly backup and Relay; real continuation tails; future plans; HONOR/RESOURCE audit; holiday button; subdomain HTTPS",
+        "further_user_share_links_observed": []
+      }
+    ],
+    "previous_completed_verified": {
+      "terratech_pngs_sha256_match": 5,
+      "resource_new_pngs_sha256_match": 2,
+      "parallel_work_instruction_present": true,
+      "future_plans_keep_p14_present": true,
+      "holiday_button": "Published result retained from preceding verified report; no new UI retest claimed"
+    },
+    "hourly_backup": {
+      "checked_at": "2026-11-06T13:29:29.575Z",
+      "id": "6acae6ab433481919e88665c520b8ef2",
+      "enabled": true,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/Moscow:20261015T225500\nRRULE:FREQ=HOURLY;INTERVAL=1;BYMINUTE=55;BYSECOND=0\nEND:VEVENT",
+      "timezone": "Europe/Moscow",
+      "last_run": {
+        "id": "6a8507ab-69d0-8328-966f-cbc87d3fc5c9",
+        "recorded_status": "completed",
+        "scheduled_for": "2026-11-06T12:55:00Z",
+        "started_at": "2026-11-06T12:55:20.235232Z",
+        "completed_at": "2026-11-06T13:02:06.755327Z",
+        "chat_ref": {
+          "type": "chatgpt",
+          "id": "6acae851-4f7c-83ed-a459-e371ce64a39f"
+        }
+      },
+      "latest_result_run_id": "6a8507ab-69d0-8328-966f-cbc87d3fc5c9",
+      "run_result_matches": true,
+      "requires_user_action": false,
+      "delivery_status": "unknown",
+      "next_run_time": null,
+      "canonical_receipt_commit": "dee4eb0f3b18d76dd4dad17e88d35fd81c605e73",
+      "canonical_receipt_run_matches": true,
+      "receipt_result": "no_free_slot",
+      "receipt_scan": {
+        "complete": true,
+        "boards_scanned": 14,
+        "pages_scanned": 18,
+        "video_tasks_scanned": 630,
+        "status_counts": {
+          "success": 601,
+          "init": 6,
+          "fail": 23
+        },
+        "active_task_ids": [
+          "101221814fd5430697f697f95a3f4252",
+          "3ebe7c23db05479e9b6f762a75b832e7",
+          "365cf639589a4a5da834d70193d5e8f6",
+          "be960f5e3bf54563aff663fed9da8906",
+          "de8e44bb15d64dc7a4eb640d27a726e4",
+          "431180d384cc43bebe7afc702e4eb4e6"
+        ],
+        "scope": "all Topview boards, all video pages"
+      },
+      "new_submissions": [],
+      "own_release_commit": "8f8576a6b5f577a4345bec00e9d04b8b7a7792f0",
+      "release_state": "free",
+      "ordinary_peer_caveat_at_that_run": {
+        "ordinary_actual_last_run_id": "7c2a80cd-26e8-8327-8259-2bb577677327",
+        "ordinary_latest_result_run_id": "7c2a80cd-26e8-8327-8259-2bb577677327",
+        "ordinary_receipt_run_id": "c7bd9924-745c-8330-9258-e6af41716263",
+        "status": "receipt_mismatch_for_latest_ordinary_run"
+      },
+      "automation_changes": false,
+      "historical_disable_reason": "unknown; no actor/cause audit obtained"
+    },
+    "https": {
+      "checked_at_utc": "2026-11-06T13:19:43Z–2026-11-06T13:23:00Z",
+      "status": "not_fixed_https_unconfirmed",
+      "controls": [
+        {
+          "name": "рудик.рф",
+          "url": "https://xn--d1aigvp.xn--p1ai/",
+          "status": 200
+        },
+        {
+          "name": "www.рудик.рф",
+          "url": "https://www.xn--d1aigvp.xn--p1ai/",
+          "status": 301
+        },
+        {
+          "name": "промты.рудик.рф",
+          "url": "https://xn--l1adcem8c.xn--d1aigvp.xn--p1ai/",
+          "status": 200
+        },
+        {
+          "name": "ии.рудик.рф",
+          "url": "https://xn--h1aa.xn--d1aigvp.xn--p1ai/",
+          "status": 200
+        }
+      ],
+      "subdomains": [
+        {
+          "name": "алина.рудик.рф",
+          "https_url": "https://xn--80aaxll.xn--d1aigvp.xn--p1ai/",
+          "https_status": 503,
+          "http_status": 200,
+          "redirect_target": "https://xn--d1aigvp.xn--p1ai/%D0%B0%D0%BB%D0%B8%D0%BD%D0%B0/",
+          "dns_cname": "virudik.github.io.",
+          "repository_cname_url": "https://github.com/virudik/alina-rudik-redirect/blob/main/CNAME",
+          "repository_cname_sha": "54d67263680f0b4de0b8bdaf41b1598dd967128b",
+          "ct_matches": 0,
+          "direct_tls": {
+            "verified": false,
+            "error_type": "gaierror",
+            "error": "[Errno -3] Temporary failure in name resolution"
+          }
+        },
+        {
+          "name": "маша.рудик.рф",
+          "https_url": "https://xn--80aa8axc.xn--d1aigvp.xn--p1ai/",
+          "https_status": 503,
+          "http_status": 200,
+          "redirect_target": "https://xn--d1aigvp.xn--p1ai/%D0%BC%D0%B0%D1%88%D0%B0/",
+          "dns_cname": "virudik.github.io.",
+          "repository_cname_url": "https://github.com/virudik/masha-rudik-redirect/blob/main/CNAME",
+          "repository_cname_sha": "a416cb5eccd2752f05c28e5867c5216c3fd7b552",
+          "ct_matches": 0,
+          "direct_tls": {
+            "verified": false,
+            "error_type": "gaierror",
+            "error": "[Errno -3] Temporary failure in name resolution"
+          }
+        },
+        {
+          "name": "виталик.рудик.рф",
+          "https_url": "https://xn--80adsbke1c.xn--d1aigvp.xn--p1ai/",
+          "https_status": 503,
+          "http_status": 200,
+          "redirect_target": "https://xn--d1aigvp.xn--p1ai/%D0%B2%D0%B8%D1%82%D0%B0%D0%BB%D0%B8%D0%BA/",
+          "dns_cname": "virudik.github.io.",
+          "repository_cname_url": "https://github.com/virudik/vitalik-rudik-redirect/blob/main/CNAME",
+          "repository_cname_sha": "567c46c747c1f2cf80a033c93157802a2eaabc79",
+          "ct_matches": 0,
+          "direct_tls": {
+            "verified": false,
+            "error_type": "gaierror",
+            "error": "[Errno -3] Temporary failure in name resolution"
+          }
+        },
+        {
+          "name": "видео.рудик.рф",
+          "https_url": "https://xn--b1aedk6a.xn--d1aigvp.xn--p1ai/",
+          "https_status": 503,
+          "http_status": 200,
+          "redirect_target": "https://xn--d1aigvp.xn--p1ai/%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE/",
+          "dns_cname": "virudik.github.io.",
+          "repository_cname_url": "https://github.com/virudik/video-rudik-redirect/blob/main/CNAME",
+          "repository_cname_sha": "6f3d40888f1dd89204976c58e1450e53c5ff4d68",
+          "ct_matches": 0,
+          "direct_tls": {
+            "verified": false,
+            "error_type": "gaierror",
+            "error": "[Errno -3] Temporary failure in name resolution"
+          }
+        },
+        {
+          "name": "фото.рудик.рф",
+          "https_url": "https://xn--n1aalg.xn--d1aigvp.xn--p1ai/",
+          "https_status": 503,
+          "http_status": 200,
+          "redirect_target": "https://xn--d1aigvp.xn--p1ai/%D1%84%D0%BE%D1%82%D0%BE/",
+          "dns_cname": "virudik.github.io.",
+          "repository_cname_url": "https://github.com/virudik/foto-rudik-redirect/blob/main/CNAME",
+          "repository_cname_sha": "c995c2aed56023a5b0240292bb37e6e4a0e634e7",
+          "ct_matches": 0,
+          "direct_tls": {
+            "verified": false,
+            "error_type": "gaierror",
+            "error": "[Errno -3] Temporary failure in name resolution"
+          }
+        },
+        {
+          "name": "работа.рудик.рф",
+          "https_url": "https://xn--80aac6chp.xn--d1aigvp.xn--p1ai/",
+          "https_status": 503,
+          "http_status": 200,
+          "redirect_target": "https://xn--d1aigvp.xn--p1ai/%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/",
+          "dns_cname": "virudik.github.io.",
+          "repository_cname_url": "https://github.com/virudik/rabota-rudik-redirect/blob/main/CNAME",
+          "repository_cname_sha": "464407624ec6e54408166e0f26f5324b69166092",
+          "ct_matches": 0,
+          "direct_tls": {
+            "verified": false,
+            "error_type": "gaierror",
+            "error": "[Errno -3] Temporary failure in name resolution"
+          }
+        },
+        {
+          "name": "мои-видео.рудик.рф",
+          "https_url": "https://xn----dtbgelcyqg.xn--d1aigvp.xn--p1ai/",
+          "https_status": 503,
+          "http_status": 200,
+          "redirect_target": "https://xn--d1aigvp.xn--p1ai/%D0%BC%D0%BE%D0%B8-%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE/",
+          "dns_cname": "virudik.github.io.",
+          "repository_cname_url": "https://github.com/virudik/moi-video-rudik-redirect/blob/main/CNAME",
+          "repository_cname_sha": "863e65e53ec03987b9ec04fe59ae1750ee16f37c",
+          "ct_matches": 0,
+          "direct_tls": {
+            "verified": false,
+            "error_type": "gaierror",
+            "error": "[Errno -3] Temporary failure in name resolution"
+          }
+        },
+        {
+          "name": "обо-мне.рудик.рф",
+          "https_url": "https://xn----9sbn1afcb.xn--d1aigvp.xn--p1ai/",
+          "https_status": 503,
+          "http_status": 200,
+          "redirect_target": "https://xn--d1aigvp.xn--p1ai/%D0%BE%D0%B1%D0%BE-%D0%BC%D0%BD%D0%B5/",
+          "dns_cname": "virudik.github.io.",
+          "repository_cname_url": "https://github.com/virudik/obo-mne-rudik-redirect/blob/main/CNAME",
+          "repository_cname_sha": "06869c009790ba59a97a5555b6dac4109f92eba7",
+          "ct_matches": 0,
+          "direct_tls": {
+            "verified": false,
+            "error_type": "gaierror",
+            "error": "[Errno -3] Temporary failure in name resolution"
+          }
+        }
+      ],
+      "conclusion": "All 8 custom subdomains return upstream HTTPS 503 from the checking environment; HTTP routing, DNS CNAME and repository CNAME work. No corresponding SAN names found in the current Cert Spotter response. Actual origin peer certificates could not be retrieved; direct TLS probes fail at local DNS resolution. Certificate provisioning/deployment issue is plausible but not proven.",
+      "pages_settings_access": "Cloud browser checked in dedicated tab 14: Pages settings returns 404 with Sign in / Sign up. Browser is unauthenticated. Status and error of certificate remain unreadable; no authentication attempted.",
+      "tls_verification_disabled": false,
+      "changes": []
+    },
+    "sasha_delivery": {
+      "project": "raznoe",
+      "delivered_at": "2026-11-06T13:16:47.503152+00:00",
+      "verified_by": "delegated Sasha guide agent; metadata readback per item",
+      "source_head": "12fd47857e807f4c89ceee678498327e8157bf9e",
+      "destination": {
+        "folder_id": "1FHwi_A1cpODMy2YAwggkkOneIdNA4vS2",
+        "url": "https://drive.google.com/drive/folders/1FHwi_A1cpODMy2YAwggkkOneIdNA4vS2"
+      },
+      "files": [
+        {
+          "name": "RESOURCE-guide.pdf",
+          "id": "1fUfuFHUIJywbxL3KN2arRxQTn_KzLgz2",
+          "url": "https://drive.google.com/file/d/1fUfuFHUIJywbxL3KN2arRxQTn_KzLgz2/view?usp=drivesdk",
+          "sha256": "307fcb559ae512f3177848e50ba31276a9969a70a09bf5dab072feb7ebe2df0d",
+          "size_bytes": 163298,
+          "verified_parent_size_name": true
+        },
+        {
+          "name": "RESOURCE-guide.docx",
+          "id": "1FLbfqU6uti3AfNqe1To_JGO6QBiSM2Rv",
+          "url": "https://docs.google.com/document/d/1FLbfqU6uti3AfNqe1To_JGO6QBiSM2Rv/edit?usp=drivesdk&ouid=110650040683759780059&rtpof=true&sd=true",
+          "sha256": "a78fdd876bc3b45847e07be2f863eb2f06399a97bf86f02e88232ef53bc982c0",
+          "size_bytes": 48991,
+          "verified_parent_size_name": true
+        },
+        {
+          "name": "RESOURCE-guide.md",
+          "id": "1sjVzlwS3ZZ9oTDlC-Tnp6qUWyFL6I3EE",
+          "url": "https://drive.google.com/file/d/1sjVzlwS3ZZ9oTDlC-Tnp6qUWyFL6I3EE/view?usp=drivesdk",
+          "sha256": "77025a414a2d40c92cc63ee6bf7feada1773f6a969576f0ddc3c31aa88c72ee1",
+          "size_bytes": 28941,
+          "verified_parent_size_name": true
+        },
+        {
+          "name": "RESOURCE-scene-template.txt",
+          "id": "1FgNswfvtDQ2nVJQT9BoCoVoHUDg-DyE_",
+          "url": "https://drive.google.com/file/d/1FgNswfvtDQ2nVJQT9BoCoVoHUDg-DyE_/view?usp=drivesdk",
+          "sha256": "4563f340dc7aa9c364fdacfb9ebe6b2d67f9454b26d27d5f74a8d75f73528646",
+          "size_bytes": 1108,
+          "verified_parent_size_name": true
+        },
+        {
+          "name": "RESOURCE-bottle-example.txt",
+          "id": "1MDVu6XUota72r3KFJiKd1iFF6xA4TH32",
+          "url": "https://drive.google.com/file/d/1MDVu6XUota72r3KFJiKd1iFF6xA4TH32/view?usp=drivesdk",
+          "sha256": "c86c0cd502c0090bf1a28031f2ff2f4ff37f00c0e19cc0c7a780d0c4d7da3aba",
+          "size_bytes": 1935,
+          "verified_parent_size_name": true
+        },
+        {
+          "name": "RESOURCE-capture-example.txt",
+          "id": "1rQV9dSfmQMtSliEbf1i1Of7rViGIOcW9",
+          "url": "https://drive.google.com/file/d/1rQV9dSfmQMtSliEbf1i1Of7rViGIOcW9/view?usp=drivesdk",
+          "sha256": "6da6dd5900d838fe8851106b411c340f4d5e5d45901c66ff78e6b52653f32b88",
+          "size_bytes": 2280,
+          "verified_parent_size_name": true
+        },
+        {
+          "name": "PROMPT-STYLE-GUIDE.md",
+          "id": "1-TTNI6s-ee8eRgEZpg-qYLA5kXkTdXkP",
+          "url": "https://drive.google.com/file/d/1-TTNI6s-ee8eRgEZpg-qYLA5kXkTdXkP/view?usp=drivesdk",
+          "sha256": "2afe827fe839af546a0f7f4c1f36c57fcd976dd3f6fd8759ddf09ff265fa505d",
+          "size_bytes": 81982,
+          "verified_parent_size_name": true
+        },
+        {
+          "name": "USER-GUIDE.md",
+          "id": "1EBYdK5-uRTUAQAJ0U7GUEH5yIx1cu84z",
+          "url": "https://drive.google.com/file/d/1EBYdK5-uRTUAQAJ0U7GUEH5yIx1cu84z/view?usp=drivesdk",
+          "sha256": "b115d684906c9cb5003d6493958af67d233d1d2cb5e216c8c7ed65d1e844053c",
+          "size_bytes": 84087,
+          "verified_parent_size_name": true
+        }
+      ],
+      "file_count": 8,
+      "guide_pages": 8,
+      "visual_qa": "all eight existing rendered pages inspected; no clipping or overlap",
+      "existing_15_videos_preserved": true,
+      "sharing_changes": false
+    },
+    "continuity_qc": {
+      "scenes": [
+        52,
+        60,
+        61
+      ],
+      "status": "pending_continuous_motion_and_audio_qc",
+      "audio_listened": false,
+      "continuous_full_rate_viewed": false,
+      "capability_preflight": "ffmpeg/ffprobe/ffplay available for decode/frame/level checks; browser exposes screenshots/DOM, no confirmed model audio capture or continuous audiovisual input path. External video-analysis creation was not used.",
+      "no_qc_flags_changed": true
+    },
+    "keep": {
+      "status": "ongoing",
+      "private_checkpoint_library_id": "libfile_2e9a039a97488191b088e7d342b51e2a",
+      "new_live_counts_claimed": false,
+      "notes_content_in_canon": false
+    },
+    "resource_honor": {
+      "project": "raznoe",
+      "status": "in_progress_drafts_and_qc",
+      "production_complete": false,
+      "project_files_changed_by_this_audit": false,
+      "next_action": "Continue exact product references and RESOURCE mechanics in project checkpoint under the project lock; do not infer completion from this root audit"
+    },
+    "remaining": [
+      "Keep full review and coverage remain ongoing in its private checkpoint.",
+      "S52/S60/S61 continuous visual/audio QC is still unverified; dependent launches remain blocked.",
+      "Eight family subdomain HTTPS endpoints remain unconfirmed; origin certificate/Pages errors are not accessible from this audit.",
+      "RESOURCE/HONOR drafts and reference QC continue in the separate project; video submissions are not authorized by this audit.",
+      "Future Topview submissions require a new full scan/preflight; the hourly receipt is a past checked cycle, not current capacity."
+    ],
+    "source_evidence_sha256": {
+      "linked_chat_draft": "b810001e03cbf0e92ecca9ae4271afc9876eec9e849859969a6730ecb456145b",
+      "https_report": "67219aface03968054d086e706a35cad20981910a70c7eacf81fd696566c5da4",
+      "sasha_delivery": "bf09dac48aeb11692533c3c9712393fce6adfd2ac674db008f6b74373f061aec",
+      "hourly_peek_snapshot": "acca02f2561d7452ed37d4daa0e5bcbb462b9afeab200f8c561b011f49ecfe94"
+    },
+    "validation": {
+      "continue_recovery_and_preflight_unit_tests": {
+        "count": 28,
+        "result": "passed"
+      },
+      "historical_report_preserved": true,
+      "root_focus_identity_preserved": true,
+      "queue_and_roles_unchanged": true,
+      "project_files_unchanged": true,
+      "diff_check": "passed",
+      "resume_preflight": "passed",
+      "canon_health": "ok; warnings=0; info=12"
+    },
+    "publication_base_head": "e5be0a274d37ca6cc2de207201d2799047e45219"
+  }
 }
