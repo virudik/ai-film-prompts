@@ -402,16 +402,16 @@
       "S28-A13-20261030"
     ],
     "reconciliation_items": [],
-    "last_event_id": "result:22dbd25cdd9f47cd9e44300e55f5e44f",
-    "receipt_present": true,
-    "handler_outcome": "no_update",
-    "execution_stage": "finished",
-    "execution_updated_at": "2026-11-06T05:55:16.981Z",
+    "last_event_id": "result:431180d384cc43bebe7afc702e4eb4e6",
+    "receipt_present": false,
+    "handler_outcome": null,
+    "execution_stage": null,
+    "execution_updated_at": null,
     "runtime_run_id": null,
     "confirmed_launch_task_ids": [],
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
     "escalation_attempted_episode": "9e1f3e17",
-    "checked_at": "2026-11-06T15:30:32Z"
+    "checked_at": "2026-11-06T15:40:30Z"
   }
 }
