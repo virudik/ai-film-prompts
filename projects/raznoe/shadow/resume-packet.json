@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-06T18:14:44+00:00",
-  "source_head": "bfbc2727c8ff0a4841a94ea14f5aab0487c8ce0e",
-  "source_fingerprint": "6ee5e888a99fd36c8ff3fc939ce306be08a8ba7a2b7bb83b39f4ce0590daee64",
+  "checked_at": "2026-11-06T18:19:56+00:00",
+  "source_head": "ccd8924428a1f13063a6bd1ebf815b75616cb4a0",
+  "source_fingerprint": "5a1dbe04d1b2d3a9b9c4500521d9415cec5e6ca096ab8090af213e97ca260d7d",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -209,8 +209,8 @@
     },
     {
       "file": "projects/raznoe/HANDOFF.md",
-      "sha256": "2618c96b7cba895bf1e2277a09ccf90ae79dcc2b1def41ad537cbb9c13ff72fc",
-      "bytes": 12375
+      "sha256": "df3cdcc90a5291ef4ea788886e2f11f7c35f8d096fe5eae71a3332f2fba0d835",
+      "bytes": 9111
     },
     {
       "file": "projects/raznoe/INSTRUCTIONS.md",
