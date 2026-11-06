@@ -2,8 +2,8 @@
 
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
-Состояние: needs_recovery
-Проверено: 2026-11-06T18:13:53+00:00
+Состояние: ready
+Проверено: 2026-11-06T18:14:44+00:00
 Задача: TOPVIEW-SLOT-PRIORITY-20261024 — Заполнение свободных Topview-слотов — задача №1
 
 Последний подтверждённый этап: Проверен общий ChatGPT Images и снят прежний UI-блокер; завершённая работа перенесена с сохранением истории. Подтверждён linkfix существующего руководства Саше по трём Drive ID и SHA readback. Квитанции CONTINUE-001 уточнены без закрытия issue; основной фокус и текущие блокеры сохранены. Дополнительно подтверждены success восьми Pages deployments и корректные AAAA/CAA; происхождение HTTPS 503 на origin не установлено.
@@ -62,5 +62,4 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 
 ## Пробелы
 
-- brief was invalid at generation
-- instruction certificate mismatch: NEW-CHAT-HANDOFF.md
+Нет ошибок локальной проверки. Живые проверки выше обязательны.
