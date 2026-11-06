@@ -3,14 +3,14 @@
   "source_of_truth": "GitHub main/projects/raznoe/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-06T04:17:07Z",
+  "synced_at": "2026-11-06T04:41:56Z",
   "revision_date": "06.11.2026",
-  "master_declared_last_full_sync": "06.11.2026 · сцена 3 RESOURCE добавлена отдельным фотореалом 16:9; сцены 1–2 не менялись; видео не запускались.",
-  "canonical_master_sha256": "a6cc812a8bc8fc67382cb093d025ed027bfb90b14fd6983a7221233be6a9b8d2",
-  "canonical_revision_sha256": "f95e0d9999f065b7cd864816961f72b9e7753c2961cbe58a29d7d09ed0ff3bcd",
-  "canonical_master_bytes": 338381,
-  "scenes": 3,
-  "prompt_texts": 29,
+  "master_declared_last_full_sync": "06.11.2026 · сцена 4 HONOR добавлена отдельным пакетом из трёх вариантов; сцена 3 RESOURCE и сцены 1–2 не переписывались; видео не запускались.",
+  "canonical_master_sha256": "d4fce1bcc0f988ae6720f8922688746b1e2ea9e1b25c944c066ab0d5cc753f17",
+  "canonical_revision_sha256": "78d112777b39bfbba0f12700e2cf50f17f7b9ade5d90f902687be95dc4e56901",
+  "canonical_master_bytes": 384480,
+  "scenes": 4,
+  "prompt_texts": 38,
   "work_items": [],
   "work_items_count": 0,
   "slow_scenes": [],
@@ -18,9 +18,10 @@
   "scene_ids": [
     1,
     2,
-    3
+    3,
+    4
   ],
-  "latest_scene": 3,
+  "latest_scene": 4,
   "reserved_scene_ids": [],
   "instruction_sync": {
     "health": "ok",
@@ -28,7 +29,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 17.323,
+    "age_hours_at_status_build": 17.736,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -106,7 +107,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 17.323,
+      "age_hours": 17.736,
       "blocking": false
     },
     "topview_task_map": {
@@ -181,19 +182,40 @@
         "source_grok_imagine"
       ],
       "render_state": "IDLE"
+    },
+    "4": {
+      "target_engine": "уточнить",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "owner_requested",
+        "draft",
+        "pitch",
+        "landscape_16x9",
+        "mood_refs_only",
+        "not_approved",
+        "raznoe_scene_4"
+      ],
+      "render_state": "IDLE"
     }
   },
   "audit_fingerprint": {
     "revision_date": "06.11.2026",
-    "synced_at": "2026-11-06T04:17:07Z",
-    "canonical_master_sha256": "a6cc812a8bc8fc67382cb093d025ed027bfb90b14fd6983a7221233be6a9b8d2",
-    "canonical_revision_sha256": "f95e0d9999f065b7cd864816961f72b9e7753c2961cbe58a29d7d09ed0ff3bcd",
-    "scene_count": 3,
-    "prompt_count": 29,
+    "synced_at": "2026-11-06T04:41:56Z",
+    "canonical_master_sha256": "d4fce1bcc0f988ae6720f8922688746b1e2ea9e1b25c944c066ab0d5cc753f17",
+    "canonical_revision_sha256": "78d112777b39bfbba0f12700e2cf50f17f7b9ade5d90f902687be95dc4e56901",
+    "scene_count": 4,
+    "prompt_count": 38,
     "scene_ids": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "work_items": [],
     "slow_scenes": [],

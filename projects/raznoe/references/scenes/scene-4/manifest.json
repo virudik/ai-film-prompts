@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "project": "raznoe",
+  "scene": 4,
+  "title": "HONOR",
+  "updated_at": "2026-11-06T04:45:00Z",
+  "status": "mood_frames_only",
+  "editorial_status": "not_approved",
+  "aspect": "16:9",
+  "production_ready": false,
+  "missing_slots": [
+    "H-FRONT",
+    "H-BACK",
+    "H-CAM",
+    "H-34",
+    "H-LOGO"
+  ],
+  "references": [
+    {
+      "tag": "real",
+      "role": "mood_style_only",
+      "path": "projects/raznoe/references/scenes/scene-4/01-honor-realism.png",
+      "sha256": "db0c1517d55c460eb78e698c7c4eddb5737fe3e0462d90d7c68502b629a5081e",
+      "width": 1280,
+      "height": 720,
+      "prompt_path": "projects/raznoe/references/scenes/scene-4/01-honor-realism.prompt.txt",
+      "editorial_status": "not_approved",
+      "not_a_product_reference": true
+    },
+    {
+      "tag": "3d",
+      "role": "mood_style_only",
+      "path": "projects/raznoe/references/scenes/scene-4/02-honor-3d.png",
+      "sha256": "b661000edd39577bf516c5c7a3567b21597b96108cffe4ddddeaf611d0e04c24",
+      "width": 1280,
+      "height": 720,
+      "prompt_path": "projects/raznoe/references/scenes/scene-4/02-honor-3d.prompt.txt",
+      "editorial_status": "not_approved",
+      "not_a_product_reference": true
+    },
+    {
+      "tag": "drawn",
+      "role": "mood_style_only",
+      "path": "projects/raznoe/references/scenes/scene-4/03-honor-drawn.png",
+      "sha256": "2279000421fef277e1e7555498009f983f7a47e6943e549c75111b2ddf3b3e1d",
+      "width": 1280,
+      "height": 720,
+      "prompt_path": "projects/raznoe/references/scenes/scene-4/03-honor-drawn.prompt.txt",
+      "editorial_status": "not_approved",
+      "not_a_product_reference": true
+    }
+  ]
+}

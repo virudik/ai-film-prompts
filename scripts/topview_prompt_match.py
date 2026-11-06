@@ -80,6 +80,14 @@ def label_for(scene, heading, index_in_scene):
     m = re.match(rf"{scene}\s*·\s*Grok Imagine Video(?:\s+часть\s+(\d+))?", heading)
     if m and index_in_scene > 0:
         return f"{scene} · Grok Imagine Video" + (f" часть {m.group(1)}" if m.group(1) else "")
+    # One scene, several advertising treatments (Разное, HONOR). The first fence stays bare "N".
+    m = re.match(
+        rf"{scene}\s*·\s*(реализм|3D|рисовка)\s*·\s*(Wan 3\.0|Seedance 2\.0)(?:\s+часть\s+(\d+))?",
+        heading,
+    )
+    if m and index_in_scene > 0:
+        part = f" часть {m.group(3)}" if m.group(3) else ""
+        return f"{scene} · {m.group(1)} · {m.group(2)}{part}"
     if scene == 28:
         m = re.match(r"([ABC]\d+)\b", heading)
         return f"28 {m.group(1)}" if m else "28"
