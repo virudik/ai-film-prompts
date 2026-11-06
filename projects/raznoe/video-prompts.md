@@ -5538,7 +5538,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 
 **Входы:** text-to-video, **без файла продукта**. Это 30-секундный синтетический storyboard-preview, не конкурсная демонстрация устройства; нельзя использовать его вместо реальной съёмки.
 
-\`\`\`text
+```text
 Mode: text-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
 Optimized for Wan 3.0 / Seedance 2.5 | ONE vertical conceptual storyboard only
 
@@ -5562,7 +5562,7 @@ NO HONOR logo, NO phone brand, no authentic durability test, no magic water defl
 
 FRAME FILL:
 Fill entire portrait 9:16, 720×1280. Full bleed, no letterbox, no pillarbox or embedded widescreen frame.
-\`\`\`
+```
 
 </div>
 
@@ -5572,7 +5572,7 @@ Fill entire portrait 9:16, 720×1280. Full bleed, no letterbox, no pillarbox or 
 
 **Входы:** text-to-video, без референса продукта; кадр — синтетический сториборд для будущей реальной съёмки. Часть 1 из 2.
 
-\`\`\`text
+```text
 Mode: text-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
 Optimized for Seedance 2.0 | Concept preview, part 1 of 2, story time 0:00–0:15
 
@@ -5596,13 +5596,13 @@ Picture only, no sound or generated speech, brand, titles, UI, product claims or
 
 FRAME FILL / NEGATIVE:
 Full 720×1280 vertical 9:16 image; no horizontal crop, black bars, text, HONOR markings, fake waterproof tests, animated graphics, camera island or duplicate phones.
-\`\`\`
+```
 
 #### 5 · Seedance 2.0 часть 2 · 15 с
 
 **Входы:** @Video1 — **только реальные последние 3 секунды готовой части 1**, если превизуализация вообще когда-либо будет запущена и пройдёт QC. Пока @Video1 отсутствует — не READY. Часть 2 из 2.
 
-\`\`\`text
+```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
 Optimized for Seedance 2.0 | Concept preview, part 2 of 2, NEW story time 0:15–0:30
 
@@ -5623,7 +5623,7 @@ Vertical 9:16, continuous movement, overcast natural light, image only. No dialo
 
 NEGATIVE / FRAME FILL:
 No camera island, no HONOR branding, no exact handset, no water immersion, no impact, no fake demonstration, no replay of @Video1, no device duplication, no sideways framing, no pillarbox, letterbox, borders or captions. Fill entire portrait 720×1280.
-\`\`\`
+```
 
 </div>
 
