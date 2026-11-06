@@ -3,14 +3,14 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-11-06T22:12:41Z",
-  "revision_date": "06.11.2026",
+  "synced_at": "2026-11-06T22:30:47Z",
+  "revision_date": "07.11.2026",
   "master_declared_last_full_sync": "06.11.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "6df52e6dff1b52eb8fffcb13b7f9e8267460045835f4bf692482bc231bf2ce6d",
-  "canonical_revision_sha256": "dc69d788104e4f4e44a790e4f1f98bcf01ee363c3e7462089f4666b5f7355f69",
-  "canonical_master_bytes": 1353952,
-  "scenes": 29,
-  "prompt_texts": 144,
+  "canonical_master_sha256": "399e21f90fc993546f743cfe154130e7fa7403676ab0ed2054bba11f2aaca6c4",
+  "canonical_revision_sha256": "ad5c9450e0cdbcc526a7939b1b11d076c8d6dd5bbf12a0a21ae95c70f756ba9d",
+  "canonical_master_bytes": 1369523,
+  "scenes": 30,
+  "prompt_texts": 147,
   "work_items": [
     "W5",
     "W6",
@@ -74,9 +74,10 @@
     69,
     70,
     71,
-    72
+    72,
+    73
   ],
-  "latest_scene": 72,
+  "latest_scene": 73,
   "reserved_scene_ids": [
     1,
     2,
@@ -123,19 +124,19 @@
   ],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-11-06T18:24:16.575Z",
+    "snapshot_at": "2026-11-06T22:30:43.210Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 3.807,
+    "age_hours_at_status_build": 0.001,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
         "drive_copy_sha256": "cd2a433494410b09a061a3cf1566b8eae5ab3c87ce2e2f70e7a4286e7d73f432",
         "drive_copy_checked_at": "2026-11-06T10:54:36.135Z",
         "drive_copy_modified_at": "2026-11-06T10:54:25.659Z",
-        "github_blob": "1f59c781fe83e66bfe6f2839b826696ea1ea20b3",
-        "mirror_sha256": "b7c53b2ac6e03ac151771f50f6b80e35f487c6ee8384056cf9d0332720eb767b",
+        "github_blob": "f414a37658847fbc5f041404cfb06f085f4f13f5",
+        "mirror_sha256": "17663f8e234936076c73d9104c28b7b82d3d5313b75a22cd4bd2b3ef56f4c8ed",
         "match": true,
         "drive_copy_match": false
       },
@@ -205,7 +206,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 3.807,
+      "age_hours": 0.001,
       "blocking": false
     },
     "topview_task_map": {
@@ -860,15 +861,35 @@
         "owner_requested"
       ],
       "render_state": "SLOW_PENDING"
+    },
+    "73": {
+      "target_engine": "Wan 3.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": true,
+        "language": "ru"
+      },
+      "dependencies": [],
+      "tags": [
+        "owner_requested",
+        "vitalik",
+        "tatooine",
+        "cantina",
+        "hookah_throne",
+        "before_credits",
+        "postcredits_teaser"
+      ],
+      "render_state": "IDLE"
     }
   },
   "audit_fingerprint": {
-    "revision_date": "06.11.2026",
-    "synced_at": "2026-11-06T22:12:41Z",
-    "canonical_master_sha256": "6df52e6dff1b52eb8fffcb13b7f9e8267460045835f4bf692482bc231bf2ce6d",
-    "canonical_revision_sha256": "dc69d788104e4f4e44a790e4f1f98bcf01ee363c3e7462089f4666b5f7355f69",
-    "scene_count": 29,
-    "prompt_count": 144,
+    "revision_date": "07.11.2026",
+    "synced_at": "2026-11-06T22:30:47Z",
+    "canonical_master_sha256": "399e21f90fc993546f743cfe154130e7fa7403676ab0ed2054bba11f2aaca6c4",
+    "canonical_revision_sha256": "ad5c9450e0cdbcc526a7939b1b11d076c8d6dd5bbf12a0a21ae95c70f756ba9d",
+    "scene_count": 30,
+    "prompt_count": 147,
     "scene_ids": [
       13,
       16,
@@ -898,7 +919,8 @@
       69,
       70,
       71,
-      72
+      72,
+      73
     ],
     "work_items": [
       "W5",
