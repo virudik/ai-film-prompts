@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "rules": "ops/OWNER-TASKS.md",
-  "updated_at": "2026-11-04T18:03:38Z",
+  "updated_at": "2026-11-06T08:19:35Z",
   "tasks": [
     {
       "id": "0948c546-0ea2-4443-9429-6dcf43bddc81",
@@ -193,6 +193,18 @@
       "result": "Причина подтверждена по Actions run 41728164706: Canon health и публикация прошли, намеренно упал только шаг уведомления о двух новых service-file-size warnings — reports/current-work-checkpoint.md >80 КБ и work-resume-register.json >100 КБ. Выполнена штатная архивная чистка с записью архивов до сокращения live-файлов: 28 checkpoint-разделов и 14 завершённых register-пунктов перенесены дословно; terminal items S48-SEED20-P1 и S58-SEED20-P2 перенесены из live queue с сохранением stubs, readiness пересчитана. Три существующих automation prompt приведены к точному owner-task правилу без изменения schedules/triggers; Relay subscription проверена active. Проверено: canon-health.json status=ok, warnings=0; новый Actions run 41735782935 завершён success, notification step skipped; consistency report status=ok.",
       "result_commit": "57a5d2eef27f9648aa9a23086ba7744d78ecd92a",
       "closed_at": "2026-11-03T23:05:11.090Z"
+    },
+    {
+      "id": "self-heal-telemetry-stale-202611060819",
+      "heal_key": "telemetry-stale",
+      "created_at": "2026-11-06T08:19:35Z",
+      "scene_id": null,
+      "to": "any",
+      "source": "self-heal",
+      "text": "Самопроверка: Робот сканирует, но статус Topview на сайте не обновлялся 159 мин. Последнее решение робота: «hold — unmapped_active:10122181». Обычно это пауза робота (hold): задача без сцены, неполный скан или сбой проверки публикации. Робот уже запустил полный скан Topview 2026-11-06T07:49:34Z, не помогло. Найти причину и починить; правила — ops/SELF-HEAL.md.",
+      "status": "open",
+      "taken_by": null,
+      "taken_at": null
     }
   ]
 }
