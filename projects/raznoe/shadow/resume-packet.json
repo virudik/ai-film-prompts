@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-06T18:22:58+00:00",
-  "source_head": "2040fbdfbe5f373ba76b859d013f255e363ad8c6",
-  "source_fingerprint": "135e2318de7bf8a097735326d284d3b7488cb4156b6f5c2bc7de9f65f25188a9",
+  "checked_at": "2026-11-06T18:25:26+00:00",
+  "source_head": "531232f0afc19ff0d4571b2ee146090c6d9c265c",
+  "source_fingerprint": "ac62e9a6b723e86b79af07b0ae8632614deb3ab30e1ead8af43b352314ccb973",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -32,6 +32,7 @@
     "source_head": "0107904bad80907682f4854768885b56d7d8d8da"
   },
   "reasons": [
+    "project master/status mismatch: raznoe",
     "checkpoint anchor missing or ambiguous"
   ],
   "selected_work": null,
@@ -179,7 +180,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "8afd04a91106f9697adef6f060a9cdfc917a868505008b2bb1424547ff973aea",
+      "sha256": "c433dc6e8c9efb6e69254b6e34449eba467216fe2630737e074f7eab31277be4",
       "bytes": 5136
     },
     {
@@ -194,8 +195,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "6455d8a753e78d013e4f1f8c3966fb5ab630ae57934973ddde0f3f6450154d05",
-      "bytes": 22508
+      "sha256": "83d1d0c172a5e0916214f7d3eacc5f6c52d16810163906a5cb54f1ec7f2d338a",
+      "bytes": 22504
     },
     {
       "file": "projects/README.md",
@@ -239,8 +240,8 @@
     },
     {
       "file": "projects/raznoe/video-prompts.md",
-      "sha256": "494959f5bcd7d53451b5d85ec19ceee0af1a268ed586d236a8595eb2ed92504c",
-      "bytes": 613105
+      "sha256": "3c9d9a63b02db4841c28211d2280144033125d8eb37fdb365a4aa8f7845082bc",
+      "bytes": 614217
     },
     {
       "file": "projects/raznoe/work-resume-register.json",
@@ -263,5 +264,5 @@
       "bytes": 1353952
     }
   ],
-  "packet_bytes": 3846
+  "packet_bytes": 3887
 }
