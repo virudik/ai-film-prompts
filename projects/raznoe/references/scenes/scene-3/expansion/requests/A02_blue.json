@@ -1,0 +1,76 @@
+{
+  "clip_id": "A02_blue",
+  "status": "READY_TO_SEND",
+  "tool": "cursor.GenerateVideo",
+  "execute_now": false,
+  "launch_authorized_by": "t352u (as ready)",
+  "launch_group": "A_workshop",
+  "parallel_ok": false,
+  "arguments": {
+    "filename": "A02_blue.mp4",
+    "duration": 7,
+    "aspect_ratio": "16:9",
+    "reference_image_paths": [
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/ID-engineer-workshop-45726.png",
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/LOC-workshop-45728.png",
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/PROP-bottle-held-at-blue.png",
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/PROP-blue-bin-45731.png"
+    ],
+    "prompt": "Photoreal live-action 16:9, about 7 seconds. Workshop beat 3 of 3 — blue deposit only.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\n<IMAGE_0> same engineer identity: curly dark brown hair, short beard, no glasses, black «Алиса» tee, watch. Identity sheet only.\n\nREFERENCES (guides only — NOT exact first/last frames, NOT timed pins):\n<IMAGE_1> workshop continuity.\n<IMAGE_2> holding the same clear blue-cap PET at the open blue recycling bin — start-state / prop guide, NOT a mid-air freeze as finale.\n<IMAGE_3> large blue recycling container prop.\n\nSTORY — one completed deposit (walk from dark bin may be a hard-cut montage):\nSTART STATE: he is already at the blue recycling container holding ONE empty clear PET water bottle with a blue screw-cap (same bottle throughout; do not switch to a white-cap bottle if another bottle appears in an environment still) (same bottle retrieved in the previous beat).\nACTION: he places/drops that bottle INTO the blue container.\nEND STATE: the same bottle is fully INSIDE the blue container — choice completed. No hovering bottle. No second bottle on a table. No stranger hand. Fingers must not melt into plastic.\n\nCAMERA: medium / hand+bin OK; hard cuts OK.\nAVOID: crossfade, morph, slideshow, collage, on-screen text, logos, letterbox; packing retrieve+walk+throw into this one clip; ending on mid-air bottle."
+  },
+  "ref_roles": [
+    {
+      "IMAGE": 0,
+      "file": "ID-engineer-workshop-45726.png",
+      "role": "identity",
+      "sha256": "980ad135ba1749c9e70b262219302763d2e1c406d7cc01e2773b0f0969832921",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 1,
+      "file": "LOC-workshop-45728.png",
+      "role": "workshop continuity",
+      "sha256": "5f3cc782178e9eb023fb72cecb686a81ef15ae34155aa5ffed64bf4e02e348c5",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 2,
+      "file": "PROP-bottle-held-at-blue.png",
+      "role": "start-state: holding blue-cap PET at blue bin",
+      "sha256": "166f079ddecf845d2fd94e9d7f502f324f756fdc6cccc43c868df0201daa96c8",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 3,
+      "file": "PROP-blue-bin-45731.png",
+      "role": "blue recycling container",
+      "sha256": "d85063e72eefb7a75e7a1309397ec1596f2dfb803db307231f92f9b00bd196c3",
+      "owner_approved": false
+    }
+  ],
+  "state_chain": {
+    "semantic_start": "Монтажный старт у синего контейнера: та же бутылка уже в руке (после видимого извлечения)",
+    "semantic_end": "Та же бутылка полностью внутри синего контейнера",
+    "depends_on": [
+      "A02_retrieve"
+    ]
+  },
+  "workshop_qa": {
+    "checked_at": "2026-11-06T10:45:00+03:00",
+    "checks": [
+      "refs exist on disk",
+      "IMAGE_n order matches reference_image_paths",
+      "references-only policy",
+      "A01 end inside dark bin",
+      "A02_retrieve start inside dark bin; visible retrieval; end clear of bin; no blue bin",
+      "A02_blue deposit only after montage; end inside blue",
+      "blue-cap PET identity locked; LOC white-cap distractor called out",
+      "no exact frame/keyframe pins"
+    ],
+    "residual_risks": [
+      "PROP-bottle-retrieved-clear-of-bin can still read like a hold-over-bin pose; directionality depends on prompt START/ACTION (lift out), watch first-pass QC",
+      "finger/PET fusion on retrieve and deposit remains model risk"
+    ],
+    "not_a_substitute_for_video_acceptance": true
+  }
+}

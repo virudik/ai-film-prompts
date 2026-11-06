@@ -1,0 +1,51 @@
+{
+  "clip_id": "B03_build",
+  "status": "READY_TO_SEND",
+  "tool": "cursor.GenerateVideo",
+  "execute_now": false,
+  "launch_authorized_by": "t352u (generate as ready; deliver all attempts to Drive/Sasha; videoReview after)",
+  "launch_group": "B_assembly",
+  "parallel_ok": true,
+  "arguments": {
+    "filename": "B03_build.mp4",
+    "duration": 6,
+    "aspect_ratio": "16:9",
+    "reference_image_paths": [
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/B-satellite-assembly-stand.png",
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/PROP-satellite-manipulator-02.png",
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/ATM-cleanroom-assembly-extra.png",
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/ID-engineer-blue-form-01.png"
+    ],
+    "prompt": "Photoreal live-action 16:9, about 6 seconds. Assembly progress.\n\n<IMAGE_0> satellite on stand.\n<IMAGE_1> manipulator/satellite design language.\n<IMAGE_2> cleanroom hangar atmosphere.\n<IMAGE_3> engineer identity if he appears.\n\nSTORY: sequential mechanical installation of covers/panel work and manipulator alignment. Parts are handled and fastened — no time-lapse morph into a finished craft. Prefer no strangers; if extras appear keep them background-only. No logos/text.\n\nAVOID: crossfade; morph; slideshow; collage; letterbox."
+  },
+  "ref_roles": [
+    {
+      "IMAGE": 0,
+      "file": "B-satellite-assembly-stand.png",
+      "role": "satellite on stand",
+      "sha256": "b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 1,
+      "file": "PROP-satellite-manipulator-02.png",
+      "role": "manipulator/satellite design language",
+      "sha256": "876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 2,
+      "file": "ATM-cleanroom-assembly-extra.png",
+      "role": "cleanroom atmosphere",
+      "sha256": "5de9f2952dc335a6e4b83e3c2d4618367d5959febb575ecfb5575226d062e9ac",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 3,
+      "file": "ID-engineer-blue-form-01.png",
+      "role": "engineer identity IF visible",
+      "sha256": "a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587",
+      "owner_approved": false
+    }
+  ]
+}

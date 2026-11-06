@@ -1,0 +1,10 @@
+Photoreal live-action 16:9, about 8 seconds. Additive polymer printing only.
+
+PRIORITY: <IMAGE_0> shows a printer nozzle depositing a VISIBLE new matte light-gray polymer bead with blue speckles onto an open-frame lattice gripper — this is the action language.
+<IMAGE_1> isolated product design authority: same open-frame gripper, matte polymer, layer lines, blue inclusions.
+<IMAGE_2> industrial gantry/printer environment only. If <IMAGE_2> suggests liquid coolant, IGNORE that — this is FDM/extrusion of solidifying polymer, NOT a pouring blue liquid, NOT CNC metal cutting.
+
+STORY: real extrusion lays a new bead/layer onto an already forming nearly finished open-frame mechanical gripper for a future satellite manipulator. Workpiece is polymer with layer lines. No engineer. No sparks, chips, or brushed-aluminium CNC workpiece. Staged cinematic manufacturing — not a spaceflight certification claim.
+
+END: clearly visible fresh deposited material on the polymer gripper.
+AVOID: silent hovering nozzle with no bead; crossfade; morph; slideshow; text; logos; letterbox.

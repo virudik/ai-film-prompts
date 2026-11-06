@@ -1,0 +1,27 @@
+{
+  "clip_id": "C05_station",
+  "status": "READY_TO_SEND",
+  "tool": "cursor.GenerateVideo",
+  "execute_now": false,
+  "launch_authorized_by": "t352u (generate as ready; deliver all attempts to Drive/Sasha; videoReview after)",
+  "launch_group": "C_orbit",
+  "parallel_ok": true,
+  "arguments": {
+    "filename": "C05_station.mp4",
+    "duration": 5,
+    "aspect_ratio": "16:9",
+    "reference_image_paths": [
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/C-original-lattice-station.png"
+    ],
+    "prompt": "Photoreal live-action 16:9, about 5 seconds.\n\n<IMAGE_0> original fictional orbital station construction — NOT the ISS.\n\nSTORY: wide shot of the growing original station with solar panels over Earth; slow pullback. No logos/text. Do not copy ISS configuration.\n\nAVOID: crossfade; morph; letterbox; ISS likeness."
+  },
+  "ref_roles": [
+    {
+      "IMAGE": 0,
+      "file": "C-original-lattice-station.png",
+      "role": "ORIGINAL fictional station — NOT ISS",
+      "sha256": "608aacc17bd40c768374ea21f3f0827c88b8a0131f44bcc373b47f14cc2b1e6e",
+      "owner_approved": false
+    }
+  ]
+}

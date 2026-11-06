@@ -1,0 +1,66 @@
+{
+  "clip_id": "A01_drop",
+  "status": "READY_TO_SEND",
+  "tool": "cursor.GenerateVideo",
+  "execute_now": false,
+  "launch_authorized_by": "t352u (as ready)",
+  "launch_group": "A_workshop",
+  "parallel_ok": false,
+  "arguments": {
+    "filename": "A01_drop.mp4",
+    "duration": 7,
+    "aspect_ratio": "16:9",
+    "reference_image_paths": [
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/ID-engineer-workshop-45726.png",
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/LOC-workshop-45728.png",
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/PROP-black-bin-45729.png"
+    ],
+    "prompt": "Photoreal live-action 16:9, about 7 seconds. Workshop beat 1 of 3 — drop only.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\n<IMAGE_0> is absolute identity authority for the engineer: mid-30s man, curly dark brown hair, short beard, no glasses, black T-shirt with the existing red «Алиса» concert graphic, black trousers, black wristwatch. Never reproduce the multi-panel sheet layout as a video frame.\n\nREFERENCES (guides only — NOT exact first/last frames, NOT timed keyframe pins):\n<IMAGE_1> workshop / technical drawing environment. If a bottle with a different cap appears in this still, IGNORE it for story continuity.\n<IMAGE_2> ordinary dark metal waste bin with black liner + clear PET bottle with blue cap — prop/action language for the drop.\n\nSTORY — one completed event:\nSTART: engineer studies the technical drawing at the bench; ONE empty clear PET water bottle with a blue screw-cap (same bottle throughout; do not switch to a white-cap bottle if another bottle appears in an environment still) is on the bench.\nACTION: he picks THAT blue-cap bottle and drops it into the ordinary dark bin beside/near the bench (bin placement as in <IMAGE_2>, not a magic teleport under the table).\nEND STATE: the same blue-cap bottle is INSIDE the dark bin — drop finished. No blue recycling container in this clip. No second story bottle. No stranger hands.\n\nCAMERA: medium to closer; hard cuts OK.\nAVOID: crossfade, dissolve, morph, slideshow, collage/storyboard panels, on-screen text, logos, letterbox/black bars; bottle shape morph; heavy metallic crash for light plastic; retrieving the bottle back out (that is the next clip)."
+  },
+  "ref_roles": [
+    {
+      "IMAGE": 0,
+      "file": "ID-engineer-workshop-45726.png",
+      "role": "PRIMARY identity sheet only",
+      "sha256": "980ad135ba1749c9e70b262219302763d2e1c406d7cc01e2773b0f0969832921",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 1,
+      "file": "LOC-workshop-45728.png",
+      "role": "workshop/drawing environment; ignore non-blue-cap bottle if present",
+      "sha256": "5f3cc782178e9eb023fb72cecb686a81ef15ae34155aa5ffed64bf4e02e348c5",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 2,
+      "file": "PROP-black-bin-45729.png",
+      "role": "dark bin + clear blue-cap PET drop language",
+      "sha256": "371a5a11c50174241a826b9ecbc69ca4084e483280241ec4130c4d2063de5c01",
+      "owner_approved": false
+    }
+  ],
+  "state_chain": {
+    "semantic_start": "Инженер у верстака с чертежом; пустая clear PET с синей крышкой на столе",
+    "semantic_end": "Та же бутылка с синей крышкой лежит внутри обычного тёмного бака; дроп завершён",
+    "depends_on": []
+  },
+  "workshop_qa": {
+    "checked_at": "2026-11-06T10:45:00+03:00",
+    "checks": [
+      "refs exist on disk",
+      "IMAGE_n order matches reference_image_paths",
+      "references-only policy",
+      "A01 end inside dark bin",
+      "A02_retrieve start inside dark bin; visible retrieval; end clear of bin; no blue bin",
+      "A02_blue deposit only after montage; end inside blue",
+      "blue-cap PET identity locked; LOC white-cap distractor called out",
+      "no exact frame/keyframe pins"
+    ],
+    "residual_risks": [
+      "PROP-bottle-retrieved-clear-of-bin can still read like a hold-over-bin pose; directionality depends on prompt START/ACTION (lift out), watch first-pass QC",
+      "finger/PET fusion on retrieve and deposit remains model risk"
+    ],
+    "not_a_substitute_for_video_acceptance": true
+  }
+}

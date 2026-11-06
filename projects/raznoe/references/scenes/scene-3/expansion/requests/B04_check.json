@@ -1,0 +1,43 @@
+{
+  "clip_id": "B04_check",
+  "status": "READY_TO_SEND",
+  "tool": "cursor.GenerateVideo",
+  "execute_now": false,
+  "launch_authorized_by": "t352u (generate as ready; deliver all attempts to Drive/Sasha; videoReview after)",
+  "launch_group": "B_assembly",
+  "parallel_ok": true,
+  "arguments": {
+    "filename": "B04_check.mp4",
+    "duration": 5,
+    "aspect_ratio": "16:9",
+    "reference_image_paths": [
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/ID-engineer-blue-form-01.png",
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/B-satellite-assembly-stand.png",
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/PROP-satellite-manipulator-02.png"
+    ],
+    "prompt": "Photoreal live-action 16:9, about 5 seconds.\n\n<IMAGE_0> engineer identity; <IMAGE_1> satellite; <IMAGE_2> geometry language.\n\nSTORY: engineer closes a final hatch or checks a latch, steps back; camera reveals the completed satellite with solar panels and manipulator. Same craft family. No logos/text.\n\nAVOID: crossfade; morph; slideshow; letterbox."
+  },
+  "ref_roles": [
+    {
+      "IMAGE": 0,
+      "file": "ID-engineer-blue-form-01.png",
+      "role": "engineer identity",
+      "sha256": "a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 1,
+      "file": "B-satellite-assembly-stand.png",
+      "role": "completed satellite look",
+      "sha256": "b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 2,
+      "file": "PROP-satellite-manipulator-02.png",
+      "role": "geometry language",
+      "sha256": "876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e",
+      "owner_approved": false
+    }
+  ]
+}

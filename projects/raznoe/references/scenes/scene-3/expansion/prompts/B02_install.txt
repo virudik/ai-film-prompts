@@ -1,0 +1,11 @@
+Photoreal live-action 16:9, about 8 seconds. Mechanical install only.
+
+<IMAGE_0> blue-form engineer identity (no collage layout).
+<IMAGE_1> polymer open-frame gripper design authority.
+<IMAGE_2> gripper seated/bolted on white manipulator mount — install result language, not an exact end-frame copy.
+<IMAGE_3> fictional satellite on assembly stand.
+<IMAGE_4> satellite/manipulator geometry from source design.
+
+STORY: engineer seats the SAME polymer gripper into the manipulator end mount, tightens visible fasteners, checks the joint by hand. Keep satellite geometry coherent with <IMAGE_3>/<IMAGE_4>. No magic transform into a different robot claw. Blank chest patch preferred over fake lettering.
+
+AVOID: crossfade; morph; slideshow; text; logos; letterbox; swapping gripper for a generic metal claw.

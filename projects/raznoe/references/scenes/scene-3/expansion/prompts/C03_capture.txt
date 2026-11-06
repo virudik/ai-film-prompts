@@ -1,0 +1,9 @@
+Photoreal live-action 16:9, about 6 seconds. Close capture.
+
+<IMAGE_0> manipulator/satellite continuity.
+<IMAGE_1> polymer open-frame gripper design authority.
+<IMAGE_2> polymer lattice gripper securing a metallic scrap — action language, not an exact frame copy. Keep gripper attached as end effector of the white arm when possible.
+
+STORY: gripper opens, approaches a metallic scrap, gently secures it without a slam. Microgravity inertia. Keep the SAME polymer open-frame gripper — do not swap to a different claw. No logos.
+
+AVOID: crossfade; morph; letterbox; impact sparks as primary effect.

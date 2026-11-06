@@ -5,7 +5,7 @@
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
   "synced_at": "2026-11-06T05:01:47Z",
   "revision_date": "06.11.2026",
-  "master_declared_last_full_sync": "06.11.2026 · сцена 4 HONOR расширена: каждый из трёх вариантов стал роликом на 120 с монтажа; сцена 3 RESOURCE не переписывалась; видео не запускались.",
+  "master_declared_last_full_sync": "06.11.2026 · сцена 3 RESOURCE: native-нарезка 19 клипов / 116 с в той же сцене; исходные вкладки 2 × 15 с сохранены; шесть попыток v1 в папке Саши не приняты.",
   "canonical_master_sha256": "23aa86195976802497a30c9368ce3c90bda01a6d6b67fcac0bb5e6e20c1b6c0d",
   "canonical_revision_sha256": "c56b435d0fa1310d1b9654668611938dcb384bb7938ae50ea9b63c89909820f9",
   "canonical_master_bytes": 476189,

@@ -1,0 +1,35 @@
+{
+  "clip_id": "A05_material",
+  "status": "READY_TO_SEND",
+  "tool": "cursor.GenerateVideo",
+  "execute_now": false,
+  "launch_authorized_by": "t352u (generate as ready; deliver all attempts to Drive/Sasha; videoReview after)",
+  "launch_group": "A_factory",
+  "parallel_ok": true,
+  "arguments": {
+    "filename": "A05_material.mp4",
+    "duration": 5,
+    "aspect_ratio": "16:9",
+    "reference_image_paths": [
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/FAC-flakes-45733.png",
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/A-recycled-pet-pellets.png"
+    ],
+    "prompt": "Photoreal live-action 16:9, about 5 seconds. Recycled feedstock.\n\n<IMAGE_0> irregular clear/blue recycled plastic flakes.\n<IMAGE_1> translucent clear/blue PET pellets — same material family if briefly cut to.\n\nSTORY: flakes pour/accumulate as recycled feedstock; optional brief cut to pellets. Same clear/blue recycled PET look. Staged industrial process — not a certified origin claim. No people. No logos/text.\n\nAVOID: crossfade, morph, slideshow, collage, letterbox."
+  },
+  "ref_roles": [
+    {
+      "IMAGE": 0,
+      "file": "FAC-flakes-45733.png",
+      "role": "recycled flakes look",
+      "sha256": "a90be81fc9eacd17618ff5aabf0f8a75b6d3511539f2c575185a434e3fad4e84",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 1,
+      "file": "A-recycled-pet-pellets.png",
+      "role": "optional pellets continuity — same material family",
+      "sha256": "e1ff9c52506ab256cdfa70225d74c5efa6b1575b071ef449add9791ff8736a29",
+      "owner_approved": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "clip_id": "B05_pad",
+  "status": "READY_TO_SEND",
+  "tool": "cursor.GenerateVideo",
+  "execute_now": false,
+  "launch_authorized_by": "t352u (generate as ready; deliver all attempts to Drive/Sasha; videoReview after)",
+  "launch_group": "B_pad",
+  "parallel_ok": true,
+  "arguments": {
+    "filename": "B05_pad.mp4",
+    "duration": 5,
+    "aspect_ratio": "16:9",
+    "reference_image_paths": [
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/ATM-night-pad-16x9.png"
+    ],
+    "prompt": "Photoreal live-action 16:9, about 5 seconds. Night cosmodrome.\n\n<IMAGE_0> night launch pad with tall rocket and service tower — atmosphere guide, not a locked still to copy as a slideshow.\n\nSTORY: camera rises along the stack; vapor/floodlights OK. NO people near the rocket. No invented logos/flags/text.\n\nAVOID: collage panels/borders; crossfade; morph; letterbox."
+  },
+  "ref_roles": [
+    {
+      "IMAGE": 0,
+      "file": "ATM-night-pad-16x9.png",
+      "role": "night pad/rocket atmosphere — dedicated still, not a collage",
+      "sha256": "5c31341ea8f9a8e6daac1bdfa57c905e63eeb6982342e81c3fe8c07f95365475",
+      "owner_approved": false
+    }
+  ]
+}

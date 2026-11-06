@@ -4,11 +4,11 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**06.11.2026 · 4 сцены к генерации/доработке · 65 полных текста промта (сцены 1–2 и сцена 3 RESOURCE без изменений; сцена 4 HONOR: три ролика по 120 с, у каждого 4 клипа Wan по 30 с и 8 клипов Seedance по 15 с) · три кадра настроения не одобрены; все сцены DRAFT, видео не запускались.**
+**06.11.2026 · 4 сцены к генерации/доработке · сцена 3 RESOURCE: native-нарезка 19 клипов / 116 с в той же сцене, исходник 2 × 15 с сохранён; шесть попыток v1 лежат в папке Саши и не приняты; в репозиторий ролики не вкладывались; сцена 4 HONOR не менялась · все сцены DRAFT.**
 
 - **🛠️ 0** рабочих направлений W.
 - **⏳ 0** сцен сейчас в медленной генерации: **нет**.
-- **Последняя полная синхронизация:** **06.11.2026 · сцена 4 HONOR расширена: каждый из трёх вариантов стал роликом на 120 с монтажа; сцена 3 RESOURCE не переписывалась; видео не запускались.**
+- **Последняя полная синхронизация:** **06.11.2026 · сцена 3 RESOURCE: native-нарезка 19 клипов / 116 с в той же сцене; исходные вкладки 2 × 15 с сохранены; шесть попыток v1 в папке Саши не приняты.**
 
 **Референсы · 02.11.2026:** **59/59** сохранены: сцена 1 — **26/26**, сцена 2 — **33/33**. Все `not_approved`, ожидают просмотра владельцем. [Исходное задание](projects/raznoe/references/GPT-TASK.md) · [реестр](projects/raznoe/references/generation-progress.json). **Разрешения на платные видео нет.**
 
@@ -18,12 +18,12 @@
 |---|---|---|---|
 | 1 | [Тихий маяк — история Ярика](#scene-1) | Ярик, мама Лена, Соня, Анна Сергеевна, пёс Бублик, Варя | Мальчик с особенностями развития рассказывает о громком внутреннем мире и о людях, которые становятся его маяком. 4 ролика по 30 с (B1–B4) или 8 подсцен по 15 с (A1–A8) |
 | 2 | [Тихая планета — история Мирона](#scene-2) | Мирон, мама Вера, бабушка Нина, Дарья Андреевна, доктор Марк Львович, парикмахер Лиля, лошадь Туман | Мальчик с аутизмом рассказывает о громком мире, трудных днях, бабушке, которая нашла помощь, успехах, школе и надежде. Структура рилса, вертикаль 9:16, 4 ролика по 30 с или 8 по 15 с |
-| 3 | [RESOURCE](#scene-3) | Инженер (лист 45726), работница сортировки | Фотореал 16:9, около 30 с: мастерская и синий контейнер, затем завод, шредер, хлопья и полимерный захват. Исходник Grok Imagine 2 × 15 с. Не одобрено |
+| 3 | [RESOURCE](#scene-3) | Инженер мастерской и синей формы, работница сортировки | Фотореал 16:9. Исходник 2 × 15 с сохранён. Текущая нарезка — 19 native-клипов, 116 с: мастерская, завод, сборка, старт, орбита, постановочная станция, ЦУП. Не одобрено |
 | 4 | [HONOR](#scene-4) | изделие не выбрано; пустой прокси | Три ролика по 120 с: реализм, 3D, рисовка. Кадры только настроение. Не одобрено |
 
 ## Сцены в работе
 
-Сцены 1 и 2 — **DRAFT**; все **26/26** и **33/33** референсов технически готовы, но **not_approved**. Сцена 3 RESOURCE — отдельный фотореал 16:9, тоже **DRAFT** и **not_approved**; десять исходных кадров на месте, металлический финал только в архиве. Платных и бесплатных видеозапусков нет, очередь не менялась. Следующий шаг по сценам 1–2 — художественная проверка и выбор клиентского объёма. Сцена 4 HONOR — три ролика по 120 с каждый, not_approved; модель не выбрана. Старые космические сцены — в проекте «Роскосмос».
+Сцены 1 и 2 — **DRAFT**; все **26/26** и **33/33** референсов технически готовы, но **not_approved**. Сцена 3 RESOURCE — отдельный фотореал 16:9, тоже **DRAFT** и **not_approved**; десять исходных кадров на месте, металлический финал только в архиве, native-нарезка 19/116 опубликована отдельно от вкладок 2 × 15 с. Очередь Topview не менялась. Шесть native-попыток v1 лежат в папке Саши и не приняты. Следующий шаг по сценам 1–2 — художественная проверка и выбор клиентского объёма. Сцена 4 HONOR — три ролика по 120 с каждый, not_approved; модель не выбрана. Старые космические сцены — в проекте «Роскосмос».
 
 <a id="misc-pricing"></a>
 ## Стоимость производства (простыми словами, редакция 03.11.2026, версия 3)
@@ -2319,9 +2319,9 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 <a id="scene-3"></a>
 ## Сцена 3 — RESOURCE
 
-<!-- scene-meta: {"target_engine":"Grok Imagine Video","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","photoreal","landscape_16x9","reference_first","raznoe_scene_3","source_grok_imagine"]} -->
+<!-- scene-meta: {"target_engine":"Grok Imagine Video","production_state":"DRAFT","duration_s":116,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","photoreal","landscape_16x9","reference_first","raznoe_scene_3","source_grok_imagine","native_19_116","references_only"]} -->
 
-**Контекст использования:** отдельный фотореалистичный ролик около 30 секунд. Он не продолжает мультфильмы «Тихий маяк» и «Тихая планета» и не относится к Роскосмосу или Терра Тех. Опубликована только часть 1 из 3 исходной папки; части 2–3 не придуманы. Модель исходника — Grok Imagine Video, две генерации по 15 секунд. Это не уже снятый ролик Topview и не ролик Wan.
+**Контекст использования:** отдельный фотореалистичный ролик. Он не продолжает мультфильмы «Тихий маяк» и «Тихая планета» и не относится к Роскосмосу или Терра Тех. Вкладки выше по-прежнему хранят исходник Grok Imagine на 30 секунд, две генерации по 15 секунд. Это не уже снятый ролик Topview и не ролик Wan. Текущая нарезка к запуску — 19 самостоятельных native-клипов на 116 секунд в разделе ниже. Она дополняет ту же сцену, а не заводит новые номера.
 
 **Что происходит:** инженер с кудрявыми тёмно-каштановыми волосами, короткой бородой и без очков смотрит чертёж в мастерской, роняет прозрачную бутылку в чёрный бак, передумывает, достаёт ту же бутылку и бросает её в синий контейнер. Конец первой части — бутылка входит в синий контейнер. Вторая часть начинается с этого кадра и монтажным переходом уходит на завод: работница сортирует бутылки, шредер, прозрачные и синие хлопья, промышленная 3D-печать открытого захвата для будущего спутникового манипулятора. Захват — матовый полимер со слоями и синими включениями, не фрезерованный металл. Главного инженера на заводе нет. Новых людей, логотипов и титров нет. Это постановочная картина, а не подтверждённая цепочка переработки.
 
@@ -2781,7 +2781,778 @@ The final image should communicate that discarded plastic has become a useful en
 7. Keep the same transparent plastic bottle visually consistent throughout Video 1.
 8. Do not show the main engineer in Video 2.
 9. Preserve the intended visual progression: ordinary waste → separate collection → industrial sorting → shredding → recycled plastic flakes → 3D-printed engineering component.
-</pr<a id="scene-4"></a>
+</pre>
+
+### Native Grok · 19 клипов · 116 с
+
+Это текущая нарезка той же сцены 3, не девятнадцать новых сцен. Исходные вкладки 2 × 15 с, Wan и Seedance выше не заменяют её и сами не становятся принятым роликом. Хронометраж после починки мастерской: A01_drop 7 с, затем новый A02_retrieve 8 с, затем A02_blue 7 с. Устаревшие нарезки 18/108 и 18/124 в публикацию не входят.
+
+**Идея.** Инженер в мастерской роняет прозрачную бутылку с синей крышкой в обычный тёмный бак, смотрит на чертёж, видимо достаёт ту же бутылку и сдаёт её в синий контейнер. Дальше завод: сортировка, измельчение, хлопья, печать полимерного захвата. В чистом цехе тот же человек в синей форме собирает захват на спутник, ночью ракета уходит со старта. На орбите аппарат раскрывает панели, берёт обломок постановочным захватом, пресс формирует блок. Широкий план — самостоятельная решётчатая станция, не МКС. В финале ЦУП: на мониторе эта станция, инженер снова опускает пустую бутылку в синий контейнер.
+
+**Закадр.** Отдельного текста озвучки нет и здесь он не сочинялся.
+
+**Постановочные границы.** Переработка мусора на орбите, пресс и станция — идея сценария, не подтверждённая технология и не сертификат PET в космосе. Синяя форма — цех и ЦУП; футболка «Алиса» — только мастерская. Станция на кадре `C-original-lattice-station.png` не является МКС. Файлы МКС в присланном source-lite отсутствуют и на страницу как кадры не ставятся. Кадр броска в полёте `05-45732.png` остаётся только во вкладке исходника 2 × 15 с; в эти 19 клипов он не входит. Коллаж сборки, раскадровка из 18 кадров и слабый кадр извлечения лежат в `projects/raznoe/archive/scene-3/expansion-2026-11-06/` и обязательными кадрами не являются.
+
+**Логотип.** Официального файла логотипа Роскосмоса в этом пакете и среди референсов проекта «Роскосмос» нет. Пародийный знак другого проекта не подставлялся. Если знак нужен, его ставят на монтаже из настоящего исходника. Модель логотип не рисует. Отсутствие файла публикацию клипов не блокирует.
+
+**Архив попыток, не приёмка.** Общая папка Саши, без вложения роликов в репозиторий и без статуса «принято»: https://drive.google.com/drive/folders/1FHwi_A1cpODMy2YAwggkkOneIdNA4vS2 . Старые три имени сохранены: RESOURCE-part-1-15s.mp4, RESOURCE-part-1-v2-15s.mp4, RESOURCE-part-2-v1-15s.mp4. Первые шесть новых файлов уже там: A03_sort-v1, A04_shred-v1, A05_material-v1, B05_pad-v1, C01_orbit-v1, C06_cycle-v1. Это архив попыток, не готовый фильм. Ассистентский просмотр движения не является кнопкой «Принять». Входы остаются READY_TO_SEND и из-за ролика в approved не переименовываются. Ещё одна волна из шести клипов снимается отдельно. Починка четырёх входов готовится в другой папке и в эти ZIP не входит; публикация 19/116 её не ждёт. Точный отправленный запрос шести уже снятых клипов лежит в box snapshot, а не в этих JSON: здешние requests — шаблон пакета.
+
+**Пакет на сайте.** [manifest.json](projects/raznoe/references/scenes/scene-3/expansion/manifest.json) · [production-pack.md](projects/raznoe/references/scenes/scene-3/expansion/production-pack.md) · [qc-preflight.md](projects/raznoe/references/scenes/scene-3/expansion/qc-preflight.md) · [qa-independent.md](projects/raznoe/references/scenes/scene-3/expansion/qa-independent.md) · [source-attribution.md](projects/raznoe/references/scenes/scene-3/expansion/source-attribution.md). Источник идей блоков 2–3: https://disk.yandex.ru/d/RcAnSckO0RKgog .
+
+<table><thead><tr><th>#</th><th>Клип</th><th>Название</th><th>с</th><th>Зависит</th><th>Старт</th><th>Финал</th></tr></thead><tbody><tr><td>1</td><td>A01_drop</td><td>Чертёж и бросок в чёрный бак</td><td>7</td><td>нет</td><td>Инженер у верстака с чертежом; пустая clear PET с синей крышкой на столе</td><td>Та же бутылка с синей крышкой лежит внутри обычного тёмного бака; дроп завершён</td></tr><tr><td>2</td><td>A02_retrieve</td><td>Осознание и извлечение бутылки</td><td>8</td><td>A01_drop</td><td>Та же бутылка уже внутри тёмного бака; инженер у верстака</td><td>Извлечение завершено: та же бутылка в его руке вне бака (ещё не у синего)</td></tr><tr><td>3</td><td>A02_blue</td><td>Сдать бутылку в синий контейнер</td><td>7</td><td>A02_retrieve</td><td>Монтажный старт у синего контейнера: та же бутылка уже в руке (после видимого извлечения)</td><td>Та же бутылка полностью внутри синего контейнера</td></tr><tr><td>4</td><td>A03_sort</td><td>Заводская сортировка</td><td>6</td><td>нет</td><td>Уже на линии сортировки; инженер отсутствует</td><td>Прозрачные/синие бутылки отобраны на линии</td></tr><tr><td>5</td><td>A04_shred</td><td>Измельчение</td><td>8</td><td>A03_sort</td><td>Бутылки подаются в промышленный шредер</td><td>Бутылки реально затянуты и дробятся; фрагменты копятся</td></tr><tr><td>6</td><td>A05_material</td><td>Хлопья (сырьё)</td><td>5</td><td>A04_shred</td><td>Переработанный пластик как сырьё</td><td>Видны неправильные хлопья clear/blue PET</td></tr><tr><td>7</td><td>A06_print</td><td>Полимерная печать захвата</td><td>8</td><td>A05_material</td><td>Идёт аддитивная печать открытого полимерного захвата</td><td>Виден новый слой/валик экструзии на формирующемся матовом полимерном захвате</td></tr><tr><td>8</td><td>B01_pickup</td><td>Инженер берёт полимерный захват</td><td>5</td><td>A06_print</td><td>Чистый сборочный цех; захват на столе</td><td>Инженер в синей форме держит тот же полимерный захват</td></tr><tr><td>9</td><td>B02_install</td><td>Установка захвата на манипулятор</td><td>8</td><td>B01_pickup</td><td>Захват подносят к креплению манипулятора спутника</td><td>Тот же полимерный захват закреплён на манипуляторе; крепёж/стык проверен</td></tr><tr><td>10</td><td>B03_build</td><td>Механическая досборка</td><td>6</td><td>B02_install</td><td>Спутник на стенде частично собран</td><td>Крышки/панели/манипулятор установлены последовательно</td></tr><tr><td>11</td><td>B04_check</td><td>Финальная проверка</td><td>5</td><td>B03_build</td><td>Инженер у аппарата</td><td>Общий вид готового спутника с панелями и манипулятором</td></tr><tr><td>12</td><td>B05_pad</td><td>Ночной космодром</td><td>5</td><td>нет</td><td>Ночь, ракета на старте</td><td>Камера подчёркивает масштаб ракеты</td></tr><tr><td>13</td><td>B06_liftoff</td><td>Взлёт</td><td>5</td><td>B05_pad</td><td>Зажигание двигателей</td><td>Ракета уходит вверх</td></tr><tr><td>14</td><td>C01_orbit</td><td>Спутник на орбите</td><td>5</td><td>B06_liftoff</td><td>Аппарат на орбите Земли</td><td>Солнечные панели раскрыты/зафиксированы</td></tr><tr><td>15</td><td>C02_debris</td><td>Обнаружение мусора</td><td>5</td><td>C01_orbit</td><td>Облако обломков в кадре</td><td>Манипулятор начинает выдвигаться к фрагменту</td></tr><tr><td>16</td><td>C03_capture</td><td>Захват обломка</td><td>6</td><td>C02_debris</td><td>Полимерный захват раскрыт у обломка</td><td>Обломок мягко зафиксирован тем же захватом</td></tr><tr><td>17</td><td>C04_recycle</td><td>Орбитальный пресс → блок</td><td>6</td><td>C03_capture</td><td>Металлический фрагмент в компактном перерабатывающем модуле</td><td>Сформирован аккуратный прямоугольный строительный блок (вставка в каркас — НЕ в этом клипе)</td></tr><tr><td>18</td><td>C05_station</td><td>Постановочная орбитальная станция</td><td>5</td><td>C04_recycle</td><td>Широкий план оригинальной решётчатой/модульной станции</td><td>Камера отъезжает, видна Земля</td></tr><tr><td>19</td><td>C06_cycle</td><td>Замыкание цикла на Земле</td><td>6</td><td>нет</td><td>ЦУП; на мониторе станция; бутылка на столе</td><td>Инженер опускает пустую бутылку в синий контейнер</td></tr></tbody></table>
+
+<div class="scene-ref-gallery"><figure><a href="projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-workshop-45726.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-workshop-45726.png" alt="ID-engineer-workshop-45726.png — reference-only, не одобрено" loading="lazy"></a><figcaption>ID-engineer-workshop-45726.png · reference-only · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/expansion/assets/LOC-workshop-45728.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/expansion/assets/LOC-workshop-45728.png" alt="LOC-workshop-45728.png — reference-only, не одобрено" loading="lazy"></a><figcaption>LOC-workshop-45728.png · reference-only · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-black-bin-45729.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-black-bin-45729.png" alt="PROP-black-bin-45729.png — reference-only, не одобрено" loading="lazy"></a><figcaption>PROP-black-bin-45729.png · reference-only · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-bottle-retrieved-clear-of-bin.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-bottle-retrieved-clear-of-bin.png" alt="PROP-bottle-retrieved-clear-of-bin.png — reference-only, не одобрено" loading="lazy"></a><figcaption>PROP-bottle-retrieved-clear-of-bin.png · reference-only · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-bottle-held-at-blue.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-bottle-held-at-blue.png" alt="PROP-bottle-held-at-blue.png — reference-only, не одобрено" loading="lazy"></a><figcaption>PROP-bottle-held-at-blue.png · reference-only · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-blue-bin-45731.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-blue-bin-45731.png" alt="PROP-blue-bin-45731.png — reference-only, не одобрено" loading="lazy"></a><figcaption>PROP-blue-bin-45731.png · reference-only · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-worker-compressed-45734.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-worker-compressed-45734.png" alt="FAC-worker-compressed-45734.png — reference-only, не одобрено" loading="lazy"></a><figcaption>FAC-worker-compressed-45734.png · reference-only · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-worker-line-45735.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-worker-line-45735.png" alt="FAC-worker-line-45735.png — reference-only, не одобрено" loading="lazy"></a><figcaption>FAC-worker-line-45735.png · reference-only · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-shredder-45736.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-shredder-45736.png" alt="FAC-shredder-45736.png — reference-only, не одобрено" loading="lazy"></a><figcaption>FAC-shredder-45736.png · reference-only · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-flakes-45733.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-flakes-45733.png" alt="FAC-flakes-45733.png — reference-only, не одобрено" loading="lazy"></a><figcaption>FAC-flakes-45733.png · reference-only · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/expansion/assets/A-recycled-pet-pellets.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/expansion/assets/A-recycled-pet-pellets.png" alt="A-recycled-pet-pellets.png — reference-only, не одобрено" loading="lazy"></a><figcaption>A-recycled-pet-pellets.png · reference-only · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-print-extrusion-bead.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-print-extrusion-bead.png" alt="PROP-print-extrusion-bead.png — reference-only, не одобрено" loading="lazy"></a><figcaption>PROP-print-extrusion-bead.png · reference-only · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/expansion/assets/A-polymer-gripper-product.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/expansion/assets/A-polymer-gripper-product.png" alt="A-polymer-gripper-product.png — reference-only, не одобрено" loading="lazy"></a><figcaption>A-polymer-gripper-product.png · reference-only · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-polymer-print-45737.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-polymer-print-45737.png" alt="FAC-polymer-print-45737.png — reference-only, не одобрено" loading="lazy"></a><figcaption>FAC-polymer-print-45737.png · reference-only · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-blue-form-01.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-blue-form-01.png" alt="ID-engineer-blue-form-01.png — reference-only, не одобрено" loading="lazy"></a><figcaption>ID-engineer-blue-form-01.png · reference-only · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/expansion/assets/ATM-cleanroom-assembly-extra.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/expansion/assets/ATM-cleanroom-assembly-extra.png" alt="ATM-cleanroom-assembly-extra.png — reference-only, не одобрено" loading="lazy"></a><figcaption>ATM-cleanroom-assembly-extra.png · reference-only · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-gripper-seated-on-arm.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-gripper-seated-on-arm.png" alt="PROP-gripper-seated-on-arm.png — reference-only, не одобрено" loading="lazy"></a><figcaption>PROP-gripper-seated-on-arm.png · reference-only · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/expansion/assets/B-satellite-assembly-stand.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/expansion/assets/B-satellite-assembly-stand.png" alt="B-satellite-assembly-stand.png — reference-only, не одобрено" loading="lazy"></a><figcaption>B-satellite-assembly-stand.png · reference-only · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-manipulator-02.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-manipulator-02.png" alt="PROP-satellite-manipulator-02.png — reference-only, не одобрено" loading="lazy"></a><figcaption>PROP-satellite-manipulator-02.png · reference-only · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/expansion/assets/ATM-night-pad-16x9.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/expansion/assets/ATM-night-pad-16x9.png" alt="ATM-night-pad-16x9.png — reference-only, не одобрено" loading="lazy"></a><figcaption>ATM-night-pad-16x9.png · reference-only · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/expansion/assets/ATM-night-liftoff-16x9.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/expansion/assets/ATM-night-liftoff-16x9.png" alt="ATM-night-liftoff-16x9.png — reference-only, не одобрено" loading="lazy"></a><figcaption>ATM-night-liftoff-16x9.png · reference-only · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-gripper-capture-scrap.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-gripper-capture-scrap.png" alt="PROP-gripper-capture-scrap.png — reference-only, не одобрено" loading="lazy"></a><figcaption>PROP-gripper-capture-scrap.png · reference-only · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-orbital-press-block.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-orbital-press-block.png" alt="PROP-orbital-press-block.png — reference-only, не одобрено" loading="lazy"></a><figcaption>PROP-orbital-press-block.png · reference-only · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/expansion/assets/C-original-lattice-station.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/expansion/assets/C-original-lattice-station.png" alt="C-original-lattice-station.png — reference-only, не одобрено" loading="lazy"></a><figcaption>C-original-lattice-station.png · reference-only · не одобрено</figcaption></figure></div>
+
+<h4 id="scene-3-native-A01_drop">A01_drop · 7 с · Чертёж и бросок в чёрный бак</h4>
+<p><strong>Готовность пакета:</strong> READY_TO_SEND — текст и референсы можно отдавать в native Grok. Это не приёмка, не «в фильме» и не квитанция запуска. Видео этого клипа в репозитории нет. <code>production_state</code> сцены остаётся DRAFT, <code>not_approved</code>.</p>
+<p><strong>Старт:</strong> Инженер у верстака с чертежом; пустая clear PET с синей крышкой на столе<br><strong>Финал:</strong> Та же бутылка с синей крышкой лежит внутри обычного тёмного бака; дроп завершён<br><strong>Зависимость монтажа:</strong> нет, клип самостоятельный. Зависимость не означает first/last frame: картинки передаются только как reference-only.</p>
+
+<p><strong>Референсы, порядок IMAGE:</strong></p>
+<ul>
+<li>IMAGE_0 · ID-engineer-workshop-45726.png · PRIMARY identity sheet only · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-workshop-45726.png</code> · sha256 <code>980ad135ba1749c9e70b262219302763d2e1c406d7cc01e2773b0f0969832921</code> · not_approved</li><li>IMAGE_1 · LOC-workshop-45728.png · workshop/drawing environment; ignore non-blue-cap bottle if present · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/LOC-workshop-45728.png</code> · sha256 <code>5f3cc782178e9eb023fb72cecb686a81ef15ae34155aa5ffed64bf4e02e348c5</code> · not_approved</li><li>IMAGE_2 · PROP-black-bin-45729.png · dark bin + clear blue-cap PET drop language · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-black-bin-45729.png</code> · sha256 <code>371a5a11c50174241a826b9ecbc69ca4084e483280241ec4130c4d2063de5c01</code> · not_approved</li>
+</ul>
+<p>Режим: references-only, 16:9, 7 с. Нет image_path, last_frame_path, keyframes и нет настройки resolution.</p>
+<p><strong>Русский план</strong> (не промт модели), файл <code>projects/raznoe/references/scenes/scene-3/expansion/descriptions/A01_drop.ru.md</code>:</p>
+<pre class="native-plan"># A01_drop — Чертёж и бросок в чёрный бак
+
+**Длительность:** 7 с
+
+**Старт:** Инженер у верстака с чертежом; пустая clear PET с синей крышкой на столе
+
+**Финал:** Та же бутылка с синей крышкой лежит внутри обычного тёмного бака; дроп завершён
+
+**План:** 1) Смотрит чертёж. 2) Берёт clear PET с синей крышкой. 3) Бросает в тёмный бак. Финал: бутылка внутри бака.
+
+**Зависимость:** нет
+
+**Референсы:**
+- IMAGE_0: `ID-engineer-workshop-45726.png` — PRIMARY identity sheet only
+- IMAGE_1: `LOC-workshop-45728.png` — workshop/drawing environment; ignore non-blue-cap bottle if present
+- IMAGE_2: `PROP-black-bin-45729.png` — dark bin + clear blue-cap PET drop language
+</pre>
+<p><strong>Промт модели</strong>, дословно <code>projects/raznoe/references/scenes/scene-3/expansion/prompts/A01_drop.txt</code>:</p>
+<pre class="native-prompt">Photoreal live-action 16:9, about 7 seconds. Workshop beat 1 of 3 — drop only.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+&lt;IMAGE_0&gt; is absolute identity authority for the engineer: mid-30s man, curly dark brown hair, short beard, no glasses, black T-shirt with the existing red «Алиса» concert graphic, black trousers, black wristwatch. Never reproduce the multi-panel sheet layout as a video frame.
+
+REFERENCES (guides only — NOT exact first/last frames, NOT timed keyframe pins):
+&lt;IMAGE_1&gt; workshop / technical drawing environment. If a bottle with a different cap appears in this still, IGNORE it for story continuity.
+&lt;IMAGE_2&gt; ordinary dark metal waste bin with black liner + clear PET bottle with blue cap — prop/action language for the drop.
+
+STORY — one completed event:
+START: engineer studies the technical drawing at the bench; ONE empty clear PET water bottle with a blue screw-cap (same bottle throughout; do not switch to a white-cap bottle if another bottle appears in an environment still) is on the bench.
+ACTION: he picks THAT blue-cap bottle and drops it into the ordinary dark bin beside/near the bench (bin placement as in &lt;IMAGE_2&gt;, not a magic teleport under the table).
+END STATE: the same blue-cap bottle is INSIDE the dark bin — drop finished. No blue recycling container in this clip. No second story bottle. No stranger hands.
+
+CAMERA: medium to closer; hard cuts OK.
+AVOID: crossfade, dissolve, morph, slideshow, collage/storyboard panels, on-screen text, logos, letterbox/black bars; bottle shape morph; heavy metallic crash for light plastic; retrieving the bottle back out (that is the next clip).
+</pre>
+<p>Неисполненный локальный шаблон запроса: <code>projects/raznoe/references/scenes/scene-3/expansion/requests/A01_drop.json</code>. Внутри JSON пути <code>/workspace/RESOURCE-expansion-2026-11-06/...</code> — пути исходного пакета, не адреса сайта и не выполненный запуск. Native-пускатель берёт промт из файла txt и картинки выше в порядке IMAGE_0… Фактический отправленный payload, если генерация случится, пишется отдельным логом. Этот JSON логом отправки не является.</p>
+<h4 id="scene-3-native-A02_retrieve">A02_retrieve · 8 с · Осознание и извлечение бутылки</h4>
+<p><strong>Готовность пакета:</strong> READY_TO_SEND — текст и референсы можно отдавать в native Grok. Это не приёмка, не «в фильме» и не квитанция запуска. Видео этого клипа в репозитории нет. <code>production_state</code> сцены остаётся DRAFT, <code>not_approved</code>.</p>
+<p><strong>Старт:</strong> Та же бутылка уже внутри тёмного бака; инженер у верстака<br><strong>Финал:</strong> Извлечение завершено: та же бутылка в его руке вне бака (ещё не у синего)<br><strong>Зависимость монтажа:</strong> A01_drop. Зависимость не означает first/last frame: картинки передаются только как reference-only.</p>
+
+<p><strong>Референсы, порядок IMAGE:</strong></p>
+<ul>
+<li>IMAGE_0 · ID-engineer-workshop-45726.png · PRIMARY identity · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-workshop-45726.png</code> · sha256 <code>980ad135ba1749c9e70b262219302763d2e1c406d7cc01e2773b0f0969832921</code> · not_approved</li><li>IMAGE_1 · LOC-workshop-45728.png · workshop + drawing for realization glance · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/LOC-workshop-45728.png</code> · sha256 <code>5f3cc782178e9eb023fb72cecb686a81ef15ae34155aa5ffed64bf4e02e348c5</code> · not_approved</li><li>IMAGE_2 · PROP-black-bin-45729.png · dark bin continuity; bottle already inside at start · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-black-bin-45729.png</code> · sha256 <code>371a5a11c50174241a826b9ecbc69ca4084e483280241ec4130c4d2063de5c01</code> · not_approved</li><li>IMAGE_3 · PROP-bottle-retrieved-clear-of-bin.png · retrieval completed: bottle clear of dark bin in his hand · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-bottle-retrieved-clear-of-bin.png</code> · sha256 <code>78203883ac23c6a4b76b7d5034d3ddf246240a8bf63a1890e3a51e395f3ef61c</code> · not_approved</li>
+</ul>
+<p>Режим: references-only, 16:9, 8 с. Нет image_path, last_frame_path, keyframes и нет настройки resolution.</p>
+<p><strong>Русский план</strong> (не промт модели), файл <code>projects/raznoe/references/scenes/scene-3/expansion/descriptions/A02_retrieve.ru.md</code>:</p>
+<pre class="native-plan"># A02_retrieve — Осознание и извлечение бутылки
+
+**Длительность:** 8 с
+
+**Старт:** Та же бутылка уже внутри тёмного бака; инженер у верстака
+
+**Финал:** Извлечение завершено: та же бутылка в его руке вне бака (ещё не у синего)
+
+**План:** 1) Короткий взгляд на чертёж → на бак (осознание). 2) Своей рукой достаёт ТУ ЖЕ бутылку из тёмного бака. 3) Финал: бутылка вне бака в руке. Синий контейнер не показывать.
+
+**Зависимость:** A01_drop
+
+**Референсы:**
+- IMAGE_0: `ID-engineer-workshop-45726.png` — PRIMARY identity
+- IMAGE_1: `LOC-workshop-45728.png` — workshop + drawing for realization glance
+- IMAGE_2: `PROP-black-bin-45729.png` — dark bin continuity; bottle already inside at start
+- IMAGE_3: `PROP-bottle-retrieved-clear-of-bin.png` — retrieval completed: bottle clear of dark bin in his hand
+</pre>
+<p><strong>Промт модели</strong>, дословно <code>projects/raznoe/references/scenes/scene-3/expansion/prompts/A02_retrieve.txt</code>:</p>
+<pre class="native-prompt">Photoreal live-action 16:9, about 8 seconds. Workshop beat 2 of 3 — realization + retrieval only.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+&lt;IMAGE_0&gt; absolute identity: same mid-30s engineer, curly dark brown hair, short beard, no glasses, black «Алиса» tee, black trousers, black wristwatch. Identity sheet only — not a collage frame.
+
+REFERENCES (guides only — NOT exact first/last frames, NOT timed pins):
+&lt;IMAGE_1&gt; workshop continuity / drawing on the bench (for the realization glance).
+&lt;IMAGE_2&gt; ordinary dark bin + clear blue-cap PET language; START with the bottle already inside this bin.
+&lt;IMAGE_3&gt; completed retrieval language: his hand holds the same clear blue-cap PET clear of the dark bin rim after lifting it out — end-state guide, not a frozen advertising pose and not a drop-in.
+
+STORY — cause chain, compact, near the bench (no deep walk):
+START STATE: ONE empty clear PET water bottle with a blue screw-cap (same bottle throughout; do not switch to a white-cap bottle if another bottle appears in an environment still) is already inside the ordinary dark waste bin.
+REALIZATION: a brief readable reaction — he glances back at the technical drawing, then looks down at the bin (change of mind). Keep it natural, not theatrical.
+RETRIEVAL: with his own hand (same skin/watch — no stranger cutaway hand), he reaches into the dark bin and pulls THAT SAME blue-cap bottle out until it is clear of the bin.
+END STATE: completed extraction — he holds the same bottle clear of the dark bin. Do NOT walk to the blue recycling container in this clip. Do NOT deposit into blue here. No second bottle left on the table. Fingers must not melt into the plastic.
+
+CAMERA: medium / hand+bin close OK; hard cuts OK.
+AVOID: crossfade, morph, slideshow, collage, on-screen text, logos, letterbox; skipping retrieval; ending with bottle still inside the bin; blue recycling bin appearing; mid-air throw.
+</pre>
+<p>Неисполненный локальный шаблон запроса: <code>projects/raznoe/references/scenes/scene-3/expansion/requests/A02_retrieve.json</code>. Внутри JSON пути <code>/workspace/RESOURCE-expansion-2026-11-06/...</code> — пути исходного пакета, не адреса сайта и не выполненный запуск. Native-пускатель берёт промт из файла txt и картинки выше в порядке IMAGE_0… Фактический отправленный payload, если генерация случится, пишется отдельным логом. Этот JSON логом отправки не является.</p>
+<h4 id="scene-3-native-A02_blue">A02_blue · 7 с · Сдать бутылку в синий контейнер</h4>
+<p><strong>Готовность пакета:</strong> READY_TO_SEND — текст и референсы можно отдавать в native Grok. Это не приёмка, не «в фильме» и не квитанция запуска. Видео этого клипа в репозитории нет. <code>production_state</code> сцены остаётся DRAFT, <code>not_approved</code>.</p>
+<p><strong>Старт:</strong> Монтажный старт у синего контейнера: та же бутылка уже в руке (после видимого извлечения)<br><strong>Финал:</strong> Та же бутылка полностью внутри синего контейнера<br><strong>Зависимость монтажа:</strong> A02_retrieve. Зависимость не означает first/last frame: картинки передаются только как reference-only.</p>
+
+<p><strong>Референсы, порядок IMAGE:</strong></p>
+<ul>
+<li>IMAGE_0 · ID-engineer-workshop-45726.png · identity · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-workshop-45726.png</code> · sha256 <code>980ad135ba1749c9e70b262219302763d2e1c406d7cc01e2773b0f0969832921</code> · not_approved</li><li>IMAGE_1 · LOC-workshop-45728.png · workshop continuity · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/LOC-workshop-45728.png</code> · sha256 <code>5f3cc782178e9eb023fb72cecb686a81ef15ae34155aa5ffed64bf4e02e348c5</code> · not_approved</li><li>IMAGE_2 · PROP-bottle-held-at-blue.png · start-state: holding blue-cap PET at blue bin · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-bottle-held-at-blue.png</code> · sha256 <code>166f079ddecf845d2fd94e9d7f502f324f756fdc6cccc43c868df0201daa96c8</code> · not_approved</li><li>IMAGE_3 · PROP-blue-bin-45731.png · blue recycling container · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-blue-bin-45731.png</code> · sha256 <code>d85063e72eefb7a75e7a1309397ec1596f2dfb803db307231f92f9b00bd196c3</code> · not_approved</li>
+</ul>
+<p>Режим: references-only, 16:9, 7 с. Нет image_path, last_frame_path, keyframes и нет настройки resolution.</p>
+<p><strong>Русский план</strong> (не промт модели), файл <code>projects/raznoe/references/scenes/scene-3/expansion/descriptions/A02_blue.ru.md</code>:</p>
+<pre class="native-plan"># A02_blue — Сдать бутылку в синий контейнер
+
+**Длительность:** 7 с
+
+**Старт:** Монтажный старт у синего контейнера: та же бутылка уже в руке (после видимого извлечения)
+
+**Финал:** Та же бутылка полностью внутри синего контейнера
+
+**План:** Переход от тёмного бака допустим склейкой. Одно действие: кладёт/бросает бутылку внутрь синего. Финал — внутри, не в воздухе.
+
+**Зависимость:** A02_retrieve
+
+**Референсы:**
+- IMAGE_0: `ID-engineer-workshop-45726.png` — identity
+- IMAGE_1: `LOC-workshop-45728.png` — workshop continuity
+- IMAGE_2: `PROP-bottle-held-at-blue.png` — start-state: holding blue-cap PET at blue bin
+- IMAGE_3: `PROP-blue-bin-45731.png` — blue recycling container
+</pre>
+<p><strong>Промт модели</strong>, дословно <code>projects/raznoe/references/scenes/scene-3/expansion/prompts/A02_blue.txt</code>:</p>
+<pre class="native-prompt">Photoreal live-action 16:9, about 7 seconds. Workshop beat 3 of 3 — blue deposit only.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+&lt;IMAGE_0&gt; same engineer identity: curly dark brown hair, short beard, no glasses, black «Алиса» tee, watch. Identity sheet only.
+
+REFERENCES (guides only — NOT exact first/last frames, NOT timed pins):
+&lt;IMAGE_1&gt; workshop continuity.
+&lt;IMAGE_2&gt; holding the same clear blue-cap PET at the open blue recycling bin — start-state / prop guide, NOT a mid-air freeze as finale.
+&lt;IMAGE_3&gt; large blue recycling container prop.
+
+STORY — one completed deposit (walk from dark bin may be a hard-cut montage):
+START STATE: he is already at the blue recycling container holding ONE empty clear PET water bottle with a blue screw-cap (same bottle throughout; do not switch to a white-cap bottle if another bottle appears in an environment still) (same bottle retrieved in the previous beat).
+ACTION: he places/drops that bottle INTO the blue container.
+END STATE: the same bottle is fully INSIDE the blue container — choice completed. No hovering bottle. No second bottle on a table. No stranger hand. Fingers must not melt into plastic.
+
+CAMERA: medium / hand+bin OK; hard cuts OK.
+AVOID: crossfade, morph, slideshow, collage, on-screen text, logos, letterbox; packing retrieve+walk+throw into this one clip; ending on mid-air bottle.
+</pre>
+<p>Неисполненный локальный шаблон запроса: <code>projects/raznoe/references/scenes/scene-3/expansion/requests/A02_blue.json</code>. Внутри JSON пути <code>/workspace/RESOURCE-expansion-2026-11-06/...</code> — пути исходного пакета, не адреса сайта и не выполненный запуск. Native-пускатель берёт промт из файла txt и картинки выше в порядке IMAGE_0… Фактический отправленный payload, если генерация случится, пишется отдельным логом. Этот JSON логом отправки не является.</p>
+<h4 id="scene-3-native-A03_sort">A03_sort · 6 с · Заводская сортировка</h4>
+<p><strong>Готовность пакета:</strong> READY_TO_SEND — текст и референсы можно отдавать в native Grok. Это не приёмка, не «в фильме» и не квитанция запуска. Видео этого клипа в репозитории нет. <code>production_state</code> сцены остаётся DRAFT, <code>not_approved</code>.</p>
+<p><strong>Старт:</strong> Уже на линии сортировки; инженер отсутствует<br><strong>Финал:</strong> Прозрачные/синие бутылки отобраны на линии<br><strong>Зависимость монтажа:</strong> нет, клип самостоятельный. Зависимость не означает first/last frame: картинки передаются только как reference-only.</p>
+<p><strong>Первая волна.</strong> Текст промта и порядок референсов этого клипа не менялись. Файл попытки в папке Саши: A03_sort-v1. Ассистентский просмотр: кандидат, мелкая нестабильность PET. Не принято. Готовность входа READY_TO_SEND этим просмотром не отменяется и в approved не превращается.</p>
+<p><strong>Референсы, порядок IMAGE:</strong></p>
+<ul>
+<li>IMAGE_0 · FAC-worker-compressed-45734.png · female facility worker + bottles / PPE · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-worker-compressed-45734.png</code> · sha256 <code>3d428665a63eafaba0c52d6ad58bb7a67fac484268d60c59eab758bd424f672f</code> · not_approved</li><li>IMAGE_1 · FAC-worker-line-45735.png · sorting line inspection · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-worker-line-45735.png</code> · sha256 <code>c791a8970d715168064cf26b94e47eda508b521ff5a4ae20fdb7924680424f9b</code> · not_approved</li>
+</ul>
+<p>Режим: references-only, 16:9, 6 с. Нет image_path, last_frame_path, keyframes и нет настройки resolution.</p>
+<p><strong>Русский план</strong> (не промт модели), файл <code>projects/raznoe/references/scenes/scene-3/expansion/descriptions/A03_sort.ru.md</code>:</p>
+<pre class="native-plan"># A03_sort — Заводская сортировка
+
+**Длительность:** 6 с · **Решение:** READY_TO_SEND · **Группа запуска:** A_factory
+
+**Старт:** Уже на линии сортировки; инженер отсутствует
+
+**Финал:** Прозрачные/синие бутылки отобраны на линии
+
+**Покадровый план:** Женщина в PPE на линии. Бутылки едут/сортируются. Без инженера.
+
+**Зависимость:** нет (можно параллельно по смыслу)
+
+**Референсы (порядок = &lt;IMAGE_n&gt;):**
+- IMAGE_0: `FAC-worker-compressed-45734.png` — female facility worker + bottles / PPE
+- IMAGE_1: `FAC-worker-line-45735.png` — sorting line inspection
+</pre>
+<p><strong>Промт модели</strong>, дословно <code>projects/raznoe/references/scenes/scene-3/expansion/prompts/A03_sort.txt</code>:</p>
+<pre class="native-prompt">Photoreal live-action 16:9, about 6 seconds. Industrial sorting only.
+
+&lt;IMAGE_0&gt; female recycling worker in dark blue coveralls, gloves; industrial hall; bottles.
+&lt;IMAGE_1&gt; worker inspecting a clear PET bottle on a sorting line with clear safety glasses.
+
+STORY: START already inside the factory. Transparent and blue PET bottles move on a conveyor; the worker sorts/inspects. Bottles keep stable PET shapes — no morphing, no jumping. The workshop engineer must NOT appear.
+
+AVOID: crossfade, morph, slideshow, collage, on-screen text, logos, letterbox; male engineer; melting hands into bottles.
+</pre>
+<p>Неисполненный локальный шаблон запроса: <code>projects/raznoe/references/scenes/scene-3/expansion/requests/A03_sort.json</code>. Внутри JSON пути <code>/workspace/RESOURCE-expansion-2026-11-06/...</code> — пути исходного пакета, не адреса сайта и не выполненный запуск. Native-пускатель берёт промт из файла txt и картинки выше в порядке IMAGE_0… Фактический отправленный payload, если генерация случится, пишется отдельным логом. Этот JSON логом отправки не является.</p>
+<h4 id="scene-3-native-A04_shred">A04_shred · 8 с · Измельчение</h4>
+<p><strong>Готовность пакета:</strong> READY_TO_SEND — текст и референсы можно отдавать в native Grok. Это не приёмка, не «в фильме» и не квитанция запуска. Видео этого клипа в репозитории нет. <code>production_state</code> сцены остаётся DRAFT, <code>not_approved</code>.</p>
+<p><strong>Старт:</strong> Бутылки подаются в промышленный шредер<br><strong>Финал:</strong> Бутылки реально затянуты и дробятся; фрагменты копятся<br><strong>Зависимость монтажа:</strong> A03_sort. Зависимость не означает first/last frame: картинки передаются только как reference-only.</p>
+<p><strong>Первая волна.</strong> Текст промта и порядок референсов этого клипа не менялись. Файл попытки в папке Саши: A04_shred-v1. Ассистентский просмотр: отклонить, физика измельчения. Не принято. Готовность входа READY_TO_SEND этим просмотром не отменяется и в approved не превращается.</p>
+<p><strong>Референсы, порядок IMAGE:</strong></p>
+<ul>
+<li>IMAGE_0 · FAC-shredder-45736.png · industrial shredder + fragment language; machine guide not locked frame · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-shredder-45736.png</code> · sha256 <code>56a06d44aa90121bec19b6be35fdf45e41a74640e1cf4252e99f8983b7960dfd</code> · not_approved</li>
+</ul>
+<p>Режим: references-only, 16:9, 8 с. Нет image_path, last_frame_path, keyframes и нет настройки resolution.</p>
+<p><strong>Русский план</strong> (не промт модели), файл <code>projects/raznoe/references/scenes/scene-3/expansion/descriptions/A04_shred.ru.md</code>:</p>
+<pre class="native-plan"># A04_shred — Измельчение
+
+**Длительность:** 8 с · **Решение:** READY_TO_SEND · **Группа запуска:** A_factory
+
+**Старт:** Бутылки подаются в промышленный шредер
+
+**Финал:** Бутылки реально затянуты и дробятся; фрагменты копятся
+
+**Покадровый план:** Подача в ножи → реальное затягивание → дробление. Без прыжков по стенкам.
+
+**Зависимость:** A03_sort
+
+**Референсы (порядок = &lt;IMAGE_n&gt;):**
+- IMAGE_0: `FAC-shredder-45736.png` — industrial shredder + fragment language; machine guide not locked frame
+</pre>
+<p><strong>Промт модели</strong>, дословно <code>projects/raznoe/references/scenes/scene-3/expansion/prompts/A04_shred.txt</code>:</p>
+<pre class="native-prompt">Photoreal live-action 16:9, about 8 seconds. Shredding only.
+
+&lt;IMAGE_0&gt; industrial plastic shredder with rotating steel cutters and plastic fragments — machine/material guide, not a locked pose.
+
+STORY: PET bottles are fed into the shredder and are convincingly drawn into the blades and crushed into irregular fragments that accumulate. Show real mechanical ingestion and deformation.
+
+CRITICAL: bottles must enter the cutting zone — NOT bounce along walls without capture. No teleporting bottles. No people. Plastic sounds like plastic, not heavy metal crashes.
+
+AVOID: crossfade, morph, slideshow, collage, text, logos, letterbox.
+</pre>
+<p>Неисполненный локальный шаблон запроса: <code>projects/raznoe/references/scenes/scene-3/expansion/requests/A04_shred.json</code>. Внутри JSON пути <code>/workspace/RESOURCE-expansion-2026-11-06/...</code> — пути исходного пакета, не адреса сайта и не выполненный запуск. Native-пускатель берёт промт из файла txt и картинки выше в порядке IMAGE_0… Фактический отправленный payload, если генерация случится, пишется отдельным логом. Этот JSON логом отправки не является.</p>
+<h4 id="scene-3-native-A05_material">A05_material · 5 с · Хлопья (сырьё)</h4>
+<p><strong>Готовность пакета:</strong> READY_TO_SEND — текст и референсы можно отдавать в native Grok. Это не приёмка, не «в фильме» и не квитанция запуска. Видео этого клипа в репозитории нет. <code>production_state</code> сцены остаётся DRAFT, <code>not_approved</code>.</p>
+<p><strong>Старт:</strong> Переработанный пластик как сырьё<br><strong>Финал:</strong> Видны неправильные хлопья clear/blue PET<br><strong>Зависимость монтажа:</strong> A04_shred. Зависимость не означает first/last frame: картинки передаются только как reference-only.</p>
+<p><strong>Первая волна.</strong> Текст промта и порядок референсов этого клипа не менялись. Файл попытки в папке Саши: A05_material-v1. Ассистентский просмотр предварительный: отклонить из-за морфа материала. Перепроверка идёт по отдельному файлу после ошибочных сквозных таймкодов, поэтому окончательного вердикта по A05 нет. Не принято. Готовность входа READY_TO_SEND этим просмотром не отменяется и в approved не превращается.</p>
+<p><strong>Референсы, порядок IMAGE:</strong></p>
+<ul>
+<li>IMAGE_0 · FAC-flakes-45733.png · recycled flakes look · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-flakes-45733.png</code> · sha256 <code>a90be81fc9eacd17618ff5aabf0f8a75b6d3511539f2c575185a434e3fad4e84</code> · not_approved</li><li>IMAGE_1 · A-recycled-pet-pellets.png · optional pellets continuity — same material family · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/A-recycled-pet-pellets.png</code> · sha256 <code>e1ff9c52506ab256cdfa70225d74c5efa6b1575b071ef449add9791ff8736a29</code> · not_approved</li>
+</ul>
+<p>Режим: references-only, 16:9, 5 с. Нет image_path, last_frame_path, keyframes и нет настройки resolution.</p>
+<p><strong>Русский план</strong> (не промт модели), файл <code>projects/raznoe/references/scenes/scene-3/expansion/descriptions/A05_material.ru.md</code>:</p>
+<pre class="native-plan"># A05_material — Хлопья (сырьё)
+
+**Длительность:** 5 с · **Решение:** READY_TO_SEND · **Группа запуска:** A_factory
+
+**Старт:** Переработанный пластик как сырьё
+
+**Финал:** Видны неправильные хлопья clear/blue PET
+
+**Покадровый план:** Крупно хлопья clear/blue. Краткий кадр гранул допустим. Staging, не сертификат.
+
+**Зависимость:** A04_shred
+
+**Референсы (порядок = &lt;IMAGE_n&gt;):**
+- IMAGE_0: `FAC-flakes-45733.png` — recycled flakes look
+- IMAGE_1: `A-recycled-pet-pellets.png` — optional pellets continuity — same material family
+</pre>
+<p><strong>Промт модели</strong>, дословно <code>projects/raznoe/references/scenes/scene-3/expansion/prompts/A05_material.txt</code>:</p>
+<pre class="native-prompt">Photoreal live-action 16:9, about 5 seconds. Recycled feedstock.
+
+&lt;IMAGE_0&gt; irregular clear/blue recycled plastic flakes.
+&lt;IMAGE_1&gt; translucent clear/blue PET pellets — same material family if briefly cut to.
+
+STORY: flakes pour/accumulate as recycled feedstock; optional brief cut to pellets. Same clear/blue recycled PET look. Staged industrial process — not a certified origin claim. No people. No logos/text.
+
+AVOID: crossfade, morph, slideshow, collage, letterbox.
+</pre>
+<p>Неисполненный локальный шаблон запроса: <code>projects/raznoe/references/scenes/scene-3/expansion/requests/A05_material.json</code>. Внутри JSON пути <code>/workspace/RESOURCE-expansion-2026-11-06/...</code> — пути исходного пакета, не адреса сайта и не выполненный запуск. Native-пускатель берёт промт из файла txt и картинки выше в порядке IMAGE_0… Фактический отправленный payload, если генерация случится, пишется отдельным логом. Этот JSON логом отправки не является.</p>
+<h4 id="scene-3-native-A06_print">A06_print · 8 с · Полимерная печать захвата</h4>
+<p><strong>Готовность пакета:</strong> READY_TO_SEND — текст и референсы можно отдавать в native Grok. Это не приёмка, не «в фильме» и не квитанция запуска. Видео этого клипа в репозитории нет. <code>production_state</code> сцены остаётся DRAFT, <code>not_approved</code>.</p>
+<p><strong>Старт:</strong> Идёт аддитивная печать открытого полимерного захвата<br><strong>Финал:</strong> Виден новый слой/валик экструзии на формирующемся матовом полимерном захвате<br><strong>Зависимость монтажа:</strong> A05_material. Зависимость не означает first/last frame: картинки передаются только как reference-only.</p>
+
+<p><strong>Референсы, порядок IMAGE:</strong></p>
+<ul>
+<li>IMAGE_0 · PROP-print-extrusion-bead.png · PRIMARY: nozzle depositing a visible new polymer bead on open-frame gripper · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-print-extrusion-bead.png</code> · sha256 <code>45aa7b2f80271b2a5a2b7631a011c19b5fc95bf29f11332b9f2a9bcb3ee5325c</code> · not_approved</li><li>IMAGE_1 · A-polymer-gripper-product.png · product design authority — matte polymer lattice gripper with blue inclusions · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/A-polymer-gripper-product.png</code> · sha256 <code>aeb0526b4bd804851df6f1177b04b587f7cf1ecef5d5040b672559cc7659f6f0</code> · not_approved</li><li>IMAGE_2 · FAC-polymer-print-45737.png · printer/gantry environment only; ignore any coolant-stream look — extrusion is polymer bead, not liquid pour · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-polymer-print-45737.png</code> · sha256 <code>802992aa667bd04bacb8e23e7a894a725eef8e1337951dc2feda0b94c2753736</code> · not_approved</li>
+</ul>
+<p>Режим: references-only, 16:9, 8 с. Нет image_path, last_frame_path, keyframes и нет настройки resolution.</p>
+<p><strong>Русский план</strong> (не промт модели), файл <code>projects/raznoe/references/scenes/scene-3/expansion/descriptions/A06_print.ru.md</code>:</p>
+<pre class="native-plan"># A06_print — Полимерная печать захвата
+
+**Длительность:** 8 с · **Решение:** READY_TO_SEND · **Группа запуска:** A_factory
+
+**Старт:** Идёт аддитивная печать открытого полимерного захвата
+
+**Финал:** Виден новый слой/валик экструзии на формирующемся матовом полимерном захвате
+
+**Покадровый план:** Сопло кладёт видимый новый полимерный валик на решётчатый захват. Не CNC-металл. Один дизайн захвата.
+
+**Зависимость:** A05_material
+
+**Референсы (порядок = &lt;IMAGE_n&gt;):**
+- IMAGE_0: `PROP-print-extrusion-bead.png` — PRIMARY: nozzle depositing a visible new polymer bead on open-frame gripper
+- IMAGE_1: `A-polymer-gripper-product.png` — product design authority — matte polymer lattice gripper with blue inclusions
+- IMAGE_2: `FAC-polymer-print-45737.png` — printer/gantry environment only; ignore any coolant-stream look — extrusion is polymer bead, not liquid pour
+</pre>
+<p><strong>Промт модели</strong>, дословно <code>projects/raznoe/references/scenes/scene-3/expansion/prompts/A06_print.txt</code>:</p>
+<pre class="native-prompt">Photoreal live-action 16:9, about 8 seconds. Additive polymer printing only.
+
+PRIORITY: &lt;IMAGE_0&gt; shows a printer nozzle depositing a VISIBLE new matte light-gray polymer bead with blue speckles onto an open-frame lattice gripper — this is the action language.
+&lt;IMAGE_1&gt; isolated product design authority: same open-frame gripper, matte polymer, layer lines, blue inclusions.
+&lt;IMAGE_2&gt; industrial gantry/printer environment only. If &lt;IMAGE_2&gt; suggests liquid coolant, IGNORE that — this is FDM/extrusion of solidifying polymer, NOT a pouring blue liquid, NOT CNC metal cutting.
+
+STORY: real extrusion lays a new bead/layer onto an already forming nearly finished open-frame mechanical gripper for a future satellite manipulator. Workpiece is polymer with layer lines. No engineer. No sparks, chips, or brushed-aluminium CNC workpiece. Staged cinematic manufacturing — not a spaceflight certification claim.
+
+END: clearly visible fresh deposited material on the polymer gripper.
+AVOID: silent hovering nozzle with no bead; crossfade; morph; slideshow; text; logos; letterbox.
+</pre>
+<p>Неисполненный локальный шаблон запроса: <code>projects/raznoe/references/scenes/scene-3/expansion/requests/A06_print.json</code>. Внутри JSON пути <code>/workspace/RESOURCE-expansion-2026-11-06/...</code> — пути исходного пакета, не адреса сайта и не выполненный запуск. Native-пускатель берёт промт из файла txt и картинки выше в порядке IMAGE_0… Фактический отправленный payload, если генерация случится, пишется отдельным логом. Этот JSON логом отправки не является.</p>
+<h4 id="scene-3-native-B01_pickup">B01_pickup · 5 с · Инженер берёт полимерный захват</h4>
+<p><strong>Готовность пакета:</strong> READY_TO_SEND — текст и референсы можно отдавать в native Grok. Это не приёмка, не «в фильме» и не квитанция запуска. Видео этого клипа в репозитории нет. <code>production_state</code> сцены остаётся DRAFT, <code>not_approved</code>.</p>
+<p><strong>Старт:</strong> Чистый сборочный цех; захват на столе<br><strong>Финал:</strong> Инженер в синей форме держит тот же полимерный захват<br><strong>Зависимость монтажа:</strong> A06_print. Зависимость не означает first/last frame: картинки передаются только как reference-only.</p>
+
+<p><strong>Референсы, порядок IMAGE:</strong></p>
+<ul>
+<li>IMAGE_0 · ID-engineer-blue-form-01.png · identity in blue workwear + clear safety glasses; same curly hair/beard type; do NOT reproduce multi-panel sheet; prefer blank chest patch over fake lettering · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-blue-form-01.png</code> · sha256 <code>a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587</code> · not_approved</li><li>IMAGE_1 · A-polymer-gripper-product.png · polymer gripper product · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/A-polymer-gripper-product.png</code> · sha256 <code>aeb0526b4bd804851df6f1177b04b587f7cf1ecef5d5040b672559cc7659f6f0</code> · not_approved</li><li>IMAGE_2 · ATM-cleanroom-assembly-extra.png · clean assembly hall atmosphere — NOT a collage · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/ATM-cleanroom-assembly-extra.png</code> · sha256 <code>5de9f2952dc335a6e4b83e3c2d4618367d5959febb575ecfb5575226d062e9ac</code> · not_approved</li>
+</ul>
+<p>Режим: references-only, 16:9, 5 с. Нет image_path, last_frame_path, keyframes и нет настройки resolution.</p>
+<p><strong>Русский план</strong> (не промт модели), файл <code>projects/raznoe/references/scenes/scene-3/expansion/descriptions/B01_pickup.ru.md</code>:</p>
+<pre class="native-plan"># B01_pickup — Инженер берёт полимерный захват
+
+**Длительность:** 5 с · **Решение:** READY_TO_SEND · **Группа запуска:** B_assembly
+
+**Старт:** Чистый сборочный цех; захват на столе
+
+**Финал:** Инженер в синей форме держит тот же полимерный захват
+
+**Покадровый план:** Синяя форма (осознанная смена с мастерской). Берёт решётчатый полимерный захват. Лицо то же. Логотип на форме не выдумывать.
+
+**Зависимость:** A06_print
+
+**Референсы (порядок = &lt;IMAGE_n&gt;):**
+- IMAGE_0: `ID-engineer-blue-form-01.png` — identity in blue workwear + clear safety glasses; same curly hair/beard type; do NOT reproduce multi-panel sheet; prefer blank chest patch over fake lettering
+- IMAGE_1: `A-polymer-gripper-product.png` — polymer gripper product
+- IMAGE_2: `ATM-cleanroom-assembly-extra.png` — clean assembly hall atmosphere — NOT a collage
+</pre>
+<p><strong>Промт модели</strong>, дословно <code>projects/raznoe/references/scenes/scene-3/expansion/prompts/B01_pickup.txt</code>:</p>
+<pre class="native-prompt">Photoreal live-action 16:9, about 5 seconds. Aerospace assembly hall.
+
+&lt;IMAGE_0&gt; character identity in dark blue workwear with reflective stripes and clear safety glasses — SAME curly hair/beard type as the workshop engineer, different approved costume. Identity only; never multi-panel collage. Prefer NO readable chest logo; blank patch OK for later official overlay.
+&lt;IMAGE_1&gt; matte polymer open-frame gripper product.
+&lt;IMAGE_2&gt; clean assembly hangar atmosphere (not a collage board).
+
+STORY: engineer carefully picks up the polymer gripper from a table; brief focus on hands/material then face. Realistic mass. One product only.
+
+AVOID: workshop black «Алиса» tee in this clip; fake Roscosmos lettering; crossfade; morph; slideshow; text; letterbox; stranger faces.
+</pre>
+<p>Неисполненный локальный шаблон запроса: <code>projects/raznoe/references/scenes/scene-3/expansion/requests/B01_pickup.json</code>. Внутри JSON пути <code>/workspace/RESOURCE-expansion-2026-11-06/...</code> — пути исходного пакета, не адреса сайта и не выполненный запуск. Native-пускатель берёт промт из файла txt и картинки выше в порядке IMAGE_0… Фактический отправленный payload, если генерация случится, пишется отдельным логом. Этот JSON логом отправки не является.</p>
+<h4 id="scene-3-native-B02_install">B02_install · 8 с · Установка захвата на манипулятор</h4>
+<p><strong>Готовность пакета:</strong> READY_TO_SEND — текст и референсы можно отдавать в native Grok. Это не приёмка, не «в фильме» и не квитанция запуска. Видео этого клипа в репозитории нет. <code>production_state</code> сцены остаётся DRAFT, <code>not_approved</code>.</p>
+<p><strong>Старт:</strong> Захват подносят к креплению манипулятора спутника<br><strong>Финал:</strong> Тот же полимерный захват закреплён на манипуляторе; крепёж/стык проверен<br><strong>Зависимость монтажа:</strong> B01_pickup. Зависимость не означает first/last frame: картинки передаются только как reference-only.</p>
+
+<p><strong>Референсы, порядок IMAGE:</strong></p>
+<ul>
+<li>IMAGE_0 · ID-engineer-blue-form-01.png · blue-form identity; no multi-panel · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-blue-form-01.png</code> · sha256 <code>a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587</code> · not_approved</li><li>IMAGE_1 · A-polymer-gripper-product.png · gripper design authority · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/A-polymer-gripper-product.png</code> · sha256 <code>aeb0526b4bd804851df6f1177b04b587f7cf1ecef5d5040b672559cc7659f6f0</code> · not_approved</li><li>IMAGE_2 · PROP-gripper-seated-on-arm.png · install language: gripper bolted/connected on white manipulator mount · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-gripper-seated-on-arm.png</code> · sha256 <code>8e762aa4d33ececfe901362d595fcce03bdf0f13d9468e54fd02c0a96b9e97e0</code> · not_approved</li><li>IMAGE_3 · B-satellite-assembly-stand.png · satellite on stand body continuity · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/B-satellite-assembly-stand.png</code> · sha256 <code>b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3</code> · not_approved</li><li>IMAGE_4 · PROP-satellite-manipulator-02.png · orbital manipulator/satellite geometry language from source folder · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-manipulator-02.png</code> · sha256 <code>876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e</code> · not_approved</li>
+</ul>
+<p>Режим: references-only, 16:9, 8 с. Нет image_path, last_frame_path, keyframes и нет настройки resolution.</p>
+<p><strong>Русский план</strong> (не промт модели), файл <code>projects/raznoe/references/scenes/scene-3/expansion/descriptions/B02_install.ru.md</code>:</p>
+<pre class="native-plan"># B02_install — Установка захвата на манипулятор
+
+**Длительность:** 8 с · **Решение:** READY_TO_SEND · **Группа запуска:** B_assembly
+
+**Старт:** Захват подносят к креплению манипулятора спутника
+
+**Финал:** Тот же полимерный захват закреплён на манипуляторе; крепёж/стык проверен
+
+**Покадровый план:** Совмещение крепежа → затяжка → проверка сочленения. Один захват = продукт A. Без магии.
+
+**Зависимость:** B01_pickup
+
+**Референсы (порядок = &lt;IMAGE_n&gt;):**
+- IMAGE_0: `ID-engineer-blue-form-01.png` — blue-form identity; no multi-panel
+- IMAGE_1: `A-polymer-gripper-product.png` — gripper design authority
+- IMAGE_2: `PROP-gripper-seated-on-arm.png` — install language: gripper bolted/connected on white manipulator mount
+- IMAGE_3: `B-satellite-assembly-stand.png` — satellite on stand body continuity
+- IMAGE_4: `PROP-satellite-manipulator-02.png` — orbital manipulator/satellite geometry language from source folder
+</pre>
+<p><strong>Промт модели</strong>, дословно <code>projects/raznoe/references/scenes/scene-3/expansion/prompts/B02_install.txt</code>:</p>
+<pre class="native-prompt">Photoreal live-action 16:9, about 8 seconds. Mechanical install only.
+
+&lt;IMAGE_0&gt; blue-form engineer identity (no collage layout).
+&lt;IMAGE_1&gt; polymer open-frame gripper design authority.
+&lt;IMAGE_2&gt; gripper seated/bolted on white manipulator mount — install result language, not an exact end-frame copy.
+&lt;IMAGE_3&gt; fictional satellite on assembly stand.
+&lt;IMAGE_4&gt; satellite/manipulator geometry from source design.
+
+STORY: engineer seats the SAME polymer gripper into the manipulator end mount, tightens visible fasteners, checks the joint by hand. Keep satellite geometry coherent with &lt;IMAGE_3&gt;/&lt;IMAGE_4&gt;. No magic transform into a different robot claw. Blank chest patch preferred over fake lettering.
+
+AVOID: crossfade; morph; slideshow; text; logos; letterbox; swapping gripper for a generic metal claw.
+</pre>
+<p>Неисполненный локальный шаблон запроса: <code>projects/raznoe/references/scenes/scene-3/expansion/requests/B02_install.json</code>. Внутри JSON пути <code>/workspace/RESOURCE-expansion-2026-11-06/...</code> — пути исходного пакета, не адреса сайта и не выполненный запуск. Native-пускатель берёт промт из файла txt и картинки выше в порядке IMAGE_0… Фактический отправленный payload, если генерация случится, пишется отдельным логом. Этот JSON логом отправки не является.</p>
+<h4 id="scene-3-native-B03_build">B03_build · 6 с · Механическая досборка</h4>
+<p><strong>Готовность пакета:</strong> READY_TO_SEND — текст и референсы можно отдавать в native Grok. Это не приёмка, не «в фильме» и не квитанция запуска. Видео этого клипа в репозитории нет. <code>production_state</code> сцены остаётся DRAFT, <code>not_approved</code>.</p>
+<p><strong>Старт:</strong> Спутник на стенде частично собран<br><strong>Финал:</strong> Крышки/панели/манипулятор установлены последовательно<br><strong>Зависимость монтажа:</strong> B02_install. Зависимость не означает first/last frame: картинки передаются только как reference-only.</p>
+
+<p><strong>Референсы, порядок IMAGE:</strong></p>
+<ul>
+<li>IMAGE_0 · B-satellite-assembly-stand.png · satellite on stand · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/B-satellite-assembly-stand.png</code> · sha256 <code>b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3</code> · not_approved</li><li>IMAGE_1 · PROP-satellite-manipulator-02.png · manipulator/satellite design language · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-manipulator-02.png</code> · sha256 <code>876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e</code> · not_approved</li><li>IMAGE_2 · ATM-cleanroom-assembly-extra.png · cleanroom atmosphere · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/ATM-cleanroom-assembly-extra.png</code> · sha256 <code>5de9f2952dc335a6e4b83e3c2d4618367d5959febb575ecfb5575226d062e9ac</code> · not_approved</li><li>IMAGE_3 · ID-engineer-blue-form-01.png · engineer identity IF visible · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-blue-form-01.png</code> · sha256 <code>a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587</code> · not_approved</li>
+</ul>
+<p>Режим: references-only, 16:9, 6 с. Нет image_path, last_frame_path, keyframes и нет настройки resolution.</p>
+<p><strong>Русский план</strong> (не промт модели), файл <code>projects/raznoe/references/scenes/scene-3/expansion/descriptions/B03_build.ru.md</code>:</p>
+<pre class="native-plan"># B03_build — Механическая досборка
+
+**Длительность:** 6 с · **Решение:** READY_TO_SEND · **Группа запуска:** B_assembly
+
+**Старт:** Спутник на стенде частично собран
+
+**Финал:** Крышки/панели/манипулятор установлены последовательно
+
+**Покадровый план:** Последовательная механическая установка, не морф готового аппарата.
+
+**Зависимость:** B02_install
+
+**Референсы (порядок = &lt;IMAGE_n&gt;):**
+- IMAGE_0: `B-satellite-assembly-stand.png` — satellite on stand
+- IMAGE_1: `PROP-satellite-manipulator-02.png` — manipulator/satellite design language
+- IMAGE_2: `ATM-cleanroom-assembly-extra.png` — cleanroom atmosphere
+- IMAGE_3: `ID-engineer-blue-form-01.png` — engineer identity IF visible
+</pre>
+<p><strong>Промт модели</strong>, дословно <code>projects/raznoe/references/scenes/scene-3/expansion/prompts/B03_build.txt</code>:</p>
+<pre class="native-prompt">Photoreal live-action 16:9, about 6 seconds. Assembly progress.
+
+&lt;IMAGE_0&gt; satellite on stand.
+&lt;IMAGE_1&gt; manipulator/satellite design language.
+&lt;IMAGE_2&gt; cleanroom hangar atmosphere.
+&lt;IMAGE_3&gt; engineer identity if he appears.
+
+STORY: sequential mechanical installation of covers/panel work and manipulator alignment. Parts are handled and fastened — no time-lapse morph into a finished craft. Prefer no strangers; if extras appear keep them background-only. No logos/text.
+
+AVOID: crossfade; morph; slideshow; collage; letterbox.
+</pre>
+<p>Неисполненный локальный шаблон запроса: <code>projects/raznoe/references/scenes/scene-3/expansion/requests/B03_build.json</code>. Внутри JSON пути <code>/workspace/RESOURCE-expansion-2026-11-06/...</code> — пути исходного пакета, не адреса сайта и не выполненный запуск. Native-пускатель берёт промт из файла txt и картинки выше в порядке IMAGE_0… Фактический отправленный payload, если генерация случится, пишется отдельным логом. Этот JSON логом отправки не является.</p>
+<h4 id="scene-3-native-B04_check">B04_check · 5 с · Финальная проверка</h4>
+<p><strong>Готовность пакета:</strong> READY_TO_SEND — текст и референсы можно отдавать в native Grok. Это не приёмка, не «в фильме» и не квитанция запуска. Видео этого клипа в репозитории нет. <code>production_state</code> сцены остаётся DRAFT, <code>not_approved</code>.</p>
+<p><strong>Старт:</strong> Инженер у аппарата<br><strong>Финал:</strong> Общий вид готового спутника с панелями и манипулятором<br><strong>Зависимость монтажа:</strong> B03_build. Зависимость не означает first/last frame: картинки передаются только как reference-only.</p>
+
+<p><strong>Референсы, порядок IMAGE:</strong></p>
+<ul>
+<li>IMAGE_0 · ID-engineer-blue-form-01.png · engineer identity · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-blue-form-01.png</code> · sha256 <code>a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587</code> · not_approved</li><li>IMAGE_1 · B-satellite-assembly-stand.png · completed satellite look · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/B-satellite-assembly-stand.png</code> · sha256 <code>b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3</code> · not_approved</li><li>IMAGE_2 · PROP-satellite-manipulator-02.png · geometry language · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-manipulator-02.png</code> · sha256 <code>876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e</code> · not_approved</li>
+</ul>
+<p>Режим: references-only, 16:9, 5 с. Нет image_path, last_frame_path, keyframes и нет настройки resolution.</p>
+<p><strong>Русский план</strong> (не промт модели), файл <code>projects/raznoe/references/scenes/scene-3/expansion/descriptions/B04_check.ru.md</code>:</p>
+<pre class="native-plan"># B04_check — Финальная проверка
+
+**Длительность:** 5 с · **Решение:** READY_TO_SEND · **Группа запуска:** B_assembly
+
+**Старт:** Инженер у аппарата
+
+**Финал:** Общий вид готового спутника с панелями и манипулятором
+
+**Покадровый план:** Люк/защёлка → шаг назад → раскрытие общего вида.
+
+**Зависимость:** B03_build
+
+**Референсы (порядок = &lt;IMAGE_n&gt;):**
+- IMAGE_0: `ID-engineer-blue-form-01.png` — engineer identity
+- IMAGE_1: `B-satellite-assembly-stand.png` — completed satellite look
+- IMAGE_2: `PROP-satellite-manipulator-02.png` — geometry language
+</pre>
+<p><strong>Промт модели</strong>, дословно <code>projects/raznoe/references/scenes/scene-3/expansion/prompts/B04_check.txt</code>:</p>
+<pre class="native-prompt">Photoreal live-action 16:9, about 5 seconds.
+
+&lt;IMAGE_0&gt; engineer identity; &lt;IMAGE_1&gt; satellite; &lt;IMAGE_2&gt; geometry language.
+
+STORY: engineer closes a final hatch or checks a latch, steps back; camera reveals the completed satellite with solar panels and manipulator. Same craft family. No logos/text.
+
+AVOID: crossfade; morph; slideshow; letterbox.
+</pre>
+<p>Неисполненный локальный шаблон запроса: <code>projects/raznoe/references/scenes/scene-3/expansion/requests/B04_check.json</code>. Внутри JSON пути <code>/workspace/RESOURCE-expansion-2026-11-06/...</code> — пути исходного пакета, не адреса сайта и не выполненный запуск. Native-пускатель берёт промт из файла txt и картинки выше в порядке IMAGE_0… Фактический отправленный payload, если генерация случится, пишется отдельным логом. Этот JSON логом отправки не является.</p>
+<h4 id="scene-3-native-B05_pad">B05_pad · 5 с · Ночной космодром</h4>
+<p><strong>Готовность пакета:</strong> READY_TO_SEND — текст и референсы можно отдавать в native Grok. Это не приёмка, не «в фильме» и не квитанция запуска. Видео этого клипа в репозитории нет. <code>production_state</code> сцены остаётся DRAFT, <code>not_approved</code>.</p>
+<p><strong>Старт:</strong> Ночь, ракета на старте<br><strong>Финал:</strong> Камера подчёркивает масштаб ракеты<br><strong>Зависимость монтажа:</strong> нет, клип самостоятельный. Зависимость не означает first/last frame: картинки передаются только как reference-only.</p>
+<p><strong>Первая волна.</strong> Текст промта и порядок референсов этого клипа не менялись. Файл попытки в папке Саши: B05_pad-v1. Ассистентский просмотр: кандидат, существенных дефектов нет. Не принято. Готовность входа READY_TO_SEND этим просмотром не отменяется и в approved не превращается.</p>
+<p><strong>Референсы, порядок IMAGE:</strong></p>
+<ul>
+<li>IMAGE_0 · ATM-night-pad-16x9.png · night pad/rocket atmosphere — dedicated still, not a collage · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/ATM-night-pad-16x9.png</code> · sha256 <code>5c31341ea8f9a8e6daac1bdfa57c905e63eeb6982342e81c3fe8c07f95365475</code> · not_approved</li>
+</ul>
+<p>Режим: references-only, 16:9, 5 с. Нет image_path, last_frame_path, keyframes и нет настройки resolution.</p>
+<p><strong>Русский план</strong> (не промт модели), файл <code>projects/raznoe/references/scenes/scene-3/expansion/descriptions/B05_pad.ru.md</code>:</p>
+<pre class="native-plan"># B05_pad — Ночной космодром
+
+**Длительность:** 5 с · **Решение:** READY_TO_SEND · **Группа запуска:** B_pad
+
+**Старт:** Ночь, ракета на старте
+
+**Финал:** Камера подчёркивает масштаб ракеты
+
+**Покадровый план:** Без людей у ракеты. Коллаж 03 не использовать.
+
+**Зависимость:** нет (можно параллельно по смыслу)
+
+**Референсы (порядок = &lt;IMAGE_n&gt;):**
+- IMAGE_0: `ATM-night-pad-16x9.png` — night pad/rocket atmosphere — dedicated still, not a collage
+</pre>
+<p><strong>Промт модели</strong>, дословно <code>projects/raznoe/references/scenes/scene-3/expansion/prompts/B05_pad.txt</code>:</p>
+<pre class="native-prompt">Photoreal live-action 16:9, about 5 seconds. Night cosmodrome.
+
+&lt;IMAGE_0&gt; night launch pad with tall rocket and service tower — atmosphere guide, not a locked still to copy as a slideshow.
+
+STORY: camera rises along the stack; vapor/floodlights OK. NO people near the rocket. No invented logos/flags/text.
+
+AVOID: collage panels/borders; crossfade; morph; letterbox.
+</pre>
+<p>Неисполненный локальный шаблон запроса: <code>projects/raznoe/references/scenes/scene-3/expansion/requests/B05_pad.json</code>. Внутри JSON пути <code>/workspace/RESOURCE-expansion-2026-11-06/...</code> — пути исходного пакета, не адреса сайта и не выполненный запуск. Native-пускатель берёт промт из файла txt и картинки выше в порядке IMAGE_0… Фактический отправленный payload, если генерация случится, пишется отдельным логом. Этот JSON логом отправки не является.</p>
+<h4 id="scene-3-native-B06_liftoff">B06_liftoff · 5 с · Взлёт</h4>
+<p><strong>Готовность пакета:</strong> READY_TO_SEND — текст и референсы можно отдавать в native Grok. Это не приёмка, не «в фильме» и не квитанция запуска. Видео этого клипа в репозитории нет. <code>production_state</code> сцены остаётся DRAFT, <code>not_approved</code>.</p>
+<p><strong>Старт:</strong> Зажигание двигателей<br><strong>Финал:</strong> Ракета уходит вверх<br><strong>Зависимость монтажа:</strong> B05_pad. Зависимость не означает first/last frame: картинки передаются только как reference-only.</p>
+
+<p><strong>Референсы, порядок IMAGE:</strong></p>
+<ul>
+<li>IMAGE_0 · ATM-night-liftoff-16x9.png · night liftoff plume/ascent atmosphere · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/ATM-night-liftoff-16x9.png</code> · sha256 <code>1679b2abd60e225561cf54daeaeac6a6ad1d35f0cf6f218374a04efe8c86ab97</code> · not_approved</li>
+</ul>
+<p>Режим: references-only, 16:9, 5 с. Нет image_path, last_frame_path, keyframes и нет настройки resolution.</p>
+<p><strong>Русский план</strong> (не промт модели), файл <code>projects/raznoe/references/scenes/scene-3/expansion/descriptions/B06_liftoff.ru.md</code>:</p>
+<pre class="native-plan"># B06_liftoff — Взлёт
+
+**Длительность:** 5 с · **Решение:** READY_TO_SEND · **Группа запуска:** B_pad
+
+**Старт:** Зажигание двигателей
+
+**Финал:** Ракета уходит вверх
+
+**Покадровый план:** Старт без людей и логотипов.
+
+**Зависимость:** B05_pad
+
+**Референсы (порядок = &lt;IMAGE_n&gt;):**
+- IMAGE_0: `ATM-night-liftoff-16x9.png` — night liftoff plume/ascent atmosphere
+</pre>
+<p><strong>Промт модели</strong>, дословно <code>projects/raznoe/references/scenes/scene-3/expansion/prompts/B06_liftoff.txt</code>:</p>
+<pre class="native-prompt">Photoreal live-action 16:9, about 5 seconds. Night liftoff.
+
+&lt;IMAGE_0&gt; night liftoff with plume — atmosphere guide.
+
+STORY: engines ignite, plume forms, rocket lifts smoothly. No people. No logos/text. Physically plausible ascent.
+
+AVOID: collage; crossfade; morph; letterbox; teleport jumps.
+</pre>
+<p>Неисполненный локальный шаблон запроса: <code>projects/raznoe/references/scenes/scene-3/expansion/requests/B06_liftoff.json</code>. Внутри JSON пути <code>/workspace/RESOURCE-expansion-2026-11-06/...</code> — пути исходного пакета, не адреса сайта и не выполненный запуск. Native-пускатель берёт промт из файла txt и картинки выше в порядке IMAGE_0… Фактический отправленный payload, если генерация случится, пишется отдельным логом. Этот JSON логом отправки не является.</p>
+<h4 id="scene-3-native-C01_orbit">C01_orbit · 5 с · Спутник на орбите</h4>
+<p><strong>Готовность пакета:</strong> READY_TO_SEND — текст и референсы можно отдавать в native Grok. Это не приёмка, не «в фильме» и не квитанция запуска. Видео этого клипа в репозитории нет. <code>production_state</code> сцены остаётся DRAFT, <code>not_approved</code>.</p>
+<p><strong>Старт:</strong> Аппарат на орбите Земли<br><strong>Финал:</strong> Солнечные панели раскрыты/зафиксированы<br><strong>Зависимость монтажа:</strong> B06_liftoff. Зависимость не означает first/last frame: картинки передаются только как reference-only.</p>
+<p><strong>Первая волна.</strong> Текст промта и порядок референсов этого клипа не менялись. Файл попытки в папке Саши: C01_orbit-v1. Ассистентский просмотр: отклонить, растущие панели и крепление манипулятора. Не принято. Готовность входа READY_TO_SEND этим просмотром не отменяется и в approved не превращается.</p>
+<p><strong>Референсы, порядок IMAGE:</strong></p>
+<ul>
+<li>IMAGE_0 · PROP-satellite-manipulator-02.png · satellite/manipulator geometry · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-manipulator-02.png</code> · sha256 <code>876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e</code> · not_approved</li><li>IMAGE_1 · B-satellite-assembly-stand.png · body continuity from assembly · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/B-satellite-assembly-stand.png</code> · sha256 <code>b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3</code> · not_approved</li>
+</ul>
+<p>Режим: references-only, 16:9, 5 с. Нет image_path, last_frame_path, keyframes и нет настройки resolution.</p>
+<p><strong>Русский план</strong> (не промт модели), файл <code>projects/raznoe/references/scenes/scene-3/expansion/descriptions/C01_orbit.ru.md</code>:</p>
+<pre class="native-plan"># C01_orbit — Спутник на орбите
+
+**Длительность:** 5 с · **Решение:** READY_TO_SEND · **Группа запуска:** C_orbit
+
+**Старт:** Аппарат на орбите Земли
+
+**Финал:** Солнечные панели раскрыты/зафиксированы
+
+**Покадровый план:** Тот же fictional аппарат. Не МКС.
+
+**Зависимость:** B06_liftoff
+
+**Референсы (порядок = &lt;IMAGE_n&gt;):**
+- IMAGE_0: `PROP-satellite-manipulator-02.png` — satellite/manipulator geometry
+- IMAGE_1: `B-satellite-assembly-stand.png` — body continuity from assembly
+</pre>
+<p><strong>Промт модели</strong>, дословно <code>projects/raznoe/references/scenes/scene-3/expansion/prompts/C01_orbit.txt</code>:</p>
+<pre class="native-prompt">Photoreal live-action 16:9, about 5 seconds. Orbit.
+
+&lt;IMAGE_0&gt; satellite/manipulator geometry; &lt;IMAGE_1&gt; body continuity from assembly.
+
+STORY: same fictional satellite above Earth; solar panels deploy/lock; slow flyaround. Vacuum — no aero motion. Not the ISS. No logos/text.
+
+AVOID: crossfade; morph; slideshow; letterbox.
+</pre>
+<p>Неисполненный локальный шаблон запроса: <code>projects/raznoe/references/scenes/scene-3/expansion/requests/C01_orbit.json</code>. Внутри JSON пути <code>/workspace/RESOURCE-expansion-2026-11-06/...</code> — пути исходного пакета, не адреса сайта и не выполненный запуск. Native-пускатель берёт промт из файла txt и картинки выше в порядке IMAGE_0… Фактический отправленный payload, если генерация случится, пишется отдельным логом. Этот JSON логом отправки не является.</p>
+<h4 id="scene-3-native-C02_debris">C02_debris · 5 с · Обнаружение мусора</h4>
+<p><strong>Готовность пакета:</strong> READY_TO_SEND — текст и референсы можно отдавать в native Grok. Это не приёмка, не «в фильме» и не квитанция запуска. Видео этого клипа в репозитории нет. <code>production_state</code> сцены остаётся DRAFT, <code>not_approved</code>.</p>
+<p><strong>Старт:</strong> Облако обломков в кадре<br><strong>Финал:</strong> Манипулятор начинает выдвигаться к фрагменту<br><strong>Зависимость монтажа:</strong> C01_orbit. Зависимость не означает first/last frame: картинки передаются только как reference-only.</p>
+
+<p><strong>Референсы, порядок IMAGE:</strong></p>
+<ul>
+<li>IMAGE_0 · PROP-satellite-manipulator-02.png · satellite and manipulator geometry · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-manipulator-02.png</code> · sha256 <code>876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e</code> · not_approved</li>
+</ul>
+<p>Режим: references-only, 16:9, 5 с. Нет image_path, last_frame_path, keyframes и нет настройки resolution.</p>
+<p><strong>Русский план</strong> (не промт модели), файл <code>projects/raznoe/references/scenes/scene-3/expansion/descriptions/C02_debris.ru.md</code>:</p>
+<pre class="native-plan"># C02_debris — Обнаружение мусора
+
+**Длительность:** 5 с · **Решение:** READY_TO_SEND · **Группа запуска:** C_orbit
+
+**Старт:** Облако обломков в кадре
+
+**Финал:** Манипулятор начинает выдвигаться к фрагменту
+
+**Покадровый план:** Металлические обломки, не астероиды/огонь.
+
+**Зависимость:** C01_orbit
+
+**Референсы (порядок = &lt;IMAGE_n&gt;):**
+- IMAGE_0: `PROP-satellite-manipulator-02.png` — satellite and manipulator geometry
+</pre>
+<p><strong>Промт модели</strong>, дословно <code>projects/raznoe/references/scenes/scene-3/expansion/prompts/C02_debris.txt</code>:</p>
+<pre class="native-prompt">Photoreal live-action 16:9, about 5 seconds.
+
+&lt;IMAGE_0&gt; satellite and manipulator geometry.
+
+STORY: same satellite detects metallic debris fragments (not asteroids/fireballs). Slight reorientation; manipulator begins extending toward a suitable scrap. Microgravity. No logos.
+
+AVOID: crossfade; morph; letterbox; explosions.
+</pre>
+<p>Неисполненный локальный шаблон запроса: <code>projects/raznoe/references/scenes/scene-3/expansion/requests/C02_debris.json</code>. Внутри JSON пути <code>/workspace/RESOURCE-expansion-2026-11-06/...</code> — пути исходного пакета, не адреса сайта и не выполненный запуск. Native-пускатель берёт промт из файла txt и картинки выше в порядке IMAGE_0… Фактический отправленный payload, если генерация случится, пишется отдельным логом. Этот JSON логом отправки не является.</p>
+<h4 id="scene-3-native-C03_capture">C03_capture · 6 с · Захват обломка</h4>
+<p><strong>Готовность пакета:</strong> READY_TO_SEND — текст и референсы можно отдавать в native Grok. Это не приёмка, не «в фильме» и не квитанция запуска. Видео этого клипа в репозитории нет. <code>production_state</code> сцены остаётся DRAFT, <code>not_approved</code>.</p>
+<p><strong>Старт:</strong> Полимерный захват раскрыт у обломка<br><strong>Финал:</strong> Обломок мягко зафиксирован тем же захватом<br><strong>Зависимость монтажа:</strong> C02_debris. Зависимость не означает first/last frame: картинки передаются только как reference-only.</p>
+
+<p><strong>Референсы, порядок IMAGE:</strong></p>
+<ul>
+<li>IMAGE_0 · PROP-satellite-manipulator-02.png · manipulator/satellite continuity · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-manipulator-02.png</code> · sha256 <code>876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e</code> · not_approved</li><li>IMAGE_1 · A-polymer-gripper-product.png · end-effector design authority · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/A-polymer-gripper-product.png</code> · sha256 <code>aeb0526b4bd804851df6f1177b04b587f7cf1ecef5d5040b672559cc7659f6f0</code> · not_approved</li><li>IMAGE_2 · PROP-gripper-capture-scrap.png · soft capture language: polymer lattice gripper holding metallic scrap — guide, not exact frame · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-gripper-capture-scrap.png</code> · sha256 <code>c399dbfb6a9e3e4955d337933cdbae9cf3bb3e00e17873c8496564910b7be8b9</code> · not_approved</li>
+</ul>
+<p>Режим: references-only, 16:9, 6 с. Нет image_path, last_frame_path, keyframes и нет настройки resolution.</p>
+<p><strong>Русский план</strong> (не промт модели), файл <code>projects/raznoe/references/scenes/scene-3/expansion/descriptions/C03_capture.ru.md</code>:</p>
+<pre class="native-plan"># C03_capture — Захват обломка
+
+**Длительность:** 6 с · **Решение:** READY_TO_SEND · **Группа запуска:** C_orbit
+
+**Старт:** Полимерный захват раскрыт у обломка
+
+**Финал:** Обломок мягко зафиксирован тем же захватом
+
+**Покадровый план:** Раскрытие → сближение → мягкая фиксация. Тот же полимерный захват, не смена на клешню.
+
+**Зависимость:** C02_debris
+
+**Референсы (порядок = &lt;IMAGE_n&gt;):**
+- IMAGE_0: `PROP-satellite-manipulator-02.png` — manipulator/satellite continuity
+- IMAGE_1: `A-polymer-gripper-product.png` — end-effector design authority
+- IMAGE_2: `PROP-gripper-capture-scrap.png` — soft capture language: polymer lattice gripper holding metallic scrap — guide, not exact frame
+</pre>
+<p><strong>Промт модели</strong>, дословно <code>projects/raznoe/references/scenes/scene-3/expansion/prompts/C03_capture.txt</code>:</p>
+<pre class="native-prompt">Photoreal live-action 16:9, about 6 seconds. Close capture.
+
+&lt;IMAGE_0&gt; manipulator/satellite continuity.
+&lt;IMAGE_1&gt; polymer open-frame gripper design authority.
+&lt;IMAGE_2&gt; polymer lattice gripper securing a metallic scrap — action language, not an exact frame copy. Keep gripper attached as end effector of the white arm when possible.
+
+STORY: gripper opens, approaches a metallic scrap, gently secures it without a slam. Microgravity inertia. Keep the SAME polymer open-frame gripper — do not swap to a different claw. No logos.
+
+AVOID: crossfade; morph; letterbox; impact sparks as primary effect.
+</pre>
+<p>Неисполненный локальный шаблон запроса: <code>projects/raznoe/references/scenes/scene-3/expansion/requests/C03_capture.json</code>. Внутри JSON пути <code>/workspace/RESOURCE-expansion-2026-11-06/...</code> — пути исходного пакета, не адреса сайта и не выполненный запуск. Native-пускатель берёт промт из файла txt и картинки выше в порядке IMAGE_0… Фактический отправленный payload, если генерация случится, пишется отдельным логом. Этот JSON логом отправки не является.</p>
+<h4 id="scene-3-native-C04_recycle">C04_recycle · 6 с · Орбитальный пресс → блок</h4>
+<p><strong>Готовность пакета:</strong> READY_TO_SEND — текст и референсы можно отдавать в native Grok. Это не приёмка, не «в фильме» и не квитанция запуска. Видео этого клипа в репозитории нет. <code>production_state</code> сцены остаётся DRAFT, <code>not_approved</code>.</p>
+<p><strong>Старт:</strong> Металлический фрагмент в компактном перерабатывающем модуле<br><strong>Финал:</strong> Сформирован аккуратный прямоугольный строительный блок (вставка в каркас — НЕ в этом клипе)<br><strong>Зависимость монтажа:</strong> C03_capture. Зависимость не означает first/last frame: картинки передаются только как reference-only.</p>
+
+<p><strong>Референсы, порядок IMAGE:</strong></p>
+<ul>
+<li>IMAGE_0 · PROP-orbital-press-block.png · PRIMARY press forming rectangular metal block in microgravity fiction · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-orbital-press-block.png</code> · sha256 <code>dc7d5670090653057e8af5c5632e7406a482919ddab5a42b899bfab3f98c7160</code> · not_approved</li><li>IMAGE_1 · PROP-satellite-manipulator-02.png · craft continuity optional · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-manipulator-02.png</code> · sha256 <code>876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e</code> · not_approved</li>
+</ul>
+<p>Режим: references-only, 16:9, 6 с. Нет image_path, last_frame_path, keyframes и нет настройки resolution.</p>
+<p><strong>Русский план</strong> (не промт модели), файл <code>projects/raznoe/references/scenes/scene-3/expansion/descriptions/C04_recycle.ru.md</code>:</p>
+<pre class="native-plan"># C04_recycle — Орбитальный пресс → блок
+
+**Длительность:** 6 с · **Решение:** READY_TO_SEND · **Группа запуска:** C_orbit
+
+**Старт:** Металлический фрагмент в компактном перерабатывающем модуле
+
+**Финал:** Сформирован аккуратный прямоугольный строительный блок (вставка в каркас — НЕ в этом клипе)
+
+**Покадровый план:** Только пресс→блок. Fiction из папки. Не МКС. Размещение блока — C05/монтаж.
+
+**Зависимость:** C03_capture
+
+**Референсы (порядок = &lt;IMAGE_n&gt;):**
+- IMAGE_0: `PROP-orbital-press-block.png` — PRIMARY press forming rectangular metal block in microgravity fiction
+- IMAGE_1: `PROP-satellite-manipulator-02.png` — craft continuity optional
+</pre>
+<p><strong>Промт модели</strong>, дословно <code>projects/raznoe/references/scenes/scene-3/expansion/prompts/C04_recycle.txt</code>:</p>
+<pre class="native-prompt">Photoreal live-action 16:9, about 6 seconds. Staged orbital recycling fiction — ONE process.
+
+PRIMARY &lt;IMAGE_0&gt;: compact orbital press compressing scrap into a neat rectangular metal building block; Earth in porthole OK.
+&lt;IMAGE_1&gt;: craft continuity if needed.
+
+STORY: captured metal scrap is pressed into one rectangular building block. Show sequential mechanical pressing. END on the formed block.
+Do NOT also assemble the full station in this clip. Not the ISS. Cinematic speculation — not a claim of real on-orbit industrial certification. No logos/text.
+
+AVOID: instant finished station; crossfade; morph; letterbox; ISS modules.
+</pre>
+<p>Неисполненный локальный шаблон запроса: <code>projects/raznoe/references/scenes/scene-3/expansion/requests/C04_recycle.json</code>. Внутри JSON пути <code>/workspace/RESOURCE-expansion-2026-11-06/...</code> — пути исходного пакета, не адреса сайта и не выполненный запуск. Native-пускатель берёт промт из файла txt и картинки выше в порядке IMAGE_0… Фактический отправленный payload, если генерация случится, пишется отдельным логом. Этот JSON логом отправки не является.</p>
+<h4 id="scene-3-native-C05_station">C05_station · 5 с · Постановочная орбитальная станция</h4>
+<p><strong>Готовность пакета:</strong> READY_TO_SEND — текст и референсы можно отдавать в native Grok. Это не приёмка, не «в фильме» и не квитанция запуска. Видео этого клипа в репозитории нет. <code>production_state</code> сцены остаётся DRAFT, <code>not_approved</code>.</p>
+<p><strong>Старт:</strong> Широкий план оригинальной решётчатой/модульной станции<br><strong>Финал:</strong> Камера отъезжает, видна Земля<br><strong>Зависимость монтажа:</strong> C04_recycle. Зависимость не означает first/last frame: картинки передаются только как reference-only.</p>
+
+<p><strong>Референсы, порядок IMAGE:</strong></p>
+<ul>
+<li>IMAGE_0 · C-original-lattice-station.png · ORIGINAL fictional station — NOT ISS · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/C-original-lattice-station.png</code> · sha256 <code>608aacc17bd40c768374ea21f3f0827c88b8a0131f44bcc373b47f14cc2b1e6e</code> · not_approved</li>
+</ul>
+<p>Режим: references-only, 16:9, 5 с. Нет image_path, last_frame_path, keyframes и нет настройки resolution.</p>
+<p><strong>Русский план</strong> (не промт модели), файл <code>projects/raznoe/references/scenes/scene-3/expansion/descriptions/C05_station.ru.md</code>:</p>
+<pre class="native-plan"># C05_station — Постановочная орбитальная станция
+
+**Длительность:** 5 с · **Решение:** READY_TO_SEND · **Группа запуска:** C_orbit
+
+**Старт:** Широкий план оригинальной решётчатой/модульной станции
+
+**Финал:** Камера отъезжает, видна Земля
+
+**Покадровый план:** Оригинальная конструкция проекта. Fiction. Не выдавать за МКС.
+
+**Зависимость:** C04_recycle
+
+**Референсы (порядок = &lt;IMAGE_n&gt;):**
+- IMAGE_0: `C-original-lattice-station.png` — ORIGINAL fictional station — NOT ISS
+</pre>
+<p><strong>Промт модели</strong>, дословно <code>projects/raznoe/references/scenes/scene-3/expansion/prompts/C05_station.txt</code>:</p>
+<pre class="native-prompt">Photoreal live-action 16:9, about 5 seconds.
+
+&lt;IMAGE_0&gt; original fictional orbital station construction — NOT the ISS.
+
+STORY: wide shot of the growing original station with solar panels over Earth; slow pullback. No logos/text. Do not copy ISS configuration.
+
+AVOID: crossfade; morph; letterbox; ISS likeness.
+</pre>
+<p>Неисполненный локальный шаблон запроса: <code>projects/raznoe/references/scenes/scene-3/expansion/requests/C05_station.json</code>. Внутри JSON пути <code>/workspace/RESOURCE-expansion-2026-11-06/...</code> — пути исходного пакета, не адреса сайта и не выполненный запуск. Native-пускатель берёт промт из файла txt и картинки выше в порядке IMAGE_0… Фактический отправленный payload, если генерация случится, пишется отдельным логом. Этот JSON логом отправки не является.</p>
+<h4 id="scene-3-native-C06_cycle">C06_cycle · 6 с · Замыкание цикла на Земле</h4>
+<p><strong>Готовность пакета:</strong> READY_TO_SEND — текст и референсы можно отдавать в native Grok. Это не приёмка, не «в фильме» и не квитанция запуска. Видео этого клипа в репозитории нет. <code>production_state</code> сцены остаётся DRAFT, <code>not_approved</code>.</p>
+<p><strong>Старт:</strong> ЦУП; на мониторе станция; бутылка на столе<br><strong>Финал:</strong> Инженер опускает пустую бутылку в синий контейнер<br><strong>Зависимость монтажа:</strong> нет, клип самостоятельный. Зависимость не означает first/last frame: картинки передаются только как reference-only.</p>
+<p><strong>Первая волна.</strong> Текст промта и порядок референсов этого клипа не менялись. Файл попытки в папке Саши: C06_cycle-v1. Ассистентский просмотр: отклонить, повторный бросок, морф PET и псевдотекст на форме. Не принято. Готовность входа READY_TO_SEND этим просмотром не отменяется и в approved не превращается.</p>
+<p><strong>Референсы, порядок IMAGE:</strong></p>
+<ul>
+<li>IMAGE_0 · ID-engineer-blue-form-01.png · blue-form identity; blank patch over fake lettering · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-blue-form-01.png</code> · sha256 <code>a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587</code> · not_approved</li><li>IMAGE_1 · PROP-blue-bin-45731.png · blue recycling container · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-blue-bin-45731.png</code> · sha256 <code>d85063e72eefb7a75e7a1309397ec1596f2dfb803db307231f92f9b00bd196c3</code> · not_approved</li><li>IMAGE_2 · C-original-lattice-station.png · monitor picture of station — image content only, no on-screen captions · <code>projects/raznoe/references/scenes/scene-3/expansion/assets/C-original-lattice-station.png</code> · sha256 <code>608aacc17bd40c768374ea21f3f0827c88b8a0131f44bcc373b47f14cc2b1e6e</code> · not_approved</li>
+</ul>
+<p>Режим: references-only, 16:9, 6 с. Нет image_path, last_frame_path, keyframes и нет настройки resolution.</p>
+<p><strong>Русский план</strong> (не промт модели), файл <code>projects/raznoe/references/scenes/scene-3/expansion/descriptions/C06_cycle.ru.md</code>:</p>
+<pre class="native-plan"># C06_cycle — Замыкание цикла на Земле
+
+**Длительность:** 6 с · **Решение:** READY_TO_SEND · **Группа запуска:** C_close
+
+**Старт:** ЦУП; на мониторе станция; бутылка на столе
+
+**Финал:** Инженер опускает пустую бутылку в синий контейнер
+
+**Покадровый план:** Бутылка в синий бак. VO/слоган только монтажом. Логотип — оверлей на монтаже.
+
+**Зависимость:** нет (можно параллельно по смыслу)
+
+**Референсы (порядок = &lt;IMAGE_n&gt;):**
+- IMAGE_0: `ID-engineer-blue-form-01.png` — blue-form identity; blank patch over fake lettering
+- IMAGE_1: `PROP-blue-bin-45731.png` — blue recycling container
+- IMAGE_2: `C-original-lattice-station.png` — monitor picture of station — image content only, no on-screen captions
+</pre>
+<p><strong>Промт модели</strong>, дословно <code>projects/raznoe/references/scenes/scene-3/expansion/prompts/C06_cycle.txt</code>:</p>
+<pre class="native-prompt">Photoreal live-action 16:9, about 6 seconds. Mission control closing beat.
+
+&lt;IMAGE_0&gt; blue-form engineer identity (no multi-panel). Prefer blank chest patch over fake lettering.
+&lt;IMAGE_1&gt; blue recycling container prop.
+&lt;IMAGE_2&gt; orbital station look for a large monitor image (picture only — no generated captions).
+
+STORY: engineer watches a monitor showing the orbital station; calmly takes an empty clear PET bottle and places it into the blue recycling container. End on the completed deposit.
+Do NOT generate slogan text or titles in-frame. Final phrase is edit-only: «Твой отсортированный мусор уже в пути. Очищаем планету. Очищаем орбиту».
+
+AVOID: crossfade; morph; slideshow; on-screen text; fake logos; letterbox.
+</pre>
+<p>Неисполненный локальный шаблон запроса: <code>projects/raznoe/references/scenes/scene-3/expansion/requests/C06_cycle.json</code>. Внутри JSON пути <code>/workspace/RESOURCE-expansion-2026-11-06/...</code> — пути исходного пакета, не адреса сайта и не выполненный запуск. Native-пускатель берёт промт из файла txt и картинки выше в порядке IMAGE_0… Фактический отправленный payload, если генерация случится, пишется отдельным логом. Этот JSON логом отправки не является.</p>
+
+
+<a id="scene-4"></a>
 ## Сцена 4 — HONOR
 
 <!-- scene-meta: {"target_engine":"уточнить","production_state":"DRAFT","duration_s":120,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["owner_requested","draft","pitch","landscape_16x9","mood_refs_only","not_approved","raznoe_scene_4","three_films_120s"]} -->
