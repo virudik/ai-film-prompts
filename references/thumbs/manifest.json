@@ -1573,6 +1573,16 @@
    "thumb_bytes": 29038,
    "src_sha256": "fb5d9dd0062c558fe1783342379e2af1de373c2d1cd2a1f71ae4247fe3970db4"
   },
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-press-scrap-loaded.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-press-scrap-loaded.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2179486,
+   "thumb_bytes": 38548,
+   "src_sha256": "6cf41a9dd1c90b323eacb4a7df22ef5463cfac0de70476c263f259852f8062d4"
+  },
   "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-print-extrusion-bead.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-print-extrusion-bead.png.webp",
    "width": 640,
