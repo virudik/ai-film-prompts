@@ -13,8 +13,8 @@
   "lease_commit": "312bdbc8a230f721a6679afdf4a2654a77a63338",
   "started_at": "2026-11-06T00:56:09.710059Z",
   "receipt_started_at": "2026-11-06T01:05:05.654Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
     "source": "Topview read-only connector / all boards and pages",
@@ -34,7 +34,18 @@
       "de8e44bb15d64dc7a4eb640d27a726e4",
       "431180d384cc43bebe7afc702e4eb4e6",
       "22dbd25cdd9f47cd9e44300e55f5e44f"
-    ]
+    ],
+    "active_parameters_verified": {
+      "all_six_on_target_board": true,
+      "read_method": "six independent read-only Topview get_board_task, plus current first-page status refresh",
+      "useUnlimitMode": true,
+      "credits_cost": 0,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "verified_at": "2026-11-06T01:05:36.632Z"
+    },
+    "first_scan_completed_at": "2026-11-06T01:00:10.145Z",
+    "final_refresh_at": "2026-11-06T01:05:36.632Z"
   },
   "slots": {
     "capacity": 6,
@@ -62,7 +73,9 @@
       "blocked_inputs": 21
     },
     "all_submitted_found": true,
-    "checked_owner_tasks_open": 0
+    "checked_owner_tasks_open": 0,
+    "source": "14 independent read-only task detail checks; exact UTF-8 SHA-256 of canonical queue and map against readiness",
+    "sha_method": "JS SHA256 verified against abc test vector"
   },
   "browser_transport": "not_used_no_free_slot",
   "tinyfish_run_ids": [],
@@ -85,5 +98,27 @@
     "task_id_of_new_submission_verified": false,
     "production_tinyfish_submission_verified": false
   },
-  "finished_at": null
+  "finished_at": "2026-11-06T01:06:30.794Z",
+  "automation_checks": {
+    "self": {
+      "id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
+      "is_enabled": true,
+      "runtime_last_run_id": "6ab3825f-49f8-8324-bce9-be1d03257b09",
+      "latest_result_run_id": "9f333067-53e4-832d-aeff-d6095c8b6edb"
+    },
+    "relay": {
+      "id": "6adc585e7ac08191bb93825117dc7213",
+      "is_enabled": true,
+      "last_run_id": "d62b3913-0a54-8321-a22c-efc668fb40ae"
+    },
+    "hh55": {
+      "id": "6acae6ab433481919e88665c520b8ef2",
+      "is_enabled": false,
+      "last_run_id": "0696a58c-bd14-8333-960c-4a7757864e1c"
+    },
+    "preferred_executor": "work",
+    "work_recovery_evidence": "no new runtime GUI/quota verification in this cycle"
+  },
+  "github_issue_context": "https://github.com/virudik/ai-film-prompts/issues/356 (stale wake, not current capacity)",
+  "automation_monitor_status": "Robot timestamp 2026-11-06T00:20:28Z; current direct Topview connector scan supersedes it"
 }
