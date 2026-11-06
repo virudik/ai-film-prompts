@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:raznoe-v3-captions-20261107",
   "task": "Correct stale v2 captions and historical readiness wording for RESOURCE in active v3 scene",
   "acquired_at": "2026-11-06T21:16:47.657Z",
-  "expires_at": "2026-11-06T21:28:47.657Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-06T21:19:18.640Z",
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }
