@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:a9cf4963-0528-4cbd-ab7c-eef1005f968d",
-  "task": "Seregius ordinary hourly: read-only verified 6/6, cycle receipt; expired prior lease not owned",
-  "acquired_at": "2026-11-06T10:37:22.272Z",
-  "expires_at": null,
-  "released_at": "2026-11-06T10:40:27.181Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:93b925a8-dfda-4f3d-af9c-1f4f089295e1",
+  "task": "Seregius ordinary hourly: verified global 6/6, save receipt; no Create",
+  "acquired_at": "2026-11-06T11:07:10.417Z",
+  "expires_at": "2026-11-06T11:19:10.417Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
