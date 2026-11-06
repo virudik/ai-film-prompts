@@ -13,8 +13,8 @@
   "lease_commit": "4da4ecbea9422a66dc7a17f2f0c00d456590bb49",
   "started_at": "2026-11-06T06:02:50.278933Z",
   "receipt_started_at": "2026-11-06T06:11:06.210Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
     "method": "Direct read-only Topview connector full 14-board/18-page video scan",
@@ -33,13 +33,17 @@
       "be960f5e3bf54563aff663fed9da8906",
       "de8e44bb15d64dc7a4eb640d27a726e4",
       "431180d384cc43bebe7afc702e4eb4e6"
-    ]
+    ],
+    "scope": "14 Topview boards; 18 paginated mediaType=video task pages; all 630 videos; final newest-100 My First Board recheck",
+    "checked_at": "2026-11-06T06:15:37.792Z",
+    "all_active_verified_unlimited_zero_720p_16_9": true
   },
   "slots": {
     "capacity": 6,
     "occupied": 6,
     "free": 0,
-    "complete_scan_verified": true
+    "complete_scan_verified": true,
+    "observation_at": "2026-11-06T06:15:37.792Z"
   },
   "new_submissions": 0,
   "browser_transport": "not_used_no_free_slot",
@@ -48,8 +52,8 @@
   "tinyfish_estimated_cost_usd": 0,
   "tinyfish_confirmed_cost_usd": 0,
   "topview_credits_cost": 0,
-  "outcome": "in_progress",
-  "blocker": null,
+  "outcome": "no_free_slot_direct_full_scan",
+  "blocker": "stale_queue_readiness_after_S49A_submission",
   "retryable": true,
   "task_ids": [],
   "acceptance": {
@@ -58,11 +62,51 @@
     "tinyfish_file_transfer_verified": false,
     "tinyfish_unlimited_zero_verified": false,
     "tinyfish_production_submission_verified": false,
-    "new_task_id_verified": false
+    "new_task_id_verified": false,
+    "observed_other_executor_task_id_verified": true
   },
   "peer_reconciliation": {
     "ordinary_runtime_run_id": "a8a5dd54-98a8-8333-9944-d3860c918d65",
-    "relay_last_observed_run_id": null,
-    "work_hourly_last_observed_run_id": null
+    "relay_last_observed_run_id": "67887c3b-2c10-8322-80ab-99fe6d7b681d",
+    "work_hourly_last_observed_run_id": "0696a58c-bd14-8333-960c-4a7757864e1c",
+    "work_hourly_enabled_observed": false
+  },
+  "checked_at": "2026-11-06T06:15:37.792Z",
+  "completed_at": "2026-11-06T06:15:37.792Z",
+  "observed_other_executor_submission": {
+    "item_id": "S49A",
+    "task_id": "101221814fd5430697f697f95a3f4252",
+    "executor": "grok",
+    "status": "init",
+    "confirmed_board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "model": "Seedance 2.0",
+    "duration_seconds": 15,
+    "resolution": 720,
+    "aspect_ratio": "16:9",
+    "unlimited": true,
+    "topview_credits": 0
+  },
+  "queue_reconciliation": {
+    "queue_count": 63,
+    "submitted_count": 15,
+    "submitted_task_ids_verified": 15,
+    "open_claimed": 0,
+    "open_submitting": 0,
+    "open_submission_unknown": 0,
+    "next_candidate_item": "S49B",
+    "next_candidate_priority": 1.21,
+    "readiness_source_queue_sha256": "879add3bf2a6befef4158e970730ce9f0a5c4fafe613ce070ff61abb72f9a218",
+    "readiness_source_task_map_sha256": "ade6b25b4c49cb5547c7e56bccf8075b54ccd439290c300d3011b2f8681a0429",
+    "queue_updated_at": "2026-11-06T05:48:24Z",
+    "readiness_checked_at": "2026-11-06T05:40:25Z",
+    "readiness_fresh_for_current_queue": false,
+    "hashes_verified_in_this_run": false,
+    "hashes_not_verified_reason": "queue newer than saved readiness; cannot authorize Create from this derivative; no capacity"
+  },
+  "lease": {
+    "holder": "chatgpt:ordinary:6d0be4f8-c7fd-4fc5-875e-611998c9def9",
+    "acquired_at": "2026-11-06T06:10:00.284Z",
+    "released_at": "2026-11-06T06:15:37.792Z",
+    "release": "exact_own_lease_same_CAS_commit"
   }
 }
