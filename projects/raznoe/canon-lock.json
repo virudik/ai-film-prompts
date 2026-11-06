@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:c9f4cc5a-1d58-4176-bc69-1280de349909",
-  "task": "Сцена 4 HONOR: каждый вариант до 120 с монтажа, без очереди и без видео",
-  "acquired_at": "2026-11-06T05:00:17Z",
-  "expires_at": null,
-  "released_at": "2026-11-06T05:01:54Z",
+  "state": "held",
+  "holder": "chatgpt:work:52421d0d-989e-479c-9fea-2a3fc9ce8f71",
+  "task": "Разное: техническая согласованность RESOURCE и аудит HONOR без генераций",
+  "acquired_at": "2026-11-06T12:19:13.035Z",
+  "expires_at": "2026-11-06T13:04:13.035Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }
