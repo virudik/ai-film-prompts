@@ -3,16 +3,14 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-06T07:57:37+00:00",
-  "source_head": "eeaca1889b2ad5cecb1052189f26af5f29dfdbfa",
-  "source_fingerprint": "0ccabfeba3c7f435505dd26df777056c24adb1e9928680c8e00663b720d97d10",
-  "status": "needs_recovery",
-  "ready_for_resume": false,
+  "checked_at": "2026-11-06T08:04:08+00:00",
+  "source_head": "4ecd1b7ffc8290fe9cf277dba95b52ad1835cd1b",
+  "source_fingerprint": "0750a7336770c55d6e4f7f6f6fa84a7dd2ac70a673c48ff9104872bb92cf231c",
+  "status": "ready",
+  "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [
-    "project master/status mismatch: raznoe"
-  ],
+  "reasons": [],
   "selected_work": {
     "work_id": "MISC-S1-S2-REFERENCES",
     "title": "59 отдельных референсов сцен 1 и 2 из GPT-TASK.md",
@@ -232,7 +230,7 @@
     },
     {
       "file": "projects/raznoe/HANDOFF.md",
-      "sha256": "9446ca2bf706342ef2477760161841af827a1d9c34abd61a4c091483d171a6a4",
+      "sha256": "8c0ee897cafeb99c928f2fb1d4fe651080b4e927f49cceed8103bf7e9f82a953",
       "bytes": 11543
     },
     {
@@ -247,8 +245,8 @@
     },
     {
       "file": "projects/raznoe/project-status.json",
-      "sha256": "45c66a46861312cef0c20c679d8ef83e4bc5ffcc54a02e294f12a6baceb54b00",
-      "bytes": 452
+      "sha256": "6a54108cdbbefa1ced270aca116d29d9073ef58d40f056410b3e0f7a24d2283e",
+      "bytes": 9522
     },
     {
       "file": "projects/raznoe/references/darya.png",
@@ -282,8 +280,8 @@
     },
     {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
-      "sha256": "3e4d7a4b272ae98b510a3eac2b512c481228cff55c49118a250bdf1f4af810f0",
-      "bytes": 34514
+      "sha256": "84bff7e8ed1902af08cab4ad4cc66ecca0d48e392301413e838b24520ef1f8e2",
+      "bytes": 34294
     },
     {
       "file": "projects/raznoe/reports/handoff-receipts.json",
@@ -292,8 +290,8 @@
     },
     {
       "file": "projects/raznoe/video-prompts.md",
-      "sha256": "35b704edcfc6c033c2d329fe4429c4d313392e07fc5bc42224714b5ac1e25fe2",
-      "bytes": 591135
+      "sha256": "a642ad567403c617ebef3ce35a09ba79bb8242db8586faf1f6a0369bca8e43e4",
+      "bytes": 592246
     },
     {
       "file": "projects/raznoe/work-resume-register.json",
@@ -321,5 +319,5 @@
       "bytes": 1353205
     }
   ],
-  "packet_bytes": 5636
+  "packet_bytes": 5704
 }
