@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "roscosmos",
   "project_name": "Роскосмос",
-  "checked_at": "2026-11-06T10:54:27+00:00",
-  "source_head": "bca4c7d11e2df8b9a4115f0ae38ca0f65928c8e1",
-  "source_fingerprint": "b46c6c17c4a041728366b28a4d3ecd3c9078b4fad2fcb8d6cc44f3e9c41dd27a",
+  "checked_at": "2026-11-06T11:04:18+00:00",
+  "source_head": "984d98488dc5e60b0b53998ca1a787430ecdc3f1",
+  "source_fingerprint": "44b0b20b9ae539ba44d2be3e408601294920e021c4c4bc89ae7c7fb4136973e7",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -158,8 +158,8 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "eef7d1f67b6356dc5285bbca4a919a11a220f2c57dc2f754824344090c719dbc",
-      "bytes": 5137
+      "sha256": "bc3177a6ffa592af73fcea688ccda5f42edc8abb3ff5761a41f8a41d6fff67dc",
+      "bytes": 5134
     },
     {
       "file": "monitor-role.json",
@@ -173,8 +173,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "62bf28d112b1b0666c6b74aaa642aa5daddb2955b5509af8d8148b4c2455c7b9",
-      "bytes": 22487
+      "sha256": "5c5d9cca52750f6d6fcff54385abb2e70017fb87b4a5093ad7d0a9160ec53083",
+      "bytes": 22484
     },
     {
       "file": "projects/README.md",
@@ -203,8 +203,8 @@
     },
     {
       "file": "projects/roscosmos/project-status.json",
-      "sha256": "8a19f255bd274756360b001a8df1e2f5680079f4fc3fa7ab9c18cc08d045077a",
-      "bytes": 21827
+      "sha256": "20a9f44aacf25af263eb300f539841682fefd5bbb1c8139e8453daff437f05a6",
+      "bytes": 21824
     },
     {
       "file": "projects/roscosmos/reports/current-work-checkpoint.md",

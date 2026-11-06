@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-06T10:54:27+00:00",
-  "source_head": "bca4c7d11e2df8b9a4115f0ae38ca0f65928c8e1",
-  "source_fingerprint": "16c52f13e49e1cdd02692f676900481cf097749f5c671cf1ba53fe1eee16e60d",
+  "checked_at": "2026-11-06T11:04:18+00:00",
+  "source_head": "984d98488dc5e60b0b53998ca1a787430ecdc3f1",
+  "source_fingerprint": "45f1f587bd9062c9526107d298ef0575aa4dfcdfd7bfb1f5097783a4dc96b83a",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -200,8 +200,8 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "eef7d1f67b6356dc5285bbca4a919a11a220f2c57dc2f754824344090c719dbc",
-      "bytes": 5137
+      "sha256": "bc3177a6ffa592af73fcea688ccda5f42edc8abb3ff5761a41f8a41d6fff67dc",
+      "bytes": 5134
     },
     {
       "file": "monitor-role.json",
@@ -215,8 +215,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "62bf28d112b1b0666c6b74aaa642aa5daddb2955b5509af8d8148b4c2455c7b9",
-      "bytes": 22487
+      "sha256": "5c5d9cca52750f6d6fcff54385abb2e70017fb87b4a5093ad7d0a9160ec53083",
+      "bytes": 22484
     },
     {
       "file": "projects/README.md",
@@ -245,8 +245,8 @@
     },
     {
       "file": "projects/raznoe/project-status.json",
-      "sha256": "6a54108cdbbefa1ced270aca116d29d9073ef58d40f056410b3e0f7a24d2283e",
-      "bytes": 9522
+      "sha256": "8ae57e821a9b71502272f7c2dfb5e510ff495a654ab86ef1137556e94a9ec9fb",
+      "bytes": 9519
     },
     {
       "file": "projects/raznoe/references/darya.png",
