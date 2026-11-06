@@ -2,8 +2,8 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-11-06T18:22:57+00:00",
- "valid_at_generation": true,
+ "generated_at": "2026-11-06T22:28:44+00:00",
+ "valid_at_generation": false,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
  "sources": [
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "6df52e6dff1b52eb8fffcb13b7f9e8267460045835f4bf692482bc231bf2ce6d",
-   "bytes": 1353952
+   "sha256": "399e21f90fc993546f743cfe154130e7fa7403676ab0ed2054bba11f2aaca6c4",
+   "bytes": 1369523
   }
  ],
  "invariants": [
@@ -294,7 +294,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 42224,
+   "offset": 42658,
    "chars": 26337,
    "sha256_12": "53146e9d1886"
   },
@@ -316,7 +316,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 68561,
+   "offset": 68995,
    "chars": 28537,
    "sha256_12": "1cb49f8adfc7"
   },
@@ -337,7 +337,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 97098,
+   "offset": 97532,
    "chars": 178751,
    "sha256_12": "4e9c4089194a"
   },
@@ -355,7 +355,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 275849,
+   "offset": 276283,
    "chars": 16356,
    "sha256_12": "9ed4ad5f905c"
   },
@@ -377,7 +377,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 292205,
+   "offset": 292639,
    "chars": 23987,
    "sha256_12": "ee119b556282"
   },
@@ -399,7 +399,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 316192,
+   "offset": 316626,
    "chars": 32497,
    "sha256_12": "809d46f72e41"
   },
@@ -423,7 +423,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 348689,
+   "offset": 349123,
    "chars": 28767,
    "sha256_12": "c95650c748d9"
   },
@@ -447,7 +447,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 377456,
+   "offset": 377890,
    "chars": 43110,
    "sha256_12": "41ef13e7084a"
   },
@@ -474,7 +474,7 @@
     "@Image8",
     "@Image9"
    ],
-   "offset": 420566,
+   "offset": 421000,
    "chars": 98908,
    "sha256_12": "609adda9ed58"
   },
@@ -497,7 +497,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 519474,
+   "offset": 519908,
    "chars": 25674,
    "sha256_12": "dfe4a2e45e04"
   },
@@ -524,7 +524,7 @@
     "@Image6",
     "@Image7"
    ],
-   "offset": 545148,
+   "offset": 545582,
    "chars": 107166,
    "sha256_12": "7cd601059591"
   },
@@ -546,7 +546,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 652314,
+   "offset": 652748,
    "chars": 87055,
    "sha256_12": "5a14842cf82c"
   },
@@ -569,7 +569,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 739369,
+   "offset": 739803,
    "chars": 26585,
    "sha256_12": "73dc1bb6e064"
   },
@@ -591,7 +591,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 765954,
+   "offset": 766388,
    "chars": 26096,
    "sha256_12": "c12ca1c3d38d"
   },
@@ -617,7 +617,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 792050,
+   "offset": 792484,
    "chars": 27707,
    "sha256_12": "9b7b68faabdc"
   },
@@ -638,7 +638,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 819757,
+   "offset": 820191,
    "chars": 35496,
    "sha256_12": "3b3fba5cf5f7"
   },
@@ -660,7 +660,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 855253,
+   "offset": 855687,
    "chars": 33219,
    "sha256_12": "27db03e5035b"
   },
@@ -680,7 +680,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 888472,
+   "offset": 888906,
    "chars": 25054,
    "sha256_12": "5fd864ce0015"
   },
@@ -702,7 +702,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 913526,
+   "offset": 913960,
    "chars": 29479,
    "sha256_12": "2c7a573b4313"
   },
@@ -722,7 +722,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 943005,
+   "offset": 943439,
    "chars": 23482,
    "sha256_12": "c5ad053571f9"
   },
@@ -741,7 +741,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 966487,
+   "offset": 966921,
    "chars": 19307,
    "sha256_12": "e63a2893be3e"
   },
@@ -763,7 +763,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 985794,
+   "offset": 986228,
    "chars": 24736,
    "sha256_12": "6cb6303199f5"
   },
@@ -788,7 +788,7 @@
     "@Image6",
     "@Image7"
    ],
-   "offset": 1010530,
+   "offset": 1010964,
    "chars": 32787,
    "sha256_12": "03383b939476"
   },
@@ -809,7 +809,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 1043317,
+   "offset": 1043751,
    "chars": 22393,
    "sha256_12": "78c6a4427c70"
   },
@@ -833,7 +833,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 1065710,
+   "offset": 1066144,
    "chars": 29608,
    "sha256_12": "741dfcf03866"
   },
@@ -857,7 +857,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 1095318,
+   "offset": 1095752,
    "chars": 30374,
    "sha256_12": "046fba19139c"
   },
@@ -878,7 +878,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 1125692,
+   "offset": 1126126,
    "chars": 22834,
    "sha256_12": "aebb6d03780f"
   },
@@ -898,7 +898,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 1148526,
+   "offset": 1148960,
    "chars": 33765,
    "sha256_12": "998cc6c3fafe"
   },
@@ -918,9 +918,29 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 1182291,
-   "chars": 32529,
-   "sha256_12": "64824933e05f"
+   "offset": 1182725,
+   "chars": 32552,
+   "sha256_12": "5a9a477848a6"
+  },
+  {
+   "id": 73,
+   "title": "Виталик на троне: «Думаете это уже конец?» — перед титрами",
+   "target_engine": null,
+   "state": null,
+   "render_state": null,
+   "duration_s": null,
+   "dialogue": null,
+   "depends_on": [],
+   "prompts": 3,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4"
+   ],
+   "offset": 1215277,
+   "chars": 12390,
+   "sha256_12": "0ee3f71ad987"
   }
  ],
  "read_sets": {
