@@ -2,20 +2,20 @@
   "schema_version": 1,
   "source": "Grok Bot",
   "runner": "grok_scheduled_routine",
-  "run_id": "grokbot-routine-e57554d4-e37d-5a96-849b-bb01ae42ed2d@2026-11-05T20:20:53.848Z",
-  "execution_instance_id": "8c83be2b-df74-4868-9822-f6c868d45406",
-  "started_at": "2026-11-05T20:25:49Z",
-  "checked_at": "2026-11-05T20:32:05Z",
+  "run_id": "grokbot-routine-e57554d4-e37d-5a96-849b-bb01ae42ed2d@2026-11-06T05:40:38.480Z",
+  "execution_instance_id": "fb8ebe11-bf48-4c70-963b-98da1edc3e46",
+  "started_at": "2026-11-06T05:42:45Z",
+  "checked_at": "2026-11-06T05:48:24Z",
   "phase": "finished",
-  "source_head": "b12045c786b867dd3639b4bd94d3a37afadab306",
+  "source_head": "0dd4a94ec7bfa6768b52dc2da413d3a6591717c0",
   "scan_complete": true,
   "occupied_slots": 6,
   "free_slots": 0,
-  "selected_item": "S64-WAN30",
+  "selected_item": "S49A",
   "task_ids": [
-    "3ebe7c23db05479e9b6f762a75b832e7"
+    "101221814fd5430697f697f95a3f4252"
   ],
   "outcome": "submitted",
   "blocker": null,
-  "wake_issue": 356
+  "wake_issue": 372
 }
