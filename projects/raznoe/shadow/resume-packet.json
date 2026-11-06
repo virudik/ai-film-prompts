@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-06T18:03:06+00:00",
-  "source_head": "8eeb9e970c229d5bea9ddd3de0d41cac2d075e2a",
-  "source_fingerprint": "2e7952d22f1b83d92f84e5877e7e72879dd372c63ce4edab2f4914f41a1b60b3",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-11-06T18:08:17+00:00",
+  "source_head": "6b4215594dd3c5c6e34579f0ebdf7676b2f9ce6f",
+  "source_fingerprint": "2932af0978f80325d971cc2bc8f04fd265840c59b284df171a1efe0617ff1b5a",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "raznoe-continue-20261106-93c791ea-000f-442e-90b9-13502501c5c1",
@@ -31,36 +31,11 @@
     },
     "source_head": "0107904bad80907682f4854768885b56d7d8d8da"
   },
-  "reasons": [],
-  "selected_work": {
-    "work_id": "RAZNOE-RESOURCE-HONOR-SASHA-20261106",
-    "title": "Доработка RESOURCE/HONOR, референсы Magic9 Pro Max и руководство Саше",
-    "status": "in_progress",
-    "last_completed": "Локально сохранено 3/4 новых референсов RESOURCE; capture-contact, точный промпт и визуальный QC сверены по SHA. Руководство Саше в MD/DOCX/PDF доставлено и прочитано обратно; исправленная ссылка проверена 2026-11-06T13:40:26.776842+00:00. Проверки тестов/Pages текущего capture-save этим шагом не подтверждаются.",
-    "next_action": "Проверить и опубликовать текущий capture-save; после подтверждённого main/Pages создать один PROP-press-scrap-loaded.png, провести QC и сразу сохранить. Затем связать 4/4 референса с девятью редакциями RESOURCE и продолжить HONOR Magic9 Pro Max. Руководство Саше MD/DOCX/PDF уже доставлено и прочитано обратно. Видео не запускать.",
-    "verified_at": "2026-11-06T14:18:02+00:00",
-    "blockers": [],
-    "evidence": [
-      {
-        "file": "projects/raznoe/reports/resource-honor-sasha-2026-11-06.json",
-        "sha256": "ca6310beebfbf806ae409e9914f6495bd5e70bd0e2f7406bb90799c59aeb1107"
-      },
-      {
-        "file": "projects/raznoe/references/scenes/scene-3/expansion/improvement-reference-manifest.json",
-        "sha256": "dedb93cda7e75e156b13245e54c5afed08dd95ad717aa6dc20f0230ad2cf09e8"
-      }
-    ],
-    "read_next": [
-      "projects/raznoe/HANDOFF.md",
-      "projects/raznoe/video-prompts.md"
-    ],
-    "checkpoint": {
-      "file": "projects/raznoe/reports/current-work-checkpoint.md",
-      "anchor": "# 06.11.2026 — доработка RESOURCE/HONOR и руководство Саше",
-      "sha256": "bddb10b062798d3503a488bc819cd71c0d18feef5594dc341c3a8e744b4dab86"
-    }
-  },
-  "checkpoint_text": "# 06.11.2026 — доработка RESOURCE/HONOR и руководство Саше\n\nwork_id: RAZNOE-RESOURCE-HONOR-SASHA-20261106\n\n- Референсы RESOURCE: 3/4 сохранены с точными промптами, реальными SHA и визуальным QC; последний PROP-polymer-gripper-capture-contact.png. Reference-only, not_approved; видео не запускалось.\n- Новое прямое поручение владельца получено; улучшения промтов и недостающие референсы разрешены.\n- HONOR: модель Magic9 Pro Max выбрана по поручению владельца; официальные источники и дальнейший статус продуктовых референсов — в текущем отчёте.\n- RESOURCE: выявлена несовместимость жёсткой рамной детали с командами «раскрыть захват»; готовится единая механика без морфа корпуса.\n- Руководство Саше: RESOURCE-guide.md, .docx и .pdf доставлены в подтверждённую папку Саша и прочитаны обратно с совпадением SHA; ссылка RESOURCE исправлена. Проверено 2026-11-06T13:40:26.776842+00:00.\n- Предупреждение сайта: фактические health/automation/continue зелёные, жёлтая плашка показывает действующий общий замок.\n- Предыдущий этап опубликован bd80507f9 и проверен по HTTPS; новая работа не объявлена завершённой.\n\nСледующий шаг: Проверить и опубликовать текущий capture-save; после подтверждённого main/Pages создать один PROP-press-scrap-loaded.png, провести QC и сразу сохранить. Затем связать 4/4 референса с девятью редакциями RESOURCE и продолжить HONOR Magic9 Pro Max. Руководство Саше MD/DOCX/PDF уже доставлено и прочитано обратно. Видео не запускать.\n\nchecked_at: 2026-11-06T14:18:02+00:00\n",
+  "reasons": [
+    "checkpoint anchor missing or ambiguous"
+  ],
+  "selected_work": null,
+  "checkpoint_text": "",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -153,10 +128,7 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [
-    "projects/raznoe/HANDOFF.md",
-    "projects/raznoe/video-prompts.md"
-  ],
+  "read_next": [],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -237,8 +209,8 @@
     },
     {
       "file": "projects/raznoe/HANDOFF.md",
-      "sha256": "3a35fc9a81799088822ae3d636b2a22fb144b4d681e562735228c9cbe29bec8c",
-      "bytes": 11496
+      "sha256": "2618c96b7cba895bf1e2277a09ccf90ae79dcc2b1def41ad537cbb9c13ff72fc",
+      "bytes": 12375
     },
     {
       "file": "projects/raznoe/INSTRUCTIONS.md",
@@ -256,24 +228,14 @@
       "bytes": 9521
     },
     {
-      "file": "projects/raznoe/references/scenes/scene-3/expansion/improvement-reference-manifest.json",
-      "sha256": "dedb93cda7e75e156b13245e54c5afed08dd95ad717aa6dc20f0230ad2cf09e8",
-      "bytes": 7315
-    },
-    {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
-      "sha256": "449fa2635b57c07a0dafbc3fee007ec19bbbb6598f835d670ebaa6941613566d",
-      "bytes": 38283
+      "sha256": "b5db82c20b23ea54406a91a11a042fe79015e3035be9600b96f909e2e4425ff3",
+      "bytes": 42898
     },
     {
       "file": "projects/raznoe/reports/handoff-receipts.json",
       "sha256": "113c33d5f24cd0f54931e68539d5f89fd05fcdefc258afc03c27f26d63e1abdf",
       "bytes": 8498
-    },
-    {
-      "file": "projects/raznoe/reports/resource-honor-sasha-2026-11-06.json",
-      "sha256": "ca6310beebfbf806ae409e9914f6495bd5e70bd0e2f7406bb90799c59aeb1107",
-      "bytes": 7049
     },
     {
       "file": "projects/raznoe/video-prompts.md",
@@ -282,8 +244,8 @@
     },
     {
       "file": "projects/raznoe/work-resume-register.json",
-      "sha256": "abcddffbed93882a93311bb7c7321121d834f23a78ad90c80b0ad06f170a0bec",
-      "bytes": 18685
+      "sha256": "446061ec1fd715056a3170205734c71b61974d554a1bda488ccc4be3616bd752",
+      "bytes": 18794
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -301,5 +263,5 @@
       "bytes": 1353952
     }
   ],
-  "packet_bytes": 7377
+  "packet_bytes": 3846
 }
