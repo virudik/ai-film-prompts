@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "purpose": "Read-only independent QC of actual submitted video P1 last three seconds for S60 and S61; no video creation",
+  "checked_at": "2026-11-06T18:13:09.978Z",
+  "source": "Existing private Drive derivative MP4 fetched via connected Google Drive; ffprobe/ffmpeg and 7-frame visual contact-sheet. This is a technical and sampled visual check, NOT a full-speed audio-listening or owner editorial approval.",
+  "scenes": [
+    {
+      "scene_id": 60,
+      "source_task_id": "025955aad2cf494da2b4104d26c36ed5",
+      "next_item_id": "S60-SEED20-P2",
+      "filename": "S60-P1-last3s.mp4",
+      "drive_file_id": "1eUg-GTBHYtFhIMGqUp2jdTsbNUjTCS1a",
+      "sha256": "25ef02d81397dfa7a4b384349ebff97cc710debb62227de2f7de4956322d2ea4",
+      "sha256_against_manifest": "match",
+      "seconds": 3,
+      "frames": 72,
+      "fps": 24,
+      "pixels": "1280x720",
+      "audio": {
+        "codec": "aac",
+        "sample_rate_hz": 44100,
+        "rms_dbfs": -13.51,
+        "peak_dbfs": -3.4,
+        "samples": 133120,
+        "non_silent": true,
+        "clipping_not_observed": true,
+        "content_listened": false
+      },
+      "sampled_frames_s": [
+        0,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5,
+        2.958
+      ],
+      "visual_observation": "One spaceship seen from underneath continuously rising/retreating above a forest. No visible human on roof in the sampled ending; camera stays on same upward trajectory, with the craft shrinking progressively. No obvious cut in 7 sampled frames.",
+      "potential_blockers": [
+        "Pilot/roof cannot be checked from underside and must be audited from complete source before approving next video.",
+        "Audio semantic and real-time playback not reviewed."
+      ],
+      "visual_sampled_consistency": "pass_with_scope_limit",
+      "ready_for_new_generation": false,
+      "editorial_approval": false
+    },
+    {
+      "scene_id": 61,
+      "source_task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+      "next_item_id": "S61-SEED20-P2",
+      "filename": "S61-P1-last3s.mp4",
+      "drive_file_id": "1sBOQrtNa4CH3nPuippf31U4fPsoWyEf5",
+      "sha256": "f5be94c2474b66bcdf78351863ef2aa737b9475a31bd6f5ebd134f263ed0e15a",
+      "sha256_against_manifest": "match",
+      "seconds": 3,
+      "frames": 72,
+      "fps": 24,
+      "pixels": "1280x720",
+      "audio": {
+        "codec": "aac",
+        "sample_rate_hz": 32000,
+        "rms_dbfs": -23.88,
+        "peak_dbfs": -5.39,
+        "samples": 96256,
+        "non_silent": true,
+        "clipping_not_observed": true,
+        "content_listened": false
+      },
+      "sampled_frames_s": [
+        0,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5,
+        2.958
+      ],
+      "visual_observation": "First frames are a close-up of the purple-saber male. Between sampled t=1.0 and 1.5 seconds the existing video makes a hard CUT to wide forest standoff with blue saber foreground left, purple saber center and red saber right. The last 1.5 seconds remains an apparently stable wide composition.",
+      "potential_blockers": [
+        "Internal close-to-wide hard cut within the 3-second source used for video conditioning may cause abrupt reset/replay in the next model; must choose continuity treatment based on actual model behavior, never synthesize a fake seamless video.",
+        "Audio semantics and real-time playback unreviewed; visual QC is sampled only."
+      ],
+      "visual_sampled_consistency": "cut_detected_require_human_review",
+      "ready_for_new_generation": false,
+      "editorial_approval": false
+    }
+  ],
+  "continuity_rule": "Use real last3s video as @Video1 only after visual+audio owner review and exact input SHA readback; no still-image replacement for a real video tail. Do not treat frame sampling or audio RMS as full audiovisual QC.",
+  "queue_changed": false,
+  "master_changed": false,
+  "video_submissions": 0,
+  "topview_credits_spent": 0,
+  "owner_approval": false
+}
