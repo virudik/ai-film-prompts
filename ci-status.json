@@ -2,8 +2,8 @@
   "schema_version": 1,
   "purpose": "Published CI state of sync-from-drive.yml for the Control Center (replaces browser calls to the GitHub Actions API). Written only when the conclusion changes: on a failure, and on the first success after a failure.",
   "workflow": "sync-from-drive.yml",
-  "last_conclusion": "success",
-  "last_failure_at": "2026-11-06T18:27:26Z",
-  "last_failure_run_url": "https://github.com/virudik/ai-film-prompts/actions/runs/42270751415",
+  "last_conclusion": "failure",
+  "last_failure_at": "2026-11-06T22:02:56Z",
+  "last_failure_run_url": "https://github.com/virudik/ai-film-prompts/actions/runs/42301504893",
   "last_success_at": "2026-11-06T19:23:03Z"
 }
