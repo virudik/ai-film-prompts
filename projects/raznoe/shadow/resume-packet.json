@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-06T21:44:35+00:00",
-  "source_head": "e50f3df09bd00953e46df3c9b70915992b15016c",
-  "source_fingerprint": "a5352d9d978243d8c33d36a1b2e385461d7ed59bae2a6d776e2f52c9e7fde50f",
+  "checked_at": "2026-11-06T22:02:24+00:00",
+  "source_head": "6d91fbcf64f545bcb7aeca51e9824b36f1c6ff6f",
+  "source_fingerprint": "76eec55d1b55ed24a3000e05d36512a15e1fa5dda1f55c4975d0700f9fad5986",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -32,6 +32,7 @@
     "source_head": "0107904bad80907682f4854768885b56d7d8d8da"
   },
   "reasons": [
+    "project master/status mismatch: raznoe",
     "checkpoint anchor missing or ambiguous"
   ],
   "selected_work": null,
@@ -209,8 +210,8 @@
     },
     {
       "file": "projects/raznoe/HANDOFF.md",
-      "sha256": "68519d3ce5be40e13a8ba23402ece368f5e0b577f7aedbdcdaef2f8eb071e14e",
-      "bytes": 10161
+      "sha256": "5792ab9a8454953baaf5120afef7c373a1fb1b9b3719ff0813f12fb4e1a7d233",
+      "bytes": 10878
     },
     {
       "file": "projects/raznoe/INSTRUCTIONS.md",
@@ -224,13 +225,13 @@
     },
     {
       "file": "projects/raznoe/project-status.json",
-      "sha256": "9c61e2a110ed47cc4523500e3ef152827dc57fec9454806d8ab543f6ea3be674",
-      "bytes": 9519
+      "sha256": "775b3dd2b089358afd34ec29bc75f9f42eea922ca26c4fc3b7fdc2c8304cb04d",
+      "bytes": 10036
     },
     {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
-      "sha256": "8fbc341826942de8fc96bf9584c141517311c048dcaf29983dbca547e9793685",
-      "bytes": 48252
+      "sha256": "4f9ddfd1a659644c1f601ce2bf138309ae39a904a2122f581db17f7f0ba77bdc",
+      "bytes": 49463
     },
     {
       "file": "projects/raznoe/reports/handoff-receipts.json",
@@ -239,13 +240,13 @@
     },
     {
       "file": "projects/raznoe/video-prompts.md",
-      "sha256": "cdbc1791ba9d5a69e98c63353ca330086c34c663fe48145a4f77b403ef2e19db",
-      "bytes": 613546
+      "sha256": "82b7c9874028df05a439aac6668876fbb3b8c9dcd258162a04f27cb810871c6f",
+      "bytes": 628799
     },
     {
       "file": "projects/raznoe/work-resume-register.json",
-      "sha256": "8e65a9a246dd2de22a583eb3b648f4db63c6d4af225bcee7039799d29217a094",
-      "bytes": 18845
+      "sha256": "4b7aad4dc9d7649f36c8aa046772899b29c7f39ecafae62dfca05a6b5e15ba5a",
+      "bytes": 19257
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -263,5 +264,5 @@
       "bytes": 1353952
     }
   ],
-  "packet_bytes": 3846
+  "packet_bytes": 3887
 }
