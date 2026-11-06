@@ -2,8 +2,8 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-11-06T22:30:46+00:00",
- "valid_at_generation": false,
+ "generated_at": "2026-11-06T22:32:36+00:00",
+ "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
  "sources": [
@@ -189,8 +189,8 @@
  },
  "runtime": {
   "project_health": "ok",
-  "scenes": 29,
-  "prompt_texts": 144,
+  "scenes": 30,
+  "prompt_texts": 147,
   "scene_ids": [
    13,
    16,
@@ -220,9 +220,10 @@
    69,
    70,
    71,
-   72
+   72,
+   73
   ],
-  "latest_scene": 72,
+  "latest_scene": 73,
   "reserved": [
    1,
    2,
@@ -925,11 +926,11 @@
   {
    "id": 73,
    "title": "Виталик на троне: «Думаете это уже конец?» — перед титрами",
-   "target_engine": null,
-   "state": null,
-   "render_state": null,
-   "duration_s": null,
-   "dialogue": null,
+   "target_engine": "Wan 3.0",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": "ru",
    "depends_on": [],
    "prompts": 3,
    "refs": [
