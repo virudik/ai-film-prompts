@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-06T22:02:24+00:00",
-  "source_head": "6d91fbcf64f545bcb7aeca51e9824b36f1c6ff6f",
-  "source_fingerprint": "76eec55d1b55ed24a3000e05d36512a15e1fa5dda1f55c4975d0700f9fad5986",
+  "checked_at": "2026-11-06T22:04:37+00:00",
+  "source_head": "268a33defdd2441a7323574caafbec894be6be8c",
+  "source_fingerprint": "84d8cce268d9951dc35f5eefbd05e074e0ff79b205279640cdd4be92c76d99ae",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -240,8 +240,8 @@
     },
     {
       "file": "projects/raznoe/video-prompts.md",
-      "sha256": "82b7c9874028df05a439aac6668876fbb3b8c9dcd258162a04f27cb810871c6f",
-      "bytes": 628799
+      "sha256": "6428a63ca6f9b83a7211b7791f64bcac6e4ff801332a33f5993b951ebd9ae943",
+      "bytes": 628781
     },
     {
       "file": "projects/raznoe/work-resume-register.json",
