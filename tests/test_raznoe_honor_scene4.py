@@ -53,6 +53,9 @@ class HonorScene4(unittest.TestCase):
         self.assertEqual(len(labels), len(set(labels)))
         self.assertIn("4 · реализм · Wan 3.0 часть 1", labels)
         self.assertIn("4 · рисовка · Seedance 2.0 часть 8", labels)
+        before = master[:master.find("## Сцена 4 — HONOR")]
+        self.assertNotIn("</pr<a", master)
+        self.assertEqual(before.count("<pre") - before.count("</pre>"), 0)
         queue = json.loads((ROOT / "projects/raznoe/ops/topview-launch-queue.json").read_text(encoding="utf-8"))
         self.assertEqual(queue["items"], [])
         refs = json.loads((ROOT / "projects/raznoe/character-references.json").read_text(encoding="utf-8"))

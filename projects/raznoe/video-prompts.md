@@ -2781,7 +2781,8 @@ The final image should communicate that discarded plastic has become a useful en
 7. Keep the same transparent plastic bottle visually consistent throughout Video 1.
 8. Do not show the main engineer in Video 2.
 9. Preserve the intended visual progression: ordinary waste → separate collection → industrial sorting → shredding → recycled plastic flakes → 3D-printed engineering component.
-</pr<a id="scene-4"></a>
+</pre>
+<a id="scene-4"></a>
 ## Сцена 4 — HONOR
 
 <!-- scene-meta: {"target_engine":"уточнить","production_state":"DRAFT","duration_s":120,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["owner_requested","draft","pitch","landscape_16x9","mood_refs_only","not_approved","raznoe_scene_4","three_films_120s"]} -->
