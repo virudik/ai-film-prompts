@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "project": "raznoe",
+  "scene_id": 3,
+  "clip_id": "C04_recycle-v3",
+  "replaces": "C04_recycle-v2",
+  "status": "DRAFT_AWAITING_EDITORIAL_REVIEW",
+  "tool": "cursor.GenerateVideo",
+  "execute_now": false,
+  "launch_authorized": false,
+  "credit_spend_allowed": false,
+  "arguments": {
+    "filename": "C04_recycle-v3.mp4",
+    "duration": 6,
+    "aspect_ratio": "16:9",
+    "reference_image_paths": [
+      "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-press-scrap-loaded.png",
+      "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-orbital-press-block.png",
+      "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-orbit-locked-v2.png"
+    ],
+    "prompt": "Photoreal cinematic near-future science-fiction, 16:9, 6 seconds, single continuous clip. Scene 3 RESOURCE, unapproved draft. Not a real satellite recycling claim.\n\nREFERENCES / ORDER:\n\n<IMAGE_0> projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-press-scrap-loaded.png (sha256 6cf41a9dd1c90b323eacb4a7df22ef5463cfac0de70476c263f259852f8062d4); private_library_not_on_site; role: PROP-press-scrap-loaded.png\n\n<IMAGE_1> projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-orbital-press-block.png (sha256 dc7d5670090653057e8af5c5632e7406a482919ddab5a42b899bfab3f98c7160); canonical main; role: PROP-orbital-press-block.png\n\n<IMAGE_2> projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-orbit-locked-v2.png (sha256 db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b); canonical main; role: PROP-satellite-orbit-locked-v2.png\n\nSTART: Фрагмент в пресс-модуле\n\nACTION: One bent torn plate is already loaded between flat, rigid compression platens; upper platen descends on guides, plastically crushes the SAME metal into one rectangular block, then stops. No added mass, station assembly or arbitrary morph.\n\nEND: Прямоугольный блок сформирован\n\nCAMERA: stable three-quarter view, one motivated movement; show physical contacts clearly and retain left-right screen direction.\n\nCONTINUITY: identity locks, same arm attachment, rigid closed polymer geometry, exactly 2 satellite wings, same plastic or single metal fragment across adjacent clips.\n\nAUDIO: only motivated ambience where physically possible; exterior vacuum is silent. No dialogue. Postproduction music/voiceover only.\n\nFORBIDDEN: morphs, teleporting objects, duplicate scraps/bottles, extra panels/jaws, new holes, frame opening, collision clipping, branded text, black bars, slogans and watermarks.\n\nEXECUTION: DRAFT ONLY. Verify actual local input files/sha256 and explicit owner permission before any independent free video generation; no paid path."
+  },
+  "ref_roles": [
+    {
+      "IMAGE": 0,
+      "token": "<IMAGE_0>",
+      "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-press-scrap-loaded.png",
+      "sha256": "6cf41a9dd1c90b323eacb4a7df22ef5463cfac0de70476c263f259852f8062d4",
+      "role": "PROP-press-scrap-loaded.png",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 1,
+      "token": "<IMAGE_1>",
+      "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-orbital-press-block.png",
+      "sha256": "dc7d5670090653057e8af5c5632e7406a482919ddab5a42b899bfab3f98c7160",
+      "role": "PROP-orbital-press-block.png",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 2,
+      "token": "<IMAGE_2>",
+      "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-orbit-locked-v2.png",
+      "sha256": "db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b",
+      "role": "PROP-satellite-orbit-locked-v2.png",
+      "owner_approved": false
+    }
+  ],
+  "state_chain": {
+    "semantic_start": "Фрагмент в пресс-модуле",
+    "semantic_end": "Прямоугольный блок сформирован"
+  },
+  "note": "Canonical paths must be mapped to real uploaded bytes before any launch; original v1/v2 requests preserved."
+}

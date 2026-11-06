@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "project": "raznoe",
+  "scene_id": 3,
+  "clip_id": "C05_station-v3",
+  "replaces": "C05_station-v2",
+  "status": "DRAFT_AWAITING_EDITORIAL_REVIEW",
+  "tool": "cursor.GenerateVideo",
+  "execute_now": false,
+  "launch_authorized": false,
+  "credit_spend_allowed": false,
+  "arguments": {
+    "filename": "C05_station-v3.mp4",
+    "duration": 5,
+    "aspect_ratio": "16:9",
+    "reference_image_paths": [
+      "projects/raznoe/references/scenes/scene-3/expansion/assets/C-original-lattice-station.png"
+    ],
+    "prompt": "Photoreal cinematic near-future science-fiction, 16:9, 5 seconds, single continuous clip. Scene 3 RESOURCE, unapproved draft. Not a real satellite recycling claim.\n\nREFERENCES / ORDER:\n\n<IMAGE_0> projects/raznoe/references/scenes/scene-3/expansion/assets/C-original-lattice-station.png (sha256 608aacc17bd40c768374ea21f3f0827c88b8a0131f44bcc373b47f14cc2b1e6e); canonical main; role: C-original-lattice-station.png\n\nSTART: Широкий план оригинальной станции\n\nACTION: Reveal the already-built original fictional modular lattice station with Earth behind; camera retreats slightly. A recycled metal block is a conceptual material only, it must not magically transform into a whole station.\n\nEND: Отъезд с Землёй в кадре\n\nCAMERA: stable three-quarter view, one motivated movement; show physical contacts clearly and retain left-right screen direction.\n\nCONTINUITY: identity locks, same arm attachment, rigid closed polymer geometry, exactly 2 satellite wings, same plastic or single metal fragment across adjacent clips.\n\nAUDIO: only motivated ambience where physically possible; exterior vacuum is silent. No dialogue. Postproduction music/voiceover only.\n\nFORBIDDEN: morphs, teleporting objects, duplicate scraps/bottles, extra panels/jaws, new holes, frame opening, collision clipping, branded text, black bars, slogans and watermarks.\n\nEXECUTION: DRAFT ONLY. Verify actual local input files/sha256 and explicit owner permission before any independent free video generation; no paid path."
+  },
+  "ref_roles": [
+    {
+      "IMAGE": 0,
+      "token": "<IMAGE_0>",
+      "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/C-original-lattice-station.png",
+      "sha256": "608aacc17bd40c768374ea21f3f0827c88b8a0131f44bcc373b47f14cc2b1e6e",
+      "role": "C-original-lattice-station.png",
+      "owner_approved": false
+    }
+  ],
+  "state_chain": {
+    "semantic_start": "Широкий план оригинальной станции",
+    "semantic_end": "Отъезд с Землёй в кадре"
+  },
+  "note": "Canonical paths must be mapped to real uploaded bytes before any launch; original v1/v2 requests preserved."
+}

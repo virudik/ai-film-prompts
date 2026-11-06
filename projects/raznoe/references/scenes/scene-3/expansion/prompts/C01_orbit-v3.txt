@@ -1,0 +1,23 @@
+Photoreal cinematic near-future science-fiction, 16:9, 5 seconds, single continuous clip. Scene 3 RESOURCE, unapproved draft. Not a real satellite recycling claim.
+
+REFERENCES / ORDER:
+
+<IMAGE_0> projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-orbit-locked-v2.png (sha256 db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b); canonical main; role: PROP-satellite-orbit-locked-v2.png
+
+<IMAGE_1> projects/raznoe/references/scenes/scene-3/expansion/assets/B-satellite-assembly-stand.png (sha256 b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3); canonical main; role: B-satellite-assembly-stand.png
+
+START: Тот же аппарат на орбите; 2 панели уже раскрыты
+
+ACTION: Orbit smoothly around the already deployed two-panel craft; exactly two solar wings from first frame, one mounted manipulator. No panel deployment or growth during the shot.
+
+END: Облёт без смены числа панелей и без плывущего крепления руки
+
+CAMERA: stable three-quarter view, one motivated movement; show physical contacts clearly and retain left-right screen direction.
+
+CONTINUITY: identity locks, same arm attachment, rigid closed polymer geometry, exactly 2 satellite wings, same plastic or single metal fragment across adjacent clips.
+
+AUDIO: only motivated ambience where physically possible; exterior vacuum is silent. No dialogue. Postproduction music/voiceover only.
+
+FORBIDDEN: morphs, teleporting objects, duplicate scraps/bottles, extra panels/jaws, new holes, frame opening, collision clipping, branded text, black bars, slogans and watermarks.
+
+EXECUTION: DRAFT ONLY. Verify actual local input files/sha256 and explicit owner permission before any independent free video generation; no paid path.

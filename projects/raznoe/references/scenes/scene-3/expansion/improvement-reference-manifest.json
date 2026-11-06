@@ -110,24 +110,32 @@
         "native_token": "<IMAGE_2>"
       },
       "real_video_frame": false
-    }
-  ],
-  "updated_at": "2026-11-06T18:07:30.095Z",
-  "generated_image_count": 3,
-  "status": "reference_images_in_progress",
-  "pending_references": [
+    },
     {
       "tag": "PROP-press-scrap-loaded",
-      "intended_path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-press-scrap-loaded.png",
+      "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-press-scrap-loaded.png",
       "sha256": "6cf41a9dd1c90b323eacb4a7df22ef5463cfac0de70476c263f259852f8062d4",
       "width": 1672,
       "height": 941,
-      "library_file_id": "libfile_097cf5615ae081919d2273523d3acac1",
+      "prompt_path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-press-scrap-loaded.prompt.txt",
+      "source": "ChatGPT built-in imagegen",
+      "role": "C04_recycle-v3: start state — one recognisable irregular folded plate between press platens; not a real video frame",
       "editorial_status": "not_approved",
-      "canon_png_present": false,
-      "source": "built-in ChatGPT ImageGen",
-      "status": "pending_github_publish"
+      "backup_library_file_id": "libfile_097cf5615ae081919d2273523d3acac1",
+      "qc": {
+        "visual_reference_check": "suitable_for_mechanical_start_only",
+        "mass_and_camera": "single plate, press platens visibly contact, Earth background",
+        "motion_audio_qc": false
+      },
+      "site_published": {
+        "repo_path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-press-scrap-loaded.png",
+        "git_blob_sha": "b07f48d47b1c66e1164ca7d0859bccca730f0919"
+      }
     }
   ],
-  "generated_private_library_image_count": 1
+  "updated_at": "2026-11-06T19:00:12.360Z",
+  "generated_image_count": 4,
+  "status": "reference_images_complete_awaiting_editorial_review",
+  "pending_references": [],
+  "generated_private_library_image_count": 0
 }

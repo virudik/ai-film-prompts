@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "project": "raznoe",
+  "scene_id": 3,
+  "clip_id": "C01_orbit-v3",
+  "replaces": "C01_orbit-v2",
+  "status": "DRAFT_AWAITING_EDITORIAL_REVIEW",
+  "tool": "cursor.GenerateVideo",
+  "execute_now": false,
+  "launch_authorized": false,
+  "credit_spend_allowed": false,
+  "arguments": {
+    "filename": "C01_orbit-v3.mp4",
+    "duration": 5,
+    "aspect_ratio": "16:9",
+    "reference_image_paths": [
+      "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-orbit-locked-v2.png",
+      "projects/raznoe/references/scenes/scene-3/expansion/assets/B-satellite-assembly-stand.png"
+    ],
+    "prompt": "Photoreal cinematic near-future science-fiction, 16:9, 5 seconds, single continuous clip. Scene 3 RESOURCE, unapproved draft. Not a real satellite recycling claim.\n\nREFERENCES / ORDER:\n\n<IMAGE_0> projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-orbit-locked-v2.png (sha256 db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b); canonical main; role: PROP-satellite-orbit-locked-v2.png\n\n<IMAGE_1> projects/raznoe/references/scenes/scene-3/expansion/assets/B-satellite-assembly-stand.png (sha256 b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3); canonical main; role: B-satellite-assembly-stand.png\n\nSTART: Тот же аппарат на орбите; 2 панели уже раскрыты\n\nACTION: Orbit smoothly around the already deployed two-panel craft; exactly two solar wings from first frame, one mounted manipulator. No panel deployment or growth during the shot.\n\nEND: Облёт без смены числа панелей и без плывущего крепления руки\n\nCAMERA: stable three-quarter view, one motivated movement; show physical contacts clearly and retain left-right screen direction.\n\nCONTINUITY: identity locks, same arm attachment, rigid closed polymer geometry, exactly 2 satellite wings, same plastic or single metal fragment across adjacent clips.\n\nAUDIO: only motivated ambience where physically possible; exterior vacuum is silent. No dialogue. Postproduction music/voiceover only.\n\nFORBIDDEN: morphs, teleporting objects, duplicate scraps/bottles, extra panels/jaws, new holes, frame opening, collision clipping, branded text, black bars, slogans and watermarks.\n\nEXECUTION: DRAFT ONLY. Verify actual local input files/sha256 and explicit owner permission before any independent free video generation; no paid path."
+  },
+  "ref_roles": [
+    {
+      "IMAGE": 0,
+      "token": "<IMAGE_0>",
+      "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-orbit-locked-v2.png",
+      "sha256": "db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b",
+      "role": "PROP-satellite-orbit-locked-v2.png",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 1,
+      "token": "<IMAGE_1>",
+      "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/B-satellite-assembly-stand.png",
+      "sha256": "b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3",
+      "role": "B-satellite-assembly-stand.png",
+      "owner_approved": false
+    }
+  ],
+  "state_chain": {
+    "semantic_start": "Тот же аппарат на орбите; 2 панели уже раскрыты",
+    "semantic_end": "Облёт без смены числа панелей и без плывущего крепления руки"
+  },
+  "note": "Canonical paths must be mapped to real uploaded bytes before any launch; original v1/v2 requests preserved."
+}

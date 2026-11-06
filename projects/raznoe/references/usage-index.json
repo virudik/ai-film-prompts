@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "raznoe",
-  "updated_at": "2026-11-06T04:45:00Z",
+  "updated_at": "2026-11-06T19:00:12.360Z",
   "generated_image_count": 59,
   "generated_orphans": [],
   "images": [
@@ -806,8 +806,53 @@
       ],
       "sha256": "2279000421fef277e1e7555498009f983f7a47e6943e549c75111b2ddf3b3e1d",
       "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-print-layer-contact.png",
+      "scenes": [
+        3
+      ],
+      "roles": [
+        "mechanical_continuity_reference"
+      ],
+      "sha256": "5dac3ab1dda938e320a778b0520b339f814b06185ccdde9ad86f62c37d685b67",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-mounted-open.png",
+      "scenes": [
+        3
+      ],
+      "roles": [
+        "mechanical_continuity_reference"
+      ],
+      "sha256": "fb5d9dd0062c558fe1783342379e2af1de373c2d1cd2a1f71ae4247fe3970db4",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-capture-contact.png",
+      "scenes": [
+        3
+      ],
+      "roles": [
+        "mechanical_continuity_reference"
+      ],
+      "sha256": "d378987cbe9e5b313e43572243c1e1984462064e6fe649bdc63e682dcfd0b5a3",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-press-scrap-loaded.png",
+      "scenes": [
+        3
+      ],
+      "roles": [
+        "mechanical_continuity_reference"
+      ],
+      "sha256": "6cf41a9dd1c90b323eacb4a7df22ef5463cfac0de70476c263f259852f8062d4",
+      "editorial_status": "not_approved"
     }
   ],
   "resource_scene_3_supplied": 10,
-  "honor_scene_4_mood_frames": 3
+  "honor_scene_4_mood_frames": 3,
+  "resource_scene_3_improvement_count": 4
 }

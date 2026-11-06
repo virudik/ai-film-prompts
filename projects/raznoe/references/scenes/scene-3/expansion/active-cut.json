@@ -32,7 +32,8 @@
     "Эта карта описывает опубликованные в master входы, не разрешает запуск и не подтверждает качество будущего видео.",
     "Предыдущие промты, requests, baseline manifest и QA сохранены без изменений.",
     "Request JSON — шаблоны исходной среды, не квитанции фактической отправки. Абсолютные reference_image_paths необходимо разрешить в текущей среде по указанным каноническим файлам и SHA перед применением.",
-    "Режим reference-only сохраняется. Монтажная зависимость не означает first/last-frame pin или обязательный видеовход."
+    "Режим reference-only сохраняется. Монтажная зависимость не означает first/last-frame pin или обязательный видеовход.",
+    "06.11: nine slots A06,B02,B03,B04,C01,C02,C03,C04,C05 now v3. All original old prompt and requests files retained. No render, no owner approval; images SHA checked at publish."
   ],
   "clips": [
     {
@@ -246,7 +247,7 @@
     },
     {
       "clip_id": "A06_print",
-      "active_version": "A06_print",
+      "active_version": "A06_print-v3",
       "duration_s": 8,
       "aspect_ratio": "16:9",
       "depends_on": [
@@ -254,34 +255,37 @@
       ],
       "semantic_start": "Идёт аддитивная печать открытого полимерного захвата",
       "semantic_end": "Виден новый слой/валик экструзии на формирующемся матовом полимерном захвате",
-      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/A06_print.txt",
-      "prompt_sha256": "6b672d00334040434e9d584abfc5f47f787bf4c68a84372bad496cabd319b227",
-      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/A06_print.json",
-      "request_template_sha256": "5f675a9d168ca47866d3a28f5f6240b238661e98011f5f55448c350108f09928",
+      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/A06_print-v3.txt",
+      "prompt_sha256": "98bebc7319e754dd5dc4017506fe5be39157945f287bd57a778c8161a4e0cded",
+      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/A06_print-v3.json",
+      "request_template_sha256": "6f3beb50c825dc3b91c59161f2f8208bf8f95a40097692c66b952ac9b3bb5b6c",
       "references": [
         {
           "image_slot": 0,
-          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-print-extrusion-bead.png",
-          "sha256": "45aa7b2f80271b2a5a2b7631a011c19b5fc95bf29f11332b9f2a9bcb3ee5325c",
-          "role": "PRIMARY: nozzle depositing a visible new polymer bead on open-frame gripper",
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-print-layer-contact.png",
+          "sha256": "5dac3ab1dda938e320a778b0520b339f814b06185ccdde9ad86f62c37d685b67",
+          "role": "PROP-print-layer-contact.png",
           "owner_approved": false
         },
         {
           "image_slot": 1,
           "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/A-polymer-gripper-product.png",
           "sha256": "aeb0526b4bd804851df6f1177b04b587f7cf1ecef5d5040b672559cc7659f6f0",
-          "role": "product design authority — matte polymer lattice gripper with blue inclusions",
+          "role": "A-polymer-gripper-product.png",
           "owner_approved": false
         },
         {
           "image_slot": 2,
           "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-polymer-print-45737.png",
           "sha256": "802992aa667bd04bacb8e23e7a894a725eef8e1337951dc2feda0b94c2753736",
-          "role": "printer/gantry environment only; ignore any coolant-stream look — extrusion is polymer bead, not liquid pour",
+          "role": "FAC-polymer-print-45737.png",
           "owner_approved": false
         }
       ],
-      "execute": false
+      "execute": false,
+      "previous_active_version": "A06_print",
+      "launch_readiness": "references_registered_awaiting_owner_review",
+      "editorial_status": "not_approved"
     },
     {
       "clip_id": "B01_pickup",
@@ -324,7 +328,7 @@
     },
     {
       "clip_id": "B02_install",
-      "active_version": "B02_install",
+      "active_version": "B02_install-v3",
       "duration_s": 8,
       "aspect_ratio": "16:9",
       "depends_on": [
@@ -332,52 +336,55 @@
       ],
       "semantic_start": "Захват подносят к креплению манипулятора спутника",
       "semantic_end": "Тот же полимерный захват закреплён на манипуляторе; крепёж/стык проверен",
-      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/B02_install.txt",
-      "prompt_sha256": "4aa9c72bb5b1bed53966baa173aa76bce059e630168b78aa07a5ead3c205ee48",
-      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/B02_install.json",
-      "request_template_sha256": "5f7b400b07e1b6080648669738fcc5db260a1b4baf097444fb1d7ebd9caa2d4a",
+      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/B02_install-v3.txt",
+      "prompt_sha256": "4c7d7c2513a6459935b232b10159c7ea856774b2fff90b9c34be80d2d07774c4",
+      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/B02_install-v3.json",
+      "request_template_sha256": "3e0609f5773345201c9e3b7b67309054592ea8cb69fffa4b8710ad4f15285b7a",
       "references": [
         {
           "image_slot": 0,
           "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-blue-form-01.png",
           "sha256": "a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587",
-          "role": "blue-form identity; no multi-panel",
+          "role": "ID-engineer-blue-form-01.png",
           "owner_approved": false
         },
         {
           "image_slot": 1,
           "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/A-polymer-gripper-product.png",
           "sha256": "aeb0526b4bd804851df6f1177b04b587f7cf1ecef5d5040b672559cc7659f6f0",
-          "role": "gripper design authority",
+          "role": "A-polymer-gripper-product.png",
           "owner_approved": false
         },
         {
           "image_slot": 2,
-          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-gripper-seated-on-arm.png",
-          "sha256": "8e762aa4d33ececfe901362d595fcce03bdf0f13d9468e54fd02c0a96b9e97e0",
-          "role": "install language: gripper bolted/connected on white manipulator mount",
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-mounted-open.png",
+          "sha256": "fb5d9dd0062c558fe1783342379e2af1de373c2d1cd2a1f71ae4247fe3970db4",
+          "role": "PROP-polymer-gripper-mounted-open.png",
           "owner_approved": false
         },
         {
           "image_slot": 3,
           "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/B-satellite-assembly-stand.png",
           "sha256": "b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3",
-          "role": "satellite on stand body continuity",
+          "role": "B-satellite-assembly-stand.png",
           "owner_approved": false
         },
         {
           "image_slot": 4,
           "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-manipulator-02.png",
           "sha256": "876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e",
-          "role": "orbital manipulator/satellite geometry language from source folder",
+          "role": "PROP-satellite-manipulator-02.png",
           "owner_approved": false
         }
       ],
-      "execute": false
+      "execute": false,
+      "previous_active_version": "B02_install",
+      "launch_readiness": "references_registered_awaiting_owner_review",
+      "editorial_status": "not_approved"
     },
     {
       "clip_id": "B03_build",
-      "active_version": "B03_build",
+      "active_version": "B03_build-v3",
       "duration_s": 6,
       "aspect_ratio": "16:9",
       "depends_on": [
@@ -385,45 +392,48 @@
       ],
       "semantic_start": "Спутник на стенде частично собран",
       "semantic_end": "Крышки/панели/манипулятор установлены последовательно",
-      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/B03_build.txt",
-      "prompt_sha256": "b18d3288153c0b197eee8644569c37f6fe654ce6b40d2abe296c6224bf1ae1dd",
-      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/B03_build.json",
-      "request_template_sha256": "4fb2431a284ef9f7ed470d265d3fde0f950a9aa9bae3ac6f64504a594503af8d",
+      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/B03_build-v3.txt",
+      "prompt_sha256": "6f218079b8059dbee1c973d677c684ada92c2f960cab2b321496761ee0a1ac40",
+      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/B03_build-v3.json",
+      "request_template_sha256": "21e7c29e78e078326483d09ede1c738f23b0cc600b213be1da7f37b70799f01b",
       "references": [
         {
           "image_slot": 0,
           "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/B-satellite-assembly-stand.png",
           "sha256": "b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3",
-          "role": "satellite on stand",
+          "role": "B-satellite-assembly-stand.png",
           "owner_approved": false
         },
         {
           "image_slot": 1,
-          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-manipulator-02.png",
-          "sha256": "876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e",
-          "role": "manipulator/satellite design language",
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-mounted-open.png",
+          "sha256": "fb5d9dd0062c558fe1783342379e2af1de373c2d1cd2a1f71ae4247fe3970db4",
+          "role": "PROP-polymer-gripper-mounted-open.png",
           "owner_approved": false
         },
         {
           "image_slot": 2,
           "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/ATM-cleanroom-assembly-extra.png",
           "sha256": "5de9f2952dc335a6e4b83e3c2d4618367d5959febb575ecfb5575226d062e9ac",
-          "role": "cleanroom atmosphere",
+          "role": "ATM-cleanroom-assembly-extra.png",
           "owner_approved": false
         },
         {
           "image_slot": 3,
           "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-blue-form-01.png",
           "sha256": "a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587",
-          "role": "engineer identity IF visible",
+          "role": "ID-engineer-blue-form-01.png",
           "owner_approved": false
         }
       ],
-      "execute": false
+      "execute": false,
+      "previous_active_version": "B03_build",
+      "launch_readiness": "references_registered_awaiting_owner_review",
+      "editorial_status": "not_approved"
     },
     {
       "clip_id": "B04_check",
-      "active_version": "B04_check",
+      "active_version": "B04_check-v3",
       "duration_s": 5,
       "aspect_ratio": "16:9",
       "depends_on": [
@@ -431,34 +441,37 @@
       ],
       "semantic_start": "Инженер у аппарата",
       "semantic_end": "Общий вид готового спутника с панелями и манипулятором",
-      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/B04_check.txt",
-      "prompt_sha256": "997124aa4a3c8de4abebf35472ba787ca864d5a43f1c796b4116d336e530e885",
-      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/B04_check.json",
-      "request_template_sha256": "30c9626ef1b5afc5ac521ca9a6a5ba8df9a5b373e30114f9f3353cb616ff96e6",
+      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/B04_check-v3.txt",
+      "prompt_sha256": "ff63b033bc4829b0f0bcd5ec412c48c2f1aff9beff14df7b3b68152f2db47679",
+      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/B04_check-v3.json",
+      "request_template_sha256": "dde5a96d39aafb8eb5f6ceb516315933d391814d2af06d5565d852256471c710",
       "references": [
         {
           "image_slot": 0,
           "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-blue-form-01.png",
           "sha256": "a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587",
-          "role": "engineer identity",
+          "role": "ID-engineer-blue-form-01.png",
           "owner_approved": false
         },
         {
           "image_slot": 1,
           "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/B-satellite-assembly-stand.png",
           "sha256": "b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3",
-          "role": "completed satellite look",
+          "role": "B-satellite-assembly-stand.png",
           "owner_approved": false
         },
         {
           "image_slot": 2,
-          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-manipulator-02.png",
-          "sha256": "876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e",
-          "role": "geometry language",
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-mounted-open.png",
+          "sha256": "fb5d9dd0062c558fe1783342379e2af1de373c2d1cd2a1f71ae4247fe3970db4",
+          "role": "PROP-polymer-gripper-mounted-open.png",
           "owner_approved": false
         }
       ],
-      "execute": false
+      "execute": false,
+      "previous_active_version": "B04_check",
+      "launch_readiness": "references_registered_awaiting_owner_review",
+      "editorial_status": "not_approved"
     },
     {
       "clip_id": "B05_pad",
@@ -510,7 +523,7 @@
     },
     {
       "clip_id": "C01_orbit",
-      "active_version": "C01_orbit-v2",
+      "active_version": "C01_orbit-v3",
       "duration_s": 5,
       "aspect_ratio": "16:9",
       "depends_on": [
@@ -518,31 +531,34 @@
       ],
       "semantic_start": "Тот же аппарат на орбите; 2 панели уже раскрыты",
       "semantic_end": "Облёт без смены числа панелей и без плывущего крепления руки",
-      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/C01_orbit-v2.txt",
-      "prompt_sha256": "81b9399c35897a6a6fc1a3c3a2cf15bb8b00bb4c475b91abf5a81536d459cb20",
-      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/C01_orbit-v2.json",
-      "request_template_sha256": "b0c51c35bd22972e6686771120f09ca165a70f718cfc417948b11e457b1f2cdb",
+      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/C01_orbit-v3.txt",
+      "prompt_sha256": "0c603687d40f9d70926e563307da4d57c06e49134f012cbbd033d3480eec9aff",
+      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/C01_orbit-v3.json",
+      "request_template_sha256": "b428b7684fefcf7717ed74ebb82ffff1487e59ced44fcc1576ea42d741bf626a",
       "references": [
         {
           "image_slot": 0,
           "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-orbit-locked-v2.png",
           "sha256": "db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b",
-          "role": "PRIMARY locked orbit geometry: 2 wings deployed, fixed arm mount",
+          "role": "PROP-satellite-orbit-locked-v2.png",
           "owner_approved": false
         },
         {
           "image_slot": 1,
           "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/B-satellite-assembly-stand.png",
           "sha256": "b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3",
-          "role": "assembly continuity ONLY — same 2-wing gold body family",
+          "role": "B-satellite-assembly-stand.png",
           "owner_approved": false
         }
       ],
-      "execute": false
+      "execute": false,
+      "previous_active_version": "C01_orbit-v2",
+      "launch_readiness": "references_registered_awaiting_owner_review",
+      "editorial_status": "not_approved"
     },
     {
       "clip_id": "C02_debris",
-      "active_version": "C02_debris-v2",
+      "active_version": "C02_debris-v3",
       "duration_s": 5,
       "aspect_ratio": "16:9",
       "depends_on": [
@@ -550,95 +566,118 @@
       ],
       "semantic_start": "Тот же 2-крылый аппарат; облако металлического мусора",
       "semantic_end": "Манипулятор начинает выдвигаться к обломку",
-      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/C02_debris-v2.txt",
-      "prompt_sha256": "4d2615f11816a51748bf86e53c8cabe8e63f4cabdbaf601f7031d7d7595299f9",
-      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/C02_debris-v2.json",
-      "request_template_sha256": "f6b18189aad82f770bd70a03e7f5d8bec9af80ce791d3fd75d83f0b01d1d20ef",
+      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/C02_debris-v3.txt",
+      "prompt_sha256": "bad07309f642cb74ef4a55feb5da4a8d76a07abb31912a7a4e4cdc3526406e98",
+      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/C02_debris-v3.json",
+      "request_template_sha256": "95f476e1822c70a355ddaef09f0906ef9e37940a31f2530d2e0ca355bc2205f9",
       "references": [
         {
           "image_slot": 0,
           "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-orbit-locked-v2.png",
           "sha256": "db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b",
-          "role": "locked 2-wing craft + fixed arm",
+          "role": "PROP-satellite-orbit-locked-v2.png",
+          "owner_approved": false
+        },
+        {
+          "image_slot": 1,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-mounted-open.png",
+          "sha256": "fb5d9dd0062c558fe1783342379e2af1de373c2d1cd2a1f71ae4247fe3970db4",
+          "role": "PROP-polymer-gripper-mounted-open.png",
           "owner_approved": false
         }
       ],
-      "execute": false
+      "execute": false,
+      "previous_active_version": "C02_debris-v2",
+      "launch_readiness": "references_registered_awaiting_owner_review",
+      "editorial_status": "not_approved"
     },
     {
       "clip_id": "C03_capture",
-      "active_version": "C03_capture-v2",
+      "active_version": "C03_capture-v3",
       "duration_s": 6,
       "aspect_ratio": "16:9",
       "depends_on": [
         "C02_debris"
       ],
-      "semantic_start": "Полимерный захват у обломка",
+      "semantic_start": "Жёсткая полимерная рама с двумя открытыми металлическими губками у одного обломка",
       "semantic_end": "Обломок мягко зафиксирован тем же продуктом",
-      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/C03_capture-v2.txt",
-      "prompt_sha256": "2ce3e5fd5640b6f10d3c64df9523560cd6247e4fcc1d5d1e7fe152b77d237258",
-      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/C03_capture-v2.json",
-      "request_template_sha256": "ec59acd331aac6d849104813556de23256822ac5ba27d1f6f815760bf5923e85",
+      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/C03_capture-v3.txt",
+      "prompt_sha256": "ad15d651192fa9cb708c7a4719d7cfdf41cc8c37488ff36871d1bdd435467d24",
+      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/C03_capture-v3.json",
+      "request_template_sha256": "7e96c04421b08afb680b8b4cd366df268018a55ed906a7cf00fbe2ac4196c018",
       "references": [
         {
           "image_slot": 0,
           "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-orbit-locked-v2.png",
           "sha256": "db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b",
-          "role": "craft/arm continuity",
+          "role": "PROP-satellite-orbit-locked-v2.png",
           "owner_approved": false
         },
         {
           "image_slot": 1,
           "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/A-polymer-gripper-product.png",
           "sha256": "aeb0526b4bd804851df6f1177b04b587f7cf1ecef5d5040b672559cc7659f6f0",
-          "role": "PRODUCT design authority — same as B01/B02",
+          "role": "A-polymer-gripper-product.png",
           "owner_approved": false
         },
         {
           "image_slot": 2,
-          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-gripper-capture-scrap.png",
-          "sha256": "c399dbfb6a9e3e4955d337933cdbae9cf3bb3e00e17873c8496564910b7be8b9",
-          "role": "capture action language",
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-capture-contact.png",
+          "sha256": "d378987cbe9e5b313e43572243c1e1984462064e6fe649bdc63e682dcfd0b5a3",
+          "role": "PROP-polymer-gripper-capture-contact.png",
           "owner_approved": false
         }
       ],
-      "execute": false
+      "execute": false,
+      "previous_active_version": "C03_capture-v2",
+      "launch_readiness": "references_registered_awaiting_owner_review",
+      "editorial_status": "not_approved"
     },
     {
       "clip_id": "C04_recycle",
-      "active_version": "C04_recycle-v2",
+      "active_version": "C04_recycle-v3",
       "duration_s": 6,
       "aspect_ratio": "16:9",
       "depends_on": [
         "C03_capture"
       ],
-      "semantic_start": "Фрагмент в пресс-модуле",
+      "semantic_start": "Тот же один металлический обломок загружен между плитами орбитального пресса",
       "semantic_end": "Прямоугольный блок сформирован",
-      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/C04_recycle-v2.txt",
-      "prompt_sha256": "d4cf9f562161c615e6b23817874732217f69abe324f60a937e007bf90e3ed6ba",
-      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/C04_recycle-v2.json",
-      "request_template_sha256": "f48b25d543de578b9e2c9dd941a1066c9dbdb4dd8a3e30e9527363c319dc0a7d",
+      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/C04_recycle-v3.txt",
+      "prompt_sha256": "f629e39be84edd791c69044c7be3a9e17e64b5c93dce1a12fe5dbf8a5078f171",
+      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/C04_recycle-v3.json",
+      "request_template_sha256": "b7c8d7d36112df6ac02bd57c67ace3d517838a9262af9ad27ed44cff4f9dccbe",
       "references": [
         {
           "image_slot": 0,
-          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-orbital-press-block.png",
-          "sha256": "dc7d5670090653057e8af5c5632e7406a482919ddab5a42b899bfab3f98c7160",
-          "role": "press→block",
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-press-scrap-loaded.png",
+          "sha256": "6cf41a9dd1c90b323eacb4a7df22ef5463cfac0de70476c263f259852f8062d4",
+          "role": "PROP-press-scrap-loaded.png",
           "owner_approved": false
         },
         {
           "image_slot": 1,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-orbital-press-block.png",
+          "sha256": "dc7d5670090653057e8af5c5632e7406a482919ddab5a42b899bfab3f98c7160",
+          "role": "PROP-orbital-press-block.png",
+          "owner_approved": false
+        },
+        {
+          "image_slot": 2,
           "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-orbit-locked-v2.png",
           "sha256": "db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b",
-          "role": "craft family continuity optional",
+          "role": "PROP-satellite-orbit-locked-v2.png",
           "owner_approved": false
         }
       ],
-      "execute": false
+      "execute": false,
+      "previous_active_version": "C04_recycle-v2",
+      "launch_readiness": "references_registered_awaiting_owner_review",
+      "editorial_status": "not_approved"
     },
     {
       "clip_id": "C05_station",
-      "active_version": "C05_station-v2",
+      "active_version": "C05_station-v3",
       "duration_s": 5,
       "aspect_ratio": "16:9",
       "depends_on": [
@@ -646,20 +685,23 @@
       ],
       "semantic_start": "Широкий план оригинальной станции",
       "semantic_end": "Отъезд с Землёй в кадре",
-      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/C05_station-v2.txt",
-      "prompt_sha256": "3782b1c9ceb0ecccb61134b22632bb134f1de00102068e848ce9de8ff8d073f4",
-      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/C05_station-v2.json",
-      "request_template_sha256": "e081648e50cd3c24542a3e4e64554857ba50c0f1c53c3484d4b62b661b2f6734",
+      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/C05_station-v3.txt",
+      "prompt_sha256": "5b3609993d3594c2990747bbde40a698b3583dab0b351b7ce772c9d5b1dfaaa3",
+      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/C05_station-v3.json",
+      "request_template_sha256": "7ed43388010bc2a62f1ca6af512f733c0cf155b9409ca0e08c4a007c846a758a",
       "references": [
         {
           "image_slot": 0,
           "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/C-original-lattice-station.png",
           "sha256": "608aacc17bd40c768374ea21f3f0827c88b8a0131f44bcc373b47f14cc2b1e6e",
-          "role": "original fiction station only",
+          "role": "C-original-lattice-station.png",
           "owner_approved": false
         }
       ],
-      "execute": false
+      "execute": false,
+      "previous_active_version": "C05_station-v2",
+      "launch_readiness": "references_registered_awaiting_owner_review",
+      "editorial_status": "not_approved"
     },
     {
       "clip_id": "C06_cycle",
@@ -698,5 +740,7 @@
       ],
       "execute": false
     }
-  ]
+  ],
+  "updated_at": "2026-11-06T19:00:12.360Z",
+  "revision": "19 clips / 114 seconds, nine mechanically coherent v3 inputs"
 }
