@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-06T21:18:30+00:00",
-  "source_head": "0cf58a1826b15eed9b1f6b410e332f0bd220aa7f",
-  "source_fingerprint": "5dbeb327e86d6b6a4c817bcb439f134a89bc03f321526c3656a7b72312a78bb9",
+  "checked_at": "2026-11-06T21:19:17+00:00",
+  "source_head": "854a6774e5a857d92e8d08a947106e6ea875d740",
+  "source_fingerprint": "6bfd89c8564a052e44fd3b478933dcabad8e7fb2c3cabca9bc254f0b734be800",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -32,7 +32,6 @@
     "source_head": "0107904bad80907682f4854768885b56d7d8d8da"
   },
   "reasons": [
-    "project master/status mismatch: raznoe",
     "checkpoint anchor missing or ambiguous"
   ],
   "selected_work": null,
@@ -210,8 +209,8 @@
     },
     {
       "file": "projects/raznoe/HANDOFF.md",
-      "sha256": "5d8abe7be927d4ae4e1357e34c754b75a2a27bac38014731886ad381b9c475d5",
-      "bytes": 9619
+      "sha256": "68519d3ce5be40e13a8ba23402ece368f5e0b577f7aedbdcdaef2f8eb071e14e",
+      "bytes": 10161
     },
     {
       "file": "projects/raznoe/INSTRUCTIONS.md",
@@ -225,13 +224,13 @@
     },
     {
       "file": "projects/raznoe/project-status.json",
-      "sha256": "b55080130e1ee73b847a21bd37f0e808b5afb00671cd2adcec402353c44d4b66",
-      "bytes": 9521
+      "sha256": "9c61e2a110ed47cc4523500e3ef152827dc57fec9454806d8ab543f6ea3be674",
+      "bytes": 9519
     },
     {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
-      "sha256": "fb2abab93349cf6987604c6ba22eb723beae6c62dfd3ca1f36b76be8694b7c73",
-      "bytes": 46872
+      "sha256": "8fbc341826942de8fc96bf9584c141517311c048dcaf29983dbca547e9793685",
+      "bytes": 48252
     },
     {
       "file": "projects/raznoe/reports/handoff-receipts.json",
@@ -264,5 +263,5 @@
       "bytes": 1353952
     }
   ],
-  "packet_bytes": 3887
+  "packet_bytes": 3846
 }
