@@ -37,9 +37,10 @@
     "repair": "release own general lock after current canonical checkpoint; keep project lock for new work"
   },
   "next_actions": [
-    "Upload verified fourth press PNG to GitHub Pages under exact canonical path; do not substitute a URL.",
-    "Transfer nine v3 prompt+ref mappings from plan into active cut with SHA checks and 19/114 preserved.",
-    "Get licensed official HONOR product art and owner QC; no video submissions or credit use."
+    "Check Projects status and Pages workflow after canonical blank-spacing fix; read back public Pages asset.",
+    "Review 9 v3 active prompt/ref pairs and 4 mechanical PNGs with owner, no video submission without explicit separate approval.",
+    "HONOR Magic9 Pro Max: official licensed front/back/camera product images and owner voiceover sign-off.",
+    "Keep and remaining 8 HTTPS subdomains remain independent not-completed work."
   ],
   "generated_images": 4,
   "video_submissions": 0,
@@ -67,23 +68,29 @@
       "qc": "visual_reference_passed_not_approved"
     }
   ],
-  "updated_at": "2026-11-06T18:07:30.095Z",
+  "updated_at": "2026-11-06T19:15:51.052Z",
   "generated_images_count_scope": "QC-passed generated references saved in canon; excludes rejected drafts and downloaded official product sources.",
   "resource_reference_progress": {
-    "saved": 3,
+    "saved": 4,
     "expected": 4,
     "last_saved": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-capture-contact.png",
     "manifest_path": "projects/raznoe/references/scenes/scene-3/expansion/improvement-reference-manifest.json",
     "manifest_sha256": "dedb93cda7e75e156b13245e54c5afed08dd95ad717aa6dc20f0230ad2cf09e8",
-    "active_video_input_revisions_integrated": false,
+    "active_video_input_revisions_integrated": true,
     "motion_audio_qc": false,
     "editorial_status": "not_approved",
-    "private_library_images": 1,
-    "pending_public_png": "PROP-press-scrap-loaded.png",
+    "private_library_images": 0,
+    "pending_public_png": null,
     "pending_public_sha256": "6cf41a9dd1c90b323eacb4a7df22ef5463cfac0de70476c263f259852f8062d4",
-    "pending_library_file_id": "libfile_097cf5615ae081919d2273523d3acac1",
+    "pending_library_file_id": null,
     "draft_video_input_revisions": 9,
-    "draft_plan": "projects/raznoe/references/scenes/scene-3/expansion/improvement-v3-plan.json"
+    "draft_plan": "projects/raznoe/references/scenes/scene-3/expansion/improvement-v3-plan.json",
+    "site_asset_path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-press-scrap-loaded.png",
+    "site_asset_git_blob_sha": "b07f48d47b1c66e1164ca7d0859bccca730f0919",
+    "source_commit": "93b3c14065c6ad23cf63671872fae817d60f455f",
+    "active_cut_commit": "7d630c89611bdc85c4f06a61e2734cf534d4754d",
+    "master_commit": "4bb9298fc8949d350e7354b40082125d928db916",
+    "public_https_readback_verified": false
   },
   "guide_delivery": {
     "status": "delivered_and_read_back",

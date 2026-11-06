@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "raznoe",
-  "last_updated_at": "2026-11-06T18:07:30.095Z",
+  "last_updated_at": "2026-11-06T19:15:51.052Z",
   "active_work": [
     {
       "work_id": "RAZNOE-SCENE3-RESOURCE",
@@ -176,14 +176,15 @@
     {
       "work_id": "RAZNOE-RESOURCE-HONOR-SASHA-20261106",
       "title": "Доработка RESOURCE/HONOR, референсы Magic9 Pro Max и руководство Саше",
-      "status": "in_progress",
-      "updated_at": "2026-11-06T18:07:30.095Z",
+      "status": "awaiting_editorial_review",
+      "updated_at": "2026-11-06T19:15:51.052Z",
       "owner_quote": "Сцену с Бутылками и хонором доведи до совершенства. Дорисуй где нужно референсные изображения. Для хонора по их последней модели телефона. На сайте предупреждение висит. На диске в папку Саша скинь инструкции по ведению промтов, сцен и работе видео моделями. Напиши понятными словами для Саши файлик как этим всем пользоваться, как запускать видео, как самостоятельно писать сцены, промты, как делать картинки и как видео для его бутылок переработки отходов космическими спутниками.",
       "completed": [
         "Подтверждены поручение, последняя модель телефона, папка Саша и фактическое предупреждение сайта.",
-        "2026-11-06T18:07:30.095Z: Four RESOURCE press/engineering images created total (3 GitHub, fourth Library), nine v3 draft prompts in improvement-v3-plan.json (commit 758abe9); HONOR 36 audio prompts corrected (240f6a7), 15 filmwide voice lines mapped (8b80b26), official product source links saved (60ffe5b). No video/paid credits."
+        "2026-11-06T18:07:30.095Z: Four RESOURCE press/engineering images created total (3 GitHub, fourth Library), nine v3 draft prompts in improvement-v3-plan.json (commit 758abe9); HONOR 36 audio prompts corrected (240f6a7), 15 filmwide voice lines mapped (8b80b26), official product source links saved (60ffe5b). No video/paid credits.",
+        "2026-11-06T19:15:51.052Z: RESOURCE 4/4 PNG in GitHub, 9 v3 prompt/request pairs and active cut, master site published, 19×114 unchanged; HTML spacing fixed, workflows pending readback."
       ],
-      "next_action": "Publish the created press reference PNG from private Library libfile_097cf5615ae081919d2273523d3acac1 to the canonical GitHub path with SHA verification, then integrate nine v3 source-authority prompts while preserving 19 clips / 114 seconds and review DRAFT. For HONOR, product images and rights remain pending. No video submit, no credits.",
+      "next_action": "RESOURCE 4/4 PNG and 9/9 v3 integrated in 19 clips/114s; check project validation/Pages then owner QC of mechanical continuity. HONOR product art rights and 3×120s video finish pending. Do not launch video or spend credits without new explicit authorization.",
       "canonical_refs": [
         "projects/raznoe/reports/resource-honor-sasha-2026-11-06.json",
         "projects/raznoe/video-prompts.md",
@@ -192,13 +193,13 @@
       "blockers": [],
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-06T18:07:30.095Z",
-        "last_completed": "Saved nine RESOURCE draft revisions and HONOR 36 prompt + 15 voice lines, new press PNG in private Library only. No video/credit use.",
-        "next_action": "Publish the created press reference PNG from private Library libfile_097cf5615ae081919d2273523d3acac1 to the canonical GitHub path with SHA verification, then integrate nine v3 source-authority prompts while preserving 19 clips / 114 seconds and review DRAFT. For HONOR, product images and rights remain pending. No video submit, no credits.",
+        "verified_at": "2026-11-06T19:15:51.052Z",
+        "last_completed": "Four new RESOURCE PNGs and nine active v3 prompts are recorded in GitHub with 19×114s; validation fix shipped; no paid/video submissions.",
+        "next_action": "RESOURCE 4/4 PNG and 9/9 v3 integrated in 19 clips/114s; check project validation/Pages then owner QC of mechanical continuity. HONOR product art rights and 3×120s video finish pending. Do not launch video or spend credits without new explicit authorization.",
         "checkpoint": {
           "file": "projects/raznoe/reports/current-work-checkpoint.md",
-          "anchor": "# 06.11.2026 — выполненные исправления HONOR",
-          "sha256": "b5db82c20b23ea54406a91a11a042fe79015e3035be9600b96f909e2e4425ff3"
+          "anchor": "# 06.11.2026 — RESOURCE: четыре PNG опубликованы, девять v3 активны",
+          "sha256": "98952e21195948964430308546aa2cc2b19a8b57150bc2d122464694758688cc"
         },
         "evidence": [
           {
@@ -212,14 +213,14 @@
         ],
         "read_next": [
           "projects/raznoe/reports/current-work-checkpoint.md",
-          "projects/raznoe/references/scenes/scene-3/expansion/improvement-v3-plan.json",
-          "projects/raznoe/references/scenes/scene-4/official-product-source-links.json",
-          "projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json"
+          "projects/raznoe/references/scenes/scene-3/expansion/active-cut.json",
+          "projects/raznoe/references/scenes/scene-3/expansion/improvement-reference-manifest.json",
+          "projects/raznoe/video-prompts.md"
         ],
         "blockers": [
-          "Fourth press PNG is private Library only, not on GitHub/Pages.",
-          "HONOR product art legal permission and owner review are absent; videos unapproved.",
-          "Cannot claim autonomous Keep completion or eight subdomain HTTPS certificates."
+          "Owner has not editorially approved the four mechanical references or nine video prompts.",
+          "No HONOR official licensed product art and final voiceover agreement.",
+          "Public HTTPS Pages validation after latest commit not yet confirmed."
         ]
       }
     }
