@@ -14,8 +14,8 @@
   "lease_commit": "58c1de9e26854c62c30930aa49f57a8a74b769f7",
   "started_at": "2026-11-06T20:32:33.190540Z",
   "receipt_started_at": "2026-11-06T20:39:16.438Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
     "source": "Topview connector, read-only",
@@ -35,13 +35,16 @@
       "fail": 23
     },
     "scope": "all_14_owned_boards_all_18_video_pages",
-    "scan_completed_before_lease_at": null
+    "scan_completed_before_lease_at": null,
+    "checked_at": "2026-11-06T20:36:15.369Z",
+    "timestamp_note": "Verified all-board connector scan completed by this observed UTC time; read-only"
   },
   "slots": {
     "capacity": 6,
     "occupied": 5,
     "free": 1,
-    "complete_scan_verified": true
+    "complete_scan_verified": true,
+    "source": "Read-only Topview connector full scan completed by 2026-11-06T20:36:15.369Z"
   },
   "selected_item": "S49B",
   "selected_item_priority": 1.21,
@@ -53,8 +56,8 @@
   "tinyfish_confirmed_cost_usd": 0,
   "topview_credits_cost": 0,
   "task_ids": [],
-  "outcome": null,
-  "blocker": null,
+  "outcome": "blocked_browser_input_unchanged",
+  "blocker": "S49B: 5/6 slots occupied, one free; native TinyFish UI file import of all six exact originals and selected Unlimited0 (720p, 16:9, quantity1) remain unverified from prior authenticated check. No new upload-path or mode evidence; repeat metered run prohibited. No Create.",
   "retryable": false,
   "acceptance": {
     "scheduled_runtime": true,
@@ -67,5 +70,51 @@
     "verified_new_task_id": false
   },
   "prior_run_id": "1c70b3d2-767c-8331-adaa-2227340a3448",
-  "updated_at": "2026-11-06T20:39:16.438Z"
+  "updated_at": "2026-11-06T20:41:39.889Z",
+  "checked_at": "2026-11-06T20:41:39.889Z",
+  "completed_at": "2026-11-06T20:41:39.889Z",
+  "lease_released_at": "2026-11-06T20:41:39.889Z",
+  "queue_sha": "4f880de6954ea55a77c4a720fa54556e424d8113",
+  "queued_candidate": "S49B",
+  "queue_reconciliation": {
+    "checked_at": "2026-11-06T20:41:39.889Z",
+    "submitted_count": 15,
+    "submitted_task_ids_checked": 15,
+    "all_submitted_found": true,
+    "all_on_canonical_board": true,
+    "claimed": 0,
+    "submitting": 0,
+    "submission_unknown": 0,
+    "selected_item_state": "waiting_for_slot",
+    "selected_item_task_id": null,
+    "readiness_source_queue_sha256": "879add3bf2a6befef4158e970730ce9f0a5c4fafe613ce070ff61abb72f9a218",
+    "readiness_source_task_map_sha256": "678d0c752fe3b30b29a78bc527e813658500fc40d557df529dd6f593ea449b1e",
+    "readiness_selected_ready": true,
+    "source_queue_unchanged_since_previous_verified_sha": true,
+    "source_task_map_updated_at": "2026-11-06T20:00:24Z"
+  },
+  "owner_tasks": {
+    "open_count": 1,
+    "taken_count": 0,
+    "not_taken_in_slot_cycle": true,
+    "open_task_ids": [
+      "self-heal-run-failed-sync-from-drive-202611061920"
+    ]
+  },
+  "bot_wake": {
+    "event_id": "slots:c48ed7e4:15",
+    "observed_at": "2026-11-06T20:10:27Z",
+    "status": "old_signal_not_treated_as_current_capacity; fresh Topview read-only scan used"
+  },
+  "peer_status": {
+    "work_preferred": true,
+    "work_preference_verified_at": "2026-11-02T11:18:32.530Z",
+    "ordinary_last_run_id": "1c70b3d2-767c-8331-adaa-2227340a3448",
+    "work_hh55_last_run_id": "49ea48dc-67ec-8325-91e9-11ffafd18787",
+    "work_hh55_recorded_status": "no_update",
+    "relay_last_run_id": "03890e64-7fb4-8320-aa91-6e3d4ade584d",
+    "relay_recorded_status": "no_update",
+    "work_current_gui_and_quota_not_verified_in_this_cycle": true
+  },
+  "finalization_note": "One exact-lease CAS release with final receipt; no queue/claim/retry/next_action change; no paid TinyFish run or Topview Create."
 }
