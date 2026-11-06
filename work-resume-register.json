@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-06T13:31:48+00:00",
+  "last_updated_at": "2026-11-06T13:37:48+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_for_slot",
-      "updated_at": "2026-11-06T13:31:48+00:00",
+      "updated_at": "2026-11-06T13:37:48+00:00",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "09:55 MSK check 29 Oct: full 13-board/19-page scan found 941 tasks and 5/6 active, but S62 stayed submission_unknown after its single browser-click timeout; no matching post-claim task was found, and canonical no-repeat policy blocked all further Create. Sampled 2fps QC of S28-A2 found critical face/hand occlusion at ~1.5–2.0s and weak amplitude; report saved, no owner approval or auto-retry. Phase A/B confirmed self-heal/project health ok, diagnosed Canon health runs 40826866588/40827062532/40827413477/40827874872, archived 3 terminal queue items, and verified canon-health ok/0 warnings.",
@@ -319,18 +319,18 @@
       },
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-06T13:31:48+00:00",
-        "last_completed": "Сверены обе share-ветки; работа HH:55 подтверждена совпавшими runtime/result/канонической квитанцией. Выполнена повторная HTTPS-проверка с честным остатком8поддоменов. Подтверждена доставка8файлов Саше. Keep, полный QC стыков и доработка RESOURCE/HONOR остаются незавершёнными.",
+        "verified_at": "2026-11-06T13:37:48+00:00",
+        "last_completed": "Сверены обе share-ветки; работа HH:55 подтверждена совпавшими runtime/result/канонической квитанцией. Выполнена повторная HTTPS-проверка с честным остатком8поддоменов. Подтверждена доставка8файлов Саше. Keep, полный QC стыков и доработка RESOURCE/HONOR остаются незавершёнными. Принята Work-смена epoch6.",
         "next_action": "При свободном слоте выполнить свежий полный preflight и взять готовый разрешённый item по priority; submitted не повторять. S52/S60/S61 ждут полного QC со звуком. Keep продолжать по приватному checkpoint. RESOURCE/HONOR доделывать под замком Разного. Проверить сертификаты/Pages восьми семейных поддоменов. Восемь файлов Саше доставлены; не дублировать.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
           "anchor": "# 06.11.2026 — повторная сверка связанных чатов, HTTPS и доставки Саше",
-          "sha256": "aefff1179202724dd4ff0db9627fa87e042141de1de1e21af3cc7f911ee305c7"
+          "sha256": "94a062b09377f2211ce77547a09423a46a8656679986f359da2313e37d70eafb"
         },
         "evidence": [
           {
             "file": "reports/work-continue-linked-chat-2026-11-06.json",
-            "sha256": "67d390a3842e3a7171252d4778fa3c0d0bf4ad5c250ee175de24b0a4670ecc50"
+            "sha256": "fa1c74f30613b5f1cf81118b23508767472f297618544e179321bb98e35f9bc8"
           }
         ],
         "read_next": [

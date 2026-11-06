@@ -790,6 +790,17 @@
       "resume_preflight": "passed",
       "canon_health": "ok; warnings=0; info=12"
     },
-    "publication_base_head": "e5be0a274d37ca6cc2de207201d2799047e45219"
+    "publication_base_head": "e5be0a274d37ca6cc2de207201d2799047e45219",
+    "foreground_takeover": {
+      "holder": "chatgpt:work:93c791ea-000f-442e-90b9-13502501c5c1",
+      "session_id": "work-continue-93c791ea-000f-442e-90b9-13502501c5c1",
+      "epoch": 6,
+      "accepted_at": "2026-11-06T13:36:47Z",
+      "source_head": "3d10334098e115e91438df8b4f24b9a7f8264aba",
+      "conversation_id": null,
+      "queue_changed": false,
+      "scheduled_peers_changed": false,
+      "project_lease_respected": true
+    }
   }
 }

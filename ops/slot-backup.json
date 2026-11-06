@@ -180,11 +180,11 @@
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024"
     },
     "work": {
-      "session_id": "work-continue-52421d0d-989e-479c-9fea-2a3fc9ce8f71",
-      "epoch": 5,
+      "session_id": "work-continue-93c791ea-000f-442e-90b9-13502501c5c1",
+      "epoch": 6,
       "conversation_id": null,
       "conversation_id_unavailable_reason": "not_exposed_by_current_tools",
-      "accepted_at": "2026-11-06T12:12:37Z",
+      "accepted_at": "2026-11-06T13:36:47Z",
       "source": "direct_owner_Продолжай",
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024"
     }
@@ -257,6 +257,17 @@
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "surface": "work",
       "retired_at": "2026-11-06T12:12:37Z"
+    },
+    {
+      "session_id": "work-continue-52421d0d-989e-479c-9fea-2a3fc9ce8f71",
+      "epoch": 5,
+      "conversation_id": null,
+      "conversation_id_unavailable_reason": "not_exposed_by_current_tools",
+      "accepted_at": "2026-11-06T12:12:37Z",
+      "source": "direct_owner_Продолжай",
+      "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+      "surface": "work",
+      "retired_at": "2026-11-06T13:36:47Z"
     }
   ],
   "schedule_change": {
