@@ -4143,6 +4143,16 @@
    "thumb_bytes": 34576,
    "src_sha256": "6033741fc98627274f3648e321bd519270dc09060d3997fbfedbe2f9b114a947"
   },
+  "references/scenes/scene-60/S60-P1-final-frame.png": {
+   "thumb": "references/thumbs/scenes/scene-60/S60-P1-final-frame.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1577949,
+   "thumb_bytes": 54108,
+   "src_sha256": "ddf2d57455ae30a25ae5448942162b04239403a7406dd8138ac2626e61bc2806"
+  },
   "references/scenes/scene-60/S60-owner-video-final.jpg": {
    "thumb": "references/thumbs/scenes/scene-60/S60-owner-video-final.jpg.webp",
    "width": 640,
@@ -4152,6 +4162,16 @@
    "src_bytes": 127298,
    "thumb_bytes": 27054,
    "src_sha256": "a7cc6bdc65f50434cabfaec5a42a0f15f26704ed21adbc38101ef1c5860c33e5"
+  },
+  "references/scenes/scene-61/S61-P1-final-frame.png": {
+   "thumb": "references/thumbs/scenes/scene-61/S61-P1-final-frame.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1526772,
+   "thumb_bytes": 36472,
+   "src_sha256": "d1dbc94caa427cfd02fa2a61f1d79894924829357eb97b2eaa0e1911004e8934"
   },
   "references/scenes/scene-61/S61-owner-video-opening.jpg": {
    "thumb": "references/thumbs/scenes/scene-61/S61-owner-video-opening.jpg.webp",
