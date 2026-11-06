@@ -2,29 +2,45 @@
   "schema_version": 1,
   "project": "roscosmos",
   "scene_id": 30,
-  "updated_at": "2026-11-02T22:30:00Z",
+  "updated_at": "2026-11-06T04:35:00Z",
   "assets": [
     {
       "path": "projects/roscosmos/references/scenes/scene-30/tt30-chips.png",
+      "caption": "Терра Тех: стопка серых кадров",
       "prompt_file": "projects/roscosmos/references/scenes/scene-30/tt30-chips.image-prompt.txt",
+      "created_by": "grok",
+      "created_at": "2026-11-06T04:35:00Z",
+      "source_type": "ai_generated_concept",
       "editorial_status": "not_approved",
-      "asset_status": "pending",
-      "width": 1672,
-      "height": 941,
-      "aspect_ratio": "16:9",
-      "sha256": null,
-      "note": "PNG рисует владелец по prompt_file. Файл изображения ещё не существует."
+      "asset_status": "ready",
+      "sha256": "cc88cd7bfca3eaa16219efffcd504c9955fc741706fa069892ee8c297e80dabe",
+      "scenes": [
+        30
+      ],
+      "width": 1080,
+      "height": 1920,
+      "aspect_ratio": "9:16",
+      "note": "Готовый PNG 1080×1920 (9:16). Художественная приёмка не выставлена.",
+      "technical_qc": "Файл сверен с sha256.json архива. Размер 1080×1920. Это постановочный концепт, не одобрение владельца и не документальный снимок."
     },
     {
       "path": "projects/roscosmos/references/scenes/scene-30/tt30-sheet.png",
+      "caption": "Терра Тех: цветной лист заказчику",
       "prompt_file": "projects/roscosmos/references/scenes/scene-30/tt30-sheet.image-prompt.txt",
+      "created_by": "grok",
+      "created_at": "2026-11-06T04:35:00Z",
+      "source_type": "ai_generated_concept",
       "editorial_status": "not_approved",
-      "asset_status": "pending",
-      "width": 1672,
-      "height": 941,
-      "aspect_ratio": "16:9",
-      "sha256": null,
-      "note": "PNG рисует владелец по prompt_file. Файл изображения ещё не существует."
+      "asset_status": "ready",
+      "sha256": "84b0667343bd4cc9a34a44ac0c9bcdafba6c04085691203e8a86175166118dd6",
+      "scenes": [
+        30
+      ],
+      "width": 1080,
+      "height": 1920,
+      "aspect_ratio": "9:16",
+      "note": "Готовый PNG 1080×1920 (9:16). Художественная приёмка не выставлена.",
+      "technical_qc": "Файл сверен с sha256.json архива. Размер 1080×1920. Это постановочный концепт, не одобрение владельца и не документальный снимок."
     }
   ]
 }

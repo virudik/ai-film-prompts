@@ -1623,6 +1623,86 @@
    "thumb_bytes": 72916,
    "src_sha256": "853e1729eed4bef02b6f1a80d9b6475b7ae626abb69fc33b1262dc8d6ab92859"
   },
+  "projects/roscosmos/references/scenes/scene-26/tt26-orbit.png": {
+   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-26/tt26-orbit.png.webp",
+   "width": 360,
+   "height": 640,
+   "src_width": 1080,
+   "src_height": 1920,
+   "src_bytes": 2691627,
+   "thumb_bytes": 38804,
+   "src_sha256": "f011f6c28104ec179aa2ae8eaeb07c787342543718d8be3fda6db069e88ff253"
+  },
+  "projects/roscosmos/references/scenes/scene-26/tt26-report.png": {
+   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-26/tt26-report.png.webp",
+   "width": 360,
+   "height": 640,
+   "src_width": 1080,
+   "src_height": 1920,
+   "src_bytes": 1821979,
+   "thumb_bytes": 23018,
+   "src_sha256": "48b30052c23b6d2b709ef19ed0a1e6ca47f0a04e00e4adc3b3109fe7b10518be"
+  },
+  "projects/roscosmos/references/scenes/scene-27/tt27-layer.png": {
+   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-27/tt27-layer.png.webp",
+   "width": 360,
+   "height": 640,
+   "src_width": 1080,
+   "src_height": 1920,
+   "src_bytes": 2312152,
+   "thumb_bytes": 35394,
+   "src_sha256": "c17e77f6f70d9185fa445c9c89d0e89d7f4be2318fb2a737e0cb62ecbef75363"
+  },
+  "projects/roscosmos/references/scenes/scene-27/tt27-tablet.png": {
+   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-27/tt27-tablet.png.webp",
+   "width": 360,
+   "height": 640,
+   "src_width": 1080,
+   "src_height": 1920,
+   "src_bytes": 2306734,
+   "thumb_bytes": 40080,
+   "src_sha256": "0314f038f4cc3a8b41d37e1d2e6af2373467111d59f008bd0e4062271df8f3e2"
+  },
+  "projects/roscosmos/references/scenes/scene-28/tt28-clearing.png": {
+   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-28/tt28-clearing.png.webp",
+   "width": 360,
+   "height": 640,
+   "src_width": 1080,
+   "src_height": 1920,
+   "src_bytes": 3978544,
+   "thumb_bytes": 98678,
+   "src_sha256": "7ef84dc7c4927e100c2beb0994ddc3f588ec53c029cb5afa50cbb3bd5cbcc4fb"
+  },
+  "projects/roscosmos/references/scenes/scene-28/tt28-pair.png": {
+   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-28/tt28-pair.png.webp",
+   "width": 360,
+   "height": 640,
+   "src_width": 1080,
+   "src_height": 1920,
+   "src_bytes": 3834534,
+   "thumb_bytes": 90020,
+   "src_sha256": "8d92eb5f2b5171d4b4b2ac39f34d379571940306679578bfb184c9c51358e68c"
+  },
+  "projects/roscosmos/references/scenes/scene-29/tt29-fence.png": {
+   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-29/tt29-fence.png.webp",
+   "width": 360,
+   "height": 640,
+   "src_width": 1080,
+   "src_height": 1920,
+   "src_bytes": 2971223,
+   "thumb_bytes": 60850,
+   "src_sha256": "56d6b3ba52462be5fd31d19b2c46d5c6399f316db75b226c0ccf53a4470ce5a2"
+  },
+  "projects/roscosmos/references/scenes/scene-29/tt29-print.png": {
+   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-29/tt29-print.png.webp",
+   "width": 360,
+   "height": 640,
+   "src_width": 1080,
+   "src_height": 1920,
+   "src_bytes": 1772456,
+   "thumb_bytes": 18180,
+   "src_sha256": "e0a0e614dafac1e5fe55984ea9a0777f5fac1c6850723701dc385737f3809ba9"
+  },
   "projects/roscosmos/references/scenes/scene-3/q09-evening.png": {
    "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-3/q09-evening.png.webp",
    "width": 640,
@@ -1642,6 +1722,26 @@
    "src_bytes": 1453902,
    "thumb_bytes": 21292,
    "src_sha256": "e0ac612d2ad56e5476d1c987887b0a7d3123545c121e4eec976c6595a0ddfa72"
+  },
+  "projects/roscosmos/references/scenes/scene-30/tt30-chips.png": {
+   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-30/tt30-chips.png.webp",
+   "width": 360,
+   "height": 640,
+   "src_width": 1080,
+   "src_height": 1920,
+   "src_bytes": 1364709,
+   "thumb_bytes": 16502,
+   "src_sha256": "cc88cd7bfca3eaa16219efffcd504c9955fc741706fa069892ee8c297e80dabe"
+  },
+  "projects/roscosmos/references/scenes/scene-30/tt30-sheet.png": {
+   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-30/tt30-sheet.png.webp",
+   "width": 360,
+   "height": 640,
+   "src_width": 1080,
+   "src_height": 1920,
+   "src_bytes": 1129960,
+   "thumb_bytes": 11630,
+   "src_sha256": "84b0667343bd4cc9a34a44ac0c9bcdafba6c04085691203e8a86175166118dd6"
   },
   "projects/roscosmos/references/scenes/scene-4/s10-spectral.png": {
    "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-4/s10-spectral.png.webp",

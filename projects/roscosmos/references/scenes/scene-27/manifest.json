@@ -2,29 +2,45 @@
   "schema_version": 1,
   "project": "roscosmos",
   "scene_id": 27,
-  "updated_at": "2026-11-02T22:30:00Z",
+  "updated_at": "2026-11-06T04:35:00Z",
   "assets": [
     {
-      "path": "projects/roscosmos/references/scenes/scene-27/tt27-tablet.png",
-      "prompt_file": "projects/roscosmos/references/scenes/scene-27/tt27-tablet.image-prompt.txt",
+      "path": "projects/roscosmos/references/scenes/scene-27/tt27-layer.png",
+      "caption": "Терра Тех: цветной слой на планшете",
+      "prompt_file": "projects/roscosmos/references/scenes/scene-27/tt27-layer.image-prompt.txt",
+      "created_by": "grok",
+      "created_at": "2026-11-06T04:35:00Z",
+      "source_type": "ai_generated_concept",
       "editorial_status": "not_approved",
-      "asset_status": "pending",
-      "width": 1672,
-      "height": 941,
-      "aspect_ratio": "16:9",
-      "sha256": null,
-      "note": "PNG рисует владелец по prompt_file. Файл изображения ещё не существует."
+      "asset_status": "ready",
+      "sha256": "c17e77f6f70d9185fa445c9c89d0e89d7f4be2318fb2a737e0cb62ecbef75363",
+      "scenes": [
+        27
+      ],
+      "width": 1080,
+      "height": 1920,
+      "aspect_ratio": "9:16",
+      "note": "Готовый PNG 1080×1920 (9:16). Художественная приёмка не выставлена.",
+      "technical_qc": "Файл сверен с sha256.json архива. Размер 1080×1920. Это постановочный концепт, не одобрение владельца и не документальный снимок."
     },
     {
-      "path": "projects/roscosmos/references/scenes/scene-27/tt27-layer.png",
-      "prompt_file": "projects/roscosmos/references/scenes/scene-27/tt27-layer.image-prompt.txt",
+      "path": "projects/roscosmos/references/scenes/scene-27/tt27-tablet.png",
+      "caption": "Терра Тех: планшет в поле",
+      "prompt_file": "projects/roscosmos/references/scenes/scene-27/tt27-tablet.image-prompt.txt",
+      "created_by": "grok",
+      "created_at": "2026-11-06T04:35:00Z",
+      "source_type": "ai_generated_concept",
       "editorial_status": "not_approved",
-      "asset_status": "pending",
-      "width": 1672,
-      "height": 941,
-      "aspect_ratio": "16:9",
-      "sha256": null,
-      "note": "PNG рисует владелец по prompt_file. Файл изображения ещё не существует."
+      "asset_status": "ready",
+      "sha256": "0314f038f4cc3a8b41d37e1d2e6af2373467111d59f008bd0e4062271df8f3e2",
+      "scenes": [
+        27
+      ],
+      "width": 1080,
+      "height": 1920,
+      "aspect_ratio": "9:16",
+      "note": "Готовый PNG 1080×1920 (9:16). Художественная приёмка не выставлена.",
+      "technical_qc": "Файл сверен с sha256.json архива. Размер 1080×1920. Это постановочный концепт, не одобрение владельца и не документальный снимок."
     }
   ]
 }

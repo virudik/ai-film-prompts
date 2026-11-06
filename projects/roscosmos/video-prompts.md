@@ -5018,18 +5018,18 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Источники (проверка 02.11.2026):** [Терра Тех — о компании](https://terratech.ru/company/) · [15.04.2026 — интервью](https://terratech.ru/company/news/kosmos-za-kopeyki-kak-neyroseti-i-snimki-iz-kosmosa-spasayut-biznes-i-ekonomyat-milliony/).
 
-**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-26/tt26-report.png`, горизонталь 1672×941, ещё не нарисован. @Image2 — `projects/roscosmos/references/scenes/scene-26/tt26-orbit.png`, тот же размер. Описание для рисунка: `tt26-report.image-prompt.txt` и `tt26-orbit.image-prompt.txt`.
+**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-26/tt26-report.png`, файл 1080×1920 добавлен, not_approved. @Image2 — `projects/roscosmos/references/scenes/scene-26/tt26-orbit.png`, тот же размер. Описание для рисунка: `tt26-report.image-prompt.txt` и `tt26-orbit.image-prompt.txt`.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/roscosmos/references/scenes/scene-26/tt26-report.image-prompt.txt"><figcaption>@Image1 — аналитик и высокий монитор. PNG 1672×941 ещё нет. Рисовать по tt26-report.image-prompt.txt, холст 1672×941.</figcaption></a></figure>
-<figure><a href="projects/roscosmos/references/scenes/scene-26/tt26-orbit.image-prompt.txt"><figcaption>@Image2 — та же дельта с орбиты. PNG 1672×941 ещё нет. Рисовать по tt26-orbit.image-prompt.txt, холст 1672×941.</figcaption></a></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-26/tt26-report.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-26/tt26-report.png" alt="@Image1 — аналитик и высокий монитор" loading="lazy"></a><figcaption>@Image1 — аналитик и высокий монитор. Созданный концепт, not_approved, 1080×1920.</figcaption></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-26/tt26-orbit.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-26/tt26-orbit.png" alt="@Image2 — та же дельта с орбиты" loading="lazy"></a><figcaption>@Image2 — та же дельта с орбиты. Созданный концепт, not_approved, 1080×1920.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Снимок становится отчётом только после того, как на него посмотрел человек.»
 
 **Финальный титр для монтажа:** Терра Тех. Отчёт проверяют глазами.
 
-**Готовность:** Тексты готовы 02.11.2026. Оба PNG pending, not_approved, 1672×941. В очередь не ставить: проект на паузе, картинок ещё нет. Часть 2 ждёт последние 3 секунды настоящей части 1.
+**Готовность:** Тексты готовы 02.11.2026. Оба PNG добавлены, 1080×1920, not_approved. В очередь не ставить: проект на паузе. Часть 2 ждёт последние 3 секунды настоящей части 1.
 
 **Режиссёрский контроль:** Один и тот же контур дельты в космосе и на мониторе. Маска без подписей. Горизонтальная композиция 16:9 на весь кадр.
 
@@ -5205,18 +5205,18 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Источники (проверка 02.11.2026):** [15.04.2026 — интервью на сайте Терра Тех](https://terratech.ru/company/news/kosmos-za-kopeyki-kak-neyroseti-i-snimki-iz-kosmosa-spasayut-biznes-i-ekonomyat-milliony/).
 
-**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-27/tt27-tablet.png`. @Image2 — `projects/roscosmos/references/scenes/scene-27/tt27-layer.png`. Оба 1672×941, pending. Промпты рисунка рядом, `tt27-*.image-prompt.txt`.
+**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-27/tt27-tablet.png`. @Image2 — `projects/roscosmos/references/scenes/scene-27/tt27-layer.png`. Оба файла 1080×1920 добавлены, not_approved. Промпты рисунка рядом, `tt27-*.image-prompt.txt`.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/roscosmos/references/scenes/scene-27/tt27-tablet.image-prompt.txt"><figcaption>@Image1 — планшет и три пустых круга. Рисовать по tt27-tablet.image-prompt.txt, холст 1672×941.</figcaption></a></figure>
-<figure><a href="projects/roscosmos/references/scenes/scene-27/tt27-layer.image-prompt.txt"><figcaption>@Image2 — тот же планшет уже со слоем. Рисовать по tt27-layer.image-prompt.txt, холст 1672×941.</figcaption></a></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-27/tt27-tablet.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-27/tt27-tablet.png" alt="@Image1 — планшет и три пустых круга" loading="lazy"></a><figcaption>@Image1 — планшет и три пустых круга. Созданный концепт, not_approved, 1080×1920.</figcaption></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-27/tt27-layer.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-27/tt27-layer.png" alt="@Image2 — тот же планшет уже со слоем" loading="lazy"></a><figcaption>@Image2 — тот же планшет уже со слоем. Созданный концепт, not_approved, 1080×1920.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Три понятных действия. Цифру на экране мы не обещаем.»
 
 **Финальный титр для монтажа:** Терра Тех. Слой собирается сам.
 
-**Готовность:** PNG pending, not_approved, 16:9, 1672×941. Цену не рисовать и не запускать, пока картинок нет и пауза не снята.
+**Готовность:** PNG добавлены, 1080×1920, not_approved. Цену не рисовать и не запускать: проект на паузе.
 
 **Режиссёрский контроль:** Никакой цены, валюты и надписи «шаг 1». Поле на экране и поле за спиной — одно и то же.
 
@@ -5392,18 +5392,18 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Источники (проверка 02.11.2026):** [27.02.2026 — пресс-релиз «Эксперт РА»](https://raexpert.ru/releases/2026/feb27b).
 
-**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-28/tt28-clearing.png`. @Image2 — `projects/roscosmos/references/scenes/scene-28/tt28-pair.png`. Оба 1672×941, pending.
+**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-28/tt28-clearing.png`. @Image2 — `projects/roscosmos/references/scenes/scene-28/tt28-pair.png`. Оба файла 1080×1920 добавлены, not_approved.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/roscosmos/references/scenes/scene-28/tt28-clearing.image-prompt.txt"><figcaption>@Image1 — кроны и одна вырубка. Рисовать по tt28-clearing.image-prompt.txt, холст 1672×941.</figcaption></a></figure>
-<figure><a href="projects/roscosmos/references/scenes/scene-28/tt28-pair.image-prompt.txt"><figcaption>@Image2 — две даты одной стопкой. Рисовать по tt28-pair.image-prompt.txt, холст 1672×941.</figcaption></a></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-28/tt28-clearing.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-28/tt28-clearing.png" alt="@Image1 — кроны и одна вырубка" loading="lazy"></a><figcaption>@Image1 — кроны и одна вырубка. Созданный концепт, not_approved, 1080×1920.</figcaption></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-28/tt28-pair.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-28/tt28-pair.png" alt="@Image2 — две даты одной стопкой" loading="lazy"></a><figcaption>@Image2 — две даты одной стопкой. Созданный концепт, not_approved, 1080×1920.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Две даты. Один лес. Разницу видно без таблицы.»
 
 **Финальный титр для монтажа:** Терра Тех. Лес сравнивают по снимку.
 
-**Готовность:** PNG pending, not_approved. В очередь не добавлять.
+**Готовность:** PNG добавлены, 1080×1920, not_approved. В очередь не добавлять.
 
 **Режиссёрский контроль:** Никаких названий регионов, баллов и дат цифрами. Стык двух фото — тонкий край кадра, не чёрная полоса.
 
@@ -5576,18 +5576,18 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Источники (проверка 02.11.2026):** [Терра Тех — главная](https://terratech.ru/).
 
-**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-29/tt29-print.png`. @Image2 — `projects/roscosmos/references/scenes/scene-29/tt29-fence.png`. Оба 1672×941, pending.
+**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-29/tt29-print.png`. @Image2 — `projects/roscosmos/references/scenes/scene-29/tt29-fence.png`. Оба файла 1080×1920 добавлены, not_approved.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/roscosmos/references/scenes/scene-29/tt29-print.image-prompt.txt"><figcaption>@Image1 — снимок на столе. Рисовать по tt29-print.image-prompt.txt, холст 1672×941.</figcaption></a></figure>
-<figure><a href="projects/roscosmos/references/scenes/scene-29/tt29-fence.image-prompt.txt"><figcaption>@Image2 — та же изгородь на земле. Рисовать по tt29-fence.image-prompt.txt, холст 1672×941.</figcaption></a></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-29/tt29-print.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-29/tt29-print.png" alt="@Image1 — снимок на столе" loading="lazy"></a><figcaption>@Image1 — снимок на столе. Созданный концепт, not_approved, 1080×1920.</figcaption></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-29/tt29-fence.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-29/tt29-fence.png" alt="@Image2 — та же изгородь на земле" loading="lazy"></a><figcaption>@Image2 — та же изгородь на земле. Созданный концепт, not_approved, 1080×1920.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Снимок показывает линию. Вывод делают люди, не ролик.»
 
 **Финальный титр для монтажа:** Терра Тех. Снимок для разговора.
 
-**Готовность:** PNG pending, not_approved. Не ставить в очередь и не изображать суд.
+**Готовность:** PNG добавлены, 1080×1920, not_approved. В очередь не ставить и не изображать суд.
 
 **Режиссёрский контроль:** Никаких гербов, печатей, газетных заголовков и жестов ссоры.
 
@@ -5761,18 +5761,18 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Источники (проверка 02.11.2026):** [Терра Тех — о компании](https://terratech.ru/company/) · [15.04.2026 — ExpoCifra](https://terratech.ru/company/news/kosmos-dlya-tsifrovoy-ekonomiki-geotekhnologii-na-vystavke-expocifra-2026/).
 
-**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-30/tt30-chips.png`. @Image2 — `projects/roscosmos/references/scenes/scene-30/tt30-sheet.png`. Оба 1672×941, pending.
+**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-30/tt30-chips.png`. @Image2 — `projects/roscosmos/references/scenes/scene-30/tt30-sheet.png`. Оба файла 1080×1920 добавлены, not_approved.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/roscosmos/references/scenes/scene-30/tt30-chips.image-prompt.txt"><figcaption>@Image1 — стопка серых кадров. Рисовать по tt30-chips.image-prompt.txt, холст 1672×941.</figcaption></a></figure>
-<figure><a href="projects/roscosmos/references/scenes/scene-30/tt30-sheet.image-prompt.txt"><figcaption>@Image2 — один цветной лист. Рисовать по tt30-sheet.image-prompt.txt, холст 1672×941.</figcaption></a></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-30/tt30-chips.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-30/tt30-chips.png" alt="@Image1 — стопка серых кадров" loading="lazy"></a><figcaption>@Image1 — стопка серых кадров. Созданный концепт, not_approved, 1080×1920.</figcaption></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-30/tt30-sheet.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-30/tt30-sheet.png" alt="@Image2 — один цветной лист" loading="lazy"></a><figcaption>@Image2 — один цветной лист. Созданный концепт, not_approved, 1080×1920.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Заказчику нужен понятный слой, а не пачка безымянных кадров.»
 
 **Финальный титр для монтажа:** Терра Тех. Готовый слой.
 
-**Готовность:** PNG pending, not_approved. Сцену не запускать и в очередь не ставить.
+**Готовность:** PNG добавлены, 1080×1920, not_approved. Сцену не запускать и в очередь не ставить.
 
 **Режиссёрский контроль:** Не показывать антенну, каталог НЦ ОМЗ, цену и логотип на листе.
 

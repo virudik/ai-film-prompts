@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "project": "roscosmos",
-  "updated_at": "2026-11-02T22:30:00Z",
-  "source": "ChatGPT imagegen: исходные 8 концептов сохранены; 23.10.2026 добавлены 19 уникальных PNG, роли привязаны к 20 сценам. Все not_approved. 02.11.2026: сцены 26–30 Терра Тех, 10 горизонтальных PNG 1672×941 pending, not_approved.",
+  "updated_at": "2026-11-06T04:35:00Z",
+  "source": "ChatGPT imagegen: исходные 8 концептов сохранены; 23.10.2026 добавлены 19 уникальных PNG, роли привязаны к 20 сценам. Все not_approved. 06.11.2026: сцены 26–30 Терра Тех, 10 PNG 1080×1920 добавлены, not_approved.",
   "non_character_reference_rules": [
     "Индивидуальный лист персонажа всегда выше группового кадра или кадра локации для морды, окраса, телосложения и одежды.",
     "@Image1/@Image2/… — локальные обозначения внутри конкретного промта, не глобальные номера.",
@@ -1293,251 +1293,311 @@
     },
     {
       "id": "roscosmos-tt-26-tt26-report",
-      "name": "@Image1 — аналитик и высокий монитор. PNG 1672×941 ещё нет.",
+      "name": "Терра Тех: аналитик и монитор с отчётом",
       "kind": "situation_reference",
       "scenes": [
         26
       ],
       "editorial_status": "not_approved",
-      "asset_status": "pending",
-      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-26/tt26-report.image-prompt.txt. not_approved.",
-      "images": [],
-      "pending_images": [
+      "asset_status": "ready",
+      "notes": "Постановочный референс Терра Тех, 1080×1920, not_approved. Видео не запускать.",
+      "images": [
         {
-          "expected_path": "projects/roscosmos/references/scenes/scene-26/tt26-report.png",
+          "path": "projects/roscosmos/references/scenes/scene-26/tt26-report.png",
+          "caption": "Терра Тех: аналитик и монитор с отчётом",
           "prompt_file": "projects/roscosmos/references/scenes/scene-26/tt26-report.image-prompt.txt",
+          "created_by": "grok",
+          "created_at": "2026-11-06T04:35:00Z",
+          "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "asset_status": "pending",
-          "width": 1672,
-          "height": 941,
-          "aspect_ratio": "16:9",
-          "created_by": null,
-          "source_type": "pending_owner_drawing"
+          "asset_status": "ready",
+          "sha256": "48b30052c23b6d2b709ef19ed0a1e6ca47f0a04e00e4adc3b3109fe7b10518be",
+          "scenes": [
+            26
+          ],
+          "width": 1080,
+          "height": 1920,
+          "aspect_ratio": "9:16",
+          "technical_qc": "PNG 1080×1920 добавлен. not_approved. Не документальный снимок."
         }
       ]
     },
     {
       "id": "roscosmos-tt-26-tt26-orbit",
-      "name": "@Image2 — та же дельта с орбиты. PNG 1672×941 ещё нет.",
+      "name": "Терра Тех: дельта реки с орбиты",
       "kind": "situation_reference",
       "scenes": [
         26
       ],
       "editorial_status": "not_approved",
-      "asset_status": "pending",
-      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-26/tt26-orbit.image-prompt.txt. not_approved.",
-      "images": [],
-      "pending_images": [
+      "asset_status": "ready",
+      "notes": "Постановочный референс Терра Тех, 1080×1920, not_approved. Видео не запускать.",
+      "images": [
         {
-          "expected_path": "projects/roscosmos/references/scenes/scene-26/tt26-orbit.png",
+          "path": "projects/roscosmos/references/scenes/scene-26/tt26-orbit.png",
+          "caption": "Терра Тех: дельта реки с орбиты",
           "prompt_file": "projects/roscosmos/references/scenes/scene-26/tt26-orbit.image-prompt.txt",
+          "created_by": "grok",
+          "created_at": "2026-11-06T04:35:00Z",
+          "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "asset_status": "pending",
-          "width": 1672,
-          "height": 941,
-          "aspect_ratio": "16:9",
-          "created_by": null,
-          "source_type": "pending_owner_drawing"
+          "asset_status": "ready",
+          "sha256": "f011f6c28104ec179aa2ae8eaeb07c787342543718d8be3fda6db069e88ff253",
+          "scenes": [
+            26
+          ],
+          "width": 1080,
+          "height": 1920,
+          "aspect_ratio": "9:16",
+          "technical_qc": "PNG 1080×1920 добавлен. not_approved. Не документальный снимок."
         }
       ]
     },
     {
       "id": "roscosmos-tt-27-tt27-tablet",
-      "name": "@Image1 — планшет и три пустых круга.",
+      "name": "Терра Тех: планшет в поле",
       "kind": "situation_reference",
       "scenes": [
         27
       ],
       "editorial_status": "not_approved",
-      "asset_status": "pending",
-      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-27/tt27-tablet.image-prompt.txt. not_approved.",
-      "images": [],
-      "pending_images": [
+      "asset_status": "ready",
+      "notes": "Постановочный референс Терра Тех, 1080×1920, not_approved. Видео не запускать.",
+      "images": [
         {
-          "expected_path": "projects/roscosmos/references/scenes/scene-27/tt27-tablet.png",
+          "path": "projects/roscosmos/references/scenes/scene-27/tt27-tablet.png",
+          "caption": "Терра Тех: планшет в поле",
           "prompt_file": "projects/roscosmos/references/scenes/scene-27/tt27-tablet.image-prompt.txt",
+          "created_by": "grok",
+          "created_at": "2026-11-06T04:35:00Z",
+          "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "asset_status": "pending",
-          "width": 1672,
-          "height": 941,
-          "aspect_ratio": "16:9",
-          "created_by": null,
-          "source_type": "pending_owner_drawing"
+          "asset_status": "ready",
+          "sha256": "0314f038f4cc3a8b41d37e1d2e6af2373467111d59f008bd0e4062271df8f3e2",
+          "scenes": [
+            27
+          ],
+          "width": 1080,
+          "height": 1920,
+          "aspect_ratio": "9:16",
+          "technical_qc": "PNG 1080×1920 добавлен. not_approved. Не документальный снимок."
         }
       ]
     },
     {
       "id": "roscosmos-tt-27-tt27-layer",
-      "name": "@Image2 — тот же планшет уже со слоем.",
+      "name": "Терра Тех: цветной слой на планшете",
       "kind": "situation_reference",
       "scenes": [
         27
       ],
       "editorial_status": "not_approved",
-      "asset_status": "pending",
-      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-27/tt27-layer.image-prompt.txt. not_approved.",
-      "images": [],
-      "pending_images": [
+      "asset_status": "ready",
+      "notes": "Постановочный референс Терра Тех, 1080×1920, not_approved. Видео не запускать.",
+      "images": [
         {
-          "expected_path": "projects/roscosmos/references/scenes/scene-27/tt27-layer.png",
+          "path": "projects/roscosmos/references/scenes/scene-27/tt27-layer.png",
+          "caption": "Терра Тех: цветной слой на планшете",
           "prompt_file": "projects/roscosmos/references/scenes/scene-27/tt27-layer.image-prompt.txt",
+          "created_by": "grok",
+          "created_at": "2026-11-06T04:35:00Z",
+          "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "asset_status": "pending",
-          "width": 1672,
-          "height": 941,
-          "aspect_ratio": "16:9",
-          "created_by": null,
-          "source_type": "pending_owner_drawing"
+          "asset_status": "ready",
+          "sha256": "c17e77f6f70d9185fa445c9c89d0e89d7f4be2318fb2a737e0cb62ecbef75363",
+          "scenes": [
+            27
+          ],
+          "width": 1080,
+          "height": 1920,
+          "aspect_ratio": "9:16",
+          "technical_qc": "PNG 1080×1920 добавлен. not_approved. Не документальный снимок."
         }
       ]
     },
     {
       "id": "roscosmos-tt-28-tt28-clearing",
-      "name": "@Image1 — кроны и одна вырубка.",
+      "name": "Терра Тех: лес и вырубка",
       "kind": "situation_reference",
       "scenes": [
         28
       ],
       "editorial_status": "not_approved",
-      "asset_status": "pending",
-      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-28/tt28-clearing.image-prompt.txt. not_approved.",
-      "images": [],
-      "pending_images": [
+      "asset_status": "ready",
+      "notes": "Постановочный референс Терра Тех, 1080×1920, not_approved. Видео не запускать.",
+      "images": [
         {
-          "expected_path": "projects/roscosmos/references/scenes/scene-28/tt28-clearing.png",
+          "path": "projects/roscosmos/references/scenes/scene-28/tt28-clearing.png",
+          "caption": "Терра Тех: лес и вырубка",
           "prompt_file": "projects/roscosmos/references/scenes/scene-28/tt28-clearing.image-prompt.txt",
+          "created_by": "grok",
+          "created_at": "2026-11-06T04:35:00Z",
+          "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "asset_status": "pending",
-          "width": 1672,
-          "height": 941,
-          "aspect_ratio": "16:9",
-          "created_by": null,
-          "source_type": "pending_owner_drawing"
+          "asset_status": "ready",
+          "sha256": "7ef84dc7c4927e100c2beb0994ddc3f588ec53c029cb5afa50cbb3bd5cbcc4fb",
+          "scenes": [
+            28
+          ],
+          "width": 1080,
+          "height": 1920,
+          "aspect_ratio": "9:16",
+          "technical_qc": "PNG 1080×1920 добавлен. not_approved. Не документальный снимок."
         }
       ]
     },
     {
       "id": "roscosmos-tt-28-tt28-pair",
-      "name": "@Image2 — две даты одной стопкой.",
+      "name": "Терра Тех: две даты одного леса",
       "kind": "situation_reference",
       "scenes": [
         28
       ],
       "editorial_status": "not_approved",
-      "asset_status": "pending",
-      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-28/tt28-pair.image-prompt.txt. not_approved.",
-      "images": [],
-      "pending_images": [
+      "asset_status": "ready",
+      "notes": "Постановочный референс Терра Тех, 1080×1920, not_approved. Видео не запускать.",
+      "images": [
         {
-          "expected_path": "projects/roscosmos/references/scenes/scene-28/tt28-pair.png",
+          "path": "projects/roscosmos/references/scenes/scene-28/tt28-pair.png",
+          "caption": "Терра Тех: две даты одного леса",
           "prompt_file": "projects/roscosmos/references/scenes/scene-28/tt28-pair.image-prompt.txt",
+          "created_by": "grok",
+          "created_at": "2026-11-06T04:35:00Z",
+          "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "asset_status": "pending",
-          "width": 1672,
-          "height": 941,
-          "aspect_ratio": "16:9",
-          "created_by": null,
-          "source_type": "pending_owner_drawing"
+          "asset_status": "ready",
+          "sha256": "8d92eb5f2b5171d4b4b2ac39f34d379571940306679578bfb184c9c51358e68c",
+          "scenes": [
+            28
+          ],
+          "width": 1080,
+          "height": 1920,
+          "aspect_ratio": "9:16",
+          "technical_qc": "PNG 1080×1920 добавлен. not_approved. Не документальный снимок."
         }
       ]
     },
     {
       "id": "roscosmos-tt-29-tt29-print",
-      "name": "@Image1 — снимок на столе.",
+      "name": "Терра Тех: снимок на столе",
       "kind": "situation_reference",
       "scenes": [
         29
       ],
       "editorial_status": "not_approved",
-      "asset_status": "pending",
-      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-29/tt29-print.image-prompt.txt. not_approved.",
-      "images": [],
-      "pending_images": [
+      "asset_status": "ready",
+      "notes": "Постановочный референс Терра Тех, 1080×1920, not_approved. Видео не запускать.",
+      "images": [
         {
-          "expected_path": "projects/roscosmos/references/scenes/scene-29/tt29-print.png",
+          "path": "projects/roscosmos/references/scenes/scene-29/tt29-print.png",
+          "caption": "Терра Тех: снимок на столе",
           "prompt_file": "projects/roscosmos/references/scenes/scene-29/tt29-print.image-prompt.txt",
+          "created_by": "grok",
+          "created_at": "2026-11-06T04:35:00Z",
+          "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "asset_status": "pending",
-          "width": 1672,
-          "height": 941,
-          "aspect_ratio": "16:9",
-          "created_by": null,
-          "source_type": "pending_owner_drawing"
+          "asset_status": "ready",
+          "sha256": "e0a0e614dafac1e5fe55984ea9a0777f5fac1c6850723701dc385737f3809ba9",
+          "scenes": [
+            29
+          ],
+          "width": 1080,
+          "height": 1920,
+          "aspect_ratio": "9:16",
+          "technical_qc": "PNG 1080×1920 добавлен. not_approved. Не документальный снимок."
         }
       ]
     },
     {
       "id": "roscosmos-tt-29-tt29-fence",
-      "name": "@Image2 — та же изгородь на земле.",
+      "name": "Терра Тех: изгородь на земле",
       "kind": "situation_reference",
       "scenes": [
         29
       ],
       "editorial_status": "not_approved",
-      "asset_status": "pending",
-      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-29/tt29-fence.image-prompt.txt. not_approved.",
-      "images": [],
-      "pending_images": [
+      "asset_status": "ready",
+      "notes": "Постановочный референс Терра Тех, 1080×1920, not_approved. Видео не запускать.",
+      "images": [
         {
-          "expected_path": "projects/roscosmos/references/scenes/scene-29/tt29-fence.png",
+          "path": "projects/roscosmos/references/scenes/scene-29/tt29-fence.png",
+          "caption": "Терра Тех: изгородь на земле",
           "prompt_file": "projects/roscosmos/references/scenes/scene-29/tt29-fence.image-prompt.txt",
+          "created_by": "grok",
+          "created_at": "2026-11-06T04:35:00Z",
+          "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "asset_status": "pending",
-          "width": 1672,
-          "height": 941,
-          "aspect_ratio": "16:9",
-          "created_by": null,
-          "source_type": "pending_owner_drawing"
+          "asset_status": "ready",
+          "sha256": "56d6b3ba52462be5fd31d19b2c46d5c6399f316db75b226c0ccf53a4470ce5a2",
+          "scenes": [
+            29
+          ],
+          "width": 1080,
+          "height": 1920,
+          "aspect_ratio": "9:16",
+          "technical_qc": "PNG 1080×1920 добавлен. not_approved. Не документальный снимок."
         }
       ]
     },
     {
       "id": "roscosmos-tt-30-tt30-chips",
-      "name": "@Image1 — стопка серых кадров.",
+      "name": "Терра Тех: стопка серых кадров",
       "kind": "situation_reference",
       "scenes": [
         30
       ],
       "editorial_status": "not_approved",
-      "asset_status": "pending",
-      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-30/tt30-chips.image-prompt.txt. not_approved.",
-      "images": [],
-      "pending_images": [
+      "asset_status": "ready",
+      "notes": "Постановочный референс Терра Тех, 1080×1920, not_approved. Видео не запускать.",
+      "images": [
         {
-          "expected_path": "projects/roscosmos/references/scenes/scene-30/tt30-chips.png",
+          "path": "projects/roscosmos/references/scenes/scene-30/tt30-chips.png",
+          "caption": "Терра Тех: стопка серых кадров",
           "prompt_file": "projects/roscosmos/references/scenes/scene-30/tt30-chips.image-prompt.txt",
+          "created_by": "grok",
+          "created_at": "2026-11-06T04:35:00Z",
+          "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "asset_status": "pending",
-          "width": 1672,
-          "height": 941,
-          "aspect_ratio": "16:9",
-          "created_by": null,
-          "source_type": "pending_owner_drawing"
+          "asset_status": "ready",
+          "sha256": "cc88cd7bfca3eaa16219efffcd504c9955fc741706fa069892ee8c297e80dabe",
+          "scenes": [
+            30
+          ],
+          "width": 1080,
+          "height": 1920,
+          "aspect_ratio": "9:16",
+          "technical_qc": "PNG 1080×1920 добавлен. not_approved. Не документальный снимок."
         }
       ]
     },
     {
       "id": "roscosmos-tt-30-tt30-sheet",
-      "name": "@Image2 — один цветной лист.",
+      "name": "Терра Тех: цветной лист заказчику",
       "kind": "situation_reference",
       "scenes": [
         30
       ],
       "editorial_status": "not_approved",
-      "asset_status": "pending",
-      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-30/tt30-sheet.image-prompt.txt. not_approved.",
-      "images": [],
-      "pending_images": [
+      "asset_status": "ready",
+      "notes": "Постановочный референс Терра Тех, 1080×1920, not_approved. Видео не запускать.",
+      "images": [
         {
-          "expected_path": "projects/roscosmos/references/scenes/scene-30/tt30-sheet.png",
+          "path": "projects/roscosmos/references/scenes/scene-30/tt30-sheet.png",
+          "caption": "Терра Тех: цветной лист заказчику",
           "prompt_file": "projects/roscosmos/references/scenes/scene-30/tt30-sheet.image-prompt.txt",
+          "created_by": "grok",
+          "created_at": "2026-11-06T04:35:00Z",
+          "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "asset_status": "pending",
-          "width": 1672,
-          "height": 941,
-          "aspect_ratio": "16:9",
-          "created_by": null,
-          "source_type": "pending_owner_drawing"
+          "asset_status": "ready",
+          "sha256": "84b0667343bd4cc9a34a44ac0c9bcdafba6c04085691203e8a86175166118dd6",
+          "scenes": [
+            30
+          ],
+          "width": 1080,
+          "height": 1920,
+          "aspect_ratio": "9:16",
+          "technical_qc": "PNG 1080×1920 добавлен. not_approved. Не документальный снимок."
         }
       ]
     }

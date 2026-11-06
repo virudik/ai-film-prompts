@@ -3,12 +3,12 @@
   "source_of_truth": "GitHub main/projects/roscosmos/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-02T22:58:14Z",
-  "revision_date": "03.11.2026",
+  "synced_at": "2026-11-06T04:38:18Z",
+  "revision_date": "06.11.2026",
   "master_declared_last_full_sync": "02.11.2026 · Терра Тех: сцены 26–30, горизонталь 16:9, референсы pending; прежние 25 сцен не менялись",
-  "canonical_master_sha256": "4673ef7c63a7b308e9d62b8d229df8111df7995da414cb034613219595b859e2",
-  "canonical_revision_sha256": "7166b72247a130b44f9e6f1e87987aa58a47e7aa9b8685318ad90b958b177784",
-  "canonical_master_bytes": 537449,
+  "canonical_master_sha256": "a643d7929665a4c84ff810e7752a29a6de323a4c8cb18f92f2ce7da97b212896",
+  "canonical_revision_sha256": "02d7fa97c4a8dbb1ef7ccbeb06e2fec0338df342b8ec85a13b3edfb367fa01c9",
+  "canonical_master_bytes": 539062,
   "scenes": 30,
   "prompt_texts": 90,
   "work_items": [],
@@ -50,12 +50,12 @@
   "latest_scene": 30,
   "reserved_scene_ids": [],
   "instruction_sync": {
-    "health": "ok",
+    "health": "stale",
     "snapshot_at": "2026-11-02T22:35:48.357Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 0.374,
+    "age_hours_at_status_build": 78.042,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -132,8 +132,8 @@
   "warnings": [],
   "maintenance": {
     "instruction_verification": {
-      "state": "ok",
-      "age_hours": 0.374,
+      "state": "stale",
+      "age_hours": 78.042,
       "blocking": false
     },
     "topview_task_map": {
@@ -751,10 +751,10 @@
     }
   },
   "audit_fingerprint": {
-    "revision_date": "03.11.2026",
-    "synced_at": "2026-11-02T22:58:14Z",
-    "canonical_master_sha256": "4673ef7c63a7b308e9d62b8d229df8111df7995da414cb034613219595b859e2",
-    "canonical_revision_sha256": "7166b72247a130b44f9e6f1e87987aa58a47e7aa9b8685318ad90b958b177784",
+    "revision_date": "06.11.2026",
+    "synced_at": "2026-11-06T04:38:18Z",
+    "canonical_master_sha256": "a643d7929665a4c84ff810e7752a29a6de323a4c8cb18f92f2ce7da97b212896",
+    "canonical_revision_sha256": "02d7fa97c4a8dbb1ef7ccbeb06e2fec0338df342b8ec85a13b3edfb367fa01c9",
     "scene_count": 30,
     "prompt_count": 90,
     "scene_ids": [
@@ -792,7 +792,7 @@
     "work_items": [],
     "slow_scenes": [],
     "health": "ok",
-    "instruction_sync_health": "ok"
+    "instruction_sync_health": "stale"
   },
   "health": "ok",
   "checks": {
@@ -825,8 +825,7 @@
     "scene_meta_allowed_fields_valid": true,
     "scene_meta_dialogue_valid": true,
     "scene_meta_tags_valid": true,
-    "scene_meta_target_engine_valid": true,
-    "instruction_mirrors_match_drive": true
+    "scene_meta_target_engine_valid": true
   },
   "project": "roscosmos",
   "project_name": "Роскосмос"

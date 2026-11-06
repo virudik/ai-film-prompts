@@ -2,29 +2,45 @@
   "schema_version": 1,
   "project": "roscosmos",
   "scene_id": 28,
-  "updated_at": "2026-11-02T22:30:00Z",
+  "updated_at": "2026-11-06T04:35:00Z",
   "assets": [
     {
       "path": "projects/roscosmos/references/scenes/scene-28/tt28-clearing.png",
+      "caption": "Терра Тех: лес и вырубка",
       "prompt_file": "projects/roscosmos/references/scenes/scene-28/tt28-clearing.image-prompt.txt",
+      "created_by": "grok",
+      "created_at": "2026-11-06T04:35:00Z",
+      "source_type": "ai_generated_concept",
       "editorial_status": "not_approved",
-      "asset_status": "pending",
-      "width": 1672,
-      "height": 941,
-      "aspect_ratio": "16:9",
-      "sha256": null,
-      "note": "PNG рисует владелец по prompt_file. Файл изображения ещё не существует."
+      "asset_status": "ready",
+      "sha256": "7ef84dc7c4927e100c2beb0994ddc3f588ec53c029cb5afa50cbb3bd5cbcc4fb",
+      "scenes": [
+        28
+      ],
+      "width": 1080,
+      "height": 1920,
+      "aspect_ratio": "9:16",
+      "note": "Готовый PNG 1080×1920 (9:16). Художественная приёмка не выставлена.",
+      "technical_qc": "Файл сверен с sha256.json архива. Размер 1080×1920. Это постановочный концепт, не одобрение владельца и не документальный снимок."
     },
     {
       "path": "projects/roscosmos/references/scenes/scene-28/tt28-pair.png",
+      "caption": "Терра Тех: две даты одного леса",
       "prompt_file": "projects/roscosmos/references/scenes/scene-28/tt28-pair.image-prompt.txt",
+      "created_by": "grok",
+      "created_at": "2026-11-06T04:35:00Z",
+      "source_type": "ai_generated_concept",
       "editorial_status": "not_approved",
-      "asset_status": "pending",
-      "width": 1672,
-      "height": 941,
-      "aspect_ratio": "16:9",
-      "sha256": null,
-      "note": "PNG рисует владелец по prompt_file. Файл изображения ещё не существует."
+      "asset_status": "ready",
+      "sha256": "8d92eb5f2b5171d4b4b2ac39f34d379571940306679578bfb184c9c51358e68c",
+      "scenes": [
+        28
+      ],
+      "width": 1080,
+      "height": 1920,
+      "aspect_ratio": "9:16",
+      "note": "Готовый PNG 1080×1920 (9:16). Художественная приёмка не выставлена.",
+      "technical_qc": "Файл сверен с sha256.json архива. Размер 1080×1920. Это постановочный концепт, не одобрение владельца и не документальный снимок."
     }
   ]
 }

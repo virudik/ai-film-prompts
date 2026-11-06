@@ -79,28 +79,28 @@ class MigrationTests(unittest.TestCase):
         self.assertEqual(ids, sorted(ids, key=ids.index))
         self.assertTrue(all(i["project"] == "roscosmos" for i in q["items"]))
 
-    def test_terratech_prompts_are_vertical_and_pending(self):
+    def test_terratech_stills_are_installed_and_not_approved(self):
         master = (ROOT / "projects/roscosmos/video-prompts.md").read_text(encoding="utf-8")
         for n in range(26, 31):
             self.assertIn(f'<a id="scene-{n}"></a>', master)
             folder = ROOT / f"projects/roscosmos/references/scenes/scene-{n}"
-            prompts = list(folder.glob("*.image-prompt.txt"))
-            self.assertEqual(len(prompts), 2, n)
-            for path in prompts:
-                text = path.read_text(encoding="utf-8")
-                self.assertIn("1672×941", text)
-                self.assertIn("16:9", text)
-                self.assertNotIn("9:16", text)
-            self.assertFalse(any(p.suffix == ".png" for p in folder.iterdir()))
-        tail = master[master.find('<a id="scene-26">'):]
-        self.assertIn("Aspect ratio: 16:9", tail)
-        self.assertNotIn("Aspect ratio: 9:16", tail)
-        self.assertNotIn("1080×1920", tail)
+            pngs = list(folder.glob("*.png"))
+            self.assertEqual(len(pngs), 2, n)
+            man = json.loads((folder / "manifest.json").read_text(encoding="utf-8"))
+            self.assertEqual(len(man["assets"]), 2)
+            for asset in man["assets"]:
+                self.assertEqual(asset["editorial_status"], "not_approved")
+                self.assertEqual(asset["asset_status"], "ready")
+                self.assertEqual(asset["created_by"], "grok")
+                self.assertEqual((asset["width"], asset["height"]), (1080, 1920))
+                blob = (ROOT / asset["path"]).read_bytes()
+                self.assertEqual(asset["sha256"], __import__("hashlib").sha256(blob).hexdigest())
         refs = json.loads((ROOT / "projects/roscosmos/character-references.json").read_text(encoding="utf-8"))
-        pending = [a for a in refs["assets"] if a.get("asset_status") == "pending"]
-        self.assertGreaterEqual(len(pending), 10)
-        self.assertTrue(all(a["editorial_status"] == "not_approved" for a in pending))
-        self.assertTrue(all(a["images"] == [] for a in pending))
+        ready = [a for a in refs["assets"] if str(a.get("id", "")).startswith("roscosmos-tt-")]
+        self.assertEqual(len(ready), 10)
+        self.assertTrue(all(a["editorial_status"] == "not_approved" and a["images"] for a in ready))
+        q = json.loads((ROOT / "projects/roscosmos/ops/topview-launch-queue.json").read_text(encoding="utf-8"))
+        self.assertTrue(all(i["scene_id"] < 26 for i in q["items"]))
 
 
 if __name__ == "__main__":
