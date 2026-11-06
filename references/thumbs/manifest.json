@@ -1553,6 +1553,16 @@
    "thumb_bytes": 43800,
    "src_sha256": "dc7d5670090653057e8af5c5632e7406a482919ddab5a42b899bfab3f98c7160"
   },
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-capture-contact.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-capture-contact.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2180052,
+   "thumb_bytes": 36138,
+   "src_sha256": "d378987cbe9e5b313e43572243c1e1984462064e6fe649bdc63e682dcfd0b5a3"
+  },
   "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-mounted-open.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-mounted-open.png.webp",
    "width": 640,
