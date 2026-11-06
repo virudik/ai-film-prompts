@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:4aed9b4f-7f18-4c7e-bacc-a8273c5aac58",
-  "task": "Ordinary scheduled full Seregius slot scan, claim reconciliation and cycle receipt; existing TinyFish input/Unlimited0 blocker; no Create",
-  "acquired_at": "2026-11-06T21:04:16.314Z",
-  "expires_at": null,
-  "released_at": "2026-11-06T21:09:45.049Z",
+  "state": "locked",
+  "holder": "chatgpt:ordinary:e803d4ba-7638-4927-85e6-a0c74a8caf66",
+  "task": "Ordinary scheduled Seregius full read-only slot scan, dedup and no-op cycle receipt; native TinyFish blocker unchanged",
+  "acquired_at": "2026-11-06T22:08:36.602Z",
+  "expires_at": "2026-11-06T22:53:36.602Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
