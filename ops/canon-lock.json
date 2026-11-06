@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:d793beda-169e-49a5-adf7-b595625ce027",
-  "task": "Seregius ordinary hourly: full scan, reconcile and permitted UI preparation · снят самопроверкой (истёк)",
-  "acquired_at": "2026-11-06T16:01:27.829Z",
-  "expires_at": null,
-  "released_at": "2026-11-06T17:19:43Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:096faa12-730a-4164-b3ee-14bbc3580ac0",
+  "task": "Seregius ordinary HH:00 backup: read-only 14-board reconciliation, S49B readiness and safe launch preflight",
+  "acquired_at": "2026-11-06T18:01:52.251Z",
+  "expires_at": "2026-11-06T18:31:52.251Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
