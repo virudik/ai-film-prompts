@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:handoff-health-20261107",
-  "task": "Fix canon-health warning by archival handoff cleanup, preserve rules and new S73",
-  "acquired_at": "2026-11-06T22:34:38.809Z",
-  "expires_at": null,
-  "released_at": "2026-11-06T22:35:30.821Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:cf01b2ef-598a-41fe-bdf6-5e7c885ced14",
+  "task": "Scheduled Seregius slot check + no-free-slot receipt (read-only Topview)",
+  "acquired_at": "2026-11-06T23:04:02.137Z",
+  "expires_at": "2026-11-06T23:10:02.137Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
