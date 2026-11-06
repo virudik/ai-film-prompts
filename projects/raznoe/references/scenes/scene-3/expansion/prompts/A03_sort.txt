@@ -1,0 +1,8 @@
+Photoreal live-action 16:9, about 6 seconds. Industrial sorting only.
+
+<IMAGE_0> female recycling worker in dark blue coveralls, gloves; industrial hall; bottles.
+<IMAGE_1> worker inspecting a clear PET bottle on a sorting line with clear safety glasses.
+
+STORY: START already inside the factory. Transparent and blue PET bottles move on a conveyor; the worker sorts/inspects. Bottles keep stable PET shapes — no morphing, no jumping. The workshop engineer must NOT appear.
+
+AVOID: crossfade, morph, slideshow, collage, on-screen text, logos, letterbox; male engineer; melting hands into bottles.

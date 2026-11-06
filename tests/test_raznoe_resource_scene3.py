@@ -94,6 +94,41 @@ class RaznoeResourceScene3(unittest.TestCase):
         self.assertIn("3 · Seedance 2.0 часть 1", labels)
         self.assertIn("3 · Seedance 2.0 часть 2", labels)
 
+    def test_native_116_cut_keeps_source_and_names_unaccepted_attempts(self):
+        master = (ROOT / "projects/raznoe/video-prompts.md").read_text(encoding="utf-8")
+        scene = master[master.find('<a id="scene-3"></a>'):master.find('<a id="scene-4"></a>')]
+        self.assertIn("### Native Grok · 19 клипов · 116 с", scene)
+        self.assertEqual(scene.count('class="native-prompt"'), 19)
+        self.assertIn("A02_retrieve", scene)
+        self.assertLess(scene.find("A01_drop"), scene.find("A02_retrieve"))
+        self.assertLess(scene.find("A02_retrieve"), scene.find(">A02_blue"))
+        self.assertIn("https://drive.google.com/drive/folders/1FHwi_A1cpODMy2YAwggkkOneIdNA4vS2", scene)
+        for name in (
+            "A03_sort-v1",
+            "A04_shred-v1",
+            "A05_material-v1",
+            "B05_pad-v1",
+            "C01_orbit-v1",
+            "C06_cycle-v1",
+            "RESOURCE-part-1-15s.mp4",
+        ):
+            self.assertIn(name, scene)
+        self.assertIn("окончательного вердикта по A05 нет", scene)
+        self.assertIn("не принят", scene.lower())
+        self.assertNotIn("Новых девятнадцати роликов нет", scene)
+        self.assertNotIn('src="projects/raznoe/archive/scene-3/expansion-2026-11-06/', scene)
+        exp = ROOT / "projects/raznoe/references/scenes/scene-3/expansion"
+        listed = json.loads((exp / "assets-sha256.json").read_text(encoding="utf-8"))
+        self.assertEqual(len(listed), 24)
+        for name, digest in listed.items():
+            self.assertEqual(sha256(exp / "assets" / name), digest, name)
+            self.assertIn(f'src="projects/raznoe/references/scenes/scene-3/expansion/assets/{name}"', scene)
+        forbidden = {"resolution", "image_path", "last_frame_path", "keyframes"}
+        for path in (exp / "requests").glob("*.json"):
+            args = json.loads(path.read_text(encoding="utf-8"))["arguments"]
+            self.assertTrue(forbidden.isdisjoint(args), path.name)
+        self.assertEqual(len(list((exp / "prompts").glob("*.txt"))), 19)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -1,0 +1,27 @@
+{
+  "clip_id": "B06_liftoff",
+  "status": "READY_TO_SEND",
+  "tool": "cursor.GenerateVideo",
+  "execute_now": false,
+  "launch_authorized_by": "t352u (generate as ready; deliver all attempts to Drive/Sasha; videoReview after)",
+  "launch_group": "B_pad",
+  "parallel_ok": true,
+  "arguments": {
+    "filename": "B06_liftoff.mp4",
+    "duration": 5,
+    "aspect_ratio": "16:9",
+    "reference_image_paths": [
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/ATM-night-liftoff-16x9.png"
+    ],
+    "prompt": "Photoreal live-action 16:9, about 5 seconds. Night liftoff.\n\n<IMAGE_0> night liftoff with plume — atmosphere guide.\n\nSTORY: engines ignite, plume forms, rocket lifts smoothly. No people. No logos/text. Physically plausible ascent.\n\nAVOID: collage; crossfade; morph; letterbox; teleport jumps."
+  },
+  "ref_roles": [
+    {
+      "IMAGE": 0,
+      "file": "ATM-night-liftoff-16x9.png",
+      "role": "night liftoff plume/ascent atmosphere",
+      "sha256": "1679b2abd60e225561cf54daeaeac6a6ad1d35f0cf6f218374a04efe8c86ab97",
+      "owner_approved": false
+    }
+  ]
+}

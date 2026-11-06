@@ -1,0 +1,17 @@
+Photoreal live-action 16:9, about 7 seconds. Workshop beat 3 of 3 — blue deposit only.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+<IMAGE_0> same engineer identity: curly dark brown hair, short beard, no glasses, black «Алиса» tee, watch. Identity sheet only.
+
+REFERENCES (guides only — NOT exact first/last frames, NOT timed pins):
+<IMAGE_1> workshop continuity.
+<IMAGE_2> holding the same clear blue-cap PET at the open blue recycling bin — start-state / prop guide, NOT a mid-air freeze as finale.
+<IMAGE_3> large blue recycling container prop.
+
+STORY — one completed deposit (walk from dark bin may be a hard-cut montage):
+START STATE: he is already at the blue recycling container holding ONE empty clear PET water bottle with a blue screw-cap (same bottle throughout; do not switch to a white-cap bottle if another bottle appears in an environment still) (same bottle retrieved in the previous beat).
+ACTION: he places/drops that bottle INTO the blue container.
+END STATE: the same bottle is fully INSIDE the blue container — choice completed. No hovering bottle. No second bottle on a table. No stranger hand. Fingers must not melt into plastic.
+
+CAMERA: medium / hand+bin OK; hard cuts OK.
+AVOID: crossfade, morph, slideshow, collage, on-screen text, logos, letterbox; packing retrieve+walk+throw into this one clip; ending on mid-air bottle.

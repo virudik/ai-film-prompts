@@ -1,0 +1,43 @@
+{
+  "clip_id": "C06_cycle",
+  "status": "READY_TO_SEND",
+  "tool": "cursor.GenerateVideo",
+  "execute_now": false,
+  "launch_authorized_by": "t352u (generate as ready; deliver all attempts to Drive/Sasha; videoReview after)",
+  "launch_group": "C_close",
+  "parallel_ok": true,
+  "arguments": {
+    "filename": "C06_cycle.mp4",
+    "duration": 6,
+    "aspect_ratio": "16:9",
+    "reference_image_paths": [
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/ID-engineer-blue-form-01.png",
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/PROP-blue-bin-45731.png",
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/C-original-lattice-station.png"
+    ],
+    "prompt": "Photoreal live-action 16:9, about 6 seconds. Mission control closing beat.\n\n<IMAGE_0> blue-form engineer identity (no multi-panel). Prefer blank chest patch over fake lettering.\n<IMAGE_1> blue recycling container prop.\n<IMAGE_2> orbital station look for a large monitor image (picture only — no generated captions).\n\nSTORY: engineer watches a monitor showing the orbital station; calmly takes an empty clear PET bottle and places it into the blue recycling container. End on the completed deposit.\nDo NOT generate slogan text or titles in-frame. Final phrase is edit-only: «Твой отсортированный мусор уже в пути. Очищаем планету. Очищаем орбиту».\n\nAVOID: crossfade; morph; slideshow; on-screen text; fake logos; letterbox."
+  },
+  "ref_roles": [
+    {
+      "IMAGE": 0,
+      "file": "ID-engineer-blue-form-01.png",
+      "role": "blue-form identity; blank patch over fake lettering",
+      "sha256": "a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 1,
+      "file": "PROP-blue-bin-45731.png",
+      "role": "blue recycling container",
+      "sha256": "d85063e72eefb7a75e7a1309397ec1596f2dfb803db307231f92f9b00bd196c3",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 2,
+      "file": "C-original-lattice-station.png",
+      "role": "monitor picture of station — image content only, no on-screen captions",
+      "sha256": "608aacc17bd40c768374ea21f3f0827c88b8a0131f44bcc373b47f14cc2b1e6e",
+      "owner_approved": false
+    }
+  ]
+}

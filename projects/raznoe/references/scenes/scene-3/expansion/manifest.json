@@ -1,0 +1,818 @@
+{
+  "pack_id": "RESOURCE-expansion-2026-11-06-reviewed-workshop-repair",
+  "scene_target": "raznoe scene-3 RESOURCE — same site scene; expand tabs/versions (cloud publishes)",
+  "status": "PACK_MIXED: workshop A01/A02_retrieve/A02_blue READY_TO_SEND after state-chain repair; first-wave A03/A04/A05/B05/C01/C06 left untouched (generator snapshot); other clips remain READY_TO_SEND from prior review but NOT in this repair scope. Videos not generated here. total 116s / 19 clips.",
+  "yandex_source": "https://disk.yandex.ru/d/RcAnSckO0RKgog",
+  "drive_sasha": "https://drive.google.com/drive/folders/1FHwi_A1cpODMy2YAwggkkOneIdNA4vS2",
+  "existing_attempts_already_on_drive": [
+    "RESOURCE-part-1-15s.mp4",
+    "RESOURCE-part-1-v2-15s.mp4",
+    "RESOURCE-part-2-v1-15s.mp4"
+  ],
+  "launch_permission": {
+    "source": "t352u",
+    "text": "Как будет готов. Запускай генерации по мере готовности. Как все будет готово видео в Сашу",
+    "meaning": "Batch permission granted for clips as they become READY_TO_SEND; save all attempts to Sasha; then parent videoReview. Publication may proceed in parallel after pack check. This review executor does NOT call GenerateVideo."
+  },
+  "generatevideo_policy": {
+    "reference_image_paths_only": true,
+    "forbidden": [
+      "image_path",
+      "last_frame_path",
+      "keyframes",
+      "resolution"
+    ],
+    "aspect_ratio": "16:9",
+    "max_duration_tool": 15,
+    "max_refs": 14,
+    "schema_checked_at": "2026-11-06"
+  },
+  "clip_count": 19,
+  "total_duration_s": 116,
+  "duration_rationale": "After workshop repair: 116s / 19 clips. A_workshop is now 7+8+7=22s with visible realization+retrieval (was false offscreen skip). First-wave clips unchanged.",
+  "launch_groups": {
+    "A_workshop": [
+      "A01_drop",
+      "A02_retrieve",
+      "A02_blue"
+    ],
+    "A_factory": [
+      "A03_sort",
+      "A04_shred",
+      "A05_material",
+      "A06_print"
+    ],
+    "B_assembly": [
+      "B01_pickup",
+      "B02_install",
+      "B03_build",
+      "B04_check"
+    ],
+    "B_pad": [
+      "B05_pad",
+      "B06_liftoff"
+    ],
+    "C_orbit": [
+      "C01_orbit",
+      "C02_debris",
+      "C03_capture",
+      "C04_recycle",
+      "C05_station"
+    ],
+    "C_close": [
+      "C06_cycle"
+    ]
+  },
+  "parallel_launch_hint": "After pack handoff, executor may start A_factory, B_pad, and C_close in parallel with A_workshop; prefer in-group order for story, but tool calls are independent (references-only, no last-frame chain).",
+  "clips": [
+    {
+      "clip_id": "A01_drop",
+      "title": "Чертёж и бросок в чёрный бак",
+      "act": "A",
+      "duration_s": 7,
+      "aspect_ratio": "16:9",
+      "decision": "READY_TO_SEND",
+      "launch_group": "A_workshop",
+      "parallel_ok": false,
+      "semantic_start": "Инженер у верстака с чертежом; пустая clear PET с синей крышкой на столе",
+      "semantic_end": "Та же бутылка с синей крышкой лежит внутри обычного тёмного бака; дроп завершён",
+      "depends_on": [],
+      "refs": [
+        {
+          "IMAGE": 0,
+          "file": "ID-engineer-workshop-45726.png",
+          "role": "PRIMARY identity sheet only",
+          "sha256": "980ad135ba1749c9e70b262219302763d2e1c406d7cc01e2773b0f0969832921",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 1,
+          "file": "LOC-workshop-45728.png",
+          "role": "workshop/drawing environment; ignore non-blue-cap bottle if present",
+          "sha256": "5f3cc782178e9eb023fb72cecb686a81ef15ae34155aa5ffed64bf4e02e348c5",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 2,
+          "file": "PROP-black-bin-45729.png",
+          "role": "dark bin + clear blue-cap PET drop language",
+          "sha256": "371a5a11c50174241a826b9ecbc69ca4084e483280241ec4130c4d2063de5c01",
+          "owner_approved": false
+        }
+      ],
+      "prompt_file": "prompts/A01_drop.txt",
+      "description_ru_file": "descriptions/A01_drop.ru.md",
+      "request_file": "requests/A01_drop.json",
+      "execute": false
+    },
+    {
+      "clip_id": "A02_retrieve",
+      "title": "Осознание и извлечение бутылки",
+      "act": "A",
+      "duration_s": 8,
+      "aspect_ratio": "16:9",
+      "decision": "READY_TO_SEND",
+      "launch_group": "A_workshop",
+      "parallel_ok": false,
+      "semantic_start": "Та же бутылка уже внутри тёмного бака; инженер у верстака",
+      "semantic_end": "Извлечение завершено: та же бутылка в его руке вне бака (ещё не у синего)",
+      "depends_on": [
+        "A01_drop"
+      ],
+      "refs": [
+        {
+          "IMAGE": 0,
+          "file": "ID-engineer-workshop-45726.png",
+          "role": "PRIMARY identity",
+          "sha256": "980ad135ba1749c9e70b262219302763d2e1c406d7cc01e2773b0f0969832921",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 1,
+          "file": "LOC-workshop-45728.png",
+          "role": "workshop + drawing for realization glance",
+          "sha256": "5f3cc782178e9eb023fb72cecb686a81ef15ae34155aa5ffed64bf4e02e348c5",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 2,
+          "file": "PROP-black-bin-45729.png",
+          "role": "dark bin continuity; bottle already inside at start",
+          "sha256": "371a5a11c50174241a826b9ecbc69ca4084e483280241ec4130c4d2063de5c01",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 3,
+          "file": "PROP-bottle-retrieved-clear-of-bin.png",
+          "role": "retrieval completed: bottle clear of dark bin in his hand",
+          "sha256": "78203883ac23c6a4b76b7d5034d3ddf246240a8bf63a1890e3a51e395f3ef61c",
+          "owner_approved": false
+        }
+      ],
+      "prompt_file": "prompts/A02_retrieve.txt",
+      "description_ru_file": "descriptions/A02_retrieve.ru.md",
+      "request_file": "requests/A02_retrieve.json",
+      "execute": false
+    },
+    {
+      "clip_id": "A02_blue",
+      "title": "Сдать бутылку в синий контейнер",
+      "act": "A",
+      "duration_s": 7,
+      "aspect_ratio": "16:9",
+      "decision": "READY_TO_SEND",
+      "launch_group": "A_workshop",
+      "parallel_ok": false,
+      "semantic_start": "Монтажный старт у синего контейнера: та же бутылка уже в руке (после видимого извлечения)",
+      "semantic_end": "Та же бутылка полностью внутри синего контейнера",
+      "depends_on": [
+        "A02_retrieve"
+      ],
+      "refs": [
+        {
+          "IMAGE": 0,
+          "file": "ID-engineer-workshop-45726.png",
+          "role": "identity",
+          "sha256": "980ad135ba1749c9e70b262219302763d2e1c406d7cc01e2773b0f0969832921",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 1,
+          "file": "LOC-workshop-45728.png",
+          "role": "workshop continuity",
+          "sha256": "5f3cc782178e9eb023fb72cecb686a81ef15ae34155aa5ffed64bf4e02e348c5",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 2,
+          "file": "PROP-bottle-held-at-blue.png",
+          "role": "start-state: holding blue-cap PET at blue bin",
+          "sha256": "166f079ddecf845d2fd94e9d7f502f324f756fdc6cccc43c868df0201daa96c8",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 3,
+          "file": "PROP-blue-bin-45731.png",
+          "role": "blue recycling container",
+          "sha256": "d85063e72eefb7a75e7a1309397ec1596f2dfb803db307231f92f9b00bd196c3",
+          "owner_approved": false
+        }
+      ],
+      "prompt_file": "prompts/A02_blue.txt",
+      "description_ru_file": "descriptions/A02_blue.ru.md",
+      "request_file": "requests/A02_blue.json",
+      "execute": false
+    },
+    {
+      "clip_id": "A03_sort",
+      "title": "Заводская сортировка",
+      "act": "A",
+      "duration_s": 6,
+      "aspect_ratio": "16:9",
+      "decision": "READY_TO_SEND",
+      "launch_group": "A_factory",
+      "parallel_ok": true,
+      "semantic_start": "Уже на линии сортировки; инженер отсутствует",
+      "semantic_end": "Прозрачные/синие бутылки отобраны на линии",
+      "depends_on": [],
+      "refs": [
+        {
+          "IMAGE": 0,
+          "file": "FAC-worker-compressed-45734.png",
+          "role": "female facility worker + bottles / PPE",
+          "sha256": "3d428665a63eafaba0c52d6ad58bb7a67fac484268d60c59eab758bd424f672f",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 1,
+          "file": "FAC-worker-line-45735.png",
+          "role": "sorting line inspection",
+          "sha256": "c791a8970d715168064cf26b94e47eda508b521ff5a4ae20fdb7924680424f9b",
+          "owner_approved": false
+        }
+      ],
+      "prompt_file": "prompts/A03_sort.txt",
+      "description_ru_file": "descriptions/A03_sort.ru.md",
+      "request_file": "requests/A03_sort.json",
+      "execute": false
+    },
+    {
+      "clip_id": "A04_shred",
+      "title": "Измельчение",
+      "act": "A",
+      "duration_s": 8,
+      "aspect_ratio": "16:9",
+      "decision": "READY_TO_SEND",
+      "launch_group": "A_factory",
+      "parallel_ok": true,
+      "semantic_start": "Бутылки подаются в промышленный шредер",
+      "semantic_end": "Бутылки реально затянуты и дробятся; фрагменты копятся",
+      "depends_on": [
+        "A03_sort"
+      ],
+      "refs": [
+        {
+          "IMAGE": 0,
+          "file": "FAC-shredder-45736.png",
+          "role": "industrial shredder + fragment language; machine guide not locked frame",
+          "sha256": "56a06d44aa90121bec19b6be35fdf45e41a74640e1cf4252e99f8983b7960dfd",
+          "owner_approved": false
+        }
+      ],
+      "prompt_file": "prompts/A04_shred.txt",
+      "description_ru_file": "descriptions/A04_shred.ru.md",
+      "request_file": "requests/A04_shred.json",
+      "execute": false
+    },
+    {
+      "clip_id": "A05_material",
+      "title": "Хлопья (сырьё)",
+      "act": "A",
+      "duration_s": 5,
+      "aspect_ratio": "16:9",
+      "decision": "READY_TO_SEND",
+      "launch_group": "A_factory",
+      "parallel_ok": true,
+      "semantic_start": "Переработанный пластик как сырьё",
+      "semantic_end": "Видны неправильные хлопья clear/blue PET",
+      "depends_on": [
+        "A04_shred"
+      ],
+      "refs": [
+        {
+          "IMAGE": 0,
+          "file": "FAC-flakes-45733.png",
+          "role": "recycled flakes look",
+          "sha256": "a90be81fc9eacd17618ff5aabf0f8a75b6d3511539f2c575185a434e3fad4e84",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 1,
+          "file": "A-recycled-pet-pellets.png",
+          "role": "optional pellets continuity — same material family",
+          "sha256": "e1ff9c52506ab256cdfa70225d74c5efa6b1575b071ef449add9791ff8736a29",
+          "owner_approved": false
+        }
+      ],
+      "prompt_file": "prompts/A05_material.txt",
+      "description_ru_file": "descriptions/A05_material.ru.md",
+      "request_file": "requests/A05_material.json",
+      "execute": false
+    },
+    {
+      "clip_id": "A06_print",
+      "title": "Полимерная печать захвата",
+      "act": "A",
+      "duration_s": 8,
+      "aspect_ratio": "16:9",
+      "decision": "READY_TO_SEND",
+      "launch_group": "A_factory",
+      "parallel_ok": true,
+      "semantic_start": "Идёт аддитивная печать открытого полимерного захвата",
+      "semantic_end": "Виден новый слой/валик экструзии на формирующемся матовом полимерном захвате",
+      "depends_on": [
+        "A05_material"
+      ],
+      "refs": [
+        {
+          "IMAGE": 0,
+          "file": "PROP-print-extrusion-bead.png",
+          "role": "PRIMARY: nozzle depositing a visible new polymer bead on open-frame gripper",
+          "sha256": "45aa7b2f80271b2a5a2b7631a011c19b5fc95bf29f11332b9f2a9bcb3ee5325c",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 1,
+          "file": "A-polymer-gripper-product.png",
+          "role": "product design authority — matte polymer lattice gripper with blue inclusions",
+          "sha256": "aeb0526b4bd804851df6f1177b04b587f7cf1ecef5d5040b672559cc7659f6f0",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 2,
+          "file": "FAC-polymer-print-45737.png",
+          "role": "printer/gantry environment only; ignore any coolant-stream look — extrusion is polymer bead, not liquid pour",
+          "sha256": "802992aa667bd04bacb8e23e7a894a725eef8e1337951dc2feda0b94c2753736",
+          "owner_approved": false
+        }
+      ],
+      "prompt_file": "prompts/A06_print.txt",
+      "description_ru_file": "descriptions/A06_print.ru.md",
+      "request_file": "requests/A06_print.json",
+      "execute": false
+    },
+    {
+      "clip_id": "B01_pickup",
+      "title": "Инженер берёт полимерный захват",
+      "act": "B",
+      "duration_s": 5,
+      "aspect_ratio": "16:9",
+      "decision": "READY_TO_SEND",
+      "launch_group": "B_assembly",
+      "parallel_ok": true,
+      "semantic_start": "Чистый сборочный цех; захват на столе",
+      "semantic_end": "Инженер в синей форме держит тот же полимерный захват",
+      "depends_on": [
+        "A06_print"
+      ],
+      "refs": [
+        {
+          "IMAGE": 0,
+          "file": "ID-engineer-blue-form-01.png",
+          "role": "identity in blue workwear + clear safety glasses; same curly hair/beard type; do NOT reproduce multi-panel sheet; prefer blank chest patch over fake lettering",
+          "sha256": "a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 1,
+          "file": "A-polymer-gripper-product.png",
+          "role": "polymer gripper product",
+          "sha256": "aeb0526b4bd804851df6f1177b04b587f7cf1ecef5d5040b672559cc7659f6f0",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 2,
+          "file": "ATM-cleanroom-assembly-extra.png",
+          "role": "clean assembly hall atmosphere — NOT a collage",
+          "sha256": "5de9f2952dc335a6e4b83e3c2d4618367d5959febb575ecfb5575226d062e9ac",
+          "owner_approved": false
+        }
+      ],
+      "prompt_file": "prompts/B01_pickup.txt",
+      "description_ru_file": "descriptions/B01_pickup.ru.md",
+      "request_file": "requests/B01_pickup.json",
+      "execute": false
+    },
+    {
+      "clip_id": "B02_install",
+      "title": "Установка захвата на манипулятор",
+      "act": "B",
+      "duration_s": 8,
+      "aspect_ratio": "16:9",
+      "decision": "READY_TO_SEND",
+      "launch_group": "B_assembly",
+      "parallel_ok": false,
+      "semantic_start": "Захват подносят к креплению манипулятора спутника",
+      "semantic_end": "Тот же полимерный захват закреплён на манипуляторе; крепёж/стык проверен",
+      "depends_on": [
+        "B01_pickup"
+      ],
+      "refs": [
+        {
+          "IMAGE": 0,
+          "file": "ID-engineer-blue-form-01.png",
+          "role": "blue-form identity; no multi-panel",
+          "sha256": "a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 1,
+          "file": "A-polymer-gripper-product.png",
+          "role": "gripper design authority",
+          "sha256": "aeb0526b4bd804851df6f1177b04b587f7cf1ecef5d5040b672559cc7659f6f0",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 2,
+          "file": "PROP-gripper-seated-on-arm.png",
+          "role": "install language: gripper bolted/connected on white manipulator mount",
+          "sha256": "8e762aa4d33ececfe901362d595fcce03bdf0f13d9468e54fd02c0a96b9e97e0",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 3,
+          "file": "B-satellite-assembly-stand.png",
+          "role": "satellite on stand body continuity",
+          "sha256": "b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 4,
+          "file": "PROP-satellite-manipulator-02.png",
+          "role": "orbital manipulator/satellite geometry language from source folder",
+          "sha256": "876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e",
+          "owner_approved": false
+        }
+      ],
+      "prompt_file": "prompts/B02_install.txt",
+      "description_ru_file": "descriptions/B02_install.ru.md",
+      "request_file": "requests/B02_install.json",
+      "execute": false
+    },
+    {
+      "clip_id": "B03_build",
+      "title": "Механическая досборка",
+      "act": "B",
+      "duration_s": 6,
+      "aspect_ratio": "16:9",
+      "decision": "READY_TO_SEND",
+      "launch_group": "B_assembly",
+      "parallel_ok": true,
+      "semantic_start": "Спутник на стенде частично собран",
+      "semantic_end": "Крышки/панели/манипулятор установлены последовательно",
+      "depends_on": [
+        "B02_install"
+      ],
+      "refs": [
+        {
+          "IMAGE": 0,
+          "file": "B-satellite-assembly-stand.png",
+          "role": "satellite on stand",
+          "sha256": "b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 1,
+          "file": "PROP-satellite-manipulator-02.png",
+          "role": "manipulator/satellite design language",
+          "sha256": "876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 2,
+          "file": "ATM-cleanroom-assembly-extra.png",
+          "role": "cleanroom atmosphere",
+          "sha256": "5de9f2952dc335a6e4b83e3c2d4618367d5959febb575ecfb5575226d062e9ac",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 3,
+          "file": "ID-engineer-blue-form-01.png",
+          "role": "engineer identity IF visible",
+          "sha256": "a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587",
+          "owner_approved": false
+        }
+      ],
+      "prompt_file": "prompts/B03_build.txt",
+      "description_ru_file": "descriptions/B03_build.ru.md",
+      "request_file": "requests/B03_build.json",
+      "execute": false
+    },
+    {
+      "clip_id": "B04_check",
+      "title": "Финальная проверка",
+      "act": "B",
+      "duration_s": 5,
+      "aspect_ratio": "16:9",
+      "decision": "READY_TO_SEND",
+      "launch_group": "B_assembly",
+      "parallel_ok": true,
+      "semantic_start": "Инженер у аппарата",
+      "semantic_end": "Общий вид готового спутника с панелями и манипулятором",
+      "depends_on": [
+        "B03_build"
+      ],
+      "refs": [
+        {
+          "IMAGE": 0,
+          "file": "ID-engineer-blue-form-01.png",
+          "role": "engineer identity",
+          "sha256": "a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 1,
+          "file": "B-satellite-assembly-stand.png",
+          "role": "completed satellite look",
+          "sha256": "b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 2,
+          "file": "PROP-satellite-manipulator-02.png",
+          "role": "geometry language",
+          "sha256": "876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e",
+          "owner_approved": false
+        }
+      ],
+      "prompt_file": "prompts/B04_check.txt",
+      "description_ru_file": "descriptions/B04_check.ru.md",
+      "request_file": "requests/B04_check.json",
+      "execute": false
+    },
+    {
+      "clip_id": "B05_pad",
+      "title": "Ночной космодром",
+      "act": "B",
+      "duration_s": 5,
+      "aspect_ratio": "16:9",
+      "decision": "READY_TO_SEND",
+      "launch_group": "B_pad",
+      "parallel_ok": true,
+      "semantic_start": "Ночь, ракета на старте",
+      "semantic_end": "Камера подчёркивает масштаб ракеты",
+      "depends_on": [],
+      "refs": [
+        {
+          "IMAGE": 0,
+          "file": "ATM-night-pad-16x9.png",
+          "role": "night pad/rocket atmosphere — dedicated still, not a collage",
+          "sha256": "5c31341ea8f9a8e6daac1bdfa57c905e63eeb6982342e81c3fe8c07f95365475",
+          "owner_approved": false
+        }
+      ],
+      "prompt_file": "prompts/B05_pad.txt",
+      "description_ru_file": "descriptions/B05_pad.ru.md",
+      "request_file": "requests/B05_pad.json",
+      "execute": false
+    },
+    {
+      "clip_id": "B06_liftoff",
+      "title": "Взлёт",
+      "act": "B",
+      "duration_s": 5,
+      "aspect_ratio": "16:9",
+      "decision": "READY_TO_SEND",
+      "launch_group": "B_pad",
+      "parallel_ok": true,
+      "semantic_start": "Зажигание двигателей",
+      "semantic_end": "Ракета уходит вверх",
+      "depends_on": [
+        "B05_pad"
+      ],
+      "refs": [
+        {
+          "IMAGE": 0,
+          "file": "ATM-night-liftoff-16x9.png",
+          "role": "night liftoff plume/ascent atmosphere",
+          "sha256": "1679b2abd60e225561cf54daeaeac6a6ad1d35f0cf6f218374a04efe8c86ab97",
+          "owner_approved": false
+        }
+      ],
+      "prompt_file": "prompts/B06_liftoff.txt",
+      "description_ru_file": "descriptions/B06_liftoff.ru.md",
+      "request_file": "requests/B06_liftoff.json",
+      "execute": false
+    },
+    {
+      "clip_id": "C01_orbit",
+      "title": "Спутник на орбите",
+      "act": "C",
+      "duration_s": 5,
+      "aspect_ratio": "16:9",
+      "decision": "READY_TO_SEND",
+      "launch_group": "C_orbit",
+      "parallel_ok": true,
+      "semantic_start": "Аппарат на орбите Земли",
+      "semantic_end": "Солнечные панели раскрыты/зафиксированы",
+      "depends_on": [
+        "B06_liftoff"
+      ],
+      "refs": [
+        {
+          "IMAGE": 0,
+          "file": "PROP-satellite-manipulator-02.png",
+          "role": "satellite/manipulator geometry",
+          "sha256": "876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 1,
+          "file": "B-satellite-assembly-stand.png",
+          "role": "body continuity from assembly",
+          "sha256": "b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3",
+          "owner_approved": false
+        }
+      ],
+      "prompt_file": "prompts/C01_orbit.txt",
+      "description_ru_file": "descriptions/C01_orbit.ru.md",
+      "request_file": "requests/C01_orbit.json",
+      "execute": false
+    },
+    {
+      "clip_id": "C02_debris",
+      "title": "Обнаружение мусора",
+      "act": "C",
+      "duration_s": 5,
+      "aspect_ratio": "16:9",
+      "decision": "READY_TO_SEND",
+      "launch_group": "C_orbit",
+      "parallel_ok": true,
+      "semantic_start": "Облако обломков в кадре",
+      "semantic_end": "Манипулятор начинает выдвигаться к фрагменту",
+      "depends_on": [
+        "C01_orbit"
+      ],
+      "refs": [
+        {
+          "IMAGE": 0,
+          "file": "PROP-satellite-manipulator-02.png",
+          "role": "satellite and manipulator geometry",
+          "sha256": "876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e",
+          "owner_approved": false
+        }
+      ],
+      "prompt_file": "prompts/C02_debris.txt",
+      "description_ru_file": "descriptions/C02_debris.ru.md",
+      "request_file": "requests/C02_debris.json",
+      "execute": false
+    },
+    {
+      "clip_id": "C03_capture",
+      "title": "Захват обломка",
+      "act": "C",
+      "duration_s": 6,
+      "aspect_ratio": "16:9",
+      "decision": "READY_TO_SEND",
+      "launch_group": "C_orbit",
+      "parallel_ok": false,
+      "semantic_start": "Полимерный захват раскрыт у обломка",
+      "semantic_end": "Обломок мягко зафиксирован тем же захватом",
+      "depends_on": [
+        "C02_debris"
+      ],
+      "refs": [
+        {
+          "IMAGE": 0,
+          "file": "PROP-satellite-manipulator-02.png",
+          "role": "manipulator/satellite continuity",
+          "sha256": "876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 1,
+          "file": "A-polymer-gripper-product.png",
+          "role": "end-effector design authority",
+          "sha256": "aeb0526b4bd804851df6f1177b04b587f7cf1ecef5d5040b672559cc7659f6f0",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 2,
+          "file": "PROP-gripper-capture-scrap.png",
+          "role": "soft capture language: polymer lattice gripper holding metallic scrap — guide, not exact frame",
+          "sha256": "c399dbfb6a9e3e4955d337933cdbae9cf3bb3e00e17873c8496564910b7be8b9",
+          "owner_approved": false
+        }
+      ],
+      "prompt_file": "prompts/C03_capture.txt",
+      "description_ru_file": "descriptions/C03_capture.ru.md",
+      "request_file": "requests/C03_capture.json",
+      "execute": false
+    },
+    {
+      "clip_id": "C04_recycle",
+      "title": "Орбитальный пресс → блок",
+      "act": "C",
+      "duration_s": 6,
+      "aspect_ratio": "16:9",
+      "decision": "READY_TO_SEND",
+      "launch_group": "C_orbit",
+      "parallel_ok": true,
+      "semantic_start": "Металлический фрагмент в компактном перерабатывающем модуле",
+      "semantic_end": "Сформирован аккуратный прямоугольный строительный блок (вставка в каркас — НЕ в этом клипе)",
+      "depends_on": [
+        "C03_capture"
+      ],
+      "refs": [
+        {
+          "IMAGE": 0,
+          "file": "PROP-orbital-press-block.png",
+          "role": "PRIMARY press forming rectangular metal block in microgravity fiction",
+          "sha256": "dc7d5670090653057e8af5c5632e7406a482919ddab5a42b899bfab3f98c7160",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 1,
+          "file": "PROP-satellite-manipulator-02.png",
+          "role": "craft continuity optional",
+          "sha256": "876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e",
+          "owner_approved": false
+        }
+      ],
+      "prompt_file": "prompts/C04_recycle.txt",
+      "description_ru_file": "descriptions/C04_recycle.ru.md",
+      "request_file": "requests/C04_recycle.json",
+      "execute": false
+    },
+    {
+      "clip_id": "C05_station",
+      "title": "Постановочная орбитальная станция",
+      "act": "C",
+      "duration_s": 5,
+      "aspect_ratio": "16:9",
+      "decision": "READY_TO_SEND",
+      "launch_group": "C_orbit",
+      "parallel_ok": true,
+      "semantic_start": "Широкий план оригинальной решётчатой/модульной станции",
+      "semantic_end": "Камера отъезжает, видна Земля",
+      "depends_on": [
+        "C04_recycle"
+      ],
+      "refs": [
+        {
+          "IMAGE": 0,
+          "file": "C-original-lattice-station.png",
+          "role": "ORIGINAL fictional station — NOT ISS",
+          "sha256": "608aacc17bd40c768374ea21f3f0827c88b8a0131f44bcc373b47f14cc2b1e6e",
+          "owner_approved": false
+        }
+      ],
+      "prompt_file": "prompts/C05_station.txt",
+      "description_ru_file": "descriptions/C05_station.ru.md",
+      "request_file": "requests/C05_station.json",
+      "execute": false
+    },
+    {
+      "clip_id": "C06_cycle",
+      "title": "Замыкание цикла на Земле",
+      "act": "C",
+      "duration_s": 6,
+      "aspect_ratio": "16:9",
+      "decision": "READY_TO_SEND",
+      "launch_group": "C_close",
+      "parallel_ok": true,
+      "semantic_start": "ЦУП; на мониторе станция; бутылка на столе",
+      "semantic_end": "Инженер опускает пустую бутылку в синий контейнер",
+      "depends_on": [],
+      "refs": [
+        {
+          "IMAGE": 0,
+          "file": "ID-engineer-blue-form-01.png",
+          "role": "blue-form identity; blank patch over fake lettering",
+          "sha256": "a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 1,
+          "file": "PROP-blue-bin-45731.png",
+          "role": "blue recycling container",
+          "sha256": "d85063e72eefb7a75e7a1309397ec1596f2dfb803db307231f92f9b00bd196c3",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 2,
+          "file": "C-original-lattice-station.png",
+          "role": "monitor picture of station — image content only, no on-screen captions",
+          "sha256": "608aacc17bd40c768374ea21f3f0827c88b8a0131f44bcc373b47f14cc2b1e6e",
+          "owner_approved": false
+        }
+      ],
+      "prompt_file": "prompts/C06_cycle.txt",
+      "description_ru_file": "descriptions/C06_cycle.ru.md",
+      "request_file": "requests/C06_cycle.json",
+      "execute": false
+    }
+  ],
+  "assets_dir": "assets/",
+  "archive_not_for_video_frame": [
+    "archive/storyboard-18-COMPOSITION-ONLY.png",
+    "archive/ISS-NOT-for-station-design-A.png",
+    "archive/ISS-NOT-for-station-design-B.png",
+    "archive/ATM-assembly-pad-collage-03-NOT-video-frame.png",
+    "archive/PROP-blue-throw-45732-midair-ARCHIVE.png"
+  ],
+  "assumptions": [
+    "Синяя форма = цех/ЦУП из папки; «Алиса» tee = только мастерская Act A.",
+    "Орбитальный пресс/станция — постановочная fiction папки, не сертификат.",
+    "Логотип РОСКОСМОС — монтажный оверлей официального файла; не hard-blocker клипов.",
+    "ISS files from Yandex archived, not video refs.",
+    "t347 references-only policy kept until user changes it.",
+    "Owner visual approve of new assistant-made refs is NOT invented as a send blocker (t352 + task); assistant_visual_qc recorded; owner_approved stays false."
+  ],
+  "workshop_repair": {
+    "issue": "Prior A02 started with bottle already in hand at blue; retrieval was offscreen — rejected as story skip",
+    "fix": "Inserted A02_retrieve with visible extraction; A01 end / retrieve start / blue start form causal chain",
+    "bottle_identity": "clear PET + blue screw-cap locked in all three prompts",
+    "new_asset": "PROP-bottle-retrieved-clear-of-bin.png"
+  }
+}

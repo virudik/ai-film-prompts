@@ -1,0 +1,59 @@
+{
+  "clip_id": "B02_install",
+  "status": "READY_TO_SEND",
+  "tool": "cursor.GenerateVideo",
+  "execute_now": false,
+  "launch_authorized_by": "t352u (generate as ready; deliver all attempts to Drive/Sasha; videoReview after)",
+  "launch_group": "B_assembly",
+  "parallel_ok": false,
+  "arguments": {
+    "filename": "B02_install.mp4",
+    "duration": 8,
+    "aspect_ratio": "16:9",
+    "reference_image_paths": [
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/ID-engineer-blue-form-01.png",
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/A-polymer-gripper-product.png",
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/PROP-gripper-seated-on-arm.png",
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/B-satellite-assembly-stand.png",
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/PROP-satellite-manipulator-02.png"
+    ],
+    "prompt": "Photoreal live-action 16:9, about 8 seconds. Mechanical install only.\n\n<IMAGE_0> blue-form engineer identity (no collage layout).\n<IMAGE_1> polymer open-frame gripper design authority.\n<IMAGE_2> gripper seated/bolted on white manipulator mount — install result language, not an exact end-frame copy.\n<IMAGE_3> fictional satellite on assembly stand.\n<IMAGE_4> satellite/manipulator geometry from source design.\n\nSTORY: engineer seats the SAME polymer gripper into the manipulator end mount, tightens visible fasteners, checks the joint by hand. Keep satellite geometry coherent with <IMAGE_3>/<IMAGE_4>. No magic transform into a different robot claw. Blank chest patch preferred over fake lettering.\n\nAVOID: crossfade; morph; slideshow; text; logos; letterbox; swapping gripper for a generic metal claw."
+  },
+  "ref_roles": [
+    {
+      "IMAGE": 0,
+      "file": "ID-engineer-blue-form-01.png",
+      "role": "blue-form identity; no multi-panel",
+      "sha256": "a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 1,
+      "file": "A-polymer-gripper-product.png",
+      "role": "gripper design authority",
+      "sha256": "aeb0526b4bd804851df6f1177b04b587f7cf1ecef5d5040b672559cc7659f6f0",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 2,
+      "file": "PROP-gripper-seated-on-arm.png",
+      "role": "install language: gripper bolted/connected on white manipulator mount",
+      "sha256": "8e762aa4d33ececfe901362d595fcce03bdf0f13d9468e54fd02c0a96b9e97e0",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 3,
+      "file": "B-satellite-assembly-stand.png",
+      "role": "satellite on stand body continuity",
+      "sha256": "b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 4,
+      "file": "PROP-satellite-manipulator-02.png",
+      "role": "orbital manipulator/satellite geometry language from source folder",
+      "sha256": "876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e",
+      "owner_approved": false
+    }
+  ]
+}

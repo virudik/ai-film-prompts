@@ -1,0 +1,16 @@
+Photoreal live-action 16:9, about 7 seconds. Workshop beat 1 of 3 — drop only.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+<IMAGE_0> is absolute identity authority for the engineer: mid-30s man, curly dark brown hair, short beard, no glasses, black T-shirt with the existing red «Алиса» concert graphic, black trousers, black wristwatch. Never reproduce the multi-panel sheet layout as a video frame.
+
+REFERENCES (guides only — NOT exact first/last frames, NOT timed keyframe pins):
+<IMAGE_1> workshop / technical drawing environment. If a bottle with a different cap appears in this still, IGNORE it for story continuity.
+<IMAGE_2> ordinary dark metal waste bin with black liner + clear PET bottle with blue cap — prop/action language for the drop.
+
+STORY — one completed event:
+START: engineer studies the technical drawing at the bench; ONE empty clear PET water bottle with a blue screw-cap (same bottle throughout; do not switch to a white-cap bottle if another bottle appears in an environment still) is on the bench.
+ACTION: he picks THAT blue-cap bottle and drops it into the ordinary dark bin beside/near the bench (bin placement as in <IMAGE_2>, not a magic teleport under the table).
+END STATE: the same blue-cap bottle is INSIDE the dark bin — drop finished. No blue recycling container in this clip. No second story bottle. No stranger hands.
+
+CAMERA: medium to closer; hard cuts OK.
+AVOID: crossfade, dissolve, morph, slideshow, collage/storyboard panels, on-screen text, logos, letterbox/black bars; bottle shape morph; heavy metallic crash for light plastic; retrieving the bottle back out (that is the next clip).

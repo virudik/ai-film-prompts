@@ -1,0 +1,76 @@
+{
+  "clip_id": "A02_retrieve",
+  "status": "READY_TO_SEND",
+  "tool": "cursor.GenerateVideo",
+  "execute_now": false,
+  "launch_authorized_by": "t352u (as ready)",
+  "launch_group": "A_workshop",
+  "parallel_ok": false,
+  "arguments": {
+    "filename": "A02_retrieve.mp4",
+    "duration": 8,
+    "aspect_ratio": "16:9",
+    "reference_image_paths": [
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/ID-engineer-workshop-45726.png",
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/LOC-workshop-45728.png",
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/PROP-black-bin-45729.png",
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/PROP-bottle-retrieved-clear-of-bin.png"
+    ],
+    "prompt": "Photoreal live-action 16:9, about 8 seconds. Workshop beat 2 of 3 — realization + retrieval only.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\n<IMAGE_0> absolute identity: same mid-30s engineer, curly dark brown hair, short beard, no glasses, black «Алиса» tee, black trousers, black wristwatch. Identity sheet only — not a collage frame.\n\nREFERENCES (guides only — NOT exact first/last frames, NOT timed pins):\n<IMAGE_1> workshop continuity / drawing on the bench (for the realization glance).\n<IMAGE_2> ordinary dark bin + clear blue-cap PET language; START with the bottle already inside this bin.\n<IMAGE_3> completed retrieval language: his hand holds the same clear blue-cap PET clear of the dark bin rim after lifting it out — end-state guide, not a frozen advertising pose and not a drop-in.\n\nSTORY — cause chain, compact, near the bench (no deep walk):\nSTART STATE: ONE empty clear PET water bottle with a blue screw-cap (same bottle throughout; do not switch to a white-cap bottle if another bottle appears in an environment still) is already inside the ordinary dark waste bin.\nREALIZATION: a brief readable reaction — he glances back at the technical drawing, then looks down at the bin (change of mind). Keep it natural, not theatrical.\nRETRIEVAL: with his own hand (same skin/watch — no stranger cutaway hand), he reaches into the dark bin and pulls THAT SAME blue-cap bottle out until it is clear of the bin.\nEND STATE: completed extraction — he holds the same bottle clear of the dark bin. Do NOT walk to the blue recycling container in this clip. Do NOT deposit into blue here. No second bottle left on the table. Fingers must not melt into the plastic.\n\nCAMERA: medium / hand+bin close OK; hard cuts OK.\nAVOID: crossfade, morph, slideshow, collage, on-screen text, logos, letterbox; skipping retrieval; ending with bottle still inside the bin; blue recycling bin appearing; mid-air throw."
+  },
+  "ref_roles": [
+    {
+      "IMAGE": 0,
+      "file": "ID-engineer-workshop-45726.png",
+      "role": "PRIMARY identity",
+      "sha256": "980ad135ba1749c9e70b262219302763d2e1c406d7cc01e2773b0f0969832921",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 1,
+      "file": "LOC-workshop-45728.png",
+      "role": "workshop + drawing for realization glance",
+      "sha256": "5f3cc782178e9eb023fb72cecb686a81ef15ae34155aa5ffed64bf4e02e348c5",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 2,
+      "file": "PROP-black-bin-45729.png",
+      "role": "dark bin continuity; bottle already inside at start",
+      "sha256": "371a5a11c50174241a826b9ecbc69ca4084e483280241ec4130c4d2063de5c01",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 3,
+      "file": "PROP-bottle-retrieved-clear-of-bin.png",
+      "role": "retrieval completed: bottle clear of dark bin in his hand",
+      "sha256": "78203883ac23c6a4b76b7d5034d3ddf246240a8bf63a1890e3a51e395f3ef61c",
+      "owner_approved": false
+    }
+  ],
+  "state_chain": {
+    "semantic_start": "Та же бутылка уже внутри тёмного бака; инженер у верстака",
+    "semantic_end": "Извлечение завершено: та же бутылка в его руке вне бака (ещё не у синего)",
+    "depends_on": [
+      "A01_drop"
+    ]
+  },
+  "workshop_qa": {
+    "checked_at": "2026-11-06T10:45:00+03:00",
+    "checks": [
+      "refs exist on disk",
+      "IMAGE_n order matches reference_image_paths",
+      "references-only policy",
+      "A01 end inside dark bin",
+      "A02_retrieve start inside dark bin; visible retrieval; end clear of bin; no blue bin",
+      "A02_blue deposit only after montage; end inside blue",
+      "blue-cap PET identity locked; LOC white-cap distractor called out",
+      "no exact frame/keyframe pins"
+    ],
+    "residual_risks": [
+      "PROP-bottle-retrieved-clear-of-bin can still read like a hold-over-bin pose; directionality depends on prompt START/ACTION (lift out), watch first-pass QC",
+      "finger/PET fusion on retrieve and deposit remains model risk"
+    ],
+    "not_a_substitute_for_video_acceptance": true
+  }
+}

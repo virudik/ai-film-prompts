@@ -1,0 +1,82 @@
+[
+  {
+    "name": "01_Референс_персонажа_инженер_синяя_форма.png",
+    "rel_path": "/01_Референс_персонажа_инженер_синяя_форма.png",
+    "local": "/workspace/RESOURCE-expansion-2026-11-06/source/01_Референс_персонажа_инженер_синяя_форма.png",
+    "bytes": 517921,
+    "sha256": "a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587",
+    "origin": "yandex_public:https://disk.yandex.ru/d/RcAnSckO0RKgog"
+  },
+  {
+    "name": "02_Референс_спутник_и_манипулятор.png",
+    "rel_path": "/02_Референс_спутник_и_манипулятор.png",
+    "local": "/workspace/RESOURCE-expansion-2026-11-06/source/02_Референс_спутник_и_манипулятор.png",
+    "bytes": 367873,
+    "sha256": "876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e",
+    "origin": "yandex_public:https://disk.yandex.ru/d/RcAnSckO0RKgog"
+  },
+  {
+    "name": "03_Референс_инженер_сборка_космодром.png",
+    "rel_path": "/03_Референс_инженер_сборка_космодром.png",
+    "local": "/workspace/RESOURCE-expansion-2026-11-06/source/03_Референс_инженер_сборка_космодром.png",
+    "bytes": 352319,
+    "sha256": "3b1494ff8b9453141a3054b40098a94262914bdef53db12c9ad4dd8cfba24cf7",
+    "origin": "yandex_public:https://disk.yandex.ru/d/RcAnSckO0RKgog"
+  },
+  {
+    "name": "04_Раскадровка_18_сцен.png",
+    "rel_path": "/04_Раскадровка_18_сцен.png",
+    "local": "/workspace/RESOURCE-expansion-2026-11-06/source/04_Раскадровка_18_сцен.png",
+    "bytes": 452522,
+    "sha256": "c166aa275cdab6aa4859b5e707668b35da5caa11bdd398db166f8adb1c8f8ec7",
+    "origin": "yandex_public:https://disk.yandex.ru/d/RcAnSckO0RKgog"
+  },
+  {
+    "name": "README.txt",
+    "rel_path": "/README.txt",
+    "local": "/workspace/RESOURCE-expansion-2026-11-06/source/README.txt",
+    "bytes": 1141,
+    "sha256": "77d4ef117275d94f9ddd7d81ceb3e853c4fa1f06d7199b4f72f0f507ac1f004c",
+    "origin": "yandex_public:https://disk.yandex.ru/d/RcAnSckO0RKgog"
+  },
+  {
+    "name": "file_00000000204c81f58339aa18f75dcf8f.png",
+    "rel_path": "/file_00000000204c81f58339aa18f75dcf8f.png",
+    "local": "/workspace/RESOURCE-expansion-2026-11-06/source/file_00000000204c81f58339aa18f75dcf8f.png",
+    "bytes": 3152838,
+    "sha256": "561510b23d77236b417aab829dcf8798dfb1b64f3d9149588a56f062e04d68fc",
+    "origin": "yandex_public:https://disk.yandex.ru/d/RcAnSckO0RKgog"
+  },
+  {
+    "name": "file_000000002a6c821196b328472f9e044e.png",
+    "rel_path": "/file_000000002a6c821196b328472f9e044e.png",
+    "local": "/workspace/RESOURCE-expansion-2026-11-06/source/file_000000002a6c821196b328472f9e044e.png",
+    "bytes": 3037265,
+    "sha256": "4dc922c941d70bf6b7c2ced6d2f73db8de33c60b7ee20ab69b4ee182564c44ad",
+    "origin": "yandex_public:https://disk.yandex.ru/d/RcAnSckO0RKgog"
+  },
+  {
+    "name": "file_00000000a8f4821086d04f082dcb5ca2.png",
+    "rel_path": "/file_00000000a8f4821086d04f082dcb5ca2.png",
+    "local": "/workspace/RESOURCE-expansion-2026-11-06/source/file_00000000a8f4821086d04f082dcb5ca2.png",
+    "bytes": 2703209,
+    "sha256": "688199dccc1e1ea57a83c98806a3a103f7c8752906d3373d3b8e76af6b788537",
+    "origin": "yandex_public:https://disk.yandex.ru/d/RcAnSckO0RKgog"
+  },
+  {
+    "name": "file_00000000fcc0820a87c57d1045781dfc.png",
+    "rel_path": "/file_00000000fcc0820a87c57d1045781dfc.png",
+    "local": "/workspace/RESOURCE-expansion-2026-11-06/source/file_00000000fcc0820a87c57d1045781dfc.png",
+    "bytes": 2903831,
+    "sha256": "98c9a6f3436287483b2af2a640aee4ab611f8d02adc74b2817c29c7c37559449",
+    "origin": "yandex_public:https://disk.yandex.ru/d/RcAnSckO0RKgog"
+  },
+  {
+    "name": "Промпты_Grok_блоки_2_и_3.md",
+    "rel_path": "/Промпты_Grok_блоки_2_и_3.md",
+    "local": "/workspace/RESOURCE-expansion-2026-11-06/source/Промпты_Grok_блоки_2_и_3.md",
+    "bytes": 21519,
+    "sha256": "2ff74f58ed6c10197e649fb7c2c71f29b9a9b1271bade4148a83c48770808d7c",
+    "origin": "yandex_public:https://disk.yandex.ru/d/RcAnSckO0RKgog"
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "clip_id": "B01_pickup",
+  "status": "READY_TO_SEND",
+  "tool": "cursor.GenerateVideo",
+  "execute_now": false,
+  "launch_authorized_by": "t352u (generate as ready; deliver all attempts to Drive/Sasha; videoReview after)",
+  "launch_group": "B_assembly",
+  "parallel_ok": true,
+  "arguments": {
+    "filename": "B01_pickup.mp4",
+    "duration": 5,
+    "aspect_ratio": "16:9",
+    "reference_image_paths": [
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/ID-engineer-blue-form-01.png",
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/A-polymer-gripper-product.png",
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/ATM-cleanroom-assembly-extra.png"
+    ],
+    "prompt": "Photoreal live-action 16:9, about 5 seconds. Aerospace assembly hall.\n\n<IMAGE_0> character identity in dark blue workwear with reflective stripes and clear safety glasses — SAME curly hair/beard type as the workshop engineer, different approved costume. Identity only; never multi-panel collage. Prefer NO readable chest logo; blank patch OK for later official overlay.\n<IMAGE_1> matte polymer open-frame gripper product.\n<IMAGE_2> clean assembly hangar atmosphere (not a collage board).\n\nSTORY: engineer carefully picks up the polymer gripper from a table; brief focus on hands/material then face. Realistic mass. One product only.\n\nAVOID: workshop black «Алиса» tee in this clip; fake Roscosmos lettering; crossfade; morph; slideshow; text; letterbox; stranger faces."
+  },
+  "ref_roles": [
+    {
+      "IMAGE": 0,
+      "file": "ID-engineer-blue-form-01.png",
+      "role": "identity in blue workwear + clear safety glasses; same curly hair/beard type; do NOT reproduce multi-panel sheet; prefer blank chest patch over fake lettering",
+      "sha256": "a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 1,
+      "file": "A-polymer-gripper-product.png",
+      "role": "polymer gripper product",
+      "sha256": "aeb0526b4bd804851df6f1177b04b587f7cf1ecef5d5040b672559cc7659f6f0",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 2,
+      "file": "ATM-cleanroom-assembly-extra.png",
+      "role": "clean assembly hall atmosphere — NOT a collage",
+      "sha256": "5de9f2952dc335a6e4b83e3c2d4618367d5959febb575ecfb5575226d062e9ac",
+      "owner_approved": false
+    }
+  ]
+}

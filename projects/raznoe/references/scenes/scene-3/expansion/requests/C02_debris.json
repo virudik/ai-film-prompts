@@ -1,0 +1,27 @@
+{
+  "clip_id": "C02_debris",
+  "status": "READY_TO_SEND",
+  "tool": "cursor.GenerateVideo",
+  "execute_now": false,
+  "launch_authorized_by": "t352u (generate as ready; deliver all attempts to Drive/Sasha; videoReview after)",
+  "launch_group": "C_orbit",
+  "parallel_ok": true,
+  "arguments": {
+    "filename": "C02_debris.mp4",
+    "duration": 5,
+    "aspect_ratio": "16:9",
+    "reference_image_paths": [
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/PROP-satellite-manipulator-02.png"
+    ],
+    "prompt": "Photoreal live-action 16:9, about 5 seconds.\n\n<IMAGE_0> satellite and manipulator geometry.\n\nSTORY: same satellite detects metallic debris fragments (not asteroids/fireballs). Slight reorientation; manipulator begins extending toward a suitable scrap. Microgravity. No logos.\n\nAVOID: crossfade; morph; letterbox; explosions."
+  },
+  "ref_roles": [
+    {
+      "IMAGE": 0,
+      "file": "PROP-satellite-manipulator-02.png",
+      "role": "satellite and manipulator geometry",
+      "sha256": "876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e",
+      "owner_approved": false
+    }
+  ]
+}
