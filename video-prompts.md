@@ -6,11 +6,11 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**29 сцен к генерации/доработке · 144 полных текстов промта**
+**30 сцен к генерации/доработке · 147 полных текстов промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 17** сцен сейчас в медленной генерации: **16, 28, 42, 48, 49, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 71, 72** — **5 активных Topview-задач / 5 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
-- **Последняя оформленная активная сцена:** 72 — пролог: Виталик на том же троне из кальянов в кантине Татуина: «Всем привет… Всем приятного просмотра. История-то понятная, житейская»; 71 — его финальное слово и объявление трейлеров. Обе в двух версиях: с заигрывающими инопланетянками по бокам (главная) и без (владелец 30.10; Wan3.0, 30 с; ждут три картинки от открытого чата ChatGPT Work). Прежняя запись: 70 — Татуин: непрерывный пролёт с улицы к столику Серёги в кантине. Связка 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65 использует настоящие последние3с предыдущего звена; вся уличная цепь и65/70 выбраны Wan3.0,30с,52P1–P6 остаются Seedance2.0. В67–69 одна и та же дыня и сумка;69 убирает оставленную Стичем кучу в лазерный совок. Новые сцены остаются DRAFT, видеостыки ожидаются; приоритет до49→50→51→28, ready-skip сохраняется. Никаких видео этой правкой не запущено.
+- **Последняя оформленная активная сцена:** 73 — Виталик на троне перед титрами; титры — на существующем блоке 28; 71 после титров и перед трейлерами. Новых запусков нет. Прежде: 72 — пролог: Виталик на том же троне из кальянов в кантине Татуина: «Всем привет… Всем приятного просмотра. История-то понятная, житейская»; 71 — его финальное слово и объявление трейлеров. Обе в двух версиях: с заигрывающими инопланетянками по бокам (главная) и без (владелец 30.10; Wan3.0, 30 с; ждут три картинки от открытого чата ChatGPT Work). Прежняя запись: 70 — Татуин: непрерывный пролёт с улицы к столику Серёги в кантине. Связка 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65 использует настоящие последние3с предыдущего звена; вся уличная цепь и65/70 выбраны Wan3.0,30с,52P1–P6 остаются Seedance2.0. В67–69 одна и та же дыня и сумка;69 убирает оставленную Стичем кучу в лазерный совок. Новые сцены остаются DRAFT, видеостыки ожидаются; приоритет до49→50→51→28, ready-skip сохраняется. Никаких видео этой правкой не запущено.
 - **Ревизия Control Center:** дата определяется автоматически по содержательному изменению canonical master; чистая техническая пересинхронизация без изменения содержимого дату ревизии не меняет.
 - **Последняя полная синхронизация:** **06.11.2026 · текущая по live Topview/Drive сверке**. Точное техническое время свежей telemetry берётся из `topview-status.json.checked_at`.
 
@@ -98,6 +98,7 @@
 | 70 | [Татуинская связка 6/7 — пролёт в кантину](#scene-70) | настоящий конец69; Серёга; вход кантины; стол65 | Один непрерывный пролёт улица→открытая дверь→стол; бармен опускает кружку, IG-11 достаёт маслёнку,65 продолжает. Wan3.0,30с; после69 и перед65. Ждёт настоящий конец69 и QC; DRAFT. |
 | 71 | [Виталик на троне из кальянов — финальное слово](#scene-71) | Виталик; трон из кальянов; две инопланетянки (версия с ними — главная); кантина 65 | Финал: «Вот такая вот история получилась. Житейская, понятная» и объявление трейлеров новых проектов; кольцо дыма — переход. Владелец 30.10; Wan3.0, 30 с; в очереди после 65, ждёт картинки.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 | 72 | [Виталик на троне из кальянов — пролог «Всем привет»](#scene-72) | Виталик; трон из кальянов; две инопланетянки (версия с ними — главная); кантина 65 | Пролог: «Всем привет. Сейчас я вам поведаю одну историю, произошедшую с одним моим другом. Всем приятного просмотра. История-то понятная, житейская»; камера ныряет в колбу кальяна. Владелец 30.10; Wan3.0, 30 с; ждёт картинки.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
+| 73 | [Виталик на троне: «Думаете это уже конец?»](#scene-73) | Виталик, трон и две помощницы из 71/72, кантина 65 | Приглашение досмотреть настоящие титры. Сначала 73, затем титры на 28, затем существующая 71 после титров, затем трейлеры. 30с Wan3.0 и 2×15с Seedance2.0. DRAFT, запуска не было. |
 
 ### 🎬 Татуинская связка — единый порядок сцепления и запуска
 
@@ -9584,6 +9585,152 @@ extra speakers, other lines, English speech, mumbling, subtitles, text, throne o
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+
+</div>
+
+<a id="scene-73"></a>
+## Сцена 73 — Виталик на троне: «Думаете это уже конец?» — перед титрами
+
+<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["owner_requested","vitalik","tatooine","cantina","hookah_throne","before_credits","postcredits_teaser"]} -->
+
+**Контекст использования:** новая сцена по поручению владельца от 07.11.2026. Это третье обращение Виталика к зрителю; не заменяет пролог 72 и существующее заключительное слово 71. Вставить её после конца основного сюжета, до настоящих титров. После титров — уже существующая сцена 71 («Вот такая вот история получилась…» и объявление трейлеров), потом трейлеры/сюрприз только по выбору автора.
+
+**Точная реплика Виталика без перестановки предложений:** «Думаете это уже конец? Ну а как же сцена после титров и сами титры? Уважайте чужой труд. И я ещё подготовил для вас кое-что особенное.»
+
+**Что происходит:** камера начинает отдаляться от трона, будто фильм закончился. Виталик на прежнем огромном троне из работающих кальянов в кантине Татуина поднимает палец, возвращает камеру к себе и говорит с добродушной иронией. На словах про чужой труд становится серьёзен, слегка кланяется невидимой команде. Перед обещанием сюрприза наклоняется к зрителю и подмигивает. Два прежних молчаливых инопланетных персонажа остаются слева и справа от трона. В финале мягкий дымовой переход на чистое звёздное небо для титров; сами буквы в генерации не рисовать.
+
+**Референсы (готовые и уже применяемые в 71/72 — новых PNG не требуется):**
+- @Image1 — references/full/vitalik.jpg · точное лицо, телосложение и чёрный костюм Виталика.
+- @Image2 — references/scenes/scene-71/S71-hookah-throne.png · единственный высокий трон из стекла и латуни, работающие кальяны и помост.
+- @Image3 — references/scenes/scene-71/S71-vitalik-on-throne-girls.png · постановка Виталика на троне, зелёная твилечка слева с веером, оранжевая тогрута справа с кубком; не заменяет лицо из Image1.
+- @Image4 — references/scenes/scene-65/S65-bar-table.png · исходная кантина, арки, столы, янтарное освещение.
+- @Video1 нужен только части 2 Seedance: настоящий последний 3-секундный отрывок готовой части 1 после QC. До него часть 2 не READY.
+
+**Монтажный порядок:** финал фильма → Сцена 73 → титры (поверх существующего танцевального блока 28 и/или звёздного неба) → 2–3 секунды тишины → Сцена 71 как сцена после титров → трейлеры. Пролог 72 остаётся первым. [План титров и прав участников](reports/seregius-credits-and-postcredits-2026-11-07.md). «Кое-что особенное» оставлено интригой без выдуманного содержания.
+
+**Статус:** DRAFT / not_approved. Новых видеозапусков или списаний кредитов нет. 30 секунд с русской речью по стандарту — Wan 3.0; альтернативная версия Seedance 2.0 2×15 секунд существует, но без отдельного разрешения не отправляется.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/full/vitalik.jpg" target="_blank"><img src="references/thumbs/full/vitalik.jpg.webp" alt="Виталик" loading="lazy"></a><figcaption>@Image1 · Виталик, внешность и костюм</figcaption></figure>
+<figure><a href="references/scenes/scene-71/S71-hookah-throne.png" target="_blank"><img src="references/thumbs/scenes/scene-71/S71-hookah-throne.png.webp" alt="Трон из кальянов" loading="lazy"></a><figcaption>@Image2 · трон из кальянов</figcaption></figure>
+<figure><a href="references/scenes/scene-71/S71-vitalik-on-throne-girls.png" target="_blank"><img src="references/thumbs/scenes/scene-71/S71-vitalik-on-throne-girls.png.webp" alt="Виталик и инопланетянки" loading="lazy"></a><figcaption>@Image3 · постановка с двумя помощницами</figcaption></figure>
+<figure><a href="references/scenes/scene-65/S65-bar-table.png" target="_blank"><img src="references/thumbs/scenes/scene-65/S65-bar-table.png.webp" alt="Кантина Татуина" loading="lazy"></a><figcaption>@Image4 · интерьер кантины</figcaption></figure>
+</div>
+
+<div class="engine-tabs" data-scene="73">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 73 · Wan 3.0 / Seedance 2.5 · 30 с
+
+**Входы:** @Image1 — Виталик; @Image2 — трон; @Image3 — две помощницы и композиция; @Image4 — кантина. Использовать файлы из ссылок выше, без новых рисованных лиц.
+
+```
+Mode: omni-reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Cinematic deadpan comedy, 30-second owner outro before actual film credits.
+
+REFERENCES / AUTHORITY:
+@Image1 exact Vitalik identity: fair round face, short light-brown hair, light stubble, calm grey-green eyes; black Jedi tunic, long black leather tabard, wide brown belt, unlit rigid silver-black lightsaber hilt on belt, black gloves, brown boots. File references/full/vitalik.jpg; highest authority for face and costume.
+@Image2 = ONE enormous working throne built entirely of hookahs, with brass stems, colored glass bulbs and hoses running down three stone steps, not a throne of swords. File references/scenes/scene-71/S71-hookah-throne.png.
+@Image3 = staging and exactly two silent adult alien women: LEFT emerald green Twi'lek with two lekku and white feather fan; RIGHT orange Togruta with ivory-indigo striped montrals, copper-plum outfit and gold goblet. File references/scenes/scene-71/S71-vitalik-on-throne-girls.png. Does not override Vitalik face.
+@Image4 = the same amber Tatooine cantina architecture/lanterns/tables as scenes 65/71/72. File references/scenes/scene-65/S65-bar-table.png.
+The reference images define identities, throne and location; they are NOT successive video frames.
+
+START STATE:
+One Vitalik lounges on the hookah throne, exactly two silent women flanking the stone dais. Camera is slowly drifting away from the throne as if the movie just ended. Small real smoke curls from the upper hookahs. No Serega.
+
+TIMELINE:
+[0–05s] Vitalik raises his gloved index finger, catching the lens; camera stops its retreat and briskly returns to a lively waist-up angle. The two women exchange a silent amused glance.
+[05–11s] Looking into the camera, ironic pause and natural clear Russian lip sync: «Думаете это уже конец?»
+[11–19s] Vitalik leans forward, gestures toward an EMPTY region outside the framing for future editor credits and asks: «Ну а как же сцена после титров и сами титры?»
+[19–23s] With genuine respect and serious eye contact: «Уважайте чужой труд.» Patrons behind fall quiet and nod gently.
+[23–28s] Conspiratorial close-up, quiet smile and wink: «И я ещё подготовил для вас кое-что особенное.»
+[28–30s] A light smoke puff covers the lens; it reveals plain dark starry sky for final editorial credits, without any words.
+
+END STATE:
+Clean black-blue star field with sparse stars, no lettering. A separate editorial credits layer is added later, then S71 is the EXISTING post-credits scene after the real team credits. Do not show or invent the special surprise.
+
+CAMERA / PHYSICS:
+Motivated dolly away and return; single clear face whenever speaking; medium-to-close progression, smooth smoke transition. No camera teleportation or glass clipping. Keep throne hoses physically intact and the two women always beside the same throne.
+
+LIGHT / AUDIO:
+Amber candle and lantern light on glass and brass, photoreal costumes and skin, mild haze. Vitalik alone delivers exactly four Russian sentences in the order specified, no English, no other speaking, no subtitles, no generated titles, natural Russian lip-sync. Bubbling hookahs and low cantina ambience; no generated music.
+
+NEGATIVE:
+wrong Vitalik face, extra performers, another throne, sword throne, speaking women, generated text, fake names/credits, altered costumes, extra lines, camera jitters, ghost arms, blurred speaker face, random logos, nudity, credits burned into picture.
+
+FRAME FILL:
+Full 16:9 picture 1280×720 edge-to-edge, no bars, black margins or decorative borders.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 73 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — Виталик; @Image2 — трон; @Image3 — постановка с инопланетянками; @Image4 — интерьер.
+
+```
+Mode: omni-reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | 1 of 2, film time 0:00–0:15, DRAFT.
+
+REFERENCES:
+@Image1 references/full/vitalik.jpg: exact identity and black Jedi clothes, highest face/costume authority.
+@Image2 references/scenes/scene-71/S71-hookah-throne.png: ONE single enormous functional glass-brass hookah throne, three-step dais and hoses.
+@Image3 references/scenes/scene-71/S71-vitalik-on-throne-girls.png: ONLY one Vitalik and two silent women: green Twi'lek with feather fan LEFT, orange Togruta with goblet RIGHT; staging only.
+@Image4 references/scenes/scene-65/S65-bar-table.png: same amber cantina interior, same arches and patrons.
+Vitalik has fair round face, short light-brown hair, grey-green eyes and light stubble; wears black Jedi tunic and tabard, broad belt with unlit silver-black lightsaber hilt, dark gloves and tall brown boots. Do not change identity.
+
+START STATE:
+Camera slowly recedes from the large hookah throne as if the movie has ended; Vitalik lounging on it, two silent women beside him.
+
+TIMELINE:
+[00–04] Vitalik raises a gloved finger, calls the camera back nonverbally; lens changes direction toward him.
+[04–08] In sharp waist-up front view, natural Russian speech and lip sync: «Думаете это уже конец?» A brief comedic pause.
+[08–15] He leans forward, points toward an EMPTY edge of frame for real credits in editing, says: «Ну а как же сцена после титров и сами титры?» His mouth stays visible.
+
+END STATE:
+Keep Vitalik leaning slightly toward lens with his finger lowered, one throne unchanged and both women in stable positions. Last 3 actual seconds will condition Part 2, no smoke wipe yet.
+
+AUDIO / NEGATIVE:
+Only the two sentences above, Russian, no extra speech or subtitles, no fictional credits, no music, no another Vitalik, no second throne or face swapping. Full 16:9 landscape 1280×720, no black bars.
+```
+
+#### 73 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 = настоящие последние 3 секунды результата части 1 (пока отсутствуют), @Image1–@Image4 те же реальные файлы референсов.
+
+```
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | 2 of 2, new film time 0:15–0:30; @Video1 is conditioning, NOT a repeated 3-second shot.
+
+REFERENCE PRIORITY:
+@Video1 = actual final 3 seconds of the real completed Scene 73 Seedance Part 1; highest authority for continuity of motion and exact start pose.
+@Image1 references/full/vitalik.jpg = same fair round-faced, light-brown-haired and lightly stubbled Vitalik in black Jedi tabard with rigid unlit saber hilt; highest character identity priority.
+@Image2 references/scenes/scene-71/S71-hookah-throne.png = EXACT single glass-brass working hookah throne on stone dais.
+@Image3 references/scenes/scene-71/S71-vitalik-on-throne-girls.png = same left green Twi'lek with fan and right orange Togruta with gold goblet, silent throughout; staging only.
+@Image4 references/scenes/scene-65/S65-bar-table.png = same warmly lit Tatooine cantina and patrons.
+
+START STATE:
+Continue the actual motion from @Video1, Vitalik still leaning forward after finishing his question. Keep his exact face, black tunic, belt, unlit hilt and stable stage. No repeated speech from Part 1.
+
+TIMELINE:
+[00–05] Vitalik sits straighter, respectful expression: «Уважайте чужой труд.» Patrons show one understated approving nod.
+[05–12] He leans into the close shot, playful secretive smile and wink: «И я ещё подготовил для вас кое-что особенное.» Only Vitalik speaks.
+[12–15] Tiny gesture toward lens; a natural smoke puff obscures view, emerging into a clean empty black-blue star field.
+
+END STATE:
+Simple star field without generated titles, ready for manually edited real film credits. Existing S71 occurs only AFTER genuine credits; don't invent the teased surprise.
+
+CAMERA / AUDIO:
+Motivated smooth close-up, natural Russian lip-sync on two exact sentences, no other speaking; bubbling hookahs and soft smoke whoosh. No music, text, fake credits, second Vitalik or second throne.
+
+FRAME FILL / NEGATIVE:
+Full landscape 16:9, 1280×720 edge-to-edge; no cropping, pillarboxing, watermarks or stray lettering; no replay of @Video1.
 ```
 
 </div>
