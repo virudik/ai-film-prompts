@@ -2327,7 +2327,6 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 
 **RESOURCE · четыре дополнительных PNG и девять активных v3 (06.11).** [Текущая нарезка, точные входы и SHA](projects/raznoe/references/scenes/scene-3/expansion/active-cut.json) · [манифест механики 4/4](projects/raznoe/references/scenes/scene-3/expansion/improvement-reference-manifest.json). Исправлены A06, B02–B04, C01–C05. Все **19 клипов / 114 секунд** сохранены, старые v1/v2 не удалены; четвёртый PNG прессования опубликован в GitHub. Видео v3 не запускались, все материалы `DRAFT / not_approved`.
 
-
 <!-- scene-meta: {"target_engine":"Grok Imagine Video","production_state":"DRAFT","duration_s":114,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","photoreal","landscape_16x9","reference_first","raznoe_scene_3","source_grok_imagine","native_19_114","references_only"]} -->
 
 **Контекст использования:** отдельный фотореалистичный ролик. Он не продолжает мультфильмы «Тихий маяк» и «Тихая планета» и не относится к Роскосмосу или Терра Тех. Вкладки выше по-прежнему хранят исходник Grok Imagine на 30 секунд, две генерации по 15 секунд. Это не уже снятый ролик Topview и не ролик Wan. Текущая нарезка к запуску — 19 самостоятельных native-клипов на 114 секунды в разделе ниже. Она дополняет ту же сцену, а не заводит новые номера.
