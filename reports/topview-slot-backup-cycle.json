@@ -14,8 +14,8 @@
   "lease_commit": "5d788d35fa51219cb14598004763d28c6924d030",
   "started_at": "2026-11-07T05:55:08.186460Z",
   "receipt_started_at": "2026-11-07T05:59:33.286Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
     "source": "Topview read-only connector: 14 boards 18 pages, all 631 video tasks; all 6 init task details checked",
@@ -120,7 +120,23 @@
     "ordinary_actual_last_run_id": "d02de572-14c4-8325-a98b-b24997121aa0",
     "ordinary_latest_result_run_id": "eda72dc0-d5e8-832e-8f1e-3f2fe4860a35",
     "relay_last_run_id": "a9105983-256c-8327-bb1d-daa92c55a6d0",
-    "work_hourly_last_run_id": "378572da-a750-832f-a978-e194ce9feecc"
+    "work_hourly_last_run_id": "378572da-a750-832f-a978-e194ce9feecc",
+    "ordinary_is_enabled": true,
+    "relay_is_enabled": true,
+    "hourly_work_is_enabled": true,
+    "work_new_GUI_and_available_quota_not_verified_in_this_run": true
   },
-  "checked_at": "2026-11-07T05:59:33.286Z"
+  "checked_at": "2026-11-07T06:01:13.688Z",
+  "completed_at": "2026-11-07T06:01:13.688Z",
+  "updated_at": "2026-11-07T06:01:13.688Z",
+  "lease_released_at": "2026-11-07T06:01:13.688Z",
+  "bot_wake": {
+    "latest_issue": 397,
+    "latest_event_id": "slots:c48ed7e4:17",
+    "observed_at": "2026-11-06T22:20:30Z",
+    "interpretation": "Historical slot issue predates S73 task; live Topview full scan shows 6/6, not a current free slot",
+    "relay_receipt_last_updated_at": "2026-11-06T05:55:16.981Z",
+    "automation_monitor_checked_at": "2026-11-07T05:50:28Z"
+  },
+  "finalization_note": "Full 14-board 18-page read-only scan verified 6/6, six active task details and all 15 queued submissions; no TinyFish run or Create. Final receipt and exact own lease release atomically in one CAS commit; changed no other receipts, queue or monitor telemetry."
 }
