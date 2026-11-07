@@ -3,69 +3,40 @@
   "project": "seregius",
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "4c14128e-0fcc-4ed7-89e8-be29a8a363de",
-  "run_id": "7360f927-7958-8331-a2ea-658aebb5ea4b",
-  "run_id_source": "Automations.peek.last_run.id current run 2026-11-07T16:00:00Z",
-  "source_head": "2b697c9b670fdbbb94866eea9ea6ce312f43a946",
+  "execution_instance_id": "eaf5d172-7cf8-4c54-adb5-da1dbf1f50ea",
+  "run_id": "661041a1-6b40-8328-902a-7dd00eefac79",
+  "run_id_source": "Automations.peek.last_run.id",
+  "run_id_unavailable_reason": null,
+  "source_head": "ee343a65f323296a42a2f86764fe1594d9714dc5",
   "route_generation": 3,
-  "lease_holder": "chatgpt:ordinary:4c14128e-0fcc-4ed7-89e8-be29a8a363de",
-  "lease_acquired_at": "2026-11-07T16:07:54.739Z",
-  "lease_commit": "009bcd556d49455f4e59563f8df6324f2aefa3c9",
-  "started_at": "2026-11-07T16:07:54.739Z",
-  "receipt_started_at": "2026-11-07T16:08:59.736Z",
-  "phase": "completed",
-  "status": "completed",
+  "lease_holder": "chatgpt:ordinary:eaf5d172-7cf8-4c54-adb5-da1dbf1f50ea",
+  "lease_acquired_at": "2026-11-07T17:00:05.832Z",
+  "lease_commit": "cf4c55ccc1fa1564bb9bc218177c53180dac03ee",
+  "started_at": "2026-11-07T16:56:36.085464Z",
+  "receipt_started_at": "2026-11-07T17:00:43.150Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan": {
-    "complete": true,
-    "source": "Topview connector read-only; all 14 boards, first pages each plus 4 subsequent My First Board pages; 6 independent task detail checks and final board recheck; 15 submitted IDs independently reconciled",
-    "scope": "all_14_boards_18_video_page_requests",
-    "boards_scanned": 14,
-    "pages_scanned": 18,
-    "pages_with_results": 14,
-    "video_tasks_scanned": 631,
-    "status_counts": {
-      "success": 602,
-      "fail": 23,
-      "init": 6
-    },
-    "active_task_ids": [
-      "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
-      "101221814fd5430697f697f95a3f4252",
-      "3ebe7c23db05479e9b6f762a75b832e7",
-      "365cf639589a4a5da834d70193d5e8f6",
-      "be960f5e3bf54563aff663fed9da8906",
-      "de8e44bb15d64dc7a4eb640d27a726e4"
-    ],
-    "active_task_details_verified": true,
-    "submitted_task_ids_individually_reconciled": 15,
-    "complete_scan_verified": true,
-    "scan_started_at": "2026-11-07T16:09:42.855Z",
-    "checked_at": "2026-11-07T16:15:26.183Z"
+    "complete": false,
+    "scope": "verification in progress; board listings observed",
+    "boards_scanned": null,
+    "video_tasks_scanned": null
   },
   "slots": {
     "capacity": 6,
-    "occupied": 6,
-    "free": 0,
-    "complete_scan_verified": true,
-    "checked_at": "2026-11-07T16:15:26.183Z"
+    "occupied": null,
+    "free": null
   },
   "selected_item": null,
   "new_submissions": [],
-  "browser_transport": "not_used_6_of_6",
+  "browser_transport": "not_used",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
   "tinyfish_estimated_cost_usd": 0,
   "tinyfish_confirmed_cost_usd": 0,
   "topview_credits_cost": 0,
-  "task_ids": [
-    "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
-    "101221814fd5430697f697f95a3f4252",
-    "3ebe7c23db05479e9b6f762a75b832e7",
-    "365cf639589a4a5da834d70193d5e8f6",
-    "be960f5e3bf54563aff663fed9da8906",
-    "de8e44bb15d64dc7a4eb640d27a726e4"
-  ],
-  "outcome": "no_free_slot",
+  "task_ids": [],
+  "outcome": "in_progress",
   "blocker": null,
   "retryable": true,
   "acceptance": {
@@ -77,54 +48,9 @@
     "production_submission_verified": false
   },
   "previous_receipt": {
-    "execution_instance_id": "7898f5eb-6b12-4fed-9982-02d282745d6a",
+    "execution_instance_id": "4c14128e-0fcc-4ed7-89e8-be29a8a363de",
     "outcome": "no_free_slot",
-    "completed_at": "2026-11-07T15:12:13.200Z"
+    "completed_at": "2026-11-07T16:16:48.407Z"
   },
-  "updated_at": "2026-11-07T16:16:48.407Z",
-  "queued_candidate": "S49B",
-  "queue_reconciliation": {
-    "unresolved_active_claims": 0,
-    "submitted_tasks_found_on_expected_board": 15,
-    "queue_submitted_count": 15,
-    "source_queue_sha256": "879add3bf2a6befef4158e970730ce9f0a5c4fafe613ce070ff61abb72f9a218",
-    "source_task_map_sha256": "321efbd81ca8ae22a5c5c37ed22224469e3aa2ec1f33fda58b2dc34f2d536a7e",
-    "readiness_checked_at": "2026-11-07T15:30:32.549055Z",
-    "sha_comparison": "Independently calculated SHA-256 from fresh GitHub UTF-8 files and matched both ops/queue-readiness.json values",
-    "queue_file_sha": "4f880de6954ea55a77c4a720fa54556e424d8113"
-  },
-  "owner_tasks": "checked_open_0_taken_0",
-  "peer_status": {
-    "ordinary_last_run_id": "7360f927-7958-8331-a2ea-658aebb5ea4b",
-    "ordinary_latest_result_run_id": null,
-    "work_hh55_last_run_id": "eaf3a95c-33a4-8327-9e8d-6f0427788e3f",
-    "work_hh55_latest_result_run_id": "1658357b-2320-8333-98ac-459762c93799",
-    "relay_last_run_id": "a9105983-256c-8327-bb1d-daa92c55a6d0",
-    "relay_latest_result_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d",
-    "source": "Automations.peek; last_run and latest_result not assumed same"
-  },
-  "launcher_health": {
-    "status": "capacity_full",
-    "source": "Fresh complete Topview scan",
-    "bot_previous_event": "slots:c48ed7e4:17",
-    "bot_event_is_stale": true,
-    "monitor_checked_at": "2026-11-07T16:10:40Z"
-  },
-  "work_preference": {
-    "preferred_executor": "work",
-    "route_generation": 3,
-    "work_capacity_state": "restored_verified",
-    "restoration_evidence_is_historical": true,
-    "route_change": false
-  },
-  "tinyfish_known_blocker": "TinyFish native Topview UI navigation showed Agent Bot/Assets rather than the full Omni-reference composer. No native image file picker/import of six exact GitHub originals was accessible. Prompt not entered, settings and Unlimited0 not independently verified. No Create attempted.",
-  "checkpoint_register": "read only; no-op does not modify next_action",
-  "current_head_before_final_commit": "f8c45c8e7ccfafffc5c8b45b17892f73841cb0bc",
-  "completed_at": "2026-11-07T16:16:48.407Z",
-  "lease": {
-    "holder": "chatgpt:ordinary:4c14128e-0fcc-4ed7-89e8-be29a8a363de",
-    "acquired_at": "2026-11-07T16:07:54.739Z",
-    "acquired_commit": "009bcd556d49455f4e59563f8df6324f2aefa3c9",
-    "released_at": "2026-11-07T16:16:48.407Z"
-  }
+  "updated_at": "2026-11-07T17:00:43.150Z"
 }
