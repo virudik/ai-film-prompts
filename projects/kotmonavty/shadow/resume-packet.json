@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "kotmonavty",
   "project_name": "Котмонавты",
-  "checked_at": "2026-11-07T19:31:33+00:00",
-  "source_head": "7f41ad0b98e9873bc57530a16c8796e064517f8e",
-  "source_fingerprint": "1b585aaa10eadde13ee858170e77238306b9b1e527779bb1c16b0ad1d141623f",
+  "checked_at": "2026-11-07T19:35:09+00:00",
+  "source_head": "fa272f1befa590ac0aff8e3df9f935ed847a6177",
+  "source_fingerprint": "93bcc04f81204e4ffe25f608656331dbcfae06f2b8b9f1fdb41310cc4b498971",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -190,8 +190,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "1869c9b410258caa021c3fa3fffa6e93de7e8eca700676570d38f189b770f015",
-      "bytes": 36900
+      "sha256": "fcaed4b4eaf4d3b27eb9b68288a99d9bd861ee45faa98f2d7d6ca027c7fb848b",
+      "bytes": 34437
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -215,7 +215,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "ab4bc9849d1f6f2054e065b56b77a72e9f260228dfdae383abbfe6514fcd97cc",
+      "sha256": "69fc5db27b42e103da0a4e1985e55ce268075d88a895c76ec908497e12be881e",
       "bytes": 5135
     },
     {
@@ -295,12 +295,12 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "cd5e882911d7451c1208e09782eb844858a4b009bb6b868366ded27e46d9fb23",
-      "bytes": 36701
+      "sha256": "0db22914569ec7225cc76b03d6d7dd4187270a62602cc60831340ef8542ec2da",
+      "bytes": 34238
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "a897e5a41dfe947683a0969d3eb4e1ff5db0cc553bc85f2b6257e5150b6f440c",
+      "sha256": "bd430bda9120588756ed442aa0b190808fa0dd6451607d8fb1ca53264a3b0976",
       "bytes": 25534
     },
     {
