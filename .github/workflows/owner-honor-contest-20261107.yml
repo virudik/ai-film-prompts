@@ -17,112 +17,30 @@ jobs:
         with:
           ref: main
           fetch-depth: 1
-      - name: Prepare exact-lease bounded editor
+      - name: Load reviewed bounded editor and fix diagnosed formatting
         shell: bash
         run: |
-          cat > /tmp/owner-contest.py <<'PY'
-          import json, re, subprocess, sys
+          set -euo pipefail
+          git fetch --depth=1 origin 084824815f55b0e51d6bdcc0f530955d13cb9420
+          git show 084824815f55b0e51d6bdcc0f530955d13cb9420:.github/workflows/owner-honor-contest-20261107.yml > /tmp/reviewed-workflow.yml
+          python3 - <<'PY'
           from pathlib import Path
-          from datetime import datetime, timezone
-          HOLDER='chatgpt:ordinary:b47e82ee-0b5f-42ae-918b-5a5c197bc631'
-          P='projects/raznoe/'
-          WORK='RAZNOE-HONOR-X9EPRO-CONTEST-20261107'
-          M=P+'video-prompts.md'
-          R=P+'reports/honor-x9e-pro-contest-2026-11-07.md'
-          LOCKS={'ops/canon-lock.json':'2026-11-07T20:10:11Z',P+'canon-lock.json':'2026-11-07T20:06:57Z'}
-          def now(): return datetime.now(timezone.utc).isoformat(timespec='seconds').replace('+00:00','Z')
-          def read(p): return Path(p).read_text(encoding='utf-8')
-          def load(p): return json.loads(read(p))
-          def write(p,s): Path(p).parent.mkdir(parents=True,exist_ok=True); Path(p).write_text(s,encoding='utf-8')
-          def dump(p,v): write(p,json.dumps(v,ensure_ascii=False,indent=2)+'\n')
-          def guard(remote=False):
-              for p,acq in LOCKS.items():
-                  d=json.loads(subprocess.check_output(['git','show','origin/main:'+p],text=True)) if remote else load(p)
-                  assert d.get('state')=='held' and d.get('holder')==HOLDER and d.get('acquired_at')==acq, 'foreign/lost lease '+p
-                  assert datetime.fromisoformat(d['expires_at'].replace('Z','+00:00'))>datetime.now(timezone.utc), 'expired lease '+p
-          def prepend(path,heading,body):
-              s=read(path)
-              if heading not in s: write(path,heading+'\n\n'+body+'\n\n---\n\n'+s)
-          def register(note):
-              path=P+'work-resume-register.json'; d=load(path)
-              item=next((x for x in d.get('active_work',[]) if x.get('work_id')==WORK),None)
-              if item is None:
-                  item={'work_id':WORK,'title':'HONOR X9e Pro: полный регламент и реальный конкурсный ролик','status':'draft_not_approved','completed':[]}
-                  d.setdefault('active_work',[]).append(item)
-              item['last_verified_step']=note; item['updated_at']=now()
-              item['next_action']='Подтвердить город/участие и согласовать безопасный тест; после отбора и получения телефона снять реальный ролик 60–120 с без музыки. ИИ-превиз не заявка. Видео не запускать.'
-              d['last_updated_at']=now(); dump(path,d)
-          def one(s,a,b):
-              assert s.count(a)==1, 'expected exact occurrence '+a[:80]
-              return s.replace(a,b,1)
-          def checkpoint():
-              guard()
-              note='Полные правила HONOR прочитаны через Google Docs: п.4.2 требует 60–120 секунд, п.4.3.3 запрещает музыку, п.4.3.6 ограничивает фон/права. Отчёт исправлен 96b3e19f. Следующий этап — только существующая сцена5, оглавление и статусы; сцены1–4, очередь, изображения, разрешения не менять. Генераций нет.'
-              prepend(P+'reports/current-work-checkpoint.md','# 07.11.2026 — HONOR: перед исправлением по полным правилам','work_id: '+WORK+'\n\n'+note+'\n\nchecked_at: '+now())
-              register(note)
-          def patch():
-              guard()
-              assert subprocess.check_output(['git','hash-object',M],text=True).strip()=='f11e48da07ff2dc3d95ad7d2cf133580b9027448', 'master changed: recompute from fresh source'
-              original=read(M); marker='<a id="scene-5"></a>'; assert original.count(marker)==1
-              head,tail=original.split(marker)
-              oldtoc='Конкурс «Несокрушимый HONOR»: идея 30-секундного вертикального видео о реальном местном маршруте и испытаниях. ИИ — только для раскадровки; не снято'
-              newtoc='Конкурс «Несокрушимый HONOR»: реальная съёмка 60–120 с (план 90 с), вертикаль, без музыки. ИИ 30с/2×15с — только отдельная раскадровка; не снято'
-              head=one(head,oldtoc,newtoc)
-              meta=re.search(r'<!-- scene-meta: (\{.*?\}) -->',tail); assert meta
-              d=json.loads(meta.group(1)); d['duration_s']=90
-              for tag in ('contest_60_to_120_seconds','no_music','preview_only'):
-                  if tag not in d['tags']: d['tags'].append(tag)
-              tail=tail[:meta.start(1)]+json.dumps(d,ensure_ascii=False,separators=(',',':'))+tail[meta.end(1):]
-              start=tail.index('**Контекст использования:**'); end=tail.index('<div class="engine-tabs" data-scene="5">')
-              report_source=read(R)
-              report_intro=report_source[report_source.index('## Источник и границы проверки'):report_source.index('## Производственный статус')]
-              report_intro=re.sub(r'^## ', '### ', report_intro, flags=re.M)
-              refs=re.search(r'\*\*Референсы:\*\*.*?(?=\n\n)',tail,re.S); assert refs
-              intro='**Контекст использования:** существующая сцена 5 HONOR X9e Pro. Реальная конкурсная съёмка — 60–120 с; редакционная цель 90 с. Три прежних 30с/15с ИИ-блока ниже — отдельная НЕ конкурсная превизуализация.\n\n'+report_intro+'\n'+refs.group(0)+'\n\n**Состояние:** DRAFT / not_approved. Очередь не меняется, запуск не разрешён. Сцены 1–4, RESOURCE и Magic9 не меняются.\n\n'
-              tail=tail[:start]+intro+tail[end:]
-              tail=one(tail,'No generated Russian speech, audio, captions or music. These are added later to authentic filmed footage, not to this preview.','Picture only, no speech, sound, captions or music. The FINAL REAL contest film must also contain NO MUSIC under rule 4.3.3; only original speech and non-musical location/action sounds. This 30-second preview is not the 60–120-second contest entry.')
-              updated=head+marker+tail
-              assert updated.count('```')==original.count('```')
-              assert original[:original.index(marker)].replace(oldtoc,newtoc,1)==head
-              assert updated.count('<a id="scene-')==original.count('<a id="scene-')
-              write(M,updated)
-              old='Контрольная точка этой правки: полный документ уже прочитан; данный файл исправлен. **Следующий обязательный шаг — синхронизировать блок существующей сцены 5 и оглавление в video-prompts.md, project-status, HANDOFF и реестр. Пока этого readback нет, изменение сайта не считать завершённым.**'
-              new='Контрольная точка: полный регламент прочитан; существующая сцена 5, её оглавление, производственная длительность 90 с и запрет музыки синхронизированы с этим отчётом. Короткие ИИ-промпты сохранены только как превизуализация. Тесты и границы QC — в reports/owner-followup-verification-2026-11-07.json; публикацию Pages подтверждать отдельно.'
-              write(R,one(report_source,old,new))
-              hand=read(P+'HANDOFF.md'); first=hand.split('\n',1)[0]
-              assert first.startswith('- **07.11 — новая сцена 5 HONOR X9e Pro:')
-              short='- **07.11 — сцена 5 HONOR X9e Pro исправлена по полному регламенту:** конкурсный ролик 60–120 с (план 90 с), без музыки; запрещённые объекты/бренды исключены, нужен согласованный тест ударопрочности и возврат тестового аппарата. Прежние 30с/2×15с — только отдельная ИИ-раскадровка. Город/участие/реальная съёмка не подтверждены, DRAFT/not_approved; Topview не запускать. Полный разбор — reports/honor-x9e-pro-contest-2026-11-07.md.'
-              write(P+'HANDOFF.md',one(hand,first,short))
-              note='Полные правила проверены; исправлены существующая сцена5/оглавление/meta90 и запрет музыки, нейтральный фон, возврат телефона; тела сцен1–4 и очередь не изменены. Реальная съёмка/приёмка не выполнены.'
-              prepend(P+'reports/current-work-checkpoint.md','# 07.11.2026 — HONOR: полный регламент применён к сцене 5','work_id: '+WORK+'\n\n'+note+'\n\nИсточник: Google Docs 1g0Fl1-5qeStudQuo9r2qF5G6c1AYKmPFps72Gx67ZbE, t.0, п.3.1/4.2/4.3.3/4.3.6.\n\nchecked_at: '+now())
-              register(note)
-              plan=read('ops/FUTURE-PLANS.md'); ls=plan.splitlines()
-              changes={
-                  'A-09':'| A-09 | HONOR X9e Pro: идея конкурса, существующая сцена 5 и вертикальный клип | ПОЛНЫЕ ПРАВИЛА ПРОЧИТАНЫ; сцена/план исправлены: реальный ролик 60–120 с (план 90 с), без музыки и запрещённого фона, согласованный тест ударопрочности, возврат тестового устройства. ИИ30с — только превиз. Заявка/город/отбор/съёмка НЕ ПОДТВЕРЖДЕНЫ | projects/raznoe/reports/honor-x9e-pro-contest-2026-11-07.md; Google Docs, п.3.1/4.2/4.3.3/4.3.6 |',
-                  'A-17':'| A-17 | Сайт промтов: health, refs, статусы, Pages, предупреждения | Предыдущее предупреждение снято: canon-health 07.11T19:34:33Z status=ok, warnings=0; хендоф сокращён. Новую правку сцены5 проверить после Projects status/Pages | canon-health.json; projects/raznoe/reports/owner-followup-verification-2026-11-07.json |',
-                  'A-24':'| A-24 | Визитки: реальные QR на ии.рудик.рф, PNG/PDF/ZIP | 07.11 независимо проверены 35 SHA файлов ZIP и QR 20/20 отдельных изображений: PASS. Исходный отчёт имеет 41 успешную проверку, это не физическая печатная проба. Художественная/печатная приёмка открыта | [Папка «Визитка»](https://drive.google.com/drive/folders/1uUd4YuGRoenT6tiq2UyIOVyA8b6EyHgs); projects/raznoe/reports/owner-followup-verification-2026-11-07.json |'
-              }
-              for key,line in changes.items():
-                  pos=[i for i,x in enumerate(ls) if x.startswith('| '+key+' |')]; assert len(pos)==1,key; ls[pos[0]]=line
-              write('ops/FUTURE-PLANS.md','\n'.join(ls)+'\n')
-              dump('/tmp/owner-patch-evidence.json',{'work_id':WORK,'checked_at':now(),'source_document_id':'1g0Fl1-5qeStudQuo9r2qF5G6c1AYKmPFps72Gx67ZbE','source_tab':'t.0','source_sections':['3.1','4.2','4.3.3','4.3.6'],'old_master_blob':'f11e48da07ff2dc3d95ad7d2cf133580b9027448','scenes_1_4_body_unchanged':True,'preview_prompt_count_unchanged':True,'real_film_target_seconds':90,'required_real_film_range_seconds':[60,120],'music_allowed':False,'editorial_status':'not_approved','video_submissions':0,'business_card_check':{'zip_sha256':'89dbcc2040389c4de6755055b82d63d85e2dd5422caac1c6dd2c3dc36db2afe4','members_sha256_checked':35,'members_sha256_all_match':True,'individual_image_qr_decoded':20,'individual_image_qr_passed':20,'physical_print_proof':False,'pdfs_independently_decoded_this_stage':False},'resource_press_reference':{'sha256':'6cf41a9dd1c90b323eacb4a7df22ef5463cfac0de70476c263f259852f8062d4','canonical_hash_match':True,'scope':'static start frame only; no motion/audio approval'},'source_product_png_honor_missing':True})
-          def finish():
-              guard(); status=load(P+'project-status.json'); assert status.get('health')=='ok',status
-              e=load('/tmp/owner-patch-evidence.json'); e['tests_passed']=True; e['project_health']='ok'; e['published_at']=now(); e['pages_readback']='pending'; e['test_log_tail']=Path('/tmp/owner-tests.log').read_text(errors='replace')[-1500:]
-              dump(P+'reports/owner-followup-verification-2026-11-07.json',e)
-              for p in LOCKS:
-                  d=load(p); d.update(state='free',expires_at=None,released_at=now()); dump(p,d)
-              Path('.github/workflows/owner-honor-contest-20261107.yml').unlink()
-          def release():
-              guard()
-              for p in LOCKS:
-                  d=load(p); d.update(state='free',expires_at=None,released_at=now()); dump(p,d)
-          {'checkpoint':checkpoint,'patch':patch,'finish':finish,'guard_remote':lambda:guard(True),'release':release}[sys.argv[1]]()
+          import textwrap
+          source=Path('/tmp/reviewed-workflow.yml').read_text()
+          start=source.index("          cat > /tmp/owner-contest.py <<'PY'\n")+len("          cat > /tmp/owner-contest.py <<'PY'\n")
+          end=source.index('\n          PY\n',start)
+          code=textwrap.dedent(source[start:end])+'\n'
+          code=code.replace('chatgpt:ordinary:b47e82ee-0b5f-42ae-918b-5a5c197bc631','chatgpt:ordinary:4da17e84-e0d1-46e6-bc71-a69e46ce1296')
+          code=code.replace('2026-11-07T20:10:11Z','2026-11-07T20:19:50Z').replace('2026-11-07T20:06:57Z','2026-11-07T20:19:50Z')
+          needle='    updated=head+marker+tail\n'
+          assert code.count(needle)==1
+          code=code.replace(needle,"    tail=re.sub(r'\\n(?:[ \\t]*\\n){2,}', '\\n\\n', tail)\n"+needle)
+          Path('/tmp/owner-contest.py').write_text(code)
+          compile(code,'/tmp/owner-contest.py','exec')
           PY
-          python3 -m py_compile /tmp/owner-contest.py
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-      - name: Save initial checkpoint under both exact leases
+      - name: Re-read main and save checkpoint
         shell: bash
         run: |
           set -euo pipefail
@@ -132,11 +50,11 @@ jobs:
             python3 /tmp/owner-contest.py checkpoint
             git add projects/raznoe/reports/current-work-checkpoint.md projects/raznoe/work-resume-register.json
             if git diff --cached --quiet; then break; fi
-            git commit -m 'ops: checkpoint verified HONOR rules before bounded Scene5 correction'
+            git commit -m 'ops: continue existing HONOR rules checkpoint after diagnosed formatting rejection'
             if git push origin HEAD:main; then break; fi
             test "$attempt" -lt 3
           done
-      - name: Apply only existing Scene5 and validate fresh main
+      - name: Validate and publish only exact existing-scene correction
         shell: bash
         run: |
           set -euo pipefail
@@ -144,30 +62,34 @@ jobs:
             git fetch -q origin main
             git reset --hard origin/main
             python3 /tmp/owner-contest.py patch
-            python3 scripts/projects.py . status --project raznoe --write
+            python3 scripts/projects.py . status --project raznoe --write || {
+              python3 -c 'import json; d=json.load(open("projects/raznoe/project-status.json")); print({k:v for k,v in d.get("checks",{}).items() if not v}); print(d.get("warnings"))'
+              exit 1
+            }
             python3 scripts/projects.py . validate
-            python3 -m unittest discover -s tests > /tmp/owner-tests.log 2>&1 || { tail -80 /tmp/owner-tests.log; exit 1; }
+            python3 -m unittest discover -s tests > /tmp/owner-tests.log 2>&1 || { tail -100 /tmp/owner-tests.log; exit 1; }
             python3 scripts/validate_site.py
             python3 /tmp/owner-contest.py finish
             git add projects/raznoe/video-prompts.md projects/raznoe/HANDOFF.md projects/raznoe/reports/honor-x9e-pro-contest-2026-11-07.md projects/raznoe/reports/current-work-checkpoint.md projects/raznoe/work-resume-register.json projects/raznoe/project-status.json projects/raznoe/reports/owner-followup-verification-2026-11-07.json ops/FUTURE-PLANS.md ops/canon-lock.json projects/raznoe/canon-lock.json .github/workflows/owner-honor-contest-20261107.yml
-            git commit -m 'fix: HONOR contest real-film 60–120s/no music; preserve existing scenes and verify assets'
+            git commit -m 'fix: verified HONOR contest 60–120s and no music; preserve existing scenes and verify assets'
             git fetch -q origin main
             python3 /tmp/owner-contest.py guard_remote
             if git push origin HEAD:main; then exit 0; fi
             test "$attempt" -lt 3
           done
           exit 1
-      - name: Release only exact leases on failure without publishing untested changes
+      - name: Release only exact leases on validation failure
         if: failure()
         shell: bash
         run: |
           set -euo pipefail
+          test -s /tmp/owner-contest.py
           for attempt in 1 2 3; do
             git fetch -q origin main
             git reset --hard origin/main
             python3 /tmp/owner-contest.py release
             git add ops/canon-lock.json projects/raznoe/canon-lock.json
-            git commit -m 'ops: release owner contest edit leases after failed validation; keep checkpoint'
+            git commit -m 'ops: release exact contest-repair leases after failed validation; no unsafe publication'
             if git push origin HEAD:main; then exit 0; fi
             test "$attempt" -lt 3
           done
