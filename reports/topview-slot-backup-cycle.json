@@ -4,38 +4,69 @@
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
   "execution_instance_id": "51a1f94c-e733-4ad9-addd-ebf332104c03",
-  "run_id": null,
-  "run_id_unavailable_reason": "Automations.get returned 404; no actual run ID verified yet",
-  "source_head": null,
+  "run_id": "dcfa9181-4220-8324-90e4-e5e1a9d5633c",
+  "run_id_unavailable_reason": null,
+  "source_head": "6173f693dafee9aff52cbdd237b66337ea6a7b2a",
   "route_generation": 3,
   "lease_holder": "chatgpt:ordinary:51a1f94c-e733-4ad9-addd-ebf332104c03",
   "lease_acquired_at": "2026-11-07T13:01:11.876Z",
   "lease_commit": "ab150274ec630069d2573e9f071beacb14e96697",
-  "started_at": "2026-11-07T13:01:56.422Z",
+  "started_at": "2026-11-07T12:57:30.797452Z",
   "receipt_started_at": "2026-11-07T13:01:56.422Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
-    "complete": false
+    "complete": true,
+    "source": "Topview connector: all 14 account boards with complete paginated video task lists, plus independent 6 active task detail checks and all 15 queue submitted task checks",
+    "boards_scanned": 14,
+    "pages_scanned": 18,
+    "pages_with_results": 14,
+    "video_tasks_scanned": 631,
+    "status_counts": {
+      "success": 602,
+      "fail": 23,
+      "init": 6
+    },
+    "active_task_ids": [
+      "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
+      "101221814fd5430697f697f95a3f4252",
+      "3ebe7c23db05479e9b6f762a75b832e7",
+      "365cf639589a4a5da834d70193d5e8f6",
+      "be960f5e3bf54563aff663fed9da8906",
+      "de8e44bb15d64dc7a4eb640d27a726e4"
+    ],
+    "active_task_details_verified": true,
+    "scope": "all_14_boards_18_video_page_requests",
+    "complete_scan_verified": true,
+    "submitted_task_ids_individually_reconciled": 15,
+    "checked_at": "2026-11-07T13:06:37.137Z"
   },
   "slots": {
     "capacity": 6,
-    "occupied": null,
-    "free": null,
-    "complete_scan_verified": false
+    "occupied": 6,
+    "free": 0,
+    "complete_scan_verified": true,
+    "checked_at": "2026-11-07T13:06:37.137Z"
   },
   "selected_item": null,
   "new_submissions": [],
-  "browser_transport": "not_started",
+  "browser_transport": "not_used_6_of_6",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
   "tinyfish_estimated_cost_usd": 0,
   "tinyfish_confirmed_cost_usd": 0,
   "topview_credits_cost": 0,
-  "task_ids": [],
-  "outcome": null,
+  "task_ids": [
+    "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
+    "101221814fd5430697f697f95a3f4252",
+    "3ebe7c23db05479e9b6f762a75b832e7",
+    "365cf639589a4a5da834d70193d5e8f6",
+    "be960f5e3bf54563aff663fed9da8906",
+    "de8e44bb15d64dc7a4eb640d27a726e4"
+  ],
+  "outcome": "no_free_slot",
   "blocker": null,
-  "retryable": null,
+  "retryable": true,
   "acceptance": {
     "scheduled_execution_observed": true,
     "tinyfish_authenticated_historical_only": true,
@@ -49,5 +80,47 @@
     "outcome": "no_free_slot",
     "completed_at": "2026-11-07T12:07:49.775Z"
   },
-  "updated_at": "2026-11-07T13:01:56.422Z"
+  "updated_at": "2026-11-07T13:09:44.710Z",
+  "current_head_before_final_commit": "374d2c17380fab811bf866f4fa6ffcc1bf490db1",
+  "run_id_source": "Automations.peek.last_run.id; scheduled_for=2026-11-07T13:00:00Z; started_at=2026-11-07T12:57:30.797452Z; recorded_status=in_progress",
+  "queued_candidate": "S49B",
+  "queue_reconciliation": {
+    "unresolved_claims": 0,
+    "submitted_tasks_found_on_expected_board": 15,
+    "queue_submitted_count": 15,
+    "source_queue_sha256": "879add3bf2a6befef4158e970730ce9f0a5c4fafe613ce070ff61abb72f9a218",
+    "source_task_map_sha256": "c05175533554a3e8814f0e5151359f7688b5f404a7a37687a00178565cf3c6aa",
+    "readiness_checked_at": "2026-11-07T12:50:53.422421Z",
+    "queue_file_sha": "4f880de6954ea55a77c4a720fa54556e424d8113",
+    "task_map_file_sha": "6942e36e2fc02a195616ec1bbb22110cef6a9960",
+    "readiness_file_sha": "c2ef88e50fb09e86655517dcb90839d9dbcb4e2c",
+    "sha_comparison": "Both SHA-256 independently computed from exact GitHub queue and task-map file text; both match readiness"
+  },
+  "owner_tasks": "checked_open_0_taken_0",
+  "peer_status": {
+    "ordinary_last_run_id": "dcfa9181-4220-8324-90e4-e5e1a9d5633c",
+    "ordinary_latest_result_run_id": null,
+    "work_hh55_last_run_id": "48614067-d324-832e-93e3-668f18c98daf",
+    "work_hh55_latest_result_run_id": "1658357b-2320-8333-98ac-459762c93799",
+    "relay_last_run_id": "a9105983-256c-8327-bb1d-daa92c55a6d0",
+    "relay_latest_result_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d"
+  },
+  "launcher_health": {
+    "state": "capacity_full",
+    "last_checked_at": "2026-11-07T12:20:28Z",
+    "event_id": "slots:c48ed7e4:17",
+    "event_not_used_as_fresh_capacity": true
+  },
+  "work_preference": {
+    "registry_preferred_executor": "work",
+    "route_generation": 3,
+    "restored_prior_verified_at": "2026-11-02T11:18:32.530Z",
+    "changed_this_cycle": false
+  },
+  "completed_at": "2026-11-07T13:09:44.710Z",
+  "lease": {
+    "holder": "chatgpt:ordinary:51a1f94c-e733-4ad9-addd-ebf332104c03",
+    "acquired_at": "2026-11-07T13:01:11.876Z",
+    "final_action": "release_atomically_with_receipt"
+  }
 }
