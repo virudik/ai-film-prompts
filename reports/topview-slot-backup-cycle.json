@@ -3,155 +3,45 @@
   "project": "seregius",
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "a4db53c4-5685-4cd7-92ba-f736532b0fa9",
-  "run_id": "eb192a66-c2fc-832e-9bab-6707abf8afd5",
-  "run_id_source": "Automations.peek.last_run.id",
-  "source_head": "8a3e5a65e9c730943d8a6fdc0d47c3b6cc479fea",
+  "execution_instance_id": "c931b4b7-53bd-423e-a228-fc88663b90a0",
+  "run_id": null,
+  "run_id_unavailable_reason": "Automations.get returned connector 404 Action not found; actual run ID not exposed in this execution",
+  "source_head": "c9d3a0a14fb258401edd402de30e78cfc340f486",
   "route_generation": 3,
-  "lease_holder": "chatgpt:ordinary:a4db53c4-5685-4cd7-92ba-f736532b0fa9",
-  "lease_acquired_at": "2026-11-07T21:06:07.894Z",
-  "lease_expires_at": "2026-11-07T21:26:07.894Z",
-  "lease_commit": "b467f49e87de64999e66a49d6c30673cae24855e",
-  "started_at": "2026-11-07T21:03:14.414052Z",
-  "receipt_started_at": "2026-11-07T21:06:11.500Z",
-  "phase": "completed",
-  "status": "completed",
+  "lease_holder": "chatgpt:ordinary:c931b4b7-53bd-423e-a228-fc88663b90a0",
+  "lease_acquired_at": "2026-11-07T22:08:21.435Z",
+  "lease_expires_at": "2026-11-07T22:28:21.435Z",
+  "lease_commit": "00e170f1549365dc108b80d55e764fd9c9d45766",
+  "started_at": "2026-11-07T22:01:28Z",
+  "receipt_started_at": "2026-11-07T22:08:54.175Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan": {
-    "complete": true,
-    "complete_scan_verified": true,
-    "source": "read_only_topview_connector_all_14_boards_all_video_pages",
-    "boards_scanned": 14,
-    "pages_scanned": 18,
-    "video_tasks_scanned": 631,
-    "status_counts": {
-      "success": 603,
-      "fail": 23,
-      "init": 5
-    },
-    "active_task_ids": [
-      "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
-      "101221814fd5430697f697f95a3f4252",
-      "3ebe7c23db05479e9b6f762a75b832e7",
-      "365cf639589a4a5da834d70193d5e8f6",
-      "be960f5e3bf54563aff663fed9da8906"
-    ],
-    "submitted_task_ids_reconciled": 15,
-    "checked_at": "2026-11-07T21:13:32.504Z"
+    "complete": false,
+    "boards_scanned": null,
+    "pages_scanned": null,
+    "video_tasks_scanned": null
   },
   "slots": {
     "capacity": 6,
-    "occupied": 5,
-    "free": 1,
-    "complete_scan_verified": true,
-    "checked_at": "2026-11-07T21:13:32.504Z"
+    "occupied": null,
+    "free": null
   },
-  "task_ids": [
-    "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
-    "101221814fd5430697f697f95a3f4252",
-    "3ebe7c23db05479e9b6f762a75b832e7",
-    "365cf639589a4a5da834d70193d5e8f6",
-    "be960f5e3bf54563aff663fed9da8906"
-  ],
-  "selected_item": "S49C",
+  "task_ids": [],
+  "selected_item": null,
   "new_submissions": [],
-  "outcome": "blocked_browser_input_paid_mode",
-  "blocker": {
-    "code": "blocked_browser_input_paid_mode",
-    "item_id": "S49C",
-    "reason": "One free global slot and next independent owner-authorized ready S49C. Exact six original-image transfer and complete 720p/16:9/quantity1/Unlimited0 native UI preflight via saved TinyFish profile remain unverified. Earlier TinyFish S49B attempt could not reach native image importer; no new TinyFish-specific proven file import capability. Fresh Grok S49B UI state reset from preflight to a paid 45→36 credits form before Create; this is not acceptable proof for TinyFish. No paid browser re-test of unchanged transport blocker, and no Create.",
-    "retry_condition": "new native file import/Unlimited0 proof for this TinyFish profile; then new complete account scan, route/lease and independent item preflight",
-    "item_can_be_retried": true
-  },
-  "retryable": true,
-  "browser_transport": "not_used_known_blocker_before_paid_preflight",
+  "outcome": "started",
+  "blocker": null,
+  "retryable": false,
+  "browser_transport": "not_started",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
   "tinyfish_estimated_cost_usd": 0,
   "tinyfish_confirmed_cost_usd": 0,
   "topview_credits_cost": 0,
   "previous_receipt": {
-    "execution_instance_id": "2e40deae-8e86-4322-ab2f-2d4946a6c24d",
-    "completed_at": "2026-11-07T20:09:12.421Z",
-    "outcome": "no_free_slot"
-  },
-  "updated_at": "2026-11-07T21:13:32.504Z",
-  "queued_candidate": "S49C",
-  "tinyfish_wallet": {
-    "available_usd": "10.672",
-    "auto_reload": "unconfigured",
-    "checked_at": "2026-11-07T21:09:42.357Z",
-    "current_rates": {
-      "agent_usd_per_step": "0.016",
-      "browser_usd_per_minute": "0.002"
-    },
-    "charged_this_run_usd": 0
-  },
-  "queue_reconciliation": {
-    "in_flight": [
-      {
-        "item_id": "S49B",
-        "state": "submission_unknown",
-        "task_id": null,
-        "holder": "grok:e98c441d-91fa-476f-b712-3daec2728dcd",
-        "intent_id": "e12e32cf-b8d6-4484-86ef-35acee6e4693"
-      }
-    ],
-    "unresolved_active_claims": 1,
-    "submitted_count": 15,
-    "submitted_task_ids_independently_checked": 15,
-    "submitted_all_on_expected_board": true,
-    "source_queue_sha256": "4506ceb93efd5a4f1244306ddc8cadd2e8c9d38d96d73c2e630f60763920aeae",
-    "source_task_map_sha256": "dd7447c513be789649e5163d59afc83360073b27ef4890289e5b233d8f10233e",
-    "readiness_checked_at": "2026-11-07T21:02:37.731115Z",
-    "sha_match_both_independently_recomputed": true,
-    "selected_independent_ready_item": "S49C",
-    "selected_item_refs_count": 6
-  },
-  "grok_s49b_incident": {
-    "state": "submission_unknown",
-    "owner_wake_issue": 424,
-    "event_id": "slots:4d71738f:18",
-    "submission_intent_id": "e12e32cf-b8d6-4484-86ef-35acee6e4693",
-    "reported_create_clicked": false,
-    "task_id": null,
-    "latest_full_scan_findings": "631 videos; no new video task since 2026-11-06; existing unknown preserved; no repeat",
-    "receipt": "reports/topview-queue-2026-10-16/S49B-20261107T210134Z-unconfirmed.json"
-  },
-  "editorial_discrepancy": {
-    "code": "S73_active_despite_DRAFT_not_approved",
-    "task_id": "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
-    "action": "read_only_no_cancel"
-  },
-  "peer_status": {
-    "ordinary_last_run_id": "eb192a66-c2fc-832e-9bab-6707abf8afd5",
-    "work_hh55_last_run_id": "51537a0f-34f8-8324-8594-e8a07d9ac83d",
-    "work_hh55_latest_result_run_id": "1658357b-2320-8333-98ac-459762c93799",
-    "relay_last_run_id": "da80ab1d-a864-8329-98fb-a9736c0ede2a",
-    "relay_latest_result_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d"
-  },
-  "launcher_health": {
-    "status": "reconciliation_required",
-    "robot_checked_at": "2026-11-07T21:00:27Z",
-    "last_event_id": "slots:4d71738f:18",
-    "event_reused_as_fresh_capacity": false
-  },
-  "owner_tasks": "checked_0_open",
-  "acceptance": {
-    "scheduled_execution_observed": true,
-    "tinyfish_authenticated_historical_only": true,
-    "tinyfish_file_upload_verified": false,
-    "tinyfish_unlimited_zero_verified": false,
-    "topview_new_task_id_verified": false,
-    "production_submission_verified": false
-  },
-  "checkpoint_register": "read_only_no_next_action_change",
-  "preferred_executor": "work",
-  "completed_at": "2026-11-07T21:13:32.504Z",
-  "lease": {
-    "holder": "chatgpt:ordinary:a4db53c4-5685-4cd7-92ba-f736532b0fa9",
-    "acquired_at": "2026-11-07T21:06:07.894Z",
-    "acquired_commit": "b467f49e87de64999e66a49d6c30673cae24855e",
-    "released_at": "2026-11-07T21:13:32.504Z",
-    "release_expected_head": "b593f4e991b7376b58b93b26a650fc2f822ae0ac"
+    "execution_instance_id": "a4db53c4-5685-4cd7-92ba-f736532b0fa9",
+    "completed_at": "2026-11-07T21:13:32.504Z",
+    "outcome": "blocked_browser_input_paid_mode"
   }
 }
