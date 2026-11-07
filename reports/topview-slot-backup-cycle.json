@@ -3,27 +3,26 @@
   "project": "seregius",
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "de262332-5b83-4f80-bc0c-8ac8c3546488",
-  "run_id": "d02de572-14c4-8325-a98b-b24997121aa0",
-  "run_id_unavailable_reason": null,
-  "runtime_run_id_source": "Automations.peek current last_run.id (in_progress)",
-  "source_head": "5ce1878a86376bd33c5d9fb7ff1d5b3e47e658e9",
+  "execution_instance_id": "80d26fa4-0272-407e-aa38-6c9fd8698eaa",
+  "run_id": null,
+  "run_id_unavailable_reason": "Automations.get action returned NOT_FOUND/404 in this runtime; no current platform run id available",
+  "runtime_run_id_source": null,
+  "source_head": "c313621c88073478ebfe2a248dca7ca31e0395f8",
   "route_generation": 3,
-  "lease_holder": "chatgpt:ordinary:de262332-5b83-4f80-bc0c-8ac8c3546488",
-  "lease_acquired_at": "2026-11-07T05:58:33.504Z",
-  "lease_commit": "5d788d35fa51219cb14598004763d28c6924d030",
-  "started_at": "2026-11-07T05:55:08.186460Z",
-  "receipt_started_at": "2026-11-07T05:59:33.286Z",
-  "phase": "finished",
-  "status": "completed",
+  "lease_holder": "chatgpt:ordinary:80d26fa4-0272-407e-aa38-6c9fd8698eaa",
+  "lease_acquired_at": "2026-11-07T07:02:48.202Z",
+  "lease_commit": "df0adf2eab295d1306d18fb5384fe9748d996e34",
+  "started_at": "2026-11-07T07:03:31.786Z",
+  "receipt_started_at": "2026-11-07T07:03:31.786Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan": {
-    "complete": true,
-    "source": "Topview read-only connector: 14 boards 18 pages, all 631 video tasks; all 6 init task details checked",
+    "complete": false,
+    "source": "Topview read-only connector",
     "boards_scanned": 14,
-    "pages_scanned": 18,
+    "pages_scanned": 20,
     "total_board_tasks_scanned": 1015,
     "video_tasks_scanned": 631,
-    "scope": "all_14_boards_18_pages_631_videos",
     "active_task_ids": [
       "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
       "101221814fd5430697f697f95a3f4252",
@@ -32,63 +31,29 @@
       "be960f5e3bf54563aff663fed9da8906",
       "de8e44bb15d64dc7a4eb640d27a726e4"
     ],
-    "checked_at": "2026-11-07T05:57:28.960Z",
+    "checked_at": "2026-11-07T07:01:25.252Z",
     "complete_scan_verified": true,
-    "active_task_details_verified": true,
-    "submitted_task_ids_individually_reconciled": 15,
-    "active_statuses": [
-      {
-        "task_id": "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
-        "status": "init"
-      },
-      {
-        "task_id": "101221814fd5430697f697f95a3f4252",
-        "status": "init"
-      },
-      {
-        "task_id": "3ebe7c23db05479e9b6f762a75b832e7",
-        "status": "init"
-      },
-      {
-        "task_id": "365cf639589a4a5da834d70193d5e8f6",
-        "status": "init"
-      },
-      {
-        "task_id": "be960f5e3bf54563aff663fed9da8906",
-        "status": "init"
-      },
-      {
-        "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
-        "status": "init"
-      }
-    ],
-    "status_counts": {
-      "success": 602,
-      "fail": 23,
-      "init": 6
-    },
-    "active_task_details_last_checked_at": "2026-11-07T05:58:10.535Z"
+    "active_task_details_verified": false
   },
   "slots": {
     "capacity": 6,
     "occupied": 6,
     "free": 0,
-    "complete_scan_verified": true,
-    "checked_at": "2026-11-07T05:58:10.535Z",
-    "source": "live Topview read-only connector full 14-board scan plus all six task detail rechecks"
+    "checked_at": "2026-11-07T07:01:25.252Z",
+    "complete_scan_verified": true
   },
   "selected_item": null,
   "queued_candidate": "S49B",
   "new_submissions": 0,
-  "browser_transport": "not_used: all 6 global physical video slots occupied",
+  "browser_transport": "not_used: complete read-only scan shows 6/6",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
   "tinyfish_estimated_cost_usd": 0,
   "tinyfish_confirmed_cost_usd": 0,
   "topview_credits_cost": 0,
   "task_ids": [],
-  "outcome": "no_free_global_slot",
-  "blocker": "6/6 physical video slots occupied; historical TinyFish exact image upload and Unlimited0 preflight still unverified",
+  "outcome": "in_progress",
+  "blocker": "6/6 physical video slots occupied",
   "retryable": true,
   "acceptance": {
     "scheduled_runtime": true,
@@ -126,9 +91,9 @@
     "hourly_work_is_enabled": true,
     "work_new_GUI_and_available_quota_not_verified_in_this_run": true
   },
-  "checked_at": "2026-11-07T06:01:13.688Z",
+  "checked_at": "2026-11-07T07:03:31.786Z",
   "completed_at": "2026-11-07T06:01:13.688Z",
-  "updated_at": "2026-11-07T06:01:13.688Z",
+  "updated_at": "2026-11-07T07:03:31.786Z",
   "lease_released_at": "2026-11-07T06:01:13.688Z",
   "bot_wake": {
     "latest_issue": 397,
