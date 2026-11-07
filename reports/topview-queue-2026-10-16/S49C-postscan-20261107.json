@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-11-07T21:30:49Z",
+  "complete": true,
+  "slot_capacity": 6,
+  "occupied_slots": 6,
+  "free_slots": 0,
+  "boards_scanned": 14,
+  "pages_scanned": 1,
+  "unique_videos": 15,
+  "active_videos": 6,
+  "active_task_ids": [
+    "abb161edcf5c4b58b91460677939b5d3",
+    "101221814fd5430697f697f95a3f4252",
+    "365cf639589a4a5da834d70193d5e8f6",
+    "3ebe7c23db05479e9b6f762a75b832e7",
+    "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
+    "be960f5e3bf54563aff663fed9da8906"
+  ],
+  "scan_mode": "mcp_post_create",
+  "source": "user-topview MCP after Create S49C",
+  "new_task_id": "abb161edcf5c4b58b91460677939b5d3",
+  "wake_issue": 426,
+  "event_id": "slots:4d71738f:19"
+}
