@@ -14,39 +14,101 @@
   "lease_commit": "e84c11733110f588304445e301921cad42e284db",
   "started_at": "2026-11-07T02:59:01.465Z",
   "receipt_started_at": "2026-11-07T03:02:00.391Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
-    "complete": false,
-    "source": "Topview read-only connector; scan in progress",
-    "boards_scanned": null,
-    "pages_scanned": null,
-    "video_tasks_scanned": null,
-    "checked_at": null
+    "complete": true,
+    "source": "Fresh Topview read-only connector listing of all board pages; six active task detail readbacks and final live My First Board spot check",
+    "boards_scanned": 14,
+    "pages_scanned": 20,
+    "total_board_tasks_scanned": 1015,
+    "video_tasks_scanned": 631,
+    "scope": "all_14_boards_20_pages_631_videos",
+    "active_task_ids": [
+      "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
+      "101221814fd5430697f697f95a3f4252",
+      "3ebe7c23db05479e9b6f762a75b832e7",
+      "365cf639589a4a5da834d70193d5e8f6",
+      "be960f5e3bf54563aff663fed9da8906",
+      "de8e44bb15d64dc7a4eb640d27a726e4"
+    ],
+    "checked_at": "2026-11-07T03:05:07.693Z",
+    "complete_scan_verified": true,
+    "active_task_details_verified": true
   },
   "slots": {
     "capacity": 6,
-    "occupied": null,
-    "free": null
+    "occupied": 6,
+    "free": 0,
+    "complete_scan_verified": true,
+    "source": "Topview read-only connector, six distinct init video task IDs on canonical board; no active on other 13 boards"
   },
   "selected_item": null,
   "new_submissions": 0,
-  "browser_transport": "not_used",
+  "browser_transport": "not_used: 6/6 global video slots; no charged TinyFish polling",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
   "tinyfish_estimated_cost_usd": 0,
   "tinyfish_confirmed_cost_usd": 0,
   "topview_credits_cost": 0,
   "task_ids": [],
-  "outcome": "checking",
-  "blocker": null,
-  "retryable": null,
+  "outcome": "no_free_global_slot",
+  "blocker": "Six distinct physical video slots occupied (init). Existing TinyFish native image import/Unlimited0 preflight blocker remains unresolved; no paid repeat permitted without new evidence.",
+  "retryable": true,
   "acceptance": {
     "scheduled_runtime": true,
-    "full_scan": false,
+    "full_scan": true,
+    "topview_read_only_verified": true,
+    "tinyfish_session_checked_this_run": false,
     "tinyfish_current_file_upload_verified": false,
     "tinyfish_unlimited_zero_verified": false,
-    "tinyfish_production_submission_verified": false
+    "tinyfish_production_submission_verified": false,
+    "verified_new_task_id": false,
+    "submitted_ids_individually_reconciled": true
   },
-  "updated_at": "2026-11-07T03:02:00.391Z"
+  "updated_at": "2026-11-07T03:06:28.925Z",
+  "queued_candidate": "S49B",
+  "queue_sha": "4f880de6954ea55a77c4a720fa54556e424d8113",
+  "queue_reconciliation": {
+    "submitted_count": 15,
+    "submitted_task_ids_checked": 15,
+    "all_submitted_found": true,
+    "all_on_canonical_board": true,
+    "claimed": 0,
+    "submitting": 0,
+    "submission_unknown": 0,
+    "selected_item_state": "waiting_for_slot",
+    "selected_item_task_id": null,
+    "readiness_source_queue_sha256": "879add3bf2a6befef4158e970730ce9f0a5c4fafe613ce070ff61abb72f9a218",
+    "readiness_source_task_map_sha256": "5b0db116fb757090102c411d3fb66b4ff83473992143666569868ab321eac519",
+    "queue_sha256_verified": true,
+    "task_map_sha256_verified": true,
+    "historical_task_preserved": "22dbd25cdd9f47cd9e44300e55f5e44f"
+  },
+  "owner_tasks": {
+    "open_count": 0,
+    "taken_count": 0,
+    "not_taken_in_slot_cycle": true,
+    "open_task_ids": []
+  },
+  "peer_status": {
+    "preferred_executor": "work",
+    "work_preferred": true,
+    "ordinary_last_run_id": null,
+    "ordinary_latest_result_run_id": null,
+    "ordinary_runtime_error": "Automations.get action returned 404 Action not found; platform current run ID not exposed",
+    "work_hh55_last_run_id": null,
+    "relay_last_run_id": null,
+    "work_current_gui_and_quota_not_verified_in_this_cycle": true
+  },
+  "bot_wake": {
+    "last_event_id": "slots:c48ed7e4:17",
+    "status": "old event; fresh 6/6 global scan supersedes it",
+    "observed_at": "2026-11-06T22:20:23Z"
+  },
+  "checked_at": "2026-11-07T03:06:28.925Z",
+  "prior_run_id": null,
+  "completed_at": "2026-11-07T03:06:28.925Z",
+  "lease_released_at": "2026-11-07T03:06:28.925Z",
+  "finalization_note": "14 boards/20 pages, 631 physical video tasks globally; six init tasks individually verified on My First Board, 15/15 submitted queue task IDs found, no pending claims/unknowns; live SHA256 of queue and task map matches readiness. 6/6 -> no Create, no paid TinyFish call or Topview credit use. Previous TinyFish file-upload and Unlimited0 blocker remains. No queue/next_action/checkpoint or schedule mutation."
 }
