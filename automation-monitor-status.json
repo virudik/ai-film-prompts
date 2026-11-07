@@ -372,7 +372,6 @@
     "reason": "saved_claim_or_unknown_submission; no_repeat_Create",
     "free_slots_global": 1,
     "actionable_items": [
-      "S49C",
       "S49D",
       "S49E",
       "S49F",
@@ -404,9 +403,10 @@
       "S28-A13-20261030"
     ],
     "reconciliation_items": [
-      "S49B"
+      "S49B",
+      "S49C"
     ],
-    "last_event_id": "slots:4d71738f:18",
+    "last_event_id": "slots:4d71738f:19",
     "receipt_present": false,
     "handler_outcome": null,
     "execution_stage": null,
@@ -416,6 +416,6 @@
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
     "escalation_attempted_episode": "4d71738f",
-    "checked_at": "2026-11-07T21:00:27Z"
+    "checked_at": "2026-11-07T21:30:31Z"
   }
 }
