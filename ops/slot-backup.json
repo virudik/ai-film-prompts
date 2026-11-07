@@ -83,7 +83,7 @@
   ],
   "preferred_executor": "work",
   "applied_owner_request_id": "owner-20261031-ordinary-primary",
-  "updated_at": "2026-11-04T13:00:09.410Z",
+  "updated_at": "2026-11-07T19:12:10.175Z",
   "reserve_automation_ids": [
     "6ae5e9d563f88191aa6da7c9ba1e05a0",
     "topview-grok"
@@ -171,13 +171,14 @@
   },
   "foreground_owners": {
     "ordinary": {
-      "session_id": "chatgpt-ordinary-continue-20261101-ed98a0ea",
-      "epoch": 3,
+      "session_id": "chatgpt-ordinary-continue-20261107-4aa338af-9488-4a37-a1c3-60993ed108ec",
+      "epoch": 4,
       "conversation_id": null,
       "conversation_id_unavailable_reason": "not_exposed_by_current_tools",
-      "accepted_at": "2026-11-01T13:05:12Z",
+      "accepted_at": "2026-11-07T19:12:10.175Z",
       "source": "direct_owner_Продолжай",
-      "work_id": "TOPVIEW-SLOT-PRIORITY-20261024"
+      "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+      "first_verified_action": "reports/current-work-checkpoint.md"
     },
     "work": {
       "session_id": "work-continue-93c791ea-000f-442e-90b9-13502501c5c1",
@@ -268,6 +269,17 @@
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "surface": "work",
       "retired_at": "2026-11-06T13:36:47Z"
+    },
+    {
+      "session_id": "chatgpt-ordinary-continue-20261101-ed98a0ea",
+      "epoch": 3,
+      "conversation_id": null,
+      "conversation_id_unavailable_reason": "not_exposed_by_current_tools",
+      "accepted_at": "2026-11-01T13:05:12Z",
+      "source": "direct_owner_Продолжай",
+      "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+      "surface": "ordinary",
+      "retired_at": "2026-11-07T19:12:10.175Z"
     }
   ],
   "schedule_change": {

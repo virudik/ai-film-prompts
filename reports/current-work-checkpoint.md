@@ -1,3 +1,17 @@
+# 07.11.2026 — D7: новая обычная смена ChatGPT, очереди без запуска
+
+work_id: TOPVIEW-SLOT-PRIORITY-20261024
+
+- Прямая команда «Продолжай»: session `chatgpt-ordinary-continue-20261107-4aa338af-9488-4a37-a1c3-60993ed108ec`, ordinary foreground epoch 4; прежний ordinary epoch 3 сохранён в истории. Work foreground и существующие задания/расписания не менялись. Conversation ID средой не предоставлен; новая сессия сама по себе не доказывает отдельный физический чат.
+- Проверено: D7 valid=True, 15/15 якорей; 8/8 SHA-256 канонических источников и хеш shadow/current-checkpoint совпали с GitHub main. Project health=ok, instruction-sync health=ok.
+- На 2026-11-07T19:00:28Z каноническая телеметрия робота: 6/6 слотов, свободных 0; полный учёт робота 14 досок, 631 видео. Это сверка GitHub-телеметрии, не новый прямой Topview UI-scan. Роль telemetry primary=robot остаётся без изменений.
+- Живая очередь: 15 submitted, 26 waiting_for_slot, 21 blocked_inputs, 1 blocked_owner_decision. Нового Create, claim, повторов, расходов, QC и редакционной приёмки нет. Старые unknown не сбрасывались. Задач owner-tasks open для ChatGPT — 0, в Supabase один needs_owner для Grok.
+- Следующий шаг: при новом подтверждённом свободном слоте выполнить полный all-board scan и антидублирование claims/task IDs, затем READY и owner-authorized по приоритету через Unlimited0 под своей lease/CAS; пока все слоты заняты — подготовка стыков/QC S52/S60/S61 без притворной приёмки.
+
+checked_at: 2026-11-07T19:12:10.175Z
+
+---
+
 # 07.11.2026 — новая тронная сцена 73 и титры
 
 work_id: SEREGIUS-S73-CREDITS-20261107
