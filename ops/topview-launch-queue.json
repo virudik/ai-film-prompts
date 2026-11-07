@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-11-07T20:59:03Z",
+  "updated_at": "2026-11-07T21:01:34Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -254,7 +254,7 @@
       "canonical_prompt_sha256": "82677079b799d1f40a4a39ebf9e6aba8d8121e0bfbb7dda65c92f7c35267b472",
       "normalized_prompt_sha256": "628b4edaac79e78b9d35cf35b6c5258d0321866d30fabd4d250d58f08e7fd726",
       "priority": 1.21,
-      "state": "submitting",
+      "state": "submission_unknown",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -365,10 +365,32 @@
         "owner_event_keys": [],
         "ledger_path": "ops/launcher-run-ledger.json",
         "trigger": "wake",
-        "wake_issue": 424
+        "wake_issue": 424,
+        "reconciliation": {
+          "reconciled_at": "2026-11-07T21:01:34Z",
+          "outcome": "submission_unknown",
+          "create_click_count": 0,
+          "create_clicked": false,
+          "reason": "After durable submitting intent (wake#424), UI form was lost before Create: prompt blank, model Seedance 2.5/30s, Create showed paid credits (45→36); Unlimited not selected. computerUse refused Create. Fresh board scan: same 5 active tasks, no new task, no S49B candidate. Intent gap forbids second click; absence does not prove non-dispatch in general, but click never occurred in this run.",
+          "active_task_ids": [
+            "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
+            "101221814fd5430697f697f95a3f4252",
+            "3ebe7c23db05479e9b6f762a75b832e7",
+            "365cf639589a4a5da834d70193d5e8f6",
+            "be960f5e3bf54563aff663fed9da8906"
+          ],
+          "free_slots_after": 1,
+          "ui_proof_before": "ai-film-prompts-launcher/S49B-form.png (preflight Unlimited0)",
+          "ui_proof_after": "ai-film-prompts-launcher/S49B-after-create.png (form reset; no Create)",
+          "intent_commit": "7f34d397ae1c35c9c5feb72afef6f78e7362a945",
+          "claim_commit": "2da78c739cd2dccfd1b88e67f67bfa0116fd774b",
+          "next_ready_independent": "S49C",
+          "note": "Independent ready items may continue on a later wake with a new provider_run_id; this wake's ledger key is consumed. Do not duplicate Create for this intent."
+        },
+        "create_click_count": 0
       },
       "owner_review_required_after_item": null,
-      "blocker": null,
+      "blocker": "submission_unknown after wake#424: form reset post-intent, Create never clicked; reconcile before any retry; owner rule forbids replaying this intent",
       "previous_prompt_sha256": [
         "99fb4aeaf9091d8b08c91fc7f67438bd9db64951060840ddb16321c6f668289f",
         "1a890ed5adf57fe92c9d6b24f235f4e50ec07ad62335e8d1e783b2c7affdcfcc"
@@ -407,7 +429,20 @@
       "launch_readiness": "authorized_inputs_available",
       "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
       "priority_before_20261023_primary": 611,
-      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted."
+      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted.",
+      "last_reconciliation_at": "2026-11-07T21:01:34Z",
+      "submission_history": [
+        {
+          "at": "2026-11-07T21:01:34Z",
+          "state": "submission_unknown",
+          "wake_issue": 424,
+          "claim_id": "96d1c4a1-11da-4d5a-84ff-0b32db5791c2",
+          "submission_intent_id": "e12e32cf-b8d6-4484-86ef-35acee6e4693",
+          "create_click_count": 0,
+          "task_id": null,
+          "reason": "After durable submitting intent (wake#424), UI form was lost before Create: prompt blank, model Seedance 2.5/30s, Create showed paid credits (45→36); Unlimited not selected. computerUse refused Create. Fresh board scan: same 5 active tasks, no new task, no S49B candidate. Intent gap forbids second click; absence does not prove non-dispatch in general, but click never occurred in this run."
+        }
+      ]
     },
     {
       "id": "S49C",
