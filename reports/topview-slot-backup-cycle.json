@@ -14,11 +14,11 @@
   "lease_commit": "e447162aec1e2e4f588b0fb02975661e07e69471",
   "started_at": "2026-11-07T18:03:45.280694Z",
   "receipt_started_at": "2026-11-07T18:11:55.300Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "completed",
+  "status": "completed",
   "scan": {
     "complete": true,
-    "source": "Fresh live read-only Topview connector; 14 boards, 23 total page requests: 10 My First Board + 9 other non-empty boards + 4 empty boards? actual 23 requests total including empty boards (14 first pages +9 extra), 631 video tasks",
+    "source": "Live read-only Topview connector across 14 boards; 23 page calls (14 first pages plus 9 additional pages), 631 video tasks, 6 independently checked active task details and 15 canonical submitted tasks by ID",
     "boards_scanned": 14,
     "pages_scanned": 23,
     "video_tasks_scanned": 631,
@@ -38,7 +38,8 @@
     "active_task_details_verified": true,
     "submitted_task_ids_individually_reconciled": 15,
     "checked_at": "2026-11-07T18:10:16.277Z",
-    "complete_scan_verified": true
+    "complete_scan_verified": true,
+    "scope": "all_14_boards_23_page_requests"
   },
   "slots": {
     "capacity": 6,
@@ -103,7 +104,34 @@
     "holder": "chatgpt:ordinary:3cd80298-a608-4959-9ba2-7c6f4208572d",
     "acquired_at": "2026-11-07T18:11:06.733Z",
     "acquired_commit": "e447162aec1e2e4f588b0fb02975661e07e69471",
-    "released_at": null
+    "released_at": "2026-11-07T18:13:35.685Z"
   },
-  "current_head_before_final_commit": null
+  "current_head_before_final_commit": "7872e4f6d2baee6774d7fadec9a340fc0bebfcee",
+  "completed_at": "2026-11-07T18:13:35.685Z",
+  "updated_at": "2026-11-07T18:13:35.685Z",
+  "peer_status": {
+    "ordinary_last_run_id": "a074027e-4860-8333-ab15-6081547df2a6",
+    "ordinary_latest_result_run_id": "661041a1-6b40-8328-902a-7dd00eefac79",
+    "work_hh55_last_run_id": "7faaa176-e3e8-8329-9e20-7014412aa364",
+    "work_hh55_latest_result_run_id": "1658357b-2320-8333-98ac-459762c93799",
+    "relay_last_run_id": "a9105983-256c-8327-bb1d-daa92c55a6d0",
+    "relay_latest_result_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d",
+    "source": "Automations.peek live at 2026-11-07T18:06Z; last_run and latest_result differ"
+  },
+  "launcher_health": {
+    "status": "capacity_full",
+    "source": "Fresh Topview scan + automation-monitor-status.json checked 2026-11-07T18:10:32Z",
+    "monitor_checked_at": "2026-11-07T18:10:32Z",
+    "bot_previous_event": "slots:c48ed7e4:17",
+    "bot_event_is_stale": true
+  },
+  "work_preference": {
+    "preferred_executor": "work",
+    "route_generation": 3,
+    "work_capacity_state": "restored_verified",
+    "restoration_evidence_is_historical": true,
+    "new_gui_plus_quota_verification": false,
+    "route_change": false
+  },
+  "tinyfish_known_blocker": "Last native TinyFish S49B input preparation blocked_browser_input at 2026-11-06T18:08:08Z; original image-file import and Unlimited 0 remain unverified. No browser use while 6/6."
 }
