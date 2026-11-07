@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-07T19:29:51+00:00",
-  "source_head": "be629f4061ca9804ee676a8c1707c991f9feb6a1",
-  "source_fingerprint": "2050eb69b506ced50496a37637a106617b5d24760527510e56abad5c0e4c96c7",
+  "checked_at": "2026-11-07T19:31:33+00:00",
+  "source_head": "7f41ad0b98e9873bc57530a16c8796e064517f8e",
+  "source_fingerprint": "54ddf5ed5610a6e1f7dc71c96d75639216fdd0941e7cd3a6295b5940f1bbe296",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -32,8 +32,6 @@
     "source_head": "0107904bad80907682f4854768885b56d7d8d8da"
   },
   "reasons": [
-    "brief was invalid at generation",
-    "instruction certificate mismatch: NEW-CHAT-HANDOFF.md",
     "checkpoint anchor missing or ambiguous"
   ],
   "selected_work": null,
@@ -181,8 +179,8 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "b41f25f262ec3bca4dc0feadd912ac0da6597d8510ec8bb62cfbd46db1adbc23",
-      "bytes": 5134
+      "sha256": "ab4bc9849d1f6f2054e065b56b77a72e9f260228dfdae383abbfe6514fcd97cc",
+      "bytes": 5135
     },
     {
       "file": "monitor-role.json",
@@ -196,8 +194,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "81f31e812862304eb4a9f66b27de62869605c9e84be653f2f8e89f4d2c3a613c",
-      "bytes": 22986
+      "sha256": "03a5ba4e390811c39ea913afe8a547f216f361d60085ad30025084e46ef2239d",
+      "bytes": 22983
     },
     {
       "file": "projects/README.md",
@@ -256,8 +254,8 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "84363f0753c726c51d09c3c22e2b07a552f36cfb8729941badeb01678f7a4b21",
-      "bytes": 25561
+      "sha256": "a897e5a41dfe947683a0969d3eb4e1ff5db0cc553bc85f2b6257e5150b6f440c",
+      "bytes": 25534
     },
     {
       "file": "video-prompts.md",
@@ -265,5 +263,5 @@
       "bytes": 1369940
     }
   ],
-  "packet_bytes": 3936
+  "packet_bytes": 3846
 }
