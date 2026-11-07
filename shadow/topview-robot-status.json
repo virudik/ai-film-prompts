@@ -3,13 +3,11 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-07T21:40:25Z",
+  "checked_at": "2026-11-07T21:50:22Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
-    "mode": "full",
-    "reasons": [
-      "main board grew by 1, newest page shows only 0 new"
-    ],
+    "mode": "light",
+    "reasons": [],
     "boards": 14,
     "board_task_counts": {
       "3db83056ccef4361a9563a4f77afa1d5": 56,
@@ -27,9 +25,9 @@
       "caa5d8898f14442ea37c3278d156b3fe": 59,
       "1a6244cf1ae747ef847d949a80d6133c": 689
     },
-    "pages_scanned": 16,
-    "tasks_seen": 632,
-    "api_requests": 24,
+    "pages_scanned": 1,
+    "tasks_seen": 20,
+    "api_requests": 8,
     "detail_failed": []
   },
   "cursor": {
@@ -56,7 +54,7 @@
     "occupied": 6,
     "free": 0,
     "basis": "active unlimited video tasks on all owned boards",
-    "complete": true,
+    "complete": false,
     "active_not_unlimited": 0
   },
   "active_tasks": [
@@ -69,8 +67,8 @@
       "model": "Seedance 2.0",
       "scene_id": 49,
       "mapping": "task_map",
-      "queue_count": 3859,
-      "wait_seconds": 176779,
+      "queue_count": 3853,
+      "wait_seconds": 176184,
       "process_seconds": null
     },
     {
@@ -82,8 +80,8 @@
       "model": "Wan 3.0",
       "scene_id": 63,
       "mapping": "task_map",
-      "queue_count": 2848,
-      "wait_seconds": 116299,
+      "queue_count": 2842,
+      "wait_seconds": 115704,
       "process_seconds": null
     },
     {
@@ -95,8 +93,8 @@
       "model": "Wan 3.0",
       "scene_id": 64,
       "mapping": "task_map",
-      "queue_count": 3138,
-      "wait_seconds": 133579,
+      "queue_count": 3132,
+      "wait_seconds": 132984,
       "process_seconds": null
     },
     {
@@ -108,8 +106,8 @@
       "model": "Wan 3.0",
       "scene_id": 73,
       "mapping": "task_map",
-      "queue_count": 4148,
-      "wait_seconds": 194059,
+      "queue_count": 4142,
+      "wait_seconds": 193463,
       "process_seconds": null
     },
     {
@@ -119,10 +117,10 @@
       "unlimited": true,
       "created_at": "2026-11-07 21:30:26",
       "model": "Seedance 2.0",
-      "scene_id": null,
-      "mapping": "unknown_new",
-      "queue_count": 4869,
-      "wait_seconds": 237259,
+      "scene_id": 49,
+      "mapping": "task_map",
+      "queue_count": 4863,
+      "wait_seconds": 236663,
       "process_seconds": null
     },
     {
@@ -134,22 +132,12 @@
       "model": "Seedance 2.0",
       "scene_id": 56,
       "mapping": "task_map",
-      "queue_count": 2557,
-      "wait_seconds": 99019,
+      "queue_count": 2551,
+      "wait_seconds": 98423,
       "process_seconds": null
     }
   ],
-  "unknown_new": [
-    {
-      "task_id": "abb161edcf5c4b58b91460677939b5d3",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "created_at": "2026-11-07 21:30:26",
-      "model": "Seedance 2.0",
-      "unlimited": true,
-      "prompt_head": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal cinematic alien-rock performance, "
-    }
-  ],
+  "unknown_new": [],
   "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
@@ -162,24 +150,12 @@
     }
   ],
   "comparison": {
-    "monitor_checked_at": "2026-11-07T21:20:26Z",
-    "monitor_age_minutes": 20,
-    "monitor_occupied": 5,
+    "monitor_checked_at": "2026-11-07T21:40:25Z",
+    "monitor_age_minutes": 10,
+    "monitor_occupied": 6,
     "robot_occupied": 6,
-    "consistent": false,
+    "consistent": true,
     "monitor_may_lag": false,
-    "differences": [
-      {
-        "type": "only_in_robot",
-        "task_id": "abb161edcf5c4b58b91460677939b5d3",
-        "scene_id": null,
-        "mapping": "unknown_new"
-      },
-      {
-        "type": "occupied_differs",
-        "monitor": 5,
-        "robot": 6
-      }
-    ]
+    "differences": []
   }
 }
