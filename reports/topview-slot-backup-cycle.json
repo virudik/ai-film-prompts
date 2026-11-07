@@ -14,8 +14,8 @@
   "lease_commit": "744e0d7307a10ced1e58742f0a7f5063724407ea",
   "started_at": "2026-11-07T01:02:37Z",
   "receipt_started_at": "2026-11-07T01:09:27.768Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
     "source": "Topview read-only connector all accessible boards",
@@ -71,8 +71,8 @@
     "submitted_ids_individually_reconciled": true
   },
   "prior_run_id": "996e6fb7-331c-8333-a462-e4752cc2b047",
-  "updated_at": "2026-11-07T01:09:27.768Z",
-  "checked_at": "2026-11-07T01:08:02.543Z",
+  "updated_at": "2026-11-07T01:11:26.125Z",
+  "checked_at": "2026-11-07T01:11:26.125Z",
   "queue_sha": "4f880de6954ea55a77c4a720fa54556e424d8113",
   "queue_reconciliation": {
     "submitted_count": 15,
@@ -112,5 +112,8 @@
     "event_id": "slots:c48ed7e4:17",
     "status": "Old event is not evidence of current capacity; GitHub robot launcher_health at 2026-11-07T01:00:30Z free_slots_global=0",
     "observed_at": "2026-11-07T01:00:30Z"
-  }
+  },
+  "completed_at": "2026-11-07T01:11:26.125Z",
+  "lease_released_at": "2026-11-07T01:11:26.125Z",
+  "finalization_note": "Fresh complete Topview read-only 14-board/18-page/631-video scan; six active tasks rechecked init; all 15 submitted task IDs independently verified. Global capacity 6/6, no Create or TinyFish metered browser. Exact lease released with receipt. Schedule, queue, retries and checkpoint unchanged."
 }
