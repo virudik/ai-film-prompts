@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:2e40deae-8e86-4322-ab2f-2d4946a6c24d",
-  "task": "Seregius scheduled ordinary hourly scan and receipt; no Create until fully gated",
-  "acquired_at": "2026-11-07T20:04:04.686Z",
-  "expires_at": null,
-  "released_at": "2026-11-07T20:09:12.421Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:b47e82ee-0b5f-42ae-918b-5a5c197bc631",
+  "task": "Bounded owner-requested HONOR Scene5 rules correction, real validation and audit evidence; no generation",
+  "acquired_at": "2026-11-07T20:10:11Z",
+  "expires_at": "2026-11-07T20:31:57Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
