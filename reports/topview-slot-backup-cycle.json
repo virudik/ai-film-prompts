@@ -14,8 +14,8 @@
   "lease_commit": "0d0ff98e8019d4073d0cd19821f16c78b6ddd945",
   "started_at": "2026-11-07T00:00:52.672017Z",
   "receipt_started_at": "2026-11-07T00:07:05.550Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
     "source": "Topview read-only connector all accessible boards",
@@ -37,14 +37,16 @@
     },
     "scope": "all_14_boards_18_pages_631_videos",
     "checked_at": "2026-11-07T00:07:05.550Z",
-    "reference_scans_completed": true
+    "reference_scans_completed": true,
+    "rechecked_active_at": "2026-11-07T00:08:13.150Z"
   },
   "slots": {
     "capacity": 6,
     "occupied": 6,
     "free": 0,
     "complete_scan_verified": true,
-    "source": "Topview connector fresh account-wide scan"
+    "source": "Topview connector fresh account-wide scan",
+    "rechecked_active_at": "2026-11-07T00:08:13.150Z"
   },
   "selected_item": null,
   "selected_item_priority": null,
@@ -57,7 +59,7 @@
   "topview_credits_cost": 0,
   "task_ids": [],
   "outcome": "no_free_global_slot",
-  "blocker": "All 6 physical Topview slots occupied. TinyFish original-file transfer and visible Unlimited0 remain unverified for S49B.",
+  "blocker": "Topview: six of six physical video slots occupied (full 14-board/18-page/631-video scan; all six tasks rechecked init at 2026-11-07T00:08:13Z). No Create permitted. Independent TinyFish original-file import + Unlimited0 verification remains blocked from previous attempts; no metered retry without new evidence.",
   "retryable": true,
   "acceptance": {
     "scheduled_runtime": true,
@@ -67,21 +69,23 @@
     "tinyfish_current_file_upload_verified": false,
     "tinyfish_unlimited_zero_verified": false,
     "tinyfish_production_submission_verified": false,
-    "verified_new_task_id": false
+    "verified_new_task_id": false,
+    "submitted_ids_individually_reconciled": true,
+    "latest_ui_task_id_verified": false
   },
   "prior_run_id": "321ae1e0-dd94-832a-bfea-1ea60885098f",
-  "updated_at": "2026-11-07T00:07:05.550Z",
-  "checked_at": "2026-11-07T00:07:05.550Z",
-  "completed_at": "2026-11-06T23:07:27.107Z",
-  "lease_released_at": "2026-11-06T23:07:27.107Z",
+  "updated_at": "2026-11-07T00:08:55.232Z",
+  "checked_at": "2026-11-07T00:08:55.232Z",
+  "completed_at": "2026-11-07T00:08:55.232Z",
+  "lease_released_at": "2026-11-07T00:08:55.232Z",
   "queue_sha": "4f880de6954ea55a77c4a720fa54556e424d8113",
   "queued_candidate": "S49B",
   "queue_reconciliation": {
-    "checked_at": "2026-11-07T00:07:05.550Z",
+    "checked_at": "2026-11-07T00:08:13.150Z",
     "submitted_count": 15,
-    "submitted_task_ids_checked": 0,
-    "all_submitted_found": null,
-    "all_on_canonical_board": null,
+    "submitted_task_ids_checked": 15,
+    "all_submitted_found": true,
+    "all_on_canonical_board": true,
     "claimed": 0,
     "submitting": 0,
     "submission_unknown": 0,
@@ -93,7 +97,7 @@
     "queue_sha256_verified": null,
     "task_map_sha256_verified": null,
     "reference_historical_task_found": "22dbd25cdd9f47cd9e44300e55f5e44f",
-    "note": "6/6 account-wide live Topview read-only scan; no Create or metered TinyFish call."
+    "note": "All 15 previously submitted queue task IDs confirmed independently via Topview connector and on exact My First Board; 6/6 physical video tasks rechecked, each init. No Create and no TinyFish."
   },
   "owner_tasks": {
     "open_count": 0,
