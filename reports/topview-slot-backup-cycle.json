@@ -3,25 +3,30 @@
   "project": "seregius",
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "a5695c33-1788-442b-9694-8b3575efb314",
+  "execution_instance_id": "be2f4e3b-7ced-4c23-8f64-dbeabd3138b1",
   "run_id": null,
-  "run_id_unavailable_reason": "Automations.get connector returned NOT_FOUND/Action not found for this automation; no actual platform run ID exposed to this invocation",
+  "run_id_unavailable_reason": "Automations.get action returned NOT_FOUND/Action not found for this execution; genuine platform run ID not exposed",
   "runtime_run_id_source": null,
-  "source_head": "953b51f829f672756576f834be6de35273bef3a0",
+  "source_head": "86d563c27f027b97bfcc971a978affcc3a86be68",
   "route_generation": 3,
-  "lease_holder": "chatgpt:ordinary:a5695c33-1788-442b-9694-8b3575efb314",
-  "lease_acquired_at": "2026-11-07T01:08:28.664Z",
-  "lease_commit": "744e0d7307a10ced1e58742f0a7f5063724407ea",
-  "started_at": "2026-11-07T01:02:37Z",
-  "receipt_started_at": "2026-11-07T01:09:27.768Z",
-  "phase": "finished",
-  "status": "completed",
+  "lease_holder": "chatgpt:ordinary:be2f4e3b-7ced-4c23-8f64-dbeabd3138b1",
+  "lease_acquired_at": "2026-11-07T02:02:35.417Z",
+  "lease_commit": "05ab5eb927534e56a1fbb3ef4bdb9ab2f856e1eb",
+  "started_at": "2026-11-07T01:55:34.607Z",
+  "receipt_started_at": "2026-11-07T02:03:23.652Z",
+  "phase": "started",
+  "status": "running",
   "scan": {
     "complete": true,
-    "source": "Topview read-only connector all accessible boards",
+    "source": "Topview read-only all 14 boards, 18 pages, 631 video tasks",
     "boards_scanned": 14,
     "pages_scanned": 18,
     "video_tasks_scanned": 631,
+    "status_counts": {
+      "success": 602,
+      "init": 6,
+      "fail": 23
+    },
     "active_task_ids": [
       "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
       "101221814fd5430697f697f95a3f4252",
@@ -30,26 +35,21 @@
       "be960f5e3bf54563aff663fed9da8906",
       "de8e44bb15d64dc7a4eb640d27a726e4"
     ],
-    "status_counts": {
-      "init": 6,
-      "success": 602,
-      "fail": 23
-    },
     "scope": "all_14_boards_18_pages_631_videos",
-    "checked_at": "2026-11-07T01:05:05.753Z",
-    "rechecked_active_at": "2026-11-07T01:06:54.615Z"
+    "checked_at": "2026-11-07T02:03:23.652Z",
+    "complete_scan_verified": true
   },
   "slots": {
     "capacity": 6,
     "occupied": 6,
     "free": 0,
     "complete_scan_verified": true,
-    "source": "Topview read-only fresh connector scan"
+    "source": "Topview read-only connector"
   },
   "selected_item": null,
   "queued_candidate": "S49B",
   "new_submissions": 0,
-  "browser_transport": "not_used: 6/6 physical slots; TinyFish metered browser forbidden",
+  "browser_transport": "not_used: all six physical slots occupied; metered TinyFish forbidden",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
   "tinyfish_estimated_cost_usd": 0,
@@ -57,7 +57,7 @@
   "topview_credits_cost": 0,
   "task_ids": [],
   "outcome": "no_free_global_slot",
-  "blocker": "All six physical video slots occupied; Create and metered TinyFish prohibited. Previous original-file upload and Unlimited0 browser blocker persists.",
+  "blocker": "All 6/6 physical slots occupied; Create and paid TinyFish not allowed. Previous file-upload/Unlimited0 fallback blocker unresolved.",
   "retryable": true,
   "acceptance": {
     "scheduled_runtime": true,
@@ -70,9 +70,6 @@
     "verified_new_task_id": false,
     "submitted_ids_individually_reconciled": true
   },
-  "prior_run_id": "996e6fb7-331c-8333-a462-e4752cc2b047",
-  "updated_at": "2026-11-07T01:11:26.125Z",
-  "checked_at": "2026-11-07T01:11:26.125Z",
   "queue_sha": "4f880de6954ea55a77c4a720fa54556e424d8113",
   "queue_reconciliation": {
     "submitted_count": 15,
@@ -85,12 +82,10 @@
     "selected_item_state": "waiting_for_slot",
     "selected_item_task_id": null,
     "readiness_source_queue_sha256": "879add3bf2a6befef4158e970730ce9f0a5c4fafe613ce070ff61abb72f9a218",
-    "readiness_source_task_map_sha256": "ddc1e4a8cf6d880b576616894f90ffc4599031374315ff86c03a71546db9ce65",
-    "readiness_selected_ready": true,
+    "readiness_source_task_map_sha256": "16cd8f278917b2a3222bebf4cc290968c76bf08c4294d515079594dc4321415d",
     "queue_sha256_verified": null,
     "task_map_sha256_verified": null,
-    "reference_historical_task_found": "22dbd25cdd9f47cd9e44300e55f5e44f",
-    "note": "Read-only verification: 15/15 submitted IDs found on canonical board; all six video jobs init, no Create/credits."
+    "historical_task_preserved": "22dbd25cdd9f47cd9e44300e55f5e44f"
   },
   "owner_tasks": {
     "open_count": 0,
@@ -99,21 +94,21 @@
     "open_task_ids": []
   },
   "peer_status": {
-    "work_preferred": true,
     "preferred_executor": "work",
+    "work_preferred": true,
     "ordinary_last_run_id": null,
     "ordinary_latest_result_run_id": null,
-    "ordinary_runtime_error": "Automations.get action not found; no fabricated IDs",
-    "work_hh55_last_run_id": "987b50da-abb4-832b-8079-a94befa59063",
-    "relay_last_run_id": "a9105983-256c-8327-bb1d-daa92c55a6d0",
+    "ordinary_runtime_error": "Automations.get action not found (404)",
+    "work_hh55_last_run_id": null,
+    "relay_last_run_id": null,
     "work_current_gui_and_quota_not_verified_in_this_cycle": true
   },
   "bot_wake": {
-    "event_id": "slots:c48ed7e4:17",
-    "status": "Old event is not evidence of current capacity; GitHub robot launcher_health at 2026-11-07T01:00:30Z free_slots_global=0",
-    "observed_at": "2026-11-07T01:00:30Z"
+    "last_event_id": "slots:c48ed7e4:17",
+    "status": "old event; current live 6/6 scan supersedes it",
+    "observed_at": "2026-11-06T22:20:23Z"
   },
-  "completed_at": "2026-11-07T01:11:26.125Z",
-  "lease_released_at": "2026-11-07T01:11:26.125Z",
-  "finalization_note": "Fresh complete Topview read-only 14-board/18-page/631-video scan; six active tasks rechecked init; all 15 submitted task IDs independently verified. Global capacity 6/6, no Create or TinyFish metered browser. Exact lease released with receipt. Schedule, queue, retries and checkpoint unchanged."
+  "updated_at": "2026-11-07T02:03:23.652Z",
+  "checked_at": "2026-11-07T02:03:23.652Z",
+  "prior_run_id": null
 }
