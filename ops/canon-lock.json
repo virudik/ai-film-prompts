@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:4aa338af-9488-4a37-a1c3-60993ed108ec",
-  "task": "D7 ordinary ChatGPT interactive takeover of TOPVIEW-SLOT-PRIORITY-20261024",
-  "acquired_at": "2026-11-07T19:10:25.329Z",
-  "expires_at": null,
-  "released_at": "2026-11-07T19:12:10.175Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:e11473c1-d02a-4e5f-ac04-08efddf38015",
+  "task": "User requested health warning recovery + audit FUTURE-PLANS (no duplicate work)",
+  "acquired_at": "2026-11-07T19:28:00.147Z",
+  "expires_at": "2026-11-07T19:58:00.147Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
