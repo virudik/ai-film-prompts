@@ -14,11 +14,11 @@
   "lease_commit": "649618ac0953d9e099aead381b167574e158c3cb",
   "started_at": "2026-11-07T09:56:11.424316Z",
   "receipt_started_at": "2026-11-07T10:01:21.057Z",
-  "phase": "started",
-  "status": "running",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
-    "source": "Topview connector direct board video page scan, account-wide; all six active task IDs rechecked",
+    "source": "Direct Topview account-wide board video pages and six active task checks",
     "boards_scanned": 14,
     "pages_scanned": 18,
     "total_board_tasks_scanned": 1015,
@@ -38,8 +38,7 @@
     ],
     "active_task_details_verified": true,
     "scope": "all_14_boards_18_video_pages",
-    "checked_at": null,
-    "checked_at_note": "Topview connector did not return server-side scan timestamp; observed in this run before lease_acquired_at",
+    "checked_at": "2026-11-07T10:05:18.932Z",
     "submitted_task_ids_individually_reconciled": 15,
     "complete_scan_verified": true
   },
@@ -48,8 +47,7 @@
     "occupied": 6,
     "free": 0,
     "complete_scan_verified": true,
-    "checked_at": null,
-    "checked_at_note": "Direct Topview scan/checks took place before lease and final receipt; API did not expose a server-side scan timestamp"
+    "checked_at": "2026-11-07T10:05:18.932Z"
   },
   "queued_candidate": "S49B",
   "selected_item": null,
@@ -70,7 +68,7 @@
   ],
   "outcome": "no_free_slot",
   "blocker": null,
-  "retryable": false,
+  "retryable": true,
   "acceptance": {
     "scheduled_execution_observed": true,
     "tinyfish_authenticated_historical_only": true,
@@ -80,10 +78,10 @@
     "production_submission_verified": false
   },
   "owner_tasks": "checked_open_0_taken_0",
-  "updated_at": "2026-11-07T10:01:21.057Z",
-  "completed_at": null,
-  "checked_at": "2026-11-07T09:17:20.854Z",
-  "lease_released_at": null,
+  "updated_at": "2026-11-07T10:05:18.932Z",
+  "completed_at": "2026-11-07T10:05:18.932Z",
+  "checked_at": "2026-11-07T10:05:18.932Z",
+  "lease_released_at": "2026-11-07T10:05:18.932Z",
   "queue_reconciliation": {
     "unresolved_claims": 0,
     "submitted_tasks_found_on_expected_board": 15,
@@ -93,15 +91,16 @@
     "readiness_checked_at": "2026-11-07T09:10:52Z",
     "queue_file_sha": "4f880de6954ea55a77c4a720fa54556e424d8113",
     "readiness_file_sha": "5fbce22524a44631bb48ad0b01f8bcb37114d3fb",
-    "sha_comparison": "Readiness generated 2026-11-07T09:10:52Z; sources were checked fresh. Independent canonical SHA recomputation not performed in this no-Create cycle"
+    "sha_comparison": "Readiness hashes recorded; independent recomputation not performed in no-Create cycle."
   },
   "peer_status": {
-    "ordinary_last_run_id": "578c061f-665c-8332-9d36-1a63ab3c9151",
-    "ordinary_latest_result_run_id": "6c87c1c5-3b3c-8327-b995-6f5e679119c4",
+    "ordinary_last_run_id": "0e1a5287-3dec-832b-99b4-e0fd5940ae02",
+    "ordinary_latest_result_run_id": "578c061f-665c-8332-9d36-1a63ab3c9151",
     "work_relay_last_run_id": "a9105983-256c-8327-bb1d-daa92c55a6d0",
-    "work_hourly_last_run_id": "8d885ae8-5948-8328-b1bb-d0905c958956",
+    "work_hourly_last_run_id": "599ec080-13d0-8333-9b49-437a5d819d95",
     "preferred_executor_registry": "work",
-    "route_generation": 3
+    "route_generation": 3,
+    "work_recovery_new_evidence": false
   },
   "bot_wake": {
     "last_seen_event": "slots:c48ed7e4:17",
@@ -109,5 +108,5 @@
     "fresh_slot_confirmed": false,
     "live_scan_occupied": 6
   },
-  "finalization_note": "Started receipt after exact lease/readback; fresh full Topview scan verified 6/6 and all submitted IDs; finalization pending."
+  "finalization_note": "All-board scan 6/6 and all 15 submitted IDs verified; no TinyFish/Create. Stale wake ignored. Exact lease released with receipt; no changes to checkpoint or next_action."
 }
