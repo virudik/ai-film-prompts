@@ -3,24 +3,24 @@
   "project": "seregius",
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "c52970e6-b0dc-41dd-9cd3-06e3fd4fe581",
+  "execution_instance_id": "1f1d26dd-d470-4f4e-a044-26729a583707",
   "run_id": "578c061f-665c-8332-9d36-1a63ab3c9151",
-  "run_id_source": "Automations.peek.last_run.id (recorded_status=in_progress)",
+  "run_id_source": "Automations.peek.last_run.id recorded_status=in_progress; started_at 2026-11-07T09:10:47.642719Z",
   "latest_previous_result_run_id": "6c87c1c5-3b3c-8327-b995-6f5e679119c4",
-  "source_head": "5df0d4077216b73721196b9eb58f22bcae857bdd",
+  "source_head": "0c841ed1f19febcbd1a6623048220872c06b896f",
   "route_generation": 3,
-  "lease_holder": "chatgpt:ordinary:c52970e6-b0dc-41dd-9cd3-06e3fd4fe581",
-  "lease_acquired_at": "2026-11-07T09:03:12.596Z",
-  "lease_commit": "8f278583538b28d6b2565e35b1b3455cdb6cb621",
-  "started_at": "2026-11-07T08:58:19.618815Z",
-  "receipt_started_at": "2026-11-07T09:04:30.781Z",
-  "phase": "finished",
-  "status": "completed",
+  "lease_holder": "chatgpt:ordinary:1f1d26dd-d470-4f4e-a044-26729a583707",
+  "lease_acquired_at": "2026-11-07T09:14:49.827Z",
+  "lease_commit": "8370259d351aabbc7e728e2127cf9b84c51512f9",
+  "started_at": "2026-11-07T09:10:47.642719Z",
+  "receipt_started_at": "2026-11-07T09:15:47.108Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan": {
     "complete": true,
-    "source": "Topview connector: all boards/pages including video tasks and direct detail of all active tasks",
+    "source": "Topview connector direct board video page scan, account-wide; all six active task IDs rechecked",
     "boards_scanned": 14,
-    "pages_scanned": 20,
+    "pages_scanned": 18,
     "total_board_tasks_scanned": 1015,
     "video_tasks_scanned": 631,
     "status_counts": {
@@ -37,50 +37,20 @@
       "de8e44bb15d64dc7a4eb640d27a726e4"
     ],
     "active_task_details_verified": true,
-    "submitted_task_ids_individually_reconciled": 15,
-    "complete_scan_verified": true,
-    "active_statuses": [
-      {
-        "task_id": "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
-        "status": "init"
-      },
-      {
-        "task_id": "101221814fd5430697f697f95a3f4252",
-        "status": "init"
-      },
-      {
-        "task_id": "3ebe7c23db05479e9b6f762a75b832e7",
-        "status": "init"
-      },
-      {
-        "task_id": "365cf639589a4a5da834d70193d5e8f6",
-        "status": "init"
-      },
-      {
-        "task_id": "be960f5e3bf54563aff663fed9da8906",
-        "status": "init"
-      },
-      {
-        "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
-        "status": "init"
-      }
-    ],
-    "scope": "all_14_boards_20_pages_631_videos",
-    "checked_at": "2026-11-07T09:06:37.528Z",
-    "nonempty_pages_scanned": 18
+    "scope": "all_14_boards_18_video_pages",
+    "checked_at": null,
+    "checked_at_note": "Topview connector did not return server-side scan timestamp; observed in this run before lease_acquired_at"
   },
   "slots": {
     "capacity": 6,
     "occupied": 6,
     "free": 0,
-    "complete_scan_verified": true,
-    "checked_at": "2026-11-07T09:06:37.528Z",
-    "source": "Direct read-only Topview connector full scan and six active task detail rechecks"
+    "complete_scan_verified": true
   },
   "queued_candidate": "S49B",
   "selected_item": null,
   "new_submissions": [],
-  "browser_transport": "not_used_6_of_6_full",
+  "browser_transport": "not_used_6_of_6",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
   "tinyfish_estimated_cost_usd": 0,
@@ -105,31 +75,6 @@
     "topview_new_task_id_verified": false,
     "production_submission_verified": false
   },
-  "queue_reconciliation": {
-    "unresolved_claims": 0,
-    "submitted_tasks_found_on_expected_board": 15,
-    "source_queue_sha256": "879add3bf2a6befef4158e970730ce9f0a5c4fafe613ce070ff61abb72f9a218",
-    "source_task_map_sha256": "81d6a12d009bdb764b0ab119fde9d4e5b26b7f424634a094c2dd8af5ca6f5d17",
-    "readiness_checked_at": "2026-11-07T08:20:26Z",
-    "sha_comparison": "Latest readiness SHA recorded; independent SHA recomputation not performed in this no-Create cycle"
-  },
   "owner_tasks": "checked_open_0_taken_0",
-  "peer_status": {
-    "ordinary_last_run_id": "578c061f-665c-8332-9d36-1a63ab3c9151",
-    "work_relay_last_run_id": "a9105983-256c-8327-bb1d-daa92c55a6d0",
-    "work_hourly_last_run_id": "8d885ae8-5948-8328-b1bb-d0905c958956",
-    "preferred_executor_registry": "work",
-    "route_generation": 3
-  },
-  "updated_at": "2026-11-07T09:06:37.528Z",
-  "completed_at": "2026-11-07T09:06:37.528Z",
-  "checked_at": "2026-11-07T09:06:37.528Z",
-  "lease_released_at": "2026-11-07T09:06:37.528Z",
-  "bot_wake": {
-    "last_seen_event": "slots:c48ed7e4:17",
-    "latest_issue_number": 397,
-    "fresh_slot_confirmed": false,
-    "live_scan_occupied": 6
-  },
-  "finalization_note": "Fresh all-account read-only scan 14 boards/20 pages, 1015 tasks/631 videos: 6/6 active init confirmed individually. 15 submitted queue task IDs present on My First Board, no unresolved transient claims. No Create, no TinyFish (prohibited at 6/6), no credits; previous TinyFish UI file-transfer/Unlimited0 blocker unchanged. Source route/schedule/queue unchanged."
+  "updated_at": "2026-11-07T09:15:47.108Z"
 }
