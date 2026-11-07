@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "raznoe",
-  "last_updated_at": "2026-11-06T22:01:20.282Z",
+  "last_updated_at": "2026-11-07T20:15:40Z",
   "active_work": [
     {
       "work_id": "RAZNOE-SCENE3-RESOURCE",
@@ -227,7 +227,9 @@
     {
       "work_id": "RAZNOE-HONOR-X9EPRO-CONTEST-20261107",
       "status": "awaiting_real_location_and_owner_selection",
-      "next_action": "Scene 5 concept and dual-engine previsual prompts authored, not generated. Waiting for actual city, possible selection and real HONOR X9e Pro delivery; actual 9:16 video must show genuine local tests, not AI fabrications. No Topview submissions or credits."
+      "next_action": "Подтвердить город/участие и согласовать безопасный тест; после отбора и получения телефона снять реальный ролик 60–120 с без музыки. ИИ-превиз не заявка. Видео не запускать.",
+      "last_verified_step": "Полные правила HONOR прочитаны через Google Docs: п.4.2 требует 60–120 секунд, п.4.3.3 запрещает музыку, п.4.3.6 ограничивает фон/права. Отчёт исправлен 96b3e19f. Следующий этап — только существующая сцена5, оглавление и статусы; сцены1–4, очередь, изображения, разрешения не менять. Генераций нет.",
+      "updated_at": "2026-11-07T20:15:40Z"
     }
   ],
   "idle_state": null,
