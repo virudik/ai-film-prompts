@@ -7,18 +7,18 @@
   "run_id": null,
   "run_id_unavailable_reason": "The scheduled runtime did not expose a concrete run ID; Automations.get returned 404 Action not found.",
   "runtime_run_id_source": null,
-  "source_head": "5da336ec568d28ee89372bdc8d7965a1e53f0f71",
+  "source_head": "8e48e651b2e1b0c6b4c85ebfc454c4e960d44bbf",
   "route_generation": 3,
   "lease_holder": "chatgpt:ordinary:7a3de36f-c2a8-45f2-b0b5-8dfd36824577",
   "lease_acquired_at": "2026-11-07T03:59:48.435Z",
   "lease_commit": "5da336ec568d28ee89372bdc8d7965a1e53f0f71",
   "started_at": "2026-11-07T03:56:03Z",
   "receipt_started_at": "2026-11-07T04:00:23.736Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
-    "source": "Read-only Topview connector listing 14 boards and 20 pages, six active task detail checks",
+    "source": "Topview read-only connector, 14 boards with 20 complete pages, six init task details read individually",
     "boards_scanned": 14,
     "pages_scanned": 20,
     "total_board_tasks_scanned": 1015,
@@ -32,7 +32,7 @@
       "be960f5e3bf54563aff663fed9da8906",
       "de8e44bb15d64dc7a4eb640d27a726e4"
     ],
-    "checked_at": "2026-11-07T04:00:23.736Z",
+    "checked_at": "2026-11-07T04:02:29.040Z",
     "complete_scan_verified": true,
     "active_task_details_verified": true
   },
@@ -41,19 +41,19 @@
     "occupied": 6,
     "free": 0,
     "complete_scan_verified": true,
-    "source": "Topview read-only board scans; six init video task IDs"
+    "source": "Topview read-only verified six distinct init video tasks, all on My First Board"
   },
   "selected_item": null,
   "new_submissions": 0,
-  "browser_transport": "not_used: six of six physical video slots occupied",
+  "browser_transport": "not_used: 6/6 slots occupied, no paid TinyFish call",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
   "tinyfish_estimated_cost_usd": 0,
   "tinyfish_confirmed_cost_usd": 0,
   "topview_credits_cost": 0,
   "task_ids": [],
-  "outcome": "in_progress_no_free_slot",
-  "blocker": "6 of 6 active physical video slots; TinyFish exact file import and Unlimited 0 remain unverified",
+  "outcome": "no_free_global_slot",
+  "blocker": "Six physical Topview video slots occupied (init); historical TinyFish original-file upload and Unlimited0 blocker unchanged",
   "retryable": true,
   "acceptance": {
     "scheduled_runtime": true,
@@ -64,11 +64,11 @@
     "tinyfish_unlimited_zero_verified": false,
     "tinyfish_production_submission_verified": false,
     "verified_new_task_id": false,
-    "submitted_ids_individually_reconciled": false
+    "submitted_ids_individually_reconciled": true
   },
-  "updated_at": "2026-11-07T04:00:23.736Z",
+  "updated_at": "2026-11-07T04:02:29.040Z",
   "queued_candidate": "S49B",
-  "queue_sha": null,
+  "queue_sha": "4f880de6954ea55a77c4a720fa54556e424d8113",
   "queue_reconciliation": {
     "submitted_count": 15,
     "submitted_task_ids_checked": 15,
@@ -80,9 +80,9 @@
     "selected_item_state": "waiting_for_slot",
     "selected_item_task_id": null,
     "readiness_source_queue_sha256": "879add3bf2a6befef4158e970730ce9f0a5c4fafe613ce070ff61abb72f9a218",
-    "readiness_source_task_map_sha256": "5b0db116fb757090102c411d3fb66b4ff83473992143666569868ab321eac519",
-    "queue_sha256_verified": true,
-    "task_map_sha256_verified": true,
+    "readiness_source_task_map_sha256": "b856b120495cb0faad7b614a47961390b7fa1e1636c5fdffff93799c8d9e6272",
+    "queue_sha256_verified": "robot checked task_map_master_consistency at 2026-11-07T04:00:30Z; independently source SHA not recomputed in this cycle",
+    "task_map_sha256_verified": "robot checked task_map_master_consistency at 2026-11-07T04:00:30Z; independently source SHA not recomputed in this cycle",
     "historical_task_preserved": "22dbd25cdd9f47cd9e44300e55f5e44f"
   },
   "owner_tasks": {
@@ -96,10 +96,10 @@
     "work_preferred": true,
     "ordinary_last_run_id": null,
     "ordinary_latest_result_run_id": null,
-    "ordinary_runtime_error": "Automations.get action returned 404 Action not found; platform current run ID not exposed",
+    "work_relay_last_run_id": null,
     "work_hh55_last_run_id": null,
-    "relay_last_run_id": null,
-    "work_current_gui_and_quota_not_verified_in_this_cycle": true
+    "automations_connector_status": "404 Action not found",
+    "route_generation": 3
   },
   "bot_wake": {
     "last_event_id": "slots:c48ed7e4:17",
@@ -109,6 +109,6 @@
   "checked_at": "2026-11-07T03:06:28.925Z",
   "prior_run_id": null,
   "completed_at": "2026-11-07T03:06:28.925Z",
-  "lease_released_at": "2026-11-07T03:06:28.925Z",
+  "lease_released_at": "2026-11-07T04:02:29.040Z",
   "finalization_note": "14 boards/20 pages, 631 physical video tasks globally; six init tasks individually verified on My First Board, 15/15 submitted queue task IDs found, no pending claims/unknowns; live SHA256 of queue and task map matches readiness. 6/6 -> no Create, no paid TinyFish call or Topview credit use. Previous TinyFish file-upload and Unlimited0 blocker remains. No queue/next_action/checkpoint or schedule mutation."
 }
