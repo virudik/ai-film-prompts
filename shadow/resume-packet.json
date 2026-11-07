@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-07T08:54:35+00:00",
-  "source_head": "4e24fc902b1439b873f01bdc08b0f678168b14b6",
-  "source_fingerprint": "84f6e114e69322a713110343556dcb3d756bc4ea61fcf9f6faafb7afb32362e5",
+  "checked_at": "2026-11-07T09:14:16+00:00",
+  "source_head": "f93c8da448695f706d5c0264ddb3b3750a96cf19",
+  "source_fingerprint": "d756cbee8db13bd5b219546a51e7ba598b0fd9ba1a4d3926625a4415c5ab991a",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -466,8 +466,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "f53bda21079333b938fffafb264c0f2a5c2b8cce53969dcf45017e7fe97e6119",
-      "bytes": 22990
+      "sha256": "2f5b5ec76ef0956f258cbb9db7872de0d0d004d088bdddc8b90976cc5e74b84b",
+      "bytes": 22988
     },
     {
       "file": "reports/chatgpt-images-ui-check-2026-11-06.json",
