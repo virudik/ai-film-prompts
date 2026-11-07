@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:4da17e84-e0d1-46e6-bc71-a69e46ce1296",
-  "task": "Diagnosed Scene5 whitespace validation repair and verified contest publication; no generation",
-  "acquired_at": "2026-11-07T20:19:50Z",
-  "expires_at": null,
-  "released_at": "2026-11-07T20:21:54Z",
+  "state": "held",
+  "holder": "grok:e98c441d-91fa-476f-b712-3daec2728dcd",
+  "task": "launch S49B wake#424",
+  "acquired_at": "2026-11-07T20:53:47Z",
+  "expires_at": "2026-11-07T21:23:47Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
