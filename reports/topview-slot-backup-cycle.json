@@ -14,8 +14,8 @@
   "lease_commit": "8370259d351aabbc7e728e2127cf9b84c51512f9",
   "started_at": "2026-11-07T09:10:47.642719Z",
   "receipt_started_at": "2026-11-07T09:15:47.108Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
     "source": "Topview connector direct board video page scan, account-wide; all six active task IDs rechecked",
@@ -39,13 +39,17 @@
     "active_task_details_verified": true,
     "scope": "all_14_boards_18_video_pages",
     "checked_at": null,
-    "checked_at_note": "Topview connector did not return server-side scan timestamp; observed in this run before lease_acquired_at"
+    "checked_at_note": "Topview connector did not return server-side scan timestamp; observed in this run before lease_acquired_at",
+    "submitted_task_ids_individually_reconciled": 15,
+    "complete_scan_verified": true
   },
   "slots": {
     "capacity": 6,
     "occupied": 6,
     "free": 0,
-    "complete_scan_verified": true
+    "complete_scan_verified": true,
+    "checked_at": null,
+    "checked_at_note": "Direct Topview scan/checks took place before lease and final receipt; API did not expose a server-side scan timestamp"
   },
   "queued_candidate": "S49B",
   "selected_item": null,
@@ -76,5 +80,34 @@
     "production_submission_verified": false
   },
   "owner_tasks": "checked_open_0_taken_0",
-  "updated_at": "2026-11-07T09:15:47.108Z"
+  "updated_at": "2026-11-07T09:17:20.854Z",
+  "completed_at": "2026-11-07T09:17:20.854Z",
+  "checked_at": "2026-11-07T09:17:20.854Z",
+  "lease_released_at": "2026-11-07T09:17:20.854Z",
+  "queue_reconciliation": {
+    "unresolved_claims": 0,
+    "submitted_tasks_found_on_expected_board": 15,
+    "queue_submitted_count": 15,
+    "source_queue_sha256": "879add3bf2a6befef4158e970730ce9f0a5c4fafe613ce070ff61abb72f9a218",
+    "source_task_map_sha256": "ae22c617fb359c2e413c56bd9723dd227665dec361622cf54d5d8608cdba04e4",
+    "readiness_checked_at": "2026-11-07T09:10:52Z",
+    "queue_file_sha": "4f880de6954ea55a77c4a720fa54556e424d8113",
+    "readiness_file_sha": "5fbce22524a44631bb48ad0b01f8bcb37114d3fb",
+    "sha_comparison": "Readiness generated 2026-11-07T09:10:52Z; sources were checked fresh. Independent canonical SHA recomputation not performed in this no-Create cycle"
+  },
+  "peer_status": {
+    "ordinary_last_run_id": "578c061f-665c-8332-9d36-1a63ab3c9151",
+    "ordinary_latest_result_run_id": "6c87c1c5-3b3c-8327-b995-6f5e679119c4",
+    "work_relay_last_run_id": "a9105983-256c-8327-bb1d-daa92c55a6d0",
+    "work_hourly_last_run_id": "8d885ae8-5948-8328-b1bb-d0905c958956",
+    "preferred_executor_registry": "work",
+    "route_generation": 3
+  },
+  "bot_wake": {
+    "last_seen_event": "slots:c48ed7e4:17",
+    "latest_issue_number": 397,
+    "fresh_slot_confirmed": false,
+    "live_scan_occupied": 6
+  },
+  "finalization_note": "Fresh full-account Topview connector scan, 14 boards/18 video pages, 631 video tasks: 6/6 active init rechecked individually; all 15 submitted queue taskIDs independently verified on exact board; zero unresolved submitting/unknown. No Create, no TinyFish run or spending; previous TinyFish native original-file upload/Unlimited0 blocker unchanged. Other authorized independent ready items remain queued; next S49B. No change to schedule/route/queue/continue checkpoint."
 }
