@@ -14,8 +14,8 @@
   "lease_commit": "8f278583538b28d6b2565e35b1b3455cdb6cb621",
   "started_at": "2026-11-07T08:58:19.618815Z",
   "receipt_started_at": "2026-11-07T09:04:30.781Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
     "source": "Topview connector: all boards/pages including video tasks and direct detail of all active tasks",
@@ -38,13 +38,44 @@
     ],
     "active_task_details_verified": true,
     "submitted_task_ids_individually_reconciled": 15,
-    "complete_scan_verified": true
+    "complete_scan_verified": true,
+    "active_statuses": [
+      {
+        "task_id": "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
+        "status": "init"
+      },
+      {
+        "task_id": "101221814fd5430697f697f95a3f4252",
+        "status": "init"
+      },
+      {
+        "task_id": "3ebe7c23db05479e9b6f762a75b832e7",
+        "status": "init"
+      },
+      {
+        "task_id": "365cf639589a4a5da834d70193d5e8f6",
+        "status": "init"
+      },
+      {
+        "task_id": "be960f5e3bf54563aff663fed9da8906",
+        "status": "init"
+      },
+      {
+        "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
+        "status": "init"
+      }
+    ],
+    "scope": "all_14_boards_20_pages_631_videos",
+    "checked_at": "2026-11-07T09:06:37.528Z",
+    "nonempty_pages_scanned": 18
   },
   "slots": {
     "capacity": 6,
     "occupied": 6,
     "free": 0,
-    "complete_scan_verified": true
+    "complete_scan_verified": true,
+    "checked_at": "2026-11-07T09:06:37.528Z",
+    "source": "Direct read-only Topview connector full scan and six active task detail rechecks"
   },
   "queued_candidate": "S49B",
   "selected_item": null,
@@ -55,7 +86,14 @@
   "tinyfish_estimated_cost_usd": 0,
   "tinyfish_confirmed_cost_usd": 0,
   "topview_credits_cost": 0,
-  "task_ids": [],
+  "task_ids": [
+    "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
+    "101221814fd5430697f697f95a3f4252",
+    "3ebe7c23db05479e9b6f762a75b832e7",
+    "365cf639589a4a5da834d70193d5e8f6",
+    "be960f5e3bf54563aff663fed9da8906",
+    "de8e44bb15d64dc7a4eb640d27a726e4"
+  ],
   "outcome": "no_free_slot",
   "blocker": null,
   "retryable": false,
@@ -69,7 +107,11 @@
   },
   "queue_reconciliation": {
     "unresolved_claims": 0,
-    "submitted_tasks_found_on_expected_board": 15
+    "submitted_tasks_found_on_expected_board": 15,
+    "source_queue_sha256": "879add3bf2a6befef4158e970730ce9f0a5c4fafe613ce070ff61abb72f9a218",
+    "source_task_map_sha256": "81d6a12d009bdb764b0ab119fde9d4e5b26b7f424634a094c2dd8af5ca6f5d17",
+    "readiness_checked_at": "2026-11-07T08:20:26Z",
+    "sha_comparison": "Latest readiness SHA recorded; independent SHA recomputation not performed in this no-Create cycle"
   },
   "owner_tasks": "checked_open_0_taken_0",
   "peer_status": {
@@ -79,5 +121,15 @@
     "preferred_executor_registry": "work",
     "route_generation": 3
   },
-  "updated_at": "2026-11-07T09:04:30.781Z"
+  "updated_at": "2026-11-07T09:06:37.528Z",
+  "completed_at": "2026-11-07T09:06:37.528Z",
+  "checked_at": "2026-11-07T09:06:37.528Z",
+  "lease_released_at": "2026-11-07T09:06:37.528Z",
+  "bot_wake": {
+    "last_seen_event": "slots:c48ed7e4:17",
+    "latest_issue_number": 397,
+    "fresh_slot_confirmed": false,
+    "live_scan_occupied": 6
+  },
+  "finalization_note": "Fresh all-account read-only scan 14 boards/20 pages, 1015 tasks/631 videos: 6/6 active init confirmed individually. 15 submitted queue task IDs present on My First Board, no unresolved transient claims. No Create, no TinyFish (prohibited at 6/6), no credits; previous TinyFish UI file-transfer/Unlimited0 blocker unchanged. Source route/schedule/queue unchanged."
 }
