@@ -14,8 +14,8 @@
   "lease_commit": "9279d10cd8b19dd76c75c6053c14539c24dee723",
   "started_at": "2026-11-07T05:03:13.026Z",
   "receipt_started_at": "2026-11-07T05:09:33.516Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
     "source": "Topview read-only connector: 14 boards, 20 pages; 6 init task details and all 15 submitted task details checked",
@@ -34,26 +34,60 @@
     ],
     "checked_at": "2026-11-07T05:09:33.516Z",
     "complete_scan_verified": true,
-    "active_task_details_verified": true
+    "active_task_details_verified": true,
+    "submitted_task_ids_individually_reconciled": 15,
+    "active_statuses": [
+      {
+        "task_id": "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
+        "status": "init"
+      },
+      {
+        "task_id": "101221814fd5430697f697f95a3f4252",
+        "status": "init"
+      },
+      {
+        "task_id": "3ebe7c23db05479e9b6f762a75b832e7",
+        "status": "init"
+      },
+      {
+        "task_id": "365cf639589a4a5da834d70193d5e8f6",
+        "status": "init"
+      },
+      {
+        "task_id": "be960f5e3bf54563aff663fed9da8906",
+        "status": "init"
+      },
+      {
+        "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
+        "status": "init"
+      }
+    ],
+    "status_counts": {
+      "success": 602,
+      "fail": 23,
+      "init": 6
+    },
+    "active_task_details_last_checked_at": "2026-11-07T05:11:17.145Z"
   },
   "slots": {
     "capacity": 6,
     "occupied": 6,
     "free": 0,
     "complete_scan_verified": true,
-    "source": "Topview live read-only full all-board scan plus six unique init video task details"
+    "checked_at": "2026-11-07T05:11:17.145Z",
+    "source": "live read-only Topview connector, 14-board full scan and six exact task detail rechecks"
   },
   "selected_item": null,
   "new_submissions": 0,
-  "browser_transport": "not_used: 6/6 slots occupied, no paid TinyFish call",
+  "browser_transport": "not_used: 6/6 global physical video slots occupied",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
   "tinyfish_estimated_cost_usd": 0,
   "tinyfish_confirmed_cost_usd": 0,
   "topview_credits_cost": 0,
   "task_ids": [],
-  "outcome": "in_progress_no_free_slot",
-  "blocker": "All 6 physical Topview video slots occupied (init); unchanged TinyFish original file upload and Unlimited0 preflight blocker",
+  "outcome": "no_free_global_slot",
+  "blocker": "6/6 physical video slots occupied; historical TinyFish original image upload and selected Unlimited0 preflight remain unverified; unchanged",
   "retryable": true,
   "acceptance": {
     "scheduled_runtime": true,
@@ -66,49 +100,108 @@
     "verified_new_task_id": false,
     "submitted_ids_individually_reconciled": true
   },
-  "updated_at": "2026-11-07T04:02:29.040Z",
+  "updated_at": "2026-11-07T05:12:24.015Z",
   "queued_candidate": "S49B",
-  "queue_sha": "4f880de6954ea55a77c4a720fa54556e424d8113",
+  "queue_sha": {
+    "queue_sha256": "879add3bf2a6befef4158e970730ce9f0a5c4fafe613ce070ff61abb72f9a218",
+    "task_map_sha256": "476ced6f7aeb4a2a087b969e3d00d84dfa3b2857c77e7d3470fa54d7f9f129ba",
+    "matched_to_readiness": true,
+    "verified_by_direct_SHA256": true,
+    "readiness_checked_at": "2026-11-07T04:50:52Z"
+  },
   "queue_reconciliation": {
+    "queue_items": 63,
     "submitted_count": 15,
-    "submitted_task_ids_checked": 15,
-    "all_submitted_found": true,
-    "all_on_canonical_board": true,
-    "claimed": 0,
-    "submitting": 0,
-    "submission_unknown": 0,
-    "selected_item_state": "waiting_for_slot",
-    "selected_item_task_id": null,
-    "readiness_source_queue_sha256": "879add3bf2a6befef4158e970730ce9f0a5c4fafe613ce070ff61abb72f9a218",
-    "readiness_source_task_map_sha256": "b856b120495cb0faad7b614a47961390b7fa1e1636c5fdffff93799c8d9e6272",
-    "queue_sha256_verified": "robot checked task_map_master_consistency at 2026-11-07T04:00:30Z; independently source SHA not recomputed in this cycle",
-    "task_map_sha256_verified": "robot checked task_map_master_consistency at 2026-11-07T04:00:30Z; independently source SHA not recomputed in this cycle",
-    "historical_task_preserved": "22dbd25cdd9f47cd9e44300e55f5e44f"
+    "submitted_ids": [
+      {
+        "id": "S49A",
+        "task_id": "101221814fd5430697f697f95a3f4252"
+      },
+      {
+        "id": "S28-A1-TEST-20261017",
+        "task_id": "4b7b972870a44dfbb29bd6c5e330a633"
+      },
+      {
+        "id": "S42-SEED20-P2",
+        "task_id": "4a1061e175054da2810ffef8ad9d31cd"
+      },
+      {
+        "id": "S48-SEED20-P2",
+        "task_id": "de8e44bb15d64dc7a4eb640d27a726e4"
+      },
+      {
+        "id": "S56-SEED20-P1",
+        "task_id": "b15165813c0848939edbe8b3d3aed182"
+      },
+      {
+        "id": "S56-SEED20-P2",
+        "task_id": "be960f5e3bf54563aff663fed9da8906"
+      },
+      {
+        "id": "S59-SEED20-P2",
+        "task_id": "b0915b04173c414e9ac08652d34b7852"
+      },
+      {
+        "id": "S60-SEED20-P1",
+        "task_id": "025955aad2cf494da2b4104d26c36ed5"
+      },
+      {
+        "id": "S61-SEED20-P1",
+        "task_id": "c72c1ab4524e4f2f9d3a0272474f788a"
+      },
+      {
+        "id": "S62-SEED20-P1",
+        "task_id": "0de1f663432646d294f409a22e20a26e"
+      },
+      {
+        "id": "S63-WAN30",
+        "task_id": "365cf639589a4a5da834d70193d5e8f6"
+      },
+      {
+        "id": "S52-R2-SEED20-P1",
+        "task_id": "c65c30d8cbe14e9eadec886276e62471"
+      },
+      {
+        "id": "S64-WAN30",
+        "task_id": "3ebe7c23db05479e9b6f762a75b832e7"
+      },
+      {
+        "id": "S72-WAN30",
+        "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f"
+      },
+      {
+        "id": "S71-WAN30",
+        "task_id": "431180d384cc43bebe7afc702e4eb4e6"
+      }
+    ],
+    "active_claimed_or_unknown": [],
+    "readiness_sha_matched": true
   },
-  "owner_tasks": {
-    "open_count": 0,
-    "taken_count": 0,
-    "not_taken_in_slot_cycle": true,
-    "open_task_ids": []
-  },
+  "owner_tasks": "checked_open_0",
   "peer_status": {
+    "ordinary_authorized": true,
+    "active_automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
+    "route_generation": 3,
     "preferred_executor": "work",
-    "work_preferred": true,
-    "ordinary_last_run_id": null,
-    "ordinary_latest_result_run_id": null,
-    "work_relay_last_run_id": null,
-    "work_hh55_last_run_id": null,
-    "automations_connector_status": "404 Action not found",
-    "route_generation": 3
+    "work_historical_status": "restored_verified",
+    "current_work_runtime": "not_verified: Automations.get action 404 on peer IDs",
+    "ordinary_runtime_id": "unavailable: Automations.get action 404",
+    "peers_automation_ids": [
+      "6adc585e7ac08191bb93825117dc7213",
+      "6acae6ab433481919e88665c520b8ef2"
+    ]
   },
   "bot_wake": {
-    "last_event_id": "slots:c48ed7e4:17",
-    "status": "old event; fresh 6/6 global scan supersedes it",
-    "observed_at": "2026-11-06T22:20:23Z"
+    "latest_issue": 397,
+    "latest_event_id": "slots:c48ed7e4:17",
+    "observed_at": "2026-11-06T22:20:23Z",
+    "interpretation": "stale prior event: live complete scan verifies 6/6, not a current free slot",
+    "relay_receipt_last_updated_at": "2026-11-06T05:55:16.981Z",
+    "automation_monitor_checked_at": "2026-11-07T04:51:00Z"
   },
-  "checked_at": "2026-11-07T03:06:28.925Z",
+  "checked_at": "2026-11-07T05:12:24.015Z",
   "prior_run_id": null,
-  "completed_at": "2026-11-07T03:06:28.925Z",
-  "lease_released_at": "2026-11-07T04:02:29.040Z",
-  "finalization_note": "14 boards/20 pages, 631 physical video tasks globally; six init tasks individually verified on My First Board, 15/15 submitted queue task IDs found, no pending claims/unknowns; live SHA256 of queue and task map matches readiness. 6/6 -> no Create, no paid TinyFish call or Topview credit use. Previous TinyFish file-upload and Unlimited0 blocker remains. No queue/next_action/checkpoint or schedule mutation."
+  "completed_at": "2026-11-07T05:12:24.015Z",
+  "lease_released_at": "2026-11-07T05:12:24.015Z",
+  "finalization_note": "Final receipt and release of this exact own lease were written in the same CAS commit; never altered peer receipts or monitor telemetry."
 }
