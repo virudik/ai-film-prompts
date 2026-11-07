@@ -3,25 +3,24 @@
   "project": "seregius",
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "eaf5d172-7cf8-4c54-adb5-da1dbf1f50ea",
-  "run_id": "661041a1-6b40-8328-902a-7dd00eefac79",
+  "execution_instance_id": "3cd80298-a608-4959-9ba2-7c6f4208572d",
+  "run_id": "a074027e-4860-8333-ab15-6081547df2a6",
   "run_id_source": "Automations.peek.last_run.id",
   "run_id_unavailable_reason": null,
-  "source_head": "ee343a65f323296a42a2f86764fe1594d9714dc5",
+  "source_head": "8c93328fdff2077a78b399da7dc4e45b3843ee0d",
   "route_generation": 3,
-  "lease_holder": "chatgpt:ordinary:eaf5d172-7cf8-4c54-adb5-da1dbf1f50ea",
-  "lease_acquired_at": "2026-11-07T17:00:05.832Z",
-  "lease_commit": "cf4c55ccc1fa1564bb9bc218177c53180dac03ee",
-  "started_at": "2026-11-07T16:56:36.085464Z",
-  "receipt_started_at": "2026-11-07T17:00:43.150Z",
-  "phase": "completed",
-  "status": "completed",
+  "lease_holder": "chatgpt:ordinary:3cd80298-a608-4959-9ba2-7c6f4208572d",
+  "lease_acquired_at": "2026-11-07T18:11:06.733Z",
+  "lease_commit": "e447162aec1e2e4f588b0fb02975661e07e69471",
+  "started_at": "2026-11-07T18:03:45.280694Z",
+  "receipt_started_at": "2026-11-07T18:11:55.300Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan": {
     "complete": true,
-    "source": "Live read-only Topview connector; all 14 boards and 18 paged video result requests; 6 independent task details verified (one transient 5003 recovered); 15 canonical submitted IDs independently found",
-    "scope": "all_14_boards_18_video_page_requests",
+    "source": "Fresh live read-only Topview connector; 14 boards, 23 total page requests: 10 My First Board + 9 other non-empty boards + 4 empty boards? actual 23 requests total including empty boards (14 first pages +9 extra), 631 video tasks",
     "boards_scanned": 14,
-    "pages_scanned": 18,
+    "pages_scanned": 23,
     "video_tasks_scanned": 631,
     "status_counts": {
       "success": 602,
@@ -38,14 +37,14 @@
     ],
     "active_task_details_verified": true,
     "submitted_task_ids_individually_reconciled": 15,
-    "checked_at": "2026-11-07T17:04:57.895Z",
+    "checked_at": "2026-11-07T18:10:16.277Z",
     "complete_scan_verified": true
   },
   "slots": {
     "capacity": 6,
     "occupied": 6,
     "free": 0,
-    "checked_at": "2026-11-07T17:04:57.895Z",
+    "checked_at": "2026-11-07T18:10:16.277Z",
     "complete_scan_verified": true
   },
   "selected_item": null,
@@ -76,48 +75,22 @@
     "production_submission_verified": false
   },
   "previous_receipt": {
-    "execution_instance_id": "4c14128e-0fcc-4ed7-89e8-be29a8a363de",
+    "execution_instance_id": "eaf5d172-7cf8-4c54-adb5-da1dbf1f50ea",
     "outcome": "no_free_slot",
-    "completed_at": "2026-11-07T16:16:48.407Z"
+    "completed_at": "2026-11-07T17:05:50.592Z"
   },
-  "updated_at": "2026-11-07T17:05:50.592Z",
   "queued_candidate": "S49B",
   "queue_reconciliation": {
     "unresolved_active_claims": 0,
     "submitted_tasks_found_on_expected_board": 15,
     "queue_submitted_count": 15,
     "source_queue_sha256": "879add3bf2a6befef4158e970730ce9f0a5c4fafe613ce070ff61abb72f9a218",
-    "source_task_map_sha256": "d62d01b37192c51802157527a46a752d95c0f5087e008a467bb30e41c467af26",
-    "readiness_checked_at": "2026-11-07T16:20:26Z",
-    "sha_comparison": "Independently computed SHA-256 for both GitHub UTF-8 source contents and matched current readiness file",
+    "source_task_map_sha256": "14f44f7258861e8f1abded3212af1e5077151bb655af5405bbe3885118bb581c",
+    "readiness_checked_at": "2026-11-07T17:10:42.869224Z",
+    "sha_comparison": "Independently recomputed SHA-256 for both GitHub UTF-8 sources; matched current ops/queue-readiness.json",
     "reconciled_without_new_claim": true
   },
   "owner_tasks": "checked_open_0_taken_0",
-  "peer_status": {
-    "ordinary_last_run_id": "661041a1-6b40-8328-902a-7dd00eefac79",
-    "ordinary_latest_result_run_id": "7360f927-7958-8331-a2ea-658aebb5ea4b",
-    "work_hh55_last_run_id": "8aca507c-eb58-8332-bdf6-32165533cbe3",
-    "work_hh55_latest_result_run_id": "1658357b-2320-8333-98ac-459762c93799",
-    "relay_last_run_id": "a9105983-256c-8327-bb1d-daa92c55a6d0",
-    "relay_latest_result_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d",
-    "source": "Automations.peek (last_run and latest_result are independent)"
-  },
-  "launcher_health": {
-    "status": "capacity_full",
-    "source": "Fresh complete Topview scan",
-    "bot_previous_event": "slots:c48ed7e4:17",
-    "bot_event_is_stale": true,
-    "monitor_checked_at": "2026-11-07T16:10:40Z"
-  },
-  "work_preference": {
-    "preferred_executor": "work",
-    "route_generation": 3,
-    "work_capacity_state": "restored_verified",
-    "restoration_evidence_is_historical": true,
-    "new_gui_plus_quota_verification": false,
-    "route_change": false
-  },
-  "tinyfish_known_blocker": "Prior TinyFish test did not prove native upload of original image files nor visible Unlimited 0. No browser run allowed while global 6/6.",
   "editorial_discrepancy": {
     "kind": "existing_s73_init_despite_checkpoint_draft_not_approved",
     "task_id": "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
@@ -125,13 +98,12 @@
     "source": "Topview board task (prompt), topview-task-map.json active_by_scene.73, reports/current-work-checkpoint.md 2026-11-07 and reports/seregius-credits-and-postcredits-2026-11-07.md",
     "finding": "Task mapped to scene 73 exists in Topview and currently uses unlimited with credits 0; 2026-11-07 editorial checkpoint says S73 is draft/not approved and not launched. Do not infer who authorized/started it; needs reconciliation by editor/owner. No duplicate, cancel, approve, rerender or Create."
   },
-  "checkpoint_register": "read only; no-op does not modify next_action",
-  "completed_at": "2026-11-07T17:05:50.592Z",
+  "checkpoint_register": "read_only_noop_next_action_unchanged",
   "lease": {
-    "holder": "chatgpt:ordinary:eaf5d172-7cf8-4c54-adb5-da1dbf1f50ea",
-    "acquired_at": "2026-11-07T17:00:05.832Z",
-    "acquired_commit": "cf4c55ccc1fa1564bb9bc218177c53180dac03ee",
-    "released_at": "2026-11-07T17:05:50.592Z"
+    "holder": "chatgpt:ordinary:3cd80298-a608-4959-9ba2-7c6f4208572d",
+    "acquired_at": "2026-11-07T18:11:06.733Z",
+    "acquired_commit": "e447162aec1e2e4f588b0fb02975661e07e69471",
+    "released_at": null
   },
-  "current_head_before_final_commit": "ff34fcbd3fd9ece2ec47e643b7e3bf03cab53eaf"
+  "current_head_before_final_commit": null
 }
