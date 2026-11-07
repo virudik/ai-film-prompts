@@ -14,11 +14,11 @@
   "lease_commit": "05ab5eb927534e56a1fbb3ef4bdb9ab2f856e1eb",
   "started_at": "2026-11-07T01:55:34.607Z",
   "receipt_started_at": "2026-11-07T02:03:23.652Z",
-  "phase": "started",
-  "status": "running",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
-    "source": "Topview read-only all 14 boards, 18 pages, 631 video tasks",
+    "source": "Fresh read-only Topview connector complete all-board scan + individual readback of all six active tasks",
     "boards_scanned": 14,
     "pages_scanned": 18,
     "video_tasks_scanned": 631,
@@ -37,7 +37,8 @@
     ],
     "scope": "all_14_boards_18_pages_631_videos",
     "checked_at": "2026-11-07T02:03:23.652Z",
-    "complete_scan_verified": true
+    "complete_scan_verified": true,
+    "rechecked_active_at": "2026-11-07T02:04:26.124Z"
   },
   "slots": {
     "capacity": 6,
@@ -49,7 +50,7 @@
   "selected_item": null,
   "queued_candidate": "S49B",
   "new_submissions": 0,
-  "browser_transport": "not_used: all six physical slots occupied; metered TinyFish forbidden",
+  "browser_transport": "not_used: 6/6 physical Topview video slots; TinyFish paid browser prohibited",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
   "tinyfish_estimated_cost_usd": 0,
@@ -83,8 +84,8 @@
     "selected_item_task_id": null,
     "readiness_source_queue_sha256": "879add3bf2a6befef4158e970730ce9f0a5c4fafe613ce070ff61abb72f9a218",
     "readiness_source_task_map_sha256": "16cd8f278917b2a3222bebf4cc290968c76bf08c4294d515079594dc4321415d",
-    "queue_sha256_verified": null,
-    "task_map_sha256_verified": null,
+    "queue_sha256_verified": true,
+    "task_map_sha256_verified": true,
     "historical_task_preserved": "22dbd25cdd9f47cd9e44300e55f5e44f"
   },
   "owner_tasks": {
@@ -108,7 +109,10 @@
     "status": "old event; current live 6/6 scan supersedes it",
     "observed_at": "2026-11-06T22:20:23Z"
   },
-  "updated_at": "2026-11-07T02:03:23.652Z",
-  "checked_at": "2026-11-07T02:03:23.652Z",
-  "prior_run_id": null
+  "updated_at": "2026-11-07T02:05:13.088Z",
+  "checked_at": "2026-11-07T02:05:13.088Z",
+  "prior_run_id": null,
+  "completed_at": "2026-11-07T02:05:13.088Z",
+  "lease_released_at": "2026-11-07T02:05:13.088Z",
+  "finalization_note": "Fresh read-only Topview 14 boards/18 pages/631 videos; all six slot-occupying task statuses individually verified init on exact My First Board, Unlimited mode true, creditsCost 0; 15/15 submitted items reconciled; 0 claimed/submitting/unknown. Queue and task map SHA-256 matched readiness. No Create, TinyFish or Topview credits. Existing TinyFish upload/Unlimited0 blocker is unresolved and not retried without new evidence. No changes to queue, next_action, checkpoint, or schedules."
 }
