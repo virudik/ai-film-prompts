@@ -14,8 +14,8 @@
   "lease_commit": "2ac8d5c69e0928e30faa297b8854935d42587d09",
   "started_at": "2026-11-07T08:06:14.340Z",
   "receipt_started_at": "2026-11-07T08:06:14.340Z",
-  "phase": "started_receipt_saved",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
     "source": "Direct read-only Topview connector, 14 boards, 20 pages, 1015 tasks, 631 videos; six active task detail rechecks and 15 submissions reconciled",
@@ -119,10 +119,10 @@
     "preferred_executor_registry": "work",
     "route_generation": 3
   },
-  "checked_at": "2026-11-07T08:06:14.340Z",
-  "completed_at": null,
-  "updated_at": "2026-11-07T08:06:14.340Z",
-  "lease_released_at": null,
+  "checked_at": "2026-11-07T08:06:57.821Z",
+  "completed_at": "2026-11-07T08:06:57.821Z",
+  "updated_at": "2026-11-07T08:06:57.821Z",
+  "lease_released_at": "2026-11-07T08:06:57.821Z",
   "bot_wake": {
     "latest_issue_number": 397,
     "event_id": "slots:c48ed7e4:17",
@@ -130,5 +130,5 @@
     "fresh_slot_confirmed": false,
     "live_scan_occupied": 6
   },
-  "finalization_note": "started receipt; no Create at 6/6"
+  "finalization_note": "Read-only complete scan 14 boards/20 pages/1015 tasks/631 videos confirmed 6/6 physical video slots (all init); no Topview Create, no TinyFish spend; prior blocked image-upload/Unlimited0 preflight remains unresolved. Queue/route unchanged."
 }
