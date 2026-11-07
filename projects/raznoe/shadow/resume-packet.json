@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-07T19:54:09+00:00",
-  "source_head": "dcf457ba0462b964ecd970d8e0ff16c32f1f03da",
-  "source_fingerprint": "e3e147e8f243df7e6e5ce01338e16579e41178a7a7ef04115fa70b594a160ce6",
+  "checked_at": "2026-11-07T20:21:43+00:00",
+  "source_head": "6453609f0964922ff212e1ebc8f46d40ed2587c7",
+  "source_fingerprint": "ea66338830a47f58827a58c6fdac00177c17e76b51de3b196c892f56ca72295e",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -194,7 +194,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "ac96e7e72dbef19363337d94d45fab27c2d25806459d2e4aa0b92a8819102d65",
+      "sha256": "f6a36e58a79276efcb29f66bb4daff8511b0cce3b376cfcc78c37fc23f4f5e3a",
       "bytes": 22987
     },
     {
@@ -229,8 +229,8 @@
     },
     {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
-      "sha256": "4f9ddfd1a659644c1f601ce2bf138309ae39a904a2122f581db17f7f0ba77bdc",
-      "bytes": 49463
+      "sha256": "207f201000f76768d334fe4ae4a4f6bdf61777ff82079c88b9a581f2dca7dd14",
+      "bytes": 50150
     },
     {
       "file": "projects/raznoe/reports/handoff-receipts.json",
@@ -244,8 +244,8 @@
     },
     {
       "file": "projects/raznoe/work-resume-register.json",
-      "sha256": "4b7aad4dc9d7649f36c8aa046772899b29c7f39ecafae62dfca05a6b5e15ba5a",
-      "bytes": 19257
+      "sha256": "414fd8a96f85a74aef93bef4c616b07c1fdfc39a0ea23c855586a64292a1bba9",
+      "bytes": 19889
     },
     {
       "file": "shadow/current-checkpoint.md",
