@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-08T07:13:26+00:00",
-  "source_head": "0f09e2736d99fc206bcbf6b4979aaf7279b0c566",
-  "source_fingerprint": "23f3344c5339bdc14106e3884124471ac43b3d197a4db82a4f5c59184f3da699",
-  "status": "needs_recovery",
-  "ready_for_resume": false,
+  "checked_at": "2026-11-08T07:43:56+00:00",
+  "source_head": "2f7601eef1a62b44dfc82b8b5a3dc0f2af531abf",
+  "source_fingerprint": "d49eff2dbe874277e0a11d9459b492a7253c5b3155cfa3b5911cda4f3f222574",
+  "status": "ready",
+  "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "raznoe-continue-20261106-93c791ea-000f-442e-90b9-13502501c5c1",
@@ -31,11 +31,32 @@
     },
     "source_head": "0107904bad80907682f4854768885b56d7d8d8da"
   },
-  "reasons": [
-    "checkpoint anchor missing or ambiguous"
-  ],
-  "selected_work": null,
-  "checkpoint_text": "",
+  "reasons": [],
+  "selected_work": {
+    "work_id": "RAZNOE-HONOR-X9EPRO-CONTEST-20261107",
+    "title": "RAZNOE-HONOR-X9EPRO-CONTEST-20261107",
+    "status": "awaiting_real_location_and_owner_selection",
+    "last_completed": "Сохранён исходный этап: отчёт правил исправлен ранее, мастер ещё не синхронизирован.",
+    "next_action": "Подтвердить настоящий город и условия участия; согласовать конкретный безопасный тест с организатором. Заявка не отправлена. После отбора/получения аппарата снять настоящее видео 60–120 с, цель90 с, 9:16, без музыки и запрещённого фона. Продуктовые PNG Magic9 в сцене4 и QC RESOURCE остаются отдельными открытыми работами; готовое не повторять, новые видео не запускать.",
+    "verified_at": "2026-11-08T07:40:16+00:00",
+    "blockers": [],
+    "evidence": [
+      {
+        "file": "projects/raznoe/reports/honor-contest-sync-2026-11-08.json",
+        "sha256": "6ea73e91e4afd4066e559b2d80161d0f42da839bc935389e6c639642ddbb4705"
+      }
+    ],
+    "read_next": [
+      "projects/raznoe/reports/honor-x9e-pro-contest-2026-11-07.md",
+      "projects/raznoe/video-prompts.md"
+    ],
+    "checkpoint": {
+      "file": "projects/raznoe/reports/current-work-checkpoint.md",
+      "anchor": "# 08.11.2026 — HONOR X9e Pro: правила и существующая сцена 5 — начало",
+      "sha256": "57c6bae3b2e21288c2543332ffac4b60056648096685a7911bee31370dc24b04"
+    }
+  },
+  "checkpoint_text": "# 08.11.2026 — HONOR X9e Pro: правила и существующая сцена 5 — начало\n\nwork_id: RAZNOE-HONOR-X9EPRO-CONTEST-20261107\n\n- Полный документ Google Docs прочитан; исправленный отчёт уже существует. В мастере ещё ошибочные30с/достопримечательности. План: перенести проверенные условия в ту же сцену5 и оглавление, сохранив1–4, очередь, файлы и статусы DRAFT/not_approved.\n- Следующий шаг: синхронизация, projects status, проверки сайта, readback.\n\nchecked_at: 2026-11-08T07:40:16+00:00\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -128,7 +149,10 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [],
+  "read_next": [
+    "projects/raznoe/reports/honor-x9e-pro-contest-2026-11-07.md",
+    "projects/raznoe/video-prompts.md"
+  ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -194,8 +218,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "f78c6bb136ff55a3ccac747e27dcb39012722786c114bf31004f0e3e9d2c7a4c",
-      "bytes": 22987
+      "sha256": "42e2decaf5b7ec39af98e217fb26795503df59713251156f135c2ccf8001aaa5",
+      "bytes": 22989
     },
     {
       "file": "projects/README.md",
@@ -229,13 +253,18 @@
     },
     {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
-      "sha256": "207f201000f76768d334fe4ae4a4f6bdf61777ff82079c88b9a581f2dca7dd14",
-      "bytes": 50150
+      "sha256": "193634e5476ab11a2a648e1a3318598740d252c303ea6aa6788512e1d3706795",
+      "bytes": 50885
     },
     {
       "file": "projects/raznoe/reports/handoff-receipts.json",
       "sha256": "113c33d5f24cd0f54931e68539d5f89fd05fcdefc258afc03c27f26d63e1abdf",
       "bytes": 8498
+    },
+    {
+      "file": "projects/raznoe/reports/honor-contest-sync-2026-11-08.json",
+      "sha256": "6ea73e91e4afd4066e559b2d80161d0f42da839bc935389e6c639642ddbb4705",
+      "bytes": 708
     },
     {
       "file": "projects/raznoe/video-prompts.md",
@@ -244,8 +273,8 @@
     },
     {
       "file": "projects/raznoe/work-resume-register.json",
-      "sha256": "414fd8a96f85a74aef93bef4c616b07c1fdfc39a0ea23c855586a64292a1bba9",
-      "bytes": 19889
+      "sha256": "3cd2aea5f51c99a99916ee325b05923a2b375894038f1a594526e3ec010819bd",
+      "bytes": 21933
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -263,5 +292,5 @@
       "bytes": 1370587
     }
   ],
-  "packet_bytes": 3846
+  "packet_bytes": 5505
 }
