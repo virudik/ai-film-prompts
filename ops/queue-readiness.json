@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "9ff03d6a3a89faaedb89e4fe4d9fdbe94f4de4619a4b3399a0ad01d79e6a54f6",
+  "source_queue_sha256": "8c29f8950ac7e724553a76656f07bc97bd723c6a13402f6d47f5a10ebb04e5c7",
   "source_task_map_sha256": "f303bf30277932277d6e876a928aab4924ca2eb15dfd9d543496393b087f078d",
   "topview_checked_at": "2026-11-08T15:20:22Z",
   "items": [
@@ -26,10 +26,10 @@
       "id": "S49E",
       "scene_id": 49,
       "part_label": "49E",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
-      "queue_state": "waiting_for_slot"
+      "code": "preflight_required",
+      "ready": false,
+      "text": "Входы найдены; требуется снять записанный блокер после проверки",
+      "queue_state": "submitting"
     },
     {
       "id": "S49F",
@@ -420,5 +420,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-08T15:20:31.761911Z"
+  "checked_at": "2026-11-08T15:29:23.291897Z"
 }
