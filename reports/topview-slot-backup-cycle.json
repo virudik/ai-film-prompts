@@ -14,39 +14,104 @@
   "lease_commit": "c086a25975122df0489eba55a3561707c8e15804",
   "started_at": "2026-11-08T04:59:21.211337Z",
   "receipt_started_at": "2026-11-08T05:04:00.293Z",
-  "phase": "started",
-  "status": "checking",
-  "outcome": null,
+  "phase": "finished",
+  "status": "no_free_slot",
+  "outcome": "no_free_slot",
   "blocker": null,
   "scan": {
-    "complete": false,
-    "scope": "all 14 Topview boards, all video pages",
-    "direct_scan_performed": true,
-    "preliminary_occupied": 6,
-    "preliminary_free": 0
+    "complete": true,
+    "complete_scan_verified": true,
+    "source": "read_only_topview_connector_all_14_boards_all_video_pages",
+    "boards_scanned": 14,
+    "pages_scanned": 18,
+    "video_tasks_scanned": 632,
+    "unique_video_task_ids": 632,
+    "status_counts": {
+      "success": 603,
+      "fail": 23,
+      "init": 6
+    },
+    "active_task_ids": [
+      "abb161edcf5c4b58b91460677939b5d3",
+      "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
+      "101221814fd5430697f697f95a3f4252",
+      "3ebe7c23db05479e9b6f762a75b832e7",
+      "365cf639589a4a5da834d70193d5e8f6",
+      "be960f5e3bf54563aff663fed9da8906"
+    ],
+    "submitted_task_ids_reconciled": 16,
+    "all_submitted_found": true,
+    "details_rechecked": true,
+    "latest_active_recheck_at": "2026-11-08T05:06:58.954Z",
+    "all_active_unlimited_zero": true
   },
   "slots": {
     "capacity": 6,
-    "occupied": null,
-    "free": null,
-    "complete_scan_verified": false
+    "occupied": 6,
+    "free": 0,
+    "complete_scan_verified": true
   },
-  "browser_transport": "not_used",
+  "browser_transport": "not_used_no_free_slot",
   "tinyfish": {
     "used": false,
     "run_ids": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0
+    "confirmed_cost_usd": 0,
+    "not_run_reason": "Fresh full live scan 6/6 physical video slots; paid TinyFish forbidden for read-only checks"
   },
   "acceptance": {
     "scheduled_run_verified": true,
-    "topview_read_only_scan_complete": false,
+    "topview_read_only_scan_complete": true,
     "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
     "new_task_id_verified": false
   },
   "new_submissions": [],
-  "topview_credits_spent": 0
+  "topview_credits_spent": 0,
+  "selected_item": null,
+  "task_ids": [
+    "abb161edcf5c4b58b91460677939b5d3",
+    "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
+    "101221814fd5430697f697f95a3f4252",
+    "3ebe7c23db05479e9b6f762a75b832e7",
+    "365cf639589a4a5da834d70193d5e8f6",
+    "be960f5e3bf54563aff663fed9da8906"
+  ],
+  "retryable": false,
+  "checked_at": "2026-11-08T05:06:58.954Z",
+  "completed_at": "2026-11-08T05:06:58.954Z",
+  "holder": "chatgpt:ordinary:a8388417-1246-42b7-9529-9f7aba9b21c1",
+  "next_ready_candidate": "S49D",
+  "queue_reconciliation": {
+    "submitted_count": 16,
+    "all_submitted_found": true,
+    "claimed": 0,
+    "submitting": 0,
+    "submission_unknown": 1,
+    "unresolved_items": [
+      {
+        "id": "S49B",
+        "state": "submission_unknown",
+        "submission_intent_id": "e12e32cf-b8d6-4484-86ef-35acee6e4693",
+        "create_clicked": false
+      }
+    ],
+    "queue_sha256_matches_readiness": true,
+    "task_map_sha256_matches_readiness": true,
+    "source_queue_sha256": "f1ac25c6ffdaf890cb532135eca4cc8cb8325f6fbbf741c2b198cc4ec53d56f1",
+    "source_task_map_sha256": "e245ae58cfa4873d357d829857c14de2da1451397a4475019fb61594f9a5d153"
+  },
+  "monitor_status": "automation-monitor-status.json launcher_health checked 2026-11-08T05:00:28Z capacity_full 6/6, live connector independently 6/6. Issue #426 from 2026-11-07T21:20:36Z stale free-slot event, not current capacity; no webhook ACK asserted.",
+  "owner_tasks": "checked_open_0",
+  "peer_reconciliation": {
+    "hh00_last_run_id": "d1c7717c-628c-8320-8e38-899899df58f9",
+    "hh00_latest_result_run_id": "05042ee4-54c8-8329-8bae-d3344b8c1904",
+    "hh55_last_run_id": "0774d45d-2248-832a-98bb-5002902d055f",
+    "hh55_latest_result_run_id": "1658357b-2320-8333-98ac-459762c93799",
+    "relay_last_run_id": "85274d2b-f034-832b-89f3-e32dab41a88a",
+    "relay_latest_result_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d"
+  },
+  "note": "8 Nov 08:00 MSK scheduled cycle. Complete read-only Topview scan: 14 boards, 18 pages, 632 unique videos, 6 active init all Unlimited0; 16/16 queued submitted found. S49B submission_unknown preserved, no retry; S49D next independently ready. Historical S73 unapproved task untouched. No Create or TinyFish. Existing route3 preferred Work, ordinary scheduled permitted. No owner task or checkpoint change. Direct task-detail error 5003 for S49A transient; second read succeeded."
 }
