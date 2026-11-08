@@ -1,0 +1,133 @@
+name: HONOR contest source synchronization (once)
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/honor-contest-sync-once.yml']
+permissions:
+  contents: write
+concurrency:
+  group: honor-contest-sync-once
+  cancel-in-progress: false
+jobs:
+  sync:
+    if: github.actor == 'virudik'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      HOLDER: chatgpt:ordinary:79dd16b2-9780-466c-a616-33cb3eb1387d
+      ROOT_ACQUIRED: '2026-11-08T07:23:48Z'
+      PROJECT_ACQUIRED: '2026-11-08T07:38:13Z'
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Initial project checkpoint then exact Scene5 source synchronization
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat > /tmp/honor-sync.py <<'PY'
+          import json,os,re,sys,hashlib,subprocess
+          from pathlib import Path
+          from datetime import datetime,timezone
+          sys.path.insert(0,'scripts')
+          from resume_state import capture
+          phase=os.environ['PHASE']; base=Path('projects/raznoe'); now=datetime.now(timezone.utc)
+          def digest(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+          def lease():
+              for p,when in [('ops/canon-lock.json',os.environ['ROOT_ACQUIRED']),(str(base/'canon-lock.json'),os.environ['PROJECT_ACQUIRED'])]:
+                  l=json.loads(Path(p).read_text()); assert l['state']=='held' and l['holder']==os.environ['HOLDER'] and l['acquired_at']==when
+                  assert datetime.fromisoformat(l['expires_at'].replace('Z','+00:00'))>datetime.now(timezone.utc)
+          lease()
+          report=base/'reports/honor-contest-sync-2026-11-08.json'; cp=base/'reports/current-work-checkpoint.md'; master=base/'video-prompts.md'
+          wid='RAZNOE-HONOR-X9EPRO-CONTEST-20261107'
+          source=base/'reports/honor-x9e-pro-contest-2026-11-07.md'
+          anchor='# 08.11.2026 — HONOR X9e Pro: правила и существующая сцена 5'
+          nxt='Подтвердить настоящий город и условия участия; согласовать конкретный безопасный тест с организатором. Заявка не отправлена. После отбора/получения аппарата снять настоящее видео 60–120 с, цель90 с, 9:16, без музыки и запрещённого фона. Продуктовые PNG Magic9 в сцене4 и QC RESOURCE остаются отдельными открытыми работами; готовое не повторять, новые видео не запускать.'
+          if phase=='checkpoint':
+              if report.exists():
+                  print('Initial source checkpoint already present');raise SystemExit(0)
+              data={'schema_version':1,'project':'raznoe','work_id':wid,'stage':'started','started_at':now.isoformat(timespec='seconds'),'holder':os.environ['HOLDER'],'source_report':str(source),'source_report_sha256':digest(source),'source_master_sha256':digest(master),'source_head':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'owner_request':'08.11: доделать HONOR и конкурс, не повторять сделанное','no_generation':True}
+              report.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
+              section=anchor+' — начало\n\nwork_id: '+wid+'\n\n- Полный документ Google Docs прочитан; исправленный отчёт уже существует. В мастере ещё ошибочные30с/достопримечательности. План: перенести проверенные условия в ту же сцену5 и оглавление, сохранив1–4, очередь, файлы и статусы DRAFT/not_approved.\n- Следующий шаг: синхронизация, projects status, проверки сайта, readback.\n\nchecked_at: '+now.isoformat(timespec='seconds')+'\n\n---\n\n'
+              cp.write_text(section+cp.read_text())
+              capture('.',wid,anchor+' — начало','Сохранён исходный этап: отчёт правил исправлен ранее, мастер ещё не синхронизирован.',nxt,[str(report)],read_next=[str(source),str(master)],project='raznoe',focus=True)
+              raise SystemExit(0)
+          data=json.loads(report.read_text()); assert data['stage']=='started'
+          s=master.read_text(); marker='<a id="scene-5"></a>'
+          assert s.count(marker)==1
+          pre,old_scene=s.split(marker,1)
+          toc='Конкурс «Несокрушимый HONOR»: идея 30-секундного вертикального видео о реальном местном маршруте и испытаниях. ИИ — только для раскадровки; не снято'
+          replacement='Конкурс «Несокрушимый HONOR»: настоящая съёмка 60–120 с, цель90 с, вертикаль9:16, без музыки. ИИ30с — только отдельный НЕ конкурсный превиз; не снято'
+          assert pre.count(toc)==1
+          original_pre=pre; pre=pre.replace(toc,replacement)
+          tabs='<div class="engine-tabs" data-scene="5">'
+          assert old_scene.count(tabs)==1
+          old_narrative,preview=old_scene.split(tabs,1)
+          meta_match=re.search(r'<!-- scene-meta: (\{.*?\}) -->',old_narrative)
+          assert meta_match
+          metadata=json.loads(meta_match[1]); metadata['duration_s']=90
+          for tag in ['real_footage_60_120s','music_prohibited','not_submitted']:
+              if tag not in metadata['tags']:metadata['tags'].append(tag)
+          # Source report was already verified. Reuse its actual paragraphs/table, do not invent eligibility or city.
+          src=source.read_text()
+          body=src[src.index('## Источник и границы проверки'):src.index('## Производственный статус')]
+          body=re.sub(r'(?m)^## ','### ',body)
+          intro='\n## Сцена 5 — HONOR X9e Pro · «Город проверяет» (конкурс «Несокрушимый HONOR»)\n\n<!-- scene-meta: '+json.dumps(metadata,ensure_ascii=False,separators=(',',':'))+' -->\n\n**Состояние:** DRAFT / not_approved. Заявка не отправлена, телефон не получен, настоящая съёмка не выполнена. Реальный итоговый конкурсный ролик60–120с (цель90с), не30с. Публикация без подтверждённого города и согласования участия не выполняется. Сцена4Magic9 Pro Max и RESOURCE не изменены.\n\n'+body
+          preview=preview.replace('No generated Russian speech, audio, captions or music. These are added later to authentic filmed footage, not to this preview.','Picture only. No generated speech, captions, sound or music. The actual contest film uses only original speech and recorded action/ambience; NO music of any kind may be added to the competition film.')
+          preview=preview.replace('anonymous city viewpoint','neutral unbranded outdoor clearing without buildings or monuments').replace('small generic overlook','neutral unbranded outdoor clearing').replace('generic soft-focus city view behind','generic soft-focus ground and vegetation behind')
+          intro+='\n### Отдельный ИИ-превиз, НЕ конкурсное видео\n\nСледующие ранее подготовленные30с/2×15с блоки сохраняются только как необязательное концептуальное изображение. Они не доказывают реальное испытание, не являются готовой конкурсной работой и не разрешены к запуску этой записью. Музыка запрещена в конкурсном результате; настоящий телефон и подлинное воздействие не заменяются ИИ.\n\n'
+          new=pre+marker+intro+tabs+preview
+          assert new.count(marker)==1
+          assert new.split(marker,1)[0].replace(replacement,toc)==original_pre, 'Scenes1-4 altered'
+          assert len(re.findall(r'```text',new))==len(re.findall(r'```text',s)), 'Prompt blocks unexpectedly added/removed'
+          assert 'План реальной съёмки 30 с' not in new.split(marker,1)[1]
+          assert 'These are added later to authentic filmed footage' not in new.split(marker,1)[1]
+          master.write_text(new)
+          # Retain complete prior narrative in history, not as a competing live scene.
+          archive=base/'archive/honor-contest-scene5-before-rules-sync.md'
+          if not archive.exists():archive.write_text('# Историческое описание сцены5 до синхронизации08.11\n\nНе действующее задание; актуально только video-prompts.md.\n\n'+marker+old_narrative)
+          h=base/'HANDOFF.md'; text=h.read_text()
+          text=re.sub(r'(?m)^- \*\*07\.11 — новая сцена 5 HONOR X9e Pro:.*$', '- **08.11 — существующая сцена5 HONOR X9e Pro:** мастер и оглавление синхронизированы с полными правилами: реальное60–120с/цель90с,9:16,без музыки;30сAI только отдельный превиз. Город/участие/реальный тест/заявка остаются открыты. Нет новых сцен, генераций и приёмки. Контрольная точка: reports/current-work-checkpoint.md.',text)
+          h.write_text(text)
+          cmds=[['python3','scripts/projects.py','.','status','--project','raznoe','--write'],['python3','scripts/validate_site.py','.']]
+          checks=[]
+          for cmd in cmds:
+              run=subprocess.run(cmd,text=True,capture_output=True)
+              checks.append({'command':cmd,'exit_code':run.returncode,'output_tail':(run.stdout+run.stderr)[-3500:]})
+              if run.returncode:print(run.stdout+run.stderr);raise SystemExit(run.returncode)
+          status=json.loads((base/'project-status.json').read_text());assert status['health']=='ok'
+          # Update completion note only after local checks; external commit/Pages readback remains separate.
+          old_last='Контрольная точка этой правки: полный документ уже прочитан; данный файл исправлен. **Следующий обязательный шаг — синхронизировать блок существующей сцены 5 и оглавление в video-prompts.md, project-status, HANDOFF и реестр. Пока этого readback нет, изменение сайта не считать завершённым.**'
+          assert old_last in src
+          source.write_text(src.replace(old_last,'**08.11.2026:** существующая сцена5 и оглавление синхронизированы с этим отчётом; project-status=ok. Статусы DRAFT/not_approved и отсутствие отправленной заявки сохранены. Результат и проверка публикации — reports/honor-contest-sync-2026-11-08.json и текущая контрольная точка. Повторно эту синхронизацию не выполнять после подтверждённого readback.'))
+          data.update(stage='validated_for_publication',checked_at=datetime.now(timezone.utc).isoformat(timespec='seconds'),master_sha256=digest(master),rules_report_sha256=digest(source),project_health=status['health'],validation=checks,scene_id=5,real_film_seconds=90,allowed_seconds=[60,120],music_allowed=False,contest_submission=False,scenes_1_to_4_unchanged=True,existing_preview_blocks_preserved=True,new_images=0,new_videos=0)
+          report.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
+          done='Существующая сцена5 и оглавление приведены к уже проверенным правилам: цель90с/допуск60–120с,9:16,без музыки,нейтральный фон;30сAI отделён как не конкурсный превиз. Сцены1–4, очередь и файлы сохранены. Заявка не отправлена.'
+          sec=anchor+'\n\nwork_id: '+wid+'\n\n- '+done+'\n- Проверки: project health=ok; validate_site passed. Доказательство: '+str(report)+'.\n- Следующий шаг: '+nxt+'\n\nchecked_at: '+datetime.now(timezone.utc).isoformat(timespec='seconds')+'\n\n---\n\n'
+          cp.write_text(sec+cp.read_text())
+          capture('.',wid,anchor,done,nxt,[str(report),str(source)],read_next=[str(source),str(master)],project='raznoe',focus=True)
+          subprocess.run(['python3','scripts/build_resume_packet.py','.','--project','raznoe'],check=True)
+          packet=json.loads((base/'shadow/resume-packet.json').read_text());assert packet['ready_for_resume'],packet['reasons']
+          lease()
+          p=base/'canon-lock.json';l=json.loads(p.read_text());l.update(state='free',expires_at=None,released_at=datetime.now(timezone.utc).isoformat(timespec='seconds'));p.write_text(json.dumps(l,ensure_ascii=False,indent=2)+'\n')
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for phase in checkpoint apply; do
+            ok=0
+            for attempt in 1 2 3; do
+              git fetch -q origin main
+              git reset -q --hard origin/main
+              PHASE="$phase" python3 /tmp/honor-sync.py
+              git add projects/raznoe/reports projects/raznoe/work-resume-register.json
+              if [ "$phase" = apply ]; then
+                git add projects/raznoe/video-prompts.md projects/raznoe/project-status.json projects/raznoe/HANDOFF.md projects/raznoe/canon-lock.json projects/raznoe/shadow projects/raznoe/archive/honor-contest-scene5-before-rules-sync.md
+              fi
+              if git diff --cached --quiet; then ok=1; break; fi
+              git diff --cached --check
+              git commit -m "HONOR contest Scene5: $phase verified 60-120s real-footage rules; no generation"
+              if git push origin HEAD:main; then ok=1;break;fi
+            done
+            test "$ok" = 1
+          done
