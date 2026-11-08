@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-07T19:31:52.758Z",
+  "last_updated_at": "2026-11-08T06:06:08+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_for_slot",
-      "updated_at": "2026-11-07T19:31:52.758Z",
+      "updated_at": "2026-11-08T06:06:08+00:00",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "09:55 MSK check 29 Oct: full 13-board/19-page scan found 941 tasks and 5/6 active, but S62 stayed submission_unknown after its single browser-click timeout; no matching post-claim task was found, and canonical no-repeat policy blocked all further Create. Sampled 2fps QC of S28-A2 found critical face/hand occlusion at ~1.5–2.0s and weak amplitude; report saved, no owner approval or auto-retry. Phase A/B confirmed self-heal/project health ok, diagnosed Canon health runs 40826866588/40827062532/40827413477/40827874872, archived 3 terminal queue items, and verified canon-health ok/0 warnings.",
@@ -26,7 +26,7 @@
         "2026-11-07T19:12:10.175Z: D7 ordinary takeover to epoch 4; GitHub SHA source 8/8 and invariants 15/15 match; robot telemetry checked 2026-11-07T19:00:28Z: 6/6 occupied (0 free), queue 15 submitted / 26 waiting / 21 blocked_inputs. No website Create/claims/retry/credits.",
         "2026-11-07T19:31:52.758Z: updated handoff 358b9cea and A-01..A-30 statuses bb487775; Topview 6/6/0, ordinary hourly run verified, 6 public shares read, Grok not accessible, Drive Sasha/Vizitka verified, Rutube embeds 3 unavailable; health warning still awaiting readback, honor/resource/joins/SSL print QC open."
       ],
-      "next_action": "При свободном слоте выполнить свежий полный preflight и взять готовый разрешённый item по priority; submitted не повторять. S52/S60/S61 ждут полного QC со звуком. Keep продолжать по приватному checkpoint. RESOURCE/HONOR доделывать под замком Разного. Проверить сертификаты/Pages восьми семейных поддоменов. Восемь файлов Саше доставлены; не дублировать.",
+      "next_action": "При свободном слоте выполнить новый полный скан всех досок и сверку claims/task ID, затем взять готовый разрешённый item по живому priority; только Unlimited 0 и собственный CAS. Уже отправленное не повторять. Google Keep отложен по P-14 до новой отдельной команды. Продолжить продуктовые PNG HONOR, QC RESOURCE и настоящих стыков S52/S60/S61, проверку TLS восьми поддоменов и воспроизведения Rutube. Существующие инструкции Саше и визитки не создавать заново; цифровой QR проверен, печатная и художественная приёмка открыты.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md",
@@ -321,22 +321,22 @@
       },
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-06T14:05:13+00:00",
-        "last_completed": "Проверен общий ChatGPT Images и снят прежний UI-блокер; завершённая работа перенесена с сохранением истории. Подтверждён linkfix существующего руководства Саше по трём Drive ID и SHA readback. Квитанции CONTINUE-001 уточнены без закрытия issue; основной фокус и текущие блокеры сохранены. Дополнительно подтверждены success восьми Pages deployments и корректные AAAA/CAA; происхождение HTTPS 503 на origin не установлено.",
-        "next_action": "При свободном слоте выполнить свежий полный preflight и взять готовый разрешённый item по priority; submitted не повторять. S52/S60/S61 ждут полного QC со звуком. Keep продолжать по приватному checkpoint. RESOURCE/HONOR доделывать под замком Разного. Проверить сертификаты/Pages восьми семейных поддоменов. Восемь файлов Саше доставлены; не дублировать.",
+        "verified_at": "2026-11-08T06:06:08+00:00",
+        "last_completed": "Опубликована привязка recovery к актуальному подтверждённому этапу вместо 06.11; пауза Keep сохранена. Сохранены результаты 14/14 локальных DOM-тестов обработчика ИИшницы от 07.11 (не проверка живого MP4 на телефоне) и повторного чтения QR/сверки SHA двух существующих PNG от 08.11. Очередь, рендеры, расписания и телеметрия не изменялись.",
+        "next_action": "При свободном слоте выполнить новый полный скан всех досок и сверку claims/task ID, затем взять готовый разрешённый item по живому priority; только Unlimited 0 и собственный CAS. Уже отправленное не повторять. Google Keep отложен по P-14 до новой отдельной команды. Продолжить продуктовые PNG HONOR, QC RESOURCE и настоящих стыков S52/S60/S61, проверку TLS восьми поддоменов и воспроизведения Rutube. Существующие инструкции Саше и визитки не создавать заново; цифровой QR проверен, печатная и художественная приёмка открыты.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# 06.11.2026 — общий Images проверен, ссылка руководства Саше исправлена",
-          "sha256": "8fce35f27985f2c9c5dd4b346e5912205349f023a292e5a77a708f191cb4be4a"
+          "anchor": "# 08.11.2026 — опубликована актуальная точка продолжения",
+          "sha256": "6c955a3f358ab8cad8af8dfec7d2b09a62a628809c35d3434715a87d4df666f5"
         },
         "evidence": [
           {
-            "file": "reports/chatgpt-images-ui-check-2026-11-06.json",
-            "sha256": "4db2d895f83a805f80f57d0b6584bb13a21e45e179e470a8e884d53a85900841"
+            "file": "reports/continuation-publication-2026-11-08.json",
+            "sha256": "ec13125dd1872d442df018c633cb5328dd423b99ec3ee3d60b39cdd1d9071f6a"
           },
           {
-            "file": "reports/work-continue-linked-chat-2026-11-06.json",
-            "sha256": "b56c05ba19787be18826d434f3e71dea09ca1b787c59680cc70a4473e4b270f8"
+            "file": "reports/continuation-qc-2026-11-08.json",
+            "sha256": "6a27bfcc25aedf64205df6f3262e8132f8902e4afe1f87ef225c49f868e55d74"
           }
         ],
         "read_next": [
@@ -602,11 +602,6 @@
         "actual_latest_match": true,
         "canonical_receipt_match": true,
         "current_work_actual_run_id": "40609a23-c130-8328-a33e-9e4526e0a4f3"
-      },
-      "publication_plan": {
-        "report": "reports/continuation-publication-2026-11-08.json",
-        "checkpoint_anchor": "# 08.11.2026 — план публикации исправления recovery",
-        "status": "planned_not_completed"
       }
     },
     {
@@ -1597,8 +1592,8 @@
     "project": "seregius",
     "set_at": "2026-10-29T23:39:59+00:00",
     "reason": "Explicitly selected by the authorized task writer",
-    "next_action": "При свободном слоте выполнить свежий полный preflight и взять готовый разрешённый item по priority; submitted не повторять. S52/S60/S61 ждут полного QC со звуком. Keep продолжать по приватному checkpoint. RESOURCE/HONOR доделывать под замком Разного. Проверить сертификаты/Pages восьми семейных поддоменов. Восемь файлов Саше доставлены; не дублировать.",
-    "updated_at": "2026-11-07T19:12:10.175Z"
+    "next_action": "При свободном слоте выполнить новый полный скан всех досок и сверку claims/task ID, затем взять готовый разрешённый item по живому priority; только Unlimited 0 и собственный CAS. Уже отправленное не повторять. Google Keep отложен по P-14 до новой отдельной команды. Продолжить продуктовые PNG HONOR, QC RESOURCE и настоящих стыков S52/S60/S61, проверку TLS восьми поддоменов и воспроизведения Rutube. Существующие инструкции Саше и визитки не создавать заново; цифровой QR проверен, печатная и художественная приёмка открыты.",
+    "updated_at": "2026-11-08T06:06:08+00:00"
   },
   "last_instruction_review": {
     "at": "2026-11-01T00:16:17.370251Z",

@@ -4,7 +4,7 @@
   "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
   "holder": "chatgpt:ordinary:89a9e9de-45a6-4fd0-9ddd-12b9e0f9ab5b",
   "owner_request": "Опкбликовывай, доделывай недоделанное",
-  "stage": "planned_not_completed",
+  "stage": "validated_for_publication",
   "started_at": "2026-11-08T06:05:59Z",
   "source_head": "1d2ac9b7631b79eb95e0d608c626227e512cdf96",
   "previous_recovery": {
@@ -33,5 +33,59 @@
     ],
     "blockers": []
   },
-  "scope": "Publish existing QC and use canonical resume_state.capture; no new monitors, scenes or permission changes."
+  "scope": "Publish existing QC and use canonical resume_state.capture; no new monitors, scenes or permission changes.",
+  "recomputed_from_head": "7ada5f567c2cc0329232e944ded18a1f300b093d",
+  "prior_unavailable_write_claim_corrected": "GitHub write permission and update_file operation confirmed in current execution.",
+  "preserved_source_sha256": {
+    "video-prompts.md": "aceab9168c854917fb02eb13bf579af4bf5f4922dae0d6c9cead15ecaa897168",
+    "ops/topview-launch-queue.json": "f1ac25c6ffdaf890cb532135eca4cc8cb8325f6fbbf741c2b198cc4ec53d56f1",
+    "topview-status.json": "7bf65bfe3c5440a8a25f0afa856a80c2af9b18d170a9fab212a47cb3a3ad14a7",
+    "monitor-role.json": "47c21b6d9470726545b00fa27d3077fc1d88f5cb3863e94a73237767ed5aafa1",
+    "ops/slot-backup.json": "1cac4d64e7ef19b20dc691b06efce337d8de169440d479b02d058236e59e7a37",
+    "automation-monitor-status.json": "d1a208fde2dd5f03aa7279a2ef75ba458c7682944849122a38ec0c3653e2275d"
+  },
+  "validation": [
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.test_continue_preflight",
+        "tests.test_continue_recovery",
+        "tests.test_project_recovery",
+        "tests.test_recovery_integration"
+      ],
+      "exit_code": 0,
+      "output_tail": "inks_until_owner_release (tests.test_recovery_integration.IntegrationRecoveryTests.test_site_keeps_terminal_rows_and_version_links_until_owner_release) ... ok\ntest_stable_topview_checkpoint_matches_public_snapshot (tests.test_recovery_integration.IntegrationRecoveryTests.test_stable_topview_checkpoint_matches_public_snapshot) ... ok\ntest_stale_conflicting_topview_snapshot_is_rejected (tests.test_recovery_integration.IntegrationRecoveryTests.test_stale_conflicting_topview_snapshot_is_rejected) ... ok\ntest_stale_instruction_certificate_is_maintenance_not_sync_failure (tests.test_recovery_integration.IntegrationRecoveryTests.test_stale_instruction_certificate_is_maintenance_not_sync_failure) ... ok\ntest_task_map_drift_is_nonblocking_maintenance (tests.test_recovery_integration.IntegrationRecoveryTests.test_task_map_drift_is_nonblocking_maintenance) ... ok\ntest_terminal_last_task_requires_slow_removal (tests.test_recovery_integration.IntegrationRecoveryTests.test_terminal_last_task_requires_slow_removal) ... ok\ntest_terminal_transition_keeps_scene_slow_until_last_task (tests.test_recovery_integration.IntegrationRecoveryTests.test_terminal_transition_keeps_scene_slow_until_last_task) ... ok\ntest_unified_monitor_configuration_agrees_across_runtime_records (tests.test_recovery_integration.IntegrationRecoveryTests.test_unified_monitor_configuration_agrees_across_runtime_records) ... ok\n\n----------------------------------------------------------------------\nRan 60 tests in 6.895s\n\nOK\n"
+    },
+    {
+      "command": [
+        "node",
+        "tests/continue_status_check.js"
+      ],
+      "exit_code": 0,
+      "output_tail": "Continue indicator: ready, stale, missing, unsafe and future-time cases passed.\nProject isolation, own source requirements and cross-project rejection passed.\n"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/check_instruction_consistency.py",
+        "."
+      ],
+      "exit_code": 0,
+      "output_tail": "{\n  \"schema_version\": 1,\n  \"checked_at\": \"2026-11-08T06:06:08.430931+00:00\",\n  \"status\": \"ok\",\n  \"scope\": \"Selected consistency invariants only; full semantic review and runtime success are separate.\",\n  \"live_automations\": \"not_checked\",\n  \"automation_observations\": [],\n  \"problems\": []\n}\n"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/validate_site.py",
+        "."
+      ],
+      "exit_code": 0,
+      "output_tail": "site contract ok; duplicate ids=0; inline JS syntax ok; montage versions ok; fail-safe health contract ok\nowner site panel, film.html and references.html ok\nprojects ok: 5 in the switcher, folders and statuses consistent\n"
+    }
+  ],
+  "validated_at": "2026-11-08T06:06:08Z",
+  "no_generation_or_schedule_changes": true
 }
