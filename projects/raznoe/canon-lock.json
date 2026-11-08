@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:79dd16b2-9780-466c-a616-33cb3eb1387d",
-  "task": "Synchronize existing HONOR X9e Pro Scene5 master with verified contest report; no new scenes or generation",
-  "acquired_at": "2026-11-08T07:38:13Z",
-  "expires_at": null,
-  "released_at": "2026-11-08T07:48:04+00:00",
+  "state": "held",
+  "holder": "chatgpt:ordinary:00cc30c6-6bc1-407e-8b69-68b0c47c8039",
+  "task": "Prepare the missing original HONOR H-BACK reference; preserve existing scenes and contest work; no video generation",
+  "acquired_at": "2026-11-08T15:12:02Z",
+  "expires_at": "2026-11-08T15:37:02Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }
