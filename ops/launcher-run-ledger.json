@@ -78,6 +78,19 @@
       "event_keys": [],
       "owner_event": null,
       "note": "One Create budget consumed before click; failed/unknown/expiry never reopens this key."
+    },
+    "c52f3fe9b2ffd2a1c9ecef12e8e1f439b5cebbe80e110ace7509b26fcbb726cb": {
+      "surface": "grok",
+      "provider_run_id": "grokbot-routine-e57554d4-e37d-5a96-849b-bb01ae42ed2d@2026-11-08T15:00:34.902Z",
+      "automation_id": "topview-grok",
+      "execution_instance_id": "af3f2840-7c45-4055-945a-4a6928f8565c",
+      "item_id": "S49D",
+      "submission_intent_id": "b1897998-4894-4c52-9048-8486fcdc40f8",
+      "intent_at": "2026-11-08T15:08:40Z",
+      "consumed": true,
+      "event_keys": [],
+      "owner_event": null,
+      "note": "One Create budget consumed before click; failed/unknown/expiry never reopens this key."
     }
   },
   "events": {}
