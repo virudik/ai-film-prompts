@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "source": "Topview operational telemetry",
-  "checked_at": "2026-11-08T15:10:26Z",
+  "checked_at": "2026-11-08T15:20:22Z",
   "timezone": "UTC",
   "canonical_behavior": "Topview slow capacity is 6 concurrent active task slots. One active Topview task occupies one slot even when several tasks belong to the same Scene ID. Canonical slow membership remains unique by Scene ID.",
   "scenes": {
@@ -768,18 +768,17 @@
     },
     "49": {
       "scene_id": 49,
-      "task_id": "101221814fd5430697f697f95a3f4252",
+      "task_id": "fe78a852b7a343e6a37d146cec789358",
       "model": "Seedance 2.0",
       "model_id": "seedance-2.0-style",
-      "topview_status": "running",
-      "started_at": "2026-11-06T05:47:38Z",
-      "queue_count": null,
-      "topview_estimated_wait_seconds": null,
-      "checked_at": "2026-11-08T15:10:26Z",
+      "topview_status": "init",
+      "started_at": "2026-11-08T15:09:17Z",
+      "queue_count": 1004,
+      "topview_estimated_wait_seconds": 27281,
+      "checked_at": "2026-11-08T15:20:22Z",
       "verified": true,
-      "mapping_confidence": "Topview task map (exact Scene mapping from the monitor's map)",
+      "mapping_confidence": "prompt normalized match with master block 49D (robot)",
       "active_task_ids": [
-        "101221814fd5430697f697f95a3f4252",
         "fe78a852b7a343e6a37d146cec789358"
       ],
       "completed_at": null,
@@ -802,7 +801,7 @@
       "topview_estimated_process_seconds": null
     }
   },
-  "note": "GitHub robot: 2 из 6 слотов занято, новых 1, завершено 4.",
+  "note": "GitHub robot: 1 из 6 слотов занято, новых 0, завершено 1.",
   "ui_contract": {
     "slow_table": "one row per active Topview task/slot; Scene ID may repeat",
     "capacity": 6,
@@ -812,28 +811,14 @@
     "header_timestamp_source": "checked_at",
     "header_timestamp_style": "ordinary text color and weight; no 'синхр.' label",
     "three_view_source": "active_tasks[] normalized once per page load",
-    "three_view_checked_at": "2026-11-08T15:10:26Z",
+    "three_view_checked_at": "2026-11-08T15:20:22Z",
     "scene_summary": "unique Scene IDs with multiplicity; mixed task statuses preserved",
     "queue_source": "exact active_tasks[].queue_count per task"
   },
   "slot_capacity": 6,
-  "occupied_slots": 2,
-  "free_slots": 4,
+  "occupied_slots": 1,
+  "free_slots": 5,
   "active_tasks": [
-    {
-      "scene_id": 49,
-      "task_id": "101221814fd5430697f697f95a3f4252",
-      "model": "Seedance 2.0",
-      "model_id": "seedance-2.0-style",
-      "topview_status": "running",
-      "started_at": "2026-11-06T05:47:38Z",
-      "queue_count": null,
-      "topview_estimated_wait_seconds": null,
-      "checked_at": "2026-11-08T15:10:26Z",
-      "topview_estimated_process_seconds": null,
-      "verified": true,
-      "mapping_confidence": "Topview task map (exact Scene mapping from the monitor's map)"
-    },
     {
       "scene_id": 49,
       "task_id": "fe78a852b7a343e6a37d146cec789358",
@@ -841,9 +826,9 @@
       "model_id": "seedance-2.0-style",
       "topview_status": "init",
       "started_at": "2026-11-08T15:09:17Z",
-      "queue_count": 1021,
-      "topview_estimated_wait_seconds": 27882,
-      "checked_at": "2026-11-08T15:10:26Z",
+      "queue_count": 1004,
+      "topview_estimated_wait_seconds": 27281,
+      "checked_at": "2026-11-08T15:20:22Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "prompt normalized match with master block 49D (robot)",
@@ -852,18 +837,17 @@
   ],
   "scope": "all_owned_board_counts_plus_ai_film_latest_100_plus_direct_known_active",
   "account_observation": {
-    "checked_at": "2026-11-08T15:10:26Z",
+    "checked_at": "2026-11-08T15:20:22Z",
     "complete": true,
     "boards_scanned": 14,
-    "video_tasks_scanned": 632,
+    "video_tasks_scanned": 633,
     "pages_scanned": 16,
     "scope": "all_owned_boards_unlimited_video_tasks",
-    "scan_mode": "light_board_counts_verified",
+    "scan_mode": "full_all_pages",
     "slot_capacity": 6,
-    "occupied_slots": 2,
-    "free_slots": 4,
+    "occupied_slots": 1,
+    "free_slots": 5,
     "active_task_ids": [
-      "101221814fd5430697f697f95a3f4252",
       "fe78a852b7a343e6a37d146cec789358"
     ]
   },
