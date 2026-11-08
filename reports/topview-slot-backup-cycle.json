@@ -14,31 +14,56 @@
   "lease_commit": "9e52ac56ccde673e990fe9e4cd516eae6d8ebde5",
   "started_at": "2026-11-08T08:04:10.102555Z",
   "receipt_started_at": "2026-11-08T08:08:35.801Z",
-  "phase": "started",
-  "status": "scanning",
-  "outcome": null,
+  "phase": "finished",
+  "status": "no_free_slot",
+  "outcome": "no_free_slot",
   "blocker": null,
-  "retryable": null,
+  "retryable": false,
   "scan": {
-    "complete": false
+    "complete": true,
+    "complete_scan_verified": true,
+    "source": "read_only_topview_connector_all_14_boards_all_video_pages",
+    "boards_scanned": 14,
+    "pages_scanned": 18,
+    "video_tasks_scanned": 632,
+    "unique_video_task_ids": 632,
+    "status_counts": {
+      "success": 603,
+      "init": 6,
+      "fail": 23
+    },
+    "active_task_ids": [
+      "abb161edcf5c4b58b91460677939b5d3",
+      "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
+      "101221814fd5430697f697f95a3f4252",
+      "3ebe7c23db05479e9b6f762a75b832e7",
+      "365cf639589a4a5da834d70193d5e8f6",
+      "be960f5e3bf54563aff663fed9da8906"
+    ],
+    "submitted_task_ids_reconciled": 16,
+    "all_submitted_found": true,
+    "details_rechecked": true,
+    "latest_active_recheck_at": "2026-11-08T08:12:40.562Z",
+    "all_active_unlimited_zero": true
   },
   "slots": {
     "capacity": 6,
-    "occupied": null,
-    "free": null,
-    "complete_scan_verified": false
+    "occupied": 6,
+    "free": 0,
+    "complete_scan_verified": true
   },
-  "browser_transport": "not_used_yet",
+  "browser_transport": "not_used_no_free_slot",
   "tinyfish": {
     "used": false,
     "run_ids": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0
+    "confirmed_cost_usd": 0,
+    "not_run_reason": "Fresh full Topview scan 6/6; paid browser prohibited"
   },
   "acceptance": {
     "scheduled_run_verified": true,
-    "topview_read_only_scan_complete": false,
+    "topview_read_only_scan_complete": true,
     "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
@@ -47,6 +72,47 @@
   "new_submissions": [],
   "topview_credits_spent": 0,
   "selected_item": null,
-  "task_ids": [],
-  "checked_at": "2026-11-08T08:08:35.801Z"
+  "task_ids": [
+    "abb161edcf5c4b58b91460677939b5d3",
+    "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
+    "101221814fd5430697f697f95a3f4252",
+    "3ebe7c23db05479e9b6f762a75b832e7",
+    "365cf639589a4a5da834d70193d5e8f6",
+    "be960f5e3bf54563aff663fed9da8906"
+  ],
+  "checked_at": "2026-11-08T08:14:47.654Z",
+  "completed_at": "2026-11-08T08:14:47.654Z",
+  "holder": "chatgpt:ordinary:99d1d344-ea33-47c4-9db2-7b061982a896",
+  "next_ready_candidate": "S49D",
+  "queue_reconciliation": {
+    "submitted_count": 16,
+    "all_submitted_found": true,
+    "claimed": 0,
+    "submitting": 0,
+    "submission_unknown": 1,
+    "unresolved_items": [
+      {
+        "id": "S49B",
+        "state": "submission_unknown",
+        "task_id": null,
+        "submission_intent_id": "e12e32cf-b8d6-4484-86ef-35acee6e4693",
+        "create_click_count": 0
+      }
+    ],
+    "source_queue_sha256": "f1ac25c6ffdaf890cb532135eca4cc8cb8325f6fbbf741c2b198cc4ec53d56f1",
+    "source_task_map_sha256": "44345307758bdb49b9564a3b412ed18ae692fecbd734de1264d757777f8d2ff9",
+    "readiness_match_method": "Independent SHA256 byte-level checks for queue and topview-task-map.json, both matched current readiness",
+    "readiness": "ops/queue-readiness.json"
+  },
+  "owner_tasks": "checked_open_0",
+  "monitor_status": "launcher_health capacity_full 6/6 checked 2026-11-08T07:50:30Z; #426 old wake is not live capacity",
+  "peer_reconciliation": {
+    "hh00_last_run_id": "85de39d1-adac-832d-b975-4298d4216b68",
+    "hh00_latest_result_run_id": "2740749e-f9cc-8322-85c6-294a70684acb",
+    "hh55_last_run_id": "b6851cae-bd68-8323-881f-b5b5cbcfbe58",
+    "hh55_latest_result_run_id": "1658357b-2320-8333-98ac-459762c93799",
+    "relay_last_run_id": "85274d2b-f034-832b-89f3-e32dab41a88a",
+    "relay_latest_result_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d"
+  },
+  "note": "8 Nov 11:00 MSK: 14 boards, 18 pages, 632 videos; 6 init/603 success/23 fail, all six active Unlimited0 and creditsCost0; 16/16 submitted found, independent queue+map SHA match readiness. S49B submission_unknown preserved (Create click count 0), S49D next ready. No free slots, no Create/TinyFish/Topview credits. Work preferred in existing route generation 3, unchanged; no owner task open; no recovery change."
 }
