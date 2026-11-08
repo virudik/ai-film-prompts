@@ -2,111 +2,82 @@
   "schema_version": 1,
   "project": "seregius",
   "source": "ChatGPT scheduled ordinary",
+  "runner": "chatgpt_scheduled_task",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "faca46e5-321a-4fff-97af-76f8fda97aa1",
-  "run_id": "4ffbab7b-b1f0-8321-b4a0-33b950e7d3d2",
-  "run_id_unavailable_reason": null,
-  "runtime_run_id_source": "Automations.peek current last_run.id; status in_progress",
-  "source_head": "c808f76ee4e438a6315fd65c438471de1d179e2f",
+  "execution_instance_id": "140fa901-c76c-47c2-adf9-6595e114eb4c",
+  "holder": "chatgpt:ordinary:140fa901-c76c-47c2-adf9-6595e114eb4c",
+  "run_id": "cdf1be12-574c-8330-8d54-b1f4fe61dc1e",
+  "runtime_run_id_source": "Automations.peek last_run.id",
+  "source_head": "3238a0b0baca458eba0b93c9225885cb12535a52",
   "route_generation": 3,
-  "lease_holder": "chatgpt:ordinary:faca46e5-321a-4fff-97af-76f8fda97aa1",
-  "lease_acquired_at": "2026-11-08T14:05:33.151Z",
-  "lease_expires_at": "2026-11-08T14:30:33.151Z",
-  "lease_commit": "e7bb38f209370aea19d3fe054c292ba6164871e4",
-  "started_at": "2026-11-08T13:57:42.169453Z",
-  "receipt_started_at": "2026-11-08T14:06:33.370Z",
-  "phase": "finished",
-  "status": "no_free_slot",
-  "outcome": "no_free_slot",
+  "started_at": "2026-11-08T19:27:28.964070Z",
+  "lease_acquired_at": "2026-11-08T19:37:10.050Z",
+  "phase": "started",
+  "checked_at": "2026-11-08T19:38:03.878Z",
+  "outcome": "in_progress",
   "scan": {
-    "scope": "all_owned_boards_all_video_pages",
+    "complete": true,
     "boards": 14,
     "pages": 18,
-    "videos": 632,
-    "complete": true,
-    "by_status": {
-      "success": 603,
-      "init": 6,
-      "fail": 23
+    "video_tasks": 642,
+    "status_counts": {
+      "init": 4,
+      "success": 612,
+      "fail": 26
     },
-    "checked_at": "2026-11-08T14:04:18.389Z",
-    "errors": [],
-    "verification": "Topview connector read-only list_boards=14, all video pages=18, including 5-page My First Board; six init each independently verified via topview_get_board_task; exact full-scope 632 videos"
+    "checked_at": "2026-11-08T19:36:08.972Z"
   },
   "slots": {
     "capacity": 6,
-    "occupied": 6,
-    "free": 0,
+    "occupied": 4,
+    "free": 2,
     "complete_scan_verified": true,
     "active_task_ids": [
-      "abb161edcf5c4b58b91460677939b5d3",
-      "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
-      "101221814fd5430697f697f95a3f4252",
-      "3ebe7c23db05479e9b6f762a75b832e7",
-      "365cf639589a4a5da834d70193d5e8f6",
-      "be960f5e3bf54563aff663fed9da8906"
+      "0b6dfa84e4524b438075f10f7205a846",
+      "2d8efbd16f5146f48cd7a9a1ffb99369",
+      "8a1982a55f794a049a62eaa91bf8827f",
+      "f3b8883f44b14a2ba432ce429ba02709"
     ]
   },
-  "browser_transport": "not_used_no_free_slot",
+  "queue_reconciliation": {
+    "submitted_count": 20,
+    "submitted_found": 20,
+    "archived_video_submitted_count": 39,
+    "archived_video_submitted_found": 39,
+    "unresolved_items": [
+      {
+        "id": "S49B",
+        "state": "submission_unknown"
+      },
+      {
+        "id": "S48-SEED20-P2-R2-20261108",
+        "state": "claimed",
+        "holder": "grok:c33be7f7-8ee4-40f9-8482-f52f9699ad1d"
+      }
+    ],
+    "source_queue_sha256": "34df7b3b62ec760259f77e89f8d652035d2f43fc0b0be67810c2eb5597d0f50f",
+    "source_task_map_sha256": "fbc5fa4966e53e236130b3496068d11a03a828feb49ce5f629466bc4dd70b743",
+    "readiness_sha_verified": true
+  },
+  "browser_transport": "not_used_unresolved_prior_native_import_blocker",
   "tinyfish": {
     "used": false,
     "run_ids": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0,
-    "not_run_reason": "6/6 active video slots verified read-only; no paid polling or Create"
+    "confirmed_cost_usd": 0
   },
+  "new_submissions": [],
+  "task_ids": [],
+  "topview_credits_spent": 0,
   "acceptance": {
     "scheduled_run_verified": true,
     "topview_read_only_scan_complete": true,
-    "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
     "new_task_id_verified": false,
     "production_submission_verified": false
   },
-  "new_submissions": [],
-  "topview_credits_spent": 0,
-  "selected_item": null,
-  "task_ids": [],
-  "holder": "chatgpt:ordinary:faca46e5-321a-4fff-97af-76f8fda97aa1",
-  "blocker": null,
-  "retryable": false,
-  "queue_reconciliation": {
-    "submitted_count": 16,
-    "archived_video_submitted_count": 33,
-    "all_submitted_found": true,
-    "all_submitted_verified_in_board_scan": true,
-    "claimed": 0,
-    "submitting": 0,
-    "submission_unknown": 1,
-    "unresolved_items": [
-      {
-        "id": "S49B",
-        "state": "submission_unknown",
-        "task_id": null,
-        "submission_intent_id": null,
-        "replay_forbidden": true
-      }
-    ],
-    "source_queue_sha256": "f1ac25c6ffdaf890cb532135eca4cc8cb8325f6fbbf741c2b198cc4ec53d56f1",
-    "source_task_map_sha256": "97509e9756de71ac1d56408d438ac5cdd8823725babe2516a21d27a896a00bf7",
-    "readiness_match_method": "independently computed pure JS SHA256 UTF8 verified against empty and abc vectors",
-    "readiness_checked_at": "2026-11-08T13:50:42.894415Z"
-  },
   "owner_tasks": "checked_open_0",
-  "monitor_status": "robot observation 2026-11-08T13:50:35Z 6/6; independent full 14-board video scan 6/6 checked 14:04Z; old wake events not treated as fresh capacity",
-  "peer_reconciliation": {
-    "hh00_last_run_id": "4ffbab7b-b1f0-8321-b4a0-33b950e7d3d2",
-    "hh00_latest_result_run_id": "fc671833-7848-832a-834a-4fc9f594f468",
-    "hh55_last_run_id": "48652b71-fe84-832b-935d-743e3a2e6f5f",
-    "hh55_latest_result_run_id": "1658357b-2320-8333-98ac-459762c93799",
-    "relay_last_run_id": "85274d2b-f034-832b-89f3-e32dab41a88a",
-    "relay_latest_result_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d"
-  },
-  "next_ready_candidate": "S49D",
-  "checked_at": "2026-11-08T14:04:38.751Z",
-  "completed_at": "2026-11-08T14:08:27.358Z",
-  "finished_head_before_commit": "0d228fee18e9b3d4709e7b098d82473869e5f6ad",
-  "note": "8 Nov 2026 ordinary scheduled cycle. 14 boards 18 pages 632 video tasks: 603 success, 6 init, 23 fail. Six active init independently verified on exact My First Board (Unlimited, creditsCost0); capacity full. All 16 current submitted task IDs and 33 archived submitted video task IDs found on My First Board; 3 archived image tasks correctly omitted from video scan. SHA256 queue and task-map match current readiness. S49B still submission_unknown, replay forbidden. Next ready independent S49D. No Create, TinyFish, Topview credits, owner tasks, route or checkpoint changes."
+  "next_ready_candidate": "S62-SEED20-P1-R2-20261108"
 }
