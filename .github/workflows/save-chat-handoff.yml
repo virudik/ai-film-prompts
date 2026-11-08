@@ -1,0 +1,217 @@
+name: Save owner chat handoff once
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/save-chat-handoff.yml']
+permissions:
+  contents: write
+concurrency:
+  group: owner-chat-handoff-save
+  cancel-in-progress: false
+jobs:
+  save:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      HOLDER: chatgpt:ordinary:3e15ce74-0366-42fc-8246-371e5c741112
+      ROOT_ACQUIRED: '2026-11-08T16:15:32Z'
+      PROJECT_ACQUIRED: '2026-11-08T16:10:35Z'
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: Save facts and bind exact recovery checkpoints
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat > /tmp/save-handoff.py <<'PY'
+          import hashlib, json, os, re, subprocess, sys
+          from pathlib import Path
+          from datetime import datetime, timezone
+          sys.path.insert(0, 'scripts')
+          from resume_state import capture, select_work, verify_recovery
+          from trim_service_files import trim_register, trim_checkpoint
+          ROOT=Path('.'); BASE=Path('projects/raznoe')
+          REPORT=Path('reports/chat-handoff-save-2026-11-08.json')
+          PREPORT=BASE/'reports/chat-handoff-save-2026-11-08.json'
+          REQUEST='owner-save-cross-chat-handoff-20261108'
+          HOLDER=os.environ['HOLDER']
+          LOCKS=[('ops/canon-lock.json',os.environ['ROOT_ACQUIRED']),(str(BASE/'canon-lock.json'),os.environ['PROJECT_ACQUIRED'])]
+          def now(): return datetime.now(timezone.utc).isoformat(timespec='seconds')
+          def read(p): return Path(p).read_text(encoding='utf-8')
+          def jread(p): return json.loads(read(p))
+          def write(p,s):
+              p=Path(p);p.parent.mkdir(parents=True,exist_ok=True);p.write_text(s.rstrip()+'\n',encoding='utf-8')
+          def jwrite(p,x): write(p,json.dumps(x,ensure_ascii=False,indent=2))
+          def digest(p): return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+          def lease():
+              for p,t in LOCKS:
+                  l=jread(p)
+                  assert l['state']=='held' and l['holder']==HOLDER and l['acquired_at']==t,'Lost exact lease: '+p
+                  assert datetime.fromisoformat(l['expires_at'].replace('Z','+00:00'))>datetime.now(timezone.utc),'Expired lease: '+p
+          if REPORT.exists() and jread(REPORT).get('request_id')==REQUEST and jread(REPORT).get('stage')=='validated_for_publication':
+              print('Exact save already published; no duplicate rewrite.');sys.exit(0)
+          lease()
+          stamp=now();source_head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          protected=['video-prompts.md','ops/topview-launch-queue.json','ops/slot-backup.json','ops/owner-tasks.json','topview-status.json','monitor-role.json','automation-monitor-status.json',str(BASE/'video-prompts.md'),str(BASE/'ops/topview-launch-queue.json')]
+          before={p:digest(p) for p in protected}
+          source_paths=['reports/owner-followup-2026-11-08.json','reports/school-seventh-video-2026-11-08.json','reports/continuation-qc-2026-11-08.json','projects/raznoe/references/scenes/scene-4/official-product-source-links.json','projects/raznoe/references/scenes/scene-4/H-BACK.image-prompt.txt','projects/raznoe/reports/honor-contest-sync-2026-11-08.json','projects/raznoe/reports/honor-x9e-pro-contest-2026-11-07.md','projects/raznoe/references/scenes/scene-3/expansion/active-cut.json','projects/raznoe/references/scenes/scene-3/expansion/improvement-reference-manifest.json']
+          sources=[{'file':p,'sha256':digest(p)} for p in source_paths]
+          prior=jread(source_paths[0]);school=jread(source_paths[1]);product=jread(source_paths[3]);contest=jread(source_paths[5])
+          assert len(prior['rutube']['safe_ids'])==6 and school['video_count']['owner_screenshot']==7
+          assert product['production']['reference_product_png']==0 and product['production']['private_primary_source_png']==3
+          assert contest['contest_submission'] is False and contest['music_allowed'] is False and contest['real_film_seconds']==90
+          planp=Path('ops/FUTURE-PLANS.md');plan=read(planp)
+          ids_before=re.findall(r'^\| (A-\d+) \|',plan,re.M)
+          assert len(ids_before)==33 and len(set(ids_before))==33,'Unexpected current audit IDs'
+          updates={
+          'A-08':'36 промптов, 15 реплик и три mood PNG уже есть. 08.11 три официальных исходника сохранены ПРИВАТНО на Drive и проверены обратным SHA; геометрия и H-BACK.image-prompt.txt исправлены. Новых принятых продуктовых PNG — 0; права, продуктовый QC и приёмка ОТКРЫТЫ. Не путать исходник/текст задания с готовым референсом; два ошибочных дашборда отклонены.',
+          'A-20':'НЕ ИСПРАВЛЕНО: последняя прямая TLS-проверка 08.11 15:23 UTC — 0/8, hostname mismatch. Pages PUT ранее 403; запись файлов GitHub доступна, административное изменение Pages не подтверждено. Нужен разрешённый административный доступ; не повторять одинаковый отказ и не менять DNS вслепую. В этом сохранении TLS не проверялся заново.',
+          'A-33':'НЕ ЗАВЕРШЕНО: всего семь видео; шесть Rutube-плееров готовы. Седьмая «Школа» (120 с на скриншоте) пока использует alina-school.mp4. Приватная ссылка дала INTEXCP_PRMCDN_RB_WEB; playback не доказан. До рабочей замены и проверенной резервной копии файл сохранить; ключ приватной ссылки не публиковать.',
+          'A-27':'ЧАСТИЧНО: ранее прочитаны шесть публичных рабочих ChatGPT-чатов и поручения сопоставлены с реестром; текущие подтверждённые результаты сведены в reports/chat-handoff-save-2026-11-08.json. Полная построчная сверка всех вложений/инструментов и приватного Grok-проекта НЕ доказана; пункт не закрывать.',
+          'A-24':'Комплект PNG/PDF/ZIP уже есть. В предоставленном qr_verification.json версии 07.11 заявлены 41/41 успешных цифровых проверок; отдельная прежняя проверка RUDIK_06 с SHA и QR выполнена. Это не новый физический оттиск: печатная и художественная приёмка остаются ОТКРЫТЫ; макеты повторно не создавать.'}
+          lines=plan.splitlines()
+          for tid,value in updates.items():
+              hits=[i for i,l in enumerate(lines) if l.startswith('| '+tid+' |')];assert len(hits)==1,tid
+              i=hits[0];cells=lines[i].split('|');assert len(cells)==6,(tid,len(cells));cells[3]=' '+value+' ';lines[i]='|'.join(cells)
+          marker='<!-- handoff-save-owner-20261108 -->';assert marker not in plan
+          idx=next(i for i,l in enumerate(lines) if l.startswith('## СВОДНЫЙ АУДИТ ПОРУЧЕНИЙ'))
+          lines[idx+1:idx+1]=['',marker,'Передача сменщику 08.11: завершённые этапы и остаток работ сохранены в `reports/chat-handoff-save-2026-11-08.json`, в обоих HANDOFF и recovery/checkpoint. A-21/A-32 — уже выполненные шесть плееров и порядок; A-33 — отдельное незавершённое седьмое видео. Ошибочные картинки «всё готово» не являются доказательством.']
+          newplan='\n'.join(lines);assert re.findall(r'^\| (A-\d+) \|',newplan,re.M)==ids_before
+          write(planp,newplan)
+          h=Path('NEW-CHAT-HANDOFF.md');text=read(h)
+          text,n=re.subn(r'## СЕЙЧАС \(обновлено \d{2}\.\d{2}\.\d{4}\)','## СЕЙЧАС (обновлено 08.11.2026)',text,count=1);assert n==1
+          text=re.sub(r'\*\*Последнее \(\d{2}\.\d{2}\)\.\*\*','**Последнее (08.11).**',text,count=1)
+          text,n=re.subn(r'(?m)^- \*\*07\.11:\*\* Topview.*$','- Передача 08.11: `reports/current-work-checkpoint.md`. Очередь читать заново; исторические S49B и 6/6 не являются текущим статусом.',text,count=1)
+          news='### Новое с последней чистки (дописывать сюда, одной строкой с датой)';assert text.count(news)==1
+          text=text.replace(news,news+'\n\n- **08.11, сохранение чата:** `reports/chat-handoff-save-2026-11-08.json`; готовое не повторять, открытое не закрывать.',1)
+          assert len(text.encode())<=35000,('Root handoff size limit',len(text.encode()))
+          write(h,text)
+          ph=BASE/'HANDOFF.md';text=read(ph);heading='# HANDOFF — 🎲 Разное';assert text.count(heading)==1
+          text=text.replace(heading,heading+'\n\n- **08.11, передача сменщику:** итог этапов и блокеры — `reports/chat-handoff-save-2026-11-08.json`; фактическое продолжение — checkpoint/register. Новых продуктовых PNG 0, три приватных исходника не являются приёмкой.',1)
+          assert len(text.encode())<=12000,('Project handoff size limit',len(text.encode()))
+          write(ph,text)
+          pr=jread(PREPORT);pr.update(stage='validated_for_publication',saved_at=stamp,source_head=source_head,source_snapshots=[s for s in sources if s['file'].startswith('projects/raznoe/')],all_project_work_complete=False);jwrite(PREPORT,pr)
+          tv=jread('topview-status.json');queue=jread('ops/topview-launch-queue.json')
+          report={'schema_version':1,'request_id':REQUEST,'stage':'validated_for_publication','saved_at':stamp,'source_head':source_head,'scope':'Сохранение подтверждённых результатов текущего и ранее разобранных чатов; не повторное выполнение и не полная приёмка проекта','source_snapshots':sources,
+          'completed_do_not_repeat':[
+          {'ids':['A-21','A-32','A-22','A-23'],'result':'Шесть проверенных Rutube-плееров, установленный порядок, объединённые карточки и опубликованный код. ОСД и ЗВ удалены только из текущего дерева после Drive readback; история сохранена.','evidence':'reports/owner-followup-2026-11-08.json'},
+          {'ids':['A-10'],'result':'Учебные файлы Саше уже сохранены, прежняя проверка 25 элементов; дубликаты не создавать.'},
+          {'ids':['A-01','A-17'],'result':'Прежнее исправление recovery и архивирование старых выполненных записей опубликованы; это сохранение дополнительно закрепляет последний этап.'},
+          {'ids':['A-18'],'result':'Код реакции ИИшницы по левому клику и 14/14 прежних DOM-тестов сохранены. Android/Safari playback и художественная приёмка не подтверждены.'},
+          {'ids':['A-07','A-08','A-09','A-04','A-05'],'result':'Завершённые производственные ПОДЭТАПЫ описаны в проектном отчёте; полная готовность этих задач НЕ заявлена.','evidence':str(PREPORT)},
+          {'ids':['A-24','A-25'],'result':'Существующие визитки и цифровой QR сохранены; не повторять макеты. Физическая и художественная приёмка открыты.'}],
+          'open_priority':['A-20: восемь HTTPS-сертификатов и разрешённый административный Pages-доступ','A-33: рабочее воспроизведение и безопасная замена седьмой Школы','A-08: пригодные продуктовые референсы HONOR, права и QC','A-09: настоящий город, согласование участия/теста, заявка и реальная съёмка','A-07: полный motion/audio/continuity QC RESOURCE','A-31: перенос 13 YouTube-видео после авторизации и проверки прав','A-12/A-13: настоящие видеостыки Серёгиуса; хвосты S60/S61 существуют, полный QC не закрыт','A-27: неполная построчная сверка всех вложений и приватного Grok-проекта','A-24/A-25/A-30: финальная приёмка визитки, монтаж и права'],
+          'pauses_preserved':['A-26/P-14: Google Keep отложен владельцем','Роскосмос на паузе; существующие технические материалы не перезапускать'],
+          'video_count':{'total_on_owner_screenshot':7,'verified_rutube_players':6,'school_open':True,'school_private_key_copied':False},
+          'qr_attached_report':{'version':'2026-11-07','sha256':'81ae503c1a191cf1350488a1e0e859bfffd864d53077f7f3c65914e7fcb0050b','declared_checks':41,'declared_all_ok':True,'meaning':'Сведения предоставленного отчёта, не новый осмотр печатного оттиска и не 41 новая проверка в этом сохранении'},
+          'prior_chat_audit':{'six_public_work_chats_previously_read':True,'reopened_during_this_save':False,'complete_line_by_line_audit':False,'private_grok_project_read':False,'canonical_task_ids_preserved':ids_before},
+          'rejected_generation_ids':product['original_reference_generation']['rejected_generation_ids'],'rejected_images_are_not_execution_evidence':True,
+          'live_snapshot_not_new_provider_check':{'topview_checked_at':tv.get('checked_at'),'occupied_slots':tv.get('occupied_slots'),'free_slots':tv.get('free_slots'),'queue_existing_tasks':[{'id':i.get('id'),'task_id':i.get('task_id'),'state':i.get('state')} for i in queue.get('items',[]) if i.get('task_id')],'rule':'Перед действием прочитать свежие JSON и выполнить штатный preflight; не выбирать сцену по этому историческому снимку'},
+          'all_requested_work_complete':False,'production_actions_in_this_save':0,'paid_generations':0,'approvals_or_deletions':0,'protected_source_hashes':before}
+          jwrite(REPORT,report)
+          specs=[
+          ('seregius','TOPVIEW-SLOT-PRIORITY-20261024','# 08.11.2026 — сохранение чата: выполненное и остаток для сменщика','Подтверждённые этапы этого и ранее разобранных чатов сведены в план и хендоф; шесть плееров готовы, седьмая Школа открыта; три исходника HONOR сохранены, новых принятых PNG 0. Ложные дашборды исключены.','Прочитать свежий main/слоты/очередь и claims, готовое не повторять. Далее открытые A-20/A-33/A-08/A-09/A-07/A-31 и настоящие стыки. Сертификаты требуют разрешённого Pages-доступа; Школа — подтверждённого playback без публикации приватного ключа; HONOR — пригодного H-BACK и QC; конкурс — города/согласования. Keep и Роскосмос на паузе.',str(REPORT)),
+          ('raznoe','RAZNOE-SCENE3-RESOURCE','# 08.11.2026 — передача чата: фактический остаток RESOURCE','Технический пакет RESOURCE существует: четыре новых референса и девять активных v3, 19 клипов/114 с. Предыдущие версии сохранены в истории.','Существующие попытки проверить полностью по движению, звуку и стыкам. Не перерисовывать готовые четыре PNG и не создавать дубли девяти v3; статус not_approved сохраняется.',str(PREPORT)),
+          ('raznoe','RAZNOE-RESOURCE-HONOR-SASHA-20261106','# 08.11.2026 — передача чата: RESOURCE и продуктовые референсы HONOR','RESOURCE 4 PNG/9 v3/19 клипов на 114 с уже опубликованы. HONOR 36 промптов/15 реплик и три приватных исходника сохранены; геометрия H-BACK исправлена. Принятых новых продуктовых PNG 0.','Продолжить с пригодного H-BACK по существующим приватным исходникам и исправленному заданию, проверить геометрию и сохранить до следующего кадра. Затем оставшиеся продуктовые роли; полный motion/audio/continuity QC RESOURCE. Не повторять mood PNG, тексты и учебные файлы Саше; не считать исходник приёмкой.',str(PREPORT)),
+          ('raznoe','RAZNOE-HONOR-X9EPRO-CONTEST-20261107','# 08.11.2026 — передача чата: конкурс HONOR X9e Pro','Редактура существующей сцены 5 и полных правил опубликована: реальное 60–120 с, цель 90 с, 9:16, без музыки. ИИ-превиз отдельно; заявка не отправлена.','Подтвердить настоящий город/участие и конкретный безопасный тест; отправлять только согласованную заявку. После отбора и получения телефона нужна настоящая съёмка по правилам. Не повторять готовую конкурсную редактуру и не выдавать ИИ-кадры за реальный тест.',str(PREPORT))]
+          focus_before={p:jread('work-resume-register.json' if p=='seregius' else BASE/'work-resume-register.json').get('resume_focus') for p in ['seregius','raznoe']}
+          def bind(project,wid,anchor,done,nxt,evidence):
+              base=ROOT if project=='seregius' else BASE
+              capture('.',wid,anchor,done,nxt,[evidence],read_next=['ops/FUTURE-PLANS.md',str(base/'reports/current-work-checkpoint.md'),str(base/('NEW-CHAT-HANDOFF.md' if project=='seregius' else 'HANDOFF.md')),evidence],project=project)
+              reg=jread(base/'work-resume-register.json');w=next(x for x in reg['active_work'] if x['work_id']==wid)
+              w['recovery']['blockers']=report['open_priority'][:6] if project=='seregius' else [x['next_action'] for x in pr['open_stages'][:3]]
+              jwrite(base/'work-resume-register.json',reg)
+          for project,wid,anchor,done,nxt,evidence in specs:
+              base=ROOT if project=='seregius' else BASE;reg=jread(base/'work-resume-register.json');select_work(reg,wid,project)
+              cp=base/'reports/current-work-checkpoint.md';assert anchor not in read(cp),'Duplicate checkpoint'
+              sec=anchor+'\n\nwork_id: '+wid+'\n\n- Сделано: '+done+'\n- Доказательство: `'+evidence+'`. Полный список открытого и границы проверки — в отчёте и плане.\n- Следующий шаг: '+nxt+'\n- Это сохранение: без генераций, приёмки, удаления, изменения очереди или расписаний.\n\nsaved_at: '+stamp+'\n\n---\n\n'
+              write(cp,sec+read(cp));bind(project,wid,anchor,done,nxt,evidence)
+          for project,base in [('seregius',ROOT),('raznoe',BASE)]:
+              rp=base/'work-resume-register.json';ar=base/'archive/work-resume-register-archive.json';reg=jread(rp)
+              tr=trim_register(reg,jread(ar) if ar.exists() else {},str(ar),keep=10,keep_done=10)
+              if tr:jwrite(rp,tr[0]);jwrite(ar,tr[1])
+              reg=jread(rp);assert reg.get('resume_focus')==focus_before[project],'Unexpected focus transfer'
+              anchors=[w.get('recovery',{}).get('checkpoint',{}).get('anchor') for w in reg.get('active_work',[]) if not re.match(r'^(completed|done|closed|cancelled|superseded)',str(w.get('status','')),re.I)]
+              cp=base/'reports/current-work-checkpoint.md';ca=base/'archive/checkpoints/current-work-checkpoint-archive.md'
+              t=trim_checkpoint(read(cp),read(ca) if ca.exists() else '',str(ca),protected_anchors=anchors)
+              if t:write(ca,t[1]);write(cp,t[0])
+              for p,wid,*_ in specs:
+                  if p==project:assert not verify_recovery('.',reg,wid,project)['reasons'],wid
+          checks=[]
+          def run(cmd):
+              r=subprocess.run(cmd,text=True,capture_output=True)
+              checks.append({'command':cmd,'exit_code':r.returncode,'output_tail':(r.stdout+r.stderr)[-2400:]})
+              if r.returncode:print(r.stdout+r.stderr);raise SystemExit(r.returncode)
+          run(['python3','scripts/cert_github.py','.'])
+          run(['python3','scripts/build_project_status.py','video-prompts.md','--output','project-status.json','--synced-at',now(),'--instruction-status-file','instruction-sync-status.json','--topview-status-file','topview-status.json','--topview-task-map-file','topview-task-map.json','--previous-status-file','project-status.json'])
+          run(['python3','scripts/projects.py','.','status','--project','raznoe','--write'])
+          run(['python3','scripts/check_instruction_consistency.py','.'])
+          run(['python3','scripts/validate_site.py','.'])
+          run(['python3','-m','unittest','tests/test_continue_preflight.py','tests/test_continue_recovery.py','tests/test_project_recovery.py','tests/test_trim_service_files.py','tests/test_instruction_consistency.py'])
+          report['checks_before_recovery_packet']=checks.copy();report['project_handoff_report']=str(PREPORT);report['published_readback_required']=True;jwrite(REPORT,report)
+          for args in specs:bind(*args)
+          lease()
+          for p,_ in LOCKS:
+              l=jread(p);l.update(state='free',expires_at=None,released_at=now());jwrite(p,l)
+          run(['python3','scripts/build_takeover_brief.py','.','shadow'])
+          run(['python3','scripts/build_resume_packet.py','.'])
+          run(['python3','scripts/build_resume_packet.py','.','--project','raznoe'])
+          for p in ['shadow/resume-packet.json',str(BASE/'shadow/resume-packet.json')]:
+              pkt=jread(p);assert pkt['ready_for_resume'],pkt['reasons']
+              assert 'передача чата' in pkt['selected_work']['checkpoint']['anchor'] or 'сохранение чата' in pkt['selected_work']['checkpoint']['anchor']
+          run(['python3','scripts/continue_preflight.py','.'])
+          run(['python3','scripts/continue_preflight.py','.','--project','raznoe'])
+          run(['python3','scripts/canon_health.py','.','--write'])
+          assert before=={p:digest(p) for p in protected},'Protected production/runtime data changed'
+          assert len(Path('NEW-CHAT-HANDOFF.md').read_bytes())<=35000
+          assert len((BASE/'HANDOFF.md').read_bytes())<=12000
+          print(json.dumps({'saved_at':stamp,'source_head':source_head,'canonical_task_ids':len(ids_before),'root_focus':focus_before['seregius'],'project_focus':focus_before['raznoe'],'checks':[(x['command'][1],x['exit_code']) for x in checks],'canon_health':jread('canon-health.json')['status'],'warnings':jread('canon-health.json')['warnings']},ensure_ascii=False))
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3; do
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            python3 /tmp/save-handoff.py
+            git add ops/FUTURE-PLANS.md NEW-CHAT-HANDOFF.md reports/chat-handoff-save-2026-11-08.json reports/current-work-checkpoint.md work-resume-register.json instruction-sync-status.json project-status.json canon-health.json ops/canon-lock.json shadow archive projects/raznoe/HANDOFF.md projects/raznoe/reports/chat-handoff-save-2026-11-08.json projects/raznoe/reports/current-work-checkpoint.md projects/raznoe/work-resume-register.json projects/raznoe/project-status.json projects/raznoe/canon-lock.json projects/raznoe/shadow projects/raznoe/archive
+            if git diff --cached --quiet; then echo 'Already saved'; exit 0; fi
+            git diff --cached --check
+            git commit -m 'Save cross-chat completed stages and open work in plan, handoffs and verified recovery checkpoints'
+            if git push origin HEAD:main; then
+              echo "PUBLISHED_COMMIT=$(git rev-parse HEAD)"
+              git fetch -q origin main
+              for f in ops/FUTURE-PLANS.md NEW-CHAT-HANDOFF.md reports/chat-handoff-save-2026-11-08.json reports/current-work-checkpoint.md work-resume-register.json projects/raznoe/HANDOFF.md projects/raznoe/reports/chat-handoff-save-2026-11-08.json projects/raznoe/reports/current-work-checkpoint.md projects/raznoe/work-resume-register.json; do
+                test "$(git rev-parse HEAD:$f)" = "$(git rev-parse origin/main:$f)"
+              done
+              echo 'CANONICAL_READBACK_OK'
+              exit 0
+            fi
+          done
+          exit 1
+      - name: Release only our exact leases after failure
+        if: failure()
+        shell: bash
+        run: |
+          set -euo pipefail
+          for attempt in 1 2 3; do
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            python3 - <<'PY'
+          import json,os
+          from pathlib import Path
+          from datetime import datetime,timezone
+          for f,t in [('ops/canon-lock.json',os.environ['ROOT_ACQUIRED']),('projects/raznoe/canon-lock.json',os.environ['PROJECT_ACQUIRED'])]:
+              p=Path(f);j=json.loads(p.read_text())
+              if j.get('state')=='held' and j.get('holder')==os.environ['HOLDER'] and j.get('acquired_at')==t:
+                  j.update(state='free',expires_at=None,released_at=datetime.now(timezone.utc).isoformat(timespec='seconds'));p.write_text(json.dumps(j,ensure_ascii=False,indent=2)+'\n')
+          PY
+            git add ops/canon-lock.json projects/raznoe/canon-lock.json
+            if git diff --cached --quiet; then exit 0; fi
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Release exact handoff-save leases after interrupted validation'
+            if git push origin HEAD:main; then exit 0; fi
+          done
+          exit 1
