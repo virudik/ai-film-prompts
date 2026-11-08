@@ -156,7 +156,7 @@
   },
   "phases": {
     "topview": {
-      "checked_at": "2026-11-08T15:20:22Z",
+      "checked_at": "2026-11-08T15:30:32Z",
       "source": "robot; число слотов — topview-status.json"
     },
     "deep_audit": {
@@ -174,8 +174,8 @@
   },
   "health": "ok",
   "last_scheduled_cycle": {
-    "started_at": "2026-11-08T15:20:30Z",
-    "completed_at": "2026-11-08T15:20:30Z",
+    "started_at": "2026-11-08T15:30:36Z",
+    "completed_at": "2026-11-08T15:30:36Z",
     "health": "ok",
     "phases_completed": [
       "role_check",
@@ -187,7 +187,7 @@
     ],
     "phases_missing": [],
     "runner": "robot_scheduled_task",
-    "note": "GitHub robot: 1 из 6 слотов занято, новых 0, завершено 1."
+    "note": "GitHub robot: 2 из 6 слотов занято, новых 1, завершено 0."
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -246,8 +246,8 @@
       "checked_at": "2026-10-13T19:02:02.187Z"
     }
   },
-  "last_completed_cycle_at": "2026-11-08T15:20:30Z",
-  "last_successful_cycle_at": "2026-11-08T15:20:30Z",
+  "last_completed_cycle_at": "2026-11-08T15:30:36Z",
+  "last_successful_cycle_at": "2026-11-08T15:30:36Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
     "title": "AI Film — единый монитор",
@@ -262,13 +262,13 @@
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-11-08T15:20:30Z"
+    "robot": "2026-11-08T15:30:36Z"
   },
   "last_successful_cycle_runner": "robot_scheduled_task",
   "last_successful_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-11-08T15:20:30Z"
+    "robot": "2026-11-08T15:30:36Z"
   },
   "previous_primary_automation": {
     "id": "trig_014eEvBooAV2hxx1asRo9snm",
@@ -379,12 +379,11 @@
   "launcher_health": {
     "state": "reconciliation_required",
     "unresolved": true,
-    "episode": "8c5624fb",
-    "unresolved_since": "2026-11-08T15:20:30Z",
+    "episode": "2f5718c3",
+    "unresolved_since": "2026-11-08T15:30:36Z",
     "reason": "saved_claim_or_unknown_submission; no_repeat_Create",
-    "free_slots_global": 5,
+    "free_slots_global": 4,
     "actionable_items": [
-      "S49E",
       "S49F",
       "S51A",
       "S51B",
@@ -414,9 +413,10 @@
       "S28-A13-20261030"
     ],
     "reconciliation_items": [
-      "S49B"
+      "S49B",
+      "S49E"
     ],
-    "last_event_id": "result:be960f5e3bf54563aff663fed9da8906",
+    "last_event_id": "result:101221814fd5430697f697f95a3f4252",
     "receipt_present": false,
     "handler_outcome": null,
     "execution_stage": null,
@@ -426,6 +426,6 @@
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
     "escalation_attempted_episode": "4d71738f",
-    "checked_at": "2026-11-08T15:20:30Z"
+    "checked_at": "2026-11-08T15:30:36Z"
   }
 }
