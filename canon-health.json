@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-07T19:34:33Z",
+  "checked_at": "2026-11-08T00:07:41Z",
   "status": "ok",
   "warnings": 0,
-  "info": 12,
+  "info": 13,
   "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. Устаревание по состоянию проекта, даты только сигнал. Чистку делает ChatGPT по предупреждению или в воскресенье 08:55 МСК.",
   "problems": [
     {
@@ -71,6 +71,12 @@
       "code": "ops-stale",
       "text": "ops/TOPVIEW-VIDEO-ARCHIVE.md: проверялся 18.10.2026, больше 14 дней назад.",
       "file": "ops/TOPVIEW-VIDEO-ARCHIVE.md"
+    },
+    {
+      "level": "info",
+      "code": "ops-stale",
+      "text": "ops/dance-model-comparison.md: проверялся 25.10.2026, больше 14 дней назад.",
+      "file": "ops/dance-model-comparison.md"
     },
     {
       "level": "info",
