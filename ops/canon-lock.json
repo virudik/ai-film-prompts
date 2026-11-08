@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:c33be7f7-8ee4-40f9-8482-f52f9699ad1d",
-  "task": "launch S48-SEED20-P2-R2-20261108",
-  "acquired_at": "2026-11-08T18:52:58Z",
-  "expires_at": null,
-  "released_at": "2026-11-08T19:13:15Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:140fa901-c76c-47c2-adf9-6595e114eb4c",
+  "task": "ordinary HH:00 Seregius read-only reconciliation and receipt; no Create without complete preflight",
+  "acquired_at": "2026-11-08T19:37:10.050Z",
+  "expires_at": "2026-11-08T19:57:10.050Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
