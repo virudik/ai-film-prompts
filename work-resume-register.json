@@ -602,6 +602,11 @@
         "actual_latest_match": true,
         "canonical_receipt_match": true,
         "current_work_actual_run_id": "40609a23-c130-8328-a33e-9e4526e0a4f3"
+      },
+      "publication_plan": {
+        "report": "reports/continuation-publication-2026-11-08.json",
+        "checkpoint_anchor": "# 08.11.2026 — план публикации исправления recovery",
+        "status": "planned_not_completed"
       }
     },
     {

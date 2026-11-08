@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+  "holder": "chatgpt:ordinary:89a9e9de-45a6-4fd0-9ddd-12b9e0f9ab5b",
+  "owner_request": "Опкбликовывай, доделывай недоделанное",
+  "stage": "planned_not_completed",
+  "started_at": "2026-11-08T06:05:59Z",
+  "source_head": "1d2ac9b7631b79eb95e0d608c626227e512cdf96",
+  "previous_recovery": {
+    "schema_version": 1,
+    "verified_at": "2026-11-06T14:05:13+00:00",
+    "last_completed": "Проверен общий ChatGPT Images и снят прежний UI-блокер; завершённая работа перенесена с сохранением истории. Подтверждён linkfix существующего руководства Саше по трём Drive ID и SHA readback. Квитанции CONTINUE-001 уточнены без закрытия issue; основной фокус и текущие блокеры сохранены. Дополнительно подтверждены success восьми Pages deployments и корректные AAAA/CAA; происхождение HTTPS 503 на origin не установлено.",
+    "next_action": "При свободном слоте выполнить свежий полный preflight и взять готовый разрешённый item по priority; submitted не повторять. S52/S60/S61 ждут полного QC со звуком. Keep продолжать по приватному checkpoint. RESOURCE/HONOR доделывать под замком Разного. Проверить сертификаты/Pages восьми семейных поддоменов. Восемь файлов Саше доставлены; не дублировать.",
+    "checkpoint": {
+      "file": "reports/current-work-checkpoint.md",
+      "anchor": "# 06.11.2026 — общий Images проверен, ссылка руководства Саше исправлена",
+      "sha256": "8fce35f27985f2c9c5dd4b346e5912205349f023a292e5a77a708f191cb4be4a"
+    },
+    "evidence": [
+      {
+        "file": "reports/chatgpt-images-ui-check-2026-11-06.json",
+        "sha256": "4db2d895f83a805f80f57d0b6584bb13a21e45e179e470a8e884d53a85900841"
+      },
+      {
+        "file": "reports/work-continue-linked-chat-2026-11-06.json",
+        "sha256": "b56c05ba19787be18826d434f3e71dea09ca1b787c59680cc70a4473e4b270f8"
+      }
+    ],
+    "read_next": [
+      "ops/TOPVIEW-FREE-LAUNCH.md",
+      "projects/raznoe/HANDOFF.md"
+    ],
+    "blockers": []
+  },
+  "scope": "Publish existing QC and use canonical resume_state.capture; no new monitors, scenes or permission changes."
+}
