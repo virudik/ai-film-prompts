@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-11-08T16:04:29Z",
+  "complete": true,
+  "slot_capacity": 6,
+  "occupied_slots": 4,
+  "free_slots": 2,
+  "boards_scanned": 14,
+  "pages_scanned": 14,
+  "unique_videos": 228,
+  "active_videos": 4,
+  "active_task_ids": [
+    "faf2aa38db484f4caae06eeb13c7d166",
+    "3561d1997a6a4e5d813cfb99fdb60ed4",
+    "dbc9aff605ec48349062638cdaa7fd5a",
+    "fe78a852b7a343e6a37d146cec789358"
+  ],
+  "scan_mode": "mcp_board_tasks_init_count_refresh",
+  "source": "user-topview MCP after S49F Create: My First Board total 469, 4 init (new faf2aa38 + S49G + S49E + S49D)",
+  "wake_issue": 452,
+  "event_id": "slots:2f5718c3:20",
+  "note": "S49F submitted Unlimited0; UI showed no new card but API has the task"
+}
