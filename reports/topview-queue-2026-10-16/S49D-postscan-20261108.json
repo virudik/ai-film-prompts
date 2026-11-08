@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-11-08T15:10:25Z",
+  "complete": true,
+  "active_videos": 2,
+  "occupied_slots": 2,
+  "free_slots": 4,
+  "active_task_ids": [
+    "fe78a852b7a343e6a37d146cec789358",
+    "101221814fd5430697f697f95a3f4252"
+  ],
+  "source": "user-topview MCP My First Board post-submit refresh"
+}
