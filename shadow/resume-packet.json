@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-08T16:11:11+00:00",
-  "source_head": "141cb5cb115458bdff1cfc58a39c8af449172f91",
-  "source_fingerprint": "f1448facbd22ba8c83b5e0b3fe3893d838158b62e96c38d6ed7857bf9283c951",
+  "checked_at": "2026-11-08T16:12:23+00:00",
+  "source_head": "b44fc47b4b1f30920995e3a705b3c3d106cd5ae5",
+  "source_fingerprint": "06977ae42ac158f0642d2aa8c1d0f35df3b018a2e78a7ff4007d2cc98112b44d",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -166,16 +166,9 @@
         "task_id": null,
         "recovery_action": "reconcile_without_resubmitting",
         "submit_authorized": false
-      },
-      {
-        "item_id": "S50B",
-        "state": "submitting",
-        "task_id": null,
-        "recovery_action": "reconcile_without_resubmitting",
-        "submit_authorized": false
       }
     ],
-    "existing_task_count": 60,
+    "existing_task_count": 61,
     "existing_tasks": [
       {
         "item_id": "S49A",
@@ -204,6 +197,10 @@
       {
         "item_id": "S50A",
         "task_id": "7264c9a1189a49d5ad76cf43fbee87dd"
+      },
+      {
+        "item_id": "S50B",
+        "task_id": "199e81ba8c374bdaa6ce9237aa013158"
       },
       {
         "item_id": "S42-SEED20-P2",
@@ -496,8 +493,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "3ec5030f17af0a7a5c716b7285fbe43c88bfc95798c92860b8fe235a3026e860",
-      "bytes": 399236
+      "sha256": "9caad45ee87e7a0cd4900b90b89a726b4314a177c26ac69bb73f129d2bc8e389",
+      "bytes": 399497
     },
     {
       "file": "project-status.json",
@@ -540,5 +537,5 @@
       "bytes": 97426
     }
   ],
-  "packet_bytes": 7094
+  "packet_bytes": 7055
 }
