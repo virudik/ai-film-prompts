@@ -1,69 +1,40 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-07T11:52:19Z",
+  "checked_at": "2026-11-08T12:05:11Z",
   "window_hours": 24,
   "verdict": "free_slots_idle_no_schedule_launch",
-  "launches": [],
+  "launches": [
+    {
+      "item": "S49C",
+      "scene_id": 49,
+      "claimed_at": "2026-11-07T21:29:17Z",
+      "run_id": "grok-99506b04-36b7-40aa-be2d-3c33dbe4be37",
+      "source": "chat"
+    }
+  ],
   "launches_by_schedule": 0,
-  "launches_by_chat": 0,
+  "launches_by_chat": 1,
   "free_slot_observations": [
     {
-      "at": "2026-11-06T22:40:48Z",
+      "at": "2026-11-07T21:20:32Z",
       "occupied": 5,
       "capacity": 6
     },
     {
-      "at": "2026-11-06T21:40:34Z",
-      "occupied": 5,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-06T20:50:30Z",
-      "occupied": 5,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-06T20:00:29Z",
-      "occupied": 5,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-06T19:10:31Z",
-      "occupied": 5,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-06T18:20:34Z",
-      "occupied": 5,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-06T17:26:36Z",
-      "occupied": 5,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-06T16:30:49Z",
-      "occupied": 5,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-06T15:30:34Z",
+      "at": "2026-11-07T20:30:28Z",
       "occupied": 5,
       "capacity": 6
     }
   ],
-  "ready_items_waiting": 26,
+  "ready_items_waiting": 24,
   "launcher_health": {
     "state": "capacity_full",
     "unresolved": false,
-    "episode": "54a8dee1",
+    "episode": "e3bf7839",
     "unresolved_since": null,
     "reason": "no_free_global_slot; launcher_health_not_proven",
     "free_slots_global": 0,
     "actionable_items": [
-      "S49B",
-      "S49C",
       "S49D",
       "S49E",
       "S49F",
@@ -75,6 +46,7 @@
       "S51F",
       "S50A",
       "S50B",
+      "S48-SEED20-P3",
       "S28-A4-20261023",
       "S28-A5-20261023",
       "S28-A6-20261023",
@@ -93,8 +65,10 @@
       "S51G",
       "S28-A13-20261030"
     ],
-    "reconciliation_items": [],
-    "last_event_id": "slots:c48ed7e4:17",
+    "reconciliation_items": [
+      "S49B"
+    ],
+    "last_event_id": "slots:4d71738f:19",
     "receipt_present": false,
     "handler_outcome": null,
     "execution_stage": null,
@@ -103,8 +77,8 @@
     "confirmed_launch_task_ids": [],
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
-    "escalation_attempted_episode": "c48ed7e4",
-    "checked_at": "2026-11-07T11:30:28Z"
+    "escalation_attempted_episode": "4d71738f",
+    "checked_at": "2026-11-08T11:40:32Z"
   },
   "launcher_observation_stale": false,
   "note": "Только чтение репозитория. Запуск из расписания = run_id с префиксом chatgpt-scheduled."
