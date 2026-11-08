@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:2d0f64a5-5ecc-4291-92a4-a17c5adddf47",
-  "task": "ordinary scheduled Topview read-only scan and receipt",
-  "acquired_at": "2026-11-08T06:11:37.605Z",
-  "expires_at": null,
-  "released_at": "2026-11-08T06:15:29.699Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:50d733e4-1083-4c07-98a3-02631f519bc4",
+  "task": "Read-only TLS/HTTP verification of public family subdomains and evidence publication; no DNS or queue edits",
+  "acquired_at": "2026-11-08T06:16:57Z",
+  "expires_at": "2026-11-08T06:46:57Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
