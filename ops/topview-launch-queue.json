@@ -2032,7 +2032,7 @@
       "canonical_prompt_sha256": "f694d0bf6227fd3a47025d0241dd62e96db20791cef4c861dbdd395fa22ffcd0",
       "normalized_prompt_sha256": "da768ee494bb9f8085fdff5cb10ec91b1f7c25b14b5fead6244facf51dab9349",
       "priority": 1.31,
-      "state": "claimed",
+      "state": "submitting",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -2124,7 +2124,18 @@
           "credits_price_visible": 0,
           "price_shown": false,
           "prompt_chars": 4737
-        }
+        },
+        "submission_intent_id": "f9feff1c-ce6b-4f4e-86ea-3c5e36176b2a",
+        "submission_intent_at": "2026-11-08T16:10:50Z",
+        "lease_holder": "grok:7236f708-38d4-4410-ae05-201476516bf7",
+        "lease_acquired_at": "2026-11-08T16:08:53Z",
+        "replay_forbidden": true,
+        "provider_run_id": "grokbot-routine-e57554d4-e37d-5a96-849b-bb01ae42ed2d@2026-11-08T15:51:08.446Z",
+        "provider_run_key": "f3b11e7eefecbff04ea07bd8e8d2bd9285025885dce95d62aee139cc71194359",
+        "owner_event_keys": [],
+        "ledger_path": "ops/launcher-run-ledger.json",
+        "trigger": "wake",
+        "wake_issue": 452
       },
       "max_credits": 0,
       "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
