@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-11-08T16:12:06Z",
+  "complete": true,
+  "slot_capacity": 6,
+  "occupied_slots": 6,
+  "free_slots": 0,
+  "boards_scanned": 14,
+  "pages_scanned": 14,
+  "unique_videos": 230,
+  "active_videos": 6,
+  "active_task_ids": [
+    "199e81ba8c374bdaa6ce9237aa013158",
+    "7264c9a1189a49d5ad76cf43fbee87dd",
+    "faf2aa38db484f4caae06eeb13c7d166",
+    "3561d1997a6a4e5d813cfb99fdb60ed4",
+    "dbc9aff605ec48349062638cdaa7fd5a",
+    "fe78a852b7a343e6a37d146cec789358"
+  ],
+  "scan_mode": "mcp_board_tasks_init_count_refresh",
+  "source": "user-topview MCP after S50B Create: My First Board total 471, 6 init, 0 free",
+  "wake_issue": 452,
+  "event_id": "slots:2f5718c3:20",
+  "note": "S50B submitted Unlimited0; all 4 free slots filled this wake"
+}
