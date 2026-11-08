@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:3e15ce74-0366-42fc-8246-371e5c741112",
   "task": "Save completed and open cross-chat tasks in plan, handoff and canonical recovery checkpoints; no production operations",
   "acquired_at": "2026-11-08T16:15:32Z",
-  "expires_at": "2026-11-08T16:45:35Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-08T16:20:45+00:00",
   "rules": "ops/CANON-LOCK.md"
 }

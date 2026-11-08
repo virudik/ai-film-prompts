@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-08T16:01:41+00:00",
-  "source_head": "e51eafd4d85b8368623c9626bbcb358b6bd153cf",
-  "source_fingerprint": "118c91fad15dcfb2bc0e9342ba90dc45020ebfaefe0ee731847c3e16a1512f23",
+  "checked_at": "2026-11-08T16:20:45+00:00",
+  "source_head": "a305bfb511c05d333cf05bbbd4111a4b79213967",
+  "source_fingerprint": "884fe1a59f118708b2beeeec3d031d852b58825a0648c5403f14f372d38673a4",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -36,31 +36,33 @@
     "work_id": "RAZNOE-HONOR-X9EPRO-CONTEST-20261107",
     "title": "RAZNOE-HONOR-X9EPRO-CONTEST-20261107",
     "status": "awaiting_real_location_and_owner_selection",
-    "last_completed": "Существующая сцена5 и оглавление приведены к уже проверенным правилам: цель90с/допуск60–120с,9:16,без музыки,нейтральный фон;30сAI отделён как не конкурсный превиз. Сцены1–4, очередь и файлы сохранены. Заявка не отправлена.",
-    "next_action": "Подтвердить настоящий город и условия участия; согласовать конкретный безопасный тест с организатором. Заявка не отправлена. После отбора/получения аппарата снять настоящее видео 60–120 с, цель90 с, 9:16, без музыки и запрещённого фона. Продуктовые PNG Magic9 в сцене4 и QC RESOURCE остаются отдельными открытыми работами; готовое не повторять, новые видео не запускать.",
-    "verified_at": "2026-11-08T07:48:04+00:00",
-    "blockers": [],
+    "last_completed": "Редактура существующей сцены 5 и полных правил опубликована: реальное 60–120 с, цель 90 с, 9:16, без музыки. ИИ-превиз отдельно; заявка не отправлена.",
+    "next_action": "Подтвердить настоящий город/участие и конкретный безопасный тест; отправлять только согласованную заявку. После отбора и получения телефона нужна настоящая съёмка по правилам. Не повторять готовую конкурсную редактуру и не выдавать ИИ-кадры за реальный тест.",
+    "verified_at": "2026-11-08T16:20:45+00:00",
+    "blockers": [
+      "Получить один пригодный продуктовый H-BACK по сохранённым исходникам и исправленному заданию; сравнить фактические пиксели, сохранить PNG/SHA/manifest и привязку в мастере до следующего кадра. Затем недостающие продуктовые ракурсы. Проверить условия использования и согласование озвучки.",
+      "Просмотреть существующие RESOURCE-попытки полностью: движение механики, звук, геометрия и монтажные стыки. Не считать статичный PNG доказательством качества видео.",
+      "Подтвердить настоящий город и участие владельца, согласовать конкретное безопасное испытание; подать согласованную заявку, после отбора и получения устройства снять реальный ролик по правилам. Личные документы не собирать в чате и не публиковать в GitHub."
+    ],
     "evidence": [
       {
-        "file": "projects/raznoe/reports/honor-contest-sync-2026-11-08.json",
-        "sha256": "afb738a426dce80964d46b84a4ebe59bd202cf95de4585bbe7121dec9a5c9087"
-      },
-      {
-        "file": "projects/raznoe/reports/honor-x9e-pro-contest-2026-11-07.md",
-        "sha256": "9b100c7aa841728deb73e500abcca4bf6fda23a4be7ab6824fb1597ec8525445"
+        "file": "projects/raznoe/reports/chat-handoff-save-2026-11-08.json",
+        "sha256": "a7dd5deda2cfdebf107da480c69f652e78498912628013f3270ae7edaa15ea57"
       }
     ],
     "read_next": [
-      "projects/raznoe/reports/honor-x9e-pro-contest-2026-11-07.md",
-      "projects/raznoe/video-prompts.md"
+      "ops/FUTURE-PLANS.md",
+      "projects/raznoe/reports/current-work-checkpoint.md",
+      "projects/raznoe/HANDOFF.md",
+      "projects/raznoe/reports/chat-handoff-save-2026-11-08.json"
     ],
     "checkpoint": {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
-      "anchor": "# 08.11.2026 — HONOR X9e Pro: правила и существующая сцена 5",
-      "sha256": "fa8ade6d57a4c2e1579279bc266caa8784e4f83389ea8b4f0a016fc9e0ca66c7"
+      "anchor": "# 08.11.2026 — передача чата: конкурс HONOR X9e Pro",
+      "sha256": "18445dec9130b3f2dd0aa40aaffddf9d820a0410d7892a8b649bdb1200742c26"
     }
   },
-  "checkpoint_text": "# 08.11.2026 — HONOR X9e Pro: правила и существующая сцена 5\n\nwork_id: RAZNOE-HONOR-X9EPRO-CONTEST-20261107\n\n- Существующая сцена5 и оглавление приведены к уже проверенным правилам: цель90с/допуск60–120с,9:16,без музыки,нейтральный фон;30сAI отделён как не конкурсный превиз. Сцены1–4, очередь и файлы сохранены. Заявка не отправлена.\n- Проверки: project health=ok; validate_site passed. Доказательство: projects/raznoe/reports/honor-contest-sync-2026-11-08.json.\n- Следующий шаг: Подтвердить настоящий город и условия участия; согласовать конкретный безопасный тест с организатором. Заявка не отправлена. После отбора/получения аппарата снять настоящее видео 60–120 с, цель90 с, 9:16, без музыки и запрещённого фона. Продуктовые PNG Magic9 в сцене4 и QC RESOURCE остаются отдельными открытыми работами; готовое не повторять, новые видео не запускать.\n\nchecked_at: 2026-11-08T07:48:04+00:00\n",
+  "checkpoint_text": "# 08.11.2026 — передача чата: конкурс HONOR X9e Pro\n\nwork_id: RAZNOE-HONOR-X9EPRO-CONTEST-20261107\n\n- Сделано: Редактура существующей сцены 5 и полных правил опубликована: реальное 60–120 с, цель 90 с, 9:16, без музыки. ИИ-превиз отдельно; заявка не отправлена.\n- Доказательство: `projects/raznoe/reports/chat-handoff-save-2026-11-08.json`. Полный список открытого и границы проверки — в отчёте и плане.\n- Следующий шаг: Подтвердить настоящий город/участие и конкретный безопасный тест; отправлять только согласованную заявку. После отбора и получения телефона нужна настоящая съёмка по правилам. Не повторять готовую конкурсную редактуру и не выдавать ИИ-кадры за реальный тест.\n- Это сохранение: без генераций, приёмки, удаления, изменения очереди или расписаний.\n\nsaved_at: 2026-11-08T16:20:42+00:00\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -154,8 +156,10 @@
     }
   ],
   "read_next": [
-    "projects/raznoe/reports/honor-x9e-pro-contest-2026-11-07.md",
-    "projects/raznoe/video-prompts.md"
+    "ops/FUTURE-PLANS.md",
+    "projects/raznoe/reports/current-work-checkpoint.md",
+    "projects/raznoe/HANDOFF.md",
+    "projects/raznoe/reports/chat-handoff-save-2026-11-08.json"
   ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
@@ -182,8 +186,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "73a1f908958c5731b813a1e726a454f2955c1f63f1bf4fbcbacb81caa556cb26",
-      "bytes": 34723
+      "sha256": "a3213ab126208ceb8ccae8ad6c276952901d318c764b80d55f0ab6e6223c6cd5",
+      "bytes": 34797
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -207,7 +211,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "a7fd94beeaea02c310e956f6798b3da3cf154fbc8012975dd328aa1ec8154227",
+      "sha256": "73d35577baa1e3c0197e8e02f9c97256fa13fdc596c04622d739d2d854f93737",
       "bytes": 5135
     },
     {
@@ -222,8 +226,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "00568ebdab3925eb89f8ee9ff880819d07f727e82935cb8f0df03e3e467b2302",
-      "bytes": 22985
+      "sha256": "46b3972ce387225c74f3f61d0914c64f4573cdc85fda3537329598c1f09af9c6",
+      "bytes": 22959
     },
     {
       "file": "projects/README.md",
@@ -237,8 +241,8 @@
     },
     {
       "file": "projects/raznoe/HANDOFF.md",
-      "sha256": "7106cbd4faacd1c2f5d3c0452e11e7da2f1f1082ccdc73f37f11981d465c395e",
-      "bytes": 11551
+      "sha256": "bad67ead456fc76543ccf9702e542acc0ceccfa097da46278046c255e1bae61d",
+      "bytes": 11886
     },
     {
       "file": "projects/raznoe/INSTRUCTIONS.md",
@@ -256,24 +260,19 @@
       "bytes": 10112
     },
     {
+      "file": "projects/raznoe/reports/chat-handoff-save-2026-11-08.json",
+      "sha256": "a7dd5deda2cfdebf107da480c69f652e78498912628013f3270ae7edaa15ea57",
+      "bytes": 8060
+    },
+    {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
-      "sha256": "ebaf56e0a31d2142dd7b39069f1af6f13aa557cdbffaa70bb2135f24268c892b",
-      "bytes": 52296
+      "sha256": "19952e0f10d2d53b21e776a37e158ae3ecbe0a714b48366fe4142a3bb44c8e0a",
+      "bytes": 7543
     },
     {
       "file": "projects/raznoe/reports/handoff-receipts.json",
       "sha256": "113c33d5f24cd0f54931e68539d5f89fd05fcdefc258afc03c27f26d63e1abdf",
       "bytes": 8498
-    },
-    {
-      "file": "projects/raznoe/reports/honor-contest-sync-2026-11-08.json",
-      "sha256": "afb738a426dce80964d46b84a4ebe59bd202cf95de4585bbe7121dec9a5c9087",
-      "bytes": 1921
-    },
-    {
-      "file": "projects/raznoe/reports/honor-x9e-pro-contest-2026-11-07.md",
-      "sha256": "9b100c7aa841728deb73e500abcca4bf6fda23a4be7ab6824fb1597ec8525445",
-      "bytes": 13235
     },
     {
       "file": "projects/raznoe/video-prompts.md",
@@ -282,17 +281,17 @@
     },
     {
       "file": "projects/raznoe/work-resume-register.json",
-      "sha256": "28a641313cc1ee138f40b2b11bf2791570a4847b9224f1b10f4e20f6bc3c0397",
-      "bytes": 22354
+      "sha256": "e3f03fb808dc2c4471b3f8592d0b744ce8e1729671f45212a8f5d0ce48026e97",
+      "bytes": 25605
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "5af3388672c6d8e321dbe8bc1929db5f5073acdf68d5d14f9fdffee7c9a8404c",
-      "bytes": 34524
+      "sha256": "6aa872a0ca4076ee6763f71a82e500a84e024495e06334ab80f28ecae8cd7fc4",
+      "bytes": 34598
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "ccdc1733e599f128515c31a36ccca356ee5e607952534b8944286b1f76d31896",
+      "sha256": "202a79095df2656f005b486ab5255238bf9995ae44f8a7d7a236e9ededfbb834",
       "bytes": 25534
     },
     {
@@ -301,5 +300,5 @@
       "bytes": 1373380
     }
   ],
-  "packet_bytes": 6422
+  "packet_bytes": 6088
 }

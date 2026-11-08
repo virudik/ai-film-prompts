@@ -1,0 +1,381 @@
+{
+  "schema_version": 1,
+  "request_id": "owner-save-cross-chat-handoff-20261108",
+  "stage": "validated_for_publication",
+  "saved_at": "2026-11-08T16:20:42+00:00",
+  "source_head": "a305bfb511c05d333cf05bbbd4111a4b79213967",
+  "scope": "Сохранение подтверждённых результатов текущего и ранее разобранных чатов; не повторное выполнение и не полная приёмка проекта",
+  "source_snapshots": [
+    {
+      "file": "reports/owner-followup-2026-11-08.json",
+      "sha256": "fbebd7b78c9fb3aa1b0236b87b23ff310e3f7eb4e57690b8c5ed1f769b79fa9f"
+    },
+    {
+      "file": "reports/school-seventh-video-2026-11-08.json",
+      "sha256": "0d695fd3f61e69cfcacb74bac897b876ccbda673160a70ca44957f450a4d4179"
+    },
+    {
+      "file": "reports/continuation-qc-2026-11-08.json",
+      "sha256": "6a27bfcc25aedf64205df6f3262e8132f8902e4afe1f87ef225c49f868e55d74"
+    },
+    {
+      "file": "projects/raznoe/references/scenes/scene-4/official-product-source-links.json",
+      "sha256": "5ba2a351d853bcdc5af8160abc9b58e1cef23b4cf5840019af80f0bc4a61da69"
+    },
+    {
+      "file": "projects/raznoe/references/scenes/scene-4/H-BACK.image-prompt.txt",
+      "sha256": "98150b1c65a84f8be24ed56a3617f3eb34f55a8e58192b010c3cf06e27679509"
+    },
+    {
+      "file": "projects/raznoe/reports/honor-contest-sync-2026-11-08.json",
+      "sha256": "afb738a426dce80964d46b84a4ebe59bd202cf95de4585bbe7121dec9a5c9087"
+    },
+    {
+      "file": "projects/raznoe/reports/honor-x9e-pro-contest-2026-11-07.md",
+      "sha256": "9b100c7aa841728deb73e500abcca4bf6fda23a4be7ab6824fb1597ec8525445"
+    },
+    {
+      "file": "projects/raznoe/references/scenes/scene-3/expansion/active-cut.json",
+      "sha256": "ff4165fe353b24f1f10acbbe9d76c6add288863dce5e36c55d577bb6cdb95a38"
+    },
+    {
+      "file": "projects/raznoe/references/scenes/scene-3/expansion/improvement-reference-manifest.json",
+      "sha256": "ff2a59fe7db32a95293ed34c7184fd7821f2502852167d7f0203e703464ea2ca"
+    }
+  ],
+  "completed_do_not_repeat": [
+    {
+      "ids": [
+        "A-21",
+        "A-32",
+        "A-22",
+        "A-23"
+      ],
+      "result": "Шесть проверенных Rutube-плееров, установленный порядок, объединённые карточки и опубликованный код. ОСД и ЗВ удалены только из текущего дерева после Drive readback; история сохранена.",
+      "evidence": "reports/owner-followup-2026-11-08.json"
+    },
+    {
+      "ids": [
+        "A-10"
+      ],
+      "result": "Учебные файлы Саше уже сохранены, прежняя проверка 25 элементов; дубликаты не создавать."
+    },
+    {
+      "ids": [
+        "A-01",
+        "A-17"
+      ],
+      "result": "Прежнее исправление recovery и архивирование старых выполненных записей опубликованы; это сохранение дополнительно закрепляет последний этап."
+    },
+    {
+      "ids": [
+        "A-18"
+      ],
+      "result": "Код реакции ИИшницы по левому клику и 14/14 прежних DOM-тестов сохранены. Android/Safari playback и художественная приёмка не подтверждены."
+    },
+    {
+      "ids": [
+        "A-07",
+        "A-08",
+        "A-09",
+        "A-04",
+        "A-05"
+      ],
+      "result": "Завершённые производственные ПОДЭТАПЫ описаны в проектном отчёте; полная готовность этих задач НЕ заявлена.",
+      "evidence": "projects/raznoe/reports/chat-handoff-save-2026-11-08.json"
+    },
+    {
+      "ids": [
+        "A-24",
+        "A-25"
+      ],
+      "result": "Существующие визитки и цифровой QR сохранены; не повторять макеты. Физическая и художественная приёмка открыты."
+    }
+  ],
+  "open_priority": [
+    "A-20: восемь HTTPS-сертификатов и разрешённый административный Pages-доступ",
+    "A-33: рабочее воспроизведение и безопасная замена седьмой Школы",
+    "A-08: пригодные продуктовые референсы HONOR, права и QC",
+    "A-09: настоящий город, согласование участия/теста, заявка и реальная съёмка",
+    "A-07: полный motion/audio/continuity QC RESOURCE",
+    "A-31: перенос 13 YouTube-видео после авторизации и проверки прав",
+    "A-12/A-13: настоящие видеостыки Серёгиуса; хвосты S60/S61 существуют, полный QC не закрыт",
+    "A-27: неполная построчная сверка всех вложений и приватного Grok-проекта",
+    "A-24/A-25/A-30: финальная приёмка визитки, монтаж и права"
+  ],
+  "pauses_preserved": [
+    "A-26/P-14: Google Keep отложен владельцем",
+    "Роскосмос на паузе; существующие технические материалы не перезапускать"
+  ],
+  "video_count": {
+    "total_on_owner_screenshot": 7,
+    "verified_rutube_players": 6,
+    "school_open": true,
+    "school_private_key_copied": false
+  },
+  "qr_attached_report": {
+    "version": "2026-11-07",
+    "sha256": "81ae503c1a191cf1350488a1e0e859bfffd864d53077f7f3c65914e7fcb0050b",
+    "declared_checks": 41,
+    "declared_all_ok": true,
+    "meaning": "Сведения предоставленного отчёта, не новый осмотр печатного оттиска и не 41 новая проверка в этом сохранении"
+  },
+  "prior_chat_audit": {
+    "six_public_work_chats_previously_read": true,
+    "reopened_during_this_save": false,
+    "complete_line_by_line_audit": false,
+    "private_grok_project_read": false,
+    "canonical_task_ids_preserved": [
+      "A-20",
+      "A-09",
+      "A-08",
+      "A-07",
+      "A-31",
+      "A-33",
+      "A-12",
+      "A-13",
+      "A-14",
+      "A-15",
+      "A-16",
+      "A-18",
+      "A-27",
+      "A-30",
+      "A-04",
+      "A-05",
+      "A-11",
+      "A-24",
+      "A-25",
+      "A-32",
+      "A-21",
+      "A-01",
+      "A-06",
+      "A-10",
+      "A-17",
+      "A-19",
+      "A-22",
+      "A-23",
+      "A-02",
+      "A-03",
+      "A-29",
+      "A-26",
+      "A-28"
+    ]
+  },
+  "rejected_generation_ids": [
+    "3cc78517-9ad9-4e50-ae73-bee22ba5bdef",
+    "b199ada9-77f9-4cad-937c-0f1eacb16fb2"
+  ],
+  "rejected_images_are_not_execution_evidence": true,
+  "live_snapshot_not_new_provider_check": {
+    "topview_checked_at": "2026-11-08T16:00:25Z",
+    "occupied_slots": 3,
+    "free_slots": 3,
+    "queue_existing_tasks": [
+      {
+        "id": "S49A",
+        "task_id": "101221814fd5430697f697f95a3f4252",
+        "state": "submitted"
+      },
+      {
+        "id": "S49C",
+        "task_id": "abb161edcf5c4b58b91460677939b5d3",
+        "state": "submitted"
+      },
+      {
+        "id": "S49D",
+        "task_id": "fe78a852b7a343e6a37d146cec789358",
+        "state": "submitted"
+      },
+      {
+        "id": "S49E",
+        "task_id": "dbc9aff605ec48349062638cdaa7fd5a",
+        "state": "submitted"
+      },
+      {
+        "id": "S49F",
+        "task_id": "faf2aa38db484f4caae06eeb13c7d166",
+        "state": "submitted"
+      },
+      {
+        "id": "S28-A1-TEST-20261017",
+        "task_id": "4b7b972870a44dfbb29bd6c5e330a633",
+        "state": "submitted"
+      },
+      {
+        "id": "S50A",
+        "task_id": "7264c9a1189a49d5ad76cf43fbee87dd",
+        "state": "submitted"
+      },
+      {
+        "id": "S50B",
+        "task_id": "199e81ba8c374bdaa6ce9237aa013158",
+        "state": "submitted"
+      },
+      {
+        "id": "S42-SEED20-P2",
+        "task_id": "4a1061e175054da2810ffef8ad9d31cd",
+        "state": "submitted"
+      },
+      {
+        "id": "S48-SEED20-P2",
+        "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
+        "state": "submitted"
+      },
+      {
+        "id": "S56-SEED20-P1",
+        "task_id": "b15165813c0848939edbe8b3d3aed182",
+        "state": "submitted"
+      },
+      {
+        "id": "S56-SEED20-P2",
+        "task_id": "be960f5e3bf54563aff663fed9da8906",
+        "state": "submitted"
+      },
+      {
+        "id": "S59-SEED20-P2",
+        "task_id": "b0915b04173c414e9ac08652d34b7852",
+        "state": "submitted"
+      },
+      {
+        "id": "S60-SEED20-P1",
+        "task_id": "025955aad2cf494da2b4104d26c36ed5",
+        "state": "submitted"
+      },
+      {
+        "id": "S61-SEED20-P1",
+        "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+        "state": "submitted"
+      },
+      {
+        "id": "S62-SEED20-P1",
+        "task_id": "0de1f663432646d294f409a22e20a26e",
+        "state": "submitted"
+      },
+      {
+        "id": "S63-WAN30",
+        "task_id": "365cf639589a4a5da834d70193d5e8f6",
+        "state": "submitted"
+      },
+      {
+        "id": "S52-R2-SEED20-P1",
+        "task_id": "c65c30d8cbe14e9eadec886276e62471",
+        "state": "submitted"
+      },
+      {
+        "id": "S64-WAN30",
+        "task_id": "3ebe7c23db05479e9b6f762a75b832e7",
+        "state": "submitted"
+      },
+      {
+        "id": "S72-WAN30",
+        "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+        "state": "submitted"
+      },
+      {
+        "id": "S71-WAN30",
+        "task_id": "431180d384cc43bebe7afc702e4eb4e6",
+        "state": "submitted"
+      },
+      {
+        "id": "S49G",
+        "task_id": "3561d1997a6a4e5d813cfb99fdb60ed4",
+        "state": "submitted"
+      }
+    ],
+    "rule": "Перед действием прочитать свежие JSON и выполнить штатный preflight; не выбирать сцену по этому историческому снимку"
+  },
+  "all_requested_work_complete": false,
+  "production_actions_in_this_save": 0,
+  "paid_generations": 0,
+  "approvals_or_deletions": 0,
+  "protected_source_hashes": {
+    "video-prompts.md": "da58a528576210521e0f7efa12c07af654d28d350e1d1e2db2e88e7762c73cc0",
+    "ops/topview-launch-queue.json": "9caad45ee87e7a0cd4900b90b89a726b4314a177c26ac69bb73f129d2bc8e389",
+    "ops/slot-backup.json": "df64b06e8a51bc7c4ca1fbea46380bf255addd40416cc273c18deb6c83aaf197",
+    "ops/owner-tasks.json": "cd5ed11335a9bbb1ed51a32389baac4db5d81e84d7cd9b5033b4a9d2b69d3619",
+    "topview-status.json": "dedb38bcbfebbc32f5f332325dc2ee76b6bc1d104f0888674bff18678a3c39cc",
+    "monitor-role.json": "47c21b6d9470726545b00fa27d3077fc1d88f5cb3863e94a73237767ed5aafa1",
+    "automation-monitor-status.json": "c108b8881f932e969a62354050a7c0f42ead31b1d044e456baf4796037cb5268",
+    "projects/raznoe/video-prompts.md": "1f1626606cebd32d1d761e1f6ae47a5cd8527a27e12ed4b8646b266cff52d3b5",
+    "projects/raznoe/ops/topview-launch-queue.json": "1532ad13f700b0dbcdb3f1ff590ff5bd2e158f8204de4a32428080d1537adfb5"
+  },
+  "checks_before_recovery_packet": [
+    {
+      "command": [
+        "python3",
+        "scripts/cert_github.py",
+        "."
+      ],
+      "exit_code": 0,
+      "output_tail": "{\"NEW-CHAT-HANDOFF.md\": false, \"SYNC-RUNBOOK.md\": true, \"AI-PROJECT-GUIDE.md\": true, \"PROMPT-STYLE-GUIDE.md\": true, \"USER-GUIDE.md\": true, \"README-AI-SYNC.md\": true, \"BACKUP-AI-RUNBOOK.md\": true}\n"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/build_project_status.py",
+        "video-prompts.md",
+        "--output",
+        "project-status.json",
+        "--synced-at",
+        "2026-11-08T16:20:42+00:00",
+        "--instruction-status-file",
+        "instruction-sync-status.json",
+        "--topview-status-file",
+        "topview-status.json",
+        "--topview-task-map-file",
+        "topview-task-map.json",
+        "--previous-status-file",
+        "project-status.json"
+      ],
+      "exit_code": 0,
+      "output_tail": "49,\n      50,\n      51,\n      52,\n      56,\n      57,\n      58,\n      59,\n      60,\n      61,\n      62,\n      63,\n      64,\n      65,\n      66,\n      67,\n      68,\n      69,\n      70,\n      71,\n      72,\n      73\n    ],\n    \"work_items\": [\n      \"W5\",\n      \"W6\",\n      \"W7\",\n      \"W8\",\n      \"W9\",\n      \"W10\",\n      \"W11\",\n      \"W12\",\n      \"W13\",\n      \"W14\",\n      \"W15\"\n    ],\n    \"slow_scenes\": [\n      16,\n      28,\n      42,\n      48,\n      49,\n      52,\n      56,\n      57,\n      58,\n      59,\n      60,\n      61,\n      62,\n      63,\n      64,\n      71,\n      72,\n      73\n    ],\n    \"health\": \"ok\",\n    \"instruction_sync_health\": \"stale\"\n  },\n  \"health\": \"ok\",\n  \"checks\": {\n    \"declared_scene_count_matches_sections\": true,\n    \"declared_scene_count_matches_toc\": true,\n    \"scene_numbers_match_toc_and_sections\": true,\n    \"declared_prompt_count_matches_fences\": true,\n    \"declared_work_count_matches_ids\": true,\n    \"declared_slow_count_matches_list\": true,\n    \"slow_status_matches_dedicated_table\": true,\n    \"slow_status_matches_toc\": true,\n    \"slow_status_matches_sections\": true,\n    \"scene_numbers_are_unique_and_increasing\": true,\n    \"scene_anchors_match_sections\": true,\n    \"scene_anchors_unique\": true,\n    \"reserved_scene_ids_declared\": true,\n    \"reserved_scene_ids_not_reused\": true,\n    \"prompt_fences_balanced\": true,\n    \"canonical_master_utf8_without_bom\": true,\n    \"canonical_master_blank_spacing_compact\": true,\n    \"canonical_master_lf_line_endings\": true,\n    \"slow_scene_ids_unique\": true,\n    \"slow_scene_ids_active\": true,\n    \"canonical_master_sha256_present\": true,\n    \"scene_meta_json_valid\": true,\n    \"scene_meta_scene_ids_unique\": true,\n    \"scene_meta_dependency_targets_exist\": true,\n    \"scene_meta_duration_positive\": true,\n    \"scene_meta_production_state_valid\": true,\n    \"scene_meta_dependency_types_valid\": true,\n    \"scene_meta_allowed_fields_valid\": true,\n    \"scene_meta_dialogue_valid\": true,\n    \"scene_meta_tags_valid\": true,\n    \"scene_meta_target_engine_valid\": true,\n    \"topview_snapshot_valid\": true,\n    \"topview_telemetry_task_ids_unique\": true,\n    \"topview_active_statuses_valid\": true,\n    \"topview_active_scene_ids_exist\": true,\n    \"topview_occupied_matches_active_tasks\": true,\n    \"topview_free_slots_equation\": true,\n    \"topview_capacity_not_exceeded\": true,\n    \"topview_active_scene_ids_exist_in_master\": true\n  }\n}\n"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/projects.py",
+        ".",
+        "status",
+        "--project",
+        "raznoe",
+        "--write"
+      ],
+      "exit_code": 0,
+      "output_tail": "raznoe: health=ok scenes=5 prompts=68 (без изменений)\n"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/check_instruction_consistency.py",
+        "."
+      ],
+      "exit_code": 0,
+      "output_tail": "{\n  \"schema_version\": 1,\n  \"checked_at\": \"2026-11-08T16:20:43.584133+00:00\",\n  \"status\": \"ok\",\n  \"scope\": \"Selected consistency invariants only; full semantic review and runtime success are separate.\",\n  \"live_automations\": \"not_checked\",\n  \"automation_observations\": [],\n  \"problems\": []\n}\n"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/validate_site.py",
+        "."
+      ],
+      "exit_code": 0,
+      "output_tail": "site contract ok; duplicate ids=0; inline JS syntax ok; montage versions ok; fail-safe health contract ok\nowner site panel, film.html and references.html ok\nprojects ok: 5 in the switcher, folders and statuses consistent\n"
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "tests/test_continue_preflight.py",
+        "tests/test_continue_recovery.py",
+        "tests/test_project_recovery.py",
+        "tests/test_trim_service_files.py",
+        "tests/test_instruction_consistency.py"
+      ],
+      "exit_code": 0,
+      "output_tail": "............................................................\n----------------------------------------------------------------------\nRan 60 tests in 1.739s\n\nOK\n"
+    }
+  ],
+  "project_handoff_report": "projects/raznoe/reports/chat-handoff-save-2026-11-08.json",
+  "published_readback_required": true
+}

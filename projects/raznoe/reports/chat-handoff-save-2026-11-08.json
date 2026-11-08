@@ -2,26 +2,127 @@
   "schema_version": 1,
   "project": "raznoe",
   "request": "Запиши сделанное своим чатом и из других чатов в план и хендоф для сменщика. Сохранись в контрольные точки",
-  "stage": "evidence_saved_checkpoint_binding_pending",
+  "stage": "validated_for_publication",
   "scope": "Передача подтверждённых результатов и оставшихся стадий; не новая генерация, не приёмка и не закрытие проекта",
   "completed_stages_do_not_repeat": [
-    {"task_id":"A-07","work_id":"RAZNOE-RESOURCE-HONOR-SASHA-20261106","result":"RESOURCE: четыре механических PNG и девять активных исправленных v3-промптов опубликованы; нарезка 19 клипов / 114 секунд сохранена. Предыдущие v1/v2 — история, не альтернативные активные версии.","evidence":["projects/raznoe/references/scenes/scene-3/expansion/active-cut.json","projects/raznoe/references/scenes/scene-3/expansion/improvement-reference-manifest.json"]},
-    {"task_id":"A-08","result":"HONOR, сцена 4: 36 промптов и 15 реплик подготовлены ранее; три mood PNG не перерисовывать. Три официальных продуктовых исходника сохранены в приватной папке Drive и повторно скачаны с совпавшими SHA. Исправлено описание геометрии и задание H-BACK.","evidence":["projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json","projects/raznoe/references/scenes/scene-4/official-product-source-links.json","projects/raznoe/references/scenes/scene-4/H-BACK.image-prompt.txt"]},
-    {"task_id":"A-09","work_id":"RAZNOE-HONOR-X9EPRO-CONTEST-20261107","result":"Конкурс HONOR X9e Pro: полные правила прочитаны; существующая сцена 5, оглавление и отчёт синхронизированы. Настоящий ролик 60–120 секунд, цель 90 секунд, вертикаль 9:16, без музыки. 30-секундный ИИ-превиз отдельно и не заменяет реальную съёмку.","evidence":["projects/raznoe/reports/honor-contest-sync-2026-11-08.json","projects/raznoe/reports/honor-x9e-pro-contest-2026-11-07.md"]},
-    {"task_id":"A-10","result":"Учебные файлы Саше уже сохранены; прежняя проверка папки зафиксировала 25 элементов. Руководства, шаблоны и исходники повторно не создавать.","evidence":["reports/owner-followup-2026-11-08.json","projects/raznoe/reports/resource-honor-sasha-2026-11-06.json"]},
-    {"task_ids":["A-04","A-05"],"result":"59/59 референсов сцен 1–2 технически сохранены; прежние правки пяти листов уже сделаны. Художественная приёмка не подменяется технической готовностью.","evidence":["projects/raznoe/references/generation-progress.json"]}
+    {
+      "task_id": "A-07",
+      "work_id": "RAZNOE-RESOURCE-HONOR-SASHA-20261106",
+      "result": "RESOURCE: четыре механических PNG и девять активных исправленных v3-промптов опубликованы; нарезка 19 клипов / 114 секунд сохранена. Предыдущие v1/v2 — история, не альтернативные активные версии.",
+      "evidence": [
+        "projects/raznoe/references/scenes/scene-3/expansion/active-cut.json",
+        "projects/raznoe/references/scenes/scene-3/expansion/improvement-reference-manifest.json"
+      ]
+    },
+    {
+      "task_id": "A-08",
+      "result": "HONOR, сцена 4: 36 промптов и 15 реплик подготовлены ранее; три mood PNG не перерисовывать. Три официальных продуктовых исходника сохранены в приватной папке Drive и повторно скачаны с совпавшими SHA. Исправлено описание геометрии и задание H-BACK.",
+      "evidence": [
+        "projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json",
+        "projects/raznoe/references/scenes/scene-4/official-product-source-links.json",
+        "projects/raznoe/references/scenes/scene-4/H-BACK.image-prompt.txt"
+      ]
+    },
+    {
+      "task_id": "A-09",
+      "work_id": "RAZNOE-HONOR-X9EPRO-CONTEST-20261107",
+      "result": "Конкурс HONOR X9e Pro: полные правила прочитаны; существующая сцена 5, оглавление и отчёт синхронизированы. Настоящий ролик 60–120 секунд, цель 90 секунд, вертикаль 9:16, без музыки. 30-секундный ИИ-превиз отдельно и не заменяет реальную съёмку.",
+      "evidence": [
+        "projects/raznoe/reports/honor-contest-sync-2026-11-08.json",
+        "projects/raznoe/reports/honor-x9e-pro-contest-2026-11-07.md"
+      ]
+    },
+    {
+      "task_id": "A-10",
+      "result": "Учебные файлы Саше уже сохранены; прежняя проверка папки зафиксировала 25 элементов. Руководства, шаблоны и исходники повторно не создавать.",
+      "evidence": [
+        "reports/owner-followup-2026-11-08.json",
+        "projects/raznoe/reports/resource-honor-sasha-2026-11-06.json"
+      ]
+    },
+    {
+      "task_ids": [
+        "A-04",
+        "A-05"
+      ],
+      "result": "59/59 референсов сцен 1–2 технически сохранены; прежние правки пяти листов уже сделаны. Художественная приёмка не подменяется технической готовностью.",
+      "evidence": [
+        "projects/raznoe/references/generation-progress.json"
+      ]
+    }
   ],
   "open_stages": [
-    {"task_id":"A-08","next_action":"Получить один пригодный продуктовый H-BACK по сохранённым исходникам и исправленному заданию; сравнить фактические пиксели, сохранить PNG/SHA/manifest и привязку в мастере до следующего кадра. Затем недостающие продуктовые ракурсы. Проверить условия использования и согласование озвучки.","accepted_new_product_png":0,"private_primary_source_png":3,"approved":false},
-    {"task_id":"A-07","next_action":"Просмотреть существующие RESOURCE-попытки полностью: движение механики, звук, геометрия и монтажные стыки. Не считать статичный PNG доказательством качества видео.","full_motion_audio_continuity_qc_complete":false},
-    {"task_id":"A-09","next_action":"Подтвердить настоящий город и участие владельца, согласовать конкретное безопасное испытание; подать согласованную заявку, после отбора и получения устройства снять реальный ролик по правилам. Личные документы не собирать в чате и не публиковать в GitHub.","city_confirmed":false,"submission_sent":false,"real_filming_done":false},
-    {"task_ids":["A-04","A-05","A-11"],"next_action":"Художественная приёмка и клиентское согласование остаются открытыми; не отмечать их выполненными без решения владельца."}
+    {
+      "task_id": "A-08",
+      "next_action": "Получить один пригодный продуктовый H-BACK по сохранённым исходникам и исправленному заданию; сравнить фактические пиксели, сохранить PNG/SHA/manifest и привязку в мастере до следующего кадра. Затем недостающие продуктовые ракурсы. Проверить условия использования и согласование озвучки.",
+      "accepted_new_product_png": 0,
+      "private_primary_source_png": 3,
+      "approved": false
+    },
+    {
+      "task_id": "A-07",
+      "next_action": "Просмотреть существующие RESOURCE-попытки полностью: движение механики, звук, геометрия и монтажные стыки. Не считать статичный PNG доказательством качества видео.",
+      "full_motion_audio_continuity_qc_complete": false
+    },
+    {
+      "task_id": "A-09",
+      "next_action": "Подтвердить настоящий город и участие владельца, согласовать конкретное безопасное испытание; подать согласованную заявку, после отбора и получения устройства снять реальный ролик по правилам. Личные документы не собирать в чате и не публиковать в GitHub.",
+      "city_confirmed": false,
+      "submission_sent": false,
+      "real_filming_done": false
+    },
+    {
+      "task_ids": [
+        "A-04",
+        "A-05",
+        "A-11"
+      ],
+      "next_action": "Художественная приёмка и клиентское согласование остаются открытыми; не отмечать их выполненными без решения владельца."
+    }
   ],
   "rejected_outputs": {
-    "generation_ids":["3cc78517-9ad9-4e50-ae73-bee22ba5bdef","b199ada9-77f9-4cad-937c-0f1eacb16fb2"],
-    "reason":"Ошибочные картинки-дашборды с неподтверждёнными отметками готовности. Не продуктовые референсы, не отчёт о выполнении, не основание для статусов.",
-    "accepted":false
+    "generation_ids": [
+      "3cc78517-9ad9-4e50-ae73-bee22ba5bdef",
+      "b199ada9-77f9-4cad-937c-0f1eacb16fb2"
+    ],
+    "reason": "Ошибочные картинки-дашборды с неподтверждёнными отметками готовности. Не продуктовые референсы, не отчёт о выполнении, не основание для статусов.",
+    "accepted": false
   },
-  "cross_chat_reconciliation_boundary":"Сводный план содержит проверенные этапы текущего и шести ранее присланных публичных чатов. Полная построчная сверка каждого вложенного инструмента и недоступного частного Grok-проекта не доказана; A-27 остаётся открытым.",
-  "constraints":{"new_video_submissions":0,"paid_generations":0,"owner_approvals_granted":0,"existing_master_or_queue_changed_by_this_save":false,"all_project_work_complete":false}
+  "cross_chat_reconciliation_boundary": "Сводный план содержит проверенные этапы текущего и шести ранее присланных публичных чатов. Полная построчная сверка каждого вложенного инструмента и недоступного частного Grok-проекта не доказана; A-27 остаётся открытым.",
+  "constraints": {
+    "new_video_submissions": 0,
+    "paid_generations": 0,
+    "owner_approvals_granted": 0,
+    "existing_master_or_queue_changed_by_this_save": false,
+    "all_project_work_complete": false
+  },
+  "saved_at": "2026-11-08T16:20:42+00:00",
+  "source_head": "a305bfb511c05d333cf05bbbd4111a4b79213967",
+  "source_snapshots": [
+    {
+      "file": "projects/raznoe/references/scenes/scene-4/official-product-source-links.json",
+      "sha256": "5ba2a351d853bcdc5af8160abc9b58e1cef23b4cf5840019af80f0bc4a61da69"
+    },
+    {
+      "file": "projects/raznoe/references/scenes/scene-4/H-BACK.image-prompt.txt",
+      "sha256": "98150b1c65a84f8be24ed56a3617f3eb34f55a8e58192b010c3cf06e27679509"
+    },
+    {
+      "file": "projects/raznoe/reports/honor-contest-sync-2026-11-08.json",
+      "sha256": "afb738a426dce80964d46b84a4ebe59bd202cf95de4585bbe7121dec9a5c9087"
+    },
+    {
+      "file": "projects/raznoe/reports/honor-x9e-pro-contest-2026-11-07.md",
+      "sha256": "9b100c7aa841728deb73e500abcca4bf6fda23a4be7ab6824fb1597ec8525445"
+    },
+    {
+      "file": "projects/raznoe/references/scenes/scene-3/expansion/active-cut.json",
+      "sha256": "ff4165fe353b24f1f10acbbe9d76c6add288863dce5e36c55d577bb6cdb95a38"
+    },
+    {
+      "file": "projects/raznoe/references/scenes/scene-3/expansion/improvement-reference-manifest.json",
+      "sha256": "ff2a59fe7db32a95293ed34c7184fd7821f2502852167d7f0203e703464ea2ca"
+    }
+  ],
+  "all_project_work_complete": false
 }

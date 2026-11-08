@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-08T16:12:23+00:00",
-  "source_head": "b44fc47b4b1f30920995e3a705b3c3d106cd5ae5",
-  "source_fingerprint": "06977ae42ac158f0642d2aa8c1d0f35df3b018a2e78a7ff4007d2cc98112b44d",
+  "checked_at": "2026-11-08T16:20:45+00:00",
+  "source_head": "a305bfb511c05d333cf05bbbd4111a4b79213967",
+  "source_fingerprint": "2c51a7f73618397f5170bf64a88207aea3d29dc1efecca30f648fad279f1efb6",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -36,27 +36,36 @@
     "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
     "title": "Заполнение свободных Topview-слотов — задача №1",
     "status": "waiting_for_slot",
-    "last_completed": "Уточнено: семь роликов, шесть прежних Rutube-плееров опубликованы; Школа проверена отдельно и оставлена локально после ошибки воспроизведения. Добавлен A-33. Повторная TLS-проверка записана. Готовая конкурсная сцена HONOR не переписывалась; H-BACK пока только задание, PNG не принят.",
-    "next_action": "Читать живую очередь без дублей. Для Школы (A-33) подтвердить рабочее воспроизведение и приватность перед заменой/архивацией. A-20 требует разрешённой административной сессии Pages. Доделать оригинальные продуктовые PNG HONOR с QC/сохранением; заявка конкурса ждёт настоящего города и согласования теста. RESOURCE/видеостыки остаются QC, Keep/Роскосмос на паузе. Не повторять шесть опубликованных плееров, порядок A-32 и уже исправленный конкурсный мастер.",
-    "verified_at": "2026-11-08T15:24:00+00:00",
-    "blockers": [],
+    "last_completed": "Подтверждённые этапы этого и ранее разобранных чатов сведены в план и хендоф; шесть плееров готовы, седьмая Школа открыта; три исходника HONOR сохранены, новых принятых PNG 0. Ложные дашборды исключены.",
+    "next_action": "Прочитать свежий main/слоты/очередь и claims, готовое не повторять. Далее открытые A-20/A-33/A-08/A-09/A-07/A-31 и настоящие стыки. Сертификаты требуют разрешённого Pages-доступа; Школа — подтверждённого playback без публикации приватного ключа; HONOR — пригодного H-BACK и QC; конкурс — города/согласования. Keep и Роскосмос на паузе.",
+    "verified_at": "2026-11-08T16:20:45+00:00",
+    "blockers": [
+      "A-20: восемь HTTPS-сертификатов и разрешённый административный Pages-доступ",
+      "A-33: рабочее воспроизведение и безопасная замена седьмой Школы",
+      "A-08: пригодные продуктовые референсы HONOR, права и QC",
+      "A-09: настоящий город, согласование участия/теста, заявка и реальная съёмка",
+      "A-07: полный motion/audio/continuity QC RESOURCE",
+      "A-31: перенос 13 YouTube-видео после авторизации и проверки прав"
+    ],
     "evidence": [
       {
-        "file": "reports/school-seventh-video-2026-11-08.json",
-        "sha256": "0d695fd3f61e69cfcacb74bac897b876ccbda673160a70ca44957f450a4d4179"
+        "file": "reports/chat-handoff-save-2026-11-08.json",
+        "sha256": "9bf556ecb23049846d41b97bb9407f23acdde22e4a564e92e677c30e93b55eae"
       }
     ],
     "read_next": [
       "ops/FUTURE-PLANS.md",
-      "projects/raznoe/HANDOFF.md"
+      "reports/current-work-checkpoint.md",
+      "NEW-CHAT-HANDOFF.md",
+      "reports/chat-handoff-save-2026-11-08.json"
     ],
     "checkpoint": {
       "file": "reports/current-work-checkpoint.md",
-      "anchor": "# 08.11.2026 — семь видео: Школа отдельно, без ложного завершения",
-      "sha256": "6b0d65e6e67b9624f7cbd81f59916c6ea215a659b085bb38479eeea0866b302e"
+      "anchor": "# 08.11.2026 — сохранение чата: выполненное и остаток для сменщика",
+      "sha256": "8b5d2ee0cb765b28528b9f4c852701c0f5869fbfe897758ed6aa265e885a66a7"
     }
   },
-  "checkpoint_text": "# 08.11.2026 — семь видео: Школа отдельно, без ложного завершения\n\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\n- Уточнено: семь роликов, шесть прежних Rutube-плееров опубликованы; Школа проверена отдельно и оставлена локально после ошибки воспроизведения. Добавлен A-33. Повторная TLS-проверка записана. Готовая конкурсная сцена HONOR не переписывалась; H-BACK пока только задание, PNG не принят.\n- Доказательство: reports/school-seventh-video-2026-11-08.json. Изображение-дашборд с ложными done не сохранялось в проект и не является отчётом.\n- Следующий шаг: Читать живую очередь без дублей. Для Школы (A-33) подтвердить рабочее воспроизведение и приватность перед заменой/архивацией. A-20 требует разрешённой административной сессии Pages. Доделать оригинальные продуктовые PNG HONOR с QC/сохранением; заявка конкурса ждёт настоящего города и согласования теста. RESOURCE/видеостыки остаются QC, Keep/Роскосмос на паузе. Не повторять шесть опубликованных плееров, порядок A-32 и уже исправленный конкурсный мастер.\n\nchecked_at: 2026-11-08T15:24:00+00:00\n",
+  "checkpoint_text": "# 08.11.2026 — сохранение чата: выполненное и остаток для сменщика\n\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\n- Сделано: Подтверждённые этапы этого и ранее разобранных чатов сведены в план и хендоф; шесть плееров готовы, седьмая Школа открыта; три исходника HONOR сохранены, новых принятых PNG 0. Ложные дашборды исключены.\n- Доказательство: `reports/chat-handoff-save-2026-11-08.json`. Полный список открытого и границы проверки — в отчёте и плане.\n- Следующий шаг: Прочитать свежий main/слоты/очередь и claims, готовое не повторять. Далее открытые A-20/A-33/A-08/A-09/A-07/A-31 и настоящие стыки. Сертификаты требуют разрешённого Pages-доступа; Школа — подтверждённого playback без публикации приватного ключа; HONOR — пригодного H-BACK и QC; конкурс — города/согласования. Keep и Роскосмос на паузе.\n- Это сохранение: без генераций, приёмки, удаления, изменения очереди или расписаний.\n\nsaved_at: 2026-11-08T16:20:42+00:00\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -151,7 +160,9 @@
   ],
   "read_next": [
     "ops/FUTURE-PLANS.md",
-    "projects/raznoe/HANDOFF.md"
+    "reports/current-work-checkpoint.md",
+    "NEW-CHAT-HANDOFF.md",
+    "reports/chat-handoff-save-2026-11-08.json"
   ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
@@ -453,8 +464,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "73a1f908958c5731b813a1e726a454f2955c1f63f1bf4fbcbacb81caa556cb26",
-      "bytes": 34723
+      "sha256": "a3213ab126208ceb8ccae8ad6c276952901d318c764b80d55f0ab6e6223c6cd5",
+      "bytes": 34797
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -478,7 +489,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "a7fd94beeaea02c310e956f6798b3da3cf154fbc8012975dd328aa1ec8154227",
+      "sha256": "73d35577baa1e3c0197e8e02f9c97256fa13fdc596c04622d739d2d854f93737",
       "bytes": 5135
     },
     {
@@ -498,13 +509,18 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "00568ebdab3925eb89f8ee9ff880819d07f727e82935cb8f0df03e3e467b2302",
-      "bytes": 22985
+      "sha256": "46b3972ce387225c74f3f61d0914c64f4573cdc85fda3537329598c1f09af9c6",
+      "bytes": 22959
+    },
+    {
+      "file": "reports/chat-handoff-save-2026-11-08.json",
+      "sha256": "9bf556ecb23049846d41b97bb9407f23acdde22e4a564e92e677c30e93b55eae",
+      "bytes": 16665
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "f95f98b74acba78247e9a6edf6f2a1a26c73184634da976ebb29314f83279617",
-      "bytes": 49897
+      "sha256": "087ef5599630d58eb8a9c23e2f03c310b59b8e7c71cb369f1b75235dcb6af4bf",
+      "bytes": 8315
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -512,18 +528,13 @@
       "bytes": 71765
     },
     {
-      "file": "reports/school-seventh-video-2026-11-08.json",
-      "sha256": "0d695fd3f61e69cfcacb74bac897b876ccbda673160a70ca44957f450a4d4179",
-      "bytes": 6716
-    },
-    {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "5af3388672c6d8e321dbe8bc1929db5f5073acdf68d5d14f9fdffee7c9a8404c",
-      "bytes": 34524
+      "sha256": "6aa872a0ca4076ee6763f71a82e500a84e024495e06334ab80f28ecae8cd7fc4",
+      "bytes": 34598
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "ccdc1733e599f128515c31a36ccca356ee5e607952534b8944286b1f76d31896",
+      "sha256": "202a79095df2656f005b486ab5255238bf9995ae44f8a7d7a236e9ededfbb834",
       "bytes": 25534
     },
     {
@@ -533,9 +544,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "c4975893020891dda24b802ca22fc424dcd22626f5cf7a7f045bc80bc3d100e4",
-      "bytes": 97426
+      "sha256": "f50b57a31bbe2b504c5364aebf6662a80117b47406472d1e896c798e558fe376",
+      "bytes": 97604
     }
   ],
-  "packet_bytes": 7055
+  "packet_bytes": 6505
 }

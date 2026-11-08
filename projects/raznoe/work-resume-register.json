@@ -1,42 +1,45 @@
 {
   "schema_version": 1,
   "project": "raznoe",
-  "last_updated_at": "2026-11-08T07:48:04+00:00",
+  "last_updated_at": "2026-11-08T16:20:45+00:00",
   "active_work": [
     {
       "work_id": "RAZNOE-SCENE3-RESOURCE",
       "project": "raznoe",
       "title": "Сцена 3 RESOURCE на сайте, без видео",
       "status": "awaiting_editorial_review",
-      "updated_at": "2026-11-06T12:21:31+00:00",
+      "updated_at": "2026-11-08T16:20:45+00:00",
       "completed": [
         "06.11.2026: сцена 3 опубликована в projects/raznoe. Десять кадров поставлены байт-в-байт, финал 45737 полимерный, старый металл в archive и не в галерее. Промты Grok Imagine 2×15 и адаптации Wan/Seedance. Очередь не менялась, видео не запускалось, not_approved."
       ],
-      "next_action": "До отправки RESOURCE продолжать художественный motion/audioQC существующих попыток; для HONOR выбрать озвучку и точное изделие по решению владельца. Генерации, приёмка и перерисовка без нового разрешения не выполняются.",
+      "next_action": "Существующие попытки проверить полностью по движению, звуку и стыкам. Не перерисовывать готовые четыре PNG и не создавать дубли девяти v3; статус not_approved сохраняется.",
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-06T12:21:31+00:00",
-        "last_completed": "Техническая обвязка RESOURCE согласована с19/114 и8v2 без смены промтов/очереди; HONOR36блоков и3moodPNG разобраны, творческие предложения сохранены.",
-        "next_action": "До отправки RESOURCE продолжать художественный motion/audioQC существующих попыток; для HONOR выбрать озвучку и точное изделие по решению владельца. Генерации, приёмка и перерисовка без нового разрешения не выполняются.",
+        "verified_at": "2026-11-08T16:20:45+00:00",
+        "last_completed": "Технический пакет RESOURCE существует: четыре новых референса и девять активных v3, 19 клипов/114 с. Предыдущие версии сохранены в истории.",
+        "next_action": "Существующие попытки проверить полностью по движению, звуку и стыкам. Не перерисовывать готовые четыре PNG и не создавать дубли девяти v3; статус not_approved сохраняется.",
         "checkpoint": {
           "file": "projects/raznoe/reports/current-work-checkpoint.md",
-          "anchor": "# 06.11.2026 — RESOURCE: согласование пакета; HONOR: предложения",
-          "sha256": "c174d938c04175d19b41bed66aa5e41a61b982f1353216e676bb639b9b7505bf"
+          "anchor": "# 08.11.2026 — передача чата: фактический остаток RESOURCE",
+          "sha256": "de5b527aafee8ea021ea4a6d8cef21020a2a30b5ec19b3537fe5948a9a8d8a68"
         },
         "evidence": [
           {
-            "file": "projects/raznoe/reports/scene3-scene4-audit-2026-11-06.md",
-            "sha256": "c6369e424e1d31a85a826910d52feee9cb6360c7c36a74c57f139e941d4952ed"
-          },
-          {
-            "file": "projects/raznoe/references/scenes/scene-3/expansion/active-cut.json",
-            "sha256": "c703f4b50c533e3374460dfebfd74187004dbbec51a1cd961af113d8a5b3f9b5"
+            "file": "projects/raznoe/reports/chat-handoff-save-2026-11-08.json",
+            "sha256": "a7dd5deda2cfdebf107da480c69f652e78498912628013f3270ae7edaa15ea57"
           }
         ],
         "read_next": [
-          "projects/raznoe/HANDOFF.md"
+          "ops/FUTURE-PLANS.md",
+          "projects/raznoe/reports/current-work-checkpoint.md",
+          "projects/raznoe/HANDOFF.md",
+          "projects/raznoe/reports/chat-handoff-save-2026-11-08.json"
         ],
-        "blockers": []
+        "blockers": [
+          "Получить один пригодный продуктовый H-BACK по сохранённым исходникам и исправленному заданию; сравнить фактические пиксели, сохранить PNG/SHA/manifest и привязку в мастере до следующего кадра. Затем недостающие продуктовые ракурсы. Проверить условия использования и согласование озвучки.",
+          "Просмотреть существующие RESOURCE-попытки полностью: движение механики, звук, геометрия и монтажные стыки. Не считать статичный PNG доказательством качества видео.",
+          "Подтвердить настоящий город и участие владельца, согласовать конкретное безопасное испытание; подать согласованную заявку, после отбора и получения устройства снять реальный ролик по правилам. Личные документы не собирать в чате и не публиковать в GitHub."
+        ]
       }
     },
     {
@@ -177,14 +180,14 @@
       "work_id": "RAZNOE-RESOURCE-HONOR-SASHA-20261106",
       "title": "Доработка RESOURCE/HONOR, референсы Magic9 Pro Max и руководство Саше",
       "status": "awaiting_editorial_review",
-      "updated_at": "2026-11-06T19:15:51.052Z",
+      "updated_at": "2026-11-08T16:20:45+00:00",
       "owner_quote": "Сцену с Бутылками и хонором доведи до совершенства. Дорисуй где нужно референсные изображения. Для хонора по их последней модели телефона. На сайте предупреждение висит. На диске в папку Саша скинь инструкции по ведению промтов, сцен и работе видео моделями. Напиши понятными словами для Саши файлик как этим всем пользоваться, как запускать видео, как самостоятельно писать сцены, промты, как делать картинки и как видео для его бутылок переработки отходов космическими спутниками.",
       "completed": [
         "Подтверждены поручение, последняя модель телефона, папка Саша и фактическое предупреждение сайта.",
         "2026-11-06T18:07:30.095Z: Four RESOURCE press/engineering images created total (3 GitHub, fourth Library), nine v3 draft prompts in improvement-v3-plan.json (commit 758abe9); HONOR 36 audio prompts corrected (240f6a7), 15 filmwide voice lines mapped (8b80b26), official product source links saved (60ffe5b). No video/paid credits.",
         "2026-11-06T19:15:51.052Z: RESOURCE 4/4 PNG in GitHub, 9 v3 prompt/request pairs and active cut, master site published, 19×114 unchanged; HTML spacing fixed, workflows pending readback."
       ],
-      "next_action": "RESOURCE 4/4 PNG and 9/9 v3 integrated in 19 clips/114s; check project validation/Pages then owner QC of mechanical continuity. HONOR product art rights and 3×120s video finish pending. Do not launch video or spend credits without new explicit authorization.",
+      "next_action": "Продолжить с пригодного H-BACK по существующим приватным исходникам и исправленному заданию, проверить геометрию и сохранить до следующего кадра. Затем оставшиеся продуктовые роли; полный motion/audio/continuity QC RESOURCE. Не повторять mood PNG, тексты и учебные файлы Саше; не считать исходник приёмкой.",
       "canonical_refs": [
         "projects/raznoe/reports/resource-honor-sasha-2026-11-06.json",
         "projects/raznoe/video-prompts.md",
@@ -193,68 +196,66 @@
       "blockers": [],
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-06T19:15:51.052Z",
-        "last_completed": "Four new RESOURCE PNGs and nine active v3 prompts are recorded in GitHub with 19×114s; validation fix shipped; no paid/video submissions.",
-        "next_action": "RESOURCE 4/4 PNG and 9/9 v3 integrated in 19 clips/114s; check project validation/Pages then owner QC of mechanical continuity. HONOR product art rights and 3×120s video finish pending. Do not launch video or spend credits without new explicit authorization.",
+        "verified_at": "2026-11-08T16:20:45+00:00",
+        "last_completed": "RESOURCE 4 PNG/9 v3/19 клипов на 114 с уже опубликованы. HONOR 36 промптов/15 реплик и три приватных исходника сохранены; геометрия H-BACK исправлена. Принятых новых продуктовых PNG 0.",
+        "next_action": "Продолжить с пригодного H-BACK по существующим приватным исходникам и исправленному заданию, проверить геометрию и сохранить до следующего кадра. Затем оставшиеся продуктовые роли; полный motion/audio/continuity QC RESOURCE. Не повторять mood PNG, тексты и учебные файлы Саше; не считать исходник приёмкой.",
         "checkpoint": {
           "file": "projects/raznoe/reports/current-work-checkpoint.md",
-          "anchor": "# 06.11.2026 — RESOURCE: четыре PNG опубликованы, девять v3 активны",
-          "sha256": "98952e21195948964430308546aa2cc2b19a8b57150bc2d122464694758688cc"
+          "anchor": "# 08.11.2026 — передача чата: RESOURCE и продуктовые референсы HONOR",
+          "sha256": "de693545370be6f7b76776fa52fde75df788a247043499882c709de9d87f46f3"
         },
         "evidence": [
           {
-            "file": "projects/raznoe/reports/resource-honor-sasha-2026-11-06.json",
-            "sha256": "ca6310beebfbf806ae409e9914f6495bd5e70bd0e2f7406bb90799c59aeb1107"
-          },
-          {
-            "file": "projects/raznoe/references/scenes/scene-3/expansion/improvement-reference-manifest.json",
-            "sha256": "dedb93cda7e75e156b13245e54c5afed08dd95ad717aa6dc20f0230ad2cf09e8"
+            "file": "projects/raznoe/reports/chat-handoff-save-2026-11-08.json",
+            "sha256": "a7dd5deda2cfdebf107da480c69f652e78498912628013f3270ae7edaa15ea57"
           }
         ],
         "read_next": [
+          "ops/FUTURE-PLANS.md",
           "projects/raznoe/reports/current-work-checkpoint.md",
-          "projects/raznoe/references/scenes/scene-3/expansion/active-cut.json",
-          "projects/raznoe/references/scenes/scene-3/expansion/improvement-reference-manifest.json",
-          "projects/raznoe/video-prompts.md"
+          "projects/raznoe/HANDOFF.md",
+          "projects/raznoe/reports/chat-handoff-save-2026-11-08.json"
         ],
         "blockers": [
-          "Owner has not editorially approved the four mechanical references or nine video prompts.",
-          "No HONOR official licensed product art and final voiceover agreement.",
-          "Public HTTPS Pages validation after latest commit not yet confirmed."
+          "Получить один пригодный продуктовый H-BACK по сохранённым исходникам и исправленному заданию; сравнить фактические пиксели, сохранить PNG/SHA/manifest и привязку в мастере до следующего кадра. Затем недостающие продуктовые ракурсы. Проверить условия использования и согласование озвучки.",
+          "Просмотреть существующие RESOURCE-попытки полностью: движение механики, звук, геометрия и монтажные стыки. Не считать статичный PNG доказательством качества видео.",
+          "Подтвердить настоящий город и участие владельца, согласовать конкретное безопасное испытание; подать согласованную заявку, после отбора и получения устройства снять реальный ролик по правилам. Личные документы не собирать в чате и не публиковать в GitHub."
         ]
       }
     },
     {
       "work_id": "RAZNOE-HONOR-X9EPRO-CONTEST-20261107",
       "status": "awaiting_real_location_and_owner_selection",
-      "next_action": "Подтвердить настоящий город и условия участия; согласовать конкретный безопасный тест с организатором. Заявка не отправлена. После отбора/получения аппарата снять настоящее видео 60–120 с, цель90 с, 9:16, без музыки и запрещённого фона. Продуктовые PNG Magic9 в сцене4 и QC RESOURCE остаются отдельными открытыми работами; готовое не повторять, новые видео не запускать.",
+      "next_action": "Подтвердить настоящий город/участие и конкретный безопасный тест; отправлять только согласованную заявку. После отбора и получения телефона нужна настоящая съёмка по правилам. Не повторять готовую конкурсную редактуру и не выдавать ИИ-кадры за реальный тест.",
       "last_verified_step": "Полные правила HONOR прочитаны через Google Docs: п.4.2 требует 60–120 секунд, п.4.3.3 запрещает музыку, п.4.3.6 ограничивает фон/права. Отчёт исправлен 96b3e19f. Следующий этап — только существующая сцена5, оглавление и статусы; сцены1–4, очередь, изображения, разрешения не менять. Генераций нет.",
-      "updated_at": "2026-11-08T07:48:04+00:00",
+      "updated_at": "2026-11-08T16:20:45+00:00",
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-08T07:48:04+00:00",
-        "last_completed": "Существующая сцена5 и оглавление приведены к уже проверенным правилам: цель90с/допуск60–120с,9:16,без музыки,нейтральный фон;30сAI отделён как не конкурсный превиз. Сцены1–4, очередь и файлы сохранены. Заявка не отправлена.",
-        "next_action": "Подтвердить настоящий город и условия участия; согласовать конкретный безопасный тест с организатором. Заявка не отправлена. После отбора/получения аппарата снять настоящее видео 60–120 с, цель90 с, 9:16, без музыки и запрещённого фона. Продуктовые PNG Magic9 в сцене4 и QC RESOURCE остаются отдельными открытыми работами; готовое не повторять, новые видео не запускать.",
+        "verified_at": "2026-11-08T16:20:45+00:00",
+        "last_completed": "Редактура существующей сцены 5 и полных правил опубликована: реальное 60–120 с, цель 90 с, 9:16, без музыки. ИИ-превиз отдельно; заявка не отправлена.",
+        "next_action": "Подтвердить настоящий город/участие и конкретный безопасный тест; отправлять только согласованную заявку. После отбора и получения телефона нужна настоящая съёмка по правилам. Не повторять готовую конкурсную редактуру и не выдавать ИИ-кадры за реальный тест.",
         "checkpoint": {
           "file": "projects/raznoe/reports/current-work-checkpoint.md",
-          "anchor": "# 08.11.2026 — HONOR X9e Pro: правила и существующая сцена 5",
-          "sha256": "fa8ade6d57a4c2e1579279bc266caa8784e4f83389ea8b4f0a016fc9e0ca66c7"
+          "anchor": "# 08.11.2026 — передача чата: конкурс HONOR X9e Pro",
+          "sha256": "18445dec9130b3f2dd0aa40aaffddf9d820a0410d7892a8b649bdb1200742c26"
         },
         "evidence": [
           {
-            "file": "projects/raznoe/reports/honor-contest-sync-2026-11-08.json",
-            "sha256": "afb738a426dce80964d46b84a4ebe59bd202cf95de4585bbe7121dec9a5c9087"
-          },
-          {
-            "file": "projects/raznoe/reports/honor-x9e-pro-contest-2026-11-07.md",
-            "sha256": "9b100c7aa841728deb73e500abcca4bf6fda23a4be7ab6824fb1597ec8525445"
+            "file": "projects/raznoe/reports/chat-handoff-save-2026-11-08.json",
+            "sha256": "a7dd5deda2cfdebf107da480c69f652e78498912628013f3270ae7edaa15ea57"
           }
         ],
         "read_next": [
-          "projects/raznoe/reports/honor-x9e-pro-contest-2026-11-07.md",
-          "projects/raznoe/video-prompts.md"
+          "ops/FUTURE-PLANS.md",
+          "projects/raznoe/reports/current-work-checkpoint.md",
+          "projects/raznoe/HANDOFF.md",
+          "projects/raznoe/reports/chat-handoff-save-2026-11-08.json"
         ],
-        "blockers": []
+        "blockers": [
+          "Получить один пригодный продуктовый H-BACK по сохранённым исходникам и исправленному заданию; сравнить фактические пиксели, сохранить PNG/SHA/manifest и привязку в мастере до следующего кадра. Затем недостающие продуктовые ракурсы. Проверить условия использования и согласование озвучки.",
+          "Просмотреть существующие RESOURCE-попытки полностью: движение механики, звук, геометрия и монтажные стыки. Не считать статичный PNG доказательством качества видео.",
+          "Подтвердить настоящий город и участие владельца, согласовать конкретное безопасное испытание; подать согласованную заявку, после отбора и получения устройства снять реальный ролик по правилам. Личные документы не собирать в чате и не публиковать в GitHub."
+        ]
       }
     }
   ],
