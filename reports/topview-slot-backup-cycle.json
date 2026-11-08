@@ -3,23 +3,23 @@
   "project": "seregius",
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "e2cf6ca3-271a-478f-9e53-c18d8c1dd16f",
-  "run_id": "f93c0371-1a28-8331-a773-7b9dac977d4f",
+  "execution_instance_id": "31675623-3604-4197-9618-262f2f576b8c",
+  "run_id": "55db85ec-b628-8328-b9da-a76ad3b8a613",
   "run_id_unavailable_reason": null,
-  "runtime_run_id_source": "Automations.peek current last_run.id",
-  "source_head": "cc2571288b5d5fe049a011f82d4778ad70756deb",
+  "runtime_run_id_source": "Automations.peek last_run.id for scheduled 2026-11-08T11:00:00Z",
+  "source_head": "6569c2d57be949f6c2370823ac086919a066f1b5",
   "route_generation": 3,
-  "lease_holder": "chatgpt:ordinary:e2cf6ca3-271a-478f-9e53-c18d8c1dd16f",
-  "lease_acquired_at": "2026-11-08T10:06:03.098Z",
-  "lease_expires_at": "2026-11-08T10:18:03.098Z",
-  "lease_commit": "3b4ab49203066b821752e65219b1c9e0e411a926",
-  "started_at": "2026-11-08T09:57:54.166317Z",
-  "receipt_started_at": "2026-11-08T10:06:53.425Z",
-  "phase": "finished",
-  "status": "no_free_slot",
-  "outcome": "no_free_slot",
+  "lease_holder": "chatgpt:ordinary:31675623-3604-4197-9618-262f2f576b8c",
+  "lease_acquired_at": "2026-11-08T11:08:05.037Z",
+  "lease_expires_at": "2026-11-08T11:22:05.037Z",
+  "lease_commit": "6569c2d57be949f6c2370823ac086919a066f1b5",
+  "started_at": "2026-11-08T11:02:45.316996Z",
+  "receipt_started_at": "2026-11-08T11:09:01.142Z",
+  "phase": "started",
+  "status": "scanning_reconciliation",
+  "outcome": null,
   "blocker": null,
-  "retryable": false,
+  "retryable": null,
   "scan": {
     "complete": true,
     "complete_scan_verified": true,
@@ -41,11 +41,10 @@
       "365cf639589a4a5da834d70193d5e8f6",
       "be960f5e3bf54563aff663fed9da8906"
     ],
-    "submitted_task_ids_reconciled": 16,
-    "all_submitted_found": true,
-    "details_rechecked": true,
-    "latest_active_recheck_at": "2026-11-08T10:07:27.917Z",
-    "all_active_unlimited_zero": true
+    "scan_completed_at": "2026-11-08T11:05:43.566Z",
+    "submitted_task_ids_reconciled": null,
+    "all_submitted_found": null,
+    "details_rechecked": false
   },
   "slots": {
     "capacity": 6,
@@ -60,7 +59,7 @@
     "steps": 0,
     "estimated_cost_usd": 0,
     "confirmed_cost_usd": 0,
-    "not_run_reason": "Full fresh read-only scan 6/6; no paid browser preflight/Create permitted"
+    "not_run_reason": "Full current read-only scan found global physical slots 6/6"
   },
   "acceptance": {
     "scheduled_run_verified": true,
@@ -73,48 +72,13 @@
   "new_submissions": [],
   "topview_credits_spent": 0,
   "selected_item": null,
-  "task_ids": [
-    "abb161edcf5c4b58b91460677939b5d3",
-    "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
-    "101221814fd5430697f697f95a3f4252",
-    "3ebe7c23db05479e9b6f762a75b832e7",
-    "365cf639589a4a5da834d70193d5e8f6",
-    "be960f5e3bf54563aff663fed9da8906"
-  ],
-  "checked_at": "2026-11-08T10:08:37.081Z",
-  "completed_at": "2026-11-08T10:08:37.081Z",
-  "holder": "chatgpt:ordinary:e2cf6ca3-271a-478f-9e53-c18d8c1dd16f",
-  "next_ready_candidate": "S49D",
-  "queue_reconciliation": {
-    "submitted_count": 16,
-    "all_submitted_found": true,
-    "claimed": 0,
-    "submitting": 0,
-    "submission_unknown": 1,
-    "unresolved_items": [
-      {
-        "id": "S49B",
-        "state": "submission_unknown",
-        "task_id": null,
-        "submission_intent_id": "e12e32cf-b8d6-4484-86ef-35acee6e4693",
-        "create_click_count": 0
-      }
-    ],
-    "source_queue_sha256": "f1ac25c6ffdaf890cb532135eca4cc8cb8325f6fbbf741c2b198cc4ec53d56f1",
-    "source_task_map_sha256": "03334eceeeea395853156c37fcd3ee30178addf602a2ee39ab617d5a73f85aa8",
-    "readiness_match_method": "Independent SHA256 checks during this run matched ops/queue-readiness.json",
-    "readiness": "ops/queue-readiness.json"
-  },
-  "owner_tasks": "checked_open_0",
-  "monitor_status": "topview-status.json checked_at 2026-11-08T09:40:25Z; complete current Topview read-only scan and all-six task recheck supersede historical wake issues #424/#426",
-  "peer_reconciliation": {
-    "hh00_last_run_id": "f93c0371-1a28-8331-a773-7b9dac977d4f",
-    "hh00_latest_result_run_id": null,
-    "hh00_latest_result_note": "Current run in_progress at peek; not a completed result yet",
-    "hh55_last_run_id": "f5fa7e04-6084-8325-8ad7-e4ac552da770",
-    "hh55_latest_result_run_id": "1658357b-2320-8333-98ac-459762c93799",
-    "relay_last_run_id": "85274d2b-f034-832b-89f3-e32dab41a88a",
-    "relay_latest_result_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d"
-  },
-  "note": "8 Nov HH00 MSK: 14 boards, 18 pages, 632 video tasks; 6 active init Unlimited0, all 16 submitted IDs found. Byte-level SHA256 queue/map match readiness. S49B submission_unknown retained/no repeat; S49D next ready. No free slot: no Create, no TinyFish run, no Topview credits. Route generation3; Work preferred as recorded with historical verification, not changed. Owner tasks open0. No recovery/next_action update."
+  "task_ids": [],
+  "checked_at": "2026-11-08T11:09:01.142Z",
+  "completed_at": null,
+  "holder": "chatgpt:ordinary:31675623-3604-4197-9618-262f2f576b8c",
+  "queue_reconciliation": null,
+  "owner_tasks": "pending_final_check",
+  "monitor_status": "pending_final_check",
+  "peer_reconciliation": null,
+  "note": "Started receipt under exclusive exact lease after a complete live account-wide read-only scan. No Create permitted at 6/6."
 }
