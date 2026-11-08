@@ -108,7 +108,8 @@
       "result:22dbd25cdd9f47cd9e44300e55f5e44f",
       "unmapped:101221814fd5430697f697f95a3f4252",
       "result:431180d384cc43bebe7afc702e4eb4e6",
-      "result:de8e44bb15d64dc7a4eb640d27a726e4"
+      "result:de8e44bb15d64dc7a4eb640d27a726e4",
+      "result:abb161edcf5c4b58b91460677939b5d3"
     ],
     "robot_wake_keys": [
       "result:56e5e07c85df4af583c62665c51ed563",
@@ -130,21 +131,22 @@
       "result:c72c1ab4524e4f2f9d3a0272474f788a",
       "result:22dbd25cdd9f47cd9e44300e55f5e44f",
       "result:431180d384cc43bebe7afc702e4eb4e6",
-      "result:de8e44bb15d64dc7a4eb640d27a726e4"
+      "result:de8e44bb15d64dc7a4eb640d27a726e4",
+      "result:abb161edcf5c4b58b91460677939b5d3"
     ],
     "robot_rewake": {
       "episode": "4d71738f",
-      "count": 2,
-      "last_at": "2026-11-07T21:20:31Z",
+      "count": 0,
+      "last_at": "2026-11-08T15:00:27Z",
       "sequence": 19,
       "first_at": "2026-11-07T20:30:27Z",
-      "last_event_id": "slots:4d71738f:19",
+      "last_event_id": "result:abb161edcf5c4b58b91460677939b5d3",
       "silence_reported": "slots:d23cf217:2"
     }
   },
   "phases": {
     "topview": {
-      "checked_at": "2026-11-08T14:50:26Z",
+      "checked_at": "2026-11-08T15:00:24Z",
       "source": "robot; число слотов — topview-status.json"
     },
     "deep_audit": {
@@ -162,8 +164,8 @@
   },
   "health": "ok",
   "last_scheduled_cycle": {
-    "started_at": "2026-11-08T14:50:31Z",
-    "completed_at": "2026-11-08T14:50:31Z",
+    "started_at": "2026-11-08T15:00:27Z",
+    "completed_at": "2026-11-08T15:00:27Z",
     "health": "ok",
     "phases_completed": [
       "role_check",
@@ -175,7 +177,7 @@
     ],
     "phases_missing": [],
     "runner": "robot_scheduled_task",
-    "note": "GitHub robot: 6 из 6 слотов занято, новых 0, завершено 0."
+    "note": "GitHub robot: 5 из 6 слотов занято, новых 0, завершено 1."
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -234,8 +236,8 @@
       "checked_at": "2026-10-13T19:02:02.187Z"
     }
   },
-  "last_completed_cycle_at": "2026-11-08T14:50:31Z",
-  "last_successful_cycle_at": "2026-11-08T14:50:31Z",
+  "last_completed_cycle_at": "2026-11-08T15:00:27Z",
+  "last_successful_cycle_at": "2026-11-08T15:00:27Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
     "title": "AI Film — единый монитор",
@@ -250,13 +252,13 @@
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-11-08T14:50:31Z"
+    "robot": "2026-11-08T15:00:27Z"
   },
   "last_successful_cycle_runner": "robot_scheduled_task",
   "last_successful_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-11-08T14:50:31Z"
+    "robot": "2026-11-08T15:00:27Z"
   },
   "previous_primary_automation": {
     "id": "trig_014eEvBooAV2hxx1asRo9snm",
@@ -365,12 +367,12 @@
     }
   },
   "launcher_health": {
-    "state": "capacity_full",
-    "unresolved": false,
-    "episode": "e3bf7839",
-    "unresolved_since": null,
-    "reason": "no_free_global_slot; launcher_health_not_proven",
-    "free_slots_global": 0,
+    "state": "reconciliation_required",
+    "unresolved": true,
+    "episode": "4d71738f",
+    "unresolved_since": "2026-11-08T15:00:27Z",
+    "reason": "saved_claim_or_unknown_submission; no_repeat_Create",
+    "free_slots_global": 1,
     "actionable_items": [
       "S49D",
       "S49E",
@@ -415,6 +417,6 @@
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
     "escalation_attempted_episode": "4d71738f",
-    "checked_at": "2026-11-08T14:30:27Z"
+    "checked_at": "2026-11-08T15:00:27Z"
   }
 }
