@@ -419,7 +419,7 @@
       "S49B",
       "S48-SEED20-P2-R2-20261108"
     ],
-    "last_event_id": "slots:4728736a:28",
+    "last_event_id": "result:f3b8883f44b14a2ba432ce429ba02709",
     "receipt_present": false,
     "handler_outcome": null,
     "execution_stage": null,
@@ -429,6 +429,6 @@
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
     "escalation_attempted_episode": "4728736a",
-    "checked_at": "2026-11-08T23:20:31Z"
+    "checked_at": "2026-11-08T23:30:34Z"
   }
 }
