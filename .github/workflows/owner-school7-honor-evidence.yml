@@ -1,0 +1,156 @@
+name: Owner school video and HONOR evidence once
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/owner-school7-honor-evidence.yml']
+permissions:
+  contents: write
+concurrency:
+  group: owner-school7-honor-evidence
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      HOLDER: chatgpt:ordinary:00cc30c6-6bc1-407e-8b69-68b0c47c8039
+      ACQUIRED: '2026-11-08T15:20:51Z'
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: Read public certificates and primary product images only
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat > /tmp/school7-check.py <<'PY'
+          import json, ssl, socket, hashlib, urllib.request, concurrent.futures
+          from pathlib import Path
+          from datetime import datetime, timezone
+          def now(): return datetime.now(timezone.utc).isoformat(timespec='seconds')
+          def check(name):
+              host=(name+'.рудик.рф').encode('idna').decode()
+              out={'domain':name+'.рудик.рф','hostname':host,'checked_at':now(),'verified':False}
+              try:
+                  with socket.create_connection((host,443),timeout=12) as raw:
+                      with ssl.create_default_context().wrap_socket(raw,server_hostname=host) as tls:
+                          cert=tls.getpeercert()
+                          out.update(verified=True,tls_version=tls.version(),certificate_sha256=hashlib.sha256(tls.getpeercert(binary_form=True)).hexdigest(),subject_alt_names=cert.get('subjectAltName'),not_after=cert.get('notAfter'))
+              except Exception as e:
+                  out.update(error_type=type(e).__name__,error=str(e))
+              return out
+          names=['алина','маша','виталик','видео','фото','работа','мои-видео','обо-мне']
+          with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+              rows=list(pool.map(check,names))
+          observation={'checked_at':now(),'scope':'Direct default-CA TLS/SNI check; no DNS, Pages administration or access changes','certificates':rows,'verified_count':sum(x['verified'] for x in rows)}
+          Path('/tmp/school7-tls.json').write_text(json.dumps(observation,ensure_ascii=False,indent=2)+'\n')
+          refs=Path('/tmp/honor-primary-reference-review');refs.mkdir(exist_ok=True)
+          source=json.loads(Path('projects/raznoe/references/scenes/scene-4/official-product-source-links.json').read_text())
+          evidence=[]
+          for slot in ['H-BACK','H-FRONT','H-34']:
+              url=source['external_reference_slots'][slot]['image_url']
+              row={'slot':slot,'source_url':url,'purpose':'Private technical comparison only, not a licensed advertisement or approved project image'}
+              try:
+                  req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0'})
+                  with urllib.request.urlopen(req,timeout=25) as r:
+                      data=r.read(20000001)
+                      assert len(data)<=20000000, 'source image unexpectedly large'
+                      assert data.startswith(b'\x89PNG\r\n\x1a\n'), 'not PNG bytes'
+                  dest=refs/(slot+'.png');dest.write_bytes(data)
+                  row.update(downloaded=True,bytes=len(data),sha256=hashlib.sha256(data).hexdigest())
+              except Exception as e: row.update(downloaded=False,error=type(e).__name__+': '+str(e))
+              evidence.append(row)
+          (refs/'sources.json').write_text(json.dumps(evidence,ensure_ascii=False,indent=2)+'\n')
+          print(json.dumps({'tls_verified':observation['verified_count'],'official_reference_downloads':sum(x.get('downloaded',False) for x in evidence)}))
+          PY
+          python3 /tmp/school7-check.py
+      - name: Publish factual correction under exact lease
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat > /tmp/publish-school7.py <<'PY'
+          import json, os, re, hashlib, subprocess, sys
+          from pathlib import Path
+          from datetime import datetime, timezone
+          sys.path.insert(0,'scripts')
+          from resume_state import capture
+          from trim_service_files import trim_register
+          def now(): return datetime.now(timezone.utc).isoformat(timespec='seconds')
+          def lease():
+              l=json.loads(Path('ops/canon-lock.json').read_text())
+              assert l['state']=='held' and l['holder']==os.environ['HOLDER'] and l['acquired_at']==os.environ['ACQUIRED'], 'exact lease lost'
+              assert datetime.fromisoformat(l['expires_at'].replace('Z','+00:00'))>datetime.now(timezone.utc), 'lease expired'
+              return l
+          lease()
+          path=Path('reports/school-seventh-video-2026-11-08.json')
+          plans=Path('ops/FUTURE-PLANS.md'); text=plans.read_text()
+          if '| A-33 |' in text: raise SystemExit('A-33 exists; reconcile rather than overwrite')
+          protected=['video-prompts.md','ops/topview-launch-queue.json','projects/raznoe/video-prompts.md','projects/raznoe/ops/topview-launch-queue.json','ops/slot-backup.json']
+          preserved={p:hashlib.sha256(Path(p).read_bytes()).hexdigest() for p in protected}
+          tls=json.loads(Path('/tmp/school7-tls.json').read_text())
+          report={'schema_version':1,'project':'seregius','checked_at':now(),'source_head':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'request':'Owner corrected video count to seven and renewed HONOR/HTTPS request','video_count':{'owner_screenshot':7,'previously_verified_rutube_embeds':6,'school_still_uses_local_mp4':True},'school':{'title':'Школа','rutube_id':'fa8444d562187e5a9b41628d53129af6','access':'private link supplied by owner; secret query deliberately omitted','duration_from_screenshot_seconds':120,'duration_measured_in_player':None,'probe':'TinyFish browser run d26e6e39-b93e-4083-adb7-3cfefcbfc022','probe_result':'Exact provided private link displayed Данное видео временно недоступно with INTEXCP_PRMCDN_RB_WEB; playback not observed. Non-key embed timed out; timeout does not prove access policy.','conclusion':'Not ready for replacement; keep /video/alina-school.mp4 and existing privacy unchanged. This is one browser observation, not proof of deletion or moderation.','private_key_published':False,'local_file_deleted':False,'public_embed_enabled':False},'tls':tls,'pages_permission_status':{'last_observed_update':'403 Resource not accessible by integration in alina-rudik-redirect report','new_admin_write_attempted':False,'originating_browser_available':False,'saved_tinyfish_github_signin':False,'required_next_step':'Use an already authorized GitHub Pages administrator session; do not bypass permissions or ask for passwords/tokens in chat'},'honor':{'scene4_product':'HONOR Magic9 Pro Max','existing_video_prompts':36,'existing_voiceover_lines':15,'new_H_BACK_prompt':'projects/raznoe/references/scenes/scene-4/H-BACK.image-prompt.txt','product_png_accepted':0,'scene5_contest_plan_already_synced':True,'contest_submission_sent':False,'city_confirmed':False,'real_film_target_seconds':90,'real_film_allowed_seconds':[60,120],'music_allowed':False},'rejected_generated_output':{'generation_id':'3cc78517-9ad9-4e50-ae73-bee22ba5bdef','reason':'Unrequested dashboard with unsupported done claims; not a product reference and not execution evidence','published_in_project':False},'preserved_sha256':preserved,'new_video_submissions':0,'paid_generations':0,'all_requested_work_complete':False}
+          path.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+          newrow='| A-33 | СРОЧНО: седьмое Rutube-видео «Школа» вместо локального MP4 | НЕ ЗАВЕРШЕНО: на скриншоте 7 видео; прежние 6 плееров готовы. Новая приватная ссылка проверена, браузер получил INTEXCP_PRMCDN_RB_WEB / временно недоступно; воспроизведение не доказано. alina-school.mp4 сохранить до рабочей замены и проверки резервной копии; секрет доступа не публиковать. | reports/school-seventh-video-2026-11-08.json |'
+          lines=text.splitlines(); idx=next(i for i,l in enumerate(lines) if l.startswith('| A-31 |'));lines.insert(idx+1,newrow)
+          for i,l in enumerate(lines):
+              if l.startswith('| A-21 |'):
+                  lines[i]=l.replace('6/6 реально воспроизводятся','6/6 ранее переданных ссылок реально воспроизводятся')
+                  lines[i]=lines[i].replace('Остальные видео/анимации не тронуты.','Общий счёт владельца — 7: «Школа» отдельно A-33, её локальный файл сохранён. Остальные видео/анимации не тронуты.')
+              elif l.startswith('| A-08 |'):
+                  lines[i]=l.replace('ПРОМПТЫ ГОТОВЫ;','36 видеопромптов и 15 реплик ГОТОВЫ; 08.11 добавлено точное задание H-BACK.image-prompt.txt, но это ещё НЕ PNG;')
+              elif l.startswith('| A-20 |'):
+                  cols=l.split('|'); cols[3]=' НЕ ИСПРАВЛЕНО: повторная прямая TLS/SNI-проверка 08.11 — '+str(tls['verified_count'])+'/8 подтверждено. Pages PUT ранее403; contents-write работает, административная сессия не доступна. Не повторять отказ или менять DNS вслепую. '
+                  cols[4]=' reports/school-seventh-video-2026-11-08.json; reports/public-sites-check-2026-11-08.json '
+                  lines[i]='|'.join(cols)
+          text='\n'.join(lines).replace('A-01…A-32','A-01…A-33').replace('Те же32ID:','33 ID (A-33 добавлен по уточнению владельца):')+'\n'
+          ids=re.findall(r'^\| (A-\d+) \|',text,re.M);assert len(ids)==33 and len(set(ids))==33,ids
+          plans.write_text(text)
+          wid='TOPVIEW-SLOT-PRIORITY-20261024'; anchor='# 08.11.2026 — семь видео: Школа отдельно, без ложного завершения'
+          done='Уточнено: семь роликов, шесть прежних Rutube-плееров опубликованы; Школа проверена отдельно и оставлена локально после ошибки воспроизведения. Добавлен A-33. Повторная TLS-проверка записана. Готовая конкурсная сцена HONOR не переписывалась; H-BACK пока только задание, PNG не принят.'
+          nxt='Читать живую очередь без дублей. Для Школы (A-33) подтвердить рабочее воспроизведение и приватность перед заменой/архивацией. A-20 требует разрешённой административной сессии Pages. Доделать оригинальные продуктовые PNG HONOR с QC/сохранением; заявка конкурса ждёт настоящего города и согласования теста. RESOURCE/видеостыки остаются QC, Keep/Роскосмос на паузе. Не повторять шесть опубликованных плееров, порядок A-32 и уже исправленный конкурсный мастер.'
+          cp=Path('reports/current-work-checkpoint.md');cp.write_text(anchor+'\n\nwork_id: '+wid+'\n\n- '+done+'\n- Доказательство: '+str(path)+'. Изображение-дашборд с ложными done не сохранялось в проект и не является отчётом.\n- Следующий шаг: '+nxt+'\n\nchecked_at: '+now()+'\n\n---\n\n'+cp.read_text())
+          capture('.',wid,anchor,done,nxt,[str(path)],read_next=['ops/FUTURE-PLANS.md','projects/raznoe/HANDOFF.md'],focus=True)
+          regp=Path('work-resume-register.json');arc=Path('archive/work-resume-register-archive.json')
+          result=trim_register(json.loads(regp.read_text()),json.loads(arc.read_text()) if arc.exists() else {})
+          if result:
+              regp.write_text(json.dumps(result[0],ensure_ascii=False,indent=2)+'\n');arc.parent.mkdir(parents=True,exist_ok=True);arc.write_text(json.dumps(result[1],ensure_ascii=False,indent=2)+'\n')
+          subprocess.run(['python3','scripts/build_resume_packet.py','.'],check=True)
+          subprocess.run(['python3','scripts/validate_site.py','.'],check=True)
+          assert all(hashlib.sha256(Path(p).read_bytes()).hexdigest()==s for p,s in preserved.items())
+          l=lease();l.update(state='free',expires_at=None,released_at=now());Path('ops/canon-lock.json').write_text(json.dumps(l,ensure_ascii=False,indent=2)+'\n')
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3; do
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            python3 /tmp/publish-school7.py
+            git add reports/school-seventh-video-2026-11-08.json reports/current-work-checkpoint.md ops/FUTURE-PLANS.md work-resume-register.json archive/work-resume-register-archive.json shadow/resume-packet.json shadow/resume-packet.md ops/canon-lock.json
+            git diff --cached --check
+            git commit -m 'Owner correction: seven videos, School pending, verified TLS and honest HONOR state'
+            if git push origin HEAD:main; then exit 0; fi
+          done
+          exit 1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: honor-primary-reference-review
+          path: /tmp/honor-primary-reference-review
+          retention-days: 1
+      - name: Release only exact own lease if publication failed
+        if: failure()
+        shell: bash
+        run: |
+          git fetch -q origin main
+          git reset -q --hard origin/main
+          python3 - <<'PY'
+          import json,os
+          from pathlib import Path
+          from datetime import datetime,timezone
+          p=Path('ops/canon-lock.json');l=json.loads(p.read_text())
+          if l.get('state')=='held' and l.get('holder')==os.environ['HOLDER'] and l.get('acquired_at')==os.environ['ACQUIRED']:
+              l.update(state='free',expires_at=None,released_at=datetime.now(timezone.utc).isoformat(timespec='seconds'));p.write_text(json.dumps(l,ensure_ascii=False,indent=2)+'\n')
+          PY
+          git add ops/canon-lock.json
+          if ! git diff --cached --quiet; then git commit -m 'Release exact school7 evidence lease after failure'; git push origin HEAD:main; fi
