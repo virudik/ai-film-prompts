@@ -1,26 +1,26 @@
 {
-  "checked_at": "2026-11-07T10:12:17Z",
+  "checked_at": "2026-11-08T10:24:47Z",
   "mode": "sync",
   "summary": {
-    "written": 3,
-    "current": 7
+    "written": 2,
+    "current": 8
   },
   "files": [
     {
       "name": "video-prompts.md",
-      "github_sha256": "32f127e8d50247c334e6c53694bbb4e29591848f815d96bf66f53e2b921ccd9b",
+      "github_sha256": "aceab9168c854917fb02eb13bf579af4bf5f4922dae0d6c9cead15ecaa897168",
       "file_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-      "drive_sha256": "32f127e8d50247c334e6c53694bbb4e29591848f815d96bf66f53e2b921ccd9b",
+      "drive_sha256": "aceab9168c854917fb02eb13bf579af4bf5f4922dae0d6c9cead15ecaa897168",
       "status": "written",
-      "drive_modified": "2026-11-07T10:12:01.329Z"
+      "drive_modified": "2026-11-08T10:24:33.995Z"
     },
     {
       "name": "NEW-CHAT-HANDOFF.md",
-      "github_sha256": "5f2b8acdead3ad27ce6ea08fdc9ad522e14986c66e6b5c85c8bde537ed706de7",
+      "github_sha256": "fcaed4b4eaf4d3b27eb9b68288a99d9bd861ee45faa98f2d7d6ca027c7fb848b",
       "file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_sha256": "5f2b8acdead3ad27ce6ea08fdc9ad522e14986c66e6b5c85c8bde537ed706de7",
+      "drive_sha256": "fcaed4b4eaf4d3b27eb9b68288a99d9bd861ee45faa98f2d7d6ca027c7fb848b",
       "status": "written",
-      "drive_modified": "2026-11-07T10:12:06.450Z"
+      "drive_modified": "2026-11-08T10:24:39.653Z"
     },
     {
       "name": "SYNC-RUNBOOK.md",
@@ -35,7 +35,7 @@
       "github_sha256": "c62976f8c2561633e3d9612bcda6bad706ef85a9ad1a5295e2e6e6513b6efca6",
       "file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
       "drive_sha256": "c62976f8c2561633e3d9612bcda6bad706ef85a9ad1a5295e2e6e6513b6efca6",
-      "status": "written",
+      "status": "current",
       "drive_modified": "2026-11-07T10:12:10.878Z"
     },
     {
