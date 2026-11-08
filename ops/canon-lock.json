@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "grok:a885aa8d-43d9-4e01-8a31-1f5f3d85f704",
   "task": "launch S51A (grok helper, slot-wake issue #455)",
   "acquired_at": "2026-11-08T17:02:33Z",
-  "expires_at": "2026-11-08T17:47:33Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-08T17:10:39Z",
   "rules": "ops/CANON-LOCK.md"
 }
