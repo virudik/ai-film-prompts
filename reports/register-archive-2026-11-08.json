@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "holder": "chatgpt:ordinary:c1dec76d-aeb0-485b-a474-4112f8727b2c",
+  "checked_at": "2026-11-08T06:28:59Z",
+  "before_bytes": 100679,
+  "after_bytes": 98695,
+  "finished_work_moved": 0,
+  "archived_entry_groups": 1,
+  "archive": "archive/work-resume-register-archive.json",
+  "recovery_unchanged": true,
+  "queue_unchanged": true,
+  "validation": [
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.test_trim_service_files",
+        "tests.test_continue_recovery"
+      ],
+      "exit_code": 0,
+      "output_tail": "est_shadow_checkpoint_changed (tests.test_continue_recovery.ContinueRecoveryTests.test_shadow_checkpoint_changed) ... ok\ntest_shadow_checkpoint_missing (tests.test_continue_recovery.ContinueRecoveryTests.test_shadow_checkpoint_missing) ... ok\ntest_stale_instruction_hash (tests.test_continue_recovery.ContinueRecoveryTests.test_stale_instruction_hash) ... ok\ntest_unsafe_source_and_symlink_are_rejected (tests.test_continue_recovery.ContinueRecoveryTests.test_unsafe_source_and_symlink_are_rejected) ... ok\ntest_valid_task_and_monitor_does_not_steal_focus (tests.test_continue_recovery.ContinueRecoveryTests.test_valid_task_and_monitor_does_not_steal_focus) ... ok\ntest_work_checkpoint_changed (tests.test_continue_recovery.ContinueRecoveryTests.test_work_checkpoint_changed) ... ok\ntest_work_checkpoint_missing (tests.test_continue_recovery.ContinueRecoveryTests.test_work_checkpoint_missing) ... ok\n\n----------------------------------------------------------------------\nRan 36 tests in 0.844s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/validate_site.py",
+        "."
+      ],
+      "exit_code": 0,
+      "output_tail": "site contract ok; duplicate ids=0; inline JS syntax ok; montage versions ok; fail-safe health contract ok\nowner site panel, film.html and references.html ok\nprojects ok: 5 in the switcher, folders and statuses consistent\n"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/canon_health.py",
+        ".",
+        "--write"
+      ],
+      "exit_code": 0,
+      "output_tail": "Б, проверить на повторы.\n[info] USER-GUIDE.md: 84 КБ, проверить на повторы.\n[info] ops/CHATGPT-MONITOR-FAST-PATH.md: проверялся 18.10.2026, больше 14 дней назад.\n[info] ops/DRIVE-WIF-SETUP.md: проверялся 18.10.2026, больше 14 дней назад.\n[info] ops/QUEST-THREE-KEYS.md: проверялся 18.10.2026, больше 14 дней назад.\n[info] ops/QUEUE-READINESS.md: проверялся 23.10.2026, больше 14 дней назад.\n[info] ops/ROBOT-TELEMETRY.md: проверялся 18.10.2026, больше 14 дней назад.\n[info] ops/ROBOT-TRIGGER.md: проверялся 22.10.2026, больше 14 дней назад.\n[info] ops/SELF-HEAL.md: проверялся 22.10.2026, больше 14 дней назад.\n[info] ops/TOPVIEW-VIDEO-ARCHIVE.md: проверялся 18.10.2026, больше 14 дней назад.\n[info] ops/dance-model-comparison.md: проверялся 25.10.2026, больше 14 дней назад.\n[info] Роскосмос: замок проекта (chatgpt:work:da0ac368-f673-451d-8812-b3cc481277ef) истёк 05.11 19:52 UTC и не снят; он считается свободным, но запись стоит убрать.\nstatus=ok warnings=0 info=13 new=0\nwrote canon-health.json\n"
+    }
+  ],
+  "canon_health": {
+    "status": "ok",
+    "warnings": 0,
+    "checked_at": "2026-11-08T06:28:59Z"
+  }
+}
