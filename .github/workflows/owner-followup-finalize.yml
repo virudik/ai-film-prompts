@@ -1,0 +1,135 @@
+name: Finalize owner followup evidence once
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/owner-followup-finalize.yml']
+permissions:
+  contents: write
+concurrency:
+  group: owner-followup-index
+  cancel-in-progress: false
+jobs:
+  finalize:
+    if: github.actor == 'virudik'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      HOLDER: chatgpt:ordinary:79dd16b2-9780-466c-a616-33cb3eb1387d
+      ACQUIRED: '2026-11-08T07:23:48Z'
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Verify publications, mark only completed stages, capture recovery and release lease
+        run: |
+          set -euo pipefail
+          cat > /tmp/finalize-owner.py <<'PY'
+          import json,re,os,sys,base64,urllib.request,hashlib,subprocess,time
+          from pathlib import Path
+          from datetime import datetime,timezone
+          sys.path.insert(0,'scripts')
+          from resume_state import capture
+          from trim_service_files import trim_register,dump_json,load_json,REGISTER_ARCHIVE
+          def now():return datetime.now(timezone.utc).isoformat(timespec='seconds')
+          def digest(b):return hashlib.sha256(b).hexdigest()
+          def lease():
+              l=json.loads(Path('ops/canon-lock.json').read_text());assert l['state']=='held' and l['holder']==os.environ['HOLDER'] and l['acquired_at']==os.environ['ACQUIRED']
+              assert datetime.fromisoformat(l['expires_at'].replace('Z','+00:00'))>datetime.now(timezone.utc)
+              return l
+          def raw(url):
+              return urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'owner-followup-finalize','Cache-Control':'no-cache'}),timeout=30).read()
+          def remote_file(repo,path):
+              j=json.loads(raw('https://api.github.com/repos/'+repo+'/contents/'+path+'?ref=main'))
+              return base64.b64decode(j['content']),j['sha']
+          lease()
+          rp=Path('reports/owner-followup-2026-11-08.json');r=json.loads(rp.read_text())
+          assert r['request_id']=='owner-20261108-video-order-honor-tls' and r['stage']=='in_progress'
+          source_head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          observed={}
+          for key,repo,path in [('site_order','virudik/rudik-site','reports/owner-video-order-2026-11-08.json'),('rutube_playback','virudik/rudik-site','reports/rutube-playback-2026-11-08.json'),('video_cleanup','virudik/rudik-site','reports/rutube-local-video-cleanup-2026-11-08.json'),('youtube_inventory','virudik/rudik-site','reports/youtube-migration-inventory.json'),('tls_attempt','virudik/alina-rudik-redirect','reports/pages-certificate-repair-2026-11-08.json')]:
+              b,sha=remote_file(repo,path);observed[key]={'repository':repo,'file':path,'blob_sha':sha,'sha256':digest(b),'data':json.loads(b)}
+          pb=observed['rutube_playback']['data'];cleanup=observed['video_cleanup']['data'];tls=observed['tls_attempt']['data']
+          assert len(pb['safe_replacement_ids'])==6 and len(cleanup['backups'])==2 and cleanup['removed_bytes']==161912522 and cleanup['render_tests_passed']
+          assert all(x.get('removed_from_current_tree') and x.get('drive_readback_verified_at') for x in cleanup['backups'])
+          honor=json.loads(Path('projects/raznoe/reports/honor-contest-sync-2026-11-08.json').read_text())
+          assert honor['stage']=='validated_for_publication' and honor['project_health']=='ok' and honor['scenes_1_to_4_unchanged'] and not honor['contest_submission']
+          js,jsblob=remote_file('virudik/rudik-site','js/videos-data.js')
+          assert b"review: 'pending'" not in js and b"file: '/video/alina-ny.mp4'" not in js and b"file: '/video/zv.mp4'" not in js
+          master=Path('projects/raznoe/video-prompts.md').read_bytes()
+          publication={}
+          targets={'site_data':('https://xn--d1aigvp.xn--p1ai/js/videos-data.js',digest(js)),'honor_master':('https://xn--l1adcem8c.xn--d1aigvp.xn--p1ai/projects/raznoe/video-prompts.md',digest(master))}
+          for key,(url,expected) in targets.items():
+              for attempt in range(6):
+                  try:
+                      data=raw(url+'?owner_verified='+str(int(time.time())))
+                      publication[key]={'url':url,'checked_at':now(),'expected_sha256':expected,'actual_sha256':digest(data),'matches':digest(data)==expected}
+                  except Exception as e:publication[key]={'url':url,'checked_at':now(),'matches':False,'error':str(e)[:500]}
+                  if publication[key]['matches']:break
+                  time.sleep(10)
+          assert all(p['matches'] for p in publication.values()), 'Publication differs: '+str(publication)
+          # Keep the whole detailed playback transcript in its owning repo; the canonical report stores bounded evidence.
+          r.update(stage='verified_partial_completion',last_verified_at=now(),completion_source_head=source_head,publication=publication,site_order={'status':'done','first_six':r['requested_video_order'][:6],'report_blob':observed['site_order']['blob_sha']},rutube={'status':'six_players_verified_and_published','safe_ids':pb['safe_replacement_ids'],'playback_report_blob':observed['rutube_playback']['blob_sha'],'cleanup':cleanup},youtube={'status':'inventory_done_upload_not_started','unique_ids':observed['youtube_inventory']['data']['unique_video_count'],'inventory_repo_file':'virudik/rudik-site/reports/youtube-migration-inventory.json','blocker':'No authorized Rutube Studio browser in this execution; owner-channel and rights verification required'},certificates={'status':'blocked_not_fixed','eight_subdomains_valid_tls':False,'attempt':tls,'boundary':'Repository writes are available; Pages administrative update returned 403. No bypass, no DNS edits or repeated provisioning.'},honor_contest={'status':'rules_idea_and_existing_scene5_published','scene_id':5,'real_seconds':90,'allowed_seconds':[60,120],'music_allowed':False,'submission_done':False,'city_confirmed':False,'project_health':'ok','report':'projects/raznoe/reports/honor-contest-sync-2026-11-08.json'},remaining=['HONOR Magic9 Pro Max product reference PNGs and artistic QC','RESOURCE motion/audio/continuity QC','Real video joins S52/S60/S61 and final editorial acceptance','Eight subdomain certificates: administrative access blocker','YouTube own-content migration via authorized Rutube Studio','HONOR contest real city/entry/selection and actual footage','Business card print/artistic acceptance','Full private Grok/nested-file audit'],topview_latest_read_only={k:json.loads(Path('topview-status.json').read_text()).get(k) for k in ['checked_at','occupied_slots','free_slots']},no_video_generation=True,no_recurring_schedule_changes=True)
+          r['status']='Partial completion with explicit blockers; six Rutube players, exact order, source cleanup and contest preparation completed. Other tasks are NOT marked done.'
+          plans=Path('ops/FUTURE-PLANS.md');text=plans.read_text();rows={}
+          for l in text.splitlines():
+              m=re.match(r'^\| (A-\d+) \|',l)
+              if m:assert m[1] not in rows;rows[m[1]]=l
+          assert set(rows)=={'A-%02d'%i for i in range(1,33)}
+          rows['A-32']='| A-32 | Порядок: Открытка → ОСД → Котмонавты → ЗВ → Финансовые → Алексей → остальные | СДЕЛАНО И ОПУБЛИКОВАНО 08.11: явный order, DOM-регрессия, общий код и все копии/test обновлены. Повторно не переставлять. | rudik-site reports/owner-video-order-2026-11-08.json; reports/owner-followup-2026-11-08.json |'
+          rows['A-21']='| A-21 | ИИшница: шесть Rutube-плееров и перенос заменённых MP4 с сайта | СДЕЛАНО 08.11: 6/6 реально воспроизводятся в Chromium с origin сайта; три pending сняты. ОСД/ЗВ удалены из текущих файлов сайта после Drive ZIP readback/SHA (161912522 байта); Git-история сохранена. Остальные видео/анимации не тронуты. | rudik-site reports/rutube-playback-2026-11-08.json и reports/rutube-local-video-cleanup-2026-11-08.json; [архив](https://drive.google.com/drive/folders/1OZy8tMRFsiiSCP8qN8rd7TLq-_lWKO5b) |'
+          rows['A-31']='| A-31 | СРОЧНО: YouTube → Rutube для подходящих собственных видео сайта | ИНВЕНТАРЬ СДЕЛАН: 13 уникальных YouTube ID, файлы/страницы перечислены. ПЕРЕНОС НЕ СДЕЛАН: нет авторизованной Студии Rutube в этой среде. Штатный импорт собственного канала после проверки прав/владения; чужие ТВ-каналы не импортировать целиком. | rudik-site reports/youtube-migration-inventory.json; https://rutube.ru/info/youtube/ |'
+          rows['A-20']='| A-20 | СРОЧНО: HTTPS восьми дополнительных поддоменов | НЕ ИСПРАВЛЕНО: 0/8 в прямом TLS, hostname mismatch (*.github.io). На алина.рудик.рф CNAME/Pages правильные; целевой PUT Pages отклонён403 (administrative permission), обычная запись файлов GitHub работает. Не повторять одинаковые отказы; нужен разрешённый административный UI/доступ Pages. DNS и домен не удалялись. | reports/public-sites-check-2026-11-08.json; virudik/alina-rudik-redirect/reports/pages-certificate-repair-2026-11-08.json |'
+          rows['A-09']='| A-09 | СРОЧНО: конкурс HONOR X9e Pro — идея, сцена5, заявка и реальный тест | ПОДГОТОВКА СДЕЛАНА 08.11: полные правила прочитаны, мастер/оглавление/план90с синхронизированы и опубликованы (60–120с,9:16,без музыки;30сAI отдельно НЕ конкурс). ОТКРЫТО: настоящий город, согласование конкретного теста/прав, заявка до16.11 12:00, отбор и реальная съёмка. Заявка НЕ отправлена; не переделывать готовую сцену. | projects/raznoe/reports/honor-x9e-pro-contest-2026-11-07.md; reports/honor-contest-sync-2026-11-08.json внутри проекта |'
+          rows['A-22']='| A-22 | Объединить Алина Новый год+ОСД и ЗВ+Звёздные войны в деревне, без дублей | СДЕЛАНО: по одной карточке, прежние исходники ОСД/ЗВ сохранены на Drive, не в текущих MP4 сайта. Не создавать карточки повторно. | rudik-site js/videos-data.js; reports/rutube-local-video-cleanup-2026-11-08.json |'
+          rows['A-23']='| A-23 | Готовые видео выше «скоро» с точным порядком владельца | СДЕЛАНО: первые шесть по A-32, затем остальные;7 готовых/0 ожидающих/7«скоро». Реальный DOM-порядок проверен. | rudik-site js/rudik.js v5, videos-data v7, test/check-sync.js |'
+          groups=[('P1 — срочно: осталось выполнить / устранить блокер',['A-20','A-09','A-08','A-07','A-31']),('P2 — доделать и проверить',['A-12','A-13','A-14','A-15','A-16','A-18','A-27','A-30']),('W — техническая часть есть, приёмка/согласование открыты',['A-04','A-05','A-11','A-24','A-25']),('OK — выполнено, повторно не делать',['A-32','A-21','A-01','A-06','A-10','A-17','A-19','A-22','A-23']),('Постоянное обслуживание — не разовая закрытая задача',['A-02','A-03','A-29']),('Отложено владельцем — не возобновлять',['A-26','A-28'])]
+          assigned=[i for _,a in groups for i in a];assert set(assigned)==set(rows) and len(assigned)==len(set(assigned))
+          out=['## СВОДНЫЙ АУДИТ ПОРУЧЕНИЙ — актуальность на 08.11.2026','','Те же32ID: завершённые этапы не повторять. Текущие A-строки приоритетнее исторических C/G-снимков. Публичный Chromium playback не является полной проверкой фильма, Android/Safari или приёмкой владельца.']
+          for title,ids in groups:out += ['', '### '+title,'','| ID | Поручение | Подтверждённое состояние / следующий шаг | Доказательство |','|---|---|---|---|']+[rows[i] for i in ids]
+          out += ['','**Сменщику:** блок OK только проверить на регрессию, не делать заново. В P1/P2 продолжать указанную незавершённую стадию; при блокере одного направления брать другое доступное. Keep и Роскосмос остаются на паузе. Никаких платных генераций или дублирующих Create.','']
+          m=re.search(r'(?ms)^## СВОДНЫЙ АУДИТ ПОРУЧЕНИЙ.*?(?=^## История ревизий)',text);assert m
+          text=text[:m.start()]+'\n'.join(out)+'\n'+text[m.end():]
+          text=text.replace('## История ревизий\n','## История ревизий\n\n- 08.11.2026 — A-32 и A-21 перенесены в OK после порядка/6 playback/Drive readback/удаления2MP4; A-09 подготовка опубликована, но заявка/реальный тест открыты. A-31 инвентарь13 сделан, импорт не выполнен; A-20 точный Pages403 blocker. Новые PNG/видео не генерировались.\n',1)
+          lines=text.splitlines()
+          for i,l in enumerate(lines):
+              if l.startswith('| C-01 |'):lines[i]='| C-01 | Заполнять свободные Topview-слоты без дублей по живому priority | Исполнители — ops/slot-backup.json | Постоянно: текущие6слотов/следующийREADY только из свежих JSON; историческую S49B не считать текущим кандидатом | свободный слот, QC и разрешение | topview-status.json; ops/topview-launch-queue.json; A-02 | 08.11 |'
+              if l.startswith('| G-13 |'):lines[i]='| G-13 | Перенос видео сайта на Rutube и отсутствие дублей | СДЕЛАНО для6переданныхроликов/A-21;2MP4архивированы наDrive и удалены из текущего сайта. YouTube13ID — отдельное срочноеA-31, импорт ещё не сделан | rudik-site reports/rutube-local-video-cleanup-2026-11-08.json | 08.11 |'
+              if l.startswith('| G-05 |'):lines[i]='| G-05 | HTTPS8поддоменов | целевой административный доступ Pages | НЕ СДЕЛАНО: CNAMEправильный, TLShostname mismatch, PUTPages403; обычныеGitHubкоммиты доступны | не повторять отказ; разрешённый adminUI | A-20; reports/public-sites-check-2026-11-08.json | 08.11 |'
+          plans.write_text('\n'.join(lines)+'\n')
+          r['external_evidence']=[{'name':k,'repository':v['repository'],'file':v['file'],'sha256':v['sha256'],'blob_sha':v['blob_sha']} for k,v in observed.items()]
+          rp.write_text(json.dumps(r,ensure_ascii=False,indent=2)+'\n')
+          anchor='# 08.11.2026 — порядок, шесть Rutube-плееров и конкурсный мастер опубликованы'
+          wid='TOPVIEW-SLOT-PRIORITY-20261024'
+          done='Опубликованы точный порядок6роликов и6проверенных Rutube-плееров. ОСД/ЗВ сохранены наDrive с обратным SHAreadback и удалены только из текущего сайта (161912522B); история сохранена. Сцена5HONORсинхронизирована с правилами90с/безмузыки, заявка не отправлена. Инвентарь13YouTubeID готов; Pages403 блокирует сертификаты. Готовое помечено OK.'
+          nxt='Сначала живые слоты/очередь и антидубли; при свободном месте только разрешённый READY Unlimited0/CAS. Не повторять A-32/A-21/конкурсную редактуру, инструкцииСаше или визитки. Продолжить A-08 продуктовые PNGHONOR, A-07 RESOURCE и видеостыки QC. A-20 требует административного Pages-доступа; A-31 — авторизованной Студии Rutube/прав; A-09 — настоящий город и согласование участия/реальная съёмка. Keep/Роскосмос на паузе.'
+          cp=Path('reports/current-work-checkpoint.md');assert anchor not in cp.read_text()
+          sec=anchor+'\n\nwork_id: '+wid+'\n\n- '+done+'\n- Прямая публикация js и мастера проверена по SHA; подробные доказательства и границы: reports/owner-followup-2026-11-08.json.\n- Открытые стадии не закрывались: продуктовые PNGHONOR, QCRESOURCE/стыков,8сертификатов, YouTubeимпорт, VKзаявка/съёмка, физическая/художественная приёмка визитки.\n- Следующий шаг: '+nxt+'\n\nchecked_at: '+now()+'\n\n---\n\n';cp.write_text(sec+cp.read_text())
+          capture('.',wid,anchor,done,nxt,[str(rp)],read_next=['ops/TOPVIEW-FREE-LAUNCH.md','ops/FUTURE-PLANS.md','projects/raznoe/HANDOFF.md'])
+          regp=Path('work-resume-register.json');ar=Path(REGISTER_ARCHIVE)
+          trimmed=trim_register(load_json(regp),load_json(ar) if ar.exists() else {})
+          if trimmed:dump_json(regp,trimmed[0]);dump_json(ar,trimmed[1])
+          # Keep archived completed objects verbatim if the size limit still requires fewer historical entries.
+          keep=9
+          while regp.stat().st_size>=100000 and keep>=3:
+              trimmed=trim_register(load_json(regp),load_json(ar) if ar.exists() else {},keep=keep)
+              if trimmed:dump_json(regp,trimmed[0]);dump_json(ar,trimmed[1])
+              keep-=1
+          subprocess.run(['python3','scripts/build_resume_packet.py','.'],check=True)
+          assert json.loads(Path('shadow/resume-packet.json').read_text())['ready_for_resume']
+          for cmd in [['python3','scripts/validate_site.py','.'],['python3','-m','unittest','tests.test_continue_recovery','tests.test_trim_service_files'],['python3','scripts/canon_health.py','.','--write']]:
+              subprocess.run(cmd,check=True)
+          lock=lease();lock.update(state='free',expires_at=None,released_at=now());Path('ops/canon-lock.json').write_text(json.dumps(lock,ensure_ascii=False,indent=2)+'\n')
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3; do
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            python3 /tmp/finalize-owner.py
+            git add ops/FUTURE-PLANS.md reports/owner-followup-2026-11-08.json reports/current-work-checkpoint.md work-resume-register.json archive/work-resume-register-archive.json shadow/resume-packet.json shadow/resume-packet.md canon-health.json ops/canon-lock.json
+            git diff --cached --check
+            git commit -m 'Owner followup verified: order/Rutube cleanup done; HONOR prep done, TLS and import blockers explicit'
+            if git push origin HEAD:main;then exit 0;fi
+          done
+          exit 1
