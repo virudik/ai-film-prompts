@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-08T16:50:24Z",
+  "checked_at": "2026-11-08T17:00:22Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -27,7 +27,7 @@
     },
     "pages_scanned": 1,
     "tasks_seen": 20,
-    "api_requests": 8,
+    "api_requests": 5,
     "detail_failed": []
   },
   "cursor": {
@@ -61,13 +61,6 @@
   "unknown_new": [],
   "finished_known": [
     {
-      "task_id": "199e81ba8c374bdaa6ce9237aa013158",
-      "scene_id": null,
-      "final_status": "fail",
-      "completed_at": "2026-11-08 16:41:19",
-      "error_code": "7000"
-    },
-    {
       "task_id": "3561d1997a6a4e5d813cfb99fdb60ed4",
       "scene_id": 49,
       "final_status": "success",
@@ -75,24 +68,10 @@
       "error_code": null
     },
     {
-      "task_id": "7264c9a1189a49d5ad76cf43fbee87dd",
-      "scene_id": null,
-      "final_status": "fail",
-      "completed_at": "2026-11-08 16:41:19",
-      "error_code": "7000"
-    },
-    {
       "task_id": "dbc9aff605ec48349062638cdaa7fd5a",
       "scene_id": 49,
       "final_status": "success",
       "completed_at": "2026-11-08 16:45:22",
-      "error_code": null
-    },
-    {
-      "task_id": "faf2aa38db484f4caae06eeb13c7d166",
-      "scene_id": null,
-      "final_status": "success",
-      "completed_at": "2026-11-08 16:45:27",
       "error_code": null
     },
     {
@@ -199,7 +178,7 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-11-08T16:00:25Z",
-    "monitor_age_minutes": 50,
+    "monitor_age_minutes": 60,
     "monitor_occupied": 3,
     "robot_occupied": 0,
     "consistent": false,
