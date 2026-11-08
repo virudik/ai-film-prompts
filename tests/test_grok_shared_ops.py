@@ -102,6 +102,97 @@ class DurableRunTests(unittest.TestCase):
         self.cfg['grok_launcher']['launch_window']['first_hour']=0
         i,l=lc.prepare_transaction(self.cfg,lock,self.item,a,scan,now,ledger=self.ledger)
         self.assertTrue(lr.verify_binding(i,l))
+    def batch(self):
+        cfg=copy.deepcopy(self.cfg)
+        cfg['grok_launcher']['max_submissions_per_wake']=6
+        cfg['grok_launcher']['slot_capacity']=6
+        return cfg
+    def test_one_run_fills_capacity_and_does_not_need_a_new_run_id(self):
+        cfg,ledger=self.batch(),self.ledger
+        keys=[]
+        for n in range(6):
+            item=dict(self.item,id='READY-%d'%n)
+            actor=dict(self.actor,submissions_this_wake=n)
+            scan=dict(self.scan,free_slots=6-n)
+            out,ledger=lc.prepare_transaction(cfg,self.lock,item,actor,scan,GROK_NOW,ledger=ledger)
+            self.assertTrue(lr.verify_binding(out,ledger))
+            keys.append(out['claim']['provider_run_key'])
+        self.assertEqual(len(set(keys)),1)
+        self.assertEqual(len(ledger['runs'][keys[0]]['submissions']),6)
+        with self.assertRaises(lc.Blocked):
+            lc.prepare_transaction(cfg,self.lock,dict(self.item,id='READY-6'),
+                                   dict(self.actor,submissions_this_wake=6),dict(self.scan,free_slots=1),
+                                   GROK_NOW,ledger=ledger)
+        with self.assertRaises(lc.Blocked):
+            lc.prepare_transaction(cfg,self.lock,dict(self.item,id='RESET'),
+                                   dict(self.actor,submissions_this_wake=0),self.scan,GROK_NOW,ledger=ledger)
+        with self.assertRaises(lc.Blocked):
+            lc.prepare_transaction(cfg,self.lock,dict(self.item,id='READY-0'),
+                                   dict(self.actor,submissions_this_wake=1),self.scan,GROK_NOW,ledger=ledger)
+        with self.assertRaises(lc.Blocked):
+            lc.prepare_transaction(cfg,self.lock,dict(self.item,id='SKIP'),
+                                   dict(self.actor,submissions_this_wake=2),self.scan,GROK_NOW,ledger=ledger)
+        legacy=copy.deepcopy(ledger)
+        del legacy['runs'][keys[0]]['submissions']
+        with self.assertRaises(lc.Blocked):
+            lc.prepare_transaction(cfg,self.lock,dict(self.item,id='LEGACY'),
+                                   dict(self.actor,submissions_this_wake=1),self.scan,GROK_NOW,ledger=legacy)
+        for bad in (7,100,0,True):
+            broken=self.batch();broken['grok_launcher']['max_submissions_per_wake']=bad
+            with self.subTest(bad=bad),self.assertRaises(lc.Blocked):
+                lc.prepare_transaction(broken,self.lock,dict(self.item,id='OVER'),self.actor,self.scan,GROK_NOW,ledger=lr.empty())
+        broken=self.batch();broken['grok_launcher']['slot_capacity']=7
+        with self.assertRaises(lc.Blocked):
+            lc.prepare_transaction(broken,self.lock,self.item,self.actor,self.scan,GROK_NOW,ledger=lr.empty())
+    def test_fresh_zero_slots_paid_unknown_and_refusal_stay_blocked(self):
+        cfg=self.batch()
+        with self.assertRaises(lc.Blocked):
+            lc.prepare_transaction(cfg,self.lock,self.item,dict(self.actor,submissions_this_wake=0),
+                                   dict(self.scan,free_slots=0),GROK_NOW,ledger=lr.empty())
+        paid=copy.deepcopy(self.item);paid['claim']['preflight']['credits_cost']=1
+        with self.assertRaises(lc.Blocked):
+            lc.prepare_transaction(cfg,self.lock,paid,self.actor,self.scan,GROK_NOW,ledger=lr.empty())
+        for state in ('submission_unknown','submitted','submitting'):
+            with self.subTest(state=state),self.assertRaises(lc.Blocked):
+                lc.prepare_transaction(cfg,self.lock,dict(self.item,state=state),self.actor,self.scan,GROK_NOW,ledger=lr.empty())
+        refused=dict(self.item,provider_error_code='7000',substantive_refusal=True)
+        with self.assertRaises(lc.Blocked):
+            lc.prepare_transaction(cfg,self.lock,refused,self.actor,self.scan,GROK_NOW,ledger=lr.empty())
+        linked=dict(self.item,depends_on_completed=['PREV'],references=[{'slot':'@Video1','required':True,'source_item_id':'PREV'}])
+        with self.assertRaises(lc.Blocked):
+            lc.prepare_transaction(cfg,self.lock,linked,self.actor,self.scan,GROK_NOW,ledger=lr.empty())
+    def test_same_owner_message_can_fill_another_item_but_not_a_new_run(self):
+        self.telegram();cfg=self.batch();i,l=lc.prepare_transaction(cfg,self.lock,self.item,self.actor,self.scan,GROK_NOW,ledger=self.ledger)
+        second=dict(self.item,id='NEXT')
+        actor=dict(self.actor,submissions_this_wake=1)
+        out,ledger=lc.prepare_transaction(cfg,self.lock,second,actor,self.scan,GROK_NOW,ledger=l)
+        self.assertEqual(out['claim']['provider_run_id'],self.actor['provider_run_id'])
+        self.assertTrue(lr.verify_binding(out,ledger))
+        self.actor['provider_run_id']='another-run'
+        self.actor['submissions_this_wake']=0
+        with self.assertRaises(lc.Blocked):
+            lc.prepare_transaction(cfg,self.lock,dict(self.item,id='REPLAY'),self.actor,self.scan,GROK_NOW,ledger=ledger)
+    def test_live_s49e_run_stays_legacy_one_create(self):
+        root=Path(__file__).resolve().parents[1]
+        ledger=json.loads((root/'ops/launcher-run-ledger.json').read_text(encoding='utf-8'))
+        lr.validate(ledger)
+        row=next(r for r in ledger['runs'].values() if r.get('item_id')=='S49E')
+        self.assertNotIn('submissions', row)
+        cfg=self.batch()
+        actor=dict(self.actor, provider_run_id=row['provider_run_id'], submissions_this_wake=1)
+        with self.assertRaises(lc.Blocked):
+            lc.prepare_transaction(cfg,self.lock,dict(self.item,id='NOT-S49E'),actor,self.scan,GROK_NOW,ledger=ledger)
+    def test_content_refusal_is_not_retried_without_separate_consent(self):
+        cfg=self.batch()
+        item=copy.deepcopy(self.item)
+        item['submission_history']=[{'task_id':'old','outcome':'copyright_refusal','error_code':'7000'}]
+        item['retry_control']={'policy_id':'owner-20261030-technical-retry','retry_attempts_used':1,'max_retry_attempts':2}
+        with self.assertRaises(lc.Blocked):
+            lc.prepare_transaction(cfg,self.lock,item,self.actor,self.scan,GROK_NOW,ledger=lr.empty())
+        item['owner_retry_authorized']=True
+        out,ledger=lc.prepare_transaction(cfg,self.lock,item,self.actor,self.scan,GROK_NOW,ledger=lr.empty())
+        self.assertEqual(out['state'],'submitting')
+        self.assertTrue(lr.verify_binding(out,ledger))
 
 class SiteAndInputsTests(unittest.TestCase):
     def test_grok_target_roundtrip_and_no_duplicate(self):
