@@ -3,84 +3,52 @@
   "project": "seregius",
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "31238f31-2b66-4105-8e6b-8488f983fbc0",
-  "run_id": "ea0d8a52-815c-8330-bd9b-b6ae8b03dfad",
+  "execution_instance_id": "8d5a6064-8139-494e-923e-44ddda3519eb",
+  "run_id": "88cab5cb-ed78-8327-af75-182d62ae3db0",
   "run_id_unavailable_reason": null,
-  "source_head": "b3490054176bc4f50d9b6019c220f7450526316c",
+  "source_head": "263cbe55231a0ac230e4cb4e6700fb876ed6dd66",
   "route_generation": 3,
   "lease_holder": "chatgpt:ordinary:31238f31-2b66-4105-8e6b-8488f983fbc0",
-  "lease_acquired_at": "2026-11-08T01:08:50.401Z",
-  "lease_expires_at": "2026-11-08T01:23:50.401Z",
-  "lease_commit": "7d64c3e28da24e22b26e9b49d36c8b4cde54949c",
-  "started_at": "2026-11-08T01:03:58.817554Z",
-  "receipt_started_at": "2026-11-08T01:09:18.694Z",
-  "checked_at": "2026-11-08T01:12:07.299Z",
-  "phase": "finished",
-  "status": "no_free_slot",
+  "lease_acquired_at": "2026-11-08T02:07:19.268Z",
+  "lease_expires_at": "2026-11-08T02:22:19.268Z",
+  "lease_commit": "263cbe55231a0ac230e4cb4e6700fb876ed6dd66",
+  "started_at": "2026-11-08T02:00:17.419771Z",
+  "receipt_started_at": "2026-11-08T02:08:03.623Z",
+  "checked_at": null,
+  "phase": "started",
+  "status": "in_progress",
   "scan": {
-    "complete": true,
-    "complete_scan_verified": true,
-    "source": "read_only_topview_connector_all_14_boards_all_video_pages",
-    "boards_scanned": 14,
-    "pages_scanned": 18,
-    "video_tasks_scanned": 632,
-    "unique_video_task_ids": 632,
-    "status_counts": {
-      "success": 603,
-      "fail": 23,
-      "init": 6
-    },
-    "active_task_ids": [
-      "abb161edcf5c4b58b91460677939b5d3",
-      "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
-      "101221814fd5430697f697f95a3f4252",
-      "3ebe7c23db05479e9b6f762a75b832e7",
-      "365cf639589a4a5da834d70193d5e8f6",
-      "be960f5e3bf54563aff663fed9da8906"
-    ],
-    "submitted_task_ids_reconciled": 16,
-    "details_rechecked": true,
-    "full_scan_completed_at": "2026-11-08T01:06:38.403Z",
-    "detail_recheck_completed_at": "2026-11-08T01:09:52.162Z",
-    "note": "All 16 submitted IDs resolved on exact My First Board, all 6 active tasks independently status=init, Unlimited0, creditsCost 0."
+    "complete": false
   },
   "slots": {
     "capacity": 6,
-    "occupied": 6,
-    "free": 0,
-    "complete_scan_verified": true
+    "occupied": null,
+    "free": null,
+    "complete_scan_verified": false
   },
   "selected_item": null,
-  "task_ids": [
-    "abb161edcf5c4b58b91460677939b5d3",
-    "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
-    "101221814fd5430697f697f95a3f4252",
-    "3ebe7c23db05479e9b6f762a75b832e7",
-    "365cf639589a4a5da834d70193d5e8f6",
-    "be960f5e3bf54563aff663fed9da8906"
-  ],
-  "outcome": "no_free_slot",
+  "task_ids": [],
+  "outcome": "in_progress",
   "blocker": null,
   "retryable": false,
-  "browser_transport": "not_used_no_free_slot",
+  "browser_transport": "not_used_pending_capacity_scan",
   "tinyfish": {
     "used": false,
     "run_ids": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0,
-    "not_run_reason": "6/6 active slots"
+    "confirmed_cost_usd": 0
   },
   "acceptance": {
     "scheduled_run_verified": true,
-    "topview_read_only_scan_complete": true,
+    "topview_read_only_scan_complete": false,
     "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
     "new_task_id_verified": false
   },
   "note": "No Create allowed at 6/6. S49B submission_unknown preserved; no duplicate. No changes to queue, role, checkpoint, owner tasks or automation.",
-  "completed_at": "2026-11-08T01:12:07.299Z",
+  "completed_at": null,
   "next_ready_candidate": "S49D",
   "queue_reconciliation": {
     "submitted_count": 16,
@@ -101,5 +69,7 @@
   "monitor_status": "Topview bot telemetry previously checked at 2026-11-08T00:20:29Z; live connector scan refreshed in this run, robot heartbeat not altered.",
   "owner_tasks": "checked_open_0",
   "new_submissions": [],
-  "topview_credits_spent": 0
+  "topview_credits_spent": 0,
+  "holder": "chatgpt:ordinary:8d5a6064-8139-494e-923e-44ddda3519eb",
+  "runtime_run_id_source": "Automations.peek last_run.id current in_progress"
 }
