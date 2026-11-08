@@ -3,20 +3,20 @@
   "project": "seregius",
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "99d1d344-ea33-47c4-9db2-7b061982a896",
-  "run_id": "85de39d1-adac-832d-b975-4298d4216b68",
+  "execution_instance_id": "7900cb6b-2f77-4200-97bd-7c844c80e621",
+  "run_id": "65a6efef-ad68-8324-bdc6-260a9c58b8df",
   "run_id_unavailable_reason": null,
-  "source_head": "9e52ac56ccde673e990fe9e4cd516eae6d8ebde5",
+  "source_head": "d1a739e2391d3c8ae598243bf4bc89c16717ac2e",
   "route_generation": 3,
-  "lease_holder": "chatgpt:ordinary:99d1d344-ea33-47c4-9db2-7b061982a896",
-  "lease_acquired_at": "2026-11-08T08:08:00.286Z",
-  "lease_expires_at": "2026-11-08T08:23:00.286Z",
-  "lease_commit": "9e52ac56ccde673e990fe9e4cd516eae6d8ebde5",
-  "started_at": "2026-11-08T08:04:10.102555Z",
-  "receipt_started_at": "2026-11-08T08:08:35.801Z",
-  "phase": "finished",
-  "status": "no_free_slot",
-  "outcome": "no_free_slot",
+  "lease_holder": "chatgpt:ordinary:7900cb6b-2f77-4200-97bd-7c844c80e621",
+  "lease_acquired_at": "2026-11-08T09:08:15.292Z",
+  "lease_expires_at": "2026-11-08T09:20:15.292Z",
+  "lease_commit": "cc72b970b7d9f798643bf613b85253cc006bb3d3",
+  "started_at": "2026-11-08T09:02:27.608588Z",
+  "receipt_started_at": "2026-11-08T09:09:17.116Z",
+  "phase": "started",
+  "status": "in_progress",
+  "outcome": "scan_completed_no_free_slot",
   "blocker": null,
   "retryable": false,
   "scan": {
@@ -43,7 +43,7 @@
     "submitted_task_ids_reconciled": 16,
     "all_submitted_found": true,
     "details_rechecked": true,
-    "latest_active_recheck_at": "2026-11-08T08:12:40.562Z",
+    "latest_active_recheck_at": "2026-11-08T09:06:00Z",
     "all_active_unlimited_zero": true
   },
   "slots": {
@@ -80,9 +80,9 @@
     "365cf639589a4a5da834d70193d5e8f6",
     "be960f5e3bf54563aff663fed9da8906"
   ],
-  "checked_at": "2026-11-08T08:14:47.654Z",
-  "completed_at": "2026-11-08T08:14:47.654Z",
-  "holder": "chatgpt:ordinary:99d1d344-ea33-47c4-9db2-7b061982a896",
+  "checked_at": "2026-11-08T09:06:00Z",
+  "completed_at": null,
+  "holder": "chatgpt:ordinary:7900cb6b-2f77-4200-97bd-7c844c80e621",
   "next_ready_candidate": "S49D",
   "queue_reconciliation": {
     "submitted_count": 16,
@@ -100,19 +100,19 @@
       }
     ],
     "source_queue_sha256": "f1ac25c6ffdaf890cb532135eca4cc8cb8325f6fbbf741c2b198cc4ec53d56f1",
-    "source_task_map_sha256": "44345307758bdb49b9564a3b412ed18ae692fecbd734de1264d757777f8d2ff9",
-    "readiness_match_method": "Independent SHA256 byte-level checks for queue and topview-task-map.json, both matched current readiness",
+    "source_task_map_sha256": "b2f949de12562cc59d391a331218f8f33795c84773b66d3fb61382d40c2e3c38",
+    "readiness_match_method": "Independent SHA256 byte-level checks queue+map, both matched ops/queue-readiness.json",
     "readiness": "ops/queue-readiness.json"
   },
   "owner_tasks": "checked_open_0",
-  "monitor_status": "launcher_health capacity_full 6/6 checked 2026-11-08T07:50:30Z; #426 old wake is not live capacity",
+  "monitor_status": "full connector scan 6/6; latest bot free-slot wake Nov7 is stale",
   "peer_reconciliation": {
-    "hh00_last_run_id": "85de39d1-adac-832d-b975-4298d4216b68",
-    "hh00_latest_result_run_id": "2740749e-f9cc-8322-85c6-294a70684acb",
-    "hh55_last_run_id": "b6851cae-bd68-8323-881f-b5b5cbcfbe58",
+    "hh00_last_run_id": "65a6efef-ad68-8324-bdc6-260a9c58b8df",
+    "hh00_latest_result_run_id": "85de39d1-adac-832d-b975-4298d4216b68",
+    "hh55_last_run_id": "774c0303-4390-832e-82cb-cbbca0fb8dd6",
     "hh55_latest_result_run_id": "1658357b-2320-8333-98ac-459762c93799",
     "relay_last_run_id": "85274d2b-f034-832b-89f3-e32dab41a88a",
     "relay_latest_result_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d"
   },
-  "note": "8 Nov 11:00 MSK: 14 boards, 18 pages, 632 videos; 6 init/603 success/23 fail, all six active Unlimited0 and creditsCost0; 16/16 submitted found, independent queue+map SHA match readiness. S49B submission_unknown preserved (Create click count 0), S49D next ready. No free slots, no Create/TinyFish/Topview credits. Work preferred in existing route generation 3, unchanged; no owner task open; no recovery change."
+  "note": "Initial receipt after exact lease acquired, no Create because 6/6. Pending final atomic release+receipt."
 }
