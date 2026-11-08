@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-11-08T17:10:39Z",
+  "updated_at": "2026-11-08T17:19:46Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -1347,7 +1347,7 @@
       "canonical_prompt_sha256": "8fec318fa2725ae2446b13302059c951c2f98a7640a6c9e274b50ba48d50eeec",
       "normalized_prompt_sha256": "9a08770bec47d78f40e2b1a24c69651a9da7d473a6c4225e27343164bfa72d1e",
       "priority": 1.41,
-      "state": "submitting",
+      "state": "submitted",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -1397,8 +1397,62 @@
           "role": "broken_instrument_result_only_not_start_frame"
         }
       ],
-      "task_id": null,
-      "claim": {
+      "task_id": "8a1982a55f794a049a62eaa91bf8827f",
+      "claim": null,
+      "previous_prompt_sha256": [
+        "7918a1db7b98a941c36ad609913b0e0aadb05bf3fa0cefc19ef3dd843f832272",
+        "720a84f481b7ad86b8cca2b8590e230a564eaa2f3c2afc9446e3ea791da48bbf",
+        "c72a2ecc7c5442d65416bd6584cb42a9bd6aa3dc6727737fa2435be2c84d43bf",
+        "832c3251dd7a355faab70444f25945c57406d1792e9b4efa0defb03d33de334f",
+        "8f2d685b4d7b81a394fb33d0a832cecd92d3ec4969888607ced2040cabb84f99"
+      ],
+      "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358).",
+      "dependency_note": "Independent pair finale; no preceding video input. Keep position after50 and before28, skip only genuine blockers.",
+      "owner_review_required_after_item": null,
+      "blocker": null,
+      "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
+      "depends_on_completed": [],
+      "launch_readiness": "authorized_inputs_available",
+      "authorization_before_20261023_expansion": null,
+      "authorization": "Owner25Oct: expand the rock finale so every musician breaks their own instrument; six independent pairs replace the unsubmitted three-musician version. Existing one-attempt zero-credit queue authorization continues.",
+      "previous_gates_20261023": {
+        "depends_on_submitted": [
+          "B7",
+          "B8",
+          "B9",
+          "B3",
+          "S51A",
+          "S43-R1-20261017",
+          "S44-R1-20261017",
+          "S36-S36",
+          "S37-SEED20-P2",
+          "S39-SEED20-P2",
+          "S40-SEED20-P2",
+          "S41",
+          "S42-SEED20-P2",
+          "S47-SEED20-P2",
+          "S48-SEED20-P2",
+          "S52-SEED20-P2",
+          "S53-SEED20-P2",
+          "S54",
+          "S28-A1-TEST-20261017",
+          "S57-SEED20-P2",
+          "S58-SEED20-P2"
+        ],
+        "depends_on_completed": [
+          "S51A"
+        ],
+        "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency. Also requires the actual QC-checked ending of new51A, not merely submitted51A.",
+        "state": "blocked_test_review"
+      },
+      "owner_launch_authorized_at": "2026-10-25T13:10:48.355886Z",
+      "priority_before_20261023_primary": 619,
+      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted.",
+      "revision_note_20261025_all_twelve": "Unsubmitted revision: each part shows two different owners, complete contacts and visible breakage; all inputs exist. Six Wan30 versions remain alternatives.",
+      "submitted_at": "2026-11-08T17:18:48Z",
+      "receipt": "reports/topview-queue-2026-10-16/S51B-20261108T171848Z.json",
+      "ui_proof": "reports/topview-queue-2026-10-16/S51B-20261108T171848Z.jpg",
+      "last_claim": {
         "claim_id": "1e9b7da4-80b3-461d-b240-872a8b0e54e6",
         "run_id": "grok-b26bd06d-5321-47a0-96ce-3a7047baf8ce",
         "claimed_at": "2026-11-08T17:17:45Z",
@@ -1461,57 +1515,7 @@
         "ledger_path": "ops/launcher-run-ledger.json",
         "trigger": "wake",
         "wake_issue": 455
-      },
-      "previous_prompt_sha256": [
-        "7918a1db7b98a941c36ad609913b0e0aadb05bf3fa0cefc19ef3dd843f832272",
-        "720a84f481b7ad86b8cca2b8590e230a564eaa2f3c2afc9446e3ea791da48bbf",
-        "c72a2ecc7c5442d65416bd6584cb42a9bd6aa3dc6727737fa2435be2c84d43bf",
-        "832c3251dd7a355faab70444f25945c57406d1792e9b4efa0defb03d33de334f",
-        "8f2d685b4d7b81a394fb33d0a832cecd92d3ec4969888607ced2040cabb84f99"
-      ],
-      "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358).",
-      "dependency_note": "Independent pair finale; no preceding video input. Keep position after50 and before28, skip only genuine blockers.",
-      "owner_review_required_after_item": null,
-      "blocker": null,
-      "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
-      "depends_on_completed": [],
-      "launch_readiness": "authorized_inputs_available",
-      "authorization_before_20261023_expansion": null,
-      "authorization": "Owner25Oct: expand the rock finale so every musician breaks their own instrument; six independent pairs replace the unsubmitted three-musician version. Existing one-attempt zero-credit queue authorization continues.",
-      "previous_gates_20261023": {
-        "depends_on_submitted": [
-          "B7",
-          "B8",
-          "B9",
-          "B3",
-          "S51A",
-          "S43-R1-20261017",
-          "S44-R1-20261017",
-          "S36-S36",
-          "S37-SEED20-P2",
-          "S39-SEED20-P2",
-          "S40-SEED20-P2",
-          "S41",
-          "S42-SEED20-P2",
-          "S47-SEED20-P2",
-          "S48-SEED20-P2",
-          "S52-SEED20-P2",
-          "S53-SEED20-P2",
-          "S54",
-          "S28-A1-TEST-20261017",
-          "S57-SEED20-P2",
-          "S58-SEED20-P2"
-        ],
-        "depends_on_completed": [
-          "S51A"
-        ],
-        "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency. Also requires the actual QC-checked ending of new51A, not merely submitted51A.",
-        "state": "blocked_test_review"
-      },
-      "owner_launch_authorized_at": "2026-10-25T13:10:48.355886Z",
-      "priority_before_20261023_primary": 619,
-      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted.",
-      "revision_note_20261025_all_twelve": "Unsubmitted revision: each part shows two different owners, complete contacts and visible breakage; all inputs exist. Six Wan30 versions remain alternatives."
+      }
     },
     {
       "scene_id": 51,
