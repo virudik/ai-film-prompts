@@ -823,7 +823,8 @@
       "item_id": "S48-SEED20-P3",
       "slot": "@Video1",
       "source_item_id": "S48-SEED20-P2",
-      "requirement": "Actual last 3 seconds of 48.2 with Serega already mounted. Archive, trim and verify the clip for motion continuity. Start wide on @Image4, pass through the standing pose at @Image5 and finish close on @Image6."
+      "requirement": "S48-P2 exists and its provider success stands. Visual QC rejects it for this join: duplicate Serega and a weak jump. The prepared tail also has a zero-duration final video sample. Do not treat the predecessor as missing and do not use the tail as a launch input.",
+      "source_qc_2026_11_08": "blocked_source_qc"
     },
     {
       "item_id": "S48-SEED20-P4",

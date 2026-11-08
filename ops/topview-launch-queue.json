@@ -2669,7 +2669,7 @@
           "slot": "@Video1",
           "required": true,
           "canonical_role": "previous_part_end",
-          "input_status": "required_not_available",
+          "input_status": "source_result_available_qc_rejected",
           "source_item_id": "S48-SEED20-P2",
           "source_requirement": "Actual last 3 seconds of 48.2 with Serega already mounted. Archive, trim and verify the clip for motion continuity. Start wide on @Image4, pass through the standing pose at @Image5 and finish close on @Image6."
         },
@@ -2723,8 +2723,8 @@
       "task_id": null,
       "claim": null,
       "authorization": "30.10.2026: владелец добавил продолжение поездки к городу. Один запуск по согласованной очереди, Unlimited 0.",
-      "blocker": "Await the actual 48.2 tail for motion, wind and rider-contact continuity. Open wide on @Image4, pass through @Image5 and finish close on @Image6.",
-      "launch_readiness": "blocked_continuity"
+      "blocker": "S48-P2 provider success stands and is not a technical failure. The result exists. Parent-coordinated visual review 2026-11-08 19:45 Europe/Moscow (trace sand-subagent-230f2fef-1a1e-bf70-f697-eac9bce6082f; not 24 fps real-time playback and not audio listening) rejects it for P3: duplicate Serega as the worm rider and as a bald purple-robed spectator among three people on the ground at 11–15s; jump/contact at 8–10s is weak. The tail is not a launch input. Its final video sample duration is 0 (stts 71x512 plus 1x0): video 2.958333s, average frame rate 1728/71, container 3s, final content present. No new artistic attempt is opened by the general 8 November story request. P3 stays blocked.",
+      "launch_readiness": "blocked_continuity_qc"
     },
     {
       "id": "S48-SEED20-P4",
@@ -3946,7 +3946,7 @@
       "canonical_block_label": "59 · Seedance 2.0 часть 3",
       "priority": 0.52,
       "state": "blocked_inputs",
-      "launch_readiness": "blocked_continuity_defect",
+      "launch_readiness": "blocked_continuity_qc",
       "model": "Seedance 2.0",
       "selected_model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -4004,7 +4004,7 @@
       "authorization": "Direct owner24Oct2026: expand scene59 continuation into three15s parts within existing queue. One website Unlimited0 attempt per selected part; no paid route or automatic retry.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
-      "blocker": "S59-P2 succeeded but ends with the ship already fully landed/parked on gear in the forest. The S59-P3 master requires an airborne opening and explicitly forbids concealing a finished landing by resetting the first frame. Do not create last3s/final-frame continuity inputs; owner decision or a new suitable source is required. No automatic artistic rerender.",
+      "blocker": "S59-P2 provider success stands. The known source-QC reject stays (previously labelled blocked_continuity_defect). Parent-coordinated visual review 2026-11-08 19:49 Europe/Moscow (trace sand-subagent-f49c2460-e699-6314-d140-91b212c3bcb1, full original; not 24 fps real-time playback and not audio) confirms it for an airborne P3: 0–2 space, 2–5 atmosphere, 5–9 forest flight, 9–11 gear and descent, a cut near 12s to a craft already on its feet through 15.04s. Physical touchdown itself is not shown. One craft, empty roof, design consistent. Do not synthesize a seam or auto-rerender. The prior artistic budget stays consumed.",
       "input_qc_rule": "Reject a previous-part ending if Serega is on the roof, canopy, wings or exterior hull. Do not propagate the defect or synthesize a replacement continuation; record the blocker for owner decision. During ship motion Serega is inside cockpit; boarding/exiting only via side hatch/ramp on ground.",
       "updated_at": "2026-11-02T11:18:32.530Z",
       "owner_expansion": {
@@ -4356,7 +4356,7 @@
       "authorization": "Direct owner23Oct2026 current chat: create3Kashyyyk scenes and add after worms; existing authorization one free website Unlimited0 attempt per selected part, no paid route or automatic retry.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
-      "blocker": "Wait actual S60-SEED20-P1 ending and continuity QC.",
+      "blocker": "S60-P1 and its exact 3s Drive tail already exist (sha256 25ef02d81397dfa7a4b384349ebff97cc710debb62227de2f7de4956322d2ea4). Do not wait as if the predecessor were missing. Parent-coordinated visual review 2026-11-08 19:47 Europe/Moscow (trace sand-subagent-f49c2460-e699-6314-d140-91b212c3bcb1) passes the tail: P2 continues exterior 0–5s, wide cut at 5s, cockpit cut at 10s; one craft, sufficient clearance and trees, empty roof, gear out is correct for lift. Hatch not visible. Not proven 24 fps real-time playback. Audio not listened. Stays blocked pending that audio QC. The withdrawn 'exterior then later interior is an inherent morph' claim is not a blocker.",
       "input_qc_rule": "Reject a previous-part ending if Serega is on the roof, canopy, wings or exterior hull. Do not propagate the defect or synthesize a replacement continuation; record the blocker for owner decision. During ship motion Serega is inside cockpit; boarding/exiting only via side hatch/ramp on ground."
     },
     {
@@ -4516,7 +4516,7 @@
       "authorization": "Direct owner23Oct2026 current chat: create3Kashyyyk scenes and add after worms; existing authorization one free website Unlimited0 attempt per selected part, no paid route or automatic retry.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
-      "blocker": "Wait actual S61-SEED20-P1 ending and continuity QC."
+      "blocker": "S61-P1 and its exact 3s Drive tail already exist (sha256 f5be94c2474b66bcdf78351863ef2aa737b9475a31bd6f5ebd134f263ed0e15a). Do not wait as if the predecessor were missing. Focused visual review 2026-11-08 19:47 Europe/Moscow (trace sand-subagent-230f2fef-1a1e-bf70-f697-eac9bce6082f) passes the tail and withdraws the earlier future-endpoint and phantom-flicker claims: close Lesha to about 1.33s, one clean cut, then a stable wide of blue Vitalik left, purple Lesha centre-left and red Serega right. Frame order 289..360 is monotonic, one cut at 1.333333s, no backward jump. Not proven 24 fps real-time playback. AAC is present and was not listened. Stays blocked pending audio QC."
     },
     {
       "id": "S62-SEED20-P1",
@@ -4825,7 +4825,7 @@
       "authorization": "Direct owner23Oct2026: create a bridge between the two attached videos and queue with worms; one free website Unlimited0 attempt per selected part; no paid route or auto retry.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
-      "blocker": "Critical continuity overshoot: S62-P1 already reaches the final triangle and blue/green ignition reserved for P2. Do not create a P1 last3s derivative or submit P2 without owner decision or a suitable earlier real handoff.",
+      "blocker": "Critical continuity overshoot stands. Parent-coordinated visual review 2026-11-08 19:49 Europe/Moscow (trace sand-subagent-230f2fef-1a1e-bf70-f697-eac9bce6082f, full original; not 24 fps real-time playback and not audio) sees recovery, unlit standing, the car stop and the walk, then a late phase that reaches the P2 triangle and ignitions. Stills: 12.5/13s Serega still walking, 13.5s green visible, 14s blue at the edge, 14.5/15s the triangle. Do not write that the triangle is exactly at 12.000s. Unconfirmed dual-blade, colour-switch and swapped-places claims are not facts. The current prompt text contains both an unlit walking END STATE and later @Image5/ignition lines; that tension is not the proven cause of this result. No launch derivative and no new artistic budget.",
       "continuity_qc": {
         "checked_at": "2026-11-03T16:01:21.758Z",
         "source_item_id": "S62-SEED20-P1",
@@ -5438,7 +5438,7 @@
       "authorization": "Owner27Oct approved seven separate scene52 parts, all action references and asked this chat to finish prompts/site/queue; replaces held old52 continuation. Existing free-launch authorization for selected52 retained. One selected Unlimited0 render per new part; no paid path, duplicate alternative or automatic retry.",
       "owner_launch_authorized_at": "2026-10-27T11:25:33.064Z",
       "launch_readiness": "blocked_pending_full_continuity_qc",
-      "blocker": "Actual S52-R2-P1 original is archived and an exact real 72-frame/3.0s tail is prepared in Drive; full continuous visual review with audio remains required before launch.",
+      "blocker": "Actual S52-R2-P1 original and the exact 72-frame/3.0s Drive tail (sha256 d9c0d470a9f916363be22830a70aa2fedf9c03609028f84a9ac1fff78da2bb78) already exist. Parent-coordinated visual review 2026-11-08 19:44 Europe/Moscow (trace sand-subagent-f49c2460-e699-6314-d140-91b212c3bcb1) finds the tail usable: approach and ramp, landing into the left seat, right seat empty, minor face morph about 13s, seated endpoint. Hatch closing is not visible and is not sealed. Not proven 24 fps real-time playback. Audio not listened. Stays blocked until that audio gate or an explicit owner change.",
       "input_qc_rule": "Verify exact personal craft identity/scale, face/robe where visible, closed hatch in motion, empty roof, physical departure/landing, motion axis and lighting; no synthetic replacement or propagation of a wrong craft. Success alone does not pass QC.",
       "source_revision": "scene52-seven-parts-2026-10-27",
       "created_at": "2026-10-27T11:25:33.064Z",

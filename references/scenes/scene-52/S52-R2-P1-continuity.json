@@ -65,7 +65,20 @@
     "continuous_full_rate_viewed": false,
     "owner_approval": false,
     "status": "provisional_usable_for_continuity_pending_full_continuous_audio_qc",
-    "blocker": "Full continuous real-time visual playback with audio listening remains required before S52-R2-SEED20-P2 can become launch-ready.",
+    "blocker": "Expert visual review of the existing tail is recorded below and is not 24 fps real-time playback. Audio listening is still required before S52-R2-SEED20-P2 can become launch-ready. Hatch closing was not visible and is not confirmed sealed.",
+    "visual_review_2026_11_08": {
+      "scope": "Parent-coordinated expert visual review of the full source/tail. Not proven 24 fps real-time human playback. Audio was not available to the reviewer; a decodable AAC stream is not listened audio QA. continuous_full_rate_viewed stays false.",
+      "reported_completion_local": "2026-11-08T19:44 Europe/Moscow",
+      "reviewer_trace_name": "sand-subagent-f49c2460-e699-6314-d140-91b212c3bcb1",
+      "task": "Проверить полётные стыки перед продолжением сюжета",
+      "tail_sha256_matches_canonical": "d9c0d470a9f916363be22830a70aa2fedf9c03609028f84a9ac1fff78da2bb78",
+      "continuous_visual": "usable",
+      "timeline": "0–9 approach and ramp, 10–14 landing into the left seat, right seat empty, minor local face morph about 13s, endpoint seated pilot.",
+      "hatch_closed": "not_visible_not_verified",
+      "audio_listened": false,
+      "accepted_as_launch_input": false,
+      "owner_approval": false
+    },
     "technical_decode": {
       "checked_at": "2026-11-02T14:06:36.315Z",
       "derivative_sha256": "d9c0d470a9f916363be22830a70aa2fedf9c03609028f84a9ac1fff78da2bb78",

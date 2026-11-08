@@ -100,9 +100,26 @@
     ],
     "continuous_full_rate_viewed": false,
     "audio_listened": false,
-    "visual_quality_passed": false,
+    "visual_quality_passed": true,
     "owner_approval": false,
-    "note": "Technical extraction and provenance only. No visual/audio approval inferred from decode success. Source state and actual transition must be reviewed before any launch readiness change.",
+    "note": "Historical extraction note stands: decode success is not approval, and the older final-still review below stays sampled-only. Focused tail visual review 2026-11-08 19:47 Europe/Moscow (trace sand-subagent-230f2fef-1a1e-bf70-f697-eac9bce6082f) withdraws two earlier claims from the 19:45 review of the same trace: that P1 must already match the future P2 endpoint, and a phantom flicker. Visual pass of the tail: about 0–1.33s close on Lesha, one clean cut, then a stable wide of three people (blue Vitalik left, purple Lesha centre-left, red Serega right) without a hit or an anatomical problem. Executor frame-order check of the unchanged tail sha256 f5be94c2…: frames 289..360, strictly monotonic PTS, one content cut at 1.333333s, no backward jump and no last-frame glitch. Not proven 24 fps real-time playback. AAC is present and decodable; it was not listened, and an earlier 'audio absent' claim is not justified. Launch readiness stays blocked pending audio QC.",
+    "visual_review_2026_11_08": {
+      "scope": "Parent-coordinated expert visual review of the tail, plus a deterministic frame-order check. Not proven 24 fps real-time human playback and not audio listening. The earlier limited_visual_review remains a single still.",
+      "reported_completion_local": "2026-11-08T19:47 Europe/Moscow",
+      "reviewer_trace_name": "sand-subagent-230f2fef-1a1e-bf70-f697-eac9bce6082f",
+      "task": "Проверить поездку на черве и стыки перед боем",
+      "withdrawn": [
+        "P1 must match the future P2 endpoint",
+        "phantom flicker or a corrupted final frame",
+        "audio absent"
+      ],
+      "continuous_visual": "pass",
+      "cut_pts_seconds": 1.333333,
+      "tail_sha256_matches_canonical": "f5be94c2474b66bcdf78351863ef2aa737b9475a31bd6f5ebd134f263ed0e15a",
+      "audio_listened": false,
+      "accepted_as_launch_input": false,
+      "owner_approval": false
+    },
     "limited_visual_review": {
       "scope": "only the final source frame at15.000s was viewed as a still image",
       "observation": "Single final-frame inspection only: three figures are present; blue blade foreground-left, purple blade deeper-left, red blade at right. Full movement, identities, required distance, blade-roll sequence and sound remain unverified.",

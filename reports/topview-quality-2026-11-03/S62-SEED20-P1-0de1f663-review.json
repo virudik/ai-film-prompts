@@ -68,6 +68,23 @@
     "reason": "Cloud-browser download path was isolated from the managed workspace; provider original remained accessible by task/resource ID. No archive or SHA is claimed."
   },
   "queue_effect": "Block S62-SEED20-P2 only. Independent ready items remain eligible after a fresh free-slot scan.",
+  "followup_visual_review_2026_11_08": {
+    "scope": "Later parent-coordinated visual review of the full original, plus stills at 12.5–15s. Does not rewrite inspection.scope above, which stays sampled browser QC and not a continuous full-frame-rate view.",
+    "reported_completion_local": "2026-11-08T19:49 Europe/Moscow",
+    "reviewer_trace_name": "sand-subagent-230f2fef-1a1e-bf70-f697-eac9bce6082f",
+    "task": "single S62-P1 full original",
+    "timeline": "recovery 0–4, standing with hilts unlit 4–5, car stops 5–6, seated driver then a physical exit and walk 6–12, late phase reaches the P2 triangle and ignitions",
+    "stills": "12.5/13s Serega still walking; 13.5s green visible; 14s blue at the edge; 14.5/15s the triangle. Not 'the triangle is exactly at 12.000s'.",
+    "not_published_as_fact": [
+      "dual blade or red-then-blue switch",
+      "swapped final places"
+    ],
+    "prompt_text_note": "The current P1 prompt contains both an unlit walking END STATE and later @Image5/ignition instructions. That textual tension was checked and is not the proven cause of this result.",
+    "audio_listened": false,
+    "assessment_unchanged": "qc_rejected_for_s62_p2_continuity_overshoot",
+    "owner_approval": false,
+    "accepted_as_launch_input": false
+  },
   "evidence": {
     "provider_task_id": "0de1f663432646d294f409a22e20a26e",
     "canonical_master_blob_sha": "394fc51f46cd6bb7c2881b042ba8dcfeed166f3d",

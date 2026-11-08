@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "9caad45ee87e7a0cd4900b90b89a726b4314a177c26ac69bb73f129d2bc8e389",
+  "source_queue_sha256": "df4b8dd3026ce8b44a6043a59c9d4d32c9c471716563108d1129899cf431a131",
   "source_task_map_sha256": "86b75fda0479799dd5f958e25b125a59cfa6a92f62cee0a4ca4075d20f1e4e80",
   "topview_checked_at": "2026-11-08T16:00:25Z",
   "items": [
@@ -80,9 +80,9 @@
       "id": "S48-SEED20-P3",
       "scene_id": 48,
       "part_label": "Часть 3",
-      "code": "prepare_continuity",
+      "code": "continuity_qc_failed",
       "ready": false,
-      "text": "@Video1: результат 48 · Seedance 2.0 часть 2 получен — подготовить и проверить стык",
+      "text": "@Video1: исходный результат получен, но не прошёл проверку стыка",
       "queue_state": "blocked_inputs"
     },
     {
@@ -188,9 +188,9 @@
       "id": "S59-SEED20-P3",
       "scene_id": 59,
       "part_label": "Часть 3",
-      "code": "prepare_continuity",
+      "code": "continuity_qc_failed",
       "ready": false,
-      "text": "@Video1: результат 59 · Seedance 2.0 часть 2 получен — подготовить и проверить стык; @Image1: результат 59 · Seedance 2.0 часть 2 получен — подготовить и проверить стык",
+      "text": "@Video1: исходный результат получен, но не прошёл проверку стыка; @Image1: исходный результат получен, но не прошёл проверку стыка",
       "queue_state": "blocked_inputs"
     },
     {
@@ -375,5 +375,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-08T16:12:14.198255Z"
+  "checked_at": "2026-11-08T16:58:00.371016Z"
 }
