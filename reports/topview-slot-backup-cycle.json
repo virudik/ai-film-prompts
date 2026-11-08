@@ -4,8 +4,8 @@
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
   "execution_instance_id": "be2fd953-db35-4b6f-9787-3a1cc45c1cbe",
-  "run_id": null,
-  "run_id_unavailable_reason": "Automations.get action returned 404 before invocation; runtime did not expose authoritative ID",
+  "run_id": "2740749e-f9cc-8322-85c6-294a70684acb",
+  "run_id_unavailable_reason": null,
   "source_head": "7364f6d4364d3f1660b80cf7e0cf7939c3219d5c",
   "route_generation": 3,
   "lease_holder": "chatgpt:ordinary:be2fd953-db35-4b6f-9787-3a1cc45c1cbe",
@@ -14,30 +14,56 @@
   "lease_commit": "7364f6d4364d3f1660b80cf7e0cf7939c3219d5c",
   "started_at": "2026-11-08T06:58:13Z",
   "receipt_started_at": "2026-11-08T07:04:12.136Z",
-  "phase": "started",
-  "status": "in_progress",
-  "outcome": null,
+  "phase": "finished",
+  "status": "no_free_slot",
+  "outcome": "no_free_slot",
   "blocker": null,
-  "retryable": null,
+  "retryable": false,
   "scan": {
-    "complete": false
+    "complete": true,
+    "complete_scan_verified": true,
+    "source": "read_only_topview_connector_all_14_boards_all_video_pages",
+    "boards_scanned": 14,
+    "pages_scanned": 18,
+    "video_tasks_scanned": 632,
+    "unique_video_task_ids": 632,
+    "status_counts": {
+      "success": 603,
+      "fail": 23,
+      "init": 6
+    },
+    "active_task_ids": [
+      "abb161edcf5c4b58b91460677939b5d3",
+      "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
+      "101221814fd5430697f697f95a3f4252",
+      "3ebe7c23db05479e9b6f762a75b832e7",
+      "365cf639589a4a5da834d70193d5e8f6",
+      "be960f5e3bf54563aff663fed9da8906"
+    ],
+    "submitted_task_ids_reconciled": 16,
+    "all_submitted_found": true,
+    "details_rechecked": true,
+    "latest_active_recheck_at": "2026-11-08T07:10:16Z",
+    "all_active_unlimited_zero": true
   },
   "slots": {
     "capacity": 6,
-    "occupied": null,
-    "free": null
+    "occupied": 6,
+    "free": 0,
+    "complete_scan_verified": true
   },
-  "browser_transport": "not_started",
+  "browser_transport": "not_used_no_free_slot",
   "tinyfish": {
     "used": false,
     "run_ids": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0
+    "confirmed_cost_usd": 0,
+    "not_run_reason": "Fresh full scan 6/6 physical slots; no paid TinyFish allowed for read-only checks"
   },
   "acceptance": {
     "scheduled_run_verified": true,
-    "topview_read_only_scan_complete": false,
+    "topview_read_only_scan_complete": true,
     "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
@@ -46,6 +72,46 @@
   "new_submissions": [],
   "topview_credits_spent": 0,
   "selected_item": null,
-  "task_ids": [],
-  "note": "Lease independently verified; scan and queue reconciliation in progress."
+  "task_ids": [
+    "abb161edcf5c4b58b91460677939b5d3",
+    "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
+    "101221814fd5430697f697f95a3f4252",
+    "3ebe7c23db05479e9b6f762a75b832e7",
+    "365cf639589a4a5da834d70193d5e8f6",
+    "be960f5e3bf54563aff663fed9da8906"
+  ],
+  "note": "08 Nov 10:00 MSK scheduled cycle: full connector scan 14 boards / 18 pages / 632 distinct video tasks; 6 init, 603 success, 23 fail, all 16 known submitted IDs found. Independent SHA-256 verified queue and task map against readiness. S49B submission_unknown retained, no repeat; S49D next ready. Work preference already restored in route_generation=3, unchanged. No Create and no TinyFish expense. No recovery next_action change.",
+  "checked_at": "2026-11-08T07:14:10.409Z",
+  "completed_at": "2026-11-08T07:14:10.409Z",
+  "holder": "chatgpt:ordinary:be2fd953-db35-4b6f-9787-3a1cc45c1cbe",
+  "next_ready_candidate": "S49D",
+  "queue_reconciliation": {
+    "submitted_count": 16,
+    "all_submitted_found": true,
+    "claimed": 0,
+    "submitting": 0,
+    "submission_unknown": 1,
+    "unresolved_items": [
+      {
+        "id": "S49B",
+        "state": "submission_unknown",
+        "submission_intent_id": "e12e32cf-b8d6-4484-86ef-35acee6e4693",
+        "create_clicked": false
+      }
+    ],
+    "source_queue_sha256": "f1ac25c6ffdaf890cb532135eca4cc8cb8325f6fbbf741c2b198cc4ec53d56f1",
+    "source_task_map_sha256": "f96e3f1805aa231026c6ed1bd242d497191dff55ce46b0c031ce90dda03e3967",
+    "readiness_match_method": "independent SHA256 byte-level recompute of both files vs ops/queue-readiness.json",
+    "readiness": "ops/queue-readiness.json"
+  },
+  "monitor_status": "automation-monitor-status.json launcher_health capacity_full 6/6 checked 2026-11-08T06:50:28Z; bot wake issue #426 at 2026-11-07T21:20:26Z is stale, not live capacity",
+  "owner_tasks": "checked_open_0",
+  "peer_reconciliation": {
+    "hh00_last_run_id": "2740749e-f9cc-8322-85c6-294a70684acb",
+    "hh00_latest_result_run_id": "1f1e1898-9c50-832b-ad4c-623543ab5a60",
+    "hh55_last_run_id": "7eac6b8c-c668-832c-8677-490a1c0a2d3c",
+    "hh55_latest_result_run_id": "1658357b-2320-8333-98ac-459762c93799",
+    "relay_last_run_id": "85274d2b-f034-832b-89f3-e32dab41a88a",
+    "relay_latest_result_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d"
+  }
 }
