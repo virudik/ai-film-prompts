@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-08T17:33:23+00:00",
-  "source_head": "491282690181882984431e7974581f7d20df28d6",
-  "source_fingerprint": "78c3bfd9f66ca4ac802e503cc8010a138d0ae1894498be236ca1350589279933",
+  "checked_at": "2026-11-08T17:43:32+00:00",
+  "source_head": "df663539e24ee7d5cdc98f9ff7054807ab49ea7f",
+  "source_fingerprint": "b44132e4920ca848a2b1b979ebddb8265ea9aa44da1d32f64e268cdba79324d9",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -174,6 +174,13 @@
       {
         "item_id": "S49B",
         "state": "submission_unknown",
+        "task_id": null,
+        "recovery_action": "reconcile_without_resubmitting",
+        "submit_authorized": false
+      },
+      {
+        "item_id": "S51D",
+        "state": "submitting",
         "task_id": null,
         "recovery_action": "reconcile_without_resubmitting",
         "submit_authorized": false
@@ -440,13 +447,6 @@
     ],
     "next_candidates": [
       {
-        "item_id": "S51D",
-        "state": "waiting_for_slot",
-        "task_id": null,
-        "recovery_action": "fresh_launch_preflight_required",
-        "submit_authorized": false
-      },
-      {
         "item_id": "S51E",
         "state": "waiting_for_slot",
         "task_id": null,
@@ -455,6 +455,13 @@
       },
       {
         "item_id": "S51F",
+        "state": "waiting_for_slot",
+        "task_id": null,
+        "recovery_action": "fresh_launch_preflight_required",
+        "submit_authorized": false
+      },
+      {
+        "item_id": "S51G",
         "state": "waiting_for_slot",
         "task_id": null,
         "recovery_action": "fresh_launch_preflight_required",
@@ -516,13 +523,13 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "45ea67d4914279b189fc219f737ba505e8e65acb1410bd817d7cff3cfacd0863",
-      "bytes": 410237
+      "sha256": "3d63788475f0b7511fe55893ba93f39c2cd14caeb76639aee61fb03033d21084",
+      "bytes": 413556
     },
     {
       "file": "project-status.json",
-      "sha256": "8e5caeaed746b97bc4de523ac9fbaccc906a4d1c9b04f93f30d314304fd7f40b",
-      "bytes": 23013
+      "sha256": "8117d217f2556a2940ee0e547a1a4f576012b00691dd97abd4a6fbd9d28aab4a",
+      "bytes": 23011
     },
     {
       "file": "reports/chat-handoff-save-2026-11-08.json",
@@ -546,13 +553,13 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "ab6e3e32058cbff8dce830c5451d01ba356da25939326a657e150e96283b414b",
+      "sha256": "38c8298f2123bf8de7564f3786683b9e1aa160da2ff699de38a1f3e2840a8099",
       "bytes": 25542
     },
     {
       "file": "video-prompts.md",
-      "sha256": "e9092d84ce105d822c1aa3958bc4ac3db8949cca87999d19e90cbe29f0658944",
-      "bytes": 1375177
+      "sha256": "e71e3effe1a69138777df5f4ff42acd2a7bcc8cdd6b0917686f004c8498d38f2",
+      "bytes": 1375545
     },
     {
       "file": "work-resume-register.json",
@@ -560,5 +567,5 @@
       "bytes": 97604
     }
   ],
-  "packet_bytes": 6505
+  "packet_bytes": 6544
 }

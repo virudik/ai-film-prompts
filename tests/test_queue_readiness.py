@@ -76,33 +76,35 @@ class QueueReadinessTests(unittest.TestCase):
         private=dict(declared,id='P4',references=[{'slot':'@Video1','required':True,'source_item_id':'P1',
                      'library_file_id':'libfile_saved','sha256':'a'*64,'input_status':'available'}])
         self.assertFalse(qr.continuity_blocks_launch(private,self.root))
-    def test_story_first_defers_music_until_no_story_remains(self):
+    def test_music_needs_new_consent_and_intent_stays(self):
         (self.root/'note.txt').write_bytes(b'story-ref')
         digest=qr.digest(self.root/'note.txt')
         ref=[{'slot':'@Image1','path':'note.txt','sha256':digest}]
-        music={'id':'S51D','scene_id':51,'priority':0.1,'state':'waiting_for_slot','references':ref}
-        story={'id':'S52','scene_id':52,'priority':0.2,'state':'waiting_for_slot','references':ref}
+        music={'id':'S51E','scene_id':51,'priority':0.1,'state':'waiting_for_slot','references':ref}
+        story={'id':'S52','scene_id':52,'priority':0.2,'state':'waiting_for_slot','references':ref,
+               'depends_on_completed':['PREV'],'references':[{'slot':'@Video1','path':'note.txt','sha256':digest,
+               'input_status':'available','canonical_role':'previous_part_end'}]}
+        plain={'id':'FREE','scene_id':60,'priority':0.3,'state':'waiting_for_slot','references':ref}
         running={'id':'S51B','scene_id':51,'priority':0.05,'state':'submitted','task_id':'T51B','references':[]}
-        inflight={'id':'S51C','scene_id':51,'priority':0.06,'state':'submitting','task_id':None,'references':ref,
-                  'claim':{'submission_intent_id':'intent-s51c','submission_intent_at':'2026-11-08T17:25:32Z'}}
-        self.run_case([music,story,running,inflight])
+        inflight={'id':'S51D','scene_id':51,'priority':0.06,'state':'submitting','references':ref,
+                  'claim':{'submission_intent_id':'de496b26-2a6c-4d52-befd-c773c0f90871','submission_intent_at':'2026-11-08T17:37:41Z','replay_forbidden':True}}
+        parent={'id':'PREV','scene_id':52,'state':'submitted','task_id':'T','references':[]}
+        self.run_case([music,story,plain,running,inflight,parent],[{'task_id':'T','final_status':'success'}])
         q=json.loads((self.root/'ops/topview-launch-queue.json').read_text())
-        q['owner_policy_20261108_t365u']={'effect':'story_first_then_music_fallback','scenes':[28,49,50,51]}
+        q['owner_policy_20261108_t369u']={'effect':'music_requires_owner_consent','scenes':[28,49,50,51]}
         (self.root/'ops/topview-launch-queue.json').write_text(json.dumps(q))
-        rows={r['id']:r for r in qr.derive(self.root)['items']}
-        self.assertTrue(rows['S51D']['ready'])
-        self.assertTrue(rows['S52']['ready'])
-        self.assertNotIn('S51B', rows)
-        self.assertEqual(rows['S51C']['code'],'preflight_required')
         picked=qr.launch_candidates(self.root)
-        self.assertEqual(picked['chosen'],['S52'])
+        self.assertEqual(picked['chosen'],['FREE','S52'])
         reasons={row['id']:row['reason'] for row in picked['skipped']}
-        self.assertEqual(reasons['S51D'],'story_first')
-        story['state']='blocked_inputs'
-        q['items']=[story,music,running,inflight]
+        self.assertEqual(reasons['S51E'],'music_owner_consent_required')
+        self.assertEqual(reasons['S51D'],'preflight_required')
+        self.assertTrue(qr.music_create_blocked(q, inflight))
+        self.assertFalse(qr.music_create_blocked(q, running))
+        self.assertEqual(inflight['claim']['submission_intent_id'],'de496b26-2a6c-4d52-befd-c773c0f90871')
+        plain['state']='blocked_inputs'
+        q['items']=[music,story,plain,running,inflight,parent]
         (self.root/'ops/topview-launch-queue.json').write_text(json.dumps(q))
-        self.assertEqual(qr.launch_candidates(self.root)['chosen'],['S51D'])
-        self.assertTrue(qr.story_waiting(self.root) is False)
+        self.assertEqual(qr.launch_candidates(self.root)['chosen'],['S52'])
     def test_does_not_mutate_queue_or_repeat_unchanged_write(self):
         self.run_case([self.first]);before=(self.root/'ops/topview-launch-queue.json').read_bytes()
         self.assertTrue(qr.write(self.root));self.assertFalse(qr.write(self.root))

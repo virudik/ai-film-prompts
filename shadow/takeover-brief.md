@@ -2,21 +2,21 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-11-08T17:20:58+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-11-08T17:46:18+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
 GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main
 
 ## Источники (sha256)
-- NEW-CHAT-HANDOFF.md · копия на Drive `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD` · 34797 B · `a3213ab126208ceb`
+- NEW-CHAT-HANDOFF.md · копия на Drive `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD` · 34980 B · `4ca8159c8b2d2a13`
 - SYNC-RUNBOOK.md · копия на Drive `1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4` · 130798 B · `244e9a47dc3e3b69`
 - AI-PROJECT-GUIDE.md · копия на Drive `1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u` · 42769 B · `c62976f8c2561633`
 - PROMPT-STYLE-GUIDE.md · копия на Drive `14VzE8DwjKIquGJWENci6rYWj_1xEn34d` · 81982 B · `2afe827fe839af54`
-- USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 84087 B · `b115d684906c9cb5`
+- USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 84346 B · `931b751a155ab065`
 - README-AI-SYNC.md · копия на Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 18336 B · `164f1faf3fc2ffe8`
 - BACKUP-AI-RUNBOOK.md · копия на Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 21763 B · `6b0a0ba95d23937c`
-- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1375177 B · `e9092d84ce105d82`
+- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1377318 B · `8714e9fababad3dc`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story. → `NEW-CHAT-HANDOFF.md` ✓
@@ -49,7 +49,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 36 | После пещеры: Серёга уходит с фрагментом карты | Wan 3 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | ee119b556282 |
 | 41 | Серёга увозит древний ПК с планеты ситхов | Wan 3 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 809d46f72e41 |
 | 42 | Татуин: бой на фоне червя — червь им не интересен | Seedance 2.0 | DRAFT/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [16] | c95650c748d9 |
-| 48 | Татуин: после боя Канцлер забирает фрагмент карты | Seedance 2.0 | READY/SLOW_PENDING | 5 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [56] | 7433527dcdf8 |
+| 48 | Татуин: после боя Канцлер забирает фрагмент карты | Seedance 2.0 | READY/SLOW_PENDING | 5 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [56] | 12e53aeae923 |
 | 49 | Финальный музыкально-танцевальный номер: Космическая рок-гру | Seedance 2.0 | READY/SLOW_PENDING | 11 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 @Image8 @Image9 | [28] | 9728847bd505 |
 | 50 | Финальный музыкально-танцевальный номер: Вуки на площадке и  | Seedance 2.0 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [28, 49] | dfe4a2e45e04 |
 | 51 | Финальный музыкально-танцевальный номер: Рок-финал: каждый р | Seedance 2.0 | READY/SLOW_PENDING | 14 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 | [28, 49, 50] | 190d31931780 |
@@ -57,10 +57,10 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 56 | Татуин: бой в движении — червь требует внимания | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 | [42] | 51de054e3810 |
 | 57 | РосКОТмос: аварийная посадка котов на планете ситхов | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | c12ca1c3d38d |
 | 58 | РосКОТмос: коты выбегают из горящего корабля | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 @Image8 | [57] | 9b7b68faabdc |
-| 59 | Кашиик: динамичное прибытие и предвкушение грибной прогулки | Seedance 2.0 | READY/SLOW_PENDING | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 | [] | 3b3fba5cf5f7 |
+| 59 | Кашиик: динамичное прибытие и предвкушение грибной прогулки | Seedance 2.0 | READY/SLOW_PENDING | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 | [] | 646f559ab892 |
 | 60 | Кашиик: Серёга уходит после боя и взлетает | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 27db03e5035b |
 | 61 | Кашиик: ковбойское сближение перед дуэлью | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 | [] | 5fd864ce0015 |
-| 62 | Татуин: после погони — обратно к противостоянию | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 2c7a573b4313 |
+| 62 | Татуин: после погони — обратно к противостоянию | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 9d8b53e2231f |
 | 63 | Храм ситхов: великие люди все на одно лицо | Wan 3 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 | [] | cc415ed9cd2c |
 | 64 | Звёздный разрушитель: Серёга пританцовывает по коридору | Wan 3 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 | [] | 65377f0aba69 |
 | 65 | Татуинская связка 7/7 · Серёга молча выпивает в баре с Бобой | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [70] | 6cb6303199f5 |
@@ -95,4 +95,4 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 
 ## Текущий checkpoint (дословно из NEW-CHAT-HANDOFF.md, до пометки «Предыдущая история»)
 
-См. `current-checkpoint.md` (22676 симв., sha `6aa872a0ca40`).
+См. `current-checkpoint.md` (22795 симв., sha `5d5d1c9e53e0`).
