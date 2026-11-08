@@ -3,7 +3,7 @@
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
 Состояние: ready
-Проверено: 2026-11-08T15:09:01+00:00
+Проверено: 2026-11-08T15:10:58+00:00
 Задача: TOPVIEW-SLOT-PRIORITY-20261024 — Заполнение свободных Topview-слотов — задача №1
 
 Последний подтверждённый этап: Опубликованы точный порядок6роликов и6проверенных Rutube-плееров. ОСД/ЗВ сохранены наDrive с обратным SHAreadback и удалены только из текущего сайта (161912522B); история сохранена. Сцена5HONORсинхронизирована с правилами90с/безмузыки, заявка не отправлена. Инвентарь13YouTubeID готов; Pages403 блокирует сертификаты. Готовое помечено OK.
@@ -55,9 +55,8 @@ checked_at: 2026-11-08T08:05:31+00:00
 ## Незавершённые отправки
 
 Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconcile first; no retry.
-Задач с сохранённым task ID: 55
+Задач с сохранённым task ID: 56
 - S49B: reconcile_without_resubmitting
-- S49D: reconcile_without_resubmitting
 
 ## Пробелы
 

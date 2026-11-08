@@ -2,7 +2,7 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-11-08T15:03:27+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-11-08T15:10:58+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -16,7 +16,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 - USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 84087 B · `b115d684906c9cb5`
 - README-AI-SYNC.md · копия на Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 18336 B · `164f1faf3fc2ffe8`
 - BACKUP-AI-RUNBOOK.md · копия на Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 21763 B · `6b0a0ba95d23937c`
-- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1370904 B · `29f9de88b54acd4d`
+- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1372487 B · `ae8dd4876f951e4f`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story. → `NEW-CHAT-HANDOFF.md` ✓
@@ -54,15 +54,15 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 50 | Финальный музыкально-танцевальный номер: Вуки на площадке и  | Seedance 2.0 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [28, 49] | dfe4a2e45e04 |
 | 51 | Финальный музыкально-танцевальный номер: Рок-финал: каждый р | Seedance 2.0 | READY/IDLE | 14 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 | [28, 49, 50] | 7cd601059591 |
 | 52 | Татуинская связка 1/7 (начало в части 7) · Серёга пересажива | Seedance 2.0 (P1–P6); Wan 3.0 (P7) | DRAFT/SLOW_PENDING | 14 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 5a14842cf82c |
-| 56 | Татуин: бой в движении — червь требует внимания | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 | [42] | 73dc1bb6e064 |
+| 56 | Татуин: бой в движении — червь требует внимания | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 | [42] | 51de054e3810 |
 | 57 | РосКОТмос: аварийная посадка котов на планете ситхов | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | c12ca1c3d38d |
 | 58 | РосКОТмос: коты выбегают из горящего корабля | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 @Image8 | [57] | 9b7b68faabdc |
 | 59 | Кашиик: динамичное прибытие и предвкушение грибной прогулки | Seedance 2.0 | READY/SLOW_PENDING | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 | [] | 3b3fba5cf5f7 |
 | 60 | Кашиик: Серёга уходит после боя и взлетает | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 27db03e5035b |
 | 61 | Кашиик: ковбойское сближение перед дуэлью | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 | [] | 5fd864ce0015 |
 | 62 | Татуин: после погони — обратно к противостоянию | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 2c7a573b4313 |
-| 63 | Храм ситхов: великие люди все на одно лицо | Wan 3 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 | [] | c5ad053571f9 |
-| 64 | Звёздный разрушитель: Серёга пританцовывает по коридору | Wan 3 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 | [] | e63a2893be3e |
+| 63 | Храм ситхов: великие люди все на одно лицо | Wan 3 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 | [] | cc415ed9cd2c |
+| 64 | Звёздный разрушитель: Серёга пританцовывает по коридору | Wan 3 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 | [] | 65377f0aba69 |
 | 65 | Татуинская связка 7/7 · Серёга молча выпивает в баре с Бобой | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [70] | 6cb6303199f5 |
 | 66 | Татуинская связка 2/7 · Алина, Даша и Стич | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 | [52] | 03383b939476 |
 | 67 | Татуинская связка 3/7 · Маша Р яростно спорит с продавцом фр | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 | [66] | 78c6a4427c70 |
@@ -71,7 +71,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 70 | Татуинская связка 6/7 · бесшовный пролёт с улицы к столику С | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 | [69] | aebb6d03780f |
 | 71 | Виталик на троне из кальянов: «Вот такая вот история получил | Wan 3 | DRAFT/SLOW_PENDING | 4 | @Image1 @Image2 @Image3 @Image4 | [] | 998cc6c3fafe |
 | 72 | Виталик на троне из кальянов: «Всем привет» — пролог | Wan 3 | DRAFT/SLOW_PENDING | 4 | @Image1 @Image2 @Image3 @Image4 | [] | 5a9a477848a6 |
-| 73 | Виталик на троне: «Думаете это уже конец?» — перед титрами | Wan 3.0 | DRAFT/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 | [] | 07137e522dc9 |
+| 73 | Виталик на троне: «Думаете это уже конец?» — перед титрами | Wan 3.0 | DRAFT/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 | [] | b96a2f90cd48 |
 
 ## Что читать под задачу (сверх брифа)
 - **takeover** — документы: —; master: index_only (D7 (owner 14.10.2026): short takeover = this read set; open full sections per task; any fallback trigger → full 7+master+status read.)
