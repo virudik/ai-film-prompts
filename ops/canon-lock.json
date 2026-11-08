@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:7236f708-38d4-4410-ae05-201476516bf7",
-  "task": "launch S50B (grok helper, slot-wake issue #452)",
-  "acquired_at": "2026-11-08T16:08:53Z",
-  "expires_at": null,
-  "released_at": "2026-11-08T16:12:07Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:3e15ce74-0366-42fc-8246-371e5c741112",
+  "task": "Save completed and open cross-chat tasks in plan, handoff and canonical recovery checkpoints; no production operations",
+  "acquired_at": "2026-11-08T16:15:32Z",
+  "expires_at": "2026-11-08T16:45:35Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
