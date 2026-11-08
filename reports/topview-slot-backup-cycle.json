@@ -15,38 +15,98 @@
   "lease_commit": "bc906a57e39523312440aff9891a1ee724771e97",
   "started_at": "2026-11-08T13:29:14.207340Z",
   "receipt_started_at": "2026-11-08T13:32:58.140Z",
-  "phase": "started",
-  "status": "in_progress",
-  "outcome": null,
+  "phase": "finished",
+  "status": "no_free_slot",
+  "outcome": "no_free_slot",
   "blocker": null,
-  "retryable": null,
+  "retryable": false,
   "scan": {
-    "complete": false
+    "checked_at": "2026-11-08T13:40:44.710Z",
+    "scope": "all_owned_boards_all_video_pages",
+    "boards": 14,
+    "pages": 18,
+    "videos": 632,
+    "complete": true,
+    "by_status": {
+      "success": 603,
+      "init": 6,
+      "fail": 23
+    },
+    "errors": [],
+    "verification": "read-only Topview list_boards and list_board_tasks all 14 boards; all 18 pages returned valid success with expected pagination; active slots refreshed on My First Board"
   },
   "slots": {
     "capacity": 6,
-    "occupied": null,
-    "free": null
+    "occupied": 6,
+    "free": 0,
+    "complete_scan_verified": true,
+    "active_task_ids": [
+      "abb161edcf5c4b58b91460677939b5d3",
+      "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
+      "101221814fd5430697f697f95a3f4252",
+      "3ebe7c23db05479e9b6f762a75b832e7",
+      "365cf639589a4a5da834d70193d5e8f6",
+      "be960f5e3bf54563aff663fed9da8906"
+    ]
   },
-  "browser_transport": "not_used",
+  "browser_transport": "not_used_no_free_slot",
   "tinyfish": {
     "used": false,
     "run_ids": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0
+    "confirmed_cost_usd": 0,
+    "not_run_reason": "Verified 6 of 6 physical Topview slots occupied; paid idle polling and Create forbidden"
   },
   "acceptance": {
     "scheduled_run_verified": true,
-    "topview_read_only_scan_complete": false,
+    "topview_read_only_scan_complete": true,
     "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
-    "new_task_id_verified": false
+    "new_task_id_verified": false,
+    "production_submission_verified": false
   },
   "new_submissions": [],
   "topview_credits_spent": 0,
   "selected_item": null,
   "task_ids": [],
-  "checked_at": "2026-11-08T13:32:58.140Z"
+  "checked_at": "2026-11-08T13:40:44.710Z",
+  "completed_at": "2026-11-08T13:40:44.710Z",
+  "holder": "chatgpt:ordinary:7186c9a7-e93d-42c6-81c9-d20e24d911c0",
+  "queue_reconciliation": {
+    "submitted_count": 16,
+    "all_submitted_found": true,
+    "all_submitted_verified_in_board_scan": true,
+    "claimed": 0,
+    "submitting": 0,
+    "submission_unknown": 1,
+    "unresolved_items": [
+      {
+        "id": "S49B",
+        "state": "submission_unknown",
+        "task_id": null,
+        "submission_intent_id": "e12e32cf-b8d6-4484-86ef-35acee6e4693",
+        "create_click_count": 0,
+        "replay_forbidden": true
+      }
+    ],
+    "source_queue_sha256": "f1ac25c6ffdaf890cb532135eca4cc8cb8325f6fbbf741c2b198cc4ec53d56f1",
+    "source_task_map_sha256": "b61beb41d5fa11376c661a83429e79eee6ff657cb3e45a0212fea8aa19451fdf",
+    "readiness_match_method": "Independent pure-JS SHA256 of UTF-8 fresh GitHub contents; abc/empty standard vectors verified",
+    "readiness_checked_at": "2026-11-08T13:00:26.645751Z"
+  },
+  "owner_tasks": "checked_open_0",
+  "monitor_status": "Robot snapshot 2026-11-08T13:00:22Z reports 6/6; independent 14-board complete read-only scan during current 16:00 MSK cycle also 6/6. Past wake issues not considered current capacity.",
+  "peer_reconciliation": {
+    "hh00_last_run_id": "fc671833-7848-832a-834a-4fc9f594f468",
+    "hh00_latest_result_run_id": "9925cd48-ef04-8333-bffc-a515869f264b",
+    "hh55_last_run_id": "3cdd2640-2364-8320-9421-b8680e3f7c8c",
+    "hh55_latest_result_run_id": "1658357b-2320-8333-98ac-459762c93799",
+    "relay_last_run_id": "85274d2b-f034-832b-89f3-e32dab41a88a",
+    "relay_latest_result_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d"
+  },
+  "note": "8 Nov 2026 ordinary HH:00. 14 boards, 18 pages, 632 video tasks. Six active init on My First Board useUnlimitMode=true; no Create or TinyFish. All 16 submitted task IDs matched same board, one unresolved S49B intent with recorded zero clicks remains nonreplayable. Both source SHA256 match readiness. Next ready S49D. The independent standalone query endpoint rejects board videoEdit task type; complete board scan is authority for physical slots. No owner tasks, checkpoint, queue or route changes.",
+  "next_ready_candidate": "S49D",
+  "finished_head_before_commit": "fd0fa1d8e1575236e2d5dc503b2f740b7c4da64f"
 }
