@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:faca46e5-321a-4fff-97af-76f8fda97aa1",
   "task": "Scheduled ordinary: verify complete Topview global slots and save cycle receipt",
   "acquired_at": "2026-11-08T14:05:33.151Z",
-  "expires_at": "2026-11-08T14:30:33.151Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-08T14:08:27.358Z",
   "rules": "ops/CANON-LOCK.md"
 }

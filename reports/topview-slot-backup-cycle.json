@@ -15,9 +15,9 @@
   "lease_commit": "e7bb38f209370aea19d3fe054c292ba6164871e4",
   "started_at": "2026-11-08T13:57:42.169453Z",
   "receipt_started_at": "2026-11-08T14:06:33.370Z",
-  "phase": "started",
-  "status": "scanning_complete_pending_final_receipt",
-  "outcome": null,
+  "phase": "finished",
+  "status": "no_free_slot",
+  "outcome": "no_free_slot",
   "scan": {
     "scope": "all_owned_boards_all_video_pages",
     "boards": 14,
@@ -30,7 +30,8 @@
       "fail": 23
     },
     "checked_at": "2026-11-08T14:04:18.389Z",
-    "errors": []
+    "errors": [],
+    "verification": "Topview connector read-only list_boards=14, all video pages=18, including 5-page My First Board; six init each independently verified via topview_get_board_task; exact full-scope 632 videos"
   },
   "slots": {
     "capacity": 6,
@@ -68,5 +69,44 @@
   "topview_credits_spent": 0,
   "selected_item": null,
   "task_ids": [],
-  "holder": "chatgpt:ordinary:faca46e5-321a-4fff-97af-76f8fda97aa1"
+  "holder": "chatgpt:ordinary:faca46e5-321a-4fff-97af-76f8fda97aa1",
+  "blocker": null,
+  "retryable": false,
+  "queue_reconciliation": {
+    "submitted_count": 16,
+    "archived_video_submitted_count": 33,
+    "all_submitted_found": true,
+    "all_submitted_verified_in_board_scan": true,
+    "claimed": 0,
+    "submitting": 0,
+    "submission_unknown": 1,
+    "unresolved_items": [
+      {
+        "id": "S49B",
+        "state": "submission_unknown",
+        "task_id": null,
+        "submission_intent_id": null,
+        "replay_forbidden": true
+      }
+    ],
+    "source_queue_sha256": "f1ac25c6ffdaf890cb532135eca4cc8cb8325f6fbbf741c2b198cc4ec53d56f1",
+    "source_task_map_sha256": "97509e9756de71ac1d56408d438ac5cdd8823725babe2516a21d27a896a00bf7",
+    "readiness_match_method": "independently computed pure JS SHA256 UTF8 verified against empty and abc vectors",
+    "readiness_checked_at": "2026-11-08T13:50:42.894415Z"
+  },
+  "owner_tasks": "checked_open_0",
+  "monitor_status": "robot observation 2026-11-08T13:50:35Z 6/6; independent full 14-board video scan 6/6 checked 14:04Z; old wake events not treated as fresh capacity",
+  "peer_reconciliation": {
+    "hh00_last_run_id": "4ffbab7b-b1f0-8321-b4a0-33b950e7d3d2",
+    "hh00_latest_result_run_id": "fc671833-7848-832a-834a-4fc9f594f468",
+    "hh55_last_run_id": "48652b71-fe84-832b-935d-743e3a2e6f5f",
+    "hh55_latest_result_run_id": "1658357b-2320-8333-98ac-459762c93799",
+    "relay_last_run_id": "85274d2b-f034-832b-89f3-e32dab41a88a",
+    "relay_latest_result_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d"
+  },
+  "next_ready_candidate": "S49D",
+  "checked_at": "2026-11-08T14:04:38.751Z",
+  "completed_at": "2026-11-08T14:08:27.358Z",
+  "finished_head_before_commit": "0d228fee18e9b3d4709e7b098d82473869e5f6ad",
+  "note": "8 Nov 2026 ordinary scheduled cycle. 14 boards 18 pages 632 video tasks: 603 success, 6 init, 23 fail. Six active init independently verified on exact My First Board (Unlimited, creditsCost0); capacity full. All 16 current submitted task IDs and 33 archived submitted video task IDs found on My First Board; 3 archived image tasks correctly omitted from video scan. SHA256 queue and task-map match current readiness. S49B still submission_unknown, replay forbidden. Next ready independent S49D. No Create, TinyFish, Topview credits, owner tasks, route or checkpoint changes."
 }
