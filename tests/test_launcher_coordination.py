@@ -188,6 +188,16 @@ class GrokHelperTests(unittest.TestCase):
         for board in ('other-board', None):
             with self.subTest(board=board), self.assertRaises(lc.Blocked):
                 self.intent(item=dict(self.item, board_id=board))
+    def test_grok_submission_cap_is_finite(self):
+        self.assertEqual(self.intent(actor=dict(self.actor, submissions_this_wake=0))['state'], 'submitting')
+        with self.assertRaises(lc.Blocked): self.intent(actor=dict(self.actor, submissions_this_wake=1))
+        cfg=copy.deepcopy(self.cfg)
+        cfg['grok_launcher']['max_submissions_per_wake']=6
+        cfg['grok_launcher']['slot_capacity']=6
+        self.assertEqual(self.intent(cfg=cfg, actor=dict(self.actor, submissions_this_wake=5))['state'], 'submitting')
+        with self.assertRaises(lc.Blocked): self.intent(cfg=cfg, actor=dict(self.actor, submissions_this_wake=6))
+        cfg['grok_launcher']['max_submissions_per_wake']=100
+        with self.assertRaises(lc.Blocked): self.intent(cfg=cfg, actor=dict(self.actor, submissions_this_wake=0))
     def test_grok_one_submission_per_wake(self):
         with self.assertRaises(lc.Blocked): self.intent(actor=dict(self.actor, submissions_this_wake=1))
         with self.assertRaises(lc.Blocked): self.intent(actor=dict(self.actor, submissions_this_wake='0'))
@@ -389,7 +399,11 @@ class GrokHelperTests(unittest.TestCase):
         policy = cfg['grok_launcher']
         self.assertEqual(policy['role'], 'helper')
         self.assertEqual(policy['board_id'], BOARD)
-        self.assertEqual(policy['max_submissions_per_wake'], 1)
+        self.assertEqual(policy['slot_capacity'], 6)
+        self.assertEqual(policy['max_submissions_per_wake'], 6)
+        self.assertEqual(policy['wake_batch']['owner_quote'],
+                         'Вопрос из тг: поднять лимит отправок на одно пробуждение, чтобы свободные слоты заполнялись сразу? Да')
+        self.assertIn('отрывком прошлого ролика', policy['wake_batch']['continuity_quote'])
         self.assertIsInstance(policy['acceptance']['state'], str)
         self.assertIs(policy['acceptance']['dry_run_s71_wan30_stop_before_create'], True)
         self.assertIsInstance(policy['first_real_create']['owner_go_ahead'], bool)

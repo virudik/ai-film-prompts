@@ -12,6 +12,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 FINAL = {'submitted', 'completed', 'cancelled_owner', 'held_owner_site'}
+CONTINUITY_ROLES = {'previous_part_end', 'continuity'}
+SUBSTANTIVE_OUTCOMES = {'content_refusal', 'copyright_refusal', 'moderation_refusal', 'substantive_refusal'}
 
 def read(p, default=None):
     try:
@@ -110,6 +112,90 @@ def derive(root):
             'source_task_map_sha256':digest(root/'topview-task-map.json') if (root/'topview-task-map.json').exists() else None,
             'topview_checked_at':tv.get('checked_at'), 'items':rows,
             'rule':'Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.'}
+
+def is_continuity_ref(ref):
+    """A previous-part excerpt. A dependency id alone is not this reference."""
+    if not isinstance(ref, dict) or ref.get('required') is False:
+        return False
+    return (str(ref.get('slot') or '').startswith('@Video') or bool(ref.get('source_item_id')) or
+            ref.get('canonical_role') in CONTINUITY_ROLES or ref.get('source_kind') == 'actual_topview_result_trim')
+
+
+def excerpt_materialized(ref, root=None):
+    """The excerpt is loaded only when its bytes or a saved private id match the recorded SHA."""
+    if not isinstance(ref, dict) or ref.get('input_status') not in (None, 'available'):
+        return False
+    sha = ref.get('sha256')
+    if not isinstance(sha, str) or len(sha) < 8:
+        return False
+    path = ref.get('path')
+    if path:
+        if root is None:
+            return False
+        file = Path(root) / path
+        return file.is_file() and digest(file) == sha
+    return bool(ref.get('drive_file_id') or ref.get('library_file_id'))
+
+
+def continuity_blocks_launch(item, root=None):
+    """Linked work needs every required previous-part excerpt. depends_on_* is not the file."""
+    if not isinstance(item, dict):
+        return True
+    refs = [ref for ref in (item.get('references') or []) if isinstance(ref, dict) and ref.get('required') is not False]
+    linked_refs = [ref for ref in refs if is_continuity_ref(ref)]
+    linked = bool(linked_refs) or bool(item.get('depends_on_completed')) or bool(item.get('depends_on_submitted'))
+    if not linked:
+        return False
+    if not linked_refs:
+        return True
+    return any(not excerpt_materialized(ref, root) for ref in linked_refs)
+
+
+def substantive_refusal(item):
+    """Content/copyright/moderation refusal is not a technical retry without a separate owner yes."""
+    if not isinstance(item, dict) or item.get('owner_retry_authorized') is True:
+        return False
+    if item.get('substantive_refusal') is True or str(item.get('provider_error_code') or '') == '7000':
+        return True
+    for row in item.get('submission_history') or []:
+        if isinstance(row, dict) and (row.get('outcome') in SUBSTANTIVE_OUTCOMES or str(row.get('error_code') or '') == '7000'):
+            return True
+    return False
+
+
+def launch_candidates(root, limit=None):
+    """Priority order of items that are actually ready to Create. Read-only."""
+    root = Path(root)
+    queue = read(root / 'ops/topview-launch-queue.json', {})
+    derived = {row['id']: row for row in derive(root)['items']}
+    items = [item for item in queue.get('items', []) if isinstance(item, dict)]
+
+    def priority(item):
+        value = item.get('priority')
+        return (value if type(value) in (int, float) else 10 ** 9, str(item.get('id')))
+
+    chosen, skipped = [], []
+    if limit is not None and limit <= 0:
+        return {'chosen': chosen, 'skipped': skipped}
+    for item in sorted(items, key=priority):
+        item_id = item.get('id')
+        row = derived.get(item_id) or {}
+        if item.get('state') != 'waiting_for_slot' or row.get('code') != 'ready' or row.get('ready') is not True:
+            reason = row.get('code') or item.get('state') or 'not_ready'
+        elif substantive_refusal(item):
+            reason = 'substantive_refusal'
+        elif continuity_blocks_launch(item, root):
+            reason = 'continuity_excerpt_missing'
+        else:
+            reason = None
+        if reason:
+            skipped.append({'id': item_id, 'reason': reason})
+            continue
+        chosen.append(item_id)
+        if limit is not None and len(chosen) >= limit:
+            break
+    return {'chosen': chosen, 'skipped': skipped}
+
 
 def write(root):
     root = Path(root)

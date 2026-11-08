@@ -13,6 +13,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 import launcher_run_ledger as run_ledger
+import queue_readiness
 
 CONFIG = 'ops/slot-backup.json'
 LOCK = 'ops/canon-lock.json'
@@ -157,9 +158,12 @@ def check_grok_policy(config, item, actor, now, queue_board_id=None):
     if (not policy.get('board_id') or board != policy['board_id'] or
             (queue_board_id is not None and queue_board_id != board)):
         raise Blocked('grok_board_not_authorized')
-    limit = policy.get('max_submissions_per_wake')
+    try:
+        limit = run_ledger.submission_cap(config)
+    except run_ledger.LedgerBlocked as error:
+        raise Blocked('grok_submission_limit_per_wake') from error
     done = actor.get('submissions_this_wake', 0)
-    if type(limit) is not int or type(done) is not int or done < 0 or done >= limit:
+    if type(done) is not int or done < 0 or done >= limit:
         raise Blocked('grok_submission_limit_per_wake')
     return True
 
@@ -177,9 +181,22 @@ def check_grok_retry(config, item):
         raise Blocked('retry_budget_exhausted_or_counter_unclear')
     if not item.get('submission_history'):
         raise Blocked('retry_requires_prior_attempt_in_submission_history')
+    if queue_readiness.substantive_refusal(item):
+        raise Blocked('substantive_refusal_not_retried')
     return True
 
-def prepare_intent(config, lock, item, actor, scan, now, queue_board_id=None, ledger=None):
+def wake_selection(root, config, free_slots):
+    """Ids this real wake may Create, in queue priority, capped by free slots and account capacity."""
+    try:
+        cap = run_ledger.submission_cap(config)
+    except run_ledger.LedgerBlocked as error:
+        raise Blocked('grok_submission_limit_per_wake') from error
+    if type(free_slots) is not int or not 0 <= free_slots <= run_ledger.ACCOUNT_SLOT_CAPACITY:
+        raise Blocked('fresh_complete_global_capacity_required')
+    return queue_readiness.launch_candidates(root, limit=min(cap, free_slots))
+
+
+def prepare_intent(config, lock, item, actor, scan, now, queue_board_id=None, ledger=None, root=None):
     """Transition claimed -> submitting once. Persist and read back before one click."""
     check_route(config, actor, now)
     check_lease(lock, actor, now)
@@ -208,10 +225,14 @@ def prepare_intent(config, lock, item, actor, scan, now, queue_board_id=None, le
             type(p.get('quantity')) is not int or p.get('quantity') != 1 or
             p.get('resolution') != 720 or p.get('aspect_ratio') != '16:9'):
         raise Blocked('unlimited_zero_credit_parameters_required')
+    if queue_readiness.substantive_refusal(item):
+        raise Blocked('substantive_refusal_not_retried')
+    if queue_readiness.continuity_blocks_launch(item, root):
+        raise Blocked('continuity_excerpt_missing')
     run_identity = None
     if run_ledger.required(config, actor):
         try:
-            run_identity = run_ledger.check(config, actor, ledger)
+            run_identity = run_ledger.check(config, actor, ledger, item.get('id'))
         except run_ledger.LedgerBlocked as error:
             raise Blocked(str(error)) from error
     out = copy.deepcopy(item)
@@ -235,9 +256,9 @@ def prepare_intent(config, lock, item, actor, scan, now, queue_board_id=None, le
         out['claim']['owner_command'] = {k: command.get(k) for k in ('quote', 'source', 'at', 'chat_id') if command.get(k) is not None}
     return out
 
-def prepare_transaction(config, lock, item, actor, scan, now, ledger=None, queue_board_id=None):
+def prepare_transaction(config, lock, item, actor, scan, now, ledger=None, queue_board_id=None, root=None):
     """Return both files' mutations. CAS-publish queue+ledger together, then verify_binding."""
-    out = prepare_intent(config, lock, item, actor, scan, now, queue_board_id=queue_board_id, ledger=ledger)
+    out = prepare_intent(config, lock, item, actor, scan, now, queue_board_id=queue_board_id, ledger=ledger, root=root)
     updated = run_ledger.consume(config, actor, ledger, out) if run_ledger.required(config, actor) else ledger
     return out, updated
 
@@ -348,7 +369,7 @@ def main():
             if len(matches) != 1: raise Blocked('item_not_unique')
             ledger = read(args.root / run_ledger.PATH) if run_ledger.required(cfg, actor) else None
             result, updated_ledger = prepare_transaction(cfg, lock, matches[0], actor, read(args.scan), now,
-                                                        ledger=ledger, queue_board_id=queue.get('board_id'))
+                                                        ledger=ledger, queue_board_id=queue.get('board_id'), root=args.root)
             queue['items'][queue['items'].index(matches[0])] = result
             if args.write:
                 if updated_ledger is not None:

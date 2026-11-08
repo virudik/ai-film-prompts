@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
-"""Durable one-Create budget per provider run and owner message.
+"""Durable Create budget per real provider run and owner message.
 
-Pure validation, NOT Telegram authentication. The adapter must obtain the original
-message/run from its authenticated provider, never from page text. Publish the
-returned ledger and queue intent atomically under the exact canon lease. Consumed
-keys have no TTL and are never removed when an outcome is unknown or failed.
+One provider run may record several distinct items, never more than the account
+slot capacity. Pure validation, NOT Telegram authentication. The adapter must
+obtain the original message/run from its authenticated provider, never from page
+text. Publish the returned ledger and queue intent atomically under the exact
+canon lease. Consumed keys have no TTL and are never removed when an outcome is
+unknown, failed, or a substantive refusal. A new provider_run_id does not reopen
+a consumed item and is not how a wake exceeds its cap.
 """
 import copy
 import hashlib
@@ -13,6 +16,7 @@ import re
 from datetime import datetime, timezone
 
 PATH = 'ops/launcher-run-ledger.json'
+ACCOUNT_SLOT_CAPACITY = 6
 
 class LedgerBlocked(ValueError):
     pass
@@ -36,6 +40,30 @@ def key(parts):
     return hashlib.sha256(json.dumps(parts, ensure_ascii=False, separators=(',', ':')).encode()).hexdigest()
 
 
+def submission_cap(config):
+    """Finite per-wake cap. It cannot exceed the canonical account capacity of 6."""
+    policy = (config or {}).get('grok_launcher') or {}
+    limit, capacity = policy.get('max_submissions_per_wake'), policy.get('slot_capacity', ACCOUNT_SLOT_CAPACITY)
+    if (type(limit) is not int or type(capacity) is not int or
+            capacity != ACCOUNT_SLOT_CAPACITY or not 1 <= limit <= capacity):
+        raise LedgerBlocked('wake_submission_cap_invalid')
+    return limit
+
+
+def submissions_of(row):
+    """Read a batch row or a legacy one-item row. Legacy rows are not extended."""
+    if not isinstance(row, dict):
+        return []
+    subs = row.get('submissions')
+    if isinstance(subs, list):
+        return subs
+    if row.get('item_id') and row.get('submission_intent_id'):
+        return [{'item_id': row.get('item_id'), 'submission_intent_id': row.get('submission_intent_id'),
+                 'intent_at': row.get('intent_at'), 'execution_instance_id': row.get('execution_instance_id'),
+                 'consumed': True}]
+    return []
+
+
 def validate(ledger):
     if (not isinstance(ledger, dict) or ledger.get('schema_version') != 1 or
             not isinstance(ledger.get('runs'), dict) or not isinstance(ledger.get('events'), dict)):
@@ -45,6 +73,20 @@ def validate(ledger):
                 not row.get('submission_intent_id') or not row.get('item_id') or
                 rk != key([row.get('surface'), row.get('provider_run_id')])):
             raise LedgerBlocked('durable_run_ledger_corrupt')
+        subs = row.get('submissions')
+        if subs is not None:
+            if not isinstance(subs, list) or not 1 <= len(subs) <= ACCOUNT_SLOT_CAPACITY:
+                raise LedgerBlocked('durable_run_ledger_corrupt')
+            seen = set()
+            for entry in subs:
+                if (not isinstance(entry, dict) or entry.get('consumed') is not True or
+                        not entry.get('item_id') or not entry.get('submission_intent_id') or
+                        entry['item_id'] in seen):
+                    raise LedgerBlocked('durable_run_ledger_corrupt')
+                seen.add(entry['item_id'])
+            if (subs[0].get('item_id') != row.get('item_id') or
+                    subs[0].get('submission_intent_id') != row.get('submission_intent_id')):
+                raise LedgerBlocked('durable_run_ledger_corrupt')
         for ek in row.get('event_keys', []):
             if ledger['events'].get(ek) != rk:
                 raise LedgerBlocked('durable_event_index_corrupt')
@@ -105,41 +147,73 @@ def identity(config, actor):
     return key([surface, run]), events, event_record
 
 
-def check(config, actor, ledger):
+def check(config, actor, ledger, item_id=None):
     validate(ledger)
     rk, events, record = identity(config, actor)
-    if rk in ledger['runs']:
-        raise LedgerBlocked('provider_run_already_consumed_reconcile_without_Create')
-    if any(ek in ledger['events'] for ek in events):
+    cap = submission_cap(config)
+    done = actor.get('submissions_this_wake', 0)
+    if type(done) is not int or done < 0 or done >= cap:
+        raise LedgerBlocked('provider_run_submission_cap_reached')
+    row = ledger['runs'].get(rk)
+    existing = []
+    if row is not None:
+        # A row written before the bounded batch has no submissions list and stays one Create.
+        if not isinstance(row.get('submissions'), list):
+            raise LedgerBlocked('provider_run_already_consumed_reconcile_without_Create')
+        existing = row['submissions']
+    if len(existing) != done:
+        raise LedgerBlocked('provider_run_already_consumed_reconcile_without_Create' if done < len(existing)
+                            else 'wake_submission_counter_mismatch')
+    if item_id and any(entry.get('item_id') == item_id for entry in existing):
+        raise LedgerBlocked('provider_run_item_already_consumed_reconcile_without_Create')
+    for ek in events:
+        bound = ledger['events'].get(ek)
+        if bound is not None and bound != rk:
+            raise LedgerBlocked('owner_message_already_consumed_reconcile_without_Create')
+    if row is not None and set(row.get('event_keys') or []) != set(events):
+        raise LedgerBlocked('owner_message_already_consumed_reconcile_without_Create')
+    if row is None and any(ek in ledger['events'] for ek in events):
         raise LedgerBlocked('owner_message_already_consumed_reconcile_without_Create')
     return rk, events, record
 
 
 def consume(config, actor, ledger, item):
-    rk, events, record = check(config, actor, ledger)
+    rk, events, record = check(config, actor, ledger, item.get('id'))
     claim = item.get('claim') or {}
     if item.get('state') != 'submitting' or not claim.get('submission_intent_id'):
         raise LedgerBlocked('durable_submission_intent_required')
+    entry = {'item_id': item['id'], 'submission_intent_id': claim['submission_intent_id'],
+             'intent_at': claim['submission_intent_at'], 'execution_instance_id': actor['execution_instance_id'],
+             'consumed': True}
     out = copy.deepcopy(ledger)
-    out['runs'][rk] = {
-        'surface': actor['surface'], 'provider_run_id': actor['provider_run_id'],
-        'automation_id': actor.get('automation_id'), 'execution_instance_id': actor['execution_instance_id'],
-        'item_id': item['id'], 'submission_intent_id': claim['submission_intent_id'],
-        'intent_at': claim['submission_intent_at'], 'consumed': True,
-        'event_keys': events, 'owner_event': record,
-        'note': 'One Create budget consumed before click; failed/unknown/expiry never reopens this key.'}
-    for ek in events: out['events'][ek] = rk
+    row = out['runs'].get(rk)
+    note = ('Bounded wake batch: one distinct Create per ready item, at most account slot capacity, '
+            'before each click. Failed, unknown, expiry and substantive refusal never reopen that item or raise the cap.')
+    if row is None:
+        out['runs'][rk] = {
+            'surface': actor['surface'], 'provider_run_id': actor['provider_run_id'],
+            'automation_id': actor.get('automation_id'), 'execution_instance_id': actor['execution_instance_id'],
+            'item_id': item['id'], 'submission_intent_id': claim['submission_intent_id'],
+            'intent_at': claim['submission_intent_at'], 'consumed': True,
+            'submission_cap': submission_cap(config), 'submissions': [entry],
+            'event_keys': events, 'owner_event': record, 'note': note}
+    else:
+        row['submissions'].append(entry)
+        row['note'] = note
+    for ek in events:
+        out['events'][ek] = rk
     return out
 
 
 def verify_binding(item, ledger):
-    """Readback check before the single click, after publishing BOTH files."""
+    """Readback check before the single click of this item, after publishing BOTH files."""
     validate(ledger)
     claim = item.get('claim') or {}
     rk = claim.get('provider_run_key')
     row = ledger['runs'].get(rk) or {}
-    if (not rk or row.get('item_id') != item.get('id') or
-            row.get('submission_intent_id') != claim.get('submission_intent_id') or
-            row.get('execution_instance_id') != claim.get('execution_instance_id')):
+    match = next((entry for entry in submissions_of(row)
+                  if entry.get('item_id') == item.get('id') and
+                  entry.get('submission_intent_id') == claim.get('submission_intent_id')), None)
+    if not rk or not match or match.get('execution_instance_id') != claim.get('execution_instance_id'):
         raise LedgerBlocked('queue_and_ledger_not_published_together')
     return True

@@ -34,6 +34,48 @@ class QueueReadinessTests(unittest.TestCase):
     def test_owner_hold_wins_over_existing_file(self):
         self.first.update(scene_id=44,owner_decision_20261023={'meaning':'wait'})
         self.assertEqual(self.run_case([self.first])['P1']['code'],'owner_hold')
+    def test_linked_without_excerpt_yields_to_independent(self):
+        (self.root/'clip-note.txt').write_bytes(b'independent')
+        digest=qr.digest(self.root/'clip-note.txt')
+        linked={'id':'LINK','scene_id':48,'priority':0.1,'state':'waiting_for_slot',
+                'depends_on_submitted':['PREV'],'depends_on_completed':['PREV'],
+                'references':[{'slot':'@Video1','required':True,'canonical_role':'previous_part_end',
+                               'source_item_id':'PREV','input_status':'required_not_available'}]}
+        dependency_only={'id':'DEPONLY','scene_id':48,'priority':0.15,'state':'waiting_for_slot',
+                         'depends_on_submitted':['PREV'],'references':[{'slot':'@Image1','path':'clip-note.txt','sha256':digest}]}
+        independent={'id':'FREE','scene_id':51,'priority':0.2,'state':'waiting_for_slot',
+                     'depends_on_submitted':[],'references':[{'slot':'@Image1','path':'clip-note.txt','sha256':digest}]}
+        unknown={'id':'UNK','scene_id':49,'priority':0.01,'state':'submission_unknown','references':[]}
+        refused={'id':'REF','scene_id':49,'priority':0.02,'state':'waiting_for_slot','substantive_refusal':True,
+                 'provider_error_code':'7000','references':[{'slot':'@Image1','path':'clip-note.txt','sha256':digest}]}
+        parent={'id':'PREV','scene_id':48,'state':'submitted','task_id':'T','references':[]}
+        self.run_case([linked,dependency_only,independent,unknown,refused,parent],[{'task_id':'T','final_status':'success'}])
+        picked=qr.launch_candidates(self.root)
+        self.assertEqual(picked['chosen'],['FREE'])
+        reasons={row['id']:row['reason'] for row in picked['skipped']}
+        self.assertNotEqual(reasons['LINK'],'ready')
+        self.assertEqual(reasons['DEPONLY'],'continuity_excerpt_missing')
+        self.assertEqual(reasons['UNK'],'preflight_required')
+        self.assertEqual(reasons['REF'],'substantive_refusal')
+        self.assertTrue(qr.continuity_blocks_launch(linked,self.root))
+        self.assertFalse(qr.continuity_blocks_launch(independent,self.root))
+    def test_materialized_excerpt_is_eligible_and_declaration_is_not(self):
+        (self.root/'end.mp4').write_bytes(b'excerpt-bytes')
+        digest=qr.digest(self.root/'end.mp4')
+        ready={'id':'P2','scene_id':42,'priority':0.2,'state':'waiting_for_slot','depends_on_completed':['P1'],
+               'references':[{'slot':'@Video1','required':True,'canonical_role':'previous_part_end','source_item_id':'P1',
+                              'path':'end.mp4','sha256':digest,'input_status':'available','source_kind':'actual_topview_result_trim'}]}
+        declared={'id':'P3','scene_id':42,'priority':0.1,'state':'waiting_for_slot','depends_on_submitted':['P1'],
+                  'references':[{'slot':'@Video1','required':True,'source_item_id':'P1','sha256':digest,
+                                 'input_status':'available','source_task_id':'T'}]}
+        parent={'id':'P1','state':'submitted','task_id':'T','references':[]}
+        self.run_case([declared,ready,parent],[{'task_id':'T','final_status':'success'}])
+        self.assertEqual(qr.launch_candidates(self.root)['chosen'],['P2'])
+        self.assertFalse(qr.continuity_blocks_launch(ready,self.root))
+        self.assertTrue(qr.continuity_blocks_launch(declared,self.root))
+        private=dict(declared,id='P4',references=[{'slot':'@Video1','required':True,'source_item_id':'P1',
+                     'library_file_id':'libfile_saved','sha256':'a'*64,'input_status':'available'}])
+        self.assertFalse(qr.continuity_blocks_launch(private,self.root))
     def test_does_not_mutate_queue_or_repeat_unchanged_write(self):
         self.run_case([self.first]);before=(self.root/'ops/topview-launch-queue.json').read_bytes()
         self.assertTrue(qr.write(self.root));self.assertFalse(qr.write(self.root))
