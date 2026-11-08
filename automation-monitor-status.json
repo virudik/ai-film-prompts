@@ -157,11 +157,11 @@
     ],
     "robot_rewake": {
       "episode": "d1af9cd6",
-      "count": 0,
-      "last_at": "2026-11-08T23:20:31Z",
-      "sequence": 28,
+      "count": 1,
+      "last_at": "2026-11-08T23:50:51Z",
+      "sequence": 29,
       "first_at": "2026-11-08T23:20:31Z",
-      "last_event_id": "result:f3b8883f44b14a2ba432ce429ba02709",
+      "last_event_id": "slots:d1af9cd6:29",
       "silence_reported": "slots:d23cf217:2"
     }
   },
@@ -428,7 +428,7 @@
     "confirmed_launch_task_ids": [],
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
-    "escalation_attempted_episode": "4728736a",
-    "checked_at": "2026-11-08T23:30:34Z"
+    "escalation_attempted_episode": "d1af9cd6",
+    "checked_at": "2026-11-08T23:50:51Z"
   }
 }
