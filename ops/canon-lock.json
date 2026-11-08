@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:a885aa8d-43d9-4e01-8a31-1f5f3d85f704",
-  "task": "launch S51A (grok helper, slot-wake issue #455)",
-  "acquired_at": "2026-11-08T17:02:33Z",
-  "expires_at": null,
-  "released_at": "2026-11-08T17:10:39Z",
+  "state": "held",
+  "holder": "grok:b26bd06d-5321-47a0-96ce-3a7047baf8ce",
+  "task": "launch S51B (grok helper, slot-wake issue #455)",
+  "acquired_at": "2026-11-08T17:10:56Z",
+  "expires_at": "2026-11-08T17:55:56Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
