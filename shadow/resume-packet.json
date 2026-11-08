@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-08T15:42:38+00:00",
-  "source_head": "b01a1424f3d6bbf418ed94d799d07d7a9ab403b4",
-  "source_fingerprint": "88a43f08818b18f1b259db58e9812e78a8e07a3290b3e594210e9bd95ad67b4e",
+  "checked_at": "2026-11-08T15:48:10+00:00",
+  "source_head": "567d453169bcb51488f9bb2b8ece01655da7e4f1",
+  "source_fingerprint": "d32778da2e05354a1276346c4357782430325b842cc8899a2a231505f55a2534",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -437,8 +437,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "d0990a162443ab9650d1160d825f005c9deb51c90ed94bf89ba076beba6f97c2",
-      "bytes": 35098
+      "sha256": "73a1f908958c5731b813a1e726a454f2955c1f63f1bf4fbcbacb81caa556cb26",
+      "bytes": 34723
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -462,7 +462,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "b92bd7e3731e5e1f783969570c7ea7ba6359923d2d7d2484ff36256f43e47ff0",
+      "sha256": "a7fd94beeaea02c310e956f6798b3da3cf154fbc8012975dd328aa1ec8154227",
       "bytes": 5135
     },
     {
@@ -482,7 +482,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "158e3e208fe27e9869cd129ebcb02fea1ab70eee818d3f07c73f80629fe15292",
+      "sha256": "098bad4e6c8523518965cd97d71be5cb4c3e8f4e0aea9135bb97e6b8e2a6e2f4",
       "bytes": 22987
     },
     {
@@ -502,12 +502,12 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "096785fedc689b61be24cb549698bfc74af9b24ee158d12e3362ce39cc451f1f",
-      "bytes": 34899
+      "sha256": "5af3388672c6d8e321dbe8bc1929db5f5073acdf68d5d14f9fdffee7c9a8404c",
+      "bytes": 34524
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "491748ca0b4985e2b3087108403fe2dc1aa4a14c9de0de0434d14629bbe4222e",
+      "sha256": "88ba878b2874d9d597a7d5c41e3fb6e2d80eff615e1a0c5c1686204bf2d4560b",
       "bytes": 25534
     },
     {
