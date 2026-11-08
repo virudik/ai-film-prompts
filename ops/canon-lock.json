@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:265a225a-a162-45f2-bd0e-40d87d142dcf",
-  "task": "Seregius scheduled ordinary verification and compact cycle receipt; no video Create unless all gates verified",
-  "acquired_at": "2026-11-08T21:05:33.865Z",
-  "expires_at": null,
-  "released_at": "2026-11-08T21:14:39.381Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:8a61023b-9089-47bd-86ad-708290654b4f",
+  "task": "Seregius scheduled ordinary: fresh full read-only scan, reconciliation and cycle receipt; no video Create without separate preflight",
+  "acquired_at": "2026-11-08T22:09:40.298Z",
+  "expires_at": "2026-11-08T22:39:40.298Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
