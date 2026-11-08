@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/projects/raznoe/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-08T07:48:02Z",
+  "synced_at": "2026-11-08T10:52:31Z",
   "revision_date": "08.11.2026",
   "master_declared_last_full_sync": "06.11.2026 · сцена 3 RESOURCE: native-нарезка 19 клипов / 114 с в той же сцене; исходные вкладки 2 × 15 с сохранены; шесть попыток v1 в папке Саши не приняты.",
   "canonical_master_sha256": "1f1626606cebd32d1d761e1f6ae47a5cd8527a27e12ed4b8646b266cff52d3b5",
@@ -26,26 +26,26 @@
   "reserved_scene_ids": [],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-11-07T19:36:49.959Z",
+    "snapshot_at": "2026-11-08T10:24:48.047Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 12.187,
+    "age_hours_at_status_build": 0.462,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-        "drive_copy_sha256": "5f2b8acdead3ad27ce6ea08fdc9ad522e14986c66e6b5c85c8bde537ed706de7",
-        "drive_copy_checked_at": "2026-11-07T10:12:17.445Z",
-        "drive_copy_modified_at": "2026-11-07T10:12:06.450Z",
+        "drive_copy_sha256": "fcaed4b4eaf4d3b27eb9b68288a99d9bd861ee45faa98f2d7d6ca027c7fb848b",
+        "drive_copy_checked_at": "2026-11-08T10:24:48.047Z",
+        "drive_copy_modified_at": "2026-11-08T10:24:39.653Z",
         "github_blob": "8844853f67bb9a16b2aecd28166f1cde360cca28",
         "mirror_sha256": "fcaed4b4eaf4d3b27eb9b68288a99d9bd861ee45faa98f2d7d6ca027c7fb848b",
         "match": true,
-        "drive_copy_match": false
+        "drive_copy_match": true
       },
       "SYNC-RUNBOOK.md": {
         "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
         "drive_copy_sha256": "244e9a47dc3e3b698c4472e83e4049b8700c03267324deed3925f4036888e874",
-        "drive_copy_checked_at": "2026-11-07T10:12:17.445Z",
+        "drive_copy_checked_at": "2026-11-08T10:24:48.047Z",
         "drive_copy_modified_at": "2026-11-06T10:54:28.167Z",
         "github_blob": "77a7326dbdb00538d6d4360b0968231c57bb906d",
         "mirror_sha256": "244e9a47dc3e3b698c4472e83e4049b8700c03267324deed3925f4036888e874",
@@ -55,7 +55,7 @@
       "AI-PROJECT-GUIDE.md": {
         "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
         "drive_copy_sha256": "c62976f8c2561633e3d9612bcda6bad706ef85a9ad1a5295e2e6e6513b6efca6",
-        "drive_copy_checked_at": "2026-11-07T10:12:17.445Z",
+        "drive_copy_checked_at": "2026-11-08T10:24:48.047Z",
         "drive_copy_modified_at": "2026-11-07T10:12:10.878Z",
         "github_blob": "2d8351ab14665f0d946ca68d8f94d1d23caa328f",
         "mirror_sha256": "c62976f8c2561633e3d9612bcda6bad706ef85a9ad1a5295e2e6e6513b6efca6",
@@ -65,7 +65,7 @@
       "PROMPT-STYLE-GUIDE.md": {
         "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
         "drive_copy_sha256": "2afe827fe839af546a0f7f4c1f36c57fcd976dd3f6fd8759ddf09ff265fa505d",
-        "drive_copy_checked_at": "2026-11-07T10:12:17.445Z",
+        "drive_copy_checked_at": "2026-11-08T10:24:48.047Z",
         "drive_copy_modified_at": "2026-11-06T10:54:31.556Z",
         "github_blob": "5c7e1e6dc7d2ceddbb21a584008a42a1d0e9ad60",
         "mirror_sha256": "2afe827fe839af546a0f7f4c1f36c57fcd976dd3f6fd8759ddf09ff265fa505d",
@@ -75,7 +75,7 @@
       "USER-GUIDE.md": {
         "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
         "drive_copy_sha256": "b115d684906c9cb5003d6493958af67d233d1d2cb5e216c8c7ed65d1e844053c",
-        "drive_copy_checked_at": "2026-11-07T10:12:17.445Z",
+        "drive_copy_checked_at": "2026-11-08T10:24:48.047Z",
         "drive_copy_modified_at": "2026-11-04T10:57:10.239Z",
         "github_blob": "1b82535cab0ba601e9e7f51534d4e8683d5fc6c6",
         "mirror_sha256": "b115d684906c9cb5003d6493958af67d233d1d2cb5e216c8c7ed65d1e844053c",
@@ -85,7 +85,7 @@
       "README-AI-SYNC.md": {
         "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
         "drive_copy_sha256": "164f1faf3fc2ffe8873176b36bc38d2e801c9a72782ca8582ad158ab42858ea6",
-        "drive_copy_checked_at": "2026-11-07T10:12:17.445Z",
+        "drive_copy_checked_at": "2026-11-08T10:24:48.047Z",
         "drive_copy_modified_at": "2026-11-04T10:57:13.794Z",
         "github_blob": "bf3d705e8beed8be74d6c0a2971704d96631e0da",
         "mirror_sha256": "164f1faf3fc2ffe8873176b36bc38d2e801c9a72782ca8582ad158ab42858ea6",
@@ -95,7 +95,7 @@
       "BACKUP-AI-RUNBOOK.md": {
         "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
         "drive_copy_sha256": "6b0a0ba95d23937c71d072fa96e278a6485a27391245834f32e05be9572812ac",
-        "drive_copy_checked_at": "2026-11-07T10:12:17.445Z",
+        "drive_copy_checked_at": "2026-11-08T10:24:48.047Z",
         "drive_copy_modified_at": "2026-11-01T10:29:16.046Z",
         "github_blob": "e98a0d592c71eac61b9192a5bd8d926b9ba50c71",
         "mirror_sha256": "6b0a0ba95d23937c71d072fa96e278a6485a27391245834f32e05be9572812ac",
@@ -108,7 +108,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 12.187,
+      "age_hours": 0.462,
       "blocking": false
     },
     "topview_task_map": {
@@ -234,7 +234,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "08.11.2026",
-    "synced_at": "2026-11-08T07:48:02Z",
+    "synced_at": "2026-11-08T10:52:31Z",
     "canonical_master_sha256": "1f1626606cebd32d1d761e1f6ae47a5cd8527a27e12ed4b8646b266cff52d3b5",
     "canonical_revision_sha256": "7f0ac3defaf872eeb374a8c3f2c39976a159b2e1626f441864822e6ee849fbe8",
     "scene_count": 5,
