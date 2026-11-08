@@ -2705,7 +2705,137 @@
         "resolved_at": "2026-11-02T10:25:00.548Z",
         "result": "submitted",
         "task_id": "de8e44bb15d64dc7a4eb640d27a726e4"
+      },
+      "owner_artistic_rerepair_20261108": {
+        "item_id": "S48-SEED20-P2-R2-20261108",
+        "authorization_id": "owner-20261108-t362s1681",
+        "quote": "Разрешаю по одной дополнительной бесплатной художественной попытке S48P2, S59P2 и S62P1 с описанными исправлениями промтов, только Unlimited 0 кредитов, без автоматических повторов и без сброса истории.",
+        "at_local": "2026-11-08T20:10 Europe/Moscow",
+        "resets_history": false,
+        "automatic_retry": false
       }
+    },
+    {
+      "id": "S48-SEED20-P2-R2-20261108",
+      "scene_id": 48,
+      "prompt_id": "S48-SEED20-P2-R2-20261108",
+      "canonical_block_label": "48 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "e0a9aa8e000b206534df67b726932fb1ea9cf9eea850816bdaddc885d7c282b1",
+      "normalized_prompt_sha256": "6a139ad98ef41ce863aa3cac503198099fa93f769a93d287fddebd0f818a93f5",
+      "priority": -0.98,
+      "state": "waiting_for_slot",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "automatic_retry": false,
+      "owner_approval": false,
+      "film_acceptance": false,
+      "task_id": null,
+      "claim": null,
+      "depends_on_submitted": [],
+      "depends_on_completed": [
+        "S48-SEED20-P1"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "canonical_role": "previous_part_end",
+          "input_status": "available",
+          "source_item_id": "S48-SEED20-P1",
+          "source_task_id": "8d7ff1e2de63478693778de29e0dd56e",
+          "source_drive_file_id": "1vQ1cynAhPMDbDMPa4GiEPOVwVZm_ZZJG",
+          "source_original_sha256": "e6d05cd0d193533a09189e8a345b3ce73460db906bffef0058a5f3671d0ae90c",
+          "library_file_id": "libfile_47e6031c53fc8191ade233483a1757a0",
+          "filename": "S48-P1-last3s.mp4",
+          "bytes": 2253712,
+          "sha256": "bf85a1ea021909d2dea876525ce8db5ea1a76c04daeeb541c14de5c175c092bf",
+          "duration_seconds": 3,
+          "fps": 24,
+          "frames": 72,
+          "width": 1280,
+          "height": 720,
+          "source_start_frame_zero_based": 289,
+          "source_end_frame_exclusive": 361,
+          "qc_status": "usable_for_continuity",
+          "qc_report": "references/scenes/scene-48/S48-P1-continuity.json",
+          "source_requirement": "Exact final72 frames of the owner-selected S48.1 result with corresponding original audio. Continue its LAST frame. Download the shared Google Drive file and recheck SHA before upload; never synthesize or mirror the join.",
+          "drive_file_id": "1kO9qxdaMf_FVuUA0y2T9bE799Jpm_pyX",
+          "drive_modified_at": "2026-11-01T01:01:24.497Z",
+          "primary_storage": "google_drive",
+          "web_view_link": "https://drive.google.com/file/d/1kO9qxdaMf_FVuUA0y2T9bE799Jpm_pyX/view",
+          "shared_readback_sha256": "bf85a1ea021909d2dea876525ce8db5ea1a76c04daeeb541c14de5c175c092bf",
+          "shared_readback_checked_at": "2026-11-01T01:17:06Z",
+          "library_role": "historical_backup_only_not_required"
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/ilyusha.jpg",
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/artem.jpg",
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+          "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-16/S16-worm-scale.png",
+          "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
+          "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "launch_readiness": "authorized_inputs_available",
+      "blocker": null,
+      "authorization_id": "owner-20261108-t362s1681",
+      "authorization": {
+        "id": "owner-20261108-t362s1681",
+        "at_local": "2026-11-08T20:10 Europe/Moscow",
+        "card": "t362s1681",
+        "quote": "Разрешаю по одной дополнительной бесплатной художественной попытке S48P2, S59P2 и S62P1 с описанными исправлениями промтов, только Unlimited 0 кредитов, без автоматических повторов и без сброса истории.",
+        "scope": "One new free artistic Unlimited0 attempt of S48-SEED20-P2-R2-20261108 only. Not a technical retry. Does not reset S48-SEED20-P2.",
+        "unlimited_credits": 0,
+        "model": "Seedance 2.0",
+        "duration_seconds": 15,
+        "automatic_retry": false
+      },
+      "replaces_artistic_result_of": "S48-SEED20-P2",
+      "preserves_previous_task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
+      "preserves_previous_receipt": "reports/topview-queue-2026-10-16/S48-SEED20-P2-20261102T101820Z.json"
     },
     {
       "id": "S48-SEED20-P3",
@@ -2790,7 +2920,7 @@
       "task_id": null,
       "claim": null,
       "authorization": "30.10.2026: владелец добавил продолжение поездки к городу. Один запуск по согласованной очереди, Unlimited 0.",
-      "blocker": "S48-P2 provider success stands and is not a technical failure. The result exists. Parent-coordinated visual review 2026-11-08 19:45 Europe/Moscow (trace sand-subagent-230f2fef-1a1e-bf70-f697-eac9bce6082f; not 24 fps real-time playback and not audio listening) rejects it for P3: duplicate Serega as the worm rider and as a bald purple-robed spectator among three people on the ground at 11–15s; jump/contact at 8–10s is weak. The tail is not a launch input. Its final video sample duration is 0 (stts 71x512 plus 1x0): video 2.958333s, average frame rate 1728/71, container 3s, final content present. No new artistic attempt is opened by the general 8 November story request. P3 stays blocked.",
+      "blocker": "S48-P2 provider success stands and is not a technical failure. The result exists. Parent-coordinated visual review 2026-11-08 19:45 Europe/Moscow (trace sand-subagent-230f2fef-1a1e-bf70-f697-eac9bce6082f; not 24 fps real-time playback and not audio listening) rejects it for P3: duplicate Serega as the worm rider and as a bald purple-robed spectator among three people on the ground at 11–15s; jump/contact at 8–10s is weak. The tail is not a launch input. Its final video sample duration is 0 (stts 71x512 plus 1x0): video 2.958333s, average frame rate 1728/71, container 3s, final content present. One new artistic attempt is the separate item S48-SEED20-P2-R2-20261108. P3 stays blocked until that new result exists and passes its own QC. P4 is unchanged.",
       "launch_readiness": "blocked_continuity_qc"
     },
     {
@@ -4004,7 +4134,105 @@
         "qc_report": "reports/topview-quality-2026-11-02/S59-SEED20-P2-b0915b04-review.json",
         "assessment": "qc_rejected_for_s59_p3_continuity_premature_finished_landing",
         "owner_approved": false
+      },
+      "owner_artistic_rerepair_20261108": {
+        "item_id": "S59-SEED20-P2-R2-20261108",
+        "authorization_id": "owner-20261108-t362s1681",
+        "quote": "Разрешаю по одной дополнительной бесплатной художественной попытке S48P2, S59P2 и S62P1 с описанными исправлениями промтов, только Unlimited 0 кредитов, без автоматических повторов и без сброса истории.",
+        "at_local": "2026-11-08T20:10 Europe/Moscow",
+        "resets_history": false,
+        "automatic_retry": false
       }
+    },
+    {
+      "id": "S59-SEED20-P2-R2-20261108",
+      "scene_id": 59,
+      "prompt_id": "S59-SEED20-P2-R2-20261108",
+      "canonical_block_label": "59 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "123f4eb02a206fce424f706d6eb140470e2d588df3db1d0cde812ccd8be9d386",
+      "normalized_prompt_sha256": "f2bf2be5f0e48712914863597c1e8974aabd7dd7474f5404c07de6775535deb3",
+      "priority": 0.51,
+      "state": "waiting_for_slot",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "automatic_retry": false,
+      "owner_approval": false,
+      "film_acceptance": false,
+      "task_id": null,
+      "claim": null,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Video1",
+          "canonical_role": "owner_supplied_P1_actual_end",
+          "input_status": "available",
+          "required": true,
+          "library_file_id": "libfile_7e1093c34c748191b51f2159106da6fa",
+          "source_library_file_id": "libfile_5bd36df00b348191a27d5a4995a57186",
+          "filename": "S59-owner-P1-last3s.mp4",
+          "sha256": "a4bf2e1d244e11bbcdbb0f724148aa2334cba370e0be9bec738af3017a3062b4",
+          "duration_seconds": 3,
+          "provenance_file": "references/scenes/scene-59/owner-P1-continuity.json",
+          "qc_status": "usable_for_continuity_input",
+          "source_requirement": "Materialize exact saved3s clip by Library ID, verify SHA, upload as Video1. Start from its terminal exterior frame, not earlier cockpit/fly-by. No newP1 required."
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-59/S59-owner-P1-final.jpg",
+          "canonical_role": "Actual orbital Part1 terminal frame",
+          "sha256": "6033741fc98627274f3648e321bd519270dc09060d3997fbfedbe2f9b114a947",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-59/S59-mushroom-forest-canopy.jpg",
+          "canonical_role": "People-free forest canopy and warm daylight",
+          "sha256": "82ab167d30b60fd65b123c7551313fe49492d88071a563a1b561d337f6c2e616",
+          "required": true,
+          "input_status": "available",
+          "upload_derivative": {
+            "path": "references/scenes/scene-59/S59-mushroom-forest-canopy-upload.png",
+            "sha256": "c2cb234bf6cda713dfbbd413dc5977cc8a9864f6ca90c3f9ab6723fff83dcecf",
+            "dimensions": [
+              1280,
+              720
+            ],
+            "source_path": "references/scenes/scene-59/S59-mushroom-forest-canopy.jpg",
+            "source_sha256": "82ab167d30b60fd65b123c7551313fe49492d88071a563a1b561d337f6c2e616",
+            "method": "Non-generative ffmpeg pad=1280:720:0:240:color=0x808080. Original full1280x240 forest crop preserved without scaling/cropping; neutral grey transport padding only. No AI redraw. Padding is not part of the scene.",
+            "reason": "Topview UI rejected height240 below minimum300 and aspect5.33 above maximum2.50.",
+            "checked_at": "2026-10-29T08:04:04.195749+00:00"
+          }
+        }
+      ],
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "launch_readiness": "authorized_inputs_available",
+      "blocker": null,
+      "authorization_id": "owner-20261108-t362s1681",
+      "authorization": {
+        "id": "owner-20261108-t362s1681",
+        "at_local": "2026-11-08T20:10 Europe/Moscow",
+        "card": "t362s1681",
+        "quote": "Разрешаю по одной дополнительной бесплатной художественной попытке S48P2, S59P2 и S62P1 с описанными исправлениями промтов, только Unlimited 0 кредитов, без автоматических повторов и без сброса истории.",
+        "scope": "One new free artistic Unlimited0 attempt of S59-SEED20-P2-R2-20261108 only. Not a technical retry. Does not reset S59-SEED20-P2.",
+        "unlimited_credits": 0,
+        "model": "Seedance 2.0",
+        "duration_seconds": 15,
+        "automatic_retry": false
+      },
+      "replaces_artistic_result_of": "S59-SEED20-P2",
+      "preserves_previous_task_id": "b0915b04173c414e9ac08652d34b7852",
+      "preserves_previous_receipt": "reports/topview-queue-2026-10-16/S59-SEED20-P2-20261029.json"
     },
     {
       "id": "S59-SEED20-P3",
@@ -4348,8 +4576,8 @@
       "prompt_id": "S60-SEED20-P2",
       "canonical_block_label": "60 · Seedance 2.0 часть 2",
       "priority": 0.61,
-      "state": "blocked_inputs",
-      "launch_readiness": "blocked_continuity",
+      "state": "waiting_for_slot",
+      "launch_readiness": "authorized_inputs_available",
       "model": "Seedance 2.0",
       "selected_model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -4370,10 +4598,18 @@
         {
           "slot": "@Video1",
           "canonical_role": "previous_part_end",
-          "input_status": "required_not_available",
+          "input_status": "available",
           "required": true,
           "source_item_id": "S60-SEED20-P1",
-          "source_requirement": "Actual last3s of newly generated60P1 only. Preserve true state, faces, geometry and direction; save private clip, provenance, SHA256 and QC; no synthetic substitute."
+          "source_requirement": "Actual last3s of newly generated60P1 only. Preserve true state, faces, geometry and direction; save private clip, provenance, SHA256 and QC; no synthetic substitute.",
+          "sha256": "25ef02d81397dfa7a4b384349ebff97cc710debb62227de2f7de4956322d2ea4",
+          "drive_file_id": "1eUg-GTBHYtFhIMGqUp2jdTsbNUjTCS1a",
+          "filename": "S60-P1-last3s.mp4",
+          "qc_status": "usable_for_continuity_by_owner",
+          "accepted_as_launch_input": true,
+          "owner_approval": false,
+          "audio_listened_by": "owner",
+          "continuous_full_rate_viewed": false
         },
         {
           "slot": "@Image1",
@@ -4423,8 +4659,21 @@
       "authorization": "Direct owner23Oct2026 current chat: create3Kashyyyk scenes and add after worms; existing authorization one free website Unlimited0 attempt per selected part, no paid route or automatic retry.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
-      "blocker": "S60-P1 and its exact 3s Drive tail already exist (sha256 25ef02d81397dfa7a4b384349ebff97cc710debb62227de2f7de4956322d2ea4). Do not wait as if the predecessor were missing. Parent-coordinated visual review 2026-11-08 19:47 Europe/Moscow (trace sand-subagent-f49c2460-e699-6314-d140-91b212c3bcb1) passes the tail: P2 continues exterior 0–5s, wide cut at 5s, cockpit cut at 10s; one craft, sufficient clearance and trees, empty roof, gear out is correct for lift. Hatch not visible. Not proven 24 fps real-time playback. Audio not listened. Stays blocked pending that audio QC. The withdrawn 'exterior then later interior is an inherent morph' claim is not a blocker.",
-      "input_qc_rule": "Reject a previous-part ending if Serega is on the roof, canopy, wings or exterior hull. Do not propagate the defect or synthesize a replacement continuation; record the blocker for owner decision. During ship motion Serega is inside cockpit; boarding/exiting only via side hatch/ramp on ground."
+      "blocker": null,
+      "input_qc_rule": "Reject a previous-part ending if Serega is on the roof, canopy, wings or exterior hull. Do not propagate the defect or synthesize a replacement continuation; record the blocker for owner decision. During ship motion Serega is inside cockpit; boarding/exiting only via side hatch/ramp on ground.",
+      "owner_audio_continuation_2026_11_08": {
+        "listener": "owner",
+        "quote": "Прослушал все три исходника и их стыки в приложенной копии: звук подходит для продолжения сцен 52, 60 и 61.",
+        "at_local": "2026-11-08T20:10 Europe/Moscow",
+        "card": "t362s1681",
+        "preview": "t362s1678 QC preview 54.125s: three originals plus their actual tails",
+        "scope": "Sound is suitable for continuation of scenes 52, 60 and 61. Not bot listening. Not human acceptance of the finished scenes or the film.",
+        "continuous_full_rate_viewed": false,
+        "owner_approval": false
+      },
+      "owner_approval": false,
+      "film_acceptance": false,
+      "hatch_sealed": false
     },
     {
       "id": "S61-SEED20-P1",
@@ -4516,8 +4765,8 @@
       "prompt_id": "S61-SEED20-P2",
       "canonical_block_label": "61 · Seedance 2.0 часть 2",
       "priority": 0.71,
-      "state": "blocked_inputs",
-      "launch_readiness": "blocked_continuity",
+      "state": "waiting_for_slot",
+      "launch_readiness": "authorized_inputs_available",
       "model": "Seedance 2.0",
       "selected_model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -4538,10 +4787,18 @@
         {
           "slot": "@Video1",
           "canonical_role": "previous_part_end",
-          "input_status": "required_not_available",
+          "input_status": "available",
           "required": true,
           "source_item_id": "S61-SEED20-P1",
-          "source_requirement": "Actual last3s of newly generated61P1 only. Preserve true state, faces, geometry and direction; save private clip, provenance, SHA256 and QC; no synthetic substitute."
+          "source_requirement": "Actual last3s of newly generated61P1 only. Preserve true state, faces, geometry and direction; save private clip, provenance, SHA256 and QC; no synthetic substitute.",
+          "sha256": "f5be94c2474b66bcdf78351863ef2aa737b9475a31bd6f5ebd134f263ed0e15a",
+          "drive_file_id": "1sBOQrtNa4CH3nPuippf31U4fPsoWyEf5",
+          "filename": "S61-P1-last3s.mp4",
+          "qc_status": "usable_for_continuity_by_owner",
+          "accepted_as_launch_input": true,
+          "owner_approval": false,
+          "audio_listened_by": "owner",
+          "continuous_full_rate_viewed": false
         },
         {
           "slot": "@Image1",
@@ -4583,7 +4840,19 @@
       "authorization": "Direct owner23Oct2026 current chat: create3Kashyyyk scenes and add after worms; existing authorization one free website Unlimited0 attempt per selected part, no paid route or automatic retry.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
-      "blocker": "S61-P1 and its exact 3s Drive tail already exist (sha256 f5be94c2474b66bcdf78351863ef2aa737b9475a31bd6f5ebd134f263ed0e15a). Do not wait as if the predecessor were missing. Focused visual review 2026-11-08 19:47 Europe/Moscow (trace sand-subagent-230f2fef-1a1e-bf70-f697-eac9bce6082f) passes the tail and withdraws the earlier future-endpoint and phantom-flicker claims: close Lesha to about 1.33s, one clean cut, then a stable wide of blue Vitalik left, purple Lesha centre-left and red Serega right. Frame order 289..360 is monotonic, one cut at 1.333333s, no backward jump. Not proven 24 fps real-time playback. AAC is present and was not listened. Stays blocked pending audio QC."
+      "blocker": null,
+      "owner_audio_continuation_2026_11_08": {
+        "listener": "owner",
+        "quote": "Прослушал все три исходника и их стыки в приложенной копии: звук подходит для продолжения сцен 52, 60 и 61.",
+        "at_local": "2026-11-08T20:10 Europe/Moscow",
+        "card": "t362s1681",
+        "preview": "t362s1678 QC preview 54.125s: three originals plus their actual tails",
+        "scope": "Sound is suitable for continuation of scenes 52, 60 and 61. Not bot listening. Not human acceptance of the finished scenes or the film.",
+        "continuous_full_rate_viewed": false,
+        "owner_approval": false
+      },
+      "owner_approval": false,
+      "film_acceptance": false
     },
     {
       "id": "S62-SEED20-P1",
@@ -4797,7 +5066,122 @@
       "submitted_at": "2026-10-29T19:01:23Z",
       "observed_task_status": "init",
       "receipt": "reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029T190123Z.json",
-      "ui_proof": "reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029T190123Z-ui.png"
+      "ui_proof": "reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029T190123Z-ui.png",
+      "owner_artistic_rerepair_20261108": {
+        "item_id": "S62-SEED20-P1-R2-20261108",
+        "authorization_id": "owner-20261108-t362s1681",
+        "quote": "Разрешаю по одной дополнительной бесплатной художественной попытке S48P2, S59P2 и S62P1 с описанными исправлениями промтов, только Unlimited 0 кредитов, без автоматических повторов и без сброса истории.",
+        "at_local": "2026-11-08T20:10 Europe/Moscow",
+        "resets_history": false,
+        "automatic_retry": false
+      }
+    },
+    {
+      "id": "S62-SEED20-P1-R2-20261108",
+      "scene_id": 62,
+      "prompt_id": "S62-SEED20-P1-R2-20261108",
+      "canonical_block_label": "62 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "7077f88f6ea65cf820654f3ce5165168c56cec63eb36a3b2072f3e6c6c38d317",
+      "normalized_prompt_sha256": "1e9f97b4eaef3283cb661c5a8521571919c82446bf95b83ce6506163b2e878c4",
+      "priority": -0.5,
+      "state": "waiting_for_slot",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "automatic_retry": false,
+      "owner_approval": false,
+      "film_acceptance": false,
+      "task_id": null,
+      "claim": null,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "canonical_role": "owner_previous_video_end",
+          "input_status": "available",
+          "library_file_id": "libfile_4370d4db8fb8819186b6c9e890ef46e3",
+          "filename": "S62-source-A-last3s.mp4",
+          "sha256": "5786c8aa50d3a4d68c38f4953a1933d8b421aed86ca0ac3f647d3ef518283fe7",
+          "duration_seconds": 3,
+          "provenance_path": "references/scenes/scene-62/source-continuity.json",
+          "qc_status": "usable_for_continuity"
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "canonical_role": "Серёга — лицо и фиолетовая роба",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/artem.jpg",
+          "canonical_role": "Артём — бежево-коричневая одежда, зелёный меч",
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/ilyusha.jpg",
+          "canonical_role": "Илюша — зелёная туника, красный плащ, синий меч",
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-62/S62-source-A-final.jpg",
+          "canonical_role": "Настоящий последний кадр первого видео — старт",
+          "sha256": "71f89c0e8991acbfac7e8c3ba96653d5cb409635611d8f6056841ad32a82ca94",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-62/S62-target-B-opening.jpg",
+          "canonical_role": "future Part2 endpoint only; not the ending target of this Part1",
+          "sha256": "d815019cbec688c6617bb67a2058f1d7ed62f2507a59ad0906ddd7b0ff4f2bff",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-62/S62-car-continuity.jpg",
+          "canonical_role": "Та же красная машина из первого видео — только автомобиль",
+          "sha256": "20bf3ae84b6a940f26f3aa096ddce60f36b30b3754e600cf95b5e135315f2444",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "launch_readiness": "authorized_inputs_available",
+      "blocker": null,
+      "authorization_id": "owner-20261108-t362s1681",
+      "authorization": {
+        "id": "owner-20261108-t362s1681",
+        "at_local": "2026-11-08T20:10 Europe/Moscow",
+        "card": "t362s1681",
+        "quote": "Разрешаю по одной дополнительной бесплатной художественной попытке S48P2, S59P2 и S62P1 с описанными исправлениями промтов, только Unlimited 0 кредитов, без автоматических повторов и без сброса истории.",
+        "scope": "One new free artistic Unlimited0 attempt of S62-SEED20-P1-R2-20261108 only. Not a technical retry. Does not reset S62-SEED20-P1.",
+        "unlimited_credits": 0,
+        "model": "Seedance 2.0",
+        "duration_seconds": 15,
+        "automatic_retry": false
+      },
+      "replaces_artistic_result_of": "S62-SEED20-P1",
+      "preserves_previous_task_id": "0de1f663432646d294f409a22e20a26e",
+      "preserves_previous_receipt": "reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029T190123Z.json"
     },
     {
       "id": "S62-SEED20-P2",
@@ -5417,7 +5801,7 @@
       "canonical_prompt_sha256": "e0ddcdfe3d8bbab38ce91e27c953fb752e42a4250c734de09a6b1766079793ed",
       "normalized_prompt_sha256": "562275cad8eacd90c005f076d897496f2662524b59ce826719ef502352f3cf4a",
       "priority": 0.01,
-      "state": "blocked_inputs",
+      "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "model_id": "seedance-2.0-style",
       "duration_seconds": 15,
@@ -5432,7 +5816,7 @@
         {
           "slot": "@Video1",
           "required": true,
-          "input_status": "required_not_available",
+          "input_status": "available",
           "canonical_role": "previous_new_part_end",
           "source_item_id": "S52-R2-SEED20-P1",
           "planned_path": "references/scenes/scene-52/S52-R2-P1-last3s.mp4",
@@ -5453,8 +5837,12 @@
           "source_end_frame_exclusive": 361,
           "drive_file_id": "1tk3CmA3kG6zEJA1hcjKdDUluM4xTdRv1",
           "drive_url": "https://drive.google.com/file/d/1tk3CmA3kG6zEJA1hcjKdDUluM4xTdRv1/view?usp=drivesdk",
-          "qc_status": "provisional_sampled_visual_audio_not_listened",
-          "qc_report": "references/scenes/scene-52/S52-R2-P1-continuity.json"
+          "qc_status": "usable_for_continuity_by_owner",
+          "qc_report": "references/scenes/scene-52/S52-R2-P1-continuity.json",
+          "accepted_as_launch_input": true,
+          "owner_approval": false,
+          "audio_listened_by": "owner",
+          "continuous_full_rate_viewed": false
         },
         {
           "slot": "@Image1",
@@ -5504,12 +5892,26 @@
       ],
       "authorization": "Owner27Oct approved seven separate scene52 parts, all action references and asked this chat to finish prompts/site/queue; replaces held old52 continuation. Existing free-launch authorization for selected52 retained. One selected Unlimited0 render per new part; no paid path, duplicate alternative or automatic retry.",
       "owner_launch_authorized_at": "2026-10-27T11:25:33.064Z",
-      "launch_readiness": "blocked_pending_full_continuity_qc",
-      "blocker": "Actual S52-R2-P1 original and the exact 72-frame/3.0s Drive tail (sha256 d9c0d470a9f916363be22830a70aa2fedf9c03609028f84a9ac1fff78da2bb78) already exist. Parent-coordinated visual review 2026-11-08 19:44 Europe/Moscow (trace sand-subagent-f49c2460-e699-6314-d140-91b212c3bcb1) finds the tail usable: approach and ramp, landing into the left seat, right seat empty, minor face morph about 13s, seated endpoint. Hatch closing is not visible and is not sealed. Not proven 24 fps real-time playback. Audio not listened. Stays blocked until that audio gate or an explicit owner change.",
+      "launch_readiness": "authorized_inputs_available",
+      "blocker": null,
       "input_qc_rule": "Verify exact personal craft identity/scale, face/robe where visible, closed hatch in motion, empty roof, physical departure/landing, motion axis and lighting; no synthetic replacement or propagation of a wrong craft. Success alone does not pass QC.",
       "source_revision": "scene52-seven-parts-2026-10-27",
       "created_at": "2026-10-27T11:25:33.064Z",
-      "revision_note_20261027_owner": "Владелец 27.10 «предложенные улучшения 52 вноси»: фирменные манёвры, вставки кабины, гиперпрыжок, два солнца; часть7 связана с 66→67."
+      "revision_note_20261027_owner": "Владелец 27.10 «предложенные улучшения 52 вноси»: фирменные манёвры, вставки кабины, гиперпрыжок, два солнца; часть7 связана с 66→67.",
+      "owner_audio_continuation_2026_11_08": {
+        "listener": "owner",
+        "quote": "Прослушал все три исходника и их стыки в приложенной копии: звук подходит для продолжения сцен 52, 60 и 61.",
+        "at_local": "2026-11-08T20:10 Europe/Moscow",
+        "card": "t362s1681",
+        "preview": "t362s1678 QC preview 54.125s: three originals plus their actual tails",
+        "scope": "Sound is suitable for continuation of scenes 52, 60 and 61. Not bot listening. Not human acceptance of the finished scenes or the film.",
+        "continuous_full_rate_viewed": false,
+        "owner_approval": false
+      },
+      "owner_approval": false,
+      "film_acceptance": false,
+      "hatch_sealed": false,
+      "hatch_note": "Hatch closing was not visible in the visual review and is not confirmed sealed. That caveat does not withdraw the owner continuation decision."
     },
     {
       "id": "S52-R2-SEED20-P3",

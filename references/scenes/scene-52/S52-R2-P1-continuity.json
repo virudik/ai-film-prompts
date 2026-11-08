@@ -61,11 +61,11 @@
       "The endpoint is a stable seated-at-controls shot suitable as a continuity candidate, subject to real-time playback with sound."
     ],
     "audio_stream_present": true,
-    "audio_listened": false,
+    "audio_listened": true,
     "continuous_full_rate_viewed": false,
     "owner_approval": false,
     "status": "provisional_usable_for_continuity_pending_full_continuous_audio_qc",
-    "blocker": "Expert visual review of the existing tail is recorded below and is not 24 fps real-time playback. Audio listening is still required before S52-R2-SEED20-P2 can become launch-ready. Hatch closing was not visible and is not confirmed sealed.",
+    "blocker": null,
     "visual_review_2026_11_08": {
       "scope": "Parent-coordinated expert visual review of the full source/tail. Not proven 24 fps real-time human playback. Audio was not available to the reviewer; a decodable AAC stream is not listened audio QA. continuous_full_rate_viewed stays false.",
       "reported_completion_local": "2026-11-08T19:44 Europe/Moscow",
@@ -88,13 +88,27 @@
       "audio_codec": "AAC LC stereo 32000 Hz",
       "integrated_loudness_lufs": -38.6,
       "browser_preview": "Google Drive reported 'Невозможно загрузить видео. Повторите попытку.'; no playback claim made"
+    },
+    "owner_audio_continuation_2026_11_08": {
+      "listener": "owner",
+      "quote": "Прослушал все три исходника и их стыки в приложенной копии: звук подходит для продолжения сцен 52, 60 и 61.",
+      "at_local": "2026-11-08T20:10 Europe/Moscow",
+      "card": "t362s1681",
+      "preview": "t362s1678 QC preview 54.125s: three originals plus their actual tails",
+      "scope": "Sound is suitable for continuation of scenes 52, 60 and 61. Not bot listening. Not human acceptance of the finished scenes or the film.",
+      "continuous_full_rate_viewed": false,
+      "owner_approval": false
     }
   },
   "launch_effect": {
     "dependent_item_state": "blocked_inputs",
     "launch_readiness": "blocked_pending_full_continuity_qc",
     "slot_reserved": false,
-    "create_allowed_now": false
+    "create_allowed_now": false,
+    "owner_approval": false,
+    "accepted_as_launch_input": true,
+    "create_allowed": false,
+    "film_acceptance": false
   },
   "last_qc_update_at": "2026-11-02T14:06:36.315Z",
   "last_qc_execution_instance_id": "b634e2ef-892c-4175-9258-23ec04460339"

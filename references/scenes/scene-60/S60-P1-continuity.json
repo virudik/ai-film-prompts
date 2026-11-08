@@ -99,10 +99,10 @@
       }
     ],
     "continuous_full_rate_viewed": false,
-    "audio_listened": false,
+    "audio_listened": true,
     "visual_quality_passed": true,
     "owner_approval": false,
-    "note": "Historical extraction note stands: decode success is not approval, and the older final-still review below stays sampled-only. 2026-11-08 19:47 Europe/Moscow parent-coordinated visual review (trace sand-subagent-f49c2460-e699-6314-d140-91b212c3bcb1) corrects an earlier false reject that treated a later interior as the P2 start. P2 continues exterior 0–5s, cuts wide at 5s and to the cockpit at 10s. Visual pass: one craft in vertical ascent, clearance and tree geometry sufficient, roof empty, gear extended is correct for lift, tail usable. Hatch not visible and not confirmed sealed. This is not proven 24 fps real-time playback. Audio was not listened. Launch readiness stays blocked.",
+    "note": "Historical extraction note stands: decode success is not approval, and the older final-still review below stays sampled-only. 2026-11-08 19:47 Europe/Moscow parent-coordinated visual review (trace sand-subagent-f49c2460-e699-6314-d140-91b212c3bcb1) corrects an earlier false reject that treated a later interior as the P2 start. P2 continues exterior 0–5s, cuts wide at 5s and to the cockpit at 10s. Visual pass: one craft in vertical ascent, clearance and tree geometry sufficient, roof empty, gear extended is correct for lift, tail usable. Hatch not visible and not confirmed sealed. This is not proven 24 fps real-time playback. Audio was not listened. Owner audio confirmation 2026-11-08 20:10 Europe/Moscow clears this tail for continuation only. Film acceptance stays false. Hatch closing stays unconfirmed. continuous_full_rate_viewed stays false.",
     "visual_review_2026_11_08": {
       "scope": "Parent-coordinated expert visual review. Not proven 24 fps real-time human playback and not audio listening. The earlier limited_visual_review remains a single still and is not rewritten as this review.",
       "reported_completion_local": "2026-11-08T19:47 Europe/Moscow",
@@ -121,6 +121,16 @@
       "scope": "only the final source frame at15.000s was viewed as a still image",
       "observation": "Single final-frame inspection only: underside of one craft is visible above the camera between forest treetops. Pilot, hatch and roof are not visible from this angle; exact state/trajectory and whole-clip continuity remain unverified.",
       "continuity_pass_claimed": false
+    },
+    "owner_audio_continuation_2026_11_08": {
+      "listener": "owner",
+      "quote": "Прослушал все три исходника и их стыки в приложенной копии: звук подходит для продолжения сцен 52, 60 и 61.",
+      "at_local": "2026-11-08T20:10 Europe/Moscow",
+      "card": "t362s1681",
+      "preview": "t362s1678 QC preview 54.125s: three originals plus their actual tails",
+      "scope": "Sound is suitable for continuation of scenes 52, 60 and 61. Not bot listening. Not human acceptance of the finished scenes or the film.",
+      "continuous_full_rate_viewed": false,
+      "owner_approval": false
     }
   },
   "launch_effect": {
@@ -128,7 +138,10 @@
     "queue_changed": false,
     "master_changed": false,
     "slot_reserved": false,
-    "launch_readiness": "blocked_pending_full_continuity_qc"
+    "launch_readiness": "blocked_pending_full_continuity_qc",
+    "owner_approval": false,
+    "accepted_as_launch_input": true,
+    "film_acceptance": false
   },
   "record_status": "prepared_pending_visual_audio_qc",
   "recorded_at": "2026-11-06T11:43:53+00:00",
@@ -139,7 +152,8 @@
     "provenance_path": "references/scenes/scene-60/S60-P1-continuity.json",
     "prepared_for_item_id": "S60-SEED20-P2",
     "input_slot": "@Video1",
-    "accepted_as_launch_input": false
+    "accepted_as_launch_input": true,
+    "owner_approval": false
   },
   "recovery_verification": {
     "checked_at": "2026-11-06T12:18:21+00:00",

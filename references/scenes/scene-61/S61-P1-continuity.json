@@ -99,10 +99,10 @@
       }
     ],
     "continuous_full_rate_viewed": false,
-    "audio_listened": false,
+    "audio_listened": true,
     "visual_quality_passed": true,
     "owner_approval": false,
-    "note": "Historical extraction note stands: decode success is not approval, and the older final-still review below stays sampled-only. Focused tail visual review 2026-11-08 19:47 Europe/Moscow (trace sand-subagent-230f2fef-1a1e-bf70-f697-eac9bce6082f) withdraws two earlier claims from the 19:45 review of the same trace: that P1 must already match the future P2 endpoint, and a phantom flicker. Visual pass of the tail: about 0–1.33s close on Lesha, one clean cut, then a stable wide of three people (blue Vitalik left, purple Lesha centre-left, red Serega right) without a hit or an anatomical problem. Executor frame-order check of the unchanged tail sha256 f5be94c2…: frames 289..360, strictly monotonic PTS, one content cut at 1.333333s, no backward jump and no last-frame glitch. Not proven 24 fps real-time playback. AAC is present and decodable; it was not listened, and an earlier 'audio absent' claim is not justified. Launch readiness stays blocked pending audio QC.",
+    "note": "Historical extraction note stands: decode success is not approval, and the older final-still review below stays sampled-only. Focused tail visual review 2026-11-08 19:47 Europe/Moscow (trace sand-subagent-230f2fef-1a1e-bf70-f697-eac9bce6082f) withdraws two earlier claims from the 19:45 review of the same trace: that P1 must already match the future P2 endpoint, and a phantom flicker. Visual pass of the tail: about 0–1.33s close on Lesha, one clean cut, then a stable wide of three people (blue Vitalik left, purple Lesha centre-left, red Serega right) without a hit or an anatomical problem. Executor frame-order check of the unchanged tail sha256 f5be94c2…: frames 289..360, strictly monotonic PTS, one content cut at 1.333333s, no backward jump and no last-frame glitch. Not proven 24 fps real-time playback. AAC is present and decodable; it was not listened, and an earlier 'audio absent' claim is not justified. Owner audio confirmation 2026-11-08 20:10 Europe/Moscow clears this tail for continuation only. Film acceptance stays false. continuous_full_rate_viewed stays false.",
     "visual_review_2026_11_08": {
       "scope": "Parent-coordinated expert visual review of the tail, plus a deterministic frame-order check. Not proven 24 fps real-time human playback and not audio listening. The earlier limited_visual_review remains a single still.",
       "reported_completion_local": "2026-11-08T19:47 Europe/Moscow",
@@ -124,6 +124,16 @@
       "scope": "only the final source frame at15.000s was viewed as a still image",
       "observation": "Single final-frame inspection only: three figures are present; blue blade foreground-left, purple blade deeper-left, red blade at right. Full movement, identities, required distance, blade-roll sequence and sound remain unverified.",
       "continuity_pass_claimed": false
+    },
+    "owner_audio_continuation_2026_11_08": {
+      "listener": "owner",
+      "quote": "Прослушал все три исходника и их стыки в приложенной копии: звук подходит для продолжения сцен 52, 60 и 61.",
+      "at_local": "2026-11-08T20:10 Europe/Moscow",
+      "card": "t362s1681",
+      "preview": "t362s1678 QC preview 54.125s: three originals plus their actual tails",
+      "scope": "Sound is suitable for continuation of scenes 52, 60 and 61. Not bot listening. Not human acceptance of the finished scenes or the film.",
+      "continuous_full_rate_viewed": false,
+      "owner_approval": false
     }
   },
   "launch_effect": {
@@ -131,7 +141,10 @@
     "queue_changed": false,
     "master_changed": false,
     "slot_reserved": false,
-    "launch_readiness": "blocked_pending_full_continuity_qc"
+    "launch_readiness": "blocked_pending_full_continuity_qc",
+    "owner_approval": false,
+    "accepted_as_launch_input": true,
+    "film_acceptance": false
   },
   "record_status": "prepared_pending_visual_audio_qc",
   "recorded_at": "2026-11-06T11:43:53+00:00",
@@ -142,7 +155,8 @@
     "provenance_path": "references/scenes/scene-61/S61-P1-continuity.json",
     "prepared_for_item_id": "S61-SEED20-P2",
     "input_slot": "@Video1",
-    "accepted_as_launch_input": false
+    "accepted_as_launch_input": true,
+    "owner_approval": false
   },
   "recovery_verification": {
     "checked_at": "2026-11-06T12:18:21+00:00",

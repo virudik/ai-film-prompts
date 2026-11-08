@@ -1,0 +1,108 @@
+{
+  "authorization_id": "owner-20261108-t362s1681",
+  "checks": [
+    {
+      "ok": true,
+      "name": "48 identity and contact",
+      "detail": "one rider, two Jedi on the ground, visible push-off/arc/both feet/knees"
+    },
+    {
+      "ok": true,
+      "name": "48 params",
+      "detail": "Seedance 2.0 15s"
+    },
+    {
+      "ok": true,
+      "name": "59 flight package",
+      "detail": "Image3 removed from reference list; airborne end; landing forbidden in P2"
+    },
+    {
+      "ok": true,
+      "name": "62 P1 end contract",
+      "detail": "Image5 is future context; hilts off; walking end"
+    },
+    {
+      "ok": true,
+      "name": "62 P2 unchanged",
+      "detail": "P2 still owns the triangle and ignition"
+    },
+    {
+      "ok": true,
+      "name": "durations",
+      "detail": "15s"
+    },
+    {
+      "ok": true,
+      "name": "ref files",
+      "detail": "image paths and sha match"
+    },
+    {
+      "ok": true,
+      "name": "one attempt each",
+      "detail": "waiting_for_slot, Unlimited 0, one submission"
+    },
+    {
+      "ok": true,
+      "name": "48 history",
+      "detail": "de8e44bb15d64dc7a4eb640d27a726e4"
+    },
+    {
+      "ok": true,
+      "name": "59 budget",
+      "detail": "correction_budget 0 and max_new_submissions 0 kept"
+    },
+    {
+      "ok": true,
+      "name": "62 budget",
+      "detail": "additional_attempts 0 and submitted state kept"
+    },
+    {
+      "ok": true,
+      "name": "next parts blocked",
+      "detail": "48P3 59P3 62P2"
+    }
+  ],
+  "new_items": [
+    {
+      "id": "S48-SEED20-P2-R2-20261108",
+      "canonical_prompt_sha256": "e0a9aa8e000b206534df67b726932fb1ea9cf9eea850816bdaddc885d7c282b1",
+      "normalized_prompt_sha256": "6a139ad98ef41ce863aa3cac503198099fa93f769a93d287fddebd0f818a93f5",
+      "priority": -0.98,
+      "refs": [
+        "@Video1",
+        "@Image1",
+        "@Image2",
+        "@Image3",
+        "@Image4",
+        "@Image5",
+        "@Image6"
+      ]
+    },
+    {
+      "id": "S59-SEED20-P2-R2-20261108",
+      "canonical_prompt_sha256": "123f4eb02a206fce424f706d6eb140470e2d588df3db1d0cde812ccd8be9d386",
+      "normalized_prompt_sha256": "f2bf2be5f0e48712914863597c1e8974aabd7dd7474f5404c07de6775535deb3",
+      "priority": 0.51,
+      "refs": [
+        "@Video1",
+        "@Image1",
+        "@Image2"
+      ]
+    },
+    {
+      "id": "S62-SEED20-P1-R2-20261108",
+      "canonical_prompt_sha256": "7077f88f6ea65cf820654f3ce5165168c56cec63eb36a3b2072f3e6c6c38d317",
+      "normalized_prompt_sha256": "1e9f97b4eaef3283cb661c5a8521571919c82446bf95b83ce6506163b2e878c4",
+      "priority": -0.5,
+      "refs": [
+        "@Video1",
+        "@Image1",
+        "@Image2",
+        "@Image3",
+        "@Image4",
+        "@Image5",
+        "@Image6"
+      ]
+    }
+  ]
+}
