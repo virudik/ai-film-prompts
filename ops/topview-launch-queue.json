@@ -990,7 +990,7 @@
       "canonical_prompt_sha256": "098e48e7cddd6a70b55fd514bb7426a526fadd383c7845226f909e913710c351",
       "normalized_prompt_sha256": "c597bf5c35e67e4ff86875149d0297bc039adee0ba992121516811da6d76d620",
       "priority": 1.25,
-      "state": "claimed",
+      "state": "submitting",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -1102,7 +1102,18 @@
           "credits_price_visible": 0,
           "price_shown": false,
           "prompt_chars": 8815
-        }
+        },
+        "submission_intent_id": "d9d32746-29e9-4064-8d57-14250a717e47",
+        "submission_intent_at": "2026-11-08T16:03:22Z",
+        "lease_holder": "grok:27c9cfc2-78f9-4187-a7e8-a1f564fb2f99",
+        "lease_acquired_at": "2026-11-08T15:59:43Z",
+        "replay_forbidden": true,
+        "provider_run_id": "grokbot-routine-e57554d4-e37d-5a96-849b-bb01ae42ed2d@2026-11-08T15:51:08.446Z",
+        "provider_run_key": "f3b11e7eefecbff04ea07bd8e8d2bd9285025885dce95d62aee139cc71194359",
+        "owner_event_keys": [],
+        "ledger_path": "ops/launcher-run-ledger.json",
+        "trigger": "wake",
+        "wake_issue": 452
       },
       "owner_review_required_after_item": null,
       "blocker": null,
