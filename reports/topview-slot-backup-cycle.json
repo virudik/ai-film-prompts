@@ -14,35 +14,65 @@
   "lease_commit": "6fe6f8268509c6f72272fb6ea483ae5ad80b439c",
   "started_at": "2026-11-08T04:04:15.913269Z",
   "receipt_started_at": "2026-11-08T04:10:35.249Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "no_free_slot",
   "scan": {
-    "complete": false,
-    "source": "read_only_topview_connector_14_boards_18_pages",
-    "complete_scan_verified": false
+    "complete": true,
+    "complete_scan_verified": true,
+    "source": "read_only_topview_connector_all_14_boards_all_video_pages",
+    "boards_scanned": 14,
+    "pages_scanned": 18,
+    "video_tasks_scanned": 632,
+    "unique_video_task_ids": 632,
+    "status_counts": {
+      "success": 603,
+      "fail": 23,
+      "init": 6
+    },
+    "active_task_ids": [
+      "abb161edcf5c4b58b91460677939b5d3",
+      "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
+      "101221814fd5430697f697f95a3f4252",
+      "3ebe7c23db05479e9b6f762a75b832e7",
+      "365cf639589a4a5da834d70193d5e8f6",
+      "be960f5e3bf54563aff663fed9da8906"
+    ],
+    "submitted_task_ids_reconciled": 16,
+    "all_submitted_found": true,
+    "details_rechecked": true,
+    "latest_active_recheck_at": null,
+    "all_active_unlimited_zero": true
   },
   "slots": {
     "capacity": 6,
-    "occupied": null,
-    "free": null,
-    "complete_scan_verified": false
+    "occupied": 6,
+    "free": 0,
+    "complete_scan_verified": true
   },
   "selected_item": null,
-  "task_ids": [],
-  "outcome": null,
+  "task_ids": [
+    "abb161edcf5c4b58b91460677939b5d3",
+    "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
+    "101221814fd5430697f697f95a3f4252",
+    "3ebe7c23db05479e9b6f762a75b832e7",
+    "365cf639589a4a5da834d70193d5e8f6",
+    "be960f5e3bf54563aff663fed9da8906"
+  ],
+  "outcome": "no_free_slot",
   "blocker": null,
-  "retryable": null,
-  "browser_transport": "not_used",
+  "retryable": false,
+  "browser_transport": "not_used_no_free_slot",
   "tinyfish": {
     "used": false,
     "run_ids": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0
+    "confirmed_cost_usd": 0,
+    "not_run_reason": "Complete live scan confirms 6/6 physical video slots; metered browser disallowed"
   },
   "acceptance": {
     "scheduled_run_verified": true,
-    "topview_read_only_scan_complete": false,
+    "topview_read_only_scan_complete": true,
     "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
@@ -50,6 +80,37 @@
   },
   "new_submissions": [],
   "topview_credits_spent": 0,
-  "checked_at": "2026-11-08T04:10:35.249Z",
-  "note": "Started receipt under exclusive lease; full scan verification pending final receipt. No Create."
+  "checked_at": "2026-11-08T04:13:38.058Z",
+  "note": "Live 14-board 18-page scan: 6/6 init, 632 unique videos; no Create/retry or metered browser. S49B submission_unknown preserved, S49D next independent ready. S73 unapproved pre-existing task not repeated. Current route3 prefers Work but ordinary scheduled allowlist valid. No checkpoint or role change.",
+  "holder": "chatgpt:ordinary:89d05c44-baf1-4e29-9e69-2000b606d4ee",
+  "completed_at": "2026-11-08T04:13:38.058Z",
+  "next_ready_candidate": "S49D",
+  "queue_reconciliation": {
+    "submitted_count": 16,
+    "all_submitted_found": true,
+    "claimed": 0,
+    "submitting": 0,
+    "submission_unknown": 1,
+    "unresolved_items": [
+      {
+        "id": "S49B",
+        "state": "submission_unknown",
+        "submission_intent_id": "e12e32cf-b8d6-4484-86ef-35acee6e4693"
+      }
+    ],
+    "queue_sha256_matches_readiness": true,
+    "task_map_sha256_matches_readiness": true,
+    "source_queue_sha256": "f1ac25c6ffdaf890cb532135eca4cc8cb8325f6fbbf741c2b198cc4ec53d56f1",
+    "source_task_map_sha256": "50f870eb1ba7b4149c45bfbb972bb29dcacd725b019f5ddf64d985e7a9baa094"
+  },
+  "monitor_status": "automation-monitor-status.json launcher_health checked 2026-11-08T04:10:26Z shows 6/6; direct account-wide scan independently 6/6. Old topview-slot-wake issue not treated as current vacancy or webhook acknowledgement.",
+  "owner_tasks": "checked_open_0",
+  "peer_reconciliation": {
+    "hh00_last_run_id": "05042ee4-54c8-8329-8bae-d3344b8c1904",
+    "hh00_latest_result_run_id": "49bc7f03-58ec-8332-a4a9-590532d675fd",
+    "hh55_last_run_id": "7a7f6fa0-33c0-8333-99f7-8876bf8010ef",
+    "hh55_latest_result_run_id": "1658357b-2320-8333-98ac-459762c93799",
+    "relay_last_run_id": "85274d2b-f034-832b-89f3-e32dab41a88a",
+    "relay_latest_result_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d"
+  }
 }
