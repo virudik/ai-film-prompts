@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:50d733e4-1083-4c07-98a3-02631f519bc4",
-  "task": "Read-only TLS/HTTP verification of public family subdomains and evidence publication; no DNS or queue edits",
-  "acquired_at": "2026-11-08T06:16:57Z",
-  "expires_at": null,
-  "released_at": "2026-11-08T06:22:39Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:c1dec76d-aeb0-485b-a474-4112f8727b2c",
+  "task": "Archive completed register history with canonical trim_register; preserve current recovery and queue",
+  "acquired_at": "2026-11-08T06:24:53Z",
+  "expires_at": "2026-11-08T06:44:53Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
