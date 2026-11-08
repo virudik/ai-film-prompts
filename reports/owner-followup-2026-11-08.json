@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "request_id": "owner-20261108-video-order-honor-tls",
+  "project": "seregius",
+  "stage": "in_progress",
+  "checked_at": "2026-11-08T07:26:23+00:00",
+  "source_head": "83469a561a97ff7c3a875c3eb01b79a45c72de2f",
+  "holder": "chatgpt:ordinary:79dd16b2-9780-466c-a616-33cb3eb1387d",
+  "requested_video_order": [
+    "Открытка",
+    "ОСД",
+    "Котмонавты",
+    "Звёздные войны в деревне",
+    "Финансовые мультики",
+    "Алексей против тараканов",
+    "Остальные"
+  ],
+  "new_tasks": [
+    "A-31: YouTube inventory and owner-channel import to Rutube; replace only after player verification",
+    "A-32: exact owner video ordering"
+  ],
+  "preserved_boundaries": [
+    "No paid generation",
+    "No duplicate scenes or files",
+    "Keep paused by owner",
+    "No deletion until verified external playback and source preservation",
+    "No claim that a title page proves video playback"
+  ],
+  "topview_observation": {
+    "checked_at": "2026-11-08T07:10:23Z",
+    "occupied_slots": 6,
+    "free_slots": 0,
+    "active_tasks": [
+      {
+        "scene_id": 49,
+        "task_id": "101221814fd5430697f697f95a3f4252",
+        "model": "Seedance 2.0",
+        "model_id": "seedance-2.0-style",
+        "topview_status": "init",
+        "started_at": "2026-11-06T05:47:38Z",
+        "queue_count": 3236,
+        "topview_estimated_wait_seconds": 142584,
+        "checked_at": "2026-11-08T07:10:23Z",
+        "topview_estimated_process_seconds": null,
+        "verified": true,
+        "mapping_confidence": "Topview task map (exact Scene mapping from the monitor's map)"
+      },
+      {
+        "scene_id": 63,
+        "task_id": "365cf639589a4a5da834d70193d5e8f6",
+        "model": "Wan 3.0",
+        "model_id": "qwen-wan3.0-video",
+        "topview_status": "init",
+        "started_at": "2026-11-04T20:11:51Z",
+        "queue_count": 2201,
+        "topview_estimated_wait_seconds": 82104,
+        "checked_at": "2026-11-08T07:10:23Z",
+        "topview_estimated_process_seconds": null,
+        "verified": true,
+        "mapping_confidence": "prompt normalized match with master block 63 (robot)"
+      },
+      {
+        "scene_id": 64,
+        "task_id": "3ebe7c23db05479e9b6f762a75b832e7",
+        "model": "Wan 3.0",
+        "model_id": "qwen-wan3.0-video",
+        "topview_status": "init",
+        "started_at": "2026-11-05T20:31:40Z",
+        "queue_count": 2511,
+        "topview_estimated_wait_seconds": 99384,
+        "checked_at": "2026-11-08T07:10:23Z",
+        "topview_estimated_process_seconds": null,
+        "verified": true,
+        "mapping_confidence": "prompt normalized match with master block 64 (robot)"
+      },
+      {
+        "scene_id": 73,
+        "task_id": "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
+        "model": "Wan 3.0",
+        "model_id": "qwen-wan3.0-video",
+        "topview_status": "init",
+        "started_at": "2026-11-06T22:51:17Z",
+        "queue_count": 3525,
+        "topview_estimated_wait_seconds": 159864,
+        "checked_at": "2026-11-08T07:10:23Z",
+        "topview_estimated_process_seconds": null,
+        "verified": true,
+        "mapping_confidence": "prompt normalized match with master block 73 (robot)"
+      },
+      {
+        "scene_id": 49,
+        "task_id": "abb161edcf5c4b58b91460677939b5d3",
+        "model": "Seedance 2.0",
+        "model_id": "seedance-2.0-style",
+        "topview_status": "init",
+        "started_at": "2026-11-07T21:30:26Z",
+        "queue_count": 4246,
+        "topview_estimated_wait_seconds": 203063,
+        "checked_at": "2026-11-08T07:10:23Z",
+        "topview_estimated_process_seconds": null,
+        "verified": true,
+        "mapping_confidence": "prompt normalized match with master block 49C (robot)",
+        "part": "C"
+      },
+      {
+        "scene_id": 56,
+        "task_id": "be960f5e3bf54563aff663fed9da8906",
+        "model": "Seedance 2.0",
+        "model_id": "seedance-2.0-style",
+        "topview_status": "init",
+        "started_at": "2026-11-03T15:14:23Z",
+        "queue_count": 1867,
+        "topview_estimated_wait_seconds": 64823,
+        "checked_at": "2026-11-08T07:10:23Z",
+        "topview_estimated_process_seconds": null,
+        "verified": true,
+        "mapping_confidence": "prompt normalized match with master block 56 · Seedance 2.0 часть 2 (robot)",
+        "part": "Seedance 2.0 часть 2"
+      }
+    ]
+  },
+  "canon_health": {
+    "checked_at": "2026-11-08T06:28:59Z",
+    "status": "ok",
+    "warnings": 0
+  },
+  "browser_capability": "Connected Browser list_tabs returned missing originating browser context; no authenticated Rutube Studio UI in this execution",
+  "youtube_import_source": "https://rutube.ru/info/youtube/",
+  "status": "Initial checkpoint only; website order and TLS repair not yet completed."
+}

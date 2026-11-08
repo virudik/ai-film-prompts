@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-08T07:13:26+00:00",
-  "source_head": "0f09e2736d99fc206bcbf6b4979aaf7279b0c566",
-  "source_fingerprint": "af7a7e4bf3196f60a56526b9c1406674fe4c092e77d47f2f891ef1434ec63a51",
+  "checked_at": "2026-11-08T07:26:23+00:00",
+  "source_head": "83469a561a97ff7c3a875c3eb01b79a45c72de2f",
+  "source_fingerprint": "46dd2e8ad52b3deee2b8fdec47300c8f1285740b7ad1c9e45969f762ca82d938",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -36,35 +36,28 @@
     "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
     "title": "Заполнение свободных Topview-слотов — задача №1",
     "status": "waiting_for_slot",
-    "last_completed": "Прямой TLS с проверкой доверенной цепочки и имени: 0/8 сертификатов подтверждено, HTTP 2xx/3xx: 0/8. Результаты и ошибки каждого адреса: reports/public-sites-check-2026-11-08.json. DNS и настройки Pages не менялись.",
-    "next_action": "При свободном слоте выполнить новый полный скан всех досок и сверку claims/task ID, затем взять готовый разрешённый item по живому priority; только Unlimited 0 и собственный CAS. Уже отправленное не повторять. Google Keep отложен по P-14 до новой отдельной команды. Продолжить продуктовые PNG HONOR, QC RESOURCE и настоящих стыков S52/S60/S61, проверку TLS восьми поддоменов и воспроизведения Rutube. Существующие инструкции Саше и визитки не создавать заново; цифровой QR проверен, печатная и художественная приёмка открыты.",
-    "verified_at": "2026-11-08T06:22:38+00:00",
+    "last_completed": "Сохранено новое поручение; общий аудит отсортирован по приоритету и готовности без повторных задач. Выполнение сайт/TLS/HONOR остаётся открытым.",
+    "next_action": "Проверить живые слоты; при наличии места только готовый разрешённый item Unlimited0/CAS. Выполнить A-32 (порядок видео), A-20 (Pages/TLS), A-09/A-08 (конкурс и референсы HONOR), A-07 (RESOURCE QC), A-21/A-31 (Rutube/YouTube). Перед удалением MP4 подтвердить воспроизведение и сохранность исходника. Keep на паузе; готовые файлы/инструкции не дублировать.",
+    "verified_at": "2026-11-08T07:26:23+00:00",
     "blockers": [],
     "evidence": [
       {
-        "file": "reports/public-sites-check-2026-11-08.json",
-        "sha256": "0cf10f5acd089d8ef4eaa8461b4c8212f41aca194cde5a1c68ced981d22dd3af"
-      },
-      {
-        "file": "reports/continuation-publication-2026-11-08.json",
-        "sha256": "ec13125dd1872d442df018c633cb5328dd423b99ec3ee3d60b39cdd1d9071f6a"
-      },
-      {
-        "file": "reports/continuation-qc-2026-11-08.json",
-        "sha256": "6a27bfcc25aedf64205df6f3262e8132f8902e4afe1f87ef225c49f868e55d74"
+        "file": "reports/owner-followup-2026-11-08.json",
+        "sha256": "9051a7ff9f55681a7965eec0f86c5cd5e3e19975b51bac7ca70e50de770db176"
       }
     ],
     "read_next": [
       "ops/TOPVIEW-FREE-LAUNCH.md",
+      "ops/FUTURE-PLANS.md",
       "projects/raznoe/HANDOFF.md"
     ],
     "checkpoint": {
       "file": "reports/current-work-checkpoint.md",
-      "anchor": "# 08.11.2026 — прямая проверка TLS семейных поддоменов",
-      "sha256": "dbbd9c33fd9695b7f0960b95f1588efe2e5050638284549345212f6597fbfd69"
+      "anchor": "# 08.11.2026 — новые срочные поручения и точный порядок видео",
+      "sha256": "6a40603b95bbb9c862a316d3761c30a3fbbe49465e95dbbe32fd6a2e59095c3d"
     }
   },
-  "checkpoint_text": "# 08.11.2026 — прямая проверка TLS семейных поддоменов\n\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\n- Прямой TLS с проверкой доверенной цепочки и имени: 0/8 сертификатов подтверждено, HTTP 2xx/3xx: 0/8. Результаты и ошибки каждого адреса: reports/public-sites-check-2026-11-08.json. DNS и настройки Pages не менялись.\n- Исправление recovery уже опубликовано; пауза Keep сохранена. QR/DOM-проверки не выполнялись заново.\n- Следующий шаг: При свободном слоте выполнить новый полный скан всех досок и сверку claims/task ID, затем взять готовый разрешённый item по живому priority; только Unlimited 0 и собственный CAS. Уже отправленное не повторять. Google Keep отложен по P-14 до новой отдельной команды. Продолжить продуктовые PNG HONOR, QC RESOURCE и настоящих стыков S52/S60/S61, проверку TLS восьми поддоменов и воспроизведения Rutube. Существующие инструкции Саше и визитки не создавать заново; цифровой QR проверен, печатная и художественная приёмка открыты.\n\nchecked_at: 2026-11-08T06:22:37Z\n",
+  "checkpoint_text": "# 08.11.2026 — новые срочные поручения и точный порядок видео\n\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\n- Новое поручение владельца 08.11: отсортировать планы, отметить выполненное, точный порядок шести видео; срочно Youtube→Rutube, HTTPS, HONOR/конкурс. Это начальная точка, не отчёт о завершении.\n- Сохранены IDs A-01…A-30, добавлены A-31/A-32; оригинальные решения и пауза Keep сохранены.\n- Доказательство: reports/owner-followup-2026-11-08.json.\n- Следующий шаг: Проверить живые слоты; при наличии места только готовый разрешённый item Unlimited0/CAS. Выполнить A-32 (порядок видео), A-20 (Pages/TLS), A-09/A-08 (конкурс и референсы HONOR), A-07 (RESOURCE QC), A-21/A-31 (Rutube/YouTube). Перед удалением MP4 подтвердить воспроизведение и сохранность исходника. Keep на паузе; готовые файлы/инструкции не дублировать.\n\nchecked_at: 2026-11-08T07:26:23+00:00\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -159,6 +152,7 @@
   ],
   "read_next": [
     "ops/TOPVIEW-FREE-LAUNCH.md",
+    "ops/FUTURE-PLANS.md",
     "projects/raznoe/HANDOFF.md"
   ],
   "live_checks_required": [
@@ -486,19 +480,9 @@
       "bytes": 22987
     },
     {
-      "file": "reports/continuation-publication-2026-11-08.json",
-      "sha256": "ec13125dd1872d442df018c633cb5328dd423b99ec3ee3d60b39cdd1d9071f6a",
-      "bytes": 6647
-    },
-    {
-      "file": "reports/continuation-qc-2026-11-08.json",
-      "sha256": "6a27bfcc25aedf64205df6f3262e8132f8902e4afe1f87ef225c49f868e55d74",
-      "bytes": 3091
-    },
-    {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "1bab3087b923d143a6f67153c8217db0e58a966ababbbc47eec9cea073c201e5",
-      "bytes": 44844
+      "sha256": "1fa66a6ad8e6f8ec1504b8d8ca52939e3f62faab73d58e7fd12c98b59becdd1c",
+      "bytes": 46165
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -506,9 +490,9 @@
       "bytes": 71765
     },
     {
-      "file": "reports/public-sites-check-2026-11-08.json",
-      "sha256": "0cf10f5acd089d8ef4eaa8461b4c8212f41aca194cde5a1c68ced981d22dd3af",
-      "bytes": 17628
+      "file": "reports/owner-followup-2026-11-08.json",
+      "sha256": "9051a7ff9f55681a7965eec0f86c5cd5e3e19975b51bac7ca70e50de770db176",
+      "bytes": 4873
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -527,9 +511,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "c571cdd001f766e6c2293f93a792d330b795ef9e5087fbb884e60a0610d165e4",
-      "bytes": 98695
+      "sha256": "37be663fc9fa17829a162906386eb0eaaa08e9010b362f4f06bd73f6ea59566c",
+      "bytes": 97663
     }
   ],
-  "packet_bytes": 6791
+  "packet_bytes": 6169
 }
