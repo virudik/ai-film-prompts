@@ -3,69 +3,41 @@
   "project": "seregius",
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "31675623-3604-4197-9618-262f2f576b8c",
-  "run_id": "55db85ec-b628-8328-b9da-a76ad3b8a613",
+  "execution_instance_id": "f8731dc6-9d12-4fed-a5a7-a903d510afb2",
+  "run_id": "9925cd48-ef04-8333-bffc-a515869f264b",
   "run_id_unavailable_reason": null,
-  "runtime_run_id_source": "Automations.peek last_run.id for scheduled 2026-11-08T11:00:00Z",
-  "source_head": "6569c2d57be949f6c2370823ac086919a066f1b5",
+  "runtime_run_id_source": "Automations.peek last_run.id scheduled_for 2026-11-08T12:00:00Z",
+  "source_head": "1eac445c533038548b8bc80e4a39349b53c4b4af",
   "route_generation": 3,
-  "lease_holder": "chatgpt:ordinary:31675623-3604-4197-9618-262f2f576b8c",
-  "lease_acquired_at": "2026-11-08T11:08:05.037Z",
-  "lease_expires_at": "2026-11-08T11:22:05.037Z",
-  "lease_commit": "6569c2d57be949f6c2370823ac086919a066f1b5",
-  "started_at": "2026-11-08T11:02:45.316996Z",
-  "receipt_started_at": "2026-11-08T11:09:01.142Z",
-  "phase": "finished",
-  "status": "no_free_slot",
-  "outcome": "no_free_slot",
+  "lease_holder": "chatgpt:ordinary:f8731dc6-9d12-4fed-a5a7-a903d510afb2",
+  "lease_acquired_at": "2026-11-08T12:03:25.953Z",
+  "lease_expires_at": "2026-11-08T12:28:25.953Z",
+  "lease_commit": "1eac445c533038548b8bc80e4a39349b53c4b4af",
+  "started_at": "2026-11-08T12:00:08.696254Z",
+  "receipt_started_at": "2026-11-08T12:04:07.822Z",
+  "phase": "started",
+  "status": "running",
+  "outcome": "in_progress",
   "blocker": null,
-  "retryable": false,
-  "scan": {
-    "complete": true,
-    "complete_scan_verified": true,
-    "source": "read_only_topview_connector_all_14_boards_all_video_pages",
-    "boards_scanned": 14,
-    "pages_scanned": 18,
-    "video_tasks_scanned": 632,
-    "unique_video_task_ids": 632,
-    "status_counts": {
-      "success": 603,
-      "init": 6,
-      "fail": 23
-    },
-    "active_task_ids": [
-      "abb161edcf5c4b58b91460677939b5d3",
-      "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
-      "101221814fd5430697f697f95a3f4252",
-      "3ebe7c23db05479e9b6f762a75b832e7",
-      "365cf639589a4a5da834d70193d5e8f6",
-      "be960f5e3bf54563aff663fed9da8906"
-    ],
-    "scan_completed_at": "2026-11-08T11:05:43.566Z",
-    "submitted_task_ids_reconciled": 16,
-    "all_submitted_found": true,
-    "details_rechecked": true,
-    "latest_active_recheck_at": "2026-11-08T11:12:29.122Z",
-    "all_active_unlimited_zero": true
-  },
+  "retryable": null,
+  "scan": null,
   "slots": {
     "capacity": 6,
-    "occupied": 6,
-    "free": 0,
-    "complete_scan_verified": true
+    "occupied": null,
+    "free": null,
+    "complete_scan_verified": false
   },
-  "browser_transport": "not_used_no_free_slot",
+  "browser_transport": "not_started",
   "tinyfish": {
     "used": false,
     "run_ids": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0,
-    "not_run_reason": "Full fresh read-only scan confirmed 6/6; no metered browsing at full capacity"
+    "confirmed_cost_usd": 0
   },
   "acceptance": {
     "scheduled_run_verified": true,
-    "topview_read_only_scan_complete": true,
+    "topview_read_only_scan_complete": false,
     "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
@@ -74,48 +46,8 @@
   "new_submissions": [],
   "topview_credits_spent": 0,
   "selected_item": null,
-  "task_ids": [
-    "abb161edcf5c4b58b91460677939b5d3",
-    "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
-    "101221814fd5430697f697f95a3f4252",
-    "3ebe7c23db05479e9b6f762a75b832e7",
-    "365cf639589a4a5da834d70193d5e8f6",
-    "be960f5e3bf54563aff663fed9da8906"
-  ],
-  "checked_at": "2026-11-08T11:14:01.916Z",
-  "completed_at": "2026-11-08T11:14:01.916Z",
-  "holder": "chatgpt:ordinary:31675623-3604-4197-9618-262f2f576b8c",
-  "queue_reconciliation": {
-    "submitted_count": 16,
-    "all_submitted_found": true,
-    "claimed": 0,
-    "submitting": 0,
-    "submission_unknown": 1,
-    "unresolved_items": [
-      {
-        "id": "S49B",
-        "state": "submission_unknown",
-        "task_id": null,
-        "submission_intent_id": "e12e32cf-b8d6-4484-86ef-35acee6e4693",
-        "create_click_count": 0
-      }
-    ],
-    "source_queue_sha256": "f1ac25c6ffdaf890cb532135eca4cc8cb8325f6fbbf741c2b198cc4ec53d56f1",
-    "source_task_map_sha256": "41b6550109265d70c2be900421f13cc43588b1a5cfc289728d72e1877c2e146f",
-    "readiness_match_method": "Independent SHA256 implementation verified against both canonical source files; self-tests abc/empty passed",
-    "readiness": "ops/queue-readiness.json"
-  },
-  "owner_tasks": "checked_open_0",
-  "monitor_status": "topview-status.json checked_at 2026-11-08T10:30:23Z; launcher_health 2026-11-08T10:41:04Z; robot wake issues #424/#426 superseded by 2026-11-08T11:05:43Z full independent scan + all six direct details 11:12:29Z",
-  "peer_reconciliation": {
-    "hh00_last_run_id": "55db85ec-b628-8328-b9da-a76ad3b8a613",
-    "hh00_latest_result_run_id": "f93c0371-1a28-8331-a773-7b9dac977d4f",
-    "hh00_latest_result_note": "Previous completed result while current 14:00 MSK run was in_progress",
-    "hh55_last_run_id": "045e1132-a734-8332-9e0a-763b96bcaeec",
-    "hh55_latest_result_run_id": "1658357b-2320-8333-98ac-459762c93799",
-    "relay_last_run_id": "85274d2b-f034-832b-89f3-e32dab41a88a",
-    "relay_latest_result_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d"
-  },
-  "note": "8 Nov 14:00 MSK: complete account-wide 14-board/18-page read-only video scan 632 tasks; six init with Unlimited=true creditsCost=0 verified individually; all 16 submitted task IDs found on My First Board; queue/map byte SHA256 matched readiness. S49B remains submission_unknown, not repeated; S49D next ready. No Create, TinyFish or credit costs. Route generation3, Work preference retained per existing verified record. No next_action/checkpoint changes.",
-  "next_ready_candidate": "S49D"
+  "task_ids": [],
+  "checked_at": "2026-11-08T12:04:07.822Z",
+  "completed_at": null,
+  "holder": "chatgpt:ordinary:f8731dc6-9d12-4fed-a5a7-a903d510afb2"
 }
