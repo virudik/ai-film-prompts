@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "18b21e3d61f49f81e603b84c453b8b2a027509e5572906f8ca28df9873821656",
+  "source_queue_sha256": "35e0a95802c40ce7d424fd3db57734861a3845783d59ddc06dbe7284d9a382ec",
   "source_task_map_sha256": "9e2a1f58c09fc37da98e5e3f3061dade7d339d3e94b594051e691dc8c0aaaa3f",
   "topview_checked_at": "2026-11-08T17:20:25Z",
   "items": [
@@ -21,15 +21,6 @@
       "ready": false,
       "text": "Входы найдены; требуется снять записанный блокер после проверки",
       "queue_state": "submission_unknown"
-    },
-    {
-      "id": "S51C",
-      "scene_id": 51,
-      "part_label": "51C",
-      "code": "preflight_required",
-      "ready": false,
-      "text": "Входы найдены; требуется снять записанный блокер после проверки",
-      "queue_state": "submitting"
     },
     {
       "id": "S51D",
@@ -384,5 +375,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-08T17:28:46.488587Z"
+  "checked_at": "2026-11-08T17:35:22.718872Z"
 }

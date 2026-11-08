@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-11-08T17:32:51Z",
+  "complete": true,
+  "slot_capacity": 6,
+  "occupied_slots": 3,
+  "free_slots": 3,
+  "boards_scanned": 14,
+  "pages_scanned": 16,
+  "unique_videos": 633,
+  "active_videos": 3,
+  "active_task_ids": [
+    "2d8efbd16f5146f48cd7a9a1ffb99369",
+    "8a1982a55f794a049a62eaa91bf8827f",
+    "f3b8883f44b14a2ba432ce429ba02709"
+  ],
+  "scan_mode": "mcp_board_tasks_init_count_refresh",
+  "source": "user-topview MCP: robot full 14-board scan 2026-11-08T17:00:22Z (complete, 0 active, other boards no active); My First Board refresh immediately before post-submit S51C",
+  "wake_issue": 455,
+  "event_id": "result:fe78a852b7a343e6a37d146cec789358",
+  "note": "post-submit S51C"
+}

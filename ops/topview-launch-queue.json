@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-11-08T17:19:46Z",
+  "updated_at": "2026-11-08T17:33:05Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -1566,8 +1566,77 @@
       "quantity": 1,
       "mode": "omni_reference",
       "max_new_submissions": 1,
-      "task_id": null,
-      "claim": {
+      "task_id": "2d8efbd16f5146f48cd7a9a1ffb99369",
+      "claim": null,
+      "owner_review_required_after_item": null,
+      "id": "S51C",
+      "prompt_id": "S51C",
+      "canonical_block_label": "51C",
+      "previous_prompt_sha256": [
+        "0ceaab0c4b399153a080833dbaf65a55dc4a4ebd927cf210ba766971e03cfb22"
+      ],
+      "canonical_prompt_sha256": "2ea33c1cdcce0f8b065455900e90c60c79c6a4724227de34591b97b37859bfe9",
+      "normalized_prompt_sha256": "5a45b6746a06dc279828184a623d4a671406804eee12ffc0305ec01c6959817b",
+      "priority": 1.42,
+      "state": "submitted",
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/artem.jpg",
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/ilyusha.jpg",
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-49/S49B-rhythm-instruments.png",
+          "sha256": "5661b9f36796ed4c6c13862e8eff98e404032bbb8f42a0ba4d6bb872a63098ad",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-49/S49C-drums-wind-bass.png",
+          "sha256": "71feded8ffb7dbaeac6ba21e16d116ffd4d6cb754e22f2fa80572c3dd423683e",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-51/S51C-own-instrument-setup.png",
+          "sha256": "dd8d8c29f93b84696f8cd2ee18cb3016be5f6e7f7e08b38a74334e9154a7a931",
+          "required": true
+        },
+        {
+          "slot": "@Image7",
+          "path": "references/scenes/scene-51/S51C-own-instrument-result.png",
+          "sha256": "eed48f14a31f7148da3ec9720f4b4511737960f45e5e48c23bc1fa1fd82be7a9",
+          "required": true,
+          "input_status": "available",
+          "role": "broken_instrument_result_only_not_start_frame"
+        }
+      ],
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "blocker": null,
+      "dependency_note": "Independent pair finale; no preceding video input. Keep position after50 and before28, skip only genuine blockers.",
+      "launch_readiness": "authorized_inputs_available",
+      "authorization": "Owner25Oct: expand the rock finale so every musician breaks their own instrument; six independent pairs replace the unsubmitted three-musician version. Existing one-attempt zero-credit queue authorization continues.",
+      "revision_note_20261025_all_twelve": "Unsubmitted revision: each part shows two different owners, complete contacts and visible breakage; all inputs exist. Six Wan30 versions remain alternatives.",
+      "owner_launch_authorized_at": "2026-10-25T13:10:48.355886Z",
+      "submitted_at": "2026-11-08T17:31:40Z",
+      "receipt": "reports/topview-queue-2026-10-16/S51C-20261108T173140Z.json",
+      "ui_proof": "reports/topview-queue-2026-10-16/S51C-20261108T173140Z.jpg",
+      "last_claim": {
         "claim_id": "4ae4ae15-8544-4a5a-ad92-363e264c6dba",
         "run_id": "grok-6e1b0b6e-04e2-4990-951f-ba12f3c00eed",
         "claimed_at": "2026-11-08T17:25:27Z",
@@ -1630,72 +1699,7 @@
         "ledger_path": "ops/launcher-run-ledger.json",
         "trigger": "wake",
         "wake_issue": 455
-      },
-      "owner_review_required_after_item": null,
-      "id": "S51C",
-      "prompt_id": "S51C",
-      "canonical_block_label": "51C",
-      "previous_prompt_sha256": [
-        "0ceaab0c4b399153a080833dbaf65a55dc4a4ebd927cf210ba766971e03cfb22"
-      ],
-      "canonical_prompt_sha256": "2ea33c1cdcce0f8b065455900e90c60c79c6a4724227de34591b97b37859bfe9",
-      "normalized_prompt_sha256": "5a45b6746a06dc279828184a623d4a671406804eee12ffc0305ec01c6959817b",
-      "priority": 1.42,
-      "state": "submitting",
-      "references": [
-        {
-          "slot": "@Image1",
-          "path": "references/scenes/scene-28/H28B-disco.png",
-          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
-          "required": true
-        },
-        {
-          "slot": "@Image2",
-          "path": "references/full/artem.jpg",
-          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
-          "required": true
-        },
-        {
-          "slot": "@Image3",
-          "path": "references/full/ilyusha.jpg",
-          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
-          "required": true
-        },
-        {
-          "slot": "@Image4",
-          "path": "references/scenes/scene-49/S49B-rhythm-instruments.png",
-          "sha256": "5661b9f36796ed4c6c13862e8eff98e404032bbb8f42a0ba4d6bb872a63098ad",
-          "required": true
-        },
-        {
-          "slot": "@Image5",
-          "path": "references/scenes/scene-49/S49C-drums-wind-bass.png",
-          "sha256": "71feded8ffb7dbaeac6ba21e16d116ffd4d6cb754e22f2fa80572c3dd423683e",
-          "required": true
-        },
-        {
-          "slot": "@Image6",
-          "path": "references/scenes/scene-51/S51C-own-instrument-setup.png",
-          "sha256": "dd8d8c29f93b84696f8cd2ee18cb3016be5f6e7f7e08b38a74334e9154a7a931",
-          "required": true
-        },
-        {
-          "slot": "@Image7",
-          "path": "references/scenes/scene-51/S51C-own-instrument-result.png",
-          "sha256": "eed48f14a31f7148da3ec9720f4b4511737960f45e5e48c23bc1fa1fd82be7a9",
-          "required": true,
-          "input_status": "available",
-          "role": "broken_instrument_result_only_not_start_frame"
-        }
-      ],
-      "depends_on_submitted": [],
-      "depends_on_completed": [],
-      "blocker": null,
-      "dependency_note": "Independent pair finale; no preceding video input. Keep position after50 and before28, skip only genuine blockers.",
-      "launch_readiness": "authorized_inputs_available",
-      "authorization": "Owner25Oct: expand the rock finale so every musician breaks their own instrument; six independent pairs replace the unsubmitted three-musician version. Existing one-attempt zero-credit queue authorization continues.",
-      "revision_note_20261025_all_twelve": "Unsubmitted revision: each part shows two different owners, complete contacts and visible breakage; all inputs exist. Six Wan30 versions remain alternatives.",
-      "owner_launch_authorized_at": "2026-10-25T13:10:48.355886Z"
+      }
     },
     {
       "scene_id": 51,
