@@ -154,12 +154,12 @@
       "result:fe78a852b7a343e6a37d146cec789358"
     ],
     "robot_rewake": {
-      "episode": "ac0bb4fe",
+      "episode": "4728736a",
       "count": 1,
-      "last_at": "2026-11-08T17:40:30Z",
-      "sequence": 22,
-      "first_at": "2026-11-08T17:40:30Z",
-      "last_event_id": "slots:ac0bb4fe:22",
+      "last_at": "2026-11-08T18:10:42Z",
+      "sequence": 23,
+      "first_at": "2026-11-08T18:10:42Z",
+      "last_event_id": "slots:4728736a:23",
       "silence_reported": "slots:d23cf217:2"
     }
   },
@@ -395,7 +395,7 @@
     "actionable_items": [
       "S51E",
       "S51F",
-      "S48-SEED20-P3",
+      "S48-SEED20-P2-R2-20261108",
       "S28-A4-20261023",
       "S28-A5-20261023",
       "S28-A6-20261023",
@@ -404,9 +404,10 @@
       "S28-A9-20261023",
       "S28-A10-20261023",
       "S28-A11-20261023",
-      "S59-SEED20-P3",
+      "S59-SEED20-P2-R2-20261108",
       "S60-SEED20-P2",
       "S61-SEED20-P2",
+      "S62-SEED20-P1-R2-20261108",
       "S28-A1-R2-20261025",
       "S28-A2-R2-20261025",
       "S52-R2-SEED20-P2",
@@ -425,7 +426,7 @@
     "confirmed_launch_task_ids": [],
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
-    "escalation_attempted_episode": "2f5718c3",
-    "checked_at": "2026-11-08T17:50:25Z"
+    "escalation_attempted_episode": "4728736a",
+    "checked_at": "2026-11-08T18:10:42Z"
   }
 }
