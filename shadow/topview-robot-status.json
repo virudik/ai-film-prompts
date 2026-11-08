@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-08T16:30:36Z",
+  "checked_at": "2026-11-08T16:40:25Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -61,87 +61,87 @@
     {
       "task_id": "199e81ba8c374bdaa6ce9237aa013158",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
+      "status": "running",
       "unlimited": true,
       "created_at": "2026-11-08 16:11:23",
       "model": "Seedance 2.0",
       "scene_id": null,
       "mapping": "unknown_new",
-      "queue_count": 4883,
-      "wait_seconds": 239073,
-      "process_seconds": null
+      "queue_count": null,
+      "wait_seconds": null,
+      "process_seconds": 499
     },
     {
       "task_id": "3561d1997a6a4e5d813cfb99fdb60ed4",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
+      "status": "running",
       "unlimited": true,
       "created_at": "2026-11-08 15:58:46",
       "model": "Seedance 2.0",
       "scene_id": 49,
       "mapping": "task_map",
-      "queue_count": 2720,
-      "wait_seconds": 109473,
-      "process_seconds": null
+      "queue_count": null,
+      "wait_seconds": null,
+      "process_seconds": 499
     },
     {
       "task_id": "7264c9a1189a49d5ad76cf43fbee87dd",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
+      "status": "running",
       "unlimited": true,
       "created_at": "2026-11-08 16:08:16",
       "model": "Seedance 2.0",
       "scene_id": null,
       "mapping": "unknown_new",
-      "queue_count": 4162,
-      "wait_seconds": 195873,
-      "process_seconds": null
+      "queue_count": null,
+      "wait_seconds": null,
+      "process_seconds": 499
     },
     {
       "task_id": "dbc9aff605ec48349062638cdaa7fd5a",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
+      "status": "running",
       "unlimited": true,
       "created_at": "2026-11-08 15:30:30",
       "model": "Seedance 2.0",
       "scene_id": 49,
       "mapping": "task_map",
-      "queue_count": 1934,
-      "wait_seconds": 66273,
-      "process_seconds": null
+      "queue_count": null,
+      "wait_seconds": null,
+      "process_seconds": 499
     },
     {
       "task_id": "faf2aa38db484f4caae06eeb13c7d166",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
+      "status": "running",
       "unlimited": true,
       "created_at": "2026-11-08 16:03:46",
       "model": "Seedance 2.0",
       "scene_id": null,
       "mapping": "unknown_new",
-      "queue_count": 3441,
-      "wait_seconds": 152673,
-      "process_seconds": null
+      "queue_count": null,
+      "wait_seconds": null,
+      "process_seconds": 499
     },
     {
       "task_id": "fe78a852b7a343e6a37d146cec789358",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
+      "status": "running",
       "unlimited": true,
       "created_at": "2026-11-08 15:09:17",
       "model": "Seedance 2.0",
       "scene_id": 49,
       "mapping": "task_map",
-      "queue_count": 871,
-      "wait_seconds": 23072,
-      "process_seconds": null
+      "queue_count": null,
+      "wait_seconds": null,
+      "process_seconds": 499
     }
   ],
   "unknown_new": [
     {
       "task_id": "faf2aa38db484f4caae06eeb13c7d166",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
+      "status": "running",
       "created_at": "2026-11-08 16:03:46",
       "model": "Seedance 2.0",
       "unlimited": true,
@@ -150,7 +150,7 @@
     {
       "task_id": "7264c9a1189a49d5ad76cf43fbee87dd",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
+      "status": "running",
       "created_at": "2026-11-08 16:08:16",
       "model": "Seedance 2.0",
       "unlimited": true,
@@ -159,7 +159,7 @@
     {
       "task_id": "199e81ba8c374bdaa6ce9237aa013158",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
+      "status": "running",
       "created_at": "2026-11-08 16:11:23",
       "model": "Seedance 2.0",
       "unlimited": true,
@@ -221,7 +221,7 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-11-08T16:00:25Z",
-    "monitor_age_minutes": 30,
+    "monitor_age_minutes": 40,
     "monitor_occupied": 3,
     "robot_occupied": 6,
     "consistent": false,
@@ -244,6 +244,24 @@
         "task_id": "faf2aa38db484f4caae06eeb13c7d166",
         "scene_id": null,
         "mapping": "unknown_new"
+      },
+      {
+        "type": "status_differs",
+        "task_id": "3561d1997a6a4e5d813cfb99fdb60ed4",
+        "monitor": "init",
+        "robot": "running"
+      },
+      {
+        "type": "status_differs",
+        "task_id": "dbc9aff605ec48349062638cdaa7fd5a",
+        "monitor": "init",
+        "robot": "running"
+      },
+      {
+        "type": "status_differs",
+        "task_id": "fe78a852b7a343e6a37d146cec789358",
+        "monitor": "init",
+        "robot": "running"
       },
       {
         "type": "occupied_differs",
