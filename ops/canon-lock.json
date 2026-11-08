@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:f96be65b-6d07-42de-8318-96c4d2acac05",
-  "task": "launch S49E (grok helper, slot-wake issue #447)",
-  "acquired_at": "2026-11-08T15:10:40Z",
-  "expires_at": null,
-  "released_at": "2026-11-08T15:14:21Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:00cc30c6-6bc1-407e-8b69-68b0c47c8039",
+  "task": "Record seventh school video accurately, preserve completed work, verify public TLS and prepare missing HONOR references; no Topview launches",
+  "acquired_at": "2026-11-08T15:20:51Z",
+  "expires_at": "2026-11-08T15:50:51Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
