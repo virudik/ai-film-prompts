@@ -14,31 +14,104 @@
   "lease_commit": "69423efbb2670676c5f15f30dee8e9e548bdbe44",
   "started_at": "2026-11-08T05:58:25.755310Z",
   "receipt_started_at": "2026-11-08T06:12:56.776Z",
-  "phase": "started",
-  "status": "in_progress",
-  "outcome": null,
+  "phase": "finished",
+  "status": "no_free_slot",
+  "outcome": "no_free_slot",
+  "blocker": null,
   "scan": {
-    "complete": false,
-    "boards_scanned": null,
-    "pages_scanned": null,
-    "video_tasks_scanned": null
+    "complete": true,
+    "complete_scan_verified": true,
+    "source": "read_only_topview_connector_all_14_boards_all_video_pages",
+    "boards_scanned": 14,
+    "pages_scanned": 18,
+    "video_tasks_scanned": 632,
+    "unique_video_task_ids": 632,
+    "status_counts": {
+      "success": 603,
+      "fail": 23,
+      "init": 6
+    },
+    "active_task_ids": [
+      "abb161edcf5c4b58b91460677939b5d3",
+      "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
+      "101221814fd5430697f697f95a3f4252",
+      "3ebe7c23db05479e9b6f762a75b832e7",
+      "365cf639589a4a5da834d70193d5e8f6",
+      "be960f5e3bf54563aff663fed9da8906"
+    ],
+    "submitted_task_ids_reconciled": 16,
+    "all_submitted_found": true,
+    "details_rechecked": true,
+    "latest_active_recheck_at": "2026-11-08T06:14:29.450Z",
+    "all_active_unlimited_zero": true
   },
   "slots": {
     "capacity": 6,
-    "occupied": null,
-    "free": null
+    "occupied": 6,
+    "free": 0,
+    "complete_scan_verified": true
   },
-  "browser_transport": "not_used",
+  "browser_transport": "not_used_no_free_slot",
   "tinyfish": {
     "used": false,
     "run_ids": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0
+    "confirmed_cost_usd": 0,
+    "not_run_reason": "Fresh full live scan 6/6 physical video slots; paid TinyFish forbidden for read-only checks"
+  },
+  "acceptance": {
+    "scheduled_run_verified": true,
+    "topview_read_only_scan_complete": true,
+    "tinyfish_authenticated_ui_this_run": false,
+    "tinyfish_file_transfer_this_run": false,
+    "tinyfish_unlimited_zero_this_run": false,
+    "new_task_id_verified": false
   },
   "new_submissions": [],
   "topview_credits_spent": 0,
   "selected_item": null,
-  "task_ids": [],
-  "retryable": false
+  "task_ids": [
+    "abb161edcf5c4b58b91460677939b5d3",
+    "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
+    "101221814fd5430697f697f95a3f4252",
+    "3ebe7c23db05479e9b6f762a75b832e7",
+    "365cf639589a4a5da834d70193d5e8f6",
+    "be960f5e3bf54563aff663fed9da8906"
+  ],
+  "retryable": false,
+  "checked_at": "2026-11-08T06:15:29.699Z",
+  "completed_at": "2026-11-08T06:15:29.699Z",
+  "holder": "chatgpt:ordinary:2d0f64a5-5ecc-4291-92a4-a17c5adddf47",
+  "next_ready_candidate": "S49D",
+  "queue_reconciliation": {
+    "submitted_count": 16,
+    "all_submitted_found": true,
+    "claimed": 0,
+    "submitting": 0,
+    "submission_unknown": 1,
+    "unresolved_items": [
+      {
+        "id": "S49B",
+        "state": "submission_unknown",
+        "submission_intent_id": "e12e32cf-b8d6-4484-86ef-35acee6e4693",
+        "create_clicked": false
+      }
+    ],
+    "source_queue_sha256_reported": "f1ac25c6ffdaf890cb532135eca4cc8cb8325f6fbbf741c2b198cc4ec53d56f1",
+    "source_task_map_sha256_reported": "cb2653192a41cd701e409b39d0b943cd925f7799c0e8d73f66bf69f001f6d394",
+    "readiness_match_method": "robot_reports_hashes; independently recomputed digest not available this run",
+    "readiness": "ops/queue-readiness.json"
+  },
+  "monitor_status": "automation-monitor-status.json launcher_health capacity_full 6/6 checked 2026-11-08T05:50:28Z; old issue #426 stale, not fresh capacity",
+  "owner_tasks": "checked_open_0",
+  "peer_reconciliation": {
+    "hh00_last_run_id": "1f1e1898-9c50-832b-ad4c-623543ab5a60",
+    "hh00_latest_result_run_id": "d1c7717c-628c-8320-8e38-899899df58f9",
+    "hh55_last_run_id": "21259bc3-514c-8321-a281-2ecac5837eef",
+    "hh55_latest_result_run_id": "1658357b-2320-8333-98ac-459762c93799",
+    "relay_last_run_id": "85274d2b-f034-832b-89f3-e32dab41a88a",
+    "relay_latest_result_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d"
+  },
+  "note": "8 Nov 09:00 MSK scheduled cycle. Independent full live 14-board/18-page scan: 632 unique video tasks, 6 init, all 16 known submitted tasks verified by task detail on My First Board. S49B remains submission_unknown, no retry; S49D next independently ready. Historical S73 task/unapproved mismatch untouched. No TinyFish or Create. Route3 lists Work preferred/restored historically, ordinary scheduled is explicitly allowed. No owner task, queue, or continuation checkpoint change."
 }
