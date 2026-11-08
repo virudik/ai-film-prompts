@@ -1,0 +1,476 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "scope": "Direct default-CA-verified TLS socket/SNI and HTTP GET from GitHub runner; no DNS/Pages configuration changes, no login or generation.",
+  "started_at": "2026-11-08T06:22:36Z",
+  "subdomains": [
+    {
+      "domain": "алина.рудик.рф",
+      "hostname_ascii": "xn--80aaxll.xn--d1aigvp.xn--p1ai",
+      "checked_at": "2026-11-08T06:22:36Z",
+      "tls_verified": false,
+      "https_ok": false,
+      "dns_addresses": [
+        "185.199.108.153",
+        "185.199.109.153",
+        "185.199.110.153",
+        "185.199.111.153",
+        "2606:50c0:8000::153",
+        "2606:50c0:8001::153",
+        "2606:50c0:8002::153",
+        "2606:50c0:8003::153"
+      ],
+      "error": {
+        "type": "SSLCertVerificationError",
+        "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'xn--80aaxll.xn--d1aigvp.xn--p1ai'. (_ssl.c:1081)",
+        "verify_code": 62,
+        "verify_message": "Hostname mismatch, certificate is not valid for 'xn--80aaxll.xn--d1aigvp.xn--p1ai'."
+      },
+      "untrusted_leaf_diagnostic": {
+        "verified": false,
+        "description": "subject=CN=*.github.io\nissuer=C=US, O=Let's Encrypt, CN=YR1\nnotBefore=Sep 30 23:44:46 2026 GMT\nnotAfter=Dec 29 23:44:45 2026 GMT\nX509v3 Subject Alternative Name: \n    DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com\n",
+        "sha256": "f2f9a159ce50a0a168b3eaeaf2fced5addd49ba38e2bf63248f057a139fc7856"
+      }
+    },
+    {
+      "domain": "маша.рудик.рф",
+      "hostname_ascii": "xn--80aa8axc.xn--d1aigvp.xn--p1ai",
+      "checked_at": "2026-11-08T06:22:36Z",
+      "tls_verified": false,
+      "https_ok": false,
+      "dns_addresses": [
+        "185.199.108.153",
+        "185.199.109.153",
+        "185.199.110.153",
+        "185.199.111.153",
+        "2606:50c0:8000::153",
+        "2606:50c0:8001::153",
+        "2606:50c0:8002::153",
+        "2606:50c0:8003::153"
+      ],
+      "error": {
+        "type": "SSLCertVerificationError",
+        "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'xn--80aa8axc.xn--d1aigvp.xn--p1ai'. (_ssl.c:1081)",
+        "verify_code": 62,
+        "verify_message": "Hostname mismatch, certificate is not valid for 'xn--80aa8axc.xn--d1aigvp.xn--p1ai'."
+      },
+      "untrusted_leaf_diagnostic": {
+        "verified": false,
+        "description": "subject=CN=*.github.io\nissuer=C=US, O=Let's Encrypt, CN=YR1\nnotBefore=Sep 30 23:44:46 2026 GMT\nnotAfter=Dec 29 23:44:45 2026 GMT\nX509v3 Subject Alternative Name: \n    DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com\n",
+        "sha256": "f2f9a159ce50a0a168b3eaeaf2fced5addd49ba38e2bf63248f057a139fc7856"
+      }
+    },
+    {
+      "domain": "виталик.рудик.рф",
+      "hostname_ascii": "xn--80adsbke1c.xn--d1aigvp.xn--p1ai",
+      "checked_at": "2026-11-08T06:22:36Z",
+      "tls_verified": false,
+      "https_ok": false,
+      "dns_addresses": [
+        "185.199.108.153",
+        "185.199.109.153",
+        "185.199.110.153",
+        "185.199.111.153",
+        "2606:50c0:8000::153",
+        "2606:50c0:8001::153",
+        "2606:50c0:8002::153",
+        "2606:50c0:8003::153"
+      ],
+      "error": {
+        "type": "SSLCertVerificationError",
+        "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'xn--80adsbke1c.xn--d1aigvp.xn--p1ai'. (_ssl.c:1081)",
+        "verify_code": 62,
+        "verify_message": "Hostname mismatch, certificate is not valid for 'xn--80adsbke1c.xn--d1aigvp.xn--p1ai'."
+      },
+      "untrusted_leaf_diagnostic": {
+        "verified": false,
+        "description": "subject=CN=*.github.io\nissuer=C=US, O=Let's Encrypt, CN=YR1\nnotBefore=Sep 30 23:44:46 2026 GMT\nnotAfter=Dec 29 23:44:45 2026 GMT\nX509v3 Subject Alternative Name: \n    DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com\n",
+        "sha256": "f2f9a159ce50a0a168b3eaeaf2fced5addd49ba38e2bf63248f057a139fc7856"
+      }
+    },
+    {
+      "domain": "видео.рудик.рф",
+      "hostname_ascii": "xn--b1aedk6a.xn--d1aigvp.xn--p1ai",
+      "checked_at": "2026-11-08T06:22:36Z",
+      "tls_verified": false,
+      "https_ok": false,
+      "dns_addresses": [
+        "185.199.108.153",
+        "185.199.109.153",
+        "185.199.110.153",
+        "185.199.111.153",
+        "2606:50c0:8000::153",
+        "2606:50c0:8001::153",
+        "2606:50c0:8002::153",
+        "2606:50c0:8003::153"
+      ],
+      "error": {
+        "type": "SSLCertVerificationError",
+        "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'xn--b1aedk6a.xn--d1aigvp.xn--p1ai'. (_ssl.c:1081)",
+        "verify_code": 62,
+        "verify_message": "Hostname mismatch, certificate is not valid for 'xn--b1aedk6a.xn--d1aigvp.xn--p1ai'."
+      },
+      "untrusted_leaf_diagnostic": {
+        "verified": false,
+        "description": "subject=CN=*.github.io\nissuer=C=US, O=Let's Encrypt, CN=YR1\nnotBefore=Sep 30 23:44:46 2026 GMT\nnotAfter=Dec 29 23:44:45 2026 GMT\nX509v3 Subject Alternative Name: \n    DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com\n",
+        "sha256": "f2f9a159ce50a0a168b3eaeaf2fced5addd49ba38e2bf63248f057a139fc7856"
+      }
+    },
+    {
+      "domain": "фото.рудик.рф",
+      "hostname_ascii": "xn--n1aalg.xn--d1aigvp.xn--p1ai",
+      "checked_at": "2026-11-08T06:22:36Z",
+      "tls_verified": false,
+      "https_ok": false,
+      "dns_addresses": [
+        "185.199.108.153",
+        "185.199.109.153",
+        "185.199.110.153",
+        "185.199.111.153",
+        "2606:50c0:8000::153",
+        "2606:50c0:8001::153",
+        "2606:50c0:8002::153",
+        "2606:50c0:8003::153"
+      ],
+      "error": {
+        "type": "SSLCertVerificationError",
+        "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'xn--n1aalg.xn--d1aigvp.xn--p1ai'. (_ssl.c:1081)",
+        "verify_code": 62,
+        "verify_message": "Hostname mismatch, certificate is not valid for 'xn--n1aalg.xn--d1aigvp.xn--p1ai'."
+      },
+      "untrusted_leaf_diagnostic": {
+        "verified": false,
+        "description": "subject=CN=*.github.io\nissuer=C=US, O=Let's Encrypt, CN=YR1\nnotBefore=Sep 30 23:44:46 2026 GMT\nnotAfter=Dec 29 23:44:45 2026 GMT\nX509v3 Subject Alternative Name: \n    DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com\n",
+        "sha256": "f2f9a159ce50a0a168b3eaeaf2fced5addd49ba38e2bf63248f057a139fc7856"
+      }
+    },
+    {
+      "domain": "работа.рудик.рф",
+      "hostname_ascii": "xn--80aac6chp.xn--d1aigvp.xn--p1ai",
+      "checked_at": "2026-11-08T06:22:36Z",
+      "tls_verified": false,
+      "https_ok": false,
+      "dns_addresses": [
+        "185.199.108.153",
+        "185.199.109.153",
+        "185.199.110.153",
+        "185.199.111.153",
+        "2606:50c0:8000::153",
+        "2606:50c0:8001::153",
+        "2606:50c0:8002::153",
+        "2606:50c0:8003::153"
+      ],
+      "error": {
+        "type": "SSLCertVerificationError",
+        "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'xn--80aac6chp.xn--d1aigvp.xn--p1ai'. (_ssl.c:1081)",
+        "verify_code": 62,
+        "verify_message": "Hostname mismatch, certificate is not valid for 'xn--80aac6chp.xn--d1aigvp.xn--p1ai'."
+      },
+      "untrusted_leaf_diagnostic": {
+        "verified": false,
+        "description": "subject=CN=*.github.io\nissuer=C=US, O=Let's Encrypt, CN=YR1\nnotBefore=Sep 30 23:44:46 2026 GMT\nnotAfter=Dec 29 23:44:45 2026 GMT\nX509v3 Subject Alternative Name: \n    DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com\n",
+        "sha256": "f2f9a159ce50a0a168b3eaeaf2fced5addd49ba38e2bf63248f057a139fc7856"
+      }
+    },
+    {
+      "domain": "мои-видео.рудик.рф",
+      "hostname_ascii": "xn----dtbgelcyqg.xn--d1aigvp.xn--p1ai",
+      "checked_at": "2026-11-08T06:22:36Z",
+      "tls_verified": false,
+      "https_ok": false,
+      "dns_addresses": [
+        "185.199.108.153",
+        "185.199.109.153",
+        "185.199.110.153",
+        "185.199.111.153",
+        "2606:50c0:8000::153",
+        "2606:50c0:8001::153",
+        "2606:50c0:8002::153",
+        "2606:50c0:8003::153"
+      ],
+      "error": {
+        "type": "SSLCertVerificationError",
+        "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'xn----dtbgelcyqg.xn--d1aigvp.xn--p1ai'. (_ssl.c:1081)",
+        "verify_code": 62,
+        "verify_message": "Hostname mismatch, certificate is not valid for 'xn----dtbgelcyqg.xn--d1aigvp.xn--p1ai'."
+      },
+      "untrusted_leaf_diagnostic": {
+        "verified": false,
+        "description": "subject=CN=*.github.io\nissuer=C=US, O=Let's Encrypt, CN=YR1\nnotBefore=Sep 30 23:44:46 2026 GMT\nnotAfter=Dec 29 23:44:45 2026 GMT\nX509v3 Subject Alternative Name: \n    DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com\n",
+        "sha256": "f2f9a159ce50a0a168b3eaeaf2fced5addd49ba38e2bf63248f057a139fc7856"
+      }
+    },
+    {
+      "domain": "обо-мне.рудик.рф",
+      "hostname_ascii": "xn----9sbn1afcb.xn--d1aigvp.xn--p1ai",
+      "checked_at": "2026-11-08T06:22:36Z",
+      "tls_verified": false,
+      "https_ok": false,
+      "dns_addresses": [
+        "185.199.108.153",
+        "185.199.109.153",
+        "185.199.110.153",
+        "185.199.111.153",
+        "2606:50c0:8000::153",
+        "2606:50c0:8001::153",
+        "2606:50c0:8002::153",
+        "2606:50c0:8003::153"
+      ],
+      "error": {
+        "type": "SSLCertVerificationError",
+        "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'xn----9sbn1afcb.xn--d1aigvp.xn--p1ai'. (_ssl.c:1081)",
+        "verify_code": 62,
+        "verify_message": "Hostname mismatch, certificate is not valid for 'xn----9sbn1afcb.xn--d1aigvp.xn--p1ai'."
+      },
+      "untrusted_leaf_diagnostic": {
+        "verified": false,
+        "description": "subject=CN=*.github.io\nissuer=C=US, O=Let's Encrypt, CN=YR1\nnotBefore=Sep 30 23:44:46 2026 GMT\nnotAfter=Dec 29 23:44:45 2026 GMT\nX509v3 Subject Alternative Name: \n    DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com\n",
+        "sha256": "f2f9a159ce50a0a168b3eaeaf2fced5addd49ba38e2bf63248f057a139fc7856"
+      }
+    }
+  ],
+  "controls": [
+    {
+      "domain": "рудик.рф",
+      "hostname_ascii": "xn--d1aigvp.xn--p1ai",
+      "checked_at": "2026-11-08T06:22:36Z",
+      "tls_verified": true,
+      "https_ok": true,
+      "dns_addresses": [
+        "185.199.108.153",
+        "185.199.109.153",
+        "185.199.110.153",
+        "185.199.111.153"
+      ],
+      "tls_version": "TLSv1.3",
+      "peer_ip": "185.199.109.153",
+      "certificate_sha256": "3935ffe6af24fddb3c3b6f33b4186d765f120a6e08d0c9ec8a15c550f13411bb",
+      "certificate": {
+        "subject": [
+          [
+            [
+              "commonName",
+              "xn--d1aigvp.xn--p1ai"
+            ]
+          ]
+        ],
+        "issuer": [
+          [
+            [
+              "countryName",
+              "US"
+            ]
+          ],
+          [
+            [
+              "organizationName",
+              "Let's Encrypt"
+            ]
+          ],
+          [
+            [
+              "commonName",
+              "YR2"
+            ]
+          ]
+        ],
+        "version": 3,
+        "serialNumber": "06ADCA3452B7C3B7C8D49CBFC9988535A24C",
+        "notBefore": "Nov  4 11:22:46 2026 GMT",
+        "notAfter": "Feb  2 11:22:45 2027 GMT",
+        "subjectAltName": [
+          [
+            "DNS",
+            "www.xn--d1aigvp.xn--p1ai"
+          ],
+          [
+            "DNS",
+            "xn--d1aigvp.xn--p1ai"
+          ]
+        ],
+        "caIssuers": [
+          "http://yr2.i.lencr.org/"
+        ],
+        "crlDistributionPoints": [
+          "http://yr2.c.lencr.org/77.crl"
+        ]
+      },
+      "http": {
+        "status": 200,
+        "server": "GitHub.com",
+        "location": null,
+        "body_prefix_sha256": "bede9f517f824a70d33a8856b67d6cd904cc617e62360141847e0a37e8941316",
+        "title": [
+          "Рудики: Виталик, Маша и Алина"
+        ],
+        "refresh": [
+          "<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />"
+        ]
+      }
+    },
+    {
+      "domain": "ии.рудик.рф",
+      "hostname_ascii": "xn--h1aa.xn--d1aigvp.xn--p1ai",
+      "checked_at": "2026-11-08T06:22:37Z",
+      "tls_verified": true,
+      "https_ok": true,
+      "dns_addresses": [
+        "185.199.108.153",
+        "185.199.109.153",
+        "185.199.110.153",
+        "185.199.111.153",
+        "2606:50c0:8000::153",
+        "2606:50c0:8001::153",
+        "2606:50c0:8002::153",
+        "2606:50c0:8003::153"
+      ],
+      "tls_version": "TLSv1.3",
+      "peer_ip": "185.199.108.153",
+      "certificate_sha256": "5bf2bed92fe1e3970fe5a240e3dce32a18825a43235b98b1f9b41cb1815006c2",
+      "certificate": {
+        "subject": [
+          [
+            [
+              "commonName",
+              "xn--h1aa.xn--d1aigvp.xn--p1ai"
+            ]
+          ]
+        ],
+        "issuer": [
+          [
+            [
+              "countryName",
+              "US"
+            ]
+          ],
+          [
+            [
+              "organizationName",
+              "Let's Encrypt"
+            ]
+          ],
+          [
+            [
+              "commonName",
+              "YR1"
+            ]
+          ]
+        ],
+        "version": 3,
+        "serialNumber": "06BD43AC70115086B8A6FE88BE7A202EBC85",
+        "notBefore": "Nov  2 22:56:03 2026 GMT",
+        "notAfter": "Jan 31 22:56:02 2027 GMT",
+        "subjectAltName": [
+          [
+            "DNS",
+            "xn--h1aa.xn--d1aigvp.xn--p1ai"
+          ]
+        ],
+        "caIssuers": [
+          "http://yr1.i.lencr.org/"
+        ],
+        "crlDistributionPoints": [
+          "http://yr1.c.lencr.org/6.crl"
+        ]
+      },
+      "http": {
+        "status": 200,
+        "server": "GitHub.com",
+        "location": null,
+        "body_prefix_sha256": "4bea28d398f5f466317aa0000e1dbfaa0c815bcd4eb9e3c06845126516992c91",
+        "title": [
+          "ИИшница"
+        ],
+        "refresh": [
+          "<meta http-equiv=\"refresh\" content=\"0;url=https://xn--d1aigvp.xn--p1ai/#%D0%B8%D0%B8%D1%88%D0%BD%D0%B8%D1%86%D0%B0\">"
+        ]
+      }
+    },
+    {
+      "domain": "промты.рудик.рф",
+      "hostname_ascii": "xn--l1adcem8c.xn--d1aigvp.xn--p1ai",
+      "checked_at": "2026-11-08T06:22:37Z",
+      "tls_verified": true,
+      "https_ok": true,
+      "dns_addresses": [
+        "185.199.108.153",
+        "185.199.109.153",
+        "185.199.110.153",
+        "185.199.111.153",
+        "2606:50c0:8000::153",
+        "2606:50c0:8001::153",
+        "2606:50c0:8002::153",
+        "2606:50c0:8003::153"
+      ],
+      "tls_version": "TLSv1.3",
+      "peer_ip": "185.199.108.153",
+      "certificate_sha256": "1d4731652c007fff76628baac774a31a3c23ffa412895a3006cce8a016e82fe2",
+      "certificate": {
+        "subject": [
+          [
+            [
+              "commonName",
+              "xn--l1adcem8c.xn--d1aigvp.xn--p1ai"
+            ]
+          ]
+        ],
+        "issuer": [
+          [
+            [
+              "countryName",
+              "US"
+            ]
+          ],
+          [
+            [
+              "organizationName",
+              "Let's Encrypt"
+            ]
+          ],
+          [
+            [
+              "commonName",
+              "YR2"
+            ]
+          ]
+        ],
+        "version": 3,
+        "serialNumber": "0558BAD67992B734FE701A4AF9C23CAB21BC",
+        "notBefore": "Nov  2 22:22:35 2026 GMT",
+        "notAfter": "Jan 31 22:22:34 2027 GMT",
+        "subjectAltName": [
+          [
+            "DNS",
+            "xn--l1adcem8c.xn--d1aigvp.xn--p1ai"
+          ]
+        ],
+        "caIssuers": [
+          "http://yr2.i.lencr.org/"
+        ],
+        "crlDistributionPoints": [
+          "http://yr2.c.lencr.org/61.crl"
+        ]
+      },
+      "http": {
+        "status": 200,
+        "server": "GitHub.com",
+        "location": null,
+        "body_prefix_sha256": "f78b4d126fbc640e044a886cbe989ca2de69e2e35c141319a9425ded51f5ab8c",
+        "title": [
+          "AI Film — Центр управления"
+        ],
+        "refresh": []
+      }
+    }
+  ],
+  "tls_verified_count": 0,
+  "https_ok_count": 0,
+  "finished_at": "2026-11-08T06:22:37Z",
+  "source_head": "befb348277d18a7d0858b7ca52917d2af15aa1e4",
+  "previous_checkpoint": {
+    "file": "reports/current-work-checkpoint.md",
+    "anchor": "# 08.11.2026 — опубликована актуальная точка продолжения",
+    "sha256": "6c955a3f358ab8cad8af8dfec7d2b09a62a628809c35d3434715a87d4df666f5"
+  },
+  "all_8_certificates_and_http_verified": false
+}

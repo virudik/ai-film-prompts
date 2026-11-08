@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-08T06:06:08+00:00",
+  "last_updated_at": "2026-11-08T06:22:38+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_for_slot",
-      "updated_at": "2026-11-08T06:06:08+00:00",
+      "updated_at": "2026-11-08T06:22:38+00:00",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "09:55 MSK check 29 Oct: full 13-board/19-page scan found 941 tasks and 5/6 active, but S62 stayed submission_unknown after its single browser-click timeout; no matching post-claim task was found, and canonical no-repeat policy blocked all further Create. Sampled 2fps QC of S28-A2 found critical face/hand occlusion at ~1.5–2.0s and weak amplitude; report saved, no owner approval or auto-retry. Phase A/B confirmed self-heal/project health ok, diagnosed Canon health runs 40826866588/40827062532/40827413477/40827874872, archived 3 terminal queue items, and verified canon-health ok/0 warnings.",
@@ -321,15 +321,19 @@
       },
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-08T06:06:08+00:00",
-        "last_completed": "Опубликована привязка recovery к актуальному подтверждённому этапу вместо 06.11; пауза Keep сохранена. Сохранены результаты 14/14 локальных DOM-тестов обработчика ИИшницы от 07.11 (не проверка живого MP4 на телефоне) и повторного чтения QR/сверки SHA двух существующих PNG от 08.11. Очередь, рендеры, расписания и телеметрия не изменялись.",
+        "verified_at": "2026-11-08T06:22:38+00:00",
+        "last_completed": "Прямой TLS с проверкой доверенной цепочки и имени: 0/8 сертификатов подтверждено, HTTP 2xx/3xx: 0/8. Результаты и ошибки каждого адреса: reports/public-sites-check-2026-11-08.json. DNS и настройки Pages не менялись.",
         "next_action": "При свободном слоте выполнить новый полный скан всех досок и сверку claims/task ID, затем взять готовый разрешённый item по живому priority; только Unlimited 0 и собственный CAS. Уже отправленное не повторять. Google Keep отложен по P-14 до новой отдельной команды. Продолжить продуктовые PNG HONOR, QC RESOURCE и настоящих стыков S52/S60/S61, проверку TLS восьми поддоменов и воспроизведения Rutube. Существующие инструкции Саше и визитки не создавать заново; цифровой QR проверен, печатная и художественная приёмка открыты.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# 08.11.2026 — опубликована актуальная точка продолжения",
-          "sha256": "6c955a3f358ab8cad8af8dfec7d2b09a62a628809c35d3434715a87d4df666f5"
+          "anchor": "# 08.11.2026 — прямая проверка TLS семейных поддоменов",
+          "sha256": "dbbd9c33fd9695b7f0960b95f1588efe2e5050638284549345212f6597fbfd69"
         },
         "evidence": [
+          {
+            "file": "reports/public-sites-check-2026-11-08.json",
+            "sha256": "0cf10f5acd089d8ef4eaa8461b4c8212f41aca194cde5a1c68ced981d22dd3af"
+          },
           {
             "file": "reports/continuation-publication-2026-11-08.json",
             "sha256": "ec13125dd1872d442df018c633cb5328dd423b99ec3ee3d60b39cdd1d9071f6a"
@@ -1593,7 +1597,7 @@
     "set_at": "2026-10-29T23:39:59+00:00",
     "reason": "Explicitly selected by the authorized task writer",
     "next_action": "При свободном слоте выполнить новый полный скан всех досок и сверку claims/task ID, затем взять готовый разрешённый item по живому priority; только Unlimited 0 и собственный CAS. Уже отправленное не повторять. Google Keep отложен по P-14 до новой отдельной команды. Продолжить продуктовые PNG HONOR, QC RESOURCE и настоящих стыков S52/S60/S61, проверку TLS восьми поддоменов и воспроизведения Rutube. Существующие инструкции Саше и визитки не создавать заново; цифровой QR проверен, печатная и художественная приёмка открыты.",
-    "updated_at": "2026-11-08T06:06:08+00:00"
+    "updated_at": "2026-11-08T06:22:38+00:00"
   },
   "last_instruction_review": {
     "at": "2026-11-01T00:16:17.370251Z",

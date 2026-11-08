@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-08T06:06:08+00:00",
-  "source_head": "7ada5f567c2cc0329232e944ded18a1f300b093d",
-  "source_fingerprint": "ca09629350968d3e0f10dbea4b4139de8f01b8b2dd5bbee4cd22412ced059c9e",
+  "checked_at": "2026-11-08T06:22:38+00:00",
+  "source_head": "befb348277d18a7d0858b7ca52917d2af15aa1e4",
+  "source_fingerprint": "7127d1cad6d6b1395facdbec08b577675d294d1ea1aff9afa4ce625b26cf55c1",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -36,11 +36,15 @@
     "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
     "title": "Заполнение свободных Topview-слотов — задача №1",
     "status": "waiting_for_slot",
-    "last_completed": "Опубликована привязка recovery к актуальному подтверждённому этапу вместо 06.11; пауза Keep сохранена. Сохранены результаты 14/14 локальных DOM-тестов обработчика ИИшницы от 07.11 (не проверка живого MP4 на телефоне) и повторного чтения QR/сверки SHA двух существующих PNG от 08.11. Очередь, рендеры, расписания и телеметрия не изменялись.",
+    "last_completed": "Прямой TLS с проверкой доверенной цепочки и имени: 0/8 сертификатов подтверждено, HTTP 2xx/3xx: 0/8. Результаты и ошибки каждого адреса: reports/public-sites-check-2026-11-08.json. DNS и настройки Pages не менялись.",
     "next_action": "При свободном слоте выполнить новый полный скан всех досок и сверку claims/task ID, затем взять готовый разрешённый item по живому priority; только Unlimited 0 и собственный CAS. Уже отправленное не повторять. Google Keep отложен по P-14 до новой отдельной команды. Продолжить продуктовые PNG HONOR, QC RESOURCE и настоящих стыков S52/S60/S61, проверку TLS восьми поддоменов и воспроизведения Rutube. Существующие инструкции Саше и визитки не создавать заново; цифровой QR проверен, печатная и художественная приёмка открыты.",
-    "verified_at": "2026-11-08T06:06:08+00:00",
+    "verified_at": "2026-11-08T06:22:38+00:00",
     "blockers": [],
     "evidence": [
+      {
+        "file": "reports/public-sites-check-2026-11-08.json",
+        "sha256": "0cf10f5acd089d8ef4eaa8461b4c8212f41aca194cde5a1c68ced981d22dd3af"
+      },
       {
         "file": "reports/continuation-publication-2026-11-08.json",
         "sha256": "ec13125dd1872d442df018c633cb5328dd423b99ec3ee3d60b39cdd1d9071f6a"
@@ -56,11 +60,11 @@
     ],
     "checkpoint": {
       "file": "reports/current-work-checkpoint.md",
-      "anchor": "# 08.11.2026 — опубликована актуальная точка продолжения",
-      "sha256": "6c955a3f358ab8cad8af8dfec7d2b09a62a628809c35d3434715a87d4df666f5"
+      "anchor": "# 08.11.2026 — прямая проверка TLS семейных поддоменов",
+      "sha256": "dbbd9c33fd9695b7f0960b95f1588efe2e5050638284549345212f6597fbfd69"
     }
   },
-  "checkpoint_text": "# 08.11.2026 — опубликована актуальная точка продолжения\n\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\n- Опубликована привязка recovery к актуальному подтверждённому этапу вместо 06.11; пауза Keep сохранена. Сохранены результаты 14/14 локальных DOM-тестов обработчика ИИшницы от 07.11 (не проверка живого MP4 на телефоне) и повторного чтения QR/сверки SHA двух существующих PNG от 08.11. Очередь, рендеры, расписания и телеметрия не изменялись.\n- Доказательства и границы проверок: reports/continuation-publication-2026-11-08.json; reports/continuation-qc-2026-11-08.json.\n- Следующий шаг: При свободном слоте выполнить новый полный скан всех досок и сверку claims/task ID, затем взять готовый разрешённый item по живому priority; только Unlimited 0 и собственный CAS. Уже отправленное не повторять. Google Keep отложен по P-14 до новой отдельной команды. Продолжить продуктовые PNG HONOR, QC RESOURCE и настоящих стыков S52/S60/S61, проверку TLS восьми поддоменов и воспроизведения Rutube. Существующие инструкции Саше и визитки не создавать заново; цифровой QR проверен, печатная и художественная приёмка открыты.\n\nchecked_at: 2026-11-08T06:06:01Z\n",
+  "checkpoint_text": "# 08.11.2026 — прямая проверка TLS семейных поддоменов\n\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\n- Прямой TLS с проверкой доверенной цепочки и имени: 0/8 сертификатов подтверждено, HTTP 2xx/3xx: 0/8. Результаты и ошибки каждого адреса: reports/public-sites-check-2026-11-08.json. DNS и настройки Pages не менялись.\n- Исправление recovery уже опубликовано; пауза Keep сохранена. QR/DOM-проверки не выполнялись заново.\n- Следующий шаг: При свободном слоте выполнить новый полный скан всех досок и сверку claims/task ID, затем взять готовый разрешённый item по живому priority; только Unlimited 0 и собственный CAS. Уже отправленное не повторять. Google Keep отложен по P-14 до новой отдельной команды. Продолжить продуктовые PNG HONOR, QC RESOURCE и настоящих стыков S52/S60/S61, проверку TLS восьми поддоменов и воспроизведения Rutube. Существующие инструкции Саше и визитки не создавать заново; цифровой QR проверен, печатная и художественная приёмка открыты.\n\nchecked_at: 2026-11-08T06:22:37Z\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -478,7 +482,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "dc222de5126051b5c49754e16781e60f79d9c1f1c267d3b38acfb15615331368",
+      "sha256": "b681df623338f5cadfc0e7a07c43cb10007242bf5e70fde66eee0344a102e73d",
       "bytes": 22989
     },
     {
@@ -493,13 +497,18 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "b094722d4de1e04f56f8064055bb2268788eea0694cd13441c0533abb620d5d4",
-      "bytes": 43268
+      "sha256": "1bab3087b923d143a6f67153c8217db0e58a966ababbbc47eec9cea073c201e5",
+      "bytes": 44844
     },
     {
       "file": "reports/handoff-receipts.json",
       "sha256": "6570eb8508ebe448fb36759833991a0bcfca0b4812346e577930d322946fb7fb",
       "bytes": 71765
+    },
+    {
+      "file": "reports/public-sites-check-2026-11-08.json",
+      "sha256": "0cf10f5acd089d8ef4eaa8461b4c8212f41aca194cde5a1c68ced981d22dd3af",
+      "bytes": 17628
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -518,9 +527,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "2fef5f52842b63ab1a7f6a24d6be2a32a5b885f711cc1edda89fdb2a1daaf310",
-      "bytes": 100758
+      "sha256": "bba1b0455efee5829775971d000370c9360f5579565bc4b4b2eac9121768fec8",
+      "bytes": 100679
     }
   ],
-  "packet_bytes": 7290
+  "packet_bytes": 6791
 }
