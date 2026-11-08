@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-08T07:26:23+00:00",
+  "last_updated_at": "2026-11-08T08:05:31+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_for_slot",
-      "updated_at": "2026-11-08T07:26:23+00:00",
+      "updated_at": "2026-11-08T08:05:31+00:00",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "18:55 MSK cycle 30 Oct: complete 14-board/20-page scan found 951 tasks and6/6 active after Relay submitted S61-P1. No Create. S42-P2 success sampled at0/4/8/12/15s: critical duplicated Ilyusha-like identity replaces Artem and blue-saber deformation; no owner approval or auto-retry. Original archive/SHA blocked by Cloud/CDP filesystem isolation.",
@@ -21,7 +21,7 @@
         "2026-11-07T19:12:10.175Z: D7 ordinary takeover to epoch 4; GitHub SHA source 8/8 and invariants 15/15 match; robot telemetry checked 2026-11-07T19:00:28Z: 6/6 occupied (0 free), queue 15 submitted / 26 waiting / 21 blocked_inputs. No website Create/claims/retry/credits.",
         "2026-11-07T19:31:52.758Z: updated handoff 358b9cea and A-01..A-30 statuses bb487775; Topview 6/6/0, ordinary hourly run verified, 6 public shares read, Grok not accessible, Drive Sasha/Vizitka verified, Rutube embeds 3 unavailable; health warning still awaiting readback, honor/resource/joins/SSL print QC open."
       ],
-      "next_action": "Проверить живые слоты; при наличии места только готовый разрешённый item Unlimited0/CAS. Выполнить A-32 (порядок видео), A-20 (Pages/TLS), A-09/A-08 (конкурс и референсы HONOR), A-07 (RESOURCE QC), A-21/A-31 (Rutube/YouTube). Перед удалением MP4 подтвердить воспроизведение и сохранность исходника. Keep на паузе; готовые файлы/инструкции не дублировать.",
+      "next_action": "Сначала живые слоты/очередь и антидубли; при свободном месте только разрешённый READY Unlimited0/CAS. Не повторять A-32/A-21/конкурсную редактуру, инструкцииСаше или визитки. Продолжить A-08 продуктовые PNGHONOR, A-07 RESOURCE и видеостыки QC. A-20 требует административного Pages-доступа; A-31 — авторизованной Студии Rutube/прав; A-09 — настоящий город и согласование участия/реальная съёмка. Keep/Роскосмос на паузе.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md",
@@ -316,18 +316,18 @@
       },
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-08T07:26:23+00:00",
-        "last_completed": "Сохранено новое поручение; общий аудит отсортирован по приоритету и готовности без повторных задач. Выполнение сайт/TLS/HONOR остаётся открытым.",
-        "next_action": "Проверить живые слоты; при наличии места только готовый разрешённый item Unlimited0/CAS. Выполнить A-32 (порядок видео), A-20 (Pages/TLS), A-09/A-08 (конкурс и референсы HONOR), A-07 (RESOURCE QC), A-21/A-31 (Rutube/YouTube). Перед удалением MP4 подтвердить воспроизведение и сохранность исходника. Keep на паузе; готовые файлы/инструкции не дублировать.",
+        "verified_at": "2026-11-08T08:05:31+00:00",
+        "last_completed": "Опубликованы точный порядок6роликов и6проверенных Rutube-плееров. ОСД/ЗВ сохранены наDrive с обратным SHAreadback и удалены только из текущего сайта (161912522B); история сохранена. Сцена5HONORсинхронизирована с правилами90с/безмузыки, заявка не отправлена. Инвентарь13YouTubeID готов; Pages403 блокирует сертификаты. Готовое помечено OK.",
+        "next_action": "Сначала живые слоты/очередь и антидубли; при свободном месте только разрешённый READY Unlimited0/CAS. Не повторять A-32/A-21/конкурсную редактуру, инструкцииСаше или визитки. Продолжить A-08 продуктовые PNGHONOR, A-07 RESOURCE и видеостыки QC. A-20 требует административного Pages-доступа; A-31 — авторизованной Студии Rutube/прав; A-09 — настоящий город и согласование участия/реальная съёмка. Keep/Роскосмос на паузе.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# 08.11.2026 — новые срочные поручения и точный порядок видео",
-          "sha256": "6a40603b95bbb9c862a316d3761c30a3fbbe49465e95dbbe32fd6a2e59095c3d"
+          "anchor": "# 08.11.2026 — порядок, шесть Rutube-плееров и конкурсный мастер опубликованы",
+          "sha256": "3980f6d3d1109efffa6dc0ba01d79d3f5e23326a0c40f526553b3f2ee5a8807d"
         },
         "evidence": [
           {
             "file": "reports/owner-followup-2026-11-08.json",
-            "sha256": "9051a7ff9f55681a7965eec0f86c5cd5e3e19975b51bac7ca70e50de770db176"
+            "sha256": "fbebd7b78c9fb3aa1b0236b87b23ff310e3f7eb4e57690b8c5ed1f769b79fa9f"
           }
         ],
         "read_next": [

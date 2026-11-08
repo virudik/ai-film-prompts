@@ -2,7 +2,7 @@
   "schema_version": 1,
   "request_id": "owner-20261108-video-order-honor-tls",
   "project": "seregius",
-  "stage": "in_progress",
+  "stage": "verified_partial_completion",
   "checked_at": "2026-11-08T07:26:23+00:00",
   "source_head": "83469a561a97ff7c3a875c3eb01b79a45c72de2f",
   "holder": "chatgpt:ordinary:79dd16b2-9780-466c-a616-33cb3eb1387d",
@@ -126,5 +126,241 @@
   },
   "browser_capability": "Connected Browser list_tabs returned missing originating browser context; no authenticated Rutube Studio UI in this execution",
   "youtube_import_source": "https://rutube.ru/info/youtube/",
-  "status": "Initial checkpoint only; website order and TLS repair not yet completed."
+  "status": "Partial completion with explicit blockers; six Rutube players, exact order, source cleanup and contest preparation completed. Other tasks are NOT marked done.",
+  "last_verified_at": "2026-11-08T08:05:31+00:00",
+  "completion_source_head": "75d43baef43214df364a7811642a06be5a5fbb6e",
+  "publication": {
+    "site_data": {
+      "url": "https://xn--d1aigvp.xn--p1ai/js/videos-data.js",
+      "checked_at": "2026-11-08T08:05:31+00:00",
+      "expected_sha256": "6313cca1575638338fba238e926f23d0561c7ebc53f33a336643feac2df0a852",
+      "actual_sha256": "6313cca1575638338fba238e926f23d0561c7ebc53f33a336643feac2df0a852",
+      "matches": true
+    },
+    "honor_master": {
+      "url": "https://xn--l1adcem8c.xn--d1aigvp.xn--p1ai/projects/raznoe/video-prompts.md",
+      "checked_at": "2026-11-08T08:05:31+00:00",
+      "expected_sha256": "1f1626606cebd32d1d761e1f6ae47a5cd8527a27e12ed4b8646b266cff52d3b5",
+      "actual_sha256": "1f1626606cebd32d1d761e1f6ae47a5cd8527a27e12ed4b8646b266cff52d3b5",
+      "matches": true
+    }
+  },
+  "site_order": {
+    "status": "done",
+    "first_six": [
+      "Открытка",
+      "ОСД",
+      "Котмонавты",
+      "Звёздные войны в деревне",
+      "Финансовые мультики",
+      "Алексей против тараканов"
+    ],
+    "report_blob": "b55bd94fecd3534ca9460b0bd679bf3adc7e8b24"
+  },
+  "rutube": {
+    "status": "six_players_verified_and_published",
+    "safe_ids": [
+      "81a1e6150e98400ce7732b6da6bbc3e6",
+      "a260d16ec1ec08900d878aec655b62b0",
+      "bded60522d4d787ae2df31e8ebe5ad23",
+      "71a96d88e127f61acd8e49c3831b50d7",
+      "f28cf60c314b00eadc77d88f582e1be0",
+      "5c9529ad09a354eb24e7fec0030f8108"
+    ],
+    "playback_report_blob": "e008231a5a5d73cb329777ff4bc8a93a3b527341",
+    "cleanup": {
+      "schema_version": 1,
+      "checked_at": "2026-11-08T08:00:49+00:00",
+      "holder": "chatgpt:ordinary:79dd16b2-9780-466c-a616-33cb3eb1387d",
+      "owner_authorization": "08Nov: replace working Rutube players and remove local GitHub video copies",
+      "source_head": "34cd74797dda425de21eb69137caeeebb291d59c",
+      "playback_evidence": "reports/rutube-playback-2026-11-08.json",
+      "prior_player_Pages_success": 42460376108,
+      "backup_folder": "https://drive.google.com/drive/folders/1OZy8tMRFsiiSCP8qN8rd7TLq-_lWKO5b",
+      "backups": [
+        {
+          "path": "video/alina-ny.mp4",
+          "rutube_id": "a260d16ec1ec08900d878aec655b62b0",
+          "bytes": 80129520,
+          "sha256": "303ac81b53b1b3c9422cd367fc34298f8141845027937e8c8b2beecb8abd0649",
+          "drive_file_id": "1n3HydXflF8aKyHOxNsBcl_8uYo55zeiW",
+          "drive_zip_sha256": "a26a1d26177c889a7a743f909b4658f63505f89a7b8cef215b05cecd70871b34",
+          "drive_readback_verified_at": "2026-11-08T07:58:53+00:00",
+          "drive_url": "https://drive.google.com/file/d/1n3HydXflF8aKyHOxNsBcl_8uYo55zeiW/view",
+          "removed_from_current_tree": true
+        },
+        {
+          "path": "video/zv.mp4",
+          "rutube_id": "71a96d88e127f61acd8e49c3831b50d7",
+          "bytes": 81783002,
+          "sha256": "f4d1c5ba3369b8a2d00cba0d7883d3bbde56507d5400587629282364114f0364",
+          "drive_file_id": "1a0MybnYvDERSdUl8HJiky5gwR30cTnQt",
+          "drive_zip_sha256": "339c0c0c4677c6bbd8de76f28e9793b675ec28ccdbfa57484224a190cea0d415",
+          "drive_readback_verified_at": "2026-11-08T07:58:53+00:00",
+          "drive_url": "https://drive.google.com/file/d/1a0MybnYvDERSdUl8HJiky5gwR30cTnQt/view",
+          "removed_from_current_tree": true
+        }
+      ],
+      "removed_bytes": 161912522,
+      "remaining_runtime_references": [],
+      "render_tests_passed": true,
+      "git_history_rewritten": false,
+      "other_videos_unchanged": true,
+      "no_upload_or_generation": true
+    }
+  },
+  "youtube": {
+    "status": "inventory_done_upload_not_started",
+    "unique_ids": 13,
+    "inventory_repo_file": "virudik/rudik-site/reports/youtube-migration-inventory.json",
+    "blocker": "No authorized Rutube Studio browser in this execution; owner-channel and rights verification required"
+  },
+  "certificates": {
+    "status": "blocked_not_fixed",
+    "eight_subdomains_valid_tls": false,
+    "attempt": {
+      "schema_version": 1,
+      "repo": "virudik/alina-rudik-redirect",
+      "domain": "xn--80aaxll.xn--d1aigvp.xn--p1ai",
+      "started_at": "2026-11-08T07:29:53+00:00",
+      "holder": "chatgpt:ordinary:79dd16b2-9780-466c-a616-33cb3eb1387d",
+      "before": {
+        "http_status": 200,
+        "data": {
+          "url": "https://api.github.com/repos/virudik/alina-rudik-redirect/pages",
+          "status": "building",
+          "cname": "xn--80aaxll.xn--d1aigvp.xn--p1ai",
+          "custom_404": false,
+          "html_url": "http://xn--80aaxll.xn--d1aigvp.xn--p1ai/",
+          "build_type": "legacy",
+          "source": {
+            "branch": "main",
+            "path": "/"
+          },
+          "public": true,
+          "protected_domain_state": null,
+          "pending_domain_unverified_at": null,
+          "https_enforced": false
+        }
+      },
+      "tls_before": {
+        "checked_at": "2026-11-08T07:29:54+00:00",
+        "hostname": "xn--80aaxll.xn--d1aigvp.xn--p1ai",
+        "verified": false,
+        "error_type": "SSLCertVerificationError",
+        "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'xn--80aaxll.xn--d1aigvp.xn--p1ai'. (_ssl.c:1081)"
+      },
+      "actions": [
+        {
+          "action": "reassert_existing_CNAME_or_register_missing_CNAME",
+          "result": {
+            "http_status": 403,
+            "error": "{\"message\":\"Resource not accessible by integration\",\"documentation_url\":\"https://docs.github.com/rest/pages/pages#update-information-about-a-apiname-pages-site\",\"status\":\"403\"}"
+          }
+        }
+      ],
+      "dns_changed": false,
+      "domain_removed": false,
+      "no_payments": true,
+      "tls_after": {
+        "checked_at": "2026-11-08T07:29:55+00:00",
+        "hostname": "xn--80aaxll.xn--d1aigvp.xn--p1ai",
+        "verified": false,
+        "error_type": "SSLCertVerificationError",
+        "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'xn--80aaxll.xn--d1aigvp.xn--p1ai'. (_ssl.c:1081)"
+      },
+      "after": {
+        "http_status": 200,
+        "data": {
+          "url": "https://api.github.com/repos/virudik/alina-rudik-redirect/pages",
+          "status": "building",
+          "cname": "xn--80aaxll.xn--d1aigvp.xn--p1ai",
+          "custom_404": false,
+          "html_url": "http://xn--80aaxll.xn--d1aigvp.xn--p1ai/",
+          "build_type": "legacy",
+          "source": {
+            "branch": "main",
+            "path": "/"
+          },
+          "public": true,
+          "protected_domain_state": null,
+          "pending_domain_unverified_at": null,
+          "https_enforced": false
+        }
+      },
+      "finished_at": "2026-11-08T07:29:55+00:00",
+      "resolved": false,
+      "blocked_by_api_permissions": true,
+      "note": "Same existing domain only; no removal, DNS edits, source-branch change, token publication, or bypass of denied API permissions."
+    },
+    "boundary": "Repository writes are available; Pages administrative update returned 403. No bypass, no DNS edits or repeated provisioning."
+  },
+  "honor_contest": {
+    "status": "rules_idea_and_existing_scene5_published",
+    "scene_id": 5,
+    "real_seconds": 90,
+    "allowed_seconds": [
+      60,
+      120
+    ],
+    "music_allowed": false,
+    "submission_done": false,
+    "city_confirmed": false,
+    "project_health": "ok",
+    "report": "projects/raznoe/reports/honor-contest-sync-2026-11-08.json"
+  },
+  "remaining": [
+    "HONOR Magic9 Pro Max product reference PNGs and artistic QC",
+    "RESOURCE motion/audio/continuity QC",
+    "Real video joins S52/S60/S61 and final editorial acceptance",
+    "Eight subdomain certificates: administrative access blocker",
+    "YouTube own-content migration via authorized Rutube Studio",
+    "HONOR contest real city/entry/selection and actual footage",
+    "Business card print/artistic acceptance",
+    "Full private Grok/nested-file audit"
+  ],
+  "topview_latest_read_only": {
+    "checked_at": "2026-11-08T08:00:25Z",
+    "occupied_slots": 6,
+    "free_slots": 0
+  },
+  "no_video_generation": true,
+  "no_recurring_schedule_changes": true,
+  "external_evidence": [
+    {
+      "name": "site_order",
+      "repository": "virudik/rudik-site",
+      "file": "reports/owner-video-order-2026-11-08.json",
+      "sha256": "6afe0e75f3034b974c55c220c986bd43a5c7230779d9fb0bbe3c31121aa7dab0",
+      "blob_sha": "b55bd94fecd3534ca9460b0bd679bf3adc7e8b24"
+    },
+    {
+      "name": "rutube_playback",
+      "repository": "virudik/rudik-site",
+      "file": "reports/rutube-playback-2026-11-08.json",
+      "sha256": "3fd4ade567ac91841569717e06f42cba8a57b4c9a98c5a2b5ed6287169d9051d",
+      "blob_sha": "e008231a5a5d73cb329777ff4bc8a93a3b527341"
+    },
+    {
+      "name": "video_cleanup",
+      "repository": "virudik/rudik-site",
+      "file": "reports/rutube-local-video-cleanup-2026-11-08.json",
+      "sha256": "e3cd3141388447f15824fdf50ccf47e758086797d049cc4286e3fa443abe3ef5",
+      "blob_sha": "be9e19d1c241c1b7369007dd5cb51337b28ea974"
+    },
+    {
+      "name": "youtube_inventory",
+      "repository": "virudik/rudik-site",
+      "file": "reports/youtube-migration-inventory.json",
+      "sha256": "20d771367f78aff885f7685cc94020d2918122a5467f43117ba1215d8af108f6",
+      "blob_sha": "7e4dedca228b093727cb20f9151f9674bf601240"
+    },
+    {
+      "name": "tls_attempt",
+      "repository": "virudik/alina-rudik-redirect",
+      "file": "reports/pages-certificate-repair-2026-11-08.json",
+      "sha256": "cd65c7bab0debf26bc4b7813b183d05e1d2b8180043fb604fabb777a1411ed4e",
+      "blob_sha": "fb415800e094094ff8869548cf8830ac403d9b2f"
+    }
+  ]
 }
