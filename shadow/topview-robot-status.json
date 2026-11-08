@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-08T15:30:32Z",
+  "checked_at": "2026-11-08T15:40:23Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -65,10 +65,10 @@
       "unlimited": true,
       "created_at": "2026-11-08 15:30:30",
       "model": "Seedance 2.0",
-      "scene_id": null,
-      "mapping": "unknown_new",
-      "queue_count": 1998,
-      "wait_seconds": 69877,
+      "scene_id": 49,
+      "mapping": "task_map",
+      "queue_count": 1985,
+      "wait_seconds": 69286,
       "process_seconds": null
     },
     {
@@ -80,22 +80,12 @@
       "model": "Seedance 2.0",
       "scene_id": 49,
       "mapping": "task_map",
-      "queue_count": 985,
-      "wait_seconds": 26676,
+      "queue_count": 967,
+      "wait_seconds": 26085,
       "process_seconds": null
     }
   ],
-  "unknown_new": [
-    {
-      "task_id": "dbc9aff605ec48349062638cdaa7fd5a",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "created_at": "2026-11-08 15:30:30",
-      "model": "Seedance 2.0",
-      "unlimited": true,
-      "prompt_head": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal cinematic alien-rock performance, "
-    }
-  ],
+  "unknown_new": [],
   "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
@@ -150,24 +140,12 @@
     }
   ],
   "comparison": {
-    "monitor_checked_at": "2026-11-08T15:20:22Z",
+    "monitor_checked_at": "2026-11-08T15:30:32Z",
     "monitor_age_minutes": 10,
-    "monitor_occupied": 1,
+    "monitor_occupied": 2,
     "robot_occupied": 2,
-    "consistent": false,
+    "consistent": true,
     "monitor_may_lag": false,
-    "differences": [
-      {
-        "type": "only_in_robot",
-        "task_id": "dbc9aff605ec48349062638cdaa7fd5a",
-        "scene_id": null,
-        "mapping": "unknown_new"
-      },
-      {
-        "type": "occupied_differs",
-        "monitor": 1,
-        "robot": 2
-      }
-    ]
+    "differences": []
   }
 }
