@@ -229,9 +229,9 @@ def prepare_intent(config, lock, item, actor, scan, now, queue_board_id=None, le
         raise Blocked('substantive_refusal_not_retried')
     if queue_readiness.continuity_blocks_launch(item, root):
         raise Blocked('continuity_excerpt_missing')
-    if root is not None and queue_readiness.music_dance_new_launch_blocked(
+    if root is not None and queue_readiness.story_waiting(root) and queue_readiness.is_music_dance(
             queue_readiness.read(Path(root) / QUEUE, {}), item):
-        raise Blocked('music_dance_owner_hold_t364u')
+        raise Blocked('story_first_music_fallback_not_yet')
     run_identity = None
     if run_ledger.required(config, actor):
         try:
