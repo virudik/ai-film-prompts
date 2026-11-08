@@ -4,116 +4,45 @@
   "source": "ChatGPT scheduled ordinary",
   "runner": "chatgpt_scheduled_task",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "24b059fd-7111-42d2-af2f-819716d227a8",
-  "holder": "chatgpt:ordinary:24b059fd-7111-42d2-af2f-819716d227a8",
-  "run_id": "cdf1be12-574c-8330-8d54-b1f4fe61dc1e",
+  "execution_instance_id": "265a225a-a162-45f2-bd0e-40d87d142dcf",
+  "holder": "chatgpt:ordinary:265a225a-a162-45f2-bd0e-40d87d142dcf",
+  "run_id": "5cd7e0f6-01e0-8320-8ca0-c17b6b04ab0f",
   "runtime_run_id_source": "Automations.peek current last_run.id",
-  "source_head": "a13a1de82b70a9f3fb580575b0cf79c8ef9354ff",
+  "source_head": "ffe56ad78c0be0aa20f5c85d29d03b45ce8d4e80",
   "route_generation": 3,
-  "started_at": "2026-11-08T19:56:55.372476Z",
-  "lease_acquired_at": "2026-11-08T20:03:31.040Z",
-  "receipt_started_recorded_at": "2026-11-08T20:04:07.717Z",
-  "phase": "finished",
-  "outcome": "blocked_browser_input",
+  "started_at": "2026-11-08T21:01:28.250339Z",
+  "lease_acquired_at": "2026-11-08T21:05:33.865Z",
+  "receipt_started_recorded_at": "2026-11-08T21:06:17.766Z",
+  "phase": "started",
+  "outcome": "in_progress",
   "new_submissions": [],
   "task_ids": [],
-  "browser_transport": "not_used_prior_blocker_no_new_UI_evidence",
+  "browser_transport": "not_used",
   "topview_credits_spent": 0,
   "acceptance": {
     "scheduled_run_verified": true,
-    "topview_read_only_scan_complete": true,
+    "topview_read_only_scan_complete": false,
     "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
     "new_task_id_verified": false,
     "production_submission_verified": false
   },
-  "checked_at": "2026-11-08T20:06:06.719Z",
-  "completed_at": "2026-11-08T20:06:06.719Z",
-  "blocker": {
-    "code": "blocked_browser_input",
-    "item_id": "S62-SEED20-P1-R2-20261108",
-    "reason": "Verified two free slots and a separate owner-authorized ready plot item, but saved TinyFish UI profile still has no confirmed native import for the exact original image/video references. No new evidence resolves the existing import blocker, so a repeated paid browse would violate metered fallback policy.",
-    "evidence": "ops/slot-backup.json#tinyfish_fallback.latest_blocker",
-    "secondary": {
-      "code": "foreign_unresolved_claim",
-      "item_id": "S48-SEED20-P2-R2-20261108",
-      "claim_holder": "grok:c33be7f7-8ee4-40f9-8482-f52f9699ad1d",
-      "state": "claimed",
-      "submission_intent_id": null
-    }
-  },
-  "retryable": false,
   "scan": {
-    "complete": true,
-    "boards": 14,
-    "pages": 18,
-    "video_tasks": 642,
-    "status_counts": {
-      "init": 4,
-      "success": 612,
-      "fail": 26
-    },
-    "checked_at": "2026-11-08T20:05:27.798Z",
-    "scope": "all Topview boards and every video page"
+    "complete": false
   },
   "slots": {
     "capacity": 6,
-    "occupied": 4,
-    "free": 2,
-    "complete_scan_verified": true,
-    "active_task_ids": [
-      "0b6dfa84e4524b438075f10f7205a846",
-      "2d8efbd16f5146f48cd7a9a1ffb99369",
-      "8a1982a55f794a049a62eaa91bf8827f",
-      "f3b8883f44b14a2ba432ce429ba02709"
-    ]
+    "occupied": null,
+    "free": null
   },
-  "queue_reconciliation": {
-    "submitted_count": 20,
-    "submitted_found": 20,
-    "archived_video_submitted_count": 39,
-    "archived_video_submitted_found": 39,
-    "unresolved_items": [
-      {
-        "id": "S49B",
-        "state": "submission_unknown"
-      },
-      {
-        "id": "S48-SEED20-P2-R2-20261108",
-        "state": "claimed",
-        "holder": "grok:c33be7f7-8ee4-40f9-8482-f52f9699ad1d",
-        "submission_intent_id": null
-      }
-    ],
-    "source_queue_sha256": "34df7b3b62ec760259f77e89f8d652035d2f43fc0b0be67810c2eb5597d0f50f",
-    "source_task_map_sha256": "fbc5fa4966e53e236130b3496068d11a03a828feb49ce5f629466bc4dd70b743",
-    "readiness_sha_verified": true,
-    "owner_music_consent_required": [
-      28,
-      49,
-      50,
-      51
-    ]
-  },
-  "selected_item": null,
-  "next_ready_candidate": "S62-SEED20-P1-R2-20261108",
   "tinyfish": {
     "used": false,
     "run_ids": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0,
-    "not_run_reason": "identical documented native image/video file import blocker unresolved; no paid repeat"
+    "confirmed_cost_usd": 0
   },
-  "owner_tasks": "checked_open_0",
-  "peer_reconciliation": {
-    "hh00_last_run_id": "cdf1be12-574c-8330-8d54-b1f4fe61dc1e",
-    "hh00_latest_result_run_id": "cf612c41-d920-8325-81e9-df4bcecd03a1",
-    "relay_last_run_id": "e13926e9-d8d8-8323-a6d8-f1f22a4f8b32",
-    "relay_latest_result_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d",
-    "hh55_last_run_id": "5f4c5132-4940-8331-a8cf-c79a0cf7fa00",
-    "hh55_latest_result_run_id": "1658357b-2320-8333-98ac-459762c93799"
-  },
-  "note": "Read-only scan 14 boards /18 video pages/642 videos shows 4 init Unlimited0, 2 free. 20 current and 39 archived submitted video taskIDs verified; queue/readiness hashes confirmed separately. S48-R2 remains claimed by Grok without durable intent; S49B unknown cannot be replayed. Musical/dance new Create forbidden by t369u without consent. Native TinyFish import blocker unchanged; no UI run, Create, credits, or wallet spend. Schedule/queue/route/checkpoint unaffected."
+  "blocker": null,
+  "retryable": false
 }
