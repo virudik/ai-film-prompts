@@ -14,43 +14,92 @@
   "lease_commit": "7d64c3e28da24e22b26e9b49d36c8b4cde54949c",
   "started_at": "2026-11-08T01:03:58.817554Z",
   "receipt_started_at": "2026-11-08T01:09:18.694Z",
-  "checked_at": null,
-  "phase": "started",
-  "status": "started",
+  "checked_at": "2026-11-08T01:12:07.299Z",
+  "phase": "finished",
+  "status": "no_free_slot",
   "scan": {
-    "complete": false,
-    "source": "read_only_topview_connector",
-    "boards_scanned": null,
-    "pages_scanned": null,
-    "video_tasks_scanned": null,
-    "status_counts": null,
-    "active_task_ids": [],
-    "submitted_task_ids_reconciled": null
+    "complete": true,
+    "complete_scan_verified": true,
+    "source": "read_only_topview_connector_all_14_boards_all_video_pages",
+    "boards_scanned": 14,
+    "pages_scanned": 18,
+    "video_tasks_scanned": 632,
+    "unique_video_task_ids": 632,
+    "status_counts": {
+      "success": 603,
+      "fail": 23,
+      "init": 6
+    },
+    "active_task_ids": [
+      "abb161edcf5c4b58b91460677939b5d3",
+      "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
+      "101221814fd5430697f697f95a3f4252",
+      "3ebe7c23db05479e9b6f762a75b832e7",
+      "365cf639589a4a5da834d70193d5e8f6",
+      "be960f5e3bf54563aff663fed9da8906"
+    ],
+    "submitted_task_ids_reconciled": 16,
+    "details_rechecked": true,
+    "full_scan_completed_at": "2026-11-08T01:06:38.403Z",
+    "detail_recheck_completed_at": "2026-11-08T01:09:52.162Z",
+    "note": "All 16 submitted IDs resolved on exact My First Board, all 6 active tasks independently status=init, Unlimited0, creditsCost 0."
   },
   "slots": {
-    "occupied": null,
-    "free": null
+    "capacity": 6,
+    "occupied": 6,
+    "free": 0,
+    "complete_scan_verified": true
   },
   "selected_item": null,
-  "task_ids": [],
-  "outcome": "started",
+  "task_ids": [
+    "abb161edcf5c4b58b91460677939b5d3",
+    "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
+    "101221814fd5430697f697f95a3f4252",
+    "3ebe7c23db05479e9b6f762a75b832e7",
+    "365cf639589a4a5da834d70193d5e8f6",
+    "be960f5e3bf54563aff663fed9da8906"
+  ],
+  "outcome": "no_free_slot",
   "blocker": null,
-  "retryable": true,
-  "browser_transport": "not_used",
+  "retryable": false,
+  "browser_transport": "not_used_no_free_slot",
   "tinyfish": {
     "used": false,
     "run_ids": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0
+    "confirmed_cost_usd": 0,
+    "not_run_reason": "6/6 active slots"
   },
   "acceptance": {
     "scheduled_run_verified": true,
-    "topview_read_only_scan_complete": false,
+    "topview_read_only_scan_complete": true,
     "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
     "new_task_id_verified": false
   },
-  "note": "Intake receipt only; capacity remains unknown until fresh live scan is reconciled."
+  "note": "No Create allowed at 6/6. S49B submission_unknown preserved; no duplicate. No changes to queue, role, checkpoint, owner tasks or automation.",
+  "completed_at": "2026-11-08T01:12:07.299Z",
+  "next_ready_candidate": "S49D",
+  "queue_reconciliation": {
+    "submitted_count": 16,
+    "all_submitted_found": true,
+    "claimed": 0,
+    "submitting": 0,
+    "submission_unknown": 1,
+    "unresolved_items": [
+      {
+        "id": "S49B",
+        "state": "submission_unknown",
+        "submission_intent_id": "e12e32cf-b8d6-4484-86ef-35acee6e4693"
+      }
+    ],
+    "queue_sha256_matches_readiness": true,
+    "task_map_sha256_matches_readiness": true
+  },
+  "monitor_status": "Topview bot telemetry previously checked at 2026-11-08T00:20:29Z; live connector scan refreshed in this run, robot heartbeat not altered.",
+  "owner_tasks": "checked_open_0",
+  "new_submissions": [],
+  "topview_credits_spent": 0
 }
