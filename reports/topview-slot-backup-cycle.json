@@ -3,78 +3,50 @@
   "project": "seregius",
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "ea4e90bc-3301-4b34-ae4f-1c587a670b6c",
-  "run_id": null,
-  "run_id_unavailable_reason": "Automations.get unavailable: connector action invocation returned 404; never substitute execution UUID",
-  "source_head": "73e76327461f38a95c885ba6482b95e5676ef293",
+  "execution_instance_id": "3469587e-df17-4fc6-ba83-c9f859fa4a4b",
+  "run_id": "c4ed075d-bbd4-8325-ba1e-51494a83a07e",
+  "run_id_unavailable_reason": null,
+  "source_head": "1547dd48adcfa293255f0e9b39526ba33745e5ee",
   "route_generation": 3,
-  "lease_holder": "chatgpt:ordinary:ea4e90bc-3301-4b34-ae4f-1c587a670b6c",
-  "lease_acquired_at": "2026-11-07T22:59:27.722Z",
-  "lease_expires_at": "2026-11-07T23:14:27.722Z",
-  "lease_commit": "3f48cf7d022d63e02a7cf3ac5c5e5df42a510741",
-  "started_at": "2026-11-07T22:59:27.722Z",
-  "receipt_started_at": "2026-11-07T22:59:55.719Z",
-  "phase": "finished",
-  "status": "no_free_slot",
+  "lease_holder": "chatgpt:ordinary:3469587e-df17-4fc6-ba83-c9f859fa4a4b",
+  "lease_acquired_at": "2026-11-08T00:07:13.062Z",
+  "lease_expires_at": "2026-11-08T00:22:13.062Z",
+  "lease_commit": "43280598520badd0baba5f90ea64522e8cff0810",
+  "started_at": "2026-11-08T00:01:29.301122Z",
+  "receipt_started_at": "2026-11-08T00:07:54.133Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan": {
-    "complete": true,
-    "complete_scan_verified": true,
-    "source": "read_only_topview_connector_all_14_boards_all_video_pages",
-    "boards_scanned": 14,
-    "pages_scanned": 18,
-    "video_tasks_scanned": 632,
-    "unique_video_task_ids": 632,
-    "status_counts": {
-      "success": 603,
-      "fail": 23,
-      "init": 6
-    },
-    "active_task_ids": [
-      "abb161edcf5c4b58b91460677939b5d3",
-      "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
-      "101221814fd5430697f697f95a3f4252",
-      "3ebe7c23db05479e9b6f762a75b832e7",
-      "365cf639589a4a5da834d70193d5e8f6",
-      "be960f5e3bf54563aff663fed9da8906"
-    ],
-    "submitted_task_ids_reconciled": 16,
-    "checked_at": "2026-11-07T23:01:34.763Z",
-    "six_active_details_rechecked_at": "2026-11-07T23:00:40.208Z"
+    "complete": null,
+    "scope": "fresh read-only connector scan in this execution; current pass pending receipt finalization"
   },
   "slots": {
-    "occupied": 6,
-    "free": 0,
+    "occupied": null,
+    "free": null,
     "global_max": 6
   },
-  "task_ids": [
-    "abb161edcf5c4b58b91460677939b5d3",
-    "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
-    "101221814fd5430697f697f95a3f4252",
-    "3ebe7c23db05479e9b6f762a75b832e7",
-    "365cf639589a4a5da834d70193d5e8f6",
-    "be960f5e3bf54563aff663fed9da8906"
-  ],
+  "task_ids": [],
   "selected_item": null,
-  "queued_candidate": "S49D",
+  "queued_candidate": null,
   "new_submissions": [],
-  "outcome": "no_free_slot",
+  "outcome": "in_progress",
   "blocker": null,
   "retryable": true,
-  "browser_transport": "not_used_6_of_6",
+  "browser_transport": "not_used",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
   "tinyfish_estimated_cost_usd": 0,
   "tinyfish_confirmed_cost_usd": null,
   "topview_credits_cost": 0,
   "previous_receipt": {
-    "execution_instance_id": "c931b4b7-53bd-423e-a228-fc88663b90a0",
-    "completed_at": "2026-11-07T22:11:06.039Z",
+    "execution_instance_id": "ea4e90bc-3301-4b34-ae4f-1c587a670b6c",
+    "completed_at": "2026-11-07T23:04:10.025Z",
     "outcome": "no_free_slot"
   },
   "acceptance": {
     "scheduled_run_observed": true,
-    "topview_read_only_scan_complete": true,
-    "all_submitted_task_ids_found": true,
+    "topview_read_only_scan_complete": false,
+    "all_submitted_task_ids_found": false,
     "topview_create_attempted": false,
     "tinyfish_browser_invoked": false,
     "tinyfish_session_verified_this_cycle": false,
@@ -82,52 +54,24 @@
     "unlimited_zero_verified": false,
     "production_submission_verified": false
   },
-  "updated_at": "2026-11-07T23:04:10.025Z",
-  "queue_reconciliation": {
-    "submitted_count": 16,
-    "submitted_found_on_board": 16,
-    "unresolved": [
-      {
-        "item_id": "S49B",
-        "state": "submission_unknown",
-        "submission_intent_id": "e12e32cf-b8d6-4484-86ef-35acee6e4693",
-        "create_click_count": 0
-      }
-    ],
-    "missing_submitted_task_ids": [],
-    "next_ready_item": "S49D",
-    "recomputed_sha256_this_cycle": false
-  },
-  "owner_tasks": {
-    "open": 0,
-    "taken": 0
-  },
-  "launcher_health": {
-    "state": "capacity_full",
-    "telemetry_checked_at": "2026-11-07T22:30:40Z",
-    "source": "automation-monitor-status.json",
-    "stale_events_do_not_prove_capacity": true
-  },
-  "editorial_discrepancy": {
-    "item_id": "S73",
-    "task_id": "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
-    "status": "init",
-    "authorized": false,
-    "authorization_unresolved": true,
-    "action": "no_change"
-  },
-  "tinyfish_transport_blocker_known": "native UI upload exact originals and Unlimited0 not confirmed; no paid retry at 6/6",
+  "updated_at": "2026-11-08T00:07:54.133Z",
+  "queue_reconciliation": null,
+  "owner_tasks": null,
+  "launcher_health": null,
+  "editorial_discrepancy": null,
+  "tinyfish_transport_blocker_known": null,
   "preferred_executor": "work",
   "checkpoint_register": {
     "modified": false,
     "reason": "no change to active work/next_action"
   },
-  "completed_at": "2026-11-07T23:04:10.025Z",
+  "completed_at": null,
   "lease": {
-    "holder": "chatgpt:ordinary:ea4e90bc-3301-4b34-ae4f-1c587a670b6c",
-    "acquired_at": "2026-11-07T22:59:27.722Z",
+    "holder": "chatgpt:ordinary:3469587e-df17-4fc6-ba83-c9f859fa4a4b",
+    "acquired_at": "2026-11-08T00:07:13.062Z",
+    "expires_at": "2026-11-08T00:22:13.062Z",
     "release_planned": true,
-    "release_atomic": false,
+    "release_atomic": null,
     "release_readback_pending": true
   }
 }
