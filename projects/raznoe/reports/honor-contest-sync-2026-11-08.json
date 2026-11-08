@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "project": "raznoe",
+  "work_id": "RAZNOE-HONOR-X9EPRO-CONTEST-20261107",
+  "stage": "started",
+  "started_at": "2026-11-08T07:40:16+00:00",
+  "holder": "chatgpt:ordinary:79dd16b2-9780-466c-a616-33cb3eb1387d",
+  "source_report": "projects/raznoe/reports/honor-x9e-pro-contest-2026-11-07.md",
+  "source_report_sha256": "2d0435ed378ef1d4fd8b09905876656cc22c18aef098fa80e3316704458b94f8",
+  "source_master_sha256": "6428a63ca6f9b83a7211b7791f64bcac6e4ff801332a33f5993b951ebd9ae943",
+  "source_head": "2a0b358ba7f10478c821f81894ba4d970d1c0518",
+  "owner_request": "08.11: доделать HONOR и конкурс, не повторять сделанное",
+  "no_generation": true
+}
