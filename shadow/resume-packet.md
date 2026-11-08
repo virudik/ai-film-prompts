@@ -3,7 +3,7 @@
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
 Состояние: ready
-Проверено: 2026-11-08T16:01:41+00:00
+Проверено: 2026-11-08T16:03:20+00:00
 Задача: TOPVIEW-SLOT-PRIORITY-20261024 — Заполнение свободных Topview-слотов — задача №1
 
 Последний подтверждённый этап: Уточнено: семь роликов, шесть прежних Rutube-плееров опубликованы; Школа проверена отдельно и оставлена локально после ошибки воспроизведения. Добавлен A-33. Повторная TLS-проверка записана. Готовая конкурсная сцена HONOR не переписывалась; H-BACK пока только задание, PNG не принят.
@@ -55,6 +55,7 @@ checked_at: 2026-11-08T15:24:00+00:00
 Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconcile first; no retry.
 Задач с сохранённым task ID: 58
 - S49B: reconcile_without_resubmitting
+- S49F: reconcile_without_resubmitting
 
 ## Пробелы
 
