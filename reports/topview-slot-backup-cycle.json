@@ -13,34 +13,124 @@
   "started_at": "2026-11-08T23:30:11.084271Z",
   "lease_acquired_at": "2026-11-08T23:34:17.186Z",
   "receipt_started_recorded_at": "2026-11-08T23:34:43.432Z",
-  "phase": "started",
-  "outcome": "in_progress",
+  "phase": "finished",
+  "outcome": "blocked_browser_input",
   "scan": {
-    "complete": null
+    "complete": true,
+    "boards": 14,
+    "pages": 18,
+    "video_tasks": 642,
+    "unique_video_tasks": 642,
+    "scope": "All 14 editable Topview boards; 18 paginated video pages; account-wide video scan via read-only Topview connector",
+    "checked_at": "2026-11-08T23:32:40.969Z",
+    "status_counts": {
+      "success": 613,
+      "fail": 26,
+      "init": 3
+    }
   },
   "slots": {
     "capacity": 6,
-    "occupied": null,
-    "free": null
+    "occupied": 3,
+    "free": 3,
+    "complete_scan_verified": true,
+    "active_task_ids": [
+      "0b6dfa84e4524b438075f10f7205a846",
+      "2d8efbd16f5146f48cd7a9a1ffb99369",
+      "8a1982a55f794a049a62eaa91bf8827f"
+    ],
+    "active_unlimited_true": true,
+    "active_credits_cost_zero": true
   },
   "selected_item": null,
   "new_submissions": [],
   "task_ids": [],
-  "browser_transport": "not_used",
+  "browser_transport": "not_used_existing_native_upload_blocker",
   "tinyfish": {
     "used": false,
     "run_ids": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0
+    "confirmed_cost_usd": 0,
+    "not_run_reason": "No new evidence since 2026-11-06 that saved TinyFish profile can import exact canonical images and original three-second source clip into real Topview Omni-reference composer and show Unlimited0. Repeating same metered check prohibited. Wallet not checked because no paid run planned."
   },
   "acceptance": {
     "scheduled_run_verified": true,
-    "topview_read_only_scan_complete": false,
+    "topview_read_only_scan_complete": true,
     "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
     "new_task_id_verified": false,
     "production_submission_verified": false
-  }
+  },
+  "checked_at": "2026-11-08T23:39:41.377Z",
+  "completed_at": "2026-11-08T23:40:25.545Z",
+  "owner_tasks": "checked_open_0",
+  "next_ready_candidate": "S62-SEED20-P1-R2-20261108",
+  "topview_credits_spent": 0,
+  "blocker": {
+    "code": "blocked_browser_input",
+    "item_id": "S62-SEED20-P1-R2-20261108",
+    "retryable": false,
+    "reason": "Free physical slots and independent ready story item exist, but TinyFish has no demonstrated safe native exact-file import or selected Unlimited0 form; no Create allowed without complete input/UI preflight.",
+    "evidence": "ops/slot-backup.json#tinyfish_fallback.latest_blocker (2026-11-06)",
+    "secondary": {
+      "code": "foreign_unresolved_claim",
+      "item_id": "S48-SEED20-P2-R2-20261108",
+      "intent": null
+    }
+  },
+  "queue_reconciliation": {
+    "source_queue_sha256": "34df7b3b62ec760259f77e89f8d652035d2f43fc0b0be67810c2eb5597d0f50f",
+    "source_task_map_sha256": "5f21a4995256b824e9e87ea55ed8cf53b3b86d5a33fe4b18c68296b2235381cf",
+    "hashes_independently_recomputed_and_match": true,
+    "readiness_checked_at": "2026-11-08T23:20:27Z",
+    "submitted_count": 20,
+    "submitted_found": 20,
+    "archived_submitted_video_count": 39,
+    "archived_submitted_video_found": 39,
+    "archived_image_task_ids_excluded": 3,
+    "unresolved_items": [
+      {
+        "id": "S49B",
+        "state": "submission_unknown",
+        "submission_intent_id": "e12e32cf-b8d6-4484-86ef-35acee6e4693",
+        "replay_forbidden": true
+      },
+      {
+        "id": "S48-SEED20-P2-R2-20261108",
+        "state": "claimed",
+        "holder": "grok:c33be7f7-8ee4-40f9-8482-f52f9699ad1d",
+        "submission_intent_id": null
+      }
+    ],
+    "owner_music_consent_required": [
+      28,
+      49,
+      50,
+      51
+    ]
+  },
+  "peer_reconciliation": {
+    "hh00_last_run_id": "91e7b493-19e0-8322-ad87-3241894f2d49",
+    "hh00_latest_result_run_id": "17c85771-0cd8-832b-9928-c875b656f0e4",
+    "hh55_last_run_id": "27431dba-b56c-832c-8d31-1503fcc35b1d",
+    "hh55_latest_result_run_id": "1658357b-2320-8333-98ac-459762c93799",
+    "relay_last_run_id": "489d9b4f-b85c-8322-b047-c1e1b4198e41",
+    "relay_latest_result_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d"
+  },
+  "monitor": {
+    "robot_checkpoint_checked_at": "2026-11-08T23:20:27Z",
+    "launcher_health_checked_at": "2026-11-08T23:30:34Z",
+    "bot_issue": 471,
+    "bot_issue_event": "result:f3b8883f44b14a2ba432ce429ba02709",
+    "no_wake_event_claimed_by_this_run": true
+  },
+  "work_route": {
+    "current_preferred_executor": "work",
+    "route_generation": 3,
+    "restoration_rewrite": false,
+    "notes": "No fresh owner confirmation or current Work GUI/quota proof supplied; historical Work restoration preserved, ordinary still enabled as independent reserve. Preferred role does not reserve slots."
+  },
+  "note": "Read-only full scan, canonical queue/task-map SHA matches. No Create, no browser charge. Existing native exact-asset TinyFish blocker unchanged; no paid retry. No change to queue, claims, retry budgets, route or Continue next_action. Final receipt and lease release use separate contents-SHA CAS writes/readbacks; no claim of atomic multi-file commit."
 }
