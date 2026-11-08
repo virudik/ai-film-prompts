@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:89a9e9de-45a6-4fd0-9ddd-12b9e0f9ab5b",
-  "task": "Publish verified recovery binding and existing QC evidence; no launch, queue or schedule changes",
-  "acquired_at": "2026-11-08T06:00:26Z",
-  "expires_at": null,
-  "released_at": "2026-11-08T06:06:08Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:2d0f64a5-5ecc-4291-92a4-a17c5adddf47",
+  "task": "ordinary scheduled Topview read-only scan and receipt",
+  "acquired_at": "2026-11-08T06:11:37.605Z",
+  "expires_at": "2026-11-08T06:26:37.605Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
