@@ -13,8 +13,9 @@
     "https://www.arri.com/en/company/press/press-releases-2026/arri-honor-professional-cinematic-imaging-honor-magic9-pro-max",
     "https://beneluxshop.honor.com/fr-lu/products/honor-magic9-pro-max"
   ],
-  "usage_boundary": "External official product images are SOURCE LINKS only. They are not licensed project PNG, not approved for use as an official HONOR advertisement, and must not be copied or hotlinked into the published ad without checking the rights.",
-  "geometry_lock": "Moss Green two-tone body; wide rear camera bar, one large ARRI-branded round module on rear-left, two smaller circular lenses stacked on right, small flash above major circle; narrow front bezels, horizontal pill-shaped front-camera cutout; no invented four/five-camera replacement.",
+  "usage_boundary": "External official product images are source references, with three private byte-identical review copies now preserved on Drive. They are not licensed project PNG, not approved for use as an official HONOR advertisement, and must not be copied or hotlinked into the published ad without checking the rights. The private source folder has not been publicly shared.",
+  "geometry_lock": "Visually checked against the downloaded official rear PNG on 08.11: Moss Green two-tone body, wide rounded green rear camera plateau. Large left black circular module is not one giant optical lens: a small round flash is INSIDE its upper part, a rounded-rectangular optical window is offset right of center, ARRI mark sits on its left, small sensor dots near its bottom. Exactly two smaller circular optical modules are stacked on the right. Narrow front bezels and horizontal pill-shaped front-camera cutout. Do not invent four/five cameras or put the flash outside above the large disk.",
+  "geometry_correction": "The earlier phrase small flash above major circle was inaccurate; the downloaded source pixels show the flash inside the disk. H-BACK.image-prompt.txt corrected in commit 7bf7dd4a89c73e4e631b4174faeba2bd55b44b74.",
   "external_reference_slots": {
     "H-BACK": {
       "source_page": "https://beneluxshop.honor.com/fr-lu/products/honor-magic9-pro-max",
@@ -46,14 +47,34 @@
       "canon_png_present": false
     }
   },
+  "private_source_copies": {
+    "folder_id": "1u1lCAo2bRKL1qth5GU3FZC1eGx-GUksC",
+    "folder_url": "https://drive.google.com/drive/folders/1u1lCAo2bRKL1qth5GU3FZC1eGx-GUksC",
+    "folder_shared": false,
+    "verified_at": "2026-11-08T15:31:51Z",
+    "verification": "All three images downloaded again through authenticated Drive fetch; SHA256 byte equality confirmed against the primary-source downloads. Copies are technical reference material, not generated or editorially approved assets.",
+    "items": [
+      {"slot":"H-BACK","drive_file_id":"19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI","pixels":[3000,3000],"bytes":5161026,"sha256":"75b1c1c633760037f46a382794c9253588bd0c14b9aeba23050782cbffadc04a","drive_readback_match":true},
+      {"slot":"H-FRONT","drive_file_id":"1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg","pixels":[3000,3000],"bytes":3872665,"sha256":"fab0823b46ec815dc616b958b8f9e33e2de57f4bbe2e7366a720b7f358dc019a","drive_readback_match":true},
+      {"slot":"H-34","drive_file_id":"1pYRa-H6rsA5-1kncKAejE7JGkTAskAMN","pixels":[800,800],"bytes":406599,"sha256":"5bd821e37fc6409636369c282a7d80da65bd3a9132ec295eefe7e047ba393b0a","drive_readback_match":true}
+    ]
+  },
+  "original_reference_generation": {
+    "prompt_file": "projects/raznoe/references/scenes/scene-4/H-BACK.image-prompt.txt",
+    "accepted_candidates": 0,
+    "rejected_generation_ids": ["3cc78517-9ad9-4e50-ae73-bee22ba5bdef","b199ada9-77f9-4cad-937c-0f1eacb16fb2"],
+    "rejection_reason": "The native image tool returned unrelated dashboards with false completion claims instead of the requested handset. Neither image is a project report, product reference, evidence or accepted asset; neither was published in GitHub or Drive.",
+    "next_action": "Use the preserved original primary-source pixels and corrected H-BACK prompt for one product-reference candidate; inspect actual pixels before saving/binding. Do not regenerate existing mood PNGs. No successful new product PNG is claimed."
+  },
   "production": {
     "films": 3,
     "seconds_per_film": 120,
     "reference_mood_png": 3,
     "reference_product_png": 0,
+    "private_primary_source_png": 3,
     "video_submissions": 0,
     "paid_credits_allowed": false,
     "voiceover": "separate filmwide voiceover proposal not approved"
   },
-  "checked_at": "2026-11-06T17:58:30.877Z"
+  "checked_at": "2026-11-08T15:31:51Z"
 }
