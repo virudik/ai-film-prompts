@@ -111,6 +111,35 @@ def check_owner_command(config, actor, now):
         raise Blocked('owner_command_stale_or_future')
     return True
 
+def unlimited_zero_cost_accepted(preflight):
+    """credits_cost must be the number 0. A missing glyph is not a measurement.
+
+    Owner 08.11.2026 23:03 MSK (t373s1831): an explicitly selected free Unlimited
+    mode in the current form, labelled free, authorizes recording 0 even when the
+    digit is not shown. Keep numeric_zero_displayed false. An advertised Unlimited,
+    a pricing page, or an unselected free option does not. A selected paid mode,
+    an unclear state, or any positive cost still fails.
+    """
+    if not isinstance(preflight, dict):
+        return False
+    if preflight.get('paid_credit_mode_selected') is True or preflight.get('paid_18_credit_mode_selected') is True:
+        return False
+    cost = preflight.get('credits_cost')
+    if isinstance(cost, bool) or type(cost) not in (int, float) or cost != 0:
+        return False
+    if preflight.get('website_unlimited') is not True:
+        return False
+    displayed = preflight.get('numeric_zero_displayed')
+    if displayed is True or displayed is None:
+        return True
+    if displayed is not False:
+        return False
+    label = preflight.get('ui_unlimited_label')
+    return (preflight.get('unlimited_mode_selected') is True
+            and preflight.get('credits_cost_evidence') == 'selected_free_unlimited_current_form'
+            and isinstance(label, str) and 'бесплатн' in label.casefold())
+
+
 def check_lease(lock, actor, now):
     expiry, acquired = ts(lock.get('expires_at')), ts(lock.get('acquired_at'))
     if (lock.get('state') != 'held' or lock.get('holder') != holder(actor) or
@@ -221,7 +250,7 @@ def prepare_intent(config, lock, item, actor, scan, now, queue_board_id=None, le
     if not all(p.get(k) is True for k in ('owner_authorized', 'prompt_match', 'input_sha_match',
                                           'input_order_match', 'qc_passed', 'website_unlimited')):
         raise Blocked('required_preflight_not_verified')
-    if (type(p.get('credits_cost')) not in (int, float) or p.get('credits_cost') != 0 or
+    if (not unlimited_zero_cost_accepted(p) or
             type(p.get('quantity')) is not int or p.get('quantity') != 1 or
             p.get('resolution') != 720 or p.get('aspect_ratio') != '16:9'):
         raise Blocked('unlimited_zero_credit_parameters_required')

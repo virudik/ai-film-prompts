@@ -495,4 +495,36 @@ class GrokReviewRegressionTests(unittest.TestCase):
             self.assertTrue(item.get('board_id',q['board_id'])==BOARD)
             lc.check_grok_policy(h.cfg,item,h.actor,GROK_NOW,queue_board_id=q['board_id'])
 
+class FreeUnlimitedCostTests(unittest.TestCase):
+    def base(self, **extra):
+        p = dict(owner_authorized=True, prompt_match=True, input_sha_match=True, input_order_match=True,
+                 qc_passed=True, website_unlimited=True, credits_cost=0, quantity=1, resolution=720,
+                 aspect_ratio='16:9')
+        p.update(extra)
+        return p
+    def test_selected_free_label_authorizes_zero_without_a_glyph(self):
+        p = self.base(numeric_zero_displayed=False, unlimited_mode_selected=True,
+                      ui_unlimited_label='Безлимитный режим — бесплатно',
+                      credits_cost_evidence='selected_free_unlimited_current_form')
+        self.assertTrue(lc.unlimited_zero_cost_accepted(p))
+    def test_visible_zero_still_passes(self):
+        self.assertTrue(lc.unlimited_zero_cost_accepted(self.base(numeric_zero_displayed=True)))
+    def test_null_paid_unselected_and_advertised_free_fail(self):
+        self.assertFalse(lc.unlimited_zero_cost_accepted(self.base(credits_cost=None, numeric_zero_displayed=False,
+            unlimited_mode_selected=True, ui_unlimited_label='Безлимитный режим — бесплатно',
+            credits_cost_evidence='selected_free_unlimited_current_form')))
+        self.assertFalse(lc.unlimited_zero_cost_accepted(self.base(credits_cost=18, numeric_zero_displayed=False,
+            unlimited_mode_selected=True, ui_unlimited_label='Безлимитный режим — бесплатно',
+            credits_cost_evidence='selected_free_unlimited_current_form')))
+        self.assertFalse(lc.unlimited_zero_cost_accepted(self.base(numeric_zero_displayed=False,
+            unlimited_mode_selected=False, ui_unlimited_label='Безлимитный режим — бесплатно',
+            credits_cost_evidence='selected_free_unlimited_current_form')))
+        self.assertFalse(lc.unlimited_zero_cost_accepted(self.base(numeric_zero_displayed=False,
+            paid_18_credit_mode_selected=True, unlimited_mode_selected=True,
+            ui_unlimited_label='Безлимитный режим — бесплатно',
+            credits_cost_evidence='selected_free_unlimited_current_form')))
+        self.assertFalse(lc.unlimited_zero_cost_accepted(self.base(numeric_zero_displayed=False,
+            unlimited_mode_selected=True, ui_unlimited_label='Unlimited',
+            credits_cost_evidence='pricing_page')))
+
 if __name__=='__main__': unittest.main()
