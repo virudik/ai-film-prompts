@@ -1,0 +1,68 @@
+name: Verify owner public site certificates once
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/check-public-sites-once.yml']
+permissions:
+  contents: write
+concurrency:
+  group: public-sites-verification-20261108
+  cancel-in-progress: false
+jobs:
+  verify:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Read public TLS and HTTP without changing configuration
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp scripts/check_public_sites_once.py /tmp/check_public_sites_once.py
+          python3 /tmp/check_public_sites_once.py probe
+      - name: Publish verified observations under the exact lease
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3 4; do
+            git fetch -q origin main
+            git reset --hard origin/main
+            python3 /tmp/check_public_sites_once.py publish
+            git diff --check
+            git add reports/public-sites-check-2026-11-08.json reports/current-work-checkpoint.md work-resume-register.json ops/FUTURE-PLANS.md shadow/resume-packet.json shadow/resume-packet.md ops/canon-lock.json
+            git add -u -- scripts/check_public_sites_once.py .github/workflows/check-public-sites-once.yml
+            git commit -m 'Verify public subdomain TLS and checkpoint actual results; owner 08Nov'
+            made=$(git rev-parse HEAD)
+            if git push origin HEAD:main; then
+              git fetch -q origin main
+              git merge-base --is-ancestor "$made" origin/main
+              echo "Verified publication commit $made"
+              exit 0
+            fi
+            echo 'CAS rejected; reread main and recompute. Retain actual observation timestamps.'
+          done
+          exit 1
+      - name: Release only this exact lease after failure
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f /tmp/check_public_sites_once.py || exit 0
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3 4; do
+            git fetch -q origin main
+            git reset --hard origin/main
+            python3 /tmp/check_public_sites_once.py release
+            git add ops/canon-lock.json
+            if git diff --cached --quiet; then exit 0; fi
+            git commit -m 'Canon lock: release exact public site verification lease'
+            if git push origin HEAD:main; then exit 0; fi
+          done
+          exit 1
