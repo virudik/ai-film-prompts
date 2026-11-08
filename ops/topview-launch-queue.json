@@ -1579,7 +1579,18 @@
           "credits_price_visible": 0,
           "price_shown": false,
           "prompt_chars": 6352
-        }
+        },
+        "submission_intent_id": "0d735d8e-7f3b-4704-b155-db78c717968f",
+        "submission_intent_at": "2026-11-08T17:25:32Z",
+        "lease_holder": "grok:6e1b0b6e-04e2-4990-951f-ba12f3c00eed",
+        "lease_acquired_at": "2026-11-08T17:20:00Z",
+        "replay_forbidden": true,
+        "provider_run_id": "grokbot-routine-e57554d4-e37d-5a96-849b-bb01ae42ed2d@2026-11-08T17:00:32.450Z",
+        "provider_run_key": "250b715fe5ff0a22a543c1165f05e57cacfe47b43944830379e81e936738f8f4",
+        "owner_event_keys": [],
+        "ledger_path": "ops/launcher-run-ledger.json",
+        "trigger": "wake",
+        "wake_issue": 455
       },
       "owner_review_required_after_item": null,
       "id": "S51C",
@@ -1591,7 +1602,7 @@
       "canonical_prompt_sha256": "2ea33c1cdcce0f8b065455900e90c60c79c6a4724227de34591b97b37859bfe9",
       "normalized_prompt_sha256": "5a45b6746a06dc279828184a623d4a671406804eee12ffc0305ec01c6959817b",
       "priority": 1.42,
-      "state": "claimed",
+      "state": "submitting",
       "references": [
         {
           "slot": "@Image1",
