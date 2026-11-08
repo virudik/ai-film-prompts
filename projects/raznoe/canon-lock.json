@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:00cc30c6-6bc1-407e-8b69-68b0c47c8039",
-  "task": "Prepare the missing original HONOR H-BACK reference; preserve existing scenes and contest work; no video generation",
-  "acquired_at": "2026-11-08T15:12:02Z",
-  "expires_at": null,
-  "released_at": "2026-11-08T15:35:20Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:3e15ce74-0366-42fc-8246-371e5c741112",
+  "task": "Owner requests saving completed and open work from this and linked chats into plan, handoff and checkpoints; no production actions",
+  "acquired_at": "2026-11-08T16:10:35Z",
+  "expires_at": "2026-11-08T16:45:35Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }
