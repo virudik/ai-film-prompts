@@ -1860,6 +1860,7 @@
     "drive_file_id": "1tk3CmA3kG6zEJA1hcjKdDUluM4xTdRv1",
     "qc_report": "references/scenes/scene-52/S52-R2-P1-continuity.json",
     "qc_status": "provisional_usable_for_continuity_pending_full_continuous_audio_qc",
-    "launch_ready": false
+    "launch_ready": false,
+    "visual_review_2026_11_08": "Usable tail with a minor face morph and an unconfirmed hatch; audio not listened. See S52-R2-P1-continuity.json. Not 24 fps real-time playback and not launch acceptance."
   }
 }

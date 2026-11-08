@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "7427ef33c2bb01957685c7446f523abf67730950a2bf01de3676f05bc6c21686",
+  "source_queue_sha256": "382a26d239f0e53b9fd276c712377aab4f8d40253903cf0828ccde14cf9e5720",
   "source_task_map_sha256": "90726945e9eb3dd2bf3887f331515a822e66f877f6d32873973b20b31a350d65",
   "topview_checked_at": "2026-11-08T17:50:22Z",
   "items": [
@@ -41,12 +41,21 @@
       "queue_state": "waiting_for_slot"
     },
     {
+      "id": "S48-SEED20-P2-R2-20261108",
+      "scene_id": 48,
+      "part_label": "Часть 2",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
       "id": "S48-SEED20-P3",
       "scene_id": 48,
       "part_label": "Часть 3",
-      "code": "prepare_continuity",
+      "code": "continuity_qc_failed",
       "ready": false,
-      "text": "@Video1: результат 48 · Seedance 2.0 часть 2 получен — подготовить и проверить стык",
+      "text": "@Video1: исходный результат получен, но не прошёл проверку стыка",
       "queue_state": "blocked_inputs"
     },
     {
@@ -149,12 +158,21 @@
       "queue_state": "blocked_inputs"
     },
     {
+      "id": "S59-SEED20-P2-R2-20261108",
+      "scene_id": 59,
+      "part_label": "Часть 2",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
       "id": "S59-SEED20-P3",
       "scene_id": 59,
       "part_label": "Часть 3",
-      "code": "prepare_continuity",
+      "code": "continuity_qc_failed",
       "ready": false,
-      "text": "@Video1: результат 59 · Seedance 2.0 часть 2 получен — подготовить и проверить стык; @Image1: результат 59 · Seedance 2.0 часть 2 получен — подготовить и проверить стык",
+      "text": "@Video1: исходный результат получен, но не прошёл проверку стыка; @Image1: исходный результат получен, но не прошёл проверку стыка",
       "queue_state": "blocked_inputs"
     },
     {
@@ -170,19 +188,28 @@
       "id": "S60-SEED20-P2",
       "scene_id": 60,
       "part_label": "Часть 2",
-      "code": "prepare_continuity",
-      "ready": false,
-      "text": "@Video1: результат 60 · Seedance 2.0 часть 1 получен — подготовить и проверить стык",
-      "queue_state": "blocked_inputs"
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
     },
     {
       "id": "S61-SEED20-P2",
       "scene_id": 61,
       "part_label": "Часть 2",
-      "code": "prepare_continuity",
-      "ready": false,
-      "text": "@Video1: результат 61 · Seedance 2.0 часть 1 получен — подготовить и проверить стык",
-      "queue_state": "blocked_inputs"
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
+      "id": "S62-SEED20-P1-R2-20261108",
+      "scene_id": 62,
+      "part_label": "Часть 1",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
     },
     {
       "id": "S62-SEED20-P2",
@@ -215,10 +242,10 @@
       "id": "S52-R2-SEED20-P2",
       "scene_id": 52,
       "part_label": "Часть 2",
-      "code": "prepare_continuity",
-      "ready": false,
-      "text": "@Video1: результат 52 · Seedance 2.0 часть 1 получен — подготовить и проверить стык",
-      "queue_state": "blocked_inputs"
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
     },
     {
       "id": "S52-R2-SEED20-P3",
@@ -339,5 +366,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-08T17:50:26.338237Z"
+  "checked_at": "2026-11-08T17:51:42.960264Z"
 }

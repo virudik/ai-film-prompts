@@ -50,5 +50,18 @@
   "owner_approved": false,
   "continuity_input_created": false,
   "automatic_rerender_authorized": false,
-  "next_action": "Keep S59-P3 blocked. Await an owner decision or a suitable real airborne source; do not synthesize/reset the handoff and do not auto-rerender successful S59-P2."
+  "next_action": "Keep S59-P3 blocked. Await an owner decision or a suitable real airborne source; do not synthesize/reset the handoff and do not auto-rerender successful S59-P2.",
+  "followup_visual_review_2026_11_08": {
+    "scope": "Later parent-coordinated visual review of the full original. Does not rewrite review_scope above, which stays sampled-only and not a continuous full-frame-rate view.",
+    "reported_completion_local": "2026-11-08T19:49 Europe/Moscow",
+    "reviewer_trace_name": "sand-subagent-f49c2460-e699-6314-d140-91b212c3bcb1",
+    "task": "single S59-P2 full original",
+    "timeline": "0–2 space, 2–5 atmosphere, 5–9 forest flight, 9–11 gear and descent, cut near 12s to an already static landed craft at 12–15.04s.",
+    "touchdown": "not shown; the landed state is reached by a cut",
+    "positive": "one craft, empty roof, referenced design kept",
+    "audio_listened": false,
+    "assessment_unchanged": "qc_rejected_for_s59_p3_continuity_premature_finished_landing",
+    "owner_approval": false,
+    "accepted_as_launch_input": false
+  }
 }

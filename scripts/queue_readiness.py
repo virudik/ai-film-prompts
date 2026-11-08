@@ -163,8 +163,50 @@ def substantive_refusal(item):
     return False
 
 
+def music_consent_policy(queue):
+    """t369u, 08.11.2026 20:40 MSK. Absent unless this decision is on the queue."""
+    policy = queue.get('owner_policy_20261108_t369u') if isinstance(queue, dict) else None
+    if not isinstance(policy, dict) or policy.get('effect') != 'music_requires_owner_consent':
+        return None
+    if not isinstance(policy.get('scenes'), list):
+        return None
+    return policy
+
+
+def is_music_dance(queue, item):
+    policy = music_consent_policy(queue)
+    return bool(policy) and isinstance(item, dict) and item.get('scene_id') in policy['scenes']
+
+
+def music_create_blocked(queue, item):
+    """New music/dance Create needs a separate owner consent. Submitted work stays.
+
+    A consumed submitting intent is not consent and is not cleared here.
+    """
+    if not is_music_dance(queue, item) or item.get('owner_music_consent') is True:
+        return False
+    if item.get('task_id'):
+        return False
+    state = str(item.get('state') or '')
+    if state in ('submitted', 'completed', 'submission_unknown') or state.startswith(('cancelled', 'superseded')):
+        return False
+    return state in ('waiting_for_slot', 'claimed', 'submitting')
+
+
+def link_rank(item):
+    """Independent ready work before a part whose join is already verified."""
+    linked = bool(item.get('depends_on_completed') or item.get('depends_on_submitted'))
+    if not linked:
+        linked = any(is_continuity_ref(ref) for ref in (item.get('references') or []) if isinstance(ref, dict))
+    return 1 if linked else 0
+
+
 def launch_candidates(root, limit=None):
-    """Priority order of items that are actually ready to Create. Read-only."""
+    """Priority order of items that are actually ready to Create. Read-only.
+
+    Story with no link, then story whose join is already ready, by queue priority.
+    Music and dance are not a fallback: t369u requires a new owner consent.
+    """
     root = Path(root)
     queue = read(root / 'ops/topview-launch-queue.json', {})
     derived = {row['id']: row for row in derive(root)['items']}
@@ -174,7 +216,7 @@ def launch_candidates(root, limit=None):
         value = item.get('priority')
         return (value if type(value) in (int, float) else 10 ** 9, str(item.get('id')))
 
-    chosen, skipped = [], []
+    chosen, skipped, eligible = [], [], []
     if limit is not None and limit <= 0:
         return {'chosen': chosen, 'skipped': skipped}
     for item in sorted(items, key=priority):
@@ -186,12 +228,17 @@ def launch_candidates(root, limit=None):
             reason = 'substantive_refusal'
         elif continuity_blocks_launch(item, root):
             reason = 'continuity_excerpt_missing'
+        elif music_create_blocked(queue, item):
+            reason = 'music_owner_consent_required'
         else:
             reason = None
         if reason:
             skipped.append({'id': item_id, 'reason': reason})
             continue
-        chosen.append(item_id)
+        eligible.append(item)
+    ordered = sorted(eligible, key=lambda item: (link_rank(item), priority(item)))
+    for item in ordered:
+        chosen.append(item.get('id'))
         if limit is not None and len(chosen) >= limit:
             break
     return {'chosen': chosen, 'skipped': skipped}

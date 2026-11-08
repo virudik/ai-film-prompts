@@ -1,0 +1,192 @@
+{
+  "authorization_id": "owner-20261108-t362s1681",
+  "checks": [
+    {
+      "ok": true,
+      "name": "48 identity and contact",
+      "detail": "one rider, two Jedi on the ground, visible push-off/arc/both feet/knees"
+    },
+    {
+      "ok": true,
+      "name": "48 params",
+      "detail": "Seedance 2.0 15s"
+    },
+    {
+      "ok": true,
+      "name": "59 flight package",
+      "detail": "Image3 removed from reference list; airborne end; landing forbidden in P2"
+    },
+    {
+      "ok": true,
+      "name": "62 P1 end contract",
+      "detail": "Image5 is future context; hilts off; walking end"
+    },
+    {
+      "ok": true,
+      "name": "62 P2 unchanged",
+      "detail": "P2 still owns the triangle and ignition"
+    },
+    {
+      "ok": true,
+      "name": "durations",
+      "detail": "15s"
+    },
+    {
+      "ok": true,
+      "name": "ref files",
+      "detail": "image paths and sha match"
+    },
+    {
+      "ok": true,
+      "name": "one attempt each",
+      "detail": "waiting_for_slot, Unlimited 0, one submission"
+    },
+    {
+      "ok": true,
+      "name": "48 history",
+      "detail": "de8e44bb15d64dc7a4eb640d27a726e4"
+    },
+    {
+      "ok": true,
+      "name": "59 budget",
+      "detail": "correction_budget 0 and max_new_submissions 0 kept"
+    },
+    {
+      "ok": true,
+      "name": "62 budget",
+      "detail": "additional_attempts 0 and submitted state kept"
+    },
+    {
+      "ok": true,
+      "name": "next parts blocked",
+      "detail": "48P3 59P3 62P2"
+    }
+  ],
+  "new_items": [
+    {
+      "id": "S48-SEED20-P2-R2-20261108",
+      "canonical_prompt_sha256": "e0a9aa8e000b206534df67b726932fb1ea9cf9eea850816bdaddc885d7c282b1",
+      "normalized_prompt_sha256": "6a139ad98ef41ce863aa3cac503198099fa93f769a93d287fddebd0f818a93f5",
+      "priority": -0.98,
+      "refs": [
+        "@Video1",
+        "@Image1",
+        "@Image2",
+        "@Image3",
+        "@Image4",
+        "@Image5",
+        "@Image6"
+      ]
+    },
+    {
+      "id": "S59-SEED20-P2-R2-20261108",
+      "canonical_prompt_sha256": "123f4eb02a206fce424f706d6eb140470e2d588df3db1d0cde812ccd8be9d386",
+      "normalized_prompt_sha256": "f2bf2be5f0e48712914863597c1e8974aabd7dd7474f5404c07de6775535deb3",
+      "priority": 0.51,
+      "refs": [
+        "@Video1",
+        "@Image1",
+        "@Image2"
+      ]
+    },
+    {
+      "id": "S62-SEED20-P1-R2-20261108",
+      "canonical_prompt_sha256": "7077f88f6ea65cf820654f3ce5165168c56cec63eb36a3b2072f3e6c6c38d317",
+      "normalized_prompt_sha256": "1e9f97b4eaef3283cb661c5a8521571919c82446bf95b83ce6506163b2e878c4",
+      "priority": -0.5,
+      "refs": [
+        "@Video1",
+        "@Image1",
+        "@Image2",
+        "@Image3",
+        "@Image4",
+        "@Image5",
+        "@Image6"
+      ]
+    }
+  ],
+  "story_first_policy": {
+    "authorization_id": "owner-20261108-t365u",
+    "effect": "story_first_then_music_fallback",
+    "supersedes": "owner_hold_20261108_t364u",
+    "not_retroactive_to": "S51B submitted_at 2026-11-08T17:18:48Z"
+  },
+  "story_only_hold": {
+    "authorization_id": "owner-20261108-t364u",
+    "quote": "Музыкально-Танцевальные пока не запускаем.",
+    "effect": "superseded_by_t365u",
+    "scenes": [
+      28,
+      49,
+      50,
+      51
+    ],
+    "ready_story_order": [
+      "S48-SEED20-P2-R2-20261108",
+      "S62-SEED20-P1-R2-20261108",
+      "S52-R2-SEED20-P2",
+      "S59-SEED20-P2-R2-20261108",
+      "S60-SEED20-P2",
+      "S61-SEED20-P2"
+    ],
+    "superseded_at": "2026-11-08T17:24:00Z"
+  },
+  "main_readback_20261108T1720Z": {
+    "main": "9dab2ec404bf7f60b65f6ed6240f2b7aa4fc2b27",
+    "lock": {
+      "state": "held",
+      "holder": "grok:6e1b0b6e-04e2-4990-951f-ba12f3c00eed",
+      "task": "launch S51C (grok helper, slot-wake issue #455)",
+      "acquired_at": "2026-11-08T17:20:00Z",
+      "expires_at": "2026-11-08T18:05:00Z",
+      "touched": false
+    },
+    "S51B": {
+      "state": "submitted",
+      "task_id": "8a1982a55f794a049a62eaa91bf8827f",
+      "submitted_at": "2026-11-08T17:18:48Z",
+      "claimed_at": "2026-11-08T17:17:45Z",
+      "submission_intent_at": "2026-11-08T17:17:49Z",
+      "credits": 0,
+      "status": "init",
+      "receipt": "reports/topview-queue-2026-10-16/S51B-20261108T171848Z.json",
+      "note": "Actual Create already recorded after 17:16Z. Not cancelled."
+    },
+    "S51C": {
+      "state": "waiting_for_slot",
+      "task_id": null,
+      "claim": null,
+      "note": "No task and no claim on this main. Not a recorded Create. Not selected while the hold is active. Lock was not taken or released."
+    },
+    "active_tasks": [
+      "8a1982a55f794a049a62eaa91bf8827f",
+      "f3b8883f44b14a2ba432ce429ba02709"
+    ],
+    "telemetry_checked_at": "2026-11-08T17:20:25Z",
+    "occupied_slots": 2,
+    "free_slots": 4,
+    "pause": "Do not unpause music selection on this readback. Story selection is safe only after this hold is on main and S51C still has no task."
+  },
+  "main_readback_20261108T1726Z": {
+    "main": "f226f2596",
+    "lock": {
+      "state": "held",
+      "holder": "grok:6e1b0b6e-04e2-4990-951f-ba12f3c00eed",
+      "expires_at": "2026-11-08T18:05:00Z",
+      "touched": false
+    },
+    "S51C": {
+      "state": "submitting",
+      "task_id": null,
+      "submission_intent_id": "0d735d8e-7f3b-4704-b155-db78c717968f",
+      "submission_intent_at": "2026-11-08T17:25:32Z",
+      "claimed_at": "2026-11-08T17:25:27Z",
+      "note": "Intent kept. Not a recorded task yet. Lock not taken or released."
+    },
+    "S51B": {
+      "state": "submitted",
+      "task_id": "8a1982a55f794a049a62eaa91bf8827f",
+      "submitted_at": "2026-11-08T17:18:48Z"
+    }
+  }
+}

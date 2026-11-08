@@ -229,6 +229,9 @@ def prepare_intent(config, lock, item, actor, scan, now, queue_board_id=None, le
         raise Blocked('substantive_refusal_not_retried')
     if queue_readiness.continuity_blocks_launch(item, root):
         raise Blocked('continuity_excerpt_missing')
+    if root is not None and queue_readiness.music_create_blocked(
+            queue_readiness.read(Path(root) / QUEUE, {}), item):
+        raise Blocked('music_owner_consent_required')
     run_identity = None
     if run_ledger.required(config, actor):
         try:
