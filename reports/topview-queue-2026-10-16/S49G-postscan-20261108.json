@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-11-08T15:59:24Z",
+  "complete": true,
+  "slot_capacity": 6,
+  "occupied_slots": 3,
+  "free_slots": 3,
+  "boards_scanned": 14,
+  "pages_scanned": 14,
+  "unique_videos": 227,
+  "active_videos": 3,
+  "active_task_ids": [
+    "3561d1997a6a4e5d813cfb99fdb60ed4",
+    "dbc9aff605ec48349062638cdaa7fd5a",
+    "fe78a852b7a343e6a37d146cec789358"
+  ],
+  "scan_mode": "mcp_board_tasks_init_count_refresh",
+  "source": "user-topview MCP after S49G Create: My First Board page1 now 468 videos, 3 init (new 3561d199 + S49E + S49D)",
+  "wake_issue": 452,
+  "event_id": "slots:2f5718c3:20",
+  "note": "S49G submitted Unlimited0"
+}

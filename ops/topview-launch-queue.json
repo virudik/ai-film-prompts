@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-11-08T15:31:26Z",
+  "updated_at": "2026-11-08T15:59:24Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -6517,7 +6517,7 @@
       "canonical_prompt_sha256": "eb9b3198976f160c9cb5bae76b796ad713e56453740b7c3312918b81df83ad78",
       "normalized_prompt_sha256": "953567a969cdc28aba7d4d18e36a8e98f353874647b1e775dcb5b041e02f2e8a",
       "priority": 1.245,
-      "state": "submitting",
+      "state": "submitted",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -6526,8 +6526,62 @@
       "quantity": 1,
       "mode": "omni_reference",
       "max_new_submissions": 1,
-      "task_id": null,
-      "claim": {
+      "task_id": "3561d1997a6a4e5d813cfb99fdb60ed4",
+      "claim": null,
+      "owner_review_required_after_item": null,
+      "blocker": null,
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true,
+          "input_status": "available",
+          "role": "location"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+          "required": true,
+          "input_status": "available",
+          "role": "identity:Masha R"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+          "required": true,
+          "input_status": "available",
+          "role": "identity:Alina"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
+          "required": true,
+          "input_status": "available",
+          "role": "identity:Dasha"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-49/S49G-trio-playing.png",
+          "sha256": "9a93a3536284b5dda56db4cc0647b054e1520dbc28e8a758aa95fc219fb02765",
+          "required": true,
+          "input_status": "available",
+          "role": "intact_prop_design_and_playing_pose"
+        }
+      ],
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "launch_readiness": "authorized_inputs_available",
+      "authorization": "Owner30Oct adds this trio subscene to the already authorized final musical number; existing Unlimited0 one-attempt queue scope continues. No paid run, no duplicate or artistic rerender.",
+      "owner_launch_authorized_at": "2026-10-30T01:35:23+00:00",
+      "authorization_recorded_at_note": "Recorded now from current owner request and existing final-number queue authorization, not a claimed message timestamp.",
+      "submitted_at": "2026-11-08T15:58:46Z",
+      "receipt": "reports/topview-queue-2026-10-16/S49G-20261108T155846Z.json",
+      "ui_proof": "reports/topview-queue-2026-10-16/S49G-20261108T155846Z.jpg",
+      "last_claim": {
         "claim_id": "3e5dab85-5605-4fd9-a263-9fe5ffebc9f2",
         "run_id": "grok-f42d8e9d-d7fc-46eb-bd03-4ed081361a16",
         "claimed_at": "2026-11-08T15:57:44Z",
@@ -6590,57 +6644,7 @@
         "ledger_path": "ops/launcher-run-ledger.json",
         "trigger": "wake",
         "wake_issue": 452
-      },
-      "owner_review_required_after_item": null,
-      "blocker": null,
-      "references": [
-        {
-          "slot": "@Image1",
-          "path": "references/scenes/scene-28/H28B-disco.png",
-          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
-          "required": true,
-          "input_status": "available",
-          "role": "location"
-        },
-        {
-          "slot": "@Image2",
-          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
-          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
-          "required": true,
-          "input_status": "available",
-          "role": "identity:Masha R"
-        },
-        {
-          "slot": "@Image3",
-          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
-          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
-          "required": true,
-          "input_status": "available",
-          "role": "identity:Alina"
-        },
-        {
-          "slot": "@Image4",
-          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
-          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
-          "required": true,
-          "input_status": "available",
-          "role": "identity:Dasha"
-        },
-        {
-          "slot": "@Image5",
-          "path": "references/scenes/scene-49/S49G-trio-playing.png",
-          "sha256": "9a93a3536284b5dda56db4cc0647b054e1520dbc28e8a758aa95fc219fb02765",
-          "required": true,
-          "input_status": "available",
-          "role": "intact_prop_design_and_playing_pose"
-        }
-      ],
-      "depends_on_submitted": [],
-      "depends_on_completed": [],
-      "launch_readiness": "authorized_inputs_available",
-      "authorization": "Owner30Oct adds this trio subscene to the already authorized final musical number; existing Unlimited0 one-attempt queue scope continues. No paid run, no duplicate or artistic rerender.",
-      "owner_launch_authorized_at": "2026-10-30T01:35:23+00:00",
-      "authorization_recorded_at_note": "Recorded now from current owner request and existing final-number queue authorization, not a claimed message timestamp."
+      }
     },
     {
       "id": "S51G",
