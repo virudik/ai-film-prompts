@@ -1,0 +1,102 @@
+name: Owner followup index (bounded, no schedule)
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/owner-followup-index.yml']
+permissions:
+  contents: write
+concurrency:
+  group: owner-followup-index
+  cancel-in-progress: false
+jobs:
+  index:
+    if: github.actor == 'virudik'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      HOLDER: chatgpt:ordinary:79dd16b2-9780-466c-a616-33cb3eb1387d
+      ACQUIRED: '2026-11-08T07:23:48Z'
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Save initial checkpoint and organize existing task IDs
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3; do
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            python3 - <<'PY'
+          import os,json,re,sys,subprocess
+          from pathlib import Path
+          from datetime import datetime,timezone
+          sys.path.insert(0,'scripts')
+          from resume_state import capture
+          from trim_service_files import trim_register,load_json,dump_json,REGISTER_ARCHIVE
+          root=Path('.')
+          lock=json.loads(Path('ops/canon-lock.json').read_text())
+          now=datetime.now(timezone.utc)
+          assert lock['state']=='held' and lock['holder']==os.environ['HOLDER'] and lock['acquired_at']==os.environ['ACQUIRED']
+          assert datetime.fromisoformat(lock['expires_at'].replace('Z','+00:00'))>now
+          report=Path('reports/owner-followup-2026-11-08.json')
+          if report.exists():
+              old=json.loads(report.read_text())
+              if old.get('request_id')=='owner-20261108-video-order-honor-tls':
+                  print('Request already indexed; no duplicate checkpoint.');sys.exit(0)
+          tv=json.loads(Path('topview-status.json').read_text())
+          health=json.loads(Path('canon-health.json').read_text())
+          source=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          data={'schema_version':1,'request_id':'owner-20261108-video-order-honor-tls','project':'seregius','stage':'in_progress','checked_at':now.isoformat(timespec='seconds'),'source_head':source,'holder':os.environ['HOLDER'],'requested_video_order':['Открытка','ОСД','Котмонавты','Звёздные войны в деревне','Финансовые мультики','Алексей против тараканов','Остальные'],'new_tasks':['A-31: YouTube inventory and owner-channel import to Rutube; replace only after player verification','A-32: exact owner video ordering'], 'preserved_boundaries':['No paid generation','No duplicate scenes or files','Keep paused by owner','No deletion until verified external playback and source preservation','No claim that a title page proves video playback'],'topview_observation':{k:tv.get(k) for k in ['checked_at','occupied_slots','free_slots','active_tasks']},'canon_health':{k:health.get(k) for k in ['checked_at','status','warnings']},'browser_capability':'Connected Browser list_tabs returned missing originating browser context; no authenticated Rutube Studio UI in this execution','youtube_import_source':'https://rutube.ru/info/youtube/','status':'Initial checkpoint only; website order and TLS repair not yet completed.'}
+          report.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
+          p=Path('ops/FUTURE-PLANS.md'); text=p.read_text()
+          lines=text.splitlines()
+          rows={}
+          for line in lines:
+              m=re.match(r'^\| (A-\d+) \|',line)
+              if m:
+                  assert m[1] not in rows, 'duplicate existing ID'
+                  rows[m[1]]=line
+          assert all('A-%02d'%i in rows for i in range(1,31))
+          rows['A-31']='| A-31 | СРОЧНО: перенести подходящие видео YouTube с сайта на Rutube и заменить плееры | НЕ СДЕЛАНО: сначала инвентаризация ID/каналов и поиск исходников, затем штатный импорт собственного канала через авторизованную Студию Rutube; чужие ТВ-материалы не объявлять своими. Публикация, playback и отсутствие дублей проверяются отдельно. | Прямое поручение 08.11; https://rutube.ru/info/youtube/; reports/owner-followup-2026-11-08.json |'
+          rows['A-32']='| A-32 | Порядок портфолио: Открытка → ОСД → Котмонавты → ЗВ → Финансовые → Алексей → остальные | В РАБОТЕ: явный порядок владельца выше прежней сортировки этих шести по доступности; остальные доступные/ожидающие выше «скоро». | Прямое поручение 08.11; virudik/rudik-site js/videos-data.js и js/rudik.js |'
+          rows['A-02']='| A-02 | Topview: один писатель, 6 физических слотов, по priority и 0 кредитов | ПОСТОЯННО: текущие слоты и следующая фактически готовая сцена только из живых topview-status.json/очереди; историческую S49B не считать обещанием следующего запуска. Уже отправленное не повторять. | C-01; topview-status.json; ops/topview-launch-queue.json; reports/topview-slot-backup-cycle.json |'
+          rows['A-20']='| A-20 | СРОЧНО: исправить HTTPS восьми дополнительных поддоменов | НЕ СДЕЛАНО: прямой TLS 08.11 показал 0/8 — выдаётся сертификат *.github.io с hostname mismatch; корень/ии/промты исправны. Новая команда владельца разрешает целевую проверку и исправление Pages/выпуска сертификатов без изменения посторонних сайтов. | G-05; reports/public-sites-check-2026-11-08.json; поручение 08.11 |'
+          rows['A-09']='| A-09 | СРОЧНО: конкурс HONOR X9e Pro во ВК, отдельная сцена 5 и заявка | ИДЕЯ И СЦЕНА ЕСТЬ; полные правила, город, заявка/реальный тест и получение аппарата НЕ ЗАВЕРШЕНЫ. Окно из присланного поста 6–16 ноября; AI-превиз не выдавать за настоящий тест. Magic9 и X9e не смешивать. | projects/raznoe/reports/honor-x9e-pro-contest-2026-11-07.md; владелец 08.11 |'
+          groups=[('P1 — срочно / выполнять', ['A-32','A-20','A-09','A-08','A-07','A-21','A-31']),('P2 — доделать и проверить', ['A-12','A-13','A-14','A-15','A-16','A-18','A-27','A-30']),('W — техническая часть есть, приёмка/согласование открыты',['A-04','A-05','A-11','A-24','A-25']),('OK — выполнено, повторно не делать',['A-01','A-06','A-10','A-17','A-19','A-22','A-23']),('Постоянное обслуживание — не разовая закрытая задача',['A-02','A-03','A-29']),('Отложено владельцем — не возобновлять',['A-26','A-28'])]
+          assigned=[i for _,ids in groups for i in ids]
+          assert set(assigned)==set(rows) and len(assigned)==len(set(assigned))
+          out=['## СВОДНЫЙ АУДИТ ПОРУЧЕНИЙ — актуальность на 08.11.2026','','Те же ID задач, без повторного создания. Наличие промпта/PNG/настройки не равно приёмке видео, действующему сертификату или успешному запуску. Приоритет свободных Topview-слотов сохраняется.']
+          for title,ids in groups:
+              out += ['', '### '+title,'','| ID | Поручение | Подтверждённое состояние / следующий шаг | Доказательство |','|---|---|---|---|']+[rows[i] for i in ids]
+          out += ['','**Для следующего чата:** сначала свежий main и checkpoint/recovery; блок OK не выполнять заново. В W доделывать только явно оставшуюся проверку. В P1/P2 не скрывать блокеры; никаких новых платных действий или повторов существующих task ID.','']
+          match=re.search(r'(?ms)^## СВОДНЫЙ АУДИТ ПОРУЧЕНИЙ.*?(?=^## История ревизий)',text)
+          assert match
+          text=text[:match.start()]+'\n'.join(out)+'\n'+text[match.end():]
+          text=text.replace('## История ревизий\n','## История ревизий\n\n- 08.11.2026 — поручения A-01…A-30 распределены по срочности, готовности и паузам без потери исходных ID; добавлены A-31 (YouTube→Rutube) и A-32 (точный порядок роликов). Завершённое повторять запрещено; начало работы не отмечено результатом.\n',1)
+          text=text.replace('Проверено: 07.11.2026 (МСК), общий реестр A-01…A-30','Проверено: 08.11.2026 (МСК), общий реестр A-01…A-32',1)
+          p.write_text(text)
+          anchor='# 08.11.2026 — новые срочные поручения и точный порядок видео'
+          nxt='Проверить живые слоты; при наличии места только готовый разрешённый item Unlimited0/CAS. Выполнить A-32 (порядок видео), A-20 (Pages/TLS), A-09/A-08 (конкурс и референсы HONOR), A-07 (RESOURCE QC), A-21/A-31 (Rutube/YouTube). Перед удалением MP4 подтвердить воспроизведение и сохранность исходника. Keep на паузе; готовые файлы/инструкции не дублировать.'
+          cp=Path('reports/current-work-checkpoint.md')
+          section=anchor+'\n\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\n- Новое поручение владельца 08.11: отсортировать планы, отметить выполненное, точный порядок шести видео; срочно Youtube→Rutube, HTTPS, HONOR/конкурс. Это начальная точка, не отчёт о завершении.\n- Сохранены IDs A-01…A-30, добавлены A-31/A-32; оригинальные решения и пауза Keep сохранены.\n- Доказательство: reports/owner-followup-2026-11-08.json.\n- Следующий шаг: '+nxt+'\n\nchecked_at: '+now.isoformat(timespec='seconds')+'\n\n---\n\n'
+          assert anchor not in cp.read_text()
+          cp.write_text(section+cp.read_text())
+          capture('.', 'TOPVIEW-SLOT-PRIORITY-20261024', anchor, 'Сохранено новое поручение; общий аудит отсортирован по приоритету и готовности без повторных задач. Выполнение сайт/TLS/HONOR остаётся открытым.',nxt,[str(report)],read_next=['ops/TOPVIEW-FREE-LAUNCH.md','ops/FUTURE-PLANS.md','projects/raznoe/HANDOFF.md'])
+          rp=Path('work-resume-register.json'); ar=Path(REGISTER_ARCHIVE)
+          trimmed=trim_register(load_json(rp),load_json(ar) if ar.exists() else {})
+          if trimmed:
+              dump_json(rp,trimmed[0]);dump_json(ar,trimmed[1])
+          subprocess.run(['python3','scripts/build_resume_packet.py','.'],check=True)
+          assert json.loads(Path('shadow/resume-packet.json').read_text())['ready_for_resume']
+          PY
+            git add ops/FUTURE-PLANS.md reports/owner-followup-2026-11-08.json reports/current-work-checkpoint.md work-resume-register.json archive/work-resume-register-archive.json shadow/resume-packet.json shadow/resume-packet.md
+            if git diff --cached --quiet; then exit 0; fi
+            git diff --cached --check
+            git commit -m 'Owner 08Nov: prioritize remaining work; save requested video order and migration task'
+            if git push origin HEAD:main; then exit 0; fi
+          done
+          exit 1
