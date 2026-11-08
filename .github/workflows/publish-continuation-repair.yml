@@ -1,0 +1,65 @@
+name: Publish owner-requested continuation repair once
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/publish-continuation-repair.yml']
+permissions:
+  contents: write
+concurrency:
+  group: continuation-publication-20261108
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Publish under the exact interactive lease
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp scripts/publish_continuation_once.py /tmp/publish_continuation_once.py
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for phase in plan apply; do
+            ok=0
+            for attempt in 1 2 3 4; do
+              git fetch -q origin main
+              git reset --hard origin/main
+              python3 /tmp/publish_continuation_once.py "$phase"
+              git diff --check
+              git add reports/current-work-checkpoint.md work-resume-register.json reports/continuation-publication-2026-11-08.json ops/FUTURE-PLANS.md shadow/resume-packet.json shadow/resume-packet.md ops/canon-lock.json
+              git add -u -- scripts/publish_continuation_once.py .github/workflows/publish-continuation-repair.yml
+              if git diff --cached --quiet; then ok=1; break; fi
+              git commit -m "Recovery publication: ${phase}; owner 08Nov; Keep stays paused"
+              made=$(git rev-parse HEAD)
+              if git push origin HEAD:main; then
+                git fetch -q origin main
+                git merge-base --is-ancestor "$made" origin/main
+                echo "Verified publication commit $made"
+                ok=1; break
+              fi
+              echo 'CAS rejected: recompute from current main; no rebase or stale replay.'
+            done
+            test "$ok" = 1
+          done
+      - name: Release only this exact lease after failure
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f /tmp/publish_continuation_once.py || exit 0
+          for attempt in 1 2 3 4; do
+            git fetch -q origin main
+            git reset --hard origin/main
+            python3 /tmp/publish_continuation_once.py release
+            git add ops/canon-lock.json
+            if git diff --cached --quiet; then exit 0; fi
+            git commit -m 'Canon lock: release exact continuation publication lease'
+            if git push origin HEAD:main; then exit 0; fi
+          done
+          exit 1

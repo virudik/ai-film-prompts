@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "related_project": "raznoe",
+  "scope": "Publication of prior handler checks and fresh local asset readback; no owner approval or video generation.",
+  "handler_tests": {
+    "checked_at": "2026-11-07T20:04:16.359275+00:00",
+    "scope": "isolated existing click handler in Chromium DOM; reaction function is a spy, no live video or deployment acceptance",
+    "source_blob": "092e851b86918e4d09ee541ee94d5a25f2c25cad",
+    "source_path": "virudik/rudik-site/js/interact.js",
+    "total": 14,
+    "passed": 14,
+    "test_cases": [
+      {"name": "initial load does not trigger reactions", "passed": true},
+      {"name": "hash opening the section does not trigger reactions", "passed": true},
+      {"name": "menu navigation does not trigger reactions", "passed": true},
+      {"name": "left click on rectangle triggers all 3 in source order", "passed": true},
+      {"name": "immediate repeated click is throttled", "passed": true},
+      {"name": "left click on nested label triggers all 3", "passed": true},
+      {"name": "right mouse button does not trigger reactions", "passed": true},
+      {"name": "middle mouse button does not trigger reactions", "passed": true},
+      {"name": "unrelated button does not trigger reactions", "passed": true},
+      {"name": "reduced-motion setting suppresses reactions", "passed": true},
+      {"name": "missing hero is safely skipped", "passed": true},
+      {"name": "tile outside page_3 is ignored", "passed": true},
+      {"name": "existing TEST guard is respected (not mobile acceptance)", "passed": true},
+      {"name": "touch tap in Chromium mobile emulation triggers all 3", "passed": true}
+    ]
+  },
+  "assets": {
+    "checked_at": "2026-11-08T06:01:06.406326+00:00",
+    "checks": [
+      {
+        "file": "RUDIK_06_кот_детектив_РосКОТмос_QR_макет.png",
+        "sha256": "0f7a334f41c2c54a39a51e0f9d9fcf19e88161abaea906b70b3dbe9ba88e010f",
+        "sha_match": true,
+        "dimensions": [1672, 941],
+        "qr": {
+          "original": {"decoded": "https://ии.рудик.рф/", "ok": true},
+          "digital_90x50mm_300dpi": {"decoded": "https://ии.рудик.рф/", "ok": true}
+        },
+        "print_proof_verified": false
+      },
+      {
+        "file": "PROP-press-scrap-loaded.png",
+        "sha256": "6cf41a9dd1c90b323eacb4a7df22ef5463cfac0de70476c263f259852f8062d4",
+        "sha_match": true,
+        "dimensions": [1672, 941]
+      }
+    ]
+  },
+  "source_package_sha256": "e5b17e28cd575dc4776a2e55d837f81a102f438f8803141054b0b4805967f64e",
+  "not_completed": [
+    "HONOR canonical product PNGs and visual acceptance",
+    "Full audiovisual QC RESOURCE and S52/S60/S61",
+    "Origin TLS certificates for eight subdomains",
+    "Live Android/Safari reaction playback",
+    "Physical print proof and artistic approval",
+    "Private Grok history"
+  ],
+  "github_capability_correction": "Earlier absence-of-write claim was incorrect. GitHub update_file succeeded in this execution.",
+  "keep": "paused; no note operations performed"
+}
