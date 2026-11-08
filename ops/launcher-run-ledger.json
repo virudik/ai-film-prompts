@@ -104,6 +104,29 @@
       "event_keys": [],
       "owner_event": null,
       "note": "One Create budget consumed before click; failed/unknown/expiry never reopens this key."
+    },
+    "f3b11e7eefecbff04ea07bd8e8d2bd9285025885dce95d62aee139cc71194359": {
+      "surface": "grok",
+      "provider_run_id": "grokbot-routine-e57554d4-e37d-5a96-849b-bb01ae42ed2d@2026-11-08T15:51:08.446Z",
+      "automation_id": "topview-grok",
+      "execution_instance_id": "f42d8e9d-d7fc-46eb-bd03-4ed081361a16",
+      "item_id": "S49G",
+      "submission_intent_id": "294bb801-36e6-414e-9344-bffc13963731",
+      "intent_at": "2026-11-08T15:58:04Z",
+      "consumed": true,
+      "submission_cap": 6,
+      "submissions": [
+        {
+          "item_id": "S49G",
+          "submission_intent_id": "294bb801-36e6-414e-9344-bffc13963731",
+          "intent_at": "2026-11-08T15:58:04Z",
+          "execution_instance_id": "f42d8e9d-d7fc-46eb-bd03-4ed081361a16",
+          "consumed": true
+        }
+      ],
+      "event_keys": [],
+      "owner_event": null,
+      "note": "Bounded wake batch: one distinct Create per ready item, at most account slot capacity, before each click. Failed, unknown, expiry and substantive refusal never reopen that item or raise the cap."
     }
   },
   "events": {}
