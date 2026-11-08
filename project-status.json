@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-11-08T17:51:43.236076+00:00",
+  "synced_at": "2026-11-08T18:05:17Z",
   "revision_date": "08.11.2026",
   "master_declared_last_full_sync": "08.11.2026 · текущая по live Topview/Drive сверке",
   "canonical_master_sha256": "6404e8a15c8df09890f748da11c79f8f49bb856af694a9b3406bb914d2e2eec0",
@@ -125,12 +125,12 @@
     55
   ],
   "instruction_sync": {
-    "health": "stale",
+    "health": "ok",
     "snapshot_at": "2026-11-08T17:45:55.484Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": null,
+    "age_hours_at_status_build": 0.323,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -207,8 +207,8 @@
   "warnings": [],
   "maintenance": {
     "instruction_verification": {
-      "state": "stale",
-      "age_hours": null,
+      "state": "ok",
+      "age_hours": 0.323,
       "blocking": false
     },
     "topview_task_map": {
@@ -887,7 +887,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "08.11.2026",
-    "synced_at": "2026-11-08T17:51:43.236076+00:00",
+    "synced_at": "2026-11-08T18:05:17Z",
     "canonical_master_sha256": "6404e8a15c8df09890f748da11c79f8f49bb856af694a9b3406bb914d2e2eec0",
     "canonical_revision_sha256": "102fcd737fab27dd31b660d45b0311396013cc7764631c0daefe013ddf16eb30",
     "scene_count": 30,
@@ -959,7 +959,7 @@
       73
     ],
     "health": "ok",
-    "instruction_sync_health": "stale"
+    "instruction_sync_health": "ok"
   },
   "health": "ok",
   "checks": {
@@ -994,6 +994,7 @@
     "scene_meta_dialogue_valid": true,
     "scene_meta_tags_valid": true,
     "scene_meta_target_engine_valid": true,
+    "instruction_mirrors_match_drive": true,
     "topview_snapshot_valid": true,
     "topview_telemetry_task_ids_unique": true,
     "topview_active_statuses_valid": true,
