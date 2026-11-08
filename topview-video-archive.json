@@ -146,6 +146,15 @@
       "sha256": "e646e809d6e3fdaf93264d790432504ad92af4525a38f89a0b2448882cb62ca7",
       "size_bytes": 11721641
     },
+    "3561d1997a6a4e5d813cfb99fdb60ed4": {
+      "archived_at": "2026-11-08T17:05:40Z",
+      "drive_url": "https://drive.google.com/file/d/1sZsosdtxsDvSU3shC3i8ikGSnoqjj75r/view",
+      "file_id": "1sZsosdtxsDvSU3shC3i8ikGSnoqjj75r",
+      "md5": "fc3e91937268cbbdd9a45e0016138ed8",
+      "scene_id": 49,
+      "sha256": "8dfbac39791748dcbb380d093409e21e6d2eb396b97a4b98a8ee5a97a9a03c6e",
+      "size_bytes": 13356654
+    },
     "365cf639589a4a5da834d70193d5e8f6": {
       "archived_at": "2026-11-08T15:16:04Z",
       "drive_url": "https://drive.google.com/file/d/1bv8NCj-YN1eJrST5BuIHEgth84GfUXfX/view",
@@ -586,6 +595,15 @@
       "scene_id": 28,
       "sha256": "b88b73e03255477ce76f52933867b50db12b3dd17679b89ac4d1e3bbea5258a6",
       "size_bytes": 78623479
+    },
+    "dbc9aff605ec48349062638cdaa7fd5a": {
+      "archived_at": "2026-11-08T17:05:35Z",
+      "drive_url": "https://drive.google.com/file/d/1uGoNxMSaNDK9JFrwpVvRSVkMksUSGMEK/view",
+      "file_id": "1uGoNxMSaNDK9JFrwpVvRSVkMksUSGMEK",
+      "md5": "4676e2d957ab5520f91885d35897f7b1",
+      "scene_id": 49,
+      "sha256": "a55def549da7e07d6cd2a565341726e71eb00c659a60e8db175d4b8e8296006a",
+      "size_bytes": 10005391
     },
     "dbe204aeb9a74478af04c6bbfe7693f9": {
       "archived_at": "2026-10-13T10:13:22Z",

@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "source": "Topview operational telemetry",
-  "checked_at": "2026-11-08T16:00:25Z",
+  "checked_at": "2026-11-08T17:10:32Z",
   "timezone": "UTC",
   "canonical_behavior": "Topview slow capacity is 6 concurrent active task slots. One active Topview task occupies one slot even when several tasks belong to the same Scene ID. Canonical slow membership remains unique by Scene ID.",
   "scenes": {
@@ -768,22 +768,18 @@
     },
     "49": {
       "scene_id": 49,
-      "task_id": "3561d1997a6a4e5d813cfb99fdb60ed4",
+      "task_id": "fe78a852b7a343e6a37d146cec789358",
       "model": "Seedance 2.0",
       "model_id": "seedance-2.0-style",
-      "topview_status": "init",
+      "topview_status": "success",
       "started_at": "2026-11-08T15:58:46Z",
-      "queue_count": 2740,
-      "topview_estimated_wait_seconds": 111284,
-      "checked_at": "2026-11-08T16:00:25Z",
+      "queue_count": null,
+      "topview_estimated_wait_seconds": null,
+      "checked_at": "2026-11-08T17:00:22Z",
       "verified": true,
       "mapping_confidence": "prompt normalized match with master block 49G (robot)",
-      "active_task_ids": [
-        "3561d1997a6a4e5d813cfb99fdb60ed4",
-        "dbc9aff605ec48349062638cdaa7fd5a",
-        "fe78a852b7a343e6a37d146cec789358"
-      ],
-      "completed_at": null,
+      "active_task_ids": [],
+      "completed_at": "2026-11-08T16:44:16Z",
       "topview_estimated_process_seconds": null
     },
     "73": {
@@ -801,9 +797,27 @@
       "active_task_ids": [],
       "completed_at": "2026-11-08T15:07:31Z",
       "topview_estimated_process_seconds": null
+    },
+    "51": {
+      "scene_id": 51,
+      "task_id": "f3b8883f44b14a2ba432ce429ba02709",
+      "model": "Seedance 2.0",
+      "model_id": "seedance-2.0-style",
+      "topview_status": "init",
+      "started_at": "2026-11-08T17:09:58Z",
+      "queue_count": 829,
+      "topview_estimated_wait_seconds": 21565,
+      "checked_at": "2026-11-08T17:10:32Z",
+      "verified": true,
+      "mapping_confidence": "prompt normalized match with master block 51A (robot)",
+      "active_task_ids": [
+        "f3b8883f44b14a2ba432ce429ba02709"
+      ],
+      "completed_at": null,
+      "topview_estimated_process_seconds": null
     }
   },
-  "note": "GitHub robot: 3 из 6 слотов занято, новых 1, завершено 0.",
+  "note": "GitHub robot: 1 из 6 слотов занято, новых 1, завершено 0.",
   "ui_contract": {
     "slow_table": "one row per active Topview task/slot; Scene ID may repeat",
     "capacity": 6,
@@ -813,63 +827,33 @@
     "header_timestamp_source": "checked_at",
     "header_timestamp_style": "ordinary text color and weight; no 'синхр.' label",
     "three_view_source": "active_tasks[] normalized once per page load",
-    "three_view_checked_at": "2026-11-08T16:00:25Z",
+    "three_view_checked_at": "2026-11-08T17:10:32Z",
     "scene_summary": "unique Scene IDs with multiplicity; mixed task statuses preserved",
     "queue_source": "exact active_tasks[].queue_count per task"
   },
   "slot_capacity": 6,
-  "occupied_slots": 3,
-  "free_slots": 3,
+  "occupied_slots": 1,
+  "free_slots": 5,
   "active_tasks": [
     {
-      "scene_id": 49,
-      "task_id": "3561d1997a6a4e5d813cfb99fdb60ed4",
+      "scene_id": 51,
+      "task_id": "f3b8883f44b14a2ba432ce429ba02709",
       "model": "Seedance 2.0",
       "model_id": "seedance-2.0-style",
       "topview_status": "init",
-      "started_at": "2026-11-08T15:58:46Z",
-      "queue_count": 2740,
-      "topview_estimated_wait_seconds": 111284,
-      "checked_at": "2026-11-08T16:00:25Z",
+      "started_at": "2026-11-08T17:09:58Z",
+      "queue_count": 829,
+      "topview_estimated_wait_seconds": 21565,
+      "checked_at": "2026-11-08T17:10:32Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
-      "mapping_confidence": "prompt normalized match with master block 49G (robot)",
-      "part": "G"
-    },
-    {
-      "scene_id": 49,
-      "task_id": "dbc9aff605ec48349062638cdaa7fd5a",
-      "model": "Seedance 2.0",
-      "model_id": "seedance-2.0-style",
-      "topview_status": "init",
-      "started_at": "2026-11-08T15:30:30Z",
-      "queue_count": 1961,
-      "topview_estimated_wait_seconds": 68084,
-      "checked_at": "2026-11-08T16:00:25Z",
-      "topview_estimated_process_seconds": null,
-      "verified": true,
-      "mapping_confidence": "prompt normalized match with master block 49E (robot)",
-      "part": "E"
-    },
-    {
-      "scene_id": 49,
-      "task_id": "fe78a852b7a343e6a37d146cec789358",
-      "model": "Seedance 2.0",
-      "model_id": "seedance-2.0-style",
-      "topview_status": "init",
-      "started_at": "2026-11-08T15:09:17Z",
-      "queue_count": 925,
-      "topview_estimated_wait_seconds": 24883,
-      "checked_at": "2026-11-08T16:00:25Z",
-      "topview_estimated_process_seconds": null,
-      "verified": true,
-      "mapping_confidence": "prompt normalized match with master block 49D (robot)",
-      "part": "D"
+      "mapping_confidence": "prompt normalized match with master block 51A (robot)",
+      "part": "A"
     }
   ],
   "scope": "all_owned_board_counts_plus_ai_film_latest_100_plus_direct_known_active",
   "account_observation": {
-    "checked_at": "2026-11-08T16:00:25Z",
+    "checked_at": "2026-11-08T17:10:32Z",
     "complete": true,
     "boards_scanned": 14,
     "video_tasks_scanned": 633,
@@ -877,12 +861,10 @@
     "scope": "all_owned_boards_unlimited_video_tasks",
     "scan_mode": "light_board_counts_verified",
     "slot_capacity": 6,
-    "occupied_slots": 3,
-    "free_slots": 3,
+    "occupied_slots": 1,
+    "free_slots": 5,
     "active_task_ids": [
-      "3561d1997a6a4e5d813cfb99fdb60ed4",
-      "dbc9aff605ec48349062638cdaa7fd5a",
-      "fe78a852b7a343e6a37d146cec789358"
+      "f3b8883f44b14a2ba432ce429ba02709"
     ]
   },
   "updated_at": "2026-10-13T17:52:06.640Z",
@@ -930,6 +912,7 @@
     "abb161edcf5c4b58b91460677939b5d3": "C",
     "fe78a852b7a343e6a37d146cec789358": "D",
     "dbc9aff605ec48349062638cdaa7fd5a": "E",
-    "3561d1997a6a4e5d813cfb99fdb60ed4": "G"
+    "3561d1997a6a4e5d813cfb99fdb60ed4": "G",
+    "f3b8883f44b14a2ba432ce429ba02709": "A"
   }
 }
