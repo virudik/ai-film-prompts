@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-08T15:48:08Z",
-  "status": "ok",
-  "warnings": 0,
+  "checked_at": "2026-11-08T17:09:19Z",
+  "status": "warn",
+  "warnings": 1,
   "info": 13,
   "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. Устаревание по состоянию проекта, даты только сигнал. Чистку делает ChatGPT по предупреждению или в воскресенье 08:55 МСК.",
   "problems": [
@@ -83,6 +83,12 @@
       "code": "lock-expired",
       "text": "Роскосмос: замок проекта (chatgpt:work:da0ac368-f673-451d-8812-b3cc481277ef) истёк 05.11 19:52 UTC и не снят; он считается свободным, но запись стоит убрать.",
       "file": "projects/roscosmos/canon-lock.json"
+    },
+    {
+      "level": "warn",
+      "code": "service-file-size",
+      "text": "ops/topview-launch-queue.json: 402 КБ (предел 400 КБ): старые записи перенести в архив — python3 scripts/trim_service_files.py . --write (раздел хендофа «Как чистить», п. 8).",
+      "file": "ops/topview-launch-queue.json"
     }
   ]
 }
