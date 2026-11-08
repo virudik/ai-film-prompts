@@ -3,6 +3,778 @@
   "description": "Finished launch-queue items moved verbatim at the weekly cleanup; newest first. History only: never relaunch from here.",
   "items": [
     {
+      "id": "S28-A1-TEST-20261017",
+      "scene_id": 28,
+      "prompt_id": "A1",
+      "canonical_block_label": "28 A1",
+      "canonical_prompt_sha256": "8de01121123bc93d1f5bcb530dc0ba7686b63657099f63e34f080f56b621760e",
+      "normalized_prompt_sha256": "59f48d19ba2ec03232459865944f3fe1dffb00e6a28b49850ae45623e6caac33",
+      "priority": 1.01,
+      "state": "submitted",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "role": "location",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "role": "identity",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/yulya.jpg",
+          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+          "role": "identity",
+          "required": true
+        }
+      ],
+      "task_id": "4b7b972870a44dfbb29bd6c5e330a633",
+      "claim": null,
+      "authorization": "Explicit17Oct16:11MSK: ONE15s energetic close-figure dance test. Seedance2.0 as prior successful15s examples; no automatic Wan substitute or second test. Owner22Oct2026 authorizes controlled model comparisons AFTER all selected story scenes are finished; see ops/dance-model-comparison.md. A1 remains one Seedance2.0 baseline attempt; no duplicate or automatic model substitution. Owner23Oct2026 explicitly authorizes this selected scene now; see owner_instruction_20261023_music_launch.",
+      "max_credits": 0,
+      "review_gate_after_success": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
+      "previous_prompt_sha256": [
+        "7c15f2867e5c397e2aa94d30ff467743d7122ae3c0198cd3ddd72d83f3170a20"
+      ],
+      "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
+      "depends_on_completed": [],
+      "launch_readiness": "authorized_inputs_available",
+      "owner_instruction_20261022": {
+        "source": "Прямое сообщение владельца 22.10.2026",
+        "decision": "Сначала доделать ВСЕ выбранные сюжетные сцены, затем сравнивать модели на активных танцах.",
+        "plan": "ops/dance-model-comparison.md",
+        "gate": "Перед A1 заново проверить завершение всей выбранной сюжетной работы и решения владельца; submitted недостаточно. Не возобновлять отменённые/заменённые попытки.",
+        "seedance25": "Проверка 22.10: безлимит заблокирован; 15s720p=18 кредитов,30s720p=36. Перепроверить перед тестами. Только Unlimited0.",
+        "new_submissions": 0
+      },
+      "authorization_before_20261023_expansion": "Explicit17Oct16:11MSK: ONE15s energetic close-figure dance test. Seedance2.0 as prior successful15s examples; no automatic Wan substitute or second test. Owner22Oct2026 authorizes controlled model comparisons AFTER all selected story scenes are finished; see ops/dance-model-comparison.md. A1 remains one Seedance2.0 baseline attempt; no duplicate or automatic model substitution.",
+      "previous_gates_20261023": {
+        "depends_on_submitted": [
+          "S52-SEED20-P2",
+          "S53-SEED20-P2",
+          "S54",
+          "S36-S36",
+          "S37-SEED20-P2",
+          "S39-SEED20-P2",
+          "S40-SEED20-P2",
+          "S41",
+          "S42-SEED20-P2",
+          "S47-SEED20-P2",
+          "S43-R1-20261017",
+          "S44-R1-20261017",
+          "S56-SEED20-P2",
+          "S48-SEED20-P2",
+          "S57-SEED20-P2",
+          "S58-SEED20-P2"
+        ],
+        "depends_on_completed": [
+          "S52-SEED20-P2",
+          "S53-SEED20-P2",
+          "S54",
+          "S36-S36",
+          "S37-SEED20-P2",
+          "S39-SEED20-P2",
+          "S40-SEED20-P2",
+          "S41",
+          "S42-SEED20-P2",
+          "S47-SEED20-P2",
+          "S43-R1-20261017",
+          "S56-SEED20-P2",
+          "S48-SEED20-P2",
+          "S57-SEED20-P2",
+          "S58-SEED20-P2",
+          "S16-SEED20-P2",
+          "S44-SEED20-P2"
+        ],
+        "blocker": null,
+        "state": "waiting_for_slot",
+        "review_gate_after_success": "Save and visually assess the A1 baseline. Owner22Oct authorizes the planned separate model comparisons after all story work; prepare canonical items first. Other dance batches/couple variants still require owner evaluation. See ops/dance-model-comparison.md."
+      },
+      "blocker": null,
+      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z",
+      "last_claim": {
+        "run_id": "EXPAND-20261023-S28A1",
+        "claimed_at": "2026-10-23T01:55:57.180Z",
+        "holder": "chatgpt",
+        "preflight": {
+          "global_scan": {
+            "at": "2026-10-23T01:55:32.105Z",
+            "boards": 13,
+            "pages": 19,
+            "total": 931,
+            "scan_complete": true,
+            "active": [
+              {
+                "id": "34ff1bf7fe9d47f08de5a635d5626c70",
+                "status": "init",
+                "credits": 0
+              },
+              {
+                "id": "56e5e07c85df4af583c62665c51ed563",
+                "status": "init",
+                "credits": 0
+              },
+              {
+                "id": "af8e389dc9564607bc6138b408c72da5",
+                "status": "init",
+                "credits": 0
+              },
+              {
+                "id": "6598a21c2c684d43b7cede9cfc987107",
+                "status": "init",
+                "credits": 0
+              },
+              {
+                "id": "bf27bb8615eb4ad5a44a86ec2efcd3be",
+                "status": "init",
+                "credits": 0
+              }
+            ]
+          },
+          "full_normalized_prompt_match": true,
+          "input_hashes_verified": true,
+          "input_order": [
+            "Image1",
+            "Image2",
+            "Image3"
+          ],
+          "model": "Seedance 2.0",
+          "duration": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "useUnlimitMode": true,
+          "credits": 0,
+          "owner_decisions_open": 0
+        }
+      },
+      "submitted_at": "2026-10-23 01:58:44Z",
+      "receipt": "reports/topview-queue-2026-10-16/S28-A1-TEST-20261017-20261023.json",
+      "submission_verification": {
+        "full_normalized_prompt_match": true,
+        "useUnlimitMode": true,
+        "creditsCost": 0
+      },
+      "priority_before_20261023_primary": 400,
+      "result_review_required": false,
+      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
+      "editorial_completion": false,
+      "owner_note_20261025": "Still active technically; not editorially complete. Preserve task and receipt. Owner authorized a separate new attempt after music; never run concurrently with this task.",
+      "result_status": "success",
+      "completed_at": "2026-10-28T05:39:06Z",
+      "result_review": {
+        "reviewed_at": "2026-10-28T08:06:00Z",
+        "report": "reports/topview-quality-2026-10-28/S28-A1-TEST-20261017-review.json",
+        "assessment": "partially_usable_not_owner_approved",
+        "owner_approved": false,
+        "continuous_full_frame_rate_view": false,
+        "audio_listened": false
+      }
+    },
+    {
+      "id": "S42-SEED20-P2",
+      "scene_id": 42,
+      "prompt_id": "S42-SEED20-P2",
+      "canonical_block_label": "42 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "6ca3ede5527f807dfec68ad02200531307e9efb0ffc67bcda55127ccb8c9ad58",
+      "normalized_prompt_sha256": "27cbc48c01640d2403155d6d35d8047b44e7b2ad24e0cca0bd887c7b25fb450f",
+      "priority": 0.2,
+      "state": "submitted",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S42-SEED20-P1"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "canonical_role": "previous_part_end",
+          "input_status": "available",
+          "source_item_id": "S42-SEED20-P1",
+          "source_task_id": "a1ca4c36e31d45c5b4b72df7777d2592",
+          "path": "references/scenes/scene-42/S42-P1-last3s.mp4",
+          "sha256": "dcbb475252ab2346971573da4f148a61b2d25c4a729614cc7ed337f81f1e4b61",
+          "bytes": 1804607,
+          "source_archive_file_id": "1yzFkVpekO_lO1EiyMd2cdM35S9o2g737",
+          "source_kind": "actual_topview_result_trim",
+          "source_range_seconds": [
+            12.069002,
+            15.069002
+          ],
+          "duration_seconds": 3,
+          "qc_report": "reports/topview-quality-2026-10-24/S42-P1-continuity-review.json",
+          "qc_status": "usable_continuity_input"
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/ilyusha.jpg",
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/artem.jpg",
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+          "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-16/S16-worm-scale.png",
+          "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": "4a1061e175054da2810ffef8ad9d31cd",
+      "claim": {
+        "run_id": "chatgpt-s42p2-20261026T010834048Z",
+        "holder": "chatgpt",
+        "actor": "ChatGPT Work",
+        "claimed_at": "2026-10-26T01:08:34.048Z",
+        "source": "scheduled_automation",
+        "route": "free_web_gui",
+        "max_credits": 0,
+        "account_scan": {
+          "checked_at": "2026-10-26T00:40:15Z",
+          "boards": 13,
+          "pages": 14,
+          "total_tasks": 612,
+          "complete": true,
+          "occupied_video_slots": 5,
+          "free_video_slots": 1
+        },
+        "dedup": "Fresh complete 612-task all-board/all-page scan and canonical queue check: no existing S42-P2 task or claim",
+        "ui_verified": {
+          "board_name": "My First Board",
+          "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+          "model": "Seedance 2.0",
+          "duration_seconds": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "unlimited": true,
+          "credits": 0,
+          "prompt_length": 6656,
+          "prompt_normalized_sha256": "27cbc48c01640d2403155d6d35d8047b44e7b2ad24e0cca0bd887c7b25fb450f",
+          "prompt_exact_match": true,
+          "input_sha_verified": true,
+          "input_count": 6,
+          "input_names": [
+            "Video1",
+            "Image1",
+            "Image2",
+            "Image3",
+            "Image4",
+            "Image5"
+          ]
+        },
+        "submission": {
+          "clicked_at": "2026-10-26T01:08:48Z",
+          "click_count": 1,
+          "result": "confirmed",
+          "task_id": "4a1061e175054da2810ffef8ad9d31cd",
+          "verified_at": "2026-10-26T01:10:35.873Z",
+          "task_status": "init",
+          "board_name": "My First Board",
+          "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+          "model": "Seedance 2.0",
+          "model_id": "seedance-2.0-style",
+          "duration_seconds": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "input_names": [
+            "Video1",
+            "Image1",
+            "Image2",
+            "Image3",
+            "Image4",
+            "Image5"
+          ],
+          "input_count": 6,
+          "use_unlimit_mode": true,
+          "credits_cost": 0,
+          "normalized_prompt_sha256": "27cbc48c01640d2403155d6d35d8047b44e7b2ad24e0cca0bd887c7b25fb450f",
+          "normalized_prompt_match": true,
+          "ui_detail_url": "https://www.topview.ai/board/1a6244cf1ae747ef847d949a80d6133c?tool-type=video-edit&boardResultId=4a1061e175054da2810ffef8ad9d31cd"
+        },
+        "post_submit_scan": {
+          "checked_at": "2026-10-26T01:10:35.873Z",
+          "complete": false,
+          "scope": "My First Board plus arithmetic from complete 2026-10-26T00:40:15Z all-board scan",
+          "board_queued_videos": 6,
+          "occupied_video_slots": 6,
+          "free_video_slots": 0,
+          "evidence": "Five pre-existing active tasks from complete global scan remained visible; new sixth S42-P2 queue card appeared and opened by task ID."
+        }
+      },
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry. Owner 23.10.2026 16:43 MSK «переснимаем» authorizes one free attempt of the canonical 42 P2 now.",
+      "replaces_unsubmitted_item": "S42",
+      "selection_record": "reports/seedance-selection-2026-10-18.md",
+      "depends_on_completed": [
+        "S42-SEED20-P1"
+      ],
+      "blocker": null,
+      "launch_readiness": "completed_qc_rejected_identity_continuity",
+      "previous_prompt_sha256": [
+        "9d9f51153e025523e9ce2befbf37f19ada36f16842bd1296f8380259a6407355"
+      ],
+      "revision_note_20261020": "Owner20Oct2026 01:32:57MSK: strengthen worm/battle scenes, use Seedance, worm scenes next; site queue_up16 acknowledged. One new free selected pair per scene; old accepted results retained.",
+      "misattributed_result_20261023": {
+        "task_id": "bf27bb8615eb4ad5a44a86ec2efcd3be",
+        "finding": "Claude 23.10.2026: the robot maps this task by normalized prompt match to master block «16 · Seedance 2.0 часть 2» (topview-task-map scene_id 16, archive scene 16); its «disaster-action» wording is the scene 16 P2 text. It is an extra scene 16 attempt, not a 42 P2 result. The canonical 42 P2 was never submitted.",
+        "previous_state": "completed",
+        "previous_completed_at": "2026-10-23T08:33:58Z",
+        "previous_launch_readiness": "completed_external_variant_qc_failed_continuity",
+        "result_reconciliation": {
+          "status": "completed_qc_blocked_continuity",
+          "canonical_prompt_match": false,
+          "note": "Already-submitted external P2 variant differs materially from the current canonical text. Do not duplicate. QC found four people in the final3s instead of exactly three, including an extra bald purple-robed figure with a blue blade. The genuine ending is preserved but blocked as S56 input; this is not owner artistic approval.",
+          "source_sha256": "35e6e25f856581cf9bb25c08925cc6d8fcb5063f3a372a09732976467f3721fa",
+          "archive_file_id": "1D-86VeGYe-FwP14v3W866vJqacUT2a0_",
+          "archive_url": "https://drive.google.com/file/d/1D-86VeGYe-FwP14v3W866vJqacUT2a0_/view",
+          "last_3_seconds_sha256": "32369ece9036ba8c41fe35ea5b0cf87858b948c5de97fe6742a60643103674ce",
+          "qc_report": "reports/topview-quality-2026-10-23/S42-SEED20-P2-external-bf27-review.json"
+        },
+        "external_variant_observed": {
+          "task_id": "bf27bb8615eb4ad5a44a86ec2efcd3be",
+          "status": "init",
+          "useUnlimitMode": true,
+          "creditsCost": 0,
+          "full_canonical_prompt_match": false,
+          "word_similarity": 0.4,
+          "note": "Live task uses earlier disaster-action wording and different identity reference order; canonical P2 uses deadpan duel wording. Initiator not established. Preserve this running task; inspect its result and reconcile selection before any new canonical42P2 submission. Never silently map to current canonical prompt."
+        }
+      },
+      "owner_decision_20261023": {
+        "at": "2026-10-23T13:43:36Z",
+        "quote": "1 переснимаем. 2 посмотрим результат запущенной  и ещё не готовой сцены.",
+        "meaning": "Rerender 42 part 2: one free attempt of the CANONICAL 42 P2 block (Unlimited, 0 credits). Never reuse bf27."
+      },
+      "continuity_prepared_at": "2026-10-23T23:03:02.413Z",
+      "result_status": "success",
+      "completed_at": "2026-10-30T15:25:59Z",
+      "result_review": {
+        "reviewed_at": "2026-10-30T15:56:42.283Z",
+        "report": "reports/topview-quality-2026-10-30/S42-SEED20-P2-4a1061e1-review.json",
+        "assessment": "qc_rejected_critical_identity_duplication_and_saber_deformation",
+        "owner_approved": false,
+        "continuous_full_frame_rate_view": false,
+        "audio_listened": false,
+        "source_archived": false,
+        "archive_status": "blocked_environment_isolation"
+      }
+    },
+    {
+      "id": "S56-SEED20-P1",
+      "scene_id": 56,
+      "prompt_id": "S56-SEED20-P1",
+      "canonical_block_label": "56 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "3c06afb7c7d5d88637b2255b0c779ee1a57a323781c8028e01c0cd571f2fe80a",
+      "normalized_prompt_sha256": "7676cbb80fe4031920c7dfba9cac575ddbff8d9e2aecb929b95529ff82192dd7",
+      "priority": 0.3,
+      "state": "submitted",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/ilyusha.jpg",
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/artem.jpg",
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+          "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-16/S16-worm-scale.png",
+          "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": "b15165813c0848939edbe8b3d3aed182",
+      "claim": null,
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "replaces_unsubmitted_item": "S56",
+      "selection_record": "reports/seedance-selection-2026-10-18.md",
+      "depends_on_completed": [],
+      "blocker": null,
+      "launch_readiness": "submitted_verified",
+      "previous_prompt_sha256": [
+        "13828410599570dd69f05732b11785ca8706cc0f15d023f682a9cd0e7bc8b54d",
+        "df3205e4364bd51b9cd5309201ee3ac8f259de3cfa3980ace3f05940194d3619"
+      ],
+      "revision_note_20261020": "Owner20Oct2026 01:32:57MSK: strengthen worm/battle scenes, use Seedance, worm scenes next; site queue_up16 acknowledged. One new free selected pair per scene; old accepted results retained.",
+      "previous_video1_rejected_20261023": {
+        "source_task_id": "bf27bb8615eb4ad5a44a86ec2efcd3be",
+        "source_sha256": "35e6e25f856581cf9bb25c08925cc6d8fcb5063f3a372a09732976467f3721fa",
+        "source_archive_file_id": "1D-86VeGYe-FwP14v3W866vJqacUT2a0_",
+        "source_archive_url": "https://drive.google.com/file/d/1D-86VeGYe-FwP14v3W866vJqacUT2a0_/view",
+        "source_range_seconds": "12.104-15.104",
+        "trimmed_sha256": "32369ece9036ba8c41fe35ea5b0cf87858b948c5de97fe6742a60643103674ce",
+        "continuity_qc": "reports/topview-quality-2026-10-23/S42-SEED20-P2-external-bf27-review.json"
+      },
+      "priority_before_20261023_cut": 3,
+      "owner_decision_20261023_cut": {
+        "at": "2026-10-23T14:16:11Z",
+        "text": "Owner 23.10.2026 17:16 MSK (decision card «Запускать 56 и 48 со склейки, не дожидаясь предыдущих?» → «Склейка для 56 и 48»): 56 P1 and 48 P1 open on a hard cut, no @Video1 from the previous scene; launch now in parallel with 42 P2, ahead of the title batch. Each P2 still continues the actual end of its own P1. Free Unlimited only, 0 credits."
+      },
+      "previous_gates_20261023_cut": {
+        "state": "blocked_inputs",
+        "depends_on_submitted": [
+          "S42-SEED20-P2"
+        ],
+        "depends_on_completed": [
+          "S42-SEED20-P2"
+        ],
+        "blocker": "Waits for the actual ending of the NEW canonical S42-SEED20-P2 (owner 23.10.2026: rerender 42 P2). Task bf27 is a scene 16 run: never use it.",
+        "launch_readiness": "waiting_for_source",
+        "video1": [
+          {
+            "slot": "@Video1",
+            "required": true,
+            "canonical_role": "previous_scene_end",
+            "input_status": "required_not_available",
+            "source_item_id": "S42-SEED20-P2",
+            "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+          }
+        ]
+      },
+      "owner_launch_authorized_at": "2026-10-23T14:16:11Z",
+      "submitted_at": "2026-10-24 20:02:22Z",
+      "submission_verified_at": "2026-10-24T20:04:54.596Z",
+      "receipt_path": "reports/topview-queue-2026-10-16/S56-SEED20-P1-20261024.json",
+      "ui_evidence": "reports/evidence/S56-P1-submitted-20261024.jpg",
+      "last_claim": {
+        "run_id": "chatgpt-s56p1-20261024T200209275Z",
+        "claimed_at": "2026-10-24T20:02:09.275Z",
+        "account_scan": {
+          "checked_at": "2026-10-24T20:02:09.275Z",
+          "boards": 13,
+          "pages": 28,
+          "total_tasks": 934,
+          "complete": true,
+          "occupied_video_slots": 5,
+          "free_video_slots": 1
+        },
+        "dedup": "Fresh complete 13-board/28-page/934-task account scan; 5 active video tasks, one free slot; no existing S56-SEED20-P1 task in canonical queue.",
+        "ui_verified": {
+          "board_name": "My First Board",
+          "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+          "model": "Seedance 2.0",
+          "duration_seconds": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "unlimited": true,
+          "credits": 0,
+          "prompt_length": 6724,
+          "prompt_normalized_sha256": "7676cbb80fe4031920c7dfba9cac575ddbff8d9e2aecb929b95529ff82192dd7",
+          "input_sha_verified": true,
+          "input_count": 5
+        },
+        "claimed_by": "chatgpt",
+        "scope": "one website Unlimited0 submission"
+      },
+      "result_status": "success",
+      "completed_at": "2026-10-29T22:35:22Z",
+      "result_review": {
+        "reviewed_at": "2026-10-29T23:01:30.222Z",
+        "report": "reports/topview-quality-2026-10-30/S56-SEED20-P1-b1516581-review.json",
+        "assessment": "continuity_rejected_critical_extra_people",
+        "owner_approved": false,
+        "continuous_full_frame_rate_view": false,
+        "audio_listened": false,
+        "source_archived": true,
+        "continuity_owner_exception_20261030": "S56 P2 only; see task and QC report"
+      }
+    },
+    {
+      "id": "S72-WAN30",
+      "scene_id": 72,
+      "prompt_id": "S72-WAN30",
+      "canonical_block_label": "72",
+      "canonical_prompt_sha256": "046f17aae19d9da04d7c440c878e54d54e8d54c48321ff2e6d0f6e1e798781dd",
+      "normalized_prompt_sha256": "157f5a30640f72712001d5ff40efbb181e6ad42ccbcc75cf179fb337ca7366f1",
+      "priority": -1,
+      "state": "submitted",
+      "launch_readiness": "authorized_inputs_available",
+      "model": "Wan 3.0",
+      "selected_model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/vitalik.jpg",
+          "required": true,
+          "canonical_role": "exact VITALIK identity and costume",
+          "input_status": "available",
+          "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-71/S71-hookah-throne.png",
+          "required": true,
+          "canonical_role": "exact hookah throne and its place in the cantina: design, size, dais, materials",
+          "input_status": "available",
+          "sha256": "8280362b39d46e46b5be1b90983c67da7a06ca428871f62d2881a1a75563acc3"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-71/S71-vitalik-on-throne-girls.png",
+          "required": true,
+          "canonical_role": "staging of Vitalik on the throne with the two flanking alien women: pose, scale, framing and the women's exact looks and outfits",
+          "input_status": "available",
+          "sha256": "03a3aa67fe7e322be56c993e863c4a4d6d45c14c18d0ae19e8ae804f0c591b20"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-65/S65-bar-table.png",
+          "required": true,
+          "canonical_role": "the same Tatooine cantina as scenes 65 and 70: amber lanterns, stone arches, haze, alien patrons",
+          "input_status": "available",
+          "sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d"
+        }
+      ],
+      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "claim": null,
+      "blocker": null,
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "authorization": "Owner30Oct: new scene 72 (prologue, Vitalik on the same hookah throne), Wan3.0/30s. Unlimited0 only; no paid path, retry or launch by this edit.",
+      "result_review_required": true,
+      "result_review_policy": "Check Vitalik's identity, the single hookah throne, the two flanking women, exact Russian lines with lip-sync and the dive into the hookah glass. Success is not acceptance.",
+      "created_at": "2026-10-30T20:54:49Z",
+      "last_claim": {
+        "run_id": "chatgpt-cloud-20261031-continue-s72",
+        "claimed_at": "2026-10-31T11:08:19Z",
+        "claimed_by": "chatgpt",
+        "source": "Owner current-chat Continue; owner queue priority31Oct01:02MSK",
+        "preflight": {
+          "source_head": "910529a298d34362c00bc060a4cef1a1a35c6b74",
+          "live_scan_at": "2026-10-31T11:07:05Z",
+          "boards": 14,
+          "pages": 18,
+          "unique_videos": 623,
+          "active_videos": 5,
+          "free_slots": 1,
+          "website_unlimited": true,
+          "max_credits": 0,
+          "full_prompt_dom_exact_match": true,
+          "canonical_prompt_sha256": "046f17aae19d9da04d7c440c878e54d54e8d54c48321ff2e6d0f6e1e798781dd",
+          "normalized_prompt_sha256": "157f5a30640f72712001d5ff40efbb181e6ad42ccbcc75cf179fb337ca7366f1",
+          "all_input_sha256_verified": true,
+          "input_count": 4,
+          "input_order": "@Image1–@Image4",
+          "model": "Wan 3.0",
+          "duration_seconds": 30,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "open_owner_decisions": 0,
+          "open_owner_tasks": 0
+        }
+      },
+      "submitted_at": "2026-10-31T11:08:48Z",
+      "receipt": "reports/topview-queue-2026-10-16/S72-WAN30-20261031T110848Z.json",
+      "ui_proof": "reports/topview-queue-2026-10-16/S72-WAN30-20261031T110848Z.jpg"
+    },
+    {
+      "id": "S71-WAN30",
+      "scene_id": 71,
+      "prompt_id": "S71-WAN30",
+      "canonical_block_label": "71",
+      "canonical_prompt_sha256": "f2a13af252b891bcf10d256cb4522aa3b3d4cd0049a438b98389472004fff162",
+      "normalized_prompt_sha256": "68502bd0e16600656bb095e5d0981b88a52efe8d0d6d40eb77003c27f7092503",
+      "priority": -0.99,
+      "state": "submitted",
+      "launch_readiness": "authorized_inputs_available",
+      "model": "Wan 3.0",
+      "selected_model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/vitalik.jpg",
+          "required": true,
+          "canonical_role": "exact VITALIK identity and costume",
+          "input_status": "available",
+          "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-71/S71-hookah-throne.png",
+          "required": true,
+          "canonical_role": "exact hookah throne and its place in the cantina: design, size, dais, materials",
+          "input_status": "available",
+          "sha256": "8280362b39d46e46b5be1b90983c67da7a06ca428871f62d2881a1a75563acc3"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-71/S71-vitalik-on-throne-girls.png",
+          "required": true,
+          "canonical_role": "staging of Vitalik on the throne with the two flanking alien women: pose, scale, framing and the women's exact looks and outfits",
+          "input_status": "available",
+          "sha256": "03a3aa67fe7e322be56c993e863c4a4d6d45c14c18d0ae19e8ae804f0c591b20"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-65/S65-bar-table.png",
+          "required": true,
+          "canonical_role": "the same Tatooine cantina as scenes 65 and 70: amber lanterns, stone arches, haze, alien patrons",
+          "input_status": "available",
+          "sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d"
+        }
+      ],
+      "task_id": "431180d384cc43bebe7afc702e4eb4e6",
+      "claim": null,
+      "blocker": null,
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "authorization": "Owner30Oct: new scene 71 (Vitalik on a hookah throne), Wan3.0/30s. Unlimited0 only; no paid path, retry or launch by this edit.",
+      "result_review_required": true,
+      "result_review_policy": "Check Vitalik's identity, the single hookah throne, exact Russian lines with lip-sync and the white smoke ending. Success is not acceptance.",
+      "created_at": "2026-10-30T20:47:17Z",
+      "submitted_at": "2026-11-01T08:29:13Z",
+      "receipt": "reports/topview-queue-2026-10-16/S71-WAN30-20261101T082913Z.json",
+      "ui_proof": "reports/topview-queue-2026-10-16/S71-WAN30-20261101T082913Z.jpg",
+      "last_claim": {
+        "claim_id": "7ecfcec5-9047-499a-aac6-1b3f3c5eaa72",
+        "run_id": "grok-bcf630c5-639f-4a0e-a7f6-3124c9e4adfe",
+        "claimed_at": "2026-11-01T08:28:04Z",
+        "claimed_by": "grok",
+        "execution_instance_id": "bcf630c5-639f-4a0e-a7f6-3124c9e4adfe",
+        "route_generation": 2,
+        "source": "queue (scheduled routine topview-grok; owner go-ahead first_real_create 2026-11-01T08:19Z)",
+        "preflight": {
+          "owner_authorized": true,
+          "prompt_match": true,
+          "input_sha_match": true,
+          "input_order_match": true,
+          "qc_passed": true,
+          "website_unlimited": true,
+          "credits_cost": 0,
+          "quantity": 1,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "source_head": "4ca426d32fa48202f99355e118495e6932f82ed1",
+          "live_scan_at": "2026-11-01T08:24:45Z",
+          "boards": 14,
+          "pages": 17,
+          "unique_videos": 624,
+          "active_videos": 5,
+          "free_slots": 1,
+          "input_count": 4,
+          "input_order": "@Image1–@Image4",
+          "model": "Wan 3.0",
+          "duration_seconds": 30,
+          "canonical_prompt_sha256": "f2a13af252b891bcf10d256cb4522aa3b3d4cd0049a438b98389472004fff162",
+          "normalized_prompt_sha256": "68502bd0e16600656bb095e5d0981b88a52efe8d0d6d40eb77003c27f7092503",
+          "ui_board_url": "https://www.topview.ai/board/1a6244cf1ae747ef847d949a80d6133c?tool-type=video-edit",
+          "ui_mode": "Омни-референс",
+          "ui_unlimited_label": "Безлимитный режим (selected; label 'Загружено · Сейчас большая очередь'); Create button shows no credit price",
+          "ui_settings": "Wan 3.0 · 16:9 · 30s · 720p · Количество 1",
+          "ui_prompt_end_verified": true,
+          "ui_proof": "box screenshots S71-form.png / S71-settings.png"
+        },
+        "submission_intent_id": "8d2ba66f-1734-4c66-a60c-0e44baa4f7bf",
+        "submission_intent_at": "2026-11-01T08:28:48Z",
+        "lease_holder": "grok:bcf630c5-639f-4a0e-a7f6-3124c9e4adfe",
+        "lease_acquired_at": "2026-11-01T08:26:55Z",
+        "replay_forbidden": true,
+        "provider_run_id": "grokbot-routine-e57554d4-e37d-5a96-849b-bb01ae42ed2d@2026-11-01T08:21:43.408Z",
+        "provider_run_key": "9ab983d318ee973e9f55eb5d383e160180496ace0fb350a73447db227549e697",
+        "owner_event_keys": [],
+        "ledger_path": "ops/launcher-run-ledger.json"
+      }
+    },
+    {
       "id": "S48-SEED20-P1",
       "scene_id": 48,
       "prompt_id": "S48-SEED20-P1",

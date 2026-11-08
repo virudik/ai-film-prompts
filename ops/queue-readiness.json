@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "6f3e32adb7aed7cd435ab8771eaecee84744e0f6041f7e41905d907106fe5cfe",
-  "source_task_map_sha256": "2404e8b361cbbf2d9f4cfd20726d69016ae02cde55bbbe6c5854dcf8c7c4c2f9",
-  "topview_checked_at": "2026-11-08T17:10:32Z",
+  "source_queue_sha256": "11997de9f0d200dcf66d0a04d576c7da83c0f2d103d0808d2160f16046bae13a",
+  "source_task_map_sha256": "9e2a1f58c09fc37da98e5e3f3061dade7d339d3e94b594051e691dc8c0aaaa3f",
+  "topview_checked_at": "2026-11-08T17:20:25Z",
   "items": [
     {
       "id": "S13-S13",
@@ -23,48 +23,39 @@
       "queue_state": "submission_unknown"
     },
     {
-      "id": "S51B",
-      "scene_id": 51,
-      "part_label": "51B",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
-      "queue_state": "waiting_for_slot"
-    },
-    {
       "id": "S51C",
       "scene_id": 51,
       "part_label": "51C",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
+      "code": "owner_hold",
+      "ready": false,
+      "text": "По решению владельца 08.11.2026 20:16 МСК: новые музыкально-танцевальные запуски и их связки отложены; уже идущие не отменяются",
       "queue_state": "waiting_for_slot"
     },
     {
       "id": "S51D",
       "scene_id": 51,
       "part_label": "51D",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
+      "code": "owner_hold",
+      "ready": false,
+      "text": "По решению владельца 08.11.2026 20:16 МСК: новые музыкально-танцевальные запуски и их связки отложены; уже идущие не отменяются",
       "queue_state": "waiting_for_slot"
     },
     {
       "id": "S51E",
       "scene_id": 51,
       "part_label": "51E",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
+      "code": "owner_hold",
+      "ready": false,
+      "text": "По решению владельца 08.11.2026 20:16 МСК: новые музыкально-танцевальные запуски и их связки отложены; уже идущие не отменяются",
       "queue_state": "waiting_for_slot"
     },
     {
       "id": "S51F",
       "scene_id": 51,
       "part_label": "51F",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
+      "code": "owner_hold",
+      "ready": false,
+      "text": "По решению владельца 08.11.2026 20:16 МСК: новые музыкально-танцевальные запуски и их связки отложены; уже идущие не отменяются",
       "queue_state": "waiting_for_slot"
     },
     {
@@ -107,72 +98,72 @@
       "id": "S28-A4-20261023",
       "scene_id": 28,
       "part_label": "28 A4",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
+      "code": "owner_hold",
+      "ready": false,
+      "text": "По решению владельца 08.11.2026 20:16 МСК: новые музыкально-танцевальные запуски и их связки отложены; уже идущие не отменяются",
       "queue_state": "waiting_for_slot"
     },
     {
       "id": "S28-A5-20261023",
       "scene_id": 28,
       "part_label": "28 A5",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
+      "code": "owner_hold",
+      "ready": false,
+      "text": "По решению владельца 08.11.2026 20:16 МСК: новые музыкально-танцевальные запуски и их связки отложены; уже идущие не отменяются",
       "queue_state": "waiting_for_slot"
     },
     {
       "id": "S28-A6-20261023",
       "scene_id": 28,
       "part_label": "28 A6",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
+      "code": "owner_hold",
+      "ready": false,
+      "text": "По решению владельца 08.11.2026 20:16 МСК: новые музыкально-танцевальные запуски и их связки отложены; уже идущие не отменяются",
       "queue_state": "waiting_for_slot"
     },
     {
       "id": "S28-A7-20261023",
       "scene_id": 28,
       "part_label": "28 A7",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
+      "code": "owner_hold",
+      "ready": false,
+      "text": "По решению владельца 08.11.2026 20:16 МСК: новые музыкально-танцевальные запуски и их связки отложены; уже идущие не отменяются",
       "queue_state": "waiting_for_slot"
     },
     {
       "id": "S28-A8-20261023",
       "scene_id": 28,
       "part_label": "28 A8",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
+      "code": "owner_hold",
+      "ready": false,
+      "text": "По решению владельца 08.11.2026 20:16 МСК: новые музыкально-танцевальные запуски и их связки отложены; уже идущие не отменяются",
       "queue_state": "waiting_for_slot"
     },
     {
       "id": "S28-A9-20261023",
       "scene_id": 28,
       "part_label": "28 A9",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
+      "code": "owner_hold",
+      "ready": false,
+      "text": "По решению владельца 08.11.2026 20:16 МСК: новые музыкально-танцевальные запуски и их связки отложены; уже идущие не отменяются",
       "queue_state": "waiting_for_slot"
     },
     {
       "id": "S28-A10-20261023",
       "scene_id": 28,
       "part_label": "28 A10",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
+      "code": "owner_hold",
+      "ready": false,
+      "text": "По решению владельца 08.11.2026 20:16 МСК: новые музыкально-танцевальные запуски и их связки отложены; уже идущие не отменяются",
       "queue_state": "waiting_for_slot"
     },
     {
       "id": "S28-A11-20261023",
       "scene_id": 28,
       "part_label": "28 A11",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
+      "code": "owner_hold",
+      "ready": false,
+      "text": "По решению владельца 08.11.2026 20:16 МСК: новые музыкально-танцевальные запуски и их связки отложены; уже идущие не отменяются",
       "queue_state": "waiting_for_slot"
     },
     {
@@ -251,18 +242,18 @@
       "id": "S28-A1-R2-20261025",
       "scene_id": 28,
       "part_label": "28 A1",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
+      "code": "owner_hold",
+      "ready": false,
+      "text": "По решению владельца 08.11.2026 20:16 МСК: новые музыкально-танцевальные запуски и их связки отложены; уже идущие не отменяются",
       "queue_state": "waiting_for_slot"
     },
     {
       "id": "S28-A2-R2-20261025",
       "scene_id": 28,
       "part_label": "28 A2",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
+      "code": "owner_hold",
+      "ready": false,
+      "text": "По решению владельца 08.11.2026 20:16 МСК: новые музыкально-танцевальные запуски и их связки отложены; уже идущие не отменяются",
       "queue_state": "waiting_for_slot"
     },
     {
@@ -377,21 +368,21 @@
       "id": "S51G",
       "scene_id": 51,
       "part_label": "51G",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
+      "code": "owner_hold",
+      "ready": false,
+      "text": "По решению владельца 08.11.2026 20:16 МСК: новые музыкально-танцевальные запуски и их связки отложены; уже идущие не отменяются",
       "queue_state": "waiting_for_slot"
     },
     {
       "id": "S28-A13-20261030",
       "scene_id": 28,
       "part_label": "28 A13",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
+      "code": "owner_hold",
+      "ready": false,
+      "text": "По решению владельца 08.11.2026 20:16 МСК: новые музыкально-танцевальные запуски и их связки отложены; уже идущие не отменяются",
       "queue_state": "waiting_for_slot"
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-08T17:16:15.306507Z"
+  "checked_at": "2026-11-08T17:23:18.212848Z"
 }

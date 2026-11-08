@@ -104,5 +104,60 @@
         "@Image6"
       ]
     }
-  ]
+  ],
+  "story_only_hold": {
+    "authorization_id": "owner-20261108-t364u",
+    "quote": "Музыкально-Танцевальные пока не запускаем.",
+    "effect": "no_new_launches",
+    "scenes": [
+      28,
+      49,
+      50,
+      51
+    ],
+    "ready_story_order": [
+      "S48-SEED20-P2-R2-20261108",
+      "S62-SEED20-P1-R2-20261108",
+      "S52-R2-SEED20-P2",
+      "S59-SEED20-P2-R2-20261108",
+      "S60-SEED20-P2",
+      "S61-SEED20-P2"
+    ]
+  },
+  "main_readback_20261108T1720Z": {
+    "main": "9dab2ec404bf7f60b65f6ed6240f2b7aa4fc2b27",
+    "lock": {
+      "state": "held",
+      "holder": "grok:6e1b0b6e-04e2-4990-951f-ba12f3c00eed",
+      "task": "launch S51C (grok helper, slot-wake issue #455)",
+      "acquired_at": "2026-11-08T17:20:00Z",
+      "expires_at": "2026-11-08T18:05:00Z",
+      "touched": false
+    },
+    "S51B": {
+      "state": "submitted",
+      "task_id": "8a1982a55f794a049a62eaa91bf8827f",
+      "submitted_at": "2026-11-08T17:18:48Z",
+      "claimed_at": "2026-11-08T17:17:45Z",
+      "submission_intent_at": "2026-11-08T17:17:49Z",
+      "credits": 0,
+      "status": "init",
+      "receipt": "reports/topview-queue-2026-10-16/S51B-20261108T171848Z.json",
+      "note": "Actual Create already recorded after 17:16Z. Not cancelled."
+    },
+    "S51C": {
+      "state": "waiting_for_slot",
+      "task_id": null,
+      "claim": null,
+      "note": "No task and no claim on this main. Not a recorded Create. Not selected while the hold is active. Lock was not taken or released."
+    },
+    "active_tasks": [
+      "8a1982a55f794a049a62eaa91bf8827f",
+      "f3b8883f44b14a2ba432ce429ba02709"
+    ],
+    "telemetry_checked_at": "2026-11-08T17:20:25Z",
+    "occupied_slots": 2,
+    "free_slots": 4,
+    "pause": "Do not unpause music selection on this readback. Story selection is safe only after this hold is on main and S51C still has no task."
+  }
 }

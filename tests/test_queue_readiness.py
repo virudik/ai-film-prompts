@@ -76,6 +76,31 @@ class QueueReadinessTests(unittest.TestCase):
         private=dict(declared,id='P4',references=[{'slot':'@Video1','required':True,'source_item_id':'P1',
                      'library_file_id':'libfile_saved','sha256':'a'*64,'input_status':'available'}])
         self.assertFalse(qr.continuity_blocks_launch(private,self.root))
+    def test_story_only_hold_skips_music_and_keeps_running(self):
+        (self.root/'note.txt').write_bytes(b'story-ref')
+        digest=qr.digest(self.root/'note.txt')
+        ref=[{'slot':'@Image1','path':'note.txt','sha256':digest}]
+        hold={'effect':'no_new_launches','scenes':[28,49,50,51]}
+        music={'id':'S51C','scene_id':51,'priority':0.1,'state':'waiting_for_slot','references':ref}
+        story={'id':'S52','scene_id':52,'priority':0.2,'state':'waiting_for_slot','references':ref}
+        running={'id':'S51B','scene_id':51,'priority':0.05,'state':'submitted','task_id':'T51B','references':[]}
+        claimed={'id':'S51D','scene_id':51,'state':'claimed','references':ref}
+        self.run_case([music,story,running])
+        rows={r['id']:r for r in qr.derive(self.root)['items']}
+        self.assertTrue(rows['S51C']['ready'])
+        q=json.loads((self.root/'ops/topview-launch-queue.json').read_text())
+        q['owner_hold_20261108_t364u']=hold
+        q['items'].append(claimed)
+        (self.root/'ops/topview-launch-queue.json').write_text(json.dumps(q))
+        rows={r['id']:r for r in qr.derive(self.root)['items']}
+        self.assertEqual(rows['S51C']['code'],'owner_hold')
+        self.assertFalse(rows['S51C']['ready'])
+        self.assertTrue(rows['S52']['ready'])
+        self.assertNotIn('S51B', rows)
+        picked=qr.launch_candidates(self.root)
+        self.assertEqual(picked['chosen'],['S52'])
+        self.assertTrue(qr.music_dance_new_launch_blocked(q, claimed))
+        self.assertFalse(qr.music_dance_new_launch_blocked(q, running))
     def test_does_not_mutate_queue_or_repeat_unchanged_write(self):
         self.run_case([self.first]);before=(self.root/'ops/topview-launch-queue.json').read_bytes()
         self.assertTrue(qr.write(self.root));self.assertFalse(qr.write(self.root))

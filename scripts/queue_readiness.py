@@ -105,6 +105,9 @@ def derive(root):
         if code == 'ready' and state != 'waiting_for_slot':
             code = 'preflight_required'
             reasons.append('Входы найдены; требуется снять записанный блокер после проверки')
+        if code == 'ready' and music_dance_new_launch_blocked(q, i):
+            code = 'owner_hold'
+            reasons.append('По решению владельца 08.11.2026 20:16 МСК: новые музыкально-танцевальные запуски и их связки отложены; уже идущие не отменяются')
         rows.append({'id':i['id'], 'scene_id':i['scene_id'], 'part_label':label(i), 'code':code,
                      'ready':code == 'ready', 'text':'Готова по входам, ждёт свободный слот' if code == 'ready' else '; '.join(reasons),
                      'queue_state':state})
@@ -163,6 +166,33 @@ def substantive_refusal(item):
     return False
 
 
+def music_dance_new_launch_blocked(queue, item):
+    """Owner t364u, 08.11.2026 20:16 MSK: do not Create new music/dance items.
+
+    Scenes 28, 49, 50 and 51, including their linked parts. Submitted, submitting
+    and submission_unknown rows stay as they are. A claim that has no task and no
+    submission intent is not a running render. The record is absent until this
+    one decision is written on the queue; this is not a standing global filter.
+    """
+    hold = queue.get('owner_hold_20261108_t364u') if isinstance(queue, dict) else None
+    if not isinstance(hold, dict) or hold.get('effect') != 'no_new_launches':
+        return False
+    if not isinstance(item, dict):
+        return False
+    scenes = hold.get('scenes')
+    if not isinstance(scenes, list) or item.get('scene_id') not in scenes:
+        return False
+    if item.get('task_id'):
+        return False
+    state = str(item.get('state') or '')
+    if state in ('submitted', 'submitting', 'submission_unknown', 'completed') or state.startswith(('cancelled', 'superseded')):
+        return False
+    claim = item.get('claim') if isinstance(item.get('claim'), dict) else {}
+    if claim.get('submission_intent_id'):
+        return False
+    return state in ('waiting_for_slot', 'claimed')
+
+
 def launch_candidates(root, limit=None):
     """Priority order of items that are actually ready to Create. Read-only."""
     root = Path(root)
@@ -186,6 +216,8 @@ def launch_candidates(root, limit=None):
             reason = 'substantive_refusal'
         elif continuity_blocks_launch(item, root):
             reason = 'continuity_excerpt_missing'
+        elif music_dance_new_launch_blocked(queue, item):
+            reason = 'owner_hold'
         else:
             reason = None
         if reason:
