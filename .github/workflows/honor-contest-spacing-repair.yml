@@ -46,6 +46,11 @@ jobs:
           Path('/tmp/honor-sync-repaired.py').write_text(code.replace(check,detail))
           PY
             python3 /tmp/honor-sync-repaired.py
+            python3 - <<'PY'
+          from pathlib import Path
+          p=Path('projects/raznoe/archive/honor-contest-scene5-before-rules-sync.md')
+          p.write_text(p.read_text().rstrip()+'\n')
+          PY
             git add projects/raznoe/reports projects/raznoe/work-resume-register.json projects/raznoe/video-prompts.md projects/raznoe/project-status.json projects/raznoe/HANDOFF.md projects/raznoe/canon-lock.json projects/raznoe/shadow projects/raznoe/archive/honor-contest-scene5-before-rules-sync.md
             git diff --cached --check
             git commit -m 'HONOR Scene5: publish verified 90s real-film plan, no music, preserve previous scenes'
