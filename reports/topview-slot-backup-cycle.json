@@ -14,12 +14,40 @@
   "lease_commit": "ea9308a4c95b72a35fe7c54a63a52f07e851c09c",
   "started_at": "2026-11-08T00:12:59.894794Z",
   "receipt_started_at": "2026-11-08T00:18:51.619Z",
-  "phase": "started",
-  "status": "running",
-  "scan": null,
+  "phase": "finished",
+  "status": "no_free_slot",
+  "scan": {
+    "complete": true,
+    "complete_scan_verified": true,
+    "source": "read_only_topview_connector_all_14_boards_all_video_pages",
+    "boards_scanned": 14,
+    "pages_scanned": 18,
+    "video_tasks_scanned": 632,
+    "unique_video_task_ids": 632,
+    "status_counts": {
+      "success": 603,
+      "fail": 23,
+      "init": 6
+    },
+    "active_task_ids": [
+      "abb161edcf5c4b58b91460677939b5d3",
+      "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
+      "101221814fd5430697f697f95a3f4252",
+      "3ebe7c23db05479e9b6f762a75b832e7",
+      "365cf639589a4a5da834d70193d5e8f6",
+      "be960f5e3bf54563aff663fed9da8906"
+    ],
+    "submitted_task_ids_reconciled": 16,
+    "details_rechecked": true,
+    "full_scan_window_utc": {
+      "after": "2026-11-08T00:12:59.894794Z",
+      "before": "2026-11-08T00:18:22.419Z"
+    },
+    "note": "Live 6 active task statuses rechecked individually using board task details."
+  },
   "slots": {
-    "occupied": null,
-    "free": null,
+    "occupied": 6,
+    "free": 0,
     "global_max": 6
   },
   "new_submissions": [],
@@ -28,5 +56,88 @@
     "completed_at": "2026-11-08T00:09:50.618Z",
     "outcome": "no_free_slot"
   },
-  "updated_at": "2026-11-08T00:18:51.619Z"
+  "updated_at": "2026-11-08T00:20:51.317Z",
+  "task_ids": [
+    "abb161edcf5c4b58b91460677939b5d3",
+    "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
+    "101221814fd5430697f697f95a3f4252",
+    "3ebe7c23db05479e9b6f762a75b832e7",
+    "365cf639589a4a5da834d70193d5e8f6",
+    "be960f5e3bf54563aff663fed9da8906"
+  ],
+  "selected_item": null,
+  "queued_candidate": "S49D",
+  "outcome": "no_free_slot",
+  "blocker": null,
+  "retryable": true,
+  "browser_transport": "not_used_6_of_6",
+  "tinyfish_run_ids": [],
+  "tinyfish_steps": 0,
+  "tinyfish_estimated_cost_usd": 0,
+  "tinyfish_confirmed_cost_usd": null,
+  "topview_credits_cost": 0,
+  "acceptance": {
+    "scheduled_run_observed": true,
+    "topview_read_only_scan_complete": true,
+    "all_submitted_task_ids_found": true,
+    "topview_create_attempted": false,
+    "tinyfish_browser_invoked": false,
+    "tinyfish_session_verified_this_cycle": false,
+    "file_upload_verified": false,
+    "unlimited_zero_verified": false,
+    "production_submission_verified": false
+  },
+  "queue_reconciliation": {
+    "submitted_count": 16,
+    "submitted_found_on_board": 16,
+    "unresolved": [
+      {
+        "item_id": "S49B",
+        "state": "submission_unknown",
+        "submission_intent_id": "e12e32cf-b8d6-4484-86ef-35acee6e4693",
+        "create_click_count": 0
+      }
+    ],
+    "missing_submitted_task_ids": [],
+    "next_ready_item": "S49D",
+    "recomputed_sha256_this_cycle": true,
+    "queue_sha_match": true,
+    "task_map_sha_match": true,
+    "source_queue_sha256": "f1ac25c6ffdaf890cb532135eca4cc8cb8325f6fbbf741c2b198cc4ec53d56f1",
+    "source_task_map_sha256": "45e5485cc9b72277f7eb32d7f368ccbc73cce4a3eb191630e734c0705db28f1a"
+  },
+  "owner_tasks": {
+    "open": 0,
+    "taken": 0
+  },
+  "launcher_health": {
+    "state": "capacity_full",
+    "telemetry_checked_at": "2026-11-07T23:30:27Z",
+    "source": "automation-monitor-status.json",
+    "stale_events_do_not_prove_capacity": true,
+    "last_wake_issue_number": 426,
+    "last_wake_issue_is_stale": true
+  },
+  "editorial_discrepancy": {
+    "item_id": "S73",
+    "task_id": "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
+    "status": "init",
+    "authorized": false,
+    "authorization_unresolved": true,
+    "action": "no_change"
+  },
+  "tinyfish_transport_blocker_known": "Native UI upload exact original files and Unlimited0 not independently confirmed for TinyFish; no paid run at 6/6.",
+  "preferred_executor": "work",
+  "checkpoint_register": {
+    "modified": false,
+    "reason": "no change to active work/next_action"
+  },
+  "completed_at": "2026-11-08T00:20:51.317Z",
+  "lease": {
+    "holder": "chatgpt:ordinary:10fe3723-dda1-4ad2-b8f7-f1f67e876a6b",
+    "acquired_at": "2026-11-08T00:18:22.419Z",
+    "released_at": "2026-11-08T00:20:51.317Z",
+    "release_atomic": true,
+    "release_readback_pending": false
+  }
 }
