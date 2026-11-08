@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-08T17:00:22Z",
+  "checked_at": "2026-11-08T17:10:32Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -23,11 +23,11 @@
       "29d5b28f0e744b9eb6bfbee47efb6ff9": 37,
       "dde2634b5fb54e789bb22dd4c95a75b6": 23,
       "caa5d8898f14442ea37c3278d156b3fe": 59,
-      "1a6244cf1ae747ef847d949a80d6133c": 695
+      "1a6244cf1ae747ef847d949a80d6133c": 696
     },
     "pages_scanned": 1,
     "tasks_seen": 20,
-    "api_requests": 5,
+    "api_requests": 3,
     "detail_failed": []
   },
   "cursor": {
@@ -45,43 +45,45 @@
       "29d5b28f0e744b9eb6bfbee47efb6ff9": 37,
       "dde2634b5fb54e789bb22dd4c95a75b6": 23,
       "caa5d8898f14442ea37c3278d156b3fe": 59,
-      "1a6244cf1ae747ef847d949a80d6133c": 695
+      "1a6244cf1ae747ef847d949a80d6133c": 696
     },
     "last_full_scan_at": "2026-11-08T15:20:22Z"
   },
   "slots": {
     "capacity": 6,
-    "occupied": 0,
-    "free": 6,
+    "occupied": 1,
+    "free": 5,
     "basis": "active unlimited video tasks on all owned boards",
     "complete": false,
     "active_not_unlimited": 0
   },
-  "active_tasks": [],
-  "unknown_new": [],
-  "finished_known": [
+  "active_tasks": [
     {
-      "task_id": "3561d1997a6a4e5d813cfb99fdb60ed4",
-      "scene_id": 49,
-      "final_status": "success",
-      "completed_at": "2026-11-08 16:45:14",
-      "error_code": null
-    },
-    {
-      "task_id": "dbc9aff605ec48349062638cdaa7fd5a",
-      "scene_id": 49,
-      "final_status": "success",
-      "completed_at": "2026-11-08 16:45:22",
-      "error_code": null
-    },
-    {
-      "task_id": "fe78a852b7a343e6a37d146cec789358",
-      "scene_id": 49,
-      "final_status": "success",
-      "completed_at": "2026-11-08 16:44:16",
-      "error_code": null
+      "task_id": "f3b8883f44b14a2ba432ce429ba02709",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "unlimited": true,
+      "created_at": "2026-11-08 17:09:58",
+      "model": "Seedance 2.0",
+      "scene_id": null,
+      "mapping": "unknown_new",
+      "queue_count": 829,
+      "wait_seconds": 21565,
+      "process_seconds": null
     }
   ],
+  "unknown_new": [
+    {
+      "task_id": "f3b8883f44b14a2ba432ce429ba02709",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "created_at": "2026-11-08 17:09:58",
+      "model": "Seedance 2.0",
+      "unlimited": true,
+      "prompt_head": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal live-action rock-concert finale\n\nR"
+    }
+  ],
+  "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
     {
@@ -177,32 +179,23 @@
     }
   ],
   "comparison": {
-    "monitor_checked_at": "2026-11-08T16:00:25Z",
-    "monitor_age_minutes": 60,
-    "monitor_occupied": 3,
-    "robot_occupied": 0,
+    "monitor_checked_at": "2026-11-08T17:00:22Z",
+    "monitor_age_minutes": 10,
+    "monitor_occupied": 0,
+    "robot_occupied": 1,
     "consistent": false,
-    "monitor_may_lag": true,
+    "monitor_may_lag": false,
     "differences": [
       {
-        "type": "only_in_monitor",
-        "task_id": "3561d1997a6a4e5d813cfb99fdb60ed4",
-        "scene_id": 49
-      },
-      {
-        "type": "only_in_monitor",
-        "task_id": "dbc9aff605ec48349062638cdaa7fd5a",
-        "scene_id": 49
-      },
-      {
-        "type": "only_in_monitor",
-        "task_id": "fe78a852b7a343e6a37d146cec789358",
-        "scene_id": 49
+        "type": "only_in_robot",
+        "task_id": "f3b8883f44b14a2ba432ce429ba02709",
+        "scene_id": null,
+        "mapping": "unknown_new"
       },
       {
         "type": "occupied_differs",
-        "monitor": 3,
-        "robot": 0
+        "monitor": 0,
+        "robot": 1
       }
     ]
   }
