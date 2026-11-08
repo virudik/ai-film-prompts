@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:4da17e84-e0d1-46e6-bc71-a69e46ce1296",
-  "task": "Repair whitespace in existing HONOR contest Scene5 patch and validate before publication",
-  "acquired_at": "2026-11-07T20:19:50Z",
-  "expires_at": null,
-  "released_at": "2026-11-07T20:21:54Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:79dd16b2-9780-466c-a616-33cb3eb1387d",
+  "task": "Synchronize existing HONOR X9e Pro Scene5 master with verified contest report; no new scenes or generation",
+  "acquired_at": "2026-11-08T07:38:13Z",
+  "expires_at": "2026-11-08T08:03:48Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }
