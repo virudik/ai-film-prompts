@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project": "raznoe",
   "work_id": "RAZNOE-HONOR-X9EPRO-CONTEST-20261107",
-  "stage": "started",
+  "stage": "validated_for_publication",
   "started_at": "2026-11-08T07:40:16+00:00",
   "holder": "chatgpt:ordinary:79dd16b2-9780-466c-a616-33cb3eb1387d",
   "source_report": "projects/raznoe/reports/honor-x9e-pro-contest-2026-11-07.md",
@@ -10,5 +10,45 @@
   "source_master_sha256": "6428a63ca6f9b83a7211b7791f64bcac6e4ff801332a33f5993b951ebd9ae943",
   "source_head": "2a0b358ba7f10478c821f81894ba4d970d1c0518",
   "owner_request": "08.11: доделать HONOR и конкурс, не повторять сделанное",
-  "no_generation": true
+  "no_generation": true,
+  "checked_at": "2026-11-08T07:48:04+00:00",
+  "master_sha256": "1f1626606cebd32d1d761e1f6ae47a5cd8527a27e12ed4b8646b266cff52d3b5",
+  "rules_report_sha256": "9b100c7aa841728deb73e500abcca4bf6fda23a4be7ab6824fb1597ec8525445",
+  "project_health": "ok",
+  "validation": [
+    {
+      "command": [
+        "python3",
+        "scripts/projects.py",
+        ".",
+        "status",
+        "--project",
+        "raznoe",
+        "--write"
+      ],
+      "exit_code": 0,
+      "output_tail": "raznoe: health=ok scenes=5 prompts=68 (записан)\n"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/validate_site.py",
+        "."
+      ],
+      "exit_code": 0,
+      "output_tail": "site contract ok; duplicate ids=0; inline JS syntax ok; montage versions ok; fail-safe health contract ok\nowner site panel, film.html and references.html ok\nprojects ok: 5 in the switcher, folders and statuses consistent\n"
+    }
+  ],
+  "scene_id": 5,
+  "real_film_seconds": 90,
+  "allowed_seconds": [
+    60,
+    120
+  ],
+  "music_allowed": false,
+  "contest_submission": false,
+  "scenes_1_to_4_unchanged": true,
+  "existing_preview_blocks_preserved": true,
+  "new_images": 0,
+  "new_videos": 0
 }

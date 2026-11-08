@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-08T07:43:56+00:00",
-  "source_head": "2f7601eef1a62b44dfc82b8b5a3dc0f2af531abf",
-  "source_fingerprint": "d49eff2dbe874277e0a11d9459b492a7253c5b3155cfa3b5911cda4f3f222574",
+  "checked_at": "2026-11-08T07:48:04+00:00",
+  "source_head": "1e054f667bb764ef354f5471d4c0f8adf8f2830d",
+  "source_fingerprint": "b55b9eb666a5770a1cb63cde7e01e8bf58aa26d5c75453c7acaec3f2c321503b",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -36,14 +36,18 @@
     "work_id": "RAZNOE-HONOR-X9EPRO-CONTEST-20261107",
     "title": "RAZNOE-HONOR-X9EPRO-CONTEST-20261107",
     "status": "awaiting_real_location_and_owner_selection",
-    "last_completed": "Сохранён исходный этап: отчёт правил исправлен ранее, мастер ещё не синхронизирован.",
+    "last_completed": "Существующая сцена5 и оглавление приведены к уже проверенным правилам: цель90с/допуск60–120с,9:16,без музыки,нейтральный фон;30сAI отделён как не конкурсный превиз. Сцены1–4, очередь и файлы сохранены. Заявка не отправлена.",
     "next_action": "Подтвердить настоящий город и условия участия; согласовать конкретный безопасный тест с организатором. Заявка не отправлена. После отбора/получения аппарата снять настоящее видео 60–120 с, цель90 с, 9:16, без музыки и запрещённого фона. Продуктовые PNG Magic9 в сцене4 и QC RESOURCE остаются отдельными открытыми работами; готовое не повторять, новые видео не запускать.",
-    "verified_at": "2026-11-08T07:40:16+00:00",
+    "verified_at": "2026-11-08T07:48:04+00:00",
     "blockers": [],
     "evidence": [
       {
         "file": "projects/raznoe/reports/honor-contest-sync-2026-11-08.json",
-        "sha256": "6ea73e91e4afd4066e559b2d80161d0f42da839bc935389e6c639642ddbb4705"
+        "sha256": "afb738a426dce80964d46b84a4ebe59bd202cf95de4585bbe7121dec9a5c9087"
+      },
+      {
+        "file": "projects/raznoe/reports/honor-x9e-pro-contest-2026-11-07.md",
+        "sha256": "9b100c7aa841728deb73e500abcca4bf6fda23a4be7ab6824fb1597ec8525445"
       }
     ],
     "read_next": [
@@ -52,11 +56,11 @@
     ],
     "checkpoint": {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
-      "anchor": "# 08.11.2026 — HONOR X9e Pro: правила и существующая сцена 5 — начало",
-      "sha256": "57c6bae3b2e21288c2543332ffac4b60056648096685a7911bee31370dc24b04"
+      "anchor": "# 08.11.2026 — HONOR X9e Pro: правила и существующая сцена 5",
+      "sha256": "fa8ade6d57a4c2e1579279bc266caa8784e4f83389ea8b4f0a016fc9e0ca66c7"
     }
   },
-  "checkpoint_text": "# 08.11.2026 — HONOR X9e Pro: правила и существующая сцена 5 — начало\n\nwork_id: RAZNOE-HONOR-X9EPRO-CONTEST-20261107\n\n- Полный документ Google Docs прочитан; исправленный отчёт уже существует. В мастере ещё ошибочные30с/достопримечательности. План: перенести проверенные условия в ту же сцену5 и оглавление, сохранив1–4, очередь, файлы и статусы DRAFT/not_approved.\n- Следующий шаг: синхронизация, projects status, проверки сайта, readback.\n\nchecked_at: 2026-11-08T07:40:16+00:00\n",
+  "checkpoint_text": "# 08.11.2026 — HONOR X9e Pro: правила и существующая сцена 5\n\nwork_id: RAZNOE-HONOR-X9EPRO-CONTEST-20261107\n\n- Существующая сцена5 и оглавление приведены к уже проверенным правилам: цель90с/допуск60–120с,9:16,без музыки,нейтральный фон;30сAI отделён как не конкурсный превиз. Сцены1–4, очередь и файлы сохранены. Заявка не отправлена.\n- Проверки: project health=ok; validate_site passed. Доказательство: projects/raznoe/reports/honor-contest-sync-2026-11-08.json.\n- Следующий шаг: Подтвердить настоящий город и условия участия; согласовать конкретный безопасный тест с организатором. Заявка не отправлена. После отбора/получения аппарата снять настоящее видео 60–120 с, цель90 с, 9:16, без музыки и запрещённого фона. Продуктовые PNG Magic9 в сцене4 и QC RESOURCE остаются отдельными открытыми работами; готовое не повторять, новые видео не запускать.\n\nchecked_at: 2026-11-08T07:48:04+00:00\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -233,8 +237,8 @@
     },
     {
       "file": "projects/raznoe/HANDOFF.md",
-      "sha256": "5792ab9a8454953baaf5120afef7c373a1fb1b9b3719ff0813f12fb4e1a7d233",
-      "bytes": 10878
+      "sha256": "a6ee79ea4b8731bd3d36c02abb6dd242a02efc92eeb1b3c050f7d2abbd6bd978",
+      "bytes": 10690
     },
     {
       "file": "projects/raznoe/INSTRUCTIONS.md",
@@ -248,13 +252,13 @@
     },
     {
       "file": "projects/raznoe/project-status.json",
-      "sha256": "2be136bfe2baf2f08cfc2f1ad91f734d10376788f0d155b1c92b1fd015462f15",
-      "bytes": 10028
+      "sha256": "539f87d04973ab0513743c6c7402069f39fe9ecd7465d984e26a5b849b5ac6e2",
+      "bytes": 10115
     },
     {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
-      "sha256": "193634e5476ab11a2a648e1a3318598740d252c303ea6aa6788512e1d3706795",
-      "bytes": 50885
+      "sha256": "ebaf56e0a31d2142dd7b39069f1af6f13aa557cdbffaa70bb2135f24268c892b",
+      "bytes": 52296
     },
     {
       "file": "projects/raznoe/reports/handoff-receipts.json",
@@ -263,18 +267,23 @@
     },
     {
       "file": "projects/raznoe/reports/honor-contest-sync-2026-11-08.json",
-      "sha256": "6ea73e91e4afd4066e559b2d80161d0f42da839bc935389e6c639642ddbb4705",
-      "bytes": 708
+      "sha256": "afb738a426dce80964d46b84a4ebe59bd202cf95de4585bbe7121dec9a5c9087",
+      "bytes": 1921
+    },
+    {
+      "file": "projects/raznoe/reports/honor-x9e-pro-contest-2026-11-07.md",
+      "sha256": "9b100c7aa841728deb73e500abcca4bf6fda23a4be7ab6824fb1597ec8525445",
+      "bytes": 13235
     },
     {
       "file": "projects/raznoe/video-prompts.md",
-      "sha256": "6428a63ca6f9b83a7211b7791f64bcac6e4ff801332a33f5993b951ebd9ae943",
-      "bytes": 628781
+      "sha256": "1f1626606cebd32d1d761e1f6ae47a5cd8527a27e12ed4b8646b266cff52d3b5",
+      "bytes": 634816
     },
     {
       "file": "projects/raznoe/work-resume-register.json",
-      "sha256": "3cd2aea5f51c99a99916ee325b05923a2b375894038f1a594526e3ec010819bd",
-      "bytes": 21933
+      "sha256": "28a641313cc1ee138f40b2b11bf2791570a4847b9224f1b10f4e20f6bc3c0397",
+      "bytes": 22354
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -292,5 +301,5 @@
       "bytes": 1370587
     }
   ],
-  "packet_bytes": 5505
+  "packet_bytes": 6422
 }

@@ -3,12 +3,12 @@
   "source_of_truth": "GitHub main/projects/raznoe/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-08T05:02:21Z",
-  "revision_date": "07.11.2026",
+  "synced_at": "2026-11-08T07:48:02Z",
+  "revision_date": "08.11.2026",
   "master_declared_last_full_sync": "06.11.2026 · сцена 3 RESOURCE: native-нарезка 19 клипов / 114 с в той же сцене; исходные вкладки 2 × 15 с сохранены; шесть попыток v1 в папке Саши не приняты.",
-  "canonical_master_sha256": "6428a63ca6f9b83a7211b7791f64bcac6e4ff801332a33f5993b951ebd9ae943",
-  "canonical_revision_sha256": "94f3734e9b209c6253939104ea9948bb49749dcefd49661966cdd88644ec1094",
-  "canonical_master_bytes": 628781,
+  "canonical_master_sha256": "1f1626606cebd32d1d761e1f6ae47a5cd8527a27e12ed4b8646b266cff52d3b5",
+  "canonical_revision_sha256": "7f0ac3defaf872eeb374a8c3f2c39976a159b2e1626f441864822e6ee849fbe8",
+  "canonical_master_bytes": 634816,
   "scenes": 5,
   "prompt_texts": 68,
   "work_items": [],
@@ -30,7 +30,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 9.425,
+    "age_hours_at_status_build": 12.187,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -108,7 +108,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 9.425,
+      "age_hours": 12.187,
       "blocking": false
     },
     "topview_task_map": {
@@ -210,7 +210,7 @@
     "5": {
       "target_engine": "Wan 3.0",
       "production_state": "DRAFT",
-      "duration_s": 30,
+      "duration_s": 90,
       "dialogue": {
         "enabled": false,
         "language": null
@@ -224,16 +224,19 @@
         "real_local_footage_required",
         "two_engine_versions",
         "not_approved",
-        "raznoe_scene_5"
+        "raznoe_scene_5",
+        "real_footage_60_120s",
+        "music_prohibited",
+        "not_submitted"
       ],
       "render_state": "IDLE"
     }
   },
   "audit_fingerprint": {
-    "revision_date": "07.11.2026",
-    "synced_at": "2026-11-08T05:02:21Z",
-    "canonical_master_sha256": "6428a63ca6f9b83a7211b7791f64bcac6e4ff801332a33f5993b951ebd9ae943",
-    "canonical_revision_sha256": "94f3734e9b209c6253939104ea9948bb49749dcefd49661966cdd88644ec1094",
+    "revision_date": "08.11.2026",
+    "synced_at": "2026-11-08T07:48:02Z",
+    "canonical_master_sha256": "1f1626606cebd32d1d761e1f6ae47a5cd8527a27e12ed4b8646b266cff52d3b5",
+    "canonical_revision_sha256": "7f0ac3defaf872eeb374a8c3f2c39976a159b2e1626f441864822e6ee849fbe8",
     "scene_count": 5,
     "prompt_count": 68,
     "scene_ids": [

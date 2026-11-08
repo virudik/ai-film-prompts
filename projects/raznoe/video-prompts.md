@@ -20,7 +20,7 @@
 | 2 | [Тихая планета — история Мирона](#scene-2) | Мирон, мама Вера, бабушка Нина, Дарья Андреевна, доктор Марк Львович, парикмахер Лиля, лошадь Туман | Мальчик с аутизмом рассказывает о громком мире, трудных днях, бабушке, которая нашла помощь, успехах, школе и надежде. Структура рилса, вертикаль 9:16, 4 ролика по 30 с или 8 по 15 с |
 | 3 | [RESOURCE](#scene-3) | Инженер мастерской и синей формы, работница сортировки | Фотореал 16:9. Исходник 2 × 15 с сохранён. Текущая нарезка — 19 native-клипов, 114 с: мастерская, завод, сборка, старт, орбита, постановочная станция, ЦУП. Не одобрено |
 | 4 | [HONOR](#scene-4) | Magic9 Pro Max выбран; продуктовый прокси до утверждения | Три ролика по 120 с: реализм, 3D, рисовка. Кадры только настроение. Не одобрено |
-| 5 | [HONOR X9e Pro — «Город на прочность»](#scene-5) | Житель [ГОРОД], настоящий HONOR X9e Pro только после отбора | Конкурс «Несокрушимый HONOR»: идея 30-секундного вертикального видео о реальном местном маршруте и испытаниях. ИИ — только для раскадровки; не снято |
+| 5 | [HONOR X9e Pro — «Город на прочность»](#scene-5) | Житель [ГОРОД], настоящий HONOR X9e Pro только после отбора | Конкурс «Несокрушимый HONOR»: настоящая съёмка 60–120 с, цель90 с, вертикаль9:16, без музыки. ИИ30с — только отдельный НЕ конкурсный превиз; не снято |
 
 ## Сцены в работе
 
@@ -5504,31 +5504,56 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 </div>
 
 <a id="scene-5"></a>
-## Сцена 5 — HONOR X9e Pro · «Город на прочность» (конкурс «Несокрушимый HONOR»)
+## Сцена 5 — HONOR X9e Pro · «Город проверяет» (конкурс «Несокрушимый HONOR»)
 
-<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","contest_pitch","honor_x9e_pro","vertical_9x16","real_local_footage_required","two_engine_versions","not_approved","raznoe_scene_5"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":90,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","contest_pitch","honor_x9e_pro","vertical_9x16","real_local_footage_required","two_engine_versions","not_approved","raznoe_scene_5","real_footage_60_120s","music_prohibited","not_submitted"]} -->
 
-**Контекст использования:** отдельная новая сцена для конкурса HONOR Россия, приём идей 6–16 ноября 2026 по переданному владельцем посту. Это **HONOR X9e Pro**, а не HONOR Magic9 Pro Max из сцены 4. Чтобы участвовать, сначала нужно оставить город и идею в комментарии; после выбора участник получает телефон для реальных съёмок вертикального ролика в своём регионе и публикует его во ВКонтакте. Эта запись не является отправленной заявкой и не гарантирует выбор.
+**Состояние:** DRAFT / not_approved. Заявка не отправлена, телефон не получен, настоящая съёмка не выполнена. Реальный итоговый конкурсный ролик60–120с (цель90с), не30с. Публикация без подтверждённого города и согласования участия не выполняется. Сцена4Magic9 Pro Max и RESOURCE не изменены.
 
-**Идея «Город проверяет».** Утро одного жителя [ГОРОД]. Город как строгий экзаменатор проверяет не телефон намеренными ударами, а его работу во время настоящего непредсказуемого местного маршрута: холодный ветер / снег, дождь и брызги слякоти, разбитая дорога. Каждый этап показан узнаваемым местом и снят без обмана. Кульминация — один непрерывный крупный план: настоящий HONOR X9e Pro включён, снимает фотографию местной достопримечательности и показывает результат. Подписи «экзаменов» и название города добавляются в монтаже, не генерируются моделью. Если снег/дождь в день съёмки отсутствуют, эпизод не инсценировать под «реальный» тест — выбирать настоящую местную погоду.
+### Источник и границы проверки
 
-**Копия комментария для ВК:** «Город: [ГОРОД]. Моя идея — “Город проверяет”. За одно утро покажу маршрут с настоящими местными испытаниями: ветер/холод, дождь и слякоть, неровная дорога — и сниму на HONOR X9e Pro узнаваемое место города. Каждый этап будет в кадре без подмены телефона и без выдуманных результатов. В финале покажу, как он работает после маршрута. Всё — одним коротким вертикальным видео.»
+07.11.2026 прочитан полный текст вкладки t.0 официального документа «ПРАВИЛА ПРОВЕДЕНИЯ КОНКУРСА "Несокрушимый HONOR"» через Google Docs, а не только его заголовок:
+https://docs.google.com/document/d/1g0Fl1-5qeStudQuo9r2qF5G6c1AYKmPFps72Gx67ZbE/edit?tab=t.0
 
-**План реальной съёмки 30 с · вертикаль 9:16 (обязателен реальный телефон и реальный город):**
+Пост владельца: https://vk.ru/wall-102047696_2137582 . Формат **вертикаль 9:16** взят из переданного текста поста; требование **60–120 секунд** и запреты ниже — из полного документа. Прежняя запись «итоговое конкурсное видео — 30 секунд» была ошибочной. Редакционная цель теперь **90 секунд**, а существующие 30с / 2×15с генеративные блоки — только отдельная НЕ конкурсная превизуализация. ИИ-материал не подменяет реальное испытание.
 
-| Время | Что должно быть в реальной съёмке | Монтаж и проверяемое доказательство |
+### Что обязательно учесть по правилам
+
+- **Участник:** гражданин РФ, постоянно проживающий в РФ, 18+; действуют перечисленные в п. 1.4 исключения. Соответствие владельца не проверено и не предполагается. Профиль ВК должен быть публичным в течение конкурса; условия профиля и исключения — п. 4.1 и 4.3.5.
+- **Первый этап:** подписка на HONOR Россия, комментарий с настоящим городом и собственной идеей проверки ударопрочности; выбирают четырёх участников по оригинальности, соответствию заданию и реализуемости (п. 4.2). Простая прогулка под дождём без предусмотренного задания на ударопрочность недостаточна как полноценный план.
+- **Даты:** в п. 3.1 приём идей указан с 6 ноября 2026, 18:30 до **16 ноября 2026, 12:00**; второй этап — 16–22 ноября, третий — 22–30 ноября. Московское время прямо оговорено в п. 3.3 для контрольных сроков; часовой пояс отметки 12:00 в п. 3.1 отдельно не указан. Не планировать отправку на вечер 16 ноября: для безопасного планирования подать заранее и уточнить у организатора именно время окончания приёма.
+- **Реальная съёмка:** собственный оригинальный ролик **от 1 до 2 минут** с полученным тестовым устройством (п. 4.2, этап 2). Тестовый смартфон передаётся временно и подлежит возврату. Возврат и получение нового призового устройства — разные действия. Формулировку крайнего срока возврата в п. 4.2 нужно подтвердить у организатора, не исправляя её догадкой.
+- **Музыка запрещена:** п. 4.3.3 запрещает музыкальные произведения с текстом и без. Это касается и «свободной», и собственной, и ИИ-музыки. Планируем только свою речь и записанные звуки действия/окружения; случайную музыку из кафе, машины или телефона не оставлять.
+- **Фон и права:** п. 4.3.6 исключает сторонние бренды/эмблемы, чужие произведения, фрагменты кино и музыки; отдельно перечислены культурное наследие, музеи, культовые здания, государственная/региональная символика, объекты федерального/военного значения и критической инфраструктуры. Поэтому прежнюю идею с «местной достопримечательностью» исключаем. Город представляем собственным голосом/простым титром, локальные условия — нейтральным природным фоном без перечисленных объектов и случайных людей.
+- **Использование результата организаторами:** п. 4.3.2 предусматривает широкую безвозмездную неисключительную лицензию, включая переработку и сублицензирование. Это условие участия, а не согласие, данное от имени владельца этим отчётом. Личные документы, требуемые п. 5.4, передаёт сам участник только проверенному организатору, не в чат ИИ и не в публичный репозиторий.
+
+### Исправленная идея — «Город проверяет. Один телефон, один честный дубль»
+
+Город остаётся **[ГОРОД]**: владелец его для заявки не подтвердил. Особенность региона — реальный местный ветер, холод, влажный грунт или другое фактически присутствующее условие, а не выдуманная погода. Центр истории — один согласованный с организатором безопасный бытовой сценарий проверки ударопрочности. В одном непрерывном плане видны исходное состояние, сам эпизод и проверка устройства после него. Получившийся результат заранее не объявляется успешным.
+
+Не назначаем высоту/поверхность, температурные режимы или иные нагрузки по рекламным лозунгам. Конкретный тест и обращение с предоставленным аппаратом сначала согласуются с организатором и инструкцией устройства. Не используются огонь, кипяток, замораживание, удар инструментом, транспорт, высота, люди/животные в зоне падения или повреждение аккумулятора. При признаках повреждения/нагрева испытание прекращается. Это ограничения нашего постановочного плана, не цитата конкурсных правил.
+
+### Монтажный план реальной съёмки · 90 с · 9:16
+
+| Время | Содержание | Проверка |
 |---|---|---|
-| 0–4 с | Знакомая улица или памятный ориентир [ГОРОД], титр с городом | Снять самим, не подставлять ИИ-город |
-| 4–9 с | Настоящий X9e Pro в руках, старт на свежем воздухе | Разборчивый вид корпуса без смены телефона |
-| 9–16 с | Реальный дождь/слякоть, ветер или холод; лёгкие бытовые брызги на корпусе | Непрерывный фрагмент без опасного погружения и без монтажа, скрывающего состояние |
-| 16–23 с | Неровная дорога во время безопасной ходьбы; без падения/наезда на телефон | Живой маршрут с узнаваемым фоном; телефон закреплён надёжно |
-| 23–30 с | Крупно работающий экран и фотография местного объекта | Результат и исходные файлы сохраняются как доказательство реальной проверки |
+| 0–10 с | Автор на нейтральном фоне: настоящий город, местное условие и идея проверки | Нет запрещённой архитектуры, символики, случайных людей или чужих логотипов |
+| 10–25 с | Один полученный HONOR X9e Pro: внешний вид и исходная работа экрана/камеры | Подлинный аппарат, один экземпляр; не вставлять стоковый или ИИ-телефон |
+| 25–55 с | Один согласованный бытовой эпизод проверки ударопрочности в реальных местных условиях | Непрерывный план без подмены, скрытого повторного дубля и монтажа в точке воздействия; снимаем только разрешённый организатором вариант |
+| 55–75 с | Сразу в том же плане — корпус и экран; проверка камеры/своего записанного голоса | Показать фактическое состояние; дефект не ретушировать; не выводить сертификаты или численные обещания |
+| 75–90 с | Короткий честный вывод и ещё один общий вид того же устройства | Формулировка зависит от результата; музыка отсутствует, исходники сохранены |
 
-**Референсы:** оригинальный телефон отсутствует до отбора и получения аппарата; утверждённых PNG для сцены 5 нет. Для формы будущего изделия сверяться только с официальным HONOR X9e Pro: https://www.honor.com/eurasia/phones/honor-x9e-pro/ и https://www.honor.com/eurasia/phones/honor-x9e-pro/spec/ . На официальных изображениях фиолетового варианта — крупный круглый блок камеры с золотистой окантовкой; нельзя подменять его моделью Magic9 Pro Max. Официальные исходники и логотип в коммерческом монтаже требуют проверки условий использования. Пока настоящего телефона нет, **ИИ-версии ниже — только превизуализация с анонимным гладким макетом без маркировки**, не доказательство характеристик, не готовое конкурсное видео.
+Речь — собственная; не утверждать «неубиваемый» или «любые испытания выдержаны». Возможная финальная фраза после удачного результата: «Это результат именно нашего сегодняшнего теста, а не обещание для любых условий». При повреждении показать его и описать факт без заранее подготовленного рекламного финала.
 
-**Безопасность и достоверность:** не бросать телефон намеренно, не погружать его в воду, не поливать кипятком, не использовать реальные опасные дороги/движение ради эффекта. HONOR отдельно предупреждает, что удары способны повредить устройство, а защита от влаги не постоянна. Не утверждать «тест пройден» до результатов реальной съёмки. Не выдавать синтетический кадр с телефоном за реальное испытание.
+### Черновик комментария для ВК
 
-**Состояние:** DRAFT / not_approved. Очередь Topview проекта пуста, запуск не разрешён. Русский голос для итогового монтажа записывается отдельно после съёмок; в ИИ-превизуализации нет устной речи. Номер сцены 5 не меняет три существующих ролика HONOR в сцене 4.
+> Город: [ГОРОД]. Идея — «Город проверяет: один телефон, один честный дубль». Покажу, как HONOR X9e Pro проходит согласованное бытовое испытание ударопрочности в наших реальных местных условиях: от осмотра до воздействия и проверки экрана, камеры и корпуса — без подмены устройства и без склейки в главном эпизоде. Особенность города передам погодой, фактурой места и своим рассказом, без запрещённых объектов и чужих брендов в кадре. Финал будет честным: покажу то, что получилось. Вертикальный ролик — около 90 секунд, без музыки.
+
+Перед отправкой вместо [ГОРОД] указать подтверждённый город и заменить общую формулировку теста конкретным согласованным сценарием. Не публиковать заявку автоматически и не соглашаться с правилами от имени владельца.
+
+### Отдельный ИИ-превиз, НЕ конкурсное видео
+
+Следующие ранее подготовленные30с/2×15с блоки сохраняются только как необязательное концептуальное изображение. Они не доказывают реальное испытание, не являются готовой конкурсной работой и не разрешены к запуску этой записью. Музыка запрещена в конкурсном результате; настоящий телефон и подлинное воздействие не заменяются ИИ.
 
 <div class="engine-tabs" data-scene="5">
 
@@ -5546,7 +5571,7 @@ REFERENCES / IDENTITY:
 No official device or location image is supplied. The only human is an anonymous adult resident in a plain dark winter jacket with black gloves, filmed from back/shoulder; no recognizable face. In their hand is an entirely blank matte rectangular PROP with no camera island, no logo, no screen contents, no buttons, no product-specific geometry. This is a visual PLACEHOLDER, NOT the HONOR X9e Pro. Never replace it with a fictional branded phone. The place is a plausible GENERIC Russian town, not footage of a particular real city.
 
 STORY / CAMERA:
-Create a lively, cinematic vertical 9:16 shot sequence visualizing the four beats of a future real-life city test. 0–5s: dawn above an ordinary street in cool windy light; camera lowers to follow the same adult entering frame. 5–14s: moving behind their shoulder along wet cobbles, cold air, natural light rain, the blank prop protected in hand; steady handheld camera, honest physical contact. 14–23s: track beside the same person safely walking around shallow puddles and uneven pavement; brief close-up of the prop, no impact and no immersion. 23–30s: still, clear final composition: adult stops at an anonymous city viewpoint and raises the blank prop for a photo-like framing; no actual photo, no claim of success, leave negative space for titles added later.
+Create a lively, cinematic vertical 9:16 shot sequence visualizing the four beats of a future real-life city test. 0–5s: dawn above an ordinary street in cool windy light; camera lowers to follow the same adult entering frame. 5–14s: moving behind their shoulder along wet cobbles, cold air, natural light rain, the blank prop protected in hand; steady handheld camera, honest physical contact. 14–23s: track beside the same person safely walking around shallow puddles and uneven pavement; brief close-up of the prop, no impact and no immersion. 23–30s: still, clear final composition: adult stops at an neutral unbranded outdoor clearing without buildings or monuments and raises the blank prop for a photo-like framing; no actual photo, no claim of success, leave negative space for titles added later.
 
 PERFORMANCE:
 A real human pace and weather response; not a video-game character. The prop keeps consistent size, color, position and ownership from start to finish.
@@ -5555,7 +5580,7 @@ VISUAL STYLE:
 Grounded live-action realism, natural rain/wind/lighting, documentary cinematic camera. The scenery is illustrative only and must not resemble a specific documented city test.
 
 AUDIO:
-No generated Russian speech, audio, captions or music. These are added later to authentic filmed footage, not to this preview.
+Picture only. No generated speech, captions, sound or music. The actual contest film uses only original speech and recorded action/ambience; NO music of any kind may be added to the competition film.
 
 NEGATIVE:
 NO HONOR logo, NO phone brand, no authentic durability test, no magic water deflection, no dangerous deliberate drops, no immersion, no boiling water, no falsely readable camera UI, no fictional test result, no fake city landmark, no montage titles, no watermark, no duplicated devices, no people morphing, no horizontal crop, no black borders.
@@ -5613,10 +5638,10 @@ START STATE:
 Continue immediately after part 1, adult moving forward along the same wet cobblestones, holding the blank rectangle at chest height. The previous 3 seconds are input context, not output to repeat.
 
 STORY FLOW:
-The camera tracks safely alongside the adult walking around ordinary shallow puddles and uneven paving. No falling, immersion or abrupt teleport. They reach a small generic overlook, stop, and gently raise the blank prop as if preparing to photograph the view. Keep the live-action documentary quality.
+The camera tracks safely alongside the adult walking around ordinary shallow puddles and uneven paving. No falling, immersion or abrupt teleport. They reach a neutral unbranded outdoor clearing, stop, and gently raise the blank prop as if preparing to photograph the view. Keep the live-action documentary quality.
 
 END STATE:
-A readable steady vertical over-shoulder composition with a dark unbranded placeholder in the right gloved hand, generic soft-focus city view behind; no generated screen/photo or text. Last seconds settle for a simple editorial cut to future REAL product footage.
+A readable steady vertical over-shoulder composition with a dark unbranded placeholder in the right gloved hand, generic soft-focus ground and vegetation behind; no generated screen/photo or text. Last seconds settle for a simple editorial cut to future REAL product footage.
 
 CAMERA / AUDIO:
 Vertical 9:16, continuous movement, overcast natural light, image only. No dialogue, native audio, subtitles, graphics, fake logo, real-looking city identity or fabricated technical result.
