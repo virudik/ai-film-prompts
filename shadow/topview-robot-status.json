@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-08T17:40:26Z",
+  "checked_at": "2026-11-08T17:50:22Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -23,11 +23,11 @@
       "29d5b28f0e744b9eb6bfbee47efb6ff9": 37,
       "dde2634b5fb54e789bb22dd4c95a75b6": 23,
       "caa5d8898f14442ea37c3278d156b3fe": 59,
-      "1a6244cf1ae747ef847d949a80d6133c": 698
+      "1a6244cf1ae747ef847d949a80d6133c": 699
     },
     "pages_scanned": 1,
     "tasks_seen": 20,
-    "api_requests": 5,
+    "api_requests": 6,
     "detail_failed": []
   },
   "cursor": {
@@ -45,19 +45,32 @@
       "29d5b28f0e744b9eb6bfbee47efb6ff9": 37,
       "dde2634b5fb54e789bb22dd4c95a75b6": 23,
       "caa5d8898f14442ea37c3278d156b3fe": 59,
-      "1a6244cf1ae747ef847d949a80d6133c": 698
+      "1a6244cf1ae747ef847d949a80d6133c": 699
     },
     "last_full_scan_at": "2026-11-08T15:20:22Z"
   },
   "slots": {
     "capacity": 6,
-    "occupied": 3,
-    "free": 3,
+    "occupied": 4,
+    "free": 2,
     "basis": "active unlimited video tasks on all owned boards",
     "complete": false,
     "active_not_unlimited": 0
   },
   "active_tasks": [
+    {
+      "task_id": "0b6dfa84e4524b438075f10f7205a846",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "unlimited": true,
+      "created_at": "2026-11-08 17:45:33",
+      "model": "Seedance 2.0",
+      "scene_id": null,
+      "mapping": "unknown_new",
+      "queue_count": 3360,
+      "wait_seconds": 148775,
+      "process_seconds": null
+    },
     {
       "task_id": "2d8efbd16f5146f48cd7a9a1ffb99369",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
@@ -65,10 +78,10 @@
       "unlimited": true,
       "created_at": "2026-11-08 17:31:40",
       "model": "Seedance 2.0",
-      "scene_id": null,
-      "mapping": "unknown_new",
-      "queue_count": 2654,
-      "wait_seconds": 106171,
+      "scene_id": 51,
+      "mapping": "task_map",
+      "queue_count": 2639,
+      "wait_seconds": 105575,
       "process_seconds": null
     },
     {
@@ -80,8 +93,8 @@
       "model": "Seedance 2.0",
       "scene_id": 51,
       "mapping": "task_map",
-      "queue_count": 1856,
-      "wait_seconds": 62970,
+      "queue_count": 1838,
+      "wait_seconds": 62375,
       "process_seconds": null
     },
     {
@@ -93,17 +106,17 @@
       "model": "Seedance 2.0",
       "scene_id": 51,
       "mapping": "task_map",
-      "queue_count": 761,
-      "wait_seconds": 19770,
+      "queue_count": 738,
+      "wait_seconds": 19174,
       "process_seconds": null
     }
   ],
   "unknown_new": [
     {
-      "task_id": "2d8efbd16f5146f48cd7a9a1ffb99369",
+      "task_id": "0b6dfa84e4524b438075f10f7205a846",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "status": "init",
-      "created_at": "2026-11-08 17:31:40",
+      "created_at": "2026-11-08 17:45:33",
       "model": "Seedance 2.0",
       "unlimited": true,
       "prompt_head": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal live-action rock-concert finale\n\nR"
@@ -205,23 +218,23 @@
     }
   ],
   "comparison": {
-    "monitor_checked_at": "2026-11-08T17:20:25Z",
-    "monitor_age_minutes": 20,
-    "monitor_occupied": 2,
-    "robot_occupied": 3,
+    "monitor_checked_at": "2026-11-08T17:40:26Z",
+    "monitor_age_minutes": 10,
+    "monitor_occupied": 3,
+    "robot_occupied": 4,
     "consistent": false,
     "monitor_may_lag": false,
     "differences": [
       {
         "type": "only_in_robot",
-        "task_id": "2d8efbd16f5146f48cd7a9a1ffb99369",
+        "task_id": "0b6dfa84e4524b438075f10f7205a846",
         "scene_id": null,
         "mapping": "unknown_new"
       },
       {
         "type": "occupied_differs",
-        "monitor": 2,
-        "robot": 3
+        "monitor": 3,
+        "robot": 4
       }
     ]
   }
