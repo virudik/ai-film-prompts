@@ -148,6 +148,29 @@
       "event_keys": [],
       "owner_event": null,
       "note": "Bounded wake batch: one distinct Create per ready item, at most account slot capacity, before each click. Failed, unknown, expiry and substantive refusal never reopen that item or raise the cap."
+    },
+    "250b715fe5ff0a22a543c1165f05e57cacfe47b43944830379e81e936738f8f4": {
+      "surface": "grok",
+      "provider_run_id": "grokbot-routine-e57554d4-e37d-5a96-849b-bb01ae42ed2d@2026-11-08T17:00:32.450Z",
+      "automation_id": "topview-grok",
+      "execution_instance_id": "a885aa8d-43d9-4e01-8a31-1f5f3d85f704",
+      "item_id": "S51A",
+      "submission_intent_id": "6a56f385-d01a-4bde-95e6-b6658d31ec36",
+      "intent_at": "2026-11-08T17:08:56Z",
+      "consumed": true,
+      "submission_cap": 6,
+      "submissions": [
+        {
+          "item_id": "S51A",
+          "submission_intent_id": "6a56f385-d01a-4bde-95e6-b6658d31ec36",
+          "intent_at": "2026-11-08T17:08:56Z",
+          "execution_instance_id": "a885aa8d-43d9-4e01-8a31-1f5f3d85f704",
+          "consumed": true
+        }
+      ],
+      "event_keys": [],
+      "owner_event": null,
+      "note": "Bounded wake batch: one distinct Create per ready item, at most account slot capacity, before each click. Failed, unknown, expiry and substantive refusal never reopen that item or raise the cap."
     }
   },
   "events": {}
