@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-08T23:20:27Z",
+  "checked_at": "2026-11-08T23:30:30Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -27,7 +27,7 @@
     },
     "pages_scanned": 1,
     "tasks_seen": 20,
-    "api_requests": 6,
+    "api_requests": 5,
     "detail_failed": []
   },
   "cursor": {
@@ -67,8 +67,8 @@
       "model": "Seedance 2.0",
       "scene_id": 51,
       "mapping": "task_map",
-      "queue_count": 3045,
-      "wait_seconds": 129538,
+      "queue_count": 3038,
+      "wait_seconds": 128934,
       "process_seconds": null
     },
     {
@@ -80,8 +80,8 @@
       "model": "Seedance 2.0",
       "scene_id": 51,
       "mapping": "task_map",
-      "queue_count": 2314,
-      "wait_seconds": 86338,
+      "queue_count": 2306,
+      "wait_seconds": 85734,
       "process_seconds": null
     },
     {
@@ -93,21 +93,13 @@
       "model": "Seedance 2.0",
       "scene_id": 51,
       "mapping": "task_map",
-      "queue_count": 1430,
-      "wait_seconds": 43137,
+      "queue_count": 1421,
+      "wait_seconds": 42533,
       "process_seconds": null
     }
   ],
   "unknown_new": [],
-  "finished_known": [
-    {
-      "task_id": "f3b8883f44b14a2ba432ce429ba02709",
-      "scene_id": 51,
-      "final_status": "success",
-      "completed_at": "2026-11-08 23:19:26",
-      "error_code": null
-    }
-  ],
+  "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
     {
@@ -203,23 +195,12 @@
     }
   ],
   "comparison": {
-    "monitor_checked_at": "2026-11-08T23:10:26Z",
+    "monitor_checked_at": "2026-11-08T23:20:27Z",
     "monitor_age_minutes": 10,
-    "monitor_occupied": 4,
+    "monitor_occupied": 3,
     "robot_occupied": 3,
-    "consistent": false,
+    "consistent": true,
     "monitor_may_lag": false,
-    "differences": [
-      {
-        "type": "only_in_monitor",
-        "task_id": "f3b8883f44b14a2ba432ce429ba02709",
-        "scene_id": 51
-      },
-      {
-        "type": "occupied_differs",
-        "monitor": 4,
-        "robot": 3
-      }
-    ]
+    "differences": []
   }
 }
