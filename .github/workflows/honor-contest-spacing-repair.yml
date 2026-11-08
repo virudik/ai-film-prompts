@@ -1,0 +1,54 @@
+name: Finish existing HONOR Scene5 synchronization
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/honor-contest-spacing-repair.yml']
+permissions:
+  contents: write
+concurrency:
+  group: honor-contest-sync-once
+  cancel-in-progress: false
+jobs:
+  finish:
+    if: github.actor == 'virudik'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      HOLDER: chatgpt:ordinary:79dd16b2-9780-466c-a616-33cb3eb1387d
+      ROOT_ACQUIRED: '2026-11-08T07:23:48Z'
+      PROJECT_ACQUIRED: '2026-11-08T07:38:13Z'
+      PHASE: apply
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Apply existing source patch with compact blank-line validation
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3; do
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            python3 - <<'PY'
+          from pathlib import Path
+          import textwrap
+          y=Path('.github/workflows/honor-contest-sync-once.yml').read_text()
+          code=textwrap.dedent(y.split("cat > /tmp/honor-sync.py <<'PY'\n",1)[1].split('\n          PY\n',1)[0])
+          before='new=pre+marker+intro+tabs+preview'
+          after="new=pre+marker+re.sub(r'\\n(?:[ \\t]*\\n){2,}', '\\n\\n', intro+tabs+preview)"
+          assert code.count(before)==1
+          code=code.replace(before,after)
+          check='if run.returncode:print(run.stdout+run.stderr);raise SystemExit(run.returncode)'
+          detail="if run.returncode:\n        print(run.stdout+run.stderr)\n        print((base/'project-status.json').read_text())\n        raise SystemExit(run.returncode)"
+          assert code.count(check)==1
+          Path('/tmp/honor-sync-repaired.py').write_text(code.replace(check,detail))
+          PY
+            python3 /tmp/honor-sync-repaired.py
+            git add projects/raznoe/reports projects/raznoe/work-resume-register.json projects/raznoe/video-prompts.md projects/raznoe/project-status.json projects/raznoe/HANDOFF.md projects/raznoe/canon-lock.json projects/raznoe/shadow projects/raznoe/archive/honor-contest-scene5-before-rules-sync.md
+            git diff --cached --check
+            git commit -m 'HONOR Scene5: publish verified 90s real-film plan, no music, preserve previous scenes'
+            if git push origin HEAD:main; then exit 0; fi
+          done
+          exit 1
