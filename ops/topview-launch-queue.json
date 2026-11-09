@@ -4334,7 +4334,7 @@
       "canonical_prompt_sha256": "e0ddcdfe3d8bbab38ce91e27c953fb752e42a4250c734de09a6b1766079793ed",
       "normalized_prompt_sha256": "562275cad8eacd90c005f076d897496f2662524b59ce826719ef502352f3cf4a",
       "priority": 0.01,
-      "state": "submitting",
+      "state": "submitted",
       "model": "Seedance 2.0",
       "model_id": "seedance-2.0-style",
       "duration_seconds": 15,
@@ -4418,66 +4418,8 @@
           "canonical_role": "ONLY the yellow note design and position: black loaf at left, milk carton at right, on the blank panel to the pilot RIGHT; ignore its Naboo scenery and depicted pose"
         }
       ],
-      "task_id": null,
-      "claim": {
-        "claim_id": "d8dcbbaa-ff6a-489b-ba8f-ff7d2eb76bba",
-        "claimed_at": "2026-11-09T08:14:28Z",
-        "claimed_by": "grok",
-        "execution_instance_id": "97b7e84b-cf70-41a1-8bb4-c11da41817d7",
-        "route_generation": 3,
-        "lease_holder": "grok:97b7e84b-cf70-41a1-8bb4-c11da41817d7",
-        "lease_acquired_at": "2026-11-09T08:14:28Z",
-        "source": "cursor_host owner card t410s2023",
-        "canonical_prompt_sha256": "e0ddcdfe3d8bbab38ce91e27c953fb752e42a4250c734de09a6b1766079793ed",
-        "normalized_prompt_sha256": "562275cad8eacd90c005f076d897496f2662524b59ce826719ef502352f3cf4a",
-        "preflight": {
-          "owner_authorized": true,
-          "prompt_match": true,
-          "input_sha_match": true,
-          "input_order_match": true,
-          "qc_passed": true,
-          "website_unlimited": true,
-          "credits_cost": 0,
-          "numeric_zero_displayed": false,
-          "unlimited_mode_selected": true,
-          "credits_cost_evidence": "selected_free_unlimited_current_form",
-          "ui_unlimited_label": "Безлимитный режим — бесплатно",
-          "paid_18_credit_mode_selected": false,
-          "paid_credit_mode_selected": false,
-          "quantity": 1,
-          "resolution": 720,
-          "aspect_ratio": "16:9"
-        },
-        "submission_intent_id": "b54c5861-3bb7-4649-b2cd-71093d286f7a",
-        "submission_intent_at": "2026-11-09T08:14:28Z",
-        "replay_forbidden": true,
-        "host_run": {
-          "namespace": "cursor_host",
-          "observation_source": "parent_shell_os_environ",
-          "field": "CURSOR_REQUEST_ID",
-          "value": "6c88e22c-61e1-4486-a945-db7e3997a5db",
-          "conversation_field": "CURSOR_CONVERSATION_ID",
-          "conversation_id": "1c1bf697-3c93-4068-b457-e90efdd5ef8f",
-          "owner_response_kind": "answered_card",
-          "owner_response_to_card_address": "t410s2023",
-          "owner_response_role": "user",
-          "current_owner_response_message_address": null
-        },
-        "provider_run_key": "8ba7fdb7a7277de3adc9853997fda9e5c943ea2604bc79ba643dd6e1e9b2bf29",
-        "owner_event_keys": [
-          "3be58d5d76505dcc8a3ed0961e9d2b92e40a1c588a7e6ee8216133c46bb04441"
-        ],
-        "ledger_path": "ops/launcher-run-ledger.json",
-        "trigger": "owner_command",
-        "owner_command": {
-          "quote": "Да, запускай 48 P2 и 52 P2 сейчас, бесплатный Unlimited, по одной попытке.",
-          "source": "cursor_host",
-          "at": "2026-11-09T09:01:00+01:00",
-          "owner_response_to_card_address": "t410s2023",
-          "owner_response_role": "user",
-          "current_owner_response_message_address": null
-        }
-      },
+      "task_id": "47804d4f777e4613b6187a7bff6e0dd0",
+      "claim": null,
       "depends_on_completed": [
         "S52-R2-SEED20-P1"
       ],
@@ -4502,7 +4444,17 @@
       "owner_approval": false,
       "film_acceptance": false,
       "hatch_sealed": false,
-      "hatch_note": "Hatch closing was not visible in the visual review and is not confirmed sealed. That caveat does not withdraw the owner continuation decision."
+      "hatch_note": "Hatch closing was not visible in the visual review and is not confirmed sealed. That caveat does not withdraw the owner continuation decision.",
+      "submitted_at": "2026-11-09T08:15:07Z",
+      "receipt": "reports/topview-queue-2026-10-16/S52-R2-SEED20-P2-20261109T081507Z.json",
+      "last_claim": {
+        "claim_id": "d8dcbbaa-ff6a-489b-ba8f-ff7d2eb76bba",
+        "claimed_at": "2026-11-09T08:14:28Z",
+        "execution_instance_id": "97b7e84b-cf70-41a1-8bb4-c11da41817d7",
+        "submission_intent_id": "b54c5861-3bb7-4649-b2cd-71093d286f7a",
+        "archive_file": "reports/topview-queue-2026-10-16/S52-R2-SEED20-P2-20261109T081507Z.json",
+        "archive_sha256": "9c91186d033ea7580df966727320db4421e71e5c0684c231da4ca71ae688f7d1"
+      }
     },
     {
       "id": "S52-R2-SEED20-P3",
