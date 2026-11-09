@@ -1,0 +1,105 @@
+{
+  "saved_at": "2026-11-09T16:09:20.743259+00:00",
+  "recovered_existing_images": 6,
+  "total_primary_stills": 7,
+  "new_generations": 0,
+  "video_submissions": 0,
+  "queue_unchanged": true,
+  "unrelated_scene_blocks_unchanged": true,
+  "stills": [
+    {
+      "scene_id": 75,
+      "path": "references/scenes/scene-75/S75-moon-river.png",
+      "preview": "references/scenes/scene-75/previews/S75-moon-river.webp",
+      "sha256": "82cf2a58e8c89ee641fb41e595815734a56b484da4f636ee5b2461929ab739d9",
+      "bytes": 2354190,
+      "generation_id": "f21aac40-dd80-419b-a4a7-4db43e615d28",
+      "file_id": "file_0000000083dc81f48bc0fd49d3f15af3",
+      "identity_paths": [
+        "references/full/vitalik.jpg"
+      ],
+      "scope": "first staged image, not complete coverage",
+      "qc_limitations": "Middle-gag costume/layout helper, not the fishing setup; bodily source is hidden, no nudity. Different setup/finish still needed."
+    },
+    {
+      "scene_id": 76,
+      "path": "references/scenes/scene-76/S76-kandibober.png",
+      "preview": "references/scenes/scene-76/previews/S76-kandibober.webp",
+      "sha256": "401a265a914ea5644e087edf3b44e58c44f10169e23d3c381a598d0f33de0f8a",
+      "bytes": 2231273,
+      "generation_id": "c81285b9-6378-4481-9db4-b6f1a8d2c4d1",
+      "file_id": "file_0000000039c08212bf6b214f9a71ad29",
+      "identity_paths": [
+        "references/full/vitalik.jpg"
+      ],
+      "scope": "first staged image, not complete coverage",
+      "qc_limitations": "Only the interview; the red headdress is a stylized authored exaggeration. Ice-fisher and Yaz frames still missing. Interviewer has no usable identity."
+    },
+    {
+      "scene_id": 77,
+      "path": "references/scenes/scene-77/S77-love-triangle.png",
+      "preview": "references/scenes/scene-77/previews/S77-love-triangle.webp",
+      "sha256": "d983630f247d8ba80003c7dbcabc576fe45b555a90ba51cf1d869dc8921b161f",
+      "bytes": 2406799,
+      "generation_id": "42aca3a0-c1da-4577-a304-88adcb7e5460",
+      "file_id": "file_00000000538c82109e5fc42a1e52c7da",
+      "identity_paths": [
+        "references/full/vitalik.jpg",
+        "references/full/lesha.jpg",
+        "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png"
+      ],
+      "scope": "first staged image, not complete coverage",
+      "qc_limitations": "Three adults and later reveal. Match exact individual sheets; this is not the initial two-shot or a continuous video."
+    },
+    {
+      "scene_id": 78,
+      "path": "references/scenes/scene-78/S78-mayonnaise-family.png",
+      "preview": "references/scenes/scene-78/previews/S78-mayonnaise-family.webp",
+      "sha256": "ff2103c750d878f2f9b0daffb16c9d42fa3890b5cde9eb31271250362c45a1e6",
+      "bytes": 2471891,
+      "generation_id": "3d128b86-fdd4-45c4-b097-1298476225d1",
+      "file_id": "file_00000000324881f48c9397416a9ef7cb",
+      "identity_paths": [
+        "references/full/vitalik.jpg",
+        "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+        "references/scenes/scene-66/S66-Alina-tatooine-sheet.png"
+      ],
+      "scope": "first staged image, not complete coverage",
+      "qc_limitations": "Exactly three specified family performers; ordinary small spoonfuls. Does not establish real eating behavior or product benefit."
+    },
+    {
+      "scene_id": 79,
+      "path": "references/scenes/scene-79/S79-chips-council.png",
+      "preview": "references/scenes/scene-79/previews/S79-chips-council.webp",
+      "sha256": "aba5a8b96c44fe286624da0eead53dd7a076d7116f3e4300b6159a1d7831a470",
+      "bytes": 2731483,
+      "generation_id": "6e931722-e271-4501-b835-6902ae50b87c",
+      "file_id": "file_0000000095f481f4b6c4da60fe2f6b2e",
+      "identity_paths": [
+        "references/full/vitalik.jpg",
+        "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+        "references/scenes/scene-66/S66-Alina-tatooine-sheet.png"
+      ],
+      "scope": "first staged image, not complete coverage",
+      "qc_limitations": "Three family performers with generic packets; not evidence of actual branded packaging, sound or sponsorship."
+    },
+    {
+      "scene_id": 80,
+      "path": "references/scenes/scene-80/S80-budget-luxury.png",
+      "preview": "references/scenes/scene-80/previews/S80-budget-luxury.webp",
+      "sha256": "ff8c23f4ef3ffc5ec140d7a19dceba9bb8aa8bbddad2864f32b83ba4f21a7f3c",
+      "bytes": 2787546,
+      "generation_id": "d2c75c45-ebff-425c-90df-78cfb2af0e2f",
+      "file_id": "file_00000000e8fc82468efa0ccb3a8e32b9",
+      "identity_paths": [
+        "references/full/vitalik.jpg",
+        "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+        "references/scenes/scene-66/S66-Alina-tatooine-sheet.png"
+      ],
+      "scope": "first staged image, not complete coverage",
+      "qc_limitations": "Group composition and new costumes; do not reproduce decorative handbag branding. Keep the actual product a cheap plain bag. Additional product macros remain open."
+    }
+  ],
+  "master_sha256": "3003d5e5de31ae5aa86ab94f948b4992ee5ee424c809aa15b120aa9c2290f6fb",
+  "work_still_open": true
+}

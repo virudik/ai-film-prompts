@@ -10000,16 +10000,17 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 **Контекст использования:** Отдельная пародия на силуэт персонажа на месяце. Только взрослый Виталик; не мальчик. Не связана настоящим видеостыком с 74. Неграфический бытовой юмор: источник струи всегда закрыт одеждой/месяцем, гениталий и обнажённых ягодиц нет.
 
-**Что происходит:** Виталик сидит на месяце с удочкой над красивой ночной рекой. Убирает удочку, поворачивается спиной и справляет малую нужду; зритель видит только силуэт и тонкую струйку из-за края месяца. Внизу крошечный робот раскрывает зонтик, а Виталик возвращается к рыбалке с прежним студийным пафосом.
+**Что происходит:** Виталик сидит на месяце с удочкой над красивой ночной рекой. Закрепляет удочку, сидя поворачивается спиной и справляет малую нужду; зритель видит только силуэт и тонкую струйку из-за края месяца. Внизу крошечный робот раскрывает зонтик, а Виталик возвращается к рыбалке с прежним студийным пафосом.
 
-**Готовность:** DRAFT. Тексты подготовлены по команде 09.11; отдельный новый постановочный PNG ещё требуется. Это НЕ готовый ролик и НЕ запись в очередь. Основная версия — 30 с Wan 3.0; тот же текст на Seedance 2.5 только по выбору владельца. Альтернатива — 2×15 с Seedance 2.0: P2 ждёт настоящие последние 3 с своей P1. Редакционная приёмка не выполнена.
+**Готовность:** DRAFT. Исходные лица и первый постановочный PNG сохранены и связаны с промптами. Дополнительные ракурсы и приёмка сходства ещё открыты; это НЕ готовое видео и НЕ разрешение очереди. 30 с Wan 3.0 / Seedance 2.5; альтернатива 2×15 с Seedance 2.0, P2 ждёт настоящий конец P1.
 
-**Референсы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-75/S75-moon-river.png`. Для нового PNG пока сохранено только точное задание; не выдавать его за изображение.
+**Референсы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-75/S75-moon-river.png`. Постановочный PNG сохранён; это не полный комплект всех ракурсов и не приёмка владельца.
 
 **Источники / авторская переработка:** `reports/parody-scenes-source-2026-11-09.json`. Реплики и гэги постановки не являются полной транскрипцией исходных роликов; непрерывный просмотр/звук всех оригиналов не подтверждены.
 
 <div class="scene-ref-gallery">
-<figure><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/full/vitalik.jpg" alt="@Image1 — точная внешность"></a><figcaption>@Image1 — точная внешность, существующий файл</figcaption></figure>
+<figure><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/full/vitalik.jpg" alt="@Image1 — Виталик" loading="lazy"></a><figcaption>@Image1 — Виталик, только лицо; возраст сохраняется</figcaption></figure>
+<figure><a href="references/scenes/scene-75/S75-moon-river.png" target="_blank" rel="noopener"><img src="references/scenes/scene-75/previews/S75-moon-river.webp" alt="@Image2 — постановочный кадр сцены 75" loading="lazy" width="480"></a><figcaption>@Image2 — постановка, не редакционная приёмка</figcaption></figure>
 </div>
 
 <div class="engine-tabs" data-scene="75">
@@ -10023,29 +10024,29 @@ Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9
 Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic parody with clear physical comedy
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
-@Image2 = references/scenes/scene-75/S75-moon-river.png — single new scene staging and props, never overrides identity.
-Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+@Image1 = references/full/vitalik.jpg — exact Виталик facial identity only; costume is defined below, never inherited from the source sheet.
+@Image2 = references/scenes/scene-75/S75-moon-river.png — single scene composition, props and the scene-specific wardrobe; never overrides exact facial identity or source age. This helper is not a literal first frame.
+Facial references outrank the staged image for identity and age. Do not animate a slideshow or reproduce the source sheet costumes.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-VITALIK: adult stocky fair-skinned man, short light-brown hair, round face and light stubble, exact @Image1 identity. Black tunic and long opaque black tabard, closed brown trousers, boots. Never a child. The tabard and opaque crescent rim conceal the pelvic area in every frame; no visible genitalia, exposed buttocks or sexual framing. One small fictional faceless maintenance droid by the river.
+VITALIK @Image1: the exact adult fair man, round face, short light-brown hair and light stubble. Use facial identity only, not the Jedi outfit. Burgundy opaque embroidered long house robe, grey scarf, closed checked pyjama trousers, soft slippers and a long soft nightcap. All clothes stay on; robe and crescent rim conceal the pelvic area. Only one adult human and a tiny fictional faceless maintenance droid far below. No child, nudity or sexual framing.
 
 SCENE / SPACE:
-Dreamlike night sky, luminous solid crescent with a stable broad inner ledge, layered soft clouds; a real-looking winding river far below, blue reflections and one tiny dock. Not a bathroom close-up.
+One giant solid glowing crescent above a distant calm river and trees at night. Wide stable inner ledge supports the adult sitting pose. The far river/dock and maintenance droid are much smaller than the crescent. The costume/composition reference depicts the middle gag, NOT the required first frame. The first frame still has a fishing rod; create it from this explicit description.
 
 START STATE:
-Adult Vitalik sits safely on the crescent ledge with boots supported, fishing line hanging toward the distant river.
+Adult Vitalik sits steadily on the crescent, fully dressed in robe and pyjamas, holding one fishing rod with a line hanging toward the distant river.
 
 STORY FLOW:
-0–5s: Slow elegant pullback reveals the familiar crescent-and-fishing silhouette, but the person is adult Vitalik in his black outfit. Clouds drift naturally.
-5–10s: He checks the unmoving line, props the rod in a fixed notch, turns his back to camera and braces both boots on the wide inner crescent ledge.
-10–15s: In a wide rear view a fine stream begins from BEHIND the opaque crescent rim and falls toward the river. His hands and pelvis remain hidden; no nudity, visible source, close-up or erotic emphasis.
-15–21s: Continue the exact wide rear pose and fine falling stream. Cut to the tiny dock far below as small ripples appear; nothing contacts people.
-21–25s: A small maintenance droid looks up and opens a tiny umbrella with ridiculous dignity. One clean mechanical click.
-25–30s: Return to the crescent after the stream has stopped. Vitalik sits, takes the same rod and resumes a majestic studio pose. The droid's umbrella remains open in the distant foreground reflection.
+0–5s: Elegant wide pullback reveals an adult man in a burgundy night robe sitting on a glowing crescent, fishing line hanging toward the river.
+5–10s: He secures the rod in a notch and turns his upper body away while staying safely seated. Opaque robe and crescent cover the pelvic region.
+10–15s: Stay in a distant rear three-quarter shot. A thin stylized stream falls from BEHIND the opaque crescent edge into the empty river; its bodily source remains completely hidden.
+15–21s: Continue the same distant seated pose, same covered costume and fine stream. Cut briefly to small river ripples; no contact with any person.
+21–25s: On the far dock, a tiny faceless maintenance droid looks up and opens its umbrella with one solemn mechanical click.
+25–30s: Back on the crescent after the stream stops: Vitalik resumes fishing with the same rod. Calm night reflections, no exposed body detail.
 
 END STATE:
-The stream has stopped, Vitalik sits back on the crescent with his fishing rod. Far below the small droid keeps an open umbrella; broad calm night composition closes the gag.
+The stream has stopped. Fully dressed Vitalik resumes his fishing pose; far below the little droid keeps its umbrella open.
 
 CAMERA / LIGHT / PERFORMANCE:
 Very wide composited night tableaux and one distant insert of the droid. Never zoom into the pelvic region. Keep all bodily-source detail occluded. Natural scale and gentle camera drift. Comedy comes from sincere performance, not mugging or ugly facial distortion.
@@ -10073,26 +10074,26 @@ Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9
 Optimized for Seedance 2.0 | Photoreal cinematic parody with clear physical comedy
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
-@Image2 = references/scenes/scene-75/S75-moon-river.png — single new scene staging and props, never overrides identity.
-Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+@Image1 = references/full/vitalik.jpg — exact Виталик facial identity only; costume is defined below, never inherited from the source sheet.
+@Image2 = references/scenes/scene-75/S75-moon-river.png — single scene composition, props and the scene-specific wardrobe; never overrides exact facial identity or source age. This helper is not a literal first frame.
+Facial references outrank the staged image for identity and age. Do not animate a slideshow or reproduce the source sheet costumes.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-VITALIK: adult stocky fair-skinned man, short light-brown hair, round face and light stubble, exact @Image1 identity. Black tunic and long opaque black tabard, closed brown trousers, boots. Never a child. The tabard and opaque crescent rim conceal the pelvic area in every frame; no visible genitalia, exposed buttocks or sexual framing. One small fictional faceless maintenance droid by the river.
+VITALIK @Image1: the exact adult fair man, round face, short light-brown hair and light stubble. Use facial identity only, not the Jedi outfit. Burgundy opaque embroidered long house robe, grey scarf, closed checked pyjama trousers, soft slippers and a long soft nightcap. All clothes stay on; robe and crescent rim conceal the pelvic area. Only one adult human and a tiny fictional faceless maintenance droid far below. No child, nudity or sexual framing.
 
 SCENE / SPACE:
-Dreamlike night sky, luminous solid crescent with a stable broad inner ledge, layered soft clouds; a real-looking winding river far below, blue reflections and one tiny dock. Not a bathroom close-up.
+One giant solid glowing crescent above a distant calm river and trees at night. Wide stable inner ledge supports the adult sitting pose. The far river/dock and maintenance droid are much smaller than the crescent. The costume/composition reference depicts the middle gag, NOT the required first frame. The first frame still has a fishing rod; create it from this explicit description.
 
 START STATE:
-Adult Vitalik sits safely on the crescent ledge with boots supported, fishing line hanging toward the distant river.
+Adult Vitalik sits steadily on the crescent, fully dressed in robe and pyjamas, holding one fishing rod with a line hanging toward the distant river.
 
 STORY FLOW:
-0–5s: Slow elegant pullback reveals the familiar crescent-and-fishing silhouette, but the person is adult Vitalik in his black outfit. Clouds drift naturally.
-5–10s: He checks the unmoving line, props the rod in a fixed notch, turns his back to camera and braces both boots on the wide inner crescent ledge.
-10–15s: In a wide rear view a fine stream begins from BEHIND the opaque crescent rim and falls toward the river. His hands and pelvis remain hidden; no nudity, visible source, close-up or erotic emphasis.
+0–5s: Elegant wide pullback reveals an adult man in a burgundy night robe sitting on a glowing crescent, fishing line hanging toward the river.
+5–10s: He secures the rod in a notch and turns his upper body away while staying safely seated. Opaque robe and crescent cover the pelvic region.
+10–15s: Stay in a distant rear three-quarter shot. A thin stylized stream falls from BEHIND the opaque crescent edge into the empty river; its bodily source remains completely hidden.
 
 END STATE:
-He is turned away, standing securely on the inner ledge, lower torso fully occluded by his opaque tabard and the crescent. A thin stream falls from behind the opaque rim; its bodily origin is never visible.
+The rod is secured beside him; he remains seated and turns away. Robe, hands and crescent fully conceal the source of a thin non-graphic stream.
 
 CAMERA / LIGHT / PERFORMANCE:
 Very wide composited night tableaux and one distant insert of the droid. Never zoom into the pelvic region. Keep all bodily-source detail occluded. Natural scale and gentle camera drift. Comedy comes from sincere performance, not mugging or ugly facial distortion.
@@ -10109,34 +10110,34 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### 75 · Seedance 2.0 часть 2
 
-**Входы:** @Video1 — `actual final 3 seconds of Scene 75 Seedance Part 1`; @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-75/S75-moon-river.png`.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-75/S75-moon-river.png` @Video1 — последние 3 с настоящего результата своей P1, когда он существует.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal cinematic parody with clear physical comedy
 
 REFERENCES / AUTHORITY:
+@Image1 = references/full/vitalik.jpg — exact Виталик facial identity only; costume is defined below, never inherited from the source sheet.
+@Image2 = references/scenes/scene-75/S75-moon-river.png — single scene composition, props and the scene-specific wardrobe; never overrides exact facial identity or source age. This helper is not a literal first frame.
 @Video1 = actual final 3 seconds of Scene 75 Seedance Part 1 — real motion/pose continuity, not a generated substitute.
-@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
-@Image2 = references/scenes/scene-75/S75-moon-river.png — single new scene staging and props, never overrides identity.
-Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+Facial references outrank the staged image for identity and age. Do not animate a slideshow or reproduce the source sheet costumes.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-VITALIK: adult stocky fair-skinned man, short light-brown hair, round face and light stubble, exact @Image1 identity. Black tunic and long opaque black tabard, closed brown trousers, boots. Never a child. The tabard and opaque crescent rim conceal the pelvic area in every frame; no visible genitalia, exposed buttocks or sexual framing. One small fictional faceless maintenance droid by the river.
+VITALIK @Image1: the exact adult fair man, round face, short light-brown hair and light stubble. Use facial identity only, not the Jedi outfit. Burgundy opaque embroidered long house robe, grey scarf, closed checked pyjama trousers, soft slippers and a long soft nightcap. All clothes stay on; robe and crescent rim conceal the pelvic area. Only one adult human and a tiny fictional faceless maintenance droid far below. No child, nudity or sexual framing.
 
 SCENE / SPACE:
-Dreamlike night sky, luminous solid crescent with a stable broad inner ledge, layered soft clouds; a real-looking winding river far below, blue reflections and one tiny dock. Not a bathroom close-up.
+One giant solid glowing crescent above a distant calm river and trees at night. Wide stable inner ledge supports the adult sitting pose. The far river/dock and maintenance droid are much smaller than the crescent. The costume/composition reference depicts the middle gag, NOT the required first frame. The first frame still has a fishing rod; create it from this explicit description.
 
 START STATE:
-Continue the actual last moment of @Video1, without replaying it. Target continuity: He is turned away, standing securely on the inner ledge, lower torso fully occluded by his opaque tabard and the crescent. A thin stream falls from behind the opaque rim; its bodily origin is never visible.
+The rod is secured beside him; he remains seated and turns away. Robe, hands and crescent fully conceal the source of a thin non-graphic stream.
 
 STORY FLOW:
-0–6s: Continue the exact wide rear pose and fine falling stream. Cut to the tiny dock far below as small ripples appear; nothing contacts people.
-6–10s: A small maintenance droid looks up and opens a tiny umbrella with ridiculous dignity. One clean mechanical click.
-10–15s: Return to the crescent after the stream has stopped. Vitalik sits, takes the same rod and resumes a majestic studio pose. The droid's umbrella remains open in the distant foreground reflection.
+0–6s: Continue the same distant seated pose, same covered costume and fine stream. Cut briefly to small river ripples; no contact with any person.
+6–10s: On the far dock, a tiny faceless maintenance droid looks up and opens its umbrella with one solemn mechanical click.
+10–15s: Back on the crescent after the stream stops: Vitalik resumes fishing with the same rod. Calm night reflections, no exposed body detail.
 
 END STATE:
-The stream has stopped, Vitalik sits back on the crescent with his fishing rod. Far below the small droid keeps an open umbrella; broad calm night composition closes the gag.
+The stream has stopped. Fully dressed Vitalik resumes his fishing pose; far below the little droid keeps its umbrella open.
 
 CAMERA / LIGHT / PERFORMANCE:
 Very wide composited night tableaux and one distant insert of the droid. Never zoom into the pelvic region. Keep all bodily-source detail occluded. Natural scale and gentle camera drift. Comedy comes from sincere performance, not mugging or ugly facial distortion.
@@ -10167,14 +10168,15 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 **Что происходит:** Виталик в нелепо высоком красном кандибобере даёт серьёзное интервью. После резкой склейки он лежит у нарисованной проруби и невозмутимо тянет «Норма-а-ально». Затем оказывается в лодке, показывает невероятно довольным видом крупную светящуюся рыбу и кричит про космического язя.
 
-**Готовность:** DRAFT. Тексты подготовлены по команде 09.11; отдельный новый постановочный PNG ещё требуется. Это НЕ готовый ролик и НЕ запись в очередь. Основная версия — 30 с Wan 3.0; тот же текст на Seedance 2.5 только по выбору владельца. Альтернатива — 2×15 с Seedance 2.0: P2 ждёт настоящие последние 3 с своей P1. Редакционная приёмка не выполнена.
+**Готовность:** DRAFT. Исходные лица и первый постановочный PNG сохранены и связаны с промптами. Дополнительные ракурсы и приёмка сходства ещё открыты; это НЕ готовое видео и НЕ разрешение очереди. 30 с Wan 3.0 / Seedance 2.5; альтернатива 2×15 с Seedance 2.0, P2 ждёт настоящий конец P1.
 
-**Референсы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-76/S76-kandibober.png`. Для нового PNG пока сохранено только точное задание; не выдавать его за изображение.
+**Референсы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-76/S76-kandibober.png`. Постановочный PNG сохранён; это не полный комплект всех ракурсов и не приёмка владельца.
 
 **Источники / авторская переработка:** `reports/parody-scenes-source-2026-11-09.json`. Реплики и гэги постановки не являются полной транскрипцией исходных роликов; непрерывный просмотр/звук всех оригиналов не подтверждены.
 
 <div class="scene-ref-gallery">
-<figure><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/full/vitalik.jpg" alt="@Image1 — точная внешность"></a><figcaption>@Image1 — точная внешность, существующий файл</figcaption></figure>
+<figure><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/full/vitalik.jpg" alt="@Image1 — Виталик" loading="lazy"></a><figcaption>@Image1 — Виталик, только лицо; возраст сохраняется</figcaption></figure>
+<figure><a href="references/scenes/scene-76/S76-kandibober.png" target="_blank" rel="noopener"><img src="references/scenes/scene-76/previews/S76-kandibober.webp" alt="@Image2 — постановочный кадр сцены 76" loading="lazy" width="480"></a><figcaption>@Image2 — постановка, не редакционная приёмка</figcaption></figure>
 </div>
 
 <div class="engine-tabs" data-scene="76">
@@ -10188,12 +10190,12 @@ Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9
 Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic parody with clear physical comedy
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
-@Image2 = references/scenes/scene-76/S76-kandibober.png — single new scene staging and props, never overrides identity.
-Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+@Image1 = references/full/vitalik.jpg — exact Виталик facial identity only; costume is defined below, never inherited from the source sheet.
+@Image2 = references/scenes/scene-76/S76-kandibober.png — single scene composition, props and the scene-specific wardrobe; never overrides exact facial identity or source age. This helper is not a literal first frame.
+Facial references outrank the staged image for identity and age. Do not animate a slideshow or reproduce the source sheet costumes.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-VITALIK: same adult stocky man from @Image1, round fair face, short light-brown hair, light stubble. Black tunic, leather tabard, brown trousers and boots; for the interview ONLY add one very tall sculptural crimson felt hat with folded loops. Do not copy the real interviewee's face. Anonymous interviewer's hand and microphone only; fishing droid remains offscreen.
+VITALIK @Image1: exact adult fair man, round face, short light-brown hair and stubble. First gag: modern charcoal winter coat and one absurdly tall RED embroidered ceremonial hat; it is an authored exaggeration of the meme headgear, not a beaver costume. Second gag: plain winter fishing coat, insulated trousers and wool hat. Third gag: ordinary dark fishing jacket and cap. Preserve one face through hard cuts; no Jedi outfit. The interviewer is only an offscreen voice/hand; no additional identifiable performer is needed.
 
 SCENE / SPACE:
 Three clearly separated parody sets: overcast pedestrian street; safe theatrical ice set with painted fishing hole and no real thin-ice danger; a small stable fishing boat on a dawn river. These are editorial hard cuts, not an instant geographic teleport within one take.
@@ -10237,12 +10239,12 @@ Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9
 Optimized for Seedance 2.0 | Photoreal cinematic parody with clear physical comedy
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
-@Image2 = references/scenes/scene-76/S76-kandibober.png — single new scene staging and props, never overrides identity.
-Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+@Image1 = references/full/vitalik.jpg — exact Виталик facial identity only; costume is defined below, never inherited from the source sheet.
+@Image2 = references/scenes/scene-76/S76-kandibober.png — single scene composition, props and the scene-specific wardrobe; never overrides exact facial identity or source age. This helper is not a literal first frame.
+Facial references outrank the staged image for identity and age. Do not animate a slideshow or reproduce the source sheet costumes.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-VITALIK: same adult stocky man from @Image1, round fair face, short light-brown hair, light stubble. Black tunic, leather tabard, brown trousers and boots; for the interview ONLY add one very tall sculptural crimson felt hat with folded loops. Do not copy the real interviewee's face. Anonymous interviewer's hand and microphone only; fishing droid remains offscreen.
+VITALIK @Image1: exact adult fair man, round face, short light-brown hair and stubble. First gag: modern charcoal winter coat and one absurdly tall RED embroidered ceremonial hat; it is an authored exaggeration of the meme headgear, not a beaver costume. Second gag: plain winter fishing coat, insulated trousers and wool hat. Third gag: ordinary dark fishing jacket and cap. Preserve one face through hard cuts; no Jedi outfit. The interviewer is only an offscreen voice/hand; no additional identifiable performer is needed.
 
 SCENE / SPACE:
 Three clearly separated parody sets: overcast pedestrian street; safe theatrical ice set with painted fishing hole and no real thin-ice danger; a small stable fishing boat on a dawn river. These are editorial hard cuts, not an instant geographic teleport within one take.
@@ -10272,20 +10274,20 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### 76 · Seedance 2.0 часть 2
 
-**Входы:** @Video1 — `actual final 3 seconds of Scene 76 Seedance Part 1`; @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-76/S76-kandibober.png`.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-76/S76-kandibober.png` @Video1 — последние 3 с настоящего результата своей P1, когда он существует.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal cinematic parody with clear physical comedy
 
 REFERENCES / AUTHORITY:
+@Image1 = references/full/vitalik.jpg — exact Виталик facial identity only; costume is defined below, never inherited from the source sheet.
+@Image2 = references/scenes/scene-76/S76-kandibober.png — single scene composition, props and the scene-specific wardrobe; never overrides exact facial identity or source age. This helper is not a literal first frame.
 @Video1 = actual final 3 seconds of Scene 76 Seedance Part 1 — real motion/pose continuity, not a generated substitute.
-@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
-@Image2 = references/scenes/scene-76/S76-kandibober.png — single new scene staging and props, never overrides identity.
-Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+Facial references outrank the staged image for identity and age. Do not animate a slideshow or reproduce the source sheet costumes.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-VITALIK: same adult stocky man from @Image1, round fair face, short light-brown hair, light stubble. Black tunic, leather tabard, brown trousers and boots; for the interview ONLY add one very tall sculptural crimson felt hat with folded loops. Do not copy the real interviewee's face. Anonymous interviewer's hand and microphone only; fishing droid remains offscreen.
+VITALIK @Image1: exact adult fair man, round face, short light-brown hair and stubble. First gag: modern charcoal winter coat and one absurdly tall RED embroidered ceremonial hat; it is an authored exaggeration of the meme headgear, not a beaver costume. Second gag: plain winter fishing coat, insulated trousers and wool hat. Third gag: ordinary dark fishing jacket and cap. Preserve one face through hard cuts; no Jedi outfit. The interviewer is only an offscreen voice/hand; no additional identifiable performer is needed.
 
 SCENE / SPACE:
 Three clearly separated parody sets: overcast pedestrian street; safe theatrical ice set with painted fishing hole and no real thin-ice danger; a small stable fishing boat on a dawn river. These are editorial hard cuts, not an instant geographic teleport within one take.
@@ -10330,16 +10332,17 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 **Что происходит:** Виталик сообщает Алексею об отказе Маши Р. Алексей отрицает её чувства. Маша Р появляется из-за садового забора и сама говорит Алексею: «Да я люблю тебя!» После паузы Виталик достаёт ложку: «А я люблю майонез». Алексей недоумённо смотрит в камеру. Сохранены исходные роли реплик: признание произносит третий персонаж, Маша Р.
 
-**Готовность:** DRAFT. Тексты подготовлены по команде 09.11; отдельный новый постановочный PNG ещё требуется. Это НЕ готовый ролик и НЕ запись в очередь. Основная версия — 30 с Wan 3.0; тот же текст на Seedance 2.5 только по выбору владельца. Альтернатива — 2×15 с Seedance 2.0: P2 ждёт настоящие последние 3 с своей P1. Редакционная приёмка не выполнена.
+**Готовность:** DRAFT. Исходные лица и первый постановочный PNG сохранены и связаны с промптами. Дополнительные ракурсы и приёмка сходства ещё открыты; это НЕ готовое видео и НЕ разрешение очереди. 30 с Wan 3.0 / Seedance 2.5; альтернатива 2×15 с Seedance 2.0, P2 ждёт настоящий конец P1.
 
-**Референсы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/full/lesha.jpg`; @Image3 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image4 — `references/scenes/scene-77/S77-love-triangle.png`. Для нового PNG пока сохранено только точное задание; не выдавать его за изображение.
+**Референсы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/full/lesha.jpg`; @Image3 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image4 — `references/scenes/scene-77/S77-love-triangle.png`. Постановочный PNG сохранён; это не полный комплект всех ракурсов и не приёмка владельца.
 
 **Источники / авторская переработка:** `reports/parody-scenes-source-2026-11-09.json`. Реплики и гэги постановки не являются полной транскрипцией исходных роликов; непрерывный просмотр/звук всех оригиналов не подтверждены.
 
 <div class="scene-ref-gallery">
-<figure><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/full/vitalik.jpg" alt="@Image1 — Виталик"></a><figcaption>@Image1 — Виталик, только лицо; одежда по сцене</figcaption></figure>
-<figure><a href="references/full/lesha.jpg" target="_blank" rel="noopener"><img src="references/full/lesha.jpg" alt="@Image2 — Алексей (Лёша)"></a><figcaption>@Image2 — Алексей (Лёша), только лицо; одежда по сцене</figcaption></figure>
-<figure><a href="references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png" alt="@Image3 — Маша Р"></a><figcaption>@Image3 — Маша Р, только лицо; одежда по сцене</figcaption></figure>
+<figure><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/full/vitalik.jpg" alt="@Image1 — Виталик" loading="lazy"></a><figcaption>@Image1 — Виталик, только лицо; возраст сохраняется</figcaption></figure>
+<figure><a href="references/full/lesha.jpg" target="_blank" rel="noopener"><img src="references/full/lesha.jpg" alt="@Image2 — Алексей (Лёша)" loading="lazy"></a><figcaption>@Image2 — Алексей (Лёша), только лицо; возраст сохраняется</figcaption></figure>
+<figure><a href="references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png" alt="@Image3 — Маша Р" loading="lazy"></a><figcaption>@Image3 — Маша Р, только лицо; возраст сохраняется</figcaption></figure>
+<figure><a href="references/scenes/scene-77/S77-love-triangle.png" target="_blank" rel="noopener"><img src="references/scenes/scene-77/previews/S77-love-triangle.webp" alt="@Image4 — постановочный кадр сцены 77" loading="lazy" width="480"></a><figcaption>@Image4 — постановка, не редакционная приёмка</figcaption></figure>
 </div>
 
 <div class="engine-tabs" data-scene="77">
@@ -10353,17 +10356,17 @@ Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9
 Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic parody with clear physical comedy
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/vitalik.jpg — exact Vitalik facial identity only; new clothing as explicitly described below.
-@Image2 = references/full/lesha.jpg — exact adult Alexey / Lesha facial identity only; wavy brown hair and moustache, new clothing below.
-@Image3 = references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png — exact adult Masha R facial identity only; new modest clothing below.
-@Image4 = references/scenes/scene-77/S77-love-triangle.png — single new scene staging and props, never overrides identity.
-Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+@Image1 = references/full/vitalik.jpg — exact Виталик facial identity only; costume is defined below, never inherited from the source sheet.
+@Image2 = references/full/lesha.jpg — exact Алексей (Лёша) facial identity only; costume is defined below, never inherited from the source sheet.
+@Image3 = references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png — exact Маша Р facial identity only; costume is defined below, never inherited from the source sheet.
+@Image4 = references/scenes/scene-77/S77-love-triangle.png — single scene composition, props and the scene-specific wardrobe; never overrides exact facial identity or source age. This helper is not a literal first frame.
+Facial references outrank the staged image for identity and age. Do not animate a slideshow or reproduce the source sheet costumes.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-VITALIK @Image1: adult fair man, round face, short light-brown hair, light stubble; navy casual jacket, light grey shirt and dark trousers. ALEXEY / LESHA @Image2: adult slim fair man, short wavy brown hair and distinct brown moustache; olive corduroy jacket, cream shirt and dark trousers. MASHA R @Image3: adult fair woman, long wavy copper-red hair and bangs; modest teal wool coat and burgundy scarf. Preserve the exact facial identities from their individual sheets ONLY, not the source Jedi/Tatooine clothing. Exactly three ADULT actors. No Alina, no child, no Serega, no alien substitute, no kiss or erotic action. Never blend faces.
+VITALIK @Image1: exact adult fair man, round face, short light-brown hair, light stubble; long dark charcoal coat with subtle gold star embroidery, burgundy scarf and closed dark trousers. ALEXEY / LESHA @Image2: exact adult slim fair face, wavy brown hair and distinct brown moustache; cocoa-brown textured hooded coat and closed trousers. MASHA R @Image3: adult fair woman, long wavy copper-red hair and bangs; modest burgundy dress with gold star details and a beige shawl. Use facial identities ONLY; these are scene-specific costumes, not the source Jedi/Tatooine uniforms. Exactly three ADULT actors, no Alina or other child, no Serega or alien substitute. No kiss or erotic action. Never blend faces.
 
 SCENE / SPACE:
-Ordinary waist-high weathered wooden garden fence beside an apple tree, with a single absurdly distant spaceport antenna on the horizon. Warm overcast daylight, domestic setting rather than a grand palace. Two men remain in front; the adult Masha R is initially hidden behind the fence.
+Rustic waist-high wooden garden fence and apple-tree branches against a warm sunset with one distant fictional ringed planet. The two adult men remain in front of the fence on one axis, Masha R starts hidden behind it. The supplied three-person image is the later reveal/identity-layout helper, not the initial two-shot. No rain or transparent clothes.
 
 START STATE:
 Vitalik left and Alexey right face each other in a stable medium two-shot in front of the garden fence. The adult Masha R is not yet visible.
@@ -10373,7 +10376,7 @@ STORY FLOW:
 8–15s: Reverse close-medium on Alexey: «Да она не может любить меня!» He shakes his head once with absurd dramatic certainty. Keep Vitalik visible at the edge to preserve geography.
 15–19s: Continue the reverse angle. Vitalik sharply corrects him: «Думает, что любит тебя!» One shot/reverse shot, no speaker swapping.
 19–24s: The adult Masha R rises from behind the wooden fence into the central gap and shouts directly at Alexey «Да я люблю тебя!» Her line is the emotional climax; both men stop moving.
-24–30s: A deliberate one-second silence. Vitalik takes one small unbranded mayonnaise jar and spoon from his jacket pocket: «А я люблю майонез». Alexey looks into the lens with a completely dry expression. No kiss or new line.
+24–30s: A deliberate one-second silence. Vitalik takes one small unbranded mayonnaise jar and spoon from his coat pocket: «А я люблю майонез». Alexey looks into the lens with a completely dry expression. No kiss or new line.
 
 END STATE:
 All three are visible. Vitalik holds a small mayonnaise jar and spoon; Alexey stares deadpan into camera, Masha R silently waits behind the fence. Hold one comic beat without further speech.
@@ -10404,17 +10407,17 @@ Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9
 Optimized for Seedance 2.0 | Photoreal cinematic parody with clear physical comedy
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/vitalik.jpg — exact Vitalik facial identity only; new clothing as explicitly described below.
-@Image2 = references/full/lesha.jpg — exact adult Alexey / Lesha facial identity only; wavy brown hair and moustache, new clothing below.
-@Image3 = references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png — exact adult Masha R facial identity only; new modest clothing below.
-@Image4 = references/scenes/scene-77/S77-love-triangle.png — single new scene staging and props, never overrides identity.
-Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+@Image1 = references/full/vitalik.jpg — exact Виталик facial identity only; costume is defined below, never inherited from the source sheet.
+@Image2 = references/full/lesha.jpg — exact Алексей (Лёша) facial identity only; costume is defined below, never inherited from the source sheet.
+@Image3 = references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png — exact Маша Р facial identity only; costume is defined below, never inherited from the source sheet.
+@Image4 = references/scenes/scene-77/S77-love-triangle.png — single scene composition, props and the scene-specific wardrobe; never overrides exact facial identity or source age. This helper is not a literal first frame.
+Facial references outrank the staged image for identity and age. Do not animate a slideshow or reproduce the source sheet costumes.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-VITALIK @Image1: adult fair man, round face, short light-brown hair, light stubble; navy casual jacket, light grey shirt and dark trousers. ALEXEY / LESHA @Image2: adult slim fair man, short wavy brown hair and distinct brown moustache; olive corduroy jacket, cream shirt and dark trousers. MASHA R @Image3: adult fair woman, long wavy copper-red hair and bangs; modest teal wool coat and burgundy scarf. Preserve the exact facial identities from their individual sheets ONLY, not the source Jedi/Tatooine clothing. Exactly three ADULT actors. No Alina, no child, no Serega, no alien substitute, no kiss or erotic action. Never blend faces.
+VITALIK @Image1: exact adult fair man, round face, short light-brown hair, light stubble; long dark charcoal coat with subtle gold star embroidery, burgundy scarf and closed dark trousers. ALEXEY / LESHA @Image2: exact adult slim fair face, wavy brown hair and distinct brown moustache; cocoa-brown textured hooded coat and closed trousers. MASHA R @Image3: adult fair woman, long wavy copper-red hair and bangs; modest burgundy dress with gold star details and a beige shawl. Use facial identities ONLY; these are scene-specific costumes, not the source Jedi/Tatooine uniforms. Exactly three ADULT actors, no Alina or other child, no Serega or alien substitute. No kiss or erotic action. Never blend faces.
 
 SCENE / SPACE:
-Ordinary waist-high weathered wooden garden fence beside an apple tree, with a single absurdly distant spaceport antenna on the horizon. Warm overcast daylight, domestic setting rather than a grand palace. Two men remain in front; the adult Masha R is initially hidden behind the fence.
+Rustic waist-high wooden garden fence and apple-tree branches against a warm sunset with one distant fictional ringed planet. The two adult men remain in front of the fence on one axis, Masha R starts hidden behind it. The supplied three-person image is the later reveal/identity-layout helper, not the initial two-shot. No rain or transparent clothes.
 
 START STATE:
 Vitalik left and Alexey right face each other in a stable medium two-shot in front of the garden fence. The adult Masha R is not yet visible.
@@ -10441,25 +10444,25 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### 77 · Seedance 2.0 часть 2
 
-**Входы:** @Video1 — `actual final 3 seconds of Scene 77 Seedance Part 1`; @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/full/lesha.jpg`; @Image3 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image4 — `references/scenes/scene-77/S77-love-triangle.png`.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/full/lesha.jpg`; @Image3 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image4 — `references/scenes/scene-77/S77-love-triangle.png` @Video1 — последние 3 с настоящего результата своей P1, когда он существует.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal cinematic parody with clear physical comedy
 
 REFERENCES / AUTHORITY:
+@Image1 = references/full/vitalik.jpg — exact Виталик facial identity only; costume is defined below, never inherited from the source sheet.
+@Image2 = references/full/lesha.jpg — exact Алексей (Лёша) facial identity only; costume is defined below, never inherited from the source sheet.
+@Image3 = references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png — exact Маша Р facial identity only; costume is defined below, never inherited from the source sheet.
+@Image4 = references/scenes/scene-77/S77-love-triangle.png — single scene composition, props and the scene-specific wardrobe; never overrides exact facial identity or source age. This helper is not a literal first frame.
 @Video1 = actual final 3 seconds of Scene 77 Seedance Part 1 — real motion/pose continuity, not a generated substitute.
-@Image1 = references/full/vitalik.jpg — exact Vitalik facial identity only; new clothing as explicitly described below.
-@Image2 = references/full/lesha.jpg — exact adult Alexey / Lesha facial identity only; wavy brown hair and moustache, new clothing below.
-@Image3 = references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png — exact adult Masha R facial identity only; new modest clothing below.
-@Image4 = references/scenes/scene-77/S77-love-triangle.png — single new scene staging and props, never overrides identity.
-Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+Facial references outrank the staged image for identity and age. Do not animate a slideshow or reproduce the source sheet costumes.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-VITALIK @Image1: adult fair man, round face, short light-brown hair, light stubble; navy casual jacket, light grey shirt and dark trousers. ALEXEY / LESHA @Image2: adult slim fair man, short wavy brown hair and distinct brown moustache; olive corduroy jacket, cream shirt and dark trousers. MASHA R @Image3: adult fair woman, long wavy copper-red hair and bangs; modest teal wool coat and burgundy scarf. Preserve the exact facial identities from their individual sheets ONLY, not the source Jedi/Tatooine clothing. Exactly three ADULT actors. No Alina, no child, no Serega, no alien substitute, no kiss or erotic action. Never blend faces.
+VITALIK @Image1: exact adult fair man, round face, short light-brown hair, light stubble; long dark charcoal coat with subtle gold star embroidery, burgundy scarf and closed dark trousers. ALEXEY / LESHA @Image2: exact adult slim fair face, wavy brown hair and distinct brown moustache; cocoa-brown textured hooded coat and closed trousers. MASHA R @Image3: adult fair woman, long wavy copper-red hair and bangs; modest burgundy dress with gold star details and a beige shawl. Use facial identities ONLY; these are scene-specific costumes, not the source Jedi/Tatooine uniforms. Exactly three ADULT actors, no Alina or other child, no Serega or alien substitute. No kiss or erotic action. Never blend faces.
 
 SCENE / SPACE:
-Ordinary waist-high weathered wooden garden fence beside an apple tree, with a single absurdly distant spaceport antenna on the horizon. Warm overcast daylight, domestic setting rather than a grand palace. Two men remain in front; the adult Masha R is initially hidden behind the fence.
+Rustic waist-high wooden garden fence and apple-tree branches against a warm sunset with one distant fictional ringed planet. The two adult men remain in front of the fence on one axis, Masha R starts hidden behind it. The supplied three-person image is the later reveal/identity-layout helper, not the initial two-shot. No rain or transparent clothes.
 
 START STATE:
 Continue the actual last moment of @Video1, without replaying it. Target continuity: After Alexey's denial Vitalik turns back toward him, arm raised for his correction. The adult Masha R's crown has not yet cleared the fence.
@@ -10467,7 +10470,7 @@ Continue the actual last moment of @Video1, without replaying it. Target continu
 STORY FLOW:
 0–4s: Continue the reverse angle. Vitalik sharply corrects him: «Думает, что любит тебя!» One shot/reverse shot, no speaker swapping.
 4–9s: The adult Masha R rises from behind the wooden fence into the central gap and shouts directly at Alexey «Да я люблю тебя!» Her line is the emotional climax; both men stop moving.
-9–15s: A deliberate one-second silence. Vitalik takes one small unbranded mayonnaise jar and spoon from his jacket pocket: «А я люблю майонез». Alexey looks into the lens with a completely dry expression. No kiss or new line.
+9–15s: A deliberate one-second silence. Vitalik takes one small unbranded mayonnaise jar and spoon from his coat pocket: «А я люблю майонез». Alexey looks into the lens with a completely dry expression. No kiss or new line.
 
 END STATE:
 All three are visible. Vitalik holds a small mayonnaise jar and spoon; Alexey stares deadpan into camera, Masha R silently waits behind the fence. Hold one comic beat without further speech.
@@ -10497,60 +10500,65 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 <!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["parody","comedy","owner_authorized_creation","images_pending"]} -->
 
-**Контекст использования:** Самостоятельная псевдореклама, не реальная реклама пищевой пользы. Виталик и вымышленные взрослые родственники — не утверждение о привычках настоящей семьи. Комедия рекламной идиллии: большие банки, но в кадре обычные небольшие ложки без насильственного кормления и опасного соревнования.
+**Контекст использования:** Семейная пародия: Виталик, Маша Р и Алина играют роли; это не утверждение об их настоящих привычках. Возраст Алины сохраняется. Только небольшие ложки, без соревнования или принуждения.
 
-**Что происходит:** За идеально сервированным столом вся семья ест майонез ложками из огромных банок. Бабушка с важностью открывает ещё одну банку, отец ставит на пьедестал торжественную салатницу — пустую. Виталик отодвигает салатницу: «Салат? Мы уже взрослые». Крупный рекламный план банки и финальный слоган про ненужный салат.
+**Что происходит:** Виталик, Маша Р и Алина едят майонез обычными ложками из больших банок. Маша открывает запасную банку, Алина подаёт пустую салатницу, Виталик отодвигает её: «Салат? Можно без посредников». Финал — общий укус и рекламный план банки.
 
-**Готовность:** DRAFT. Тексты подготовлены по команде 09.11; отдельный новый постановочный PNG ещё требуется. Это НЕ готовый ролик и НЕ запись в очередь. Основная версия — 30 с Wan 3.0; тот же текст на Seedance 2.5 только по выбору владельца. Альтернатива — 2×15 с Seedance 2.0: P2 ждёт настоящие последние 3 с своей P1. Редакционная приёмка не выполнена.
+**Готовность:** DRAFT. Исходные лица и первый постановочный PNG сохранены и связаны с промптами. Дополнительные ракурсы и приёмка сходства ещё открыты; это НЕ готовое видео и НЕ разрешение очереди. 30 с Wan 3.0 / Seedance 2.5; альтернатива 2×15 с Seedance 2.0, P2 ждёт настоящий конец P1.
 
-**Референсы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-78/S78-mayonnaise-family.png`. Для нового PNG пока сохранено только точное задание; не выдавать его за изображение.
+**Референсы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image3 — `references/scenes/scene-66/S66-Alina-tatooine-sheet.png`; @Image4 — `references/scenes/scene-78/S78-mayonnaise-family.png`. Постановочный PNG сохранён; это не полный комплект всех ракурсов и не приёмка владельца.
 
 **Источники / авторская переработка:** `reports/parody-scenes-source-2026-11-09.json`. Реплики и гэги постановки не являются полной транскрипцией исходных роликов; непрерывный просмотр/звук всех оригиналов не подтверждены.
 
 <div class="scene-ref-gallery">
-<figure><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/full/vitalik.jpg" alt="@Image1 — точная внешность"></a><figcaption>@Image1 — точная внешность, существующий файл</figcaption></figure>
+<figure><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/full/vitalik.jpg" alt="@Image1 — Виталик" loading="lazy"></a><figcaption>@Image1 — Виталик, только лицо; возраст сохраняется</figcaption></figure>
+<figure><a href="references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png" alt="@Image2 — Маша Р" loading="lazy"></a><figcaption>@Image2 — Маша Р, только лицо; возраст сохраняется</figcaption></figure>
+<figure><a href="references/scenes/scene-66/S66-Alina-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/scenes/scene-66/S66-Alina-tatooine-sheet.png" alt="@Image3 — Алина" loading="lazy"></a><figcaption>@Image3 — Алина, только лицо; возраст сохраняется</figcaption></figure>
+<figure><a href="references/scenes/scene-78/S78-mayonnaise-family.png" target="_blank" rel="noopener"><img src="references/scenes/scene-78/previews/S78-mayonnaise-family.webp" alt="@Image4 — постановочный кадр сцены 78" loading="lazy" width="480"></a><figcaption>@Image4 — постановка, не редакционная приёмка</figcaption></figure>
 </div>
 
 <div class="engine-tabs" data-scene="78">
 
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
-**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-78/S78-mayonnaise-family.png`.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image3 — `references/scenes/scene-66/S66-Alina-tatooine-sheet.png`; @Image4 — `references/scenes/scene-78/S78-mayonnaise-family.png`.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic parody with clear physical comedy
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
-@Image2 = references/scenes/scene-78/S78-mayonnaise-family.png — single new scene staging and props, never overrides identity.
-Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+@Image1 = references/full/vitalik.jpg — exact Виталик facial identity only; costume is defined below, never inherited from the source sheet.
+@Image2 = references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png — exact Маша Р facial identity only; costume is defined below, never inherited from the source sheet.
+@Image3 = references/scenes/scene-66/S66-Alina-tatooine-sheet.png — exact Алина facial identity only; costume is defined below, never inherited from the source sheet.
+@Image4 = references/scenes/scene-78/S78-mayonnaise-family.png — single scene composition, props and the scene-specific wardrobe; never overrides exact facial identity or source age. This helper is not a literal first frame.
+Facial references outrank the staged image for identity and age. Do not animate a slideshow or reproduce the source sheet costumes.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-VITALIK @Image1: same stocky fair adult, short light-brown hair, stubble, black tunic/tabard with a plain cream kitchen apron over it. Three FICTIONAL adult family actors, not real relatives: silver-haired grandmother in a burgundy cardigan, grey-haired grandfather in a pale-blue shirt, adult dark-haired daughter in a mustard sweater. Distinct fixed faces and clothes, no children. Each has one separate spoon and one oversized wide-mouth jar.
+VITALIK @Image1: exact adult fair round face, short light-brown hair, light stubble; cream cable-knit sweater and rust-red kitchen apron. MASHA R @Image2: exact adult fair face, copper-red wavy hair and bangs; burgundy floral blouse, light floral apron and checked hair bow. ALINA @Image3: the same child as her individual source, blonde/light-brown ponytail, fair youthful face; mustard knitted sweater over a modest floral collared shirt and denim overalls. Preserve her source age, never turn her into an adult. Exactly these three family-comedy performers, no invented grandparents or siblings. Each has a separate spoon and jar; small ordinary bites only, no force-feeding or competition. Only faces come from identity sheets; all wardrobe follows this scene.
 
 SCENE / SPACE:
-Bright cosy kitchen/dining room with a white-clothed wooden table, warm morning window light. Four separate oversized glass jars full of smooth pale mayonnaise, no real product brand; one intentionally empty white salad bowl. All utensils and jars remain physically solid.
+Warm sunlit family kitchen with a wooden table, a small bowl, three oversized wide-mouth glass mayonnaise jars, one unopened spare jar and an intentionally empty white salad bowl. Exactly three seats: Masha R left, Vitalik centre, Alina right, as in @Image4. Glass jars and normal teaspoons remain solid. No product-health claims, no brand text.
 
 START STATE:
-Wide family-advertisement tableau: four adults seated around the table, each with a large mayonnaise jar and a normal tablespoon. The white salad bowl is absent.
+The three performers sit at the kitchen table, each with one big jar and a separate normal teaspoon; their spoons are poised before the first small bite.
 
 STORY FLOW:
-0–7s: Luminous advertising dolly across the table. The entire adult family eats modest spoonfuls straight from big jars, each with their own spoon, smiling with absurd commercial sincerity.
-7–11s: Macro of a spoon lifting a thick smooth ribbon of mayonnaise, then a pleased reaction from Vitalik. Keep appetising texture, not grotesque splatter.
-11–15s: Grandmother solemnly unscrews one fresh wide-mouth jar as though opening champagne. One clean lid pop; the others turn reverently toward it.
-15–20s: Continue the family position; grandfather proudly sets one pristine but EMPTY white salad bowl at the centre. Everyone pauses and looks at it.
-20–25s: Vitalik gently pushes the bowl away without spilling anything and says «Салат? Мы уже взрослые». Each adult resumes their small spoonful with perfect advertising smiles.
-25–30s: Slow hero push toward the mayonnaise jar. New narrator line: «Майонез. Когда салат уже не нужен». Background family remains alive with small natural motion; no written slogan generated.
+0–7s: Warm advertising dolly across Masha R, Vitalik and Alina. Each happily takes a small ordinary spoonful from their own oversized jar, with excessive commercial sincerity.
+7–11s: Close-up of a thick smooth mayonnaise ribbon on one teaspoon, then Vitalik reacts with exaggerated delight. No stuffing mouths or messy body framing.
+11–15s: Masha R solemnly unscrews the spare jar like a priceless delicacy. One lid pop; the others regard it with absurd reverence.
+15–20s: Continue from the opened spare jar. Alina slides the empty white salad bowl forward, looking puzzled; Vitalik solemnly examines it.
+20–25s: Vitalik pushes the empty bowl aside and says «Салат? Можно без посредников». Masha R gives a knowing nod; Alina laughs, without extra dialogue.
+25–30s: The three take one modest synchronized spoonful. Clean jar-and-spoon hero shot; announcer: «Майонез — когда салат уже не нужен». No generated slogan text.
 
 END STATE:
-Clean hero shot of an unbranded mayonnaise jar on the table, all four contented adults softly visible behind. Room for a separately edited slogan, but no generated text in the video.
+Vitalik puts the empty salad bowl aside. All three smile at their jars; a clean close-up of one jar and spoon ends the parody.
 
 CAMERA / LIGHT / PERFORMANCE:
 Warm high-key family-commercial 35mm wide, 85mm food macro, medium punchline and 50mm hero jar. No overhead geometry changes or impossible spoon motion. Bright clean appetising light. Comedy comes from sincere performance, not mugging or ugly facial distortion.
 
 AUDIO:
-Spoons, glass, lid pop, kitchen ambience; one exact Vitalik line and one new announcer slogan. No borrowed advertising jingle, no music, no health claims.
+Natural spoon taps, one jar-lid pop, quiet family laughter; Vitalik says «Салат? Можно без посредников» only in the second half, then the announcer: «Майонез — когда салат уже не нужен». No music, no extra dialogue, no health claims.
 
 NEGATIVE:
 no forced feeding, choking, vomiting, competition, huge mouthfuls, distressed child, mess on faces, extra hands, morphing jars, real relatives invented by name, nutrition claims, captions or dashboard. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
@@ -10565,39 +10573,41 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### 78 · Seedance 2.0 часть 1
 
-**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-78/S78-mayonnaise-family.png`.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image3 — `references/scenes/scene-66/S66-Alina-tatooine-sheet.png`; @Image4 — `references/scenes/scene-78/S78-mayonnaise-family.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal cinematic parody with clear physical comedy
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
-@Image2 = references/scenes/scene-78/S78-mayonnaise-family.png — single new scene staging and props, never overrides identity.
-Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+@Image1 = references/full/vitalik.jpg — exact Виталик facial identity only; costume is defined below, never inherited from the source sheet.
+@Image2 = references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png — exact Маша Р facial identity only; costume is defined below, never inherited from the source sheet.
+@Image3 = references/scenes/scene-66/S66-Alina-tatooine-sheet.png — exact Алина facial identity only; costume is defined below, never inherited from the source sheet.
+@Image4 = references/scenes/scene-78/S78-mayonnaise-family.png — single scene composition, props and the scene-specific wardrobe; never overrides exact facial identity or source age. This helper is not a literal first frame.
+Facial references outrank the staged image for identity and age. Do not animate a slideshow or reproduce the source sheet costumes.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-VITALIK @Image1: same stocky fair adult, short light-brown hair, stubble, black tunic/tabard with a plain cream kitchen apron over it. Three FICTIONAL adult family actors, not real relatives: silver-haired grandmother in a burgundy cardigan, grey-haired grandfather in a pale-blue shirt, adult dark-haired daughter in a mustard sweater. Distinct fixed faces and clothes, no children. Each has one separate spoon and one oversized wide-mouth jar.
+VITALIK @Image1: exact adult fair round face, short light-brown hair, light stubble; cream cable-knit sweater and rust-red kitchen apron. MASHA R @Image2: exact adult fair face, copper-red wavy hair and bangs; burgundy floral blouse, light floral apron and checked hair bow. ALINA @Image3: the same child as her individual source, blonde/light-brown ponytail, fair youthful face; mustard knitted sweater over a modest floral collared shirt and denim overalls. Preserve her source age, never turn her into an adult. Exactly these three family-comedy performers, no invented grandparents or siblings. Each has a separate spoon and jar; small ordinary bites only, no force-feeding or competition. Only faces come from identity sheets; all wardrobe follows this scene.
 
 SCENE / SPACE:
-Bright cosy kitchen/dining room with a white-clothed wooden table, warm morning window light. Four separate oversized glass jars full of smooth pale mayonnaise, no real product brand; one intentionally empty white salad bowl. All utensils and jars remain physically solid.
+Warm sunlit family kitchen with a wooden table, a small bowl, three oversized wide-mouth glass mayonnaise jars, one unopened spare jar and an intentionally empty white salad bowl. Exactly three seats: Masha R left, Vitalik centre, Alina right, as in @Image4. Glass jars and normal teaspoons remain solid. No product-health claims, no brand text.
 
 START STATE:
-Wide family-advertisement tableau: four adults seated around the table, each with a large mayonnaise jar and a normal tablespoon. The white salad bowl is absent.
+The three performers sit at the kitchen table, each with one big jar and a separate normal teaspoon; their spoons are poised before the first small bite.
 
 STORY FLOW:
-0–7s: Luminous advertising dolly across the table. The entire adult family eats modest spoonfuls straight from big jars, each with their own spoon, smiling with absurd commercial sincerity.
-7–11s: Macro of a spoon lifting a thick smooth ribbon of mayonnaise, then a pleased reaction from Vitalik. Keep appetising texture, not grotesque splatter.
-11–15s: Grandmother solemnly unscrews one fresh wide-mouth jar as though opening champagne. One clean lid pop; the others turn reverently toward it.
+0–7s: Warm advertising dolly across Masha R, Vitalik and Alina. Each happily takes a small ordinary spoonful from their own oversized jar, with excessive commercial sincerity.
+7–11s: Close-up of a thick smooth mayonnaise ribbon on one teaspoon, then Vitalik reacts with exaggerated delight. No stuffing mouths or messy body framing.
+11–15s: Masha R solemnly unscrews the spare jar like a priceless delicacy. One lid pop; the others regard it with absurd reverence.
 
 END STATE:
-Grandmother has finished opening the second serving jar; grandfather is reaching offscreen for the white bowl. Everyone still has the same place and own spoon.
+Masha R has just opened the spare jar, Alina points at the empty salad bowl, and Vitalik reaches toward the bowl.
 
 CAMERA / LIGHT / PERFORMANCE:
 Warm high-key family-commercial 35mm wide, 85mm food macro, medium punchline and 50mm hero jar. No overhead geometry changes or impossible spoon motion. Bright clean appetising light. Comedy comes from sincere performance, not mugging or ugly facial distortion.
 
 AUDIO:
-Spoons, glass, lid pop, kitchen ambience; one exact Vitalik line and one new announcer slogan. No borrowed advertising jingle, no music, no health claims. For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue.
+Spoon taps, one lid pop and small natural laughs. No dialogue, no music or eating contest.
 
 NEGATIVE:
 no forced feeding, choking, vomiting, competition, huge mouthfuls, distressed child, mess on faces, extra hands, morphing jars, real relatives invented by name, nutrition claims, captions or dashboard. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
@@ -10608,40 +10618,42 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### 78 · Seedance 2.0 часть 2
 
-**Входы:** @Video1 — `actual final 3 seconds of Scene 78 Seedance Part 1`; @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-78/S78-mayonnaise-family.png`.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image3 — `references/scenes/scene-66/S66-Alina-tatooine-sheet.png`; @Image4 — `references/scenes/scene-78/S78-mayonnaise-family.png` @Video1 — последние 3 с настоящего результата своей P1, когда он существует.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal cinematic parody with clear physical comedy
 
 REFERENCES / AUTHORITY:
+@Image1 = references/full/vitalik.jpg — exact Виталик facial identity only; costume is defined below, never inherited from the source sheet.
+@Image2 = references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png — exact Маша Р facial identity only; costume is defined below, never inherited from the source sheet.
+@Image3 = references/scenes/scene-66/S66-Alina-tatooine-sheet.png — exact Алина facial identity only; costume is defined below, never inherited from the source sheet.
+@Image4 = references/scenes/scene-78/S78-mayonnaise-family.png — single scene composition, props and the scene-specific wardrobe; never overrides exact facial identity or source age. This helper is not a literal first frame.
 @Video1 = actual final 3 seconds of Scene 78 Seedance Part 1 — real motion/pose continuity, not a generated substitute.
-@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
-@Image2 = references/scenes/scene-78/S78-mayonnaise-family.png — single new scene staging and props, never overrides identity.
-Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+Facial references outrank the staged image for identity and age. Do not animate a slideshow or reproduce the source sheet costumes.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-VITALIK @Image1: same stocky fair adult, short light-brown hair, stubble, black tunic/tabard with a plain cream kitchen apron over it. Three FICTIONAL adult family actors, not real relatives: silver-haired grandmother in a burgundy cardigan, grey-haired grandfather in a pale-blue shirt, adult dark-haired daughter in a mustard sweater. Distinct fixed faces and clothes, no children. Each has one separate spoon and one oversized wide-mouth jar.
+VITALIK @Image1: exact adult fair round face, short light-brown hair, light stubble; cream cable-knit sweater and rust-red kitchen apron. MASHA R @Image2: exact adult fair face, copper-red wavy hair and bangs; burgundy floral blouse, light floral apron and checked hair bow. ALINA @Image3: the same child as her individual source, blonde/light-brown ponytail, fair youthful face; mustard knitted sweater over a modest floral collared shirt and denim overalls. Preserve her source age, never turn her into an adult. Exactly these three family-comedy performers, no invented grandparents or siblings. Each has a separate spoon and jar; small ordinary bites only, no force-feeding or competition. Only faces come from identity sheets; all wardrobe follows this scene.
 
 SCENE / SPACE:
-Bright cosy kitchen/dining room with a white-clothed wooden table, warm morning window light. Four separate oversized glass jars full of smooth pale mayonnaise, no real product brand; one intentionally empty white salad bowl. All utensils and jars remain physically solid.
+Warm sunlit family kitchen with a wooden table, a small bowl, three oversized wide-mouth glass mayonnaise jars, one unopened spare jar and an intentionally empty white salad bowl. Exactly three seats: Masha R left, Vitalik centre, Alina right, as in @Image4. Glass jars and normal teaspoons remain solid. No product-health claims, no brand text.
 
 START STATE:
-Continue the actual last moment of @Video1, without replaying it. Target continuity: Grandmother has finished opening the second serving jar; grandfather is reaching offscreen for the white bowl. Everyone still has the same place and own spoon.
+Masha R has just opened the spare jar, Alina points at the empty salad bowl, and Vitalik reaches toward the bowl.
 
 STORY FLOW:
-0–5s: Continue the family position; grandfather proudly sets one pristine but EMPTY white salad bowl at the centre. Everyone pauses and looks at it.
-5–10s: Vitalik gently pushes the bowl away without spilling anything and says «Салат? Мы уже взрослые». Each adult resumes their small spoonful with perfect advertising smiles.
-10–15s: Slow hero push toward the mayonnaise jar. New narrator line: «Майонез. Когда салат уже не нужен». Background family remains alive with small natural motion; no written slogan generated.
+0–5s: Continue from the opened spare jar. Alina slides the empty white salad bowl forward, looking puzzled; Vitalik solemnly examines it.
+5–10s: Vitalik pushes the empty bowl aside and says «Салат? Можно без посредников». Masha R gives a knowing nod; Alina laughs, without extra dialogue.
+10–15s: The three take one modest synchronized spoonful. Clean jar-and-spoon hero shot; announcer: «Майонез — когда салат уже не нужен». No generated slogan text.
 
 END STATE:
-Clean hero shot of an unbranded mayonnaise jar on the table, all four contented adults softly visible behind. Room for a separately edited slogan, but no generated text in the video.
+Vitalik puts the empty salad bowl aside. All three smile at their jars; a clean close-up of one jar and spoon ends the parody.
 
 CAMERA / LIGHT / PERFORMANCE:
 Warm high-key family-commercial 35mm wide, 85mm food macro, medium punchline and 50mm hero jar. No overhead geometry changes or impossible spoon motion. Bright clean appetising light. Comedy comes from sincere performance, not mugging or ugly facial distortion.
 
 AUDIO:
-Spoons, glass, lid pop, kitchen ambience; one exact Vitalik line and one new announcer slogan. No borrowed advertising jingle, no music, no health claims. For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue.
+Natural spoon taps, one jar-lid pop, quiet family laughter; Vitalik says «Салат? Можно без посредников» only in the second half, then the announcer: «Майонез — когда салат уже не нужен». No music, no extra dialogue, no health claims.
 
 NEGATIVE:
 no forced feeding, choking, vomiting, competition, huge mouthfuls, distressed child, mess on faces, extra hands, morphing jars, real relatives invented by name, nutrition claims, captions or dashboard. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
@@ -10662,57 +10674,62 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 <!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["parody","comedy","owner_authorized_creation","images_pending"]} -->
 
-**Контекст использования:** Самостоятельная пародия на навязчивую рекламу чипсов, не официальный заказ Lay’s и не утверждение о поддержке брендом. Вся компания постоянно хрустит; основная шутка — звук, уничтожающий торжественность совета. Логотип и упаковку при необходимости финально накладывать отдельно, а не требовать идеальной типографики от видео.
+**Контекст использования:** Пародия на рекламу Lay’s: семейный киносеанс превращается в оглушительный праздник хруста. Виталик, Маша Р и Алина; одежда новая, возраст Алины сохраняется, это не официальный заказ бренда.
 
-**Что происходит:** На серьёзном космическом совете Виталик пытается незаметно открыть жёлтую пачку Lay’s. Хруст звучит как взрыв, все поворачиваются — но у каждого своя пачка. За последнюю чипсину начинается напряжённый поединок взглядов. Робот приносит полную тележку, и все синхронно хрустят.
+**Что происходит:** Виталик пытается тихо открыть пакет перед экраном. Грохот хруста выдаёт его, а затем выясняется, что Маша Р и Алина тоже едят чипсы. Борьбу взглядов за последнюю чипсину прекращает маленький робот с новыми пакетами.
 
-**Готовность:** DRAFT. Тексты подготовлены по команде 09.11; отдельный новый постановочный PNG ещё требуется. Это НЕ готовый ролик и НЕ запись в очередь. Основная версия — 30 с Wan 3.0; тот же текст на Seedance 2.5 только по выбору владельца. Альтернатива — 2×15 с Seedance 2.0: P2 ждёт настоящие последние 3 с своей P1. Редакционная приёмка не выполнена.
+**Готовность:** DRAFT. Исходные лица и первый постановочный PNG сохранены и связаны с промптами. Дополнительные ракурсы и приёмка сходства ещё открыты; это НЕ готовое видео и НЕ разрешение очереди. 30 с Wan 3.0 / Seedance 2.5; альтернатива 2×15 с Seedance 2.0, P2 ждёт настоящий конец P1.
 
-**Референсы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-79/S79-chips-council.png`. Для нового PNG пока сохранено только точное задание; не выдавать его за изображение.
+**Референсы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image3 — `references/scenes/scene-66/S66-Alina-tatooine-sheet.png`; @Image4 — `references/scenes/scene-79/S79-chips-council.png`. Постановочный PNG сохранён; это не полный комплект всех ракурсов и не приёмка владельца.
 
 **Источники / авторская переработка:** `reports/parody-scenes-source-2026-11-09.json`. Реплики и гэги постановки не являются полной транскрипцией исходных роликов; непрерывный просмотр/звук всех оригиналов не подтверждены.
 
 <div class="scene-ref-gallery">
-<figure><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/full/vitalik.jpg" alt="@Image1 — точная внешность"></a><figcaption>@Image1 — точная внешность, существующий файл</figcaption></figure>
+<figure><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/full/vitalik.jpg" alt="@Image1 — Виталик" loading="lazy"></a><figcaption>@Image1 — Виталик, только лицо; возраст сохраняется</figcaption></figure>
+<figure><a href="references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png" alt="@Image2 — Маша Р" loading="lazy"></a><figcaption>@Image2 — Маша Р, только лицо; возраст сохраняется</figcaption></figure>
+<figure><a href="references/scenes/scene-66/S66-Alina-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/scenes/scene-66/S66-Alina-tatooine-sheet.png" alt="@Image3 — Алина" loading="lazy"></a><figcaption>@Image3 — Алина, только лицо; возраст сохраняется</figcaption></figure>
+<figure><a href="references/scenes/scene-79/S79-chips-council.png" target="_blank" rel="noopener"><img src="references/scenes/scene-79/previews/S79-chips-council.webp" alt="@Image4 — постановочный кадр сцены 79" loading="lazy" width="480"></a><figcaption>@Image4 — постановка, не редакционная приёмка</figcaption></figure>
 </div>
 
 <div class="engine-tabs" data-scene="79">
 
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
-**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-79/S79-chips-council.png`.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image3 — `references/scenes/scene-66/S66-Alina-tatooine-sheet.png`; @Image4 — `references/scenes/scene-79/S79-chips-council.png`.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic parody with clear physical comedy
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
-@Image2 = references/scenes/scene-79/S79-chips-council.png — single new scene staging and props, never overrides identity.
-Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+@Image1 = references/full/vitalik.jpg — exact Виталик facial identity only; costume is defined below, never inherited from the source sheet.
+@Image2 = references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png — exact Маша Р facial identity only; costume is defined below, never inherited from the source sheet.
+@Image3 = references/scenes/scene-66/S66-Alina-tatooine-sheet.png — exact Алина facial identity only; costume is defined below, never inherited from the source sheet.
+@Image4 = references/scenes/scene-79/S79-chips-council.png — single scene composition, props and the scene-specific wardrobe; never overrides exact facial identity or source age. This helper is not a literal first frame.
+Facial references outrank the staged image for identity and age. Do not animate a slideshow or reproduce the source sheet costumes.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-VITALIK: exact adult stocky fair identity @Image1, short light-brown hair, light stubble, black tunic/leather tabard, brown belt. Four distinct fictional adult human/alien council members in modest dark space-opera robes; no known celebrities. One harmless service droid. Each councillor has their own yellow potato-chip bag and naturally distinct face. Keep individual hands and bags separate.
+VITALIK @Image1: exact adult fair round face, short light-brown hair, light stubble; black casual track jacket with pale stripes over a white T-shirt. MASHA R @Image2: exact adult fair face, copper-red wavy hair and bangs; warm mustard knit sweater. ALINA @Image3: the same child as the source sheet, fair youthful face and blonde/light-brown ponytail; blue hoodie and closed jeans. Do not age her up. Exactly these three named performers, no fictional performers. Keep separate faces, hands and ordinary potato-chip packets. Only facial identity is inherited; no Jedi or Tatooine costume.
 
 SCENE / SPACE:
-Grand circular science-fiction council room with a polished round table and a panoramic starfield window. Yellow Lay's-style chip bags contrast with serious dark robes; real packets appear as parody props, no official sponsorship graphics. One small plate with a final chip and a service trolley.
+Bright cosy living room dressed as an intentionally overblown snack advertisement: Masha R left, Vitalik centre, Alina right on one sofa, snack bowls on a low table, warm fairy lights and small party bunting. Ordinary crinkle-cut chips in green, red and blue packets with generic/unreadable graphics; this is a Lay’s-ad parody, not a sponsorship claim. A little fictional service droid may bring extra bags. The staged image shows the final shared crunch, not the quiet beginning.
 
 START STATE:
-A silent formal council. Vitalik sits closest to camera, discreetly gripping a sealed yellow chip bag below the table rim.
+Quiet family movie night. All three sit on the sofa; Vitalik tries to open his sealed red chip bag discreetly, Masha R and Alina appear absorbed in the offscreen film.
 
 STORY FLOW:
-0–5s: Static solemn wide council composition. Vitalik slowly pulls open one yellow Lay's chip bag under the table, trying not to attract attention.
-5–10s: The bag tears with an absurdly loud crinkle. He freezes; the nearest councillor turns with grave concern. No explosion or damage is shown.
-10–15s: Vitalik eats ONE ordinary chip; the amplified crunch reverberates around the chamber. Reverse wide reveals every councillor already holding their own yellow packet.
-15–20s: Continue the revealed council. Their stern expressions soften and everyone discreetly eats chips. One lone chip remains on a small plate in the centre.
-20–25s: Tight alternating eyelines as Vitalik and another adult reach toward the last chip and stop, conducting a ridiculous silent western standoff. No weapons.
-25–30s: Service droid rolls in a trolley full of fresh yellow bags. Everyone drops the rivalry and takes one synchronized chip bite. Announcer: «Тишина? Не в этой галактике». Finish on pack and chip, no generated slogan text.
+0–5s: A solemn film plays only as faint light from offscreen. Vitalik tries to pull apart the top seam of his red chip bag without a sound.
+5–10s: One absurdly loud crinkle breaks the quiet. Masha R turns; Alina raises an eyebrow. Everyone stays on the same sofa positions.
+10–15s: Vitalik bites one chip. Its overamplified crunch seems to echo across the galaxy; the reverse wider shot reveals the other two already holding their own bags.
+15–20s: Continue the revealed trio. They laugh and eat one ordinary chip each. A lone chip remains in a shared bowl.
+20–25s: Vitalik and Masha R reach toward the final chip and pause in an absurd silent western standoff. Alina watches with amused impatience; no weapons or aggressive movement.
+25–30s: A tiny fictional service droid rolls in extra bags. Rivalry disappears, the trio bites together. Announcer: «Тишина? Не в этой галактике». End on chips, no slogan lettering.
 
 END STATE:
-The whole council takes one synchronized ordinary chip bite, followed by a hero shot of one yellow pack and a single chip. The room is intact, nobody fights physically.
+The droid has brought a tray of extra bags. The three take one synchronized ordinary bite; finish on a generic packet and crisp chip, with no logo overlay.
 
 CAMERA / LIGHT / PERFORMANCE:
-Symmetrical 35mm council wide, 85mm hands opening bag, face reactions and matched eyeline inserts, final 50mm pack hero. Keep packet scale stable; tactile potato-chip texture and ordinary chewing. Comedy comes from sincere performance, not mugging or ugly facial distortion.
+35mm sofa three-shot, controlled 85mm hands insert, matched reaction shots on one axis, one wider reveal. Warm ad lighting, lively but natural family acting; distinct faces, normal bites and no aggressive confrontation.
 
 AUDIO:
 Quiet room tone, enormous foil crinkle and exaggerated but clean crunch, rolling trolley. One new Russian narrator line: «Тишина? Не в этой галактике». No actual explosion, copied music/jingle or original ad soundtrack.
@@ -10730,36 +10747,38 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### 79 · Seedance 2.0 часть 1
 
-**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-79/S79-chips-council.png`.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image3 — `references/scenes/scene-66/S66-Alina-tatooine-sheet.png`; @Image4 — `references/scenes/scene-79/S79-chips-council.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal cinematic parody with clear physical comedy
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
-@Image2 = references/scenes/scene-79/S79-chips-council.png — single new scene staging and props, never overrides identity.
-Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+@Image1 = references/full/vitalik.jpg — exact Виталик facial identity only; costume is defined below, never inherited from the source sheet.
+@Image2 = references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png — exact Маша Р facial identity only; costume is defined below, never inherited from the source sheet.
+@Image3 = references/scenes/scene-66/S66-Alina-tatooine-sheet.png — exact Алина facial identity only; costume is defined below, never inherited from the source sheet.
+@Image4 = references/scenes/scene-79/S79-chips-council.png — single scene composition, props and the scene-specific wardrobe; never overrides exact facial identity or source age. This helper is not a literal first frame.
+Facial references outrank the staged image for identity and age. Do not animate a slideshow or reproduce the source sheet costumes.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-VITALIK: exact adult stocky fair identity @Image1, short light-brown hair, light stubble, black tunic/leather tabard, brown belt. Four distinct fictional adult human/alien council members in modest dark space-opera robes; no known celebrities. One harmless service droid. Each councillor has their own yellow potato-chip bag and naturally distinct face. Keep individual hands and bags separate.
+VITALIK @Image1: exact adult fair round face, short light-brown hair, light stubble; black casual track jacket with pale stripes over a white T-shirt. MASHA R @Image2: exact adult fair face, copper-red wavy hair and bangs; warm mustard knit sweater. ALINA @Image3: the same child as the source sheet, fair youthful face and blonde/light-brown ponytail; blue hoodie and closed jeans. Do not age her up. Exactly these three named performers, no fictional performers. Keep separate faces, hands and ordinary potato-chip packets. Only facial identity is inherited; no Jedi or Tatooine costume.
 
 SCENE / SPACE:
-Grand circular science-fiction council room with a polished round table and a panoramic starfield window. Yellow Lay's-style chip bags contrast with serious dark robes; real packets appear as parody props, no official sponsorship graphics. One small plate with a final chip and a service trolley.
+Bright cosy living room dressed as an intentionally overblown snack advertisement: Masha R left, Vitalik centre, Alina right on one sofa, snack bowls on a low table, warm fairy lights and small party bunting. Ordinary crinkle-cut chips in green, red and blue packets with generic/unreadable graphics; this is a Lay’s-ad parody, not a sponsorship claim. A little fictional service droid may bring extra bags. The staged image shows the final shared crunch, not the quiet beginning.
 
 START STATE:
-A silent formal council. Vitalik sits closest to camera, discreetly gripping a sealed yellow chip bag below the table rim.
+Quiet family movie night. All three sit on the sofa; Vitalik tries to open his sealed red chip bag discreetly, Masha R and Alina appear absorbed in the offscreen film.
 
 STORY FLOW:
-0–5s: Static solemn wide council composition. Vitalik slowly pulls open one yellow Lay's chip bag under the table, trying not to attract attention.
-5–10s: The bag tears with an absurdly loud crinkle. He freezes; the nearest councillor turns with grave concern. No explosion or damage is shown.
-10–15s: Vitalik eats ONE ordinary chip; the amplified crunch reverberates around the chamber. Reverse wide reveals every councillor already holding their own yellow packet.
+0–5s: A solemn film plays only as faint light from offscreen. Vitalik tries to pull apart the top seam of his red chip bag without a sound.
+5–10s: One absurdly loud crinkle breaks the quiet. Masha R turns; Alina raises an eyebrow. Everyone stays on the same sofa positions.
+10–15s: Vitalik bites one chip. Its overamplified crunch seems to echo across the galaxy; the reverse wider shot reveals the other two already holding their own bags.
 
 END STATE:
-Everyone has turned toward him after the first crunch, their own opened chip bags now visible. His bag remains on his lap.
+One loud chip crunch has revealed that Masha R and Alina already have their own green and blue bags; the three freeze, looking at one another.
 
 CAMERA / LIGHT / PERFORMANCE:
-Symmetrical 35mm council wide, 85mm hands opening bag, face reactions and matched eyeline inserts, final 50mm pack hero. Keep packet scale stable; tactile potato-chip texture and ordinary chewing. Comedy comes from sincere performance, not mugging or ugly facial distortion.
+35mm sofa three-shot, controlled 85mm hands insert, matched reaction shots on one axis, one wider reveal. Warm ad lighting, lively but natural family acting; distinct faces, normal bites and no aggressive confrontation.
 
 AUDIO:
 Quiet room tone, enormous foil crinkle and exaggerated but clean crunch, rolling trolley. One new Russian narrator line: «Тишина? Не в этой галактике». No actual explosion, copied music/jingle or original ad soundtrack. For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue.
@@ -10773,37 +10792,39 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### 79 · Seedance 2.0 часть 2
 
-**Входы:** @Video1 — `actual final 3 seconds of Scene 79 Seedance Part 1`; @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-79/S79-chips-council.png`.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image3 — `references/scenes/scene-66/S66-Alina-tatooine-sheet.png`; @Image4 — `references/scenes/scene-79/S79-chips-council.png` @Video1 — последние 3 с настоящего результата своей P1, когда он существует.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal cinematic parody with clear physical comedy
 
 REFERENCES / AUTHORITY:
+@Image1 = references/full/vitalik.jpg — exact Виталик facial identity only; costume is defined below, never inherited from the source sheet.
+@Image2 = references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png — exact Маша Р facial identity only; costume is defined below, never inherited from the source sheet.
+@Image3 = references/scenes/scene-66/S66-Alina-tatooine-sheet.png — exact Алина facial identity only; costume is defined below, never inherited from the source sheet.
+@Image4 = references/scenes/scene-79/S79-chips-council.png — single scene composition, props and the scene-specific wardrobe; never overrides exact facial identity or source age. This helper is not a literal first frame.
 @Video1 = actual final 3 seconds of Scene 79 Seedance Part 1 — real motion/pose continuity, not a generated substitute.
-@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
-@Image2 = references/scenes/scene-79/S79-chips-council.png — single new scene staging and props, never overrides identity.
-Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+Facial references outrank the staged image for identity and age. Do not animate a slideshow or reproduce the source sheet costumes.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-VITALIK: exact adult stocky fair identity @Image1, short light-brown hair, light stubble, black tunic/leather tabard, brown belt. Four distinct fictional adult human/alien council members in modest dark space-opera robes; no known celebrities. One harmless service droid. Each councillor has their own yellow potato-chip bag and naturally distinct face. Keep individual hands and bags separate.
+VITALIK @Image1: exact adult fair round face, short light-brown hair, light stubble; black casual track jacket with pale stripes over a white T-shirt. MASHA R @Image2: exact adult fair face, copper-red wavy hair and bangs; warm mustard knit sweater. ALINA @Image3: the same child as the source sheet, fair youthful face and blonde/light-brown ponytail; blue hoodie and closed jeans. Do not age her up. Exactly these three named performers, no fictional performers. Keep separate faces, hands and ordinary potato-chip packets. Only facial identity is inherited; no Jedi or Tatooine costume.
 
 SCENE / SPACE:
-Grand circular science-fiction council room with a polished round table and a panoramic starfield window. Yellow Lay's-style chip bags contrast with serious dark robes; real packets appear as parody props, no official sponsorship graphics. One small plate with a final chip and a service trolley.
+Bright cosy living room dressed as an intentionally overblown snack advertisement: Masha R left, Vitalik centre, Alina right on one sofa, snack bowls on a low table, warm fairy lights and small party bunting. Ordinary crinkle-cut chips in green, red and blue packets with generic/unreadable graphics; this is a Lay’s-ad parody, not a sponsorship claim. A little fictional service droid may bring extra bags. The staged image shows the final shared crunch, not the quiet beginning.
 
 START STATE:
-Continue the actual last moment of @Video1, without replaying it. Target continuity: Everyone has turned toward him after the first crunch, their own opened chip bags now visible. His bag remains on his lap.
+One loud chip crunch has revealed that Masha R and Alina already have their own green and blue bags; the three freeze, looking at one another.
 
 STORY FLOW:
-0–5s: Continue the revealed council. Their stern expressions soften and everyone discreetly eats chips. One lone chip remains on a small plate in the centre.
-5–10s: Tight alternating eyelines as Vitalik and another adult reach toward the last chip and stop, conducting a ridiculous silent western standoff. No weapons.
-10–15s: Service droid rolls in a trolley full of fresh yellow bags. Everyone drops the rivalry and takes one synchronized chip bite. Announcer: «Тишина? Не в этой галактике». Finish on pack and chip, no generated slogan text.
+0–5s: Continue the revealed trio. They laugh and eat one ordinary chip each. A lone chip remains in a shared bowl.
+5–10s: Vitalik and Masha R reach toward the final chip and pause in an absurd silent western standoff. Alina watches with amused impatience; no weapons or aggressive movement.
+10–15s: A tiny fictional service droid rolls in extra bags. Rivalry disappears, the trio bites together. Announcer: «Тишина? Не в этой галактике». End on chips, no slogan lettering.
 
 END STATE:
-The whole council takes one synchronized ordinary chip bite, followed by a hero shot of one yellow pack and a single chip. The room is intact, nobody fights physically.
+The droid has brought a tray of extra bags. The three take one synchronized ordinary bite; finish on a generic packet and crisp chip, with no logo overlay.
 
 CAMERA / LIGHT / PERFORMANCE:
-Symmetrical 35mm council wide, 85mm hands opening bag, face reactions and matched eyeline inserts, final 50mm pack hero. Keep packet scale stable; tactile potato-chip texture and ordinary chewing. Comedy comes from sincere performance, not mugging or ugly facial distortion.
+35mm sofa three-shot, controlled 85mm hands insert, matched reaction shots on one axis, one wider reveal. Warm ad lighting, lively but natural family acting; distinct faces, normal bites and no aggressive confrontation.
 
 AUDIO:
 Quiet room tone, enormous foil crinkle and exaggerated but clean crunch, rolling trolley. One new Russian narrator line: «Тишина? Не в этой галактике». No actual explosion, copied music/jingle or original ad soundtrack. For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue.
@@ -10827,57 +10848,62 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 <!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["parody","comedy","owner_authorized_creation","images_pending"]} -->
 
-**Контекст использования:** Три рекламных миниатюры по 10 секунд: дешёвая лапша как парфюм, домашние тапки как суперкар, пакет с пакетами как кутюрная сумка. Новые слоганы и музыка не из чужой рекламы. Виталик — серьёзный модель-демонстратор; всё выглядит дорого, смешным остаётся сам предмет.
+**Контекст использования:** Три дорогие рекламные миниатюры о дешёвых вещах: лапша как парфюм, тапки как суперкар, пакет с пакетами как кутюр. Виталик, Маша Р и Алина — семейные ведущие; только лица из исходников, новые наряды по сцене, возраст Алины сохраняется.
 
-**Что происходит:** Камера облетает лапшу в чашке как редкий аромат. Виталик втягивает запах: «Ноты бульона». Следующий суперкарный пролёт раскрывает обычные тапки: «Разгон до кухни — за три шага». Финал — бархатный пьедестал и пакет с пакетами; герой извлекает ещё один пакет как дорогой аксессуар.
+**Что происходит:** Маша Р подаёт лапшу, Виталик рекламирует её аромат и проходит три шага в тапках. Алина с серьёзностью вручает пакет с пакетами, Виталик извлекает ещё один. Дорогая съёмка подчёркивает обыденность вещей.
 
-**Готовность:** DRAFT. Тексты подготовлены по команде 09.11; отдельный новый постановочный PNG ещё требуется. Это НЕ готовый ролик и НЕ запись в очередь. Основная версия — 30 с Wan 3.0; тот же текст на Seedance 2.5 только по выбору владельца. Альтернатива — 2×15 с Seedance 2.0: P2 ждёт настоящие последние 3 с своей P1. Редакционная приёмка не выполнена.
+**Готовность:** DRAFT. Исходные лица и первый постановочный PNG сохранены и связаны с промптами. Дополнительные ракурсы и приёмка сходства ещё открыты; это НЕ готовое видео и НЕ разрешение очереди. 30 с Wan 3.0 / Seedance 2.5; альтернатива 2×15 с Seedance 2.0, P2 ждёт настоящий конец P1.
 
-**Референсы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-80/S80-budget-luxury.png`. Для нового PNG пока сохранено только точное задание; не выдавать его за изображение.
+**Референсы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image3 — `references/scenes/scene-66/S66-Alina-tatooine-sheet.png`; @Image4 — `references/scenes/scene-80/S80-budget-luxury.png`. Постановочный PNG сохранён; это не полный комплект всех ракурсов и не приёмка владельца.
 
 **Источники / авторская переработка:** `reports/parody-scenes-source-2026-11-09.json`. Реплики и гэги постановки не являются полной транскрипцией исходных роликов; непрерывный просмотр/звук всех оригиналов не подтверждены.
 
 <div class="scene-ref-gallery">
-<figure><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/full/vitalik.jpg" alt="@Image1 — точная внешность"></a><figcaption>@Image1 — точная внешность, существующий файл</figcaption></figure>
+<figure><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/full/vitalik.jpg" alt="@Image1 — Виталик" loading="lazy"></a><figcaption>@Image1 — Виталик, только лицо; возраст сохраняется</figcaption></figure>
+<figure><a href="references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png" alt="@Image2 — Маша Р" loading="lazy"></a><figcaption>@Image2 — Маша Р, только лицо; возраст сохраняется</figcaption></figure>
+<figure><a href="references/scenes/scene-66/S66-Alina-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/scenes/scene-66/S66-Alina-tatooine-sheet.png" alt="@Image3 — Алина" loading="lazy"></a><figcaption>@Image3 — Алина, только лицо; возраст сохраняется</figcaption></figure>
+<figure><a href="references/scenes/scene-80/S80-budget-luxury.png" target="_blank" rel="noopener"><img src="references/scenes/scene-80/previews/S80-budget-luxury.webp" alt="@Image4 — постановочный кадр сцены 80" loading="lazy" width="480"></a><figcaption>@Image4 — постановка, не редакционная приёмка</figcaption></figure>
 </div>
 
 <div class="engine-tabs" data-scene="80">
 
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
-**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-80/S80-budget-luxury.png`.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image3 — `references/scenes/scene-66/S66-Alina-tatooine-sheet.png`; @Image4 — `references/scenes/scene-80/S80-budget-luxury.png`.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic parody with clear physical comedy
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
-@Image2 = references/scenes/scene-80/S80-budget-luxury.png — single new scene staging and props, never overrides identity.
-Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+@Image1 = references/full/vitalik.jpg — exact Виталик facial identity only; costume is defined below, never inherited from the source sheet.
+@Image2 = references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png — exact Маша Р facial identity only; costume is defined below, never inherited from the source sheet.
+@Image3 = references/scenes/scene-66/S66-Alina-tatooine-sheet.png — exact Алина facial identity only; costume is defined below, never inherited from the source sheet.
+@Image4 = references/scenes/scene-80/S80-budget-luxury.png — single scene composition, props and the scene-specific wardrobe; never overrides exact facial identity or source age. This helper is not a literal first frame.
+Facial references outrank the staged image for identity and age. Do not animate a slideshow or reproduce the source sheet costumes.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-VITALIK: adult stocky fair man, exact @Image1 round face, short light-brown hair and stubble; black tunic/leather tabard, brown trousers. Bare hands when touching noodles/props, plain household slippers for the footwear gag. No change in face or age. No other person.
+VITALIK @Image1: exact adult fair round face, short light-brown hair and light stubble; burgundy velvet dinner jacket, white shirt and black bow tie. MASHA R @Image2: exact adult fair face with copper-red wavy hair and bangs; gold evening dress appropriate to a comic luxury-ad presenter. ALINA @Image3: same child as her source, blonde/light-brown hair and youthful face; modest high-neck gold party dress, age-appropriate family-commercial presentation. Never age her up or pose her romantically. Exactly these three performers, plain covered clothing, no seductive framing. Individual sheets control faces only. The staged image controls broad composition; any decorative bag pattern is not a required brand or logo.
 
 SCENE / SPACE:
-Three high-end advertising sets: black reflective tabletop with a plain instant-noodle cup and dramatic steam; tiny illuminated runway for ordinary checked fabric slippers; deep burgundy velvet pedestal holding a plain transparent carrier bag containing many neatly folded bags. No premium-brand logos.
+A glossy gold-and-burgundy studio with velvet pedestals: plain instant-noodle cup, checked house slippers and a simple carrier bag of smaller bags. Vitalik is the main deadpan presenter, Masha R assists with the noodle cup, Alina innocently demonstrates the nested bags. Use the supplied group frame for faces/wardrobe and final ensemble; macro inserts show one product at a time, never a collage. Any ornate carrier in the helper must become an ordinary inexpensive unbranded bag in the actual product close-up.
 
 START STATE:
-Extreme macro of steam above noodles, mysterious dramatic rim light; the simple cup is not yet fully revealed.
+Extreme macro of steam rising from a plain noodle cup, with luxurious gold rim light; Masha R holds it steady just outside the frame.
 
 STORY FLOW:
-0–5s: Black-gloss macro of delicate steam and amber highlights suggests luxury perfume. Track across the surface until the object becomes unmistakably an instant-noodle cup with a fork.
-5–10s: Vitalik leans in, inhales the normal food aroma and whispers «Ноты бульона». A single noodle hangs from the fork like an expensive ribbon; no fragrance bottle or false ingredient claim.
-10–15s: Hard cut to racing-commercial low-angle lighting. Camera races along a curved fabric edge and reveals two ordinary checked house slippers on his feet, not a car.
-15–20s: Continue the slippers reveal. Vitalik takes exactly three unhurried steps toward a kitchen doorway. Announcer: «Разгон до кухни — за три шага». No falling or stunt.
-20–25s: Hard cut to a couture studio: one plain transparent carrier bag stuffed with neatly folded smaller bags on a burgundy velvet pedestal. Slow sculptural orbit, immaculate controlled highlights.
-25–30s: Vitalik picks up the bag and extracts one smaller bag with deadpan model poise: «Коллекция пакетов. На все случаи жизни». End on the ordinary bag, treated like a priceless object.
+0–5s: Track delicately through steam and glints as though revealing expensive perfume, then reveal the plain instant-noodle cup held by Masha R.
+5–10s: Vitalik leans toward the ordinary food aroma and murmurs «Ноты бульона». One noodle hangs from a fork; no perfume bottle or ingredient claim.
+10–15s: Hard cut to an extremely low racing-ad tracking shot along soft fabric: reveal checked house slippers on Vitalik’s feet, not a supercar.
+15–20s: Continue from the slippers reveal. Vitalik takes three ordinary steps across the studio toward a kitchen-door prop. Announcer: «Разгон до кухни — за три шага».
+20–25s: Hard cut to a velvet pedestal and a plain bag filled with neatly folded bags. Alina lifts and presents the outer bag with innocent family-commercial seriousness.
+25–30s: Vitalik draws out one smaller carrier: «Коллекция пакетов. На все случаи жизни». Masha R enters holding the noodle cup; finish on the three cheap objects, not a designer logo.
 
 END STATE:
-Vitalik raises the carrier bag from its velvet pedestal and draws out one smaller bag. He delivers the last slogan with absolute couture-model seriousness; final still is the nested-bag product, without text.
+Alina holds the outer ordinary carrier bag while Vitalik draws out a smaller bag with deadpan seriousness; Masha R presents the noodle cup nearby. Final product close-up has no lettering.
 
 CAMERA / LIGHT / PERFORMANCE:
-Luxury 100mm macro and precise slider for noodles; extremely low 35mm footwear track; slow 50mm pedestal orbit. Three clean mini-ads, no arbitrary split-screen. Practical steam and physically plausible plastic folds. Comedy comes from sincere performance, not mugging or ugly facial distortion.
+Gold luxury-ad light, 100mm food macro, low 35mm tracking shot of soft slippers, deliberate 50mm product orbit. The child is only a cheerful ordinary product presenter; no adult fashion/romantic posing. Hands and objects remain distinct.
 
 AUDIO:
 Soft breath, fork tap, three fabric-slipper steps, dignified plastic rustle. Only the three specified new Russian lines, no borrowed music or premium-brand jingles.
@@ -10895,36 +10921,38 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### 80 · Seedance 2.0 часть 1
 
-**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-80/S80-budget-luxury.png`.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image3 — `references/scenes/scene-66/S66-Alina-tatooine-sheet.png`; @Image4 — `references/scenes/scene-80/S80-budget-luxury.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal cinematic parody with clear physical comedy
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
-@Image2 = references/scenes/scene-80/S80-budget-luxury.png — single new scene staging and props, never overrides identity.
-Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+@Image1 = references/full/vitalik.jpg — exact Виталик facial identity only; costume is defined below, never inherited from the source sheet.
+@Image2 = references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png — exact Маша Р facial identity only; costume is defined below, never inherited from the source sheet.
+@Image3 = references/scenes/scene-66/S66-Alina-tatooine-sheet.png — exact Алина facial identity only; costume is defined below, never inherited from the source sheet.
+@Image4 = references/scenes/scene-80/S80-budget-luxury.png — single scene composition, props and the scene-specific wardrobe; never overrides exact facial identity or source age. This helper is not a literal first frame.
+Facial references outrank the staged image for identity and age. Do not animate a slideshow or reproduce the source sheet costumes.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-VITALIK: adult stocky fair man, exact @Image1 round face, short light-brown hair and stubble; black tunic/leather tabard, brown trousers. Bare hands when touching noodles/props, plain household slippers for the footwear gag. No change in face or age. No other person.
+VITALIK @Image1: exact adult fair round face, short light-brown hair and light stubble; burgundy velvet dinner jacket, white shirt and black bow tie. MASHA R @Image2: exact adult fair face with copper-red wavy hair and bangs; gold evening dress appropriate to a comic luxury-ad presenter. ALINA @Image3: same child as her source, blonde/light-brown hair and youthful face; modest high-neck gold party dress, age-appropriate family-commercial presentation. Never age her up or pose her romantically. Exactly these three performers, plain covered clothing, no seductive framing. Individual sheets control faces only. The staged image controls broad composition; any decorative bag pattern is not a required brand or logo.
 
 SCENE / SPACE:
-Three high-end advertising sets: black reflective tabletop with a plain instant-noodle cup and dramatic steam; tiny illuminated runway for ordinary checked fabric slippers; deep burgundy velvet pedestal holding a plain transparent carrier bag containing many neatly folded bags. No premium-brand logos.
+A glossy gold-and-burgundy studio with velvet pedestals: plain instant-noodle cup, checked house slippers and a simple carrier bag of smaller bags. Vitalik is the main deadpan presenter, Masha R assists with the noodle cup, Alina innocently demonstrates the nested bags. Use the supplied group frame for faces/wardrobe and final ensemble; macro inserts show one product at a time, never a collage. Any ornate carrier in the helper must become an ordinary inexpensive unbranded bag in the actual product close-up.
 
 START STATE:
-Extreme macro of steam above noodles, mysterious dramatic rim light; the simple cup is not yet fully revealed.
+Extreme macro of steam rising from a plain noodle cup, with luxurious gold rim light; Masha R holds it steady just outside the frame.
 
 STORY FLOW:
-0–5s: Black-gloss macro of delicate steam and amber highlights suggests luxury perfume. Track across the surface until the object becomes unmistakably an instant-noodle cup with a fork.
-5–10s: Vitalik leans in, inhales the normal food aroma and whispers «Ноты бульона». A single noodle hangs from the fork like an expensive ribbon; no fragrance bottle or false ingredient claim.
-10–15s: Hard cut to racing-commercial low-angle lighting. Camera races along a curved fabric edge and reveals two ordinary checked house slippers on his feet, not a car.
+0–5s: Track delicately through steam and glints as though revealing expensive perfume, then reveal the plain instant-noodle cup held by Masha R.
+5–10s: Vitalik leans toward the ordinary food aroma and murmurs «Ноты бульона». One noodle hangs from a fork; no perfume bottle or ingredient claim.
+10–15s: Hard cut to an extremely low racing-ad tracking shot along soft fabric: reveal checked house slippers on Vitalik’s feet, not a supercar.
 
 END STATE:
-The second mini-ad is at its reveal: a low tracking camera has exposed two ordinary checked slippers on Vitalik's feet, standing still at the start of a small kitchen runway.
+The low tracking shot has revealed ordinary checked house slippers on Vitalik’s feet, not a luxury vehicle; he is about to walk three steps.
 
 CAMERA / LIGHT / PERFORMANCE:
-Luxury 100mm macro and precise slider for noodles; extremely low 35mm footwear track; slow 50mm pedestal orbit. Three clean mini-ads, no arbitrary split-screen. Practical steam and physically plausible plastic folds. Comedy comes from sincere performance, not mugging or ugly facial distortion.
+Gold luxury-ad light, 100mm food macro, low 35mm tracking shot of soft slippers, deliberate 50mm product orbit. The child is only a cheerful ordinary product presenter; no adult fashion/romantic posing. Hands and objects remain distinct.
 
 AUDIO:
 Soft breath, fork tap, three fabric-slipper steps, dignified plastic rustle. Only the three specified new Russian lines, no borrowed music or premium-brand jingles. For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue.
@@ -10938,37 +10966,39 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### 80 · Seedance 2.0 часть 2
 
-**Входы:** @Video1 — `actual final 3 seconds of Scene 80 Seedance Part 1`; @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-80/S80-budget-luxury.png`.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image3 — `references/scenes/scene-66/S66-Alina-tatooine-sheet.png`; @Image4 — `references/scenes/scene-80/S80-budget-luxury.png` @Video1 — последние 3 с настоящего результата своей P1, когда он существует.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal cinematic parody with clear physical comedy
 
 REFERENCES / AUTHORITY:
+@Image1 = references/full/vitalik.jpg — exact Виталик facial identity only; costume is defined below, never inherited from the source sheet.
+@Image2 = references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png — exact Маша Р facial identity only; costume is defined below, never inherited from the source sheet.
+@Image3 = references/scenes/scene-66/S66-Alina-tatooine-sheet.png — exact Алина facial identity only; costume is defined below, never inherited from the source sheet.
+@Image4 = references/scenes/scene-80/S80-budget-luxury.png — single scene composition, props and the scene-specific wardrobe; never overrides exact facial identity or source age. This helper is not a literal first frame.
 @Video1 = actual final 3 seconds of Scene 80 Seedance Part 1 — real motion/pose continuity, not a generated substitute.
-@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
-@Image2 = references/scenes/scene-80/S80-budget-luxury.png — single new scene staging and props, never overrides identity.
-Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+Facial references outrank the staged image for identity and age. Do not animate a slideshow or reproduce the source sheet costumes.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-VITALIK: adult stocky fair man, exact @Image1 round face, short light-brown hair and stubble; black tunic/leather tabard, brown trousers. Bare hands when touching noodles/props, plain household slippers for the footwear gag. No change in face or age. No other person.
+VITALIK @Image1: exact adult fair round face, short light-brown hair and light stubble; burgundy velvet dinner jacket, white shirt and black bow tie. MASHA R @Image2: exact adult fair face with copper-red wavy hair and bangs; gold evening dress appropriate to a comic luxury-ad presenter. ALINA @Image3: same child as her source, blonde/light-brown hair and youthful face; modest high-neck gold party dress, age-appropriate family-commercial presentation. Never age her up or pose her romantically. Exactly these three performers, plain covered clothing, no seductive framing. Individual sheets control faces only. The staged image controls broad composition; any decorative bag pattern is not a required brand or logo.
 
 SCENE / SPACE:
-Three high-end advertising sets: black reflective tabletop with a plain instant-noodle cup and dramatic steam; tiny illuminated runway for ordinary checked fabric slippers; deep burgundy velvet pedestal holding a plain transparent carrier bag containing many neatly folded bags. No premium-brand logos.
+A glossy gold-and-burgundy studio with velvet pedestals: plain instant-noodle cup, checked house slippers and a simple carrier bag of smaller bags. Vitalik is the main deadpan presenter, Masha R assists with the noodle cup, Alina innocently demonstrates the nested bags. Use the supplied group frame for faces/wardrobe and final ensemble; macro inserts show one product at a time, never a collage. Any ornate carrier in the helper must become an ordinary inexpensive unbranded bag in the actual product close-up.
 
 START STATE:
-Continue the actual last moment of @Video1, without replaying it. Target continuity: The second mini-ad is at its reveal: a low tracking camera has exposed two ordinary checked slippers on Vitalik's feet, standing still at the start of a small kitchen runway.
+The low tracking shot has revealed ordinary checked house slippers on Vitalik’s feet, not a luxury vehicle; he is about to walk three steps.
 
 STORY FLOW:
-0–5s: Continue the slippers reveal. Vitalik takes exactly three unhurried steps toward a kitchen doorway. Announcer: «Разгон до кухни — за три шага». No falling or stunt.
-5–10s: Hard cut to a couture studio: one plain transparent carrier bag stuffed with neatly folded smaller bags on a burgundy velvet pedestal. Slow sculptural orbit, immaculate controlled highlights.
-10–15s: Vitalik picks up the bag and extracts one smaller bag with deadpan model poise: «Коллекция пакетов. На все случаи жизни». End on the ordinary bag, treated like a priceless object.
+0–5s: Continue from the slippers reveal. Vitalik takes three ordinary steps across the studio toward a kitchen-door prop. Announcer: «Разгон до кухни — за три шага».
+5–10s: Hard cut to a velvet pedestal and a plain bag filled with neatly folded bags. Alina lifts and presents the outer bag with innocent family-commercial seriousness.
+10–15s: Vitalik draws out one smaller carrier: «Коллекция пакетов. На все случаи жизни». Masha R enters holding the noodle cup; finish on the three cheap objects, not a designer logo.
 
 END STATE:
-Vitalik raises the carrier bag from its velvet pedestal and draws out one smaller bag. He delivers the last slogan with absolute couture-model seriousness; final still is the nested-bag product, without text.
+Alina holds the outer ordinary carrier bag while Vitalik draws out a smaller bag with deadpan seriousness; Masha R presents the noodle cup nearby. Final product close-up has no lettering.
 
 CAMERA / LIGHT / PERFORMANCE:
-Luxury 100mm macro and precise slider for noodles; extremely low 35mm footwear track; slow 50mm pedestal orbit. Three clean mini-ads, no arbitrary split-screen. Practical steam and physically plausible plastic folds. Comedy comes from sincere performance, not mugging or ugly facial distortion.
+Gold luxury-ad light, 100mm food macro, low 35mm tracking shot of soft slippers, deliberate 50mm product orbit. The child is only a cheerful ordinary product presenter; no adult fashion/romantic posing. Hands and objects remain distinct.
 
 AUDIO:
 Soft breath, fork tap, three fabric-slipper steps, dignified plastic rustle. Only the three specified new Russian lines, no borrowed music or premium-brand jingles. For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue.

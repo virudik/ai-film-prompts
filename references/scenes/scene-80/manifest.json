@@ -6,7 +6,7 @@
     {
       "path": "references/full/vitalik.jpg",
       "asset_id": "references/full/vitalik.jpg",
-      "caption": "@Image1 — exact vitalik face and body; wardrobe follows the explicit scene costume",
+      "caption": "@Image1 — Виталик; только лицо, возраст сохраняется; одежда по сцене",
       "role": "identity",
       "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
       "bytes": 277558,
@@ -14,17 +14,78 @@
       "status": "available",
       "owner_approval": "user_supplied_identity",
       "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+      "asset_id": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+      "caption": "@Image2 — Маша Р; только лицо, возраст сохраняется; одежда по сцене",
+      "role": "identity",
+      "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+      "bytes": 2247428,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "user_supplied_identity",
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+      "asset_id": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+      "caption": "@Image3 — Алина; только лицо, возраст сохраняется; одежда по сцене",
+      "role": "identity",
+      "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+      "bytes": 1989143,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "user_supplied_identity",
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-80/S80-budget-luxury.png",
+      "asset_id": "references/scenes/scene-80/S80-budget-luxury.png",
+      "preview": "references/scenes/scene-80/previews/S80-budget-luxury.webp",
+      "caption": "@Image4 — отдельный постановочный кадр S80",
+      "role": "scene_staging",
+      "sha256": "ff8c23f4ef3ffc5ec140d7a19dceba9bb8aa8bbddad2864f32b83ba4f21a7f3c",
+      "bytes": 2787546,
+      "width": 1672,
+      "height": 941,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_reviewed",
+      "provenance": {
+        "source": "Existing ChatGPT conversation image recovered without regeneration",
+        "file_id": "file_00000000e8fc82468efa0ccb3a8e32b9",
+        "generation_id": "d2c75c45-ebff-425c-90df-78cfb2af0e2f",
+        "reencoded": false,
+        "exchange_bundle_file_id": "1qHELllT6i87kW7QKN09xJth6oab89Tmz"
+      },
+      "qc": {
+        "scope": "Visual composition/face-reference comparison only; no biometric guarantee, owner approval or video QC",
+        "single_frame": true,
+        "no_collage": true,
+        "no_text": true,
+        "facial_references": [
+          "references/full/vitalik.jpg",
+          "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "references/scenes/scene-66/S66-Alina-tatooine-sheet.png"
+        ],
+        "limitations": "Group composition and new costumes; do not reproduce decorative handbag branding. Keep the actual product a cheap plain bag. Additional product macros remain open."
+      }
     }
   ],
-  "pending_reference": {
-    "path": "references/scenes/scene-80/S80-budget-luxury.png",
-    "slot": "@Image2",
-    "status": "needs_generation",
-    "caption": "Пакет с пакетами на бархатном пьедестале — люксовая псевдореклама",
-    "prompt_file": "references/scenes/scene-80/S80-budget-luxury.image-prompt.txt"
-  },
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-11-09T11:03:01.082729+00:00"
+  "updated_at": "2026-11-09T16:09:20.743259+00:00",
+  "prompt_reference_mapping": {
+    "@Image1": "references/full/vitalik.jpg",
+    "@Image2": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+    "@Image3": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+    "@Image4": "references/scenes/scene-80/S80-budget-luxury.png"
+  },
+  "additional_references_pending": [
+    "noodle macro",
+    "slipper low angle",
+    "plain bag-of-bags insert"
+  ]
 }

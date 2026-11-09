@@ -6,7 +6,7 @@
     {
       "path": "references/full/vitalik.jpg",
       "asset_id": "references/full/vitalik.jpg",
-      "caption": "@Image1 — exact vitalik face and body; wardrobe follows the explicit scene costume",
+      "caption": "@Image1 — Виталик; только лицо, возраст сохраняется; одежда по сцене",
       "role": "identity",
       "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
       "bytes": 277558,
@@ -14,17 +14,76 @@
       "status": "available",
       "owner_approval": "user_supplied_identity",
       "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+      "asset_id": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+      "caption": "@Image2 — Маша Р; только лицо, возраст сохраняется; одежда по сцене",
+      "role": "identity",
+      "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+      "bytes": 2247428,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "user_supplied_identity",
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+      "asset_id": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+      "caption": "@Image3 — Алина; только лицо, возраст сохраняется; одежда по сцене",
+      "role": "identity",
+      "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+      "bytes": 1989143,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "user_supplied_identity",
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-78/S78-mayonnaise-family.png",
+      "asset_id": "references/scenes/scene-78/S78-mayonnaise-family.png",
+      "preview": "references/scenes/scene-78/previews/S78-mayonnaise-family.webp",
+      "caption": "@Image4 — отдельный постановочный кадр S78",
+      "role": "scene_staging",
+      "sha256": "ff2103c750d878f2f9b0daffb16c9d42fa3890b5cde9eb31271250362c45a1e6",
+      "bytes": 2471891,
+      "width": 1672,
+      "height": 941,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_reviewed",
+      "provenance": {
+        "source": "Existing ChatGPT conversation image recovered without regeneration",
+        "file_id": "file_00000000324881f48c9397416a9ef7cb",
+        "generation_id": "3d128b86-fdd4-45c4-b097-1298476225d1",
+        "reencoded": false,
+        "exchange_bundle_file_id": "1qHELllT6i87kW7QKN09xJth6oab89Tmz"
+      },
+      "qc": {
+        "scope": "Visual composition/face-reference comparison only; no biometric guarantee, owner approval or video QC",
+        "single_frame": true,
+        "no_collage": true,
+        "no_text": true,
+        "facial_references": [
+          "references/full/vitalik.jpg",
+          "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "references/scenes/scene-66/S66-Alina-tatooine-sheet.png"
+        ],
+        "limitations": "Exactly three specified family performers; ordinary small spoonfuls. Does not establish real eating behavior or product benefit."
+      }
     }
   ],
-  "pending_reference": {
-    "path": "references/scenes/scene-78/S78-mayonnaise-family.png",
-    "slot": "@Image2",
-    "status": "needs_generation",
-    "caption": "Пародийная семейная реклама: большие банки майонеза и ложки",
-    "prompt_file": "references/scenes/scene-78/S78-mayonnaise-family.image-prompt.txt"
-  },
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-11-09T11:03:01.082729+00:00"
+  "updated_at": "2026-11-09T16:09:20.743259+00:00",
+  "prompt_reference_mapping": {
+    "@Image1": "references/full/vitalik.jpg",
+    "@Image2": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+    "@Image3": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+    "@Image4": "references/scenes/scene-78/S78-mayonnaise-family.png"
+  },
+  "additional_references_pending": [
+    "jar/spoon hand insert"
+  ]
 }

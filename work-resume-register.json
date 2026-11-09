@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-09T15:02:23+00:00",
+  "last_updated_at": "2026-11-09T16:09:20+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -1212,37 +1212,41 @@
       "work_id": "SEREGIUS-PARODIES-20261109",
       "project": "seregius",
       "title": "Семь пародийных сцен с изображениями по прямой команде владельца",
-      "status": "partially_completed_images_pending",
+      "status": "primary_stills_saved_additional_views_pending",
       "created_at": "2026-11-09T10:48:12.025422+00:00",
-      "updated_at": "2026-11-09T15:02:23+00:00",
+      "updated_at": "2026-11-09T16:09:20+00:00",
       "completed": [
         "Сверены свежие инструкции, ID 74–80 пока свободны; исходный checkpoint сохранён."
       ],
-      "next_action": "Не повторять 74–80/21 текст. S74: первый кадр рыка уже сохранён; дорисовать остальные заставки и 75–80, сначала проверять существующие файлы. S77 в main: Виталик/взрослый Алексей/Маша Р, новая одежда; Алины в любовной сцене нет. Старые изображения с неверными лицами и коллажи не использовать. Пригодный кадр сразу PNG/SHA/manifest/master, затем следующий. Не запускать видео.",
+      "next_action": "Не пересоздавать сцены74–80/21 промпт и 7 основных PNG: они сохранены. S77: Виталик/взрослый Алексей/Маша Р;78–80: Виталик/Маша Р/Алина, возраст сохранён, одежда новая. Остались дополнительные заставки74 (факел, глобус, гора, прожекторы, гонг), лёд/язь76 и дополнительные ракурсы по манифестам; полный просмотр оригиналов мемов со звуком и приёмка сходства. Старые кадры с неверными лицами не активировать. Новые кадры по одному, save-before-next. Видео не запускать.",
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-09T15:02:23+00:00",
-        "last_completed": "S74: первый PNG сохранён; S77: все три промпта и три identity bindings исправлены.",
-        "next_action": "Не повторять 74–80/21 текст. S74: первый кадр рыка уже сохранён; дорисовать остальные заставки и 75–80, сначала проверять существующие файлы. S77 в main: Виталик/взрослый Алексей/Маша Р, новая одежда; Алины в любовной сцене нет. Старые изображения с неверными лицами и коллажи не использовать. Пригодный кадр сразу PNG/SHA/manifest/master, затем следующий. Не запускать видео.",
+        "verified_at": "2026-11-09T16:09:20+00:00",
+        "last_completed": "Сохранены основные PNG всех7 сцен; дополнены лица, костюмы и все21 вход/промпт. Дополнительные кадры и приёмка открыты.",
+        "next_action": "Не пересоздавать сцены74–80/21 промпт и 7 основных PNG: они сохранены. S77: Виталик/взрослый Алексей/Маша Р;78–80: Виталик/Маша Р/Алина, возраст сохранён, одежда новая. Остались дополнительные заставки74 (факел, глобус, гора, прожекторы, гонг), лёд/язь76 и дополнительные ракурсы по манифестам; полный просмотр оригиналов мемов со звуком и приёмка сходства. Старые кадры с неверными лицами не активировать. Новые кадры по одному, save-before-next. Видео не запускать.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# 09.11.2026 — сохранён первый PNG S74; исправлен взрослый состав S77",
-          "sha256": "b725a9cc1b3b3f9f29eb9debe97f70fbc582c75ebe0f74909096bdb1f0250796"
+          "anchor": "# 09.11.2026 — восстановлены и прикреплены основные кадры пародий 75–80",
+          "sha256": "27d0149255f8501192386fa585dc56646ce52ac545d4232e7acf1917c1c944a1"
         },
         "evidence": [
           {
             "file": "reports/parody-scenes-2026-11-09.json",
-            "sha256": "b8633b4e16fd9dd27337785b000893ce6a4ca332d57ba39a97ac54afe7376428"
+            "sha256": "123918d9d3af380e2afd8b60a327898c759d746318cb9e85629cd7dad3b76e64"
           }
         ],
         "read_next": [
           "video-prompts.md",
+          "reports/parody-scenes-2026-11-09.json",
           "references/scenes/scene-74/manifest.json",
-          "references/scenes/scene-77/manifest.json"
+          "references/scenes/scene-75/manifest.json",
+          "references/scenes/scene-76/manifest.json",
+          "references/scenes/scene-77/manifest.json",
+          "references/scenes/scene-78/manifest.json",
+          "references/scenes/scene-79/manifest.json",
+          "references/scenes/scene-80/manifest.json"
         ],
-        "blockers": [
-          "Remaining staged images and additional logo views not yet saved or reviewed."
-        ]
+        "blockers": []
       },
       "scene_ids": [
         74,

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "work_id": "SEREGIUS-PARODIES-20261109",
   "project": "seregius",
-  "state": "partial_references_saved_adult_cast_corrected",
+  "state": "seven_primary_stills_saved_additional_views_pending",
   "owner_request": "1-7 делай сцены в серёгиусе с референсами изображениями",
   "scope": [
     "parody studio logos with Vitalik",
@@ -26,12 +26,12 @@
   "initial_source_head": "dc3fa5abc2c9ae0aeca9c9f0ebe02e5e6446445a",
   "preflight": "short intake passed; 15 anchors and exact source checks",
   "owner_decisions_read": "Only pre-existing Grok needs_owner found; no new scene conflicts",
-  "images_created": 1,
+  "images_created": 7,
   "video_submissions": 0,
   "paid_generations": 0,
   "queue_change_authorized": false,
   "editorial_approval": false,
-  "next_action": "Не повторять 74–80/21 текст. S74: первый кадр рыка уже сохранён; дорисовать остальные заставки и 75–80, сначала проверять существующие файлы. S77 в main: Виталик/взрослый Алексей/Маша Р, новая одежда; Алины в любовной сцене нет. Старые изображения с неверными лицами и коллажи не использовать. Пригодный кадр сразу PNG/SHA/manifest/master, затем следующий. Не запускать видео.",
+  "next_action": "Не пересоздавать сцены74–80/21 промпт и 7 основных PNG: они сохранены. S77: Виталик/взрослый Алексей/Маша Р;78–80: Виталик/Маша Р/Алина, возраст сохранён, одежда новая. Остались дополнительные заставки74 (факел, глобус, гора, прожекторы, гонг), лёд/язь76 и дополнительные ракурсы по манифестам; полный просмотр оригиналов мемов со звуком и приёмка сходства. Старые кадры с неверными лицами не активировать. Новые кадры по одному, save-before-next. Видео не запускать.",
   "checked_at": "2026-11-09T10:48:12.025422+00:00",
   "scene_ids": [
     74,
@@ -54,10 +54,10 @@
   "prompt_blocks_created": 21,
   "source_report": "reports/parody-scenes-source-2026-11-09.json",
   "queue_before_sha256": "75eddf68907a13a90def4f39ebd44e615731fa5e719e18045b695c30f589971c",
-  "updated_at": "2026-11-09T15:02:23.066221+00:00",
+  "updated_at": "2026-11-09T16:09:20.743259+00:00",
   "generated_images_attempted": 2,
-  "accepted_new_scene_images": 1,
-  "existing_identity_reference_bindings": 9,
+  "accepted_new_scene_images": 7,
+  "existing_identity_reference_bindings": 15,
   "existing_identity_references": [
     {
       "scene_id": 74,
@@ -75,21 +75,6 @@
       "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d"
     },
     {
-      "scene_id": 78,
-      "path": "references/full/vitalik.jpg",
-      "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d"
-    },
-    {
-      "scene_id": 79,
-      "path": "references/full/vitalik.jpg",
-      "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d"
-    },
-    {
-      "scene_id": 80,
-      "path": "references/full/vitalik.jpg",
-      "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d"
-    },
-    {
       "scene_id": 77,
       "path": "references/full/vitalik.jpg",
       "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d"
@@ -103,16 +88,54 @@
       "scene_id": 77,
       "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
       "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9"
+    },
+    {
+      "scene_id": 78,
+      "path": "references/full/vitalik.jpg",
+      "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d"
+    },
+    {
+      "scene_id": 78,
+      "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+      "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9"
+    },
+    {
+      "scene_id": 78,
+      "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+      "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862"
+    },
+    {
+      "scene_id": 79,
+      "path": "references/full/vitalik.jpg",
+      "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d"
+    },
+    {
+      "scene_id": 79,
+      "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+      "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9"
+    },
+    {
+      "scene_id": 79,
+      "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+      "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862"
+    },
+    {
+      "scene_id": 80,
+      "path": "references/full/vitalik.jpg",
+      "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d"
+    },
+    {
+      "scene_id": 80,
+      "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+      "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9"
+    },
+    {
+      "scene_id": 80,
+      "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+      "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862"
     }
   ],
-  "remaining_image_scenes": [
-    75,
-    76,
-    77,
-    78,
-    79,
-    80
-  ],
+  "remaining_image_scenes": [],
   "rejected_outputs": [
     {
       "generation_id": "1c794e3e-0251-4e68-b9c2-e373a21b77b3",
@@ -148,18 +171,11 @@
   },
   "publication": {
     "source_head": "a9970a5dedf65b0369401101024595014a924529",
-    "master_sha256": "6401710d32efa359885f22d6b525ac00d31d07d7b04a963145a4bd5b7f14be8b",
+    "master_sha256": "3003d5e5de31ae5aa86ab94f948b4992ee5ee424c809aa15b120aa9c2290f6fb",
     "scene_publication_workflow_run": 42605646605,
     "scene_publication_workflow_conclusion": "success",
-    "live_master": {
-      "url": "https://xn--l1adcem8c.xn--d1aigvp.xn--p1ai/video-prompts.md",
-      "checked_at": "2026-11-09T11:13:11.528036+00:00",
-      "http_status": 200,
-      "sha256": "1ac998f62a068fd762bf0911088e0c8a05938f86556d06c1f6e4868433139734",
-      "matches_main": true,
-      "all_seven_headers_visible": true
-    },
-    "live_master_verification_pending_after_casting": true
+    "live_master_verification_pending_after_casting": true,
+    "live_master_verification_pending_after_reference_recovery": true
   },
   "owner_casting_correction": {
     "quote": "Доделывай. Вместо Алины на любовных сценах сделай Алексея",
@@ -196,5 +212,183 @@
     ]
   },
   "old_unknown_actor_images_replaced_in_canon": false,
-  "old_unknown_actor_images_note": "Old compositions are not canonical references. First corrected roar has now been saved, not all old images replaced. No old images deleted."
+  "old_unknown_actor_images_note": "Old compositions are not canonical references. First corrected roar has now been saved, not all old images replaced. No old images deleted.",
+  "count_semantics": "images_created/accepted_new_scene_images = saved useful staged stills total, not owner approval or new generation in this update",
+  "this_update": {
+    "recovered_existing_images": 6,
+    "new_image_generations": 0,
+    "video_submissions": 0,
+    "paid_generations": 0,
+    "cast_updated_scenes": [
+      77,
+      78,
+      79,
+      80
+    ],
+    "review_scope": "Visual image/reference review and file/prose consistency; no original-video playback, audio QC, or owner approval"
+  },
+  "recovered_scene_images": [
+    {
+      "scene_id": 75,
+      "path": "references/scenes/scene-75/S75-moon-river.png",
+      "preview": "references/scenes/scene-75/previews/S75-moon-river.webp",
+      "sha256": "82cf2a58e8c89ee641fb41e595815734a56b484da4f636ee5b2461929ab739d9",
+      "bytes": 2354190,
+      "generation_id": "f21aac40-dd80-419b-a4a7-4db43e615d28",
+      "file_id": "file_0000000083dc81f48bc0fd49d3f15af3",
+      "identity_paths": [
+        "references/full/vitalik.jpg"
+      ],
+      "scope": "first staged image, not complete coverage",
+      "qc_limitations": "Middle-gag costume/layout helper, not the fishing setup; bodily source is hidden, no nudity. Different setup/finish still needed."
+    },
+    {
+      "scene_id": 76,
+      "path": "references/scenes/scene-76/S76-kandibober.png",
+      "preview": "references/scenes/scene-76/previews/S76-kandibober.webp",
+      "sha256": "401a265a914ea5644e087edf3b44e58c44f10169e23d3c381a598d0f33de0f8a",
+      "bytes": 2231273,
+      "generation_id": "c81285b9-6378-4481-9db4-b6f1a8d2c4d1",
+      "file_id": "file_0000000039c08212bf6b214f9a71ad29",
+      "identity_paths": [
+        "references/full/vitalik.jpg"
+      ],
+      "scope": "first staged image, not complete coverage",
+      "qc_limitations": "Only the interview; the red headdress is a stylized authored exaggeration. Ice-fisher and Yaz frames still missing. Interviewer has no usable identity."
+    },
+    {
+      "scene_id": 77,
+      "path": "references/scenes/scene-77/S77-love-triangle.png",
+      "preview": "references/scenes/scene-77/previews/S77-love-triangle.webp",
+      "sha256": "d983630f247d8ba80003c7dbcabc576fe45b555a90ba51cf1d869dc8921b161f",
+      "bytes": 2406799,
+      "generation_id": "42aca3a0-c1da-4577-a304-88adcb7e5460",
+      "file_id": "file_00000000538c82109e5fc42a1e52c7da",
+      "identity_paths": [
+        "references/full/vitalik.jpg",
+        "references/full/lesha.jpg",
+        "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png"
+      ],
+      "scope": "first staged image, not complete coverage",
+      "qc_limitations": "Three adults and later reveal. Match exact individual sheets; this is not the initial two-shot or a continuous video."
+    },
+    {
+      "scene_id": 78,
+      "path": "references/scenes/scene-78/S78-mayonnaise-family.png",
+      "preview": "references/scenes/scene-78/previews/S78-mayonnaise-family.webp",
+      "sha256": "ff2103c750d878f2f9b0daffb16c9d42fa3890b5cde9eb31271250362c45a1e6",
+      "bytes": 2471891,
+      "generation_id": "3d128b86-fdd4-45c4-b097-1298476225d1",
+      "file_id": "file_00000000324881f48c9397416a9ef7cb",
+      "identity_paths": [
+        "references/full/vitalik.jpg",
+        "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+        "references/scenes/scene-66/S66-Alina-tatooine-sheet.png"
+      ],
+      "scope": "first staged image, not complete coverage",
+      "qc_limitations": "Exactly three specified family performers; ordinary small spoonfuls. Does not establish real eating behavior or product benefit."
+    },
+    {
+      "scene_id": 79,
+      "path": "references/scenes/scene-79/S79-chips-council.png",
+      "preview": "references/scenes/scene-79/previews/S79-chips-council.webp",
+      "sha256": "aba5a8b96c44fe286624da0eead53dd7a076d7116f3e4300b6159a1d7831a470",
+      "bytes": 2731483,
+      "generation_id": "6e931722-e271-4501-b835-6902ae50b87c",
+      "file_id": "file_0000000095f481f4b6c4da60fe2f6b2e",
+      "identity_paths": [
+        "references/full/vitalik.jpg",
+        "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+        "references/scenes/scene-66/S66-Alina-tatooine-sheet.png"
+      ],
+      "scope": "first staged image, not complete coverage",
+      "qc_limitations": "Three family performers with generic packets; not evidence of actual branded packaging, sound or sponsorship."
+    },
+    {
+      "scene_id": 80,
+      "path": "references/scenes/scene-80/S80-budget-luxury.png",
+      "preview": "references/scenes/scene-80/previews/S80-budget-luxury.webp",
+      "sha256": "ff8c23f4ef3ffc5ec140d7a19dceba9bb8aa8bbddad2864f32b83ba4f21a7f3c",
+      "bytes": 2787546,
+      "generation_id": "d2c75c45-ebff-425c-90df-78cfb2af0e2f",
+      "file_id": "file_00000000e8fc82468efa0ccb3a8e32b9",
+      "identity_paths": [
+        "references/full/vitalik.jpg",
+        "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+        "references/scenes/scene-66/S66-Alina-tatooine-sheet.png"
+      ],
+      "scope": "first staged image, not complete coverage",
+      "qc_limitations": "Group composition and new costumes; do not reproduce decorative handbag branding. Keep the actual product a cheap plain bag. Additional product macros remain open."
+    }
+  ],
+  "additional_references_pending": {
+    "74": [
+      "torch curtain pedestal",
+      "globe stage",
+      "potato mountain",
+      "searchlight crates",
+      "gong saucepan composition from earlier owner request"
+    ],
+    "75": [
+      "matching-costume fishing setup",
+      "matching-costume finish with droid"
+    ],
+    "76": [
+      "ice-fisher Normalno",
+      "Yaz catch with correct fish, not pike"
+    ],
+    "77": [
+      "initial adult two-shot",
+      "Masha confession reverse angle"
+    ],
+    "78": [
+      "jar/spoon hand insert"
+    ],
+    "79": [
+      "quiet packet opening",
+      "single last chip insert"
+    ],
+    "80": [
+      "noodle macro",
+      "slipper low angle",
+      "plain bag-of-bags insert"
+    ]
+  },
+  "legacy_image_disposition": [
+    {
+      "draft": "золотой_кинологотип_с_яростным_криком.png",
+      "status": "replaced_by_saved_corrected_primary",
+      "canonical": "references/scenes/scene-74/S74-studio-roar.png"
+    },
+    {
+      "draft": "виталик_на_золотом_полумесяце.png",
+      "status": "replaced_by_saved_corrected_primary",
+      "canonical": "references/scenes/scene-75/S75-moon-river.png"
+    },
+    {
+      "draft": "виталик_с_золотым_факелом_на_театральном_пьедестал.png",
+      "status": "face_correction_still_pending",
+      "canonical": null
+    },
+    {
+      "draft": "виталик_и_неустойчивый_глобус.png",
+      "status": "face_correction_still_pending",
+      "canonical": null
+    },
+    {
+      "draft": "триумф_над_горой_хлама.png",
+      "status": "face_correction_still_pending",
+      "canonical": null
+    },
+    {
+      "draft": "виталик_покоряет_крышу.png",
+      "status": "face_correction_still_pending",
+      "canonical": null
+    },
+    {
+      "draft": "виталик_и_священный_гонг_кастрюли.png",
+      "status": "face_correction_still_pending",
+      "canonical": null
+    }
+  ]
 }

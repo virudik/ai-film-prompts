@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-09T15:35:48+00:00",
-  "source_head": "33a282f6fc38e8882c2c49eafdbe4f61929317ef",
-  "source_fingerprint": "c2e1c0a926c2ea85bc64bffe0d3b27ac3829ee5c4351c965b4996c14f5239990",
+  "checked_at": "2026-11-09T16:09:24+00:00",
+  "source_head": "b445ad9d46ff2ea0f170ad926aa2d676d700a2fb",
+  "source_fingerprint": "001426b86441a84cb5169cbd05ebf091f662247a914b69194ac4fbd87ce83c4a",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -556,8 +556,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "373182ee6be96a0d9633e69bd2ad90f6a7b4ebbde1070c398e1079e42c1d1c5f",
-      "bytes": 34938
+      "sha256": "ea0bb036cbbf0bcf9b336d0bf8f94174a7cd383032436bb1197c35e091c81a8e",
+      "bytes": 34905
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -581,7 +581,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "3f8b54ec4fa13b2ac01eced39b68e7234fd42da097f208034fcf22da88224820",
+      "sha256": "cc323abf03edae143a647a8e8e9ab5ca0631d705bc3809cd799e26672ebb24c6",
       "bytes": 5135
     },
     {
@@ -601,8 +601,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "b469d6457c5bc54bf0e921a8fda5ee331ab571217141ea03d42950df0b3aee5f",
-      "bytes": 25853
+      "sha256": "d3547753d55681204bbb264e1dcd791588a9e037b76a51335e150b8d05d9eae8",
+      "bytes": 25815
     },
     {
       "file": "reports/chat-handoff-save-2026-11-08.json",
@@ -611,8 +611,8 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "8b16fdb3561e23b45a66c668c4ab88759c299ab0263fab5712280e044ec5c5b9",
-      "bytes": 22127
+      "sha256": "ce01f3bd1ab5ad288280932e47e9dc493ab1e8d729e36af7ecfe347394ddfe65",
+      "bytes": 24246
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -621,23 +621,23 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "df0da487892bb5ba530f9631747fc43669d6a6fa8bb3f2f95c7490e1f639a3d8",
-      "bytes": 34739
+      "sha256": "7c76a95dbdb19feaba4138db4884d55c1874c7cc1ea64bffda40305bc7b2e64d",
+      "bytes": 34706
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "6cb27d1c8829ef4ba5e49ca4d42391878961a6d2b49d9c43e613cc98f9fb70bc",
-      "bytes": 28481
+      "sha256": "d72a8cdc0f972e69f053b91d19086f9df14f350a691af7b0f0271f445b189a01",
+      "bytes": 28571
     },
     {
       "file": "video-prompts.md",
-      "sha256": "e662cc8a5fbbd19331fc6f72a38e6b939dd19b2f1bbc526f04d9f7176a8adf83",
-      "bytes": 1493511
+      "sha256": "3003d5e5de31ae5aa86ab94f948b4992ee5ee424c809aa15b120aa9c2290f6fb",
+      "bytes": 1508554
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "42398b6c84642d54ce82489ef20decae51e9d7a3eb10fc934e867886438cd32a",
-      "bytes": 100693
+      "sha256": "d8fe11f01557403683d569e31c0d9bb1868ba2f690ec21f097177c0f617f9d87",
+      "bytes": 101366
     }
   ],
   "packet_bytes": 6523

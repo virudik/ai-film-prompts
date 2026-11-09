@@ -6,7 +6,7 @@
     {
       "path": "references/full/vitalik.jpg",
       "asset_id": "references/full/vitalik.jpg",
-      "caption": "@Image1 — exact vitalik face and body; wardrobe follows the explicit scene costume",
+      "caption": "@Image1 — Виталик; только лицо, возраст сохраняется; одежда по сцене",
       "role": "identity",
       "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
       "bytes": 277558,
@@ -14,17 +14,49 @@
       "status": "available",
       "owner_approval": "user_supplied_identity",
       "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-76/S76-kandibober.png",
+      "asset_id": "references/scenes/scene-76/S76-kandibober.png",
+      "preview": "references/scenes/scene-76/previews/S76-kandibober.webp",
+      "caption": "@Image2 — отдельный постановочный кадр S76",
+      "role": "scene_staging",
+      "sha256": "401a265a914ea5644e087edf3b44e58c44f10169e23d3c381a598d0f33de0f8a",
+      "bytes": 2231273,
+      "width": 1672,
+      "height": 941,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_reviewed",
+      "provenance": {
+        "source": "Existing ChatGPT conversation image recovered without regeneration",
+        "file_id": "file_0000000039c08212bf6b214f9a71ad29",
+        "generation_id": "c81285b9-6378-4481-9db4-b6f1a8d2c4d1",
+        "reencoded": false,
+        "exchange_bundle_file_id": "1qHELllT6i87kW7QKN09xJth6oab89Tmz"
+      },
+      "qc": {
+        "scope": "Visual composition/face-reference comparison only; no biometric guarantee, owner approval or video QC",
+        "single_frame": true,
+        "no_collage": true,
+        "no_text": true,
+        "facial_references": [
+          "references/full/vitalik.jpg"
+        ],
+        "limitations": "Only the interview; the red headdress is a stylized authored exaggeration. Ice-fisher and Yaz frames still missing. Interviewer has no usable identity."
+      }
     }
   ],
-  "pending_reference": {
-    "path": "references/scenes/scene-76/S76-kandibober.png",
-    "slot": "@Image2",
-    "status": "needs_generation",
-    "caption": "Виталик в огромном красном кандибобере — уличное интервью",
-    "prompt_file": "references/scenes/scene-76/S76-kandibober.image-prompt.txt"
-  },
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-11-09T11:03:01.082729+00:00"
+  "updated_at": "2026-11-09T16:09:20.743259+00:00",
+  "prompt_reference_mapping": {
+    "@Image1": "references/full/vitalik.jpg",
+    "@Image2": "references/scenes/scene-76/S76-kandibober.png"
+  },
+  "additional_references_pending": [
+    "ice-fisher Normalno",
+    "Yaz catch with correct fish, not pike"
+  ]
 }

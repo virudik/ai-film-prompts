@@ -6,7 +6,7 @@
     {
       "path": "references/full/vitalik.jpg",
       "asset_id": "references/full/vitalik.jpg",
-      "caption": "@Image1 — exact vitalik face and body; wardrobe follows the explicit scene costume",
+      "caption": "@Image1 — Виталик; только лицо, возраст сохраняется; одежда по сцене",
       "role": "identity",
       "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
       "bytes": 277558,
@@ -14,17 +14,49 @@
       "status": "available",
       "owner_approval": "user_supplied_identity",
       "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-75/S75-moon-river.png",
+      "asset_id": "references/scenes/scene-75/S75-moon-river.png",
+      "preview": "references/scenes/scene-75/previews/S75-moon-river.webp",
+      "caption": "@Image2 — отдельный постановочный кадр S75",
+      "role": "scene_staging",
+      "sha256": "82cf2a58e8c89ee641fb41e595815734a56b484da4f636ee5b2461929ab739d9",
+      "bytes": 2354190,
+      "width": 1672,
+      "height": 941,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_reviewed",
+      "provenance": {
+        "source": "Existing ChatGPT conversation image recovered without regeneration",
+        "file_id": "file_0000000083dc81f48bc0fd49d3f15af3",
+        "generation_id": "f21aac40-dd80-419b-a4a7-4db43e615d28",
+        "reencoded": false,
+        "exchange_bundle_file_id": "1qHELllT6i87kW7QKN09xJth6oab89Tmz"
+      },
+      "qc": {
+        "scope": "Visual composition/face-reference comparison only; no biometric guarantee, owner approval or video QC",
+        "single_frame": true,
+        "no_collage": true,
+        "no_text": true,
+        "facial_references": [
+          "references/full/vitalik.jpg"
+        ],
+        "limitations": "Middle-gag costume/layout helper, not the fishing setup; bodily source is hidden, no nudity. Different setup/finish still needed."
+      }
     }
   ],
-  "pending_reference": {
-    "path": "references/scenes/scene-75/S75-moon-river.png",
-    "slot": "@Image2",
-    "status": "needs_generation",
-    "caption": "Виталик на месяце над рекой — дальний комедийный план без обнажения",
-    "prompt_file": "references/scenes/scene-75/S75-moon-river.image-prompt.txt"
-  },
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-11-09T11:03:01.082729+00:00"
+  "updated_at": "2026-11-09T16:09:20.743259+00:00",
+  "prompt_reference_mapping": {
+    "@Image1": "references/full/vitalik.jpg",
+    "@Image2": "references/scenes/scene-75/S75-moon-river.png"
+  },
+  "additional_references_pending": [
+    "matching-costume fishing setup",
+    "matching-costume finish with droid"
+  ]
 }

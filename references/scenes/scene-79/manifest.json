@@ -6,7 +6,7 @@
     {
       "path": "references/full/vitalik.jpg",
       "asset_id": "references/full/vitalik.jpg",
-      "caption": "@Image1 — exact vitalik face and body; wardrobe follows the explicit scene costume",
+      "caption": "@Image1 — Виталик; только лицо, возраст сохраняется; одежда по сцене",
       "role": "identity",
       "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
       "bytes": 277558,
@@ -14,17 +14,77 @@
       "status": "available",
       "owner_approval": "user_supplied_identity",
       "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+      "asset_id": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+      "caption": "@Image2 — Маша Р; только лицо, возраст сохраняется; одежда по сцене",
+      "role": "identity",
+      "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+      "bytes": 2247428,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "user_supplied_identity",
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+      "asset_id": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+      "caption": "@Image3 — Алина; только лицо, возраст сохраняется; одежда по сцене",
+      "role": "identity",
+      "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+      "bytes": 1989143,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "user_supplied_identity",
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-79/S79-chips-council.png",
+      "asset_id": "references/scenes/scene-79/S79-chips-council.png",
+      "preview": "references/scenes/scene-79/previews/S79-chips-council.webp",
+      "caption": "@Image4 — отдельный постановочный кадр S79",
+      "role": "scene_staging",
+      "sha256": "aba5a8b96c44fe286624da0eead53dd7a076d7116f3e4300b6159a1d7831a470",
+      "bytes": 2731483,
+      "width": 1672,
+      "height": 941,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_reviewed",
+      "provenance": {
+        "source": "Existing ChatGPT conversation image recovered without regeneration",
+        "file_id": "file_0000000095f481f4b6c4da60fe2f6b2e",
+        "generation_id": "6e931722-e271-4501-b835-6902ae50b87c",
+        "reencoded": false,
+        "exchange_bundle_file_id": "1qHELllT6i87kW7QKN09xJth6oab89Tmz"
+      },
+      "qc": {
+        "scope": "Visual composition/face-reference comparison only; no biometric guarantee, owner approval or video QC",
+        "single_frame": true,
+        "no_collage": true,
+        "no_text": true,
+        "facial_references": [
+          "references/full/vitalik.jpg",
+          "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "references/scenes/scene-66/S66-Alina-tatooine-sheet.png"
+        ],
+        "limitations": "Three family performers with generic packets; not evidence of actual branded packaging, sound or sponsorship."
+      }
     }
   ],
-  "pending_reference": {
-    "path": "references/scenes/scene-79/S79-chips-council.png",
-    "slot": "@Image2",
-    "status": "needs_generation",
-    "caption": "Совет космических героев прерван чипсами — пародия на рекламу Lay’s",
-    "prompt_file": "references/scenes/scene-79/S79-chips-council.image-prompt.txt"
-  },
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-11-09T11:03:01.082729+00:00"
+  "updated_at": "2026-11-09T16:09:20.743259+00:00",
+  "prompt_reference_mapping": {
+    "@Image1": "references/full/vitalik.jpg",
+    "@Image2": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+    "@Image3": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+    "@Image4": "references/scenes/scene-79/S79-chips-council.png"
+  },
+  "additional_references_pending": [
+    "quiet packet opening",
+    "single last chip insert"
+  ]
 }
