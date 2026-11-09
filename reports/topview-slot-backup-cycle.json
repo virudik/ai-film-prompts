@@ -12,8 +12,8 @@
   "started_at": "2026-11-09T03:25:19.397Z",
   "receipt_started_at": "2026-11-09T03:36:42.669Z",
   "checked_at": "2026-11-09T03:34:35.694Z",
-  "phase": "started",
-  "outcome": "in_progress",
+  "phase": "complete",
+  "outcome": "blocked_browser_input",
   "scan": {
     "complete": true,
     "scope": "14 Topview boards, all 18 video pages via connector, this run",
@@ -92,8 +92,11 @@
     "holder": "chatgpt:ordinary:459aec17-e321-44a4-87f0-36d7508c572b",
     "acquired_at": "2026-11-09T03:35:38.903Z",
     "expires_at": "2026-11-09T03:50:38.903Z",
-    "release_with_receipt_atomic": false,
-    "released_at": null
+    "release_with_receipt_atomic": true,
+    "released_at": "2026-11-09T03:38:28.331Z"
   },
-  "retryable": false
+  "retryable": false,
+  "status": "completed",
+  "completed_at": "2026-11-09T03:38:28.331Z",
+  "result": "No Create: known unchanged TinyFish native original-file upload/Unlimited0 preflight limitation; next independent plot item S62 remains ready by inputs. No wallet charge."
 }
