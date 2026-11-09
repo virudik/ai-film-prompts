@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "roscosmos",
   "project_name": "Роскосмос",
-  "checked_at": "2026-11-09T10:01:01+00:00",
-  "source_head": "3f59e54ca6009edc34a46d6842aa5605139e6559",
-  "source_fingerprint": "1af583750fdfd1024fef73cf9d5addfb108a282c6812a69e483beabd185803f4",
+  "checked_at": "2026-11-09T10:10:15+00:00",
+  "source_head": "2180566493073d7789a2d69562a1ff8ec41245f3",
+  "source_fingerprint": "65f86727801ec9c2a8f0c373efbc3826264b4d192e202f969d17810b1b5ebeb3",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -133,8 +133,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "a82bbe5b8492a0eb9201540d5d03bbb031201a41195b3bc6bedce9688d8c194e",
-      "bytes": 34540
+      "sha256": "c33b8855d467d7c3815551e9ad0d4febe04048edd2ac35da54d2224391c78fc2",
+      "bytes": 34380
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -158,7 +158,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "b00bda60320218488ed573cb94dcca0a2ecaf0aa53b2d95be539329fd742db9e",
+      "sha256": "7f1a2053ee4f008ead9d9244d0e92cdec8363112b0e4a95122f876f86c3bcfcd",
       "bytes": 5136
     },
     {
@@ -228,12 +228,12 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "51dc8d16953df6897b90cc3b527c533cc5a6980747f6d975446014ae5e1b62f8",
-      "bytes": 34341
+      "sha256": "8f2933b46a768386ecfb5804b52b6a472870b1e7990146067a64884e1e19ddee",
+      "bytes": 34181
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "e43c5d13bcfe798ebd8cc7dc1036a414e8323ba4ac8e85e868382a8c168c1f4e",
+      "sha256": "979418729e52891c3bc7227c39c60304b2e89fe2b0eeae9917bb53742e7ba102",
       "bytes": 25543
     },
     {
