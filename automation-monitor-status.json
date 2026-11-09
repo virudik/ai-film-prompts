@@ -425,7 +425,7 @@
     "reconciliation_items": [
       "S49B"
     ],
-    "last_event_id": "result:dcf9df8fb84e41178b9f11e6be06751b",
+    "last_event_id": "result:8a1982a55f794a049a62eaa91bf8827f",
     "receipt_present": false,
     "handler_outcome": null,
     "execution_stage": null,
@@ -435,6 +435,6 @@
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
     "escalation_attempted_episode": "d1af9cd6",
-    "checked_at": "2026-11-09T09:10:26Z"
+    "checked_at": "2026-11-09T09:16:15Z"
   }
 }
