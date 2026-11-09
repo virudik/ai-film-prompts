@@ -54,15 +54,48 @@
     "verified_at": "2026-11-08T15:31:51Z",
     "verification": "All three images downloaded again through authenticated Drive fetch; SHA256 byte equality confirmed against the primary-source downloads. Copies are technical reference material, not generated or editorially approved assets.",
     "items": [
-      {"slot":"H-BACK","drive_file_id":"19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI","pixels":[3000,3000],"bytes":5161026,"sha256":"75b1c1c633760037f46a382794c9253588bd0c14b9aeba23050782cbffadc04a","drive_readback_match":true},
-      {"slot":"H-FRONT","drive_file_id":"1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg","pixels":[3000,3000],"bytes":3872665,"sha256":"fab0823b46ec815dc616b958b8f9e33e2de57f4bbe2e7366a720b7f358dc019a","drive_readback_match":true},
-      {"slot":"H-34","drive_file_id":"1pYRa-H6rsA5-1kncKAejE7JGkTAskAMN","pixels":[800,800],"bytes":406599,"sha256":"5bd821e37fc6409636369c282a7d80da65bd3a9132ec295eefe7e047ba393b0a","drive_readback_match":true}
+      {
+        "slot": "H-BACK",
+        "drive_file_id": "19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI",
+        "pixels": [
+          3000,
+          3000
+        ],
+        "bytes": 5161026,
+        "sha256": "75b1c1c633760037f46a382794c9253588bd0c14b9aeba23050782cbffadc04a",
+        "drive_readback_match": true
+      },
+      {
+        "slot": "H-FRONT",
+        "drive_file_id": "1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg",
+        "pixels": [
+          3000,
+          3000
+        ],
+        "bytes": 3872665,
+        "sha256": "fab0823b46ec815dc616b958b8f9e33e2de57f4bbe2e7366a720b7f358dc019a",
+        "drive_readback_match": true
+      },
+      {
+        "slot": "H-34",
+        "drive_file_id": "1pYRa-H6rsA5-1kncKAejE7JGkTAskAMN",
+        "pixels": [
+          800,
+          800
+        ],
+        "bytes": 406599,
+        "sha256": "5bd821e37fc6409636369c282a7d80da65bd3a9132ec295eefe7e047ba393b0a",
+        "drive_readback_match": true
+      }
     ]
   },
   "original_reference_generation": {
     "prompt_file": "projects/raznoe/references/scenes/scene-4/H-BACK.image-prompt.txt",
     "accepted_candidates": 0,
-    "rejected_generation_ids": ["3cc78517-9ad9-4e50-ae73-bee22ba5bdef","b199ada9-77f9-4cad-937c-0f1eacb16fb2"],
+    "rejected_generation_ids": [
+      "3cc78517-9ad9-4e50-ae73-bee22ba5bdef",
+      "b199ada9-77f9-4cad-937c-0f1eacb16fb2"
+    ],
     "rejection_reason": "The native image tool returned unrelated dashboards with false completion claims instead of the requested handset. Neither image is a project report, product reference, evidence or accepted asset; neither was published in GitHub or Drive.",
     "next_action": "Use the preserved original primary-source pixels and corrected H-BACK prompt for one product-reference candidate; inspect actual pixels before saving/binding. Do not regenerate existing mood PNGs. No successful new product PNG is claimed."
   },
@@ -76,5 +109,32 @@
     "paid_credits_allowed": false,
     "voiceover": "separate filmwide voiceover proposal not approved"
   },
-  "checked_at": "2026-11-08T15:31:51Z"
+  "checked_at": "2026-11-09T19:04:19Z",
+  "latest_official_source_readback": {
+    "checked_at": "2026-11-09T19:04:19Z",
+    "source": "GitHub Actions read-only workflow 42679705455",
+    "method": "Downloaded each official source URL over HTTPS; compared byte SHA256 to the existing private Google Drive copy",
+    "results": [
+      {
+        "slot": "H-BACK",
+        "bytes": 5161026,
+        "sha256": "75b1c1c633760037f46a382794c9253588bd0c14b9aeba23050782cbffadc04a",
+        "matches_private_drive": true
+      },
+      {
+        "slot": "H-FRONT",
+        "bytes": 3872665,
+        "sha256": "fab0823b46ec815dc616b958b8f9e33e2de57f4bbe2e7366a720b7f358dc019a",
+        "matches_private_drive": true
+      },
+      {
+        "slot": "H-34",
+        "bytes": 406599,
+        "sha256": "5bd821e37fc6409636369c282a7d80da65bd3a9132ec295eefe7e047ba393b0a",
+        "matches_private_drive": true
+      }
+    ],
+    "summary": "3/3 official source images downloaded and exact-byte matched to the private Drive copies.",
+    "boundary": "These are technical source references only. This check does not grant advertising rights, create canonical generated product PNGs, or constitute artistic approval. No image was uploaded to the public repository."
+  }
 }
