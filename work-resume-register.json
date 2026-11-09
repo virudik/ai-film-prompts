@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-09T19:00:00Z",
+  "last_updated_at": "2026-11-09T19:04:21+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_for_slot",
-      "updated_at": "2026-11-08T16:20:45+00:00",
+      "updated_at": "2026-11-09T19:04:21+00:00",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "18:55 MSK cycle 30 Oct: complete 14-board/20-page scan found 951 tasks and6/6 active after Relay submitted S61-P1. No Create. S42-P2 success sampled at0/4/8/12/15s: critical duplicated Ilyusha-like identity replaces Artem and blue-saber deformation; no owner approval or auto-retry. Original archive/SHA blocked by Cloud/CDP filesystem isolation.",
@@ -21,7 +21,7 @@
         "2026-11-07T19:12:10.175Z: D7 ordinary takeover to epoch 4; GitHub SHA source 8/8 and invariants 15/15 match; robot telemetry checked 2026-11-07T19:00:28Z: 6/6 occupied (0 free), queue 15 submitted / 26 waiting / 21 blocked_inputs. No website Create/claims/retry/credits.",
         "2026-11-07T19:31:52.758Z: updated handoff 358b9cea and A-01..A-30 statuses bb487775; Topview 6/6/0, ordinary hourly run verified, 6 public shares read, Grok not accessible, Drive Sasha/Vizitka verified, Rutube embeds 3 unavailable; health warning still awaiting readback, honor/resource/joins/SSL print QC open."
       ],
-      "next_action": "Прочитать свежий main/слоты/очередь и claims, готовое не повторять. Далее открытые A-20/A-33/A-08/A-09/A-07/A-31 и настоящие стыки. Сертификаты требуют разрешённого Pages-доступа; Школа — подтверждённого playback без публикации приватного ключа; HONOR — пригодного H-BACK и QC; конкурс — города/согласования. Keep и Роскосмос на паузе.",
+      "next_action": "Читать живую очередь без дублей. Для Школы (A-33) подтвердить рабочее воспроизведение и приватность перед заменой/архивацией. A-20 требует разрешённой административной сессии Pages. Доделать оригинальные продуктовые PNG HONOR с QC/сохранением; заявка конкурса ждёт настоящего города и согласования теста. RESOURCE/видеостыки остаются QC, Keep/Роскосмос на паузе. Не повторять шесть опубликованных плееров, порядок A-32 и уже исправленный конкурсный мастер.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md",
@@ -316,34 +316,25 @@
       },
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-08T16:20:45+00:00",
-        "last_completed": "Подтверждённые этапы этого и ранее разобранных чатов сведены в план и хендоф; шесть плееров готовы, седьмая Школа открыта; три исходника HONOR сохранены, новых принятых PNG 0. Ложные дашборды исключены.",
-        "next_action": "Прочитать свежий main/слоты/очередь и claims, готовое не повторять. Далее открытые A-20/A-33/A-08/A-09/A-07/A-31 и настоящие стыки. Сертификаты требуют разрешённого Pages-доступа; Школа — подтверждённого playback без публикации приватного ключа; HONOR — пригодного H-BACK и QC; конкурс — города/согласования. Keep и Роскосмос на паузе.",
+        "verified_at": "2026-11-09T19:04:21+00:00",
+        "last_completed": "Уточнено: семь роликов, шесть прежних Rutube-плееров опубликованы; Школа проверена отдельно и оставлена локально после ошибки воспроизведения. Добавлен A-33. Повторная TLS-проверка записана. Готовая конкурсная сцена HONOR не переписывалась; H-BACK пока только задание, PNG не принят.",
+        "next_action": "Читать живую очередь без дублей. Для Школы (A-33) подтвердить рабочее воспроизведение и приватность перед заменой/архивацией. A-20 требует разрешённой административной сессии Pages. Доделать оригинальные продуктовые PNG HONOR с QC/сохранением; заявка конкурса ждёт настоящего города и согласования теста. RESOURCE/видеостыки остаются QC, Keep/Роскосмос на паузе. Не повторять шесть опубликованных плееров, порядок A-32 и уже исправленный конкурсный мастер.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# 08.11.2026 — сохранение чата: выполненное и остаток для сменщика",
-          "sha256": "8b5d2ee0cb765b28528b9f4c852701c0f5869fbfe897758ed6aa265e885a66a7"
+          "anchor": "# 08.11.2026 — семь видео: Школа отдельно, без ложного завершения",
+          "sha256": "35909eddd1b099e3f38a6cce0ed3529a9dab6b53802e76e2faa2971c488f32a8"
         },
         "evidence": [
           {
-            "file": "reports/chat-handoff-save-2026-11-08.json",
-            "sha256": "9bf556ecb23049846d41b97bb9407f23acdde22e4a564e92e677c30e93b55eae"
+            "file": "reports/school-seventh-video-2026-11-08.json",
+            "sha256": "ab9d88749d08f712aeba528e61f9303ceae0b5e143af3f2e736754f691843b67"
           }
         ],
         "read_next": [
           "ops/FUTURE-PLANS.md",
-          "reports/current-work-checkpoint.md",
-          "NEW-CHAT-HANDOFF.md",
-          "reports/chat-handoff-save-2026-11-08.json"
+          "projects/raznoe/HANDOFF.md"
         ],
-        "blockers": [
-          "A-20: восемь HTTPS-сертификатов и разрешённый административный Pages-доступ",
-          "A-33: рабочее воспроизведение и безопасная замена седьмой Школы",
-          "A-08: пригодные продуктовые референсы HONOR, права и QC",
-          "A-09: настоящий город, согласование участия/теста, заявка и реальная съёмка",
-          "A-07: полный motion/audio/continuity QC RESOURCE",
-          "A-31: перенос 13 YouTube-видео после авторизации и проверки прав"
-        ]
+        "blockers": []
       },
       "last_relay_reconciliation": {
         "event_id": "slots:df305d35:2",
@@ -1634,7 +1625,7 @@
   "resume_focus": {
     "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
     "project": "seregius",
-    "set_at": "2026-11-08T15:24:00+00:00",
+    "set_at": "2026-11-09T19:04:21+00:00",
     "reason": "Explicitly selected by the authorized task writer"
   },
   "last_instruction_review": {

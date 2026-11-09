@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:92a55f4b-08b5-4fb1-a9f1-95e2c0e6a2d1",
   "task": "Publish read-only TLS result and official HONOR source byte comparison; fix report evidence scope",
   "acquired_at": "2026-11-09T19:03:29Z",
-  "expires_at": "2026-11-09T19:33:29Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-09T19:04:21+00:00",
   "rules": "ops/CANON-LOCK.md"
 }

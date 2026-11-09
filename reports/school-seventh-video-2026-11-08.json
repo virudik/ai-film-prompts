@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "project": "seregius",
-  "checked_at": "2026-11-08T15:24:00+00:00",
-  "source_head": "69d74953c51990e090e2c339098c77144373bd7c",
+  "checked_at": "2026-11-09T19:04:21+00:00",
+  "source_head": "6090359470f8c12375d41d6ecfac7513eeff8a52",
   "request": "Owner corrected video count to seven and renewed HONOR/HTTPS request",
   "video_count": {
     "owner_screenshot": 7,
@@ -23,13 +23,13 @@
     "public_embed_enabled": false
   },
   "tls": {
-    "checked_at": "2026-11-08T15:23:58+00:00",
+    "checked_at": "2026-11-09T19:04:19+00:00",
     "scope": "Direct default-CA TLS/SNI check; no DNS, Pages administration or access changes",
     "certificates": [
       {
         "domain": "алина.рудик.рф",
         "hostname": "xn--80aaxll.xn--d1aigvp.xn--p1ai",
-        "checked_at": "2026-11-08T15:23:58+00:00",
+        "checked_at": "2026-11-09T19:04:18+00:00",
         "verified": false,
         "error_type": "SSLCertVerificationError",
         "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'xn--80aaxll.xn--d1aigvp.xn--p1ai'. (_ssl.c:1081)"
@@ -37,7 +37,7 @@
       {
         "domain": "маша.рудик.рф",
         "hostname": "xn--80aa8axc.xn--d1aigvp.xn--p1ai",
-        "checked_at": "2026-11-08T15:23:58+00:00",
+        "checked_at": "2026-11-09T19:04:18+00:00",
         "verified": false,
         "error_type": "SSLCertVerificationError",
         "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'xn--80aa8axc.xn--d1aigvp.xn--p1ai'. (_ssl.c:1081)"
@@ -45,7 +45,7 @@
       {
         "domain": "виталик.рудик.рф",
         "hostname": "xn--80adsbke1c.xn--d1aigvp.xn--p1ai",
-        "checked_at": "2026-11-08T15:23:58+00:00",
+        "checked_at": "2026-11-09T19:04:18+00:00",
         "verified": false,
         "error_type": "SSLCertVerificationError",
         "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'xn--80adsbke1c.xn--d1aigvp.xn--p1ai'. (_ssl.c:1081)"
@@ -53,7 +53,7 @@
       {
         "domain": "видео.рудик.рф",
         "hostname": "xn--b1aedk6a.xn--d1aigvp.xn--p1ai",
-        "checked_at": "2026-11-08T15:23:58+00:00",
+        "checked_at": "2026-11-09T19:04:18+00:00",
         "verified": false,
         "error_type": "SSLCertVerificationError",
         "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'xn--b1aedk6a.xn--d1aigvp.xn--p1ai'. (_ssl.c:1081)"
@@ -61,7 +61,7 @@
       {
         "domain": "фото.рудик.рф",
         "hostname": "xn--n1aalg.xn--d1aigvp.xn--p1ai",
-        "checked_at": "2026-11-08T15:23:58+00:00",
+        "checked_at": "2026-11-09T19:04:18+00:00",
         "verified": false,
         "error_type": "SSLCertVerificationError",
         "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'xn--n1aalg.xn--d1aigvp.xn--p1ai'. (_ssl.c:1081)"
@@ -69,7 +69,7 @@
       {
         "domain": "работа.рудик.рф",
         "hostname": "xn--80aac6chp.xn--d1aigvp.xn--p1ai",
-        "checked_at": "2026-11-08T15:23:58+00:00",
+        "checked_at": "2026-11-09T19:04:18+00:00",
         "verified": false,
         "error_type": "SSLCertVerificationError",
         "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'xn--80aac6chp.xn--d1aigvp.xn--p1ai'. (_ssl.c:1081)"
@@ -77,7 +77,7 @@
       {
         "domain": "мои-видео.рудик.рф",
         "hostname": "xn----dtbgelcyqg.xn--d1aigvp.xn--p1ai",
-        "checked_at": "2026-11-08T15:23:58+00:00",
+        "checked_at": "2026-11-09T19:04:18+00:00",
         "verified": false,
         "error_type": "SSLCertVerificationError",
         "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'xn----dtbgelcyqg.xn--d1aigvp.xn--p1ai'. (_ssl.c:1081)"
@@ -85,7 +85,7 @@
       {
         "domain": "обо-мне.рудик.рф",
         "hostname": "xn----9sbn1afcb.xn--d1aigvp.xn--p1ai",
-        "checked_at": "2026-11-08T15:23:58+00:00",
+        "checked_at": "2026-11-09T19:04:18+00:00",
         "verified": false,
         "error_type": "SSLCertVerificationError",
         "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'xn----9sbn1afcb.xn--d1aigvp.xn--p1ai'. (_ssl.c:1081)"
@@ -122,13 +122,50 @@
     "published_in_project": false
   },
   "preserved_sha256": {
-    "video-prompts.md": "c03bc1eea2dc2d5630d23e301a4293e3deaabee2cca339464bee3512a67e1789",
-    "ops/topview-launch-queue.json": "9ff03d6a3a89faaedb89e4fe4d9fdbe94f4de4619a4b3399a0ad01d79e6a54f6",
+    "video-prompts.md": "3003d5e5de31ae5aa86ab94f948b4992ee5ee424c809aa15b120aa9c2290f6fb",
+    "ops/topview-launch-queue.json": "5c4c83e19a23ce849990d5647342ed982191c583dfc61642535f8282f3b10504",
     "projects/raznoe/video-prompts.md": "1f1626606cebd32d1d761e1f6ae47a5cd8527a27e12ed4b8646b266cff52d3b5",
     "projects/raznoe/ops/topview-launch-queue.json": "1532ad13f700b0dbcdb3f1ff590ff5bd2e158f8204de4a32428080d1537adfb5",
-    "ops/slot-backup.json": "1cac4d64e7ef19b20dc691b06efce337d8de169440d479b02d058236e59e7a37"
+    "ops/slot-backup.json": "c5a3adfffa8dd8a55b875694730990a1c97d6112827e4d7f26df9a792a191b43"
   },
   "new_video_submissions": 0,
   "paid_generations": 0,
-  "all_requested_work_complete": false
+  "all_requested_work_complete": false,
+  "official_reference_review": {
+    "sources": [
+      {
+        "slot": "H-BACK",
+        "source_url": "https://img-va.myshopline.com/image/store/1781230483395/MTV-ID-Pro-Max-Green-Rear-RGB-PNG-3000-20260831.png?h=3000&w=3000",
+        "purpose": "Private technical comparison only, not a licensed advertisement or approved project image",
+        "downloaded": true,
+        "bytes": 5161026,
+        "sha256": "75b1c1c633760037f46a382794c9253588bd0c14b9aeba23050782cbffadc04a",
+        "expected_sha256": "75b1c1c633760037f46a382794c9253588bd0c14b9aeba23050782cbffadc04a",
+        "matches_private_copy": true
+      },
+      {
+        "slot": "H-FRONT",
+        "source_url": "https://img-va.myshopline.com/image/store/1781230483395/MTV-ID-Pro-Max-Green-Front-Left-RGB-PNG-EN-HQ-3000-20260911.png?h=3000&w=3000",
+        "purpose": "Private technical comparison only, not a licensed advertisement or approved project image",
+        "downloaded": true,
+        "bytes": 3872665,
+        "sha256": "fab0823b46ec815dc616b958b8f9e33e2de57f4bbe2e7366a720b7f358dc019a",
+        "expected_sha256": "fab0823b46ec815dc616b958b8f9e33e2de57f4bbe2e7366a720b7f358dc019a",
+        "matches_private_copy": true
+      },
+      {
+        "slot": "H-34",
+        "source_url": "https://img-va.myshopline.com/image/store/1781230483395/M9-Pro-Max-4.png?h=800&w=800",
+        "purpose": "Private technical comparison only, not a licensed advertisement or approved project image",
+        "downloaded": true,
+        "bytes": 406599,
+        "sha256": "5bd821e37fc6409636369c282a7d80da65bd3a9132ec295eefe7e047ba393b0a",
+        "expected_sha256": "5bd821e37fc6409636369c282a7d80da65bd3a9132ec295eefe7e047ba393b0a",
+        "matches_private_copy": true
+      }
+    ],
+    "downloaded_count": 3,
+    "private_sha_match_count": 3,
+    "usage_boundary": "Technical reference copies only; no rights grant or editorial approval."
+  }
 }
