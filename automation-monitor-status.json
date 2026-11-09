@@ -156,12 +156,12 @@
       "result:f3b8883f44b14a2ba432ce429ba02709"
     ],
     "robot_rewake": {
-      "episode": "d1af9cd6",
-      "count": 10,
-      "last_at": "2026-11-09T08:00:33Z",
-      "sequence": 38,
-      "first_at": "2026-11-08T23:20:31Z",
-      "last_event_id": "slots:d1af9cd6:38",
+      "episode": "27014d34",
+      "count": 1,
+      "last_at": "2026-11-09T08:20:56Z",
+      "sequence": 39,
+      "first_at": "2026-11-09T08:20:56Z",
+      "last_event_id": "slots:27014d34:39",
       "silence_reported": "slots:d23cf217:2"
     }
   },
@@ -414,7 +414,8 @@
       "S28-A13-20261030"
     ],
     "reconciliation_items": [
-      "S49B"
+      "S49B",
+      "S59-SEED20-P2-R2-20261108"
     ],
     "last_event_id": "slots:d1af9cd6:38",
     "receipt_present": false,
@@ -426,6 +427,6 @@
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
     "escalation_attempted_episode": "d1af9cd6",
-    "checked_at": "2026-11-09T08:20:20Z"
+    "checked_at": "2026-11-09T08:20:56Z"
   }
 }
