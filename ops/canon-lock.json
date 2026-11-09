@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "cursor:bc-b6c53856-e99b-58a2-a5e3-54a898cb355c",
   "task": "Point S59 P2 at the form video and the 1280x720 canopy; no Create",
   "acquired_at": "2026-11-09T08:19:04Z",
-  "expires_at": "2026-11-09T08:34:04Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-09T08:19:05Z",
   "rules": "ops/CANON-LOCK.md"
 }

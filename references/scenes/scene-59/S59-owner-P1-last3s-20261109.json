@@ -1,0 +1,20 @@
+{
+  "item_id": "S59-SEED20-P2-R2-20261108",
+  "slot": "@Video1",
+  "filename": "S59-owner-P1-last3s.mp4",
+  "sha256": "dfd5d630982ab32755bd98dfca1fbfa662066eb076b839a18a20ad718aaa838e",
+  "attested_by": "parent form, 2026-11-09",
+  "bytes_rehashed_here": false,
+  "drive_file_id": null,
+  "not_the_legacy_library_object": true,
+  "legacy": {
+    "library_file_id": "libfile_7e1093c34c748191b51f2159106da6fa",
+    "source_library_file_id": "libfile_5bd36df00b348191a27d5a4995a57186",
+    "sha256": "a4bf2e1d244e11bbcdbb0f724148aa2334cba370e0be9bec738af3017a3062b4",
+    "provenance_file": "references/scenes/scene-59/owner-P1-continuity.json",
+    "note": "Kept as history. That Library object could not be fetched; it is not the file in the form."
+  },
+  "local_path_required_for_intent": "references/scenes/scene-59/S59-owner-P1-last3s.mp4",
+  "prompt_sha256_unchanged": "123f4eb02a206fce424f706d6eb140470e2d588df3db1d0cde812ccd8be9d386",
+  "budget_unchanged": 1
+}
