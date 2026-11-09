@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-11-09T10:00:31Z",
+  "synced_at": "2026-11-09T10:10:19Z",
   "revision_date": "09.11.2026",
   "master_declared_last_full_sync": "09.11.2026 · текущая по live Topview/Drive сверке",
   "canonical_master_sha256": "e2de9a17648448ef6f02eb39497e84cf464f82f869bb97c4a1a06620fe9a973f",
@@ -126,7 +126,7 @@
   ],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-11-09T10:00:01.749Z",
+    "snapshot_at": "2026-11-09T10:09:48.539Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
@@ -137,8 +137,8 @@
         "drive_copy_sha256": "fcaed4b4eaf4d3b27eb9b68288a99d9bd861ee45faa98f2d7d6ca027c7fb848b",
         "drive_copy_checked_at": "2026-11-08T10:24:48.047Z",
         "drive_copy_modified_at": "2026-11-08T10:24:39.653Z",
-        "github_blob": "1b860122553038e99832bd060af15b5b4434b1e7",
-        "mirror_sha256": "a82bbe5b8492a0eb9201540d5d03bbb031201a41195b3bc6bedce9688d8c194e",
+        "github_blob": "382f00a203c4e7dbee4c15fb2ab14e2710774960",
+        "mirror_sha256": "c33b8855d467d7c3815551e9ad0d4febe04048edd2ac35da54d2224391c78fc2",
         "match": true,
         "drive_copy_match": false
       },
@@ -887,7 +887,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "09.11.2026",
-    "synced_at": "2026-11-09T10:00:31Z",
+    "synced_at": "2026-11-09T10:10:19Z",
     "canonical_master_sha256": "e2de9a17648448ef6f02eb39497e84cf464f82f869bb97c4a1a06620fe9a973f",
     "canonical_revision_sha256": "f54c3d58ab51f073820988b6d0c5faf9b24c3a12f81b0e3da8d3bc7d2c338f74",
     "scene_count": 30,
