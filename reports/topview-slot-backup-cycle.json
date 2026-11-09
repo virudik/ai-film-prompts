@@ -6,12 +6,12 @@
   "runtime_run_id": "25bce679-e364-832f-af0c-be4bba3336a0",
   "runtime_run_id_source": "Automations.peek last_run.id; scheduled_for 2026-11-09T20:00:00Z; actual started_at 2026-11-09T20:45:52.035352Z; latest_result.run_id belongs to previous cycle",
   "source_head_initial": "81e4ee5b4dcab59d976c5b57e1d591194017525a",
-  "source_head": null,
+  "source_head": "af222b18f7d56ef04ea21ef3c333a53b30670c33",
   "route_generation": 3,
   "started_at": "2026-11-09T20:45:52.035352Z",
   "receipt_started_at": "2026-11-09T20:52:05.351Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
     "source": "Live Topview read-only account scan (14 boards, 21 pages)",
@@ -44,14 +44,21 @@
     "checked_at": "2026-11-09T20:50:29.620Z"
   },
   "selected_item": null,
-  "task_ids": [],
+  "task_ids": [
+    "be627af0e9664db5b6ac2b62c34080a6",
+    "8bdd6439dad94592979aba23c137b4a0",
+    "0a495e5f77a041e6bcc8d67fb68230b3",
+    "6fa3cdac62e348759d2a3607093414ea",
+    "2473c9b5bcf645fd85ab308306c53aaa"
+  ],
   "new_submissions": [],
-  "browser_transport": "not_started",
+  "browser_transport": "not_used: no owner-authorized independent ready story item; existing TinyFish input/Unlimited0 blocker remains",
   "tinyfish": {
     "runs": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0
+    "confirmed_cost_usd": 0,
+    "wallet_not_queried_reason": "No candidate for paid browser preparation; do not run TinyFish idle poll"
   },
   "topview_credits_spent": 0,
   "lease": {
@@ -59,10 +66,55 @@
     "acquired_at": "2026-11-09T20:51:21.895Z",
     "expires_at": "2026-11-09T21:01:21.895Z",
     "lease_commit": "b49f2bd2cf370f2553f45ad73cd5ae5035d19763",
-    "released_at": null
+    "released_at": "2026-11-09T20:59:12.389Z",
+    "release_with_receipt_atomic": true
   },
-  "outcome": "scanned_reconciliation_pending",
+  "outcome": "no_eligible_ready_item",
   "retryable": false,
-  "completed_at": null,
-  "updated_at": "2026-11-09T20:52:05.351Z"
+  "completed_at": "2026-11-09T20:59:12.389Z",
+  "updated_at": "2026-11-09T20:59:12.389Z",
+  "blocker": "S65-WAN30 awaits genuine S70 final-frame PNG (references/scenes/scene-70/S70-final-frame.png, GitHub 404) and continuity QC; S66-STITCH-INDEP-WAN30 remains foreign submitting intent 6ba1656f-24ff-4dd3-ab2d-bf0991e31cf2 (no replay); S62 owner hold t422u; music/dances 28/49/50/51 await separate new owner consent under t369u, except S49B consent after ALL story parts. 5 active Topview tasks not in current queue are not remapped by guess. Robot telemetry topview-status checked_at 2026-11-09T15:34:29Z stale vs live full scan.",
+  "acceptance": {
+    "scheduled_run_executed": true,
+    "scheduled_run_id_observed": true,
+    "topview_read_only_scan_complete": true,
+    "queue_and_map_sha256_confirmed": true,
+    "all_39_submitted_or_completed_task_ids_found_on_My_First_Board": true,
+    "tinyfish_authenticated_ui_this_run": false,
+    "tinyfish_file_transfer_this_run": false,
+    "tinyfish_unlimited_zero_this_run": false,
+    "production_submission_by_this_executor_verified": false,
+    "new_task_id_verified": false
+  },
+  "queue_reconciliation": {
+    "queue_blob_sha": "874ff7197b08940122156b8b4bd9a43f818ef871",
+    "task_map_blob_sha": "90996c5b82a0553ed0cd49d2edf3f2d91c724868",
+    "readiness_blob_sha": "bda1cb01362adbefe09953f950b45d48b8bebfa5",
+    "queue_sha256": "5c4c83e19a23ce849990d5647342ed982191c583dfc61642535f8282f3b10504",
+    "task_map_sha256": "7e5c3ae5e5ba98672f69c0c210b0bdc8f710624299feb5e49d3b4c4c788595ad",
+    "sha256_recomputed_and_matched": true,
+    "submitted_task_ids_found": 36,
+    "completed_task_ids_found": 3,
+    "submitted_or_completed_total": 39,
+    "pending_items": [
+      {
+        "id": "S66-STITCH-INDEP-WAN30",
+        "state": "submitting",
+        "submission_intent_id": "6ba1656f-24ff-4dd3-ab2d-bf0991e31cf2",
+        "lease_holder": "grok:fa55d361-5299-404a-aa1b-cf19979fda7c"
+      }
+    ],
+    "open_owner_tasks": 1,
+    "owner_task_action": "Left open self-heal-telemetry-stale-202611091849 (needs verified root cause; no guess-based robot mapping)",
+    "preferred_executor": "work",
+    "work_recovery_current_runtime_not_independently_verified": true,
+    "route_generation_unchanged": true,
+    "robot_telemetry_checked_at": "2026-11-09T15:34:29Z",
+    "robot_telemetry_is_stale": true,
+    "peer_run_ids": {
+      "ordinary": "25bce679-e364-832f-af0c-be4bba3336a0",
+      "work_hourly": "699d947b-9ffc-8323-8f75-f3950366e3f5",
+      "relay": "8aec3d2d-621c-8320-9682-7683dd809b6a"
+    }
+  }
 }

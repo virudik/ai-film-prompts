@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:ba38ee17-fd58-4491-91ba-6cae6e5c9268",
   "task": "Scheduled independent read-only all-board scan, queue reconciliation and cycle receipt; no Create without full gates",
   "acquired_at": "2026-11-09T20:51:21.895Z",
-  "expires_at": "2026-11-09T21:01:21.895Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-09T20:59:12.389Z",
   "rules": "ops/CANON-LOCK.md"
 }
