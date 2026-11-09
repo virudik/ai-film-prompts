@@ -430,7 +430,7 @@
       "S28-A13-20261030"
     ],
     "reconciliation_items": [],
-    "last_event_id": "result:8a1982a55f794a049a62eaa91bf8827f",
+    "last_event_id": "result:2d8efbd16f5146f48cd7a9a1ffb99369",
     "receipt_present": false,
     "handler_outcome": null,
     "execution_stage": null,
@@ -440,6 +440,6 @@
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
     "escalation_attempted_episode": "d1af9cd6",
-    "checked_at": "2026-11-09T10:16:34Z"
+    "checked_at": "2026-11-09T10:20:28Z"
   }
 }
