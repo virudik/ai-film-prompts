@@ -2,21 +2,21 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-11-09T13:16:32+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-11-09T13:27:59+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
 GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main
 
 ## Источники (sha256)
-- NEW-CHAT-HANDOFF.md · копия на Drive `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD` · 34883 B · `211b294fd096bdbf`
+- NEW-CHAT-HANDOFF.md · копия на Drive `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD` · 34887 B · `a57900820cbb1410`
 - SYNC-RUNBOOK.md · копия на Drive `1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4` · 130798 B · `244e9a47dc3e3b69`
 - AI-PROJECT-GUIDE.md · копия на Drive `1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u` · 42769 B · `c62976f8c2561633`
 - PROMPT-STYLE-GUIDE.md · копия на Drive `14VzE8DwjKIquGJWENci6rYWj_1xEn34d` · 81982 B · `2afe827fe839af54`
 - USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 84346 B · `931b751a155ab065`
 - README-AI-SYNC.md · копия на Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 18336 B · `164f1faf3fc2ffe8`
 - BACKUP-AI-RUNBOOK.md · копия на Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 21763 B · `6b0a0ba95d23937c`
-- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1487287 B · `3d2dbb67eeea6b00`
+- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1487438 B · `e766fe9bc8c28ade`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story. → `NEW-CHAT-HANDOFF.md` ✓
@@ -65,7 +65,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 64 | Звёздный разрушитель: Серёга пританцовывает по коридору | Wan 3 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 | [] | 65377f0aba69 |
 | 65 | Татуинская связка 7/7 · Серёга молча выпивает в баре с Бобой | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [70] | 6cb6303199f5 |
 | 66 | Татуинская связка 2/7 · Алина, Даша и Стич | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 @Image8 | [52] | 687f91f0197e |
-| 67 | Татуинская связка 3/7 · Маша Р яростно спорит с продавцом фр | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 | [66] | 78c6a4427c70 |
+| 67 | Татуинская связка 3/7 · Маша Р яростно спорит с продавцом фр | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [66] | f3a4fc04176b |
 | 68 | Татуинская связка 4/7 · «ГБУ Жилищник района Татуина» метёт  | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [67] | 741dfcf03866 |
 | 69 | Татуинская связка 5/7 · Маша Р учит «Жилищник» убирать в лаз | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [68] | 046fba19139c |
 | 70 | Татуинская связка 6/7 · бесшовный пролёт с улицы к столику С | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 | [69] | aebb6d03780f |
@@ -102,4 +102,4 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 
 ## Текущий checkpoint (дословно из NEW-CHAT-HANDOFF.md, до пометки «Предыдущая история»)
 
-См. `current-checkpoint.md` (22876 симв., sha `61a5d6dc7461`).
+См. `current-checkpoint.md` (22876 симв., sha `546569a97e4c`).

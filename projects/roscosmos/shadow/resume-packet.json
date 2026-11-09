@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "roscosmos",
   "project_name": "Роскосмос",
-  "checked_at": "2026-11-09T13:16:32+00:00",
-  "source_head": "65fe3a9920c4f4bb2c5f5fddf69f364a878c2052",
-  "source_fingerprint": "f692abc9039ffe55dc83161c12769f257de199095581bfce511f08296d22fef0",
+  "checked_at": "2026-11-09T13:28:00+00:00",
+  "source_head": "f1c504a7b75575a181e32a877a05d08504112881",
+  "source_fingerprint": "db31cdb90c35b6cbae7c489bcc511bf4e3b0c6d9e54db967440a4165a470efe3",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -133,8 +133,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "211b294fd096bdbf128f24d3527edff8eb973c4aa64916b12203848e2afc4408",
-      "bytes": 34883
+      "sha256": "a57900820cbb14106380e07f4f66bc80fdae24215585985780bc36ffdcd66da1",
+      "bytes": 34887
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -158,7 +158,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "a43ec1e2f98e69630c1b090784998d00bff49e8c58c0f14bc071d23696f946da",
+      "sha256": "1a79d83c342936c2754f290290eb7fcab922cdc8a4b72ab3805c248f45b5147b",
       "bytes": 5135
     },
     {
@@ -173,8 +173,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "f20fd54c0572c6c39a5b7e6dd4eb97bbbb1a324183cc72a6434600c4408a5a98",
-      "bytes": 25723
+      "sha256": "685a692e302c81a60e58f88c5a3fc005336e93860b52df2e079cb270e2c1e9f4",
+      "bytes": 25727
     },
     {
       "file": "projects/README.md",
@@ -228,18 +228,18 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "61a5d6dc7461228efd5ff035444c4648858b2cbe68ed7f28d822fea36fe8e801",
-      "bytes": 34684
+      "sha256": "546569a97e4c34c39d583631e64b9d972e55fe4195ec3e6b3758d4df274f8cfb",
+      "bytes": 34688
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "93edff59fb5f4946a4ad79fe792ce8dbf7cadb20f1cde4f350283b20e2748c33",
-      "bytes": 28351
+      "sha256": "86c6b7f99477686b9b276948ce2829045c108244604a35cbfbe6d9ed10cee34f",
+      "bytes": 28366
     },
     {
       "file": "video-prompts.md",
-      "sha256": "3d2dbb67eeea6b00cd3c98a64e1eba5a76189f62b5fbaf16b24d2aba2b41abe8",
-      "bytes": 1487287
+      "sha256": "e766fe9bc8c28ade992a77d2d9b35d6d4dcfc0d82703a0ea3d95ac21ce4c4e95",
+      "bytes": 1487438
     }
   ],
   "packet_bytes": 4683
