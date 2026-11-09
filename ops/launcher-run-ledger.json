@@ -222,6 +222,13 @@
           "intent_at": "2026-11-09T08:10:13Z",
           "execution_instance_id": "97b7e84b-cf70-41a1-8bb4-c11da41817d7",
           "consumed": true
+        },
+        {
+          "item_id": "S52-R2-SEED20-P2",
+          "submission_intent_id": "b54c5861-3bb7-4649-b2cd-71093d286f7a",
+          "intent_at": "2026-11-09T08:14:28Z",
+          "execution_instance_id": "97b7e84b-cf70-41a1-8bb4-c11da41817d7",
+          "consumed": true
         }
       ],
       "event_keys": [
