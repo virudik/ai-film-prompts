@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:2e3d6e17-1530-493b-812e-c67c2c77f3d3",
-  "task": "t413u standing S59-SEED20-P4 intent only",
-  "acquired_at": "2026-11-09T12:06:37Z",
-  "expires_at": null,
-  "released_at": "2026-11-09T12:06:37Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:6e46b04e-04cb-4717-a898-4b44b4fe796e",
+  "task": "Seregius ordinary HH:00 read-only capacity and queue reconciliation",
+  "acquired_at": "2026-11-09T12:09:10.727Z",
+  "expires_at": "2026-11-09T12:19:10.727Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
