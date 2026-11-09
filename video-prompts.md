@@ -9831,14 +9831,15 @@ Full landscape 16:9, 1280×720 edge-to-edge; no cropping, pillarboxing, watermar
 
 **Что происходит:** Виталик рычит вместо льва, затем изображает женщину с факелом в шторе, крутит земной шар, позирует на горе картошки и оказывается за прожекторным монументом из ящиков. Он всюду совершенно серьёзен; дорого поставленная картинка сталкивается с бытовым реквизитом.
 
-**Готовность:** DRAFT. Тексты подготовлены по команде 09.11; отдельный новый постановочный PNG ещё требуется. Это НЕ готовый ролик и НЕ запись в очередь. Основная версия — 30 с Wan 3.0; тот же текст на Seedance 2.5 только по выбору владельца. Альтернатива — 2×15 с Seedance 2.0: P2 ждёт настоящие последние 3 с своей P1. Редакционная приёмка не выполнена.
+**Готовность:** DRAFT. Тексты подготовлены по команде 09.11; первый постановочный PNG с рыком сохранён; отдельные кадры факела, глобуса, горы и прожекторов ещё требуются. Это НЕ готовый ролик и НЕ запись в очередь. Основная версия — 30 с Wan 3.0; тот же текст на Seedance 2.5 только по выбору владельца. Альтернатива — 2×15 с Seedance 2.0: P2 ждёт настоящие последние 3 с своей P1. Редакционная приёмка не выполнена.
 
-**Референсы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-74/S74-studio-roar.png`. Для нового PNG пока сохранено только точное задание; не выдавать его за изображение.
+**Референсы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-74/S74-studio-roar.png`. PNG @Image2 сохранён и прошёл технический визуальный QC; он задаёт только кадр рыка. Одобрение владельца и остальные ракурсы не получены.
 
 **Источники / авторская переработка:** `reports/parody-scenes-source-2026-11-09.json`. Реплики и гэги постановки не являются полной транскрипцией исходных роликов; непрерывный просмотр/звук всех оригиналов не подтверждены.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/full/vitalik.jpg" alt="@Image1 — точная внешность"></a><figcaption>@Image1 — точная внешность, существующий файл</figcaption></figure>
+<figure><a href="references/scenes/scene-74/S74-studio-roar.png" target="_blank" rel="noopener"><img src="references/scenes/scene-74/S74-studio-roar.png" alt="@Image2 — постановочный кадр рыка"></a><figcaption>@Image2 — рычащий Виталик, технический QC; не редакционная приёмка</figcaption></figure>
 </div>
 
 <div class="engine-tabs" data-scene="74">
@@ -9852,12 +9853,12 @@ Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9
 Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic parody with clear physical comedy
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
+@Image1 = references/full/vitalik.jpg — exact Vitalik facial identity only; clothing is chosen for this staged parody, not copied from the model sheet.
 @Image2 = references/scenes/scene-74/S74-studio-roar.png — single new scene staging and props, never overrides identity.
 Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-VITALIK: adult stocky fair-skinned man, round face, short light-brown hair, light stubble, grey-green eyes; exact face of @Image1. Base outfit: black Jedi tunic and leather tabard, brown belt, brown trousers and tall boots. Only the explicitly staged curtain costume may cover this outfit. Same human face, never an actual lion or a new actor.
+VITALIK: adult stocky fair-skinned man, round face, short light-brown hair, light stubble, grey-green eyes; exact face of @Image1. Scene costume: opaque black theatrical jacket with subtle metallic shoulder panels, plain dark trousers and black shoes; no Jedi belt, lightsaber or source-sheet costume. The torch gag adds a cream curtain over fully covering dark stage clothes. Same human face, never an actual lion or a new actor.
 
 SCENE / SPACE:
 Five separate practical mini-studio sets with cinematic compositing: black velvet and a gold film-ring; cloud pedestal; blue-lit globe stage; potato mountain; stacked wooden crates with two sweeping searchlights. Each gag has a clear hard cut. No collage inside a shot.
@@ -9902,12 +9903,12 @@ Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9
 Optimized for Seedance 2.0 | Photoreal cinematic parody with clear physical comedy
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
+@Image1 = references/full/vitalik.jpg — exact Vitalik facial identity only; clothing is chosen for this staged parody, not copied from the model sheet.
 @Image2 = references/scenes/scene-74/S74-studio-roar.png — single new scene staging and props, never overrides identity.
 Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-VITALIK: adult stocky fair-skinned man, round face, short light-brown hair, light stubble, grey-green eyes; exact face of @Image1. Base outfit: black Jedi tunic and leather tabard, brown belt, brown trousers and tall boots. Only the explicitly staged curtain costume may cover this outfit. Same human face, never an actual lion or a new actor.
+VITALIK: adult stocky fair-skinned man, round face, short light-brown hair, light stubble, grey-green eyes; exact face of @Image1. Scene costume: opaque black theatrical jacket with subtle metallic shoulder panels, plain dark trousers and black shoes; no Jedi belt, lightsaber or source-sheet costume. The torch gag adds a cream curtain over fully covering dark stage clothes. Same human face, never an actual lion or a new actor.
 
 SCENE / SPACE:
 Five separate practical mini-studio sets with cinematic compositing: black velvet and a gold film-ring; cloud pedestal; blue-lit globe stage; potato mountain; stacked wooden crates with two sweeping searchlights. Each gag has a clear hard cut. No collage inside a shot.
@@ -9946,12 +9947,12 @@ Optimized for Seedance 2.0 | Photoreal cinematic parody with clear physical come
 
 REFERENCES / AUTHORITY:
 @Video1 = actual final 3 seconds of Scene 74 Seedance Part 1 — real motion/pose continuity, not a generated substitute.
-@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
+@Image1 = references/full/vitalik.jpg — exact Vitalik facial identity only; clothing is chosen for this staged parody, not copied from the model sheet.
 @Image2 = references/scenes/scene-74/S74-studio-roar.png — single new scene staging and props, never overrides identity.
 Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-VITALIK: adult stocky fair-skinned man, round face, short light-brown hair, light stubble, grey-green eyes; exact face of @Image1. Base outfit: black Jedi tunic and leather tabard, brown belt, brown trousers and tall boots. Only the explicitly staged curtain costume may cover this outfit. Same human face, never an actual lion or a new actor.
+VITALIK: adult stocky fair-skinned man, round face, short light-brown hair, light stubble, grey-green eyes; exact face of @Image1. Scene costume: opaque black theatrical jacket with subtle metallic shoulder panels, plain dark trousers and black shoes; no Jedi belt, lightsaber or source-sheet costume. The torch gag adds a cream curtain over fully covering dark stage clothes. Same human face, never an actual lion or a new actor.
 
 SCENE / SPACE:
 Five separate practical mini-studio sets with cinematic compositing: black velvet and a gold film-ring; cloud pedestal; blue-lit globe stage; potato mountain; stacked wooden crates with two sweeping searchlights. Each gag has a clear hard cut. No collage inside a shot.
@@ -10320,55 +10321,57 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 <!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["parody","comedy","owner_authorized_creation","images_pending"]} -->
 
-**Контекст использования:** Пародия на трёхперсонажную сцену «Яблоневого сада». Первый сообщает об отказе, второй не верит, третья сама кричит признание. Не версия, где второй мужчина признаётся первому. Серёга и Виталик играют роли; новая взрослая инопланетянка — вымышленная эпизодическая героиня, не новая биография канонических персонажей.
+**Контекст использования:** Пародия на трёхперсонажную сцену «Яблоневого сада». Первый сообщает об отказе, второй не верит, третья сама кричит признание. Не версия, где второй мужчина признаётся первому. Виталик, взрослый Алексей (Лёша) и Маша Р играют роли. Решение владельца 09.11: в любовной сцене вместо Алины — Алексей; детей здесь нет. Только лица из референсов, одежда новая по сцене. Это постановка, не биография участников.
 
-**Что происходит:** Серёга трагически сообщает Виталику об отказе девушки. Виталик столь же трагически отрицает её чувства. Из-за обычного садового забора поднимается зелёная инопланетянка и перекрикивает обоих признанием. После паузы Серёга достаёт ложку: «А я люблю майонез». Виталик смотрит в камеру, не понимая, кто тут снимал мелодраму.
+**Что происходит:** Виталик сообщает Алексею об отказе Маши Р. Алексей отрицает её чувства. Маша Р появляется из-за садового забора и сама говорит Алексею: «Да я люблю тебя!» После паузы Виталик достаёт ложку: «А я люблю майонез». Алексей недоумённо смотрит в камеру. Сохранены исходные роли реплик: признание произносит третий персонаж, Маша Р.
 
 **Готовность:** DRAFT. Тексты подготовлены по команде 09.11; отдельный новый постановочный PNG ещё требуется. Это НЕ готовый ролик и НЕ запись в очередь. Основная версия — 30 с Wan 3.0; тот же текст на Seedance 2.5 только по выбору владельца. Альтернатива — 2×15 с Seedance 2.0: P2 ждёт настоящие последние 3 с своей P1. Редакционная приёмка не выполнена.
 
-**Референсы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/full/serega.jpg`; @Image3 — `references/scenes/scene-77/S77-love-triangle.png`. Для нового PNG пока сохранено только точное задание; не выдавать его за изображение.
+**Референсы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/full/lesha.jpg`; @Image3 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image4 — `references/scenes/scene-77/S77-love-triangle.png`. Для нового PNG пока сохранено только точное задание; не выдавать его за изображение.
 
 **Источники / авторская переработка:** `reports/parody-scenes-source-2026-11-09.json`. Реплики и гэги постановки не являются полной транскрипцией исходных роликов; непрерывный просмотр/звук всех оригиналов не подтверждены.
 
 <div class="scene-ref-gallery">
-<figure><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/full/vitalik.jpg" alt="@Image1 — точная внешность"></a><figcaption>@Image1 — точная внешность, существующий файл</figcaption></figure>
-<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image2 — точная внешность"></a><figcaption>@Image2 — точная внешность, существующий файл</figcaption></figure>
+<figure><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/full/vitalik.jpg" alt="@Image1 — Виталик"></a><figcaption>@Image1 — Виталик, только лицо; одежда по сцене</figcaption></figure>
+<figure><a href="references/full/lesha.jpg" target="_blank" rel="noopener"><img src="references/full/lesha.jpg" alt="@Image2 — Алексей (Лёша)"></a><figcaption>@Image2 — Алексей (Лёша), только лицо; одежда по сцене</figcaption></figure>
+<figure><a href="references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png" alt="@Image3 — Маша Р"></a><figcaption>@Image3 — Маша Р, только лицо; одежда по сцене</figcaption></figure>
 </div>
 
 <div class="engine-tabs" data-scene="77">
 
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
-**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/full/serega.jpg`; @Image3 — `references/scenes/scene-77/S77-love-triangle.png`.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/full/lesha.jpg`; @Image3 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image4 — `references/scenes/scene-77/S77-love-triangle.png`.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic parody with clear physical comedy
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
-@Image2 = references/full/serega.jpg — exact serega face and body; wardrobe follows the explicit scene costume.
-@Image3 = references/scenes/scene-77/S77-love-triangle.png — single new scene staging and props, never overrides identity.
+@Image1 = references/full/vitalik.jpg — exact Vitalik facial identity only; new clothing as explicitly described below.
+@Image2 = references/full/lesha.jpg — exact adult Alexey / Lesha facial identity only; wavy brown hair and moustache, new clothing below.
+@Image3 = references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png — exact adult Masha R facial identity only; new modest clothing below.
+@Image4 = references/scenes/scene-77/S77-love-triangle.png — single new scene staging and props, never overrides identity.
 Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-VITALIK @Image1: adult stocky fair-skinned man, round face, short light-brown hair, light stubble; black tunic/leather tabard, brown belt and trousers, tall boots. SEREGA @Image2: mature pale man, bald crown with sparse light hair at sides, faint stubble, long deep-purple robe with broad folded collar, hood down and dark boots. A distinct fictional ADULT green-skinned alien woman behind the fence: smooth round face, two short rounded antennae, shoulder-length dark auburn hair, modest teal coat; neither a real meme actress nor a canonical named family member. Never blend the men's faces.
+VITALIK @Image1: adult fair man, round face, short light-brown hair, light stubble; navy casual jacket, light grey shirt and dark trousers. ALEXEY / LESHA @Image2: adult slim fair man, short wavy brown hair and distinct brown moustache; olive corduroy jacket, cream shirt and dark trousers. MASHA R @Image3: adult fair woman, long wavy copper-red hair and bangs; modest teal wool coat and burgundy scarf. Preserve the exact facial identities from their individual sheets ONLY, not the source Jedi/Tatooine clothing. Exactly three ADULT actors. No Alina, no child, no Serega, no alien substitute, no kiss or erotic action. Never blend faces.
 
 SCENE / SPACE:
-Ordinary waist-high weathered wooden garden fence beside an apple tree, with a single absurdly distant spaceport antenna on the horizon. Warm overcast daylight, domestic setting rather than a grand palace. Two men remain in front; the third woman is initially hidden behind the fence.
+Ordinary waist-high weathered wooden garden fence beside an apple tree, with a single absurdly distant spaceport antenna on the horizon. Warm overcast daylight, domestic setting rather than a grand palace. Two men remain in front; the adult Masha R is initially hidden behind the fence.
 
 START STATE:
-Serega left and Vitalik right face each other in a stable medium two-shot in front of the garden fence. The third woman is not yet visible.
+Vitalik left and Alexey right face each other in a stable medium two-shot in front of the garden fence. The adult Masha R is not yet visible.
 
 STORY FLOW:
-0–8s: A melodramatic push-in on Serega as he says with exaggerated hurt «Она отказала мне! Сказала, что любит тебя!» One decisive gesture toward Vitalik, not romantic physical contact.
-8–15s: Reverse close-medium on Vitalik: «Да она не может любить меня!» He shakes his head once with absurd dramatic certainty. Keep Serega visible at the edge to preserve geography.
-15–19s: Continue the reverse angle. Serega sharply corrects him: «Думает, что любит тебя!» One shot/reverse shot, no speaker swapping.
-19–24s: The adult green woman rises from behind the wooden fence into the central gap and shouts directly at Vitalik «Да я люблю тебя!» Her line is the emotional climax; both men stop moving.
-24–30s: A deliberate one-second silence. Serega takes one small unbranded mayonnaise jar and spoon from his robe: «А я люблю майонез». Vitalik looks into the lens with a completely dry expression. No kiss or new line.
+0–8s: A melodramatic push-in on Vitalik as he says with exaggerated hurt «Она отказала мне! Сказала, что любит тебя!» One decisive gesture toward Alexey, not romantic physical contact.
+8–15s: Reverse close-medium on Alexey: «Да она не может любить меня!» He shakes his head once with absurd dramatic certainty. Keep Vitalik visible at the edge to preserve geography.
+15–19s: Continue the reverse angle. Vitalik sharply corrects him: «Думает, что любит тебя!» One shot/reverse shot, no speaker swapping.
+19–24s: The adult Masha R rises from behind the wooden fence into the central gap and shouts directly at Alexey «Да я люблю тебя!» Her line is the emotional climax; both men stop moving.
+24–30s: A deliberate one-second silence. Vitalik takes one small unbranded mayonnaise jar and spoon from his jacket pocket: «А я люблю майонез». Alexey looks into the lens with a completely dry expression. No kiss or new line.
 
 END STATE:
-All three are visible. Serega holds a small mayonnaise jar and spoon; Vitalik stares deadpan into camera, the woman silently waits behind the fence. Hold one comic beat without further speech.
+All three are visible. Vitalik holds a small mayonnaise jar and spoon; Alexey stares deadpan into camera, Masha R silently waits behind the fence. Hold one comic beat without further speech.
 
 CAMERA / LIGHT / PERFORMANCE:
 Clean two-shot and matched 50mm reverses on one axis, then a wider reveal of the third speaker. No random orbit. Keep all faces distinct and each mouth active only during its own dialogue. Comedy comes from sincere performance, not mugging or ugly facial distortion.
@@ -10389,33 +10392,34 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### 77 · Seedance 2.0 часть 1
 
-**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/full/serega.jpg`; @Image3 — `references/scenes/scene-77/S77-love-triangle.png`.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/full/lesha.jpg`; @Image3 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image4 — `references/scenes/scene-77/S77-love-triangle.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal cinematic parody with clear physical comedy
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
-@Image2 = references/full/serega.jpg — exact serega face and body; wardrobe follows the explicit scene costume.
-@Image3 = references/scenes/scene-77/S77-love-triangle.png — single new scene staging and props, never overrides identity.
+@Image1 = references/full/vitalik.jpg — exact Vitalik facial identity only; new clothing as explicitly described below.
+@Image2 = references/full/lesha.jpg — exact adult Alexey / Lesha facial identity only; wavy brown hair and moustache, new clothing below.
+@Image3 = references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png — exact adult Masha R facial identity only; new modest clothing below.
+@Image4 = references/scenes/scene-77/S77-love-triangle.png — single new scene staging and props, never overrides identity.
 Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-VITALIK @Image1: adult stocky fair-skinned man, round face, short light-brown hair, light stubble; black tunic/leather tabard, brown belt and trousers, tall boots. SEREGA @Image2: mature pale man, bald crown with sparse light hair at sides, faint stubble, long deep-purple robe with broad folded collar, hood down and dark boots. A distinct fictional ADULT green-skinned alien woman behind the fence: smooth round face, two short rounded antennae, shoulder-length dark auburn hair, modest teal coat; neither a real meme actress nor a canonical named family member. Never blend the men's faces.
+VITALIK @Image1: adult fair man, round face, short light-brown hair, light stubble; navy casual jacket, light grey shirt and dark trousers. ALEXEY / LESHA @Image2: adult slim fair man, short wavy brown hair and distinct brown moustache; olive corduroy jacket, cream shirt and dark trousers. MASHA R @Image3: adult fair woman, long wavy copper-red hair and bangs; modest teal wool coat and burgundy scarf. Preserve the exact facial identities from their individual sheets ONLY, not the source Jedi/Tatooine clothing. Exactly three ADULT actors. No Alina, no child, no Serega, no alien substitute, no kiss or erotic action. Never blend faces.
 
 SCENE / SPACE:
-Ordinary waist-high weathered wooden garden fence beside an apple tree, with a single absurdly distant spaceport antenna on the horizon. Warm overcast daylight, domestic setting rather than a grand palace. Two men remain in front; the third woman is initially hidden behind the fence.
+Ordinary waist-high weathered wooden garden fence beside an apple tree, with a single absurdly distant spaceport antenna on the horizon. Warm overcast daylight, domestic setting rather than a grand palace. Two men remain in front; the adult Masha R is initially hidden behind the fence.
 
 START STATE:
-Serega left and Vitalik right face each other in a stable medium two-shot in front of the garden fence. The third woman is not yet visible.
+Vitalik left and Alexey right face each other in a stable medium two-shot in front of the garden fence. The adult Masha R is not yet visible.
 
 STORY FLOW:
-0–8s: A melodramatic push-in on Serega as he says with exaggerated hurt «Она отказала мне! Сказала, что любит тебя!» One decisive gesture toward Vitalik, not romantic physical contact.
-8–15s: Reverse close-medium on Vitalik: «Да она не может любить меня!» He shakes his head once with absurd dramatic certainty. Keep Serega visible at the edge to preserve geography.
+0–8s: A melodramatic push-in on Vitalik as he says with exaggerated hurt «Она отказала мне! Сказала, что любит тебя!» One decisive gesture toward Alexey, not romantic physical contact.
+8–15s: Reverse close-medium on Alexey: «Да она не может любить меня!» He shakes his head once with absurd dramatic certainty. Keep Vitalik visible at the edge to preserve geography.
 
 END STATE:
-After Vitalik's denial Serega turns back toward him, arm raised for his correction. The third woman's crown has not yet cleared the fence.
+After Alexey's denial Vitalik turns back toward him, arm raised for his correction. The adult Masha R's crown has not yet cleared the fence.
 
 CAMERA / LIGHT / PERFORMANCE:
 Clean two-shot and matched 50mm reverses on one axis, then a wider reveal of the third speaker. No random orbit. Keep all faces distinct and each mouth active only during its own dialogue. Comedy comes from sincere performance, not mugging or ugly facial distortion.
@@ -10432,7 +10436,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### 77 · Seedance 2.0 часть 2
 
-**Входы:** @Video1 — `actual final 3 seconds of Scene 77 Seedance Part 1`; @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/full/serega.jpg`; @Image3 — `references/scenes/scene-77/S77-love-triangle.png`.
+**Входы:** @Video1 — `actual final 3 seconds of Scene 77 Seedance Part 1`; @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/full/lesha.jpg`; @Image3 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image4 — `references/scenes/scene-77/S77-love-triangle.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -10440,27 +10444,28 @@ Optimized for Seedance 2.0 | Photoreal cinematic parody with clear physical come
 
 REFERENCES / AUTHORITY:
 @Video1 = actual final 3 seconds of Scene 77 Seedance Part 1 — real motion/pose continuity, not a generated substitute.
-@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
-@Image2 = references/full/serega.jpg — exact serega face and body; wardrobe follows the explicit scene costume.
-@Image3 = references/scenes/scene-77/S77-love-triangle.png — single new scene staging and props, never overrides identity.
+@Image1 = references/full/vitalik.jpg — exact Vitalik facial identity only; new clothing as explicitly described below.
+@Image2 = references/full/lesha.jpg — exact adult Alexey / Lesha facial identity only; wavy brown hair and moustache, new clothing below.
+@Image3 = references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png — exact adult Masha R facial identity only; new modest clothing below.
+@Image4 = references/scenes/scene-77/S77-love-triangle.png — single new scene staging and props, never overrides identity.
 Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-VITALIK @Image1: adult stocky fair-skinned man, round face, short light-brown hair, light stubble; black tunic/leather tabard, brown belt and trousers, tall boots. SEREGA @Image2: mature pale man, bald crown with sparse light hair at sides, faint stubble, long deep-purple robe with broad folded collar, hood down and dark boots. A distinct fictional ADULT green-skinned alien woman behind the fence: smooth round face, two short rounded antennae, shoulder-length dark auburn hair, modest teal coat; neither a real meme actress nor a canonical named family member. Never blend the men's faces.
+VITALIK @Image1: adult fair man, round face, short light-brown hair, light stubble; navy casual jacket, light grey shirt and dark trousers. ALEXEY / LESHA @Image2: adult slim fair man, short wavy brown hair and distinct brown moustache; olive corduroy jacket, cream shirt and dark trousers. MASHA R @Image3: adult fair woman, long wavy copper-red hair and bangs; modest teal wool coat and burgundy scarf. Preserve the exact facial identities from their individual sheets ONLY, not the source Jedi/Tatooine clothing. Exactly three ADULT actors. No Alina, no child, no Serega, no alien substitute, no kiss or erotic action. Never blend faces.
 
 SCENE / SPACE:
-Ordinary waist-high weathered wooden garden fence beside an apple tree, with a single absurdly distant spaceport antenna on the horizon. Warm overcast daylight, domestic setting rather than a grand palace. Two men remain in front; the third woman is initially hidden behind the fence.
+Ordinary waist-high weathered wooden garden fence beside an apple tree, with a single absurdly distant spaceport antenna on the horizon. Warm overcast daylight, domestic setting rather than a grand palace. Two men remain in front; the adult Masha R is initially hidden behind the fence.
 
 START STATE:
-Continue the actual last moment of @Video1, without replaying it. Target continuity: After Vitalik's denial Serega turns back toward him, arm raised for his correction. The third woman's crown has not yet cleared the fence.
+Continue the actual last moment of @Video1, without replaying it. Target continuity: After Alexey's denial Vitalik turns back toward him, arm raised for his correction. The adult Masha R's crown has not yet cleared the fence.
 
 STORY FLOW:
-0–4s: Continue the reverse angle. Serega sharply corrects him: «Думает, что любит тебя!» One shot/reverse shot, no speaker swapping.
-4–9s: The adult green woman rises from behind the wooden fence into the central gap and shouts directly at Vitalik «Да я люблю тебя!» Her line is the emotional climax; both men stop moving.
-9–15s: A deliberate one-second silence. Serega takes one small unbranded mayonnaise jar and spoon from his robe: «А я люблю майонез». Vitalik looks into the lens with a completely dry expression. No kiss or new line.
+0–4s: Continue the reverse angle. Vitalik sharply corrects him: «Думает, что любит тебя!» One shot/reverse shot, no speaker swapping.
+4–9s: The adult Masha R rises from behind the wooden fence into the central gap and shouts directly at Alexey «Да я люблю тебя!» Her line is the emotional climax; both men stop moving.
+9–15s: A deliberate one-second silence. Vitalik takes one small unbranded mayonnaise jar and spoon from his jacket pocket: «А я люблю майонез». Alexey looks into the lens with a completely dry expression. No kiss or new line.
 
 END STATE:
-All three are visible. Serega holds a small mayonnaise jar and spoon; Vitalik stares deadpan into camera, the woman silently waits behind the fence. Hold one comic beat without further speech.
+All three are visible. Vitalik holds a small mayonnaise jar and spoon; Alexey stares deadpan into camera, Masha R silently waits behind the fence. Hold one comic beat without further speech.
 
 CAMERA / LIGHT / PERFORMANCE:
 Clean two-shot and matched 50mm reverses on one axis, then a wider reveal of the third speaker. No random orbit. Keep all faces distinct and each mouth active only during its own dialogue. Comedy comes from sincere performance, not mugging or ugly facial distortion.

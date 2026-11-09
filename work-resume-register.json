@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-09T11:13:11+00:00",
+  "last_updated_at": "2026-11-09T15:02:23+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -1212,37 +1212,36 @@
       "work_id": "SEREGIUS-PARODIES-20261109",
       "project": "seregius",
       "title": "Семь пародийных сцен с изображениями по прямой команде владельца",
-      "status": "blocked_native_image_generation",
+      "status": "partially_completed_images_pending",
       "created_at": "2026-11-09T10:48:12.025422+00:00",
-      "updated_at": "2026-11-09T11:13:11+00:00",
+      "updated_at": "2026-11-09T15:02:23+00:00",
       "completed": [
         "Сверены свежие инструкции, ID 74–80 пока свободны; исходный checkpoint сохранён."
       ],
-      "next_action": "Не создавать сцены повторно: 74–80 и 21 текст уже в main. Начать с одного отдельного S74-studio-roar.png по сохранённому image-prompt и точной references/full/vitalik.jpg; требуется самостоятельный кадр, не коллаж. После визуального QC сразу сохранить PNG/SHA/manifest/слот master, затем 75–80. Ни один из двух текущих коллажей не использовать как референс. Видео не запускать.",
+      "next_action": "Не повторять 74–80/21 текст. S74: первый кадр рыка уже сохранён; дорисовать остальные заставки и 75–80, сначала проверять существующие файлы. S77 в main: Виталик/взрослый Алексей/Маша Р, новая одежда; Алины в любовной сцене нет. Старые изображения с неверными лицами и коллажи не использовать. Пригодный кадр сразу PNG/SHA/manifest/master, затем следующий. Не запускать видео.",
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-09T11:13:11+00:00",
-        "last_completed": "Опубликованы 7 сцен/21 текст и 8 привязок исходных model sheets. Две попытки новых PNG отклонены; готовых постановочных PNG 0/7.",
-        "next_action": "Не создавать сцены повторно: 74–80 и 21 текст уже в main. Начать с одного отдельного S74-studio-roar.png по сохранённому image-prompt и точной references/full/vitalik.jpg; требуется самостоятельный кадр, не коллаж. После визуального QC сразу сохранить PNG/SHA/manifest/слот master, затем 75–80. Ни один из двух текущих коллажей не использовать как референс. Видео не запускать.",
+        "verified_at": "2026-11-09T15:02:23+00:00",
+        "last_completed": "S74: первый PNG сохранён; S77: все три промпта и три identity bindings исправлены.",
+        "next_action": "Не повторять 74–80/21 текст. S74: первый кадр рыка уже сохранён; дорисовать остальные заставки и 75–80, сначала проверять существующие файлы. S77 в main: Виталик/взрослый Алексей/Маша Р, новая одежда; Алины в любовной сцене нет. Старые изображения с неверными лицами и коллажи не использовать. Пригодный кадр сразу PNG/SHA/manifest/master, затем следующий. Не запускать видео.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# 09.11.2026 — пародии 74–80 опубликованы; отдельные PNG не получены",
-          "sha256": "c504229c3cb19ffe90357e25336b354f07ec0b320d0ff01d7a5136524b5a88c1"
+          "anchor": "# 09.11.2026 — сохранён первый PNG S74; исправлен взрослый состав S77",
+          "sha256": "b725a9cc1b3b3f9f29eb9debe97f70fbc582c75ebe0f74909096bdb1f0250796"
         },
         "evidence": [
           {
             "file": "reports/parody-scenes-2026-11-09.json",
-            "sha256": "813fd51e04a5ace2506b0358b9f026e57e401f71d2a1a2d7357a1fefa66850b1"
+            "sha256": "b8633b4e16fd9dd27337785b000893ce6a4ca332d57ba39a97ac54afe7376428"
           }
         ],
         "read_next": [
           "video-prompts.md",
-          "reports/parody-scenes-2026-11-09.json",
-          "reports/parody-scenes-source-2026-11-09.json"
+          "references/scenes/scene-74/manifest.json",
+          "references/scenes/scene-77/manifest.json"
         ],
         "blockers": [
-          "Native generator returned collages instead of standalone scene references twice; no accepted scene PNG.",
-          "Connected browser unavailable for verified free fallback."
+          "Remaining staged images and additional logo views not yet saved or reviewed."
         ]
       },
       "scene_ids": [

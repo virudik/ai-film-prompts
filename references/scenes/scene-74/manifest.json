@@ -6,7 +6,7 @@
     {
       "path": "references/full/vitalik.jpg",
       "asset_id": "references/full/vitalik.jpg",
-      "caption": "@Image1 — exact vitalik face and body; wardrobe follows the explicit scene costume",
+      "caption": "@Image1 — лицо Виталика; одежда отдельная по сцене",
       "role": "identity",
       "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
       "bytes": 277558,
@@ -14,17 +14,45 @@
       "status": "available",
       "owner_approval": "user_supplied_identity",
       "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-74/S74-studio-roar.png",
+      "asset_id": "references/scenes/scene-74/S74-studio-roar.png",
+      "caption": "@Image2 — отдельный постановочный кадр рыка; только начало S74",
+      "role": "scene_staging",
+      "sha256": "ef65d3aae1a4bdeb4f49d19c576136a7dffa0b8852be06e0affac76b3c443b18",
+      "bytes": 2473956,
+      "width": 1672,
+      "height": 941,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_reviewed",
+      "provenance": {
+        "source": "ChatGPT native generated conversation image",
+        "generation_id": "ca55005c-c49d-471c-bfca-aee7b5997207",
+        "source_file_name": "ревущий_виталик_в_золотой_киноленте.png",
+        "drive_exchange_file_id": "1KUTkYLozDInRxvhRLd9eM7kcsxG_MDgi",
+        "download_sha256_verified": true
+      },
+      "qc": {
+        "scope": "visual staging check of existing image; not video or owner approval",
+        "single_frame": true,
+        "no_collage": true,
+        "no_text": true,
+        "human_roar": true,
+        "facial_reference_compared": "references/full/vitalik.jpg",
+        "limitations": "Expression changes face geometry; final likeness acceptance belongs to owner. Only roar setup, not the entire five-gag scene."
+      }
     }
   ],
-  "pending_reference": {
-    "path": "references/scenes/scene-74/S74-studio-roar.png",
-    "slot": "@Image2",
-    "status": "needs_generation",
-    "caption": "Виталик рычит в золотом кинокольце — отдельный постановочный референс",
-    "prompt_file": "references/scenes/scene-74/S74-studio-roar.image-prompt.txt"
-  },
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-11-09T11:03:01.082729+00:00"
+  "updated_at": "2026-11-09T15:02:23.066221+00:00",
+  "additional_references_pending": [
+    "torch curtain pedestal",
+    "globe stage",
+    "potato mountain",
+    "searchlight crates"
+  ]
 }

@@ -36,8 +36,7 @@
         62,
         63,
         65,
-        70,
-        77
+        70
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -377,7 +376,8 @@
         49,
         51,
         60,
-        61
+        61,
+        77
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -730,7 +730,8 @@
         66,
         67,
         68,
-        69
+        69,
+        77
       ],
       "model_sheet": {
         "source": "Generated from owner-provided photo(s), 27.10.2026; visual QC only, owner approval pending",

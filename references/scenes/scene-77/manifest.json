@@ -6,7 +6,7 @@
     {
       "path": "references/full/vitalik.jpg",
       "asset_id": "references/full/vitalik.jpg",
-      "caption": "@Image1 — exact vitalik face and body; wardrobe follows the explicit scene costume",
+      "caption": "@Image1 — Виталик; facial identity only; scene-specific clothing",
       "role": "identity",
       "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
       "bytes": 277558,
@@ -16,12 +16,24 @@
       "reused_from_existing_pack": true
     },
     {
-      "path": "references/full/serega.jpg",
-      "asset_id": "references/full/serega.jpg",
-      "caption": "@Image2 — exact serega face and body; wardrobe follows the explicit scene costume",
+      "path": "references/full/lesha.jpg",
+      "asset_id": "references/full/lesha.jpg",
+      "caption": "@Image2 — Алексей (Лёша); facial identity only; scene-specific clothing",
       "role": "identity",
-      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
-      "bytes": 155182,
+      "sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9",
+      "bytes": 161032,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "user_supplied_identity",
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+      "asset_id": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+      "caption": "@Image3 — Маша Р; facial identity only; scene-specific clothing",
+      "role": "identity",
+      "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+      "bytes": 2247428,
       "media_type": "image",
       "status": "available",
       "owner_approval": "user_supplied_identity",
@@ -30,13 +42,13 @@
   ],
   "pending_reference": {
     "path": "references/scenes/scene-77/S77-love-triangle.png",
-    "slot": "@Image3",
+    "slot": "@Image4",
     "status": "needs_generation",
-    "caption": "Три роли: Серёга, Виталик и взрослая инопланетная героиня у забора",
+    "caption": "Виталик, взрослый Алексей и Маша Р у забора; Алины нет",
     "prompt_file": "references/scenes/scene-77/S77-love-triangle.image-prompt.txt"
   },
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-11-09T11:03:01.082729+00:00"
+  "updated_at": "2026-11-09T15:02:22.921924+00:00"
 }

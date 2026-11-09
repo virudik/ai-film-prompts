@@ -2,7 +2,7 @@
   "schema_version": 1,
   "work_id": "SEREGIUS-PARODIES-20261109",
   "project": "seregius",
-  "state": "scenes_published_reference_generation_blocked",
+  "state": "partial_references_saved_adult_cast_corrected",
   "owner_request": "1-7 делай сцены в серёгиусе с референсами изображениями",
   "scope": [
     "parody studio logos with Vitalik",
@@ -26,12 +26,12 @@
   "initial_source_head": "dc3fa5abc2c9ae0aeca9c9f0ebe02e5e6446445a",
   "preflight": "short intake passed; 15 anchors and exact source checks",
   "owner_decisions_read": "Only pre-existing Grok needs_owner found; no new scene conflicts",
-  "images_created": 0,
+  "images_created": 1,
   "video_submissions": 0,
   "paid_generations": 0,
   "queue_change_authorized": false,
   "editorial_approval": false,
-  "next_action": "Не создавать сцены повторно: 74–80 и 21 текст уже в main. Начать с одного отдельного S74-studio-roar.png по сохранённому image-prompt и точной references/full/vitalik.jpg; требуется самостоятельный кадр, не коллаж. После визуального QC сразу сохранить PNG/SHA/manifest/слот master, затем 75–80. Ни один из двух текущих коллажей не использовать как референс. Видео не запускать.",
+  "next_action": "Не повторять 74–80/21 текст. S74: первый кадр рыка уже сохранён; дорисовать остальные заставки и 75–80, сначала проверять существующие файлы. S77 в main: Виталик/взрослый Алексей/Маша Р, новая одежда; Алины в любовной сцене нет. Старые изображения с неверными лицами и коллажи не использовать. Пригодный кадр сразу PNG/SHA/manifest/master, затем следующий. Не запускать видео.",
   "checked_at": "2026-11-09T10:48:12.025422+00:00",
   "scene_ids": [
     74,
@@ -54,10 +54,10 @@
   "prompt_blocks_created": 21,
   "source_report": "reports/parody-scenes-source-2026-11-09.json",
   "queue_before_sha256": "75eddf68907a13a90def4f39ebd44e615731fa5e719e18045b695c30f589971c",
-  "updated_at": "2026-11-09T11:13:11.528036+00:00",
+  "updated_at": "2026-11-09T15:02:23.066221+00:00",
   "generated_images_attempted": 2,
-  "accepted_new_scene_images": 0,
-  "existing_identity_reference_bindings": 8,
+  "accepted_new_scene_images": 1,
+  "existing_identity_reference_bindings": 9,
   "existing_identity_references": [
     {
       "scene_id": 74,
@@ -75,16 +75,6 @@
       "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d"
     },
     {
-      "scene_id": 77,
-      "path": "references/full/vitalik.jpg",
-      "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d"
-    },
-    {
-      "scene_id": 77,
-      "path": "references/full/serega.jpg",
-      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9"
-    },
-    {
       "scene_id": 78,
       "path": "references/full/vitalik.jpg",
       "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d"
@@ -98,10 +88,24 @@
       "scene_id": 80,
       "path": "references/full/vitalik.jpg",
       "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d"
+    },
+    {
+      "scene_id": 77,
+      "path": "references/full/vitalik.jpg",
+      "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d"
+    },
+    {
+      "scene_id": 77,
+      "path": "references/full/lesha.jpg",
+      "sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9"
+    },
+    {
+      "scene_id": 77,
+      "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+      "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9"
     }
   ],
   "remaining_image_scenes": [
-    74,
     75,
     76,
     77,
@@ -134,7 +138,7 @@
   "exchange_folder": {
     "id": "1EK0zkCU_Ofn6wUnYHx69lR7STZP0cEBf",
     "url": "https://drive.google.com/drive/folders/1EK0zkCU_Ofn6wUnYHx69lR7STZP0cEBf",
-    "files_uploaded": 0,
+    "files_uploaded": 1,
     "sharing_changed": false
   },
   "browser_fallback": {
@@ -144,7 +148,7 @@
   },
   "publication": {
     "source_head": "a9970a5dedf65b0369401101024595014a924529",
-    "master_sha256": "1ac998f62a068fd762bf0911088e0c8a05938f86556d06c1f6e4868433139734",
+    "master_sha256": "6401710d32efa359885f22d6b525ac00d31d07d7b04a963145a4bd5b7f14be8b",
     "scene_publication_workflow_run": 42605646605,
     "scene_publication_workflow_conclusion": "success",
     "live_master": {
@@ -154,6 +158,43 @@
       "sha256": "1ac998f62a068fd762bf0911088e0c8a05938f86556d06c1f6e4868433139734",
       "matches_main": true,
       "all_seven_headers_visible": true
+    },
+    "live_master_verification_pending_after_casting": true
+  },
+  "owner_casting_correction": {
+    "quote": "Доделывай. Вместо Алины на любовных сценах сделай Алексея",
+    "recorded_at": "2026-11-09T15:02:22.921924+00:00",
+    "scene_id": 77,
+    "cast": [
+      "vitalik",
+      "lesha",
+      "masha-r"
+    ],
+    "alina_in_romantic_scene": false,
+    "faces_only": true,
+    "clothing": "scene_specific",
+    "all_three_prompt_variants_updated": true,
+    "new_accepted_image_claim": false
+  },
+  "images_generated_this_cycle": 0,
+  "image_count_semantics": "images_created/accepted_new_scene_images counts saved technically reviewed scene stills, not new calls this cycle and not owner approval. Earlier generated_images_attempted is historical, not total conversation attempts.",
+  "saved_scene_images": [
+    {
+      "scene_id": 74,
+      "path": "references/scenes/scene-74/S74-studio-roar.png",
+      "sha256": "ef65d3aae1a4bdeb4f49d19c576136a7dffa0b8852be06e0affac76b3c443b18",
+      "generation_id": "ca55005c-c49d-471c-bfca-aee7b5997207",
+      "owner_approved": false
     }
-  }
+  ],
+  "additional_reference_views_pending": {
+    "74": [
+      "torch curtain pedestal",
+      "globe stage",
+      "potato mountain",
+      "searchlight crates"
+    ]
+  },
+  "old_unknown_actor_images_replaced_in_canon": false,
+  "old_unknown_actor_images_note": "Old compositions are not canonical references. First corrected roar has now been saved, not all old images replaced. No old images deleted."
 }
