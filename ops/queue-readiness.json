@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "4d4ba9ded0cfe1730f4de65768796a9194c9a19c4aefc9d7f47ceff452fb1543",
+  "source_queue_sha256": "979deef682bca124a34aa2e8a9d940048085404039ddfcfc8b7250016e73b726",
   "source_task_map_sha256": "ae43f18d24d55bcd0b273c3273479e42e98778226c303aa534018cc05c5c5346",
   "topview_checked_at": "2026-11-09T10:16:23Z",
   "items": [
@@ -39,15 +39,6 @@
       "ready": true,
       "text": "Готова по входам, ждёт свободный слот",
       "queue_state": "waiting_for_slot"
-    },
-    {
-      "id": "S48-SEED20-P4",
-      "scene_id": 48,
-      "part_label": "Часть 4",
-      "code": "preflight_required",
-      "ready": false,
-      "text": "Входы найдены; требуется снять записанный блокер после проверки",
-      "queue_state": "submitting"
     },
     {
       "id": "S28-A3-20261023",
@@ -185,21 +176,12 @@
       "queue_state": "waiting_for_slot"
     },
     {
-      "id": "S52-R2-SEED20-P4",
-      "scene_id": 52,
-      "part_label": "Часть 4",
-      "code": "preflight_required",
-      "ready": false,
-      "text": "Входы найдены; требуется снять записанный блокер после проверки",
-      "queue_state": "submitting"
-    },
-    {
       "id": "S52-R2-SEED20-P5",
       "scene_id": 52,
       "part_label": "Часть 5",
       "code": "waiting_result",
       "ready": false,
-      "text": "@Video1: ждёт результат 52 · Seedance 2.0 часть 4 (ещё не запущен)",
+      "text": "@Video1: ждёт результат 52 · Seedance 2.0 часть 4",
       "queue_state": "blocked_inputs"
     },
     {
@@ -294,5 +276,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-09T11:18:37.532466Z"
+  "checked_at": "2026-11-09T11:21:43.284119Z"
 }
