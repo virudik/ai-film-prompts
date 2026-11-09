@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:edf7fed0-d8cf-4db3-9935-9944a794a1d8",
-  "task": "t413u standing S68-WAN30 intent only",
-  "acquired_at": "2026-11-09T14:25:24Z",
-  "expires_at": null,
-  "released_at": "2026-11-09T14:25:24Z",
+  "state": "held",
+  "holder": "cursor:bc-b6c53856-e99b-58a2-a5e3-54a898cb355c",
+  "task": "Record the S68 receipt",
+  "acquired_at": "2026-11-09T14:27:26Z",
+  "expires_at": "2026-11-09T14:42:26Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
