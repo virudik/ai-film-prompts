@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "cursor:bc-b6c53856-e99b-58a2-a5e3-54a898cb355c",
-  "task": "Record S70 success and open S65",
-  "acquired_at": "2026-11-09T23:02:32Z",
-  "expires_at": null,
-  "released_at": "2026-11-09T23:03:22Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:7c44eeb6-784c-413e-8994-8a7e273ed908",
+  "task": "Seregius scheduled HH:00 source/queue/Topview scan and cycle receipt; no Create without preflight",
+  "acquired_at": "2026-11-09T23:04:45.870Z",
+  "expires_at": "2026-11-09T23:16:45.870Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
