@@ -861,7 +861,9 @@
       "task_id": "4aaca9143ee14b7d81220223974e4569",
       "scene_id": 66,
       "final_status": "success",
-      "finished_at": "2026-11-09T13:41:26Z"
+      "finished_at": "2026-11-09T13:41:26Z",
+      "creditsCost": 0,
+      "part": "WAN30"
     }
   ],
   "retention": {

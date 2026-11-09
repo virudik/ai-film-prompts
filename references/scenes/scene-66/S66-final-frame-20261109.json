@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "item_id": "S67-WAN30",
+  "slot": "@Image4",
+  "kind": "exact_final_frame_of_previous_part",
+  "not_a_generation": true,
+  "not_film_accepted": true,
+  "source_item_id": "S66-WAN30",
+  "source_task_id": "4aaca9143ee14b7d81220223974e4569",
+  "full_original": {
+    "sha256": "e7d91af8f20970a6dc8c2cea03a7322c090918e13502cae275a89d57c243360a",
+    "rehashed_here": false,
+    "topview_status": "success",
+    "creditsCost": 0,
+    "completed_at": "2026-11-09T13:41:26Z",
+    "duration_seconds": 30
+  },
+  "file": {
+    "filename": "S66-final-frame.png",
+    "path": "references/scenes/scene-66/S66-final-frame.png",
+    "sha256": "87981e06ed0e485a9a8b6f8c4df6c32d6022f54f8454ee328af67f148a7eb086",
+    "bytes": 1963982,
+    "width": 1280,
+    "height": 720,
+    "drive_file_id": "1RCiYM9M1XGm65dR0EvFAvmdcfl9fkpcb",
+    "drive_folder": "Scene Reference Packs"
+  },
+  "qc_note": "Masha R, red hair, at the fruit stall facing the angry horned vendor. Matches the S67 images.",
+  "qc_blocking": false,
+  "owner_orders": [
+    "t438u"
+  ]
+}

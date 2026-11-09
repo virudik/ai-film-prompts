@@ -1,0 +1,47 @@
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action space-opera cinema, dynamic comedy
+
+REFERENCES / AUTHORITY ORDER:
+@Image4 — THIS chain's previous shot: the exact final frame of scene 66 (Wan 3.0), ending on this fruit stall. File: references/scenes/scene-66/S66-final-frame.png (taken from the real result at launch). This is a still frame, not a video. Absolute authority for the starting frame, positions, camera and light. Start exactly from it and continue the motion seamlessly; never restart.
+@Image1 — exact MASHA R: face, long wavy auburn hair with bangs, age and Tatooine costume from her individual sheet; highest identity authority. File: references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.
+@Image2 — exact alien vendor design: four arms, face, skin, apron; highest authority for the vendor. File: references/scenes/scene-67/S67-vendor.png.
+@Image3 — market stall geography, fruit designs and light; same town as scene 52. File: references/scenes/scene-67/S67-fruit-stall.png.
+Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+MASHA R (the woman at the stall): exact appearance strictly from @Image1: face, hair, clothes and adult age as shown there; no beautifying, age shift or face blending.
+VENDOR: exactly the alien in @Image2: stout, FOUR arms, wrinkled grey-green skin, wide toad-like mouth, small yellow eyes, two curled horns, striped tan apron.
+
+LOCATION / STORY LOCK — CRITICAL:
+One fruit stall from @Image3 in the same Tatooine town as scene 52, harsh light of twin suns. The counter stays between them the whole time. The argument is loud, fast and furious but harmless: shouting, slapping the counter, waving arms; no hitting, no throwing things at each other, no weapons. Coins change hands once. The vendor always has exactly four arms. The girls with Stitch from scene 66 are already gone. Masha has ONE brown satchel with a long strap, matching her individual sheet. It starts on her left shoulder; the vendor adds the orange pods into this same bag. Do not create a second shopping bag. The same pale-blue ribbed melon stays separate from the bag.
+
+START STATE:
+Begin on the exact frame @Image4 (final frame of scene 66, not a video): the camera rests on the fruit stall; Masha R holds a pale-blue ribbed melon; the vendor raises fingers on all four hands. Continue with no reset.
+
+TIMELINE:
+[0:00–0:04] THE PRICE — 35mm over-shoulder on the counter: the vendor proudly shows the price on all four hands; her eyes go wide.
+[0:04–0:09] EXPLOSION — Medium on her: she shouts in Russian, furious: «Сколько?! Да это грабёж! Вчера было в два раза дешевле!» and slams the melon onto the counter so the fruit bounces.
+[0:09–0:15] SHOUTING MATCH — Fast shot/reverse cuts on every line: the vendor yells back in an alien language, bangs the scale with one hand and waves the other three; she jabs at the bruised melon: «Они же мятые! Ты сам посмотри!»; both lean across the counter nose to nose, shouting over each other; passers-by stop to stare.
+[0:15–0:22] THE WALK-OUT BLUFF — She grabs her bag: «Всё, к соседу пойду!»; the vendor panics, two hands throwing extra spiky orange pods into her bag, two hands pleading.
+[0:22–0:30] STILL FURIOUS — She slaps down fewer coins than he wanted: «И то много!», takes the SAME pale-blue ribbed melon from the counter, cradles it in one arm and puts the shopping bag's long strap over her left shoulder, then marches off still yelling over her shoulder; the vendor shouts after her, counts the coins, then instantly switches to a wide welcoming smile for the next shopper.
+
+END STATE:
+She marches off still yelling over her shoulder, carrying the same pale-blue ribbed melon in one arm and her shopping bag by its long strap on her left shoulder; the vendor greets the next shopper with a wide smile. She carries both through scene 68 and into scene 69. Keep the final three seconds as one uncut wide street-side view of the same stall: Masha continues leaving while the vendor turns to the next customer. Scene 68 continues from this exact frame.
+
+CAMERA / SPACE:
+Fixed counter geography: she on the street side, he behind the counter. Alternate 35mm over-shoulder, punchy medium singles, very fast shot/reverse during the argument (a cut on every shout) and a wider exit shot. Cut on slaps, gestures and the toss.
+
+PERFORMANCE:
+Both extremely animated and loud: big gestures, leaning in, shouting over each other; she is sharp, furious and relentless, he theatrical and desperate; comic, never violent. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Harsh warm light of Tatooine's twin suns filtered through the tan awning, vivid colours of alien fruit, dust motes, consistent direction; photoreal skin, fabric, fruit and creature texture.
+
+AUDIO:
+Market hubbub, the vendor's loud alien-language ranting, coins clinking, slaps on the wooden counter, scale chains. Russian lines by Masha R only: «Сколько?! Да это грабёж! Вчера было в два раза дешевле!», «Они же мятые! Ты сам посмотри!», «Всё, к соседу пойду!», «И то много!» plus angry muttering at the end. No narrator, no subtitles, no generated music.
+
+NEGATIVE PROMPT:
+calm polite conversation, hitting, throwing fruit at each other, weapons, vendor with two or six arms, extra women, the girls with Stitch, face swap, clothes change, Earth supermarket, price tags with text, cartoon, subtitles, logo, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.

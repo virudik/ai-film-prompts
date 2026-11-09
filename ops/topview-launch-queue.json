@@ -5467,7 +5467,13 @@
         "submission_intent_id": "ac6e5961-88c8-419e-a3f4-9bbec417611f",
         "archive_file": "reports/topview-queue-2026-10-16/S66-WAN30-20261109T132448Z.json",
         "archive_sha256": "9bc8b06b178ec723fa2aa2521c7291431cda127132cb8e3b8c6195a149b185ba"
-      }
+      },
+      "topview_status": "success",
+      "completed_at": "2026-11-09T13:41:26Z",
+      "result_original_sha256": "e7d91af8f20970a6dc8c2cea03a7322c090918e13502cae275a89d57c243360a",
+      "creditsCost": 0,
+      "qc_note": "Masha R, red hair, at the fruit stall facing the angry horned vendor. Matches the S67 images.",
+      "qc_blocking": false
     },
     {
       "id": "S67-WAN30",
@@ -5477,8 +5483,8 @@
       "canonical_prompt_sha256": "2ae56e0b2c0a93ca90ba4d045bbcc103d80a68abbb5b429f6bfa3d40801b675b",
       "normalized_prompt_sha256": "744c99c99813a4b7e80398d3b60f5a8ecb31cce21112a85cffa68c9558c23676",
       "priority": 0.016,
-      "state": "blocked_inputs",
-      "launch_readiness": "blocked_continuity",
+      "state": "waiting_for_slot",
+      "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "selected_model": "Wan 3.0",
       "duration_seconds": 30,
@@ -5521,18 +5527,27 @@
         {
           "slot": "@Image4",
           "required": true,
-          "input_status": "pending_actual_result",
+          "input_status": "available",
           "canonical_role": "exact final frame of S66-WAN30; the S67 start frame, not a video",
           "source_item_id": "S66-WAN30",
           "source_task_id": "4aaca9143ee14b7d81220223974e4569",
-          "planned_path": "references/scenes/scene-66/S66-final-frame.png",
           "ui_upload_order": "Image4 last, after Image1..Image3",
-          "replaces": "@Video1 last 3 seconds"
+          "replaces": "@Video1 last 3 seconds",
+          "path": "references/scenes/scene-66/S66-final-frame.png",
+          "sha256": "87981e06ed0e485a9a8b6f8c4df6c32d6022f54f8454ee328af67f148a7eb086",
+          "bytes": 1963982,
+          "width": 1280,
+          "height": 720,
+          "filename": "S66-final-frame.png",
+          "drive_file_id": "1RCiYM9M1XGm65dR0EvFAvmdcfl9fkpcb",
+          "provenance_path": "references/scenes/scene-66/S66-final-frame-20261109.json",
+          "qc_status": "pass",
+          "qc_note": "Masha R, red hair, at the fruit stall facing the angry horned vendor. Matches the S67 images."
         }
       ],
       "task_id": null,
       "claim": null,
-      "blocker": "Await actual S66-WAN30 success and its exact final-frame PNG at references/scenes/scene-66/S66-final-frame.png. Do not use a last-3s video. Pass continuity QC before launch.",
+      "blocker": null,
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
       "authorization": "Owner27Oct2026: 64–69 queued after63, before49–51/28; chain52P7→66→67→68→69 in order. One free Unlimited render; no paid path or retry.",
@@ -5556,8 +5571,8 @@
       "scene_id": 68,
       "prompt_id": "S68-WAN30",
       "canonical_block_label": "68",
-      "canonical_prompt_sha256": "2c0066546d883aee619bf0a28ac068691be43853898fa371a55e63c3195ed77b",
-      "normalized_prompt_sha256": "a53a951bd261cd158c27faeb8b3dc40b8fecd4974a625515deed43a98679196a",
+      "canonical_prompt_sha256": "eb5fd7b11b196587845a827016295019579c36a515a14f1b0dfd73feae810a61",
+      "normalized_prompt_sha256": "f03762f86c49ceb497b188681a7c4a45300a130c13475686e231440e6e805bae",
       "priority": 0.017,
       "state": "blocked_inputs",
       "launch_readiness": "blocked_continuity",
@@ -5576,14 +5591,6 @@
         "S67-WAN30"
       ],
       "references": [
-        {
-          "slot": "@Video1",
-          "required": true,
-          "input_status": "pending_actual_result",
-          "canonical_role": "previous_chain_link_end",
-          "source_item_id": "S67-WAN30",
-          "planned_path": "references/scenes/scene-67/S67-last3s.mp4"
-        },
         {
           "slot": "@Image1",
           "path": "references/scenes/scene-68/S68-sweepers-crew.png",
@@ -5631,11 +5638,21 @@
           "sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac",
           "required": true,
           "input_status": "available"
+        },
+        {
+          "slot": "@Image7",
+          "required": true,
+          "input_status": "pending_actual_result",
+          "canonical_role": "exact final frame of S67-WAN30; the S68 start frame, not a video",
+          "source_item_id": "S67-WAN30",
+          "planned_path": "references/scenes/scene-67/S67-final-frame.png",
+          "ui_upload_order": "Image7 last, after Image1..Image6",
+          "replaces": "@Video1 last 3 seconds"
         }
       ],
       "task_id": null,
       "claim": null,
-      "blocker": "Await actual S67-WAN30 success, archive its original, cut its true last 3 s to references/scenes/scene-67/S67-last3s.mp4 and pass continuity QC. All required image files are present; real video continuity is still pending.",
+      "blocker": "Await actual S67-WAN30 success and its exact final-frame PNG at references/scenes/scene-67/S67-final-frame.png. Do not use a last-3s video. Pass continuity QC before launch.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
       "authorization": "Owner27Oct2026: 64–69 queued after63, before49–51/28; chain52P7→66→67→68→69 in order. One free Unlimited render; no paid path or retry.",
@@ -5643,7 +5660,15 @@
       "result_review_required": true,
       "result_review_policy": "Check exact identities, the scene's gag as written (master «Режиссёрский контроль»), dynamic camera; seamless start from the previous link's real last frame. Success is not acceptance.",
       "created_at": "2026-10-27T20:25:32Z",
-      "wan_link_rule_t438u": "t438u: when this item is ready, replace @Video1 with the previous part's exact final-frame PNG as the last image slot and adapt the prompt the same way. Scene 66 must stay ≤7870 characters. Prompt not changed yet."
+      "wan_link_rule_t438u": "t438u: when this item is ready, replace @Video1 with the previous part's exact final-frame PNG as the last image slot and adapt the prompt the same way. Scene 66 must stay ≤7870 characters. Prompt not changed yet.",
+      "owner_authorization_t438u_s68": {
+        "rule": "t438u",
+        "prepared_at": "2026-11-09T13:52:00Z",
+        "canonical_prompt_sha256": "eb5fd7b11b196587845a827016295019579c36a515a14f1b0dfd73feae810a61",
+        "chars": 7777,
+        "editor_limit_chars": 7870,
+        "note": "Start reference is the final frame of S67 as the last image. Stays blocked until S67 succeeds."
+      }
     },
     {
       "id": "S69-WAN30",
