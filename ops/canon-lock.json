@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:ca17da02-676a-437a-9a6f-c2df9cfd27ff",
-  "task": "Seregius ordinary HH:00 full account read-only scan, reconcile, owner readiness, receipt",
-  "acquired_at": "2026-11-09T14:10:46.245Z",
-  "expires_at": null,
-  "released_at": "2026-11-09T14:16:41.390Z",
+  "state": "held",
+  "holder": "cursor:bc-b6c53856-e99b-58a2-a5e3-54a898cb355c",
+  "task": "Record S67 success and open S68",
+  "acquired_at": "2026-11-09T14:22:15Z",
+  "expires_at": "2026-11-09T14:42:15Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
