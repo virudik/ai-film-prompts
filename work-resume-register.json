@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-09T17:58:56+00:00",
+  "last_updated_at": "2026-11-09T18:30:00Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -1214,11 +1214,11 @@
       "title": "Семь пародийных сцен с изображениями по прямой команде владельца",
       "status": "blocked_native_single_frame_output",
       "created_at": "2026-11-09T10:48:12.025422+00:00",
-      "updated_at": "2026-11-09T17:58:56+00:00",
+      "updated_at": "2026-11-09T18:30:00Z",
       "completed": [
         "Сверены свежие инструкции, ID 74–80 пока свободны; исходный checkpoint сохранён."
       ],
-      "next_action": "Не повторять неизменённый вызов генератора: он снова возвращает другой сюжет и неподтверждённое лицо. Сначала подтвердить работающий точный путь одиночного редактирования с исходным портретом и кадром факела. Все7 основных PNG/21 промпт сохранить;7 дополнительных заданий и прочие pending из отчёта открыты. Перед заявлением полной готовности: scripts/check_parody_package.py . --require-complete; код2 означает НЕ завершено. Генерации видео/расходы/автоприёмка не разрешены.",
+      "next_action": "Do not recreate scenes 74–80 or 21 prompts. Do not attach rejected collage/logo/face outputs. Confirm a real identity-preserving image-edit workflow using exact Vitalik face-only source and target composition; otherwise leave supplementary jobs blocked. After valid single-frame QC, save PNG/SHA/manifest/master one by one. Other legacy tasks remain open: eight subdomain certificates, School Rutube, YouTube transfer, HONOR references/contest, RESOURCE QC, old-chat audit.",
       "recovery": {
         "schema_version": 1,
         "verified_at": "2026-11-09T17:58:56+00:00",
@@ -1249,7 +1249,8 @@
         78,
         79,
         80
-      ]
+      ],
+      "last_result": "Seven primary PNG and 21 prompts remain published. Three latest image attempts rejected: mismatched torch face, collage with false completion banner, and wrong-face roaring logo. No new accepted references."
     }
   ],
   "rules": [
