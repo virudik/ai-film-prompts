@@ -2,9 +2,9 @@
   "schema_version": 1,
   "state": "held",
   "holder": "chatgpt:ordinary:6e46b04e-04cb-4717-a898-4b44b4fe796e",
-  "task": "Seregius ordinary HH:00 read-only capacity and queue reconciliation",
-  "acquired_at": "2026-11-09T12:09:10.727Z",
-  "expires_at": "2026-11-09T12:19:10.727Z",
+  "task": "Seregius ordinary finish/release receipt after expired exact own lease",
+  "acquired_at": "2026-11-09T12:19:46.027Z",
+  "expires_at": "2026-11-09T12:29:46.027Z",
   "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
