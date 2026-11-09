@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:5dfa4558-fe98-4620-940f-8ffdb6f40f2a",
-  "task": "t415u S61-SEED20-P2 intent only",
-  "acquired_at": "2026-11-09T09:27:12Z",
-  "expires_at": null,
-  "released_at": "2026-11-09T09:27:12Z",
+  "state": "held",
+  "holder": "cursor:bc-b6c53856-e99b-58a2-a5e3-54a898cb355c",
+  "task": "Record the self-cut S52 P2 ending as the P3 video input",
+  "acquired_at": "2026-11-09T09:27:58Z",
+  "expires_at": "2026-11-09T09:47:58Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
