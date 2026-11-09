@@ -6,46 +6,125 @@
   "runtime_run_id": "25bce679-e364-832f-af0c-be4bba3336a0",
   "runtime_run_id_source": "Automations.peek matched scheduled_for 2026-11-09T20:00:00Z and started_at 2026-11-09T20:12:33.827489Z; no replacement execution_id assumed",
   "source_head_initial": "7f29a5f5a316c98d2224e991eeaf84b8d424d258",
-  "source_head": "6f2ebd5eab6add7b0f0607dae76b9a570c2916d8",
+  "source_head": "0b61cb3e70b08218b3f076f5e86983571c1f1140",
   "route_generation": 3,
   "started_at": "2026-11-09T20:12:33.827489Z",
   "receipt_started_at": "2026-11-09T20:22:17.208Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
-    "complete": false
+    "complete": true,
+    "source": "Topview read-only board full 14 board scan (12 populated, 2 empty), 19 pages 100/page, My First Board 8 pages",
+    "checked_at": "2026-11-09T20:26:25.772Z",
+    "non_atomic": true,
+    "boards": 14,
+    "pages": 19,
+    "all_board_assets": 1052,
+    "video_tasks": 668,
+    "status_counts": {
+      "success": 637,
+      "fail": 26,
+      "init": 5
+    },
+    "active_task_ids": [
+      "be627af0e9664db5b6ac2b62c34080a6",
+      "8bdd6439dad94592979aba23c137b4a0",
+      "0a495e5f77a041e6bcc8d67fb68230b3",
+      "6fa3cdac62e348759d2a3607093414ea",
+      "2473c9b5bcf645fd85ab308306c53aaa"
+    ],
+    "all_active_on_board": "1a6244cf1ae747ef847d949a80d6133c"
   },
   "slots": {
     "physical_capacity": 6,
-    "occupied": null,
-    "free": null,
-    "complete_scan_verified": false
+    "occupied": 5,
+    "free": 1,
+    "complete_scan_verified": true,
+    "non_reserving_snapshot": true,
+    "checked_at": "2026-11-09T20:26:25.772Z"
   },
   "selected_item": null,
-  "task_ids": [],
+  "task_ids": [
+    "be627af0e9664db5b6ac2b62c34080a6",
+    "8bdd6439dad94592979aba23c137b4a0",
+    "0a495e5f77a041e6bcc8d67fb68230b3",
+    "6fa3cdac62e348759d2a3607093414ea",
+    "2473c9b5bcf645fd85ab308306c53aaa"
+  ],
   "new_submissions": [],
-  "browser_transport": "not_used",
+  "browser_transport": "not_used: no ready authorized story item; no TinyFish paid polling",
   "tinyfish": {
     "runs": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0
+    "confirmed_cost_usd": 0,
+    "wallet_not_queried_reason": "No launchable authorized story item and no paid browser run"
   },
   "topview_credits_spent": 0,
   "lease": {
     "holder": "chatgpt:ordinary:c7aa00d4-45a3-4c51-825f-625077d18a32",
     "acquired_at": "2026-11-09T20:21:09.260Z",
     "expires_at": "2026-11-09T20:31:09.260Z",
-    "lease_commit": "f2face36b628c0c0e7d386e49910e50a1b3df73a"
+    "lease_commit": "f2face36b628c0c0e7d386e49910e50a1b3df73a",
+    "released_at": "2026-11-09T20:27:58.032Z",
+    "release_with_receipt_atomic": true
   },
-  "outcome": "in_progress",
+  "outcome": "no_eligible_ready_item",
   "acceptance": {
     "scheduled_run_executed": true,
-    "topview_read_only_scan_complete": false,
+    "scheduled_run_id_observed": true,
+    "topview_read_only_scan_complete": true,
+    "queue_and_map_sha256_confirmed": true,
+    "all_39_queue_submitted_task_ids_read_from_Topview": true,
     "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
     "production_submission_by_this_executor_verified": false,
     "new_task_id_verified": false
-  }
+  },
+  "blocker": "S65-WAN30 waits for real S70 final-frame PNG (references/scenes/scene-70/S70-final-frame.png 404); S66-STITCH-INDEP-WAN30 has foreign submitting intent 6ba1656f-24ff-4dd3-ab2d-bf0991e31cf2 (no replay); S62 on owner hold, S49B and music/dances deferred until story, remaining independent 28 held by current owner policy. Five active Topview tasks not in current queue remain unassigned; telemetry robot stale since 2026-11-09T15:34:29Z; no guess-based remapping.",
+  "retryable": false,
+  "queue_reconciliation": {
+    "queue_blob_sha": "874ff7197b08940122156b8b4bd9a43f818ef871",
+    "task_map_blob_sha": "90996c5b82a0553ed0cd49d2edf3f2d91c724868",
+    "readiness_blob_sha": "bda1cb01362adbefe09953f950b45d48b8bebfa5",
+    "queue_sha256": "5c4c83e19a23ce849990d5647342ed982191c583dfc61642535f8282f3b10504",
+    "task_map_sha256": "7e5c3ae5e5ba98672f69c0c210b0bdc8f710624299feb5e49d3b4c4c788595ad",
+    "sha256_recomputed_and_matched": true,
+    "submitted_task_ids_found": 39,
+    "submitted_total": 39,
+    "pending_items": [
+      {
+        "id": "S66-STITCH-INDEP-WAN30",
+        "state": "submitting",
+        "submission_intent_id": "6ba1656f-24ff-4dd3-ab2d-bf0991e31cf2",
+        "lease_holder": "grok:fa55d361-5299-404a-aa1b-cf19979fda7c"
+      }
+    ],
+    "open_owner_tasks": 1,
+    "owner_task_action": "Not taken: self-heal telemetry requires verified mapping for five unqueued active tasks, no speculative edit.",
+    "preferred_executor": "work",
+    "route_generation_unchanged": true,
+    "robot_telemetry_checked_at": "2026-11-09T15:34:29Z",
+    "robot_telemetry_is_stale": true,
+    "peers": {
+      "ordinary": {
+        "enabled": true,
+        "id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
+        "run_id": "25bce679-e364-832f-af0c-be4bba3336a0"
+      },
+      "work_hourly": {
+        "enabled": true,
+        "last_run_id": "699d947b-9ffc-8323-8f75-f3950366e3f5",
+        "recorded_status": "no_update"
+      },
+      "relay": {
+        "enabled": true,
+        "last_run_id": "8aec3d2d-621c-8320-9682-7683dd809b6a",
+        "recorded_status": "no_update"
+      }
+    }
+  },
+  "completed_at": "2026-11-09T20:27:58.032Z",
+  "updated_at": "2026-11-09T20:27:58.032Z"
 }
