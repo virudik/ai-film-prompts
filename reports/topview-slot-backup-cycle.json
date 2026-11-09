@@ -6,38 +6,58 @@
   "runtime_run_id": "62473c65-0548-8331-bf17-20b53f52cc79",
   "runtime_run_id_source": "Automations.peek last_run.id in_progress for 2026-11-09T22:00:00Z; started 2026-11-09T22:03:27.490751Z. latest_result was prior cycle.",
   "source_head_initial": "7b3038044b1dd172265cc38b505fb054e37dddb6",
-  "source_head": "7f4d49c6f64f3faf3faa6d16bc989c7fa7a0ba24",
+  "source_head": "1158861a992517562de36c3ea77593d9fa531094",
   "route_generation": 3,
   "started_at": "2026-11-09T22:03:27.490751Z",
   "receipt_started_at": "2026-11-09T22:11:24.707Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
-    "complete": false,
-    "source": "live Topview read-only scan in progress",
-    "checked_at": null,
-    "boards": null,
-    "pages": null,
-    "video_tasks": null,
-    "status_counts": null,
-    "active_task_ids": []
+    "complete": true,
+    "source": "Live Topview read-only account-wide scan of 14 boards, all 19 video pages",
+    "checked_at": "2026-11-09T22:18:18.738Z",
+    "non_atomic": true,
+    "boards": 14,
+    "pages": 19,
+    "video_tasks": 668,
+    "status_counts": {
+      "success": 637,
+      "fail": 26,
+      "init": 5
+    },
+    "active_task_ids": [
+      "be627af0e9664db5b6ac2b62c34080a6",
+      "8bdd6439dad94592979aba23c137b4a0",
+      "0a495e5f77a041e6bcc8d67fb68230b3",
+      "6fa3cdac62e348759d2a3607093414ea",
+      "2473c9b5bcf645fd85ab308306c53aaa"
+    ],
+    "all_active_on_board": "1a6244cf1ae747ef847d949a80d6133c"
   },
   "slots": {
     "physical_capacity": 6,
-    "occupied": null,
-    "free": null,
-    "complete_scan_verified": false
+    "occupied": 5,
+    "free": 1,
+    "complete_scan_verified": true,
+    "non_reserving_snapshot": true,
+    "checked_at": "2026-11-09T22:18:18.738Z"
   },
   "selected_item": null,
-  "task_ids": [],
+  "task_ids": [
+    "be627af0e9664db5b6ac2b62c34080a6",
+    "8bdd6439dad94592979aba23c137b4a0",
+    "0a495e5f77a041e6bcc8d67fb68230b3",
+    "6fa3cdac62e348759d2a3607093414ea",
+    "2473c9b5bcf645fd85ab308306c53aaa"
+  ],
   "new_submissions": [],
-  "browser_transport": "not_used",
+  "browser_transport": "not_used: no independently ready owner-authorized story item; metered TinyFish blocker remains",
   "tinyfish": {
     "runs": [],
     "steps": 0,
     "estimated_cost_usd": 0,
     "confirmed_cost_usd": 0,
-    "wallet_not_queried_reason": "No candidate selected; avoid idle metered browser checks"
+    "wallet_not_queried_reason": "No eligible ready item; no paid browser run required"
   },
   "topview_credits_spent": 0,
   "lease": {
@@ -45,22 +65,58 @@
     "acquired_at": "2026-11-09T22:10:14.209Z",
     "expires_at": "2026-11-09T22:22:14.209Z",
     "lease_commit": "6fba481b70d1255a5899187e267cdf73aad03a68",
-    "released_at": null
+    "released_at": "2026-11-09T22:19:36.364Z",
+    "release_with_receipt_atomic": true
   },
-  "outcome": "started",
-  "retryable": true,
-  "completed_at": null,
-  "updated_at": "2026-11-09T22:11:24.707Z",
-  "blocker": null,
+  "outcome": "no_eligible_ready_item",
+  "retryable": false,
+  "completed_at": "2026-11-09T22:19:36.364Z",
+  "updated_at": "2026-11-09T22:19:36.364Z",
+  "blocker": "S65-WAN30 still waits for exact previous S70 final frame (references/scenes/scene-70/S70-final-frame.png GitHub 404), then continuity QC. S66-STITCH-INDEP-WAN30 is foreign submitting, must never replay. Found exceptionally strong candidate: task efaad07750974b678df63a6be00f15d8 started 2026-11-09 15:35:29 (34s after intent), success 16:11:58, prompt exactly matches S66 normalized after @ImageN-to-<<<ImageN>>> normalization, ordered 7 image attachments, Wan3 30s 720p, creditsCost 0; however useUnlimitMode=false and original uploaded asset SHA bytes unverified, so no canonical submitted acceptance or queue mutation until material evidence reconciliation. S62 held t422u, music/dances 28/49/50/51 need separate owner authorization under t369u (S49B after ALL story). 5 active tasks are not mapped by guessing. Robot topview-status stale since 2026-11-09T15:34:29Z, owner task remains open.",
   "acceptance": {
     "scheduled_run_executed": true,
     "scheduled_run_id_observed": true,
-    "topview_read_only_scan_complete": false,
-    "queue_and_map_sha256_confirmed": false,
-    "production_submission_by_this_executor_verified": false,
-    "new_task_id_verified": false,
+    "topview_read_only_scan_complete": true,
+    "queue_and_map_sha256_confirmed": true,
+    "all_39_submitted_or_completed_task_ids_found_on_My_First_Board": true,
     "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
-    "tinyfish_unlimited_zero_this_run": false
+    "tinyfish_unlimited_zero_this_run": false,
+    "production_submission_by_this_executor_verified": false,
+    "new_task_id_verified": false
+  },
+  "queue_reconciliation": {
+    "queue_blob_sha": "874ff7197b08940122156b8b4bd9a43f818ef871",
+    "task_map_blob_sha": "90996c5b82a0553ed0cd49d2edf3f2d91c724868",
+    "readiness_blob_sha": "bda1cb01362adbefe09953f950b45d48b8bebfa5",
+    "queue_sha256": "5c4c83e19a23ce849990d5647342ed982191c583dfc61642535f8282f3b10504",
+    "task_map_sha256": "7e5c3ae5e5ba98672f69c0c210b0bdc8f710624299feb5e49d3b4c4c788595ad",
+    "sha256_recomputed_and_matched": true,
+    "submitted_task_ids_found": 36,
+    "completed_task_ids_found": 3,
+    "submitted_or_completed_total": 39,
+    "pending_items": [
+      {
+        "id": "S66-STITCH-INDEP-WAN30",
+        "state": "submitting",
+        "submission_intent_id": "6ba1656f-24ff-4dd3-ab2d-bf0991e31cf2",
+        "lease_holder": "grok:fa55d361-5299-404a-aa1b-cf19979fda7c",
+        "strong_live_match_task_id": "efaad07750974b678df63a6be00f15d8",
+        "actual_file_sha_verified": false,
+        "unlimited_flag": false,
+        "acceptance": "pending_full_input_reconciliation_no_replay"
+      }
+    ],
+    "open_owner_tasks": 1,
+    "owner_task_action": "Left self-heal-telemetry-stale-202611091849 open; no unsafe unmapped mapping; needs cause-based robot fix",
+    "preferred_executor": "work",
+    "route_generation_unchanged": true,
+    "robot_telemetry_checked_at": "2026-11-09T15:34:29Z",
+    "robot_telemetry_is_stale": true,
+    "peer_run_ids": {
+      "ordinary": "62473c65-0548-8331-bf17-20b53f52cc79",
+      "work_hourly": null,
+      "relay": "8aec3d2d-621c-8320-9682-7683dd809b6a"
+    }
   }
 }
