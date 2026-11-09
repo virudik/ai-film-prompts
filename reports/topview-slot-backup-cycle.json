@@ -14,8 +14,8 @@
   "started_at": "2026-11-09T01:58:58.264149Z",
   "lease_acquired_at": "2026-11-09T02:10:11.113Z",
   "receipt_started_recorded_at": "2026-11-09T02:11:15.126Z",
-  "phase": "started",
-  "outcome": "in_progress",
+  "phase": "finished",
+  "outcome": "blocked_browser_input",
   "scan": {
     "complete": true,
     "boards": 14,
@@ -113,10 +113,11 @@
     "holder": "chatgpt:ordinary:99db272b-0278-4323-a297-319238e11cc3",
     "acquired_at": "2026-11-09T02:10:11.113Z",
     "expires_at": "2026-11-09T02:22:11.113Z",
-    "release_with_receipt_atomic": false
+    "release_with_receipt_atomic": true,
+    "released_at": "2026-11-09T02:14:07.881Z"
   },
-  "checked_at": "2026-11-09T02:11:15.126Z",
-  "completed_at": null,
+  "checked_at": "2026-11-09T02:14:07.881Z",
+  "completed_at": "2026-11-09T02:14:07.881Z",
   "next_ready_candidate": "S62-SEED20-P1-R2-20261108",
   "retryable": false
 }
