@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:cac9e536-4eed-49f1-bc08-397288c2c43d",
-  "task": "Save verified live publication of seven existing parody frames and truthful additional-frame checkpoint; no video or queue edits",
-  "acquired_at": "2026-11-09T16:48:58Z",
-  "expires_at": null,
-  "released_at": "2026-11-09T16:51:15.729287+00:00",
+  "state": "held",
+  "holder": "chatgpt:ordinary:e5d36433-dee0-4b25-af10-d72444b74643",
+  "task": "Scheduled ordinary Topview full scan and receipt; no Create with six active tasks",
+  "acquired_at": "2026-11-09T17:00:43.400Z",
+  "expires_at": "2026-11-09T17:09:43.400Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
