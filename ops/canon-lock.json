@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:6e46b04e-04cb-4717-a898-4b44b4fe796e",
-  "task": "Seregius ordinary finish/release receipt after expired exact own lease",
-  "acquired_at": "2026-11-09T12:19:46.027Z",
-  "expires_at": null,
-  "released_at": "2026-11-09T12:20:53.554Z",
+  "state": "held",
+  "holder": "cursor:bc-b6c53856-e99b-58a2-a5e3-54a898cb355c",
+  "task": "Record S52-R2-SEED20-P6 and S59-SEED20-P4 receipts",
+  "acquired_at": "2026-11-09T12:23:30Z",
+  "expires_at": "2026-11-09T12:43:30Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
