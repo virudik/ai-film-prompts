@@ -5871,7 +5871,7 @@
       "canonical_prompt_sha256": "c5d9bca56ffcfc7a38adf34bfe20bd717cd91e26d82f9d44e2563f9763090ab5",
       "normalized_prompt_sha256": "b566aae7bb96cfb45ff1c64949d61fc55115a6f25ea439159d29c2aca960a2b6",
       "priority": 0.019,
-      "state": "submitting",
+      "state": "submitted",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "selected_model": "Wan 3.0",
@@ -5881,7 +5881,7 @@
       "aspect_ratio": "16:9",
       "quantity": 1,
       "mode": "omni_reference",
-      "max_new_submissions": 1,
+      "max_new_submissions": 0,
       "max_credits": 0,
       "depends_on_submitted": [],
       "depends_on_completed": [
@@ -5933,62 +5933,8 @@
           "qc_note": "Wide street shot: three sweepers in orange vests with cyan light brooms, an R2 unit at the left, an arch in the background."
         }
       ],
-      "task_id": null,
-      "claim": {
-        "claim_id": "f53ac444-e334-484e-a21a-f61efca32f2d",
-        "claimed_at": "2026-11-09T15:30:12Z",
-        "claimed_by": "grok",
-        "execution_instance_id": "cabea1f9-8efe-4798-a422-a21ef2bf75a3",
-        "route_generation": 3,
-        "lease_holder": "grok:cabea1f9-8efe-4798-a422-a21ef2bf75a3",
-        "lease_acquired_at": "2026-11-09T15:30:12Z",
-        "source": "cursor_host standing command t413u-20261109",
-        "canonical_prompt_sha256": "c5d9bca56ffcfc7a38adf34bfe20bd717cd91e26d82f9d44e2563f9763090ab5",
-        "normalized_prompt_sha256": "b566aae7bb96cfb45ff1c64949d61fc55115a6f25ea439159d29c2aca960a2b6",
-        "preflight": {
-          "owner_authorized": true,
-          "prompt_match": true,
-          "input_sha_match": true,
-          "input_order_match": true,
-          "qc_passed": true,
-          "website_unlimited": true,
-          "credits_cost": 0,
-          "numeric_zero_displayed": false,
-          "unlimited_mode_selected": true,
-          "credits_cost_evidence": "selected_free_unlimited_current_form",
-          "ui_unlimited_label": "Безлимитный режим — бесплатно",
-          "paid_18_credit_mode_selected": false,
-          "paid_credit_mode_selected": false,
-          "quantity": 1,
-          "resolution": 720,
-          "aspect_ratio": "16:9"
-        },
-        "submission_intent_id": "09597d5f-7a40-4dea-944a-5bbf2f6b04a2",
-        "submission_intent_at": "2026-11-09T15:30:12Z",
-        "replay_forbidden": true,
-        "host_run": {
-          "namespace": "cursor_host",
-          "observation_source": "parent_shell_os_environ",
-          "field": "CURSOR_REQUEST_ID",
-          "value": "3116ccf9-b051-479a-a321-358518bbeba0",
-          "conversation_field": "CURSOR_CONVERSATION_ID",
-          "conversation_id": "1c1bf697-3c93-4068-b457-e90efdd5ef8f",
-          "standing_command_id": "t413u-20261109"
-        },
-        "provider_run_key": "574ed75b394098d2e4c41bab331dd42e56fbe9093a4281271d1e9c36bdfef55a",
-        "owner_event_keys": [
-          "d4f1630ef5e33dd68a59774db03773487366a93d236db35a9397ee7fa88ba8ab"
-        ],
-        "ledger_path": "ops/launcher-run-ledger.json",
-        "trigger": "owner_command",
-        "owner_command": {
-          "quote": "Говорю запускай значит запускай. Зачем спрашивать по 10 раз если есть уже согласованная очередь запуска",
-          "source": "cursor_host",
-          "at": "2026-11-09T09:25:00+01:00",
-          "standing_command_id": "t413u-20261109",
-          "standing_host_address": "t413u"
-        }
-      },
+      "task_id": "942bdafcff8640d1b405a37cbbb5cbc6",
+      "claim": null,
       "blocker": null,
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
@@ -6004,6 +5950,17 @@
         "chars": 6431,
         "editor_limit_chars": 7870,
         "note": "Start reference is the final frame of S69 as the last image. Stays blocked until S69 succeeds."
+      },
+      "submitted_at": "2026-11-09T15:30:52Z",
+      "max_new_submissions_consumed": 1,
+      "receipt": "reports/topview-queue-2026-10-16/S70-WAN30-20261109T153052Z.json",
+      "last_claim": {
+        "claim_id": "f53ac444-e334-484e-a21a-f61efca32f2d",
+        "claimed_at": "2026-11-09T15:30:12Z",
+        "execution_instance_id": "cabea1f9-8efe-4798-a422-a21ef2bf75a3",
+        "submission_intent_id": "09597d5f-7a40-4dea-944a-5bbf2f6b04a2",
+        "archive_file": "reports/topview-queue-2026-10-16/S70-WAN30-20261109T153052Z.json",
+        "archive_sha256": "0d63130b6454fe26a477f036b4583df287314155e75caadb8de6ef369c89c41e"
       }
     },
     {
