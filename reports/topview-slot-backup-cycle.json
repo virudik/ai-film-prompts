@@ -14,8 +14,8 @@
   "started_at": "2026-11-09T01:07:32.755Z",
   "lease_acquired_at": "2026-11-09T01:07:32.755Z",
   "receipt_started_recorded_at": "2026-11-09T01:07:36.583Z",
-  "phase": "started",
-  "outcome": "in_progress",
+  "phase": "finished",
+  "outcome": "blocked_browser_input",
   "scan": {
     "complete": true,
     "boards": 14,
@@ -27,7 +27,8 @@
       "fail": 26,
       "init": 3
     },
-    "checked_at": "2026-11-09T01:06:18.072Z"
+    "checked_at": "2026-11-09T01:06:18.072Z",
+    "scope": "All 14 Topview boards, 18 video-list pages, account-wide"
   },
   "slots": {
     "capacity": 6,
@@ -37,7 +38,8 @@
       "0b6dfa84e4524b438075f10f7205a846",
       "2d8efbd16f5146f48cd7a9a1ffb99369",
       "8a1982a55f794a049a62eaa91bf8827f"
-    ]
+    ],
+    "complete_scan_verified": true
   },
   "selected_item": null,
   "new_submissions": [],
@@ -48,7 +50,8 @@
     "run_ids": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0
+    "confirmed_cost_usd": 0,
+    "not_run_reason": "Unchanged verified 2026-11-06 TinyFish native Topview image/video source upload and Unlimited0 preflight blocker. No new verified UI capability; owner prohibits repeated metered checks. Wallet not checked because no paid run was attempted."
   },
   "acceptance": {
     "scheduled_run_verified": true,
@@ -60,5 +63,60 @@
     "production_submission_verified": false
   },
   "topview_credits_spent": 0,
-  "blocker": null
+  "blocker": {
+    "code": "blocked_browser_input",
+    "item_id": "S62-SEED20-P1-R2-20261108",
+    "retryable": false,
+    "reason": "Three physical slots free and S62 P1 R2 is the top independent authorized story item, but user-approved TinyFish profile does not have a verified native transfer of the real 3-second MP4 plus six exact image refs into Omni-reference or a confirmed Unlimited0 composer on the exact board; no Create permitted.",
+    "evidence": "ops/slot-backup.json#tinyfish_fallback.latest_blocker, observed 2026-11-06T18:08:08Z"
+  },
+  "checked_at": "2026-11-09T01:09:50.140Z",
+  "completed_at": "2026-11-09T01:09:50.140Z",
+  "next_ready_candidate": "S62-SEED20-P1-R2-20261108",
+  "owner_tasks": "checked_open_0",
+  "queue_reconciliation": {
+    "source_queue_sha256": "34df7b3b62ec760259f77e89f8d652035d2f43fc0b0be67810c2eb5597d0f50f",
+    "source_task_map_sha256": "02d94cd7f310a0a61d88fd169c123762b91eada716a1b47d220b8e31705d776f",
+    "hashes_independently_recomputed_and_match": true,
+    "submitted_count": 20,
+    "submitted_found": 20,
+    "submission_unknown": [
+      {
+        "id": "S49B",
+        "submission_intent_id": "e12e32cf-b8d6-4484-86ef-35acee6e4693",
+        "replay_forbidden": true
+      }
+    ],
+    "foreign_claims": [
+      {
+        "id": "S48-SEED20-P2-R2-20261108",
+        "holder": "grok",
+        "submission_intent_id": null
+      }
+    ],
+    "owner_music_consent_required": [
+      28,
+      49,
+      50,
+      51
+    ],
+    "continuity_refs_preserved": true
+  },
+  "monitor": {
+    "launcher_health_state": "reconciliation_required",
+    "launcher_health_checked_at": "2026-11-09T00:50:50Z",
+    "bot_issue_latest": 475,
+    "bot_issue_event": "slots:d1af9cd6:31",
+    "relay_event_not_claimed": true,
+    "ordinary_last_run_id": "9f96dc61-f5e8-8322-8dcb-d91638d417a3",
+    "work_hour55_last_run_id": "ce3f02d8-d938-832c-abd2-40ac6dff1555",
+    "relay_last_run_id": "04e746c1-fa08-8330-a353-d1eb9f946b7f"
+  },
+  "lease": {
+    "holder": "chatgpt:ordinary:2dd99c41-0eaa-4838-9b54-230c5ed1f65d",
+    "acquired_at": "2026-11-09T01:07:32.755Z",
+    "released_at": "2026-11-09T01:09:50.140Z",
+    "release_with_receipt_atomic": true
+  },
+  "retryable": false
 }
