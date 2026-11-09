@@ -397,7 +397,6 @@
     "actionable_items": [
       "S51E",
       "S51F",
-      "S48-SEED20-P2-R2-20261108",
       "S28-A4-20261023",
       "S28-A5-20261023",
       "S28-A6-20261023",
@@ -417,7 +416,8 @@
       "S28-A13-20261030"
     ],
     "reconciliation_items": [
-      "S49B"
+      "S49B",
+      "S48-SEED20-P2-R2-20261108"
     ],
     "last_event_id": "slots:d1af9cd6:38",
     "receipt_present": false,
@@ -429,6 +429,6 @@
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
     "escalation_attempted_episode": "d1af9cd6",
-    "checked_at": "2026-11-09T08:06:12Z"
+    "checked_at": "2026-11-09T08:10:33Z"
   }
 }
