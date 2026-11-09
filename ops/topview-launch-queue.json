@@ -5739,7 +5739,7 @@
       "canonical_prompt_sha256": "82619287b90adcf033ce55625c16b6ce7a14b874332f25c81095c85381316c2e",
       "normalized_prompt_sha256": "2618d9a1e6889114b991cbcaacaf30c0df6d3826132771ec510ade664f1deecf",
       "priority": 0.018,
-      "state": "submitting",
+      "state": "submitted",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "selected_model": "Wan 3.0",
@@ -5749,7 +5749,7 @@
       "aspect_ratio": "16:9",
       "quantity": 1,
       "mode": "omni_reference",
-      "max_new_submissions": 1,
+      "max_new_submissions": 0,
       "max_credits": 0,
       "depends_on_submitted": [],
       "depends_on_completed": [
@@ -5825,62 +5825,8 @@
           "qc_note": "Masha R walking toward the camera holding the pale-blue melon, crew members at the frame edges, street with an arch."
         }
       ],
-      "task_id": null,
-      "claim": {
-        "claim_id": "55398b53-9bce-43a0-a2b2-a8dd20320d16",
-        "claimed_at": "2026-11-09T14:55:55Z",
-        "claimed_by": "grok",
-        "execution_instance_id": "c491f2b1-aa3b-423f-ad02-56077b5bde67",
-        "route_generation": 3,
-        "lease_holder": "grok:c491f2b1-aa3b-423f-ad02-56077b5bde67",
-        "lease_acquired_at": "2026-11-09T14:55:55Z",
-        "source": "cursor_host standing command t413u-20261109",
-        "canonical_prompt_sha256": "82619287b90adcf033ce55625c16b6ce7a14b874332f25c81095c85381316c2e",
-        "normalized_prompt_sha256": "2618d9a1e6889114b991cbcaacaf30c0df6d3826132771ec510ade664f1deecf",
-        "preflight": {
-          "owner_authorized": true,
-          "prompt_match": true,
-          "input_sha_match": true,
-          "input_order_match": true,
-          "qc_passed": true,
-          "website_unlimited": true,
-          "credits_cost": 0,
-          "numeric_zero_displayed": false,
-          "unlimited_mode_selected": true,
-          "credits_cost_evidence": "selected_free_unlimited_current_form",
-          "ui_unlimited_label": "Безлимитный режим — бесплатно",
-          "paid_18_credit_mode_selected": false,
-          "paid_credit_mode_selected": false,
-          "quantity": 1,
-          "resolution": 720,
-          "aspect_ratio": "16:9"
-        },
-        "submission_intent_id": "7db212de-d76f-44ca-960b-cd6ca1f98267",
-        "submission_intent_at": "2026-11-09T14:55:55Z",
-        "replay_forbidden": true,
-        "host_run": {
-          "namespace": "cursor_host",
-          "observation_source": "parent_shell_os_environ",
-          "field": "CURSOR_REQUEST_ID",
-          "value": "68691eb1-9f29-4a17-ae76-1de332956968",
-          "conversation_field": "CURSOR_CONVERSATION_ID",
-          "conversation_id": "1c1bf697-3c93-4068-b457-e90efdd5ef8f",
-          "standing_command_id": "t413u-20261109"
-        },
-        "provider_run_key": "b1fbbaf468b496085ceb822b87843cf041f5bf430413a74ba31775de533f4c6c",
-        "owner_event_keys": [
-          "eee2d207377458ae5c529bcb6521f00ee7f348feb08c69c7fcd034c01eabadcf"
-        ],
-        "ledger_path": "ops/launcher-run-ledger.json",
-        "trigger": "owner_command",
-        "owner_command": {
-          "quote": "Говорю запускай значит запускай. Зачем спрашивать по 10 раз если есть уже согласованная очередь запуска",
-          "source": "cursor_host",
-          "at": "2026-11-09T09:25:00+01:00",
-          "standing_command_id": "t413u-20261109",
-          "standing_host_address": "t413u"
-        }
-      },
+      "task_id": "15e12f1588cc4079983610b63973e028",
+      "claim": null,
       "blocker": null,
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
@@ -5897,6 +5843,17 @@
         "chars": 7819,
         "editor_limit_chars": 7870,
         "note": "Start reference is the final frame of S68 as the last image. Stays blocked until S68 succeeds."
+      },
+      "submitted_at": "2026-11-09T14:56:44Z",
+      "max_new_submissions_consumed": 1,
+      "receipt": "reports/topview-queue-2026-10-16/S69-WAN30-20261109T145644Z.json",
+      "last_claim": {
+        "claim_id": "55398b53-9bce-43a0-a2b2-a8dd20320d16",
+        "claimed_at": "2026-11-09T14:55:55Z",
+        "execution_instance_id": "c491f2b1-aa3b-423f-ad02-56077b5bde67",
+        "submission_intent_id": "7db212de-d76f-44ca-960b-cd6ca1f98267",
+        "archive_file": "reports/topview-queue-2026-10-16/S69-WAN30-20261109T145644Z.json",
+        "archive_sha256": "f8ee65ed035161fd89b9f6c3e17cb0d1700a7e2c78a5281aebfac505655c1336"
       }
     },
     {
