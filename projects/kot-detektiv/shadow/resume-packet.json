@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "kot-detektiv",
   "project_name": "Кот детектив",
-  "checked_at": "2026-11-09T10:25:07+00:00",
-  "source_head": "aaf2374f4f63c35a7f9e90135fa2791074693254",
-  "source_fingerprint": "346d0fa52d845dcc2038c4e5b819490531a49a1775b6fb624528636657fca75b",
+  "checked_at": "2026-11-09T10:28:24+00:00",
+  "source_head": "ff8dcc2c7013fb18ac3864613b36c628f6645421",
+  "source_fingerprint": "c6304eedd9155b7da97b4dedf6f920b0844a4e1c37ce88b5a28a3f1e2be703e1",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -163,8 +163,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "cae1f994dadb33029a6d03b5141901324544a83a7ccfe53d93e30116aa432f3b",
-      "bytes": 34417
+      "sha256": "45183a479b0df430fbc43e4753b2d3eb4dee4e53bd8f812c9c10dde3ac55ebf8",
+      "bytes": 34445
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -188,7 +188,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "921325e8c065f5a1ff00603f4715bc3bc62bc2e0e0632132226386e0b5b1f161",
+      "sha256": "a12b1c5f36482c69feba0d59e8756304392e4d00847495b0f91d9bf19b3c5dab",
       "bytes": 5136
     },
     {
@@ -203,7 +203,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "451faa0090377e5446671134cced5adab57befc5ce59d80a13e93e1cf26c502b",
+      "sha256": "c7df9c31b7160c37d6b02493a20bdf750cdaf790bb2634f79f3191c7962a84c0",
       "bytes": 23014
     },
     {
@@ -258,12 +258,12 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "f38ee61e28bf2610fa90de0a9665e26e90f499e8bc1ea199f05dac1c203bdda5",
-      "bytes": 34218
+      "sha256": "e1a5ee386ed348bf02a9d28ecde574c145814005701b754955794b4af790df5c",
+      "bytes": 34246
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "914ffe5a0575c8a013ed0cde6beea0ef729246103b60404d4241ac2f727f911b",
+      "sha256": "732895e11b48eda0ba8201ed9a05e94a8024de87b56ba8bb137c08957a3cedcc",
       "bytes": 25543
     },
     {
