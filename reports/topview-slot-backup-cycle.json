@@ -4,18 +4,18 @@
   "source": "ChatGPT scheduled ordinary",
   "runner": "chatgpt_scheduled_task",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "2dd99c41-0eaa-4838-9b54-230c5ed1f65d",
-  "holder": "chatgpt:ordinary:2dd99c41-0eaa-4838-9b54-230c5ed1f65d",
-  "run_id": "9f96dc61-f5e8-8322-8dcb-d91638d417a3",
-  "runtime_run_id_source": "Automations.peek last_run.id, current in_progress",
+  "execution_instance_id": "99db272b-0278-4323-a297-319238e11cc3",
+  "holder": "chatgpt:ordinary:99db272b-0278-4323-a297-319238e11cc3",
+  "run_id": "9fff515f-8c74-832d-ba1b-74899a0588c6",
+  "runtime_run_id_source": "Automations.peek current last_run.id (in_progress)",
   "run_id_unavailable_reason": null,
-  "source_head": "c19c9250c3d55d5a471808a81abb03715c8cf52a",
+  "source_head": "994956a275620563ed2981a9bdb93f0f33d57f69",
   "route_generation": 3,
-  "started_at": "2026-11-09T01:07:32.755Z",
-  "lease_acquired_at": "2026-11-09T01:07:32.755Z",
-  "receipt_started_recorded_at": "2026-11-09T01:07:36.583Z",
-  "phase": "finished",
-  "outcome": "blocked_browser_input",
+  "started_at": "2026-11-09T01:58:58.264149Z",
+  "lease_acquired_at": "2026-11-09T02:10:11.113Z",
+  "receipt_started_recorded_at": "2026-11-09T02:11:15.126Z",
+  "phase": "started",
+  "outcome": "in_progress",
   "scan": {
     "complete": true,
     "boards": 14,
@@ -27,8 +27,8 @@
       "fail": 26,
       "init": 3
     },
-    "checked_at": "2026-11-09T01:06:18.072Z",
-    "scope": "All 14 Topview boards, 18 video-list pages, account-wide"
+    "checked_at": "2026-11-09T02:04:29.942Z",
+    "scope": "All 14 Topview boards, 18 filtered video-list pages; fresh read-only account-wide connector scan"
   },
   "slots": {
     "capacity": 6,
@@ -51,7 +51,7 @@
     "steps": 0,
     "estimated_cost_usd": 0,
     "confirmed_cost_usd": 0,
-    "not_run_reason": "Unchanged verified 2026-11-06 TinyFish native Topview image/video source upload and Unlimited0 preflight blocker. No new verified UI capability; owner prohibits repeated metered checks. Wallet not checked because no paid run was attempted."
+    "not_run_reason": "No new evidence addressing native upload/Unlimited0 blocker from 2026-11-06. Repeating paid UI checks without new grounds forbidden. Wallet not checked; no paid run planned."
   },
   "acceptance": {
     "scheduled_run_verified": true,
@@ -67,16 +67,13 @@
     "code": "blocked_browser_input",
     "item_id": "S62-SEED20-P1-R2-20261108",
     "retryable": false,
-    "reason": "Three physical slots free and S62 P1 R2 is the top independent authorized story item, but user-approved TinyFish profile does not have a verified native transfer of the real 3-second MP4 plus six exact image refs into Omni-reference or a confirmed Unlimited0 composer on the exact board; no Create permitted.",
-    "evidence": "ops/slot-backup.json#tinyfish_fallback.latest_blocker, observed 2026-11-06T18:08:08Z"
+    "reason": "Verified 3 free physical slots; S62 P1 R2 is highest independent approved story item, but saved TinyFish profile cannot yet natively upload the real canonical 3-second MP4 and six exact image refs into Topview Omni-reference, or confirm selected Unlimited0 on same board. No Create.",
+    "evidence": "ops/slot-backup.json#tinyfish_fallback.latest_blocker (2026-11-06T18:08:08Z)"
   },
-  "checked_at": "2026-11-09T01:09:50.140Z",
-  "completed_at": "2026-11-09T01:09:50.140Z",
-  "next_ready_candidate": "S62-SEED20-P1-R2-20261108",
   "owner_tasks": "checked_open_0",
   "queue_reconciliation": {
     "source_queue_sha256": "34df7b3b62ec760259f77e89f8d652035d2f43fc0b0be67810c2eb5597d0f50f",
-    "source_task_map_sha256": "02d94cd7f310a0a61d88fd169c123762b91eada716a1b47d220b8e31705d776f",
+    "source_task_map_sha256": "6a947944bcf45b1fdf1f65f3f250f4f3c78925306fccfa74759d640a99c891ad",
     "hashes_independently_recomputed_and_match": true,
     "submitted_count": 20,
     "submitted_found": 20,
@@ -104,19 +101,22 @@
   },
   "monitor": {
     "launcher_health_state": "reconciliation_required",
-    "launcher_health_checked_at": "2026-11-09T00:50:50Z",
-    "bot_issue_latest": 475,
-    "bot_issue_event": "slots:d1af9cd6:31",
+    "launcher_health_checked_at": "2026-11-09T01:50:29Z",
+    "bot_issue_latest": 477,
+    "bot_issue_event": "slots:d1af9cd6:32",
     "relay_event_not_claimed": true,
-    "ordinary_last_run_id": "9f96dc61-f5e8-8322-8dcb-d91638d417a3",
-    "work_hour55_last_run_id": "ce3f02d8-d938-832c-abd2-40ac6dff1555",
-    "relay_last_run_id": "04e746c1-fa08-8330-a353-d1eb9f946b7f"
+    "ordinary_last_run_id": "9fff515f-8c74-832d-ba1b-74899a0588c6",
+    "work_hour55_last_run_id": "3ffd59e0-7538-8323-ad50-31117a6507dd",
+    "relay_last_run_id": "509e541b-c5dc-8326-8a83-76ff1f5539a5"
   },
   "lease": {
-    "holder": "chatgpt:ordinary:2dd99c41-0eaa-4838-9b54-230c5ed1f65d",
-    "acquired_at": "2026-11-09T01:07:32.755Z",
-    "released_at": "2026-11-09T01:09:50.140Z",
-    "release_with_receipt_atomic": true
+    "holder": "chatgpt:ordinary:99db272b-0278-4323-a297-319238e11cc3",
+    "acquired_at": "2026-11-09T02:10:11.113Z",
+    "expires_at": "2026-11-09T02:22:11.113Z",
+    "release_with_receipt_atomic": false
   },
+  "checked_at": "2026-11-09T02:11:15.126Z",
+  "completed_at": null,
+  "next_ready_candidate": "S62-SEED20-P1-R2-20261108",
   "retryable": false
 }
