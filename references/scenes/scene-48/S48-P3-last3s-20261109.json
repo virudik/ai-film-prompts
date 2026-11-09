@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "slot": "@Video1",
+  "kind": "self_trim_of_existing_original",
+  "not_a_generation": true,
+  "not_film_accepted": true,
+  "source_item_id": "S48-SEED20-P3",
+  "source_task_id": "94d2ef4fbb7a42a3bee7c112dbc232cc",
+  "full_original": {
+    "sha256": "7c37b29bf437f8be7759b87d887b6ba8a63401a0fe7e0ef2bb5233545c5ec8e5",
+    "rehashed_here": false,
+    "video_frames": 361
+  },
+  "trim": {
+    "filename": "S48-P3-last3s.mp4",
+    "path": "references/scenes/scene-48/S48-P3-last3s.mp4",
+    "sha256": "76739a1bba4ae3d7fec94319e18778362659327eb56967c3976b92df8d066919",
+    "bytes": 2267408,
+    "drive_file_id": "1Y3RztZo-eFpNsTWHo_UldB16cvFrMzAE",
+    "final_frame_drive_file_id": "1RC6VY0Oj1MG0Ay_JE2xkyRAKFqWzdbpQ",
+    "codec": {
+      "video": "h264",
+      "audio": "aac",
+      "width": 1280,
+      "height": 720,
+      "fps": 24,
+      "frames": 72,
+      "duration_seconds": 3.0
+    },
+    "source_frames_inclusive": [
+      289,
+      360
+    ]
+  },
+  "independent_check": {
+    "method": "Hashed the supplied file and read it with ffprobe. The full original was not re-hashed here.",
+    "sha_match": true,
+    "frames": 72,
+    "fps": "24/1",
+    "audio": "aac"
+  },
+  "qc_note": "The end shows the city far away, with needle spires and no gate. Owner t417u said to continue without looking back at that mismatch. Not blocking.",
+  "qc_blocking": false
+}

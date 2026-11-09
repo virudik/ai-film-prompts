@@ -2030,7 +2030,12 @@
         "submission_intent_id": "8bf31679-1a49-4a68-b478-b0c0bc3dd7c4",
         "archive_file": "reports/topview-queue-2026-10-16/S48-SEED20-P3-20261109T095500Z.json",
         "archive_sha256": "26cd0974079dc8a054620c9df9604cd52df3584d18587ee5ba66b1627032e9e6"
-      }
+      },
+      "topview_status": "success",
+      "completed_at": "2026-11-09T10:02:03Z",
+      "result_original_sha256": "7c37b29bf437f8be7759b87d887b6ba8a63401a0fe7e0ef2bb5233545c5ec8e5",
+      "qc_note": "The end shows the city far away, with needle spires and no gate. Owner t417u said to continue without looking back at that mismatch. Not blocking.",
+      "qc_blocking": false
     },
     {
       "id": "S48-SEED20-P4",
@@ -2040,7 +2045,7 @@
       "canonical_prompt_sha256": "e855853ec92418a02d758cfe2f4cb0b143893128e5d82a385ae6b89f3d5ede57",
       "normalized_prompt_sha256": "af15b424adde6807c2e49506f840f565735aa70b6c5ada1d0eba6cfae2c61e3d",
       "priority": 0.43,
-      "state": "blocked_inputs",
+      "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -2060,11 +2065,25 @@
         {
           "slot": "@Video1",
           "required": true,
+          "input_status": "available",
           "canonical_role": "previous_part_end",
-          "input_status": "required_not_available",
           "source_item_id": "S48-SEED20-P3",
-          "planned_path": "references/scenes/scene-48/S48-P3-last3s.mp4",
-          "source_requirement": "Actual last 3 seconds of 48.3 (close on grinning Serega racing at the gate). Archive, trim and verify before launch."
+          "source_task_id": "94d2ef4fbb7a42a3bee7c112dbc232cc",
+          "filename": "S48-P3-last3s.mp4",
+          "path": "references/scenes/scene-48/S48-P3-last3s.mp4",
+          "sha256": "76739a1bba4ae3d7fec94319e18778362659327eb56967c3976b92df8d066919",
+          "bytes": 2267408,
+          "duration_seconds": 3,
+          "width": 1280,
+          "height": 720,
+          "fps": 24,
+          "frames": 72,
+          "source_start_frame_zero_based": 289,
+          "source_end_frame_inclusive": 360,
+          "drive_file_id": "1Y3RztZo-eFpNsTWHo_UldB16cvFrMzAE",
+          "provenance_path": "references/scenes/scene-48/S48-P3-last3s-20261109.json",
+          "qc_status": "noted_not_blocking",
+          "qc_note": "The end shows the city far away, with needle spires and no gate. Owner t417u said to continue without looking back at that mismatch. Not blocking."
         },
         {
           "slot": "@Image1",
@@ -2100,8 +2119,8 @@
       "task_id": null,
       "claim": null,
       "authorization": "30.10.2026: владелец заказал 48.4 «Спуск у ворот». Один запуск по согласованной очереди, Unlimited 0.",
-      "blocker": "Await the actual last 3 seconds of 48.3 for @Video1. All four image references are available.",
-      "launch_readiness": "blocked_continuity",
+      "blocker": null,
+      "launch_readiness": "authorized_inputs_available",
       "created_at": "2026-10-30T20:09:48Z"
     },
     {
@@ -3387,7 +3406,7 @@
       "prompt_id": "S60-SEED20-P2",
       "canonical_block_label": "60 · Seedance 2.0 часть 2",
       "priority": 0.61,
-      "state": "submitted",
+      "state": "completed",
       "launch_readiness": "authorized_inputs_available",
       "model": "Seedance 2.0",
       "selected_model": "Seedance 2.0",
@@ -3494,7 +3513,11 @@
         "submission_intent_id": "cc3e35ce-e080-4c27-93c2-33875316018b",
         "archive_file": "reports/topview-queue-2026-10-16/S60-SEED20-P2-20261109T091825Z.json",
         "archive_sha256": "3da6d160fdaceea0b1b8fd760d36acc1e9b2e16d62680d611a963c85f6e3cc0e"
-      }
+      },
+      "topview_status": "success",
+      "completed_at": "2026-11-09T10:00:45Z",
+      "story_parts_complete": true,
+      "story_parts_note": "No further canon part. Technical success is not film acceptance."
     },
     {
       "id": "S61-SEED20-P1",
@@ -3575,7 +3598,7 @@
       "prompt_id": "S61-SEED20-P2",
       "canonical_block_label": "61 · Seedance 2.0 часть 2",
       "priority": 0.71,
-      "state": "submitted",
+      "state": "completed",
       "launch_readiness": "authorized_inputs_available",
       "model": "Seedance 2.0",
       "selected_model": "Seedance 2.0",
@@ -3672,7 +3695,11 @@
         "submission_intent_id": "bed8011a-e0f3-43ca-97a6-1e3e90191da2",
         "archive_file": "reports/topview-queue-2026-10-16/S61-SEED20-P2-20261109T092756Z.json",
         "archive_sha256": "29d4059d3bcec524ff1a6a098a2d99e69039303bcce5f6e1c90e47a18f6ca5e1"
-      }
+      },
+      "topview_status": "success",
+      "completed_at": "2026-11-09T10:02:23Z",
+      "story_parts_complete": true,
+      "story_parts_note": "No further canon part. Technical success is not film acceptance."
     },
     {
       "id": "S62-SEED20-P1",
@@ -4622,7 +4649,12 @@
         "submission_intent_id": "46084ab9-f237-4970-b8da-93e251c4fc0e",
         "archive_file": "reports/topview-queue-2026-10-16/S52-R2-SEED20-P3-20261109T094527Z.json",
         "archive_sha256": "98a54890a1532de19858f5eb66a92daa29284a97ee4ca68492f87403f04a9f22"
-      }
+      },
+      "topview_status": "success",
+      "completed_at": "2026-11-09T10:03:46Z",
+      "result_original_sha256": "ef1ec2e00ecf737e9f6d0d4819054a13a4c1872ee2a743f58c2fb23124f6cf17",
+      "qc_note": "Rear views show a silver craft with 3 engines, not the canonical dark-graphite craft with 4 engines, and a blue ring portal appears before hyperspace. P4 Image2 and Image4 restate the correct design. Not blocking.",
+      "qc_blocking": false
     },
     {
       "id": "S52-R2-SEED20-P4",
@@ -4632,7 +4664,7 @@
       "canonical_prompt_sha256": "7e5090cb813e7674685edded32fe0943dd0edbb7ba1e7b5699545438381c5eba",
       "normalized_prompt_sha256": "58024750d0b0b87fdfd6fda8e5026ecd9a6f8ead56efaa1dbb569f50ea0b126a",
       "priority": 0.011,
-      "state": "blocked_inputs",
+      "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "model_id": "seedance-2.0-style",
       "duration_seconds": 15,
@@ -4647,10 +4679,25 @@
         {
           "slot": "@Video1",
           "required": true,
-          "input_status": "pending_actual_result",
+          "input_status": "available",
           "canonical_role": "previous_new_part_end",
           "source_item_id": "S52-R2-SEED20-P3",
-          "planned_path": "references/scenes/scene-52/S52-R2-P3-last3s.mp4"
+          "source_task_id": "7f3aba2b4e1b42b69b9871c5b8e4c08b",
+          "filename": "S52-R2-P3-last3s.mp4",
+          "path": "references/scenes/scene-52/S52-R2-P3-last3s.mp4",
+          "sha256": "a43b42a6211ab212d9d21ef09b465a4e4887fa81a9b9ed117a3adb9cd9b8a424",
+          "bytes": 2984081,
+          "duration_seconds": 3,
+          "width": 1280,
+          "height": 720,
+          "fps": 24,
+          "frames": 72,
+          "source_start_frame_zero_based": 289,
+          "source_end_frame_inclusive": 360,
+          "drive_file_id": "1KeT1wne9TN7NXSCi1AJpL8e15bzW_hNH",
+          "provenance_path": "references/scenes/scene-52/S52-R2-P3-last3s-20261109.json",
+          "qc_status": "noted_not_blocking",
+          "qc_note": "Rear views show a silver craft with 3 engines, not the canonical dark-graphite craft with 4 engines, and a blue ring portal appears before hyperspace. P4 Image2 and Image4 restate the correct design. Not blocking."
         },
         {
           "slot": "@Image1",
@@ -4700,8 +4747,8 @@
       ],
       "authorization": "Owner27Oct approved seven separate scene52 parts, all action references and asked this chat to finish prompts/site/queue; replaces held old52 continuation. Existing free-launch authorization for selected52 retained. One selected Unlimited0 render per new part; no paid path, duplicate alternative or automatic retry.",
       "owner_launch_authorized_at": "2026-10-27T11:25:33.064Z",
-      "launch_readiness": "blocked_continuity",
-      "blocker": "Await actual S52-R2-SEED20-P3 success, archive its original, prepare true end and pass full continuity QC before launch.",
+      "launch_readiness": "authorized_inputs_available",
+      "blocker": null,
       "input_qc_rule": "Verify exact personal craft identity/scale, face/robe where visible, closed hatch in motion, empty roof, physical departure/landing, motion axis and lighting; no synthetic replacement or propagation of a wrong craft. Success alone does not pass QC.",
       "source_revision": "scene52-seven-parts-2026-10-27",
       "created_at": "2026-10-27T11:25:33.064Z",

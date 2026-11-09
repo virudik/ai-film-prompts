@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "slot": "@Video1",
+  "kind": "self_trim_of_existing_original",
+  "not_a_generation": true,
+  "not_film_accepted": true,
+  "source_item_id": "S52-R2-SEED20-P3",
+  "source_task_id": "7f3aba2b4e1b42b69b9871c5b8e4c08b",
+  "full_original": {
+    "sha256": "ef1ec2e00ecf737e9f6d0d4819054a13a4c1872ee2a743f58c2fb23124f6cf17",
+    "rehashed_here": false,
+    "video_frames": 361
+  },
+  "trim": {
+    "filename": "S52-R2-P3-last3s.mp4",
+    "path": "references/scenes/scene-52/S52-R2-P3-last3s.mp4",
+    "sha256": "a43b42a6211ab212d9d21ef09b465a4e4887fa81a9b9ed117a3adb9cd9b8a424",
+    "bytes": 2984081,
+    "drive_file_id": "1KeT1wne9TN7NXSCi1AJpL8e15bzW_hNH",
+    "final_frame_drive_file_id": "1M10cGrRvk3DCGpO6a5V1CoUzkZuTNaWs",
+    "codec": {
+      "video": "h264",
+      "audio": "aac",
+      "width": 1280,
+      "height": 720,
+      "fps": 24,
+      "frames": 72,
+      "duration_seconds": 3.0
+    },
+    "source_frames_inclusive": [
+      289,
+      360
+    ]
+  },
+  "independent_check": {
+    "method": "Hashed the supplied file and read it with ffprobe. The full original was not re-hashed here.",
+    "sha_match": true,
+    "frames": 72,
+    "fps": "24/1",
+    "audio": "aac"
+  },
+  "qc_note": "Rear views show a silver craft with 3 engines, not the canonical dark-graphite craft with 4 engines, and a blue ring portal appears before hyperspace. P4 Image2 and Image4 restate the correct design. Not blocking.",
+  "qc_blocking": false
+}

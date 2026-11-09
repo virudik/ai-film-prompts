@@ -762,6 +762,38 @@
       "final_status": "success",
       "finished_at": "2026-11-09T10:01:38Z",
       "part": "C"
+    },
+    {
+      "task_id": "7f3aba2b4e1b42b69b9871c5b8e4c08b",
+      "scene_id": 52,
+      "final_status": "success",
+      "finished_at": "2026-11-09T10:03:46Z",
+      "part": "P3",
+      "source": "readonly topview_get_board_task"
+    },
+    {
+      "task_id": "94d2ef4fbb7a42a3bee7c112dbc232cc",
+      "scene_id": 48,
+      "final_status": "success",
+      "finished_at": "2026-11-09T10:02:03Z",
+      "part": "P3",
+      "source": "readonly topview_get_board_task"
+    },
+    {
+      "task_id": "a4a17134107445db8f328c0a3801d02e",
+      "scene_id": 60,
+      "final_status": "success",
+      "finished_at": "2026-11-09T10:00:45Z",
+      "part": "P2",
+      "source": "readonly topview_get_board_task"
+    },
+    {
+      "task_id": "271fba162d2c4a70a2a0412929b84027",
+      "scene_id": 61,
+      "final_status": "success",
+      "finished_at": "2026-11-09T10:02:23Z",
+      "part": "P2",
+      "source": "readonly topview_get_board_task"
     }
   ],
   "retention": {
