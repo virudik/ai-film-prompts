@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "raznoe",
-  "last_updated_at": "2026-11-08T16:20:45+00:00",
+  "last_updated_at": "2026-11-09T19:04:19Z",
   "active_work": [
     {
       "work_id": "RAZNOE-SCENE3-RESOURCE",
@@ -180,12 +180,13 @@
       "work_id": "RAZNOE-RESOURCE-HONOR-SASHA-20261106",
       "title": "Доработка RESOURCE/HONOR, референсы Magic9 Pro Max и руководство Саше",
       "status": "awaiting_editorial_review",
-      "updated_at": "2026-11-08T16:20:45+00:00",
+      "updated_at": "2026-11-09T19:04:19Z",
       "owner_quote": "Сцену с Бутылками и хонором доведи до совершенства. Дорисуй где нужно референсные изображения. Для хонора по их последней модели телефона. На сайте предупреждение висит. На диске в папку Саша скинь инструкции по ведению промтов, сцен и работе видео моделями. Напиши понятными словами для Саши файлик как этим всем пользоваться, как запускать видео, как самостоятельно писать сцены, промты, как делать картинки и как видео для его бутылок переработки отходов космическими спутниками.",
       "completed": [
         "Подтверждены поручение, последняя модель телефона, папка Саша и фактическое предупреждение сайта.",
         "2026-11-06T18:07:30.095Z: Four RESOURCE press/engineering images created total (3 GitHub, fourth Library), nine v3 draft prompts in improvement-v3-plan.json (commit 758abe9); HONOR 36 audio prompts corrected (240f6a7), 15 filmwide voice lines mapped (8b80b26), official product source links saved (60ffe5b). No video/paid credits.",
-        "2026-11-06T19:15:51.052Z: RESOURCE 4/4 PNG in GitHub, 9 v3 prompt/request pairs and active cut, master site published, 19×114 unchanged; HTML spacing fixed, workflows pending readback."
+        "2026-11-06T19:15:51.052Z: RESOURCE 4/4 PNG in GitHub, 9 v3 prompt/request pairs and active cut, master site published, 19×114 unchanged; HTML spacing fixed, workflows pending readback.",
+        "2026-11-09T19:04:19Z: H-BACK/H-FRONT/H-34 официальные исходники повторно скачаны; 3/3 точных SHA совпали с приватными Drive-копиями. Это техническая проверка источников, не продуктовые PNG/права/приёмка. Доказательства: official-product-source-links.json и reports/resource-honor-sasha-2026-11-06.json; run 42679705455."
       ],
       "next_action": "Продолжить с пригодного H-BACK по существующим приватным исходникам и исправленному заданию, проверить геометрию и сохранить до следующего кадра. Затем оставшиеся продуктовые роли; полный motion/audio/continuity QC RESOURCE. Не повторять mood PNG, тексты и учебные файлы Саше; не считать исходник приёмкой.",
       "canonical_refs": [
@@ -221,6 +222,16 @@
           "Просмотреть существующие RESOURCE-попытки полностью: движение механики, звук, геометрия и монтажные стыки. Не считать статичный PNG доказательством качества видео.",
           "Подтвердить настоящий город и участие владельца, согласовать конкретное безопасное испытание; подать согласованную заявку, после отбора и получения устройства снять реальный ролик по правилам. Личные документы не собирать в чате и не публиковать в GitHub."
         ]
+      },
+      "latest_update": {
+        "checked_at": "2026-11-09T19:04:19Z",
+        "result": "3/3 official source image byte hashes match private Drive copies; accepted generated product PNG remains 0; RESOURCE motion/audio QC remains pending.",
+        "evidence": [
+          "projects/raznoe/references/scenes/scene-4/official-product-source-links.json",
+          "projects/raznoe/reports/resource-honor-sasha-2026-11-06.json",
+          "projects/raznoe/reports/current-work-checkpoint.md"
+        ],
+        "next_action": "Create one H-BACK reference with exact product geometry using the built-in ChatGPT image generator; reject generic or inaccurate phone. Then remaining product views. Do not recreate existing prompts, mood PNGs, RESOURCE refs or nine v3."
       }
     },
     {
