@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "item_id": "S52-R2-SEED20-P7",
+  "slot": "@Video1",
+  "kind": "self_trim_of_existing_original",
+  "not_a_generation": true,
+  "not_film_accepted": true,
+  "source_item_id": "S52-R2-SEED20-P6",
+  "source_task_id": "4c35bb617de143b39723924075b31c3d",
+  "full_original": {
+    "sha256": "b7830ca15d777d1900cd026bdd82421379ecfc51f726f999f180d0ced05d97a0",
+    "rehashed_here": false,
+    "topview_status": "success",
+    "creditsCost": 0,
+    "completed_at": "2026-11-09T12:16:08Z",
+    "completed_at_local": "15:16 Europe/Moscow"
+  },
+  "trim": {
+    "filename": "S52-R2-P6-last3s.mp4",
+    "path": "references/scenes/scene-52/S52-R2-P6-last3s.mp4",
+    "sha256": "315e96d1696ad707518b330adccec0429963c87bfc7a372a09083d7df71f4549",
+    "bytes": 2271654,
+    "drive_file_id": "1o-wCLZjH4hwWz-bD41Yxx-WuWvk3vRqe",
+    "drive_folder": "Scene Reference Packs",
+    "codec": {
+      "video": "h264",
+      "audio": "aac",
+      "width": 1280,
+      "height": 720,
+      "fps": 24,
+      "frames": 72,
+      "duration_seconds": 3.0,
+      "audio_bit_rate_measured": 161160,
+      "audio_sample_rate": 32000
+    },
+    "encode_recipe": "CRF16+AAC192k",
+    "source_frames_inclusive": [
+      289,
+      360
+    ]
+  },
+  "final_frame": {
+    "sha256": "98410f74e146a2ccbbf406d33b55f27973485125fbc69fc11a978b6dd2de8982",
+    "drive_file_id": "1q5CsRKXQ0Ly4F-CbSIcjv38biJXasjKx",
+    "role": "qc_only",
+    "in_repo": false,
+    "note": "QC still only. The PNG bytes were not attached; the SHA and Drive id are recorded and the frame is not a launch input."
+  },
+  "independent_check": {
+    "method": "Hashed the supplied trim and read it with ffprobe: 72 frames, 3.0 s, 1280x720, h264 and aac. The full original and the QC PNG were not re-hashed here.",
+    "trim_sha_match": true,
+    "frame_file_attached": false
+  },
+  "qc_note": "Continuity QC pass: Serega is seen from behind walking toward the first street, and that matches the P7 start.",
+  "qc_blocking": false,
+  "owner_orders": [
+    "t413u-20261109"
+  ]
+}

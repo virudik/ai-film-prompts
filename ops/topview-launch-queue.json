@@ -3315,7 +3315,15 @@
         "submission_intent_id": "712bc4e0-e4df-4080-8119-1c9607179fd4",
         "archive_file": "reports/topview-queue-2026-10-16/S59-SEED20-P4-20261109T120800Z.json",
         "archive_sha256": "828b8fd6231fea1ec473b564a0d3b47a24d8d97de623559b76d63ae6690a7989"
-      }
+      },
+      "topview_status": "success",
+      "completed_at": "2026-11-09T12:16:42Z",
+      "creditsCost": 0,
+      "result_last3s_sha256": "bd4075e14b0502998ee71929796d917d9bd8562b3fd0e6ae683a48acdc155817",
+      "result_last3s_drive_file_id": "1bS3JOQ6Tbps6JFg8Xp_dp0hT-gTAoyJ5",
+      "result_last3s_record": "references/scenes/scene-59/S59-SEED20-P4-last3s-20261109.json",
+      "no_successor": true,
+      "successor_note": "No scene 59 part 5 exists. Last 3 seconds are a record only."
     },
     {
       "id": "S60-SEED20-P1",
@@ -5012,7 +5020,13 @@
         "submission_intent_id": "8651753e-168b-4f74-903a-020bfff53ddc",
         "archive_file": "reports/topview-queue-2026-10-16/S52-R2-SEED20-P6-20261109T120732Z.json",
         "archive_sha256": "875bbabb885ec4eaed9822d2dca8d35acd2b2535e34f3116d5dba60e5d09af94"
-      }
+      },
+      "topview_status": "success",
+      "completed_at": "2026-11-09T12:16:08Z",
+      "result_original_sha256": "b7830ca15d777d1900cd026bdd82421379ecfc51f726f999f180d0ced05d97a0",
+      "creditsCost": 0,
+      "qc_note": "Continuity QC pass: Serega is seen from behind walking toward the first street, and that matches the P7 start.",
+      "qc_blocking": false
     },
     {
       "id": "S52-R2-SEED20-P7",
@@ -5022,7 +5036,7 @@
       "canonical_prompt_sha256": "90b6d4ce8d404d8e929c0d0e92f29bbff20d654eed07c89a1f8e6b5734fcf46f",
       "normalized_prompt_sha256": "86672556cd74fb9582bee42fad4b817785d6a97142557adf3687b0f755f6b296",
       "priority": 0.014,
-      "state": "blocked_inputs",
+      "state": "waiting_for_slot",
       "model": "Wan 3.0",
       "model_id": "qwen-wan3.0-video",
       "duration_seconds": 30,
@@ -5037,10 +5051,29 @@
         {
           "slot": "@Video1",
           "required": true,
-          "input_status": "pending_actual_result",
+          "input_status": "available",
           "canonical_role": "previous_new_part_end",
           "source_item_id": "S52-R2-SEED20-P6",
-          "planned_path": "references/scenes/scene-52/S52-R2-P6-last3s.mp4"
+          "planned_path": "references/scenes/scene-52/S52-R2-P6-last3s.mp4",
+          "source_task_id": "4c35bb617de143b39723924075b31c3d",
+          "filename": "S52-R2-P6-last3s.mp4",
+          "path": "references/scenes/scene-52/S52-R2-P6-last3s.mp4",
+          "sha256": "315e96d1696ad707518b330adccec0429963c87bfc7a372a09083d7df71f4549",
+          "bytes": 2271654,
+          "duration_seconds": 3,
+          "width": 1280,
+          "height": 720,
+          "fps": 24,
+          "frames": 72,
+          "source_start_frame_zero_based": 289,
+          "source_end_frame_inclusive": 360,
+          "drive_file_id": "1o-wCLZjH4hwWz-bD41Yxx-WuWvk3vRqe",
+          "final_frame_sha256": "98410f74e146a2ccbbf406d33b55f27973485125fbc69fc11a978b6dd2de8982",
+          "final_frame_drive_file_id": "1q5CsRKXQ0Ly4F-CbSIcjv38biJXasjKx",
+          "final_frame_role": "qc_only",
+          "provenance_path": "references/scenes/scene-52/S52-R2-P6-last3s-20261109.json",
+          "qc_status": "pass",
+          "qc_note": "Continuity QC pass: Serega is seen from behind walking toward the first street, and that matches the P7 start."
         },
         {
           "slot": "@Image1",
@@ -5098,8 +5131,8 @@
       ],
       "authorization": "Owner27Oct approved seven separate scene52 parts, all action references and asked this chat to finish prompts/site/queue; replaces held old52 continuation. Existing free-launch authorization for selected52 retained. One selected Unlimited0 render per new part; no paid path, duplicate alternative or automatic retry.",
       "owner_launch_authorized_at": "2026-10-27T11:25:33.064Z",
-      "launch_readiness": "blocked_continuity",
-      "blocker": "Await actual S52-R2-SEED20-P6 success, archive its original, cut its true last 3 s to references/scenes/scene-52/S52-R2-P6-last3s.mp4 and pass continuity QC.",
+      "launch_readiness": "authorized_inputs_available",
+      "blocker": null,
       "input_qc_rule": "Verify exact personal craft identity/scale, face/robe where visible, closed hatch in motion, empty roof, physical departure/landing, motion axis and lighting; no synthetic replacement or propagation of a wrong craft. Success alone does not pass QC.",
       "source_revision": "scene52-seven-parts-2026-10-27",
       "created_at": "2026-10-27T11:25:33.064Z",
@@ -5357,7 +5390,18 @@
       "result_review_required": true,
       "result_review_policy": "Check exact identities, the scene's gag as written (master «Режиссёрский контроль»), dynamic camera; seamless start from the previous link's real last frame. Success is not acceptance.",
       "created_at": "2026-10-27T16:31:40Z",
-      "revision_note_20261101_owner": "Владелец 01.11: добавлена отдельная развёртка Стича (@Image7, references/scenes/scene-66/S66-Stitch-tatooine-sheet.png); prompt SHA пересчитаны, запуска не было."
+      "revision_note_20261101_owner": "Владелец 01.11: добавлена отдельная развёртка Стича (@Image7, references/scenes/scene-66/S66-Stitch-tatooine-sheet.png); prompt SHA пересчитаны, запуска не было.",
+      "editor_limit_flag": {
+        "recorded_at": "2026-11-09T12:29:00Z",
+        "canonical_prompt_sha256": "a0156bbb04c1fb933d5610c207683592d16ab49086b818aece6a7e36ac72b410",
+        "canonical_prompt_chars": 8096,
+        "editor_limit_chars": 7870,
+        "over_by": 226,
+        "prompt_changed": false,
+        "owner_decision": "pending",
+        "order": "t413u follow-up 2026-11-09",
+        "note": "Do not change the S66 Wan 3.0 prompt. It is 8096 characters, over the 7870 editor limit. The owner has not decided."
+      }
     },
     {
       "id": "S67-WAN30",

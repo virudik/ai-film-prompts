@@ -830,6 +830,24 @@
       "part": "P3",
       "creditsCost": 0,
       "source": "readonly topview_get_board_task"
+    },
+    {
+      "task_id": "4c35bb617de143b39723924075b31c3d",
+      "scene_id": 52,
+      "final_status": "success",
+      "finished_at": "2026-11-09T12:16:08Z",
+      "part": "P6",
+      "creditsCost": 0,
+      "source": "owner report t413u 2026-11-09 15:16 MSK; shadow completed_at"
+    },
+    {
+      "task_id": "ce934dd80c4e4493b3daffcf09d95dde",
+      "scene_id": 59,
+      "final_status": "success",
+      "finished_at": "2026-11-09T12:16:42Z",
+      "part": "P4",
+      "creditsCost": 0,
+      "source": "owner report t413u success; shadow completed_at; creditsCost from the recorded free Create"
     }
   ],
   "retention": {

@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "item_id": "S59-SEED20-P4",
+  "kind": "record_only",
+  "not_a_generation": true,
+  "not_film_accepted": true,
+  "no_successor": true,
+  "note": "No scene 59 part 5 exists. The last 3 seconds are recorded by SHA and Drive id only; the media file is not in the repository.",
+  "source_task_id": "ce934dd80c4e4493b3daffcf09d95dde",
+  "trim": {
+    "sha256": "bd4075e14b0502998ee71929796d917d9bd8562b3fd0e6ae683a48acdc155817",
+    "drive_file_id": "1bS3JOQ6Tbps6JFg8Xp_dp0hT-gTAoyJ5",
+    "in_repo": false
+  },
+  "owner_orders": [
+    "t413u-20261109"
+  ]
+}
