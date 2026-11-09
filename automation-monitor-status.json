@@ -180,12 +180,12 @@
       "result:4aaca9143ee14b7d81220223974e4569"
     ],
     "robot_rewake": {
-      "episode": "da39a3ee",
-      "count": 0,
-      "last_at": "2026-11-09T13:50:39Z",
-      "sequence": 43,
-      "first_at": "2026-11-09T13:50:39Z",
-      "last_event_id": "result:4aaca9143ee14b7d81220223974e4569",
+      "episode": "55249a4d",
+      "count": 1,
+      "last_at": "2026-11-09T14:10:46Z",
+      "sequence": 44,
+      "first_at": "2026-11-09T14:10:46Z",
+      "last_event_id": "slots:55249a4d:44",
       "silence_reported": "slots:d23cf217:2"
     }
   },
