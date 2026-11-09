@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
         with:
-          ref: dc3fa5abc2c9ae0aeca9c9f0ebe02e5e6446445a
+          ref: be63a0719dc78f4d9b24ca3dec1e429d28d22103
           persist-credentials: false
       - run: |
           python3 - <<'PY'
@@ -19,16 +19,17 @@ jobs:
           names=subprocess.check_output(['git','ls-files','-z']).decode().split('\0')
           media={'.png','.jpg','.jpeg','.webp','.gif','.mp4','.mov','.wav','.mp3','.m4a','.ogg','.webm'}
           excluded={'.ttf','.otf','.woff','.woff2','.key','.pem','.pfx','.p12'}
-          selected_media={'references/full/vitalik.jpg','references/full/serega.jpg','references/scenes/scene-71/S71-vitalik-on-throne.png'}
+          selected_media={'references/scenes/scene-66/S66-Alina-tatooine-sheet.png','references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png'}
           out=pathlib.Path('/tmp/parody-source');out.mkdir()
           records=[]
           with zipfile.ZipFile(out/'seregius-source.zip','w',zipfile.ZIP_DEFLATED) as z:
             for n in names:
               p=pathlib.Path(n)
               if not n or not p.is_file() or p.is_symlink() or p.suffix.lower() in excluded or p.name in {'.env','credentials.json','service-account.json','storage-state.json'}: continue
-              if p.suffix.lower() in media and n not in selected_media: continue
+              if p.suffix.lower() in media and n not in selected_media and not n.startswith('references/full/'): continue
               b=p.read_bytes();z.writestr(n,b);records.append({'path':n,'bytes':len(b),'sha256':hashlib.sha256(b).hexdigest()})
           (out/'manifest.json').write_text(json.dumps({'head':subprocess.check_output(['git','rev-parse','HEAD']).decode().strip(),'files':records},ensure_ascii=False,indent=2))
+          assert not subprocess.check_output(['git','status','--porcelain'],text=True).strip()
           PY
       - uses: actions/upload-artifact@v4
         with:
