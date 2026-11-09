@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "83a7371e903c69f3c9fa614d0475eefeb10a836548732e38f0ee7fbe9ccd5c59",
+  "source_queue_sha256": "4bb5b277bf8a608447b72dc106cb9e7db12971c629c98779b3081031f568d673",
   "source_task_map_sha256": "d4b356796b03e42d546a0900923ac6ff24ef152a1b61bb6c3e9ee8ecc76f88c1",
   "topview_checked_at": "2026-11-09T08:14:11Z",
   "items": [
@@ -152,9 +152,9 @@
       "id": "S59-SEED20-P2-R2-20261108",
       "scene_id": 59,
       "part_label": "Часть 2",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
+      "code": "missing_reference",
+      "ready": false,
+      "text": "@Video1: нужен референс или проверка его файла/SHA256",
       "queue_state": "waiting_for_slot"
     },
     {
@@ -348,5 +348,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-09T08:16:28.885550Z"
+  "checked_at": "2026-11-09T08:19:36.151496Z"
 }
