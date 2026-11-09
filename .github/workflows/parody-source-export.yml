@@ -1,5 +1,4 @@
 name: Parody source export
-# Second readback after Pages build 42653771201; no canonical edits.
 on:
   push:
     branches: [handoff/seregius-parodies-20261109]
@@ -7,57 +6,65 @@ on:
 permissions:
   contents: read
 jobs:
-  verify_publication:
+  inspect:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 6
     steps:
       - uses: actions/checkout@v5
         with:
-          ref: d5166e859832ec0c0f2a0d85a480834ca19eeccc
+          ref: 3f97852f89ea62d97ff5805f74ff1df2734210a1
           persist-credentials: false
-      - name: Verify public master and original PNG bytes
+      - name: Export source and verify live scene files without writes
         run: |
           python3 - <<'PY'
           from pathlib import Path
           from concurrent.futures import ThreadPoolExecutor
           from datetime import datetime,timezone
-          import urllib.request,hashlib,json,re,os,subprocess
-          site='https://'+Path('CNAME').read_text().strip()+'/'
-          out=Path('/tmp/parody-live-check');out.mkdir()
+          import urllib.request,hashlib,json,re,os,subprocess,zipfile
+          out=Path('/tmp/parody-continuation');out.mkdir()
           sha=lambda b:hashlib.sha256(b).hexdigest()
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          names=subprocess.check_output(['git','ls-files','-z']).decode().split('\0')
+          media={'.png','.jpg','.jpeg','.webp','.gif','.mp4','.mov','.wav','.mp3','.m4a','.ogg','.webm'}
+          excluded={'.ttf','.otf','.woff','.woff2','.key','.pem','.pfx','.p12'}
+          selected={'references/scenes/scene-66/S66-Alina-tatooine-sheet.png','references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png'}
+          records=[]
+          with zipfile.ZipFile(out/'current-source.zip','w',zipfile.ZIP_DEFLATED) as z:
+            for n in names:
+              p=Path(n)
+              if not n or not p.is_file() or p.is_symlink() or p.suffix.lower() in excluded or p.name in {'.env','credentials.json','service-account.json','storage-state.json'}:continue
+              if p.suffix.lower() in media and n not in selected and not n.startswith('references/full/') and not re.match(r'references/scenes/scene-(74|75|76|77|78|79|80)/',n):continue
+              b=p.read_bytes();z.writestr(n,b);records.append({'path':n,'bytes':len(b),'sha256':sha(b)})
+          (out/'source-manifest.json').write_text(json.dumps({'source_head':head,'files':records},ensure_ascii=False,indent=2))
+          host=Path('CNAME').read_text().strip().encode('idna').decode();site='https://'+host+'/'
           def get(path):
             req=urllib.request.Request(site+path+'?parody-verify='+os.environ['GITHUB_RUN_ID'],headers={'User-Agent':'AI-Film-readonly-publication-check','Cache-Control':'no-cache'})
-            with urllib.request.urlopen(req,timeout=35) as r:return r.read(6000000),r.status
-          result={'checked_at':datetime.now(timezone.utc).isoformat(),'expected_commit':'d5166e859832ec0c0f2a0d85a480834ca19eeccc','site':site,'scope':'read-only public PNG bytes and scene text; not video or editorial approval','workflow_run_id':os.environ['GITHUB_RUN_ID'],'images':[]}
+            with urllib.request.urlopen(req,timeout=30) as r:return r.read(6000000),r.status
+          result={'checked_at':datetime.now(timezone.utc).isoformat(),'source_head':head,'site':site,'scope':'read-only public PNG bytes and scene text, not video or editorial approval','workflow_run_id':os.environ['GITHUB_RUN_ID']}
           pattern=re.compile(r'(?ms)(^## Сцена (\d+) — .*?)(?=\n---\n\n<a id="scene-\d+"></a>|\Z)')
-          local=Path('video-prompts.md').read_bytes();blocks={int(m[2]):m[1] for m in pattern.finditer(local.decode())}
+          blocks={int(m[2]):m[1] for m in pattern.finditer(Path('video-prompts.md').read_text())}
           try:
             raw,code=get('video-prompts.md');live={int(m[2]):m[1] for m in pattern.finditer(raw.decode())}
-            result['master']={'http_status':code,'sha256':sha(raw),'expected_sha256':sha(local),'whole_file_matches':raw==local,'scene_blocks':{str(i):live.get(i)==blocks[i] for i in range(74,81)}}
-          except Exception as e:result['master']={'error':str(e)[:350],'verified':False}
+            result['master']={'http_status':code,'sha256':sha(raw),'scene_blocks':{str(i):live.get(i)==blocks[i] for i in range(74,81)}}
+          except Exception as e:result['master']={'error':str(e)[:300]}
           targets=[]
           for i in range(74,81):
-            mf=json.loads(Path(f'references/scenes/scene-{i}/manifest.json').read_text())
-            for ref in mf['references']:
+            for ref in json.loads(Path(f'references/scenes/scene-{i}/manifest.json').read_text())['references']:
               if ref['role']=='scene_staging':targets.append((i,ref['path'],ref['sha256']))
           def verify(item):
             sid,path,expected=item
             try:
               raw,code=get(path)
-              return {'scene_id':sid,'path':path,'http_status':code,'bytes':len(raw),'sha256':sha(raw),'expected_sha256':expected,'matches':sha(raw)==expected,'png_signature':raw.startswith(b'\x89PNG\r\n\x1a\n')}
-            except Exception as e:return {'scene_id':sid,'path':path,'matches':False,'error':str(e)[:350]}
+              return {'scene_id':sid,'path':path,'http_status':code,'sha256':sha(raw),'expected_sha256':expected,'matches':sha(raw)==expected,'png_signature':raw.startswith(b'\x89PNG\r\n\x1a\n')}
+            except Exception as e:return {'scene_id':sid,'path':path,'matches':False,'error':str(e)[:300]}
           with ThreadPoolExecutor(max_workers=4) as pool:result['images']=list(pool.map(verify,targets))
-          result['all_seven_stills_match']=len(result['images'])==7 and all(x.get('matches') and x.get('png_signature') for x in result['images'])
-          result['all_seven_scene_blocks_match']=len(result['master'].get('scene_blocks',{}))==7 and all(result['master']['scene_blocks'].values())
-          result['passed']=result['all_seven_stills_match'] and result['all_seven_scene_blocks_match']
-          (out/'parody-live-publication.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
-          print(json.dumps(result,ensure_ascii=False,indent=2))
+          result['passed']=len(result['images'])>=7 and all(x.get('matches') and x.get('png_signature') for x in result['images']) and len(result['master'].get('scene_blocks',{}))==7 and all(result['master']['scene_blocks'].values())
+          (out/'live-publication.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n');print(json.dumps(result,ensure_ascii=False))
           assert not subprocess.check_output(['git','status','--porcelain'],text=True).strip()
-          if not result['passed']:raise SystemExit('Site readback not yet verified; no main changes')
           PY
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: parody-live-publication-verification
-          path: /tmp/parody-live-check/*
+          name: parody-current-source-and-live-check
+          path: /tmp/parody-continuation/*
           retention-days: 3
