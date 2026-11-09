@@ -3,105 +3,53 @@
   "project": "seregius",
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "9dd15b87-5b3a-4a9a-ae44-18bad7e4bced",
-  "run_id": "8350f0e5-d790-8326-a1b2-750b306928c1",
-  "runtime_run_id_source": "Automations.peek.last_run.id; scheduled_for=2026-11-09T05:00:00Z; started_at=2026-11-09T05:00:45.230973Z",
-  "source_head": "a8a6b729b8ec02cb7d467d1550f6ed62d295fe76",
+  "execution_instance_id": "d7f8d942-2f97-49b0-9838-fd70445c922b",
+  "run_id": "40f8fdff-f950-8331-a225-99c74f4acc90",
+  "runtime_run_id_source": "Automations.peek.last_run.id, scheduled_for=2026-11-09T06:00:00Z, started_at=2026-11-09T06:03:09.187784Z; current recorded_status=in_progress",
+  "source_head": "c7c440f51d33a40f24786ac562aa26095352ec47",
   "route_generation": 3,
-  "started_at": "2026-11-09T05:00:45.230973Z",
-  "receipt_started_at": "2026-11-09T05:11:19.646Z",
-  "phase": "complete",
-  "status": "completed",
-  "outcome": "blocked_browser_input",
+  "started_at": "2026-11-09T06:03:09.187784Z",
+  "receipt_started_at": "2026-11-09T06:11:53.641Z",
+  "phase": "started",
+  "status": "in_progress",
+  "outcome": null,
   "scan": {
-    "complete": true,
-    "scope": "14 Topview boards, all 18 video pages via read-only connector (13 non-target first pages, 10 My First Board pages including 4 empty boards)",
-    "boards": 14,
-    "pages": 18,
-    "video_tasks": 642,
-    "unique_video_tasks": 642,
-    "status_counts": {
-      "success": 613,
-      "fail": 26,
-      "init": 3
-    },
-    "checked_at": "2026-11-09T05:09:06.906Z"
+    "complete": false,
+    "boards": null,
+    "pages": null,
+    "video_tasks": null,
+    "checked_at": null
   },
   "slots": {
     "physical_capacity": 6,
-    "occupied": 3,
-    "free": 3,
-    "active_task_ids": [
-      "0b6dfa84e4524b438075f10f7205a846",
-      "2d8efbd16f5146f48cd7a9a1ffb99369",
-      "8a1982a55f794a049a62eaa91bf8827f"
-    ],
-    "active_unlimited_selected": true,
-    "active_model": "Seedance 2.0",
-    "active_resolution": 720,
-    "active_aspect_ratio": "16:9",
-    "verified_at": "2026-11-09T05:09:06.906Z"
+    "occupied": null,
+    "free": null
   },
-  "selected_item": "S48-SEED20-P2-R2-20261108",
+  "selected_item": null,
   "task_ids": [],
   "new_submissions": [],
-  "browser_transport": "not_used_existing_native_upload_blocker",
+  "browser_transport": "not_used",
   "tinyfish": {
     "runs": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0,
-    "wallet_spent_usd": 0
+    "confirmed_cost_usd": 0
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:9dd15b87-5b3a-4a9a-ae44-18bad7e4bced",
-    "acquired_at": "2026-11-09T05:10:29.466Z",
-    "expires_at": "2026-11-09T05:25:29.466Z",
-    "released_at": "2026-11-09T05:12:55.031Z",
-    "release_with_receipt_atomic": true
+    "holder": "chatgpt:ordinary:d7f8d942-2f97-49b0-9838-fd70445c922b",
+    "acquired_at": "2026-11-09T06:11:08.227Z",
+    "expires_at": "2026-11-09T06:26:08.227Z",
+    "released_at": null
   },
   "acceptance": {
     "scheduled_run_verified": true,
-    "topview_read_only_scan_complete": true,
+    "topview_read_only_scan_complete": false,
     "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
     "new_task_id_verified": false,
     "production_submission_verified": false
   },
-  "queue_reconciliation": {
-    "queue_readiness_sha256_match": true,
-    "task_map_sha256_match": true,
-    "submitted_ids_in_queue": 20,
-    "submitted_ids_found": 20,
-    "submitted_ids_missing": 0,
-    "archived_video_ids_found": 39,
-    "submission_unknown": [
-      "S49B"
-    ],
-    "other_claimed": [],
-    "next_ready_independent": "S62-SEED20-P1-R2-20261108",
-    "source_queue_blob_sha": "9ffea30f0c3b021d75e7e08e7fef90c563508406",
-    "source_task_map_blob_sha": "53c788ab739f3b32b2d667901f8909b61592a8a7",
-    "source_readiness_blob_sha": "2cfdf02ed5b3b7c41c672f21cf515a9e96de7f54"
-  },
-  "retryable": false,
-  "checked_at": "2026-11-09T05:12:55.031Z",
-  "completed_at": "2026-11-09T05:12:55.031Z",
-  "blocker": {
-    "code": "blocked_browser_input",
-    "item_id": "S48-SEED20-P2-R2-20261108",
-    "reason": "Native original image and real 3s source MP4 transfer to exact My First Board Omni-reference composer, and selected Unlimited0, are not verified in saved TinyFish browser. Same unresolved technical blocker since 2026-11-06; no new evidence justifying a metered repeat. No Create was attempted.",
-    "retryable": false
-  },
-  "owner_tasks": "checked_open_0",
-  "monitor": {
-    "last_robot_event_id": "slots:d1af9cd6:35",
-    "last_robot_observation_at": "2026-11-09T04:50:25Z",
-    "relay_last_run_status": "no_update",
-    "hourly55_last_run_status": "no_update",
-    "old_event_not_treated_as_fresh_capacity": true
-  },
-  "result": "Read-only scan 642 videos: 613 success/26 fail/3 init, 3 of 6 occupied, 3 free. Submitted IDs 20/20 found, S49B remains unknown. Highest priority independent story S48-P2-R2 has no claim; S62-P1-R2 follows. No TinyFish call or Create: exact native original-file transfer/Unlimited0 blocker still unresolved. No expenses or queue changes."
+  "checked_at": "2026-11-09T06:11:53.641Z"
 }
