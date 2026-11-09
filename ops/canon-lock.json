@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:0e31cd19-f79d-4df8-8f9e-28754a76adf7",
-  "task": "t413u standing S48-SEED20-P4 intent only",
-  "acquired_at": "2026-11-09T11:18:11Z",
-  "expires_at": null,
-  "released_at": "2026-11-09T11:18:11Z",
+  "state": "held",
+  "holder": "cursor:bc-b6c53856-e99b-58a2-a5e3-54a898cb355c",
+  "task": "Record the S52 and S48 part 4 receipts",
+  "acquired_at": "2026-11-09T11:21:08Z",
+  "expires_at": "2026-11-09T11:36:08Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
