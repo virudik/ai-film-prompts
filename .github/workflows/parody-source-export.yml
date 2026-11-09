@@ -1,4 +1,5 @@
 name: Parody source export
+# Second readback after Pages build 42653771201; no canonical edits.
 on:
   push:
     branches: [handoff/seregius-parodies-20261109]
@@ -14,26 +15,24 @@ jobs:
         with:
           ref: d5166e859832ec0c0f2a0d85a480834ca19eeccc
           persist-credentials: false
-      - name: Read actual public master and all seven original images without modifying main
+      - name: Verify public master and original PNG bytes
         run: |
           python3 - <<'PY'
           from pathlib import Path
           from concurrent.futures import ThreadPoolExecutor
           from datetime import datetime,timezone
           import urllib.request,hashlib,json,re,os,subprocess
-          now=datetime.now(timezone.utc).isoformat()
           site='https://'+Path('CNAME').read_text().strip()+'/'
           out=Path('/tmp/parody-live-check');out.mkdir()
           sha=lambda b:hashlib.sha256(b).hexdigest()
           def get(path):
             req=urllib.request.Request(site+path+'?parody-verify='+os.environ['GITHUB_RUN_ID'],headers={'User-Agent':'AI-Film-readonly-publication-check','Cache-Control':'no-cache'})
-            with urllib.request.urlopen(req,timeout=35) as r:
-              b=r.read(6000000);return b,r.status,r.geturl()
-          result={'checked_at':now,'expected_commit':'d5166e859832ec0c0f2a0d85a480834ca19eeccc','site':site,'scope':'read-only live master scene-block and exact PNG verification; not video playback or owner approval','workflow_run_id':os.environ['GITHUB_RUN_ID'],'images':[]}
+            with urllib.request.urlopen(req,timeout=35) as r:return r.read(6000000),r.status
+          result={'checked_at':datetime.now(timezone.utc).isoformat(),'expected_commit':'d5166e859832ec0c0f2a0d85a480834ca19eeccc','site':site,'scope':'read-only public PNG bytes and scene text; not video or editorial approval','workflow_run_id':os.environ['GITHUB_RUN_ID'],'images':[]}
           pattern=re.compile(r'(?ms)(^## Сцена (\d+) — .*?)(?=\n---\n\n<a id="scene-\d+"></a>|\Z)')
           local=Path('video-prompts.md').read_bytes();blocks={int(m[2]):m[1] for m in pattern.finditer(local.decode())}
           try:
-            raw,code,url=get('video-prompts.md');live={int(m[2]):m[1] for m in pattern.finditer(raw.decode())}
+            raw,code=get('video-prompts.md');live={int(m[2]):m[1] for m in pattern.finditer(raw.decode())}
             result['master']={'http_status':code,'sha256':sha(raw),'expected_sha256':sha(local),'whole_file_matches':raw==local,'scene_blocks':{str(i):live.get(i)==blocks[i] for i in range(74,81)}}
           except Exception as e:result['master']={'error':str(e)[:350],'verified':False}
           targets=[]
@@ -44,17 +43,17 @@ jobs:
           def verify(item):
             sid,path,expected=item
             try:
-              raw,code,url=get(path)
+              raw,code=get(path)
               return {'scene_id':sid,'path':path,'http_status':code,'bytes':len(raw),'sha256':sha(raw),'expected_sha256':expected,'matches':sha(raw)==expected,'png_signature':raw.startswith(b'\x89PNG\r\n\x1a\n')}
             except Exception as e:return {'scene_id':sid,'path':path,'matches':False,'error':str(e)[:350]}
-          with ThreadPoolExecutor(max_workers=4) as pool: result['images']=list(pool.map(verify,targets))
+          with ThreadPoolExecutor(max_workers=4) as pool:result['images']=list(pool.map(verify,targets))
           result['all_seven_stills_match']=len(result['images'])==7 and all(x.get('matches') and x.get('png_signature') for x in result['images'])
           result['all_seven_scene_blocks_match']=len(result['master'].get('scene_blocks',{}))==7 and all(result['master']['scene_blocks'].values())
           result['passed']=result['all_seven_stills_match'] and result['all_seven_scene_blocks_match']
           (out/'parody-live-publication.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
           print(json.dumps(result,ensure_ascii=False,indent=2))
           assert not subprocess.check_output(['git','status','--porcelain'],text=True).strip()
-          if not result['passed']:raise SystemExit('Public website has not passed exact scene and image readback; no change made')
+          if not result['passed']:raise SystemExit('Site readback not yet verified; no main changes')
           PY
       - uses: actions/upload-artifact@v4
         if: always()
