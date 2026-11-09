@@ -1,0 +1,51 @@
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action space-opera cinema, dynamic comedy
+
+REFERENCES / AUTHORITY ORDER:
+@Image5 — the exact final frame of scene 70 (S70-WAN30), a still, not a video. File: references/scenes/scene-70/S70-final-frame.png. It is the start reference: exact framing, camera, lighting, positions and gestures. Continue from it; no restart or replay.
+@Image1 — exact individual Serega model sheet; highest authority for his face, proportions and clothing. File: references/full/serega.jpg.
+@Image2 — cantina location only: sandstone arches, hanging lamp, round metal tables, alien patrons in background; ignore and exclude all three people at its table. File: references/scenes/scene-10/S10-Image1-cantina-source.png.
+@Image3 — group seating composition at one round table; each character's own design lock below wins over this helper. File: references/scenes/scene-65/S65-bar-table.png.
+@Image4 — composition and prop-design helper: four raised mugs and the same oil can. The image combines a toast and oiling; do NOT copy its gesture timing. This block's timeline controls when the oil can clinks and when IG-11 oils its joints; it never drinks. File: references/scenes/scene-65/S65-toast-closeup.png.
+Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA: exactly the man in the Serega model sheet: mature pale face with its real proportions, balding crown and sparse light-brown hair at the sides, faint short stubble, broad familiar build. Floor-length deep dark-plum robe, broad folded collar with hood down, wide outer sleeves, black undersleeves, broad waist sash and dark boots. One Serega only. No beautifying, age shift, added beard, costume change or face blending with extras.
+BOBA FETT: the famous Mandalorian bounty hunter in dented green-and-grey Mandalorian armour, T-visor helmet with rangefinder, jetpack, cape; helmet always on, face never shown.
+GAMORREAN: hulking green pig-faced Gamorrean guard with tusks, small eyes, leather and fur harness.
+TWI'LEK MERCENARY: male blue-skinned Twi'lek with two long head-tails, worn leather jacket and blaster holster, sly grin.
+IG-11: the tall thin silver-grey assassin droid with a cylindrical sensor-ring head, long arms, bandolier; mechanical precise moves; holds a small old-fashioned metal oil can.
+
+LOCATION / STORY LOCK — CRITICAL:
+One round metal table in the Tatooine cantina from @Image2 (location only). Seating stays fixed: Boba Fett, Gamorrean, Serega in the centre, Twi'lek, IG-11. Exactly five at the table; the bartender only brings mugs. Friendly drinking, no fight, no blasters drawn. Serega says NOTHING the whole scene. Boba Fett never removes the helmet. IG-11 never drinks: it joins the shared toast by clinking its oil can against the four mugs, then drips oil onto its own joints.
+
+START STATE:
+Continue the exact frame @Image5 (final frame of scene 70, not a video), preserving the arriving camera, fixed seating and every hand/prop position. Expected handoff, subordinate to that still frame: the five are already seated; the bartender is lowering the last mug in front of Serega, and IG-11 has begun drawing its small oil can from its bandolier. Finish these ongoing actions without repeating the approach or delivery.
+
+TIMELINE:
+[0:00–0:05] FINISH THE ARRIVAL — Continue the real camera move from scene 70 toward the same table, with no new establishing approach. The bartender finishes lowering the last mug already in motion; the Gamorrean takes his own mug, and IG-11 completes drawing its small oil can and sets it down instead of a mug.
+[0:05–0:10] SILENT TOAST — Medium on Serega: without a word he lifts his mug a couple of centimetres and gives one small nod. Cut on motion to the over-table view: four mugs and the oil can clink in the centre, foam splashes.
+[0:10–0:16] DRINKING GAGS — Quick motivated cuts: the Gamorrean downs the whole mug in one go, grunts and slams it so all mugs jump; Boba Fett lifts the lower edge of his helmet just enough to sip, face hidden; IG-11 tilts the oil can and drips oil onto its own elbow and neck joints, servos whirring contentedly, head ring blinking.
+[0:16–0:23] COMPANY — The Twi'lek laughs and slaps Serega on the shoulder; Serega, still silent, finishes his drink in one steady deadpan motion; the Gamorrean bangs the table again, roaring with laughter.
+[0:23–0:30] ANOTHER ROUND — Wider shot: Serega silently raises two fingers toward the bar without looking; Boba Fett gives one slow approving nod; the Gamorrean leans over and curiously sniffs IG-11's oil can, and IG-11 calmly slides it out of his reach. Cantina life continues behind.
+
+END STATE:
+Serega silently signals for another round; IG-11 keeps its oil can out of the Gamorrean's reach; the company is relaxed and amused.
+
+CAMERA / SPACE:
+Table geography fixed (Boba left of Serega, Twi'lek and IG-11 right). Continue scene 70's arriving lens and camera direction through the first three seconds, then use medium singles with readable faces, an over-table toast angle, a close insert of oil dripping on the droid joint and a wider closing shot. Cut on gestures: lift, clink, slam, drip, slap.
+
+PERFORMANCE:
+Serega: completely silent, calm, deadpan; the comedy comes from his composure amid wild company. Gamorrean loud and physical; Twi'lek laughing; Boba Fett minimal, deliberate; IG-11 precise, mechanical, quietly pleased with its oil. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Dim amber cantina, hanging lamp pool over the table, haze, warm reflections on metal mugs, armour and the droid's oily joints, cool rim light from the arches; photoreal skin, armour scratches and droid metal.
+
+AUDIO:
+Cantina chatter in alien languages, clinking mugs, Gamorrean grunts and laughter, droid servo whirr, oil-can squeak, table thumps. Serega says nothing. No intelligible speech, no narrator, no subtitles; no generated music.
+
+NEGATIVE PROMPT:
+Serega speaking, Boba Fett unmasked, IG-11 drinking from a glass or mug, extra people at the table, fight, blasters drawn, Han Solo, Chewbacca, Obi-Wan, people from the location source image, extra Seregas, face swap, robe change, cartoon, subtitles, logo, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.

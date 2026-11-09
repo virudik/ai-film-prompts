@@ -5235,8 +5235,8 @@
       "scene_id": 65,
       "prompt_id": "S65-WAN30",
       "canonical_block_label": "65",
-      "canonical_prompt_sha256": "53bc2f2128e825c69598afa2cef0b058b377b016c3e104c527a10f752f70faa3",
-      "normalized_prompt_sha256": "426a6c84be028de0cae510b887066a55a0a0f9000bb580dc1bd912c8c760b6b8",
+      "canonical_prompt_sha256": "64dba24c1a3a5ac5dda6452cdc41ffbddaf49a1761326d3a5e5d8e7e53c02dbc",
+      "normalized_prompt_sha256": "be758617a780fe60c76d3aba4ea0e03bc5e64057fedae5ad1471af11935c2eb6",
       "priority": 0.02,
       "state": "blocked_inputs",
       "launch_readiness": "blocked_continuity",
@@ -5255,14 +5255,6 @@
         "S70-WAN30"
       ],
       "references": [
-        {
-          "slot": "@Video1",
-          "required": true,
-          "input_status": "pending_actual_result",
-          "canonical_role": "previous_chain_link_end",
-          "source_item_id": "S70-WAN30",
-          "planned_path": "references/scenes/scene-70/S70-last3s.mp4"
-        },
         {
           "slot": "@Image1",
           "path": "references/full/serega.jpg",
@@ -5294,11 +5286,21 @@
           "required": true,
           "input_status": "available",
           "canonical_role": "Молчаливый тост и маслёнка IG-11"
+        },
+        {
+          "slot": "@Image5",
+          "required": true,
+          "input_status": "pending_actual_result",
+          "canonical_role": "exact final frame of S70-WAN30; the S65 start frame, not a video",
+          "source_item_id": "S70-WAN30",
+          "planned_path": "references/scenes/scene-70/S70-final-frame.png",
+          "ui_upload_order": "Image5 last, after Image1..Image4",
+          "replaces": "@Video1 last 3 seconds"
         }
       ],
       "task_id": null,
       "claim": null,
-      "blocker": "Await actual S70-WAN30 result, archive original, cut true last3s and pass continuity QC; images cannot replace the video.",
+      "blocker": "Await actual S70-WAN30 success and its exact final-frame PNG at references/scenes/scene-70/S70-final-frame.png. Do not use a last-3s video. Pass continuity QC before launch.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
       "authorization": "Owner27Oct2026: 64–69 queued after63, before49–51/28; chain52P7→66→67→68→69 in order. One free Unlimited render; no paid path or retry.",
@@ -5306,7 +5308,15 @@
       "result_review_required": true,
       "result_review_policy": "Check exact identities, the scene's gag as written (master «Режиссёрский контроль»), dynamic camera. Success is not acceptance.",
       "created_at": "2026-10-27T16:31:40Z",
-      "wan_link_rule_t438u": "t438u: when this item is ready, replace @Video1 with the previous part's exact final-frame PNG as the last image slot and adapt the prompt the same way. Scene 66 must stay ≤7870 characters. Prompt not changed yet."
+      "wan_link_rule_t438u": "t438u: when this item is ready, replace @Video1 with the previous part's exact final-frame PNG as the last image slot and adapt the prompt the same way. Scene 66 must stay ≤7870 characters. Prompt not changed yet.",
+      "owner_authorization_t438u_s65": {
+        "rule": "t438u",
+        "prepared_at": "2026-11-09T14:52:27Z",
+        "canonical_prompt_sha256": "64dba24c1a3a5ac5dda6452cdc41ffbddaf49a1761326d3a5e5d8e7e53c02dbc",
+        "chars": 6687,
+        "editor_limit_chars": 7870,
+        "note": "Start reference is the final frame of S70 as the last image. Stays blocked until S70 succeeds."
+      }
     },
     {
       "id": "S66-WAN30",
@@ -5710,7 +5720,16 @@
         "submission_intent_id": "82bb0842-f0ea-4aeb-ae14-c60be1aad1eb",
         "archive_file": "reports/topview-queue-2026-10-16/S68-WAN30-20261109T142612Z.json",
         "archive_sha256": "f1634efbd80b6c33a02508d7a27c1f37784e054b2d5090291ec5300773e0df44"
-      }
+      },
+      "topview_status": "success",
+      "result_original_sha256": "dd9d419b3e0219e801d6aadecaa18db9b6f9ee7937131826f07d7459310a3d87",
+      "creditsCost": 0,
+      "result_duration_seconds": 30.02,
+      "result_width": 1280,
+      "result_height": 720,
+      "completed_at": "2026-11-09T14:44:59Z",
+      "qc_note": "Masha R walking toward the camera holding the pale-blue melon, crew members at the frame edges, street with an arch.",
+      "qc_blocking": false
     },
     {
       "id": "S69-WAN30",
@@ -5720,8 +5739,8 @@
       "canonical_prompt_sha256": "82619287b90adcf033ce55625c16b6ce7a14b874332f25c81095c85381316c2e",
       "normalized_prompt_sha256": "2618d9a1e6889114b991cbcaacaf30c0df6d3826132771ec510ade664f1deecf",
       "priority": 0.018,
-      "state": "blocked_inputs",
-      "launch_readiness": "blocked_continuity",
+      "state": "waiting_for_slot",
+      "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "selected_model": "Wan 3.0",
       "duration_seconds": 30,
@@ -5788,17 +5807,27 @@
         {
           "slot": "@Image7",
           "required": true,
-          "input_status": "pending_actual_result",
+          "input_status": "available",
           "canonical_role": "exact final frame of S68-WAN30; the S69 start frame, not a video",
           "source_item_id": "S68-WAN30",
-          "planned_path": "references/scenes/scene-68/S68-final-frame.png",
           "ui_upload_order": "Image7 last, after Image1..Image6",
-          "replaces": "@Video1 last 3 seconds"
+          "replaces": "@Video1 last 3 seconds",
+          "path": "references/scenes/scene-68/S68-final-frame.png",
+          "sha256": "1133b8b3153e512326725122d90f15936db8551053f9ab32bac44ced1b8913f1",
+          "bytes": 1616599,
+          "width": 1280,
+          "height": 720,
+          "filename": "S68-final-frame.png",
+          "drive_file_id": "1-ifEEvJPq_FDCdy8IWZd88AVt_I9vfiJ",
+          "provenance_path": "references/scenes/scene-68/S68-final-frame-20261109.json",
+          "source_task_id": "0ef78e7bcda54cb88821e9349e39f85a",
+          "qc_status": "pass",
+          "qc_note": "Masha R walking toward the camera holding the pale-blue melon, crew members at the frame edges, street with an arch."
         }
       ],
       "task_id": null,
       "claim": null,
-      "blocker": "Await actual S68-WAN30 success and its exact final-frame PNG at references/scenes/scene-68/S68-final-frame.png. Do not use a last-3s video. Pass continuity QC before launch.",
+      "blocker": null,
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
       "authorization": "Owner27Oct2026: 64–69 queued after63, before49–51/28; chain52P7→66→67→68→69 in order. One free Unlimited render; no paid path or retry.",

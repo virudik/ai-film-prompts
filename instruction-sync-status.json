@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "checked_at": "2026-11-09T14:27:39.059Z",
+  "checked_at": "2026-11-09T14:53:39.344Z",
   "verification_mode": "github_canonical_blob_check",
   "verification_scope": "Exact local canonical bytes only; not a semantic audit or proof of scheduler execution.",
   "source_of_truth": "github",
@@ -13,8 +13,8 @@
       "drive_copy_sha256": "1992ae738969ea6b8207959f03ba947cd9adb284ca68b36598e98bdaa5e21136",
       "drive_copy_checked_at": "2026-11-09T11:34:26.646Z",
       "drive_copy_modified_at": "2026-11-09T11:34:15.256Z",
-      "github_blob": "263e3f022e4feaf9a152f9f308dfd106dce2ab3c",
-      "mirror_sha256": "d6c5a5cd99d83305c8ed7c0a01ed202d7371bce0192d8b54084a6cc63a92bd78",
+      "github_blob": "91b753cc7a6c08b6ddb5d3828c9bb9ece45e667d",
+      "mirror_sha256": "22f3f27696f16e22fc22b4775b9503b4db1cdf143c7c187c9a6480592108c83a",
       "match": true,
       "drive_copy_match": false
     },
