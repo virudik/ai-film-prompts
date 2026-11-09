@@ -8,10 +8,11 @@ permissions:
 jobs:
   export:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v5
         with:
-          ref: be63a0719dc78f4d9b24ca3dec1e429d28d22103
+          ref: 15f0f89bde0389790b3706f153576a3157e73ea5
           persist-credentials: false
       - run: |
           python3 - <<'PY'
@@ -20,13 +21,14 @@ jobs:
           media={'.png','.jpg','.jpeg','.webp','.gif','.mp4','.mov','.wav','.mp3','.m4a','.ogg','.webm'}
           excluded={'.ttf','.otf','.woff','.woff2','.key','.pem','.pfx','.p12'}
           selected_media={'references/scenes/scene-66/S66-Alina-tatooine-sheet.png','references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png'}
+          prefixes=tuple('references/scenes/scene-'+str(n)+'/' for n in range(74,81))
           out=pathlib.Path('/tmp/parody-source');out.mkdir()
           records=[]
           with zipfile.ZipFile(out/'seregius-source.zip','w',zipfile.ZIP_DEFLATED) as z:
             for n in names:
               p=pathlib.Path(n)
               if not n or not p.is_file() or p.is_symlink() or p.suffix.lower() in excluded or p.name in {'.env','credentials.json','service-account.json','storage-state.json'}: continue
-              if p.suffix.lower() in media and n not in selected_media and not n.startswith('references/full/'): continue
+              if p.suffix.lower() in media and n not in selected_media and not n.startswith('references/full/') and not n.startswith(prefixes): continue
               b=p.read_bytes();z.writestr(n,b);records.append({'path':n,'bytes':len(b),'sha256':hashlib.sha256(b).hexdigest()})
           (out/'manifest.json').write_text(json.dumps({'head':subprocess.check_output(['git','rev-parse','HEAD']).decode().strip(),'files':records},ensure_ascii=False,indent=2))
           assert not subprocess.check_output(['git','status','--porcelain'],text=True).strip()
