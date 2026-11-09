@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:7b26b32b-87f6-4d5b-918c-7bbd5fca61e7",
   "task": "Publish existing parody photos using precomputed previews; no image generation",
   "acquired_at": "2026-11-09T20:17:07+00:00",
-  "expires_at": "2026-11-09T20:57:07+00:00",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-09T20:18:47.923694+00:00",
   "rules": "ops/CANON-LOCK.md"
 }
