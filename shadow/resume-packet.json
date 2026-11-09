@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-09T15:13:58+00:00",
-  "source_head": "26e5940a7bfb94a75de370865475477dcb0aecfd",
-  "source_fingerprint": "f1f0d563f6297c7689e07325dbfab24049e2e3094b0b5781bdbb0441cac6e971",
+  "checked_at": "2026-11-09T15:24:03+00:00",
+  "source_head": "78441a6b0732ece6fa553b7d01befb1254dd113d",
+  "source_fingerprint": "7a839d94ce3120897f4e523eaf4740918c63a15aa5d88712b5e5e5ee1403ba65",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -589,7 +589,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "d89757c4c64cc4d862425093b57e5ac4d022af373b97272b4f9740dec309a964",
+      "sha256": "13c9b7db03c1884f6c98c1d10ebd9e1157668b10ba3e2c7814e1bb1c8e1542ce",
       "bytes": 25827
     },
     {
@@ -614,13 +614,13 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "2b73327f74f9990cf733de635594500d2bc47cafe1781e502aca78db74134230",
+      "sha256": "d754758c5d10d5a13bfdffcd864bc3013a46643f25dd3f5e933ac2df609f2dc8",
       "bytes": 28473
     },
     {
       "file": "video-prompts.md",
-      "sha256": "6401710d32efa359885f22d6b525ac00d31d07d7b04a963145a4bd5b7f14be8b",
-      "bytes": 1492750
+      "sha256": "9bfe42f2efc6b682abc3581057fbc3b331362d213e3d52ddfc5c7805d8cb06d2",
+      "bytes": 1493064
     },
     {
       "file": "work-resume-register.json",
