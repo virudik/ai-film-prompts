@@ -4583,6 +4583,16 @@
    "thumb_bytes": 53110,
    "src_sha256": "ac1894cdcfe8c2fefa7a8898f6efb474ce669903fced95b96078f568c97cced9"
   },
+  "references/scenes/scene-70/S70-final-frame.png": {
+   "thumb": "references/thumbs/scenes/scene-70/S70-final-frame.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1431333,
+   "thumb_bytes": 29818,
+   "src_sha256": "6b70b25728be0affe59336ecd5d980cb1b1f9aa7d78279bd3ec737a65e8e903e"
+  },
   "references/scenes/scene-71/S71-hookah-throne.png": {
    "thumb": "references/thumbs/scenes/scene-71/S71-hookah-throne.png.webp",
    "width": 640,
