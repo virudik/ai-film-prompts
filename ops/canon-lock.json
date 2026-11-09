@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:95b67904-dc0b-4e48-b3ea-248610bd5938",
-  "task": "t413u standing S52-R2-SEED20-P5 intent only",
-  "acquired_at": "2026-11-09T11:43:41Z",
-  "expires_at": null,
-  "released_at": "2026-11-09T11:43:41Z",
+  "state": "held",
+  "holder": "cursor:bc-b6c53856-e99b-58a2-a5e3-54a898cb355c",
+  "task": "Record the S52 part 5 receipt",
+  "acquired_at": "2026-11-09T11:46:11Z",
+  "expires_at": "2026-11-09T12:01:11Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
