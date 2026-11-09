@@ -21,7 +21,7 @@ QUEUE = 'ops/topview-launch-queue.json'
 # 'grok' = Grok Bot, a helper launcher (owner decision 01.11.2026, see ops/LAUNCHER-COORDINATION.md).
 # It launches either on its schedule (kind=scheduled) or on the owner's direct command (kind=owner_command).
 SURFACES = ('ordinary', 'work', 'grok')
-OWNER_COMMAND_SOURCES = ('grok_chat', 'telegram')
+OWNER_COMMAND_SOURCES = ('grok_chat', 'telegram', 'cursor_host')
 
 class Blocked(ValueError):
     pass
@@ -102,6 +102,11 @@ def check_owner_command(config, actor, now):
         chat = str(policy.get('telegram_chat_id') or '')
         if not chat or str(command.get('chat_id')) != chat:
             raise Blocked('owner_command_telegram_chat_mismatch')
+    elif source == 'cursor_host':
+        try:
+            run_ledger.parse_cursor_host(actor)
+        except run_ledger.LedgerBlocked as error:
+            raise Blocked(str(error)) from error
     at = ts(command.get('at'))
     max_age = policy.get('max_age_minutes')
     if not at or type(max_age) is not int or max_age < 1:
@@ -275,7 +280,11 @@ def prepare_intent(config, lock, item, actor, scan, now, queue_board_id=None, le
     out['claim']['lease_acquired_at'] = lock['acquired_at']
     out['claim']['replay_forbidden'] = True
     if run_identity:
-        out['claim']['provider_run_id'] = actor['provider_run_id']
+        host_run = (run_identity[2] or {}).get('host_run') if isinstance(run_identity[2], dict) else None
+        if isinstance(host_run, dict):
+            out['claim']['host_run'] = host_run
+        else:
+            out['claim']['provider_run_id'] = actor['provider_run_id']
         out['claim']['provider_run_key'] = run_identity[0]
         out['claim']['owner_event_keys'] = run_identity[1]
         out['claim']['ledger_path'] = run_ledger.PATH
@@ -285,8 +294,40 @@ def prepare_intent(config, lock, item, actor, scan, now, queue_board_id=None, le
     elif actor['surface'] == 'grok' and actor.get('kind') == 'owner_command':
         command = actor['owner_command']
         out['claim']['trigger'] = 'owner_command'
-        out['claim']['owner_command'] = {k: command.get(k) for k in ('quote', 'source', 'at', 'chat_id') if command.get(k) is not None}
+        recorded = {k: command.get(k) for k in ('quote', 'source', 'at', 'chat_id') if command.get(k) is not None}
+        message = ((command.get('host_context') or {}).get('owner_native_message') or {})
+        if message.get('host_address'):
+            recorded['host_address'] = message['host_address']
+            recorded['host_role'] = message.get('role')
+        out['claim']['owner_command'] = recorded
     return out
+
+
+def dry_run_cursor_host(config, packet, now, execution_instance_id, ledger=None):
+    """Validate one parent host packet. Does not consume, claim, or click Create."""
+    message = packet.get('owner_native_message') or {}
+    actor = {
+        'surface': 'grok', 'kind': 'owner_command',
+        'route_generation': config.get('route_generation'),
+        'execution_instance_id': execution_instance_id,
+        'owner_command': {
+            'source': 'cursor_host', 'quote': message.get('text'), 'at': message.get('at'),
+            'host_context': {
+                'namespace': 'cursor_host',
+                'observation_source': packet.get('observation_source'),
+                'raw_host_fields': packet.get('raw_host_fields'),
+                'owner_native_message': {
+                    'host_address': message.get('host_address'),
+                    'role': message.get('role'),
+                    'text': message.get('text'),
+                },
+            },
+        },
+    }
+    check_owner_command(config, actor, now)
+    rk, events, record = run_ledger.check(config, actor, run_ledger.empty() if ledger is None else ledger)
+    return {'allowed': True, 'consumes': False, 'provider_run_key': rk,
+            'event_keys': events, 'host_run': record['host_run']}
 
 def prepare_transaction(config, lock, item, actor, scan, now, ledger=None, queue_board_id=None, root=None):
     """Return both files' mutations. CAS-publish queue+ledger together, then verify_binding."""
