@@ -4043,6 +4043,16 @@
    "thumb_bytes": 30414,
    "src_sha256": "98410f74e146a2ccbbf406d33b55f27973485125fbc69fc11a978b6dd2de8982"
   },
+  "references/scenes/scene-52/S52-R2-P7-final-frame.png": {
+   "thumb": "references/thumbs/scenes/scene-52/S52-R2-P7-final-frame.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1663722,
+   "thumb_bytes": 40582,
+   "src_sha256": "f5b86a1bd2273538fdd432bea45eac23363daf94dcb918e993ac6305d900a92c"
+  },
   "references/scenes/scene-52/S52-cruiser-topview.jpg": {
    "thumb": "references/thumbs/scenes/scene-52/S52-cruiser-topview.jpg.webp",
    "width": 640,
