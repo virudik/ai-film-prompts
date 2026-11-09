@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:7b26b32b-87f6-4d5b-918c-7bbd5fca61e7",
-  "task": "Publish existing parody photos using precomputed previews; no image generation",
-  "acquired_at": "2026-11-09T20:17:07+00:00",
-  "expires_at": null,
-  "released_at": "2026-11-09T20:18:47.923694+00:00",
+  "state": "held",
+  "holder": "chatgpt:ordinary:c7aa00d4-45a3-4c51-825f-625077d18a32",
+  "task": "Scheduled Seregius read-only Topview scan, anti-duplicate reconciliation and cycle receipt; no Create without independent preflight",
+  "acquired_at": "2026-11-09T20:21:09.260Z",
+  "expires_at": "2026-11-09T20:31:09.260Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
