@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:e5d36433-dee0-4b25-af10-d72444b74643",
-  "task": "Complete verified Topview no-slot receipt; re-acquired after own earlier lease expiry",
-  "acquired_at": "2026-11-09T17:10:25.437Z",
-  "expires_at": null,
-  "released_at": "2026-11-09T17:11:30.803Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:2bad7f77-bb65-4f34-9079-d49494e94399",
+  "task": "Record rejected native image outputs without replacing existing seven scene references; no video or queue changes",
+  "acquired_at": "2026-11-09T17:17:51+00:00",
+  "expires_at": "2026-11-09T17:27:51+00:00",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
