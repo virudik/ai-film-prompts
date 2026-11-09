@@ -4463,6 +4463,16 @@
    "thumb_bytes": 26674,
    "src_sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9"
   },
+  "references/scenes/scene-67/S67-final-frame.png": {
+   "thumb": "references/thumbs/scenes/scene-67/S67-final-frame.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1878083,
+   "thumb_bytes": 43914,
+   "src_sha256": "f6ac41790670431bf9fa633a4548815d47160cf57e8aaaf1cdc29caf073277af"
+  },
   "references/scenes/scene-67/S67-fruit-stall.png": {
    "thumb": "references/thumbs/scenes/scene-67/S67-fruit-stall.png.webp",
    "width": 640,
