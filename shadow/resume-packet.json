@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-09T11:44:25+00:00",
-  "source_head": "28a8730f6cf1ef4435eb457bd48e568ef4800a7f",
-  "source_fingerprint": "5ff22a5475dc6ec888f90c7e2dd8afcff7ed39dbf83997e81e7969569852b829",
+  "checked_at": "2026-11-09T11:46:37+00:00",
+  "source_head": "6384d3e129e01ad59df907eb9585f031362757b1",
+  "source_fingerprint": "df47109ca14b4a30f446b40d8295cab8358e6dffef2a412f69ce42d02dad97ca",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -170,16 +170,8 @@
     "Current capabilities; for a video submit use all-project slot scan, input/QC, Unlimited0 and CAS claim"
   ],
   "queue_recovery": {
-    "unresolved": [
-      {
-        "item_id": "S52-R2-SEED20-P5",
-        "state": "submitting",
-        "task_id": null,
-        "recovery_action": "reconcile_without_resubmitting",
-        "submit_authorized": false
-      }
-    ],
-    "existing_task_count": 75,
+    "unresolved": [],
+    "existing_task_count": 76,
     "existing_tasks": [
       {
         "item_id": "S49A",
@@ -288,6 +280,10 @@
       {
         "item_id": "S52-R2-SEED20-P4",
         "task_id": "3ea23879815e47989d08ae559bd81f51"
+      },
+      {
+        "item_id": "S52-R2-SEED20-P5",
+        "task_id": "be59815f157e47c0924b91dbde48f997"
       },
       {
         "item_id": "S64-WAN30",
@@ -560,8 +556,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "1cee0a970ba4b26d1e4ec60cf52f416dfb025210d50a3a105feb533ebc0c65a7",
-      "bytes": 360681
+      "sha256": "17e128dbfb38cb63f4232a0bb9fb03e30a6d41f7826b487213d406d3f8655999",
+      "bytes": 358724
     },
     {
       "file": "project-status.json",
@@ -604,5 +600,5 @@
       "bytes": 100790
     }
   ],
-  "packet_bytes": 6517
+  "packet_bytes": 6466
 }
