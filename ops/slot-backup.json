@@ -605,7 +605,36 @@
         "no paid MCP/Canvas generation without a separate explicit owner yes"
       ],
       "first_real_create_flow": "If the owner's command is itself an explicit yes for the first real Create, Grok Bot first records first_real_create.owner_go_ahead=true with that quote, source and time in a separate commit under the canon lock, reads it back, and only then prepares the intent. An ordinary launch command without such a yes does not open the gate.",
-      "not_enabled": "No foreground-shift: kind=interactive and takeover stay blocked for grok."
+      "not_enabled": "No foreground-shift: kind=interactive and takeover stay blocked for grok.",
+      "standing_commands": [
+        {
+          "id": "t413u-20261109",
+          "enabled": true,
+          "host_address": "t413u",
+          "recorded_at": "2026-11-09T09:25:00+01:00",
+          "quote": "Говорю запускай значит запускай. Зачем спрашивать по 10 раз если есть уже согласованная очередь запуска",
+          "owner_confirmation": {
+            "host_address": "t414u",
+            "quote": "Да",
+            "date": "2026-11-09"
+          },
+          "scope": {
+            "ready_story_parts": true,
+            "free_unlimited": true,
+            "one_attempt": true,
+            "music_dance": false,
+            "excluded_scenes": [
+              28,
+              49,
+              50,
+              51
+            ],
+            "hold_scenes": [
+              62
+            ]
+          }
+        }
+      ]
     },
     "coverage": {
       "owner_authorized": true,

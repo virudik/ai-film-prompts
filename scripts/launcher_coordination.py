@@ -83,6 +83,42 @@ def check_route(config, actor, now=None):
     # Preferred executor is NOT an exclusivity gate: the other peer may help.
     return True
 
+def standing_record(config, actor):
+    """A recorded standing command, or None when this actor is an ordinary phrase."""
+    command = actor.get('owner_command') or {}
+    standing = (command.get('host_context') or {}).get('standing_command')
+    if not isinstance(standing, dict) or not standing.get('id'):
+        return None
+    policy = (config.get('grok_launcher') or {}).get('owner_command_launch') or {}
+    records = policy.get('standing_commands')
+    if not isinstance(records, list):
+        raise Blocked('standing_command_not_authorized')
+    match = next((row for row in records
+                  if isinstance(row, dict) and row.get('id') == standing.get('id') and row.get('enabled') is True),
+                 None)
+    if match is None:
+        raise Blocked('standing_command_not_authorized')
+    return match
+
+
+def check_standing_scope(config, actor, item):
+    """Standing authority is ready story, one free attempt. It does not open music or a held scene."""
+    record = standing_record(config, actor)
+    if record is None:
+        return None
+    scope = record.get('scope') or {}
+    scene = item.get('scene_id')
+    if scene in (scope.get('hold_scenes') or []):
+        raise Blocked('standing_command_scene_held')
+    if scope.get('music_dance') is False and scene in (scope.get('excluded_scenes') or []):
+        raise Blocked('standing_command_music_denied')
+    if scope.get('one_attempt') is True and item.get('max_new_submissions') != 1:
+        raise Blocked('standing_command_one_attempt')
+    if scope.get('free_unlimited') is True and item.get('max_credits') != 0:
+        raise Blocked('standing_command_free_unlimited_only')
+    return record
+
+
 def check_owner_command(config, actor, now):
     """Grok Bot launch on the owner's direct command: needs a recorded quote, source and fresh timestamp."""
     policy = (config.get('grok_launcher') or {}).get('owner_command_launch')
@@ -108,6 +144,13 @@ def check_owner_command(config, actor, now):
         except run_ledger.LedgerBlocked as error:
             raise Blocked(str(error)) from error
     at = ts(command.get('at'))
+    record = standing_record(config, actor)
+    if record is not None:
+        if source != 'cursor_host' or quote != record.get('quote'):
+            raise Blocked('standing_command_quote_mismatch')
+        if not at or at > now:
+            raise Blocked('owner_command_stale_or_future')
+        return True
     max_age = policy.get('max_age_minutes')
     if not at or type(max_age) is not int or max_age < 1:
         raise Blocked('owner_command_timestamp_required')
@@ -236,6 +279,7 @@ def prepare_intent(config, lock, item, actor, scan, now, queue_board_id=None, le
     check_lease(lock, actor, now)
     if actor['surface'] == 'grok':
         check_grok_policy(config, item, actor, now, queue_board_id=queue_board_id)
+        check_standing_scope(config, actor, item)
         if item.get('retry_control') is not None or item.get('submission_history'):
             check_grok_retry(config, item)
     if item.get('state') != 'claimed':
@@ -304,6 +348,12 @@ def prepare_intent(config, lock, item, actor, scan, now, queue_board_id=None, le
             recorded['owner_response_to_card_address'] = card['owner_response_to_card_address']
             recorded['owner_response_role'] = card.get('owner_response_role')
             recorded['current_owner_response_message_address'] = None
+        standing = ((command.get('host_context') or {}).get('standing_command') or {})
+        if standing.get('id'):
+            recorded['standing_command_id'] = standing['id']
+            record = standing_record(config, actor)
+            if record is not None and record.get('host_address'):
+                recorded['standing_host_address'] = record['host_address']
         out['claim']['owner_command'] = recorded
     return out
 
@@ -318,6 +368,8 @@ def _cursor_host_context(packet):
         'observation_source': packet.get('observation_source'),
         'raw_host_fields': fields,
     }
+    if isinstance(packet.get('standing_command'), dict):
+        context['standing_command'] = {'id': packet['standing_command'].get('id')}
     if packet.get('owner_response_to_card_address') or packet.get('owner_card_response'):
         card = packet.get('owner_card_response') or {
             'owner_response_to_card_address': packet.get('owner_response_to_card_address'),
@@ -327,7 +379,7 @@ def _cursor_host_context(packet):
         }
         context['owner_card_response'] = card
         quote, at = card.get('owner_response_text'), packet.get('owner_response_at') or card.get('owner_response_at')
-    else:
+    elif packet.get('owner_native_message'):
         message = packet.get('owner_native_message') or {}
         context['owner_native_message'] = {
             'host_address': message.get('host_address'),
@@ -335,6 +387,11 @@ def _cursor_host_context(packet):
             'text': message.get('text'),
         }
         quote, at = message.get('text'), message.get('at')
+    elif isinstance(packet.get('standing_command'), dict):
+        quote, at = packet.get('quote'), packet.get('at')
+    else:
+        context['owner_native_message'] = {'host_address': None, 'role': None, 'text': None}
+        quote, at = None, None
     return quote, at, context
 
 
