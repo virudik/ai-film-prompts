@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "e6cebd0742e98a05db08ac7077439269f4d7a80c4b685afc0e1a2ba6642fd383",
-  "source_task_map_sha256": "38b1061b3585fa8e4fcd8cf03bb93a00c3350b50a35ddf8f3e0bd7618e49162d",
+  "source_queue_sha256": "3436cf6d83a6e7878b1c1129669b5aa57540059b4f42bfb74b09b31a87f5f637",
+  "source_task_map_sha256": "7bd18dba684427c1b4553de61d13ce04a34a1247c2c7ac46aaf2a9c783457ddd",
   "topview_checked_at": "2026-11-09T12:05:55Z",
   "items": [
     {
@@ -167,15 +167,6 @@
       "queue_state": "waiting_for_slot"
     },
     {
-      "id": "S52-R2-SEED20-P7",
-      "scene_id": 52,
-      "part_label": "Часть 7",
-      "code": "preflight_required",
-      "ready": false,
-      "text": "Входы найдены; требуется снять записанный блокер после проверки",
-      "queue_state": "submitting"
-    },
-    {
       "id": "S65-WAN30",
       "scene_id": 65,
       "part_label": "65",
@@ -190,7 +181,7 @@
       "part_label": "66",
       "code": "waiting_result",
       "ready": false,
-      "text": "@Video1: ждёт результат 52 · Wan 3.0 часть 7 (ещё не запущен)",
+      "text": "@Video1: ждёт результат 52 · Wan 3.0 часть 7",
       "queue_state": "blocked_inputs"
     },
     {
@@ -249,5 +240,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-09T12:46:09.456661Z"
+  "checked_at": "2026-11-09T12:49:18.180016Z"
 }
