@@ -10,46 +10,107 @@
   "route_generation": 3,
   "started_at": "2026-11-09T06:03:09.187784Z",
   "receipt_started_at": "2026-11-09T06:11:53.641Z",
-  "phase": "started",
-  "status": "in_progress",
-  "outcome": null,
+  "phase": "complete",
+  "status": "completed",
+  "outcome": "blocked_browser_input",
   "scan": {
-    "complete": false,
-    "boards": null,
-    "pages": null,
-    "video_tasks": null,
-    "checked_at": null
+    "complete": true,
+    "scope": "14 authorized Topview boards, all 18 filtered video pages; 13 first pages and 5 My First Board pages",
+    "boards": 14,
+    "pages": 18,
+    "video_tasks": 642,
+    "unique_video_tasks": 642,
+    "status_counts": {
+      "success": 613,
+      "fail": 26,
+      "init": 3
+    },
+    "checked_at": "2026-11-09T06:13:59.830Z"
   },
   "slots": {
     "physical_capacity": 6,
-    "occupied": null,
-    "free": null
+    "occupied": 3,
+    "free": 3,
+    "active_task_ids": [
+      "0b6dfa84e4524b438075f10f7205a846",
+      "2d8efbd16f5146f48cd7a9a1ffb99369",
+      "8a1982a55f794a049a62eaa91bf8827f"
+    ],
+    "active_unlimited_selected": true,
+    "active_model": "Seedance 2.0",
+    "active_resolution": 720,
+    "active_aspect_ratio": "16:9",
+    "active_credits_cost": 0,
+    "verified_at": "2026-11-09T06:12:28.575Z"
   },
-  "selected_item": null,
+  "selected_item": "S48-SEED20-P2-R2-20261108",
   "task_ids": [],
   "new_submissions": [],
-  "browser_transport": "not_used",
+  "browser_transport": "not_used_work_preferred_and_prior_native_TinyFish_input_blocker_unresolved",
   "tinyfish": {
     "runs": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0
+    "confirmed_cost_usd": 0,
+    "wallet_spent_usd": 0
   },
   "topview_credits_spent": 0,
   "lease": {
     "holder": "chatgpt:ordinary:d7f8d942-2f97-49b0-9838-fd70445c922b",
     "acquired_at": "2026-11-09T06:11:08.227Z",
     "expires_at": "2026-11-09T06:26:08.227Z",
-    "released_at": null
+    "released_at": "2026-11-09T06:15:31.965Z",
+    "release_with_receipt_atomic": true
   },
   "acceptance": {
     "scheduled_run_verified": true,
-    "topview_read_only_scan_complete": false,
+    "topview_read_only_scan_complete": true,
     "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
     "new_task_id_verified": false,
     "production_submission_verified": false
   },
-  "checked_at": "2026-11-09T06:11:53.641Z"
+  "checked_at": "2026-11-09T06:15:31.965Z",
+  "queue_reconciliation": {
+    "queue_readiness_sha256_match": true,
+    "task_map_sha256_match": true,
+    "submitted_ids_in_queue": 20,
+    "submitted_ids_found": 20,
+    "submitted_ids_missing": 0,
+    "archived_video_ids_found": 39,
+    "archived_nonvideo_or_unmatched_ids": 6,
+    "submission_unknown": [
+      "S49B"
+    ],
+    "other_claimed": [],
+    "next_ready_independent": "S62-SEED20-P1-R2-20261108",
+    "source_queue_blob_sha": "9ffea30f0c3b021d75e7e08e7fef90c563508406",
+    "source_task_map_blob_sha": "25378461213fbb52e4f86de775d3ae3040c6a5f5",
+    "source_readiness_blob_sha": "e295086987e9b10ec2a6d1b6bd6072fb9dab9688"
+  },
+  "route_status": {
+    "preferred_executor": "work",
+    "work_capacity_state": "restored_verified",
+    "ordinary_role": "enabled_reserve",
+    "route_generation": 3,
+    "work_new_outage_evidence": false
+  },
+  "retryable": false,
+  "completed_at": "2026-11-09T06:15:31.965Z",
+  "blocker": {
+    "code": "blocked_browser_input",
+    "item_id": "S48-SEED20-P2-R2-20261108",
+    "reason": "Native upload of precise six original images and actual 3s MP4 to My First Board Omni-reference in saved TinyFish profile, and selected Unlimited0, remain unverified since prior paid UI test 2026-11-06. No evidence of changed upload capability. Additionally main records Work restored/verified and preferred, so metered fallback not required this run. No Create attempted.",
+    "retryable": false
+  },
+  "owner_tasks": "checked_open_0",
+  "monitor": {
+    "last_robot_event_id": "slots:d1af9cd6:36",
+    "last_robot_observation_at": "2026-11-09T05:50:34Z",
+    "relay_last_run_status": "no_update",
+    "hourly55_last_run_status": "no_update",
+    "old_event_not_treated_as_fresh_capacity": true
+  },
+  "result": "Read-only scan: 642 videos on 14 boards, 613 success/26 fail/3 init; three of six slots occupied. All 20 submitted live IDs found; S49B unknown not repeated, S48-P2-R2 first independent ready, S62-P1-R2 next. Work verified preferred, ordinary reserve. Exact original file transfer/Unlimited0 browser fallback blocker unchanged. No TinyFish calls, Create, retries, or credits."
 }
