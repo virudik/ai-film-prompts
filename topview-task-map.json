@@ -883,7 +883,8 @@
       "task_id": "15e12f1588cc4079983610b63973e028",
       "scene_id": 69,
       "final_status": "success",
-      "finished_at": "2026-11-09T15:18:37Z"
+      "finished_at": "2026-11-09T15:18:37Z",
+      "creditsCost": 0
     }
   ],
   "retention": {

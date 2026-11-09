@@ -5854,7 +5854,14 @@
         "submission_intent_id": "7db212de-d76f-44ca-960b-cd6ca1f98267",
         "archive_file": "reports/topview-queue-2026-10-16/S69-WAN30-20261109T145644Z.json",
         "archive_sha256": "f8ee65ed035161fd89b9f6c3e17cb0d1700a7e2c78a5281aebfac505655c1336"
-      }
+      },
+      "topview_status": "success",
+      "result_original_sha256": "6b9e0fbc5922fd002bc3dda26d634edc9da8f4ccf788e4de6cf30040bd86e6fd",
+      "creditsCost": 0,
+      "result_duration_seconds": 30.02,
+      "completed_at": "2026-11-09T15:18:37Z",
+      "qc_note": "Wide street shot: three sweepers in orange vests with cyan light brooms, an R2 unit at the left, an arch in the background.",
+      "qc_blocking": false
     },
     {
       "id": "S70-WAN30",
@@ -5864,8 +5871,8 @@
       "canonical_prompt_sha256": "c5d9bca56ffcfc7a38adf34bfe20bd717cd91e26d82f9d44e2563f9763090ab5",
       "normalized_prompt_sha256": "b566aae7bb96cfb45ff1c64949d61fc55115a6f25ea439159d29c2aca960a2b6",
       "priority": 0.019,
-      "state": "blocked_inputs",
-      "launch_readiness": "blocked_continuity",
+      "state": "waiting_for_slot",
+      "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "selected_model": "Wan 3.0",
       "duration_seconds": 30,
@@ -5908,17 +5915,27 @@
         {
           "slot": "@Image4",
           "required": true,
-          "input_status": "pending_actual_result",
+          "input_status": "available",
           "canonical_role": "exact final frame of S69-WAN30; the S70 start frame, not a video",
           "source_item_id": "S69-WAN30",
-          "planned_path": "references/scenes/scene-69/S69-final-frame.png",
           "ui_upload_order": "Image4 last, after Image1..Image3",
-          "replaces": "@Video1 last 3 seconds"
+          "replaces": "@Video1 last 3 seconds",
+          "path": "references/scenes/scene-69/S69-final-frame.png",
+          "sha256": "3b55a279162215ac29ad41b8a8b4d9abca22699e3976ab7bbd779c6de90b2928",
+          "bytes": 1753089,
+          "width": 1280,
+          "height": 720,
+          "filename": "S69-final-frame.png",
+          "drive_file_id": "1Xoxo2nIaiHdgO-oHZOSXadkgQOC1rDAJ",
+          "provenance_path": "references/scenes/scene-69/S69-final-frame-20261109.json",
+          "source_task_id": "15e12f1588cc4079983610b63973e028",
+          "qc_status": "pass",
+          "qc_note": "Wide street shot: three sweepers in orange vests with cyan light brooms, an R2 unit at the left, an arch in the background."
         }
       ],
       "task_id": null,
       "claim": null,
-      "blocker": "Await actual S69-WAN30 success and its exact final-frame PNG at references/scenes/scene-69/S69-final-frame.png. Do not use a last-3s video. Pass continuity QC before launch.",
+      "blocker": null,
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
       "authorization": "Owner28Oct: prepare continuous69→70→65 bridge, Wan3.0/30s. Unlimited0 only; no paid path, retry or launch by this edit.",

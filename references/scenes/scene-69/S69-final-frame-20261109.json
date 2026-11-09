@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "item_id": "S70-WAN30",
+  "slot": "@Image4",
+  "kind": "exact_final_frame_of_previous_part",
+  "not_a_generation": true,
+  "not_film_accepted": true,
+  "source_item_id": "S69-WAN30",
+  "source_task_id": "15e12f1588cc4079983610b63973e028",
+  "full_original": {
+    "sha256": "6b9e0fbc5922fd002bc3dda26d634edc9da8f4ccf788e4de6cf30040bd86e6fd",
+    "rehashed_here": false,
+    "topview_status": "success",
+    "creditsCost": 0,
+    "duration_seconds": 30.02
+  },
+  "file": {
+    "filename": "S69-final-frame.png",
+    "path": "references/scenes/scene-69/S69-final-frame.png",
+    "sha256": "3b55a279162215ac29ad41b8a8b4d9abca22699e3976ab7bbd779c6de90b2928",
+    "bytes": 1753089,
+    "width": 1280,
+    "height": 720,
+    "drive_file_id": "1Xoxo2nIaiHdgO-oHZOSXadkgQOC1rDAJ",
+    "drive_folder": "Scene Reference Packs"
+  },
+  "qc_note": "Wide street shot: three sweepers in orange vests with cyan light brooms, an R2 unit at the left, an arch in the background.",
+  "qc_blocking": false,
+  "owner_orders": [
+    "t438u"
+  ]
+}
