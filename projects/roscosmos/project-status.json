@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/projects/roscosmos/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-09T15:34:27Z",
+  "synced_at": "2026-11-09T18:42:37Z",
   "revision_date": "05.11.2026",
   "master_declared_last_full_sync": "05.11.2026 · Терра Тех 26–30: пять восстановленных PNG ChatGPT на местах, прежние байты как *-old.png, 15 видеопромтов горизонтальные; очередь не менялась",
   "canonical_master_sha256": "fa45616f9b78c3e1bdd9b42ff06c65c4360aebf6a0d30839ed0e031998c56835",
@@ -51,19 +51,19 @@
   "reserved_scene_ids": [],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-11-09T15:32:37.454Z",
+    "snapshot_at": "2026-11-09T16:09:20.968Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 0.03,
+    "age_hours_at_status_build": 2.554,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
         "drive_copy_sha256": "1992ae738969ea6b8207959f03ba947cd9adb284ca68b36598e98bdaa5e21136",
         "drive_copy_checked_at": "2026-11-09T11:34:26.646Z",
         "drive_copy_modified_at": "2026-11-09T11:34:15.256Z",
-        "github_blob": "3e52b4b3fd73ad1fbc9ccbfa67b896b9298ccdeb",
-        "mirror_sha256": "373182ee6be96a0d9633e69bd2ad90f6a7b4ebbde1070c398e1079e42c1d1c5f",
+        "github_blob": "e99a68166be87e992c3764e45d17c1f2a19b5c13",
+        "mirror_sha256": "ea0bb036cbbf0bcf9b336d0bf8f94174a7cd383032436bb1197c35e091c81a8e",
         "match": true,
         "drive_copy_match": false
       },
@@ -133,7 +133,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.03,
+      "age_hours": 2.554,
       "blocking": false
     },
     "topview_task_map": {
@@ -752,7 +752,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "05.11.2026",
-    "synced_at": "2026-11-09T15:34:27Z",
+    "synced_at": "2026-11-09T18:42:37Z",
     "canonical_master_sha256": "fa45616f9b78c3e1bdd9b42ff06c65c4360aebf6a0d30839ed0e031998c56835",
     "canonical_revision_sha256": "0f6b847e3444a8e8788fda59dd930f2408f5cdb7f880e0746594ac8c7a6e4fcb",
     "scene_count": 30,
