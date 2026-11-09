@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:4c6d43a5-0b52-47cc-8cc6-bfbd3c112e42",
-  "task": "Record visual audit of seven existing parody stills; no replacement or scene edits",
-  "acquired_at": "2026-11-09T18:34:00Z",
-  "expires_at": null,
-  "released_at": "2026-11-09T18:35:00Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:b2e6ada9-736e-4231-bcdc-68660c436f30",
+  "task": "Scheduled ordinary read-only scan, reconcile capacity and durable no-create cycle receipt for Seregius",
+  "acquired_at": "2026-11-09T18:38:40Z",
+  "expires_at": "2026-11-09T18:48:40Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
