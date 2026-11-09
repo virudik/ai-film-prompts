@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:8be5eeaa-dcb4-49b9-b804-611189c312c6",
-  "task": "t412u S59 intent only",
-  "acquired_at": "2026-11-09T08:20:32Z",
-  "expires_at": null,
-  "released_at": "2026-11-09T08:20:32Z",
+  "state": "held",
+  "holder": "cursor:bc-b6c53856-e99b-58a2-a5e3-54a898cb355c",
+  "task": "Record the S59 website receipt and clear the live claim",
+  "acquired_at": "2026-11-09T08:24:13Z",
+  "expires_at": "2026-11-09T08:39:13Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
