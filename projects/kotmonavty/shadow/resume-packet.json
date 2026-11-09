@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "kotmonavty",
   "project_name": "Котмонавты",
-  "checked_at": "2026-11-09T11:36:22+00:00",
-  "source_head": "a59aacd4ad11b47d482a4126751c56702b777fbc",
-  "source_fingerprint": "923c31b0521625d3c9f2cdf3836d078fe9f1d6263cb826b4d1e24925f06d0c70",
+  "checked_at": "2026-11-09T12:01:51+00:00",
+  "source_head": "10ec9a962bd3c20d003bf07699f1659e3e6673ea",
+  "source_fingerprint": "c93ae115d7fbce0f9b74d00252a3664641a711ab6b76e6db4c21ef04cbb51aa5",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -190,8 +190,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "92bf6678e170a5dbdce014ec4fcb674d1642e60fe8e9bac5ed5d60d3fd441acf",
-      "bytes": 34730
+      "sha256": "d329662ce1469d008da02b911c7c56c03a9a74f013803e2085724917ae14fddd",
+      "bytes": 34767
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -215,7 +215,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "8ebca97d5ca1573ba3e741d44431dae12e70f73d3dfe38042784e604e50893e6",
+      "sha256": "44daab5e9c2b7db73d0cc113f2f87d58ee89346a8f46aa2578daa5898cb932a5",
       "bytes": 5135
     },
     {
@@ -230,7 +230,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "2e3966383480f8addddb9e839c2d31b086cc54337280c5702cf9348d8ce08fcb",
+      "sha256": "25f9431f5402f630802baa7f9b95c7792e81a21f7491585dea9ef411758901c1",
       "bytes": 25723
     },
     {
@@ -295,12 +295,12 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "b1ff6f65f51ad60550a4961c072a8dbb8aeccc57daaf67005ccaae01672efe97",
-      "bytes": 34531
+      "sha256": "0bfacd6ec370f8055eb9e874422c41ffad6d1e34e689c21e320c8f1356133f7f",
+      "bytes": 34568
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "bfc007e9fe7a8d4a426f36ec2e43162fa20a43cd92e3a84951c6d9c9c5f4e09b",
+      "sha256": "3d0f7effbf9a986b4493c4b079eb8b27f4269dd5eaa028505171cd030d14de2a",
       "bytes": 28321
     },
     {
