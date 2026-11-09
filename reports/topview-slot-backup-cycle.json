@@ -6,19 +6,24 @@
   "runtime_run_id": "bd02f7a0-9090-8320-9829-f8a61d96fd7a",
   "runtime_run_id_evidence": "Automations.peek last_run.id matches scheduled_for 2026-11-09T17:00:00Z, started_at 2026-11-09T16:56:28.419273Z, status in_progress; latest_result.run_id is older and not used.",
   "source_head_initial": "c7017d4de6a9893a28b586e944c560832e397e4d",
-  "source_head": "c7017d4de6a9893a28b586e944c560832e397e4d",
+  "source_head": "7bf88a5b3d62f79be246e47ab176fcb80e67897f",
   "route_generation": 3,
   "started_at": "2026-11-09T16:56:28.419273Z",
   "receipt_started_at": "2026-11-09T17:01:50.938Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "complete",
+  "status": "completed",
   "scan": {
-    "complete": false,
-    "source": "Fresh read-only Topview connector full 14-board 19-page scan completed immediately before lease; final verification pending",
-    "checked_at": "2026-11-09T16:59:09.296Z",
+    "complete": true,
+    "source": "Read-only Topview connector; all 14 boards, all 19 video pages; main board 6 pages independently rechecked",
+    "checked_at": "2026-11-09T17:08:33.041Z",
     "boards": 14,
     "pages": 19,
     "video_tasks": 668,
+    "status_counts": {
+      "success": 636,
+      "fail": 26,
+      "init": 6
+    },
     "active_task_ids": [
       "be627af0e9664db5b6ac2b62c34080a6",
       "8bdd6439dad94592979aba23c137b4a0",
@@ -26,43 +31,89 @@
       "6fa3cdac62e348759d2a3607093414ea",
       "2473c9b5bcf645fd85ab308306c53aaa",
       "39b567d40aed4f58947324e0852b4e4e"
-    ]
+    ],
+    "all_active_on_board": "1a6244cf1ae747ef847d949a80d6133c",
+    "all_active_unlimited": true,
+    "all_active_topview_credits_cost": 0,
+    "non_atomic": true
   },
   "slots": {
     "physical_capacity": 6,
-    "occupied": null,
-    "free": null,
-    "complete_scan_verified": false,
-    "non_reserving_snapshot": true
+    "occupied": 6,
+    "free": 0,
+    "complete_scan_verified": true,
+    "non_reserving_snapshot": true,
+    "prior_capacity_conflict_resolved": "Prior seventh active task efaad07750974b678df63a6be00f15d8 now success; exactly six init remain"
   },
   "selected_item": null,
   "new_submissions": [],
-  "browser_transport": "not_started",
+  "browser_transport": "not_used: six active tasks occupy all physical video slots",
   "tinyfish": {
     "runs": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0
+    "confirmed_cost_usd": 0,
+    "wallet_spent_usd": 0,
+    "wallet_not_queried_reason": "No paid browser action justified with 6/6 slots occupied"
   },
   "topview_credits_spent": 0,
   "lease": {
     "holder": "chatgpt:ordinary:e5d36433-dee0-4b25-af10-d72444b74643",
-    "acquired_at": "2026-11-09T17:00:43.400Z",
-    "expires_at": "2026-11-09T17:09:43.400Z",
-    "lease_commit": "f6907cf2871e4fc3a115131a19b3260205538f5e"
+    "acquired_at": "2026-11-09T17:10:25.437Z",
+    "expires_at": "2026-11-09T17:22:25.437Z",
+    "lease_commit": "86caef65251ab14950a0470e7430b1907179fe28",
+    "previous_lease_expired_at": "2026-11-09T17:09:43.400Z",
+    "released_at": "2026-11-09T17:11:30.803Z",
+    "release_with_receipt_atomic": true
   },
   "acceptance": {
     "scheduled_run_executed": true,
     "scheduled_run_id_observed": true,
-    "topview_read_only_scan_complete": false,
+    "topview_read_only_scan_complete": true,
     "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
     "production_submission_by_this_executor_verified": false,
-    "new_task_id_verified": false
+    "new_task_id_verified": false,
+    "submitted_task_ids_found": 36,
+    "submitted_task_ids_total": 36,
+    "queue_and_map_sha256_confirmed": true
   },
-  "outcome": null,
+  "outcome": "no_free_slot",
   "blocker": null,
-  "retryable": null,
-  "updated_at": "2026-11-09T17:01:50.938Z"
+  "retryable": false,
+  "updated_at": "2026-11-09T17:11:30.803Z",
+  "queue_reconciliation": {
+    "source_queue_blob_sha": "874ff7197b08940122156b8b4bd9a43f818ef871",
+    "source_map_blob_sha": "90996c5b82a0553ed0cd49d2edf3f2d91c724868",
+    "readiness_blob_sha": "bda1cb01362adbefe09953f950b45d48b8bebfa5",
+    "queue_sha256": "5c4c83e19a23ce849990d5647342ed982191c583dfc61642535f8282f3b10504",
+    "map_sha256": "7e5c3ae5e5ba98672f69c0c210b0bdc8f710624299feb5e49d3b4c4c788595ad",
+    "sha256_matched": true,
+    "submitted_found": 36,
+    "submitted_total": 36,
+    "pending_items": [
+      {
+        "id": "S66-STITCH-INDEP-WAN30",
+        "state": "submitting",
+        "submission_intent_id": "6ba1656f-24ff-4dd3-ab2d-bf0991e31cf2",
+        "lease_holder": "grok:fa55d361-5299-404a-aa1b-cf19979fda7c"
+      }
+    ],
+    "s70_original_task_id": "942bdafcff8640d1b405a37cbbb5cbc6",
+    "s70_duplicate_task_id": "39b567d40aed4f58947324e0852b4e4e",
+    "owner_tasks_open": 1,
+    "owner_task_scope": "Parody reference task explicitly restricted to interactive ChatGPT; not taken",
+    "preferred_executor": "work",
+    "route_generation_unchanged": true
+  },
+  "task_ids": [
+    "be627af0e9664db5b6ac2b62c34080a6",
+    "8bdd6439dad94592979aba23c137b4a0",
+    "0a495e5f77a041e6bcc8d67fb68230b3",
+    "6fa3cdac62e348759d2a3607093414ea",
+    "2473c9b5bcf645fd85ab308306c53aaa",
+    "39b567d40aed4f58947324e0852b4e4e"
+  ],
+  "completed_at": "2026-11-09T17:11:30.803Z"
 }
