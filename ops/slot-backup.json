@@ -577,7 +577,8 @@
       "owner_quote": "Да",
       "sources": [
         "grok_chat",
-        "telegram"
+        "telegram",
+        "cursor_host"
       ],
       "telegram_chat_id": "215961273",
       "telegram_bot": "@Grok_vint_bot",
@@ -587,7 +588,8 @@
         "owner_command.quote",
         "owner_command.source",
         "owner_command.at",
-        "owner_command.chat_id (telegram only, must equal telegram_chat_id)"
+        "owner_command.chat_id (telegram only, must equal telegram_chat_id)",
+        "cursor_host: parent Shell os.environ CURSOR_CONVERSATION_ID and CURSOR_REQUEST_ID, plus the native tNu owner address and role user. Not a minted provider_run_id."
       ],
       "recorded_in_intent": "claim.trigger=owner_command and claim.owner_command{quote,source,at,chat_id}",
       "window_rule": "The :10–:40 launch_window applies to scheduled runs only. An owner command may start outside it (the owner asked for it now) but still needs the exact unexpired canon lease, claim, intent, readback, board, Unlimited0, the bounded per-run cap (slot_capacity 6, one Create per distinct ready item) and TOPVIEW-RETRY rules; the lease is still released by the end of the run and must not be taken while a foreign valid lease exists.",

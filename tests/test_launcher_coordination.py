@@ -380,7 +380,7 @@ class GrokHelperTests(unittest.TestCase):
         cfg = json.loads((Path(__file__).resolve().parents[1] / 'ops' / 'slot-backup.json').read_text(encoding='utf-8'))
         policy = cfg['grok_launcher']['owner_command_launch']
         self.assertIs(policy['enabled'], True)
-        self.assertEqual(policy['sources'], ['grok_chat', 'telegram'])
+        self.assertEqual(policy['sources'], ['grok_chat', 'telegram', 'cursor_host'])
         self.assertEqual(policy['telegram_chat_id'], '215961273')
         self.assertIs(policy['bypass_launch_window'], True)
         self.assertEqual(policy['owner_quote'], 'Да')

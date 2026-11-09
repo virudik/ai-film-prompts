@@ -17,6 +17,14 @@ from datetime import datetime, timezone
 
 PATH = 'ops/launcher-run-ledger.json'
 ACCOUNT_SLOT_CAPACITY = 6
+HOST_NAMESPACE = 'cursor_host'
+HOST_OBSERVATIONS = frozenset((
+    'parent_shell_os_environ',
+    'parent Shell os.environ, not executor or cloud environment',
+))
+HOST_FIELD_NAMES = ('CURSOR_CONVERSATION_ID', 'CURSOR_REQUEST_ID')
+HOST_ADDRESS = re.compile(r'^t[1-9][0-9]*u$')
+REJECTED_HOST_PREFIXES = ('sand-subagent-', 'bc-')
 
 class LedgerBlocked(ValueError):
     pass
@@ -70,8 +78,14 @@ def validate(ledger):
         raise LedgerBlocked('durable_run_ledger_missing_or_invalid')
     for rk, row in ledger['runs'].items():
         if (not isinstance(row, dict) or row.get('consumed') is not True or
-                not row.get('submission_intent_id') or not row.get('item_id') or
-                rk != key([row.get('surface'), row.get('provider_run_id')])):
+                not row.get('submission_intent_id') or not row.get('item_id')):
+            raise LedgerBlocked('durable_run_ledger_corrupt')
+        host = row.get('host_run')
+        if isinstance(host, dict):
+            if (row.get('provider_run_id') is not None or
+                    rk != key([row.get('surface'), HOST_NAMESPACE, host.get('field'), host.get('value')])):
+                raise LedgerBlocked('durable_run_ledger_corrupt')
+        elif rk != key([row.get('surface'), row.get('provider_run_id')]):
             raise LedgerBlocked('durable_run_ledger_corrupt')
         subs = row.get('submissions')
         if subs is not None:
@@ -96,7 +110,54 @@ def validate(ledger):
     return True
 
 
+def parse_cursor_host(actor):
+    """Bind a parent Shell host packet. Field names stay the host's names.
+
+    CURSOR_REQUEST_ID is not rewritten into a backend provider_run_id. A page,
+    screenshot, attachment, or model result is not this packet.
+    """
+    command = actor.get('owner_command') or {}
+    if actor.get('provider_run_id') not in (None, ''):
+        raise LedgerBlocked('host_context_forbids_substitute_provider_run_id')
+    ctx = command.get('host_context')
+    if not isinstance(ctx, dict):
+        raise LedgerBlocked('cursor_host_context_required')
+    if (ctx.get('observation_source') not in HOST_OBSERVATIONS or ctx.get('namespace') != HOST_NAMESPACE or
+            any(k in ctx for k in ('copied_from', 'attachment', 'page_text', 'screenshot', 'provider_run_id'))):
+        raise LedgerBlocked('parent_shell_os_environ_required')
+    fields = ctx.get('raw_host_fields')
+    if not isinstance(fields, dict) or set(fields) != set(HOST_FIELD_NAMES):
+        raise LedgerBlocked('cursor_host_fields_required')
+    conv = opaque(fields.get('CURSOR_CONVERSATION_ID'), 'CURSOR_CONVERSATION_ID')
+    req = opaque(fields.get('CURSOR_REQUEST_ID'), 'CURSOR_REQUEST_ID')
+    if conv.startswith(REJECTED_HOST_PREFIXES) or req.startswith(REJECTED_HOST_PREFIXES):
+        raise LedgerBlocked('executor_or_cloud_id_is_not_parent')
+    if req == actor.get('execution_instance_id') or conv == actor.get('execution_instance_id'):
+        raise LedgerBlocked('host_id_must_not_be_local_execution_uuid')
+    msg = ctx.get('owner_native_message')
+    if not isinstance(msg, dict):
+        raise LedgerBlocked('owner_native_message_required')
+    address = opaque(msg.get('host_address'), 'owner_host_address')
+    if HOST_ADDRESS.fullmatch(address) is None:
+        raise LedgerBlocked('owner_host_address_required')
+    if msg.get('role') != 'user':
+        raise LedgerBlocked('owner_host_role_required')
+    if msg.get('text') != command.get('quote'):
+        raise LedgerBlocked('host_quote_mismatch')
+    host_run = {
+        'namespace': HOST_NAMESPACE, 'observation_source': ctx.get('observation_source'),
+        'field': 'CURSOR_REQUEST_ID', 'value': req,
+        'conversation_field': 'CURSOR_CONVERSATION_ID', 'conversation_id': conv,
+        'owner_host_address': address, 'owner_host_role': 'user'}
+    events = [key([HOST_NAMESPACE, 'CURSOR_CONVERSATION_ID', conv, 'host_address', address])]
+    return (key([actor.get('surface'), HOST_NAMESPACE, 'CURSOR_REQUEST_ID', req]), events,
+            {'source': HOST_NAMESPACE, 'host_run': host_run})
+
+
 def identity(config, actor):
+    command = actor.get('owner_command') or {}
+    if actor.get('kind') == 'owner_command' and command.get('source') == HOST_NAMESPACE:
+        return parse_cursor_host(actor)
     surface = opaque(actor.get('surface'), 'surface')
     run = opaque(actor.get('provider_run_id'), 'real_provider_run_id')
     if run == actor.get('execution_instance_id'):
@@ -190,8 +251,11 @@ def consume(config, actor, ledger, item):
     note = ('Bounded wake batch: one distinct Create per ready item, at most account slot capacity, '
             'before each click. Failed, unknown, expiry and substantive refusal never reopen that item or raise the cap.')
     if row is None:
+        host_run = (record or {}).get('host_run') if isinstance(record, dict) else None
         out['runs'][rk] = {
-            'surface': actor['surface'], 'provider_run_id': actor['provider_run_id'],
+            'surface': actor['surface'],
+            'provider_run_id': None if isinstance(host_run, dict) else actor.get('provider_run_id'),
+            **({'host_run': host_run} if isinstance(host_run, dict) else {}),
             'automation_id': actor.get('automation_id'), 'execution_instance_id': actor['execution_instance_id'],
             'item_id': item['id'], 'submission_intent_id': claim['submission_intent_id'],
             'intent_at': claim['submission_intent_at'], 'consumed': True,
