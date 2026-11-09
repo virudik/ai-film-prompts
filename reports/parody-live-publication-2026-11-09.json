@@ -1,0 +1,95 @@
+{
+  "checked_at": "2026-11-09T16:34:09.124985+00:00",
+  "source_head": "3f97852f89ea62d97ff5805f74ff1df2734210a1",
+  "site": "https://xn--l1adcem8c.xn--d1aigvp.xn--p1ai/",
+  "scope": "read-only public PNG bytes and scene text, not video or editorial approval",
+  "workflow_run_id": "42655995211",
+  "master": {
+    "http_status": 200,
+    "sha256": "3003d5e5de31ae5aa86ab94f948b4992ee5ee424c809aa15b120aa9c2290f6fb",
+    "scene_blocks": {
+      "74": true,
+      "75": true,
+      "76": true,
+      "77": true,
+      "78": true,
+      "79": true,
+      "80": true
+    }
+  },
+  "images": [
+    {
+      "scene_id": 74,
+      "path": "references/scenes/scene-74/S74-studio-roar.png",
+      "http_status": 200,
+      "sha256": "ef65d3aae1a4bdeb4f49d19c576136a7dffa0b8852be06e0affac76b3c443b18",
+      "expected_sha256": "ef65d3aae1a4bdeb4f49d19c576136a7dffa0b8852be06e0affac76b3c443b18",
+      "matches": true,
+      "png_signature": true
+    },
+    {
+      "scene_id": 75,
+      "path": "references/scenes/scene-75/S75-moon-river.png",
+      "http_status": 200,
+      "sha256": "82cf2a58e8c89ee641fb41e595815734a56b484da4f636ee5b2461929ab739d9",
+      "expected_sha256": "82cf2a58e8c89ee641fb41e595815734a56b484da4f636ee5b2461929ab739d9",
+      "matches": true,
+      "png_signature": true
+    },
+    {
+      "scene_id": 76,
+      "path": "references/scenes/scene-76/S76-kandibober.png",
+      "http_status": 200,
+      "sha256": "401a265a914ea5644e087edf3b44e58c44f10169e23d3c381a598d0f33de0f8a",
+      "expected_sha256": "401a265a914ea5644e087edf3b44e58c44f10169e23d3c381a598d0f33de0f8a",
+      "matches": true,
+      "png_signature": true
+    },
+    {
+      "scene_id": 77,
+      "path": "references/scenes/scene-77/S77-love-triangle.png",
+      "http_status": 200,
+      "sha256": "d983630f247d8ba80003c7dbcabc576fe45b555a90ba51cf1d869dc8921b161f",
+      "expected_sha256": "d983630f247d8ba80003c7dbcabc576fe45b555a90ba51cf1d869dc8921b161f",
+      "matches": true,
+      "png_signature": true
+    },
+    {
+      "scene_id": 78,
+      "path": "references/scenes/scene-78/S78-mayonnaise-family.png",
+      "http_status": 200,
+      "sha256": "ff2103c750d878f2f9b0daffb16c9d42fa3890b5cde9eb31271250362c45a1e6",
+      "expected_sha256": "ff2103c750d878f2f9b0daffb16c9d42fa3890b5cde9eb31271250362c45a1e6",
+      "matches": true,
+      "png_signature": true
+    },
+    {
+      "scene_id": 79,
+      "path": "references/scenes/scene-79/S79-chips-council.png",
+      "http_status": 200,
+      "sha256": "aba5a8b96c44fe286624da0eead53dd7a076d7116f3e4300b6159a1d7831a470",
+      "expected_sha256": "aba5a8b96c44fe286624da0eead53dd7a076d7116f3e4300b6159a1d7831a470",
+      "matches": true,
+      "png_signature": true
+    },
+    {
+      "scene_id": 80,
+      "path": "references/scenes/scene-80/S80-budget-luxury.png",
+      "http_status": 200,
+      "sha256": "ff8c23f4ef3ffc5ec140d7a19dceba9bb8aa8bbddad2864f32b83ba4f21a7f3c",
+      "expected_sha256": "ff8c23f4ef3ffc5ec140d7a19dceba9bb8aa8bbddad2864f32b83ba4f21a7f3c",
+      "matches": true,
+      "png_signature": true
+    }
+  ],
+  "passed": true,
+  "expected_scene_sha256": {
+    "74": "450a5cdd9b2214866ef2404001464a7a767ea6c80fdd605223a099721edaf33f",
+    "75": "9cf7beca1e39819cf23633d7cb114f333fcc9fbf39e7127cb3c0ddead60a696b",
+    "76": "a1938a91ad6ec8f71ec9b23dc64678960f10f932729899c338646c1886d87e5c",
+    "77": "aac929851305cdb623476faadee191cdb417f7bd79ff5a8ab4360ba191c320f2",
+    "78": "59a6a1715e2c61eb5ad820932b5ccee041a0da56a2dbba2ec7cfaff6a8bddbae",
+    "79": "6e7b81a53f666216248012ee85a96b608ba528f3d9774af36acf7a885c236861",
+    "80": "0d7c3f3c7237052e766f2e67a6ef9df18040c1e3d548877168e04a0604783dcc"
+  }
+}

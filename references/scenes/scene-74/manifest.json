@@ -48,11 +48,113 @@
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-11-09T15:02:23.066221+00:00",
+  "updated_at": "2026-11-09T16:51:13.477469+00:00",
   "additional_references_pending": [
     "torch curtain pedestal",
     "globe stage",
     "potato mountain",
     "searchlight crates"
+  ],
+  "additional_reference_jobs": [
+    {
+      "scene_id": 74,
+      "kind": "torch curtain pedestal",
+      "target_path": "references/scenes/scene-74/S74-torch-curtain.png",
+      "prompt_file": "references/scenes/scene-74/S74-torch-curtain.image-prompt.txt",
+      "status": "needs_generation",
+      "identity_source": "references/full/vitalik.jpg",
+      "identity_sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+      "role": "scene_staging",
+      "source_authority": "current video-prompts.md and owner face-only correction",
+      "prompt_sha256": "aba78e6719a0fb908cc158de0c429a065a46596188485b71c258e5cec5b2f927",
+      "png_exists": false,
+      "approval": false,
+      "old_conversation_composition": {
+        "name": "виталик_с_золотым_факелом_на_театральном_пьедестал.png",
+        "sha256": "b941aa5a0eed866aabebdaa70b530bbeec1231f678494f16fd7d784d5c56e294",
+        "not_identity_authority": true,
+        "not_published_as_reference": true
+      }
+    },
+    {
+      "scene_id": 74,
+      "kind": "globe stage",
+      "target_path": "references/scenes/scene-74/S74-globe-stage.png",
+      "prompt_file": "references/scenes/scene-74/S74-globe-stage.image-prompt.txt",
+      "status": "needs_generation",
+      "identity_source": "references/full/vitalik.jpg",
+      "identity_sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+      "role": "scene_staging",
+      "source_authority": "current video-prompts.md and owner face-only correction",
+      "prompt_sha256": "97f17a009d731cd74d2982c84cad3b7e7fdec93765234f3a9ffe419c36648ac9",
+      "png_exists": false,
+      "approval": false,
+      "old_conversation_composition": {
+        "name": "виталик_и_неустойчивый_глобус.png",
+        "sha256": "aba37f86fd0104c7dc2bbaaf130e897694f74fd86f33acddd1b3effbdaff3e79",
+        "not_identity_authority": true,
+        "not_published_as_reference": true
+      }
+    },
+    {
+      "scene_id": 74,
+      "kind": "potato mountain",
+      "target_path": "references/scenes/scene-74/S74-potato-mountain.png",
+      "prompt_file": "references/scenes/scene-74/S74-potato-mountain.image-prompt.txt",
+      "status": "needs_generation",
+      "identity_source": "references/full/vitalik.jpg",
+      "identity_sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+      "role": "scene_staging",
+      "source_authority": "current video-prompts.md and owner face-only correction",
+      "prompt_sha256": "b193c7c0a2681e5c6ed9b43e2b82b637917ac1dc3a3e10892208a0266c8ee18b",
+      "png_exists": false,
+      "approval": false,
+      "old_conversation_composition": {
+        "name": "триумф_над_горой_хлама.png",
+        "sha256": "f34b580d5bcdfbbe93bd63f3957903bc0a16713359dfcc32c9ead68d5d54efe3",
+        "not_identity_authority": true,
+        "not_published_as_reference": true
+      }
+    },
+    {
+      "scene_id": 74,
+      "kind": "searchlight crates",
+      "target_path": "references/scenes/scene-74/S74-searchlight-crates.png",
+      "prompt_file": "references/scenes/scene-74/S74-searchlight-crates.image-prompt.txt",
+      "status": "needs_generation",
+      "identity_source": "references/full/vitalik.jpg",
+      "identity_sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+      "role": "scene_staging",
+      "source_authority": "current video-prompts.md and owner face-only correction",
+      "prompt_sha256": "ded14f2b549edc4ace473dc851ca811372afe18b5bef567dc62ff11b1e539c54",
+      "png_exists": false,
+      "approval": false,
+      "old_conversation_composition": {
+        "name": "виталик_покоряет_крышу.png",
+        "sha256": "3eb205b2ce26c7854a340e92955b0866d585efc68b57d043959940c7fae7eec4",
+        "not_identity_authority": true,
+        "not_published_as_reference": true
+      }
+    },
+    {
+      "scene_id": 74,
+      "kind": "saucepan gong",
+      "target_path": "references/scenes/scene-74/S74-saucepan-gong.png",
+      "prompt_file": "references/scenes/scene-74/S74-saucepan-gong.image-prompt.txt",
+      "status": "needs_generation",
+      "identity_source": "references/full/vitalik.jpg",
+      "identity_sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+      "role": "optional_gag_not_in_active_cut",
+      "source_authority": "current video-prompts.md and owner face-only correction",
+      "prompt_sha256": "7d9eb111af52189353f30375309134a468b36871958eb17fecafd337a1ead023",
+      "png_exists": false,
+      "approval": false,
+      "old_conversation_composition": {
+        "name": "виталик_и_священный_гонг_кастрюли.png",
+        "sha256": "6aa3944fa39722a8657d782a69e21265165ade64d8e2f867465533d4ead31e50",
+        "not_identity_authority": true,
+        "not_published_as_reference": true
+      }
+    }
   ]
 }

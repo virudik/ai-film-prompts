@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-09T16:09:20+00:00",
+  "last_updated_at": "2026-11-09T16:51:13+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -1212,41 +1212,41 @@
       "work_id": "SEREGIUS-PARODIES-20261109",
       "project": "seregius",
       "title": "Семь пародийных сцен с изображениями по прямой команде владельца",
-      "status": "primary_stills_saved_additional_views_pending",
+      "status": "primary_stills_published_additional_images_pending",
       "created_at": "2026-11-09T10:48:12.025422+00:00",
-      "updated_at": "2026-11-09T16:09:20+00:00",
+      "updated_at": "2026-11-09T16:51:13+00:00",
       "completed": [
         "Сверены свежие инструкции, ID 74–80 пока свободны; исходный checkpoint сохранён."
       ],
-      "next_action": "Не пересоздавать сцены74–80/21 промпт и 7 основных PNG: они сохранены. S77: Виталик/взрослый Алексей/Маша Р;78–80: Виталик/Маша Р/Алина, возраст сохранён, одежда новая. Остались дополнительные заставки74 (факел, глобус, гора, прожекторы, гонг), лёд/язь76 и дополнительные ракурсы по манифестам; полный просмотр оригиналов мемов со звуком и приёмка сходства. Старые кадры с неверными лицами не активировать. Новые кадры по одному, save-before-next. Видео не запускать.",
+      "next_action": "Не пересоздавать сцены74–80/21 промпт и7 основных PNG: сайт проверен7/7. Дополнительные задания раздельно: reports/parody-supplementary-reference-jobs-2026-11-09.json. Сначала S74-torch-curtain по точному лицу Виталика и старой композиции; сохранить отдельный пригодный PNG/manifest/master до следующего. Не использовать новые коллажи. Потом глобус/картофельная гора/прожекторы и дополнительные мемные планы; гонг — отдельный дополнительный вариант, не вставлен в активный30с монтаж. Приёмка, видео и остальные поручения остаются открытыми.",
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-09T16:09:20+00:00",
-        "last_completed": "Сохранены основные PNG всех7 сцен; дополнены лица, костюмы и все21 вход/промпт. Дополнительные кадры и приёмка открыты.",
-        "next_action": "Не пересоздавать сцены74–80/21 промпт и 7 основных PNG: они сохранены. S77: Виталик/взрослый Алексей/Маша Р;78–80: Виталик/Маша Р/Алина, возраст сохранён, одежда новая. Остались дополнительные заставки74 (факел, глобус, гора, прожекторы, гонг), лёд/язь76 и дополнительные ракурсы по манифестам; полный просмотр оригиналов мемов со звуком и приёмка сходства. Старые кадры с неверными лицами не активировать. Новые кадры по одному, save-before-next. Видео не запускать.",
+        "verified_at": "2026-11-09T16:51:13+00:00",
+        "last_completed": "Сайт проверен7/7 PNG и7/7 блоков. Подготовлено7 отдельных заданий допкадров;2 новые генерации отклонены,0 новых принятых PNG.",
+        "next_action": "Не пересоздавать сцены74–80/21 промпт и7 основных PNG: сайт проверен7/7. Дополнительные задания раздельно: reports/parody-supplementary-reference-jobs-2026-11-09.json. Сначала S74-torch-curtain по точному лицу Виталика и старой композиции; сохранить отдельный пригодный PNG/manifest/master до следующего. Не использовать новые коллажи. Потом глобус/картофельная гора/прожекторы и дополнительные мемные планы; гонг — отдельный дополнительный вариант, не вставлен в активный30с монтаж. Приёмка, видео и остальные поручения остаются открытыми.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# 09.11.2026 — восстановлены и прикреплены основные кадры пародий 75–80",
-          "sha256": "27d0149255f8501192386fa585dc56646ce52ac545d4232e7acf1917c1c944a1"
+          "anchor": "# 09.11.2026 — сайт пародий проверен 7/7; дополнительные кадры не получены",
+          "sha256": "c2d87c310bc937e45a11a8f503a9125c8f031e58e408e8c8b604869a425aa4e7"
         },
         "evidence": [
           {
-            "file": "reports/parody-scenes-2026-11-09.json",
-            "sha256": "123918d9d3af380e2afd8b60a327898c759d746318cb9e85629cd7dad3b76e64"
+            "file": "reports/parody-live-publication-2026-11-09.json",
+            "sha256": "e504fdddab96a780aa68c5f698b47a19842d9d40952d99132f96e3dd71b96692"
+          },
+          {
+            "file": "reports/parody-supplementary-reference-jobs-2026-11-09.json",
+            "sha256": "f1ee1ab36a754b0e4b1fb35b192f307512be7df8727f807b0b26b6b1a148bf28"
           }
         ],
         "read_next": [
-          "video-prompts.md",
           "reports/parody-scenes-2026-11-09.json",
           "references/scenes/scene-74/manifest.json",
-          "references/scenes/scene-75/manifest.json",
-          "references/scenes/scene-76/manifest.json",
-          "references/scenes/scene-77/manifest.json",
-          "references/scenes/scene-78/manifest.json",
-          "references/scenes/scene-79/manifest.json",
-          "references/scenes/scene-80/manifest.json"
+          "references/scenes/scene-76/manifest.json"
         ],
-        "blockers": []
+        "blockers": [
+          "Two native calls returned multi-scene collages rather than the current one-frame torch request. Those outputs are rejected; do not retry the unchanged broad request or attach them as scene references."
+        ]
       },
       "scene_ids": [
         74,

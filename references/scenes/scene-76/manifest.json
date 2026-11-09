@@ -50,7 +50,7 @@
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-11-09T16:09:20.743259+00:00",
+  "updated_at": "2026-11-09T16:51:13.477469+00:00",
   "prompt_reference_mapping": {
     "@Image1": "references/full/vitalik.jpg",
     "@Image2": "references/scenes/scene-76/S76-kandibober.png"
@@ -58,5 +58,35 @@
   "additional_references_pending": [
     "ice-fisher Normalno",
     "Yaz catch with correct fish, not pike"
+  ],
+  "additional_reference_jobs": [
+    {
+      "scene_id": 76,
+      "kind": "ice-fisher",
+      "target_path": "references/scenes/scene-76/S76-normalno-ice.png",
+      "prompt_file": "references/scenes/scene-76/S76-normalno-ice.image-prompt.txt",
+      "status": "needs_generation",
+      "identity_source": "references/full/vitalik.jpg",
+      "identity_sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+      "role": "scene_staging",
+      "source_authority": "current video-prompts.md and owner face-only correction",
+      "prompt_sha256": "29dc5fd2eb121ce6b749fd7a86383da485e0cf280260a58956778703fce0e1a4",
+      "png_exists": false,
+      "approval": false
+    },
+    {
+      "scene_id": 76,
+      "kind": "Yaz fish",
+      "target_path": "references/scenes/scene-76/S76-yaz-boat.png",
+      "prompt_file": "references/scenes/scene-76/S76-yaz-boat.image-prompt.txt",
+      "status": "needs_generation",
+      "identity_source": "references/full/vitalik.jpg",
+      "identity_sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+      "role": "scene_staging",
+      "source_authority": "current video-prompts.md and owner face-only correction",
+      "prompt_sha256": "6ecb733ac24d29128770705b30e20d38293b16bd1849e0b14cf10b1999e8b047",
+      "png_exists": false,
+      "approval": false
+    }
   ]
 }

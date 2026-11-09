@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "work_id": "SEREGIUS-PARODIES-20261109",
+  "prepared_at": "2026-11-09T16:46:05.614423+00:00",
+  "scope": "Prepared standalone supplementary image jobs; not generated or accepted PNGs",
+  "jobs": [
+    {
+      "scene_id": 74,
+      "kind": "torch curtain pedestal",
+      "target_path": "references/scenes/scene-74/S74-torch-curtain.png",
+      "prompt_file": "references/scenes/scene-74/S74-torch-curtain.image-prompt.txt",
+      "status": "needs_generation",
+      "identity_source": "references/full/vitalik.jpg",
+      "identity_sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+      "role": "scene_staging",
+      "source_authority": "current video-prompts.md and owner face-only correction",
+      "prompt_sha256": "aba78e6719a0fb908cc158de0c429a065a46596188485b71c258e5cec5b2f927",
+      "png_exists": false,
+      "approval": false,
+      "old_conversation_composition": {
+        "name": "виталик_с_золотым_факелом_на_театральном_пьедестал.png",
+        "sha256": "b941aa5a0eed866aabebdaa70b530bbeec1231f678494f16fd7d784d5c56e294",
+        "not_identity_authority": true,
+        "not_published_as_reference": true
+      }
+    },
+    {
+      "scene_id": 74,
+      "kind": "globe stage",
+      "target_path": "references/scenes/scene-74/S74-globe-stage.png",
+      "prompt_file": "references/scenes/scene-74/S74-globe-stage.image-prompt.txt",
+      "status": "needs_generation",
+      "identity_source": "references/full/vitalik.jpg",
+      "identity_sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+      "role": "scene_staging",
+      "source_authority": "current video-prompts.md and owner face-only correction",
+      "prompt_sha256": "97f17a009d731cd74d2982c84cad3b7e7fdec93765234f3a9ffe419c36648ac9",
+      "png_exists": false,
+      "approval": false,
+      "old_conversation_composition": {
+        "name": "виталик_и_неустойчивый_глобус.png",
+        "sha256": "aba37f86fd0104c7dc2bbaaf130e897694f74fd86f33acddd1b3effbdaff3e79",
+        "not_identity_authority": true,
+        "not_published_as_reference": true
+      }
+    },
+    {
+      "scene_id": 74,
+      "kind": "potato mountain",
+      "target_path": "references/scenes/scene-74/S74-potato-mountain.png",
+      "prompt_file": "references/scenes/scene-74/S74-potato-mountain.image-prompt.txt",
+      "status": "needs_generation",
+      "identity_source": "references/full/vitalik.jpg",
+      "identity_sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+      "role": "scene_staging",
+      "source_authority": "current video-prompts.md and owner face-only correction",
+      "prompt_sha256": "b193c7c0a2681e5c6ed9b43e2b82b637917ac1dc3a3e10892208a0266c8ee18b",
+      "png_exists": false,
+      "approval": false,
+      "old_conversation_composition": {
+        "name": "триумф_над_горой_хлама.png",
+        "sha256": "f34b580d5bcdfbbe93bd63f3957903bc0a16713359dfcc32c9ead68d5d54efe3",
+        "not_identity_authority": true,
+        "not_published_as_reference": true
+      }
+    },
+    {
+      "scene_id": 74,
+      "kind": "searchlight crates",
+      "target_path": "references/scenes/scene-74/S74-searchlight-crates.png",
+      "prompt_file": "references/scenes/scene-74/S74-searchlight-crates.image-prompt.txt",
+      "status": "needs_generation",
+      "identity_source": "references/full/vitalik.jpg",
+      "identity_sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+      "role": "scene_staging",
+      "source_authority": "current video-prompts.md and owner face-only correction",
+      "prompt_sha256": "ded14f2b549edc4ace473dc851ca811372afe18b5bef567dc62ff11b1e539c54",
+      "png_exists": false,
+      "approval": false,
+      "old_conversation_composition": {
+        "name": "виталик_покоряет_крышу.png",
+        "sha256": "3eb205b2ce26c7854a340e92955b0866d585efc68b57d043959940c7fae7eec4",
+        "not_identity_authority": true,
+        "not_published_as_reference": true
+      }
+    },
+    {
+      "scene_id": 74,
+      "kind": "saucepan gong",
+      "target_path": "references/scenes/scene-74/S74-saucepan-gong.png",
+      "prompt_file": "references/scenes/scene-74/S74-saucepan-gong.image-prompt.txt",
+      "status": "needs_generation",
+      "identity_source": "references/full/vitalik.jpg",
+      "identity_sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+      "role": "optional_gag_not_in_active_cut",
+      "source_authority": "current video-prompts.md and owner face-only correction",
+      "prompt_sha256": "7d9eb111af52189353f30375309134a468b36871958eb17fecafd337a1ead023",
+      "png_exists": false,
+      "approval": false,
+      "old_conversation_composition": {
+        "name": "виталик_и_священный_гонг_кастрюли.png",
+        "sha256": "6aa3944fa39722a8657d782a69e21265165ade64d8e2f867465533d4ead31e50",
+        "not_identity_authority": true,
+        "not_published_as_reference": true
+      }
+    },
+    {
+      "scene_id": 76,
+      "kind": "ice-fisher",
+      "target_path": "references/scenes/scene-76/S76-normalno-ice.png",
+      "prompt_file": "references/scenes/scene-76/S76-normalno-ice.image-prompt.txt",
+      "status": "needs_generation",
+      "identity_source": "references/full/vitalik.jpg",
+      "identity_sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+      "role": "scene_staging",
+      "source_authority": "current video-prompts.md and owner face-only correction",
+      "prompt_sha256": "29dc5fd2eb121ce6b749fd7a86383da485e0cf280260a58956778703fce0e1a4",
+      "png_exists": false,
+      "approval": false
+    },
+    {
+      "scene_id": 76,
+      "kind": "Yaz fish",
+      "target_path": "references/scenes/scene-76/S76-yaz-boat.png",
+      "prompt_file": "references/scenes/scene-76/S76-yaz-boat.image-prompt.txt",
+      "status": "needs_generation",
+      "identity_source": "references/full/vitalik.jpg",
+      "identity_sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+      "role": "scene_staging",
+      "source_authority": "current video-prompts.md and owner face-only correction",
+      "prompt_sha256": "6ecb733ac24d29128770705b30e20d38293b16bd1849e0b14cf10b1999e8b047",
+      "png_exists": false,
+      "approval": false
+    }
+  ],
+  "attempts_this_turn": [
+    {
+      "generation_id": "1157b938-eb6e-45ef-a4dc-dd026487cea8",
+      "sha256": "2cd23d80c977b80013a3f8f9133ebcb8fc034dd46d4e17dcff225103e92fa6fb",
+      "bytes": 2681600,
+      "status": "rejected",
+      "reason": "Returned multi-scene poster/collage with unrelated cast instead of one additional standalone Vitalik torch frame; not an accepted scene reference.",
+      "published_as_reference": false
+    },
+    {
+      "generation_id": "ea0c2122-51f9-4aca-9127-8fc216ad8a05",
+      "sha256": "2f90505b3f75f799c226c887895d68c989dec0dc1b3df56c1eff65d31cea0400",
+      "bytes": 2721240,
+      "status": "rejected",
+      "reason": "Returned multi-scene poster/collage with unrelated cast instead of one additional standalone Vitalik torch frame; not an accepted scene reference.",
+      "published_as_reference": false
+    }
+  ],
+  "new_accepted_images": 0,
+  "video_submissions": 0,
+  "paid_generations": 0,
+  "already_published_primary_images": 7,
+  "do_not_recreate_scene_ids": [
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "blocker": "Two native calls returned multi-scene collages rather than the current one-frame torch request. Those outputs are rejected; do not retry the unchanged broad request or attach them as scene references."
+}
