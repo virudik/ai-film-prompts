@@ -893,6 +893,15 @@
       "finished_at": "2026-11-09T15:47:11Z",
       "creditsCost": 0,
       "part": "WAN30"
+    },
+    {
+      "task_id": "efaad07750974b678df63a6be00f15d8",
+      "scene_id": 66,
+      "final_status": "success",
+      "finished_at": "2026-11-09T16:11:58Z",
+      "creditsCost": 0,
+      "part": "STITCH-INDEP",
+      "source": "owner report; independent of the Tatooine chain"
     }
   ],
   "retention": {
