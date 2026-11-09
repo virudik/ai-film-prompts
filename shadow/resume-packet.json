@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-09T03:13:32+00:00",
-  "source_head": "57cff820a721c634dd322a6c0fa7faa8f25d1490",
-  "source_fingerprint": "baa30c9ea71a13650c71dec59cc9d47fd0b8949b254fad2cf0f87107b0563909",
+  "checked_at": "2026-11-09T03:40:54+00:00",
+  "source_head": "fe29fa254f89272f4027e8d86416c9ca39644510",
+  "source_fingerprint": "5924128e2ce7fff4820ddfa90d0191b1f8fc6ec9935b9782ffe53f2e02bf77af",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -174,13 +174,6 @@
       {
         "item_id": "S49B",
         "state": "submission_unknown",
-        "task_id": null,
-        "recovery_action": "reconcile_without_resubmitting",
-        "submit_authorized": false
-      },
-      {
-        "item_id": "S48-SEED20-P2-R2-20261108",
-        "state": "claimed",
         "task_id": null,
         "recovery_action": "reconcile_without_resubmitting",
         "submit_authorized": false
@@ -451,6 +444,13 @@
     ],
     "next_candidates": [
       {
+        "item_id": "S48-SEED20-P2-R2-20261108",
+        "state": "waiting_for_slot",
+        "task_id": null,
+        "recovery_action": "fresh_launch_preflight_required",
+        "submit_authorized": false
+      },
+      {
         "item_id": "S62-SEED20-P1-R2-20261108",
         "state": "waiting_for_slot",
         "task_id": null,
@@ -459,13 +459,6 @@
       },
       {
         "item_id": "S52-R2-SEED20-P2",
-        "state": "waiting_for_slot",
-        "task_id": null,
-        "recovery_action": "fresh_launch_preflight_required",
-        "submit_authorized": false
-      },
-      {
-        "item_id": "S59-SEED20-P2-R2-20261108",
         "state": "waiting_for_slot",
         "task_id": null,
         "recovery_action": "fresh_launch_preflight_required",
@@ -527,13 +520,13 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "34df7b3b62ec760259f77e89f8d652035d2f43fc0b0be67810c2eb5597d0f50f",
-      "bytes": 400154
+      "sha256": "bea8b9500faacf9e97ad0566ddbf72303d07845231c7e3d2d45682d07d99eddc",
+      "bytes": 401665
     },
     {
       "file": "project-status.json",
-      "sha256": "51b34393f403af0e78762360b65473afd04d6b9937cdadc14327a289df31ab79",
-      "bytes": 23014
+      "sha256": "1423f3d32304d00e249b61b982135120653f315844b67f5a200f1ae9e1a74362",
+      "bytes": 23012
     },
     {
       "file": "reports/chat-handoff-save-2026-11-08.json",
@@ -571,5 +564,5 @@
       "bytes": 97604
     }
   ],
-  "packet_bytes": 6565
+  "packet_bytes": 6505
 }
