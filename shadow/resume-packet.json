@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-09T15:02:27+00:00",
-  "source_head": "ca3fdee97219e888cbc9c37f5a4ecf881e7428d6",
-  "source_fingerprint": "454a82fee7383dec4a4b354a837adb8b210dd11cdc073f5cc37b91b249960ff4",
+  "checked_at": "2026-11-09T15:13:58+00:00",
+  "source_head": "26e5940a7bfb94a75de370865475477dcb0aecfd",
+  "source_fingerprint": "f1f0d563f6297c7689e07325dbfab24049e2e3094b0b5781bdbb0441cac6e971",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -589,8 +589,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "56efcdbd000f6eaf1b3529020e56930eca1252ded8ced1a4def0aa06309b97cd",
-      "bytes": 25789
+      "sha256": "d89757c4c64cc4d862425093b57e5ac4d022af373b97272b4f9740dec309a964",
+      "bytes": 25827
     },
     {
       "file": "reports/chat-handoff-save-2026-11-08.json",
