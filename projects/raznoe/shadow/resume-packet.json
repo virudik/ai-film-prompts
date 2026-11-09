@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-09T11:36:22+00:00",
-  "source_head": "a59aacd4ad11b47d482a4126751c56702b777fbc",
-  "source_fingerprint": "4d5d2b80e70f9976185f9560e3e4f822d9b0fb7dbbca1916a22cdaea29207027",
+  "checked_at": "2026-11-09T11:44:25+00:00",
+  "source_head": "28a8730f6cf1ef4435eb457bd48e568ef4800a7f",
+  "source_fingerprint": "fd836b186063d09d669fde9657256b7aaae6e28d9ee911f9332765f0e24f8fb1",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -256,8 +256,8 @@
     },
     {
       "file": "projects/raznoe/project-status.json",
-      "sha256": "7e20de59e76c740e995531ec6f86a9856cdef84911f6de0d0545f3f447200fb4",
-      "bytes": 10116
+      "sha256": "16d496be7c263f4e8d54ec503600934d400cad010e50518b7ae5f4068b1bd608",
+      "bytes": 10113
     },
     {
       "file": "projects/raznoe/reports/chat-handoff-save-2026-11-08.json",
