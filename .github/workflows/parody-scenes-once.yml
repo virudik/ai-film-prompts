@@ -6,14 +6,19 @@ on:
 permissions:
   contents: write
 jobs:
-  checkpoint:
+  publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
         with:
           ref: main
           fetch-depth: 1
-      - name: Save factual initial stage without production actions
+      - name: Load reviewed bounded source
+        run: |
+          git fetch origin 68e6ce44c41ad22f8375589e97e44bc51caa5dd6
+          git show 68e6ce44c41ad22f8375589e97e44bc51caa5dd6:staging/parodies/scenes.json > /tmp/parody-scenes.json
+          git show 68e6ce44c41ad22f8375589e97e44bc51caa5dd6:staging/parodies/publish.py > /tmp/parody-publish.py
+      - name: Fresh-main publish under exact own lease, no queue writes
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
@@ -21,36 +26,44 @@ jobs:
           for attempt in 1 2 3; do
             git fetch origin main
             git reset --hard origin/main
+            cp video-prompts.md /tmp/old-master.md
+            PYTHONPATH="$PWD/scripts" python3 /tmp/parody-publish.py /tmp/parody-scenes.json
+            python3 scripts/cert_github.py .
+            python3 scripts/build_project_status.py video-prompts.md --output project-status.json --synced-at "$(date -u +%FT%TZ)" --topview-status-file topview-status.json --topview-task-map-file topview-task-map.json --previous-status-file project-status.json --previous-master-file /tmp/old-master.md > /tmp/parody-status.json
+            python3 scripts/check_instruction_consistency.py .
+            python3 scripts/validate_site.py .
+            python3 -m unittest tests/test_continue_preflight.py tests/test_continue_recovery.py tests/test_project_recovery.py tests/test_instruction_consistency.py > /tmp/parody-tests.txt 2>&1
             python3 - <<'PY'
-          import json,datetime,sys,hashlib
+          import json,sys,datetime
           from pathlib import Path
           sys.path.insert(0,'scripts')
-          import resume_state
-          now=datetime.datetime.now(datetime.timezone.utc)
-          lock=json.loads(Path('ops/canon-lock.json').read_text())
-          assert lock['state']=='held' and lock['holder']=='chatgpt:ordinary:4ce5446d-f8c0-480f-b26c-fd639124c132'
-          assert lock['acquired_at']=='2026-11-09T10:46:14+00:00' and datetime.datetime.fromisoformat(lock['expires_at'])>now
-          work='SEREGIUS-PARODIES-20261109'
-          report='reports/parody-scenes-2026-11-09.json'
-          request={'schema_version':1,'work_id':work,'project':'seregius','state':'preparation','owner_request':'1-7 делай сцены в серёгиусе с референсами изображениями','scope':['parody studio logos with Vitalik','adult Vitalik on crescent moon, non-graphic river gag','Kandibober / Normalno / Yaz memes','She rejected me romantic meme','family mayonnaise advertisement','Lay\u0027s chips advertisement','luxury advertising of cheap household objects'],'new_scene_ids_candidate':list(range(74,81)),'scene_ids_finalized':False,'initial_source_head':'dc3fa5abc2c9ae0aeca9c9f0ebe02e5e6446445a','preflight':'short intake passed; 15 anchors and exact source checks','owner_decisions_read':'Only pre-existing Grok needs_owner found; no new scene conflicts','images_created':0,'video_submissions':0,'paid_generations':0,'queue_change_authorized':False,'editorial_approval':False,'next_action':'Create seven new DRAFT scenes after fresh ID/duplicate check; exact identity references; two prompt versions per scene; generate individual native images and save each with QC/provenance before next. No video launches.','checked_at':now.isoformat()}
-          p=Path(report)
-          if p.exists():
-            existing=json.loads(p.read_text());assert existing['work_id']==work
-            if existing.get('state')!='preparation': raise SystemExit('Refuse to reset a later stage')
-          else:p.write_text(json.dumps(request,ensure_ascii=False,indent=2)+'\n')
-          regp=Path('work-resume-register.json');reg=json.loads(regp.read_text())
-          if not any(w['work_id']==work for w in reg['active_work']):
-            reg['active_work'].append({'work_id':work,'project':'seregius','title':'Семь пародийных сцен с изображениями по прямой команде владельца','status':'in_progress','created_at':now.isoformat(),'updated_at':now.isoformat(),'completed':['Сверены свежие инструкции, ID 74–80 пока свободны; исходный checkpoint сохранён.'],'next_action':request['next_action']})
-            regp.write_text(json.dumps(reg,ensure_ascii=False,indent=2)+'\n')
-          anchor='# 09.11.2026 — начальная точка: семь пародий Серёгиуса'
-          cp=Path('reports/current-work-checkpoint.md');old=cp.read_text()
-          if anchor not in old:
-            cp.write_text(anchor+'\n\nwork_id: '+work+'\n\n- Владелец разрешил семь сцен по последнему списку и отдельные изображения. Это подготовка, не готовые видео.\n- Проверить ID 74–80 перед записью; не переиспользовать прежние и не менять существующие промпты.\n- Оригиналы мемов проверяются отдельно от авторской пародии; полный просмотр и слуховую проверку не выдумывать.\n- Сохранить обе версии промптов, затем каждый пригодный PNG с SHA/manifest/QC и привязкой перед следующим. Видеозапуски и платные действия не разрешены этой командой.\n- Доказательство: '+report+'.\n\n---\n\n'+old)
-          resume_state.capture('.',work,anchor,'Исходная точка нового поручения сохранена; производство ещё не выполнено.',request['next_action'],[report],['PROMPT-STYLE-GUIDE.md','video-prompts.md',report],False)
+          from trim_service_files import trim_register
+          p=Path('work-resume-register.json');a=Path('archive/work-resume-register-archive.json')
+          out=trim_register(json.loads(p.read_text()),json.loads(a.read_text()) if a.exists() else {})
+          if out:
+            reg,archive,*_=out;p.write_text(json.dumps(reg,ensure_ascii=False,indent=2)+'\n');a.parent.mkdir(exist_ok=True);a.write_text(json.dumps(archive,ensure_ascii=False,indent=2)+'\n')
+          lockp=Path('ops/canon-lock.json');l=json.loads(lockp.read_text());now=datetime.datetime.now(datetime.timezone.utc)
+          assert l['holder']=='chatgpt:ordinary:4ce5446d-f8c0-480f-b26c-fd639124c132' and l['state']=='held' and datetime.datetime.fromisoformat(l['expires_at'])>now
+          l.update(state='free',expires_at=None,released_at=now.isoformat());lockp.write_text(json.dumps(l,ensure_ascii=False,indent=2)+'\n')
           PY
-            git add reports/parody-scenes-2026-11-09.json reports/current-work-checkpoint.md work-resume-register.json
-            if git diff --cached --quiet; then break; fi
-            git commit -m 'Checkpoint owner-authorized seven parody scenes before production'
-            if git push origin HEAD:main; then break; fi
+            python3 scripts/build_takeover_brief.py . shadow
+            python3 scripts/build_resume_packet.py . --all-projects
+            python3 scripts/continue_preflight.py . --work-id SEREGIUS-PARODIES-20261109 > /tmp/parody-preflight.json
+            git add video-prompts.md SYNC-TRIGGER.txt project-status.json instruction-sync-status.json character-references.json NEW-CHAT-HANDOFF.md ops/FUTURE-PLANS.md reports/current-work-checkpoint.md reports/parody-scenes-2026-11-09.json reports/parody-scenes-source-2026-11-09.json work-resume-register.json archive/work-resume-register-archive.json ops/canon-lock.json references/scenes/scene-74 references/scenes/scene-75 references/scenes/scene-76 references/scenes/scene-77 references/scenes/scene-78 references/scenes/scene-79 references/scenes/scene-80 shadow projects/*/shadow/resume-packet.*
+            git commit -m 'Add Seregius parody scenes 74–80 with 21 prompts, source notes and pending image manifests'
+            if git push origin HEAD:main; then
+              git fetch origin main
+              for f in video-prompts.md reports/parody-scenes-2026-11-09.json character-references.json; do test "$(git rev-parse HEAD:$f)" = "$(git rev-parse origin/main:$f)"; done
+              exit 0
+            fi
             if [ "$attempt" = 3 ]; then exit 1; fi
           done
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: parody-publication-checks
+          path: |
+            /tmp/parody-status.json
+            /tmp/parody-tests.txt
+            /tmp/parody-preflight.json
+          retention-days: 2
