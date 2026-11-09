@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "f853b0057320bbc6df27f0e669f01784c35829f18f8fe268666a698d11a5f364",
+  "source_queue_sha256": "ebf1844d06a43186af377b5f71bf998bd94ed67c9e983ee65de95d004ee538a0",
   "source_task_map_sha256": "4e7a34561db3e4da27c92ef10c51d54b3f41091404f08e32ba1ac061a937274f",
   "topview_checked_at": "2026-11-09T09:10:23Z",
   "items": [
@@ -167,15 +167,6 @@
       "queue_state": "blocked_inputs"
     },
     {
-      "id": "S61-SEED20-P2",
-      "scene_id": 61,
-      "part_label": "Часть 2",
-      "code": "preflight_required",
-      "ready": false,
-      "text": "Входы найдены; требуется снять записанный блокер после проверки",
-      "queue_state": "submitting"
-    },
-    {
       "id": "S62-SEED20-P1-R2-20261108",
       "scene_id": 62,
       "part_label": "Часть 1",
@@ -330,5 +321,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-09T09:27:59.863521Z"
+  "checked_at": "2026-11-09T09:30:15.559836Z"
 }
