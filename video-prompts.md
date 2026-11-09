@@ -8199,7 +8199,7 @@ Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9
 Optimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action space-opera cinema, dynamic comedy
 
 REFERENCES / AUTHORITY ORDER:
-@Video1 — THIS chain's previous shot: the actual last 3 seconds of scene 52 Part 7 (Wan 3.0), where the camera has just turned to follow the girls and Stitch. File: references/scenes/scene-52/S52-R2-P7-last3s.mp4 (cut from the real result at launch). Absolute authority for the starting frame, positions, camera, light and ongoing motion. Continue it seamlessly; never restart or replay.
+@Image8 — THIS chain's previous shot: the exact final frame of scene 52 Part 7 (Wan 3.0), where the camera has just turned to follow the girls and Stitch. File: references/scenes/scene-52/S52-R2-P7-final-frame.png (taken from the real result at launch). Absolute authority for the starting frame, positions, camera and light. Start exactly from it and continue the motion seamlessly; never restart.
 @Image1 — exact ALINA (GIRL A): face, hair, age and Tatooine costume from her individual sheet; highest identity authority. File: references/scenes/scene-66/S66-Alina-tatooine-sheet.png.
 @Image2 — exact DASHA (GIRL B): face, hair, age and Tatooine costume from her individual sheet; highest identity authority. File: references/scenes/scene-66/S66-Dasha-tatooine-sheet.png.
 @Image3 — STITCH in the foreground of this street image: authority only for his pose, red harness and leash (his design comes from @Image7). The same image supplies street geography and crowd-reaction composition in the same town as scene 52. Sheets @Image1 and @Image2 override the girls' faces in this composition. File: references/scenes/scene-66/S66-street-outrage.png.
@@ -8219,7 +8219,7 @@ LOCATION / STORY LOCK — CRITICAL:
 The same lived-in Tatooine town as scene 52: sand-coloured adobe, domes, awnings, vaporators, harsh light of twin suns, dusty street. One leash from Stitch's red harness to GIRL A's hand. Serega is not in this scene. The poop moment is comic and non-graphic: Stitch squats, a small dark pile, a puff of steam; no close-up of it. Passers-by are outraged; the girls ignore it completely: NO apology, NO cleanup, no embarrassment — they behave as if this is perfectly normal. The pile stays; passers-by step around it. End at the @Image4 fruit stall: Masha R with her melon facing the @Image6 vendor; the argument of scene 67 is only just beginning.
 
 START STATE:
-Begin on the exact final frame of @Video1 (scene 52 Part 7): the camera is following the two girls and Stitch down the market street mid-stride. Continue that motion with no reset; Serega is already out of frame.
+Begin on the exact frame @Image8 (final frame of scene 52 Part 7): the camera is following the two girls and Stitch down the market street mid-stride. Continue that motion with no reset; Serega is already out of frame.
 
 TIMELINE:
 [0:00–0:05] THE WALK — Continue the tracking shot: the girls chat casually as Stitch trots proudly ahead, sniffing a fruit crate and a passing droid. Busy street life all around.

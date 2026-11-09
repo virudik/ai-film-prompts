@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "3436cf6d83a6e7878b1c1129669b5aa57540059b4f42bfb74b09b31a87f5f637",
-  "source_task_map_sha256": "defa172466c652d39c27db886f8e1776f1d94d420d28fc29f3507ec4119c5bf4",
+  "source_queue_sha256": "1a78bc93e568f2ebbeac0fe819ce43d84fab2568df6cec47a1aa11f28f3a08af",
+  "source_task_map_sha256": "f4b41c5d3b5956db4cbcf5283aadd4b33c4d3227eda5ef801583c12e44b121e7",
   "topview_checked_at": "2026-11-09T13:10:27Z",
   "items": [
     {
@@ -179,10 +179,10 @@
       "id": "S66-WAN30",
       "scene_id": 66,
       "part_label": "66",
-      "code": "prepare_continuity",
-      "ready": false,
-      "text": "@Video1: результат 52 · Wan 3.0 часть 7 получен — подготовить и проверить стык",
-      "queue_state": "blocked_inputs"
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
     },
     {
       "id": "S67-WAN30",
@@ -240,5 +240,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-09T13:10:31.287827Z"
+  "checked_at": "2026-11-09T13:15:43.482379Z"
 }

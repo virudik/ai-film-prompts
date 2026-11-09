@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "item_id": "S66-WAN30",
+  "slot": "@Image8",
+  "kind": "exact_final_frame_of_previous_part",
+  "not_a_generation": true,
+  "not_film_accepted": true,
+  "source_item_id": "S52-R2-SEED20-P7",
+  "source_task_id": "4283036c9c8c486bb8a60c9e9326447d",
+  "full_original": {
+    "sha256": "5bb4c3a70dabb27ce61dfcd9c88ba59097893f4a49b6530c1916348ba5689223",
+    "rehashed_here": false,
+    "topview_status": "success",
+    "creditsCost": 0,
+    "completed_at": "2026-11-09T13:04:01Z",
+    "duration_seconds": 30,
+    "width": 1280,
+    "height": 720,
+    "frames": 900,
+    "fps": 30
+  },
+  "file": {
+    "filename": "S52-R2-P7-final-frame.png",
+    "path": "references/scenes/scene-52/S52-R2-P7-final-frame.png",
+    "sha256": "f5b86a1bd2273538fdd432bea45eac23363daf94dcb918e993ac6305d900a92c",
+    "bytes": 1663722,
+    "width": 1280,
+    "height": 720,
+    "drive_file_id": "1nHMW2AILnKpUK1m91EMcDHea43Lts3HK",
+    "drive_folder": "Scene Reference Packs"
+  },
+  "qc_note": "Girls walking away with Stitch on a leash, camera behind, Tatooine market. Matches the S66 start.",
+  "qc_blocking": false,
+  "owner_orders": [
+    "t438u",
+    "t439u"
+  ]
+}
