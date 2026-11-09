@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "state": "free",
-  "holder": "chatgpt:ordinary:380ed1ce-b2e1-4571-a6fe-c01365eb6035",
-  "task": "Seregius ordinary hourly full-scan reconciliation and receipt; NO CREATE until verified preflight",
-  "acquired_at": "2026-11-09T10:10:35.068Z",
+  "holder": "grok:e3ed0f26-98db-416a-8299-0c03014cf635",
+  "task": "t413u standing S59-SEED20-P3 intent only",
+  "acquired_at": "2026-11-09T10:21:40Z",
   "expires_at": null,
-  "released_at": "2026-11-09T10:17:33.551Z",
+  "released_at": "2026-11-09T10:21:40Z",
   "rules": "ops/CANON-LOCK.md"
 }
