@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "roscosmos",
   "project_name": "Роскосмос",
-  "checked_at": "2026-11-09T12:31:25+00:00",
-  "source_head": "f87d45c1640d0f1838de779bf800e9efb7ad5257",
-  "source_fingerprint": "db7193b69d4a5b7873b63df90c654a024d097d0c6a63b17fbc6777f982b6e8dd",
+  "checked_at": "2026-11-09T12:34:04+00:00",
+  "source_head": "b2eb651b11d0797e3932e3dec205ccd1893d595c",
+  "source_fingerprint": "275cf35e8557f1bca9a6e7adb478de83375b50245cbf934f20388b66ec7bdb3a",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -133,8 +133,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "eeb2276fe9fb955c0b98f7efc3ee27ada1b70f5fd8fbf4966b86a01ced2e8486",
-      "bytes": 34862
+      "sha256": "0735b1f9bbf0c7d23334bcfbd0134421a86eb9f4f0edfcffbd95a663343f6957",
+      "bytes": 34890
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -158,7 +158,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "e6839566f526408febc0189564a23d6fab0bf26e348d59d5ea91ae27bf3e53dc",
+      "sha256": "c5691cc31e85b40547e8ee43eaae77ad1aadc860cb7375e38aaef9fd0463396d",
       "bytes": 5135
     },
     {
@@ -173,7 +173,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "1fb8191e5a1bfb75895785a2c86eb8dae2266895498f2c6bfa81130bd05a2def",
+      "sha256": "f5b13f289377e9605dda1eb0fd69ad25b61a5961a5fbba74c9ec6218eec75a1a",
       "bytes": 25723
     },
     {
@@ -203,8 +203,8 @@
     },
     {
       "file": "projects/roscosmos/project-status.json",
-      "sha256": "da9dc62afd2e88a89b4ad5bb2ba2b9a49c2d19d8f2c38a204c54ecd81f94f28d",
-      "bytes": 21828
+      "sha256": "cf81e61021866451fb9a31ed99f3590094d4ad4fe38b5a34a0343b37062bad2e",
+      "bytes": 21825
     },
     {
       "file": "projects/roscosmos/reports/current-work-checkpoint.md",
@@ -228,18 +228,18 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "ea611bce663b644ca1e8025d0481876e20955e05552f3e2ec1ccc71904242240",
-      "bytes": 34663
+      "sha256": "c161e3c186c8ec57b4ae5a4b605ffddb358b5f67f088b4fed518ccf19c8fa16a",
+      "bytes": 34691
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "e531c0d4711cdaa0bcafbf5d30b1d3734b2bcdfcc4420b3bf94a7d1e723ceb16",
+      "sha256": "95abe6b1758e8dca6fb639e24b713bfadc4a4248177a8b0f9a48da60d5d4b2f4",
       "bytes": 28321
     },
     {
       "file": "video-prompts.md",
-      "sha256": "1ac998f62a068fd762bf0911088e0c8a05938f86556d06c1f6e4868433139734",
-      "bytes": 1486943
+      "sha256": "c9d1c4a2e36be07d673fe629edce8c06920d3f27f87dcd34e6edaf885c3e73ac",
+      "bytes": 1486569
     }
   ],
   "packet_bytes": 4683
