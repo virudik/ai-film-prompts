@@ -5036,7 +5036,7 @@
       "canonical_prompt_sha256": "0dfc77ba488b121bb39bb4b92c00c6b26ccc61d27575d5ce2d558e7ee6b2b86a",
       "normalized_prompt_sha256": "556502d2d128cbb314d11ab65c810e3c69a69ed17a076ce02d4c5380437cc846",
       "priority": 0.014,
-      "state": "submitting",
+      "state": "submitted",
       "model": "Wan 3.0",
       "model_id": "qwen-wan3.0-video",
       "duration_seconds": 30,
@@ -5045,7 +5045,7 @@
       "aspect_ratio": "16:9",
       "quantity": 1,
       "mode": "omni_reference",
-      "max_new_submissions": 1,
+      "max_new_submissions": 0,
       "max_credits": 0,
       "references": [
         {
@@ -5115,62 +5115,8 @@
           "canonical_role": "Стич: индивидуальная развёртка (4 вида в рост и 3 портрета); высший приоритет внешности существа"
         }
       ],
-      "task_id": null,
-      "claim": {
-        "claim_id": "a4db66e5-14b0-4e0d-953c-3a1a8f7098d2",
-        "claimed_at": "2026-11-09T12:45:28Z",
-        "claimed_by": "grok",
-        "execution_instance_id": "e24c6926-d06f-4b2a-8002-2272387d4a86",
-        "route_generation": 3,
-        "lease_holder": "grok:e24c6926-d06f-4b2a-8002-2272387d4a86",
-        "lease_acquired_at": "2026-11-09T12:45:28Z",
-        "source": "cursor_host standing command t413u-20261109",
-        "canonical_prompt_sha256": "0dfc77ba488b121bb39bb4b92c00c6b26ccc61d27575d5ce2d558e7ee6b2b86a",
-        "normalized_prompt_sha256": "556502d2d128cbb314d11ab65c810e3c69a69ed17a076ce02d4c5380437cc846",
-        "preflight": {
-          "owner_authorized": true,
-          "prompt_match": true,
-          "input_sha_match": true,
-          "input_order_match": true,
-          "qc_passed": true,
-          "website_unlimited": true,
-          "credits_cost": 0,
-          "numeric_zero_displayed": false,
-          "unlimited_mode_selected": true,
-          "credits_cost_evidence": "selected_free_unlimited_current_form",
-          "ui_unlimited_label": "Безлимитный режим — бесплатно",
-          "paid_18_credit_mode_selected": false,
-          "paid_credit_mode_selected": false,
-          "quantity": 1,
-          "resolution": 720,
-          "aspect_ratio": "16:9"
-        },
-        "submission_intent_id": "9f58240d-6d00-4f62-8bde-90ab118d9cf3",
-        "submission_intent_at": "2026-11-09T12:45:28Z",
-        "replay_forbidden": true,
-        "host_run": {
-          "namespace": "cursor_host",
-          "observation_source": "parent_shell_os_environ",
-          "field": "CURSOR_REQUEST_ID",
-          "value": "fb8cb2e2-8d82-46a2-a61e-8972a52c0184",
-          "conversation_field": "CURSOR_CONVERSATION_ID",
-          "conversation_id": "1c1bf697-3c93-4068-b457-e90efdd5ef8f",
-          "standing_command_id": "t413u-20261109"
-        },
-        "provider_run_key": "19f1e11c97fbe058b1a47f26d1dd2adca0673d7a6f35554238b3703a2ffa8729",
-        "owner_event_keys": [
-          "6a51f2fa8dc93cb15c6f8766ff29a98b9b2186188c669cb677d99f00bfacf708"
-        ],
-        "ledger_path": "ops/launcher-run-ledger.json",
-        "trigger": "owner_command",
-        "owner_command": {
-          "quote": "Говорю запускай значит запускай. Зачем спрашивать по 10 раз если есть уже согласованная очередь запуска",
-          "source": "cursor_host",
-          "at": "2026-11-09T09:25:00+01:00",
-          "standing_command_id": "t413u-20261109",
-          "standing_host_address": "t413u"
-        }
-      },
+      "task_id": "4283036c9c8c486bb8a60c9e9326447d",
+      "claim": null,
       "depends_on_completed": [
         "S52-R2-SEED20-P6"
       ],
@@ -5193,6 +5139,17 @@
         "previous_canonical_prompt_sha256": "90b6d4ce8d404d8e929c0d0e92f29bbff20d654eed07c89a1f8e6b5734fcf46f",
         "canonical_prompt_sha256": "0dfc77ba488b121bb39bb4b92c00c6b26ccc61d27575d5ce2d558e7ee6b2b86a",
         "chars": 5766
+      },
+      "submitted_at": "2026-11-09T12:47:00Z",
+      "max_new_submissions_consumed": 1,
+      "receipt": "reports/topview-queue-2026-10-16/S52-R2-SEED20-P7-20261109T124700Z.json",
+      "last_claim": {
+        "claim_id": "a4db66e5-14b0-4e0d-953c-3a1a8f7098d2",
+        "claimed_at": "2026-11-09T12:45:28Z",
+        "execution_instance_id": "e24c6926-d06f-4b2a-8002-2272387d4a86",
+        "submission_intent_id": "9f58240d-6d00-4f62-8bde-90ab118d9cf3",
+        "archive_file": "reports/topview-queue-2026-10-16/S52-R2-SEED20-P7-20261109T124700Z.json",
+        "archive_sha256": "15e3639b59c1042d2975d8d187e2c44a823cb6fbf51ebef9e1216b91704745fa"
       }
     },
     {

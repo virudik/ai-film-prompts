@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "cursor:bc-b6c53856-e99b-58a2-a5e3-54a898cb355c",
   "task": "Record the S52 part 7 receipt",
   "acquired_at": "2026-11-09T12:48:33Z",
-  "expires_at": "2026-11-09T13:08:33Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-09T12:48:43Z",
   "rules": "ops/CANON-LOCK.md"
 }
