@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "cursor:bc-b6c53856-e99b-58a2-a5e3-54a898cb355c",
-  "task": "Record the S69 receipt",
-  "acquired_at": "2026-11-09T14:57:53Z",
-  "expires_at": null,
-  "released_at": "2026-11-09T14:58:05Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:89544e09-ebc6-4549-a7df-654d7927f4e0",
+  "task": "Persist existing S74 reference and owner S77 adult cast correction; no video submissions",
+  "acquired_at": "2026-11-09T14:59:38+00:00",
+  "expires_at": "2026-11-09T15:19:38+00:00",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
