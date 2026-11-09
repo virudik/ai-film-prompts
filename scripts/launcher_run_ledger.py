@@ -24,6 +24,7 @@ HOST_OBSERVATIONS = frozenset((
 ))
 HOST_FIELD_NAMES = ('CURSOR_CONVERSATION_ID', 'CURSOR_REQUEST_ID')
 HOST_ADDRESS = re.compile(r'^t[1-9][0-9]*u$')
+HOST_CARD_ADDRESS = re.compile(r'^t[1-9][0-9]*s[1-9][0-9]*$')
 REJECTED_HOST_PREFIXES = ('sand-subagent-', 'bc-')
 
 class LedgerBlocked(ValueError):
@@ -134,22 +135,45 @@ def parse_cursor_host(actor):
         raise LedgerBlocked('executor_or_cloud_id_is_not_parent')
     if req == actor.get('execution_instance_id') or conv == actor.get('execution_instance_id'):
         raise LedgerBlocked('host_id_must_not_be_local_execution_uuid')
+    card = ctx.get('owner_card_response')
     msg = ctx.get('owner_native_message')
-    if not isinstance(msg, dict):
-        raise LedgerBlocked('owner_native_message_required')
-    address = opaque(msg.get('host_address'), 'owner_host_address')
-    if HOST_ADDRESS.fullmatch(address) is None:
-        raise LedgerBlocked('owner_host_address_required')
-    if msg.get('role') != 'user':
-        raise LedgerBlocked('owner_host_role_required')
-    if msg.get('text') != command.get('quote'):
-        raise LedgerBlocked('host_quote_mismatch')
-    host_run = {
-        'namespace': HOST_NAMESPACE, 'observation_source': ctx.get('observation_source'),
-        'field': 'CURSOR_REQUEST_ID', 'value': req,
-        'conversation_field': 'CURSOR_CONVERSATION_ID', 'conversation_id': conv,
-        'owner_host_address': address, 'owner_host_role': 'user'}
-    events = [key([HOST_NAMESPACE, 'CURSOR_CONVERSATION_ID', conv, 'host_address', address])]
+    if isinstance(card, dict) and isinstance(msg, dict):
+        raise LedgerBlocked('card_response_and_owner_message_are_different')
+    if isinstance(card, dict):
+        if card.get('current_owner_response_message_address') is not None:
+            raise LedgerBlocked('unexposed_message_address_must_stay_null')
+        address = opaque(card.get('owner_response_to_card_address'), 'owner_response_to_card_address')
+        if HOST_CARD_ADDRESS.fullmatch(address) is None:
+            raise LedgerBlocked('owner_response_to_card_address_required')
+        if card.get('owner_response_role') != 'user':
+            raise LedgerBlocked('owner_response_role_required')
+        if card.get('owner_response_text') != command.get('quote'):
+            raise LedgerBlocked('host_quote_mismatch')
+        host_run = {
+            'namespace': HOST_NAMESPACE, 'observation_source': ctx.get('observation_source'),
+            'field': 'CURSOR_REQUEST_ID', 'value': req,
+            'conversation_field': 'CURSOR_CONVERSATION_ID', 'conversation_id': conv,
+            'owner_response_kind': 'answered_card',
+            'owner_response_to_card_address': address,
+            'owner_response_role': 'user',
+            'current_owner_response_message_address': None}
+        events = [key([HOST_NAMESPACE, 'CURSOR_CONVERSATION_ID', conv, 'owner_response_to_card_address', address])]
+    else:
+        if not isinstance(msg, dict):
+            raise LedgerBlocked('owner_native_message_required')
+        address = opaque(msg.get('host_address'), 'owner_host_address')
+        if HOST_ADDRESS.fullmatch(address) is None:
+            raise LedgerBlocked('owner_host_address_required')
+        if msg.get('role') != 'user':
+            raise LedgerBlocked('owner_host_role_required')
+        if msg.get('text') != command.get('quote'):
+            raise LedgerBlocked('host_quote_mismatch')
+        host_run = {
+            'namespace': HOST_NAMESPACE, 'observation_source': ctx.get('observation_source'),
+            'field': 'CURSOR_REQUEST_ID', 'value': req,
+            'conversation_field': 'CURSOR_CONVERSATION_ID', 'conversation_id': conv,
+            'owner_host_address': address, 'owner_host_role': 'user'}
+        events = [key([HOST_NAMESPACE, 'CURSOR_CONVERSATION_ID', conv, 'host_address', address])]
     return (key([actor.get('surface'), HOST_NAMESPACE, 'CURSOR_REQUEST_ID', req]), events,
             {'source': HOST_NAMESPACE, 'host_run': host_run})
 

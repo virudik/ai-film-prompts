@@ -165,5 +165,76 @@ class CursorHostOwnerCommandTests(unittest.TestCase):
                 ledger=self.ledger, root=root)
 
 
+CARD = 't408s1979'
+CARD_TEXT = 'Да, внеси PR 483 в основную версию и запускай 48 P2 и 52 P2.'
+CARD_REQ = 'eb1533d4-dc87-4a0c-ad56-ae7f8fe88386'
+
+
+def card_packet(request_id=CARD_REQ, role='user', text=CARD_TEXT, address=CARD, message_address=None,
+                observation='parent_shell_os_environ', at=None):
+    return {
+        'observation_source': observation,
+        'CURSOR_CONVERSATION_ID': CONV,
+        'CURSOR_REQUEST_ID': request_id,
+        'owner_response_role': role,
+        'owner_response_text': text,
+        'owner_response_to_card_address': address,
+        'owner_response_at': at or lc.stamp(GROK_NOW),
+        'current_owner_response_message_address': message_address,
+    }
+
+
+class AnsweredCardTests(unittest.TestCase):
+    setUp = CursorHostOwnerCommandTests.setUp
+    def test_real_card_answer_is_not_a_tnu_and_does_not_consume(self):
+        body = card_packet()
+        out = lc.dry_run_cursor_host(self.cfg, body, GROK_NOW, self.local_execution, self.ledger)
+        self.assertTrue(out['allowed'])
+        self.assertFalse(out['consumes'])
+        self.assertEqual(out['host_run']['owner_response_kind'], 'answered_card')
+        self.assertEqual(out['host_run']['owner_response_to_card_address'], CARD)
+        self.assertIsNone(out['host_run']['current_owner_response_message_address'])
+        self.assertEqual(out['host_run']['value'], CARD_REQ)
+        self.assertEqual(out['host_run']['conversation_id'], CONV)
+        self.assertNotIn('owner_host_address', out['host_run'])
+        self.assertEqual(self.ledger, lr.empty())
+
+    def test_card_value_is_still_rejected_as_an_owner_message_address(self):
+        body = packet(address=CARD)
+        with self.assertRaises(lc.Blocked):
+            lc.dry_run_cursor_host(self.cfg, body, GROK_NOW, self.local_execution)
+
+    def test_card_without_user_answer_page_child_and_fake_message_are_denied(self):
+        denied = [
+            card_packet(role='assistant'),
+            card_packet(text=''),
+            card_packet(observation='page_text'),
+            card_packet(request_id='sand-subagent-eb1533d4'),
+            card_packet(message_address='t408u'),
+            card_packet(address='t408u'),
+        ]
+        for body in denied:
+            with self.subTest(address=body['owner_response_to_card_address'], role=body['owner_response_role']), self.assertRaises(lc.Blocked):
+                lc.dry_run_cursor_host(self.cfg, body, GROK_NOW, self.local_execution)
+
+    def test_same_card_on_another_request_is_denied(self):
+        actor = dict(self.actor)
+        quote, at, context = lc._cursor_host_context(card_packet())
+        actor['owner_command'] = {'source': 'cursor_host', 'quote': quote, 'at': at, 'host_context': context}
+        actor['kind'] = 'owner_command'
+        _, ledger = lc.prepare_transaction(
+            self.cfg, self.lock, self.item, actor, self.scan, GROK_NOW, ledger=self.ledger)
+        quote, at, context = lc._cursor_host_context(card_packet(request_id='aaaaaaaa-bbbb-4ccc-8ddd-eeeeeeeeeeee'))
+        other = dict(actor, owner_command={'source': 'cursor_host', 'quote': quote, 'at': at, 'host_context': context})
+        with self.assertRaises(lc.Blocked):
+            lc.prepare_transaction(
+                self.cfg, self.lock, dict(self.item, id='other-item'), other, self.scan, GROK_NOW, ledger=ledger)
+
+    def test_stale_card_answer_is_denied(self):
+        body = card_packet(at=lc.stamp(GROK_NOW - timedelta(minutes=61)))
+        with self.assertRaises(lc.Blocked):
+            lc.dry_run_cursor_host(self.cfg, body, GROK_NOW, self.local_execution)
+
+
 if __name__ == '__main__':
     unittest.main()

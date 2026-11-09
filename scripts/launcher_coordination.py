@@ -296,32 +296,58 @@ def prepare_intent(config, lock, item, actor, scan, now, queue_board_id=None, le
         out['claim']['trigger'] = 'owner_command'
         recorded = {k: command.get(k) for k in ('quote', 'source', 'at', 'chat_id') if command.get(k) is not None}
         message = ((command.get('host_context') or {}).get('owner_native_message') or {})
+        card = ((command.get('host_context') or {}).get('owner_card_response') or {})
         if message.get('host_address'):
             recorded['host_address'] = message['host_address']
             recorded['host_role'] = message.get('role')
+        if card.get('owner_response_to_card_address'):
+            recorded['owner_response_to_card_address'] = card['owner_response_to_card_address']
+            recorded['owner_response_role'] = card.get('owner_response_role')
+            recorded['current_owner_response_message_address'] = None
         out['claim']['owner_command'] = recorded
     return out
 
 
+def _cursor_host_context(packet):
+    """Keep the parent's field names. A card answer is not rewritten into tNu."""
+    fields = packet.get('raw_host_fields')
+    if not isinstance(fields, dict):
+        fields = {name: packet.get(name) for name in ('CURSOR_CONVERSATION_ID', 'CURSOR_REQUEST_ID')}
+    context = {
+        'namespace': 'cursor_host',
+        'observation_source': packet.get('observation_source'),
+        'raw_host_fields': fields,
+    }
+    if packet.get('owner_response_to_card_address') or packet.get('owner_card_response'):
+        card = packet.get('owner_card_response') or {
+            'owner_response_to_card_address': packet.get('owner_response_to_card_address'),
+            'owner_response_role': packet.get('owner_response_role'),
+            'owner_response_text': packet.get('owner_response_text'),
+            'current_owner_response_message_address': packet.get('current_owner_response_message_address'),
+        }
+        context['owner_card_response'] = card
+        quote, at = card.get('owner_response_text'), packet.get('owner_response_at') or card.get('owner_response_at')
+    else:
+        message = packet.get('owner_native_message') or {}
+        context['owner_native_message'] = {
+            'host_address': message.get('host_address'),
+            'role': message.get('role'),
+            'text': message.get('text'),
+        }
+        quote, at = message.get('text'), message.get('at')
+    return quote, at, context
+
+
 def dry_run_cursor_host(config, packet, now, execution_instance_id, ledger=None):
     """Validate one parent host packet. Does not consume, claim, or click Create."""
-    message = packet.get('owner_native_message') or {}
+    quote, at, context = _cursor_host_context(packet)
     actor = {
         'surface': 'grok', 'kind': 'owner_command',
         'route_generation': config.get('route_generation'),
         'execution_instance_id': execution_instance_id,
         'owner_command': {
-            'source': 'cursor_host', 'quote': message.get('text'), 'at': message.get('at'),
-            'host_context': {
-                'namespace': 'cursor_host',
-                'observation_source': packet.get('observation_source'),
-                'raw_host_fields': packet.get('raw_host_fields'),
-                'owner_native_message': {
-                    'host_address': message.get('host_address'),
-                    'role': message.get('role'),
-                    'text': message.get('text'),
-                },
-            },
+            'source': 'cursor_host', 'quote': quote, 'at': at,
+            'host_context': context,
         },
     }
     check_owner_command(config, actor, now)
