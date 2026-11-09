@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "57bf1cab04f74dd8a95ae143750dffb3af0194bddeac0da2172b757c6db06a9e",
+  "source_queue_sha256": "e6cebd0742e98a05db08ac7077439269f4d7a80c4b685afc0e1a2ba6642fd383",
   "source_task_map_sha256": "38b1061b3585fa8e4fcd8cf03bb93a00c3350b50a35ddf8f3e0bd7618e49162d",
   "topview_checked_at": "2026-11-09T12:05:55Z",
   "items": [
@@ -170,10 +170,10 @@
       "id": "S52-R2-SEED20-P7",
       "scene_id": 52,
       "part_label": "Часть 7",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
-      "queue_state": "waiting_for_slot"
+      "code": "preflight_required",
+      "ready": false,
+      "text": "Входы найдены; требуется снять записанный блокер после проверки",
+      "queue_state": "submitting"
     },
     {
       "id": "S65-WAN30",
@@ -249,5 +249,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-09T12:43:54.336780Z"
+  "checked_at": "2026-11-09T12:46:09.456661Z"
 }
