@@ -3,11 +3,13 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-09T11:30:43Z",
+  "checked_at": "2026-11-09T11:38:24Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
-    "mode": "light",
-    "reasons": [],
+    "mode": "full",
+    "reasons": [
+      "forced"
+    ],
     "boards": 14,
     "board_task_counts": {
       "3db83056ccef4361a9563a4f77afa1d5": 56,
@@ -25,9 +27,9 @@
       "caa5d8898f14442ea37c3278d156b3fe": 59,
       "1a6244cf1ae747ef847d949a80d6133c": 709
     },
-    "pages_scanned": 1,
-    "tasks_seen": 20,
-    "api_requests": 5,
+    "pages_scanned": 16,
+    "tasks_seen": 652,
+    "api_requests": 19,
     "detail_failed": []
   },
   "cursor": {
@@ -47,14 +49,14 @@
       "caa5d8898f14442ea37c3278d156b3fe": 59,
       "1a6244cf1ae747ef847d949a80d6133c": 709
     },
-    "last_full_scan_at": "2026-11-09T11:17:44Z"
+    "last_full_scan_at": "2026-11-09T11:38:24Z"
   },
   "slots": {
     "capacity": 6,
     "occupied": 1,
     "free": 5,
     "basis": "active unlimited video tasks on all owned boards",
-    "complete": false,
+    "complete": true,
     "active_not_unlimited": 0
   },
   "active_tasks": [
@@ -67,8 +69,8 @@
       "model": "Seedance 2.0",
       "scene_id": null,
       "mapping": "unknown_new",
-      "queue_count": 852,
-      "wait_seconds": 21948,
+      "queue_count": 841,
+      "wait_seconds": 21485,
       "process_seconds": null
     }
   ],
@@ -83,35 +85,20 @@
       "prompt_head": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal live-action space-opera cinema\nPAR"
     }
   ],
-  "finished_known": [
-    {
-      "task_id": "3ea23879815e47989d08ae559bd81f51",
-      "scene_id": null,
-      "final_status": "success",
-      "completed_at": "2026-11-09 11:28:09",
-      "error_code": null
-    },
-    {
-      "task_id": "6a70fae84abf401cb93f8c762b8c26e3",
-      "scene_id": null,
-      "final_status": "success",
-      "completed_at": "2026-11-09 11:27:29",
-      "error_code": null
-    }
-  ],
+  "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
     {
       "task_id": "3ea23879815e47989d08ae559bd81f51",
-      "scene_id": null,
-      "mapping": "unknown_new",
+      "scene_id": 52,
+      "mapping": "task_map",
       "final_status": "success",
       "completed_at": "2026-11-09 11:28:09"
     },
     {
       "task_id": "6a70fae84abf401cb93f8c762b8c26e3",
-      "scene_id": null,
-      "mapping": "unknown_new",
+      "scene_id": 48,
+      "mapping": "task_map",
       "final_status": "success",
       "completed_at": "2026-11-09 11:27:29"
     },
@@ -233,11 +220,53 @@
       "mapping": "unknown_new",
       "final_status": "fail",
       "completed_at": "2026-11-08 16:41:19"
+    },
+    {
+      "task_id": "101221814fd5430697f697f95a3f4252",
+      "scene_id": 49,
+      "mapping": "task_map",
+      "final_status": "fail",
+      "completed_at": "2026-11-08 15:11:54"
+    },
+    {
+      "task_id": "365cf639589a4a5da834d70193d5e8f6",
+      "scene_id": 63,
+      "mapping": "task_map",
+      "final_status": "success",
+      "completed_at": "2026-11-08 15:07:43"
+    },
+    {
+      "task_id": "7fe45f82ce9349ff9eb9fa2e9aa36bc9",
+      "scene_id": 73,
+      "mapping": "task_map",
+      "final_status": "success",
+      "completed_at": "2026-11-08 15:07:31"
+    },
+    {
+      "task_id": "3ebe7c23db05479e9b6f762a75b832e7",
+      "scene_id": 64,
+      "mapping": "task_map",
+      "final_status": "success",
+      "completed_at": "2026-11-08 15:07:05"
+    },
+    {
+      "task_id": "be960f5e3bf54563aff663fed9da8906",
+      "scene_id": 56,
+      "mapping": "task_map",
+      "final_status": "success",
+      "completed_at": "2026-11-08 15:02:59"
+    },
+    {
+      "task_id": "abb161edcf5c4b58b91460677939b5d3",
+      "scene_id": 49,
+      "mapping": "task_map",
+      "final_status": "success",
+      "completed_at": "2026-11-08 14:57:28"
     }
   ],
   "comparison": {
     "monitor_checked_at": "2026-11-09T10:16:23Z",
-    "monitor_age_minutes": 74,
+    "monitor_age_minutes": 82,
     "monitor_occupied": 0,
     "robot_occupied": 1,
     "consistent": false,
