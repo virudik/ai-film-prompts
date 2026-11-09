@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "item_id": "S59-SEED20-P3",
+  "slot": "@Image1",
+  "canonical_role": "actual_previous_part_final_frame",
+  "kind": "decoded_frame_of_existing_original",
+  "not_a_generation": true,
+  "not_film_accepted": true,
+  "source_item_id": "S59-SEED20-P2-R2-20261108",
+  "source_task_id": "50521f871db34fbab150617ea92f5243",
+  "full_original_sha256": "c09901b297f7b2a731722c7d8de957ae654e17b4128cb779e79825d6be855480",
+  "full_original_rehashed_here": false,
+  "frame": {
+    "filename": "S59-SEED20-P2-R2-final-frame.png",
+    "path": "references/scenes/scene-59/S59-SEED20-P2-R2-final-frame.png",
+    "sha256": "984f2674a98187f8c1914f6b8e8745f203519e295de1bdf1addc53a77b846856",
+    "bytes": 1005705,
+    "width": 1280,
+    "height": 720,
+    "codec": "png",
+    "source_frame_zero_based": 360,
+    "source_frame_count": 361,
+    "drive_file_id": "1rHvhQP-uXqWH-WNIkj6juoP-GQJhG4gk",
+    "reported_command": "ffmpeg -vf \"select='eq(n,360)'\" -vframes 1"
+  },
+  "independent_check": {
+    "method": "Downloaded the Drive file and hashed the bytes. ffprobe read width and height. The full original was not on this machine, so frame 360 was not re-extracted here.",
+    "sha_match": true,
+    "bytes": 1005705,
+    "width": 1280,
+    "height": 720
+  },
+  "parent_report": "The craft is low over the forest clearing with the landing gear down.",
+  "owner_decision": {
+    "address": "t417u",
+    "quote": "48р3 запускай без оглядки на прошлую часть. 59р3 тоже, 52р3 делай",
+    "effect": "The gear-down ending is accepted as the P3 opening. Not film acceptance."
+  },
+  "qc_status": "owner_t417u_accepts_p2_end_mismatch_not_film_accepted",
+  "prompt_sha256_unchanged": "376a3e466af94e3947c0605806e39eca40c5d446df560ad4201e29a43abbb2fb",
+  "other_images_unchanged": true,
+  "budget_unchanged": 1
+}
