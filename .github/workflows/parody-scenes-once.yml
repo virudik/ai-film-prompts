@@ -6,27 +6,14 @@ on:
 permissions:
   contents: write
 jobs:
-  publish:
+  verify_and_checkpoint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
         with:
           ref: main
           fetch-depth: 1
-      - name: Load reviewed bounded source
-        run: |
-          git fetch origin 68e6ce44c41ad22f8375589e97e44bc51caa5dd6
-          git show 68e6ce44c41ad22f8375589e97e44bc51caa5dd6:staging/parodies/scenes.json > /tmp/parody-scenes.json
-          git show 68e6ce44c41ad22f8375589e97e44bc51caa5dd6:staging/parodies/publish.py > /tmp/parody-publish.py
-          python3 - <<'PY'
-          from pathlib import Path
-          p=Path('/tmp/parody-publish.py');s=p.read_text()
-          old='master_path.write_text(master)'
-          assert s.count(old)==1
-          s=s.replace(old,"master = re.sub(r'\\n{3,}', '\\n\\n', master)\n"+old)
-          p.write_text(s)
-          PY
-      - name: Fresh-main publish under exact own lease, no queue writes
+      - name: Record actual result under exact editor lease
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
@@ -34,44 +21,71 @@ jobs:
           for attempt in 1 2 3; do
             git fetch origin main
             git reset --hard origin/main
-            cp video-prompts.md /tmp/old-master.md
-            PYTHONPATH="$PWD/scripts" python3 /tmp/parody-publish.py /tmp/parody-scenes.json
+            python3 - <<'PY'
+          import json,datetime,hashlib,re,sys,urllib.request,subprocess
+          from pathlib import Path
+          sys.path.insert(0,'scripts')
+          import resume_state
+          now=datetime.datetime.now(datetime.timezone.utc)
+          lock=json.loads(Path('ops/canon-lock.json').read_text())
+          assert lock['state']=='held' and lock['holder']=='chatgpt:ordinary:2124e687-520d-4ea6-b666-9efe9d68cebc'
+          assert lock['acquired_at']=='2026-11-09T11:10:26+00:00' and datetime.datetime.fromisoformat(lock['expires_at'])>now
+          work='SEREGIUS-PARODIES-20261109';p=Path('reports/parody-scenes-2026-11-09.json');r=json.loads(p.read_text());assert r['work_id']==work
+          master=Path('video-prompts.md').read_text();assert all('## Сцена '+str(i)+' ' in master for i in range(74,81))
+          assert all((Path('references/scenes/scene-'+str(i))/'manifest.json').exists() for i in range(74,81))
+          originals=[]
+          for i in range(74,81):
+            m=json.loads((Path('references/scenes/scene-'+str(i))/'manifest.json').read_text())
+            for ref in m['references']:
+              assert Path(ref['path']).exists() and hashlib.sha256(Path(ref['path']).read_bytes()).hexdigest()==ref['sha256']
+              originals.append({'scene_id':i,'path':ref['path'],'sha256':ref['sha256']})
+          r.update(state='scenes_published_reference_generation_blocked',images_created=0,generated_images_attempted=2,accepted_new_scene_images=0,existing_identity_reference_bindings=len(originals),existing_identity_references=originals,remaining_image_scenes=list(range(74,81)),editorial_approval=False,video_submissions=0,paid_generations=0,updated_at=now.isoformat())
+          r['rejected_outputs']=[{'generation_id':'1c794e3e-0251-4e68-b9c2-e373a21b77b3','sha256':'cc8bea07d2652c8e60a9df0c181052356ec7cc541fcd8e0e416413a0500af0d6','dimensions':[1536,1024],'reason':'Returned seven-scene poster/collage, not requested standalone S74 frame. Wrong face/staging, text and multiple panels. Not a usable canonical reference.','published_as_reference':False},{'generation_id':'2a5f5958-1268-4600-b447-951ce16e5ee9','sha256':'2441dcd22b78524088679ef1413c0c7624916fde2b0f805243648c5ef5ef81cf','dimensions':[1672,941],'reason':'Again returned a storyboard collage despite explicit standalone S74 instruction. Not a usable canonical reference; incorrect meme staging must not override authored scenes.','published_as_reference':False}]
+          r['exchange_folder']={'id':'1EK0zkCU_Ofn6wUnYHx69lR7STZP0cEBf','url':'https://drive.google.com/drive/folders/1EK0zkCU_Ofn6wUnYHx69lR7STZP0cEBf','files_uploaded':0,'sharing_changed':False}
+          r['browser_fallback']={'tested':True,'result':'originating_browser_context_required','authenticated_free_image_generation_verified':False}
+          r['next_action']='Не создавать сцены повторно: 74–80 и 21 текст уже в main. Начать с одного отдельного S74-studio-roar.png по сохранённому image-prompt и точной references/full/vitalik.jpg; требуется самостоятельный кадр, не коллаж. После визуального QC сразу сохранить PNG/SHA/manifest/слот master, затем 75–80. Ни один из двух текущих коллажей не использовать как референс. Видео не запускать.'
+          r['publication']={'source_head':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'master_sha256':hashlib.sha256(master.encode()).hexdigest(),'scene_publication_workflow_run':42605646605,'scene_publication_workflow_conclusion':'success'}
+          site='https://'+Path('CNAME').read_text().strip()+'/video-prompts.md'
+          try:
+            with urllib.request.urlopen(site+'?parody-check='+now.strftime('%Y%m%d%H%M%S'),timeout=30) as response:
+              raw=response.read(4000000);code=response.status
+            r['publication']['live_master']={'url':site,'checked_at':now.isoformat(),'http_status':code,'sha256':hashlib.sha256(raw).hexdigest(),'matches_main':hashlib.sha256(raw).hexdigest()==r['publication']['master_sha256'],'all_seven_headers_visible':all(('## Сцена '+str(i)+' ').encode() in raw for i in range(74,81))}
+          except Exception as e:r['publication']['live_master']={'url':site,'verified':False,'error':str(e)[:300]}
+          p.write_text(json.dumps(r,ensure_ascii=False,indent=2)+'\n')
+          anchor='# 09.11.2026 — пародии 74–80 опубликованы; отдельные PNG не получены'
+          cp=Path('reports/current-work-checkpoint.md');old=cp.read_text()
+          if anchor not in old:cp.write_text(anchor+'\n\nwork_id: '+work+'\n\n- Семь сцен 74–80 созданы в мастере; 21 автономный видеопромпт (30с + 2×15с), 7 точных image-prompt и manifest. Публикация прошла проверки. Готовые сцены не создавать заново.\n- Существующие точные model sheets привязаны: 8 связей (Виталик 74–80, Серёга 77). Это не семь новых постановочных PNG.\n- Две нативные попытки дали постеры/коллажи вместо отдельного кадра; обе отклонены. Принятых новых постановочных PNG: 0/7. В GitHub/Drive как референсы не сохранены.\n- Непрерывный просмотр/звук всех оригиналов мемов не подтверждены; источники и авторская переработка разделены в reports/parody-scenes-source-2026-11-09.json.\n- Следующий шаг: '+r['next_action']+'\n- Доказательство: reports/parody-scenes-2026-11-09.json. Очередь, одобрение и видеозапуски не менялись.\n\nsaved_at: '+now.isoformat()+'\n\n---\n\n'+old)
+          resume_state.capture('.',work,anchor,'Опубликованы 7 сцен/21 текст и 8 привязок исходных model sheets. Две попытки новых PNG отклонены; готовых постановочных PNG 0/7.',r['next_action'],[str(p)],['video-prompts.md',str(p),'reports/parody-scenes-source-2026-11-09.json'],False)
+          regp=Path('work-resume-register.json');reg=json.loads(regp.read_text());w=next(x for x in reg['active_work'] if x['work_id']==work);w['status']='blocked_native_image_generation';w['recovery']['blockers']=['Native generator returned collages instead of standalone scene references twice; no accepted scene PNG.','Connected browser unavailable for verified free fallback.'];regp.write_text(json.dumps(reg,ensure_ascii=False,indent=2)+'\n')
+          hp=Path('NEW-CHAT-HANDOFF.md');h=hp.read_text();h=re.sub(r'(?m)^- \*\*09\.11 — пародии 74–80:\*\*.*$','- **09.11 — пародии 74–80:** 7 сцен/21 текст опубликованы; новых PNG 0/7, два коллажа отклонены. Не повторять сцены; `reports/parody-scenes-2026-11-09.json`. Видео не запускались.',h);assert len(h.encode())<35000;hp.write_text(h)
+          fp=Path('ops/FUTURE-PLANS.md');f=fp.read_text();f=re.sub(r'(?m)^- \*\*SEREGIUS-PARODIES-20261109:\*\*.*$','- **SEREGIUS-PARODIES-20261109:** семь сцен 74–80 / 21 текст опубликованы и проверены; исходные identity sheets привязаны. **НЕ СДЕЛАНО: 7 новых постановочных PNG** — 2 попытки дали неверные коллажи и отклонены. Следующий шаг S74 по точному image-prompt, затем save-before-next. Не дублировать сцены. Доказательство: `reports/parody-scenes-2026-11-09.json`; видео/очередь не менялись.',f);fp.write_text(f)
+          PY
             python3 scripts/cert_github.py .
-            python3 scripts/build_project_status.py video-prompts.md --output project-status.json --synced-at "$(date -u +%FT%TZ)" --instruction-status-file instruction-sync-status.json --topview-status-file topview-status.json --topview-task-map-file topview-task-map.json --previous-status-file project-status.json --previous-master-file /tmp/old-master.md > /tmp/parody-status.json
             python3 scripts/check_instruction_consistency.py .
             python3 scripts/validate_site.py .
-            python3 -m unittest tests/test_continue_preflight.py tests/test_continue_recovery.py tests/test_project_recovery.py tests/test_instruction_consistency.py > /tmp/parody-tests.txt 2>&1
+            python3 -m unittest tests/test_continue_preflight.py tests/test_continue_recovery.py tests/test_project_recovery.py tests/test_instruction_consistency.py
             python3 - <<'PY'
-          import json,sys,datetime
+          import json,datetime,sys
           from pathlib import Path
           sys.path.insert(0,'scripts')
           from trim_service_files import trim_register
           p=Path('work-resume-register.json');a=Path('archive/work-resume-register-archive.json')
           out=trim_register(json.loads(p.read_text()),json.loads(a.read_text()) if a.exists() else {})
           if out:
-            reg,archive,*_=out;p.write_text(json.dumps(reg,ensure_ascii=False,indent=2)+'\n');a.parent.mkdir(exist_ok=True);a.write_text(json.dumps(archive,ensure_ascii=False,indent=2)+'\n')
-          lockp=Path('ops/canon-lock.json');l=json.loads(lockp.read_text());now=datetime.datetime.now(datetime.timezone.utc)
-          assert l['holder']=='chatgpt:ordinary:4ce5446d-f8c0-480f-b26c-fd639124c132' and l['state']=='held' and datetime.datetime.fromisoformat(l['expires_at'])>now
-          l.update(state='free',expires_at=None,released_at=now.isoformat());lockp.write_text(json.dumps(l,ensure_ascii=False,indent=2)+'\n')
+            reg,archive,*_=out;p.write_text(json.dumps(reg,ensure_ascii=False,indent=2)+'\n');a.write_text(json.dumps(archive,ensure_ascii=False,indent=2)+'\n')
+          lp=Path('ops/canon-lock.json');l=json.loads(lp.read_text());now=datetime.datetime.now(datetime.timezone.utc)
+          assert l['holder']=='chatgpt:ordinary:2124e687-520d-4ea6-b666-9efe9d68cebc' and l['state']=='held' and l['acquired_at']=='2026-11-09T11:10:26+00:00' and datetime.datetime.fromisoformat(l['expires_at'])>now
+          l.update(state='free',expires_at=None,released_at=now.isoformat());lp.write_text(json.dumps(l,ensure_ascii=False,indent=2)+'\n')
           PY
             python3 scripts/build_takeover_brief.py . shadow
             python3 scripts/build_resume_packet.py . --all-projects
-            python3 scripts/continue_preflight.py . --work-id SEREGIUS-PARODIES-20261109 > /tmp/parody-preflight.json
-            git add video-prompts.md SYNC-TRIGGER.txt project-status.json instruction-sync-status.json character-references.json NEW-CHAT-HANDOFF.md ops/FUTURE-PLANS.md reports/current-work-checkpoint.md reports/parody-scenes-2026-11-09.json reports/parody-scenes-source-2026-11-09.json work-resume-register.json archive/work-resume-register-archive.json ops/canon-lock.json references/scenes/scene-74 references/scenes/scene-75 references/scenes/scene-76 references/scenes/scene-77 references/scenes/scene-78 references/scenes/scene-79 references/scenes/scene-80 shadow projects/*/shadow/resume-packet.*
-            git commit -m 'Add Seregius parody scenes 74–80 with 21 prompts, source notes and pending image manifests'
+            python3 scripts/continue_preflight.py . --work-id SEREGIUS-PARODIES-20261109
+            git add reports/parody-scenes-2026-11-09.json reports/current-work-checkpoint.md work-resume-register.json archive/work-resume-register-archive.json NEW-CHAT-HANDOFF.md ops/FUTURE-PLANS.md instruction-sync-status.json ops/canon-lock.json shadow projects/*/shadow/resume-packet.*
+            git commit -m 'Checkpoint seven published parody scenes; reject two collage outputs, keep seven scene-image tasks open'
             if git push origin HEAD:main; then
               git fetch origin main
-              for f in video-prompts.md reports/parody-scenes-2026-11-09.json character-references.json; do test "$(git rev-parse HEAD:$f)" = "$(git rev-parse origin/main:$f)"; done
-              exit 0
+              test "$(git rev-parse HEAD:reports/parody-scenes-2026-11-09.json)" = "$(git rev-parse origin/main:reports/parody-scenes-2026-11-09.json)"
+              break
             fi
             if [ "$attempt" = 3 ]; then exit 1; fi
           done
-      - uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: parody-publication-checks
-          path: |
-            /tmp/parody-status.json
-            /tmp/parody-tests.txt
-            /tmp/parody-preflight.json
-          retention-days: 2
