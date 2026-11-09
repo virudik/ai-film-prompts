@@ -8799,9 +8799,9 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Реплика:** «Вы что творите?! Кто так метёт?!» · «Вы же песок туда-сюда гоняете!» · «Дай сюда!» · «Вот так надо! Учитесь!» — девушка, на русском; бригадир отвечает на инопланетном языке.
 
-**Готовность:** DRAFT. Главная версия — Wan3.0,30с. Изображения и их роли закреплены в манифесте; запуск ждёт настоящие последние3с результата68 и QC стыка. Связка 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65 идёт до музыкальных и танцевальных номеров49–51/28 по приоритету; правило следующей фактически готовой сцены сохраняется. В68 совок только стоит выключенным; в69 вся уборка идёт в него. Новые видеозапуски и художественная приёмка этой правкой не выполняются.
+**Готовность:** DRAFT. Главная версия — Wan3.0,30с. Изображения и их роли закреплены в манифесте; запуск ждёт точный последний кадр результата68 и QC стыка. Связка 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65 идёт до музыкальных и танцевальных номеров49–51/28 по приоритету; правило следующей фактически готовой сцены сохраняется. В68 совок только стоит выключенным; в69 вся уборка идёт в него. Новые видеозапуски и художественная приёмка этой правкой не выполняются.
 
-**Референсы:** @Video1 — последние 3 с 68 (`references/scenes/scene-68/S68-last3s.mp4`, вырезать из настоящего результата); @Image1 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png` (Маша Р (девушка из 67): развёртка в одежде Татуина); @Image2 — `references/scenes/scene-68/S68-sweepers-crew.png` (Бригада «ГБУ Жилищник района Татуина»: трое инопланетян в форме); @Image3 — `references/scenes/scene-68/S68-light-broom.png` (Световая метла: реквизит); @Image4 — `references/scenes/scene-66/S66-street-outrage.png` (Та же улица Татуина (из 66)); @Image5 — `references/scenes/scene-69/S69-light-dustpan.png` (лазерный совок); @Image6 — `references/scenes/scene-69/S69-melon-bag-handoff.png` (физика передачи дыни, сумки и метлы).
+**Референсы:** @Image7 — точный последний кадр 68 (`references/scenes/scene-68/S68-final-frame.png`, не видео; снять с настоящего результата); @Image1 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png` (Маша Р (девушка из 67): развёртка в одежде Татуина); @Image2 — `references/scenes/scene-68/S68-sweepers-crew.png` (Бригада «ГБУ Жилищник района Татуина»: трое инопланетян в форме); @Image3 — `references/scenes/scene-68/S68-light-broom.png` (Световая метла: реквизит); @Image4 — `references/scenes/scene-66/S66-street-outrage.png` (Та же улица Татуина (из 66)); @Image5 — `references/scenes/scene-69/S69-light-dustpan.png` (лазерный совок); @Image6 — `references/scenes/scene-69/S69-melon-bag-handoff.png` (физика передачи дыни, сумки и метлы).
 
 <div class="scene-ref-gallery">
 <figure><a href="references/scenes/scene-69/S69-melon-bag-handoff.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-69/S69-melon-bag-handoff.png.webp" alt="Передача покупок: дыня и сумка у бригадира, метла переходит Маше" loading="lazy"></a><figcaption>@Image6 — Передача покупок: дыня и сумка у бригадира, метла переходит Маше</figcaption></figure>
@@ -8821,14 +8821,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **30с · Wan3.0 / Seedance2.5 — один общий текст.** Главная версия — Wan3.0.
 
-**Входы:** @Video1 — последние 3 с настоящего результата 68 (`references/scenes/scene-68/S68-last3s.mp4`, вырезать при запуске); @Image1 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image2 — `references/scenes/scene-68/S68-sweepers-crew.png`; @Image3 — `references/scenes/scene-68/S68-light-broom.png`; @Image4 — `references/scenes/scene-66/S66-street-outrage.png`; @Image5 — `references/scenes/scene-69/S69-light-dustpan.png`; @Image6 — `references/scenes/scene-69/S69-melon-bag-handoff.png`.
+**Входы:** @Image7 — точный последний кадр настоящего результата 68 (`references/scenes/scene-68/S68-final-frame.png`, не видео); @Image1 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image2 — `references/scenes/scene-68/S68-sweepers-crew.png`; @Image3 — `references/scenes/scene-68/S68-light-broom.png`; @Image4 — `references/scenes/scene-66/S66-street-outrage.png`; @Image5 — `references/scenes/scene-69/S69-light-dustpan.png`; @Image6 — `references/scenes/scene-69/S69-melon-bag-handoff.png`.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action space-opera comedy
 
 REFERENCES / AUTHORITY ORDER:
-@Video1 — the actual last 3 seconds of scene 68 (S68-WAN30). File: references/scenes/scene-68/S68-last3s.mp4. The exact final frame, camera, light, positions and ongoing motion control the start; continue seamlessly, never replay or reset.
+@Image7 — the exact final frame of scene 68 (S68-WAN30), a still, not a video. File: references/scenes/scene-68/S68-final-frame.png. It controls the starting frame, camera, light and positions; continue seamlessly, never replay or reset.
 @Image1 — exact Masha R individual sheet: her face, hair, age and Tatooine costume; highest identity authority for her. File: references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.
 @Image2 — exact three-worker crew and uniforms; highest authority for their separate bodies and designs. File: references/scenes/scene-68/S68-sweepers-crew.png.
 @Image3 — exact light broom: matte-black handle, chrome emitter, fan of cyan energy bristles. File: references/scenes/scene-68/S68-light-broom.png.
@@ -8846,7 +8846,7 @@ LOCATION / STORY LOCK:
 The same dusty Tatooine street and twin-sun lighting as scene 68. Masha scolds, takes over and cleans skilfully; she never hits or pushes anyone. Stitch and the girls remain absent. Scene 69 collects Stitch's pile after scene 68 left it untouched. At every exchange, release follows secure support; the bag's long strap can hang on a forearm without occupying the palm.
 
 START STATE:
-Begin on the exact last frame of @Video1: Masha approaches the crew with the same pale-blue ribbed melon cradled in one arm and the shopping bag's strap on her left shoulder. The crew still pose with their brooms; the inactive laser dustpan is beside the purple worker's feet. Stitch's pile remains untouched. The actual previous result takes priority over this expected composition.
+Begin on the exact frame @Image7 (final frame of scene 68, not a video): Masha approaches the crew with the same pale-blue ribbed melon cradled in one arm and the shopping bag's strap on her left shoulder. The crew still pose with their brooms; the inactive laser dustpan is beside the purple worker's feet. Stitch's pile remains untouched. The actual previous result takes priority over this expected composition.
 
 TIMELINE:
 [0:00–0:04] CHARGE — She strides up and shouts naturally in Russian: «Вы что творите?! Кто так метёт?!» The crew freeze, brooms humming.

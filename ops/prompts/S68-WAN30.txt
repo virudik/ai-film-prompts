@@ -1,0 +1,51 @@
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action space-opera cinema, dynamic comedy
+
+REFERENCES / AUTHORITY ORDER:
+@Image7 — THIS chain's previous shot: the exact final frame of scene 67 (Wan 3.0), the vendor greeting the next shopper while Masha R marches off. File: references/scenes/scene-67/S67-final-frame.png (taken from the real result). This is a still frame, not a video. Absolute authority for the starting frame, positions, camera and light. Start exactly from it and continue seamlessly; never restart.
+@Image1 — exact sweeper crew: three alien bodies, identical uniform and the Cyrillic back print «ГБУ ЖИЛИЩНИК РАЙОНА ТАТУИНА»; highest authority for the crew. File: references/scenes/scene-68/S68-sweepers-crew.png.
+@Image2 — exact light broom prop: black handle, chrome emitter, fan of glowing cyan energy bristles. File: references/scenes/scene-68/S68-light-broom.png.
+@Image3 — street geography only, the same street as scenes 66–67; ignore the girls and Stitch in it. File: references/scenes/scene-66/S66-street-outrage.png.
+@Image4 — exact MASHA R, Masha R of scene 67 (model sheet from the owner's photo): face, hair and Tatooine costume; highest authority for her. File: references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.
+@Image5 — exact laser dustpan design, inactive in this scene: the same cleaning prop later used in scene 69. File: references/scenes/scene-69/S69-light-dustpan.png.
+@Image6 — shared spatial composition: the three workers sweep AROUND the small untouched pile; the unused dustpan is beside the purple worker. Use relative positions, scale and the clear ring around the pile. Individual references @Image1, @Image2, @Image4 and @Image5 control identities and prop designs. This is NOT the opening frame: @Image7, the still final frame, controls the continuous start, and this part's timeline controls motion, broom ignition and Masha's entrance. Keep the dustpan OFF throughout. Do not freeze the illustrated poses or introduce Masha early. File: references/scenes/scene-68/S68-crew-sweeping-street.png.
+Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SWEEPER CREW: exactly the three aliens in the crew reference: FOREMAN tall thin blue-grey with long neck and drooping antennae; a short stocky green reptilian with a thick tail; a round purple four-eyed alien with tiny legs. Identical uniform: bright orange vests with silver reflective stripes over dark-blue overalls, dark-blue caps, gloves; the white Cyrillic back print «ГБУ ЖИЛИЩНИК РАЙОНА ТАТУИНА» exactly as in the reference. Exactly three crew members.
+LIGHT BROOMS: exactly the prop reference: matte-black handle, chrome emitter, a fan of glowing cyan energy bristles that hum and leave short light trails; a harmless cleaning tool, never a weapon.
+MASHA R (Masha R of scene 67, only in the background at the end): exactly the woman in her model sheet @Image4: face, hair and Tatooine costume; the SAME pale-blue ribbed melon from scene 67 cradled in one arm, her shopping bag's long strap on her left shoulder.
+
+LOCATION / STORY LOCK — CRITICAL:
+The same Tatooine town street as scenes 66–67 (@Image3 geography), harsh light of twin suns, dusty adobe, awnings, passers-by and droids. Comedy of pointless municipal work: sand moved back and forth, piles blown away, the wind adding new sand; Stitch's pile from scene 66 stays exactly where it was and the crew carefully sweep around it. The laser dustpan from @Image5 stands inactive on the ground beside the purple four-eyed worker's feet, within reach; nobody uses it in scene 68. No dialogue in Russian; the crew mutter in an alien language. The back print stays readable whenever a back is to camera. Masha R appears only at the very end, far in the background.
+
+START STATE:
+Begin on the exact frame @Image7 (final frame of scene 67, not a video): the four-armed vendor smiling at the next shopper at the fruit stall. Continue with no reset: the camera first moves clear of the awning's outer edge, then rises outside the fabric and glides back along the same street to the exact spot where Stitch left the pile in scene 66.
+
+TIMELINE:
+[0:00–0:05] HANDOFF — Move out from under the fruit-stall awning, rise past its outer edge without crossing fabric or poles, and glide back along the same street, over heads and a droid, to the exact spot where Stitch left the pile in scene 66, discovering the three-alien crew in orange vests standing in a row.
+[0:05–0:11] IGNITION — Low heroic angle: all three ignite their light brooms in unison, cyan bristles snap on with a hum; they turn their backs and the print «ГБУ ЖИЛИЩНИК РАЙОНА ТАТУИНА» reads for a beat; they start sweeping with pompous energy.
+[0:11–0:18] POINTLESS WORK — Fast cuts: the foreman sweeps sand to the right, the reptilian sweeps the same sand straight back; the four-eyed one builds a neat pile and a landspeeder roars past and blows it away; a desert gust pours fresh sand over the swept spot; all three carefully sweep AROUND Stitch's pile from scene 66.
+[0:18–0:24] SHOW-OFF — The foreman twirls his broom like a lightsaber with cyan light trails, the reptilian leans on his broom and yawns, the four-eyed one sweeps a dust cloud straight onto a passing Jawa, who coughs and shakes his fist.
+[0:24–0:30] SHE SEES THEM — The crew strike a proud pose over the street, now sandier than before. Rack focus to the background: Masha R from scene 67, the same pale-blue ribbed melon cradled in one arm and her shopping bag on her left shoulder, stops dead, takes it in, her face darkens, and she starts striding toward them fast. End on her charging closer, the crew still oblivious.
+
+END STATE:
+The crew stand proudly on the sandy street, unaware; Masha R from scene 67 strides toward them from the background, furious, with the same pale-blue ribbed melon in one arm and the shopping bag on her left shoulder. The inactive laser dustpan remains beside the purple worker; Stitch's pile is untouched. Scene 69 continues from this exact frame.
+
+CAMERA / SPACE:
+Continuous street axis from the fruit stall of scene 67. Crane-up and glide, a low heroic ignition shot, quick 35mm cuts on each sweep and gust, a 50mm on the foreman's twirl, and a final rack focus to Masha R in the background. Cut on motion; keep the uniforms and back print readable.
+
+PERFORMANCE:
+The crew are pompous and proud of useless work; the foreman showy, the reptilian lazy, the four-eyed one diligent but clumsy; Masha R only reacts in the distance. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Harsh warm light of Tatooine's twin suns, double soft shadows, blowing sand and dust, cyan glow of the brooms reflecting on vests and sand; photoreal skin, fabric, reflective stripes and creature texture.
+
+AUDIO:
+Light-broom hum and swish like lightsabers, sand hiss, wind gusts, speeder roar, the crew's pompous alien muttering, Jawa coughing, street hubbub. No intelligible speech, no narrator, no subtitles, no generated music.
+
+NEGATIVE PROMPT:
+brooms used as weapons, cutting or burning anyone, extra crew members, missing or misspelled back print, Latin letters on vests, clean efficient sweeping, Stitch's pile removed, Masha R in the foreground before the end, Serega, the girls with Stitch, cartoon, subtitles, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.

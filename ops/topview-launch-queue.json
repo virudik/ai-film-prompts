@@ -5483,7 +5483,7 @@
       "canonical_prompt_sha256": "2ae56e0b2c0a93ca90ba4d045bbcc103d80a68abbb5b429f6bfa3d40801b675b",
       "normalized_prompt_sha256": "744c99c99813a4b7e80398d3b60f5a8ecb31cce21112a85cffa68c9558c23676",
       "priority": 0.016,
-      "state": "submitting",
+      "state": "submitted",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "selected_model": "Wan 3.0",
@@ -5493,7 +5493,7 @@
       "aspect_ratio": "16:9",
       "quantity": 1,
       "mode": "omni_reference",
-      "max_new_submissions": 1,
+      "max_new_submissions": 0,
       "max_credits": 0,
       "depends_on_submitted": [],
       "depends_on_completed": [
@@ -5545,62 +5545,8 @@
           "qc_note": "Masha R, red hair, at the fruit stall facing the angry horned vendor. Matches the S67 images."
         }
       ],
-      "task_id": null,
-      "claim": {
-        "claim_id": "cd8a68fb-07b6-4f91-81f3-0bdc88976a4a",
-        "claimed_at": "2026-11-09T13:59:09Z",
-        "claimed_by": "grok",
-        "execution_instance_id": "0cdc2f6c-ef8f-4d04-bb2d-0c9970ca2937",
-        "route_generation": 3,
-        "lease_holder": "grok:0cdc2f6c-ef8f-4d04-bb2d-0c9970ca2937",
-        "lease_acquired_at": "2026-11-09T13:59:09Z",
-        "source": "cursor_host standing command t413u-20261109",
-        "canonical_prompt_sha256": "2ae56e0b2c0a93ca90ba4d045bbcc103d80a68abbb5b429f6bfa3d40801b675b",
-        "normalized_prompt_sha256": "744c99c99813a4b7e80398d3b60f5a8ecb31cce21112a85cffa68c9558c23676",
-        "preflight": {
-          "owner_authorized": true,
-          "prompt_match": true,
-          "input_sha_match": true,
-          "input_order_match": true,
-          "qc_passed": true,
-          "website_unlimited": true,
-          "credits_cost": 0,
-          "numeric_zero_displayed": false,
-          "unlimited_mode_selected": true,
-          "credits_cost_evidence": "selected_free_unlimited_current_form",
-          "ui_unlimited_label": "Безлимитный режим — бесплатно",
-          "paid_18_credit_mode_selected": false,
-          "paid_credit_mode_selected": false,
-          "quantity": 1,
-          "resolution": 720,
-          "aspect_ratio": "16:9"
-        },
-        "submission_intent_id": "39ac0cdf-7997-4a57-b210-7750405db140",
-        "submission_intent_at": "2026-11-09T13:59:09Z",
-        "replay_forbidden": true,
-        "host_run": {
-          "namespace": "cursor_host",
-          "observation_source": "parent_shell_os_environ",
-          "field": "CURSOR_REQUEST_ID",
-          "value": "8af49d91-ef74-4c84-a981-4186ea892d17",
-          "conversation_field": "CURSOR_CONVERSATION_ID",
-          "conversation_id": "1c1bf697-3c93-4068-b457-e90efdd5ef8f",
-          "standing_command_id": "t413u-20261109"
-        },
-        "provider_run_key": "02d6c7d228b6ca675f11f8a348c285fb1044bd11311d66b82e7c247079acf00a",
-        "owner_event_keys": [
-          "e401488bfc765fef2890576742db19e0c2ffcfd445752a53fb00276a5454deef"
-        ],
-        "ledger_path": "ops/launcher-run-ledger.json",
-        "trigger": "owner_command",
-        "owner_command": {
-          "quote": "Говорю запускай значит запускай. Зачем спрашивать по 10 раз если есть уже согласованная очередь запуска",
-          "source": "cursor_host",
-          "at": "2026-11-09T09:25:00+01:00",
-          "standing_command_id": "t413u-20261109",
-          "standing_host_address": "t413u"
-        }
-      },
+      "task_id": "3fd9f3d9ae2d470eb5ec8b428a7ae044",
+      "claim": null,
       "blocker": null,
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
@@ -5618,6 +5564,17 @@
         "canonical_prompt_sha256": "2ae56e0b2c0a93ca90ba4d045bbcc103d80a68abbb5b429f6bfa3d40801b675b",
         "chars": 5888,
         "editor_limit_chars": 7870
+      },
+      "submitted_at": "2026-11-09T14:00:18Z",
+      "max_new_submissions_consumed": 1,
+      "receipt": "reports/topview-queue-2026-10-16/S67-WAN30-20261109T140018Z.json",
+      "last_claim": {
+        "claim_id": "cd8a68fb-07b6-4f91-81f3-0bdc88976a4a",
+        "claimed_at": "2026-11-09T13:59:09Z",
+        "execution_instance_id": "0cdc2f6c-ef8f-4d04-bb2d-0c9970ca2937",
+        "submission_intent_id": "39ac0cdf-7997-4a57-b210-7750405db140",
+        "archive_file": "reports/topview-queue-2026-10-16/S67-WAN30-20261109T140018Z.json",
+        "archive_sha256": "a388783489c6d0231e3192e41beee2952eae79351180ec8240bbe8deb5d36bac"
       }
     },
     {
@@ -5729,8 +5686,8 @@
       "scene_id": 69,
       "prompt_id": "S69-WAN30",
       "canonical_block_label": "69",
-      "canonical_prompt_sha256": "d0c7507bc7ebe5e0cae4c629e94c9bb0e917e667d4507f09e9e204d084b0e355",
-      "normalized_prompt_sha256": "f32d34f902ce44c538e1f6c5a012ec8f5f45b97d5d0058d970130a6afbb4a3e9",
+      "canonical_prompt_sha256": "82619287b90adcf033ce55625c16b6ce7a14b874332f25c81095c85381316c2e",
+      "normalized_prompt_sha256": "2618d9a1e6889114b991cbcaacaf30c0df6d3826132771ec510ade664f1deecf",
       "priority": 0.018,
       "state": "blocked_inputs",
       "launch_readiness": "blocked_continuity",
@@ -5749,14 +5706,6 @@
         "S68-WAN30"
       ],
       "references": [
-        {
-          "slot": "@Video1",
-          "required": true,
-          "input_status": "pending_actual_result",
-          "canonical_role": "previous_chain_link_end",
-          "source_item_id": "S68-WAN30",
-          "planned_path": "references/scenes/scene-68/S68-last3s.mp4"
-        },
         {
           "slot": "@Image1",
           "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
@@ -5804,11 +5753,21 @@
           "input_status": "available",
           "canonical_role": "Физика последовательной передачи дыни, сумки и метлы; не identity",
           "sha256": "366ca47d70f63575df89282e3df23cf30e963fd911d70293d273fbebe5a6952f"
+        },
+        {
+          "slot": "@Image7",
+          "required": true,
+          "input_status": "pending_actual_result",
+          "canonical_role": "exact final frame of S68-WAN30; the S69 start frame, not a video",
+          "source_item_id": "S68-WAN30",
+          "planned_path": "references/scenes/scene-68/S68-final-frame.png",
+          "ui_upload_order": "Image7 last, after Image1..Image6",
+          "replaces": "@Video1 last 3 seconds"
         }
       ],
       "task_id": null,
       "claim": null,
-      "blocker": "Await actual S68-WAN30 success, archive its original, cut its true last 3 s to references/scenes/scene-68/S68-last3s.mp4 and pass continuity QC. All required image files are present; real video continuity is still pending.",
+      "blocker": "Await actual S68-WAN30 success and its exact final-frame PNG at references/scenes/scene-68/S68-final-frame.png. Do not use a last-3s video. Pass continuity QC before launch.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
       "authorization": "Owner27Oct2026: 64–69 queued after63, before49–51/28; chain52P7→66→67→68→69 in order. One free Unlimited render; no paid path or retry.",
@@ -5816,7 +5775,15 @@
       "result_review_required": true,
       "result_review_policy": "Check exact identities, the scene's gag as written (master «Режиссёрский контроль»), dynamic camera; seamless start from the previous link's real last frame. Success is not acceptance.",
       "created_at": "2026-10-27T20:25:32Z",
-      "wan_link_rule_t438u": "t438u: when this item is ready, replace @Video1 with the previous part's exact final-frame PNG as the last image slot and adapt the prompt the same way. Scene 66 must stay ≤7870 characters. Prompt not changed yet."
+      "wan_link_rule_t438u": "t438u: when this item is ready, replace @Video1 with the previous part's exact final-frame PNG as the last image slot and adapt the prompt the same way. Scene 66 must stay ≤7870 characters. Prompt not changed yet.",
+      "owner_authorization_t438u_s69": {
+        "rule": "t438u",
+        "prepared_at": "2026-11-09T14:01:18Z",
+        "canonical_prompt_sha256": "82619287b90adcf033ce55625c16b6ce7a14b874332f25c81095c85381316c2e",
+        "chars": 7819,
+        "editor_limit_chars": 7870,
+        "note": "Start reference is the final frame of S68 as the last image. Stays blocked until S68 succeeds."
+      }
     },
     {
       "id": "S70-WAN30",

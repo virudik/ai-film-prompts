@@ -1,0 +1,45 @@
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action space-opera comedy
+
+REFERENCES / AUTHORITY ORDER:
+@Image7 — the exact final frame of scene 68 (S68-WAN30), a still, not a video. File: references/scenes/scene-68/S68-final-frame.png. It controls the starting frame, camera, light and positions; continue seamlessly, never replay or reset.
+@Image1 — exact Masha R individual sheet: her face, hair, age and Tatooine costume; highest identity authority for her. File: references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.
+@Image2 — exact three-worker crew and uniforms; highest authority for their separate bodies and designs. File: references/scenes/scene-68/S68-sweepers-crew.png.
+@Image3 — exact light broom: matte-black handle, chrome emitter, fan of cyan energy bristles. File: references/scenes/scene-68/S68-light-broom.png.
+@Image4 — the same street geography only; exclude its girls and Stitch. File: references/scenes/scene-66/S66-street-outrage.png.
+@Image5 — exact laser dustpan design: handle, collecting lip and cyan energy collecting surface; a cleaning tool, never a weapon. File: references/scenes/scene-69/S69-light-dustpan.png.
+@Image6 — successive handoff staging for melon, bag and broom only; individual sheets and separate prop references outrank its faces, costumes and designs. File: references/scenes/scene-69/S69-melon-bag-handoff.png.
+These are visual references, not a slideshow. The real previous video controls the start; identity sheets control likeness; prop references control tools; the handoff image explains support and grip only.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+MASHA R: the same adult woman as @Image1, with long wavy copper-red hair and bangs, her exact face and age, terracotta long tunic, light-sand scarf, dark trousers and brown boots. One woman only; no beautifying or face blending. The shopping bag has one long strap, and the SAME pale-blue ribbed melon from scene 67 remains a separate, single fruit.
+SWEEPER CREW: exactly three aliens from @Image2: a tall thin blue-grey FOREMAN with a long neck and drooping antennae; a short stocky green reptilian with a thick tail; a round purple FOUR-EYED worker with tiny legs. Orange vests with silver reflective stripes over dark-blue overalls, dark-blue caps and gloves; preserve the exact Cyrillic back print «ГБУ ЖИЛИЩНИК РАЙОНА ТАТУИНА».
+TOOLS: the light broom and laser dustpan match their separate prop references. The cyan glow belongs to harmless cleaning tools; solid tool geometry and real hand contact. Hold the dustpan steady with both hands; its dedicated prop reference controls the design. Exactly one bag, one melon, one dustpan and three crew brooms.
+
+LOCATION / STORY LOCK:
+The same dusty Tatooine street and twin-sun lighting as scene 68. Masha scolds, takes over and cleans skilfully; she never hits or pushes anyone. Stitch and the girls remain absent. Scene 69 collects Stitch's pile after scene 68 left it untouched. At every exchange, release follows secure support; the bag's long strap can hang on a forearm without occupying the palm.
+
+START STATE:
+Begin on the exact frame @Image7 (final frame of scene 68, not a video): Masha approaches the crew with the same pale-blue ribbed melon cradled in one arm and the shopping bag's strap on her left shoulder. The crew still pose with their brooms; the inactive laser dustpan is beside the purple worker's feet. Stitch's pile remains untouched. The actual previous result takes priority over this expected composition.
+
+TIMELINE:
+[0:00–0:04] CHARGE — She strides up and shouts naturally in Russian: «Вы что творите?! Кто так метёт?!» The crew freeze, brooms humming.
+[0:04–0:08] SCOLDING — She gestures at the sand: «Вы же песок туда-сюда гоняете!» The foreman starts a short alien explanation; she cuts him off.
+[0:08–0:15] HANDOFF — «Дай сюда!» Without hitting anyone, Masha first lifts her bag's long strap from her shoulder onto the foreman's right forearm, leaving his palm free. She then transfers the melon onto his right palm against his torso. Only after he supports both purchases does he release his broom from his left hand into hers; she takes its handle in both hands. His newly freed left hand joins his right under the melon while the bag stays on his forearm. Beside them, the purple worker parks his own broom, lifts the laser dustpan with both hands, activates its cyan collecting surface and places its lip against the ground. Show these successive transfers clearly, with no duplicate fruit, bag, broom or extra hands.
+[0:15–0:21] MASTERCLASS — She sweeps with fast, precise strokes in one direction, drawing the local sand into one neat pile. The purple worker holds the laser dustpan steady with both hands, its lip flush with the ground. She sweeps the sand and then Stitch's untouched pile over that lip into the SAME pan with a clean non-graphic flick. The material visibly crosses the lip and remains collected; no vaporizing, teleporting, burning or second waste pile. Passers-by stop; the crew stare at her skill.
+[0:21–0:30] RETURN AND EXIT — «Вот так надо! Учитесь!» The foreman cradles the melon on his right palm against his torso again, freeing his left hand. Masha returns the broom into that left hand, then takes the melon, settles it in one arm, and with her free hand lifts the bag strap off his right forearm onto her own left shoulder. She marches away still grumbling. The purple worker first sets the filled dustpan down level on its base without spilling it, then retrieves his own broom; the three start to imitate her strokes and clack their brooms once. The final wide view gently begins to rise, continuing toward the next scene without a cut or freeze in the last three seconds.
+
+END STATE:
+Masha walks away still grumbling, the SAME pale-blue ribbed melon cradled in one arm and her shopping bag back on her left shoulder. The foreman has his broom again; the purple worker has set the filled laser dustpan down level on its base without spilling it and recovered his broom. The small street patch and Stitch's former pile location are clean; the crew begin their clumsy imitation. The camera widens and begins a gentle rising move, keeping the actual street direction and motion alive for scene 70.
+
+CAMERA / PERFORMANCE:
+Preserve the incoming camera and street direction. Use clear medium coverage for the sequential transfers, a brief readable insert of the forearm strap and palm support, and a dynamic low tracking move for the actual sweeping. Cut only on motivated action; never hide a prop transfer in a jump cut. Masha is furious and precise, the crew pompous then stunned; keep physical weight, breathing and natural reactions. Russian lines belong only to Masha, with natural pronunciation and accurate lip sync. Do not rush the transfers or multiply hands to complete them.
+
+LIGHTING / AUDIO:
+Harsh warm twin-sun light, dusty air, cyan glow on sand and gloves, photoreal skin, fabric and alien textures. Broom swishes, laser-tool hum, sand hiss into the pan, brief alien muttering, street footsteps and the final broom clack. Preserve incoming ambience; Masha's supplied lines and indistinct grumbling only. No narration, subtitles or generated music.
+
+NEGATIVE PROMPT:
+extra hands, duplicated or vanishing bag or melon, simultaneous unsupported exchanges, extra crew, ordinary non-laser dustpan, spilled collected waste, graphic excrement close-up, weapon use, cutting, burning, Serega, the girls or Stitch returning, face blending, costume changes, cartoon, misspelled vest print, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
