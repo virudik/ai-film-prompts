@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "work_id": "SEREGIUS-PARODIES-20261109",
+  "project": "seregius",
+  "state": "preparation",
+  "owner_request": "1-7 делай сцены в серёгиусе с референсами изображениями",
+  "scope": [
+    "parody studio logos with Vitalik",
+    "adult Vitalik on crescent moon, non-graphic river gag",
+    "Kandibober / Normalno / Yaz memes",
+    "She rejected me romantic meme",
+    "family mayonnaise advertisement",
+    "Lay's chips advertisement",
+    "luxury advertising of cheap household objects"
+  ],
+  "new_scene_ids_candidate": [
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "scene_ids_finalized": false,
+  "initial_source_head": "dc3fa5abc2c9ae0aeca9c9f0ebe02e5e6446445a",
+  "preflight": "short intake passed; 15 anchors and exact source checks",
+  "owner_decisions_read": "Only pre-existing Grok needs_owner found; no new scene conflicts",
+  "images_created": 0,
+  "video_submissions": 0,
+  "paid_generations": 0,
+  "queue_change_authorized": false,
+  "editorial_approval": false,
+  "next_action": "Create seven new DRAFT scenes after fresh ID/duplicate check; exact identity references; two prompt versions per scene; generate individual native images and save each with QC/provenance before next. No video launches.",
+  "checked_at": "2026-11-09T10:48:12.025422+00:00"
+}

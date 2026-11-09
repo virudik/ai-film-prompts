@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-08T16:20:45+00:00",
+  "last_updated_at": "2026-11-09T10:48:12+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -1207,6 +1207,41 @@
       "next_action": "Confirm GitHub status health and Pages; fill genuine human contributor credits from verified role list, inspect S28/71 QC and connect final footage. Avoid duplicate Topview submit or credit spend.",
       "created_at": "2026-11-06T22:29:35.696Z",
       "updated_at": "2026-11-06T22:29:35.696Z"
+    },
+    {
+      "work_id": "SEREGIUS-PARODIES-20261109",
+      "project": "seregius",
+      "title": "Семь пародийных сцен с изображениями по прямой команде владельца",
+      "status": "in_progress",
+      "created_at": "2026-11-09T10:48:12.025422+00:00",
+      "updated_at": "2026-11-09T10:48:12+00:00",
+      "completed": [
+        "Сверены свежие инструкции, ID 74–80 пока свободны; исходный checkpoint сохранён."
+      ],
+      "next_action": "Create seven new DRAFT scenes after fresh ID/duplicate check; exact identity references; two prompt versions per scene; generate individual native images and save each with QC/provenance before next. No video launches.",
+      "recovery": {
+        "schema_version": 1,
+        "verified_at": "2026-11-09T10:48:12+00:00",
+        "last_completed": "Исходная точка нового поручения сохранена; производство ещё не выполнено.",
+        "next_action": "Create seven new DRAFT scenes after fresh ID/duplicate check; exact identity references; two prompt versions per scene; generate individual native images and save each with QC/provenance before next. No video launches.",
+        "checkpoint": {
+          "file": "reports/current-work-checkpoint.md",
+          "anchor": "# 09.11.2026 — начальная точка: семь пародий Серёгиуса",
+          "sha256": "4e9f026c9380e3f2d254676017f3f35dfde1772ee5ec6ee10e0237438bc99212"
+        },
+        "evidence": [
+          {
+            "file": "reports/parody-scenes-2026-11-09.json",
+            "sha256": "cd3e5661487917ae56cd64c99d4d1000f7f97bab03dfbde0dd6bb437140f38a0"
+          }
+        ],
+        "read_next": [
+          "PROMPT-STYLE-GUIDE.md",
+          "video-prompts.md",
+          "reports/parody-scenes-2026-11-09.json"
+        ],
+        "blockers": []
+      }
     }
   ],
   "rules": [
