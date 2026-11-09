@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-09T12:10:25Z",
+  "checked_at": "2026-11-09T12:20:25Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -51,63 +51,46 @@
   },
   "slots": {
     "capacity": 6,
-    "occupied": 2,
-    "free": 4,
+    "occupied": 0,
+    "free": 6,
     "basis": "active unlimited video tasks on all owned boards",
     "complete": false,
     "active_not_unlimited": 0
   },
-  "active_tasks": [
+  "active_tasks": [],
+  "unknown_new": [],
+  "finished_known": [
     {
       "task_id": "4c35bb617de143b39723924075b31c3d",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "running",
-      "unlimited": true,
-      "created_at": "2026-11-09 12:07:34",
-      "model": "Seedance 2.0",
       "scene_id": null,
-      "mapping": "unknown_new",
-      "queue_count": null,
-      "wait_seconds": null,
-      "process_seconds": 499
+      "final_status": "success",
+      "completed_at": "2026-11-09 12:16:08",
+      "error_code": null
     },
     {
       "task_id": "ce934dd80c4e4493b3daffcf09d95dde",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "running",
-      "unlimited": true,
-      "created_at": "2026-11-09 12:08:06",
-      "model": "Seedance 2.0",
       "scene_id": null,
-      "mapping": "unknown_new",
-      "queue_count": null,
-      "wait_seconds": null,
-      "process_seconds": 499
+      "final_status": "success",
+      "completed_at": "2026-11-09 12:16:42",
+      "error_code": null
     }
   ],
-  "unknown_new": [
-    {
-      "task_id": "4c35bb617de143b39723924075b31c3d",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "running",
-      "created_at": "2026-11-09 12:07:34",
-      "model": "Seedance 2.0",
-      "unlimited": true,
-      "prompt_head": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal live-action space-opera cinema\n\nRE"
-    },
-    {
-      "task_id": "ce934dd80c4e4493b3daffcf09d95dde",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "running",
-      "created_at": "2026-11-09 12:08:06",
-      "model": "Seedance 2.0",
-      "unlimited": true,
-      "prompt_head": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal live-action space-opera cinema\nPAR"
-    }
-  ],
-  "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
+    {
+      "task_id": "ce934dd80c4e4493b3daffcf09d95dde",
+      "scene_id": null,
+      "mapping": "unknown_new",
+      "final_status": "success",
+      "completed_at": "2026-11-09 12:16:42"
+    },
+    {
+      "task_id": "4c35bb617de143b39723924075b31c3d",
+      "scene_id": null,
+      "mapping": "unknown_new",
+      "final_status": "success",
+      "completed_at": "2026-11-09 12:16:08"
+    },
     {
       "task_id": "be59815f157e47c0924b91dbde48f997",
       "scene_id": 52,
@@ -237,29 +220,11 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-11-09T12:05:55Z",
-    "monitor_age_minutes": 5,
+    "monitor_age_minutes": 15,
     "monitor_occupied": 0,
-    "robot_occupied": 2,
-    "consistent": false,
+    "robot_occupied": 0,
+    "consistent": true,
     "monitor_may_lag": false,
-    "differences": [
-      {
-        "type": "only_in_robot",
-        "task_id": "4c35bb617de143b39723924075b31c3d",
-        "scene_id": null,
-        "mapping": "unknown_new"
-      },
-      {
-        "type": "only_in_robot",
-        "task_id": "ce934dd80c4e4493b3daffcf09d95dde",
-        "scene_id": null,
-        "mapping": "unknown_new"
-      },
-      {
-        "type": "occupied_differs",
-        "monitor": 0,
-        "robot": 2
-      }
-    ]
+    "differences": []
   }
 }
