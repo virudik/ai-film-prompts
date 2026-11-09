@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "item_id": "S48-SEED20-P3",
+  "slot": "@Video1",
+  "kind": "self_trim_of_existing_original",
+  "not_a_generation": true,
+  "not_film_accepted": true,
+  "owner_decision": {
+    "address": "t417u",
+    "at_local": "2026-11-09T12:34 Europe/Moscow",
+    "quote": "48р3 запускай без оглядки на прошлую часть. 59р3 тоже, 52р3 делай",
+    "effect": "Accept the actual P2 end as the P3 opening despite the named QC mismatch. Not film acceptance."
+  },
+  "accepted_mismatch": "The P2 end shows empty gates and Serega is not on the worm. Owner t417u accepts that end as the P3 opening.",
+  "source_item_id": "S48-SEED20-P2-R2-20261108",
+  "source_task_id": "dcf9df8fb84e41178b9f11e6be06751b",
+  "legacy_source_item_id": "S48-SEED20-P2",
+  "full_original": {
+    "sha256": "a20f4828532902d4fc2cc16e675b780e20677bdd6645e9723979807a5a2431aa",
+    "rehashed_here": false,
+    "reported_frames": 361,
+    "reported_trim_window_inclusive": [
+      289,
+      360
+    ]
+  },
+  "trim": {
+    "filename": "S48-SEED20-P2-R2-last3s.mp4",
+    "path": "references/scenes/scene-48/S48-SEED20-P2-R2-last3s.mp4",
+    "sha256": "4d1ade0ccfa06c1f398841d612d007d184ba69cb4cdedc8d330a1429774a1830",
+    "bytes": 1391198,
+    "drive_file_id": "1-730Nhp9LcL3Ek0MzMTRCesp0oM0WbJ7",
+    "codec": {
+      "video": "h264",
+      "audio": "aac",
+      "width": 1280,
+      "height": 720,
+      "fps": 24,
+      "frames": 72,
+      "duration_seconds": 3.0
+    },
+    "source_frames_inclusive": [
+      289,
+      360
+    ]
+  },
+  "independent_check": {
+    "method": "Downloaded the Drive file and hashed the bytes. ffprobe read the container. The full original was not on this machine.",
+    "trim_sha_match": true,
+    "bytes": 1391198,
+    "ffprobe": {
+      "video": "h264",
+      "audio": "aac",
+      "width": 1280,
+      "height": 720,
+      "fps": "24/1",
+      "frames": 72,
+      "duration_seconds": 3.0
+    }
+  },
+  "qc_status": "owner_t417u_accepts_p2_end_mismatch_not_film_accepted",
+  "prompt_sha256_unchanged": "2ab7fc04c2b8da863840ed64bd6572b0eeb20d6c41ac08dcf8fb9cdaae7e60e7",
+  "images_unchanged": true,
+  "budget_unchanged": 1
+}
