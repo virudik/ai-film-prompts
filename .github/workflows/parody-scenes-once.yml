@@ -1,4 +1,4 @@
-name: Publish existing parody photographs
+name: Verify parody photo delivery
 on:
   push:
     branches: [main]
@@ -9,81 +9,132 @@ concurrency:
   group: owner-parody-existing-photos
   cancel-in-progress: false
 jobs:
-  publish_existing:
+  verify_delivery:
     runs-on: ubuntu-latest
     timeout-minutes: 12
     env:
-      EXPECTED_HOLDER: chatgpt:ordinary:7b26b32b-87f6-4d5b-918c-7bbd5fca61e7
-      EXPECTED_ACQUIRED_AT: '2026-11-09T20:17:07+00:00'
+      EXPECTED_HOLDER: chatgpt:ordinary:31010b55-241b-4187-8964-b157e55060c0
+      EXPECTED_ACQUIRED_AT: '2026-11-09T20:35:35+00:00'
     steps:
       - uses: actions/checkout@v5
         with:
           ref: main
           fetch-depth: 1
-      - name: Load exact existing-image archive
+      - name: Read back original bytes from Drive and published website
         run: |
+          mkdir -p /tmp/parody-delivery
           python3 - <<'PY'
-          import urllib.request,hashlib,zipfile,io
+          import json,hashlib,re,time,urllib.request,urllib.parse,concurrent.futures,os
           from pathlib import Path
-          urls=['https://drive.google.com/uc?export=download&id=1ZnrS9Nc8KnmYGVTDL7_7IjQ6TXxfRQxY','https://drive.usercontent.google.com/download?id=1ZnrS9Nc8KnmYGVTDL7_7IjQ6TXxfRQxY&export=download&confirm=t']
-          expected='55e37b1cb5cd830cb7c459d59dc9f344849e59009b1aba1279858059426f86ec'
-          for u in urls:
-            try:
-              with urllib.request.urlopen(u,timeout=60) as r: raw=r.read(40000000)
-              if len(raw)==36305785 and hashlib.sha256(raw).hexdigest()==expected: break
-            except Exception as e: print(type(e).__name__)
-          else: raise SystemExit('Exact source archive unavailable; no content publication')
-          dest=Path('/tmp/parody-photo-publication');dest.mkdir(exist_ok=True)
-          with zipfile.ZipFile(io.BytesIO(raw)) as z:
-            for x in z.infolist():
-              p=Path(x.filename)
-              assert not p.is_absolute() and '..' not in p.parts and (x.external_attr>>16)&0o170000!=0o120000
-            z.extractall(dest)
-          print('Verified originals and precomputed previews; no image generation')
+          from datetime import datetime,timezone
+          def now(): return datetime.now(timezone.utc).isoformat(timespec='seconds')
+          def get(url,limit=12000000):
+              req=urllib.request.Request(url,headers={'User-Agent':'AI-Film-owner-photo-verification','Cache-Control':'no-cache'})
+              with urllib.request.urlopen(req,timeout=30) as r:
+                  data=r.read(limit+1)
+                  assert r.status==200 and len(data)<=limit,'invalid download'
+              return data
+          def drive(fid,expected):
+              assert re.fullmatch(r'[A-Za-z0-9_-]+',fid)
+              error=''
+              for url in ['https://drive.google.com/uc?export=download&id='+fid,'https://drive.usercontent.google.com/download?id='+fid+'&export=download&confirm=t']:
+                  try:
+                      raw=get(url)
+                      if hashlib.sha256(raw).hexdigest()==expected:return raw
+                      error='SHA mismatch or non-original download'
+                  except Exception as e:error=type(e).__name__+': '+str(e)
+              raise RuntimeError(error)
+          manifest_raw=drive('12J30IMC8N-i3N9c19akcRcXeny0peDZw','20bcb87e6b416bff4d670712685631fba79cf61ae95d5706d286fc220bc980df')
+          Path('/tmp/parody-delivery/drive-photo-manifest.json').write_bytes(manifest_raw)
+          m=json.loads(manifest_raw);assert len(m['items'])==56 and len({x['drive_id'] for x in m['items']})==56
+          pub=json.loads(Path('reports/parody-existing-photos-publication-2026-11-09.json').read_text())
+          base='https://xn--l1adcem8c.xn--d1aigvp.xn--p1ai/'
+          def check_drive(x):
+              out={'drive_id':x['drive_id'],'name':x['drive_name'],'category':x['category'],'expected_sha256':x['sha256'],'expected_bytes':x['bytes'],'verified':False}
+              try:
+                  raw=drive(x['drive_id'],x['sha256']);out.update(verified=len(raw)==x['bytes'],bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest())
+              except Exception as e:out['error']=str(e)
+              return out
+          with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:drive_rows=list(pool.map(check_drive,m['items']))
+          gallery={'url':base+'parodies.html','verified':False}
+          for attempt in range(8):
+              try:
+                  raw=get(base+'parodies.html?photo_check='+str(int(time.time())))
+                  gallery.update(bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),verified=hashlib.sha256(raw).hexdigest()==pub['gallery_sha256'])
+                  if gallery['verified']:break
+              except Exception as e:gallery['error']=type(e).__name__+': '+str(e)
+              if attempt<7:time.sleep(12)
+          def check_site(x):
+              out={'path':x['path'],'expected_sha256':x['sha256'],'verified':False}
+              try:
+                  raw=get(base+urllib.parse.quote(x['path'],safe='/')+'?photo_check='+str(int(time.time())))
+                  out.update(bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),verified=hashlib.sha256(raw).hexdigest()==x['sha256'])
+              except Exception as e:out['error']=type(e).__name__+': '+str(e)
+              return out
+          with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:site_rows=list(pool.map(check_site,pub['assets']))
+          thumbs=[{'path':x['thumbnail'],'sha256':hashlib.sha256(Path(x['thumbnail']).read_bytes()).hexdigest()} for x in pub['assets']]
+          with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:thumb_rows=list(pool.map(check_site,thumbs))
+          master_links={'verified':False}
+          try:
+              live=get(base+'video-prompts.md?photo_check='+str(int(time.time()))).decode('utf-8')
+              master_links={'verified':all('<!-- parody-photo-publication-'+str(s)+' -->' in live for s in range(74,81)) and m['drive_folder'] in live,'scene_links':7,'drive_folder':m['drive_folder']}
+          except Exception as e:master_links['error']=str(e)
+          report={'schema_version':1,'project':'seregius','work_id':'SEREGIUS-PARODIES-20261109','checked_at':now(),'run_id':os.environ['GITHUB_RUN_ID'],'scope':'Readback of existing photos only; no generation, approvals, queue changes or new video','drive_folder':m['drive_folder'],'drive_count':56,'drive_verified':sum(x['verified'] for x in drive_rows),'drive_results':drive_rows,'gallery':gallery,'website_original_count':14,'website_originals_verified':sum(x['verified'] for x in site_rows),'website_originals':site_rows,'website_thumbnails_verified':sum(x['verified'] for x in thumb_rows),'website_thumbnails':thumb_rows,'master_links':master_links,'new_generated_images':0,'full_creative_task_complete':False}
+          report['delivery_stage_complete']=report['drive_verified']==56 and gallery['verified'] and report['website_originals_verified']==14 and report['website_thumbnails_verified']==14 and master_links['verified']
+          Path('/tmp/parody-delivery/readback.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+          print(json.dumps({k:report[k] for k in ['checked_at','drive_verified','website_originals_verified','website_thumbnails_verified','delivery_stage_complete']}))
+          if not report['delivery_stage_complete']:raise SystemExit(2)
           PY
-      - name: Publish under exact lease, preserve prompts, test and read back
+      - name: Save verified delivery stage under exact lease
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          cat > /tmp/save-parody-delivery.py <<'PY'
+          import json,os,sys,hashlib
+          from pathlib import Path
+          from datetime import datetime,timezone
+          sys.path.insert(0,'scripts')
+          from resume_state import capture
+          def now():return datetime.now(timezone.utc).isoformat(timespec='seconds')
+          def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+          l=json.loads(Path('ops/canon-lock.json').read_text())
+          assert l['state']=='held' and l['holder']==os.environ['EXPECTED_HOLDER'] and l['acquired_at']==os.environ['EXPECTED_ACQUIRED_AT'],'exact lease lost'
+          assert datetime.fromisoformat(l['expires_at'].replace('Z','+00:00'))>datetime.now(timezone.utc),'lease expired'
+          report=json.loads(Path('/tmp/parody-delivery/readback.json').read_text());assert report['delivery_stage_complete']
+          pub=json.loads(Path('reports/parody-existing-photos-publication-2026-11-09.json').read_text())
+          assert report['gallery']['sha256']==sha('parodies.html') and all(sha(x['path'])==x['sha256'] for x in pub['assets'])
+          protected=['video-prompts.md','ops/topview-launch-queue.json']+[x['path'] for x in pub['assets']]
+          before={p:sha(p) for p in protected}
+          report_path='reports/parody-photo-delivery-2026-11-09.json'
+          Path(report_path).write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+          Path('archive/parody-74-80/drive-photo-manifest.json').write_bytes(Path('/tmp/parody-delivery/drive-photo-manifest.json').read_bytes())
+          anchor='# 09.11.2026 — фото пародий: сайт и Drive проверены обратным скачиванием'
+          cp=Path('reports/current-work-checkpoint.md');text=cp.read_text();assert anchor not in text,'already saved; do not duplicate'
+          done='Выполнена новая задача сохранения существующих фото: на сайте14 оригиналов и14 превью, на Drive56 отдельных изображений (7 основных+7 первых+33 иных+9 прежних технических проб). Все байты скачаны обратно и SHA совпали. Семь ссылок из сцен проверены. Новых генераций/изменений промптов/приёмки/видео нет.'
+          nxt='Не загружать эти56 файлов и не создавать галерею повторно. Галерея parodies.html, папка https://drive.google.com/drive/folders/1m0kKr532uOqOzyoIZh_9ZlrWfOoQtNxu. Первые фото отдельно как композиционные черновики, не входы личности. Полная доработка лиц и дополнительных кадров остаётся открытой; эта квитанция закрывает только выгрузку существующих фото. Новых генераций не выполнять без продолжения владельца.'
+          cp.write_text(anchor+'\n\nwork_id: SEREGIUS-PARODIES-20261109\n\n- '+done+'\n- Доказательство: '+report_path+'; actual run '+report['run_id']+'.\n- Следующий шаг: '+nxt+'\n\nchecked_at: '+now()+'\n\n---\n\n'+text)
+          capture('.', 'SEREGIUS-PARODIES-20261109',anchor,done,nxt,[report_path],['reports/parody-existing-photos-publication-2026-11-09.json','archive/parody-74-80/drive-photo-manifest.json'],True)
+          rp=Path('work-resume-register.json');r=json.loads(rp.read_text());w=next(x for x in r['active_work'] if x['work_id']=='SEREGIUS-PARODIES-20261109');w['status']='photos_delivered_reference_edits_pending';w['last_result']=done;rp.write_text(json.dumps(r,ensure_ascii=False,indent=2)+'\n')
+          p=Path('ops/FUTURE-PLANS.md');s=p.read_text();line='- **09.11 — выгрузка фото пародий проверена:** галерея14 оригиналов+14 превью и56 отдельных изображений Drive скачаны обратно, SHA совпали; задача выгрузки выполнена. Доработка лиц/кадров не закрыта. Доказательство `'+report_path+'`.\n';assert line not in s;p.write_text(s.rstrip()+'\n\n'+line)
+          assert all(sha(p)==v for p,v in before.items())
+          PY
           for attempt in 1 2 3; do
             git fetch origin main
             git reset --hard origin/main
-            cp video-prompts.md /tmp/parody-before-master.md
-            python3 /tmp/parody-photo-publication/publish.py > /tmp/parody-photo-result.json
-            python3 scripts/cert_github.py .
-            python3 scripts/build_project_status.py video-prompts.md --output project-status.json --synced-at "$(date -u +%FT%TZ)" --topview-status-file topview-status.json --topview-task-map-file topview-task-map.json --previous-status-file project-status.json --previous-master-file /tmp/parody-before-master.md > /tmp/parody-photo-status.json
+            python3 /tmp/save-parody-delivery.py
+            python3 scripts/build_resume_packet.py . --project seregius
+            python3 scripts/continue_preflight.py . --work-id SEREGIUS-PARODIES-20261109 > /tmp/parody-delivery/preflight.json
             python3 scripts/check_instruction_consistency.py .
             python3 scripts/validate_site.py .
-            python3 -m unittest tests.test_continue_preflight tests.test_continue_recovery tests.test_project_recovery tests.test_instruction_consistency > /tmp/parody-photo-tests.txt 2>&1
-            python3 - <<'PY'
-          import json,hashlib,re
-          from pathlib import Path
-          assert json.loads(Path('project-status.json').read_text())['health']=='ok'
-          before=Path('/tmp/parody-before-master.md').read_text();after=Path('video-prompts.md').read_text()
-          assert re.findall(r'```.*?```',before,re.S)==re.findall(r'```.*?```',after,re.S)
-          report=json.loads(Path('reports/parody-existing-photos-publication-2026-11-09.json').read_text())
-          assert len(report['assets'])==14 and report['new_generated_images']==0
-          assert all(hashlib.sha256(Path(x['path']).read_bytes()).hexdigest()==x['sha256'] for x in report['assets'])
-          assert all(x['active_prompt_input'] is False for x in report['assets'] if x['publication_role']=='composition_draft')
-          assert Path('parodies.html').read_text().count('<figure>')==14
-          PY
-            python3 scripts/build_takeover_brief.py . shadow
-            python3 scripts/build_resume_packet.py .
-            python3 scripts/continue_preflight.py . --work-id SEREGIUS-PARODIES-20261109 > /tmp/parody-photo-preflight.json
-            git diff --exit-code -- ops/topview-launch-queue.json
-            git add parodies.html archive/parody-74-80 references/scenes/scene-74/manifest.json references/scenes/scene-75/manifest.json video-prompts.md SYNC-TRIGGER.txt project-status.json instruction-sync-status.json NEW-CHAT-HANDOFF.md ops/FUTURE-PLANS.md reports/current-work-checkpoint.md reports/parody-existing-photos-publication-2026-11-09.json work-resume-register.json shadow
+            git diff --exit-code -- video-prompts.md ops/topview-launch-queue.json
+            git add reports/parody-photo-delivery-2026-11-09.json archive/parody-74-80/drive-photo-manifest.json reports/current-work-checkpoint.md work-resume-register.json ops/FUTURE-PLANS.md shadow/resume-packet.json shadow/resume-packet.md
             git diff --cached --check
-            git commit -m 'Publish 7 existing parody stills and 7 early composition drafts with separate roles'
-            if git push origin HEAD:main; then
-              git rev-parse HEAD > /tmp/parody-photo-commit.txt
-              git fetch origin main
-              for f in parodies.html video-prompts.md reports/parody-existing-photos-publication-2026-11-09.json; do test "$(git rev-parse HEAD:$f)" = "$(git rev-parse origin/main:$f)"; done
-              break
-            fi
-            if [ "$attempt" = 3 ]; then exit 1; fi
+            git commit -m 'Verify 56 Drive photos and 14 website originals; complete existing-photo delivery only'
+            if git push origin HEAD:main; then git rev-parse HEAD > /tmp/parody-delivery/commit.txt;break;fi
+            if [ "$attempt" = 3 ];then exit 1;fi
           done
-      - name: Release only this exact lease
+      - name: Release only exact own lease
         if: always()
         run: |
           set -euo pipefail
@@ -93,27 +144,22 @@ jobs:
             git fetch origin main
             git reset --hard origin/main
             python3 - <<'PY'
-          import os,json
+          import json,os
           from pathlib import Path
           from datetime import datetime,timezone
           p=Path('ops/canon-lock.json');l=json.loads(p.read_text())
           if l.get('state')=='held' and l.get('holder')==os.environ['EXPECTED_HOLDER'] and l.get('acquired_at')==os.environ['EXPECTED_ACQUIRED_AT']:
-            l.update(state='free',expires_at=None,released_at=datetime.now(timezone.utc).isoformat());p.write_text(json.dumps(l,ensure_ascii=False,indent=2)+'\n')
+              l.update(state='free',expires_at=None,released_at=datetime.now(timezone.utc).isoformat());p.write_text(json.dumps(l,ensure_ascii=False,indent=2)+'\n')
           PY
             git add ops/canon-lock.json
-            if git diff --cached --quiet; then exit 0; fi
-            git commit -m 'Release exact existing-photo publication lease'
-            if git push origin HEAD:main; then exit 0; fi
+            if git diff --cached --quiet;then exit 0;fi
+            git commit -m 'Release exact photo-delivery verification lease'
+            if git push origin HEAD:main;then exit 0;fi
           done
           exit 1
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: parody-existing-photo-publication-verification
-          path: |
-            /tmp/parody-photo-result.json
-            /tmp/parody-photo-status.json
-            /tmp/parody-photo-tests.txt
-            /tmp/parody-photo-preflight.json
-            /tmp/parody-photo-commit.txt
+          name: parody-photo-delivery-readback
+          path: /tmp/parody-delivery/
           retention-days: 3
