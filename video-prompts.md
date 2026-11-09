@@ -6,17 +6,18 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**30 сцен к генерации/доработке · 147 полных текстов промта**
+**37 сцен к генерации/доработке · 168 полных текстов промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 19** сцен сейчас в медленной генерации: **16, 28, 42, 48, 49, 51, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 71, 72, 73** — **0 активных Topview-задач / 0 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
-- **Последняя оформленная активная сцена:** 73 — Виталик на троне перед титрами; титры — на существующем блоке 28; 71 после титров и перед трейлерами. Новых запусков нет. Прежде: 72 — пролог: Виталик на том же троне из кальянов в кантине Татуина: «Всем привет… Всем приятного просмотра. История-то понятная, житейская»; 71 — его финальное слово и объявление трейлеров. Обе в двух версиях: с заигрывающими инопланетянками по бокам (главная) и без (владелец 30.10; Wan3.0, 30 с; ждут три картинки от открытого чата ChatGPT Work). Прежняя запись: 70 — Татуин: непрерывный пролёт с улицы к столику Серёги в кантине. Связка 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65 использует настоящие последние3с предыдущего звена; вся уличная цепь и65/70 выбраны Wan3.0,30с,52P1–P6 остаются Seedance2.0. В67–69 одна и та же дыня и сумка;69 убирает оставленную Стичем кучу в лазерный совок. Новые сцены остаются DRAFT, видеостыки ожидаются; приоритет до49→50→51→28, ready-skip сохраняется. Никаких видео этой правкой не запущено.
+- **Последняя оформленная активная сцена:** 80 — Люкс из кладовки. Новые пародии 74–80 созданы по прямой команде 09.11; DRAFT, референсы в подготовке, 21 новый текст. Видео не запускались; текущая очередь и монтажный порядок не менялись.
+- **История предыдущего оформления:** 73 — Виталик на троне перед титрами; титры — на существующем блоке 28; 71 после титров и перед трейлерами. Новых запусков нет. Прежде: 72 — пролог: Виталик на том же троне из кальянов в кантине Татуина: «Всем привет… Всем приятного просмотра. История-то понятная, житейская»; 71 — его финальное слово и объявление трейлеров. Обе в двух версиях: с заигрывающими инопланетянками по бокам (главная) и без (владелец 30.10; Wan3.0, 30 с; ждут три картинки от открытого чата ChatGPT Work). Прежняя запись: 70 — Татуин: непрерывный пролёт с улицы к столику Серёги в кантине. Связка 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65 использует настоящие последние3с предыдущего звена; вся уличная цепь и65/70 выбраны Wan3.0,30с,52P1–P6 остаются Seedance2.0. В67–69 одна и та же дыня и сумка;69 убирает оставленную Стичем кучу в лазерный совок. Новые сцены остаются DRAFT, видеостыки ожидаются; приоритет до49→50→51→28, ready-skip сохраняется. Никаких видео этой правкой не запущено.
 - **Ревизия Control Center:** дата определяется автоматически по содержательному изменению canonical master; чистая техническая пересинхронизация без изменения содержимого дату ревизии не меняет.
 - **Последняя полная синхронизация:** **09.11.2026 · текущая по live Topview/Drive сверке**. Точное техническое время свежей telemetry берётся из `topview-status.json.checked_at`.
 
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
-**Синхронизация контекста:** **09.11.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **27 актуальных сцен и 135 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 43, 44, 45, 46, 47, 53, 54 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16, 28, 42, 48, 49, 51, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 71, 72, 73**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **09.11.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **37 актуальных сцен и 168 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 43, 44, 45, 46, 47, 53, 54 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16, 28, 42, 48, 49, 51, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 71, 72, 73**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 **Новые промты 09.10.2026:** Scene 20 расширена вставками 12–13, добавлены Scenes 29–34 с полными production-промтами и имеющимися референсами: кантина (часть 3), три разрушительных боя, исследование руин и вход в храм. Это новые тексты для запуска, а не уже выполненные/одобренные Topview-результаты. Танцы Scene 28 и их неподтверждённые вспомогательные фото не менялись.
 
@@ -111,6 +112,13 @@
 | 71 | [Виталик на троне из кальянов — финальное слово](#scene-71) | Виталик; трон из кальянов; две инопланетянки (версия с ними — главная); кантина 65 | Финал: «Вот такая вот история получилась. Житейская, понятная» и объявление трейлеров новых проектов; кольцо дыма — переход. Владелец 30.10; Wan3.0, 30 с; в очереди после 65, ждёт картинки.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 | 72 | [Виталик на троне из кальянов — пролог «Всем привет»](#scene-72) | Виталик; трон из кальянов; две инопланетянки (версия с ними — главная); кантина 65 | Пролог: «Всем привет. Сейчас я вам поведаю одну историю, произошедшую с одним моим другом. Всем приятного просмотра. История-то понятная, житейская»; камера ныряет в колбу кальяна. Владелец 30.10; Wan3.0, 30 с; ждёт картинки.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 | 73 | [Виталик на троне: «Думаете это уже конец?»](#scene-73) | Виталик, трон и две помощницы из 71/72, кантина 65 | Приглашение досмотреть настоящие титры. Сначала 73, затем титры на 28, затем существующая 71 после титров, затем трейлеры. 30с Wan3.0 и 2×15с Seedance2.0. DRAFT, запуска не было.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
+| 74 | [Виталик представляет: парад киностудий](#scene-74) | Виталик; новый постановочный PNG ожидается | Виталик рычит вместо льва, затем изображает женщину с факелом в шторе, крутит земной шар, позирует на горе картошки и оказывается за прожекторным монументом из ящиков. Он всюду совершенно серьёзен; дорого поставленная картинка сталкивается с бытовым реквизитом. DRAFT; 30с и 2×15с; без видеозапуска. |
+| 75 | [Лунная студия: Виталик и река](#scene-75) | Виталик; новый постановочный PNG ожидается | Виталик сидит на месяце с удочкой над красивой ночной рекой. Убирает удочку, поворачивается спиной и справляет малую нужду; зритель видит только силуэт и тонкую струйку из-за края месяца. Внизу крошечный робот раскрывает зонтик, а Виталик возвращается к рыбалке с прежним студийным пафосом. DRAFT; 30с и 2×15с; без видеозапуска. |
+| 76 | [Мем-театр: кандибобер, нормально, язь](#scene-76) | Виталик; новый постановочный PNG ожидается | Виталик в нелепо высоком красном кандибобере даёт серьёзное интервью. После резкой склейки он лежит у нарисованной проруби и невозмутимо тянет «Норма-а-ально». Затем оказывается в лодке, показывает невероятно довольным видом крупную светящуюся рыбу и кричит про космического язя. DRAFT; 30с и 2×15с; без видеозапуска. |
+| 77 | [«Она отказала мне»: мелодрама у космического забора](#scene-77) | Виталик; Серёга; новый постановочный PNG ожидается | Серёга трагически сообщает Виталику об отказе девушки. Виталик столь же трагически отрицает её чувства. Из-за обычного садового забора поднимается зелёная инопланетянка и перекрикивает обоих признанием. После паузы Серёга достаёт ложку: «А я люблю майонез». Виталик смотрит в камеру, не понимая, кто тут снимал мелодраму. DRAFT; 30с и 2×15с; без видеозапуска. |
+| 78 | [Майонез: салат больше не нужен](#scene-78) | Виталик; новый постановочный PNG ожидается | За идеально сервированным столом вся семья ест майонез ложками из огромных банок. Бабушка с важностью открывает ещё одну банку, отец ставит на пьедестал торжественную салатницу — пустую. Виталик отодвигает салатницу: «Салат? Мы уже взрослые». Крупный рекламный план банки и финальный слоган про ненужный салат. DRAFT; 30с и 2×15с; без видеозапуска. |
+| 79 | [Lay’s: хруст слышно во всей галактике](#scene-79) | Виталик; новый постановочный PNG ожидается | На серьёзном космическом совете Виталик пытается незаметно открыть жёлтую пачку Lay’s. Хруст звучит как взрыв, все поворачиваются — но у каждого своя пачка. За последнюю чипсину начинается напряжённый поединок взглядов. Робот приносит полную тележку, и все синхронно хрустят. DRAFT; 30с и 2×15с; без видеозапуска. |
+| 80 | [Люкс из кладовки: лапша, тапки и пакет с пакетами](#scene-80) | Виталик; новый постановочный PNG ожидается | Камера облетает лапшу в чашке как редкий аромат. Виталик втягивает запах: «Ноты бульона». Следующий суперкарный пролёт раскрывает обычные тапки: «Разгон до кухни — за три шага». Финал — бархатный пьедестал и пакет с пакетами; герой извлекает ещё один пакет как дорогой аксессуар. DRAFT; 30с и 2×15с; без видеозапуска. |
 
 ### 🎬 Татуинская связка — единый порядок сцепления и запуска
 
@@ -9784,6 +9792,1161 @@ Motivated smooth close-up, natural Russian lip-sync on two exact sentences, no o
 
 FRAME FILL / NEGATIVE:
 Full landscape 16:9, 1280×720 edge-to-edge; no cropping, pillarboxing, watermarks or stray lettering; no replay of @Video1.
+```
+
+</div>
+
+</div>
+
+---
+
+<a id="scene-74"></a>
+
+## Сцена 74 — Виталик представляет: парад киностудий
+
+<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["parody","comedy","owner_authorized_creation","images_pending"]} -->
+
+**Контекст использования:** Самостоятельная 30-секундная пародийная заставка. Предлагаемое место — до существующего пролога 72; это монтажное предложение, существующий порядок фильма не изменён. Пять коротких визуальных гэгов; DreamWorks-месяц вынесен в отдельную 75.
+
+**Что происходит:** Виталик рычит вместо льва, затем изображает женщину с факелом в шторе, крутит земной шар, позирует на горе картошки и оказывается за прожекторным монументом из ящиков. Он всюду совершенно серьёзен; дорого поставленная картинка сталкивается с бытовым реквизитом.
+
+**Готовность:** DRAFT. Тексты подготовлены по команде 09.11; отдельный новый постановочный PNG ещё требуется. Это НЕ готовый ролик и НЕ запись в очередь. Основная версия — 30 с Wan 3.0; тот же текст на Seedance 2.5 только по выбору владельца. Альтернатива — 2×15 с Seedance 2.0: P2 ждёт настоящие последние 3 с своей P1. Редакционная приёмка не выполнена.
+
+**Референсы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-74/S74-studio-roar.png`. Для нового PNG пока сохранено только точное задание; не выдавать его за изображение.
+
+**Источники / авторская переработка:** `reports/parody-scenes-source-2026-11-09.json`. Реплики и гэги постановки не являются полной транскрипцией исходных роликов; непрерывный просмотр/звук всех оригиналов не подтверждены.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/full/vitalik.jpg" alt="@Image1 — точная внешность"></a><figcaption>@Image1 — точная внешность, существующий файл</figcaption></figure>
+</div>
+
+<div class="engine-tabs" data-scene="74">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-74/S74-studio-roar.png`.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic parody with clear physical comedy
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
+@Image2 = references/scenes/scene-74/S74-studio-roar.png — single new scene staging and props, never overrides identity.
+Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK: adult stocky fair-skinned man, round face, short light-brown hair, light stubble, grey-green eyes; exact face of @Image1. Base outfit: black Jedi tunic and leather tabard, brown belt, brown trousers and tall boots. Only the explicitly staged curtain costume may cover this outfit. Same human face, never an actual lion or a new actor.
+
+SCENE / SPACE:
+Five separate practical mini-studio sets with cinematic compositing: black velvet and a gold film-ring; cloud pedestal; blue-lit globe stage; potato mountain; stacked wooden crates with two sweeping searchlights. Each gag has a clear hard cut. No collage inside a shot.
+
+START STATE:
+Vitalik's human face is already inside one gold oval film-ring on a black velvet background, ready to roar.
+
+STORY FLOW:
+0–6s: Tight frontal portrait inside the gold ring. Vitalik gives two committed human roars; a tiny embarrassed throat-clear ends the second. The ring remains rigid; no lion features appear.
+6–11s: Hard cut to a monumental cloud pedestal. Same adult Vitalik draped in a cream curtain over fully covering black clothes, one hand holding an electric torch overhead. A curtain-ring slips to his shoulder; his other hand catches the fabric without exposing skin.
+11–15s: Hard cut to a blue-lit globe stage. He spins a painted Earth beach ball on one finger, loses balance and catches it against his chest. A confident cinematic camera orbit contrasts with his clumsy hands.
+15–20s: Continue from the caught globe, then he solemnly whispers «Глобально». The ball squeaks once as he squeezes it.
+20–25s: Hard cut to a wide potato mountain. Tiny stars orbit above a proudly posed Vitalik, but one is visibly a star-shaped potato chip. He removes the chip from the orbit and bites it.
+25–30s: Cut to a grand low-angle searchlight monument, then crane wider: its impressive towers are plain wooden crates and Vitalik is operating two cheap torches. End on crossed beams, then a clean cut to black.
+
+END STATE:
+Wide reveal of the searchlight monument: plain wooden crates and two torches held below by Vitalik; lights cross over him and cut cleanly to black.
+
+CAMERA / LIGHT / PERFORMANCE:
+Measured 50mm face shot for the roar, low 35mm torch pedestal, short 35mm globe orbit, wide mountain tableau, final crane reveal. Legible face; real hand contact; cuts only between the specified five gags. Comedy comes from sincere performance, not mugging or ugly facial distortion.
+
+AUDIO:
+New performed human roar, throat-clear, curtain-ring click, beach-ball squeak, one crisp chip crunch and two torch switches. Only spoken word: «Глобально». No existing studio fanfares, no generated music, no narrator.
+
+NEGATIVE:
+no actual lion face, no face fusion, no wardrobe exposure, no duplicated Vitalik within a shot, no copied studio wordmarks or claims of affiliation; no dashboard, poster layout, subtitles or captions. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 74 · Seedance 2.0 часть 1
+
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-74/S74-studio-roar.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic parody with clear physical comedy
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
+@Image2 = references/scenes/scene-74/S74-studio-roar.png — single new scene staging and props, never overrides identity.
+Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK: adult stocky fair-skinned man, round face, short light-brown hair, light stubble, grey-green eyes; exact face of @Image1. Base outfit: black Jedi tunic and leather tabard, brown belt, brown trousers and tall boots. Only the explicitly staged curtain costume may cover this outfit. Same human face, never an actual lion or a new actor.
+
+SCENE / SPACE:
+Five separate practical mini-studio sets with cinematic compositing: black velvet and a gold film-ring; cloud pedestal; blue-lit globe stage; potato mountain; stacked wooden crates with two sweeping searchlights. Each gag has a clear hard cut. No collage inside a shot.
+
+START STATE:
+Vitalik's human face is already inside one gold oval film-ring on a black velvet background, ready to roar.
+
+STORY FLOW:
+0–6s: Tight frontal portrait inside the gold ring. Vitalik gives two committed human roars; a tiny embarrassed throat-clear ends the second. The ring remains rigid; no lion features appear.
+6–11s: Hard cut to a monumental cloud pedestal. Same adult Vitalik draped in a cream curtain over fully covering black clothes, one hand holding an electric torch overhead. A curtain-ring slips to his shoulder; his other hand catches the fabric without exposing skin.
+11–15s: Hard cut to a blue-lit globe stage. He spins a painted Earth beach ball on one finger, loses balance and catches it against his chest. A confident cinematic camera orbit contrasts with his clumsy hands.
+
+END STATE:
+At the blue-lit globe stage he has just caught a beach-ball Earth against his chest; same face, black costume intact.
+
+CAMERA / LIGHT / PERFORMANCE:
+Measured 50mm face shot for the roar, low 35mm torch pedestal, short 35mm globe orbit, wide mountain tableau, final crane reveal. Legible face; real hand contact; cuts only between the specified five gags. Comedy comes from sincere performance, not mugging or ugly facial distortion.
+
+AUDIO:
+New performed human roar, throat-clear, curtain-ring click, beach-ball squeak, one crisp chip crunch and two torch switches. Only spoken word: «Глобально». No existing studio fanfares, no generated music, no narrator. For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue.
+
+NEGATIVE:
+no actual lion face, no face fusion, no wardrobe exposure, no duplicated Vitalik within a shot, no copied studio wordmarks or claims of affiliation; no dashboard, poster layout, subtitles or captions. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+#### 74 · Seedance 2.0 часть 2
+
+**Входы:** @Video1 — `actual final 3 seconds of Scene 74 Seedance Part 1`; @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-74/S74-studio-roar.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic parody with clear physical comedy
+
+REFERENCES / AUTHORITY:
+@Video1 = actual final 3 seconds of Scene 74 Seedance Part 1 — real motion/pose continuity, not a generated substitute.
+@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
+@Image2 = references/scenes/scene-74/S74-studio-roar.png — single new scene staging and props, never overrides identity.
+Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK: adult stocky fair-skinned man, round face, short light-brown hair, light stubble, grey-green eyes; exact face of @Image1. Base outfit: black Jedi tunic and leather tabard, brown belt, brown trousers and tall boots. Only the explicitly staged curtain costume may cover this outfit. Same human face, never an actual lion or a new actor.
+
+SCENE / SPACE:
+Five separate practical mini-studio sets with cinematic compositing: black velvet and a gold film-ring; cloud pedestal; blue-lit globe stage; potato mountain; stacked wooden crates with two sweeping searchlights. Each gag has a clear hard cut. No collage inside a shot.
+
+START STATE:
+Continue the actual last moment of @Video1, without replaying it. Target continuity: At the blue-lit globe stage he has just caught a beach-ball Earth against his chest; same face, black costume intact.
+
+STORY FLOW:
+0–5s: Continue from the caught globe, then he solemnly whispers «Глобально». The ball squeaks once as he squeezes it.
+5–10s: Hard cut to a wide potato mountain. Tiny stars orbit above a proudly posed Vitalik, but one is visibly a star-shaped potato chip. He removes the chip from the orbit and bites it.
+10–15s: Cut to a grand low-angle searchlight monument, then crane wider: its impressive towers are plain wooden crates and Vitalik is operating two cheap torches. End on crossed beams, then a clean cut to black.
+
+END STATE:
+Wide reveal of the searchlight monument: plain wooden crates and two torches held below by Vitalik; lights cross over him and cut cleanly to black.
+
+CAMERA / LIGHT / PERFORMANCE:
+Measured 50mm face shot for the roar, low 35mm torch pedestal, short 35mm globe orbit, wide mountain tableau, final crane reveal. Legible face; real hand contact; cuts only between the specified five gags. Comedy comes from sincere performance, not mugging or ugly facial distortion.
+
+AUDIO:
+New performed human roar, throat-clear, curtain-ring click, beach-ball squeak, one crisp chip crunch and two torch switches. Only spoken word: «Глобально». No existing studio fanfares, no generated music, no narrator. For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue.
+
+NEGATIVE:
+no actual lion face, no face fusion, no wardrobe exposure, no duplicated Vitalik within a shot, no copied studio wordmarks or claims of affiliation; no dashboard, poster layout, subtitles or captions. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+</div>
+
+---
+
+<a id="scene-75"></a>
+
+## Сцена 75 — Лунная студия: Виталик и река
+
+<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["parody","comedy","owner_authorized_creation","images_pending"]} -->
+
+**Контекст использования:** Отдельная пародия на силуэт персонажа на месяце. Только взрослый Виталик; не мальчик. Не связана настоящим видеостыком с 74. Неграфический бытовой юмор: источник струи всегда закрыт одеждой/месяцем, гениталий и обнажённых ягодиц нет.
+
+**Что происходит:** Виталик сидит на месяце с удочкой над красивой ночной рекой. Убирает удочку, поворачивается спиной и справляет малую нужду; зритель видит только силуэт и тонкую струйку из-за края месяца. Внизу крошечный робот раскрывает зонтик, а Виталик возвращается к рыбалке с прежним студийным пафосом.
+
+**Готовность:** DRAFT. Тексты подготовлены по команде 09.11; отдельный новый постановочный PNG ещё требуется. Это НЕ готовый ролик и НЕ запись в очередь. Основная версия — 30 с Wan 3.0; тот же текст на Seedance 2.5 только по выбору владельца. Альтернатива — 2×15 с Seedance 2.0: P2 ждёт настоящие последние 3 с своей P1. Редакционная приёмка не выполнена.
+
+**Референсы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-75/S75-moon-river.png`. Для нового PNG пока сохранено только точное задание; не выдавать его за изображение.
+
+**Источники / авторская переработка:** `reports/parody-scenes-source-2026-11-09.json`. Реплики и гэги постановки не являются полной транскрипцией исходных роликов; непрерывный просмотр/звук всех оригиналов не подтверждены.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/full/vitalik.jpg" alt="@Image1 — точная внешность"></a><figcaption>@Image1 — точная внешность, существующий файл</figcaption></figure>
+</div>
+
+<div class="engine-tabs" data-scene="75">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-75/S75-moon-river.png`.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic parody with clear physical comedy
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
+@Image2 = references/scenes/scene-75/S75-moon-river.png — single new scene staging and props, never overrides identity.
+Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK: adult stocky fair-skinned man, short light-brown hair, round face and light stubble, exact @Image1 identity. Black tunic and long opaque black tabard, closed brown trousers, boots. Never a child. The tabard and opaque crescent rim conceal the pelvic area in every frame; no visible genitalia, exposed buttocks or sexual framing. One small fictional faceless maintenance droid by the river.
+
+SCENE / SPACE:
+Dreamlike night sky, luminous solid crescent with a stable broad inner ledge, layered soft clouds; a real-looking winding river far below, blue reflections and one tiny dock. Not a bathroom close-up.
+
+START STATE:
+Adult Vitalik sits safely on the crescent ledge with boots supported, fishing line hanging toward the distant river.
+
+STORY FLOW:
+0–5s: Slow elegant pullback reveals the familiar crescent-and-fishing silhouette, but the person is adult Vitalik in his black outfit. Clouds drift naturally.
+5–10s: He checks the unmoving line, props the rod in a fixed notch, turns his back to camera and braces both boots on the wide inner crescent ledge.
+10–15s: In a wide rear view a fine stream begins from BEHIND the opaque crescent rim and falls toward the river. His hands and pelvis remain hidden; no nudity, visible source, close-up or erotic emphasis.
+15–21s: Continue the exact wide rear pose and fine falling stream. Cut to the tiny dock far below as small ripples appear; nothing contacts people.
+21–25s: A small maintenance droid looks up and opens a tiny umbrella with ridiculous dignity. One clean mechanical click.
+25–30s: Return to the crescent after the stream has stopped. Vitalik sits, takes the same rod and resumes a majestic studio pose. The droid's umbrella remains open in the distant foreground reflection.
+
+END STATE:
+The stream has stopped, Vitalik sits back on the crescent with his fishing rod. Far below the small droid keeps an open umbrella; broad calm night composition closes the gag.
+
+CAMERA / LIGHT / PERFORMANCE:
+Very wide composited night tableaux and one distant insert of the droid. Never zoom into the pelvic region. Keep all bodily-source detail occluded. Natural scale and gentle camera drift. Comedy comes from sincere performance, not mugging or ugly facial distortion.
+
+AUDIO:
+Night wind, fishing line, faint water splashes far below, umbrella click. No speech, copied DreamWorks theme or generated music.
+
+NEGATIVE:
+no child or childlike body; no genitals, exposed buttocks, transparent fabric, sexual context, fetish closeups or contact with people; no falling injury; no original studio lettering; no diagrams or dashboard. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 75 · Seedance 2.0 часть 1
+
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-75/S75-moon-river.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic parody with clear physical comedy
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
+@Image2 = references/scenes/scene-75/S75-moon-river.png — single new scene staging and props, never overrides identity.
+Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK: adult stocky fair-skinned man, short light-brown hair, round face and light stubble, exact @Image1 identity. Black tunic and long opaque black tabard, closed brown trousers, boots. Never a child. The tabard and opaque crescent rim conceal the pelvic area in every frame; no visible genitalia, exposed buttocks or sexual framing. One small fictional faceless maintenance droid by the river.
+
+SCENE / SPACE:
+Dreamlike night sky, luminous solid crescent with a stable broad inner ledge, layered soft clouds; a real-looking winding river far below, blue reflections and one tiny dock. Not a bathroom close-up.
+
+START STATE:
+Adult Vitalik sits safely on the crescent ledge with boots supported, fishing line hanging toward the distant river.
+
+STORY FLOW:
+0–5s: Slow elegant pullback reveals the familiar crescent-and-fishing silhouette, but the person is adult Vitalik in his black outfit. Clouds drift naturally.
+5–10s: He checks the unmoving line, props the rod in a fixed notch, turns his back to camera and braces both boots on the wide inner crescent ledge.
+10–15s: In a wide rear view a fine stream begins from BEHIND the opaque crescent rim and falls toward the river. His hands and pelvis remain hidden; no nudity, visible source, close-up or erotic emphasis.
+
+END STATE:
+He is turned away, standing securely on the inner ledge, lower torso fully occluded by his opaque tabard and the crescent. A thin stream falls from behind the opaque rim; its bodily origin is never visible.
+
+CAMERA / LIGHT / PERFORMANCE:
+Very wide composited night tableaux and one distant insert of the droid. Never zoom into the pelvic region. Keep all bodily-source detail occluded. Natural scale and gentle camera drift. Comedy comes from sincere performance, not mugging or ugly facial distortion.
+
+AUDIO:
+Night wind, fishing line, faint water splashes far below, umbrella click. No speech, copied DreamWorks theme or generated music. For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue.
+
+NEGATIVE:
+no child or childlike body; no genitals, exposed buttocks, transparent fabric, sexual context, fetish closeups or contact with people; no falling injury; no original studio lettering; no diagrams or dashboard. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+#### 75 · Seedance 2.0 часть 2
+
+**Входы:** @Video1 — `actual final 3 seconds of Scene 75 Seedance Part 1`; @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-75/S75-moon-river.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic parody with clear physical comedy
+
+REFERENCES / AUTHORITY:
+@Video1 = actual final 3 seconds of Scene 75 Seedance Part 1 — real motion/pose continuity, not a generated substitute.
+@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
+@Image2 = references/scenes/scene-75/S75-moon-river.png — single new scene staging and props, never overrides identity.
+Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK: adult stocky fair-skinned man, short light-brown hair, round face and light stubble, exact @Image1 identity. Black tunic and long opaque black tabard, closed brown trousers, boots. Never a child. The tabard and opaque crescent rim conceal the pelvic area in every frame; no visible genitalia, exposed buttocks or sexual framing. One small fictional faceless maintenance droid by the river.
+
+SCENE / SPACE:
+Dreamlike night sky, luminous solid crescent with a stable broad inner ledge, layered soft clouds; a real-looking winding river far below, blue reflections and one tiny dock. Not a bathroom close-up.
+
+START STATE:
+Continue the actual last moment of @Video1, without replaying it. Target continuity: He is turned away, standing securely on the inner ledge, lower torso fully occluded by his opaque tabard and the crescent. A thin stream falls from behind the opaque rim; its bodily origin is never visible.
+
+STORY FLOW:
+0–6s: Continue the exact wide rear pose and fine falling stream. Cut to the tiny dock far below as small ripples appear; nothing contacts people.
+6–10s: A small maintenance droid looks up and opens a tiny umbrella with ridiculous dignity. One clean mechanical click.
+10–15s: Return to the crescent after the stream has stopped. Vitalik sits, takes the same rod and resumes a majestic studio pose. The droid's umbrella remains open in the distant foreground reflection.
+
+END STATE:
+The stream has stopped, Vitalik sits back on the crescent with his fishing rod. Far below the small droid keeps an open umbrella; broad calm night composition closes the gag.
+
+CAMERA / LIGHT / PERFORMANCE:
+Very wide composited night tableaux and one distant insert of the droid. Never zoom into the pelvic region. Keep all bodily-source detail occluded. Natural scale and gentle camera drift. Comedy comes from sincere performance, not mugging or ugly facial distortion.
+
+AUDIO:
+Night wind, fishing line, faint water splashes far below, umbrella click. No speech, copied DreamWorks theme or generated music. For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue.
+
+NEGATIVE:
+no child or childlike body; no genitals, exposed buttocks, transparent fabric, sexual context, fetish closeups or contact with people; no falling injury; no original studio lettering; no diagrams or dashboard. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+</div>
+
+---
+
+<a id="scene-76"></a>
+
+## Сцена 76 — Мем-театр: кандибобер, нормально, язь
+
+<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["parody","comedy","owner_authorized_creation","images_pending"]} -->
+
+**Контекст использования:** Три узнаваемые постановки по 10 секунд. «Нормально» — версия с рыбаком на льду; любовный мем отдельно в 77. Смешное строится на точной ситуации и темпе, а не унижении реальных героев вирусных видео. Новые реплики явно отделены от цитат источника.
+
+**Что происходит:** Виталик в нелепо высоком красном кандибобере даёт серьёзное интервью. После резкой склейки он лежит у нарисованной проруби и невозмутимо тянет «Норма-а-ально». Затем оказывается в лодке, показывает невероятно довольным видом крупную светящуюся рыбу и кричит про космического язя.
+
+**Готовность:** DRAFT. Тексты подготовлены по команде 09.11; отдельный новый постановочный PNG ещё требуется. Это НЕ готовый ролик и НЕ запись в очередь. Основная версия — 30 с Wan 3.0; тот же текст на Seedance 2.5 только по выбору владельца. Альтернатива — 2×15 с Seedance 2.0: P2 ждёт настоящие последние 3 с своей P1. Редакционная приёмка не выполнена.
+
+**Референсы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-76/S76-kandibober.png`. Для нового PNG пока сохранено только точное задание; не выдавать его за изображение.
+
+**Источники / авторская переработка:** `reports/parody-scenes-source-2026-11-09.json`. Реплики и гэги постановки не являются полной транскрипцией исходных роликов; непрерывный просмотр/звук всех оригиналов не подтверждены.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/full/vitalik.jpg" alt="@Image1 — точная внешность"></a><figcaption>@Image1 — точная внешность, существующий файл</figcaption></figure>
+</div>
+
+<div class="engine-tabs" data-scene="76">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-76/S76-kandibober.png`.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic parody with clear physical comedy
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
+@Image2 = references/scenes/scene-76/S76-kandibober.png — single new scene staging and props, never overrides identity.
+Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK: same adult stocky man from @Image1, round fair face, short light-brown hair, light stubble. Black tunic, leather tabard, brown trousers and boots; for the interview ONLY add one very tall sculptural crimson felt hat with folded loops. Do not copy the real interviewee's face. Anonymous interviewer's hand and microphone only; fishing droid remains offscreen.
+
+SCENE / SPACE:
+Three clearly separated parody sets: overcast pedestrian street; safe theatrical ice set with painted fishing hole and no real thin-ice danger; a small stable fishing boat on a dawn river. These are editorial hard cuts, not an instant geographic teleport within one take.
+
+START STATE:
+Medium eye-level street interview. Vitalik's oversized crimson felt hat is perfectly legible; microphone enters from frame right.
+
+STORY FLOW:
+0–10s: Interview frame, earnest expression and tiny handheld movement. Vitalik says with complete confidence: «Этот кандибобер — не шлем. Это характер». The enormous hat barely sways; no other speech.
+10–15s: Hard cut to the ice-fishing set. Vitalik reclines comfortably in full clothing, short rod beside him. An offscreen male voice asks «Бать, тебе нормально?» He slowly turns his eyes toward camera, preparing to answer.
+15–20s: Continue the reclining pose, then Vitalik replies «Норма-а-ально». Preserve the long deadpan vowel and a small contented nod; he does not fall or get injured.
+20–27s: Hard cut to the dawn boat. Vitalik raises one large fish with two clearly separate hands, joy suddenly overwhelming: «Я-а-азь! Космический! Рыба всей моей галактики!» A gentle cyan shimmer travels once along the fish.
+27–30s: The fish gives one small tail flick, he tightens his safe two-hand hold and beams at the camera. End before another joke or location change.
+
+END STATE:
+In the boat Vitalik thrusts a large silver-green fish toward the lens with both hands; its brief cyan shimmer lights his delighted face. Final delighted hold, no new dialogue.
+
+CAMERA / LIGHT / PERFORMANCE:
+Street medium 50mm; fixed medium-wide ice setup; natural handheld close-medium boat portrait. Do not speed-ramp the spoken phrases, no slideshow transitions. Hold each face long enough for Russian lip-sync. Comedy comes from sincere performance, not mugging or ugly facial distortion.
+
+AUDIO:
+Exact new Russian interview line, original short normalno exchange as quoted, new cosmic-fish line. Street ambience, light wind, boat creak and one fish slap. No sampled original voice, imitation of a real speaker's voice, meme-remix music or subtitles.
+
+NEGATIVE:
+no real interviewee likeness, no sudden face replacement, no child, no dangerous ice collapse, no extra fish or extra hands, no moralising title or copied montage; no infographic. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 76 · Seedance 2.0 часть 1
+
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-76/S76-kandibober.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic parody with clear physical comedy
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
+@Image2 = references/scenes/scene-76/S76-kandibober.png — single new scene staging and props, never overrides identity.
+Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK: same adult stocky man from @Image1, round fair face, short light-brown hair, light stubble. Black tunic, leather tabard, brown trousers and boots; for the interview ONLY add one very tall sculptural crimson felt hat with folded loops. Do not copy the real interviewee's face. Anonymous interviewer's hand and microphone only; fishing droid remains offscreen.
+
+SCENE / SPACE:
+Three clearly separated parody sets: overcast pedestrian street; safe theatrical ice set with painted fishing hole and no real thin-ice danger; a small stable fishing boat on a dawn river. These are editorial hard cuts, not an instant geographic teleport within one take.
+
+START STATE:
+Medium eye-level street interview. Vitalik's oversized crimson felt hat is perfectly legible; microphone enters from frame right.
+
+STORY FLOW:
+0–10s: Interview frame, earnest expression and tiny handheld movement. Vitalik says with complete confidence: «Этот кандибобер — не шлем. Это характер». The enormous hat barely sways; no other speech.
+10–15s: Hard cut to the ice-fishing set. Vitalik reclines comfortably in full clothing, short rod beside him. An offscreen male voice asks «Бать, тебе нормально?» He slowly turns his eyes toward camera, preparing to answer.
+
+END STATE:
+On the separate ice set he reclines on his side, booted legs visible, rod beside him; the offscreen question has just finished. No fall through ice.
+
+CAMERA / LIGHT / PERFORMANCE:
+Street medium 50mm; fixed medium-wide ice setup; natural handheld close-medium boat portrait. Do not speed-ramp the spoken phrases, no slideshow transitions. Hold each face long enough for Russian lip-sync. Comedy comes from sincere performance, not mugging or ugly facial distortion.
+
+AUDIO:
+Exact new Russian interview line, original short normalno exchange as quoted, new cosmic-fish line. Street ambience, light wind, boat creak and one fish slap. No sampled original voice, imitation of a real speaker's voice, meme-remix music or subtitles. For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue.
+
+NEGATIVE:
+no real interviewee likeness, no sudden face replacement, no child, no dangerous ice collapse, no extra fish or extra hands, no moralising title or copied montage; no infographic. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+#### 76 · Seedance 2.0 часть 2
+
+**Входы:** @Video1 — `actual final 3 seconds of Scene 76 Seedance Part 1`; @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-76/S76-kandibober.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic parody with clear physical comedy
+
+REFERENCES / AUTHORITY:
+@Video1 = actual final 3 seconds of Scene 76 Seedance Part 1 — real motion/pose continuity, not a generated substitute.
+@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
+@Image2 = references/scenes/scene-76/S76-kandibober.png — single new scene staging and props, never overrides identity.
+Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK: same adult stocky man from @Image1, round fair face, short light-brown hair, light stubble. Black tunic, leather tabard, brown trousers and boots; for the interview ONLY add one very tall sculptural crimson felt hat with folded loops. Do not copy the real interviewee's face. Anonymous interviewer's hand and microphone only; fishing droid remains offscreen.
+
+SCENE / SPACE:
+Three clearly separated parody sets: overcast pedestrian street; safe theatrical ice set with painted fishing hole and no real thin-ice danger; a small stable fishing boat on a dawn river. These are editorial hard cuts, not an instant geographic teleport within one take.
+
+START STATE:
+Continue the actual last moment of @Video1, without replaying it. Target continuity: On the separate ice set he reclines on his side, booted legs visible, rod beside him; the offscreen question has just finished. No fall through ice.
+
+STORY FLOW:
+0–5s: Continue the reclining pose, then Vitalik replies «Норма-а-ально». Preserve the long deadpan vowel and a small contented nod; he does not fall or get injured.
+5–12s: Hard cut to the dawn boat. Vitalik raises one large fish with two clearly separate hands, joy suddenly overwhelming: «Я-а-азь! Космический! Рыба всей моей галактики!» A gentle cyan shimmer travels once along the fish.
+12–15s: The fish gives one small tail flick, he tightens his safe two-hand hold and beams at the camera. End before another joke or location change.
+
+END STATE:
+In the boat Vitalik thrusts a large silver-green fish toward the lens with both hands; its brief cyan shimmer lights his delighted face. Final delighted hold, no new dialogue.
+
+CAMERA / LIGHT / PERFORMANCE:
+Street medium 50mm; fixed medium-wide ice setup; natural handheld close-medium boat portrait. Do not speed-ramp the spoken phrases, no slideshow transitions. Hold each face long enough for Russian lip-sync. Comedy comes from sincere performance, not mugging or ugly facial distortion.
+
+AUDIO:
+Exact new Russian interview line, original short normalno exchange as quoted, new cosmic-fish line. Street ambience, light wind, boat creak and one fish slap. No sampled original voice, imitation of a real speaker's voice, meme-remix music or subtitles. For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue.
+
+NEGATIVE:
+no real interviewee likeness, no sudden face replacement, no child, no dangerous ice collapse, no extra fish or extra hands, no moralising title or copied montage; no infographic. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+</div>
+
+---
+
+<a id="scene-77"></a>
+
+## Сцена 77 — «Она отказала мне»: мелодрама у космического забора
+
+<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["parody","comedy","owner_authorized_creation","images_pending"]} -->
+
+**Контекст использования:** Пародия на трёхперсонажную сцену «Яблоневого сада». Первый сообщает об отказе, второй не верит, третья сама кричит признание. Не версия, где второй мужчина признаётся первому. Серёга и Виталик играют роли; новая взрослая инопланетянка — вымышленная эпизодическая героиня, не новая биография канонических персонажей.
+
+**Что происходит:** Серёга трагически сообщает Виталику об отказе девушки. Виталик столь же трагически отрицает её чувства. Из-за обычного садового забора поднимается зелёная инопланетянка и перекрикивает обоих признанием. После паузы Серёга достаёт ложку: «А я люблю майонез». Виталик смотрит в камеру, не понимая, кто тут снимал мелодраму.
+
+**Готовность:** DRAFT. Тексты подготовлены по команде 09.11; отдельный новый постановочный PNG ещё требуется. Это НЕ готовый ролик и НЕ запись в очередь. Основная версия — 30 с Wan 3.0; тот же текст на Seedance 2.5 только по выбору владельца. Альтернатива — 2×15 с Seedance 2.0: P2 ждёт настоящие последние 3 с своей P1. Редакционная приёмка не выполнена.
+
+**Референсы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/full/serega.jpg`; @Image3 — `references/scenes/scene-77/S77-love-triangle.png`. Для нового PNG пока сохранено только точное задание; не выдавать его за изображение.
+
+**Источники / авторская переработка:** `reports/parody-scenes-source-2026-11-09.json`. Реплики и гэги постановки не являются полной транскрипцией исходных роликов; непрерывный просмотр/звук всех оригиналов не подтверждены.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/full/vitalik.jpg" alt="@Image1 — точная внешность"></a><figcaption>@Image1 — точная внешность, существующий файл</figcaption></figure>
+<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image2 — точная внешность"></a><figcaption>@Image2 — точная внешность, существующий файл</figcaption></figure>
+</div>
+
+<div class="engine-tabs" data-scene="77">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/full/serega.jpg`; @Image3 — `references/scenes/scene-77/S77-love-triangle.png`.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic parody with clear physical comedy
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
+@Image2 = references/full/serega.jpg — exact serega face and body; wardrobe follows the explicit scene costume.
+@Image3 = references/scenes/scene-77/S77-love-triangle.png — single new scene staging and props, never overrides identity.
+Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK @Image1: adult stocky fair-skinned man, round face, short light-brown hair, light stubble; black tunic/leather tabard, brown belt and trousers, tall boots. SEREGA @Image2: mature pale man, bald crown with sparse light hair at sides, faint stubble, long deep-purple robe with broad folded collar, hood down and dark boots. A distinct fictional ADULT green-skinned alien woman behind the fence: smooth round face, two short rounded antennae, shoulder-length dark auburn hair, modest teal coat; neither a real meme actress nor a canonical named family member. Never blend the men's faces.
+
+SCENE / SPACE:
+Ordinary waist-high weathered wooden garden fence beside an apple tree, with a single absurdly distant spaceport antenna on the horizon. Warm overcast daylight, domestic setting rather than a grand palace. Two men remain in front; the third woman is initially hidden behind the fence.
+
+START STATE:
+Serega left and Vitalik right face each other in a stable medium two-shot in front of the garden fence. The third woman is not yet visible.
+
+STORY FLOW:
+0–8s: A melodramatic push-in on Serega as he says with exaggerated hurt «Она отказала мне! Сказала, что любит тебя!» One decisive gesture toward Vitalik, not romantic physical contact.
+8–15s: Reverse close-medium on Vitalik: «Да она не может любить меня!» He shakes his head once with absurd dramatic certainty. Keep Serega visible at the edge to preserve geography.
+15–19s: Continue the reverse angle. Serega sharply corrects him: «Думает, что любит тебя!» One shot/reverse shot, no speaker swapping.
+19–24s: The adult green woman rises from behind the wooden fence into the central gap and shouts directly at Vitalik «Да я люблю тебя!» Her line is the emotional climax; both men stop moving.
+24–30s: A deliberate one-second silence. Serega takes one small unbranded mayonnaise jar and spoon from his robe: «А я люблю майонез». Vitalik looks into the lens with a completely dry expression. No kiss or new line.
+
+END STATE:
+All three are visible. Serega holds a small mayonnaise jar and spoon; Vitalik stares deadpan into camera, the woman silently waits behind the fence. Hold one comic beat without further speech.
+
+CAMERA / LIGHT / PERFORMANCE:
+Clean two-shot and matched 50mm reverses on one axis, then a wider reveal of the third speaker. No random orbit. Keep all faces distinct and each mouth active only during its own dialogue. Comedy comes from sincere performance, not mugging or ugly facial distortion.
+
+AUDIO:
+Four supplied meme lines plus the short new mayonnaise punchline, performed by new voices with exaggerated melodramatic delivery. Birds, wind in leaves, one spoon tap. No original serial soundtrack, no generated music, no subtitles.
+
+NEGATIVE:
+no man speaking the woman's final confession, no swapping speakers, no face blending, no cloned relatives, no child, no copied original actor faces, no kissing, no voiceover explaining the joke, no montage layout. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 77 · Seedance 2.0 часть 1
+
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/full/serega.jpg`; @Image3 — `references/scenes/scene-77/S77-love-triangle.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic parody with clear physical comedy
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
+@Image2 = references/full/serega.jpg — exact serega face and body; wardrobe follows the explicit scene costume.
+@Image3 = references/scenes/scene-77/S77-love-triangle.png — single new scene staging and props, never overrides identity.
+Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK @Image1: adult stocky fair-skinned man, round face, short light-brown hair, light stubble; black tunic/leather tabard, brown belt and trousers, tall boots. SEREGA @Image2: mature pale man, bald crown with sparse light hair at sides, faint stubble, long deep-purple robe with broad folded collar, hood down and dark boots. A distinct fictional ADULT green-skinned alien woman behind the fence: smooth round face, two short rounded antennae, shoulder-length dark auburn hair, modest teal coat; neither a real meme actress nor a canonical named family member. Never blend the men's faces.
+
+SCENE / SPACE:
+Ordinary waist-high weathered wooden garden fence beside an apple tree, with a single absurdly distant spaceport antenna on the horizon. Warm overcast daylight, domestic setting rather than a grand palace. Two men remain in front; the third woman is initially hidden behind the fence.
+
+START STATE:
+Serega left and Vitalik right face each other in a stable medium two-shot in front of the garden fence. The third woman is not yet visible.
+
+STORY FLOW:
+0–8s: A melodramatic push-in on Serega as he says with exaggerated hurt «Она отказала мне! Сказала, что любит тебя!» One decisive gesture toward Vitalik, not romantic physical contact.
+8–15s: Reverse close-medium on Vitalik: «Да она не может любить меня!» He shakes his head once with absurd dramatic certainty. Keep Serega visible at the edge to preserve geography.
+
+END STATE:
+After Vitalik's denial Serega turns back toward him, arm raised for his correction. The third woman's crown has not yet cleared the fence.
+
+CAMERA / LIGHT / PERFORMANCE:
+Clean two-shot and matched 50mm reverses on one axis, then a wider reveal of the third speaker. No random orbit. Keep all faces distinct and each mouth active only during its own dialogue. Comedy comes from sincere performance, not mugging or ugly facial distortion.
+
+AUDIO:
+Four supplied meme lines plus the short new mayonnaise punchline, performed by new voices with exaggerated melodramatic delivery. Birds, wind in leaves, one spoon tap. No original serial soundtrack, no generated music, no subtitles. For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue.
+
+NEGATIVE:
+no man speaking the woman's final confession, no swapping speakers, no face blending, no cloned relatives, no child, no copied original actor faces, no kissing, no voiceover explaining the joke, no montage layout. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+#### 77 · Seedance 2.0 часть 2
+
+**Входы:** @Video1 — `actual final 3 seconds of Scene 77 Seedance Part 1`; @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/full/serega.jpg`; @Image3 — `references/scenes/scene-77/S77-love-triangle.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic parody with clear physical comedy
+
+REFERENCES / AUTHORITY:
+@Video1 = actual final 3 seconds of Scene 77 Seedance Part 1 — real motion/pose continuity, not a generated substitute.
+@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
+@Image2 = references/full/serega.jpg — exact serega face and body; wardrobe follows the explicit scene costume.
+@Image3 = references/scenes/scene-77/S77-love-triangle.png — single new scene staging and props, never overrides identity.
+Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK @Image1: adult stocky fair-skinned man, round face, short light-brown hair, light stubble; black tunic/leather tabard, brown belt and trousers, tall boots. SEREGA @Image2: mature pale man, bald crown with sparse light hair at sides, faint stubble, long deep-purple robe with broad folded collar, hood down and dark boots. A distinct fictional ADULT green-skinned alien woman behind the fence: smooth round face, two short rounded antennae, shoulder-length dark auburn hair, modest teal coat; neither a real meme actress nor a canonical named family member. Never blend the men's faces.
+
+SCENE / SPACE:
+Ordinary waist-high weathered wooden garden fence beside an apple tree, with a single absurdly distant spaceport antenna on the horizon. Warm overcast daylight, domestic setting rather than a grand palace. Two men remain in front; the third woman is initially hidden behind the fence.
+
+START STATE:
+Continue the actual last moment of @Video1, without replaying it. Target continuity: After Vitalik's denial Serega turns back toward him, arm raised for his correction. The third woman's crown has not yet cleared the fence.
+
+STORY FLOW:
+0–4s: Continue the reverse angle. Serega sharply corrects him: «Думает, что любит тебя!» One shot/reverse shot, no speaker swapping.
+4–9s: The adult green woman rises from behind the wooden fence into the central gap and shouts directly at Vitalik «Да я люблю тебя!» Her line is the emotional climax; both men stop moving.
+9–15s: A deliberate one-second silence. Serega takes one small unbranded mayonnaise jar and spoon from his robe: «А я люблю майонез». Vitalik looks into the lens with a completely dry expression. No kiss or new line.
+
+END STATE:
+All three are visible. Serega holds a small mayonnaise jar and spoon; Vitalik stares deadpan into camera, the woman silently waits behind the fence. Hold one comic beat without further speech.
+
+CAMERA / LIGHT / PERFORMANCE:
+Clean two-shot and matched 50mm reverses on one axis, then a wider reveal of the third speaker. No random orbit. Keep all faces distinct and each mouth active only during its own dialogue. Comedy comes from sincere performance, not mugging or ugly facial distortion.
+
+AUDIO:
+Four supplied meme lines plus the short new mayonnaise punchline, performed by new voices with exaggerated melodramatic delivery. Birds, wind in leaves, one spoon tap. No original serial soundtrack, no generated music, no subtitles. For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue.
+
+NEGATIVE:
+no man speaking the woman's final confession, no swapping speakers, no face blending, no cloned relatives, no child, no copied original actor faces, no kissing, no voiceover explaining the joke, no montage layout. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+</div>
+
+---
+
+<a id="scene-78"></a>
+
+## Сцена 78 — Майонез: салат больше не нужен
+
+<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["parody","comedy","owner_authorized_creation","images_pending"]} -->
+
+**Контекст использования:** Самостоятельная псевдореклама, не реальная реклама пищевой пользы. Виталик и вымышленные взрослые родственники — не утверждение о привычках настоящей семьи. Комедия рекламной идиллии: большие банки, но в кадре обычные небольшие ложки без насильственного кормления и опасного соревнования.
+
+**Что происходит:** За идеально сервированным столом вся семья ест майонез ложками из огромных банок. Бабушка с важностью открывает ещё одну банку, отец ставит на пьедестал торжественную салатницу — пустую. Виталик отодвигает салатницу: «Салат? Мы уже взрослые». Крупный рекламный план банки и финальный слоган про ненужный салат.
+
+**Готовность:** DRAFT. Тексты подготовлены по команде 09.11; отдельный новый постановочный PNG ещё требуется. Это НЕ готовый ролик и НЕ запись в очередь. Основная версия — 30 с Wan 3.0; тот же текст на Seedance 2.5 только по выбору владельца. Альтернатива — 2×15 с Seedance 2.0: P2 ждёт настоящие последние 3 с своей P1. Редакционная приёмка не выполнена.
+
+**Референсы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-78/S78-mayonnaise-family.png`. Для нового PNG пока сохранено только точное задание; не выдавать его за изображение.
+
+**Источники / авторская переработка:** `reports/parody-scenes-source-2026-11-09.json`. Реплики и гэги постановки не являются полной транскрипцией исходных роликов; непрерывный просмотр/звук всех оригиналов не подтверждены.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/full/vitalik.jpg" alt="@Image1 — точная внешность"></a><figcaption>@Image1 — точная внешность, существующий файл</figcaption></figure>
+</div>
+
+<div class="engine-tabs" data-scene="78">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-78/S78-mayonnaise-family.png`.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic parody with clear physical comedy
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
+@Image2 = references/scenes/scene-78/S78-mayonnaise-family.png — single new scene staging and props, never overrides identity.
+Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK @Image1: same stocky fair adult, short light-brown hair, stubble, black tunic/tabard with a plain cream kitchen apron over it. Three FICTIONAL adult family actors, not real relatives: silver-haired grandmother in a burgundy cardigan, grey-haired grandfather in a pale-blue shirt, adult dark-haired daughter in a mustard sweater. Distinct fixed faces and clothes, no children. Each has one separate spoon and one oversized wide-mouth jar.
+
+SCENE / SPACE:
+Bright cosy kitchen/dining room with a white-clothed wooden table, warm morning window light. Four separate oversized glass jars full of smooth pale mayonnaise, no real product brand; one intentionally empty white salad bowl. All utensils and jars remain physically solid.
+
+START STATE:
+Wide family-advertisement tableau: four adults seated around the table, each with a large mayonnaise jar and a normal tablespoon. The white salad bowl is absent.
+
+STORY FLOW:
+0–7s: Luminous advertising dolly across the table. The entire adult family eats modest spoonfuls straight from big jars, each with their own spoon, smiling with absurd commercial sincerity.
+7–11s: Macro of a spoon lifting a thick smooth ribbon of mayonnaise, then a pleased reaction from Vitalik. Keep appetising texture, not grotesque splatter.
+11–15s: Grandmother solemnly unscrews one fresh wide-mouth jar as though opening champagne. One clean lid pop; the others turn reverently toward it.
+15–20s: Continue the family position; grandfather proudly sets one pristine but EMPTY white salad bowl at the centre. Everyone pauses and looks at it.
+20–25s: Vitalik gently pushes the bowl away without spilling anything and says «Салат? Мы уже взрослые». Each adult resumes their small spoonful with perfect advertising smiles.
+25–30s: Slow hero push toward the mayonnaise jar. New narrator line: «Майонез. Когда салат уже не нужен». Background family remains alive with small natural motion; no written slogan generated.
+
+END STATE:
+Clean hero shot of an unbranded mayonnaise jar on the table, all four contented adults softly visible behind. Room for a separately edited slogan, but no generated text in the video.
+
+CAMERA / LIGHT / PERFORMANCE:
+Warm high-key family-commercial 35mm wide, 85mm food macro, medium punchline and 50mm hero jar. No overhead geometry changes or impossible spoon motion. Bright clean appetising light. Comedy comes from sincere performance, not mugging or ugly facial distortion.
+
+AUDIO:
+Spoons, glass, lid pop, kitchen ambience; one exact Vitalik line and one new announcer slogan. No borrowed advertising jingle, no music, no health claims.
+
+NEGATIVE:
+no forced feeding, choking, vomiting, competition, huge mouthfuls, distressed child, mess on faces, extra hands, morphing jars, real relatives invented by name, nutrition claims, captions or dashboard. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 78 · Seedance 2.0 часть 1
+
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-78/S78-mayonnaise-family.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic parody with clear physical comedy
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
+@Image2 = references/scenes/scene-78/S78-mayonnaise-family.png — single new scene staging and props, never overrides identity.
+Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK @Image1: same stocky fair adult, short light-brown hair, stubble, black tunic/tabard with a plain cream kitchen apron over it. Three FICTIONAL adult family actors, not real relatives: silver-haired grandmother in a burgundy cardigan, grey-haired grandfather in a pale-blue shirt, adult dark-haired daughter in a mustard sweater. Distinct fixed faces and clothes, no children. Each has one separate spoon and one oversized wide-mouth jar.
+
+SCENE / SPACE:
+Bright cosy kitchen/dining room with a white-clothed wooden table, warm morning window light. Four separate oversized glass jars full of smooth pale mayonnaise, no real product brand; one intentionally empty white salad bowl. All utensils and jars remain physically solid.
+
+START STATE:
+Wide family-advertisement tableau: four adults seated around the table, each with a large mayonnaise jar and a normal tablespoon. The white salad bowl is absent.
+
+STORY FLOW:
+0–7s: Luminous advertising dolly across the table. The entire adult family eats modest spoonfuls straight from big jars, each with their own spoon, smiling with absurd commercial sincerity.
+7–11s: Macro of a spoon lifting a thick smooth ribbon of mayonnaise, then a pleased reaction from Vitalik. Keep appetising texture, not grotesque splatter.
+11–15s: Grandmother solemnly unscrews one fresh wide-mouth jar as though opening champagne. One clean lid pop; the others turn reverently toward it.
+
+END STATE:
+Grandmother has finished opening the second serving jar; grandfather is reaching offscreen for the white bowl. Everyone still has the same place and own spoon.
+
+CAMERA / LIGHT / PERFORMANCE:
+Warm high-key family-commercial 35mm wide, 85mm food macro, medium punchline and 50mm hero jar. No overhead geometry changes or impossible spoon motion. Bright clean appetising light. Comedy comes from sincere performance, not mugging or ugly facial distortion.
+
+AUDIO:
+Spoons, glass, lid pop, kitchen ambience; one exact Vitalik line and one new announcer slogan. No borrowed advertising jingle, no music, no health claims. For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue.
+
+NEGATIVE:
+no forced feeding, choking, vomiting, competition, huge mouthfuls, distressed child, mess on faces, extra hands, morphing jars, real relatives invented by name, nutrition claims, captions or dashboard. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+#### 78 · Seedance 2.0 часть 2
+
+**Входы:** @Video1 — `actual final 3 seconds of Scene 78 Seedance Part 1`; @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-78/S78-mayonnaise-family.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic parody with clear physical comedy
+
+REFERENCES / AUTHORITY:
+@Video1 = actual final 3 seconds of Scene 78 Seedance Part 1 — real motion/pose continuity, not a generated substitute.
+@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
+@Image2 = references/scenes/scene-78/S78-mayonnaise-family.png — single new scene staging and props, never overrides identity.
+Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK @Image1: same stocky fair adult, short light-brown hair, stubble, black tunic/tabard with a plain cream kitchen apron over it. Three FICTIONAL adult family actors, not real relatives: silver-haired grandmother in a burgundy cardigan, grey-haired grandfather in a pale-blue shirt, adult dark-haired daughter in a mustard sweater. Distinct fixed faces and clothes, no children. Each has one separate spoon and one oversized wide-mouth jar.
+
+SCENE / SPACE:
+Bright cosy kitchen/dining room with a white-clothed wooden table, warm morning window light. Four separate oversized glass jars full of smooth pale mayonnaise, no real product brand; one intentionally empty white salad bowl. All utensils and jars remain physically solid.
+
+START STATE:
+Continue the actual last moment of @Video1, without replaying it. Target continuity: Grandmother has finished opening the second serving jar; grandfather is reaching offscreen for the white bowl. Everyone still has the same place and own spoon.
+
+STORY FLOW:
+0–5s: Continue the family position; grandfather proudly sets one pristine but EMPTY white salad bowl at the centre. Everyone pauses and looks at it.
+5–10s: Vitalik gently pushes the bowl away without spilling anything and says «Салат? Мы уже взрослые». Each adult resumes their small spoonful with perfect advertising smiles.
+10–15s: Slow hero push toward the mayonnaise jar. New narrator line: «Майонез. Когда салат уже не нужен». Background family remains alive with small natural motion; no written slogan generated.
+
+END STATE:
+Clean hero shot of an unbranded mayonnaise jar on the table, all four contented adults softly visible behind. Room for a separately edited slogan, but no generated text in the video.
+
+CAMERA / LIGHT / PERFORMANCE:
+Warm high-key family-commercial 35mm wide, 85mm food macro, medium punchline and 50mm hero jar. No overhead geometry changes or impossible spoon motion. Bright clean appetising light. Comedy comes from sincere performance, not mugging or ugly facial distortion.
+
+AUDIO:
+Spoons, glass, lid pop, kitchen ambience; one exact Vitalik line and one new announcer slogan. No borrowed advertising jingle, no music, no health claims. For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue.
+
+NEGATIVE:
+no forced feeding, choking, vomiting, competition, huge mouthfuls, distressed child, mess on faces, extra hands, morphing jars, real relatives invented by name, nutrition claims, captions or dashboard. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+</div>
+
+---
+
+<a id="scene-79"></a>
+
+## Сцена 79 — Lay’s: хруст слышно во всей галактике
+
+<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["parody","comedy","owner_authorized_creation","images_pending"]} -->
+
+**Контекст использования:** Самостоятельная пародия на навязчивую рекламу чипсов, не официальный заказ Lay’s и не утверждение о поддержке брендом. Вся компания постоянно хрустит; основная шутка — звук, уничтожающий торжественность совета. Логотип и упаковку при необходимости финально накладывать отдельно, а не требовать идеальной типографики от видео.
+
+**Что происходит:** На серьёзном космическом совете Виталик пытается незаметно открыть жёлтую пачку Lay’s. Хруст звучит как взрыв, все поворачиваются — но у каждого своя пачка. За последнюю чипсину начинается напряжённый поединок взглядов. Робот приносит полную тележку, и все синхронно хрустят.
+
+**Готовность:** DRAFT. Тексты подготовлены по команде 09.11; отдельный новый постановочный PNG ещё требуется. Это НЕ готовый ролик и НЕ запись в очередь. Основная версия — 30 с Wan 3.0; тот же текст на Seedance 2.5 только по выбору владельца. Альтернатива — 2×15 с Seedance 2.0: P2 ждёт настоящие последние 3 с своей P1. Редакционная приёмка не выполнена.
+
+**Референсы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-79/S79-chips-council.png`. Для нового PNG пока сохранено только точное задание; не выдавать его за изображение.
+
+**Источники / авторская переработка:** `reports/parody-scenes-source-2026-11-09.json`. Реплики и гэги постановки не являются полной транскрипцией исходных роликов; непрерывный просмотр/звук всех оригиналов не подтверждены.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/full/vitalik.jpg" alt="@Image1 — точная внешность"></a><figcaption>@Image1 — точная внешность, существующий файл</figcaption></figure>
+</div>
+
+<div class="engine-tabs" data-scene="79">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-79/S79-chips-council.png`.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic parody with clear physical comedy
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
+@Image2 = references/scenes/scene-79/S79-chips-council.png — single new scene staging and props, never overrides identity.
+Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK: exact adult stocky fair identity @Image1, short light-brown hair, light stubble, black tunic/leather tabard, brown belt. Four distinct fictional adult human/alien council members in modest dark space-opera robes; no known celebrities. One harmless service droid. Each councillor has their own yellow potato-chip bag and naturally distinct face. Keep individual hands and bags separate.
+
+SCENE / SPACE:
+Grand circular science-fiction council room with a polished round table and a panoramic starfield window. Yellow Lay's-style chip bags contrast with serious dark robes; real packets appear as parody props, no official sponsorship graphics. One small plate with a final chip and a service trolley.
+
+START STATE:
+A silent formal council. Vitalik sits closest to camera, discreetly gripping a sealed yellow chip bag below the table rim.
+
+STORY FLOW:
+0–5s: Static solemn wide council composition. Vitalik slowly pulls open one yellow Lay's chip bag under the table, trying not to attract attention.
+5–10s: The bag tears with an absurdly loud crinkle. He freezes; the nearest councillor turns with grave concern. No explosion or damage is shown.
+10–15s: Vitalik eats ONE ordinary chip; the amplified crunch reverberates around the chamber. Reverse wide reveals every councillor already holding their own yellow packet.
+15–20s: Continue the revealed council. Their stern expressions soften and everyone discreetly eats chips. One lone chip remains on a small plate in the centre.
+20–25s: Tight alternating eyelines as Vitalik and another adult reach toward the last chip and stop, conducting a ridiculous silent western standoff. No weapons.
+25–30s: Service droid rolls in a trolley full of fresh yellow bags. Everyone drops the rivalry and takes one synchronized chip bite. Announcer: «Тишина? Не в этой галактике». Finish on pack and chip, no generated slogan text.
+
+END STATE:
+The whole council takes one synchronized ordinary chip bite, followed by a hero shot of one yellow pack and a single chip. The room is intact, nobody fights physically.
+
+CAMERA / LIGHT / PERFORMANCE:
+Symmetrical 35mm council wide, 85mm hands opening bag, face reactions and matched eyeline inserts, final 50mm pack hero. Keep packet scale stable; tactile potato-chip texture and ordinary chewing. Comedy comes from sincere performance, not mugging or ugly facial distortion.
+
+AUDIO:
+Quiet room tone, enormous foil crinkle and exaggerated but clean crunch, rolling trolley. One new Russian narrator line: «Тишина? Не в этой галактике». No actual explosion, copied music/jingle or original ad soundtrack.
+
+NEGATIVE:
+no real injury, fighting, choking, endless stuffing, floating unheld packets, duplicated faces, melted labels, false official endorsement, text overlays, captions, montage grid or infographic. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 79 · Seedance 2.0 часть 1
+
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-79/S79-chips-council.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic parody with clear physical comedy
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
+@Image2 = references/scenes/scene-79/S79-chips-council.png — single new scene staging and props, never overrides identity.
+Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK: exact adult stocky fair identity @Image1, short light-brown hair, light stubble, black tunic/leather tabard, brown belt. Four distinct fictional adult human/alien council members in modest dark space-opera robes; no known celebrities. One harmless service droid. Each councillor has their own yellow potato-chip bag and naturally distinct face. Keep individual hands and bags separate.
+
+SCENE / SPACE:
+Grand circular science-fiction council room with a polished round table and a panoramic starfield window. Yellow Lay's-style chip bags contrast with serious dark robes; real packets appear as parody props, no official sponsorship graphics. One small plate with a final chip and a service trolley.
+
+START STATE:
+A silent formal council. Vitalik sits closest to camera, discreetly gripping a sealed yellow chip bag below the table rim.
+
+STORY FLOW:
+0–5s: Static solemn wide council composition. Vitalik slowly pulls open one yellow Lay's chip bag under the table, trying not to attract attention.
+5–10s: The bag tears with an absurdly loud crinkle. He freezes; the nearest councillor turns with grave concern. No explosion or damage is shown.
+10–15s: Vitalik eats ONE ordinary chip; the amplified crunch reverberates around the chamber. Reverse wide reveals every councillor already holding their own yellow packet.
+
+END STATE:
+Everyone has turned toward him after the first crunch, their own opened chip bags now visible. His bag remains on his lap.
+
+CAMERA / LIGHT / PERFORMANCE:
+Symmetrical 35mm council wide, 85mm hands opening bag, face reactions and matched eyeline inserts, final 50mm pack hero. Keep packet scale stable; tactile potato-chip texture and ordinary chewing. Comedy comes from sincere performance, not mugging or ugly facial distortion.
+
+AUDIO:
+Quiet room tone, enormous foil crinkle and exaggerated but clean crunch, rolling trolley. One new Russian narrator line: «Тишина? Не в этой галактике». No actual explosion, copied music/jingle or original ad soundtrack. For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue.
+
+NEGATIVE:
+no real injury, fighting, choking, endless stuffing, floating unheld packets, duplicated faces, melted labels, false official endorsement, text overlays, captions, montage grid or infographic. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+#### 79 · Seedance 2.0 часть 2
+
+**Входы:** @Video1 — `actual final 3 seconds of Scene 79 Seedance Part 1`; @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-79/S79-chips-council.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic parody with clear physical comedy
+
+REFERENCES / AUTHORITY:
+@Video1 = actual final 3 seconds of Scene 79 Seedance Part 1 — real motion/pose continuity, not a generated substitute.
+@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
+@Image2 = references/scenes/scene-79/S79-chips-council.png — single new scene staging and props, never overrides identity.
+Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK: exact adult stocky fair identity @Image1, short light-brown hair, light stubble, black tunic/leather tabard, brown belt. Four distinct fictional adult human/alien council members in modest dark space-opera robes; no known celebrities. One harmless service droid. Each councillor has their own yellow potato-chip bag and naturally distinct face. Keep individual hands and bags separate.
+
+SCENE / SPACE:
+Grand circular science-fiction council room with a polished round table and a panoramic starfield window. Yellow Lay's-style chip bags contrast with serious dark robes; real packets appear as parody props, no official sponsorship graphics. One small plate with a final chip and a service trolley.
+
+START STATE:
+Continue the actual last moment of @Video1, without replaying it. Target continuity: Everyone has turned toward him after the first crunch, their own opened chip bags now visible. His bag remains on his lap.
+
+STORY FLOW:
+0–5s: Continue the revealed council. Their stern expressions soften and everyone discreetly eats chips. One lone chip remains on a small plate in the centre.
+5–10s: Tight alternating eyelines as Vitalik and another adult reach toward the last chip and stop, conducting a ridiculous silent western standoff. No weapons.
+10–15s: Service droid rolls in a trolley full of fresh yellow bags. Everyone drops the rivalry and takes one synchronized chip bite. Announcer: «Тишина? Не в этой галактике». Finish on pack and chip, no generated slogan text.
+
+END STATE:
+The whole council takes one synchronized ordinary chip bite, followed by a hero shot of one yellow pack and a single chip. The room is intact, nobody fights physically.
+
+CAMERA / LIGHT / PERFORMANCE:
+Symmetrical 35mm council wide, 85mm hands opening bag, face reactions and matched eyeline inserts, final 50mm pack hero. Keep packet scale stable; tactile potato-chip texture and ordinary chewing. Comedy comes from sincere performance, not mugging or ugly facial distortion.
+
+AUDIO:
+Quiet room tone, enormous foil crinkle and exaggerated but clean crunch, rolling trolley. One new Russian narrator line: «Тишина? Не в этой галактике». No actual explosion, copied music/jingle or original ad soundtrack. For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue.
+
+NEGATIVE:
+no real injury, fighting, choking, endless stuffing, floating unheld packets, duplicated faces, melted labels, false official endorsement, text overlays, captions, montage grid or infographic. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+</div>
+
+---
+
+<a id="scene-80"></a>
+
+## Сцена 80 — Люкс из кладовки: лапша, тапки и пакет с пакетами
+
+<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["parody","comedy","owner_authorized_creation","images_pending"]} -->
+
+**Контекст использования:** Три рекламных миниатюры по 10 секунд: дешёвая лапша как парфюм, домашние тапки как суперкар, пакет с пакетами как кутюрная сумка. Новые слоганы и музыка не из чужой рекламы. Виталик — серьёзный модель-демонстратор; всё выглядит дорого, смешным остаётся сам предмет.
+
+**Что происходит:** Камера облетает лапшу в чашке как редкий аромат. Виталик втягивает запах: «Ноты бульона». Следующий суперкарный пролёт раскрывает обычные тапки: «Разгон до кухни — за три шага». Финал — бархатный пьедестал и пакет с пакетами; герой извлекает ещё один пакет как дорогой аксессуар.
+
+**Готовность:** DRAFT. Тексты подготовлены по команде 09.11; отдельный новый постановочный PNG ещё требуется. Это НЕ готовый ролик и НЕ запись в очередь. Основная версия — 30 с Wan 3.0; тот же текст на Seedance 2.5 только по выбору владельца. Альтернатива — 2×15 с Seedance 2.0: P2 ждёт настоящие последние 3 с своей P1. Редакционная приёмка не выполнена.
+
+**Референсы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-80/S80-budget-luxury.png`. Для нового PNG пока сохранено только точное задание; не выдавать его за изображение.
+
+**Источники / авторская переработка:** `reports/parody-scenes-source-2026-11-09.json`. Реплики и гэги постановки не являются полной транскрипцией исходных роликов; непрерывный просмотр/звук всех оригиналов не подтверждены.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/full/vitalik.jpg" alt="@Image1 — точная внешность"></a><figcaption>@Image1 — точная внешность, существующий файл</figcaption></figure>
+</div>
+
+<div class="engine-tabs" data-scene="80">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-80/S80-budget-luxury.png`.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic parody with clear physical comedy
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
+@Image2 = references/scenes/scene-80/S80-budget-luxury.png — single new scene staging and props, never overrides identity.
+Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK: adult stocky fair man, exact @Image1 round face, short light-brown hair and stubble; black tunic/leather tabard, brown trousers. Bare hands when touching noodles/props, plain household slippers for the footwear gag. No change in face or age. No other person.
+
+SCENE / SPACE:
+Three high-end advertising sets: black reflective tabletop with a plain instant-noodle cup and dramatic steam; tiny illuminated runway for ordinary checked fabric slippers; deep burgundy velvet pedestal holding a plain transparent carrier bag containing many neatly folded bags. No premium-brand logos.
+
+START STATE:
+Extreme macro of steam above noodles, mysterious dramatic rim light; the simple cup is not yet fully revealed.
+
+STORY FLOW:
+0–5s: Black-gloss macro of delicate steam and amber highlights suggests luxury perfume. Track across the surface until the object becomes unmistakably an instant-noodle cup with a fork.
+5–10s: Vitalik leans in, inhales the normal food aroma and whispers «Ноты бульона». A single noodle hangs from the fork like an expensive ribbon; no fragrance bottle or false ingredient claim.
+10–15s: Hard cut to racing-commercial low-angle lighting. Camera races along a curved fabric edge and reveals two ordinary checked house slippers on his feet, not a car.
+15–20s: Continue the slippers reveal. Vitalik takes exactly three unhurried steps toward a kitchen doorway. Announcer: «Разгон до кухни — за три шага». No falling or stunt.
+20–25s: Hard cut to a couture studio: one plain transparent carrier bag stuffed with neatly folded smaller bags on a burgundy velvet pedestal. Slow sculptural orbit, immaculate controlled highlights.
+25–30s: Vitalik picks up the bag and extracts one smaller bag with deadpan model poise: «Коллекция пакетов. На все случаи жизни». End on the ordinary bag, treated like a priceless object.
+
+END STATE:
+Vitalik raises the carrier bag from its velvet pedestal and draws out one smaller bag. He delivers the last slogan with absolute couture-model seriousness; final still is the nested-bag product, without text.
+
+CAMERA / LIGHT / PERFORMANCE:
+Luxury 100mm macro and precise slider for noodles; extremely low 35mm footwear track; slow 50mm pedestal orbit. Three clean mini-ads, no arbitrary split-screen. Practical steam and physically plausible plastic folds. Comedy comes from sincere performance, not mugging or ugly facial distortion.
+
+AUDIO:
+Soft breath, fork tap, three fabric-slipper steps, dignified plastic rustle. Only the three specified new Russian lines, no borrowed music or premium-brand jingles.
+
+NEGATIVE:
+no extra gadgets, false scientific performance claims, branded luxury logos, dangerous stunts, duplicated feet, floating forks, foreign text, subtitles, fake reviews, dashboard or infographic. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 80 · Seedance 2.0 часть 1
+
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-80/S80-budget-luxury.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic parody with clear physical comedy
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
+@Image2 = references/scenes/scene-80/S80-budget-luxury.png — single new scene staging and props, never overrides identity.
+Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK: adult stocky fair man, exact @Image1 round face, short light-brown hair and stubble; black tunic/leather tabard, brown trousers. Bare hands when touching noodles/props, plain household slippers for the footwear gag. No change in face or age. No other person.
+
+SCENE / SPACE:
+Three high-end advertising sets: black reflective tabletop with a plain instant-noodle cup and dramatic steam; tiny illuminated runway for ordinary checked fabric slippers; deep burgundy velvet pedestal holding a plain transparent carrier bag containing many neatly folded bags. No premium-brand logos.
+
+START STATE:
+Extreme macro of steam above noodles, mysterious dramatic rim light; the simple cup is not yet fully revealed.
+
+STORY FLOW:
+0–5s: Black-gloss macro of delicate steam and amber highlights suggests luxury perfume. Track across the surface until the object becomes unmistakably an instant-noodle cup with a fork.
+5–10s: Vitalik leans in, inhales the normal food aroma and whispers «Ноты бульона». A single noodle hangs from the fork like an expensive ribbon; no fragrance bottle or false ingredient claim.
+10–15s: Hard cut to racing-commercial low-angle lighting. Camera races along a curved fabric edge and reveals two ordinary checked house slippers on his feet, not a car.
+
+END STATE:
+The second mini-ad is at its reveal: a low tracking camera has exposed two ordinary checked slippers on Vitalik's feet, standing still at the start of a small kitchen runway.
+
+CAMERA / LIGHT / PERFORMANCE:
+Luxury 100mm macro and precise slider for noodles; extremely low 35mm footwear track; slow 50mm pedestal orbit. Three clean mini-ads, no arbitrary split-screen. Practical steam and physically plausible plastic folds. Comedy comes from sincere performance, not mugging or ugly facial distortion.
+
+AUDIO:
+Soft breath, fork tap, three fabric-slipper steps, dignified plastic rustle. Only the three specified new Russian lines, no borrowed music or premium-brand jingles. For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue.
+
+NEGATIVE:
+no extra gadgets, false scientific performance claims, branded luxury logos, dangerous stunts, duplicated feet, floating forks, foreign text, subtitles, fake reviews, dashboard or infographic. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+#### 80 · Seedance 2.0 часть 2
+
+**Входы:** @Video1 — `actual final 3 seconds of Scene 80 Seedance Part 1`; @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-80/S80-budget-luxury.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic parody with clear physical comedy
+
+REFERENCES / AUTHORITY:
+@Video1 = actual final 3 seconds of Scene 80 Seedance Part 1 — real motion/pose continuity, not a generated substitute.
+@Image1 = references/full/vitalik.jpg — exact vitalik face and body; wardrobe follows the explicit scene costume.
+@Image2 = references/scenes/scene-80/S80-budget-luxury.png — single new scene staging and props, never overrides identity.
+Reference images define people, design and staging; do not display them as a slideshow. Generate actual motion.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK: adult stocky fair man, exact @Image1 round face, short light-brown hair and stubble; black tunic/leather tabard, brown trousers. Bare hands when touching noodles/props, plain household slippers for the footwear gag. No change in face or age. No other person.
+
+SCENE / SPACE:
+Three high-end advertising sets: black reflective tabletop with a plain instant-noodle cup and dramatic steam; tiny illuminated runway for ordinary checked fabric slippers; deep burgundy velvet pedestal holding a plain transparent carrier bag containing many neatly folded bags. No premium-brand logos.
+
+START STATE:
+Continue the actual last moment of @Video1, without replaying it. Target continuity: The second mini-ad is at its reveal: a low tracking camera has exposed two ordinary checked slippers on Vitalik's feet, standing still at the start of a small kitchen runway.
+
+STORY FLOW:
+0–5s: Continue the slippers reveal. Vitalik takes exactly three unhurried steps toward a kitchen doorway. Announcer: «Разгон до кухни — за три шага». No falling or stunt.
+5–10s: Hard cut to a couture studio: one plain transparent carrier bag stuffed with neatly folded smaller bags on a burgundy velvet pedestal. Slow sculptural orbit, immaculate controlled highlights.
+10–15s: Vitalik picks up the bag and extracts one smaller bag with deadpan model poise: «Коллекция пакетов. На все случаи жизни». End on the ordinary bag, treated like a priceless object.
+
+END STATE:
+Vitalik raises the carrier bag from its velvet pedestal and draws out one smaller bag. He delivers the last slogan with absolute couture-model seriousness; final still is the nested-bag product, without text.
+
+CAMERA / LIGHT / PERFORMANCE:
+Luxury 100mm macro and precise slider for noodles; extremely low 35mm footwear track; slow 50mm pedestal orbit. Three clean mini-ads, no arbitrary split-screen. Practical steam and physically plausible plastic folds. Comedy comes from sincere performance, not mugging or ugly facial distortion.
+
+AUDIO:
+Soft breath, fork tap, three fabric-slipper steps, dignified plastic rustle. Only the three specified new Russian lines, no borrowed music or premium-brand jingles. For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue.
+
+NEGATIVE:
+no extra gadgets, false scientific performance claims, branded luxury logos, dangerous stunts, duplicated feet, floating forks, foreign text, subtitles, fake reviews, dashboard or infographic. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
 ```
 
 </div>

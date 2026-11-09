@@ -2,7 +2,7 @@
   "schema_version": 1,
   "work_id": "SEREGIUS-PARODIES-20261109",
   "project": "seregius",
-  "state": "preparation",
+  "state": "scenes_authored_images_pending",
   "owner_request": "1-7 делай сцены в серёгиусе с референсами изображениями",
   "scope": [
     "parody studio logos with Vitalik",
@@ -22,7 +22,7 @@
     79,
     80
   ],
-  "scene_ids_finalized": false,
+  "scene_ids_finalized": true,
   "initial_source_head": "dc3fa5abc2c9ae0aeca9c9f0ebe02e5e6446445a",
   "preflight": "short intake passed; 15 anchors and exact source checks",
   "owner_decisions_read": "Only pre-existing Grok needs_owner found; no new scene conflicts",
@@ -31,6 +31,28 @@
   "paid_generations": 0,
   "queue_change_authorized": false,
   "editorial_approval": false,
-  "next_action": "Create seven new DRAFT scenes after fresh ID/duplicate check; exact identity references; two prompt versions per scene; generate individual native images and save each with QC/provenance before next. No video launches.",
-  "checked_at": "2026-11-09T10:48:12.025422+00:00"
+  "next_action": "Получить и сохранить семь отдельных пригодных постановочных PNG по image-prompt, с QC/SHA/manifest и привязкой в мастере. Каждый — до следующего. Дополнительные ракурсы при необходимости. Не запускать видео и не выдавать исходный model sheet за новый кадр.",
+  "checked_at": "2026-11-09T10:48:12.025422+00:00",
+  "scene_ids": [
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "scene_titles": {
+    "74": "Виталик представляет: парад киностудий",
+    "75": "Лунная студия: Виталик и река",
+    "76": "Мем-театр: кандибобер, нормально, язь",
+    "77": "«Она отказала мне»: мелодрама у космического забора",
+    "78": "Майонез: салат больше не нужен",
+    "79": "Lay’s: хруст слышно во всей галактике",
+    "80": "Люкс из кладовки: лапша, тапки и пакет с пакетами"
+  },
+  "prompt_blocks_created": 21,
+  "source_report": "reports/parody-scenes-source-2026-11-09.json",
+  "queue_before_sha256": "75eddf68907a13a90def4f39ebd44e615731fa5e719e18045b695c30f589971c",
+  "updated_at": "2026-11-09T11:03:01.082729+00:00"
 }

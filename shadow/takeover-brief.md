@@ -2,21 +2,21 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-11-09T10:28:24+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-11-09T11:03:04+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
 GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main
 
 ## Источники (sha256)
-- NEW-CHAT-HANDOFF.md · копия на Drive `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD` · 34445 B · `45183a479b0df430`
+- NEW-CHAT-HANDOFF.md · копия на Drive `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD` · 34700 B · `17b6483d2b7466f9`
 - SYNC-RUNBOOK.md · копия на Drive `1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4` · 130798 B · `244e9a47dc3e3b69`
 - AI-PROJECT-GUIDE.md · копия на Drive `1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u` · 42769 B · `c62976f8c2561633`
 - PROMPT-STYLE-GUIDE.md · копия на Drive `14VzE8DwjKIquGJWENci6rYWj_1xEn34d` · 81982 B · `2afe827fe839af54`
 - USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 84346 B · `931b751a155ab065`
 - README-AI-SYNC.md · копия на Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 18336 B · `164f1faf3fc2ffe8`
 - BACKUP-AI-RUNBOOK.md · копия на Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 21763 B · `6b0a0ba95d23937c`
-- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1380994 B · `14dcc14086a74b0b`
+- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1486943 B · `1ac998f62a068fd7`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story. → `NEW-CHAT-HANDOFF.md` ✓
@@ -36,7 +36,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 - **INV-DONE** — Never say «готово» before the relevant read-back/verification passed. → `SYNC-RUNBOOK.md` ✓
 
 ## Runtime
-- health ok; сцен 30 ([13, 16, 28, 33, 36, 41, 42, 48, 49, 50, 51, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73]); промтов 147; последний ID 73; зарезервированы [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 43, 44, 45, 46, 47, 53, 54, 55]
+- health ok; сцен 37 ([13, 16, 28, 33, 36, 41, 42, 48, 49, 50, 51, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80]); промтов 168; последний ID 80; зарезервированы [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 43, 44, 45, 46, 47, 53, 54, 55]
 - Слоты, slow, ETA, монитор — только из живых project-status.json, topview-status.json, instruction-sync-status.json, automation-monitor-status.json. Slots, slow, ETA and monitor state: read the live JSON. checked_at older than 2 h, missing or in the future = unverified.
 
 ## Индекс сцен
@@ -71,7 +71,14 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 70 | Татуинская связка 6/7 · бесшовный пролёт с улицы к столику С | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 | [69] | aebb6d03780f |
 | 71 | Виталик на троне из кальянов: «Вот такая вот история получил | Wan 3 | DRAFT/SLOW_PENDING | 4 | @Image1 @Image2 @Image3 @Image4 | [] | 998cc6c3fafe |
 | 72 | Виталик на троне из кальянов: «Всем привет» — пролог | Wan 3 | DRAFT/SLOW_PENDING | 4 | @Image1 @Image2 @Image3 @Image4 | [] | 5a9a477848a6 |
-| 73 | Виталик на троне: «Думаете это уже конец?» — перед титрами | Wan 3.0 | DRAFT/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 | [] | b96a2f90cd48 |
+| 73 | Виталик на троне: «Думаете это уже конец?» — перед титрами | Wan 3.0 | DRAFT/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 | [] | 44a3e069731c |
+| 74 | Виталик представляет: парад киностудий | Wan 3.0 | DRAFT/IDLE | 3 | @Image1 @Image2 | [] | 7ac871fbd5eb |
+| 75 | Лунная студия: Виталик и река | Wan 3.0 | DRAFT/IDLE | 3 | @Image1 @Image2 | [] | 3f95a74c91ba |
+| 76 | Мем-театр: кандибобер, нормально, язь | Wan 3.0 | DRAFT/IDLE | 3 | @Image1 @Image2 | [] | 8d300c90a44a |
+| 77 | «Она отказала мне»: мелодрама у космического забора | Wan 3.0 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 | [] | 3a9668645da9 |
+| 78 | Майонез: салат больше не нужен | Wan 3.0 | DRAFT/IDLE | 3 | @Image1 @Image2 | [] | 6375644af241 |
+| 79 | Lay’s: хруст слышно во всей галактике | Wan 3.0 | DRAFT/IDLE | 3 | @Image1 @Image2 | [] | 21e634ced6ec |
+| 80 | Люкс из кладовки: лапша, тапки и пакет с пакетами | Wan 3.0 | DRAFT/IDLE | 3 | @Image1 @Image2 | [] | c7d795fe52ce |
 
 ## Что читать под задачу (сверх брифа)
 - **takeover** — документы: —; master: index_only (D7 (owner 14.10.2026): short takeover = this read set; open full sections per task; any fallback trigger → full 7+master+status read.)
@@ -95,4 +102,4 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 
 ## Текущий checkpoint (дословно из NEW-CHAT-HANDOFF.md, до пометки «Предыдущая история»)
 
-См. `current-checkpoint.md` (22578 симв., sha `e1a5ee386ed3`).
+См. `current-checkpoint.md` (22751 симв., sha `6d1bfb633221`).

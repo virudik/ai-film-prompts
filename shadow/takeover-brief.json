@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-11-09T10:28:24+00:00",
+ "generated_at": "2026-11-09T11:03:04+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -10,8 +10,8 @@
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "45183a479b0df430fbc43e4753b2d3eb4dee4e53bd8f812c9c10dde3ac55ebf8",
-   "bytes": 34445
+   "sha256": "17b6483d2b7466f9ff559a745e165dadb1204e66fe011cc80a1a05293fc4d2db",
+   "bytes": 34700
   },
   {
    "file": "SYNC-RUNBOOK.md",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "14dcc14086a74b0b8cf80b9dbc01cf7cbb7e0bb79fd7856a62aeadbf4684a1f9",
-   "bytes": 1380994
+   "sha256": "1ac998f62a068fd762bf0911088e0c8a05938f86556d06c1f6e4868433139734",
+   "bytes": 1486943
   }
  ],
  "invariants": [
@@ -180,17 +180,17 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 22578,
-  "above_marker_chars": 22578,
+  "chars": 22751,
+  "above_marker_chars": 22751,
   "recent_sections_below_marker": [],
-  "sha256": "e1a5ee386ed348bf02a9d28ecde574c145814005701b754955794b4af790df5c",
-  "sha256_12": "e1a5ee386ed3",
+  "sha256": "6d1bfb633221d9c3c34216f774dd966ad1a967fb421f4ada8707626fc9003e38",
+  "sha256_12": "6d1bfb633221",
   "extra_current_sections": []
  },
  "runtime": {
   "project_health": "ok",
-  "scenes": 30,
-  "prompt_texts": 147,
+  "scenes": 37,
+  "prompt_texts": 168,
   "scene_ids": [
    13,
    16,
@@ -221,9 +221,16 @@
    70,
    71,
    72,
-   73
+   73,
+   74,
+   75,
+   76,
+   77,
+   78,
+   79,
+   80
   ],
-  "latest_scene": 73,
+  "latest_scene": 80,
   "reserved": [
    1,
    2,
@@ -295,7 +302,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 45951,
+   "offset": 49240,
    "chars": 26337,
    "sha256_12": "53146e9d1886"
   },
@@ -317,7 +324,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 72288,
+   "offset": 75577,
    "chars": 28537,
    "sha256_12": "1cb49f8adfc7"
   },
@@ -338,7 +345,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 100825,
+   "offset": 104114,
    "chars": 178751,
    "sha256_12": "4e9c4089194a"
   },
@@ -356,7 +363,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 279576,
+   "offset": 282865,
    "chars": 16356,
    "sha256_12": "9ed4ad5f905c"
   },
@@ -378,7 +385,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 295932,
+   "offset": 299221,
    "chars": 23987,
    "sha256_12": "ee119b556282"
   },
@@ -400,7 +407,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 319919,
+   "offset": 323208,
    "chars": 32497,
    "sha256_12": "809d46f72e41"
   },
@@ -424,7 +431,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 352416,
+   "offset": 355705,
    "chars": 28767,
    "sha256_12": "c95650c748d9"
   },
@@ -448,7 +455,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 381183,
+   "offset": 384472,
    "chars": 44234,
    "sha256_12": "bda3dc90398f"
   },
@@ -475,7 +482,7 @@
     "@Image8",
     "@Image9"
    ],
-   "offset": 425417,
+   "offset": 428706,
    "chars": 99783,
    "sha256_12": "9728847bd505"
   },
@@ -498,7 +505,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 525200,
+   "offset": 528489,
    "chars": 25674,
    "sha256_12": "dfe4a2e45e04"
   },
@@ -525,7 +532,7 @@
     "@Image6",
     "@Image7"
    ],
-   "offset": 550874,
+   "offset": 554163,
    "chars": 107911,
    "sha256_12": "af8e0e868475"
   },
@@ -547,7 +554,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 658785,
+   "offset": 662074,
    "chars": 87234,
    "sha256_12": "4588096784ac"
   },
@@ -570,7 +577,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 746019,
+   "offset": 749308,
    "chars": 26764,
    "sha256_12": "51de054e3810"
   },
@@ -592,7 +599,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 772783,
+   "offset": 776072,
    "chars": 26096,
    "sha256_12": "c12ca1c3d38d"
   },
@@ -618,7 +625,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 798879,
+   "offset": 802168,
    "chars": 27707,
    "sha256_12": "9b7b68faabdc"
   },
@@ -639,7 +646,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 826586,
+   "offset": 829875,
    "chars": 35789,
    "sha256_12": "63e73f76825f"
   },
@@ -661,7 +668,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 862375,
+   "offset": 865664,
    "chars": 33219,
    "sha256_12": "27db03e5035b"
   },
@@ -681,7 +688,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 895594,
+   "offset": 898883,
    "chars": 25054,
    "sha256_12": "5fd864ce0015"
   },
@@ -703,7 +710,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 920648,
+   "offset": 923937,
    "chars": 30115,
    "sha256_12": "9d8b53e2231f"
   },
@@ -723,7 +730,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 950763,
+   "offset": 954052,
    "chars": 23656,
    "sha256_12": "cc415ed9cd2c"
   },
@@ -742,7 +749,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 974419,
+   "offset": 977708,
    "chars": 19481,
    "sha256_12": "65377f0aba69"
   },
@@ -764,7 +771,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 993900,
+   "offset": 997189,
    "chars": 24736,
    "sha256_12": "6cb6303199f5"
   },
@@ -789,7 +796,7 @@
     "@Image6",
     "@Image7"
    ],
-   "offset": 1018636,
+   "offset": 1021925,
    "chars": 32787,
    "sha256_12": "03383b939476"
   },
@@ -810,7 +817,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 1051423,
+   "offset": 1054712,
    "chars": 22393,
    "sha256_12": "78c6a4427c70"
   },
@@ -834,7 +841,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 1073816,
+   "offset": 1077105,
    "chars": 29608,
    "sha256_12": "741dfcf03866"
   },
@@ -858,7 +865,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 1103424,
+   "offset": 1106713,
    "chars": 30374,
    "sha256_12": "046fba19139c"
   },
@@ -879,7 +886,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 1133798,
+   "offset": 1137087,
    "chars": 22834,
    "sha256_12": "aebb6d03780f"
   },
@@ -899,7 +906,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 1156632,
+   "offset": 1159921,
    "chars": 33765,
    "sha256_12": "998cc6c3fafe"
   },
@@ -919,7 +926,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 1190397,
+   "offset": 1193686,
    "chars": 32552,
    "sha256_12": "5a9a477848a6"
   },
@@ -939,9 +946,136 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 1222949,
-   "chars": 12593,
-   "sha256_12": "b96a2f90cd48"
+   "offset": 1226238,
+   "chars": 12622,
+   "sha256_12": "44a3e069731c"
+  },
+  {
+   "id": 74,
+   "title": "Виталик представляет: парад киностудий",
+   "target_engine": "Wan 3.0",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": "ru",
+   "depends_on": [],
+   "prompts": 3,
+   "refs": [
+    "@Image1",
+    "@Image2"
+   ],
+   "offset": 1238860,
+   "chars": 12943,
+   "sha256_12": "7ac871fbd5eb"
+  },
+  {
+   "id": 75,
+   "title": "Лунная студия: Виталик и река",
+   "target_engine": "Wan 3.0",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": null,
+   "depends_on": [],
+   "prompts": 3,
+   "refs": [
+    "@Image1",
+    "@Image2"
+   ],
+   "offset": 1251803,
+   "chars": 12453,
+   "sha256_12": "3f95a74c91ba"
+  },
+  {
+   "id": 76,
+   "title": "Мем-театр: кандибобер, нормально, язь",
+   "target_engine": "Wan 3.0",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": "ru",
+   "depends_on": [],
+   "prompts": 3,
+   "refs": [
+    "@Image1",
+    "@Image2"
+   ],
+   "offset": 1264256,
+   "chars": 12806,
+   "sha256_12": "8d300c90a44a"
+  },
+  {
+   "id": 77,
+   "title": "«Она отказала мне»: мелодрама у космического забора",
+   "target_engine": "Wan 3.0",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": "ru",
+   "depends_on": [],
+   "prompts": 3,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3"
+   ],
+   "offset": 1277062,
+   "chars": 14303,
+   "sha256_12": "3a9668645da9"
+  },
+  {
+   "id": 78,
+   "title": "Майонез: салат больше не нужен",
+   "target_engine": "Wan 3.0",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": "ru",
+   "depends_on": [],
+   "prompts": 3,
+   "refs": [
+    "@Image1",
+    "@Image2"
+   ],
+   "offset": 1291365,
+   "chars": 13060,
+   "sha256_12": "6375644af241"
+  },
+  {
+   "id": 79,
+   "title": "Lay’s: хруст слышно во всей галактике",
+   "target_engine": "Wan 3.0",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": "ru",
+   "depends_on": [],
+   "prompts": 3,
+   "refs": [
+    "@Image1",
+    "@Image2"
+   ],
+   "offset": 1304425,
+   "chars": 12981,
+   "sha256_12": "21e634ced6ec"
+  },
+  {
+   "id": 80,
+   "title": "Люкс из кладовки: лапша, тапки и пакет с пакетами",
+   "target_engine": "Wan 3.0",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": "ru",
+   "depends_on": [],
+   "prompts": 3,
+   "refs": [
+    "@Image1",
+    "@Image2"
+   ],
+   "offset": 1317406,
+   "chars": 12790,
+   "sha256_12": "c7d795fe52ce"
   }
  ],
  "read_sets": {

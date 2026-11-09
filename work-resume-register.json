@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-09T10:48:12+00:00",
+  "last_updated_at": "2026-11-09T11:03:01+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -1212,36 +1212,48 @@
       "work_id": "SEREGIUS-PARODIES-20261109",
       "project": "seregius",
       "title": "Семь пародийных сцен с изображениями по прямой команде владельца",
-      "status": "in_progress",
+      "status": "awaiting_image_references",
       "created_at": "2026-11-09T10:48:12.025422+00:00",
-      "updated_at": "2026-11-09T10:48:12+00:00",
+      "updated_at": "2026-11-09T11:03:01+00:00",
       "completed": [
         "Сверены свежие инструкции, ID 74–80 пока свободны; исходный checkpoint сохранён."
       ],
-      "next_action": "Create seven new DRAFT scenes after fresh ID/duplicate check; exact identity references; two prompt versions per scene; generate individual native images and save each with QC/provenance before next. No video launches.",
+      "next_action": "Получить и сохранить семь отдельных пригодных постановочных PNG по image-prompt, с QC/SHA/manifest и привязкой в мастере. Каждый — до следующего. Дополнительные ракурсы при необходимости. Не запускать видео и не выдавать исходный model sheet за новый кадр.",
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-09T10:48:12+00:00",
-        "last_completed": "Исходная точка нового поручения сохранена; производство ещё не выполнено.",
-        "next_action": "Create seven new DRAFT scenes after fresh ID/duplicate check; exact identity references; two prompt versions per scene; generate individual native images and save each with QC/provenance before next. No video launches.",
+        "verified_at": "2026-11-09T11:03:01+00:00",
+        "last_completed": "Семь новых сцен и 21 текст сохранены; новые PNG ещё отсутствуют.",
+        "next_action": "Получить и сохранить семь отдельных пригодных постановочных PNG по image-prompt, с QC/SHA/manifest и привязкой в мастере. Каждый — до следующего. Дополнительные ракурсы при необходимости. Не запускать видео и не выдавать исходный model sheet за новый кадр.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# 09.11.2026 — начальная точка: семь пародий Серёгиуса",
-          "sha256": "4e9f026c9380e3f2d254676017f3f35dfde1772ee5ec6ee10e0237438bc99212"
+          "anchor": "# 09.11.2026 — пародии 74–80: сцены написаны, изображения ожидаются",
+          "sha256": "23a7901cebb578b1ccae4ec91fa1f4309a3047ee2a71498d2109b40465fbced7"
         },
         "evidence": [
           {
             "file": "reports/parody-scenes-2026-11-09.json",
-            "sha256": "cd3e5661487917ae56cd64c99d4d1000f7f97bab03dfbde0dd6bb437140f38a0"
+            "sha256": "9ad8de5bed978779da7b797076085dd04aea5e3359044dbaa7d37a5e677e8c58"
+          },
+          {
+            "file": "reports/parody-scenes-source-2026-11-09.json",
+            "sha256": "2921f41ff7622def8a6c280403ebb1586d3e214866c933b91d6fceebbae9d172"
           }
         ],
         "read_next": [
-          "PROMPT-STYLE-GUIDE.md",
-          "video-prompts.md",
-          "reports/parody-scenes-2026-11-09.json"
+          "reports/parody-scenes-source-2026-11-09.json",
+          "video-prompts.md"
         ],
         "blockers": []
-      }
+      },
+      "scene_ids": [
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ]
     }
   ],
   "rules": [
