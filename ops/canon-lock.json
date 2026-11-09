@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "state": "free",
-  "holder": "cursor:bc-b6c53856-e99b-58a2-a5e3-54a898cb355c",
-  "task": "Record S68 success and open S69",
-  "acquired_at": "2026-11-09T14:52:54Z",
+  "holder": "grok:c491f2b1-aa3b-423f-ad02-56077b5bde67",
+  "task": "t413u standing S69-WAN30 intent only",
+  "acquired_at": "2026-11-09T14:55:55Z",
   "expires_at": null,
-  "released_at": "2026-11-09T14:53:39Z",
+  "released_at": "2026-11-09T14:55:55Z",
   "rules": "ops/CANON-LOCK.md"
 }
