@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "state": "free",
-  "holder": "chatgpt:ordinary:2124e687-520d-4ea6-b666-9efe9d68cebc",
-  "task": "Verify seven authored parody scenes, record rejected collage outputs and preserve exact image continuation without false completion",
-  "acquired_at": "2026-11-09T11:10:26+00:00",
+  "holder": "grok:b50ad0a0-bcf0-4b88-9a13-5b113d02cf2e",
+  "task": "t413u standing S52-R2-SEED20-P4 intent only",
+  "acquired_at": "2026-11-09T11:18:02Z",
   "expires_at": null,
-  "released_at": "2026-11-09T11:13:14.878065+00:00",
+  "released_at": "2026-11-09T11:18:02Z",
   "rules": "ops/CANON-LOCK.md"
 }
