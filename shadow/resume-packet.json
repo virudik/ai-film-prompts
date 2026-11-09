@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-09T22:44:44+00:00",
-  "source_head": "682b3f317cfb6bf14a9ff2f937dc2745ad857fe2",
-  "source_fingerprint": "4700c77368fcfe8330a3ab0a143d25380dff7c4dcaad658315875b802423738d",
+  "checked_at": "2026-11-09T23:03:53+00:00",
+  "source_head": "6ba755f636cc0c8f3c822a017aced4ecdcc7b047",
+  "source_fingerprint": "75d0d67e794bf59aa67c39b310192c02ebf842a85c99224782ef4ac6a483b4f6",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -159,16 +159,8 @@
     "Current capabilities; for a video submit use all-project slot scan, input/QC, Unlimited0 and CAS claim"
   ],
   "queue_recovery": {
-    "unresolved": [
-      {
-        "item_id": "S66-STITCH-INDEP-WAN30",
-        "state": "submitting",
-        "task_id": null,
-        "recovery_action": "reconcile_without_resubmitting",
-        "submit_authorized": false
-      }
-    ],
-    "existing_task_count": 84,
+    "unresolved": [],
+    "existing_task_count": 85,
     "existing_tasks": [
       {
         "item_id": "S49A",
@@ -317,6 +309,10 @@
       {
         "item_id": "S70-WAN30",
         "task_id": "942bdafcff8640d1b405a37cbbb5cbc6"
+      },
+      {
+        "item_id": "S66-STITCH-INDEP-WAN30",
+        "task_id": "efaad07750974b678df63a6be00f15d8"
       },
       {
         "item_id": "S49G",
@@ -509,6 +505,13 @@
     ],
     "next_candidates": [
       {
+        "item_id": "S65-WAN30",
+        "state": "waiting_for_slot",
+        "task_id": null,
+        "recovery_action": "fresh_launch_preflight_required",
+        "submit_authorized": false
+      },
+      {
         "item_id": "S62-SEED20-P1-R2-20261108",
         "state": "waiting_for_slot",
         "task_id": null,
@@ -517,13 +520,6 @@
       },
       {
         "item_id": "S51E",
-        "state": "waiting_for_slot",
-        "task_id": null,
-        "recovery_action": "fresh_launch_preflight_required",
-        "submit_authorized": false
-      },
-      {
-        "item_id": "S51F",
         "state": "waiting_for_slot",
         "task_id": null,
         "recovery_action": "fresh_launch_preflight_required",
@@ -585,8 +581,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "5c4c83e19a23ce849990d5647342ed982191c583dfc61642535f8282f3b10504",
-      "bytes": 388073
+      "sha256": "bf9e095189cf30e935ddd460f03510cf4f9b405bd45e14efef2ed39940b230cc",
+      "bytes": 387428
     },
     {
       "file": "project-status.json",
@@ -629,5 +625,5 @@
       "bytes": 101477
     }
   ],
-  "packet_bytes": 6890
+  "packet_bytes": 6833
 }
