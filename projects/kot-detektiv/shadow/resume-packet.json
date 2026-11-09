@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "kot-detektiv",
   "project_name": "Кот детектив",
-  "checked_at": "2026-11-09T11:18:47+00:00",
-  "source_head": "83e16c63a9e6f2e8366808acebdf3734a974f77e",
-  "source_fingerprint": "a78b57b61c998f0691bf4d4c60b37a80ac3b7c5bffcb4425522c0f7ff712dbe2",
+  "checked_at": "2026-11-09T11:36:22+00:00",
+  "source_head": "a59aacd4ad11b47d482a4126751c56702b777fbc",
+  "source_fingerprint": "ef1f4820820d96730521c4c83c82ea287aad073d24e9d252072598e4126787c1",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -163,8 +163,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "1992ae738969ea6b8207959f03ba947cd9adb284ca68b36598e98bdaa5e21136",
-      "bytes": 34716
+      "sha256": "92bf6678e170a5dbdce014ec4fcb674d1642e60fe8e9bac5ed5d60d3fd441acf",
+      "bytes": 34730
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -188,8 +188,8 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "edc0c104fb3368d5ca42f815d62edb5fe66b29430d7e157e1663f1dd0aa12ce1",
-      "bytes": 5136
+      "sha256": "8ebca97d5ca1573ba3e741d44431dae12e70f73d3dfe38042784e604e50893e6",
+      "bytes": 5135
     },
     {
       "file": "monitor-role.json",
@@ -203,8 +203,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "d11b288f749799012991a77fdca2ed75cc8dc897bfe989aed9670f68ce031029",
-      "bytes": 25722
+      "sha256": "2e3966383480f8addddb9e839c2d31b086cc54337280c5702cf9348d8ce08fcb",
+      "bytes": 25723
     },
     {
       "file": "projects/README.md",
@@ -258,12 +258,12 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "e1b71c91cb308fe930f8a68ef80b713e710d51efb72da4191cfd5446ad4d8026",
-      "bytes": 34517
+      "sha256": "b1ff6f65f51ad60550a4961c072a8dbb8aeccc57daaf67005ccaae01672efe97",
+      "bytes": 34531
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "9df091ddcfbddcf62b4924ccc1af361e5043c998acdc02a003074914389fe6ef",
+      "sha256": "bfc007e9fe7a8d4a426f36ec2e43162fa20a43cd92e3a84951c6d9c9c5f4e09b",
       "bytes": 28321
     },
     {
