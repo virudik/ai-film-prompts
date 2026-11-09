@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "item_id": "S68-WAN30",
+  "slot": "@Image7",
+  "kind": "exact_final_frame_of_previous_part",
+  "not_a_generation": true,
+  "not_film_accepted": true,
+  "source_item_id": "S67-WAN30",
+  "source_task_id": "3fd9f3d9ae2d470eb5ec8b428a7ae044",
+  "full_original": {
+    "sha256": "1f72ff6d8fd9bc8465700c1db8fd355327d518edef56bec6891702c5e233ecd8",
+    "rehashed_here": false,
+    "topview_status": "success",
+    "creditsCost": 0,
+    "duration_seconds": 30.02,
+    "width": 1280,
+    "height": 720,
+    "resource_id": "eaec4fd9fb694cdca7ee1115bd7177a9"
+  },
+  "file": {
+    "filename": "S67-final-frame.png",
+    "path": "references/scenes/scene-67/S67-final-frame.png",
+    "sha256": "f6ac41790670431bf9fa633a4548815d47160cf57e8aaaf1cdc29caf073277af",
+    "bytes": 1878083,
+    "width": 1280,
+    "height": 720,
+    "drive_file_id": "1eB52degFFQDNHNduvf7lMgKmiyJ6LEj-",
+    "drive_folder": "Scene Reference Packs",
+    "extract": "ffmpeg -sseof -0.2"
+  },
+  "qc_note": "Horned vendor at the fruit stall greeting the next shopper, hooded figures at left and right.",
+  "qc_blocking": false,
+  "owner_orders": [
+    "t438u"
+  ]
+}

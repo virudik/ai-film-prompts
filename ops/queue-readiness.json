@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "2f7315969a166ca6d763253cceba69deb9d5d5b87759627e19b7041c9f96e7e0",
-  "source_task_map_sha256": "d44df5b3922841b0b760b263f7ce5bc1214b5021a37bd11300f7336baa995acc",
+  "source_queue_sha256": "df99d2dd8e3a5e3574960b301f533b67732fa13e328a51a8799fe45603669ff2",
+  "source_task_map_sha256": "14185efff72cbc9d629ed674aa5d850f0a426ecfdc7ac0afea34823c942ffd19",
   "topview_checked_at": "2026-11-09T14:20:23Z",
   "items": [
     {
@@ -179,10 +179,10 @@
       "id": "S68-WAN30",
       "scene_id": 68,
       "part_label": "68",
-      "code": "prepare_continuity",
-      "ready": false,
-      "text": "@Image7: результат 67 получен — подготовить и проверить стык",
-      "queue_state": "blocked_inputs"
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
     },
     {
       "id": "S69-WAN30",
@@ -199,7 +199,7 @@
       "part_label": "70",
       "code": "waiting_result",
       "ready": false,
-      "text": "@Video1: ждёт результат 69 (ещё не запущен)",
+      "text": "@Image4: ждёт результат 69 (ещё не запущен)",
       "queue_state": "blocked_inputs"
     },
     {
@@ -222,5 +222,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-09T14:20:27.145593Z"
+  "checked_at": "2026-11-09T14:23:05.418062Z"
 }

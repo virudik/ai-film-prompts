@@ -1,0 +1,37 @@
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action space-opera cinema, one continuous travelling shot
+
+REFERENCES / AUTHORITY ORDER:
+@Image4 — the exact final frame of scene 69 (S69-WAN30), a still, not a video. File: references/scenes/scene-69/S69-final-frame.png. It is the start reference: exact framing, light, street, people and prop state. Continue from it; never replay or reset.
+@Image1 — exact Serega identity and robe; highest authority for his face, proportions and costume. File: references/full/serega.jpg.
+@Image2 — architecture and street approach of the open cantina entrance only; it cannot change people or reset the actual video. File: references/scenes/scene-70/S70-cantina-entrance.png.
+@Image3 — cantina interior, round table and fixed five-person seating only; Serega's individual sheet outranks the group helper. Use tableware and oil can as designs, not a demand to copy their already-completed gestures. File: references/scenes/scene-65/S65-bar-table.png.
+The real video owns the starting frame and motion; the entrance establishes a reachable doorway; the table image establishes the destination. Create one coherent connecting space, not three still images or a dissolve between them.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+STREET HANDOFF: Masha is the departing copper-red-haired woman in a terracotta tunic and sand scarf from the real video; the same melon is in one arm and her bag on her left shoulder. The three orange-vest workers retain the actual video's blue-grey long-necked, green reptilian and purple four-eyed designs. They remain on the street and leave the frame as the camera moves away; the collected waste remains in the parked laser dustpan.
+SEREGA: the exact mature pale man in @Image1, balding crown with sparse light-brown side hair, faint short stubble and broad familiar build; floor-length deep dark-plum robe, folded collar and hood down, wide sleeves, black undersleeves, broad waist sash and dark boots. One Serega, already seated inside; no age shift, face blending or costume change.
+BOBA FETT: dented green-grey Mandalorian armour, T-visor helmet with rangefinder, jetpack and cape; helmet on, face hidden. GAMORREAN: hulking green pig-faced guard, tusks and leather/fur harness. TWI'LEK: blue-skinned male mercenary, two long head-tails, worn leather jacket and holster. IG-11: tall thin silver-grey droid, cylindrical sensor-ring head, long mechanical arms and bandolier with a small metal oil can. Exactly these five at the table; a bartender may serve them but never joins the seating.
+
+START STATE:
+Begin on the exact frame @Image4 (final frame of scene 69, not a video). The cleaned patch and departing Masha remain where the real video left them; the crew and filled laser dustpan stay behind. Continue the existing camera direction before gently lifting above pedestrian height. The actual frame, not an imagined matching composition, determines the start.
+
+STORY FLOW:
+[0:00–0:15] STREET TO DOOR — Continue the final rising move from the cleaned street, glide above pedestrians and awnings along the SAME short connected market lane, then descend smoothly to the open cantina doorway from @Image2. Reveal the entrance by real camera movement; keep visible street-to-doorway geography and avoid a large aerial detour.
+[0:15–0:25] THROUGH THE CANTINA — Travel physically through the open doorway, staying below the lintel and between the jambs. Adapt exposure smoothly from warm twin-sun daylight to dim amber lamps, then glide through a clear aisle toward the round table from @Image3. Pass patrons naturally without crossing bodies, walls or furniture. Reveal Serega already seated with his four companions; keep their seating fixed and decelerate into a gentle seated-eye-level approach.
+[0:25–0:30] TABLE HANDOFF — At the table, the bartender begins lowering the last mug toward Serega while IG-11 begins pulling the oil can from its bandolier. The company breathes, glances and shifts naturally; Serega remains silently composed. Keep the final camera and hand movements alive for the continuation, without beginning the toast.
+
+END STATE:
+The continuous camera approaches the same round table at seated eye level, still gently moving. Boba Fett and the Gamorrean are left of Serega, Serega central, the blue Twi'lek and IG-11 to his right. The bartender is lowering the final mug in front of Serega; IG-11 starts drawing the small oil can from its bandolier. Hands and props remain in motion through the last three seconds, ready for scene 65 to continue the actual final frame. No toast, drinking gag, oil application, freeze or fade yet.
+
+CAMERA / GEOGRAPHY:
+One physically continuous, smoothly stabilized travelling shot with controlled inertia and the incoming lens character. Rise, travel, descend, pass through the OPEN door, cross the aisle and approach the table in that causal order. Keep a clear collision-free route; no roof/wall pass-through, teleportation, hidden cut, whip transition, sudden scale change or unexplained relocation. Do not send Masha or the crew into the cantina. Serega is discovered already seated, never walking in or duplicated outside. The actual camera direction at each real-video handoff wins over any helper image.
+
+LIGHT / PERFORMANCE / AUDIO:
+Street daylight, dusty sandstone and awnings become warm practical lantern light, haze and metallic table reflections inside; make the exposure shift gradual through the doorway. Natural background movement, weight shifts and breathing, not a frozen tableau. Street footsteps, broom noise and indistinct grumbling recede behind; alien cantina chatter, room tone and a quiet mug contact grow with the camera's approach. Preserve continuous ambience; no intelligible dialogue, narration, subtitles or generated music. Serega is silent, Boba stays masked and IG-11 does not drink.
+
+NEGATIVE PROMPT:
+hard cuts, fades, slideshow, camera through solid surfaces, impossible doorway, changing table layout, extra table guests, duplicated Serega, face blending, costume drift, Boba unmasked, IG-11 drinking, replayed cleanup, toast before scene 65, cartoon, readable signs, logo, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.

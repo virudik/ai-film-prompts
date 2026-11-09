@@ -5575,7 +5575,17 @@
         "submission_intent_id": "39ac0cdf-7997-4a57-b210-7750405db140",
         "archive_file": "reports/topview-queue-2026-10-16/S67-WAN30-20261109T140018Z.json",
         "archive_sha256": "a388783489c6d0231e3192e41beee2952eae79351180ec8240bbe8deb5d36bac"
-      }
+      },
+      "topview_status": "success",
+      "result_original_sha256": "1f72ff6d8fd9bc8465700c1db8fd355327d518edef56bec6891702c5e233ecd8",
+      "creditsCost": 0,
+      "result_duration_seconds": 30.02,
+      "result_width": 1280,
+      "result_height": 720,
+      "result_resource_id": "eaec4fd9fb694cdca7ee1115bd7177a9",
+      "completed_at": "2026-11-09T14:17:59Z",
+      "qc_note": "Horned vendor at the fruit stall greeting the next shopper, hooded figures at left and right.",
+      "qc_blocking": false
     },
     {
       "id": "S68-WAN30",
@@ -5585,8 +5595,8 @@
       "canonical_prompt_sha256": "eb5fd7b11b196587845a827016295019579c36a515a14f1b0dfd73feae810a61",
       "normalized_prompt_sha256": "f03762f86c49ceb497b188681a7c4a45300a130c13475686e231440e6e805bae",
       "priority": 0.017,
-      "state": "blocked_inputs",
-      "launch_readiness": "blocked_continuity",
+      "state": "waiting_for_slot",
+      "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "selected_model": "Wan 3.0",
       "duration_seconds": 30,
@@ -5653,17 +5663,27 @@
         {
           "slot": "@Image7",
           "required": true,
-          "input_status": "pending_actual_result",
+          "input_status": "available",
           "canonical_role": "exact final frame of S67-WAN30; the S68 start frame, not a video",
           "source_item_id": "S67-WAN30",
-          "planned_path": "references/scenes/scene-67/S67-final-frame.png",
           "ui_upload_order": "Image7 last, after Image1..Image6",
-          "replaces": "@Video1 last 3 seconds"
+          "replaces": "@Video1 last 3 seconds",
+          "path": "references/scenes/scene-67/S67-final-frame.png",
+          "sha256": "f6ac41790670431bf9fa633a4548815d47160cf57e8aaaf1cdc29caf073277af",
+          "bytes": 1878083,
+          "width": 1280,
+          "height": 720,
+          "filename": "S67-final-frame.png",
+          "drive_file_id": "1eB52degFFQDNHNduvf7lMgKmiyJ6LEj-",
+          "provenance_path": "references/scenes/scene-67/S67-final-frame-20261109.json",
+          "source_task_id": "3fd9f3d9ae2d470eb5ec8b428a7ae044",
+          "qc_status": "pass",
+          "qc_note": "Horned vendor at the fruit stall greeting the next shopper, hooded figures at left and right."
         }
       ],
       "task_id": null,
       "claim": null,
-      "blocker": "Await actual S67-WAN30 success and its exact final-frame PNG at references/scenes/scene-67/S67-final-frame.png. Do not use a last-3s video. Pass continuity QC before launch.",
+      "blocker": null,
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
       "authorization": "Owner27Oct2026: 64–69 queued after63, before49–51/28; chain52P7→66→67→68→69 in order. One free Unlimited render; no paid path or retry.",
@@ -5790,8 +5810,8 @@
       "scene_id": 70,
       "prompt_id": "S70-WAN30",
       "canonical_block_label": "70",
-      "canonical_prompt_sha256": "dd773a44c33c9087c088a5518929d91b8f563cd60379ab009247eee552d1a9d2",
-      "normalized_prompt_sha256": "d4869f09366d3d22cfaa0df91822132ada5a25889904cb7f94dbe180fee4c0f5",
+      "canonical_prompt_sha256": "c5d9bca56ffcfc7a38adf34bfe20bd717cd91e26d82f9d44e2563f9763090ab5",
+      "normalized_prompt_sha256": "b566aae7bb96cfb45ff1c64949d61fc55115a6f25ea439159d29c2aca960a2b6",
       "priority": 0.019,
       "state": "blocked_inputs",
       "launch_readiness": "blocked_continuity",
@@ -5810,14 +5830,6 @@
         "S69-WAN30"
       ],
       "references": [
-        {
-          "slot": "@Video1",
-          "required": true,
-          "input_status": "pending_actual_result",
-          "canonical_role": "previous_chain_link_end",
-          "source_item_id": "S69-WAN30",
-          "planned_path": "references/scenes/scene-69/S69-last3s.mp4"
-        },
         {
           "slot": "@Image1",
           "path": "references/full/serega.jpg",
@@ -5841,18 +5853,36 @@
           "input_status": "available",
           "canonical_role": "Cantina interior and fixed five-person seating; identity sheet wins",
           "sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d"
+        },
+        {
+          "slot": "@Image4",
+          "required": true,
+          "input_status": "pending_actual_result",
+          "canonical_role": "exact final frame of S69-WAN30; the S70 start frame, not a video",
+          "source_item_id": "S69-WAN30",
+          "planned_path": "references/scenes/scene-69/S69-final-frame.png",
+          "ui_upload_order": "Image4 last, after Image1..Image3",
+          "replaces": "@Video1 last 3 seconds"
         }
       ],
       "task_id": null,
       "claim": null,
-      "blocker": "Await actual S69-WAN30 result, archive original, cut true last3s and pass continuity QC.",
+      "blocker": "Await actual S69-WAN30 success and its exact final-frame PNG at references/scenes/scene-69/S69-final-frame.png. Do not use a last-3s video. Pass continuity QC before launch.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
       "authorization": "Owner28Oct: prepare continuous69→70→65 bridge, Wan3.0/30s. Unlimited0 only; no paid path, retry or launch by this edit.",
       "result_review_required": true,
       "result_review_policy": "Verify continuous real69→street→open doorway→table→65 handoffs, exact identities and prop motion. Success is not acceptance.",
       "created_at": "2026-10-27T23:08:29Z",
-      "wan_link_rule_t438u": "t438u: when this item is ready, replace @Video1 with the previous part's exact final-frame PNG as the last image slot and adapt the prompt the same way. Scene 66 must stay ≤7870 characters. Prompt not changed yet."
+      "wan_link_rule_t438u": "t438u: when this item is ready, replace @Video1 with the previous part's exact final-frame PNG as the last image slot and adapt the prompt the same way. Scene 66 must stay ≤7870 characters. Prompt not changed yet.",
+      "owner_authorization_t438u_s70": {
+        "rule": "t438u",
+        "prepared_at": "2026-11-09T14:21:52Z",
+        "canonical_prompt_sha256": "c5d9bca56ffcfc7a38adf34bfe20bd717cd91e26d82f9d44e2563f9763090ab5",
+        "chars": 6431,
+        "editor_limit_chars": 7870,
+        "note": "Start reference is the final frame of S69 as the last image. Stays blocked until S69 succeeds."
+      }
     },
     {
       "id": "S49G",

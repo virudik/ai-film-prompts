@@ -8987,11 +8987,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 ## Сцена 70 — Татуинская связка 6/7 · бесшовный пролёт с улицы к столику Серёги в кантине
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":69}],"tags":["serega","tatooine","cantina","story_bridge","continuous_take","owner_requested"]} -->
-**🎬 Татуинская связка — 6/7.** [52 ч.7 · 1/7](#tatooine-chain-start) → [66 · 2/7](#scene-66) → [67 · 3/7](#scene-67) → [68 · 4/7](#scene-68) → [69 · 5/7](#scene-69) → [70 · 6/7](#scene-70) → [65 · 7/7](#scene-65). **Выбранный запуск:** Wan 3.0, 30 с, S70-WAN30; @Video1 — настоящий финал предыдущего звена (до его готовности запуск заблокирован). **Кликабельные референсы:** [@Image1 — Серёга](references/full/serega.jpg) · [@Image2 — вход в кантину](references/scenes/scene-70/S70-cantina-entrance.png) · [@Image3 — стол с Бобой Феттом](references/scenes/scene-65/S65-bar-table.png). Изображения не заменяют настоящий видеостык.
+**🎬 Татуинская связка — 6/7.** [52 ч.7 · 1/7](#tatooine-chain-start) → [66 · 2/7](#scene-66) → [67 · 3/7](#scene-67) → [68 · 4/7](#scene-68) → [69 · 5/7](#scene-69) → [70 · 6/7](#scene-70) → [65 · 7/7](#scene-65). **Выбранный запуск:** Wan 3.0, 30 с, S70-WAN30; @Image4 — точный последний кадр предыдущего звена, не видео (до его готовности запуск заблокирован). **Кликабельные референсы:** [@Image1 — Серёга](references/full/serega.jpg) · [@Image2 — вход в кантину](references/scenes/scene-70/S70-cantina-entrance.png) · [@Image3 — стол с Бобой Феттом](references/scenes/scene-65/S65-bar-table.png). Изображения не заменяют точный последний кадр.
 
 **Контекст использования:** владелец 28.10.2026. Связка 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65. Отдельный непрерывный пролёт возвращает камеру от законченного уличного гега к Серёге в той же татуинской кантине. Scene ID65 сохраняется;70 в монтаже и очереди идёт перед ней.
 
-**Референсы:** @Video1 — последние3с настоящего69 (`references/scenes/scene-69/S69-last3s.mp4`); @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-70/S70-cantina-entrance.png`; @Image3 — `references/scenes/scene-65/S65-bar-table.png`.
+**Референсы:** @Image4 — точный последний кадр 69 (`references/scenes/scene-69/S69-final-frame.png`, не видео); @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-70/S70-cantina-entrance.png`; @Image3 — `references/scenes/scene-65/S65-bar-table.png`.
 
 **Что происходит:** Из настоящего финала69 камера плавно поднимается над убранной улицей, проходит по той же короткой рыночной улочке к открытой арке кантины, снижается и физически входит через дверь. Янтарный интерьер раскрывается непрерывно; камера подлетает к круглому столику, где Серёга уже сидит с Бобой Феттом, гаморреанцем, синим твилеком и IG-11. Бармен начинает опускать последнюю кружку перед Серёгой, дроид достаёт маслёнку.65 продолжает это движение и сам тост.
 
@@ -9011,14 +9011,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **30с · Wan3.0 / Seedance2.5 — один общий текст.** Выбрана Wan3.0.
 
-**Входы:** @Video1 — последние3с настоящего69 (`references/scenes/scene-69/S69-last3s.mp4`); @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-70/S70-cantina-entrance.png`; @Image3 — `references/scenes/scene-65/S65-bar-table.png`.
+**Входы:** @Image4 — точный последний кадр 69 (`references/scenes/scene-69/S69-final-frame.png`, не видео); @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-70/S70-cantina-entrance.png`; @Image3 — `references/scenes/scene-65/S65-bar-table.png`.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action space-opera cinema, one continuous travelling shot
 
 REFERENCES / AUTHORITY ORDER:
-@Video1 — actual final 3 seconds of scene 69 (S69-WAN30). File: references/scenes/scene-69/S69-last3s.mp4. Absolute authority for the start: exact framing, movement, light, street geography, people and prop state. Continue the final frame; do not replay the cleanup or substitute a generated still.
+@Image4 — the exact final frame of scene 69 (S69-WAN30), a still, not a video. File: references/scenes/scene-69/S69-final-frame.png. It is the start reference: exact framing, light, street, people and prop state. Continue from it; never replay or reset.
 @Image1 — exact Serega identity and robe; highest authority for his face, proportions and costume. File: references/full/serega.jpg.
 @Image2 — architecture and street approach of the open cantina entrance only; it cannot change people or reset the actual video. File: references/scenes/scene-70/S70-cantina-entrance.png.
 @Image3 — cantina interior, round table and fixed five-person seating only; Serega's individual sheet outranks the group helper. Use tableware and oil can as designs, not a demand to copy their already-completed gestures. File: references/scenes/scene-65/S65-bar-table.png.
@@ -9030,7 +9030,7 @@ SEREGA: the exact mature pale man in @Image1, balding crown with sparse light-br
 BOBA FETT: dented green-grey Mandalorian armour, T-visor helmet with rangefinder, jetpack and cape; helmet on, face hidden. GAMORREAN: hulking green pig-faced guard, tusks and leather/fur harness. TWI'LEK: blue-skinned male mercenary, two long head-tails, worn leather jacket and holster. IG-11: tall thin silver-grey droid, cylindrical sensor-ring head, long mechanical arms and bandolier with a small metal oil can. Exactly these five at the table; a bartender may serve them but never joins the seating.
 
 START STATE:
-Begin on the exact last frame and rising movement of @Video1. The cleaned patch and departing Masha remain where the real video left them; the crew and filled laser dustpan stay behind. Continue the existing camera direction before gently lifting above pedestrian height. The actual frame, not an imagined matching composition, determines the start.
+Begin on the exact frame @Image4 (final frame of scene 69, not a video). The cleaned patch and departing Masha remain where the real video left them; the crew and filled laser dustpan stay behind. Continue the existing camera direction before gently lifting above pedestrian height. The actual frame, not an imagined matching composition, determines the start.
 
 STORY FLOW:
 [0:00–0:15] STREET TO DOOR — Continue the final rising move from the cleaned street, glide above pedestrians and awnings along the SAME short connected market lane, then descend smoothly to the open cantina doorway from @Image2. Reveal the entrance by real camera movement; keep visible street-to-doorway geography and avoid a large aerial detour.
