@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:3e15ce74-0366-42fc-8246-371e5c741112",
-  "task": "Owner requests saving completed and open work from this and linked chats into plan, handoff and checkpoints; no production actions",
-  "acquired_at": "2026-11-08T16:10:35Z",
-  "expires_at": null,
-  "released_at": "2026-11-08T16:20:45+00:00",
-  "rules": "ops/CANON-LOCK.md",
+  "state": "held",
+  "holder": "chatgpt:ordinary:3d2a4f97-67bd-4c0a-84d8-3f4d0a9c57d8",
+  "task": "Record official HONOR source re-download and SHA readback; update project checkpoint and handoff only",
+  "acquired_at": "2026-11-09T19:05:55Z",
+  "expires_at": "2026-11-09T19:30:55Z",
+  "released_at": null,
+  "rules": "projects/raznoe/INSTRUCTIONS.md",
   "project": "raznoe"
 }
