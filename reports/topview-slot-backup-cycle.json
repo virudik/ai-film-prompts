@@ -2,119 +2,55 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "b2e6ada9-736e-4231-bcdc-68660c436f30",
-  "runtime_run_id": "a0791bf9-4778-832b-abde-1460c490f2d7",
-  "runtime_run_id_evidence": "Automations.peek last_run.id; latest_result is not treated as this run",
-  "source_head_initial": "cfded48dc54389512d556ccc0d6bff463a1c3a2a",
-  "source_head": "13f993b0b2c798dbdfb38370e80cef6e0bc3af1e",
+  "execution_instance_id": "8734114e-f5c1-4a78-bbe6-1d3736ef8b92",
+  "runtime_run_id": null,
+  "run_id_unavailable_reason": "Automations.peek reports a0791bf9-4778-832b-abde-1460c490f2d7 as current last_run, but the prior receipt already attributed the same ID to a previous cycle; cannot uniquely bind to this execution",
+  "source_head_initial": "5c14da41805a8cc1df05efc3e7eac7dabbc116f7",
+  "source_head": "0536838ffd9a98e106a8d2ff94684efb3c112b71",
   "route_generation": 3,
-  "started_at": "2026-11-09T18:32:37.247814Z",
-  "receipt_started_at": "2026-11-09T18:39:24.973Z",
-  "phase": "finished",
-  "status": "completed",
+  "started_at": "2026-11-09T19:03:49.453724Z",
+  "receipt_started_at": "2026-11-09T19:07:07.239Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan": {
-    "complete": true,
-    "source": "Topview connector read-only; 14 account boards, 21 actual pages at 100/page; 8 pages for My First Board",
-    "checked_at": "2026-11-09T18:43:08Z",
-    "spotcheck_at": "2026-11-09T18:43:55Z",
-    "boards": 14,
-    "pages": 21,
-    "all_board_assets": 1052,
-    "video_tasks": 668,
-    "status_counts": {
-      "success": 637,
-      "fail": 26,
-      "init": 5
-    },
-    "active_task_ids": [
-      "be627af0e9664db5b6ac2b62c34080a6",
-      "8bdd6439dad94592979aba23c137b4a0",
-      "0a495e5f77a041e6bcc8d67fb68230b3",
-      "6fa3cdac62e348759d2a3607093414ea",
-      "2473c9b5bcf645fd85ab308306c53aaa"
-    ],
-    "all_active_on_board": "1a6244cf1ae747ef847d949a80d6133c",
-    "all_active_unlimited": true,
-    "all_active_credits_cost": 0,
-    "non_atomic": true
+    "complete": false,
+    "checked_at": null,
+    "boards": null,
+    "pages": null,
+    "video_tasks": null,
+    "status_counts": null
   },
   "slots": {
     "physical_capacity": 6,
-    "occupied": 5,
-    "free": 1,
-    "complete_scan_verified": true,
-    "non_reserving_snapshot": true,
-    "checked_at": "2026-11-09T18:43:55Z"
+    "occupied": null,
+    "free": null
   },
   "selected_item": null,
+  "task_ids": [],
   "new_submissions": [],
-  "browser_transport": "not_used: no owner-authorized ready story with complete inputs/QC; repeated TinyFish browser blocker not retested",
+  "browser_transport": "not_used",
   "tinyfish": {
     "runs": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0,
-    "wallet_not_queried_reason": "No eligible item to prepare; no paid TinyFish run justified"
+    "confirmed_cost_usd": 0
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:b2e6ada9-736e-4231-bcdc-68660c436f30",
-    "acquired_at": "2026-11-09T18:38:40Z",
-    "expires_at": "2026-11-09T18:48:40Z",
-    "lease_commit": "5c17f4c71d7cffcdb28e11d47c1033d677559ad2",
-    "started_receipt_commit": "94c3543f4c71d12ddbcd5f5d5e1301778286efea",
-    "released_at": "2026-11-09T18:44:31Z",
-    "release_with_receipt_atomic": true
+    "holder": "chatgpt:ordinary:8734114e-f5c1-4a78-bbe6-1d3736ef8b92",
+    "acquired_at": "2026-11-09T19:06:20.464Z",
+    "expires_at": "2026-11-09T19:16:20.464Z",
+    "lease_commit": "0536838ffd9a98e106a8d2ff94684efb3c112b71"
   },
   "acceptance": {
     "scheduled_run_executed": true,
-    "scheduled_run_id_observed": true,
-    "topview_read_only_scan_complete": true,
-    "all_36_submitted_task_ids_read_from_Topview": true,
-    "queue_and_map_sha256_confirmed": true,
-    "tinyfish_authenticated_ui_this_run": false,
-    "tinyfish_file_transfer_this_run": false,
-    "tinyfish_unlimited_zero_this_run": false,
+    "scheduled_run_id_observed": false,
+    "topview_read_only_scan_complete": false,
     "production_submission_by_this_executor_verified": false,
     "new_task_id_verified": false
   },
-  "outcome": "no_eligible_ready_item",
-  "blocker": "S65 blocked waiting exact S70 final frame / continuity QC; S66-STITCH-INDEP-WAN30 foreign submitting intent unresolved; S62 on owner hold; music/dance S28/S51 withheld, S49B owner-authorized only after story. TinyFish exact input transfer/Unlimited0 remains unverified.",
-  "retryable": false,
-  "task_ids": [
-    "be627af0e9664db5b6ac2b62c34080a6",
-    "8bdd6439dad94592979aba23c137b4a0",
-    "0a495e5f77a041e6bcc8d67fb68230b3",
-    "6fa3cdac62e348759d2a3607093414ea",
-    "2473c9b5bcf645fd85ab308306c53aaa"
-  ],
-  "updated_at": "2026-11-09T18:44:31Z",
-  "completed_at": "2026-11-09T18:44:31Z",
-  "queue_reconciliation": {
-    "queue_blob_sha": "874ff7197b08940122156b8b4bd9a43f818ef871",
-    "task_map_blob_sha": "90996c5b82a0553ed0cd49d2edf3f2d91c724868",
-    "readiness_blob_sha": "bda1cb01362adbefe09953f950b45d48b8bebfa5",
-    "queue_sha256": "5c4c83e19a23ce849990d5647342ed982191c583dfc61642535f8282f3b10504",
-    "task_map_sha256": "7e5c3ae5e5ba98672f69c0c210b0bdc8f710624299feb5e49d3b4c4c788595ad",
-    "sha256_recomputed_and_matched": true,
-    "submitted_task_ids_found": 36,
-    "submitted_total": 36,
-    "pending_items": [
-      {
-        "id": "S66-STITCH-INDEP-WAN30",
-        "state": "submitting",
-        "submission_intent_id": "6ba1656f-24ff-4dd3-ab2d-bf0991e31cf2",
-        "lease_holder": "grok:fa55d361-5299-404a-aa1b-cf19979fda7c"
-      }
-    ],
-    "s70_original_success_id": "942bdafcff8640d1b405a37cbbb5cbc6",
-    "s70_duplicate_success_id": "39b567d40aed4f58947324e0852b4e4e",
-    "s70_duplicate_completed_at": "2026-11-09 18:26:08",
-    "open_owner_tasks": 1,
-    "owner_task_action": "Not taken: explicit reservation to separate interactive ChatGPT writer for parodies",
-    "preferred_executor": "work",
-    "route_generation_unchanged": true,
-    "robot_telemetry_checked_at": "2026-11-09T15:34:29Z",
-    "robot_telemetry_is_stale": true
-  }
+  "outcome": "started",
+  "blocker": null,
+  "retryable": true,
+  "updated_at": "2026-11-09T19:07:07.239Z"
 }
