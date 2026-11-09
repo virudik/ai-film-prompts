@@ -64,7 +64,13 @@
       "consumed": true,
       "event_keys": [],
       "owner_event": null,
-      "note": "One Create budget consumed before click; failed/unknown/expiry never reopens this key."
+      "note": "One Create budget consumed before click; failed/unknown/expiry never reopens this key.",
+      "reconciliation": {
+        "outcome": "reconciled_without_Create",
+        "create_clicked": false,
+        "task_found": false,
+        "at": "2026-11-09T10:06:00Z"
+      }
     },
     "4356a35953f02a92d6cfd76692c100a2beb2c72e20d567a300cc6804c30de5ed": {
       "surface": "grok",

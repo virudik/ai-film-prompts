@@ -182,8 +182,14 @@ def music_create_blocked(queue, item):
     """New music/dance Create needs a separate owner consent. Submitted work stays.
 
     A consumed submitting intent is not consent and is not cleared here.
+    Consent that says after_all_story stays closed while a story part is still to launch.
     """
-    if not is_music_dance(queue, item) or item.get('owner_music_consent') is True:
+    if not is_music_dance(queue, item):
+        return False
+    if item.get('owner_music_consent') is True:
+        record = item.get('owner_music_consent_record') or {}
+        if record.get('condition') == 'after_all_story' and story_still_to_launch(queue):
+            return True
         return False
     if item.get('task_id'):
         return False
@@ -191,6 +197,30 @@ def music_create_blocked(queue, item):
     if state in ('submitted', 'completed', 'submission_unknown') or state.startswith(('cancelled', 'superseded')):
         return False
     return state in ('waiting_for_slot', 'claimed', 'submitting')
+
+
+def t422_policy(queue):
+    """t422u, 09.11.2026 13:06 MSK. Absent unless this decision is on the queue."""
+    policy = queue.get('owner_policy_20261109_t422u') if isinstance(queue, dict) else None
+    if not isinstance(policy, dict) or policy.get('effect') != 'tatooine_chain_first':
+        return None
+    if not isinstance(policy.get('tatooine_chain'), list):
+        return None
+    return policy
+
+
+def story_still_to_launch(queue):
+    """A story part that is not yet sent. Held 13 and 62 do not keep S49B closed forever."""
+    if not isinstance(queue, dict):
+        return False
+    for item in queue.get('items') or []:
+        if not isinstance(item, dict) or is_music_dance(queue, item):
+            continue
+        if item.get('scene_id') in (13, 62):
+            continue
+        if str(item.get('state') or '') in ('waiting_for_slot', 'blocked_inputs', 'claimed', 'submitting'):
+            return True
+    return False
 
 
 def link_rank(item):
@@ -201,16 +231,39 @@ def link_rank(item):
     return 1 if linked else 0
 
 
+def launch_band(queue, item):
+    """t422u: Tatooine chain, then other linked story, then singles, then music.
+
+    Without that decision the older order remains: unlinked story, then a ready join.
+    """
+    policy = t422_policy(queue)
+    if policy is None:
+        return (link_rank(item), 0)
+    chain = policy['tatooine_chain']
+    if item.get('scene_id') in (policy.get('hold_scenes') or []):
+        return (9, 0)
+    if item.get('id') in chain:
+        return (0, chain.index(item['id']))
+    if is_music_dance(queue, item):
+        return (3, 0)
+    if link_rank(item) == 1:
+        return (1, 0)
+    return (2, 0)
+
+
 def launch_candidates(root, limit=None):
     """Priority order of items that are actually ready to Create. Read-only.
 
-    Story with no link, then story whose join is already ready, by queue priority.
+    With t422u: the Tatooine chain, then other linked story, then singles, then music.
+    Otherwise: story with no link, then story whose join is already ready.
     Music and dance are not a fallback: t369u requires a new owner consent.
+    A missing excerpt or an unmet dependency is never skipped past by a priority number.
     """
     root = Path(root)
     queue = read(root / 'ops/topview-launch-queue.json', {})
     derived = {row['id']: row for row in derive(root)['items']}
     items = [item for item in queue.get('items', []) if isinstance(item, dict)]
+    held = set((t422_policy(queue) or {}).get('hold_scenes') or [])
 
     def priority(item):
         value = item.get('priority')
@@ -222,7 +275,9 @@ def launch_candidates(root, limit=None):
     for item in sorted(items, key=priority):
         item_id = item.get('id')
         row = derived.get(item_id) or {}
-        if item.get('state') != 'waiting_for_slot' or row.get('code') != 'ready' or row.get('ready') is not True:
+        if item.get('scene_id') in held:
+            reason = 'owner_hold'
+        elif item.get('state') != 'waiting_for_slot' or row.get('code') != 'ready' or row.get('ready') is not True:
             reason = row.get('code') or item.get('state') or 'not_ready'
         elif substantive_refusal(item):
             reason = 'substantive_refusal'
@@ -236,7 +291,7 @@ def launch_candidates(root, limit=None):
             skipped.append({'id': item_id, 'reason': reason})
             continue
         eligible.append(item)
-    ordered = sorted(eligible, key=lambda item: (link_rank(item), priority(item)))
+    ordered = sorted(eligible, key=lambda item: (launch_band(queue, item), priority(item)))
     for item in ordered:
         chosen.append(item.get('id'))
         if limit is not None and len(chosen) >= limit:

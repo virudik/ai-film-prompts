@@ -105,6 +105,29 @@ class QueueReadinessTests(unittest.TestCase):
         q['items']=[music,story,plain,running,inflight,parent]
         (self.root/'ops/topview-launch-queue.json').write_text(json.dumps(q))
         self.assertEqual(qr.launch_candidates(self.root)['chosen'],['S52'])
+    def test_t422_puts_the_tatooine_chain_ahead_of_a_ready_single(self):
+        (self.root/'note.txt').write_bytes(b'story-ref')
+        digest=qr.digest(self.root/'note.txt')
+        ref=[{'slot':'@Image1','path':'note.txt','sha256':digest}]
+        chain={'id':'S52-R2-SEED20-P4','scene_id':52,'priority':0.5,'state':'waiting_for_slot','references':ref}
+        single={'id':'S59-SEED20-P3','scene_id':59,'priority':0.1,'state':'waiting_for_slot','references':ref}
+        held={'id':'S62-SEED20-P1-R2-20261108','scene_id':62,'priority':-0.5,'state':'waiting_for_slot','references':ref}
+        music={'id':'S49B','scene_id':49,'priority':9,'state':'waiting_for_slot','owner_music_consent':True,
+               'owner_music_consent_record':{'condition':'after_all_story','scope':'S49B'},'references':ref}
+        self.run_case([music,single,held,chain])
+        q=json.loads((self.root/'ops/topview-launch-queue.json').read_text())
+        q['owner_policy_20261108_t369u']={'effect':'music_requires_owner_consent','scenes':[28,49,50,51]}
+        q['owner_policy_20261109_t422u']={'effect':'tatooine_chain_first','tatooine_chain':['S52-R2-SEED20-P4'],'hold_scenes':[62]}
+        (self.root/'ops/topview-launch-queue.json').write_text(json.dumps(q))
+        picked=qr.launch_candidates(self.root)
+        self.assertEqual(picked['chosen'],['S52-R2-SEED20-P4','S59-SEED20-P3'])
+        reasons={row['id']:row['reason'] for row in picked['skipped']}
+        self.assertEqual(reasons['S62-SEED20-P1-R2-20261108'],'owner_hold')
+        self.assertEqual(reasons['S49B'],'music_owner_consent_required')
+        q['items']=[music]
+        (self.root/'ops/topview-launch-queue.json').write_text(json.dumps(q))
+        self.assertEqual(qr.launch_candidates(self.root)['chosen'],['S49B'])
+
     def test_does_not_mutate_queue_or_repeat_unchanged_write(self):
         self.run_case([self.first]);before=(self.root/'ops/topview-launch-queue.json').read_bytes()
         self.assertTrue(qr.write(self.root));self.assertFalse(qr.write(self.root))
