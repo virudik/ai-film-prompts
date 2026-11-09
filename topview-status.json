@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "source": "Topview operational telemetry",
-  "checked_at": "2026-11-09T09:10:23Z",
+  "checked_at": "2026-11-09T10:16:23Z",
   "timezone": "UTC",
   "canonical_behavior": "Topview slow capacity is 6 concurrent active task slots. One active Topview task occupies one slot even when several tasks belong to the same Scene ID. Canonical slow membership remains unique by Scene ID.",
   "scenes": {
@@ -800,25 +800,22 @@
     },
     "51": {
       "scene_id": 51,
-      "task_id": "0b6dfa84e4524b438075f10f7205a846",
+      "task_id": "2d8efbd16f5146f48cd7a9a1ffb99369",
       "model": "Seedance 2.0",
       "model_id": "seedance-2.0-style",
-      "topview_status": "init",
+      "topview_status": "success",
       "started_at": "2026-11-08T17:45:33Z",
-      "queue_count": 2237,
-      "topview_estimated_wait_seconds": 82141,
-      "checked_at": "2026-11-09T09:10:23Z",
+      "queue_count": null,
+      "topview_estimated_wait_seconds": null,
+      "checked_at": "2026-11-09T10:16:23Z",
       "verified": true,
       "mapping_confidence": "prompt normalized match with master block 51D (robot)",
-      "active_task_ids": [
-        "0b6dfa84e4524b438075f10f7205a846",
-        "2d8efbd16f5146f48cd7a9a1ffb99369"
-      ],
-      "completed_at": null,
+      "active_task_ids": [],
+      "completed_at": "2026-11-09T10:01:38Z",
       "topview_estimated_process_seconds": null
     }
   },
-  "note": "GitHub robot: 2 из 6 слотов занято, новых 0, завершено 1.",
+  "note": "GitHub robot: 0 из 6 слотов занято, новых 0, завершено 2.",
   "ui_contract": {
     "slow_table": "one row per active Topview task/slot; Scene ID may repeat",
     "capacity": 6,
@@ -828,61 +825,27 @@
     "header_timestamp_source": "checked_at",
     "header_timestamp_style": "ordinary text color and weight; no 'синхр.' label",
     "three_view_source": "active_tasks[] normalized once per page load",
-    "three_view_checked_at": "2026-11-09T09:10:23Z",
+    "three_view_checked_at": "2026-11-09T10:16:23Z",
     "scene_summary": "unique Scene IDs with multiplicity; mixed task statuses preserved",
     "queue_source": "exact active_tasks[].queue_count per task"
   },
   "slot_capacity": 6,
-  "occupied_slots": 2,
-  "free_slots": 4,
-  "active_tasks": [
-    {
-      "scene_id": 51,
-      "task_id": "0b6dfa84e4524b438075f10f7205a846",
-      "model": "Seedance 2.0",
-      "model_id": "seedance-2.0-style",
-      "topview_status": "init",
-      "started_at": "2026-11-08T17:45:33Z",
-      "queue_count": 2237,
-      "topview_estimated_wait_seconds": 82141,
-      "checked_at": "2026-11-09T09:10:23Z",
-      "topview_estimated_process_seconds": null,
-      "verified": true,
-      "mapping_confidence": "prompt normalized match with master block 51D (robot)",
-      "part": "D"
-    },
-    {
-      "scene_id": 51,
-      "task_id": "2d8efbd16f5146f48cd7a9a1ffb99369",
-      "model": "Seedance 2.0",
-      "model_id": "seedance-2.0-style",
-      "topview_status": "init",
-      "started_at": "2026-11-08T17:31:40Z",
-      "queue_count": 1329,
-      "topview_estimated_wait_seconds": 38941,
-      "checked_at": "2026-11-09T09:10:23Z",
-      "topview_estimated_process_seconds": null,
-      "verified": true,
-      "mapping_confidence": "prompt normalized match with master block 51C (robot)",
-      "part": "C"
-    }
-  ],
+  "occupied_slots": 0,
+  "free_slots": 6,
+  "active_tasks": [],
   "scope": "all_owned_board_counts_plus_ai_film_latest_100_plus_direct_known_active",
   "account_observation": {
-    "checked_at": "2026-11-09T09:10:23Z",
+    "checked_at": "2026-11-09T10:16:23Z",
     "complete": true,
     "boards_scanned": 14,
-    "video_tasks_scanned": 644,
+    "video_tasks_scanned": 649,
     "pages_scanned": 16,
     "scope": "all_owned_boards_unlimited_video_tasks",
-    "scan_mode": "light_board_counts_verified",
+    "scan_mode": "full_all_pages",
     "slot_capacity": 6,
-    "occupied_slots": 2,
-    "free_slots": 4,
-    "active_task_ids": [
-      "0b6dfa84e4524b438075f10f7205a846",
-      "2d8efbd16f5146f48cd7a9a1ffb99369"
-    ]
+    "occupied_slots": 0,
+    "free_slots": 6,
+    "active_task_ids": []
   },
   "updated_at": "2026-10-13T17:52:06.640Z",
   "task_parts": {
