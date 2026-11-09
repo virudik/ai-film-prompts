@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:e3dd9abd-95bc-49e6-83fc-8b88cc73e331",
   "task": "Verify parody package against actual files and owner requirements; no image replacement or video submission",
   "acquired_at": "2026-11-09T17:52:40.553409+00:00",
-  "expires_at": "2026-11-09T18:04:40.553409+00:00",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-09T17:58:58.363438+00:00",
   "rules": "ops/CANON-LOCK.md"
 }

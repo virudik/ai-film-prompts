@@ -1,0 +1,365 @@
+{
+  "schema_version": 1,
+  "work_id": "SEREGIUS-PARODIES-20261109",
+  "checked_at": "2026-11-09T17:58:56.231030+00:00",
+  "scope": "Existing S74-S80 files, cast bindings and evidence completeness; no generation, approval or video submission",
+  "master_sha256": "3003d5e5de31ae5aa86ab94f948b4992ee5ee424c809aa15b120aa9c2290f6fb",
+  "execution_ok": true,
+  "integrity_ok": true,
+  "work_complete": false,
+  "primary_scenes_with_stills": 7,
+  "prompt_blocks": 21,
+  "scenes": [
+    {
+      "scene_id": 74,
+      "prompt_blocks": 3,
+      "identity_paths": [
+        "references/full/vitalik.jpg"
+      ],
+      "staging": [
+        {
+          "path": "references/scenes/scene-74/S74-studio-roar.png",
+          "sha256": "ef65d3aae1a4bdeb4f49d19c576136a7dffa0b8852be06e0affac76b3c443b18",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "owner_approval": "not_reviewed",
+          "sha_match": true
+        }
+      ]
+    },
+    {
+      "scene_id": 75,
+      "prompt_blocks": 3,
+      "identity_paths": [
+        "references/full/vitalik.jpg"
+      ],
+      "staging": [
+        {
+          "path": "references/scenes/scene-75/S75-moon-river.png",
+          "sha256": "82cf2a58e8c89ee641fb41e595815734a56b484da4f636ee5b2461929ab739d9",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "owner_approval": "not_reviewed",
+          "sha_match": true
+        }
+      ]
+    },
+    {
+      "scene_id": 76,
+      "prompt_blocks": 3,
+      "identity_paths": [
+        "references/full/vitalik.jpg"
+      ],
+      "staging": [
+        {
+          "path": "references/scenes/scene-76/S76-kandibober.png",
+          "sha256": "401a265a914ea5644e087edf3b44e58c44f10169e23d3c381a598d0f33de0f8a",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "owner_approval": "not_reviewed",
+          "sha_match": true
+        }
+      ]
+    },
+    {
+      "scene_id": 77,
+      "prompt_blocks": 3,
+      "identity_paths": [
+        "references/full/lesha.jpg",
+        "references/full/vitalik.jpg",
+        "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png"
+      ],
+      "staging": [
+        {
+          "path": "references/scenes/scene-77/S77-love-triangle.png",
+          "sha256": "d983630f247d8ba80003c7dbcabc576fe45b555a90ba51cf1d869dc8921b161f",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "owner_approval": "not_reviewed",
+          "sha_match": true
+        }
+      ]
+    },
+    {
+      "scene_id": 78,
+      "prompt_blocks": 3,
+      "identity_paths": [
+        "references/full/vitalik.jpg",
+        "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+        "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png"
+      ],
+      "staging": [
+        {
+          "path": "references/scenes/scene-78/S78-mayonnaise-family.png",
+          "sha256": "ff2103c750d878f2f9b0daffb16c9d42fa3890b5cde9eb31271250362c45a1e6",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "owner_approval": "not_reviewed",
+          "sha_match": true
+        }
+      ]
+    },
+    {
+      "scene_id": 79,
+      "prompt_blocks": 3,
+      "identity_paths": [
+        "references/full/vitalik.jpg",
+        "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+        "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png"
+      ],
+      "staging": [
+        {
+          "path": "references/scenes/scene-79/S79-chips-council.png",
+          "sha256": "aba5a8b96c44fe286624da0eead53dd7a076d7116f3e4300b6159a1d7831a470",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "owner_approval": "not_reviewed",
+          "sha_match": true
+        }
+      ]
+    },
+    {
+      "scene_id": 80,
+      "prompt_blocks": 3,
+      "identity_paths": [
+        "references/full/vitalik.jpg",
+        "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+        "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png"
+      ],
+      "staging": [
+        {
+          "path": "references/scenes/scene-80/S80-budget-luxury.png",
+          "sha256": "ff8c23f4ef3ffc5ec140d7a19dceba9bb8aa8bbddad2864f32b83ba4f21a7f3c",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "owner_approval": "not_reviewed",
+          "sha_match": true
+        }
+      ]
+    }
+  ],
+  "supplementary": [
+    {
+      "scene_id": 74,
+      "kind": "torch curtain pedestal",
+      "path": "references/scenes/scene-74/S74-torch-curtain.png",
+      "actual_file_exists": false,
+      "attached": false,
+      "declared_status": "needs_generation"
+    },
+    {
+      "scene_id": 74,
+      "kind": "globe stage",
+      "path": "references/scenes/scene-74/S74-globe-stage.png",
+      "actual_file_exists": false,
+      "attached": false,
+      "declared_status": "needs_generation"
+    },
+    {
+      "scene_id": 74,
+      "kind": "potato mountain",
+      "path": "references/scenes/scene-74/S74-potato-mountain.png",
+      "actual_file_exists": false,
+      "attached": false,
+      "declared_status": "needs_generation"
+    },
+    {
+      "scene_id": 74,
+      "kind": "searchlight crates",
+      "path": "references/scenes/scene-74/S74-searchlight-crates.png",
+      "actual_file_exists": false,
+      "attached": false,
+      "declared_status": "needs_generation"
+    },
+    {
+      "scene_id": 74,
+      "kind": "saucepan gong",
+      "path": "references/scenes/scene-74/S74-saucepan-gong.png",
+      "actual_file_exists": false,
+      "attached": false,
+      "declared_status": "needs_generation"
+    },
+    {
+      "scene_id": 76,
+      "kind": "ice-fisher",
+      "path": "references/scenes/scene-76/S76-normalno-ice.png",
+      "actual_file_exists": false,
+      "attached": false,
+      "declared_status": "needs_generation"
+    },
+    {
+      "scene_id": 76,
+      "kind": "Yaz fish",
+      "path": "references/scenes/scene-76/S76-yaz-boat.png",
+      "actual_file_exists": false,
+      "attached": false,
+      "declared_status": "needs_generation"
+    }
+  ],
+  "errors": [],
+  "pending": [
+    {
+      "scene_id": 74,
+      "kind": "declared_additional_reference",
+      "requirement": "torch curtain pedestal",
+      "reason": "Manifest declares this requirement unresolved"
+    },
+    {
+      "scene_id": 74,
+      "kind": "declared_additional_reference",
+      "requirement": "globe stage",
+      "reason": "Manifest declares this requirement unresolved"
+    },
+    {
+      "scene_id": 74,
+      "kind": "declared_additional_reference",
+      "requirement": "potato mountain",
+      "reason": "Manifest declares this requirement unresolved"
+    },
+    {
+      "scene_id": 74,
+      "kind": "declared_additional_reference",
+      "requirement": "searchlight crates",
+      "reason": "Manifest declares this requirement unresolved"
+    },
+    {
+      "scene_id": 75,
+      "kind": "declared_additional_reference",
+      "requirement": "matching-costume fishing setup",
+      "reason": "Manifest declares this requirement unresolved"
+    },
+    {
+      "scene_id": 75,
+      "kind": "declared_additional_reference",
+      "requirement": "matching-costume finish with droid",
+      "reason": "Manifest declares this requirement unresolved"
+    },
+    {
+      "scene_id": 76,
+      "kind": "declared_additional_reference",
+      "requirement": "ice-fisher Normalno",
+      "reason": "Manifest declares this requirement unresolved"
+    },
+    {
+      "scene_id": 76,
+      "kind": "declared_additional_reference",
+      "requirement": "Yaz catch with correct fish, not pike",
+      "reason": "Manifest declares this requirement unresolved"
+    },
+    {
+      "scene_id": 77,
+      "kind": "declared_additional_reference",
+      "requirement": "initial adult two-shot",
+      "reason": "Manifest declares this requirement unresolved"
+    },
+    {
+      "scene_id": 77,
+      "kind": "declared_additional_reference",
+      "requirement": "Masha confession reverse angle",
+      "reason": "Manifest declares this requirement unresolved"
+    },
+    {
+      "scene_id": 78,
+      "kind": "declared_additional_reference",
+      "requirement": "jar/spoon hand insert",
+      "reason": "Manifest declares this requirement unresolved"
+    },
+    {
+      "scene_id": 79,
+      "kind": "declared_additional_reference",
+      "requirement": "quiet packet opening",
+      "reason": "Manifest declares this requirement unresolved"
+    },
+    {
+      "scene_id": 79,
+      "kind": "declared_additional_reference",
+      "requirement": "single last chip insert",
+      "reason": "Manifest declares this requirement unresolved"
+    },
+    {
+      "scene_id": 80,
+      "kind": "declared_additional_reference",
+      "requirement": "noodle macro",
+      "reason": "Manifest declares this requirement unresolved"
+    },
+    {
+      "scene_id": 80,
+      "kind": "declared_additional_reference",
+      "requirement": "slipper low angle",
+      "reason": "Manifest declares this requirement unresolved"
+    },
+    {
+      "scene_id": 80,
+      "kind": "declared_additional_reference",
+      "requirement": "plain bag-of-bags insert",
+      "reason": "Manifest declares this requirement unresolved"
+    },
+    {
+      "scene_id": 74,
+      "kind": "torch curtain pedestal",
+      "path": "references/scenes/scene-74/S74-torch-curtain.png",
+      "reason": "Actual file and manifest attachment are both required"
+    },
+    {
+      "scene_id": 74,
+      "kind": "globe stage",
+      "path": "references/scenes/scene-74/S74-globe-stage.png",
+      "reason": "Actual file and manifest attachment are both required"
+    },
+    {
+      "scene_id": 74,
+      "kind": "potato mountain",
+      "path": "references/scenes/scene-74/S74-potato-mountain.png",
+      "reason": "Actual file and manifest attachment are both required"
+    },
+    {
+      "scene_id": 74,
+      "kind": "searchlight crates",
+      "path": "references/scenes/scene-74/S74-searchlight-crates.png",
+      "reason": "Actual file and manifest attachment are both required"
+    },
+    {
+      "scene_id": 74,
+      "kind": "saucepan gong",
+      "path": "references/scenes/scene-74/S74-saucepan-gong.png",
+      "reason": "Actual file and manifest attachment are both required"
+    },
+    {
+      "scene_id": 76,
+      "kind": "ice-fisher",
+      "path": "references/scenes/scene-76/S76-normalno-ice.png",
+      "reason": "Actual file and manifest attachment are both required"
+    },
+    {
+      "scene_id": 76,
+      "kind": "Yaz fish",
+      "path": "references/scenes/scene-76/S76-yaz-boat.png",
+      "reason": "Actual file and manifest attachment are both required"
+    },
+    {
+      "kind": "original_meme_audio_visual_review",
+      "reason": "No explicit evidence of completed original-video playback/audio review"
+    },
+    {
+      "kind": "visual_likeness_and_composition_review",
+      "reason": "No complete per-frame likeness/composition review evidence; hashes do not prove identity"
+    }
+  ],
+  "owner_approval_claimed": false,
+  "other_project_tasks_audited": false,
+  "important": "Successful execution of this audit does not mean the work is complete. Read work_complete and pending."
+}

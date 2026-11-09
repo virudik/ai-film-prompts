@@ -195,19 +195,48 @@
       "published_as_reference": false,
       "requested_job": "S74-torch-curtain",
       "recorded_at": "2026-11-09T17:20:04.724056+00:00"
+    },
+    {
+      "generation_id": "1f0d80b5-e0e2-4625-af84-7971f3bb1274",
+      "sha256": "f41bfcaa09e660fb65c7a2c2442dc798152a0b61e532bf33eff129c6129f2ab0",
+      "status": "rejected",
+      "published_as_reference": false,
+      "requested_job": "S74-torch-curtain",
+      "reason": "Wrong scene and unverified generated face despite explicit one-person torch specification; not an acceptable replacement.",
+      "recorded_at": "2026-11-09T17:58:56.359677+00:00"
+    },
+    {
+      "generation_id": "12dac421-19db-4f43-bffd-29cc6427b05a",
+      "sha256": "a57ac1cf2be433b15b87c77dea78b901a726b17d840fe343a4d5bb9a6e0911e3",
+      "status": "rejected",
+      "published_as_reference": false,
+      "requested_job": "S74-torch-curtain",
+      "reason": "Wrong scene and unverified generated face despite explicit one-person torch specification; not an acceptable replacement.",
+      "recorded_at": "2026-11-09T17:58:56.359677+00:00"
+    },
+    {
+      "generation_id": "cb68b126-103a-46fd-8c6c-85ea11972478",
+      "sha256": "94a6002566073067c33c400fbfd5b2dc070961cdab1d331965cc7e5a3fc0f40e",
+      "status": "rejected",
+      "published_as_reference": false,
+      "requested_job": "S74-torch-curtain",
+      "reason": "Wrong scene and unverified generated face despite explicit one-person torch specification; not an acceptable replacement.",
+      "recorded_at": "2026-11-09T17:58:56.359677+00:00"
     }
   ],
   "last_execution": {
-    "checked_at": "2026-11-09T17:20:04.724056+00:00",
+    "checked_at": "2026-11-09T17:58:56.359677+00:00",
     "new_generated_outputs": 3,
     "new_accepted_images": 0,
     "new_images_attached": 0,
+    "manual_retouch_candidates": 5,
+    "manual_retouch_accepted": 0,
+    "manual_retouch_rejection": "Perspective, lighting and remaining old-head edges failed visual review; kept local only.",
     "published_primary_images_preserved": 7,
-    "video_submissions": 0,
-    "queue_changed": false,
-    "browser_fallback": "Browser.list_tabs returned originating_browser_context_required",
     "work_complete": false,
-    "background_work_running": false
+    "background_work_running": false,
+    "browser_fallback": "Browser.list_tabs returned originating_browser_context_required",
+    "new_completeness_check": "scripts/check_parody_package.py"
   },
   "next_action": "Семь основных PNG и 21 промпт уже сохранены: не пересоздавать. Дополнительный S74-torch-curtain не получен: три новых ответа генератора дали другой рычащий логотип и отклонены. Сначала получить отдельный кадр факела с точным лицом Виталика в работающем одиночном редактировании; затем QC и PNG/SHA/manifest/master до следующего. Не активировать неверные лица/надписи; остальные семь дополнительных заданий остаются открытыми. Никакой процесс между сообщениями не выполняется."
 }
