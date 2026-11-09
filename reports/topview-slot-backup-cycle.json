@@ -3,101 +3,52 @@
   "project": "seregius",
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "8d4f6b75-5218-4d73-82d6-e41b8f6705a4",
-  "run_id": null,
-  "run_id_unavailable_reason": "Automations get/peek connector returned 404 Action not found; actual platform runtime run ID not exposed to this execution; local execution UUID is not a runtime run ID.",
-  "source_head": "7ea8f64f41090bb04ac4a71982a4042938868f56",
-  "source_head_initial": "7ea8f64f41090bb04ac4a71982a4042938868f56",
+  "execution_instance_id": "ca17da02-676a-437a-9a6f-c2df9cfd27ff",
+  "run_id": "fa65af92-7454-8327-9bc1-0b0e687799bb",
+  "run_id_unavailable_reason": null,
+  "source_head_initial": "4a56dcefb2ea4828053e2b89f48b8ee8f6029d9a",
   "route_generation": 3,
-  "started_at": "2026-11-09T12:59:23Z",
-  "receipt_started_at": "2026-11-09T13:07:05.584Z",
-  "status": "completed",
-  "phase": "complete",
+  "started_at": "2026-11-09T14:06:44.274242Z",
+  "receipt_started_at": "2026-11-09T14:11:14.883Z",
+  "status": "started",
+  "phase": "fresh_sources_and_full_scan",
   "scan": {
-    "complete": true,
-    "source": "Topview connector, all 14 boards, all 18 pages, mediaType=video, pageSize=100",
-    "boards": 14,
-    "pages": 18,
-    "video_tasks": 656,
-    "status_counts": {
-      "success": 630,
-      "fail": 26,
-      "active": 0
-    },
-    "active_task_ids": [],
-    "observation_note": "Repeated complete all-board scan after S52 Part7 success: 14 boards, 18 pages, 656 video tasks. Non-atomic Topview snapshot; new Create requires another scan.",
-    "checked_at": "2026-11-09T13:11:29.844Z"
+    "complete": false,
+    "boards": null,
+    "pages": null,
+    "video_tasks": null
   },
   "slots": {
     "physical_capacity": 6,
-    "occupied": 0,
-    "free": 6,
-    "complete_scan_verified": true,
-    "non_reserving_snapshot": true,
-    "checked_at": "2026-11-09T13:11:29.844Z"
+    "occupied": null,
+    "free": null,
+    "complete_scan_verified": false
   },
   "selected_item": null,
-  "task_ids": [
-    "4283036c9c8c486bb8a60c9e9326447d"
-  ],
   "new_submissions": [],
-  "browser_transport": "not_used:no independent eligible owner-authorized ready scene; prior TinyFish native-file transfer/Unlimited0 blocker unchanged; Work remains verified preferred",
+  "browser_transport": "not_used",
   "tinyfish": {
     "runs": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0,
-    "wallet_spent_usd": 0
+    "confirmed_cost_usd": 0
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:8d4f6b75-5218-4d73-82d6-e41b8f6705a4",
-    "acquired_at": "2026-11-09T13:06:17.669Z",
-    "expires_at": null,
-    "released_at": "2026-11-09T13:12:42.920Z",
-    "release_with_receipt_atomic": true
+    "holder": "chatgpt:ordinary:ca17da02-676a-437a-9a6f-c2df9cfd27ff",
+    "acquired_at": "2026-11-09T14:10:46.245Z",
+    "expires_at": "2026-11-09T14:35:46.245Z",
+    "released_at": null
   },
   "acceptance": {
     "scheduled_run_executed": true,
-    "scheduled_run_id_verified": false,
-    "topview_read_only_scan_complete": true,
-    "queue_and_map_sha256_confirmed": true,
-    "tinyfish_authenticated_ui_this_run": false,
+    "scheduled_run_id_verified": true,
+    "topview_read_only_scan_complete": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
-    "new_task_id_verified": true,
-    "production_submission_by_this_executor_verified": false,
-    "submitted_task_ids_found": 34,
-    "submitted_task_ids_total": 34
+    "production_submission_by_this_executor_verified": false
   },
-  "outcome": "read_only_reconciled_no_own_create",
-  "blocker": {
-    "code": "waiting_tatooine_continuity_qc",
-    "reason": "S52-P7 now Topview success, 30s Wan3.0 Unlimited credits0; next S66 requires its actual terminal frame and QC, not yet recorded. 62 owner-held; 49B after story; other music/dances require separate consent. No independent owner-authorized input-ready scene. TinyFish native exact import and selected Unlimited0 remain unproven, so no paid retest.",
-    "retryable": false,
-    "retest_only_on_new_evidence": true
-  },
-  "retryable": false,
-  "updated_at": "2026-11-09T13:12:42.920Z",
-  "queue_reconciliation": {
-    "submitted_task_ids_total": 34,
-    "submitted_task_ids_found_in_all_board_scan": 34,
-    "p7_task_id": "4283036c9c8c486bb8a60c9e9326447d",
-    "p7_status": "success",
-    "owner_policy": "t422u Tatooine priority; t438u owner authorized final-frame image instead of last3s for linked scenes",
-    "open_owner_tasks": 1,
-    "open_task_is_interactive_only": true,
-    "queue_sha256": "3436cf6d83a6e7878b1c1129669b5aa57540059b4f42bfb74b09b31a87f5f637",
-    "task_map_sha256": "dc79e6585bfd4c6b1aa5a63036a1f2db26d16a00b0de4a22df8d56ac6030135f",
-    "hashes_independently_recomputed_matched": true,
-    "p7_finished_at": "2026-11-09 13:04:01",
-    "p7_credits_cost": 0,
-    "p7_unlimited": true,
-    "p7_model": "Wan 3.0",
-    "p7_video_duration_seconds": 30,
-    "p7_reference_image_count": 7,
-    "p7_actual_end_frame_qc": false,
-    "s49b_not_started": true
-  },
-  "completed_at": "2026-11-09T13:12:42.920Z"
+  "outcome": "in_progress",
+  "blocker": null,
+  "updated_at": "2026-11-09T14:11:14.883Z"
 }
