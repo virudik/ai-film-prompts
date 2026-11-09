@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "item_id": "S65-WAN30",
+  "slot": "@Image5",
+  "kind": "exact_final_frame_of_previous_part",
+  "not_a_generation": true,
+  "not_film_accepted": true,
+  "source_item_id": "S70-WAN30",
+  "source_task_id": "942bdafcff8640d1b405a37cbbb5cbc6",
+  "full_original": {
+    "sha256": "cf3ef9a5deb932098c6a394fe496d77f32515dc02483ab39cab253ef5e23008f",
+    "rehashed_here": false,
+    "topview_status": "success",
+    "creditsCost": 0,
+    "duration_seconds": 30.02,
+    "width": 1280,
+    "height": 720,
+    "completed_at": "2026-11-09T15:47:11Z"
+  },
+  "file": {
+    "filename": "S70-final-frame.png",
+    "path": "references/scenes/scene-70/S70-final-frame.png",
+    "sha256": "6b70b25728be0affe59336ecd5d980cb1b1f9aa7d78279bd3ec737a65e8e903e",
+    "bytes": 1431333,
+    "width": 1280,
+    "height": 720,
+    "drive_file_id": "1GDvviugfLos3wAw5jSGsLn7LewpIvdaK",
+    "drive_folder": "Scene Reference Packs"
+  },
+  "qc_note": "Close cantina shot: a weathered metal droid seated at a bar table holding a small brass mug, a person in a worn leather jacket at left, warm dim lighting.",
+  "qc_blocking": false,
+  "owner_orders": [
+    "t438u"
+  ]
+}

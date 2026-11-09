@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "5c4c83e19a23ce849990d5647342ed982191c583dfc61642535f8282f3b10504",
-  "source_task_map_sha256": "7e5c3ae5e5ba98672f69c0c210b0bdc8f710624299feb5e49d3b4c4c788595ad",
+  "source_queue_sha256": "70fce65fac14379c773fdb1263ac613daa27fa5df99f51a0113caf413831c86a",
+  "source_task_map_sha256": "90c90177d874ea0a44825774f942fc2a462d3307583db2f09f5658a4eed935f3",
   "topview_checked_at": "2026-11-09T15:34:29Z",
   "items": [
     {
@@ -172,8 +172,8 @@
       "part_label": "65",
       "code": "waiting_result",
       "ready": false,
-      "text": "@Image5: ждёт результат 70",
-      "queue_state": "blocked_inputs"
+      "text": "Ждёт подтверждённый результат S70-WAN30",
+      "queue_state": "waiting_for_slot"
     },
     {
       "id": "S66-STITCH-INDEP-WAN30",
@@ -204,5 +204,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-09T15:36:01.807439Z"
+  "checked_at": "2026-11-09T23:02:53.468879Z"
 }

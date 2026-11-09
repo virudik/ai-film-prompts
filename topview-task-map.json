@@ -14,11 +14,7 @@
     "Topview slow capacity is 6 concurrent active task slots; each active task_id occupies one slot even when multiple tasks belong to the same Scene ID. Canonical slow_scenes remains unique by Scene ID.",
     "Owner-confirmed releases are stored as owner_released_task_ids. A released but still active Topview task stays in active_by_scene and the 6-slot public count until provider-terminal; do not re-add it to canonical slow."
   ],
-  "active_by_scene": {
-    "70": [
-      "942bdafcff8640d1b405a37cbbb5cbc6"
-    ]
-  },
+  "active_by_scene": {},
   "processed_tasks": [
     {
       "task_id": "6ef310d646ca4605b5b10c12752b6ab7",
@@ -889,6 +885,14 @@
       "final_status": "success",
       "finished_at": "2026-11-09T15:18:37Z",
       "creditsCost": 0
+    },
+    {
+      "task_id": "942bdafcff8640d1b405a37cbbb5cbc6",
+      "scene_id": 70,
+      "final_status": "success",
+      "finished_at": "2026-11-09T15:47:11Z",
+      "creditsCost": 0,
+      "part": "WAN30"
     }
   ],
   "retention": {
