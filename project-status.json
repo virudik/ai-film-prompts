@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-11-09T10:16:34Z",
+  "synced_at": "2026-11-09T10:24:50Z",
   "revision_date": "09.11.2026",
   "master_declared_last_full_sync": "09.11.2026 · текущая по live Topview/Drive сверке",
   "canonical_master_sha256": "14dcc14086a74b0b8cf80b9dbc01cf7cbb7e0bb79fd7856a62aeadbf4684a1f9",
@@ -126,19 +126,19 @@
   ],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-11-09T10:09:48.539Z",
+    "snapshot_at": "2026-11-09T10:24:22.873Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 0.113,
+    "age_hours_at_status_build": 0.008,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
         "drive_copy_sha256": "fcaed4b4eaf4d3b27eb9b68288a99d9bd861ee45faa98f2d7d6ca027c7fb848b",
         "drive_copy_checked_at": "2026-11-08T10:24:48.047Z",
         "drive_copy_modified_at": "2026-11-08T10:24:39.653Z",
-        "github_blob": "382f00a203c4e7dbee4c15fb2ab14e2710774960",
-        "mirror_sha256": "c33b8855d467d7c3815551e9ad0d4febe04048edd2ac35da54d2224391c78fc2",
+        "github_blob": "2936eeb07fbb310d37b6adad574aaee528a926df",
+        "mirror_sha256": "cae1f994dadb33029a6d03b5141901324544a83a7ccfe53d93e30116aa432f3b",
         "match": true,
         "drive_copy_match": false
       },
@@ -208,7 +208,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.113,
+      "age_hours": 0.008,
       "blocking": false
     },
     "topview_task_map": {
@@ -887,7 +887,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "09.11.2026",
-    "synced_at": "2026-11-09T10:16:34Z",
+    "synced_at": "2026-11-09T10:24:50Z",
     "canonical_master_sha256": "14dcc14086a74b0b8cf80b9dbc01cf7cbb7e0bb79fd7856a62aeadbf4684a1f9",
     "canonical_revision_sha256": "419839c8ed242c772bd34e72b6203da2680e3d1bf6ff78bd8501430d7d3af80c",
     "scene_count": 30,
