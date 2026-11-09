@@ -5343,14 +5343,14 @@ Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | A
 Optimized for Wan 3.0 | Photoreal live-action space-opera cinema
 
 REFERENCES / AUTHORITY:
-@Video1 — actual final 3 seconds of the selected NEW Scene52 Part6 Seedance 2.0 result (S52-R2-SEED20-P6). File: references/scenes/scene-52/S52-R2-P6-last3s.mp4. This selected Wan 3.0 Part7 continues that real ending; the change of model never resets the exact starting state, direction, speed, camera or light.
+@Image7 — exact final frame of the selected NEW Scene52 Part6 Seedance 2.0 result (S52-R2-SEED20-P6). File: references/scenes/scene-52/S52-R2-P6-final-frame.png. This Wan 3.0 Part7 starts exactly from this frame; the change of model never resets the exact starting state, direction, speed, camera or light.
 @Image1 — exact Serega identity, face, proportions and costume. File: references/full/serega.jpg.
 @Image2 — synthetic street-walking composition and town lane; individual identity sheet wins. File: references/scenes/scene-52/S52-P7-town-walk.jpg.
 @Image3 — use only STITCH in the foreground of this existing street image: exact blue fur, broad black nose, large dark eyes, oversized ears, red harness and leash. Do not use the girls in this composition as identity references; individual sheets @Image4 and @Image5 are the highest authority for ALINA and DASHA; Stitch's individual sheet @Image6 is the highest design authority for the creature. File: references/scenes/scene-66/S66-street-outrage.png.
 @Image4 — exact ALINA (GIRL A): face, hair, age and Tatooine costume from her individual sheet. File: references/scenes/scene-66/S66-Alina-tatooine-sheet.png.
 @Image5 — exact DASHA (GIRL B): face, hair, age and Tatooine costume from her individual sheet. File: references/scenes/scene-66/S66-Dasha-tatooine-sheet.png. Two different girls, never merged.
 @Image6 — exact STITCH from his individual turnaround sheet (four full-body views and three head portraits of one creature): blue-grey short fur, light grey-blue muzzle and belly, broad dark-blue nose, large dark eyes, very large ears with pink interiors, compact body, small claws, red harness with a metal ring; highest authority for the creature's design from every side. Show only ONE Stitch, never the multiple views or the grey sheet backdrop. File: references/scenes/scene-66/S66-Stitch-tatooine-sheet.png.
-Actual video controls the opening motion and physical state. Individual identity and vehicle-design images control their own subjects; action images are composition helpers, never replacement video endings.
+The @Image7 start frame controls the opening motion and physical state. Individual identity and vehicle-design images control their own subjects; action images are composition helpers, never replacement video endings.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA: one pale mature middle-aged man with a balding crown, sparse light-brown hair at the sides, broad familiar face and build. Exact face and proportions from @Image1; long deep-plum robe, thick folded scarf-like collar, black inner clothing and boots, hood down. Understated serious expression, purposeful moving body; do not beautify, age-shift, change the robe or blend his face with background residents.

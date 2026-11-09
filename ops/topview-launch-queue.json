@@ -5033,8 +5033,8 @@
       "scene_id": 52,
       "prompt_id": "S52-R2-SEED20-P7",
       "canonical_block_label": "52 · Wan 3.0 часть 7",
-      "canonical_prompt_sha256": "90b6d4ce8d404d8e929c0d0e92f29bbff20d654eed07c89a1f8e6b5734fcf46f",
-      "normalized_prompt_sha256": "86672556cd74fb9582bee42fad4b817785d6a97142557adf3687b0f755f6b296",
+      "canonical_prompt_sha256": "0dfc77ba488b121bb39bb4b92c00c6b26ccc61d27575d5ce2d558e7ee6b2b86a",
+      "normalized_prompt_sha256": "556502d2d128cbb314d11ab65c810e3c69a69ed17a076ce02d4c5380437cc846",
       "priority": 0.014,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
@@ -5049,31 +5049,22 @@
       "max_credits": 0,
       "references": [
         {
-          "slot": "@Video1",
+          "slot": "@Image7",
           "required": true,
           "input_status": "available",
-          "canonical_role": "previous_new_part_end",
+          "canonical_role": "exact final frame of S52-R2-SEED20-P6; the Part7 start frame",
           "source_item_id": "S52-R2-SEED20-P6",
-          "planned_path": "references/scenes/scene-52/S52-R2-P6-last3s.mp4",
           "source_task_id": "4c35bb617de143b39723924075b31c3d",
-          "filename": "S52-R2-P6-last3s.mp4",
-          "path": "references/scenes/scene-52/S52-R2-P6-last3s.mp4",
-          "sha256": "315e96d1696ad707518b330adccec0429963c87bfc7a372a09083d7df71f4549",
-          "bytes": 2271654,
-          "duration_seconds": 3,
+          "filename": "S52-R2-P6-final-frame.png",
+          "path": "references/scenes/scene-52/S52-R2-P6-final-frame.png",
+          "sha256": "98410f74e146a2ccbbf406d33b55f27973485125fbc69fc11a978b6dd2de8982",
+          "bytes": 1195325,
           "width": 1280,
           "height": 720,
-          "fps": 24,
-          "frames": 72,
-          "source_start_frame_zero_based": 289,
-          "source_end_frame_inclusive": 360,
-          "drive_file_id": "1o-wCLZjH4hwWz-bD41Yxx-WuWvk3vRqe",
-          "final_frame_sha256": "98410f74e146a2ccbbf406d33b55f27973485125fbc69fc11a978b6dd2de8982",
-          "final_frame_drive_file_id": "1q5CsRKXQ0Ly4F-CbSIcjv38biJXasjKx",
-          "final_frame_role": "qc_only",
-          "provenance_path": "references/scenes/scene-52/S52-R2-P6-last3s-20261109.json",
-          "qc_status": "pass",
-          "qc_note": "Continuity QC pass: Serega is seen from behind walking toward the first street, and that matches the P7 start."
+          "drive_file_id": "1q5CsRKXQ0Ly4F-CbSIcjv38biJXasjKx",
+          "ui_upload_order": "Image7 last, after Image1..Image6; the existing image order is unchanged",
+          "provenance_path": "references/scenes/scene-52/S52-R2-P6-final-frame-20261109.json",
+          "replaces": "@Video1 last 3 seconds"
         },
         {
           "slot": "@Image1",
@@ -5139,7 +5130,16 @@
       "revision_note_20261027_owner": "Владелец 27.10 «предложенные улучшения 52 вноси»: фирменные манёвры, вставки кабины, гиперпрыжок, два солнца; часть7 связана с 66→67.",
       "selected_model": "Wan 3.0",
       "model_selection_note_20261028": "Owner28Oct: street52P7/66–69 Wan3.0/30s. ID retained for dependencies; P1–P6 stay Seedance2.0. Real P6 end required; no new item.",
-      "revision_note_20261101_owner": "Владелец 01.11: добавлена отдельная развёртка Стича (@Image6, references/scenes/scene-66/S66-Stitch-tatooine-sheet.png); prompt SHA пересчитаны, запуска не было."
+      "revision_note_20261101_owner": "Владелец 01.11: добавлена отдельная развёртка Стича (@Image6, references/scenes/scene-66/S66-Stitch-tatooine-sheet.png); prompt SHA пересчитаны, запуска не было.",
+      "owner_authorization_t438u": {
+        "at": "2026-11-09T12:39:00Z",
+        "at_local": "15:39 Europe/Moscow",
+        "who": "Виталик",
+        "quote": "Вместо 3 секунд прошлого видео приложи его последний кадр и запускай, и для всех сцен связки также",
+        "previous_canonical_prompt_sha256": "90b6d4ce8d404d8e929c0d0e92f29bbff20d654eed07c89a1f8e6b5734fcf46f",
+        "canonical_prompt_sha256": "0dfc77ba488b121bb39bb4b92c00c6b26ccc61d27575d5ce2d558e7ee6b2b86a",
+        "chars": 5766
+      }
     },
     {
       "id": "S64-WAN30",
@@ -5287,7 +5287,8 @@
       "owner_launch_authorized_at": "2026-10-27T16:31:40Z",
       "result_review_required": true,
       "result_review_policy": "Check exact identities, the scene's gag as written (master «Режиссёрский контроль»), dynamic camera. Success is not acceptance.",
-      "created_at": "2026-10-27T16:31:40Z"
+      "created_at": "2026-10-27T16:31:40Z",
+      "wan_link_rule_t438u": "t438u: when this item is ready, replace @Video1 with the previous part's exact final-frame PNG as the last image slot and adapt the prompt the same way. Scene 66 must stay ≤7870 characters. Prompt not changed yet."
     },
     {
       "id": "S66-WAN30",
@@ -5416,7 +5417,8 @@
         "chars": 7722,
         "editor_limit_chars": 7870,
         "scope": "Remove redundancy only. Keep blocked_inputs until the real S52-R2-SEED20-P7 last 3 seconds exist."
-      }
+      },
+      "wan_link_rule_t438u": "t438u: when this item is ready, replace @Video1 with the previous part's exact final-frame PNG as the last image slot and adapt the prompt the same way. Scene 66 must stay ≤7870 characters. Prompt not changed yet."
     },
     {
       "id": "S67-WAN30",
@@ -5486,7 +5488,8 @@
       "result_review_required": true,
       "result_review_policy": "Check exact identities, the scene's gag as written (master «Режиссёрский контроль»), dynamic camera; seamless start from the previous link's real last frame. Success is not acceptance.",
       "created_at": "2026-10-27T16:31:40Z",
-      "revision_note_20261027_2030": "Owner27Oct20:25Z: END now hands off to scene68 (chain 52P7→66→67→68→69); prompt SHA refreshed."
+      "revision_note_20261027_2030": "Owner27Oct20:25Z: END now hands off to scene68 (chain 52P7→66→67→68→69); prompt SHA refreshed.",
+      "wan_link_rule_t438u": "t438u: when this item is ready, replace @Video1 with the previous part's exact final-frame PNG as the last image slot and adapt the prompt the same way. Scene 66 must stay ≤7870 characters. Prompt not changed yet."
     },
     {
       "id": "S68-WAN30",
@@ -5579,7 +5582,8 @@
       "owner_launch_authorized_at": "2026-10-27T20:25:32Z",
       "result_review_required": true,
       "result_review_policy": "Check exact identities, the scene's gag as written (master «Режиссёрский контроль»), dynamic camera; seamless start from the previous link's real last frame. Success is not acceptance.",
-      "created_at": "2026-10-27T20:25:32Z"
+      "created_at": "2026-10-27T20:25:32Z",
+      "wan_link_rule_t438u": "t438u: when this item is ready, replace @Video1 with the previous part's exact final-frame PNG as the last image slot and adapt the prompt the same way. Scene 66 must stay ≤7870 characters. Prompt not changed yet."
     },
     {
       "id": "S69-WAN30",
@@ -5672,7 +5676,8 @@
       "owner_launch_authorized_at": "2026-10-27T20:25:32Z",
       "result_review_required": true,
       "result_review_policy": "Check exact identities, the scene's gag as written (master «Режиссёрский контроль»), dynamic camera; seamless start from the previous link's real last frame. Success is not acceptance.",
-      "created_at": "2026-10-27T20:25:32Z"
+      "created_at": "2026-10-27T20:25:32Z",
+      "wan_link_rule_t438u": "t438u: when this item is ready, replace @Video1 with the previous part's exact final-frame PNG as the last image slot and adapt the prompt the same way. Scene 66 must stay ≤7870 characters. Prompt not changed yet."
     },
     {
       "id": "S70-WAN30",
@@ -5740,7 +5745,8 @@
       "authorization": "Owner28Oct: prepare continuous69→70→65 bridge, Wan3.0/30s. Unlimited0 only; no paid path, retry or launch by this edit.",
       "result_review_required": true,
       "result_review_policy": "Verify continuous real69→street→open doorway→table→65 handoffs, exact identities and prop motion. Success is not acceptance.",
-      "created_at": "2026-10-27T23:08:29Z"
+      "created_at": "2026-10-27T23:08:29Z",
+      "wan_link_rule_t438u": "t438u: when this item is ready, replace @Video1 with the previous part's exact final-frame PNG as the last image slot and adapt the prompt the same way. Scene 66 must stay ≤7870 characters. Prompt not changed yet."
     },
     {
       "id": "S49G",
@@ -7592,5 +7598,22 @@
       "owner_music_consent": true,
       "scope": "S49B only"
     }
+  },
+  "owner_policy_20261109_t438u": {
+    "at": "2026-11-09T12:39:00Z",
+    "at_local": "15:39 Europe/Moscow",
+    "who": "Виталик",
+    "quote": "Вместо 3 секунд прошлого видео приложи его последний кадр и запускай, и для всех сцен связки также",
+    "reason": "Topview Wan 3.0 with a video input caps duration at 27 seconds. The owner wants 30 seconds.",
+    "chain": [
+      "S52-R2-SEED20-P7",
+      "S66-WAN30",
+      "S67-WAN30",
+      "S68-WAN30",
+      "S69-WAN30",
+      "S70-WAN30",
+      "S65-WAN30"
+    ],
+    "rule": "Each Wan link uses the previous part's exact final-frame PNG instead of its last-3s video. Upload that PNG as the last image slot after the existing images. Adapt the prompt the same way when the item becomes ready. Scene 66 must stay at or under 7870 characters. Do not edit 66, 67, 68, 69, 70 or 65 until that previous frame exists."
   }
 }

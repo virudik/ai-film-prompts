@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "item_id": "S52-R2-SEED20-P7",
+  "slot": "@Image7",
+  "kind": "exact_final_frame_of_previous_part",
+  "not_a_generation": true,
+  "not_film_accepted": true,
+  "source_item_id": "S52-R2-SEED20-P6",
+  "source_task_id": "4c35bb617de143b39723924075b31c3d",
+  "ui_upload": "Last image slot Image7, after the existing Image1..Image6. Not a video input.",
+  "reason": "t438u: Wan 3.0 with a video input caps duration at 27s; the owner wants 30s, so the link is the exact final frame.",
+  "file": {
+    "filename": "S52-R2-P6-final-frame.png",
+    "path": "references/scenes/scene-52/S52-R2-P6-final-frame.png",
+    "sha256": "98410f74e146a2ccbbf406d33b55f27973485125fbc69fc11a978b6dd2de8982",
+    "bytes": 1195325,
+    "width": 1280,
+    "height": 720,
+    "drive_file_id": "1q5CsRKXQ0Ly4F-CbSIcjv38biJXasjKx"
+  },
+  "owner_orders": [
+    "t438u"
+  ]
+}
