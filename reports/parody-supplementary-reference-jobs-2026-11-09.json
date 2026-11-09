@@ -164,7 +164,7 @@
     79,
     80
   ],
-  "blocker": "Repeated native image generation returned a mismatched face, a multi-scene collage with a false completion banner, and another roaring logo instead of the required torch-curtain frame. Do not attach any of these. The supplied Vitalik face reference must be preserved by an actual identity-preserving edit path; current text-to-image path is not passing visual QC.",
+  "blocker": "Repeated ChatGPT native generation keeps producing a generic dark-haired, heavily stubbled man rather than the supplied Vitalik face-only reference (short light-brown hair, clean-shaven, grey-green eyes). It also keeps changing the required curtain/pedestal composition into a Roman torch portrait. Do not attach any of these. Need a true identity-preserving edit path with both the exact face source and target composition; this surface's text-to-image output is not passing QC.",
   "rejected_attempt_history": [
     {
       "generation_id": "f5e5fdec-4036-448a-aa02-ac8e838dd2f2",
@@ -252,6 +252,61 @@
       "published_as_reference": false,
       "requested_job": "S74-torch-curtain",
       "recorded_at": "2026-11-09T18:30:00Z"
+    },
+    {
+      "generation_id": "ad4bb55e-f135-4d3d-a7bf-bf92a33eaa32",
+      "file": "a_cinematic_hyper_realistic_high_detail_scene_a.png",
+      "sha256": "17d6dcfd9f44596ad688c2ca689dbdda993b94eb19094ef28c100da61be57e93",
+      "bytes": 2273295,
+      "status": "rejected",
+      "reason": "Generic dark-haired, stubbled roaring Roman figure; does not match face-only Vitalik source (short light-brown hair, clean-shaven, grey-green eyes). No curtain/pedestal staging; not attached.",
+      "published_as_reference": false,
+      "requested_job": "S74-torch-curtain",
+      "recorded_at": "2026-11-09T19:00:00Z"
+    },
+    {
+      "generation_id": "9ae1221d-bf2f-4660-83c8-47ec6ee185a0",
+      "file": "a_cinematic_highly_detailed_photorealistic_scene.png",
+      "sha256": "d32eb12bf7d3d22c8f0c0aab0b722361b99679eaef4fc751b37390ba2db3b530",
+      "bytes": 2266340,
+      "status": "rejected",
+      "reason": "Generic dark-haired, heavily stubbled face; not an identity-preserving edit of the supplied Vitalik face. Not attached.",
+      "published_as_reference": false,
+      "requested_job": "S74-torch-curtain",
+      "recorded_at": "2026-11-09T19:00:00Z"
+    },
+    {
+      "generation_id": "6b8d3bfc-ab84-4fd5-985c-32f7c6c6a309",
+      "file": "a_dramatic_cinematic_close_up_scene_the_same_adu.png",
+      "sha256": "6034c95df02cec00ea825e0bb0630f2a0bf181226a8d8f157fd6ee89c1f2e40d",
+      "bytes": 2346119,
+      "status": "rejected",
+      "reason": "Generic roaring male portrait with wrong hair/face/stubble; repeats failed logo-like composition, not the requested torch-curtain pedestal frame. Not attached.",
+      "published_as_reference": false,
+      "requested_job": "S74-torch-curtain",
+      "recorded_at": "2026-11-09T19:00:00Z"
+    },
+    {
+      "generation_id": "e62acbb0-4bb2-49aa-9d7d-6706cdcb2c60",
+      "file": "a_cinematic_high_detail_photo_like_scene_the_sam.png",
+      "sha256": "9ff6e3d8b2ac4565c991b4c9680246e2a89a368eda1eeb8659f4d1b517751b83",
+      "bytes": 2244405,
+      "status": "rejected",
+      "reason": "Generic dark-haired stubbled man, not matching the supplied Vitalik identity reference. Not attached.",
+      "published_as_reference": false,
+      "requested_job": "S74-torch-curtain",
+      "recorded_at": "2026-11-09T19:00:00Z"
+    },
+    {
+      "generation_id": "2e78dd0c-e73e-4156-9a04-417a974a854d",
+      "file": "a_cinematic_high_detail_scene_a_close_up_medium.png",
+      "sha256": "2aced406b3d5b835171c8fb9ebf35b27421a19da9fd3e9251511f3928d2150d5",
+      "bytes": 2366025,
+      "status": "rejected",
+      "reason": "Generic dark-haired stubbled man, no exact Vitalik identity. Not attached.",
+      "published_as_reference": false,
+      "requested_job": "S74-torch-curtain",
+      "recorded_at": "2026-11-09T19:00:00Z"
     }
   ],
   "last_execution": {
@@ -269,5 +324,5 @@
     "new_completeness_check": "scripts/check_parody_package.py"
   },
   "next_action": "Семь основных PNG и 21 промпт уже сохранены: не пересоздавать. Дополнительный S74-torch-curtain не получен: три новых ответа генератора дали другой рычащий логотип и отклонены. Сначала получить отдельный кадр факела с точным лицом Виталика в работающем одиночном редактировании; затем QC и PNG/SHA/manifest/master до следующего. Не активировать неверные лица/надписи; остальные семь дополнительных заданий остаются открытыми. Никакой процесс между сообщениями не выполняется.",
-  "last_attempt_at": "2026-11-09T18:30:00Z"
+  "last_attempt_at": "2026-11-09T19:00:00Z"
 }
