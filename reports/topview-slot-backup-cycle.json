@@ -3,52 +3,31 @@
   "project": "seregius",
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "1b25ff09-5190-4c53-8925-82607ce1698e",
-  "run_id": "f24d0617-68c0-832a-a556-749aa92f2aa8",
-  "runtime_run_id_source": "Automations.peek last_run.id in_progress scheduled_for 2026-11-09T09:00:00Z",
-  "source_head": "d3676d16bc8afd31115f2dccd9d2ad38cd91e968",
+  "execution_instance_id": "380ed1ce-b2e1-4571-a6fe-c01365eb6035",
+  "run_id": "1f4ab0a7-a820-8323-9b86-ce6cadfd9e6a",
+  "runtime_run_id_source": "Automations.peek current last_run.id, recorded_status=in_progress, scheduled_for=2026-11-09T10:00:00Z",
+  "source_head": "ed63d9356587e44201380f9405a887e289314cf1",
   "route_generation": 3,
-  "started_at": "2026-11-09T09:09:06.804369Z",
-  "receipt_started_at": "2026-11-09T09:17:31.778Z",
-  "phase": "complete",
-  "status": "completed",
+  "started_at": "2026-11-09T10:04:42.259208Z",
+  "receipt_started_at": "2026-11-09T10:11:39.307Z",
+  "phase": "started",
+  "status": "running",
   "scan": {
     "complete": false,
-    "source": "Fresh GitHub Topview robot telemetry; latest cycle is a light/partial scan; earlier complete scan is stale after new task",
-    "scope": "Latest robot scan mode light, 14 boards, 1 pages, 20 detailed tasks; prior complete account snapshot 2026-11-09T09:10:23Z with 14 boards and 644 tasks.",
-    "checked_at": "2026-11-09T09:20:35Z",
+    "source": "Topview read-only all-board scan performed, reconciliation pending",
     "boards": 14,
-    "pages": 1,
-    "video_tasks": 20,
-    "prior_complete_scan": {
-      "at": "2026-11-09T09:10:23Z",
-      "boards": 14,
-      "pages": 16,
-      "videos": 644,
-      "occupied": 2,
-      "free": 4
-    }
+    "pages": 18,
+    "video_tasks": 649
   },
   "slots": {
     "physical_capacity": 6,
     "occupied": null,
-    "free": null,
-    "latest_light_robot_observation": {
-      "occupied": 3,
-      "free": 3,
-      "checked_at": "2026-11-09T09:20:35Z",
-      "complete": false,
-      "active_task_ids": [
-        "0b6dfa84e4524b438075f10f7205a846",
-        "2d8efbd16f5146f48cd7a9a1ffb99369",
-        "a4a17134107445db8f328c0a3801d02e"
-      ]
-    }
+    "free": null
   },
-  "selected_item": "S62-SEED20-P1-R2-20261108",
+  "selected_item": null,
   "task_ids": [],
   "new_submissions": [],
-  "browser_transport": "not_used_existing_TinyFish_input_blocker_and_incomplete_current_reconciliation",
+  "browser_transport": "not_used",
   "tinyfish": {
     "runs": [],
     "steps": 0,
@@ -58,67 +37,23 @@
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:1b25ff09-5190-4c53-8925-82607ce1698e",
-    "acquired_at": "2026-11-09T09:16:50.748Z",
-    "expires_at": "2026-11-09T09:26:50.748Z",
-    "released_at": "2026-11-09T09:23:29.852Z",
-    "release_with_receipt_atomic": true
+    "holder": "chatgpt:ordinary:380ed1ce-b2e1-4571-a6fe-c01365eb6035",
+    "acquired_at": "2026-11-09T10:10:35.068Z",
+    "expires_at": "2026-11-09T10:20:35.068Z",
+    "released_at": null
   },
   "acceptance": {
     "scheduled_run_verified": true,
     "topview_read_only_scan_complete": false,
-    "robot_prior_complete_scan_observed": true,
     "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
     "new_task_id_verified": false,
     "production_submission_verified": false
   },
-  "outcome": "blocked_reconciliation_and_browser_input",
-  "blocker": {
-    "code": "blocked_reconciliation_and_browser_input",
-    "reason": "At 2026-11-09 09:20:35Z latest robot scan was partial (14 boards, 1 page), reports new init task a4a17134107445db8f328c0a3801d02e without a confirmed queue mapping; S60-P2 has a separate Grok submission intent (no taskID), so neither may be clicked again. Independently, TinyFish transport still lacks proven native transfer of exact images/3-second MP4 and selected Unlimited0. No new TinyFish run without new evidence.",
-    "retryable": true
-  },
-  "retryable": true,
-  "updated_at": "2026-11-09T09:23:29.852Z",
-  "checked_at": "2026-11-09T09:23:29.852Z",
-  "final_source_head": "07aa948206f44349a949e9adcf7e4566bf2abff4",
-  "queue_reconciliation": {
-    "queue_readiness_last_verified_before_concurrent_queue_mutation": true,
-    "latest_queue_checked_at": "2026-11-09T09:23:29.852Z",
-    "submitted_ids_in_queue": 23,
-    "submission_unknown": [
-      {
-        "id": "S49B",
-        "claim_id": "96d1c4a1-11da-4d5a-84ff-0b32db5791c2",
-        "intent_id": "e12e32cf-b8d6-4484-86ef-35acee6e4693"
-      }
-    ],
-    "submitting": [
-      {
-        "id": "S60-SEED20-P2",
-        "claim_id": "d94aef74-1c09-4a89-9bde-479ff0781459",
-        "intent_id": "cc3e35ce-e080-4c27-93c2-33875316018b",
-        "holder": "grok:14d30633-bfae-41b2-a9b8-0bf7fe0865e5"
-      }
-    ],
-    "new_unmapped_init_tasks": [
-      {
-        "task_id": "a4a17134107445db8f328c0a3801d02e",
-        "created_at": "2026-11-09 09:18:26",
-        "status": "init",
-        "unmatched": true
-      }
-    ],
-    "owner_tasks_open": 0,
-    "selected_item_state": "waiting_for_slot"
-  },
-  "work_preference": {
-    "preferred_executor": "work",
-    "route_generation": 3,
-    "work_capacity_state": "restored_verified",
-    "route_changed": false
-  },
-  "notes": "Did not assume the new init task belongs to S60; no Create, no claim, no retry. Preserve all other claims/retry controls and checkpoint."
+  "outcome": "in_progress",
+  "blocker": null,
+  "retryable": null,
+  "updated_at": "2026-11-09T10:11:39.307Z",
+  "checked_at": "2026-11-09T10:11:39.307Z"
 }
