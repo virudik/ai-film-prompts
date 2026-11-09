@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-09T15:33:23+00:00",
-  "source_head": "9df0ccb59b2c62356b95718beb3fde9867f33e61",
-  "source_fingerprint": "6e22392cc4c558157833e118d5f52b45d5df4530e6640fe2a383e61cd5fabef5",
+  "checked_at": "2026-11-09T15:35:48+00:00",
+  "source_head": "33a282f6fc38e8882c2c49eafdbe4f61929317ef",
+  "source_fingerprint": "c2e1c0a926c2ea85bc64bffe0d3b27ac3829ee5c4351c965b4996c14f5239990",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -170,7 +170,15 @@
     "Current capabilities; for a video submit use all-project slot scan, input/QC, Unlimited0 and CAS claim"
   ],
   "queue_recovery": {
-    "unresolved": [],
+    "unresolved": [
+      {
+        "item_id": "S66-STITCH-INDEP-WAN30",
+        "state": "submitting",
+        "task_id": null,
+        "recovery_action": "reconcile_without_resubmitting",
+        "submit_authorized": false
+      }
+    ],
     "existing_task_count": 84,
     "existing_tasks": [
       {
@@ -512,13 +520,6 @@
     ],
     "next_candidates": [
       {
-        "item_id": "S66-STITCH-INDEP-WAN30",
-        "state": "waiting_for_slot",
-        "task_id": null,
-        "recovery_action": "fresh_launch_preflight_required",
-        "submit_authorized": false
-      },
-      {
         "item_id": "S62-SEED20-P1-R2-20261108",
         "state": "waiting_for_slot",
         "task_id": null,
@@ -527,6 +528,13 @@
       },
       {
         "item_id": "S51E",
+        "state": "waiting_for_slot",
+        "task_id": null,
+        "recovery_action": "fresh_launch_preflight_required",
+        "submit_authorized": false
+      },
+      {
+        "item_id": "S51F",
         "state": "waiting_for_slot",
         "task_id": null,
         "recovery_action": "fresh_launch_preflight_required",
@@ -588,13 +596,13 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "9c07fe0dfc82e4aa394b6b93a3a9974a40e1815c0c09af899b8be7a75ff2e264",
-      "bytes": 385440
+      "sha256": "5c4c83e19a23ce849990d5647342ed982191c583dfc61642535f8282f3b10504",
+      "bytes": 388073
     },
     {
       "file": "project-status.json",
-      "sha256": "46227b457d8d77ba288f3600b6ff176f75ef458ea9f75ec1b1daf37ed6052f5a",
-      "bytes": 25831
+      "sha256": "b469d6457c5bc54bf0e921a8fda5ee331ab571217141ea03d42950df0b3aee5f",
+      "bytes": 25853
     },
     {
       "file": "reports/chat-handoff-save-2026-11-08.json",
@@ -618,13 +626,13 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "0500588816e87ce89a40ff682a700481270494b37e257d30d85eb48d20dc0411",
-      "bytes": 28473
+      "sha256": "6cb27d1c8829ef4ba5e49ca4d42391878961a6d2b49d9c43e613cc98f9fb70bc",
+      "bytes": 28481
     },
     {
       "file": "video-prompts.md",
-      "sha256": "9bfe42f2efc6b682abc3581057fbc3b331362d213e3d52ddfc5c7805d8cb06d2",
-      "bytes": 1493064
+      "sha256": "e662cc8a5fbbd19331fc6f72a38e6b939dd19b2f1bbc526f04d9f7176a8adf83",
+      "bytes": 1493511
     },
     {
       "file": "work-resume-register.json",
@@ -632,5 +640,5 @@
       "bytes": 100693
     }
   ],
-  "packet_bytes": 6466
+  "packet_bytes": 6523
 }
