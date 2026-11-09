@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:97af8af2-dc40-4815-b7cb-2a4e894c4a60",
-  "task": "Seregius HH:00 scheduled read-only Topview full scan; reconcile and receipt, no Create without all gates",
-  "acquired_at": "2026-11-09T07:49:39.473Z",
-  "expires_at": null,
-  "released_at": "2026-11-09T07:57:50.025Z",
+  "state": "held",
+  "holder": "cursor:bc-b6c53856-e99b-58a2-a5e3-54a898cb355c",
+  "task": "t410: archive non-live queue history so 48 and 52 intents fit",
+  "acquired_at": "2026-11-09T08:07:53Z",
+  "expires_at": "2026-11-09T08:27:53Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
