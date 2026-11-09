@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-09T19:08:57+00:00",
-  "source_head": "651d8d84c02464e88de6e14c8469096de79255bb",
-  "source_fingerprint": "98ec6f204097a715dda5837bac78f0c3d99f0d60312e338cce56bde08a328532",
+  "checked_at": "2026-11-09T19:09:34+00:00",
+  "source_head": "65b125e102462d93769599c6fee3f7c13b2a53a9",
+  "source_fingerprint": "94e79af9435403ff3ce0d3d0b453cd03ed180e31673fdaccadb6397d5c4b679f",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -241,8 +241,8 @@
     },
     {
       "file": "projects/raznoe/HANDOFF.md",
-      "sha256": "bad67ead456fc76543ccf9702e542acc0ceccfa097da46278046c255e1bae61d",
-      "bytes": 11886
+      "sha256": "f7700b6e8b4d53802a1d2914184119bccc9dfdf35ed2a482499ede504b95153a",
+      "bytes": 12761
     },
     {
       "file": "projects/raznoe/INSTRUCTIONS.md",
@@ -281,8 +281,8 @@
     },
     {
       "file": "projects/raznoe/work-resume-register.json",
-      "sha256": "e3f03fb808dc2c4471b3f8592d0b744ce8e1729671f45212a8f5d0ce48026e97",
-      "bytes": 25605
+      "sha256": "a91c4d7121039ea1349ae68ec03b2706d1c1628d79affb858742643eb65f1dbc",
+      "bytes": 26837
     },
     {
       "file": "shadow/current-checkpoint.md",
