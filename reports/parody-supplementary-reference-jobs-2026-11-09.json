@@ -164,7 +164,7 @@
     79,
     80
   ],
-  "blocker": "Current native image requests return a roaring logo rather than the specified torch frame, despite supplied source/face and an explicit single-frame description. Do not accept these outputs or repeat the unchanged request. Authenticated free browser fallback unavailable in this surface.",
+  "blocker": "Repeated native image generation returned a mismatched face, a multi-scene collage with a false completion banner, and another roaring logo instead of the required torch-curtain frame. Do not attach any of these. The supplied Vitalik face reference must be preserved by an actual identity-preserving edit path; current text-to-image path is not passing visual QC.",
   "rejected_attempt_history": [
     {
       "generation_id": "f5e5fdec-4036-448a-aa02-ac8e838dd2f2",
@@ -222,6 +222,36 @@
       "requested_job": "S74-torch-curtain",
       "reason": "Wrong scene and unverified generated face despite explicit one-person torch specification; not an acceptable replacement.",
       "recorded_at": "2026-11-09T17:58:56.359677+00:00"
+    },
+    {
+      "generation_id": "a0e549cf-d638-4512-8c38-6080eba19f03",
+      "sha256": "c4e6723b50e8d7b8165e8d9c4c6fa45895a9f990217093abbee3aed8f0d0ff09",
+      "bytes": 0,
+      "status": "rejected",
+      "reason": "Returned a close-up torch scene but the face did not match the supplied Vitalik face reference; dark wet-looking hair, heavy stubble and different facial proportions. Composition also omitted the required curtain/pedestal staging. Not attached.",
+      "published_as_reference": false,
+      "requested_job": "S74-torch-curtain",
+      "recorded_at": "2026-11-09T18:28:00Z"
+    },
+    {
+      "generation_id": "fbcd5e27-4425-4c88-94a8-597c2690af75",
+      "sha256": "2f90505b3f75f799c226c887895d68c989dec0dc1b3df56c1eff65d31cea0400",
+      "bytes": 0,
+      "status": "rejected",
+      "reason": "Returned a multi-scene collage with a false completion banner, not a standalone reference frame. Several faces did not match the supplied identity references. Not attached.",
+      "published_as_reference": false,
+      "requested_job": "S74-torch-curtain and parody package",
+      "recorded_at": "2026-11-09T18:29:00Z"
+    },
+    {
+      "generation_id": "bd9f3349-9250-4040-bda5-a1d71662d16c",
+      "sha256": "6e5f9a505df76eea6850d6cd3e49e2ac257f9bd66aa556116cf36a51e135a8d4",
+      "bytes": 0,
+      "status": "rejected",
+      "reason": "Returned another roaring film-logo portrait instead of the torch-curtain frame; face does not match the supplied Vitalik reference. Not attached.",
+      "published_as_reference": false,
+      "requested_job": "S74-torch-curtain",
+      "recorded_at": "2026-11-09T18:30:00Z"
     }
   ],
   "last_execution": {
@@ -238,5 +268,6 @@
     "browser_fallback": "Browser.list_tabs returned originating_browser_context_required",
     "new_completeness_check": "scripts/check_parody_package.py"
   },
-  "next_action": "Семь основных PNG и 21 промпт уже сохранены: не пересоздавать. Дополнительный S74-torch-curtain не получен: три новых ответа генератора дали другой рычащий логотип и отклонены. Сначала получить отдельный кадр факела с точным лицом Виталика в работающем одиночном редактировании; затем QC и PNG/SHA/manifest/master до следующего. Не активировать неверные лица/надписи; остальные семь дополнительных заданий остаются открытыми. Никакой процесс между сообщениями не выполняется."
+  "next_action": "Семь основных PNG и 21 промпт уже сохранены: не пересоздавать. Дополнительный S74-torch-curtain не получен: три новых ответа генератора дали другой рычащий логотип и отклонены. Сначала получить отдельный кадр факела с точным лицом Виталика в работающем одиночном редактировании; затем QC и PNG/SHA/manifest/master до следующего. Не активировать неверные лица/надписи; остальные семь дополнительных заданий остаются открытыми. Никакой процесс между сообщениями не выполняется.",
+  "last_attempt_at": "2026-11-09T18:30:00Z"
 }
