@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-09T08:19:31+00:00",
-  "source_head": "d06b5b1c33c937b362e5fc9bb21ee35bff8cdc1c",
-  "source_fingerprint": "08710d0d79ae361d8a4406e4e4ce8196085329c9d67936f8b546ca3b280cedb4",
+  "checked_at": "2026-11-09T08:20:43+00:00",
+  "source_head": "9cdad411e31a4f886192fcf198f230e4a5b87220",
+  "source_fingerprint": "21bae3b774315b4891bd0ab0dec8f64bebb94797cdab2c21b047bcafd57fabdd",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -174,6 +174,13 @@
       {
         "item_id": "S49B",
         "state": "submission_unknown",
+        "task_id": null,
+        "recovery_action": "reconcile_without_resubmitting",
+        "submit_authorized": false
+      },
+      {
+        "item_id": "S59-SEED20-P2-R2-20261108",
+        "state": "submitting",
         "task_id": null,
         "recovery_action": "reconcile_without_resubmitting",
         "submit_authorized": false
@@ -459,14 +466,14 @@
         "submit_authorized": false
       },
       {
-        "item_id": "S59-SEED20-P2-R2-20261108",
+        "item_id": "S60-SEED20-P2",
         "state": "waiting_for_slot",
         "task_id": null,
         "recovery_action": "fresh_launch_preflight_required",
         "submit_authorized": false
       },
       {
-        "item_id": "S60-SEED20-P2",
+        "item_id": "S61-SEED20-P2",
         "state": "waiting_for_slot",
         "task_id": null,
         "recovery_action": "fresh_launch_preflight_required",
@@ -528,12 +535,12 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "4bb5b277bf8a608447b72dc106cb9e7db12971c629c98779b3081031f568d673",
-      "bytes": 349991
+      "sha256": "3d8c21795975e04bdaea4e29f507b7f0103feab424d7dceaf4fc84554ffa6d71",
+      "bytes": 352431
     },
     {
       "file": "project-status.json",
-      "sha256": "be3c0a820b12939ad3d15fcff6a346b644e4257e2c29e6b5d3863aabfa39bf73",
+      "sha256": "e5f63a1d5a7e3b0ceaafe20d3310029fd7333670b54fcc34a8b0f194af78ddbe",
       "bytes": 23016
     },
     {
@@ -558,13 +565,13 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "86ee8b9cbd7a0d84a1c4e683eb9c115b91e96e3250edeb878c07d2fd7f12b2a6",
+      "sha256": "2e93bfb40401f624984bad02da4a501e22a311d783072fd922673eab860a2d7a",
       "bytes": 25543
     },
     {
       "file": "video-prompts.md",
-      "sha256": "bb879e068ff9dde8894c770601c321fc88ec448a858bffd6f22d6c449387d752",
-      "bytes": 1378329
+      "sha256": "2b481622124bccba035dccf7ad39db3f5a9a68fcbdb746c84b45b1bcbf41cfb5",
+      "bytes": 1378746
     },
     {
       "file": "work-resume-register.json",
@@ -572,5 +579,5 @@
       "bytes": 97604
     }
   ],
-  "packet_bytes": 6505
+  "packet_bytes": 6565
 }
