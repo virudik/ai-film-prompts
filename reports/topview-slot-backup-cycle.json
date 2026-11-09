@@ -4,18 +4,18 @@
   "source": "ChatGPT scheduled ordinary",
   "runner": "chatgpt_scheduled_task",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "99db272b-0278-4323-a297-319238e11cc3",
-  "holder": "chatgpt:ordinary:99db272b-0278-4323-a297-319238e11cc3",
-  "run_id": "9fff515f-8c74-832d-ba1b-74899a0588c6",
-  "runtime_run_id_source": "Automations.peek current last_run.id (in_progress)",
+  "execution_instance_id": "24f5a955-9977-4de2-a1a8-e4fc4ba99364",
+  "holder": "chatgpt:ordinary:24f5a955-9977-4de2-a1a8-e4fc4ba99364",
+  "run_id": "47ab2801-ac4c-8324-9e3d-7572d88875d0",
+  "runtime_run_id_source": "Automations.peek.last_run.id",
   "run_id_unavailable_reason": null,
-  "source_head": "994956a275620563ed2981a9bdb93f0f33d57f69",
+  "source_head": "7d74736f548a150c6bf517929ffada0eee098148",
   "route_generation": 3,
-  "started_at": "2026-11-09T01:58:58.264149Z",
-  "lease_acquired_at": "2026-11-09T02:10:11.113Z",
-  "receipt_started_recorded_at": "2026-11-09T02:11:15.126Z",
-  "phase": "finished",
-  "outcome": "blocked_browser_input",
+  "started_at": "2026-11-09T02:57:53.846359Z",
+  "lease_acquired_at": "2026-11-09T03:06:31.395Z",
+  "receipt_started_recorded_at": "2026-11-09T03:08:10.158Z",
+  "phase": "started",
+  "outcome": "in_progress",
   "scan": {
     "complete": true,
     "boards": 14,
@@ -27,31 +27,29 @@
       "fail": 26,
       "init": 3
     },
-    "checked_at": "2026-11-09T02:04:29.942Z",
-    "scope": "All 14 Topview boards, 18 filtered video-list pages; fresh read-only account-wide connector scan"
+    "scope": "14 boards / 18 filtered video pages via Topview connector; scanned this invocation",
+    "checked_at": "2026-11-09T03:08:10.158Z"
   },
   "slots": {
-    "capacity": 6,
     "occupied": 3,
     "free": 3,
+    "physical_capacity": 6,
     "active_task_ids": [
       "0b6dfa84e4524b438075f10f7205a846",
       "2d8efbd16f5146f48cd7a9a1ffb99369",
       "8a1982a55f794a049a62eaa91bf8827f"
-    ],
-    "complete_scan_verified": true
+    ]
   },
-  "selected_item": null,
+  "selected_item": "S62-SEED20-P1-R2-20261108",
   "new_submissions": [],
   "task_ids": [],
   "browser_transport": "not_used_existing_native_upload_blocker",
   "tinyfish": {
-    "used": false,
-    "run_ids": [],
+    "runs": [],
     "steps": 0,
     "estimated_cost_usd": 0,
     "confirmed_cost_usd": 0,
-    "not_run_reason": "No new evidence addressing native upload/Unlimited0 blocker from 2026-11-06. Repeating paid UI checks without new grounds forbidden. Wallet not checked; no paid run planned."
+    "wallet_spent_usd": 0
   },
   "acceptance": {
     "scheduled_run_verified": true,
@@ -67,37 +65,21 @@
     "code": "blocked_browser_input",
     "item_id": "S62-SEED20-P1-R2-20261108",
     "retryable": false,
-    "reason": "Verified 3 free physical slots; S62 P1 R2 is highest independent approved story item, but saved TinyFish profile cannot yet natively upload the real canonical 3-second MP4 and six exact image refs into Topview Omni-reference, or confirm selected Unlimited0 on same board. No Create.",
-    "evidence": "ops/slot-backup.json#tinyfish_fallback.latest_blocker (2026-11-06T18:08:08Z)"
+    "reason": "Native TinyFish Omni-reference input file transfer of six canonical images and a real 3-second MP4, and Unlimited0, remain unverified; repeated paid test without new evidence forbidden",
+    "evidence": "ops/slot-backup.json#tinyfish_fallback.latest_blocker"
   },
   "owner_tasks": "checked_open_0",
   "queue_reconciliation": {
-    "source_queue_sha256": "34df7b3b62ec760259f77e89f8d652035d2f43fc0b0be67810c2eb5597d0f50f",
-    "source_task_map_sha256": "6a947944bcf45b1fdf1f65f3f250f4f3c78925306fccfa74759d640a99c891ad",
-    "hashes_independently_recomputed_and_match": true,
-    "submitted_count": 20,
-    "submitted_found": 20,
+    "queue_readiness_sha256_match": true,
+    "task_map_sha256_match": true,
+    "submitted_ids_found": 20,
+    "submitted_ids_missing": 0,
     "submission_unknown": [
-      {
-        "id": "S49B",
-        "submission_intent_id": "e12e32cf-b8d6-4484-86ef-35acee6e4693",
-        "replay_forbidden": true
-      }
+      "S49B"
     ],
-    "foreign_claims": [
-      {
-        "id": "S48-SEED20-P2-R2-20261108",
-        "holder": "grok",
-        "submission_intent_id": null
-      }
-    ],
-    "owner_music_consent_required": [
-      28,
-      49,
-      50,
-      51
-    ],
-    "continuity_refs_preserved": true
+    "other_claimed": [
+      "S48-SEED20-P2-R2-20261108"
+    ]
   },
   "monitor": {
     "launcher_health_state": "reconciliation_required",
@@ -110,14 +92,13 @@
     "relay_last_run_id": "509e541b-c5dc-8326-8a83-76ff1f5539a5"
   },
   "lease": {
-    "holder": "chatgpt:ordinary:99db272b-0278-4323-a297-319238e11cc3",
-    "acquired_at": "2026-11-09T02:10:11.113Z",
-    "expires_at": "2026-11-09T02:22:11.113Z",
-    "release_with_receipt_atomic": true,
-    "released_at": "2026-11-09T02:14:07.881Z"
+    "holder": "chatgpt:ordinary:24f5a955-9977-4de2-a1a8-e4fc4ba99364",
+    "acquired_at": "2026-11-09T03:06:31.395Z",
+    "expires_at": "2026-11-09T03:26:31.396Z",
+    "release_with_receipt_atomic": false
   },
-  "checked_at": "2026-11-09T02:14:07.881Z",
-  "completed_at": "2026-11-09T02:14:07.881Z",
+  "checked_at": "2026-11-09T03:08:10.158Z",
+  "completed_at": null,
   "next_ready_candidate": "S62-SEED20-P1-R2-20261108",
   "retryable": false
 }
