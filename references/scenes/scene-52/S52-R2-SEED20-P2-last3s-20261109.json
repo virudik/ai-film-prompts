@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "item_id": "S52-R2-SEED20-P3",
+  "slot": "@Video1",
+  "kind": "self_trim_of_existing_original",
+  "not_a_generation": true,
+  "not_film_accepted": true,
+  "source_item_id": "S52-R2-SEED20-P2",
+  "source_task_id": "47804d4f777e4613b6187a7bff6e0dd0",
+  "source_task_final_status": "success",
+  "full_original": {
+    "sha256": "5deba555480b6bf52766a9077297b280a5e73557e914dcdecfd9913189fcc7d3",
+    "video_duration_seconds": 15.041667,
+    "video_frames": 361,
+    "rehashed_here": false
+  },
+  "trim": {
+    "filename": "S52-R2-SEED20-P2-last3s.mp4",
+    "path": "references/scenes/scene-52/S52-R2-SEED20-P2-last3s.mp4",
+    "sha256": "d6435759c9f6fa54902b57f3e4ca8ea267bd93898a0c181fc07ff73d4ab9d980",
+    "bytes": 1795068,
+    "drive_file_id": "1otvVoP-Jo66vgY0y6feorQzSBmFobYmJ",
+    "drive_name": "S52-R2-SEED20-P2-last3s.mp4",
+    "codec": {
+      "video": "h264",
+      "audio": "aac",
+      "width": 1280,
+      "height": 720,
+      "fps": 24,
+      "frames": 72,
+      "duration_seconds": 3.0
+    },
+    "source_frames_inclusive": [
+      289,
+      360
+    ],
+    "reported_by": "parent self-trim of task 47804d4f777e4613b6187a7bff6e0dd0"
+  },
+  "independent_check": {
+    "method": "Downloaded the Drive file and hashed the bytes. ffprobe read the container. The full original was not on this machine, so its SHA and the frame window were not recomputed here.",
+    "drive_file_id": "1otvVoP-Jo66vgY0y6feorQzSBmFobYmJ",
+    "trim_sha_match": true,
+    "bytes": 1795068,
+    "ffprobe": {
+      "video": "h264",
+      "audio": "aac",
+      "width": 1280,
+      "height": 720,
+      "fps": "24/1",
+      "frames": 72,
+      "duration_seconds": 3.0
+    }
+  },
+  "parent_review": {
+    "scope": "executor compared the last frame with the P3 START STATE",
+    "reported": "The last frame is the exit outside, past the cruiser, after leaving the hangar, and matches the P3 START STATE.",
+    "not_claimed": [
+      "owner_film_acceptance",
+      "full_original_rehashed_here"
+    ]
+  },
+  "prompt_sha256_unchanged": "bdfd1c0b25537dd45273493e9fe5352432762fd7c9afeaaef3b49cb92fe51ff2",
+  "images_unchanged": true,
+  "budget_unchanged": 1
+}
