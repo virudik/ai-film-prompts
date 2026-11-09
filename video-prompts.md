@@ -8379,17 +8379,17 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 ## Сцена 67 — Татуинская связка 3/7 · Маша Р яростно спорит с продавцом фруктов
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[{"type":"continues","scene":66}],"tags":["tatooine","market","visual_comedy","dialogue_ru","owner_requested","chain_52_66_67"]} -->
-**🎬 Татуинская связка — 3/7.** [52 ч.7 · 1/7](#tatooine-chain-start) → [66 · 2/7](#scene-66) → [67 · 3/7](#scene-67) → [68 · 4/7](#scene-68) → [69 · 5/7](#scene-69) → [70 · 6/7](#scene-70) → [65 · 7/7](#scene-65). **Выбранный запуск:** Wan 3.0, 30 с, S67-WAN30; @Video1 — настоящий финал предыдущего звена (до его готовности запуск заблокирован). **Кликабельные референсы:** [@Image1 — Маша](references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png) · [@Image2 — продавец](references/scenes/scene-67/S67-vendor.png) · [@Image3 — фруктовый прилавок](references/scenes/scene-67/S67-fruit-stall.png). Изображения не заменяют настоящий видеостык.
+**🎬 Татуинская связка — 3/7.** [52 ч.7 · 1/7](#tatooine-chain-start) → [66 · 2/7](#scene-66) → [67 · 3/7](#scene-67) → [68 · 4/7](#scene-68) → [69 · 5/7](#scene-69) → [70 · 6/7](#scene-70) → [65 · 7/7](#scene-65). **Выбранный запуск:** Wan 3.0, 30 с, S67-WAN30; @Image4 — точный последний кадр предыдущего звена, не видео (до его готовности запуск заблокирован). **Кликабельные референсы:** [@Image1 — Маша](references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png) · [@Image2 — продавец](references/scenes/scene-67/S67-vendor.png) · [@Image3 — фруктовый прилавок](references/scenes/scene-67/S67-fruit-stall.png). Изображения не заменяют настоящий видеостык.
 
-**Контекст использования:** владелец 27.10.2026. **Связка 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65, бесшовно:** начинается с настоящих последних 3 с сцены 66, где камера остановилась на прилавке. Маша Р — по индивидуальной татуинской развёртке, созданной по фото владельца.
+**Контекст использования:** владелец 27.10.2026. **Связка 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65, бесшовно:** начинается с точного последнего кадра сцены 66, не с видео, где камера остановилась на прилавке. Маша Р — по индивидуальной татуинской развёртке, созданной по фото владельца.
 
 **Что происходит:** Девушка у прилавка с инопланетными фруктами держит голубую дыню. Четырёхрукий продавец называет цену, показывая пальцы на всех руках. Девушка взрывается: «Сколько?! Да это грабёж! Вчера было в два раза дешевле!» и грохает дыню на прилавок. Начинается настоящий скандал: продавец орёт на своём языке и лупит по весам, она тычет в помятый бок дыни: «Они же мятые! Ты сам посмотри!», оба кричат друг на друга нос к носу, прохожие останавливаются поглазеть. Девушка хватает сумку: «Всё, к соседу пойду!» — продавец двумя руками закидывает ей в сумку лишние фрукты, двумя другими умоляет остаться. Она швыряет на прилавок меньше монет: «И то много!» — забирает ту же голубую ребристую дыню с прилавка, поддерживает её у корпуса одной рукой, надевает длинную лямку сумки на левое плечо и уходит, продолжая ругаться через плечо; продавец орёт ей вслед, потом расплывается в улыбке перед следующим покупателем.
 
 **Реплика:** «Сколько?! Да это грабёж! Вчера было в два раза дешевле!» · «Они же мятые! Ты сам посмотри!» · «Всё, к соседу пойду!» · «И то много!» — девушка, на русском; продавец отвечает на инопланетном языке.
 
-**Готовность:** DRAFT. Главная версия — Wan3.0,30с. Изображения и их роли закреплены в манифесте; запуск ждёт настоящие последние3с результата66 и QC стыка. Связка 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65 идёт до музыкальных и танцевальных номеров49–51/28 по приоритету; правило следующей фактически готовой сцены сохраняется. Новые видеозапуски и художественная приёмка этой правкой не выполняются.
+**Готовность:** DRAFT. Главная версия — Wan3.0,30с. Изображения и их роли закреплены в манифесте; запуск ждёт точный последний кадр результата66 и QC стыка. Связка 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65 идёт до музыкальных и танцевальных номеров49–51/28 по приоритету; правило следующей фактически готовой сцены сохраняется. Новые видеозапуски и художественная приёмка этой правкой не выполняются.
 
-**Референсы:** @Video1 — последние 3 с 66 (`references/scenes/scene-66/S66-last3s.mp4`, вырезать из настоящего результата); @Image1 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png` (Маша Р: развёртка в одежде Татуина); @Image2 — `references/scenes/scene-67/S67-vendor.png` (Продавец: четырёхрукий инопланетянин); @Image3 — `references/scenes/scene-67/S67-fruit-stall.png` (Прилавок с инопланетными фруктами).
+**Референсы:** @Image4 — точный последний кадр 66 (`references/scenes/scene-66/S66-final-frame.png`, не видео; снять с настоящего результата); @Image1 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png` (Маша Р: развёртка в одежде Татуина); @Image2 — `references/scenes/scene-67/S67-vendor.png` (Продавец: четырёхрукий инопланетянин); @Image3 — `references/scenes/scene-67/S67-fruit-stall.png` (Прилавок с инопланетными фруктами).
 
 **Режиссёрский контроль:** Связка: начало — конец 66 (прилавок). Ругань очень бурная, но без насилия. Маша Р — строго по её индивидуальной развёртке из фото владельца, с сохранением возраста.
 
@@ -8406,14 +8406,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **30с · Wan3.0 / Seedance2.5 — один общий текст.** Главная версия — Wan3.0.
 
-**Входы:** @Video1 — последние 3 с настоящего результата 66 (`references/scenes/scene-66/S66-last3s.mp4`, вырезать при запуске); @Image1 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png` (Маша Р: развёртка в одежде Татуина); @Image2 — `references/scenes/scene-67/S67-vendor.png`; @Image3 — `references/scenes/scene-67/S67-fruit-stall.png`.
+**Входы:** @Image4 — точный последний кадр настоящего результата 66 (`references/scenes/scene-66/S66-final-frame.png`, не видео); @Image1 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png` (Маша Р: развёртка в одежде Татуина); @Image2 — `references/scenes/scene-67/S67-vendor.png`; @Image3 — `references/scenes/scene-67/S67-fruit-stall.png`.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action space-opera cinema, dynamic comedy
 
 REFERENCES / AUTHORITY ORDER:
-@Video1 — THIS chain's previous shot: the actual last 3 seconds of scene 66, ending on this fruit stall. File: references/scenes/scene-66/S66-last3s.mp4 (cut from the real result at launch). Absolute authority for the starting frame, positions, camera, light and ongoing motion. Continue it seamlessly; never restart or replay.
+@Image4 — THIS chain's previous shot: the exact final frame of scene 66 (Wan 3.0), ending on this fruit stall. File: references/scenes/scene-66/S66-final-frame.png (taken from the real result at launch). This is a still frame, not a video. Absolute authority for the starting frame, positions, camera and light. Start exactly from it and continue the motion seamlessly; never restart.
 @Image1 — exact MASHA R: face, long wavy auburn hair with bangs, age and Tatooine costume from her individual sheet; highest identity authority. File: references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.
 @Image2 — exact alien vendor design: four arms, face, skin, apron; highest authority for the vendor. File: references/scenes/scene-67/S67-vendor.png.
 @Image3 — market stall geography, fruit designs and light; same town as scene 52. File: references/scenes/scene-67/S67-fruit-stall.png.
@@ -8427,7 +8427,7 @@ LOCATION / STORY LOCK — CRITICAL:
 One fruit stall from @Image3 in the same Tatooine town as scene 52, harsh light of twin suns. The counter stays between them the whole time. The argument is loud, fast and furious but harmless: shouting, slapping the counter, waving arms; no hitting, no throwing things at each other, no weapons. Coins change hands once. The vendor always has exactly four arms. The girls with Stitch from scene 66 are already gone. Masha has ONE brown satchel with a long strap, matching her individual sheet. It starts on her left shoulder; the vendor adds the orange pods into this same bag. Do not create a second shopping bag. The same pale-blue ribbed melon stays separate from the bag.
 
 START STATE:
-Begin on the exact final frame of @Video1 (end of scene 66): the camera rests on the fruit stall; Masha R holds a pale-blue ribbed melon; the vendor raises fingers on all four hands. Continue with no reset.
+Begin on the exact frame @Image4 (final frame of scene 66, not a video): the camera rests on the fruit stall; Masha R holds a pale-blue ribbed melon; the vendor raises fingers on all four hands. Continue with no reset.
 
 TIMELINE:
 [0:00–0:04] THE PRICE — 35mm over-shoulder on the counter: the vendor proudly shows the price on all four hands; her eyes go wide.

@@ -5316,7 +5316,7 @@
       "canonical_prompt_sha256": "f08ebb094821dbda5c26867ed95513a952e9dbfba89c7b064e850284c07758fe",
       "normalized_prompt_sha256": "86afaa95f8a0181ee480dd051090416b6e9c5246c948db5af54aa1b9a6ee9817",
       "priority": 0.015,
-      "state": "submitting",
+      "state": "submitted",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "selected_model": "Wan 3.0",
@@ -5326,7 +5326,7 @@
       "aspect_ratio": "16:9",
       "quantity": 1,
       "mode": "omni_reference",
-      "max_new_submissions": 1,
+      "max_new_submissions": 0,
       "max_credits": 0,
       "depends_on_submitted": [],
       "depends_on_completed": [
@@ -5410,62 +5410,8 @@
           "qc_note": "Girls walking away with Stitch on a leash, camera behind, Tatooine market. Matches the S66 start."
         }
       ],
-      "task_id": null,
-      "claim": {
-        "claim_id": "7f8ee21b-e14f-4d73-a3d9-4c9bf83f280e",
-        "claimed_at": "2026-11-09T13:23:58Z",
-        "claimed_by": "grok",
-        "execution_instance_id": "9b31ebb6-0374-4f9d-97ce-2dff14fd76ab",
-        "route_generation": 3,
-        "lease_holder": "grok:9b31ebb6-0374-4f9d-97ce-2dff14fd76ab",
-        "lease_acquired_at": "2026-11-09T13:23:58Z",
-        "source": "cursor_host standing command t413u-20261109",
-        "canonical_prompt_sha256": "f08ebb094821dbda5c26867ed95513a952e9dbfba89c7b064e850284c07758fe",
-        "normalized_prompt_sha256": "86afaa95f8a0181ee480dd051090416b6e9c5246c948db5af54aa1b9a6ee9817",
-        "preflight": {
-          "owner_authorized": true,
-          "prompt_match": true,
-          "input_sha_match": true,
-          "input_order_match": true,
-          "qc_passed": true,
-          "website_unlimited": true,
-          "credits_cost": 0,
-          "numeric_zero_displayed": false,
-          "unlimited_mode_selected": true,
-          "credits_cost_evidence": "selected_free_unlimited_current_form",
-          "ui_unlimited_label": "Безлимитный режим — бесплатно",
-          "paid_18_credit_mode_selected": false,
-          "paid_credit_mode_selected": false,
-          "quantity": 1,
-          "resolution": 720,
-          "aspect_ratio": "16:9"
-        },
-        "submission_intent_id": "ac6e5961-88c8-419e-a3f4-9bbec417611f",
-        "submission_intent_at": "2026-11-09T13:23:58Z",
-        "replay_forbidden": true,
-        "host_run": {
-          "namespace": "cursor_host",
-          "observation_source": "parent_shell_os_environ",
-          "field": "CURSOR_REQUEST_ID",
-          "value": "2a912683-b2f2-47d1-adcd-bcfaa9ee7731",
-          "conversation_field": "CURSOR_CONVERSATION_ID",
-          "conversation_id": "1c1bf697-3c93-4068-b457-e90efdd5ef8f",
-          "standing_command_id": "t413u-20261109"
-        },
-        "provider_run_key": "aebcc0fdd036f2b057ca12c7b93c212d1964773c60ba26a95ea76118806d4ea8",
-        "owner_event_keys": [
-          "1292f347aa40a41973540e33418ca5b1fafde6a68b365e0ee122f8e001d345f8"
-        ],
-        "ledger_path": "ops/launcher-run-ledger.json",
-        "trigger": "owner_command",
-        "owner_command": {
-          "quote": "Говорю запускай значит запускай. Зачем спрашивать по 10 раз если есть уже согласованная очередь запуска",
-          "source": "cursor_host",
-          "at": "2026-11-09T09:25:00+01:00",
-          "standing_command_id": "t413u-20261109",
-          "standing_host_address": "t413u"
-        }
-      },
+      "task_id": "4aaca9143ee14b7d81220223974e4569",
+      "claim": null,
       "blocker": null,
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
@@ -5510,6 +5456,17 @@
         "canonical_prompt_sha256": "f08ebb094821dbda5c26867ed95513a952e9dbfba89c7b064e850284c07758fe",
         "chars": 7739,
         "editor_limit_chars": 7870
+      },
+      "submitted_at": "2026-11-09T13:24:48Z",
+      "max_new_submissions_consumed": 1,
+      "receipt": "reports/topview-queue-2026-10-16/S66-WAN30-20261109T132448Z.json",
+      "last_claim": {
+        "claim_id": "7f8ee21b-e14f-4d73-a3d9-4c9bf83f280e",
+        "claimed_at": "2026-11-09T13:23:58Z",
+        "execution_instance_id": "9b31ebb6-0374-4f9d-97ce-2dff14fd76ab",
+        "submission_intent_id": "ac6e5961-88c8-419e-a3f4-9bbec417611f",
+        "archive_file": "reports/topview-queue-2026-10-16/S66-WAN30-20261109T132448Z.json",
+        "archive_sha256": "9bc8b06b178ec723fa2aa2521c7291431cda127132cb8e3b8c6195a149b185ba"
       }
     },
     {
@@ -5517,8 +5474,8 @@
       "scene_id": 67,
       "prompt_id": "S67-WAN30",
       "canonical_block_label": "67",
-      "canonical_prompt_sha256": "9da63d8b1aaff61439418defbf527b2787770758945db78dbf62041b442989da",
-      "normalized_prompt_sha256": "b3f758706e285a04a74c1519dca474a55a5ca4893ce2e7eeedc2852ea0fadb8e",
+      "canonical_prompt_sha256": "2ae56e0b2c0a93ca90ba4d045bbcc103d80a68abbb5b429f6bfa3d40801b675b",
+      "normalized_prompt_sha256": "744c99c99813a4b7e80398d3b60f5a8ecb31cce21112a85cffa68c9558c23676",
       "priority": 0.016,
       "state": "blocked_inputs",
       "launch_readiness": "blocked_continuity",
@@ -5537,14 +5494,6 @@
         "S66-WAN30"
       ],
       "references": [
-        {
-          "slot": "@Video1",
-          "required": true,
-          "input_status": "pending_actual_result",
-          "canonical_role": "previous_chain_link_end",
-          "source_item_id": "S66-WAN30",
-          "planned_path": "references/scenes/scene-66/S66-last3s.mp4"
-        },
         {
           "slot": "@Image1",
           "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
@@ -5568,11 +5517,22 @@
           "required": true,
           "input_status": "available",
           "canonical_role": "Татуин: прилавок с инопланетными фруктами"
+        },
+        {
+          "slot": "@Image4",
+          "required": true,
+          "input_status": "pending_actual_result",
+          "canonical_role": "exact final frame of S66-WAN30; the S67 start frame, not a video",
+          "source_item_id": "S66-WAN30",
+          "source_task_id": "4aaca9143ee14b7d81220223974e4569",
+          "planned_path": "references/scenes/scene-66/S66-final-frame.png",
+          "ui_upload_order": "Image4 last, after Image1..Image3",
+          "replaces": "@Video1 last 3 seconds"
         }
       ],
       "task_id": null,
       "claim": null,
-      "blocker": "Await actual S66-WAN30 success, archive its original, cut its true last 3 s to references/scenes/scene-66/S66-last3s.mp4 and pass continuity QC. All required image files are present; real video continuity is still pending.",
+      "blocker": "Await actual S66-WAN30 success and its exact final-frame PNG at references/scenes/scene-66/S66-final-frame.png. Do not use a last-3s video. Pass continuity QC before launch.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
       "authorization": "Owner27Oct2026: 64–69 queued after63, before49–51/28; chain52P7→66→67→68→69 in order. One free Unlimited render; no paid path or retry.",
@@ -5581,7 +5541,15 @@
       "result_review_policy": "Check exact identities, the scene's gag as written (master «Режиссёрский контроль»), dynamic camera; seamless start from the previous link's real last frame. Success is not acceptance.",
       "created_at": "2026-10-27T16:31:40Z",
       "revision_note_20261027_2030": "Owner27Oct20:25Z: END now hands off to scene68 (chain 52P7→66→67→68→69); prompt SHA refreshed.",
-      "wan_link_rule_t438u": "t438u: when this item is ready, replace @Video1 with the previous part's exact final-frame PNG as the last image slot and adapt the prompt the same way. Scene 66 must stay ≤7870 characters. Prompt not changed yet."
+      "wan_link_rule_t438u": "t438u: when this item is ready, replace @Video1 with the previous part's exact final-frame PNG as the last image slot and adapt the prompt the same way. Scene 66 must stay ≤7870 characters. Prompt not changed yet.",
+      "owner_authorization_t438u_s67": {
+        "rule": "t438u",
+        "prepared_at": "2026-11-09T13:25:39Z",
+        "note": "Continuity input is the final frame of S66 as the last image slot. The prompt says that start reference is a still frame, not a video. Stays blocked until S66 succeeds.",
+        "canonical_prompt_sha256": "2ae56e0b2c0a93ca90ba4d045bbcc103d80a68abbb5b429f6bfa3d40801b675b",
+        "chars": 5888,
+        "editor_limit_chars": 7870
+      }
     },
     {
       "id": "S68-WAN30",
