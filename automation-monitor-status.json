@@ -131,7 +131,8 @@
       "result:0b6dfa84e4524b438075f10f7205a846",
       "result:2d8efbd16f5146f48cd7a9a1ffb99369",
       "result:7f3aba2b4e1b42b69b9871c5b8e4c08b",
-      "result:94d2ef4fbb7a42a3bee7c112dbc232cc"
+      "result:94d2ef4fbb7a42a3bee7c112dbc232cc",
+      "unmapped:5dbf6f87306a4f2f958781935894aaca"
     ],
     "robot_wake_keys": [
       "result:56e5e07c85df4af583c62665c51ed563",
@@ -183,7 +184,7 @@
   },
   "phases": {
     "topview": {
-      "checked_at": "2026-11-09T10:16:23Z",
+      "checked_at": "2026-11-09T10:30:24Z",
       "source": "robot; число слотов — topview-status.json"
     },
     "deep_audit": {
@@ -199,22 +200,19 @@
       "blocking": false
     }
   },
-  "health": "ok",
+  "health": "degraded",
   "last_scheduled_cycle": {
-    "started_at": "2026-11-09T10:16:34Z",
-    "completed_at": "2026-11-09T10:16:34Z",
-    "health": "ok",
+    "started_at": "2026-11-09T10:30:27Z",
+    "completed_at": "2026-11-09T10:30:27Z",
+    "health": "degraded",
     "phases_completed": [
-      "role_check",
-      "topview_scan_api",
-      "task_map_master_consistency",
-      "telemetry_publish",
-      "project_status_health_ok",
-      "checkpoint_last"
+      "topview_scan"
     ],
-    "phases_missing": [],
+    "phases_missing": [
+      "telemetry_publish"
+    ],
     "runner": "robot_scheduled_task",
-    "note": "GitHub robot: 0 из 6 слотов занято, новых 0, завершено 2."
+    "note": "hold: unmapped_active:5dbf6f87"
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -273,7 +271,7 @@
       "checked_at": "2026-10-13T19:02:02.187Z"
     }
   },
-  "last_completed_cycle_at": "2026-11-09T10:16:34Z",
+  "last_completed_cycle_at": "2026-11-09T10:30:27Z",
   "last_successful_cycle_at": "2026-11-09T10:16:34Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
@@ -289,7 +287,7 @@
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-11-09T10:16:34Z"
+    "robot": "2026-11-09T10:30:27Z"
   },
   "last_successful_cycle_runner": "robot_scheduled_task",
   "last_successful_by_runner": {
