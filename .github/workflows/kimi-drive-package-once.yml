@@ -1,4 +1,5 @@
 name: Export Kimi onboarding snapshot once
+# Owner-requested refresh 09.11.2026. This existing export branch is NOT merged to main.
 on:
   push:
     branches: [handoff/kimi-drive-20261101]
@@ -12,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
         with:
-          ref: 632ea330a6fea5dc8dba0829c6c459bf9ef97245
+          ref: 50afad23503c6a61b8b6f860604b077862a0f613
           fetch-depth: 1
           persist-credentials: false
       - name: Export exact source and checksums without modifying main
@@ -23,7 +24,7 @@ jobs:
           from datetime import datetime,timezone
           out=Path('/tmp/kimi-package');out.mkdir()
           head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
-          assert head=='632ea330a6fea5dc8dba0829c6c459bf9ef97245'
+          assert head=='50afad23503c6a61b8b6f860604b077862a0f613'
           media_ext={'.png','.jpg','.jpeg','.webp','.gif','.mp4','.mov','.mp3','.wav','.webm','.m4a','.ogg'}
           excluded_ext={'.ttf','.otf','.woff','.woff2','.pfx','.p12','.pem','.key'}
           names=sorted(filter(None,subprocess.check_output(['git','ls-files','-z']).decode().split('\0')))
