@@ -5953,6 +5953,113 @@
       }
     },
     {
+      "id": "S66-STITCH-INDEP-WAN30",
+      "scene_id": 66,
+      "prompt_id": "S66-STITCH-INDEP-WAN30",
+      "canonical_block_label": "66 · independent girls-and-Stitch walk",
+      "canonical_prompt_sha256": "538ba2a81dd0a67a05241a51cd1581d3a91783d3bb84b43232678f6ccd653ea8",
+      "normalized_prompt_sha256": "ee5b1ab5ef2cb1e8d9352466a770b444ff335d270b8547737e8b42dadb799427",
+      "prompt_path": "ops/prompts/S66-STITCH-INDEP-WAN30.txt",
+      "prompt_chars": 7837,
+      "editor_limit_chars": 7870,
+      "priority": 0.021,
+      "launch_band_note": "Not in the Tatooine chain. Unlinked story, so it launches after ready chain items including S70.",
+      "state": "waiting_for_slot",
+      "launch_readiness": "authorized_inputs_available",
+      "model": "Wan 3.0",
+      "selected_model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "required": true,
+          "input_status": "available",
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+          "bytes": 1989143,
+          "canonical_role": "Алина: развёртка в одежде Татуина"
+        },
+        {
+          "slot": "@Image2",
+          "required": true,
+          "input_status": "available",
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
+          "bytes": 2045183,
+          "canonical_role": "Даша: развёртка в одежде Татуина"
+        },
+        {
+          "slot": "@Image3",
+          "required": true,
+          "input_status": "available",
+          "path": "references/scenes/scene-66/S66-street-outrage.png",
+          "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+          "bytes": 2654214,
+          "canonical_role": "Стич: поза, шлейка и поводок; улица"
+        },
+        {
+          "slot": "@Image4",
+          "required": true,
+          "input_status": "available",
+          "path": "references/scenes/scene-67/S67-fruit-stall.png",
+          "sha256": "2426a8c3c5aad85b7262d5df30a168e31cef6fdd7087a90fe29db7d62468b656",
+          "bytes": 2757718,
+          "canonical_role": "Фруктовый прилавок"
+        },
+        {
+          "slot": "@Image5",
+          "required": true,
+          "input_status": "available",
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+          "bytes": 2247428,
+          "canonical_role": "Маша Р: развёртка в одежде Татуина"
+        },
+        {
+          "slot": "@Image6",
+          "required": true,
+          "input_status": "available",
+          "path": "references/scenes/scene-67/S67-vendor.png",
+          "sha256": "571320e0739e93f244ec3f4f0d4e44a1ab7d4f72b5f02ff9aff1a1889d18ef72",
+          "bytes": 2949845,
+          "canonical_role": "Продавец"
+        },
+        {
+          "slot": "@Image7",
+          "required": true,
+          "input_status": "available",
+          "path": "references/scenes/scene-66/S66-Stitch-tatooine-sheet.png",
+          "sha256": "3972543060aa03588b2d95ebdf76ddf55eeb7a7997dd18816c09e58b2cff3947",
+          "bytes": 916530,
+          "canonical_role": "Стич: развёртка"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "blocker": null,
+      "authorization": "Owner t443u 2026-11-09: launch the girls' walk with Stitch from their original prompt, independently of the chain. One free Unlimited website attempt. No video input and no previous-scene frame.",
+      "owner_authorization_t443u": {
+        "at_local": "18:23 Europe/Moscow",
+        "quote": "И прогулку девочек со стичем запусти по их первоначальному промту, без оглядки на связку",
+        "canonical_prompt_sha256": "538ba2a81dd0a67a05241a51cd1581d3a91783d3bb84b43232678f6ccd653ea8",
+        "chars": 7837,
+        "basis": "Scene 66 Wan text at commit 5f881773 (a0156bbb…, 8096) with only the 52P7 video seam replaced by a standalone opening.",
+        "not_part_of_chain": true
+      },
+      "input_qc_rule": "Seven still images only. No video and no previous-scene final frame. Alina, Dasha and Stitch are already mid-walk at the open."
+    },
+    {
       "id": "S49G",
       "scene_id": 49,
       "prompt_id": "S49G",

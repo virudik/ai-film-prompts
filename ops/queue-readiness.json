@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "2262aa617285e48ee73b73227fdd3c9762c73040bed56cb5192f5725dba14f78",
+  "source_queue_sha256": "07e2962bb8c4ef9d17b0fbf14900b608b85b15c498635e655b9c4e4e4d011034",
   "source_task_map_sha256": "e1d381d6226b5ed3dcafa5142200a5bced97060d95851f6ae944c91e585d7c8e",
   "topview_checked_at": "2026-11-09T15:20:24Z",
   "items": [
@@ -185,6 +185,15 @@
       "queue_state": "waiting_for_slot"
     },
     {
+      "id": "S66-STITCH-INDEP-WAN30",
+      "scene_id": 66,
+      "part_label": "66 · independent girls-and-Stitch walk",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
       "id": "S51G",
       "scene_id": 51,
       "part_label": "51G",
@@ -204,5 +213,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-09T15:26:32.850830Z"
+  "checked_at": "2026-11-09T15:28:50.821509Z"
 }

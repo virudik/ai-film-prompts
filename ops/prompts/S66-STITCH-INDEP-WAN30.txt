@@ -1,0 +1,53 @@
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action space-opera cinema, dynamic comedy
+
+REFERENCES / AUTHORITY ORDER:
+OPENING — Independent scene: open on a standalone establishing shot of a Tatooine market street with ALINA, DASHA and STITCH already mid-walk; no previous video or prior-scene frame.
+@Image1 — exact ALINA (GIRL A): face, hair, age and Tatooine costume from her individual sheet; highest identity authority. File: references/scenes/scene-66/S66-Alina-tatooine-sheet.png.
+@Image2 — exact DASHA (GIRL B): face, hair, age and Tatooine costume from her individual sheet; highest identity authority. File: references/scenes/scene-66/S66-Dasha-tatooine-sheet.png.
+@Image3 — exact STITCH from the foreground of this existing street image: blue fur, broad black nose, large dark eyes, oversized ears, red harness and leash; authority for the creature's pose, red harness and leash only (his design comes from the individual sheet @Image7, the highest authority for the creature). This same image also supplies street geography and crowd-reaction composition in the same town as scene 52. Individual sheets @Image1 and @Image2 are the highest authority for ALINA and DASHA and override their faces in this composition. File: references/scenes/scene-66/S66-street-outrage.png.
+@Image4 — the fruit stall of scene 67 for the closing shot only; same stall geography. File: references/scenes/scene-67/S67-fruit-stall.png.
+@Image5 — exact MASHA R: face, hair, age and Tatooine costume from her individual sheet; only the woman at the fruit stall in the closing shot. File: references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.
+@Image6 — exact four-armed vendor from scene 67: grey-green skin, curled horns, yellow eyes and striped tan apron. Identity authority for the closing stall shot only; do not reveal him early in Seedance Part 1. File: references/scenes/scene-67/S67-vendor.png.
+@Image7 — exact STITCH from his individual turnaround sheet (four full-body views and three head portraits of one creature): blue-grey short fur, light grey-blue muzzle and belly, broad dark-blue nose, large dark eyes, very large ears with pink interiors, compact body, small claws, red harness with a metal ring; highest authority for the creature's design from every side. Show only ONE Stitch, never the multiple views or the grey sheet backdrop. File: references/scenes/scene-66/S66-Stitch-tatooine-sheet.png.
+Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+GIRL A (ALINA) and GIRL B (DASHA): exact appearance strictly from @Image1 and @Image2: faces, hair, clothes and ages as shown there; two different girls, never merged.
+STITCH: recognisable Stitch from Lilo & Stitch, blue fur, broad black nose, huge dark eyes and oversized ears, short sturdy body; exact design from the individual sheet @Image7 (highest authority), with pose, red harness and leash as in @Image3. Keep the owner's selected character; no orange skin, scales or horns.
+MASHA R (closing shot only): exactly the adult woman in @Image5, with her individual face, hair, age and costume; the SAME brown satchel with a long strap rests on her left shoulder. She holds ONE pale-blue ribbed melon from @Image4. She is the same person as in scene 67.
+VENDOR (closing shot only): exactly @Image6, stout, FOUR arms, wrinkled grey-green skin, wide toad-like mouth, yellow eyes, two curled horns and striped tan apron. Preserve him into scene 67.
+
+LOCATION / STORY LOCK — CRITICAL:
+The same lived-in Tatooine town as scene 52: sand-coloured adobe, domes, awnings, vaporators, harsh light of twin suns, dusty street. One leash from Stitch's red harness to GIRL A's hand. Serega is not in this scene. The poop moment is comic and non-graphic: Stitch squats, a small dark pile, a puff of steam; no close-up of it. Passers-by are outraged; the girls ignore it completely: NO apology, NO cleanup, no embarrassment — they behave as if this is perfectly normal. The pile stays; passers-by step around it. End at the fruit stall from @Image4, where Masha R stands at the counter holding a pale-blue ribbed melon and facing the exact four-armed vendor from @Image6; the argument of scene 67 is only just beginning.
+
+START STATE:
+Open on a standalone establishing shot of a Tatooine market street: the camera follows ALINA, DASHA and STITCH mid-stride down the dusty avenue; Serega is not in frame.
+
+TIMELINE:
+[0:00–0:05] THE WALK — Tracking shot: the girls chat casually as Stitch trots proudly ahead, sniffing a fruit crate and a passing droid. Busy street life all around.
+[0:05–0:10] SUDDEN STOP — Stitch plants its feet in the middle of the street, the leash snaps taut, GIRL A stops without surprise. Stitch turns once and squats, looking straight ahead with total dignity.
+[0:10–0:17] OUTRAGE — Quick reaction cuts: a Jawa shrieks and leaps back, a stall vendor shouts in an alien language and waves his arms, a domed droid bleeps angrily, a landspeeder brakes hard and swerves around them in a burst of dust.
+[0:17–0:24] TOTAL INDIFFERENCE — Medium on the girls: they do not react at all. GIRL A waits with bored calm, glancing at the stalls; GIRL B keeps chatting. No apology, no cleanup. Stitch finishes and kicks a little sand backward.
+[0:24–0:30] MOVING ON — The girls walk on as if nothing happened, Stitch trotting proudly ahead; passers-by step around the pile, grumbling. The camera follows them past a fruit stall and settles on it as they continue out of frame: Masha R holds a pale-blue ribbed melon at the counter, facing the exact four-armed vendor from @Image6 raising fingers on all his hands. End on the stall, the argument about to start.
+
+END STATE:
+The girls and Stitch have walked on out of frame without looking back; the camera rests on the fruit stall where Masha R holds a pale-blue ribbed melon, facing the exact four-armed vendor from @Image6; her same satchel remains on her left shoulder. Keep the final three seconds uncut, with the vendor's hands and natural body motion continuing. Scene 67 continues from this exact frame.
+
+CAMERA / SPACE:
+One street axis along the dusty market avenue. Alternate 35mm tracking, a low Stitch-level shot for the stop, quick 50mm reaction cuts of passers-by, a medium on the indifferent girls, and a final move that leaves the girls and settles on the fruit stall. Faces readable; cut on the stop, the jumps back and the speeder swerve.
+
+PERFORMANCE:
+Girls: casual, unbothered, as if this happens every day; Stitch proud and oblivious; the crowd overreacts comically. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Harsh warm light of Tatooine's twin suns, double soft shadows, consistent direction, dust in the air, cool shade under awnings; photoreal skin, fabric and creature texture.
+
+AUDIO:
+Street hubbub, alien shouting, Jawa shriek, droid angry bleeps, speeder brakes and whoosh, Stitch's snuffles and gurgles, the girls' indistinct casual chatter. No apology, no intelligible speech, no narrator, no subtitles, no generated music.
+
+NEGATIVE PROMPT:
+girls apologizing or cleaning up, cleanup scoops or waste bags in the girls' hands, embarrassed girls, graphic close-up of excrement, gore, Stitch attacking, crowd hitting the girls, Serega, extra girls, merged faces, girls' clothes changing, creature redesign, real Earth dog, cartoon, subtitles, logo, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
