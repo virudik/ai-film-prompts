@@ -3,45 +3,46 @@
   "project": "seregius",
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "d4b06333-e931-40b1-a3df-4ad57471e31f",
-  "run_id": "68b9829b-0b8c-8325-89ce-93fab95de9e7",
-  "runtime_run_id_source": "Automations.peek last_run.id in_progress scheduled_for=2026-11-09T12:00:00Z",
-  "source_head": "b2eb651b11d0797e3932e3dec205ccd1893d595c",
-  "source_head_initial": "b2eb651b11d0797e3932e3dec205ccd1893d595c",
+  "execution_instance_id": "8d4f6b75-5218-4d73-82d6-e41b8f6705a4",
+  "run_id": null,
+  "run_id_unavailable_reason": "Automations get/peek connector returned 404 Action not found; actual platform runtime run ID not exposed to this execution; local execution UUID is not a runtime run ID.",
+  "source_head": "7ea8f64f41090bb04ac4a71982a4042938868f56",
+  "source_head_initial": "7ea8f64f41090bb04ac4a71982a4042938868f56",
   "route_generation": 3,
-  "started_at": "2026-11-09T12:32:16.813091Z",
-  "receipt_started_at": "2026-11-09T12:40:50.454Z",
-  "status": "completed",
-  "phase": "complete",
+  "started_at": "2026-11-09T12:59:23Z",
+  "receipt_started_at": "2026-11-09T13:07:05.584Z",
+  "status": "started",
+  "phase": "read_only_scan_complete",
   "scan": {
     "complete": true,
-    "source": "Topview connector, 14 boards, 18 pages, mediaType=video, pageSize=100",
+    "source": "Topview connector, all 14 boards, all 18 pages, mediaType=video, pageSize=100",
     "boards": 14,
     "pages": 18,
-    "video_tasks": 655,
+    "video_tasks": 656,
     "status_counts": {
       "success": 629,
       "fail": 26,
-      "active": 0
+      "running": 1
     },
-    "active_task_ids": [],
-    "observation_note": "Full paginated scan finished 2026-11-09T12:35:02Z; no atomic provider snapshot; use fresh scan for any later Create."
+    "active_task_ids": [
+      "4283036c9c8c486bb8a60c9e9326447d"
+    ],
+    "observation_note": "Fresh read-only full pagination during this scheduled invocation; live non-atomic provider snapshot."
   },
   "slots": {
     "physical_capacity": 6,
-    "occupied": 0,
-    "free": 6,
+    "occupied": 1,
+    "free": 5,
     "complete_scan_verified": true,
     "non_reserving_snapshot": true,
-    "checked_at": "2026-11-09T12:35:02.474Z"
+    "checked_at": "2026-11-09T13:07:05.584Z"
   },
-  "selected_item": "S52-R2-SEED20-P7",
+  "selected_item": null,
   "task_ids": [
-    "4c35bb617de143b39723924075b31c3d",
-    "ce934dd80c4e4493b3daffcf09d95dde"
+    "4283036c9c8c486bb8a60c9e9326447d"
   ],
   "new_submissions": [],
-  "browser_transport": "not_used:unchanged_TinyFish_native_upload_and_unlimited0_blocker;Work_preferred_not_exclusive",
+  "browser_transport": "not_used:no_current_independent_owner_authorized_ready_item_and_prior_native_upload_blocker",
   "tinyfish": {
     "runs": [],
     "steps": 0,
@@ -51,67 +52,36 @@
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:d4b06333-e931-40b1-a3df-4ad57471e31f",
-    "acquired_at": "2026-11-09T12:40:07.553Z",
-    "expires_at": null,
-    "released_at": "2026-11-09T12:42:19.970Z",
-    "release_with_receipt_atomic": true
+    "holder": "chatgpt:ordinary:8d4f6b75-5218-4d73-82d6-e41b8f6705a4",
+    "acquired_at": "2026-11-09T13:06:17.669Z",
+    "expires_at": "2026-11-09T13:19:17.669Z",
+    "released_at": null,
+    "release_with_receipt_atomic": false
   },
   "acceptance": {
-    "scheduled_run_verified": true,
+    "scheduled_run_executed": true,
+    "scheduled_run_id_verified": false,
     "topview_read_only_scan_complete": true,
-    "queue_and_map_sha256_confirmed": true,
+    "queue_and_map_sha256_confirmed": false,
     "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
-    "new_task_id_verified": false,
-    "production_submission_verified": false,
-    "submitted_task_ids_found": 33,
-    "submitted_task_ids_total": 33,
-    "previous_successful_tasks_reconciled": 2,
-    "work_preference_from_verified_20261102_still_registered": true
+    "new_task_id_verified": true,
+    "production_submission_by_this_executor_verified": false,
+    "submitted_task_ids_found": 34,
+    "submitted_task_ids_total": 34
   },
-  "outcome": "read_only_reconciled_no_own_create",
-  "blocker": {
-    "code": "blocked_browser_input_and_unverified_free_unlimited",
-    "reason": "S52-R2-SEED20-P7 is first owner-authorized ready linked story item; P6 actual last3s and continuity QC are recorded. TinyFish native exact file transfer and selected Unlimited0 have not been verified; previous paid technical blocker unchanged. Work is already recorded as restored/preferred. No new native upload evidence, so no paid test or Create. Other story 66-70 depend on P7; scene62 held; music/dances not permitted except S49B after all story.",
-    "retryable": false,
-    "retest_only_on_new_evidence": true
-  },
+  "outcome": "started_reconciling",
+  "blocker": null,
   "retryable": false,
-  "updated_at": "2026-11-09T12:42:19.970Z",
-  "checked_at": "2026-11-09T12:42:19.970Z",
+  "updated_at": "2026-11-09T13:07:05.584Z",
   "queue_reconciliation": {
-    "queue_sha256": "88ef461aab90cb1b14e7899800642e43ffe2eb10f5b6d00a7e29f3a3db637541",
-    "task_map_sha256": "38b1061b3585fa8e4fcd8cf03bb93a00c3350b50a35ddf8f3e0bd7618e49162d",
-    "hashes_independently_recomputed_matched": true,
-    "submitted_or_completed_task_ids_in_current_queue": 33,
-    "submitted_or_completed_task_ids_found_in_all_board_scan": 33,
-    "archive_non_video_image_task_ids_excluded": 6,
+    "submitted_task_ids_total": 34,
+    "submitted_task_ids_found_in_all_board_scan": 34,
+    "p7_task_id": "4283036c9c8c486bb8a60c9e9326447d",
+    "p7_status": "running",
+    "owner_policy": "t422u Tatooine priority; t438u owner authorized final-frame image instead of last3s for linked scenes",
     "open_owner_tasks": 1,
-    "owner_tasks_note": "Parodies face-correction open task explicitly assigned to separate interactive ChatGPT chat; scheduled launcher did not take it",
-    "unknown_history_note": "S49B historical submission_unknown reconciled without Create; no retry",
-    "last_foreign_submissions": [
-      {
-        "item": "S52-R2-SEED20-P6",
-        "id": "4c35bb617de143b39723924075b31c3d",
-        "status": "success",
-        "credits_cost": 0
-      },
-      {
-        "item": "S59-SEED20-P4",
-        "id": "ce934dd80c4e4493b3daffcf09d95dde",
-        "status": "success",
-        "credits_cost": 0
-      }
-    ],
-    "queue_current_states": {
-      "blocked_owner_decision": 1,
-      "submitted": 30,
-      "waiting_for_slot": 17,
-      "completed": 3,
-      "blocked_inputs": 9
-    }
-  },
-  "note": "All-board Topview read-only scan finished 12:35:02Z with 0 active of 655 videos; result not a reservation and not an atomic provider snapshot; no subsequent Create was attempted."
+    "open_task_is_interactive_only": true
+  }
 }
