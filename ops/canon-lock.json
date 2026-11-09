@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:ba38ee17-fd58-4491-91ba-6cae6e5c9268",
-  "task": "Scheduled independent read-only all-board scan, queue reconciliation and cycle receipt; no Create without full gates",
-  "acquired_at": "2026-11-09T20:51:21.895Z",
-  "expires_at": null,
-  "released_at": "2026-11-09T20:59:12.389Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:189d2319-b035-47ed-a134-595829e85e2f",
+  "task": "Record owner clarification for SEREGIUS-PARODIES-20261109: scene and Drive delivery of each future usable image; no generation or approval",
+  "acquired_at": "2026-11-09T21:11:02+00:00",
+  "expires_at": "2026-11-09T21:26:02+00:00",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
