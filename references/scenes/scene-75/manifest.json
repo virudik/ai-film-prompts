@@ -58,5 +58,16 @@
   "additional_references_pending": [
     "matching-costume fishing setup",
     "matching-costume finish with droid"
-  ]
+  ],
+  "composition_drafts_gallery": [
+    {
+      "path": "archive/parody-74-80/first-moon.png",
+      "sha256": "826cb393bd3dcc24c0e3d7011ddd4f5df858ba4d53acfcd47704fa5ef4452410",
+      "title": "Месяц",
+      "identity_reference": false,
+      "active_prompt_input": false,
+      "warning": "Раннее фото: лицо не исправлено; только композиционный черновик."
+    }
+  ],
+  "photo_gallery_page": "parodies.html#scene-75"
 }

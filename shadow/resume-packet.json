@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-09T20:14:36+00:00",
-  "source_head": "c5fa84bf1b91d9e042322684e1a4ccf99016eca6",
-  "source_fingerprint": "1098c07751ecb83a1b6e2dcb0299e9270d8cacba7c7f049f625010f7e0c444d4",
+  "checked_at": "2026-11-09T20:18:42+00:00",
+  "source_head": "9f77b5d9d2bf4b3b069b5df4a38094153a43de6f",
+  "source_fingerprint": "61116f63b344bae13e9eae5a646ac3cac354eed1dd4be3d62bc8a5f290799869",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -33,30 +33,30 @@
   },
   "reasons": [],
   "selected_work": {
-    "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
-    "title": "Заполнение свободных Topview-слотов — задача №1",
-    "status": "waiting_for_slot",
-    "last_completed": "Уточнено: семь роликов, шесть прежних Rutube-плееров опубликованы; Школа проверена отдельно и оставлена локально после ошибки воспроизведения. Добавлен A-33. Повторная TLS-проверка записана. Готовая конкурсная сцена HONOR не переписывалась; H-BACK пока только задание, PNG не принят.",
-    "next_action": "Читать живую очередь без дублей. Для Школы (A-33) подтвердить рабочее воспроизведение и приватность перед заменой/архивацией. A-20 требует разрешённой административной сессии Pages. Доделать оригинальные продуктовые PNG HONOR с QC/сохранением; заявка конкурса ждёт настоящего города и согласования теста. RESOURCE/видеостыки остаются QC, Keep/Роскосмос на паузе. Не повторять шесть опубликованных плееров, порядок A-32 и уже исправленный конкурсный мастер.",
-    "verified_at": "2026-11-09T19:04:21+00:00",
+    "work_id": "SEREGIUS-PARODIES-20261109",
+    "title": "Семь пародийных сцен с изображениями по прямой команде владельца",
+    "status": "existing_photos_published_reference_work_open",
+    "last_completed": "Сохранена отдельная галерея существующих фото: 7 основных кадров и 7 ранних композиционных черновиков, 21 текст без изменений.",
+    "next_action": "Не генерировать заново. Сверить parodies.html, 7 основных PNG и 7 первых композиционных черновиков; все доступные варианты — в указанной Drive-папке. Первые фото не являются исправлением лиц и не входят в видеовходы. Коррекция остальных лиц/дополнительные кадры и старые независимые поручения остаются открытыми; никакой автоприёмки или видеозапуска.",
+    "verified_at": "2026-11-09T20:18:38+00:00",
     "blockers": [],
     "evidence": [
       {
-        "file": "reports/school-seventh-video-2026-11-08.json",
-        "sha256": "ab9d88749d08f712aeba528e61f9303ceae0b5e143af3f2e736754f691843b67"
+        "file": "reports/parody-existing-photos-publication-2026-11-09.json",
+        "sha256": "b54156f62f6653ad1c81b50d1b7684980bc353b1e50bd8438f1b713270e5a52e"
       }
     ],
     "read_next": [
-      "ops/FUTURE-PLANS.md",
-      "projects/raznoe/HANDOFF.md"
+      "parodies.html",
+      "reports/parody-existing-photos-publication-2026-11-09.json"
     ],
     "checkpoint": {
       "file": "reports/current-work-checkpoint.md",
-      "anchor": "# 08.11.2026 — семь видео: Школа отдельно, без ложного завершения",
-      "sha256": "35909eddd1b099e3f38a6cce0ed3529a9dab6b53802e76e2faa2971c488f32a8"
+      "anchor": "# 09.11.2026 — сохранение существующих фото пародий на сайт и Drive",
+      "sha256": "23ef3045ade66bbdad5b82400b126b1081bbe11ffaa4105523d75cd627c5335d"
     }
   },
-  "checkpoint_text": "# 08.11.2026 — семь видео: Школа отдельно, без ложного завершения\n\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\n- Уточнено: семь роликов, шесть прежних Rutube-плееров опубликованы; Школа проверена отдельно и оставлена локально после ошибки воспроизведения. Добавлен A-33. Повторная TLS-проверка записана. Готовая конкурсная сцена HONOR не переписывалась; H-BACK пока только задание, PNG не принят.\n- Доказательство: reports/school-seventh-video-2026-11-08.json; TLS and official image evidence in workflow artifact.\n- Следующий шаг: Читать живую очередь без дублей. Для Школы (A-33) подтвердить рабочее воспроизведение и приватность перед заменой/архивацией. A-20 требует разрешённой административной сессии Pages. Доделать оригинальные продуктовые PNG HONOR с QC/сохранением; заявка конкурса ждёт настоящего города и согласования теста. RESOURCE/видеостыки остаются QC, Keep/Роскосмос на паузе. Не повторять шесть опубликованных плееров, порядок A-32 и уже исправленный конкурсный мастер.\n\nchecked_at: 2026-11-09T19:04:21+00:00\n",
+  "checkpoint_text": "# 09.11.2026 — сохранение существующих фото пародий на сайт и Drive\n\nwork_id: SEREGIUS-PARODIES-20261109\n\n- Новая команда: сохранить то, что уже есть, без новых генераций.\n- Семь основных PNG не менялись; семь первых фото опубликованы в отдельной архивной галерее, не как референсы лиц. Во всех сценах 74–80 есть ссылка на фотографии и Drive-папку.\n- Все 21 видеопромпт сохранены без изменения текста; очередь и приёмка не изменены.\n- Drive: https://drive.google.com/drive/folders/1m0kKr532uOqOzyoIZh_9ZlrWfOoQtNxu\n- Доказательство: reports/parody-existing-photos-publication-2026-11-09.json. Полная доводка сцен не заявлена.\n- Следующий шаг: Не генерировать заново. Сверить parodies.html, 7 основных PNG и 7 первых композиционных черновиков; все доступные варианты — в указанной Drive-папке. Первые фото не являются исправлением лиц и не входят в видеовходы. Коррекция остальных лиц/дополнительные кадры и старые независимые поручения остаются открытыми; никакой автоприёмки или видеозапуска.\n\nchecked_at: 2026-11-09T20:18:38+00:00\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -150,8 +150,8 @@
     }
   ],
   "read_next": [
-    "ops/FUTURE-PLANS.md",
-    "projects/raznoe/HANDOFF.md"
+    "parodies.html",
+    "reports/parody-existing-photos-publication-2026-11-09.json"
   ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
@@ -545,8 +545,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "ea0bb036cbbf0bcf9b336d0bf8f94174a7cd383032436bb1197c35e091c81a8e",
-      "bytes": 34905
+      "sha256": "388b7303cb41a0413db541971a16e79fc2b5a2d2517b49586b5fa48e6c3170af",
+      "bytes": 35522
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -570,7 +570,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "cc323abf03edae143a647a8e8e9ab5ca0631d705bc3809cd799e26672ebb24c6",
+      "sha256": "cc1661f7723a07bacf5fadd5b3d202333fcdecd51968997d1feb58a2b263908b",
       "bytes": 5135
     },
     {
@@ -590,13 +590,13 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "b39b20eef1991aec48dd27775d2702765f559c8fb0f884230633d73fe0d33937",
-      "bytes": 25853
+      "sha256": "04655c4c72aea2f18c769a5ebbac6e4e042db5fd2a74f11bce1ca9e030b9332e",
+      "bytes": 25815
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "f4b8dbab4c834ac0ce578141fe6085dd0b28f3364e8679a1bc6b155329e05357",
-      "bytes": 39115
+      "sha256": "34a29ced3a8c4d10bfea8706d2f683b8dc79f16af00886f23c0e6e31333b70cf",
+      "bytes": 40772
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -604,30 +604,30 @@
       "bytes": 71765
     },
     {
-      "file": "reports/school-seventh-video-2026-11-08.json",
-      "sha256": "ab9d88749d08f712aeba528e61f9303ceae0b5e143af3f2e736754f691843b67",
-      "bytes": 8629
+      "file": "reports/parody-existing-photos-publication-2026-11-09.json",
+      "sha256": "b54156f62f6653ad1c81b50d1b7684980bc353b1e50bd8438f1b713270e5a52e",
+      "bytes": 10774
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "7c76a95dbdb19feaba4138db4884d55c1874c7cc1ea64bffda40305bc7b2e64d",
-      "bytes": 34706
+      "sha256": "77760b3fe0cf0301f2db98799e32fbdd36c7bb3c939354397d7874f46fc83fe5",
+      "bytes": 35323
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "d72a8cdc0f972e69f053b91d19086f9df14f350a691af7b0f0271f445b189a01",
+      "sha256": "9b5248930c0869f15baf6caa6707f1e1da2abd2801b4855253c183bd76e6b6c8",
       "bytes": 28571
     },
     {
       "file": "video-prompts.md",
-      "sha256": "3003d5e5de31ae5aa86ab94f948b4992ee5ee424c809aa15b120aa9c2290f6fb",
-      "bytes": 1508554
+      "sha256": "fe0de0bb1a6aaa2a9f238b7a83732b0a25a8d72c836d20c3902496890d68d7df",
+      "bytes": 1515362
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "5d20d26643cfd74ab0b0a56073c763ffef8e22fedebafd0a9dfd84f08f1858d7",
-      "bytes": 100614
+      "sha256": "86deaea9610664d073069cffdb6812f10231ba97b5d746777afd7c9744d23f2b",
+      "bytes": 100607
     }
   ],
-  "packet_bytes": 6981
+  "packet_bytes": 6594
 }

@@ -9847,6 +9847,13 @@ Full landscape 16:9, 1280×720 edge-to-edge; no cropping, pillarboxing, watermar
 <figure><a href="references/scenes/scene-74/S74-studio-roar.png" target="_blank" rel="noopener"><img src="references/scenes/scene-74/S74-studio-roar.png" alt="@Image2 — постановочный кадр рыка"></a><figcaption>@Image2 — рычащий Виталик, технический QC; не редакционная приёмка</figcaption></figure>
 </div>
 
+<!-- parody-photo-publication-74 -->
+<p><strong>Сохранённые фото:</strong> <a href="parodies.html#scene-74" target="_blank" rel="noopener">Открыть фотографии сцены</a> · <a href="https://drive.google.com/drive/folders/1m0kKr532uOqOzyoIZh_9ZlrWfOoQtNxu" target="_blank" rel="noopener">Все варианты на Google Диске</a>.</p>
+<details class="early-parody-photos"><summary>Первые фото — композиционные черновики, не референсы лиц</summary>
+<p>По просьбе владельца сохранены ранние варианты. Лица здесь не исправлены; в активные видеопромпты они не включены.</p>
+<div class="scene-ref-gallery"><figure><a href="archive/parody-74-80/first-roar.png" target="_blank" rel="noopener"><img loading="lazy" src="archive/parody-74-80/thumbs/first-roar.jpg" alt="Рык"></a><figcaption>Рык — Раннее фото: лицо не исправлено; только композиционный черновик. <a href="archive/parody-74-80/first-roar.png" target="_blank" rel="noopener">Открыть исходный PNG</a></figcaption></figure><figure><a href="archive/parody-74-80/first-torch.png" target="_blank" rel="noopener"><img loading="lazy" src="archive/parody-74-80/thumbs/first-torch.jpg" alt="Факел"></a><figcaption>Факел — Раннее фото: лицо не исправлено; только композиционный черновик. <a href="archive/parody-74-80/first-torch.png" target="_blank" rel="noopener">Открыть исходный PNG</a></figcaption></figure><figure><a href="archive/parody-74-80/first-mountain.png" target="_blank" rel="noopener"><img loading="lazy" src="archive/parody-74-80/thumbs/first-mountain.jpg" alt="Гора"></a><figcaption>Гора — Раннее фото: лицо не исправлено; только композиционный черновик. <a href="archive/parody-74-80/first-mountain.png" target="_blank" rel="noopener">Открыть исходный PNG</a></figcaption></figure><figure><a href="archive/parody-74-80/first-globe.png" target="_blank" rel="noopener"><img loading="lazy" src="archive/parody-74-80/thumbs/first-globe.jpg" alt="Глобус"></a><figcaption>Глобус — Раннее фото: лицо не исправлено; только композиционный черновик. <a href="archive/parody-74-80/first-globe.png" target="_blank" rel="noopener">Открыть исходный PNG</a></figcaption></figure><figure><a href="archive/parody-74-80/first-searchlights.png" target="_blank" rel="noopener"><img loading="lazy" src="archive/parody-74-80/thumbs/first-searchlights.jpg" alt="Прожекторы"></a><figcaption>Прожекторы — Раннее фото: лицо не исправлено; только композиционный черновик. <a href="archive/parody-74-80/first-searchlights.png" target="_blank" rel="noopener">Открыть исходный PNG</a></figcaption></figure><figure><a href="archive/parody-74-80/first-gong.png" target="_blank" rel="noopener"><img loading="lazy" src="archive/parody-74-80/thumbs/first-gong.jpg" alt="Кастрюля-гонг"></a><figcaption>Кастрюля-гонг — Раннее фото: лицо не исправлено; только композиционный черновик. <a href="archive/parody-74-80/first-gong.png" target="_blank" rel="noopener">Открыть исходный PNG</a></figcaption></figure></div>
+</details>
+
 <div class="engine-tabs" data-scene="74">
 
 <div class="engine-pane" data-engine="wan30" data-main="1">
@@ -10012,6 +10019,13 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 <figure><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/full/vitalik.jpg" alt="@Image1 — Виталик" loading="lazy"></a><figcaption>@Image1 — Виталик, только лицо; возраст сохраняется</figcaption></figure>
 <figure><a href="references/scenes/scene-75/S75-moon-river.png" target="_blank" rel="noopener"><img src="references/scenes/scene-75/previews/S75-moon-river.webp" alt="@Image2 — постановочный кадр сцены 75" loading="lazy" width="480"></a><figcaption>@Image2 — постановка, не редакционная приёмка</figcaption></figure>
 </div>
+
+<!-- parody-photo-publication-75 -->
+<p><strong>Сохранённые фото:</strong> <a href="parodies.html#scene-75" target="_blank" rel="noopener">Открыть фотографии сцены</a> · <a href="https://drive.google.com/drive/folders/1m0kKr532uOqOzyoIZh_9ZlrWfOoQtNxu" target="_blank" rel="noopener">Все варианты на Google Диске</a>.</p>
+<details class="early-parody-photos"><summary>Первые фото — композиционные черновики, не референсы лиц</summary>
+<p>По просьбе владельца сохранены ранние варианты. Лица здесь не исправлены; в активные видеопромпты они не включены.</p>
+<div class="scene-ref-gallery"><figure><a href="archive/parody-74-80/first-moon.png" target="_blank" rel="noopener"><img loading="lazy" src="archive/parody-74-80/thumbs/first-moon.jpg" alt="Месяц"></a><figcaption>Месяц — Раннее фото: лицо не исправлено; только композиционный черновик. <a href="archive/parody-74-80/first-moon.png" target="_blank" rel="noopener">Открыть исходный PNG</a></figcaption></figure></div>
+</details>
 
 <div class="engine-tabs" data-scene="75">
 
@@ -10179,6 +10193,9 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 <figure><a href="references/scenes/scene-76/S76-kandibober.png" target="_blank" rel="noopener"><img src="references/scenes/scene-76/previews/S76-kandibober.webp" alt="@Image2 — постановочный кадр сцены 76" loading="lazy" width="480"></a><figcaption>@Image2 — постановка, не редакционная приёмка</figcaption></figure>
 </div>
 
+<!-- parody-photo-publication-76 -->
+<p><strong>Сохранённые фото:</strong> <a href="parodies.html#scene-76" target="_blank" rel="noopener">Открыть фотографии сцены</a> · <a href="https://drive.google.com/drive/folders/1m0kKr532uOqOzyoIZh_9ZlrWfOoQtNxu" target="_blank" rel="noopener">Все варианты на Google Диске</a>.</p>
+
 <div class="engine-tabs" data-scene="76">
 
 <div class="engine-pane" data-engine="wan30" data-main="1">
@@ -10344,6 +10361,9 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 <figure><a href="references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png" alt="@Image3 — Маша Р" loading="lazy"></a><figcaption>@Image3 — Маша Р, только лицо; возраст сохраняется</figcaption></figure>
 <figure><a href="references/scenes/scene-77/S77-love-triangle.png" target="_blank" rel="noopener"><img src="references/scenes/scene-77/previews/S77-love-triangle.webp" alt="@Image4 — постановочный кадр сцены 77" loading="lazy" width="480"></a><figcaption>@Image4 — постановка, не редакционная приёмка</figcaption></figure>
 </div>
+
+<!-- parody-photo-publication-77 -->
+<p><strong>Сохранённые фото:</strong> <a href="parodies.html#scene-77" target="_blank" rel="noopener">Открыть фотографии сцены</a> · <a href="https://drive.google.com/drive/folders/1m0kKr532uOqOzyoIZh_9ZlrWfOoQtNxu" target="_blank" rel="noopener">Все варианты на Google Диске</a>.</p>
 
 <div class="engine-tabs" data-scene="77">
 
@@ -10516,6 +10536,9 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 <figure><a href="references/scenes/scene-66/S66-Alina-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/scenes/scene-66/S66-Alina-tatooine-sheet.png" alt="@Image3 — Алина" loading="lazy"></a><figcaption>@Image3 — Алина, только лицо; возраст сохраняется</figcaption></figure>
 <figure><a href="references/scenes/scene-78/S78-mayonnaise-family.png" target="_blank" rel="noopener"><img src="references/scenes/scene-78/previews/S78-mayonnaise-family.webp" alt="@Image4 — постановочный кадр сцены 78" loading="lazy" width="480"></a><figcaption>@Image4 — постановка, не редакционная приёмка</figcaption></figure>
 </div>
+
+<!-- parody-photo-publication-78 -->
+<p><strong>Сохранённые фото:</strong> <a href="parodies.html#scene-78" target="_blank" rel="noopener">Открыть фотографии сцены</a> · <a href="https://drive.google.com/drive/folders/1m0kKr532uOqOzyoIZh_9ZlrWfOoQtNxu" target="_blank" rel="noopener">Все варианты на Google Диске</a>.</p>
 
 <div class="engine-tabs" data-scene="78">
 
@@ -10691,6 +10714,9 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 <figure><a href="references/scenes/scene-79/S79-chips-council.png" target="_blank" rel="noopener"><img src="references/scenes/scene-79/previews/S79-chips-council.webp" alt="@Image4 — постановочный кадр сцены 79" loading="lazy" width="480"></a><figcaption>@Image4 — постановка, не редакционная приёмка</figcaption></figure>
 </div>
 
+<!-- parody-photo-publication-79 -->
+<p><strong>Сохранённые фото:</strong> <a href="parodies.html#scene-79" target="_blank" rel="noopener">Открыть фотографии сцены</a> · <a href="https://drive.google.com/drive/folders/1m0kKr532uOqOzyoIZh_9ZlrWfOoQtNxu" target="_blank" rel="noopener">Все варианты на Google Диске</a>.</p>
+
 <div class="engine-tabs" data-scene="79">
 
 <div class="engine-pane" data-engine="wan30" data-main="1">
@@ -10864,6 +10890,9 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 <figure><a href="references/scenes/scene-66/S66-Alina-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/scenes/scene-66/S66-Alina-tatooine-sheet.png" alt="@Image3 — Алина" loading="lazy"></a><figcaption>@Image3 — Алина, только лицо; возраст сохраняется</figcaption></figure>
 <figure><a href="references/scenes/scene-80/S80-budget-luxury.png" target="_blank" rel="noopener"><img src="references/scenes/scene-80/previews/S80-budget-luxury.webp" alt="@Image4 — постановочный кадр сцены 80" loading="lazy" width="480"></a><figcaption>@Image4 — постановка, не редакционная приёмка</figcaption></figure>
 </div>
+
+<!-- parody-photo-publication-80 -->
+<p><strong>Сохранённые фото:</strong> <a href="parodies.html#scene-80" target="_blank" rel="noopener">Открыть фотографии сцены</a> · <a href="https://drive.google.com/drive/folders/1m0kKr532uOqOzyoIZh_9ZlrWfOoQtNxu" target="_blank" rel="noopener">Все варианты на Google Диске</a>.</p>
 
 <div class="engine-tabs" data-scene="80">
 

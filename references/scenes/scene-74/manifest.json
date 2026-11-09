@@ -156,5 +156,56 @@
         "not_published_as_reference": true
       }
     }
-  ]
+  ],
+  "composition_drafts_gallery": [
+    {
+      "path": "archive/parody-74-80/first-roar.png",
+      "sha256": "e599d1375874956387a8d31f49f8a9020782f3869a5ad50f613c3d151c23816f",
+      "title": "Рык",
+      "identity_reference": false,
+      "active_prompt_input": false,
+      "warning": "Раннее фото: лицо не исправлено; только композиционный черновик."
+    },
+    {
+      "path": "archive/parody-74-80/first-torch.png",
+      "sha256": "b941aa5a0eed866aabebdaa70b530bbeec1231f678494f16fd7d784d5c56e294",
+      "title": "Факел",
+      "identity_reference": false,
+      "active_prompt_input": false,
+      "warning": "Раннее фото: лицо не исправлено; только композиционный черновик."
+    },
+    {
+      "path": "archive/parody-74-80/first-mountain.png",
+      "sha256": "f34b580d5bcdfbbe93bd63f3957903bc0a16713359dfcc32c9ead68d5d54efe3",
+      "title": "Гора",
+      "identity_reference": false,
+      "active_prompt_input": false,
+      "warning": "Раннее фото: лицо не исправлено; только композиционный черновик."
+    },
+    {
+      "path": "archive/parody-74-80/first-globe.png",
+      "sha256": "aba37f86fd0104c7dc2bbaaf130e897694f74fd86f33acddd1b3effbdaff3e79",
+      "title": "Глобус",
+      "identity_reference": false,
+      "active_prompt_input": false,
+      "warning": "Раннее фото: лицо не исправлено; только композиционный черновик."
+    },
+    {
+      "path": "archive/parody-74-80/first-searchlights.png",
+      "sha256": "3eb205b2ce26c7854a340e92955b0866d585efc68b57d043959940c7fae7eec4",
+      "title": "Прожекторы",
+      "identity_reference": false,
+      "active_prompt_input": false,
+      "warning": "Раннее фото: лицо не исправлено; только композиционный черновик."
+    },
+    {
+      "path": "archive/parody-74-80/first-gong.png",
+      "sha256": "6aa3944fa39722a8657d782a69e21265165ade64d8e2f867465533d4ead31e50",
+      "title": "Кастрюля-гонг",
+      "identity_reference": false,
+      "active_prompt_input": false,
+      "warning": "Раннее фото: лицо не исправлено; только композиционный черновик."
+    }
+  ],
+  "photo_gallery_page": "parodies.html#scene-74"
 }

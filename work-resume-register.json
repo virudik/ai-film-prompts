@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-09T19:04:21+00:00",
+  "last_updated_at": "2026-11-09T20:18:38+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -1203,32 +1203,32 @@
       "work_id": "SEREGIUS-PARODIES-20261109",
       "project": "seregius",
       "title": "Семь пародийных сцен с изображениями по прямой команде владельца",
-      "status": "blocked_native_single_frame_output",
+      "status": "existing_photos_published_reference_work_open",
       "created_at": "2026-11-09T10:48:12.025422+00:00",
-      "updated_at": "2026-11-09T19:00:00Z",
+      "updated_at": "2026-11-09T20:18:38+00:00",
       "completed": [
         "Сверены свежие инструкции, ID 74–80 пока свободны; исходный checkpoint сохранён."
       ],
-      "next_action": "Do not recreate scenes 74–80/21 prompts or attach rejected outputs. Resume only with an actual identity-preserving edit operation using face-only Vitalik and target composition, or the free Topview web editor in the owner's authenticated browser. Then save each accepted PNG/SHA/manifest/master one at a time. Other historical tasks remain open.",
+      "next_action": "Не генерировать заново. Сверить parodies.html, 7 основных PNG и 7 первых композиционных черновиков; все доступные варианты — в указанной Drive-папке. Первые фото не являются исправлением лиц и не входят в видеовходы. Коррекция остальных лиц/дополнительные кадры и старые независимые поручения остаются открытыми; никакой автоприёмки или видеозапуска.",
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-09T17:58:56+00:00",
-        "last_completed": "Проверены существующие7 PNG/21 промпт; добавлена проверка фактической комплектности. Новых принятых кадров нет.",
-        "next_action": "Не повторять неизменённый вызов генератора: он снова возвращает другой сюжет и неподтверждённое лицо. Сначала подтвердить работающий точный путь одиночного редактирования с исходным портретом и кадром факела. Все7 основных PNG/21 промпт сохранить;7 дополнительных заданий и прочие pending из отчёта открыты. Перед заявлением полной готовности: scripts/check_parody_package.py . --require-complete; код2 означает НЕ завершено. Генерации видео/расходы/автоприёмка не разрешены.",
+        "verified_at": "2026-11-09T20:18:38+00:00",
+        "last_completed": "Сохранена отдельная галерея существующих фото: 7 основных кадров и 7 ранних композиционных черновиков, 21 текст без изменений.",
+        "next_action": "Не генерировать заново. Сверить parodies.html, 7 основных PNG и 7 первых композиционных черновиков; все доступные варианты — в указанной Drive-папке. Первые фото не являются исправлением лиц и не входят в видеовходы. Коррекция остальных лиц/дополнительные кадры и старые независимые поручения остаются открытыми; никакой автоприёмки или видеозапуска.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# 09.11.2026 — проверка комплектности: полная готовность не подтверждена",
-          "sha256": "c8fc464ef25cf69f06423c86a4740e8fe98d4e7f6d662183eee06dfa46548df9"
+          "anchor": "# 09.11.2026 — сохранение существующих фото пародий на сайт и Drive",
+          "sha256": "23ef3045ade66bbdad5b82400b126b1081bbe11ffaa4105523d75cd627c5335d"
         },
         "evidence": [
           {
-            "file": "reports/parody-package-completeness-2026-11-09.json",
-            "sha256": "bd2772395b7e87a593fd1a1538158b7d38a6e3a666a6f5eb373dab9413e20e24"
+            "file": "reports/parody-existing-photos-publication-2026-11-09.json",
+            "sha256": "b54156f62f6653ad1c81b50d1b7684980bc353b1e50bd8438f1b713270e5a52e"
           }
         ],
         "read_next": [
-          "reports/parody-supplementary-reference-jobs-2026-11-09.json",
-          "scripts/check_parody_package.py"
+          "parodies.html",
+          "reports/parody-existing-photos-publication-2026-11-09.json"
         ],
         "blockers": []
       },
@@ -1241,7 +1241,7 @@
         79,
         80
       ],
-      "last_result": "Five more single-frame attempts rejected: all use generic dark-haired/stubbled face, not Vitalik's supplied clean-shaven light-brown-haired face; required curtain/pedestal composition not met. No new PNG attached."
+      "last_result": "7 primary images preserved; 7 first drafts published separately; no new generation; complete work remains open."
     }
   ],
   "rules": [
@@ -1623,9 +1623,9 @@
   ],
   "archived_completed_work": "archive/work-resume-register-archive.json",
   "resume_focus": {
-    "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+    "work_id": "SEREGIUS-PARODIES-20261109",
     "project": "seregius",
-    "set_at": "2026-11-09T19:04:21+00:00",
+    "set_at": "2026-11-09T20:18:38+00:00",
     "reason": "Explicitly selected by the authorized task writer"
   },
   "last_instruction_review": {
