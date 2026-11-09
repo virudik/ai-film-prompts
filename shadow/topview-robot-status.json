@@ -3,11 +3,13 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-09T15:20:24Z",
+  "checked_at": "2026-11-09T15:29:51Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
-    "mode": "light",
-    "reasons": [],
+    "mode": "full",
+    "reasons": [
+      "forced"
+    ],
     "boards": 14,
     "board_task_counts": {
       "3db83056ccef4361a9563a4f77afa1d5": 56,
@@ -25,9 +27,9 @@
       "caa5d8898f14442ea37c3278d156b3fe": 59,
       "1a6244cf1ae747ef847d949a80d6133c": 717
     },
-    "pages_scanned": 1,
-    "tasks_seen": 20,
-    "api_requests": 3,
+    "pages_scanned": 16,
+    "tasks_seen": 660,
+    "api_requests": 18,
     "detail_failed": []
   },
   "cursor": {
@@ -47,27 +49,19 @@
       "caa5d8898f14442ea37c3278d156b3fe": 59,
       "1a6244cf1ae747ef847d949a80d6133c": 717
     },
-    "last_full_scan_at": "2026-11-09T14:55:33Z"
+    "last_full_scan_at": "2026-11-09T15:29:51Z"
   },
   "slots": {
     "capacity": 6,
     "occupied": 0,
     "free": 6,
     "basis": "active unlimited video tasks on all owned boards",
-    "complete": false,
+    "complete": true,
     "active_not_unlimited": 0
   },
   "active_tasks": [],
   "unknown_new": [],
-  "finished_known": [
-    {
-      "task_id": "15e12f1588cc4079983610b63973e028",
-      "scene_id": 69,
-      "final_status": "success",
-      "completed_at": "2026-11-09 15:18:37",
-      "error_code": null
-    }
-  ],
+  "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
     {
@@ -190,6 +184,13 @@
       "completed_at": "2026-11-09 10:00:45"
     },
     {
+      "task_id": "8a1982a55f794a049a62eaa91bf8827f",
+      "scene_id": 51,
+      "mapping": "task_map",
+      "final_status": "success",
+      "completed_at": "2026-11-09 09:04:53"
+    },
+    {
       "task_id": "dcf9df8fb84e41178b9f11e6be06751b",
       "scene_id": 48,
       "mapping": "task_map",
@@ -209,26 +210,64 @@
       "mapping": "task_map",
       "final_status": "success",
       "completed_at": "2026-11-09 08:51:04"
+    },
+    {
+      "task_id": "f3b8883f44b14a2ba432ce429ba02709",
+      "scene_id": 51,
+      "mapping": "task_map",
+      "final_status": "success",
+      "completed_at": "2026-11-08 23:19:26"
+    },
+    {
+      "task_id": "faf2aa38db484f4caae06eeb13c7d166",
+      "scene_id": null,
+      "mapping": "unknown_new",
+      "final_status": "success",
+      "completed_at": "2026-11-08 16:45:27"
+    },
+    {
+      "task_id": "dbc9aff605ec48349062638cdaa7fd5a",
+      "scene_id": 49,
+      "mapping": "task_map",
+      "final_status": "success",
+      "completed_at": "2026-11-08 16:45:22"
+    },
+    {
+      "task_id": "3561d1997a6a4e5d813cfb99fdb60ed4",
+      "scene_id": 49,
+      "mapping": "task_map",
+      "final_status": "success",
+      "completed_at": "2026-11-08 16:45:14"
+    },
+    {
+      "task_id": "fe78a852b7a343e6a37d146cec789358",
+      "scene_id": 49,
+      "mapping": "task_map",
+      "final_status": "success",
+      "completed_at": "2026-11-08 16:44:16"
+    },
+    {
+      "task_id": "199e81ba8c374bdaa6ce9237aa013158",
+      "scene_id": null,
+      "mapping": "unknown_new",
+      "final_status": "fail",
+      "completed_at": "2026-11-08 16:41:19"
+    },
+    {
+      "task_id": "7264c9a1189a49d5ad76cf43fbee87dd",
+      "scene_id": null,
+      "mapping": "unknown_new",
+      "final_status": "fail",
+      "completed_at": "2026-11-08 16:41:19"
     }
   ],
   "comparison": {
-    "monitor_checked_at": "2026-11-09T15:10:37Z",
-    "monitor_age_minutes": 10,
-    "monitor_occupied": 1,
+    "monitor_checked_at": "2026-11-09T15:20:24Z",
+    "monitor_age_minutes": 9,
+    "monitor_occupied": 0,
     "robot_occupied": 0,
-    "consistent": false,
+    "consistent": true,
     "monitor_may_lag": false,
-    "differences": [
-      {
-        "type": "only_in_monitor",
-        "task_id": "15e12f1588cc4079983610b63973e028",
-        "scene_id": 69
-      },
-      {
-        "type": "occupied_differs",
-        "monitor": 1,
-        "robot": 0
-      }
-    ]
+    "differences": []
   }
 }
