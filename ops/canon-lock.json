@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "state": "free",
-  "holder": "grok:b50ad0a0-bcf0-4b88-9a13-5b113d02cf2e",
-  "task": "t413u standing S52-R2-SEED20-P4 intent only",
-  "acquired_at": "2026-11-09T11:18:02Z",
+  "holder": "grok:0e31cd19-f79d-4df8-8f9e-28754a76adf7",
+  "task": "t413u standing S48-SEED20-P4 intent only",
+  "acquired_at": "2026-11-09T11:18:11Z",
   "expires_at": null,
-  "released_at": "2026-11-09T11:18:02Z",
+  "released_at": "2026-11-09T11:18:11Z",
   "rules": "ops/CANON-LOCK.md"
 }
