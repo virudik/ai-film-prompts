@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "source": "Topview operational telemetry",
-  "checked_at": "2026-11-09T12:05:55Z",
+  "checked_at": "2026-11-09T12:50:25Z",
   "timezone": "UTC",
   "canonical_behavior": "Topview slow capacity is 6 concurrent active task slots. One active Topview task occupies one slot even when several tasks belong to the same Scene ID. Canonical slow membership remains unique by Scene ID.",
   "scenes": {
@@ -576,18 +576,20 @@
     },
     "52": {
       "scene_id": 52,
-      "task_id": "47804d4f777e4613b6187a7bff6e0dd0",
-      "model": "Seedance 2.0",
-      "model_id": "seedance-2.0-style",
-      "topview_status": "success",
-      "started_at": "2026-11-09T08:15:07Z",
+      "task_id": "4283036c9c8c486bb8a60c9e9326447d",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "topview_status": "running",
+      "started_at": "2026-11-09T12:46:32Z",
       "queue_count": null,
       "topview_estimated_wait_seconds": null,
-      "checked_at": "2026-11-09T09:00:24Z",
+      "checked_at": "2026-11-09T12:50:25Z",
       "verified": true,
-      "mapping_confidence": "prompt normalized match with master block 52 · Seedance 2.0 часть 2 (robot)",
-      "active_task_ids": [],
-      "completed_at": "2026-11-09T08:51:04Z",
+      "mapping_confidence": "Topview task map (exact Scene mapping from the monitor's map)",
+      "active_task_ids": [
+        "4283036c9c8c486bb8a60c9e9326447d"
+      ],
+      "completed_at": null,
       "topview_estimated_process_seconds": null
     },
     "58": {
@@ -815,7 +817,7 @@
       "topview_estimated_process_seconds": null
     }
   },
-  "note": "GitHub robot: 0 из 6 слотов занято, новых 0, завершено 0.",
+  "note": "GitHub robot: 1 из 6 слотов занято, новых 1, завершено 0.",
   "ui_contract": {
     "slow_table": "one row per active Topview task/slot; Scene ID may repeat",
     "capacity": 6,
@@ -825,27 +827,44 @@
     "header_timestamp_source": "checked_at",
     "header_timestamp_style": "ordinary text color and weight; no 'синхр.' label",
     "three_view_source": "active_tasks[] normalized once per page load",
-    "three_view_checked_at": "2026-11-09T12:05:55Z",
+    "three_view_checked_at": "2026-11-09T12:50:25Z",
     "scene_summary": "unique Scene IDs with multiplicity; mixed task statuses preserved",
     "queue_source": "exact active_tasks[].queue_count per task"
   },
   "slot_capacity": 6,
-  "occupied_slots": 0,
-  "free_slots": 6,
-  "active_tasks": [],
+  "occupied_slots": 1,
+  "free_slots": 5,
+  "active_tasks": [
+    {
+      "scene_id": 52,
+      "task_id": "4283036c9c8c486bb8a60c9e9326447d",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "topview_status": "running",
+      "started_at": "2026-11-09T12:46:32Z",
+      "queue_count": null,
+      "topview_estimated_wait_seconds": null,
+      "checked_at": "2026-11-09T12:50:25Z",
+      "topview_estimated_process_seconds": null,
+      "verified": true,
+      "mapping_confidence": "Topview task map (exact Scene mapping from the monitor's map)"
+    }
+  ],
   "scope": "all_owned_board_counts_plus_ai_film_latest_100_plus_direct_known_active",
   "account_observation": {
-    "checked_at": "2026-11-09T12:05:55Z",
+    "checked_at": "2026-11-09T12:50:25Z",
     "complete": true,
     "boards_scanned": 14,
     "video_tasks_scanned": 653,
     "pages_scanned": 16,
     "scope": "all_owned_boards_unlimited_video_tasks",
-    "scan_mode": "full_all_pages",
+    "scan_mode": "light_board_counts_verified",
     "slot_capacity": 6,
-    "occupied_slots": 0,
-    "free_slots": 6,
-    "active_task_ids": []
+    "occupied_slots": 1,
+    "free_slots": 5,
+    "active_task_ids": [
+      "4283036c9c8c486bb8a60c9e9326447d"
+    ]
   },
   "updated_at": "2026-10-13T17:52:06.640Z",
   "task_parts": {
