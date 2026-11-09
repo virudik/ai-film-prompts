@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:97b7e84b-cf70-41a1-8bb4-c11da41817d7",
-  "task": "t410s2023 S52 intent only",
-  "acquired_at": "2026-11-09T08:14:28Z",
-  "expires_at": null,
-  "released_at": "2026-11-09T08:14:28Z",
+  "state": "held",
+  "holder": "cursor:bc-b6c53856-e99b-58a2-a5e3-54a898cb355c",
+  "task": "Record S52 P2 receipt 47804d4f; no further Create",
+  "acquired_at": "2026-11-09T08:16:01Z",
+  "expires_at": "2026-11-09T08:31:01Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
