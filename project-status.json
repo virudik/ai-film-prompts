@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-11-09T14:23:34Z",
+  "synced_at": "2026-11-09T14:28:09Z",
   "revision_date": "09.11.2026",
   "master_declared_last_full_sync": "09.11.2026 · текущая по live Topview/Drive сверке",
   "canonical_master_sha256": "d6030638e8923da21bb8a863209366ce1b00fa4f40d1b7665a2db8f73fdc592c",
@@ -135,7 +135,7 @@
   ],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-11-09T14:23:04.769Z",
+    "snapshot_at": "2026-11-09T14:27:39.059Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
@@ -146,8 +146,8 @@
         "drive_copy_sha256": "1992ae738969ea6b8207959f03ba947cd9adb284ca68b36598e98bdaa5e21136",
         "drive_copy_checked_at": "2026-11-09T11:34:26.646Z",
         "drive_copy_modified_at": "2026-11-09T11:34:15.256Z",
-        "github_blob": "6c12ca6aba03b4d7cfb3f4deaf935ad39744877c",
-        "mirror_sha256": "9055a2aada376668f71d69df882a02c4f72eb4ccd1669886db6bdeb5535023eb",
+        "github_blob": "263e3f022e4feaf9a152f9f308dfd106dce2ab3c",
+        "mirror_sha256": "d6c5a5cd99d83305c8ed7c0a01ed202d7371bce0192d8b54084a6cc63a92bd78",
         "match": true,
         "drive_copy_match": false
       },
@@ -221,9 +221,9 @@
       "blocking": false
     },
     "topview_task_map": {
-      "state": "ok",
+      "state": "drift",
       "blocking": false,
-      "task_map_matches_snapshot": true,
+      "task_map_matches_snapshot": false,
       "terminal_cache_consistent": true
     }
   },
@@ -1015,7 +1015,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "09.11.2026",
-    "synced_at": "2026-11-09T14:23:34Z",
+    "synced_at": "2026-11-09T14:28:09Z",
     "canonical_master_sha256": "d6030638e8923da21bb8a863209366ce1b00fa4f40d1b7665a2db8f73fdc592c",
     "canonical_revision_sha256": "96e8ee5de8700c04be27447a35b7a9027d5e832702421da6724e964dd888dbfe",
     "scene_count": 37,
