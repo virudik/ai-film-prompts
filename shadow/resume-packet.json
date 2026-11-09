@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-09T12:45:58+00:00",
-  "source_head": "255650429554102a2f785d584572534a46a3a653",
-  "source_fingerprint": "7f228bd668cbcc3cc91651f838a4e21640d30a705c322ff30e7fbde3cb85b0f8",
+  "checked_at": "2026-11-09T12:49:25+00:00",
+  "source_head": "177ba6e75b35a97f02f2da5b5ff28a03195b49bb",
+  "source_fingerprint": "91bf4e492b3fc160f5e7f1f3832e1e5b851c3bde4b921553851142c050ba79a1",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -170,16 +170,8 @@
     "Current capabilities; for a video submit use all-project slot scan, input/QC, Unlimited0 and CAS claim"
   ],
   "queue_recovery": {
-    "unresolved": [
-      {
-        "item_id": "S52-R2-SEED20-P7",
-        "state": "submitting",
-        "task_id": null,
-        "recovery_action": "reconcile_without_resubmitting",
-        "submit_authorized": false
-      }
-    ],
-    "existing_task_count": 78,
+    "unresolved": [],
+    "existing_task_count": 79,
     "existing_tasks": [
       {
         "item_id": "S49A",
@@ -300,6 +292,10 @@
       {
         "item_id": "S52-R2-SEED20-P6",
         "task_id": "4c35bb617de143b39723924075b31c3d"
+      },
+      {
+        "item_id": "S52-R2-SEED20-P7",
+        "task_id": "4283036c9c8c486bb8a60c9e9326447d"
       },
       {
         "item_id": "S64-WAN30",
@@ -572,13 +568,13 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "e6cebd0742e98a05db08ac7077439269f4d7a80c4b685afc0e1a2ba6642fd383",
-      "bytes": 371592
+      "sha256": "3436cf6d83a6e7878b1c1129669b5aa57540059b4f42bfb74b09b31a87f5f637",
+      "bytes": 369635
     },
     {
       "file": "project-status.json",
-      "sha256": "bd994b9534879184a66c7465dca45c051f85e2e215e65e1abc77d563c10edf44",
-      "bytes": 25723
+      "sha256": "adba9086ecaf716acc1e5a83dcd9e5293fc394aaeef038d6a0d9492178e742d3",
+      "bytes": 25727
     },
     {
       "file": "reports/chat-handoff-save-2026-11-08.json",
@@ -616,5 +612,5 @@
       "bytes": 100790
     }
   ],
-  "packet_bytes": 6517
+  "packet_bytes": 6466
 }
