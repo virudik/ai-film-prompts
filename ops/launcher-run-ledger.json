@@ -658,6 +658,13 @@
           "intent_at": "2026-11-09T12:06:31Z",
           "execution_instance_id": "73c9dc24-a51d-47b6-837a-9676b35bb3a9",
           "consumed": true
+        },
+        {
+          "item_id": "S59-SEED20-P4",
+          "submission_intent_id": "712bc4e0-e4df-4080-8119-1c9607179fd4",
+          "intent_at": "2026-11-09T12:06:37Z",
+          "execution_instance_id": "2e3d6e17-1530-493b-812e-c67c2c77f3d3",
+          "consumed": true
         }
       ],
       "event_keys": [
