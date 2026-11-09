@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:1b25ff09-5190-4c53-8925-82607ce1698e",
-  "task": "Seregius ordinary HH:00 read-only verification and cycle receipt; no Generate without verified preflight",
-  "acquired_at": "2026-11-09T09:16:50.748Z",
-  "expires_at": null,
-  "released_at": "2026-11-09T09:23:29.852Z",
+  "state": "held",
+  "holder": "cursor:bc-b6c53856-e99b-58a2-a5e3-54a898cb355c",
+  "task": "Record the S60 website receipt and clear the live claim",
+  "acquired_at": "2026-11-09T09:24:11Z",
+  "expires_at": "2026-11-09T09:39:11Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
