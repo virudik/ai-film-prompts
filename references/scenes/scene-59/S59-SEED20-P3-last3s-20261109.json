@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "item_id": "S59-SEED20-P4",
+  "kind": "self_trim_of_existing_original",
+  "not_a_generation": true,
+  "not_film_accepted": true,
+  "source_item_id": "S59-SEED20-P3",
+  "source_task_id": "5dbf6f87306a4f2f958781935894aaca",
+  "full_original": {
+    "sha256": "e4daf5acce61e1ab3f726dd77ea9339a620044cbf3ac5d3fca60f9283da12a85",
+    "rehashed_here": false,
+    "topview_status": "success",
+    "creditsCost": 0,
+    "completed_at": "2026-11-09T11:53:55Z"
+  },
+  "trim": {
+    "slot": "@Video1",
+    "filename": "S59-SEED20-P3-last3s.mp4",
+    "path": "references/scenes/scene-59/S59-SEED20-P3-last3s.mp4",
+    "sha256": "8b9380b96906b11ef2b978da49b0eae04e4fe1ff8eb13d2617ec1c0aa69406b7",
+    "bytes": 1593322,
+    "drive_file_id": "1SG75UCyThqxEgv6UsfrpdkZfDiU2BQvQ",
+    "codec": {
+      "video": "h264",
+      "audio": "aac",
+      "width": 1280,
+      "height": 720,
+      "fps": 24,
+      "frames": 72,
+      "duration_seconds": 3.0
+    }
+  },
+  "final_frame": {
+    "slot": "@Image1",
+    "filename": "S59-SEED20-P3-final-frame.png",
+    "path": "references/scenes/scene-59/S59-SEED20-P3-final-frame.png",
+    "sha256": "2ea203020f9a8185f5fe7a2f3ba9ccce9126957aa18d7b32593fd343db0d4950",
+    "bytes": 1329683,
+    "drive_file_id": "1-3l8dq_TlFTqN5KtoiX0e0J6DySwxeZn",
+    "width": 1280,
+    "height": 720
+  },
+  "independent_check": {
+    "method": "Hashed the supplied trim and the Drive final frame. ffprobe read both. The full original was not re-hashed here, so the source frame window was not recomputed.",
+    "trim_sha_match": true,
+    "frame_sha_match": true
+  },
+  "qc_note": "The final frame is a close-up of the hull. The light is mistier than the sunny reference. The queue continuity rule is met. Not blocking.",
+  "qc_blocking": false,
+  "queue_qc_rule_met": true,
+  "owner_orders": [
+    "t413u-20261109",
+    "t432u"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "item_id": "S52-R2-SEED20-P6",
+  "slot": "@Video1",
+  "kind": "self_trim_of_existing_original",
+  "not_a_generation": true,
+  "not_film_accepted": true,
+  "source_item_id": "S52-R2-SEED20-P5",
+  "source_task_id": "be59815f157e47c0924b91dbde48f997",
+  "full_original": {
+    "sha256": "0b511ec7fdb41e5e58e88801cea4c312f4a6ea43359f6cd19a345a323a838941",
+    "rehashed_here": false,
+    "topview_status": "success",
+    "creditsCost": 0,
+    "completed_at": "2026-11-09T11:54:04Z"
+  },
+  "trim": {
+    "filename": "S52-R2-P5-last3s.mp4",
+    "path": "references/scenes/scene-52/S52-R2-P5-last3s.mp4",
+    "sha256": "660f5cf5cf7666890ed5b2904adebbf56022f3a6e199d317d54080f52a70ccb0",
+    "bytes": 1276537,
+    "drive_file_id": "1Pc4YJXtDcHZrvIvpNlrCNYU75x4RmfOQ",
+    "codec": {
+      "video": "h264",
+      "audio": "aac",
+      "width": 1280,
+      "height": 720,
+      "fps": 24,
+      "frames": 72,
+      "duration_seconds": 3.0
+    },
+    "source_frames_inclusive": [
+      289,
+      360
+    ]
+  },
+  "final_frame": {
+    "filename": "S52-R2-P5-final-frame.png",
+    "path": "references/scenes/scene-52/S52-R2-P5-final-frame.png",
+    "sha256": "4dca3c980c1e132efd3c4b173e36e67aaada0496e34d3a75cdddcb8377acd5cf",
+    "bytes": 1383027,
+    "drive_file_id": "1TvX1VlhSk9E61aHJ2AwwJLKIQH5OR2hw",
+    "width": 1280,
+    "height": 720
+  },
+  "independent_check": {
+    "method": "Hashed the supplied trim and the Drive final frame. ffprobe read both. The full original was not re-hashed here.",
+    "trim_sha_match": true,
+    "frame_sha_match": true
+  },
+  "qc_note": "The last three seconds are close to a still of Image3, with little motion and a light shift. Not blocking.",
+  "qc_blocking": false,
+  "owner_orders": [
+    "t413u-20261109",
+    "t432u"
+  ]
+}

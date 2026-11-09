@@ -812,6 +812,24 @@
       "part": "P4",
       "creditsCost": 0,
       "source": "readonly topview_get_board_task"
+    },
+    {
+      "task_id": "be59815f157e47c0924b91dbde48f997",
+      "scene_id": 52,
+      "final_status": "success",
+      "finished_at": "2026-11-09T11:54:04Z",
+      "part": "P5",
+      "creditsCost": 0,
+      "source": "readonly topview_get_board_task"
+    },
+    {
+      "task_id": "5dbf6f87306a4f2f958781935894aaca",
+      "scene_id": 59,
+      "final_status": "success",
+      "finished_at": "2026-11-09T11:53:55Z",
+      "part": "P3",
+      "creditsCost": 0,
+      "source": "readonly topview_get_board_task"
     }
   ],
   "retention": {
