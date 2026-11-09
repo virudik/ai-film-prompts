@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "state": "free",
-  "holder": "cursor:bc-b6c53856-e99b-58a2-a5e3-54a898cb355c",
-  "task": "Open S52 part 6 and S59 part 4 on the real endings",
-  "acquired_at": "2026-11-09T12:01:05Z",
+  "holder": "grok:73c9dc24-a51d-47b6-837a-9676b35bb3a9",
+  "task": "t413u standing S52-R2-SEED20-P6 intent only",
+  "acquired_at": "2026-11-09T12:06:31Z",
   "expires_at": null,
-  "released_at": "2026-11-09T12:01:07Z",
+  "released_at": "2026-11-09T12:06:31Z",
   "rules": "ops/CANON-LOCK.md"
 }
