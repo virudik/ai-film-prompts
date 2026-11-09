@@ -3573,6 +3573,16 @@
    "thumb_bytes": 61296,
    "src_sha256": "108d897c6bfbdc4977a37242d204b9c05d76f95c62583acef9a51bc7fab965c2"
   },
+  "references/scenes/scene-48/S48-P4-final-frame.png": {
+   "thumb": "references/thumbs/scenes/scene-48/S48-P4-final-frame.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1758780,
+   "thumb_bytes": 42870,
+   "src_sha256": "2384b2b3cf7894c71e3f12f495886435241862bd2ce5a09fce3c37c7bc016856"
+  },
   "references/scenes/scene-49/S49A-lead-and-bass.png": {
    "thumb": "references/thumbs/scenes/scene-49/S49A-lead-and-bass.png.webp",
    "width": 640,
@@ -4002,6 +4012,16 @@
    "src_bytes": 859473,
    "thumb_bytes": 57004,
    "src_sha256": "83352d9e93ae8855d81aeabe1cd188ab5913802dbb1f29357f3b7c25875442f5"
+  },
+  "references/scenes/scene-52/S52-R2-P4-final-frame.png": {
+   "thumb": "references/thumbs/scenes/scene-52/S52-R2-P4-final-frame.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 939052,
+   "thumb_bytes": 19094,
+   "src_sha256": "f8b1282d813f8fd4ac399ce7e376828cbd57d604a8d7759ae2d93c2551d21eb3"
   },
   "references/scenes/scene-52/S52-cruiser-topview.jpg": {
    "thumb": "references/thumbs/scenes/scene-52/S52-cruiser-topview.jpg.webp",
