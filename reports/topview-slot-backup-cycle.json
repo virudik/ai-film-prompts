@@ -10,24 +10,37 @@
   "route_generation": 3,
   "started_at": "2026-11-09T10:04:42.259208Z",
   "receipt_started_at": "2026-11-09T10:11:39.307Z",
-  "phase": "started",
-  "status": "running",
+  "phase": "complete",
+  "status": "completed",
   "scan": {
-    "complete": false,
-    "source": "Topview read-only all-board scan performed, reconciliation pending",
+    "complete": true,
+    "source": "Topview connector read-only: 14 boards, 18 video task pages, mediaType=video, pageSize=100; all page totals reconciled, plus 27 per-task direct ID readbacks",
+    "scope": "all 14 boards, all video pages; no Create",
     "boards": 14,
     "pages": 18,
-    "video_tasks": 649
+    "video_tasks": 649,
+    "status_counts": {
+      "success": 623,
+      "fail": 26,
+      "init": 0,
+      "other_active": 0
+    },
+    "active_task_ids": [],
+    "checked_at": "2026-11-09T10:17:33.551Z",
+    "snapshot_note": "Topview global capacity is a snapshot; no Create authorized from a stale snapshot."
   },
   "slots": {
     "physical_capacity": 6,
-    "occupied": null,
-    "free": null
+    "occupied": 0,
+    "free": 6,
+    "complete_scan_verified": true,
+    "checked_at": "2026-11-09T10:17:33.551Z",
+    "non_reserving_snapshot": true
   },
-  "selected_item": null,
+  "selected_item": "S59-SEED20-P3",
   "task_ids": [],
   "new_submissions": [],
-  "browser_transport": "not_used",
+  "browser_transport": "not_used_Work_preferred_restored_and_TinyFish_upload_Unlimited0_unverified",
   "tinyfish": {
     "runs": [],
     "steps": 0,
@@ -40,20 +53,70 @@
     "holder": "chatgpt:ordinary:380ed1ce-b2e1-4571-a6fe-c01365eb6035",
     "acquired_at": "2026-11-09T10:10:35.068Z",
     "expires_at": "2026-11-09T10:20:35.068Z",
-    "released_at": null
+    "released_at": "2026-11-09T10:17:33.551Z",
+    "release_with_receipt_atomic": true
   },
   "acceptance": {
     "scheduled_run_verified": true,
-    "topview_read_only_scan_complete": false,
+    "topview_read_only_scan_complete": true,
+    "queue_and_map_sha256_confirmed": true,
+    "submitted_task_ids_found": 27,
+    "submitted_task_ids_total": 27,
     "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
     "new_task_id_verified": false,
     "production_submission_verified": false
   },
-  "outcome": "in_progress",
-  "blocker": null,
-  "retryable": null,
-  "updated_at": "2026-11-09T10:11:39.307Z",
-  "checked_at": "2026-11-09T10:11:39.307Z"
+  "outcome": "read_only_reconciled_no_create",
+  "blocker": {
+    "code": "fallback_transport_not_accepted",
+    "reason": "Current registry preferred_executor=work with verified Work restoration. TinyFish operational fallback is authorized only while Work unavailable, and native exact image/3s video upload plus selected Unlimited0 remain unverified. Not paid-tested. S59-P3 is next eligible story item in queue; Work prepared UI but its current session cannot be assumed by ordinary scheduled runner.",
+    "retryable": true
+  },
+  "retryable": true,
+  "updated_at": "2026-11-09T10:17:33.551Z",
+  "checked_at": "2026-11-09T10:17:33.551Z",
+  "queue_reconciliation": {
+    "submitted_ids_in_queue": 27,
+    "submitted_found": 27,
+    "missing_submitted_ids": [],
+    "unresolved": [],
+    "ready_story_candidates": [
+      "S59-SEED20-P3"
+    ],
+    "scene_62_owner_hold": true,
+    "music_and_dance_owner_hold": true,
+    "now_terminal_tasks_verified": [
+      {
+        "item": "S60-SEED20-P2",
+        "task_id": "a4a17134107445db8f328c0a3801d02e",
+        "status": "success"
+      },
+      {
+        "item": "S61-SEED20-P2",
+        "task_id": "271fba162d2c4a70a2a0412929b84027",
+        "status": "success"
+      },
+      {
+        "item": "S52-R2-SEED20-P3",
+        "task_id": "7f3aba2b4e1b42b69b9871c5b8e4c08b",
+        "status": "success"
+      },
+      {
+        "item": "S48-SEED20-P3",
+        "task_id": "94d2ef4fbb7a42a3bee7c112dbc232cc",
+        "status": "success"
+      }
+    ],
+    "owner_tasks_open": 0
+  },
+  "work_preference": {
+    "preferred_executor": "work",
+    "work_capacity_state": "restored_verified",
+    "route_generation": 3,
+    "route_changed": false
+  },
+  "notes": "Fresh queue reconciled: S49B currently waiting_for_slot after external reconciliation, not submission_unknown. Queue readiness digests verified SHA256 against raw queue and task map; S62 is held by newer owner command t406u despite stale ready field. No claim, Create, retry, paid browser test, approval, quality review or continuation next_action change.",
+  "final_source_head": "d115b4feb46df08974fb98aa8253f4f3d346db45"
 }
