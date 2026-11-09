@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-09T19:04:07+00:00",
-  "source_head": "eebc8d82c903657dd5dd9f95093af9ec0123a762",
-  "source_fingerprint": "7ecb3d420a0c2280e087baa11b051da8f5acda038942efc9d6b454027805c9fd",
+  "checked_at": "2026-11-09T19:08:57+00:00",
+  "source_head": "651d8d84c02464e88de6e14c8469096de79255bb",
+  "source_fingerprint": "98ec6f204097a715dda5837bac78f0c3d99f0d60312e338cce56bde08a328532",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -266,8 +266,8 @@
     },
     {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
-      "sha256": "19952e0f10d2d53b21e776a37e158ae3ecbe0a714b48366fe4142a3bb44c8e0a",
-      "bytes": 7543
+      "sha256": "a63b5be61b70f0fac4d07bae6dff24a812124ecc0667c9034f6e12809a985de2",
+      "bytes": 10461
     },
     {
       "file": "projects/raznoe/reports/handoff-receipts.json",
