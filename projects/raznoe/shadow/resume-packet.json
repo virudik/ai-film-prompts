@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-09T05:13:30+00:00",
-  "source_head": "9b4390d317612f0cb846087c3527d61839e22952",
-  "source_fingerprint": "f0f3782be045ff7946b9a09daacc949eb7d526509188f04291dee131eff8f27f",
+  "checked_at": "2026-11-09T05:33:48+00:00",
+  "source_head": "8aed41144083facb48ea501f444c0e701be65c6a",
+  "source_fingerprint": "3e52eb544c0e46b6ac31e50a96c94080b87583295ea55afd6b1f39a366964006",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -226,7 +226,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "e1dd78febf15bdab23e2d9588c76e1b34603b3d8501e590fd400cd7b65dd7384",
+      "sha256": "cecadb34c619171bb8d080deb5efd710538300c2d77b1192fdc3bf3eb822c0a3",
       "bytes": 23016
     },
     {
@@ -256,8 +256,8 @@
     },
     {
       "file": "projects/raznoe/project-status.json",
-      "sha256": "04bab3ad0fb71b4d8ad1af57df3177f515fbcb192cd1b0eee3392dc693bdb203",
-      "bytes": 10114
+      "sha256": "d134748ab9da295eede406bc68906fe62c39a7438a892c0ef06924b2fee23b7e",
+      "bytes": 10116
     },
     {
       "file": "projects/raznoe/reports/chat-handoff-save-2026-11-08.json",
