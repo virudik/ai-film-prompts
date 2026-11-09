@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "scene_id": 48,
+  "kind": "provenance_only_no_further_part",
+  "not_a_launch_input": true,
+  "not_film_accepted": true,
+  "source_item_id": "S48-SEED20-P4",
+  "source_task_id": "6a70fae84abf401cb93f8c762b8c26e3",
+  "full_original": {
+    "sha256": "316805e0d9d6099d1b330ef436f349a2835a0353edd2a908a57328acd9d11563",
+    "rehashed_here": false,
+    "topview_status": "success",
+    "creditsCost": 0,
+    "completed_at": "2026-11-09T11:27:29Z"
+  },
+  "trim": {
+    "filename": "S48-P4-last3s.mp4",
+    "path": "references/scenes/scene-48/S48-P4-last3s.mp4",
+    "sha256": "20f9195a8ce061f674bac2012cfb9f1683b5a77182cccfbb69bf443caa90ab52",
+    "bytes": 2640735,
+    "drive_file_id": "1Qo0miNc1SAv2pbve3U7d2xrzmwx5Y_pn",
+    "codec": {
+      "video": "h264",
+      "audio": "aac",
+      "width": 1280,
+      "height": 720,
+      "fps": 24,
+      "frames": 72,
+      "duration_seconds": 3.0
+    }
+  },
+  "final_frame": {
+    "filename": "S48-P4-final-frame.png",
+    "path": "references/scenes/scene-48/S48-P4-final-frame.png",
+    "sha256": "2384b2b3cf7894c71e3f12f495886435241862bd2ce5a09fce3c37c7bc016856",
+    "bytes": 1758780,
+    "drive_file_id": "1qTQaoF_93AtOhxqxK-lxHXxta3-NKF7V"
+  },
+  "independent_check": {
+    "method": "Downloaded both Drive files and hashed them. ffprobe read the trim. Not wired as a next-part input: scene 48 has no part 5.",
+    "trim_sha_match": true,
+    "frame_sha_match": true
+  },
+  "story_parts_complete": true
+}

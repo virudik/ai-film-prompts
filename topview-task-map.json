@@ -794,6 +794,24 @@
       "finished_at": "2026-11-09T10:02:23Z",
       "part": "P2",
       "source": "readonly topview_get_board_task"
+    },
+    {
+      "task_id": "3ea23879815e47989d08ae559bd81f51",
+      "scene_id": 52,
+      "final_status": "success",
+      "finished_at": "2026-11-09T11:28:09Z",
+      "part": "P4",
+      "creditsCost": 0,
+      "source": "readonly topview_get_board_task"
+    },
+    {
+      "task_id": "6a70fae84abf401cb93f8c762b8c26e3",
+      "scene_id": 48,
+      "final_status": "success",
+      "finished_at": "2026-11-09T11:27:29Z",
+      "part": "P4",
+      "creditsCost": 0,
+      "source": "readonly topview_get_board_task"
     }
   ],
   "retention": {

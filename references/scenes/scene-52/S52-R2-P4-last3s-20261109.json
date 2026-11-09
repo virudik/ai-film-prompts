@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "item_id": "S52-R2-SEED20-P5",
+  "slot": "@Video1",
+  "kind": "self_trim_of_existing_original",
+  "not_a_generation": true,
+  "not_film_accepted": true,
+  "source_item_id": "S52-R2-SEED20-P4",
+  "source_task_id": "3ea23879815e47989d08ae559bd81f51",
+  "full_original": {
+    "sha256": "5b31ae9d7a8b4fdcad51d03072ed96743700cc484e1640354e9aeddc553770e4",
+    "rehashed_here": false,
+    "video_frames": 361,
+    "topview_status": "success",
+    "creditsCost": 0,
+    "completed_at": "2026-11-09T11:28:09Z"
+  },
+  "trim": {
+    "filename": "S52-R2-P4-last3s.mp4",
+    "path": "references/scenes/scene-52/S52-R2-P4-last3s.mp4",
+    "sha256": "76b64a1da7d69767ddb504f68e8524e658b3faee20dafab8c78de063b9b39d23",
+    "bytes": 1823879,
+    "drive_file_id": "1Ckn-564TsqNmk8YgPr25au28dzaVelEu",
+    "codec": {
+      "video": "h264",
+      "audio": "aac",
+      "width": 1280,
+      "height": 720,
+      "fps": 24,
+      "frames": 72,
+      "duration_seconds": 3.0
+    },
+    "source_frames_inclusive": [
+      289,
+      360
+    ]
+  },
+  "final_frame": {
+    "filename": "S52-R2-P4-final-frame.png",
+    "path": "references/scenes/scene-52/S52-R2-P4-final-frame.png",
+    "sha256": "f8b1282d813f8fd4ac399ce7e376828cbd57d604a8d7759ae2d93c2551d21eb3",
+    "bytes": 939052,
+    "drive_file_id": "11xjsM7aVIAYu8KqhWlxZ-EgNR2N4jigs",
+    "width": 1280,
+    "height": 720
+  },
+  "independent_check": {
+    "method": "Hashed the supplied trim and the Drive final frame. ffprobe read the trim. The full original was not re-hashed here.",
+    "trim_sha_match": true,
+    "frame_sha_match": true
+  },
+  "qc_note": "Rear views drift from the canonical dark-graphite four-engine craft. One sun is visible instead of two. The craft hovers along the main street. Not blocking; P5 images restate the craft and the town.",
+  "qc_blocking": false,
+  "owner_orders": [
+    "t413u-20261109",
+    "t430u"
+  ]
+}

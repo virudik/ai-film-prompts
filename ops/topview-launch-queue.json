@@ -1772,7 +1772,8 @@
         "at_local": "2026-11-08T20:10 Europe/Moscow",
         "resets_history": false,
         "automatic_retry": false
-      }
+      },
+      "story_parts_complete": true
     },
     {
       "id": "S48-SEED20-P2-R2-20261108",
@@ -1920,7 +1921,8 @@
         "submission_intent_id": "59753fe9-431f-4e7d-9f5a-316ca517afaf",
         "archive_file": "reports/topview-queue-2026-10-16/S48-SEED20-P2-R2-20261109T081139Z.json",
         "archive_sha256": "9f6838c6a528cdaf4da44c72bb6ff12109fea0162d18a77e2885be018cad26de"
-      }
+      },
+      "story_parts_complete": true
     },
     {
       "id": "S48-SEED20-P3",
@@ -2035,7 +2037,8 @@
       "completed_at": "2026-11-09T10:02:03Z",
       "result_original_sha256": "7c37b29bf437f8be7759b87d887b6ba8a63401a0fe7e0ef2bb5233545c5ec8e5",
       "qc_note": "The end shows the city far away, with needle spires and no gate. Owner t417u said to continue without looking back at that mismatch. Not blocking.",
-      "qc_blocking": false
+      "qc_blocking": false,
+      "story_parts_complete": true
     },
     {
       "id": "S48-SEED20-P4",
@@ -2045,7 +2048,7 @@
       "canonical_prompt_sha256": "e855853ec92418a02d758cfe2f4cb0b143893128e5d82a385ae6b89f3d5ede57",
       "normalized_prompt_sha256": "af15b424adde6807c2e49506f840f565735aa70b6c5ada1d0eba6cfae2c61e3d",
       "priority": 0.43,
-      "state": "submitted",
+      "state": "completed",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -2132,7 +2135,14 @@
         "submission_intent_id": "d276502c-e335-4fde-b64d-4015d9b2d38d",
         "archive_file": "reports/topview-queue-2026-10-16/S48-SEED20-P4-20261109T111900Z.json",
         "archive_sha256": "fe21968df2ea1d756e220a77f018444b7a267ce8e01cb2024ea867b66e2d311e"
-      }
+      },
+      "topview_status": "success",
+      "completed_at": "2026-11-09T11:27:29Z",
+      "result_original_sha256": "316805e0d9d6099d1b330ef436f349a2835a0353edd2a908a57328acd9d11563",
+      "creditsCost": 0,
+      "story_parts_complete": true,
+      "story_parts_note": "Scene 48 has no part 5. Provenance trim is not a launch input. Technical success is not film acceptance.",
+      "provenance_path": "references/scenes/scene-48/S48-P4-last3s-20261109.json"
     },
     {
       "id": "S28-A3-20261023",
@@ -4734,7 +4744,13 @@
         "submission_intent_id": "23ceaf2f-f9ac-4d89-bd09-05d6135342a0",
         "archive_file": "reports/topview-queue-2026-10-16/S52-R2-SEED20-P4-20261109T111900Z.json",
         "archive_sha256": "50d9afc59fc42c436c9ae520337ae3ac984310f210237bd020d0960a819b3724"
-      }
+      },
+      "topview_status": "success",
+      "completed_at": "2026-11-09T11:28:09Z",
+      "result_original_sha256": "5b31ae9d7a8b4fdcad51d03072ed96743700cc484e1640354e9aeddc553770e4",
+      "creditsCost": 0,
+      "qc_note": "Rear views drift from the canonical dark-graphite four-engine craft. One sun is visible instead of two. The craft hovers along the main street. Not blocking; P5 images restate the craft and the town.",
+      "qc_blocking": false
     },
     {
       "id": "S52-R2-SEED20-P5",
@@ -4744,7 +4760,7 @@
       "canonical_prompt_sha256": "b2302826a9bd92a99744424028f3c5fa1e1f9866fb2f1a637a2b198eddcc410a",
       "normalized_prompt_sha256": "ffd1ebeaf9e33f4dbf3160e2bef1b8ae5368d3323c0bf6b98a05fdd62028e536",
       "priority": 0.012,
-      "state": "blocked_inputs",
+      "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "model_id": "seedance-2.0-style",
       "duration_seconds": 15,
@@ -4759,10 +4775,27 @@
         {
           "slot": "@Video1",
           "required": true,
-          "input_status": "pending_actual_result",
+          "input_status": "available",
           "canonical_role": "previous_new_part_end",
           "source_item_id": "S52-R2-SEED20-P4",
-          "planned_path": "references/scenes/scene-52/S52-R2-P4-last3s.mp4"
+          "source_task_id": "3ea23879815e47989d08ae559bd81f51",
+          "filename": "S52-R2-P4-last3s.mp4",
+          "path": "references/scenes/scene-52/S52-R2-P4-last3s.mp4",
+          "sha256": "76b64a1da7d69767ddb504f68e8524e658b3faee20dafab8c78de063b9b39d23",
+          "bytes": 1823879,
+          "duration_seconds": 3,
+          "width": 1280,
+          "height": 720,
+          "fps": 24,
+          "frames": 72,
+          "source_start_frame_zero_based": 289,
+          "source_end_frame_inclusive": 360,
+          "drive_file_id": "1Ckn-564TsqNmk8YgPr25au28dzaVelEu",
+          "final_frame_path": "references/scenes/scene-52/S52-R2-P4-final-frame.png",
+          "final_frame_sha256": "f8b1282d813f8fd4ac399ce7e376828cbd57d604a8d7759ae2d93c2551d21eb3",
+          "provenance_path": "references/scenes/scene-52/S52-R2-P4-last3s-20261109.json",
+          "qc_status": "noted_not_blocking",
+          "qc_note": "Rear views drift from the canonical dark-graphite four-engine craft. One sun is visible instead of two. The craft hovers along the main street. Not blocking; P5 images restate the craft and the town."
         },
         {
           "slot": "@Image1",
@@ -4812,8 +4845,8 @@
       ],
       "authorization": "Owner27Oct approved seven separate scene52 parts, all action references and asked this chat to finish prompts/site/queue; replaces held old52 continuation. Existing free-launch authorization for selected52 retained. One selected Unlimited0 render per new part; no paid path, duplicate alternative or automatic retry.",
       "owner_launch_authorized_at": "2026-10-27T11:25:33.064Z",
-      "launch_readiness": "blocked_continuity",
-      "blocker": "Await actual S52-R2-SEED20-P4 success, archive its original, prepare true end and pass full continuity QC before launch.",
+      "launch_readiness": "authorized_inputs_available",
+      "blocker": null,
       "input_qc_rule": "Verify exact personal craft identity/scale, face/robe where visible, closed hatch in motion, empty roof, physical departure/landing, motion axis and lighting; no synthetic replacement or propagation of a wrong craft. Success alone does not pass QC.",
       "source_revision": "scene52-seven-parts-2026-10-27",
       "created_at": "2026-10-27T11:25:33.064Z",
