@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "state": "free",
-  "holder": "cursor:bc-b6c53856-e99b-58a2-a5e3-54a898cb355c",
-  "task": "Record the 9 November shift facts for the next chat",
-  "acquired_at": "2026-11-09T09:38:16Z",
+  "holder": "grok:ef7ce2c7-aa7e-4e31-b9b3-57fa754068ad",
+  "task": "t417u S52-R2-SEED20-P3 intent only",
+  "acquired_at": "2026-11-09T09:44:41Z",
   "expires_at": null,
-  "released_at": "2026-11-09T09:43:09Z",
+  "released_at": "2026-11-09T09:44:41Z",
   "rules": "ops/CANON-LOCK.md"
 }

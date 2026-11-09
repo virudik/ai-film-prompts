@@ -4519,7 +4519,7 @@
       "canonical_prompt_sha256": "bdfd1c0b25537dd45273493e9fe5352432762fd7c9afeaaef3b49cb92fe51ff2",
       "normalized_prompt_sha256": "7f66b63b08f9f7979223b060edd7f3eeb08e2a2b7aa971936ffd0c00da967157",
       "priority": 0.02,
-      "state": "waiting_for_slot",
+      "state": "submitting",
       "model": "Seedance 2.0",
       "model_id": "seedance-2.0-style",
       "duration_seconds": 15,
@@ -4595,7 +4595,62 @@
         }
       ],
       "task_id": null,
-      "claim": null,
+      "claim": {
+        "claim_id": "34a88faf-b23f-4deb-8e03-b2889cc2a149",
+        "claimed_at": "2026-11-09T09:44:41Z",
+        "claimed_by": "grok",
+        "execution_instance_id": "ef7ce2c7-aa7e-4e31-b9b3-57fa754068ad",
+        "route_generation": 3,
+        "lease_holder": "grok:ef7ce2c7-aa7e-4e31-b9b3-57fa754068ad",
+        "lease_acquired_at": "2026-11-09T09:44:41Z",
+        "source": "cursor_host owner message t417u",
+        "canonical_prompt_sha256": "bdfd1c0b25537dd45273493e9fe5352432762fd7c9afeaaef3b49cb92fe51ff2",
+        "normalized_prompt_sha256": "7f66b63b08f9f7979223b060edd7f3eeb08e2a2b7aa971936ffd0c00da967157",
+        "preflight": {
+          "owner_authorized": true,
+          "prompt_match": true,
+          "input_sha_match": true,
+          "input_order_match": true,
+          "qc_passed": true,
+          "website_unlimited": true,
+          "credits_cost": 0,
+          "numeric_zero_displayed": false,
+          "unlimited_mode_selected": true,
+          "credits_cost_evidence": "selected_free_unlimited_current_form",
+          "ui_unlimited_label": "Безлимитный режим — бесплатно",
+          "paid_18_credit_mode_selected": false,
+          "paid_credit_mode_selected": false,
+          "quantity": 1,
+          "resolution": 720,
+          "aspect_ratio": "16:9"
+        },
+        "submission_intent_id": "46084ab9-f237-4970-b8da-93e251c4fc0e",
+        "submission_intent_at": "2026-11-09T09:44:41Z",
+        "replay_forbidden": true,
+        "host_run": {
+          "namespace": "cursor_host",
+          "observation_source": "parent_shell_os_environ",
+          "field": "CURSOR_REQUEST_ID",
+          "value": "61f50580-ae77-455b-ae03-1771f3587737",
+          "conversation_field": "CURSOR_CONVERSATION_ID",
+          "conversation_id": "1c1bf697-3c93-4068-b457-e90efdd5ef8f",
+          "owner_host_address": "t417u",
+          "owner_host_role": "user"
+        },
+        "provider_run_key": "ba439789206d50c4d3fb1f965bea64ffd30d2b40d99abc3e07de75339b4be96f",
+        "owner_event_keys": [
+          "e972002a4f4131964e45a755d9ce956301f66ae48ea7fadd162193b2c4f7c239"
+        ],
+        "ledger_path": "ops/launcher-run-ledger.json",
+        "trigger": "owner_command",
+        "owner_command": {
+          "quote": "48р3 запускай без оглядки на прошлую часть. 59р3 тоже, 52р3 делай",
+          "source": "cursor_host",
+          "at": "2026-11-09T12:34:00+03:00",
+          "host_address": "t417u",
+          "host_role": "user"
+        }
+      },
       "depends_on_completed": [
         "S52-R2-SEED20-P2"
       ],
