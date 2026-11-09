@@ -3,11 +3,13 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-09T08:10:28Z",
+  "checked_at": "2026-11-09T08:14:11Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
-    "mode": "light",
-    "reasons": [],
+    "mode": "full",
+    "reasons": [
+      "forced"
+    ],
     "boards": 14,
     "board_task_counts": {
       "3db83056ccef4361a9563a4f77afa1d5": 56,
@@ -23,11 +25,11 @@
       "29d5b28f0e744b9eb6bfbee47efb6ff9": 37,
       "dde2634b5fb54e789bb22dd4c95a75b6": 23,
       "caa5d8898f14442ea37c3278d156b3fe": 59,
-      "1a6244cf1ae747ef847d949a80d6133c": 699
+      "1a6244cf1ae747ef847d949a80d6133c": 700
     },
-    "pages_scanned": 1,
-    "tasks_seen": 20,
-    "api_requests": 5,
+    "pages_scanned": 16,
+    "tasks_seen": 643,
+    "api_requests": 22,
     "detail_failed": []
   },
   "cursor": {
@@ -45,16 +47,16 @@
       "29d5b28f0e744b9eb6bfbee47efb6ff9": 37,
       "dde2634b5fb54e789bb22dd4c95a75b6": 23,
       "caa5d8898f14442ea37c3278d156b3fe": 59,
-      "1a6244cf1ae747ef847d949a80d6133c": 699
+      "1a6244cf1ae747ef847d949a80d6133c": 700
     },
-    "last_full_scan_at": "2026-11-09T08:09:54Z"
+    "last_full_scan_at": "2026-11-09T08:14:11Z"
   },
   "slots": {
     "capacity": 6,
-    "occupied": 3,
-    "free": 3,
+    "occupied": 4,
+    "free": 2,
     "basis": "active unlimited video tasks on all owned boards",
-    "complete": false,
+    "complete": true,
     "active_not_unlimited": 0
   },
   "active_tasks": [
@@ -67,8 +69,8 @@
       "model": "Seedance 2.0",
       "scene_id": 51,
       "mapping": "task_map",
-      "queue_count": 2515,
-      "wait_seconds": 97737,
+      "queue_count": 2517,
+      "wait_seconds": 97512,
       "process_seconds": null
     },
     {
@@ -80,8 +82,8 @@
       "model": "Seedance 2.0",
       "scene_id": 51,
       "mapping": "task_map",
-      "queue_count": 1678,
-      "wait_seconds": 54536,
+      "queue_count": 1679,
+      "wait_seconds": 54310,
       "process_seconds": null
     },
     {
@@ -93,12 +95,35 @@
       "model": "Seedance 2.0",
       "scene_id": 51,
       "mapping": "task_map",
-      "queue_count": 491,
-      "wait_seconds": 11336,
+      "queue_count": 485,
+      "wait_seconds": 11110,
+      "process_seconds": null
+    },
+    {
+      "task_id": "dcf9df8fb84e41178b9f11e6be06751b",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "unlimited": true,
+      "created_at": "2026-11-09 08:11:39",
+      "model": "Seedance 2.0",
+      "scene_id": null,
+      "mapping": "unknown_new",
+      "queue_count": 3391,
+      "wait_seconds": 149350,
       "process_seconds": null
     }
   ],
-  "unknown_new": [],
+  "unknown_new": [
+    {
+      "task_id": "dcf9df8fb84e41178b9f11e6be06751b",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "created_at": "2026-11-09 08:11:39",
+      "model": "Seedance 2.0",
+      "unlimited": true,
+      "prompt_head": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal live-action desert space-fantasy, "
+    }
+  ],
   "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
@@ -196,11 +221,23 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-11-09T08:00:30Z",
-    "monitor_age_minutes": 10,
+    "monitor_age_minutes": 14,
     "monitor_occupied": 3,
-    "robot_occupied": 3,
-    "consistent": true,
+    "robot_occupied": 4,
+    "consistent": false,
     "monitor_may_lag": false,
-    "differences": []
+    "differences": [
+      {
+        "type": "only_in_robot",
+        "task_id": "dcf9df8fb84e41178b9f11e6be06751b",
+        "scene_id": null,
+        "mapping": "unknown_new"
+      },
+      {
+        "type": "occupied_differs",
+        "monitor": 3,
+        "robot": 4
+      }
+    ]
   }
 }
