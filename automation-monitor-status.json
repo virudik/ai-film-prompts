@@ -134,7 +134,8 @@
       "result:94d2ef4fbb7a42a3bee7c112dbc232cc",
       "unmapped:5dbf6f87306a4f2f958781935894aaca",
       "result:be59815f157e47c0924b91dbde48f997",
-      "unmapped:ce934dd80c4e4493b3daffcf09d95dde"
+      "unmapped:ce934dd80c4e4493b3daffcf09d95dde",
+      "result:4c35bb617de143b39723924075b31c3d"
     ],
     "robot_wake_keys": [
       "result:56e5e07c85df4af583c62665c51ed563",
@@ -186,7 +187,7 @@
   },
   "phases": {
     "topview": {
-      "checked_at": "2026-11-09T12:10:25Z",
+      "checked_at": "2026-11-09T12:20:25Z",
       "source": "robot; число слотов — topview-status.json"
     },
     "deep_audit": {
@@ -204,8 +205,8 @@
   },
   "health": "degraded",
   "last_scheduled_cycle": {
-    "started_at": "2026-11-09T12:10:28Z",
-    "completed_at": "2026-11-09T12:10:28Z",
+    "started_at": "2026-11-09T12:20:28Z",
+    "completed_at": "2026-11-09T12:20:28Z",
     "health": "degraded",
     "phases_completed": [
       "topview_scan"
@@ -214,7 +215,7 @@
       "telemetry_publish"
     ],
     "runner": "robot_scheduled_task",
-    "note": "hold: unmapped_active:ce934dd8"
+    "note": "hold: finished_without_scene:ce934dd8"
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -273,7 +274,7 @@
       "checked_at": "2026-10-13T19:02:02.187Z"
     }
   },
-  "last_completed_cycle_at": "2026-11-09T12:10:28Z",
+  "last_completed_cycle_at": "2026-11-09T12:20:28Z",
   "last_successful_cycle_at": "2026-11-09T12:06:07Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
@@ -289,7 +290,7 @@
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-11-09T12:10:28Z"
+    "robot": "2026-11-09T12:20:28Z"
   },
   "last_successful_cycle_runner": "robot_scheduled_task",
   "last_successful_by_runner": {
