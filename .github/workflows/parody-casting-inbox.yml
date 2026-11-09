@@ -1,0 +1,52 @@
+name: Deliver parody casting clarification once
+on:
+  push:
+    branches: [work/parody-reference-preflight-20261109]
+    paths: [.github/workflows/parody-casting-inbox.yml]
+permissions:
+  contents: write
+jobs:
+  inbox:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: Preserve exact owner clarification in unlocked task inbox only
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3; do
+            git fetch -q origin main
+            git reset --hard origin/main
+            python3 - <<'PY'
+          import json
+          from pathlib import Path
+          from datetime import datetime,timezone
+          path=Path('ops/owner-tasks.json');j=json.loads(path.read_text())
+          tid='chatgpt-20261109-parodies-face-only-correction'
+          existing=list(j.get('tasks',[]))
+          a=Path('archive/ops/owner-tasks-archive.json')
+          if a.exists():
+              old=json.loads(a.read_text());existing+=old.get('tasks',old.get('items',[]))
+          if any(x.get('id')==tid for x in existing): raise SystemExit(0)
+          now=datetime.now(timezone.utc).isoformat(timespec='seconds')
+          text='ВЫПОЛНЯЕТ ТОЛЬКО ОТКРЫТЫЙ ЧАТ ChatGPT, уже ведущий SEREGIUS-PARODIES-20261109; часовой и Relay не рисуют. Новое прямое уточнение владельца: «Для сцен используй Виталика, для сцен с несколькими людьми добавляй Машу р и Алину. Только лица, одежда другая, соответствующую сценам. Уже сделанные картинкам сделай лицо Виталика. И добавляй это в сцену которые мы обговаривали и дорисуй ещё реф фото». Это уточнение существующего задания, НЕ семь новых дублей. В активном main другой писатель держит точную lease для семи сцен 74–80; не перехватывать её и не создавать конкурирующую семёрку. Использовать references/full/vitalik.jpg (SHA256 69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d), references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png (37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9), references/scenes/scene-66/S66-Alina-tatooine-sheet.png (a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862); это именованные пользователем источники лица, не команды копировать одежду. Маша Р НЕ Маша Лагуна. Возраст Алины сохранить: семейные/детские не-романтические роли, не включать её в туалетный гэг или взрослый любовный треугольник. Семь уже показанных картинок — композиционные черновики заставок с неверным выдуманным лицом, не identity authority. Исправить лицо Виталика без подмены возраста/черепа/волос; одежда по конкретному сюжету. Шесть логотипных вариантов относятся к общей сцене заставок, месяц — отдельный гэг; они не заменяют сцены мемов/майонеза/чипсов/дорогой рекламы бытовых вещей. Каждый пригодный отдельный PNG — QC, SHA, manifest и master-slot до следующего. Генерации видео, расход кредитов, approval и добавление в очередь не разрешены. Результат и фактические оставшиеся изображения сохранить в checkpoint/recovery; не считать картинки опубликованными по одному обещанию.'
+          j['tasks'].append({'id':tid,'created_at':now,'project':'seregius','scene_id':None,'to':'chatgpt','source':'chatgpt','text':text,'status':'open','taken_by':None,'taken_at':None,'result':None,'result_commit':None,'closed_at':None})
+          j['updated_at']=now
+          path.write_text(json.dumps(j,ensure_ascii=False,indent=2)+'\n')
+          PY
+            git add ops/owner-tasks.json
+            if git diff --cached --quiet; then exit 0; fi
+            test "$(git diff --cached --name-only)" = 'ops/owner-tasks.json'
+            git commit -m 'inbox: owner face-only casting clarification for existing Seregius parodies'
+            if git push -q origin HEAD:main; then
+              git fetch -q origin main
+              test "$(git rev-parse HEAD:ops/owner-tasks.json)" = "$(git rev-parse origin/main:ops/owner-tasks.json)"
+              exit 0
+            fi
+          done
+          exit 1
