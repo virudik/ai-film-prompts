@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "3d8c21795975e04bdaea4e29f507b7f0103feab424d7dceaf4fc84554ffa6d71",
+  "source_queue_sha256": "66d2ad2ab5b7a04a39bae95bb935916b7a1e8169a3269e0ddfd7fe130a716b6d",
   "source_task_map_sha256": "35fe7be725855a4a15f31d79d4ee23cd71967af6f0d3568ecb39cc297e01595c",
   "topview_checked_at": "2026-11-09T08:20:11Z",
   "items": [
@@ -147,15 +147,6 @@
       "ready": false,
       "text": "@Video1: ждёт результат 28 A11 (ещё не запущен)",
       "queue_state": "blocked_inputs"
-    },
-    {
-      "id": "S59-SEED20-P2-R2-20261108",
-      "scene_id": 59,
-      "part_label": "Часть 2",
-      "code": "missing_reference",
-      "ready": false,
-      "text": "@Video1: нужен референс или проверка его файла/SHA256",
-      "queue_state": "submitting"
     },
     {
       "id": "S59-SEED20-P3",
@@ -348,5 +339,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-09T08:21:00.915817Z"
+  "checked_at": "2026-11-09T08:24:47.253852Z"
 }
