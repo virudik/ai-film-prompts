@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "source_queue_sha256": "cd60a08555855a69e673a1d2364eeab7d652d46061fc9b71966d3eab456d91de",
-  "source_task_map_sha256": "bfed7945ea19888621e935cf7002ccc661e041ad4c0a3255acbb55c306d1bc16",
-  "topview_checked_at": "2026-11-09T14:30:23Z",
+  "source_task_map_sha256": "228979b5d6cf69cb51af40397020064939fbcebbebefa195df83fc52d3181e8d",
+  "topview_checked_at": "2026-11-09T14:50:27Z",
   "items": [
     {
       "id": "S13-S13",
@@ -179,9 +179,9 @@
       "id": "S69-WAN30",
       "scene_id": 69,
       "part_label": "69",
-      "code": "waiting_result",
+      "code": "prepare_continuity",
       "ready": false,
-      "text": "@Image7: ждёт результат 68",
+      "text": "@Image7: результат 68 получен — подготовить и проверить стык",
       "queue_state": "blocked_inputs"
     },
     {
@@ -213,5 +213,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-09T14:30:27.780827Z"
+  "checked_at": "2026-11-09T14:50:32.003340Z"
 }

@@ -138,7 +138,8 @@
       "result:4c35bb617de143b39723924075b31c3d",
       "result:4283036c9c8c486bb8a60c9e9326447d",
       "result:4aaca9143ee14b7d81220223974e4569",
-      "result:3fd9f3d9ae2d470eb5ec8b428a7ae044"
+      "result:3fd9f3d9ae2d470eb5ec8b428a7ae044",
+      "result:0ef78e7bcda54cb88821e9349e39f85a"
     ],
     "robot_wake_keys": [
       "result:56e5e07c85df4af583c62665c51ed563",
@@ -179,21 +180,22 @@
       "result:2d8efbd16f5146f48cd7a9a1ffb99369",
       "result:4283036c9c8c486bb8a60c9e9326447d",
       "result:4aaca9143ee14b7d81220223974e4569",
-      "result:3fd9f3d9ae2d470eb5ec8b428a7ae044"
+      "result:3fd9f3d9ae2d470eb5ec8b428a7ae044",
+      "result:0ef78e7bcda54cb88821e9349e39f85a"
     ],
     "robot_rewake": {
-      "episode": "2f225dfa",
-      "count": 1,
-      "last_at": "2026-11-09T14:40:29Z",
+      "episode": "da39a3ee",
+      "count": 0,
+      "last_at": "2026-11-09T14:50:30Z",
       "sequence": 45,
-      "first_at": "2026-11-09T14:40:29Z",
-      "last_event_id": "slots:2f225dfa:45",
+      "first_at": "2026-11-09T14:50:30Z",
+      "last_event_id": "result:0ef78e7bcda54cb88821e9349e39f85a",
       "silence_reported": "slots:d23cf217:2"
     }
   },
   "phases": {
     "topview": {
-      "checked_at": "2026-11-09T14:30:23Z",
+      "checked_at": "2026-11-09T14:50:27Z",
       "source": "robot; число слотов — topview-status.json"
     },
     "deep_audit": {
@@ -211,8 +213,8 @@
   },
   "health": "ok",
   "last_scheduled_cycle": {
-    "started_at": "2026-11-09T14:30:26Z",
-    "completed_at": "2026-11-09T14:30:26Z",
+    "started_at": "2026-11-09T14:50:30Z",
+    "completed_at": "2026-11-09T14:50:30Z",
     "health": "ok",
     "phases_completed": [
       "role_check",
@@ -224,7 +226,7 @@
     ],
     "phases_missing": [],
     "runner": "robot_scheduled_task",
-    "note": "GitHub robot: 1 из 6 слотов занято, новых 1, завершено 0."
+    "note": "GitHub robot: 0 из 6 слотов занято, новых 0, завершено 1."
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -283,8 +285,8 @@
       "checked_at": "2026-10-13T19:02:02.187Z"
     }
   },
-  "last_completed_cycle_at": "2026-11-09T14:30:26Z",
-  "last_successful_cycle_at": "2026-11-09T14:30:26Z",
+  "last_completed_cycle_at": "2026-11-09T14:50:30Z",
+  "last_successful_cycle_at": "2026-11-09T14:50:30Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
     "title": "AI Film — единый монитор",
@@ -299,13 +301,13 @@
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-11-09T14:30:26Z"
+    "robot": "2026-11-09T14:50:30Z"
   },
   "last_successful_cycle_runner": "robot_scheduled_task",
   "last_successful_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-11-09T14:30:26Z"
+    "robot": "2026-11-09T14:50:30Z"
   },
   "previous_primary_automation": {
     "id": "trig_014eEvBooAV2hxx1asRo9snm",
@@ -416,10 +418,10 @@
   "launcher_health": {
     "state": "awaiting_execution",
     "unresolved": false,
-    "episode": "2f225dfa",
-    "unresolved_since": "2026-11-09T14:30:26Z",
+    "episode": "da39a3ee",
+    "unresolved_since": "2026-11-09T14:50:30Z",
     "reason": "within_initial_execution_window",
-    "free_slots_global": 5,
+    "free_slots_global": 6,
     "actionable_items": [
       "S49B",
       "S51E",
@@ -435,11 +437,12 @@
       "S62-SEED20-P1-R2-20261108",
       "S28-A1-R2-20261025",
       "S28-A2-R2-20261025",
+      "S69-WAN30",
       "S51G",
       "S28-A13-20261030"
     ],
     "reconciliation_items": [],
-    "last_event_id": "result:3fd9f3d9ae2d470eb5ec8b428a7ae044",
+    "last_event_id": "slots:2f225dfa:45",
     "receipt_present": false,
     "handler_outcome": null,
     "execution_stage": null,
@@ -449,6 +452,6 @@
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
     "escalation_attempted_episode": "da39a3ee",
-    "checked_at": "2026-11-09T14:30:26Z"
+    "checked_at": "2026-11-09T14:50:30Z"
   }
 }
