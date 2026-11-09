@@ -3,20 +3,19 @@
   "project": "seregius",
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "459aec17-e321-44a4-87f0-36d7508c572b",
-  "run_id": "47ab2801-ac4c-8324-9e3d-7572d88875d0",
-  "runtime_run_id_source": "Automations.peek.last_run.id: scheduled_for=2026-11-09T03:00:00Z, started=2026-11-09T03:25:19.397Z",
-  "source_head": "3daba14ce401bb702f6cd2609f81803b31dfc097",
-  "readback_head": "444bd8cacaaf01d4f672d54ac56a61fe6b28f57a",
+  "execution_instance_id": "29a93866-3618-4140-88b6-bfa43e15de30",
+  "run_id": "4cc4c2a8-f56c-832f-9ec1-5b59ebff4592",
+  "runtime_run_id_source": "Automations.peek.last_run.id; scheduled_for=2026-11-09T04:00:00Z, started_at=2026-11-09T03:55:14.817296Z",
+  "source_head": "38ac84a1f424e488577bba6aa9c4d3c33fe5fb20",
   "route_generation": 3,
-  "started_at": "2026-11-09T03:25:19.397Z",
-  "receipt_started_at": "2026-11-09T03:36:42.669Z",
-  "checked_at": "2026-11-09T03:34:35.694Z",
-  "phase": "complete",
-  "outcome": "blocked_browser_input",
+  "started_at": "2026-11-09T03:55:14.817296Z",
+  "receipt_started_at": "2026-11-09T04:03:51.418Z",
+  "phase": "started",
+  "status": "in_progress",
+  "outcome": "started",
   "scan": {
     "complete": true,
-    "scope": "14 Topview boards, all 18 video pages via connector, this run",
+    "scope": "14 Topview boards, all 18 video pages via read-only connector",
     "boards": 14,
     "pages": 18,
     "video_tasks": 642,
@@ -25,8 +24,7 @@
       "success": 613,
       "fail": 26,
       "init": 3
-    },
-    "checked_at": "2026-11-09T03:34:35.694Z"
+    }
   },
   "slots": {
     "physical_capacity": 6,
@@ -38,10 +36,10 @@
       "8a1982a55f794a049a62eaa91bf8827f"
     ]
   },
-  "selected_item": "S62-SEED20-P1-R2-20261108",
+  "selected_item": "S48-SEED20-P2-R2-20261108",
   "task_ids": [],
   "new_submissions": [],
-  "browser_transport": "not_used_existing_native_upload_blocker",
+  "browser_transport": "not_used",
   "tinyfish": {
     "runs": [],
     "steps": 0,
@@ -50,35 +48,22 @@
     "wallet_spent_usd": 0
   },
   "topview_credits_spent": 0,
-  "owner_tasks": "checked_open_0",
   "queue_reconciliation": {
     "queue_readiness_sha256_match": true,
     "task_map_sha256_match": true,
-    "submitted_ids_found": 20,
-    "submitted_ids_missing": 0,
-    "archived_video_task_ids_found": 39,
-    "archived_image_task_ids_not_in_video_scan": 6,
+    "submitted_ids_in_queue": 20,
     "submission_unknown": [
       "S49B"
     ],
-    "other_claimed": [
-      "S48-SEED20-P2-R2-20261108"
-    ]
+    "other_claimed": []
   },
-  "monitor": {
-    "last_robot_slot_issue": 480,
-    "last_robot_event_id": "slots:d1af9cd6:33",
-    "last_robot_observation_at": "2026-11-09T02:40:36Z",
-    "relay_last_run_status": "no_update",
-    "hourly55_last_run_status": "no_update",
-    "old_event_not_treated_as_fresh_slot_capacity": true
+  "lease": {
+    "holder": "chatgpt:ordinary:29a93866-3618-4140-88b6-bfa43e15de30",
+    "acquired_at": "2026-11-09T04:03:10.086Z",
+    "expires_at": "2026-11-09T04:18:10.086Z",
+    "released_at": null
   },
-  "blocker": {
-    "code": "blocked_browser_input",
-    "item_id": "S62-SEED20-P1-R2-20261108",
-    "retryable": false,
-    "reason": "The exact original 6 images and real 3-second source MP4 cannot yet be proven transferable to the native Omni-reference composer in saved TinyFish Topview profile, and visible Unlimited0 settings have not been verified. Unchanged previous paid preflight blocker dated 2026-11-06; another metered check without new qualifying evidence is forbidden. No Create."
-  },
+  "retryable": true,
   "acceptance": {
     "scheduled_run_verified": true,
     "topview_read_only_scan_complete": true,
@@ -87,16 +72,5 @@
     "tinyfish_unlimited_zero_this_run": false,
     "new_task_id_verified": false,
     "production_submission_verified": false
-  },
-  "lease": {
-    "holder": "chatgpt:ordinary:459aec17-e321-44a4-87f0-36d7508c572b",
-    "acquired_at": "2026-11-09T03:35:38.903Z",
-    "expires_at": "2026-11-09T03:50:38.903Z",
-    "release_with_receipt_atomic": true,
-    "released_at": "2026-11-09T03:38:28.331Z"
-  },
-  "retryable": false,
-  "status": "completed",
-  "completed_at": "2026-11-09T03:38:28.331Z",
-  "result": "No Create: known unchanged TinyFish native original-file upload/Unlimited0 preflight limitation; next independent plot item S62 remains ready by inputs. No wallet charge."
+  }
 }
