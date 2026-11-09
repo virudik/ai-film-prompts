@@ -14,7 +14,7 @@ jobs:
     timeout-minutes: 12
     env:
       EXPECTED_HOLDER: chatgpt:ordinary:7b26b32b-87f6-4d5b-918c-7bbd5fca61e7
-      EXPECTED_ACQUIRED_AT: '2026-11-09T20:11:23+00:00'
+      EXPECTED_ACQUIRED_AT: '2026-11-09T20:17:07+00:00'
     steps:
       - uses: actions/checkout@v5
         with:
@@ -26,11 +26,11 @@ jobs:
           import urllib.request,hashlib,zipfile,io
           from pathlib import Path
           urls=['https://drive.google.com/uc?export=download&id=1ZnrS9Nc8KnmYGVTDL7_7IjQ6TXxfRQxY','https://drive.usercontent.google.com/download?id=1ZnrS9Nc8KnmYGVTDL7_7IjQ6TXxfRQxY&export=download&confirm=t']
-          expected='4ed1f1277f905ed30efa487ba17a789afff63d9a04dba9f33869b37ac16886a7'
+          expected='55e37b1cb5cd830cb7c459d59dc9f344849e59009b1aba1279858059426f86ec'
           for u in urls:
             try:
               with urllib.request.urlopen(u,timeout=60) as r: raw=r.read(40000000)
-              if len(raw)==34521707 and hashlib.sha256(raw).hexdigest()==expected: break
+              if len(raw)==36305785 and hashlib.sha256(raw).hexdigest()==expected: break
             except Exception as e: print(type(e).__name__)
           else: raise SystemExit('Exact source archive unavailable; no content publication')
           dest=Path('/tmp/parody-photo-publication');dest.mkdir(exist_ok=True)
@@ -39,12 +39,11 @@ jobs:
               p=Path(x.filename)
               assert not p.is_absolute() and '..' not in p.parts and (x.external_attr>>16)&0o170000!=0o120000
             z.extractall(dest)
-          print('Verified existing image archive; no generation')
+          print('Verified originals and precomputed previews; no image generation')
           PY
       - name: Publish under exact lease, preserve prompts, test and read back
         run: |
           set -euo pipefail
-          python3 -c 'from PIL import Image'
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           for attempt in 1 2 3; do
