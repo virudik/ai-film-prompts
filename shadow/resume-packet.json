@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-09T13:59:46+00:00",
-  "source_head": "15a9c573748769b8824bc33294377b3148564313",
-  "source_fingerprint": "7cb81fe568de45668940787628680b342b04be3e537edcd5f7039930c9feb7fd",
+  "checked_at": "2026-11-09T14:03:03+00:00",
+  "source_head": "d925df8bc9987a29f58ecb054f0b0f6a19edb3fb",
+  "source_fingerprint": "c4f7f0e3fa1404c8eaf0d6961f9063fc14d1a1d26470d9b6d99c5a5c437efe9a",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -170,16 +170,8 @@
     "Current capabilities; for a video submit use all-project slot scan, input/QC, Unlimited0 and CAS claim"
   ],
   "queue_recovery": {
-    "unresolved": [
-      {
-        "item_id": "S67-WAN30",
-        "state": "submitting",
-        "task_id": null,
-        "recovery_action": "reconcile_without_resubmitting",
-        "submit_authorized": false
-      }
-    ],
-    "existing_task_count": 80,
+    "unresolved": [],
+    "existing_task_count": 81,
     "existing_tasks": [
       {
         "item_id": "S49A",
@@ -312,6 +304,10 @@
       {
         "item_id": "S66-WAN30",
         "task_id": "4aaca9143ee14b7d81220223974e4569"
+      },
+      {
+        "item_id": "S67-WAN30",
+        "task_id": "3fd9f3d9ae2d470eb5ec8b428a7ae044"
       },
       {
         "item_id": "S49G",
@@ -540,8 +536,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "5bdf277ebb12f2ea5463f970bee61e1919b567e6eda0aae152d8f6d37d5643d5",
-      "bytes": 34879
+      "sha256": "b35f398fb18ab0b2ed852ba59310ea5434eba3bad3025575ecbea8debf27017f",
+      "bytes": 34894
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -565,7 +561,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "2d04d9fe7bb3da0babda9ea2a00ebb719d107b5a52d15cd5b2f8921c645d1ce9",
+      "sha256": "1d0884690c38c5db202ff76f03d250ad520a9e4fcf8e9a3040d27f97ea9d3ae4",
       "bytes": 5135
     },
     {
@@ -580,13 +576,13 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "5088b86d6c4051a2528a445d90f5b3bb00244b7012b09d3f0d844649241dd6c5",
-      "bytes": 376084
+      "sha256": "2f7315969a166ca6d763253cceba69deb9d5d5b87759627e19b7041c9f96e7e0",
+      "bytes": 374621
     },
     {
       "file": "project-status.json",
-      "sha256": "0b1c6b643f22298f471686a7d904b62dc064027c1f89da3decb955e6a3fcf636",
-      "bytes": 25749
+      "sha256": "e1078a55b9c69152415db2363dd8fd0e30046f5d6b30b4752c5e908a2ca9d1b0",
+      "bytes": 25775
     },
     {
       "file": "reports/chat-handoff-save-2026-11-08.json",
@@ -605,18 +601,18 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "83bb0614ddbc17c6d7ded6ebc9d4a9dd476cf8fcb26c8126753a57ad6f4d53f4",
-      "bytes": 34680
+      "sha256": "c041a38f4f6f6a12d30b41f585df98ad35809734ca8aa498fb93a5117529a0ae",
+      "bytes": 34695
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "87ff17435cb50ff001b6aba648e051f857d1558d671044b232627f756d159801",
-      "bytes": 28389
+      "sha256": "ee213a6a055ea0e57094d88fb4749312d735eb8b52ff15d42d76127127739ca3",
+      "bytes": 28412
     },
     {
       "file": "video-prompts.md",
-      "sha256": "d6faed572caa65a246eac95bf618713a19ec198486b0b4b5903fdd2d344d6997",
-      "bytes": 1488260
+      "sha256": "b8bea22b2d7b99b9174655aa5af39f73b4168b4a3827ad4008a329ff008d9294",
+      "bytes": 1488747
     },
     {
       "file": "work-resume-register.json",
@@ -624,5 +620,5 @@
       "bytes": 100790
     }
   ],
-  "packet_bytes": 6510
+  "packet_bytes": 6466
 }
