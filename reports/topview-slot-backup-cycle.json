@@ -4,29 +4,67 @@
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
   "execution_instance_id": "15c822f6-38bb-4a7a-9089-27938c55e21c",
   "runtime_run_id": "9a3f4b2f-c5fc-8332-8595-ecb6616713f4",
-  "run_id_evidence": "Automations.peek last_run.id in_progress, scheduled_for 2026-11-09T15:00:00Z, started_at 2026-11-09T16:11:08Z; latest_result is older run.",
+  "runtime_run_id_evidence": "Automations.peek in-progress last_run.id with scheduled_for 2026-11-09T15:00:00Z, started_at 2026-11-09T16:11:08.086375Z. latest_result.run_id belongs to previous scheduled cycle; not used.",
   "source_head_initial": "3da9ace3389b3c4250da94d53b4b3bc1c48187e0",
-  "source_head": "3afbdf0cd8ca49763558f99cae51e5580726ed71",
+  "source_head": "2f539739ea46f01ef9a995b73d64352d0c32938b",
   "route_generation": 3,
   "started_at": "2026-11-09T16:16:06.989Z",
   "receipt_started_at": "2026-11-09T16:17:46.522Z",
-  "phase": "started",
-  "status": "in_progress",
-  "scan": null,
+  "phase": "complete",
+  "status": "completed",
+  "scan": {
+    "complete": false,
+    "source": "Read-only GitHub telemetry: shadow/topview-robot-status.json, light scan; no direct Topview connector in this scheduled tool environment",
+    "checked_at": "2026-11-09T16:10:32Z",
+    "boards": 14,
+    "pages": 1,
+    "tasks_seen": 20,
+    "active_task_ids": [
+      "0a495e5f77a041e6bcc8d67fb68230b3",
+      "2473c9b5bcf645fd85ab308306c53aaa",
+      "39b567d40aed4f58947324e0852b4e4e",
+      "6fa3cdac62e348759d2a3607093414ea",
+      "8bdd6439dad94592979aba23c137b4a0",
+      "be627af0e9664db5b6ac2b62c34080a6",
+      "efaad07750974b678df63a6be00f15d8"
+    ],
+    "status_counts_from_observed_active": {
+      "init": 6,
+      "running": 1
+    },
+    "non_atomic": true,
+    "last_prior_full_scan": {
+      "checked_at": "2026-11-09T16:02:09.408Z",
+      "boards": 14,
+      "pages": 19,
+      "video_tasks": 668,
+      "active": 7
+    }
+  },
   "slots": {
     "physical_capacity": 6,
     "occupied": null,
     "free": null,
-    "complete_scan_verified": false
+    "active_video_tasks_observed": 7,
+    "capacity_conflict": true,
+    "complete_scan_verified": false,
+    "non_reserving_snapshot": true,
+    "robot_light_scan_reported_occupied": 7,
+    "robot_light_scan_reported_free": 0,
+    "stale_monitor_checked_at": "2026-11-09T15:34:29Z",
+    "stale_monitor_reported_occupied": 1,
+    "stale_monitor_reported_free": 5
   },
   "selected_item": null,
   "new_submissions": [],
-  "browser_transport": "not_used",
+  "browser_transport": "not_used: incomplete scan, capacity conflict, foreign durable submission intent and unchanged TinyFish exact-import/Unlimited0 blocker",
   "tinyfish": {
     "runs": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0
+    "confirmed_cost_usd": 0,
+    "wallet_spent_usd": 0,
+    "wallet_not_queried_reason": "No browser operation justified or planned"
   },
   "topview_credits_spent": 0,
   "lease": {
@@ -34,19 +72,62 @@
     "acquired_at": "2026-11-09T16:16:06.989Z",
     "expires_at": "2026-11-09T16:31:06.989Z",
     "lease_commit": "b68cd37c08fe8f9181717637cdfe712b1cb5627f",
-    "released_at": null
+    "released_at": "2026-11-09T16:20:00.812Z",
+    "release_with_receipt_atomic": true
   },
   "acceptance": {
     "scheduled_run_executed": true,
+    "scheduled_run_id_observed": true,
     "topview_read_only_scan_complete": false,
     "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
     "production_submission_by_this_executor_verified": false,
-    "new_task_id_verified": false
+    "new_task_id_verified": false,
+    "submitted_task_ids_found": null,
+    "submitted_task_ids_total": null,
+    "queue_and_map_sha256_confirmed": false
   },
-  "outcome": "in_progress",
-  "blocker": null,
-  "retryable": null,
-  "updated_at": "2026-11-09T16:17:46.522Z"
+  "outcome": "blocked_capacity_conflict_no_create",
+  "blocker": {
+    "code": "capacity_conflict_7_active_6_slots_incomplete_scan",
+    "reason": "2026-11-09 16:10:32 UTC shadow robot light scan of 14 boards saw 7 nonterminal unlimited tasks (6 init, 1 running) against 6 physical slots, pages_scanned=1 (not a complete scan). Main monitor 15:34:29 UTC showed 1 active and is stale. Direct Topview connector unavailable in this runtime, so physical free capacity cannot be established; do not Create. Last full read-only scan 16:02:09 UTC also counted 7 non-terminal tasks; exact consumption unresolved. S70 duplicate 39b567d40aed4f58947324e0852b4e4e matches earlier success 942bdafcff8640d1b405a37cbbb5cbc6 by normalized prompt/refs/parameters (from last verified receipt). Independent S66 item retains foreign submitting intent. TinyFish input upload and Unlimited0 not verified, no paid test warranted.",
+    "retryable": true,
+    "need": "Fresh complete all-board Topview scan and reconciliation of duplicate/foreign intent; correct capacity evidence before any new Create."
+  },
+  "retryable": true,
+  "queue_reconciliation": {
+    "source_queue_blob_sha": "874ff7197b08940122156b8b4bd9a43f818ef871",
+    "readiness_blob_sha": "bda1cb01362adbefe09953f950b45d48b8bebfa5",
+    "readiness_checked_at": "2026-11-09T15:36:01.807439Z",
+    "readiness_sha256_equality_not_recomputed_this_cycle": true,
+    "submitted_reconciliation_complete": false,
+    "pending_items": [
+      {
+        "id": "S66-STITCH-INDEP-WAN30",
+        "state": "submitting",
+        "task_id": null,
+        "submission_intent_id": "6ba1656f-24ff-4dd3-ab2d-bf0991e31cf2",
+        "lease_holder": "grok:fa55d361-5299-404a-aa1b-cf19979fda7c"
+      }
+    ],
+    "s70_original_task_id": "942bdafcff8640d1b405a37cbbb5cbc6",
+    "s70_duplicate_task_id": "39b567d40aed4f58947324e0852b4e4e",
+    "s66_independent_candidate": "efaad07750974b678df63a6be00f15d8",
+    "owner_tasks_open": 1,
+    "owner_task_scope": "parody image task reserved explicitly for interactive ChatGPT; not taken",
+    "preferred_executor": "work",
+    "route_generation_unchanged": true
+  },
+  "task_ids": [
+    "0a495e5f77a041e6bcc8d67fb68230b3",
+    "2473c9b5bcf645fd85ab308306c53aaa",
+    "39b567d40aed4f58947324e0852b4e4e",
+    "6fa3cdac62e348759d2a3607093414ea",
+    "8bdd6439dad94592979aba23c137b4a0",
+    "be627af0e9664db5b6ac2b62c34080a6",
+    "efaad07750974b678df63a6be00f15d8"
+  ],
+  "updated_at": "2026-11-09T16:20:00.812Z",
+  "completed_at": "2026-11-09T16:20:00.812Z"
 }
