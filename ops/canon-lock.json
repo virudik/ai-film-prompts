@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:2bad7f77-bb65-4f34-9079-d49494e94399",
-  "task": "Record rejected native image outputs without replacing existing seven scene references; no video or queue changes",
-  "acquired_at": "2026-11-09T17:17:51+00:00",
-  "expires_at": null,
-  "released_at": "2026-11-09T17:20:04.754616+00:00",
+  "state": "held",
+  "holder": "chatgpt:ordinary:e3dd9abd-95bc-49e6-83fc-8b88cc73e331",
+  "task": "Verify parody package against actual files and owner requirements; no image replacement or video submission",
+  "acquired_at": "2026-11-09T17:52:40.553409+00:00",
+  "expires_at": "2026-11-09T18:04:40.553409+00:00",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
