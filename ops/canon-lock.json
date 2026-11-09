@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:e3ed0f26-98db-416a-8299-0c03014cf635",
-  "task": "t413u standing S59-SEED20-P3 intent only",
-  "acquired_at": "2026-11-09T10:21:40Z",
-  "expires_at": null,
-  "released_at": "2026-11-09T10:21:40Z",
+  "state": "held",
+  "holder": "cursor:bc-b6c53856-e99b-58a2-a5e3-54a898cb355c",
+  "task": "Record succeeded predecessors and the 52 and 48 part-4 joins",
+  "acquired_at": "2026-11-09T10:24:20Z",
+  "expires_at": "2026-11-09T10:44:20Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
