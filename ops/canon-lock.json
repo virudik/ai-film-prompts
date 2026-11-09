@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:ef38bc68-b9c8-477b-afdd-52fb1c64d7fc",
-  "task": "Scheduled ordinary read-only full Topview slot audit and CAS receipt; no Create",
-  "acquired_at": "2026-11-09T11:05:59.772Z",
-  "expires_at": null,
-  "released_at": "2026-11-09T11:09:41.733Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:2124e687-520d-4ea6-b666-9efe9d68cebc",
+  "task": "Verify seven authored parody scenes, record rejected collage outputs and preserve exact image continuation without false completion",
+  "acquired_at": "2026-11-09T11:10:26+00:00",
+  "expires_at": "2026-11-09T11:25:26+00:00",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
