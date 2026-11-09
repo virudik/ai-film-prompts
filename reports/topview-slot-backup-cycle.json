@@ -8,28 +8,38 @@
   "run_id_unavailable_reason": null,
   "runtime_run_id_source": "Automations.peek last_run.id, verified in_progress for current scheduled execution",
   "source_head_initial": "6e43b5076b8560a25072f7e9d769d35823c0f5c3",
-  "source_head": "c56a675e2505cd8d48d3d3132b56111292751d07",
+  "source_head": "725587fffbb646c931df857acc60185628abfb01",
   "route_generation": 3,
   "started_at": "2026-11-09T15:08:39.580293Z",
   "receipt_started_at": "2026-11-09T15:17:07.647Z",
-  "status": "in_progress",
-  "phase": "started",
+  "status": "completed",
+  "phase": "complete",
   "scan": {
-    "complete": false,
-    "boards": null,
-    "pages": null,
-    "video_tasks": null,
-    "checked_at": null
+    "complete": true,
+    "source": "Topview connector global all 14 boards, 18 page calls; non-atomic scan",
+    "boards": 14,
+    "pages": 18,
+    "video_tasks": 660,
+    "status_counts": {
+      "success": 634,
+      "fail": 26,
+      "active": 0
+    },
+    "active_task_ids": [],
+    "checked_at": "2026-11-09T15:20:08.330Z",
+    "non_atomic": true
   },
   "slots": {
     "physical_capacity": 6,
-    "occupied": null,
-    "free": null,
-    "complete_scan_verified": false
+    "occupied": 0,
+    "free": 6,
+    "complete_scan_verified": true,
+    "non_reserving_snapshot": true,
+    "checked_at": "2026-11-09T15:20:08.330Z"
   },
   "selected_item": null,
   "new_submissions": [],
-  "browser_transport": "not_used_yet",
+  "browser_transport": "not_used: no independently ready authorized story scene; TinyFish exact file import and selected Unlimited0 not yet accepted, unchanged blocker",
   "tinyfish": {
     "runs": [],
     "steps": 0,
@@ -41,23 +51,77 @@
   "lease": {
     "holder": "chatgpt:ordinary:ad194f74-ee1d-43e3-bcf9-bfca76a06cc4",
     "acquired_at": "2026-11-09T15:16:02.292Z",
-    "expires_at": "2026-11-09T16:01:02.292Z",
-    "released_at": null,
-    "lease_commit": "c56a675e2505cd8d48d3d3132b56111292751d07"
+    "expires_at": null,
+    "released_at": "2026-11-09T15:25:53.054Z",
+    "lease_commit": "c56a675e2505cd8d48d3d3132b56111292751d07",
+    "release_with_receipt_atomic": true
   },
   "acceptance": {
     "scheduled_run_executed": true,
     "scheduled_run_id_verified": true,
-    "topview_read_only_scan_complete": false,
+    "topview_read_only_scan_complete": true,
     "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
     "production_submission_by_this_executor_verified": false,
-    "new_task_id_verified": false
+    "new_task_id_verified": false,
+    "queue_and_map_sha256_confirmed": true,
+    "submitted_task_ids_found": 38,
+    "submitted_task_ids_total": 38
   },
-  "outcome": "started",
-  "blocker": null,
-  "retryable": null,
-  "task_ids": [],
-  "updated_at": "2026-11-09T15:17:07.647Z"
+  "outcome": "read_only_reconciled_waiting_s69_final_frame",
+  "blocker": {
+    "code": "waiting_s69_final_frame_continuity_qc",
+    "reason": "S68 Topview success 2026-11-09T14:44:59Z; S69 success 15:18:37Z (both other executors). The genuine S69-final-frame.png is absent from main and S70 depends on it with continuity QC. S65 then depends on S70. S62 owner-held; S49B/music only after all story. No independent ready authorized story item. TinyFish native exact file upload and selected Unlimited0 not yet verified.",
+    "retryable": false,
+    "retest_only_on_new_evidence": true
+  },
+  "retryable": false,
+  "task_ids": [
+    "3fd9f3d9ae2d470eb5ec8b428a7ae044",
+    "0ef78e7bcda54cb88821e9349e39f85a",
+    "15e12f1588cc4079983610b63973e028"
+  ],
+  "updated_at": "2026-11-09T15:25:53.054Z",
+  "completed_at": "2026-11-09T15:25:53.054Z",
+  "queue_reconciliation": {
+    "submitted_total": 38,
+    "submitted_found": 38,
+    "unresolved_claims_in_live_queue": 0,
+    "source_queue_blob_sha": "6f4ef71fff1c62729b40936027f34250968056aa",
+    "source_queue_sha256": "2e293f23a46e7ada4a1bf8ae5a74f7a6896ddb563ea78e903526fdd214401322",
+    "task_map_sha256": "43d6ed2693bbec5daad26c6e52dc8eb470da405ead384a7f5c75b2224bf3d67e",
+    "source_hashes_checked_at": "2026-11-09T15:14:11Z",
+    "new_completed": [
+      {
+        "item": "S68-WAN30",
+        "task_id": "0ef78e7bcda54cb88821e9349e39f85a",
+        "status": "success",
+        "completed_at": "2026-11-09T14:44:59Z",
+        "credits_cost": 0,
+        "owner_approved": false
+      },
+      {
+        "item": "S69-WAN30",
+        "task_id": "15e12f1588cc4079983610b63973e028",
+        "status": "success",
+        "completed_at": "2026-11-09T15:18:37Z",
+        "credits_cost": 0,
+        "owner_approved": false
+      }
+    ],
+    "next_item": "S70-WAN30",
+    "next_item_state": "blocked_inputs",
+    "next_gate": "Actual S69 final frame + QC",
+    "owner_tasks_open": 1,
+    "owner_task_scope": "interactive parodies; not taken",
+    "preferred_executor": "work",
+    "bot_wake_issue": "509, closed stale signal; no Relay ACK claimed",
+    "peers": {
+      "ordinary_last_run": "9a3f4b2f-c5fc-8332-8595-ecb6616713f4",
+      "relay_last_run": "eee37fb7-6a34-8323-9d8b-d521e9d07fac",
+      "hh55_last_run": "1fa16eeb-3670-8331-aec9-d5ebf79d5a96"
+    }
+  },
+  "hours_schedule_changed": false
 }
