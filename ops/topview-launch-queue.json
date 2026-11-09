@@ -4686,12 +4686,19 @@
           "required": true,
           "canonical_role": "owner_previous_video_end",
           "input_status": "available",
-          "library_file_id": "libfile_4370d4db8fb8819186b6c9e890ef46e3",
           "filename": "S62-source-A-last3s.mp4",
-          "sha256": "5786c8aa50d3a4d68c38f4953a1933d8b421aed86ca0ac3f647d3ef518283fe7",
+          "sha256": "5ea587ea568c4b1ec252e788ba05a1e86a6074d76651f87bfb94d16d6c8f09a8",
+          "bytes": 1384585,
           "duration_seconds": 3,
-          "provenance_path": "references/scenes/scene-62/source-continuity.json",
-          "qc_status": "usable_for_continuity"
+          "width": 1280,
+          "height": 720,
+          "fps": 24,
+          "frames": 72,
+          "source_start_frame_zero_based": 289,
+          "source_end_frame_inclusive": 360,
+          "drive_file_id": "1Nc1wItx51QFUfk2G5BGktqole_RIO0QB",
+          "provenance_path": "references/scenes/scene-62/S62-source-A-last3s-20261109.json",
+          "qc_status": "self_trim_metadata_verified_not_film_accepted"
         },
         {
           "slot": "@Image1",

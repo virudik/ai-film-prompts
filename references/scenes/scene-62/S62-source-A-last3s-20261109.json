@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "item_id": "S62-SEED20-P1-R2-20261108",
+  "slot": "@Video1",
+  "kind": "self_trim_of_existing_original",
+  "not_a_generation": true,
+  "not_film_accepted": true,
+  "not_full_original_qc": true,
+  "full_original": {
+    "filename": "260708_0006_video_edit_3448.mp4",
+    "sha256": "94126bd1dcaf9afe53b952e60449f7f5513ccc66db8aff06a6dd4291c7c48e98",
+    "bytes": 8802878,
+    "topview_task_id": "9fd93e2905e14c77b616884f1d6962f6",
+    "drive_alias_name": "S16-desert-source-2.mp4",
+    "drive_file_id": "1Zp52r9bgkozj-GUOCDmWb5mc6YNMSYiz",
+    "video": {
+      "codec": "h264",
+      "width": 1280,
+      "height": 720,
+      "fps": 24,
+      "nb_frames": 361,
+      "duration_seconds": 15.041667
+    }
+  },
+  "trim": {
+    "filename": "S62-source-A-last3s.mp4",
+    "drive_name": "S62-source-A-last3s-original-20261109.mp4",
+    "sha256": "5ea587ea568c4b1ec252e788ba05a1e86a6074d76651f87bfb94d16d6c8f09a8",
+    "bytes": 1384585,
+    "drive_file_id": "1Nc1wItx51QFUfk2G5BGktqole_RIO0QB",
+    "drive_parent": "1ilIL52alNkjLMiab2XaMcKc6H_y951Nl",
+    "drive_md5": null,
+    "drive_revision": null,
+    "codec": {
+      "video": "h264",
+      "audio": "aac",
+      "width": 1280,
+      "height": 720,
+      "fps": 24,
+      "frames": 72,
+      "duration_seconds": 3.0
+    },
+    "source_frames_inclusive": [
+      289,
+      360
+    ],
+    "source_time_seconds": [
+      12.041666666666666,
+      15.041666666666666
+    ],
+    "rounded_label_seconds": [
+      12.04,
+      15.04
+    ]
+  },
+  "command": [
+    "ffmpeg",
+    "-y",
+    "-i",
+    "260708_0006_video_edit_3448.mp4",
+    "-vf",
+    "select='between(n,289,360)',setpts=N/24/TB",
+    "-af",
+    "atrim=start=12.041666666666666:end=15.041666666666666,asetpts=PTS-STARTPTS",
+    "-r",
+    "24",
+    "-s",
+    "1280x720",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "slow",
+    "-crf",
+    "18",
+    "-pix_fmt",
+    "yuv420p",
+    "-c:a",
+    "aac",
+    "-b:a",
+    "192k",
+    "-ar",
+    "44100",
+    "-ac",
+    "2",
+    "-movflags",
+    "+faststart",
+    "S62-source-A-last3s.mp4"
+  ],
+  "independent_check": {
+    "method": "sha256 of the attached files; ffprobe; decoded RGB of trim frames 0 and 71 versus source frames 289 and 360",
+    "original_sha_match": true,
+    "trim_sha_match": true,
+    "trim_decoded_frames": 72,
+    "endpoint_mean_abs_rgb": {
+      "frame_289_vs_trim_0": 0.8568674045138889,
+      "frame_360_vs_trim_71": 1.0664019097222222
+    },
+    "control_mean_abs_rgb_frame_200_vs_trim_0": 64.43567708333333,
+    "reencode_sha_reproduced": false,
+    "note": "x264 output is not bit-stable across machines. The window is identified by the decoded endpoints, not by calling this file the legacy trim."
+  },
+  "parent_review": {
+    "scope": "expert watch of the 3s clip only",
+    "watch": "87785a71",
+    "refs": [
+      "t400s1931",
+      "t400s1932"
+    ],
+    "reported": "fall without a visible tear; Artem left, beige-brown, green blade while lit; Ilyusha right, green tunic, red cape, blue blade while lit; both end supine with blades off; synchronous audio reported",
+    "not_claimed": [
+      "human_qc",
+      "full_original_qc",
+      "film_accepted"
+    ]
+  },
+  "legacy": {
+    "trim_sha256": "5786c8aa50d3a4d68c38f4953a1933d8b421aed86ca0ac3f647d3ef518283fe7",
+    "library_file_id": "libfile_4370d4db8fb8819186b6c9e890ef46e3",
+    "kept_in": "references/scenes/scene-62/source-continuity.json sources[0] and the submitted S62-SEED20-P1 item",
+    "this_file_is_not_that_sha": true
+  },
+  "rejected_generated_clip_is_not_this_input": true,
+  "image4_final_sha256": "71f89c0e8991acbfac7e8c3ba96653d5cb409635611d8f6056841ad32a82ca94",
+  "image5_is_future_part2_endpoint_only": true,
+  "authorization_unchanged": "owner-20261108-t362s1681",
+  "prompt_sha256_unchanged": "7077f88f6ea65cf820654f3ce5165168c56cec63eb36a3b2072f3e6c6c38d317"
+}
