@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-09T12:01:51+00:00",
-  "source_head": "10ec9a962bd3c20d003bf07699f1659e3e6673ea",
-  "source_fingerprint": "baf98b73a703f45502f3a3e1c3a25a0207e9c0dcc9c5f94b17e4a9aad2b8caef",
+  "checked_at": "2026-11-09T12:07:01+00:00",
+  "source_head": "a4184a6907a06c5aa8879993b55a2e8249ea62a4",
+  "source_fingerprint": "4d54ad387a8edfe0aeaaad81539567dc433384b0bafed8216261cb3b61a0515b",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -170,7 +170,22 @@
     "Current capabilities; for a video submit use all-project slot scan, input/QC, Unlimited0 and CAS claim"
   ],
   "queue_recovery": {
-    "unresolved": [],
+    "unresolved": [
+      {
+        "item_id": "S59-SEED20-P4",
+        "state": "submitting",
+        "task_id": null,
+        "recovery_action": "reconcile_without_resubmitting",
+        "submit_authorized": false
+      },
+      {
+        "item_id": "S52-R2-SEED20-P6",
+        "state": "submitting",
+        "task_id": null,
+        "recovery_action": "reconcile_without_resubmitting",
+        "submit_authorized": false
+      }
+    ],
     "existing_task_count": 76,
     "existing_tasks": [
       {
@@ -480,13 +495,6 @@
     ],
     "next_candidates": [
       {
-        "item_id": "S52-R2-SEED20-P6",
-        "state": "waiting_for_slot",
-        "task_id": null,
-        "recovery_action": "fresh_launch_preflight_required",
-        "submit_authorized": false
-      },
-      {
         "item_id": "S62-SEED20-P1-R2-20261108",
         "state": "waiting_for_slot",
         "task_id": null,
@@ -494,7 +502,14 @@
         "submit_authorized": false
       },
       {
-        "item_id": "S59-SEED20-P4",
+        "item_id": "S51E",
+        "state": "waiting_for_slot",
+        "task_id": null,
+        "recovery_action": "fresh_launch_preflight_required",
+        "submit_authorized": false
+      },
+      {
+        "item_id": "S51F",
         "state": "waiting_for_slot",
         "task_id": null,
         "recovery_action": "fresh_launch_preflight_required",
@@ -556,12 +571,12 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "d12783b7fb0236ee7b0e39bba0b402e7e1279e6f0fb20bd955c18565a49fd1f5",
-      "bytes": 361771
+      "sha256": "3905d62e9684860e71514f3597877906f0a338b3f75475bd020f219c1d7c0d3f",
+      "bytes": 367037
     },
     {
       "file": "project-status.json",
-      "sha256": "25f9431f5402f630802baa7f9b95c7792e81a21f7491585dea9ef411758901c1",
+      "sha256": "c57a529cbcc354d611ebbb1b1947e664a6e72d5f20f9774e582e0b7133ee120e",
       "bytes": 25723
     },
     {
@@ -600,5 +615,5 @@
       "bytes": 100790
     }
   ],
-  "packet_bytes": 6466
+  "packet_bytes": 6565
 }
