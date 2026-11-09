@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-09T20:23:11+00:00",
-  "source_head": "c192c66cc731a4f6f82f3cab69818f8147074f59",
-  "source_fingerprint": "60ae91cea64c2cd15a320021e436509e0e21f395bf1f0f90b9ef5fb529e4c6b9",
+  "checked_at": "2026-11-09T20:38:32+00:00",
+  "source_head": "6abf4e67da674ff9fbbe2ac6e27e92bddd0b54a6",
+  "source_fingerprint": "4ba383e3fc09edd829daa47afadf834652400021b0826b6326d27217445034e0",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -35,28 +35,28 @@
   "selected_work": {
     "work_id": "SEREGIUS-PARODIES-20261109",
     "title": "Семь пародийных сцен с изображениями по прямой команде владельца",
-    "status": "existing_photos_published_reference_work_open",
-    "last_completed": "Сохранена отдельная галерея существующих фото: 7 основных кадров и 7 ранних композиционных черновиков, 21 текст без изменений.",
-    "next_action": "Не генерировать заново. Сверить parodies.html, 7 основных PNG и 7 первых композиционных черновиков; все доступные варианты — в указанной Drive-папке. Первые фото не являются исправлением лиц и не входят в видеовходы. Коррекция остальных лиц/дополнительные кадры и старые независимые поручения остаются открытыми; никакой автоприёмки или видеозапуска.",
-    "verified_at": "2026-11-09T20:18:38+00:00",
+    "status": "photos_delivered_reference_edits_pending",
+    "last_completed": "Выполнена новая задача сохранения существующих фото: на сайте14 оригиналов и14 превью, на Drive56 отдельных изображений (7 основных+7 первых+33 иных+9 прежних технических проб). Все байты скачаны обратно и SHA совпали. Семь ссылок из сцен проверены. Новых генераций/изменений промптов/приёмки/видео нет.",
+    "next_action": "Не загружать эти56 файлов и не создавать галерею повторно. Галерея parodies.html, папка https://drive.google.com/drive/folders/1m0kKr532uOqOzyoIZh_9ZlrWfOoQtNxu. Первые фото отдельно как композиционные черновики, не входы личности. Полная доработка лиц и дополнительных кадров остаётся открытой; эта квитанция закрывает только выгрузку существующих фото. Новых генераций не выполнять без продолжения владельца.",
+    "verified_at": "2026-11-09T20:38:32+00:00",
     "blockers": [],
     "evidence": [
       {
-        "file": "reports/parody-existing-photos-publication-2026-11-09.json",
-        "sha256": "b54156f62f6653ad1c81b50d1b7684980bc353b1e50bd8438f1b713270e5a52e"
+        "file": "reports/parody-photo-delivery-2026-11-09.json",
+        "sha256": "51348f3d752a42140b66bbb5322f926b9f906a1f5046f0579b005362cff04cf0"
       }
     ],
     "read_next": [
-      "parodies.html",
-      "reports/parody-existing-photos-publication-2026-11-09.json"
+      "reports/parody-existing-photos-publication-2026-11-09.json",
+      "archive/parody-74-80/drive-photo-manifest.json"
     ],
     "checkpoint": {
       "file": "reports/current-work-checkpoint.md",
-      "anchor": "# 09.11.2026 — сохранение существующих фото пародий на сайт и Drive",
-      "sha256": "23ef3045ade66bbdad5b82400b126b1081bbe11ffaa4105523d75cd627c5335d"
+      "anchor": "# 09.11.2026 — фото пародий: сайт и Drive проверены обратным скачиванием",
+      "sha256": "a2d167df9e9d062943b11a4a4d56cf5933f9d8889d247d902d72040789fe17cc"
     }
   },
-  "checkpoint_text": "# 09.11.2026 — сохранение существующих фото пародий на сайт и Drive\n\nwork_id: SEREGIUS-PARODIES-20261109\n\n- Новая команда: сохранить то, что уже есть, без новых генераций.\n- Семь основных PNG не менялись; семь первых фото опубликованы в отдельной архивной галерее, не как референсы лиц. Во всех сценах 74–80 есть ссылка на фотографии и Drive-папку.\n- Все 21 видеопромпт сохранены без изменения текста; очередь и приёмка не изменены.\n- Drive: https://drive.google.com/drive/folders/1m0kKr532uOqOzyoIZh_9ZlrWfOoQtNxu\n- Доказательство: reports/parody-existing-photos-publication-2026-11-09.json. Полная доводка сцен не заявлена.\n- Следующий шаг: Не генерировать заново. Сверить parodies.html, 7 основных PNG и 7 первых композиционных черновиков; все доступные варианты — в указанной Drive-папке. Первые фото не являются исправлением лиц и не входят в видеовходы. Коррекция остальных лиц/дополнительные кадры и старые независимые поручения остаются открытыми; никакой автоприёмки или видеозапуска.\n\nchecked_at: 2026-11-09T20:18:38+00:00\n",
+  "checkpoint_text": "# 09.11.2026 — фото пародий: сайт и Drive проверены обратным скачиванием\n\nwork_id: SEREGIUS-PARODIES-20261109\n\n- Выполнена новая задача сохранения существующих фото: на сайте14 оригиналов и14 превью, на Drive56 отдельных изображений (7 основных+7 первых+33 иных+9 прежних технических проб). Все байты скачаны обратно и SHA совпали. Семь ссылок из сцен проверены. Новых генераций/изменений промптов/приёмки/видео нет.\n- Доказательство: reports/parody-photo-delivery-2026-11-09.json; actual run 42694738909.\n- Следующий шаг: Не загружать эти56 файлов и не создавать галерею повторно. Галерея parodies.html, папка https://drive.google.com/drive/folders/1m0kKr532uOqOzyoIZh_9ZlrWfOoQtNxu. Первые фото отдельно как композиционные черновики, не входы личности. Полная доработка лиц и дополнительных кадров остаётся открытой; эта квитанция закрывает только выгрузку существующих фото. Новых генераций не выполнять без продолжения владельца.\n\nchecked_at: 2026-11-09T20:38:32+00:00\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -150,8 +150,8 @@
     }
   ],
   "read_next": [
-    "parodies.html",
-    "reports/parody-existing-photos-publication-2026-11-09.json"
+    "reports/parody-existing-photos-publication-2026-11-09.json",
+    "archive/parody-74-80/drive-photo-manifest.json"
   ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
@@ -595,8 +595,8 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "34a29ced3a8c4d10bfea8706d2f683b8dc79f16af00886f23c0e6e31333b70cf",
-      "bytes": 40772
+      "sha256": "0d0eea78258aa8e4e180dbd2e1ab46c2e7521bd6f522b2fdadf106853c7ae48a",
+      "bytes": 42328
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -604,9 +604,9 @@
       "bytes": 71765
     },
     {
-      "file": "reports/parody-existing-photos-publication-2026-11-09.json",
-      "sha256": "b54156f62f6653ad1c81b50d1b7684980bc353b1e50bd8438f1b713270e5a52e",
-      "bytes": 10774
+      "file": "reports/parody-photo-delivery-2026-11-09.json",
+      "sha256": "51348f3d752a42140b66bbb5322f926b9f906a1f5046f0579b005362cff04cf0",
+      "bytes": 33105
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -625,9 +625,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "86deaea9610664d073069cffdb6812f10231ba97b5d746777afd7c9744d23f2b",
-      "bytes": 100607
+      "sha256": "02f658830617e86dcfb300559fc319442bf7643f965ce69801f5d536d4d4ec68",
+      "bytes": 101477
     }
   ],
-  "packet_bytes": 6594
+  "packet_bytes": 6890
 }

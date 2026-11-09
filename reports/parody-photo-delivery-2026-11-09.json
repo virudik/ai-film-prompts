@@ -1,0 +1,790 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "work_id": "SEREGIUS-PARODIES-20261109",
+  "checked_at": "2026-11-09T20:38:31+00:00",
+  "run_id": "42694738909",
+  "scope": "Readback of existing photos only; no generation, approvals, queue changes or new video",
+  "drive_folder": "https://drive.google.com/drive/folders/1m0kKr532uOqOzyoIZh_9ZlrWfOoQtNxu",
+  "drive_count": 56,
+  "drive_verified": 56,
+  "drive_results": [
+    {
+      "drive_id": "1tLKfUsUi99QmYorNo9nSy8j2DAuUotcK",
+      "name": "Сцена 74 — Рык в кинокольце.png",
+      "category": "01-main",
+      "expected_sha256": "ef65d3aae1a4bdeb4f49d19c576136a7dffa0b8852be06e0affac76b3c443b18",
+      "expected_bytes": 2473956,
+      "verified": true,
+      "bytes": 2473956,
+      "sha256": "ef65d3aae1a4bdeb4f49d19c576136a7dffa0b8852be06e0affac76b3c443b18"
+    },
+    {
+      "drive_id": "18PHtT_kqQzEnHW9AddOF3wGNcPy_lPLU",
+      "name": "Сцена 75 — Месяц над рекой.png",
+      "category": "01-main",
+      "expected_sha256": "82cf2a58e8c89ee641fb41e595815734a56b484da4f636ee5b2461929ab739d9",
+      "expected_bytes": 2354190,
+      "verified": true,
+      "bytes": 2354190,
+      "sha256": "82cf2a58e8c89ee641fb41e595815734a56b484da4f636ee5b2461929ab739d9"
+    },
+    {
+      "drive_id": "1Sg1sL5L13CiT0i03r7PbxkI4frUwjq0m",
+      "name": "Сцена 76 — Кандибобер.png",
+      "category": "01-main",
+      "expected_sha256": "401a265a914ea5644e087edf3b44e58c44f10169e23d3c381a598d0f33de0f8a",
+      "expected_bytes": 2231273,
+      "verified": true,
+      "bytes": 2231273,
+      "sha256": "401a265a914ea5644e087edf3b44e58c44f10169e23d3c381a598d0f33de0f8a"
+    },
+    {
+      "drive_id": "1yiKy4G3KO7TeZhRls4GUVrpjcUt2Hx4u",
+      "name": "Сцена 77 — Взрослый любовный треугольник.png",
+      "category": "01-main",
+      "expected_sha256": "d983630f247d8ba80003c7dbcabc576fe45b555a90ba51cf1d869dc8921b161f",
+      "expected_bytes": 2406799,
+      "verified": true,
+      "bytes": 2406799,
+      "sha256": "d983630f247d8ba80003c7dbcabc576fe45b555a90ba51cf1d869dc8921b161f"
+    },
+    {
+      "drive_id": "17m6bchB7DU3FTUo7tm8ArPLSKswOnVop",
+      "name": "Сцена 78 — Семья и майонез.png",
+      "category": "01-main",
+      "expected_sha256": "ff2103c750d878f2f9b0daffb16c9d42fa3890b5cde9eb31271250362c45a1e6",
+      "expected_bytes": 2471891,
+      "verified": true,
+      "bytes": 2471891,
+      "sha256": "ff2103c750d878f2f9b0daffb16c9d42fa3890b5cde9eb31271250362c45a1e6"
+    },
+    {
+      "drive_id": "1JG_SOYHbfy2kCUenuatNrF4jTSCFAbX7",
+      "name": "Сцена 79 — Чипсы.png",
+      "category": "01-main",
+      "expected_sha256": "aba5a8b96c44fe286624da0eead53dd7a076d7116f3e4300b6159a1d7831a470",
+      "expected_bytes": 2731483,
+      "verified": true,
+      "bytes": 2731483,
+      "sha256": "aba5a8b96c44fe286624da0eead53dd7a076d7116f3e4300b6159a1d7831a470"
+    },
+    {
+      "drive_id": "1lD2PxiaRQbWFNoldrRb3hVku5axiqZtI",
+      "name": "Сцена 80 — Люкс из кладовки.png",
+      "category": "01-main",
+      "expected_sha256": "ff8c23f4ef3ffc5ec140d7a19dceba9bb8aa8bbddad2864f32b83ba4f21a7f3c",
+      "expected_bytes": 2787546,
+      "verified": true,
+      "bytes": 2787546,
+      "sha256": "ff8c23f4ef3ffc5ec140d7a19dceba9bb8aa8bbddad2864f32b83ba4f21a7f3c"
+    },
+    {
+      "drive_id": "1MqtXAOOESFIKEMvd0KCeteNVm6Hk63mm",
+      "name": "01 — Первый рык — черновик.png",
+      "category": "02-first",
+      "expected_sha256": "e599d1375874956387a8d31f49f8a9020782f3869a5ad50f613c3d151c23816f",
+      "expected_bytes": 2283353,
+      "verified": true,
+      "bytes": 2283353,
+      "sha256": "e599d1375874956387a8d31f49f8a9020782f3869a5ad50f613c3d151c23816f"
+    },
+    {
+      "drive_id": "17iSxKm9TnII2bRCawU_9d2D0wjeBkhqq",
+      "name": "02 — Факел — первый черновик.png",
+      "category": "02-first",
+      "expected_sha256": "b941aa5a0eed866aabebdaa70b530bbeec1231f678494f16fd7d784d5c56e294",
+      "expected_bytes": 2221471,
+      "verified": true,
+      "bytes": 2221471,
+      "sha256": "b941aa5a0eed866aabebdaa70b530bbeec1231f678494f16fd7d784d5c56e294"
+    },
+    {
+      "drive_id": "1Sy7roJlUEzecbiQuejJ3oFPQXe1nEWKM",
+      "name": "03 — Месяц — первый черновик.png",
+      "category": "02-first",
+      "expected_sha256": "826cb393bd3dcc24c0e3d7011ddd4f5df858ba4d53acfcd47704fa5ef4452410",
+      "expected_bytes": 2490312,
+      "verified": true,
+      "bytes": 2490312,
+      "sha256": "826cb393bd3dcc24c0e3d7011ddd4f5df858ba4d53acfcd47704fa5ef4452410"
+    },
+    {
+      "drive_id": "1Fr7Nvn4adNisEBQeljEaiCXtBLch7Pa6",
+      "name": "04 — Гора — первый черновик.png",
+      "category": "02-first",
+      "expected_sha256": "f34b580d5bcdfbbe93bd63f3957903bc0a16713359dfcc32c9ead68d5d54efe3",
+      "expected_bytes": 2660820,
+      "verified": true,
+      "bytes": 2660820,
+      "sha256": "f34b580d5bcdfbbe93bd63f3957903bc0a16713359dfcc32c9ead68d5d54efe3"
+    },
+    {
+      "drive_id": "1UW-hwDFVicwvyJY9mcv5Fv2xCqwLx7Bb",
+      "name": "05 — Глобус — первый черновик.png",
+      "category": "02-first",
+      "expected_sha256": "aba37f86fd0104c7dc2bbaaf130e897694f74fd86f33acddd1b3effbdaff3e79",
+      "expected_bytes": 2292906,
+      "verified": true,
+      "bytes": 2292906,
+      "sha256": "aba37f86fd0104c7dc2bbaaf130e897694f74fd86f33acddd1b3effbdaff3e79"
+    },
+    {
+      "drive_id": "1egZVI1uWP-t-qUQbxbF18rVphCy7rkWW",
+      "name": "06 — Прожекторы — первый черновик.png",
+      "category": "02-first",
+      "expected_sha256": "3eb205b2ce26c7854a340e92955b0866d585efc68b57d043959940c7fae7eec4",
+      "expected_bytes": 2442055,
+      "verified": true,
+      "bytes": 2442055,
+      "sha256": "3eb205b2ce26c7854a340e92955b0866d585efc68b57d043959940c7fae7eec4"
+    },
+    {
+      "drive_id": "1-pM7CFiIw2hOTD6emVjpI8n9522o5O1p",
+      "name": "07 — Кастрюля-гонг — первый черновик.png",
+      "category": "02-first",
+      "expected_sha256": "6aa3944fa39722a8657d782a69e21265165ade64d8e2f867465533d4ead31e50",
+      "expected_bytes": 2630627,
+      "verified": true,
+      "bytes": 2630627,
+      "sha256": "6aa3944fa39722a8657d782a69e21265165ade64d8e2f867465533d4ead31e50"
+    },
+    {
+      "drive_id": "1_kaCaxqPDVUt1foXXRkw4kpAjtee1Rd1",
+      "name": "01 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "f343e1e329142530d859c84daa7cc8ccd4592e9ac7716ee021d1d250685e15a1",
+      "expected_bytes": 2310427,
+      "verified": true,
+      "bytes": 2310427,
+      "sha256": "f343e1e329142530d859c84daa7cc8ccd4592e9ac7716ee021d1d250685e15a1"
+    },
+    {
+      "drive_id": "1o7pxjDCBpD4UVzRnMlDLqJoDUXvj_ube",
+      "name": "02 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "c4e6723b50e8d7b8165e8d9c4c6fa45895a9f990217093abbee3aed8f0d0ff09",
+      "expected_bytes": 2327805,
+      "verified": true,
+      "bytes": 2327805,
+      "sha256": "c4e6723b50e8d7b8165e8d9c4c6fa45895a9f990217093abbee3aed8f0d0ff09"
+    },
+    {
+      "drive_id": "19k-aPlwyy2-lKfF_PdKl0_6gSLfiUifG",
+      "name": "03 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "9ff6e3d8b2ac4565c991b4c9680246e2a89a368eda1eeb8659f4d1b517751b83",
+      "expected_bytes": 2244405,
+      "verified": true,
+      "bytes": 2244405,
+      "sha256": "9ff6e3d8b2ac4565c991b4c9680246e2a89a368eda1eeb8659f4d1b517751b83"
+    },
+    {
+      "drive_id": "1x9DdGhxtgi4mDeJFpzh7YyYaSLEW7ZrC",
+      "name": "04 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "3512fcf507e0681fba6f9cbeb81c8f3c614249171f79f185d8828ce995b7f1f3",
+      "expected_bytes": 2290664,
+      "verified": true,
+      "bytes": 2290664,
+      "sha256": "3512fcf507e0681fba6f9cbeb81c8f3c614249171f79f185d8828ce995b7f1f3"
+    },
+    {
+      "drive_id": "14HZR3dMmMEPV2IBFtkZbMy3ff1MBlUsL",
+      "name": "05 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "59cef8526fb5d346ff8bcd9e46281d63f7d9241b6127f6fbded89db58c25c5e4",
+      "expected_bytes": 2080102,
+      "verified": true,
+      "bytes": 2080102,
+      "sha256": "59cef8526fb5d346ff8bcd9e46281d63f7d9241b6127f6fbded89db58c25c5e4"
+    },
+    {
+      "drive_id": "12gMJNm9aAhC2E4fYlbuUBESFj_Wumo64",
+      "name": "06 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "2aced406b3d5b835171c8fb9ebf35b27421a19da9fd3e9251511f3928d2150d5",
+      "expected_bytes": 2366025,
+      "verified": true,
+      "bytes": 2366025,
+      "sha256": "2aced406b3d5b835171c8fb9ebf35b27421a19da9fd3e9251511f3928d2150d5"
+    },
+    {
+      "drive_id": "1rhHi_bGDqK9vEtekytW7bFXYY08gNdRP",
+      "name": "07 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "af518c2bcea173b88f56fdcededd7b5f5341ff5b9d0fce7bde57ee237fd1a1f9",
+      "expected_bytes": 2394207,
+      "verified": true,
+      "bytes": 2394207,
+      "sha256": "af518c2bcea173b88f56fdcededd7b5f5341ff5b9d0fce7bde57ee237fd1a1f9"
+    },
+    {
+      "drive_id": "1X9G8_RoSsC_y8VA6cioM1ZZ9JRDJRC38",
+      "name": "08 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "7d7dc92dd879cfa1dfb7b2624dcc3b09a86f95e9844b39b99e7e07e5338a4649",
+      "expected_bytes": 2535319,
+      "verified": true,
+      "bytes": 2535319,
+      "sha256": "7d7dc92dd879cfa1dfb7b2624dcc3b09a86f95e9844b39b99e7e07e5338a4649"
+    },
+    {
+      "drive_id": "1EQ0Md8aMT55qWfbI7BNV0MQwnxpW3dyD",
+      "name": "09 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "db2bbcb9d1bc82114da605654a733f7f2051fec9a98dee1eb035391bf079feed",
+      "expected_bytes": 2339853,
+      "verified": true,
+      "bytes": 2339853,
+      "sha256": "db2bbcb9d1bc82114da605654a733f7f2051fec9a98dee1eb035391bf079feed"
+    },
+    {
+      "drive_id": "1EGuVnFr7b4fkvwlo92KdKPZixeu69ZN_",
+      "name": "10 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "d32eb12bf7d3d22c8f0c0aab0b722361b99679eaef4fc751b37390ba2db3b530",
+      "expected_bytes": 2266340,
+      "verified": true,
+      "bytes": 2266340,
+      "sha256": "d32eb12bf7d3d22c8f0c0aab0b722361b99679eaef4fc751b37390ba2db3b530"
+    },
+    {
+      "drive_id": "1Tb-isJ_pdxxxdxy7e73bC_5DwckH2O7Q",
+      "name": "11 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "a918a7407fac83ff46435ce3a2a43f5c12ce00353a5be971abaae8a7381c2151",
+      "expected_bytes": 2260724,
+      "verified": true,
+      "bytes": 2260724,
+      "sha256": "a918a7407fac83ff46435ce3a2a43f5c12ce00353a5be971abaae8a7381c2151"
+    },
+    {
+      "drive_id": "1QR6rUEUCTEiwXvU3RfRKyqTLeb8V0QK4",
+      "name": "12 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "3855bc47ef6056cbbb23b1133f226a953f164328a7f3fa6c2278aeae26db095c",
+      "expected_bytes": 2290844,
+      "verified": true,
+      "bytes": 2290844,
+      "sha256": "3855bc47ef6056cbbb23b1133f226a953f164328a7f3fa6c2278aeae26db095c"
+    },
+    {
+      "drive_id": "1iRjioJ7pnHX8sTs3raATcHYbtk4znhOI",
+      "name": "13 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "6e5f9a505df76eea6850d6cd3e49e2ac257f9bd66aa556116cf36a51e135a8d4",
+      "expected_bytes": 2270243,
+      "verified": true,
+      "bytes": 2270243,
+      "sha256": "6e5f9a505df76eea6850d6cd3e49e2ac257f9bd66aa556116cf36a51e135a8d4"
+    },
+    {
+      "drive_id": "1sK_JkXx8hs23BGHYAil7YD9x5bbj4Q7H",
+      "name": "14 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "9ac8d3594ebc79297606c38c713113de53f7e58dc7dd70da447f6e906feb5a0f",
+      "expected_bytes": 2339190,
+      "verified": true,
+      "bytes": 2339190,
+      "sha256": "9ac8d3594ebc79297606c38c713113de53f7e58dc7dd70da447f6e906feb5a0f"
+    },
+    {
+      "drive_id": "1Lo7Neurtzvm5naJB_7-PjMxkPtolVwPI",
+      "name": "15 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "17d6dcfd9f44596ad688c2ca689dbdda993b94eb19094ef28c100da61be57e93",
+      "expected_bytes": 2273295,
+      "verified": true,
+      "bytes": 2273295,
+      "sha256": "17d6dcfd9f44596ad688c2ca689dbdda993b94eb19094ef28c100da61be57e93"
+    },
+    {
+      "drive_id": "1NnC2lk2KhEaTUXfRMaB9uLlDj0_hfiKR",
+      "name": "16 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "6e5ac491e7cd331e3b86b589e4e48e0cb01cec4de89206827be17bc36fc3ac9c",
+      "expected_bytes": 2382288,
+      "verified": true,
+      "bytes": 2382288,
+      "sha256": "6e5ac491e7cd331e3b86b589e4e48e0cb01cec4de89206827be17bc36fc3ac9c"
+    },
+    {
+      "drive_id": "1HcQ_dWsFeAz7Z0zg6MQD72wmMboINqUc",
+      "name": "17 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "dbc72adbbf55adb8019f0a69a816d93da4a75171a296dd21693700257294fcab",
+      "expected_bytes": 2459620,
+      "verified": true,
+      "bytes": 2459620,
+      "sha256": "dbc72adbbf55adb8019f0a69a816d93da4a75171a296dd21693700257294fcab"
+    },
+    {
+      "drive_id": "1Hxuo0L5szXrRxU1EZgfbrxD3ueBdjd-D",
+      "name": "18 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "f022694c10ae32d608de78a14b2b8b731e90160e41dd9fbe93576b9c568df1d5",
+      "expected_bytes": 2457986,
+      "verified": true,
+      "bytes": 2457986,
+      "sha256": "f022694c10ae32d608de78a14b2b8b731e90160e41dd9fbe93576b9c568df1d5"
+    },
+    {
+      "drive_id": "11Pyb5n2vT968bVnl_609oxE6NV4d7gJ4",
+      "name": "19 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "18ad034ffa3c57bd6afca9ad03d180700004eb7208b861f296e377d7924417fb",
+      "expected_bytes": 2833070,
+      "verified": true,
+      "bytes": 2833070,
+      "sha256": "18ad034ffa3c57bd6afca9ad03d180700004eb7208b861f296e377d7924417fb"
+    },
+    {
+      "drive_id": "1RD8_C2UZ0Qoju9NP4RQNXS3Fbppyh25z",
+      "name": "20 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "19e880bd76a9f811174503ce7a2769ce8f0e475ccd114f98a3720c5a685e9f9f",
+      "expected_bytes": 2184265,
+      "verified": true,
+      "bytes": 2184265,
+      "sha256": "19e880bd76a9f811174503ce7a2769ce8f0e475ccd114f98a3720c5a685e9f9f"
+    },
+    {
+      "drive_id": "1DEfIXbRQAEoZzVWoIa5skyg3NeD9kfO3",
+      "name": "21 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "e5effc6400d21a37e36c43385f93f4701421f451c1675e43abfba36559b36a63",
+      "expected_bytes": 2857901,
+      "verified": true,
+      "bytes": 2857901,
+      "sha256": "e5effc6400d21a37e36c43385f93f4701421f451c1675e43abfba36559b36a63"
+    },
+    {
+      "drive_id": "1GB3SwmtgWldd3SpMlZdXppkbYsdxN5V7",
+      "name": "22 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "6034c95df02cec00ea825e0bb0630f2a0bf181226a8d8f157fd6ee89c1f2e40d",
+      "expected_bytes": 2346119,
+      "verified": true,
+      "bytes": 2346119,
+      "sha256": "6034c95df02cec00ea825e0bb0630f2a0bf181226a8d8f157fd6ee89c1f2e40d"
+    },
+    {
+      "drive_id": "15O-GU-qZHdP5NZBYjPaeahVbC4V2IMgA",
+      "name": "23 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "626996d8f5e572a9ab64fbc85c06d03f9a6c33e65a27b84738c008fefb745b3d",
+      "expected_bytes": 2297079,
+      "verified": true,
+      "bytes": 2297079,
+      "sha256": "626996d8f5e572a9ab64fbc85c06d03f9a6c33e65a27b84738c008fefb745b3d"
+    },
+    {
+      "drive_id": "1uiDm--ngfRagxKgbgS-EqcYj_jpL5SBQ",
+      "name": "24 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "51d1c1ebedc15769b5da55dbfc6a0edc79ca94b1037e2fd396a3a4af11aa08fb",
+      "expected_bytes": 2301148,
+      "verified": true,
+      "bytes": 2301148,
+      "sha256": "51d1c1ebedc15769b5da55dbfc6a0edc79ca94b1037e2fd396a3a4af11aa08fb"
+    },
+    {
+      "drive_id": "1peC7Nc65sYj7lwsp_y-OFwqyfh5ZVQ_t",
+      "name": "25 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "569c43d062e305b8e87ba64cf1e628ad6f66738f848f0f01f648dcdd07942ab2",
+      "expected_bytes": 2448571,
+      "verified": true,
+      "bytes": 2448571,
+      "sha256": "569c43d062e305b8e87ba64cf1e628ad6f66738f848f0f01f648dcdd07942ab2"
+    },
+    {
+      "drive_id": "181jejRZ9pKfbfa870g6ViCnG21eK192b",
+      "name": "26 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "cc8bea07d2652c8e60a9df0c181052356ec7cc541fcd8e0e416413a0500af0d6",
+      "expected_bytes": 2781257,
+      "verified": true,
+      "bytes": 2781257,
+      "sha256": "cc8bea07d2652c8e60a9df0c181052356ec7cc541fcd8e0e416413a0500af0d6"
+    },
+    {
+      "drive_id": "1T2dU4PtNchpIugbtTSahHGMCPDApaPX4",
+      "name": "27 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "2f90505b3f75f799c226c887895d68c989dec0dc1b3df56c1eff65d31cea0400",
+      "expected_bytes": 2721240,
+      "verified": true,
+      "bytes": 2721240,
+      "sha256": "2f90505b3f75f799c226c887895d68c989dec0dc1b3df56c1eff65d31cea0400"
+    },
+    {
+      "drive_id": "1adBsD-PYd1la_neilJpqofquQUBq6O0e",
+      "name": "28 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "20313fe8e48303db73f5f13aa020decb35cf1b60aac6f8db226862b7484b1bc2",
+      "expected_bytes": 2178953,
+      "verified": true,
+      "bytes": 2178953,
+      "sha256": "20313fe8e48303db73f5f13aa020decb35cf1b60aac6f8db226862b7484b1bc2"
+    },
+    {
+      "drive_id": "1qIm8Y2Zn_pOferkCvtm0ZP1Oywukbp7B",
+      "name": "29 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "2441dcd22b78524088679ef1413c0c7624916fde2b0f805243648c5ef5ef81cf",
+      "expected_bytes": 2802601,
+      "verified": true,
+      "bytes": 2802601,
+      "sha256": "2441dcd22b78524088679ef1413c0c7624916fde2b0f805243648c5ef5ef81cf"
+    },
+    {
+      "drive_id": "192cU4RclQFkR8haxxzOmsz8dTdLzwx6T",
+      "name": "30 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "2cd23d80c977b80013a3f8f9133ebcb8fc034dd46d4e17dcff225103e92fa6fb",
+      "expected_bytes": 2681600,
+      "verified": true,
+      "bytes": 2681600,
+      "sha256": "2cd23d80c977b80013a3f8f9133ebcb8fc034dd46d4e17dcff225103e92fa6fb"
+    },
+    {
+      "drive_id": "1bFBrum5C21c0nagHW7GzJxmOG5kf3nqO",
+      "name": "31 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "db19ff1dc8d57c66fa64f3f043eaaef5569a606d9f6cd9f50410b58eed5a7f79",
+      "expected_bytes": 2201258,
+      "verified": true,
+      "bytes": 2201258,
+      "sha256": "db19ff1dc8d57c66fa64f3f043eaaef5569a606d9f6cd9f50410b58eed5a7f79"
+    },
+    {
+      "drive_id": "1HiiVOelihXmgz41fQNTI1OiYR0m7Gi8F",
+      "name": "32 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "3004657596caa80e666fbd1300eee34a558bfe25244ff166373f18b91f1ca561",
+      "expected_bytes": 2167499,
+      "verified": true,
+      "bytes": 2167499,
+      "sha256": "3004657596caa80e666fbd1300eee34a558bfe25244ff166373f18b91f1ca561"
+    },
+    {
+      "drive_id": "1ijoaZzrkc8qOOsmyMj6TVqUnbpVFLBGG",
+      "name": "33 — Неудачный вариант.png",
+      "category": "03-other",
+      "expected_sha256": "c25a4207bb0ed8b41cc3580eb73851028e4a1592097b204b707740d18ea789aa",
+      "expected_bytes": 2203275,
+      "verified": true,
+      "bytes": 2203275,
+      "sha256": "c25a4207bb0ed8b41cc3580eb73851028e4a1592097b204b707740d18ea789aa"
+    },
+    {
+      "drive_id": "1QkteDb0EC5kcmxzZDJBVebFp3EyFcmui",
+      "name": "01 — Прежнее техническое превью.jpg",
+      "category": "04-technical",
+      "expected_sha256": "e88d503d8f6ef3e9703b36eecb6000b1ddcdf3401c31b552183c7870f5de4f9b",
+      "expected_bytes": 74017,
+      "verified": true,
+      "bytes": 74017,
+      "sha256": "e88d503d8f6ef3e9703b36eecb6000b1ddcdf3401c31b552183c7870f5de4f9b"
+    },
+    {
+      "drive_id": "1Fgobo5_MnCCWlpeX47RYTfOCJJcxmNge",
+      "name": "02 — Прежнее техническое превью.jpg",
+      "category": "04-technical",
+      "expected_sha256": "e9ab8a4071755c8428ef3c3485b8046f50bdf10df700417e1ed36f9488ffcde3",
+      "expected_bytes": 83084,
+      "verified": true,
+      "bytes": 83084,
+      "sha256": "e9ab8a4071755c8428ef3c3485b8046f50bdf10df700417e1ed36f9488ffcde3"
+    },
+    {
+      "drive_id": "1gOkHI0V_IMO4yofGj0471RfMbbvmGEUL",
+      "name": "03 — Прежнее техническое превью.jpg",
+      "category": "04-technical",
+      "expected_sha256": "7b21bc4f55e370f8065120c7743a681965961af9960b11a272ad3142784221db",
+      "expected_bytes": 71671,
+      "verified": true,
+      "bytes": 71671,
+      "sha256": "7b21bc4f55e370f8065120c7743a681965961af9960b11a272ad3142784221db"
+    },
+    {
+      "drive_id": "19y5CPudxxCRbke8bjvbKH_k2hZeI6d1e",
+      "name": "04 — Прежнее техническое превью.jpg",
+      "category": "04-technical",
+      "expected_sha256": "4dbc518d5bbb08f93c01a608131ad62f80a2f48a0225205b41104cc90ef35370",
+      "expected_bytes": 88741,
+      "verified": true,
+      "bytes": 88741,
+      "sha256": "4dbc518d5bbb08f93c01a608131ad62f80a2f48a0225205b41104cc90ef35370"
+    },
+    {
+      "drive_id": "1phgzPFwG48iwQIkMjMpZ2vDpeR7qWw36",
+      "name": "05 — Глобус — проба обработки.jpg",
+      "category": "04-technical",
+      "expected_sha256": "950e39b87b42372742f5ddc9459cd03ad149e4601e5deff0dc9262c1a2f499ba",
+      "expected_bytes": 98826,
+      "verified": true,
+      "bytes": 98826,
+      "sha256": "950e39b87b42372742f5ddc9459cd03ad149e4601e5deff0dc9262c1a2f499ba"
+    },
+    {
+      "drive_id": "1tUxtmZYw9es8L3oJW41Qq1-xyieFbJfm",
+      "name": "06 — Факел — проба обработки.jpg",
+      "category": "04-technical",
+      "expected_sha256": "53db6929bcf8dd18d4eb3001c773bd233b7cbf98eed907c1c9a1dc2aa3618d8e",
+      "expected_bytes": 84836,
+      "verified": true,
+      "bytes": 84836,
+      "sha256": "53db6929bcf8dd18d4eb3001c773bd233b7cbf98eed907c1c9a1dc2aa3618d8e"
+    },
+    {
+      "drive_id": "1l7OcvnmZyKOUHy1PuSoles4ZQtRSOXEx",
+      "name": "07 — Факел — детализация пробы.png",
+      "category": "04-technical",
+      "expected_sha256": "ea734c6400a40c111881b1c8a002359d91a3be492863e53979e7b91ed5ddb5f5",
+      "expected_bytes": 336600,
+      "verified": true,
+      "bytes": 336600,
+      "sha256": "ea734c6400a40c111881b1c8a002359d91a3be492863e53979e7b91ed5ddb5f5"
+    },
+    {
+      "drive_id": "1OmGHbaHK01YgmHD9Hqgf5a8N8yEY1ovx",
+      "name": "08 — Факел — вторая проба обработки.png",
+      "category": "04-technical",
+      "expected_sha256": "c08fbef2f7cd80d42a4ec1b53978a8473cafc95b6a04bef9bb7b145a3c5a1f72",
+      "expected_bytes": 332978,
+      "verified": true,
+      "bytes": 332978,
+      "sha256": "c08fbef2f7cd80d42a4ec1b53978a8473cafc95b6a04bef9bb7b145a3c5a1f72"
+    },
+    {
+      "drive_id": "16hi7HSspiy6IMXof3FF5r7d7ngNksetT",
+      "name": "09 — Прежний обзор восстановленных кадров.jpg",
+      "category": "04-technical",
+      "expected_sha256": "ba6737f77322295307dca0d98deb7cdd281d69b1e24c2603a5e8f2ae3cffda51",
+      "expected_bytes": 255146,
+      "verified": true,
+      "bytes": 255146,
+      "sha256": "ba6737f77322295307dca0d98deb7cdd281d69b1e24c2603a5e8f2ae3cffda51"
+    }
+  ],
+  "gallery": {
+    "url": "https://xn--l1adcem8c.xn--d1aigvp.xn--p1ai/parodies.html",
+    "verified": true,
+    "bytes": 10017,
+    "sha256": "a0fee004917497cafcee662253b950b2c7f8ccfb09271512c3e0b6e00e5e6266"
+  },
+  "website_original_count": 14,
+  "website_originals_verified": 14,
+  "website_originals": [
+    {
+      "path": "references/scenes/scene-74/S74-studio-roar.png",
+      "expected_sha256": "ef65d3aae1a4bdeb4f49d19c576136a7dffa0b8852be06e0affac76b3c443b18",
+      "verified": true,
+      "bytes": 2473956,
+      "sha256": "ef65d3aae1a4bdeb4f49d19c576136a7dffa0b8852be06e0affac76b3c443b18"
+    },
+    {
+      "path": "references/scenes/scene-75/S75-moon-river.png",
+      "expected_sha256": "82cf2a58e8c89ee641fb41e595815734a56b484da4f636ee5b2461929ab739d9",
+      "verified": true,
+      "bytes": 2354190,
+      "sha256": "82cf2a58e8c89ee641fb41e595815734a56b484da4f636ee5b2461929ab739d9"
+    },
+    {
+      "path": "references/scenes/scene-76/S76-kandibober.png",
+      "expected_sha256": "401a265a914ea5644e087edf3b44e58c44f10169e23d3c381a598d0f33de0f8a",
+      "verified": true,
+      "bytes": 2231273,
+      "sha256": "401a265a914ea5644e087edf3b44e58c44f10169e23d3c381a598d0f33de0f8a"
+    },
+    {
+      "path": "references/scenes/scene-77/S77-love-triangle.png",
+      "expected_sha256": "d983630f247d8ba80003c7dbcabc576fe45b555a90ba51cf1d869dc8921b161f",
+      "verified": true,
+      "bytes": 2406799,
+      "sha256": "d983630f247d8ba80003c7dbcabc576fe45b555a90ba51cf1d869dc8921b161f"
+    },
+    {
+      "path": "references/scenes/scene-78/S78-mayonnaise-family.png",
+      "expected_sha256": "ff2103c750d878f2f9b0daffb16c9d42fa3890b5cde9eb31271250362c45a1e6",
+      "verified": true,
+      "bytes": 2471891,
+      "sha256": "ff2103c750d878f2f9b0daffb16c9d42fa3890b5cde9eb31271250362c45a1e6"
+    },
+    {
+      "path": "references/scenes/scene-79/S79-chips-council.png",
+      "expected_sha256": "aba5a8b96c44fe286624da0eead53dd7a076d7116f3e4300b6159a1d7831a470",
+      "verified": true,
+      "bytes": 2731483,
+      "sha256": "aba5a8b96c44fe286624da0eead53dd7a076d7116f3e4300b6159a1d7831a470"
+    },
+    {
+      "path": "references/scenes/scene-80/S80-budget-luxury.png",
+      "expected_sha256": "ff8c23f4ef3ffc5ec140d7a19dceba9bb8aa8bbddad2864f32b83ba4f21a7f3c",
+      "verified": true,
+      "bytes": 2787546,
+      "sha256": "ff8c23f4ef3ffc5ec140d7a19dceba9bb8aa8bbddad2864f32b83ba4f21a7f3c"
+    },
+    {
+      "path": "archive/parody-74-80/first-roar.png",
+      "expected_sha256": "e599d1375874956387a8d31f49f8a9020782f3869a5ad50f613c3d151c23816f",
+      "verified": true,
+      "bytes": 2283353,
+      "sha256": "e599d1375874956387a8d31f49f8a9020782f3869a5ad50f613c3d151c23816f"
+    },
+    {
+      "path": "archive/parody-74-80/first-torch.png",
+      "expected_sha256": "b941aa5a0eed866aabebdaa70b530bbeec1231f678494f16fd7d784d5c56e294",
+      "verified": true,
+      "bytes": 2221471,
+      "sha256": "b941aa5a0eed866aabebdaa70b530bbeec1231f678494f16fd7d784d5c56e294"
+    },
+    {
+      "path": "archive/parody-74-80/first-moon.png",
+      "expected_sha256": "826cb393bd3dcc24c0e3d7011ddd4f5df858ba4d53acfcd47704fa5ef4452410",
+      "verified": true,
+      "bytes": 2490312,
+      "sha256": "826cb393bd3dcc24c0e3d7011ddd4f5df858ba4d53acfcd47704fa5ef4452410"
+    },
+    {
+      "path": "archive/parody-74-80/first-mountain.png",
+      "expected_sha256": "f34b580d5bcdfbbe93bd63f3957903bc0a16713359dfcc32c9ead68d5d54efe3",
+      "verified": true,
+      "bytes": 2660820,
+      "sha256": "f34b580d5bcdfbbe93bd63f3957903bc0a16713359dfcc32c9ead68d5d54efe3"
+    },
+    {
+      "path": "archive/parody-74-80/first-globe.png",
+      "expected_sha256": "aba37f86fd0104c7dc2bbaaf130e897694f74fd86f33acddd1b3effbdaff3e79",
+      "verified": true,
+      "bytes": 2292906,
+      "sha256": "aba37f86fd0104c7dc2bbaaf130e897694f74fd86f33acddd1b3effbdaff3e79"
+    },
+    {
+      "path": "archive/parody-74-80/first-searchlights.png",
+      "expected_sha256": "3eb205b2ce26c7854a340e92955b0866d585efc68b57d043959940c7fae7eec4",
+      "verified": true,
+      "bytes": 2442055,
+      "sha256": "3eb205b2ce26c7854a340e92955b0866d585efc68b57d043959940c7fae7eec4"
+    },
+    {
+      "path": "archive/parody-74-80/first-gong.png",
+      "expected_sha256": "6aa3944fa39722a8657d782a69e21265165ade64d8e2f867465533d4ead31e50",
+      "verified": true,
+      "bytes": 2630627,
+      "sha256": "6aa3944fa39722a8657d782a69e21265165ade64d8e2f867465533d4ead31e50"
+    }
+  ],
+  "website_thumbnails_verified": 14,
+  "website_thumbnails": [
+    {
+      "path": "archive/parody-74-80/thumbs/S74-studio-roar.jpg",
+      "expected_sha256": "50f83a357dcdfcd63b52513ee05907225440d498d37cc8803fd80a5f2d9979ed",
+      "verified": true,
+      "bytes": 112567,
+      "sha256": "50f83a357dcdfcd63b52513ee05907225440d498d37cc8803fd80a5f2d9979ed"
+    },
+    {
+      "path": "archive/parody-74-80/thumbs/S75-moon-river.jpg",
+      "expected_sha256": "e06a6cfc90be5c4078b4089ffb57e825f19f56a96cf47c678ef481cb9727f7ac",
+      "verified": true,
+      "bytes": 125214,
+      "sha256": "e06a6cfc90be5c4078b4089ffb57e825f19f56a96cf47c678ef481cb9727f7ac"
+    },
+    {
+      "path": "archive/parody-74-80/thumbs/S76-kandibober.jpg",
+      "expected_sha256": "e7b55d9f742d44540f1497b50e375fe8c7dcf51c875f858e2d3b36736b329314",
+      "verified": true,
+      "bytes": 100669,
+      "sha256": "e7b55d9f742d44540f1497b50e375fe8c7dcf51c875f858e2d3b36736b329314"
+    },
+    {
+      "path": "archive/parody-74-80/thumbs/S77-love-triangle.jpg",
+      "expected_sha256": "0a75961054ef22f297b12434b1a56111f42192e11f64ee79821f7d93d6070cbb",
+      "verified": true,
+      "bytes": 109480,
+      "sha256": "0a75961054ef22f297b12434b1a56111f42192e11f64ee79821f7d93d6070cbb"
+    },
+    {
+      "path": "archive/parody-74-80/thumbs/S78-mayonnaise-family.jpg",
+      "expected_sha256": "0b4596317db09ac4c7e02de0e8730f39e5c978d59146fbea9511b4c7d402d917",
+      "verified": true,
+      "bytes": 125996,
+      "sha256": "0b4596317db09ac4c7e02de0e8730f39e5c978d59146fbea9511b4c7d402d917"
+    },
+    {
+      "path": "archive/parody-74-80/thumbs/S79-chips-council.jpg",
+      "expected_sha256": "f34d60482d76f8c93c177f3fefdfb4b1083e9aa2c761fafcf360c10bca98c9b6",
+      "verified": true,
+      "bytes": 147493,
+      "sha256": "f34d60482d76f8c93c177f3fefdfb4b1083e9aa2c761fafcf360c10bca98c9b6"
+    },
+    {
+      "path": "archive/parody-74-80/thumbs/S80-budget-luxury.jpg",
+      "expected_sha256": "32348689095e7786c504f5f0a91c3f8021b2925abae4bfca1c0c3f586e5c141a",
+      "verified": true,
+      "bytes": 141563,
+      "sha256": "32348689095e7786c504f5f0a91c3f8021b2925abae4bfca1c0c3f586e5c141a"
+    },
+    {
+      "path": "archive/parody-74-80/thumbs/first-roar.jpg",
+      "expected_sha256": "ad68a84ac62fa85bd4e2e079d1ed767743eff8ca790e9114dbd6d68684a7a37b",
+      "verified": true,
+      "bytes": 119346,
+      "sha256": "ad68a84ac62fa85bd4e2e079d1ed767743eff8ca790e9114dbd6d68684a7a37b"
+    },
+    {
+      "path": "archive/parody-74-80/thumbs/first-torch.jpg",
+      "expected_sha256": "3e894141df5391e5efedc4793983a974cfddafbb037795c4ed5a99ab35b822a2",
+      "verified": true,
+      "bytes": 108722,
+      "sha256": "3e894141df5391e5efedc4793983a974cfddafbb037795c4ed5a99ab35b822a2"
+    },
+    {
+      "path": "archive/parody-74-80/thumbs/first-moon.jpg",
+      "expected_sha256": "6329627819a714754b6fdc8410eac5cfd1ddd7344a67e78ee310cc5de31786d2",
+      "verified": true,
+      "bytes": 133956,
+      "sha256": "6329627819a714754b6fdc8410eac5cfd1ddd7344a67e78ee310cc5de31786d2"
+    },
+    {
+      "path": "archive/parody-74-80/thumbs/first-mountain.jpg",
+      "expected_sha256": "6ebf22a35f435229eb7291142c50db264579ae32a0607b3087d02542d04558d4",
+      "verified": true,
+      "bytes": 149107,
+      "sha256": "6ebf22a35f435229eb7291142c50db264579ae32a0607b3087d02542d04558d4"
+    },
+    {
+      "path": "archive/parody-74-80/thumbs/first-globe.jpg",
+      "expected_sha256": "8221b3050265d1bfa044ae23338454bca3d350a0ab55d40a4a63d9dd0036985f",
+      "verified": true,
+      "bytes": 126698,
+      "sha256": "8221b3050265d1bfa044ae23338454bca3d350a0ab55d40a4a63d9dd0036985f"
+    },
+    {
+      "path": "archive/parody-74-80/thumbs/first-searchlights.jpg",
+      "expected_sha256": "4013fd73ed8cd633034f9c18d40f5a85e1a5f1017c3bf2e6548b00d79e88890b",
+      "verified": true,
+      "bytes": 127947,
+      "sha256": "4013fd73ed8cd633034f9c18d40f5a85e1a5f1017c3bf2e6548b00d79e88890b"
+    },
+    {
+      "path": "archive/parody-74-80/thumbs/first-gong.jpg",
+      "expected_sha256": "e2a466ce1ccebc90dba0bc8bc4061e2d1945c4e43a06843d823d3d6f3a937b2f",
+      "verified": true,
+      "bytes": 153521,
+      "sha256": "e2a466ce1ccebc90dba0bc8bc4061e2d1945c4e43a06843d823d3d6f3a937b2f"
+    }
+  ],
+  "master_links": {
+    "verified": true,
+    "scene_links": 7,
+    "drive_folder": "https://drive.google.com/drive/folders/1m0kKr532uOqOzyoIZh_9ZlrWfOoQtNxu"
+  },
+  "new_generated_images": 0,
+  "full_creative_task_complete": false,
+  "delivery_stage_complete": true
+}
