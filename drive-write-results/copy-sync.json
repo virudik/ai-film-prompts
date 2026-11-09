@@ -1,26 +1,26 @@
 {
-  "checked_at": "2026-11-08T10:24:47Z",
+  "checked_at": "2026-11-09T11:34:26Z",
   "mode": "sync",
   "summary": {
-    "written": 2,
-    "current": 8
+    "written": 3,
+    "current": 7
   },
   "files": [
     {
       "name": "video-prompts.md",
-      "github_sha256": "aceab9168c854917fb02eb13bf579af4bf5f4922dae0d6c9cead15ecaa897168",
+      "github_sha256": "1ac998f62a068fd762bf0911088e0c8a05938f86556d06c1f6e4868433139734",
       "file_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-      "drive_sha256": "aceab9168c854917fb02eb13bf579af4bf5f4922dae0d6c9cead15ecaa897168",
+      "drive_sha256": "1ac998f62a068fd762bf0911088e0c8a05938f86556d06c1f6e4868433139734",
       "status": "written",
-      "drive_modified": "2026-11-08T10:24:33.995Z"
+      "drive_modified": "2026-11-09T11:34:09.840Z"
     },
     {
       "name": "NEW-CHAT-HANDOFF.md",
-      "github_sha256": "fcaed4b4eaf4d3b27eb9b68288a99d9bd861ee45faa98f2d7d6ca027c7fb848b",
+      "github_sha256": "1992ae738969ea6b8207959f03ba947cd9adb284ca68b36598e98bdaa5e21136",
       "file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_sha256": "fcaed4b4eaf4d3b27eb9b68288a99d9bd861ee45faa98f2d7d6ca027c7fb848b",
+      "drive_sha256": "1992ae738969ea6b8207959f03ba947cd9adb284ca68b36598e98bdaa5e21136",
       "status": "written",
-      "drive_modified": "2026-11-08T10:24:39.653Z"
+      "drive_modified": "2026-11-09T11:34:15.256Z"
     },
     {
       "name": "SYNC-RUNBOOK.md",
@@ -48,11 +48,11 @@
     },
     {
       "name": "USER-GUIDE.md",
-      "github_sha256": "b115d684906c9cb5003d6493958af67d233d1d2cb5e216c8c7ed65d1e844053c",
+      "github_sha256": "931b751a155ab065157c8707939988d1e10fa0ab63de54b1f34defbb5149ce79",
       "file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_sha256": "b115d684906c9cb5003d6493958af67d233d1d2cb5e216c8c7ed65d1e844053c",
-      "status": "current",
-      "drive_modified": "2026-11-04T10:57:10.239Z"
+      "drive_sha256": "931b751a155ab065157c8707939988d1e10fa0ab63de54b1f34defbb5149ce79",
+      "status": "written",
+      "drive_modified": "2026-11-09T11:34:21.092Z"
     },
     {
       "name": "README-AI-SYNC.md",
