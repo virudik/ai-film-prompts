@@ -3,115 +3,54 @@
   "project": "seregius",
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "4c529eb2-b699-43ae-8950-93511e581a18",
-  "run_id": "1f4ab0a7-a820-8323-9b86-ce6cadfd9e6a",
-  "runtime_run_id_source": "Automations.peek current last_run.id in_progress; scheduled_for=2026-11-09T10:00:00Z",
-  "source_head": "5c920631a92658967b476236222bfd98e967fa29",
+  "execution_instance_id": "ef38bc68-b9c8-477b-afdd-52fb1c64d7fc",
+  "run_id": "3a9c99cc-c050-832e-854e-c282cc96c275",
+  "runtime_run_id_source": "Automations.peek last_run.id in_progress; scheduled_for=2026-11-09T11:00:00Z; started_at=2026-11-09T10:55:10.354439Z",
+  "source_head": "8796fc02b2cc41d0794613029a1d43f6c4eac489",
   "route_generation": 3,
-  "started_at": "2026-11-09T10:32:26.511414Z",
-  "receipt_started_at": "2026-11-09T10:37:29.752Z",
-  "phase": "complete",
-  "status": "completed",
+  "started_at": "2026-11-09T10:55:10.354439Z",
+  "receipt_started_at": "2026-11-09T11:06:55.026Z",
+  "status": "started",
+  "phase": "read_only_scan_complete_before_receipt",
   "scan": {
-    "complete": true,
-    "source": "Topview connector read-only: all 14 boards, all 18 pages (mediaType=video, pageSize=100); all counts reconciled; 28 direct queue task ID readbacks",
-    "scope": "All 14 boards / 18 pages / 650 physical video tasks; no Create",
-    "boards": 14,
-    "pages": 18,
-    "video_tasks": 650,
-    "status_counts": {
-      "success": 623,
-      "fail": 26,
-      "init": 1,
-      "other_active": 0
-    },
-    "active_task_ids": [
-      "5dbf6f87306a4f2f958781935894aaca"
-    ],
-    "checked_at": "2026-11-09T10:43:15.465Z",
-    "snapshot_note": "Global capacity is observed snapshot, not a slot reservation."
+    "complete": null,
+    "checked_at": null
   },
   "slots": {
     "physical_capacity": 6,
-    "occupied": 1,
-    "free": 5,
-    "complete_scan_verified": true,
-    "checked_at": "2026-11-09T10:43:15.465Z",
-    "non_reserving_snapshot": true
+    "occupied": null,
+    "free": null,
+    "complete_scan_verified": false
   },
-  "selected_item": "S52-R2-SEED20-P4",
+  "selected_item": null,
   "task_ids": [],
   "new_submissions": [],
-  "browser_transport": "not_used_Work_preferred_restored_and_native_TinyFish_import_Unlimited0_unverified",
+  "browser_transport": "not_used",
   "tinyfish": {
     "runs": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0,
-    "wallet_spent_usd": 0
+    "confirmed_cost_usd": 0
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:4c529eb2-b699-43ae-8950-93511e581a18",
-    "acquired_at": "2026-11-09T10:36:57.512Z",
-    "expires_at": "2026-11-09T10:46:57.512Z",
-    "released_at": "2026-11-09T10:44:22.328Z",
-    "release_with_receipt_atomic": true
+    "holder": "chatgpt:ordinary:ef38bc68-b9c8-477b-afdd-52fb1c64d7fc",
+    "acquired_at": "2026-11-09T11:05:59.772Z",
+    "expires_at": "2026-11-09T11:15:59.772Z",
+    "released_at": null
   },
   "acceptance": {
     "scheduled_run_verified": true,
-    "topview_read_only_scan_complete": true,
-    "queue_and_map_sha256_confirmed": true,
-    "submitted_task_ids_found": 28,
-    "submitted_task_ids_total": 28,
+    "topview_read_only_scan_complete": false,
+    "queue_and_map_sha256_confirmed": false,
     "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
     "new_task_id_verified": false,
     "production_submission_verified": false
   },
-  "outcome": "read_only_reconciled_no_create",
-  "blocker": {
-    "code": "fallback_transport_not_accepted",
-    "reason": "Current registry route_generation=3 has Work preferred and verified restored, not newly proven unavailable. TinyFish is authorized only while Work unavailable; the saved profile has no demonstrated native import for exact canonical images plus true 3s video and no verified selected Unlimited0 composer. Neither a safe ordinary-ChatGPT production browser nor an independent full UI preflight/own claim/intent exists. Do not pay-test unchanged blocker or Create. Next eligible owner-priority S52-R2-SEED20-P4 (Tatooine chain t422u).",
-    "retryable": true
-  },
+  "outcome": "in_progress",
+  "blocker": null,
   "retryable": true,
-  "updated_at": "2026-11-09T10:44:22.328Z",
-  "checked_at": "2026-11-09T10:44:22.328Z",
-  "queue_reconciliation": {
-    "submitted_ids_in_queue": 28,
-    "submitted_found": 28,
-    "missing_submitted_ids": [],
-    "unresolved": [],
-    "ready_story_candidates": [
-      "S52-R2-SEED20-P4"
-    ],
-    "scene_62_owner_hold": true,
-    "music_and_dance_owner_hold": true,
-    "s49b": {
-      "state": "waiting_for_slot",
-      "owner_music_consent_scope": "after all story only",
-      "task_id": null
-    },
-    "new_mapped_active": {
-      "item": "S59-SEED20-P3",
-      "task_id": "5dbf6f87306a4f2f958781935894aaca",
-      "status": "init",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "credit_cost": 0,
-      "unlimited": true,
-      "images": 3,
-      "videos": 1
-    },
-    "owner_tasks_open": 0
-  },
-  "work_preference": {
-    "preferred_executor": "work",
-    "work_capacity_state": "restored_verified",
-    "route_generation": 3,
-    "route_changed": false
-  },
-  "notes": "Full live scan as of 10:43:15Z finds S59 P3 newly active and already recorded as submitted; no duplicate. Robot commit ca625f3 labeled unmapped_active:5dbf6f87 while the live queue already maps taskID to S59 P3; topview-task-map.json last scan predates that launch. Robot exclusively owns telemetry; this ordinary run did not overwrite it or advance its checked_at. Owner t422u prioritizes Tatooine chain, not S62 or fresh music/dances. Existing claims/attempt counts and continuation unchanged.",
-  "final_source_head": "d157e5922d209c2dc4c127352e2c6de474ef51bc"
+  "updated_at": "2026-11-09T11:06:55.026Z"
 }
