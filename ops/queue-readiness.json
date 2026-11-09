@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "source_queue_sha256": "3436cf6d83a6e7878b1c1129669b5aa57540059b4f42bfb74b09b31a87f5f637",
-  "source_task_map_sha256": "dc79e6585bfd4c6b1aa5a63036a1f2db26d16a00b0de4a22df8d56ac6030135f",
-  "topview_checked_at": "2026-11-09T12:50:25Z",
+  "source_task_map_sha256": "defa172466c652d39c27db886f8e1776f1d94d420d28fc29f3507ec4119c5bf4",
+  "topview_checked_at": "2026-11-09T13:10:27Z",
   "items": [
     {
       "id": "S13-S13",
@@ -179,9 +179,9 @@
       "id": "S66-WAN30",
       "scene_id": 66,
       "part_label": "66",
-      "code": "waiting_result",
+      "code": "prepare_continuity",
       "ready": false,
-      "text": "@Video1: ждёт результат 52 · Wan 3.0 часть 7",
+      "text": "@Video1: результат 52 · Wan 3.0 часть 7 получен — подготовить и проверить стык",
       "queue_state": "blocked_inputs"
     },
     {
@@ -240,5 +240,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-09T12:50:29.154106Z"
+  "checked_at": "2026-11-09T13:10:31.287827Z"
 }
