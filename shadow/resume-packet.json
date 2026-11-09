@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-09T09:29:59+00:00",
-  "source_head": "0c7c394c9a1d219fc66fdff646bd2eb0a0b55da9",
-  "source_fingerprint": "a2749bc41e928c8dc12ef255666cab81666fe93cef2961352432d2929456c57a",
+  "checked_at": "2026-11-09T09:36:31+00:00",
+  "source_head": "fe2f418bac0eb3827e47466d4682dbaf0b3257d8",
+  "source_fingerprint": "594b77746f26d40e1ac787e5d5efc9674efc7e033ef0ef5095ce56dbcc4a512f",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -478,7 +478,7 @@
         "submit_authorized": false
       },
       {
-        "item_id": "S51E",
+        "item_id": "S48-SEED20-P3",
         "state": "waiting_for_slot",
         "task_id": null,
         "recovery_action": "fresh_launch_preflight_required",
@@ -540,8 +540,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "ebf1844d06a43186af377b5f71bf998bd94ed67c9e983ee65de95d004ee538a0",
-      "bytes": 352488
+      "sha256": "c144c8a3978f8fa1bd964dbf0f5c41bc5193a061cb8098781d5a586a7075d6ac",
+      "bytes": 352224
     },
     {
       "file": "project-status.json",
