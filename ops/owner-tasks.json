@@ -1,22 +1,8 @@
 {
   "schema_version": 1,
   "rules": "ops/OWNER-TASKS.md",
-  "updated_at": "2026-11-06T22:42:52.996Z",
+  "updated_at": "2026-11-09T01:03:14Z",
   "tasks": [
-    {
-      "id": "0948c546-0ea2-4443-9429-6dcf43bddc81",
-      "created_at": "2026-10-26T00:54:34.103529+00:00",
-      "scene_id": null,
-      "to": "claude",
-      "source": "site",
-      "text": "Проверка автозапуска Claude: закрыть как сделано, больше ничего не делать",
-      "status": "done",
-      "taken_by": "claude:auto-wake",
-      "taken_at": "2026-10-26T00:57:52Z",
-      "result": "Проверка автозапуска Claude пройдена: задача получена через авто-пробуждение и закрыта без других действий.",
-      "result_commit": "f604c71",
-      "closed_at": "2026-10-26T00:57:57Z"
-    },
     {
       "id": "claude-202610261000-scene28-dance-review",
       "created_at": "2026-10-26T09:41:00Z",
