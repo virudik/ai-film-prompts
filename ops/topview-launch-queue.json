@@ -2045,7 +2045,7 @@
       "canonical_prompt_sha256": "e855853ec92418a02d758cfe2f4cb0b143893128e5d82a385ae6b89f3d5ede57",
       "normalized_prompt_sha256": "af15b424adde6807c2e49506f840f565735aa70b6c5ada1d0eba6cfae2c61e3d",
       "priority": 0.43,
-      "state": "submitting",
+      "state": "submitted",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -2053,7 +2053,7 @@
       "aspect_ratio": "16:9",
       "quantity": 1,
       "mode": "omni_reference",
-      "max_new_submissions": 1,
+      "max_new_submissions": 0,
       "max_credits": 0,
       "depends_on_completed": [
         "S48-SEED20-P3"
@@ -2116,66 +2116,23 @@
           "sha256": "108d897c6bfbdc4977a37242d204b9c05d76f95c62583acef9a51bc7fab965c2"
         }
       ],
-      "task_id": null,
-      "claim": {
-        "claim_id": "2a6a3346-d167-4593-9766-ae75e14104df",
-        "claimed_at": "2026-11-09T11:18:11Z",
-        "claimed_by": "grok",
-        "execution_instance_id": "0e31cd19-f79d-4df8-8f9e-28754a76adf7",
-        "route_generation": 3,
-        "lease_holder": "grok:0e31cd19-f79d-4df8-8f9e-28754a76adf7",
-        "lease_acquired_at": "2026-11-09T11:18:11Z",
-        "source": "cursor_host standing command t413u-20261109",
-        "canonical_prompt_sha256": "e855853ec92418a02d758cfe2f4cb0b143893128e5d82a385ae6b89f3d5ede57",
-        "normalized_prompt_sha256": "af15b424adde6807c2e49506f840f565735aa70b6c5ada1d0eba6cfae2c61e3d",
-        "preflight": {
-          "owner_authorized": true,
-          "prompt_match": true,
-          "input_sha_match": true,
-          "input_order_match": true,
-          "qc_passed": true,
-          "website_unlimited": true,
-          "credits_cost": 0,
-          "numeric_zero_displayed": false,
-          "unlimited_mode_selected": true,
-          "credits_cost_evidence": "selected_free_unlimited_current_form",
-          "ui_unlimited_label": "Безлимитный режим — бесплатно",
-          "paid_18_credit_mode_selected": false,
-          "paid_credit_mode_selected": false,
-          "quantity": 1,
-          "resolution": 720,
-          "aspect_ratio": "16:9"
-        },
-        "submission_intent_id": "d276502c-e335-4fde-b64d-4015d9b2d38d",
-        "submission_intent_at": "2026-11-09T11:18:11Z",
-        "replay_forbidden": true,
-        "host_run": {
-          "namespace": "cursor_host",
-          "observation_source": "parent_shell_os_environ",
-          "field": "CURSOR_REQUEST_ID",
-          "value": "b1b26fe9-abb0-40ce-ad65-589abcef591f",
-          "conversation_field": "CURSOR_CONVERSATION_ID",
-          "conversation_id": "1c1bf697-3c93-4068-b457-e90efdd5ef8f",
-          "standing_command_id": "t413u-20261109"
-        },
-        "provider_run_key": "581c652afecabc01f50c24e414c9bcf466b5830c8866e8b8f59cd9ae44efa692",
-        "owner_event_keys": [
-          "87eaf85d3692e35317f070d35de674e28a8e7e880a48b42895da8f5c740f3bac"
-        ],
-        "ledger_path": "ops/launcher-run-ledger.json",
-        "trigger": "owner_command",
-        "owner_command": {
-          "quote": "Говорю запускай значит запускай. Зачем спрашивать по 10 раз если есть уже согласованная очередь запуска",
-          "source": "cursor_host",
-          "at": "2026-11-09T09:25:00+01:00",
-          "standing_command_id": "t413u-20261109",
-          "standing_host_address": "t413u"
-        }
-      },
+      "task_id": "6a70fae84abf401cb93f8c762b8c26e3",
+      "claim": null,
       "authorization": "30.10.2026: владелец заказал 48.4 «Спуск у ворот». Один запуск по согласованной очереди, Unlimited 0.",
       "blocker": null,
       "launch_readiness": "authorized_inputs_available",
-      "created_at": "2026-10-30T20:09:48Z"
+      "created_at": "2026-10-30T20:09:48Z",
+      "submitted_at": "2026-11-09T11:19:00Z",
+      "max_new_submissions_consumed": 1,
+      "receipt": "reports/topview-queue-2026-10-16/S48-SEED20-P4-20261109T111900Z.json",
+      "last_claim": {
+        "claim_id": "2a6a3346-d167-4593-9766-ae75e14104df",
+        "claimed_at": "2026-11-09T11:18:11Z",
+        "execution_instance_id": "0e31cd19-f79d-4df8-8f9e-28754a76adf7",
+        "submission_intent_id": "d276502c-e335-4fde-b64d-4015d9b2d38d",
+        "archive_file": "reports/topview-queue-2026-10-16/S48-SEED20-P4-20261109T111900Z.json",
+        "archive_sha256": "fe21968df2ea1d756e220a77f018444b7a267ce8e01cb2024ea867b66e2d311e"
+      }
     },
     {
       "id": "S28-A3-20261023",
@@ -4678,7 +4635,7 @@
       "canonical_prompt_sha256": "7e5090cb813e7674685edded32fe0943dd0edbb7ba1e7b5699545438381c5eba",
       "normalized_prompt_sha256": "58024750d0b0b87fdfd6fda8e5026ecd9a6f8ead56efaa1dbb569f50ea0b126a",
       "priority": 0.011,
-      "state": "submitting",
+      "state": "submitted",
       "model": "Seedance 2.0",
       "model_id": "seedance-2.0-style",
       "duration_seconds": 15,
@@ -4687,7 +4644,7 @@
       "aspect_ratio": "16:9",
       "quantity": 1,
       "mode": "omni_reference",
-      "max_new_submissions": 1,
+      "max_new_submissions": 0,
       "max_credits": 0,
       "references": [
         {
@@ -4754,62 +4711,8 @@
           "canonical_role": "ONLY the yellow note design and position: black loaf at left, milk carton at right, on the blank panel to the pilot RIGHT; ignore its Naboo scenery and depicted pose."
         }
       ],
-      "task_id": null,
-      "claim": {
-        "claim_id": "774b4c4f-3e38-4211-98b1-fc6747479346",
-        "claimed_at": "2026-11-09T11:18:02Z",
-        "claimed_by": "grok",
-        "execution_instance_id": "b50ad0a0-bcf0-4b88-9a13-5b113d02cf2e",
-        "route_generation": 3,
-        "lease_holder": "grok:b50ad0a0-bcf0-4b88-9a13-5b113d02cf2e",
-        "lease_acquired_at": "2026-11-09T11:18:02Z",
-        "source": "cursor_host standing command t413u-20261109",
-        "canonical_prompt_sha256": "7e5090cb813e7674685edded32fe0943dd0edbb7ba1e7b5699545438381c5eba",
-        "normalized_prompt_sha256": "58024750d0b0b87fdfd6fda8e5026ecd9a6f8ead56efaa1dbb569f50ea0b126a",
-        "preflight": {
-          "owner_authorized": true,
-          "prompt_match": true,
-          "input_sha_match": true,
-          "input_order_match": true,
-          "qc_passed": true,
-          "website_unlimited": true,
-          "credits_cost": 0,
-          "numeric_zero_displayed": false,
-          "unlimited_mode_selected": true,
-          "credits_cost_evidence": "selected_free_unlimited_current_form",
-          "ui_unlimited_label": "Безлимитный режим — бесплатно",
-          "paid_18_credit_mode_selected": false,
-          "paid_credit_mode_selected": false,
-          "quantity": 1,
-          "resolution": 720,
-          "aspect_ratio": "16:9"
-        },
-        "submission_intent_id": "23ceaf2f-f9ac-4d89-bd09-05d6135342a0",
-        "submission_intent_at": "2026-11-09T11:18:02Z",
-        "replay_forbidden": true,
-        "host_run": {
-          "namespace": "cursor_host",
-          "observation_source": "parent_shell_os_environ",
-          "field": "CURSOR_REQUEST_ID",
-          "value": "b1b26fe9-abb0-40ce-ad65-589abcef591f",
-          "conversation_field": "CURSOR_CONVERSATION_ID",
-          "conversation_id": "1c1bf697-3c93-4068-b457-e90efdd5ef8f",
-          "standing_command_id": "t413u-20261109"
-        },
-        "provider_run_key": "581c652afecabc01f50c24e414c9bcf466b5830c8866e8b8f59cd9ae44efa692",
-        "owner_event_keys": [
-          "87eaf85d3692e35317f070d35de674e28a8e7e880a48b42895da8f5c740f3bac"
-        ],
-        "ledger_path": "ops/launcher-run-ledger.json",
-        "trigger": "owner_command",
-        "owner_command": {
-          "quote": "Говорю запускай значит запускай. Зачем спрашивать по 10 раз если есть уже согласованная очередь запуска",
-          "source": "cursor_host",
-          "at": "2026-11-09T09:25:00+01:00",
-          "standing_command_id": "t413u-20261109",
-          "standing_host_address": "t413u"
-        }
-      },
+      "task_id": "3ea23879815e47989d08ae559bd81f51",
+      "claim": null,
       "depends_on_completed": [
         "S52-R2-SEED20-P3"
       ],
@@ -4820,7 +4723,18 @@
       "input_qc_rule": "Verify exact personal craft identity/scale, face/robe where visible, closed hatch in motion, empty roof, physical departure/landing, motion axis and lighting; no synthetic replacement or propagation of a wrong craft. Success alone does not pass QC.",
       "source_revision": "scene52-seven-parts-2026-10-27",
       "created_at": "2026-10-27T11:25:33.064Z",
-      "revision_note_20261027_owner": "Владелец 27.10 «предложенные улучшения 52 вноси»: фирменные манёвры, вставки кабины, гиперпрыжок, два солнца; часть7 связана с 66→67."
+      "revision_note_20261027_owner": "Владелец 27.10 «предложенные улучшения 52 вноси»: фирменные манёвры, вставки кабины, гиперпрыжок, два солнца; часть7 связана с 66→67.",
+      "submitted_at": "2026-11-09T11:19:00Z",
+      "max_new_submissions_consumed": 1,
+      "receipt": "reports/topview-queue-2026-10-16/S52-R2-SEED20-P4-20261109T111900Z.json",
+      "last_claim": {
+        "claim_id": "774b4c4f-3e38-4211-98b1-fc6747479346",
+        "claimed_at": "2026-11-09T11:18:02Z",
+        "execution_instance_id": "b50ad0a0-bcf0-4b88-9a13-5b113d02cf2e",
+        "submission_intent_id": "23ceaf2f-f9ac-4d89-bd09-05d6135342a0",
+        "archive_file": "reports/topview-queue-2026-10-16/S52-R2-SEED20-P4-20261109T111900Z.json",
+        "archive_sha256": "50d9afc59fc42c436c9ae520337ae3ac984310f210237bd020d0960a819b3724"
+      }
     },
     {
       "id": "S52-R2-SEED20-P5",
