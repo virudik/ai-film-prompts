@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "kotmonavty",
   "project_name": "Котмонавты",
-  "checked_at": "2026-11-09T09:33:33+00:00",
-  "source_head": "4b0300479737c1f9abc901326146fd7a8455dfcf",
-  "source_fingerprint": "c5b2aea9f2fb114337c88e837c1e879dd78bb91bd0653c863de186b3bc41c1e2",
+  "checked_at": "2026-11-09T09:43:34+00:00",
+  "source_head": "bad976600f50bb21b00537f700d2bf92d1fbcdfa",
+  "source_fingerprint": "270a711c96fff78d6e3890bffe0b695f068e7d38f2069f6fe4777129b495b21f",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -190,8 +190,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "4ca8159c8b2d2a13b8290bc33d4c36d9b9a270fe2da3c8dfb8a3388ea9c2d646",
-      "bytes": 34980
+      "sha256": "e13c7a09c7670009239b9a3a9a7a833a743abd9b1e82b1982f70d11702031f4a",
+      "bytes": 34850
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -215,7 +215,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "6639f657ce1ab5fbf3859120d8a12e49e624b19f52d4dab4ab981c68739a2da3",
+      "sha256": "7d85f00e79148ceceb115b321ebf2a5e597ddfc36a0b17fb517c11f20ea85be3",
       "bytes": 5136
     },
     {
@@ -230,8 +230,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "b52d8b35c6aeddf5b23ce221948a0536839a3279b437177697afe46762a09a0c",
-      "bytes": 23016
+      "sha256": "93710dbaa4f73e96e9acad6fe04798b33b024d859320172fb317f56891b71613",
+      "bytes": 23014
     },
     {
       "file": "projects/README.md",
@@ -295,12 +295,12 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "5d5d1c9e53e0e3dea5e9e63ed83e81f6f7f6303f209c02a6f254fbead106ab2e",
-      "bytes": 34781
+      "sha256": "01561adc2af2abed1a23dd6295593a552b69c13c252bf200a76029b82b8314b9",
+      "bytes": 34651
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "846e947fe1d46aa215ce6cdfa67d2d7c4713a39650b2f6fbf40dda5b4535b195",
+      "sha256": "9070630cfbd89666f18b29bb44a741cafb64fdbdcd21e4d87694eb4bc1090b9c",
       "bytes": 25543
     },
     {
