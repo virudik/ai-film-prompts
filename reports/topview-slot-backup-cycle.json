@@ -3,44 +3,33 @@
   "project": "seregius",
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "ca17da02-676a-437a-9a6f-c2df9cfd27ff",
-  "run_id": "fa65af92-7454-8327-9bc1-0b0e687799bb",
+  "execution_instance_id": "ad194f74-ee1d-43e3-bcf9-bfca76a06cc4",
+  "run_id": "9a3f4b2f-c5fc-8332-8595-ecb6616713f4",
   "run_id_unavailable_reason": null,
-  "source_head_initial": "4a56dcefb2ea4828053e2b89f48b8ee8f6029d9a",
+  "runtime_run_id_source": "Automations.peek last_run.id, verified in_progress for current scheduled execution",
+  "source_head_initial": "6e43b5076b8560a25072f7e9d769d35823c0f5c3",
+  "source_head": "c56a675e2505cd8d48d3d3132b56111292751d07",
   "route_generation": 3,
-  "started_at": "2026-11-09T14:06:44.274242Z",
-  "receipt_started_at": "2026-11-09T14:11:14.883Z",
-  "status": "completed",
-  "phase": "complete",
+  "started_at": "2026-11-09T15:08:39.580293Z",
+  "receipt_started_at": "2026-11-09T15:17:07.647Z",
+  "status": "in_progress",
+  "phase": "started",
   "scan": {
-    "complete": true,
-    "source": "Topview connector: all 14 boards, all 18 board/page requests, video-only pages; account-wide",
-    "boards": 14,
-    "pages": 18,
-    "video_tasks": 658,
-    "status_counts": {
-      "success": 631,
-      "fail": 26,
-      "running": 1
-    },
-    "active_task_ids": [
-      "3fd9f3d9ae2d470eb5ec8b428a7ae044"
-    ],
-    "checked_at": "2026-11-09T14:11:59.935Z",
-    "last_target_board_recheck_at": "2026-11-09T14:15:21.944Z",
-    "non_atomic": true
+    "complete": false,
+    "boards": null,
+    "pages": null,
+    "video_tasks": null,
+    "checked_at": null
   },
   "slots": {
     "physical_capacity": 6,
-    "occupied": 1,
-    "free": 5,
-    "complete_scan_verified": true,
-    "non_reserving_snapshot": true,
-    "checked_at": "2026-11-09T14:11:59.935Z"
+    "occupied": null,
+    "free": null,
+    "complete_scan_verified": false
   },
   "selected_item": null,
   "new_submissions": [],
-  "browser_transport": "not_used:no owner-authorized independent production item input-ready while S67 is running; TinyFish exact-file native upload/selected Unlimited0 blocker unchanged, no paid retry",
+  "browser_transport": "not_used_yet",
   "tinyfish": {
     "runs": [],
     "steps": 0,
@@ -50,73 +39,25 @@
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:ca17da02-676a-437a-9a6f-c2df9cfd27ff",
-    "acquired_at": "2026-11-09T14:10:46.245Z",
-    "expires_at": null,
-    "released_at": "2026-11-09T14:16:41.390Z",
-    "release_with_receipt_atomic": true
+    "holder": "chatgpt:ordinary:ad194f74-ee1d-43e3-bcf9-bfca76a06cc4",
+    "acquired_at": "2026-11-09T15:16:02.292Z",
+    "expires_at": "2026-11-09T16:01:02.292Z",
+    "released_at": null,
+    "lease_commit": "c56a675e2505cd8d48d3d3132b56111292751d07"
   },
   "acceptance": {
     "scheduled_run_executed": true,
     "scheduled_run_id_verified": true,
-    "topview_read_only_scan_complete": true,
+    "topview_read_only_scan_complete": false,
+    "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
     "production_submission_by_this_executor_verified": false,
-    "queue_and_map_sha256_confirmed": true,
-    "tinyfish_authenticated_ui_this_run": false,
-    "new_task_id_verified": false,
-    "submitted_task_ids_found": 33,
-    "submitted_task_ids_total": 33
+    "new_task_id_verified": false
   },
-  "outcome": "read_only_reconciled_waiting_scene67_continuity",
-  "blocker": {
-    "code": "waiting_s67_result_and_continuity_qc",
-    "reason": "S66 has succeeded. S67 remains running, therefore S68 still requires authentic S67 final frame and QC; S69/S70/65 downstream blocked. S62 owner-held and music/dance requires separate owner permission. TinyFish native exact file import/selected Unlimited0 remains unproven; no paid retest.",
-    "retryable": false,
-    "retest_only_on_new_evidence": true
-  },
-  "updated_at": "2026-11-09T14:16:41.390Z",
-  "source_head": "3fb54d16f345ee9c45e676246ac68f0efb8d3b79",
-  "task_ids": [
-    "4aaca9143ee14b7d81220223974e4569",
-    "3fd9f3d9ae2d470eb5ec8b428a7ae044"
-  ],
-  "queue_reconciliation": {
-    "submitted_total": 33,
-    "submitted_found": 33,
-    "unresolved_claims_in_live_queue": 0,
-    "queue_blob_sha": "c6f32f531e51aa6ba30fabbe8091ea7956a7acb2",
-    "readiness_queue_sha256": "2f7315969a166ca6d763253cceba69deb9d5d5b87759627e19b7041c9f96e7e0",
-    "task_map_sha256_expected": "785ba00cfd7c5b0b4693eeba143de714592db518f603b8b5d5b728850b438b3c",
-    "source_hashes_independently_verified_at": "2026-11-09T14:13:36.734Z",
-    "scene66": {
-      "item": "S66-WAN30",
-      "task_id": "4aaca9143ee14b7d81220223974e4569",
-      "status": "success",
-      "created": "2026-11-09 13:24:50",
-      "owner_approval": false
-    },
-    "scene67": {
-      "item": "S67-WAN30",
-      "task_id": "3fd9f3d9ae2d470eb5ec8b428a7ae044",
-      "status": "running",
-      "created": "2026-11-09 14:00:20"
-    },
-    "next_item": "S68-WAN30",
-    "next_item_state": "blocked_inputs",
-    "next_gate": "S67 actual final frame + continuity QC",
-    "owner_hold": "Scene 62 and new music/dance items remain gated by owner decisions",
-    "open_owner_tasks": 1,
-    "owner_task_scope": "interactive-only parodies; scheduled worker did not take it",
-    "bot_wake_issue": 509,
-    "bot_wake_not_claimed_as_event_handling": true,
-    "peers": {
-      "ordinary_last_run_id": "fa65af92-7454-8327-9bc1-0b0e687799bb",
-      "relay_last_run_id": "61223ecd-83ec-832f-a8e1-785701149ea4",
-      "hourly55_last_run_id": "75c11b0c-f610-8326-a771-20528eb04d91"
-    }
-  },
-  "retryable": false,
-  "completed_at": "2026-11-09T14:16:41.390Z"
+  "outcome": "started",
+  "blocker": null,
+  "retryable": null,
+  "task_ids": [],
+  "updated_at": "2026-11-09T15:17:07.647Z"
 }
