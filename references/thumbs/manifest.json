@@ -4423,6 +4423,16 @@
    "thumb_bytes": 23584,
    "src_sha256": "3972543060aa03588b2d95ebdf76ddf55eeb7a7997dd18816c09e58b2cff3947"
   },
+  "references/scenes/scene-66/S66-final-frame.png": {
+   "thumb": "references/thumbs/scenes/scene-66/S66-final-frame.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1963982,
+   "thumb_bytes": 43422,
+   "src_sha256": "87981e06ed0e485a9a8b6f8c4df6c32d6022f54f8454ee328af67f148a7eb086"
+  },
   "references/scenes/scene-66/S66-street-outrage.png": {
    "thumb": "references/thumbs/scenes/scene-66/S66-street-outrage.png.webp",
    "width": 640,
