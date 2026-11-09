@@ -1,0 +1,56 @@
+name: Owner parody scenes checkpoint
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/parody-scenes-once.yml]
+permissions:
+  contents: write
+jobs:
+  checkpoint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: Save factual initial stage without production actions
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            python3 - <<'PY'
+          import json,datetime,sys,hashlib
+          from pathlib import Path
+          sys.path.insert(0,'scripts')
+          import resume_state
+          now=datetime.datetime.now(datetime.timezone.utc)
+          lock=json.loads(Path('ops/canon-lock.json').read_text())
+          assert lock['state']=='held' and lock['holder']=='chatgpt:ordinary:4ce5446d-f8c0-480f-b26c-fd639124c132'
+          assert lock['acquired_at']=='2026-11-09T10:46:14+00:00' and datetime.datetime.fromisoformat(lock['expires_at'])>now
+          work='SEREGIUS-PARODIES-20261109'
+          report='reports/parody-scenes-2026-11-09.json'
+          request={'schema_version':1,'work_id':work,'project':'seregius','state':'preparation','owner_request':'1-7 делай сцены в серёгиусе с референсами изображениями','scope':['parody studio logos with Vitalik','adult Vitalik on crescent moon, non-graphic river gag','Kandibober / Normalno / Yaz memes','She rejected me romantic meme','family mayonnaise advertisement','Lay\u0027s chips advertisement','luxury advertising of cheap household objects'],'new_scene_ids_candidate':list(range(74,81)),'scene_ids_finalized':False,'initial_source_head':'dc3fa5abc2c9ae0aeca9c9f0ebe02e5e6446445a','preflight':'short intake passed; 15 anchors and exact source checks','owner_decisions_read':'Only pre-existing Grok needs_owner found; no new scene conflicts','images_created':0,'video_submissions':0,'paid_generations':0,'queue_change_authorized':False,'editorial_approval':False,'next_action':'Create seven new DRAFT scenes after fresh ID/duplicate check; exact identity references; two prompt versions per scene; generate individual native images and save each with QC/provenance before next. No video launches.','checked_at':now.isoformat()}
+          p=Path(report)
+          if p.exists():
+            existing=json.loads(p.read_text());assert existing['work_id']==work
+            if existing.get('state')!='preparation': raise SystemExit('Refuse to reset a later stage')
+          else:p.write_text(json.dumps(request,ensure_ascii=False,indent=2)+'\n')
+          regp=Path('work-resume-register.json');reg=json.loads(regp.read_text())
+          if not any(w['work_id']==work for w in reg['active_work']):
+            reg['active_work'].append({'work_id':work,'project':'seregius','title':'Семь пародийных сцен с изображениями по прямой команде владельца','status':'in_progress','created_at':now.isoformat(),'updated_at':now.isoformat(),'completed':['Сверены свежие инструкции, ID 74–80 пока свободны; исходный checkpoint сохранён.'],'next_action':request['next_action']})
+            regp.write_text(json.dumps(reg,ensure_ascii=False,indent=2)+'\n')
+          anchor='# 09.11.2026 — начальная точка: семь пародий Серёгиуса'
+          cp=Path('reports/current-work-checkpoint.md');old=cp.read_text()
+          if anchor not in old:
+            cp.write_text(anchor+'\n\nwork_id: '+work+'\n\n- Владелец разрешил семь сцен по последнему списку и отдельные изображения. Это подготовка, не готовые видео.\n- Проверить ID 74–80 перед записью; не переиспользовать прежние и не менять существующие промпты.\n- Оригиналы мемов проверяются отдельно от авторской пародии; полный просмотр и слуховую проверку не выдумывать.\n- Сохранить обе версии промптов, затем каждый пригодный PNG с SHA/manifest/QC и привязкой перед следующим. Видеозапуски и платные действия не разрешены этой командой.\n- Доказательство: '+report+'.\n\n---\n\n'+old)
+          resume_state.capture('.',work,anchor,'Исходная точка нового поручения сохранена; производство ещё не выполнено.',request['next_action'],[report],['PROMPT-STYLE-GUIDE.md','video-prompts.md',report],False)
+          PY
+            git add reports/parody-scenes-2026-11-09.json reports/current-work-checkpoint.md work-resume-register.json
+            if git diff --cached --quiet; then break; fi
+            git commit -m 'Checkpoint owner-authorized seven parody scenes before production'
+            if git push origin HEAD:main; then break; fi
+            if [ "$attempt" = 3 ]; then exit 1; fi
+          done
