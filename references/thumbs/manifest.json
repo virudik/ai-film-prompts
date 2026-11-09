@@ -4133,6 +4133,16 @@
    "thumb_bytes": 71448,
    "src_sha256": "767eb20e527191f601e51f652d3339c507b5d3639eb4cf4be131dc205ff8c3f5"
   },
+  "references/scenes/scene-59/S59-SEED20-P2-R2-final-frame.png": {
+   "thumb": "references/thumbs/scenes/scene-59/S59-SEED20-P2-R2-final-frame.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1005705,
+   "thumb_bytes": 18184,
+   "src_sha256": "984f2674a98187f8c1914f6b8e8745f203519e295de1bdf1addc53a77b846856"
+  },
   "references/scenes/scene-59/S59-mushroom-basket-body.jpg": {
    "thumb": "references/thumbs/scenes/scene-59/S59-mushroom-basket-body.jpg.webp",
    "width": 640,
