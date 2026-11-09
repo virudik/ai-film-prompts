@@ -178,12 +178,12 @@
       "result:4283036c9c8c486bb8a60c9e9326447d"
     ],
     "robot_rewake": {
-      "episode": "da39a3ee",
-      "count": 0,
-      "last_at": "2026-11-09T13:10:30Z",
-      "sequence": 42,
-      "first_at": "2026-11-09T13:10:30Z",
-      "last_event_id": "result:4283036c9c8c486bb8a60c9e9326447d",
+      "episode": "214f29e6",
+      "count": 1,
+      "last_at": "2026-11-09T13:40:29Z",
+      "sequence": 43,
+      "first_at": "2026-11-09T13:40:29Z",
+      "last_event_id": "slots:214f29e6:43",
       "silence_reported": "slots:d23cf217:2"
     }
   },
