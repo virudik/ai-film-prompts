@@ -6,109 +6,72 @@ on:
 permissions:
   contents: write
 jobs:
-  save_recovered_stills:
+  save_publication_and_supplement_jobs:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 10
     env:
-      EXPECTED_HOLDER: chatgpt:ordinary:0a3adb37-dacf-4d9d-b9c8-ca51eb261278
-      EXPECTED_ACQUIRED_AT: '2026-11-09T16:07:14+00:00'
-      EXCHANGE_BUNDLE_FILE_ID: 1qHELllT6i87kW7QKN09xJth6oab89Tmz
+      EXPECTED_HOLDER: chatgpt:ordinary:cac9e536-4eed-49f1-bc08-397288c2c43d
+      EXPECTED_ACQUIRED_AT: '2026-11-09T16:48:58Z'
     steps:
       - uses: actions/checkout@v5
         with:
           ref: main
           fetch-depth: 1
-      - name: Load SHA-verified existing images and reviewed bounded patch
+      - name: Load exact reviewed non-media payload
         run: |
           python3 - <<'PY'
-          import urllib.request,hashlib,zipfile,io,json
-          from pathlib import Path
-          expected='3cb8ef35dc539558bb40a982a0448ef8eb97ad342b9696c4ed168239356290a5'
-          urls=['https://drive.google.com/uc?export=download&id=1qHELllT6i87kW7QKN09xJth6oab89Tmz','https://drive.usercontent.google.com/download?id=1qHELllT6i87kW7QKN09xJth6oab89Tmz&export=download&confirm=t']
-          for u in urls:
-            try:
-              with urllib.request.urlopen(u,timeout=45) as r: raw=r.read(18000000)
-              if len(raw)==14997685 and hashlib.sha256(raw).hexdigest()==expected: break
-            except Exception as e: print(type(e).__name__,str(e)[:160])
-          else: raise SystemExit('Exact reviewed image bundle unavailable; no main mutation')
-          dest=Path('/tmp/parody-recovery');dest.mkdir()
-          with zipfile.ZipFile(io.BytesIO(raw)) as z:
-            for x in z.infolist():
-              p=Path(x.filename)
-              assert not p.is_absolute() and '..' not in p.parts and (x.external_attr>>16)&0o170000!=0o120000
-            z.extractall(dest)
-          checks=json.loads((dest/'BUNDLE-CHECKSUMS.json').read_text())
-          for name,h in checks.items(): assert hashlib.sha256((dest/name).read_bytes()).hexdigest()==h,name
-          print('Bundle and all reviewed inputs verified; no images generated')
+          from pathlib import Path,PurePosixPath
+          import urllib.request,hashlib,zipfile,io
+          url='https://drive.usercontent.google.com/download?id=1PpgKAzxDrI8VfG476Qij3N5QGbS9NtHk&export=download&confirm=t'
+          with urllib.request.urlopen(url,timeout=45) as r:b=r.read(1000000)
+          assert hashlib.sha256(b).hexdigest()=='3a16991f2cb26d5116ef6735605d289081da15f364ca2ee7d8df47c720a20d51'
+          p=Path('/tmp/parody-supplement');p.mkdir()
+          with zipfile.ZipFile(io.BytesIO(b)) as z:
+            for n in z.namelist():
+              q=PurePosixPath(n);assert not q.is_absolute() and '..' not in q.parts
+              assert n in {'publish.py','supplementary-jobs.json','live-publication.json'} or (n.startswith('references/scenes/scene-') and n.endswith('.image-prompt.txt'))
+            z.extractall(p)
           PY
-      - name: Apply only unchanged target blocks, test, commit and verify
+      - name: Fresh-main guarded edit, tests and readback
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          for attempt in 1 2; do
+          mkdir -p /tmp/parody-verification
+          for attempt in 1 2 3; do
             git fetch origin main
             git reset --hard origin/main
-            cp video-prompts.md /tmp/parody-before-master.md
-            python3 /tmp/parody-recovery/apply.py > /tmp/parody-recovery-result.json
-            python3 scripts/cert_github.py .
-            python3 scripts/build_project_status.py video-prompts.md --output project-status.json --synced-at "$(date -u +%FT%TZ)" --topview-status-file topview-status.json --topview-task-map-file topview-task-map.json --previous-status-file project-status.json --previous-master-file /tmp/parody-before-master.md > /tmp/parody-status.json
-            python3 scripts/check_instruction_consistency.py .
-            python3 scripts/validate_site.py .
-            python3 -m unittest tests/test_continue_preflight.py tests/test_continue_recovery.py tests/test_project_recovery.py tests/test_instruction_consistency.py > /tmp/parody-tests.txt 2>&1
+            python3 /tmp/parody-supplement/publish.py /tmp/parody-supplement > /tmp/parody-verification/changes.json
+            python3 scripts/check_instruction_consistency.py . > /tmp/parody-verification/instructions.json
+            python3 scripts/validate_site.py . > /tmp/parody-verification/site.txt
+            python3 -m unittest tests/test_continue_preflight.py tests/test_continue_recovery.py tests/test_project_recovery.py tests/test_instruction_consistency.py > /tmp/parody-verification/tests.txt 2>&1
             python3 - <<'PY'
-          import json,hashlib,re,os,datetime
           from pathlib import Path
-          assert json.loads(Path('project-status.json').read_text())['health']=='ok'
-          raw=Path('video-prompts.md').read_text()
-          p=re.compile(r'(?ms)(^## Сцена (\d+) — .*?)(?=\n---\n\n<a id="scene-\d+"></a>|\Z)')
-          blocks={int(m[2]):m[1] for m in p.finditer(raw)}
-          count=0
-          for sid in range(74,81):
-            m=json.loads(Path(f'references/scenes/scene-{sid}/manifest.json').read_text())
-            assert blocks[sid].count('```text')==3
-            for r in m['references']:
-              assert hashlib.sha256(Path(r['path']).read_bytes()).hexdigest()==r['sha256']
-              if r['role']=='scene_staging':
-                count+=1
-                assert r['owner_approval']=='not_reviewed'
-                assert blocks[sid].count(' = '+r['path'])==3
-          assert count==7
-          for sid in (78,79,80):
-            assert blocks[sid].count(' = references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png')==3
-            assert blocks[sid].count(' = references/scenes/scene-66/S66-Alina-tatooine-sheet.png')==3
-          assert 'references/scenes/scene-66/S66-Alina' not in blocks[77]
-          assert blocks[77].count(' = references/full/lesha.jpg')==3
-          lp=Path('ops/canon-lock.json');l=json.loads(lp.read_text());now=datetime.datetime.now(datetime.timezone.utc)
-          assert l['state']=='held' and l['holder']==os.environ['EXPECTED_HOLDER'] and l['acquired_at']==os.environ['EXPECTED_ACQUIRED_AT'] and datetime.datetime.fromisoformat(l['expires_at'].replace('Z','+00:00'))>now
-          l.update(state='free',expires_at=None,released_at=now.isoformat());lp.write_text(json.dumps(l,ensure_ascii=False,indent=2)+'\n')
-          print('Seven exact staged PNGs, 21 autonomous prompts, adult S77 and age-preserving family cast verified')
+          from datetime import datetime,timezone
+          import json,os
+          p=Path('ops/canon-lock.json');l=json.loads(p.read_text());now=datetime.now(timezone.utc)
+          assert l['state']=='held' and l['holder']==os.environ['EXPECTED_HOLDER'] and l['acquired_at']==os.environ['EXPECTED_ACQUIRED_AT'] and datetime.fromisoformat(l['expires_at'].replace('Z','+00:00'))>now
+          l.update(state='free',expires_at=None,released_at=now.isoformat());p.write_text(json.dumps(l,ensure_ascii=False,indent=2)+'\n')
           PY
             python3 scripts/build_takeover_brief.py . shadow
-            python3 scripts/build_resume_packet.py .
-            python3 scripts/continue_preflight.py . --work-id SEREGIUS-PARODIES-20261109 > /tmp/parody-preflight.json
-            git diff --exit-code -- ops/topview-launch-queue.json
-            git add video-prompts.md SYNC-TRIGGER.txt project-status.json instruction-sync-status.json character-references.json NEW-CHAT-HANDOFF.md ops/FUTURE-PLANS.md reports/current-work-checkpoint.md reports/parody-scenes-2026-11-09.json reports/parody-scenes-source-2026-11-09.json reports/parody-reference-recovery-2026-11-09.json work-resume-register.json archive/work-resume-register-archive.json ops/canon-lock.json references/scenes/scene-75 references/scenes/scene-76 references/scenes/scene-77 references/scenes/scene-78 references/scenes/scene-79 references/scenes/scene-80 shadow
-            git diff --cached --stat
-            git commit -m 'Recover six existing parody stills; bind seven primary scene images and exact family/adult casts'
+            python3 scripts/build_resume_packet.py . --all-projects
+            python3 scripts/continue_preflight.py . --work-id SEREGIUS-PARODIES-20261109 > /tmp/parody-verification/preflight.json
+            git add reports/parody-live-publication-2026-11-09.json reports/parody-supplementary-reference-jobs-2026-11-09.json reports/parody-scenes-2026-11-09.json references/scenes/scene-74/*.image-prompt.txt references/scenes/scene-76/*.image-prompt.txt references/scenes/scene-74/manifest.json references/scenes/scene-76/manifest.json ops/FUTURE-PLANS.md reports/current-work-checkpoint.md work-resume-register.json archive/work-resume-register-archive.json ops/canon-lock.json shadow projects/*/shadow/resume-packet.*
+            git diff --cached --stat > /tmp/parody-verification/diff-stat.txt
+            git commit -m 'Verify seven live parody frames; save seven pending supplemental image jobs and honest rejected-attempt checkpoint'
             if git push origin HEAD:main; then
-              git rev-parse HEAD > /tmp/parody-published-commit.txt
               git fetch origin main
-              for f in video-prompts.md reports/parody-reference-recovery-2026-11-09.json references/scenes/scene-77/manifest.json; do test "$(git rev-parse HEAD:$f)" = "$(git rev-parse origin/main:$f)"; done
-              cat /tmp/parody-tests.txt /tmp/parody-published-commit.txt
+              for f in reports/parody-live-publication-2026-11-09.json reports/parody-supplementary-reference-jobs-2026-11-09.json reports/current-work-checkpoint.md; do test "$(git rev-parse HEAD:$f)" = "$(git rev-parse origin/main:$f)"; done
+              git rev-parse HEAD > /tmp/parody-verification/published-commit.txt
+              cp reports/parody-live-publication-2026-11-09.json /tmp/parody-verification/
+              cp reports/parody-supplementary-reference-jobs-2026-11-09.json /tmp/parody-verification/
               exit 0
             fi
-            if [ "$attempt" = 2 ]; then exit 1; fi
+            if [ "$attempt" = 3 ]; then exit 1; fi
           done
-      - name: Preserve actual evidence
+      - uses: actions/upload-artifact@v4
         if: always()
-        uses: actions/upload-artifact@v4
         with:
-          name: parody-reference-recovery-verification
-          path: |
-            /tmp/parody-recovery-result.json
-            /tmp/parody-status.json
-            /tmp/parody-tests.txt
-            /tmp/parody-preflight.json
-            /tmp/parody-published-commit.txt
+          name: parody-live-and-supplement-jobs-verification
+          path: /tmp/parody-verification/*
           retention-days: 3
