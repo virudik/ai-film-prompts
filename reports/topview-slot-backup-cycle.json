@@ -10,48 +10,138 @@
   "route_generation": 3,
   "started_at": "2026-11-09T07:02:59.454881Z",
   "receipt_started_at": "2026-11-09T07:11:05.684Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "complete",
+  "status": "completed",
   "scan": {
-    "complete": false,
-    "checked_at": null,
-    "boards": null,
-    "pages": null,
-    "video_tasks": null
+    "complete": true,
+    "scope": "All 14 Topview boards; first page each plus 4 additional My First Board pages; mediaType=video",
+    "boards": 14,
+    "pages": 18,
+    "video_tasks": 642,
+    "unique_video_tasks": 642,
+    "status_counts": {
+      "success": 613,
+      "fail": 26,
+      "init": 3
+    },
+    "checked_at": "2026-11-09T07:12:25.290Z"
   },
   "slots": {
     "physical_capacity": 6,
-    "occupied": null,
-    "free": null,
-    "active_task_ids": []
+    "occupied": 3,
+    "free": 3,
+    "active_task_ids": [
+      "0b6dfa84e4524b438075f10f7205a846",
+      "2d8efbd16f5146f48cd7a9a1ffb99369",
+      "8a1982a55f794a049a62eaa91bf8827f"
+    ],
+    "active_board": "1a6244cf1ae747ef847d949a80d6133c",
+    "active_unlimited_selected": true,
+    "active_model": "Seedance 2.0",
+    "active_resolution": 720,
+    "active_aspect_ratio": "16:9",
+    "active_credits_cost": 0,
+    "verified_at": "2026-11-09T07:13:17Z"
   },
-  "selected_item": null,
+  "selected_item": "S48-SEED20-P2-R2-20261108",
   "task_ids": [],
   "new_submissions": [],
-  "browser_transport": "not_started",
+  "browser_transport": "not_used_work_verified_preferred_and_native_TinyFish_input_blocker_unchanged",
   "tinyfish": {
     "runs": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0
+    "confirmed_cost_usd": 0,
+    "wallet_spent_usd": 0
   },
   "topview_credits_spent": 0,
   "lease": {
     "holder": "chatgpt:ordinary:3b1261e0-4ea9-41bb-89d2-448ec7bd6d8c",
     "acquired_at": "2026-11-09T07:09:51.296Z",
-    "expires_at": "2026-11-09T07:24:51.296Z"
+    "expires_at": "2026-11-09T07:24:51.296Z",
+    "released_at": "2026-11-09T07:21:19.063Z",
+    "release_with_receipt_atomic": true
   },
   "acceptance": {
     "scheduled_run_verified": true,
-    "topview_read_only_scan_complete": false,
+    "topview_read_only_scan_complete": true,
     "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
     "new_task_id_verified": false,
     "production_submission_verified": false
   },
-  "outcome": null,
-  "blocker": null,
-  "retryable": null,
-  "checked_at": "2026-11-09T07:11:05.684Z"
+  "outcome": "blocked_browser_input",
+  "blocker": {
+    "code": "blocked_browser_input",
+    "item_id": "S48-SEED20-P2-R2-20261108",
+    "reason": "Existing native TinyFish UI cannot yet prove transfer of exact six original images and actual 3-second MP4 to My First Board Omni-reference or selected Unlimited0. Last authenticated blocker has no fresh capability-change evidence. Work remains restored_verified/preferred, so metered fallback is not justified for this run. No Create attempted.",
+    "retryable": false
+  },
+  "retryable": false,
+  "checked_at": "2026-11-09T07:21:19.063Z",
+  "final_source_head": "7e51e07cdba711003269fd690a0c3f9e9f073fa9",
+  "queue_reconciliation": {
+    "queue_readiness_sha256_match": true,
+    "task_map_sha256_match": true,
+    "submitted_ids_in_queue": 20,
+    "submitted_ids_found": 20,
+    "submitted_ids_missing": 0,
+    "submission_unknown": [
+      {
+        "id": "S49B",
+        "state": "submission_unknown",
+        "claim_id": "96d1c4a1-11da-4d5a-84ff-0b32db5791c2",
+        "submission_intent_id": "e12e32cf-b8d6-4484-86ef-35acee6e4693"
+      }
+    ],
+    "other_claimed": [],
+    "priority_ready": [
+      {
+        "id": "S48-SEED20-P2-R2-20261108",
+        "priority": -0.98
+      },
+      {
+        "id": "S62-SEED20-P1-R2-20261108",
+        "priority": -0.5
+      },
+      {
+        "id": "S52-R2-SEED20-P2",
+        "priority": 0.01
+      },
+      {
+        "id": "S59-SEED20-P2-R2-20261108",
+        "priority": 0.51
+      },
+      {
+        "id": "S60-SEED20-P2",
+        "priority": 0.61
+      }
+    ],
+    "source_queue_blob_sha": "9ffea30f0c3b021d75e7e08e7fef90c563508406",
+    "source_task_map_blob_sha": "1e2301a237623a5eafa709e8f239885ffd3b5c1c",
+    "source_readiness_blob_sha": "13781f15504ff8501509409261b6ceeb25eb146e",
+    "changed_during_cycle": []
+  },
+  "route_status": {
+    "preferred_executor": "work",
+    "work_capacity_state": "restored_verified",
+    "ordinary_role": "enabled_reserve",
+    "route_generation": 3,
+    "work_new_outage_evidence": false
+  },
+  "owner_tasks": "checked_open_0",
+  "monitor": {
+    "latest_robot_issue": 490,
+    "latest_event_id": "slots:d1af9cd6:37",
+    "robot_launcher_health_state": "reconciliation_required",
+    "robot_observation_at": "2026-11-09T07:00:30Z",
+    "robot_event_not_used_as_capacity_evidence": true,
+    "relay_last_run_id": "169199c5-3528-8325-8f99-a8213d4dff8a",
+    "relay_last_run_status": "no_update",
+    "hourly55_last_run_id": "9b475141-ef00-8332-b11e-91064dca9be1",
+    "hourly55_last_run_status": "no_update"
+  },
+  "completed_at": "2026-11-09T07:21:19.063Z",
+  "result": "Fresh 14-board/18-page/642-video scan: 613 success/26 fail/3 init, 3 of 6 physical slots free; three active task IDs verified Unlimited and creditsCost 0. All 20 submitted queue IDs found. S49B intent remains submission_unknown and was not repeated. Next ready unlinked story S48-P2-R2 then S62-P1-R2. Work preferred/ordinary reserve. No TinyFish runs, Create, retry or costs."
 }
