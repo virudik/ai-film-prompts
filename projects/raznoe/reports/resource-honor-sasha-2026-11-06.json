@@ -22,9 +22,35 @@
     "choice_status": "model_selected_by_owner_request",
     "official_source_map": "projects/raznoe/references/scenes/scene-4/official-product-source-links.json",
     "filmwide_voiceover_map": "projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json",
-    "image_reference_status": "external_official_links_only_no_canonical_product_PNG",
+    "image_reference_status": "three official source images re-downloaded and byte-verified against private Drive copies; no canonical generated product PNG accepted",
     "native_audio_blocks_corrected": 36,
-    "voiceover_lines_mapped": 15
+    "voiceover_lines_mapped": 15,
+    "latest_official_source_readback": {
+      "checked_at": "2026-11-09T19:04:19Z",
+      "source": "GitHub Actions read-only workflow 42679705455",
+      "result": "3/3 official source images downloaded; SHA256 exactly matches existing private Drive copies",
+      "refs": [
+        {
+          "slot": "H-BACK",
+          "bytes": 5161026,
+          "sha256": "75b1c1c633760037f46a382794c9253588bd0c14b9aeba23050782cbffadc04a",
+          "matches_private_drive": true
+        },
+        {
+          "slot": "H-FRONT",
+          "bytes": 3872665,
+          "sha256": "fab0823b46ec815dc616b958b8f9e33e2de57f4bbe2e7366a720b7f358dc019a",
+          "matches_private_drive": true
+        },
+        {
+          "slot": "H-34",
+          "bytes": 406599,
+          "sha256": "5bd821e37fc6409636369c282a7d80da65bd3a9132ec295eefe7e047ba393b0a",
+          "matches_private_drive": true
+        }
+      ],
+      "scope": "Technical source integrity only; not product image generation, advertising rights, or editorial approval."
+    }
   },
   "drive_destination": {
     "name": "Саша",
@@ -37,10 +63,11 @@
     "repair": "release own general lock after current canonical checkpoint; keep project lock for new work"
   },
   "next_actions": [
-    "Check Projects status and Pages workflow after canonical blank-spacing fix; read back public Pages asset.",
-    "Review 9 v3 active prompt/ref pairs and 4 mechanical PNGs with owner, no video submission without explicit separate approval.",
-    "HONOR Magic9 Pro Max: official licensed front/back/camera product images and owner voiceover sign-off.",
-    "Keep and remaining 8 HTTPS subdomains remain independent not-completed work."
+    "Use the exact private H-BACK/H-FRONT/H-34 images as technical inputs for an original product reference only through the built-in ChatGPT image generator; visually compare camera island, flash, lens positions, frame, color and logo; reject any mismatch. Do not publish source copies or claim advertising rights.",
+    "If the built-in generator does not preserve exact product geometry, keep the task blocked rather than substituting a generic phone; request owner-approved licensed assets or a suitable edit workflow.",
+    "Review the 9 active RESOURCE v3 prompt/reference pairs and 4 mechanical PNGs; no video submission without separate approval.",
+    "Complete full motion/audio/continuity QC of actual RESOURCE video results when available; current production state remains DRAFT, not approved.",
+    "HONOR contest scene remains prepared; submission requires the owner's actual city and agreement on a safe test."
   ],
   "generated_images": 4,
   "video_submissions": 0,
@@ -68,7 +95,7 @@
       "qc": "visual_reference_passed_not_approved"
     }
   ],
-  "updated_at": "2026-11-06T19:15:51.052Z",
+  "updated_at": "2026-11-09T19:04:19Z",
   "generated_images_count_scope": "QC-passed generated references saved in canon; excludes rejected drafts and downloaded official product sources.",
   "resource_reference_progress": {
     "saved": 4,
