@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "state": "free",
-  "holder": "cursor:bc-b6c53856-e99b-58a2-a5e3-54a898cb355c",
-  "task": "t410: archive non-live queue history so 48 and 52 intents fit",
-  "acquired_at": "2026-11-09T08:07:53Z",
+  "holder": "grok:97b7e84b-cf70-41a1-8bb4-c11da41817d7",
+  "task": "t410s2023 S48 intent only",
+  "acquired_at": "2026-11-09T08:10:13Z",
   "expires_at": null,
-  "released_at": "2026-11-09T08:08:08Z",
+  "released_at": "2026-11-09T08:10:13Z",
   "rules": "ops/CANON-LOCK.md"
 }
