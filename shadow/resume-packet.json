@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-09T11:13:15+00:00",
-  "source_head": "a9970a5dedf65b0369401101024595014a924529",
-  "source_fingerprint": "b543d60f5679153d9272e65328ba882933ac354229259691c28b66c8d7371d2c",
+  "checked_at": "2026-11-09T11:18:47+00:00",
+  "source_head": "83e16c63a9e6f2e8366808acebdf3734a974f77e",
+  "source_fingerprint": "7643ec30321ed2339b4d7047affe80bf5abc71437d8b26dc8c0583d381f07a43",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -170,7 +170,22 @@
     "Current capabilities; for a video submit use all-project slot scan, input/QC, Unlimited0 and CAS claim"
   ],
   "queue_recovery": {
-    "unresolved": [],
+    "unresolved": [
+      {
+        "item_id": "S48-SEED20-P4",
+        "state": "submitting",
+        "task_id": null,
+        "recovery_action": "reconcile_without_resubmitting",
+        "submit_authorized": false
+      },
+      {
+        "item_id": "S52-R2-SEED20-P4",
+        "state": "submitting",
+        "task_id": null,
+        "recovery_action": "reconcile_without_resubmitting",
+        "submit_authorized": false
+      }
+    ],
     "existing_task_count": 73,
     "existing_tasks": [
       {
@@ -468,13 +483,6 @@
     ],
     "next_candidates": [
       {
-        "item_id": "S52-R2-SEED20-P4",
-        "state": "waiting_for_slot",
-        "task_id": null,
-        "recovery_action": "fresh_launch_preflight_required",
-        "submit_authorized": false
-      },
-      {
         "item_id": "S62-SEED20-P1-R2-20261108",
         "state": "waiting_for_slot",
         "task_id": null,
@@ -482,7 +490,14 @@
         "submit_authorized": false
       },
       {
-        "item_id": "S48-SEED20-P4",
+        "item_id": "S51E",
+        "state": "waiting_for_slot",
+        "task_id": null,
+        "recovery_action": "fresh_launch_preflight_required",
+        "submit_authorized": false
+      },
+      {
+        "item_id": "S51F",
         "state": "waiting_for_slot",
         "task_id": null,
         "recovery_action": "fresh_launch_preflight_required",
@@ -544,13 +559,13 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "75eddf68907a13a90def4f39ebd44e615731fa5e719e18045b695c30f589971c",
-      "bytes": 354754
+      "sha256": "4d4ba9ded0cfe1730f4de65768796a9194c9a19c4aefc9d7f47ceff452fb1543",
+      "bytes": 360020
     },
     {
       "file": "project-status.json",
-      "sha256": "2f29e5d55af4acc078ecc55d5fcb32c037f96dc2307d1435cacabec70908cfac",
-      "bytes": 25724
+      "sha256": "d11b288f749799012991a77fdca2ed75cc8dc897bfe989aed9670f68ce031029",
+      "bytes": 25722
     },
     {
       "file": "reports/chat-handoff-save-2026-11-08.json",
@@ -588,5 +603,5 @@
       "bytes": 100790
     }
   ],
-  "packet_bytes": 6466
+  "packet_bytes": 6565
 }
