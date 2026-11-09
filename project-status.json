@@ -3,12 +3,12 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-11-09T14:58:35Z",
+  "synced_at": "2026-11-09T15:00:41Z",
   "revision_date": "09.11.2026",
   "master_declared_last_full_sync": "09.11.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "1a773a91da4e3f23f77b0155c0d9f862a61fea1ab2450d0633649794b560cc96",
-  "canonical_revision_sha256": "eefd782fc10956af84977d850bc7d05ce38459ebd76d385625d3404434283068",
-  "canonical_master_bytes": 1489944,
+  "canonical_master_sha256": "a7e5c01fab19fb465c053e8f54716ddd7fc30a21d079a5a8b9e703c2dd5fd6d8",
+  "canonical_revision_sha256": "5e4e787c6d9659f9442a57834502ffae5ee550a74d9792c2f304b715e2455c1b",
+  "canonical_master_bytes": 1490381,
   "scenes": 37,
   "prompt_texts": 168,
   "work_items": [
@@ -45,11 +45,12 @@
     66,
     67,
     68,
+    69,
     71,
     72,
     73
   ],
-  "slow_scenes_count": 22,
+  "slow_scenes_count": 23,
   "scene_ids": [
     13,
     16,
@@ -140,7 +141,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 0.008,
+    "age_hours_at_status_build": 0.043,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -218,13 +219,13 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.008,
+      "age_hours": 0.043,
       "blocking": false
     },
     "topview_task_map": {
-      "state": "drift",
+      "state": "ok",
       "blocking": false,
-      "task_map_matches_snapshot": false,
+      "task_map_matches_snapshot": true,
       "terminal_cache_consistent": true
     }
   },
@@ -808,7 +809,7 @@
         "owner_requested",
         "chain_52_66_67"
       ],
-      "render_state": "IDLE"
+      "render_state": "SLOW_PENDING"
     },
     "70": {
       "target_engine": "Wan 3",
@@ -1016,9 +1017,9 @@
   },
   "audit_fingerprint": {
     "revision_date": "09.11.2026",
-    "synced_at": "2026-11-09T14:58:35Z",
-    "canonical_master_sha256": "1a773a91da4e3f23f77b0155c0d9f862a61fea1ab2450d0633649794b560cc96",
-    "canonical_revision_sha256": "eefd782fc10956af84977d850bc7d05ce38459ebd76d385625d3404434283068",
+    "synced_at": "2026-11-09T15:00:41Z",
+    "canonical_master_sha256": "a7e5c01fab19fb465c053e8f54716ddd7fc30a21d079a5a8b9e703c2dd5fd6d8",
+    "canonical_revision_sha256": "5e4e787c6d9659f9442a57834502ffae5ee550a74d9792c2f304b715e2455c1b",
     "scene_count": 37,
     "prompt_count": 168,
     "scene_ids": [
@@ -1093,6 +1094,7 @@
       66,
       67,
       68,
+      69,
       71,
       72,
       73
