@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "source": "Topview operational telemetry",
-  "checked_at": "2026-11-09T08:14:11Z",
+  "checked_at": "2026-11-09T08:20:11Z",
   "timezone": "UTC",
   "canonical_behavior": "Topview slow capacity is 6 concurrent active task slots. One active Topview task occupies one slot even when several tasks belong to the same Scene ID. Canonical slow membership remains unique by Scene ID.",
   "scenes": {
@@ -576,18 +576,20 @@
     },
     "52": {
       "scene_id": 52,
-      "task_id": "c65c30d8cbe14e9eadec886276e62471",
+      "task_id": "47804d4f777e4613b6187a7bff6e0dd0",
       "model": "Seedance 2.0",
       "model_id": "seedance-2.0-style",
-      "topview_status": "success",
-      "started_at": "2026-10-28T06:51:02Z",
-      "queue_count": null,
-      "topview_estimated_wait_seconds": null,
-      "checked_at": "2026-11-01T05:00:18Z",
+      "topview_status": "init",
+      "started_at": "2026-11-09T08:15:07Z",
+      "queue_count": 4245,
+      "topview_estimated_wait_seconds": 200828,
+      "checked_at": "2026-11-09T08:20:11Z",
       "verified": true,
-      "mapping_confidence": "prompt normalized match with master block 52 · Seedance 2.0 часть 1 (robot)",
-      "active_task_ids": [],
-      "completed_at": "2026-11-01T04:55:25Z",
+      "mapping_confidence": "prompt normalized match with master block 52 · Seedance 2.0 часть 2 (robot)",
+      "active_task_ids": [
+        "47804d4f777e4613b6187a7bff6e0dd0"
+      ],
+      "completed_at": null,
       "topview_estimated_process_seconds": null
     },
     "58": {
@@ -629,9 +631,9 @@
       "model_id": "seedance-2.0-style",
       "topview_status": "init",
       "started_at": "2026-11-09T08:11:39Z",
-      "queue_count": 3391,
-      "topview_estimated_wait_seconds": 149350,
-      "checked_at": "2026-11-09T08:14:11Z",
+      "queue_count": 3380,
+      "topview_estimated_wait_seconds": 148988,
+      "checked_at": "2026-11-09T08:20:11Z",
       "verified": true,
       "mapping_confidence": "prompt normalized match with master block 48 · Seedance 2.0 часть 2 (robot)",
       "active_task_ids": [
@@ -807,9 +809,9 @@
       "model_id": "seedance-2.0-style",
       "topview_status": "init",
       "started_at": "2026-11-08T17:45:33Z",
-      "queue_count": 2517,
-      "topview_estimated_wait_seconds": 97512,
-      "checked_at": "2026-11-09T08:14:11Z",
+      "queue_count": 2506,
+      "topview_estimated_wait_seconds": 97148,
+      "checked_at": "2026-11-09T08:20:11Z",
       "verified": true,
       "mapping_confidence": "prompt normalized match with master block 51D (robot)",
       "active_task_ids": [
@@ -821,7 +823,7 @@
       "topview_estimated_process_seconds": null
     }
   },
-  "note": "GitHub robot: 4 из 6 слотов занято, новых 1, завершено 0.",
+  "note": "GitHub robot: 5 из 6 слотов занято, новых 1, завершено 0.",
   "ui_contract": {
     "slow_table": "one row per active Topview task/slot; Scene ID may repeat",
     "capacity": 6,
@@ -831,13 +833,13 @@
     "header_timestamp_source": "checked_at",
     "header_timestamp_style": "ordinary text color and weight; no 'синхр.' label",
     "three_view_source": "active_tasks[] normalized once per page load",
-    "three_view_checked_at": "2026-11-09T08:14:11Z",
+    "three_view_checked_at": "2026-11-09T08:20:11Z",
     "scene_summary": "unique Scene IDs with multiplicity; mixed task statuses preserved",
     "queue_source": "exact active_tasks[].queue_count per task"
   },
   "slot_capacity": 6,
-  "occupied_slots": 4,
-  "free_slots": 2,
+  "occupied_slots": 5,
+  "free_slots": 1,
   "active_tasks": [
     {
       "scene_id": 51,
@@ -846,9 +848,9 @@
       "model_id": "seedance-2.0-style",
       "topview_status": "init",
       "started_at": "2026-11-08T17:45:33Z",
-      "queue_count": 2517,
-      "topview_estimated_wait_seconds": 97512,
-      "checked_at": "2026-11-09T08:14:11Z",
+      "queue_count": 2506,
+      "topview_estimated_wait_seconds": 97148,
+      "checked_at": "2026-11-09T08:20:11Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "prompt normalized match with master block 51D (robot)",
@@ -861,13 +863,28 @@
       "model_id": "seedance-2.0-style",
       "topview_status": "init",
       "started_at": "2026-11-08T17:31:40Z",
-      "queue_count": 1679,
-      "topview_estimated_wait_seconds": 54310,
-      "checked_at": "2026-11-09T08:14:11Z",
+      "queue_count": 1665,
+      "topview_estimated_wait_seconds": 53948,
+      "checked_at": "2026-11-09T08:20:11Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "prompt normalized match with master block 51C (robot)",
       "part": "C"
+    },
+    {
+      "scene_id": 52,
+      "task_id": "47804d4f777e4613b6187a7bff6e0dd0",
+      "model": "Seedance 2.0",
+      "model_id": "seedance-2.0-style",
+      "topview_status": "init",
+      "started_at": "2026-11-09T08:15:07Z",
+      "queue_count": 4245,
+      "topview_estimated_wait_seconds": 200828,
+      "checked_at": "2026-11-09T08:20:11Z",
+      "topview_estimated_process_seconds": null,
+      "verified": true,
+      "mapping_confidence": "prompt normalized match with master block 52 · Seedance 2.0 часть 2 (robot)",
+      "part": "Seedance 2.0 часть 2"
     },
     {
       "scene_id": 51,
@@ -876,9 +893,9 @@
       "model_id": "seedance-2.0-style",
       "topview_status": "init",
       "started_at": "2026-11-08T17:18:48Z",
-      "queue_count": 485,
-      "topview_estimated_wait_seconds": 11110,
-      "checked_at": "2026-11-09T08:14:11Z",
+      "queue_count": 468,
+      "topview_estimated_wait_seconds": 10748,
+      "checked_at": "2026-11-09T08:20:11Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "prompt normalized match with master block 51B (robot)",
@@ -891,9 +908,9 @@
       "model_id": "seedance-2.0-style",
       "topview_status": "init",
       "started_at": "2026-11-09T08:11:39Z",
-      "queue_count": 3391,
-      "topview_estimated_wait_seconds": 149350,
-      "checked_at": "2026-11-09T08:14:11Z",
+      "queue_count": 3380,
+      "topview_estimated_wait_seconds": 148988,
+      "checked_at": "2026-11-09T08:20:11Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "prompt normalized match with master block 48 · Seedance 2.0 часть 2 (robot)",
@@ -902,19 +919,20 @@
   ],
   "scope": "all_owned_board_counts_plus_ai_film_latest_100_plus_direct_known_active",
   "account_observation": {
-    "checked_at": "2026-11-09T08:14:11Z",
+    "checked_at": "2026-11-09T08:20:11Z",
     "complete": true,
     "boards_scanned": 14,
-    "video_tasks_scanned": 643,
+    "video_tasks_scanned": 644,
     "pages_scanned": 16,
     "scope": "all_owned_boards_unlimited_video_tasks",
     "scan_mode": "full_all_pages",
     "slot_capacity": 6,
-    "occupied_slots": 4,
-    "free_slots": 2,
+    "occupied_slots": 5,
+    "free_slots": 1,
     "active_task_ids": [
       "0b6dfa84e4524b438075f10f7205a846",
       "2d8efbd16f5146f48cd7a9a1ffb99369",
+      "47804d4f777e4613b6187a7bff6e0dd0",
       "8a1982a55f794a049a62eaa91bf8827f",
       "dcf9df8fb84e41178b9f11e6be06751b"
     ]
@@ -969,6 +987,7 @@
     "8a1982a55f794a049a62eaa91bf8827f": "B",
     "2d8efbd16f5146f48cd7a9a1ffb99369": "C",
     "0b6dfa84e4524b438075f10f7205a846": "D",
-    "dcf9df8fb84e41178b9f11e6be06751b": "Seedance 2.0 часть 2"
+    "dcf9df8fb84e41178b9f11e6be06751b": "Seedance 2.0 часть 2",
+    "47804d4f777e4613b6187a7bff6e0dd0": "Seedance 2.0 часть 2"
   }
 }

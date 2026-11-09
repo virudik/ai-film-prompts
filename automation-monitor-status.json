@@ -167,7 +167,7 @@
   },
   "phases": {
     "topview": {
-      "checked_at": "2026-11-09T08:14:11Z",
+      "checked_at": "2026-11-09T08:20:11Z",
       "source": "robot; число слотов — topview-status.json"
     },
     "deep_audit": {
@@ -185,8 +185,8 @@
   },
   "health": "ok",
   "last_scheduled_cycle": {
-    "started_at": "2026-11-09T08:14:17Z",
-    "completed_at": "2026-11-09T08:14:17Z",
+    "started_at": "2026-11-09T08:20:20Z",
+    "completed_at": "2026-11-09T08:20:20Z",
     "health": "ok",
     "phases_completed": [
       "role_check",
@@ -198,7 +198,7 @@
     ],
     "phases_missing": [],
     "runner": "robot_scheduled_task",
-    "note": "GitHub robot: 4 из 6 слотов занято, новых 1, завершено 0."
+    "note": "GitHub robot: 5 из 6 слотов занято, новых 1, завершено 0."
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -257,8 +257,8 @@
       "checked_at": "2026-10-13T19:02:02.187Z"
     }
   },
-  "last_completed_cycle_at": "2026-11-09T08:14:17Z",
-  "last_successful_cycle_at": "2026-11-09T08:14:17Z",
+  "last_completed_cycle_at": "2026-11-09T08:20:20Z",
+  "last_successful_cycle_at": "2026-11-09T08:20:20Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
     "title": "AI Film — единый монитор",
@@ -273,13 +273,13 @@
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-11-09T08:14:17Z"
+    "robot": "2026-11-09T08:20:20Z"
   },
   "last_successful_cycle_runner": "robot_scheduled_task",
   "last_successful_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-11-09T08:14:17Z"
+    "robot": "2026-11-09T08:20:20Z"
   },
   "previous_primary_automation": {
     "id": "trig_014eEvBooAV2hxx1asRo9snm",
@@ -390,10 +390,10 @@
   "launcher_health": {
     "state": "reconciliation_required",
     "unresolved": true,
-    "episode": "9c0011bd",
-    "unresolved_since": "2026-11-09T08:14:17Z",
+    "episode": "27014d34",
+    "unresolved_since": "2026-11-09T08:20:20Z",
     "reason": "saved_claim_or_unknown_submission; no_repeat_Create",
-    "free_slots_global": 2,
+    "free_slots_global": 1,
     "actionable_items": [
       "S51E",
       "S51F",
@@ -405,13 +405,11 @@
       "S28-A9-20261023",
       "S28-A10-20261023",
       "S28-A11-20261023",
-      "S59-SEED20-P2-R2-20261108",
       "S60-SEED20-P2",
       "S61-SEED20-P2",
       "S62-SEED20-P1-R2-20261108",
       "S28-A1-R2-20261025",
       "S28-A2-R2-20261025",
-      "S52-R2-SEED20-P2",
       "S51G",
       "S28-A13-20261030"
     ],
@@ -428,6 +426,6 @@
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
     "escalation_attempted_episode": "d1af9cd6",
-    "checked_at": "2026-11-09T08:14:17Z"
+    "checked_at": "2026-11-09T08:20:20Z"
   }
 }
