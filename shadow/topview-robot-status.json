@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-09T12:20:25Z",
+  "checked_at": "2026-11-09T12:30:28Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -27,7 +27,7 @@
     },
     "pages_scanned": 1,
     "tasks_seen": 20,
-    "api_requests": 4,
+    "api_requests": 2,
     "detail_failed": []
   },
   "cursor": {
@@ -59,22 +59,7 @@
   },
   "active_tasks": [],
   "unknown_new": [],
-  "finished_known": [
-    {
-      "task_id": "4c35bb617de143b39723924075b31c3d",
-      "scene_id": null,
-      "final_status": "success",
-      "completed_at": "2026-11-09 12:16:08",
-      "error_code": null
-    },
-    {
-      "task_id": "ce934dd80c4e4493b3daffcf09d95dde",
-      "scene_id": null,
-      "final_status": "success",
-      "completed_at": "2026-11-09 12:16:42",
-      "error_code": null
-    }
-  ],
+  "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
     {
@@ -220,7 +205,7 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-11-09T12:05:55Z",
-    "monitor_age_minutes": 15,
+    "monitor_age_minutes": 25,
     "monitor_occupied": 0,
     "robot_occupied": 0,
     "consistent": true,
