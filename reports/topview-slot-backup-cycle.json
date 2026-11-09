@@ -10,9 +10,9 @@
   "route_generation": 3,
   "started_at": "2026-11-09T03:55:14.817296Z",
   "receipt_started_at": "2026-11-09T04:03:51.418Z",
-  "phase": "started",
-  "status": "in_progress",
-  "outcome": "started",
+  "phase": "complete",
+  "status": "completed",
+  "outcome": "blocked_browser_input",
   "scan": {
     "complete": true,
     "scope": "14 Topview boards, all 18 video pages via read-only connector",
@@ -39,7 +39,7 @@
   "selected_item": "S48-SEED20-P2-R2-20261108",
   "task_ids": [],
   "new_submissions": [],
-  "browser_transport": "not_used",
+  "browser_transport": "not_used_existing_native_upload_blocker",
   "tinyfish": {
     "runs": [],
     "steps": 0,
@@ -55,15 +55,18 @@
     "submission_unknown": [
       "S49B"
     ],
-    "other_claimed": []
+    "other_claimed": [],
+    "submitted_ids_missing": 0,
+    "next_ready_independent": "S62-SEED20-P1-R2-20261108"
   },
   "lease": {
     "holder": "chatgpt:ordinary:29a93866-3618-4140-88b6-bfa43e15de30",
     "acquired_at": "2026-11-09T04:03:10.086Z",
     "expires_at": "2026-11-09T04:18:10.086Z",
-    "released_at": null
+    "released_at": "2026-11-09T04:05:53.218Z",
+    "release_with_receipt_atomic": true
   },
-  "retryable": true,
+  "retryable": false,
   "acceptance": {
     "scheduled_run_verified": true,
     "topview_read_only_scan_complete": true,
@@ -72,5 +75,22 @@
     "tinyfish_unlimited_zero_this_run": false,
     "new_task_id_verified": false,
     "production_submission_verified": false
-  }
+  },
+  "checked_at": "2026-11-09T04:05:53.218Z",
+  "completed_at": "2026-11-09T04:05:53.218Z",
+  "blocker": {
+    "code": "blocked_browser_input",
+    "item_id": "S48-SEED20-P2-R2-20261108",
+    "reason": "Native exact original-image and real 3s source-MP4 transfer to My First Board Omni-reference composer, plus visibly selected Unlimited0, remain unverified in saved TinyFish profile. Same unresolved paid browser blocker since 2026-11-06; no new verified UI capability. Do not repeat a metered check or Create without qualifying new evidence.",
+    "retryable": false
+  },
+  "owner_tasks": "checked_open_0",
+  "monitor": {
+    "last_robot_event_id": "slots:d1af9cd6:34",
+    "last_robot_observation_at": "2026-11-09T03:50:25Z",
+    "relay_last_run_status": "no_update",
+    "hourly55_last_run_status": "no_update",
+    "old_event_not_treated_as_fresh_capacity": true
+  },
+  "result": "Fresh scan found 3/6 occupied Unlimited0 tasks. Highest-priority independent ready story item S48-P2-R2 is now waiting_for_slot without a claim; S62-P1-R2 next. No Create because native original-image/3s source-video import and selected Unlimited0 remain unverified in TinyFish. No metered browser run, no credit use. Route and queue unchanged."
 }
