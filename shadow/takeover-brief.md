@@ -2,7 +2,7 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-11-09T10:10:15+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-11-09T10:18:18+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -16,7 +16,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 - USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 84346 B · `931b751a155ab065`
 - README-AI-SYNC.md · копия на Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 18336 B · `164f1faf3fc2ffe8`
 - BACKUP-AI-RUNBOOK.md · копия на Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 21763 B · `6b0a0ba95d23937c`
-- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1380360 B · `e2de9a17648448ef`
+- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1380994 B · `14dcc14086a74b0b`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story. → `NEW-CHAT-HANDOFF.md` ✓
@@ -52,7 +52,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 48 | Татуин: после боя Канцлер забирает фрагмент карты | Seedance 2.0 | READY/SLOW_PENDING | 5 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [56] | bda3dc90398f |
 | 49 | Финальный музыкально-танцевальный номер: Космическая рок-гру | Seedance 2.0 | READY/SLOW_PENDING | 11 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 @Image8 @Image9 | [28] | 9728847bd505 |
 | 50 | Финальный музыкально-танцевальный номер: Вуки на площадке и  | Seedance 2.0 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [28, 49] | dfe4a2e45e04 |
-| 51 | Финальный музыкально-танцевальный номер: Рок-финал: каждый р | Seedance 2.0 | READY/SLOW_PENDING | 14 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 | [28, 49, 50] | 085db7c722db |
+| 51 | Финальный музыкально-танцевальный номер: Рок-финал: каждый р | Seedance 2.0 | READY/SLOW_PENDING | 14 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 | [28, 49, 50] | af8e0e868475 |
 | 52 | Татуинская связка 1/7 (начало в части 7) · Серёга пересажива | Seedance 2.0 (P1–P6); Wan 3.0 (P7) | DRAFT/SLOW_PENDING | 14 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 4588096784ac |
 | 56 | Татуин: бой в движении — червь требует внимания | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 | [42] | 51de054e3810 |
 | 57 | РосКОТмос: аварийная посадка котов на планете ситхов | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | c12ca1c3d38d |
