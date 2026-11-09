@@ -13,8 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 8
     env:
-      HOLDER: chatgpt:ordinary:6f9d41c4-8d75-4cb1-9a45-5f07ef6f13b2
-      ACQUIRED: '2026-11-09T19:01:22Z'
+      HOLDER: chatgpt:ordinary:92a55f4b-08b5-4fb1-a9f1-95e2c0e6a2d1
+      ACQUIRED: '2026-11-09T19:03:29Z'
     steps:
       - uses: actions/checkout@v5
         with:
@@ -92,6 +92,7 @@ jobs:
           preserved={p:hashlib.sha256(Path(p).read_bytes()).hexdigest() for p in protected}
           tls=json.loads(Path('/tmp/school7-tls.json').read_text())
           report={'schema_version':1,'project':'seregius','checked_at':now(),'source_head':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'request':'Owner corrected video count to seven and renewed HONOR/HTTPS request','video_count':{'owner_screenshot':7,'previously_verified_rutube_embeds':6,'school_still_uses_local_mp4':True},'school':{'title':'Школа','rutube_id':'fa8444d562187e5a9b41628d53129af6','access':'private link supplied by owner; secret query deliberately omitted','duration_from_screenshot_seconds':120,'duration_measured_in_player':None,'probe':'TinyFish browser run d26e6e39-b93e-4083-adb7-3cfefcbfc022','probe_result':'Exact provided private link displayed Данное видео временно недоступно with INTEXCP_PRMCDN_RB_WEB; playback not observed. Non-key embed timed out; timeout does not prove access policy.','conclusion':'Not ready for replacement; keep /video/alina-school.mp4 and existing privacy unchanged. This is one browser observation, not proof of deletion or moderation.','private_key_published':False,'local_file_deleted':False,'public_embed_enabled':False},'tls':tls,'pages_permission_status':{'last_observed_update':'403 Resource not accessible by integration in alina-rudik-redirect report','new_admin_write_attempted':False,'originating_browser_available':False,'saved_tinyfish_github_signin':False,'required_next_step':'Use an already authorized GitHub Pages administrator session; do not bypass permissions or ask for passwords/tokens in chat'},'honor':{'scene4_product':'HONOR Magic9 Pro Max','existing_video_prompts':36,'existing_voiceover_lines':15,'new_H_BACK_prompt':'projects/raznoe/references/scenes/scene-4/H-BACK.image-prompt.txt','product_png_accepted':0,'scene5_contest_plan_already_synced':True,'contest_submission_sent':False,'city_confirmed':False,'real_film_target_seconds':90,'real_film_allowed_seconds':[60,120],'music_allowed':False},'rejected_generated_output':{'generation_id':'3cc78517-9ad9-4e50-ae73-bee22ba5bdef','reason':'Unrequested dashboard with unsupported done claims; not a product reference and not execution evidence','published_in_project':False},'preserved_sha256':preserved,'new_video_submissions':0,'paid_generations':0,'all_requested_work_complete':False}
+          evidence=json.loads(Path('/tmp/honor-primary-reference-review/sources.json').read_text())
           report['official_reference_review']={'sources':evidence,'downloaded_count':sum(x.get('downloaded',False) for x in evidence),'private_sha_match_count':sum(x.get('matches_private_copy') is True for x in evidence),'usage_boundary':'Technical reference copies only; no rights grant or editorial approval.'}
           path.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
           newrow='| A-33 | СРОЧНО: седьмое Rutube-видео «Школа» вместо локального MP4 | НЕ ЗАВЕРШЕНО: на скриншоте 7 видео; прежние 6 плееров готовы. Новая приватная ссылка проверена, браузер получил INTEXCP_PRMCDN_RB_WEB / временно недоступно; воспроизведение не доказано. alina-school.mp4 сохранить до рабочей замены и проверки резервной копии; секрет доступа не публиковать. | reports/school-seventh-video-2026-11-08.json |'
