@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-09T09:13:30+00:00",
-  "source_head": "c839e36c46aefae1b2bb9211069b381b09f3f1da",
-  "source_fingerprint": "9e0fa048ae886fde47fc9fd6b92a6b410e21d6b35e2201170711788e8a1b8a2d",
+  "checked_at": "2026-11-09T09:17:03+00:00",
+  "source_head": "a6b10320ebd644c480dde621e1dbd46bd471562a",
+  "source_fingerprint": "a86ea9ee3772418b9eddc996b31a2c35802aa1518b29e4f7abcfbbd77415a742",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -174,6 +174,13 @@
       {
         "item_id": "S49B",
         "state": "submission_unknown",
+        "task_id": null,
+        "recovery_action": "reconcile_without_resubmitting",
+        "submit_authorized": false
+      },
+      {
+        "item_id": "S60-SEED20-P2",
+        "state": "submitting",
         "task_id": null,
         "recovery_action": "reconcile_without_resubmitting",
         "submit_authorized": false
@@ -463,14 +470,14 @@
         "submit_authorized": false
       },
       {
-        "item_id": "S60-SEED20-P2",
+        "item_id": "S61-SEED20-P2",
         "state": "waiting_for_slot",
         "task_id": null,
         "recovery_action": "fresh_launch_preflight_required",
         "submit_authorized": false
       },
       {
-        "item_id": "S61-SEED20-P2",
+        "item_id": "S51E",
         "state": "waiting_for_slot",
         "task_id": null,
         "recovery_action": "fresh_launch_preflight_required",
@@ -532,8 +539,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "66d2ad2ab5b7a04a39bae95bb935916b7a1e8169a3269e0ddfd7fe130a716b6d",
-      "bytes": 350626
+      "sha256": "f9fdf46f7f63cec12e02b6c34a81d71ffb8294f474066f3e50ee6924efbebf53",
+      "bytes": 353250
     },
     {
       "file": "project-status.json",
@@ -576,5 +583,5 @@
       "bytes": 97604
     }
   ],
-  "packet_bytes": 6505
+  "packet_bytes": 6553
 }
