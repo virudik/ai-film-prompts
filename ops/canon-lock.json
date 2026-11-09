@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "state": "free",
-  "holder": "cursor:bc-b6c53856-e99b-58a2-a5e3-54a898cb355c",
-  "task": "Add independent Stitch walk S66-STITCH-INDEP-WAN30",
-  "acquired_at": "2026-11-09T15:28:21Z",
+  "holder": "grok:cabea1f9-8efe-4798-a422-a21ef2bf75a3",
+  "task": "t413u standing S70-WAN30 intent only",
+  "acquired_at": "2026-11-09T15:30:12Z",
   "expires_at": null,
-  "released_at": "2026-11-09T15:28:50Z",
+  "released_at": "2026-11-09T15:30:12Z",
   "rules": "ops/CANON-LOCK.md"
 }
