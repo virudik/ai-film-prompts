@@ -4503,6 +4503,16 @@
    "thumb_bytes": 64126,
    "src_sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac"
   },
+  "references/scenes/scene-68/S68-final-frame.png": {
+   "thumb": "references/thumbs/scenes/scene-68/S68-final-frame.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1616599,
+   "thumb_bytes": 25912,
+   "src_sha256": "1133b8b3153e512326725122d90f15936db8551053f9ab32bac44ced1b8913f1"
+  },
   "references/scenes/scene-68/S68-light-broom.png": {
    "thumb": "references/thumbs/scenes/scene-68/S68-light-broom.png.webp",
    "width": 640,
