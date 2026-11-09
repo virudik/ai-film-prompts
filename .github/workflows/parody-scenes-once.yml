@@ -18,6 +18,14 @@ jobs:
           git fetch origin 68e6ce44c41ad22f8375589e97e44bc51caa5dd6
           git show 68e6ce44c41ad22f8375589e97e44bc51caa5dd6:staging/parodies/scenes.json > /tmp/parody-scenes.json
           git show 68e6ce44c41ad22f8375589e97e44bc51caa5dd6:staging/parodies/publish.py > /tmp/parody-publish.py
+          python3 - <<'PY'
+          from pathlib import Path
+          p=Path('/tmp/parody-publish.py');s=p.read_text()
+          old='master_path.write_text(master)'
+          assert s.count(old)==1
+          s=s.replace(old,"master = re.sub(r'\\n{3,}', '\\n\\n', master)\n"+old)
+          p.write_text(s)
+          PY
       - name: Fresh-main publish under exact own lease, no queue writes
         run: |
           set -euo pipefail
@@ -29,7 +37,7 @@ jobs:
             cp video-prompts.md /tmp/old-master.md
             PYTHONPATH="$PWD/scripts" python3 /tmp/parody-publish.py /tmp/parody-scenes.json
             python3 scripts/cert_github.py .
-            python3 scripts/build_project_status.py video-prompts.md --output project-status.json --synced-at "$(date -u +%FT%TZ)" --topview-status-file topview-status.json --topview-task-map-file topview-task-map.json --previous-status-file project-status.json --previous-master-file /tmp/old-master.md > /tmp/parody-status.json
+            python3 scripts/build_project_status.py video-prompts.md --output project-status.json --synced-at "$(date -u +%FT%TZ)" --instruction-status-file instruction-sync-status.json --topview-status-file topview-status.json --topview-task-map-file topview-task-map.json --previous-status-file project-status.json --previous-master-file /tmp/old-master.md > /tmp/parody-status.json
             python3 scripts/check_instruction_consistency.py .
             python3 scripts/validate_site.py .
             python3 -m unittest tests/test_continue_preflight.py tests/test_continue_recovery.py tests/test_project_recovery.py tests/test_instruction_consistency.py > /tmp/parody-tests.txt 2>&1
