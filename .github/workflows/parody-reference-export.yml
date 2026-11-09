@@ -1,0 +1,46 @@
+name: Read-only parody reference intake
+on:
+  push:
+    branches: [work/parody-reference-preflight-20261109]
+    paths: [.github/workflows/parody-reference-export.yml]
+permissions:
+  contents: read
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Export current texts and exact character images without changing canon
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,subprocess,zipfile
+          from pathlib import Path
+          from datetime import datetime,timezone
+          out=Path('/tmp/parody-intake');out.mkdir()
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          names=subprocess.check_output(['git','ls-files','-z']).decode().split('\0')
+          text_ext={'.md','.txt','.json','.py','.js','.html','.css','.yml','.yaml','.sh'}
+          refs={'references/full/vitalik.jpg','references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png','references/scenes/scene-66/S66-Alina-tatooine-sheet.png'}
+          records=[]
+          with zipfile.ZipFile(out/'parody-canon-and-identities.zip','w',zipfile.ZIP_DEFLATED) as z:
+              for name in names:
+                  p=Path(name)
+                  if not name or not p.is_file() or p.is_symlink(): continue
+                  if p.suffix not in text_ext and name not in refs: continue
+                  if any(x in name.lower() for x in ['credentials','storage-state','service-account','.env']): continue
+                  data=p.read_bytes();z.writestr(name,data)
+                  records.append({'path':name,'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest()})
+              z.writestr('PARODY-INTAKE-SOURCE.json',json.dumps({'head':head,'captured_at':datetime.now(timezone.utc).isoformat(),'purpose':'Owner-requested new parody scenes and identity-only correction; read-only source export, no production actions','files':records},ensure_ascii=False,indent=2))
+          assert refs.issubset({r['path'] for r in records})
+          print(json.dumps({'head':head,'files':len(records),'identity_inputs':sorted(refs)},ensure_ascii=False))
+          assert not subprocess.check_output(['git','status','--porcelain'],text=True).strip()
+          PY
+      - uses: actions/upload-artifact@v5
+        with:
+          name: parody-canon-and-identities
+          path: /tmp/parody-intake/*.zip
+          retention-days: 3
