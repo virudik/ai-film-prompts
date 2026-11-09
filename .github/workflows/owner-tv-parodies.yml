@@ -1,0 +1,41 @@
+name: Owner TV parody scenes
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/owner-tv-parodies.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: owner-tv-parodies
+  cancel-in-progress: false
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: Export exact current text sources and selected existing face references
+        run: |
+          python3 - <<'PY'
+          import json,zipfile,hashlib,subprocess
+          from pathlib import Path
+          root=Path('.');out=Path('/tmp/tv-parody-source');out.mkdir()
+          files=[]
+          with zipfile.ZipFile(out/'source.zip','w',zipfile.ZIP_DEFLATED) as z:
+              for p in sorted(root.rglob('*')):
+                  if not p.is_file() or '.git' in p.parts:continue
+                  include=p.suffix.lower() in {'.md','.json','.py','.txt','.html','.js','.css','.yml','.yaml'} or (str(p).startswith('references/full/') and p.suffix.lower() in {'.jpg','.png'})
+                  if not include:continue
+                  b=p.read_bytes();z.writestr(str(p),b);files.append({'path':str(p),'bytes':len(b),'sha256':hashlib.sha256(b).hexdigest()})
+          (out/'manifest.json').write_text(json.dumps({'head':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'files':files},ensure_ascii=False,indent=2))
+          print('Read-only source export:',len(files),'files')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: owner-tv-parody-source
+          path: /tmp/tv-parody-source
+          retention-days: 2
