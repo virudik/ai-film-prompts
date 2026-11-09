@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-09T11:03:01+00:00",
+  "last_updated_at": "2026-11-09T11:13:11+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -1212,38 +1212,38 @@
       "work_id": "SEREGIUS-PARODIES-20261109",
       "project": "seregius",
       "title": "Семь пародийных сцен с изображениями по прямой команде владельца",
-      "status": "awaiting_image_references",
+      "status": "blocked_native_image_generation",
       "created_at": "2026-11-09T10:48:12.025422+00:00",
-      "updated_at": "2026-11-09T11:03:01+00:00",
+      "updated_at": "2026-11-09T11:13:11+00:00",
       "completed": [
         "Сверены свежие инструкции, ID 74–80 пока свободны; исходный checkpoint сохранён."
       ],
-      "next_action": "Получить и сохранить семь отдельных пригодных постановочных PNG по image-prompt, с QC/SHA/manifest и привязкой в мастере. Каждый — до следующего. Дополнительные ракурсы при необходимости. Не запускать видео и не выдавать исходный model sheet за новый кадр.",
+      "next_action": "Не создавать сцены повторно: 74–80 и 21 текст уже в main. Начать с одного отдельного S74-studio-roar.png по сохранённому image-prompt и точной references/full/vitalik.jpg; требуется самостоятельный кадр, не коллаж. После визуального QC сразу сохранить PNG/SHA/manifest/слот master, затем 75–80. Ни один из двух текущих коллажей не использовать как референс. Видео не запускать.",
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-09T11:03:01+00:00",
-        "last_completed": "Семь новых сцен и 21 текст сохранены; новые PNG ещё отсутствуют.",
-        "next_action": "Получить и сохранить семь отдельных пригодных постановочных PNG по image-prompt, с QC/SHA/manifest и привязкой в мастере. Каждый — до следующего. Дополнительные ракурсы при необходимости. Не запускать видео и не выдавать исходный model sheet за новый кадр.",
+        "verified_at": "2026-11-09T11:13:11+00:00",
+        "last_completed": "Опубликованы 7 сцен/21 текст и 8 привязок исходных model sheets. Две попытки новых PNG отклонены; готовых постановочных PNG 0/7.",
+        "next_action": "Не создавать сцены повторно: 74–80 и 21 текст уже в main. Начать с одного отдельного S74-studio-roar.png по сохранённому image-prompt и точной references/full/vitalik.jpg; требуется самостоятельный кадр, не коллаж. После визуального QC сразу сохранить PNG/SHA/manifest/слот master, затем 75–80. Ни один из двух текущих коллажей не использовать как референс. Видео не запускать.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# 09.11.2026 — пародии 74–80: сцены написаны, изображения ожидаются",
-          "sha256": "23a7901cebb578b1ccae4ec91fa1f4309a3047ee2a71498d2109b40465fbced7"
+          "anchor": "# 09.11.2026 — пародии 74–80 опубликованы; отдельные PNG не получены",
+          "sha256": "c504229c3cb19ffe90357e25336b354f07ec0b320d0ff01d7a5136524b5a88c1"
         },
         "evidence": [
           {
             "file": "reports/parody-scenes-2026-11-09.json",
-            "sha256": "9ad8de5bed978779da7b797076085dd04aea5e3359044dbaa7d37a5e677e8c58"
-          },
-          {
-            "file": "reports/parody-scenes-source-2026-11-09.json",
-            "sha256": "2921f41ff7622def8a6c280403ebb1586d3e214866c933b91d6fceebbae9d172"
+            "sha256": "813fd51e04a5ace2506b0358b9f026e57e401f71d2a1a2d7357a1fefa66850b1"
           }
         ],
         "read_next": [
-          "reports/parody-scenes-source-2026-11-09.json",
-          "video-prompts.md"
+          "video-prompts.md",
+          "reports/parody-scenes-2026-11-09.json",
+          "reports/parody-scenes-source-2026-11-09.json"
         ],
-        "blockers": []
+        "blockers": [
+          "Native generator returned collages instead of standalone scene references twice; no accepted scene PNG.",
+          "Connected browser unavailable for verified free fallback."
+        ]
       },
       "scene_ids": [
         74,

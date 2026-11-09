@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-09T11:03:05+00:00",
-  "source_head": "fd20cf1439c48cd44b6eda1613e60db6223c5e35",
-  "source_fingerprint": "c9c37456b5e90a6344ec249e1d7e81ef645091e7095b19c5f8cf7824c954fb0a",
+  "checked_at": "2026-11-09T11:13:15+00:00",
+  "source_head": "a9970a5dedf65b0369401101024595014a924529",
+  "source_fingerprint": "a28118f8c3c188d258b002d537f68c8d7bd47e27f1896525f4d702d8d6a69b34",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -186,8 +186,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "17b6483d2b7466f9ff559a745e165dadb1204e66fe011cc80a1a05293fc4d2db",
-      "bytes": 34700
+      "sha256": "1992ae738969ea6b8207959f03ba947cd9adb284ca68b36598e98bdaa5e21136",
+      "bytes": 34716
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -211,7 +211,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "43db7f4848c66b49fa3a758b4c9791b1c13fcf4bc3fa2ef0fe5660041be478da",
+      "sha256": "edc0c104fb3368d5ca42f815d62edb5fe66b29430d7e157e1663f1dd0aa12ce1",
       "bytes": 5136
     },
     {
@@ -226,8 +226,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "9d697f7a1e3424891a828899bf9c9d1aabe6e9487aa49a767d91b1929ec5e181",
-      "bytes": 25686
+      "sha256": "2f29e5d55af4acc078ecc55d5fcb32c037f96dc2307d1435cacabec70908cfac",
+      "bytes": 25724
     },
     {
       "file": "projects/README.md",
@@ -286,12 +286,12 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "6d1bfb633221d9c3c34216f774dd966ad1a967fb421f4ada8707626fc9003e38",
-      "bytes": 34501
+      "sha256": "e1b71c91cb308fe930f8a68ef80b713e710d51efb72da4191cfd5446ad4d8026",
+      "bytes": 34517
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "7a0c06a9d8da601e37b89a2283aaa8658646cfab860a84f29c568089be3ef180",
+      "sha256": "9df091ddcfbddcf62b4924ccc1af361e5043c998acdc02a003074914389fe6ef",
       "bytes": 28321
     },
     {
