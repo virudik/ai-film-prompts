@@ -6,87 +6,161 @@ on:
 permissions:
   contents: write
 jobs:
-  record_failed_single_frame_attempts:
+  audit_actual_completion:
     runs-on: ubuntu-latest
-    timeout-minutes: 6
+    timeout-minutes: 8
+    env:
+      EXPECTED_HOLDER: chatgpt:ordinary:e3dd9abd-95bc-49e6-83fc-8b88cc73e331
+      EXPECTED_ACQUIRED_AT: '2026-11-09T17:52:40.553409+00:00'
     steps:
       - uses: actions/checkout@v5
         with:
           ref: main
           fetch-depth: 1
-      - name: Preserve existing images and checkpoint actual blocker under exact lease
+      - name: Verify actual package, preserve images, and record unresolved work
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          mkdir -p /tmp/parody-completeness
           for attempt in 1 2 3; do
             git fetch origin main
             git reset --hard origin/main
             python3 - <<'PY'
+          import os,json,hashlib,urllib.request,datetime,sys
           from pathlib import Path
-          from datetime import datetime, timezone
-          import hashlib, json, sys
+          now=datetime.datetime.now(datetime.timezone.utc)
+          lock=json.loads(Path('ops/canon-lock.json').read_text())
+          assert lock['state']=='held' and lock['holder']==os.environ['EXPECTED_HOLDER']
+          assert lock['acquired_at']==os.environ['EXPECTED_ACQUIRED_AT']
+          assert datetime.datetime.fromisoformat(lock['expires_at'].replace('Z','+00:00'))>now
+          base='https://raw.githubusercontent.com/virudik/ai-film-prompts/e6b604723c6db1715eb81c3f06d8e4516a053557/staging/parodies/'
+          for source,target in [('check_parody_package.py','scripts/check_parody_package.py'),('test_parody_package.py','tests/test_parody_package.py')]:
+            with urllib.request.urlopen(base+source,timeout=25) as response:raw=response.read(100000)
+            Path(target).write_bytes(raw)
+          p=Path('scripts/check_parody_package.py');s=p.read_text()
+          before='    supplementary_rows = []\n'
+          replacement='''    for sid in SCENES:
+                  manifest = read_json(root, f'references/scenes/scene-{sid}/manifest.json')
+                  for item in manifest.get('additional_references_pending', []):
+                      pending.append({'scene_id': sid, 'kind': 'declared_additional_reference', 'requirement': item,
+                                      'reason': 'Manifest explicitly declares this requirement unresolved'})
+              expected_jobs = {
+                  'references/scenes/scene-74/S74-torch-curtain.png',
+                  'references/scenes/scene-74/S74-globe-stage.png',
+                  'references/scenes/scene-74/S74-potato-mountain.png',
+                  'references/scenes/scene-74/S74-searchlight-crates.png',
+                  'references/scenes/scene-74/S74-saucepan-gong.png',
+                  'references/scenes/scene-76/S76-normalno-ice.png',
+                  'references/scenes/scene-76/S76-yaz-boat.png',
+              }
+              declared_jobs = {j.get('target_path') for j in jobs_report.get('jobs', [])}
+              for missing in sorted(expected_jobs - declared_jobs):
+                  pending.append({'kind': 'missing_supplementary_job', 'path': missing,
+                                  'reason': 'A missing job record is not evidence of completion'})
+              supplementary_rows = []
+          '''
+          import textwrap
+          replacement=textwrap.dedent(replacement)
+          replacement='    '+replacement.replace('\n','\n    ').rstrip()+'\n'
+          # Rebuild insertion with known indentation instead of relying on YAML's whitespace.
+          lines=[
+            '    for sid in SCENES:',
+            "        manifest = read_json(root, f'references/scenes/scene-{sid}/manifest.json')",
+            "        for item in manifest.get('additional_references_pending', []):",
+            "            pending.append({'scene_id': sid, 'kind': 'declared_additional_reference', 'requirement': item, 'reason': 'Manifest declares this requirement unresolved'})",
+            '    expected_jobs = {',
+            "        'references/scenes/scene-74/S74-torch-curtain.png',",
+            "        'references/scenes/scene-74/S74-globe-stage.png',",
+            "        'references/scenes/scene-74/S74-potato-mountain.png',",
+            "        'references/scenes/scene-74/S74-searchlight-crates.png',",
+            "        'references/scenes/scene-74/S74-saucepan-gong.png',",
+            "        'references/scenes/scene-76/S76-normalno-ice.png',",
+            "        'references/scenes/scene-76/S76-yaz-boat.png',",
+            '    }',
+            "    declared_jobs = {j.get('target_path') for j in jobs_report.get('jobs', [])}",
+            '    for missing in sorted(expected_jobs - declared_jobs):',
+            "        pending.append({'kind': 'missing_supplementary_job', 'path': missing, 'reason': 'Missing record is not completion'})",
+            '    supplementary_rows = []',
+          ]
+          assert s.count(before)==1;s=s.replace(before,'\n'.join(lines)+'\n',1);p.write_text(s)
+          compile(s,str(p),'exec')
+          primary=[]
+          for sid in range(74,81):
+            m=json.loads(Path(f'references/scenes/scene-{sid}/manifest.json').read_text())
+            for r in m['references']:
+              if r['role']=='scene_staging':primary.append(r['path'])
+          protected=['video-prompts.md','ops/topview-launch-queue.json']+primary
+          sha=lambda b:hashlib.sha256(b).hexdigest()
+          Path('/tmp/parody-completeness/protected-before.json').write_text(json.dumps({p:sha(Path(p).read_bytes()) for p in protected}))
+          PY
+            python3 -m unittest tests.test_parody_package
+            python3 scripts/check_parody_package.py . --json-out reports/parody-package-completeness-2026-11-09.json
+            set +e
+            python3 scripts/check_parody_package.py . --require-complete > /tmp/parody-completeness/require-complete.json
+            complete_status=$?
+            set -e
+            test "$complete_status" = 2
+            python3 - <<'PY'
+          from pathlib import Path
+          from datetime import datetime,timezone
+          import json,hashlib,sys
           sys.path.insert(0,'scripts')
           import resume_state
-          now=datetime.now(timezone.utc)
-          holder='chatgpt:ordinary:2bad7f77-bb65-4f34-9079-d49494e94399'
-          acquired='2026-11-09T17:17:51+00:00'
-          lp=Path('ops/canon-lock.json');lock=json.loads(lp.read_text())
-          assert lock['state']=='held' and lock['holder']==holder and lock['acquired_at']==acquired
-          assert datetime.fromisoformat(lock['expires_at'].replace('Z','+00:00'))>now
-          protected=['video-prompts.md','ops/topview-launch-queue.json']
-          before={p:hashlib.sha256(Path(p).read_bytes()).hexdigest() for p in protected}
-          path=Path('reports/parody-supplementary-reference-jobs-2026-11-09.json');jobs=json.loads(path.read_text())
-          assert jobs['work_id']=='SEREGIUS-PARODIES-20261109'
-          attempts=[('f5e5fdec-4036-448a-aa02-ac8e838dd2f2','20313fe8e48303db73f5f13aa020decb35cf1b60aac6f8db226862b7484b1bc2',2178953),('6aca615c-2bf5-408d-a8b2-6cac815bc98f','f343e1e329142530d859c84daa7cc8ccd4592e9ac7716ee021d1d250685e15a1',2310427),('b2e525c3-7a9f-44b4-9ef5-ae53c7e5375e','59cef8526fb5d346ff8bcd9e46281d63f7d9241b6127f6fbded89db58c25c5e4',2080102)]
-          rejection='Requested standalone S74 torch-curtain frame using exact supplied Vitalik face; returned a different roaring-logo composition with lettering and incorrect likeness. Not a requested frame or valid replacement. No collage, but still rejected.'
-          history=jobs.setdefault('rejected_attempt_history',[])
-          known={a['generation_id'] for a in history}
-          for gen,sha,size in attempts:
-            if gen not in known:history.append({'generation_id':gen,'sha256':sha,'bytes':size,'status':'rejected','reason':rejection,'published_as_reference':False,'requested_job':'S74-torch-curtain','recorded_at':now.isoformat()})
-          jobs['last_execution']={'checked_at':now.isoformat(),'new_generated_outputs':3,'new_accepted_images':0,'new_images_attached':0,'published_primary_images_preserved':7,'video_submissions':0,'queue_changed':False,'browser_fallback':'Browser.list_tabs returned originating_browser_context_required','work_complete':False,'background_work_running':False}
-          jobs['blocker']='Current native image requests return a roaring logo rather than the specified torch frame, despite supplied source/face and an explicit single-frame description. Do not accept these outputs or repeat the unchanged request. Authenticated free browser fallback unavailable in this surface.'
-          next_action='Семь основных PNG и 21 промпт уже сохранены: не пересоздавать. Дополнительный S74-torch-curtain не получен: три новых ответа генератора дали другой рычащий логотип и отклонены. Сначала получить отдельный кадр факела с точным лицом Виталика в работающем одиночном редактировании; затем QC и PNG/SHA/manifest/master до следующего. Не активировать неверные лица/надписи; остальные семь дополнительных заданий остаются открытыми. Никакой процесс между сообщениями не выполняется.'
-          jobs['next_action']=next_action
-          path.write_text(json.dumps(jobs,ensure_ascii=False,indent=2)+'\n')
-          reportp=Path('reports/parody-scenes-2026-11-09.json');report=json.loads(reportp.read_text())
-          report['last_supplementary_attempt']={'checked_at':now.isoformat(),'report':str(path),'new_accepted_images':0,'new_images_attached':0,'published_primary_images_preserved':7,'work_complete':False}
-          report['next_action']=next_action;report['updated_at']=now.isoformat()
-          reportp.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
-          anchor='# 09.11.2026 — дополнительные кадры: новая попытка отклонена, семь основных сохранены'
+          now=datetime.now(timezone.utc).isoformat()
+          report=json.loads(Path('reports/parody-package-completeness-2026-11-09.json').read_text())
+          assert report['integrity_ok'] and not report['work_complete']
+          assert report['primary_scenes_with_stills']==7 and report['prompt_blocks']==21
+          jobs_path=Path('reports/parody-supplementary-reference-jobs-2026-11-09.json')
+          jobs=json.loads(jobs_path.read_text());history=jobs.setdefault('rejected_attempt_history',[])
+          new=[('1f0d80b5-e0e2-4625-af84-7971f3bb1274','f41bfcaa09e660fb65c7a2c2442dc798152a0b61e532bf33eff129c6129f2ab0'),('12dac421-19db-4f43-bffd-29cc6427b05a','a57ac1cf2be433b15b87c77dea78b901a726b17d840fe343a4d5bb9a6e0911e3'),('cb68b126-103a-46fd-8c6c-85ea11972478','94a6002566073067c33c400fbfd5b2dc070961cdab1d331965cc7e5a3fc0f40e')]
+          for gid,sha in new:
+            if not any(x.get('generation_id')==gid for x in history):
+              history.append({'generation_id':gid,'sha256':sha,'status':'rejected','published_as_reference':False,'requested_job':'S74-torch-curtain','reason':'Wrong scene and unverified generated face despite explicit one-person torch specification; not an acceptable replacement.','recorded_at':now})
+          jobs['last_execution']={'checked_at':now,'new_generated_outputs':3,'new_accepted_images':0,'new_images_attached':0,'manual_retouch_candidates':5,'manual_retouch_accepted':0,'manual_retouch_rejection':'Perspective, lighting and remaining old-head edges failed visual review; kept local only.','published_primary_images_preserved':7,'work_complete':False,'background_work_running':False,'browser_fallback':'Browser.list_tabs returned originating_browser_context_required','new_completeness_check':'scripts/check_parody_package.py'}
+          jobs_path.write_text(json.dumps(jobs,ensure_ascii=False,indent=2)+'\n')
+          next_action='Не повторять неизменённый вызов генератора: он снова возвращает другой сюжет и неподтверждённое лицо. Сначала подтвердить работающий точный путь одиночного редактирования с исходным портретом и кадром факела. Все7 основных PNG/21 промпт сохранить;7 дополнительных заданий и прочие pending из отчёта открыты. Перед заявлением полной готовности: scripts/check_parody_package.py . --require-complete; код2 означает НЕ завершено. Генерации видео/расходы/автоприёмка не разрешены.'
+          anchor='# 09.11.2026 — проверка комплектности: полная готовность не подтверждена'
           cp=Path('reports/current-work-checkpoint.md')
-          if not cp.read_text().startswith(anchor):
-            cp.write_text(anchor+'\n\nwork_id: SEREGIUS-PARODIES-20261109\n\n- Владелец просит доделать без коллажей. Три новых результата одиночного запроса — не коллажи, но снова рычащие логотипы вместо факела и без точного лица. Все отклонены; новых пригодных/прикреплённых PNG: 0.\n- Существующие семь основных PNG, состав S77 Виталик/взрослый Алексей/Маша Р, сцены, очередь и все 21 промпт сохранены без правок. Ни один неверный результат не заменяет рабочие референсы.\n- Browser.list_tabs: originating_browser_context_required. Бесплатный браузерный fallback не подтверждён. Никаких платных или видеозапусков, новых расписаний или фоновой работы.\n- Подробности и SHA отклонённых файлов: '+str(path)+'.\n- Следующий шаг: '+next_action+'\n\nchecked_at: '+now.isoformat()+'\n\n---\n\n'+cp.read_text())
-          resume_state.capture('.', 'SEREGIUS-PARODIES-20261109', anchor, 'Семь основных PNG сохранены; три новых неверных логотипа отклонены. Дополнительный кадр факела не получен, замены не опубликованы.', next_action, [str(path)], [str(path),str(reportp),'video-prompts.md'], False)
-          regp=Path('work-resume-register.json');reg=json.loads(regp.read_text())
-          work=next(w for w in reg['active_work'] if w['work_id']=='SEREGIUS-PARODIES-20261109')
-          work['status']='blocked_native_single_frame_output'
-          work.setdefault('recovery',{})['blockers']=[jobs['blocker']]
-          regp.write_text(json.dumps(reg,ensure_ascii=False,indent=2)+'\n')
-          assert all(hashlib.sha256(Path(p).read_bytes()).hexdigest()==h for p,h in before.items())
-          for scene in range(74,81):
-            mf=json.loads(Path(f'references/scenes/scene-{scene}/manifest.json').read_text())
-            for ref in mf['references']:
-              if ref.get('role')=='scene_staging':assert hashlib.sha256(Path(ref['path']).read_bytes()).hexdigest()==ref['sha256']
-          from trim_service_files import trim_register
-          ar=Path('archive/work-resume-register-archive.json')
-          trimmed=trim_register(json.loads(regp.read_text()),json.loads(ar.read_text()) if ar.exists() else {})
-          if trimmed:
-            reg,archive,*_=trimmed;regp.write_text(json.dumps(reg,ensure_ascii=False,indent=2)+'\n');ar.write_text(json.dumps(archive,ensure_ascii=False,indent=2)+'\n')
-          lock.update(state='free',expires_at=None,released_at=datetime.now(timezone.utc).isoformat())
-          lp.write_text(json.dumps(lock,ensure_ascii=False,indent=2)+'\n')
-          print('New accepted supplementary images: 0. Seven existing primary images and queue preserved. Work remains open.')
+          block=anchor+'\n\nwork_id: SEREGIUS-PARODIES-20261109\n\n- Семь основных PNG и21 промпт проверены по фактическим файлам; они не изменялись. Состав S77 остаётся Виталик/взрослый Алексей/Маша Р.\n- Три новых нативных результата не соответствуют заданию и отклонены. Пять локальных вариантов ручной замены тоже не прошли визуальный QC; в канон не загружены. Ни один новый ошибочный портрет не активирован.\n- Добавлена предметная проверка комплектности с10 тестами: отсутствующий файл, неверный SHA, отклонённая картинка, неверный состав, пропавшее задание и неподтверждённый просмотр не превращаются в готовность. SHA подтверждает файл, а не сходство лица.\n- Отчёт: reports/parody-package-completeness-2026-11-09.json. Успешный запуск проверки НЕ означает выполненную работу; work_complete=false.\n- Остальные проекты, сертификаты, YouTube, HONOR, реальная конкурсная съёмка и приватные старые чаты этим проходом не выполнены и не перепроверены.\n- Следующий шаг: '+next_action+'\n\nchecked_at: '+now+'\n\n---\n\n'
+          if anchor not in cp.read_text():cp.write_text(block+cp.read_text())
+          resume_state.capture(Path.cwd(),'SEREGIUS-PARODIES-20261109',anchor,'Проверены существующие7 PNG/21 промпт; добавлена проверка фактической комплектности. Новых принятых кадров нет.',next_action,['reports/parody-package-completeness-2026-11-09.json'],['reports/parody-supplementary-reference-jobs-2026-11-09.json','scripts/check_parody_package.py'],False)
+          before=json.loads(Path('/tmp/parody-completeness/protected-before.json').read_text())
+          assert all(hashlib.sha256(Path(p).read_bytes()).hexdigest()==sha for p,sha in before.items())
           PY
-            python3 -m unittest tests/test_continue_preflight.py tests/test_continue_recovery.py tests/test_project_recovery.py
+            python3 scripts/check_instruction_consistency.py .
+            python3 scripts/validate_site.py .
+            python3 -m unittest tests.test_continue_preflight tests.test_continue_recovery tests.test_project_recovery tests.test_instruction_consistency
+            python3 - <<'PY'
+          from pathlib import Path
+          from datetime import datetime,timezone
+          import json,os,sys
+          sys.path.insert(0,'scripts')
+          from trim_service_files import trim_register
+          p=Path('work-resume-register.json');a=Path('archive/work-resume-register-archive.json')
+          result=trim_register(json.loads(p.read_text()),json.loads(a.read_text()) if a.exists() else {})
+          if result:
+            register,archive,*_=result;p.write_text(json.dumps(register,ensure_ascii=False,indent=2)+'\n');a.write_text(json.dumps(archive,ensure_ascii=False,indent=2)+'\n')
+          p=Path('ops/canon-lock.json');l=json.loads(p.read_text());now=datetime.now(timezone.utc)
+          assert l['state']=='held' and l['holder']==os.environ['EXPECTED_HOLDER'] and l['acquired_at']==os.environ['EXPECTED_ACQUIRED_AT']
+          assert datetime.fromisoformat(l['expires_at'].replace('Z','+00:00'))>now
+          l.update(state='free',expires_at=None,released_at=now.isoformat());p.write_text(json.dumps(l,ensure_ascii=False,indent=2)+'\n')
+          PY
             python3 scripts/build_takeover_brief.py . shadow
-            python3 scripts/build_resume_packet.py . --all-projects
-            python3 scripts/continue_preflight.py . --work-id SEREGIUS-PARODIES-20261109
-            git add reports/parody-supplementary-reference-jobs-2026-11-09.json reports/parody-scenes-2026-11-09.json reports/current-work-checkpoint.md work-resume-register.json archive/work-resume-register-archive.json ops/canon-lock.json shadow projects/*/shadow/resume-packet.*
-            git commit -m 'Checkpoint rejected torch attempts; preserve all published parody references, no completion claim'
+            python3 scripts/build_resume_packet.py .
+            git add scripts/check_parody_package.py tests/test_parody_package.py reports/parody-package-completeness-2026-11-09.json reports/parody-supplementary-reference-jobs-2026-11-09.json reports/current-work-checkpoint.md work-resume-register.json archive/work-resume-register-archive.json ops/canon-lock.json shadow
+            git diff --cached --stat
+            git commit -m 'Audit parody completeness: preserve seven frames, reject mismatches, keep unresolved requirements open'
             if git push origin HEAD:main; then
               git fetch origin main
-              test "$(git rev-parse HEAD:reports/parody-supplementary-reference-jobs-2026-11-09.json)" = "$(git rev-parse origin/main:reports/parody-supplementary-reference-jobs-2026-11-09.json)"
+              test "$(git rev-parse HEAD:reports/parody-package-completeness-2026-11-09.json)" = "$(git rev-parse origin/main:reports/parody-package-completeness-2026-11-09.json)"
               break
             fi
             if [ "$attempt" = 3 ]; then exit 1; fi
           done
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: parody-package-completeness-check
+          path: /tmp/parody-completeness/*
+          retention-days: 3
