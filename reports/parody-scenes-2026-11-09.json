@@ -31,7 +31,7 @@
   "paid_generations": 0,
   "queue_change_authorized": false,
   "editorial_approval": false,
-  "next_action": "Не пересоздавать сцены74–80/21 промпт и7 основных PNG: сайт проверен7/7. Дополнительные задания раздельно: reports/parody-supplementary-reference-jobs-2026-11-09.json. Сначала S74-torch-curtain по точному лицу Виталика и старой композиции; сохранить отдельный пригодный PNG/manifest/master до следующего. Не использовать новые коллажи. Потом глобус/картофельная гора/прожекторы и дополнительные мемные планы; гонг — отдельный дополнительный вариант, не вставлен в активный30с монтаж. Приёмка, видео и остальные поручения остаются открытыми.",
+  "next_action": "Семь основных PNG и 21 промпт уже сохранены: не пересоздавать. Дополнительный S74-torch-curtain не получен: три новых ответа генератора дали другой рычащий логотип и отклонены. Сначала получить отдельный кадр факела с точным лицом Виталика в работающем одиночном редактировании; затем QC и PNG/SHA/manifest/master до следующего. Не активировать неверные лица/надписи; остальные семь дополнительных заданий остаются открытыми. Никакой процесс между сообщениями не выполняется.",
   "checked_at": "2026-11-09T10:48:12.025422+00:00",
   "scene_ids": [
     74,
@@ -54,7 +54,7 @@
   "prompt_blocks_created": 21,
   "source_report": "reports/parody-scenes-source-2026-11-09.json",
   "queue_before_sha256": "75eddf68907a13a90def4f39ebd44e615731fa5e719e18045b695c30f589971c",
-  "updated_at": "2026-11-09T16:51:13.477469+00:00",
+  "updated_at": "2026-11-09T17:20:04.724056+00:00",
   "generated_images_attempted": 2,
   "accepted_new_scene_images": 7,
   "existing_identity_reference_bindings": 15,
@@ -418,5 +418,13 @@
       "reason": "Returned multi-scene poster/collage with unrelated cast instead of one additional standalone Vitalik torch frame; not an accepted scene reference.",
       "published_as_reference": false
     }
-  ]
+  ],
+  "last_supplementary_attempt": {
+    "checked_at": "2026-11-09T17:20:04.724056+00:00",
+    "report": "reports/parody-supplementary-reference-jobs-2026-11-09.json",
+    "new_accepted_images": 0,
+    "new_images_attached": 0,
+    "published_primary_images_preserved": 7,
+    "work_complete": false
+  }
 }

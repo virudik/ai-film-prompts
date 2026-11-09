@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-09T16:51:13+00:00",
+  "last_updated_at": "2026-11-09T17:20:04+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -1212,40 +1212,36 @@
       "work_id": "SEREGIUS-PARODIES-20261109",
       "project": "seregius",
       "title": "Семь пародийных сцен с изображениями по прямой команде владельца",
-      "status": "primary_stills_published_additional_images_pending",
+      "status": "blocked_native_single_frame_output",
       "created_at": "2026-11-09T10:48:12.025422+00:00",
-      "updated_at": "2026-11-09T16:51:13+00:00",
+      "updated_at": "2026-11-09T17:20:04+00:00",
       "completed": [
         "Сверены свежие инструкции, ID 74–80 пока свободны; исходный checkpoint сохранён."
       ],
-      "next_action": "Не пересоздавать сцены74–80/21 промпт и7 основных PNG: сайт проверен7/7. Дополнительные задания раздельно: reports/parody-supplementary-reference-jobs-2026-11-09.json. Сначала S74-torch-curtain по точному лицу Виталика и старой композиции; сохранить отдельный пригодный PNG/manifest/master до следующего. Не использовать новые коллажи. Потом глобус/картофельная гора/прожекторы и дополнительные мемные планы; гонг — отдельный дополнительный вариант, не вставлен в активный30с монтаж. Приёмка, видео и остальные поручения остаются открытыми.",
+      "next_action": "Семь основных PNG и 21 промпт уже сохранены: не пересоздавать. Дополнительный S74-torch-curtain не получен: три новых ответа генератора дали другой рычащий логотип и отклонены. Сначала получить отдельный кадр факела с точным лицом Виталика в работающем одиночном редактировании; затем QC и PNG/SHA/manifest/master до следующего. Не активировать неверные лица/надписи; остальные семь дополнительных заданий остаются открытыми. Никакой процесс между сообщениями не выполняется.",
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-09T16:51:13+00:00",
-        "last_completed": "Сайт проверен7/7 PNG и7/7 блоков. Подготовлено7 отдельных заданий допкадров;2 новые генерации отклонены,0 новых принятых PNG.",
-        "next_action": "Не пересоздавать сцены74–80/21 промпт и7 основных PNG: сайт проверен7/7. Дополнительные задания раздельно: reports/parody-supplementary-reference-jobs-2026-11-09.json. Сначала S74-torch-curtain по точному лицу Виталика и старой композиции; сохранить отдельный пригодный PNG/manifest/master до следующего. Не использовать новые коллажи. Потом глобус/картофельная гора/прожекторы и дополнительные мемные планы; гонг — отдельный дополнительный вариант, не вставлен в активный30с монтаж. Приёмка, видео и остальные поручения остаются открытыми.",
+        "verified_at": "2026-11-09T17:20:04+00:00",
+        "last_completed": "Семь основных PNG сохранены; три новых неверных логотипа отклонены. Дополнительный кадр факела не получен, замены не опубликованы.",
+        "next_action": "Семь основных PNG и 21 промпт уже сохранены: не пересоздавать. Дополнительный S74-torch-curtain не получен: три новых ответа генератора дали другой рычащий логотип и отклонены. Сначала получить отдельный кадр факела с точным лицом Виталика в работающем одиночном редактировании; затем QC и PNG/SHA/manifest/master до следующего. Не активировать неверные лица/надписи; остальные семь дополнительных заданий остаются открытыми. Никакой процесс между сообщениями не выполняется.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# 09.11.2026 — сайт пародий проверен 7/7; дополнительные кадры не получены",
-          "sha256": "c2d87c310bc937e45a11a8f503a9125c8f031e58e408e8c8b604869a425aa4e7"
+          "anchor": "# 09.11.2026 — дополнительные кадры: новая попытка отклонена, семь основных сохранены",
+          "sha256": "ebc48f30badf15059e48c1b90def4e29c9c229127393ee7eccf9a9a07fb071d0"
         },
         "evidence": [
           {
-            "file": "reports/parody-live-publication-2026-11-09.json",
-            "sha256": "e504fdddab96a780aa68c5f698b47a19842d9d40952d99132f96e3dd71b96692"
-          },
-          {
             "file": "reports/parody-supplementary-reference-jobs-2026-11-09.json",
-            "sha256": "f1ee1ab36a754b0e4b1fb35b192f307512be7df8727f807b0b26b6b1a148bf28"
+            "sha256": "7fcdf13b3bd279d63c858835bfa5bbaa2abf2cf0f17a7030e9fbb6d34f21b630"
           }
         ],
         "read_next": [
+          "reports/parody-supplementary-reference-jobs-2026-11-09.json",
           "reports/parody-scenes-2026-11-09.json",
-          "references/scenes/scene-74/manifest.json",
-          "references/scenes/scene-76/manifest.json"
+          "video-prompts.md"
         ],
         "blockers": [
-          "Two native calls returned multi-scene collages rather than the current one-frame torch request. Those outputs are rejected; do not retry the unchanged broad request or attach them as scene references."
+          "Current native image requests return a roaring logo rather than the specified torch frame, despite supplied source/face and an explicit single-frame description. Do not accept these outputs or repeat the unchanged request. Authenticated free browser fallback unavailable in this surface."
         ]
       },
       "scene_ids": [

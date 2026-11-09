@@ -164,5 +164,50 @@
     79,
     80
   ],
-  "blocker": "Two native calls returned multi-scene collages rather than the current one-frame torch request. Those outputs are rejected; do not retry the unchanged broad request or attach them as scene references."
+  "blocker": "Current native image requests return a roaring logo rather than the specified torch frame, despite supplied source/face and an explicit single-frame description. Do not accept these outputs or repeat the unchanged request. Authenticated free browser fallback unavailable in this surface.",
+  "rejected_attempt_history": [
+    {
+      "generation_id": "f5e5fdec-4036-448a-aa02-ac8e838dd2f2",
+      "sha256": "20313fe8e48303db73f5f13aa020decb35cf1b60aac6f8db226862b7484b1bc2",
+      "bytes": 2178953,
+      "status": "rejected",
+      "reason": "Requested standalone S74 torch-curtain frame using exact supplied Vitalik face; returned a different roaring-logo composition with lettering and incorrect likeness. Not a requested frame or valid replacement. No collage, but still rejected.",
+      "published_as_reference": false,
+      "requested_job": "S74-torch-curtain",
+      "recorded_at": "2026-11-09T17:20:04.724056+00:00"
+    },
+    {
+      "generation_id": "6aca615c-2bf5-408d-a8b2-6cac815bc98f",
+      "sha256": "f343e1e329142530d859c84daa7cc8ccd4592e9ac7716ee021d1d250685e15a1",
+      "bytes": 2310427,
+      "status": "rejected",
+      "reason": "Requested standalone S74 torch-curtain frame using exact supplied Vitalik face; returned a different roaring-logo composition with lettering and incorrect likeness. Not a requested frame or valid replacement. No collage, but still rejected.",
+      "published_as_reference": false,
+      "requested_job": "S74-torch-curtain",
+      "recorded_at": "2026-11-09T17:20:04.724056+00:00"
+    },
+    {
+      "generation_id": "b2e525c3-7a9f-44b4-9ef5-ae53c7e5375e",
+      "sha256": "59cef8526fb5d346ff8bcd9e46281d63f7d9241b6127f6fbded89db58c25c5e4",
+      "bytes": 2080102,
+      "status": "rejected",
+      "reason": "Requested standalone S74 torch-curtain frame using exact supplied Vitalik face; returned a different roaring-logo composition with lettering and incorrect likeness. Not a requested frame or valid replacement. No collage, but still rejected.",
+      "published_as_reference": false,
+      "requested_job": "S74-torch-curtain",
+      "recorded_at": "2026-11-09T17:20:04.724056+00:00"
+    }
+  ],
+  "last_execution": {
+    "checked_at": "2026-11-09T17:20:04.724056+00:00",
+    "new_generated_outputs": 3,
+    "new_accepted_images": 0,
+    "new_images_attached": 0,
+    "published_primary_images_preserved": 7,
+    "video_submissions": 0,
+    "queue_changed": false,
+    "browser_fallback": "Browser.list_tabs returned originating_browser_context_required",
+    "work_complete": false,
+    "background_work_running": false
+  },
+  "next_action": "Семь основных PNG и 21 промпт уже сохранены: не пересоздавать. Дополнительный S74-torch-curtain не получен: три новых ответа генератора дали другой рычащий логотип и отклонены. Сначала получить отдельный кадр факела с точным лицом Виталика в работающем одиночном редактировании; затем QC и PNG/SHA/manifest/master до следующего. Не активировать неверные лица/надписи; остальные семь дополнительных заданий остаются открытыми. Никакой процесс между сообщениями не выполняется."
 }
