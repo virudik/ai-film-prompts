@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "kot-detektiv",
   "project_name": "Кот детектив",
-  "checked_at": "2026-11-09T20:14:36+00:00",
-  "source_head": "c5fa84bf1b91d9e042322684e1a4ccf99016eca6",
-  "source_fingerprint": "ff81873f39721b8dcb34152123118aca8d8e79062e13be85295cc37d00ac3da9",
+  "checked_at": "2026-11-09T20:23:11+00:00",
+  "source_head": "c192c66cc731a4f6f82f3cab69818f8147074f59",
+  "source_fingerprint": "c9da25eec7547b244b67c8ba586097edbc006c93653ab20a480d1f702a71943a",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -163,8 +163,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "ea0bb036cbbf0bcf9b336d0bf8f94174a7cd383032436bb1197c35e091c81a8e",
-      "bytes": 34905
+      "sha256": "388b7303cb41a0413db541971a16e79fc2b5a2d2517b49586b5fa48e6c3170af",
+      "bytes": 35522
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -188,7 +188,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "cc323abf03edae143a647a8e8e9ab5ca0631d705bc3809cd799e26672ebb24c6",
+      "sha256": "cc1661f7723a07bacf5fadd5b3d202333fcdecd51968997d1feb58a2b263908b",
       "bytes": 5135
     },
     {
@@ -203,7 +203,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "b39b20eef1991aec48dd27775d2702765f559c8fb0f884230633d73fe0d33937",
+      "sha256": "4df87d5b58f0ab779b8207669ac1b32141eccbe686c1559a98d019f9cc07ef47",
       "bytes": 25853
     },
     {
@@ -258,18 +258,18 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "7c76a95dbdb19feaba4138db4884d55c1874c7cc1ea64bffda40305bc7b2e64d",
-      "bytes": 34706
+      "sha256": "77760b3fe0cf0301f2db98799e32fbdd36c7bb3c939354397d7874f46fc83fe5",
+      "bytes": 35323
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "d72a8cdc0f972e69f053b91d19086f9df14f350a691af7b0f0271f445b189a01",
+      "sha256": "9b5248930c0869f15baf6caa6707f1e1da2abd2801b4855253c183bd76e6b6c8",
       "bytes": 28571
     },
     {
       "file": "video-prompts.md",
-      "sha256": "3003d5e5de31ae5aa86ab94f948b4992ee5ee424c809aa15b120aa9c2290f6fb",
-      "bytes": 1508554
+      "sha256": "fe0de0bb1a6aaa2a9f238b7a83732b0a25a8d72c836d20c3902496890d68d7df",
+      "bytes": 1515362
     }
   ],
   "packet_bytes": 5355
