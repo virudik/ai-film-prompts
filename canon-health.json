@@ -1,11 +1,17 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-09T03:43:41Z",
-  "status": "ok",
-  "warnings": 0,
+  "checked_at": "2026-11-09T09:58:14Z",
+  "status": "warn",
+  "warnings": 1,
   "info": 16,
   "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. Устаревание по состоянию проекта, даты только сигнал. Чистку делает ChatGPT по предупреждению или в воскресенье 08:55 МСК.",
   "problems": [
+    {
+      "level": "warn",
+      "code": "broken-ref",
+      "text": "NEW-CHAT-HANDOFF.md ссылается на файл `wake460-coordination/s6x-intent-standing.py`, которого нет в репозитории.",
+      "file": "NEW-CHAT-HANDOFF.md"
+    },
     {
       "level": "info",
       "code": "instruction-size",
