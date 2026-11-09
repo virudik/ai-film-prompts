@@ -4623,6 +4623,66 @@
    "thumb_bytes": 39534,
    "src_sha256": "ef65d3aae1a4bdeb4f49d19c576136a7dffa0b8852be06e0affac76b3c443b18"
   },
+  "references/scenes/scene-75/S75-moon-river.png": {
+   "thumb": "references/thumbs/scenes/scene-75/S75-moon-river.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2354190,
+   "thumb_bytes": 45976,
+   "src_sha256": "82cf2a58e8c89ee641fb41e595815734a56b484da4f636ee5b2461929ab739d9"
+  },
+  "references/scenes/scene-76/S76-kandibober.png": {
+   "thumb": "references/thumbs/scenes/scene-76/S76-kandibober.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2231273,
+   "thumb_bytes": 35302,
+   "src_sha256": "401a265a914ea5644e087edf3b44e58c44f10169e23d3c381a598d0f33de0f8a"
+  },
+  "references/scenes/scene-77/S77-love-triangle.png": {
+   "thumb": "references/thumbs/scenes/scene-77/S77-love-triangle.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2406799,
+   "thumb_bytes": 39104,
+   "src_sha256": "d983630f247d8ba80003c7dbcabc576fe45b555a90ba51cf1d869dc8921b161f"
+  },
+  "references/scenes/scene-78/S78-mayonnaise-family.png": {
+   "thumb": "references/thumbs/scenes/scene-78/S78-mayonnaise-family.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2471891,
+   "thumb_bytes": 49252,
+   "src_sha256": "ff2103c750d878f2f9b0daffb16c9d42fa3890b5cde9eb31271250362c45a1e6"
+  },
+  "references/scenes/scene-79/S79-chips-council.png": {
+   "thumb": "references/thumbs/scenes/scene-79/S79-chips-council.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2731483,
+   "thumb_bytes": 60022,
+   "src_sha256": "aba5a8b96c44fe286624da0eead53dd7a076d7116f3e4300b6159a1d7831a470"
+  },
+  "references/scenes/scene-80/S80-budget-luxury.png": {
+   "thumb": "references/thumbs/scenes/scene-80/S80-budget-luxury.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2787546,
+   "thumb_bytes": 54850,
+   "src_sha256": "ff8c23f4ef3ffc5ec140d7a19dceba9bb8aa8bbddad2864f32b83ba4f21a7f3c"
+  },
   "references/scenes/ship-locations/Serega-ship-flagship-space.png": {
    "thumb": "references/thumbs/scenes/ship-locations/Serega-ship-flagship-space.png.webp",
    "width": 640,
