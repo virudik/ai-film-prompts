@@ -3,118 +3,53 @@
   "project": "seregius",
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "ef38bc68-b9c8-477b-afdd-52fb1c64d7fc",
-  "run_id": "3a9c99cc-c050-832e-854e-c282cc96c275",
-  "runtime_run_id_source": "Automations.peek last_run.id in_progress; scheduled_for=2026-11-09T11:00:00Z; started_at=2026-11-09T10:55:10.354439Z",
-  "source_head": "44d9a47510ebaa85d05efe9401bb6ee6f4caa6c0",
+  "execution_instance_id": "6e46b04e-04cb-4717-a898-4b44b4fe796e",
+  "run_id": "68b9829b-0b8c-8325-89ce-93fab95de9e7",
+  "runtime_run_id_source": "Automations.peek current last_run.id in_progress; scheduled_for=2026-11-09T12:00:00Z",
+  "source_head": "2b9b521027af43e4e82e53e2983cc42005bb0701",
   "route_generation": 3,
-  "started_at": "2026-11-09T10:55:10.354439Z",
-  "receipt_started_at": "2026-11-09T11:06:55.026Z",
-  "status": "completed",
-  "phase": "complete",
+  "started_at": "2026-11-09T12:04:55.878161Z",
+  "receipt_started_at": "2026-11-09T12:09:46.946Z",
+  "status": "in_progress",
+  "phase": "started",
   "scan": {
-    "complete": true,
-    "source": "Topview connector read-only: all 14 boards, 18 paginated video pages; direct readback all 28 submitted queue task IDs; no Create",
-    "scope": "14 boards / 18 pages / 650 physical video tasks",
-    "boards": 14,
-    "pages": 18,
-    "video_tasks": 650,
-    "status_counts": {
-      "success": 623,
-      "fail": 26,
-      "init": 1,
-      "other_active": 0
-    },
-    "active_task_ids": [
-      "5dbf6f87306a4f2f958781935894aaca"
-    ],
-    "started_at": "2026-11-09T11:07:27.372Z",
-    "checked_at": "2026-11-09T11:07:28.912Z",
-    "snapshot_note": "Global capacity snapshot does not reserve a slot"
+    "complete": false,
+    "scope": "pending full live Topview read-only scan"
   },
   "slots": {
     "physical_capacity": 6,
-    "occupied": 1,
-    "free": 5,
-    "complete_scan_verified": true,
-    "checked_at": "2026-11-09T11:07:28.912Z",
-    "non_reserving_snapshot": true
+    "occupied": null,
+    "free": null,
+    "complete_scan_verified": false
   },
-  "selected_item": "S52-R2-SEED20-P4",
+  "selected_item": null,
   "task_ids": [],
   "new_submissions": [],
-  "browser_transport": "not_used_Work_preferred_restored_and_TinyFish_native_file_import_Unlimited0_unverified",
+  "browser_transport": "not_started",
   "tinyfish": {
     "runs": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0,
-    "wallet_spent_usd": 0
+    "confirmed_cost_usd": 0
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:ef38bc68-b9c8-477b-afdd-52fb1c64d7fc",
-    "acquired_at": "2026-11-09T11:05:59.772Z",
-    "expires_at": "2026-11-09T11:15:59.772Z",
-    "released_at": "2026-11-09T11:09:41.733Z",
-    "release_with_receipt_atomic": true
+    "holder": "chatgpt:ordinary:6e46b04e-04cb-4717-a898-4b44b4fe796e",
+    "acquired_at": "2026-11-09T12:09:10.727Z",
+    "expires_at": "2026-11-09T12:19:10.727Z",
+    "released_at": null
   },
   "acceptance": {
     "scheduled_run_verified": true,
-    "topview_read_only_scan_complete": true,
-    "queue_and_map_sha256_confirmed": true,
-    "submitted_task_ids_found": 28,
-    "submitted_task_ids_total": 28,
+    "topview_read_only_scan_complete": false,
     "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
     "new_task_id_verified": false,
     "production_submission_verified": false
   },
-  "outcome": "read_only_reconciled_no_create",
-  "blocker": {
-    "code": "fallback_transport_not_accepted",
-    "reason": "Work still preferred/restored in live route_generation=3; no new owner/runtime evidence that Work is unavailable. TinyFish saved profile has not demonstrated native transfer of all exact canonical image files and the genuine 3-second MP4 into Omni-reference, nor verified the live Unlimited 0-credit composer; repeated paid test of unchanged blocker forbidden. Item S52-R2-SEED20-P4 is top owner-priority Tatooine chain item and ready by derived readiness, but no UI preflight, unique claim, or submission intent. Do not Create. Separate foreground parodies owner task is not assigned to scheduled slot executor.",
-    "retryable": true
-  },
-  "retryable": true,
-  "updated_at": "2026-11-09T11:09:41.733Z",
-  "source_head_initial": "627bdf3a29a827416c11fc0d0681b071558a6994",
-  "checked_at": "2026-11-09T11:09:41.733Z",
-  "queue_reconciliation": {
-    "submitted_ids_in_queue": 28,
-    "submitted_found": 28,
-    "missing_submitted_ids": [],
-    "unresolved_states": [],
-    "ready_story_candidates": [
-      "S52-R2-SEED20-P4"
-    ],
-    "source_queue_sha256": "75eddf68907a13a90def4f39ebd44e615731fa5e719e18045b695c30f589971c",
-    "source_task_map_sha256": "ae43f18d24d55bcd0b273c3273479e42e98778226c303aa534018cc05c5c5346",
-    "hashes_independently_recomputed_matched": true,
-    "scene_62_owner_hold": true,
-    "music_and_dance_owner_hold": true,
-    "s49b": {
-      "state": "waiting_for_slot",
-      "task_id": null,
-      "owner_music_consent_scope": "after_all_story_only"
-    },
-    "new_mapped_active": {
-      "item": "S59-SEED20-P3",
-      "task_id": "5dbf6f87306a4f2f958781935894aaca",
-      "status": "init",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "credit_cost": 0,
-      "unlimited": true
-    },
-    "owner_tasks_open": 1,
-    "owner_tasks_note": "chatgpt-20261109-parodies-face-only-correction restricted to active foreground SEREGIUS-PARODIES-20261109; scheduled slot runner did not take it"
-  },
-  "work_preference": {
-    "preferred_executor": "work",
-    "work_capacity_state": "restored_verified",
-    "route_generation": 3,
-    "route_changed": false
-  },
-  "notes": "Topview confirmed S59 P3 still active and queue-mapped; shadow robot light scan 11:00:26Z calls it unknown_new because robot task map last scanned at 10:16:23Z, but automation did not overwrite robot telemetry. Other writer held exact canon lease for parody preparation until 11:03Z; this scheduled executor took its own lease only after full release. No queue/claim/retry/resume changes; native TinyFish blocked unchanged, no charged browser calls."
+  "outcome": "in_progress",
+  "blocker": null,
+  "retryable": null,
+  "updated_at": "2026-11-09T12:09:46.946Z"
 }
