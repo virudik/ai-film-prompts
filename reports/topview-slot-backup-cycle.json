@@ -4,36 +4,35 @@
   "source": "ChatGPT scheduled ordinary",
   "runner": "chatgpt_scheduled_task",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "3bdeb4c6-3884-42d5-b936-aa18f63704f6",
-  "holder": "chatgpt:ordinary:3bdeb4c6-3884-42d5-b936-aa18f63704f6",
-  "run_id": "6b9a04a5-40cc-832b-b1fb-12dc3d952595",
+  "execution_instance_id": "2dd99c41-0eaa-4838-9b54-230c5ed1f65d",
+  "holder": "chatgpt:ordinary:2dd99c41-0eaa-4838-9b54-230c5ed1f65d",
+  "run_id": "9f96dc61-f5e8-8322-8dcb-d91638d417a3",
   "runtime_run_id_source": "Automations.peek last_run.id, current in_progress",
-  "source_head": "3dc836faa26ae2d05d2a8f38212649bb98bdea11",
+  "run_id_unavailable_reason": null,
+  "source_head": "c19c9250c3d55d5a471808a81abb03715c8cf52a",
   "route_generation": 3,
-  "started_at": "2026-11-09T00:02:47.177062Z",
-  "lease_acquired_at": "2026-11-09T00:09:53.898Z",
-  "receipt_started_recorded_at": "2026-11-09T00:10:27.444Z",
-  "phase": "finished",
-  "outcome": "blocked_browser_input",
+  "started_at": "2026-11-09T01:07:32.755Z",
+  "lease_acquired_at": "2026-11-09T01:07:32.755Z",
+  "receipt_started_recorded_at": "2026-11-09T01:07:36.583Z",
+  "phase": "started",
+  "outcome": "in_progress",
   "scan": {
     "complete": true,
     "boards": 14,
     "pages": 18,
     "video_tasks": 642,
     "unique_video_tasks": 642,
-    "scope": "All 14 Topview boards; account-wide read-only video pages",
-    "checked_at": "2026-11-09T00:08:00Z",
     "status_counts": {
       "success": 613,
       "fail": 26,
       "init": 3
-    }
+    },
+    "checked_at": "2026-11-09T01:06:18.072Z"
   },
   "slots": {
     "capacity": 6,
     "occupied": 3,
     "free": 3,
-    "complete_scan_verified": true,
     "active_task_ids": [
       "0b6dfa84e4524b438075f10f7205a846",
       "2d8efbd16f5146f48cd7a9a1ffb99369",
@@ -49,8 +48,7 @@
     "run_ids": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0,
-    "not_run_reason": "Confirmed unchanged native exact-file/image/video transfer blocker; user forbids repeated paid check without changed UI capability. No file import, Unlimited0 composer preflight or Create verified in this run. Wallet not checked because no paid run attempted."
+    "confirmed_cost_usd": 0
   },
   "acceptance": {
     "scheduled_run_verified": true,
@@ -61,66 +59,6 @@
     "new_task_id_verified": false,
     "production_submission_verified": false
   },
-  "owner_tasks": "checked_open_0",
-  "next_ready_candidate": "S62-SEED20-P1-R2-20261108",
   "topview_credits_spent": 0,
-  "checked_at": "2026-11-09T00:12:02.319Z",
-  "completed_at": "2026-11-09T00:12:02.319Z",
-  "queue_reconciliation": {
-    "source_queue_sha256": "34df7b3b62ec760259f77e89f8d652035d2f43fc0b0be67810c2eb5597d0f50f",
-    "source_task_map_sha256": "5f21a4995256b824e9e87ea55ed8cf53b3b86d5a33fe4b18c68296b2235381cf",
-    "hashes_independently_recomputed_and_match": true,
-    "submitted_count": 20,
-    "archived_video_task_count": 81,
-    "unresolved_items": [
-      {
-        "id": "S49B",
-        "state": "submission_unknown",
-        "submission_intent_id": "e12e32cf-b8d6-4484-86ef-35acee6e4693",
-        "replay_forbidden": true
-      },
-      {
-        "id": "S48-SEED20-P2-R2-20261108",
-        "state": "claimed",
-        "holder": "grok:c33be7f7-8ee4-40f9-8482-f52f9699ad1d",
-        "submission_intent_id": null
-      }
-    ],
-    "owner_music_consent_required": [
-      28,
-      49,
-      50,
-      51
-    ],
-    "note": "Submitted and archived task map were read, but individual one-by-one reconciliation of all archived IDs was not re-performed in this cycle."
-  },
-  "blocker": {
-    "code": "blocked_browser_input",
-    "item_id": "S62-SEED20-P1-R2-20261108",
-    "retryable": false,
-    "reason": "Ready independent story item and three free physical slots, but saved TinyFish profile lacks a verified native UI upload path for canonical images and actual three-second source clip plus visible Unlimited0 on exact board. Create forbidden.",
-    "evidence": "ops/slot-backup.json#tinyfish_fallback.latest_blocker; 2026-11-06"
-  },
-  "monitor": {
-    "bot_issue_latest": 472,
-    "bot_issue_event": "slots:d1af9cd6:29",
-    "launcher_health_state": "reconciliation_required",
-    "launcher_health_checked_at": "2026-11-09T00:00:32Z",
-    "no_relay_event_claimed_by_this_run": true
-  },
-  "peer_reconciliation": {
-    "hh00_last_run_id": "6b9a04a5-40cc-832b-b1fb-12dc3d952595",
-    "hh00_latest_result_run_id": "91e7b493-19e0-8322-ad87-3241894f2d49",
-    "hh55_last_run_id": "d4729d0f-dee0-8323-b83a-d630e3245a29",
-    "hh55_latest_result_run_id": "1658357b-2320-8333-98ac-459762c93799",
-    "relay_last_run_id": "93ad365d-0398-832a-89df-ca0899a7f2c9",
-    "relay_latest_result_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d"
-  },
-  "work_route": {
-    "preferred_executor": "work",
-    "route_generation": 3,
-    "restoration_rewrite": false,
-    "reason": "No fresh Work GUI/quota evidence; preserve current route. Ordinary independently checked."
-  },
-  "note": "Complete live Topview scan and queue/task-map SHA match; no new Create or paid browser spend. Unchanged TinyFish blocker. No changes to queue/claims/retry budgets/next_action. Lease still held for final write and exact release."
+  "blocker": null
 }
