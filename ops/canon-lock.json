@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:fa55d361-5299-404a-aa1b-cf19979fda7c",
-  "task": "t413u standing S66-STITCH-INDEP-WAN30 intent only",
-  "acquired_at": "2026-11-09T15:34:55Z",
-  "expires_at": null,
-  "released_at": "2026-11-09T15:34:55Z",
+  "state": "held",
+  "holder": "cursor:bc-b6c53856-e99b-58a2-a5e3-54a898cb355c",
+  "task": "Record the independent Stitch walk receipt",
+  "acquired_at": "2026-11-09T15:36:37Z",
+  "expires_at": "2026-11-09T15:51:37Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
