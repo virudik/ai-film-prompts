@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-09T13:34:02+00:00",
-  "source_head": "c2fdb2740816323e3e7e959ed07253a325ad27a1",
-  "source_fingerprint": "13ce0ee03f63032bc1bebd7883af4c96cd739eedfc65fd307550f60075679e95",
+  "checked_at": "2026-11-09T13:53:40+00:00",
+  "source_head": "d76c93a56ea150ac8e40f9069e07ae0cfd4d2a1f",
+  "source_fingerprint": "2f077a86869f36888d18790b3976c854dcc44406874489bb6763b6a91a519efa",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -496,6 +496,13 @@
     ],
     "next_candidates": [
       {
+        "item_id": "S67-WAN30",
+        "state": "waiting_for_slot",
+        "task_id": null,
+        "recovery_action": "fresh_launch_preflight_required",
+        "submit_authorized": false
+      },
+      {
         "item_id": "S62-SEED20-P1-R2-20261108",
         "state": "waiting_for_slot",
         "task_id": null,
@@ -504,13 +511,6 @@
       },
       {
         "item_id": "S51E",
-        "state": "waiting_for_slot",
-        "task_id": null,
-        "recovery_action": "fresh_launch_preflight_required",
-        "submit_authorized": false
-      },
-      {
-        "item_id": "S51F",
         "state": "waiting_for_slot",
         "task_id": null,
         "recovery_action": "fresh_launch_preflight_required",
@@ -532,8 +532,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "a57900820cbb14106380e07f4f66bc80fdae24215585985780bc36ffdcd66da1",
-      "bytes": 34887
+      "sha256": "5bdf277ebb12f2ea5463f970bee61e1919b567e6eda0aae152d8f6d37d5643d5",
+      "bytes": 34879
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -557,7 +557,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "1a79d83c342936c2754f290290eb7fcab922cdc8a4b72ab3805c248f45b5147b",
+      "sha256": "2d04d9fe7bb3da0babda9ea2a00ebb719d107b5a52d15cd5b2f8921c645d1ce9",
       "bytes": 5135
     },
     {
@@ -572,12 +572,12 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "10820488efa8d5d59dc217ce8453f1d53c5f792b28f218ff119b10753f64b128",
-      "bytes": 372263
+      "sha256": "561739aa7a72410dc1392f999fb1256dd5cc3f94ceda4908c400b72e06060f3d",
+      "bytes": 373451
     },
     {
       "file": "project-status.json",
-      "sha256": "60e96bcdb9fa5b93e627e439d4402e7ebf70e978350aeded073bcad9e58de0c2",
+      "sha256": "0b1c6b643f22298f471686a7d904b62dc064027c1f89da3decb955e6a3fcf636",
       "bytes": 25749
     },
     {
@@ -597,18 +597,18 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "546569a97e4c34c39d583631e64b9d972e55fe4195ec3e6b3758d4df274f8cfb",
-      "bytes": 34688
+      "sha256": "83bb0614ddbc17c6d7ded6ebc9d4a9dd476cf8fcb26c8126753a57ad6f4d53f4",
+      "bytes": 34680
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "842160e5f86d8a1a0dfb929eda4bc4bd276a818d85791a57576e566c3c53448d",
-      "bytes": 28374
+      "sha256": "87ff17435cb50ff001b6aba648e051f857d1558d671044b232627f756d159801",
+      "bytes": 28389
     },
     {
       "file": "video-prompts.md",
-      "sha256": "b70a97406b286747b3bb2133816fd7c31ddbfc1025c51779fe58e4f6f18b60f5",
-      "bytes": 1487823
+      "sha256": "d6faed572caa65a246eac95bf618713a19ec198486b0b4b5903fdd2d344d6997",
+      "bytes": 1488260
     },
     {
       "file": "work-resume-register.json",
