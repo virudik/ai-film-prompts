@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-09T09:45:09+00:00",
-  "source_head": "71ceb8af5fadd34726d55a6d35ee4cf64bec87ce",
-  "source_fingerprint": "6599546a109317279afef4dc8a37d5a203d173a2a21aa5fff1a9bf5ba792c210",
+  "checked_at": "2026-11-09T09:47:10+00:00",
+  "source_head": "99167b023150682bb222ec4821c17470ba6b9c21",
+  "source_fingerprint": "26f7a1049b9cac8ee51a5db3e128db3a27ad28e493cc08b3c697b7d658e30a71",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -177,16 +177,9 @@
         "task_id": null,
         "recovery_action": "reconcile_without_resubmitting",
         "submit_authorized": false
-      },
-      {
-        "item_id": "S52-R2-SEED20-P3",
-        "state": "submitting",
-        "task_id": null,
-        "recovery_action": "reconcile_without_resubmitting",
-        "submit_authorized": false
       }
     ],
-    "existing_task_count": 70,
+    "existing_task_count": 71,
     "existing_tasks": [
       {
         "item_id": "S49A",
@@ -275,6 +268,10 @@
       {
         "item_id": "S52-R2-SEED20-P2",
         "task_id": "47804d4f777e4613b6187a7bff6e0dd0"
+      },
+      {
+        "item_id": "S52-R2-SEED20-P3",
+        "task_id": "7f3aba2b4e1b42b69b9871c5b8e4c08b"
       },
       {
         "item_id": "S64-WAN30",
@@ -485,7 +482,7 @@
         "submit_authorized": false
       },
       {
-        "item_id": "S51E",
+        "item_id": "S59-SEED20-P3",
         "state": "waiting_for_slot",
         "task_id": null,
         "recovery_action": "fresh_launch_preflight_required",
@@ -547,8 +544,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "1b7a650047f4bf44092142cace4c0182f50ceec68dbd08948befb9c0b870f9e2",
-      "bytes": 354763
+      "sha256": "9b9f9cd85d581f63b5fa2db01a7aa854afe0f510523b3ccca7dda7316dd9b866",
+      "bytes": 353010
     },
     {
       "file": "project-status.json",
@@ -591,5 +588,5 @@
       "bytes": 97604
     }
   ],
-  "packet_bytes": 6556
+  "packet_bytes": 6505
 }
