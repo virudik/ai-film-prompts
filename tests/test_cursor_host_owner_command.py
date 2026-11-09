@@ -236,5 +236,120 @@ class AnsweredCardTests(unittest.TestCase):
             lc.dry_run_cursor_host(self.cfg, body, GROK_NOW, self.local_execution)
 
 
+STANDING_QUOTE = 'Говорю запускай значит запускай. Зачем спрашивать по 10 раз если есть уже согласованная очередь запуска'
+
+
+class StandingCommandTests(CursorHostOwnerCommandTests):
+    def setUp(self):
+        super().setUp()
+        self.cfg['grok_launcher']['owner_command_launch']['standing_commands'] = [{
+            'id': 't413u-20261109', 'enabled': True, 'host_address': 't413u',
+            'recorded_at': '2026-11-09T09:25:00+01:00', 'quote': STANDING_QUOTE,
+            'scope': {'ready_story_parts': True, 'free_unlimited': True, 'one_attempt': True,
+                      'music_dance': False, 'excluded_scenes': [28, 49, 50, 51], 'hold_scenes': [62]}}]
+
+    def story(self, **over):
+        item = dict(self.item, scene_id=52, max_new_submissions=1, max_credits=0)
+        item.update(over)
+        return item
+
+    def standing_actor(self, request_id='cccccccc-dddd-4eee-8fff-000000000001', at=None, standing_id='t413u-20261109'):
+        body = {
+            'observation_source': 'parent_shell_os_environ',
+            'raw_host_fields': {'CURSOR_CONVERSATION_ID': CONV, 'CURSOR_REQUEST_ID': request_id},
+            'standing_command': {'id': standing_id},
+            'quote': STANDING_QUOTE,
+            'at': at or lc.stamp(GROK_NOW - timedelta(days=8)),
+        }
+        quote, at, context = lc._cursor_host_context(body)
+        return dict(self.actor, kind='owner_command', owner_command={
+            'source': 'cursor_host', 'quote': quote, 'at': at, 'host_context': context})
+
+    def test_old_standing_phrase_authorizes_a_fresh_parent_request(self):
+        actor = self.standing_actor()
+        out = lc.dry_run_cursor_host(self.cfg, {
+            'observation_source': 'parent_shell_os_environ',
+            'raw_host_fields': actor['owner_command']['host_context']['raw_host_fields'],
+            'standing_command': {'id': 't413u-20261109'},
+            'quote': STANDING_QUOTE,
+            'at': actor['owner_command']['at'],
+        }, GROK_NOW, self.local_execution, self.ledger)
+        self.assertTrue(out['allowed'])
+        self.assertEqual(out['host_run']['standing_command_id'], 't413u-20261109')
+        self.assertNotIn('owner_host_address', out['host_run'])
+        self.assertEqual(self.ledger, lr.empty())
+        item, ledger = lc.prepare_transaction(
+            self.cfg, self.lock, self.story(), actor, self.scan, GROK_NOW, ledger=self.ledger)
+        self.assertEqual(item['claim']['owner_command']['standing_command_id'], 't413u-20261109')
+        self.assertEqual(item['claim']['owner_command']['standing_host_address'], 't413u')
+        self.assertTrue(lr.verify_binding(item, ledger))
+        again = self.standing_actor(request_id='dddddddd-eeee-4fff-8aaa-111111111111')
+        second, _ = lc.prepare_transaction(
+            self.cfg, self.lock, self.story(id='S-next'), again, self.scan, GROK_NOW, ledger=ledger)
+        self.assertEqual(second['claim']['host_run']['value'], 'dddddddd-eeee-4fff-8aaa-111111111111')
+
+    def test_same_request_cannot_reset_its_counter(self):
+        actor = self.standing_actor()
+        _, ledger = lc.prepare_transaction(
+            self.cfg, self.lock, self.story(), actor, self.scan, GROK_NOW, ledger=self.ledger)
+        with self.assertRaises(lc.Blocked):
+            lc.prepare_transaction(
+                self.cfg, self.lock, self.story(id='S-other'), actor, self.scan, GROK_NOW, ledger=ledger)
+
+    def test_original_address_stays_single_use(self):
+        native = self.actor_for(packet(address='t413u', text='Говорю запускай значит запускай'))
+        _, ledger = lc.prepare_transaction(
+            self.cfg, self.lock, self.story(), native, self.scan, GROK_NOW, ledger=self.ledger)
+        replay = self.actor_for(packet(
+            address='t413u', text='Говорю запускай значит запускай',
+            request_id='aaaaaaaa-bbbb-4ccc-8ddd-eeeeeeeeeeee'))
+        with self.assertRaises(lc.Blocked):
+            lc.prepare_transaction(
+                self.cfg, self.lock, self.story(id='S-other'), replay, self.scan, GROK_NOW, ledger=ledger)
+        standing = self.standing_actor()
+        item, _ = lc.prepare_transaction(
+            self.cfg, self.lock, self.story(id='S-fresh'), standing, self.scan, GROK_NOW, ledger=ledger)
+        self.assertEqual(item['claim']['host_run']['standing_command_id'], 't413u-20261109')
+
+    def test_music_hold_budget_scan_and_child_env_still_fail(self):
+        actor = self.standing_actor()
+        for item in (self.story(scene_id=51), self.story(scene_id=62),
+                     self.story(max_new_submissions=2), self.story(max_credits=1)):
+            with self.subTest(item=item.get('scene_id'), budget=item.get('max_new_submissions')), self.assertRaises(lc.Blocked):
+                lc.prepare_transaction(self.cfg, self.lock, item, actor, self.scan, GROK_NOW, ledger=self.ledger)
+        old_scan = dict(self.scan, checked_at=lc.stamp(GROK_NOW - timedelta(seconds=121)))
+        with self.assertRaises(lc.Blocked):
+            lc.prepare_transaction(self.cfg, self.lock, self.story(), actor, old_scan, GROK_NOW, ledger=self.ledger)
+        paid = self.story()
+        paid['claim'] = dict(self.item['claim'])
+        paid['claim']['preflight'] = dict(self.item['claim']['preflight'], credits_cost=18)
+        with self.assertRaises(lc.Blocked):
+            lc.prepare_transaction(self.cfg, self.lock, paid, actor, self.scan, GROK_NOW, ledger=self.ledger)
+        with self.assertRaises(lc.Blocked):
+            lc.dry_run_cursor_host(self.cfg, {
+                'observation_source': 'parent_shell_os_environ',
+                'raw_host_fields': {'CURSOR_CONVERSATION_ID': CONV, 'CURSOR_REQUEST_ID': 'bc-not-a-parent'},
+                'standing_command': {'id': 't413u-20261109'},
+                'quote': STANDING_QUOTE, 'at': lc.stamp(GROK_NOW)}, GROK_NOW, self.local_execution)
+        future = self.standing_actor(at=lc.stamp(GROK_NOW + timedelta(minutes=5)))
+        with self.assertRaises(lc.Blocked):
+            lc.check_owner_command(self.cfg, future, GROK_NOW)
+        unknown = self.standing_actor(standing_id='not-recorded')
+        with self.assertRaises(lc.Blocked):
+            lc.check_owner_command(self.cfg, unknown, GROK_NOW)
+
+    def test_live_registry_records_t413u_and_the_t414u_yes(self):
+        live = json.loads((Path(__file__).resolve().parents[1] / 'ops' / 'slot-backup.json').read_text(encoding='utf-8'))
+        row = live['grok_launcher']['owner_command_launch']['standing_commands'][0]
+        self.assertEqual(row['id'], 't413u-20261109')
+        self.assertEqual(row['host_address'], 't413u')
+        self.assertEqual(row['quote'], STANDING_QUOTE)
+        self.assertEqual(row['owner_confirmation']['host_address'], 't414u')
+        self.assertEqual(row['owner_confirmation']['quote'], 'Да')
+        self.assertEqual(row['scope']['hold_scenes'], [62])
+        self.assertEqual(row['scope']['excluded_scenes'], [28, 49, 50, 51])
+        self.assertEqual(live['grok_launcher']['max_submissions_per_wake'], 6)
+
+
 if __name__ == '__main__':
     unittest.main()

@@ -137,8 +137,22 @@ def parse_cursor_host(actor):
         raise LedgerBlocked('host_id_must_not_be_local_execution_uuid')
     card = ctx.get('owner_card_response')
     msg = ctx.get('owner_native_message')
+    standing = ctx.get('standing_command')
     if isinstance(card, dict) and isinstance(msg, dict):
         raise LedgerBlocked('card_response_and_owner_message_are_different')
+    if isinstance(standing, dict) and (isinstance(card, dict) or isinstance(msg, dict)):
+        raise LedgerBlocked('standing_command_and_owner_message_are_different')
+    if isinstance(standing, dict):
+        sid = opaque(standing.get('id'), 'standing_command_id')
+        host_run = {
+            'namespace': HOST_NAMESPACE, 'observation_source': ctx.get('observation_source'),
+            'field': 'CURSOR_REQUEST_ID', 'value': req,
+            'conversation_field': 'CURSOR_CONVERSATION_ID', 'conversation_id': conv,
+            'standing_command_id': sid}
+        events = [key([HOST_NAMESPACE, 'CURSOR_CONVERSATION_ID', conv, 'CURSOR_REQUEST_ID', req,
+                       'standing_command', sid])]
+        return (key([actor.get('surface'), HOST_NAMESPACE, 'CURSOR_REQUEST_ID', req]), events,
+                {'source': HOST_NAMESPACE, 'host_run': host_run})
     if isinstance(card, dict):
         if card.get('current_owner_response_message_address') is not None:
             raise LedgerBlocked('unexposed_message_address_must_stay_null')
