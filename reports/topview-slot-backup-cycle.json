@@ -6,51 +6,109 @@
   "runtime_run_id": null,
   "run_id_unavailable_reason": "Automations.peek reports a0791bf9-4778-832b-abde-1460c490f2d7 as current last_run, but the prior receipt already attributed the same ID to a previous cycle; cannot uniquely bind to this execution",
   "source_head_initial": "5c14da41805a8cc1df05efc3e7eac7dabbc116f7",
-  "source_head": "0536838ffd9a98e106a8d2ff94684efb3c112b71",
+  "source_head": "e95c2306e0adb464a2ce115a6cd6cc12111655de",
   "route_generation": 3,
   "started_at": "2026-11-09T19:03:49.453724Z",
   "receipt_started_at": "2026-11-09T19:07:07.239Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
-    "complete": false,
-    "checked_at": null,
-    "boards": null,
-    "pages": null,
-    "video_tasks": null,
-    "status_counts": null
+    "complete": true,
+    "source": "Topview read-only board scanner; 14 account boards, 19 actual pages 100/page; My First Board 8 pages",
+    "checked_at": "2026-11-09T19:05:05.412Z",
+    "spotcheck_at": "2026-11-09T19:12:16.647Z",
+    "boards": 14,
+    "pages": 19,
+    "all_board_assets": 1052,
+    "video_tasks": 668,
+    "status_counts": {
+      "success": 637,
+      "fail": 26,
+      "init": 5
+    },
+    "active_task_ids": [
+      "be627af0e9664db5b6ac2b62c34080a6",
+      "8bdd6439dad94592979aba23c137b4a0",
+      "0a495e5f77a041e6bcc8d67fb68230b3",
+      "6fa3cdac62e348759d2a3607093414ea",
+      "2473c9b5bcf645fd85ab308306c53aaa"
+    ],
+    "all_active_on_board": "1a6244cf1ae747ef847d949a80d6133c",
+    "non_atomic": true
   },
   "slots": {
     "physical_capacity": 6,
-    "occupied": null,
-    "free": null
+    "occupied": 5,
+    "free": 1,
+    "complete_scan_verified": true,
+    "non_reserving_snapshot": true,
+    "checked_at": "2026-11-09T19:05:05.412Z"
   },
   "selected_item": null,
-  "task_ids": [],
+  "task_ids": [
+    "be627af0e9664db5b6ac2b62c34080a6",
+    "8bdd6439dad94592979aba23c137b4a0",
+    "0a495e5f77a041e6bcc8d67fb68230b3",
+    "6fa3cdac62e348759d2a3607093414ea",
+    "2473c9b5bcf645fd85ab308306c53aaa"
+  ],
   "new_submissions": [],
-  "browser_transport": "not_used",
+  "browser_transport": "not_used: no authorized story item with complete canonical inputs and QC; TinyFish blocker not retested",
   "tinyfish": {
     "runs": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0
+    "confirmed_cost_usd": 0,
+    "wallet_not_queried_reason": "No eligible item; TinyFish metered browser unnecessary"
   },
   "topview_credits_spent": 0,
   "lease": {
     "holder": "chatgpt:ordinary:8734114e-f5c1-4a78-bbe6-1d3736ef8b92",
     "acquired_at": "2026-11-09T19:06:20.464Z",
     "expires_at": "2026-11-09T19:16:20.464Z",
-    "lease_commit": "0536838ffd9a98e106a8d2ff94684efb3c112b71"
+    "lease_commit": "0536838ffd9a98e106a8d2ff94684efb3c112b71",
+    "released_at": "2026-11-09T19:12:16.647Z",
+    "release_with_receipt_atomic": true
   },
   "acceptance": {
     "scheduled_run_executed": true,
     "scheduled_run_id_observed": false,
-    "topview_read_only_scan_complete": false,
+    "topview_read_only_scan_complete": true,
+    "all_36_submitted_task_ids_read_from_Topview": true,
+    "queue_and_map_sha256_confirmed": true,
+    "tinyfish_authenticated_ui_this_run": false,
+    "tinyfish_file_transfer_this_run": false,
+    "tinyfish_unlimited_zero_this_run": false,
     "production_submission_by_this_executor_verified": false,
     "new_task_id_verified": false
   },
-  "outcome": "started",
-  "blocker": null,
-  "retryable": true,
-  "updated_at": "2026-11-09T19:07:07.239Z"
+  "outcome": "no_eligible_ready_item",
+  "blocker": "Five active unqueued Topview tasks include linked forest/worm scenes, so robot's unmapped_active:6fa3cdac is a real telemetry mismatch, not a free-slot authorization; S65 cannot launch until authentic S70-final-frame.png exists and continuity QC passes (file 404); S66-STITCH-INDEP-WAN30 remains under foreign Grok submitting intent 6ba1656f-24ff-4dd3-ab2d-bf0991e31cf2, do not retry; S62 is on owner hold; music/dance scenes 28/51 withheld and S49B only after story; TinyFish input transfer/Unlimited0 remains unverified.",
+  "retryable": false,
+  "updated_at": "2026-11-09T19:12:16.647Z",
+  "queue_reconciliation": {
+    "queue_blob_sha": "874ff7197b08940122156b8b4bd9a43f818ef871",
+    "task_map_blob_sha": "90996c5b82a0553ed0cd49d2edf3f2d91c724868",
+    "readiness_blob_sha": "bda1cb01362adbefe09953f950b45d48b8bebfa5",
+    "queue_sha256": "5c4c83e19a23ce849990d5647342ed982191c583dfc61642535f8282f3b10504",
+    "task_map_sha256": "7e5c3ae5e5ba98672f69c0c210b0bdc8f710624299feb5e49d3b4c4c788595ad",
+    "sha256_recomputed_and_matched": true,
+    "submitted_task_ids_found": 36,
+    "submitted_total": 36,
+    "pending_items": [
+      {
+        "id": "S66-STITCH-INDEP-WAN30",
+        "state": "submitting",
+        "submission_intent_id": "6ba1656f-24ff-4dd3-ab2d-bf0991e31cf2",
+        "lease_holder": "grok:fa55d361-5299-404a-aa1b-cf19979fda7c"
+      }
+    ],
+    "open_owner_tasks": 1,
+    "owner_task_action": "Not taken; self-heal telemetry issue needs canonical scene mapping evidence for five off-queue active tasks; no guess-based changes",
+    "preferred_executor": "work",
+    "route_generation_unchanged": true,
+    "robot_telemetry_checked_at": "2026-11-09T15:34:35Z",
+    "robot_telemetry_is_stale": true
+  },
+  "completed_at": "2026-11-09T19:12:16.647Z"
 }
