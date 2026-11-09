@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "cursor:bc-b6c53856-e99b-58a2-a5e3-54a898cb355c",
-  "task": "Put the Tatooine chain first and reconcile S49B without a Create",
-  "acquired_at": "2026-11-09T10:09:46Z",
-  "expires_at": null,
-  "released_at": "2026-11-09T10:09:48Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:380ed1ce-b2e1-4571-a6fe-c01365eb6035",
+  "task": "Seregius ordinary hourly full-scan reconciliation and receipt; NO CREATE until verified preflight",
+  "acquired_at": "2026-11-09T10:10:35.068Z",
+  "expires_at": "2026-11-09T10:20:35.068Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
