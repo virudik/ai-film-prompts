@@ -3,11 +3,13 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-09T02:40:36Z",
+  "checked_at": "2026-11-09T02:50:29Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
-    "mode": "light",
-    "reasons": [],
+    "mode": "full",
+    "reasons": [
+      "last full scan 179 min ago"
+    ],
     "boards": 14,
     "board_task_counts": {
       "3db83056ccef4361a9563a4f77afa1d5": 56,
@@ -25,9 +27,9 @@
       "caa5d8898f14442ea37c3278d156b3fe": 59,
       "1a6244cf1ae747ef847d949a80d6133c": 699
     },
-    "pages_scanned": 1,
-    "tasks_seen": 20,
-    "api_requests": 5,
+    "pages_scanned": 16,
+    "tasks_seen": 642,
+    "api_requests": 21,
     "detail_failed": []
   },
   "cursor": {
@@ -47,14 +49,14 @@
       "caa5d8898f14442ea37c3278d156b3fe": 59,
       "1a6244cf1ae747ef847d949a80d6133c": 699
     },
-    "last_full_scan_at": "2026-11-08T23:50:37Z"
+    "last_full_scan_at": "2026-11-09T02:50:29Z"
   },
   "slots": {
     "capacity": 6,
     "occupied": 3,
     "free": 3,
     "basis": "active unlimited video tasks on all owned boards",
-    "complete": false,
+    "complete": true,
     "active_not_unlimited": 0
   },
   "active_tasks": [
@@ -67,8 +69,8 @@
       "model": "Seedance 2.0",
       "scene_id": 51,
       "mapping": "task_map",
-      "queue_count": 2854,
-      "wait_seconds": 117528,
+      "queue_count": 2841,
+      "wait_seconds": 116926,
       "process_seconds": null
     },
     {
@@ -80,8 +82,8 @@
       "model": "Seedance 2.0",
       "scene_id": 51,
       "mapping": "task_map",
-      "queue_count": 2089,
-      "wait_seconds": 74328,
+      "queue_count": 2075,
+      "wait_seconds": 73726,
       "process_seconds": null
     },
     {
@@ -93,8 +95,8 @@
       "model": "Seedance 2.0",
       "scene_id": 51,
       "mapping": "task_map",
-      "queue_count": 1152,
-      "wait_seconds": 31127,
+      "queue_count": 1130,
+      "wait_seconds": 30525,
       "process_seconds": null
     }
   ],
@@ -195,8 +197,8 @@
     }
   ],
   "comparison": {
-    "monitor_checked_at": "2026-11-09T01:50:26Z",
-    "monitor_age_minutes": 50,
+    "monitor_checked_at": "2026-11-09T02:40:36Z",
+    "monitor_age_minutes": 10,
     "monitor_occupied": 3,
     "robot_occupied": 3,
     "consistent": true,
