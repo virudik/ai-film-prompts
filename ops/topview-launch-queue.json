@@ -5294,8 +5294,8 @@
       "scene_id": 66,
       "prompt_id": "S66-WAN30",
       "canonical_block_label": "66",
-      "canonical_prompt_sha256": "a0156bbb04c1fb933d5610c207683592d16ab49086b818aece6a7e36ac72b410",
-      "normalized_prompt_sha256": "ad9acbb256743f8a9016f9d56a68bc04f95298f7ad2f29bd1340ef486891b817",
+      "canonical_prompt_sha256": "1944ea76e6f5100ec2ff1405535bfd1c472947d7271fad13a499d5a974fef794",
+      "normalized_prompt_sha256": "0579b6a06be8c743f4620951e39189ccd2d6c2ad2826629f8cd9cb5eb27dd0be",
       "priority": 0.015,
       "state": "blocked_inputs",
       "launch_readiness": "blocked_continuity",
@@ -5393,14 +5393,29 @@
       "revision_note_20261101_owner": "Владелец 01.11: добавлена отдельная развёртка Стича (@Image7, references/scenes/scene-66/S66-Stitch-tatooine-sheet.png); prompt SHA пересчитаны, запуска не было.",
       "editor_limit_flag": {
         "recorded_at": "2026-11-09T12:29:00Z",
-        "canonical_prompt_sha256": "a0156bbb04c1fb933d5610c207683592d16ab49086b818aece6a7e36ac72b410",
-        "canonical_prompt_chars": 8096,
+        "resolved_at": "2026-11-09T12:22:00Z",
+        "owner_authorization": "t434s2191",
+        "owner_decision": "approved_shortening",
+        "previous_canonical_prompt_sha256": "a0156bbb04c1fb933d5610c207683592d16ab49086b818aece6a7e36ac72b410",
+        "previous_chars": 8096,
+        "canonical_prompt_sha256": "1944ea76e6f5100ec2ff1405535bfd1c472947d7271fad13a499d5a974fef794",
+        "canonical_prompt_chars": 7722,
         "editor_limit_chars": 7870,
-        "over_by": 226,
-        "prompt_changed": false,
-        "owner_decision": "pending",
-        "order": "t413u follow-up 2026-11-09",
-        "note": "Do not change the S66 Wan 3.0 prompt. It is 8096 characters, over the 7870 editor limit. The owner has not decided."
+        "prompt_changed": true,
+        "note": "Owner Виталик approved the shortening at 15:22 MSK. Only repeated wording was removed. The item stays blocked until the real S52-R2-SEED20-P7 last 3 seconds exist."
+      },
+      "owner_authorization_t434s2191": {
+        "at": "2026-11-09T12:22:00Z",
+        "at_local": "15:22 Europe/Moscow",
+        "who": "Виталик",
+        "card": "t434s2191",
+        "quote": "Сократи промпт 66 сам, без потери сюжета",
+        "previous_canonical_prompt_sha256": "a0156bbb04c1fb933d5610c207683592d16ab49086b818aece6a7e36ac72b410",
+        "previous_chars": 8096,
+        "canonical_prompt_sha256": "1944ea76e6f5100ec2ff1405535bfd1c472947d7271fad13a499d5a974fef794",
+        "chars": 7722,
+        "editor_limit_chars": 7870,
+        "scope": "Remove redundancy only. Keep blocked_inputs until the real S52-R2-SEED20-P7 last 3 seconds exist."
       }
     },
     {
