@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:febffe59-0c39-41d7-892a-6fb439360ed0",
-  "task": "AI Film ordinary scheduled backup: fresh scan S49B blocker and receipt",
-  "acquired_at": "2026-11-10T02:47:56.431Z",
-  "expires_at": null,
-  "released_at": "2026-11-10T02:51:20.137Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:bdd7d9da-63cc-46a1-8336-15efbfb742ab",
+  "task": "AI Film ordinary scheduled: live Topview read-only scan and cycle receipt; S49B browser preflight blocker",
+  "acquired_at": "2026-11-10T03:08:01.959Z",
+  "expires_at": "2026-11-10T03:23:01.959Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
