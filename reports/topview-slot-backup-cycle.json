@@ -11,8 +11,8 @@
   "preferred_executor_observed": "work",
   "started_at": "2026-11-10T19:10:24.807Z",
   "lease_acquired_at": "2026-11-10T19:10:26.620Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
     "scope": "Topview connector read-only all-board all-video-pages",
@@ -63,12 +63,12 @@
   "lease": {
     "holder": "chatgpt:ordinary:4622e8df-0ba1-4b7b-8aa8-6a55477d858c",
     "acquired_at": "2026-11-10T19:10:26.620Z",
-    "expires_at": "2026-11-10T19:30:26.620Z",
-    "released_at": null,
-    "release_status": "held"
+    "expires_at": null,
+    "released_at": "2026-11-10T19:12:08.317Z",
+    "release_status": "released_atomically_with_receipt"
   },
-  "outcome": "in_progress",
-  "blocker": "no_free_global_slot",
+  "outcome": "no_free_slot",
+  "blocker": "no_free_global_slot; six actual init video tasks on My First Board",
   "retryable": true,
   "acceptance": {
     "scheduled_runtime": true,
@@ -80,7 +80,7 @@
     "queue_sha_matched": true,
     "task_map_sha_matched": true
   },
-  "updated_at": "2026-11-10T19:10:43.857Z",
+  "updated_at": "2026-11-10T19:12:08.317Z",
   "queue_reconciliation": {
     "registered_items": 41,
     "registered_task_ids_found": 41,
@@ -111,7 +111,7 @@
     "owner_task_telemetry_not_closed": true
   },
   "checked_at": "2026-11-10T19:09:20.921Z",
-  "completed_at": null,
-  "source_head_receipt_precommit": null,
+  "completed_at": "2026-11-10T19:12:08.317Z",
+  "source_head_receipt_precommit": "861c68f83258a4abc8bcf5b8dc0a6f318574df68",
   "note": "Live full scan is 6/6. No Create or paid TinyFish. Existing owner telemetry task still open."
 }
