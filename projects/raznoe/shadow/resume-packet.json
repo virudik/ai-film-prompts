@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-10T03:14:23+00:00",
-  "source_head": "d0a463909e65f844e6b3e629ef3be4e515b9cceb",
-  "source_fingerprint": "fca08da9819ceea3b9a126d0766a780b1db07f72ee58e818eb17c4811a134281",
+  "checked_at": "2026-11-10T03:19:01+00:00",
+  "source_head": "3943f37323399ebff4f328d5855428aee92a15f6",
+  "source_fingerprint": "8f812cba6eb21de8c74193190948203aec00ef000889f65468f78b1c9e8939ea",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -196,23 +196,23 @@
     },
     {
       "file": "README-AI-SYNC.md",
-      "sha256": "164f1faf3fc2ffe8873176b36bc38d2e801c9a72782ca8582ad158ab42858ea6",
-      "bytes": 18336
+      "sha256": "e8d83475b63a94eeb24c6ac3ac4fd182de6bcb132258f191be2a7759ebf641d9",
+      "bytes": 18840
     },
     {
       "file": "SYNC-RUNBOOK.md",
-      "sha256": "244e9a47dc3e3b698c4472e83e4049b8700c03267324deed3925f4036888e874",
-      "bytes": 130798
+      "sha256": "ed3edff9823e89e4b89770ac55a9d4b9e7e1df34518222a2ee39b13bf942b18a",
+      "bytes": 131326
     },
     {
       "file": "USER-GUIDE.md",
-      "sha256": "931b751a155ab065157c8707939988d1e10fa0ab63de54b1f34defbb5149ce79",
-      "bytes": 84346
+      "sha256": "b5cf8309fba1355fd1cd201e4bfe1abc88726b927d7c7f6d2bdb0c402f7cdc58",
+      "bytes": 84845
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "cc1661f7723a07bacf5fadd5b3d202333fcdecd51968997d1feb58a2b263908b",
-      "bytes": 5135
+      "sha256": "b9c0cde4406e3f15ec31bebe335d3a1086c1a2ffe69a11a1c23d371bdbda1e4a",
+      "bytes": 5138
     },
     {
       "file": "monitor-role.json",
@@ -226,8 +226,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "59aeae9898122d2fd9bbee00e2c792e078397c0610db47d8e01cd6554cae250d",
-      "bytes": 25777
+      "sha256": "dada2d138e3c3f6cf8b6cc3978a715d4f1fff665ddd6e3cef34abb5c01801376",
+      "bytes": 25780
     },
     {
       "file": "projects/README.md",
@@ -291,7 +291,7 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "ebc08a715d75a541c31eab1a7192aae43dfa755ab0f1da7e5699b2b48ff85a60",
+      "sha256": "d273e311b77afbc7b7f989845b8b141550118ca4cd18bea2cb3fdf2a1c8659ee",
       "bytes": 28560
     },
     {

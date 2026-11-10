@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-11-10T01:28:56+00:00",
+ "generated_at": "2026-11-10T03:19:01+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -16,8 +16,8 @@
   {
    "file": "SYNC-RUNBOOK.md",
    "drive_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-   "sha256": "244e9a47dc3e3b698c4472e83e4049b8700c03267324deed3925f4036888e874",
-   "bytes": 130798
+   "sha256": "ed3edff9823e89e4b89770ac55a9d4b9e7e1df34518222a2ee39b13bf942b18a",
+   "bytes": 131326
   },
   {
    "file": "AI-PROJECT-GUIDE.md",
@@ -34,14 +34,14 @@
   {
    "file": "USER-GUIDE.md",
    "drive_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-   "sha256": "931b751a155ab065157c8707939988d1e10fa0ab63de54b1f34defbb5149ce79",
-   "bytes": 84346
+   "sha256": "b5cf8309fba1355fd1cd201e4bfe1abc88726b927d7c7f6d2bdb0c402f7cdc58",
+   "bytes": 84845
   },
   {
    "file": "README-AI-SYNC.md",
    "drive_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-   "sha256": "164f1faf3fc2ffe8873176b36bc38d2e801c9a72782ca8582ad158ab42858ea6",
-   "bytes": 18336
+   "sha256": "e8d83475b63a94eeb24c6ac3ac4fd182de6bcb132258f191be2a7759ebf641d9",
+   "bytes": 18840
   },
   {
    "file": "BACKUP-AI-RUNBOOK.md",
