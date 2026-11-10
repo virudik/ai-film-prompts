@@ -9,65 +9,40 @@ concurrency:
   group: honor-scenes-completion
   cancel-in-progress: false
 jobs:
-  inspect:
+  exact_sources:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v5
         with:
           ref: main
           fetch-depth: 1
-      - name: Export current scene inputs and inspect official source pages
+      - name: Download official X9e Pro source pixels for private technical review
         run: |
-          mkdir -p /tmp/honor-inspect
+          mkdir -p /tmp/honor-x9e-sources
           python3 - <<'PY'
-          import json,re,hashlib,urllib.request,urllib.parse,subprocess,zipfile
           from pathlib import Path
           from datetime import datetime,timezone
-          out=Path('/tmp/honor-inspect');now=datetime.now(timezone.utc).isoformat(timespec='seconds')
+          import json,hashlib,urllib.request,struct
           holder='chatgpt:ordinary:79b0c146-b9a1-46f2-8187-6be9bd781ec4'
           for p in ['ops/canon-lock.json','projects/raznoe/canon-lock.json']:
-              lock=json.loads(Path(p).read_text());assert lock['state']=='held' and lock['holder']==holder
-              assert datetime.fromisoformat(lock['expires_at'])>datetime.now(timezone.utc)
-          def get(url):
-              req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (HONOR project source verification)','Cache-Control':'no-cache'})
-              with urllib.request.urlopen(req,timeout=35) as r:return r.read(),r.headers.get('Content-Type',''),r.status
-          urls={'x9e-spec':'https://www.honor.com/eurasia/phones/honor-x9e-pro/spec/','x9e-page':'https://www.honor.com/eurasia/phones/honor-x9e-pro/','magic9-page':'https://beneluxshop.honor.com/fr-lu/products/honor-magic9-pro-max'}
-          pages=[]
-          for name,url in urls.items():
-              row={'id':name,'url':url}
-              try:
-                  data,mime,status=get(url);text=data.decode('utf-8');(out/(name+'.html')).write_text(text)
-                  values=re.findall(r'(?:src|data-src|data-original|srcset)=[\"\x27]([^\"\x27]+)',text)
-                  values+=re.findall(r'https?[^\s\"\x27<>]+\.(?:png|jpg|webp)(?:\?[^\s\"\x27<>]*)?',text)
-                  candidates=[]
-                  for v in values:
-                      v=v.split(' ')[0].replace('&amp;','&');u=urllib.parse.urljoin(url,v)
-                      if any(t in u.lower() for t in ['x9e','magic9','mtv-id','m9-pro']):
-                          if u not in candidates:candidates.append(u)
-                  row.update(http=status,content_type=mime,bytes=len(data),sha256=hashlib.sha256(data).hexdigest(),image_candidates=candidates)
-              except Exception as e:row['error']=str(e)
-              pages.append(row)
-          source=json.loads(Path('projects/raznoe/references/scenes/scene-4/official-product-source-links.json').read_text());products=[]
-          for slot in ['H-BACK','H-FRONT','H-34']:
-              u=source['external_reference_slots'][slot]['image_url'];row={'slot':slot,'url':u}
-              try:
-                  b,m,s=get(u);(out/(slot+'.png')).write_bytes(b);row.update(http=s,bytes=len(b),sha256=hashlib.sha256(b).hexdigest())
-              except Exception as e:row['error']=str(e)
-              products.append(row)
-          for p in Path('projects/raznoe/references/scenes/scene-4').glob('0*.png'):(out/p.name).write_bytes(p.read_bytes())
-          meta={'checked_at':now,'head':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'pages':pages,'magic9_sources':products,'media_launches':0}
-          (out/'sources.json').write_text(json.dumps(meta,ensure_ascii=False,indent=2))
-          paths=['shadow/takeover-brief.md','shadow/current-checkpoint.md','project-status.json','topview-status.json','instruction-sync-status.json','automation-monitor-status.json','monitor-role.json','ops/canon-lock.json','ops/owner-tasks.json','projects/raznoe/video-prompts.md','projects/raznoe/work-resume-register.json','projects/raznoe/project-status.json','projects/raznoe/canon-lock.json','projects/raznoe/ops/topview-launch-queue.json','projects/raznoe/HANDOFF.md','projects/raznoe/INSTRUCTIONS.md','projects/raznoe/reports/current-work-checkpoint.md']
-          with zipfile.ZipFile(out/'current-inputs.zip','w',zipfile.ZIP_DEFLATED) as z:
-              for p in paths:z.write(p,p)
-          pre=subprocess.run(['python3','scripts/continue_preflight.py','.','--project','raznoe'],text=True,capture_output=True)
-          (out/'continue-preflight.txt').write_text(pre.stdout+pre.stderr)
-          print(json.dumps({'head':meta['head'],'source_pages':[{'id':x['id'],'http':x.get('http'),'images':len(x.get('image_candidates',[])),'error':x.get('error')} for x in pages],'source_images':products,'preflight_exit':pre.returncode}))
+              l=json.loads(Path(p).read_text());assert l['state']=='held' and l['holder']==holder
+              assert datetime.fromisoformat(l['expires_at'])>datetime.now(timezone.utc)
+          out=Path('/tmp/honor-x9e-sources');rows=[]
+          for role,side in [('X-BACK','back'),('X-FRONT','front')]:
+              url='https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-x9e-pro/honor-x9e-pro-purple-'+side+'.png'
+              req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 HONOR-source-QC','Cache-Control':'no-cache'})
+              with urllib.request.urlopen(req,timeout=35) as r:
+                  raw=r.read();status=r.status;mime=r.headers.get('Content-Type')
+              assert raw[:8]==b'\x89PNG\r\n\x1a\n'
+              path=out/(role+'-official-source.png');path.write_bytes(raw)
+              rows.append({'slot':role,'file':path.name,'source_page':'https://www.honor.com/eurasia/phones/honor-x9e-pro/spec/','image_url':url,'http':status,'content_type':mime,'sha256':hashlib.sha256(raw).hexdigest(),'bytes':len(raw),'pixels':struct.unpack('>II',raw[16:24]),'kind':'official_source_not_generated','rights':'private_technical_reference_only','color':'Purple reference; actual contest handset color not promised'})
+          (out/'sources.json').write_text(json.dumps({'checked_at':datetime.now(timezone.utc).isoformat(timespec='seconds'),'source_found_in':'official HTML downloaded in workflow 42908666731','items':rows,'no_scene_approval':True,'no_submission':True},ensure_ascii=False,indent=2)+'\n')
+          print(json.dumps(rows))
           PY
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: honor-current-inputs
-          path: /tmp/honor-inspect/
+          name: honor-x9e-official-sources
+          path: /tmp/honor-x9e-sources/
           retention-days: 3
