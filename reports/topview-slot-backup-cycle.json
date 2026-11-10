@@ -2,19 +2,19 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "41fe902f-f6b5-4b6f-8299-44bd59010748",
-  "runtime_run_id": "b16011c3-c944-8332-a59d-18a0a90767bb",
-  "runtime_run_id_source": "Automations.peek last_run.id; scheduled_for 2026-11-10T00:00:00Z",
-  "source_head_initial": "5108398fe645a1fee1539d2731a296d5a7c04498",
-  "source_head": "605dfc259a736b3805690a91e8819099f98288a9",
+  "execution_instance_id": "4f46c98d-f95e-4e74-a93e-1663ac581d82",
+  "runtime_run_id": null,
+  "runtime_run_id_unavailable_reason": "Automations list returned last_run_time but did not expose actual current scheduled runtime run id",
+  "source_head_initial": "fbbde3d75521bcb0382a47fc4ea3b03006a6e5bc",
+  "source_head": "35a35831e9bd7fb0ea454c80a9e33aab239b3e40",
   "route_generation": 3,
-  "started_at": "2026-11-09T23:56:01.320960Z",
-  "lease_acquired_at": "2026-11-10T00:05:54.935Z",
-  "phase": "finished",
-  "status": "completed",
+  "started_at": "2026-11-10T00:25:55.825Z",
+  "lease_acquired_at": "2026-11-10T00:30:17.696Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan": {
     "complete": true,
-    "scope": "all 14 boards, all video pages, connector read-only",
+    "scope": "all 14 Topview boards, 19 video pages, account-wide read-only connector scan",
     "boards": 14,
     "pages": 19,
     "video_tasks": 668,
@@ -23,7 +23,7 @@
       "fail": 26,
       "init": 5
     },
-    "checked_at": "2026-11-10T00:12:34.953Z",
+    "checked_at": "2026-11-10T00:28:00Z",
     "active_task_ids": [
       "be627af0e9664db5b6ac2b62c34080a6",
       "8bdd6439dad94592979aba23c137b4a0",
@@ -36,10 +36,9 @@
     "physical_capacity": 6,
     "occupied": 5,
     "free": 1,
-    "scan_complete": true,
-    "verified_at": "2026-11-10T00:12:34.953Z"
+    "scan_complete": true
   },
-  "selected_item": null,
+  "selected_item": "S65-WAN30",
   "task_ids": [],
   "new_submissions": [],
   "browser_transport": "not_used",
@@ -51,76 +50,17 @@
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:41fe902f-f6b5-4b6f-8299-44bd59010748",
-    "acquired_at": "2026-11-10T00:05:54.935Z",
-    "expires_at": "2026-11-10T00:35:54.935Z",
-    "lease_commit": "f91de05331a14afa0a21868b8c70872dddcd64b7",
-    "final_action": "released_atomically_with_receipt"
+    "holder": "chatgpt:ordinary:4f46c98d-f95e-4e74-a93e-1663ac581d82",
+    "acquired_at": "2026-11-10T00:30:17.696Z",
+    "expires_at": "2026-11-10T01:00:17.696Z",
+    "lease_commit": "a41a6336e1daccf3a6c2458cda0505f4c2b881ad",
+    "final_action": "held"
   },
-  "outcome": "readiness_repaired_blocked_browser_input_no_create",
-  "acceptance": {
-    "scheduled_run_executed": true,
-    "scheduled_run_id_observed": true,
-    "topview_read_only_scan_complete": true,
-    "all_40_task_ids_verified": true,
-    "tinyfish_authenticated_ui_this_run": false,
-    "tinyfish_file_transfer_this_run": false,
-    "tinyfish_unlimited_zero_this_run": false,
-    "production_submission_by_this_executor_verified": false,
-    "new_task_id_verified": false
-  },
+  "outcome": "in_progress",
   "previous_cycle": {
-    "execution_instance_id": "af95ad04-dd27-4024-99fb-4bd30cc25a24",
-    "finished_at": "2026-11-09T23:28:05.426Z",
-    "outcome": "blocked_readiness_conflict_no_create"
+    "execution_instance_id": "41fe902f-f6b5-4b6f-8299-44bd59010748",
+    "completed_at": "2026-11-10T00:14:02.150Z",
+    "outcome": "readiness_repaired_blocked_browser_input_no_create"
   },
-  "updated_at": "2026-11-10T00:14:02.150Z",
-  "completed_at": "2026-11-10T00:14:02.150Z",
-  "checked_at": "2026-11-10T00:14:02.150Z",
-  "retryable": false,
-  "blocker": {
-    "category": "blocked_browser_input",
-    "item_id": "S65-WAN30",
-    "reason": "S65 derived readiness conflict repaired: stale topview-status.json active row (running, 2026-11-09T15:34:29Z) overrode confirmed S70 success (2026-11-09T15:47:11Z). Current queue-readiness now ready=true, matched SHA and original S70 final-frame provenance/QC. However, native TinyFish transfer of five exact image originals and selected Unlimited0 has not been verified; operational browser attempt remains blocked until new import capability evidence. No paid browser retry on the unchanged blocker.",
-    "retry_condition": "Verified native UI original-file import and selected Unlimited0 on exact My First Board (or verified Work available GUI and quota), then fresh scan, exact lease and preflight."
-  },
-  "queue_reconciliation": {
-    "items": 61,
-    "submitted_or_completed": 40,
-    "all_task_ids_found": true,
-    "claimed": 0,
-    "submitting": 0,
-    "submission_unknown": 0,
-    "readiness_sha_match": true,
-    "queue_sha256": "bf9e095189cf30e935ddd460f03510cf4f9b405bd45e14efef2ed39940b230cc",
-    "taskmap_sha256": "6797ab2883a2531bf7a0237791254bad0c435bc54f3b4cdd1d360f6ad163a01d"
-  },
-  "next_candidate_item": "S65-WAN30",
-  "readiness_repair": {
-    "root_cause": "Derived script overwrote terminal success in processed_tasks with stale active_tasks row (topview_status running, lacking status field).",
-    "code_and_regression_test_commit": "0e378c427156479189ea46dd0bb3848843e40cd1",
-    "files": [
-      "scripts/queue_readiness.py",
-      "tests/test_queue_readiness.py",
-      "ops/queue-readiness.json"
-    ],
-    "S65_ready_true_readback_verified": true,
-    "sha_source_verified": true,
-    "independent_parent_topview_success_verified": true,
-    "regression_test_added": true,
-    "regression_test_executed_in_this_run": false
-  },
-  "peer_automation_runtime": {
-    "ordinary_last_run_id": "b16011c3-c944-8332-a59d-18a0a90767bb",
-    "ordinary_latest_result_run_id": "bd97cafe-7b08-8328-ad0f-ff44e90749f3",
-    "work_hourly_last_run_id": "b51f8e24-9310-8329-b997-593e7bec3564",
-    "work_hourly_latest_result_run_id": "1658357b-2320-8333-98ac-459762c93799",
-    "relay_last_run_id": "8aec3d2d-621c-8320-9682-7683dd809b6a",
-    "relay_latest_result_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d"
-  },
-  "owner_tasks": {
-    "open": 1,
-    "taken_this_cycle": 0,
-    "task_id": "self-heal-telemetry-stale-202611091849"
-  }
+  "updated_at": "2026-11-10T00:31:12.288Z"
 }
