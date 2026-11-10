@@ -2,29 +2,30 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "3acf6b90-d529-4333-8cd8-c2025b6859ed",
+  "execution_instance_id": "3a5871e4-0ebc-44ea-b6ec-aab1ed122bab",
   "runtime_run_id": "e9e82351-4308-832a-a159-fc1be14ba2b9",
-  "runtime_run_id_source": "Automations.peek.last_run.id scheduled_for=2026-11-10T10:00:00Z in_progress; latest_result belongs to previous run",
-  "source_head_initial": "59e6c015aa9daf2dc2832481fdc72077d9a377f1",
-  "source_head_receipt_precommit": "c799e774393958d9957cf28da46cadebf641b32c",
+  "runtime_run_id_source": "Automations.peek.last_run.id; recorded_status=in_progress",
+  "source_head_initial": "1b38acc83ebb113ed0024e0de6708e16c2088330",
+  "source_head_receipt_precommit": "e7bb0fd0d8de6ad84366f0480a45bbf9e0b4b416",
   "route_generation": 3,
   "preferred_executor_observed": "work",
-  "started_at": "2026-11-10T10:00:18.733601Z",
-  "lease_acquired_at": "2026-11-10T10:07:27.364Z",
-  "phase": "finished",
-  "status": "completed",
+  "started_at": "2026-11-10T10:27:49.000Z",
+  "lease_acquired_at": "2026-11-10T10:34:32.854Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan": {
     "complete": true,
-    "scope": "Read-only Topview connector: all 14 boards, all 19 video pages, My First Board 6 full video pages; no partial scans",
+    "scope": "Read-only Topview connector 14 boards/19 pages",
     "boards": 14,
     "pages": 19,
     "video_tasks": 670,
     "status_counts": {
       "success": 638,
       "fail": 26,
-      "init": 6
+      "init": 5,
+      "running": 1
     },
-    "checked_at": "2026-11-10T10:15:25.929Z",
+    "checked_at": "2026-11-10T10:33:20.540Z",
     "my_first_board_tasks": 503,
     "my_first_board_pages": 6
   },
@@ -33,7 +34,7 @@
     "occupied": 6,
     "free": 0,
     "scan_complete": true,
-    "verified_at": "2026-11-10T10:15:25.929Z"
+    "verified_at": "2026-11-10T10:33:20.540Z"
   },
   "selected_item": null,
   "task_ids": [
@@ -54,14 +55,13 @@
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:3acf6b90-d529-4333-8cd8-c2025b6859ed",
-    "acquired_at": "2026-11-10T10:07:27.364Z",
-    "expires_at": "2026-11-10T10:27:27.364Z",
-    "lease_commit": "c799e774393958d9957cf28da46cadebf641b32c",
-    "final_action": "release_atomically_with_final_receipt",
-    "released_at": "2026-11-10T10:15:25.929Z"
+    "holder": "chatgpt:ordinary:3a5871e4-0ebc-44ea-b6ec-aab1ed122bab",
+    "acquired_at": "2026-11-10T10:34:32.854Z",
+    "expires_at": "2026-11-10T10:54:32.854Z",
+    "lease_commit": "e7bb0fd0d8de6ad84366f0480a45bbf9e0b4b416",
+    "final_action": "pending"
   },
-  "outcome": "no_free_slot",
+  "outcome": null,
   "blocker": null,
   "retryable": false,
   "acceptance": {
@@ -74,52 +74,5 @@
     "production_submission_by_this_executor_verified": false,
     "new_task_id_verified": false
   },
-  "updated_at": "2026-11-10T10:15:25.929Z",
-  "source_head_final_precommit": "050941aea2aa719cb2a0098165b34cfcb89e57cd",
-  "queue_reconciliation": {
-    "queue_state_counts": {
-      "blocked_owner_decision": 1,
-      "submitted": 38,
-      "waiting_for_slot": 16,
-      "completed": 3,
-      "blocked_inputs": 3
-    },
-    "submitted_and_completed_count": 41,
-    "every_submitted_task_id_checked_in_full_scan": true,
-    "missing_submitted_task_ids": [],
-    "pending_transitional_states": [],
-    "readiness_queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
-    "readiness_task_map_sha256": "72095538a94480fa8c993a608fbaaa0aef87f9cba32d961cca91797e1526c1ea",
-    "independently_recomputed_sha256_match": true,
-    "readiness_checked_at": "2026-11-10T09:30:35.275893Z"
-  },
-  "s49b_pending_reconciliation": {
-    "topview_candidate_task_id": "3a09108c8c474a0989118806b4a69f91",
-    "candidate_status": "init",
-    "canonical_queue_state": "waiting_for_slot",
-    "canonical_task_id": null,
-    "model": "Seedance 2.0",
-    "duration_seconds": 15,
-    "actual_resolution": 720,
-    "aspect_ratio": "16:9",
-    "input_images": 6,
-    "topview_use_unlimited": true,
-    "canonical_original_image_sha_verified": false,
-    "action": "do_not_repeat_create_without_exact_original_input_verification"
-  },
-  "monitoring": {
-    "robot_checked_at": "2026-11-10T09:30:28Z",
-    "launcher_health": "capacity_full",
-    "owner_tasks_open_count": 1,
-    "owner_task_open_id": "self-heal-telemetry-stale-202611091849",
-    "relay_last_run_id": "8aec3d2d-621c-8320-9682-7683dd809b6a",
-    "relay_latest_result_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d",
-    "hh55_last_run_id": "850ad50d-1f14-8332-822e-a2cf7d3d3ab0",
-    "hh55_latest_result_run_id": "1658357b-2320-8333-98ac-459762c93799",
-    "ordinary_last_run_id": "e9e82351-4308-832a-a159-fc1be14ba2b9",
-    "ordinary_latest_result_run_id": "825b6b85-b31c-8331-bfc9-0762c49d1a75",
-    "note": "Current ordinary run in_progress at Automations.peek; preceding latest_result is previous run. Wake issue titles historic, not fresh capacity."
-  },
-  "checked_at": "2026-11-10T10:15:25.929Z",
-  "completed_at": "2026-11-10T10:15:25.929Z"
+  "updated_at": "2026-11-10T10:35:57.460Z"
 }
