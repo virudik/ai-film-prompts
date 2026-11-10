@@ -5238,7 +5238,7 @@
       "canonical_prompt_sha256": "c3f548b386097bbfd603c0321a7129eb93687c0994d35ab1762eeb18d9a2cc9d",
       "normalized_prompt_sha256": "c638f7b27d600df6482f1e18692b046242629be3b101ddc2e76029c9c22eb7fe",
       "priority": 0.02,
-      "state": "submitting",
+      "state": "submitted",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "selected_model": "Wan 3.0",
@@ -5248,7 +5248,7 @@
       "aspect_ratio": "16:9",
       "quantity": 1,
       "mode": "omni_reference",
-      "max_new_submissions": 1,
+      "max_new_submissions": 0,
       "max_credits": 0,
       "depends_on_submitted": [],
       "depends_on_completed": [],
@@ -5286,62 +5286,8 @@
           "canonical_role": "Молчаливый тост и маслёнка IG-11"
         }
       ],
-      "task_id": null,
-      "claim": {
-        "claim_id": "d2cf0ed4-4d01-4441-8b47-1108e926d813",
-        "claimed_at": "2026-11-10T01:29:49Z",
-        "claimed_by": "grok",
-        "execution_instance_id": "02539dce-846a-4afe-acfe-b639231bcb11",
-        "route_generation": 3,
-        "lease_holder": "grok:02539dce-846a-4afe-acfe-b639231bcb11",
-        "lease_acquired_at": "2026-11-10T01:29:49Z",
-        "source": "cursor_host standing command t413u-20261109",
-        "canonical_prompt_sha256": "c3f548b386097bbfd603c0321a7129eb93687c0994d35ab1762eeb18d9a2cc9d",
-        "normalized_prompt_sha256": "c638f7b27d600df6482f1e18692b046242629be3b101ddc2e76029c9c22eb7fe",
-        "preflight": {
-          "owner_authorized": true,
-          "prompt_match": true,
-          "input_sha_match": true,
-          "input_order_match": true,
-          "qc_passed": true,
-          "website_unlimited": true,
-          "credits_cost": 0,
-          "numeric_zero_displayed": false,
-          "unlimited_mode_selected": true,
-          "credits_cost_evidence": "selected_free_unlimited_current_form",
-          "ui_unlimited_label": "Безлимитный режим — бесплатно",
-          "paid_18_credit_mode_selected": false,
-          "paid_credit_mode_selected": false,
-          "quantity": 1,
-          "resolution": 720,
-          "aspect_ratio": "16:9"
-        },
-        "submission_intent_id": "d6b2d365-3bfc-4aaa-8787-066104378259",
-        "submission_intent_at": "2026-11-10T01:29:49Z",
-        "replay_forbidden": true,
-        "host_run": {
-          "namespace": "cursor_host",
-          "observation_source": "parent_shell_os_environ",
-          "field": "CURSOR_REQUEST_ID",
-          "value": "8f07e1f1-b925-43f2-acb7-cb178bac8370",
-          "conversation_field": "CURSOR_CONVERSATION_ID",
-          "conversation_id": "1c1bf697-3c93-4068-b457-e90efdd5ef8f",
-          "standing_command_id": "t413u-20261109"
-        },
-        "provider_run_key": "243c4b86e595c193cc2a5aa9883ca8f2fd83d3fd3f0ae9f1011c44a067534f61",
-        "owner_event_keys": [
-          "7ed2327a430ff5e0c49fb6a72f576bf9fbe919fbe897f3c6186e4333fb528155"
-        ],
-        "ledger_path": "ops/launcher-run-ledger.json",
-        "trigger": "owner_command",
-        "owner_command": {
-          "quote": "Говорю запускай значит запускай. Зачем спрашивать по 10 раз если есть уже согласованная очередь запуска",
-          "source": "cursor_host",
-          "at": "2026-11-09T09:25:00+01:00",
-          "standing_command_id": "t413u-20261109",
-          "standing_host_address": "t413u"
-        }
-      },
+      "task_id": "078f094bb1124c2ba7aa22d1ff0eb395",
+      "claim": null,
       "blocker": null,
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
@@ -5358,6 +5304,20 @@
         "chars": 6383,
         "bytes": 6415,
         "note": "Hard cut to the table. No @Image5. Seamlessness not required. Attempt not consumed."
+      },
+      "submitted_at": "2026-11-10T01:30:23Z",
+      "topview_status": "init",
+      "creditsCost": 0,
+      "useUnlimitMode": true,
+      "max_new_submissions_consumed": 1,
+      "receipt": "reports/topview-queue-2026-10-16/S65-WAN30-20261110T013023Z.json",
+      "last_claim": {
+        "claim_id": "d2cf0ed4-4d01-4441-8b47-1108e926d813",
+        "claimed_at": "2026-11-10T01:29:49Z",
+        "execution_instance_id": "02539dce-846a-4afe-acfe-b639231bcb11",
+        "submission_intent_id": "d6b2d365-3bfc-4aaa-8787-066104378259",
+        "archive_file": "reports/topview-queue-2026-10-16/S65-WAN30-20261110T013023Z.json",
+        "archive_sha256": "6211b0539a00d925c63703063426440d8f1eebf7b44ab6c37cf6cff8cb13ca4a"
       }
     },
     {

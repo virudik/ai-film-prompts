@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "grok:6c2e9a14-7b38-4f01-9d55-1a8e4c65b070",
   "task": "Record S65-WAN30 Create receipt",
   "acquired_at": "2026-11-10T01:33:35Z",
-  "expires_at": "2026-11-10T01:53:35Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-10T01:33:46Z",
   "rules": "ops/CANON-LOCK.md"
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-11-09T15:34:29Z",
+  "updated_at": "2026-11-10T01:33:46Z",
   "purpose": "Minimal Topview task state: active task IDs per Scene plus a bounded processed-task journal for deduplication. Detailed attempt/queue/ETA history is intentionally not persistent.",
   "authority": "Operational telemetry/dedup only. Google Drive video-prompts.md remains canonical for Scene IDs, editorial state and slow membership.",
   "rules": [
@@ -14,7 +14,11 @@
     "Topview slow capacity is 6 concurrent active task slots; each active task_id occupies one slot even when multiple tasks belong to the same Scene ID. Canonical slow_scenes remains unique by Scene ID.",
     "Owner-confirmed releases are stored as owner_released_task_ids. A released but still active Topview task stays in active_by_scene and the 6-slot public count until provider-terminal; do not re-add it to canonical slow."
   ],
-  "active_by_scene": {},
+  "active_by_scene": {
+    "65": [
+      "078f094bb1124c2ba7aa22d1ff0eb395"
+    ]
+  },
   "processed_tasks": [
     {
       "task_id": "6ef310d646ca4605b5b10c12752b6ab7",
