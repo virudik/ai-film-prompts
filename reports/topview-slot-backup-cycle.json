@@ -2,17 +2,17 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "802a2d0a-e21e-4fb4-b9d9-05ecf18bfa6b",
-  "runtime_run_id": "3f031a93-dd60-832d-aeb4-e1366c44a0f8",
-  "runtime_run_id_source": "Automations.peek last_run.id scheduled_for 2026-11-10T21:00:00Z, in_progress",
-  "source_head_initial": "03f1356fcea9a85d74926fd58691fbb6cd5c4cda",
-  "source_head_pre_lease": "2b6e1f628d0210c482c6fb5aa8d01996a636aaa1",
+  "execution_instance_id": "92aded6f-f044-4ace-914e-b1ebe2a0566e",
+  "runtime_run_id": "9a149701-ac30-8324-ae76-1d73882f2264",
+  "runtime_run_id_source": "Automations.peek last_run.id scheduled_for 2026-11-10T22:00:00Z, in_progress",
+  "source_head_initial": "9948c8b9d58c46a033f6bb0417b394e96ac93562",
+  "source_head_pre_lease": "e140fd017b6993c8f7e3b05a29c5aad610c244c1",
   "route_generation": 3,
   "preferred_executor_observed": "work",
-  "started_at": "2026-11-10T20:58:51.602291Z",
-  "lease_acquired_at": "2026-11-10T21:04:39.265Z",
-  "phase": "finished",
-  "status": "completed",
+  "started_at": "2026-11-10T22:35:52.185Z",
+  "lease_acquired_at": "2026-11-10T22:35:52.185Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan": {
     "complete": true,
     "scope": "Topview connector read-only 14 boards, 19 pages, all video tasks",
@@ -24,7 +24,7 @@
       "fail": 27,
       "init": 6
     },
-    "checked_at": "2026-11-10T21:10:18.449Z",
+    "checked_at": "2026-11-10T22:36:40.253Z",
     "checked_at_is_upper_bound": true,
     "main_board_pages": 6,
     "main_board_tasks": 505
@@ -61,14 +61,14 @@
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:802a2d0a-e21e-4fb4-b9d9-05ecf18bfa6b",
-    "acquired_at": "2026-11-10T21:04:39.265Z",
-    "expires_at": null,
-    "released_at": "2026-11-10T21:10:18.449Z",
-    "release_status": "released_atomically_with_receipt"
+    "holder": "chatgpt:ordinary:92aded6f-f044-4ace-914e-b1ebe2a0566e",
+    "acquired_at": "2026-11-10T22:35:52.185Z",
+    "expires_at": "2026-11-10T22:50:52.185Z",
+    "released_at": null,
+    "release_status": "held"
   },
-  "outcome": "no_free_slot",
-  "blocker": "no_free_global_slot; six actual init video tasks on My First Board; ambiguous S49B/music cannot be resubmitted",
+  "outcome": "in_progress_no_free_slot",
+  "blocker": "no_free_global_slot; six actual init video tasks on My First Board",
   "retryable": true,
   "acceptance": {
     "scheduled_runtime": true,
@@ -77,10 +77,10 @@
     "unlimited0_preflight": false,
     "new_task_verified": false,
     "full_scan": true,
-    "queue_sha_matched": true,
-    "task_map_sha_matched": true
+    "queue_sha_matched": null,
+    "task_map_sha_matched": null
   },
-  "updated_at": "2026-11-10T21:10:18.449Z",
+  "updated_at": "2026-11-10T22:36:40.253Z",
   "queue_reconciliation": {
     "registered_items": 41,
     "registered_task_ids_found": 41,
@@ -93,8 +93,6 @@
       "be627af0e9664db5b6ac2b62c34080a6",
       "8bdd6439dad94592979aba23c137b4a0",
       "0a495e5f77a041e6bcc8d67fb68230b3"
-    ],
-    "source_queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
-    "source_task_map_sha256": "63601bda34a4a9c14041d06f9f6eff7ea83aa0f2f1e3517145cc71a62946871f"
+    ]
   }
 }
