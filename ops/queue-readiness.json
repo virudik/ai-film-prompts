@@ -170,9 +170,9 @@
       "id": "S65-WAN30",
       "scene_id": 65,
       "part_label": "65",
-      "code": "waiting_result",
-      "ready": false,
-      "text": "Ждёт подтверждённый результат S70-WAN30",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
       "queue_state": "waiting_for_slot"
     },
     {
@@ -195,5 +195,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-09T23:03:22.957330Z"
+  "checked_at": "2026-11-10T00:09:27.657Z"
 }

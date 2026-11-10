@@ -37,7 +37,13 @@ def derive(root):
     items = q.get('items', [])
     byid = {i['id']: i for i in q.get('archived_items', []) + items}
     tasks = {t['task_id']: t.get('final_status', t.get('status')) for t in tm.get('processed_tasks', [])}
-    tasks.update({t['task_id']: t.get('status') for t in tv.get('active_tasks', [])})
+    # A delayed telemetry snapshot must not overwrite a terminal task-map result.
+    # Some active-task rows expose topview_status instead of status.
+    for active in tv.get('active_tasks', []):
+        tid = active.get('task_id')
+        status = active.get('status') or active.get('topview_status')
+        if tid and status and tasks.get(tid) not in ('success', 'fail', 'failed', 'cancelled'):
+            tasks[tid] = status
     for ids in tm.get('active_by_scene', {}).values():
         for tid in ids:
             tasks.setdefault(tid, 'running')

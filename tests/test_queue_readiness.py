@@ -16,6 +16,18 @@ class QueueReadinessTests(unittest.TestCase):
         for path,data in [('ops/topview-launch-queue.json',{'items':items}),('topview-task-map.json',{'processed_tasks':list(tasks)}),('topview-status.json',{})]:
             (self.root/path).write_text(json.dumps(data))
         return {r['id']:r for r in qr.derive(self.root)['items']}
+    def test_terminal_result_survives_stale_active_telemetry(self):
+        # A newer successful task result must win over the older robot running snapshot.
+        parent={'id':'P1','scene_id':70,'state':'submitted','task_id':'T','references':[]}
+        next_part={'id':'P2','scene_id':65,'state':'waiting_for_slot',
+                   'depends_on_completed':['P1'],'references':[]}
+        self.run_case([parent,next_part],[{'task_id':'T','final_status':'success'}])
+        (self.root/'topview-status.json').write_text(json.dumps({
+            'active_tasks':[{'task_id':'T','topview_status':'running'}]}))
+        rows={row['id']:row for row in qr.derive(self.root)['items']}
+        self.assertEqual(rows['P2']['code'],'ready')
+        self.assertTrue(rows['P2']['ready'])
+
     def test_parts_are_independent(self):
         rows=self.run_case([self.first,self.second]);self.assertTrue(rows['P1']['ready']);self.assertEqual(rows['P2']['code'],'waiting_result')
     def test_success_needs_trim_and_qc(self):
