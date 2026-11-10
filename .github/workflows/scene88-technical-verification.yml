@@ -1,0 +1,80 @@
+name: Scene 88 technical verification
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/scene88-technical-verification.yml]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: scene88-technical-verification
+  cancel-in-progress: false
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: Read-only snapshot, live file hashes and full tests
+        run: |
+          mkdir -p /tmp/scene88-verification
+          python3 - <<'PY'
+          import concurrent.futures, hashlib, io, json, os, subprocess, sys, time, unittest, urllib.request, zipfile
+          from datetime import datetime, timezone
+          from pathlib import Path
+          out=Path('/tmp/scene88-verification')
+          def now(): return datetime.now(timezone.utc).isoformat(timespec='seconds')
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          (out/'source-head.txt').write_text(head+'\n')
+          paths=subprocess.check_output(['git','ls-files','-z']).decode().split('\0')
+          with zipfile.ZipFile(out/'text-source.zip','w',zipfile.ZIP_DEFLATED) as z:
+              for name in paths:
+                  p=Path(name)
+                  if p.is_file() and (p.suffix.lower() in {'.py','.md','.json','.yml','.yaml','.txt','.html','.js','.css','.toml','.cfg','.ini'} or name in {'CNAME','SYNC-TRIGGER.txt'}):
+                      z.write(p,name)
+          report=json.loads(Path('reports/sasha-photographer-scene-88-2026-11-10.json').read_text())
+          manifest=json.loads(Path('references/scenes/scene-88/manifest.json').read_text())
+          base='https://xn--l1adcem8c.xn--d1aigvp.xn--p1ai/'
+          targets=[]
+          for a in report['assets']:
+              targets.extend([(a['path'],a['sha256'],'original'),(a['preview'],a['preview_sha256'],'preview')])
+          targets.append(('references/full/sasha.jpg',report['source_identity']['sha256'],'identity'))
+          for p in ['video-prompts.md','references/scenes/scene-88/manifest.json','parodies.html']:
+              targets.append((p,hashlib.sha256(Path(p).read_bytes()).hexdigest(),'published_text'))
+          def check(t):
+              p,expected,kind=t
+              row={'path':p,'kind':kind,'expected_sha256':expected,'canonical_sha256':hashlib.sha256(Path(p).read_bytes()).hexdigest(),'verified':False}
+              try:
+                  req=urllib.request.Request(base+p+'?verify='+str(time.time_ns()),headers={'Cache-Control':'no-cache','User-Agent':'AI-Film-owner-scene88-verification'})
+                  with urllib.request.urlopen(req,timeout=45) as r:
+                      data=r.read(12000001)
+                      row.update(http_status=r.status,content_type=r.headers.get('Content-Type'),bytes=len(data))
+                  assert len(data)<=12000000,'download size limit'
+                  digest=hashlib.sha256(data).hexdigest()
+                  row.update(actual_sha256=digest,verified=digest==expected==row['canonical_sha256'])
+              except Exception as e: row['error']=type(e).__name__+': '+str(e)
+              return row
+          with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool: rows=list(pool.map(check,targets))
+          live={'checked_at':now(),'source_head':head,'run_id':os.environ['GITHUB_RUN_ID'],'base_url':base,'results':rows,'all_verified':all(x['verified'] for x in rows),'originals_verified':sum(x['verified'] for x in rows if x['kind']=='original'),'previews_verified':sum(x['verified'] for x in rows if x['kind']=='preview'),'identity_verified':all(x['verified'] for x in rows if x['kind']=='identity')}
+          (out/'live-byte-verification.json').write_text(json.dumps(live,ensure_ascii=False,indent=2)+'\n')
+          print('LIVE',json.dumps({k:v for k,v in live.items() if k!='results'},ensure_ascii=False))
+          sys.path.insert(0,str(Path.cwd()/'scripts'))
+          suite=unittest.defaultTestLoader.discover('tests')
+          with (out/'full-tests.log').open('w') as log:
+              result=unittest.TextTestRunner(stream=log,verbosity=2).run(suite)
+          tests={'checked_at':now(),'source_head':head,'tests_run':result.testsRun,'failures':[{'test':t.id(),'traceback':trace} for t,trace in result.failures],'errors':[{'test':t.id(),'traceback':trace} for t,trace in result.errors],'skipped':[(t.id(),why) for t,why in result.skipped],'all_tests_passed':result.wasSuccessful()}
+          (out/'test-results.json').write_text(json.dumps(tests,ensure_ascii=False,indent=2)+'\n')
+          print('TESTS',json.dumps({'tests_run':result.testsRun,'failures':[t.id() for t,_ in result.failures],'errors':[t.id() for t,_ in result.errors]}))
+          for script,args in [('scripts/continue_preflight.py',['.','--work-id','SEREGIUS-SASHA-PHOTOGRAPHER-20261110']),('scripts/monitor_role.py',['.','--me','chatgpt'])]:
+              r=subprocess.run([sys.executable,script,*args],capture_output=True,text=True)
+              (out/(Path(script).stem+'.txt')).write_text(r.stdout+'\n'+r.stderr)
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: scene88-technical-diagnostics
+          path: /tmp/scene88-verification/
+          retention-days: 3
