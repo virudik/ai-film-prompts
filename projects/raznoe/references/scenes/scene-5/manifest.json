@@ -1,0 +1,67 @@
+{
+  "schema_version": 2,
+  "project_id": "raznoe",
+  "scene_id": 5,
+  "title": "HONOR X9e Pro — Москва, Дворовая машина Голдберга",
+  "production_state": "DRAFT",
+  "editorial_approval": false,
+  "video_launch_approval": false,
+  "contest_submitted": false,
+  "real_shoot_complete": false,
+  "references": [],
+  "technical_sources": [
+    {
+      "slot": "X-BACK",
+      "source_page": "https://www.honor.com/eurasia/phones/honor-x9e-pro/spec/",
+      "image_url": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-x9e-pro/honor-x9e-pro-purple-back.png",
+      "sha256": "14d398440bb9c38b3f383d36bfcbec39a7a892159a5783fbe22b929519ac1dd5",
+      "bytes": 185328,
+      "width": 255,
+      "height": 532,
+      "media_type": "image/png",
+      "kind": "official_source_not_generated",
+      "color": "Purple reference only; actual loan handset color not promised",
+      "drive_id": "19VmU-oOfN91PTR2QE5t4YZsRhEDbh3yf",
+      "drive_url": "https://drive.google.com/file/d/19VmU-oOfN91PTR2QE5t4YZsRhEDbh3yf/view",
+      "drive_readback_match": true
+    },
+    {
+      "slot": "X-FRONT",
+      "source_page": "https://www.honor.com/eurasia/phones/honor-x9e-pro/spec/",
+      "image_url": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-x9e-pro/honor-x9e-pro-purple-front.png",
+      "sha256": "8ddd755d7ef91b0b21e8940d620955dcd2473b4ad6f2c43f9e1225ee0a34e77f",
+      "bytes": 91357,
+      "width": 255,
+      "height": 532,
+      "media_type": "image/png",
+      "kind": "official_source_not_generated",
+      "color": "Purple reference only; actual loan handset color not promised",
+      "drive_id": "1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL",
+      "drive_url": "https://drive.google.com/file/d/1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL/view",
+      "drive_readback_match": true
+    }
+  ],
+  "official_sources_are_not_test_footage": true,
+  "approved_concept_record": {
+    "city": "Москва",
+    "concept": "Дворовая машина Голдберга",
+    "source": "https://docs.google.com/document/d/1XGoOGxapUSm8Kf_uDY7W4HoSkNsORTV3ezDhkdAVooc/edit",
+    "source_record_date": "2026-11-10",
+    "source_owner_message": "t529",
+    "organizer_technical_approval": false
+  },
+  "drive_folder": "https://drive.google.com/drive/folders/1h6Jfpznn_CME22IReM8VjLempjkQjgpm",
+  "required_actual_material": [
+    "received_test_phone",
+    "approved_rehearsed_physical_chain",
+    "real_uninterrupted_control_take",
+    "actual_after_test_checks"
+  ],
+  "optional_ai_preview": {
+    "prompts": 3,
+    "duration_s": 30,
+    "competition_entry": false,
+    "part_2_requires_actual_part_1_tail": true
+  },
+  "updated_at": "2026-11-10T22:11:45+00:00"
+}

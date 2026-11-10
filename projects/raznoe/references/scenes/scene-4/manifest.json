@@ -2,19 +2,13 @@
   "schema_version": 1,
   "project": "raznoe",
   "scene": 4,
-  "title": "HONOR",
-  "updated_at": "2026-11-06T05:00:00Z",
-  "status": "mood_frames_only",
+  "title": "HONOR Magic9 Pro Max",
+  "updated_at": "2026-11-10T22:11:45+00:00",
+  "status": "editorial_package_with_private_product_sources",
   "editorial_status": "not_approved",
   "aspect": "16:9",
   "production_ready": false,
-  "missing_slots": [
-    "H-FRONT",
-    "H-BACK",
-    "H-CAM",
-    "H-34",
-    "H-LOGO"
-  ],
+  "missing_slots": [],
   "references": [
     {
       "tag": "real",
@@ -54,5 +48,41 @@
   "edited_runtime_s_each": 120,
   "wan_clips_each": "4x30",
   "seedance_clips_each": "8x15",
-  "conditioning": "last 3s is input only, not subtracted"
+  "conditioning": "last 3s is input only, not subtracted",
+  "product_compositing": "projects/raznoe/references/scenes/scene-4/product-compositing.json",
+  "technical_source_slots": {
+    "H-BACK": {
+      "drive_id": "19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI",
+      "sha256": "75b1c1c633760037f46a382794c9253588bd0c14b9aeba23050782cbffadc04a",
+      "state": "private_source_available",
+      "role": "rear product pixel layer"
+    },
+    "H-FRONT": {
+      "drive_id": "1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg",
+      "sha256": "fab0823b46ec815dc616b958b8f9e33e2de57f4bbe2e7366a720b7f358dc019a",
+      "state": "private_source_available",
+      "role": "front-left perspective, not orthographic front",
+      "working_alias": "H-FRONT-ANGLE"
+    },
+    "H-CAM": {
+      "source_slot": "H-BACK",
+      "state": "source_region_available_crop_not_exported"
+    },
+    "H-34": {
+      "drive_id": "1pYRa-H6rsA5-1kncKAejE7JGkTAskAMN",
+      "state": "comparison_only",
+      "not_single_frame_input": true
+    },
+    "H-LOGO": {
+      "state": "not_supplied_not_required_for_plain_model_name"
+    }
+  },
+  "unresolved_deliverables": [
+    "commercial_source_rights",
+    "actual_video_clips_and_tails",
+    "product_composites",
+    "recorded_voice_and_sound",
+    "full_motion_audio_QC",
+    "owner_acceptance"
+  ]
 }

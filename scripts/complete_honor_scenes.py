@@ -157,6 +157,7 @@ def main():
  dump(OUT/'tests.json',tests);assert result.wasSuccessful() and result.testsRun>=538 and not result.skipped,tests
  assert all(sha(p)==v for p,v in protected.items()),'unrelated protected file changed';lease()
  report.update(checked_at=now(),validations=validations,tests=tests);report['files']={str(p):sha(p) for p in [master,R4/'manifest.json',R4/'production-package.md',R4/'product-compositing.json',R4/'production-voiceover.json',R5/'manifest.json',R5/'shooting-package.md',R5/'official-product-source-links.json']};dump(REPORT,report)
+ capture('.', 'RAZNOE-HONOR-X9EPRO-CONTEST-20261107',anchor,done,next5,[REPORT],[str(R5/'shooting-package.md'),str(R4/'production-package.md')],True,project='raznoe')
  run('resume-packet-final',['python3','scripts/build_resume_packet.py','.','--project','raznoe']);run('preflight-final',['python3','scripts/continue_preflight.py','.','--project','raznoe'])
  # Explicit stage list, never git add .
  paths=[str(master),str(R4/'manifest.json'),str(R4/'product-compositing.json'),str(R4/'production-voiceover.json'),str(R5/'manifest.json'),str(R5/'official-product-source-links.json'),REPORT,str(hand),str(ins),str(cp),str(rp),str(P/'project-status.json'),str(P/'shadow/resume-packet.md'),str(P/'shadow/resume-packet.json'),str(test)]

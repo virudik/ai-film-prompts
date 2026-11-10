@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "project": "raznoe",
+  "scope": [
+    4,
+    5
+  ],
+  "checked_at": "2026-11-10T22:12:22+00:00",
+  "source_head": "6b7f6b91243c0c79fade8dba9c610c1c86fa8227",
+  "workflow_run_id": "42912188021",
+  "source_master_sha256": "e42aaf6328def25616dd339f338fc4082be724cec5e0c5c0d9a46fdde9aad5e5",
+  "master_sha256": "a6c339c35208fcf0a93e81e568931c11c1b286aa4cb3e5b58b6ff54b0ee3c9b9",
+  "scene4": {
+    "prompt_count": 36,
+    "production_method": "background_generation_plus_exact_source_pixel_compositing",
+    "existing_official_source_images": 3,
+    "original_voice_lines_preserved": 15,
+    "proposed_voice_line_revisions": 4,
+    "new_generated_product_images": 0,
+    "final_videos": 0,
+    "rights_cleared": false,
+    "owner_approved": false
+  },
+  "scene5": {
+    "city": "Москва",
+    "concept": "Дворовая машина Голдберга",
+    "decision_source": "https://docs.google.com/document/d/1XGoOGxapUSm8Kf_uDY7W4HoSkNsORTV3ezDhkdAVooc/edit",
+    "official_source_images_with_drive_readback": 2,
+    "shooting_script_duration_s": 90,
+    "ai_preview_prompts": 3,
+    "contest_submitted": false,
+    "physical_test_done": false
+  },
+  "no_video_launches": true,
+  "credits_spent": 0,
+  "protected_files": {
+    "video-prompts.md": "fc060c599a25ad56cd77141f864834ec430b6b2af7b2676a26b86d458f08bc4c",
+    "review-ledger.json": "4a112ec9a41edd0c99784826ec4dd0435febcff3cdaa0f25da6442df3b7f3e1b",
+    "ops/topview-launch-queue.json": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+    "projects/raznoe/review-ledger.json": "9a4ed6a55a5a8829638567fe1570943ab99f0e5cd6315fed816e4de9519b666d",
+    "projects/raznoe/ops/topview-launch-queue.json": "1532ad13f700b0dbcdb3f1ff590ff5bd2e158f8204de4a32428080d1537adfb5",
+    "projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json": "ce03786033a1793635684b736e8346d9bc97f17609e1c4f6c9f4d8b9faecf301",
+    "projects/raznoe/references/scenes/scene-4/03-honor-drawn.png": "2279000421fef277e1e7555498009f983f7a47e6943e549c75111b2ddf3b3e1d",
+    "projects/raznoe/references/scenes/scene-4/01-honor-realism.png": "db0c1517d55c460eb78e698c7c4eddb5737fe3e0462d90d7c68502b629a5081e",
+    "projects/raznoe/references/scenes/scene-4/02-honor-3d.png": "b661000edd39577bf516c5c7a3567b21597b96108cffe4ddddeaf611d0e04c24",
+    "NEW-CHAT-HANDOFF.md": "58f30bdb728d23407db4bfa22d10a44aeea78a5b9ec050947d6c6ea2e844840e",
+    "SYNC-RUNBOOK.md": "ed3edff9823e89e4b89770ac55a9d4b9e7e1df34518222a2ee39b13bf942b18a",
+    "AI-PROJECT-GUIDE.md": "c62976f8c2561633e3d9612bcda6bad706ef85a9ad1a5295e2e6e6513b6efca6",
+    "PROMPT-STYLE-GUIDE.md": "2afe827fe839af546a0f7f4c1f36c57fcd976dd3f6fd8759ddf09ff265fa505d",
+    "USER-GUIDE.md": "b5cf8309fba1355fd1cd201e4bfe1abc88726b927d7c7f6d2bdb0c402f7cdc58",
+    "README-AI-SYNC.md": "e8d83475b63a94eeb24c6ac3ac4fd182de6bcb132258f191be2a7759ebf641d9",
+    "BACKUP-AI-RUNBOOK.md": "6b0a0ba95d23937c71d072fa96e278a6485a27391245834f32e05be9572812ac"
+  },
+  "scenes1_2_3_unchanged": true,
+  "editorial_preparation_done": true,
+  "full_task_complete": false,
+  "remaining": [
+    "Не повторять 36 промптов и загрузку существующих официальных источников. Выпуск Magic9 требует прав, разрешённого выбора сетки генерации, реальных клипов/стыков, композита, записи голоса, полного QC и приёмки. RESOURCE этим проходом не закрыт.",
+    "Не спрашивать заново город: Москва. Сохранённая идея — Дворовая машина Голдберга. Нужны отдельная команда отправки, принятие правил владельцем, согласование нагрузки/воды организатором, рабочая репетиция муляжом, получение аппарата и настоящая съёмка90с без музыки. ИИ не доказывает результат."
+  ],
+  "live_publication_verified": false,
+  "validations": [
+    {
+      "name": "project-status",
+      "exit_code": 0
+    },
+    {
+      "name": "resume-packet",
+      "exit_code": 0
+    },
+    {
+      "name": "preflight",
+      "exit_code": 0
+    },
+    {
+      "name": "site",
+      "exit_code": 0
+    },
+    {
+      "name": "instructions",
+      "exit_code": 0
+    },
+    {
+      "name": "projects",
+      "exit_code": 0
+    }
+  ],
+  "tests": {
+    "checked_at": "2026-11-10T22:12:22+00:00",
+    "tests_run": 538,
+    "failures": [],
+    "errors": [],
+    "skipped": [],
+    "all_tests_passed": true
+  },
+  "files": {
+    "projects/raznoe/video-prompts.md": "a6c339c35208fcf0a93e81e568931c11c1b286aa4cb3e5b58b6ff54b0ee3c9b9",
+    "projects/raznoe/references/scenes/scene-4/manifest.json": "710211706c94145bf5da289379a8ad9f79f1964313f25ad3d7d826edd616aceb",
+    "projects/raznoe/references/scenes/scene-4/production-package.md": "b13b8afc4664635cfc7ec90e5b81e7d954956378725eedeb095eb188b9029c8a",
+    "projects/raznoe/references/scenes/scene-4/product-compositing.json": "a054c19674682fab2e89147038cd2808bd37a7f6249fbebd44bd4a010e0b0780",
+    "projects/raznoe/references/scenes/scene-4/production-voiceover.json": "733f9305168fb52839cccd3bf8b5b2f0c545113f5523a3310bec30e2ff0102ca",
+    "projects/raznoe/references/scenes/scene-5/manifest.json": "b74d7825913cd5fe9626f68500254c7e158666abc33e7b49adda57233b40592b",
+    "projects/raznoe/references/scenes/scene-5/shooting-package.md": "a3c90bc8a7fa166b1e45617386e11619772d0186c757a0cf983104dfb63948c4",
+    "projects/raznoe/references/scenes/scene-5/official-product-source-links.json": "54c1d9b666311b46109662f0b5c6e1b3ccf4c18d28a926992cff5994eff97c6f"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "raznoe",
-  "last_updated_at": "2026-11-09T19:04:19Z",
+  "last_updated_at": "2026-11-10T22:12:22+00:00",
   "active_work": [
     {
       "work_id": "RAZNOE-SCENE3-RESOURCE",
@@ -188,7 +188,7 @@
         "2026-11-06T19:15:51.052Z: RESOURCE 4/4 PNG in GitHub, 9 v3 prompt/request pairs and active cut, master site published, 19×114 unchanged; HTML spacing fixed, workflows pending readback.",
         "2026-11-09T19:04:19Z: H-BACK/H-FRONT/H-34 официальные исходники повторно скачаны; 3/3 точных SHA совпали с приватными Drive-копиями. Это техническая проверка источников, не продуктовые PNG/права/приёмка. Доказательства: official-product-source-links.json и reports/resource-honor-sasha-2026-11-06.json; run 42679705455."
       ],
-      "next_action": "Продолжить с пригодного H-BACK по существующим приватным исходникам и исправленному заданию, проверить геометрию и сохранить до следующего кадра. Затем оставшиеся продуктовые роли; полный motion/audio/continuity QC RESOURCE. Не повторять mood PNG, тексты и учебные файлы Саше; не считать исходник приёмкой.",
+      "next_action": "Не повторять 36 промптов и загрузку существующих официальных источников. Выпуск Magic9 требует прав, разрешённого выбора сетки генерации, реальных клипов/стыков, композита, записи голоса, полного QC и приёмки. RESOURCE этим проходом не закрыт.",
       "canonical_refs": [
         "projects/raznoe/reports/resource-honor-sasha-2026-11-06.json",
         "projects/raznoe/video-prompts.md",
@@ -224,49 +224,41 @@
         ]
       },
       "latest_update": {
-        "checked_at": "2026-11-09T19:04:19Z",
-        "result": "3/3 official source image byte hashes match private Drive copies; accepted generated product PNG remains 0; RESOURCE motion/audio QC remains pending.",
+        "checked_at": "2026-11-10T22:11:45+00:00",
+        "result": "HONOR4: 36 фоновых промптов связаны с точными исходниками и картой продуктового композита; 15 исходных реплик сохранены, 4 редакционные замены отдельно. HONOR5: Москва/машина Голдберга перенесены из согласования t529; два источника X9e сохранены и проверены на Drive, сценарий90с и технические ограничения опубликованы. Это подготовка, не реальные видео/конкурсная отправка.",
         "evidence": [
-          "projects/raznoe/references/scenes/scene-4/official-product-source-links.json",
-          "projects/raznoe/reports/resource-honor-sasha-2026-11-06.json",
-          "projects/raznoe/reports/current-work-checkpoint.md"
+          "projects/raznoe/reports/honor-scenes-4-5-completion.json"
         ],
-        "next_action": "Create one H-BACK reference with exact product geometry using the built-in ChatGPT image generator; reject generic or inaccurate phone. Then remaining product views. Do not recreate existing prompts, mood PNGs, RESOURCE refs or nine v3."
+        "next_action": "Не повторять 36 промптов и загрузку существующих официальных источников. Выпуск Magic9 требует прав, разрешённого выбора сетки генерации, реальных клипов/стыков, композита, записи голоса, полного QC и приёмки. RESOURCE этим проходом не закрыт."
       }
     },
     {
       "work_id": "RAZNOE-HONOR-X9EPRO-CONTEST-20261107",
-      "status": "awaiting_real_location_and_owner_selection",
-      "next_action": "Подтвердить настоящий город/участие и конкретный безопасный тест; отправлять только согласованную заявку. После отбора и получения телефона нужна настоящая съёмка по правилам. Не повторять готовую конкурсную редактуру и не выдавать ИИ-кадры за реальный тест.",
+      "status": "preproduction_updated_waiting_submission_rehearsal_and_real_phone",
+      "next_action": "Не спрашивать заново город: Москва. Сохранённая идея — Дворовая машина Голдберга. Нужны отдельная команда отправки, принятие правил владельцем, согласование нагрузки/воды организатором, рабочая репетиция муляжом, получение аппарата и настоящая съёмка90с без музыки. ИИ не доказывает результат.",
       "last_verified_step": "Полные правила HONOR прочитаны через Google Docs: п.4.2 требует 60–120 секунд, п.4.3.3 запрещает музыку, п.4.3.6 ограничивает фон/права. Отчёт исправлен 96b3e19f. Следующий этап — только существующая сцена5, оглавление и статусы; сцены1–4, очередь, изображения, разрешения не менять. Генераций нет.",
-      "updated_at": "2026-11-08T16:20:45+00:00",
+      "updated_at": "2026-11-10T22:12:22+00:00",
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-08T16:20:45+00:00",
-        "last_completed": "Редактура существующей сцены 5 и полных правил опубликована: реальное 60–120 с, цель 90 с, 9:16, без музыки. ИИ-превиз отдельно; заявка не отправлена.",
-        "next_action": "Подтвердить настоящий город/участие и конкретный безопасный тест; отправлять только согласованную заявку. После отбора и получения телефона нужна настоящая съёмка по правилам. Не повторять готовую конкурсную редактуру и не выдавать ИИ-кадры за реальный тест.",
+        "verified_at": "2026-11-10T22:12:22+00:00",
+        "last_completed": "HONOR4: 36 фоновых промптов связаны с точными исходниками и картой продуктового композита; 15 исходных реплик сохранены, 4 редакционные замены отдельно. HONOR5: Москва/машина Голдберга перенесены из согласования t529; два источника X9e сохранены и проверены на Drive, сценарий90с и технические ограничения опубликованы. Это подготовка, не реальные видео/конкурсная отправка.",
+        "next_action": "Не спрашивать заново город: Москва. Сохранённая идея — Дворовая машина Голдберга. Нужны отдельная команда отправки, принятие правил владельцем, согласование нагрузки/воды организатором, рабочая репетиция муляжом, получение аппарата и настоящая съёмка90с без музыки. ИИ не доказывает результат.",
         "checkpoint": {
           "file": "projects/raznoe/reports/current-work-checkpoint.md",
-          "anchor": "# 08.11.2026 — передача чата: конкурс HONOR X9e Pro",
-          "sha256": "18445dec9130b3f2dd0aa40aaffddf9d820a0410d7892a8b649bdb1200742c26"
+          "anchor": "# HONOR 4–5 — доработка пакетов, Москва и точные продуктовые источники",
+          "sha256": "6a8d41aec8f2f815bc6025ef432a4b1f6c7e590f2e80e8de99f0faa22cdf4945"
         },
         "evidence": [
           {
-            "file": "projects/raznoe/reports/chat-handoff-save-2026-11-08.json",
-            "sha256": "a7dd5deda2cfdebf107da480c69f652e78498912628013f3270ae7edaa15ea57"
+            "file": "projects/raznoe/reports/honor-scenes-4-5-completion.json",
+            "sha256": "f6ab747f0bf9ca487a0278de9b219ba8ea5fef0777dfe211c655c4522ff18fcc"
           }
         ],
         "read_next": [
-          "ops/FUTURE-PLANS.md",
-          "projects/raznoe/reports/current-work-checkpoint.md",
-          "projects/raznoe/HANDOFF.md",
-          "projects/raznoe/reports/chat-handoff-save-2026-11-08.json"
+          "projects/raznoe/references/scenes/scene-5/shooting-package.md",
+          "projects/raznoe/references/scenes/scene-4/production-package.md"
         ],
-        "blockers": [
-          "Получить один пригодный продуктовый H-BACK по сохранённым исходникам и исправленному заданию; сравнить фактические пиксели, сохранить PNG/SHA/manifest и привязку в мастере до следующего кадра. Затем недостающие продуктовые ракурсы. Проверить условия использования и согласование озвучки.",
-          "Просмотреть существующие RESOURCE-попытки полностью: движение механики, звук, геометрия и монтажные стыки. Не считать статичный PNG доказательством качества видео.",
-          "Подтвердить настоящий город и участие владельца, согласовать конкретное безопасное испытание; подать согласованную заявку, после отбора и получения устройства снять реальный ролик по правилам. Личные документы не собирать в чате и не публиковать в GitHub."
-        ]
+        "blockers": []
       }
     }
   ],
@@ -274,7 +266,7 @@
   "resume_focus": {
     "work_id": "RAZNOE-HONOR-X9EPRO-CONTEST-20261107",
     "project": "raznoe",
-    "set_at": "2026-11-08T07:48:04+00:00",
+    "set_at": "2026-11-10T22:12:22+00:00",
     "reason": "Explicitly selected by the authorized task writer"
   }
 }

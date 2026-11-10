@@ -3527,7 +3527,7 @@ AVOID: crossfade, morph, slideshow, letterbox; dual throws; pseudo-logos.
 <a id="scene-4"></a>
 ## Сцена 4 — HONOR Magic9 Pro Max
 
-<!-- scene-meta: {"target_engine":"уточнить","production_state":"DRAFT","duration_s":120,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["owner_requested","draft","pitch","landscape_16x9","mood_refs_only","not_approved","raznoe_scene_4","three_films_120s"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":120,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["owner_requested","draft","pitch","landscape_16x9","not_approved","raznoe_scene_4","three_films_120s","exact_product_compositing","private_technical_sources","final_video_pending"]} -->
 
 **Контекст использования:** та же сцена 4. Теперь каждый из трёх вариантов — отдельный рекламный ролик на 120 секунд готового монтажа. Вместе это шесть минут предложений, не один фильм и не три новые сцены. Это не RESOURCE и не Роскосмос. Площадка не задана; старт — горизонталь 16:9. Тексты не сняты.
 
@@ -3543,29 +3543,29 @@ AVOID: crossfade, morph, slideshow, letterbox; dual throws; pseudo-logos.
 
 **Навигация по вариантам:** [3D · Скульптурная сцена](#honor-4-3d) · [реализм · Неоновый орбитал](#honor-4-real) · [рисовка · Штрих → мир](#honor-4-ink) · [конкурс X9e Pro, сцена 5](#scene-5).
 
-**Границы 10.11.2026.** Поручение «довести Хонор» записано в `projects/raznoe/reports/resource-honor-sasha-2026-11-06.json`, не в `references/GPT-TASK.md`. Продуктовый QC и приёмка открыты: канонических продуктовых PNG нет, три кадра ниже — только настроение и не одобрены. Выдуманный телефон вместо изделия не подставлять. Папка сверки «HONOR Magic9 Pro Max — исходники для сверки» перенесена внутрь [«Хонор»](https://drive.google.com/drive/folders/11ZlXyZwAVpcKymg8vM9qjziKrbop3wZA) / сцена 4; её id и ссылка те же: [исходники](https://drive.google.com/drive/folders/1u1lCAo2bRKL1qth5GU3FZC1eGx-GUksC). Это не разрешение на рекламу и не конкурс сцены 5. Видео не запускать.
+**Границы до доработки (история 10.11.2026).** Поручение «довести Хонор» записано в `projects/raznoe/reports/resource-honor-sasha-2026-11-06.json`, не в `references/GPT-TASK.md`. Продуктовый QC и приёмка открыты: канонических продуктовых PNG нет, три кадра ниже — только настроение и не одобрены. Выдуманный телефон вместо изделия не подставлять. Папка сверки «HONOR Magic9 Pro Max — исходники для сверки» перенесена внутрь [«Хонор»](https://drive.google.com/drive/folders/11ZlXyZwAVpcKymg8vM9qjziKrbop3wZA) / сцена 4; её id и ссылка те же: [исходники](https://drive.google.com/drive/folders/1u1lCAo2bRKL1qth5GU3FZC1eGx-GUksC). Это не разрешение на рекламу и не конкурс сцены 5. Видео не запускать.
 
 <div class="scene-ref-gallery"><figure><a href="projects/raznoe/references/scenes/scene-4/01-honor-realism.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-4/01-honor-realism.png" alt="01 · Неоновый орбитал · реализм · только настроение · не одобрено" loading="lazy"></a><figcaption>01 · Неоновый орбитал · реализм · только настроение · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-4/02-honor-3d.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-4/02-honor-3d.png" alt="02 · Скульптурная сцена · 3D · только настроение · не одобрено" loading="lazy"></a><figcaption>02 · Скульптурная сцена · 3D · только настроение · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-4/03-honor-drawn.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-4/03-honor-drawn.png" alt="03 · Штрих → мир · рисовка · только настроение · не одобрено" loading="lazy"></a><figcaption>03 · Штрих → мир · рисовка · только настроение · не одобрено</figcaption></figure></div>
 
-**Чего нет, без пустых ссылок:**
+<a id="honor-4-production"></a>
+### Доводка: точный продукт вместо пустого финала
 
-| Слот | Зачем | Состояние |
-|---|---|---|
-| H-FRONT | утверждённый фронт, замена прокси на финальном удержании каждого ролика | канонического PNG нет; приватный исходник не принят |
-| H-BACK | вид сзади | канонического PNG нет; есть только задание `H-BACK.image-prompt.txt`, картинка не принята |
-| H-CAM | блок камер выбранной модели, только если он у неё есть | канонического PNG нет, не выдумывать |
-| H-34 | три четверти | канонического PNG нет; приватный исходник не принят |
-| H-LOGO | логотип и шрифт только в монтаже | файла нет |
-| Кадры открытия, поворота и финала с изделием | отдельные рисунки планов двух минут | не заказывались |
+**Модель определена:** HONOR Magic9 Pro Max, Moss Green. Во всех 36 промптах разделены фоновая генерация и точный продуктовый слой. [Полная карта монтажа и проверки](projects/raznoe/references/scenes/scene-4/production-package.md) описывает все 24 участка трёх вариантов по 120 с.
 
-**Уточнить:** официальные права на фирменные изображения и логотип, аудитория, площадка, утверждение трёх 120-секундных вариантов и финального закадра. Пожелание показать ролик коммерческой стороне — не установленный факт о компании.
+**Технические исходники есть:** [H-BACK — сзади](https://drive.google.com/file/d/19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI/view), [H-FRONT-ANGLE — передний левый ракурс](https://drive.google.com/file/d/1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg/view), [H-34 — сравнение двух сторон](https://drive.google.com/file/d/1pYRa-H6rsA5-1kncKAejE7JGkTAskAMN/view). Это официальные PNG для приватной технической работы, не новые картинки генератора и не лицензия на рекламу. Публичных канонических продуктовых PNG нет; источники не копируются на открытый сайт. Старое задание `H-BACK.image-prompt.txt` сохранено, но неудачные перерисовки повторять не требуется.
+
+H-CAM — деталь из того же H-BACK, без выдуманных линз. H-FRONT используется под исходным углом, не как искусственный анфас. H-34 не является кадром одного телефона. H-LOGO не имитируется: название модели набирается отдельно в монтаже. [Слоты и точный метод](projects/raznoe/references/scenes/scene-4/product-compositing.json).
+
+Исходные 15 реплик сохранены дословно. [Активная редакционная карта](projects/raznoe/references/scenes/scene-4/production-voiceover.json) меняет четыре строки для именного финала. Это предложение автора, не утверждено; старый и новый финал одновременно не звучат.
+
+**Граница готовности:** тексты, источники и монтажный план подготовлены; MP4, настоящие стыки, продуктовые композиты, записанный голос и полный просмотр ещё не выполнены. DRAFT / not_approved остаётся. Очереди и разрешения запуска не изменены.
 
 <a id="honor-4-3d"></a>
 ### 3D · Скульптурная сцена
 
 **История на 120 с готового монтажа:** За две минуты разрозненные золото, жемчуг и стекло спорят, едва не закрывают середину и сами отступают, затем собирают сцену вокруг пустого центра. Желание направлено на место, которое готовят для вещи, а не на выдуманную функцию.
 
-**Кадр за кадром.** Восемь кусков по 15 с без дыр и нахлёстов. Сумма 120 с.
+**Кадр за кадром — фоновая пластина; конечный продуктовый слой по карте выше.** Восемь кусков по 15 с без дыр и нахлёстов. Сумма 120 с.
 
 | Время | Действие | Референс |
 |---|---|---|
@@ -3580,7 +3580,7 @@ AVOID: crossfade, morph, slideshow, letterbox; dual throws; pseudo-logos.
 
 Кадр настроения `projects/raznoe/references/scenes/scene-4/02-honor-3d.png` не является раскадровкой этих восьми планов. Отдельных кадров на открытие, поворот и финал с настоящим изделием нет: файлов не создавали и ссылок на них нет.
 
-**Закадр — предложение автора, не утверждено, не факт о товаре.** Между репликами тишина.
+**Исходный закадр для истории — предложение автора, не утверждено, не факт о товаре. Активные четыре замены — в production-voiceover.json.** Между репликами тишина.
 
 - [0:12–0:18] «Одна нить.»
 - [0:32–0:40] «Она ищет форму.»
@@ -3592,9 +3592,9 @@ AVOID: crossfade, morph, slideshow, letterbox; dual throws; pseudo-logos.
 
 **Стык и счёт.** Wan: 4 клипа × 30 с = 120 с. Seedance 2.0: 8 клипов × 15 с = 120 с. Последние 3 с предыдущего клипа — только вход @Video1. Их не прибавляют и не вычитают. Если модель повторит хвост внутри нового клипа, это дефект: вырезать фактический повтор, а не считать фильм заранее короче.
 
-**Монтаж:** слот H-FRONT ставится на финальное удержание. Логотип и титр — отдельным слоем. Пока файлов нет, в кадре остаётся пустой прокси.
+**Монтаж:** H-BACK и H-FRONT-ANGLE ставятся по product-compositing.json. Исходники доступны в приватной папке. Прокси допустим только на фоновой пластине, не в выпускном ролике. Финальные титры и реплики — по production-package.md и production-voiceover.json.
 
-**Статус:** DRAFT, not_approved. Не снято и не готово к производству без модели и слотов ниже.
+**Статус:** DRAFT, not_approved. Модель и технические источники закреплены; реальное видео, композит, права выпуска и приёмка остаются открыты.
 
 <div class="engine-tabs" data-scene="4">
 
@@ -3616,8 +3616,11 @@ Mood still «Скульптурная сцена» matches the assembled stage i
 STYLE LOCK:
 Premium 3D CGI, sculptural gold, pearl and glass. No photoreal city and no ink.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Black studio. One gold thread drifts across and leaves. No proxy yet.
@@ -3667,8 +3670,11 @@ Mood still «Скульптурная сцена» matches the assembled stage i
 STYLE LOCK:
 Premium 3D CGI, sculptural gold, pearl and glass. No photoreal city and no ink.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Cut forward from the end of the previous Wan clip. New action: Glass rises from below. A small blank matte rectangle fades in at the center.
@@ -3718,8 +3724,11 @@ Mood still «Скульптурная сцена» matches the assembled stage i
 STYLE LOCK:
 Premium 3D CGI, sculptural gold, pearl and glass. No photoreal city and no ink.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Cut forward from the end of the previous Wan clip. New action: Gold, pearl and glass stop competing and start building rings.
@@ -3769,8 +3778,11 @@ Mood still «Скульптурная сцена» matches the assembled stage i
 STYLE LOCK:
 Premium 3D CGI, sculptural gold, pearl and glass. No photoreal city and no ink.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Cut forward from the end of the previous Wan clip. New action: A quiet orbit. Reflections only. The face is still blank.
@@ -3823,8 +3835,11 @@ Mood still «Скульптурная сцена» matches the assembled stage i
 STYLE LOCK:
 Premium 3D CGI, sculptural gold, pearl and glass. No photoreal city and no ink.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Black studio. One gold thread drifts across and leaves. No proxy yet.
@@ -3873,8 +3888,11 @@ Mood still «Скульптурная сцена» matches the assembled stage i
 STYLE LOCK:
 Premium 3D CGI, sculptural gold, pearl and glass. No photoreal city and no ink.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Cut forward from the previous Seedance clip. New action: A pearl ribbon crosses the thread's path and misses. Both leave the frame.
@@ -3923,8 +3941,11 @@ Mood still «Скульптурная сцена» matches the assembled stage i
 STYLE LOCK:
 Premium 3D CGI, sculptural gold, pearl and glass. No photoreal city and no ink.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Cut forward from the previous Seedance clip. New action: Glass rises from below. A small blank matte rectangle fades in at the center.
@@ -3973,8 +3994,11 @@ Mood still «Скульптурная сцена» matches the assembled stage i
 STYLE LOCK:
 Premium 3D CGI, sculptural gold, pearl and glass. No photoreal city and no ink.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Cut forward from the previous Seedance clip. New action: Materials circle. Gold nearly seals the proxy face, then peels away by itself.
@@ -4023,8 +4047,11 @@ Mood still «Скульптурная сцена» matches the assembled stage i
 STYLE LOCK:
 Premium 3D CGI, sculptural gold, pearl and glass. No photoreal city and no ink.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Cut forward from the previous Seedance clip. New action: Gold, pearl and glass stop competing and start building rings.
@@ -4073,8 +4100,11 @@ Mood still «Скульптурная сцена» matches the assembled stage i
 STYLE LOCK:
 Premium 3D CGI, sculptural gold, pearl and glass. No photoreal city and no ink.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Cut forward from the previous Seedance clip. New action: Crescendo: the stage locks, light finds the empty center, the orbit speeds up and then calms.
@@ -4123,8 +4153,11 @@ Mood still «Скульптурная сцена» matches the assembled stage i
 STYLE LOCK:
 Premium 3D CGI, sculptural gold, pearl and glass. No photoreal city and no ink.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Cut forward from the previous Seedance clip. New action: A quiet orbit. Reflections only. The face is still blank.
@@ -4173,8 +4206,11 @@ Mood still «Скульптурная сцена» matches the assembled stage i
 STYLE LOCK:
 Premium 3D CGI, sculptural gold, pearl and glass. No photoreal city and no ink.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Cut forward from the previous Seedance clip. New action: Hold the empty center for a later product front. No end card and no logo.
@@ -4215,7 +4251,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 
 **История на 120 с готового монтажа:** За две минуты дождливый город проносится мимо одного человека. Он останавливается, и только тогда уличный свет срывается лентами и сходится в кольцо вокруг пустого места. Это пауза среди спешки, не демонстрация возможностей телефона.
 
-**Кадр за кадром.** Восемь кусков по 15 с без дыр и нахлёстов. Сумма 120 с.
+**Кадр за кадром — фоновая пластина; конечный продуктовый слой по карте выше.** Восемь кусков по 15 с без дыр и нахлёстов. Сумма 120 с.
 
 | Время | Действие | Референс |
 |---|---|---|
@@ -4230,7 +4266,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 
 Кадр настроения `projects/raznoe/references/scenes/scene-4/01-honor-realism.png` не является раскадровкой этих восьми планов. Отдельных кадров на открытие, поворот и финал с настоящим изделием нет: файлов не создавали и ссылок на них нет.
 
-**Закадр — предложение автора, не утверждено, не факт о товаре.** Между репликами тишина.
+**Исходный закадр для истории — предложение автора, не утверждено, не факт о товаре. Активные четыре замены — в production-voiceover.json.** Между репликами тишина.
 
 - [0:08–0:16] «Город не ждёт.»
 - [0:40–0:50] «Кто-то всё же останавливается.»
@@ -4242,9 +4278,9 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 
 **Стык и счёт.** Wan: 4 клипа × 30 с = 120 с. Seedance 2.0: 8 клипов × 15 с = 120 с. Последние 3 с предыдущего клипа — только вход @Video1. Их не прибавляют и не вычитают. Если модель повторит хвост внутри нового клипа, это дефект: вырезать фактический повтор, а не считать фильм заранее короче.
 
-**Монтаж:** слот H-FRONT ставится на финальное удержание. Логотип и титр — отдельным слоем. Пока файлов нет, в кадре остаётся пустой прокси.
+**Монтаж:** H-BACK и H-FRONT-ANGLE ставятся по product-compositing.json. Исходники доступны в приватной папке. Прокси допустим только на фоновой пластине, не в выпускном ролике. Финальные титры и реплики — по production-package.md и production-voiceover.json.
 
-**Статус:** DRAFT, not_approved. Не снято и не готово к производству без модели и слотов ниже.
+**Статус:** DRAFT, not_approved. Модель и технические источники закреплены; реальное видео, композит, права выпуска и приёмка остаются открыты.
 
 <div class="engine-tabs" data-scene="4">
 
@@ -4266,8 +4302,11 @@ Mood still «Неоновый орбитал» matches the orbit in the rainy st
 STYLE LOCK:
 Photoreal rainy night city plus light ribbons. No CGI sculpture and no ink drawing.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Rain, a puddle, one adult in a dark coat almost steps in. The city rushes. Signs are illegible.
@@ -4317,8 +4356,11 @@ Mood still «Неоновый орбитал» matches the orbit in the rainy st
 STYLE LOCK:
 Photoreal rainy night city plus light ribbons. No CGI sculpture and no ink drawing.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Cut forward from the end of the previous Wan clip. New action: They stop under an awning. The crowd keeps moving past.
@@ -4368,8 +4410,11 @@ Mood still «Неоновый орбитал» matches the orbit in the rainy st
 STYLE LOCK:
 Photoreal rainy night city plus light ribbons. No CGI sculpture and no ink drawing.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Cut forward from the end of the previous Wan clip. New action: Magenta and gold follow the pause, not a product function.
@@ -4419,8 +4464,11 @@ Mood still «Неоновый орбитал» matches the orbit in the rainy st
 STYLE LOCK:
 Photoreal rainy night city plus light ribbons. No CGI sculpture and no ink drawing.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Cut forward from the end of the previous Wan clip. New action: The person steps back. The orbit steadies. Rain softens.
@@ -4473,8 +4521,11 @@ Mood still «Неоновый орбитал» matches the orbit in the rainy st
 STYLE LOCK:
 Photoreal rainy night city plus light ribbons. No CGI sculpture and no ink drawing.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Rain, a puddle, one adult in a dark coat almost steps in. The city rushes. Signs are illegible.
@@ -4523,8 +4574,11 @@ Mood still «Неоновый орбитал» matches the orbit in the rainy st
 STYLE LOCK:
 Photoreal rainy night city plus light ribbons. No CGI sculpture and no ink drawing.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Cut forward from the previous Seedance clip. New action: They walk on. Neon smears in the water. Nobody looks into the lens.
@@ -4573,8 +4627,11 @@ Mood still «Неоновый орбитал» matches the orbit in the rainy st
 STYLE LOCK:
 Photoreal rainy night city plus light ribbons. No CGI sculpture and no ink drawing.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Cut forward from the previous Seedance clip. New action: They stop under an awning. The crowd keeps moving past.
@@ -4623,8 +4680,11 @@ Mood still «Неоновый орбитал» matches the orbit in the rainy st
 STYLE LOCK:
 Photoreal rainy night city plus light ribbons. No CGI sculpture and no ink drawing.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Cut forward from the previous Seedance clip. New action: One lamp flickers. A cyan ribbon peels off the light and hangs.
@@ -4673,8 +4733,11 @@ Mood still «Неоновый орбитал» matches the orbit in the rainy st
 STYLE LOCK:
 Photoreal rainy night city plus light ribbons. No CGI sculpture and no ink drawing.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Cut forward from the previous Seedance clip. New action: Magenta and gold follow the pause, not a product function.
@@ -4723,8 +4786,11 @@ Mood still «Неоновый орбитал» matches the orbit in the rainy st
 STYLE LOCK:
 Photoreal rainy night city plus light ribbons. No CGI sculpture and no ink drawing.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Cut forward from the previous Seedance clip. New action: The ribbons form an orbit. Inside it a blank dark rectangle appears.
@@ -4773,8 +4839,11 @@ Mood still «Неоновый орбитал» matches the orbit in the rainy st
 STYLE LOCK:
 Photoreal rainy night city plus light ribbons. No CGI sculpture and no ink drawing.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Cut forward from the previous Seedance clip. New action: The person steps back. The orbit steadies. Rain softens.
@@ -4823,8 +4892,11 @@ Mood still «Неоновый орбитал» matches the orbit in the rainy st
 STYLE LOCK:
 Photoreal rainy night city plus light ribbons. No CGI sculpture and no ink drawing.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Cut forward from the previous Seedance clip. New action: Hold the blank proxy. The city around it is ordinary again. The slot waits for a real front.
@@ -4865,7 +4937,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 
 **История на 120 с готового монтажа:** За две минуты на пустом листе штрих ошибается, начинается заново, становится тропинкой, крышами, фонарями и птицами и останавливается у золотой рамки. Весь фильм не обязан быть одним физическим мазком.
 
-**Кадр за кадром.** Восемь кусков по 15 с без дыр и нахлёстов. Сумма 120 с.
+**Кадр за кадром — фоновая пластина; конечный продуктовый слой по карте выше.** Восемь кусков по 15 с без дыр и нахлёстов. Сумма 120 с.
 
 | Время | Действие | Референс |
 |---|---|---|
@@ -4880,7 +4952,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 
 Кадр настроения `projects/raznoe/references/scenes/scene-4/03-honor-drawn.png` не является раскадровкой этих восьми планов. Отдельных кадров на открытие, поворот и финал с настоящим изделием нет: файлов не создавали и ссылок на них нет.
 
-**Закадр — предложение автора, не утверждено, не факт о товаре.** Между репликами тишина.
+**Исходный закадр для истории — предложение автора, не утверждено, не факт о товаре. Активные четыре замены — в production-voiceover.json.** Между репликами тишина.
 
 - [0:10–0:18] «Лист был пуст.»
 - [0:36–0:48] «Линия ошиблась и пошла снова.»
@@ -4892,9 +4964,9 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 
 **Стык и счёт.** Wan: 4 клипа × 30 с = 120 с. Seedance 2.0: 8 клипов × 15 с = 120 с. Последние 3 с предыдущего клипа — только вход @Video1. Их не прибавляют и не вычитают. Если модель повторит хвост внутри нового клипа, это дефект: вырезать фактический повтор, а не считать фильм заранее короче.
 
-**Монтаж:** слот H-FRONT ставится на финальное удержание. Логотип и титр — отдельным слоем. Пока файлов нет, в кадре остаётся пустой прокси.
+**Монтаж:** H-BACK и H-FRONT-ANGLE ставятся по product-compositing.json. Исходники доступны в приватной папке. Прокси допустим только на фоновой пластине, не в выпускном ролике. Финальные титры и реплики — по production-package.md и production-voiceover.json.
 
-**Статус:** DRAFT, not_approved. Не снято и не готово к производству без модели и слотов ниже.
+**Статус:** DRAFT, not_approved. Модель и технические источники закреплены; реальное видео, композит, права выпуска и приёмка остаются открыты.
 
 <div class="engine-tabs" data-scene="4">
 
@@ -4916,8 +4988,11 @@ Mood still «Штрих → мир» matches the blooming roofs and the gold out
 STYLE LOCK:
 Flat ink and paint on indigo paper. No photoreal skin and no 3D metal.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Blank indigo paper. A short ink mark appears and stops.
@@ -4967,8 +5042,11 @@ Mood still «Штрих → мир» matches the blooming roofs and the gold out
 STYLE LOCK:
 Flat ink and paint on indigo paper. No photoreal skin and no 3D metal.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Cut forward from the end of the previous Wan clip. New action: The strokes become a path.
@@ -5018,8 +5096,11 @@ Mood still «Штрих → мир» matches the blooming roofs and the gold out
 STYLE LOCK:
 Flat ink and paint on indigo paper. No photoreal skin and no 3D metal.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Cut forward from the end of the previous Wan clip. New action: Lanterns light. Birds arrive.
@@ -5069,8 +5150,11 @@ Mood still «Штрих → мир» matches the blooming roofs and the gold out
 STYLE LOCK:
 Flat ink and paint on indigo paper. No photoreal skin and no 3D metal.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Cut forward from the end of the previous Wan clip. New action: The world breathes: birds perch on the frame, flowers settle.
@@ -5123,8 +5207,11 @@ Mood still «Штрих → мир» matches the blooming roofs and the gold out
 STYLE LOCK:
 Flat ink and paint on indigo paper. No photoreal skin and no 3D metal.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Blank indigo paper. A short ink mark appears and stops.
@@ -5173,8 +5260,11 @@ Mood still «Штрих → мир» matches the blooming roofs and the gold out
 STYLE LOCK:
 Flat ink and paint on indigo paper. No photoreal skin and no 3D metal.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Cut forward from the previous Seedance clip. New action: The mark is wrong. A second stroke starts beside it. This is not one endless stroke.
@@ -5223,8 +5313,11 @@ Mood still «Штрих → мир» matches the blooming roofs and the gold out
 STYLE LOCK:
 Flat ink and paint on indigo paper. No photoreal skin and no 3D metal.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Cut forward from the previous Seedance clip. New action: The strokes become a path.
@@ -5273,8 +5366,11 @@ Mood still «Штрих → мир» matches the blooming roofs and the gold out
 STYLE LOCK:
 Flat ink and paint on indigo paper. No photoreal skin and no 3D metal.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Cut forward from the previous Seedance clip. New action: The path grows roofs.
@@ -5323,8 +5419,11 @@ Mood still «Штрих → мир» matches the blooming roofs and the gold out
 STYLE LOCK:
 Flat ink and paint on indigo paper. No photoreal skin and no 3D metal.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Cut forward from the previous Seedance clip. New action: Lanterns light. Birds arrive.
@@ -5373,8 +5472,11 @@ Mood still «Штрих → мир» matches the blooming roofs and the gold out
 STYLE LOCK:
 Flat ink and paint on indigo paper. No photoreal skin and no 3D metal.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Cut forward from the previous Seedance clip. New action: The drawing rushes toward a gold outline and stops at its edge.
@@ -5423,8 +5525,11 @@ Mood still «Штрих → мир» matches the blooming roofs and the gold out
 STYLE LOCK:
 Flat ink and paint on indigo paper. No photoreal skin and no 3D metal.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Cut forward from the previous Seedance clip. New action: The world breathes: birds perch on the frame, flowers settle.
@@ -5473,8 +5578,11 @@ Mood still «Штрих → мир» matches the blooming roofs and the gold out
 STYLE LOCK:
 Flat ink and paint on indigo paper. No photoreal skin and no 3D metal.
 
-PRODUCT / PROXY LOCK — CRITICAL:
-When the dark rectangle is in frame it is a generic featureless front-facing compositing proxy: matte, blank, no cameras, no notch, no buttons, no logo and no interface. It is not a selected phone and not a specification. Do not refine it into a device. Slot H-FRONT will replace it in editing and has no file yet. Brand name, slogan and logo are editing assets, never generated lettering. Light, metal and ink are metaphors, not evidence of a camera, battery, durability or any function. This clip is one piece of a 120-second edit, not a finished commercial and not a 120-second generation.
+PRODUCT / COMPOSITING LOCK — CRITICAL:
+This generation is a BACKGROUND PLATE, not the final product advertisement. The selected product is HONOR Magic9 Pro Max, Moss Green. When a rectangle is called for, keep a featureless matte tracking placeholder and clean separation from foreground ribbons. Do not generate handset details, lenses, lettering or a fictional phone.
+EDITOR SOURCES (not extra generator image slots): H-BACK is the exact 3000x3000 RGBA rear original, Drive file 19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI. H-FRONT-ANGLE is the exact 3000x3000 RGBA front-left original, Drive file 1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg. It is oblique, NOT an orthographic front. Source URLs and SHA256 are registered in projects/raznoe/references/scenes/scene-4/official-product-source-links.json. These are private technical sources, not cleared commercial artwork.
+FINAL COMPOSITE: remove the placeholder and place exact source product pixels in editing. Rear source for the reveal; straight editorial cut to the existing front-left perspective at film time 105s. No invented 360-degree rotation, hidden side, stretched phone, mirrored labels or doubled handset. Camera close-up comes only from the rear source. Final 105–120s product layer is stable and the last 5s remain readable. Brand title is a separate editing layer, not a counterfeit official vector. Rights clearance and editorial acceptance are still required.
+Gold, rain and ink are metaphors, not proof of durability, camera performance or battery life. No finished output may retain a placeholder or claim that an unmade composite is complete.
 
 START STATE:
 Cut forward from the previous Seedance clip. New action: Hold the empty gold outline. The inside stays blank.
@@ -5511,20 +5619,29 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 </div>
 
 <a id="scene-5"></a>
-## Сцена 5 — HONOR X9e Pro · «Город проверяет» (конкурс «Несокрушимый HONOR»)
+## Сцена 5 — HONOR X9e Pro · «Дворовая машина Голдберга» (конкурс «Несокрушимый HONOR»)
 
-<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":90,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","contest_pitch","honor_x9e_pro","vertical_9x16","real_local_footage_required","two_engine_versions","not_approved","raznoe_scene_5","real_footage_60_120s","music_prohibited","not_submitted"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":90,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["owner_requested","contest_pitch","honor_x9e_pro","vertical_9x16","real_local_footage_required","two_engine_versions","not_approved","raznoe_scene_5","real_footage_60_120s","music_prohibited","not_submitted","moscow_goldberg_owner_concept","physical_rehearsal_pending"]} -->
 
-**Состояние:** DRAFT / not_approved. Заявка не отправлена, телефон не получен, настоящая съёмка не выполнена. Реальный итоговый конкурсный ролик 60–120 с (цель 90 с), не 30 с. Публикация без подтверждённого города и согласования участия не выполняется. Сцена 4 Magic9 Pro Max и RESOURCE не изменены.
+**Состояние:** DRAFT / not_approved. Заявка не отправлена, телефон не получен, настоящая съёмка не выполнена. Реальный итоговый конкурсный ролик 60–120 с (цель 90 с), не 30 с. Город и идея — Москва / «Дворовая машина Голдберга» по сохранённому согласованию t529. Отправка и допуск организатора остаются отдельными действиями. Это отдельный конкурсный ролик, не реклама Magic9 и не RESOURCE.
 
-**Ждёт владельца.** Город в черновике так и остаётся [ГОРОД]. Конкретный тест и права участия не согласованы. Приём идей — до 16.11.2026, 12:00; заявку не отправлять из этого текста. Отдельной папки `scene-5` в репозитории нет: текст только здесь. Официальных фото HONOR X9e Pro нет и не добавлять — в конкурсе снимается настоящий полученный аппарат. П. 4.3.3 запрещает музыку только в конкурсном ролике; разрешение музыки в фильме «Серёгиус» это не отменяет. Пакет собран в папке [«Хонор»](https://drive.google.com/drive/folders/11ZlXyZwAVpcKymg8vM9qjziKrbop3wZA) (корень «Мой диск»): README, ссылка на правила без копии документа, план 90 с и черновик заявки, этот текст, sync JSON и подпапка сцены 4.
+<a id="honor-5-production"></a>
+### Согласованный замысел и рабочий пакет
+
+**Москва — «Дворовая машина Голдберга».** Источник: [согласованная заявка от 10.11.2026](https://docs.google.com/document/d/1XGoOGxapUSm8Kf_uDY7W4HoSkNsORTV3ezDhkdAVooc/edit). Одиночная горка ранее отклонена как скучная. Решение владельца не равно техническому допуску организатора. Заявка не отправлена: источник требует отдельной команды «отправляй».
+
+[Полный сценарий 90 с, заявка и лист проверки](projects/raznoe/references/scenes/scene-5/shooting-package.md) · [источники и SHA](projects/raznoe/references/scenes/scene-5/official-product-source-links.json) · [папка сцены5 в «Хонор»](https://drive.google.com/drive/folders/1h6Jfpznn_CME22IReM8VjLempjkQjgpm).
+
+**Технические виды:** [X-BACK](https://drive.google.com/file/d/19VmU-oOfN91PTR2QE5t4YZsRhEDbh3yf/view) и [X-FRONT](https://drive.google.com/file/d/1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL/view). Оригинальные 255×532 пикселя производителя без синтеза деталей. Это сверка формы, не кадры теста и не крупный рекламный план. Реальный цвет определяется выданным телефоном, не фиолетовым примером.
+
+**Физика не доказана:** песок сам не отправляет аппарат в жёлоб; траектория качелей и вся цепочка требуют репетиции муляжом и согласования. Непрерывный звонок под водой не обещается. Повреждение/нагрев — стоп, без воды и зарядки. Дождь, мороз, удачный результат и экран не подделывать. Реальное видео остаётся неснятым.
 
 **Навигация:** [правила](#honor-5-rules) · [идея](#honor-5-idea) · [план 90 с](#honor-5-plan) · [черновик ВК](#honor-5-vk) · [ИИ-превиз, не конкурс](#honor-5-preview) · [сцена 4 Magic9](#scene-4).
 
 <a id="honor-5-rules"></a>
 ### Источник и границы проверки
 
-07.11.2026 прочитан полный текст вкладки t.0 официального документа «ПРАВИЛА ПРОВЕДЕНИЯ КОНКУРСА "Несокрушимый HONOR"» через Google Docs, а не только его заголовок:
+Полный текст повторно перечитан при доработке; ранее 07.11.2026 прочитан полный текст вкладки t.0 официального документа «ПРАВИЛА ПРОВЕДЕНИЯ КОНКУРСА "Несокрушимый HONOR"» через Google Docs, а не только его заголовок:
 https://docs.google.com/document/d/1g0Fl1-5qeStudQuo9r2qF5G6c1AYKmPFps72Gx67ZbE/edit?tab=t.0
 
 Пост владельца: https://vk.ru/wall-102047696_2137582 . Формат **вертикаль 9:16** взят из переданного текста поста; требование **60–120 секунд** и запреты ниже — из полного документа. Прежняя запись «итоговое конкурсное видео — 30 секунд» была ошибочной. Редакционная цель теперь **90 секунд**, а существующие 30с / 2×15с генеративные блоки — только отдельная НЕ конкурсная превизуализация. ИИ-материал не подменяет реальное испытание.
@@ -5540,36 +5657,34 @@ https://docs.google.com/document/d/1g0Fl1-5qeStudQuo9r2qF5G6c1AYKmPFps72Gx67ZbE/
 - **Использование результата организаторами:** п. 4.3.2 предусматривает широкую безвозмездную неисключительную лицензию, включая переработку и сублицензирование. Это условие участия, а не согласие, данное от имени владельца этим отчётом. Личные документы, требуемые п. 5.4, передаёт сам участник только проверенному организатору, не в чат ИИ и не в публичный репозиторий.
 
 <a id="honor-5-idea"></a>
-### Исправленная идея — «Город проверяет. Один телефон, один честный дубль»
+### Идея — Москва, «Дворовая машина Голдберга»
 
-Город остаётся **[ГОРОД]**: владелец его для заявки не подтвердил. Особенность региона — реальный местный ветер, холод, влажный грунт или другое фактически присутствующее условие, а не выдуманная погода. Центр истории — один согласованный с организатором безопасный бытовой сценарий проверки ударопрочности. В одном непрерывном плане видны исходное состояние, сам эпизод и проверка устройства после него. Получившийся результат заранее не объявляется успешным.
-
-Не назначаем высоту/поверхность, температурные режимы или иные нагрузки по рекламным лозунгам. Конкретный тест и обращение с предоставленным аппаратом сначала согласуются с организатором и инструкцией устройства. Не используются огонь, кипяток, замораживание, удар инструментом, транспорт, высота, люди/животные в зоне падения или повреждение аккумулятора. При признаках повреждения/нагрева испытание прекращается. Это ограничения нашего постановочного плана, не цитата конкурсных правил.
+Согласованный замысел: горка на ледянке → качели → песочница → жёлоб → задуманный водный финиш. Это идея, не доказательство работающей механики или прочности телефона. Репетиция муляжом и разрешение организатора обязательны. Самовольно менять цепь на одиночную горку нельзя.
 
 <a id="honor-5-plan"></a>
-### Монтажный план реальной съёмки · 90 с · 9:16
+### Реальная съёмка · 90 с · 9:16
 
-| Время | Содержание | Проверка |
+| Время | Кадр | Проверка |
 |---|---|---|
-| 0–10 с | Автор на нейтральном фоне: настоящий город, местное условие и идея проверки | Нет запрещённой архитектуры, символики, случайных людей или чужих логотипов |
-| 10–25 с | Один полученный HONOR X9e Pro: внешний вид и исходная работа экрана/камеры | Подлинный аппарат, один экземпляр; не вставлять стоковый или ИИ-телефон |
-| 25–55 с | Один согласованный бытовой эпизод проверки ударопрочности в реальных местных условиях | Непрерывный план без подмены, скрытого повторного дубля и монтажа в точке воздействия; снимаем только разрешённый организатором вариант |
-| 55–75 с | Сразу в том же плане — корпус и экран; проверка камеры/своего записанного голоса | Показать фактическое состояние; дефект не ретушировать; не выводить сертификаты или численные обещания |
-| 75–90 с | Короткий честный вывод и ещё один общий вид того же устройства | Формулировка зависит от результата; музыка отсутствует, исходники сохранены |
+| 0–10 | Автор: Москва, цепь Голдберга, общий маршрут | Закрытая нейтральная площадка без детей, чужих лиц/логотипов |
+| 10–22 | Один телефон до теста: корпус, экран, камера, статус звонка | Настоящий аппарат; никаких ИИ-экранов и подмен |
+| 22–52 | Отрепетированная согласованная цепь одним контрольным дублем | Аппарат виден; без склейки в воздействии, скрытой помощи и выдуманных переходов |
+| 52–75 | Первая проверка в том же дубле | Только реальный результат; дефект или обрыв связи не скрывать |
+| 75–90 | Честный итог | «Это результат одного сегодняшнего испытания, а не обещание для любых условий» |
 
-Речь — собственная; не утверждать «неубиваемый» или «любые испытания выдержаны». Возможная финальная фраза после удачного результата: «Это результат именно нашего сегодняшнего теста, а не обещание для любых условий». При повреждении показать его и описать факт без заранее подготовленного рекламного финала.
+[Все реплики и требования сдачи](projects/raznoe/references/scenes/scene-5/shooting-package.md). Погода настоящая, музыки нет. Лабораторный рейтинг не является разрешением на цепь «удары, затем ледяная вода». После повреждения/нагрева — стоп, без воды/зарядки. Сухой запасной финал — предложение для согласования, а не незаметная замена выбранного замысла.
 
 <a id="honor-5-vk"></a>
-### Черновик комментария для ВК
+### Согласованный текст для ВК — НЕ отправлен
 
-> Город: [ГОРОД]. Идея — «Город проверяет: один телефон, один честный дубль». Покажу, как HONOR X9e Pro проходит согласованное бытовое испытание ударопрочности в наших реальных местных условиях: от осмотра до воздействия и проверки экрана, камеры и корпуса — без подмены устройства и без склейки в главном эпизоде. Особенность города передам погодой, фактурой места и своим рассказом, без запрещённых объектов и чужих брендов в кадре. Финал будет честным: покажу то, что получилось. Вертикальный ролик — около 90 секунд, без музыки.
+> Город: Москва. Идея — «Дворовая машина Голдберга»: HONOR X9e Pro в одиночку проходит всю детскую площадку цепочкой ударов. Съезжает с горки на ледянке, врезается в качели, они его подкидывают, он падает в песочницу, скатывается по жёлобу из водосточной трубы и финиширует в ведре ледяной воды. Всё — один непрерывный дубль, без склейки и подмены устройства, а телефон всё это время на видеозвонке. В финале достаю его и проверяю: экран, камера, корпус и не оборвалась ли связь. Ноябрьская Москва — какая будет погода, такая и будет. Без чужих брендов и случайных людей в кадре, вертикальное видео около 90 секунд без музыки.
 
-Перед отправкой вместо [ГОРОД] указать подтверждённый город и заменить общую формулировку теста конкретным согласованным сценарием. Не публиковать заявку автоматически и не соглашаться с правилами от имени владельца.
+Источник: [t529](https://docs.google.com/document/d/1XGoOGxapUSm8Kf_uDY7W4HoSkNsORTV3ezDhkdAVooc/edit). Перед отправкой отдельно согласовать выявленные механические и водные ограничения. Не публиковать автоматически и не выдавать правку за уже согласованную.
 
 <a id="honor-5-preview"></a>
 ### Отдельный ИИ-превиз, НЕ конкурсное видео
 
-Следующие ранее подготовленные 30 с / 2×15 с блоки сохраняются только как необязательное концептуальное изображение. Они не доказывают реальное испытание, не являются готовой конкурсной работой и не разрешены к запуску этой записью. Музыка запрещена в конкурсном результате (п. 4.3.3); настоящий телефон и подлинное воздействие не заменяются ИИ. Официальных фото X9e Pro в этих блоках нет.
+Следующие ранее подготовленные 30 с / 2×15 с блоки сохраняются только как необязательное концептуальное изображение. Они не доказывают реальное испытание, не являются готовой конкурсной работой и не разрешены к запуску этой записью. Музыка запрещена в конкурсном результате (п. 4.3.3); настоящий телефон и подлинное воздействие не заменяются ИИ. Официальные источники сохранены отдельно для технической сверки. В эти генеративные блоки они не подаются: муляж и схема площадки не подменяют конкурсный аппарат.
 
 <div class="engine-tabs" data-scene="5">
 
@@ -5584,10 +5699,10 @@ Mode: text-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FP
 Optimized for Wan 3.0 / Seedance 2.5 | ONE vertical conceptual storyboard only
 
 REFERENCES / IDENTITY:
-No official device or location image is supplied. The only human is an anonymous adult resident in a plain dark winter jacket with black gloves, filmed from back/shoulder; no recognizable face. In their hand is an entirely blank matte rectangular PROP with no camera island, no logo, no screen contents, no buttons, no product-specific geometry. This is a visual PLACEHOLDER, NOT the HONOR X9e Pro. Never replace it with a fictional branded phone. The place is a plausible GENERIC Russian town, not footage of a particular real city.
+No official device or location image is supplied. The only human is an anonymous adult resident in a plain dark winter jacket with black gloves, filmed from back/shoulder; no recognizable face. In their hand is an entirely blank matte rectangular PROP with no camera island, no logo, no screen contents, no buttons, no product-specific geometry. This is a visual PLACEHOLDER, NOT the HONOR X9e Pro. Never replace it with a fictional branded phone. Moscow is the planned real city; this generic closed set contains no identifiable architecture and is not documentary Moscow footage.
 
 STORY / CAMERA:
-Create a lively, cinematic vertical 9:16 shot sequence visualizing the four beats of a future real-life city test. 0–5s: dawn above an ordinary street in cool windy light; camera lowers to follow the same adult entering frame. 5–14s: moving behind their shoulder along wet cobbles, cold air, natural light rain, the blank prop protected in hand; steady handheld camera, honest physical contact. 14–23s: track beside the same person safely walking around shallow puddles and uneven pavement; brief close-up of the prop, no impact and no immersion. 23–30s: still, clear final composition: adult stops at an neutral unbranded outdoor clearing without buildings or monuments and raises the blank prop for a photo-like framing; no actual photo, no claim of success, leave negative space for titles added later.
+0–8s: anonymous adult holds a blank dummy in the right gloved hand beside a closed empty rehearsal set. 8–20s: lateral survey reveals the planned slide exit, stationary swing, sand tray and gutter in order. The dummy stays held; no mechanism is activated. 20–30s: return to the adult and a neutral inspection surface. This is set planning, not proof of a working chain or device durability. No impacts, immersion or call UI.
 
 PERFORMANCE:
 A real human pace and weather response; not a video-game character. The prop keeps consistent size, color, position and ownership from start to finish.
@@ -5618,16 +5733,16 @@ Mode: text-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FP
 Optimized for Seedance 2.0 | Concept preview, part 1 of 2, story time 0:00–0:15
 
 REFERENCES / IDENTITY:
-No supplied files. One anonymous adult in a plain dark winter jacket and black gloves, filmed from behind, unidentifiable face. Their one blank dark matte rectangular hand prop has no branding, no camera island, no UI and no exact phone features. It is not an HONOR product or proof of durability. One continuous generic city environment in cool natural weather.
+No supplied files. One anonymous adult in a plain dark winter jacket and black gloves, filmed from behind, unidentifiable face. Their one blank dark matte rectangular hand prop has no branding, no camera island, no UI and no exact phone features. It is not an HONOR product or proof of durability. One continuous closed unbranded rehearsal set in natural overcast weather.
 
 START STATE:
-Before sunrise over damp street paving. The adult is beginning a morning walk with the blank prop in the right gloved hand, still near their coat.
+Anonymous adult holds the blank dummy near the closed set; dark jacket, black gloves, no identifiable face.
 
 STORY FLOW:
-Track from a very brief view of an anonymous street into a moving shoulder-level follow shot. The person turns into cool wind, checks the same blank prop, and walks by shallow naturally wet paving while a light rain begins. Allow authentic walking rhythm and handheld camera life. No impacts, no deliberate drops, no water immersion.
+One portrait tracking shot surveys the closed rehearsal set. The same anonymous adult holds a blank dummy in the right gloved hand. Reveal the slide exit and stationary swing; begin a lateral move toward the sand tray and gutter. No launching, impact or actuation. The real concept is a Moscow Goldberg chain; this illustration does not prove feasibility.
 
 END STATE:
-The adult continues forward, right hand still holding the intact blank prop close to the chest; the wet pavement and street direction are readable. Last 3 seconds suitable for the genuine next-video conditioning input.
+Camera begins passing the stationary sand tray toward the gutter. Adult still holds the dummy; readable last three seconds for handoff.
 
 CAMERA / LIGHT:
 Live-action portrait frame; natural overcast blues and reflected city highlights, one motivated camera move. Stable appearance and direction.
@@ -5648,16 +5763,16 @@ Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16
 Optimized for Seedance 2.0 | Concept preview, part 2 of 2, NEW story time 0:15–0:30
 
 REFERENCES / PRIORITY:
-@Video1 = exact last 3 seconds of genuine finished part 1, a continuity conditioning input, not repeated output. Preserve the same anonymous adult in a plain dark winter jacket and black gloves, the same blank matte rectangle in RIGHT hand, and the same generic wet city walkway direction. No official product reference exists. The prop is not HONOR and is not a product test.
+@Video1 = exact last 3 seconds of genuine finished part 1, a continuity conditioning input, not repeated output. Preserve the same anonymous adult in a plain dark winter jacket and black gloves, the same blank matte rectangle in RIGHT hand, and the same closed rehearsal set and lateral camera direction. Official product source images are kept separately for technical review, not used to fake a real test. The prop is not HONOR and is not a product test.
 
 START STATE:
-Continue immediately after part 1, adult moving forward along the same wet cobblestones, holding the blank rectangle at chest height. The previous 3 seconds are input context, not output to repeat.
+Continue actual last three seconds of part 1 beside the stationary sand tray and gutter. Dummy in the right gloved hand; no repeated action.
 
 STORY FLOW:
-The camera tracks safely alongside the adult walking around ordinary shallow puddles and uneven paving. No falling, immersion or abrupt teleport. They reach a neutral unbranded outdoor clearing, stop, and gently raise the blank prop as if preparing to photograph the view. Keep the live-action documentary quality.
+Continue the actual part-1 lateral camera move past the stationary sand tray and gutter to a neutral inspection surface. The same adult still holds the same dummy in the right hand. End on a steady layout view. No chain reaction, impact, immersion, generated product UI or claimed successful test.
 
 END STATE:
-A readable steady vertical over-shoulder composition with a dark unbranded placeholder in the right gloved hand, generic soft-focus ground and vegetation behind; no generated screen/photo or text. Last seconds settle for a simple editorial cut to future REAL product footage.
+Steady portrait view of the adult holding the dummy above a neutral inspection surface; no test result claimed.
 
 CAMERA / AUDIO:
 Vertical 9:16, continuous movement, overcast natural light, image only. No dialogue, native audio, subtitles, graphics, fake logo, real-looking city identity or fabricated technical result.

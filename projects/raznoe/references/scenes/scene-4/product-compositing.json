@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "project": "raznoe",
+  "scene_id": 4,
+  "product": "HONOR Magic9 Pro Max",
+  "color": "Moss Green",
+  "method": "background_generation_plus_exact_source_pixel_compositing",
+  "updated_at": "2026-11-10T22:11:45+00:00",
+  "films": 3,
+  "seconds_per_film": 120,
+  "generation_prompts": 36,
+  "slots": {
+    "H-BACK": {
+      "drive_id": "19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI",
+      "sha256": "75b1c1c633760037f46a382794c9253588bd0c14b9aeba23050782cbffadc04a",
+      "state": "private_source_available",
+      "role": "rear product pixel layer"
+    },
+    "H-FRONT": {
+      "drive_id": "1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg",
+      "sha256": "fab0823b46ec815dc616b958b8f9e33e2de57f4bbe2e7366a720b7f358dc019a",
+      "state": "private_source_available",
+      "role": "front-left perspective, not orthographic front",
+      "working_alias": "H-FRONT-ANGLE"
+    },
+    "H-CAM": {
+      "source_slot": "H-BACK",
+      "state": "source_region_available_crop_not_exported"
+    },
+    "H-34": {
+      "drive_id": "1pYRa-H6rsA5-1kncKAejE7JGkTAskAMN",
+      "state": "comparison_only",
+      "not_single_frame_input": true
+    },
+    "H-LOGO": {
+      "state": "not_supplied_not_required_for_plain_model_name"
+    }
+  },
+  "composite_timeline": {
+    "3d": [
+      {
+        "start": 30,
+        "end": 90,
+        "source": "H-BACK"
+      },
+      {
+        "start": 90,
+        "end": 105,
+        "source": "H-CAM"
+      },
+      {
+        "start": 105,
+        "end": 120,
+        "source": "H-FRONT-ANGLE"
+      }
+    ],
+    "realism": [
+      {
+        "start": 75,
+        "end": 105,
+        "source": "H-BACK"
+      },
+      {
+        "start": 105,
+        "end": 120,
+        "source": "H-FRONT-ANGLE"
+      }
+    ],
+    "drawn": [
+      {
+        "start": 90,
+        "end": 105,
+        "source": "H-BACK"
+      },
+      {
+        "start": 105,
+        "end": 120,
+        "source": "H-FRONT-ANGLE"
+      }
+    ]
+  },
+  "rights_cleared": false,
+  "final_composites_created": false,
+  "video_created": false,
+  "editorial_approval": false,
+  "paid_actions_allowed": false
+}

@@ -6,7 +6,6 @@
   "checked_at": "2026-11-10T21:56:10+00:00",
   "source_discovery_run": "42908666731",
   "download_run": "42909726320",
-  "drive_readback_verified_at": "2026-11-10T22:00:00+00:00",
   "source_type": "Official source pixels, not generated images and not footage of the loan handset",
   "drive_folder": "https://drive.google.com/drive/folders/1h6Jfpznn_CME22IReM8VjLempjkQjgpm",
   "canonical_product_png": false,
@@ -46,5 +45,6 @@
     }
   ],
   "no_submission": true,
-  "no_scene_approval": true
+  "no_scene_approval": true,
+  "drive_readback_verified_on": "2026-11-10"
 }

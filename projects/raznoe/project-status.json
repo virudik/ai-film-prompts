@@ -3,12 +3,12 @@
   "source_of_truth": "GitHub main/projects/raznoe/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-10T22:02:29Z",
-  "revision_date": "10.11.2026",
+  "synced_at": "2026-11-10T22:11:45Z",
+  "revision_date": "11.11.2026",
   "master_declared_last_full_sync": "10.11.2026 · сцены 4–5 HONOR: меню, якоря и статусы сверены; канонических продуктовых PNG нет; заявка конкурса не отправлена; видео не запускалось. Сцена 3 RESOURCE без изменений: native-нарезка 19 клипов / 114 с; исходные вкладки 2 × 15 с сохранены; шесть попыток v1 в папке Саши не приняты.",
-  "canonical_master_sha256": "e42aaf6328def25616dd339f338fc4082be724cec5e0c5c0d9a46fdde9aad5e5",
-  "canonical_revision_sha256": "b7d217fd89229a6dd1ab30fa07e533cf91f0bd8c192bdffe4bd5cd2996ca161d",
-  "canonical_master_bytes": 639033,
+  "canonical_master_sha256": "a6c339c35208fcf0a93e81e568931c11c1b286aa4cb3e5b58b6ff54b0ee3c9b9",
+  "canonical_revision_sha256": "a9ccfc31c1aa5509d59c919449783ecd8cdf780aeabc45657f11a5a8766d44bc",
+  "canonical_master_bytes": 676209,
   "scenes": 5,
   "prompt_texts": 68,
   "work_items": [],
@@ -30,7 +30,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 5.926,
+    "age_hours_at_status_build": 6.08,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -108,7 +108,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 5.926,
+      "age_hours": 6.08,
       "blocking": false
     },
     "topview_task_map": {
@@ -187,7 +187,7 @@
       "render_state": "IDLE"
     },
     "4": {
-      "target_engine": "уточнить",
+      "target_engine": "Wan 3.0",
       "production_state": "DRAFT",
       "duration_s": 120,
       "dialogue": {
@@ -200,10 +200,12 @@
         "draft",
         "pitch",
         "landscape_16x9",
-        "mood_refs_only",
         "not_approved",
         "raznoe_scene_4",
-        "three_films_120s"
+        "three_films_120s",
+        "exact_product_compositing",
+        "private_technical_sources",
+        "final_video_pending"
       ],
       "render_state": "IDLE"
     },
@@ -212,8 +214,8 @@
       "production_state": "DRAFT",
       "duration_s": 90,
       "dialogue": {
-        "enabled": false,
-        "language": null
+        "enabled": true,
+        "language": "ru"
       },
       "dependencies": [],
       "tags": [
@@ -227,16 +229,18 @@
         "raznoe_scene_5",
         "real_footage_60_120s",
         "music_prohibited",
-        "not_submitted"
+        "not_submitted",
+        "moscow_goldberg_owner_concept",
+        "physical_rehearsal_pending"
       ],
       "render_state": "IDLE"
     }
   },
   "audit_fingerprint": {
-    "revision_date": "10.11.2026",
-    "synced_at": "2026-11-10T22:02:29Z",
-    "canonical_master_sha256": "e42aaf6328def25616dd339f338fc4082be724cec5e0c5c0d9a46fdde9aad5e5",
-    "canonical_revision_sha256": "b7d217fd89229a6dd1ab30fa07e533cf91f0bd8c192bdffe4bd5cd2996ca161d",
+    "revision_date": "11.11.2026",
+    "synced_at": "2026-11-10T22:11:45Z",
+    "canonical_master_sha256": "a6c339c35208fcf0a93e81e568931c11c1b286aa4cb3e5b58b6ff54b0ee3c9b9",
+    "canonical_revision_sha256": "a9ccfc31c1aa5509d59c919449783ecd8cdf780aeabc45657f11a5a8766d44bc",
     "scene_count": 5,
     "prompt_count": 68,
     "scene_ids": [
