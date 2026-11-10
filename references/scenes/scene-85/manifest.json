@@ -54,26 +54,150 @@
       "primary_still": true,
       "active_prompt_input": true,
       "video_launch_approval": false
+    },
+    {
+      "path": "references/scenes/scene-85/S85A-gravity-announce.jpg",
+      "asset_id": "references/scenes/scene-85/S85A-gravity-announce.jpg",
+      "caption": "85A — «гравитация выкл.»",
+      "role": "scene_staging",
+      "sha256": "44b096c5d128ab0bff2dcf1e6fa26ce5087cc78f7c48cbb303f0d98c85ba2bbd",
+      "bytes": 237709,
+      "width": 1280,
+      "height": 720,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "owner_approved_t550u",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-85/previews/S85A-gravity-announce.webp",
+      "primary_still": false,
+      "active_prompt_input": true,
+      "video_launch_approval": false,
+      "clip": "85A"
+    },
+    {
+      "path": "references/scenes/scene-85/S85B-slippers-question.jpg",
+      "asset_id": "references/scenes/scene-85/S85B-slippers-question.jpg",
+      "caption": "85B — вопрос про тапочки",
+      "role": "scene_staging",
+      "sha256": "b1799d7b6f436bf8c8ef4d8494bae42855639adb51ae2c7b26526cadd1b81049",
+      "bytes": 216213,
+      "width": 1280,
+      "height": 720,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "owner_approved_t550u",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-85/previews/S85B-slippers-question.webp",
+      "primary_still": false,
+      "active_prompt_input": true,
+      "video_launch_approval": false,
+      "clip": "85B"
+    },
+    {
+      "path": "references/scenes/scene-85/S85C-hook-diagram.jpg",
+      "asset_id": "references/scenes/scene-85/S85C-hook-diagram.jpg",
+      "caption": "85C — схема с крючком",
+      "role": "scene_staging",
+      "sha256": "7383fbac2e21e5aba0d595bb56dbc020ffc410820218268693b09d63ffcffbf4",
+      "bytes": 253460,
+      "width": 1280,
+      "height": 720,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "owner_approved_t550u",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-85/previews/S85C-hook-diagram.webp",
+      "primary_still": false,
+      "active_prompt_input": true,
+      "video_launch_approval": false,
+      "clip": "85C"
     }
   ],
   "approved": [],
   "rejected": [],
-  "updated_at": "2026-11-10T02:21:42+00:00",
+  "updated_at": "2026-11-10T11:50:00+00:00",
   "publication": "t506u 2026-11-10; stills and prompts published, video not launched",
   "clips": [
     {
-      "id": "85",
-      "heading": "85 · Срочные новости: Саша и Маша Ф — черновик (DRAFT)",
+      "id": "85A",
+      "heading": "85A · Плановое отключение гравитации — черновик (DRAFT)",
       "stills": [
-        "references/scenes/scene-85/S85-swap-sasha-masha-f.jpg"
+        "references/scenes/scene-85/S85-swap-sasha-masha-f.jpg",
+        "references/scenes/scene-85/S85A-gravity-announce.jpg"
       ],
       "prompt_reference_mapping": {
         "@Image1": "references/full/sasha.jpg",
         "@Image2": "references/full/masha-f.jpg",
-        "@Image3": "references/scenes/scene-85/S85-swap-sasha-masha-f.jpg"
+        "@Image3": "references/scenes/scene-85/S85-swap-sasha-masha-f.jpg",
+        "@Image4": "references/scenes/scene-85/S85A-gravity-announce.jpg"
+      }
+    },
+    {
+      "id": "85B",
+      "heading": "85B · Куда привязывать тапочки — черновик (DRAFT)",
+      "stills": [
+        "references/scenes/scene-85/S85-swap-sasha-masha-f.jpg",
+        "references/scenes/scene-85/S85B-slippers-question.jpg"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/sasha.jpg",
+        "@Image2": "references/full/masha-f.jpg",
+        "@Image3": "references/scenes/scene-85/S85-swap-sasha-masha-f.jpg",
+        "@Image4": "references/scenes/scene-85/S85B-slippers-question.jpg"
+      }
+    },
+    {
+      "id": "85C",
+      "heading": "85C · Пончик на схеме — это крючок — черновик (DRAFT)",
+      "stills": [
+        "references/scenes/scene-85/S85-swap-sasha-masha-f.jpg",
+        "references/scenes/scene-85/S85C-hook-diagram.jpg"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/sasha.jpg",
+        "@Image2": "references/full/masha-f.jpg",
+        "@Image3": "references/scenes/scene-85/S85-swap-sasha-masha-f.jpg",
+        "@Image4": "references/scenes/scene-85/S85C-hook-diagram.jpg"
       }
     }
   ],
   "additional_references_pending": [],
-  "photo_gallery_page": "parodies.html#scene-85"
+  "photo_gallery_page": "parodies.html#scene-85",
+  "t540u_slots_filled": [
+    {
+      "file": "references/scenes/scene-85/S85A-gravity-announce.jpg",
+      "subscene": "85A",
+      "status": "файл есть, t550u"
+    },
+    {
+      "file": "references/scenes/scene-85/S85B-slippers-question.jpg",
+      "subscene": "85B",
+      "status": "файл есть, t550u"
+    },
+    {
+      "file": "references/scenes/scene-85/S85C-hook-diagram.jpg",
+      "subscene": "85C",
+      "status": "файл есть, t550u"
+    }
+  ],
+  "subscene_prompt_reference_mapping": {
+    "85A": {
+      "@Image1": "references/full/sasha.jpg",
+      "@Image2": "references/full/masha-f.jpg",
+      "@Image3": "references/scenes/scene-85/S85-swap-sasha-masha-f.jpg",
+      "@Image4": "references/scenes/scene-85/S85A-gravity-announce.jpg"
+    },
+    "85B": {
+      "@Image1": "references/full/sasha.jpg",
+      "@Image2": "references/full/masha-f.jpg",
+      "@Image3": "references/scenes/scene-85/S85-swap-sasha-masha-f.jpg",
+      "@Image4": "references/scenes/scene-85/S85B-slippers-question.jpg"
+    },
+    "85C": {
+      "@Image1": "references/full/sasha.jpg",
+      "@Image2": "references/full/masha-f.jpg",
+      "@Image3": "references/scenes/scene-85/S85-swap-sasha-masha-f.jpg",
+      "@Image4": "references/scenes/scene-85/S85C-hook-diagram.jpg"
+    }
+  }
 }

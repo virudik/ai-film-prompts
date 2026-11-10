@@ -54,26 +54,150 @@
       "primary_still": true,
       "active_prompt_input": true,
       "video_launch_approval": false
+    },
+    {
+      "path": "references/scenes/scene-86/S86A-solemn-open.jpg",
+      "asset_id": "references/scenes/scene-86/S86A-solemn-open.jpg",
+      "caption": "86A — торжественное открытие",
+      "role": "scene_staging",
+      "sha256": "51849576343138e62593e7e15e3e2c8fbcb43b90e69f0813bc9b3fbd65616344",
+      "bytes": 342670,
+      "width": 1280,
+      "height": 720,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "owner_approved_t550u",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-86/previews/S86A-solemn-open.webp",
+      "primary_still": false,
+      "active_prompt_input": true,
+      "video_launch_approval": false,
+      "clip": "86A"
+    },
+    {
+      "path": "references/scenes/scene-86/S86B-worthless-contents.jpg",
+      "asset_id": "references/scenes/scene-86/S86B-worthless-contents.jpg",
+      "caption": "86B — ничтожное содержимое",
+      "role": "scene_staging",
+      "sha256": "0cab26bbeab851d3749adc4d9a1e6577e6155c016379b8789d12bafa91b43606",
+      "bytes": 329760,
+      "width": 1280,
+      "height": 720,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "owner_approved_t550u",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-86/previews/S86B-worthless-contents.webp",
+      "primary_still": false,
+      "active_prompt_input": true,
+      "video_launch_approval": false,
+      "clip": "86B"
+    },
+    {
+      "path": "references/scenes/scene-86/S86C-delighted-reaction.jpg",
+      "asset_id": "references/scenes/scene-86/S86C-delighted-reaction.jpg",
+      "caption": "86C — ещё больший восторг",
+      "role": "scene_staging",
+      "sha256": "95066dd56d450cecf2df86033dcaa2631e6a54d2f092c6e5216d716b8d2f6a85",
+      "bytes": 357762,
+      "width": 1280,
+      "height": 720,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "owner_approved_t550u",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-86/previews/S86C-delighted-reaction.webp",
+      "primary_still": false,
+      "active_prompt_input": true,
+      "video_launch_approval": false,
+      "clip": "86C"
     }
   ],
   "approved": [],
   "rejected": [],
-  "updated_at": "2026-11-10T02:21:42+00:00",
+  "updated_at": "2026-11-10T11:50:00+00:00",
   "publication": "t506u 2026-11-10; stills and prompts published, video not launched",
   "clips": [
     {
-      "id": "86",
-      "heading": "86 · «Эх, распаковочка»: Саша и Маша Ф поют — черновик (DRAFT)",
+      "id": "86A",
+      "heading": "86A · Торжественное открытие — черновик (DRAFT)",
       "stills": [
-        "references/scenes/scene-86/S86-swap-sasha-masha-f.jpg"
+        "references/scenes/scene-86/S86-swap-sasha-masha-f.jpg",
+        "references/scenes/scene-86/S86A-solemn-open.jpg"
       ],
       "prompt_reference_mapping": {
         "@Image1": "references/full/sasha.jpg",
         "@Image2": "references/full/masha-f.jpg",
-        "@Image3": "references/scenes/scene-86/S86-swap-sasha-masha-f.jpg"
+        "@Image3": "references/scenes/scene-86/S86-swap-sasha-masha-f.jpg",
+        "@Image4": "references/scenes/scene-86/S86A-solemn-open.jpg"
+      }
+    },
+    {
+      "id": "86B",
+      "heading": "86B · Ничтожное содержимое — черновик (DRAFT)",
+      "stills": [
+        "references/scenes/scene-86/S86-swap-sasha-masha-f.jpg",
+        "references/scenes/scene-86/S86B-worthless-contents.jpg"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/sasha.jpg",
+        "@Image2": "references/full/masha-f.jpg",
+        "@Image3": "references/scenes/scene-86/S86-swap-sasha-masha-f.jpg",
+        "@Image4": "references/scenes/scene-86/S86B-worthless-contents.jpg"
+      }
+    },
+    {
+      "id": "86C",
+      "heading": "86C · Ещё больший восторг — черновик (DRAFT)",
+      "stills": [
+        "references/scenes/scene-86/S86-swap-sasha-masha-f.jpg",
+        "references/scenes/scene-86/S86C-delighted-reaction.jpg"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/sasha.jpg",
+        "@Image2": "references/full/masha-f.jpg",
+        "@Image3": "references/scenes/scene-86/S86-swap-sasha-masha-f.jpg",
+        "@Image4": "references/scenes/scene-86/S86C-delighted-reaction.jpg"
       }
     }
   ],
   "additional_references_pending": [],
-  "photo_gallery_page": "parodies.html#scene-86"
+  "photo_gallery_page": "parodies.html#scene-86",
+  "t540u_slots_filled": [
+    {
+      "file": "references/scenes/scene-86/S86A-solemn-open.jpg",
+      "subscene": "86A",
+      "status": "файл есть, t550u"
+    },
+    {
+      "file": "references/scenes/scene-86/S86B-worthless-contents.jpg",
+      "subscene": "86B",
+      "status": "файл есть, t550u"
+    },
+    {
+      "file": "references/scenes/scene-86/S86C-delighted-reaction.jpg",
+      "subscene": "86C",
+      "status": "файл есть, t550u"
+    }
+  ],
+  "subscene_prompt_reference_mapping": {
+    "86A": {
+      "@Image1": "references/full/sasha.jpg",
+      "@Image2": "references/full/masha-f.jpg",
+      "@Image3": "references/scenes/scene-86/S86-swap-sasha-masha-f.jpg",
+      "@Image4": "references/scenes/scene-86/S86A-solemn-open.jpg"
+    },
+    "86B": {
+      "@Image1": "references/full/sasha.jpg",
+      "@Image2": "references/full/masha-f.jpg",
+      "@Image3": "references/scenes/scene-86/S86-swap-sasha-masha-f.jpg",
+      "@Image4": "references/scenes/scene-86/S86B-worthless-contents.jpg"
+    },
+    "86C": {
+      "@Image1": "references/full/sasha.jpg",
+      "@Image2": "references/full/masha-f.jpg",
+      "@Image3": "references/scenes/scene-86/S86-swap-sasha-masha-f.jpg",
+      "@Image4": "references/scenes/scene-86/S86C-delighted-reaction.jpg"
+    }
+  }
 }

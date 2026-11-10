@@ -75,5 +75,13 @@
     }
   ],
   "additional_references_pending": [],
-  "photo_gallery_page": "parodies.html#scene-83"
+  "photo_gallery_page": "parodies.html#scene-83",
+  "t540u_slots_without_files": [
+    {
+      "file": null,
+      "subscene": "83A",
+      "status": "отдельный портрет невесты не заведён",
+      "who": "невеста: платье и фата только с S83-swap-artem-normal-head.jpg, лицо не закреплено"
+    }
+  ]
 }

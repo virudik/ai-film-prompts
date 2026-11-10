@@ -13,10 +13,10 @@
       "drive_copy_sha256": "388b7303cb41a0413db541971a16e79fc2b5a2d2517b49586b5fa48e6c3170af",
       "drive_copy_checked_at": "2026-11-10T11:14:50.130Z",
       "drive_copy_modified_at": "2026-11-10T11:14:37.779Z",
-      "github_blob": "d835dcff390a2b70cd62c884c63f18b37b290c31",
-      "mirror_sha256": "388b7303cb41a0413db541971a16e79fc2b5a2d2517b49586b5fa48e6c3170af",
+      "github_blob": "38b3ab466607d98cdc9d47c91f4387af9b4f9226",
+      "mirror_sha256": "7cd70b5847386a3ede90e2f31f2fda1fd676bc97f6627c78bd363e1800b8eaa1",
       "match": true,
-      "drive_copy_match": true
+      "drive_copy_match": false
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
