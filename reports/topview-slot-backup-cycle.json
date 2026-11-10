@@ -11,8 +11,8 @@
   "preferred_executor_observed": "work",
   "started_at": "2026-11-10T22:35:52.185Z",
   "lease_acquired_at": "2026-11-10T22:35:52.185Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
     "scope": "Topview connector read-only 14 boards, 19 pages, all video tasks",
@@ -63,12 +63,12 @@
   "lease": {
     "holder": "chatgpt:ordinary:92aded6f-f044-4ace-914e-b1ebe2a0566e",
     "acquired_at": "2026-11-10T22:35:52.185Z",
-    "expires_at": "2026-11-10T22:50:52.185Z",
-    "released_at": null,
-    "release_status": "held"
+    "expires_at": null,
+    "released_at": "2026-11-10T22:39:40.918Z",
+    "release_status": "released_atomically_with_receipt"
   },
-  "outcome": "in_progress_no_free_slot",
-  "blocker": "no_free_global_slot; six actual init video tasks on My First Board",
+  "outcome": "no_free_slot",
+  "blocker": "no_free_global_slot; six actual init video tasks on My First Board; active music and S49B tasks remain unlinked to exact original SHA; do not duplicate",
   "retryable": true,
   "acceptance": {
     "scheduled_runtime": true,
@@ -77,10 +77,10 @@
     "unlimited0_preflight": false,
     "new_task_verified": false,
     "full_scan": true,
-    "queue_sha_matched": null,
-    "task_map_sha_matched": null
+    "queue_sha_matched": true,
+    "task_map_sha_matched": true
   },
-  "updated_at": "2026-11-10T22:36:40.253Z",
+  "updated_at": "2026-11-10T22:39:40.918Z",
   "queue_reconciliation": {
     "registered_items": 41,
     "registered_task_ids_found": 41,
@@ -93,6 +93,8 @@
       "be627af0e9664db5b6ac2b62c34080a6",
       "8bdd6439dad94592979aba23c137b4a0",
       "0a495e5f77a041e6bcc8d67fb68230b3"
-    ]
+    ],
+    "source_queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+    "source_task_map_sha256": "b2f787f828465c8332887d5d27295941c71393e3f233c1edf437b37ef0ce387a"
   }
 }
