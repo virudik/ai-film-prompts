@@ -1,0 +1,222 @@
+--- a/tests/test_raznoe_resource_scene3.py
++++ b/tests/test_raznoe_resource_scene3.py
+@@ -2,6 +2,7 @@
+ """Разное scene 3 RESOURCE: supplied stills, horizontal prompts, queue untouched."""
+ import hashlib
+ import json
++import re
+ import struct
+ import unittest
+ from pathlib import Path
+@@ -36,6 +37,16 @@
+     return struct.unpack(">II", head[16:24])
+ 
+ 
++def scene_block(master: str, scene_id: int) -> str:
++    """Select exactly one scene; native subscene anchors are not boundaries."""
++    anchor = f'<a id="scene-{scene_id}"></a>'
++    start = master.index(anchor)  # A missing scene must fail, not select the last byte.
++    rest = master[start + len(anchor):]
++    following = re.search(r'^<a id="scene-\d+"></a>\s*$', rest, re.M)
++    end = start + len(anchor) + following.start() if following else len(master)
++    return master[start:end]
++
++
+ class RaznoeResourceScene3(unittest.TestCase):
+     def test_source_bytes_and_backup(self):
+         for name, digest in UNCHANGED.items():
+@@ -53,7 +64,7 @@
+ 
+     def test_scene_is_horizontal_and_not_approved(self):
+         master = (ROOT / "projects/raznoe/video-prompts.md").read_text(encoding="utf-8")
+-        scene = master[master.find('<a id="scene-3"></a>'):]
++        scene = scene_block(master, 3)
+         self.assertIn("## Сцена 3 — RESOURCE", scene)
+         self.assertIn("Aspect ratio: 16:9", scene)
+         self.assertIn("No portrait crop", scene)
+@@ -96,7 +107,7 @@
+ 
+     def test_native_116_cut_keeps_source_and_names_unaccepted_attempts(self):
+         master = (ROOT / "projects/raznoe/video-prompts.md").read_text(encoding="utf-8")
+-        scene = master[master.find('<a id="scene-3"></a>'):master.find('<a id="scene-4"></a>')]
++        scene = scene_block(master, 3)
+         self.assertIn("### Native Grok · 19 клипов · 114 с", scene)
+         self.assertIn("A04_shred · 7 с", scene)
+         self.assertIn("C06_cycle · 5 с", scene)
+@@ -139,10 +150,49 @@
+             args = json.loads(path.read_text(encoding="utf-8"))["arguments"]
+             self.assertTrue(forbidden.isdisjoint(args), path.name)
+         names = {p.name for p in (exp / "prompts").glob("*.txt")}
+-        self.assertEqual(len(names), 27)
+-        self.assertIn("A01_drop.txt", names)
+-        self.assertIn("A04_shred-v2.txt", names)
+-        self.assertIn("C06_cycle-v2.txt", names)
++        # Nineteen original prompts and eight retained v2 attempts remain history.
++        # Additional active revisions are required by active-cut.json, not a stale
++        # total of 27. Also reject missing files, unregistered extras and wrong bytes.
++        original_ids = {
++            "A01_drop", "A02_retrieve", "A02_blue", "A03_sort", "A04_shred",
++            "A05_material", "A06_print", "B01_pickup", "B02_install", "B03_build",
++            "B04_check", "B05_pad", "B06_liftoff", "C01_orbit", "C02_debris",
++            "C03_capture", "C04_recycle", "C05_station", "C06_cycle",
++        }
++        retained_v2 = {"A04_shred", "A05_material", "C01_orbit", "C02_debris",
++                       "C03_capture", "C04_recycle", "C05_station", "C06_cycle"}
++        legacy = {f"{name}.txt" for name in original_ids}
++        legacy.update(f"{name}-v2.txt" for name in retained_v2)
++        cut = json.loads((exp / "active-cut.json").read_text(encoding="utf-8"))
++        self.assertEqual(cut["clip_count"], 19)
++        self.assertEqual(len(cut["clips"]), 19)
++        self.assertEqual({clip["clip_id"] for clip in cut["clips"]}, original_ids)
++        self.assertEqual(cut["total_duration_s"], 114)
++        self.assertEqual(sum(clip["duration_s"] for clip in cut["clips"]), 114)
++        self.assertEqual(cut["editorial_status"], "not_approved")
++        self.assertFalse(cut["execution_authorized"])
++        active = set()
++        for clip in cut["clips"]:
++            prompt = ROOT / clip["prompt_file"]
++            self.assertEqual(prompt.parent, exp / "prompts")
++            self.assertEqual(prompt.stem, clip["active_version"])
++            self.assertEqual(sha256(prompt), clip["prompt_sha256"], prompt.name)
++            self.assertEqual(clip["aspect_ratio"], "16:9")
++            self.assertFalse(clip["execute"])
++            active.add(prompt.name)
++        self.assertEqual(names, legacy | active)
++
++    def test_scene_boundary_ignores_native_anchors_and_neighbor_orientation(self):
++        sample = ('<a id="scene-3"></a>\nAspect ratio: 16:9\n'
++                  '<a id="scene-3-native-A01_drop"></a>\nnative prompt\n'
++                  '<a id="scene-4"></a>\nAspect ratio: 9:16\n')
++        resource = scene_block(sample, 3)
++        self.assertIn("native prompt", resource)
++        self.assertNotIn("9:16", resource)
++        self.assertNotIn('id="scene-4"', resource)
++        self.assertIn("9:16", scene_block(sample, 4))
++        with self.assertRaises(ValueError):
++            scene_block(sample, 99)
+ 
+ 
+ if __name__ == "__main__":
+--- a/tests/test_prompt_send_qc.py
++++ b/tests/test_prompt_send_qc.py
+@@ -1,6 +1,7 @@
+ """Узкая проверка уточнений QA пакета: роли, отправка, квитанция, просмотр ролика."""
+ import re
+ import unittest
++from datetime import datetime
+ from pathlib import Path
+ 
+ ROOT = Path(__file__).resolve().parents[1]
+@@ -19,6 +20,7 @@
+         cls.launch = (ROOT / "ops/TOPVIEW-FREE-LAUNCH.md").read_text(encoding="utf-8")
+         cls.sync = (ROOT / "SYNC-RUNBOOK.md").read_text(encoding="utf-8")
+         cls.handoff = (ROOT / "NEW-CHAT-HANDOFF.md").read_text(encoding="utf-8")
++        cls.handoff_archive = (ROOT / "archive/handoff-log.md").read_text(encoding="utf-8")
+ 
+     def test_roles_do_not_ban_first_last(self):
+         block = section(self.guide, "### A. Структура", "### B. Персонажи")
+@@ -61,19 +63,61 @@
+         self.assertIn("§11", routine)
+ 
+     def test_topview_keeps_free_route_and_points_at_receipt(self):
+-        self.assertIn("720p, 16:9, один ролик, unlimited, стоимость 0", self.launch)
++        # Check the current free-route contract, not an obsolete exact sentence.
++        # The owner's selected-free UI rule may clarify how zero cost is shown;
++        # it must never remove the zero-cost and no-paid-launch boundaries.
++        route = next(line for line in self.launch.splitlines()
++                     if "Бесплатный маршрут обязателен:" in line)
++        for required in ("720p, 16:9, один ролик", "бесплатный Unlimited",
++                         "стоимость 0", "стоимость больше 0 блокируют"):
++            self.assertIn(required, route)
+         self.assertIn("`PROMPT-STYLE-GUIDE.md` §11.G", self.launch)
+         self.assertIn("дословный отправленный промт", self.launch)
+         self.assertIn("Кадр стыка не заменяет просмотр движения", self.launch)
+-        self.assertIn("Проверено: 06.11.2026", self.launch.splitlines()[6])
++        # The header can move and its checked date is expected to advance.
++        headers = re.findall(r"^Статус: действует\. Проверено: (\d{2}\.\d{2}\.\d{4})\.$",
++                             self.launch, re.M)
++        self.assertEqual(len(headers), 1)
++        datetime.strptime(headers[0], "%d.%m.%Y")
+ 
+     def test_handoff_is_one_pointer_line(self):
+-        lines = [x for x in self.handoff.splitlines() if x.startswith("- **06.11.2026:**")]
+-        self.assertEqual(lines, [
++        # A dated handoff entry is allowed to move to the documented history.
++        # Keep one intact pointer, without restoring stale history to the live handoff.
++        pointer = (
+             "- **06.11.2026:** проверка пакета до готовности к генерации, фактическая отправка "
+             "и просмотр ролика — `PROMPT-STYLE-GUIDE.md` §11 и §15, указатель запуска — "
+             "`ops/TOPVIEW-FREE-LAUNCH.md`. Черновик и мудборд не равны готовому пакету."
+-        ])
++        )
++        self.assertIn("archive/handoff-log.md", self.handoff)
++        lines = self.handoff.splitlines() + self.handoff_archive.splitlines()
++        self.assertEqual(lines.count(pointer), 1)
++
++    def test_free_route_guard_rejects_paid_or_multiple_outputs(self):
++        for old, new in (("720p, 16:9, один ролик", "720p, 16:9, два ролика"),
++                         ("бесплатный Unlimited", "платный режим"),
++                         ("стоимость больше 0 блокируют", "стоимость больше 0 допускают")):
++            with self.subTest(removed=old):
++                original = self.launch
++                try:
++                    self.launch = original.replace(old, new)
++                    self.assertNotEqual(self.launch, original)
++                    with self.assertRaises(AssertionError):
++                        self.test_topview_keeps_free_route_and_points_at_receipt()
++                finally:
++                    self.launch = original
++
++    def test_handoff_pointer_guard_rejects_loss_or_duplication(self):
++        original = self.handoff_archive
++        pointer = next(line for line in original.splitlines()
++                       if line.startswith("- **06.11.2026:** проверка пакета"))
++        try:
++            for changed in (original.replace(pointer, ""), original + "\n" + pointer):
++                with self.subTest(duplicate=changed.endswith(pointer)):
++                    self.handoff_archive = changed
++                    with self.assertRaises(AssertionError):
++                        self.test_handoff_is_one_pointer_line()
++        finally:
++            self.handoff_archive = original
+ 
+ 
+ if __name__ == "__main__":
+--- a/tests/test_topview_prompt_match.py
++++ b/tests/test_topview_prompt_match.py
+@@ -4,6 +4,7 @@
+ import io
+ import json
+ import os
++import re
+ import sys
+ import unittest
+ from pathlib import Path
+@@ -56,10 +57,26 @@
+         # The status publisher runs asynchronously after a master commit. Test the
+         # canonical master unconditionally, and compare status counts only when
+         # its recorded master checksum proves it is from the same revision.
+-        self.assertEqual(len(labels), sum(line.startswith("```text") for line in MASTER.splitlines()))
++        # Both plain and ```text fences are valid prompt containers. The matcher
++        # already reads both; a text-only line count silently omitted scene 73.
++        # Independently compare full bodies as well, so dropped/duplicated text fails.
++        expected = re.findall(r"^```(?:text)?[ \t]*\n(.*?)^```[ \t]*$", MASTER, re.M | re.S)
++        self.assertEqual(len(labels), len(expected))
++        for (label, actual), body in zip(BLOCKS, expected):
++            self.assertEqual(actual, body.removesuffix("\n"), label)
+         import hashlib
+         if project.get("canonical_master_sha256") == hashlib.sha256(MASTER.encode("utf-8")).hexdigest():
+             self.assertEqual(len(labels), project["prompt_texts"])
++
++    def test_plain_and_text_fences_are_equivalent(self):
++        for fence in ("```", "```text"):
++            text = f"## Сцена 91 — Проба\n{fence}\nFirst line.\nSecond line.\n```\n"
++            self.assertEqual(pm.master_blocks(text), [("91", "First line.\nSecond line.")])
++        mixed = ("## Сцена 91 — Первая\n```\nplain\n```\n"
++                 "## Сцена 92 — Вторая\n```text\ntyped\n```\n")
++        expected = re.findall(r"^```(?:text)?[ \t]*\n(.*?)^```[ \t]*$", mixed, re.M | re.S)
++        self.assertEqual(len(expected), 2)
++        self.assertEqual(pm.master_blocks(mixed), [("91", "plain"), ("92", "typed")])
+ 
+     def test_dynamic_tab_labels_are_distinct(self):
+         # Кот детектив keeps its old prompts and adds «⚡ динамичная» tabs (owner 23.10.2026).
