@@ -38,6 +38,7 @@ def master_blocks(text):
     lines = text.split("\n")
     out, scene, in_block, start, body = [], None, False, 0, []
     heading = ""
+    subscene = None
     seen_in_scene = 0
     for line in lines:
         if line.startswith("```"):
@@ -45,7 +46,7 @@ def master_blocks(text):
                 in_block, body = True, []
             else:
                 in_block = False
-                out.append((label_for(scene, heading, seen_in_scene), "\n".join(body)))
+                out.append((label_for(scene, heading, seen_in_scene, subscene), "\n".join(body)))
                 seen_in_scene += 1
             continue
         if in_block:
@@ -57,12 +58,15 @@ def master_blocks(text):
         level, title = len(m.group(1)), m.group(2).strip()
         sm = re.match(r"Сцена\s+(\d+)\b", title) if level == 2 else None
         if sm:
-            scene, seen_in_scene = int(sm.group(1)), 0
+            scene, seen_in_scene, subscene = int(sm.group(1)), 0, None
+        code = re.match(r"^(\d{2}[A-Z])\b", title)
+        if code and level >= 3:
+            subscene = code.group(1)
         heading = title
     return out
 
 
-def label_for(scene, heading, index_in_scene):
+def label_for(scene, heading, index_in_scene, subscene=None):
     if scene == 20:
         m = re.search(r"Песня Маши\s+(\d+)", heading)
         if m:
@@ -99,6 +103,15 @@ def label_for(scene, heading, index_in_scene):
     if scene in (49, 50, 51):
         m = re.match(rf"({scene}[A-Z])\b", heading)
         return m.group(1) if m else str(scene)
+    # Parody subscenes use "#### Wan 3.0 / Seedance 2.5" under "### 76A".
+    # The first fence of a scene stays the bare scene id. Later fences take
+    # the subscene code when there is one, so 76A and 76B do not collide.
+    if index_in_scene > 0 and not re.match(rf"{scene}\s*·", heading or ""):
+        engine = re.search(r"(Wan 3\.0|Seedance 2\.0)(?:\s*·\s*часть\s+(\d+)|\s+часть\s+(\d+))?", heading or "")
+        if engine:
+            part = engine.group(2) or engine.group(3)
+            extra = f" часть {part}" if part else ""
+            return f"{subscene or scene} · {engine.group(1)}{extra}"
     return str(scene)
 
 

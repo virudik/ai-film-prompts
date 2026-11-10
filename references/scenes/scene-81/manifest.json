@@ -75,5 +75,19 @@
     }
   ],
   "additional_references_pending": [],
-  "photo_gallery_page": "parodies.html#scene-81"
+  "photo_gallery_page": "parodies.html#scene-81",
+  "t540u_slots_without_files": [
+    {
+      "file": "references/full/hostess-larisa.jpg",
+      "subscene": "81A",
+      "status": "нужен портрет",
+      "who": "ведущая Лариса"
+    },
+    {
+      "file": "references/full/hostess-roza.jpg",
+      "subscene": "81A",
+      "status": "нужен портрет",
+      "who": "ведущая Роза"
+    }
+  ]
 }

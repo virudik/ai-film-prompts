@@ -75,5 +75,22 @@
     }
   ],
   "additional_references_pending": [],
-  "photo_gallery_page": "parodies.html#scene-86"
+  "photo_gallery_page": "parodies.html#scene-86",
+  "t540u_slots_without_files": [
+    {
+      "file": "references/scenes/scene-86/S86A-solemn-open.jpg",
+      "subscene": "86A",
+      "status": "нужен кадр"
+    },
+    {
+      "file": "references/scenes/scene-86/S86B-worthless-contents.jpg",
+      "subscene": "86B",
+      "status": "нужен кадр"
+    },
+    {
+      "file": "references/scenes/scene-86/S86C-delighted-reaction.jpg",
+      "subscene": "86C",
+      "status": "нужен кадр"
+    }
+  ]
 }

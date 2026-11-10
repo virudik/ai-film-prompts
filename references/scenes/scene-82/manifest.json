@@ -59,5 +59,25 @@
     }
   ],
   "additional_references_pending": [],
-  "photo_gallery_page": "parodies.html#scene-82"
+  "photo_gallery_page": "parodies.html#scene-82",
+  "t540u_slots_without_files": [
+    {
+      "file": "references/full/star-friend-1.jpg",
+      "subscene": "82A",
+      "status": "нужен портрет",
+      "who": "друг 1, слева из троих"
+    },
+    {
+      "file": "references/full/star-friend-2.jpg",
+      "subscene": "82A",
+      "status": "нужен портрет",
+      "who": "друг 2, центр"
+    },
+    {
+      "file": "references/full/star-friend-3.jpg",
+      "subscene": "82A",
+      "status": "нужен портрет",
+      "who": "друг 3, справа"
+    }
+  ]
 }

@@ -6,18 +6,18 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**44 сцен к генерации/доработке · 216 полных текстов промта**
+**44 сцен к генерации/доработке · 240 полных текстов промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 24** сцены сейчас в медленной генерации: **16, 28, 42, 48, 49, 51, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 66, 67, 68, 69, 70, 71, 72, 73** — **5 активных Topview-задач / 5 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
-- **Последняя оформленная активная сцена:** 87 — Реклама: Саша, лучший фотограф. Пародии 74–80 обновлены 10.11 по команде t506u: кадры и промпты. 81–87 добавлены как DRAFT, номера оставлены. У 74 восемь подсцен 74A–H; основной кадр 75 — рыбалка на месяце, рыбка возвращена. Видео не запускались; очередь и монтажный порядок не менялись; это не одобрение роликов.
+- **Последняя оформленная активная сцена:** 87 — Реклама: Саша, лучший фотограф. Пародии 74–80 обновлены 10.11 по команде t506u: кадры и промпты. 81–87 добавлены как DRAFT, номера оставлены. У 74 восемь подсцен 74A–H; основной кадр 75 — рыбалка на месяце, рыбка возвращена. Видео не запускались; очередь и монтажный порядок не менялись; это не одобрение роликов. 10.11 t540u: подсцены 76, 84, 85, 86 и история 81–83 внесены в промпты. Портреты ведущих и звёздных гостей ещё не получены.
 - **История предыдущего оформления:** 73 — Виталик на троне перед титрами; титры — на существующем блоке 28; 71 после титров и перед трейлерами. Новых запусков нет. Прежде: 72 — пролог: Виталик на том же троне из кальянов в кантине Татуина: «Всем привет… Всем приятного просмотра. История-то понятная, житейская»; 71 — его финальное слово и объявление трейлеров. Обе в двух версиях: с заигрывающими инопланетянками по бокам (главная) и без (владелец 30.10; Wan3.0, 30 с; ждут три картинки от открытого чата ChatGPT Work). Прежняя запись: 70 — Татуин: непрерывный пролёт с улицы к столику Серёги в кантине. Связка 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65 использует настоящие последние3с предыдущего звена; вся уличная цепь и65/70 выбраны Wan3.0,30с,52P1–P6 остаются Seedance2.0. В67–69 одна и та же дыня и сумка;69 убирает оставленную Стичем кучу в лазерный совок. Новые сцены остаются DRAFT, видеостыки ожидаются; приоритет до49→50→51→28, ready-skip сохраняется. Никаких видео этой правкой не запущено.
 - **Ревизия Control Center:** дата определяется автоматически по содержательному изменению canonical master; чистая техническая пересинхронизация без изменения содержимого дату ревизии не меняет.
 - **Последняя полная синхронизация:** **10.11.2026 · текущая по live Topview/Drive сверке**. Точное техническое время свежей telemetry берётся из `topview-status.json.checked_at`.
 
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
-**Синхронизация контекста:** **10.11.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **44 актуальных сцен и 216 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 43, 44, 45, 46, 47, 53, 54 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16, 28, 42, 48, 49, 51, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 66, 67, 68, 69, 70, 71, 72, 73**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **10.11.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **44 актуальных сцен и 240 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 43, 44, 45, 46, 47, 53, 54 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16, 28, 42, 48, 49, 51, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 66, 67, 68, 69, 70, 71, 72, 73**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 **Новые промты 09.10.2026:** Scene 20 расширена вставками 12–13, добавлены Scenes 29–34 с полными production-промтами и имеющимися референсами: кантина (часть 3), три разрушительных боя, исследование руин и вход в храм. Это новые тексты для запуска, а не уже выполненные/одобренные Topview-результаты. Танцы Scene 28 и их неподтверждённые вспомогательные фото не менялись.
 
@@ -126,17 +126,17 @@
 | 73 | [Виталик на троне: «Думаете это уже конец?»](#scene-73) | Виталик, трон и две помощницы из 71/72, кантина 65 | Приглашение досмотреть настоящие титры. Сначала 73, затем титры на 28, затем существующая 71 после титров, затем трейлеры. 30с Wan3.0 и 2×15с Seedance2.0. DRAFT, запуска не было.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 | 74 | [Виталик представляет: парад киностудий](#scene-74) | Виталик; восемь подсцен 74A–H | 74A рык в смокинге, 74B факел в тоге, 74C куча хлама, 74D глобус, 74E крыша гаража, 74F факел со шторой, 74G гора из картошки, 74H прожекторы у ящиков. Гонг не входит, римский постер не менялся. DRAFT: у каждой подсцены свои 30 с и 2×15 с. Видео не запускать. |
 | 75 | [Лунная студия: Виталик рыбачит на месяце](#scene-75) | Виталик; основной кадр S75-fishing-start.png | На месяце с удочкой. Клюёт крошечная рыбка: «Клюёт!», показ, поцелуй воздуха над ней, отпускание, повторный заброс. Прежний кадр со струёй сохранён и основным не является. Дроида нет. DRAFT; видео не запускать. |
-| 76 | [Мем-театр: кандибобер, нормально, язь](#scene-76) | Виталик; три кадра одного ролика | Кандибобер, лёд «Нормально» и язь. DRAFT; 30 с и 2×15 с. Видео не запускать. |
+| 76 | [Мем-театр: кандибобер, нормально, язь](#scene-76) | Виталик; подсцены 76A–C | 76A кандибобер, 76B лёд «Нормально», 76C язь. У каждой свой кадр и костюм. Принятые три PNG сохранены. DRAFT; видео не запускать. |
 | 77 | [«Она отказала мне»: мелодрама у космического забора](#scene-77) | Виталик, Лёша, Маша Р | Мем «Яблоневый сад»: отказ, «Да она не может любить меня», «Да я люблю тебя!». Без майонеза. DRAFT; видео не запускать. |
 | 78 | [Майонез: салат больше не нужен](#scene-78) | Виталик, Маша Р, Алина | Семья ест майонез, салат больше не нужен. DRAFT; видео не запускать. |
 | 79 | [Чипсы: хруст слышно во всей галактике](#scene-79) | Виталик, Маша Р, Алина; два ролика | 79A совет на диване и 79B элитная реклама. У каждого свои 30 с и 2×15 с. DRAFT; видео не запускать. |
 | 80 | [Люкс из кладовки](#scene-80) | Виталик, Маша Р, Алина; два ролика | 80A семья и 80B соло на троне. У каждого свои 30 с и 2×15 с. DRAFT; видео не запускать. |
-| 81 | [«Давай поженимся»: Алексей ищет невесту](#scene-81) | Лёша, Артём | Черновик «Давай поженимся»: речь про Алексея. DRAFT; видео не запускать. |
-| 82 | [Комната жениха: звёздные друзья Алексея](#scene-82) | Лёша | Черновик комнаты жениха. Финал: «Ребята, я просто хозяйственный». DRAFT; видео не запускать. |
-| 83 | [Невеста выбирает Артёма](#scene-83) | Лёша, Артём | Черновик: невеста уходит с Артёмом. DRAFT; видео не запускать. |
-| 84 | [Илюша: тачку на прокачку, защитная плёнка](#scene-84) | Илюша | Черновик: тачку на прокачку, защитная плёнка. DRAFT; видео не запускать. |
-| 85 | [Срочные новости: Саша и Маша Ф](#scene-85) | Саша, Маша Ф | Черновик новостей. Маша Ф — светлые волосы, не рыжая Маша Р. DRAFT; видео не запускать. |
-| 86 | [Саша и Маша Ф: «Эх, распаковочка»](#scene-86) | Саша, Маша Ф | Черновик «Эх, распаковочка». DRAFT; видео не запускать. |
+| 81 | [«Давай поженимся»: Алексей ищет невесту](#scene-81) | Лёша, Артём; ведущим нужен портрет | Глава 1: знакомство и фраза про пальто. Гузеева и Сябитова — слоты без файлов. DRAFT; видео не запускать. |
+| 82 | [Комната жениха: звёздные друзья Алексея](#scene-82) | Лёша; трём гостям нужен портрет | Глава 2. Единственный кадр комнаты сохранён. DRAFT; видео не запускать. |
+| 83 | [Невеста выбирает Артёма](#scene-83) | Лёша, Артём | Глава 3: она выбирает того, кто подумал про пальто. DRAFT; видео не запускать. |
+| 84 | [Илюша: тачку на прокачку, защитная плёнка](#scene-84) | Илюша; подсцены 84A–C | Пафос, затем ракель, затем готовая панель. DRAFT; видео не запускать. |
+| 85 | [Срочные новости: Саша и Маша Ф](#scene-85) | Саша, Маша Ф; подсцены 85A–C | Одна новость: гравитация и тапочки. Маша Ф не Маша Р. DRAFT; видео не запускать. |
+| 86 | [Саша и Маша Ф: «Эх, распаковочка»](#scene-86) | Саша, Маша Ф; подсцены 86A–C | Открытие, ничтожная находка, восторг. Куплеты не зацикливать. DRAFT; видео не запускать. |
 | 87 | [Реклама: Саша, лучший фотограф](#scene-87) | Саша; три кадра одного ролика | Черновик рекламы лучшего фотографа. DRAFT; видео не запускать. |
 
 ### 🎬 Татуинская связка — единый порядок сцепления и запуска
@@ -11370,7 +11370,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 **Статус:** DRAFT. Подготовлено 10.11.2026, ~05:15 МСК. Опубликовано как DRAFT по команде t506u. Не READY и не запуск видео. Формат как у остальных сцен: 30 с Wan 3.0 / Seedance 2.5 **и** 2×15 с Seedance 2.0 (P2 ждёт настоящие последние 3 с своей P1 через @Video1).
 
-Основной кадр — официальное интервью в кокошнике; оба добора («Нормально» и язь) — куски того же ролика с отдельными @Image.
+Три отдельные подсцены, у каждой свой кадр, костюм и границы. Порядок: кандибобер, затем «Нормально», затем язь. Не смешивать локации и не делать коллаж. Поправка t540u, 10.11.2026.
 
 **Общее:** лица — только с референсов лиц (`references/full/*` и листы Маши Р / Алины), одежда — по сцене и стиллу, не с листов персонажей. 16:9, 720p, 24 fps, родной звук. Стиллы — постановка и гардероб, не буквальный первый кадр.
 
@@ -11383,18 +11383,16 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 <!-- parody-photo-publication-76 -->
 <p><strong>Сохранённые фото:</strong> <a href="parodies.html#scene-76" target="_blank" rel="noopener">Открыть фотографии сцены</a>. Публикация кадров и промптов по команде t506u. Это не одобрение ролика и не запуск видео. · <a href="https://drive.google.com/drive/folders/1m0kKr532uOqOzyoIZh_9ZlrWfOoQtNxu" target="_blank" rel="noopener">Все варианты на Google Диске</a>.</p>
 
-### 76 · Мем-театр: кандибобер → «Нормально» → язь
+<p><strong>Подсцены:</strong> <a href="#scene-76A">76A</a> · <a href="#scene-76B">76B</a> · <a href="#scene-76C">76C</a>. Порядок не менять. Это не один ролик и не коллаж.</p>
 
-**Кадры:** основной — только официальное интервью в кокошнике `references/scenes/scene-76/S76-kandibober.png`; доборы-куски того же ролика — `references/scenes/scene-76/S76-normalno-ice.png` («Нормально», прорубь) и `references/scenes/scene-76/S76-yaz-fish.png` (язь, не щука).
+<a id="scene-76A"></a>
 
-**Что происходит:** Три узнаваемых мема по ~10 с, разделённых жёсткими склейками: серьёзное интервью в нелепо высоком красном кандибобере, лежание у проруби с протяжным «Норма-а-ально» и восторг в лодке с космическим язем.
+### 76A · Кандибобер — только интервью
 
-**Стык 15+15:** P1 заканчивается так: _Vitalik lying on the snow beside the round fishing hole in black winter clothes, eyes turned to camera, mouth just opening to answer._ P2 стартует из этого же состояния по @Video1 (настоящие последние 3 с P1), без повтора; каждая реплика целиком в одной части, ничего не обрывается на полуслове.
+Только улица и красный кандибобер. Кадр `references/scenes/scene-76/S76-kandibober.png` остаётся принятым входом. Слот на отдельный кадр `references/scenes/scene-76/S76A-kandibober-only.jpg` — нужен кадр, файла нет.
 
 <div class="scene-ref-gallery">
-<figure><a href="references/scenes/scene-76/S76-kandibober.png" target="_blank" rel="noopener"><img src="references/scenes/scene-76/previews/S76-kandibober.webp" alt="76 — кандибобер, кадр того же ролика" loading="lazy" width="480"></a><figcaption>76 — кандибобер, кадр того же ролика</figcaption></figure>
-<figure><a href="references/scenes/scene-76/S76-normalno-ice.png" target="_blank" rel="noopener"><img src="references/scenes/scene-76/previews/S76-normalno-ice.webp" alt="76 — «Нормально», кадр того же ролика" loading="lazy" width="480"></a><figcaption>76 — «Нормально», кадр того же ролика</figcaption></figure>
-<figure><a href="references/scenes/scene-76/S76-yaz-fish.png" target="_blank" rel="noopener"><img src="references/scenes/scene-76/previews/S76-yaz-fish.webp" alt="76 — язь, кадр того же ролика" loading="lazy" width="480"></a><figcaption>76 — язь, кадр того же ролика</figcaption></figure>
+<figure><a href="references/scenes/scene-76/S76-kandibober.png" target="_blank" rel="noopener"><img src="references/scenes/scene-76/previews/S76-kandibober.webp" alt="76A — принятый кадр интервью" loading="lazy" width="480"></a><figcaption>76A — принятый кадр интервью</figcaption></figure>
 </div>
 
 <div class="engine-tabs" data-scene="76">
@@ -11403,46 +11401,42 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — лицо, `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-76/S76-kandibober.png`; @Image3 — `references/scenes/scene-76/S76-normalno-ice.png`; @Image4 — `references/scenes/scene-76/S76-yaz-fish.png`.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — кадр только этой подсцены.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic meme parody with maximum overacting
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic comedy with living light, colour and performance
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/vitalik.jpg — exact Виталик facial identity only; costume is defined below, never inherited from the source sheet.
-@Image2 = references/scenes/scene-76/S76-kandibober.png — gag 1 staging: street interview, absurdly tall red embroidered ceremonial hat, offscreen interviewer’s microphone; never overrides exact facial identity or source age. This helper is not a literal first frame.
-@Image3 = references/scenes/scene-76/S76-normalno-ice.png — gag 2 staging: lying on snow-covered ice beside a round fishing hole; never overrides exact facial identity or source age. This helper is not a literal first frame.
-@Image4 = references/scenes/scene-76/S76-yaz-fish.png — gag 3 staging: small boat on a river, large ide fish held in two hands; never overrides exact facial identity or source age. This helper is not a literal first frame.
-Facial references outrank the staged images for identity and age. Do not animate a slideshow or a collage; generate real continuous motion. Do not reproduce source-sheet Jedi/Tatooine costumes.
+@Image1 = references/full/vitalik.jpg — exact Виталик face only.
+@Image2 = references/scenes/scene-76/S76-kandibober.png — ONLY this subscene: street interview and the absurdly tall red kokoshnik. Not a literal first frame. Dedicated still slot references/scenes/scene-76/S76A-kandibober-only.jpg is requested and not yet a file; until it exists this accepted frame is the staging.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-VITALIK: exact adult stocky fair-skinned man, round face, short light-brown hair, light stubble, grey-green eyes; exact face of @Image1 in all three gags. Gag 1 costume (@Image2): black winter jacket over a dark hoodie and an absurdly tall red embroidered ceremonial kokoshnik-style hat with pearl drops. Gag 2 (@Image3): black puffer jacket, black insulated trousers, black knit beanie, gloves. Gag 3 (@Image4): olive fishing jacket over a brown sweater. The interviewer is only a beanie-wearing shoulder and a microphone at frame right; no other identifiable performer.
+VITALIK: exact adult face of @Image1 only. Stocky fair man, round face, short light-brown hair, light stubble, grey-green eyes. Costume is this subscene only and must not leak into another subscene. Costume: black winter jacket, dark hoodie, absurdly tall red embroidered kokoshnik with pearl drops. Nothing else.
 
 SCENE / SPACE:
-Three hard-cut sets: (1) overcast city street with old facades and slush; (2) wide flat snowy frozen lake with a safe round fishing hole, pine forest on the horizon; (3) small wooden boat on a calm summer river with green banks. Editorial hard cuts, not a teleport inside one shot.
+One overcast city street, old facades, wet slush, a microphone entering from frame right. No ice, no boat, no fish.
 
 START STATE:
-Street interview, medium eye-level: Vitalik in the towering red hat, earnest; a microphone enters from frame right.
+Street, eye level. Vitalik already in the towering red hat, earnest, microphone at frame right.
 
 STORY FLOW:
-0–10s: Interview. Totally serious, with overacted gestures, Vitalik says: «Этот кандибобер — не шлем. Это характер». The giant hat sways slightly; pearl drops swing.
-10–15s: Hard cut to the frozen lake. Vitalik lies comfortably on his side on the snow beside the fishing hole, fully clothed. Offscreen male voice: «Бать, тебе нормально?» He slowly turns his eyes to camera.
-15–20s: Still lying, he answers with a long deadpan vowel and a contented nod: «Норма-а-ально».
-20–27s: Hard cut to the boat. He lifts a large golden-bronze ide (язь) with both hands, joy exploding: «Я-а-азь! Космический! Рыба всей моей галактики!» A faint cyan shimmer runs along the fish once.
-27–30s: The fish gives one tail flick; he tightens his two-handed hold and beams wildly at the lens. Hold.
+0–8s: He steadies the swaying hat. Pearls tick. He says the whole line «Этот кандибобер — не шлем. Это характер».
+8–18s: He taps the embroidery once, still serious, and lets the hat settle.
+18–30s: Hold the portrait. Pearls swing and stop. No cut.
 
 END STATE:
-In the boat Vitalik holds the big ide toward the lens with both hands, beaming; no new dialogue.
+Same street portrait, hat upright, face serious, interview not over into another meme.
 
 CAMERA / LIGHT / PERFORMANCE:
-Street medium 50mm with slight handheld; fixed medium-wide on the ice; handheld close-medium in the boat. Hold faces long enough for Russian lip-sync. Maximum but human overacting.
+50mm, face readable for Russian lip-sync, motivated practical light, one clear camera move. Overacted but human. No collage, no second location in frame.
 
 AUDIO:
-Street ambience, wind over ice, boat creak, one fish slap. Lines exactly: «Этот кандибобер — не шлем. Это характер»; offscreen «Бать, тебе нормально?»; «Норма-а-ально»; «Я-а-азь! Космический! Рыба всей моей галактики!» New voices, no sampled original audio, no music, no subtitles.
+Street ambience. Only «Этот кандибобер — не шлем. Это характер». No music.
 
 NEGATIVE:
-no pike (the fish is an ide), no real interviewee likeness, no face replacement between cuts, no child, no ice collapse or drowning, no extra fish or hands, no copied meme audio. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+no frozen lake, no boat, no fish, no second costume, no collage, no copied meme audio, no child. No extra limbs, identity drift or clothing drift.
 
 FRAME FILL / NO BARS:
 Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
@@ -11454,43 +11448,40 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 1 · 15 с
 
-**Входы:** @Image1 — лицо, `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-76/S76-kandibober.png`; @Image3 — `references/scenes/scene-76/S76-normalno-ice.png`; @Image4 — `references/scenes/scene-76/S76-yaz-fish.png`.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — кадр только этой подсцены.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal cinematic meme parody with maximum overacting
+Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colour and performance
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/vitalik.jpg — exact Виталик facial identity only; costume is defined below, never inherited from the source sheet.
-@Image2 = references/scenes/scene-76/S76-kandibober.png — gag 1 staging: street interview, absurdly tall red embroidered ceremonial hat, offscreen interviewer’s microphone; never overrides exact facial identity or source age. This helper is not a literal first frame.
-@Image3 = references/scenes/scene-76/S76-normalno-ice.png — gag 2 staging: lying on snow-covered ice beside a round fishing hole; never overrides exact facial identity or source age. This helper is not a literal first frame.
-@Image4 = references/scenes/scene-76/S76-yaz-fish.png — gag 3 staging: small boat on a river, large ide fish held in two hands; never overrides exact facial identity or source age. This helper is not a literal first frame.
-Facial references outrank the staged images for identity and age. Do not animate a slideshow or a collage; generate real continuous motion. Do not reproduce source-sheet Jedi/Tatooine costumes.
+@Image1 = references/full/vitalik.jpg — exact Виталик face only.
+@Image2 = references/scenes/scene-76/S76-kandibober.png — ONLY this subscene: street interview and the absurdly tall red kokoshnik. Not a literal first frame. Dedicated still slot references/scenes/scene-76/S76A-kandibober-only.jpg is requested and not yet a file; until it exists this accepted frame is the staging.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-VITALIK: exact adult stocky fair-skinned man, round face, short light-brown hair, light stubble, grey-green eyes; exact face of @Image1 in all three gags. Gag 1 costume (@Image2): black winter jacket over a dark hoodie and an absurdly tall red embroidered ceremonial kokoshnik-style hat with pearl drops. Gag 2 (@Image3): black puffer jacket, black insulated trousers, black knit beanie, gloves. Gag 3 (@Image4): olive fishing jacket over a brown sweater. The interviewer is only a beanie-wearing shoulder and a microphone at frame right; no other identifiable performer.
+VITALIK: exact adult face of @Image1 only. Stocky fair man, round face, short light-brown hair, light stubble, grey-green eyes. Costume is this subscene only and must not leak into another subscene. Costume: black winter jacket, dark hoodie, absurdly tall red embroidered kokoshnik with pearl drops. Nothing else.
 
 SCENE / SPACE:
-Three hard-cut sets: (1) overcast city street with old facades and slush; (2) wide flat snowy frozen lake with a safe round fishing hole, pine forest on the horizon; (3) small wooden boat on a calm summer river with green banks. Editorial hard cuts, not a teleport inside one shot.
+One overcast city street, old facades, wet slush, a microphone entering from frame right. No ice, no boat, no fish.
 
 START STATE:
-Street interview, medium eye-level: Vitalik in the towering red hat, earnest; a microphone enters from frame right.
+Same street start.
 
 STORY FLOW:
-0–10s: Interview. Totally serious, with overacted gestures, Vitalik says: «Этот кандибобер — не шлем. Это характер». The giant hat sways; pearl drops swing.
-10–15s: Hard cut to the frozen lake. Vitalik lies on his side on the snow beside the fishing hole. Offscreen male voice: «Бать, тебе нормально?» He slowly turns his eyes to camera, about to answer.
+0–15s: The hat sways, he says the complete line «Этот кандибобер — не шлем. Это характер», then the pearls are still moving.
 
 END STATE:
-Vitalik lying on the snow beside the round fishing hole in black winter clothes, eyes turned to camera, mouth just opening to answer.
+Line finished, pearls still swinging, mouth closed.
 
 CAMERA / LIGHT / PERFORMANCE:
-Street medium 50mm with slight handheld; fixed medium-wide on the ice; handheld close-medium in the boat. Hold faces long enough for Russian lip-sync. Maximum but human overacting.
+50mm, face readable for Russian lip-sync, motivated practical light, one clear camera move. Overacted but human. No collage, no second location in frame.
 
 AUDIO:
-For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Street ambience, then «Этот кандибобер — не шлем. Это характер». Wind over ice; offscreen «Бать, тебе нормально?»
+For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Only that one complete line.
 
 NEGATIVE:
-no pike (the fish is an ide), no real interviewee likeness, no face replacement between cuts, no child, no ice collapse or drowning, no extra fish or hands, no copied meme audio. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+no frozen lake, no boat, no fish, no second costume, no collage, no copied meme audio, no child. No extra limbs, identity drift or clothing drift.
 
 FRAME FILL / NO BARS:
 Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
@@ -11498,57 +11489,346 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 2 · 15 с
 
-**Входы:** @Image1 — лицо, `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-76/S76-kandibober.png`; @Image3 — `references/scenes/scene-76/S76-normalno-ice.png`; @Image4 — `references/scenes/scene-76/S76-yaz-fish.png`; @Video1 — последние 3 с НАСТОЯЩЕГО результата своей P1 (без него P2 не запускать).
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — кадр только этой подсцены. @Video1 — настоящие последние 3 с P1 подсцены 76A.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal cinematic meme parody with maximum overacting
+Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colour and performance
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/vitalik.jpg — exact Виталик facial identity only; costume is defined below, never inherited from the source sheet.
-@Image2 = references/scenes/scene-76/S76-kandibober.png — gag 1 staging: street interview, absurdly tall red embroidered ceremonial hat, offscreen interviewer’s microphone; never overrides exact facial identity or source age. This helper is not a literal first frame.
-@Image3 = references/scenes/scene-76/S76-normalno-ice.png — gag 2 staging: lying on snow-covered ice beside a round fishing hole; never overrides exact facial identity or source age. This helper is not a literal first frame.
-@Image4 = references/scenes/scene-76/S76-yaz-fish.png — gag 3 staging: small boat on a river, large ide fish held in two hands; never overrides exact facial identity or source age. This helper is not a literal first frame.
-@Video1 = actual final 3 seconds of Scene 76 Seedance Part 1 — real motion/pose continuity, not a generated substitute.
-Facial references outrank the staged images for identity and age. Do not animate a slideshow or a collage; generate real continuous motion. Do not reproduce source-sheet Jedi/Tatooine costumes.
+@Image1 = references/full/vitalik.jpg — exact Виталик face only.
+@Image2 = references/scenes/scene-76/S76-kandibober.png — ONLY this subscene: street interview and the absurdly tall red kokoshnik. Not a literal first frame. Dedicated still slot references/scenes/scene-76/S76A-kandibober-only.jpg is requested and not yet a file; until it exists this accepted frame is the staging.
+@Video1 = actual final 3 seconds of Scene 76 subscene 76A Seedance Part 1 — real continuity, not a generated substitute.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-VITALIK: exact adult stocky fair-skinned man, round face, short light-brown hair, light stubble, grey-green eyes; exact face of @Image1 in all three gags. Gag 1 costume (@Image2): black winter jacket over a dark hoodie and an absurdly tall red embroidered ceremonial kokoshnik-style hat with pearl drops. Gag 2 (@Image3): black puffer jacket, black insulated trousers, black knit beanie, gloves. Gag 3 (@Image4): olive fishing jacket over a brown sweater. The interviewer is only a beanie-wearing shoulder and a microphone at frame right; no other identifiable performer.
+VITALIK: exact adult face of @Image1 only. Stocky fair man, round face, short light-brown hair, light stubble, grey-green eyes. Costume is this subscene only and must not leak into another subscene. Costume: black winter jacket, dark hoodie, absurdly tall red embroidered kokoshnik with pearl drops. Nothing else.
 
 SCENE / SPACE:
-Three hard-cut sets: (1) overcast city street with old facades and slush; (2) wide flat snowy frozen lake with a safe round fishing hole, pine forest on the horizon; (3) small wooden boat on a calm summer river with green banks. Editorial hard cuts, not a teleport inside one shot.
+One overcast city street, old facades, wet slush, a microphone entering from frame right. No ice, no boat, no fish.
 
 START STATE:
-Continue the actual last moment of @Video1, without replaying it. Target continuity: Vitalik lying on the snow beside the round fishing hole in black winter clothes, eyes turned to camera, mouth just opening to answer.
+Continue after the finished line, pearls still swinging. Do not say the line again.
 
 STORY FLOW:
-0–5s: Still lying, he answers with a long deadpan vowel and a contented nod: «Норма-а-ально».
-5–12s: Hard cut to the boat. He lifts a large golden-bronze ide with both hands: «Я-а-азь! Космический! Рыба всей моей галактики!» A faint cyan shimmer runs along the fish once.
-12–15s: One tail flick; he tightens his hold and beams wildly at the lens. Hold.
+0–15s: He gives one proud nod, the pearls settle, he holds the serious interview face.
 
 END STATE:
-In the boat Vitalik holds the big ide toward the lens with both hands, beaming; no new dialogue.
+Portrait hold, hat still, no new sentence.
 
 CAMERA / LIGHT / PERFORMANCE:
-Street medium 50mm with slight handheld; fixed medium-wide on the ice; handheld close-medium in the boat. Hold faces long enough for Russian lip-sync. Maximum but human overacting.
+50mm, face readable for Russian lip-sync, motivated practical light, one clear camera move. Overacted but human. No collage, no second location in frame.
 
 AUDIO:
-For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. «Норма-а-ально»; then boat creak and «Я-а-азь! Космический! Рыба всей моей галактики!»; one fish slap.
+For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. No speech. Pearls and street only.
 
 NEGATIVE:
-no pike (the fish is an ide), no real interviewee likeness, no face replacement between cuts, no child, no ice collapse or drowning, no extra fish or hands, no copied meme audio. No replay of Part 1 action or dialogue. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+no frozen lake, no boat, no fish, no second costume, no collage, no copied meme audio, no child. No extra limbs, identity drift or clothing drift. No replay of Part 1 action or dialogue.
 
 FRAME FILL / NO BARS:
 Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
 ```
 
----
+</div>
+
+</div>
+
+<a id="scene-76B"></a>
+
+### 76B · «Нормально» — только лёд
+
+Только прорубь. Принятый кадр `references/scenes/scene-76/S76-normalno-ice.png`. Слот `references/scenes/scene-76/S76B-normalno-only.jpg` — нужен кадр, файла нет.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-76/S76-normalno-ice.png" target="_blank" rel="noopener"><img src="references/scenes/scene-76/previews/S76-normalno-ice.webp" alt="76B — принятый кадр льда" loading="lazy" width="480"></a><figcaption>76B — принятый кадр льда</figcaption></figure>
+</div>
+
+<div class="engine-tabs" data-scene="76">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### Wan 3.0 / Seedance 2.5 · 30 с
+
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — кадр только этой подсцены.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic comedy with living light, colour and performance
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/vitalik.jpg — exact Виталик face only.
+@Image2 = references/scenes/scene-76/S76-normalno-ice.png — ONLY the ice gag: lying by a round hole in black winter clothes. Dedicated slot references/scenes/scene-76/S76B-normalno-only.jpg is requested and not yet a file.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK: exact adult face of @Image1 only. Stocky fair man, round face, short light-brown hair, light stubble, grey-green eyes. Costume is this subscene only and must not leak into another subscene. Costume: black puffer, black insulated trousers, black knit beanie, gloves. Fully clothed on the snow.
+
+SCENE / SPACE:
+One wide frozen lake, safe round ice hole, pine horizon, flat winter light. No street, no boat, no giant hat.
+
+START STATE:
+He is already lowering himself onto the snow beside the round hole, fully clothed.
+
+STORY FLOW:
+0–8s: He settles on his side, comfortable.
+8–14s: Offscreen man, complete: «Бать, тебе нормально?» Vitalik turns his eyes to the lens, mouth still closed.
+14–24s: He answers the whole word «Норма-а-ально» and nods, content.
+24–30s: Hold the nod. No boat.
+
+END STATE:
+Still on the snow, beanie on, small satisfied smile.
+
+CAMERA / LIGHT / PERFORMANCE:
+50mm, face readable for Russian lip-sync, motivated practical light, one clear camera move. Overacted but human. No collage, no second location in frame.
+
+AUDIO:
+Wind. Offscreen «Бать, тебе нормально?» then the full «Норма-а-ально».
+
+NEGATIVE:
+no city street, no red kokoshnik, no boat, no fish, no drowning, no broken ice. No extra limbs, identity drift or clothing drift.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+#### Seedance 2.0 · часть 1 · 15 с
+
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — кадр только этой подсцены.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colour and performance
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/vitalik.jpg — exact Виталик face only.
+@Image2 = references/scenes/scene-76/S76-normalno-ice.png — ONLY the ice gag: lying by a round hole in black winter clothes. Dedicated slot references/scenes/scene-76/S76B-normalno-only.jpg is requested and not yet a file.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK: exact adult face of @Image1 only. Stocky fair man, round face, short light-brown hair, light stubble, grey-green eyes. Costume is this subscene only and must not leak into another subscene. Costume: black puffer, black insulated trousers, black knit beanie, gloves. Fully clothed on the snow.
+
+SCENE / SPACE:
+One wide frozen lake, safe round ice hole, pine horizon, flat winter light. No street, no boat, no giant hat.
+
+START STATE:
+Getting comfortable on the snow.
+
+STORY FLOW:
+0–15s: He lies down. The offscreen line «Бать, тебе нормально?» is heard whole. His mouth stays closed; he only looks at the lens.
+
+END STATE:
+Eyes on lens, mouth closed, about to answer but not yet speaking.
+
+CAMERA / LIGHT / PERFORMANCE:
+50mm, face readable for Russian lip-sync, motivated practical light, one clear camera move. Overacted but human. No collage, no second location in frame.
+
+AUDIO:
+For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Only the offscreen question. He does not answer yet.
+
+NEGATIVE:
+no city street, no red kokoshnik, no boat, no fish, no drowning, no broken ice. No extra limbs, identity drift or clothing drift.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+#### Seedance 2.0 · часть 2 · 15 с
+
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — кадр только этой подсцены. @Video1 — настоящие последние 3 с P1 подсцены 76B.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colour and performance
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/vitalik.jpg — exact Виталик face only.
+@Image2 = references/scenes/scene-76/S76-normalno-ice.png — ONLY the ice gag: lying by a round hole in black winter clothes. Dedicated slot references/scenes/scene-76/S76B-normalno-only.jpg is requested and not yet a file.
+@Video1 = actual final 3 seconds of Scene 76 subscene 76B Seedance Part 1 — real continuity, not a generated substitute.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK: exact adult face of @Image1 only. Stocky fair man, round face, short light-brown hair, light stubble, grey-green eyes. Costume is this subscene only and must not leak into another subscene. Costume: black puffer, black insulated trousers, black knit beanie, gloves. Fully clothed on the snow.
+
+SCENE / SPACE:
+One wide frozen lake, safe round ice hole, pine horizon, flat winter light. No street, no boat, no giant hat.
+
+START STATE:
+Eyes already on the lens, mouth closed, question already asked.
+
+STORY FLOW:
+0–15s: He speaks the entire «Норма-а-ально» and finishes with one contented nod.
+
+END STATE:
+Nod completed, still on the snow.
+
+CAMERA / LIGHT / PERFORMANCE:
+50mm, face readable for Russian lip-sync, motivated practical light, one clear camera move. Overacted but human. No collage, no second location in frame.
+
+AUDIO:
+For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Only the full answer word. Do not repeat the question.
+
+NEGATIVE:
+no city street, no red kokoshnik, no boat, no fish, no drowning, no broken ice. No extra limbs, identity drift or clothing drift. No replay of Part 1 action or dialogue.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
 
 </div>
 
 </div>
 
----
+<a id="scene-76C"></a>
+
+### 76C · Язь — только лодка
+
+Только лодка и язь, не щука. Принятый кадр `references/scenes/scene-76/S76-yaz-fish.png`. Слот `references/scenes/scene-76/S76C-yaz-only.jpg` — нужен кадр, файла нет.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-76/S76-yaz-fish.png" target="_blank" rel="noopener"><img src="references/scenes/scene-76/previews/S76-yaz-fish.webp" alt="76C — принятый кадр язя" loading="lazy" width="480"></a><figcaption>76C — принятый кадр язя</figcaption></figure>
+</div>
+
+<div class="engine-tabs" data-scene="76">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### Wan 3.0 / Seedance 2.5 · 30 с
+
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — кадр только этой подсцены.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic comedy with living light, colour and performance
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/vitalik.jpg — exact Виталик face only.
+@Image2 = references/scenes/scene-76/S76-yaz-fish.png — ONLY the boat and the ide. Dedicated slot references/scenes/scene-76/S76C-yaz-only.jpg is requested and not yet a file.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK: exact adult face of @Image1 only. Stocky fair man, round face, short light-brown hair, light stubble, grey-green eyes. Costume is this subscene only and must not leak into another subscene. Costume: olive fishing jacket over a brown sweater. Both hands on one large golden-bronze ide.
+
+SCENE / SPACE:
+One small wooden boat on a summer river, green banks, warm sun. No street, no ice, no kokoshnik.
+
+START STATE:
+Seated in the boat, both hands reaching for the ide at his feet.
+
+STORY FLOW:
+0–8s: He lifts the large ide into frame with both hands.
+8–18s: Whole shout «Я-а-азь! Космический! Рыба всей моей галактики!» A faint cyan shimmer runs along the fish once.
+18–30s: One tail flick, he tightens his hold and beams. Hold.
+
+END STATE:
+Fish toward the lens, both hands, beaming, no new line.
+
+CAMERA / LIGHT / PERFORMANCE:
+50mm, face readable for Russian lip-sync, motivated practical light, one clear camera move. Overacted but human. No collage, no second location in frame.
+
+AUDIO:
+Boat creak, one slap, the full shout only.
+
+NEGATIVE:
+no street, no ice, no kokoshnik, no pike (the fish is an ide), no second fish. No extra limbs, identity drift or clothing drift.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+#### Seedance 2.0 · часть 1 · 15 с
+
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — кадр только этой подсцены.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colour and performance
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/vitalik.jpg — exact Виталик face only.
+@Image2 = references/scenes/scene-76/S76-yaz-fish.png — ONLY the boat and the ide. Dedicated slot references/scenes/scene-76/S76C-yaz-only.jpg is requested and not yet a file.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK: exact adult face of @Image1 only. Stocky fair man, round face, short light-brown hair, light stubble, grey-green eyes. Costume is this subscene only and must not leak into another subscene. Costume: olive fishing jacket over a brown sweater. Both hands on one large golden-bronze ide.
+
+SCENE / SPACE:
+One small wooden boat on a summer river, green banks, warm sun. No street, no ice, no kokoshnik.
+
+START STATE:
+Hands reaching for the fish.
+
+STORY FLOW:
+0–15s: He lifts the ide and says the entire shout «Я-а-азь! Космический! Рыба всей моей галактики!»
+
+END STATE:
+Fish up, shout finished, shimmer just fading.
+
+CAMERA / LIGHT / PERFORMANCE:
+50mm, face readable for Russian lip-sync, motivated practical light, one clear camera move. Overacted but human. No collage, no second location in frame.
+
+AUDIO:
+For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. The full shout, nothing else.
+
+NEGATIVE:
+no street, no ice, no kokoshnik, no pike (the fish is an ide), no second fish. No extra limbs, identity drift or clothing drift.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+#### Seedance 2.0 · часть 2 · 15 с
+
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — кадр только этой подсцены. @Video1 — настоящие последние 3 с P1 подсцены 76C.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colour and performance
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/vitalik.jpg — exact Виталик face only.
+@Image2 = references/scenes/scene-76/S76-yaz-fish.png — ONLY the boat and the ide. Dedicated slot references/scenes/scene-76/S76C-yaz-only.jpg is requested and not yet a file.
+@Video1 = actual final 3 seconds of Scene 76 subscene 76C Seedance Part 1 — real continuity, not a generated substitute.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK: exact adult face of @Image1 only. Stocky fair man, round face, short light-brown hair, light stubble, grey-green eyes. Costume is this subscene only and must not leak into another subscene. Costume: olive fishing jacket over a brown sweater. Both hands on one large golden-bronze ide.
+
+SCENE / SPACE:
+One small wooden boat on a summer river, green banks, warm sun. No street, no ice, no kokoshnik.
+
+START STATE:
+Fish already up, shout already finished.
+
+STORY FLOW:
+0–15s: One tail flick, he secures the fish and beams at the lens. No second shout.
+
+END STATE:
+Beaming hold.
+
+CAMERA / LIGHT / PERFORMANCE:
+50mm, face readable for Russian lip-sync, motivated practical light, one clear camera move. Overacted but human. No collage, no second location in frame.
+
+AUDIO:
+For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. No speech. One fish slap.
+
+NEGATIVE:
+no street, no ice, no kokoshnik, no pike (the fish is an ide), no second fish. No extra limbs, identity drift or clothing drift. No replay of Part 1 action or dialogue.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+</div>
 
 <a id="scene-77"></a>
 
@@ -12677,16 +12957,14 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 <!-- parody-photo-publication-81 -->
 <p><strong>Сохранённые фото:</strong> <a href="parodies.html#scene-81" target="_blank" rel="noopener">Открыть фотографии сцены</a>. Публикация кадров и промптов по команде t506u. Это не одобрение ролика и не запуск видео. · <a href="https://drive.google.com/drive/folders/1m0kKr532uOqOzyoIZh_9ZlrWfOoQtNxu" target="_blank" rel="noopener">Все варианты на Google Диске</a>.</p>
 
-### 81 · «Давай поженимся»: Алексей ищет невесту — черновик (DRAFT)
+<a id="scene-81A"></a>
 
-**Кадр:** `references/scenes/scene-81/S81-swap-artem.jpg` (Артём рядом с Алексеем, лиловая студия, две ведущие). Мини-серия 81 → 82 → 83 (монтажный порядок, не видеостык). Вариант: один ролик 30 с или связная пара 15+15 — реплики Гузеевой про Алексея целиком во второй части.
+### 81A · Знакомство — сеем пальто
 
-**Что происходит:** Ведущая (роль Ларисы Гузеевой) представляет жениха Алексея и произносит про него свою фирменную речь; Алексей хочет двадцатилетнюю невесту, вторая ведущая (роль Розы Сябитовой) говорит «Ясненько. Понятненько», Артём за друга ручается. Внешность Алексея и Артёма — строго по лицам, не съезжать.
-
-**Стык 15+15:** P1 заканчивается так: _Alexey has finished his introduction, seated with hands on knees; Artyom beside him mid-nod; hostesses about to respond._ P2 стартует из этого же состояния по @Video1 (настоящие последние 3 с P1), без повтора; каждая реплика целиком в одной части, ничего не обрывается на полуслове.
+Глава 1 из 81 → 82 → 83. Знакомство. Причина выбора Артёма сеется здесь фразой про пальто. Портреты ведущих: слоты «нужен портрет», файлов нет. Общий кадр — только расстановка.
 
 <div class="scene-ref-gallery">
-<figure><a href="references/scenes/scene-81/S81-swap-artem.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-81/previews/S81-swap-artem.webp" alt="81 — черновик: Алексей и Артём" loading="lazy" width="480"></a><figcaption>81 — черновик: Алексей и Артём</figcaption></figure>
+<figure><a href="references/scenes/scene-81/S81-swap-artem.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-81/previews/S81-swap-artem.webp" alt="81A — принятый кадр расстановки" loading="lazy" width="480"></a><figcaption>81A — принятый кадр расстановки</figcaption></figure>
 </div>
 
 <div class="engine-tabs" data-scene="81">
@@ -12695,48 +12973,50 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — лицо, `references/full/lesha.jpg`; @Image2 — лицо, `references/full/artem.jpg`; @Image3 — `references/scenes/scene-81/S81-swap-artem.jpg`.
+**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — `references/full/artem.jpg`; @Image3 — `references/scenes/scene-81/S81-swap-artem.jpg`; @Image4 и @Image5 — слоты «нужен портрет», файлов нет.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 / Seedance 2.5 | Photoreal TV-talk-show parody with sincere overacting
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic comedy with living light, colour and performance
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/lesha.jpg — exact Алексей (Лёша) facial identity only; costume is defined below, never inherited from the source sheet.
-@Image2 = references/full/artem.jpg — exact Артём facial identity only; costume is defined below, never inherited from the source sheet.
-@Image3 = references/scenes/scene-81/S81-swap-artem.jpg — staging: lilac matchmaking TV studio, seating, wardrobe, and the two hostesses’ look; never overrides exact facial identity or source age. This helper is not a literal first frame.
-Facial references outrank the staged images for identity and age. Do not animate a slideshow or a collage; generate real continuous motion. Do not reproduce source-sheet Jedi/Tatooine costumes.
+@Image1 = references/full/lesha.jpg — Alexey face only.
+@Image2 = references/full/artem.jpg — Artyom face only.
+@Image3 = references/scenes/scene-81/S81-swap-artem.jpg — seating, wardrobe and studio only, never the identity of the hostesses.
+@Image4 = references/full/hostess-larisa.jpg — НУЖЕН ПОРТРЕТ, файла нет.
+@Image5 = references/full/hostess-roza.jpg — НУЖЕН ПОРТРЕТ, файла нет.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-ALEXEY / LESHA: exact slim adult fair man, wavy brown hair and distinct brown moustache; navy suit, white shirt, burgundy tie; seated centre-left. ARTYOM: exact stocky adult man, tousled light-brown hair, short light beard/stubble, broad friendly face; brown suede blazer over a patterned floral shirt; seated far left beside Alexey, never a random stranger. HOSTESS 1 (parody role "Лариса"): as in @Image3 — dark hair in an updo, black velvet dress with a large fabric flower brooch, statement earrings. HOSTESS 2 (parody role "Роза"): as in @Image3 — auburn bob, red-framed glasses, pink tweed jacket with pearls. Alexey and Artyom faces come only from @Image1/@Image2 and must not drift. This is an expressly fictional comedy reenactment, not authentic broadcast footage; no real channel logo.
+ALEXEY / LESHA: exact face of @Image1, slim adult, wavy brown hair, brown moustache. Navy suit, white shirt, burgundy tie, centre-left. ARTYOM: exact face of @Image2, stocky adult, tousled light-brown hair, short light beard, broad friendly face. Brown suede blazer, floral shirt, far left. HOSTESS LARISA, parody role, not a real presenter: seat and costume only from the staging still — dark updo, black velvet dress, large fabric-flower brooch, statement earrings, hosts' desk. @Image4 is an empty slot «нужен портрет» (references/full/hostess-larisa.jpg does not exist). Do not copy her face from the group still and do not invent a celebrity likeness. HOSTESS ROZA, parody role: auburn bob, red glasses, pink tweed and pearls, seated beside Larisa. @Image5 is an empty slot «нужен портрет» (references/full/hostess-roza.jpg does not exist). No face lock from the group still. Artyom sits far screen-left. Alexey sits centre-left in a navy suit, white shirt, burgundy tie. The two hostesses sit at the desk opposite them: Larisa speaks the long lines, Roza sits beside her. Nobody swaps seats.
 
 SCENE / SPACE:
-Bright lilac TV-matchmaking studio with arched windows, pink-and-white flower arrangements, cream armchairs, a round glass table with teacups and a bouquet; softly blurred adult audience heads in the foreground. Artyom and Alexey screen-left, the hostesses screen-right.
+Lilac matchmaking studio, one desk, four seated people, no logos, no second room.
 
 START STATE:
-All four seated as in @Image3; Hostess 1 turns toward Alexey to begin.
+Four already seated as in the still.
 
 STORY FLOW:
-0–6s: Medium-wide. Hostess 1 introduces him warmly: «Сегодня у нас жених — Алексей. Сорок лет, руки золотые».
-6–9s: She continues: «Алексей, расскажите о себе».
-9–13s: Cut on axis to Alexey, earnest: «Мне сорок. Спокойный, хозяйственный».
-13–15s: Artyom gives one big supportive nod; a beat.
-15–22s: Hostess 1 leans in, theatrical, hand on heart, speaking about Alexey: «Алексей, золотой вы мой! Усы есть, руки есть, кран починит. Но двадцатилетняя? Ей же с вами скучно будет!»
-22–25s: Alexey, hopeful: «Хочется начать с чистого листа».
-25–28s: Hostess 2 looks over her glasses: «Ясненько. Понятненько».
-28–30s: Artyom: «Я за него поручаюсь». The hostesses exchange a dry look.
+0–6s: Larisa, whole line: «Сегодня у нас жених — Алексей. Сорок лет, руки золотые».
+6–9s: Larisa: «Алексей, расскажите о себе».
+9–13s: Alexey: «Мне сорок. Спокойный, хозяйственный».
+13–16s: Larisa, hand on heart, whole: «Алексей, золотой вы мой! Усы есть, руки есть, кран починит. Но двадцатилетняя? Ей же с вами скучно будет!»
+16–19s: Alexey: «Хочется начать с чистого листа».
+19–22s: Roza, over her glasses: «Ясненько. Понятненько».
+22–26s: Artyom: «Я за него поручаюсь».
+26–30s: Artyom, gentler, the planted reason: «Ей со мной было бы тепло: я бы пальто принёс». The hostesses notice.
 
 END STATE:
-Four seated as established; Alexey hopeful, Artyom supportive, hostesses skeptical. No bride yet.
+Hostesses have clocked the coat line. Nobody has stood.
 
 CAMERA / LIGHT / PERFORMANCE:
-Broadcast medium-wide master plus matched medium singles on one axis; no orbit or crash zoom. Sincere but theatrical TV performance; one mouth active at a time.
+Lilac studio, soft key from above-left, gentle eye lights, 35mm master and matched singles. Keep seats fixed. Theatrical but kind.
 
 AUDIO:
-Studio room tone, soft audience murmur. Exactly the lines in STORY FLOW, each by its named speaker, new performed voices (not extracted TV audio). No music, no laugh track.
+Only the lines above, each finished. No music.
 
 NEGATIVE:
-no switched speakers, no face drift for Alexey or Artyom, no random stranger in Artyom’s seat, no blended faces, no bride entrance, no fifth principal, no station logo or caption. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+no real channel logo, no swapped seats, no bride yet, no celebrity face copy, no collage. No extra limbs or identity drift.
 
 FRAME FILL / NO BARS:
 Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
@@ -12748,44 +13028,43 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 1 · 15 с
 
-**Входы:** @Image1 — лицо, `references/full/lesha.jpg`; @Image2 — лицо, `references/full/artem.jpg`; @Image3 — `references/scenes/scene-81/S81-swap-artem.jpg`.
+**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — `references/full/artem.jpg`; @Image3 — `references/scenes/scene-81/S81-swap-artem.jpg`; @Image4 и @Image5 — слоты «нужен портрет», файлов нет.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal TV-talk-show parody with sincere overacting
+Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colour and performance
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/lesha.jpg — exact Алексей (Лёша) facial identity only; costume is defined below, never inherited from the source sheet.
-@Image2 = references/full/artem.jpg — exact Артём facial identity only; costume is defined below, never inherited from the source sheet.
-@Image3 = references/scenes/scene-81/S81-swap-artem.jpg — staging: lilac matchmaking TV studio, seating, wardrobe, and the two hostesses’ look; never overrides exact facial identity or source age. This helper is not a literal first frame.
-Facial references outrank the staged images for identity and age. Do not animate a slideshow or a collage; generate real continuous motion. Do not reproduce source-sheet Jedi/Tatooine costumes.
+@Image1 = references/full/lesha.jpg — Alexey face only.
+@Image2 = references/full/artem.jpg — Artyom face only.
+@Image3 = references/scenes/scene-81/S81-swap-artem.jpg — seating, wardrobe and studio only, never the identity of the hostesses.
+@Image4 = references/full/hostess-larisa.jpg — НУЖЕН ПОРТРЕТ, файла нет.
+@Image5 = references/full/hostess-roza.jpg — НУЖЕН ПОРТРЕТ, файла нет.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-ALEXEY / LESHA: exact slim adult fair man, wavy brown hair and distinct brown moustache; navy suit, white shirt, burgundy tie; seated centre-left. ARTYOM: exact stocky adult man, tousled light-brown hair, short light beard/stubble, broad friendly face; brown suede blazer over a patterned floral shirt; seated far left beside Alexey, never a random stranger. HOSTESS 1 (parody role "Лариса"): as in @Image3 — dark hair in an updo, black velvet dress with a large fabric flower brooch, statement earrings. HOSTESS 2 (parody role "Роза"): as in @Image3 — auburn bob, red-framed glasses, pink tweed jacket with pearls. Alexey and Artyom faces come only from @Image1/@Image2 and must not drift. This is an expressly fictional comedy reenactment, not authentic broadcast footage; no real channel logo.
+ALEXEY / LESHA: exact face of @Image1, slim adult, wavy brown hair, brown moustache. Navy suit, white shirt, burgundy tie, centre-left. ARTYOM: exact face of @Image2, stocky adult, tousled light-brown hair, short light beard, broad friendly face. Brown suede blazer, floral shirt, far left. HOSTESS LARISA, parody role, not a real presenter: seat and costume only from the staging still — dark updo, black velvet dress, large fabric-flower brooch, statement earrings, hosts' desk. @Image4 is an empty slot «нужен портрет» (references/full/hostess-larisa.jpg does not exist). Do not copy her face from the group still and do not invent a celebrity likeness. HOSTESS ROZA, parody role: auburn bob, red glasses, pink tweed and pearls, seated beside Larisa. @Image5 is an empty slot «нужен портрет» (references/full/hostess-roza.jpg does not exist). No face lock from the group still. Artyom sits far screen-left. Alexey sits centre-left in a navy suit, white shirt, burgundy tie. The two hostesses sit at the desk opposite them: Larisa speaks the long lines, Roza sits beside her. Nobody swaps seats.
 
 SCENE / SPACE:
-Bright lilac TV-matchmaking studio with arched windows, pink-and-white flower arrangements, cream armchairs, a round glass table with teacups and a bouquet; softly blurred adult audience heads in the foreground. Artyom and Alexey screen-left, the hostesses screen-right.
+Lilac matchmaking studio, one desk, four seated people, no logos, no second room.
 
 START STATE:
-All four seated as in @Image3; Hostess 1 turns toward Alexey to begin.
+Seated as in the still.
 
 STORY FLOW:
-0–6s: Medium-wide. Hostess 1: «Сегодня у нас жених — Алексей. Сорок лет, руки золотые».
-6–9s: She continues: «Алексей, расскажите о себе».
-9–13s: Cut to Alexey, earnest: «Мне сорок. Спокойный, хозяйственный».
-13–15s: Artyom gives one big supportive nod; a beat.
+0–15s: Larisa's introduction and «Алексей, расскажите о себе» are complete. Alexey finishes «Мне сорок. Спокойный, хозяйственный». Artyom nods.
 
 END STATE:
-Alexey has finished his introduction, seated with hands on knees; Artyom beside him mid-nod; hostesses about to respond.
+Alexey's self-description is finished. Hostesses have not answered yet.
 
 CAMERA / LIGHT / PERFORMANCE:
-Broadcast medium-wide master plus matched medium singles on one axis; no orbit or crash zoom. Sincere but theatrical TV performance; one mouth active at a time.
+Lilac studio, soft key from above-left, gentle eye lights, 35mm master and matched singles. Keep seats fixed. Theatrical but kind.
 
 AUDIO:
-For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Hostess 1 two lines; Alexey «Мне сорок. Спокойный, хозяйственный».
+For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Those three complete lines only.
 
 NEGATIVE:
-no switched speakers, no face drift for Alexey or Artyom, no random stranger in Artyom’s seat, no blended faces, no bride entrance, no fifth principal, no station logo or caption. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+no real channel logo, no swapped seats, no bride yet, no celebrity face copy, no collage. No extra limbs or identity drift.
 
 FRAME FILL / NO BARS:
 Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
@@ -12793,57 +13072,55 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 2 · 15 с
 
-**Входы:** @Image1 — лицо, `references/full/lesha.jpg`; @Image2 — лицо, `references/full/artem.jpg`; @Image3 — `references/scenes/scene-81/S81-swap-artem.jpg`; @Video1 — последние 3 с НАСТОЯЩЕГО результата своей P1 (без него P2 не запускать).
+**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — `references/full/artem.jpg`; @Image3 — `references/scenes/scene-81/S81-swap-artem.jpg`; @Image4 и @Image5 — слоты «нужен портрет», файлов нет. @Video1 — настоящие последние 3 с P1 подсцены 81A.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal TV-talk-show parody with sincere overacting
+Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colour and performance
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/lesha.jpg — exact Алексей (Лёша) facial identity only; costume is defined below, never inherited from the source sheet.
-@Image2 = references/full/artem.jpg — exact Артём facial identity only; costume is defined below, never inherited from the source sheet.
-@Image3 = references/scenes/scene-81/S81-swap-artem.jpg — staging: lilac matchmaking TV studio, seating, wardrobe, and the two hostesses’ look; never overrides exact facial identity or source age. This helper is not a literal first frame.
-@Video1 = actual final 3 seconds of Scene 81 Seedance Part 1 — real motion/pose continuity, not a generated substitute.
-Facial references outrank the staged images for identity and age. Do not animate a slideshow or a collage; generate real continuous motion. Do not reproduce source-sheet Jedi/Tatooine costumes.
+@Image1 = references/full/lesha.jpg — Alexey face only.
+@Image2 = references/full/artem.jpg — Artyom face only.
+@Image3 = references/scenes/scene-81/S81-swap-artem.jpg — seating, wardrobe and studio only, never the identity of the hostesses.
+@Image4 = references/full/hostess-larisa.jpg — НУЖЕН ПОРТРЕТ, файла нет.
+@Image5 = references/full/hostess-roza.jpg — НУЖЕН ПОРТРЕТ, файла нет.
+@Video1 = actual final 3 seconds of Scene 81 subscene 81A Seedance Part 1 — real continuity, not a generated substitute.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-ALEXEY / LESHA: exact slim adult fair man, wavy brown hair and distinct brown moustache; navy suit, white shirt, burgundy tie; seated centre-left. ARTYOM: exact stocky adult man, tousled light-brown hair, short light beard/stubble, broad friendly face; brown suede blazer over a patterned floral shirt; seated far left beside Alexey, never a random stranger. HOSTESS 1 (parody role "Лариса"): as in @Image3 — dark hair in an updo, black velvet dress with a large fabric flower brooch, statement earrings. HOSTESS 2 (parody role "Роза"): as in @Image3 — auburn bob, red-framed glasses, pink tweed jacket with pearls. Alexey and Artyom faces come only from @Image1/@Image2 and must not drift. This is an expressly fictional comedy reenactment, not authentic broadcast footage; no real channel logo.
+ALEXEY / LESHA: exact face of @Image1, slim adult, wavy brown hair, brown moustache. Navy suit, white shirt, burgundy tie, centre-left. ARTYOM: exact face of @Image2, stocky adult, tousled light-brown hair, short light beard, broad friendly face. Brown suede blazer, floral shirt, far left. HOSTESS LARISA, parody role, not a real presenter: seat and costume only from the staging still — dark updo, black velvet dress, large fabric-flower brooch, statement earrings, hosts' desk. @Image4 is an empty slot «нужен портрет» (references/full/hostess-larisa.jpg does not exist). Do not copy her face from the group still and do not invent a celebrity likeness. HOSTESS ROZA, parody role: auburn bob, red glasses, pink tweed and pearls, seated beside Larisa. @Image5 is an empty slot «нужен портрет» (references/full/hostess-roza.jpg does not exist). No face lock from the group still. Artyom sits far screen-left. Alexey sits centre-left in a navy suit, white shirt, burgundy tie. The two hostesses sit at the desk opposite them: Larisa speaks the long lines, Roza sits beside her. Nobody swaps seats.
 
 SCENE / SPACE:
-Bright lilac TV-matchmaking studio with arched windows, pink-and-white flower arrangements, cream armchairs, a round glass table with teacups and a bouquet; softly blurred adult audience heads in the foreground. Artyom and Alexey screen-left, the hostesses screen-right.
+Lilac matchmaking studio, one desk, four seated people, no logos, no second room.
 
 START STATE:
-Continue the actual last moment of @Video1, without replaying it. Target continuity: Alexey has finished his introduction, seated with hands on knees; Artyom beside him mid-nod; hostesses about to respond.
+Alexey has finished speaking. Hostesses are about to answer.
 
 STORY FLOW:
-0–7s: Hostess 1 leans in, hand on heart, about Alexey: «Алексей, золотой вы мой! Усы есть, руки есть, кран починит. Но двадцатилетняя? Ей же с вами скучно будет!»
-7–10s: Alexey, hopeful: «Хочется начать с чистого листа».
-10–13s: Hostess 2 over her glasses: «Ясненько. Понятненько».
-13–15s: Artyom: «Я за него поручаюсь». Dry look between the hostesses.
+0–8s: Larisa's whole speech «Алексей, золотой вы мой! Усы есть, руки есть, кран починит. Но двадцатилетняя? Ей же с вами скучно будет!»
+8–11s: Alexey: «Хочется начать с чистого листа».
+11–13s: Roza: «Ясненько. Понятненько».
+13–15s: Artyom: «Я за него поручаюсь. Ей со мной было бы тепло: я бы пальто принёс».
 
 END STATE:
-Four seated as established; Alexey hopeful, Artyom supportive, hostesses skeptical. No bride yet.
+Coat line finished. Hostesses look at Artyom.
 
 CAMERA / LIGHT / PERFORMANCE:
-Broadcast medium-wide master plus matched medium singles on one axis; no orbit or crash zoom. Sincere but theatrical TV performance; one mouth active at a time.
+Lilac studio, soft key from above-left, gentle eye lights, 35mm master and matched singles. Keep seats fixed. Theatrical but kind.
 
 AUDIO:
-For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Hostess 1 speech about Alexey; Alexey «Хочется начать с чистого листа»; Hostess 2 «Ясненько. Понятненько»; Artyom «Я за него поручаюсь».
+For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Those complete lines only. Do not repeat Part 1.
 
 NEGATIVE:
-no switched speakers, no face drift for Alexey or Artyom, no random stranger in Artyom’s seat, no blended faces, no bride entrance, no fifth principal, no station logo or caption. No replay of Part 1 action or dialogue. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+no real channel logo, no swapped seats, no bride yet, no celebrity face copy, no collage. No extra limbs or identity drift. No replay of Part 1 action or dialogue.
 
 FRAME FILL / NO BARS:
 Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
 ```
 
----
-
 </div>
 
 </div>
-
----
 
 <a id="scene-82"></a>
 
@@ -12864,16 +13141,14 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 <!-- parody-photo-publication-82 -->
 <p><strong>Сохранённые фото:</strong> <a href="parodies.html#scene-82" target="_blank" rel="noopener">Открыть фотографии сцены</a>. Публикация кадров и промптов по команде t506u. Это не одобрение ролика и не запуск видео. · <a href="https://drive.google.com/drive/folders/1m0kKr532uOqOzyoIZh_9ZlrWfOoQtNxu" target="_blank" rel="noopener">Все варианты на Google Диске</a>.</p>
 
-### 82 · Комната жениха: звёздные друзья Алексея — черновик (DRAFT)
+<a id="scene-82A"></a>
 
-**Кадр (единственный):** `references/scenes/scene-82/groom-lounge-preview.png`. Вторую версию не делаем. На кадре Алексей сам сидит в комнате (белый смокинг, бабочка, бокал) — сюжет переписан под это: друзья-голливудские двойники (роли Гослинга, Ди Каприо, Питта) восхищаются им лично.
+### 82A · Звёзды хвалят хозяйственность
 
-**Что происходит:** Перед выходом в студию три «звезды» в смокингах наперебой хвалят хозяйственность Алексея; он скромно отвечает.
-
-**Стык 15+15:** P1 заканчивается так: _Friend 3 leaning forward, pointing admiringly at Alexey; Alexey with one hand at his bow tie; others watching._ P2 стартует из этого же состояния по @Video1 (настоящие последние 3 с P1), без повтора; каждая реплика целиком в одной части, ничего не обрывается на полуслове.
+Глава 2. Невероятная поддержка. Единственный кадр комнаты не заменять и не дублировать. Трём гостям нужен портрет; общий кадр задаёт места, не лица.
 
 <div class="scene-ref-gallery">
-<figure><a href="references/scenes/scene-82/groom-lounge-preview.png" target="_blank" rel="noopener"><img src="references/scenes/scene-82/previews/groom-lounge-preview.webp" alt="82 — черновик: комната жениха" loading="lazy" width="480"></a><figcaption>82 — черновик: комната жениха</figcaption></figure>
+<figure><a href="references/scenes/scene-82/groom-lounge-preview.png" target="_blank" rel="noopener"><img src="references/scenes/scene-82/previews/groom-lounge-preview.webp" alt="82A — единственный принятый кадр комнаты" loading="lazy" width="480"></a><figcaption>82A — единственный принятый кадр комнаты</figcaption></figure>
 </div>
 
 <div class="engine-tabs" data-scene="82">
@@ -12882,47 +13157,52 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — лицо, `references/full/lesha.jpg`; @Image2 — `references/scenes/scene-82/groom-lounge-preview.png`.
+**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — единственный кадр `references/scenes/scene-82/groom-lounge-preview.png`; @Image3–@Image5 — слоты «нужен портрет», файлов нет.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 / Seedance 2.5 | Photoreal comedy parody with sincere overacting
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic comedy with living light, colour and performance
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/lesha.jpg — exact Алексей (Лёша) facial identity only; costume is defined below, never inherited from the source sheet.
-@Image2 = references/scenes/scene-82/groom-lounge-preview.png — staging: luxury groom lounge, Alexey on the left sofa, three tuxedoed Hollywood-star look-alike friends on the right, champagne bucket, macarons, flowers, tuxedo rack; never overrides exact facial identity or source age. This helper is not a literal first frame.
-Facial references outrank the staged images for identity and age. Do not animate a slideshow or a collage; generate real continuous motion. Do not reproduce source-sheet Jedi/Tatooine costumes.
+@Image1 = references/full/lesha.jpg — Alexey face only.
+@Image2 = references/scenes/scene-82/groom-lounge-preview.png — the single accepted room frame: seats, tuxedos, table. Not a second room and not a face lock for the three friends.
+@Image3 = references/full/star-friend-1.jpg — НУЖЕН ПОРТРЕТ, файла нет. Friend 1, leftmost of the three.
+@Image4 = references/full/star-friend-2.jpg — НУЖЕН ПОРТРЕТ, файла нет. Friend 2, centre.
+@Image5 = references/full/star-friend-3.jpg — НУЖЕН ПОРТРЕТ, файла нет. Friend 3, right.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-ALEXEY / LESHA: exact slim adult fair man, wavy brown hair and distinct brown moustache; white dinner jacket with black satin lapels, black bow tie, black trousers, a whisky glass in hand; seated screen-left. FRIENDS 1–3: three distinct adult male Hollywood-star look-alike parody characters exactly as in @Image2, all in black tuxedos — Friend 1 (left, short light-brown hair), Friend 2 (centre, swept-back hair, goatee), Friend 3 (right, longer blond hair, stubble). Never blend their faces with each other or with Alexey. Fictional parody performances; no claim of endorsement.
+ALEXEY: exact face of @Image1, white dinner jacket, black satin lapels, black bow tie, glass in hand, seated screen-left.
+FRIEND 1 (left of the three, short light-brown hair, black tuxedo): portrait slot empty. Seat and clothes from the still only.
+FRIEND 2 (centre, swept-back hair, goatee, black tuxedo): portrait slot empty.
+FRIEND 3 (right, longer blond hair, stubble, black tuxedo): portrait slot empty.
+Do not blend faces and do not copy a real film star. Fictional parody guests.
 
 SCENE / SPACE:
-Warm luxury dressing-room lounge: leather sofas, marble table with champagne in an ice bucket, glasses, macarons, white roses; tuxedo rack and mirror bulbs behind. Seating as in @Image2.
+One warm dressing-room lounge exactly as the single still: leather, marble, champagne bucket, macarons, white roses, mirror bulbs. No second room, no studio, no bride.
 
 START STATE:
-All four seated as in @Image2; the friends turn admiringly toward Alexey.
+All four seated as in the single still. Friends look toward Alexey.
 
 STORY FLOW:
-0–3s: Stable medium-wide establishing all four.
-3–7s: Friend 1, genuinely impressed: «Я думал, я завидный жених. Потом встретил Алексея».
-7–11s: Friend 2, gesturing at Alexey: «Он и кран починит, и инструкцию прочитает».
-11–15s: Friend 3 leans forward, pointing at Alexey in awe; Alexey modestly adjusts his bow tie.
-15–20s: Friend 3: «И контейнеры возвращает с крышками».
-20–23s: Friend 1 nods solemnly: «Это уже высшая лига».
-23–27s: Friend 2: «Алексей, оставь шанс остальным».
-27–30s: Alexey, calm and modest: «Ребята, я просто хозяйственный». The friends raise their glasses to him.
+0–6s: Friend 1, whole: «Я думал, я завидный жених. Потом встретил Алексея».
+6–11s: Friend 2: «Он и кран починит, и инструкцию прочитает».
+11–16s: Friend 3 leans in and says «И контейнеры возвращает с крышками».
+16–20s: Friend 1: «Это уже высшая лига».
+20–24s: Friend 2: «Алексей, оставь шанс остальным».
+24–30s: Alexey, modest, whole: «Ребята, я просто хозяйственный». They raise glasses.
 
 END STATE:
-The three friends toast Alexey; he sits modestly with his glass. No one leaves; no bride.
+Glasses raised. Alexey still seated screen-left. No one leaves.
 
 CAMERA / LIGHT / PERFORMANCE:
-Stable medium-wide master with a gentle push-in and matched singles; keep left–right seating. Sincere admiring overacting.
+Warm practical bulbs, amber and cream, slow push-in, seats never swap. Admiring, not drunk.
 
 AUDIO:
-Quiet lounge tone, ice clink, glass clink. Exactly the lines in STORY FLOW by named speakers, new voices. No music.
+Ice clink. Exactly those lines, each finished. No music.
 
 NEGATIVE:
-no fourth friend, no blended celebrity faces, no real endorsement graphics, no award statuettes, no copied movie footage, no drunkenness. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+no fourth friend, no second room, no bride, no celebrity face copy, no blended faces, no drunkenness, no collage. No extra limbs or identity drift.
 
 FRAME FILL / NO BARS:
 Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
@@ -12934,43 +13214,47 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 1 · 15 с
 
-**Входы:** @Image1 — лицо, `references/full/lesha.jpg`; @Image2 — `references/scenes/scene-82/groom-lounge-preview.png`.
+**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — единственный кадр `references/scenes/scene-82/groom-lounge-preview.png`; @Image3–@Image5 — слоты «нужен портрет», файлов нет.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal comedy parody with sincere overacting
+Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colour and performance
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/lesha.jpg — exact Алексей (Лёша) facial identity only; costume is defined below, never inherited from the source sheet.
-@Image2 = references/scenes/scene-82/groom-lounge-preview.png — staging: luxury groom lounge, Alexey on the left sofa, three tuxedoed Hollywood-star look-alike friends on the right, champagne bucket, macarons, flowers, tuxedo rack; never overrides exact facial identity or source age. This helper is not a literal first frame.
-Facial references outrank the staged images for identity and age. Do not animate a slideshow or a collage; generate real continuous motion. Do not reproduce source-sheet Jedi/Tatooine costumes.
+@Image1 = references/full/lesha.jpg — Alexey face only.
+@Image2 = references/scenes/scene-82/groom-lounge-preview.png — the single accepted room frame: seats, tuxedos, table. Not a second room and not a face lock for the three friends.
+@Image3 = references/full/star-friend-1.jpg — НУЖЕН ПОРТРЕТ, файла нет. Friend 1, leftmost of the three.
+@Image4 = references/full/star-friend-2.jpg — НУЖЕН ПОРТРЕТ, файла нет. Friend 2, centre.
+@Image5 = references/full/star-friend-3.jpg — НУЖЕН ПОРТРЕТ, файла нет. Friend 3, right.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-ALEXEY / LESHA: exact slim adult fair man, wavy brown hair and distinct brown moustache; white dinner jacket with black satin lapels, black bow tie, black trousers, a whisky glass in hand; seated screen-left. FRIENDS 1–3: three distinct adult male Hollywood-star look-alike parody characters exactly as in @Image2, all in black tuxedos — Friend 1 (left, short light-brown hair), Friend 2 (centre, swept-back hair, goatee), Friend 3 (right, longer blond hair, stubble). Never blend their faces with each other or with Alexey. Fictional parody performances; no claim of endorsement.
+ALEXEY: exact face of @Image1, white dinner jacket, black satin lapels, black bow tie, glass in hand, seated screen-left.
+FRIEND 1 (left of the three, short light-brown hair, black tuxedo): portrait slot empty. Seat and clothes from the still only.
+FRIEND 2 (centre, swept-back hair, goatee, black tuxedo): portrait slot empty.
+FRIEND 3 (right, longer blond hair, stubble, black tuxedo): portrait slot empty.
+Do not blend faces and do not copy a real film star. Fictional parody guests.
 
 SCENE / SPACE:
-Warm luxury dressing-room lounge: leather sofas, marble table with champagne in an ice bucket, glasses, macarons, white roses; tuxedo rack and mirror bulbs behind. Seating as in @Image2.
+One warm dressing-room lounge exactly as the single still: leather, marble, champagne bucket, macarons, white roses, mirror bulbs. No second room, no studio, no bride.
 
 START STATE:
-All four seated as in @Image2; the friends turn admiringly toward Alexey.
+Same seats.
 
 STORY FLOW:
-0–3s: Stable medium-wide establishing all four.
-3–7s: Friend 1: «Я думал, я завидный жених. Потом встретил Алексея».
-7–11s: Friend 2: «Он и кран починит, и инструкцию прочитает».
-11–15s: Friend 3 leans forward pointing at Alexey in awe; Alexey modestly adjusts his bow tie.
+0–15s: Friend 1 finishes «Я думал, я завидный жених. Потом встретил Алексея». Friend 2 finishes «Он и кран починит, и инструкцию прочитает». Friend 3 is leaning in, not yet speaking.
 
 END STATE:
-Friend 3 leaning forward, pointing admiringly at Alexey; Alexey with one hand at his bow tie; others watching.
+Friend 3 leaning forward, Alexey's hand at his bow tie.
 
 CAMERA / LIGHT / PERFORMANCE:
-Stable medium-wide master with a gentle push-in and matched singles; keep left–right seating. Sincere admiring overacting.
+Warm practical bulbs, amber and cream, slow push-in, seats never swap. Admiring, not drunk.
 
 AUDIO:
-For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Friend 1 and Friend 2 lines only.
+For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Only those two complete lines.
 
 NEGATIVE:
-no fourth friend, no blended celebrity faces, no real endorsement graphics, no award statuettes, no copied movie footage, no drunkenness. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+no fourth friend, no second room, no bride, no celebrity face copy, no blended faces, no drunkenness, no collage. No extra limbs or identity drift.
 
 FRAME FILL / NO BARS:
 Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
@@ -12978,56 +13262,59 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 2 · 15 с
 
-**Входы:** @Image1 — лицо, `references/full/lesha.jpg`; @Image2 — `references/scenes/scene-82/groom-lounge-preview.png`; @Video1 — последние 3 с НАСТОЯЩЕГО результата своей P1 (без него P2 не запускать).
+**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — единственный кадр `references/scenes/scene-82/groom-lounge-preview.png`; @Image3–@Image5 — слоты «нужен портрет», файлов нет. @Video1 — настоящие последние 3 с P1 подсцены 82A.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal comedy parody with sincere overacting
+Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colour and performance
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/lesha.jpg — exact Алексей (Лёша) facial identity only; costume is defined below, never inherited from the source sheet.
-@Image2 = references/scenes/scene-82/groom-lounge-preview.png — staging: luxury groom lounge, Alexey on the left sofa, three tuxedoed Hollywood-star look-alike friends on the right, champagne bucket, macarons, flowers, tuxedo rack; never overrides exact facial identity or source age. This helper is not a literal first frame.
-@Video1 = actual final 3 seconds of Scene 82 Seedance Part 1 — real motion/pose continuity, not a generated substitute.
-Facial references outrank the staged images for identity and age. Do not animate a slideshow or a collage; generate real continuous motion. Do not reproduce source-sheet Jedi/Tatooine costumes.
+@Image1 = references/full/lesha.jpg — Alexey face only.
+@Image2 = references/scenes/scene-82/groom-lounge-preview.png — the single accepted room frame: seats, tuxedos, table. Not a second room and not a face lock for the three friends.
+@Image3 = references/full/star-friend-1.jpg — НУЖЕН ПОРТРЕТ, файла нет. Friend 1, leftmost of the three.
+@Image4 = references/full/star-friend-2.jpg — НУЖЕН ПОРТРЕТ, файла нет. Friend 2, centre.
+@Image5 = references/full/star-friend-3.jpg — НУЖЕН ПОРТРЕТ, файла нет. Friend 3, right.
+@Video1 = actual final 3 seconds of Scene 82 subscene 82A Seedance Part 1 — real continuity, not a generated substitute.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-ALEXEY / LESHA: exact slim adult fair man, wavy brown hair and distinct brown moustache; white dinner jacket with black satin lapels, black bow tie, black trousers, a whisky glass in hand; seated screen-left. FRIENDS 1–3: three distinct adult male Hollywood-star look-alike parody characters exactly as in @Image2, all in black tuxedos — Friend 1 (left, short light-brown hair), Friend 2 (centre, swept-back hair, goatee), Friend 3 (right, longer blond hair, stubble). Never blend their faces with each other or with Alexey. Fictional parody performances; no claim of endorsement.
+ALEXEY: exact face of @Image1, white dinner jacket, black satin lapels, black bow tie, glass in hand, seated screen-left.
+FRIEND 1 (left of the three, short light-brown hair, black tuxedo): portrait slot empty. Seat and clothes from the still only.
+FRIEND 2 (centre, swept-back hair, goatee, black tuxedo): portrait slot empty.
+FRIEND 3 (right, longer blond hair, stubble, black tuxedo): portrait slot empty.
+Do not blend faces and do not copy a real film star. Fictional parody guests.
 
 SCENE / SPACE:
-Warm luxury dressing-room lounge: leather sofas, marble table with champagne in an ice bucket, glasses, macarons, white roses; tuxedo rack and mirror bulbs behind. Seating as in @Image2.
+One warm dressing-room lounge exactly as the single still: leather, marble, champagne bucket, macarons, white roses, mirror bulbs. No second room, no studio, no bride.
 
 START STATE:
-Continue the actual last moment of @Video1, without replaying it. Target continuity: Friend 3 leaning forward, pointing admiringly at Alexey; Alexey with one hand at his bow tie; others watching.
+Friend 3 already leaning in. Do not repeat the first two lines.
 
 STORY FLOW:
-0–5s: Friend 3: «И контейнеры возвращает с крышками».
-5–8s: Friend 1: «Это уже высшая лига».
-8–12s: Friend 2: «Алексей, оставь шанс остальным».
-12–15s: Alexey: «Ребята, я просто хозяйственный». Glasses raised.
+0–6s: Friend 3: «И контейнеры возвращает с крышками».
+6–9s: Friend 1: «Это уже высшая лига».
+9–12s: Friend 2: «Алексей, оставь шанс остальным».
+12–15s: Alexey: «Ребята, я просто хозяйственный». Glasses rise.
 
 END STATE:
-The three friends toast Alexey; he sits modestly with his glass. No one leaves; no bride.
+Toast hold.
 
 CAMERA / LIGHT / PERFORMANCE:
-Stable medium-wide master with a gentle push-in and matched singles; keep left–right seating. Sincere admiring overacting.
+Warm practical bulbs, amber and cream, slow push-in, seats never swap. Admiring, not drunk.
 
 AUDIO:
-For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Friend 3, Friend 1, Friend 2 lines, then Alexey «Ребята, я просто хозяйственный»; glass clink.
+For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Those complete lines only.
 
 NEGATIVE:
-no fourth friend, no blended celebrity faces, no real endorsement graphics, no award statuettes, no copied movie footage, no drunkenness. No replay of Part 1 action or dialogue. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+no fourth friend, no second room, no bride, no celebrity face copy, no blended faces, no drunkenness, no collage. No extra limbs or identity drift. No replay of Part 1 action or dialogue.
 
 FRAME FILL / NO BARS:
 Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
 ```
 
----
-
 </div>
 
 </div>
-
----
 
 <a id="scene-83"></a>
 
@@ -13049,16 +13336,14 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 <!-- parody-photo-publication-83 -->
 <p><strong>Сохранённые фото:</strong> <a href="parodies.html#scene-83" target="_blank" rel="noopener">Открыть фотографии сцены</a>. Публикация кадров и промптов по команде t506u. Это не одобрение ролика и не запуск видео. · <a href="https://drive.google.com/drive/folders/1m0kKr532uOqOzyoIZh_9ZlrWfOoQtNxu" target="_blank" rel="noopener">Все варианты на Google Диске</a>.</p>
 
-### 83 · Невеста уходит с Артёмом — черновик (DRAFT)
+<a id="scene-83A"></a>
 
-**Кадр:** `references/scenes/scene-83/S83-swap-artem-normal-head.jpg` (голова Артёма нормального размера). На кадре Алексей в серой толстовке поверх фиолетовой рубашки, Артём — в чёрном костюме, невеста в белом платье с фатой; держим одежду по кадру.
+### 83A · Невеста выбирает того, кто про пальто
 
-**Что происходит:** Невеста выбирает не Алексея, а его друга Артёма и уходит с ним под руку за кулисы. Алексей в шоке: «Я пришёл искать невесту. А нашёл — Артёму».
-
-**Стык 15+15:** P1 заканчивается так: _Bride arm in arm with Artyom, about to walk off; Alexey on the sofa, jaw dropped, frozen in disbelief._ P2 стартует из этого же состояния по @Video1 (настоящие последние 3 с P1), без повтора; каждая реплика целиком в одной части, ничего не обрывается на полуслове.
+Глава 3. Финал понятен из фразы про пальто в 81A и неожидан для Алексея. Отдельного портрета невесты нет: платье и фата с принятого кадра, лицо не закреплено.
 
 <div class="scene-ref-gallery">
-<figure><a href="references/scenes/scene-83/S83-swap-artem-normal-head.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-83/previews/S83-swap-artem-normal-head.webp" alt="83 — черновик: невеста и Артём" loading="lazy" width="480"></a><figcaption>83 — черновик: невеста и Артём</figcaption></figure>
+<figure><a href="references/scenes/scene-83/S83-swap-artem-normal-head.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-83/previews/S83-swap-artem-normal-head.webp" alt="83A — принятый кадр выбора" loading="lazy" width="480"></a><figcaption>83A — принятый кадр выбора</figcaption></figure>
 </div>
 
 <div class="engine-tabs" data-scene="83">
@@ -13067,48 +13352,46 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — лицо, `references/full/lesha.jpg`; @Image2 — лицо, `references/full/artem.jpg`; @Image3 — `references/scenes/scene-83/S83-swap-artem-normal-head.jpg`.
+**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — `references/full/artem.jpg`; @Image3 — `references/scenes/scene-83/S83-swap-artem-normal-head.jpg`.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 / Seedance 2.5 | Photoreal TV-show parody with maximum comic overacting
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic comedy with living light, colour and performance
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/lesha.jpg — exact Алексей (Лёша) facial identity only; costume is defined below, never inherited from the source sheet.
-@Image2 = references/full/artem.jpg — exact Артём facial identity only; costume is defined below, never inherited from the source sheet.
-@Image3 = references/scenes/scene-83/S83-swap-artem-normal-head.jpg — staging: studio with neon heart, cream sofa, backstage corridor, wardrobe, bride and Artyom walking away arm in arm; never overrides exact facial identity or source age. This helper is not a literal first frame.
-Facial references outrank the staged images for identity and age. Do not animate a slideshow or a collage; generate real continuous motion. Do not reproduce source-sheet Jedi/Tatooine costumes.
+@Image1 = references/full/lesha.jpg — Alexey face only.
+@Image2 = references/full/artem.jpg — Artyom face only.
+@Image3 = references/scenes/scene-83/S83-swap-artem-normal-head.jpg — staging and the bride's dress and veil only, not her identity lock. No separate bride portrait exists.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-ALEXEY / LESHA: exact slim adult fair man, wavy brown hair and distinct brown moustache; grey zip hoodie over a purple shirt, dark trousers; seated on the cream sofa screen-left. ARTYOM: exact stocky adult man, tousled light-brown hair, short light beard/stubble, broad friendly face; normal-sized head and natural proportions; black suit. BRIDE: one fictional adult woman (about 20), blonde updo, white lace wedding gown and veil, pink bouquet. She acts voluntarily and joyfully. No child.
+ALEXEY / LESHA: exact face of @Image1, slim adult, wavy brown hair, brown moustache. Grey hoodie over a purple shirt, on the sofa. ARTYOM: exact face of @Image2, stocky adult, tousled light-brown hair, short light beard, broad friendly face. Black suit. BRIDE: adult woman in a white dress and veil exactly as seated in @Image3; her face is not locked because there is no portrait. She chooses Artyom because of the coat line from Scene 81.
 
 SCENE / SPACE:
-Matchmaking TV studio with a glowing neon heart, pink flowers and a cream sofa screen-left; a backstage corridor with road cases and lights at screen-right/back.
+Same lilac studio, neon heart, backstage corridor. Alexey on the sofa. Bride and Artyom arm in arm.
 
 START STATE:
-Bride stands between the seated Alexey and the standing Artyom, bouquet in hand, facing the two men.
+Bride standing by the sofa, Artyom beside her, Alexey seated.
 
 STORY FLOW:
-0–5s: Bride, politely but beaming: «Алексей, вы замечательный. Но я выбираю Артёма».
-5–9s: Artyom, surprised and grinning: «Точно меня?»
-9–12s: Bride: «Да. Пойдём?»
-12–15s: She takes his arm; Alexey’s jaw drops in over-the-top disbelief.
-15–20s: They walk arm in arm toward the backstage corridor; she raises the bouquet joyfully.
-20–25s: Alexey, hands spread wide, maximum overacted bewilderment: «Я пришёл искать невесту. А нашёл — Артёму».
-25–27s: Artyom glances back while walking: «Лёх, я всё объясню!»
-27–30s: They disappear backstage; Alexey alone on the sofa, slow resigned smile; the neon heart flickers once.
+0–6s: Bride, whole: «Алексей, вы замечательный. Но он про пальто подумал. С вами мне будет холодно».
+6–10s: She turns to Artyom: «Я выбираю Артёма. Пойдём?»
+10–14s: Artyom, surprised: «Точно меня?» She takes his arm.
+14–20s: They walk toward the corridor. Alexey, whole: «Я пришёл искать невесту. А нашёл — Артёму».
+20–24s: Artyom glances back: «Лёх, я всё объясню!»
+24–30s: They leave. Alexey alone, a slow resigned smile. The neon heart flickers once.
 
 END STATE:
-Alexey alone on the sofa, hands still half-open, resigned smile; the couple gone backstage.
+Alexey alone on the sofa, small smile, heart flickering.
 
 CAMERA / LIGHT / PERFORMANCE:
-Medium-wide holding all three, slow pan toward the corridor, cut back to Alexey on axis. Maximum but human overacting.
+Soft lilac key, one tracking shot toward the corridor, faces readable. Surprise, then warmth.
 
 AUDIO:
-Studio tone, footsteps, soft audience gasp. Exactly the lines in STORY FLOW, new voices. No music, no laugh track.
+Only those complete lines. No music.
 
 NEGATIVE:
-no oversized head, no forced pulling, no fused hands, no costume change, no wedding ceremony, no second bride, no aggression. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+no coat physically appearing from nowhere as a new gag, no second bride, no swapped identities, no collage. No extra limbs.
 
 FRAME FILL / NO BARS:
 Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
@@ -13120,44 +13403,41 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 1 · 15 с
 
-**Входы:** @Image1 — лицо, `references/full/lesha.jpg`; @Image2 — лицо, `references/full/artem.jpg`; @Image3 — `references/scenes/scene-83/S83-swap-artem-normal-head.jpg`.
+**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — `references/full/artem.jpg`; @Image3 — `references/scenes/scene-83/S83-swap-artem-normal-head.jpg`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal TV-show parody with maximum comic overacting
+Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colour and performance
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/lesha.jpg — exact Алексей (Лёша) facial identity only; costume is defined below, never inherited from the source sheet.
-@Image2 = references/full/artem.jpg — exact Артём facial identity only; costume is defined below, never inherited from the source sheet.
-@Image3 = references/scenes/scene-83/S83-swap-artem-normal-head.jpg — staging: studio with neon heart, cream sofa, backstage corridor, wardrobe, bride and Artyom walking away arm in arm; never overrides exact facial identity or source age. This helper is not a literal first frame.
-Facial references outrank the staged images for identity and age. Do not animate a slideshow or a collage; generate real continuous motion. Do not reproduce source-sheet Jedi/Tatooine costumes.
+@Image1 = references/full/lesha.jpg — Alexey face only.
+@Image2 = references/full/artem.jpg — Artyom face only.
+@Image3 = references/scenes/scene-83/S83-swap-artem-normal-head.jpg — staging and the bride's dress and veil only, not her identity lock. No separate bride portrait exists.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-ALEXEY / LESHA: exact slim adult fair man, wavy brown hair and distinct brown moustache; grey zip hoodie over a purple shirt, dark trousers; seated on the cream sofa screen-left. ARTYOM: exact stocky adult man, tousled light-brown hair, short light beard/stubble, broad friendly face; normal-sized head and natural proportions; black suit. BRIDE: one fictional adult woman (about 20), blonde updo, white lace wedding gown and veil, pink bouquet. She acts voluntarily and joyfully. No child.
+ALEXEY / LESHA: exact face of @Image1, slim adult, wavy brown hair, brown moustache. Grey hoodie over a purple shirt, on the sofa. ARTYOM: exact face of @Image2, stocky adult, tousled light-brown hair, short light beard, broad friendly face. Black suit. BRIDE: adult woman in a white dress and veil exactly as seated in @Image3; her face is not locked because there is no portrait. She chooses Artyom because of the coat line from Scene 81.
 
 SCENE / SPACE:
-Matchmaking TV studio with a glowing neon heart, pink flowers and a cream sofa screen-left; a backstage corridor with road cases and lights at screen-right/back.
+Same lilac studio, neon heart, backstage corridor. Alexey on the sofa. Bride and Artyom arm in arm.
 
 START STATE:
-Bride stands between the seated Alexey and the standing Artyom, bouquet in hand, facing the two men.
+Bride beside the sofa.
 
 STORY FLOW:
-0–5s: Bride: «Алексей, вы замечательный. Но я выбираю Артёма».
-5–9s: Artyom, surprised: «Точно меня?»
-9–12s: Bride: «Да. Пойдём?»
-12–15s: She takes his arm; Alexey’s jaw drops in over-the-top disbelief.
+0–15s: She finishes «Алексей, вы замечательный. Но он про пальто подумал. С вами мне будет холодно». Then «Я выбираю Артёма. Пойдём?» Artyom: «Точно меня?» She has just taken his arm.
 
 END STATE:
-Bride arm in arm with Artyom, about to walk off; Alexey on the sofa, jaw dropped, frozen in disbelief.
+Arm in arm, about to walk. Alexey's jaw has dropped, he has not spoken yet.
 
 CAMERA / LIGHT / PERFORMANCE:
-Medium-wide holding all three, slow pan toward the corridor, cut back to Alexey on axis. Maximum but human overacting.
+Soft lilac key, one tracking shot toward the corridor, faces readable. Surprise, then warmth.
 
 AUDIO:
-For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Bride, Artyom, Bride lines; soft audience gasp.
+For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Those complete lines only.
 
 NEGATIVE:
-no oversized head, no forced pulling, no fused hands, no costume change, no wedding ceremony, no second bride, no aggression. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+no coat physically appearing from nowhere as a new gag, no second bride, no swapped identities, no collage. No extra limbs.
 
 FRAME FILL / NO BARS:
 Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
@@ -13165,57 +13445,52 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 2 · 15 с
 
-**Входы:** @Image1 — лицо, `references/full/lesha.jpg`; @Image2 — лицо, `references/full/artem.jpg`; @Image3 — `references/scenes/scene-83/S83-swap-artem-normal-head.jpg`; @Video1 — последние 3 с НАСТОЯЩЕГО результата своей P1 (без него P2 не запускать).
+**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — `references/full/artem.jpg`; @Image3 — `references/scenes/scene-83/S83-swap-artem-normal-head.jpg`. @Video1 — настоящие последние 3 с P1 подсцены 83A.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal TV-show parody with maximum comic overacting
+Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colour and performance
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/lesha.jpg — exact Алексей (Лёша) facial identity only; costume is defined below, never inherited from the source sheet.
-@Image2 = references/full/artem.jpg — exact Артём facial identity only; costume is defined below, never inherited from the source sheet.
-@Image3 = references/scenes/scene-83/S83-swap-artem-normal-head.jpg — staging: studio with neon heart, cream sofa, backstage corridor, wardrobe, bride and Artyom walking away arm in arm; never overrides exact facial identity or source age. This helper is not a literal first frame.
-@Video1 = actual final 3 seconds of Scene 83 Seedance Part 1 — real motion/pose continuity, not a generated substitute.
-Facial references outrank the staged images for identity and age. Do not animate a slideshow or a collage; generate real continuous motion. Do not reproduce source-sheet Jedi/Tatooine costumes.
+@Image1 = references/full/lesha.jpg — Alexey face only.
+@Image2 = references/full/artem.jpg — Artyom face only.
+@Image3 = references/scenes/scene-83/S83-swap-artem-normal-head.jpg — staging and the bride's dress and veil only, not her identity lock. No separate bride portrait exists.
+@Video1 = actual final 3 seconds of Scene 83 subscene 83A Seedance Part 1 — real continuity, not a generated substitute.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-ALEXEY / LESHA: exact slim adult fair man, wavy brown hair and distinct brown moustache; grey zip hoodie over a purple shirt, dark trousers; seated on the cream sofa screen-left. ARTYOM: exact stocky adult man, tousled light-brown hair, short light beard/stubble, broad friendly face; normal-sized head and natural proportions; black suit. BRIDE: one fictional adult woman (about 20), blonde updo, white lace wedding gown and veil, pink bouquet. She acts voluntarily and joyfully. No child.
+ALEXEY / LESHA: exact face of @Image1, slim adult, wavy brown hair, brown moustache. Grey hoodie over a purple shirt, on the sofa. ARTYOM: exact face of @Image2, stocky adult, tousled light-brown hair, short light beard, broad friendly face. Black suit. BRIDE: adult woman in a white dress and veil exactly as seated in @Image3; her face is not locked because there is no portrait. She chooses Artyom because of the coat line from Scene 81.
 
 SCENE / SPACE:
-Matchmaking TV studio with a glowing neon heart, pink flowers and a cream sofa screen-left; a backstage corridor with road cases and lights at screen-right/back.
+Same lilac studio, neon heart, backstage corridor. Alexey on the sofa. Bride and Artyom arm in arm.
 
 START STATE:
-Continue the actual last moment of @Video1, without replaying it. Target continuity: Bride arm in arm with Artyom, about to walk off; Alexey on the sofa, jaw dropped, frozen in disbelief.
+They are already arm in arm, about to walk. Do not repeat her choice.
 
 STORY FLOW:
-0–5s: They walk arm in arm toward the backstage corridor; she raises the bouquet joyfully.
-5–10s: Alexey, hands spread: «Я пришёл искать невесту. А нашёл — Артёму».
-10–12s: Artyom glances back: «Лёх, я всё объясню!»
-12–15s: They disappear backstage; Alexey alone, resigned smile; neon heart flickers.
+0–8s: They walk. Alexey says the whole line «Я пришёл искать невесту. А нашёл — Артёму».
+8–12s: Artyom: «Лёх, я всё объясню!»
+12–15s: They vanish. Alexey smiles. The heart flickers once.
 
 END STATE:
-Alexey alone on the sofa, hands still half-open, resigned smile; the couple gone backstage.
+Alexey alone.
 
 CAMERA / LIGHT / PERFORMANCE:
-Medium-wide holding all three, slow pan toward the corridor, cut back to Alexey on axis. Maximum but human overacting.
+Soft lilac key, one tracking shot toward the corridor, faces readable. Surprise, then warmth.
 
 AUDIO:
-For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Footsteps; Alexey «Я пришёл искать невесту. А нашёл — Артёму»; Artyom «Лёх, я всё объясню!»
+For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Those two complete lines only.
 
 NEGATIVE:
-no oversized head, no forced pulling, no fused hands, no costume change, no wedding ceremony, no second bride, no aggression. No replay of Part 1 action or dialogue. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+no coat physically appearing from nowhere as a new gag, no second bride, no swapped identities, no collage. No extra limbs. No replay of Part 1 action or dialogue.
 
 FRAME FILL / NO BARS:
 Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
 ```
 
----
-
 </div>
 
 </div>
-
----
 
 <a id="scene-84"></a>
 
@@ -13236,16 +13511,16 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 <!-- parody-photo-publication-84 -->
 <p><strong>Сохранённые фото:</strong> <a href="parodies.html#scene-84" target="_blank" rel="noopener">Открыть фотографии сцены</a>. Публикация кадров и промптов по команде t506u. Это не одобрение ролика и не запуск видео. · <a href="https://drive.google.com/drive/folders/1m0kKr532uOqOzyoIZh_9ZlrWfOoQtNxu" target="_blank" rel="noopener">Все варианты на Google Диске</a>.</p>
 
-### 84 · Илюша: «Тачку на прокачку» — защитная плёнка — черновик (DRAFT)
+<p><strong>Подсцены:</strong> <a href="#scene-84A">84A</a> · <a href="#scene-84B">84B</a> · <a href="#scene-84C">84C</a>. Услуга показана руками, пафос только у ведущего.</p>
 
-**Кадр:** `references/scenes/scene-84/S84-composite-ilyusha.jpg` (лицо Илюши с пересъёмки на чистой плёнке; фиолетовая машина, прозрачная плёнка, гараж, два механика, очки на голове).
+<a id="scene-84A"></a>
 
-**Что происходит:** Пародия на автошоу 2000-х: Илюша энергично рассказывает, что машину прокачивают прозрачной защитной плёнкой, механики выгоняют ракелем пузыри, цвет остаётся родным.
+### 84A · Пафос ведущего у голой панели
 
-**Стык 15+15:** P1 заканчивается так: _Mechanic 2’s gloved fingers on the film edge at the fender; Ilyusha beside the hood, sunglasses on his head._ P2 стартует из этого же состояния по @Video1 (настоящие последние 3 с P1), без повтора; каждая реплика целиком в одной части, ничего не обрывается на полуслове.
+Шутка в голосе, панель ещё голая и подготовленная.
 
 <div class="scene-ref-gallery">
-<figure><a href="references/scenes/scene-84/S84-composite-ilyusha.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-84/previews/S84-composite-ilyusha.webp" alt="84 — черновик: Илюша и плёнка" loading="lazy" width="480"></a><figcaption>84 — черновик: Илюша и плёнка</figcaption></figure>
+<figure><a href="references/scenes/scene-84/S84-composite-ilyusha.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-84/previews/S84-composite-ilyusha.webp" alt="84 — принятый общий кадр" loading="lazy" width="480"></a><figcaption>84 — принятый общий кадр</figcaption></figure>
 </div>
 
 <div class="engine-tabs" data-scene="84">
@@ -13254,47 +13529,43 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — лицо, `references/full/ilyusha.jpg`; @Image2 — `references/scenes/scene-84/S84-composite-ilyusha.jpg`.
+**Входы:** @Image1 — `references/full/ilyusha.jpg`; @Image2 — `references/scenes/scene-84/S84-composite-ilyusha.jpg`. Слоты крупных планов плёнки — нужен кадр, файлов нет.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 / Seedance 2.5 | Photoreal 2000s car-makeover-show parody with energetic overacting
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic comedy with living light, colour and performance
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/ilyusha.jpg — exact Илюша facial identity only; costume is defined below, never inherited from the source sheet.
-@Image2 = references/scenes/scene-84/S84-composite-ilyusha.jpg — staging: neon garage with flame mural, purple sports car, clear film on the hood, two mechanics, host wardrobe; never overrides exact facial identity or source age. This helper is not a literal first frame.
-Facial references outrank the staged images for identity and age. Do not animate a slideshow or a collage; generate real continuous motion. Do not reproduce source-sheet Jedi/Tatooine costumes.
+@Image1 = references/full/ilyusha.jpg — Ilyusha face only.
+@Image2 = references/scenes/scene-84/S84-composite-ilyusha.jpg — accepted wide still: purple car, clear film, garage, two mechanics. Shared staging, not a collage of the three beats.
+Dedicated stills not yet files: references/scenes/scene-84/S84B-prepared-panel.jpg, references/scenes/scene-84/S84B-squeegee-pass.jpg, references/scenes/scene-84/S84C-neat-result.jpg.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-ILYUSHA: exact adult man, chestnut hair swept up, distinct moustache, lively expressive face; aviator sunglasses pushed up on his head; glossy red leather racing jacket with white stripes over a white T-shirt, silver chain and bracelets. MECHANIC 1: bandana, grey work shirt, gloves, yellow squeegee. MECHANIC 2: dark cap and dark work uniform, gloves. Both mechanics secondary.
+ILYUSHA: exact face of @Image1, energetic adult host, sunglasses on his head until the last beat. Two adult mechanics in dark garage coveralls and gloves, no locked faces.
 
 SCENE / SPACE:
-Bright showroom-garage studio: purple metallic sports car, clear wet protective film on the hood with droplets, flame mural, checkered wall, chrome rims, stage truss lights, a monitor. The car stays parked and purple.
+One clean garage bay, purple car, cool overhead practicals plus a warm beauty light on the paint. No second car.
 
 START STATE:
-Ilyusha at frame left, leaning toward the camera, beaming; mechanics already at the hood with the film.
+Ilyusha beside the hood, sunglasses on his head, panel still bare and clean.
 
 STORY FLOW:
-0–5s: Ilyusha, pointing at the lens with huge energy: «Йоу! Сегодня прокачиваем не лошадей. Сегодня — спокойствие владельца!»
-5–9s: Close on the hood: Mechanic 1 slides the yellow squeegee over the clear film, water droplets pushed aside.
-9–13s: Ilyusha: «Прозрачная защитная плёнка. Цвет оставляем родной!»
-13–15s: Mechanic 2 smooths the film edge on the fender with gloved fingers.
-15–21s: Satisfying close-up of one deliberate squeegee pass, a bubble pushed out to the edge; the purple paint gleams beneath.
-21–25s: Ilyusha beside the hood: «Снаружи — твоя тачка. Сверху — дополнительная защита!»
-25–28s: He taps the treated panel proudly: «Красоту не прячем. Бережём!»
-28–30s: He flips the sunglasses down onto his eyes; reveal of the glossy purple car.
+0–10s: Whole line «Йоу! Сегодня прокачиваем не лошадей. Сегодня — спокойствие владельца!»
+10–20s: He presents the bare prepared panel with both hands, solemn as a jeweller.
+20–30s: He steps aside so the clean panel fills the frame. No squeegee yet.
 
 END STATE:
-Ilyusha in sunglasses beside the glossy purple car with the film applied; mechanics stepping back.
+Prepared bare panel in frame, host at the edge.
 
 CAMERA / LIGHT / PERFORMANCE:
-Energetic 2000s TV-show framing: short push-ins, two inserts of film and squeegee, no spinning camera or strobe montage. Big host energy, real tool contact.
+Crisp commercial light, 35mm host and 50mm material close-ups. The joke is the solemn car-show voice, while the hands really install the film.
 
 AUDIO:
-Garage ambience, squeegee squeak, spray mist. Exactly the host lines, new voice. No copied show theme, no music.
+Only that one complete line.
 
 NEGATIVE:
-no opaque wrap or foil, no colour change, no knife on paint, no indestructibility claim, no contact details, no show logo, no extra host. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+no skipped installation, no paint colour change, no flames, no logo, no collage of host and macro in one frame. No extra limbs.
 
 FRAME FILL / NO BARS:
 Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
@@ -13306,43 +13577,41 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 1 · 15 с
 
-**Входы:** @Image1 — лицо, `references/full/ilyusha.jpg`; @Image2 — `references/scenes/scene-84/S84-composite-ilyusha.jpg`.
+**Входы:** @Image1 — `references/full/ilyusha.jpg`; @Image2 — `references/scenes/scene-84/S84-composite-ilyusha.jpg`. Слоты крупных планов плёнки — нужен кадр, файлов нет.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal 2000s car-makeover-show parody with energetic overacting
+Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colour and performance
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/ilyusha.jpg — exact Илюша facial identity only; costume is defined below, never inherited from the source sheet.
-@Image2 = references/scenes/scene-84/S84-composite-ilyusha.jpg — staging: neon garage with flame mural, purple sports car, clear film on the hood, two mechanics, host wardrobe; never overrides exact facial identity or source age. This helper is not a literal first frame.
-Facial references outrank the staged images for identity and age. Do not animate a slideshow or a collage; generate real continuous motion. Do not reproduce source-sheet Jedi/Tatooine costumes.
+@Image1 = references/full/ilyusha.jpg — Ilyusha face only.
+@Image2 = references/scenes/scene-84/S84-composite-ilyusha.jpg — accepted wide still: purple car, clear film, garage, two mechanics. Shared staging, not a collage of the three beats.
+Dedicated stills not yet files: references/scenes/scene-84/S84B-prepared-panel.jpg, references/scenes/scene-84/S84B-squeegee-pass.jpg, references/scenes/scene-84/S84C-neat-result.jpg.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-ILYUSHA: exact adult man, chestnut hair swept up, distinct moustache, lively expressive face; aviator sunglasses pushed up on his head; glossy red leather racing jacket with white stripes over a white T-shirt, silver chain and bracelets. MECHANIC 1: bandana, grey work shirt, gloves, yellow squeegee. MECHANIC 2: dark cap and dark work uniform, gloves. Both mechanics secondary.
+ILYUSHA: exact face of @Image1, energetic adult host, sunglasses on his head until the last beat. Two adult mechanics in dark garage coveralls and gloves, no locked faces.
 
 SCENE / SPACE:
-Bright showroom-garage studio: purple metallic sports car, clear wet protective film on the hood with droplets, flame mural, checkered wall, chrome rims, stage truss lights, a monitor. The car stays parked and purple.
+One clean garage bay, purple car, cool overhead practicals plus a warm beauty light on the paint. No second car.
 
 START STATE:
-Ilyusha at frame left, leaning toward the camera, beaming; mechanics already at the hood with the film.
+Beside the hood.
 
 STORY FLOW:
-0–5s: Ilyusha, pointing at the lens: «Йоу! Сегодня прокачиваем не лошадей. Сегодня — спокойствие владельца!»
-5–9s: Close on the hood: squeegee over clear film, droplets pushed aside.
-9–13s: Ilyusha: «Прозрачная защитная плёнка. Цвет оставляем родной!»
-13–15s: Mechanic 2 smooths the film edge on the fender with gloved fingers.
+0–15s: He finishes «Йоу! Сегодня прокачиваем не лошадей. Сегодня — спокойствие владельца!» and presents the bare panel.
 
 END STATE:
-Mechanic 2’s gloved fingers on the film edge at the fender; Ilyusha beside the hood, sunglasses on his head.
+Panel presented, still bare.
 
 CAMERA / LIGHT / PERFORMANCE:
-Energetic 2000s TV-show framing: short push-ins, two inserts of film and squeegee, no spinning camera or strobe montage. Big host energy, real tool contact.
+Crisp commercial light, 35mm host and 50mm material close-ups. The joke is the solemn car-show voice, while the hands really install the film.
 
 AUDIO:
-For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Host lines 1–2; squeegee squeak.
+For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. That complete line only.
 
 NEGATIVE:
-no opaque wrap or foil, no colour change, no knife on paint, no indestructibility claim, no contact details, no show logo, no extra host. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+no skipped installation, no paint colour change, no flames, no logo, no collage of host and macro in one frame. No extra limbs.
 
 FRAME FILL / NO BARS:
 Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
@@ -13350,56 +13619,354 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 2 · 15 с
 
-**Входы:** @Image1 — лицо, `references/full/ilyusha.jpg`; @Image2 — `references/scenes/scene-84/S84-composite-ilyusha.jpg`; @Video1 — последние 3 с НАСТОЯЩЕГО результата своей P1 (без него P2 не запускать).
+**Входы:** @Image1 — `references/full/ilyusha.jpg`; @Image2 — `references/scenes/scene-84/S84-composite-ilyusha.jpg`. Слоты крупных планов плёнки — нужен кадр, файлов нет. @Video1 — настоящие последние 3 с P1 подсцены 84A.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal 2000s car-makeover-show parody with energetic overacting
+Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colour and performance
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/ilyusha.jpg — exact Илюша facial identity only; costume is defined below, never inherited from the source sheet.
-@Image2 = references/scenes/scene-84/S84-composite-ilyusha.jpg — staging: neon garage with flame mural, purple sports car, clear film on the hood, two mechanics, host wardrobe; never overrides exact facial identity or source age. This helper is not a literal first frame.
-@Video1 = actual final 3 seconds of Scene 84 Seedance Part 1 — real motion/pose continuity, not a generated substitute.
-Facial references outrank the staged images for identity and age. Do not animate a slideshow or a collage; generate real continuous motion. Do not reproduce source-sheet Jedi/Tatooine costumes.
+@Image1 = references/full/ilyusha.jpg — Ilyusha face only.
+@Image2 = references/scenes/scene-84/S84-composite-ilyusha.jpg — accepted wide still: purple car, clear film, garage, two mechanics. Shared staging, not a collage of the three beats.
+Dedicated stills not yet files: references/scenes/scene-84/S84B-prepared-panel.jpg, references/scenes/scene-84/S84B-squeegee-pass.jpg, references/scenes/scene-84/S84C-neat-result.jpg.
+@Video1 = actual final 3 seconds of Scene 84 subscene 84A Seedance Part 1 — real continuity, not a generated substitute.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-ILYUSHA: exact adult man, chestnut hair swept up, distinct moustache, lively expressive face; aviator sunglasses pushed up on his head; glossy red leather racing jacket with white stripes over a white T-shirt, silver chain and bracelets. MECHANIC 1: bandana, grey work shirt, gloves, yellow squeegee. MECHANIC 2: dark cap and dark work uniform, gloves. Both mechanics secondary.
+ILYUSHA: exact face of @Image1, energetic adult host, sunglasses on his head until the last beat. Two adult mechanics in dark garage coveralls and gloves, no locked faces.
 
 SCENE / SPACE:
-Bright showroom-garage studio: purple metallic sports car, clear wet protective film on the hood with droplets, flame mural, checkered wall, chrome rims, stage truss lights, a monitor. The car stays parked and purple.
+One clean garage bay, purple car, cool overhead practicals plus a warm beauty light on the paint. No second car.
 
 START STATE:
-Continue the actual last moment of @Video1, without replaying it. Target continuity: Mechanic 2’s gloved fingers on the film edge at the fender; Ilyusha beside the hood, sunglasses on his head.
+Panel already presented.
 
 STORY FLOW:
-0–6s: Mechanic 2 finishes the fender edge and steps aside; Mechanic 1 makes one deliberate squeegee pass in close-up, a bubble pushed to the edge; purple paint gleams.
-6–10s: Ilyusha: «Снаружи — твоя тачка. Сверху — дополнительная защита!»
-10–13s: He taps the panel: «Красоту не прячем. Бережём!»
-13–15s: He flips the sunglasses down; reveal of the glossy purple car.
+0–15s: He walks the camera along the bare prepared panel and stops. No new slogan.
 
 END STATE:
-Ilyusha in sunglasses beside the glossy purple car with the film applied; mechanics stepping back.
+Hold on the clean panel.
 
 CAMERA / LIGHT / PERFORMANCE:
-Energetic 2000s TV-show framing: short push-ins, two inserts of film and squeegee, no spinning camera or strobe montage. Big host energy, real tool contact.
+Crisp commercial light, 35mm host and 50mm material close-ups. The joke is the solemn car-show voice, while the hands really install the film.
 
 AUDIO:
-For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Squeegee squeak; host lines 3–4.
+For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. No speech.
 
 NEGATIVE:
-no opaque wrap or foil, no colour change, no knife on paint, no indestructibility claim, no contact details, no show logo, no extra host. No replay of Part 1 action or dialogue. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+no skipped installation, no paint colour change, no flames, no logo, no collage of host and macro in one frame. No extra limbs. No replay of Part 1 action or dialogue.
 
 FRAME FILL / NO BARS:
 Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
 ```
 
----
+</div>
+
+</div>
+
+<a id="scene-84B"></a>
+
+### 84B · Плёнка и проход ракелем
+
+Слот крупных планов: S84B-prepared-panel.jpg и S84B-squeegee-pass.jpg — нужны кадры, файлов нет. Пока постановка с принятого общего кадра.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-84/S84-composite-ilyusha.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-84/previews/S84-composite-ilyusha.webp" alt="84 — принятый общий кадр" loading="lazy" width="480"></a><figcaption>84 — принятый общий кадр</figcaption></figure>
+</div>
+
+<div class="engine-tabs" data-scene="84">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### Wan 3.0 / Seedance 2.5 · 30 с
+
+**Входы:** @Image1 — `references/full/ilyusha.jpg`; @Image2 — `references/scenes/scene-84/S84-composite-ilyusha.jpg`. Слоты крупных планов плёнки — нужен кадр, файлов нет.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic comedy with living light, colour and performance
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/ilyusha.jpg — Ilyusha face only.
+@Image2 = references/scenes/scene-84/S84-composite-ilyusha.jpg — accepted wide still: purple car, clear film, garage, two mechanics. Shared staging, not a collage of the three beats.
+Dedicated stills not yet files: references/scenes/scene-84/S84B-prepared-panel.jpg, references/scenes/scene-84/S84B-squeegee-pass.jpg, references/scenes/scene-84/S84C-neat-result.jpg.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+ILYUSHA: exact face of @Image1, energetic adult host, sunglasses on his head until the last beat. Two adult mechanics in dark garage coveralls and gloves, no locked faces.
+
+SCENE / SPACE:
+One clean garage bay, purple car, cool overhead practicals plus a warm beauty light on the paint. No second car.
+
+START STATE:
+Clear film already laid on the wet purple hood. Mechanic 1 holds a yellow squeegee.
+
+STORY FLOW:
+0–6s: Ilyusha, whole: «Прозрачная защитная плёнка. Цвет оставляем родной!»
+6–18s: One real squeegee pass pushes water and one bubble to the edge.
+18–30s: Mechanic 2 sets the film edge on the fender with gloved fingers. Paint stays purple underneath.
+
+END STATE:
+Film stuck, edge down, paint still the original purple.
+
+CAMERA / LIGHT / PERFORMANCE:
+Crisp commercial light, 35mm host and 50mm material close-ups. The joke is the solemn car-show voice, while the hands really install the film.
+
+AUDIO:
+Workshop room tone and one squeegee squeak. Only that line.
+
+NEGATIVE:
+no skipped installation, no paint colour change, no flames, no logo, no collage of host and macro in one frame. No extra limbs.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+#### Seedance 2.0 · часть 1 · 15 с
+
+**Входы:** @Image1 — `references/full/ilyusha.jpg`; @Image2 — `references/scenes/scene-84/S84-composite-ilyusha.jpg`. Слоты крупных планов плёнки — нужен кадр, файлов нет.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colour and performance
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/ilyusha.jpg — Ilyusha face only.
+@Image2 = references/scenes/scene-84/S84-composite-ilyusha.jpg — accepted wide still: purple car, clear film, garage, two mechanics. Shared staging, not a collage of the three beats.
+Dedicated stills not yet files: references/scenes/scene-84/S84B-prepared-panel.jpg, references/scenes/scene-84/S84B-squeegee-pass.jpg, references/scenes/scene-84/S84C-neat-result.jpg.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+ILYUSHA: exact face of @Image1, energetic adult host, sunglasses on his head until the last beat. Two adult mechanics in dark garage coveralls and gloves, no locked faces.
+
+SCENE / SPACE:
+One clean garage bay, purple car, cool overhead practicals plus a warm beauty light on the paint. No second car.
+
+START STATE:
+Film laid, squeegee ready.
+
+STORY FLOW:
+0–15s: The line «Прозрачная защитная плёнка. Цвет оставляем родной!» is finished, then the squeegee starts and is mid-pass.
+
+END STATE:
+Squeegee mid-panel, bubble still ahead of it.
+
+CAMERA / LIGHT / PERFORMANCE:
+Crisp commercial light, 35mm host and 50mm material close-ups. The joke is the solemn car-show voice, while the hands really install the film.
+
+AUDIO:
+For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. That complete line, then squeak.
+
+NEGATIVE:
+no skipped installation, no paint colour change, no flames, no logo, no collage of host and macro in one frame. No extra limbs.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+#### Seedance 2.0 · часть 2 · 15 с
+
+**Входы:** @Image1 — `references/full/ilyusha.jpg`; @Image2 — `references/scenes/scene-84/S84-composite-ilyusha.jpg`. Слоты крупных планов плёнки — нужен кадр, файлов нет. @Video1 — настоящие последние 3 с P1 подсцены 84B.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colour and performance
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/ilyusha.jpg — Ilyusha face only.
+@Image2 = references/scenes/scene-84/S84-composite-ilyusha.jpg — accepted wide still: purple car, clear film, garage, two mechanics. Shared staging, not a collage of the three beats.
+Dedicated stills not yet files: references/scenes/scene-84/S84B-prepared-panel.jpg, references/scenes/scene-84/S84B-squeegee-pass.jpg, references/scenes/scene-84/S84C-neat-result.jpg.
+@Video1 = actual final 3 seconds of Scene 84 subscene 84B Seedance Part 1 — real continuity, not a generated substitute.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+ILYUSHA: exact face of @Image1, energetic adult host, sunglasses on his head until the last beat. Two adult mechanics in dark garage coveralls and gloves, no locked faces.
+
+SCENE / SPACE:
+One clean garage bay, purple car, cool overhead practicals plus a warm beauty light on the paint. No second car.
+
+START STATE:
+Squeegee already mid-pass.
+
+STORY FLOW:
+0–15s: The pass finishes, the bubble exits, Mechanic 2 sets the edge. No repeated slogan.
+
+END STATE:
+Edge down, glossy, purple unchanged.
+
+CAMERA / LIGHT / PERFORMANCE:
+Crisp commercial light, 35mm host and 50mm material close-ups. The joke is the solemn car-show voice, while the hands really install the film.
+
+AUDIO:
+For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. No speech.
+
+NEGATIVE:
+no skipped installation, no paint colour change, no flames, no logo, no collage of host and macro in one frame. No extra limbs. No replay of Part 1 action or dialogue.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
 
 </div>
 
 </div>
 
----
+<a id="scene-84C"></a>
+
+### 84C · Аккуратный результат
+
+Слот S84C-neat-result.jpg — нужен кадр, файла нет. Цвет машины не меняется.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-84/S84-composite-ilyusha.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-84/previews/S84-composite-ilyusha.webp" alt="84 — принятый общий кадр" loading="lazy" width="480"></a><figcaption>84 — принятый общий кадр</figcaption></figure>
+</div>
+
+<div class="engine-tabs" data-scene="84">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### Wan 3.0 / Seedance 2.5 · 30 с
+
+**Входы:** @Image1 — `references/full/ilyusha.jpg`; @Image2 — `references/scenes/scene-84/S84-composite-ilyusha.jpg`. Слоты крупных планов плёнки — нужен кадр, файлов нет.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic comedy with living light, colour and performance
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/ilyusha.jpg — Ilyusha face only.
+@Image2 = references/scenes/scene-84/S84-composite-ilyusha.jpg — accepted wide still: purple car, clear film, garage, two mechanics. Shared staging, not a collage of the three beats.
+Dedicated stills not yet files: references/scenes/scene-84/S84B-prepared-panel.jpg, references/scenes/scene-84/S84B-squeegee-pass.jpg, references/scenes/scene-84/S84C-neat-result.jpg.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+ILYUSHA: exact face of @Image1, energetic adult host, sunglasses on his head until the last beat. Two adult mechanics in dark garage coveralls and gloves, no locked faces.
+
+SCENE / SPACE:
+One clean garage bay, purple car, cool overhead practicals plus a warm beauty light on the paint. No second car.
+
+START STATE:
+Film already finished on the panel.
+
+STORY FLOW:
+0–8s: Close beauty pass on the neat glossy panel.
+8–16s: Ilyusha, whole: «Снаружи — твоя тачка. Сверху — дополнительная защита!»
+16–24s: He taps the panel: «Красоту не прячем. Бережём!»
+24–30s: He drops the sunglasses onto his eyes. Reveal the whole purple car.
+
+END STATE:
+Sunglasses down, car gleaming, install clearly done.
+
+CAMERA / LIGHT / PERFORMANCE:
+Crisp commercial light, 35mm host and 50mm material close-ups. The joke is the solemn car-show voice, while the hands really install the film.
+
+AUDIO:
+Those two complete lines only.
+
+NEGATIVE:
+no skipped installation, no paint colour change, no flames, no logo, no collage of host and macro in one frame. No extra limbs.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+#### Seedance 2.0 · часть 1 · 15 с
+
+**Входы:** @Image1 — `references/full/ilyusha.jpg`; @Image2 — `references/scenes/scene-84/S84-composite-ilyusha.jpg`. Слоты крупных планов плёнки — нужен кадр, файлов нет.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colour and performance
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/ilyusha.jpg — Ilyusha face only.
+@Image2 = references/scenes/scene-84/S84-composite-ilyusha.jpg — accepted wide still: purple car, clear film, garage, two mechanics. Shared staging, not a collage of the three beats.
+Dedicated stills not yet files: references/scenes/scene-84/S84B-prepared-panel.jpg, references/scenes/scene-84/S84B-squeegee-pass.jpg, references/scenes/scene-84/S84C-neat-result.jpg.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+ILYUSHA: exact face of @Image1, energetic adult host, sunglasses on his head until the last beat. Two adult mechanics in dark garage coveralls and gloves, no locked faces.
+
+SCENE / SPACE:
+One clean garage bay, purple car, cool overhead practicals plus a warm beauty light on the paint. No second car.
+
+START STATE:
+Finished panel.
+
+STORY FLOW:
+0–15s: Beauty close-up, then he finishes «Снаружи — твоя тачка. Сверху — дополнительная защита!»
+
+END STATE:
+Line done, hand about to tap.
+
+CAMERA / LIGHT / PERFORMANCE:
+Crisp commercial light, 35mm host and 50mm material close-ups. The joke is the solemn car-show voice, while the hands really install the film.
+
+AUDIO:
+For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. That complete line.
+
+NEGATIVE:
+no skipped installation, no paint colour change, no flames, no logo, no collage of host and macro in one frame. No extra limbs.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+#### Seedance 2.0 · часть 2 · 15 с
+
+**Входы:** @Image1 — `references/full/ilyusha.jpg`; @Image2 — `references/scenes/scene-84/S84-composite-ilyusha.jpg`. Слоты крупных планов плёнки — нужен кадр, файлов нет. @Video1 — настоящие последние 3 с P1 подсцены 84C.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colour and performance
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/ilyusha.jpg — Ilyusha face only.
+@Image2 = references/scenes/scene-84/S84-composite-ilyusha.jpg — accepted wide still: purple car, clear film, garage, two mechanics. Shared staging, not a collage of the three beats.
+Dedicated stills not yet files: references/scenes/scene-84/S84B-prepared-panel.jpg, references/scenes/scene-84/S84B-squeegee-pass.jpg, references/scenes/scene-84/S84C-neat-result.jpg.
+@Video1 = actual final 3 seconds of Scene 84 subscene 84C Seedance Part 1 — real continuity, not a generated substitute.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+ILYUSHA: exact face of @Image1, energetic adult host, sunglasses on his head until the last beat. Two adult mechanics in dark garage coveralls and gloves, no locked faces.
+
+SCENE / SPACE:
+One clean garage bay, purple car, cool overhead practicals plus a warm beauty light on the paint. No second car.
+
+START STATE:
+Hand about to tap.
+
+STORY FLOW:
+0–8s: Tap and the whole «Красоту не прячем. Бережём!»
+8–15s: Sunglasses down, wide reveal. No repeat.
+
+END STATE:
+Car revealed.
+
+CAMERA / LIGHT / PERFORMANCE:
+Crisp commercial light, 35mm host and 50mm material close-ups. The joke is the solemn car-show voice, while the hands really install the film.
+
+AUDIO:
+For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Only the tap line.
+
+NEGATIVE:
+no skipped installation, no paint colour change, no flames, no logo, no collage of host and macro in one frame. No extra limbs. No replay of Part 1 action or dialogue.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+</div>
 
 <a id="scene-85"></a>
 
@@ -13421,16 +13988,16 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 <!-- parody-photo-publication-85 -->
 <p><strong>Сохранённые фото:</strong> <a href="parodies.html#scene-85" target="_blank" rel="noopener">Открыть фотографии сцены</a>. Публикация кадров и промптов по команде t506u. Это не одобрение ролика и не запуск видео. · <a href="https://drive.google.com/drive/folders/1m0kKr532uOqOzyoIZh_9ZlrWfOoQtNxu" target="_blank" rel="noopener">Все варианты на Google Диске</a>.</p>
 
-### 85 · Срочные новости: Саша и Маша Ф — черновик (DRAFT)
+<p><strong>Подсцены:</strong> <a href="#scene-85A">85A</a> · <a href="#scene-85B">85B</a> · <a href="#scene-85C">85C</a>. Одна новость, не набор случайных абсурдов. Маша Ф — не Маша Р.</p>
 
-**Кадр:** `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg` — двуплан Саша + Маша Ф (светлые волосы, лицо с селфи у ёлки). Не трио, не рыжая Маша Р, не Маша Лагуна. Реплики — под экраны на кадре (утка в короне, кот-космонавт, НЛО с коровами, динозавр с пончиком).
+<a id="scene-85A"></a>
 
-**Что происходит:** Два серьёзнейших ведущих зачитывают абсурдные новости.
+### 85A · Плановое отключение гравитации
 
-**Стык 15+15:** P1 заканчивается так: _Sasha looking down at his papers, Masha F waiting with folded hands; both serious._ P2 стартует из этого же состояния по @Video1 (настоящие последние 3 с P1), без повтора; каждая реплика целиком в одной части, ничего не обрывается на полуслове.
+Слот S85A-gravity-announce.jpg — нужен кадр, файла нет.
 
 <div class="scene-ref-gallery">
-<figure><a href="references/scenes/scene-85/S85-swap-sasha-masha-f.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-85/previews/S85-swap-sasha-masha-f.webp" alt="85 — черновик: Саша и Маша Ф" loading="lazy" width="480"></a><figcaption>85 — черновик: Саша и Маша Ф</figcaption></figure>
+<figure><a href="references/scenes/scene-85/S85-swap-sasha-masha-f.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-85/previews/S85-swap-sasha-masha-f.webp" alt="85 — принятый двуплан" loading="lazy" width="480"></a><figcaption>85 — принятый двуплан</figcaption></figure>
 </div>
 
 <div class="engine-tabs" data-scene="85">
@@ -13439,48 +14006,45 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — лицо, `references/full/sasha.jpg`; @Image2 — лицо, `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 / Seedance 2.5 | Photoreal TV-news parody with deadpan overacting
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic comedy with living light, colour and performance
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/sasha.jpg — exact Саша facial identity only, including his own round glasses and full dark beard; costume is defined below, never inherited from the source sheet.
-@Image2 = references/full/masha-f.jpg — exact Маша Ф facial identity only (blonde adult woman); costume is defined below; never the copper-red Маша Р.
-@Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — staging: news studio desk, two-anchor layout, wardrobe, playful background screens; never overrides exact facial identity or source age. This helper is not a literal first frame.
-Facial references outrank the staged images for identity and age. Do not animate a slideshow or a collage; generate real continuous motion. Do not reproduce source-sheet Jedi/Tatooine costumes.
+@Image1 = references/full/sasha.jpg — Sasha face only.
+@Image2 = references/full/masha-f.jpg — Masha F face only.
+@Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
+Slots not yet files: references/scenes/scene-85/S85A-gravity-announce.jpg, references/scenes/scene-85/S85B-slippers-question.jpg, references/scenes/scene-85/S85C-hook-diagram.jpg.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-MASHA F: exact adult fair woman, long straight blonde hair, light eyes; NOT the copper-red Masha R and not any other Masha; red blazer over a dark top; seated screen-left, hands folded. SASHA: exact adult man, high forehead, receding dark hair, round thin metal glasses, full dark beard and moustache, blue eyes; dark suit, white shirt, dark tie, sheets of paper; seated screen-right. Exactly two anchors. Do not add Pasha or anyone else.
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Both deadpan. Sasha screen-left, Masha F screen-right, as in the still.
 
 SCENE / SPACE:
-Glossy generic news studio with a curved desk; background screens show playful cartoonish images: a giant crowned rubber duck over a city skyline with toy-like helicopters, an astronaut cat, a UFO lifting a cow, a dinosaur holding a doughnut. No readable headlines, no real disaster footage.
+One serious news desk, cool blue key, warm desk practical. Screens may show a gravity icon or a slipper-hook diagram and nothing else as a story.
 
 START STATE:
-Both anchors face the camera, utterly serious.
+Both seated, papers squared.
 
 STORY FLOW:
-0–3s: Masha F, deadpan: «Срочные новости».
-3–9s: Sasha, grave: «Над городом замечена гигантская резиновая уточка в короне. Жителей просят не крякать».
-9–13s: Masha F, without smiling: «Уточка уже дала комментарий?»
-13–15s: Sasha checks his papers; a beat.
-15–18s: Sasha: «Только "кря". Без подробностей».
-18–24s: Masha F: «Тем временем кот-космонавт вышел в открытый космос. А НЛО увозит коров строго по записи».
-24–27s: Sasha, gravely: «А динозавр?»
-27–30s: Masha F: «Динозавр на диете. Это второй пончик». Both stare into the camera.
+0–4s: Masha F, whole: «Срочные новости».
+4–14s: Sasha, grave, whole: «Сегодня с двадцати двух ноль-ноль до двадцати двух пятнадцати — плановое отключение гравитации».
+14–22s: Masha F: «Жителей просят не подпрыгивать».
+22–30s: Both look into the lens. Hold.
 
 END STATE:
-Both anchors staring into the camera in deadpan silence.
+Deadpan hold.
 
 CAMERA / LIGHT / PERFORMANCE:
-Locked medium two-shot, occasional matched singles; no cutaways to illustrative footage. Deadpan, overly serious news performance.
+Locked 50mm two-shot, tiny push-ins on the speaker. No smile. Studio hush.
 
 AUDIO:
-News-studio room tone. Exactly the lines in STORY FLOW, new voices. No news jingle, no music.
+Those three complete lines only.
 
 NEGATIVE:
-no third anchor, no Pasha, no copper-red Masha R, no swapped faces, no real emergency alert or disaster footage, no station logo, no ticker text. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+no duck, no space cat, no UFO, no random dinosaur diet, no smiling, no collage. No extra anchors. Masha F must not become Masha R.
 
 FRAME FILL / NO BARS:
 Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
@@ -13492,44 +14056,42 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 1 · 15 с
 
-**Входы:** @Image1 — лицо, `references/full/sasha.jpg`; @Image2 — лицо, `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal TV-news parody with deadpan overacting
+Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colour and performance
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/sasha.jpg — exact Саша facial identity only, including his own round glasses and full dark beard; costume is defined below, never inherited from the source sheet.
-@Image2 = references/full/masha-f.jpg — exact Маша Ф facial identity only (blonde adult woman); costume is defined below; never the copper-red Маша Р.
-@Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — staging: news studio desk, two-anchor layout, wardrobe, playful background screens; never overrides exact facial identity or source age. This helper is not a literal first frame.
-Facial references outrank the staged images for identity and age. Do not animate a slideshow or a collage; generate real continuous motion. Do not reproduce source-sheet Jedi/Tatooine costumes.
+@Image1 = references/full/sasha.jpg — Sasha face only.
+@Image2 = references/full/masha-f.jpg — Masha F face only.
+@Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
+Slots not yet files: references/scenes/scene-85/S85A-gravity-announce.jpg, references/scenes/scene-85/S85B-slippers-question.jpg, references/scenes/scene-85/S85C-hook-diagram.jpg.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-MASHA F: exact adult fair woman, long straight blonde hair, light eyes; NOT the copper-red Masha R and not any other Masha; red blazer over a dark top; seated screen-left, hands folded. SASHA: exact adult man, high forehead, receding dark hair, round thin metal glasses, full dark beard and moustache, blue eyes; dark suit, white shirt, dark tie, sheets of paper; seated screen-right. Exactly two anchors. Do not add Pasha or anyone else.
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Both deadpan. Sasha screen-left, Masha F screen-right, as in the still.
 
 SCENE / SPACE:
-Glossy generic news studio with a curved desk; background screens show playful cartoonish images: a giant crowned rubber duck over a city skyline with toy-like helicopters, an astronaut cat, a UFO lifting a cow, a dinosaur holding a doughnut. No readable headlines, no real disaster footage.
+One serious news desk, cool blue key, warm desk practical. Screens may show a gravity icon or a slipper-hook diagram and nothing else as a story.
 
 START STATE:
-Both anchors face the camera, utterly serious.
+Seated.
 
 STORY FLOW:
-0–3s: Masha F: «Срочные новости».
-3–9s: Sasha: «Над городом замечена гигантская резиновая уточка в короне. Жителей просят не крякать».
-9–13s: Masha F: «Уточка уже дала комментарий?»
-13–15s: Sasha checks his papers; a beat.
+0–15s: «Срочные новости» complete, then Sasha finishes the whole gravity sentence.
 
 END STATE:
-Sasha looking down at his papers, Masha F waiting with folded hands; both serious.
+Sentence finished. Masha F has not added the warning yet.
 
 CAMERA / LIGHT / PERFORMANCE:
-Locked medium two-shot, occasional matched singles; no cutaways to illustrative footage. Deadpan, overly serious news performance.
+Locked 50mm two-shot, tiny push-ins on the speaker. No smile. Studio hush.
 
 AUDIO:
-For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Masha F, Sasha, Masha F lines; paper rustle.
+For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Those two complete lines.
 
 NEGATIVE:
-no third anchor, no Pasha, no copper-red Masha R, no swapped faces, no real emergency alert or disaster footage, no station logo, no ticker text. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+no duck, no space cat, no UFO, no random dinosaur diet, no smiling, no collage. No extra anchors. Masha F must not become Masha R.
 
 FRAME FILL / NO BARS:
 Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
@@ -13537,57 +14099,361 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 2 · 15 с
 
-**Входы:** @Image1 — лицо, `references/full/sasha.jpg`; @Image2 — лицо, `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`; @Video1 — последние 3 с НАСТОЯЩЕГО результата своей P1 (без него P2 не запускать).
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`. @Video1 — настоящие последние 3 с P1 подсцены 85A.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal TV-news parody with deadpan overacting
+Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colour and performance
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/sasha.jpg — exact Саша facial identity only, including his own round glasses and full dark beard; costume is defined below, never inherited from the source sheet.
-@Image2 = references/full/masha-f.jpg — exact Маша Ф facial identity only (blonde adult woman); costume is defined below; never the copper-red Маша Р.
-@Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — staging: news studio desk, two-anchor layout, wardrobe, playful background screens; never overrides exact facial identity or source age. This helper is not a literal first frame.
-@Video1 = actual final 3 seconds of Scene 85 Seedance Part 1 — real motion/pose continuity, not a generated substitute.
-Facial references outrank the staged images for identity and age. Do not animate a slideshow or a collage; generate real continuous motion. Do not reproduce source-sheet Jedi/Tatooine costumes.
+@Image1 = references/full/sasha.jpg — Sasha face only.
+@Image2 = references/full/masha-f.jpg — Masha F face only.
+@Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
+Slots not yet files: references/scenes/scene-85/S85A-gravity-announce.jpg, references/scenes/scene-85/S85B-slippers-question.jpg, references/scenes/scene-85/S85C-hook-diagram.jpg.
+@Video1 = actual final 3 seconds of Scene 85 subscene 85A Seedance Part 1 — real continuity, not a generated substitute.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-MASHA F: exact adult fair woman, long straight blonde hair, light eyes; NOT the copper-red Masha R and not any other Masha; red blazer over a dark top; seated screen-left, hands folded. SASHA: exact adult man, high forehead, receding dark hair, round thin metal glasses, full dark beard and moustache, blue eyes; dark suit, white shirt, dark tie, sheets of paper; seated screen-right. Exactly two anchors. Do not add Pasha or anyone else.
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Both deadpan. Sasha screen-left, Masha F screen-right, as in the still.
 
 SCENE / SPACE:
-Glossy generic news studio with a curved desk; background screens show playful cartoonish images: a giant crowned rubber duck over a city skyline with toy-like helicopters, an astronaut cat, a UFO lifting a cow, a dinosaur holding a doughnut. No readable headlines, no real disaster footage.
+One serious news desk, cool blue key, warm desk practical. Screens may show a gravity icon or a slipper-hook diagram and nothing else as a story.
 
 START STATE:
-Continue the actual last moment of @Video1, without replaying it. Target continuity: Sasha looking down at his papers, Masha F waiting with folded hands; both serious.
+Gravity sentence already finished.
 
 STORY FLOW:
-0–3s: Sasha: «Только "кря". Без подробностей».
-3–9s: Masha F: «Тем временем кот-космонавт вышел в открытый космос. А НЛО увозит коров строго по записи».
-9–12s: Sasha: «А динозавр?»
-12–15s: Masha F: «Динозавр на диете. Это второй пончик». Both stare into the camera.
+0–8s: Masha F finishes «Жителей просят не подпрыгивать».
+8–15s: Deadpan hold. No new item.
 
 END STATE:
-Both anchors staring into the camera in deadpan silence.
+Hold.
 
 CAMERA / LIGHT / PERFORMANCE:
-Locked medium two-shot, occasional matched singles; no cutaways to illustrative footage. Deadpan, overly serious news performance.
+Locked 50mm two-shot, tiny push-ins on the speaker. No smile. Studio hush.
 
 AUDIO:
-For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Sasha, Masha F, Sasha, Masha F lines.
+For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Only her warning.
 
 NEGATIVE:
-no third anchor, no Pasha, no copper-red Masha R, no swapped faces, no real emergency alert or disaster footage, no station logo, no ticker text. No replay of Part 1 action or dialogue. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+no duck, no space cat, no UFO, no random dinosaur diet, no smiling, no collage. No extra anchors. Masha F must not become Masha R. No replay of Part 1 action or dialogue.
 
 FRAME FILL / NO BARS:
 Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
 ```
 
----
+</div>
+
+</div>
+
+<a id="scene-85B"></a>
+
+### 85B · Куда привязывать тапочки
+
+Слот S85B-slippers-question.jpg — нужен кадр, файла нет.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-85/S85-swap-sasha-masha-f.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-85/previews/S85-swap-sasha-masha-f.webp" alt="85 — принятый двуплан" loading="lazy" width="480"></a><figcaption>85 — принятый двуплан</figcaption></figure>
+</div>
+
+<div class="engine-tabs" data-scene="85">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### Wan 3.0 / Seedance 2.5 · 30 с
+
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic comedy with living light, colour and performance
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/sasha.jpg — Sasha face only.
+@Image2 = references/full/masha-f.jpg — Masha F face only.
+@Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
+Slots not yet files: references/scenes/scene-85/S85A-gravity-announce.jpg, references/scenes/scene-85/S85B-slippers-question.jpg, references/scenes/scene-85/S85C-hook-diagram.jpg.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Both deadpan. Sasha screen-left, Masha F screen-right, as in the still.
+
+SCENE / SPACE:
+One serious news desk, cool blue key, warm desk practical. Screens may show a gravity icon or a slipper-hook diagram and nothing else as a story.
+
+START STATE:
+Same desk, a beat later.
+
+STORY FLOW:
+0–8s: Masha F, perfectly calm, whole: «Куда привязывать тапочки?»
+8–18s: Sasha, equally calm: «К крючку у двери. Иначе улетят».
+18–30s: She writes it down. Hold.
+
+END STATE:
+She is still writing.
+
+CAMERA / LIGHT / PERFORMANCE:
+Locked 50mm two-shot, tiny push-ins on the speaker. No smile. Studio hush.
+
+AUDIO:
+Those two complete lines.
+
+NEGATIVE:
+no duck, no space cat, no UFO, no random dinosaur diet, no smiling, no collage. No extra anchors. Masha F must not become Masha R.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+#### Seedance 2.0 · часть 1 · 15 с
+
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colour and performance
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/sasha.jpg — Sasha face only.
+@Image2 = references/full/masha-f.jpg — Masha F face only.
+@Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
+Slots not yet files: references/scenes/scene-85/S85A-gravity-announce.jpg, references/scenes/scene-85/S85B-slippers-question.jpg, references/scenes/scene-85/S85C-hook-diagram.jpg.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Both deadpan. Sasha screen-left, Masha F screen-right, as in the still.
+
+SCENE / SPACE:
+One serious news desk, cool blue key, warm desk practical. Screens may show a gravity icon or a slipper-hook diagram and nothing else as a story.
+
+START STATE:
+Same desk.
+
+STORY FLOW:
+0–15s: She asks the whole question «Куда привязывать тапочки?» and waits, pen ready.
+
+END STATE:
+Question finished, he has not answered.
+
+CAMERA / LIGHT / PERFORMANCE:
+Locked 50mm two-shot, tiny push-ins on the speaker. No smile. Studio hush.
+
+AUDIO:
+For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Only her question.
+
+NEGATIVE:
+no duck, no space cat, no UFO, no random dinosaur diet, no smiling, no collage. No extra anchors. Masha F must not become Masha R.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+#### Seedance 2.0 · часть 2 · 15 с
+
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`. @Video1 — настоящие последние 3 с P1 подсцены 85B.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colour and performance
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/sasha.jpg — Sasha face only.
+@Image2 = references/full/masha-f.jpg — Masha F face only.
+@Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
+Slots not yet files: references/scenes/scene-85/S85A-gravity-announce.jpg, references/scenes/scene-85/S85B-slippers-question.jpg, references/scenes/scene-85/S85C-hook-diagram.jpg.
+@Video1 = actual final 3 seconds of Scene 85 subscene 85B Seedance Part 1 — real continuity, not a generated substitute.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Both deadpan. Sasha screen-left, Masha F screen-right, as in the still.
+
+SCENE / SPACE:
+One serious news desk, cool blue key, warm desk practical. Screens may show a gravity icon or a slipper-hook diagram and nothing else as a story.
+
+START STATE:
+Pen ready, question already asked.
+
+STORY FLOW:
+0–15s: He finishes «К крючку у двери. Иначе улетят». She writes. No repeat of the question.
+
+END STATE:
+Writing.
+
+CAMERA / LIGHT / PERFORMANCE:
+Locked 50mm two-shot, tiny push-ins on the speaker. No smile. Studio hush.
+
+AUDIO:
+For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Only his answer.
+
+NEGATIVE:
+no duck, no space cat, no UFO, no random dinosaur diet, no smiling, no collage. No extra anchors. Masha F must not become Masha R. No replay of Part 1 action or dialogue.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
 
 </div>
 
 </div>
 
----
+<a id="scene-85C"></a>
+
+### 85C · Пончик на схеме — это крючок
+
+Слот S85C-hook-diagram.jpg — нужен кадр, файла нет.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-85/S85-swap-sasha-masha-f.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-85/previews/S85-swap-sasha-masha-f.webp" alt="85 — принятый двуплан" loading="lazy" width="480"></a><figcaption>85 — принятый двуплан</figcaption></figure>
+</div>
+
+<div class="engine-tabs" data-scene="85">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### Wan 3.0 / Seedance 2.5 · 30 с
+
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic comedy with living light, colour and performance
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/sasha.jpg — Sasha face only.
+@Image2 = references/full/masha-f.jpg — Masha F face only.
+@Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
+Slots not yet files: references/scenes/scene-85/S85A-gravity-announce.jpg, references/scenes/scene-85/S85B-slippers-question.jpg, references/scenes/scene-85/S85C-hook-diagram.jpg.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Both deadpan. Sasha screen-left, Masha F screen-right, as in the still.
+
+SCENE / SPACE:
+One serious news desk, cool blue key, warm desk practical. Screens may show a gravity icon or a slipper-hook diagram and nothing else as a story.
+
+START STATE:
+A simple diagram is on the screen behind them: a hook and a slipper.
+
+STORY FLOW:
+0–10s: Sasha, whole: «На схеме пончик — это метка крючка, не ужин».
+10–18s: Masha F: «Тапочки вяжем парами».
+18–30s: Both stare into the lens.
+
+END STATE:
+Stare hold.
+
+CAMERA / LIGHT / PERFORMANCE:
+Locked 50mm two-shot, tiny push-ins on the speaker. No smile. Studio hush.
+
+AUDIO:
+Those two complete lines.
+
+NEGATIVE:
+no duck, no space cat, no UFO, no random dinosaur diet, no smiling, no collage. No extra anchors. Masha F must not become Masha R.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+#### Seedance 2.0 · часть 1 · 15 с
+
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colour and performance
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/sasha.jpg — Sasha face only.
+@Image2 = references/full/masha-f.jpg — Masha F face only.
+@Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
+Slots not yet files: references/scenes/scene-85/S85A-gravity-announce.jpg, references/scenes/scene-85/S85B-slippers-question.jpg, references/scenes/scene-85/S85C-hook-diagram.jpg.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Both deadpan. Sasha screen-left, Masha F screen-right, as in the still.
+
+SCENE / SPACE:
+One serious news desk, cool blue key, warm desk practical. Screens may show a gravity icon or a slipper-hook diagram and nothing else as a story.
+
+START STATE:
+Diagram visible.
+
+STORY FLOW:
+0–15s: Sasha finishes «На схеме пончик — это метка крючка, не ужин».
+
+END STATE:
+Line done.
+
+CAMERA / LIGHT / PERFORMANCE:
+Locked 50mm two-shot, tiny push-ins on the speaker. No smile. Studio hush.
+
+AUDIO:
+For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Only that line.
+
+NEGATIVE:
+no duck, no space cat, no UFO, no random dinosaur diet, no smiling, no collage. No extra anchors. Masha F must not become Masha R.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+#### Seedance 2.0 · часть 2 · 15 с
+
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`. @Video1 — настоящие последние 3 с P1 подсцены 85C.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colour and performance
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/sasha.jpg — Sasha face only.
+@Image2 = references/full/masha-f.jpg — Masha F face only.
+@Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
+Slots not yet files: references/scenes/scene-85/S85A-gravity-announce.jpg, references/scenes/scene-85/S85B-slippers-question.jpg, references/scenes/scene-85/S85C-hook-diagram.jpg.
+@Video1 = actual final 3 seconds of Scene 85 subscene 85C Seedance Part 1 — real continuity, not a generated substitute.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Both deadpan. Sasha screen-left, Masha F screen-right, as in the still.
+
+SCENE / SPACE:
+One serious news desk, cool blue key, warm desk practical. Screens may show a gravity icon or a slipper-hook diagram and nothing else as a story.
+
+START STATE:
+His line already done.
+
+STORY FLOW:
+0–8s: She finishes «Тапочки вяжем парами».
+8–15s: Shared stare.
+
+END STATE:
+Stare.
+
+CAMERA / LIGHT / PERFORMANCE:
+Locked 50mm two-shot, tiny push-ins on the speaker. No smile. Studio hush.
+
+AUDIO:
+For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Only her line.
+
+NEGATIVE:
+no duck, no space cat, no UFO, no random dinosaur diet, no smiling, no collage. No extra anchors. Masha F must not become Masha R. No replay of Part 1 action or dialogue.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+</div>
 
 <a id="scene-86"></a>
 
@@ -13609,16 +14475,16 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 <!-- parody-photo-publication-86 -->
 <p><strong>Сохранённые фото:</strong> <a href="parodies.html#scene-86" target="_blank" rel="noopener">Открыть фотографии сцены</a>. Публикация кадров и промптов по команде t506u. Это не одобрение ролика и не запуск видео. · <a href="https://drive.google.com/drive/folders/1m0kKr532uOqOzyoIZh_9ZlrWfOoQtNxu" target="_blank" rel="noopener">Все варианты на Google Диске</a>.</p>
 
-### 86 · «Эх, распаковочка»: Саша и Маша Ф поют — черновик (DRAFT)
+<p><strong>Подсцены:</strong> <a href="#scene-86A">86A</a> · <a href="#scene-86B">86B</a> · <a href="#scene-86C">86C</a>. Куплеты не зацикливать.</p>
 
-**Кадр:** `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg` — исходная кухня, много пакетов на столе, Саша и Маша Ф. В видео они ПОЮТ два куплета (в стилле не поют): «Распаковка, эх, распаковочка! Уцененка, эх, уцененочка!» и «Продукты с помойки, новая программа! Для всех малоимущих никакого обмана!». 30 с — оба куплета подряд по сюжету; 2×15 — P1 = первый куплет целиком + распаковка, P2 = продолжение с того же смеха и второй куплет целиком; строка куплета не режется на стыке.
+<a id="scene-86A"></a>
 
-**Что происходит:** Весёлая домашняя распаковка дешёвых покупок с пением.
+### 86A · Торжественное открытие
 
-**Стык 15+15:** P1 заканчивается так: _Masha F holding the rubber chicken, Sasha holding the glowing disco bulb, both laughing over the pile of bags._ P2 стартует из этого же состояния по @Video1 (настоящие последние 3 с P1), без повтора; каждая реплика целиком в одной части, ничего не обрывается на полуслове.
+Слот S86A-solemn-open.jpg — нужен кадр, файла нет. Первый куплет один раз.
 
 <div class="scene-ref-gallery">
-<figure><a href="references/scenes/scene-86/S86-swap-sasha-masha-f.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-86/previews/S86-swap-sasha-masha-f.webp" alt="86 — черновик: кухня, Саша и Маша Ф" loading="lazy" width="480"></a><figcaption>86 — черновик: кухня, Саша и Маша Ф</figcaption></figure>
+<figure><a href="references/scenes/scene-86/S86-swap-sasha-masha-f.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-86/previews/S86-swap-sasha-masha-f.webp" alt="86 — принятый кадр кухни" loading="lazy" width="480"></a><figcaption>86 — принятый кадр кухни</figcaption></figure>
 </div>
 
 <div class="engine-tabs" data-scene="86">
@@ -13627,46 +14493,44 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — лицо, `references/full/sasha.jpg`; @Image2 — лицо, `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 / Seedance 2.5 | Photoreal home-video unboxing parody with cheerful overacting and singing
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic comedy with living light, colour and performance
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/sasha.jpg — exact Саша facial identity only, including his own round glasses and full dark beard; costume is defined below, never inherited from the source sheet.
-@Image2 = references/full/masha-f.jpg — exact Маша Ф facial identity only (blonde adult woman); costume is defined below; never the copper-red Маша Р.
-@Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — staging: cluttered cosy kitchen table piled with plastic bags and cheap gadgets, wardrobe, positions; never overrides exact facial identity or source age. This helper is not a literal first frame.
-Facial references outrank the staged images for identity and age. Do not animate a slideshow or a collage; generate real continuous motion. Do not reproduce source-sheet Jedi/Tatooine costumes.
+@Image1 = references/full/sasha.jpg — Sasha face only.
+@Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R.
+@Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
+Slots not yet files: references/scenes/scene-86/S86A-solemn-open.jpg, references/scenes/scene-86/S86B-worthless-contents.jpg, references/scenes/scene-86/S86C-delighted-reaction.jpg.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SASHA: exact adult man, high forehead, receding dark hair, round thin metal glasses, full dark beard and moustache, blue eyes; shiny retro teal-and-purple 90s windbreaker; screen-left. MASHA F: exact adult fair woman, long straight blonde hair, light eyes; NOT the copper-red Masha R and not any other Masha; leopard-print top; screen-right. Exactly two people.
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. Casual home clothes as in the still. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Home clothes as in the still. They sing only the verse written in that subscene, once.
 
 SCENE / SPACE:
-Cosy cluttered kitchen with fairy lights, an old CRT TV, a fridge with magnets; the table is piled with crinkly plastic and foil bags and cheap finds: a disco-ball light bulb, a fibre-optic lamp, a yellow rubber chicken, pink heart-shaped sunglasses, a golden waving lucky cat, a pink fluffy toy, a cat mug, a small pink fan, a cardboard box, sealed cheap snack packs with blank markdown stickers. Fixed phone-camera feel.
+One cramped cheerful kitchen, many plain bags on the table, warm practical bulb, no studio.
 
 START STATE:
-Both lean over the pile of bags, grinning at the lens, ready to unpack.
+Bags still closed. Both sit up straight, oddly solemn.
 
 STORY FLOW:
-0–7s: Both SING together, clapping and bouncing in their seats, a simple cheerful original chant: «Распаковка, эх, распаковочка! Уцененка, эх, уцененочка!»
-7–11s: Sasha pulls a disco-ball bulb out of a bag; it lights up in rainbow colours; he gasps with overacted delight.
-11–15s: Masha F pulls out the rubber chicken and squeezes it — squeak! Both burst out laughing.
-15–22s: Both SING the second verse together, swaying, hands up: «Продукты с помойки, новая программа! Для всех малоимущих никакого обмана!»
-22–26s: Masha F puts on the pink heart sunglasses; Sasha lifts the golden lucky cat and its paw waves.
-26–30s: Both wave at the camera, laughing, surrounded by the unpacked treasures.
+0–12s: They SING once, complete: «Распаковка, эх, распаковочка! Уцененка, эх, уцененочка!»
+12–24s: Ceremonial slow opening of one bag. Nothing is revealed yet.
+24–30s: They peek in, delighted and still not showing the object.
 
 END STATE:
-Masha F in heart sunglasses, Sasha holding the waving lucky cat, both laughing amid the bags.
+Bag open, contents still hidden, both leaning in.
 
 CAMERA / LIGHT / PERFORMANCE:
-One stable phone-like medium two-shot at table height; hands and bag openings in frame. Joyful overacting.
+Warm 35mm, slight handheld joy. Faces readable while singing.
 
 AUDIO:
-Plastic crinkle, claps, squeak. Both SING the two verses exactly, in unison, cheerful original melody with hand-clap rhythm (not a copied soundtrack): verse 1 «Распаковка, эх, распаковочка! Уцененка, эх, уцененочка!»; verse 2 «Продукты с помойки, новая программа! Для всех малоимущих никакого обмана!» No other music.
+Only that one couplet, sung once. No second verse.
 
 NEGATIVE:
-no spoiled, rotten or dirty food shown, no eating from bins, no third presenter, no Masha R, no copied original soundtrack, no subtitles. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+no second chorus, no loop of the same couplet, no luxury products, no Masha R, no collage. No extra limbs.
 
 FRAME FILL / NO BARS:
 Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
@@ -13678,43 +14542,42 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 1 · 15 с
 
-**Входы:** @Image1 — лицо, `references/full/sasha.jpg`; @Image2 — лицо, `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal home-video unboxing parody with cheerful overacting and singing
+Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colour and performance
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/sasha.jpg — exact Саша facial identity only, including his own round glasses and full dark beard; costume is defined below, never inherited from the source sheet.
-@Image2 = references/full/masha-f.jpg — exact Маша Ф facial identity only (blonde adult woman); costume is defined below; never the copper-red Маша Р.
-@Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — staging: cluttered cosy kitchen table piled with plastic bags and cheap gadgets, wardrobe, positions; never overrides exact facial identity or source age. This helper is not a literal first frame.
-Facial references outrank the staged images for identity and age. Do not animate a slideshow or a collage; generate real continuous motion. Do not reproduce source-sheet Jedi/Tatooine costumes.
+@Image1 = references/full/sasha.jpg — Sasha face only.
+@Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R.
+@Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
+Slots not yet files: references/scenes/scene-86/S86A-solemn-open.jpg, references/scenes/scene-86/S86B-worthless-contents.jpg, references/scenes/scene-86/S86C-delighted-reaction.jpg.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SASHA: exact adult man, high forehead, receding dark hair, round thin metal glasses, full dark beard and moustache, blue eyes; shiny retro teal-and-purple 90s windbreaker; screen-left. MASHA F: exact adult fair woman, long straight blonde hair, light eyes; NOT the copper-red Masha R and not any other Masha; leopard-print top; screen-right. Exactly two people.
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. Casual home clothes as in the still. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Home clothes as in the still. They sing only the verse written in that subscene, once.
 
 SCENE / SPACE:
-Cosy cluttered kitchen with fairy lights, an old CRT TV, a fridge with magnets; the table is piled with crinkly plastic and foil bags and cheap finds: a disco-ball light bulb, a fibre-optic lamp, a yellow rubber chicken, pink heart-shaped sunglasses, a golden waving lucky cat, a pink fluffy toy, a cat mug, a small pink fan, a cardboard box, sealed cheap snack packs with blank markdown stickers. Fixed phone-camera feel.
+One cramped cheerful kitchen, many plain bags on the table, warm practical bulb, no studio.
 
 START STATE:
-Both lean over the pile of bags, grinning at the lens, ready to unpack.
+Bags closed.
 
 STORY FLOW:
-0–7s: Both SING together, clapping and bouncing: «Распаковка, эх, распаковочка! Уцененка, эх, уцененочка!»
-7–11s: Sasha pulls a disco-ball bulb out of a bag; it lights up rainbow; overacted delight.
-11–15s: Masha F pulls out the rubber chicken and squeezes it — squeak! Both burst out laughing.
+0–15s: They sing the first couplet once, complete, and set hands on the bag.
 
 END STATE:
-Masha F holding the rubber chicken, Sasha holding the glowing disco bulb, both laughing over the pile of bags.
+Couplet finished, bag still closed.
 
 CAMERA / LIGHT / PERFORMANCE:
-One stable phone-like medium two-shot at table height; hands and bag openings in frame. Joyful overacting.
+Warm 35mm, slight handheld joy. Faces readable while singing.
 
 AUDIO:
-For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Both SING verse 1 only: «Распаковка, эх, распаковочка! Уцененка, эх, уцененочка!»; crinkle, squeak, laughter.
+For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Only the first couplet.
 
 NEGATIVE:
-no spoiled, rotten or dirty food shown, no third presenter, no Masha R, no second verse in this part, no copied soundtrack, no subtitles. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+no second chorus, no loop of the same couplet, no luxury products, no Masha R, no collage. No extra limbs.
 
 FRAME FILL / NO BARS:
 Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
@@ -13722,57 +14585,360 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 2 · 15 с
 
-**Входы:** @Image1 — лицо, `references/full/sasha.jpg`; @Image2 — лицо, `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`; @Video1 — последние 3 с НАСТОЯЩЕГО результата своей P1 (без него P2 не запускать).
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`. @Video1 — настоящие последние 3 с P1 подсцены 86A.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal home-video unboxing parody with cheerful overacting and singing
+Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colour and performance
 
 REFERENCES / AUTHORITY:
-@Image1 = references/full/sasha.jpg — exact Саша facial identity only, including his own round glasses and full dark beard; costume is defined below, never inherited from the source sheet.
-@Image2 = references/full/masha-f.jpg — exact Маша Ф facial identity only (blonde adult woman); costume is defined below; never the copper-red Маша Р.
-@Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — staging: cluttered cosy kitchen table piled with plastic bags and cheap gadgets, wardrobe, positions; never overrides exact facial identity or source age. This helper is not a literal first frame.
-@Video1 = actual final 3 seconds of Scene 86 Seedance Part 1 — real motion/pose continuity, not a generated substitute.
-Facial references outrank the staged images for identity and age. Do not animate a slideshow or a collage; generate real continuous motion. Do not reproduce source-sheet Jedi/Tatooine costumes.
+@Image1 = references/full/sasha.jpg — Sasha face only.
+@Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R.
+@Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
+Slots not yet files: references/scenes/scene-86/S86A-solemn-open.jpg, references/scenes/scene-86/S86B-worthless-contents.jpg, references/scenes/scene-86/S86C-delighted-reaction.jpg.
+@Video1 = actual final 3 seconds of Scene 86 subscene 86A Seedance Part 1 — real continuity, not a generated substitute.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SASHA: exact adult man, high forehead, receding dark hair, round thin metal glasses, full dark beard and moustache, blue eyes; shiny retro teal-and-purple 90s windbreaker; screen-left. MASHA F: exact adult fair woman, long straight blonde hair, light eyes; NOT the copper-red Masha R and not any other Masha; leopard-print top; screen-right. Exactly two people.
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. Casual home clothes as in the still. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Home clothes as in the still. They sing only the verse written in that subscene, once.
 
 SCENE / SPACE:
-Cosy cluttered kitchen with fairy lights, an old CRT TV, a fridge with magnets; the table is piled with crinkly plastic and foil bags and cheap finds: a disco-ball light bulb, a fibre-optic lamp, a yellow rubber chicken, pink heart-shaped sunglasses, a golden waving lucky cat, a pink fluffy toy, a cat mug, a small pink fan, a cardboard box, sealed cheap snack packs with blank markdown stickers. Fixed phone-camera feel.
+One cramped cheerful kitchen, many plain bags on the table, warm practical bulb, no studio.
 
 START STATE:
-Continue the actual last moment of @Video1, without replaying it. Target continuity: Masha F holding the rubber chicken, Sasha holding the glowing disco bulb, both laughing over the pile of bags.
+Couplet already sung. Do not sing it again.
 
 STORY FLOW:
-0–2s: Still laughing, Masha F sets the rubber chicken down and Sasha sets the glowing disco bulb beside it; they clap twice to pick the rhythm back up.
-2–9s: Both SING the second verse together, swaying, hands up: «Продукты с помойки, новая программа! Для всех малоимущих никакого обмана!»
-9–12s: Masha F puts on the pink heart sunglasses; Sasha lifts the golden lucky cat; its paw waves.
-12–15s: Both wave at the camera, laughing among the treasures.
+0–15s: Slow ceremonial open. They peek. Contents stay hidden.
 
 END STATE:
-Masha F in heart sunglasses, Sasha holding the waving lucky cat, both laughing amid the bags.
+Peeking.
 
 CAMERA / LIGHT / PERFORMANCE:
-One stable phone-like medium two-shot at table height; hands and bag openings in frame. Joyful overacting.
+Warm 35mm, slight handheld joy. Faces readable while singing.
 
 AUDIO:
-For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Both SING verse 2 only: «Продукты с помойки, новая программа! Для всех малоимущих никакого обмана!»; laughter.
+For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. No singing.
 
 NEGATIVE:
-no spoiled, rotten or dirty food shown, no third presenter, no Masha R, no repeat of verse 1, no copied soundtrack, no subtitles. No replay of Part 1 action or dialogue. No extra limbs, changing identity, clothing drift, new unlisted gag or repeated action loop.
+no second chorus, no loop of the same couplet, no luxury products, no Masha R, no collage. No extra limbs. No replay of Part 1 action or dialogue.
 
 FRAME FILL / NO BARS:
 Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
 ```
 
----
+</div>
+
+</div>
+
+<a id="scene-86B"></a>
+
+### 86B · Ничтожное содержимое
+
+Слот S86B-worthless-contents.jpg — нужен кадр, файла нет. Без припева.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-86/S86-swap-sasha-masha-f.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-86/previews/S86-swap-sasha-masha-f.webp" alt="86 — принятый кадр кухни" loading="lazy" width="480"></a><figcaption>86 — принятый кадр кухни</figcaption></figure>
+</div>
+
+<div class="engine-tabs" data-scene="86">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### Wan 3.0 / Seedance 2.5 · 30 с
+
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic comedy with living light, colour and performance
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/sasha.jpg — Sasha face only.
+@Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R.
+@Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
+Slots not yet files: references/scenes/scene-86/S86A-solemn-open.jpg, references/scenes/scene-86/S86B-worthless-contents.jpg, references/scenes/scene-86/S86C-delighted-reaction.jpg.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. Casual home clothes as in the still. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Home clothes as in the still. They sing only the verse written in that subscene, once.
+
+SCENE / SPACE:
+One cramped cheerful kitchen, many plain bags on the table, warm practical bulb, no studio.
+
+START STATE:
+Bag already open.
+
+STORY FLOW:
+0–10s: Sasha lifts a cheap disco-bulb. It flickers rainbow. He gasps.
+10–20s: Masha F lifts a rubber chicken and squeezes it. One squeak. Both laugh.
+20–30s: They hold the two objects up like treasure. No song.
+
+END STATE:
+Bulb and chicken held up, laughing.
+
+CAMERA / LIGHT / PERFORMANCE:
+Warm 35mm, slight handheld joy. Faces readable while singing.
+
+AUDIO:
+Gasp, one squeak, laughter. No lyrics.
+
+NEGATIVE:
+no second chorus, no loop of the same couplet, no luxury products, no Masha R, no collage. No extra limbs.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+#### Seedance 2.0 · часть 1 · 15 с
+
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colour and performance
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/sasha.jpg — Sasha face only.
+@Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R.
+@Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
+Slots not yet files: references/scenes/scene-86/S86A-solemn-open.jpg, references/scenes/scene-86/S86B-worthless-contents.jpg, references/scenes/scene-86/S86C-delighted-reaction.jpg.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. Casual home clothes as in the still. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Home clothes as in the still. They sing only the verse written in that subscene, once.
+
+SCENE / SPACE:
+One cramped cheerful kitchen, many plain bags on the table, warm practical bulb, no studio.
+
+START STATE:
+Bag open.
+
+STORY FLOW:
+0–15s: The bulb comes out and lights. His gasp finishes.
+
+END STATE:
+Bulb glowing.
+
+CAMERA / LIGHT / PERFORMANCE:
+Warm 35mm, slight handheld joy. Faces readable while singing.
+
+AUDIO:
+For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. No lyrics.
+
+NEGATIVE:
+no second chorus, no loop of the same couplet, no luxury products, no Masha R, no collage. No extra limbs.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+#### Seedance 2.0 · часть 2 · 15 с
+
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`. @Video1 — настоящие последние 3 с P1 подсцены 86B.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colour and performance
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/sasha.jpg — Sasha face only.
+@Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R.
+@Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
+Slots not yet files: references/scenes/scene-86/S86A-solemn-open.jpg, references/scenes/scene-86/S86B-worthless-contents.jpg, references/scenes/scene-86/S86C-delighted-reaction.jpg.
+@Video1 = actual final 3 seconds of Scene 86 subscene 86B Seedance Part 1 — real continuity, not a generated substitute.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. Casual home clothes as in the still. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Home clothes as in the still. They sing only the verse written in that subscene, once.
+
+SCENE / SPACE:
+One cramped cheerful kitchen, many plain bags on the table, warm practical bulb, no studio.
+
+START STATE:
+Bulb already out.
+
+STORY FLOW:
+0–15s: The chicken squeaks once. They laugh and present both objects. No song.
+
+END STATE:
+Objects presented.
+
+CAMERA / LIGHT / PERFORMANCE:
+Warm 35mm, slight handheld joy. Faces readable while singing.
+
+AUDIO:
+For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. No lyrics.
+
+NEGATIVE:
+no second chorus, no loop of the same couplet, no luxury products, no Masha R, no collage. No extra limbs. No replay of Part 1 action or dialogue.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
 
 </div>
 
 </div>
 
----
+<a id="scene-86C"></a>
+
+### 86C · Ещё больший восторг
+
+Слот S86C-delighted-reaction.jpg — нужен кадр, файла нет. Второй куплет один раз.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-86/S86-swap-sasha-masha-f.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-86/previews/S86-swap-sasha-masha-f.webp" alt="86 — принятый кадр кухни" loading="lazy" width="480"></a><figcaption>86 — принятый кадр кухни</figcaption></figure>
+</div>
+
+<div class="engine-tabs" data-scene="86">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### Wan 3.0 / Seedance 2.5 · 30 с
+
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic comedy with living light, colour and performance
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/sasha.jpg — Sasha face only.
+@Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R.
+@Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
+Slots not yet files: references/scenes/scene-86/S86A-solemn-open.jpg, references/scenes/scene-86/S86B-worthless-contents.jpg, references/scenes/scene-86/S86C-delighted-reaction.jpg.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. Casual home clothes as in the still. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Home clothes as in the still. They sing only the verse written in that subscene, once.
+
+SCENE / SPACE:
+One cramped cheerful kitchen, many plain bags on the table, warm practical bulb, no studio.
+
+START STATE:
+Bulb and chicken already on the table.
+
+STORY FLOW:
+0–8s: She puts on pink heart sunglasses. He lifts a golden lucky cat; its paw waves.
+8–20s: They SING once, complete: «Продукты с помойки, новая программа! Для всех малоимущих никакого обмана!»
+20–30s: They wave at the lens, still delighted. No return to the first couplet.
+
+END STATE:
+Waving, treasures around them.
+
+CAMERA / LIGHT / PERFORMANCE:
+Warm 35mm, slight handheld joy. Faces readable while singing.
+
+AUDIO:
+Only the second couplet, once.
+
+NEGATIVE:
+no second chorus, no loop of the same couplet, no luxury products, no Masha R, no collage. No extra limbs.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+#### Seedance 2.0 · часть 1 · 15 с
+
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colour and performance
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/sasha.jpg — Sasha face only.
+@Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R.
+@Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
+Slots not yet files: references/scenes/scene-86/S86A-solemn-open.jpg, references/scenes/scene-86/S86B-worthless-contents.jpg, references/scenes/scene-86/S86C-delighted-reaction.jpg.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. Casual home clothes as in the still. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Home clothes as in the still. They sing only the verse written in that subscene, once.
+
+SCENE / SPACE:
+One cramped cheerful kitchen, many plain bags on the table, warm practical bulb, no studio.
+
+START STATE:
+Objects on the table.
+
+STORY FLOW:
+0–15s: Sunglasses on, cat paw waves. They breathe in to sing and do not start the words yet.
+
+END STATE:
+About to sing.
+
+CAMERA / LIGHT / PERFORMANCE:
+Warm 35mm, slight handheld joy. Faces readable while singing.
+
+AUDIO:
+For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. No lyrics yet.
+
+NEGATIVE:
+no second chorus, no loop of the same couplet, no luxury products, no Masha R, no collage. No extra limbs.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+#### Seedance 2.0 · часть 2 · 15 с
+
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`. @Video1 — настоящие последние 3 с P1 подсцены 86C.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colour and performance
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/sasha.jpg — Sasha face only.
+@Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R.
+@Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
+Slots not yet files: references/scenes/scene-86/S86A-solemn-open.jpg, references/scenes/scene-86/S86B-worthless-contents.jpg, references/scenes/scene-86/S86C-delighted-reaction.jpg.
+@Video1 = actual final 3 seconds of Scene 86 subscene 86C Seedance Part 1 — real continuity, not a generated substitute.
+Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. Casual home clothes as in the still. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Home clothes as in the still. They sing only the verse written in that subscene, once.
+
+SCENE / SPACE:
+One cramped cheerful kitchen, many plain bags on the table, warm practical bulb, no studio.
+
+START STATE:
+Ready to sing, sunglasses already on.
+
+STORY FLOW:
+0–12s: The whole second couplet, once.
+12–15s: They wave.
+
+END STATE:
+Waving.
+
+CAMERA / LIGHT / PERFORMANCE:
+Warm 35mm, slight handheld joy. Faces readable while singing.
+
+AUDIO:
+For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Only the second couplet.
+
+NEGATIVE:
+no second chorus, no loop of the same couplet, no luxury products, no Masha R, no collage. No extra limbs. No replay of Part 1 action or dialogue.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+</div>
 
 <a id="scene-87"></a>
 

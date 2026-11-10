@@ -59,5 +59,22 @@
     }
   ],
   "additional_references_pending": [],
-  "photo_gallery_page": "parodies.html#scene-84"
+  "photo_gallery_page": "parodies.html#scene-84",
+  "t540u_slots_without_files": [
+    {
+      "file": "references/scenes/scene-84/S84B-prepared-panel.jpg",
+      "subscene": "84B",
+      "status": "нужен кадр"
+    },
+    {
+      "file": "references/scenes/scene-84/S84B-squeegee-pass.jpg",
+      "subscene": "84B",
+      "status": "нужен кадр"
+    },
+    {
+      "file": "references/scenes/scene-84/S84C-neat-result.jpg",
+      "subscene": "84C",
+      "status": "нужен кадр"
+    }
+  ]
 }

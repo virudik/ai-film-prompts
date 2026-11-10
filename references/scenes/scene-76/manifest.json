@@ -101,5 +101,22 @@
     }
   ],
   "additional_references_pending": [],
-  "photo_gallery_page": "parodies.html#scene-76"
+  "photo_gallery_page": "parodies.html#scene-76",
+  "t540u_slots_without_files": [
+    {
+      "file": "references/scenes/scene-76/S76A-kandibober-only.jpg",
+      "subscene": "76A",
+      "status": "нужен кадр"
+    },
+    {
+      "file": "references/scenes/scene-76/S76B-normalno-only.jpg",
+      "subscene": "76B",
+      "status": "нужен кадр"
+    },
+    {
+      "file": "references/scenes/scene-76/S76C-yaz-only.jpg",
+      "subscene": "76C",
+      "status": "нужен кадр"
+    }
+  ]
 }

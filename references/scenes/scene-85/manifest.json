@@ -75,5 +75,22 @@
     }
   ],
   "additional_references_pending": [],
-  "photo_gallery_page": "parodies.html#scene-85"
+  "photo_gallery_page": "parodies.html#scene-85",
+  "t540u_slots_without_files": [
+    {
+      "file": "references/scenes/scene-85/S85A-gravity-announce.jpg",
+      "subscene": "85A",
+      "status": "нужен кадр"
+    },
+    {
+      "file": "references/scenes/scene-85/S85B-slippers-question.jpg",
+      "subscene": "85B",
+      "status": "нужен кадр"
+    },
+    {
+      "file": "references/scenes/scene-85/S85C-hook-diagram.jpg",
+      "subscene": "85C",
+      "status": "нужен кадр"
+    }
+  ]
 }
