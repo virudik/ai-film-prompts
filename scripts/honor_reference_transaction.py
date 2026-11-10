@@ -20,6 +20,19 @@ reg_before=json.loads((P/'character-references.json').read_text())
 mod.apply(B)
 instr=P/'INSTRUCTIONS.md';text=instr.read_text();old='точный продукт отдельным композитным слоем по references/scenes/scene-4/production-package.md';new='реальная модель по официальным фото и карте references/scenes/scene-4/reference-bindings.json; точный композит остаётся запасным вариантом по production-package.md';assert old in text;text=text.replace(old,new,1);instr.write_text(text)
 q=Path('tests/test_honor_real_model_references.py');text=(B/'qa.py').read_text().replace('R=Path.cwd();','R=Path(__file__).resolve().parents[1];');q.write_text(text)
+legacy=Path('tests/test_raznoe_honor_scene4.py');legacy_before=sha(legacy);assert legacy_before=='fcd431eb1c6ec7562c3490763ec3773c4406900d0d268e0bfd547d10b1042152','legacy guard changed; inspect fresh source'
+s=legacy.read_text()
+replacements={
+ 'mood stills only, full prompt package':'exact-model references, preserved mood stills, full prompt package',
+ '        self.assertIn("канонических продуктовых PNG нет", scene)\n':'        self.assertIn("Точная модель сцены: HONOR Magic9 Pro Max", scene)\n        self.assertIn("ИИ-кадры", scene)\n',
+ '        self.assertIn("H-CAM", scene)\n':'        self.assertIn("H-GEN-CAMERA", scene)\n',
+ '        self.assertIn("H-BACK.image-prompt.txt", scene)\n':'        self.assertIn("reference-bindings.json", scene)\n',
+ '        self.assertIn("11ZlXyZwAVpcKymg8vM9qjziKrbop3wZA", scene)\n':'        self.assertIn("19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI", scene)\n',
+ '        self.assertIn("1u1lCAo2bRKL1qth5GU3FZC1eGx-GUksC", scene)\n':'        self.assertIn("1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg", scene)\n',
+ '        self.assertEqual(scene.count("PRODUCT / COMPOSITING LOCK"), 36)\n':'        self.assertEqual(scene.count("PRODUCT IDENTITY LOCK"), 36)\n        bindings = json.loads((SCENE / "reference-bindings.json").read_text())\n        self.assertEqual(len(bindings["prompts"]), 36)\n        self.assertTrue(bindings["official_sources_are_primary"])\n        for item in bindings["prompts"]:\n            self.assertEqual(item["inputs"]["@Image1"]["model"], "HONOR Magic9 Pro Max")\n            self.assertEqual(item["inputs"]["@Image2"]["model"], "HONOR Magic9 Pro Max")\n            self.assertEqual(item["inputs"]["@Image4"]["role"], "lighting_and_framing_only")\n            self.assertEqual(item["inputs"]["@Image5"]["role"], "macro_framing_only")\n'
+}
+for old,new in replacements.items():assert old in s,old;s=s.replace(old,new,1)
+legacy.write_text(s);assert sha(legacy)=='77da2ed4214c3f88e55ee23aa689e4e3fa784ff98d923801e199ce9bb298c2ad'
 assert before=={p:sha(p) for p in protected},'protected input changed'
 assert (P/'video-prompts.md').read_text().split('<a id="scene-4"></a>')[0]==prefix
 reg_after=json.loads((P/'character-references.json').read_text());assert reg_before['characters']==reg_after['characters']
@@ -39,7 +52,7 @@ count=int(m.group(1))
 run('site',['python3','scripts/validate_site.py'])
 run('certificate',['python3','scripts/cert_github.py','.'])
 run('projects',['python3','scripts/projects.py','.','validate'])
-report=P/'reports/honor-reference-integration.json';r=json.loads(report.read_text());r.update(source_head=head,workflow_run_id=os.environ['GITHUB_RUN_ID'],test_results={'checked_at':now(),'tests_run':count,'failures':0,'errors':0,'skipped':0,'all_tests_passed':True},validations=results,protected_files_unchanged=before,drive_readback=json.loads((P/'reports/honor-reference-drive-readback.json').read_text()),canonical_integration_complete=True,site_verified=False);dump(report,r)
+report=P/'reports/honor-reference-integration.json';r=json.loads(report.read_text());r.update(source_head=head,workflow_run_id=os.environ['GITHUB_RUN_ID'],test_results={'checked_at':now(),'tests_run':count,'failures':0,'errors':0,'skipped':0,'all_tests_passed':True},validations=results,protected_files_unchanged=before,drive_readback=json.loads((P/'reports/honor-reference-drive-readback.json').read_text()),canonical_integration_complete=True,site_verified=False,legacy_test_update={'path':str(legacy),'before_sha256':legacy_before,'after_sha256':sha(legacy),'reason':'The owner requested adding exact-model product references. The old test required no product PNGs and placeholder compositing labels. It now verifies real source IDs, 36 identity locks and every binding; mood originals, duration, queue and no-approval/no-contest guards remain.'});dump(report,r)
 anchor='# 11.11.2026 — реальные модели и шесть референсов HONOR4/5';cp=P/'reports/current-work-checkpoint.md';t=cp.read_text();t=t.replace('Результат ещё проходит проверки; публикацию не считать подтверждённой до live readback.',f'39 привязок проверены; {count} тестов и валидаторы пройдены. Проверка выдачи сайта ещё ожидается.',1);cp.write_text(t)
 completed=f'Шесть существующих ИИ-PNG и6 превью привязаны к сценам4/5; все36+3 промпта используют реальные источники точной модели. Drive6/6 совпали. Тесты{count}/{count}; сайт ещё ждёт точного readback.'
 next_action='Завершить Pages и точный readback всех файлов; не пересоздавать изображения. Затем только отдельно разрешённые видео, реальные хвосты/QC и конкурсная съёмка; приёмку не подменять.'
@@ -48,7 +61,7 @@ run('resume-final',['python3','scripts/build_resume_packet.py','.','--project','
 run('preflight-final',['python3','scripts/continue_preflight.py','.','--project','raznoe'])
 logs2=run('full-tests-final',['python3','-m','unittest','discover','-s','tests']);m2=re.search(r'Ran (\d+) tests? in',logs2);assert m2 and int(m2.group(1))==count and not re.search(r'skipped=\d+',logs2)
 assert before=={p:sha(p) for p in protected},'protected files changed during verification'
-files=[str(P/x) for x in ['video-prompts.md','character-references.json','INSTRUCTIONS.md','HANDOFF.md','project-status.json','reports/current-work-checkpoint.md','reports/honor-reference-integration.json','work-resume-register.json','shadow/resume-packet.md','shadow/resume-packet.json']]+[str(q)]
+files=[str(P/x) for x in ['video-prompts.md','character-references.json','INSTRUCTIONS.md','HANDOFF.md','project-status.json','reports/current-work-checkpoint.md','reports/honor-reference-integration.json','work-resume-register.json','shadow/resume-packet.md','shadow/resume-packet.json']]+[str(q),str(legacy)]
 for sid in (4,5):files += [str(P/f'references/scenes/scene-{sid}'/n) for n in ['manifest.json','reference-bindings.json']]
 files += [str(P/'references/scenes/scene-4'/n) for n in ['production-package.md','product-compositing.json']]
 for a in r['assets']:files.extend([a['path'],a['preview']])
