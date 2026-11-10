@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "rules": "ops/OWNER-TASKS.md",
-  "updated_at": "2026-11-10T18:23:15Z",
+  "updated_at": "2026-11-10T20:49:27Z",
   "tasks": [
     {
       "id": "claude-202610271320-cpk-refs",
@@ -204,6 +204,18 @@
       "to": "any",
       "source": "self-heal",
       "text": "Самопроверка: Робот сканирует, но статус Topview на сайте не обновлялся 195 мин. Последнее решение робота: «hold — unmapped_active:6fa3cdac». Обычно это пауза робота (hold): задача без сцены, неполный скан или сбой проверки публикации. Робот уже запустил полный скан Topview 2026-11-09T17:49:50Z, не помогло. Найти причину и починить; правила — ops/SELF-HEAL.md.",
+      "status": "open",
+      "taken_by": null,
+      "taken_at": null
+    },
+    {
+      "id": "self-heal-run-failed-canon-health-202611102049",
+      "heal_key": "run-failed-canon-health",
+      "created_at": "2026-11-10T20:49:27Z",
+      "scene_id": null,
+      "to": "any",
+      "source": "self-heal",
+      "text": "Самопроверка: Последний запуск «здоровье канона» на GitHub упал (попытка 2): https://github.com/virudik/ai-film-prompts/actions/runs/42893457930 Найти причину и починить; правила — ops/SELF-HEAL.md.",
       "status": "open",
       "taken_by": null,
       "taken_at": null
