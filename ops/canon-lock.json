@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:e2f9fd02-b637-4f53-ab5e-4b215776c8c9",
   "task": "AI Film scheduled ordinary 07:00 MSK read-only full scan + 6/6 reconciliation and cycle receipt",
   "acquired_at": "2026-11-10T04:09:41.109Z",
-  "expires_at": "2026-11-10T04:24:41.109Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-10T04:16:21.423Z",
   "rules": "ops/CANON-LOCK.md"
 }

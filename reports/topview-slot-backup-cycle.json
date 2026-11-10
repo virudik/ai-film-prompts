@@ -7,30 +7,48 @@
   "runtime_run_id_unavailable_reason": null,
   "runtime_evidence": "Automations.peek last_run.id scheduled 2026-11-10T04:00:00Z, started 2026-11-10T04:02:13.653206Z, in_progress",
   "source_head_initial": "80467f11013d55df95f81f006787def3725eb45e",
-  "source_head": "20298b853edf2c498ca826c0fa8d31c8ccf4c2a4",
+  "source_head": "2ada3ba79394a228990496e1753c56de32442d58",
   "route_generation": 3,
   "preferred_executor_observed": "work",
   "started_at": "2026-11-10T04:02:13.653206Z",
   "lease_acquired_at": "2026-11-10T04:09:41.109Z",
-  "phase": "started",
-  "status": "in_progress",
-  "updated_at": "2026-11-10T04:10:29.001Z",
+  "phase": "finished",
+  "status": "completed",
+  "updated_at": "2026-11-10T04:16:21.423Z",
   "scan": {
-    "complete": false,
-    "scope": "fresh all-boards scan observed during this run; final reconciliation pending durable receipt",
-    "checked_at": null
+    "complete": true,
+    "scope": "all 14 Topview boards; 19 video pages total, including zero-task boards; My First Board 6 video pages + 13 other board pages",
+    "boards": 14,
+    "pages": 19,
+    "video_tasks": 670,
+    "status_counts": {
+      "success": 638,
+      "fail": 26,
+      "init": 6
+    },
+    "active_task_ids": [
+      "3a09108c8c474a0989118806b4a69f91",
+      "be627af0e9664db5b6ac2b62c34080a6",
+      "8bdd6439dad94592979aba23c137b4a0",
+      "0a495e5f77a041e6bcc8d67fb68230b3",
+      "6fa3cdac62e348759d2a3607093414ea",
+      "2473c9b5bcf645fd85ab308306c53aaa"
+    ],
+    "checked_at": "2026-11-10T04:15:13.670Z",
+    "main_board_recheck_at": "2026-11-10T04:15:13.670Z",
+    "all_submitted_queue_ids_rechecked": true
   },
   "slots": {
     "physical_capacity": 6,
-    "occupied": null,
-    "free": null,
-    "scan_complete": false,
-    "verified_at": null
+    "occupied": 6,
+    "free": 0,
+    "scan_complete": true,
+    "verified_at": "2026-11-10T04:15:13.670Z"
   },
   "selected_item": null,
   "task_ids": [],
   "new_submissions": [],
-  "browser_transport": "not_used",
+  "browser_transport": "not_used_verified_six_of_six",
   "tinyfish": {
     "runs": [],
     "steps": 0,
@@ -43,23 +61,85 @@
     "acquired_at": "2026-11-10T04:09:41.109Z",
     "expires_at": "2026-11-10T04:24:41.109Z",
     "lease_commit": "20298b853edf2c498ca826c0fa8d31c8ccf4c2a4",
-    "final_action": "held"
+    "final_action": "released_atomically_with_receipt",
+    "released_at": "2026-11-10T04:16:21.423Z"
   },
-  "outcome": "started",
-  "blocker": null,
+  "outcome": "no_free_slot",
+  "blocker": {
+    "category": "unreconciled_new_topview_task_candidate",
+    "item_id": "S49B",
+    "reason": "New real My First Board task 3a09108c8c474a0989118806b4a69f91 in init, created 2026-11-10 03:11:50 (Topview timestamp), matches S49B scene-49 instrument trio, 6 image slots, Seedance 2.0/15s/720p/16:9/Unlimited true/creditsCost0. Canon queue still says S49B waiting_for_slot/task_id null. Provider positivePrompt raw SHA-256 dfea05c6... does not equal queue normalized SHA-256 628b4eda...; transforms and exact reference file bytes/SHA not independently established. Do not attribute as exact canonical submission or click Create again until reconciled. All six physical slots occupied; no metered browser work.",
+    "retryable": true,
+    "retry_condition": "Fresh full scan after slot opens; verify exact normalized prompt and six input SHA/provenance, then atomically reconcile the existing task, never duplicate."
+  },
   "acceptance": {
     "scheduled_run_executed": true,
-    "topview_read_only_scan_complete": false,
+    "topview_read_only_scan_complete": true,
     "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
     "production_submission_by_this_executor_verified": false,
     "new_task_id_verified": false,
-    "scheduled_run_id_observed": true
+    "scheduled_run_id_observed": true,
+    "full_current_queue_task_ids_checked_this_run": true,
+    "queue_sha_verified_in_this_run": true,
+    "task_map_sha_verified_in_this_run": true,
+    "third_party_candidate_topview_id_verified": true
   },
   "previous_cycle": {
     "execution_instance_id": "bdd7d9da-63cc-46a1-8336-15efbfb742ab",
     "completed_at": "2026-11-10T03:16:07.277Z",
     "outcome": "no_new_create_s49b_blocked_browser_input_unlimited0_unverified"
+  },
+  "checked_at": "2026-11-10T04:16:21.423Z",
+  "completed_at": "2026-11-10T04:16:21.423Z",
+  "observed_new_task_candidate": {
+    "item_id": "S49B",
+    "task_id": "3a09108c8c474a0989118806b4a69f91",
+    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "provider_created_at": "2026-11-10 03:11:50",
+    "status": "init",
+    "model": "Seedance 2.0",
+    "duration_seconds": 15,
+    "resolution": 720,
+    "aspect_ratio": "16:9",
+    "input_count": 6,
+    "useUnlimitMode": true,
+    "creditsCost": 0,
+    "provider_raw_prompt_sha256": "dfea05c615e60cab374f889cdb41f528c312b83ee8eba0073a5216c12f2ef5cd",
+    "expected_queue_normalized_prompt_sha256": "628b4edaac79e78b9d35cf35b6c5258d0321866d30fabd4d250d58f08e7fd726",
+    "exact_match_verified": false,
+    "queue_state": "waiting_for_slot"
+  },
+  "peer_reconciliation": {
+    "ordinary_actual_last_run_id": "84168366-90f0-8322-9fc0-dc30d8f50624",
+    "ordinary_latest_result_run_id": "0d164f0e-5f0c-832b-aa1a-48d2895cb545",
+    "relay_last_run_id": "8aec3d2d-621c-8320-9682-7683dd809b6a",
+    "relay_latest_result_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d",
+    "hh55_last_run_id": "3f868241-2edc-832c-bcf4-a9e6fcfb5c58",
+    "hh55_latest_result_run_id": "1658357b-2320-8333-98ac-459762c93799"
+  },
+  "owner_tasks_open": [
+    "self-heal-telemetry-stale-202611091849"
+  ],
+  "queue_reconciliation": {
+    "current_queue_item_count": 61,
+    "submitted_completed_count": 41,
+    "task_ids_all_found": true,
+    "live_transitions_unresolved": 0,
+    "current_states": {
+      "submitted": 38,
+      "completed": 3,
+      "waiting_for_slot": 16,
+      "blocked_inputs": 3,
+      "blocked_owner_decision": 1
+    },
+    "queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+    "task_map_sha256": "e1183f3b76efef98357167f484857cc4ab7c03309d3b2e7f56b7c89fa4523011",
+    "sha256_independently_verified_in_this_run": true,
+    "unmapped_active_prior": [
+      "6fa3cdac62e348759d2a3607093414ea"
+    ],
+    "new_candidate_in_task_map_active_by_scene_49": true
   }
 }
