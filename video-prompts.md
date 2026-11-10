@@ -9,8 +9,8 @@
 **44 сцен к генерации/доработке · 240 полных текстов промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
-- **⏳ 24** сцены сейчас в медленной генерации: **16, 28, 42, 48, 49, 51, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 66, 67, 68, 69, 70, 71, 72, 73** — **5 активных Topview-задач / 5 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
-- **Последняя оформленная активная сцена:** 87 — Реклама: Саша, лучший фотограф. Пародии 74–80 обновлены 10.11 по команде t506u: кадры и промпты. 81–87 добавлены как DRAFT, номера оставлены. У 74 восемь подсцен 74A–H; основной кадр 75 — рыбалка на месяце, рыбка возвращена. Видео не запускались; очередь и монтажный порядок не менялись; это не одобрение роликов. 10.11 t540u: подсцены 76, 84, 85, 86 и история 81–83 внесены в промпты. Портреты ведущих и звёздных гостей ещё не получены.
+- **⏳ 24** сцены сейчас в медленной генерации: **16, 28, 42, 48, 49, 51, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 66, 67, 68, 69, 70, 71, 72, 73** — **6 активных Topview-задач / 6 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
+- **Последняя оформленная активная сцена:** 87 — Реклама: Саша, лучший фотограф. Пародии 74–80 обновлены 10.11 по команде t506u: кадры и промпты. 81–87 добавлены как DRAFT, номера оставлены. У 74 восемь подсцен 74A–H; основной кадр 75 — рыбалка на месяце, рыбка возвращена. Видео не запускались; очередь и монтажный порядок не менялись; это не одобрение роликов. 10.11 t540u: подсцены 76, 84, 85, 86 и история 81–83 внесены в промпты. 10.11 t550u: портреты Гузеевой, Сябитовой (анфас + вполоборота, одно лицо), Гослинга, Ди Каприо, Питта и отдельные кадры подсцен 76/84/85/86 подключены; в 81A Алексей отвечает Гузеевой «Я сам решу».
 - **История предыдущего оформления:** 73 — Виталик на троне перед титрами; титры — на существующем блоке 28; 71 после титров и перед трейлерами. Новых запусков нет. Прежде: 72 — пролог: Виталик на том же троне из кальянов в кантине Татуина: «Всем привет… Всем приятного просмотра. История-то понятная, житейская»; 71 — его финальное слово и объявление трейлеров. Обе в двух версиях: с заигрывающими инопланетянками по бокам (главная) и без (владелец 30.10; Wan3.0, 30 с; ждут три картинки от открытого чата ChatGPT Work). Прежняя запись: 70 — Татуин: непрерывный пролёт с улицы к столику Серёги в кантине. Связка 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65 использует настоящие последние3с предыдущего звена; вся уличная цепь и65/70 выбраны Wan3.0,30с,52P1–P6 остаются Seedance2.0. В67–69 одна и та же дыня и сумка;69 убирает оставленную Стичем кучу в лазерный совок. Новые сцены остаются DRAFT, видеостыки ожидаются; приоритет до49→50→51→28, ready-skip сохраняется. Никаких видео этой правкой не запущено.
 - **Ревизия Control Center:** дата определяется автоматически по содержательному изменению canonical master; чистая техническая пересинхронизация без изменения содержимого дату ревизии не меняет.
 - **Последняя полная синхронизация:** **10.11.2026 · текущая по live Topview/Drive сверке**. Точное техническое время свежей telemetry берётся из `topview-status.json.checked_at`.
@@ -89,6 +89,7 @@
 | 48 · Seedance 2.0 часть 2 — Татуин: после боя Канцлер забирает фрагмент карты | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ · `init` · Seedance 2.0 | task `8bdd6439dad94592979aba23c137b4a0`; ждать terminal и проверить результат отдельно |
 | 59 · Seedance 2.0 часть 2 — Кашиик: динамичное прибытие и предвкушение грибной прогулки | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ · `init` · Seedance 2.0 | task `be627af0e9664db5b6ac2b62c34080a6`; ждать terminal и проверить результат отдельно |
 | 51 · E — Финальный музыкально-танцевальный номер: Рок-финал: каждый разбивает свой инструмент | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ · `init` · Seedance 2.0 | task `a1330998d39b486e864ed4e22b4fe8c4`; ждать terminal и проверить результат отдельно |
+| 51 · F — Финальный музыкально-танцевальный номер: Рок-финал: каждый разбивает свой инструмент | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ · `init` · Seedance 2.0 | task `1dcb6fa0628d41b098227ca6c96f1630`; ждать terminal и проверить результат отдельно |
 
 **Правило владельца (11.10.2026):** завершение, ошибка или отмена генерации автоматически меняют только технический статус и число занятых слотов Topview. **Сцена остаётся в canonical slow-списке / ожидании решения до явной кнопки в панели «🔑 Владелец»** и проверенного применения `owner_decisions` в GitHub. Технический `success` не означает одобрение. Новый запуск — только по решению владельца.
 
@@ -131,8 +132,8 @@
 | 78 | [Майонез: салат больше не нужен](#scene-78) | Виталик, Маша Р, Алина | Семья ест майонез, салат больше не нужен. DRAFT; видео не запускать. |
 | 79 | [Чипсы: хруст слышно во всей галактике](#scene-79) | Виталик, Маша Р, Алина; два ролика | 79A совет на диване и 79B элитная реклама. У каждого свои 30 с и 2×15 с. DRAFT; видео не запускать. |
 | 80 | [Люкс из кладовки](#scene-80) | Виталик, Маша Р, Алина; два ролика | 80A семья и 80B соло на троне. У каждого свои 30 с и 2×15 с. DRAFT; видео не запускать. |
-| 81 | [«Давай поженимся»: Алексей ищет невесту](#scene-81) | Лёша, Артём; ведущим нужен портрет | Глава 1: знакомство и фраза про пальто. Гузеева и Сябитова — слоты без файлов. DRAFT; видео не запускать. |
-| 82 | [Комната жениха: звёздные друзья Алексея](#scene-82) | Лёша, Гослинг, Ди Каприо, Питт | Глава 2. Слева направо: Лёша, Гослинг, Ди Каприо, Питт. Единственный кадр комнаты сохранён. Портреты ещё не присланы. DRAFT; видео не запускать. |
+| 81 | [«Давай поженимся»: Алексей ищет невесту](#scene-81) | Лёша, Артём, Гузеева, Сябитова | Глава 1: знакомство и фраза про пальто. Портреты ведущих подключены; Алексей отвечает Гузеевой «Я сам решу». DRAFT; видео не запускать. |
+| 82 | [Комната жениха: звёздные друзья Алексея](#scene-82) | Лёша, Гослинг, Ди Каприо, Питт | Глава 2. Слева направо: Лёша, Гослинг, Ди Каприо, Питт. Единственный кадр комнаты сохранён. Портреты звёзд подключены. DRAFT; видео не запускать. |
 | 83 | [Невеста выбирает Артёма](#scene-83) | Лёша, Артём | Глава 3: она выбирает того, кто подумал про пальто. DRAFT; видео не запускать. |
 | 84 | [Илюша: тачку на прокачку, защитная плёнка](#scene-84) | Илюша; подсцены 84A–C | Пафос, затем ракель, затем готовая панель. DRAFT; видео не запускать. |
 | 85 | [Срочные новости: Саша и Маша Ф](#scene-85) | Саша, Маша Ф; подсцены 85A–C | Одна новость: гравитация и тапочки. Маша Ф не Маша Р. DRAFT; видео не запускать. |
@@ -13199,7 +13200,7 @@ ALEXEY / LESHA: exact face of @Image1, white dinner jacket, black satin lapels, 
 GOSLING: the real Ryan Gosling, exact facial likeness of @Image3, references/full/star-gosling.jpg. Seat immediately to Alexey's right (center-left), black tuxedo, open palm. He says «Я думал, я завидный жених. Потом встретил Алексея» and later «Это уже высшая лига».
 DICAPRIO: the real Leonardo DiCaprio, exact facial likeness of @Image4, references/full/star-dicaprio.jpg, face only from the portrait. Center seat, arms folded. He says «Он и кран починит, и инструкцию прочитает» and later «Алексей, оставь шанс остальным».
 PITT: the real Brad Pitt, exact facial likeness of @Image5, references/full/star-pitt.jpg, face only from the portrait. Far right, pointing at Alexey. He says «И контейнеры возвращает с крышками».
-Left to right on the accepted still: Alexey, Gosling, DiCaprio, Pitt. Do not swap seats or blend faces. Do not invent faces before the portraits arrive.
+Left to right on the accepted still: Alexey, Gosling, DiCaprio, Pitt. Do not swap seats or blend faces. Star faces come only from their portraits @Image3–@Image5, never from the lounge still.
 
 SCENE / SPACE:
 One warm dressing-room lounge exactly as the single still: leather, marble, champagne bucket, macarons, white roses, mirror bulbs. No second room, no studio, no bride.
@@ -13256,7 +13257,7 @@ ALEXEY / LESHA: exact face of @Image1, white dinner jacket, black satin lapels, 
 GOSLING: the real Ryan Gosling, exact facial likeness of @Image3, references/full/star-gosling.jpg. Seat immediately to Alexey's right (center-left), black tuxedo, open palm. He says «Я думал, я завидный жених. Потом встретил Алексея» and later «Это уже высшая лига».
 DICAPRIO: the real Leonardo DiCaprio, exact facial likeness of @Image4, references/full/star-dicaprio.jpg, face only from the portrait. Center seat, arms folded. He says «Он и кран починит, и инструкцию прочитает» and later «Алексей, оставь шанс остальным».
 PITT: the real Brad Pitt, exact facial likeness of @Image5, references/full/star-pitt.jpg, face only from the portrait. Far right, pointing at Alexey. He says «И контейнеры возвращает с крышками».
-Left to right on the accepted still: Alexey, Gosling, DiCaprio, Pitt. Do not swap seats or blend faces. Do not invent faces before the portraits arrive.
+Left to right on the accepted still: Alexey, Gosling, DiCaprio, Pitt. Do not swap seats or blend faces. Star faces come only from their portraits @Image3–@Image5, never from the lounge still.
 
 SCENE / SPACE:
 One warm dressing-room lounge exactly as the single still: leather, marble, champagne bucket, macarons, white roses, mirror bulbs. No second room, no studio, no bride.
@@ -13305,7 +13306,7 @@ ALEXEY / LESHA: exact face of @Image1, white dinner jacket, black satin lapels, 
 GOSLING: the real Ryan Gosling, exact facial likeness of @Image3, references/full/star-gosling.jpg. Seat immediately to Alexey's right (center-left), black tuxedo, open palm. He says «Я думал, я завидный жених. Потом встретил Алексея» and later «Это уже высшая лига».
 DICAPRIO: the real Leonardo DiCaprio, exact facial likeness of @Image4, references/full/star-dicaprio.jpg, face only from the portrait. Center seat, arms folded. He says «Он и кран починит, и инструкцию прочитает» and later «Алексей, оставь шанс остальным».
 PITT: the real Brad Pitt, exact facial likeness of @Image5, references/full/star-pitt.jpg, face only from the portrait. Far right, pointing at Alexey. He says «И контейнеры возвращает с крышками».
-Left to right on the accepted still: Alexey, Gosling, DiCaprio, Pitt. Do not swap seats or blend faces. Do not invent faces before the portraits arrive.
+Left to right on the accepted still: Alexey, Gosling, DiCaprio, Pitt. Do not swap seats or blend faces. Star faces come only from their portraits @Image3–@Image5, never from the lounge still.
 
 SCENE / SPACE:
 One warm dressing-room lounge exactly as the single still: leather, marble, champagne bucket, macarons, white roses, mirror bulbs. No second room, no studio, no bride.
