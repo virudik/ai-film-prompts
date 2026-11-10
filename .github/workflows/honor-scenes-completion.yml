@@ -4,45 +4,68 @@ on:
     branches: [main]
     paths: [.github/workflows/honor-scenes-completion.yml]
 permissions:
-  contents: read
+  contents: write
 concurrency:
   group: honor-scenes-completion
   cancel-in-progress: false
 jobs:
-  exact_sources:
+  complete_and_verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 12
+    env:
+      PYTHONPATH: .
     steps:
       - uses: actions/checkout@v5
         with:
           ref: main
           fetch-depth: 1
-      - name: Download official X9e Pro source pixels for private technical review
+      - name: Apply scoped project changes and verify full suite
+        shell: bash
         run: |
-          mkdir -p /tmp/honor-x9e-sources
-          python3 - <<'PY'
+          set -euo pipefail
+          mkdir -p /tmp/honor-completion
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          published=false
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            python3 - <<'PY'
           from pathlib import Path
-          from datetime import datetime,timezone
-          import json,hashlib,urllib.request,struct
-          holder='chatgpt:ordinary:79b0c146-b9a1-46f2-8187-6be9bd781ec4'
-          for p in ['ops/canon-lock.json','projects/raznoe/canon-lock.json']:
-              l=json.loads(Path(p).read_text());assert l['state']=='held' and l['holder']==holder
-              assert datetime.fromisoformat(l['expires_at'])>datetime.now(timezone.utc)
-          out=Path('/tmp/honor-x9e-sources');rows=[]
-          for role,side in [('X-BACK','back'),('X-FRONT','front')]:
-              url='https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-x9e-pro/honor-x9e-pro-purple-'+side+'.png'
-              req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 HONOR-source-QC','Cache-Control':'no-cache'})
-              with urllib.request.urlopen(req,timeout=35) as r:
-                  raw=r.read();status=r.status;mime=r.headers.get('Content-Type')
-              assert raw[:8]==b'\x89PNG\r\n\x1a\n'
-              path=out/(role+'-official-source.png');path.write_bytes(raw)
-              rows.append({'slot':role,'file':path.name,'source_page':'https://www.honor.com/eurasia/phones/honor-x9e-pro/spec/','image_url':url,'http':status,'content_type':mime,'sha256':hashlib.sha256(raw).hexdigest(),'bytes':len(raw),'pixels':struct.unpack('>II',raw[16:24]),'kind':'official_source_not_generated','rights':'private_technical_reference_only','color':'Purple reference; actual contest handset color not promised'})
-          (out/'sources.json').write_text(json.dumps({'checked_at':datetime.now(timezone.utc).isoformat(timespec='seconds'),'source_found_in':'official HTML downloaded in workflow 42908666731','items':rows,'no_scene_approval':True,'no_submission':True},ensure_ascii=False,indent=2)+'\n')
-          print(json.dumps(rows))
+          p=Path('scripts/complete_honor_scenes.py');s=p.read_text()
+          needle=" run('resume-packet-final',['python3','scripts/build_resume_packet.py','.','--project','raznoe']);run('preflight-final',['python3','scripts/continue_preflight.py','.','--project','raznoe'])"
+          fix=" capture('.', 'RAZNOE-HONOR-X9EPRO-CONTEST-20261107',anchor,done,next5,[REPORT],[str(R5/'shooting-package.md'),str(R4/'production-package.md')],True,project='raznoe')\n"+needle
+          if fix not in s:
+              assert s.count(needle)==1
+              p.write_text(s.replace(needle,fix))
+          PY
+            python3 scripts/complete_honor_scenes.py
+            git add -- scripts/complete_honor_scenes.py
+            git diff --cached --stat > /tmp/honor-completion/changed-files.txt
+            git diff --cached > /tmp/honor-completion/published.patch
+            git commit -m 'Complete HONOR 4/5 editorial packages, exact sources and approved Moscow concept; no media launch'
+            if git push origin HEAD:main; then
+              git rev-parse HEAD > /tmp/honor-completion/commit.txt
+              published=true
+              break
+            fi
+            echo 'Main changed: discard local transaction, reread main and recalculate.'
+          done
+          test "$published" = true
+          git fetch origin main
+          python3 - <<'PY'
+          import hashlib,json,subprocess
+          from pathlib import Path
+          p='projects/raznoe/reports/honor-scenes-4-5-completion.json'
+          raw=subprocess.check_output(['git','show','origin/main:'+p]);assert raw==Path(p).read_bytes()
+          r=json.loads(raw);assert r['tests']['all_tests_passed'] and r['scenes1_2_3_unchanged']
+          for p,digest in r['files'].items():
+              actual=subprocess.check_output(['git','show','origin/main:'+p]);assert hashlib.sha256(actual).hexdigest()==digest,p
+          print('COMMITTED_READBACK_OK',r['tests']['tests_run'],len(r['files']))
           PY
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: honor-x9e-official-sources
-          path: /tmp/honor-x9e-sources/
+          name: honor-scenes-completion-evidence
+          path: /tmp/honor-completion/
           retention-days: 3
