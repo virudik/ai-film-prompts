@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-10T03:39:17Z",
+  "checked_at": "2026-11-10T12:08:59Z",
   "status": "warn",
   "warnings": 3,
   "info": 17,
@@ -9,7 +9,7 @@
     {
       "level": "warn",
       "code": "handoff-size",
-      "text": "Хендоф 35 КБ (цель до 35 КБ): старые блоки перенести в журнал archive/handoff-log.md.",
+      "text": "Хендоф 37 КБ (цель до 35 КБ): старые блоки перенести в журнал archive/handoff-log.md.",
       "file": "NEW-CHAT-HANDOFF.md"
     },
     {
@@ -123,7 +123,7 @@
     {
       "level": "warn",
       "code": "service-file-size",
-      "text": "work-resume-register.json: 101 КБ (предел 100 КБ): старые записи перенести в архив — python3 scripts/trim_service_files.py . --write (раздел хендофа «Как чистить», п. 8).",
+      "text": "work-resume-register.json: 103 КБ (предел 100 КБ): старые записи перенести в архив — python3 scripts/trim_service_files.py . --write (раздел хендофа «Как чистить», п. 8).",
       "file": "work-resume-register.json"
     }
   ]
