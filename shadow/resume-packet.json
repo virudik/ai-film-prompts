@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-10T11:53:28+00:00",
-  "source_head": "2e683327ef5dba1f7647b1507f17b3dc88159553",
-  "source_fingerprint": "392584837f2b926bc829e2491f1ccad8f9a876d162e4f5889a6f2402330233d9",
+  "checked_at": "2026-11-10T12:08:56+00:00",
+  "source_head": "0c6c078d1190d4882765e3c2a423f9a09eaf7282",
+  "source_fingerprint": "54bcef0c3454995a1ee3dd388792066e67df78cfc91356a9d37e124079f848f8",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -33,30 +33,29 @@
   },
   "reasons": [],
   "selected_work": {
-    "work_id": "SEREGIUS-PARODIES-20261109",
-    "title": "Семь пародийных сцен с изображениями по прямой команде владельца",
-    "status": "photos_delivered_reference_edits_pending",
-    "last_completed": "Выполнена новая задача сохранения существующих фото: на сайте14 оригиналов и14 превью, на Drive56 отдельных изображений (7 основных+7 первых+33 иных+9 прежних технических проб). Все байты скачаны обратно и SHA совпали. Семь ссылок из сцен проверены. Новых генераций/изменений промптов/приёмки/видео нет.",
-    "next_action": "Не загружать эти56 файлов и не создавать галерею повторно. Галерея parodies.html, папка https://drive.google.com/drive/folders/1m0kKr532uOqOzyoIZh_9ZlrWfOoQtNxu. Первые фото отдельно как композиционные черновики, не входы личности. Полная доработка лиц и дополнительных кадров остаётся открытой; эта квитанция закрывает только выгрузку существующих фото. Новых генераций не выполнять без продолжения владельца.",
-    "verified_at": "2026-11-09T20:38:32+00:00",
+    "work_id": "SEREGIUS-PARODIES-20261110",
+    "title": "Пародии 74–87: заметки t540u и кадры t548u–t550u",
+    "status": "published_drafts_t550u_frames_connected",
+    "last_completed": "Кадры t548u–t550u положены по слотам и подключены в промпты, манифесты и parodies.html; в 81A Алексей отвечает «Я сам решу».",
+    "next_action": "Пародии 74–87 опубликованы как DRAFT, все кадры t540u подключены (t550u). Видео 74–87 не запускать без отдельной команды владельца, очередь не менять. Открытых слотов без файлов нет.",
+    "verified_at": "2026-11-10T11:51:41+00:00",
     "blockers": [],
     "evidence": [
       {
-        "file": "reports/parody-photo-delivery-2026-11-09.json",
-        "sha256": "51348f3d752a42140b66bbb5322f926b9f906a1f5046f0579b005362cff04cf0"
+        "file": "reports/parody-frames-to-draw-2026-11-10.md",
+        "sha256": "f4b3d66fb7f7485d76d571115d32de79b715fd7ea8d0eb47868d4d69ecaf87a7"
       }
     ],
     "read_next": [
-      "reports/parody-existing-photos-publication-2026-11-09.json",
-      "archive/parody-74-80/drive-photo-manifest.json"
+      "reports/current-work-checkpoint.md"
     ],
     "checkpoint": {
       "file": "reports/current-work-checkpoint.md",
-      "anchor": "# 09.11.2026 — фото пародий: сайт и Drive проверены обратным скачиванием",
-      "sha256": "a2d167df9e9d062943b11a4a4d56cf5933f9d8889d247d902d72040789fe17cc"
+      "anchor": "# 10.11.2026 — пародии 74–87 опубликованы, t540u внесён в промпты",
+      "sha256": "f70871290f4370979a4d88a0254b434a43cdd91feb6c2517c4b6fa149539784c"
     }
   },
-  "checkpoint_text": "# 09.11.2026 — фото пародий: сайт и Drive проверены обратным скачиванием\n\nwork_id: SEREGIUS-PARODIES-20261109\n\n- Выполнена новая задача сохранения существующих фото: на сайте14 оригиналов и14 превью, на Drive56 отдельных изображений (7 основных+7 первых+33 иных+9 прежних технических проб). Все байты скачаны обратно и SHA совпали. Семь ссылок из сцен проверены. Новых генераций/изменений промптов/приёмки/видео нет.\n- Доказательство: reports/parody-photo-delivery-2026-11-09.json; actual run 42694738909.\n- Следующий шаг: Не загружать эти56 файлов и не создавать галерею повторно. Галерея parodies.html, папка https://drive.google.com/drive/folders/1m0kKr532uOqOzyoIZh_9ZlrWfOoQtNxu. Первые фото отдельно как композиционные черновики, не входы личности. Полная доработка лиц и дополнительных кадров остаётся открытой; эта квитанция закрывает только выгрузку существующих фото. Новых генераций не выполнять без продолжения владельца.\n\nchecked_at: 2026-11-09T20:38:32+00:00\n",
+  "checkpoint_text": "# 10.11.2026 — пародии 74–87 опубликованы, t540u внесён в промпты\n\nwork_id: SEREGIUS-PARODIES-20261110\n\n- Свежий факт: сцены 74–87 есть в `video-prompts.md` как DRAFT. Кадры Грока лежат в `references/scenes/scene-74` … `scene-87` и в манифестах. Утверждения от 09.11, что дополнительные кадры не получены и что пародии — это только 7 PNG и 21 промпт, устарели и не должны запускать переделку.\n- Не откатывать принятое: рыбка в 75 и основной кадр `S75-fishing-start.png`; оба кадра 79 и оба кадра 80; единственный кадр комнаты жениха в 82; гонг в 74 не входит; 77 — мем «Яблоневый сад» без майонеза.\n- t540u сделано в текстах: 76A–C отдельные подсцены; 81A→82A→83A одна история, причина выбора Артёма посеяна фразой про пальто; 84A–C показывают панель, ракель и результат; 85A–C одна новость про гравитацию и тапочки; 86A–C открытие, ничтожная находка, восторг без зацикленного припева.\n- Сделано t548u–t550u (10.11, ~14:55 МСК): все 17 файлов положены по слотам и подключены в промпты и манифесты. Сябитова — два портрета одного лица: `references/full/hostess-syabitova.jpg` (анфас, главный, @Image5) и `references/full/hostess-syabitova-34.jpg` (вполоборота, @Image6). В 81A на реплику Гузеевой «…Ей же с вами скучно будет!» Алексей отвечает «Я сам решу». Видео не запускалось. Строка ниже — историческая.\n- Не сделано, потому что файлов нет и их нельзя выдумывать: портреты `references/full/hostess-guzeeva.jpg` (Лариса Гузеева), `hostess-syabitova.jpg` (Роза Сябитова), `star-gosling.jpg` (Райан Гослинг), `star-dicaprio.jpg` (Леонардо Ди Каприо), `star-pitt.jpg` (Брэд Питт) и отдельные кадры подсцен из `reports/parody-frames-to-draw-2026-11-10.md`. Картинки не генерировать из этого чата: их рисует владелец.\n- Следующий шаг: не пересоздавать опубликованные кадры и не запускать видео. Очередь генераций не менять. Когда владелец положит файл точно по имени слота, подключить его как вход подсцены.\n\nchecked_at: 2026-11-10T11:20:00+00:00\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -150,8 +149,7 @@
     }
   ],
   "read_next": [
-    "reports/parody-existing-photos-publication-2026-11-09.json",
-    "archive/parody-74-80/drive-photo-manifest.json"
+    "reports/current-work-checkpoint.md"
   ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
@@ -545,8 +543,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "388b7303cb41a0413db541971a16e79fc2b5a2d2517b49586b5fa48e6c3170af",
-      "bytes": 35522
+      "sha256": "7cd70b5847386a3ede90e2f31f2fda1fd676bc97f6627c78bd363e1800b8eaa1",
+      "bytes": 37978
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -570,8 +568,8 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "2bb56fa697a3f66a576fccb7b74b995906f35b2728d3b7772a4d4c3c65bc2534",
-      "bytes": 5134
+      "sha256": "7e2dd74ca83f6ed301c7eee9abb6500471bef2701fe23a1329c7ee4223bcad42",
+      "bytes": 5135
     },
     {
       "file": "monitor-role.json",
@@ -590,13 +588,13 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "65d016da508123f91b7e60e2a4aac91ce5e6a830079feb1815ea2efdc1fd143f",
-      "bytes": 28648
+      "sha256": "63d235701c04afa5c33a6b5d7ae855fa9b5442e9ec221fd553e1b0a2080b9a80",
+      "bytes": 28649
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "0d0eea78258aa8e4e180dbd2e1ab46c2e7521bd6f522b2fdadf106853c7ae48a",
-      "bytes": 42328
+      "sha256": "58b68b92fbc82f16a047f8941ebef05c1a547d86024958cb588870573a339bf7",
+      "bytes": 45395
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -604,30 +602,30 @@
       "bytes": 71765
     },
     {
-      "file": "reports/parody-photo-delivery-2026-11-09.json",
-      "sha256": "51348f3d752a42140b66bbb5322f926b9f906a1f5046f0579b005362cff04cf0",
-      "bytes": 33105
+      "file": "reports/parody-frames-to-draw-2026-11-10.md",
+      "sha256": "f4b3d66fb7f7485d76d571115d32de79b715fd7ea8d0eb47868d4d69ecaf87a7",
+      "bytes": 14169
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "77760b3fe0cf0301f2db98799e32fbdd36c7bb3c939354397d7874f46fc83fe5",
-      "bytes": 35323
+      "sha256": "0a0149439bf7b1ef1574b05075cb8a3c6f2571b70a7f47cbc6455806c216bd9b",
+      "bytes": 37779
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "0ed88e7ceb1561fae5fd56c6f9de0ad5ba1329b479b4d8e4d838eadfe8c5b595",
-      "bytes": 31394
+      "sha256": "7642ec5d96dfc9e87dc8df953761e11928b4f2c02056d214a672dc256b11cc8a",
+      "bytes": 31529
     },
     {
       "file": "video-prompts.md",
-      "sha256": "f8646990322cf456d7eb51ce742b9e95c829fc1683de52a4994e5dbd46ed8216",
-      "bytes": 1753654
+      "sha256": "0741355183ee91e443e140018ea92c47270c823fc0c3e89d36b39dac01f69c63",
+      "bytes": 1813262
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "02f658830617e86dcfb300559fc319442bf7643f965ce69801f5d536d4d4ec68",
-      "bytes": 101477
+      "sha256": "75c32eb7f1149ae327f2ff405b680fdf48baf4554338ebc4e10efb44b29b2b1a",
+      "bytes": 103897
     }
   ],
-  "packet_bytes": 6833
+  "packet_bytes": 7516
 }
