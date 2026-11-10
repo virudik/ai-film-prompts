@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:f10d348b-7b65-4254-8e88-304762fa4bc9",
-  "task": "Scheduled Seregius full Topview capacity verification and receipt; Create only if fully authorized",
-  "acquired_at": "2026-11-10T23:02:22.921Z",
-  "expires_at": null,
-  "released_at": "2026-11-10T23:09:48.517Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:e586d119-1d26-4f50-8bf8-9c95d64588be",
+  "task": "HONOR4/5 exact-file transfer, model-reference integration and verification under matching project lease; no generation or contest actions",
+  "acquired_at": "2026-11-10T23:10:43Z",
+  "expires_at": "2026-11-10T23:55:43Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
