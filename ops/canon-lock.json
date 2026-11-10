@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:4622e8df-0ba1-4b7b-8aa8-6a55477d858c",
-  "task": "Seregius HH:00 no-free-slot read-only scan and receipt",
-  "acquired_at": "2026-11-10T19:10:26.620Z",
-  "expires_at": null,
-  "released_at": "2026-11-10T19:12:08.317Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:8c9d9bd3-2401-4392-8f4f-2ecbc9a4cb2c",
+  "task": "Owner-requested scene 88 exact-byte site verification and diagnosis/repair of five failing tests; no media launches",
+  "acquired_at": "2026-11-10T19:54:00Z",
+  "expires_at": "2026-11-10T20:39:00Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
