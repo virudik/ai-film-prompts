@@ -777,7 +777,9 @@
       "model_sheet": {
         "source": "Owner-supplied face photo, 10.11.2026; selfie by a Christmas tree, light hair. Not the copper-red Маша Р and not Маша Лагуна. Visual reference only, owner approval of a generated video is not claimed.",
         "primary": "Маша Ф · лицо анфас",
-        "additional": [],
+        "additional": [
+          "references/full/masha-f-theatre.jpg — то же лицо, анфас в театре, длинные светло-русые волосы распущены; второй ракурс, главный — masha-f.jpg (t555u)"
+        ],
         "public_image": "references/full/masha-f.jpg",
         "full_image": "references/full/masha-f.jpg",
         "full_image_source": "owner_supplied_face_photo",
@@ -787,7 +789,7 @@
       },
       "outfit_variant": "Лицо и светлые волосы с селфи у ёлки. Одежда только по кадру сцены 85 или 86, не с этого фото и не костюм Маши Р.",
       "variants": [],
-      "reference_priority": "Лицо Маши Ф. Это не рыжая Маша Р и не Маша Лагуна. Лист задаёт лицо, не одежду сцены.",
+      "reference_priority": "Лицо Маши Ф. Это не рыжая Маша Р и не Маша Лагуна. Лист задаёт лицо, не одежду сцены. Второй лист references/full/masha-f-theatre.jpg — то же лицо, вторичный ракурс; при расхождении главный masha-f.jpg. Лица только с портретов, не со стиллов.",
       "mapping_confidence": "owner_supplied_face_photo",
       "editorial_status": "not_approved"
     },
