@@ -2,7 +2,7 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-11-10T12:08:56+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-11-10T12:49:42+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -16,7 +16,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 - USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 84845 B · `b5cf8309fba1355f`
 - README-AI-SYNC.md · копия на Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 18840 B · `e8d83475b63a94ee`
 - BACKUP-AI-RUNBOOK.md · копия на Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 21763 B · `6b0a0ba95d23937c`
-- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1813262 B · `0741355183ee91e4`
+- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1824916 B · `2db6571ebb4c27ec`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story. → `NEW-CHAT-HANDOFF.md` ✓
@@ -83,8 +83,8 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 82 | Комната жениха: звёздные друзья Алексея | Wan 3.0 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 | [] | f3d2a27f6f88 |
 | 83 | Невеста выбирает Артёма | Wan 3.0 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 | [] | 5802fd822db5 |
 | 84 | Илюша: тачку на прокачку, защитная плёнка | Wan 3.0 | DRAFT/IDLE | 9 | @Image1 @Image2 @Image3 @Image4 | [] | 2f8b0ec5a8fe |
-| 85 | Срочные новости: Саша и Маша Ф | Wan 3.0 | DRAFT/IDLE | 9 | @Image1 @Image2 @Image3 @Image4 | [] | 40a638f5d1ea |
-| 86 | Саша и Маша Ф: «Эх, распаковочка» | Wan 3.0 | DRAFT/IDLE | 9 | @Image1 @Image2 @Image3 @Image4 | [] | c5646ce392ca |
+| 85 | Срочные новости: Саша и Маша Ф | Wan 3.0 | DRAFT/IDLE | 9 | @Image1 @Image2 @Image3 @Image4 @Image5 | [] | b9f3f04afa3c |
+| 86 | Саша и Маша Ф: «Эх, распаковочка» | Wan 3.0 | DRAFT/IDLE | 9 | @Image1 @Image2 @Image3 @Image4 @Image5 | [] | 075fc29b7363 |
 | 87 | Реклама: Саша, лучший фотограф | Wan 3.0 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [] | b8472502a08a |
 
 ## Что читать под задачу (сверх брифа)
