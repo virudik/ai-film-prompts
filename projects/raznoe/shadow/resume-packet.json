@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-10T22:12:22+00:00",
-  "source_head": "6b7f6b91243c0c79fade8dba9c610c1c86fa8227",
-  "source_fingerprint": "cdfe49d5e9240175a78ef6ef83aa96420cac58c26b980b5f0844e38b78e0f501",
+  "checked_at": "2026-11-10T22:23:12+00:00",
+  "source_head": "1ec083b683433ed28f332630bcc4ca4b0ee1e225",
+  "source_fingerprint": "07720054d4dda7ededda3355464d9579253b427b1adfba16b1e1c2258f9e736d",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -36,27 +36,31 @@
     "work_id": "RAZNOE-HONOR-X9EPRO-CONTEST-20261107",
     "title": "RAZNOE-HONOR-X9EPRO-CONTEST-20261107",
     "status": "preproduction_updated_waiting_submission_rehearsal_and_real_phone",
-    "last_completed": "HONOR4: 36 фоновых промптов связаны с точными исходниками и картой продуктового композита; 15 исходных реплик сохранены, 4 редакционные замены отдельно. HONOR5: Москва/машина Голдберга перенесены из согласования t529; два источника X9e сохранены и проверены на Drive, сценарий90с и технические ограничения опубликованы. Это подготовка, не реальные видео/конкурсная отправка.",
-    "next_action": "Не спрашивать заново город: Москва. Сохранённая идея — Дворовая машина Голдберга. Нужны отдельная команда отправки, принятие правил владельцем, согласование нагрузки/воды организатором, рабочая репетиция муляжом, получение аппарата и настоящая съёмка90с без музыки. ИИ не доказывает результат.",
-    "verified_at": "2026-11-10T22:12:22+00:00",
+    "last_completed": "Промпты и планы HONOR4/5 опубликованы, 12 файлов сайта совпали по SHA; 538 тестов пройдены. Москва/Голдберг сохранены, два X9e исходника проверены в Drive. Реальных видео, отправки конкурса и приёмки нет.",
+    "next_action": "Не повторять готовую редактуру и копирование источников. Magic9: права, выбор разрешённой сетки, реальные клипы/стыки, композит, голос, полный QC. X9e: команда отправки, условия участия, согласование нагрузки/воды, репетиция муляжом, выдача аппарата и настоящая съёмка90с без музыки.",
+    "verified_at": "2026-11-10T22:23:12+00:00",
     "blockers": [],
     "evidence": [
       {
         "file": "projects/raznoe/reports/honor-scenes-4-5-completion.json",
-        "sha256": "f6ab747f0bf9ca487a0278de9b219ba8ea5fef0777dfe211c655c4522ff18fcc"
+        "sha256": "766ed4e426dae68877d58d7691a1340c3468c77fa411157bd42b99174863476d"
+      },
+      {
+        "file": "projects/raznoe/reports/honor-scenes-4-5-publication.json",
+        "sha256": "642ee108a065a72d1019b15bfe4ebb99bec01dd708c4ea305ffcd08c163600d8"
       }
     ],
     "read_next": [
-      "projects/raznoe/references/scenes/scene-5/shooting-package.md",
-      "projects/raznoe/references/scenes/scene-4/production-package.md"
+      "projects/raznoe/references/scenes/scene-4/production-package.md",
+      "projects/raznoe/references/scenes/scene-5/shooting-package.md"
     ],
     "checkpoint": {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
       "anchor": "# HONOR 4–5 — доработка пакетов, Москва и точные продуктовые источники",
-      "sha256": "6a8d41aec8f2f815bc6025ef432a4b1f6c7e590f2e80e8de99f0faa22cdf4945"
+      "sha256": "ca5723941a6b227c94a1bedf6ed89d8b9efa884d2086b3d5da8d5c7e0da6edcc"
     }
   },
-  "checkpoint_text": "# HONOR 4–5 — доработка пакетов, Москва и точные продуктовые источники\n\nwork_id: RAZNOE-HONOR-X9EPRO-CONTEST-20261107\n\n- HONOR4: 36 фоновых промптов связаны с точными исходниками и картой продуктового композита; 15 исходных реплик сохранены, 4 редакционные замены отдельно. HONOR5: Москва/машина Голдберга перенесены из согласования t529; два источника X9e сохранены и проверены на Drive, сценарий90с и технические ограничения опубликованы. Это подготовка, не реальные видео/конкурсная отправка.\n- Доказательство: projects/raznoe/reports/honor-scenes-4-5-completion.json\n- Следующий шаг: Не спрашивать заново город: Москва. Сохранённая идея — Дворовая машина Голдберга. Нужны отдельная команда отправки, принятие правил владельцем, согласование нагрузки/воды организатором, рабочая репетиция муляжом, получение аппарата и настоящая съёмка90с без музыки. ИИ не доказывает результат.\n- Сцена4: Не повторять 36 промптов и загрузку существующих официальных источников. Выпуск Magic9 требует прав, разрешённого выбора сетки генерации, реальных клипов/стыков, композита, записи голоса, полного QC и приёмки. RESOURCE этим проходом не закрыт.\n\nchecked_at: 2026-11-10T22:11:45+00:00\n",
+  "checkpoint_text": "# HONOR 4–5 — доработка пакетов, Москва и точные продуктовые источники\n\nwork_id: RAZNOE-HONOR-X9EPRO-CONTEST-20261107\n\n- HONOR4: 36 фоновых промптов связаны с точными исходниками и картой продуктового композита; 15 исходных реплик сохранены, 4 редакционные замены отдельно. HONOR5: Москва/машина Голдберга перенесены из согласования t529; два источника X9e сохранены и проверены на Drive, сценарий90с и технические ограничения опубликованы. Это подготовка, не реальные видео/конкурсная отправка.\n- Доказательство: projects/raznoe/reports/honor-scenes-4-5-completion.json\n- Публикация проверена: 12 файлов сайта скачаны и SHA совпали; полный набор538 тестов прошёл в run42912188021. Подготовка не равна готовому видео или поданной заявке.\n- Следующий шаг: Не спрашивать заново город: Москва. Сохранённая идея — Дворовая машина Голдберга. Нужны отдельная команда отправки, принятие правил владельцем, согласование нагрузки/воды организатором, рабочая репетиция муляжом, получение аппарата и настоящая съёмка90с без музыки. ИИ не доказывает результат.\n- Сцена4: Не повторять 36 промптов и загрузку существующих официальных источников. Выпуск Magic9 требует прав, разрешённого выбора сетки генерации, реальных клипов/стыков, композита, записи голоса, полного QC и приёмки. RESOURCE этим проходом не закрыт.\n\nchecked_at: 2026-11-10T22:11:45+00:00\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -150,8 +154,8 @@
     }
   ],
   "read_next": [
-    "projects/raznoe/references/scenes/scene-5/shooting-package.md",
-    "projects/raznoe/references/scenes/scene-4/production-package.md"
+    "projects/raznoe/references/scenes/scene-4/production-package.md",
+    "projects/raznoe/references/scenes/scene-5/shooting-package.md"
   ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
@@ -218,7 +222,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "df0a85e529b163a893bf1473c8a1e06204fe7470689aea834f13e03ed722a0ae",
+      "sha256": "5995b37fc3f1ebf38846919dab0d6fc755a3d92e236d9cb7530a635c1a0a6db0",
       "bytes": 29092
     },
     {
@@ -253,8 +257,8 @@
     },
     {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
-      "sha256": "130a5321202524c2ba85ad0eba830d1394ddf2129be55f3770a047fc50d74605",
-      "bytes": 13514
+      "sha256": "10ef1506a41513db7fcae843e182d8f956cfa2dfb5bbd75c2d88704bab1d828e",
+      "bytes": 13797
     },
     {
       "file": "projects/raznoe/reports/handoff-receipts.json",
@@ -263,8 +267,13 @@
     },
     {
       "file": "projects/raznoe/reports/honor-scenes-4-5-completion.json",
-      "sha256": "f6ab747f0bf9ca487a0278de9b219ba8ea5fef0777dfe211c655c4522ff18fcc",
-      "bytes": 5808
+      "sha256": "766ed4e426dae68877d58d7691a1340c3468c77fa411157bd42b99174863476d",
+      "bytes": 11227
+    },
+    {
+      "file": "projects/raznoe/reports/honor-scenes-4-5-publication.json",
+      "sha256": "642ee108a065a72d1019b15bfe4ebb99bec01dd708c4ea305ffcd08c163600d8",
+      "bytes": 5106
     },
     {
       "file": "projects/raznoe/video-prompts.md",
@@ -273,8 +282,8 @@
     },
     {
       "file": "projects/raznoe/work-resume-register.json",
-      "sha256": "c6f67f7d31fde8256d293069010d6e3aa197b84c477281215ee682dc1991589a",
-      "bytes": 26521
+      "sha256": "f7c276ee8ecea6bc2253f6615f61befcaf055d0ed7f86a887b03ede53097f709",
+      "bytes": 26330
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -292,5 +301,5 @@
       "bytes": 1855431
     }
   ],
-  "packet_bytes": 7184
+  "packet_bytes": 7118
 }

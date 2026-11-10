@@ -58,7 +58,7 @@
     "Не повторять 36 промптов и загрузку существующих официальных источников. Выпуск Magic9 требует прав, разрешённого выбора сетки генерации, реальных клипов/стыков, композита, записи голоса, полного QC и приёмки. RESOURCE этим проходом не закрыт.",
     "Не спрашивать заново город: Москва. Сохранённая идея — Дворовая машина Голдберга. Нужны отдельная команда отправки, принятие правил владельцем, согласование нагрузки/воды организатором, рабочая репетиция муляжом, получение аппарата и настоящая съёмка90с без музыки. ИИ не доказывает результат."
   ],
-  "live_publication_verified": false,
+  "live_publication_verified": true,
   "validations": [
     {
       "name": "project-status",
@@ -102,5 +102,125 @@
     "projects/raznoe/references/scenes/scene-5/manifest.json": "b74d7825913cd5fe9626f68500254c7e158666abc33e7b49adda57233b40592b",
     "projects/raznoe/references/scenes/scene-5/shooting-package.md": "a3c90bc8a7fa166b1e45617386e11619772d0186c757a0cf983104dfb63948c4",
     "projects/raznoe/references/scenes/scene-5/official-product-source-links.json": "54c1d9b666311b46109662f0b5c6e1b3ccf4c18d28a926992cff5994eff97c6f"
-  }
+  },
+  "live_publication": {
+    "checked_at": "2026-11-10T22:23:12+00:00",
+    "workflow_run_id": "42912873050",
+    "base_url": "https://xn--l1adcem8c.xn--d1aigvp.xn--p1ai/",
+    "file_count": 12,
+    "verified_count": 12,
+    "all_verified": true,
+    "results": [
+      {
+        "path": "projects/raznoe/video-prompts.md",
+        "expected_sha256": "a6c339c35208fcf0a93e81e568931c11c1b286aa4cb3e5b58b6ff54b0ee3c9b9",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "text/markdown; charset=utf-8",
+        "bytes": 676209,
+        "actual_sha256": "a6c339c35208fcf0a93e81e568931c11c1b286aa4cb3e5b58b6ff54b0ee3c9b9"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-4/manifest.json",
+        "expected_sha256": "710211706c94145bf5da289379a8ad9f79f1964313f25ad3d7d826edd616aceb",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 3072,
+        "actual_sha256": "710211706c94145bf5da289379a8ad9f79f1964313f25ad3d7d826edd616aceb"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-4/production-package.md",
+        "expected_sha256": "b13b8afc4664635cfc7ec90e5b81e7d954956378725eedeb095eb188b9029c8a",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "text/markdown; charset=utf-8",
+        "bytes": 11008,
+        "actual_sha256": "b13b8afc4664635cfc7ec90e5b81e7d954956378725eedeb095eb188b9029c8a"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-4/product-compositing.json",
+        "expected_sha256": "a054c19674682fab2e89147038cd2808bd37a7f6249fbebd44bd4a010e0b0780",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 2096,
+        "actual_sha256": "a054c19674682fab2e89147038cd2808bd37a7f6249fbebd44bd4a010e0b0780"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-4/production-voiceover.json",
+        "expected_sha256": "733f9305168fb52839cccd3bf8b5b2f0c545113f5523a3310bec30e2ff0102ca",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 5304,
+        "actual_sha256": "733f9305168fb52839cccd3bf8b5b2f0c545113f5523a3310bec30e2ff0102ca"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-5/manifest.json",
+        "expected_sha256": "b74d7825913cd5fe9626f68500254c7e158666abc33e7b49adda57233b40592b",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 2747,
+        "actual_sha256": "b74d7825913cd5fe9626f68500254c7e158666abc33e7b49adda57233b40592b"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-5/shooting-package.md",
+        "expected_sha256": "a3c90bc8a7fa166b1e45617386e11619772d0186c757a0cf983104dfb63948c4",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "text/markdown; charset=utf-8",
+        "bytes": 10802,
+        "actual_sha256": "a3c90bc8a7fa166b1e45617386e11619772d0186c757a0cf983104dfb63948c4"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-5/official-product-source-links.json",
+        "expected_sha256": "54c1d9b666311b46109662f0b5c6e1b3ccf4c18d28a926992cff5994eff97c6f",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 2623,
+        "actual_sha256": "54c1d9b666311b46109662f0b5c6e1b3ccf4c18d28a926992cff5994eff97c6f"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-4/03-honor-drawn.png",
+        "expected_sha256": "2279000421fef277e1e7555498009f983f7a47e6943e549c75111b2ddf3b3e1d",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "image/png",
+        "bytes": 1421451,
+        "actual_sha256": "2279000421fef277e1e7555498009f983f7a47e6943e549c75111b2ddf3b3e1d"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-4/01-honor-realism.png",
+        "expected_sha256": "db0c1517d55c460eb78e698c7c4eddb5737fe3e0462d90d7c68502b629a5081e",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "image/png",
+        "bytes": 1383042,
+        "actual_sha256": "db0c1517d55c460eb78e698c7c4eddb5737fe3e0462d90d7c68502b629a5081e"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-4/02-honor-3d.png",
+        "expected_sha256": "b661000edd39577bf516c5c7a3567b21597b96108cffe4ddddeaf611d0e04c24",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "image/png",
+        "bytes": 619834,
+        "actual_sha256": "b661000edd39577bf516c5c7a3567b21597b96108cffe4ddddeaf611d0e04c24"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-4/official-product-source-links.json",
+        "expected_sha256": "6560a026192be4c7389929c797066c20a843226d4c65021b0e55853d2fd48be2",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 8126,
+        "actual_sha256": "6560a026192be4c7389929c797066c20a843226d4c65021b0e55853d2fd48be2"
+      }
+    ],
+    "scope": "Prepared scene text and reference mapping delivery, not completed films or contest entry"
+  },
+  "delivery_verified_at": "2026-11-10T22:23:12+00:00"
 }
