@@ -2473,6 +2473,36 @@
    "thumb_bytes": 38622,
    "src_sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba"
   },
+  "references/full/hostess-guzeeva.jpg": {
+   "thumb": "references/thumbs/full/hostess-guzeeva.jpg.webp",
+   "width": 640,
+   "height": 853,
+   "src_width": 864,
+   "src_height": 1152,
+   "src_bytes": 272550,
+   "thumb_bytes": 45170,
+   "src_sha256": "42926b656ff99e78bad4fc0c6fa4ad3ae414e239372455c0a8cdef4059501cc5"
+  },
+  "references/full/hostess-syabitova-34.jpg": {
+   "thumb": "references/thumbs/full/hostess-syabitova-34.jpg.webp",
+   "width": 640,
+   "height": 853,
+   "src_width": 864,
+   "src_height": 1152,
+   "src_bytes": 329556,
+   "thumb_bytes": 59990,
+   "src_sha256": "08b189fcd22c7def232ec648aa21f89515e1312c800eb64fb8a03df2a1ed07c1"
+  },
+  "references/full/hostess-syabitova.jpg": {
+   "thumb": "references/thumbs/full/hostess-syabitova.jpg.webp",
+   "width": 640,
+   "height": 853,
+   "src_width": 864,
+   "src_height": 1152,
+   "src_bytes": 306662,
+   "thumb_bytes": 49936,
+   "src_sha256": "7b407479e859ed0a4fda8ebd2b583d898f36faf7595ed69190db0f5fac50795b"
+  },
   "references/full/ilyusha.jpg": {
    "thumb": "references/thumbs/full/ilyusha.jpg.webp",
    "width": 640,
@@ -2532,6 +2562,36 @@
    "src_bytes": 155182,
    "thumb_bytes": 15004,
    "src_sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9"
+  },
+  "references/full/star-dicaprio.jpg": {
+   "thumb": "references/thumbs/full/star-dicaprio.jpg.webp",
+   "width": 640,
+   "height": 853,
+   "src_width": 864,
+   "src_height": 1152,
+   "src_bytes": 231233,
+   "thumb_bytes": 31386,
+   "src_sha256": "21f7209c31246921b30b823d4c2292a22a00d654a6690ce821ce69d6270345d8"
+  },
+  "references/full/star-gosling.jpg": {
+   "thumb": "references/thumbs/full/star-gosling.jpg.webp",
+   "width": 640,
+   "height": 853,
+   "src_width": 864,
+   "src_height": 1152,
+   "src_bytes": 249688,
+   "thumb_bytes": 36932,
+   "src_sha256": "1e27a5f34466fb9553d25d007a088ba7079647ec6d9cac91c860b4dfd03735f3"
+  },
+  "references/full/star-pitt.jpg": {
+   "thumb": "references/thumbs/full/star-pitt.jpg.webp",
+   "width": 640,
+   "height": 853,
+   "src_width": 864,
+   "src_height": 1152,
+   "src_bytes": 254020,
+   "thumb_bytes": 37078,
+   "src_sha256": "7a456ebff1b5e02032fe145ae7b10eccfa2f2161b97d897a6d4aeb10fffef0a5"
   },
   "references/full/vitalik.jpg": {
    "thumb": "references/thumbs/full/vitalik.jpg.webp",
@@ -4763,6 +4823,36 @@
    "thumb_bytes": 35750,
    "src_sha256": "e65aeb17b51c187f20719bb7e0945f3b34f16370492a16f450c15e317b803d81"
   },
+  "references/scenes/scene-76/S76A-kandibober-only.jpg": {
+   "thumb": "references/thumbs/scenes/scene-76/S76A-kandibober-only.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 278197,
+   "thumb_bytes": 31840,
+   "src_sha256": "fbf64c327a72d7f4cd80a80733dc44cc5f378db2029ad6dc7d91a5cde2273a11"
+  },
+  "references/scenes/scene-76/S76B-normalno-only.jpg": {
+   "thumb": "references/thumbs/scenes/scene-76/S76B-normalno-only.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 252030,
+   "thumb_bytes": 20188,
+   "src_sha256": "c069e9b059798f0a612d71de02a6ae69ccb786eb2f4dd6ae2661930f206ae1bc"
+  },
+  "references/scenes/scene-76/S76C-yaz-only.jpg": {
+   "thumb": "references/thumbs/scenes/scene-76/S76C-yaz-only.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 316292,
+   "thumb_bytes": 36854,
+   "src_sha256": "a91c618db2d3a4124153eff7b791fee25bf68017cb527a733bb27af96a91353b"
+  },
   "references/scenes/scene-77/S77-extra-masha-restrains.jpg": {
    "thumb": "references/thumbs/scenes/scene-77/S77-extra-masha-restrains.jpg.webp",
    "width": 640,
@@ -4923,6 +5013,36 @@
    "thumb_bytes": 51022,
    "src_sha256": "a05b55c453c4041e6b42bbdb7fa60159a43959fe04cccbaf4f8f16ab703c549c"
   },
+  "references/scenes/scene-84/S84B-prepared-panel.jpg": {
+   "thumb": "references/thumbs/scenes/scene-84/S84B-prepared-panel.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 390656,
+   "thumb_bytes": 49650,
+   "src_sha256": "2d51918a4c8102d9a2e7416cf25078cff85da462abca3418b5ff42502471058e"
+  },
+  "references/scenes/scene-84/S84B-squeegee-pass.jpg": {
+   "thumb": "references/thumbs/scenes/scene-84/S84B-squeegee-pass.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 319777,
+   "thumb_bytes": 39460,
+   "src_sha256": "381f8feb2ef0613a78bde80ff44530a7934650711af3d5c782e5cb75d1d51c5e"
+  },
+  "references/scenes/scene-84/S84C-neat-result.jpg": {
+   "thumb": "references/thumbs/scenes/scene-84/S84C-neat-result.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 348104,
+   "thumb_bytes": 45060,
+   "src_sha256": "b99750cdd9fca5494258224d8ec4e066c18f3e84b255a49f4e5b45d39e2dfbb7"
+  },
   "references/scenes/scene-85/S85-swap-sasha-masha-f.jpg": {
    "thumb": "references/thumbs/scenes/scene-85/S85-swap-sasha-masha-f.jpg.webp",
    "width": 640,
@@ -4933,6 +5053,36 @@
    "thumb_bytes": 40686,
    "src_sha256": "453df2ef05460d10dcffc1e4cb17a30f86b09fe706524dc68b4e99580a5e7509"
   },
+  "references/scenes/scene-85/S85A-gravity-announce.jpg": {
+   "thumb": "references/thumbs/scenes/scene-85/S85A-gravity-announce.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 237709,
+   "thumb_bytes": 20730,
+   "src_sha256": "44b096c5d128ab0bff2dcf1e6fa26ce5087cc78f7c48cbb303f0d98c85ba2bbd"
+  },
+  "references/scenes/scene-85/S85B-slippers-question.jpg": {
+   "thumb": "references/thumbs/scenes/scene-85/S85B-slippers-question.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 216213,
+   "thumb_bytes": 16714,
+   "src_sha256": "b1799d7b6f436bf8c8ef4d8494bae42855639adb51ae2c7b26526cadd1b81049"
+  },
+  "references/scenes/scene-85/S85C-hook-diagram.jpg": {
+   "thumb": "references/thumbs/scenes/scene-85/S85C-hook-diagram.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 253460,
+   "thumb_bytes": 20928,
+   "src_sha256": "7383fbac2e21e5aba0d595bb56dbc020ffc410820218268693b09d63ffcffbf4"
+  },
   "references/scenes/scene-86/S86-swap-sasha-masha-f.jpg": {
    "thumb": "references/thumbs/scenes/scene-86/S86-swap-sasha-masha-f.jpg.webp",
    "width": 640,
@@ -4942,6 +5092,36 @@
    "src_bytes": 398019,
    "thumb_bytes": 55244,
    "src_sha256": "e93d75008a92f1f1941b6c367ae0969a6aebec6e817c35573f4e1032ee027df3"
+  },
+  "references/scenes/scene-86/S86A-solemn-open.jpg": {
+   "thumb": "references/thumbs/scenes/scene-86/S86A-solemn-open.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 342670,
+   "thumb_bytes": 43156,
+   "src_sha256": "51849576343138e62593e7e15e3e2c8fbcb43b90e69f0813bc9b3fbd65616344"
+  },
+  "references/scenes/scene-86/S86B-worthless-contents.jpg": {
+   "thumb": "references/thumbs/scenes/scene-86/S86B-worthless-contents.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 329760,
+   "thumb_bytes": 38384,
+   "src_sha256": "0cab26bbeab851d3749adc4d9a1e6577e6155c016379b8789d12bafa91b43606"
+  },
+  "references/scenes/scene-86/S86C-delighted-reaction.jpg": {
+   "thumb": "references/thumbs/scenes/scene-86/S86C-delighted-reaction.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 357762,
+   "thumb_bytes": 44700,
+   "src_sha256": "95066dd56d450cecf2df86033dcaa2631e6a54d2f092c6e5216d716b8d2f6a85"
   },
   "references/scenes/scene-87/S87-sasha-best-photographer-hero.jpg": {
    "thumb": "references/thumbs/scenes/scene-87/S87-sasha-best-photographer-hero.jpg.webp",
