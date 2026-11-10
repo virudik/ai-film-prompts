@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Разное scene 4 HONOR: mood stills only, full prompt package, queue untouched."""
+"""Разное scene 4 HONOR: exact-model references, preserved mood stills, full prompt package, queue untouched."""
 import hashlib
 import json
 import struct
@@ -37,15 +37,16 @@ class HonorScene4(unittest.TestCase):
         contest = master[end:]
         self.assertIn("## Сцена 4 — HONOR", scene)
         self.assertIn("HONOR Magic9 Pro Max", scene)
-        self.assertIn("канонических продуктовых PNG нет", scene)
+        self.assertIn("Точная модель сцены: HONOR Magic9 Pro Max", scene)
+        self.assertIn("ИИ-кадры", scene)
         self.assertIn("H-FRONT", scene)
-        self.assertIn("H-CAM", scene)
-        self.assertIn("H-BACK.image-prompt.txt", scene)
+        self.assertIn("H-GEN-CAMERA", scene)
+        self.assertIn("reference-bindings.json", scene)
         self.assertIn('id="honor-4-3d"', scene)
         self.assertIn('id="honor-4-real"', scene)
         self.assertIn('id="honor-4-ink"', scene)
-        self.assertIn("11ZlXyZwAVpcKymg8vM9qjziKrbop3wZA", scene)
-        self.assertIn("1u1lCAo2bRKL1qth5GU3FZC1eGx-GUksC", scene)
+        self.assertIn("19QIyFClHQWCy5zfMsVe1oaW2dhXwpzPI", scene)
+        self.assertIn("1XinDbUtQmpMhNc7PW9PnM-KFD4nFfKxg", scene)
         self.assertIn("предложение автора, не утверждено", scene)
         self.assertIn("Aspect ratio: 16:9", scene)
         self.assertIn("No portrait crop", scene)
@@ -75,7 +76,15 @@ class HonorScene4(unittest.TestCase):
         self.assertFalse(manifest["real_shoot_complete"])
         self.assertEqual(len(manifest["technical_sources"]), 2)
         self.assertTrue(all(x["drive_readback_match"] for x in manifest["technical_sources"]))
-        self.assertEqual(scene.count("PRODUCT / COMPOSITING LOCK"), 36)
+        self.assertEqual(scene.count("PRODUCT IDENTITY LOCK"), 36)
+        bindings = json.loads((SCENE / "reference-bindings.json").read_text())
+        self.assertEqual(len(bindings["prompts"]), 36)
+        self.assertTrue(bindings["official_sources_are_primary"])
+        for item in bindings["prompts"]:
+            self.assertEqual(item["inputs"]["@Image1"]["model"], "HONOR Magic9 Pro Max")
+            self.assertEqual(item["inputs"]["@Image2"]["model"], "HONOR Magic9 Pro Max")
+            self.assertEqual(item["inputs"]["@Image4"]["role"], "lighting_and_framing_only")
+            self.assertEqual(item["inputs"]["@Image5"]["role"], "macro_framing_only")
         labels = [label for label, _ in pm.master_blocks(master) if str(label).startswith("4")]
         self.assertEqual(labels[0], "4")
         self.assertEqual(len(labels), 36)

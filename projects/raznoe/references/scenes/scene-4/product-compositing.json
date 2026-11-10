@@ -83,5 +83,9 @@
   "final_composites_created": false,
   "video_created": false,
   "editorial_approval": false,
-  "paid_actions_allowed": false
+  "paid_actions_allowed": false,
+  "active_route": "exact_model_reference_to_video",
+  "compositing_route": "retained_fallback_if_generated_product_fails_geometry_QC",
+  "reference_bindings": "projects/raznoe/references/scenes/scene-4/reference-bindings.json",
+  "generated_source_authority": false
 }

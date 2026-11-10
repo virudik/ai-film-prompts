@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "project": "raznoe",
+  "scene_id": 5,
+  "model": "HONOR X9e Pro",
+  "updated_at": "2026-11-10T23:31:21+00:00",
+  "official_sources_are_primary": true,
+  "generated_images_are_not_official": true,
+  "source_access": "Existing private Drive originals; no new public sharing of manufacturer sources",
+  "excluded_from_generation": [
+    "X-GEN-MOSCOW"
+  ],
+  "prompts": [
+    {
+      "label": "5",
+      "prompt_sha256": "b8a06f270602e503811d092b072489e6ec3f7c4ec2050dab9c5fc582260bdc0a",
+      "inputs": {
+        "@Image1": {
+          "slot": "X-BACK",
+          "source_page": "https://www.honor.com/eurasia/phones/honor-x9e-pro/spec/",
+          "image_url": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-x9e-pro/honor-x9e-pro-purple-back.png",
+          "sha256": "14d398440bb9c38b3f383d36bfcbec39a7a892159a5783fbe22b929519ac1dd5",
+          "bytes": 185328,
+          "width": 255,
+          "height": 532,
+          "media_type": "image/png",
+          "kind": "official_source_not_generated",
+          "color": "Purple reference only; actual loan handset color not promised",
+          "drive_id": "19VmU-oOfN91PTR2QE5t4YZsRhEDbh3yf",
+          "drive_url": "https://drive.google.com/file/d/19VmU-oOfN91PTR2QE5t4YZsRhEDbh3yf/view",
+          "drive_readback_match": true
+        },
+        "@Image2": {
+          "slot": "X-FRONT",
+          "source_page": "https://www.honor.com/eurasia/phones/honor-x9e-pro/spec/",
+          "image_url": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-x9e-pro/honor-x9e-pro-purple-front.png",
+          "sha256": "8ddd755d7ef91b0b21e8940d620955dcd2473b4ad6f2c43f9e1225ee0a34e77f",
+          "bytes": 91357,
+          "width": 255,
+          "height": 532,
+          "media_type": "image/png",
+          "kind": "official_source_not_generated",
+          "color": "Purple reference only; actual loan handset color not promised",
+          "drive_id": "1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL",
+          "drive_url": "https://drive.google.com/file/d/1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL/view",
+          "drive_readback_match": true
+        },
+        "@Image3": {
+          "path": "projects/raznoe/references/scenes/scene-5/X-GEN-FRONT.png",
+          "role": "lighting_and_framing_only"
+        },
+        "@Image4": {
+          "path": "projects/raznoe/references/scenes/scene-5/X-GEN-REAR.png",
+          "role": "lighting_and_framing_only"
+        }
+      }
+    },
+    {
+      "label": "5 · Seedance 2.0 часть 1",
+      "prompt_sha256": "7dc36cc19346eea094670e8913daf19e986cc36a27405f6799d4ca3519a7a993",
+      "inputs": {
+        "@Image1": {
+          "slot": "X-BACK",
+          "source_page": "https://www.honor.com/eurasia/phones/honor-x9e-pro/spec/",
+          "image_url": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-x9e-pro/honor-x9e-pro-purple-back.png",
+          "sha256": "14d398440bb9c38b3f383d36bfcbec39a7a892159a5783fbe22b929519ac1dd5",
+          "bytes": 185328,
+          "width": 255,
+          "height": 532,
+          "media_type": "image/png",
+          "kind": "official_source_not_generated",
+          "color": "Purple reference only; actual loan handset color not promised",
+          "drive_id": "19VmU-oOfN91PTR2QE5t4YZsRhEDbh3yf",
+          "drive_url": "https://drive.google.com/file/d/19VmU-oOfN91PTR2QE5t4YZsRhEDbh3yf/view",
+          "drive_readback_match": true
+        },
+        "@Image2": {
+          "slot": "X-FRONT",
+          "source_page": "https://www.honor.com/eurasia/phones/honor-x9e-pro/spec/",
+          "image_url": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-x9e-pro/honor-x9e-pro-purple-front.png",
+          "sha256": "8ddd755d7ef91b0b21e8940d620955dcd2473b4ad6f2c43f9e1225ee0a34e77f",
+          "bytes": 91357,
+          "width": 255,
+          "height": 532,
+          "media_type": "image/png",
+          "kind": "official_source_not_generated",
+          "color": "Purple reference only; actual loan handset color not promised",
+          "drive_id": "1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL",
+          "drive_url": "https://drive.google.com/file/d/1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL/view",
+          "drive_readback_match": true
+        },
+        "@Image3": {
+          "path": "projects/raznoe/references/scenes/scene-5/X-GEN-FRONT.png",
+          "role": "lighting_and_framing_only"
+        },
+        "@Image4": {
+          "path": "projects/raznoe/references/scenes/scene-5/X-GEN-REAR.png",
+          "role": "lighting_and_framing_only"
+        }
+      }
+    },
+    {
+      "label": "5 · Seedance 2.0 часть 2",
+      "prompt_sha256": "9727134becf157f80810241b29ba82ecf0a02eb90cbc140c56b06e8af79ea40b",
+      "inputs": {
+        "@Image1": {
+          "slot": "X-BACK",
+          "source_page": "https://www.honor.com/eurasia/phones/honor-x9e-pro/spec/",
+          "image_url": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-x9e-pro/honor-x9e-pro-purple-back.png",
+          "sha256": "14d398440bb9c38b3f383d36bfcbec39a7a892159a5783fbe22b929519ac1dd5",
+          "bytes": 185328,
+          "width": 255,
+          "height": 532,
+          "media_type": "image/png",
+          "kind": "official_source_not_generated",
+          "color": "Purple reference only; actual loan handset color not promised",
+          "drive_id": "19VmU-oOfN91PTR2QE5t4YZsRhEDbh3yf",
+          "drive_url": "https://drive.google.com/file/d/19VmU-oOfN91PTR2QE5t4YZsRhEDbh3yf/view",
+          "drive_readback_match": true
+        },
+        "@Image2": {
+          "slot": "X-FRONT",
+          "source_page": "https://www.honor.com/eurasia/phones/honor-x9e-pro/spec/",
+          "image_url": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-x9e-pro/honor-x9e-pro-purple-front.png",
+          "sha256": "8ddd755d7ef91b0b21e8940d620955dcd2473b4ad6f2c43f9e1225ee0a34e77f",
+          "bytes": 91357,
+          "width": 255,
+          "height": 532,
+          "media_type": "image/png",
+          "kind": "official_source_not_generated",
+          "color": "Purple reference only; actual loan handset color not promised",
+          "drive_id": "1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL",
+          "drive_url": "https://drive.google.com/file/d/1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL/view",
+          "drive_readback_match": true
+        },
+        "@Image3": {
+          "path": "projects/raznoe/references/scenes/scene-5/X-GEN-FRONT.png",
+          "role": "lighting_and_framing_only"
+        },
+        "@Image4": {
+          "path": "projects/raznoe/references/scenes/scene-5/X-GEN-REAR.png",
+          "role": "lighting_and_framing_only"
+        },
+        "@Video1": {
+          "role": "actual_previous_part_tail",
+          "status": "required_before_launch",
+          "duration_s": 3,
+          "not_synthetic": true
+        }
+      }
+    }
+  ]
+}

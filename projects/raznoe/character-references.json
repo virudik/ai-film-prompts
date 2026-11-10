@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "project": "raznoe",
-  "updated_at": "2026-11-06T04:45:00Z",
+  "updated_at": "2026-11-10T23:31:21+00:00",
   "source": "59/59 existing scene references recovered and registered; all not_approved; no video generated. 06.11.2026: сцена 3 RESOURCE, 10 поставленных кадров, not_approved; 45737 — полимер; старый металл вне галереи.",
   "characters": [
     {
@@ -1623,6 +1623,98 @@
       },
       "scenes": [
         4
+      ]
+    },
+    {
+      "id": "honor-magic9-pro-max",
+      "name": "HONOR Magic9 Pro Max",
+      "kind": "product",
+      "notes": "Реальные источники модели имеют приоритет. ИИ-изображения — только композиция/свет; не официальные фотографии и не технические характеристики.",
+      "scenes": [
+        4
+      ],
+      "editorial_status": "not_approved",
+      "reference_bindings": "projects/raznoe/references/scenes/scene-4/reference-bindings.json",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-4/H-GEN-PAIR.png",
+          "caption": "Два ракурса — только сравнение композиции",
+          "sha256": "3c7fb44eeb985cadc936a790defe4428f041c6f8ef4a8e569b9d82d0bb2ab97d",
+          "scenes": [
+            4
+          ],
+          "editorial_status": "not_approved",
+          "role": "comparison_only",
+          "active_prompt_input": false
+        },
+        {
+          "path": "projects/raznoe/references/scenes/scene-4/H-GEN-REAR.png",
+          "caption": "Задний ракурс — свет и композиция",
+          "sha256": "638788a29ad30654b3a03cd25f0cf0bd7d8161f995ebec2701941e73b97f3889",
+          "scenes": [
+            4
+          ],
+          "editorial_status": "not_approved",
+          "role": "lighting_and_framing_only",
+          "active_prompt_input": true
+        },
+        {
+          "path": "projects/raznoe/references/scenes/scene-4/H-GEN-CAMERA.png",
+          "caption": "Крупный план — масштаб и свет, не характеристики",
+          "sha256": "e91ba636f6c7ff2d96ed205bd6e81a9848c85939e517367bb1f57ebdc19eab76",
+          "scenes": [
+            4
+          ],
+          "editorial_status": "not_approved",
+          "role": "macro_framing_only",
+          "active_prompt_input": true
+        }
+      ]
+    },
+    {
+      "id": "honor-x9e-pro",
+      "name": "HONOR X9e Pro",
+      "kind": "product",
+      "notes": "Реальные источники модели имеют приоритет. ИИ-изображения — только композиция/свет; не официальные фотографии и не технические характеристики.",
+      "scenes": [
+        5
+      ],
+      "editorial_status": "not_approved",
+      "reference_bindings": "projects/raznoe/references/scenes/scene-5/reference-bindings.json",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-5/X-GEN-FRONT.png",
+          "caption": "Передний ракурс — свет и композиция",
+          "sha256": "310d541788fb9369940389d82fc370f39d5dfe72c959f3825139709efb48f9f7",
+          "scenes": [
+            5
+          ],
+          "editorial_status": "not_approved",
+          "role": "lighting_and_framing_only",
+          "active_prompt_input": true
+        },
+        {
+          "path": "projects/raznoe/references/scenes/scene-5/X-GEN-REAR.png",
+          "caption": "Задний ракурс — свет и композиция",
+          "sha256": "715551970cc8b60b1b3658e646e26a46bb86008822f3a05ffcecad958bdc5f19",
+          "scenes": [
+            5
+          ],
+          "editorial_status": "not_approved",
+          "role": "lighting_and_framing_only",
+          "active_prompt_input": true
+        },
+        {
+          "path": "projects/raznoe/references/scenes/scene-5/X-GEN-MOSCOW.png",
+          "caption": "Архив: Кремль и выдуманный снег — не для конкурса",
+          "sha256": "1cb1c6f78c6c34805200f58cf873c31706497b7bd3cba44a7d99362018385c50",
+          "scenes": [
+            5
+          ],
+          "editorial_status": "not_approved",
+          "role": "archive_only",
+          "active_prompt_input": false
+        }
       ]
     }
   ],

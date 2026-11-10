@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "raznoe",
-  "last_updated_at": "2026-11-10T22:23:12+00:00",
+  "last_updated_at": "2026-11-10T23:32:00+00:00",
   "active_work": [
     {
       "work_id": "RAZNOE-SCENE3-RESOURCE",
@@ -235,32 +235,32 @@
     {
       "work_id": "RAZNOE-HONOR-X9EPRO-CONTEST-20261107",
       "status": "preproduction_updated_waiting_submission_rehearsal_and_real_phone",
-      "next_action": "Не повторять готовую редактуру и копирование источников. Magic9: права, выбор разрешённой сетки, реальные клипы/стыки, композит, голос, полный QC. X9e: команда отправки, условия участия, согласование нагрузки/воды, репетиция муляжом, выдача аппарата и настоящая съёмка90с без музыки.",
+      "next_action": "Завершить Pages и точный readback всех файлов; не пересоздавать изображения. Затем только отдельно разрешённые видео, реальные хвосты/QC и конкурсная съёмка; приёмку не подменять.",
       "last_verified_step": "Полные правила HONOR прочитаны через Google Docs: п.4.2 требует 60–120 секунд, п.4.3.3 запрещает музыку, п.4.3.6 ограничивает фон/права. Отчёт исправлен 96b3e19f. Следующий этап — только существующая сцена5, оглавление и статусы; сцены1–4, очередь, изображения, разрешения не менять. Генераций нет.",
-      "updated_at": "2026-11-10T22:23:12+00:00",
+      "updated_at": "2026-11-10T23:32:00+00:00",
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-10T22:23:12+00:00",
-        "last_completed": "Промпты и планы HONOR4/5 опубликованы, 12 файлов сайта совпали по SHA; 538 тестов пройдены. Москва/Голдберг сохранены, два X9e исходника проверены в Drive. Реальных видео, отправки конкурса и приёмки нет.",
-        "next_action": "Не повторять готовую редактуру и копирование источников. Magic9: права, выбор разрешённой сетки, реальные клипы/стыки, композит, голос, полный QC. X9e: команда отправки, условия участия, согласование нагрузки/воды, репетиция муляжом, выдача аппарата и настоящая съёмка90с без музыки.",
+        "verified_at": "2026-11-10T23:32:00+00:00",
+        "last_completed": "Шесть существующих ИИ-PNG и6 превью привязаны к сценам4/5; все36+3 промпта используют реальные источники точной модели. Drive6/6 совпали. Тесты550/550; сайт ещё ждёт точного readback.",
+        "next_action": "Завершить Pages и точный readback всех файлов; не пересоздавать изображения. Затем только отдельно разрешённые видео, реальные хвосты/QC и конкурсная съёмка; приёмку не подменять.",
         "checkpoint": {
           "file": "projects/raznoe/reports/current-work-checkpoint.md",
-          "anchor": "# HONOR 4–5 — доработка пакетов, Москва и точные продуктовые источники",
-          "sha256": "ca5723941a6b227c94a1bedf6ed89d8b9efa884d2086b3d5da8d5c7e0da6edcc"
+          "anchor": "# 11.11.2026 — реальные модели и шесть референсов HONOR4/5",
+          "sha256": "b91ce3e3242248fb4046c14437296f71e4c4b7d5a5ee51e7424ebbeef3494ed1"
         },
         "evidence": [
           {
-            "file": "projects/raznoe/reports/honor-scenes-4-5-completion.json",
-            "sha256": "766ed4e426dae68877d58d7691a1340c3468c77fa411157bd42b99174863476d"
+            "file": "projects/raznoe/reports/honor-reference-integration.json",
+            "sha256": "74c57f3dde824767e8288db9d8b5f5fe2e1a2256f5260708d7b41c6db8a6c9cc"
           },
           {
-            "file": "projects/raznoe/reports/honor-scenes-4-5-publication.json",
-            "sha256": "642ee108a065a72d1019b15bfe4ebb99bec01dd708c4ea305ffcd08c163600d8"
+            "file": "projects/raznoe/reports/honor-reference-drive-readback.json",
+            "sha256": "59155ab0c21f471dde6850b492f07970bfb071a022d23a56414a92f37863f400"
           }
         ],
         "read_next": [
-          "projects/raznoe/references/scenes/scene-4/production-package.md",
-          "projects/raznoe/references/scenes/scene-5/shooting-package.md"
+          "projects/raznoe/references/scenes/scene-4/reference-bindings.json",
+          "projects/raznoe/references/scenes/scene-5/reference-bindings.json"
         ],
         "blockers": []
       }
@@ -270,7 +270,7 @@
   "resume_focus": {
     "work_id": "RAZNOE-HONOR-X9EPRO-CONTEST-20261107",
     "project": "raznoe",
-    "set_at": "2026-11-10T22:23:12+00:00",
+    "set_at": "2026-11-10T23:32:00+00:00",
     "reason": "Explicitly selected by the authorized task writer"
   }
 }

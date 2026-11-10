@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-10T23:10:40+00:00",
-  "source_head": "e829c690b6e1bb95d42c7364b6f875c7a211afb0",
-  "source_fingerprint": "6763e34d5c2a431cb4d4dcadadb7bf507d526c5e7484e1869a347fb18b0654dc",
+  "checked_at": "2026-11-10T23:32:00+00:00",
+  "source_head": "f414b460fd029a8a09983d96a84a7141e31e704c",
+  "source_fingerprint": "0a9ef87ab38760dbe97b2ca8bcea1dea69779e8c01e8b6b362ddd81177147fb5",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -36,31 +36,31 @@
     "work_id": "RAZNOE-HONOR-X9EPRO-CONTEST-20261107",
     "title": "RAZNOE-HONOR-X9EPRO-CONTEST-20261107",
     "status": "preproduction_updated_waiting_submission_rehearsal_and_real_phone",
-    "last_completed": "Промпты и планы HONOR4/5 опубликованы, 12 файлов сайта совпали по SHA; 538 тестов пройдены. Москва/Голдберг сохранены, два X9e исходника проверены в Drive. Реальных видео, отправки конкурса и приёмки нет.",
-    "next_action": "Не повторять готовую редактуру и копирование источников. Magic9: права, выбор разрешённой сетки, реальные клипы/стыки, композит, голос, полный QC. X9e: команда отправки, условия участия, согласование нагрузки/воды, репетиция муляжом, выдача аппарата и настоящая съёмка90с без музыки.",
-    "verified_at": "2026-11-10T22:23:12+00:00",
+    "last_completed": "Шесть существующих ИИ-PNG и6 превью привязаны к сценам4/5; все36+3 промпта используют реальные источники точной модели. Drive6/6 совпали. Тесты550/550; сайт ещё ждёт точного readback.",
+    "next_action": "Завершить Pages и точный readback всех файлов; не пересоздавать изображения. Затем только отдельно разрешённые видео, реальные хвосты/QC и конкурсная съёмка; приёмку не подменять.",
+    "verified_at": "2026-11-10T23:32:00+00:00",
     "blockers": [],
     "evidence": [
       {
-        "file": "projects/raznoe/reports/honor-scenes-4-5-completion.json",
-        "sha256": "766ed4e426dae68877d58d7691a1340c3468c77fa411157bd42b99174863476d"
+        "file": "projects/raznoe/reports/honor-reference-integration.json",
+        "sha256": "74c57f3dde824767e8288db9d8b5f5fe2e1a2256f5260708d7b41c6db8a6c9cc"
       },
       {
-        "file": "projects/raznoe/reports/honor-scenes-4-5-publication.json",
-        "sha256": "642ee108a065a72d1019b15bfe4ebb99bec01dd708c4ea305ffcd08c163600d8"
+        "file": "projects/raznoe/reports/honor-reference-drive-readback.json",
+        "sha256": "59155ab0c21f471dde6850b492f07970bfb071a022d23a56414a92f37863f400"
       }
     ],
     "read_next": [
-      "projects/raznoe/references/scenes/scene-4/production-package.md",
-      "projects/raznoe/references/scenes/scene-5/shooting-package.md"
+      "projects/raznoe/references/scenes/scene-4/reference-bindings.json",
+      "projects/raznoe/references/scenes/scene-5/reference-bindings.json"
     ],
     "checkpoint": {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
-      "anchor": "# HONOR 4–5 — доработка пакетов, Москва и точные продуктовые источники",
-      "sha256": "ca5723941a6b227c94a1bedf6ed89d8b9efa884d2086b3d5da8d5c7e0da6edcc"
+      "anchor": "# 11.11.2026 — реальные модели и шесть референсов HONOR4/5",
+      "sha256": "b91ce3e3242248fb4046c14437296f71e4c4b7d5a5ee51e7424ebbeef3494ed1"
     }
   },
-  "checkpoint_text": "# HONOR 4–5 — доработка пакетов, Москва и точные продуктовые источники\n\nwork_id: RAZNOE-HONOR-X9EPRO-CONTEST-20261107\n\n- HONOR4: 36 фоновых промптов связаны с точными исходниками и картой продуктового композита; 15 исходных реплик сохранены, 4 редакционные замены отдельно. HONOR5: Москва/машина Голдберга перенесены из согласования t529; два источника X9e сохранены и проверены на Drive, сценарий90с и технические ограничения опубликованы. Это подготовка, не реальные видео/конкурсная отправка.\n- Доказательство: projects/raznoe/reports/honor-scenes-4-5-completion.json\n- Публикация проверена: 12 файлов сайта скачаны и SHA совпали; полный набор538 тестов прошёл в run42912188021. Подготовка не равна готовому видео или поданной заявке.\n- Следующий шаг: Не спрашивать заново город: Москва. Сохранённая идея — Дворовая машина Голдберга. Нужны отдельная команда отправки, принятие правил владельцем, согласование нагрузки/воды организатором, рабочая репетиция муляжом, получение аппарата и настоящая съёмка90с без музыки. ИИ не доказывает результат.\n- Сцена4: Не повторять 36 промптов и загрузку существующих официальных источников. Выпуск Magic9 требует прав, разрешённого выбора сетки генерации, реальных клипов/стыков, композита, записи голоса, полного QC и приёмки. RESOURCE этим проходом не закрыт.\n\nchecked_at: 2026-11-10T22:11:45+00:00\n",
+  "checkpoint_text": "# 11.11.2026 — реальные модели и шесть референсов HONOR4/5\n\nwork_id: RAZNOE-HONOR-X9EPRO-CONTEST-20261107\n\n- Добавлены шесть существующих PNG без изменения байтов, 6 превью, карта реальных источников и 39 автономных привязок промптов. Новых генераций 0. 39 привязок проверены; 550 тестов и валидаторы пройдены. Проверка выдачи сайта ещё ожидается.\n- Сделанное не повторять. Официальные источники не подменены ИИ-рисунками. H-GEN-PAIR только сравнение; X-GEN-MOSCOW архив без использования.\n- Следующий шаг: полный набор тестов, статус проекта, публикация и точный readback сайта/Drive; отдельно остаются видео, реальные стыки, приёмка и физический конкурс.\n\nchecked_at: 2026-11-10T23:31:21+00:00\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -154,8 +154,8 @@
     }
   ],
   "read_next": [
-    "projects/raznoe/references/scenes/scene-4/production-package.md",
-    "projects/raznoe/references/scenes/scene-5/shooting-package.md"
+    "projects/raznoe/references/scenes/scene-4/reference-bindings.json",
+    "projects/raznoe/references/scenes/scene-5/reference-bindings.json"
   ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
@@ -207,7 +207,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "3477b8f576e5c71e6db69fed79ce8c9d3c0e8fb8e170be7e09fce2754b1bcce9",
+      "sha256": "c359f35a21328f75caffa3721b8c3cf367acf25b1424b3b40349cb8dc1fa0120",
       "bytes": 5135
     },
     {
@@ -237,13 +237,13 @@
     },
     {
       "file": "projects/raznoe/HANDOFF.md",
-      "sha256": "ff65ce307f67ed6eb966bbc23ef65d3744707316421cdc1c4f48adf410da32a8",
-      "bytes": 14423
+      "sha256": "043a3334f9e4967468a7a5a537ca73423b3b160a40705a9d311443a976b18e45",
+      "bytes": 15048
     },
     {
       "file": "projects/raznoe/INSTRUCTIONS.md",
-      "sha256": "bb9d76ffde9d8da87a206762655f68a5f138aaf53b32e822cbf023f119aa60a8",
-      "bytes": 2703
+      "sha256": "67803cbf45869bff5d7b09e0c50ed4a8760ba71a9e99a9d05c7f6721c6773b32",
+      "bytes": 3678
     },
     {
       "file": "projects/raznoe/ops/topview-launch-queue.json",
@@ -252,13 +252,13 @@
     },
     {
       "file": "projects/raznoe/project-status.json",
-      "sha256": "b8669c382beaca1788a65f48ac6ba2d229efb4c151bcb0f2a22d4f7871575ba7",
-      "bytes": 10495
+      "sha256": "db295550629130b8c582e6e0301cdf7a622f663e4db35b1dc8161b33cb0ad18d",
+      "bytes": 10497
     },
     {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
-      "sha256": "10ef1506a41513db7fcae843e182d8f956cfa2dfb5bbd75c2d88704bab1d828e",
-      "bytes": 13797
+      "sha256": "23dde3a0cba085009b6b01a00a372187693f7e3c4d576184eb58d8810f30c1b0",
+      "bytes": 14939
     },
     {
       "file": "projects/raznoe/reports/handoff-receipts.json",
@@ -266,24 +266,24 @@
       "bytes": 8498
     },
     {
-      "file": "projects/raznoe/reports/honor-scenes-4-5-completion.json",
-      "sha256": "766ed4e426dae68877d58d7691a1340c3468c77fa411157bd42b99174863476d",
-      "bytes": 11227
+      "file": "projects/raznoe/reports/honor-reference-drive-readback.json",
+      "sha256": "59155ab0c21f471dde6850b492f07970bfb071a022d23a56414a92f37863f400",
+      "bytes": 2007
     },
     {
-      "file": "projects/raznoe/reports/honor-scenes-4-5-publication.json",
-      "sha256": "642ee108a065a72d1019b15bfe4ebb99bec01dd708c4ea305ffcd08c163600d8",
-      "bytes": 5106
+      "file": "projects/raznoe/reports/honor-reference-integration.json",
+      "sha256": "74c57f3dde824767e8288db9d8b5f5fe2e1a2256f5260708d7b41c6db8a6c9cc",
+      "bytes": 14451
     },
     {
       "file": "projects/raznoe/video-prompts.md",
-      "sha256": "a6c339c35208fcf0a93e81e568931c11c1b286aa4cb3e5b58b6ff54b0ee3c9b9",
-      "bytes": 676209
+      "sha256": "986b94bc6c500bffe4810d29566ef241a6a5fe0e56e43685df0458a6e79172e8",
+      "bytes": 704289
     },
     {
       "file": "projects/raznoe/work-resume-register.json",
-      "sha256": "f7c276ee8ecea6bc2253f6615f61befcaf055d0ed7f86a887b03ede53097f709",
-      "bytes": 26330
+      "sha256": "dbb41bfe7545861f17680dbed137450709b7315ee8c97c93d31952a7a1f86e26",
+      "bytes": 25883
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -301,5 +301,5 @@
       "bytes": 1855431
     }
   ],
-  "packet_bytes": 7118
+  "packet_bytes": 5765
 }

@@ -1,0 +1,302 @@
+{
+  "schema_version": 1,
+  "project": "raznoe",
+  "work_id": "RAZNOE-HONOR-REAL-REFERENCES-20261111",
+  "scenes": [
+    4,
+    5
+  ],
+  "checked_at": "2026-11-10T23:31:21+00:00",
+  "owner_request": "Внести существующие кадры в сцены и промпты; реальные модели по названиям сцен",
+  "source_master_sha256": "a6c339c35208fcf0a93e81e568931c11c1b286aa4cb3e5b58b6ff54b0ee3c9b9",
+  "master_sha256": "986b94bc6c500bffe4810d29566ef241a6a5fe0e56e43685df0458a6e79172e8",
+  "assets": [
+    {
+      "scene_id": 4,
+      "asset_id": "H-GEN-PAIR",
+      "path": "projects/raznoe/references/scenes/scene-4/H-GEN-PAIR.png",
+      "original_name": "honor_magic9_pro_max_в_студии.png",
+      "sha256": "3c7fb44eeb985cadc936a790defe4428f041c6f8ef4a8e569b9d82d0bb2ab97d",
+      "bytes": 1678388,
+      "width": 1122,
+      "height": 1402,
+      "preview": "projects/raznoe/references/scenes/scene-4/previews/H-GEN-PAIR.webp",
+      "preview_sha256": "a0df7494f0040503f7b86e9620e2e47833a316d740e6bcd38da118f068c0256c",
+      "preview_bytes": 15466,
+      "drive_id": "1rIUM6WyucPrNc7JRNp-xy1o9JY-okphx",
+      "drive_url": "https://drive.google.com/file/d/1rIUM6WyucPrNc7JRNp-xy1o9JY-okphx/view",
+      "generation_id": "4577e96d-48d3-4291-a501-4ea703064c2e",
+      "caption": "Два ракурса — только сравнение композиции",
+      "role": "comparison_only",
+      "active_prompt_input": false,
+      "technical_product_identity": false,
+      "editorial_status": "not_approved",
+      "source_kind": "chatgpt_generated_existing",
+      "qc_notes": "Two devices are shown. Not a single-device first/last frame or an animation input; generated typography and proportions are not technical authority.",
+      "original_bytes_preserved": true
+    },
+    {
+      "scene_id": 4,
+      "asset_id": "H-GEN-REAR",
+      "path": "projects/raznoe/references/scenes/scene-4/H-GEN-REAR.png",
+      "original_name": "honor_magic9_pro_max_зелёный_флагман.png",
+      "sha256": "638788a29ad30654b3a03cd25f0cf0bd7d8161f995ebec2701941e73b97f3889",
+      "bytes": 1770811,
+      "width": 1122,
+      "height": 1402,
+      "preview": "projects/raznoe/references/scenes/scene-4/previews/H-GEN-REAR.webp",
+      "preview_sha256": "bdd1e817b76c3d833df1410db1d1d9365ee4e1f496d411d4e82f6ae8bd0c1de0",
+      "preview_bytes": 13124,
+      "drive_id": "1dUQvqe4T28cx4YAbVBhgWkAFCWqgvb5l",
+      "drive_url": "https://drive.google.com/file/d/1dUQvqe4T28cx4YAbVBhgWkAFCWqgvb5l/view",
+      "generation_id": "d3ca1ff7-33cb-48d0-89d0-4919a50809f5",
+      "caption": "Задний ракурс — свет и композиция",
+      "role": "lighting_and_framing_only",
+      "active_prompt_input": true,
+      "technical_product_identity": false,
+      "editorial_status": "not_approved",
+      "source_kind": "chatgpt_generated_existing",
+      "qc_notes": "Single device, studio rear-angle staging. Broad camera layout agrees with supplied rear reference; fine text, finish and geometry are not certified. Real H-BACK/H-FRONT override all generated device pixels.",
+      "original_bytes_preserved": true
+    },
+    {
+      "scene_id": 4,
+      "asset_id": "H-GEN-CAMERA",
+      "path": "projects/raznoe/references/scenes/scene-4/H-GEN-CAMERA.png",
+      "original_name": "honor_magic9_pro_max_зелёная_камера.png",
+      "sha256": "e91ba636f6c7ff2d96ed205bd6e81a9848c85939e517367bb1f57ebdc19eab76",
+      "bytes": 1954325,
+      "width": 1122,
+      "height": 1402,
+      "preview": "projects/raznoe/references/scenes/scene-4/previews/H-GEN-CAMERA.webp",
+      "preview_sha256": "2bbc741e02bfed048e8b48c98c12c36454ebf11d81e2a9394f2461f525d0eb9b",
+      "preview_bytes": 20690,
+      "drive_id": "1JVgChDGu4r5lijnpOtpn_L5K_l4mE9Ib",
+      "drive_url": "https://drive.google.com/file/d/1JVgChDGu4r5lijnpOtpn_L5K_l4mE9Ib/view",
+      "generation_id": "104a7219-0ddf-4467-9e80-0cfed0bb8f12",
+      "caption": "Крупный план — масштаб и свет, не характеристики",
+      "role": "macro_framing_only",
+      "active_prompt_input": true,
+      "technical_product_identity": false,
+      "editorial_status": "not_approved",
+      "source_kind": "chatgpt_generated_existing",
+      "qc_notes": "Macro shot useful for lens framing/light only. Generated engraved numbers and microtext must not be treated as specifications or reused as final product marks.",
+      "original_bytes_preserved": true
+    },
+    {
+      "scene_id": 5,
+      "asset_id": "X-GEN-FRONT",
+      "path": "projects/raznoe/references/scenes/scene-5/X-GEN-FRONT.png",
+      "original_name": "honor_x9e_pro_золотой_шик.png",
+      "sha256": "310d541788fb9369940389d82fc370f39d5dfe72c959f3825139709efb48f9f7",
+      "bytes": 1591984,
+      "width": 1122,
+      "height": 1402,
+      "preview": "projects/raznoe/references/scenes/scene-5/previews/X-GEN-FRONT.webp",
+      "preview_sha256": "9e75383c85e3a12858f26db70b70ebc846a7aaf6f8f0bf0fa829b651337392f8",
+      "preview_bytes": 11334,
+      "drive_id": "1uAycU-1HZJlt50r7chyLbXo5_2eYbDkp",
+      "drive_url": "https://drive.google.com/file/d/1uAycU-1HZJlt50r7chyLbXo5_2eYbDkp/view",
+      "generation_id": "852bc851-1684-4ac5-9ce4-87a3941ff2c8",
+      "caption": "Передний ракурс — свет и композиция",
+      "role": "lighting_and_framing_only",
+      "active_prompt_input": true,
+      "technical_product_identity": false,
+      "editorial_status": "not_approved",
+      "source_kind": "chatgpt_generated_existing",
+      "qc_notes": "One front-view device. Centered punch-hole and color follow supplied X9e source at broad level; exact body geometry comes only from original sources. Not documentary contest footage.",
+      "original_bytes_preserved": true
+    },
+    {
+      "scene_id": 5,
+      "asset_id": "X-GEN-REAR",
+      "path": "projects/raznoe/references/scenes/scene-5/X-GEN-REAR.png",
+      "original_name": "премиальный_honor_x9e_pro_в_золоте.png",
+      "sha256": "715551970cc8b60b1b3658e646e26a46bb86008822f3a05ffcecad958bdc5f19",
+      "bytes": 2211875,
+      "width": 1122,
+      "height": 1402,
+      "preview": "projects/raznoe/references/scenes/scene-5/previews/X-GEN-REAR.webp",
+      "preview_sha256": "0975f1678d2a1bcaf40b9e2f75d775b2022765d3f4a0a2c29b51f2f0b472b52c",
+      "preview_bytes": 15524,
+      "drive_id": "19RTcxsrwT39DrayLt1Aio8ODez_02kwX",
+      "drive_url": "https://drive.google.com/file/d/19RTcxsrwT39DrayLt1Aio8ODez_02kwX/view",
+      "generation_id": "bb124577-ab30-48c1-aee3-945417e5ad27",
+      "caption": "Задний ракурс — свет и композиция",
+      "role": "lighting_and_framing_only",
+      "active_prompt_input": true,
+      "technical_product_identity": false,
+      "editorial_status": "not_approved",
+      "source_kind": "chatgpt_generated_existing",
+      "qc_notes": "One device with circular rear module. Generated markings/lettering are not a source of facts; source X-BACK overrides them. Not documentary contest footage.",
+      "original_bytes_preserved": true
+    },
+    {
+      "scene_id": 5,
+      "asset_id": "X-GEN-MOSCOW",
+      "path": "projects/raznoe/references/scenes/scene-5/X-GEN-MOSCOW.png",
+      "original_name": "honor_x9e_pro_на_фоне_зимней_москвы.png",
+      "sha256": "1cb1c6f78c6c34805200f58cf873c31706497b7bd3cba44a7d99362018385c50",
+      "bytes": 2413517,
+      "width": 1122,
+      "height": 1402,
+      "preview": "projects/raznoe/references/scenes/scene-5/previews/X-GEN-MOSCOW.webp",
+      "preview_sha256": "e36539b16fc9d5975cff7e8b0d2bbb0d78e02c153d6e78705b4baa9d69d48245",
+      "preview_bytes": 32744,
+      "drive_id": "1yXVg8rAT7JJbyxT7qfYuEw1gejZiKrlm",
+      "drive_url": "https://drive.google.com/file/d/1yXVg8rAT7JJbyxT7qfYuEw1gejZiKrlm/view",
+      "generation_id": "061e952b-55f0-44af-924c-e880911fcbff",
+      "caption": "Архив: Кремль и выдуманный снег — не для конкурса",
+      "role": "archive_only",
+      "active_prompt_input": false,
+      "technical_product_identity": false,
+      "editorial_status": "not_approved",
+      "source_kind": "chatgpt_generated_existing",
+      "qc_notes": "Contains recognizable Kremlin architecture and synthetic snow; conflicts with the saved competition-background restrictions and actual-weather requirement. Preserve for memory; never pass to a working prompt or claim real Moscow testing.",
+      "original_bytes_preserved": true
+    }
+  ],
+  "prompt_counts": {
+    "4": 36,
+    "5": 3
+  },
+  "site_verified": false,
+  "full_films_complete": false,
+  "new_generations": 0,
+  "video_launches": 0,
+  "credits_spent": 0,
+  "owner_approval_changed": false,
+  "source_rights_status_changed": false,
+  "scope": "Publication of existing images and exact-source reference bindings, not completed movies or contest entry",
+  "source_head": "f414b460fd029a8a09983d96a84a7141e31e704c",
+  "workflow_run_id": "42923382124",
+  "test_results": {
+    "checked_at": "2026-11-10T23:32:00+00:00",
+    "tests_run": 550,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "all_tests_passed": true
+  },
+  "validations": [
+    {
+      "name": "project-status",
+      "exit_code": 0
+    },
+    {
+      "name": "resume",
+      "exit_code": 0
+    },
+    {
+      "name": "preflight-after",
+      "exit_code": 0
+    },
+    {
+      "name": "reference-qa",
+      "exit_code": 0
+    },
+    {
+      "name": "full-tests",
+      "exit_code": 0
+    },
+    {
+      "name": "site",
+      "exit_code": 0
+    },
+    {
+      "name": "certificate",
+      "exit_code": 0
+    },
+    {
+      "name": "projects",
+      "exit_code": 0
+    }
+  ],
+  "protected_files_unchanged": {
+    "video-prompts.md": "fc060c599a25ad56cd77141f864834ec430b6b2af7b2676a26b86d458f08bc4c",
+    "ops/topview-launch-queue.json": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+    "review-ledger.json": "4a112ec9a41edd0c99784826ec4dd0435febcff3cdaa0f25da6442df3b7f3e1b",
+    "projects/raznoe/ops/topview-launch-queue.json": "1532ad13f700b0dbcdb3f1ff590ff5bd2e158f8204de4a32428080d1537adfb5",
+    "projects/raznoe/review-ledger.json": "9a4ed6a55a5a8829638567fe1570943ab99f0e5cd6315fed816e4de9519b666d",
+    "projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json": "ce03786033a1793635684b736e8346d9bc97f17609e1c4f6c9f4d8b9faecf301",
+    "projects/raznoe/references/scenes/scene-4/production-voiceover.json": "733f9305168fb52839cccd3bf8b5b2f0c545113f5523a3310bec30e2ff0102ca",
+    "projects/raznoe/references/scenes/scene-5/shooting-package.md": "a3c90bc8a7fa166b1e45617386e11619772d0186c757a0cf983104dfb63948c4",
+    "NEW-CHAT-HANDOFF.md": "58f30bdb728d23407db4bfa22d10a44aeea78a5b9ec050947d6c6ea2e844840e",
+    "SYNC-RUNBOOK.md": "ed3edff9823e89e4b89770ac55a9d4b9e7e1df34518222a2ee39b13bf942b18a",
+    "AI-PROJECT-GUIDE.md": "c62976f8c2561633e3d9612bcda6bad706ef85a9ad1a5295e2e6e6513b6efca6",
+    "PROMPT-STYLE-GUIDE.md": "2afe827fe839af546a0f7f4c1f36c57fcd976dd3f6fd8759ddf09ff265fa505d",
+    "USER-GUIDE.md": "b5cf8309fba1355fd1cd201e4bfe1abc88726b927d7c7f6d2bdb0c402f7cdc58",
+    "README-AI-SYNC.md": "e8d83475b63a94eeb24c6ac3ac4fd182de6bcb132258f191be2a7759ebf641d9",
+    "BACKUP-AI-RUNBOOK.md": "6b0a0ba95d23937c71d072fa96e278a6485a27391245834f32e05be9572812ac"
+  },
+  "drive_readback": {
+    "schema_version": 1,
+    "project": "raznoe",
+    "scenes": [
+      4,
+      5
+    ],
+    "checked_at": "2026-11-10T23:19:16+00:00",
+    "verified_count": 6,
+    "all_verified": true,
+    "site_publication_verified": false,
+    "scope": "Original generated images re-downloaded through authenticated Google Drive connector and compared byte-for-byte. Not proof of product geometry, editorial approval, video completion or contest entry.",
+    "results": [
+      {
+        "asset_id": "H-GEN-PAIR",
+        "drive_id": "1rIUM6WyucPrNc7JRNp-xy1o9JY-okphx",
+        "path": "projects/raznoe/references/scenes/scene-4/H-GEN-PAIR.png",
+        "sha256": "3c7fb44eeb985cadc936a790defe4428f041c6f8ef4a8e569b9d82d0bb2ab97d",
+        "bytes": 1678388,
+        "readback_verified": true
+      },
+      {
+        "asset_id": "H-GEN-REAR",
+        "drive_id": "1dUQvqe4T28cx4YAbVBhgWkAFCWqgvb5l",
+        "path": "projects/raznoe/references/scenes/scene-4/H-GEN-REAR.png",
+        "sha256": "638788a29ad30654b3a03cd25f0cf0bd7d8161f995ebec2701941e73b97f3889",
+        "bytes": 1770811,
+        "readback_verified": true
+      },
+      {
+        "asset_id": "H-GEN-CAMERA",
+        "drive_id": "1JVgChDGu4r5lijnpOtpn_L5K_l4mE9Ib",
+        "path": "projects/raznoe/references/scenes/scene-4/H-GEN-CAMERA.png",
+        "sha256": "e91ba636f6c7ff2d96ed205bd6e81a9848c85939e517367bb1f57ebdc19eab76",
+        "bytes": 1954325,
+        "readback_verified": true
+      },
+      {
+        "asset_id": "X-GEN-FRONT",
+        "drive_id": "1uAycU-1HZJlt50r7chyLbXo5_2eYbDkp",
+        "path": "projects/raznoe/references/scenes/scene-5/X-GEN-FRONT.png",
+        "sha256": "310d541788fb9369940389d82fc370f39d5dfe72c959f3825139709efb48f9f7",
+        "bytes": 1591984,
+        "readback_verified": true
+      },
+      {
+        "asset_id": "X-GEN-REAR",
+        "drive_id": "19RTcxsrwT39DrayLt1Aio8ODez_02kwX",
+        "path": "projects/raznoe/references/scenes/scene-5/X-GEN-REAR.png",
+        "sha256": "715551970cc8b60b1b3658e646e26a46bb86008822f3a05ffcecad958bdc5f19",
+        "bytes": 2211875,
+        "readback_verified": true
+      },
+      {
+        "asset_id": "X-GEN-MOSCOW",
+        "drive_id": "1yXVg8rAT7JJbyxT7qfYuEw1gejZiKrlm",
+        "path": "projects/raznoe/references/scenes/scene-5/X-GEN-MOSCOW.png",
+        "sha256": "1cb1c6f78c6c34805200f58cf873c31706497b7bd3cba44a7d99362018385c50",
+        "bytes": 2413517,
+        "readback_verified": true
+      }
+    ]
+  },
+  "canonical_integration_complete": true,
+  "legacy_test_update": {
+    "path": "tests/test_raznoe_honor_scene4.py",
+    "before_sha256": "fcd431eb1c6ec7562c3490763ec3773c4406900d0d268e0bfd547d10b1042152",
+    "after_sha256": "77da2ed4214c3f88e55ee23aa689e4e3fa784ff98d923801e199ce9bb298c2ad",
+    "reason": "The owner requested adding exact-model product references. The old test required no product PNGs and placeholder compositing labels. It now verifies real source IDs, 36 identity locks and every binding; mood originals, duration, queue and no-approval/no-contest guards remain."
+  }
+}
