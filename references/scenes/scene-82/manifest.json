@@ -39,11 +39,56 @@
       "primary_still": true,
       "active_prompt_input": true,
       "video_launch_approval": false
+    },
+    {
+      "path": "references/full/star-gosling.jpg",
+      "asset_id": "references/full/star-gosling.jpg",
+      "caption": "Райан Гослинг — только лицо; центр-лево, ладонь",
+      "role": "identity",
+      "sha256": "1e27a5f34466fb9553d25d007a088ba7079647ec6d9cac91c860b4dfd03735f3",
+      "bytes": 249688,
+      "width": 864,
+      "height": 1152,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "owner_approved_t550u",
+      "technical_success_is_editorial_approval": false,
+      "person": "Ryan Gosling"
+    },
+    {
+      "path": "references/full/star-dicaprio.jpg",
+      "asset_id": "references/full/star-dicaprio.jpg",
+      "caption": "Леонардо Ди Каприо — только лицо; центр, руки сложены",
+      "role": "identity",
+      "sha256": "21f7209c31246921b30b823d4c2292a22a00d654a6690ce821ce69d6270345d8",
+      "bytes": 231233,
+      "width": 864,
+      "height": 1152,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "owner_approved_t550u",
+      "technical_success_is_editorial_approval": false,
+      "person": "Leonardo DiCaprio"
+    },
+    {
+      "path": "references/full/star-pitt.jpg",
+      "asset_id": "references/full/star-pitt.jpg",
+      "caption": "Брэд Питт — только лицо; справа, указывает",
+      "role": "identity",
+      "sha256": "7a456ebff1b5e02032fe145ae7b10eccfa2f2161b97d897a6d4aeb10fffef0a5",
+      "bytes": 254020,
+      "width": 864,
+      "height": 1152,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "owner_approved_t550u",
+      "technical_success_is_editorial_approval": false,
+      "person": "Brad Pitt"
     }
   ],
   "approved": [],
   "rejected": [],
-  "updated_at": "2026-11-10T02:21:42+00:00",
+  "updated_at": "2026-11-10T11:50:00+00:00",
   "publication": "t506u 2026-11-10; stills and prompts published, video not launched",
   "clips": [
     {
@@ -60,24 +105,33 @@
   ],
   "additional_references_pending": [],
   "photo_gallery_page": "parodies.html#scene-82",
-  "t540u_slots_without_files": [
+  "t540u_slots_filled": [
     {
       "file": "references/full/star-gosling.jpg",
       "subscene": "82A",
-      "status": "нужен портрет",
+      "status": "файл есть, t550u",
       "who": "Райан Гослинг, центр-лево, открытая ладонь, сходство с портретом"
     },
     {
       "file": "references/full/star-dicaprio.jpg",
       "subscene": "82A",
-      "status": "нужен портрет",
+      "status": "файл есть, t550u",
       "who": "Леонардо Ди Каприо, центр, руки сложены, сходство с портретом"
     },
     {
       "file": "references/full/star-pitt.jpg",
       "subscene": "82A",
-      "status": "нужен портрет",
+      "status": "файл есть, t550u",
       "who": "Брэд Питт, справа, указывает, сходство с портретом"
     }
-  ]
+  ],
+  "subscene_prompt_reference_mapping": {
+    "82A": {
+      "@Image1": "references/full/lesha.jpg",
+      "@Image2": "references/scenes/scene-82/groom-lounge-preview.png",
+      "@Image3": "references/full/star-gosling.jpg",
+      "@Image4": "references/full/star-dicaprio.jpg",
+      "@Image5": "references/full/star-pitt.jpg"
+    }
+  }
 }

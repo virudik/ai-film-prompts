@@ -9,6 +9,8 @@
 **Живое состояние — в файлах:** health, сцены, slow, зарезервированные ID — `project-status.json`; слоты — `topview-status.json`; кто правит канон — `ops/canon-lock.json`; очередь запуска (priority, SHA, зависимости, `owner_instruction_*`) — `ops/topview-launch-queue.json`; текущая работа и ближайший шаг — `reports/current-work-checkpoint.md`, `work-resume-register.json`; задачи владельца — `ops/owner-tasks.json`; здоровье канона — `canon-health.json`.
 
 **Последнее (10.11).**
+- **10.11 t550u:** Сделано t548u–t550u (10.11, ~14:55 МСК): все 17 файлов положены по слотам и подключены в промпты и манифесты. Сябитова — два портрета одного лица: `references/full/hostess-syabitova.jpg` (анфас, главный, @Image5) и `references/full/hostess-syabitova-34.jpg` (вполоборота, @Image6). В 81A на реплику Гузеевой «…Ей же с вами скучно будет!» Алексей отвечает «Я сам решу». Видео не запускалось.
+
 - **10.11 t546u:** в сцене 82 слева направо после Лёши — Райан Гослинг, Леонардо Ди Каприо и Брэд Питт. Слоты `references/full/star-gosling.jpg`, `star-dicaprio.jpg`, `star-pitt.jpg`. Файлов ещё нет, картинки не генерировать. Единственный кадр комнаты не менять.
 
 - **10.11 t545u:** в сцене 81 ведущие — Лариса Гузеева и Роза Сябитова, слоты `references/full/hostess-guzeeva.jpg` и `references/full/hostess-syabitova.jpg`. Файлов ещё нет, картинки не генерировать. Рассадка и реплики те же.

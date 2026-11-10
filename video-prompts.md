@@ -11389,9 +11389,10 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 ### 76A · Кандибобер — только интервью
 
-Только улица и красный кандибобер. Кадр `references/scenes/scene-76/S76-kandibober.png` остаётся принятым входом. Слот на отдельный кадр `references/scenes/scene-76/S76A-kandibober-only.jpg` — нужен кадр, файла нет.
+Только улица и красный кандибобер. Кадр подсцены — `references/scenes/scene-76/S76A-kandibober-only.jpg` (@Image2). Прежний принятый `references/scenes/scene-76/S76-kandibober.png` — вторичный ориентир (@Image3).
 
 <div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-76/S76A-kandibober-only.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-76/previews/S76A-kandibober-only.webp" alt="76A — отдельный кадр: только улица и кандибобер" loading="lazy" width="480"></a><figcaption>76A — отдельный кадр: только улица и кандибобер</figcaption></figure>
 <figure><a href="references/scenes/scene-76/S76-kandibober.png" target="_blank" rel="noopener"><img src="references/scenes/scene-76/previews/S76-kandibober.webp" alt="76A — принятый кадр интервью" loading="lazy" width="480"></a><figcaption>76A — принятый кадр интервью</figcaption></figure>
 </div>
 
@@ -11401,7 +11402,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — кадр только этой подсцены.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-76/S76A-kandibober-only.jpg`, кадр только этой подсцены; @Image3 — `references/scenes/scene-76/S76-kandibober.png`, прежний принятый кадр, вторично.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -11409,7 +11410,8 @@ Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic comedy with living li
 
 REFERENCES / AUTHORITY:
 @Image1 = references/full/vitalik.jpg — exact Виталик face only.
-@Image2 = references/scenes/scene-76/S76-kandibober.png — ONLY this subscene: street interview and the absurdly tall red kokoshnik. Not a literal first frame. Dedicated still slot references/scenes/scene-76/S76A-kandibober-only.jpg is requested and not yet a file; until it exists this accepted frame is the staging.
+@Image2 = references/scenes/scene-76/S76A-kandibober-only.jpg — ONLY this subscene: dedicated still of the street interview and the absurdly tall red kokoshnik. Primary staging, wardrobe and light. Not a literal first frame.
+@Image3 = references/scenes/scene-76/S76-kandibober.png — earlier accepted frame of the same beat, secondary staging only; @Image2 wins on any conflict.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -11448,7 +11450,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 1 · 15 с
 
-**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — кадр только этой подсцены.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-76/S76A-kandibober-only.jpg`, кадр только этой подсцены; @Image3 — `references/scenes/scene-76/S76-kandibober.png`, прежний принятый кадр, вторично.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -11456,7 +11458,8 @@ Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colou
 
 REFERENCES / AUTHORITY:
 @Image1 = references/full/vitalik.jpg — exact Виталик face only.
-@Image2 = references/scenes/scene-76/S76-kandibober.png — ONLY this subscene: street interview and the absurdly tall red kokoshnik. Not a literal first frame. Dedicated still slot references/scenes/scene-76/S76A-kandibober-only.jpg is requested and not yet a file; until it exists this accepted frame is the staging.
+@Image2 = references/scenes/scene-76/S76A-kandibober-only.jpg — ONLY this subscene: dedicated still of the street interview and the absurdly tall red kokoshnik. Primary staging, wardrobe and light. Not a literal first frame.
+@Image3 = references/scenes/scene-76/S76-kandibober.png — earlier accepted frame of the same beat, secondary staging only; @Image2 wins on any conflict.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -11489,7 +11492,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 2 · 15 с
 
-**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — кадр только этой подсцены. @Video1 — настоящие последние 3 с P1 подсцены 76A.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-76/S76A-kandibober-only.jpg`, кадр только этой подсцены; @Image3 — `references/scenes/scene-76/S76-kandibober.png`, прежний принятый кадр, вторично. @Video1 — настоящие последние 3 с P1 подсцены 76A.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -11497,7 +11500,8 @@ Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colou
 
 REFERENCES / AUTHORITY:
 @Image1 = references/full/vitalik.jpg — exact Виталик face only.
-@Image2 = references/scenes/scene-76/S76-kandibober.png — ONLY this subscene: street interview and the absurdly tall red kokoshnik. Not a literal first frame. Dedicated still slot references/scenes/scene-76/S76A-kandibober-only.jpg is requested and not yet a file; until it exists this accepted frame is the staging.
+@Image2 = references/scenes/scene-76/S76A-kandibober-only.jpg — ONLY this subscene: dedicated still of the street interview and the absurdly tall red kokoshnik. Primary staging, wardrobe and light. Not a literal first frame.
+@Image3 = references/scenes/scene-76/S76-kandibober.png — earlier accepted frame of the same beat, secondary staging only; @Image2 wins on any conflict.
 @Video1 = actual final 3 seconds of Scene 76 subscene 76A Seedance Part 1 — real continuity, not a generated substitute.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
@@ -11537,9 +11541,10 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 ### 76B · «Нормально» — только лёд
 
-Только прорубь. Принятый кадр `references/scenes/scene-76/S76-normalno-ice.png`. Слот `references/scenes/scene-76/S76B-normalno-only.jpg` — нужен кадр, файла нет.
+Только прорубь. Кадр подсцены — `references/scenes/scene-76/S76B-normalno-only.jpg` (@Image2). Прежний принятый `references/scenes/scene-76/S76-normalno-ice.png` — вторичный ориентир (@Image3).
 
 <div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-76/S76B-normalno-only.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-76/previews/S76B-normalno-only.webp" alt="76B — отдельный кадр: только прорубь" loading="lazy" width="480"></a><figcaption>76B — отдельный кадр: только прорубь</figcaption></figure>
 <figure><a href="references/scenes/scene-76/S76-normalno-ice.png" target="_blank" rel="noopener"><img src="references/scenes/scene-76/previews/S76-normalno-ice.webp" alt="76B — принятый кадр льда" loading="lazy" width="480"></a><figcaption>76B — принятый кадр льда</figcaption></figure>
 </div>
 
@@ -11549,7 +11554,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — кадр только этой подсцены.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-76/S76B-normalno-only.jpg`, кадр только этой подсцены; @Image3 — `references/scenes/scene-76/S76-normalno-ice.png`, прежний принятый кадр, вторично.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -11557,7 +11562,8 @@ Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic comedy with living li
 
 REFERENCES / AUTHORITY:
 @Image1 = references/full/vitalik.jpg — exact Виталик face only.
-@Image2 = references/scenes/scene-76/S76-normalno-ice.png — ONLY the ice gag: lying by a round hole in black winter clothes. Dedicated slot references/scenes/scene-76/S76B-normalno-only.jpg is requested and not yet a file.
+@Image2 = references/scenes/scene-76/S76B-normalno-only.jpg — ONLY the ice gag: dedicated still, fully dressed in black winter clothes lying by a round hole. Primary staging, wardrobe and light. Not a literal first frame.
+@Image3 = references/scenes/scene-76/S76-normalno-ice.png — earlier accepted frame of the same beat, secondary staging only; @Image2 wins on any conflict.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -11597,7 +11603,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 1 · 15 с
 
-**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — кадр только этой подсцены.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-76/S76B-normalno-only.jpg`, кадр только этой подсцены; @Image3 — `references/scenes/scene-76/S76-normalno-ice.png`, прежний принятый кадр, вторично.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -11605,7 +11611,8 @@ Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colou
 
 REFERENCES / AUTHORITY:
 @Image1 = references/full/vitalik.jpg — exact Виталик face only.
-@Image2 = references/scenes/scene-76/S76-normalno-ice.png — ONLY the ice gag: lying by a round hole in black winter clothes. Dedicated slot references/scenes/scene-76/S76B-normalno-only.jpg is requested and not yet a file.
+@Image2 = references/scenes/scene-76/S76B-normalno-only.jpg — ONLY the ice gag: dedicated still, fully dressed in black winter clothes lying by a round hole. Primary staging, wardrobe and light. Not a literal first frame.
+@Image3 = references/scenes/scene-76/S76-normalno-ice.png — earlier accepted frame of the same beat, secondary staging only; @Image2 wins on any conflict.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -11638,7 +11645,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 2 · 15 с
 
-**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — кадр только этой подсцены. @Video1 — настоящие последние 3 с P1 подсцены 76B.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-76/S76B-normalno-only.jpg`, кадр только этой подсцены; @Image3 — `references/scenes/scene-76/S76-normalno-ice.png`, прежний принятый кадр, вторично. @Video1 — настоящие последние 3 с P1 подсцены 76B.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -11646,7 +11653,8 @@ Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colou
 
 REFERENCES / AUTHORITY:
 @Image1 = references/full/vitalik.jpg — exact Виталик face only.
-@Image2 = references/scenes/scene-76/S76-normalno-ice.png — ONLY the ice gag: lying by a round hole in black winter clothes. Dedicated slot references/scenes/scene-76/S76B-normalno-only.jpg is requested and not yet a file.
+@Image2 = references/scenes/scene-76/S76B-normalno-only.jpg — ONLY the ice gag: dedicated still, fully dressed in black winter clothes lying by a round hole. Primary staging, wardrobe and light. Not a literal first frame.
+@Image3 = references/scenes/scene-76/S76-normalno-ice.png — earlier accepted frame of the same beat, secondary staging only; @Image2 wins on any conflict.
 @Video1 = actual final 3 seconds of Scene 76 subscene 76B Seedance Part 1 — real continuity, not a generated substitute.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
@@ -11686,9 +11694,10 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 ### 76C · Язь — только лодка
 
-Только лодка и язь, не щука. Принятый кадр `references/scenes/scene-76/S76-yaz-fish.png`. Слот `references/scenes/scene-76/S76C-yaz-only.jpg` — нужен кадр, файла нет.
+Только лодка и язь, не щука. Кадр подсцены — `references/scenes/scene-76/S76C-yaz-only.jpg` (@Image2). Прежний принятый `references/scenes/scene-76/S76-yaz-fish.png` — вторичный ориентир (@Image3).
 
 <div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-76/S76C-yaz-only.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-76/previews/S76C-yaz-only.webp" alt="76C — отдельный кадр: только лодка и язь" loading="lazy" width="480"></a><figcaption>76C — отдельный кадр: только лодка и язь</figcaption></figure>
 <figure><a href="references/scenes/scene-76/S76-yaz-fish.png" target="_blank" rel="noopener"><img src="references/scenes/scene-76/previews/S76-yaz-fish.webp" alt="76C — принятый кадр язя" loading="lazy" width="480"></a><figcaption>76C — принятый кадр язя</figcaption></figure>
 </div>
 
@@ -11698,7 +11707,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — кадр только этой подсцены.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-76/S76C-yaz-only.jpg`, кадр только этой подсцены; @Image3 — `references/scenes/scene-76/S76-yaz-fish.png`, прежний принятый кадр, вторично.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -11706,7 +11715,8 @@ Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic comedy with living li
 
 REFERENCES / AUTHORITY:
 @Image1 = references/full/vitalik.jpg — exact Виталик face only.
-@Image2 = references/scenes/scene-76/S76-yaz-fish.png — ONLY the boat and the ide. Dedicated slot references/scenes/scene-76/S76C-yaz-only.jpg is requested and not yet a file.
+@Image2 = references/scenes/scene-76/S76C-yaz-only.jpg — ONLY the boat and the ide: dedicated still, one golden-bronze ide raised in both hands. Primary staging, wardrobe and light. Not a literal first frame.
+@Image3 = references/scenes/scene-76/S76-yaz-fish.png — earlier accepted frame of the same beat, secondary staging only; @Image2 wins on any conflict.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -11745,7 +11755,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 1 · 15 с
 
-**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — кадр только этой подсцены.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-76/S76C-yaz-only.jpg`, кадр только этой подсцены; @Image3 — `references/scenes/scene-76/S76-yaz-fish.png`, прежний принятый кадр, вторично.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -11753,7 +11763,8 @@ Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colou
 
 REFERENCES / AUTHORITY:
 @Image1 = references/full/vitalik.jpg — exact Виталик face only.
-@Image2 = references/scenes/scene-76/S76-yaz-fish.png — ONLY the boat and the ide. Dedicated slot references/scenes/scene-76/S76C-yaz-only.jpg is requested and not yet a file.
+@Image2 = references/scenes/scene-76/S76C-yaz-only.jpg — ONLY the boat and the ide: dedicated still, one golden-bronze ide raised in both hands. Primary staging, wardrobe and light. Not a literal first frame.
+@Image3 = references/scenes/scene-76/S76-yaz-fish.png — earlier accepted frame of the same beat, secondary staging only; @Image2 wins on any conflict.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -11786,7 +11797,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 2 · 15 с
 
-**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — кадр только этой подсцены. @Video1 — настоящие последние 3 с P1 подсцены 76C.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-76/S76C-yaz-only.jpg`, кадр только этой подсцены; @Image3 — `references/scenes/scene-76/S76-yaz-fish.png`, прежний принятый кадр, вторично. @Video1 — настоящие последние 3 с P1 подсцены 76C.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -11794,7 +11805,8 @@ Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colou
 
 REFERENCES / AUTHORITY:
 @Image1 = references/full/vitalik.jpg — exact Виталик face only.
-@Image2 = references/scenes/scene-76/S76-yaz-fish.png — ONLY the boat and the ide. Dedicated slot references/scenes/scene-76/S76C-yaz-only.jpg is requested and not yet a file.
+@Image2 = references/scenes/scene-76/S76C-yaz-only.jpg — ONLY the boat and the ide: dedicated still, one golden-bronze ide raised in both hands. Primary staging, wardrobe and light. Not a literal first frame.
+@Image3 = references/scenes/scene-76/S76-yaz-fish.png — earlier accepted frame of the same beat, secondary staging only; @Image2 wins on any conflict.
 @Video1 = actual final 3 seconds of Scene 76 subscene 76C Seedance Part 1 — real continuity, not a generated substitute.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
@@ -12943,15 +12955,18 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 <!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["parody","comedy","draft","stills_published","not_a_video_launch"]} -->
 
-**Статус:** черновик (DRAFT). t545u: ведущие — настоящие Лариса Гузеева и Роза Сябитова, не вымышленные роли. Портреты ещё не присланы. Не READY и не запуск видео. 30 с Wan 3.0 / Seedance 2.5 и 2×15 с Seedance 2.0 (P2 ждёт настоящие последние 3 с своей P1).
+**Статус:** черновик (DRAFT). t545u: ведущие — настоящие Лариса Гузеева и Роза Сябитова, не вымышленные роли. Портреты готовы (t548u–t550u): Гузеева — один портрет, Сябитова — анфас (главный) и вполоборота (то же лицо). Не READY и не запуск видео. 30 с Wan 3.0 / Seedance 2.5 и 2×15 с Seedance 2.0 (P2 ждёт настоящие последние 3 с своей P1).
 
-**Общее:** лица Алексея и Артёма — с их листов. Лица Гузеевой и Сябитовой — только с портретов `references/full/hostess-guzeeva.jpg` и `references/full/hostess-syabitova.jpg`, когда файлы появятся. Одежда и места — по стиллу. 16:9, 720p, 24 fps, родной звук.
+**Общее:** лица Алексея и Артёма — с их листов. Лицо Гузеевой — только с `references/full/hostess-guzeeva.jpg`. Лицо Сябитовой — с `references/full/hostess-syabitova.jpg` (анфас, главный) и `references/full/hostess-syabitova-34.jpg` (вполоборота, то же лицо). С общего кадра лица ведущих не брать. Одежда и места — по стиллу. 16:9, 720p, 24 fps, родной звук.
 
-**Листы лиц:** `references/full/lesha.jpg` — Лёша; `references/full/artem.jpg` — Артём; `references/full/hostess-guzeeva.jpg` — Лариса Гузеева, нужен портрет; `references/full/hostess-syabitova.jpg` — Роза Сябитова, нужен портрет. Это не одобрение и не запуск видео.
+**Листы лиц:** `references/full/lesha.jpg` — Лёша; `references/full/artem.jpg` — Артём; `references/full/hostess-guzeeva.jpg` — Лариса Гузеева; `references/full/hostess-syabitova.jpg` — Роза Сябитова, анфас, главный портрет; `references/full/hostess-syabitova-34.jpg` — Роза Сябитова вполоборота, то же лицо, дополнительный ракурс. Это не одобрение и не запуск видео.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/lesha.jpg" target="_blank" rel="noopener"><img src="references/full/lesha.jpg" alt="Лёша — только лицо и возраст с листа; одежда по сцене" loading="lazy" width="480"></a><figcaption>Лёша — только лицо и возраст с листа; одежда по сцене</figcaption></figure>
 <figure><a href="references/full/artem.jpg" target="_blank" rel="noopener"><img src="references/full/artem.jpg" alt="Артём — только лицо и возраст с листа; одежда по сцене" loading="lazy" width="480"></a><figcaption>Артём — только лицо и возраст с листа; одежда по сцене</figcaption></figure>
+<figure><a href="references/full/hostess-guzeeva.jpg" target="_blank" rel="noopener"><img src="references/full/hostess-guzeeva.jpg" alt="Лариса Гузеева — только лицо; костюм по сцене" loading="lazy" width="480"></a><figcaption>Лариса Гузеева — только лицо; костюм по сцене</figcaption></figure>
+<figure><a href="references/full/hostess-syabitova.jpg" target="_blank" rel="noopener"><img src="references/full/hostess-syabitova.jpg" alt="Роза Сябитова — анфас, главный портрет" loading="lazy" width="480"></a><figcaption>Роза Сябитова — анфас, главный портрет</figcaption></figure>
+<figure><a href="references/full/hostess-syabitova-34.jpg" target="_blank" rel="noopener"><img src="references/full/hostess-syabitova-34.jpg" alt="Роза Сябитова — вполоборота, то же лицо, дополнительно" loading="lazy" width="480"></a><figcaption>Роза Сябитова — вполоборота, то же лицо, дополнительно</figcaption></figure>
 </div>
 
 <!-- parody-photo-publication-81 -->
@@ -12961,7 +12976,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 ### 81A · Знакомство — сеем пальто
 
-Глава 1 из 81 → 82 → 83. Знакомство. Причина выбора Артёма сеется здесь фразой про пальто. Ведущие — настоящие Лариса Гузеева и Роза Сябитова. Слоты `references/full/hostess-guzeeva.jpg` и `references/full/hostess-syabitova.jpg`: нужен портрет, файлов ещё нет. Сходство лиц только с этими портретами. Общий кадр — только расстановка.
+Глава 1 из 81 → 82 → 83. Знакомство. Причина выбора Артёма сеется здесь фразой про пальто. Ведущие — настоящие Лариса Гузеева и Роза Сябитова. Портреты: Гузеева — `references/full/hostess-guzeeva.jpg`; Сябитова — `references/full/hostess-syabitova.jpg` (анфас, главный) и `references/full/hostess-syabitova-34.jpg` (вполоборота, то же лицо). Сходство лиц только с этими портретами. На реплику Гузеевой «…Ей же с вами скучно будет!» Алексей отвечает: «Я сам решу» (t550u). Общий кадр — только расстановка.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/scenes/scene-81/S81-swap-artem.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-81/previews/S81-swap-artem.webp" alt="81A — принятый кадр расстановки" loading="lazy" width="480"></a><figcaption>81A — принятый кадр расстановки</figcaption></figure>
@@ -12973,7 +12988,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — `references/full/artem.jpg`; @Image3 — `references/scenes/scene-81/S81-swap-artem.jpg`; @Image4 — `references/full/hostess-guzeeva.jpg` и @Image5 — `references/full/hostess-syabitova.jpg`, слоты «нужен портрет», файлов ещё нет.
+**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — `references/full/artem.jpg`; @Image3 — `references/scenes/scene-81/S81-swap-artem.jpg`; @Image4 — `references/full/hostess-guzeeva.jpg` (Гузеева); @Image5 — `references/full/hostess-syabitova.jpg` (Сябитова, анфас, главный); @Image6 — `references/full/hostess-syabitova-34.jpg` (Сябитова вполоборота, то же лицо).
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -12983,12 +12998,13 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/lesha.jpg — Alexey face only.
 @Image2 = references/full/artem.jpg — Artyom face only.
 @Image3 = references/scenes/scene-81/S81-swap-artem.jpg — seating, wardrobe and studio only, never the identity of the hostesses.
-@Image4 = references/full/hostess-guzeeva.jpg — НУЖЕН ПОРТРЕТ Ларисы Гузеевой, файла нет. Когда файл будет, лицо только с него.
-@Image5 = references/full/hostess-syabitova.jpg — НУЖЕН ПОРТРЕТ Розы Сябитовой, файла нет. Когда файл будет, лицо только с него.
+@Image4 = references/full/hostess-guzeeva.jpg — Larisa Guzeeva face only (portrait). Costume and seat from @Image3.
+@Image5 = references/full/hostess-syabitova.jpg — Roza Syabitova face only, frontal portrait, PRIMARY identity.
+@Image6 = references/full/hostess-syabitova-34.jpg — the SAME Roza Syabitova face in three-quarter view, secondary angle for head turns. Same person as @Image5, never a second woman; @Image5 wins on any conflict.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-ALEXEY / LESHA: exact face of @Image1, slim adult, wavy brown hair, brown moustache. Navy suit, white shirt, burgundy tie, centre-left. ARTYOM: exact face of @Image2, stocky adult, tousled light-brown hair, short light beard, broad friendly face. Brown suede blazer, floral shirt, far left. GUZEEVA: the real Larisa Guzeeva. Exact facial likeness of @Image4, references/full/hostess-guzeeva.jpg, once that portrait is supplied. The file is not here yet («нужен портрет»); do not invent her face and do not take it from the group still. She sits at the hosts' desk and speaks the long introduction and the heart speech. Costume from the staging still: dark updo, black velvet dress, fabric-flower brooch, statement earrings. SYABITOVA: the real Roza Syabitova. Exact facial likeness of @Image5, references/full/hostess-syabitova.jpg, same empty-slot rule. She sits beside Guzeeva and alone says «Ясненько. Понятненько». Costume from the still: auburn bob, red glasses, pink tweed, pearls. Artyom sits far screen-left. Alexey sits centre-left in a navy suit, white shirt, burgundy tie. The two hostesses sit at the desk opposite them: Guzeeva speaks the long lines, Syabitova sits beside her. Nobody swaps seats.
+ALEXEY / LESHA: exact face of @Image1, slim adult, wavy brown hair, brown moustache. Navy suit, white shirt, burgundy tie, centre-left. He answers Guzeeva's heart speech with exactly «Я сам решу», calm and firm, looking at her. ARTYOM: exact face of @Image2, stocky adult, tousled light-brown hair, short light beard, broad friendly face. Brown suede blazer, floral shirt, far left. GUZEEVA: the real Larisa Guzeeva. Exact facial likeness of @Image4, references/full/hostess-guzeeva.jpg; never take her face from the group still. She sits at the hosts' desk and speaks the long introduction and the heart speech. Costume from the staging still: dark updo, black velvet dress, fabric-flower brooch, statement earrings. SYABITOVA: the real Roza Syabitova. Exact facial likeness of @Image5, references/full/hostess-syabitova.jpg (frontal, primary), with @Image6, references/full/hostess-syabitova-34.jpg, as the same face from three-quarter view; never from the group still. She sits beside Guzeeva and alone says «Ясненько. Понятненько». Costume from the still: auburn bob, red glasses, pink tweed, pearls. Artyom sits far screen-left. Alexey sits centre-left in a navy suit, white shirt, burgundy tie. The two hostesses sit at the desk opposite them: Guzeeva speaks the long lines, Syabitova sits beside her. Nobody swaps seats.
 
 SCENE / SPACE:
 Lilac matchmaking studio, one desk, four seated people, no logos, no second room.
@@ -13001,7 +13017,8 @@ STORY FLOW:
 6–9s: Guzeeva: «Алексей, расскажите о себе».
 9–13s: Alexey: «Мне сорок. Спокойный, хозяйственный».
 13–16s: Guzeeva, hand on heart, whole: «Алексей, золотой вы мой! Усы есть, руки есть, кран починит. Но двадцатилетняя? Ей же с вами скучно будет!»
-16–19s: Alexey: «Хочется начать с чистого листа».
+16–17s: Alexey, calm and firm, straight to Guzeeva: «Я сам решу».
+17–19s: Alexey: «Хочется начать с чистого листа».
 19–22s: Syabitova, over her glasses: «Ясненько. Понятненько».
 22–26s: Artyom: «Я за него поручаюсь».
 26–30s: Artyom, gentler, the planted reason: «Ей со мной было бы тепло: я бы пальто принёс». The hostesses notice.
@@ -13016,7 +13033,7 @@ AUDIO:
 Only the lines above, each finished. No music.
 
 NEGATIVE:
-no real channel logo, no swapped seats, no bride yet, no celebrity face copy, no collage. No extra limbs or identity drift.
+no real channel logo, no swapped seats, no bride yet, no extra celebrity faces beyond the two real hostesses, no collage. No extra limbs or identity drift.
 
 FRAME FILL / NO BARS:
 Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
@@ -13028,7 +13045,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 1 · 15 с
 
-**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — `references/full/artem.jpg`; @Image3 — `references/scenes/scene-81/S81-swap-artem.jpg`; @Image4 — `references/full/hostess-guzeeva.jpg` и @Image5 — `references/full/hostess-syabitova.jpg`, слоты «нужен портрет», файлов ещё нет.
+**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — `references/full/artem.jpg`; @Image3 — `references/scenes/scene-81/S81-swap-artem.jpg`; @Image4 — `references/full/hostess-guzeeva.jpg` (Гузеева); @Image5 — `references/full/hostess-syabitova.jpg` (Сябитова, анфас, главный); @Image6 — `references/full/hostess-syabitova-34.jpg` (Сябитова вполоборота, то же лицо).
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -13038,12 +13055,13 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/lesha.jpg — Alexey face only.
 @Image2 = references/full/artem.jpg — Artyom face only.
 @Image3 = references/scenes/scene-81/S81-swap-artem.jpg — seating, wardrobe and studio only, never the identity of the hostesses.
-@Image4 = references/full/hostess-guzeeva.jpg — НУЖЕН ПОРТРЕТ Ларисы Гузеевой, файла нет. Когда файл будет, лицо только с него.
-@Image5 = references/full/hostess-syabitova.jpg — НУЖЕН ПОРТРЕТ Розы Сябитовой, файла нет. Когда файл будет, лицо только с него.
+@Image4 = references/full/hostess-guzeeva.jpg — Larisa Guzeeva face only (portrait). Costume and seat from @Image3.
+@Image5 = references/full/hostess-syabitova.jpg — Roza Syabitova face only, frontal portrait, PRIMARY identity.
+@Image6 = references/full/hostess-syabitova-34.jpg — the SAME Roza Syabitova face in three-quarter view, secondary angle for head turns. Same person as @Image5, never a second woman; @Image5 wins on any conflict.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-ALEXEY / LESHA: exact face of @Image1, slim adult, wavy brown hair, brown moustache. Navy suit, white shirt, burgundy tie, centre-left. ARTYOM: exact face of @Image2, stocky adult, tousled light-brown hair, short light beard, broad friendly face. Brown suede blazer, floral shirt, far left. GUZEEVA: the real Larisa Guzeeva. Exact facial likeness of @Image4, references/full/hostess-guzeeva.jpg, once that portrait is supplied. The file is not here yet («нужен портрет»); do not invent her face and do not take it from the group still. She sits at the hosts' desk and speaks the long introduction and the heart speech. Costume from the staging still: dark updo, black velvet dress, fabric-flower brooch, statement earrings. SYABITOVA: the real Roza Syabitova. Exact facial likeness of @Image5, references/full/hostess-syabitova.jpg, same empty-slot rule. She sits beside Guzeeva and alone says «Ясненько. Понятненько». Costume from the still: auburn bob, red glasses, pink tweed, pearls. Artyom sits far screen-left. Alexey sits centre-left in a navy suit, white shirt, burgundy tie. The two hostesses sit at the desk opposite them: Guzeeva speaks the long lines, Syabitova sits beside her. Nobody swaps seats.
+ALEXEY / LESHA: exact face of @Image1, slim adult, wavy brown hair, brown moustache. Navy suit, white shirt, burgundy tie, centre-left. He answers Guzeeva's heart speech with exactly «Я сам решу», calm and firm, looking at her. ARTYOM: exact face of @Image2, stocky adult, tousled light-brown hair, short light beard, broad friendly face. Brown suede blazer, floral shirt, far left. GUZEEVA: the real Larisa Guzeeva. Exact facial likeness of @Image4, references/full/hostess-guzeeva.jpg; never take her face from the group still. She sits at the hosts' desk and speaks the long introduction and the heart speech. Costume from the staging still: dark updo, black velvet dress, fabric-flower brooch, statement earrings. SYABITOVA: the real Roza Syabitova. Exact facial likeness of @Image5, references/full/hostess-syabitova.jpg (frontal, primary), with @Image6, references/full/hostess-syabitova-34.jpg, as the same face from three-quarter view; never from the group still. She sits beside Guzeeva and alone says «Ясненько. Понятненько». Costume from the still: auburn bob, red glasses, pink tweed, pearls. Artyom sits far screen-left. Alexey sits centre-left in a navy suit, white shirt, burgundy tie. The two hostesses sit at the desk opposite them: Guzeeva speaks the long lines, Syabitova sits beside her. Nobody swaps seats.
 
 SCENE / SPACE:
 Lilac matchmaking studio, one desk, four seated people, no logos, no second room.
@@ -13064,7 +13082,7 @@ AUDIO:
 For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Those three complete lines only.
 
 NEGATIVE:
-no real channel logo, no swapped seats, no bride yet, no celebrity face copy, no collage. No extra limbs or identity drift.
+no real channel logo, no swapped seats, no bride yet, no extra celebrity faces beyond the two real hostesses, no collage. No extra limbs or identity drift.
 
 FRAME FILL / NO BARS:
 Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
@@ -13072,7 +13090,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 2 · 15 с
 
-**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — `references/full/artem.jpg`; @Image3 — `references/scenes/scene-81/S81-swap-artem.jpg`; @Image4 — `references/full/hostess-guzeeva.jpg` и @Image5 — `references/full/hostess-syabitova.jpg`, слоты «нужен портрет», файлов ещё нет. @Video1 — настоящие последние 3 с P1 подсцены 81A.
+**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — `references/full/artem.jpg`; @Image3 — `references/scenes/scene-81/S81-swap-artem.jpg`; @Image4 — `references/full/hostess-guzeeva.jpg` (Гузеева); @Image5 — `references/full/hostess-syabitova.jpg` (Сябитова, анфас, главный); @Image6 — `references/full/hostess-syabitova-34.jpg` (Сябитова вполоборота, то же лицо). @Video1 — настоящие последние 3 с P1 подсцены 81A.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -13082,13 +13100,14 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/lesha.jpg — Alexey face only.
 @Image2 = references/full/artem.jpg — Artyom face only.
 @Image3 = references/scenes/scene-81/S81-swap-artem.jpg — seating, wardrobe and studio only, never the identity of the hostesses.
-@Image4 = references/full/hostess-guzeeva.jpg — НУЖЕН ПОРТРЕТ Ларисы Гузеевой, файла нет. Когда файл будет, лицо только с него.
-@Image5 = references/full/hostess-syabitova.jpg — НУЖЕН ПОРТРЕТ Розы Сябитовой, файла нет. Когда файл будет, лицо только с него.
+@Image4 = references/full/hostess-guzeeva.jpg — Larisa Guzeeva face only (portrait). Costume and seat from @Image3.
+@Image5 = references/full/hostess-syabitova.jpg — Roza Syabitova face only, frontal portrait, PRIMARY identity.
+@Image6 = references/full/hostess-syabitova-34.jpg — the SAME Roza Syabitova face in three-quarter view, secondary angle for head turns. Same person as @Image5, never a second woman; @Image5 wins on any conflict.
 @Video1 = actual final 3 seconds of Scene 81 subscene 81A Seedance Part 1 — real continuity, not a generated substitute.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-ALEXEY / LESHA: exact face of @Image1, slim adult, wavy brown hair, brown moustache. Navy suit, white shirt, burgundy tie, centre-left. ARTYOM: exact face of @Image2, stocky adult, tousled light-brown hair, short light beard, broad friendly face. Brown suede blazer, floral shirt, far left. GUZEEVA: the real Larisa Guzeeva. Exact facial likeness of @Image4, references/full/hostess-guzeeva.jpg, once that portrait is supplied. The file is not here yet («нужен портрет»); do not invent her face and do not take it from the group still. She sits at the hosts' desk and speaks the long introduction and the heart speech. Costume from the staging still: dark updo, black velvet dress, fabric-flower brooch, statement earrings. SYABITOVA: the real Roza Syabitova. Exact facial likeness of @Image5, references/full/hostess-syabitova.jpg, same empty-slot rule. She sits beside Guzeeva and alone says «Ясненько. Понятненько». Costume from the still: auburn bob, red glasses, pink tweed, pearls. Artyom sits far screen-left. Alexey sits centre-left in a navy suit, white shirt, burgundy tie. The two hostesses sit at the desk opposite them: Guzeeva speaks the long lines, Syabitova sits beside her. Nobody swaps seats.
+ALEXEY / LESHA: exact face of @Image1, slim adult, wavy brown hair, brown moustache. Navy suit, white shirt, burgundy tie, centre-left. He answers Guzeeva's heart speech with exactly «Я сам решу», calm and firm, looking at her. ARTYOM: exact face of @Image2, stocky adult, tousled light-brown hair, short light beard, broad friendly face. Brown suede blazer, floral shirt, far left. GUZEEVA: the real Larisa Guzeeva. Exact facial likeness of @Image4, references/full/hostess-guzeeva.jpg; never take her face from the group still. She sits at the hosts' desk and speaks the long introduction and the heart speech. Costume from the staging still: dark updo, black velvet dress, fabric-flower brooch, statement earrings. SYABITOVA: the real Roza Syabitova. Exact facial likeness of @Image5, references/full/hostess-syabitova.jpg (frontal, primary), with @Image6, references/full/hostess-syabitova-34.jpg, as the same face from three-quarter view; never from the group still. She sits beside Guzeeva and alone says «Ясненько. Понятненько». Costume from the still: auburn bob, red glasses, pink tweed, pearls. Artyom sits far screen-left. Alexey sits centre-left in a navy suit, white shirt, burgundy tie. The two hostesses sit at the desk opposite them: Guzeeva speaks the long lines, Syabitova sits beside her. Nobody swaps seats.
 
 SCENE / SPACE:
 Lilac matchmaking studio, one desk, four seated people, no logos, no second room.
@@ -13098,7 +13117,8 @@ Alexey has finished speaking. Hostesses are about to answer.
 
 STORY FLOW:
 0–8s: Guzeeva's whole speech «Алексей, золотой вы мой! Усы есть, руки есть, кран починит. Но двадцатилетняя? Ей же с вами скучно будет!»
-8–11s: Alexey: «Хочется начать с чистого листа».
+8–9s: Alexey, calm and firm, straight to Guzeeva: «Я сам решу».
+9–11s: Alexey: «Хочется начать с чистого листа».
 11–13s: Syabitova: «Ясненько. Понятненько».
 13–15s: Artyom: «Я за него поручаюсь. Ей со мной было бы тепло: я бы пальто принёс».
 
@@ -13112,7 +13132,7 @@ AUDIO:
 For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Those complete lines only. Do not repeat Part 1.
 
 NEGATIVE:
-no real channel logo, no swapped seats, no bride yet, no celebrity face copy, no collage. No extra limbs or identity drift. No replay of Part 1 action or dialogue.
+no real channel logo, no swapped seats, no bride yet, no extra celebrity faces beyond the two real hostesses, no collage. No extra limbs or identity drift. No replay of Part 1 action or dialogue.
 
 FRAME FILL / NO BARS:
 Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
@@ -13132,10 +13152,13 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 **Общее:** лица — только с референсов лиц (`references/full/*` и листы Маши Р / Алины), одежда — по сцене и стиллу, не с листов персонажей. 16:9, 720p, 24 fps, родной звук. Стиллы — постановка и гардероб, не буквальный первый кадр.
 
-**Листы лиц:** `references/full/lesha.jpg` — Лёша; `references/full/star-gosling.jpg` — Райан Гослинг, нужен портрет; `references/full/star-dicaprio.jpg` — Леонардо Ди Каприо, нужен портрет; `references/full/star-pitt.jpg` — Брэд Питт, нужен портрет. Это не одобрение и не запуск видео.
+**Листы лиц:** `references/full/lesha.jpg` — Лёша; `references/full/star-gosling.jpg` — Райан Гослинг; `references/full/star-dicaprio.jpg` — Леонардо Ди Каприо; `references/full/star-pitt.jpg` — Брэд Питт. С портретов только лица; позы и места — с общего кадра. Это не одобрение и не запуск видео.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/lesha.jpg" target="_blank" rel="noopener"><img src="references/full/lesha.jpg" alt="Лёша — только лицо и возраст с листа; одежда по сцене" loading="lazy" width="480"></a><figcaption>Лёша — только лицо и возраст с листа; одежда по сцене</figcaption></figure>
+<figure><a href="references/full/star-gosling.jpg" target="_blank" rel="noopener"><img src="references/full/star-gosling.jpg" alt="Райан Гослинг — только лицо; центр-лево, ладонь" loading="lazy" width="480"></a><figcaption>Райан Гослинг — только лицо; центр-лево, ладонь</figcaption></figure>
+<figure><a href="references/full/star-dicaprio.jpg" target="_blank" rel="noopener"><img src="references/full/star-dicaprio.jpg" alt="Леонардо Ди Каприо — только лицо; центр, руки сложены" loading="lazy" width="480"></a><figcaption>Леонардо Ди Каприо — только лицо; центр, руки сложены</figcaption></figure>
+<figure><a href="references/full/star-pitt.jpg" target="_blank" rel="noopener"><img src="references/full/star-pitt.jpg" alt="Брэд Питт — только лицо; справа, указывает" loading="lazy" width="480"></a><figcaption>Брэд Питт — только лицо; справа, указывает</figcaption></figure>
 </div>
 
 <!-- parody-photo-publication-82 -->
@@ -13145,7 +13168,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 ### 82A · Звёзды хвалят хозяйственность
 
-Глава 2. Слева направо на принятом кадре: Лёша, Райан Гослинг (центр-лево, ладонь), Леонардо Ди Каприо (центр, руки сложены), Брэд Питт (справа, указывает). Единственный кадр комнаты не заменять. Портреты `references/full/star-gosling.jpg`, `star-dicaprio.jpg`, `star-pitt.jpg` ещё не присланы: нужен портрет, лица с общего кадра не закреплять.
+Глава 2. Слева направо на принятом кадре: Лёша, Райан Гослинг (центр-лево, ладонь), Леонардо Ди Каприо (центр, руки сложены), Брэд Питт (справа, указывает). Единственный кадр комнаты не заменять. Портреты `references/full/star-gosling.jpg`, `star-dicaprio.jpg`, `star-pitt.jpg` — только лица; позы и места — с общего кадра, лица с общего кадра не брать.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/scenes/scene-82/groom-lounge-preview.png" target="_blank" rel="noopener"><img src="references/scenes/scene-82/previews/groom-lounge-preview.webp" alt="82A — единственный принятый кадр комнаты" loading="lazy" width="480"></a><figcaption>82A — единственный принятый кадр комнаты</figcaption></figure>
@@ -13157,7 +13180,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — единственный кадр `references/scenes/scene-82/groom-lounge-preview.png`; @Image3 — `references/full/star-gosling.jpg`, @Image4 — `references/full/star-dicaprio.jpg`, @Image5 — `references/full/star-pitt.jpg`: нужен портрет, файлов ещё нет.
+**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — единственный кадр `references/scenes/scene-82/groom-lounge-preview.png`; @Image3 — `references/full/star-gosling.jpg`, @Image4 — `references/full/star-dicaprio.jpg`, @Image5 — `references/full/star-pitt.jpg`; с портретов только лица.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -13166,16 +13189,16 @@ Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic comedy with living li
 REFERENCES / AUTHORITY:
 @Image1 = references/full/lesha.jpg — Alexey face only.
 @Image2 = references/scenes/scene-82/groom-lounge-preview.png — the single accepted room frame: seats and tuxedos only, not a second room and not the face lock.
-@Image3 = references/full/star-gosling.jpg — НУЖЕН ПОРТРЕТ Райана Гослинга, файла нет. Когда файл будет, лицо только с него. Центр-лево, открытая ладонь.
-@Image4 = references/full/star-dicaprio.jpg — НУЖЕН ПОРТРЕТ Леонардо Ди Каприо, файла нет. Когда файл будет, лицо только с него. Центр, руки сложены.
-@Image5 = references/full/star-pitt.jpg — НУЖЕН ПОРТРЕТ Брэда Питта, файла нет. Когда файл будет, лицо только с него. Справа, указывает.
+@Image3 = references/full/star-gosling.jpg — Ryan Gosling face only (portrait); pose and seat from @Image2, not from the portrait. Центр-лево, открытая ладонь.
+@Image4 = references/full/star-dicaprio.jpg — Leonardo DiCaprio face only (portrait); pose and seat from @Image2, not from the portrait. Центр, руки сложены.
+@Image5 = references/full/star-pitt.jpg — Brad Pitt face only (portrait); pose and seat from @Image2, not from the portrait. Справа, указывает.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 ALEXEY / LESHA: exact face of @Image1, white dinner jacket, black satin lapels, black bow tie, glass in hand, seated screen-left, first from the left.
-GOSLING: the real Ryan Gosling, exact facial likeness of @Image3 once references/full/star-gosling.jpg is supplied. File not here yet. Seat immediately to Alexey's right (center-left), black tuxedo, open palm. He says «Я думал, я завидный жених. Потом встретил Алексея» and later «Это уже высшая лига».
-DICAPRIO: the real Leonardo DiCaprio, exact facial likeness of @Image4, references/full/star-dicaprio.jpg, same empty-slot rule. Center seat, arms folded. He says «Он и кран починит, и инструкцию прочитает» and later «Алексей, оставь шанс остальным».
-PITT: the real Brad Pitt, exact facial likeness of @Image5, references/full/star-pitt.jpg, same empty-slot rule. Far right, pointing at Alexey. He says «И контейнеры возвращает с крышками».
+GOSLING: the real Ryan Gosling, exact facial likeness of @Image3, references/full/star-gosling.jpg. Seat immediately to Alexey's right (center-left), black tuxedo, open palm. He says «Я думал, я завидный жених. Потом встретил Алексея» and later «Это уже высшая лига».
+DICAPRIO: the real Leonardo DiCaprio, exact facial likeness of @Image4, references/full/star-dicaprio.jpg, face only from the portrait. Center seat, arms folded. He says «Он и кран починит, и инструкцию прочитает» and later «Алексей, оставь шанс остальным».
+PITT: the real Brad Pitt, exact facial likeness of @Image5, references/full/star-pitt.jpg, face only from the portrait. Far right, pointing at Alexey. He says «И контейнеры возвращает с крышками».
 Left to right on the accepted still: Alexey, Gosling, DiCaprio, Pitt. Do not swap seats or blend faces. Do not invent faces before the portraits arrive.
 
 SCENE / SPACE:
@@ -13214,7 +13237,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 1 · 15 с
 
-**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — единственный кадр `references/scenes/scene-82/groom-lounge-preview.png`; @Image3 — `references/full/star-gosling.jpg`, @Image4 — `references/full/star-dicaprio.jpg`, @Image5 — `references/full/star-pitt.jpg`: нужен портрет, файлов ещё нет.
+**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — единственный кадр `references/scenes/scene-82/groom-lounge-preview.png`; @Image3 — `references/full/star-gosling.jpg`, @Image4 — `references/full/star-dicaprio.jpg`, @Image5 — `references/full/star-pitt.jpg`; с портретов только лица.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -13223,16 +13246,16 @@ Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colou
 REFERENCES / AUTHORITY:
 @Image1 = references/full/lesha.jpg — Alexey face only.
 @Image2 = references/scenes/scene-82/groom-lounge-preview.png — the single accepted room frame: seats and tuxedos only, not a second room and not the face lock.
-@Image3 = references/full/star-gosling.jpg — НУЖЕН ПОРТРЕТ Райана Гослинга, файла нет. Когда файл будет, лицо только с него. Центр-лево, открытая ладонь.
-@Image4 = references/full/star-dicaprio.jpg — НУЖЕН ПОРТРЕТ Леонардо Ди Каприо, файла нет. Когда файл будет, лицо только с него. Центр, руки сложены.
-@Image5 = references/full/star-pitt.jpg — НУЖЕН ПОРТРЕТ Брэда Питта, файла нет. Когда файл будет, лицо только с него. Справа, указывает.
+@Image3 = references/full/star-gosling.jpg — Ryan Gosling face only (portrait); pose and seat from @Image2, not from the portrait. Центр-лево, открытая ладонь.
+@Image4 = references/full/star-dicaprio.jpg — Leonardo DiCaprio face only (portrait); pose and seat from @Image2, not from the portrait. Центр, руки сложены.
+@Image5 = references/full/star-pitt.jpg — Brad Pitt face only (portrait); pose and seat from @Image2, not from the portrait. Справа, указывает.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 ALEXEY / LESHA: exact face of @Image1, white dinner jacket, black satin lapels, black bow tie, glass in hand, seated screen-left, first from the left.
-GOSLING: the real Ryan Gosling, exact facial likeness of @Image3 once references/full/star-gosling.jpg is supplied. File not here yet. Seat immediately to Alexey's right (center-left), black tuxedo, open palm. He says «Я думал, я завидный жених. Потом встретил Алексея» and later «Это уже высшая лига».
-DICAPRIO: the real Leonardo DiCaprio, exact facial likeness of @Image4, references/full/star-dicaprio.jpg, same empty-slot rule. Center seat, arms folded. He says «Он и кран починит, и инструкцию прочитает» and later «Алексей, оставь шанс остальным».
-PITT: the real Brad Pitt, exact facial likeness of @Image5, references/full/star-pitt.jpg, same empty-slot rule. Far right, pointing at Alexey. He says «И контейнеры возвращает с крышками».
+GOSLING: the real Ryan Gosling, exact facial likeness of @Image3, references/full/star-gosling.jpg. Seat immediately to Alexey's right (center-left), black tuxedo, open palm. He says «Я думал, я завидный жених. Потом встретил Алексея» and later «Это уже высшая лига».
+DICAPRIO: the real Leonardo DiCaprio, exact facial likeness of @Image4, references/full/star-dicaprio.jpg, face only from the portrait. Center seat, arms folded. He says «Он и кран починит, и инструкцию прочитает» and later «Алексей, оставь шанс остальным».
+PITT: the real Brad Pitt, exact facial likeness of @Image5, references/full/star-pitt.jpg, face only from the portrait. Far right, pointing at Alexey. He says «И контейнеры возвращает с крышками».
 Left to right on the accepted still: Alexey, Gosling, DiCaprio, Pitt. Do not swap seats or blend faces. Do not invent faces before the portraits arrive.
 
 SCENE / SPACE:
@@ -13262,7 +13285,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 2 · 15 с
 
-**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — единственный кадр `references/scenes/scene-82/groom-lounge-preview.png`; @Image3 — `references/full/star-gosling.jpg`, @Image4 — `references/full/star-dicaprio.jpg`, @Image5 — `references/full/star-pitt.jpg`: нужен портрет, файлов ещё нет. @Video1 — настоящие последние 3 с P1 подсцены 82A.
+**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — единственный кадр `references/scenes/scene-82/groom-lounge-preview.png`; @Image3 — `references/full/star-gosling.jpg`, @Image4 — `references/full/star-dicaprio.jpg`, @Image5 — `references/full/star-pitt.jpg`; с портретов только лица. @Video1 — настоящие последние 3 с P1 подсцены 82A.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -13271,17 +13294,17 @@ Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colou
 REFERENCES / AUTHORITY:
 @Image1 = references/full/lesha.jpg — Alexey face only.
 @Image2 = references/scenes/scene-82/groom-lounge-preview.png — the single accepted room frame: seats and tuxedos only, not a second room and not the face lock.
-@Image3 = references/full/star-gosling.jpg — НУЖЕН ПОРТРЕТ Райана Гослинга, файла нет. Когда файл будет, лицо только с него. Центр-лево, открытая ладонь.
-@Image4 = references/full/star-dicaprio.jpg — НУЖЕН ПОРТРЕТ Леонардо Ди Каприо, файла нет. Когда файл будет, лицо только с него. Центр, руки сложены.
-@Image5 = references/full/star-pitt.jpg — НУЖЕН ПОРТРЕТ Брэда Питта, файла нет. Когда файл будет, лицо только с него. Справа, указывает.
+@Image3 = references/full/star-gosling.jpg — Ryan Gosling face only (portrait); pose and seat from @Image2, not from the portrait. Центр-лево, открытая ладонь.
+@Image4 = references/full/star-dicaprio.jpg — Leonardo DiCaprio face only (portrait); pose and seat from @Image2, not from the portrait. Центр, руки сложены.
+@Image5 = references/full/star-pitt.jpg — Brad Pitt face only (portrait); pose and seat from @Image2, not from the portrait. Справа, указывает.
 @Video1 = actual final 3 seconds of Scene 82 subscene 82A Seedance Part 1 — real continuity, not a generated substitute.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 ALEXEY / LESHA: exact face of @Image1, white dinner jacket, black satin lapels, black bow tie, glass in hand, seated screen-left, first from the left.
-GOSLING: the real Ryan Gosling, exact facial likeness of @Image3 once references/full/star-gosling.jpg is supplied. File not here yet. Seat immediately to Alexey's right (center-left), black tuxedo, open palm. He says «Я думал, я завидный жених. Потом встретил Алексея» and later «Это уже высшая лига».
-DICAPRIO: the real Leonardo DiCaprio, exact facial likeness of @Image4, references/full/star-dicaprio.jpg, same empty-slot rule. Center seat, arms folded. He says «Он и кран починит, и инструкцию прочитает» and later «Алексей, оставь шанс остальным».
-PITT: the real Brad Pitt, exact facial likeness of @Image5, references/full/star-pitt.jpg, same empty-slot rule. Far right, pointing at Alexey. He says «И контейнеры возвращает с крышками».
+GOSLING: the real Ryan Gosling, exact facial likeness of @Image3, references/full/star-gosling.jpg. Seat immediately to Alexey's right (center-left), black tuxedo, open palm. He says «Я думал, я завидный жених. Потом встретил Алексея» and later «Это уже высшая лига».
+DICAPRIO: the real Leonardo DiCaprio, exact facial likeness of @Image4, references/full/star-dicaprio.jpg, face only from the portrait. Center seat, arms folded. He says «Он и кран починит, и инструкцию прочитает» and later «Алексей, оставь шанс остальным».
+PITT: the real Brad Pitt, exact facial likeness of @Image5, references/full/star-pitt.jpg, face only from the portrait. Far right, pointing at Alexey. He says «И контейнеры возвращает с крышками».
 Left to right on the accepted still: Alexey, Gosling, DiCaprio, Pitt. Do not swap seats or blend faces. Do not invent faces before the portraits arrive.
 
 SCENE / SPACE:
@@ -13529,7 +13552,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — `references/full/ilyusha.jpg`; @Image2 — `references/scenes/scene-84/S84-composite-ilyusha.jpg`. Слоты крупных планов плёнки — нужен кадр, файлов нет.
+**Входы:** @Image1 — `references/full/ilyusha.jpg`; @Image2 — `references/scenes/scene-84/S84-composite-ilyusha.jpg`.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -13538,7 +13561,6 @@ Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic comedy with living li
 REFERENCES / AUTHORITY:
 @Image1 = references/full/ilyusha.jpg — Ilyusha face only.
 @Image2 = references/scenes/scene-84/S84-composite-ilyusha.jpg — accepted wide still: purple car, clear film, garage, two mechanics. Shared staging, not a collage of the three beats.
-Dedicated stills not yet files: references/scenes/scene-84/S84B-prepared-panel.jpg, references/scenes/scene-84/S84B-squeegee-pass.jpg, references/scenes/scene-84/S84C-neat-result.jpg.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -13577,7 +13599,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 1 · 15 с
 
-**Входы:** @Image1 — `references/full/ilyusha.jpg`; @Image2 — `references/scenes/scene-84/S84-composite-ilyusha.jpg`. Слоты крупных планов плёнки — нужен кадр, файлов нет.
+**Входы:** @Image1 — `references/full/ilyusha.jpg`; @Image2 — `references/scenes/scene-84/S84-composite-ilyusha.jpg`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -13586,7 +13608,6 @@ Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colou
 REFERENCES / AUTHORITY:
 @Image1 = references/full/ilyusha.jpg — Ilyusha face only.
 @Image2 = references/scenes/scene-84/S84-composite-ilyusha.jpg — accepted wide still: purple car, clear film, garage, two mechanics. Shared staging, not a collage of the three beats.
-Dedicated stills not yet files: references/scenes/scene-84/S84B-prepared-panel.jpg, references/scenes/scene-84/S84B-squeegee-pass.jpg, references/scenes/scene-84/S84C-neat-result.jpg.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -13619,7 +13640,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 2 · 15 с
 
-**Входы:** @Image1 — `references/full/ilyusha.jpg`; @Image2 — `references/scenes/scene-84/S84-composite-ilyusha.jpg`. Слоты крупных планов плёнки — нужен кадр, файлов нет. @Video1 — настоящие последние 3 с P1 подсцены 84A.
+**Входы:** @Image1 — `references/full/ilyusha.jpg`; @Image2 — `references/scenes/scene-84/S84-composite-ilyusha.jpg`. @Video1 — настоящие последние 3 с P1 подсцены 84A.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -13628,7 +13649,6 @@ Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colou
 REFERENCES / AUTHORITY:
 @Image1 = references/full/ilyusha.jpg — Ilyusha face only.
 @Image2 = references/scenes/scene-84/S84-composite-ilyusha.jpg — accepted wide still: purple car, clear film, garage, two mechanics. Shared staging, not a collage of the three beats.
-Dedicated stills not yet files: references/scenes/scene-84/S84B-prepared-panel.jpg, references/scenes/scene-84/S84B-squeegee-pass.jpg, references/scenes/scene-84/S84C-neat-result.jpg.
 @Video1 = actual final 3 seconds of Scene 84 subscene 84A Seedance Part 1 — real continuity, not a generated substitute.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
@@ -13668,9 +13688,11 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 ### 84B · Плёнка и проход ракелем
 
-Слот крупных планов: S84B-prepared-panel.jpg и S84B-squeegee-pass.jpg — нужны кадры, файлов нет. Пока постановка с принятого общего кадра.
+Крупные планы подсцены: `references/scenes/scene-84/S84B-prepared-panel.jpg` (@Image3, подготовленная панель) и `references/scenes/scene-84/S84B-squeegee-pass.jpg` (@Image4, проход ракелем). Общий кадр — гараж и машина.
 
 <div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-84/S84B-prepared-panel.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-84/previews/S84B-prepared-panel.webp" alt="84B — подготовленная панель" loading="lazy" width="480"></a><figcaption>84B — подготовленная панель</figcaption></figure>
+<figure><a href="references/scenes/scene-84/S84B-squeegee-pass.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-84/previews/S84B-squeegee-pass.webp" alt="84B — проход ракелем" loading="lazy" width="480"></a><figcaption>84B — проход ракелем</figcaption></figure>
 <figure><a href="references/scenes/scene-84/S84-composite-ilyusha.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-84/previews/S84-composite-ilyusha.webp" alt="84 — принятый общий кадр" loading="lazy" width="480"></a><figcaption>84 — принятый общий кадр</figcaption></figure>
 </div>
 
@@ -13680,7 +13702,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — `references/full/ilyusha.jpg`; @Image2 — `references/scenes/scene-84/S84-composite-ilyusha.jpg`. Слоты крупных планов плёнки — нужен кадр, файлов нет.
+**Входы:** @Image1 — `references/full/ilyusha.jpg`; @Image2 — `references/scenes/scene-84/S84-composite-ilyusha.jpg`. @Image3 — `references/scenes/scene-84/S84B-prepared-panel.jpg`; @Image4 — `references/scenes/scene-84/S84B-squeegee-pass.jpg`.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -13689,7 +13711,8 @@ Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic comedy with living li
 REFERENCES / AUTHORITY:
 @Image1 = references/full/ilyusha.jpg — Ilyusha face only.
 @Image2 = references/scenes/scene-84/S84-composite-ilyusha.jpg — accepted wide still: purple car, clear film, garage, two mechanics. Shared staging, not a collage of the three beats.
-Dedicated stills not yet files: references/scenes/scene-84/S84B-prepared-panel.jpg, references/scenes/scene-84/S84B-squeegee-pass.jpg, references/scenes/scene-84/S84C-neat-result.jpg.
+@Image3 = references/scenes/scene-84/S84B-prepared-panel.jpg — close-up of the washed bare purple panel before the film, start of the job; gloved hands only, no host. Staging and light only.
+@Image4 = references/scenes/scene-84/S84B-squeegee-pass.jpg — close-up of the yellow squeegee pushing clear film over the wet purple hood, one bubble ahead of the edge. Staging and light only.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -13728,7 +13751,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 1 · 15 с
 
-**Входы:** @Image1 — `references/full/ilyusha.jpg`; @Image2 — `references/scenes/scene-84/S84-composite-ilyusha.jpg`. Слоты крупных планов плёнки — нужен кадр, файлов нет.
+**Входы:** @Image1 — `references/full/ilyusha.jpg`; @Image2 — `references/scenes/scene-84/S84-composite-ilyusha.jpg`. @Image3 — `references/scenes/scene-84/S84B-prepared-panel.jpg`; @Image4 — `references/scenes/scene-84/S84B-squeegee-pass.jpg`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -13737,7 +13760,8 @@ Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colou
 REFERENCES / AUTHORITY:
 @Image1 = references/full/ilyusha.jpg — Ilyusha face only.
 @Image2 = references/scenes/scene-84/S84-composite-ilyusha.jpg — accepted wide still: purple car, clear film, garage, two mechanics. Shared staging, not a collage of the three beats.
-Dedicated stills not yet files: references/scenes/scene-84/S84B-prepared-panel.jpg, references/scenes/scene-84/S84B-squeegee-pass.jpg, references/scenes/scene-84/S84C-neat-result.jpg.
+@Image3 = references/scenes/scene-84/S84B-prepared-panel.jpg — close-up of the washed bare purple panel before the film, start of the job; gloved hands only, no host. Staging and light only.
+@Image4 = references/scenes/scene-84/S84B-squeegee-pass.jpg — close-up of the yellow squeegee pushing clear film over the wet purple hood, one bubble ahead of the edge. Staging and light only.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -13770,7 +13794,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 2 · 15 с
 
-**Входы:** @Image1 — `references/full/ilyusha.jpg`; @Image2 — `references/scenes/scene-84/S84-composite-ilyusha.jpg`. Слоты крупных планов плёнки — нужен кадр, файлов нет. @Video1 — настоящие последние 3 с P1 подсцены 84B.
+**Входы:** @Image1 — `references/full/ilyusha.jpg`; @Image2 — `references/scenes/scene-84/S84-composite-ilyusha.jpg`. @Image3 — `references/scenes/scene-84/S84B-prepared-panel.jpg`; @Image4 — `references/scenes/scene-84/S84B-squeegee-pass.jpg`. @Video1 — настоящие последние 3 с P1 подсцены 84B.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -13779,7 +13803,8 @@ Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colou
 REFERENCES / AUTHORITY:
 @Image1 = references/full/ilyusha.jpg — Ilyusha face only.
 @Image2 = references/scenes/scene-84/S84-composite-ilyusha.jpg — accepted wide still: purple car, clear film, garage, two mechanics. Shared staging, not a collage of the three beats.
-Dedicated stills not yet files: references/scenes/scene-84/S84B-prepared-panel.jpg, references/scenes/scene-84/S84B-squeegee-pass.jpg, references/scenes/scene-84/S84C-neat-result.jpg.
+@Image3 = references/scenes/scene-84/S84B-prepared-panel.jpg — close-up of the washed bare purple panel before the film, start of the job; gloved hands only, no host. Staging and light only.
+@Image4 = references/scenes/scene-84/S84B-squeegee-pass.jpg — close-up of the yellow squeegee pushing clear film over the wet purple hood, one bubble ahead of the edge. Staging and light only.
 @Video1 = actual final 3 seconds of Scene 84 subscene 84B Seedance Part 1 — real continuity, not a generated substitute.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
@@ -13819,9 +13844,10 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 ### 84C · Аккуратный результат
 
-Слот S84C-neat-result.jpg — нужен кадр, файла нет. Цвет машины не меняется.
+Кадр результата — `references/scenes/scene-84/S84C-neat-result.jpg` (@Image3). Цвет машины не меняется.
 
 <div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-84/S84C-neat-result.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-84/previews/S84C-neat-result.webp" alt="84C — аккуратный результат" loading="lazy" width="480"></a><figcaption>84C — аккуратный результат</figcaption></figure>
 <figure><a href="references/scenes/scene-84/S84-composite-ilyusha.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-84/previews/S84-composite-ilyusha.webp" alt="84 — принятый общий кадр" loading="lazy" width="480"></a><figcaption>84 — принятый общий кадр</figcaption></figure>
 </div>
 
@@ -13831,7 +13857,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — `references/full/ilyusha.jpg`; @Image2 — `references/scenes/scene-84/S84-composite-ilyusha.jpg`. Слоты крупных планов плёнки — нужен кадр, файлов нет.
+**Входы:** @Image1 — `references/full/ilyusha.jpg`; @Image2 — `references/scenes/scene-84/S84-composite-ilyusha.jpg`. @Image3 — `references/scenes/scene-84/S84C-neat-result.jpg`.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -13840,7 +13866,7 @@ Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic comedy with living li
 REFERENCES / AUTHORITY:
 @Image1 = references/full/ilyusha.jpg — Ilyusha face only.
 @Image2 = references/scenes/scene-84/S84-composite-ilyusha.jpg — accepted wide still: purple car, clear film, garage, two mechanics. Shared staging, not a collage of the three beats.
-Dedicated stills not yet files: references/scenes/scene-84/S84B-prepared-panel.jpg, references/scenes/scene-84/S84B-squeegee-pass.jpg, references/scenes/scene-84/S84C-neat-result.jpg.
+@Image3 = references/scenes/scene-84/S84C-neat-result.jpg — finished result: the same purple car, film without bubbles, original paint with a deeper gloss, Ilyusha beside it with sunglasses on. Staging and light only; Ilyusha's face only from @Image1.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -13880,7 +13906,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 1 · 15 с
 
-**Входы:** @Image1 — `references/full/ilyusha.jpg`; @Image2 — `references/scenes/scene-84/S84-composite-ilyusha.jpg`. Слоты крупных планов плёнки — нужен кадр, файлов нет.
+**Входы:** @Image1 — `references/full/ilyusha.jpg`; @Image2 — `references/scenes/scene-84/S84-composite-ilyusha.jpg`. @Image3 — `references/scenes/scene-84/S84C-neat-result.jpg`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -13889,7 +13915,7 @@ Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colou
 REFERENCES / AUTHORITY:
 @Image1 = references/full/ilyusha.jpg — Ilyusha face only.
 @Image2 = references/scenes/scene-84/S84-composite-ilyusha.jpg — accepted wide still: purple car, clear film, garage, two mechanics. Shared staging, not a collage of the three beats.
-Dedicated stills not yet files: references/scenes/scene-84/S84B-prepared-panel.jpg, references/scenes/scene-84/S84B-squeegee-pass.jpg, references/scenes/scene-84/S84C-neat-result.jpg.
+@Image3 = references/scenes/scene-84/S84C-neat-result.jpg — finished result: the same purple car, film without bubbles, original paint with a deeper gloss, Ilyusha beside it with sunglasses on. Staging and light only; Ilyusha's face only from @Image1.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -13922,7 +13948,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 2 · 15 с
 
-**Входы:** @Image1 — `references/full/ilyusha.jpg`; @Image2 — `references/scenes/scene-84/S84-composite-ilyusha.jpg`. Слоты крупных планов плёнки — нужен кадр, файлов нет. @Video1 — настоящие последние 3 с P1 подсцены 84C.
+**Входы:** @Image1 — `references/full/ilyusha.jpg`; @Image2 — `references/scenes/scene-84/S84-composite-ilyusha.jpg`. @Image3 — `references/scenes/scene-84/S84C-neat-result.jpg`. @Video1 — настоящие последние 3 с P1 подсцены 84C.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -13931,7 +13957,7 @@ Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colou
 REFERENCES / AUTHORITY:
 @Image1 = references/full/ilyusha.jpg — Ilyusha face only.
 @Image2 = references/scenes/scene-84/S84-composite-ilyusha.jpg — accepted wide still: purple car, clear film, garage, two mechanics. Shared staging, not a collage of the three beats.
-Dedicated stills not yet files: references/scenes/scene-84/S84B-prepared-panel.jpg, references/scenes/scene-84/S84B-squeegee-pass.jpg, references/scenes/scene-84/S84C-neat-result.jpg.
+@Image3 = references/scenes/scene-84/S84C-neat-result.jpg — finished result: the same purple car, film without bubbles, original paint with a deeper gloss, Ilyusha beside it with sunglasses on. Staging and light only; Ilyusha's face only from @Image1.
 @Video1 = actual final 3 seconds of Scene 84 subscene 84C Seedance Part 1 — real continuity, not a generated substitute.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
@@ -13994,9 +14020,10 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 ### 85A · Плановое отключение гравитации
 
-Слот S85A-gravity-announce.jpg — нужен кадр, файла нет.
+Кадр подсцены — `references/scenes/scene-85/S85A-gravity-announce.jpg` (@Image4).
 
 <div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-85/S85A-gravity-announce.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-85/previews/S85A-gravity-announce.webp" alt="85A — «гравитация выкл.»" loading="lazy" width="480"></a><figcaption>85A — «гравитация выкл.»</figcaption></figure>
 <figure><a href="references/scenes/scene-85/S85-swap-sasha-masha-f.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-85/previews/S85-swap-sasha-masha-f.webp" alt="85 — принятый двуплан" loading="lazy" width="480"></a><figcaption>85 — принятый двуплан</figcaption></figure>
 </div>
 
@@ -14006,7 +14033,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-85/S85A-gravity-announce.jpg`, кадр только этой подсцены.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14016,7 +14043,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only.
 @Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
-Slots not yet files: references/scenes/scene-85/S85A-gravity-announce.jpg, references/scenes/scene-85/S85B-slippers-question.jpg, references/scenes/scene-85/S85C-hook-diagram.jpg.
+@Image4 = references/scenes/scene-85/S85A-gravity-announce.jpg — ONLY this subscene: both anchors deadpan at the desk, only a plain «gravity off» sign on the screen. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -14056,7 +14083,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 1 · 15 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-85/S85A-gravity-announce.jpg`, кадр только этой подсцены.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14066,7 +14093,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only.
 @Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
-Slots not yet files: references/scenes/scene-85/S85A-gravity-announce.jpg, references/scenes/scene-85/S85B-slippers-question.jpg, references/scenes/scene-85/S85C-hook-diagram.jpg.
+@Image4 = references/scenes/scene-85/S85A-gravity-announce.jpg — ONLY this subscene: both anchors deadpan at the desk, only a plain «gravity off» sign on the screen. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -14099,7 +14126,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 2 · 15 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`. @Video1 — настоящие последние 3 с P1 подсцены 85A.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-85/S85A-gravity-announce.jpg`, кадр только этой подсцены. @Video1 — настоящие последние 3 с P1 подсцены 85A.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14109,7 +14136,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only.
 @Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
-Slots not yet files: references/scenes/scene-85/S85A-gravity-announce.jpg, references/scenes/scene-85/S85B-slippers-question.jpg, references/scenes/scene-85/S85C-hook-diagram.jpg.
+@Image4 = references/scenes/scene-85/S85A-gravity-announce.jpg — ONLY this subscene: both anchors deadpan at the desk, only a plain «gravity off» sign on the screen. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
 @Video1 = actual final 3 seconds of Scene 85 subscene 85A Seedance Part 1 — real continuity, not a generated substitute.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
@@ -14150,9 +14177,10 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 ### 85B · Куда привязывать тапочки
 
-Слот S85B-slippers-question.jpg — нужен кадр, файла нет.
+Кадр подсцены — `references/scenes/scene-85/S85B-slippers-question.jpg` (@Image4).
 
 <div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-85/S85B-slippers-question.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-85/previews/S85B-slippers-question.webp" alt="85B — вопрос про тапочки" loading="lazy" width="480"></a><figcaption>85B — вопрос про тапочки</figcaption></figure>
 <figure><a href="references/scenes/scene-85/S85-swap-sasha-masha-f.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-85/previews/S85-swap-sasha-masha-f.webp" alt="85 — принятый двуплан" loading="lazy" width="480"></a><figcaption>85 — принятый двуплан</figcaption></figure>
 </div>
 
@@ -14162,7 +14190,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-85/S85B-slippers-question.jpg`, кадр только этой подсцены.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14172,7 +14200,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only.
 @Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
-Slots not yet files: references/scenes/scene-85/S85A-gravity-announce.jpg, references/scenes/scene-85/S85B-slippers-question.jpg, references/scenes/scene-85/S85C-hook-diagram.jpg.
+@Image4 = references/scenes/scene-85/S85B-slippers-question.jpg — ONLY this subscene: Masha F raises her pen for a clarifying question, edge of a house slipper on the desk as a prop. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -14211,7 +14239,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 1 · 15 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-85/S85B-slippers-question.jpg`, кадр только этой подсцены.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14221,7 +14249,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only.
 @Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
-Slots not yet files: references/scenes/scene-85/S85A-gravity-announce.jpg, references/scenes/scene-85/S85B-slippers-question.jpg, references/scenes/scene-85/S85C-hook-diagram.jpg.
+@Image4 = references/scenes/scene-85/S85B-slippers-question.jpg — ONLY this subscene: Masha F raises her pen for a clarifying question, edge of a house slipper on the desk as a prop. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -14254,7 +14282,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 2 · 15 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`. @Video1 — настоящие последние 3 с P1 подсцены 85B.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-85/S85B-slippers-question.jpg`, кадр только этой подсцены. @Video1 — настоящие последние 3 с P1 подсцены 85B.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14264,7 +14292,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only.
 @Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
-Slots not yet files: references/scenes/scene-85/S85A-gravity-announce.jpg, references/scenes/scene-85/S85B-slippers-question.jpg, references/scenes/scene-85/S85C-hook-diagram.jpg.
+@Image4 = references/scenes/scene-85/S85B-slippers-question.jpg — ONLY this subscene: Masha F raises her pen for a clarifying question, edge of a house slipper on the desk as a prop. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
 @Video1 = actual final 3 seconds of Scene 85 subscene 85B Seedance Part 1 — real continuity, not a generated substitute.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
@@ -14304,9 +14332,10 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 ### 85C · Пончик на схеме — это крючок
 
-Слот S85C-hook-diagram.jpg — нужен кадр, файла нет.
+Кадр подсцены — `references/scenes/scene-85/S85C-hook-diagram.jpg` (@Image4).
 
 <div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-85/S85C-hook-diagram.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-85/previews/S85C-hook-diagram.webp" alt="85C — схема с крючком" loading="lazy" width="480"></a><figcaption>85C — схема с крючком</figcaption></figure>
 <figure><a href="references/scenes/scene-85/S85-swap-sasha-masha-f.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-85/previews/S85-swap-sasha-masha-f.webp" alt="85 — принятый двуплан" loading="lazy" width="480"></a><figcaption>85 — принятый двуплан</figcaption></figure>
 </div>
 
@@ -14316,7 +14345,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-85/S85C-hook-diagram.jpg`, кадр только этой подсцены.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14326,7 +14355,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only.
 @Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
-Slots not yet files: references/scenes/scene-85/S85A-gravity-announce.jpg, references/scenes/scene-85/S85B-slippers-question.jpg, references/scenes/scene-85/S85C-hook-diagram.jpg.
+@Image4 = references/scenes/scene-85/S85C-hook-diagram.jpg — ONLY this subscene: the simple hook-by-the-door diagram behind them; the doughnut is only the hook's round mark. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -14365,7 +14394,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 1 · 15 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-85/S85C-hook-diagram.jpg`, кадр только этой подсцены.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14375,7 +14404,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only.
 @Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
-Slots not yet files: references/scenes/scene-85/S85A-gravity-announce.jpg, references/scenes/scene-85/S85B-slippers-question.jpg, references/scenes/scene-85/S85C-hook-diagram.jpg.
+@Image4 = references/scenes/scene-85/S85C-hook-diagram.jpg — ONLY this subscene: the simple hook-by-the-door diagram behind them; the doughnut is only the hook's round mark. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -14408,7 +14437,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 2 · 15 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`. @Video1 — настоящие последние 3 с P1 подсцены 85C.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-85/S85C-hook-diagram.jpg`, кадр только этой подсцены. @Video1 — настоящие последние 3 с P1 подсцены 85C.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14418,7 +14447,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only.
 @Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
-Slots not yet files: references/scenes/scene-85/S85A-gravity-announce.jpg, references/scenes/scene-85/S85B-slippers-question.jpg, references/scenes/scene-85/S85C-hook-diagram.jpg.
+@Image4 = references/scenes/scene-85/S85C-hook-diagram.jpg — ONLY this subscene: the simple hook-by-the-door diagram behind them; the doughnut is only the hook's round mark. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
 @Video1 = actual final 3 seconds of Scene 85 subscene 85C Seedance Part 1 — real continuity, not a generated substitute.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
@@ -14481,9 +14510,10 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 ### 86A · Торжественное открытие
 
-Слот S86A-solemn-open.jpg — нужен кадр, файла нет. Первый куплет один раз.
+Кадр подсцены — `references/scenes/scene-86/S86A-solemn-open.jpg` (@Image4). Первый куплет один раз.
 
 <div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-86/S86A-solemn-open.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-86/previews/S86A-solemn-open.webp" alt="86A — торжественное открытие" loading="lazy" width="480"></a><figcaption>86A — торжественное открытие</figcaption></figure>
 <figure><a href="references/scenes/scene-86/S86-swap-sasha-masha-f.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-86/previews/S86-swap-sasha-masha-f.webp" alt="86 — принятый кадр кухни" loading="lazy" width="480"></a><figcaption>86 — принятый кадр кухни</figcaption></figure>
 </div>
 
@@ -14493,7 +14523,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-86/S86A-solemn-open.jpg`, кадр только этой подсцены.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14503,7 +14533,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R.
 @Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
-Slots not yet files: references/scenes/scene-86/S86A-solemn-open.jpg, references/scenes/scene-86/S86B-worthless-contents.jpg, references/scenes/scene-86/S86C-delighted-reaction.jpg.
+@Image4 = references/scenes/scene-86/S86A-solemn-open.jpg — ONLY this subscene: solemn opening, both hands on a still-closed plain bag, more closed bags on the table. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -14542,7 +14572,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 1 · 15 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-86/S86A-solemn-open.jpg`, кадр только этой подсцены.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14552,7 +14582,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R.
 @Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
-Slots not yet files: references/scenes/scene-86/S86A-solemn-open.jpg, references/scenes/scene-86/S86B-worthless-contents.jpg, references/scenes/scene-86/S86C-delighted-reaction.jpg.
+@Image4 = references/scenes/scene-86/S86A-solemn-open.jpg — ONLY this subscene: solemn opening, both hands on a still-closed plain bag, more closed bags on the table. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -14585,7 +14615,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 2 · 15 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`. @Video1 — настоящие последние 3 с P1 подсцены 86A.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-86/S86A-solemn-open.jpg`, кадр только этой подсцены. @Video1 — настоящие последние 3 с P1 подсцены 86A.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14595,7 +14625,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R.
 @Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
-Slots not yet files: references/scenes/scene-86/S86A-solemn-open.jpg, references/scenes/scene-86/S86B-worthless-contents.jpg, references/scenes/scene-86/S86C-delighted-reaction.jpg.
+@Image4 = references/scenes/scene-86/S86A-solemn-open.jpg — ONLY this subscene: solemn opening, both hands on a still-closed plain bag, more closed bags on the table. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
 @Video1 = actual final 3 seconds of Scene 86 subscene 86A Seedance Part 1 — real continuity, not a generated substitute.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
@@ -14635,9 +14665,10 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 ### 86B · Ничтожное содержимое
 
-Слот S86B-worthless-contents.jpg — нужен кадр, файла нет. Без припева.
+Кадр подсцены — `references/scenes/scene-86/S86B-worthless-contents.jpg` (@Image4). Без припева.
 
 <div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-86/S86B-worthless-contents.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-86/previews/S86B-worthless-contents.webp" alt="86B — ничтожное содержимое" loading="lazy" width="480"></a><figcaption>86B — ничтожное содержимое</figcaption></figure>
 <figure><a href="references/scenes/scene-86/S86-swap-sasha-masha-f.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-86/previews/S86-swap-sasha-masha-f.webp" alt="86 — принятый кадр кухни" loading="lazy" width="480"></a><figcaption>86 — принятый кадр кухни</figcaption></figure>
 </div>
 
@@ -14647,7 +14678,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-86/S86B-worthless-contents.jpg`, кадр только этой подсцены.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14657,7 +14688,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R.
 @Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
-Slots not yet files: references/scenes/scene-86/S86A-solemn-open.jpg, references/scenes/scene-86/S86B-worthless-contents.jpg, references/scenes/scene-86/S86C-delighted-reaction.jpg.
+@Image4 = references/scenes/scene-86/S86B-worthless-contents.jpg — ONLY this subscene: Sasha holds a blinking cheap disco bulb, Masha F a rubber chicken, both delighted. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -14696,7 +14727,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 1 · 15 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-86/S86B-worthless-contents.jpg`, кадр только этой подсцены.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14706,7 +14737,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R.
 @Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
-Slots not yet files: references/scenes/scene-86/S86A-solemn-open.jpg, references/scenes/scene-86/S86B-worthless-contents.jpg, references/scenes/scene-86/S86C-delighted-reaction.jpg.
+@Image4 = references/scenes/scene-86/S86B-worthless-contents.jpg — ONLY this subscene: Sasha holds a blinking cheap disco bulb, Masha F a rubber chicken, both delighted. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -14739,7 +14770,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 2 · 15 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`. @Video1 — настоящие последние 3 с P1 подсцены 86B.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-86/S86B-worthless-contents.jpg`, кадр только этой подсцены. @Video1 — настоящие последние 3 с P1 подсцены 86B.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14749,7 +14780,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R.
 @Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
-Slots not yet files: references/scenes/scene-86/S86A-solemn-open.jpg, references/scenes/scene-86/S86B-worthless-contents.jpg, references/scenes/scene-86/S86C-delighted-reaction.jpg.
+@Image4 = references/scenes/scene-86/S86B-worthless-contents.jpg — ONLY this subscene: Sasha holds a blinking cheap disco bulb, Masha F a rubber chicken, both delighted. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
 @Video1 = actual final 3 seconds of Scene 86 subscene 86B Seedance Part 1 — real continuity, not a generated substitute.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
@@ -14789,9 +14820,10 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 ### 86C · Ещё больший восторг
 
-Слот S86C-delighted-reaction.jpg — нужен кадр, файла нет. Второй куплет один раз.
+Кадр подсцены — `references/scenes/scene-86/S86C-delighted-reaction.jpg` (@Image4). Второй куплет один раз.
 
 <div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-86/S86C-delighted-reaction.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-86/previews/S86C-delighted-reaction.webp" alt="86C — ещё больший восторг" loading="lazy" width="480"></a><figcaption>86C — ещё больший восторг</figcaption></figure>
 <figure><a href="references/scenes/scene-86/S86-swap-sasha-masha-f.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-86/previews/S86-swap-sasha-masha-f.webp" alt="86 — принятый кадр кухни" loading="lazy" width="480"></a><figcaption>86 — принятый кадр кухни</figcaption></figure>
 </div>
 
@@ -14801,7 +14833,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-86/S86C-delighted-reaction.jpg`, кадр только этой подсцены.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14811,7 +14843,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R.
 @Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
-Slots not yet files: references/scenes/scene-86/S86A-solemn-open.jpg, references/scenes/scene-86/S86B-worthless-contents.jpg, references/scenes/scene-86/S86C-delighted-reaction.jpg.
+@Image4 = references/scenes/scene-86/S86C-delighted-reaction.jpg — ONLY this subscene: Masha F in pink heart glasses, Sasha raises a golden waving cat, both wave at the camera. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -14850,7 +14882,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 1 · 15 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-86/S86C-delighted-reaction.jpg`, кадр только этой подсцены.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14860,7 +14892,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R.
 @Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
-Slots not yet files: references/scenes/scene-86/S86A-solemn-open.jpg, references/scenes/scene-86/S86B-worthless-contents.jpg, references/scenes/scene-86/S86C-delighted-reaction.jpg.
+@Image4 = references/scenes/scene-86/S86C-delighted-reaction.jpg — ONLY this subscene: Masha F in pink heart glasses, Sasha raises a golden waving cat, both wave at the camera. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -14893,7 +14925,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 2 · 15 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`. @Video1 — настоящие последние 3 с P1 подсцены 86C.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-86/S86C-delighted-reaction.jpg`, кадр только этой подсцены. @Video1 — настоящие последние 3 с P1 подсцены 86C.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14903,7 +14935,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R.
 @Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
-Slots not yet files: references/scenes/scene-86/S86A-solemn-open.jpg, references/scenes/scene-86/S86B-worthless-contents.jpg, references/scenes/scene-86/S86C-delighted-reaction.jpg.
+@Image4 = references/scenes/scene-86/S86C-delighted-reaction.jpg — ONLY this subscene: Masha F in pink heart glasses, Sasha raises a golden waving cat, both wave at the camera. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
 @Video1 = actual final 3 seconds of Scene 86 subscene 86C Seedance Part 1 — real continuity, not a generated substitute.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 

@@ -54,11 +54,59 @@
       "primary_still": true,
       "active_prompt_input": true,
       "video_launch_approval": false
+    },
+    {
+      "path": "references/full/hostess-guzeeva.jpg",
+      "asset_id": "references/full/hostess-guzeeva.jpg",
+      "caption": "Лариса Гузеева — только лицо; костюм по сцене",
+      "role": "identity",
+      "sha256": "42926b656ff99e78bad4fc0c6fa4ad3ae414e239372455c0a8cdef4059501cc5",
+      "bytes": 272550,
+      "width": 864,
+      "height": 1152,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "owner_approved_t550u",
+      "technical_success_is_editorial_approval": false,
+      "person": "Лариса Гузеева"
+    },
+    {
+      "path": "references/full/hostess-syabitova.jpg",
+      "asset_id": "references/full/hostess-syabitova.jpg",
+      "caption": "Роза Сябитова — анфас, главный портрет",
+      "role": "identity",
+      "sha256": "7b407479e859ed0a4fda8ebd2b583d898f36faf7595ed69190db0f5fac50795b",
+      "bytes": 306662,
+      "width": 864,
+      "height": 1152,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "owner_approved_t550u",
+      "technical_success_is_editorial_approval": false,
+      "person": "Роза Сябитова",
+      "identity_rank": "primary"
+    },
+    {
+      "path": "references/full/hostess-syabitova-34.jpg",
+      "asset_id": "references/full/hostess-syabitova-34.jpg",
+      "caption": "Роза Сябитова — вполоборота, то же лицо, дополнительно",
+      "role": "identity",
+      "sha256": "08b189fcd22c7def232ec648aa21f89515e1312c800eb64fb8a03df2a1ed07c1",
+      "bytes": 329556,
+      "width": 864,
+      "height": 1152,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "owner_approved_t550u",
+      "technical_success_is_editorial_approval": false,
+      "person": "Роза Сябитова",
+      "identity_rank": "secondary_same_face",
+      "same_face_as": "references/full/hostess-syabitova.jpg"
     }
   ],
   "approved": [],
   "rejected": [],
-  "updated_at": "2026-11-10T02:21:42+00:00",
+  "updated_at": "2026-11-10T11:50:00+00:00",
   "publication": "t506u 2026-11-10; stills and prompts published, video not launched",
   "clips": [
     {
@@ -76,18 +124,28 @@
   ],
   "additional_references_pending": [],
   "photo_gallery_page": "parodies.html#scene-81",
-  "t540u_slots_without_files": [
+  "t540u_slots_filled": [
     {
       "file": "references/full/hostess-guzeeva.jpg",
       "subscene": "81A",
-      "status": "нужен портрет",
+      "status": "файл есть, t550u",
       "who": "Лариса Гузеева, настоящее сходство лица с портретом"
     },
     {
       "file": "references/full/hostess-syabitova.jpg",
       "subscene": "81A",
-      "status": "нужен портрет",
+      "status": "файл есть, t550u",
       "who": "Роза Сябитова, настоящее сходство лица с портретом"
     }
-  ]
+  ],
+  "subscene_prompt_reference_mapping": {
+    "81A": {
+      "@Image1": "references/full/lesha.jpg",
+      "@Image2": "references/full/artem.jpg",
+      "@Image3": "references/scenes/scene-81/S81-swap-artem.jpg",
+      "@Image4": "references/full/hostess-guzeeva.jpg",
+      "@Image5": "references/full/hostess-syabitova.jpg",
+      "@Image6": "references/full/hostess-syabitova-34.jpg"
+    }
+  }
 }

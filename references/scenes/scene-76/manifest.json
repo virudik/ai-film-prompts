@@ -77,11 +77,68 @@
       "primary_still": false,
       "active_prompt_input": true,
       "video_launch_approval": false
+    },
+    {
+      "path": "references/scenes/scene-76/S76A-kandibober-only.jpg",
+      "asset_id": "references/scenes/scene-76/S76A-kandibober-only.jpg",
+      "caption": "76A — отдельный кадр: только улица и кандибобер",
+      "role": "scene_staging",
+      "sha256": "fbf64c327a72d7f4cd80a80733dc44cc5f378db2029ad6dc7d91a5cde2273a11",
+      "bytes": 278197,
+      "width": 1280,
+      "height": 720,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "owner_approved_t550u",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-76/previews/S76A-kandibober-only.webp",
+      "primary_still": false,
+      "active_prompt_input": true,
+      "video_launch_approval": false,
+      "clip": "76A"
+    },
+    {
+      "path": "references/scenes/scene-76/S76B-normalno-only.jpg",
+      "asset_id": "references/scenes/scene-76/S76B-normalno-only.jpg",
+      "caption": "76B — отдельный кадр: только прорубь",
+      "role": "scene_staging",
+      "sha256": "c069e9b059798f0a612d71de02a6ae69ccb786eb2f4dd6ae2661930f206ae1bc",
+      "bytes": 252030,
+      "width": 1280,
+      "height": 720,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "owner_approved_t550u",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-76/previews/S76B-normalno-only.webp",
+      "primary_still": false,
+      "active_prompt_input": true,
+      "video_launch_approval": false,
+      "clip": "76B"
+    },
+    {
+      "path": "references/scenes/scene-76/S76C-yaz-only.jpg",
+      "asset_id": "references/scenes/scene-76/S76C-yaz-only.jpg",
+      "caption": "76C — отдельный кадр: только лодка и язь",
+      "role": "scene_staging",
+      "sha256": "a91c618db2d3a4124153eff7b791fee25bf68017cb527a733bb27af96a91353b",
+      "bytes": 316292,
+      "width": 1280,
+      "height": 720,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "owner_approved_t550u",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-76/previews/S76C-yaz-only.webp",
+      "primary_still": false,
+      "active_prompt_input": true,
+      "video_launch_approval": false,
+      "clip": "76C"
     }
   ],
   "approved": [],
   "rejected": [],
-  "updated_at": "2026-11-10T02:21:42+00:00",
+  "updated_at": "2026-11-10T11:50:00+00:00",
   "publication": "t506u 2026-11-10; stills and prompts published, video not launched",
   "clips": [
     {
@@ -102,21 +159,38 @@
   ],
   "additional_references_pending": [],
   "photo_gallery_page": "parodies.html#scene-76",
-  "t540u_slots_without_files": [
+  "t540u_slots_filled": [
     {
       "file": "references/scenes/scene-76/S76A-kandibober-only.jpg",
       "subscene": "76A",
-      "status": "нужен кадр"
+      "status": "файл есть, t550u"
     },
     {
       "file": "references/scenes/scene-76/S76B-normalno-only.jpg",
       "subscene": "76B",
-      "status": "нужен кадр"
+      "status": "файл есть, t550u"
     },
     {
       "file": "references/scenes/scene-76/S76C-yaz-only.jpg",
       "subscene": "76C",
-      "status": "нужен кадр"
+      "status": "файл есть, t550u"
     }
-  ]
+  ],
+  "subscene_prompt_reference_mapping": {
+    "76A": {
+      "@Image1": "references/full/vitalik.jpg",
+      "@Image2": "references/scenes/scene-76/S76A-kandibober-only.jpg",
+      "@Image3": "references/scenes/scene-76/S76-kandibober.png"
+    },
+    "76B": {
+      "@Image1": "references/full/vitalik.jpg",
+      "@Image2": "references/scenes/scene-76/S76B-normalno-only.jpg",
+      "@Image3": "references/scenes/scene-76/S76-normalno-ice.png"
+    },
+    "76C": {
+      "@Image1": "references/full/vitalik.jpg",
+      "@Image2": "references/scenes/scene-76/S76C-yaz-only.jpg",
+      "@Image3": "references/scenes/scene-76/S76-yaz-fish.png"
+    }
+  }
 }
