@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:79b0c146-b9a1-46f2-8187-6be9bd781ec4",
-  "task": "One-shot HONOR source verification and safe project publication with tests; no queue changes or media launch",
-  "acquired_at": "2026-11-10T21:47:12+00:00",
-  "expires_at": null,
-  "released_at": "2026-11-10T22:25:51+00:00",
+  "state": "held",
+  "holder": "chatgpt:ordinary:92aded6f-f044-4ace-914e-b1ebe2a0566e",
+  "task": "Scheduled Seregius full Topview slot scan and hourly receipt; no Create at 6/6",
+  "acquired_at": "2026-11-10T22:35:52.185Z",
+  "expires_at": "2026-11-10T22:50:52.185Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
