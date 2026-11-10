@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:d322dc1f-f6c5-4950-baaf-4123928d5e7d",
-  "task": "AI Film ordinary scheduled slot scan / receipt; S65 reconciliation",
-  "acquired_at": "2026-11-10T02:16:15.821Z",
-  "expires_at": null,
-  "released_at": "2026-11-10T02:27:57.113Z",
+  "state": "locked",
+  "holder": "chatgpt:ordinary:febffe59-0c39-41d7-892a-6fb439360ed0",
+  "task": "AI Film ordinary scheduled backup: fresh scan S49B blocker and receipt",
+  "acquired_at": "2026-11-10T02:47:56.431Z",
+  "expires_at": "2026-11-10T03:02:56.431Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
