@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:102358ea-2434-44a7-a497-374b37724460",
   "task": "AI Film scheduled ordinary 08:00 MSK full read-only Topview verification / receipt",
   "acquired_at": "2026-11-10T05:08:55.260Z",
-  "expires_at": "2026-11-10T05:23:55.260Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-10T05:12:48.272Z",
   "rules": "ops/CANON-LOCK.md"
 }
