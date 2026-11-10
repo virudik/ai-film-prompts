@@ -10,8 +10,8 @@
   "preferred_executor_observed": "work",
   "started_at": "2026-11-10T13:58:58Z",
   "lease_acquired_at": "2026-11-10T14:05:39.168Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
     "scope": "Topview connector read-only, 14 boards all pages; 19 pages (My First Board 8 + 11 non-empty other boards)",
@@ -23,15 +23,16 @@
       "fail": 27,
       "init": 6
     },
-    "checked_at": "2026-11-10T14:02:00Z",
-    "checked_at_note": "Approximate scan completion timestamp; raw call did not expose server timestamp"
+    "checked_at": "2026-11-10T14:10:13.359Z",
+    "checked_at_note": "Full 14-board connector scan preceded timestamp; 8-page main-board freshness rescan ended at this timestamp",
+    "main_board_refreshed_at": "2026-11-10T14:10:13.359Z"
   },
   "slots": {
     "physical_capacity": 6,
     "occupied": 6,
     "free": 0,
     "scan_complete": true,
-    "verified_at": "2026-11-10T14:02:00Z"
+    "verified_at": "2026-11-10T14:10:13.359Z"
   },
   "selected_item": null,
   "task_ids": [
@@ -56,9 +57,10 @@
     "acquired_at": "2026-11-10T14:05:39.168Z",
     "expires_at": "2026-11-10T14:20:39.168Z",
     "lease_commit": "b4d153cfe0ebaa658afe313bd12496ba1f741e88",
-    "final_action": "pending"
+    "final_action": "release_atomically_with_final_receipt",
+    "released_at": "2026-11-10T14:12:10.168Z"
   },
-  "outcome": "in_progress",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": false,
   "acceptance": {
@@ -71,28 +73,34 @@
     "production_submission_by_this_executor_verified": false,
     "new_task_id_verified": false
   },
-  "updated_at": "2026-11-10T14:07:19.936Z",
-  "source_head_receipt_precommit": "b4d153cfe0ebaa658afe313bd12496ba1f741e88",
+  "updated_at": "2026-11-10T14:12:10.168Z",
+  "source_head_receipt_precommit": "25fccba5084f7aeba8bd38b56a2fe1bc8ce25484",
   "queue_reconciliation": {
     "queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
-    "task_map_sha256": "d4d697cddea301436503a6355f75b42d21287573223486d13fef4c1b3c842f80",
+    "task_map_sha256": "eb7589003c0e9b8dfe2b856577b8318b7a8634c008ee45432d8922e55c398fc1",
     "source_queue_sha_verified": true,
     "source_task_map_sha_verified": true,
     "submitted_count": 41,
     "transitional_states": [],
     "submitted_task_ids_verified_in_scan": true,
-    "verification_note": "41/41 canonical submitted/completed task IDs present in exact My First Board 8-page read-only scan; no missing IDs"
+    "verification_note": "41/41 canonical IDs present in all 8 My First Board pages; three apparent musical tasks S49B/S51 not promoted to canonical submitted without exact reference SHA match."
   },
   "monitoring": {
-    "robot_topview_checked_at": "2026-11-10T13:00:32Z",
-    "ordinary_last_run_id": "8247e69d-8964-8323-bff5-6075e4df6c17",
-    "relay_last_run_id": "b66315ea-2e2c-832c-9916-79829af2166b",
-    "hh55_last_run_id": "43120a4b-00d4-832d-bd25-4dc45910c210",
+    "robot_topview_checked_at": "2026-11-10T14:00:32Z",
+    "launcher_health_state": "capacity_full",
+    "launcher_health_unresolved": false,
+    "ordinary_last_run_id": null,
+    "ordinary_last_run_unavailable_reason": "Automations.get returned 404; current runtime run ID not exposed",
+    "relay_last_run_id": null,
+    "hh55_last_run_id": null,
+    "other_automation_details_unavailable": "Automations.get returned 404, not inferred from stale history",
+    "latest_slot_issue": 528,
+    "latest_slot_issue_is_not_live_capacity_evidence": true,
     "open_owner_tasks": [
       "self-heal-telemetry-stale-202611091849"
     ]
   },
-  "checked_at": "2026-11-10T14:02:00Z",
-  "completed_at": null,
-  "note": "6/6 read-only scan; reconciling queue, owner tasks and telemetry; no Create permitted."
+  "checked_at": "2026-11-10T14:10:13.359Z",
+  "completed_at": "2026-11-10T14:12:10.168Z",
+  "note": "Complete read-only global scan 14 boards/19 pages/672 videos: 639 success, 27 fail, 6 init. All 6 physical slots occupied; 41 registered IDs found; no claimed/submitting/submission_unknown. TinyFish UI, Create and paid credits: none. Existing 6 active tasks preserved, including unfully-mapped S49B and musical outputs. Owner-task stale telemetry remains open; current robot launcher_health says capacity_full but site publication not independently proven."
 }
