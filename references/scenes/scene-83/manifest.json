@@ -1,0 +1,79 @@
+{
+  "schema_version": 2,
+  "project_id": "seregius",
+  "scene_id": 83,
+  "production_state": "DRAFT",
+  "video_launch_approval": false,
+  "technical_success_is_editorial_approval": false,
+  "references": [
+    {
+      "path": "references/full/lesha.jpg",
+      "asset_id": "references/full/lesha.jpg",
+      "caption": "Лёша — только лицо и возраст с листа; одежда по сцене",
+      "role": "identity",
+      "sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9",
+      "bytes": 161032,
+      "width": 1536,
+      "height": 857,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "user_supplied_identity",
+      "technical_success_is_editorial_approval": false,
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/full/artem.jpg",
+      "asset_id": "references/full/artem.jpg",
+      "caption": "Артём — только лицо и возраст с листа; одежда по сцене",
+      "role": "identity",
+      "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+      "bytes": 276298,
+      "width": 1359,
+      "height": 1536,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "user_supplied_identity",
+      "technical_success_is_editorial_approval": false,
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-83/S83-swap-artem-normal-head.jpg",
+      "asset_id": "references/scenes/scene-83/S83-swap-artem-normal-head.jpg",
+      "caption": "83 — черновик: невеста и Артём",
+      "role": "scene_staging",
+      "sha256": "7a9e922f0333b2aaaf14eb2f29281861436325b2d7a0983997f49498beacf525",
+      "bytes": 326023,
+      "width": 1280,
+      "height": 720,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_reviewed",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-83/previews/S83-swap-artem-normal-head.webp",
+      "clip": "83",
+      "primary_still": true,
+      "active_prompt_input": true,
+      "video_launch_approval": false
+    }
+  ],
+  "approved": [],
+  "rejected": [],
+  "updated_at": "2026-11-10T02:21:42+00:00",
+  "publication": "t506u 2026-11-10; stills and prompts published, video not launched",
+  "clips": [
+    {
+      "id": "83",
+      "heading": "83 · Невеста уходит с Артёмом — черновик (DRAFT)",
+      "stills": [
+        "references/scenes/scene-83/S83-swap-artem-normal-head.jpg"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/lesha.jpg",
+        "@Image2": "references/full/artem.jpg",
+        "@Image3": "references/scenes/scene-83/S83-swap-artem-normal-head.jpg"
+      }
+    }
+  ],
+  "additional_references_pending": [],
+  "photo_gallery_page": "parodies.html#scene-83"
+}

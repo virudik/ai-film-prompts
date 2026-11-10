@@ -2,48 +2,59 @@
   "schema_version": 2,
   "project_id": "seregius",
   "scene_id": 79,
+  "production_state": "DRAFT",
+  "video_launch_approval": false,
+  "technical_success_is_editorial_approval": false,
   "references": [
     {
       "path": "references/full/vitalik.jpg",
       "asset_id": "references/full/vitalik.jpg",
-      "caption": "@Image1 — Виталик; только лицо, возраст сохраняется; одежда по сцене",
+      "caption": "Виталик — только лицо и возраст с листа; одежда по сцене",
       "role": "identity",
       "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
       "bytes": 277558,
+      "width": 1536,
+      "height": 1536,
       "media_type": "image",
       "status": "available",
       "owner_approval": "user_supplied_identity",
+      "technical_success_is_editorial_approval": false,
       "reused_from_existing_pack": true
     },
     {
       "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
       "asset_id": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
-      "caption": "@Image2 — Маша Р; только лицо, возраст сохраняется; одежда по сцене",
+      "caption": "Маша Р — рыжие волосы, только лицо с листа; это не Маша Ф",
       "role": "identity",
       "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
       "bytes": 2247428,
+      "width": 1672,
+      "height": 941,
       "media_type": "image",
       "status": "available",
       "owner_approval": "user_supplied_identity",
+      "technical_success_is_editorial_approval": false,
       "reused_from_existing_pack": true
     },
     {
       "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
       "asset_id": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
-      "caption": "@Image3 — Алина; только лицо, возраст сохраняется; одежда по сцене",
+      "caption": "Алина — только лицо и возраст с листа; одежда по сцене",
       "role": "identity",
       "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
       "bytes": 1989143,
+      "width": 1672,
+      "height": 941,
       "media_type": "image",
       "status": "available",
       "owner_approval": "user_supplied_identity",
+      "technical_success_is_editorial_approval": false,
       "reused_from_existing_pack": true
     },
     {
       "path": "references/scenes/scene-79/S79-chips-council.png",
       "asset_id": "references/scenes/scene-79/S79-chips-council.png",
-      "preview": "references/scenes/scene-79/previews/S79-chips-council.webp",
-      "caption": "@Image4 — отдельный постановочный кадр S79",
+      "caption": "79A — свой ролик: совет на диване",
       "role": "scene_staging",
       "sha256": "aba5a8b96c44fe286624da0eead53dd7a076d7116f3e4300b6159a1d7831a470",
       "bytes": 2731483,
@@ -52,39 +63,65 @@
       "media_type": "image",
       "status": "available",
       "owner_approval": "not_reviewed",
-      "provenance": {
-        "source": "Existing ChatGPT conversation image recovered without regeneration",
-        "file_id": "file_0000000095f481f4b6c4da60fe2f6b2e",
-        "generation_id": "6e931722-e271-4501-b835-6902ae50b87c",
-        "reencoded": false,
-        "exchange_bundle_file_id": "1qHELllT6i87kW7QKN09xJth6oab89Tmz"
-      },
-      "qc": {
-        "scope": "Visual composition/face-reference comparison only; no biometric guarantee, owner approval or video QC",
-        "single_frame": true,
-        "no_collage": true,
-        "no_text": true,
-        "facial_references": [
-          "references/full/vitalik.jpg",
-          "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
-          "references/scenes/scene-66/S66-Alina-tatooine-sheet.png"
-        ],
-        "limitations": "Three family performers with generic packets; not evidence of actual branded packaging, sound or sponsorship."
-      }
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-79/previews/S79-chips-council.webp",
+      "clip": "79A",
+      "primary_still": true,
+      "active_prompt_input": true,
+      "video_launch_approval": false
+    },
+    {
+      "path": "references/scenes/scene-79/S79-elite-ad.png",
+      "asset_id": "references/scenes/scene-79/S79-elite-ad.png",
+      "caption": "79B — свой ролик: элитная реклама",
+      "role": "scene_staging",
+      "sha256": "ca7ef86da76ab0ec1a8d0ac84db1538dc51d2018b71dc2d6639008f369fecddc",
+      "bytes": 2787461,
+      "width": 1672,
+      "height": 941,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_reviewed",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-79/previews/S79-elite-ad.webp",
+      "clip": "79B",
+      "primary_still": true,
+      "active_prompt_input": true,
+      "video_launch_approval": false
     }
   ],
   "approved": [],
   "rejected": [],
-  "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-11-09T16:09:20.743259+00:00",
-  "prompt_reference_mapping": {
-    "@Image1": "references/full/vitalik.jpg",
-    "@Image2": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
-    "@Image3": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
-    "@Image4": "references/scenes/scene-79/S79-chips-council.png"
-  },
-  "additional_references_pending": [
-    "quiet packet opening",
-    "single last chip insert"
-  ]
+  "updated_at": "2026-11-10T02:21:42+00:00",
+  "publication": "t506u 2026-11-10; stills and prompts published, video not launched",
+  "clips": [
+    {
+      "id": "79A",
+      "heading": "79A · Чипсы: «тихий» киносеанс (пародия на рекламу чипсов) — кадр 1",
+      "stills": [
+        "references/scenes/scene-79/S79-chips-council.png"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/vitalik.jpg",
+        "@Image2": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+        "@Image3": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+        "@Image4": "references/scenes/scene-79/S79-chips-council.png"
+      }
+    },
+    {
+      "id": "79B",
+      "heading": "79B · Чипсы: «элитная» реклама — кадр 2",
+      "stills": [
+        "references/scenes/scene-79/S79-elite-ad.png"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/vitalik.jpg",
+        "@Image2": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+        "@Image3": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+        "@Image4": "references/scenes/scene-79/S79-elite-ad.png"
+      }
+    }
+  ],
+  "additional_references_pending": [],
+  "photo_gallery_page": "parodies.html#scene-79"
 }

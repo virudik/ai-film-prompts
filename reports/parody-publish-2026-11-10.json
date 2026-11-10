@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "work_id": "SEREGIUS-PARODIES-PUBLISH-20261110",
+  "owner_command": "t506u Выкладывай",
+  "published_at": "2026-11-10T02:21:42+00:00",
+  "video_launch": false,
+  "merge": false,
+  "topview_create": false,
+  "scenes_updated": [
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "scenes_added_draft": [
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87
+  ],
+  "scene_74_subscenes": [
+    "74A",
+    "74B",
+    "74C",
+    "74D",
+    "74E",
+    "74F",
+    "74G",
+    "74H"
+  ],
+  "scene_74_excluded": [
+    "gong",
+    "black-jacket-roar",
+    "roman-poster"
+  ],
+  "scene_75_primary": "references/scenes/scene-75/S75-fishing-start.png",
+  "scene_75_kept_not_primary": "references/scenes/scene-75/S75-moon-river.png",
+  "scene_75_fish": "returned: bite, show, air kiss, release, recast",
+  "scene_75_droid": false,
+  "scene_79_clips": [
+    "79A",
+    "79B"
+  ],
+  "scene_80_clips": [
+    "80A",
+    "80B"
+  ],
+  "masha_f": "references/full/masha-f.jpg",
+  "masha_f_scenes": [
+    85,
+    86
+  ],
+  "masha_f_is_not": "Маша Р",
+  "stills": {
+    "74": [
+      "S74-garage-roof-vitalik.jpg",
+      "S74-globe-silly-vitalik.jpg",
+      "S74-potato-mountain.jpg",
+      "S74-searchlights-crates.jpg",
+      "S74-studio-roar.png",
+      "S74-torch-curtain-silly-vitalik.jpg",
+      "S74-torch-toga-vitalik.jpg",
+      "S74-trash-pile-vitalik.jpg"
+    ],
+    "75": [
+      "S75-fishing-start.png"
+    ],
+    "76": [
+      "S76-kandibober.png",
+      "S76-normalno-ice.png",
+      "S76-yaz-fish.png"
+    ],
+    "77": [
+      "S77-extra-masha-restrains.jpg",
+      "S77-extra-over-shoulder.jpg",
+      "S77-extra-walk-along-fence.jpg",
+      "S77-love-triangle.png"
+    ],
+    "78": [
+      "S78-extra-high-angle-table.jpg",
+      "S78-extra-making-sandwiches.jpg",
+      "S78-extra-mayo-cupboard.jpg",
+      "S78-mayonnaise-family.png"
+    ],
+    "79": [
+      "S79-chips-council.png",
+      "S79-elite-ad.png"
+    ],
+    "80": [
+      "S80-budget-luxury.png",
+      "S80-solo-throne.png"
+    ],
+    "81": [
+      "S81-swap-artem.jpg"
+    ],
+    "82": [
+      "groom-lounge-preview.png"
+    ],
+    "83": [
+      "S83-swap-artem-normal-head.jpg"
+    ],
+    "84": [
+      "S84-composite-ilyusha.jpg"
+    ],
+    "85": [
+      "S85-swap-sasha-masha-f.jpg"
+    ],
+    "86": [
+      "S86-swap-sasha-masha-f.jpg"
+    ],
+    "87": [
+      "S87-sasha-best-photographer-hero.jpg",
+      "S87-sasha-plastic-bag-ad-jacket.jpg",
+      "S87-sasha-slippers-masterpiece.jpg"
+    ]
+  },
+  "not_touched": [
+    "handoff cleanup",
+    "story queue",
+    "PR 516",
+    "Topview Create"
+  ]
+}

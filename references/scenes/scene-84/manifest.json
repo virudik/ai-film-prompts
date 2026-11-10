@@ -1,0 +1,63 @@
+{
+  "schema_version": 2,
+  "project_id": "seregius",
+  "scene_id": 84,
+  "production_state": "DRAFT",
+  "video_launch_approval": false,
+  "technical_success_is_editorial_approval": false,
+  "references": [
+    {
+      "path": "references/full/ilyusha.jpg",
+      "asset_id": "references/full/ilyusha.jpg",
+      "caption": "Илюша — только лицо и возраст с листа; одежда по сцене",
+      "role": "identity",
+      "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+      "bytes": 271235,
+      "width": 1152,
+      "height": 1536,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "user_supplied_identity",
+      "technical_success_is_editorial_approval": false,
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-84/S84-composite-ilyusha.jpg",
+      "asset_id": "references/scenes/scene-84/S84-composite-ilyusha.jpg",
+      "caption": "84 — черновик: Илюша и плёнка",
+      "role": "scene_staging",
+      "sha256": "a05b55c453c4041e6b42bbdb7fa60159a43959fe04cccbaf4f8f16ab703c549c",
+      "bytes": 362709,
+      "width": 1280,
+      "height": 720,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_reviewed",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-84/previews/S84-composite-ilyusha.webp",
+      "clip": "84",
+      "primary_still": true,
+      "active_prompt_input": true,
+      "video_launch_approval": false
+    }
+  ],
+  "approved": [],
+  "rejected": [],
+  "updated_at": "2026-11-10T02:21:42+00:00",
+  "publication": "t506u 2026-11-10; stills and prompts published, video not launched",
+  "clips": [
+    {
+      "id": "84",
+      "heading": "84 · Илюша: «Тачку на прокачку» — защитная плёнка — черновик (DRAFT)",
+      "stills": [
+        "references/scenes/scene-84/S84-composite-ilyusha.jpg"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/ilyusha.jpg",
+        "@Image2": "references/scenes/scene-84/S84-composite-ilyusha.jpg"
+      }
+    }
+  ],
+  "additional_references_pending": [],
+  "photo_gallery_page": "parodies.html#scene-84"
+}

@@ -1,0 +1,105 @@
+{
+  "schema_version": 2,
+  "project_id": "seregius",
+  "scene_id": 87,
+  "production_state": "DRAFT",
+  "video_launch_approval": false,
+  "technical_success_is_editorial_approval": false,
+  "references": [
+    {
+      "path": "references/full/sasha.jpg",
+      "asset_id": "references/full/sasha.jpg",
+      "caption": "Саша — только лицо и возраст с листа; одежда по сцене",
+      "role": "identity",
+      "sha256": "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102",
+      "bytes": 289714,
+      "width": 1536,
+      "height": 1536,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "user_supplied_identity",
+      "technical_success_is_editorial_approval": false,
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-87/S87-sasha-best-photographer-hero.jpg",
+      "asset_id": "references/scenes/scene-87/S87-sasha-best-photographer-hero.jpg",
+      "caption": "87 — кадр того же ролика: герой",
+      "role": "scene_staging",
+      "sha256": "ecaa34caa220495f5009202997e06a2dc2859bde3b8a4f1dab46d450c3006f59",
+      "bytes": 207656,
+      "width": 1280,
+      "height": 720,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_reviewed",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-87/previews/S87-sasha-best-photographer-hero.webp",
+      "clip": "87",
+      "primary_still": true,
+      "active_prompt_input": true,
+      "video_launch_approval": false
+    },
+    {
+      "path": "references/scenes/scene-87/S87-sasha-plastic-bag-ad-jacket.jpg",
+      "asset_id": "references/scenes/scene-87/S87-sasha-plastic-bag-ad-jacket.jpg",
+      "caption": "87 — кадр того же ролика: пиджак",
+      "role": "scene_staging",
+      "sha256": "7f4e2c05e5c53e7968279959ba234b11058696f4805683be38266447f570cbe4",
+      "bytes": 233680,
+      "width": 1280,
+      "height": 720,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_reviewed",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-87/previews/S87-sasha-plastic-bag-ad-jacket.webp",
+      "clip": "87",
+      "primary_still": false,
+      "active_prompt_input": true,
+      "video_launch_approval": false
+    },
+    {
+      "path": "references/scenes/scene-87/S87-sasha-slippers-masterpiece.jpg",
+      "asset_id": "references/scenes/scene-87/S87-sasha-slippers-masterpiece.jpg",
+      "caption": "87 — кадр того же ролика: тапки",
+      "role": "scene_staging",
+      "sha256": "491e6ebef18a6af13ef747f533633e4d76a8370174ac5548402c7e3d155430b1",
+      "bytes": 243134,
+      "width": 1280,
+      "height": 720,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_reviewed",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-87/previews/S87-sasha-slippers-masterpiece.webp",
+      "clip": "87",
+      "primary_still": false,
+      "active_prompt_input": true,
+      "video_launch_approval": false
+    }
+  ],
+  "approved": [],
+  "rejected": [],
+  "updated_at": "2026-11-10T02:21:42+00:00",
+  "publication": "t506u 2026-11-10; stills and prompts published, video not launched",
+  "clips": [
+    {
+      "id": "87",
+      "heading": "87 · Реклама: Саша — лучший фотограф — черновик (DRAFT)",
+      "stills": [
+        "references/scenes/scene-87/S87-sasha-best-photographer-hero.jpg",
+        "references/scenes/scene-87/S87-sasha-plastic-bag-ad-jacket.jpg",
+        "references/scenes/scene-87/S87-sasha-slippers-masterpiece.jpg"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/sasha.jpg",
+        "@Image2": "references/scenes/scene-87/S87-sasha-best-photographer-hero.jpg",
+        "@Image3": "references/scenes/scene-87/S87-sasha-slippers-masterpiece.jpg",
+        "@Image4": "references/scenes/scene-87/S87-sasha-plastic-bag-ad-jacket.jpg"
+      }
+    }
+  ],
+  "additional_references_pending": [],
+  "photo_gallery_page": "parodies.html#scene-87"
+}

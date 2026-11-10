@@ -2,24 +2,29 @@
   "schema_version": 2,
   "project_id": "seregius",
   "scene_id": 76,
+  "production_state": "DRAFT",
+  "video_launch_approval": false,
+  "technical_success_is_editorial_approval": false,
   "references": [
     {
       "path": "references/full/vitalik.jpg",
       "asset_id": "references/full/vitalik.jpg",
-      "caption": "@Image1 — Виталик; только лицо, возраст сохраняется; одежда по сцене",
+      "caption": "Виталик — только лицо и возраст с листа; одежда по сцене",
       "role": "identity",
       "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
       "bytes": 277558,
+      "width": 1536,
+      "height": 1536,
       "media_type": "image",
       "status": "available",
       "owner_approval": "user_supplied_identity",
+      "technical_success_is_editorial_approval": false,
       "reused_from_existing_pack": true
     },
     {
       "path": "references/scenes/scene-76/S76-kandibober.png",
       "asset_id": "references/scenes/scene-76/S76-kandibober.png",
-      "preview": "references/scenes/scene-76/previews/S76-kandibober.webp",
-      "caption": "@Image2 — отдельный постановочный кадр S76",
+      "caption": "76 — кандибобер, кадр того же ролика",
       "role": "scene_staging",
       "sha256": "401a265a914ea5644e087edf3b44e58c44f10169e23d3c381a598d0f33de0f8a",
       "bytes": 2231273,
@@ -28,65 +33,73 @@
       "media_type": "image",
       "status": "available",
       "owner_approval": "not_reviewed",
-      "provenance": {
-        "source": "Existing ChatGPT conversation image recovered without regeneration",
-        "file_id": "file_0000000039c08212bf6b214f9a71ad29",
-        "generation_id": "c81285b9-6378-4481-9db4-b6f1a8d2c4d1",
-        "reencoded": false,
-        "exchange_bundle_file_id": "1qHELllT6i87kW7QKN09xJth6oab89Tmz"
-      },
-      "qc": {
-        "scope": "Visual composition/face-reference comparison only; no biometric guarantee, owner approval or video QC",
-        "single_frame": true,
-        "no_collage": true,
-        "no_text": true,
-        "facial_references": [
-          "references/full/vitalik.jpg"
-        ],
-        "limitations": "Only the interview; the red headdress is a stylized authored exaggeration. Ice-fisher and Yaz frames still missing. Interviewer has no usable identity."
-      }
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-76/previews/S76-kandibober.webp",
+      "clip": "76",
+      "primary_still": true,
+      "active_prompt_input": true,
+      "video_launch_approval": false
+    },
+    {
+      "path": "references/scenes/scene-76/S76-normalno-ice.png",
+      "asset_id": "references/scenes/scene-76/S76-normalno-ice.png",
+      "caption": "76 — «Нормально», кадр того же ролика",
+      "role": "scene_staging",
+      "sha256": "499c56ddb8f47006ab1c41e1c494dabb185250d324025b4b0a2647b57c132160",
+      "bytes": 864592,
+      "width": 1280,
+      "height": 720,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_reviewed",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-76/previews/S76-normalno-ice.webp",
+      "clip": "76",
+      "primary_still": false,
+      "active_prompt_input": true,
+      "video_launch_approval": false
+    },
+    {
+      "path": "references/scenes/scene-76/S76-yaz-fish.png",
+      "asset_id": "references/scenes/scene-76/S76-yaz-fish.png",
+      "caption": "76 — язь, кадр того же ролика",
+      "role": "scene_staging",
+      "sha256": "e65aeb17b51c187f20719bb7e0945f3b34f16370492a16f450c15e317b803d81",
+      "bytes": 1252026,
+      "width": 1280,
+      "height": 720,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_reviewed",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-76/previews/S76-yaz-fish.webp",
+      "clip": "76",
+      "primary_still": false,
+      "active_prompt_input": true,
+      "video_launch_approval": false
     }
   ],
   "approved": [],
   "rejected": [],
-  "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-11-09T16:51:13.477469+00:00",
-  "prompt_reference_mapping": {
-    "@Image1": "references/full/vitalik.jpg",
-    "@Image2": "references/scenes/scene-76/S76-kandibober.png"
-  },
-  "additional_references_pending": [
-    "ice-fisher Normalno",
-    "Yaz catch with correct fish, not pike"
-  ],
-  "additional_reference_jobs": [
+  "updated_at": "2026-11-10T02:21:42+00:00",
+  "publication": "t506u 2026-11-10; stills and prompts published, video not launched",
+  "clips": [
     {
-      "scene_id": 76,
-      "kind": "ice-fisher",
-      "target_path": "references/scenes/scene-76/S76-normalno-ice.png",
-      "prompt_file": "references/scenes/scene-76/S76-normalno-ice.image-prompt.txt",
-      "status": "needs_generation",
-      "identity_source": "references/full/vitalik.jpg",
-      "identity_sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
-      "role": "scene_staging",
-      "source_authority": "current video-prompts.md and owner face-only correction",
-      "prompt_sha256": "29dc5fd2eb121ce6b749fd7a86383da485e0cf280260a58956778703fce0e1a4",
-      "png_exists": false,
-      "approval": false
-    },
-    {
-      "scene_id": 76,
-      "kind": "Yaz fish",
-      "target_path": "references/scenes/scene-76/S76-yaz-boat.png",
-      "prompt_file": "references/scenes/scene-76/S76-yaz-boat.image-prompt.txt",
-      "status": "needs_generation",
-      "identity_source": "references/full/vitalik.jpg",
-      "identity_sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
-      "role": "scene_staging",
-      "source_authority": "current video-prompts.md and owner face-only correction",
-      "prompt_sha256": "6ecb733ac24d29128770705b30e20d38293b16bd1849e0b14cf10b1999e8b047",
-      "png_exists": false,
-      "approval": false
+      "id": "76",
+      "heading": "76 · Мем-театр: кандибобер → «Нормально» → язь",
+      "stills": [
+        "references/scenes/scene-76/S76-kandibober.png",
+        "references/scenes/scene-76/S76-normalno-ice.png",
+        "references/scenes/scene-76/S76-yaz-fish.png"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/vitalik.jpg",
+        "@Image2": "references/scenes/scene-76/S76-kandibober.png",
+        "@Image3": "references/scenes/scene-76/S76-normalno-ice.png",
+        "@Image4": "references/scenes/scene-76/S76-yaz-fish.png"
+      }
     }
-  ]
+  ],
+  "additional_references_pending": [],
+  "photo_gallery_page": "parodies.html#scene-76"
 }

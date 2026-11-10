@@ -1,0 +1,79 @@
+{
+  "schema_version": 2,
+  "project_id": "seregius",
+  "scene_id": 85,
+  "production_state": "DRAFT",
+  "video_launch_approval": false,
+  "technical_success_is_editorial_approval": false,
+  "references": [
+    {
+      "path": "references/full/sasha.jpg",
+      "asset_id": "references/full/sasha.jpg",
+      "caption": "Саша — только лицо и возраст с листа; одежда по сцене",
+      "role": "identity",
+      "sha256": "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102",
+      "bytes": 289714,
+      "width": 1536,
+      "height": 1536,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "user_supplied_identity",
+      "technical_success_is_editorial_approval": false,
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/full/masha-f.jpg",
+      "asset_id": "references/full/masha-f.jpg",
+      "caption": "Маша Ф — светлые волосы, селфи у ёлки; это не рыжая Маша Р",
+      "role": "identity",
+      "sha256": "41daf87bc4be187a9c6d65bed03568bd48ac5528ce1e08b31332036621437f84",
+      "bytes": 625261,
+      "width": 1414,
+      "height": 1969,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "user_supplied_identity",
+      "technical_success_is_editorial_approval": false,
+      "reused_from_existing_pack": false
+    },
+    {
+      "path": "references/scenes/scene-85/S85-swap-sasha-masha-f.jpg",
+      "asset_id": "references/scenes/scene-85/S85-swap-sasha-masha-f.jpg",
+      "caption": "85 — черновик: Саша и Маша Ф",
+      "role": "scene_staging",
+      "sha256": "453df2ef05460d10dcffc1e4cb17a30f86b09fe706524dc68b4e99580a5e7509",
+      "bytes": 328175,
+      "width": 1280,
+      "height": 720,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_reviewed",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-85/previews/S85-swap-sasha-masha-f.webp",
+      "clip": "85",
+      "primary_still": true,
+      "active_prompt_input": true,
+      "video_launch_approval": false
+    }
+  ],
+  "approved": [],
+  "rejected": [],
+  "updated_at": "2026-11-10T02:21:42+00:00",
+  "publication": "t506u 2026-11-10; stills and prompts published, video not launched",
+  "clips": [
+    {
+      "id": "85",
+      "heading": "85 · Срочные новости: Саша и Маша Ф — черновик (DRAFT)",
+      "stills": [
+        "references/scenes/scene-85/S85-swap-sasha-masha-f.jpg"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/sasha.jpg",
+        "@Image2": "references/full/masha-f.jpg",
+        "@Image3": "references/scenes/scene-85/S85-swap-sasha-masha-f.jpg"
+      }
+    }
+  ],
+  "additional_references_pending": [],
+  "photo_gallery_page": "parodies.html#scene-85"
+}

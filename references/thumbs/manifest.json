@@ -2493,6 +2493,16 @@
    "thumb_bytes": 16092,
    "src_sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9"
   },
+  "references/full/masha-f.jpg": {
+   "thumb": "references/thumbs/full/masha-f.jpg.webp",
+   "width": 640,
+   "height": 891,
+   "src_width": 1414,
+   "src_height": 1969,
+   "src_bytes": 625261,
+   "thumb_bytes": 38678,
+   "src_sha256": "41daf87bc4be187a9c6d65bed03568bd48ac5528ce1e08b31332036621437f84"
+  },
   "references/full/pasha.jpg": {
    "thumb": "references/thumbs/full/pasha.jpg.webp",
    "width": 640,
@@ -4623,15 +4633,95 @@
    "thumb_bytes": 63938,
    "src_sha256": "c86b275db0afb5f32556b2041bb1cd6ca29d5d34bf1c5f04a21df37e6fd40489"
   },
+  "references/scenes/scene-74/S74-garage-roof-vitalik.jpg": {
+   "thumb": "references/thumbs/scenes/scene-74/S74-garage-roof-vitalik.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 396667,
+   "thumb_bytes": 49582,
+   "src_sha256": "5427571ee1e0ac317e1117971f622c2bfb07f941914246d396c8dadcafdba33d"
+  },
+  "references/scenes/scene-74/S74-globe-silly-vitalik.jpg": {
+   "thumb": "references/thumbs/scenes/scene-74/S74-globe-silly-vitalik.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 388743,
+   "thumb_bytes": 49290,
+   "src_sha256": "566484a7be7cf3dfbb37601ef6a5348408fd4babda4f814908f7d3cc6f7ee685"
+  },
+  "references/scenes/scene-74/S74-potato-mountain.jpg": {
+   "thumb": "references/thumbs/scenes/scene-74/S74-potato-mountain.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 385190,
+   "thumb_bytes": 41724,
+   "src_sha256": "5e7ebedeca8f4d6c8c5888664d2df296606113a6e12958d480f39db9686091cd"
+  },
+  "references/scenes/scene-74/S74-searchlights-crates.jpg": {
+   "thumb": "references/thumbs/scenes/scene-74/S74-searchlights-crates.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 247341,
+   "thumb_bytes": 17588,
+   "src_sha256": "57889b2124621ce75f60f9cfa07bd66b4c39dc08ffe0e5b09338e81d75a9254f"
+  },
   "references/scenes/scene-74/S74-studio-roar.png": {
    "thumb": "references/thumbs/scenes/scene-74/S74-studio-roar.png.webp",
    "width": 640,
    "height": 360,
-   "src_width": 1672,
-   "src_height": 941,
-   "src_bytes": 2473956,
-   "thumb_bytes": 39534,
-   "src_sha256": "ef65d3aae1a4bdeb4f49d19c576136a7dffa0b8852be06e0affac76b3c443b18"
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1243886,
+   "thumb_bytes": 39464,
+   "src_sha256": "814ba082a733a2da8ddee583c199d87dc281f95f7c91b3fd4a8cb7cd9be397cc"
+  },
+  "references/scenes/scene-74/S74-torch-curtain-silly-vitalik.jpg": {
+   "thumb": "references/thumbs/scenes/scene-74/S74-torch-curtain-silly-vitalik.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 251797,
+   "thumb_bytes": 23632,
+   "src_sha256": "a32d34f658b970289758433156f79a1ba3647e5bca9bf7a56796f0e5c2bba4da"
+  },
+  "references/scenes/scene-74/S74-torch-toga-vitalik.jpg": {
+   "thumb": "references/thumbs/scenes/scene-74/S74-torch-toga-vitalik.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 351401,
+   "thumb_bytes": 42004,
+   "src_sha256": "f4fecbc0f4550e81a6840db4a7179227d565a0679a7897b504774ca14001d955"
+  },
+  "references/scenes/scene-74/S74-trash-pile-vitalik.jpg": {
+   "thumb": "references/thumbs/scenes/scene-74/S74-trash-pile-vitalik.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 462186,
+   "thumb_bytes": 59288,
+   "src_sha256": "67dd582d6172610912077771a5589714e8e5750f043434d6e4bf9e5fdbf532e9"
+  },
+  "references/scenes/scene-75/S75-fishing-start.png": {
+   "thumb": "references/thumbs/scenes/scene-75/S75-fishing-start.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1384905,
+   "thumb_bytes": 41982,
+   "src_sha256": "3539fe6a7a2ce525ed8a949663f9133540397d51da390f358cdf5101b9b54e96"
   },
   "references/scenes/scene-75/S75-moon-river.png": {
    "thumb": "references/thumbs/scenes/scene-75/S75-moon-river.png.webp",
@@ -4653,6 +4743,56 @@
    "thumb_bytes": 35302,
    "src_sha256": "401a265a914ea5644e087edf3b44e58c44f10169e23d3c381a598d0f33de0f8a"
   },
+  "references/scenes/scene-76/S76-normalno-ice.png": {
+   "thumb": "references/thumbs/scenes/scene-76/S76-normalno-ice.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 864592,
+   "thumb_bytes": 20424,
+   "src_sha256": "499c56ddb8f47006ab1c41e1c494dabb185250d324025b4b0a2647b57c132160"
+  },
+  "references/scenes/scene-76/S76-yaz-fish.png": {
+   "thumb": "references/thumbs/scenes/scene-76/S76-yaz-fish.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1252026,
+   "thumb_bytes": 35750,
+   "src_sha256": "e65aeb17b51c187f20719bb7e0945f3b34f16370492a16f450c15e317b803d81"
+  },
+  "references/scenes/scene-77/S77-extra-masha-restrains.jpg": {
+   "thumb": "references/thumbs/scenes/scene-77/S77-extra-masha-restrains.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 333341,
+   "thumb_bytes": 33164,
+   "src_sha256": "a7a5ea0c47f27f2c8fd50d24920bf9eaf387e34d1102006d3f0f270cf86551ea"
+  },
+  "references/scenes/scene-77/S77-extra-over-shoulder.jpg": {
+   "thumb": "references/thumbs/scenes/scene-77/S77-extra-over-shoulder.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 303049,
+   "thumb_bytes": 32202,
+   "src_sha256": "3e26a99c6d4fc34b5063340055eecfa09ae778b9289961f1bb3f92e343c1b0d3"
+  },
+  "references/scenes/scene-77/S77-extra-walk-along-fence.jpg": {
+   "thumb": "references/thumbs/scenes/scene-77/S77-extra-walk-along-fence.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 330281,
+   "thumb_bytes": 36016,
+   "src_sha256": "8fca5f8b4f3167c64b9469350a93b423a1e239db323c451000d698cd4994bfe8"
+  },
   "references/scenes/scene-77/S77-love-triangle.png": {
    "thumb": "references/thumbs/scenes/scene-77/S77-love-triangle.png.webp",
    "width": 640,
@@ -4662,6 +4802,36 @@
    "src_bytes": 2406799,
    "thumb_bytes": 39104,
    "src_sha256": "d983630f247d8ba80003c7dbcabc576fe45b555a90ba51cf1d869dc8921b161f"
+  },
+  "references/scenes/scene-78/S78-extra-high-angle-table.jpg": {
+   "thumb": "references/thumbs/scenes/scene-78/S78-extra-high-angle-table.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 399286,
+   "thumb_bytes": 50096,
+   "src_sha256": "6576c09176276acbe12e61f9eb97ec4c1d23a695125bfc99755c8c7975604f92"
+  },
+  "references/scenes/scene-78/S78-extra-making-sandwiches.jpg": {
+   "thumb": "references/thumbs/scenes/scene-78/S78-extra-making-sandwiches.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 365054,
+   "thumb_bytes": 46952,
+   "src_sha256": "e5e357ff29ed489b7a221a5ccdbecc1775785ae3eaee03ef7b2f26aca4d99249"
+  },
+  "references/scenes/scene-78/S78-extra-mayo-cupboard.jpg": {
+   "thumb": "references/thumbs/scenes/scene-78/S78-extra-mayo-cupboard.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 387788,
+   "thumb_bytes": 43976,
+   "src_sha256": "185c8cabcae20374752266722aac9d0e8700677d1b9fc051e88fcc2363373382"
   },
   "references/scenes/scene-78/S78-mayonnaise-family.png": {
    "thumb": "references/thumbs/scenes/scene-78/S78-mayonnaise-family.png.webp",
@@ -4683,6 +4853,16 @@
    "thumb_bytes": 60022,
    "src_sha256": "aba5a8b96c44fe286624da0eead53dd7a076d7116f3e4300b6159a1d7831a470"
   },
+  "references/scenes/scene-79/S79-elite-ad.png": {
+   "thumb": "references/thumbs/scenes/scene-79/S79-elite-ad.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2787461,
+   "thumb_bytes": 50798,
+   "src_sha256": "ca7ef86da76ab0ec1a8d0ac84db1538dc51d2018b71dc2d6639008f369fecddc"
+  },
   "references/scenes/scene-80/S80-budget-luxury.png": {
    "thumb": "references/thumbs/scenes/scene-80/S80-budget-luxury.png.webp",
    "width": 640,
@@ -4692,6 +4872,106 @@
    "src_bytes": 2787546,
    "thumb_bytes": 54850,
    "src_sha256": "ff8c23f4ef3ffc5ec140d7a19dceba9bb8aa8bbddad2864f32b83ba4f21a7f3c"
+  },
+  "references/scenes/scene-80/S80-solo-throne.png": {
+   "thumb": "references/thumbs/scenes/scene-80/S80-solo-throne.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2167499,
+   "thumb_bytes": 41526,
+   "src_sha256": "3004657596caa80e666fbd1300eee34a558bfe25244ff166373f18b91f1ca561"
+  },
+  "references/scenes/scene-81/S81-swap-artem.jpg": {
+   "thumb": "references/thumbs/scenes/scene-81/S81-swap-artem.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 364292,
+   "thumb_bytes": 47482,
+   "src_sha256": "5602ececaae3597ac2fc4fcdcd3624227b8021651ad34e47c385b59614930127"
+  },
+  "references/scenes/scene-82/groom-lounge-preview.png": {
+   "thumb": "references/thumbs/scenes/scene-82/groom-lounge-preview.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2197554,
+   "thumb_bytes": 40970,
+   "src_sha256": "a8de11e62942dbef4b6c7ff98817c75bac52dad22c47f54402f3a4bf53711515"
+  },
+  "references/scenes/scene-83/S83-swap-artem-normal-head.jpg": {
+   "thumb": "references/thumbs/scenes/scene-83/S83-swap-artem-normal-head.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 326023,
+   "thumb_bytes": 40860,
+   "src_sha256": "7a9e922f0333b2aaaf14eb2f29281861436325b2d7a0983997f49498beacf525"
+  },
+  "references/scenes/scene-84/S84-composite-ilyusha.jpg": {
+   "thumb": "references/thumbs/scenes/scene-84/S84-composite-ilyusha.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 362709,
+   "thumb_bytes": 51022,
+   "src_sha256": "a05b55c453c4041e6b42bbdb7fa60159a43959fe04cccbaf4f8f16ab703c549c"
+  },
+  "references/scenes/scene-85/S85-swap-sasha-masha-f.jpg": {
+   "thumb": "references/thumbs/scenes/scene-85/S85-swap-sasha-masha-f.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 328175,
+   "thumb_bytes": 40686,
+   "src_sha256": "453df2ef05460d10dcffc1e4cb17a30f86b09fe706524dc68b4e99580a5e7509"
+  },
+  "references/scenes/scene-86/S86-swap-sasha-masha-f.jpg": {
+   "thumb": "references/thumbs/scenes/scene-86/S86-swap-sasha-masha-f.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 398019,
+   "thumb_bytes": 55244,
+   "src_sha256": "e93d75008a92f1f1941b6c367ae0969a6aebec6e817c35573f4e1032ee027df3"
+  },
+  "references/scenes/scene-87/S87-sasha-best-photographer-hero.jpg": {
+   "thumb": "references/thumbs/scenes/scene-87/S87-sasha-best-photographer-hero.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 207656,
+   "thumb_bytes": 18552,
+   "src_sha256": "ecaa34caa220495f5009202997e06a2dc2859bde3b8a4f1dab46d450c3006f59"
+  },
+  "references/scenes/scene-87/S87-sasha-plastic-bag-ad-jacket.jpg": {
+   "thumb": "references/thumbs/scenes/scene-87/S87-sasha-plastic-bag-ad-jacket.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 233680,
+   "thumb_bytes": 19336,
+   "src_sha256": "7f4e2c05e5c53e7968279959ba234b11058696f4805683be38266447f570cbe4"
+  },
+  "references/scenes/scene-87/S87-sasha-slippers-masterpiece.jpg": {
+   "thumb": "references/thumbs/scenes/scene-87/S87-sasha-slippers-masterpiece.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 243134,
+   "thumb_bytes": 21900,
+   "src_sha256": "491e6ebef18a6af13ef747f533633e4d76a8370174ac5548402c7e3d155430b1"
   },
   "references/scenes/ship-locations/Serega-ship-flagship-space.png": {
    "thumb": "references/thumbs/scenes/ship-locations/Serega-ship-flagship-space.png.webp",

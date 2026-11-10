@@ -1,0 +1,63 @@
+{
+  "schema_version": 2,
+  "project_id": "seregius",
+  "scene_id": 82,
+  "production_state": "DRAFT",
+  "video_launch_approval": false,
+  "technical_success_is_editorial_approval": false,
+  "references": [
+    {
+      "path": "references/full/lesha.jpg",
+      "asset_id": "references/full/lesha.jpg",
+      "caption": "Лёша — только лицо и возраст с листа; одежда по сцене",
+      "role": "identity",
+      "sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9",
+      "bytes": 161032,
+      "width": 1536,
+      "height": 857,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "user_supplied_identity",
+      "technical_success_is_editorial_approval": false,
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-82/groom-lounge-preview.png",
+      "asset_id": "references/scenes/scene-82/groom-lounge-preview.png",
+      "caption": "82 — черновик: комната жениха",
+      "role": "scene_staging",
+      "sha256": "a8de11e62942dbef4b6c7ff98817c75bac52dad22c47f54402f3a4bf53711515",
+      "bytes": 2197554,
+      "width": 1672,
+      "height": 941,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_reviewed",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-82/previews/groom-lounge-preview.webp",
+      "clip": "82",
+      "primary_still": true,
+      "active_prompt_input": true,
+      "video_launch_approval": false
+    }
+  ],
+  "approved": [],
+  "rejected": [],
+  "updated_at": "2026-11-10T02:21:42+00:00",
+  "publication": "t506u 2026-11-10; stills and prompts published, video not launched",
+  "clips": [
+    {
+      "id": "82",
+      "heading": "82 · Комната жениха: звёздные друзья Алексея — черновик (DRAFT)",
+      "stills": [
+        "references/scenes/scene-82/groom-lounge-preview.png"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/lesha.jpg",
+        "@Image2": "references/scenes/scene-82/groom-lounge-preview.png"
+      }
+    }
+  ],
+  "additional_references_pending": [],
+  "photo_gallery_page": "parodies.html#scene-82"
+}
