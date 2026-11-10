@@ -50,6 +50,12 @@
   "private_source_copies": {
     "folder_id": "1u1lCAo2bRKL1qth5GU3FZC1eGx-GUksC",
     "folder_url": "https://drive.google.com/drive/folders/1u1lCAo2bRKL1qth5GU3FZC1eGx-GUksC",
+    "folder_name": "HONOR Magic9 Pro Max — исходники для сверки",
+    "moved_at": "2026-11-10",
+    "parent_contest_folder_id": "11ZlXyZwAVpcKymg8vM9qjziKrbop3wZA",
+    "parent_contest_folder_url": "https://drive.google.com/drive/folders/11ZlXyZwAVpcKymg8vM9qjziKrbop3wZA",
+    "parent_scene_folder_id": "1DBLtFfVCML7ecTd7QxaBFWCITfFN2Dbv",
+    "parent_note": "10.11.2026 папка исходников перенесена внутрь «Хонор» / «Сцена 4 — Magic9 Pro Max (смежное, НЕ конкурс)». id и ссылка самой папки исходников не менялись. Это технические копии, не принятые продуктовые PNG.",
     "folder_shared": false,
     "verified_at": "2026-11-08T15:31:51Z",
     "verification": "All three images downloaded again through authenticated Drive fetch; SHA256 byte equality confirmed against the primary-source downloads. Copies are technical reference material, not generated or editorially approved assets.",
