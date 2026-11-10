@@ -14045,7 +14045,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only, PRIMARY identity.
 @Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
-@Image4 = references/scenes/scene-85/S85A-gravity-announce.jpg — ONLY this subscene: both anchors deadpan at the desk, only a plain «gravity off» sign on the screen. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-85/S85A-gravity-announce.jpg — ONLY this subscene: both anchors deadpan at the desk, only a plain «gravity off» sign on the screen. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
 @Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
@@ -14096,7 +14096,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only, PRIMARY identity.
 @Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
-@Image4 = references/scenes/scene-85/S85A-gravity-announce.jpg — ONLY this subscene: both anchors deadpan at the desk, only a plain «gravity off» sign on the screen. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-85/S85A-gravity-announce.jpg — ONLY this subscene: both anchors deadpan at the desk, only a plain «gravity off» sign on the screen. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
 @Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
@@ -14140,7 +14140,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only, PRIMARY identity.
 @Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
-@Image4 = references/scenes/scene-85/S85A-gravity-announce.jpg — ONLY this subscene: both anchors deadpan at the desk, only a plain «gravity off» sign on the screen. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-85/S85A-gravity-announce.jpg — ONLY this subscene: both anchors deadpan at the desk, only a plain «gravity off» sign on the screen. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
 @Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 @Video1 = actual final 3 seconds of Scene 85 subscene 85A Seedance Part 1 — real continuity, not a generated substitute.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
@@ -14205,7 +14205,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only, PRIMARY identity.
 @Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
-@Image4 = references/scenes/scene-85/S85B-slippers-question.jpg — ONLY this subscene: Masha F raises her pen for a clarifying question, edge of a house slipper on the desk as a prop. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-85/S85B-slippers-question.jpg — ONLY this subscene: Masha F raises her pen for a clarifying question, edge of a house slipper on the desk as a prop. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
 @Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
@@ -14255,7 +14255,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only, PRIMARY identity.
 @Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
-@Image4 = references/scenes/scene-85/S85B-slippers-question.jpg — ONLY this subscene: Masha F raises her pen for a clarifying question, edge of a house slipper on the desk as a prop. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-85/S85B-slippers-question.jpg — ONLY this subscene: Masha F raises her pen for a clarifying question, edge of a house slipper on the desk as a prop. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
 @Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
@@ -14299,7 +14299,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only, PRIMARY identity.
 @Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
-@Image4 = references/scenes/scene-85/S85B-slippers-question.jpg — ONLY this subscene: Masha F raises her pen for a clarifying question, edge of a house slipper on the desk as a prop. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-85/S85B-slippers-question.jpg — ONLY this subscene: Masha F raises her pen for a clarifying question, edge of a house slipper on the desk as a prop. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
 @Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 @Video1 = actual final 3 seconds of Scene 85 subscene 85B Seedance Part 1 — real continuity, not a generated substitute.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
@@ -14363,7 +14363,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only, PRIMARY identity.
 @Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
-@Image4 = references/scenes/scene-85/S85C-hook-diagram.jpg — ONLY this subscene: the simple hook-by-the-door diagram behind them; the doughnut is only the hook's round mark. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-85/S85C-hook-diagram.jpg — ONLY this subscene: the simple hook-by-the-door diagram behind them; the doughnut is only the hook's round mark. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
 @Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
@@ -14413,7 +14413,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only, PRIMARY identity.
 @Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
-@Image4 = references/scenes/scene-85/S85C-hook-diagram.jpg — ONLY this subscene: the simple hook-by-the-door diagram behind them; the doughnut is only the hook's round mark. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-85/S85C-hook-diagram.jpg — ONLY this subscene: the simple hook-by-the-door diagram behind them; the doughnut is only the hook's round mark. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
 @Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
@@ -14457,7 +14457,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only, PRIMARY identity.
 @Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
-@Image4 = references/scenes/scene-85/S85C-hook-diagram.jpg — ONLY this subscene: the simple hook-by-the-door diagram behind them; the doughnut is only the hook's round mark. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-85/S85C-hook-diagram.jpg — ONLY this subscene: the simple hook-by-the-door diagram behind them; the doughnut is only the hook's round mark. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
 @Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 @Video1 = actual final 3 seconds of Scene 85 subscene 85C Seedance Part 1 — real continuity, not a generated substitute.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
@@ -14545,7 +14545,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R, PRIMARY identity.
 @Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
-@Image4 = references/scenes/scene-86/S86A-solemn-open.jpg — ONLY this subscene: solemn opening, both hands on a still-closed plain bag, more closed bags on the table. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-86/S86A-solemn-open.jpg — ONLY this subscene: solemn opening, both hands on a still-closed plain bag, more closed bags on the table. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
 @Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
@@ -14595,7 +14595,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R, PRIMARY identity.
 @Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
-@Image4 = references/scenes/scene-86/S86A-solemn-open.jpg — ONLY this subscene: solemn opening, both hands on a still-closed plain bag, more closed bags on the table. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-86/S86A-solemn-open.jpg — ONLY this subscene: solemn opening, both hands on a still-closed plain bag, more closed bags on the table. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
 @Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
@@ -14639,7 +14639,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R, PRIMARY identity.
 @Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
-@Image4 = references/scenes/scene-86/S86A-solemn-open.jpg — ONLY this subscene: solemn opening, both hands on a still-closed plain bag, more closed bags on the table. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-86/S86A-solemn-open.jpg — ONLY this subscene: solemn opening, both hands on a still-closed plain bag, more closed bags on the table. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
 @Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 @Video1 = actual final 3 seconds of Scene 86 subscene 86A Seedance Part 1 — real continuity, not a generated substitute.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
@@ -14703,7 +14703,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R, PRIMARY identity.
 @Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
-@Image4 = references/scenes/scene-86/S86B-worthless-contents.jpg — ONLY this subscene: Sasha holds a blinking cheap disco bulb, Masha F a rubber chicken, both delighted. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-86/S86B-worthless-contents.jpg — ONLY this subscene: Sasha holds a blinking cheap disco bulb, Masha F a rubber chicken, both delighted. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
 @Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
@@ -14753,7 +14753,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R, PRIMARY identity.
 @Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
-@Image4 = references/scenes/scene-86/S86B-worthless-contents.jpg — ONLY this subscene: Sasha holds a blinking cheap disco bulb, Masha F a rubber chicken, both delighted. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-86/S86B-worthless-contents.jpg — ONLY this subscene: Sasha holds a blinking cheap disco bulb, Masha F a rubber chicken, both delighted. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
 @Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
@@ -14797,7 +14797,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R, PRIMARY identity.
 @Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
-@Image4 = references/scenes/scene-86/S86B-worthless-contents.jpg — ONLY this subscene: Sasha holds a blinking cheap disco bulb, Masha F a rubber chicken, both delighted. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-86/S86B-worthless-contents.jpg — ONLY this subscene: Sasha holds a blinking cheap disco bulb, Masha F a rubber chicken, both delighted. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
 @Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 @Video1 = actual final 3 seconds of Scene 86 subscene 86B Seedance Part 1 — real continuity, not a generated substitute.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
@@ -14861,7 +14861,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R, PRIMARY identity.
 @Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
-@Image4 = references/scenes/scene-86/S86C-delighted-reaction.jpg — ONLY this subscene: Masha F in pink heart glasses, Sasha raises a golden waving cat, both wave at the camera. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-86/S86C-delighted-reaction.jpg — ONLY this subscene: Masha F in pink heart glasses, Sasha raises a golden waving cat, both wave at the camera. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
 @Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
@@ -14911,7 +14911,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R, PRIMARY identity.
 @Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
-@Image4 = references/scenes/scene-86/S86C-delighted-reaction.jpg — ONLY this subscene: Masha F in pink heart glasses, Sasha raises a golden waving cat, both wave at the camera. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-86/S86C-delighted-reaction.jpg — ONLY this subscene: Masha F in pink heart glasses, Sasha raises a golden waving cat, both wave at the camera. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
 @Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
@@ -14955,7 +14955,7 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
 @Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R, PRIMARY identity.
 @Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
-@Image4 = references/scenes/scene-86/S86C-delighted-reaction.jpg — ONLY this subscene: Masha F in pink heart glasses, Sasha raises a golden waving cat, both wave at the camera. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-86/S86C-delighted-reaction.jpg — ONLY this subscene: Masha F in pink heart glasses, Sasha raises a golden waving cat, both wave at the camera. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
 @Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 @Video1 = actual final 3 seconds of Scene 86 subscene 86C Seedance Part 1 — real continuity, not a generated substitute.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
