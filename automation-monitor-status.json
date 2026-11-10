@@ -144,7 +144,8 @@
       "unmapped:efaad07750974b678df63a6be00f15d8",
       "unmapped:6fa3cdac62e348759d2a3607093414ea",
       "result:942bdafcff8640d1b405a37cbbb5cbc6",
-      "result:078f094bb1124c2ba7aa22d1ff0eb395"
+      "result:078f094bb1124c2ba7aa22d1ff0eb395",
+      "result:2473c9b5bcf645fd85ab308306c53aaa"
     ],
     "robot_wake_keys": [
       "result:56e5e07c85df4af583c62665c51ed563",
@@ -188,21 +189,22 @@
       "result:3fd9f3d9ae2d470eb5ec8b428a7ae044",
       "result:0ef78e7bcda54cb88821e9349e39f85a",
       "result:15e12f1588cc4079983610b63973e028",
-      "result:078f094bb1124c2ba7aa22d1ff0eb395"
+      "result:078f094bb1124c2ba7aa22d1ff0eb395",
+      "result:2473c9b5bcf645fd85ab308306c53aaa"
     ],
     "robot_rewake": {
-      "episode": "da39a3ee",
+      "episode": "bd50778c",
       "count": 0,
-      "last_at": "2026-11-09T15:20:27Z",
+      "last_at": "2026-11-10T10:40:30Z",
       "sequence": 46,
-      "first_at": "2026-11-09T15:20:27Z",
-      "last_event_id": "result:15e12f1588cc4079983610b63973e028",
+      "first_at": "2026-11-10T10:40:30Z",
+      "last_event_id": "result:2473c9b5bcf645fd85ab308306c53aaa",
       "silence_reported": "slots:d23cf217:2"
     }
   },
   "phases": {
     "topview": {
-      "checked_at": "2026-11-10T10:30:28Z",
+      "checked_at": "2026-11-10T10:40:26Z",
       "source": "robot; число слотов — topview-status.json"
     },
     "deep_audit": {
@@ -220,8 +222,8 @@
   },
   "health": "ok",
   "last_scheduled_cycle": {
-    "started_at": "2026-11-10T10:30:36Z",
-    "completed_at": "2026-11-10T10:30:36Z",
+    "started_at": "2026-11-10T10:40:30Z",
+    "completed_at": "2026-11-10T10:40:30Z",
     "health": "ok",
     "phases_completed": [
       "role_check",
@@ -233,7 +235,7 @@
     ],
     "phases_missing": [],
     "runner": "robot_scheduled_task",
-    "note": "GitHub robot: 6 из 6 слотов занято, новых 0, завершено 0. Без сцены (слот занят, номер не угадан): 1."
+    "note": "GitHub robot: 5 из 6 слотов занято, новых 0, завершено 1. Без сцены (слот занят, номер не угадан): 1."
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -292,8 +294,8 @@
       "checked_at": "2026-10-13T19:02:02.187Z"
     }
   },
-  "last_completed_cycle_at": "2026-11-10T10:30:36Z",
-  "last_successful_cycle_at": "2026-11-10T10:30:36Z",
+  "last_completed_cycle_at": "2026-11-10T10:40:30Z",
+  "last_successful_cycle_at": "2026-11-10T10:40:30Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
     "title": "AI Film — единый монитор",
@@ -308,13 +310,13 @@
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-11-10T10:30:36Z"
+    "robot": "2026-11-10T10:40:30Z"
   },
   "last_successful_cycle_runner": "robot_scheduled_task",
   "last_successful_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-11-10T10:30:36Z"
+    "robot": "2026-11-10T10:40:30Z"
   },
   "previous_primary_automation": {
     "id": "trig_014eEvBooAV2hxx1asRo9snm",
@@ -423,12 +425,12 @@
     }
   },
   "launcher_health": {
-    "state": "capacity_full",
+    "state": "awaiting_execution",
     "unresolved": false,
-    "episode": "022c08b5",
-    "unresolved_since": null,
-    "reason": "no_free_global_slot; launcher_health_not_proven",
-    "free_slots_global": 0,
+    "episode": "bd50778c",
+    "unresolved_since": "2026-11-10T10:40:30Z",
+    "reason": "within_initial_execution_window",
+    "free_slots_global": 1,
     "actionable_items": [
       "S49B",
       "S51E",
@@ -458,6 +460,6 @@
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
     "escalation_attempted_episode": "da39a3ee",
-    "checked_at": "2026-11-10T09:50:39Z"
+    "checked_at": "2026-11-10T10:40:30Z"
   }
 }
