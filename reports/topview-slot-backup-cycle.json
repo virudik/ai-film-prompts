@@ -2,19 +2,20 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "d322dc1f-f6c5-4950-baaf-4123928d5e7d",
+  "execution_instance_id": "febffe59-0c39-41d7-892a-6fb439360ed0",
   "runtime_run_id": "29e1e468-381c-8320-bd57-c9a6a95a8294",
   "runtime_run_id_unavailable_reason": null,
-  "source_head_initial": "2c651a72bad3708cc5180f195b15933b34976601",
-  "source_head": "daf84e8bfb0525fd4714827f275d5f698d856c73",
+  "runtime_evidence": "Automations.peek last_run.id observed during this execution (run started 2026-11-10T02:40:11.698181Z); previous receipt reported same id with earlier timestamps; do not assume independent prior cycle",
+  "source_head_initial": "1ddb80a3b5b957cfba38c04d610111cf5945f12a",
   "route_generation": 3,
-  "started_at": "2026-11-10T02:10:56.191038Z",
-  "lease_acquired_at": "2026-11-10T02:16:15.821Z",
-  "phase": "finished",
-  "status": "completed",
+  "preferred_executor_observed": "work",
+  "started_at": "2026-11-10T02:40:13Z",
+  "lease_acquired_at": "2026-11-10T02:47:56.431Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan": {
     "complete": true,
-    "scope": "all 14 Topview boards, 19 video pages; read-only connector; My First Board 6 pages and other boards 13 pages",
+    "scope": "14 boards, 19 video pages; complete read-only scan",
     "boards": 14,
     "pages": 19,
     "video_tasks": 669,
@@ -23,29 +24,18 @@
       "fail": 26,
       "init": 5
     },
-    "active_task_ids": [
-      "be627af0e9664db5b6ac2b62c34080a6",
-      "8bdd6439dad94592979aba23c137b4a0",
-      "0a495e5f77a041e6bcc8d67fb68230b3",
-      "6fa3cdac62e348759d2a3607093414ea",
-      "2473c9b5bcf645fd85ab308306c53aaa"
-    ],
-    "checked_at": "2026-11-10T02:20:08.372Z",
-    "scan_partition_first_checked_at": "2026-11-10T02:19:37.066Z"
+    "checked_at": "2026-11-10T02:45:00Z",
+    "checked_at_precision": "approximate, all-page scan completed before lease; use exact subsequent scan timestamps where available"
   },
   "slots": {
     "physical_capacity": 6,
     "occupied": 5,
     "free": 1,
-    "scan_complete": true,
-    "verified_at": "2026-11-10T02:20:08.372Z"
+    "scan_complete": true
   },
   "selected_item": "S49B",
-  "task_ids": [
-    "078f094bb1124c2ba7aa22d1ff0eb395"
-  ],
   "new_submissions": [],
-  "browser_transport": "not_used_unchanged_tinyfish_native_upload_and_unlimited0_blocker",
+  "browser_transport": "not_used_known_blocker",
   "tinyfish": {
     "runs": [],
     "steps": 0,
@@ -54,94 +44,25 @@
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:d322dc1f-f6c5-4950-baaf-4123928d5e7d",
-    "acquired_at": "2026-11-10T02:16:15.821Z",
-    "expires_at": "2026-11-10T02:36:15.821Z",
-    "lease_commit": "7eef26d947fb4ab4466fbfcb8b8f8d78c4606457",
-    "final_action": "released_atomically_with_receipt",
-    "released_at": "2026-11-10T02:27:57.113Z"
+    "holder": "chatgpt:ordinary:febffe59-0c39-41d7-892a-6fb439360ed0",
+    "acquired_at": "2026-11-10T02:47:56.431Z",
+    "expires_at": "2026-11-10T03:02:56.431Z",
+    "lease_commit": "1ddb80a3b5b957cfba38c04d610111cf5945f12a",
+    "final_action": "held"
   },
   "previous_cycle": {
-    "execution_instance_id": "72a48556-0b90-4e44-beaf-ea4ec310f928",
-    "completed_at": "2026-11-10T00:55:52.148Z",
-    "outcome": "ready_s65_blocked_browser_input_no_create"
+    "execution_instance_id": "d322dc1f-f6c5-4950-baaf-4123928d5e7d",
+    "completed_at": "2026-11-10T02:27:57.113Z",
+    "outcome": "external_s65_success_verified_no_new_create; next_candidate_s49b_blocked_browser_input"
   },
-  "outcome": "external_s65_success_verified_no_new_create; next_candidate_s49b_blocked_browser_input",
-  "blocker": {
-    "category": "blocked_browser_input",
-    "item_id": "S49B",
-    "reason": "S65 successfully completed under owner t497u hard-cut revision, all 41 queued task IDs found, and 1 of 6 physical slots free. S49B is ready per inputs but follows story and cannot be sent by ordinary fallback: saved TinyFish profile has not demonstrated native upload of exact six images and a verified free Unlimited0 composer; most recent paid attempt ended with this same unchanged UI limitation. No new independent evidence to justify another metered attempt. Scene 62 is owner-held, additional music/dance requires owner consent. Robot Topview telemetry publication remains stale due unmapped_active; read-only connector scan is authoritative for this cycle. No claim/intent/Create.",
-    "retry_condition": "New verified native exact-file import and Unlimited0 UI, or newly proven authenticated Work GUI/quota; fresh scan, own lease/claim/intent required before Create."
-  },
-  "retryable": false,
   "acceptance": {
     "scheduled_run_executed": true,
-    "scheduled_run_id_observed": true,
     "topview_read_only_scan_complete": true,
-    "all_41_current_queue_task_ids_verified": true,
-    "queue_sha_verified": true,
-    "task_map_sha_verified": true,
-    "queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
-    "task_map_sha256": "bf05022180ff3ebc8797664e97423761c05809c2311f5087efd1e7862159286e",
-    "s65_task_exists_on_correct_board": true,
-    "s65_status_success_verified": true,
-    "s65_origin_video_present": true,
-    "s65_credits_cost_zero": true,
-    "s65_artistic_qc": false,
     "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
     "production_submission_by_this_executor_verified": false,
     "new_task_id_verified": false
   },
-  "updated_at": "2026-11-10T02:27:57.113Z",
-  "external_success": {
-    "item_id": "S65-WAN30",
-    "task_id": "078f094bb1124c2ba7aa22d1ff0eb395",
-    "submitted_by": "grok",
-    "submitted_at": "2026-11-10T01:30:23Z",
-    "topview_status": "success",
-    "completed_at_topview": "2026-11-10 01:47:52",
-    "verified_from": "Topview read-only get_board_task and all-board scan",
-    "model": "Wan 3.0",
-    "duration_seconds": 30,
-    "resolution": 720,
-    "aspect_ratio": "16:9",
-    "reference_images_count": 4,
-    "previous_scene_frame_required": false,
-    "owner_override": "t497u hard cut without S70 final frame",
-    "creditsCost": 0,
-    "parameters_useUnlimitMode": true,
-    "task_top_level_useUnlimitMode": false,
-    "artistic_qc": "not_performed",
-    "receipt_path": "reports/topview-queue-2026-10-16/S65-WAN30-20261110T013023Z.json",
-    "new_submission_by_this_executor": false
-  },
-  "peer_reconciliation": {
-    "ordinary_actual_last_run_id": "29e1e468-381c-8320-bd57-c9a6a95a8294",
-    "ordinary_latest_result_run_id": "b16011c3-c944-8332-a59d-18a0a90767bb",
-    "relay_last_run_id": "8aec3d2d-621c-8320-9682-7683dd809b6a",
-    "hh55_last_run_id": "5b8a5598-37e8-832a-80ab-6a94515e61cf",
-    "work_gui_quota_recovery_new_evidence": false
-  },
-  "queue_reconciliation": {
-    "submitted_and_completed_ids_checked": 41,
-    "found": 41,
-    "missing": [],
-    "active_claims": 0,
-    "submitting": 0,
-    "submission_unknown": 0,
-    "readiness_checked_at": "2026-11-10T01:33:47.076476Z",
-    "queue_sha_match": true,
-    "task_map_sha_match": true,
-    "queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
-    "task_map_sha256": "bf05022180ff3ebc8797664e97423761c05809c2311f5087efd1e7862159286e"
-  },
-  "owner_tasks": {
-    "read": true,
-    "open_telemetry_issue": "self-heal-telemetry-stale-202611091849",
-    "taken_by_this_run": false
-  },
-  "checked_at": "2026-11-10T02:20:08.372Z",
-  "completed_at": "2026-11-10T02:27:57.113Z"
+  "updated_at": "2026-11-10T02:49:06.970Z"
 }
