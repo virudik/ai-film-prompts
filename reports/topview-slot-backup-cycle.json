@@ -11,13 +11,13 @@
   "preferred_executor_observed": "work",
   "started_at": "2026-11-10T03:02:17Z",
   "lease_acquired_at": "2026-11-10T03:08:01.959Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
-    "scope": "14 boards, 15 nonempty video pages; read-only Topview connector",
+    "scope": "14 boards, 19 board pages, 15 populated video pages",
     "boards": 14,
-    "pages": 15,
+    "pages": 19,
     "video_tasks": 669,
     "status_counts": {
       "success": 638,
@@ -31,14 +31,17 @@
       "6fa3cdac62e348759d2a3607093414ea",
       "2473c9b5bcf645fd85ab308306c53aaa"
     ],
-    "checked_at": "2026-11-10T03:05:19.222Z"
+    "checked_at": "2026-11-10T03:05:19.222Z",
+    "populated_pages": 15,
+    "main_board_recheck_at": "2026-11-10T03:10:21.291Z",
+    "queue_task_ids_rechecked_at": "2026-11-10T03:10:21.291Z"
   },
   "slots": {
     "physical_capacity": 6,
     "occupied": 5,
     "free": 1,
     "scan_complete": true,
-    "verified_at": "2026-11-10T03:05:19.222Z"
+    "verified_at": "2026-11-10T03:10:21.291Z"
   },
   "selected_item": "S49B",
   "new_submissions": [],
@@ -55,7 +58,8 @@
     "acquired_at": "2026-11-10T03:08:01.959Z",
     "expires_at": "2026-11-10T03:23:01.959Z",
     "lease_commit": "232b29c9f0bdd4fcf42a38d80bac9c6099e361f9",
-    "final_action": "in_progress"
+    "final_action": "released_atomically_with_receipt",
+    "released_at": "2026-11-10T03:16:07.277Z"
   },
   "previous_cycle": {
     "execution_instance_id": "febffe59-0c39-41d7-892a-6fb439360ed0",
@@ -71,17 +75,19 @@
     "production_submission_by_this_executor_verified": false,
     "new_task_id_verified": false,
     "scheduled_run_id_observed": true,
-    "full_current_queue_task_ids_checked_this_run": false,
-    "queue_sha_verified_in_this_run": false
+    "full_current_queue_task_ids_checked_this_run": true,
+    "queue_sha_verified_in_this_run": true,
+    "task_map_sha_verified_in_this_run": true
   },
-  "updated_at": "2026-11-10T03:09:11.637Z",
-  "source_head": "232b29c9f0bdd4fcf42a38d80bac9c6099e361f9",
-  "outcome": "in_progress",
+  "updated_at": "2026-11-10T03:16:07.277Z",
+  "source_head": "3ce0df2ed83077b10ab1b88df43b71e63d945f24",
+  "outcome": "no_new_create_s49b_blocked_browser_input_unlimited0_unverified",
   "blocker": {
     "category": "blocked_browser_input",
     "item_id": "S49B",
-    "reason": "Need six exact original image imports and visible Topview Unlimited0; existing TinyFish attempt did not establish them. No new evidence warrants repeated paid browser test.",
-    "retryable": false
+    "reason": "Fresh complete all-board Topview scan: 669 video tasks, 5 active / one free; all 41 current submitted/completed task IDs present. S49B needs six exact image files. TinyFish native exact-file image upload and visible selected Unlimited 0 are still unverified. Existing technical blocker unchanged; no new evidence justifies another paid browser test; no Create.",
+    "retryable": false,
+    "retry_condition": "Proven exact native UI file import and Unlimited zero-cost mode, then new full scan and CAS claim/intent."
   },
   "task_ids": [],
   "peer_reconciliation": {
@@ -92,5 +98,28 @@
   },
   "owner_tasks_open": [
     "self-heal-telemetry-stale-202611091849"
-  ]
+  ],
+  "queue_reconciliation": {
+    "current_queue_item_count": 61,
+    "submitted_completed_count": 41,
+    "task_ids_all_found": true,
+    "live_transitions_unresolved": 0,
+    "current_states": {
+      "submitted": 38,
+      "completed": 3,
+      "waiting_for_slot": 16,
+      "blocked_inputs": 3,
+      "blocked_owner_decision": 1
+    },
+    "queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+    "task_map_sha256": "bf05022180ff3ebc8797664e97423761c05809c2311f5087efd1e7862159286e",
+    "sha256_independently_verified_in_this_run": true
+  },
+  "provider_observation": {
+    "s65_task_id": "078f094bb1124c2ba7aa22d1ff0eb395",
+    "status": "success",
+    "creditsCost": 0,
+    "useUnlimitMode": false,
+    "note": "Provider flag false despite creditsCost0; no paid-credit deduction inferred."
+  }
 }
