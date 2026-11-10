@@ -11,22 +11,41 @@
   "preferred_executor_observed": "work",
   "started_at": "2026-11-10T14:59:01.771769Z",
   "lease_acquired_at": "2026-11-10T15:04:10.488Z",
-  "phase": "started",
-  "status": "running",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
-    "complete": false,
-    "scope": "Topview connector read-only; full scan completed before lease, revalidation in progress"
+    "complete": true,
+    "scope": "Topview read-only connector, all 14 boards and all 19 pages (8 My First Board + 11 others; three other boards empty)",
+    "boards": 14,
+    "pages": 19,
+    "video_tasks": 672,
+    "status_counts": {
+      "success": 639,
+      "fail": 27,
+      "init": 6
+    },
+    "checked_at": "2026-11-10T15:08:39.444Z",
+    "main_board_refreshed_at": "2026-11-10T15:08:39.444Z",
+    "other_boards_refreshed_at": "2026-11-10T15:06:38.060Z"
   },
   "slots": {
     "physical_capacity": 6,
-    "occupied": null,
-    "free": null,
-    "scan_complete": false
+    "occupied": 6,
+    "free": 0,
+    "scan_complete": true,
+    "verified_at": "2026-11-10T15:08:39.444Z"
   },
-  "task_ids": [],
+  "task_ids": [
+    "1dcb6fa0628d41b098227ca6c96f1630",
+    "a1330998d39b486e864ed4e22b4fe8c4",
+    "3a09108c8c474a0989118806b4a69f91",
+    "be627af0e9664db5b6ac2b62c34080a6",
+    "8bdd6439dad94592979aba23c137b4a0",
+    "0a495e5f77a041e6bcc8d67fb68230b3"
+  ],
   "selected_item": null,
   "new_submissions": [],
-  "browser_transport": "not_started",
+  "browser_transport": "not_started_no_free_slot",
   "tinyfish": {
     "runs": [],
     "steps": 0,
@@ -38,20 +57,51 @@
     "holder": "chatgpt:ordinary:238b5aa1-1b3c-440e-aabe-f37fb64262fb",
     "acquired_at": "2026-11-10T15:04:10.488Z",
     "expires_at": "2026-11-10T15:19:10.488Z",
-    "lease_commit": "dea25ce51ce0231faa77e286f94c72c6be6c9790"
+    "lease_commit": "dea25ce51ce0231faa77e286f94c72c6be6c9790",
+    "final_action": "release_atomically_with_final_receipt",
+    "released_at": "2026-11-10T15:10:05.567Z"
   },
-  "outcome": "started",
+  "outcome": "no_free_slot",
   "blocker": null,
-  "retryable": true,
+  "retryable": false,
   "acceptance": {
     "scheduled_run_executed": true,
     "scheduled_run_id_observed": true,
-    "topview_read_only_scan_complete": false,
+    "topview_read_only_scan_complete": true,
     "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
     "production_submission_by_this_executor_verified": false,
     "new_task_id_verified": false
   },
-  "updated_at": "2026-11-10T15:05:04.995Z"
+  "updated_at": "2026-11-10T15:10:05.567Z",
+  "queue_reconciliation": {
+    "queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+    "task_map_sha256": "1e17a5a76db08be235d0f6ca9bf6a2b94b7300a9a9e67bd8612893c194e8774c",
+    "source_queue_sha_verified": true,
+    "source_task_map_sha_verified": true,
+    "submitted_count": 41,
+    "transitional_states": [],
+    "hidden_readiness_transitions": [],
+    "submitted_task_ids_verified_in_scan": true,
+    "verification_note": "41/41 canonical submitted or completed IDs found in all 8 My First Board pages; S49B and musical task exact reference SHA not independently proven: do not duplicate."
+  },
+  "monitoring": {
+    "robot_topview_checked_at": "2026-11-10T14:40:29Z",
+    "launcher_health_checked_at": "2026-11-10T14:50:33Z",
+    "launcher_health_state": "capacity_full",
+    "launcher_health_unresolved": false,
+    "ordinary_last_run_id": "1128341e-84fc-8325-9365-c6d70e6e1747",
+    "relay_last_run_id": "b66315ea-2e2c-832c-9916-79829af2166b",
+    "hh55_last_run_id": "55892261-d7c8-832f-bd32-337da9d9d56d",
+    "other_automation_latest_results_mismatch_last_run": true,
+    "latest_slot_issues_are_not_live_capacity_evidence": true,
+    "open_owner_tasks": [
+      "self-heal-telemetry-stale-202611091849"
+    ]
+  },
+  "source_head_receipt_precommit": "090f5fc696f14f205a51d44b4369314451880bb8",
+  "checked_at": "2026-11-10T15:08:39.444Z",
+  "completed_at": "2026-11-10T15:10:05.567Z",
+  "note": "Actual hourly run, 14 boards/19 pages/672 video tasks, six active of six physical slots. No Create and no TinyFish spend. Confirmed canonical SHA-256 and 41/41 submitted task IDs. Existing possible S49B/musical duplicate left untouched; open telemetry task not closed."
 }

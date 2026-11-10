@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
-  "holder": "chatgpt:ordinary:238b5aa1-1b3c-440e-aabe-f37fb64262fb",
-  "task": "AI Film ordinary scheduled read-only 14-board scan and receipt; no Create at 6/6",
-  "acquired_at": "2026-11-10T15:04:10.488Z",
-  "expires_at": "2026-11-10T15:19:10.488Z",
-  "released_at": null,
+  "state": "free",
+  "holder": null,
+  "task": null,
+  "acquired_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-10T15:10:05.567Z",
   "rules": "ops/CANON-LOCK.md"
 }
