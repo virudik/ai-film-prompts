@@ -10,22 +10,41 @@
   "preferred_executor_observed": "work",
   "started_at": "2026-11-10T11:55:56.264207Z",
   "lease_acquired_at": "2026-11-10T12:01:27.662Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
-    "complete": false,
-    "scope": "Fresh all-board read-only Topview scan in progress"
+    "complete": true,
+    "scope": "Read-only Topview connector: all 14 editable boards and all 19 video pages, including 6 My First Board pages; pagination totals and IDs checked",
+    "boards": 14,
+    "pages": 19,
+    "video_tasks": 672,
+    "status_counts": {
+      "success": 639,
+      "fail": 27,
+      "init": 6
+    },
+    "my_first_board_tasks": 505,
+    "my_first_board_pages": 6,
+    "checked_at": "2026-11-10T12:05:29.659Z"
   },
   "slots": {
     "physical_capacity": 6,
-    "occupied": null,
-    "free": null,
-    "scan_complete": false
+    "occupied": 6,
+    "free": 0,
+    "scan_complete": true,
+    "verified_at": "2026-11-10T12:05:29.659Z"
   },
   "selected_item": null,
-  "task_ids": [],
+  "task_ids": [
+    "1dcb6fa0628d41b098227ca6c96f1630",
+    "a1330998d39b486e864ed4e22b4fe8c4",
+    "3a09108c8c474a0989118806b4a69f91",
+    "be627af0e9664db5b6ac2b62c34080a6",
+    "8bdd6439dad94592979aba23c137b4a0",
+    "0a495e5f77a041e6bcc8d67fb68230b3"
+  ],
   "new_submissions": [],
-  "browser_transport": "not_started",
+  "browser_transport": "not_started_no_free_global_slot",
   "tinyfish": {
     "runs": [],
     "steps": 0,
@@ -37,20 +56,90 @@
     "holder": "chatgpt:ordinary:762ff536-dd59-4656-9494-9c634f912ad3",
     "acquired_at": "2026-11-10T12:01:27.662Z",
     "expires_at": "2026-11-10T12:21:27.662Z",
-    "lease_commit": "5ae2234fea0496ea396730e76ea64965536aa1f1"
+    "lease_commit": "5ae2234fea0496ea396730e76ea64965536aa1f1",
+    "final_action": "release_atomically_with_final_receipt",
+    "released_at": "2026-11-10T12:07:23.226Z"
   },
-  "outcome": "in_progress",
+  "outcome": "no_free_slot",
   "blocker": null,
-  "retryable": true,
+  "retryable": false,
   "acceptance": {
     "scheduled_run_executed": true,
     "scheduled_run_id_observed": true,
-    "topview_read_only_scan_complete": false,
+    "topview_read_only_scan_complete": true,
     "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
     "production_submission_by_this_executor_verified": false,
     "new_task_id_verified": false
   },
-  "updated_at": "2026-11-10T12:01:27.662Z"
+  "updated_at": "2026-11-10T12:07:23.226Z",
+  "source_head_receipt_precommit": "1c02baf3e0966c9711d8c27a61cfebd54374421f",
+  "checked_at": "2026-11-10T12:05:29.659Z",
+  "completed_at": "2026-11-10T12:07:23.226Z",
+  "queue_reconciliation": {
+    "queue_state_counts": {
+      "blocked_owner_decision": 1,
+      "submitted": 38,
+      "waiting_for_slot": 16,
+      "completed": 3,
+      "blocked_inputs": 3
+    },
+    "submitted_and_completed_count": 41,
+    "every_submitted_task_id_checked_in_full_scan": true,
+    "missing_submitted_task_ids": [],
+    "pending_transitional_states": [],
+    "readiness_queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+    "readiness_task_map_sha256": "271c7b97d901b9756478f4f8adf8d26377a6a3aa19a72c19cd2a75172af7e8c4",
+    "source_queue_sha_verified": true,
+    "source_task_map_sha_verified": true
+  },
+  "pending_reconciliation": {
+    "S49B": {
+      "task_id": "3a09108c8c474a0989118806b4a69f91",
+      "status": "init",
+      "model": "Seedance 2.0",
+      "refs_count": 6,
+      "unlimited": true,
+      "credits_cost": 0,
+      "source_sha_proof": false,
+      "duplicate_create_prohibited": true
+    },
+    "S51": {
+      "task_ids": [
+        "a1330998d39b486e864ed4e22b4fe8c4",
+        "1dcb6fa0628d41b098227ca6c96f1630"
+      ],
+      "status": "init",
+      "mapped_scene": 51,
+      "credits_cost": 0,
+      "unlimited": true,
+      "exact_part_source_sha_and_owner_consent_not_proven": true,
+      "no_new_create_allowed": true
+    }
+  },
+  "monitoring": {
+    "robot_topview_checkpoint_checked_at": "2026-11-10T11:20:27Z",
+    "robot_checkpoint_committed_at": "2026-11-10T11:20:31.994Z",
+    "last_wake_issue_number": 528,
+    "last_wake_event_id": "slots:86e4bee6:47",
+    "last_wake_observed_at": "2026-11-10T11:00:33Z",
+    "ordinary_last_run_id": "c43222a5-899c-832c-8cfa-7e465466830a",
+    "ordinary_last_run_state_at_peek": "in_progress",
+    "ordinary_latest_result_run_id": "e9e82351-4308-832a-a159-fc1be14ba2b9",
+    "relay_last_run_id": "b66315ea-2e2c-832c-9916-79829af2166b",
+    "hh55_last_run_id": "9b3055e3-5638-8322-8ab3-5f4c9f5a6eac",
+    "owner_task_open": "self-heal-telemetry-stale-202611091849",
+    "owner_task_taken": false
+  },
+  "new_observation": {
+    "new_active_task": "1dcb6fa0628d41b098227ca6c96f1630",
+    "created": "2026-11-10 11:13:10",
+    "mapped_scene": 51,
+    "mode": "Unlimited",
+    "credits_cost": 0,
+    "owner_consent_not_confirmed_for_music_scene": true,
+    "created_by_this_executor": false
+  },
+  "note": "Six physical slots occupied. No Create. The wake issue's prior free capacity is stale. S49B and newly observed S51 active tasks require full canonical source SHA/owner reconciliation before any future duplicate; source image SHA is not exposed in ordinary task metadata. Existing TinyFish blocker on exact native file upload/Unlimited0 unchanged; avoid paid idle checks."
 }
