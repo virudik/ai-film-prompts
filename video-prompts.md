@@ -109,7 +109,7 @@
 | 62 | [Татуин: после погони — обратно к противостоянию](#scene-62) | Настоящий конец первого видео, начало второго как целевой финал; Серёга, Артём, Илюша, красная машина | Подъём после падения, остановка машины и возвращение Серёги, точная расстановка перед вторым роликом. P1 готова; P2 после собственной P1.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 | 63 | [Храм ситхов: великие люди все на одно лицо](#scene-63) | Серёга, галерея собственных каменных статуй, портрет, тронный зал | Проходит по залам и искренне восхищается.30с Wan3.0, входы готовы; альтернативные2×15с.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 | 64 | [Звёздный разрушитель: Серёга пританцовывает по коридору](#scene-64) | Серёга; коридор разрушителя; офицеры у стены | Серёга в прекрасном настроении пританцовывая идёт по коридору; имперские офицеры жмутся к стенам и провожают его странным, но испуганным взглядом. Владелец 27.10; в очереди после 63, до танцев; изображения готовы; перед запуском — полный preflight.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
-| 65 | [Татуинская связка 7/7 — Серёга и Боба Фетт за столом](#scene-65) | настоящий конец70; Серёга; кантина; стол и компания | Продолжает подлёт70 к столику: молчаливый тост, маслёнка IG-11. Wan3.0,30с; после70, до49–51/28. Ждёт настоящий конец70 и QC; DRAFT. |
+| 65 | [Татуинская связка 7/7 — Серёга и Боба Фетт за столом](#scene-65) | Серёга; кантина; стол и компания; тост | Жёсткая склейка на стол, без кадра 70: молчаливый тост, маслёнка IG-11. Wan3.0,30с; бесшовность необязательна; DRAFT. |
 | 66 | [Татуинская связка 2/7 — Алина, Даша и Стич](#scene-66) | конец 52 ч.7; Алина и Даша (развёртки сохранены); Стич (S66-street-outrage); улица; прилавок 67 | Продолжение 52 ч.7: Стич садится какать посреди улицы, прохожие возмущаются, а девочки как ни в чём не бывало идут дальше — к прилавку 67. Владелец 27.10; в очереди после 63, до танцев; изображения готовы; ждёт настоящий конец 52 ч.7 (Wan3.0) и QC.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 | 67 | [Татуинская связка 3/7 — Маша спорит с торговцем](#scene-67) | конец 66; Маша Р (развёртка сохранена); прилавок; четырёхрукий продавец | Продолжение 66: девушка на рынке Татуина очень бурно ругается с четырёхруким продавцом из-за цены. Владелец 27.10; в очереди после 63, до танцев; изображения готовы; ждёт настоящий конец 66 и QC.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 | 68 | [Татуинская связка 4/7 — Жилищник обметает кучку](#scene-68) | конец 67; бригада в форме «ГБУ Жилищник района Татуина»; световая метла; та же улица; Маша Р | Продолжение 67: трое инопланетян в форме «ГБУ Жилищник района Татуина» бестолково метут песок световыми мётлами; в конце их замечает девушка из 67. Владелец 27.10; в очереди после 67, до танцев; изображения готовы; ждёт настоящий конец 67 и QC.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
@@ -7962,16 +7962,16 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-65"></a>
 ## Сцена 65 — Татуинская связка 7/7 · Серёга молча выпивает в баре с Бобой Феттом и компанией
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":70}],"tags":["serega","tatooine","cantina","visual_comedy","copyright_characters","owner_requested"]} -->
-**🎬 Татуинская связка — 7/7.** [52 ч.7 · 1/7](#tatooine-chain-start) → [66 · 2/7](#scene-66) → [67 · 3/7](#scene-67) → [68 · 4/7](#scene-68) → [69 · 5/7](#scene-69) → [70 · 6/7](#scene-70) → [65 · 7/7](#scene-65). **Выбранный запуск:** Wan 3.0, 30 с, S65-WAN30; @Image5 — точный последний кадр предыдущего звена, не видео (до его готовности запуск заблокирован). **Кликабельные референсы:** [@Image1 — Серёга](references/full/serega.jpg) · [@Image2 — кантина](references/scenes/scene-10/S10-Image1-cantina-source.png) · [@Image3 — компания за столом](references/scenes/scene-65/S65-bar-table.png) · [@Image4 — тост и маслёнка](references/scenes/scene-65/S65-toast-closeup.png). Изображения не заменяют настоящий видеостык.
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["serega","tatooine","cantina","visual_comedy","copyright_characters","owner_requested"]} -->
+**🎬 Татуинская связка — 7/7.** [52 ч.7 · 1/7](#tatooine-chain-start) → [66 · 2/7](#scene-66) → [67 · 3/7](#scene-67) → [68 · 4/7](#scene-68) → [69 · 5/7](#scene-69) → [70 · 6/7](#scene-70) → [65 · 7/7](#scene-65). **Выбранный запуск:** Wan 3.0, 30 с, S65-WAN30; независим от предыдущей сцены; жёсткая склейка на стол; без @Image5; бесшовность необязательна. **Кликабельные референсы:** [@Image1 — Серёга](references/full/serega.jpg) · [@Image2 — кантина](references/scenes/scene-10/S10-Image1-cantina-source.png) · [@Image3 — компания за столом](references/scenes/scene-65/S65-bar-table.png) · [@Image4 — тост и маслёнка](references/scenes/scene-65/S65-toast-closeup.png). Четыре изображения. Кадр предыдущей сцены не требуется.
 
-**Контекст использования:** владелец 28.10.2026. Финал связки 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65: камера из улицы непрерывным пролётом70 приходит к столику Серёги;65 продолжает настоящий конец70. Тост и маслёнка начинаются здесь, без повторного входа в кантину.
+**Контекст использования:** владелец 28.10.2026; запуск t497u (10.11.2026), цитата t449u: без зависимости от прошлой сцены, жёсткая склейка сразу на всех за столом, бесшовность необязательна. По сюжету это финал связки 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65. Тост и маслёнка начинаются здесь.
 
 **Что происходит:** Серёга сидит за круглым столом в татуинской кантине с Бобой Феттом, гаморреанцем, наёмником-тви'леком и дроидом IG-11. Бармен ставит кружки. Серёга не говорит ни слова: молча поднимает кружку на пару сантиметров, все чокаются: четыре кружки и маслёнка IG-11 встречаются в центре стола. Гаморреанец осушает кружку залпом и грохает ею по столу. Боба Фетт чуть приподнимает низ шлема и пьёт, не показывая лица. После тоста IG-11 с довольным жужжанием капает из той же маслёнки масло себе на локоть и шейный шарнир. Тви'лек смеётся и хлопает Серёгу по плечу. Серёга невозмутимо допивает и молча показывает бармену два пальца — ещё раунд. Гаморреанец с любопытством нюхает маслёнку, IG-11 отодвигает её.
 
-**Готовность:** DRAFT. Главная версия — Wan3.0,30с. Изображения и их роли закреплены в манифесте; запуск ждёт настоящие последние3с результата70 и QC стыка. Связка 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65 идёт до музыкальных и танцевальных номеров49–51/28 по приоритету; правило следующей фактически готовой сцены сохраняется. Новые видеозапуски и художественная приёмка этой правкой не выполняются.
+**Готовность:** DRAFT. Главная версия — Wan3.0,30с. Четыре изображения закреплены. Запуск не ждёт последний кадр или последние 3 с сцены 70 и не требует бесшовного стыка. Связка 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65 идёт до музыкальных и танцевальных номеров49–51/28 по приоритету; правило следующей фактически готовой сцены сохраняется. Новые видеозапуски и художественная приёмка этой правкой не выполняются.
 
-**Референсы:** @Image5 — точный последний кадр 70 (`references/scenes/scene-70/S70-final-frame.png`, не видео); @Image1 — `references/full/serega.jpg` (Точный модельный лист Серёги: лицо и одежда); @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png` (Кантина: арки, лампа, столы (только локация)); @Image3 — `references/scenes/scene-65/S65-bar-table.png` (Стол: Серёга, Боба Фетт, гаморреанец, тви'лек, IG-11); @Image4 — `references/scenes/scene-65/S65-toast-closeup.png` (Тост и маслёнка IG-11).
+**Референсы:** @Image1 — `references/full/serega.jpg` (Точный модельный лист Серёги: лицо и одежда); @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png` (Кантина: арки, лампа, столы (только локация)); @Image3 — `references/scenes/scene-65/S65-bar-table.png` (Стол: Серёга, Боба Фетт, гаморреанец, тви'лек, IG-11); @Image4 — `references/scenes/scene-65/S65-toast-closeup.png` (Тост и маслёнка IG-11). Без @Image5.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/thumbs/full/serega.jpg.webp" alt="Точный модельный лист Серёги: лицо и одежда"></a><figcaption>@Image1 — Точный модельный лист Серёги: лицо и одежда</figcaption></figure>
@@ -7988,19 +7988,18 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **30с · Wan3.0 / Seedance2.5 — один общий текст.** Главная версия — Wan3.0.
 
-**Входы:** @Image5 — точный последний кадр 70 (`references/scenes/scene-70/S70-final-frame.png`, не видео); @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png`; @Image3 — `references/scenes/scene-65/S65-bar-table.png`; @Image4 — `references/scenes/scene-65/S65-toast-closeup.png`.
+**Входы:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png`; @Image3 — `references/scenes/scene-65/S65-bar-table.png`; @Image4 — `references/scenes/scene-65/S65-toast-closeup.png`. Без @Image5 и без кадра 70.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action space-opera cinema, dynamic comedy
 
 REFERENCES / AUTHORITY ORDER:
-@Image5 — the exact final frame of scene 70 (S70-WAN30), a still, not a video. File: references/scenes/scene-70/S70-final-frame.png. It is the start reference: exact framing, camera, lighting, positions and gestures. Continue from it; no restart or replay.
 @Image1 — exact individual Serega model sheet; highest authority for his face, proportions and clothing. File: references/full/serega.jpg.
 @Image2 — cantina location only: sandstone arches, hanging lamp, round metal tables, alien patrons in background; ignore and exclude all three people at its table. File: references/scenes/scene-10/S10-Image1-cantina-source.png.
 @Image3 — group seating composition at one round table; each character's own design lock below wins over this helper. File: references/scenes/scene-65/S65-bar-table.png.
 @Image4 — composition and prop-design helper: four raised mugs and the same oil can. The image combines a toast and oiling; do NOT copy its gesture timing. This block's timeline controls when the oil can clinks and when IG-11 oils its joints; it never drinks. File: references/scenes/scene-65/S65-toast-closeup.png.
-Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
+Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them. This launch is a fresh cut to the table, not a continuation of the previous scene.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA: exactly the man in the Serega model sheet: mature pale face with its real proportions, balding crown and sparse light-brown hair at the sides, faint short stubble, broad familiar build. Floor-length deep dark-plum robe, broad folded collar with hood down, wide outer sleeves, black undersleeves, broad waist sash and dark boots. One Serega only. No beautifying, age shift, added beard, costume change or face blending with extras.
@@ -8013,10 +8012,10 @@ LOCATION / STORY LOCK — CRITICAL:
 One round metal table in the Tatooine cantina from @Image2 (location only). Seating stays fixed: Boba Fett, Gamorrean, Serega in the centre, Twi'lek, IG-11. Exactly five at the table; the bartender only brings mugs. Friendly drinking, no fight, no blasters drawn. Serega says NOTHING the whole scene. Boba Fett never removes the helmet. IG-11 never drinks: it joins the shared toast by clinking its oil can against the four mugs, then drips oil onto its own joints.
 
 START STATE:
-Continue the exact frame @Image5 (final frame of scene 70, not a video), preserving the arriving camera, fixed seating and every hand/prop position. Expected handoff, subordinate to that still frame: the five are already seated; the bartender is lowering the last mug in front of Serega, and IG-11 has begun drawing its small oil can from its bandolier. Finish these ongoing actions without repeating the approach or delivery.
+A hard cut to everyone already seated at the table, as in @Image3. No dependence on the previous scene, no continuation of its final close-up, no arriving camera from the street or from scene 70. The five are already at the table; mugs are in place or the bartender is just finishing a last mug; IG-11 has its small oil can at hand.
 
 TIMELINE:
-[0:00–0:05] FINISH THE ARRIVAL — Continue the real camera move from scene 70 toward the same table, with no new establishing approach. The bartender finishes lowering the last mug already in motion; the Gamorrean takes his own mug, and IG-11 completes drawing its small oil can and sets it down instead of a mug.
+[0:00–0:05] CUT TO THE TABLE — Hard cut, already on the five seated as in @Image3; no street approach and no carry-over from the previous scene. The bartender may finish a last mug; the Gamorrean takes his mug; IG-11 sets the oil can down instead of a mug.
 [0:05–0:10] SILENT TOAST — Medium on Serega: without a word he lifts his mug a couple of centimetres and gives one small nod. Cut on motion to the over-table view: four mugs and the oil can clink in the centre, foam splashes.
 [0:10–0:16] DRINKING GAGS — Quick motivated cuts: the Gamorrean downs the whole mug in one go, grunts and slams it so all mugs jump; Boba Fett lifts the lower edge of his helmet just enough to sip, face hidden; IG-11 tilts the oil can and drips oil onto its own elbow and neck joints, servos whirring contentedly, head ring blinking.
 [0:16–0:23] COMPANY — The Twi'lek laughs and slaps Serega on the shoulder; Serega, still silent, finishes his drink in one steady deadpan motion; the Gamorrean bangs the table again, roaring with laughter.
@@ -8026,7 +8025,7 @@ END STATE:
 Serega silently signals for another round; IG-11 keeps its oil can out of the Gamorrean's reach; the company is relaxed and amused.
 
 CAMERA / SPACE:
-Table geography fixed (Boba left of Serega, Twi'lek and IG-11 right). Continue scene 70's arriving lens and camera direction through the first three seconds, then use medium singles with readable faces, an over-table toast angle, a close insert of oil dripping on the droid joint and a wider closing shot. Cut on gestures: lift, clink, slam, drip, slap.
+Table geography fixed (Boba left of Serega, Twi'lek and IG-11 right). Open already at the table with a cut, then use medium singles with readable faces, an over-table toast angle, a close insert of oil dripping on the droid joint and a wider closing shot. Cut on gestures: lift, clink, slam, drip, slap.
 
 PERFORMANCE:
 Serega: completely silent, calm, deadpan; the comedy comes from his composure amid wild company. Gamorrean loud and physical; Twi'lek laughing; Boba Fett minimal, deliberate; IG-11 precise, mechanical, quietly pleased with its oil. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
@@ -8038,7 +8037,7 @@ AUDIO:
 Cantina chatter in alien languages, clinking mugs, Gamorrean grunts and laughter, droid servo whirr, oil-can squeak, table thumps. Serega says nothing. No intelligible speech, no narrator, no subtitles; no generated music.
 
 NEGATIVE PROMPT:
-Serega speaking, Boba Fett unmasked, IG-11 drinking from a glass or mug, extra people at the table, fight, blasters drawn, Han Solo, Chewbacca, Obi-Wan, people from the location source image, extra Seregas, face swap, robe change, cartoon, subtitles, logo, watermark.
+Serega speaking, Boba Fett unmasked, IG-11 drinking from a glass or mug, extra people at the table, fight, blasters drawn, Han Solo, Chewbacca, Obi-Wan, people from the location source image, extra Seregas, face swap, robe change, cartoon, subtitles, logo, watermark, continuation of the previous scene, street approach into the cantina.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.

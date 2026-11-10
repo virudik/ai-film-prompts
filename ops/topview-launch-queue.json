@@ -5235,8 +5235,8 @@
       "scene_id": 65,
       "prompt_id": "S65-WAN30",
       "canonical_block_label": "65",
-      "canonical_prompt_sha256": "64dba24c1a3a5ac5dda6452cdc41ffbddaf49a1761326d3a5e5d8e7e53c02dbc",
-      "normalized_prompt_sha256": "be758617a780fe60c76d3aba4ea0e03bc5e64057fedae5ad1471af11935c2eb6",
+      "canonical_prompt_sha256": "c3f548b386097bbfd603c0321a7129eb93687c0994d35ab1762eeb18d9a2cc9d",
+      "normalized_prompt_sha256": "c638f7b27d600df6482f1e18692b046242629be3b101ddc2e76029c9c22eb7fe",
       "priority": 0.02,
       "state": "waiting_for_slot",
       "launch_readiness": "authorized_inputs_available",
@@ -5251,9 +5251,7 @@
       "max_new_submissions": 1,
       "max_credits": 0,
       "depends_on_submitted": [],
-      "depends_on_completed": [
-        "S70-WAN30"
-      ],
+      "depends_on_completed": [],
       "references": [
         {
           "slot": "@Image1",
@@ -5286,26 +5284,6 @@
           "required": true,
           "input_status": "available",
           "canonical_role": "Молчаливый тост и маслёнка IG-11"
-        },
-        {
-          "slot": "@Image5",
-          "required": true,
-          "input_status": "available",
-          "canonical_role": "exact final frame of S70-WAN30; the S65 start frame, not a video",
-          "source_item_id": "S70-WAN30",
-          "ui_upload_order": "Image5 last, after Image1..Image4",
-          "replaces": "@Video1 last 3 seconds",
-          "path": "references/scenes/scene-70/S70-final-frame.png",
-          "sha256": "6b70b25728be0affe59336ecd5d980cb1b1f9aa7d78279bd3ec737a65e8e903e",
-          "bytes": 1431333,
-          "width": 1280,
-          "height": 720,
-          "filename": "S70-final-frame.png",
-          "drive_file_id": "1GDvviugfLos3wAw5jSGsLn7LewpIvdaK",
-          "provenance_path": "references/scenes/scene-70/S70-final-frame-20261109.json",
-          "source_task_id": "942bdafcff8640d1b405a37cbbb5cbc6",
-          "qc_status": "pass",
-          "qc_note": "Close cantina shot: a weathered metal droid seated at a bar table holding a small brass mug, a person in a worn leather jacket at left, warm dim lighting."
         }
       ],
       "task_id": null,
@@ -5318,14 +5296,14 @@
       "result_review_required": true,
       "result_review_policy": "Check exact identities, the scene's gag as written (master «Режиссёрский контроль»), dynamic camera. Success is not acceptance.",
       "created_at": "2026-10-27T16:31:40Z",
-      "wan_link_rule_t438u": "t438u: when this item is ready, replace @Video1 with the previous part's exact final-frame PNG as the last image slot and adapt the prompt the same way. Scene 66 must stay ≤7870 characters. Prompt not changed yet.",
-      "owner_authorization_t438u_s65": {
-        "rule": "t438u",
-        "prepared_at": "2026-11-09T14:52:27Z",
-        "canonical_prompt_sha256": "64dba24c1a3a5ac5dda6452cdc41ffbddaf49a1761326d3a5e5d8e7e53c02dbc",
-        "chars": 6687,
-        "editor_limit_chars": 7870,
-        "note": "Start reference is the final frame of S70 as the last image. Stays blocked until S70 succeeds."
+      "owner_order_t497u": {
+        "order": "t497u",
+        "cites": "t449u",
+        "quote": "Можно запустить без зависимости от прошлой сцены. Там робот масло на руку льет крупным планом. Будет просто склейка что смена кадра всех за столом сразу. Бесшовность необязательна.",
+        "canonical_prompt_sha256": "c3f548b386097bbfd603c0321a7129eb93687c0994d35ab1762eeb18d9a2cc9d",
+        "chars": 6383,
+        "bytes": 6415,
+        "note": "Hard cut to the table. No @Image5. Seamlessness not required. Attempt not consumed."
       }
     },
     {
