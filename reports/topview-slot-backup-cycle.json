@@ -2,17 +2,16 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "21d95ee6-fbe9-4d0b-83ff-b8ec5da8d42f",
+  "execution_instance_id": "92674443-298a-4ebd-b55d-e5bbeb5ff656",
   "runtime_run_id": "620bb3b6-4280-832f-b786-6ceb8720bda5",
-  "runtime_run_id_source": "Automations.peek.last_run.id in_progress scheduled_for 2026-11-10T07:00:00Z",
-  "source_head_initial": "49ef6623049d33137ef6c8ddfaea297c7f4b6e46",
+  "runtime_run_id_source": "Automations.peek.last_run.id for 2026-11-10T07:00:00Z; also cited in the superseded expired-holder started receipt; platform does not distinguish parallel execution instances",
+  "source_head_initial": "5e48a4f9d99aa07375e297ecb71b9cf7aef22549",
   "route_generation": 3,
   "preferred_executor_observed": "work",
-  "started_at": "2026-11-10T07:04:28.079Z",
-  "lease_acquired_at": "2026-11-10T07:03:56.362Z",
+  "started_at": "2026-11-10T07:30:10.275Z",
+  "lease_acquired_at": "2026-11-10T07:29:04.862Z",
   "phase": "started",
   "status": "in_progress",
-  "checked_at": null,
   "scan": {
     "complete": false,
     "scope": null,
@@ -40,11 +39,18 @@
   },
   "topview_credits_spent": 0,
   "lease": {
+    "holder": "chatgpt:ordinary:92674443-298a-4ebd-b55d-e5bbeb5ff656",
+    "acquired_at": "2026-11-10T07:29:04.862Z",
+    "expires_at": "2026-11-10T07:49:04.862Z",
+    "lease_commit": "5e48a4f9d99aa07375e297ecb71b9cf7aef22549",
+    "final_action": "held"
+  },
+  "earlier_expired_lease": {
     "holder": "chatgpt:ordinary:21d95ee6-fbe9-4d0b-83ff-b8ec5da8d42f",
     "acquired_at": "2026-11-10T07:03:56.362Z",
-    "expires_at": "2026-11-10T07:23:56.362Z",
-    "lease_commit": "9cde62a73d9259834b5c634fa70b15b7b5d83a74",
-    "final_action": "held"
+    "expired_at": "2026-11-10T07:23:56.362Z",
+    "prior_receipt_phase": "started",
+    "was_not_our_execution": true
   },
   "outcome": "in_progress",
   "blocker": null,
@@ -59,5 +65,5 @@
     "production_submission_by_this_executor_verified": false,
     "new_task_id_verified": false
   },
-  "updated_at": "2026-11-10T07:04:28.079Z"
+  "updated_at": "2026-11-10T07:30:10.275Z"
 }
