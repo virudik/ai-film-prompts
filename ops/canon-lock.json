@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:72a48556-0b90-4e44-beaf-ea4ec310f928",
   "task": "Seregius scheduled ordinary read-only account-wide scan and safe receipt; S65 input transport gate",
   "acquired_at": "2026-11-10T00:51:21.353Z",
-  "expires_at": "2026-11-10T01:03:21.353Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-10T00:55:52.148Z",
   "rules": "ops/CANON-LOCK.md"
 }
