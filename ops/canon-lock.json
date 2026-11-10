@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "locked",
-  "holder": "chatgpt:ordinary:92674443-298a-4ebd-b55d-e5bbeb5ff656",
-  "task": "AI Film scheduled ordinary read-only full scan and 6/6 receipt (reacquire expired prior lease)",
-  "acquired_at": "2026-11-10T07:29:04.862Z",
-  "expires_at": "2026-11-10T07:49:04.862Z",
-  "released_at": null,
+  "state": "free",
+  "holder": null,
+  "task": null,
+  "acquired_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-10T07:33:35.420Z",
   "rules": "ops/CANON-LOCK.md"
 }
