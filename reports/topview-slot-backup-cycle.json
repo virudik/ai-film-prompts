@@ -10,8 +10,8 @@
   "preferred_executor_observed": "work",
   "started_at": "2026-11-10T07:43:50.786326Z",
   "lease_acquired_at": "2026-11-10T07:48:26.286Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
     "scope": "all 14 Topview boards every page, read-only Topview connector, mediaType=video",
@@ -55,9 +55,10 @@
     "acquired_at": "2026-11-10T07:48:26.286Z",
     "expires_at": "2026-11-10T08:08:26.286Z",
     "lease_commit": "3c02f0f5d838576dcbe51d643ccf8f66fe667f8b",
-    "final_action": "pending"
+    "final_action": "release_atomically_with_final_receipt",
+    "released_at": "2026-11-10T07:51:54.524Z"
   },
-  "outcome": "in_progress",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": false,
   "acceptance": {
@@ -70,5 +71,49 @@
     "production_submission_by_this_executor_verified": false,
     "new_task_id_verified": false
   },
-  "updated_at": "2026-11-10T07:49:26.898Z"
+  "updated_at": "2026-11-10T07:51:54.524Z",
+  "checked_at": "2026-11-10T07:51:54.524Z",
+  "completed_at": "2026-11-10T07:51:54.524Z",
+  "source_head_final_precommit": "5138f24002ee31eaeb410ef7d18d8f4676056295",
+  "queue_reconciliation": {
+    "queue_states": {
+      "blocked_owner_decision": 1,
+      "submitted": 38,
+      "waiting_for_slot": 16,
+      "completed": 3,
+      "blocked_inputs": 3
+    },
+    "transition_count": 0,
+    "submitted_and_completed_count": 41,
+    "pending_transitional_states": [],
+    "every_submitted_task_id_checked_in_full_scan": false,
+    "reason": "Complete live 14-board/19-page scan confirmed physical capacity full; no item selected, no Create. All 41 existing task IDs were not individually cross-matched this execution."
+  },
+  "s49b_pending_reconciliation": {
+    "topview_candidate_task_id": "3a09108c8c474a0989118806b4a69f91",
+    "candidate_status": "init",
+    "candidate_parameters": {
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "images": 6,
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    "canonical_queue_state": "waiting_for_slot",
+    "canonical_task_id": null,
+    "canonical_original_image_sha_verified": false,
+    "action": "do_not_resubmit_or_auto_bind_without_exact_input_sha_and_full_prompt_match"
+  },
+  "monitoring": {
+    "robot_checked_at": "2026-11-10T07:30:33Z",
+    "health": "ok",
+    "launcher_health": "capacity_full",
+    "owner_tasks_open_count": 1,
+    "owner_task_open_id": "self-heal-telemetry-stale-202611091849",
+    "relay_last_run_id": "8aec3d2d-621c-8320-9682-7683dd809b6a",
+    "hh55_last_run_id": "b1acb6f2-6be8-8325-a5bc-073073cf3786",
+    "ordinary_last_run_id": "620bb3b6-4280-832f-b786-6ceb8720bda5"
+  }
 }
