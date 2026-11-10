@@ -2,50 +2,32 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "102358ea-2434-44a7-a497-374b37724460",
-  "runtime_run_id": "bd9ac8b8-7860-832d-be85-81371979f6cb",
-  "runtime_run_id_unavailable_reason": null,
-  "runtime_evidence": "Automations.peek last_run.id; scheduled 2026-11-10T05:00:00Z; started 2026-11-10T05:01:52.916127Z; in_progress",
-  "source_head_initial": "d81839652689cef726e88df9a04cbf1d5d23a4b1",
+  "execution_instance_id": "d89b64a4-bd90-4e70-b0be-3dacb29129a7",
+  "runtime_run_id": null,
+  "runtime_run_id_unavailable_reason": "Automations.get returned NOT_FOUND / Action not found; runtime run ID is not exposed to this invocation",
+  "source_head_initial": "816b817437d0f00f36fb72a4fafa31157679ecae",
+  "source_head": "81f094e5c741a1f4327674fe12f06e362b5d27f8",
   "route_generation": 3,
   "preferred_executor_observed": "work",
-  "started_at": "2026-11-10T05:01:52.916127Z",
-  "lease_acquired_at": "2026-11-10T05:08:55.260Z",
-  "phase": "finished",
-  "status": "completed",
-  "checked_at": "2026-11-10T05:12:48.272Z",
+  "started_at": "2026-11-10T06:11:26.272Z",
+  "lease_acquired_at": "2026-11-10T06:11:26.272Z",
+  "phase": "started",
+  "status": "in_progress",
+  "checked_at": "2026-11-10T06:12:29.946Z",
   "scan": {
-    "complete": true,
-    "scope": "read-only Topview 14 boards; 19 pages; 670 video tasks",
-    "boards": 14,
-    "pages": 19,
-    "video_tasks": 670,
-    "status_counts": {
-      "success": 638,
-      "fail": 26,
-      "init": 6
-    },
-    "active_task_ids": [
-      "3a09108c8c474a0989118806b4a69f91",
-      "be627af0e9664db5b6ac2b62c34080a6",
-      "8bdd6439dad94592979aba23c137b4a0",
-      "0a495e5f77a041e6bcc8d67fb68230b3",
-      "6fa3cdac62e348759d2a3607093414ea",
-      "2473c9b5bcf645fd85ab308306c53aaa"
-    ],
-    "checked_at": "2026-11-10T05:05:53.469Z"
+    "complete": false,
+    "scope": "Fresh read-only account-wide Topview scan completed before lease; verification to be recorded in final receipt"
   },
   "slots": {
     "physical_capacity": 6,
-    "occupied": 6,
-    "free": 0,
-    "scan_complete": true,
-    "verified_at": "2026-11-10T05:05:53.469Z"
+    "occupied": null,
+    "free": null,
+    "scan_complete": false
   },
   "selected_item": null,
   "task_ids": [],
   "new_submissions": [],
-  "browser_transport": "not_used_verified_six_of_six",
+  "browser_transport": "not_used",
   "tinyfish": {
     "runs": [],
     "steps": 0,
@@ -54,82 +36,17 @@
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:102358ea-2434-44a7-a497-374b37724460",
-    "acquired_at": "2026-11-10T05:08:55.260Z",
-    "expires_at": "2026-11-10T05:23:55.260Z",
-    "lease_commit": "d81839652689cef726e88df9a04cbf1d5d23a4b1",
-    "final_action": "released_atomically_with_receipt",
-    "released_at": "2026-11-10T05:12:48.272Z"
+    "holder": "chatgpt:ordinary:d89b64a4-bd90-4e70-b0be-3dacb29129a7",
+    "acquired_at": "2026-11-10T06:11:26.272Z",
+    "expires_at": "2026-11-10T06:26:26.272Z",
+    "lease_commit": "81f094e5c741a1f4327674fe12f06e362b5d27f8",
+    "final_action": "held"
   },
-  "outcome": "no_free_slot",
-  "blocker": {
-    "category": "unreconciled_existing_candidate",
-    "item_id": "S49B",
-    "task_id": "3a09108c8c474a0989118806b4a69f91",
-    "reason": "Existing Topview task present since 2026-11-10 03:11:50. Topview task fields and robot normalized-master-block-49B mapping agree on scene/model/duration/6 inputs/Unlimited 0 credits, but the exact six original input byte SHA and original Create ownership are not independently verified; queue still waiting_for_slot, task_id null. All six global slots occupied; no Create, no paid TinyFish."
-  },
-  "retryable": false,
+  "outcome": "in_progress",
+  "blocker": null,
+  "retryable": null,
   "acceptance": {
     "scheduled_run_executed": true,
-    "scheduled_run_id_observed": true,
-    "topview_read_only_scan_complete": true,
-    "queue_sha_verified_in_this_run": true,
-    "task_map_sha_verified_in_this_run": true,
-    "full_current_queue_task_ids_checked_this_run": true,
-    "tinyfish_authenticated_ui_this_run": false,
-    "tinyfish_file_transfer_this_run": false,
-    "tinyfish_unlimited_zero_this_run": false,
-    "production_submission_by_this_executor_verified": false,
-    "new_task_id_verified": false,
-    "third_party_candidate_topview_id_verified": true
-  },
-  "previous_cycle": {
-    "execution_instance_id": "e2f9fd02-b637-4f53-ab5e-4b215776c8c9",
-    "completed_at": "2026-11-10T04:16:21.423Z",
-    "outcome": "no_free_slot"
-  },
-  "source_head": "f3e81ad47ec74f2ebfbbbe45adf2f7d9a864aac6",
-  "updated_at": "2026-11-10T05:12:48.272Z",
-  "completed_at": "2026-11-10T05:12:48.272Z",
-  "retry_condition": "Only after fresh complete scan proves free slot; reconcile candidate task to exact canonical normalized prompt and original image SHA before claiming/creating the same item.",
-  "queue_reconciliation": {
-    "current_queue_item_count": 61,
-    "submitted_completed_count": 41,
-    "task_ids_all_found": true,
-    "live_transitions_unresolved": 0,
-    "queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
-    "task_map_sha256": "c5b9493e58d2ff8882e6302ae4d57c9fbf8f93be9c91c214d7d3cb18cfa22188",
-    "readiness_queue_sha_match": true,
-    "readiness_task_map_sha_match": true,
-    "sha256_independently_verified": true,
-    "existing_S49B_candidate_in_task_map_active_by_scene_49": true
-  },
-  "observed_new_task_candidate": {
-    "item_id": "S49B",
-    "task_id": "3a09108c8c474a0989118806b4a69f91",
-    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-    "provider_created_at": "2026-11-10 03:11:50",
-    "status": "init",
-    "model": "Seedance 2.0",
-    "duration_seconds": 15,
-    "resolution": 720,
-    "aspect_ratio": "16:9",
-    "input_count": 6,
-    "useUnlimitMode": true,
-    "creditsCost": 0,
-    "robot_mapping": "normalized match with master block 49B (not exact image-byte provenance)",
-    "queue_state": "waiting_for_slot",
-    "exact_match_verified": false
-  },
-  "owner_tasks_open": [
-    "self-heal-telemetry-stale-202611091849"
-  ],
-  "peer_reconciliation": {
-    "ordinary_actual_last_run_id": "bd9ac8b8-7860-832d-be85-81371979f6cb",
-    "ordinary_latest_result_run_id": "84168366-90f0-8322-9fc0-dc30d8f50624",
-    "relay_last_run_id": "8aec3d2d-621c-8320-9682-7683dd809b6a",
-    "relay_latest_result_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d",
-    "hh55_last_run_id": "b2ae1f2e-3728-8323-9e7e-f4e39e9545f4",
-    "hh55_latest_result_run_id": "1658357b-2320-8333-98ac-459762c93799"
+    "scheduled_run_id_observed": false
   }
 }
