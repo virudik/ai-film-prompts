@@ -2523,6 +2523,16 @@
    "thumb_bytes": 16092,
    "src_sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9"
   },
+  "references/full/masha-f-theatre.jpg": {
+   "thumb": "references/thumbs/full/masha-f-theatre.jpg.webp",
+   "width": 640,
+   "height": 735,
+   "src_width": 940,
+   "src_height": 1080,
+   "src_bytes": 360794,
+   "thumb_bytes": 55060,
+   "src_sha256": "939a4483c4d674b3fde7ff48541c483612897ae8d0ed84e519491b1e4d099083"
+  },
   "references/full/masha-f.jpg": {
    "thumb": "references/thumbs/full/masha-f.jpg.webp",
    "width": 640,
