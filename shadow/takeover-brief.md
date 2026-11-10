@@ -2,7 +2,7 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-11-10T03:19:01+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-11-10T03:20:57+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -16,7 +16,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 - USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 84845 B · `b5cf8309fba1355f`
 - README-AI-SYNC.md · копия на Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 18840 B · `e8d83475b63a94ee`
 - BACKUP-AI-RUNBOOK.md · копия на Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 21763 B · `6b0a0ba95d23937c`
-- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1514860 B · `9490fa6438791a5e`
+- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1516825 B · `a587833b74138438`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story. → `NEW-CHAT-HANDOFF.md` ✓
@@ -68,7 +68,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 67 | Татуинская связка 3/7 · Маша Р яростно спорит с продавцом фр | Wan 3 | DRAFT/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 | [66] | c128d0663287 |
 | 68 | Татуинская связка 4/7 · «ГБУ Жилищник района Татуина» метёт  | Wan 3 | DRAFT/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 | [67] | 575d95bf0e1e |
 | 69 | Татуинская связка 5/7 · Маша Р учит «Жилищник» убирать в лаз | Wan 3 | DRAFT/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 | [68] | 58013561a453 |
-| 70 | Татуинская связка 6/7 · бесшовный пролёт с улицы к столику С | Wan 3 | DRAFT/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 | [69] | a35252d0d4dc |
+| 70 | Татуинская связка 6/7 · бесшовный пролёт с улицы к столику С | Wan 3 | DRAFT/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 | [69] | 2489d0d29145 |
 | 71 | Виталик на троне из кальянов: «Вот такая вот история получил | Wan 3 | DRAFT/SLOW_PENDING | 4 | @Image1 @Image2 @Image3 @Image4 | [] | 998cc6c3fafe |
 | 72 | Виталик на троне из кальянов: «Всем привет» — пролог | Wan 3 | DRAFT/SLOW_PENDING | 4 | @Image1 @Image2 @Image3 @Image4 | [] | 5a9a477848a6 |
 | 73 | Виталик на троне: «Думаете это уже конец?» — перед титрами | Wan 3.0 | DRAFT/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 | [] | 44a3e069731c |
