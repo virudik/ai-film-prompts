@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-10T16:04:44+00:00",
-  "source_head": "169bc2bb099e77589a5c5944a0605f5824f6192a",
-  "source_fingerprint": "32f68e60bd825a408ef92c6339ff2a1e0e1c9afb2113ee49f0f2016a02497c30",
+  "checked_at": "2026-11-10T16:07:35+00:00",
+  "source_head": "788dc6a8bcc6f6fa37dfe609b5cde84cece50431",
+  "source_fingerprint": "4ca029044bf00bf0f8359fae77a87e8913fc562ce998093e47513f94fc7fcfe2",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -33,29 +33,34 @@
   },
   "reasons": [],
   "selected_work": {
-    "work_id": "SEREGIUS-PARODIES-20261110",
-    "title": "Пародии 74–87: заметки t540u и кадры t548u–t550u",
-    "status": "published_drafts_t550u_frames_connected",
-    "last_completed": "Кадры t548u–t550u положены по слотам и подключены в промпты, манифесты и parodies.html; в 81A Алексей отвечает «Я сам решу».",
-    "next_action": "Пародии 74–87 опубликованы как DRAFT, все кадры t540u подключены (t550u). Видео 74–87 не запускать без отдельной команды владельца, очередь не менять. Открытых слотов без файлов нет.",
-    "verified_at": "2026-11-10T11:51:41+00:00",
+    "work_id": "SEREGIUS-SASHA-PHOTOGRAPHER-20261110",
+    "title": "Сцена88: отдельная реклама фотографа Саши",
+    "status": "canon_published_live_verification_pending",
+    "last_completed": "Сцена88 оформлена:4 существующих PNG + исходный лист Саши,3 автономных промпта. Проверки master/site/инструкций прошли; общий набор тестов не получил новых ошибок, прежние сбои отражены в отчёте; оригиналы с Drive проверены обратным скачиванием. Сцена87 и остальные сцены не изменены; видео и расходы0.",
+    "next_action": "Проверить фактическую публикацию сцены88,галереи,4 PNG/4 превью на Pages; до проверки не объявлять сайт готовым. Фото повторно не генерировать. P2 ждёт реальный конецP1; видеозапуск отдельно.",
+    "verified_at": "2026-11-10T16:07:35+00:00",
     "blockers": [],
     "evidence": [
       {
-        "file": "reports/parody-frames-to-draw-2026-11-10.md",
-        "sha256": "f4b3d66fb7f7485d76d571115d32de79b715fd7ea8d0eb47868d4d69ecaf87a7"
+        "file": "reports/sasha-photographer-scene-88-2026-11-10.json",
+        "sha256": "bd32675e630e599a2cea6777124398ecf64f14676b0c1fffec2b152b128ff03d"
+      },
+      {
+        "file": "references/scenes/scene-88/manifest.json",
+        "sha256": "21b317137bad02374731f7276843f966625a07cdc218f299e89adb646baf647a"
       }
     ],
     "read_next": [
-      "reports/current-work-checkpoint.md"
+      "video-prompts.md",
+      "parodies.html"
     ],
     "checkpoint": {
       "file": "reports/current-work-checkpoint.md",
-      "anchor": "# 10.11.2026 — пародии 74–87 опубликованы, t540u внесён в промпты",
-      "sha256": "f70871290f4370979a4d88a0254b434a43cdd91feb6c2517c4b6fa149539784c"
+      "anchor": "# 10.11.2026 — Сцена 88: Саша. Даже слишком красиво",
+      "sha256": "f5987e9635fa18acc6c31f9fecfb561861863afbfa5025c8b53e328592a18e81"
     }
   },
-  "checkpoint_text": "# 10.11.2026 — пародии 74–87 опубликованы, t540u внесён в промпты\n\nwork_id: SEREGIUS-PARODIES-20261110\n\n- Свежий факт: сцены 74–87 есть в `video-prompts.md` как DRAFT. Кадры Грока лежат в `references/scenes/scene-74` … `scene-87` и в манифестах. Утверждения от 09.11, что дополнительные кадры не получены и что пародии — это только 7 PNG и 21 промпт, устарели и не должны запускать переделку.\n- Не откатывать принятое: рыбка в 75 и основной кадр `S75-fishing-start.png`; оба кадра 79 и оба кадра 80; единственный кадр комнаты жениха в 82; гонг в 74 не входит; 77 — мем «Яблоневый сад» без майонеза.\n- t540u сделано в текстах: 76A–C отдельные подсцены; 81A→82A→83A одна история, причина выбора Артёма посеяна фразой про пальто; 84A–C показывают панель, ракель и результат; 85A–C одна новость про гравитацию и тапочки; 86A–C открытие, ничтожная находка, восторг без зацикленного припева.\n- Сделано t548u–t550u (10.11, ~14:55 МСК): все 17 файлов положены по слотам и подключены в промпты и манифесты. Сябитова — два портрета одного лица: `references/full/hostess-syabitova.jpg` (анфас, главный, @Image5) и `references/full/hostess-syabitova-34.jpg` (вполоборота, @Image6). В 81A на реплику Гузеевой «…Ей же с вами скучно будет!» Алексей отвечает «Я сам решу». Видео не запускалось. Строка ниже — историческая.\n- Не сделано, потому что файлов нет и их нельзя выдумывать: портреты `references/full/hostess-guzeeva.jpg` (Лариса Гузеева), `hostess-syabitova.jpg` (Роза Сябитова), `star-gosling.jpg` (Райан Гослинг), `star-dicaprio.jpg` (Леонардо Ди Каприо), `star-pitt.jpg` (Брэд Питт) и отдельные кадры подсцен из `reports/parody-frames-to-draw-2026-11-10.md`. Картинки не генерировать из этого чата: их рисует владелец.\n- Следующий шаг: не пересоздавать опубликованные кадры и не запускать видео. Очередь генераций не менять. Когда владелец положит файл точно по имени слота, подключить его как вход подсцены.\n\nchecked_at: 2026-11-10T11:20:00+00:00\n",
+  "checkpoint_text": "# 10.11.2026 — Сцена 88: Саша. Даже слишком красиво\n\nwork_id: SEREGIUS-SASHA-PHOTOGRAPHER-20261110\n\n- Создана отдельная сцена88: 4 оригинальных PNG + исходный референс лица Саши, 3 автономных промпта, галерея. Сцена87 и все прежние сцены неизменны; очередь, approval, видео и кредиты не тронуты.\n- Проверка: reports/sasha-photographer-scene-88-2026-11-10.json.\n- Следующий шаг: Проверить публикацию именно сцены88 и её4 оригиналов/4превью на сайте, затем отметить этап публикации. Не генерировать фотографии повторно. Видеозапуск не разрешён; P2 ждёт настоящий конецP1. Старые задачи этим этапом не закрыты.\n\nchecked_at: 2026-11-10T16:06:56+00:00\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -149,7 +154,8 @@
     }
   ],
   "read_next": [
-    "reports/current-work-checkpoint.md"
+    "video-prompts.md",
+    "parodies.html"
   ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
@@ -543,8 +549,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "7cd70b5847386a3ede90e2f31f2fda1fd676bc97f6627c78bd363e1800b8eaa1",
-      "bytes": 37978
+      "sha256": "58f30bdb728d23407db4bfa22d10a44aeea78a5b9ec050947d6c6ea2e844840e",
+      "bytes": 38743
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -568,7 +574,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "7e2dd74ca83f6ed301c7eee9abb6500471bef2701fe23a1329c7ee4223bcad42",
+      "sha256": "3477b8f576e5c71e6db69fed79ce8c9d3c0e8fb8e170be7e09fce2754b1bcce9",
       "bytes": 5135
     },
     {
@@ -588,13 +594,18 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "2bff8529a52d7f6c9f11b34aa16bf6ce2eb54b31754b66a7915bf05b801873ec",
-      "bytes": 28649
+      "sha256": "d2a1bb631e87c2f58c324c20c86d72e4f3cd98b78838aee1cebed43de39a1e40",
+      "bytes": 27071
+    },
+    {
+      "file": "references/scenes/scene-88/manifest.json",
+      "sha256": "21b317137bad02374731f7276843f966625a07cdc218f299e89adb646baf647a",
+      "bytes": 7166
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "58b68b92fbc82f16a047f8941ebef05c1a547d86024958cb588870573a339bf7",
-      "bytes": 45395
+      "sha256": "af0e221af94f56368be25a7df06aa589f99765733a71f350f9df9066ed84d9c3",
+      "bytes": 46422
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -602,30 +613,30 @@
       "bytes": 71765
     },
     {
-      "file": "reports/parody-frames-to-draw-2026-11-10.md",
-      "sha256": "f4b3d66fb7f7485d76d571115d32de79b715fd7ea8d0eb47868d4d69ecaf87a7",
-      "bytes": 14169
+      "file": "reports/sasha-photographer-scene-88-2026-11-10.json",
+      "sha256": "bd32675e630e599a2cea6777124398ecf64f14676b0c1fffec2b152b128ff03d",
+      "bytes": 12191
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "0a0149439bf7b1ef1574b05075cb8a3c6f2571b70a7f47cbc6455806c216bd9b",
-      "bytes": 37779
+      "sha256": "2c9a28709c74c4b0bc8842c965adbaee9365075b4bd411d3f796799ca8ae1079",
+      "bytes": 38544
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "84a39c5d206e6a4e82c00f7ee3d594cdabfc2cd76b60691aa45c89a919c57f7f",
-      "bytes": 31559
+      "sha256": "b287d4f0438608ed811d59f36e097c6303826c268da66aa30e69f1fcfce83feb",
+      "bytes": 31976
     },
     {
       "file": "video-prompts.md",
-      "sha256": "2db6571ebb4c27ecc5261115409ee81a18f4a96a0732749ace38b434e6d93ce0",
-      "bytes": 1824916
+      "sha256": "fc060c599a25ad56cd77141f864834ec430b6b2af7b2676a26b86d458f08bc4c",
+      "bytes": 1855431
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "75c32eb7f1149ae327f2ff405b680fdf48baf4554338ebc4e10efb44b29b2b1a",
-      "bytes": 103897
+      "sha256": "8c73c34c7414516190b6930669dc98a46ddb39d81b962eb1ea97a9accfc798cd",
+      "bytes": 107369
     }
   ],
-  "packet_bytes": 7516
+  "packet_bytes": 5839
 }

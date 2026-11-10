@@ -1,0 +1,178 @@
+{
+  "schema_version": 2,
+  "project_id": "seregius",
+  "scene_id": 88,
+  "production_state": "DRAFT",
+  "video_launch_approval": false,
+  "technical_success_is_editorial_approval": false,
+  "references": [
+    {
+      "media_type": "image",
+      "status": "available",
+      "technical_success_is_editorial_approval": false,
+      "video_launch_approval": false,
+      "path": "references/full/sasha.jpg",
+      "asset_id": "references/full/sasha.jpg",
+      "caption": "Саша — только лицо и возраст; одежда фотографа по сцене",
+      "role": "identity",
+      "sha256": "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102",
+      "bytes": 289714,
+      "width": 1536,
+      "height": 1536,
+      "owner_approval": "user_supplied_identity",
+      "reused_from_existing_pack": true
+    },
+    {
+      "media_type": "image",
+      "status": "available",
+      "technical_success_is_editorial_approval": false,
+      "video_launch_approval": false,
+      "path": "references/scenes/scene-88/S88-hero-sunset.png",
+      "sha256": "72745ce113010d629df8a563d30595d3d11bcc48ac1817fb9715729b06aec0d0",
+      "bytes": 2419972,
+      "width": 1672,
+      "height": 941,
+      "preview": "references/scenes/scene-88/previews/S88-hero-sunset.webp",
+      "drive_id": "1Ttl4JUd2mLzq1yU93dyK1i4ukd00Are9",
+      "drive_url": "https://drive.google.com/file/d/1Ttl4JUd2mLzq1yU93dyK1i4ukd00Are9/view",
+      "asset_id": "references/scenes/scene-88/S88-hero-sunset.png",
+      "caption": "Герой на закате",
+      "role": "scene_staging",
+      "clip": "88",
+      "primary_still": true,
+      "active_prompt_input": true,
+      "owner_approval": "not_reviewed",
+      "source": "Existing ChatGPT image from this conversation, original bytes preserved; no generation in publication pass",
+      "qc": {
+        "single_frame": true,
+        "no_caption_overlay": true,
+        "collage": false,
+        "face_identity_authority": "references/full/sasha.jpg",
+        "editorial_approval": false
+      }
+    },
+    {
+      "media_type": "image",
+      "status": "available",
+      "technical_success_is_editorial_approval": false,
+      "video_launch_approval": false,
+      "path": "references/scenes/scene-88/S88-family-dynasty.png",
+      "sha256": "6ddc6ab8aa71ad91ee51c4a6d83d751cb7d07d0e43094349856c058b1cd8d7a0",
+      "bytes": 2892540,
+      "width": 1672,
+      "height": 941,
+      "preview": "references/scenes/scene-88/previews/S88-family-dynasty.webp",
+      "drive_id": "1ZUSbz0z7-yYW-XzrIB_WxbFJksPwsd3G",
+      "drive_url": "https://drive.google.com/file/d/1ZUSbz0z7-yYW-XzrIB_WxbFJksPwsd3G/view",
+      "asset_id": "references/scenes/scene-88/S88-family-dynasty.png",
+      "caption": "Семья как династия",
+      "role": "scene_staging",
+      "clip": "88",
+      "primary_still": false,
+      "active_prompt_input": true,
+      "owner_approval": "not_reviewed",
+      "source": "Existing ChatGPT image from this conversation, original bytes preserved; no generation in publication pass",
+      "qc": {
+        "single_frame": true,
+        "no_caption_overlay": true,
+        "collage": false,
+        "face_identity_authority": "references/full/sasha.jpg",
+        "editorial_approval": false
+      }
+    },
+    {
+      "media_type": "image",
+      "status": "available",
+      "technical_success_is_editorial_approval": false,
+      "video_launch_approval": false,
+      "path": "references/scenes/scene-88/S88-rain-shoot.png",
+      "sha256": "96caa9b32bf004872f69cf0d10e1f14ae21cd66e998c766b301b1dc5b574cd63",
+      "bytes": 3053251,
+      "width": 1672,
+      "height": 941,
+      "preview": "references/scenes/scene-88/previews/S88-rain-shoot.webp",
+      "drive_id": "1zSr7E0TcVFCrwe5o2_4lnrYNyG1ym7y5",
+      "drive_url": "https://drive.google.com/file/d/1zSr7E0TcVFCrwe5o2_4lnrYNyG1ym7y5/view",
+      "asset_id": "references/scenes/scene-88/S88-rain-shoot.png",
+      "caption": "Фотосессия под дождём",
+      "role": "scene_staging",
+      "clip": "88",
+      "primary_still": false,
+      "active_prompt_input": true,
+      "owner_approval": "not_reviewed",
+      "source": "Existing ChatGPT image from this conversation, original bytes preserved; no generation in publication pass",
+      "qc": {
+        "single_frame": true,
+        "no_caption_overlay": true,
+        "collage": false,
+        "face_identity_authority": "references/full/sasha.jpg",
+        "editorial_approval": false
+      }
+    },
+    {
+      "media_type": "image",
+      "status": "available",
+      "technical_success_is_editorial_approval": false,
+      "video_launch_approval": false,
+      "path": "references/scenes/scene-88/S88-studio-reveal.png",
+      "sha256": "d246e5d9e350a29ad8c1d0c83aa0cae7957f8a3ceebb73a2cf811e3b2dfdbd0e",
+      "bytes": 2816419,
+      "width": 1672,
+      "height": 941,
+      "preview": "references/scenes/scene-88/previews/S88-studio-reveal.webp",
+      "drive_id": "11rki35ACd0hJbHXyWVR8pH6UW2sG3e9N",
+      "drive_url": "https://drive.google.com/file/d/11rki35ACd0hJbHXyWVR8pH6UW2sG3e9N/view",
+      "asset_id": "references/scenes/scene-88/S88-studio-reveal.png",
+      "caption": "Показ результата клиентам",
+      "role": "scene_staging",
+      "clip": "88",
+      "primary_still": false,
+      "active_prompt_input": true,
+      "owner_approval": "not_reviewed",
+      "source": "Existing ChatGPT image from this conversation, original bytes preserved; no generation in publication pass",
+      "qc": {
+        "single_frame": true,
+        "no_caption_overlay": true,
+        "collage": false,
+        "face_identity_authority": "references/full/sasha.jpg",
+        "editorial_approval": false
+      }
+    }
+  ],
+  "approved": [],
+  "rejected": [],
+  "updated_at": "2026-11-10T16:06:56+00:00",
+  "publication": "Owner-requested new Sasha photographer scene; existing images only; no video launch",
+  "clips": [
+    {
+      "id": "88",
+      "heading": "88 · Саша. Даже слишком красиво",
+      "stills": [
+        "references/scenes/scene-88/S88-hero-sunset.png",
+        "references/scenes/scene-88/S88-family-dynasty.png",
+        "references/scenes/scene-88/S88-rain-shoot.png",
+        "references/scenes/scene-88/S88-studio-reveal.png"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/sasha.jpg",
+        "@Image2": "references/scenes/scene-88/S88-hero-sunset.png",
+        "@Image3": "references/scenes/scene-88/S88-family-dynasty.png",
+        "@Image4": "references/scenes/scene-88/S88-rain-shoot.png",
+        "@Image5": "references/scenes/scene-88/S88-studio-reveal.png"
+      }
+    }
+  ],
+  "additional_references_pending": [],
+  "continuation_inputs": {
+    "seedance_part_2": {
+      "kind": "actual_video_tail",
+      "source": "Scene 88 Seedance 2.0 Part 1",
+      "duration_s": 3,
+      "status": "waiting_for_real_part1",
+      "not_synthetic": true
+    }
+  },
+  "photo_gallery_page": "parodies.html#scene-88",
+  "drive_folder": "https://drive.google.com/drive/folders/1m0kKr532uOqOzyoIZh_9ZlrWfOoQtNxu",
+  "origin_scene_preserved": 87
+}

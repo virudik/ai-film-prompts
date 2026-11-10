@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "work_id": "SEREGIUS-SASHA-PHOTOGRAPHER-20261110",
+  "project": "seregius",
+  "scene_id": 88,
+  "title": "Саша. Даже слишком красиво",
+  "checked_at": "2026-11-10T16:07:35+00:00",
+  "source_head": "788dc6a8bcc6f6fa37dfe609b5cde84cece50431",
+  "source_master_sha256": "2db6571ebb4c27ecc5261115409ee81a18f4a96a0732749ace38b434e6d93ce0",
+  "master_sha256": "fc060c599a25ad56cd77141f864834ec430b6b2af7b2676a26b86d458f08bc4c",
+  "old_scene_count": 44,
+  "new_scene_count": 45,
+  "old_prompt_count": 240,
+  "new_prompt_count": 243,
+  "prior_scene_hashes": {
+    "13": "7ac942100e0306378024408d8821a17d31e27642f4161afc2a49c2710bbad229",
+    "16": "0956b8918406964d5a5f0ce861bdcbd7a7a6efa65863f00320c3b67360358ec5",
+    "28": "6a69ca7e1383ebf9922f965b6e80d3ff8326a0f00965a7654127a6e8778b587a",
+    "33": "606f09055d995095eb4d8b8d396a59d3cdc44ad51b8cb9e318fbc3050d3eae05",
+    "36": "398eebe21c6d166a5baac66546d173a93f3f474fbfe851c9116d176349e08087",
+    "41": "2c1172aae5a63f243c6ec0100dbecaa9465d447aa2145a5f777e8f11ae79e6d6",
+    "42": "be1f3095af9a80acbb00fdb8f838d8a3745200cb99d1f3bc74168d75e1700755",
+    "48": "4f6ca06861390c516c4e7d905a73805c0f62f4428f9b5f43dca72afeb3e8d02a",
+    "49": "92e4732e07e584fffcf9cffa04bed72252414be8b91c5ed5e3835644ecdd6bca",
+    "50": "485b336f57aff3a2546f11d6b294717559dbf00649d95ee614b8e20285aa5058",
+    "51": "66aaf205af98f7fac2a8384a4d75aa7ccaf87f1cf91f3207a6f8396946c82168",
+    "52": "3a6e0aabf5ff29cb0aba93d47b044b848b8d476a3019e928878a26b226f79ce8",
+    "56": "7246463f83e34a35bcc4f96c45f1a8bb663269163b204fe748c0ac7b7a8c85b9",
+    "57": "c8bcd9939a11a2b88d28a3e5f5d492498f09a4f7231e19d766f1084b9323adc2",
+    "58": "243fa8b9b42fd86131e7e369f69992328092e6fa43b5f5b51560a4e799517401",
+    "59": "ef46416730bb23b91e0d0ae5e8f1500c1d06c39d8a8ad259eabb6bb0272b7576",
+    "60": "4358e23d9f008adc5a78ac2ddf6ab94c448049e91285ca186d119cb9fa5ad4ff",
+    "61": "015146859e7736a8603b713bb69cb0580eae66749279aa04eec443b02ed92e0b",
+    "62": "484ebd5a167d7745826a15d20e262d912ebe222ec395be74bc0b709906e947ca",
+    "63": "e760c9ff96cdabdcd066a200248aee32eaf3b3d9a4142dd8c950c30c80b77004",
+    "64": "a982dacfa5bb7f19c746afb2d313703671406a471da424351881568483bd57a7",
+    "65": "9d0732028ffd6a9a34c2cb91b571cb0b88d0668c9e88102ab9ba193dea3386d9",
+    "66": "1a80b3e4fe8df44de266914ab94720601ce7de57855a9f11c972d310b07f2da6",
+    "67": "b579d0a1a0c848a7f1ca7ac495eb2d85a3cf429c8b02a6318375934be335fbf9",
+    "68": "1c9e6c5bd9f1ea57c15c294f579537316d3f7b0a855af21d2cbd78056985c0e6",
+    "69": "a9514e3675d88c9999186dbc4e87d13af6c045c87c50910054f2edc92790f42f",
+    "70": "069689a9f01b20ac34e7f4ed37aaebbf6cd119d2a22ddd5d049dd1d8f4e3b928",
+    "71": "71f5d2af12e3eb0f6d41a7478a1ff54570c6cac8229eff2520770ff95ccf81c5",
+    "72": "d069843cea286d83970e42b706aaa19c85f23524817b3b2b5a2bbae5f47a5ffe",
+    "73": "587c1883a35e9361c2f873882da176bfdbfdd081c19ec44a534464b2f70a38c8",
+    "74": "4a1605c7753f74655ed520fa3ecda0007f766ea1d8a2e16255b77fef46639531",
+    "75": "852f36ed484adcc688326f2255eef4545936fef7cca7fb6bd4254486e3e5d0b3",
+    "76": "d59583b443d112c49956ad3db8f88ee7f9dafd9b8d6f3de814d35290eb3dd4e7",
+    "77": "5399754e5e833004e92c324697d89c51d6375f14ece015d457e6832d47c976d3",
+    "78": "c8c43c0fdd0c9220957d5602da2edfbe2c4f17fba24b99c6be00e944eed77d47",
+    "79": "4d05772dcb69c9b6ee867bc7fd02a205180f33bebf3a1b4368be90e742c6bd8d",
+    "80": "825fd093f4cc70e913c3d8c0aabe80d2390b4d5a5302058c50745bc83a87282f",
+    "81": "3bb4d5f4c71482a8570a617d0542bf79ab854b73c4a3253f0f9ce918cafb20ea",
+    "82": "e8faa0d9eda378c0f80800f596e58060cd5bcd0a6f41f24e4b0ba534f47d1196",
+    "83": "b91f72116eb4ea6db9cac9b4dfdee534a28da3a8a40ddd61139495df3a9f12ea",
+    "84": "e7e4e0032f0cde7715ab994a510308c2abf3c50b722742fab70a1766b94e22bd",
+    "85": "9ffed58e7291271453e49b336ba2cc8137c49d66edb33c930c4a52de9a4b63e4",
+    "86": "0c88663872d5efa9dfc43f53e65cbb696e47d88fa0b6e3c59fa47c1ebd3a79e2",
+    "87": "dc10fdedc91addf47a606b8714b140af23a4e56ef5cb497017f1f007ae5a131e"
+  },
+  "old_scenes_unchanged": true,
+  "source_scene_87_unchanged": true,
+  "protected_files": {
+    "ops/topview-launch-queue.json": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+    "review-ledger.json": "64617b7308e4a4cfdd7f97c9b3d494dda170b844277abdead71c29425fae5839",
+    "references/scenes/scene-87/manifest.json": "929d4010517ac7e7ec3f4883d748cb59a7d2182e0c2942d68f6f264526676f99",
+    "references/full/sasha.jpg": "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102"
+  },
+  "assets": [
+    {
+      "path": "references/scenes/scene-88/S88-hero-sunset.png",
+      "caption": "Герой на закате",
+      "sha256": "72745ce113010d629df8a563d30595d3d11bcc48ac1817fb9715729b06aec0d0",
+      "md5": "a2600525adcbdc0cbd74b8145a1f0e53",
+      "bytes": 2419972,
+      "width": 1672,
+      "height": 941,
+      "preview": "references/scenes/scene-88/previews/S88-hero-sunset.webp",
+      "drive_id": "1Ttl4JUd2mLzq1yU93dyK1i4ukd00Are9",
+      "drive_url": "https://drive.google.com/file/d/1Ttl4JUd2mLzq1yU93dyK1i4ukd00Are9/view",
+      "preview_sha256": "4021bac71f589e8a706ebfe6314fd5680104e75001ef4a71741d2c3d52e67433"
+    },
+    {
+      "path": "references/scenes/scene-88/S88-family-dynasty.png",
+      "caption": "Семья как династия",
+      "sha256": "6ddc6ab8aa71ad91ee51c4a6d83d751cb7d07d0e43094349856c058b1cd8d7a0",
+      "md5": "abf672e47b91a0c66e0a337f8c634456",
+      "bytes": 2892540,
+      "width": 1672,
+      "height": 941,
+      "preview": "references/scenes/scene-88/previews/S88-family-dynasty.webp",
+      "drive_id": "1ZUSbz0z7-yYW-XzrIB_WxbFJksPwsd3G",
+      "drive_url": "https://drive.google.com/file/d/1ZUSbz0z7-yYW-XzrIB_WxbFJksPwsd3G/view",
+      "preview_sha256": "16123d90052969db26775be8bffdea418bb72c16992b9c30dd5c97c8612ff696"
+    },
+    {
+      "path": "references/scenes/scene-88/S88-rain-shoot.png",
+      "caption": "Фотосессия под дождём",
+      "sha256": "96caa9b32bf004872f69cf0d10e1f14ae21cd66e998c766b301b1dc5b574cd63",
+      "md5": "1ef904960060519a90c44f74117f618a",
+      "bytes": 3053251,
+      "width": 1672,
+      "height": 941,
+      "preview": "references/scenes/scene-88/previews/S88-rain-shoot.webp",
+      "drive_id": "1zSr7E0TcVFCrwe5o2_4lnrYNyG1ym7y5",
+      "drive_url": "https://drive.google.com/file/d/1zSr7E0TcVFCrwe5o2_4lnrYNyG1ym7y5/view",
+      "preview_sha256": "06c67e8895b535639cd74bc98f2f84b94eff57cc3644da166a7e84ba7ce5dcc9"
+    },
+    {
+      "path": "references/scenes/scene-88/S88-studio-reveal.png",
+      "caption": "Показ результата клиентам",
+      "sha256": "d246e5d9e350a29ad8c1d0c83aa0cae7957f8a3ceebb73a2cf811e3b2dfdbd0e",
+      "md5": "ffbf0abb57529d6b8bd3f35f708ce403",
+      "bytes": 2816419,
+      "width": 1672,
+      "height": 941,
+      "preview": "references/scenes/scene-88/previews/S88-studio-reveal.webp",
+      "drive_id": "11rki35ACd0hJbHXyWVR8pH6UW2sG3e9N",
+      "drive_url": "https://drive.google.com/file/d/11rki35ACd0hJbHXyWVR8pH6UW2sG3e9N/view",
+      "preview_sha256": "b4b0ac60e4a9e7a1ffccd628fa267d17848411a2538523c439a600b8d15f604b"
+    }
+  ],
+  "source_identity": {
+    "path": "references/full/sasha.jpg",
+    "sha256": "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102",
+    "role": "face and age only; no robe transfer"
+  },
+  "prompt_count_added": 3,
+  "prompt_sha256": [
+    "a5382095017fbb03284ae6a262d300e215291b572b136173259b52171b0be4ef",
+    "11cefeadd0e8b8e23b735a305737453b6d703c5e98b7aee6b8f2a859a7b250e5",
+    "900f986fc43bb5cd1af81034b4b4eab9744cadaf1f477a700f182c4c2ae56360"
+  ],
+  "new_images_generated": 0,
+  "images_original_bytes_preserved": true,
+  "video_launches": 0,
+  "credits_spent": 0,
+  "video_launch_approval": false,
+  "owner_approval": "not_reviewed",
+  "production_state": "DRAFT",
+  "seedance_part2_tail": "waiting_for_actual_part1_final_3_seconds",
+  "drive_folder": "https://drive.google.com/drive/folders/1m0kKr532uOqOzyoIZh_9ZlrWfOoQtNxu",
+  "drive_uploads_complete": true,
+  "local_validation": "passed_no_new_test_regressions",
+  "live_publication_verified": false,
+  "workflow_run_id": "42850680274",
+  "full_test_comparison": {
+    "baseline": {
+      "tests_run": 534,
+      "failures": [
+        "test_prompt_send_qc.PromptSendQcTests.test_handoff_is_one_pointer_line",
+        "test_prompt_send_qc.PromptSendQcTests.test_topview_keeps_free_route_and_points_at_receipt",
+        "test_raznoe_resource_scene3.RaznoeResourceScene3.test_native_116_cut_keeps_source_and_names_unaccepted_attempts",
+        "test_raznoe_resource_scene3.RaznoeResourceScene3.test_scene_is_horizontal_and_not_approved",
+        "test_topview_prompt_match.PromptMatch.test_every_master_block_is_found_and_labelled"
+      ],
+      "errors": [],
+      "skipped": 0,
+      "all_tests_passed": false
+    },
+    "after": {
+      "tests_run": 534,
+      "failures": [
+        "test_prompt_send_qc.PromptSendQcTests.test_handoff_is_one_pointer_line",
+        "test_prompt_send_qc.PromptSendQcTests.test_topview_keeps_free_route_and_points_at_receipt",
+        "test_raznoe_resource_scene3.RaznoeResourceScene3.test_native_116_cut_keeps_source_and_names_unaccepted_attempts",
+        "test_raznoe_resource_scene3.RaznoeResourceScene3.test_scene_is_horizontal_and_not_approved",
+        "test_topview_prompt_match.PromptMatch.test_every_master_block_is_found_and_labelled"
+      ],
+      "errors": [],
+      "skipped": 0,
+      "all_tests_passed": false
+    },
+    "new_regressions": [],
+    "no_new_regressions": true,
+    "full_suite_green": false
+  },
+  "scene_block_sha256": "a7ff02c6f8f719c086f702487688eec119ef2434d0eb194625f43ba262ab6476",
+  "drive_readback": {
+    "checked_at": "2026-11-10T16:03:38+00:00",
+    "verified_count": 4,
+    "results": [
+      {
+        "drive_id": "1Ttl4JUd2mLzq1yU93dyK1i4ukd00Are9",
+        "path": "references/scenes/scene-88/S88-hero-sunset.png",
+        "sha256": "72745ce113010d629df8a563d30595d3d11bcc48ac1817fb9715729b06aec0d0",
+        "bytes": 2419972,
+        "verified": true
+      },
+      {
+        "drive_id": "1ZUSbz0z7-yYW-XzrIB_WxbFJksPwsd3G",
+        "path": "references/scenes/scene-88/S88-family-dynasty.png",
+        "sha256": "6ddc6ab8aa71ad91ee51c4a6d83d751cb7d07d0e43094349856c058b1cd8d7a0",
+        "bytes": 2892540,
+        "verified": true
+      },
+      {
+        "drive_id": "1zSr7E0TcVFCrwe5o2_4lnrYNyG1ym7y5",
+        "path": "references/scenes/scene-88/S88-rain-shoot.png",
+        "sha256": "96caa9b32bf004872f69cf0d10e1f14ae21cd66e998c766b301b1dc5b574cd63",
+        "bytes": 3053251,
+        "verified": true
+      },
+      {
+        "drive_id": "11rki35ACd0hJbHXyWVR8pH6UW2sG3e9N",
+        "path": "references/scenes/scene-88/S88-studio-reveal.png",
+        "sha256": "d246e5d9e350a29ad8c1d0c83aa0cae7957f8a3ceebb73a2cf811e3b2dfdbd0e",
+        "bytes": 2816419,
+        "verified": true
+      }
+    ]
+  },
+  "tests_summary": ":16, continuous movement, overcast natural light, image only. No dialogue, native audio, subtitles, graphics, fake logo, real-looking city identity or fabricated technical result.\\n\\nNEGATIVE / FRAME FILL:\\nNo camera island, no HONOR branding, no exact handset, no water immersion, no impact, no fake demonstration, no replay of @Video1, no device duplication, no sideways framing, no pillarbox, letterbox, borders or captions. Fill entire portrait 720×1280.\\n```\\n\\n</div>\\n\\n</div>\\n'\n\n======================================================================\nFAIL: test_every_master_block_is_found_and_labelled (test_topview_prompt_match.PromptMatch.test_every_master_block_is_found_and_labelled)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/home/runner/work/ai-film-prompts/ai-film-prompts/tests/test_topview_prompt_match.py\", line 59, in test_every_master_block_is_found_and_labelled\n    self.assertEqual(len(labels), sum(line.startswith(\"```text\") for line in MASTER.splitlines()))\nAssertionError: 243 != 240\n\n----------------------------------------------------------------------\nRan 534 tests in 36.587s\n\nFAILED (failures=5)\n"
+}

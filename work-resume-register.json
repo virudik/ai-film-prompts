@@ -1,8 +1,47 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-10T11:51:41+00:00",
+  "last_updated_at": "2026-11-10T16:07:35+00:00",
   "active_work": [
+    {
+      "work_id": "SEREGIUS-SASHA-PHOTOGRAPHER-20261110",
+      "project": "seregius",
+      "title": "Сцена88: отдельная реклама фотографа Саши",
+      "status": "canon_published_live_verification_pending",
+      "created_at": "2026-11-10T16:06:56+00:00",
+      "updated_at": "2026-11-10T16:07:35+00:00",
+      "next_action": "Проверить фактическую публикацию сцены88,галереи,4 PNG/4 превью на Pages; до проверки не объявлять сайт готовым. Фото повторно не генерировать. P2 ждёт реальный конецP1; видеозапуск отдельно.",
+      "completed": [
+        "Создана отдельная сцена88: 4 оригинальных PNG + исходный референс лица Саши, 3 автономных промпта, галерея. Сцена87 и все прежние сцены неизменны; очередь, approval, видео и кредиты не тронуты."
+      ],
+      "recovery": {
+        "schema_version": 1,
+        "verified_at": "2026-11-10T16:07:35+00:00",
+        "last_completed": "Сцена88 оформлена:4 существующих PNG + исходный лист Саши,3 автономных промпта. Проверки master/site/инструкций прошли; общий набор тестов не получил новых ошибок, прежние сбои отражены в отчёте; оригиналы с Drive проверены обратным скачиванием. Сцена87 и остальные сцены не изменены; видео и расходы0.",
+        "next_action": "Проверить фактическую публикацию сцены88,галереи,4 PNG/4 превью на Pages; до проверки не объявлять сайт готовым. Фото повторно не генерировать. P2 ждёт реальный конецP1; видеозапуск отдельно.",
+        "checkpoint": {
+          "file": "reports/current-work-checkpoint.md",
+          "anchor": "# 10.11.2026 — Сцена 88: Саша. Даже слишком красиво",
+          "sha256": "f5987e9635fa18acc6c31f9fecfb561861863afbfa5025c8b53e328592a18e81"
+        },
+        "evidence": [
+          {
+            "file": "reports/sasha-photographer-scene-88-2026-11-10.json",
+            "sha256": "bd32675e630e599a2cea6777124398ecf64f14676b0c1fffec2b152b128ff03d"
+          },
+          {
+            "file": "references/scenes/scene-88/manifest.json",
+            "sha256": "21b317137bad02374731f7276843f966625a07cdc218f299e89adb646baf647a"
+          }
+        ],
+        "read_next": [
+          "video-prompts.md",
+          "parodies.html"
+        ],
+        "blockers": []
+      },
+      "last_result": "Сцена88 оформлена:4 существующих PNG + исходный лист Саши,3 автономных промпта. Проверки master/site/инструкций прошли; общий набор тестов не получил новых ошибок, прежние сбои отражены в отчёте; оригиналы с Drive проверены обратным скачиванием. Сцена87 и остальные сцены не изменены; видео и расходы0."
+    },
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
@@ -1681,9 +1720,9 @@
   ],
   "archived_completed_work": "archive/work-resume-register-archive.json",
   "resume_focus": {
-    "work_id": "SEREGIUS-PARODIES-20261110",
+    "work_id": "SEREGIUS-SASHA-PHOTOGRAPHER-20261110",
     "project": "seregius",
-    "set_at": "2026-11-10T11:51:41+00:00",
+    "set_at": "2026-11-10T16:07:35+00:00",
     "reason": "Explicitly selected by the authorized task writer"
   },
   "last_instruction_review": {

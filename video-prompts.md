@@ -6,18 +6,18 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**44 сцен к генерации/доработке · 240 полных текстов промта**
+**45 сцен к генерации/доработке · 243 полных текста промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 24** сцены сейчас в медленной генерации: **16, 28, 42, 48, 49, 51, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 66, 67, 68, 69, 70, 71, 72, 73** — **6 активных Topview-задач / 6 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
-- **Последняя оформленная активная сцена:** 87 — Реклама: Саша, лучший фотограф. Пародии 74–80 обновлены 10.11 по команде t506u: кадры и промпты. 81–87 добавлены как DRAFT, номера оставлены. У 74 восемь подсцен 74A–H; основной кадр 75 — рыбалка на месяце, рыбка возвращена. Видео не запускались; очередь и монтажный порядок не менялись; это не одобрение роликов. 10.11 t540u: подсцены 76, 84, 85, 86 и история 81–83 внесены в промпты. 10.11 t550u: портреты Гузеевой, Сябитовой (анфас + вполоборота, одно лицо), Гослинга, Ди Каприо, Питта и отдельные кадры подсцен 76/84/85/86 подключены; в 81A Алексей отвечает Гузеевой «Я сам решу».
+- **Последняя оформленная активная сцена:** 88 — Саша. Даже слишком красиво. Отдельная версия ChatGPT по прямой команде владельца 10.11: 4 имеющихся PNG + исходный лист Саши, 30 с и 2 × 15 с. DRAFT, без запуска видео; 87 сохранена. Ранее: 87 — Реклама: Саша, лучший фотограф. Пародии 74–80 обновлены 10.11 по команде t506u: кадры и промпты. 81–87 добавлены как DRAFT, номера оставлены. У 74 восемь подсцен 74A–H; основной кадр 75 — рыбалка на месяце, рыбка возвращена. Видео не запускались; очередь и монтажный порядок не менялись; это не одобрение роликов. 10.11 t540u: подсцены 76, 84, 85, 86 и история 81–83 внесены в промпты. 10.11 t550u: портреты Гузеевой, Сябитовой (анфас + вполоборота, одно лицо), Гослинга, Ди Каприо, Питта и отдельные кадры подсцен 76/84/85/86 подключены; в 81A Алексей отвечает Гузеевой «Я сам решу».
 - **История предыдущего оформления:** 73 — Виталик на троне перед титрами; титры — на существующем блоке 28; 71 после титров и перед трейлерами. Новых запусков нет. Прежде: 72 — пролог: Виталик на том же троне из кальянов в кантине Татуина: «Всем привет… Всем приятного просмотра. История-то понятная, житейская»; 71 — его финальное слово и объявление трейлеров. Обе в двух версиях: с заигрывающими инопланетянками по бокам (главная) и без (владелец 30.10; Wan3.0, 30 с; ждут три картинки от открытого чата ChatGPT Work). Прежняя запись: 70 — Татуин: непрерывный пролёт с улицы к столику Серёги в кантине. Связка 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65 использует настоящие последние3с предыдущего звена; вся уличная цепь и65/70 выбраны Wan3.0,30с,52P1–P6 остаются Seedance2.0. В67–69 одна и та же дыня и сумка;69 убирает оставленную Стичем кучу в лазерный совок. Новые сцены остаются DRAFT, видеостыки ожидаются; приоритет до49→50→51→28, ready-skip сохраняется. Никаких видео этой правкой не запущено.
 - **Ревизия Control Center:** дата определяется автоматически по содержательному изменению canonical master; чистая техническая пересинхронизация без изменения содержимого дату ревизии не меняет.
 - **Последняя полная синхронизация:** **10.11.2026 · текущая по live Topview/Drive сверке**. Точное техническое время свежей telemetry берётся из `topview-status.json.checked_at`.
 
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
-**Синхронизация контекста:** **10.11.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **44 актуальных сцен и 240 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 43, 44, 45, 46, 47, 53, 54 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16, 28, 42, 48, 49, 51, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 66, 67, 68, 69, 70, 71, 72, 73**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **10.11.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **45 актуальных сцен и 243 полных текста промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 43, 44, 45, 46, 47, 53, 54 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16, 28, 42, 48, 49, 51, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 66, 67, 68, 69, 70, 71, 72, 73**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 **Новые промты 09.10.2026:** Scene 20 расширена вставками 12–13, добавлены Scenes 29–34 с полными production-промтами и имеющимися референсами: кантина (часть 3), три разрушительных боя, исследование руин и вход в храм. Это новые тексты для запуска, а не уже выполненные/одобренные Topview-результаты. Танцы Scene 28 и их неподтверждённые вспомогательные фото не менялись.
 
@@ -139,6 +139,7 @@
 | 85 | [Срочные новости: Саша и Маша Ф](#scene-85) | Саша, Маша Ф; подсцены 85A–C | Одна новость: гравитация и тапочки. Маша Ф не Маша Р. DRAFT; видео не запускать. |
 | 86 | [Саша и Маша Ф: «Эх, распаковочка»](#scene-86) | Саша, Маша Ф; подсцены 86A–C | Открытие, ничтожная находка, восторг. Куплеты не зацикливать. DRAFT; видео не запускать. |
 | 87 | [Реклама: Саша, лучший фотограф](#scene-87) | Саша; три кадра одного ролика | Черновик рекламы лучшего фотографа. DRAFT; видео не запускать. |
+| 88 | [Саша. Даже слишком красиво](#scene-88) | Саша; четыре постановки одного ролика | Отдельная пафосно-комедийная реклама. Семья-династия, дождь, фото на пропуск. DRAFT; видео не запускать. |
 
 ### 🎬 Татуинская связка — единый порядок сцепления и запуска
 
@@ -15175,6 +15176,201 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 ```
 
 ---
+
+</div>
+
+</div>
+
+---
+
+<a id="scene-88"></a>
+
+## Сцена 88 — Саша. Даже слишком красиво
+
+<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["parody","comedy","photographer","owner_authorized_creation","stills_published","not_a_video_launch"]} -->
+
+**Статус:** DRAFT — отдельная авторская версия ChatGPT, создана по прямой команде владельца 10.11.2026. Тексты и четыре имеющихся постановочных кадра оформлены; это не приёмка будущего видео и не разрешение на запуск. Сцена 87 сохранена без изменений. Основная версия — 30 с Wan 3.0; тот же текст для Seedance 2.5 — только по отдельному выбору владельца. Альтернатива — Seedance 2.0, две части по 15 с; P2 ждёт настоящие последние 3 с результата своей P1.
+
+**Контекст использования:** самостоятельная пафосно-комедийная реклама Саши как фотографа. Он вкладывает размах исторического блокбастера даже в обычный портрет. Не продолжение сцены 87 и не копия её шуток про тапки/пакет. Четыре локации — намеренный рекламный монтаж, а не один непрерывный дубль.
+
+**Идея:** «Когда вам нужна просто фотография…» — Саша уже превращает семью в династию и обычную съёмку в кино. В финале клиенты уточняют, что фотографировались на пропуск. Ответ: «Теперь вас везде пропустят».
+
+**Референсы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/scenes/scene-88/S88-hero-sunset.png`; @Image3 — `references/scenes/scene-88/S88-family-dynasty.png`; @Image4 — `references/scenes/scene-88/S88-rain-shoot.png`; @Image5 — `references/scenes/scene-88/S88-studio-reveal.png`.
+
+**Приоритет лица:** только `references/full/sasha.jpg` задаёт лицо, возраст, линию волос, бороду и очки Саши. Четыре новые фотографии задают постановку, гардероб фотографа и вымышленных клиентов, но не заменяют лист лица. Старые четыре рекламных изображения с другим мужчиной сюда не включены. Исходная одежда джедая с листа лица не переносится.
+
+**Костюм:** тёмное длинное пальто и жилет с золотистой отделкой, бордовый узорчатый шарф, кожаная разгрузка для камеры и объективов, тёмные брюки и ботинки, перчатки без пальцев — как на предоставленных исправленных кадрах. Не прежняя чёрная водолазка из чернового сценария. Второстепенные люди — вымышленные клиенты из постановочных изображений, не Маша Р/Маша Ф/Алина и не другие участники проекта.
+
+**Что происходит:** 0–5 с — герой на крыше в закатном свете. 5–15 с — семейный портрет: «Вы не на диване. Вы — династия»; кот зевает, Саша снимает. 15–22 с — завершение движения и отдельная съёмка под дождём: «А попроще можно?» — «Уже упростил». 22–30 с — показ результата и финальная шутка про пропуск. Закадр: «Саша. Даже слишком красиво».
+
+**Звук и монтаж:** точные русские реплики с паузами, ветер, тихий вентилятор, дождь, щелчок затвора. Музыки нет. Титр «Саша. Даже слишком красиво» при желании накладывается отдельно в монтаже; генератор не рисует надписи. Панорама на мониторе — неподвижная фотография.
+
+**Стык 15+15:** P1 заканчивается в гостиной сразу после щелчка, камера у лица Саши; семья остаётся на диване. P2 продолжает реальный последний момент по `@Video1`, опускает камеру и только потом переходит к дождю. Стык не нарисован: пока P1 не получена, видеовход P2 отсутствует. Реплики не обрываются и не повторяются.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/full/sasha.jpg" target="_blank" rel="noopener"><img loading="lazy" src="references/full/sasha.jpg" width="480" alt="Саша — исходный лист лица; одежду джедая не брать"></a><figcaption>Саша — исходный лист лица; одежду джедая не брать</figcaption></figure>
+<figure><a href="references/scenes/scene-88/S88-hero-sunset.png" target="_blank" rel="noopener"><img loading="lazy" src="references/scenes/scene-88/previews/S88-hero-sunset.webp" width="480" alt="88 · Герой на закате"></a><figcaption>88 · Герой на закате</figcaption></figure>
+<figure><a href="references/scenes/scene-88/S88-family-dynasty.png" target="_blank" rel="noopener"><img loading="lazy" src="references/scenes/scene-88/previews/S88-family-dynasty.webp" width="480" alt="88 · Семья как династия"></a><figcaption>88 · Семья как династия</figcaption></figure>
+<figure><a href="references/scenes/scene-88/S88-rain-shoot.png" target="_blank" rel="noopener"><img loading="lazy" src="references/scenes/scene-88/previews/S88-rain-shoot.webp" width="480" alt="88 · Фотосессия под дождём"></a><figcaption>88 · Фотосессия под дождём</figcaption></figure>
+<figure><a href="references/scenes/scene-88/S88-studio-reveal.png" target="_blank" rel="noopener"><img loading="lazy" src="references/scenes/scene-88/previews/S88-studio-reveal.webp" width="480" alt="88 · Показ результата клиентам"></a><figcaption>88 · Показ результата клиентам</figcaption></figure>
+</div>
+
+<!-- parody-photo-publication-88 -->
+<p><strong>Фотографии и оригиналы:</strong> <a href="parodies.html#scene-88" target="_blank" rel="noopener">Галерея сцены 88</a> · <a href="https://drive.google.com/drive/folders/1m0kKr532uOqOzyoIZh_9ZlrWfOoQtNxu" target="_blank" rel="noopener">Та же папка Google Диска</a>. Четыре PNG сохранены без изменения исходных байтов; WEBP — только облегчённые превью.</p>
+
+<div class="engine-tabs" data-scene="88">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 88 · Wan 3.0 / Seedance 2.5 · 30 с
+
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/scenes/scene-88/S88-hero-sunset.png`; @Image3 — `references/scenes/scene-88/S88-family-dynasty.png`; @Image4 — `references/scenes/scene-88/S88-rain-shoot.png`; @Image5 — `references/scenes/scene-88/S88-studio-reveal.png`.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Photoreal grandiose photographer-commercial parody, deadpan comedy
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/sasha.jpg — absolute authority for Sasha's facial identity, age, hairline, full beard and round glasses ONLY. Do not copy the Jedi robe from this sheet.
+@Image2 = references/scenes/scene-88/S88-hero-sunset.png — rooftop staging, golden reflector, photographer costume and camera equipment; not facial authority.
+@Image3 = references/scenes/scene-88/S88-family-dynasty.png — living-room staging, family extras, domestic cat, sofa and theatrical costumes; not Sasha's facial authority.
+@Image4 = references/scenes/scene-88/S88-rain-shoot.png — rainy street staging, a separate adult couple under an umbrella, lighting and camera position; not Sasha's facial authority.
+@Image5 = references/scenes/scene-88/S88-studio-reveal.png — studio reveal staging, two adult clients in casual clothes and a static fantasy portrait on a monitor; not Sasha's facial authority.
+These are separate setups, never a collage, split screen or slideshow. For Sasha, @Image1 outranks every staged face. Never blend his face with the male clients. The four scene stills guide staging rather than forcing four frozen keyframes.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SASHA: the adult man from @Image1, high forehead, receding dark hair, full dark beard and moustache, thin round metal glasses, natural facial proportions and source age. Costume in this commercial: dark tailored long coat and waistcoat with subtle gold embroidery, burgundy patterned scarf, brown leather camera harness and lens pouches, dark trousers and boots, fingerless gloves. This is photographer styling, not Jedi clothing. One modern black camera with one attached lens; his right hand grips the body and left supports the lens. Preserve this wardrobe across all setups; wet during the rain setup, dry in the separately edited studio session.
+FAMILY EXTRAS in @Image3: one adult woman with brown curly hair in a burgundy-and-gold theatrical dress; one adult man with curly brown hair and a short beard in a dark gold-trimmed costume; one curly-haired child in a matching covered costume. One ordinary-sized long-haired grey domestic cat sits on a cushion with a tiny costume crown. They are fictional clients, not named project characters. Keep their count and natural ages.
+RAIN CLIENTS in @Image4: a different adult woman in a long red evening dress and adult man in a black suit, white shirt and black bow tie, sharing one umbrella. Do not turn them into the family or the photographer.
+REVEAL CLIENTS in @Image5: one curly-haired adult woman in a light knitted sweater and one curly-haired bearded adult man in a checked shirt, seated together. Their casual clothes stay outside the monitor; royal costume and armour appear only in their still photograph on the screen. No child at the reveal.
+
+START STATE:
+Sasha stands safely on a rooftop terrace with a golden reflector on frame-left, camera held beside his shoulder, coat and burgundy scarf moving in the wind. No client is visible yet.
+
+STORY FLOW:
+0–5s — Heroic low-angle rooftop push-in. Sasha lowers the camera into a working grip, utterly serious. OFF-SCREEN NARRATOR: «Когда вам нужна просто фотография…».
+5–13s — Clean cut to the ordinary living room packed with photographic lights, the family on the sofa in theatrical royal costumes. Sasha raises one directing hand while holding the camera securely. SASHA: «Подбородки выше. Вы не на диване. Вы — династия». The family lifts their chins as if posing for a royal portrait.
+13–15s — The cat gives one small yawn. Sasha returns both hands to the camera, raises it to his eye and takes one photograph; a single shutter click. At 15s the camera is still at his eye. No one speaks across this boundary.
+15–16s — Finish the action naturally: Sasha lowers the camera from his eye, satisfied. Do not repeat the shutter click or family line.
+16–22s — Clean cut to the rain shoot. Sasha kneels on one knee with stable footing and photographs the adult couple under the umbrella. RAIN MALE CLIENT: «А попроще можно?» SASHA, lowering the camera just enough to answer: «Уже упростил». Hold the deadpan reaction briefly; no second joke.
+22–28s — Clean cut to the studio reveal. Sasha presents the large monitor with an open hand; the two seated clients wear the casual clothes in @Image5. Their static photo on the monitor depicts them as fantasy royalty. REVEAL FEMALE CLIENT: «Мы вообще-то на пропуск фотографировались». Brief pause. SASHA: «Теперь вас везде пропустят».
+28–30s — Keep the studio framing; Sasha gives one tiny self-satisfied nod, the clients remain impressed. OFF-SCREEN NARRATOR: «Саша. Даже слишком красиво».
+
+END STATE:
+Sasha beside the monitor, both adult clients seated and looking at the static result. Camera rests on its harness; no new action or text appears.
+
+STYLE / CAMERA / PHYSICAL ACTION:
+Photoreal live-action commercial parody. The production is absurdly grand; the people take it completely seriously. The joke is a huge cinematic effort for an ordinary photograph, not random grimacing. Three explicit editorial cuts between four real locations; no scenery morphing or on-screen costume transformation. A controlled low-angle push-in on the rooftop, a three-quarter medium-wide family shot, a low side angle in the rain, then one readable studio composition with Sasha on the left and clients on the right. Within each shot keep a stable axis, grounded contact and natural movement. Golden practical light and a wind-blown scarf on the rooftop; warm living-room softboxes and fluttering curtains; blue night with warm reflections on wet paving; warm studio light for the final monitor reveal. The cat remains on the cushion, not in someone's hand. Rain falls naturally; camera and umbrella remain solid objects. The monitor shows a static printed-photo-like image, not another moving world.
+
+AUDIO / PERFORMANCE:
+Natural Russian speech, no accent, accurate lip sync for the visible speaker. Only the explicitly assigned person speaks; no chorus, overlapping lines, improvisation or extra catchphrases. Narrator: off-screen low ceremonial advertising voice. Sasha: calm, assured, dry delivery, small deliberate gestures. Clients: sincere and slightly bewildered, not shouting. Ambient wind, a quiet fan, light rain and restrained shutter clicks below dialogue. No music, licensed song, jingle, applause or canned laughter.
+
+NEGATIVE:
+No substituted handsome young photographer, no pasted-head edge, no face blending, no duplicated Sasha or extra client; no changing beard or glasses, camera fused with fingers or spare fingers, no magical wardrobe swap, no burning lamps or electric sparks in the rain. No subtitles, slogans, logos, watermark or generated typography. No collage, split panels or freeze-frame slideshow. Do not repeat completed jokes.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge, including the rain and studio shots. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 88 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/scenes/scene-88/S88-hero-sunset.png`; @Image3 — `references/scenes/scene-88/S88-family-dynasty.png`; @Image4 — `references/scenes/scene-88/S88-rain-shoot.png`; @Image5 — `references/scenes/scene-88/S88-studio-reveal.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal grandiose photographer-commercial parody, deadpan comedy
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/sasha.jpg — absolute authority for Sasha's facial identity, age, hairline, full beard and round glasses ONLY. Do not copy the Jedi robe from this sheet.
+@Image2 = references/scenes/scene-88/S88-hero-sunset.png — rooftop staging, golden reflector, photographer costume and camera equipment; not facial authority.
+@Image3 = references/scenes/scene-88/S88-family-dynasty.png — living-room staging, family extras, domestic cat, sofa and theatrical costumes; not Sasha's facial authority.
+@Image4 = references/scenes/scene-88/S88-rain-shoot.png — rainy street staging, a separate adult couple under an umbrella, lighting and camera position; not Sasha's facial authority.
+@Image5 = references/scenes/scene-88/S88-studio-reveal.png — studio reveal staging, two adult clients in casual clothes and a static fantasy portrait on a monitor; not Sasha's facial authority.
+These are separate setups, never a collage, split screen or slideshow. For Sasha, @Image1 outranks every staged face. Never blend his face with the male clients. The four scene stills guide staging rather than forcing four frozen keyframes.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SASHA: the adult man from @Image1, high forehead, receding dark hair, full dark beard and moustache, thin round metal glasses, natural facial proportions and source age. Costume in this commercial: dark tailored long coat and waistcoat with subtle gold embroidery, burgundy patterned scarf, brown leather camera harness and lens pouches, dark trousers and boots, fingerless gloves. This is photographer styling, not Jedi clothing. One modern black camera with one attached lens; his right hand grips the body and left supports the lens. Preserve this wardrobe across all setups; wet during the rain setup, dry in the separately edited studio session.
+FAMILY EXTRAS in @Image3: one adult woman with brown curly hair in a burgundy-and-gold theatrical dress; one adult man with curly brown hair and a short beard in a dark gold-trimmed costume; one curly-haired child in a matching covered costume. One ordinary-sized long-haired grey domestic cat sits on a cushion with a tiny costume crown. They are fictional clients, not named project characters. Keep their count and natural ages.
+RAIN CLIENTS in @Image4: a different adult woman in a long red evening dress and adult man in a black suit, white shirt and black bow tie, sharing one umbrella. Do not turn them into the family or the photographer.
+REVEAL CLIENTS in @Image5: one curly-haired adult woman in a light knitted sweater and one curly-haired bearded adult man in a checked shirt, seated together. Their casual clothes stay outside the monitor; royal costume and armour appear only in their still photograph on the screen. No child at the reveal.
+
+START STATE:
+Sasha stands safely on a rooftop terrace with a golden reflector on frame-left, camera beside his shoulder, burgundy scarf and coat moving in the wind.
+
+STORY FLOW:
+0–5s — Controlled low-angle rooftop push-in. Sasha lowers the camera into a working grip, utterly serious. OFF-SCREEN NARRATOR: «Когда вам нужна просто фотография…».
+5–13s — Clean editorial cut to the ordinary living room filled with photographic lights. The family sits on the sofa in theatrical royal costumes. Sasha raises one directing hand while holding the camera securely. SASHA: «Подбородки выше. Вы не на диване. Вы — династия». The family lifts their chins; their bodies remain naturally alive.
+13–15s — The grey cat yawns once on its cushion. Sasha returns both hands to the camera, raises it to his eye and takes one photograph; one shutter click. Finish all dialogue before this beat.
+
+END STATE:
+Same living-room three-quarter angle. Sasha has the camera at his eye just after the shutter click; family remains seated and the cat's yawn is finished. Hold only the last fraction of a second naturally. No rain setup or later dialogue in this part.
+
+STYLE / CAMERA / PHYSICAL ACTION:
+Photoreal live-action commercial parody. The production is absurdly grand; the people take it completely seriously. The joke is a huge cinematic effort for an ordinary photograph, not random grimacing. Three explicit editorial cuts between four real locations; no scenery morphing or on-screen costume transformation. A controlled low-angle push-in on the rooftop, a three-quarter medium-wide family shot, a low side angle in the rain, then one readable studio composition with Sasha on the left and clients on the right. Within each shot keep a stable axis, grounded contact and natural movement. Golden practical light and a wind-blown scarf on the rooftop; warm living-room softboxes and fluttering curtains; blue night with warm reflections on wet paving; warm studio light for the final monitor reveal. The cat remains on the cushion, not in someone's hand. Rain falls naturally; camera and umbrella remain solid objects. The monitor shows a static printed-photo-like image, not another moving world.
+
+AUDIO / PERFORMANCE:
+Natural Russian speech, no accent, accurate lip sync for the visible speaker. Only the explicitly assigned person speaks; no chorus, overlapping lines, improvisation or extra catchphrases. Narrator: off-screen low ceremonial advertising voice. Sasha: calm, assured, dry delivery, small deliberate gestures. Clients: sincere and slightly bewildered, not shouting. Ambient wind, a quiet fan, light rain and restrained shutter clicks below dialogue. No music, licensed song, jingle, applause or canned laughter.
+Speak only lines written in this part; no rain-client, reveal-client or closing-slogan dialogue yet.
+
+NEGATIVE:
+No substituted handsome young photographer, no pasted-head edge, no face blending, no duplicated Sasha or extra client; no changing beard or glasses, camera fused with fingers or spare fingers, no magical wardrobe swap, no burning lamps or electric sparks in the rain. No subtitles, slogans, logos, watermark or generated typography. No collage, split panels or freeze-frame slideshow. Do not repeat completed jokes.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge, including the rain and studio shots. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+#### 88 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/scenes/scene-88/S88-hero-sunset.png`; @Image3 — `references/scenes/scene-88/S88-family-dynasty.png`; @Image4 — `references/scenes/scene-88/S88-rain-shoot.png`; @Image5 — `references/scenes/scene-88/S88-studio-reveal.png`; @Video1 — настоящие последние 3 с результата своей P1, после проверки стыка. До их появления P2 не запускать.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal grandiose photographer-commercial parody, deadpan comedy
+
+REFERENCES / AUTHORITY:
+@Image1 = references/full/sasha.jpg — absolute authority for Sasha's facial identity, age, hairline, full beard and round glasses ONLY. Do not copy the Jedi robe from this sheet.
+@Image2 = references/scenes/scene-88/S88-hero-sunset.png — rooftop staging, golden reflector, photographer costume and camera equipment; not facial authority.
+@Image3 = references/scenes/scene-88/S88-family-dynasty.png — living-room staging, family extras, domestic cat, sofa and theatrical costumes; not Sasha's facial authority.
+@Image4 = references/scenes/scene-88/S88-rain-shoot.png — rainy street staging, a separate adult couple under an umbrella, lighting and camera position; not Sasha's facial authority.
+@Image5 = references/scenes/scene-88/S88-studio-reveal.png — studio reveal staging, two adult clients in casual clothes and a static fantasy portrait on a monitor; not Sasha's facial authority.
+@Video1 = actual final 3 seconds of Scene 88 Seedance 2.0 Part 1; authority for the continuing living-room motion and starting pose, not a synthetic substitute.
+These are separate setups, never a collage, split screen or slideshow. For Sasha, @Image1 outranks every staged face. Never blend his face with the male clients. The four scene stills guide staging rather than forcing four frozen keyframes.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SASHA: the adult man from @Image1, high forehead, receding dark hair, full dark beard and moustache, thin round metal glasses, natural facial proportions and source age. Costume in this commercial: dark tailored long coat and waistcoat with subtle gold embroidery, burgundy patterned scarf, brown leather camera harness and lens pouches, dark trousers and boots, fingerless gloves. This is photographer styling, not Jedi clothing. One modern black camera with one attached lens; his right hand grips the body and left supports the lens. Preserve this wardrobe across all setups; wet during the rain setup, dry in the separately edited studio session.
+FAMILY EXTRAS in @Image3: one adult woman with brown curly hair in a burgundy-and-gold theatrical dress; one adult man with curly brown hair and a short beard in a dark gold-trimmed costume; one curly-haired child in a matching covered costume. One ordinary-sized long-haired grey domestic cat sits on a cushion with a tiny costume crown. They are fictional clients, not named project characters. Keep their count and natural ages.
+RAIN CLIENTS in @Image4: a different adult woman in a long red evening dress and adult man in a black suit, white shirt and black bow tie, sharing one umbrella. Do not turn them into the family or the photographer.
+REVEAL CLIENTS in @Image5: one curly-haired adult woman in a light knitted sweater and one curly-haired bearded adult man in a checked shirt, seated together. Their casual clothes stay outside the monitor; royal costume and armour appear only in their still photograph on the screen. No child at the reveal.
+
+START STATE:
+Continue the actual final moment of @Video1 with the same camera axis, family arrangement, wardrobe and light. Sasha has the camera at his eye immediately after the family portrait. The shutter click and the cat's yawn have already happened.
+
+STORY FLOW:
+0–1s — Complete the living-room movement by lowering Sasha's camera from his eye, satisfied; do not replay the shutter click, yawn or previous dialogue.
+1–7s — Clean editorial cut to the rainy street: Sasha kneels on one knee with secure footing, taking the couple's picture under a shared umbrella. RAIN MALE CLIENT: «А попроще можно?» SASHA, lowering the camera enough to speak: «Уже упростил». Brief deadpan reaction.
+7–13s — Clean cut to the separately edited warm studio session, Sasha on the left and two seated adult clients in casual clothes on the right. He presents a large monitor showing their static fantasy-royalty portrait. REVEAL FEMALE CLIENT: «Мы вообще-то на пропуск фотографировались». Brief pause. SASHA: «Теперь вас везде пропустят».
+13–15s — Keep the studio frame. One tiny satisfied nod from Sasha. OFF-SCREEN NARRATOR: «Саша. Даже слишком красиво».
+
+END STATE:
+Sasha beside the monitor, camera resting on its harness, both adult clients seated and impressed by the static photograph. No new gag, text or movement after the closing line.
+
+STYLE / CAMERA / PHYSICAL ACTION:
+Photoreal live-action commercial parody. The production is absurdly grand; the people take it completely seriously. The joke is a huge cinematic effort for an ordinary photograph, not random grimacing. Three explicit editorial cuts between four real locations; no scenery morphing or on-screen costume transformation. A controlled low-angle push-in on the rooftop, a three-quarter medium-wide family shot, a low side angle in the rain, then one readable studio composition with Sasha on the left and clients on the right. Within each shot keep a stable axis, grounded contact and natural movement. Golden practical light and a wind-blown scarf on the rooftop; warm living-room softboxes and fluttering curtains; blue night with warm reflections on wet paving; warm studio light for the final monitor reveal. The cat remains on the cushion, not in someone's hand. Rain falls naturally; camera and umbrella remain solid objects. The monitor shows a static printed-photo-like image, not another moving world.
+
+AUDIO / PERFORMANCE:
+Natural Russian speech, no accent, accurate lip sync for the visible speaker. Only the explicitly assigned person speaks; no chorus, overlapping lines, improvisation or extra catchphrases. Narrator: off-screen low ceremonial advertising voice. Sasha: calm, assured, dry delivery, small deliberate gestures. Clients: sincere and slightly bewildered, not shouting. Ambient wind, a quiet fan, light rain and restrained shutter clicks below dialogue. No music, licensed song, jingle, applause or canned laughter.
+Speak only lines written in this part; do not repeat the rooftop narration or dynasty line.
+
+NEGATIVE:
+No substituted handsome young photographer, no pasted-head edge, no face blending, no duplicated Sasha or extra client; no changing beard or glasses, camera fused with fingers or spare fingers, no magical wardrobe swap, no burning lamps or electric sparks in the rain. No subtitles, slogans, logos, watermark or generated typography. No collage, split panels or freeze-frame slideshow. Do not repeat completed jokes.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge, including the rain and studio shots. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
 
 </div>
 
