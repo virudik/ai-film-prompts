@@ -2,16 +2,16 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "af95ad04-dd27-4024-99fb-4bd30cc25a24",
-  "runtime_run_id": "bd97cafe-7b08-8328-ad0f-ff44e90749f3",
-  "runtime_run_id_source": "Automations.peek last_run.id for 2026-11-09T23:00:00Z; in_progress during this execution",
-  "source_head_initial": "b4e4ed592e4ba2e59867467ededeee3d7ef6977b",
-  "source_head": "c632e495ec24684cac65b2050a3d8a7d24a14fa4",
+  "execution_instance_id": "41fe902f-f6b5-4b6f-8299-44bd59010748",
+  "runtime_run_id": "b16011c3-c944-8332-a59d-18a0a90767bb",
+  "runtime_run_id_source": "Automations.peek last_run.id; scheduled_for 2026-11-10T00:00:00Z",
+  "source_head_initial": "5108398fe645a1fee1539d2731a296d5a7c04498",
+  "source_head": "7a84839798d5618c534b0317caa08244ccb84ff9",
   "route_generation": 3,
-  "started_at": "2026-11-09T23:12:57.403171Z",
-  "lease_acquired_at": "2026-11-09T23:19:30.012Z",
-  "phase": "finished",
-  "status": "completed",
+  "started_at": "2026-11-09T23:56:01.320960Z",
+  "lease_acquired_at": "2026-11-10T00:05:54.935Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan": {
     "complete": true,
     "scope": "all 14 boards, all video pages, connector read-only",
@@ -23,7 +23,7 @@
       "fail": 26,
       "init": 5
     },
-    "checked_at": "2026-11-09T23:16:23.353Z",
+    "checked_at": "2026-11-10T00:01:00Z",
     "active_task_ids": [
       "be627af0e9664db5b6ac2b62c34080a6",
       "8bdd6439dad94592979aba23c137b4a0",
@@ -37,7 +37,7 @@
     "occupied": 5,
     "free": 1,
     "scan_complete": true,
-    "verified_at": "2026-11-09T23:16:23.353Z"
+    "verified_at": "2026-11-10T00:01:00Z"
   },
   "selected_item": null,
   "task_ids": [],
@@ -51,74 +51,28 @@
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:af95ad04-dd27-4024-99fb-4bd30cc25a24",
-    "acquired_at": "2026-11-09T23:19:30.012Z",
-    "expires_at": "2026-11-09T23:31:30.012Z",
-    "lease_commit": "91881b6cfb6dd1bd4c7c4f407c338ccad019428a",
-    "final_action": "released_atomically_with_receipt"
+    "holder": "chatgpt:ordinary:41fe902f-f6b5-4b6f-8299-44bd59010748",
+    "acquired_at": "2026-11-10T00:05:54.935Z",
+    "expires_at": "2026-11-10T00:35:54.935Z",
+    "lease_commit": "f91de05331a14afa0a21868b8c70872dddcd64b7",
+    "final_action": "held"
   },
-  "outcome": "blocked_readiness_conflict_no_create",
+  "outcome": "in_progress_readonly_scan_complete",
   "acceptance": {
     "scheduled_run_executed": true,
     "scheduled_run_id_observed": true,
     "topview_read_only_scan_complete": true,
-    "all_40_task_ids_verified": true,
     "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
     "production_submission_by_this_executor_verified": false,
     "new_task_id_verified": false
   },
-  "previous_incomplete_cycle": {
-    "execution_instance_id": "7c44eeb6-784c-413e-8994-8a7e273ed908",
-    "phase": "started",
-    "status": "in_progress",
-    "started_at": "2026-11-09T23:05:20.825Z",
-    "lease_holder": "chatgpt:ordinary:7c44eeb6-784c-413e-8994-8a7e273ed908",
-    "final_receipt_missing": true
+  "previous_cycle": {
+    "execution_instance_id": "af95ad04-dd27-4024-99fb-4bd30cc25a24",
+    "finished_at": "2026-11-09T23:28:05.426Z",
+    "outcome": "blocked_readiness_conflict_no_create"
   },
-  "updated_at": "2026-11-09T23:28:05.426Z",
-  "completed_at": "2026-11-09T23:28:05.426Z",
-  "checked_at": "2026-11-09T23:28:05.426Z",
-  "queue_reconciliation": {
-    "items": 61,
-    "submitted_or_completed": 40,
-    "all_task_ids_found": true,
-    "claimed": 0,
-    "submitting": 0,
-    "submission_unknown": 0,
-    "readiness_sha_match": true,
-    "queue_sha256": "bf9e095189cf30e935ddd460f03510cf4f9b405bd45e14efef2ed39940b230cc",
-    "taskmap_sha256": "6797ab2883a2531bf7a0237791254bad0c435bc54f3b4cdd1d360f6ad163a01d"
-  },
-  "next_candidate_item": "S65-WAN30",
-  "retryable": true,
-  "blocker": {
-    "category": "queue_readiness_conflict",
-    "reason": "S65 queue marks actual S70 final frame present with QC pass and launch_readiness=authorized_inputs_available; matched-SHA readiness remains ready=false/waiting_result. Topview S70 success confirmed, but source/status conflict prevents launch preflight. TinyFish exact native file import and Unlimited0 are also unverified; no metered browser retry on unchanged blocker.",
-    "evidence": {
-      "queue_item": "S65-WAN30",
-      "queue_state": "waiting_for_slot",
-      "queue_qc": "pass",
-      "readiness_code": "waiting_result",
-      "readiness_ready": false,
-      "frame": "references/scenes/scene-70/S70-final-frame.png",
-      "provenance": "references/scenes/scene-70/S70-final-frame-20261109.json",
-      "parent_task_id": "942bdafcff8640d1b405a37cbbb5cbc6"
-    },
-    "retry_condition": "Repair/verify S65 derived readiness, confirm UI original-file upload and Unlimited0; repeat fresh preflight."
-  },
-  "peer_automation_runtime": {
-    "ordinary_last_run_id": "bd97cafe-7b08-8328-ad0f-ff44e90749f3",
-    "ordinary_latest_result_run_id": "62473c65-0548-8331-bf17-20b53f52cc79",
-    "work_hourly_last_run_id": "88e4b8cb-6a84-8332-afb8-669833e2a859",
-    "work_hourly_latest_result_run_id": "1658357b-2320-8333-98ac-459762c93799",
-    "relay_last_run_id": "8aec3d2d-621c-8320-9682-7683dd809b6a",
-    "relay_latest_result_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d"
-  },
-  "owner_tasks": {
-    "open": 1,
-    "taken_this_cycle": 0,
-    "task_id": "self-heal-telemetry-stale-202611091849"
-  }
+  "updated_at": "2026-11-10T00:06:50.680Z",
+  "completed_at": null
 }
