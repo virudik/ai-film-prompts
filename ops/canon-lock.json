@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "state": "free",
-  "holder": "grok:3f8c1e74-9a2b-4d65-8c17-b65e0a497u65",
-  "task": "t497u: S65 hard cut, drop S70 frame",
-  "acquired_at": "2026-11-10T01:27:40Z",
+  "holder": "grok:02539dce-846a-4afe-acfe-b639231bcb11",
+  "task": "t413u standing S65-WAN30 intent only",
+  "acquired_at": "2026-11-10T01:29:49Z",
   "expires_at": null,
-  "released_at": "2026-11-10T01:28:10Z",
+  "released_at": "2026-11-10T01:29:49Z",
   "rules": "ops/CANON-LOCK.md"
 }
