@@ -179,6 +179,21 @@ class ScanTests(unittest.TestCase):
         self.assertEqual(st["scan"]["detail_failed"], [T_MAPPED])
         self.assertEqual(st["slots"]["occupied"], 1)                    # still counted from the list entry
 
+    def test_unmapped_active_slot_is_watched_like_a_known_task(self):
+        tm = json.loads((self.repo / "topview-task-map.json").read_text(encoding="utf-8"))
+        tm["unmapped_active"] = [T_NEW]
+        (self.repo / "topview-task-map.json").write_text(json.dumps(tm), encoding="utf-8")
+        boards, tasks = world()
+        details = {T_MAPPED: task(T_MAPPED, "running", 90),
+                   T_NEW: task(T_NEW, "success", 40, completed=5)}
+        prev = {"checked_at": "2026-10-11T11:30:00Z", "cursor": {"last_full_scan_at": "2026-10-11T11:30:00Z",
+                                                                  "board_task_counts": {MAIN: 3, OTHER: 1}}}
+        client = FakeClient(boards, tasks, details)
+        st = self.run_scan(client, prev)
+        self.assertIn(("/boards/tasks/detail", {"taskId": T_NEW}), client.calls)
+        self.assertEqual([(f["task_id"], f["scene_id"], f["final_status"]) for f in st["finished_known"] if f["task_id"] == T_NEW],
+                         [(T_NEW, None, "success")])
+
     def test_known_active_task_that_vanished_is_reported_as_missing(self):
         boards, tasks = world()
         tasks[MAIN] = [t for t in tasks[MAIN] if t["boardTaskId"] != T_MAPPED]

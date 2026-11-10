@@ -112,6 +112,8 @@ def main():
         e.update(active_task_ids=tids, completed_at=None, topview_estimated_process_seconds=None)
         sc[sid] = e
     for f in fin:
+        if f.get("scene_id") is None:
+            continue
         sid = str(f["scene_id"])
         if sid in by_scene:
             continue  # scene still has another active task
@@ -129,7 +131,7 @@ def main():
     r = load("review-ledger.json")
     changed = False
     for f in fin:
-        if f["final_status"] != "success":
+        if f["final_status"] != "success" or f.get("scene_id") is None:
             continue
         e = r["scenes"].setdefault(str(f["scene_id"]), {"result_received": False, "result_received_at": None, "reviewed": None, "reviewed_at": None, "accepted": None, "needs_redo": None, "inserted_into_film": None, "montage_note": None, "last_human_update_at": None})
         if e.get("result_received") in (False, None) or e.get("selected_result_task_id") != f["task_id"]:

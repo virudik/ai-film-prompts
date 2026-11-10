@@ -137,6 +137,32 @@ class PlanTests(Base):
         self.assertEqual(p["decision"], "hold")
         self.assertIn("scene_not_in_master:999", p["reasons"])
 
+    def test_finished_unmapped_slot_is_removed_without_a_hold_or_a_scene(self):
+        ts = json.loads((self.work / "topview-status.json").read_text(encoding="utf-8"))
+        ts["active_tasks"].append({"task_id": UNKNOWN_TASK, "scene_id": None, "unmapped": True,
+                                   "topview_status": "running", "model": "Wan 3.0"})
+        ts["occupied_slots"] = len(ts["active_tasks"])
+        ts["free_slots"] = 6 - ts["occupied_slots"]
+        (self.work / "topview-status.json").write_text(json.dumps(ts), encoding="utf-8")
+        tm = json.loads((self.work / "topview-task-map.json").read_text(encoding="utf-8"))
+        tm["unmapped_active"] = [UNKNOWN_TASK]
+        (self.work / "topview-task-map.json").write_text(json.dumps(tm), encoding="utf-8")
+        fin = [{"task_id": UNKNOWN_TASK, "scene_id": None, "final_status": "success",
+                "completed_at": "2026-10-11 11:00:00"}]
+        p = self.plan(scan(steady(), fin))
+        self.assertEqual(p["decision"], "publish", p["reasons"])
+        self.assertFalse(any(r.startswith("finished_without_scene") or r.startswith("published_task_gone")
+                             for r in p["reasons"]))
+        self.assertNotIn(UNKNOWN_TASK, {a["task_id"] for a in p["cycle"]["active"]})
+        self.assertEqual(p["cycle"]["checked_at"], "2026-10-11T12:00:00Z")
+        self.assertEqual(p["master_plan"]["occupied_slots"], 1)
+        self.assertFalse(any(row["task_id"] == UNKNOWN_TASK for row in p["master_plan"]["finish"]))
+        self.assertTrue(any(row["task_id"] == UNKNOWN_TASK and row.get("unmapped") for row in p["cycle"]["finished"]))
+        # A terminal task that was never an occupied unmapped slot still holds.
+        stranger = self.plan(scan(steady(), [{"task_id": NEW_TASK, "scene_id": None, "final_status": "success"}]))
+        self.assertEqual(stranger["decision"], "hold")
+        self.assertIn("finished_without_scene:" + NEW_TASK[:8], stranger["reasons"])
+
     def test_unmapped_active_task_is_published_without_a_scene(self):
         p = self.plan(scan(steady() + [active(UNKNOWN_TASK, None, "init")]))
         self.assertEqual(p["decision"], "publish")
@@ -375,6 +401,23 @@ class PublishTests(Base):
         self.assertNotIn(UNKNOWN_TASK, master)
         self.assertEqual(self.n.wakes, [])
         self.assertEqual(self.load("project-status.json")["health"], "ok")
+
+    def test_finished_unmapped_slot_leaves_public_status_and_refreshes_checked_at(self):
+        self.assertEqual(self.go(scan(steady() + [active(UNKNOWN_TASK, None, "init")])), 0)
+        fin = [{"task_id": UNKNOWN_TASK, "scene_id": None, "final_status": "success",
+                "completed_at": "2026-10-11 12:05:00"}]
+        later = "2026-10-11T12:10:00Z"
+        rc = self.go(scan(steady(), fin, checked=later), now=datetime(2026, 10, 11, 12, 10, tzinfo=timezone.utc))
+        self.assertEqual(rc, 0)
+        ts = self.load("topview-status.json")
+        self.assertEqual(ts["checked_at"], later)
+        self.assertNotIn(UNKNOWN_TASK, {r["task_id"] for r in ts["active_tasks"]})
+        self.assertEqual((ts["occupied_slots"], ts["free_slots"]), (1, 5))
+        self.assertNotIn("None", ts.get("scenes", {}))
+        self.assertNotIn(UNKNOWN_TASK, (self.work / "video-prompts.md").read_text(encoding="utf-8"))
+        self.assertNotIn("None", self.load("review-ledger.json").get("scenes", {}))
+        processed = {p["task_id"]: p.get("scene_id") for p in self.load("topview-task-map.json")["processed_tasks"]}
+        self.assertIsNone(processed[UNKNOWN_TASK])
 
     def test_hold_records_one_honest_degraded_cycle_and_notifies_once(self):
         # An incomplete scan still publishes nothing. The unmapped task is only announced.

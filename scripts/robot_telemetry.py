@@ -269,6 +269,15 @@ def plan_cycle(scan, root, now, *, resolver=None, project_resolver=None):
                                              "started_at": k.get("started_at"), "label": ph.get("label"),
                                              "part": part_from_label(ph.get("label"))})
                     continue
+                prev = prev_rows.get(f["task_id"]) or {}
+                # A slot we already published without a scene may finish. Drop it and refresh
+                # checked_at. It is not a vanished story task and gets no guessed scene.
+                tracked_unmapped = prev.get("scene_id") is None and (
+                    f["task_id"] in prev_rows or f["task_id"] in set(tm.get("unmapped_active") or []))
+                if tracked_unmapped:
+                    finished.append({"scene_id": None, "task_id": f["task_id"], "final_status": f["final_status"],
+                                     "finished_at": iso_z(f.get("completed_at")) or now_z(now), "unmapped": True})
+                    continue
                 reasons.append("finished_without_scene:" + f["task_id"][:8])
                 continue
             f["scene_id"] = hit["scene"]
@@ -351,6 +360,8 @@ def plan_cycle(scan, root, now, *, resolver=None, project_resolver=None):
                                "finished_utc": utc_label(p.get("finished_at") or p.get("completed_at"))})
     plan["occupied_slots"] = len(cur) + len(still)  # mapped scenes plus unmapped slots; foreign projects are separate
     for f in finished:
+        if f.get("scene_id") is None:
+            continue  # an unmapped slot was released; there is no scene result to announce
         free = max(0, 6 - len(cur) - len(still) - len(foreign))
         events.append({"kind": "result", "key": "result:" + f["task_id"], "task_id": f["task_id"],
                        "title": f"Сцена {f['scene_id']}: технический результат {f['final_status']}",

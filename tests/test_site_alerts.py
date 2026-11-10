@@ -92,6 +92,18 @@ class NavDefaultTests(unittest.TestCase):
         self.assertIn(".side:not(.side-open) #toc", media)
         self.assertLess(html.find(".side-toggle{display:none}"), html.find("@media(max-width:820px)"))
 
+    def test_unmapped_slot_is_not_rendered_as_scene_zero(self):
+        html = Path(__file__).resolve().parents[1].joinpath("index.html").read_text(encoding="utf-8")
+        now = html.split("function renderNowView", 1)[1].split("function instructionLabel", 1)[0]
+        finished = html.split("function finishedTopviewRows", 1)[1].split("function renderTopview", 1)[0]
+        self.assertIn("sceneNum(x)", now)
+        self.assertIn("слот без сцены", now)
+        self.assertIn("id==null", now)
+        self.assertNotIn("Number(x.scene_id)", now)
+        self.assertNotIn("#scene-0", now)
+        self.assertIn("sceneNum", finished)
+        self.assertNotIn("Number(x.scene_id)", finished)
+
 
 if __name__ == "__main__":
     unittest.main()

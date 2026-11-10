@@ -304,8 +304,9 @@ function syncArchivedSceneLinks(){
   });
  });
 }
+function sceneNum(x){if(x==null||x.scene_id==null||x.scene_id==='')return null;const n=Number(x.scene_id);return Number.isFinite(n)?n:null}
 function finishedTopviewRows(tv,titles){
- const active=new Set((runtimeTopview?.tasks||[]).map(x=>Number(x.scene_id)));
+ const active=new Set((runtimeTopview?.tasks||[]).map(sceneNum).filter(n=>n!=null));
  return runtimeSlowIds().filter(sid=>!active.has(sid)).map(sid=>{
   const latest=tv?.scenes?.[String(sid)]||{};
   const versions=sceneResultAttempts(sid,tv);
@@ -377,8 +378,9 @@ function renderNowView(s,tv,ledger,md){
  const titles=parseSceneTitles(md||'');
  runtimeTopview=buildTopviewRuntime(tv);
  const tasks=runtimeTopview.tasks;
- const counts=new Map();tasks.forEach(x=>counts.set(Number(x.scene_id),(counts.get(Number(x.scene_id))||0)+1));
+ const counts=new Map();let unmappedSlots=0;tasks.forEach(x=>{const sid=sceneNum(x);if(sid==null){unmappedSlots++;return}counts.set(sid,(counts.get(sid)||0)+1)});
  const generating=[...counts.entries()].sort((a,b)=>a[0]-b[0]).map(([id,n])=>({id,label:'#'+id+(n>1?' ×'+n:'')+((ledger?.scenes?.[String(id)]||{}).result_received===true?' · новый рендер':'')}));
+ if(unmappedSlots)generating.push({id:null,label:unmappedSlots>1?'слот без сцены ×'+unmappedSlots:'слот без сцены'});
  const rows=ledger?.scenes||{};
  const received=Object.entries(rows).filter(([id,x])=>s?.scene_ids?.includes(Number(id))&&x?.result_received===true).map(([id])=>Number(id)).sort((a,b)=>a-b);
  const decisions=Object.entries(rows).filter(([id,x])=>s?.scene_ids?.includes(Number(id))&&x?.result_received===true&&(x?.reviewed!==true||x?.accepted===null||x?.needs_redo===null)).map(([id])=>Number(id)).sort((a,b)=>a-b);
@@ -386,7 +388,7 @@ function renderNowView(s,tv,ledger,md){
  const next=[];
  Object.entries(s?.scene_meta||{}).forEach(([id,m])=>{const n=Number(id),r=rows[id]||{};if(slow.has(n))return;if(r.needs_redo===true)next.push({id:n,kind:'переделать'});else if(r.result_received===true&&r.reviewed!==true){/* already listed once in «Ждёт вашего решения» */}else if(m?.production_state==='READY'&&r.result_received!==true)next.push({id:n,kind:'можно запускать'});else if(m?.production_state==='NEEDS_FIX')next.push({id:n,kind:'обсудить доработку'})});
  next.sort((a,b)=>a.id-b.id);
- const chip=(id,label)=>'<button class="now-chip" data-scene="'+id+'" title="'+esc(titles[String(id)]||('Сцена '+id))+'">'+esc(label)+'</button>';
+ const chip=(id,label)=>id==null?'<span class="now-chip" title="Слот занят. Номер сцены не угадывается.">'+esc(label)+'</span>':'<button class="now-chip" data-scene="'+id+'" title="'+esc(titles[String(id)]||('Сцена '+id))+'">'+esc(label)+'</button>';
  const card=(title,count,body,extraClass='')=>'<div class="now-card'+(extraClass?' '+extraClass:'')+'"><div class="now-card-head"><span class="now-card-title">'+title+'</span><strong class="now-card-count">'+count+'</strong></div><div class="now-list">'+(body||'<span class="now-empty">нет</span>')+'</div></div>';
  const waitLabel=id=>{const r=rows[String(id)]||{},a=ageInfo(r.result_received_at);const d=Number.isFinite(a.min)?Math.floor(a.min/1440):null;return '#'+id+(counts.has(id)?' · старый результат':'')+(d==null?'':d<1?' · сегодня':' · ждёт '+d+' дн')};
  const decisionsSorted=[...decisions].sort((a,b)=>String(rows[String(a)]?.result_received_at||'').localeCompare(String(rows[String(b)]?.result_received_at||'')));
