@@ -1,10 +1,9 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:41fe902f-f6b5-4b6f-8299-44bd59010748",
-  "task": "Seregius scheduled ordinary: Topview full scan + S65 derived readiness diagnosis + receipt; no Create without gated preflight",
-  "acquired_at": "2026-11-10T00:05:54.935Z",
-  "expires_at": null,
-  "released_at": "2026-11-10T00:14:02.150Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:4f46c98d-f95e-4e74-a93e-1663ac581d82",
+  "task": "Seregius ordinary scheduled: Topview 14-board scan, reconciled S65 readiness, receipt; no Create without gated preflight",
+  "acquired_at": "2026-11-10T00:30:17.696Z",
+  "expires_at": "2026-11-10T01:00:17.696Z",
   "rules": "ops/CANON-LOCK.md"
 }
