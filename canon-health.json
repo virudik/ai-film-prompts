@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-10T17:10:20Z",
+  "checked_at": "2026-11-10T20:15:46Z",
   "status": "warn",
   "warnings": 3,
   "info": 17,
@@ -123,7 +123,7 @@
     {
       "level": "warn",
       "code": "service-file-size",
-      "text": "work-resume-register.json: 107 КБ (предел 100 КБ): старые записи перенести в архив — python3 scripts/trim_service_files.py . --write (раздел хендофа «Как чистить», п. 8).",
+      "text": "work-resume-register.json: 108 КБ (предел 100 КБ): старые записи перенести в архив — python3 scripts/trim_service_files.py . --write (раздел хендофа «Как чистить», п. 8).",
       "file": "work-resume-register.json"
     }
   ]
