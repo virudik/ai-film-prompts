@@ -15,7 +15,7 @@ jobs:
     timeout-minutes: 15
     env:
       PYTHONPATH: .
-      PHASE: inspect
+      PHASE: apply
       HOLDER: chatgpt:ordinary:e586d119-1d26-4f50-8bf8-9c95d64588be
       BUNDLE_ID: 1RyTXjlq5N10Gcg3G-ZI8wTd5Zx9TnRyk
       BUNDLE_SHA: 7b7f79cda2fdb215f539f0c0820fad20bf827450e30a06f57cbaaa29aef5be6f
@@ -33,7 +33,7 @@ jobs:
           workload_identity_provider: ${{ vars.GCP_WORKLOAD_IDENTITY_PROVIDER }}
           service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
           create_credentials_file: true
-      - name: Verify private transfer bytes and export fresh canonical source
+      - name: Verify exact private transfer and matching leases
         shell: bash
         run: |
           set -euo pipefail
@@ -66,28 +66,44 @@ jobs:
                   assert hashlib.sha256((b/row[key]).read_bytes()).hexdigest()==row[hkey]
           result={'checked_at':datetime.now(timezone.utc).isoformat(),'bundle_sha256':os.environ['BUNDLE_SHA'],'images_verified':6,'previews_verified':6,'source_head':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'phase':os.environ['PHASE']}
           Path('/tmp/honor-reference-evidence/transfer-readback.json').write_text(json.dumps(result,indent=2)+'\n')
-          files=subprocess.check_output(['git','ls-files'],text=True).splitlines()
-          with zipfile.ZipFile('/tmp/honor-reference-evidence/fresh-source.zip','w',zipfile.ZIP_DEFLATED) as z:
-              for name in files:
-                  if Path(name).suffix.lower() in {'.md','.json','.py','.yml','.yaml','.txt','.js','.html','.css'}:z.write(name,name)
           print('TRANSFER_VERIFIED',result)
           PY
           python3 scripts/continue_preflight.py . --project raznoe > /tmp/honor-reference-evidence/preflight.txt
-      - name: Apply only after inspected-source approval
-        if: env.PHASE == 'apply'
+      - name: Apply, test and publish minimal transaction
         shell: bash
         run: |
           set -euo pipefail
-          python3 /tmp/honor-reference-bundle/files/integrate.py /tmp/honor-reference-bundle/files
-          python3 scripts/projects.py . status --project raznoe --write > /tmp/honor-reference-evidence/project-status.log
-          python3 scripts/build_resume_packet.py . --project raznoe > /tmp/honor-reference-evidence/resume.log
-          python3 scripts/continue_preflight.py . --project raznoe > /tmp/honor-reference-evidence/preflight-after.log
-          python3 /tmp/honor-reference-bundle/files/qa.py > /tmp/honor-reference-evidence/reference-qa.log 2>&1
-          python3 -m unittest discover -s tests > /tmp/honor-reference-evidence/full-tests.log 2>&1
-          python3 scripts/validate_site.py > /tmp/honor-reference-evidence/site.log 2>&1
-          python3 scripts/cert_github.py . > /tmp/honor-reference-evidence/certificate.log 2>&1
-          python3 scripts/projects.py . validate > /tmp/honor-reference-evidence/projects.log 2>&1
-          echo 'Checks finished; commit phase is installed only after inspection.'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          published=false
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            python3 scripts/honor_reference_transaction.py
+            git diff --cached --stat > /tmp/honor-reference-evidence/diff-stat.txt
+            git commit -m 'Bind six HONOR images and 39 prompts to exact device model sources; preserve approvals'
+            if git push origin HEAD:main; then
+              git rev-parse HEAD > /tmp/honor-reference-evidence/commit.txt
+              published=true
+              break
+            fi
+            echo 'Main changed: discard transaction and reapply from fresh main, never replay a stale patch.'
+          done
+          test "$published" = true
+          git fetch origin main
+          python3 - <<'PY'
+          import hashlib,json,subprocess
+          from pathlib import Path
+          p='projects/raznoe/reports/honor-reference-integration.json'
+          raw=subprocess.check_output(['git','show','origin/main:'+p]);assert raw==Path(p).read_bytes()
+          r=json.loads(raw);assert r['test_results']['all_tests_passed']
+          for a in r['assets']:
+              for key,hkey in [('path','sha256'),('preview','preview_sha256')]:
+                  data=subprocess.check_output(['git','show','origin/main:'+a[key]])
+                  assert hashlib.sha256(data).hexdigest()==a[hkey],a[key]
+          assert hashlib.sha256(subprocess.check_output(['git','show','origin/main:projects/raznoe/video-prompts.md'])).hexdigest()==r['master_sha256']
+          print('COMMITTED_READBACK_OK',r['test_results']['tests_run'],len(r['assets']))
+          PY
       - uses: actions/upload-artifact@v4
         if: always()
         with:
