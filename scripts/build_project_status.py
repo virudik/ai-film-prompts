@@ -661,7 +661,9 @@ def parse_master(
                     for item in active_tasks
                 ),
                 "topview_active_scene_ids_exist": all(
-                    isinstance(item, dict) and item.get("scene_id") in set(section_scenes)
+                    isinstance(item, dict) and (
+                        (item.get("unmapped") is True and item.get("scene_id") is None)
+                        or item.get("scene_id") in set(section_scenes))
                     for item in active_tasks
                 ),
                 "topview_occupied_matches_active_tasks": occupied == len(active_tasks),
@@ -681,19 +683,24 @@ def parse_master(
                         if isinstance(task_ids, list)
                         for task_id in task_ids
                     ]
+                    unmapped_ids = [task_id for task_id in (task_map.get("unmapped_active") or []) if isinstance(task_id, str)]
                     map_scene_ids = sorted(
                         int(scene_id)
                         for scene_id, task_ids in active_by_scene.items()
-                        if isinstance(task_ids, list) and task_ids
+                        if str(scene_id).isdigit() and isinstance(task_ids, list) and task_ids
                     )
+                    accounted = flat_active + unmapped_ids
                     task_map_matches = (
-                        len(flat_active) == len(set(flat_active))
-                        and sorted(telemetry_task_ids) == sorted(flat_active)
+                        len(accounted) == len(set(accounted))
+                        and sorted(telemetry_task_ids) == sorted(accounted)
                         and set(map_scene_ids) == set(active_scene_ids)
                         and all(
-                            isinstance(item, dict)
-                            and isinstance(item.get("scene_id"), int)
-                            and item.get("task_id") in active_by_scene.get(str(item.get("scene_id")), [])
+                            isinstance(item, dict) and (
+                                (item.get("unmapped") is True and item.get("scene_id") is None
+                                 and item.get("task_id") in unmapped_ids)
+                                or (isinstance(item.get("scene_id"), int)
+                                    and item.get("task_id") in active_by_scene.get(str(item.get("scene_id")), []))
+                            )
                             for item in active_tasks
                         )
                     )

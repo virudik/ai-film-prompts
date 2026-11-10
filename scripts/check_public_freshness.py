@@ -64,6 +64,7 @@ def inspect(root, now, topview_limit=105, instruction_limit=165, master_limit=24
     top_ids = [x.get("task_id") for x in active]
     map_groups = task.get("active_by_scene") or {}
     map_ids = [x for group in map_groups.values() for x in group]
+    map_ids += [x for x in (task.get("unmapped_active") or []) if x]
     cp_ids = checkpoint.get("active_task_ids") or []
     if (any(not x for x in top_ids) or len(top_ids) != len(set(top_ids))
             or sorted(top_ids) != sorted(map_ids) or sorted(top_ids) != sorted(cp_ids)):

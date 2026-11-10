@@ -180,11 +180,14 @@ class RobotPlanTests(Base):
                          [("kotmonavty", 1, KM_TASK)])
         self.assertEqual(p["changes"]["projects"]["new"], [KM_TASK])
 
-    def test_unknown_task_still_holds(self):
+    def test_unknown_task_is_published_as_an_occupied_slot_without_a_scene(self):
         p = rt.plan_cycle(scan(steady() + [active(OTHER, None, "init")]), self.work, T0_PLUS_10,
                           project_resolver=self.km_resolver())
-        self.assertEqual(p["decision"], "hold")
-        self.assertTrue(p["reasons"][0].startswith("unmapped_active:"))
+        self.assertEqual(p["decision"], "publish", p["reasons"])
+        row = next(a for a in p["cycle"]["active"] if a["task_id"] == OTHER)
+        self.assertIsNone(row["scene_id"])
+        self.assertEqual(p["master_plan"]["add"], [])
+        self.assertEqual(p["master_plan"]["occupied_slots"], 2)
 
     def test_known_project_task_needs_no_prompt_and_finishes_with_an_event(self):
         tel = {"active": [{"project": "kotmonavty", "scene_id": 1, "task_id": KM_TASK, "status": "running",

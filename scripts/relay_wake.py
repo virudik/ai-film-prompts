@@ -36,12 +36,12 @@ def load_config(root):
         return {}
 
 
-def build_request(cfg, token, text, data=None):
+def build_request(cfg, token, text, data=None, address=None, key_prefix="topview-"):
     if cfg.get("api_base", "").rstrip("/") != API_BASE:
         raise ValueError("unexpected Relay API origin")
     if not token.startswith("at_live_"):
         raise ValueError("robot requires its own agent token")
-    body = {"address": cfg["address"], "text": text}
+    body = {"address": address or cfg["address"], "text": text}
     if data:
         body["data"] = data
     # Stable across HTTP retries; a deliberate duplicate test can use a separate nonce.
@@ -50,14 +50,16 @@ def build_request(cfg, token, text, data=None):
                                  data=json.dumps(body, ensure_ascii=False).encode("utf-8"),
                                  headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json",
                                           "User-Agent": "ai-film-topview-robot",
-                                          "Idempotency-Key": "topview-" + key})
+                                          "Idempotency-Key": key_prefix + key})
     return req
 
 
-def send_dm(root, text, data=None, *, token=None, opener=None):
+def send_dm(root, text, data=None, *, token=None, opener=None, address=None, key_prefix="topview-",
+            require_enabled=True):
     """Returns (status, detail). status: sent | disabled | no_token | error. Never raises."""
     cfg = load_config(root)
-    if not cfg.get("enabled") or not cfg.get("address") or not cfg.get("api_base"):
+    dest = address or cfg.get("address")
+    if (require_enabled and not cfg.get("enabled")) or not dest or not cfg.get("api_base"):
         return "disabled", "ops/relay-wake.json disabled or incomplete"
     token = (token if token is not None else os.environ.get("AGENT_RELAY_TOKEN", "")).strip()
     if not token:
@@ -65,7 +67,7 @@ def send_dm(root, text, data=None, *, token=None, opener=None):
     if opener is None:
         opener = urllib.request.build_opener(NoRedirect()).open
     try:
-        with opener(build_request(cfg, token, text, data), timeout=TIMEOUT_S) as r:
+        with opener(build_request(cfg, token, text, data, address=dest, key_prefix=key_prefix), timeout=TIMEOUT_S) as r:
             raw = r.read().decode("utf-8", "replace")
             code = getattr(r, "status", 200)
     except urllib.error.HTTPError as e:
