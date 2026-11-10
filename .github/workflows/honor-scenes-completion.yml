@@ -18,7 +18,7 @@ jobs:
       PHASE: apply
       HOLDER: chatgpt:ordinary:e586d119-1d26-4f50-8bf8-9c95d64588be
       BUNDLE_ID: 1RyTXjlq5N10Gcg3G-ZI8wTd5Zx9TnRyk
-      BUNDLE_SHA: 7b7f79cda2fdb215f539f0c0820fad20bf827450e30a06f57cbaaa29aef5be6f
+      BUNDLE_SHA: e08520d9b4d3537ce3fab8f2c3d993211e21df05fc7e64322dad504833645fae
     steps:
       - uses: actions/checkout@v5
         with:
@@ -58,8 +58,8 @@ jobs:
                   assert name in ['assets.json','integrate.py','qa.py'] or name.startswith(('projects/raznoe/references/scenes/scene-4/','projects/raznoe/references/scenes/scene-5/'))
               z.extractall('/tmp/honor-reference-bundle/files')
           b=Path('/tmp/honor-reference-bundle/files')
-          assert hashlib.sha256((b/'integrate.py').read_bytes()).hexdigest()=='89bc41a9db983c1844a1c8fa6095a606af9f17c22ad5c599fc83d32549574c00'
-          assert hashlib.sha256((b/'qa.py').read_bytes()).hexdigest()=='467a06d22677d949e5704a8e5ea567929daffd91c0b4ed94432cbc4b6623e942'
+          assert hashlib.sha256((b/'integrate.py').read_bytes()).hexdigest()=='2815ba3aa5a6dc8d4ee1da529dd7451b24fa26e18a9994fd91e992baff68a9b5'
+          assert hashlib.sha256((b/'qa.py').read_bytes()).hexdigest()=='cfceb30eea5ee75b562116ec72dc427cf849aa9f85d8a6c33c78c424e883ee26'
           items=json.loads((b/'assets.json').read_text())['images'];assert len(items)==6
           for row in items:
               for key,hkey in [('path','sha256'),('preview','preview_sha256')]:
