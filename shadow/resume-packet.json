@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-10T19:43:51+00:00",
-  "source_head": "ba294f81b8cdeba7776a9a4140d9ab7d4c822beb",
-  "source_fingerprint": "8fec6b837837b06a8bcc0f930bbf8c0c6ba883b3c4c75234e7a5ec0d0a20f0b7",
+  "checked_at": "2026-11-10T20:12:54+00:00",
+  "source_head": "ecc1aa053999e240626517822830c29a38cf7901",
+  "source_fingerprint": "cadaf677996b550e422534be7e9692f1f83f9df89d5e43eadc75db8835df702f",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -35,15 +35,19 @@
   "selected_work": {
     "work_id": "SEREGIUS-SASHA-PHOTOGRAPHER-20261110",
     "title": "Сцена88: отдельная реклама фотографа Саши",
-    "status": "canon_published_live_verification_pending",
-    "last_completed": "Сцена88 оформлена:4 существующих PNG + исходный лист Саши,3 автономных промпта. Проверки master/site/инструкций прошли; общий набор тестов не получил новых ошибок, прежние сбои отражены в отчёте; оригиналы с Drive проверены обратным скачиванием. Сцена87 и остальные сцены не изменены; видео и расходы0.",
-    "next_action": "Проверить фактическую публикацию сцены88,галереи,4 PNG/4 превью на Pages; до проверки не объявлять сайт готовым. Фото повторно не генерировать. P2 ждёт реальный конецP1; видеозапуск отдельно.",
-    "verified_at": "2026-11-10T16:07:35+00:00",
+    "status": "awaiting_owner_review",
+    "last_completed": "Проверка публикации завершена: 4 оригинала, 4 превью, исходный референс Саши, мастер, manifest и галерея скачаны с сайта; все 12 SHA256 совпали. Пять устаревших/ошибочных тестовых проверок исправлены, полный набор: 538 тестов, 0 сбоев, 0 ошибок, 0 пропусков. Тексты сцен, изображения, очереди, приёмка и семь инструкций не изменены; видео и расходы 0.",
+    "next_action": "Техническая публикация сцены88 завершена и проверена; не создавать сцену, фотографии и промпты повторно. Художественная приёмка владельца отдельно. Видео не запускать без отдельного разрешения; Seedance P2 ждёт настоящий конец P1. Остальные исторические задачи этим этапом не закрыты.",
+    "verified_at": "2026-11-10T20:12:54+00:00",
     "blockers": [],
     "evidence": [
       {
+        "file": "reports/scene88-technical-verification-2026-11-10.json",
+        "sha256": "9bad34802d2d2b241d8483dd8b58e772cb8f2460259d706177ebcc76da561d65"
+      },
+      {
         "file": "reports/sasha-photographer-scene-88-2026-11-10.json",
-        "sha256": "bd32675e630e599a2cea6777124398ecf64f14676b0c1fffec2b152b128ff03d"
+        "sha256": "eb0061afc41bd451fe83a21f1603a2f039e305c6cbea9f7b3607847b9730a1fe"
       },
       {
         "file": "references/scenes/scene-88/manifest.json",
@@ -51,16 +55,17 @@
       }
     ],
     "read_next": [
+      "reports/scene88-technical-verification-2026-11-10.json",
       "video-prompts.md",
       "parodies.html"
     ],
     "checkpoint": {
       "file": "reports/current-work-checkpoint.md",
       "anchor": "# 10.11.2026 — Сцена 88: Саша. Даже слишком красиво",
-      "sha256": "f5987e9635fa18acc6c31f9fecfb561861863afbfa5025c8b53e328592a18e81"
+      "sha256": "c9f11b970c34fcee21079b2861e1b268c790fe10f562e803675184a6c6fb08ef"
     }
   },
-  "checkpoint_text": "# 10.11.2026 — Сцена 88: Саша. Даже слишком красиво\n\nwork_id: SEREGIUS-SASHA-PHOTOGRAPHER-20261110\n\n- Создана отдельная сцена88: 4 оригинальных PNG + исходный референс лица Саши, 3 автономных промпта, галерея. Сцена87 и все прежние сцены неизменны; очередь, approval, видео и кредиты не тронуты.\n- Проверка: reports/sasha-photographer-scene-88-2026-11-10.json.\n- Следующий шаг: Проверить публикацию именно сцены88 и её4 оригиналов/4превью на сайте, затем отметить этап публикации. Не генерировать фотографии повторно. Видеозапуск не разрешён; P2 ждёт настоящий конецP1. Старые задачи этим этапом не закрыты.\n\nchecked_at: 2026-11-10T16:06:56+00:00\n",
+  "checkpoint_text": "# 10.11.2026 — Сцена 88: Саша. Даже слишком красиво\n\nwork_id: SEREGIUS-SASHA-PHOTOGRAPHER-20261110\n\n- Проверка публикации завершена: 4 оригинала, 4 превью, исходный референс Саши, мастер, manifest и галерея скачаны с сайта; все 12 SHA256 совпали. Пять устаревших/ошибочных тестовых проверок исправлены, полный набор: 538 тестов, 0 сбоев, 0 ошибок, 0 пропусков. Тексты сцен, изображения, очереди, приёмка и семь инструкций не изменены; видео и расходы 0.\n- Доказательство: reports/scene88-technical-verification-2026-11-10.json; run 42892845673.\n- Следующий шаг: Техническая публикация сцены88 завершена и проверена; не создавать сцену, фотографии и промпты повторно. Художественная приёмка владельца отдельно. Видео не запускать без отдельного разрешения; Seedance P2 ждёт настоящий конец P1. Остальные исторические задачи этим этапом не закрыты.\n\nchecked_at: 2026-11-10T20:12:54+00:00\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -154,6 +159,7 @@
     }
   ],
   "read_next": [
+    "reports/scene88-technical-verification-2026-11-10.json",
     "video-prompts.md",
     "parodies.html"
   ],
@@ -604,8 +610,8 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "af0e221af94f56368be25a7df06aa589f99765733a71f350f9df9066ed84d9c3",
-      "bytes": 46422
+      "sha256": "25ea32bb7baffb3887d0f1c0dcd801a8599fe3201a9118a4a98cd81724939231",
+      "bytes": 46828
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -614,8 +620,13 @@
     },
     {
       "file": "reports/sasha-photographer-scene-88-2026-11-10.json",
-      "sha256": "bd32675e630e599a2cea6777124398ecf64f14676b0c1fffec2b152b128ff03d",
-      "bytes": 12191
+      "sha256": "eb0061afc41bd451fe83a21f1603a2f039e305c6cbea9f7b3607847b9730a1fe",
+      "bytes": 12735
+    },
+    {
+      "file": "reports/scene88-technical-verification-2026-11-10.json",
+      "sha256": "9bad34802d2d2b241d8483dd8b58e772cb8f2460259d706177ebcc76da561d65",
+      "bytes": 13484
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -634,9 +645,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "8c73c34c7414516190b6930669dc98a46ddb39d81b962eb1ea97a9accfc798cd",
-      "bytes": 107369
+      "sha256": "05160f2cb1df5edc830ae6e31384a130b2e412151c42ea52bdebfc6900e7543f",
+      "bytes": 108792
     }
   ],
-  "packet_bytes": 5839
+  "packet_bytes": 6562
 }

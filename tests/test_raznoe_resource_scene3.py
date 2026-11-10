@@ -2,6 +2,7 @@
 """Разное scene 3 RESOURCE: supplied stills, horizontal prompts, queue untouched."""
 import hashlib
 import json
+import re
 import struct
 import unittest
 from pathlib import Path
@@ -36,6 +37,16 @@ def png_size(path: Path):
     return struct.unpack(">II", head[16:24])
 
 
+def scene_block(master: str, scene_id: int) -> str:
+    """Select exactly one scene; native subscene anchors are not boundaries."""
+    anchor = f'<a id="scene-{scene_id}"></a>'
+    start = master.index(anchor)  # A missing scene must fail, not select the last byte.
+    rest = master[start + len(anchor):]
+    following = re.search(r'^<a id="scene-\d+"></a>\s*$', rest, re.M)
+    end = start + len(anchor) + following.start() if following else len(master)
+    return master[start:end]
+
+
 class RaznoeResourceScene3(unittest.TestCase):
     def test_source_bytes_and_backup(self):
         for name, digest in UNCHANGED.items():
@@ -53,7 +64,7 @@ class RaznoeResourceScene3(unittest.TestCase):
 
     def test_scene_is_horizontal_and_not_approved(self):
         master = (ROOT / "projects/raznoe/video-prompts.md").read_text(encoding="utf-8")
-        scene = master[master.find('<a id="scene-3"></a>'):]
+        scene = scene_block(master, 3)
         self.assertIn("## Сцена 3 — RESOURCE", scene)
         self.assertIn("Aspect ratio: 16:9", scene)
         self.assertIn("No portrait crop", scene)
@@ -96,7 +107,7 @@ class RaznoeResourceScene3(unittest.TestCase):
 
     def test_native_116_cut_keeps_source_and_names_unaccepted_attempts(self):
         master = (ROOT / "projects/raznoe/video-prompts.md").read_text(encoding="utf-8")
-        scene = master[master.find('<a id="scene-3"></a>'):master.find('<a id="scene-4"></a>')]
+        scene = scene_block(master, 3)
         self.assertIn("### Native Grok · 19 клипов · 114 с", scene)
         self.assertIn("A04_shred · 7 с", scene)
         self.assertIn("C06_cycle · 5 с", scene)
@@ -139,10 +150,49 @@ class RaznoeResourceScene3(unittest.TestCase):
             args = json.loads(path.read_text(encoding="utf-8"))["arguments"]
             self.assertTrue(forbidden.isdisjoint(args), path.name)
         names = {p.name for p in (exp / "prompts").glob("*.txt")}
-        self.assertEqual(len(names), 27)
-        self.assertIn("A01_drop.txt", names)
-        self.assertIn("A04_shred-v2.txt", names)
-        self.assertIn("C06_cycle-v2.txt", names)
+        # Nineteen original prompts and eight retained v2 attempts remain history.
+        # Additional active revisions are required by active-cut.json, not a stale
+        # total of 27. Also reject missing files, unregistered extras and wrong bytes.
+        original_ids = {
+            "A01_drop", "A02_retrieve", "A02_blue", "A03_sort", "A04_shred",
+            "A05_material", "A06_print", "B01_pickup", "B02_install", "B03_build",
+            "B04_check", "B05_pad", "B06_liftoff", "C01_orbit", "C02_debris",
+            "C03_capture", "C04_recycle", "C05_station", "C06_cycle",
+        }
+        retained_v2 = {"A04_shred", "A05_material", "C01_orbit", "C02_debris",
+                       "C03_capture", "C04_recycle", "C05_station", "C06_cycle"}
+        legacy = {f"{name}.txt" for name in original_ids}
+        legacy.update(f"{name}-v2.txt" for name in retained_v2)
+        cut = json.loads((exp / "active-cut.json").read_text(encoding="utf-8"))
+        self.assertEqual(cut["clip_count"], 19)
+        self.assertEqual(len(cut["clips"]), 19)
+        self.assertEqual({clip["clip_id"] for clip in cut["clips"]}, original_ids)
+        self.assertEqual(cut["total_duration_s"], 114)
+        self.assertEqual(sum(clip["duration_s"] for clip in cut["clips"]), 114)
+        self.assertEqual(cut["editorial_status"], "not_approved")
+        self.assertFalse(cut["execution_authorized"])
+        active = set()
+        for clip in cut["clips"]:
+            prompt = ROOT / clip["prompt_file"]
+            self.assertEqual(prompt.parent, exp / "prompts")
+            self.assertEqual(prompt.stem, clip["active_version"])
+            self.assertEqual(sha256(prompt), clip["prompt_sha256"], prompt.name)
+            self.assertEqual(clip["aspect_ratio"], "16:9")
+            self.assertFalse(clip["execute"])
+            active.add(prompt.name)
+        self.assertEqual(names, legacy | active)
+
+    def test_scene_boundary_ignores_native_anchors_and_neighbor_orientation(self):
+        sample = ('<a id="scene-3"></a>\nAspect ratio: 16:9\n'
+                  '<a id="scene-3-native-A01_drop"></a>\nnative prompt\n'
+                  '<a id="scene-4"></a>\nAspect ratio: 9:16\n')
+        resource = scene_block(sample, 3)
+        self.assertIn("native prompt", resource)
+        self.assertNotIn("9:16", resource)
+        self.assertNotIn('id="scene-4"', resource)
+        self.assertIn("9:16", scene_block(sample, 4))
+        with self.assertRaises(ValueError):
+            scene_block(sample, 99)
 
 
 if __name__ == "__main__":

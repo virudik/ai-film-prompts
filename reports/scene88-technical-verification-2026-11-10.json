@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "work_id": "SEREGIUS-SASHA-PHOTOGRAPHER-20261110",
+  "project": "seregius",
+  "scene_id": 88,
+  "checked_at": "2026-11-10T20:12:54+00:00",
+  "source_head": "ecc1aa053999e240626517822830c29a38cf7901",
+  "workflow_run_id": "42892845673",
+  "takeover_mode": "short; 15/15 anchors and source hashes verified by continue_preflight",
+  "baseline_run_id": "42890024464",
+  "baseline_tests": 534,
+  "baseline_failures": 5,
+  "repairs": [
+    {
+      "test": "test_handoff_is_one_pointer_line",
+      "cause": "Dated 06.11 pointer was correctly moved to archive/handoff-log.md on 07.11; the test searched only the live handoff.",
+      "fix": "Require exactly one intact pointer across live handoff and its linked archive; mutation checks detect loss or duplication."
+    },
+    {
+      "test": "test_topview_keeps_free_route_and_points_at_receipt",
+      "cause": "Test required the old exact free-route sentence and fixed 06.11 date at line 7; current 09.11 instructions retain zero-credit restrictions with an owner-authorized UI clarification.",
+      "fix": "Validate the current 720p/16:9/single-output/free-Unlimited/zero-cost/no-paid contract and receipt rules; validate metadata date without pinning its position or old value. Mutation checks reject paid or multiple outputs."
+    },
+    {
+      "test": "test_native_116_cut_keeps_source_and_names_unaccepted_attempts",
+      "cause": "Hard-coded inventory 27 omitted nine active v3 prompts; the directory correctly contains 36.",
+      "fix": "Preserve 19 originals plus eight v2 files, add exactly the active-cut files, verify their SHA256, 19 clips/114 seconds, 16:9 and not-approved/no-execution state; reject unregistered extras."
+    },
+    {
+      "test": "test_scene_is_horizontal_and_not_approved",
+      "cause": "Substring for RESOURCE scene 3 ran to end of the project master, so it incorrectly included portrait HONOR scenes.",
+      "fix": "Bound scene text at the next top-level scene anchor; retain native subscene anchors; regression covers neighboring portrait scene and missing scene."
+    },
+    {
+      "test": "test_every_master_block_is_found_and_labelled",
+      "cause": "Three prompts of scene 73 use plain fences. Production parser found all 243; text-tag-only test count found 240.",
+      "fix": "Independently count both supported fence forms and compare every full prompt body; add mixed-fence fixture. No prompt text or parser behavior changed."
+    }
+  ],
+  "test_files": {
+    "tests/test_prompt_send_qc.py": {
+      "before_sha256": "a055950faf56ba82b6254d3ab72b9604f54aa0af3919c5e0927786f77ee10e09",
+      "after_sha256": "fdd40910a5d338584bc3d1d9225305aa3eb7bcf56d185e52423a7e00f26fed9f"
+    },
+    "tests/test_raznoe_resource_scene3.py": {
+      "before_sha256": "40ac875a81abe1a7f98b4ccb9dd96f5809c04398d787a9fb6339b9480a865444",
+      "after_sha256": "10f6eb13d0769ca2cffb0f08bd19a7f590833c672adaf0e2976e70854e9608b1"
+    },
+    "tests/test_topview_prompt_match.py": {
+      "before_sha256": "45f7e6cf2cbe33c222be8e45318d0fa00a35a2f0738625798c51ae820f4d4988",
+      "after_sha256": "17ad60ef5164f2e345746c0c7e70736e9bc58a04ed537e410d986043aeaed61d"
+    }
+  },
+  "tests": {
+    "checked_at": "2026-11-10T20:12:51+00:00",
+    "tests_run": 538,
+    "failures": [],
+    "errors": [],
+    "skipped": [],
+    "all_tests_passed": true
+  },
+  "live_publication": {
+    "checked_at": "2026-11-10T20:12:52+00:00",
+    "base_url": "https://xn--l1adcem8c.xn--d1aigvp.xn--p1ai/",
+    "all_verified": true,
+    "originals_verified": 4,
+    "previews_verified": 4,
+    "results": [
+      {
+        "path": "references/scenes/scene-88/S88-hero-sunset.png",
+        "kind": "original",
+        "expected_sha256": "72745ce113010d629df8a563d30595d3d11bcc48ac1817fb9715729b06aec0d0",
+        "canonical_sha256": "72745ce113010d629df8a563d30595d3d11bcc48ac1817fb9715729b06aec0d0",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "image/png",
+        "bytes": 2419972,
+        "actual_sha256": "72745ce113010d629df8a563d30595d3d11bcc48ac1817fb9715729b06aec0d0"
+      },
+      {
+        "path": "references/scenes/scene-88/previews/S88-hero-sunset.webp",
+        "kind": "preview",
+        "expected_sha256": "4021bac71f589e8a706ebfe6314fd5680104e75001ef4a71741d2c3d52e67433",
+        "canonical_sha256": "4021bac71f589e8a706ebfe6314fd5680104e75001ef4a71741d2c3d52e67433",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "image/webp",
+        "bytes": 70216,
+        "actual_sha256": "4021bac71f589e8a706ebfe6314fd5680104e75001ef4a71741d2c3d52e67433"
+      },
+      {
+        "path": "references/scenes/scene-88/S88-family-dynasty.png",
+        "kind": "original",
+        "expected_sha256": "6ddc6ab8aa71ad91ee51c4a6d83d751cb7d07d0e43094349856c058b1cd8d7a0",
+        "canonical_sha256": "6ddc6ab8aa71ad91ee51c4a6d83d751cb7d07d0e43094349856c058b1cd8d7a0",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "image/png",
+        "bytes": 2892540,
+        "actual_sha256": "6ddc6ab8aa71ad91ee51c4a6d83d751cb7d07d0e43094349856c058b1cd8d7a0"
+      },
+      {
+        "path": "references/scenes/scene-88/previews/S88-family-dynasty.webp",
+        "kind": "preview",
+        "expected_sha256": "16123d90052969db26775be8bffdea418bb72c16992b9c30dd5c97c8612ff696",
+        "canonical_sha256": "16123d90052969db26775be8bffdea418bb72c16992b9c30dd5c97c8612ff696",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "image/webp",
+        "bytes": 97954,
+        "actual_sha256": "16123d90052969db26775be8bffdea418bb72c16992b9c30dd5c97c8612ff696"
+      },
+      {
+        "path": "references/scenes/scene-88/S88-rain-shoot.png",
+        "kind": "original",
+        "expected_sha256": "96caa9b32bf004872f69cf0d10e1f14ae21cd66e998c766b301b1dc5b574cd63",
+        "canonical_sha256": "96caa9b32bf004872f69cf0d10e1f14ae21cd66e998c766b301b1dc5b574cd63",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "image/png",
+        "bytes": 3053251,
+        "actual_sha256": "96caa9b32bf004872f69cf0d10e1f14ae21cd66e998c766b301b1dc5b574cd63"
+      },
+      {
+        "path": "references/scenes/scene-88/previews/S88-rain-shoot.webp",
+        "kind": "preview",
+        "expected_sha256": "06c67e8895b535639cd74bc98f2f84b94eff57cc3644da166a7e84ba7ce5dcc9",
+        "canonical_sha256": "06c67e8895b535639cd74bc98f2f84b94eff57cc3644da166a7e84ba7ce5dcc9",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "image/webp",
+        "bytes": 115936,
+        "actual_sha256": "06c67e8895b535639cd74bc98f2f84b94eff57cc3644da166a7e84ba7ce5dcc9"
+      },
+      {
+        "path": "references/scenes/scene-88/S88-studio-reveal.png",
+        "kind": "original",
+        "expected_sha256": "d246e5d9e350a29ad8c1d0c83aa0cae7957f8a3ceebb73a2cf811e3b2dfdbd0e",
+        "canonical_sha256": "d246e5d9e350a29ad8c1d0c83aa0cae7957f8a3ceebb73a2cf811e3b2dfdbd0e",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "image/png",
+        "bytes": 2816419,
+        "actual_sha256": "d246e5d9e350a29ad8c1d0c83aa0cae7957f8a3ceebb73a2cf811e3b2dfdbd0e"
+      },
+      {
+        "path": "references/scenes/scene-88/previews/S88-studio-reveal.webp",
+        "kind": "preview",
+        "expected_sha256": "b4b0ac60e4a9e7a1ffccd628fa267d17848411a2538523c439a600b8d15f604b",
+        "canonical_sha256": "b4b0ac60e4a9e7a1ffccd628fa267d17848411a2538523c439a600b8d15f604b",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "image/webp",
+        "bytes": 92564,
+        "actual_sha256": "b4b0ac60e4a9e7a1ffccd628fa267d17848411a2538523c439a600b8d15f604b"
+      },
+      {
+        "path": "references/full/sasha.jpg",
+        "kind": "identity",
+        "expected_sha256": "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102",
+        "canonical_sha256": "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "bytes": 289714,
+        "actual_sha256": "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102"
+      },
+      {
+        "path": "video-prompts.md",
+        "kind": "published_text",
+        "expected_sha256": "fc060c599a25ad56cd77141f864834ec430b6b2af7b2676a26b86d458f08bc4c",
+        "canonical_sha256": "fc060c599a25ad56cd77141f864834ec430b6b2af7b2676a26b86d458f08bc4c",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "text/markdown; charset=utf-8",
+        "bytes": 1855431,
+        "actual_sha256": "fc060c599a25ad56cd77141f864834ec430b6b2af7b2676a26b86d458f08bc4c"
+      },
+      {
+        "path": "references/scenes/scene-88/manifest.json",
+        "kind": "published_text",
+        "expected_sha256": "21b317137bad02374731f7276843f966625a07cdc218f299e89adb646baf647a",
+        "canonical_sha256": "21b317137bad02374731f7276843f966625a07cdc218f299e89adb646baf647a",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 7166,
+        "actual_sha256": "21b317137bad02374731f7276843f966625a07cdc218f299e89adb646baf647a"
+      },
+      {
+        "path": "parodies.html",
+        "kind": "published_text",
+        "expected_sha256": "2ff7728dff68bb65b5c262e35326592fc0f3ee70fe37b05913d2d60af2714465",
+        "canonical_sha256": "2ff7728dff68bb65b5c262e35326592fc0f3ee70fe37b05913d2d60af2714465",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 27500,
+        "actual_sha256": "2ff7728dff68bb65b5c262e35326592fc0f3ee70fe37b05913d2d60af2714465"
+      }
+    ]
+  },
+  "validations": [
+    {
+      "name": "site",
+      "exit_code": 0
+    },
+    {
+      "name": "instructions",
+      "exit_code": 0
+    },
+    {
+      "name": "projects",
+      "exit_code": 0
+    }
+  ],
+  "protected_files_unchanged": {
+    "video-prompts.md": "fc060c599a25ad56cd77141f864834ec430b6b2af7b2676a26b86d458f08bc4c",
+    "ops/topview-launch-queue.json": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+    "review-ledger.json": "4a112ec9a41edd0c99784826ec4dd0435febcff3cdaa0f25da6442df3b7f3e1b",
+    "references/scenes/scene-88/manifest.json": "21b317137bad02374731f7276843f966625a07cdc218f299e89adb646baf647a",
+    "references/full/sasha.jpg": "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102",
+    "parodies.html": "2ff7728dff68bb65b5c262e35326592fc0f3ee70fe37b05913d2d60af2714465",
+    "NEW-CHAT-HANDOFF.md": "58f30bdb728d23407db4bfa22d10a44aeea78a5b9ec050947d6c6ea2e844840e",
+    "SYNC-RUNBOOK.md": "ed3edff9823e89e4b89770ac55a9d4b9e7e1df34518222a2ee39b13bf942b18a",
+    "AI-PROJECT-GUIDE.md": "c62976f8c2561633e3d9612bcda6bad706ef85a9ad1a5295e2e6e6513b6efca6",
+    "PROMPT-STYLE-GUIDE.md": "2afe827fe839af546a0f7f4c1f36c57fcd976dd3f6fd8759ddf09ff265fa505d",
+    "USER-GUIDE.md": "b5cf8309fba1355fd1cd201e4bfe1abc88726b927d7c7f6d2bdb0c402f7cdc58",
+    "README-AI-SYNC.md": "e8d83475b63a94eeb24c6ac3ac4fd182de6bcb132258f191be2a7759ebf641d9",
+    "BACKUP-AI-RUNBOOK.md": "6b0a0ba95d23937c71d072fa96e278a6485a27391245834f32e05be9572812ac",
+    "projects/roscosmos/video-prompts.md": "fa45616f9b78c3e1bdd9b42ff06c65c4360aebf6a0d30839ed0e031998c56835",
+    "projects/kot-detektiv/video-prompts.md": "02d4f2db561018a1d4783de181515808ef47017065bef23a44af2e9e02bd2368",
+    "projects/kotmonavty/video-prompts.md": "59d21fb29cf7c430eafefe6322f571f6c381e91ef2dffe98b3eed66cf6757ba4",
+    "projects/raznoe/video-prompts.md": "e42aaf6328def25616dd339f338fc4082be724cec5e0c5c0d9a46fdde9aad5e5",
+    "projects/roscosmos/ops/topview-launch-queue.json": "794529e3b86620d589b38a1d5cb74166645f9311e128898a69714984af4d550c",
+    "projects/kot-detektiv/ops/topview-launch-queue.json": "5b1554d009d8d1403add5258684308454b2307486b6837fd2bccbdbf71eeb014",
+    "projects/kotmonavty/ops/topview-launch-queue.json": "6010aec9a321d72d37cfcd05feccf1e367c2816ef023aa0f46110ffbb6fcd419",
+    "projects/raznoe/ops/topview-launch-queue.json": "1532ad13f700b0dbcdb3f1ff590ff5bd2e158f8204de4a32428080d1537adfb5",
+    "references/scenes/scene-88/S88-hero-sunset.png": "72745ce113010d629df8a563d30595d3d11bcc48ac1817fb9715729b06aec0d0",
+    "references/scenes/scene-88/previews/S88-hero-sunset.webp": "4021bac71f589e8a706ebfe6314fd5680104e75001ef4a71741d2c3d52e67433",
+    "references/scenes/scene-88/S88-family-dynasty.png": "6ddc6ab8aa71ad91ee51c4a6d83d751cb7d07d0e43094349856c058b1cd8d7a0",
+    "references/scenes/scene-88/previews/S88-family-dynasty.webp": "16123d90052969db26775be8bffdea418bb72c16992b9c30dd5c97c8612ff696",
+    "references/scenes/scene-88/S88-rain-shoot.png": "96caa9b32bf004872f69cf0d10e1f14ae21cd66e998c766b301b1dc5b574cd63",
+    "references/scenes/scene-88/previews/S88-rain-shoot.webp": "06c67e8895b535639cd74bc98f2f84b94eff57cc3644da166a7e84ba7ce5dcc9",
+    "references/scenes/scene-88/S88-studio-reveal.png": "d246e5d9e350a29ad8c1d0c83aa0cae7957f8a3ceebb73a2cf811e3b2dfdbd0e",
+    "references/scenes/scene-88/previews/S88-studio-reveal.webp": "b4b0ac60e4a9e7a1ffccd628fa267d17848411a2538523c439a600b8d15f604b"
+  },
+  "technical_task_complete": true,
+  "editorial_approval": false,
+  "video_launches": 0,
+  "credits_spent": 0,
+  "scope": "Scene 88 exact-byte published delivery and five named regression-test repairs only; not artistic acceptance or completion of unrelated historical tasks."
+}

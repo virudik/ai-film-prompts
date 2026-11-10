@@ -4,6 +4,7 @@ import contextlib
 import io
 import json
 import os
+import re
 import sys
 import unittest
 from pathlib import Path
@@ -56,10 +57,26 @@ class PromptMatch(unittest.TestCase):
         # The status publisher runs asynchronously after a master commit. Test the
         # canonical master unconditionally, and compare status counts only when
         # its recorded master checksum proves it is from the same revision.
-        self.assertEqual(len(labels), sum(line.startswith("```text") for line in MASTER.splitlines()))
+        # Both plain and ```text fences are valid prompt containers. The matcher
+        # already reads both; a text-only line count silently omitted scene 73.
+        # Independently compare full bodies as well, so dropped/duplicated text fails.
+        expected = re.findall(r"^```(?:text)?[ \t]*\n(.*?)^```[ \t]*$", MASTER, re.M | re.S)
+        self.assertEqual(len(labels), len(expected))
+        for (label, actual), body in zip(BLOCKS, expected):
+            self.assertEqual(actual, body.removesuffix("\n"), label)
         import hashlib
         if project.get("canonical_master_sha256") == hashlib.sha256(MASTER.encode("utf-8")).hexdigest():
             self.assertEqual(len(labels), project["prompt_texts"])
+
+    def test_plain_and_text_fences_are_equivalent(self):
+        for fence in ("```", "```text"):
+            text = f"## Сцена 91 — Проба\n{fence}\nFirst line.\nSecond line.\n```\n"
+            self.assertEqual(pm.master_blocks(text), [("91", "First line.\nSecond line.")])
+        mixed = ("## Сцена 91 — Первая\n```\nplain\n```\n"
+                 "## Сцена 92 — Вторая\n```text\ntyped\n```\n")
+        expected = re.findall(r"^```(?:text)?[ \t]*\n(.*?)^```[ \t]*$", mixed, re.M | re.S)
+        self.assertEqual(len(expected), 2)
+        self.assertEqual(pm.master_blocks(mixed), [("91", "plain"), ("92", "typed")])
 
     def test_dynamic_tab_labels_are_distinct(self):
         # Кот детектив keeps its old prompts and adds «⚡ динамичная» tabs (owner 23.10.2026).

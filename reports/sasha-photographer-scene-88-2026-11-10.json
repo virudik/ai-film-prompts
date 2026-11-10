@@ -142,7 +142,7 @@
   "drive_folder": "https://drive.google.com/drive/folders/1m0kKr532uOqOzyoIZh_9ZlrWfOoQtNxu",
   "drive_uploads_complete": true,
   "local_validation": "passed_no_new_test_regressions",
-  "live_publication_verified": false,
+  "live_publication_verified": true,
   "workflow_run_id": "42850680274",
   "full_test_comparison": {
     "baseline": {
@@ -210,5 +210,16 @@
       }
     ]
   },
-  "tests_summary": ":16, continuous movement, overcast natural light, image only. No dialogue, native audio, subtitles, graphics, fake logo, real-looking city identity or fabricated technical result.\\n\\nNEGATIVE / FRAME FILL:\\nNo camera island, no HONOR branding, no exact handset, no water immersion, no impact, no fake demonstration, no replay of @Video1, no device duplication, no sideways framing, no pillarbox, letterbox, borders or captions. Fill entire portrait 720×1280.\\n```\\n\\n</div>\\n\\n</div>\\n'\n\n======================================================================\nFAIL: test_every_master_block_is_found_and_labelled (test_topview_prompt_match.PromptMatch.test_every_master_block_is_found_and_labelled)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/home/runner/work/ai-film-prompts/ai-film-prompts/tests/test_topview_prompt_match.py\", line 59, in test_every_master_block_is_found_and_labelled\n    self.assertEqual(len(labels), sum(line.startswith(\"```text\") for line in MASTER.splitlines()))\nAssertionError: 243 != 240\n\n----------------------------------------------------------------------\nRan 534 tests in 36.587s\n\nFAILED (failures=5)\n"
+  "tests_summary": ":16, continuous movement, overcast natural light, image only. No dialogue, native audio, subtitles, graphics, fake logo, real-looking city identity or fabricated technical result.\\n\\nNEGATIVE / FRAME FILL:\\nNo camera island, no HONOR branding, no exact handset, no water immersion, no impact, no fake demonstration, no replay of @Video1, no device duplication, no sideways framing, no pillarbox, letterbox, borders or captions. Fill entire portrait 720×1280.\\n```\\n\\n</div>\\n\\n</div>\\n'\n\n======================================================================\nFAIL: test_every_master_block_is_found_and_labelled (test_topview_prompt_match.PromptMatch.test_every_master_block_is_found_and_labelled)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/home/runner/work/ai-film-prompts/ai-film-prompts/tests/test_topview_prompt_match.py\", line 59, in test_every_master_block_is_found_and_labelled\n    self.assertEqual(len(labels), sum(line.startswith(\"```text\") for line in MASTER.splitlines()))\nAssertionError: 243 != 240\n\n----------------------------------------------------------------------\nRan 534 tests in 36.587s\n\nFAILED (failures=5)\n",
+  "live_publication_verified_at": "2026-11-10T20:12:52+00:00",
+  "latest_test_verification": {
+    "checked_at": "2026-11-10T20:12:51+00:00",
+    "tests_run": 538,
+    "failures": [],
+    "errors": [],
+    "skipped": [],
+    "all_tests_passed": true
+  },
+  "technical_verification_report": "reports/scene88-technical-verification-2026-11-10.json",
+  "historical_test_comparison_note": "full_test_comparison preserves the original publication baseline and initial five failures; latest_test_verification records the repaired full-suite result."
 }
