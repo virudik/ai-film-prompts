@@ -6,12 +6,12 @@
   "runtime_run_id": null,
   "runtime_run_id_unavailable_reason": "Automations list returned last_run_time but did not expose actual current scheduled runtime run id",
   "source_head_initial": "fbbde3d75521bcb0382a47fc4ea3b03006a6e5bc",
-  "source_head": "35a35831e9bd7fb0ea454c80a9e33aab239b3e40",
+  "source_head": "e7fb98cd329d7aaeab6550bcce33875bdec59cb6",
   "route_generation": 3,
   "started_at": "2026-11-10T00:25:55.825Z",
   "lease_acquired_at": "2026-11-10T00:30:17.696Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
     "scope": "all 14 Topview boards, 19 video pages, account-wide read-only connector scan",
@@ -23,25 +23,27 @@
       "fail": 26,
       "init": 5
     },
-    "checked_at": "2026-11-10T00:28:00Z",
+    "checked_at": "2026-11-10T00:33:03.831Z",
     "active_task_ids": [
       "be627af0e9664db5b6ac2b62c34080a6",
       "8bdd6439dad94592979aba23c137b4a0",
       "0a495e5f77a041e6bcc8d67fb68230b3",
       "6fa3cdac62e348759d2a3607093414ea",
       "2473c9b5bcf645fd85ab308306c53aaa"
-    ]
+    ],
+    "checked_at_note": "End-of-verification timestamp after complete 14-board scan and independent 501-task My First Board reconciliation"
   },
   "slots": {
     "physical_capacity": 6,
     "occupied": 5,
     "free": 1,
-    "scan_complete": true
+    "scan_complete": true,
+    "verified_at": "2026-11-10T00:33:03.831Z"
   },
   "selected_item": "S65-WAN30",
   "task_ids": [],
   "new_submissions": [],
-  "browser_transport": "not_used",
+  "browser_transport": "not_used_unchanged_tinyfish_file_upload_and_unlimited0_blocker",
   "tinyfish": {
     "runs": [],
     "steps": 0,
@@ -54,13 +56,36 @@
     "acquired_at": "2026-11-10T00:30:17.696Z",
     "expires_at": "2026-11-10T01:00:17.696Z",
     "lease_commit": "a41a6336e1daccf3a6c2458cda0505f4c2b881ad",
-    "final_action": "held"
+    "final_action": "released_atomically_with_receipt"
   },
-  "outcome": "in_progress",
+  "outcome": "ready_s65_blocked_browser_input_no_create",
   "previous_cycle": {
     "execution_instance_id": "41fe902f-f6b5-4b6f-8299-44bd59010748",
     "completed_at": "2026-11-10T00:14:02.150Z",
     "outcome": "readiness_repaired_blocked_browser_input_no_create"
   },
-  "updated_at": "2026-11-10T00:31:12.288Z"
+  "updated_at": "2026-11-10T00:33:03.831Z",
+  "acceptance": {
+    "scheduled_run_executed": true,
+    "scheduled_run_id_observed": false,
+    "topview_read_only_scan_complete": true,
+    "all_40_task_ids_verified": true,
+    "queue_sha_verified": true,
+    "task_map_sha_verified": true,
+    "s65_ready_and_source_qc_confirmed_from_canonical_readiness": true,
+    "tinyfish_authenticated_ui_this_run": false,
+    "tinyfish_file_transfer_this_run": false,
+    "tinyfish_unlimited_zero_this_run": false,
+    "production_submission_by_this_executor_verified": false,
+    "new_task_id_verified": false
+  },
+  "blocker": {
+    "category": "blocked_browser_input",
+    "item_id": "S65-WAN30",
+    "reason": "S65 queue-readiness now ready=true, exact queue and task-map SHA-256 match, all five canonical originals recorded available including S70-final-frame.png, and one physical slot is open. However TinyFish saved profile has no newly verified native image upload/import path for five exact images or selected Unlimited0 on My First Board. Last paid UI inspection on 2026-11-06 found only Agent Bot/Assets, not full omni-reference composer; repeated paid inspection of same unchanged blocker prohibited. No Create or claim. Work GUI + available quota not freshly demonstrated.",
+    "retry_condition": "New native Topview browser original-file import plus visibly selected Unlimited0 on exact My First Board, OR fresh authenticated Work GUI and quota verification; then fresh full scan/lease/preflight/claim/intent before single Create."
+  },
+  "retryable": false,
+  "completed_at": "2026-11-10T00:33:03.831Z",
+  "checked_at": "2026-11-10T00:33:03.831Z"
 }
