@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:5df10563-612e-4229-96c4-f8d8ab579ac6",
   "task": "Seregius HH:00 read-only Topview 6/6 scan and receipt",
   "acquired_at": "2026-11-10T17:09:34.414Z",
-  "expires_at": "2026-11-10T17:24:34.414Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-10T17:16:16.668Z",
   "rules": "ops/CANON-LOCK.md"
 }
