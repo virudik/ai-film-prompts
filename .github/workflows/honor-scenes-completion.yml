@@ -5,20 +5,16 @@ on:
     paths: [.github/workflows/honor-scenes-completion.yml]
 permissions:
   contents: write
-  id-token: write
 concurrency:
   group: honor-scenes-completion
   cancel-in-progress: false
 jobs:
-  reference_integration:
+  verify_reference_delivery:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 12
     env:
       PYTHONPATH: .
-      PHASE: apply
-      HOLDER: chatgpt:ordinary:e586d119-1d26-4f50-8bf8-9c95d64588be
-      BUNDLE_ID: 1RyTXjlq5N10Gcg3G-ZI8wTd5Zx9TnRyk
-      BUNDLE_SHA: e08520d9b4d3537ce3fab8f2c3d993211e21df05fc7e64322dad504833645fae
+      HOLDER: chatgpt:ordinary:f3295680-1f4c-4764-9a25-e04b833e7d2d
     steps:
       - uses: actions/checkout@v5
         with:
@@ -28,85 +24,49 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install --quiet google-auth requests
-      - uses: google-github-actions/auth@v2
-        with:
-          workload_identity_provider: ${{ vars.GCP_WORKLOAD_IDENTITY_PROVIDER }}
-          service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
-          create_credentials_file: true
-      - name: Verify exact private transfer and matching leases
+      - name: Verify existing files and bindings; save final evidence without generating media
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p /tmp/honor-reference-evidence /tmp/honor-reference-bundle
-          python3 - <<'PY'
-          import hashlib,json,os,subprocess,zipfile
-          from datetime import datetime,timezone
-          from pathlib import Path,PurePosixPath
-          import google.auth
-          from google.auth.transport.requests import AuthorizedSession
-          for p in ['ops/canon-lock.json','projects/raznoe/canon-lock.json']:
-              l=json.loads(Path(p).read_text());assert l['state']=='held' and l['holder']==os.environ['HOLDER']
-              assert datetime.fromisoformat(l['expires_at'].replace('Z','+00:00'))>datetime.now(timezone.utc)
-          credentials,_=google.auth.default(scopes=['https://www.googleapis.com/auth/drive.readonly'])
-          session=AuthorizedSession(credentials)
-          r=session.get('https://www.googleapis.com/drive/v3/files/'+os.environ['BUNDLE_ID'],params={'alt':'media'},timeout=90);r.raise_for_status()
-          assert hashlib.sha256(r.content).hexdigest()==os.environ['BUNDLE_SHA'],'bundle SHA mismatch'
-          raw=Path('/tmp/honor-reference-bundle/input.zip');raw.write_bytes(r.content)
-          with zipfile.ZipFile(raw) as z:
-              for name in z.namelist():
-                  p=PurePosixPath(name);assert not p.is_absolute() and '..' not in p.parts
-                  assert name in ['assets.json','integrate.py','qa.py'] or name.startswith(('projects/raznoe/references/scenes/scene-4/','projects/raznoe/references/scenes/scene-5/'))
-              z.extractall('/tmp/honor-reference-bundle/files')
-          b=Path('/tmp/honor-reference-bundle/files')
-          assert hashlib.sha256((b/'integrate.py').read_bytes()).hexdigest()=='2815ba3aa5a6dc8d4ee1da529dd7451b24fa26e18a9994fd91e992baff68a9b5'
-          assert hashlib.sha256((b/'qa.py').read_bytes()).hexdigest()=='cfceb30eea5ee75b562116ec72dc427cf849aa9f85d8a6c33c78c424e883ee26'
-          items=json.loads((b/'assets.json').read_text())['images'];assert len(items)==6
-          for row in items:
-              for key,hkey in [('path','sha256'),('preview','preview_sha256')]:
-                  assert hashlib.sha256((b/row[key]).read_bytes()).hexdigest()==row[hkey]
-          result={'checked_at':datetime.now(timezone.utc).isoformat(),'bundle_sha256':os.environ['BUNDLE_SHA'],'images_verified':6,'previews_verified':6,'source_head':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'phase':os.environ['PHASE']}
-          Path('/tmp/honor-reference-evidence/transfer-readback.json').write_text(json.dumps(result,indent=2)+'\n')
-          print('TRANSFER_VERIFIED',result)
-          PY
-          python3 scripts/continue_preflight.py . --project raznoe > /tmp/honor-reference-evidence/preflight.txt
-      - name: Apply, test and publish minimal transaction
-        shell: bash
-        run: |
-          set -euo pipefail
+          mkdir -p /tmp/honor-reference-delivery
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           published=false
           for attempt in 1 2 3; do
             git fetch origin main
             git reset --hard origin/main
-            python3 scripts/honor_reference_transaction.py
-            git diff --cached --stat > /tmp/honor-reference-evidence/diff-stat.txt
-            git commit -m 'Bind six HONOR images and 39 prompts to exact device model sources; preserve approvals'
+            python3 scripts/honor_reference_delivery.py
+            git diff --cached --stat > /tmp/honor-reference-delivery/diff-stat.txt
+            git commit -m 'Complete HONOR4/5 real-model reference delivery: exact website readback and full tests'
             if git push origin HEAD:main; then
-              git rev-parse HEAD > /tmp/honor-reference-evidence/commit.txt
+              git rev-parse HEAD > /tmp/honor-reference-delivery/commit.txt
               published=true
               break
             fi
-            echo 'Main changed: discard transaction and reapply from fresh main, never replay a stale patch.'
+            echo 'Main moved: discard transaction and verify again from fresh main.'
           done
           test "$published" = true
           git fetch origin main
           python3 - <<'PY'
           import hashlib,json,subprocess
           from pathlib import Path
-          p='projects/raznoe/reports/honor-reference-integration.json'
-          raw=subprocess.check_output(['git','show','origin/main:'+p]);assert raw==Path(p).read_bytes()
-          r=json.loads(raw);assert r['test_results']['all_tests_passed']
-          for a in r['assets']:
-              for key,hkey in [('path','sha256'),('preview','preview_sha256')]:
-                  data=subprocess.check_output(['git','show','origin/main:'+a[key]])
-                  assert hashlib.sha256(data).hexdigest()==a[hkey],a[key]
-          assert hashlib.sha256(subprocess.check_output(['git','show','origin/main:projects/raznoe/video-prompts.md'])).hexdigest()==r['master_sha256']
-          print('COMMITTED_READBACK_OK',r['test_results']['tests_run'],len(r['assets']))
+          p='projects/raznoe/reports/honor-reference-delivery.json'
+          raw=subprocess.check_output(['git','show','origin/main:'+p])
+          assert raw==Path(p).read_bytes(),'report readback mismatch'
+          r=json.loads(raw)
+          assert r['site']['all_verified'] and r['tests_final']['all_tests_passed']
+          assert r['source_model_binding_count']==39 and r['technical_reference_integration_complete']
+          for path,digest in r['protected_files_unchanged'].items():
+              actual=subprocess.check_output(['git','show','origin/main:'+path])
+              assert hashlib.sha256(actual).hexdigest()==digest,path
+          for p in ['ops/canon-lock.json','projects/raznoe/canon-lock.json']:
+              lock=json.loads(subprocess.check_output(['git','show','origin/main:'+p]))
+              assert lock['state']=='free','lease was not released'
+          print('COMMITTED_READBACK_OK',r['site']['verified_count'],r['source_model_binding_count'],r['tests_final']['tests_run'])
           PY
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: honor-reference-integration-evidence
-          path: /tmp/honor-reference-evidence/
-          retention-days: 3
+          name: honor-reference-final-delivery
+          path: /tmp/honor-reference-delivery/
+          retention-days: 7
