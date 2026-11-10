@@ -2,161 +2,274 @@
   "schema_version": 2,
   "project_id": "seregius",
   "scene_id": 74,
+  "production_state": "DRAFT",
+  "video_launch_approval": false,
+  "technical_success_is_editorial_approval": false,
   "references": [
     {
       "path": "references/full/vitalik.jpg",
       "asset_id": "references/full/vitalik.jpg",
-      "caption": "@Image1 — лицо Виталика; одежда отдельная по сцене",
+      "caption": "Виталик — только лицо и возраст с листа; одежда по сцене",
       "role": "identity",
       "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
       "bytes": 277558,
+      "width": 1536,
+      "height": 1536,
       "media_type": "image",
       "status": "available",
       "owner_approval": "user_supplied_identity",
+      "technical_success_is_editorial_approval": false,
       "reused_from_existing_pack": true
     },
     {
       "path": "references/scenes/scene-74/S74-studio-roar.png",
       "asset_id": "references/scenes/scene-74/S74-studio-roar.png",
-      "caption": "@Image2 — отдельный постановочный кадр рыка; только начало S74",
+      "caption": "74A — рык в смокинге",
       "role": "scene_staging",
-      "sha256": "ef65d3aae1a4bdeb4f49d19c576136a7dffa0b8852be06e0affac76b3c443b18",
-      "bytes": 2473956,
-      "width": 1672,
-      "height": 941,
+      "sha256": "814ba082a733a2da8ddee583c199d87dc281f95f7c91b3fd4a8cb7cd9be397cc",
+      "bytes": 1243886,
+      "width": 1280,
+      "height": 720,
       "media_type": "image",
       "status": "available",
       "owner_approval": "not_reviewed",
-      "provenance": {
-        "source": "ChatGPT native generated conversation image",
-        "generation_id": "ca55005c-c49d-471c-bfca-aee7b5997207",
-        "source_file_name": "ревущий_виталик_в_золотой_киноленте.png",
-        "drive_exchange_file_id": "1KUTkYLozDInRxvhRLd9eM7kcsxG_MDgi",
-        "download_sha256_verified": true
-      },
-      "qc": {
-        "scope": "visual staging check of existing image; not video or owner approval",
-        "single_frame": true,
-        "no_collage": true,
-        "no_text": true,
-        "human_roar": true,
-        "facial_reference_compared": "references/full/vitalik.jpg",
-        "limitations": "Expression changes face geometry; final likeness acceptance belongs to owner. Only roar setup, not the entire five-gag scene."
-      }
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-74/previews/S74-studio-roar.webp",
+      "clip": "74A",
+      "primary_still": true,
+      "active_prompt_input": true,
+      "video_launch_approval": false
+    },
+    {
+      "path": "references/scenes/scene-74/S74-torch-toga-vitalik.jpg",
+      "asset_id": "references/scenes/scene-74/S74-torch-toga-vitalik.jpg",
+      "caption": "74B — факел в тоге",
+      "role": "scene_staging",
+      "sha256": "f4fecbc0f4550e81a6840db4a7179227d565a0679a7897b504774ca14001d955",
+      "bytes": 351401,
+      "width": 1280,
+      "height": 720,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_reviewed",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-74/previews/S74-torch-toga-vitalik.webp",
+      "clip": "74B",
+      "primary_still": true,
+      "active_prompt_input": true,
+      "video_launch_approval": false
+    },
+    {
+      "path": "references/scenes/scene-74/S74-trash-pile-vitalik.jpg",
+      "asset_id": "references/scenes/scene-74/S74-trash-pile-vitalik.jpg",
+      "caption": "74C — куча хлама",
+      "role": "scene_staging",
+      "sha256": "67dd582d6172610912077771a5589714e8e5750f043434d6e4bf9e5fdbf532e9",
+      "bytes": 462186,
+      "width": 1280,
+      "height": 720,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_reviewed",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-74/previews/S74-trash-pile-vitalik.webp",
+      "clip": "74C",
+      "primary_still": true,
+      "active_prompt_input": true,
+      "video_launch_approval": false
+    },
+    {
+      "path": "references/scenes/scene-74/S74-globe-silly-vitalik.jpg",
+      "asset_id": "references/scenes/scene-74/S74-globe-silly-vitalik.jpg",
+      "caption": "74D — глобус",
+      "role": "scene_staging",
+      "sha256": "566484a7be7cf3dfbb37601ef6a5348408fd4babda4f814908f7d3cc6f7ee685",
+      "bytes": 388743,
+      "width": 1280,
+      "height": 720,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_reviewed",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-74/previews/S74-globe-silly-vitalik.webp",
+      "clip": "74D",
+      "primary_still": true,
+      "active_prompt_input": true,
+      "video_launch_approval": false
+    },
+    {
+      "path": "references/scenes/scene-74/S74-garage-roof-vitalik.jpg",
+      "asset_id": "references/scenes/scene-74/S74-garage-roof-vitalik.jpg",
+      "caption": "74E — крыша гаража",
+      "role": "scene_staging",
+      "sha256": "5427571ee1e0ac317e1117971f622c2bfb07f941914246d396c8dadcafdba33d",
+      "bytes": 396667,
+      "width": 1280,
+      "height": 720,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_reviewed",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-74/previews/S74-garage-roof-vitalik.webp",
+      "clip": "74E",
+      "primary_still": true,
+      "active_prompt_input": true,
+      "video_launch_approval": false
+    },
+    {
+      "path": "references/scenes/scene-74/S74-torch-curtain-silly-vitalik.jpg",
+      "asset_id": "references/scenes/scene-74/S74-torch-curtain-silly-vitalik.jpg",
+      "caption": "74F — факел со шторой",
+      "role": "scene_staging",
+      "sha256": "a32d34f658b970289758433156f79a1ba3647e5bca9bf7a56796f0e5c2bba4da",
+      "bytes": 251797,
+      "width": 1280,
+      "height": 720,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_reviewed",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-74/previews/S74-torch-curtain-silly-vitalik.webp",
+      "clip": "74F",
+      "primary_still": true,
+      "active_prompt_input": true,
+      "video_launch_approval": false
+    },
+    {
+      "path": "references/scenes/scene-74/S74-potato-mountain.jpg",
+      "asset_id": "references/scenes/scene-74/S74-potato-mountain.jpg",
+      "caption": "74G — гора из картошки; одежда в промпте нелепее, чем на фото",
+      "role": "scene_staging",
+      "sha256": "5e7ebedeca8f4d6c8c5888664d2df296606113a6e12958d480f39db9686091cd",
+      "bytes": 385190,
+      "width": 1280,
+      "height": 720,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_reviewed",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-74/previews/S74-potato-mountain.webp",
+      "clip": "74G",
+      "primary_still": true,
+      "active_prompt_input": true,
+      "video_launch_approval": false
+    },
+    {
+      "path": "references/scenes/scene-74/S74-searchlights-crates.jpg",
+      "asset_id": "references/scenes/scene-74/S74-searchlights-crates.jpg",
+      "caption": "74H — прожекторы у ящиков; одежда в промпте нелепее, чем на фото",
+      "role": "scene_staging",
+      "sha256": "57889b2124621ce75f60f9cfa07bd66b4c39dc08ffe0e5b09338e81d75a9254f",
+      "bytes": 247341,
+      "width": 1280,
+      "height": 720,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_reviewed",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-74/previews/S74-searchlights-crates.webp",
+      "clip": "74H",
+      "primary_still": true,
+      "active_prompt_input": true,
+      "video_launch_approval": false
     }
   ],
   "approved": [],
   "rejected": [],
-  "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-11-09T16:51:13.477469+00:00",
-  "additional_references_pending": [
-    "torch curtain pedestal",
-    "globe stage",
-    "potato mountain",
-    "searchlight crates"
-  ],
-  "additional_reference_jobs": [
+  "updated_at": "2026-11-10T02:21:42+00:00",
+  "publication": "t506u 2026-11-10; stills and prompts published, video not launched",
+  "clips": [
     {
-      "scene_id": 74,
-      "kind": "torch curtain pedestal",
-      "target_path": "references/scenes/scene-74/S74-torch-curtain.png",
-      "prompt_file": "references/scenes/scene-74/S74-torch-curtain.image-prompt.txt",
-      "status": "needs_generation",
-      "identity_source": "references/full/vitalik.jpg",
-      "identity_sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
-      "role": "scene_staging",
-      "source_authority": "current video-prompts.md and owner face-only correction",
-      "prompt_sha256": "aba78e6719a0fb908cc158de0c429a065a46596188485b71c258e5cec5b2f927",
-      "png_exists": false,
-      "approval": false,
-      "old_conversation_composition": {
-        "name": "виталик_с_золотым_факелом_на_театральном_пьедестал.png",
-        "sha256": "b941aa5a0eed866aabebdaa70b530bbeec1231f678494f16fd7d784d5c56e294",
-        "not_identity_authority": true,
-        "not_published_as_reference": true
+      "id": "74A",
+      "heading": "74A · Рык в золотом кольце (пародия на заставку со львом)",
+      "stills": [
+        "references/scenes/scene-74/S74-studio-roar.png"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/vitalik.jpg",
+        "@Image2": "references/scenes/scene-74/S74-studio-roar.png"
       }
     },
     {
-      "scene_id": 74,
-      "kind": "globe stage",
-      "target_path": "references/scenes/scene-74/S74-globe-stage.png",
-      "prompt_file": "references/scenes/scene-74/S74-globe-stage.image-prompt.txt",
-      "status": "needs_generation",
-      "identity_source": "references/full/vitalik.jpg",
-      "identity_sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
-      "role": "scene_staging",
-      "source_authority": "current video-prompts.md and owner face-only correction",
-      "prompt_sha256": "97f17a009d731cd74d2982c84cad3b7e7fdec93765234f3a9ffe419c36648ac9",
-      "png_exists": false,
-      "approval": false,
-      "old_conversation_composition": {
-        "name": "виталик_и_неустойчивый_глобус.png",
-        "sha256": "aba37f86fd0104c7dc2bbaaf130e897694f74fd86f33acddd1b3effbdaff3e79",
-        "not_identity_authority": true,
-        "not_published_as_reference": true
+      "id": "74B",
+      "heading": "74B · Статуя с факелом в тоге (пародия на заставку с дамой и факелом)",
+      "stills": [
+        "references/scenes/scene-74/S74-torch-toga-vitalik.jpg"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/vitalik.jpg",
+        "@Image2": "references/scenes/scene-74/S74-torch-toga-vitalik.jpg"
       }
     },
     {
-      "scene_id": 74,
-      "kind": "potato mountain",
-      "target_path": "references/scenes/scene-74/S74-potato-mountain.png",
-      "prompt_file": "references/scenes/scene-74/S74-potato-mountain.image-prompt.txt",
-      "status": "needs_generation",
-      "identity_source": "references/full/vitalik.jpg",
-      "identity_sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
-      "role": "scene_staging",
-      "source_authority": "current video-prompts.md and owner face-only correction",
-      "prompt_sha256": "b193c7c0a2681e5c6ed9b43e2b82b637917ac1dc3a3e10892208a0266c8ee18b",
-      "png_exists": false,
-      "approval": false,
-      "old_conversation_composition": {
-        "name": "триумф_над_горой_хлама.png",
-        "sha256": "f34b580d5bcdfbbe93bd63f3957903bc0a16713359dfcc32c9ead68d5d54efe3",
-        "not_identity_authority": true,
-        "not_published_as_reference": true
+      "id": "74C",
+      "heading": "74C · Гора хлама под звёздами (пародия на заставку с горой)",
+      "stills": [
+        "references/scenes/scene-74/S74-trash-pile-vitalik.jpg"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/vitalik.jpg",
+        "@Image2": "references/scenes/scene-74/S74-trash-pile-vitalik.jpg"
       }
     },
     {
-      "scene_id": 74,
-      "kind": "searchlight crates",
-      "target_path": "references/scenes/scene-74/S74-searchlight-crates.png",
-      "prompt_file": "references/scenes/scene-74/S74-searchlight-crates.image-prompt.txt",
-      "status": "needs_generation",
-      "identity_source": "references/full/vitalik.jpg",
-      "identity_sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
-      "role": "scene_staging",
-      "source_authority": "current video-prompts.md and owner face-only correction",
-      "prompt_sha256": "ded14f2b549edc4ace473dc851ca811372afe18b5bef567dc62ff11b1e539c54",
-      "png_exists": false,
-      "approval": false,
-      "old_conversation_composition": {
-        "name": "виталик_покоряет_крышу.png",
-        "sha256": "3eb205b2ce26c7854a340e92955b0866d585efc68b57d043959940c7fae7eec4",
-        "not_identity_authority": true,
-        "not_published_as_reference": true
+      "id": "74D",
+      "heading": "74D · Глобус на пальце (пародия на заставку с земным шаром)",
+      "stills": [
+        "references/scenes/scene-74/S74-globe-silly-vitalik.jpg"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/vitalik.jpg",
+        "@Image2": "references/scenes/scene-74/S74-globe-silly-vitalik.jpg"
       }
     },
     {
-      "scene_id": 74,
-      "kind": "saucepan gong",
-      "target_path": "references/scenes/scene-74/S74-saucepan-gong.png",
-      "prompt_file": "references/scenes/scene-74/S74-saucepan-gong.image-prompt.txt",
-      "status": "needs_generation",
-      "identity_source": "references/full/vitalik.jpg",
-      "identity_sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
-      "role": "optional_gag_not_in_active_cut",
-      "source_authority": "current video-prompts.md and owner face-only correction",
-      "prompt_sha256": "7d9eb111af52189353f30375309134a468b36871958eb17fecafd337a1ead023",
-      "png_exists": false,
-      "approval": false,
-      "old_conversation_composition": {
-        "name": "виталик_и_священный_гонг_кастрюли.png",
-        "sha256": "6aa3944fa39722a8657d782a69e21265165ade64d8e2f867465533d4ead31e50",
-        "not_identity_authority": true,
-        "not_published_as_reference": true
+      "id": "74E",
+      "heading": "74E · Прожекторы на крыше гаража (пародия на заставку с прожекторами)",
+      "stills": [
+        "references/scenes/scene-74/S74-garage-roof-vitalik.jpg"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/vitalik.jpg",
+        "@Image2": "references/scenes/scene-74/S74-garage-roof-vitalik.jpg"
+      }
+    },
+    {
+      "id": "74F",
+      "heading": "74F · Факел в шторе, нелепая домашняя версия",
+      "stills": [
+        "references/scenes/scene-74/S74-torch-curtain-silly-vitalik.jpg"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/vitalik.jpg",
+        "@Image2": "references/scenes/scene-74/S74-torch-curtain-silly-vitalik.jpg"
+      }
+    },
+    {
+      "id": "74G",
+      "heading": "74G · Гора из картошки под звёздами (пародия на заставку с горой)",
+      "stills": [
+        "references/scenes/scene-74/S74-potato-mountain.jpg"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/vitalik.jpg",
+        "@Image2": "references/scenes/scene-74/S74-potato-mountain.jpg"
+      }
+    },
+    {
+      "id": "74H",
+      "heading": "74H · Прожекторы у башни из ящиков (пародия на заставку с прожекторами)",
+      "stills": [
+        "references/scenes/scene-74/S74-searchlights-crates.jpg"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/vitalik.jpg",
+        "@Image2": "references/scenes/scene-74/S74-searchlights-crates.jpg"
       }
     }
   ],
+  "additional_references_pending": [],
+  "photo_gallery_page": "parodies.html#scene-74",
   "composition_drafts_gallery": [
     {
       "path": "archive/parody-74-80/first-roar.png",
@@ -207,5 +320,19 @@
       "warning": "Раннее фото: лицо не исправлено; только композиционный черновик."
     }
   ],
-  "photo_gallery_page": "parodies.html#scene-74"
+  "excluded_from_active_cut": [
+    {
+      "id": "gong",
+      "reason": "Владелец: гонг не берём"
+    },
+    {
+      "id": "black-jacket-roar",
+      "path": "archive/parody-74-80/S74-studio-roar-previous-not-used.png",
+      "reason": "Официальный рык в чёрном театральном пиджаке не берём; 74A — смокинг"
+    },
+    {
+      "id": "roman-poster",
+      "reason": "Римский постер не переделывался и в пакет не входит"
+    }
+  ]
 }

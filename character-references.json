@@ -209,7 +209,9 @@
         49,
         51,
         56,
-        62
+        62,
+        81,
+        83
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -263,7 +265,8 @@
         49,
         51,
         56,
-        62
+        62,
+        84
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -320,7 +323,10 @@
         28,
         36,
         49,
-        51
+        51,
+        85,
+        86,
+        87
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -377,7 +383,10 @@
         51,
         60,
         61,
-        77
+        77,
+        81,
+        82,
+        83
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -752,6 +761,34 @@
       "variants": [],
       "reference_priority": "Exact owner source photos are identity authority; individual Tatooine sheet fixes costume and outranks scene compositions.",
       "mapping_confidence": "owner_named_photos_in_order",
+      "editorial_status": "not_approved"
+    },
+    {
+      "id": "masha-f",
+      "name": "Маша Ф",
+      "aliases": [
+        "Маша Ф",
+        "не Маша Р"
+      ],
+      "scenes": [
+        85,
+        86
+      ],
+      "model_sheet": {
+        "source": "Owner-supplied face photo, 10.11.2026; selfie by a Christmas tree, light hair. Not the copper-red Маша Р and not Маша Лагуна. Visual reference only, owner approval of a generated video is not claimed.",
+        "primary": "Маша Ф · лицо анфас",
+        "additional": [],
+        "public_image": "references/full/masha-f.jpg",
+        "full_image": "references/full/masha-f.jpg",
+        "full_image_source": "owner_supplied_face_photo",
+        "full_image_width": 1414,
+        "full_image_height": 1969,
+        "web_preview_display_max": 480
+      },
+      "outfit_variant": "Лицо и светлые волосы с селфи у ёлки. Одежда только по кадру сцены 85 или 86, не с этого фото и не костюм Маши Р.",
+      "variants": [],
+      "reference_priority": "Лицо Маши Ф. Это не рыжая Маша Р и не Маша Лагуна. Лист задаёт лицо, не одежду сцены.",
+      "mapping_confidence": "owner_supplied_face_photo",
       "editorial_status": "not_approved"
     },
     {

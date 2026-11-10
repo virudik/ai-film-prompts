@@ -2,48 +2,116 @@
   "schema_version": 2,
   "project_id": "seregius",
   "scene_id": 77,
+  "production_state": "DRAFT",
+  "video_launch_approval": false,
+  "technical_success_is_editorial_approval": false,
   "references": [
     {
       "path": "references/full/vitalik.jpg",
       "asset_id": "references/full/vitalik.jpg",
-      "caption": "@Image1 — Виталик; только лицо, возраст сохраняется; одежда по сцене",
+      "caption": "Виталик — только лицо и возраст с листа; одежда по сцене",
       "role": "identity",
       "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
       "bytes": 277558,
+      "width": 1536,
+      "height": 1536,
       "media_type": "image",
       "status": "available",
       "owner_approval": "user_supplied_identity",
+      "technical_success_is_editorial_approval": false,
       "reused_from_existing_pack": true
     },
     {
       "path": "references/full/lesha.jpg",
       "asset_id": "references/full/lesha.jpg",
-      "caption": "@Image2 — Алексей (Лёша); только лицо, возраст сохраняется; одежда по сцене",
+      "caption": "Лёша — только лицо и возраст с листа; одежда по сцене",
       "role": "identity",
       "sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9",
       "bytes": 161032,
+      "width": 1536,
+      "height": 857,
       "media_type": "image",
       "status": "available",
       "owner_approval": "user_supplied_identity",
+      "technical_success_is_editorial_approval": false,
       "reused_from_existing_pack": true
     },
     {
       "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
       "asset_id": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
-      "caption": "@Image3 — Маша Р; только лицо, возраст сохраняется; одежда по сцене",
+      "caption": "Маша Р — рыжие волосы, только лицо с листа; это не Маша Ф",
       "role": "identity",
       "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
       "bytes": 2247428,
+      "width": 1672,
+      "height": 941,
       "media_type": "image",
       "status": "available",
       "owner_approval": "user_supplied_identity",
+      "technical_success_is_editorial_approval": false,
       "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-77/S77-extra-masha-restrains.jpg",
+      "asset_id": "references/scenes/scene-77/S77-extra-masha-restrains.jpg",
+      "caption": "77 — добор: Маша Р удерживает",
+      "role": "scene_staging",
+      "sha256": "a7a5ea0c47f27f2c8fd50d24920bf9eaf387e34d1102006d3f0f270cf86551ea",
+      "bytes": 333341,
+      "width": 1280,
+      "height": 720,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_reviewed",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-77/previews/S77-extra-masha-restrains.webp",
+      "clip": "77",
+      "primary_still": true,
+      "active_prompt_input": true,
+      "video_launch_approval": false
+    },
+    {
+      "path": "references/scenes/scene-77/S77-extra-over-shoulder.jpg",
+      "asset_id": "references/scenes/scene-77/S77-extra-over-shoulder.jpg",
+      "caption": "77 — добор: из-за плеча",
+      "role": "scene_staging",
+      "sha256": "3e26a99c6d4fc34b5063340055eecfa09ae778b9289961f1bb3f92e343c1b0d3",
+      "bytes": 303049,
+      "width": 1280,
+      "height": 720,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_reviewed",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-77/previews/S77-extra-over-shoulder.webp",
+      "clip": "77",
+      "primary_still": false,
+      "active_prompt_input": true,
+      "video_launch_approval": false
+    },
+    {
+      "path": "references/scenes/scene-77/S77-extra-walk-along-fence.jpg",
+      "asset_id": "references/scenes/scene-77/S77-extra-walk-along-fence.jpg",
+      "caption": "77 — добор: прогулка у забора",
+      "role": "scene_staging",
+      "sha256": "8fca5f8b4f3167c64b9469350a93b423a1e239db323c451000d698cd4994bfe8",
+      "bytes": 330281,
+      "width": 1280,
+      "height": 720,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_reviewed",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-77/previews/S77-extra-walk-along-fence.webp",
+      "clip": "77",
+      "primary_still": false,
+      "active_prompt_input": true,
+      "video_launch_approval": false
     },
     {
       "path": "references/scenes/scene-77/S77-love-triangle.png",
       "asset_id": "references/scenes/scene-77/S77-love-triangle.png",
-      "preview": "references/scenes/scene-77/previews/S77-love-triangle.webp",
-      "caption": "@Image4 — отдельный постановочный кадр S77",
+      "caption": "77 — основной кадр любовного треугольника",
       "role": "scene_staging",
       "sha256": "d983630f247d8ba80003c7dbcabc576fe45b555a90ba51cf1d869dc8921b161f",
       "bytes": 2406799,
@@ -52,39 +120,33 @@
       "media_type": "image",
       "status": "available",
       "owner_approval": "not_reviewed",
-      "provenance": {
-        "source": "Existing ChatGPT conversation image recovered without regeneration",
-        "file_id": "file_00000000538c82109e5fc42a1e52c7da",
-        "generation_id": "42aca3a0-c1da-4577-a304-88adcb7e5460",
-        "reencoded": false,
-        "exchange_bundle_file_id": "1qHELllT6i87kW7QKN09xJth6oab89Tmz"
-      },
-      "qc": {
-        "scope": "Visual composition/face-reference comparison only; no biometric guarantee, owner approval or video QC",
-        "single_frame": true,
-        "no_collage": true,
-        "no_text": true,
-        "facial_references": [
-          "references/full/vitalik.jpg",
-          "references/full/lesha.jpg",
-          "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png"
-        ],
-        "limitations": "Three adults and later reveal. Match exact individual sheets; this is not the initial two-shot or a continuous video."
-      }
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-77/previews/S77-love-triangle.webp",
+      "clip": "77",
+      "primary_still": false,
+      "active_prompt_input": true,
+      "video_launch_approval": false
     }
   ],
   "approved": [],
   "rejected": [],
-  "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-11-09T16:09:20.743259+00:00",
-  "prompt_reference_mapping": {
-    "@Image1": "references/full/vitalik.jpg",
-    "@Image2": "references/full/lesha.jpg",
-    "@Image3": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
-    "@Image4": "references/scenes/scene-77/S77-love-triangle.png"
-  },
-  "additional_references_pending": [
-    "initial adult two-shot",
-    "Masha confession reverse angle"
-  ]
+  "updated_at": "2026-11-10T02:21:42+00:00",
+  "publication": "t506u 2026-11-10; stills and prompts published, video not launched",
+  "clips": [
+    {
+      "id": "77",
+      "heading": "scene",
+      "stills": [
+        "references/scenes/scene-77/S77-extra-masha-restrains.jpg",
+        "references/scenes/scene-77/S77-extra-over-shoulder.jpg",
+        "references/scenes/scene-77/S77-extra-walk-along-fence.jpg",
+        "references/scenes/scene-77/S77-love-triangle.png"
+      ],
+      "prompt_reference_mapping": {
+        "@Image4": "references/scenes/scene-77/S77-love-triangle.png"
+      }
+    }
+  ],
+  "additional_references_pending": [],
+  "photo_gallery_page": "parodies.html#scene-77"
 }

@@ -3,14 +3,14 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-11-10T03:20:41Z",
+  "synced_at": "2026-11-10T03:40:00Z",
   "revision_date": "10.11.2026",
   "master_declared_last_full_sync": "10.11.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "a587833b74138438cd40192e280a288483c77dfd4b86e852f55afb86f0552ec5",
-  "canonical_revision_sha256": "1c129ba924b7d41d6c03a4fdfac7ef7d7122d14c0e216ecd54dd409de4b54b05",
-  "canonical_master_bytes": 1516825,
-  "scenes": 37,
-  "prompt_texts": 168,
+  "canonical_master_sha256": "5acc97fdd7dc29e265ee85d92720398dc7e68e5a3e891362ab2bd7fe4d84fbd9",
+  "canonical_revision_sha256": "f17cec3862a5b667ceaed549ffe4f67c1d328d8d722feaa62831c830f77d7b3b",
+  "canonical_master_bytes": 1752685,
+  "scenes": 44,
+  "prompt_texts": 216,
   "work_items": [
     "W5",
     "W6",
@@ -89,9 +89,16 @@
     77,
     78,
     79,
-    80
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87
   ],
-  "latest_scene": 80,
+  "latest_scene": 87,
   "reserved_scene_ids": [
     1,
     2,
@@ -142,7 +149,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 1.348,
+    "age_hours_at_status_build": 1.67,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -220,7 +227,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 1.348,
+      "age_hours": 1.67,
       "blocking": false
     },
     "topview_task_map": {
@@ -903,8 +910,9 @@
       "tags": [
         "parody",
         "comedy",
-        "owner_authorized_creation",
-        "images_pending"
+        "draft",
+        "stills_published",
+        "not_a_video_launch"
       ],
       "render_state": "IDLE"
     },
@@ -913,15 +921,16 @@
       "production_state": "DRAFT",
       "duration_s": 30,
       "dialogue": {
-        "enabled": false,
-        "language": null
+        "enabled": true,
+        "language": "ru"
       },
       "dependencies": [],
       "tags": [
         "parody",
         "comedy",
-        "owner_authorized_creation",
-        "images_pending"
+        "draft",
+        "stills_published",
+        "not_a_video_launch"
       ],
       "render_state": "IDLE"
     },
@@ -937,8 +946,9 @@
       "tags": [
         "parody",
         "comedy",
-        "owner_authorized_creation",
-        "images_pending"
+        "draft",
+        "stills_published",
+        "not_a_video_launch"
       ],
       "render_state": "IDLE"
     },
@@ -954,8 +964,9 @@
       "tags": [
         "parody",
         "comedy",
-        "owner_authorized_creation",
-        "images_pending"
+        "draft",
+        "stills_published",
+        "not_a_video_launch"
       ],
       "render_state": "IDLE"
     },
@@ -971,8 +982,9 @@
       "tags": [
         "parody",
         "comedy",
-        "owner_authorized_creation",
-        "images_pending"
+        "draft",
+        "stills_published",
+        "not_a_video_launch"
       ],
       "render_state": "IDLE"
     },
@@ -988,8 +1000,9 @@
       "tags": [
         "parody",
         "comedy",
-        "owner_authorized_creation",
-        "images_pending"
+        "draft",
+        "stills_published",
+        "not_a_video_launch"
       ],
       "render_state": "IDLE"
     },
@@ -1005,19 +1018,146 @@
       "tags": [
         "parody",
         "comedy",
-        "owner_authorized_creation",
-        "images_pending"
+        "draft",
+        "stills_published",
+        "not_a_video_launch"
+      ],
+      "render_state": "IDLE"
+    },
+    "81": {
+      "target_engine": "Wan 3.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": true,
+        "language": "ru"
+      },
+      "dependencies": [],
+      "tags": [
+        "parody",
+        "comedy",
+        "draft",
+        "stills_published",
+        "not_a_video_launch"
+      ],
+      "render_state": "IDLE"
+    },
+    "82": {
+      "target_engine": "Wan 3.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": true,
+        "language": "ru"
+      },
+      "dependencies": [],
+      "tags": [
+        "parody",
+        "comedy",
+        "draft",
+        "stills_published",
+        "not_a_video_launch"
+      ],
+      "render_state": "IDLE"
+    },
+    "83": {
+      "target_engine": "Wan 3.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": true,
+        "language": "ru"
+      },
+      "dependencies": [],
+      "tags": [
+        "parody",
+        "comedy",
+        "draft",
+        "stills_published",
+        "not_a_video_launch"
+      ],
+      "render_state": "IDLE"
+    },
+    "84": {
+      "target_engine": "Wan 3.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": true,
+        "language": "ru"
+      },
+      "dependencies": [],
+      "tags": [
+        "parody",
+        "comedy",
+        "draft",
+        "stills_published",
+        "not_a_video_launch"
+      ],
+      "render_state": "IDLE"
+    },
+    "85": {
+      "target_engine": "Wan 3.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": true,
+        "language": "ru"
+      },
+      "dependencies": [],
+      "tags": [
+        "parody",
+        "comedy",
+        "draft",
+        "stills_published",
+        "not_a_video_launch"
+      ],
+      "render_state": "IDLE"
+    },
+    "86": {
+      "target_engine": "Wan 3.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": true,
+        "language": "ru"
+      },
+      "dependencies": [],
+      "tags": [
+        "parody",
+        "comedy",
+        "draft",
+        "stills_published",
+        "not_a_video_launch"
+      ],
+      "render_state": "IDLE"
+    },
+    "87": {
+      "target_engine": "Wan 3.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": true,
+        "language": "ru"
+      },
+      "dependencies": [],
+      "tags": [
+        "parody",
+        "comedy",
+        "draft",
+        "stills_published",
+        "not_a_video_launch"
       ],
       "render_state": "IDLE"
     }
   },
   "audit_fingerprint": {
     "revision_date": "10.11.2026",
-    "synced_at": "2026-11-10T03:20:41Z",
-    "canonical_master_sha256": "a587833b74138438cd40192e280a288483c77dfd4b86e852f55afb86f0552ec5",
-    "canonical_revision_sha256": "1c129ba924b7d41d6c03a4fdfac7ef7d7122d14c0e216ecd54dd409de4b54b05",
-    "scene_count": 37,
-    "prompt_count": 168,
+    "synced_at": "2026-11-10T03:40:00Z",
+    "canonical_master_sha256": "5acc97fdd7dc29e265ee85d92720398dc7e68e5a3e891362ab2bd7fe4d84fbd9",
+    "canonical_revision_sha256": "f17cec3862a5b667ceaed549ffe4f67c1d328d8d722feaa62831c830f77d7b3b",
+    "scene_count": 44,
+    "prompt_count": 216,
     "scene_ids": [
       13,
       16,
@@ -1055,7 +1195,14 @@
       77,
       78,
       79,
-      80
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87
     ],
     "work_items": [
       "W5",

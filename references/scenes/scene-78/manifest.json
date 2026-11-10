@@ -2,48 +2,116 @@
   "schema_version": 2,
   "project_id": "seregius",
   "scene_id": 78,
+  "production_state": "DRAFT",
+  "video_launch_approval": false,
+  "technical_success_is_editorial_approval": false,
   "references": [
     {
       "path": "references/full/vitalik.jpg",
       "asset_id": "references/full/vitalik.jpg",
-      "caption": "@Image1 — Виталик; только лицо, возраст сохраняется; одежда по сцене",
+      "caption": "Виталик — только лицо и возраст с листа; одежда по сцене",
       "role": "identity",
       "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
       "bytes": 277558,
+      "width": 1536,
+      "height": 1536,
       "media_type": "image",
       "status": "available",
       "owner_approval": "user_supplied_identity",
+      "technical_success_is_editorial_approval": false,
       "reused_from_existing_pack": true
     },
     {
       "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
       "asset_id": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
-      "caption": "@Image2 — Маша Р; только лицо, возраст сохраняется; одежда по сцене",
+      "caption": "Маша Р — рыжие волосы, только лицо с листа; это не Маша Ф",
       "role": "identity",
       "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
       "bytes": 2247428,
+      "width": 1672,
+      "height": 941,
       "media_type": "image",
       "status": "available",
       "owner_approval": "user_supplied_identity",
+      "technical_success_is_editorial_approval": false,
       "reused_from_existing_pack": true
     },
     {
       "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
       "asset_id": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
-      "caption": "@Image3 — Алина; только лицо, возраст сохраняется; одежда по сцене",
+      "caption": "Алина — только лицо и возраст с листа; одежда по сцене",
       "role": "identity",
       "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
       "bytes": 1989143,
+      "width": 1672,
+      "height": 941,
       "media_type": "image",
       "status": "available",
       "owner_approval": "user_supplied_identity",
+      "technical_success_is_editorial_approval": false,
       "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-78/S78-extra-high-angle-table.jpg",
+      "asset_id": "references/scenes/scene-78/S78-extra-high-angle-table.jpg",
+      "caption": "78 — добор: стол сверху",
+      "role": "scene_staging",
+      "sha256": "6576c09176276acbe12e61f9eb97ec4c1d23a695125bfc99755c8c7975604f92",
+      "bytes": 399286,
+      "width": 1280,
+      "height": 720,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_reviewed",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-78/previews/S78-extra-high-angle-table.webp",
+      "clip": "78",
+      "primary_still": true,
+      "active_prompt_input": true,
+      "video_launch_approval": false
+    },
+    {
+      "path": "references/scenes/scene-78/S78-extra-making-sandwiches.jpg",
+      "asset_id": "references/scenes/scene-78/S78-extra-making-sandwiches.jpg",
+      "caption": "78 — добор: бутерброды",
+      "role": "scene_staging",
+      "sha256": "e5e357ff29ed489b7a221a5ccdbecc1775785ae3eaee03ef7b2f26aca4d99249",
+      "bytes": 365054,
+      "width": 1280,
+      "height": 720,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_reviewed",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-78/previews/S78-extra-making-sandwiches.webp",
+      "clip": "78",
+      "primary_still": false,
+      "active_prompt_input": true,
+      "video_launch_approval": false
+    },
+    {
+      "path": "references/scenes/scene-78/S78-extra-mayo-cupboard.jpg",
+      "asset_id": "references/scenes/scene-78/S78-extra-mayo-cupboard.jpg",
+      "caption": "78 — добор: шкаф с банками",
+      "role": "scene_staging",
+      "sha256": "185c8cabcae20374752266722aac9d0e8700677d1b9fc051e88fcc2363373382",
+      "bytes": 387788,
+      "width": 1280,
+      "height": 720,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_reviewed",
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-78/previews/S78-extra-mayo-cupboard.webp",
+      "clip": "78",
+      "primary_still": false,
+      "active_prompt_input": true,
+      "video_launch_approval": false
     },
     {
       "path": "references/scenes/scene-78/S78-mayonnaise-family.png",
       "asset_id": "references/scenes/scene-78/S78-mayonnaise-family.png",
-      "preview": "references/scenes/scene-78/previews/S78-mayonnaise-family.webp",
-      "caption": "@Image4 — отдельный постановочный кадр S78",
+      "caption": "78 — основной кадр семьи с майонезом",
       "role": "scene_staging",
       "sha256": "ff2103c750d878f2f9b0daffb16c9d42fa3890b5cde9eb31271250362c45a1e6",
       "bytes": 2471891,
@@ -52,38 +120,39 @@
       "media_type": "image",
       "status": "available",
       "owner_approval": "not_reviewed",
-      "provenance": {
-        "source": "Existing ChatGPT conversation image recovered without regeneration",
-        "file_id": "file_00000000324881f48c9397416a9ef7cb",
-        "generation_id": "3d128b86-fdd4-45c4-b097-1298476225d1",
-        "reencoded": false,
-        "exchange_bundle_file_id": "1qHELllT6i87kW7QKN09xJth6oab89Tmz"
-      },
-      "qc": {
-        "scope": "Visual composition/face-reference comparison only; no biometric guarantee, owner approval or video QC",
-        "single_frame": true,
-        "no_collage": true,
-        "no_text": true,
-        "facial_references": [
-          "references/full/vitalik.jpg",
-          "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
-          "references/scenes/scene-66/S66-Alina-tatooine-sheet.png"
-        ],
-        "limitations": "Exactly three specified family performers; ordinary small spoonfuls. Does not establish real eating behavior or product benefit."
-      }
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-78/previews/S78-mayonnaise-family.webp",
+      "clip": "78",
+      "primary_still": false,
+      "active_prompt_input": true,
+      "video_launch_approval": false
     }
   ],
   "approved": [],
   "rejected": [],
-  "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-11-09T16:09:20.743259+00:00",
-  "prompt_reference_mapping": {
-    "@Image1": "references/full/vitalik.jpg",
-    "@Image2": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
-    "@Image3": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
-    "@Image4": "references/scenes/scene-78/S78-mayonnaise-family.png"
-  },
-  "additional_references_pending": [
-    "jar/spoon hand insert"
-  ]
+  "updated_at": "2026-11-10T02:21:42+00:00",
+  "publication": "t506u 2026-11-10; stills and prompts published, video not launched",
+  "clips": [
+    {
+      "id": "78",
+      "heading": "78 · Майонез: салат больше не нужен",
+      "stills": [
+        "references/scenes/scene-78/S78-extra-high-angle-table.jpg",
+        "references/scenes/scene-78/S78-extra-making-sandwiches.jpg",
+        "references/scenes/scene-78/S78-extra-mayo-cupboard.jpg",
+        "references/scenes/scene-78/S78-mayonnaise-family.png"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/vitalik.jpg",
+        "@Image2": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+        "@Image3": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+        "@Image4": "references/scenes/scene-78/S78-mayonnaise-family.png",
+        "@Image5": "references/scenes/scene-78/S78-extra-making-sandwiches.jpg",
+        "@Image6": "references/scenes/scene-78/S78-extra-mayo-cupboard.jpg",
+        "@Image7": "references/scenes/scene-78/S78-extra-high-angle-table.jpg"
+      }
+    }
+  ],
+  "additional_references_pending": [],
+  "photo_gallery_page": "parodies.html#scene-78"
 }

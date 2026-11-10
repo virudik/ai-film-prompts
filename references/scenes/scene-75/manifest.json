@@ -2,63 +2,64 @@
   "schema_version": 2,
   "project_id": "seregius",
   "scene_id": 75,
+  "production_state": "DRAFT",
+  "video_launch_approval": false,
+  "technical_success_is_editorial_approval": false,
   "references": [
     {
       "path": "references/full/vitalik.jpg",
       "asset_id": "references/full/vitalik.jpg",
-      "caption": "@Image1 — Виталик; только лицо, возраст сохраняется; одежда по сцене",
+      "caption": "Виталик — только лицо и возраст с листа; одежда по сцене",
       "role": "identity",
       "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
       "bytes": 277558,
+      "width": 1536,
+      "height": 1536,
       "media_type": "image",
       "status": "available",
       "owner_approval": "user_supplied_identity",
+      "technical_success_is_editorial_approval": false,
       "reused_from_existing_pack": true
     },
     {
-      "path": "references/scenes/scene-75/S75-moon-river.png",
-      "asset_id": "references/scenes/scene-75/S75-moon-river.png",
-      "preview": "references/scenes/scene-75/previews/S75-moon-river.webp",
-      "caption": "@Image2 — отдельный постановочный кадр S75",
+      "path": "references/scenes/scene-75/S75-fishing-start.png",
+      "asset_id": "references/scenes/scene-75/S75-fishing-start.png",
+      "caption": "75 — основной кадр: удочка на месяце",
       "role": "scene_staging",
-      "sha256": "82cf2a58e8c89ee641fb41e595815734a56b484da4f636ee5b2461929ab739d9",
-      "bytes": 2354190,
-      "width": 1672,
-      "height": 941,
+      "sha256": "3539fe6a7a2ce525ed8a949663f9133540397d51da390f358cdf5101b9b54e96",
+      "bytes": 1384905,
+      "width": 1280,
+      "height": 720,
       "media_type": "image",
       "status": "available",
       "owner_approval": "not_reviewed",
-      "provenance": {
-        "source": "Existing ChatGPT conversation image recovered without regeneration",
-        "file_id": "file_0000000083dc81f48bc0fd49d3f15af3",
-        "generation_id": "f21aac40-dd80-419b-a4a7-4db43e615d28",
-        "reencoded": false,
-        "exchange_bundle_file_id": "1qHELllT6i87kW7QKN09xJth6oab89Tmz"
-      },
-      "qc": {
-        "scope": "Visual composition/face-reference comparison only; no biometric guarantee, owner approval or video QC",
-        "single_frame": true,
-        "no_collage": true,
-        "no_text": true,
-        "facial_references": [
-          "references/full/vitalik.jpg"
-        ],
-        "limitations": "Middle-gag costume/layout helper, not the fishing setup; bodily source is hidden, no nudity. Different setup/finish still needed."
-      }
+      "technical_success_is_editorial_approval": false,
+      "preview": "references/scenes/scene-75/previews/S75-fishing-start.webp",
+      "clip": "75",
+      "primary_still": true,
+      "active_prompt_input": true,
+      "video_launch_approval": false
     }
   ],
   "approved": [],
   "rejected": [],
-  "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-11-09T16:09:20.743259+00:00",
-  "prompt_reference_mapping": {
-    "@Image1": "references/full/vitalik.jpg",
-    "@Image2": "references/scenes/scene-75/S75-moon-river.png"
-  },
-  "additional_references_pending": [
-    "matching-costume fishing setup",
-    "matching-costume finish with droid"
+  "updated_at": "2026-11-10T02:21:42+00:00",
+  "publication": "t506u 2026-11-10; stills and prompts published, video not launched",
+  "clips": [
+    {
+      "id": "75",
+      "heading": "75 · Месяц и удочка (пародия на заставку с мальчиком на месяце)",
+      "stills": [
+        "references/scenes/scene-75/S75-fishing-start.png"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/vitalik.jpg",
+        "@Image2": "references/scenes/scene-75/S75-fishing-start.png"
+      }
+    }
   ],
+  "additional_references_pending": [],
+  "photo_gallery_page": "parodies.html#scene-75",
   "composition_drafts_gallery": [
     {
       "path": "archive/parody-74-80/first-moon.png",
@@ -69,5 +70,18 @@
       "warning": "Раннее фото: лицо не исправлено; только композиционный черновик."
     }
   ],
-  "photo_gallery_page": "parodies.html#scene-75"
+  "archived_not_primary": [
+    {
+      "path": "references/scenes/scene-75/S75-moon-river.png",
+      "sha256": "82cf2a58e8c89ee641fb41e595815734a56b484da4f636ee5b2461929ab739d9",
+      "reason": "Прежний кадр со струёй сохранён, основным не является и в промпт не входит",
+      "active_prompt_input": false
+    }
+  ],
+  "excluded_from_active_cut": [
+    {
+      "id": "droid-umbrella",
+      "reason": "Дроид с зонтиком не добавлен"
+    }
+  ]
 }
