@@ -132,7 +132,7 @@
 | 79 | [Чипсы: хруст слышно во всей галактике](#scene-79) | Виталик, Маша Р, Алина; два ролика | 79A совет на диване и 79B элитная реклама. У каждого свои 30 с и 2×15 с. DRAFT; видео не запускать. |
 | 80 | [Люкс из кладовки](#scene-80) | Виталик, Маша Р, Алина; два ролика | 80A семья и 80B соло на троне. У каждого свои 30 с и 2×15 с. DRAFT; видео не запускать. |
 | 81 | [«Давай поженимся»: Алексей ищет невесту](#scene-81) | Лёша, Артём; ведущим нужен портрет | Глава 1: знакомство и фраза про пальто. Гузеева и Сябитова — слоты без файлов. DRAFT; видео не запускать. |
-| 82 | [Комната жениха: звёздные друзья Алексея](#scene-82) | Лёша; трём гостям нужен портрет | Глава 2. Единственный кадр комнаты сохранён. DRAFT; видео не запускать. |
+| 82 | [Комната жениха: звёздные друзья Алексея](#scene-82) | Лёша, Гослинг, Ди Каприо, Питт | Глава 2. Слева направо: Лёша, Гослинг, Ди Каприо, Питт. Единственный кадр комнаты сохранён. Портреты ещё не присланы. DRAFT; видео не запускать. |
 | 83 | [Невеста выбирает Артёма](#scene-83) | Лёша, Артём | Глава 3: она выбирает того, кто подумал про пальто. DRAFT; видео не запускать. |
 | 84 | [Илюша: тачку на прокачку, защитная плёнка](#scene-84) | Илюша; подсцены 84A–C | Пафос, затем ракель, затем готовая панель. DRAFT; видео не запускать. |
 | 85 | [Срочные новости: Саша и Маша Ф](#scene-85) | Саша, Маша Ф; подсцены 85A–C | Одна новость: гравитация и тапочки. Маша Ф не Маша Р. DRAFT; видео не запускать. |
@@ -12943,11 +12943,11 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 <!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["parody","comedy","draft","stills_published","not_a_video_launch"]} -->
 
-**Статус:** черновик (DRAFT), номер сверен с main 10.11.2026 04:25 МСК — остаётся. Подготовлено 10.11.2026, ~05:15 МСК. Опубликовано как DRAFT по команде t506u. Не READY и не запуск видео. Формат как у остальных сцен: 30 с Wan 3.0 / Seedance 2.5 **и** 2×15 с Seedance 2.0 (P2 ждёт настоящие последние 3 с своей P1 через @Video1).
+**Статус:** черновик (DRAFT). t545u: ведущие — настоящие Лариса Гузеева и Роза Сябитова, не вымышленные роли. Портреты ещё не присланы. Не READY и не запуск видео. 30 с Wan 3.0 / Seedance 2.5 и 2×15 с Seedance 2.0 (P2 ждёт настоящие последние 3 с своей P1).
 
-**Общее:** лица — только с референсов лиц (`references/full/*` и листы Маши Р / Алины), одежда — по сцене и стиллу, не с листов персонажей. 16:9, 720p, 24 fps, родной звук. Стиллы — постановка и гардероб, не буквальный первый кадр.
+**Общее:** лица Алексея и Артёма — с их листов. Лица Гузеевой и Сябитовой — только с портретов `references/full/hostess-guzeeva.jpg` и `references/full/hostess-syabitova.jpg`, когда файлы появятся. Одежда и места — по стиллу. 16:9, 720p, 24 fps, родной звук.
 
-**Листы лиц:** `references/full/lesha.jpg` — Лёша — только лицо и возраст с листа; одежда по сцене; `references/full/artem.jpg` — Артём — только лицо и возраст с листа; одежда по сцене. Лист задаёт лицо и возраст, не одежду сцены. Это не одобрение и не запуск видео.
+**Листы лиц:** `references/full/lesha.jpg` — Лёша; `references/full/artem.jpg` — Артём; `references/full/hostess-guzeeva.jpg` — Лариса Гузеева, нужен портрет; `references/full/hostess-syabitova.jpg` — Роза Сябитова, нужен портрет. Это не одобрение и не запуск видео.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/lesha.jpg" target="_blank" rel="noopener"><img src="references/full/lesha.jpg" alt="Лёша — только лицо и возраст с листа; одежда по сцене" loading="lazy" width="480"></a><figcaption>Лёша — только лицо и возраст с листа; одежда по сцене</figcaption></figure>
@@ -12961,7 +12961,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 ### 81A · Знакомство — сеем пальто
 
-Глава 1 из 81 → 82 → 83. Знакомство. Причина выбора Артёма сеется здесь фразой про пальто. Портреты ведущих: слоты «нужен портрет», файлов нет. Общий кадр — только расстановка.
+Глава 1 из 81 → 82 → 83. Знакомство. Причина выбора Артёма сеется здесь фразой про пальто. Ведущие — настоящие Лариса Гузеева и Роза Сябитова. Слоты `references/full/hostess-guzeeva.jpg` и `references/full/hostess-syabitova.jpg`: нужен портрет, файлов ещё нет. Сходство лиц только с этими портретами. Общий кадр — только расстановка.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/scenes/scene-81/S81-swap-artem.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-81/previews/S81-swap-artem.webp" alt="81A — принятый кадр расстановки" loading="lazy" width="480"></a><figcaption>81A — принятый кадр расстановки</figcaption></figure>
@@ -12973,7 +12973,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — `references/full/artem.jpg`; @Image3 — `references/scenes/scene-81/S81-swap-artem.jpg`; @Image4 и @Image5 — слоты «нужен портрет», файлов нет.
+**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — `references/full/artem.jpg`; @Image3 — `references/scenes/scene-81/S81-swap-artem.jpg`; @Image4 — `references/full/hostess-guzeeva.jpg` и @Image5 — `references/full/hostess-syabitova.jpg`, слоты «нужен портрет», файлов ещё нет.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -12983,12 +12983,12 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/lesha.jpg — Alexey face only.
 @Image2 = references/full/artem.jpg — Artyom face only.
 @Image3 = references/scenes/scene-81/S81-swap-artem.jpg — seating, wardrobe and studio only, never the identity of the hostesses.
-@Image4 = references/full/hostess-larisa.jpg — НУЖЕН ПОРТРЕТ, файла нет.
-@Image5 = references/full/hostess-roza.jpg — НУЖЕН ПОРТРЕТ, файла нет.
+@Image4 = references/full/hostess-guzeeva.jpg — НУЖЕН ПОРТРЕТ Ларисы Гузеевой, файла нет. Когда файл будет, лицо только с него.
+@Image5 = references/full/hostess-syabitova.jpg — НУЖЕН ПОРТРЕТ Розы Сябитовой, файла нет. Когда файл будет, лицо только с него.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-ALEXEY / LESHA: exact face of @Image1, slim adult, wavy brown hair, brown moustache. Navy suit, white shirt, burgundy tie, centre-left. ARTYOM: exact face of @Image2, stocky adult, tousled light-brown hair, short light beard, broad friendly face. Brown suede blazer, floral shirt, far left. HOSTESS LARISA, parody role, not a real presenter: seat and costume only from the staging still — dark updo, black velvet dress, large fabric-flower brooch, statement earrings, hosts' desk. @Image4 is an empty slot «нужен портрет» (references/full/hostess-larisa.jpg does not exist). Do not copy her face from the group still and do not invent a celebrity likeness. HOSTESS ROZA, parody role: auburn bob, red glasses, pink tweed and pearls, seated beside Larisa. @Image5 is an empty slot «нужен портрет» (references/full/hostess-roza.jpg does not exist). No face lock from the group still. Artyom sits far screen-left. Alexey sits centre-left in a navy suit, white shirt, burgundy tie. The two hostesses sit at the desk opposite them: Larisa speaks the long lines, Roza sits beside her. Nobody swaps seats.
+ALEXEY / LESHA: exact face of @Image1, slim adult, wavy brown hair, brown moustache. Navy suit, white shirt, burgundy tie, centre-left. ARTYOM: exact face of @Image2, stocky adult, tousled light-brown hair, short light beard, broad friendly face. Brown suede blazer, floral shirt, far left. GUZEEVA: the real Larisa Guzeeva. Exact facial likeness of @Image4, references/full/hostess-guzeeva.jpg, once that portrait is supplied. The file is not here yet («нужен портрет»); do not invent her face and do not take it from the group still. She sits at the hosts' desk and speaks the long introduction and the heart speech. Costume from the staging still: dark updo, black velvet dress, fabric-flower brooch, statement earrings. SYABITOVA: the real Roza Syabitova. Exact facial likeness of @Image5, references/full/hostess-syabitova.jpg, same empty-slot rule. She sits beside Guzeeva and alone says «Ясненько. Понятненько». Costume from the still: auburn bob, red glasses, pink tweed, pearls. Artyom sits far screen-left. Alexey sits centre-left in a navy suit, white shirt, burgundy tie. The two hostesses sit at the desk opposite them: Guzeeva speaks the long lines, Syabitova sits beside her. Nobody swaps seats.
 
 SCENE / SPACE:
 Lilac matchmaking studio, one desk, four seated people, no logos, no second room.
@@ -12997,12 +12997,12 @@ START STATE:
 Four already seated as in the still.
 
 STORY FLOW:
-0–6s: Larisa, whole line: «Сегодня у нас жених — Алексей. Сорок лет, руки золотые».
-6–9s: Larisa: «Алексей, расскажите о себе».
+0–6s: Guzeeva, whole line: «Сегодня у нас жених — Алексей. Сорок лет, руки золотые».
+6–9s: Guzeeva: «Алексей, расскажите о себе».
 9–13s: Alexey: «Мне сорок. Спокойный, хозяйственный».
-13–16s: Larisa, hand on heart, whole: «Алексей, золотой вы мой! Усы есть, руки есть, кран починит. Но двадцатилетняя? Ей же с вами скучно будет!»
+13–16s: Guzeeva, hand on heart, whole: «Алексей, золотой вы мой! Усы есть, руки есть, кран починит. Но двадцатилетняя? Ей же с вами скучно будет!»
 16–19s: Alexey: «Хочется начать с чистого листа».
-19–22s: Roza, over her glasses: «Ясненько. Понятненько».
+19–22s: Syabitova, over her glasses: «Ясненько. Понятненько».
 22–26s: Artyom: «Я за него поручаюсь».
 26–30s: Artyom, gentler, the planted reason: «Ей со мной было бы тепло: я бы пальто принёс». The hostesses notice.
 
@@ -13028,7 +13028,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 1 · 15 с
 
-**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — `references/full/artem.jpg`; @Image3 — `references/scenes/scene-81/S81-swap-artem.jpg`; @Image4 и @Image5 — слоты «нужен портрет», файлов нет.
+**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — `references/full/artem.jpg`; @Image3 — `references/scenes/scene-81/S81-swap-artem.jpg`; @Image4 — `references/full/hostess-guzeeva.jpg` и @Image5 — `references/full/hostess-syabitova.jpg`, слоты «нужен портрет», файлов ещё нет.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -13038,12 +13038,12 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/lesha.jpg — Alexey face only.
 @Image2 = references/full/artem.jpg — Artyom face only.
 @Image3 = references/scenes/scene-81/S81-swap-artem.jpg — seating, wardrobe and studio only, never the identity of the hostesses.
-@Image4 = references/full/hostess-larisa.jpg — НУЖЕН ПОРТРЕТ, файла нет.
-@Image5 = references/full/hostess-roza.jpg — НУЖЕН ПОРТРЕТ, файла нет.
+@Image4 = references/full/hostess-guzeeva.jpg — НУЖЕН ПОРТРЕТ Ларисы Гузеевой, файла нет. Когда файл будет, лицо только с него.
+@Image5 = references/full/hostess-syabitova.jpg — НУЖЕН ПОРТРЕТ Розы Сябитовой, файла нет. Когда файл будет, лицо только с него.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-ALEXEY / LESHA: exact face of @Image1, slim adult, wavy brown hair, brown moustache. Navy suit, white shirt, burgundy tie, centre-left. ARTYOM: exact face of @Image2, stocky adult, tousled light-brown hair, short light beard, broad friendly face. Brown suede blazer, floral shirt, far left. HOSTESS LARISA, parody role, not a real presenter: seat and costume only from the staging still — dark updo, black velvet dress, large fabric-flower brooch, statement earrings, hosts' desk. @Image4 is an empty slot «нужен портрет» (references/full/hostess-larisa.jpg does not exist). Do not copy her face from the group still and do not invent a celebrity likeness. HOSTESS ROZA, parody role: auburn bob, red glasses, pink tweed and pearls, seated beside Larisa. @Image5 is an empty slot «нужен портрет» (references/full/hostess-roza.jpg does not exist). No face lock from the group still. Artyom sits far screen-left. Alexey sits centre-left in a navy suit, white shirt, burgundy tie. The two hostesses sit at the desk opposite them: Larisa speaks the long lines, Roza sits beside her. Nobody swaps seats.
+ALEXEY / LESHA: exact face of @Image1, slim adult, wavy brown hair, brown moustache. Navy suit, white shirt, burgundy tie, centre-left. ARTYOM: exact face of @Image2, stocky adult, tousled light-brown hair, short light beard, broad friendly face. Brown suede blazer, floral shirt, far left. GUZEEVA: the real Larisa Guzeeva. Exact facial likeness of @Image4, references/full/hostess-guzeeva.jpg, once that portrait is supplied. The file is not here yet («нужен портрет»); do not invent her face and do not take it from the group still. She sits at the hosts' desk and speaks the long introduction and the heart speech. Costume from the staging still: dark updo, black velvet dress, fabric-flower brooch, statement earrings. SYABITOVA: the real Roza Syabitova. Exact facial likeness of @Image5, references/full/hostess-syabitova.jpg, same empty-slot rule. She sits beside Guzeeva and alone says «Ясненько. Понятненько». Costume from the still: auburn bob, red glasses, pink tweed, pearls. Artyom sits far screen-left. Alexey sits centre-left in a navy suit, white shirt, burgundy tie. The two hostesses sit at the desk opposite them: Guzeeva speaks the long lines, Syabitova sits beside her. Nobody swaps seats.
 
 SCENE / SPACE:
 Lilac matchmaking studio, one desk, four seated people, no logos, no second room.
@@ -13052,7 +13052,7 @@ START STATE:
 Seated as in the still.
 
 STORY FLOW:
-0–15s: Larisa's introduction and «Алексей, расскажите о себе» are complete. Alexey finishes «Мне сорок. Спокойный, хозяйственный». Artyom nods.
+0–15s: Guzeeva's introduction and «Алексей, расскажите о себе» are complete. Alexey finishes «Мне сорок. Спокойный, хозяйственный». Artyom nods.
 
 END STATE:
 Alexey's self-description is finished. Hostesses have not answered yet.
@@ -13072,7 +13072,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 2 · 15 с
 
-**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — `references/full/artem.jpg`; @Image3 — `references/scenes/scene-81/S81-swap-artem.jpg`; @Image4 и @Image5 — слоты «нужен портрет», файлов нет. @Video1 — настоящие последние 3 с P1 подсцены 81A.
+**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — `references/full/artem.jpg`; @Image3 — `references/scenes/scene-81/S81-swap-artem.jpg`; @Image4 — `references/full/hostess-guzeeva.jpg` и @Image5 — `references/full/hostess-syabitova.jpg`, слоты «нужен портрет», файлов ещё нет. @Video1 — настоящие последние 3 с P1 подсцены 81A.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -13082,13 +13082,13 @@ REFERENCES / AUTHORITY:
 @Image1 = references/full/lesha.jpg — Alexey face only.
 @Image2 = references/full/artem.jpg — Artyom face only.
 @Image3 = references/scenes/scene-81/S81-swap-artem.jpg — seating, wardrobe and studio only, never the identity of the hostesses.
-@Image4 = references/full/hostess-larisa.jpg — НУЖЕН ПОРТРЕТ, файла нет.
-@Image5 = references/full/hostess-roza.jpg — НУЖЕН ПОРТРЕТ, файла нет.
+@Image4 = references/full/hostess-guzeeva.jpg — НУЖЕН ПОРТРЕТ Ларисы Гузеевой, файла нет. Когда файл будет, лицо только с него.
+@Image5 = references/full/hostess-syabitova.jpg — НУЖЕН ПОРТРЕТ Розы Сябитовой, файла нет. Когда файл будет, лицо только с него.
 @Video1 = actual final 3 seconds of Scene 81 subscene 81A Seedance Part 1 — real continuity, not a generated substitute.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-ALEXEY / LESHA: exact face of @Image1, slim adult, wavy brown hair, brown moustache. Navy suit, white shirt, burgundy tie, centre-left. ARTYOM: exact face of @Image2, stocky adult, tousled light-brown hair, short light beard, broad friendly face. Brown suede blazer, floral shirt, far left. HOSTESS LARISA, parody role, not a real presenter: seat and costume only from the staging still — dark updo, black velvet dress, large fabric-flower brooch, statement earrings, hosts' desk. @Image4 is an empty slot «нужен портрет» (references/full/hostess-larisa.jpg does not exist). Do not copy her face from the group still and do not invent a celebrity likeness. HOSTESS ROZA, parody role: auburn bob, red glasses, pink tweed and pearls, seated beside Larisa. @Image5 is an empty slot «нужен портрет» (references/full/hostess-roza.jpg does not exist). No face lock from the group still. Artyom sits far screen-left. Alexey sits centre-left in a navy suit, white shirt, burgundy tie. The two hostesses sit at the desk opposite them: Larisa speaks the long lines, Roza sits beside her. Nobody swaps seats.
+ALEXEY / LESHA: exact face of @Image1, slim adult, wavy brown hair, brown moustache. Navy suit, white shirt, burgundy tie, centre-left. ARTYOM: exact face of @Image2, stocky adult, tousled light-brown hair, short light beard, broad friendly face. Brown suede blazer, floral shirt, far left. GUZEEVA: the real Larisa Guzeeva. Exact facial likeness of @Image4, references/full/hostess-guzeeva.jpg, once that portrait is supplied. The file is not here yet («нужен портрет»); do not invent her face and do not take it from the group still. She sits at the hosts' desk and speaks the long introduction and the heart speech. Costume from the staging still: dark updo, black velvet dress, fabric-flower brooch, statement earrings. SYABITOVA: the real Roza Syabitova. Exact facial likeness of @Image5, references/full/hostess-syabitova.jpg, same empty-slot rule. She sits beside Guzeeva and alone says «Ясненько. Понятненько». Costume from the still: auburn bob, red glasses, pink tweed, pearls. Artyom sits far screen-left. Alexey sits centre-left in a navy suit, white shirt, burgundy tie. The two hostesses sit at the desk opposite them: Guzeeva speaks the long lines, Syabitova sits beside her. Nobody swaps seats.
 
 SCENE / SPACE:
 Lilac matchmaking studio, one desk, four seated people, no logos, no second room.
@@ -13097,9 +13097,9 @@ START STATE:
 Alexey has finished speaking. Hostesses are about to answer.
 
 STORY FLOW:
-0–8s: Larisa's whole speech «Алексей, золотой вы мой! Усы есть, руки есть, кран починит. Но двадцатилетняя? Ей же с вами скучно будет!»
+0–8s: Guzeeva's whole speech «Алексей, золотой вы мой! Усы есть, руки есть, кран починит. Но двадцатилетняя? Ей же с вами скучно будет!»
 8–11s: Alexey: «Хочется начать с чистого листа».
-11–13s: Roza: «Ясненько. Понятненько».
+11–13s: Syabitova: «Ясненько. Понятненько».
 13–15s: Artyom: «Я за него поручаюсь. Ей со мной было бы тепло: я бы пальто принёс».
 
 END STATE:
@@ -13132,7 +13132,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 **Общее:** лица — только с референсов лиц (`references/full/*` и листы Маши Р / Алины), одежда — по сцене и стиллу, не с листов персонажей. 16:9, 720p, 24 fps, родной звук. Стиллы — постановка и гардероб, не буквальный первый кадр.
 
-**Листы лиц:** `references/full/lesha.jpg` — Лёша — только лицо и возраст с листа; одежда по сцене. Лист задаёт лицо и возраст, не одежду сцены. Это не одобрение и не запуск видео.
+**Листы лиц:** `references/full/lesha.jpg` — Лёша; `references/full/star-gosling.jpg` — Райан Гослинг, нужен портрет; `references/full/star-dicaprio.jpg` — Леонардо Ди Каприо, нужен портрет; `references/full/star-pitt.jpg` — Брэд Питт, нужен портрет. Это не одобрение и не запуск видео.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/lesha.jpg" target="_blank" rel="noopener"><img src="references/full/lesha.jpg" alt="Лёша — только лицо и возраст с листа; одежда по сцене" loading="lazy" width="480"></a><figcaption>Лёша — только лицо и возраст с листа; одежда по сцене</figcaption></figure>
@@ -13145,7 +13145,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 ### 82A · Звёзды хвалят хозяйственность
 
-Глава 2. Невероятная поддержка. Единственный кадр комнаты не заменять и не дублировать. Трём гостям нужен портрет; общий кадр задаёт места, не лица.
+Глава 2. Слева направо на принятом кадре: Лёша, Райан Гослинг (центр-лево, ладонь), Леонардо Ди Каприо (центр, руки сложены), Брэд Питт (справа, указывает). Единственный кадр комнаты не заменять. Портреты `references/full/star-gosling.jpg`, `star-dicaprio.jpg`, `star-pitt.jpg` ещё не присланы: нужен портрет, лица с общего кадра не закреплять.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/scenes/scene-82/groom-lounge-preview.png" target="_blank" rel="noopener"><img src="references/scenes/scene-82/previews/groom-lounge-preview.webp" alt="82A — единственный принятый кадр комнаты" loading="lazy" width="480"></a><figcaption>82A — единственный принятый кадр комнаты</figcaption></figure>
@@ -13157,7 +13157,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — единственный кадр `references/scenes/scene-82/groom-lounge-preview.png`; @Image3–@Image5 — слоты «нужен портрет», файлов нет.
+**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — единственный кадр `references/scenes/scene-82/groom-lounge-preview.png`; @Image3 — `references/full/star-gosling.jpg`, @Image4 — `references/full/star-dicaprio.jpg`, @Image5 — `references/full/star-pitt.jpg`: нужен портрет, файлов ещё нет.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -13165,18 +13165,18 @@ Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic comedy with living li
 
 REFERENCES / AUTHORITY:
 @Image1 = references/full/lesha.jpg — Alexey face only.
-@Image2 = references/scenes/scene-82/groom-lounge-preview.png — the single accepted room frame: seats, tuxedos, table. Not a second room and not a face lock for the three friends.
-@Image3 = references/full/star-friend-1.jpg — НУЖЕН ПОРТРЕТ, файла нет. Friend 1, leftmost of the three.
-@Image4 = references/full/star-friend-2.jpg — НУЖЕН ПОРТРЕТ, файла нет. Friend 2, centre.
-@Image5 = references/full/star-friend-3.jpg — НУЖЕН ПОРТРЕТ, файла нет. Friend 3, right.
+@Image2 = references/scenes/scene-82/groom-lounge-preview.png — the single accepted room frame: seats and tuxedos only, not a second room and not the face lock.
+@Image3 = references/full/star-gosling.jpg — НУЖЕН ПОРТРЕТ Райана Гослинга, файла нет. Когда файл будет, лицо только с него. Центр-лево, открытая ладонь.
+@Image4 = references/full/star-dicaprio.jpg — НУЖЕН ПОРТРЕТ Леонардо Ди Каприо, файла нет. Когда файл будет, лицо только с него. Центр, руки сложены.
+@Image5 = references/full/star-pitt.jpg — НУЖЕН ПОРТРЕТ Брэда Питта, файла нет. Когда файл будет, лицо только с него. Справа, указывает.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-ALEXEY: exact face of @Image1, white dinner jacket, black satin lapels, black bow tie, glass in hand, seated screen-left.
-FRIEND 1 (left of the three, short light-brown hair, black tuxedo): portrait slot empty. Seat and clothes from the still only.
-FRIEND 2 (centre, swept-back hair, goatee, black tuxedo): portrait slot empty.
-FRIEND 3 (right, longer blond hair, stubble, black tuxedo): portrait slot empty.
-Do not blend faces and do not copy a real film star. Fictional parody guests.
+ALEXEY / LESHA: exact face of @Image1, white dinner jacket, black satin lapels, black bow tie, glass in hand, seated screen-left, first from the left.
+GOSLING: the real Ryan Gosling, exact facial likeness of @Image3 once references/full/star-gosling.jpg is supplied. File not here yet. Seat immediately to Alexey's right (center-left), black tuxedo, open palm. He says «Я думал, я завидный жених. Потом встретил Алексея» and later «Это уже высшая лига».
+DICAPRIO: the real Leonardo DiCaprio, exact facial likeness of @Image4, references/full/star-dicaprio.jpg, same empty-slot rule. Center seat, arms folded. He says «Он и кран починит, и инструкцию прочитает» and later «Алексей, оставь шанс остальным».
+PITT: the real Brad Pitt, exact facial likeness of @Image5, references/full/star-pitt.jpg, same empty-slot rule. Far right, pointing at Alexey. He says «И контейнеры возвращает с крышками».
+Left to right on the accepted still: Alexey, Gosling, DiCaprio, Pitt. Do not swap seats or blend faces. Do not invent faces before the portraits arrive.
 
 SCENE / SPACE:
 One warm dressing-room lounge exactly as the single still: leather, marble, champagne bucket, macarons, white roses, mirror bulbs. No second room, no studio, no bride.
@@ -13185,11 +13185,11 @@ START STATE:
 All four seated as in the single still. Friends look toward Alexey.
 
 STORY FLOW:
-0–6s: Friend 1, whole: «Я думал, я завидный жених. Потом встретил Алексея».
-6–11s: Friend 2: «Он и кран починит, и инструкцию прочитает».
-11–16s: Friend 3 leans in and says «И контейнеры возвращает с крышками».
-16–20s: Friend 1: «Это уже высшая лига».
-20–24s: Friend 2: «Алексей, оставь шанс остальным».
+0–6s: Gosling, open palm, whole: «Я думал, я завидный жених. Потом встретил Алексея».
+6–11s: DiCaprio, arms folded: «Он и кран починит, и инструкцию прочитает».
+11–16s: Pitt points at Alexey and says «И контейнеры возвращает с крышками».
+16–20s: Gosling: «Это уже высшая лига».
+20–24s: DiCaprio: «Алексей, оставь шанс остальным».
 24–30s: Alexey, modest, whole: «Ребята, я просто хозяйственный». They raise glasses.
 
 END STATE:
@@ -13202,7 +13202,7 @@ AUDIO:
 Ice clink. Exactly those lines, each finished. No music.
 
 NEGATIVE:
-no fourth friend, no second room, no bride, no celebrity face copy, no blended faces, no drunkenness, no collage. No extra limbs or identity drift.
+no fourth friend, no second room, no bride, no blended faces, no drunkenness, no collage. No extra limbs or identity drift.
 
 FRAME FILL / NO BARS:
 Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
@@ -13214,7 +13214,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 1 · 15 с
 
-**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — единственный кадр `references/scenes/scene-82/groom-lounge-preview.png`; @Image3–@Image5 — слоты «нужен портрет», файлов нет.
+**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — единственный кадр `references/scenes/scene-82/groom-lounge-preview.png`; @Image3 — `references/full/star-gosling.jpg`, @Image4 — `references/full/star-dicaprio.jpg`, @Image5 — `references/full/star-pitt.jpg`: нужен портрет, файлов ещё нет.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -13222,18 +13222,18 @@ Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colou
 
 REFERENCES / AUTHORITY:
 @Image1 = references/full/lesha.jpg — Alexey face only.
-@Image2 = references/scenes/scene-82/groom-lounge-preview.png — the single accepted room frame: seats, tuxedos, table. Not a second room and not a face lock for the three friends.
-@Image3 = references/full/star-friend-1.jpg — НУЖЕН ПОРТРЕТ, файла нет. Friend 1, leftmost of the three.
-@Image4 = references/full/star-friend-2.jpg — НУЖЕН ПОРТРЕТ, файла нет. Friend 2, centre.
-@Image5 = references/full/star-friend-3.jpg — НУЖЕН ПОРТРЕТ, файла нет. Friend 3, right.
+@Image2 = references/scenes/scene-82/groom-lounge-preview.png — the single accepted room frame: seats and tuxedos only, not a second room and not the face lock.
+@Image3 = references/full/star-gosling.jpg — НУЖЕН ПОРТРЕТ Райана Гослинга, файла нет. Когда файл будет, лицо только с него. Центр-лево, открытая ладонь.
+@Image4 = references/full/star-dicaprio.jpg — НУЖЕН ПОРТРЕТ Леонардо Ди Каприо, файла нет. Когда файл будет, лицо только с него. Центр, руки сложены.
+@Image5 = references/full/star-pitt.jpg — НУЖЕН ПОРТРЕТ Брэда Питта, файла нет. Когда файл будет, лицо только с него. Справа, указывает.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-ALEXEY: exact face of @Image1, white dinner jacket, black satin lapels, black bow tie, glass in hand, seated screen-left.
-FRIEND 1 (left of the three, short light-brown hair, black tuxedo): portrait slot empty. Seat and clothes from the still only.
-FRIEND 2 (centre, swept-back hair, goatee, black tuxedo): portrait slot empty.
-FRIEND 3 (right, longer blond hair, stubble, black tuxedo): portrait slot empty.
-Do not blend faces and do not copy a real film star. Fictional parody guests.
+ALEXEY / LESHA: exact face of @Image1, white dinner jacket, black satin lapels, black bow tie, glass in hand, seated screen-left, first from the left.
+GOSLING: the real Ryan Gosling, exact facial likeness of @Image3 once references/full/star-gosling.jpg is supplied. File not here yet. Seat immediately to Alexey's right (center-left), black tuxedo, open palm. He says «Я думал, я завидный жених. Потом встретил Алексея» and later «Это уже высшая лига».
+DICAPRIO: the real Leonardo DiCaprio, exact facial likeness of @Image4, references/full/star-dicaprio.jpg, same empty-slot rule. Center seat, arms folded. He says «Он и кран починит, и инструкцию прочитает» and later «Алексей, оставь шанс остальным».
+PITT: the real Brad Pitt, exact facial likeness of @Image5, references/full/star-pitt.jpg, same empty-slot rule. Far right, pointing at Alexey. He says «И контейнеры возвращает с крышками».
+Left to right on the accepted still: Alexey, Gosling, DiCaprio, Pitt. Do not swap seats or blend faces. Do not invent faces before the portraits arrive.
 
 SCENE / SPACE:
 One warm dressing-room lounge exactly as the single still: leather, marble, champagne bucket, macarons, white roses, mirror bulbs. No second room, no studio, no bride.
@@ -13242,10 +13242,10 @@ START STATE:
 Same seats.
 
 STORY FLOW:
-0–15s: Friend 1 finishes «Я думал, я завидный жених. Потом встретил Алексея». Friend 2 finishes «Он и кран починит, и инструкцию прочитает». Friend 3 is leaning in, not yet speaking.
+0–15s: Gosling finishes «Я думал, я завидный жених. Потом встретил Алексея», palm open. DiCaprio, arms still folded, finishes «Он и кран починит, и инструкцию прочитает». Pitt is pointing toward Alexey, not yet speaking.
 
 END STATE:
-Friend 3 leaning forward, Alexey's hand at his bow tie.
+Pitt pointing, not yet speaking. Alexey's hand at his bow tie. DiCaprio's arms stay folded.
 
 CAMERA / LIGHT / PERFORMANCE:
 Warm practical bulbs, amber and cream, slow push-in, seats never swap. Admiring, not drunk.
@@ -13254,7 +13254,7 @@ AUDIO:
 For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Only those two complete lines.
 
 NEGATIVE:
-no fourth friend, no second room, no bride, no celebrity face copy, no blended faces, no drunkenness, no collage. No extra limbs or identity drift.
+no fourth friend, no second room, no bride, no blended faces, no drunkenness, no collage. No extra limbs or identity drift.
 
 FRAME FILL / NO BARS:
 Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
@@ -13262,7 +13262,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 2 · 15 с
 
-**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — единственный кадр `references/scenes/scene-82/groom-lounge-preview.png`; @Image3–@Image5 — слоты «нужен портрет», файлов нет. @Video1 — настоящие последние 3 с P1 подсцены 82A.
+**Входы:** @Image1 — `references/full/lesha.jpg`; @Image2 — единственный кадр `references/scenes/scene-82/groom-lounge-preview.png`; @Image3 — `references/full/star-gosling.jpg`, @Image4 — `references/full/star-dicaprio.jpg`, @Image5 — `references/full/star-pitt.jpg`: нужен портрет, файлов ещё нет. @Video1 — настоящие последние 3 с P1 подсцены 82A.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -13270,30 +13270,30 @@ Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colou
 
 REFERENCES / AUTHORITY:
 @Image1 = references/full/lesha.jpg — Alexey face only.
-@Image2 = references/scenes/scene-82/groom-lounge-preview.png — the single accepted room frame: seats, tuxedos, table. Not a second room and not a face lock for the three friends.
-@Image3 = references/full/star-friend-1.jpg — НУЖЕН ПОРТРЕТ, файла нет. Friend 1, leftmost of the three.
-@Image4 = references/full/star-friend-2.jpg — НУЖЕН ПОРТРЕТ, файла нет. Friend 2, centre.
-@Image5 = references/full/star-friend-3.jpg — НУЖЕН ПОРТРЕТ, файла нет. Friend 3, right.
+@Image2 = references/scenes/scene-82/groom-lounge-preview.png — the single accepted room frame: seats and tuxedos only, not a second room and not the face lock.
+@Image3 = references/full/star-gosling.jpg — НУЖЕН ПОРТРЕТ Райана Гослинга, файла нет. Когда файл будет, лицо только с него. Центр-лево, открытая ладонь.
+@Image4 = references/full/star-dicaprio.jpg — НУЖЕН ПОРТРЕТ Леонардо Ди Каприо, файла нет. Когда файл будет, лицо только с него. Центр, руки сложены.
+@Image5 = references/full/star-pitt.jpg — НУЖЕН ПОРТРЕТ Брэда Питта, файла нет. Когда файл будет, лицо только с него. Справа, указывает.
 @Video1 = actual final 3 seconds of Scene 82 subscene 82A Seedance Part 1 — real continuity, not a generated substitute.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-ALEXEY: exact face of @Image1, white dinner jacket, black satin lapels, black bow tie, glass in hand, seated screen-left.
-FRIEND 1 (left of the three, short light-brown hair, black tuxedo): portrait slot empty. Seat and clothes from the still only.
-FRIEND 2 (centre, swept-back hair, goatee, black tuxedo): portrait slot empty.
-FRIEND 3 (right, longer blond hair, stubble, black tuxedo): portrait slot empty.
-Do not blend faces and do not copy a real film star. Fictional parody guests.
+ALEXEY / LESHA: exact face of @Image1, white dinner jacket, black satin lapels, black bow tie, glass in hand, seated screen-left, first from the left.
+GOSLING: the real Ryan Gosling, exact facial likeness of @Image3 once references/full/star-gosling.jpg is supplied. File not here yet. Seat immediately to Alexey's right (center-left), black tuxedo, open palm. He says «Я думал, я завидный жених. Потом встретил Алексея» and later «Это уже высшая лига».
+DICAPRIO: the real Leonardo DiCaprio, exact facial likeness of @Image4, references/full/star-dicaprio.jpg, same empty-slot rule. Center seat, arms folded. He says «Он и кран починит, и инструкцию прочитает» and later «Алексей, оставь шанс остальным».
+PITT: the real Brad Pitt, exact facial likeness of @Image5, references/full/star-pitt.jpg, same empty-slot rule. Far right, pointing at Alexey. He says «И контейнеры возвращает с крышками».
+Left to right on the accepted still: Alexey, Gosling, DiCaprio, Pitt. Do not swap seats or blend faces. Do not invent faces before the portraits arrive.
 
 SCENE / SPACE:
 One warm dressing-room lounge exactly as the single still: leather, marble, champagne bucket, macarons, white roses, mirror bulbs. No second room, no studio, no bride.
 
 START STATE:
-Friend 3 already leaning in. Do not repeat the first two lines.
+Pitt is already pointing. Do not repeat Gosling's and DiCaprio's first lines.
 
 STORY FLOW:
-0–6s: Friend 3: «И контейнеры возвращает с крышками».
-6–9s: Friend 1: «Это уже высшая лига».
-9–12s: Friend 2: «Алексей, оставь шанс остальным».
+0–6s: Pitt, still pointing: «И контейнеры возвращает с крышками».
+6–9s: Gosling: «Это уже высшая лига».
+9–12s: DiCaprio, arms folded: «Алексей, оставь шанс остальным».
 12–15s: Alexey: «Ребята, я просто хозяйственный». Glasses rise.
 
 END STATE:
@@ -13306,7 +13306,7 @@ AUDIO:
 For this part, speak ONLY lines explicitly present in its STORY FLOW; do not preview or repeat another part's dialogue. Those complete lines only.
 
 NEGATIVE:
-no fourth friend, no second room, no bride, no celebrity face copy, no blended faces, no drunkenness, no collage. No extra limbs or identity drift. No replay of Part 1 action or dialogue.
+no fourth friend, no second room, no bride, no blended faces, no drunkenness, no collage. No extra limbs or identity drift. No replay of Part 1 action or dialogue.
 
 FRAME FILL / NO BARS:
 Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.

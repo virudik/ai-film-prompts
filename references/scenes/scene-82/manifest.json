@@ -62,22 +62,22 @@
   "photo_gallery_page": "parodies.html#scene-82",
   "t540u_slots_without_files": [
     {
-      "file": "references/full/star-friend-1.jpg",
+      "file": "references/full/star-gosling.jpg",
       "subscene": "82A",
       "status": "нужен портрет",
-      "who": "друг 1, слева из троих"
+      "who": "Райан Гослинг, центр-лево, открытая ладонь, сходство с портретом"
     },
     {
-      "file": "references/full/star-friend-2.jpg",
+      "file": "references/full/star-dicaprio.jpg",
       "subscene": "82A",
       "status": "нужен портрет",
-      "who": "друг 2, центр"
+      "who": "Леонардо Ди Каприо, центр, руки сложены, сходство с портретом"
     },
     {
-      "file": "references/full/star-friend-3.jpg",
+      "file": "references/full/star-pitt.jpg",
       "subscene": "82A",
       "status": "нужен портрет",
-      "who": "друг 3, справа"
+      "who": "Брэд Питт, справа, указывает, сходство с портретом"
     }
   ]
 }

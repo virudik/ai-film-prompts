@@ -78,16 +78,16 @@
   "photo_gallery_page": "parodies.html#scene-81",
   "t540u_slots_without_files": [
     {
-      "file": "references/full/hostess-larisa.jpg",
+      "file": "references/full/hostess-guzeeva.jpg",
       "subscene": "81A",
       "status": "нужен портрет",
-      "who": "ведущая Лариса"
+      "who": "Лариса Гузеева, настоящее сходство лица с портретом"
     },
     {
-      "file": "references/full/hostess-roza.jpg",
+      "file": "references/full/hostess-syabitova.jpg",
       "subscene": "81A",
       "status": "нужен портрет",
-      "who": "ведущая Роза"
+      "who": "Роза Сябитова, настоящее сходство лица с портретом"
     }
   ]
 }
