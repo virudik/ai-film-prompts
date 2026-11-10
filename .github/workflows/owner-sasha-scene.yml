@@ -1,0 +1,46 @@
+name: Owner Sasha photographer scene
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/owner-sasha-scene.yml']
+permissions:
+  contents: read
+concurrency:
+  group: owner-sasha-photographer-scene
+  cancel-in-progress: false
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: Export exact current sources for the owner-requested scene
+        run: |
+          python3 - <<'PY'
+          import json,zipfile,subprocess
+          from pathlib import Path
+          from datetime import datetime,timezone
+          root=Path('.')
+          lock=json.loads(Path('ops/canon-lock.json').read_text())
+          assert lock['state']=='held' and lock['holder']=='chatgpt:ordinary:d59b8aff-e262-4718-b883-63fa7765a999' and lock['acquired_at']=='2026-11-10T15:35:03+00:00'
+          assert datetime.fromisoformat(lock['expires_at'])>datetime.now(timezone.utc)
+          paths=set(root.glob('*.md'))|set(root.glob('*.json'))|set(root.glob('*.html'))|set(root.glob('*.txt'))|set(root.glob('*.js'))
+          for folder in ['scripts','tests','ops','shadow']:
+              paths.update(p for p in (root/folder).rglob('*') if p.is_file() and p.suffix in ['.md','.json','.py','.txt','.js','.yml'])
+          paths.update([Path('references/full/sasha.jpg'),Path('references/scenes/scene-87/manifest.json'),Path('.github/workflows/build-master.yml'),Path('.github/workflows/sync-from-drive.yml')])
+          out=Path('/tmp/sasha-sources');out.mkdir(exist_ok=True)
+          with zipfile.ZipFile(out/'source.zip','w',zipfile.ZIP_DEFLATED) as z:
+              for p in sorted(paths):
+                  if p.is_file():z.write(p,p.as_posix())
+              z.writestr('SOURCE-HEAD.txt',subprocess.check_output(['git','rev-parse','HEAD']).decode())
+          print('source_files',len(paths))
+          PY
+      - uses: actions/upload-artifact@v5
+        with:
+          name: sasha-scene-source
+          path: /tmp/sasha-sources/source.zip
+          retention-days: 1
+          if-no-files-found: error
