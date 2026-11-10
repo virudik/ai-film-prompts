@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:79b0c146-b9a1-46f2-8187-6be9bd781ec4",
-  "task": "Complete HONOR scenes 4 and 5 preparation, exact product reference mapping, approved Moscow contest plan and verified website publication; no paid actions or contest submission",
-  "acquired_at": "2026-11-10T21:47:12+00:00",
-  "expires_at": null,
-  "released_at": "2026-11-10T22:25:51+00:00",
+  "state": "held",
+  "holder": "chatgpt:ordinary:e586d119-1d26-4f50-8bf8-9c95d64588be",
+  "task": "Integrate six existing HONOR images into scenes 4 and 5, bind real-model source references and verify site/Drive; no generation or contest submission",
+  "acquired_at": "2026-11-10T23:03:00Z",
+  "expires_at": "2026-11-10T23:48:00Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }
