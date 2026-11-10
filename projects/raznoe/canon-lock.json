@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:3d2a4f97-67bd-4c0a-84d8-3f4d0a9c57d8",
-  "task": "Record official HONOR source re-download and SHA readback; update project checkpoint and handoff only",
-  "acquired_at": "2026-11-09T19:05:55Z",
-  "expires_at": null,
-  "released_at": "2026-11-09T19:07:00Z",
-  "rules": "projects/raznoe/INSTRUCTIONS.md",
+  "state": "held",
+  "holder": "grok:future-plans-honor-6a3a",
+  "task": "FUTURE-PLANS 10.11 and HONOR scenes 4-5 site coherence; no video, no contest submit",
+  "acquired_at": "2026-11-10T02:49:06Z",
+  "expires_at": "2026-11-10T03:34:06Z",
+  "released_at": null,
+  "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }
