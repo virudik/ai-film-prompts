@@ -154,6 +154,8 @@ def scan(c, repo, prev, *, mode="auto", now=None):
     # like known tasks, so their terminal state is never missed even if a robot cycle did not publish.
     projects_tel = read_json(repo / "projects" / "topview-projects.json", {}) or {}
     known_active |= {t["task_id"] for t in projects_tel.get("active", []) if t.get("task_id")}
+    # Occupied slots published without a scene are watched the same way. Their ids are not scene keys.
+    known_active |= {tid for tid in (tm.get("unmapped_active") or []) if isinstance(tid, str) and tid}
     prev_active = {a["task_id"] for a in prev.get("active_tasks", []) if a.get("task_id")}
 
     boards = list_boards(c)

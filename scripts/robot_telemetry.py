@@ -13,6 +13,10 @@ made the robot the primary writer on 13.10.2026, the CLI defaults to `shadow`):
           (health=ok) before commit, committed in ONE push (CAS), read back, then recorded in
           automation-monitor-status.json (runner `robot`). Allowed only while monitor-role.json says
           primary == robot (scripts/monitor_role.py --me robot); otherwise it refuses to write.
+          An active task with no exact scene match is still published as an occupied slot with
+          scene_id null: the scene is not guessed, the master is not edited for it, and it does
+          not add a free slot. An incomplete scan or a vanished known task still holds and
+          publishes nothing.
 
 What it never does: start/approve/rerun/delete anything, spend credits, create a Scene ID, clear
 canonical slow (only the owner's button does), guess a task↔scene mapping (only an exact or
@@ -223,14 +227,17 @@ def plan_cycle(scan, root, now, *, resolver=None, project_resolver=None):
                                 "confidence": ph.get("confidence")})
             else:
                 still.append(a)
+    # An unmapped task still occupies a real slot. It must be published (scene_id stays empty) so the
+    # site does not keep yesterday's topview-status.json, but it must not be given a guessed scene and
+    # must not free any other slot. Any additional doubt (incomplete scan, vanished task, …) still holds.
     if still:
-        reasons.append("unmapped_active:" + ",".join(a["task_id"][:8] for a in still))
         for a in still:
             events.append({"kind": "unmapped", "key": "unmapped:" + a["task_id"], "task_id": a["task_id"],
                            "title": "Новая задача Topview без сцены",
                            "text": f"Задача `{a['task_id']}` ({a.get('model') or 'модель неизвестна'}, {a.get('status')}) "
-                                   "занимает слот, но не совпала точно ни с одним промтом активной сцены. Робот ничего не публикует "
-                                   "и ничего не угадывает: нужен ответ владельца (какая это сцена) или агент."})
+                                   "занимает слот и публикуется без номера сцены: промт не совпал точно ни с одной "
+                                   "активной сценой. Сцена не угадывается, master для неё не меняется. "
+                                   "Нужен ответ владельца (какая это сцена) или агент."})
 
     known_parts = dict(ts.get("task_parts") or {})
     for a in mapped:
@@ -262,6 +269,15 @@ def plan_cycle(scan, root, now, *, resolver=None, project_resolver=None):
                                              "started_at": k.get("started_at"), "label": ph.get("label"),
                                              "part": part_from_label(ph.get("label"))})
                     continue
+                prev = prev_rows.get(f["task_id"]) or {}
+                # A slot we already published without a scene may finish. Drop it and refresh
+                # checked_at. It is not a vanished story task and gets no guessed scene.
+                tracked_unmapped = prev.get("scene_id") is None and (
+                    f["task_id"] in prev_rows or f["task_id"] in set(tm.get("unmapped_active") or []))
+                if tracked_unmapped:
+                    finished.append({"scene_id": None, "task_id": f["task_id"], "final_status": f["final_status"],
+                                     "finished_at": iso_z(f.get("completed_at")) or now_z(now), "unmapped": True})
+                    continue
                 reasons.append("finished_without_scene:" + f["task_id"][:8])
                 continue
             f["scene_id"] = hit["scene"]
@@ -277,15 +293,23 @@ def plan_cycle(scan, root, now, *, resolver=None, project_resolver=None):
                          "finished_at": iso_z(f.get("completed_at")) or now_z(now), **({"part": part} if part else {})})
 
     cur = {a["task_id"]: a for a in mapped}
-    new_ids = sorted(set(cur) - set(prev_rows))
-    gone_ids = sorted(set(prev_rows) - set(cur))
+    still_by_id = {a["task_id"]: a for a in still}
+    accounted = dict(cur)
+    accounted.update(still_by_id)
+    # A task that was published only as an occupied unmapped slot becomes "new" once a real scene is known,
+    # so the master row is added. Until then it stays out of new_ids and out of the master.
+    new_ids = sorted(tid for tid in cur if tid not in prev_rows or prev_rows[tid].get("scene_id") is None)
+    gone_ids = sorted(set(prev_rows) - set(accounted))
     fin_ids = {f["task_id"] for f in finished}
     vanished = [t for t in gone_ids if t not in fin_ids and t not in processed]
     if vanished:
         reasons.append("published_task_gone_without_result:" + ",".join(t[:8] for t in vanished[:5]))
-    status_changed = sorted(t for t in set(cur) & set(prev_rows)
-                            if str(prev_rows[t].get("topview_status", "")).lower() != cur[t]["status"])
-    changes = {"new": new_ids, "gone": gone_ids, "finished": sorted(fin_ids), "status_changed": status_changed}
+    status_changed = sorted(t for t in set(accounted) & set(prev_rows)
+                            if str(prev_rows[t].get("topview_status", "")).lower() != str(accounted[t].get("status", "")).lower())
+    prev_unmapped = sorted(tid for tid, row in prev_rows.items() if row.get("scene_id") is None)
+    unmapped_changed = sorted(still_by_id) != prev_unmapped
+    changes = {"new": new_ids, "gone": gone_ids, "finished": sorted(fin_ids), "status_changed": status_changed,
+               "unmapped": sorted(still_by_id)}
 
     fcur = {a["task_id"]: a for a in foreign}
     f_new = sorted(set(fcur) - set(prj_known))
@@ -299,7 +323,7 @@ def plan_cycle(scan, root, now, *, resolver=None, project_resolver=None):
     changes["projects"] = {"new": f_new, "finished": sorted(f_fin), "status_changed": f_status}
 
     age = minutes_since(ts.get("checked_at"), now)
-    unchanged = not (new_ids or gone_ids or fin_ids or status_changed or f_new or f_fin or f_status)
+    unchanged = not (new_ids or gone_ids or fin_ids or status_changed or unmapped_changed or f_new or f_fin or f_status)
 
     rows = table_rows(master)
     plan = {"add": [], "finish": []}
@@ -334,16 +358,18 @@ def plan_cycle(scan, root, now, *, resolver=None, project_resolver=None):
         plan["finish"].append({"scene": int(p.get("scene_id") or re.match(r"^\|\s*(\d+)", row).group(1)), "task_id": tid,
                                "model": m.group(1).strip(), "final_status": fs,
                                "finished_utc": utc_label(p.get("finished_at") or p.get("completed_at"))})
-    plan["occupied_slots"] = len(cur)      # physical Topview occupancy, not a count of master rows
+    plan["occupied_slots"] = len(cur) + len(still)  # mapped scenes plus unmapped slots; foreign projects are separate
     for f in finished:
-        free = max(0, 6 - len(cur) - len(foreign))
+        if f.get("scene_id") is None:
+            continue  # an unmapped slot was released; there is no scene result to announce
+        free = max(0, 6 - len(cur) - len(still) - len(foreign))
         events.append({"kind": "result", "key": "result:" + f["task_id"], "task_id": f["task_id"],
                        "title": f"Сцена {f['scene_id']}: технический результат {f['final_status']}",
                        "text": f"Сцена {f['scene_id']}, задача `{f['task_id']}`: `{f['final_status']}`. "
                                f"Свободных слотов Topview: {free} из 6. Это не одобрение: сцена остаётся в ожидании кнопки владельца."})
 
     for f in foreign_finished:
-        free = max(0, 6 - len(cur) - len(foreign))
+        free = max(0, 6 - len(cur) - len(still) - len(foreign))
         pname = f["project"]
         events.append({"kind": "result", "key": "result:" + f["task_id"], "task_id": f["task_id"],
                        "title": f"Проект {pname}, сцена {f['scene_id']}: технический результат {f['final_status']}",
@@ -377,6 +403,19 @@ def plan_cycle(scan, root, now, *, resolver=None, project_resolver=None):
                  "note": f"GitHub robot: {len(active)} из 6 слотов занято, новых {len(new_ids)}, завершено {len(fin_ids)}.",
                  "canonical": {"verified_at": ps.get("synced_at"), "master_sha256": ps.get("canonical_master_sha256"),
                                "health": ps.get("health")}}
+        for tid, a in sorted(still_by_id.items()):
+            prow = prev_rows.get(tid, {})
+            model = a.get("model") or prow.get("model") or "модель неизвестна"
+            active.append({"scene_id": None, "task_id": tid, "model": model,
+                           "model_id": MODEL_IDS.get(model) or prow.get("model_id"),
+                           "status": a["status"], "started_at": iso_z(a.get("created_at")) or prow.get("started_at"),
+                           "queue_count": a.get("queue_count"), "wait_seconds": a.get("wait_seconds"),
+                           "part": None, "unmapped": True,
+                           "mapping_confidence": "unmapped: занимает слот, сцена не угадана"})
+        if still_by_id:
+            cycle["note"] = (f"GitHub robot: {len(active)} из 6 слотов занято, новых {len(new_ids)}, "
+                             f"завершено {len(fin_ids)}. Без сцены (слот занят, номер не угадан): {len(still_by_id)}.")
+            cycle["new_status"] = f"{len(active)} активных задач"
         if mode == "full":     # light keeps the totals of the last full scan (monitor_publish contract)
             cycle.update(boards=sc.get("boards"), pages=sc.get("pages_scanned"), video_tasks=sc.get("tasks_seen"))
     if repairs:

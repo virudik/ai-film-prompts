@@ -35,12 +35,17 @@ def main():
     ids = [a["task_id"] for a in act]
     assert len(ids) == len(set(ids))
     by_scene = {}
+    unmapped_ids = []
     for a in act:
+        if a.get("scene_id") is None:
+            unmapped_ids.append(a["task_id"])
+            continue
         by_scene.setdefault(str(a["scene_id"]), []).append(a["task_id"])
 
     m = load("topview-task-map.json")
     m["updated_at"] = T; m["last_scan_at"] = T
     m["active_by_scene"] = by_scene
+    m["unmapped_active"] = unmapped_ids
     known = {p["task_id"] for p in m["processed_tasks"]}
     for f in fin:
         if f["task_id"] not in known:
@@ -82,6 +87,11 @@ def main():
                    started_at=a.get("started_at"), queue_count=a.get("queue_count"), topview_estimated_wait_seconds=a.get("wait_seconds"),
                    checked_at=T, topview_estimated_process_seconds=None, verified=True,
                    mapping_confidence=a.get("mapping_confidence", row.get("mapping_confidence", "")))
+        if a.get("scene_id") is None:
+            row["scene_id"] = None
+            row["unmapped"] = True
+        else:
+            row.pop("unmapped", None)
         if a.get("part") or row.get("part"):
             row["part"] = a.get("part") or row.get("part")
         t["active_tasks"].append(row)
@@ -95,11 +105,15 @@ def main():
         t["task_parts"] = dict(list(tp.items())[-300:])
     sc = t.setdefault("scenes", {})
     for sid, tids in by_scene.items():
+        if not str(sid).isdigit():
+            continue
         lead = next(x for x in t["active_tasks"] if x["task_id"] == tids[0])
         e = dict(sc.get(sid, {})); e.update({k: lead[k] for k in ("scene_id", "task_id", "model", "model_id", "topview_status", "started_at", "queue_count", "topview_estimated_wait_seconds", "checked_at", "verified", "mapping_confidence")})
         e.update(active_task_ids=tids, completed_at=None, topview_estimated_process_seconds=None)
         sc[sid] = e
     for f in fin:
+        if f.get("scene_id") is None:
+            continue
         sid = str(f["scene_id"])
         if sid in by_scene:
             continue  # scene still has another active task
@@ -117,7 +131,7 @@ def main():
     r = load("review-ledger.json")
     changed = False
     for f in fin:
-        if f["final_status"] != "success":
+        if f["final_status"] != "success" or f.get("scene_id") is None:
             continue
         e = r["scenes"].setdefault(str(f["scene_id"]), {"result_received": False, "result_received_at": None, "reviewed": None, "reviewed_at": None, "accepted": None, "needs_redo": None, "inserted_into_film": None, "montage_note": None, "last_human_update_at": None})
         if e.get("result_received") in (False, None) or e.get("selected_result_task_id") != f["task_id"]:
@@ -131,10 +145,11 @@ def main():
     now = datetime.now(timezone.utc).isoformat(timespec="milliseconds").replace("+00:00", "Z")
     can = cyc["canonical"]
     cp.update(committed_at=now, checked_at=T, occupied_slots=len(act), active_task_ids=ids,
-              active_scene_ids=sorted(int(s) for s in by_scene), task_map_updated_at=T, task_map_last_scan_at=T,
+              active_scene_ids=sorted(int(s) for s in by_scene if str(s).isdigit()), task_map_updated_at=T, task_map_last_scan_at=T,
               canonical_validation={"verified_at": can["verified_at"], "health": can["health"], "canonical_master_sha256": can["master_sha256"], "all_project_checks_true": can["health"] == "ok"})
     save("topview-checkpoint.json", cp)
-    print(json.dumps({"checked_at": T, "occupied": len(act), "slow": sorted(int(s) for s in by_scene), "ledger_changed": changed}, ensure_ascii=False))
+    print(json.dumps({"checked_at": T, "occupied": len(act), "slow": sorted(int(s) for s in by_scene if str(s).isdigit()),
+                       "unmapped": len(unmapped_ids), "ledger_changed": changed}, ensure_ascii=False))
 
 
 if __name__ == "__main__":

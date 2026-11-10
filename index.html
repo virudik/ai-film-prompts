@@ -75,7 +75,7 @@ article{min-width:0;max-width:100%}article img,article video{display:block;max-w
 </head>
 <body>
 <div class="layout">
-<aside class="side">
+<aside class="side side-open">
 <div class="brand-row"><span class="brand-mark"></span><div class="brand">AI Film — Центр управления</div></div>
 <div class="project-switch-wrap" data-project-switch><small>Проект</small></div>
 <div class="sub" title="Редактируемый канон — GitHub main; Drive — резервная копия; Pages — сайт для просмотра">GitHub main — канон · Drive — копия</div>
@@ -110,7 +110,7 @@ article{min-width:0;max-width:100%}article img,article video{display:block;max-w
 </div>
 </details>
 <div class="search-wrap"><input id="search" class="search" placeholder="Сцена 17, карта, диалог…" autocomplete="off" /><button id="clearSearch" class="clear-search">×</button></div>
-<button id="sideToggle" class="side-toggle" type="button" aria-expanded="false" aria-controls="toc">☰ Фильтры и оглавление</button>
+<button id="sideToggle" class="side-toggle" type="button" aria-expanded="true" aria-controls="toc">✕ Скрыть фильтры и оглавление</button>
 <div id="filters" class="filters"></div><div class="nav-meta"><span id="resultCount">Разделы</span><span id="activeFilter">Все</span></div>
 <nav id="toc"><div class="empty">Загрузка…</div></nav>
 <div id="sideResize" class="side-resize" role="separator" aria-orientation="vertical" aria-label="Изменить ширину бокового меню" aria-valuemin="280" aria-valuemax="430" aria-valuenow="328" tabindex="0" title="Потяни, чтобы изменить ширину · двойной клик — сброс"></div>
@@ -211,7 +211,7 @@ function buildTopviewRuntime(tv){
  }
  tasks.sort((a,b)=>Number(a.scene_id)-Number(b.scene_id)||String(a.started_at||'').localeCompare(String(b.started_at||''))||String(a.task_id||'').localeCompare(String(b.task_id||'')));
  const byScene=new Map();
- tasks.forEach(x=>{const sid=Number(x.scene_id);if(!byScene.has(sid))byScene.set(sid,[]);byScene.get(sid).push(x)});
+ tasks.forEach(x=>{if(x.scene_id==null||x.scene_id==='')return;const sid=Number(x.scene_id);if(!Number.isFinite(sid))return;if(!byScene.has(sid))byScene.set(sid,[]);byScene.get(sid).push(x)});
  const slowSceneIds=[...byScene.keys()].sort((a,b)=>a-b);
  const capacity=Math.max(1,Number(tv?.slot_capacity||6));
  return {tasks,byScene,slowSceneIds,capacity,occupied:tasks.length,free:Math.max(0,capacity-tasks.length),checkedAt:tv?.checked_at||null}
@@ -304,8 +304,9 @@ function syncArchivedSceneLinks(){
   });
  });
 }
+function sceneNum(x){if(x==null||x.scene_id==null||x.scene_id==='')return null;const n=Number(x.scene_id);return Number.isFinite(n)?n:null}
 function finishedTopviewRows(tv,titles){
- const active=new Set((runtimeTopview?.tasks||[]).map(x=>Number(x.scene_id)));
+ const active=new Set((runtimeTopview?.tasks||[]).map(sceneNum).filter(n=>n!=null));
  return runtimeSlowIds().filter(sid=>!active.has(sid)).map(sid=>{
   const latest=tv?.scenes?.[String(sid)]||{};
   const versions=sceneResultAttempts(sid,tv);
@@ -347,7 +348,8 @@ function renderTopview(tv,md){
   return
  }
  const rows=tasks.map((x,slotIndex)=>{
-  const sid=Number(x.scene_id);
+  const unmapped=x.unmapped===true||x.scene_id==null||x.scene_id==='';
+  const sid=unmapped?null:Number(x.scene_id);
   const start=x.started_at?new Date(x.started_at):null,done=x.completed_at?new Date(x.completed_at):null;
   const elapsed=start?(((done||new Date())-start)/3600000):null;
   const st=String(x.topview_status||x.status||'').toLowerCase();
@@ -360,9 +362,9 @@ function renderTopview(tv,md){
   const cls=['success'].includes(st)?'success':['fail','failed','cancelled'].includes(st)?'fail':'pending';
   const statusText=esc(tvStatusLabel(st));
   const part=taskPartMap().get(x.task_id);
-  const title=titles[String(sid)]||('Сцена '+sid);
+  const title=unmapped?'Задача без сцены':(titles[String(sid)]||('Сцена '+sid));
   const model=x.model||(status?.scene_meta?.[String(sid)]?.target_engine?engineLabel(status.scene_meta[String(sid)].target_engine)+' (цель промта)':'—');
-  return '<tr data-task-id="'+esc(x.task_id||'')+'"><td>'+esc(sid)+'</td><td class="tv-scene">'+(part?'<b class="tv-part" title="Подсцена">'+esc(shortPart(part))+'</b> · ':'')+'<a href="#scene-'+esc(sid)+'">'+esc(title)+'</a>'+topviewResultLinks(sid,tv,part||null)+'</td><td class="tv-model">'+esc(model)+'</td><td><span class="tv-status '+cls+'">'+statusText+'</span></td><td>'+esc(x.started_at?humanDate(x.started_at):'—')+'</td><td>'+esc(fmtHours(elapsed))+'</td><td>'+esc(queue)+'</td><td class="tv-eta">'+eta+'</td></tr>';
+  return '<tr data-task-id="'+esc(x.task_id||'')+'"><td>'+(unmapped?'—':esc(sid))+'</td><td class="tv-scene">'+(unmapped?esc(title)+' <span class="tv-part" title="Слот занят. Номер сцены не угадывается.">слот занят</span>':((part?'<b class="tv-part" title="Подсцена">'+esc(shortPart(part))+'</b> · ':'')+'<a href="#scene-'+esc(sid)+'">'+esc(title)+'</a>'+topviewResultLinks(sid,tv,part||null)))+'</td><td class="tv-model">'+esc(model)+'</td><td><span class="tv-status '+cls+'">'+statusText+'</span></td><td>'+esc(x.started_at?humanDate(x.started_at):'—')+'</td><td>'+esc(fmtHours(elapsed))+'</td><td>'+esc(queue)+'</td><td class="tv-eta">'+eta+'</td></tr>';
  }).join('');
  $('topviewMonitor').innerHTML='<table class="topview-table"><thead><tr><th>#</th><th>Сцена</th><th title="Фактическая модель этой задачи Topview; может отличаться от целевого движка промта">Модель рендера</th><th>Статус</th><th>Запуск</th><th>Прошло</th><th>Очередь</th><th>Оценка времени</th></tr></thead><tbody>'+rows+finishedRows+'</tbody></table>';
  $('topviewMonitor').querySelectorAll('a[href^="#scene-"]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();const m=a.getAttribute('href').match(/^#scene-(\d+)$/);if(m)resetViewAndJump('scene-'+m[1])}));
@@ -376,8 +378,9 @@ function renderNowView(s,tv,ledger,md){
  const titles=parseSceneTitles(md||'');
  runtimeTopview=buildTopviewRuntime(tv);
  const tasks=runtimeTopview.tasks;
- const counts=new Map();tasks.forEach(x=>counts.set(Number(x.scene_id),(counts.get(Number(x.scene_id))||0)+1));
+ const counts=new Map();let unmappedSlots=0;tasks.forEach(x=>{const sid=sceneNum(x);if(sid==null){unmappedSlots++;return}counts.set(sid,(counts.get(sid)||0)+1)});
  const generating=[...counts.entries()].sort((a,b)=>a[0]-b[0]).map(([id,n])=>({id,label:'#'+id+(n>1?' ×'+n:'')+((ledger?.scenes?.[String(id)]||{}).result_received===true?' · новый рендер':'')}));
+ if(unmappedSlots)generating.push({id:null,label:unmappedSlots>1?'слот без сцены ×'+unmappedSlots:'слот без сцены'});
  const rows=ledger?.scenes||{};
  const received=Object.entries(rows).filter(([id,x])=>s?.scene_ids?.includes(Number(id))&&x?.result_received===true).map(([id])=>Number(id)).sort((a,b)=>a-b);
  const decisions=Object.entries(rows).filter(([id,x])=>s?.scene_ids?.includes(Number(id))&&x?.result_received===true&&(x?.reviewed!==true||x?.accepted===null||x?.needs_redo===null)).map(([id])=>Number(id)).sort((a,b)=>a-b);
@@ -385,7 +388,7 @@ function renderNowView(s,tv,ledger,md){
  const next=[];
  Object.entries(s?.scene_meta||{}).forEach(([id,m])=>{const n=Number(id),r=rows[id]||{};if(slow.has(n))return;if(r.needs_redo===true)next.push({id:n,kind:'переделать'});else if(r.result_received===true&&r.reviewed!==true){/* already listed once in «Ждёт вашего решения» */}else if(m?.production_state==='READY'&&r.result_received!==true)next.push({id:n,kind:'можно запускать'});else if(m?.production_state==='NEEDS_FIX')next.push({id:n,kind:'обсудить доработку'})});
  next.sort((a,b)=>a.id-b.id);
- const chip=(id,label)=>'<button class="now-chip" data-scene="'+id+'" title="'+esc(titles[String(id)]||('Сцена '+id))+'">'+esc(label)+'</button>';
+ const chip=(id,label)=>id==null?'<span class="now-chip" title="Слот занят. Номер сцены не угадывается.">'+esc(label)+'</span>':'<button class="now-chip" data-scene="'+id+'" title="'+esc(titles[String(id)]||('Сцена '+id))+'">'+esc(label)+'</button>';
  const card=(title,count,body,extraClass='')=>'<div class="now-card'+(extraClass?' '+extraClass:'')+'"><div class="now-card-head"><span class="now-card-title">'+title+'</span><strong class="now-card-count">'+count+'</strong></div><div class="now-list">'+(body||'<span class="now-empty">нет</span>')+'</div></div>';
  const waitLabel=id=>{const r=rows[String(id)]||{},a=ageInfo(r.result_received_at);const d=Number.isFinite(a.min)?Math.floor(a.min/1440):null;return '#'+id+(counts.has(id)?' · старый результат':'')+(d==null?'':d<1?' · сегодня':' · ждёт '+d+' дн')};
  const decisionsSorted=[...decisions].sort((a,b)=>String(rows[String(a)]?.result_received_at||'').localeCompare(String(rows[String(b)]?.result_received_at||'')));

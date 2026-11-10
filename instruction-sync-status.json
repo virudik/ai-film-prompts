@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "checked_at": "2026-11-09T20:18:38.980Z",
+  "checked_at": "2026-11-10T01:59:48.667Z",
   "verification_mode": "github_canonical_blob_check",
   "verification_scope": "Exact local canonical bytes only; not a semantic audit or proof of scheduler execution.",
   "source_of_truth": "github",
@@ -23,10 +23,10 @@
       "drive_copy_sha256": "244e9a47dc3e3b698c4472e83e4049b8700c03267324deed3925f4036888e874",
       "drive_copy_checked_at": "2026-11-09T11:34:26.646Z",
       "drive_copy_modified_at": "2026-11-06T10:54:28.167Z",
-      "github_blob": "77a7326dbdb00538d6d4360b0968231c57bb906d",
-      "mirror_sha256": "244e9a47dc3e3b698c4472e83e4049b8700c03267324deed3925f4036888e874",
+      "github_blob": "68fcc7d5885d1a7a956f9547425598c624a2a7d4",
+      "mirror_sha256": "ed3edff9823e89e4b89770ac55a9d4b9e7e1df34518222a2ee39b13bf942b18a",
       "match": true,
-      "drive_copy_match": true
+      "drive_copy_match": false
     },
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
@@ -53,20 +53,20 @@
       "drive_copy_sha256": "931b751a155ab065157c8707939988d1e10fa0ab63de54b1f34defbb5149ce79",
       "drive_copy_checked_at": "2026-11-09T11:34:26.646Z",
       "drive_copy_modified_at": "2026-11-09T11:34:21.092Z",
-      "github_blob": "836066386dc4f71620297864366029f344a65c03",
-      "mirror_sha256": "931b751a155ab065157c8707939988d1e10fa0ab63de54b1f34defbb5149ce79",
+      "github_blob": "2070ae127764866fc0bb39ff5dab2ec3c66259c3",
+      "mirror_sha256": "b5cf8309fba1355fd1cd201e4bfe1abc88726b927d7c7f6d2bdb0c402f7cdc58",
       "match": true,
-      "drive_copy_match": true
+      "drive_copy_match": false
     },
     "README-AI-SYNC.md": {
       "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
       "drive_copy_sha256": "164f1faf3fc2ffe8873176b36bc38d2e801c9a72782ca8582ad158ab42858ea6",
       "drive_copy_checked_at": "2026-11-09T11:34:26.646Z",
       "drive_copy_modified_at": "2026-11-04T10:57:13.794Z",
-      "github_blob": "bf3d705e8beed8be74d6c0a2971704d96631e0da",
-      "mirror_sha256": "164f1faf3fc2ffe8873176b36bc38d2e801c9a72782ca8582ad158ab42858ea6",
+      "github_blob": "e7740f82bbfb874070405924da5c7f526305e2bf",
+      "mirror_sha256": "e8d83475b63a94eeb24c6ac3ac4fd182de6bcb132258f191be2a7759ebf641d9",
       "match": true,
-      "drive_copy_match": true
+      "drive_copy_match": false
     },
     "BACKUP-AI-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
