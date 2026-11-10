@@ -34,7 +34,8 @@
       "status": "available",
       "owner_approval": "user_supplied_identity",
       "technical_success_is_editorial_approval": false,
-      "reused_from_existing_pack": false
+      "reused_from_existing_pack": false,
+      "identity_rank": "primary"
     },
     {
       "path": "references/scenes/scene-86/S86-swap-sasha-masha-f.jpg",
@@ -111,11 +112,28 @@
       "active_prompt_input": true,
       "video_launch_approval": false,
       "clip": "86C"
+    },
+    {
+      "path": "references/full/masha-f-theatre.jpg",
+      "asset_id": "references/full/masha-f-theatre.jpg",
+      "caption": "Маша Ф — то же лицо, анфас в театре; второй ракурс, главный лист — у ёлки",
+      "role": "identity",
+      "person": "Маша Ф",
+      "identity_rank": "secondary_same_face",
+      "same_face_as": "references/full/masha-f.jpg",
+      "sha256": "939a4483c4d674b3fde7ff48541c483612897ae8d0ed84e519491b1e4d099083",
+      "bytes": 360794,
+      "width": 940,
+      "height": 1080,
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "owner_supplied_identity_t555u",
+      "technical_success_is_editorial_approval": false
     }
   ],
   "approved": [],
   "rejected": [],
-  "updated_at": "2026-11-10T11:50:00+00:00",
+  "updated_at": "2026-11-10T12:45:00+00:00",
   "publication": "t506u 2026-11-10; stills and prompts published, video not launched",
   "clips": [
     {
@@ -129,7 +147,8 @@
         "@Image1": "references/full/sasha.jpg",
         "@Image2": "references/full/masha-f.jpg",
         "@Image3": "references/scenes/scene-86/S86-swap-sasha-masha-f.jpg",
-        "@Image4": "references/scenes/scene-86/S86A-solemn-open.jpg"
+        "@Image4": "references/scenes/scene-86/S86A-solemn-open.jpg",
+        "@Image5": "references/full/masha-f-theatre.jpg"
       }
     },
     {
@@ -143,7 +162,8 @@
         "@Image1": "references/full/sasha.jpg",
         "@Image2": "references/full/masha-f.jpg",
         "@Image3": "references/scenes/scene-86/S86-swap-sasha-masha-f.jpg",
-        "@Image4": "references/scenes/scene-86/S86B-worthless-contents.jpg"
+        "@Image4": "references/scenes/scene-86/S86B-worthless-contents.jpg",
+        "@Image5": "references/full/masha-f-theatre.jpg"
       }
     },
     {
@@ -157,7 +177,8 @@
         "@Image1": "references/full/sasha.jpg",
         "@Image2": "references/full/masha-f.jpg",
         "@Image3": "references/scenes/scene-86/S86-swap-sasha-masha-f.jpg",
-        "@Image4": "references/scenes/scene-86/S86C-delighted-reaction.jpg"
+        "@Image4": "references/scenes/scene-86/S86C-delighted-reaction.jpg",
+        "@Image5": "references/full/masha-f-theatre.jpg"
       }
     }
   ],
@@ -185,19 +206,22 @@
       "@Image1": "references/full/sasha.jpg",
       "@Image2": "references/full/masha-f.jpg",
       "@Image3": "references/scenes/scene-86/S86-swap-sasha-masha-f.jpg",
-      "@Image4": "references/scenes/scene-86/S86A-solemn-open.jpg"
+      "@Image4": "references/scenes/scene-86/S86A-solemn-open.jpg",
+      "@Image5": "references/full/masha-f-theatre.jpg"
     },
     "86B": {
       "@Image1": "references/full/sasha.jpg",
       "@Image2": "references/full/masha-f.jpg",
       "@Image3": "references/scenes/scene-86/S86-swap-sasha-masha-f.jpg",
-      "@Image4": "references/scenes/scene-86/S86B-worthless-contents.jpg"
+      "@Image4": "references/scenes/scene-86/S86B-worthless-contents.jpg",
+      "@Image5": "references/full/masha-f-theatre.jpg"
     },
     "86C": {
       "@Image1": "references/full/sasha.jpg",
       "@Image2": "references/full/masha-f.jpg",
       "@Image3": "references/scenes/scene-86/S86-swap-sasha-masha-f.jpg",
-      "@Image4": "references/scenes/scene-86/S86C-delighted-reaction.jpg"
+      "@Image4": "references/scenes/scene-86/S86C-delighted-reaction.jpg",
+      "@Image5": "references/full/masha-f-theatre.jpg"
     }
   }
 }

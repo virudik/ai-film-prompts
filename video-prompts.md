@@ -14005,11 +14005,12 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 **Общее:** лица — только с референсов лиц (`references/full/*` и листы Маши Р / Алины), одежда — по сцене и стиллу, не с листов персонажей. 16:9, 720p, 24 fps, родной звук. Стиллы — постановка и гардероб, не буквальный первый кадр.
 
-**Листы лиц:** `references/full/sasha.jpg` — Саша — только лицо и возраст с листа; одежда по сцене; `references/full/masha-f.jpg` — Маша Ф — светлые волосы, селфи у ёлки; это не рыжая Маша Р. Лист задаёт лицо и возраст, не одежду сцены. Это не одобрение и не запуск видео.
+**Листы лиц:** `references/full/sasha.jpg` — Саша — только лицо и возраст с листа; одежда по сцене; `references/full/masha-f.jpg` — Маша Ф — светлые волосы, селфи у ёлки; это не рыжая Маша Р; главный лист лица; `references/full/masha-f-theatre.jpg` — та же Маша Ф в театре, анфас, длинные светло-русые волосы распущены; второй ракурс того же лица, при расхождении главный — `masha-f.jpg`. Лист задаёт лицо и возраст, не одежду сцены. Это не одобрение и не запуск видео.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/sasha.jpg" target="_blank" rel="noopener"><img src="references/full/sasha.jpg" alt="Саша — только лицо и возраст с листа; одежда по сцене" loading="lazy" width="480"></a><figcaption>Саша — только лицо и возраст с листа; одежда по сцене</figcaption></figure>
 <figure><a href="references/full/masha-f.jpg" target="_blank" rel="noopener"><img src="references/full/masha-f.jpg" alt="Маша Ф — светлые волосы, селфи у ёлки; это не рыжая Маша Р" loading="lazy" width="480"></a><figcaption>Маша Ф — светлые волосы, селфи у ёлки; это не рыжая Маша Р</figcaption></figure>
+<figure><a href="references/full/masha-f-theatre.jpg" target="_blank" rel="noopener"><img src="references/full/masha-f-theatre.jpg" alt="Маша Ф — то же лицо, анфас в театре; второй ракурс, главный лист — у ёлки" loading="lazy" width="480"></a><figcaption>Маша Ф — то же лицо, анфас в театре; второй ракурс, главный лист — у ёлки</figcaption></figure>
 </div>
 
 <!-- parody-photo-publication-85 -->
@@ -14034,7 +14035,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-85/S85A-gravity-announce.jpg`, кадр только этой подсцены.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-85/S85A-gravity-announce.jpg`, кадр только этой подсцены; @Image5 — `references/full/masha-f-theatre.jpg`, та же Маша Ф, второй ракурс лица.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14042,13 +14043,14 @@ Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic comedy with living li
 
 REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
-@Image2 = references/full/masha-f.jpg — Masha F face only.
+@Image2 = references/full/masha-f.jpg — Masha F face only, PRIMARY identity.
 @Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
-@Image4 = references/scenes/scene-85/S85A-gravity-announce.jpg — ONLY this subscene: both anchors deadpan at the desk, only a plain «gravity off» sign on the screen. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-85/S85A-gravity-announce.jpg — ONLY this subscene: both anchors deadpan at the desk, only a plain «gravity off» sign on the screen. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
+@Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Both deadpan. Sasha screen-left, Masha F screen-right, as in the still.
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. MASHA F: exact face of @Image2 (primary), with @Image5 as the same face from a second angle; her face comes only from these two portraits, never from staging stills; adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Both deadpan. Sasha screen-left, Masha F screen-right, as in the still.
 
 SCENE / SPACE:
 One serious news desk, cool blue key, warm desk practical. Screens may show a gravity icon or a slipper-hook diagram and nothing else as a story.
@@ -14084,7 +14086,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 1 · 15 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-85/S85A-gravity-announce.jpg`, кадр только этой подсцены.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-85/S85A-gravity-announce.jpg`, кадр только этой подсцены; @Image5 — `references/full/masha-f-theatre.jpg`, та же Маша Ф, второй ракурс лица.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14092,13 +14094,14 @@ Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colou
 
 REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
-@Image2 = references/full/masha-f.jpg — Masha F face only.
+@Image2 = references/full/masha-f.jpg — Masha F face only, PRIMARY identity.
 @Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
-@Image4 = references/scenes/scene-85/S85A-gravity-announce.jpg — ONLY this subscene: both anchors deadpan at the desk, only a plain «gravity off» sign on the screen. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-85/S85A-gravity-announce.jpg — ONLY this subscene: both anchors deadpan at the desk, only a plain «gravity off» sign on the screen. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
+@Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Both deadpan. Sasha screen-left, Masha F screen-right, as in the still.
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. MASHA F: exact face of @Image2 (primary), with @Image5 as the same face from a second angle; her face comes only from these two portraits, never from staging stills; adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Both deadpan. Sasha screen-left, Masha F screen-right, as in the still.
 
 SCENE / SPACE:
 One serious news desk, cool blue key, warm desk practical. Screens may show a gravity icon or a slipper-hook diagram and nothing else as a story.
@@ -14127,7 +14130,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 2 · 15 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-85/S85A-gravity-announce.jpg`, кадр только этой подсцены. @Video1 — настоящие последние 3 с P1 подсцены 85A.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-85/S85A-gravity-announce.jpg`, кадр только этой подсцены; @Image5 — `references/full/masha-f-theatre.jpg`, та же Маша Ф, второй ракурс лица. @Video1 — настоящие последние 3 с P1 подсцены 85A.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14135,14 +14138,15 @@ Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colou
 
 REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
-@Image2 = references/full/masha-f.jpg — Masha F face only.
+@Image2 = references/full/masha-f.jpg — Masha F face only, PRIMARY identity.
 @Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
-@Image4 = references/scenes/scene-85/S85A-gravity-announce.jpg — ONLY this subscene: both anchors deadpan at the desk, only a plain «gravity off» sign on the screen. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-85/S85A-gravity-announce.jpg — ONLY this subscene: both anchors deadpan at the desk, only a plain «gravity off» sign on the screen. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
+@Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 @Video1 = actual final 3 seconds of Scene 85 subscene 85A Seedance Part 1 — real continuity, not a generated substitute.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Both deadpan. Sasha screen-left, Masha F screen-right, as in the still.
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. MASHA F: exact face of @Image2 (primary), with @Image5 as the same face from a second angle; her face comes only from these two portraits, never from staging stills; adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Both deadpan. Sasha screen-left, Masha F screen-right, as in the still.
 
 SCENE / SPACE:
 One serious news desk, cool blue key, warm desk practical. Screens may show a gravity icon or a slipper-hook diagram and nothing else as a story.
@@ -14191,7 +14195,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-85/S85B-slippers-question.jpg`, кадр только этой подсцены.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-85/S85B-slippers-question.jpg`, кадр только этой подсцены; @Image5 — `references/full/masha-f-theatre.jpg`, та же Маша Ф, второй ракурс лица.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14199,13 +14203,14 @@ Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic comedy with living li
 
 REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
-@Image2 = references/full/masha-f.jpg — Masha F face only.
+@Image2 = references/full/masha-f.jpg — Masha F face only, PRIMARY identity.
 @Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
-@Image4 = references/scenes/scene-85/S85B-slippers-question.jpg — ONLY this subscene: Masha F raises her pen for a clarifying question, edge of a house slipper on the desk as a prop. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-85/S85B-slippers-question.jpg — ONLY this subscene: Masha F raises her pen for a clarifying question, edge of a house slipper on the desk as a prop. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
+@Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Both deadpan. Sasha screen-left, Masha F screen-right, as in the still.
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. MASHA F: exact face of @Image2 (primary), with @Image5 as the same face from a second angle; her face comes only from these two portraits, never from staging stills; adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Both deadpan. Sasha screen-left, Masha F screen-right, as in the still.
 
 SCENE / SPACE:
 One serious news desk, cool blue key, warm desk practical. Screens may show a gravity icon or a slipper-hook diagram and nothing else as a story.
@@ -14240,7 +14245,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 1 · 15 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-85/S85B-slippers-question.jpg`, кадр только этой подсцены.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-85/S85B-slippers-question.jpg`, кадр только этой подсцены; @Image5 — `references/full/masha-f-theatre.jpg`, та же Маша Ф, второй ракурс лица.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14248,13 +14253,14 @@ Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colou
 
 REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
-@Image2 = references/full/masha-f.jpg — Masha F face only.
+@Image2 = references/full/masha-f.jpg — Masha F face only, PRIMARY identity.
 @Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
-@Image4 = references/scenes/scene-85/S85B-slippers-question.jpg — ONLY this subscene: Masha F raises her pen for a clarifying question, edge of a house slipper on the desk as a prop. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-85/S85B-slippers-question.jpg — ONLY this subscene: Masha F raises her pen for a clarifying question, edge of a house slipper on the desk as a prop. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
+@Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Both deadpan. Sasha screen-left, Masha F screen-right, as in the still.
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. MASHA F: exact face of @Image2 (primary), with @Image5 as the same face from a second angle; her face comes only from these two portraits, never from staging stills; adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Both deadpan. Sasha screen-left, Masha F screen-right, as in the still.
 
 SCENE / SPACE:
 One serious news desk, cool blue key, warm desk practical. Screens may show a gravity icon or a slipper-hook diagram and nothing else as a story.
@@ -14283,7 +14289,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 2 · 15 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-85/S85B-slippers-question.jpg`, кадр только этой подсцены. @Video1 — настоящие последние 3 с P1 подсцены 85B.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-85/S85B-slippers-question.jpg`, кадр только этой подсцены; @Image5 — `references/full/masha-f-theatre.jpg`, та же Маша Ф, второй ракурс лица. @Video1 — настоящие последние 3 с P1 подсцены 85B.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14291,14 +14297,15 @@ Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colou
 
 REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
-@Image2 = references/full/masha-f.jpg — Masha F face only.
+@Image2 = references/full/masha-f.jpg — Masha F face only, PRIMARY identity.
 @Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
-@Image4 = references/scenes/scene-85/S85B-slippers-question.jpg — ONLY this subscene: Masha F raises her pen for a clarifying question, edge of a house slipper on the desk as a prop. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-85/S85B-slippers-question.jpg — ONLY this subscene: Masha F raises her pen for a clarifying question, edge of a house slipper on the desk as a prop. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
+@Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 @Video1 = actual final 3 seconds of Scene 85 subscene 85B Seedance Part 1 — real continuity, not a generated substitute.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Both deadpan. Sasha screen-left, Masha F screen-right, as in the still.
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. MASHA F: exact face of @Image2 (primary), with @Image5 as the same face from a second angle; her face comes only from these two portraits, never from staging stills; adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Both deadpan. Sasha screen-left, Masha F screen-right, as in the still.
 
 SCENE / SPACE:
 One serious news desk, cool blue key, warm desk practical. Screens may show a gravity icon or a slipper-hook diagram and nothing else as a story.
@@ -14346,7 +14353,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-85/S85C-hook-diagram.jpg`, кадр только этой подсцены.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-85/S85C-hook-diagram.jpg`, кадр только этой подсцены; @Image5 — `references/full/masha-f-theatre.jpg`, та же Маша Ф, второй ракурс лица.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14354,13 +14361,14 @@ Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic comedy with living li
 
 REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
-@Image2 = references/full/masha-f.jpg — Masha F face only.
+@Image2 = references/full/masha-f.jpg — Masha F face only, PRIMARY identity.
 @Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
-@Image4 = references/scenes/scene-85/S85C-hook-diagram.jpg — ONLY this subscene: the simple hook-by-the-door diagram behind them; the doughnut is only the hook's round mark. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-85/S85C-hook-diagram.jpg — ONLY this subscene: the simple hook-by-the-door diagram behind them; the doughnut is only the hook's round mark. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
+@Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Both deadpan. Sasha screen-left, Masha F screen-right, as in the still.
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. MASHA F: exact face of @Image2 (primary), with @Image5 as the same face from a second angle; her face comes only from these two portraits, never from staging stills; adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Both deadpan. Sasha screen-left, Masha F screen-right, as in the still.
 
 SCENE / SPACE:
 One serious news desk, cool blue key, warm desk practical. Screens may show a gravity icon or a slipper-hook diagram and nothing else as a story.
@@ -14395,7 +14403,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 1 · 15 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-85/S85C-hook-diagram.jpg`, кадр только этой подсцены.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-85/S85C-hook-diagram.jpg`, кадр только этой подсцены; @Image5 — `references/full/masha-f-theatre.jpg`, та же Маша Ф, второй ракурс лица.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14403,13 +14411,14 @@ Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colou
 
 REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
-@Image2 = references/full/masha-f.jpg — Masha F face only.
+@Image2 = references/full/masha-f.jpg — Masha F face only, PRIMARY identity.
 @Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
-@Image4 = references/scenes/scene-85/S85C-hook-diagram.jpg — ONLY this subscene: the simple hook-by-the-door diagram behind them; the doughnut is only the hook's round mark. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-85/S85C-hook-diagram.jpg — ONLY this subscene: the simple hook-by-the-door diagram behind them; the doughnut is only the hook's round mark. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
+@Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Both deadpan. Sasha screen-left, Masha F screen-right, as in the still.
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. MASHA F: exact face of @Image2 (primary), with @Image5 as the same face from a second angle; her face comes only from these two portraits, never from staging stills; adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Both deadpan. Sasha screen-left, Masha F screen-right, as in the still.
 
 SCENE / SPACE:
 One serious news desk, cool blue key, warm desk practical. Screens may show a gravity icon or a slipper-hook diagram and nothing else as a story.
@@ -14438,7 +14447,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 2 · 15 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-85/S85C-hook-diagram.jpg`, кадр только этой подсцены. @Video1 — настоящие последние 3 с P1 подсцены 85C.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-85/S85-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-85/S85C-hook-diagram.jpg`, кадр только этой подсцены; @Image5 — `references/full/masha-f-theatre.jpg`, та же Маша Ф, второй ракурс лица. @Video1 — настоящие последние 3 с P1 подсцены 85C.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14446,14 +14455,15 @@ Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colou
 
 REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
-@Image2 = references/full/masha-f.jpg — Masha F face only.
+@Image2 = references/full/masha-f.jpg — Masha F face only, PRIMARY identity.
 @Image3 = references/scenes/scene-85/S85-swap-sasha-masha-f.jpg — two-anchor desk and wardrobe only. Background screens are set dressing, not extra news stories.
-@Image4 = references/scenes/scene-85/S85C-hook-diagram.jpg — ONLY this subscene: the simple hook-by-the-door diagram behind them; the doughnut is only the hook's round mark. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-85/S85C-hook-diagram.jpg — ONLY this subscene: the simple hook-by-the-door diagram behind them; the doughnut is only the hook's round mark. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
+@Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 @Video1 = actual final 3 seconds of Scene 85 subscene 85C Seedance Part 1 — real continuity, not a generated substitute.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Both deadpan. Sasha screen-left, Masha F screen-right, as in the still.
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. MASHA F: exact face of @Image2 (primary), with @Image5 as the same face from a second angle; her face comes only from these two portraits, never from staging stills; adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Both deadpan. Sasha screen-left, Masha F screen-right, as in the still.
 
 SCENE / SPACE:
 One serious news desk, cool blue key, warm desk practical. Screens may show a gravity icon or a slipper-hook diagram and nothing else as a story.
@@ -14495,11 +14505,12 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 **Общее:** лица — только с референсов лиц (`references/full/*` и листы Маши Р / Алины), одежда — по сцене и стиллу, не с листов персонажей. 16:9, 720p, 24 fps, родной звук. Стиллы — постановка и гардероб, не буквальный первый кадр.
 
-**Листы лиц:** `references/full/sasha.jpg` — Саша — только лицо и возраст с листа; одежда по сцене; `references/full/masha-f.jpg` — Маша Ф — светлые волосы, селфи у ёлки; это не рыжая Маша Р. Лист задаёт лицо и возраст, не одежду сцены. Это не одобрение и не запуск видео.
+**Листы лиц:** `references/full/sasha.jpg` — Саша — только лицо и возраст с листа; одежда по сцене; `references/full/masha-f.jpg` — Маша Ф — светлые волосы, селфи у ёлки; это не рыжая Маша Р; главный лист лица; `references/full/masha-f-theatre.jpg` — та же Маша Ф в театре, анфас, длинные светло-русые волосы распущены; второй ракурс того же лица, при расхождении главный — `masha-f.jpg`. Лист задаёт лицо и возраст, не одежду сцены. Это не одобрение и не запуск видео.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/sasha.jpg" target="_blank" rel="noopener"><img src="references/full/sasha.jpg" alt="Саша — только лицо и возраст с листа; одежда по сцене" loading="lazy" width="480"></a><figcaption>Саша — только лицо и возраст с листа; одежда по сцене</figcaption></figure>
 <figure><a href="references/full/masha-f.jpg" target="_blank" rel="noopener"><img src="references/full/masha-f.jpg" alt="Маша Ф — светлые волосы, селфи у ёлки; это не рыжая Маша Р" loading="lazy" width="480"></a><figcaption>Маша Ф — светлые волосы, селфи у ёлки; это не рыжая Маша Р</figcaption></figure>
+<figure><a href="references/full/masha-f-theatre.jpg" target="_blank" rel="noopener"><img src="references/full/masha-f-theatre.jpg" alt="Маша Ф — то же лицо, анфас в театре; второй ракурс, главный лист — у ёлки" loading="lazy" width="480"></a><figcaption>Маша Ф — то же лицо, анфас в театре; второй ракурс, главный лист — у ёлки</figcaption></figure>
 </div>
 
 <!-- parody-photo-publication-86 -->
@@ -14524,7 +14535,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-86/S86A-solemn-open.jpg`, кадр только этой подсцены.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-86/S86A-solemn-open.jpg`, кадр только этой подсцены; @Image5 — `references/full/masha-f-theatre.jpg`, та же Маша Ф, второй ракурс лица.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14532,13 +14543,14 @@ Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic comedy with living li
 
 REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
-@Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R.
+@Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R, PRIMARY identity.
 @Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
-@Image4 = references/scenes/scene-86/S86A-solemn-open.jpg — ONLY this subscene: solemn opening, both hands on a still-closed plain bag, more closed bags on the table. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-86/S86A-solemn-open.jpg — ONLY this subscene: solemn opening, both hands on a still-closed plain bag, more closed bags on the table. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
+@Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. Casual home clothes as in the still. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Home clothes as in the still. They sing only the verse written in that subscene, once.
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. Casual home clothes as in the still. MASHA F: exact face of @Image2 (primary), with @Image5 as the same face from a second angle; her face comes only from these two portraits, never from staging stills; adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Home clothes as in the still. They sing only the verse written in that subscene, once.
 
 SCENE / SPACE:
 One cramped cheerful kitchen, many plain bags on the table, warm practical bulb, no studio.
@@ -14573,7 +14585,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 1 · 15 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-86/S86A-solemn-open.jpg`, кадр только этой подсцены.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-86/S86A-solemn-open.jpg`, кадр только этой подсцены; @Image5 — `references/full/masha-f-theatre.jpg`, та же Маша Ф, второй ракурс лица.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14581,13 +14593,14 @@ Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colou
 
 REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
-@Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R.
+@Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R, PRIMARY identity.
 @Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
-@Image4 = references/scenes/scene-86/S86A-solemn-open.jpg — ONLY this subscene: solemn opening, both hands on a still-closed plain bag, more closed bags on the table. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-86/S86A-solemn-open.jpg — ONLY this subscene: solemn opening, both hands on a still-closed plain bag, more closed bags on the table. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
+@Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. Casual home clothes as in the still. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Home clothes as in the still. They sing only the verse written in that subscene, once.
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. Casual home clothes as in the still. MASHA F: exact face of @Image2 (primary), with @Image5 as the same face from a second angle; her face comes only from these two portraits, never from staging stills; adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Home clothes as in the still. They sing only the verse written in that subscene, once.
 
 SCENE / SPACE:
 One cramped cheerful kitchen, many plain bags on the table, warm practical bulb, no studio.
@@ -14616,7 +14629,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 2 · 15 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-86/S86A-solemn-open.jpg`, кадр только этой подсцены. @Video1 — настоящие последние 3 с P1 подсцены 86A.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-86/S86A-solemn-open.jpg`, кадр только этой подсцены; @Image5 — `references/full/masha-f-theatre.jpg`, та же Маша Ф, второй ракурс лица. @Video1 — настоящие последние 3 с P1 подсцены 86A.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14624,14 +14637,15 @@ Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colou
 
 REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
-@Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R.
+@Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R, PRIMARY identity.
 @Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
-@Image4 = references/scenes/scene-86/S86A-solemn-open.jpg — ONLY this subscene: solemn opening, both hands on a still-closed plain bag, more closed bags on the table. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-86/S86A-solemn-open.jpg — ONLY this subscene: solemn opening, both hands on a still-closed plain bag, more closed bags on the table. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
+@Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 @Video1 = actual final 3 seconds of Scene 86 subscene 86A Seedance Part 1 — real continuity, not a generated substitute.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. Casual home clothes as in the still. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Home clothes as in the still. They sing only the verse written in that subscene, once.
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. Casual home clothes as in the still. MASHA F: exact face of @Image2 (primary), with @Image5 as the same face from a second angle; her face comes only from these two portraits, never from staging stills; adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Home clothes as in the still. They sing only the verse written in that subscene, once.
 
 SCENE / SPACE:
 One cramped cheerful kitchen, many plain bags on the table, warm practical bulb, no studio.
@@ -14679,7 +14693,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-86/S86B-worthless-contents.jpg`, кадр только этой подсцены.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-86/S86B-worthless-contents.jpg`, кадр только этой подсцены; @Image5 — `references/full/masha-f-theatre.jpg`, та же Маша Ф, второй ракурс лица.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14687,13 +14701,14 @@ Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic comedy with living li
 
 REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
-@Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R.
+@Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R, PRIMARY identity.
 @Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
-@Image4 = references/scenes/scene-86/S86B-worthless-contents.jpg — ONLY this subscene: Sasha holds a blinking cheap disco bulb, Masha F a rubber chicken, both delighted. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-86/S86B-worthless-contents.jpg — ONLY this subscene: Sasha holds a blinking cheap disco bulb, Masha F a rubber chicken, both delighted. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
+@Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. Casual home clothes as in the still. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Home clothes as in the still. They sing only the verse written in that subscene, once.
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. Casual home clothes as in the still. MASHA F: exact face of @Image2 (primary), with @Image5 as the same face from a second angle; her face comes only from these two portraits, never from staging stills; adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Home clothes as in the still. They sing only the verse written in that subscene, once.
 
 SCENE / SPACE:
 One cramped cheerful kitchen, many plain bags on the table, warm practical bulb, no studio.
@@ -14728,7 +14743,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 1 · 15 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-86/S86B-worthless-contents.jpg`, кадр только этой подсцены.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-86/S86B-worthless-contents.jpg`, кадр только этой подсцены; @Image5 — `references/full/masha-f-theatre.jpg`, та же Маша Ф, второй ракурс лица.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14736,13 +14751,14 @@ Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colou
 
 REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
-@Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R.
+@Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R, PRIMARY identity.
 @Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
-@Image4 = references/scenes/scene-86/S86B-worthless-contents.jpg — ONLY this subscene: Sasha holds a blinking cheap disco bulb, Masha F a rubber chicken, both delighted. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-86/S86B-worthless-contents.jpg — ONLY this subscene: Sasha holds a blinking cheap disco bulb, Masha F a rubber chicken, both delighted. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
+@Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. Casual home clothes as in the still. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Home clothes as in the still. They sing only the verse written in that subscene, once.
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. Casual home clothes as in the still. MASHA F: exact face of @Image2 (primary), with @Image5 as the same face from a second angle; her face comes only from these two portraits, never from staging stills; adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Home clothes as in the still. They sing only the verse written in that subscene, once.
 
 SCENE / SPACE:
 One cramped cheerful kitchen, many plain bags on the table, warm practical bulb, no studio.
@@ -14771,7 +14787,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 2 · 15 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-86/S86B-worthless-contents.jpg`, кадр только этой подсцены. @Video1 — настоящие последние 3 с P1 подсцены 86B.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-86/S86B-worthless-contents.jpg`, кадр только этой подсцены; @Image5 — `references/full/masha-f-theatre.jpg`, та же Маша Ф, второй ракурс лица. @Video1 — настоящие последние 3 с P1 подсцены 86B.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14779,14 +14795,15 @@ Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colou
 
 REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
-@Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R.
+@Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R, PRIMARY identity.
 @Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
-@Image4 = references/scenes/scene-86/S86B-worthless-contents.jpg — ONLY this subscene: Sasha holds a blinking cheap disco bulb, Masha F a rubber chicken, both delighted. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-86/S86B-worthless-contents.jpg — ONLY this subscene: Sasha holds a blinking cheap disco bulb, Masha F a rubber chicken, both delighted. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
+@Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 @Video1 = actual final 3 seconds of Scene 86 subscene 86B Seedance Part 1 — real continuity, not a generated substitute.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. Casual home clothes as in the still. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Home clothes as in the still. They sing only the verse written in that subscene, once.
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. Casual home clothes as in the still. MASHA F: exact face of @Image2 (primary), with @Image5 as the same face from a second angle; her face comes only from these two portraits, never from staging stills; adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Home clothes as in the still. They sing only the verse written in that subscene, once.
 
 SCENE / SPACE:
 One cramped cheerful kitchen, many plain bags on the table, warm practical bulb, no studio.
@@ -14834,7 +14851,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-86/S86C-delighted-reaction.jpg`, кадр только этой подсцены.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-86/S86C-delighted-reaction.jpg`, кадр только этой подсцены; @Image5 — `references/full/masha-f-theatre.jpg`, та же Маша Ф, второй ракурс лица.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14842,13 +14859,14 @@ Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cinematic comedy with living li
 
 REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
-@Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R.
+@Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R, PRIMARY identity.
 @Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
-@Image4 = references/scenes/scene-86/S86C-delighted-reaction.jpg — ONLY this subscene: Masha F in pink heart glasses, Sasha raises a golden waving cat, both wave at the camera. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-86/S86C-delighted-reaction.jpg — ONLY this subscene: Masha F in pink heart glasses, Sasha raises a golden waving cat, both wave at the camera. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
+@Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. Casual home clothes as in the still. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Home clothes as in the still. They sing only the verse written in that subscene, once.
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. Casual home clothes as in the still. MASHA F: exact face of @Image2 (primary), with @Image5 as the same face from a second angle; her face comes only from these two portraits, never from staging stills; adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Home clothes as in the still. They sing only the verse written in that subscene, once.
 
 SCENE / SPACE:
 One cramped cheerful kitchen, many plain bags on the table, warm practical bulb, no studio.
@@ -14883,7 +14901,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 1 · 15 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-86/S86C-delighted-reaction.jpg`, кадр только этой подсцены.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-86/S86C-delighted-reaction.jpg`, кадр только этой подсцены; @Image5 — `references/full/masha-f-theatre.jpg`, та же Маша Ф, второй ракурс лица.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14891,13 +14909,14 @@ Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colou
 
 REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
-@Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R.
+@Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R, PRIMARY identity.
 @Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
-@Image4 = references/scenes/scene-86/S86C-delighted-reaction.jpg — ONLY this subscene: Masha F in pink heart glasses, Sasha raises a golden waving cat, both wave at the camera. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-86/S86C-delighted-reaction.jpg — ONLY this subscene: Masha F in pink heart glasses, Sasha raises a golden waving cat, both wave at the camera. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
+@Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. Casual home clothes as in the still. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Home clothes as in the still. They sing only the verse written in that subscene, once.
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. Casual home clothes as in the still. MASHA F: exact face of @Image2 (primary), with @Image5 as the same face from a second angle; her face comes only from these two portraits, never from staging stills; adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Home clothes as in the still. They sing only the verse written in that subscene, once.
 
 SCENE / SPACE:
 One cramped cheerful kitchen, many plain bags on the table, warm practical bulb, no studio.
@@ -14926,7 +14945,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### Seedance 2.0 · часть 2 · 15 с
 
-**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-86/S86C-delighted-reaction.jpg`, кадр только этой подсцены. @Video1 — настоящие последние 3 с P1 подсцены 86C.
+**Входы:** @Image1 — `references/full/sasha.jpg`; @Image2 — `references/full/masha-f.jpg`; @Image3 — `references/scenes/scene-86/S86-swap-sasha-masha-f.jpg`; @Image4 — `references/scenes/scene-86/S86C-delighted-reaction.jpg`, кадр только этой подсцены; @Image5 — `references/full/masha-f-theatre.jpg`, та же Маша Ф, второй ракурс лица. @Video1 — настоящие последние 3 с P1 подсцены 86C.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -14934,14 +14953,15 @@ Optimized for Seedance 2.0 | Photoreal cinematic comedy with living light, colou
 
 REFERENCES / AUTHORITY:
 @Image1 = references/full/sasha.jpg — Sasha face only.
-@Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R.
+@Image2 = references/full/masha-f.jpg — Masha F face only, not Masha R, PRIMARY identity.
 @Image3 = references/scenes/scene-86/S86-swap-sasha-masha-f.jpg — kitchen, bags on the table, wardrobe. Not a literal first frame.
-@Image4 = references/scenes/scene-86/S86C-delighted-reaction.jpg — ONLY this subscene: Masha F in pink heart glasses, Sasha raises a golden waving cat, both wave at the camera. Staging, props and light; faces only from @Image1 and @Image2. Not a literal first frame.
+@Image4 = references/scenes/scene-86/S86C-delighted-reaction.jpg — ONLY this subscene: Masha F in pink heart glasses, Sasha raises a golden waving cat, both wave at the camera. Staging, props and light; faces only from the portraits @Image1, @Image2 and @Image5. Not a literal first frame.
+@Image5 = references/full/masha-f-theatre.jpg — the SAME Masha F face, frontal, long light-brown hair down; secondary angle only. Same woman as @Image2, never a second person; @Image2 wins on any conflict. Hair styling and wardrobe come from the scene, not from this photo.
 @Video1 = actual final 3 seconds of Scene 86 subscene 86C Seedance Part 1 — real continuity, not a generated substitute.
 Facial references outrank staged images for identity and age. Do not animate a slideshow or a collage. Generate real continuous motion. Do not reproduce source-sheet Jedi or Tatooine costumes. Cinematic light, colour and a readable face. Funny detail stays physical and specific.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. Casual home clothes as in the still. MASHA F: exact face of @Image2, adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Home clothes as in the still. They sing only the verse written in that subscene, once.
+SASHA: exact face of @Image1, round glasses, full dark beard, dark news suit. Casual home clothes as in the still. MASHA F: exact face of @Image2 (primary), with @Image5 as the same face from a second angle; her face comes only from these two portraits, never from staging stills; adult woman, light blonde hair, not copper-red Masha R and not Masha Laguna. Modest news blazer. Home clothes as in the still. They sing only the verse written in that subscene, once.
 
 SCENE / SPACE:
 One cramped cheerful kitchen, many plain bags on the table, warm practical bulb, no studio.
