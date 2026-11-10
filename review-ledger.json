@@ -19,7 +19,7 @@
     "inserted_into_film=true requires reviewed=true and accepted=true.",
     "For result_received=true, selected_result_task_id identifies the concrete render proposed for review when known; result_url may be null until a stable safe link is available."
   ],
-  "updated_at": "2026-11-10T03:20:35Z",
+  "updated_at": "2026-11-10T03:39:14.019808Z",
   "scenes": {
     "3": {
       "result_received": true,
@@ -982,6 +982,83 @@
       "last_human_update_at": null
     },
     "80": {
+      "result_received": false,
+      "result_received_at": null,
+      "reviewed": null,
+      "reviewed_at": null,
+      "accepted": null,
+      "needs_redo": null,
+      "inserted_into_film": null,
+      "montage_note": null,
+      "last_human_update_at": null
+    },
+    "81": {
+      "result_received": false,
+      "result_received_at": null,
+      "reviewed": null,
+      "reviewed_at": null,
+      "accepted": null,
+      "needs_redo": null,
+      "inserted_into_film": null,
+      "montage_note": null,
+      "last_human_update_at": null
+    },
+    "82": {
+      "result_received": false,
+      "result_received_at": null,
+      "reviewed": null,
+      "reviewed_at": null,
+      "accepted": null,
+      "needs_redo": null,
+      "inserted_into_film": null,
+      "montage_note": null,
+      "last_human_update_at": null
+    },
+    "83": {
+      "result_received": false,
+      "result_received_at": null,
+      "reviewed": null,
+      "reviewed_at": null,
+      "accepted": null,
+      "needs_redo": null,
+      "inserted_into_film": null,
+      "montage_note": null,
+      "last_human_update_at": null
+    },
+    "84": {
+      "result_received": false,
+      "result_received_at": null,
+      "reviewed": null,
+      "reviewed_at": null,
+      "accepted": null,
+      "needs_redo": null,
+      "inserted_into_film": null,
+      "montage_note": null,
+      "last_human_update_at": null
+    },
+    "85": {
+      "result_received": false,
+      "result_received_at": null,
+      "reviewed": null,
+      "reviewed_at": null,
+      "accepted": null,
+      "needs_redo": null,
+      "inserted_into_film": null,
+      "montage_note": null,
+      "last_human_update_at": null
+    },
+    "86": {
+      "result_received": false,
+      "result_received_at": null,
+      "reviewed": null,
+      "reviewed_at": null,
+      "accepted": null,
+      "needs_redo": null,
+      "inserted_into_film": null,
+      "montage_note": null,
+      "last_human_update_at": null
+    },
+    "87": {
       "result_received": false,
       "result_received_at": null,
       "reviewed": null,
