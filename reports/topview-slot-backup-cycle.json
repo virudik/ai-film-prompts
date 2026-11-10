@@ -10,8 +10,8 @@
   "preferred_executor_observed": "work",
   "started_at": "2026-11-10T13:01:48.223745Z",
   "lease_acquired_at": "2026-11-10T13:09:59.568Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
     "scope": "Read-only Topview connector all 14 boards (13 single-page and 8 pages My First Board), 21 board pages",
@@ -23,14 +23,14 @@
       "fail": 27,
       "init": 6
     },
-    "checked_at": "2026-11-10T13:11:31.272Z"
+    "checked_at": "2026-11-10T13:13:09.170Z"
   },
   "slots": {
     "physical_capacity": 6,
     "occupied": 6,
     "free": 0,
     "scan_complete": true,
-    "verified_at": "2026-11-10T13:11:31.272Z"
+    "verified_at": "2026-11-10T13:13:09.170Z"
   },
   "selected_item": null,
   "task_ids": [
@@ -55,7 +55,8 @@
     "acquired_at": "2026-11-10T13:09:59.568Z",
     "expires_at": "2026-11-10T13:29:59.568Z",
     "lease_commit": "fb7258def4ab1140b54ac3b3ba20fe15fc336cfe",
-    "final_action": "pending_exact_release"
+    "final_action": "release_atomically_with_final_receipt",
+    "released_at": "2026-11-10T13:13:55.113Z"
   },
   "outcome": "no_free_slot",
   "blocker": null,
@@ -70,8 +71,8 @@
     "production_submission_by_this_executor_verified": false,
     "new_task_id_verified": false
   },
-  "updated_at": "2026-11-10T13:11:31.272Z",
-  "source_head_receipt_precommit": "4cc4be06827aec8a084a9289ac4aeaa3af604580",
+  "updated_at": "2026-11-10T13:13:55.113Z",
+  "source_head_receipt_precommit": "1d3a69c17ee1528e943fff476f4c49dae4639e42",
   "queue_reconciliation": {
     "queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
     "task_map_sha256": "d4d697cddea301436503a6355f75b42d21287573223486d13fef4c1b3c842f80",
@@ -79,8 +80,8 @@
     "source_task_map_sha_verified": true,
     "submitted_count": 41,
     "transitional_states": [],
-    "submitted_task_ids_verified_in_scan": false,
-    "verification_note": "all known queue IDs still to be checked in same-snapshot My First Board page scan"
+    "submitted_task_ids_verified_in_scan": true,
+    "verification_note": "41/41 canonical submitted/completed task IDs present in exact My First Board 8-page read-only scan; no missing IDs"
   },
   "monitoring": {
     "robot_topview_checked_at": "2026-11-10T13:00:32Z",
@@ -90,5 +91,8 @@
     "open_owner_tasks": [
       "self-heal-telemetry-stale-202611091849"
     ]
-  }
+  },
+  "checked_at": "2026-11-10T13:13:09.170Z",
+  "completed_at": "2026-11-10T13:13:55.113Z",
+  "note": "All six physical slots occupied; no Create, TinyFish paid UI, retry or Topview credits. All 41 queue task IDs found. Current active S49B and music items not fully matched to canonical uploaded original file SHA; avoid duplicate Create. No owner-acceptance implied."
 }
