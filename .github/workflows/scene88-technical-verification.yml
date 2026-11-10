@@ -14,6 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 12
     env:
+      # Script execution starts in scripts/; tests import both tests.* and scripts.*.
+      PYTHONPATH: .
       EXPECTED_HOLDER: chatgpt:ordinary:8c9d9bd3-2401-4392-8f4f-2ecbc9a4cb2c
       EXPECTED_ACQUIRED_AT: '2026-11-10T19:54:00Z'
     steps:
