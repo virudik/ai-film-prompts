@@ -3,27 +3,15 @@
   "rules": "ops/SELF-HEAL.md",
   "status": "fixing",
   "problems": {
-    "pages-lag": {
-      "text": "Сайт показывает статус от 2026-11-10T11:20:31Z, а в main уже 2026-11-10T11:52:25Z (отставание 31 мин).",
-      "since": "2026-11-10T11:52:33Z",
+    "run-failed-canon-health": {
+      "text": "Последний запуск «здоровье канона» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/42813228653",
+      "since": "2026-11-10T12:19:29Z",
       "fixes": 1,
-      "last_fix_at": "2026-11-10T11:52:33Z",
+      "last_fix_at": "2026-11-10T12:19:29Z",
       "escalated_at": null
     }
   },
   "log": [
-    {
-      "at": "2026-11-06T17:49:38Z",
-      "kind": "resolved",
-      "key": "lock-forgotten",
-      "text": "Прошло: Замок канона (chatgpt:ordinary:d793beda-169e-49a5-adf7-b595625ce027) истёк 06.11 16:31 UTC и не снят."
-    },
-    {
-      "at": "2026-11-06T18:49:45Z",
-      "kind": "fixed",
-      "key": "run-failed-sync-from-drive",
-      "text": "Нашёл: Последний запуск «проверка канона и кнопок» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/42273055264 Сделал: повторил упавший запуск «проверка канона и кнопок»."
-    },
     {
       "at": "2026-11-06T18:49:45Z",
       "kind": "fixed",
@@ -131,7 +119,19 @@
       "kind": "fixed",
       "key": "pages-lag",
       "text": "Нашёл: Сайт показывает статус от 2026-11-10T11:20:31Z, а в main уже 2026-11-10T11:52:25Z (отставание 31 мин). Сделал: пересобрал сайт на GitHub Pages."
+    },
+    {
+      "at": "2026-11-10T12:19:29Z",
+      "kind": "fixed",
+      "key": "run-failed-canon-health",
+      "text": "Нашёл: Последний запуск «здоровье канона» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/42813228653 Сделал: повторил упавший запуск «здоровье канона»."
+    },
+    {
+      "at": "2026-11-10T12:19:29Z",
+      "kind": "resolved",
+      "key": "pages-lag",
+      "text": "Прошло: Сайт показывает статус от 2026-11-10T11:20:31Z, а в main уже 2026-11-10T11:52:25Z (отставание 31 мин)."
     }
   ],
-  "changed_at": "2026-11-10T11:52:33Z"
+  "changed_at": "2026-11-10T12:19:29Z"
 }
