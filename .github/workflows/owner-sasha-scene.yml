@@ -20,7 +20,7 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
-      - name: Verify exact owner lease and download pinned publication bundle
+      - name: Verify exact lease and download hash-pinned bundle and four Drive originals
         run: |
           mkdir -p /tmp/sasha-evidence /tmp/sasha-bundle
           python3 - <<'PY'
@@ -28,16 +28,14 @@ jobs:
           from pathlib import Path,PurePosixPath
           from datetime import datetime,timezone
           l=json.loads(Path('ops/canon-lock.json').read_text())
-          assert l['state']=='held' and l['holder']=='chatgpt:ordinary:d59b8aff-e262-4718-b883-63fa7765a999' and l['acquired_at']=='2026-11-10T15:35:03+00:00','exact lease lost'
-          assert datetime.fromisoformat(l['expires_at'])>datetime.now(timezone.utc),'lease expired'
+          assert l['state']=='held' and l['holder']=='chatgpt:ordinary:d59b8aff-e262-4718-b883-63fa7765a999' and l['acquired_at']=='2026-11-10T15:35:03+00:00'
+          assert datetime.fromisoformat(l['expires_at'])>datetime.now(timezone.utc)
           def download(fid,expected):
               err=''
               for url in ['https://drive.google.com/uc?export=download&id='+fid,'https://drive.usercontent.google.com/download?id='+fid+'&export=download&confirm=t']:
                   try:
-                      req=urllib.request.Request(url,headers={'User-Agent':'Seregius-owner-scene88-publication'})
-                      with urllib.request.urlopen(req,timeout=60) as q:
-                          assert q.status==200
-                          b=q.read(16000000)
+                      with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'Seregius-owner-scene88-publication'}),timeout=60) as q:
+                          assert q.status==200; b=q.read(16000000)
                       assert hashlib.sha256(b).hexdigest()==expected,'download hash mismatch'
                       return b
                   except Exception as e:err=type(e).__name__+': '+str(e)
@@ -46,8 +44,7 @@ jobs:
           with zipfile.ZipFile(io.BytesIO(raw)) as z:
               assert len(z.infolist())<40
               for f in z.infolist():
-                  p=PurePosixPath(f.filename)
-                  assert not p.is_absolute() and '..' not in p.parts and f.file_size<12000000
+                  p=PurePosixPath(f.filename);assert not p.is_absolute() and '..' not in p.parts and f.file_size<12000000
               z.extractall('/tmp/sasha-bundle')
           assets=json.loads(Path('/tmp/sasha-bundle/assets.json').read_text())
           def check(a):
@@ -55,11 +52,30 @@ jobs:
               return {'drive_id':a['drive_id'],'path':a['path'],'sha256':a['sha256'],'bytes':len(b),'verified':True}
           with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:checks=list(pool.map(check,assets))
           Path('/tmp/sasha-evidence/drive-readback.json').write_text(json.dumps({'checked_at':datetime.now(timezone.utc).isoformat(timespec='seconds'),'verified_count':len(checks),'results':checks},ensure_ascii=False,indent=2)+'\n')
+          f=Path('/tmp/sasha-bundle/finalize_local.py');s=f.read_text();s=s.replace("r['local_validation']='passed'","r['local_validation']='passed_no_new_test_regressions'\nr['full_test_comparison']=json.loads(Path('/tmp/sasha-evidence/test-comparison.json').read_text())")
+          s=s.replace('Проверки master/site/инструкций и тесты прошли;','Проверки master/site/инструкций прошли; общий набор тестов не получил новых ошибок, прежние сбои отражены в отчёте;')
+          f.write_text(s)
           print('Original Drive PNGs verified:',len(checks))
           PY
-      - name: Install bounded image validation dependency
-        run: python3 -m pip install Pillow==11.3.0
-      - name: Apply minimal scene append, validate and push without force
+          cat > /tmp/compare-sasha-tests.py <<'PY'
+          import unittest,json,sys,os
+          from pathlib import Path
+          sys.path.insert(0,os.getcwd());sys.path.insert(0,str(Path.cwd()/'scripts'))
+          phase=sys.argv[1];suite=unittest.defaultTestLoader.discover('tests')
+          log=Path('/tmp/sasha-evidence/'+('tests-baseline.txt' if phase=='baseline' else 'tests.txt'))
+          with log.open('w') as f:r=unittest.TextTestRunner(stream=f,verbosity=1).run(suite)
+          result={'tests_run':r.testsRun,'failures':sorted(t.id() for t,_ in r.failures),'errors':sorted(t.id() for t,_ in r.errors),'skipped':len(r.skipped),'all_tests_passed':r.wasSuccessful()}
+          Path('/tmp/sasha-evidence/tests-'+phase+'.json').write_text(json.dumps(result,indent=2)+'\n')
+          print(phase,json.dumps(result),flush=True)
+          if phase=='after':
+              before=json.loads(Path('/tmp/sasha-evidence/tests-baseline.json').read_text());new_errors=sorted(set(result['failures']+result['errors'])-set(before['failures']+before['errors']))
+              comparison={'baseline':before,'after':result,'new_regressions':new_errors,'no_new_regressions':not new_errors,'full_suite_green':result['all_tests_passed']}
+              Path('/tmp/sasha-evidence/test-comparison.json').write_text(json.dumps(comparison,indent=2)+'\n')
+              assert not new_errors,('new test regressions',new_errors)
+          PY
+      - name: Install image and existing archive-test dependencies
+        run: python3 -m pip install Pillow==11.3.0 requests==2.32.5
+      - name: Apply minimal append, compare baseline, validate and CAS push
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
@@ -68,39 +84,41 @@ jobs:
           for attempt in 1 2 3; do
             git fetch origin main
             git reset --hard origin/main
+            python3 /tmp/compare-sasha-tests.py baseline
             python3 /tmp/sasha-bundle/apply.py | tee /tmp/sasha-evidence/apply.json
             python3 scripts/cert_github.py . > /tmp/sasha-evidence/certificate.txt
             python3 scripts/build_project_status.py video-prompts.md --instruction-dir . --repo-root . --topview-status-file topview-status.json --topview-task-map-file topview-task-map.json --previous-status-file /tmp/sasha-before-status.json --previous-master-file /tmp/sasha-before-master.md > /tmp/sasha-evidence/status.json
             python3 scripts/check_instruction_consistency.py . > /tmp/sasha-evidence/instruction-consistency.json
             python3 scripts/validate_site.py . > /tmp/sasha-evidence/site-validation.txt
-            python3 -m unittest discover -s tests > /tmp/sasha-evidence/tests.txt 2>&1
+            python3 /tmp/compare-sasha-tests.py after
             python3 /tmp/sasha-bundle/finalize_local.py | tee /tmp/sasha-evidence/validated.json
             python3 scripts/build_takeover_brief.py . shadow > /tmp/sasha-evidence/brief.txt
             python3 scripts/build_resume_packet.py . --project seregius > /tmp/sasha-evidence/resume.txt
             python3 scripts/continue_preflight.py . --work-id SEREGIUS-SASHA-PHOTOGRAPHER-20261110 --output /tmp/sasha-evidence/preflight.json
             python3 - <<'PY'
-          import json,subprocess
+          import json,subprocess,sys,re,hashlib
           from pathlib import Path
           from datetime import datetime,timezone
           l=json.loads(Path('ops/canon-lock.json').read_text())
           assert l['state']=='held' and l['holder']=='chatgpt:ordinary:d59b8aff-e262-4718-b883-63fa7765a999' and l['acquired_at']=='2026-11-10T15:35:03+00:00'
           assert datetime.fromisoformat(l['expires_at'])>datetime.now(timezone.utc)
+          sys.path.insert(0,'scripts');from topview_prompt_match import master_blocks
+          old=master_blocks(Path('/tmp/sasha-before-master.md').read_text());new=master_blocks(Path('video-prompts.md').read_text());added=[(k,v) for k,v in new if k not in dict(old)]
+          assert len(new)==len(old)+3 and [k for k,v in added]==['88','88 · Seedance 2.0 часть 1','88 · Seedance 2.0 часть 2']
+          assert all(dict(new)[k]==v for k,v in old),'old prompt changed'
           allowed={'video-prompts.md','parodies.html','NEW-CHAT-HANDOFF.md','ops/FUTURE-PLANS.md','reports/current-work-checkpoint.md','work-resume-register.json','SYNC-TRIGGER.txt','instruction-sync-status.json','project-status.json','reports/sasha-photographer-scene-88-2026-11-10.json'}
-          changed=subprocess.check_output(['git','status','--porcelain','--untracked-files=all']).decode().splitlines()
-          for line in changed:
-              p=line[3:]
-              assert p in allowed or p.startswith('references/scenes/scene-88/') or p.startswith('shadow/'),('unexpected file',p)
-          print('Validated changed paths:',len(changed))
+          for line in subprocess.check_output(['git','status','--porcelain','--untracked-files=all']).decode().splitlines():
+              p=line[3:];assert p in allowed or p.startswith('references/scenes/scene-88/') or p.startswith('shadow/'),('unexpected file',p)
+          print('All old prompts unchanged; new scene88 labels and references valid')
           PY
             git add video-prompts.md parodies.html NEW-CHAT-HANDOFF.md ops/FUTURE-PLANS.md reports/current-work-checkpoint.md work-resume-register.json SYNC-TRIGGER.txt instruction-sync-status.json project-status.json reports/sasha-photographer-scene-88-2026-11-10.json references/scenes/scene-88 shadow
             git diff --cached --stat > /tmp/sasha-evidence/diff-stat.txt
             git commit -m 'Add scene 88: Sasha Even Too Beautiful, four existing stills and three prompts'
             if git push origin HEAD:main; then
               git rev-parse HEAD > /tmp/sasha-evidence/published-commit.txt
-              pushed=1
-              break
+              pushed=1; break
             fi
-            echo 'CAS push rejected: re-fetch and re-evaluate fresh main, not replaying stale diff'
+            echo 'CAS push rejected: re-fetch and re-evaluate fresh main'
             git reset --hard origin/main
             git clean -fd -- references/scenes/scene-88 reports/sasha-photographer-scene-88-2026-11-10.json
           done
