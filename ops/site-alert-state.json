@@ -3,12 +3,12 @@
   "signature": [
     "canon:handoff-size:NEW-CHAT-HANDOFF.md|Хендоф 38 КБ (цель до 35 КБ): старые блоки перенести в журнал archive/handoff-log.md.",
     "canon:project-handoff-size:projects/raznoe/HANDOFF.md|Разное: хендоф 13 КБ (цель до 12 КБ): контрольные точки — в projects/raznoe/reports/current-work-checkpoint.md, история — в projects/raznoe/archive/handoff-log.md.",
-    "canon:service-file-size:work-resume-register.json|work-resume-register.json: 107 КБ (предел 100 КБ): старые записи перенести в архив — python3 scripts/trim_service_files.py . --write (раздел хендофа «Как чистить», п. 8)."
+    "canon:service-file-size:work-resume-register.json|work-resume-register.json: 108 КБ (предел 100 КБ): старые записи перенести в архив — python3 scripts/trim_service_files.py . --write (раздел хендофа «Как чистить», п. 8)."
   ],
   "relay": {
     "status": "sent",
-    "detail": "message_id=245958323768332288",
-    "at": "2026-11-10T17:10:36Z"
+    "detail": "message_id=246004950372122624",
+    "at": "2026-11-10T20:15:47Z"
   },
   "rules": "scripts/site_alerts.py; dedup is this signature. Info notes are not included. No Grok polling routine."
 }
