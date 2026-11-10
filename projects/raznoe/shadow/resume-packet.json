@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-10T10:33:40+00:00",
-  "source_head": "476e3af4bde27a11e0756c0b5c313a09f0c6a661",
-  "source_fingerprint": "dd0efedc784881b58c7795c2bbc88a405e99528e1d6162941748d9305c5956e4",
+  "checked_at": "2026-11-10T10:43:34+00:00",
+  "source_head": "df6f5262ba0348bd5db8e1430375b48f5e4dce13",
+  "source_fingerprint": "826ba7b3dc35b6bb33c75e3a4b99e580d390d0067c4913ab71848f3d22447e22",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -226,7 +226,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "b7a95cea7ff55cc4c161379830131e4225f7ac505774cddd7c88e912a9f9591c",
+      "sha256": "332d1f227820e5366b4a763e7259c0a809b3877bd0e7ce92d968f85ec1c20e6d",
       "bytes": 28652
     },
     {
@@ -291,13 +291,13 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "598688b73f0ab8e992cb1bcbe33c9fd0984c2c150a284cd56adbbfb7b46ea3a9",
+      "sha256": "dac00b12ac1a5a34639f2394dcf95ae9869939e21c3a7dd3f0f83076b6acad86",
       "bytes": 31393
     },
     {
       "file": "video-prompts.md",
-      "sha256": "5acc97fdd7dc29e265ee85d92720398dc7e68e5a3e891362ab2bd7fe4d84fbd9",
-      "bytes": 1752685
+      "sha256": "e694de1b87e08f1ec51b06ba48689727140e7d6e7ae15e5d12e73cf163fceed8",
+      "bytes": 1752918
     }
   ],
   "packet_bytes": 6088
