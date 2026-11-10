@@ -142,18 +142,42 @@
   "publication": "t506u 2026-11-10; stills and prompts published, video not launched",
   "clips": [
     {
-      "id": "76",
-      "heading": "76 · Мем-театр: кандибобер → «Нормально» → язь",
+      "id": "76A",
+      "heading": "76A · Кандибобер — только интервью — черновик (DRAFT)",
       "stills": [
-        "references/scenes/scene-76/S76-kandibober.png",
-        "references/scenes/scene-76/S76-normalno-ice.png",
+        "references/scenes/scene-76/S76A-kandibober-only.jpg",
+        "references/scenes/scene-76/S76-kandibober.png"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/vitalik.jpg",
+        "@Image2": "references/scenes/scene-76/S76A-kandibober-only.jpg",
+        "@Image3": "references/scenes/scene-76/S76-kandibober.png"
+      }
+    },
+    {
+      "id": "76B",
+      "heading": "76B · «Нормально» — только лёд — черновик (DRAFT)",
+      "stills": [
+        "references/scenes/scene-76/S76B-normalno-only.jpg",
+        "references/scenes/scene-76/S76-normalno-ice.png"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/vitalik.jpg",
+        "@Image2": "references/scenes/scene-76/S76B-normalno-only.jpg",
+        "@Image3": "references/scenes/scene-76/S76-normalno-ice.png"
+      }
+    },
+    {
+      "id": "76C",
+      "heading": "76C · Язь — только лодка — черновик (DRAFT)",
+      "stills": [
+        "references/scenes/scene-76/S76C-yaz-only.jpg",
         "references/scenes/scene-76/S76-yaz-fish.png"
       ],
       "prompt_reference_mapping": {
         "@Image1": "references/full/vitalik.jpg",
-        "@Image2": "references/scenes/scene-76/S76-kandibober.png",
-        "@Image3": "references/scenes/scene-76/S76-normalno-ice.png",
-        "@Image4": "references/scenes/scene-76/S76-yaz-fish.png"
+        "@Image2": "references/scenes/scene-76/S76C-yaz-only.jpg",
+        "@Image3": "references/scenes/scene-76/S76-yaz-fish.png"
       }
     }
   ],

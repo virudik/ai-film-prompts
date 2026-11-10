@@ -110,15 +110,18 @@
   "publication": "t506u 2026-11-10; stills and prompts published, video not launched",
   "clips": [
     {
-      "id": "81",
-      "heading": "81 · «Давай поженимся»: Алексей ищет невесту — черновик (DRAFT)",
+      "id": "81A",
+      "heading": "81A · Знакомство — сеем пальто — черновик (DRAFT)",
       "stills": [
         "references/scenes/scene-81/S81-swap-artem.jpg"
       ],
       "prompt_reference_mapping": {
         "@Image1": "references/full/lesha.jpg",
         "@Image2": "references/full/artem.jpg",
-        "@Image3": "references/scenes/scene-81/S81-swap-artem.jpg"
+        "@Image3": "references/scenes/scene-81/S81-swap-artem.jpg",
+        "@Image4": "references/full/hostess-guzeeva.jpg",
+        "@Image5": "references/full/hostess-syabitova.jpg",
+        "@Image6": "references/full/hostess-syabitova-34.jpg"
       }
     }
   ],

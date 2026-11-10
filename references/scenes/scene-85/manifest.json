@@ -119,15 +119,45 @@
   "publication": "t506u 2026-11-10; stills and prompts published, video not launched",
   "clips": [
     {
-      "id": "85",
-      "heading": "85 · Срочные новости: Саша и Маша Ф — черновик (DRAFT)",
+      "id": "85A",
+      "heading": "85A · Плановое отключение гравитации — черновик (DRAFT)",
       "stills": [
-        "references/scenes/scene-85/S85-swap-sasha-masha-f.jpg"
+        "references/scenes/scene-85/S85-swap-sasha-masha-f.jpg",
+        "references/scenes/scene-85/S85A-gravity-announce.jpg"
       ],
       "prompt_reference_mapping": {
         "@Image1": "references/full/sasha.jpg",
         "@Image2": "references/full/masha-f.jpg",
-        "@Image3": "references/scenes/scene-85/S85-swap-sasha-masha-f.jpg"
+        "@Image3": "references/scenes/scene-85/S85-swap-sasha-masha-f.jpg",
+        "@Image4": "references/scenes/scene-85/S85A-gravity-announce.jpg"
+      }
+    },
+    {
+      "id": "85B",
+      "heading": "85B · Куда привязывать тапочки — черновик (DRAFT)",
+      "stills": [
+        "references/scenes/scene-85/S85-swap-sasha-masha-f.jpg",
+        "references/scenes/scene-85/S85B-slippers-question.jpg"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/sasha.jpg",
+        "@Image2": "references/full/masha-f.jpg",
+        "@Image3": "references/scenes/scene-85/S85-swap-sasha-masha-f.jpg",
+        "@Image4": "references/scenes/scene-85/S85B-slippers-question.jpg"
+      }
+    },
+    {
+      "id": "85C",
+      "heading": "85C · Пончик на схеме — это крючок — черновик (DRAFT)",
+      "stills": [
+        "references/scenes/scene-85/S85-swap-sasha-masha-f.jpg",
+        "references/scenes/scene-85/S85C-hook-diagram.jpg"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/sasha.jpg",
+        "@Image2": "references/full/masha-f.jpg",
+        "@Image3": "references/scenes/scene-85/S85-swap-sasha-masha-f.jpg",
+        "@Image4": "references/scenes/scene-85/S85C-hook-diagram.jpg"
       }
     }
   ],

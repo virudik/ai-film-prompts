@@ -104,14 +104,42 @@
   "publication": "t506u 2026-11-10; stills and prompts published, video not launched",
   "clips": [
     {
-      "id": "84",
-      "heading": "84 · Илюша: «Тачку на прокачку» — защитная плёнка — черновик (DRAFT)",
+      "id": "84A",
+      "heading": "84A · Пафос ведущего у голой панели — черновик (DRAFT)",
       "stills": [
         "references/scenes/scene-84/S84-composite-ilyusha.jpg"
       ],
       "prompt_reference_mapping": {
         "@Image1": "references/full/ilyusha.jpg",
         "@Image2": "references/scenes/scene-84/S84-composite-ilyusha.jpg"
+      }
+    },
+    {
+      "id": "84B",
+      "heading": "84B · Плёнка и проход ракелем — черновик (DRAFT)",
+      "stills": [
+        "references/scenes/scene-84/S84-composite-ilyusha.jpg",
+        "references/scenes/scene-84/S84B-prepared-panel.jpg",
+        "references/scenes/scene-84/S84B-squeegee-pass.jpg"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/ilyusha.jpg",
+        "@Image2": "references/scenes/scene-84/S84-composite-ilyusha.jpg",
+        "@Image3": "references/scenes/scene-84/S84B-prepared-panel.jpg",
+        "@Image4": "references/scenes/scene-84/S84B-squeegee-pass.jpg"
+      }
+    },
+    {
+      "id": "84C",
+      "heading": "84C · Аккуратный результат — черновик (DRAFT)",
+      "stills": [
+        "references/scenes/scene-84/S84-composite-ilyusha.jpg",
+        "references/scenes/scene-84/S84C-neat-result.jpg"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/ilyusha.jpg",
+        "@Image2": "references/scenes/scene-84/S84-composite-ilyusha.jpg",
+        "@Image3": "references/scenes/scene-84/S84C-neat-result.jpg"
       }
     }
   ],

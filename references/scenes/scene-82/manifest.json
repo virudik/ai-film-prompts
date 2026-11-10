@@ -92,14 +92,17 @@
   "publication": "t506u 2026-11-10; stills and prompts published, video not launched",
   "clips": [
     {
-      "id": "82",
-      "heading": "82 · Комната жениха: звёздные друзья Алексея — черновик (DRAFT)",
+      "id": "82A",
+      "heading": "82A · Звёзды хвалят хозяйственность — черновик (DRAFT)",
       "stills": [
         "references/scenes/scene-82/groom-lounge-preview.png"
       ],
       "prompt_reference_mapping": {
         "@Image1": "references/full/lesha.jpg",
-        "@Image2": "references/scenes/scene-82/groom-lounge-preview.png"
+        "@Image2": "references/scenes/scene-82/groom-lounge-preview.png",
+        "@Image3": "references/full/star-gosling.jpg",
+        "@Image4": "references/full/star-dicaprio.jpg",
+        "@Image5": "references/full/star-pitt.jpg"
       }
     }
   ],

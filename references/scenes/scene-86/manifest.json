@@ -119,15 +119,45 @@
   "publication": "t506u 2026-11-10; stills and prompts published, video not launched",
   "clips": [
     {
-      "id": "86",
-      "heading": "86 · «Эх, распаковочка»: Саша и Маша Ф поют — черновик (DRAFT)",
+      "id": "86A",
+      "heading": "86A · Торжественное открытие — черновик (DRAFT)",
       "stills": [
-        "references/scenes/scene-86/S86-swap-sasha-masha-f.jpg"
+        "references/scenes/scene-86/S86-swap-sasha-masha-f.jpg",
+        "references/scenes/scene-86/S86A-solemn-open.jpg"
       ],
       "prompt_reference_mapping": {
         "@Image1": "references/full/sasha.jpg",
         "@Image2": "references/full/masha-f.jpg",
-        "@Image3": "references/scenes/scene-86/S86-swap-sasha-masha-f.jpg"
+        "@Image3": "references/scenes/scene-86/S86-swap-sasha-masha-f.jpg",
+        "@Image4": "references/scenes/scene-86/S86A-solemn-open.jpg"
+      }
+    },
+    {
+      "id": "86B",
+      "heading": "86B · Ничтожное содержимое — черновик (DRAFT)",
+      "stills": [
+        "references/scenes/scene-86/S86-swap-sasha-masha-f.jpg",
+        "references/scenes/scene-86/S86B-worthless-contents.jpg"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/sasha.jpg",
+        "@Image2": "references/full/masha-f.jpg",
+        "@Image3": "references/scenes/scene-86/S86-swap-sasha-masha-f.jpg",
+        "@Image4": "references/scenes/scene-86/S86B-worthless-contents.jpg"
+      }
+    },
+    {
+      "id": "86C",
+      "heading": "86C · Ещё больший восторг — черновик (DRAFT)",
+      "stills": [
+        "references/scenes/scene-86/S86-swap-sasha-masha-f.jpg",
+        "references/scenes/scene-86/S86C-delighted-reaction.jpg"
+      ],
+      "prompt_reference_mapping": {
+        "@Image1": "references/full/sasha.jpg",
+        "@Image2": "references/full/masha-f.jpg",
+        "@Image3": "references/scenes/scene-86/S86-swap-sasha-masha-f.jpg",
+        "@Image4": "references/scenes/scene-86/S86C-delighted-reaction.jpg"
       }
     }
   ],
