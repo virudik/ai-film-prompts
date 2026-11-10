@@ -2,48 +2,34 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "72a48556-0b90-4e44-beaf-ea4ec310f928",
-  "runtime_run_id": "b16011c3-c944-8332-a59d-18a0a90767bb",
+  "execution_instance_id": "d322dc1f-f6c5-4950-baaf-4123928d5e7d",
+  "runtime_run_id": "29e1e468-381c-8320-bd57-c9a6a95a8294",
   "runtime_run_id_unavailable_reason": null,
-  "source_head_initial": "e04af28986fc63a100a70805ea501892cd0c3172",
-  "source_head": "2a6b858c924282bd2d27350e28f3f4a4d26e9ec1",
+  "source_head_initial": "2c651a72bad3708cc5180f195b15933b34976601",
+  "source_head": "7eef26d947fb4ab4466fbfcb8b8f8d78c4606457",
   "route_generation": 3,
-  "started_at": "2026-11-10T00:45:07.996929Z",
-  "lease_acquired_at": "2026-11-10T00:51:21.353Z",
-  "phase": "finished",
-  "status": "completed",
+  "started_at": "2026-11-10T02:10:56.191038Z",
+  "lease_acquired_at": "2026-11-10T02:16:15.821Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan": {
-    "complete": true,
-    "scope": "all 14 Topview boards, 19 video pages, account-wide read-only Topview connector scan",
-    "boards": 14,
-    "pages": 19,
-    "video_tasks": 668,
-    "status_counts": {
-      "success": 637,
-      "fail": 26,
-      "init": 5
-    },
-    "active_task_ids": [
-      "be627af0e9664db5b6ac2b62c34080a6",
-      "8bdd6439dad94592979aba23c137b4a0",
-      "0a495e5f77a041e6bcc8d67fb68230b3",
-      "6fa3cdac62e348759d2a3607093414ea",
-      "2473c9b5bcf645fd85ab308306c53aaa"
-    ],
-    "checked_at": "2026-11-10T00:54:15.994Z",
-    "checked_at_note": "Topview 14-board scan and independent 501-task My First Board reconciliation; no Create"
+    "complete": false,
+    "scope": "pending fresh Topview scan",
+    "boards": null,
+    "pages": null,
+    "video_tasks": null,
+    "checked_at": null
   },
   "slots": {
     "physical_capacity": 6,
-    "occupied": 5,
-    "free": 1,
-    "scan_complete": true,
-    "verified_at": "2026-11-10T00:54:15.994Z"
+    "occupied": null,
+    "free": null,
+    "scan_complete": false
   },
-  "selected_item": "S65-WAN30",
+  "selected_item": null,
   "task_ids": [],
   "new_submissions": [],
-  "browser_transport": "not_used_unchanged_tinyfish_native_image_upload_and_unlimited0_blocker",
+  "browser_transport": "not_started",
   "tinyfish": {
     "runs": [],
     "steps": 0,
@@ -52,42 +38,26 @@
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:72a48556-0b90-4e44-beaf-ea4ec310f928",
-    "acquired_at": "2026-11-10T00:51:21.353Z",
-    "expires_at": "2026-11-10T01:03:21.353Z",
-    "lease_commit": "5f222ca1605dcd2474ce08b5fce3125e003ad0d9",
-    "final_action": "released_atomically_with_receipt"
+    "holder": "chatgpt:ordinary:d322dc1f-f6c5-4950-baaf-4123928d5e7d",
+    "acquired_at": "2026-11-10T02:16:15.821Z",
+    "expires_at": "2026-11-10T02:36:15.821Z",
+    "lease_commit": "7eef26d947fb4ab4466fbfcb8b8f8d78c4606457",
+    "final_action": "held"
   },
-  "outcome": "ready_s65_blocked_browser_input_no_create",
   "previous_cycle": {
-    "execution_instance_id": "4f46c98d-f95e-4e74-a93e-1663ac581d82",
-    "completed_at": "2026-11-10T00:33:03.831Z",
+    "execution_instance_id": "72a48556-0b90-4e44-beaf-ea4ec310f928",
+    "completed_at": "2026-11-10T00:55:52.148Z",
     "outcome": "ready_s65_blocked_browser_input_no_create"
   },
-  "updated_at": "2026-11-10T00:55:52.148Z",
+  "outcome": "in_progress",
+  "blocker": null,
+  "retryable": null,
   "acceptance": {
     "scheduled_run_executed": true,
     "scheduled_run_id_observed": true,
-    "topview_read_only_scan_complete": true,
-    "all_40_current_queue_task_ids_verified": true,
-    "queue_sha_verified": true,
-    "task_map_sha_verified": true,
-    "queue_sha256": "bf9e095189cf30e935ddd460f03510cf4f9b405bd45e14efef2ed39940b230cc",
-    "task_map_sha256": "6797ab2883a2531bf7a0237791254bad0c435bc54f3b4cdd1d360f6ad163a01d",
-    "s65_ready_and_source_qc_confirmed_from_canonical_readiness": true,
-    "tinyfish_authenticated_ui_this_run": false,
-    "tinyfish_file_transfer_this_run": false,
-    "tinyfish_unlimited_zero_this_run": false,
+    "topview_read_only_scan_complete": false,
     "production_submission_by_this_executor_verified": false,
     "new_task_id_verified": false
   },
-  "blocker": {
-    "category": "blocked_browser_input",
-    "item_id": "S65-WAN30",
-    "reason": "Five original inputs for S65 are canonically ready (including QC-pass S70-final-frame.png); one physical video slot is free. The TinyFish saved browser profile still has no verified native UI upload/import of all five exact images or confirmed selected Unlimited0/16:9 on My First Board; last paid UI inspection (2026-11-06) found Agent Bot/Assets but no proven omni-reference composer. The same unchanged blocker does not justify another metered browser run. Current Work GUI and quota are not freshly confirmed. No claim/intent/Create.",
-    "retry_condition": "Only after new evidence of native exact original-image upload/import and visibly chosen Unlimited0, or a fresh authenticated Work GUI and quota proof; fresh scan/lease/preflight/claim/intent before exactly one Create."
-  },
-  "retryable": false,
-  "completed_at": "2026-11-10T00:55:52.148Z",
-  "checked_at": "2026-11-10T00:54:15.994Z"
+  "updated_at": "2026-11-10T02:17:31.451Z"
 }
