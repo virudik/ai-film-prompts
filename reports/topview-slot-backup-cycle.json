@@ -11,25 +11,48 @@
   "preferred_executor_observed": "work",
   "started_at": "2026-11-10T18:02:03.224827Z",
   "lease_acquired_at": "2026-11-10T18:05:36.655Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
-    "complete": false,
-    "scope": null,
-    "boards": null,
-    "pages": null,
-    "video_tasks": null,
-    "checked_at": null
+    "complete": true,
+    "scope": "Topview connector read-only full all-board/all-page video scan",
+    "boards": 14,
+    "pages": 19,
+    "video_tasks": 672,
+    "status_counts": {
+      "success": 639,
+      "fail": 27,
+      "init": 6
+    },
+    "checked_at": "2026-11-10T18:13:12.126Z",
+    "checked_at_is_upper_bound": true,
+    "main_board_pages": 6,
+    "main_board_tasks": 505
   },
   "slots": {
-    "occupied": null,
-    "free": null,
-    "physical_cap": 6
+    "occupied": 6,
+    "free": 0,
+    "physical_cap": 6,
+    "active_task_ids": [
+      "1dcb6fa0628d41b098227ca6c96f1630",
+      "a1330998d39b486e864ed4e22b4fe8c4",
+      "3a09108c8c474a0989118806b4a69f91",
+      "be627af0e9664db5b6ac2b62c34080a6",
+      "8bdd6439dad94592979aba23c137b4a0",
+      "0a495e5f77a041e6bcc8d67fb68230b3"
+    ]
   },
-  "task_ids": [],
+  "task_ids": [
+    "1dcb6fa0628d41b098227ca6c96f1630",
+    "a1330998d39b486e864ed4e22b4fe8c4",
+    "3a09108c8c474a0989118806b4a69f91",
+    "be627af0e9664db5b6ac2b62c34080a6",
+    "8bdd6439dad94592979aba23c137b4a0",
+    "0a495e5f77a041e6bcc8d67fb68230b3"
+  ],
   "selected_item": null,
   "new_submissions": 0,
-  "browser_transport": "not_used",
+  "browser_transport": "not_used_no_free_slot",
   "tinyfish": {
     "runs": [],
     "steps": 0,
@@ -40,26 +63,55 @@
   "lease": {
     "holder": "chatgpt:ordinary:3d7ea31d-eba2-4fe4-8e31-e80a6403d24b",
     "acquired_at": "2026-11-10T18:05:36.655Z",
-    "expires_at": "2026-11-10T18:32:36.655Z"
+    "expires_at": null,
+    "released_at": "2026-11-10T18:13:12.126Z",
+    "release_status": "released_atomically_with_receipt"
   },
-  "outcome": "started",
-  "blocker": null,
+  "outcome": "no_free_slot",
+  "blocker": "no_free_global_slot; six actual init video tasks on My First Board",
   "retryable": true,
   "acceptance": {
     "scheduled_runtime": true,
     "tinyfish_ui_control": false,
     "tinyfish_file_upload": false,
     "unlimited0_preflight": false,
-    "new_task_verified": false
+    "new_task_verified": false,
+    "full_scan": true,
+    "queue_sha_matched": true,
+    "task_map_sha_matched": true
   },
-  "updated_at": "2026-11-10T18:06:24.580Z",
+  "updated_at": "2026-11-10T18:13:12.126Z",
   "queue_reconciliation": {
-    "status": "pending"
+    "registered_items": 41,
+    "registered_task_ids_found": 41,
+    "missing_registered_task_ids": [],
+    "unresolved_claimed_submitting_unknown": 0,
+    "unmapped_active_task_ids": [
+      "1dcb6fa0628d41b098227ca6c96f1630",
+      "a1330998d39b486e864ed4e22b4fe8c4",
+      "3a09108c8c474a0989118806b4a69f91",
+      "be627af0e9664db5b6ac2b62c34080a6",
+      "8bdd6439dad94592979aba23c137b4a0",
+      "0a495e5f77a041e6bcc8d67fb68230b3"
+    ],
+    "source_queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+    "source_task_map_sha256": "ca475300698d11eafaa21a0eb924049db5d85d3dbf39d96cc8607c0e7cb1319c",
+    "readiness_checked_at": "2026-11-10T18:00:35.295143Z",
+    "active_repeat_forbidden": true
   },
   "monitoring": {
-    "status": "pending"
+    "automation_enabled": true,
+    "run_id": "83789e90-3acc-8332-817d-a9feb12b44c5",
+    "work_hh55_last_run": "d073a702-0008-8328-b5a5-8b64392165f6",
+    "relay_last_run": "b66315ea-2e2c-832c-9916-79829af2166b",
+    "robot_launcher_health_checked_at": "2026-11-10T17:51:51Z",
+    "wake_latest_is_capacity_proof": false,
+    "owner_tasks_open": 1,
+    "owner_tasks_taken": 0,
+    "owner_task_telemetry_not_closed": true
   },
-  "checked_at": "2026-11-10T18:06:24.580Z",
-  "completed_at": null,
-  "source_head_receipt_precommit": "5547402236fa6e671a61c562527be586aa7d669b"
+  "checked_at": "2026-11-10T18:13:12.126Z",
+  "completed_at": "2026-11-10T18:13:12.126Z",
+  "source_head_receipt_precommit": "e7c45c7252692f33d8cb5cbfa848d1ba811ccd66",
+  "note": "No Create or paid browser run because all six physical slots occupied. No ownership or queue mutations. Recheck on next existing scheduled execution."
 }
