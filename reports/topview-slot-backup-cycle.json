@@ -11,26 +11,48 @@
   "preferred_executor_observed": "work",
   "started_at": "2026-11-10T20:58:51.602291Z",
   "lease_acquired_at": "2026-11-10T21:04:39.265Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
-    "complete": false,
-    "scope": "Topview connector read-only all board/pages",
-    "boards": null,
-    "pages": null,
-    "video_tasks": null,
-    "checked_at": null
+    "complete": true,
+    "scope": "Topview connector read-only 14 boards, 19 pages, all video tasks",
+    "boards": 14,
+    "pages": 19,
+    "video_tasks": 672,
+    "status_counts": {
+      "success": 639,
+      "fail": 27,
+      "init": 6
+    },
+    "checked_at": "2026-11-10T21:10:18.449Z",
+    "checked_at_is_upper_bound": true,
+    "main_board_pages": 6,
+    "main_board_tasks": 505
   },
   "slots": {
-    "occupied": null,
-    "free": null,
+    "occupied": 6,
+    "free": 0,
     "physical_cap": 6,
-    "active_task_ids": []
+    "active_task_ids": [
+      "1dcb6fa0628d41b098227ca6c96f1630",
+      "a1330998d39b486e864ed4e22b4fe8c4",
+      "3a09108c8c474a0989118806b4a69f91",
+      "be627af0e9664db5b6ac2b62c34080a6",
+      "8bdd6439dad94592979aba23c137b4a0",
+      "0a495e5f77a041e6bcc8d67fb68230b3"
+    ]
   },
-  "task_ids": [],
+  "task_ids": [
+    "1dcb6fa0628d41b098227ca6c96f1630",
+    "a1330998d39b486e864ed4e22b4fe8c4",
+    "3a09108c8c474a0989118806b4a69f91",
+    "be627af0e9664db5b6ac2b62c34080a6",
+    "8bdd6439dad94592979aba23c137b4a0",
+    "0a495e5f77a041e6bcc8d67fb68230b3"
+  ],
   "selected_item": null,
   "new_submissions": 0,
-  "browser_transport": "not_used",
+  "browser_transport": "not_used_no_free_slot",
   "tinyfish": {
     "runs": [],
     "steps": 0,
@@ -41,12 +63,12 @@
   "lease": {
     "holder": "chatgpt:ordinary:802a2d0a-e21e-4fb4-b9d9-05ecf18bfa6b",
     "acquired_at": "2026-11-10T21:04:39.265Z",
-    "expires_at": "2026-11-10T21:24:39.265Z",
-    "released_at": null,
-    "release_status": "held"
+    "expires_at": null,
+    "released_at": "2026-11-10T21:10:18.449Z",
+    "release_status": "released_atomically_with_receipt"
   },
-  "outcome": "started",
-  "blocker": null,
+  "outcome": "no_free_slot",
+  "blocker": "no_free_global_slot; six actual init video tasks on My First Board; ambiguous S49B/music cannot be resubmitted",
   "retryable": true,
   "acceptance": {
     "scheduled_runtime": true,
@@ -54,9 +76,25 @@
     "tinyfish_file_upload": false,
     "unlimited0_preflight": false,
     "new_task_verified": false,
-    "full_scan": false,
-    "queue_sha_matched": false,
-    "task_map_sha_matched": false
+    "full_scan": true,
+    "queue_sha_matched": true,
+    "task_map_sha_matched": true
   },
-  "updated_at": "2026-11-10T21:05:30.053Z"
+  "updated_at": "2026-11-10T21:10:18.449Z",
+  "queue_reconciliation": {
+    "registered_items": 41,
+    "registered_task_ids_found": 41,
+    "missing_registered_task_ids": [],
+    "unresolved_claimed_submitting_unknown": 0,
+    "unmapped_active_task_ids": [
+      "1dcb6fa0628d41b098227ca6c96f1630",
+      "a1330998d39b486e864ed4e22b4fe8c4",
+      "3a09108c8c474a0989118806b4a69f91",
+      "be627af0e9664db5b6ac2b62c34080a6",
+      "8bdd6439dad94592979aba23c137b4a0",
+      "0a495e5f77a041e6bcc8d67fb68230b3"
+    ],
+    "source_queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+    "source_task_map_sha256": "63601bda34a4a9c14041d06f9f6eff7ea83aa0f2f1e3517145cc71a62946871f"
+  }
 }
