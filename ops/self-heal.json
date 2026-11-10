@@ -1,15 +1,17 @@
 {
   "schema_version": 1,
   "rules": "ops/SELF-HEAL.md",
-  "status": "ok",
-  "problems": {},
+  "status": "fixing",
+  "problems": {
+    "run-failed-canon-health": {
+      "text": "Последний запуск «здоровье канона» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/42750767527",
+      "since": "2026-11-10T03:49:43Z",
+      "fixes": 1,
+      "last_fix_at": "2026-11-10T03:49:43Z",
+      "escalated_at": null
+    }
+  },
   "log": [
-    {
-      "at": "2026-11-06T13:49:38Z",
-      "kind": "fixed",
-      "key": "pages-lag",
-      "text": "Нашёл: Сайт показывает статус от 2026-11-06T12:50:27Z, а в main уже 2026-11-06T13:40:31Z (отставание 50 мин). Сделал: пересобрал сайт на GitHub Pages."
-    },
     {
       "at": "2026-11-06T14:20:03Z",
       "kind": "resolved",
@@ -123,7 +125,13 @@
       "kind": "resolved",
       "key": "telemetry-stale",
       "text": "Прошло: Робот сканирует, но статус Topview на сайте не обновлялся 705 мин. Последнее решение робота: «hold — unmapped_active:6fa3cdac». Обычно это пауза робота (hold): задача без сцены, неполный скан или сбой проверки публикации."
+    },
+    {
+      "at": "2026-11-10T03:49:43Z",
+      "kind": "fixed",
+      "key": "run-failed-canon-health",
+      "text": "Нашёл: Последний запуск «здоровье канона» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/42750767527 Сделал: повторил упавший запуск «здоровье канона»."
     }
   ],
-  "changed_at": "2026-11-10T03:39:08Z"
+  "changed_at": "2026-11-10T03:49:43Z"
 }
