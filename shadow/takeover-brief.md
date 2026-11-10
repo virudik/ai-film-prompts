@@ -2,7 +2,7 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-11-10T03:20:57+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-11-10T03:39:05+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -16,7 +16,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 - USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 84845 B · `b5cf8309fba1355f`
 - README-AI-SYNC.md · копия на Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 18840 B · `e8d83475b63a94ee`
 - BACKUP-AI-RUNBOOK.md · копия на Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 21763 B · `6b0a0ba95d23937c`
-- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1516825 B · `a587833b74138438`
+- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1752685 B · `5acc97fdd7dc29e2`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story. → `NEW-CHAT-HANDOFF.md` ✓
@@ -36,7 +36,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 - **INV-DONE** — Never say «готово» before the relevant read-back/verification passed. → `SYNC-RUNBOOK.md` ✓
 
 ## Runtime
-- health ok; сцен 37 ([13, 16, 28, 33, 36, 41, 42, 48, 49, 50, 51, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80]); промтов 168; последний ID 80; зарезервированы [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 43, 44, 45, 46, 47, 53, 54, 55]
+- health ok; сцен 44 ([13, 16, 28, 33, 36, 41, 42, 48, 49, 50, 51, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87]); промтов 216; последний ID 87; зарезервированы [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 43, 44, 45, 46, 47, 53, 54, 55]
 - Слоты, slow, ETA, монитор — только из живых project-status.json, topview-status.json, instruction-sync-status.json, automation-monitor-status.json. Slots, slow, ETA and monitor state: read the live JSON. checked_at older than 2 h, missing or in the future = unverified.
 
 ## Индекс сцен
@@ -72,13 +72,20 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 71 | Виталик на троне из кальянов: «Вот такая вот история получил | Wan 3 | DRAFT/SLOW_PENDING | 4 | @Image1 @Image2 @Image3 @Image4 | [] | 998cc6c3fafe |
 | 72 | Виталик на троне из кальянов: «Всем привет» — пролог | Wan 3 | DRAFT/SLOW_PENDING | 4 | @Image1 @Image2 @Image3 @Image4 | [] | 5a9a477848a6 |
 | 73 | Виталик на троне: «Думаете это уже конец?» — перед титрами | Wan 3.0 | DRAFT/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 | [] | 44a3e069731c |
-| 74 | Виталик представляет: парад киностудий | Wan 3.0 | DRAFT/IDLE | 3 | @Image1 @Image2 | [] | 2190bc8e7ecc |
-| 75 | Лунная студия: Виталик и река | Wan 3.0 | DRAFT/IDLE | 3 | @Image1 @Image2 | [] | c98697ece6a7 |
-| 76 | Мем-театр: кандибобер, нормально, язь | Wan 3.0 | DRAFT/IDLE | 3 | @Image1 @Image2 | [] | 15250ba999ed |
-| 77 | «Она отказала мне»: мелодрама у космического забора | Wan 3.0 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [] | b292f4cc0da0 |
-| 78 | Майонез: салат больше не нужен | Wan 3.0 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [] | 81563b652aa0 |
-| 79 | Lay’s: хруст слышно во всей галактике | Wan 3.0 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [] | c6ecc2096f75 |
-| 80 | Люкс из кладовки: лапша, тапки и пакет с пакетами | Wan 3.0 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [] | e233b30c18cf |
+| 74 | Виталик представляет: парад киностудий | Wan 3.0 | DRAFT/IDLE | 24 | @Image1 @Image2 | [] | 3f3130b0043b |
+| 75 | Лунная студия: Виталик рыбачит на месяце | Wan 3.0 | DRAFT/IDLE | 3 | @Image1 @Image2 | [] | cef090904bf5 |
+| 76 | Мем-театр: кандибобер, нормально, язь | Wan 3.0 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [] | 6990995781af |
+| 77 | «Она отказала мне»: мелодрама у космического забора | Wan 3.0 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [] | 7a39ca78b911 |
+| 78 | Майонез: салат больше не нужен | Wan 3.0 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 | [] | 31de319bf584 |
+| 79 | Чипсы: хруст слышно во всей галактике | Wan 3.0 | DRAFT/IDLE | 6 | @Image1 @Image2 @Image3 @Image4 | [] | d44e7edb985b |
+| 80 | Люкс из кладовки | Wan 3.0 | DRAFT/IDLE | 6 | @Image1 @Image2 @Image3 @Image4 | [] | 95546b2e1554 |
+| 81 | «Давай поженимся»: Алексей ищет невесту | Wan 3.0 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 | [] | 42873125292a |
+| 82 | Комната жениха: звёздные друзья Алексея | Wan 3.0 | DRAFT/IDLE | 3 | @Image1 @Image2 | [] | 875588851f33 |
+| 83 | Невеста выбирает Артёма | Wan 3.0 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 | [] | 2c1852103fff |
+| 84 | Илюша: тачку на прокачку, защитная плёнка | Wan 3.0 | DRAFT/IDLE | 3 | @Image1 @Image2 | [] | 691f0c8ca071 |
+| 85 | Срочные новости: Саша и Маша Ф | Wan 3.0 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 | [] | 46c412a59af1 |
+| 86 | Саша и Маша Ф: «Эх, распаковочка» | Wan 3.0 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 | [] | 883ee85b7c85 |
+| 87 | Реклама: Саша, лучший фотограф | Wan 3.0 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [] | b8472502a08a |
 
 ## Что читать под задачу (сверх брифа)
 - **takeover** — документы: —; master: index_only (D7 (owner 14.10.2026): short takeover = this read set; open full sections per task; any fallback trigger → full 7+master+status read.)

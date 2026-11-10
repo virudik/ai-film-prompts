@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-11-10T03:20:57+00:00",
+ "generated_at": "2026-11-10T03:39:05+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "a587833b74138438cd40192e280a288483c77dfd4b86e852f55afb86f0552ec5",
-   "bytes": 1516825
+   "sha256": "5acc97fdd7dc29e265ee85d92720398dc7e68e5a3e891362ab2bd7fe4d84fbd9",
+   "bytes": 1752685
   }
  ],
  "invariants": [
@@ -189,8 +189,8 @@
  },
  "runtime": {
   "project_health": "ok",
-  "scenes": 37,
-  "prompt_texts": 168,
+  "scenes": 44,
+  "prompt_texts": 216,
   "scene_ids": [
    13,
    16,
@@ -228,9 +228,16 @@
    77,
    78,
    79,
-   80
+   80,
+   81,
+   82,
+   83,
+   84,
+   85,
+   86,
+   87
   ],
-  "latest_scene": 80,
+  "latest_scene": 87,
   "reserved": [
    1,
    2,
@@ -302,7 +309,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 51994,
+   "offset": 51672,
    "chars": 26337,
    "sha256_12": "53146e9d1886"
   },
@@ -324,7 +331,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 78331,
+   "offset": 78009,
    "chars": 28537,
    "sha256_12": "1cb49f8adfc7"
   },
@@ -345,7 +352,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 106868,
+   "offset": 106546,
    "chars": 178751,
    "sha256_12": "4e9c4089194a"
   },
@@ -363,7 +370,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 285619,
+   "offset": 285297,
    "chars": 16356,
    "sha256_12": "9ed4ad5f905c"
   },
@@ -385,7 +392,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 301975,
+   "offset": 301653,
    "chars": 23987,
    "sha256_12": "ee119b556282"
   },
@@ -407,7 +414,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 325962,
+   "offset": 325640,
    "chars": 32497,
    "sha256_12": "809d46f72e41"
   },
@@ -431,7 +438,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 358459,
+   "offset": 358137,
    "chars": 28767,
    "sha256_12": "c95650c748d9"
   },
@@ -455,7 +462,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 387226,
+   "offset": 386904,
    "chars": 44234,
    "sha256_12": "bda3dc90398f"
   },
@@ -482,7 +489,7 @@
     "@Image8",
     "@Image9"
    ],
-   "offset": 431460,
+   "offset": 431138,
    "chars": 99783,
    "sha256_12": "9728847bd505"
   },
@@ -505,7 +512,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 531243,
+   "offset": 530921,
    "chars": 25674,
    "sha256_12": "dfe4a2e45e04"
   },
@@ -532,7 +539,7 @@
     "@Image6",
     "@Image7"
    ],
-   "offset": 556917,
+   "offset": 556595,
    "chars": 107911,
    "sha256_12": "af8e0e868475"
   },
@@ -555,7 +562,7 @@
     "@Image6",
     "@Image7"
    ],
-   "offset": 664828,
+   "offset": 664506,
    "chars": 87414,
    "sha256_12": "40b232f09b4d"
   },
@@ -578,7 +585,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 752242,
+   "offset": 751920,
    "chars": 26764,
    "sha256_12": "51de054e3810"
   },
@@ -600,7 +607,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 779006,
+   "offset": 778684,
    "chars": 26096,
    "sha256_12": "c12ca1c3d38d"
   },
@@ -626,7 +633,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 805102,
+   "offset": 804780,
    "chars": 27707,
    "sha256_12": "9b7b68faabdc"
   },
@@ -647,7 +654,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 832809,
+   "offset": 832487,
    "chars": 35789,
    "sha256_12": "63e73f76825f"
   },
@@ -669,7 +676,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 868598,
+   "offset": 868276,
    "chars": 33219,
    "sha256_12": "27db03e5035b"
   },
@@ -689,7 +696,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 901817,
+   "offset": 901495,
    "chars": 25054,
    "sha256_12": "5fd864ce0015"
   },
@@ -711,7 +718,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 926871,
+   "offset": 926549,
    "chars": 30115,
    "sha256_12": "9d8b53e2231f"
   },
@@ -731,7 +738,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 956986,
+   "offset": 956664,
    "chars": 23656,
    "sha256_12": "cc415ed9cd2c"
   },
@@ -750,7 +757,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 980642,
+   "offset": 980320,
    "chars": 19481,
    "sha256_12": "65377f0aba69"
   },
@@ -771,7 +778,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 1000123,
+   "offset": 999801,
    "chars": 24340,
    "sha256_12": "7dbf810c1070"
   },
@@ -797,7 +804,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 1024463,
+   "offset": 1024141,
    "chars": 32633,
    "sha256_12": "01d156da9125"
   },
@@ -819,7 +826,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 1057096,
+   "offset": 1056774,
    "chars": 22714,
    "sha256_12": "c128d0663287"
   },
@@ -844,7 +851,7 @@
     "@Image6",
     "@Image7"
    ],
-   "offset": 1079810,
+   "offset": 1079488,
    "chars": 29916,
    "sha256_12": "575d95bf0e1e"
   },
@@ -869,7 +876,7 @@
     "@Image6",
     "@Image7"
    ],
-   "offset": 1109726,
+   "offset": 1109404,
    "chars": 30626,
    "sha256_12": "58013561a453"
   },
@@ -891,7 +898,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 1140352,
+   "offset": 1140030,
    "chars": 23051,
    "sha256_12": "2489d0d29145"
   },
@@ -911,7 +918,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 1163403,
+   "offset": 1163081,
    "chars": 33765,
    "sha256_12": "998cc6c3fafe"
   },
@@ -931,7 +938,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 1197168,
+   "offset": 1196846,
    "chars": 32552,
    "sha256_12": "5a9a477848a6"
   },
@@ -951,7 +958,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 1229720,
+   "offset": 1229398,
    "chars": 12622,
    "sha256_12": "44a3e069731c"
   },
@@ -964,32 +971,32 @@
    "duration_s": 30,
    "dialogue": "ru",
    "depends_on": [],
-   "prompts": 3,
+   "prompts": 24,
    "refs": [
     "@Image1",
     "@Image2"
    ],
-   "offset": 1242342,
-   "chars": 16670,
-   "sha256_12": "2190bc8e7ecc"
+   "offset": 1242020,
+   "chars": 97686,
+   "sha256_12": "3f3130b0043b"
   },
   {
    "id": 75,
-   "title": "Лунная студия: Виталик и река",
+   "title": "Лунная студия: Виталик рыбачит на месяце",
    "target_engine": "Wan 3.0",
    "state": "DRAFT",
    "render_state": "IDLE",
    "duration_s": 30,
-   "dialogue": null,
+   "dialogue": "ru",
    "depends_on": [],
    "prompts": 3,
    "refs": [
     "@Image1",
     "@Image2"
    ],
-   "offset": 1259012,
-   "chars": 14457,
-   "sha256_12": "c98697ece6a7"
+   "offset": 1339706,
+   "chars": 16292,
+   "sha256_12": "cef090904bf5"
   },
   {
    "id": 76,
@@ -1003,11 +1010,13 @@
    "prompts": 3,
    "refs": [
     "@Image1",
-    "@Image2"
+    "@Image2",
+    "@Image3",
+    "@Image4"
    ],
-   "offset": 1273469,
-   "chars": 14316,
-   "sha256_12": "15250ba999ed"
+   "offset": 1355998,
+   "chars": 16588,
+   "sha256_12": "6990995781af"
   },
   {
    "id": 77,
@@ -1025,9 +1034,9 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 1287785,
-   "chars": 17213,
-   "sha256_12": "b292f4cc0da0"
+   "offset": 1372586,
+   "chars": 21266,
+   "sha256_12": "7a39ca78b911"
   },
   {
    "id": 78,
@@ -1043,35 +1052,170 @@
     "@Image1",
     "@Image2",
     "@Image3",
-    "@Image4"
+    "@Image4",
+    "@Image5",
+    "@Image6",
+    "@Image7"
    ],
-   "offset": 1304998,
-   "chars": 16628,
-   "sha256_12": "81563b652aa0"
+   "offset": 1393852,
+   "chars": 21337,
+   "sha256_12": "31de319bf584"
   },
   {
    "id": 79,
-   "title": "Lay’s: хруст слышно во всей галактике",
+   "title": "Чипсы: хруст слышно во всей галактике",
    "target_engine": "Wan 3.0",
    "state": "DRAFT",
    "render_state": "IDLE",
    "duration_s": 30,
    "dialogue": "ru",
    "depends_on": [],
-   "prompts": 3,
+   "prompts": 6,
    "refs": [
     "@Image1",
     "@Image2",
     "@Image3",
     "@Image4"
    ],
-   "offset": 1321626,
-   "chars": 16793,
-   "sha256_12": "c6ecc2096f75"
+   "offset": 1415189,
+   "chars": 28564,
+   "sha256_12": "d44e7edb985b"
   },
   {
    "id": 80,
-   "title": "Люкс из кладовки: лапша, тапки и пакет с пакетами",
+   "title": "Люкс из кладовки",
+   "target_engine": "Wan 3.0",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": "ru",
+   "depends_on": [],
+   "prompts": 6,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4"
+   ],
+   "offset": 1443753,
+   "chars": 26140,
+   "sha256_12": "95546b2e1554"
+  },
+  {
+   "id": 81,
+   "title": "«Давай поженимся»: Алексей ищет невесту",
+   "target_engine": "Wan 3.0",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": "ru",
+   "depends_on": [],
+   "prompts": 3,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3"
+   ],
+   "offset": 1469893,
+   "chars": 15292,
+   "sha256_12": "42873125292a"
+  },
+  {
+   "id": 82,
+   "title": "Комната жениха: звёздные друзья Алексея",
+   "target_engine": "Wan 3.0",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": "ru",
+   "depends_on": [],
+   "prompts": 3,
+   "refs": [
+    "@Image1",
+    "@Image2"
+   ],
+   "offset": 1485185,
+   "chars": 12934,
+   "sha256_12": "875588851f33"
+  },
+  {
+   "id": 83,
+   "title": "Невеста выбирает Артёма",
+   "target_engine": "Wan 3.0",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": "ru",
+   "depends_on": [],
+   "prompts": 3,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3"
+   ],
+   "offset": 1498119,
+   "chars": 13447,
+   "sha256_12": "2c1852103fff"
+  },
+  {
+   "id": 84,
+   "title": "Илюша: тачку на прокачку, защитная плёнка",
+   "target_engine": "Wan 3.0",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": "ru",
+   "depends_on": [],
+   "prompts": 3,
+   "refs": [
+    "@Image1",
+    "@Image2"
+   ],
+   "offset": 1511566,
+   "chars": 12762,
+   "sha256_12": "691f0c8ca071"
+  },
+  {
+   "id": 85,
+   "title": "Срочные новости: Саша и Маша Ф",
+   "target_engine": "Wan 3.0",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": "ru",
+   "depends_on": [],
+   "prompts": 3,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3"
+   ],
+   "offset": 1524328,
+   "chars": 13348,
+   "sha256_12": "46c412a59af1"
+  },
+  {
+   "id": 86,
+   "title": "Саша и Маша Ф: «Эх, распаковочка»",
+   "target_engine": "Wan 3.0",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": "ru",
+   "depends_on": [],
+   "prompts": 3,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3"
+   ],
+   "offset": 1537676,
+   "chars": 14762,
+   "sha256_12": "883ee85b7c85"
+  },
+  {
+   "id": 87,
+   "title": "Реклама: Саша, лучший фотограф",
    "target_engine": "Wan 3.0",
    "state": "DRAFT",
    "render_state": "IDLE",
@@ -1085,9 +1229,9 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 1338419,
-   "chars": 17264,
-   "sha256_12": "e233b30c18cf"
+   "offset": 1552438,
+   "chars": 15044,
+   "sha256_12": "b8472502a08a"
   }
  ],
  "read_sets": {

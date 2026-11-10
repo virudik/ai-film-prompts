@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-10T03:20:57+00:00",
-  "source_head": "0d6e857bbca15789e3de8912c81bb6c11b31b9f8",
-  "source_fingerprint": "d63a14a5d4b95612dcb73886042f17d62f81129bb2b2de2d8026978865322797",
+  "checked_at": "2026-11-10T03:39:05+00:00",
+  "source_head": "96d13324346ab347cbbc7a74c01a256c3f37e71f",
+  "source_fingerprint": "9e4511fb31362b5abe86457fc308c97e0fd39bb7e90404dac00e27772ac96c09",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -226,8 +226,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "5b3e0d640f5360377535954369eacc36c67bf2f9b90812f23d6fc311361e8b24",
-      "bytes": 25776
+      "sha256": "22a3e67b6e63ae6aa0568a240667f8ec30dac0ed2f3c88658086f28612b85d3a",
+      "bytes": 28650
     },
     {
       "file": "projects/README.md",
@@ -241,8 +241,8 @@
     },
     {
       "file": "projects/raznoe/HANDOFF.md",
-      "sha256": "f7700b6e8b4d53802a1d2914184119bccc9dfdf35ed2a482499ede504b95153a",
-      "bytes": 12761
+      "sha256": "5e991c9a87963eb8c8d10527ef5b208f5bca6d0add0fbae0ad02ef2f9467a53c",
+      "bytes": 13428
     },
     {
       "file": "projects/raznoe/INSTRUCTIONS.md",
@@ -256,8 +256,8 @@
     },
     {
       "file": "projects/raznoe/project-status.json",
-      "sha256": "674a20020c0ffcbe0cf8079cd05947715b5350f2d66f7f620714f22d4a7194f0",
-      "bytes": 10113
+      "sha256": "1636bbe6399c5b471dca98f1ffaaeb5d35f98b3c46b7f0635cbfce8f5ec507d7",
+      "bytes": 10352
     },
     {
       "file": "projects/raznoe/reports/chat-handoff-save-2026-11-08.json",
@@ -266,8 +266,8 @@
     },
     {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
-      "sha256": "a63b5be61b70f0fac4d07bae6dff24a812124ecc0667c9034f6e12809a985de2",
-      "bytes": 10461
+      "sha256": "75692d98d7121385d5a78abd8eedbdd8e567672524e44f5e7017786e5919c9a5",
+      "bytes": 11529
     },
     {
       "file": "projects/raznoe/reports/handoff-receipts.json",
@@ -276,8 +276,8 @@
     },
     {
       "file": "projects/raznoe/video-prompts.md",
-      "sha256": "1f1626606cebd32d1d761e1f6ae47a5cd8527a27e12ed4b8646b266cff52d3b5",
-      "bytes": 634816
+      "sha256": "e42aaf6328def25616dd339f338fc4082be724cec5e0c5c0d9a46fdde9aad5e5",
+      "bytes": 639033
     },
     {
       "file": "projects/raznoe/work-resume-register.json",
@@ -291,13 +291,13 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "700f796a96fe75db705bbd732ca195a40f20ad698efb2c0efc4a8fee9d5678d5",
-      "bytes": 28561
+      "sha256": "598688b73f0ab8e992cb1bcbe33c9fd0984c2c150a284cd56adbbfb7b46ea3a9",
+      "bytes": 31393
     },
     {
       "file": "video-prompts.md",
-      "sha256": "a587833b74138438cd40192e280a288483c77dfd4b86e852f55afb86f0552ec5",
-      "bytes": 1516825
+      "sha256": "5acc97fdd7dc29e265ee85d92720398dc7e68e5a3e891362ab2bd7fe4d84fbd9",
+      "bytes": 1752685
     }
   ],
   "packet_bytes": 6088
