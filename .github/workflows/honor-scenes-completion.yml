@@ -5,105 +5,92 @@ on:
     paths: [.github/workflows/honor-scenes-completion.yml]
 permissions:
   contents: write
+  id-token: write
 concurrency:
   group: honor-scenes-completion
   cancel-in-progress: false
 jobs:
-  verify_publication:
+  reference_integration:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     env:
       PYTHONPATH: .
+      PHASE: inspect
+      HOLDER: chatgpt:ordinary:e586d119-1d26-4f50-8bf8-9c95d64588be
+      BUNDLE_ID: 1RyTXjlq5N10Gcg3G-ZI8wTd5Zx9TnRyk
+      BUNDLE_SHA: 7b7f79cda2fdb215f539f0c0820fad20bf827450e30a06f57cbaaa29aef5be6f
     steps:
       - uses: actions/checkout@v5
         with:
           ref: main
           fetch-depth: 1
-      - name: Compare website bytes and save verified delivery
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: pip install --quiet google-auth requests
+      - uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.GCP_WORKLOAD_IDENTITY_PROVIDER }}
+          service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
+          create_credentials_file: true
+      - name: Verify private transfer bytes and export fresh canonical source
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p /tmp/honor-delivery
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          cat > /tmp/honor-delivery/verify.py <<'PY'
-          import concurrent.futures,hashlib,json,os,sys,time,urllib.request,urllib.parse,zipfile
-          from pathlib import Path
-          from datetime import datetime,timezone
-          sys.path.insert(0,str(Path('scripts').resolve()))
-          from resume_state import capture
-          def now():return datetime.now(timezone.utc).isoformat(timespec='seconds')
-          def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
-          def dump(p,o):Path(p).write_text(json.dumps(o,ensure_ascii=False,indent=2)+'\n')
-          def lease():
-              for p in ['ops/canon-lock.json','projects/raznoe/canon-lock.json']:
-                  l=json.loads(Path(p).read_text());assert l['state']=='held' and l['holder']=='chatgpt:ordinary:79b0c146-b9a1-46f2-8187-6be9bd781ec4'
-                  assert datetime.fromisoformat(l['expires_at'])>datetime.now(timezone.utc)
-          lease();p=Path('projects/raznoe/reports/honor-scenes-4-5-completion.json');r=json.loads(p.read_text());assert r['tests']['all_tests_passed']
-          expected=dict(r['files']);expected.update({k:v for k,v in r['protected_files'].items() if k.startswith('projects/raznoe/references/scenes/scene-4/') and k.endswith('.png')})
-          source4='projects/raznoe/references/scenes/scene-4/official-product-source-links.json';expected[source4]=sha(source4)
-          assert all(sha(k)==v for k,v in expected.items()),'Publication input changed since verified edit'
-          base='https://xn--l1adcem8c.xn--d1aigvp.xn--p1ai/'
-          def check(pair):
-              path,digest=pair;row={'path':path,'expected_sha256':digest,'verified':False}
-              try:
-                  req=urllib.request.Request(base+urllib.parse.quote(path,safe='/')+'?honor_readback='+str(time.time_ns()),headers={'Cache-Control':'no-cache','User-Agent':'AI-Film-HONOR-exact-file-verification'})
-                  with urllib.request.urlopen(req,timeout=30) as h:raw=h.read();row.update(http_status=h.status,content_type=h.headers.get('Content-Type'))
-                  actual=hashlib.sha256(raw).hexdigest();row.update(bytes=len(raw),actual_sha256=actual,verified=(actual==digest))
-              except Exception as e:row['error']=type(e).__name__+': '+str(e)
-              return row
-          for attempt in range(6):
-              with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:rows=list(pool.map(check,expected.items()))
-              if all(x['verified'] for x in rows):break
-              if attempt<5:time.sleep(15)
-          live={'checked_at':now(),'workflow_run_id':os.environ['GITHUB_RUN_ID'],'base_url':base,'file_count':len(rows),'verified_count':sum(x['verified'] for x in rows),'all_verified':all(x['verified'] for x in rows),'results':rows,'scope':'Prepared scene text and reference mapping delivery, not completed films or contest entry'}
-          dump('/tmp/honor-delivery/live-readback.json',live);assert live['all_verified'],live
-          lease();r['live_publication_verified']=True;r['live_publication']=live;r['delivery_verified_at']=now();dump(p,r)
-          live_path='projects/raznoe/reports/honor-scenes-4-5-publication.json';dump(live_path,live)
-          cp=Path('projects/raznoe/reports/current-work-checkpoint.md');text=cp.read_text();anchor='# HONOR 4–5 — доработка пакетов, Москва и точные продуктовые источники';assert text.startswith(anchor)
-          old='- Доказательство: projects/raznoe/reports/honor-scenes-4-5-completion.json'
-          new=old+'\n- Публикация проверена: '+str(len(rows))+' файлов сайта скачаны и SHA совпали; полный набор538 тестов прошёл в run42912188021. Подготовка не равна готовому видео или поданной заявке.'
-          assert old in text;text=text.replace(old,new,1);cp.write_text(text)
-          done='Промпты и планы HONOR4/5 опубликованы, '+str(len(rows))+' файлов сайта совпали по SHA; 538 тестов пройдены. Москва/Голдберг сохранены, два X9e исходника проверены в Drive. Реальных видео, отправки конкурса и приёмки нет.'
-          nxt='Не повторять готовую редактуру и копирование источников. Magic9: права, выбор разрешённой сетки, реальные клипы/стыки, композит, голос, полный QC. X9e: команда отправки, условия участия, согласование нагрузки/воды, репетиция муляжом, выдача аппарата и настоящая съёмка90с без музыки.'
-          capture('.', 'RAZNOE-HONOR-X9EPRO-CONTEST-20261107',anchor,done,nxt,[str(p),live_path],['projects/raznoe/references/scenes/scene-4/production-package.md','projects/raznoe/references/scenes/scene-5/shooting-package.md'],True,project='raznoe')
-          import subprocess
-          subprocess.run(['python3','scripts/build_resume_packet.py','.','--project','raznoe'],check=True)
-          subprocess.run(['python3','scripts/continue_preflight.py','.','--project','raznoe'],check=True)
-          files=[str(p),live_path,str(cp),'projects/raznoe/work-resume-register.json','projects/raznoe/shadow/resume-packet.md','projects/raznoe/shadow/resume-packet.json']
-          subprocess.run(['git','add','--',*files],check=True)
-          with zipfile.ZipFile('/tmp/honor-delivery/HONOR-scenes-4-5-package.zip','w',zipfile.ZIP_DEFLATED) as z:
-              master=Path('projects/raznoe/video-prompts.md').read_text();z.writestr('Сцены 4 и 5 — экспорт из канона.md',master[master.index('<a id="scene-4"></a>'):])
-              for name in expected:
-                  if name.endswith('video-prompts.md'):continue
-                  z.write(name,name)
-              z.write(p,str(p));z.write(live_path,live_path)
-              z.write('projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json','projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json')
-              z.writestr('ПРОЧИТАЙ.txt','Разное — подготовка сцен4/5. Канон GitHub main. Фото производителя остаются в существующих приватных папках по ссылкам. Это сценарии, промпты и техническая подготовка; финальных MP4 и конкурсной отправки нет. Не заменять реальное испытание ИИ.\n')
-          print('LIVE_DELIVERY_OK',live['verified_count'])
-          PY
-          published=false
-          for attempt in 1 2 3; do
-            git fetch origin main
-            git reset --hard origin/main
-            python3 /tmp/honor-delivery/verify.py
-            git commit -m 'Verify HONOR scenes 4/5 website delivery by exact SHA and save resume evidence'
-            if git push origin HEAD:main; then
-              git rev-parse HEAD > /tmp/honor-delivery/commit.txt
-              published=true
-              break
-            fi
-          done
-          test "$published" = true
-          git fetch origin main
+          mkdir -p /tmp/honor-reference-evidence /tmp/honor-reference-bundle
           python3 - <<'PY'
-          import subprocess,json
-          from pathlib import Path
-          p='projects/raznoe/reports/honor-scenes-4-5-publication.json';raw=subprocess.check_output(['git','show','origin/main:'+p]);assert raw==Path(p).read_bytes();assert json.loads(raw)['all_verified'];print('COMMITTED_READBACK_OK')
+          import hashlib,json,os,subprocess,zipfile
+          from datetime import datetime,timezone
+          from pathlib import Path,PurePosixPath
+          import google.auth
+          from google.auth.transport.requests import AuthorizedSession
+          for p in ['ops/canon-lock.json','projects/raznoe/canon-lock.json']:
+              l=json.loads(Path(p).read_text());assert l['state']=='held' and l['holder']==os.environ['HOLDER']
+              assert datetime.fromisoformat(l['expires_at'].replace('Z','+00:00'))>datetime.now(timezone.utc)
+          credentials,_=google.auth.default(scopes=['https://www.googleapis.com/auth/drive.readonly'])
+          session=AuthorizedSession(credentials)
+          r=session.get('https://www.googleapis.com/drive/v3/files/'+os.environ['BUNDLE_ID'],params={'alt':'media'},timeout=90);r.raise_for_status()
+          assert hashlib.sha256(r.content).hexdigest()==os.environ['BUNDLE_SHA'],'bundle SHA mismatch'
+          raw=Path('/tmp/honor-reference-bundle/input.zip');raw.write_bytes(r.content)
+          with zipfile.ZipFile(raw) as z:
+              for name in z.namelist():
+                  p=PurePosixPath(name);assert not p.is_absolute() and '..' not in p.parts
+                  assert name in ['assets.json','integrate.py','qa.py'] or name.startswith(('projects/raznoe/references/scenes/scene-4/','projects/raznoe/references/scenes/scene-5/'))
+              z.extractall('/tmp/honor-reference-bundle/files')
+          b=Path('/tmp/honor-reference-bundle/files')
+          assert hashlib.sha256((b/'integrate.py').read_bytes()).hexdigest()=='89bc41a9db983c1844a1c8fa6095a606af9f17c22ad5c599fc83d32549574c00'
+          assert hashlib.sha256((b/'qa.py').read_bytes()).hexdigest()=='467a06d22677d949e5704a8e5ea567929daffd91c0b4ed94432cbc4b6623e942'
+          items=json.loads((b/'assets.json').read_text())['images'];assert len(items)==6
+          for row in items:
+              for key,hkey in [('path','sha256'),('preview','preview_sha256')]:
+                  assert hashlib.sha256((b/row[key]).read_bytes()).hexdigest()==row[hkey]
+          result={'checked_at':datetime.now(timezone.utc).isoformat(),'bundle_sha256':os.environ['BUNDLE_SHA'],'images_verified':6,'previews_verified':6,'source_head':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'phase':os.environ['PHASE']}
+          Path('/tmp/honor-reference-evidence/transfer-readback.json').write_text(json.dumps(result,indent=2)+'\n')
+          files=subprocess.check_output(['git','ls-files'],text=True).splitlines()
+          with zipfile.ZipFile('/tmp/honor-reference-evidence/fresh-source.zip','w',zipfile.ZIP_DEFLATED) as z:
+              for name in files:
+                  if Path(name).suffix.lower() in {'.md','.json','.py','.yml','.yaml','.txt','.js','.html','.css'}:z.write(name,name)
+          print('TRANSFER_VERIFIED',result)
           PY
+          python3 scripts/continue_preflight.py . --project raznoe > /tmp/honor-reference-evidence/preflight.txt
+      - name: Apply only after inspected-source approval
+        if: env.PHASE == 'apply'
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 /tmp/honor-reference-bundle/files/integrate.py /tmp/honor-reference-bundle/files
+          python3 scripts/projects.py . status --project raznoe --write > /tmp/honor-reference-evidence/project-status.log
+          python3 scripts/build_resume_packet.py . --project raznoe > /tmp/honor-reference-evidence/resume.log
+          python3 scripts/continue_preflight.py . --project raznoe > /tmp/honor-reference-evidence/preflight-after.log
+          python3 /tmp/honor-reference-bundle/files/qa.py > /tmp/honor-reference-evidence/reference-qa.log 2>&1
+          python3 -m unittest discover -s tests > /tmp/honor-reference-evidence/full-tests.log 2>&1
+          python3 scripts/validate_site.py > /tmp/honor-reference-evidence/site.log 2>&1
+          python3 scripts/cert_github.py . > /tmp/honor-reference-evidence/certificate.log 2>&1
+          python3 scripts/projects.py . validate > /tmp/honor-reference-evidence/projects.log 2>&1
+          echo 'Checks finished; commit phase is installed only after inspection.'
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: honor-verified-delivery
-          path: /tmp/honor-delivery/
+          name: honor-reference-integration-evidence
+          path: /tmp/honor-reference-evidence/
           retention-days: 3
