@@ -193,12 +193,12 @@
       "result:2473c9b5bcf645fd85ab308306c53aaa"
     ],
     "robot_rewake": {
-      "episode": "bd50778c",
-      "count": 0,
-      "last_at": "2026-11-10T10:40:30Z",
-      "sequence": 46,
-      "first_at": "2026-11-10T10:40:30Z",
-      "last_event_id": "result:2473c9b5bcf645fd85ab308306c53aaa",
+      "episode": "86e4bee6",
+      "count": 1,
+      "last_at": "2026-11-10T11:00:39Z",
+      "sequence": 47,
+      "first_at": "2026-11-10T11:00:39Z",
+      "last_event_id": "slots:86e4bee6:47",
       "silence_reported": "slots:d23cf217:2"
     }
   },
