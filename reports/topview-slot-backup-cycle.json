@@ -2,50 +2,37 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "d89b64a4-bd90-4e70-b0be-3dacb29129a7",
-  "runtime_run_id": null,
-  "runtime_run_id_unavailable_reason": "Automations.get returned NOT_FOUND / Action not found; runtime run ID is not exposed to this invocation",
-  "source_head_initial": "816b817437d0f00f36fb72a4fafa31157679ecae",
-  "source_head": "676690915730508bc0051e056c8136c051a18db5",
+  "execution_instance_id": "76ad2e8a-004b-43d2-9796-57996d207198",
+  "runtime_run_id": "e219a1fe-a54c-8324-9884-ccae0665272e",
+  "runtime_run_id_source": "Automations.peek.last_run.id current in_progress scheduled_for 2026-11-10T06:00:00Z",
+  "source_head_initial": "96d0f04f1f46f49ae912ad137a077149f9c329dd",
+  "source_head": null,
   "route_generation": 3,
   "preferred_executor_observed": "work",
-  "started_at": "2026-11-10T06:11:26.272Z",
-  "lease_acquired_at": "2026-11-10T06:11:26.272Z",
-  "phase": "finished",
-  "status": "completed",
-  "checked_at": "2026-11-10T06:21:15.396Z",
+  "started_at": "2026-11-10T06:34:07.320Z",
+  "lease_acquired_at": "2026-11-10T06:34:07.320Z",
+  "phase": "started",
+  "status": "in_progress",
+  "checked_at": "2026-11-10T06:34:55.823Z",
   "scan": {
-    "complete": true,
-    "scope": "read-only Topview connector, all 14 boards and 19 pages; video media tasks only",
-    "boards": 14,
-    "pages": 19,
-    "video_tasks": 670,
-    "status_counts": {
-      "success": 638,
-      "fail": 26,
-      "init": 6
-    },
-    "active_task_ids": [
-      "3a09108c8c474a0989118806b4a69f91",
-      "be627af0e9664db5b6ac2b62c34080a6",
-      "8bdd6439dad94592979aba23c137b4a0",
-      "0a495e5f77a041e6bcc8d67fb68230b3",
-      "6fa3cdac62e348759d2a3607093414ea",
-      "2473c9b5bcf645fd85ab308306c53aaa"
-    ],
-    "checked_at": "2026-11-10T06:19:45.256Z"
+    "complete": false,
+    "scope": "read-only Topview connector, all boards/pages",
+    "boards": null,
+    "pages": null,
+    "video_tasks": null,
+    "status_counts": null,
+    "active_task_ids": []
   },
   "slots": {
     "physical_capacity": 6,
-    "occupied": 6,
-    "free": 0,
-    "scan_complete": true,
-    "verified_at": "2026-11-10T06:19:45.256Z"
+    "occupied": null,
+    "free": null,
+    "scan_complete": false
   },
   "selected_item": null,
   "task_ids": [],
   "new_submissions": [],
-  "browser_transport": "not_used_6_of_6",
+  "browser_transport": "not_started",
   "tinyfish": {
     "runs": [],
     "steps": 0,
@@ -54,75 +41,27 @@
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:d89b64a4-bd90-4e70-b0be-3dacb29129a7",
-    "acquired_at": "2026-11-10T06:11:26.272Z",
-    "expires_at": "2026-11-10T06:26:26.272Z",
-    "lease_commit": "81f094e5c741a1f4327674fe12f06e362b5d27f8",
-    "final_action": "released_atomically_with_receipt",
-    "released_at": "2026-11-10T06:21:15.396Z"
+    "holder": "chatgpt:ordinary:76ad2e8a-004b-43d2-9796-57996d207198",
+    "acquired_at": "2026-11-10T06:34:07.320Z",
+    "expires_at": "2026-11-10T06:54:07.320Z",
+    "lease_commit": "9c1f832a02417eb909ffb2fcf0ef465f4bbf5f9c",
+    "final_action": "in_progress"
   },
-  "outcome": "no_free_slot",
-  "blocker": {
-    "category": "unreconciled_existing_candidate",
-    "item_id": "S49B",
-    "task_id": "3a09108c8c474a0989118806b4a69f91",
-    "reason": "S49B-like Topview task is active with correct master normalized text, model/6 image roles/Unlimited0, but original uploaded image byte SHA and ownership of Create remain unverified; queue still waiting_for_slot. No duplicate Create."
-  },
-  "retryable": false,
+  "outcome": null,
+  "blocker": null,
+  "retryable": null,
   "acceptance": {
     "scheduled_run_executed": true,
-    "scheduled_run_id_observed": false,
-    "topview_read_only_scan_complete": true,
-    "queue_sha_verified_in_this_run": true,
-    "task_map_sha_verified_in_this_run": true,
-    "full_current_queue_task_ids_checked_this_run": true,
+    "scheduled_run_id_observed": true,
+    "topview_read_only_scan_complete": false,
+    "queue_sha_verified_in_this_run": false,
+    "task_map_sha_verified_in_this_run": false,
     "tinyfish_authenticated_ui_this_run": false,
     "tinyfish_file_transfer_this_run": false,
     "tinyfish_unlimited_zero_this_run": false,
     "production_submission_by_this_executor_verified": false,
-    "new_task_id_verified": false,
-    "third_party_candidate_topview_id_verified": true
+    "new_task_id_verified": false
   },
-  "completed_at": "2026-11-10T06:21:15.396Z",
-  "updated_at": "2026-11-10T06:21:15.396Z",
-  "queue_reconciliation": {
-    "current_queue_item_count": 61,
-    "submitted_completed_count": 41,
-    "task_ids_all_found": true,
-    "live_transitions_unresolved": 0,
-    "live_transitions": [],
-    "queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
-    "task_map_sha256": "e8825ed62d7a84ac290ea7a92139ceb01afedde7ffbfcd919135ec454489b2ae",
-    "readiness_queue_sha_match": true,
-    "readiness_task_map_sha_match": true,
-    "sha256_independently_verified_prior_to_finalize": true
-  },
-  "observed_new_task_candidate": {
-    "item_id": "S49B",
-    "task_id": "3a09108c8c474a0989118806b4a69f91",
-    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-    "status": "init",
-    "model": "Seedance 2.0",
-    "duration_seconds": 15,
-    "resolution": 720,
-    "aspect_ratio": "16:9",
-    "input_count": 6,
-    "useUnlimitMode": true,
-    "creditsCost": 0,
-    "robot_mapping": "normalized master block 49B",
-    "exact_uploaded_bytes_sha_verified": false
-  },
-  "owner_tasks_open": [
-    "self-heal-telemetry-stale-202611091849"
-  ],
-  "peer_reconciliation": {
-    "status": "automation_connector_unavailable_this_cycle",
-    "reason": "Automations.get for ordinary, HH:55 and Relay returned NOT_FOUND Action not found; fresh runtime last_run IDs and latest_result.run_id unavailable. No old IDs represented as this run."
-  },
-  "monitor_status": {
-    "health": "ok",
-    "last_robot_cycle": "2026-11-10T05:50:31Z",
-    "source": "automation-monitor-status.json"
-  },
-  "retry_condition": "New full scan proving free capacity, then reconcile S49B by exact uploaded input SHA; TinyFish file-import/Unlimited0 blocker may not be retried without new evidence."
+  "completed_at": null,
+  "updated_at": "2026-11-10T06:34:55.823Z"
 }
