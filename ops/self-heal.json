@@ -3,27 +3,15 @@
   "rules": "ops/SELF-HEAL.md",
   "status": "fixing",
   "problems": {
-    "run-failed-canon-health": {
-      "text": "Последний запуск «здоровье канона» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/42750767527",
-      "since": "2026-11-10T03:49:43Z",
+    "pages-lag": {
+      "text": "Сайт показывает статус от 2026-11-10T03:40:00Z, а в main уже 2026-11-10T04:10:41Z (отставание 30 мин).",
+      "since": "2026-11-10T04:19:38Z",
       "fixes": 1,
-      "last_fix_at": "2026-11-10T03:49:43Z",
+      "last_fix_at": "2026-11-10T04:19:38Z",
       "escalated_at": null
     }
   },
   "log": [
-    {
-      "at": "2026-11-06T14:20:03Z",
-      "kind": "resolved",
-      "key": "pages-lag",
-      "text": "Прошло: Сайт показывает статус от 2026-11-06T12:50:27Z, а в main уже 2026-11-06T13:40:31Z (отставание 50 мин)."
-    },
-    {
-      "at": "2026-11-06T15:19:43Z",
-      "kind": "fixed",
-      "key": "pages-lag",
-      "text": "Нашёл: Сайт показывает статус от 2026-11-06T14:30:37Z, а в main уже 2026-11-06T15:02:55Z (отставание 32 мин). Сделал: пересобрал сайт на GitHub Pages."
-    },
     {
       "at": "2026-11-06T15:49:46Z",
       "kind": "resolved",
@@ -131,7 +119,19 @@
       "kind": "fixed",
       "key": "run-failed-canon-health",
       "text": "Нашёл: Последний запуск «здоровье канона» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/42750767527 Сделал: повторил упавший запуск «здоровье канона»."
+    },
+    {
+      "at": "2026-11-10T04:19:38Z",
+      "kind": "fixed",
+      "key": "pages-lag",
+      "text": "Нашёл: Сайт показывает статус от 2026-11-10T03:40:00Z, а в main уже 2026-11-10T04:10:41Z (отставание 30 мин). Сделал: пересобрал сайт на GitHub Pages."
+    },
+    {
+      "at": "2026-11-10T04:19:38Z",
+      "kind": "resolved",
+      "key": "run-failed-canon-health",
+      "text": "Прошло: Последний запуск «здоровье канона» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/42750767527"
     }
   ],
-  "changed_at": "2026-11-10T03:49:43Z"
+  "changed_at": "2026-11-10T04:19:38Z"
 }
