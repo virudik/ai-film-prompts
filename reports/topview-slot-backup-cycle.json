@@ -9,20 +9,26 @@
   "route_generation": 3,
   "preferred_executor_observed": "work",
   "started_at": "2026-11-11T00:58:35.027865Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
-    "scope": "Read-only Topview connector all 14 boards, 17 board-page queries, 672 unique video tasks; all expected pages returned",
+    "scope": "Read-only Topview connector: all 14 boards identified, all 17 video page queries across nonempty boards completed; all 505 My First Board video tasks paged; no board skipped with video items",
     "boards": 14,
     "board_queries": 17,
+    "pages": 17,
+    "main_board_pages": 6,
+    "main_board_tasks": 505,
     "video_tasks": 672,
+    "unique_task_ids": 672,
     "status_counts": {
       "success": 639,
       "fail": 27,
       "init": 6
     },
-    "checked_at_is_upper_bound": true
+    "checked_at": "2026-11-11T01:11:24.206Z",
+    "checked_at_is_upper_bound": true,
+    "active_recheck_at": "2026-11-11T01:11:24.206Z"
   },
   "slots": {
     "occupied": 6,
@@ -37,7 +43,14 @@
       "0a495e5f77a041e6bcc8d67fb68230b3"
     ]
   },
-  "task_ids": [],
+  "task_ids": [
+    "1dcb6fa0628d41b098227ca6c96f1630",
+    "a1330998d39b486e864ed4e22b4fe8c4",
+    "3a09108c8c474a0989118806b4a69f91",
+    "be627af0e9664db5b6ac2b62c34080a6",
+    "8bdd6439dad94592979aba23c137b4a0",
+    "0a495e5f77a041e6bcc8d67fb68230b3"
+  ],
   "selected_item": null,
   "new_submissions": 0,
   "browser_transport": "not_used_no_free_slot",
@@ -51,10 +64,13 @@
   "lease": {
     "holder": "chatgpt:ordinary:6dd387d4-7785-4f5d-a76b-5317150b3e99",
     "acquired_at": "2026-11-11T01:05:39.632Z",
-    "expires_at": "2026-11-11T01:20:39.632Z"
+    "original_expires_at": "2026-11-11T01:20:39.632Z",
+    "expires_at": null,
+    "released_at": "2026-11-11T01:12:58.445Z",
+    "release_status": "released_atomically_with_receipt"
   },
-  "outcome": "pending_final_receipt",
-  "blocker": "no_free_global_slot; no Create authorized at 6/6",
+  "outcome": "no_free_slot",
+  "blocker": "no_free_global_slot: 6 confirmed active Topview video tasks on My First Board. S49B and music candidate source mappings remain unresolved; never duplicate.",
   "retryable": true,
   "acceptance": {
     "scheduled_runtime": true,
@@ -63,8 +79,28 @@
     "unlimited0_preflight": false,
     "new_task_verified": false,
     "full_scan": true,
-    "queue_sha_matched": null,
-    "task_map_sha_matched": null
+    "queue_sha_matched": true,
+    "task_map_sha_matched": true
   },
-  "updated_at": "2026-11-11T01:06:41.375Z"
+  "updated_at": "2026-11-11T01:12:58.445Z",
+  "source_head_final_prewrite": "de4d2f32585850932036506c6ea64c996984872c",
+  "queue_reconciliation": {
+    "registered_items": 41,
+    "registered_task_ids_found": 41,
+    "missing_registered_task_ids": [],
+    "unresolved_claimed_submitting_unknown": 0,
+    "unresolved_ids": [],
+    "source_queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+    "source_task_map_sha256": "cd0532fe2fdf6e65e0ada0335548889f308bc8a029d70579c93b43a4ffd71074",
+    "source_queue_blob_sha": "569a5ea807899338415772b3ac780927268c0a8f",
+    "source_task_map_blob_sha": "2dd3d7502b459c202280ea06c41eac31e3620318"
+  },
+  "notes": {
+    "work_route": "preferred_executor=work preserved as registered since verified 2026-11-02 recovery; ordinary remains enabled HH:00 reserve. No new proof or owner decision warrants role change.",
+    "old_robot_event_not_capacity": "Most recent topview-slot-wake issue #528 was older than live 6/6 scan; no event treated as capacity proof.",
+    "owner_tasks_open_seen": 2,
+    "checkpoint_next_action_unchanged": true,
+    "aut_peer_status": "HH:55 2026-11-11T00:55Z no_update; Relay latest 2026-11-10T11:12Z no_update"
+  },
+  "completed_at": "2026-11-11T01:12:58.445Z"
 }
