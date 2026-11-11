@@ -33,8 +33,11 @@ assert sha(master_path)==r['master_sha256'],'Master changed since integration; r
 sys.path.insert(0,str(Path('scripts').resolve()))
 import topview_prompt_match as pm
 from resume_state import capture
-all_blocks=pm.master_blocks(master);assert len(dict(all_blocks))==len(all_blocks),'Duplicate prompt labels'
-blocks=dict(all_blocks);expected={str(master_path):sha(master_path),str(P/'character-references.json'):sha(P/'character-references.json')};binding_results=[]
+all_blocks=pm.master_blocks(master)
+# This delivery concerns HONOR 4/5 only, not source/example fences in other scenes.
+honor_blocks=[(label,body) for label,body in all_blocks if re.match(r'^[45](?:$|\s)',label)]
+assert len(honor_blocks)==39 and len(dict(honor_blocks))==39,'HONOR prompt labels missing or duplicated'
+blocks=dict(honor_blocks);expected={str(master_path):sha(master_path),str(P/'character-references.json'):sha(P/'character-references.json')};binding_results=[]
 for sid,model,count,foreign in [(4,'HONOR Magic9 Pro Max',36,'HONOR X9e Pro'),(5,'HONOR X9e Pro',3,'HONOR Magic9 Pro Max')]:
     base=P/f'references/scenes/scene-{sid}';b=load(base/'reference-bindings.json')
     assert b['model']==model and b['official_sources_are_primary'] and len(b['prompts'])==count
