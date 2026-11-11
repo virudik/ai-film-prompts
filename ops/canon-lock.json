@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
-  "holder": "chatgpt:ordinary:9e2f68ea-0a6c-4fec-a60a-2a18f808ae57",
-  "task": "Серёгиус: hourly ordinary slot scan + receipt",
-  "acquired_at": "2026-11-11T15:02:46.483Z",
-  "expires_at": "2026-11-11T15:42:46.483Z",
-  "released_at": null,
+  "state": "free",
+  "holder": null,
+  "task": null,
+  "acquired_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-11T15:11:07.988Z",
   "rules": "ops/CANON-LOCK.md"
 }

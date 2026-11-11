@@ -5,27 +5,57 @@
   "runner": "ordinary_hourly",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
   "execution_instance_id": "9e2f68ea-0a6c-4fec-a60a-2a18f808ae57",
-  "run_id": null,
-  "run_id_unavailable_reason": "Automations.get action unavailable (NOT_FOUND); runtime run ID not exposed to this tool session",
+  "run_id": "3c674917-10b8-832b-8c94-1313e6f291a5",
+  "run_id_unavailable_reason": null,
   "route_generation": 3,
   "started_at": "2026-11-11T15:03:36.785Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "source_head_started": "0bb8a5e37e104c517f9aa32bfcb23b6bfdc1c056",
   "scan": {
-    "complete": false,
-    "scope": null
+    "complete": true,
+    "scope": "Authenticated read-only Topview scan: all 14 editable boards, all 19 paginated video pages size 100; fresh independent get_board_task for five active IDs; cross-check 41 registered task IDs",
+    "boards": 14,
+    "pages": 19,
+    "page_size": 100,
+    "video_tasks": 672,
+    "unique_task_ids": 672,
+    "status_counts": {
+      "success": 640,
+      "fail": 27,
+      "init": 5
+    },
+    "last_full_scan_at": "2026-11-11T15:05:08.065Z",
+    "active_rechecked_at": "2026-11-11T15:07:00Z",
+    "registered_task_ids": 41,
+    "registered_found": 41,
+    "unreconciled_claims": 0,
+    "ready_sha": {
+      "queue": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+      "task_map": "d1b08623b704dc151c6ad1a653d83e43df4f7ff4600d771d76bbec71bbd489ef",
+      "match_both": true,
+      "algorithm": "independent JavaScript SHA256 over UTF-8 bytes; abc known-answer verified"
+    },
+    "technically_ready_not_owner_authorized": 16,
+    "owner_tasks_open": 0
   },
   "slots": {
-    "occupied": null,
-    "free": null,
+    "occupied": 5,
+    "free": 1,
     "physical_cap": 6,
-    "complete_scan_verified": false
+    "complete_scan_verified": true,
+    "active_task_ids": [
+      "1dcb6fa0628d41b098227ca6c96f1630",
+      "a1330998d39b486e864ed4e22b4fe8c4",
+      "3a09108c8c474a0989118806b4a69f91",
+      "be627af0e9664db5b6ac2b62c34080a6",
+      "8bdd6439dad94592979aba23c137b4a0"
+    ]
   },
   "new_submissions": 0,
   "selected_item": null,
   "task_ids": [],
-  "browser_transport": "not_used",
+  "browser_transport": "not_used_no_owner_authorized_ready_item",
   "tinyfish": {
     "runs": [],
     "steps": 0,
@@ -36,17 +66,24 @@
   "lease": {
     "holder": "chatgpt:ordinary:9e2f68ea-0a6c-4fec-a60a-2a18f808ae57",
     "acquired_at": "2026-11-11T15:02:46.483Z",
-    "expires_at": "2026-11-11T15:42:46.483Z",
+    "expires_at": null,
     "lease_commit": "0bb8a5e37e104c517f9aa32bfcb23b6bfdc1c056",
-    "release_status": "held"
+    "release_status": "released_atomically_with_receipt",
+    "released_at": "2026-11-11T15:11:07.988Z"
   },
-  "outcome": "in_progress",
+  "outcome": "no_owner_authorized_ready_item",
   "acceptance": {
-    "scheduled_runtime": "current scheduled task executes tools; platform run identifier unavailable",
+    "scheduled_runtime": "Confirmed with Automations.peek last_run.id 3c674917-10b8-832b-8c94-1313e6f291a5",
     "ui_profile_login": "not_retested",
     "ui_control": "not_retested",
     "file_import": "not_verified",
-    "unlimited_zero": "not_verified_for_new_item",
+    "unlimited_zero": "5 live tasks show Unlimited true/credits 0; no new-item UI preflight",
     "verified_new_task_id": null
-  }
+  },
+  "runtime_run_id_source": "Automations.peek last_run.id, recorded in_progress for the actual scheduled invocation",
+  "source_head_checked": "a02bac3534a3a82adffc52e2b46f44439f516528",
+  "blocker": "Verified 1 global free slot (5/6 occupied); remaining 16 technically ready items are owner-restricted. Scene 62 held by 09 Nov owner decision t406u/t422u; scene 28 and new 49/50/51 items require fresh consent under t369u; S49B has consent only after all story parts per t422u. No other ready authorized story item. TinyFish native exact-file import issue remains unresolved (06 Nov) and cannot justify repeated paid tests. No Create.",
+  "retryable": false,
+  "notes": "11 Nov 18:00 MSK actual ordinary hourly run. Full Topview read-only 14-board/19-page scan, 672 unique tasks, active5; verified one physically free. All 41 registry task IDs found. No new scene owner authorization. Owner-tasks open0, SHA both matched. Existing :00 automation enabled; HH:55/Relay peers examined. route_generation3 unchanged. No TinyFish, no paid Topview, no checkpoint/focus changes.",
+  "completed_at": "2026-11-11T15:11:07.988Z"
 }
