@@ -11,8 +11,8 @@
   "preferred_executor_observed": "work",
   "started_at": "2026-11-11T10:03:11.695530Z",
   "receipt_started_at": "2026-11-11T10:13:27.876Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
     "scope": "Read-only authenticated Topview connector, 14 boards all 19 pages (pageSize100), 672 unique video tasks; all 6 former active IDs independently rechecked; 41/41 registered IDs matched",
@@ -26,7 +26,7 @@
       "fail": 27,
       "init": 5
     },
-    "active_recheck_at": "2026-11-11T10:11:00Z",
+    "active_recheck_at": "2026-11-11T10:14:48.839Z",
     "registered_task_ids": 41,
     "registered_found": 41,
     "unreconciled_claims": 0,
@@ -71,12 +71,13 @@
   "lease": {
     "holder": "chatgpt:ordinary:90f2f968-c19a-420e-bbba-cf48cd69a10f",
     "acquired_at": "2026-11-11T10:12:11.863Z",
-    "expires_at": "2026-11-11T10:37:11.863Z",
+    "expires_at": null,
     "lease_commit": "de07a50159c4033e2363390595fe463532208d74",
-    "release_status": "held"
+    "release_status": "released_atomically_with_receipt",
+    "released_at": "2026-11-11T10:15:35.989Z"
   },
-  "outcome": "preparing_no_create_owner_policy_hold",
-  "blocker": "One global slot available but no eligible unsubmitted queue item: S62 held by t406u/t422u; 28/49/50/51 music/dance require new owner consent under t369u; S49B allowed only after all story. Readiness technical=true does not override holds.",
+  "outcome": "no_owner_authorized_ready_item",
+  "blocker": "1/6 physical slot free (5 init), but the only unsubmitted technically ready queue items are held: scene62 by t406u/t422u (Nov9); scenes28/49/50/51 by t369u (Nov8). S49B has conditional owner consent only after all story. No UI Create, no paid TinyFish allowed without a genuinely authorized item.",
   "retryable": true,
   "acceptance": {
     "scheduled_runtime": "current Automations.peek last_run.id confirmed in_progress",
@@ -86,6 +87,7 @@
     "unlimited_zero": "Existing 5 active tasks show useUnlimitMode=true and creditsCost=0; no new UI preflight",
     "verified_new_task_id": null
   },
-  "source_head_checked": "de07a50159c4033e2363390595fe463532208d74",
-  "notes": "Owner policy is later than historical permission; no paid browser scan or Create. Root Topview robot checked 2026-11-11T10:00:28Z, fresh connector scan confirms 5/6 and 0a495... success."
+  "source_head_checked": "7838bd4bc274b72fc3b8b52a63645623c36b89f3",
+  "notes": "11 Nov 13:00 MSK scheduled ordinary run. Full authenticated Topview scan 14 boards, 19 pages, 672 unique videos (640 success,27 fail,5 init), all 41 registered taskIDs found, no unfinished claims. 0a495e5f77a041e6bcc8d67fb68230b3 is confirmed success and freed one slot. Root robot topview-status checked at 2026-11-11T10:00:28Z confirms capacity; independent connector active recheck 2026-11-11T10:14:48.839Z. Matching queue/task-map SHA256. Current owner policies exclude all technically ready waiting items; historical owner authorization must not override latest holds. No TinyFish runs, no new taskID, no credits. Preferred role remains work; ordinary still allowed. Work runtime status not inferred from old successes.",
+  "completed_at": "2026-11-11T10:15:35.989Z"
 }
