@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:556c6699-debf-4551-90e3-a304b763720d",
-  "task": "Scheduled ordinary: full Topview scan and no-free-slot receipt; no Create",
-  "acquired_at": "2026-11-11T00:29:24.325Z",
-  "expires_at": null,
-  "released_at": "2026-11-11T00:36:17.055Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:6dd387d4-7785-4f5d-a76b-5317150b3e99",
+  "task": "Ordinary scheduled 11 Nov 2026: complete Topview all-boards read-only scan; no Create at 6/6; save receipt",
+  "acquired_at": "2026-11-11T01:05:39.632Z",
+  "expires_at": "2026-11-11T01:20:39.632Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
