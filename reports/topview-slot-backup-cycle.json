@@ -2,44 +2,44 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "fffabf5f-4d6b-4d50-89a4-b6314dbbb3fd",
-  "runtime_run_id": "7ba43e6e-94b8-8323-989c-c2a6a589c3bb",
-  "runtime_run_id_source": "Automations.peek current last_run.id; scheduled_for 2026-11-11T09:00:00Z; observed in_progress",
-  "source_head_initial": "8b8b462f03585d19312000f32816e7e216b03c97",
-  "source_head_started": "c52f5f2d9154948919f464f3657270e4b75b32f7",
+  "execution_instance_id": "90f2f968-c19a-420e-bbba-cf48cd69a10f",
+  "runtime_run_id": "dcb8974b-0ad4-8330-a040-9362ba7e2be6",
+  "runtime_run_id_source": "Automations.peek live last_run.id, scheduled_for 2026-11-11T10:00:00Z, observed in_progress; this is not execution UUID",
+  "source_head_initial": "b5cb3ce585c9fe3f24c9676ffaf8b51932b1b57b",
+  "source_head_started": "de07a50159c4033e2363390595fe463532208d74",
   "route_generation": 3,
   "preferred_executor_observed": "work",
-  "started_at": "2026-11-11T09:00:34.285523Z",
-  "receipt_started_at": "2026-11-11T09:09:58.270Z",
-  "phase": "finished",
-  "status": "completed",
+  "started_at": "2026-11-11T10:03:11.695530Z",
+  "receipt_started_at": "2026-11-11T10:13:27.876Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan": {
     "complete": true,
-    "scope": "Authenticated read-only Topview connector: 14 boards, all 15 video-data pages at pageSize100, 672 unique account-wide video tasks; 6 active independently rechecked by taskId; 41/41 submitted/completed registered IDs checked",
+    "scope": "Read-only authenticated Topview connector, 14 boards all 19 pages (pageSize100), 672 unique video tasks; all 6 former active IDs independently rechecked; 41/41 registered IDs matched",
     "boards": 14,
-    "pages": 15,
+    "pages": 19,
     "page_size": 100,
     "video_tasks": 672,
     "unique_task_ids": 672,
     "status_counts": {
-      "success": 639,
+      "success": 640,
       "fail": 27,
-      "init": 6
+      "init": 5
     },
-    "active_recheck_at": "2026-11-11T09:08:10.722Z",
+    "active_recheck_at": "2026-11-11T10:11:00Z",
     "registered_task_ids": 41,
     "registered_found": 41,
     "unreconciled_claims": 0,
     "ready_sha": {
       "queue": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
-      "task_map": "d77101f1a157451d4049107a8887eb559eaab4dc1f101efcbf767d9c",
+      "task_map": "1b6c39d87cfa0b93d44e41312c5080d5c7e0596bad97a7d4ffd4c648d8c3c9fe",
       "match_both": true
     },
     "owner_tasks_open": 0
   },
   "slots": {
-    "occupied": 6,
-    "free": 0,
+    "occupied": 5,
+    "free": 1,
     "physical_cap": 6,
     "complete_scan_verified": true,
     "active_task_ids": [
@@ -47,9 +47,9 @@
       "a1330998d39b486e864ed4e22b4fe8c4",
       "3a09108c8c474a0989118806b4a69f91",
       "be627af0e9664db5b6ac2b62c34080a6",
-      "8bdd6439dad94592979aba23c137b4a0",
-      "0a495e5f77a041e6bcc8d67fb68230b3"
-    ]
+      "8bdd6439dad94592979aba23c137b4a0"
+    ],
+    "newly_successful_task_id": "0a495e5f77a041e6bcc8d67fb68230b3"
   },
   "new_submissions": 0,
   "selected_item": null,
@@ -58,10 +58,9 @@
     "a1330998d39b486e864ed4e22b4fe8c4",
     "3a09108c8c474a0989118806b4a69f91",
     "be627af0e9664db5b6ac2b62c34080a6",
-    "8bdd6439dad94592979aba23c137b4a0",
-    "0a495e5f77a041e6bcc8d67fb68230b3"
+    "8bdd6439dad94592979aba23c137b4a0"
   ],
-  "browser_transport": "not_used_no_free_slot",
+  "browser_transport": "not_used_no_owner_authorized_ready_item",
   "tinyfish": {
     "runs": [],
     "steps": 0,
@@ -70,25 +69,23 @@
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:fffabf5f-4d6b-4d50-89a4-b6314dbbb3fd",
-    "acquired_at": "2026-11-11T09:08:57.452Z",
-    "expires_at": null,
-    "lease_commit": "c52f5f2d9154948919f464f3657270e4b75b32f7",
-    "release_status": "released_atomically_with_receipt",
-    "released_at": "2026-11-11T09:10:42.878Z"
+    "holder": "chatgpt:ordinary:90f2f968-c19a-420e-bbba-cf48cd69a10f",
+    "acquired_at": "2026-11-11T10:12:11.863Z",
+    "expires_at": "2026-11-11T10:37:11.863Z",
+    "lease_commit": "de07a50159c4033e2363390595fe463532208d74",
+    "release_status": "held"
   },
-  "outcome": "no_free_slot",
-  "blocker": "no_free_global_slot: six independent confirmed init Topview tasks on My First Board; no new Create or paid TinyFish allowed",
+  "outcome": "preparing_no_create_owner_policy_hold",
+  "blocker": "One global slot available but no eligible unsubmitted queue item: S62 held by t406u/t422u; 28/49/50/51 music/dance require new owner consent under t369u; S49B allowed only after all story. Readiness technical=true does not override holds.",
   "retryable": true,
   "acceptance": {
     "scheduled_runtime": "current Automations.peek last_run.id confirmed in_progress",
     "ui_profile_login": "not_retested",
     "ui_control": "not_retested",
     "file_import": "not_tested",
-    "unlimited_zero": "existing six tasks show useUnlimitMode=true and creditsCost=0; no new preflight performed",
+    "unlimited_zero": "Existing 5 active tasks show useUnlimitMode=true and creditsCost=0; no new UI preflight",
     "verified_new_task_id": null
   },
-  "source_head_checked": "3d7a6d38f189965fd3bb470c4954900a3b0ce8aa",
-  "completed_at": "2026-11-11T09:10:42.878Z",
-  "notes": "Direct owner t369u music/dance held without new consent; S62 held; effective 6/6 so no paid UI. TinyFish historical blocked_browser_input unchanged. GitHub robot free-slot issue #528 dates Nov10 only; current status from fresh connector. Hourly schedule stays enabled, route_generation unchanged, checkpoint/queue and shared telemetry untouched. Verified cleanly released own exact lease with final receipt under force-with-lease CAS. All six active tasks remain init and registered IDs 41/41 in read-only scan."
+  "source_head_checked": "de07a50159c4033e2363390595fe463532208d74",
+  "notes": "Owner policy is later than historical permission; no paid browser scan or Create. Root Topview robot checked 2026-11-11T10:00:28Z, fresh connector scan confirms 5/6 and 0a495... success."
 }
