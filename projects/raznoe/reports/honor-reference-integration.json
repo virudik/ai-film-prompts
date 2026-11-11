@@ -160,7 +160,7 @@
     "4": 36,
     "5": 3
   },
-  "site_verified": false,
+  "site_verified": true,
   "full_films_complete": false,
   "new_generations": 0,
   "video_launches": 0,
@@ -298,5 +298,8 @@
     "before_sha256": "fcd431eb1c6ec7562c3490763ec3773c4406900d0d268e0bfd547d10b1042152",
     "after_sha256": "77da2ed4214c3f88e55ee23aa689e4e3fa784ff98d923801e199ce9bb298c2ad",
     "reason": "The owner requested adding exact-model product references. The old test required no product PNGs and placeholder compositing labels. It now verifies real source IDs, 36 identity locks and every binding; mood originals, duration, queue and no-approval/no-contest guards remain."
-  }
+  },
+  "site_verification_report": "projects/raznoe/reports/honor-reference-delivery.json",
+  "site_verified_at": "2026-11-11T00:06:15+00:00",
+  "reference_integration_task_complete": true
 }

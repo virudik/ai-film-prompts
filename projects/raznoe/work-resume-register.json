@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "raznoe",
-  "last_updated_at": "2026-11-10T23:32:00+00:00",
+  "last_updated_at": "2026-11-11T00:06:15+00:00",
   "active_work": [
     {
       "work_id": "RAZNOE-SCENE3-RESOURCE",
@@ -235,27 +235,27 @@
     {
       "work_id": "RAZNOE-HONOR-X9EPRO-CONTEST-20261107",
       "status": "preproduction_updated_waiting_submission_rehearsal_and_real_phone",
-      "next_action": "Завершить Pages и точный readback всех файлов; не пересоздавать изображения. Затем только отдельно разрешённые видео, реальные хвосты/QC и конкурсная съёмка; приёмку не подменять.",
+      "next_action": "Этап референсов и публикации закрыт: изображения, 36+3 промпта и источники не создавать повторно. Дальше только отдельно разрешённые видеозапуски, реальные стыки, полный QC и приёмка; для X9e — отдельная конкурсная отправка и физическая съёмка. Они этим этапом не выполнены.",
       "last_verified_step": "Полные правила HONOR прочитаны через Google Docs: п.4.2 требует 60–120 секунд, п.4.3.3 запрещает музыку, п.4.3.6 ограничивает фон/права. Отчёт исправлен 96b3e19f. Следующий этап — только существующая сцена5, оглавление и статусы; сцены1–4, очередь, изображения, разрешения не менять. Генераций нет.",
-      "updated_at": "2026-11-10T23:32:00+00:00",
+      "updated_at": "2026-11-11T00:06:15+00:00",
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-10T23:32:00+00:00",
-        "last_completed": "Шесть существующих ИИ-PNG и6 превью привязаны к сценам4/5; все36+3 промпта используют реальные источники точной модели. Drive6/6 совпали. Тесты550/550; сайт ещё ждёт точного readback.",
-        "next_action": "Завершить Pages и точный readback всех файлов; не пересоздавать изображения. Затем только отдельно разрешённые видео, реальные хвосты/QC и конкурсная съёмка; приёмку не подменять.",
+        "verified_at": "2026-11-11T00:06:15+00:00",
+        "last_completed": "Внесение референсов завершено: 6 PNG, 6 превью и 39 автономных привязок к точным реальным моделям. Сайт: 26/26 файлов совпали по SHA256. Drive6/6 ранее проверены, существующие копии сохранены. Полный набор: 550 тестов, ошибок/пропусков0.",
+        "next_action": "Этап референсов и публикации закрыт: изображения, 36+3 промпта и источники не создавать повторно. Дальше только отдельно разрешённые видеозапуски, реальные стыки, полный QC и приёмка; для X9e — отдельная конкурсная отправка и физическая съёмка. Они этим этапом не выполнены.",
         "checkpoint": {
           "file": "projects/raznoe/reports/current-work-checkpoint.md",
           "anchor": "# 11.11.2026 — реальные модели и шесть референсов HONOR4/5",
-          "sha256": "b91ce3e3242248fb4046c14437296f71e4c4b7d5a5ee51e7424ebbeef3494ed1"
+          "sha256": "1c1c54b2ffe28eabb81132467eed502aefcf62a0030002b6657044f64bb92b3c"
         },
         "evidence": [
           {
-            "file": "projects/raznoe/reports/honor-reference-integration.json",
-            "sha256": "74c57f3dde824767e8288db9d8b5f5fe2e1a2256f5260708d7b41c6db8a6c9cc"
+            "file": "projects/raznoe/reports/honor-reference-delivery.json",
+            "sha256": "535da7280b88b63ce3cd4be3cd1a3765ff589c95eb3a94490d1ab070403207bd"
           },
           {
-            "file": "projects/raznoe/reports/honor-reference-drive-readback.json",
-            "sha256": "59155ab0c21f471dde6850b492f07970bfb071a022d23a56414a92f37863f400"
+            "file": "projects/raznoe/reports/honor-reference-integration.json",
+            "sha256": "4cbc26eca447b1f22362aa81e0d6105fdb395009057ec1ed39b026f47f0c8bf5"
           }
         ],
         "read_next": [
@@ -270,7 +270,7 @@
   "resume_focus": {
     "work_id": "RAZNOE-HONOR-X9EPRO-CONTEST-20261107",
     "project": "raznoe",
-    "set_at": "2026-11-10T23:32:00+00:00",
+    "set_at": "2026-11-11T00:06:15+00:00",
     "reason": "Explicitly selected by the authorized task writer"
   }
 }

@@ -1,0 +1,672 @@
+{
+  "schema_version": 1,
+  "project": "raznoe",
+  "work_id": "RAZNOE-HONOR-REAL-REFERENCES-20261111",
+  "scenes": [
+    4,
+    5
+  ],
+  "checked_at": "2026-11-11T00:06:15+00:00",
+  "source_head": "81007321ae156e7a30a0da1b8b39b7ffc23b0489",
+  "workflow_run_id": "42927968649",
+  "takeover_mode": "short; current preflight passed; prior assets not regenerated",
+  "source_model_binding_count": 39,
+  "binding_results": [
+    {
+      "scene": 4,
+      "label": "4",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "4ae750e6e08b05e314ad60bcc05d5aabf330be5f42ec006e9a01c6754ead503a",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · 3D · Wan 3.0 часть 2",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "bc34283db1ac99b43b5d67dac7cbff8bd9131c9dd9eddc2a48af4630fa0c2204",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · 3D · Wan 3.0 часть 3",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "265928402b85afa0506585fd0f9658487e5d433a9eb4881de4d5ec1d89f9d587",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · 3D · Wan 3.0 часть 4",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "d23041066defa6204459f84dd63270074b1bacc81fbff417bff9bda3ac75d355",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · 3D · Seedance 2.0 часть 1",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "bafbbb0e082cdc1fbd84022815f399ed37626412acd9b456f1dfb8e6c174e8d9",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · 3D · Seedance 2.0 часть 2",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "3e93a9726bc698943022d6b1a25f8155aecf088e781af9ee5057819fbe8f0c39",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · 3D · Seedance 2.0 часть 3",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "f9d7ecc7d159c504ac69859c9be6141e0829a7482c87623677840803fb6667f9",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · 3D · Seedance 2.0 часть 4",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "b8e278f6e7ab64d424becbbe8b2c37d0ec7bbf917451da7dc4fd71d78d1f4704",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · 3D · Seedance 2.0 часть 5",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "11fbe69d6b573d16ea81d3a638d17c5d62383aa0ae1275575165e390446d07eb",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · 3D · Seedance 2.0 часть 6",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "a7544a70dc6975e50f69f8f6ade94095fdda30513b4d076f782b7262ae590fee",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · 3D · Seedance 2.0 часть 7",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "acfb8c3319d8328cfb6876d7ea93befb95e6b8f920400be138f0069381f6c0c1",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · 3D · Seedance 2.0 часть 8",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "b06845927fe6fd20c167019019310a22ca94dd95851b0a91bc8ab219db36095f",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · реализм · Wan 3.0 часть 1",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "bb08d5d95b72bb2dad877c2083f4eab0b331cd168ef1c4239c49a27b70a657af",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · реализм · Wan 3.0 часть 2",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "f1a612bdbf55ac4294039d06b461ef7610dead0246bee6b9b5664793dc474d8b",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · реализм · Wan 3.0 часть 3",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "2d9167ae7c8db8f78ea05c40b5b413aaca218c187c951aaed007429a72c4a84f",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · реализм · Wan 3.0 часть 4",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "2c43a5c67264e726487a39f8edee19c18a6ca8bc4ba386d7d3c99545eb059989",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · реализм · Seedance 2.0 часть 1",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "baa4c9b70888e062fa2a1174ab9b5ceca213a329c22466a9645907dee1eef745",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · реализм · Seedance 2.0 часть 2",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "ac5bc452a22b1ac045b584cbba01386410942a9e4c9797ddb0007df5bbfa23d4",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · реализм · Seedance 2.0 часть 3",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "9070375edf3a3d5f1ab6820699eb5119999417b49a7bb2bfc710d81f4e89ce5e",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · реализм · Seedance 2.0 часть 4",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "71762333e30709154d46c74a9d8542fb22550e24711dae6efe7c5053825aeb6e",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · реализм · Seedance 2.0 часть 5",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "e278d9e3c69c5536e11605c7426e1c98d337daacf1dc7ed8cf11fdc8d32aa2b6",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · реализм · Seedance 2.0 часть 6",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "c4715e12264428232771393f206d4183264d7c04f9908ed8dc7e459bffa238de",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · реализм · Seedance 2.0 часть 7",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "8b6328981cf098bacc01fd94ebb2fe7231713cf8b3bf131b890ea4288f6732b7",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · реализм · Seedance 2.0 часть 8",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "c975401ae78c25d51dae44a2a01ed0533482bcbe0a695c3220222bb7015d690c",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · рисовка · Wan 3.0 часть 1",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "ff8717a1d643dd0974b55252daaa04a4676bf82708b5881639b1d946c3556316",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · рисовка · Wan 3.0 часть 2",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "2958edb484dc33c5cb0b8a2b496b3c129179226900e1f790f3cd4b0a1510a2f7",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · рисовка · Wan 3.0 часть 3",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "2ffe92ad637433141459dab323d0135e63e4dedfdba559f52f633c2bde603e36",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · рисовка · Wan 3.0 часть 4",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "4c618dffb0105d99ddb8e7d377df8f2d2dfce641d2fe0534bd0f8c4bdf343449",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · рисовка · Seedance 2.0 часть 1",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "8118a0e6458f3bf2a3c8bcce9c7e2ad5a149b1cd76d0981f0fc2f10d4762d0df",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · рисовка · Seedance 2.0 часть 2",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "364ef3cd3eb7d9f406b3e3d0b02b1ac7c6992f6c26e21db306cea8cee80e66ac",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · рисовка · Seedance 2.0 часть 3",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "b94689b2a0aa7de3a4b795d73e89659bd6f7904518692b440f007f2eaa6d7ded",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · рисовка · Seedance 2.0 часть 4",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "d028dc3b265ca5f06a66ab1b3ace93558d4a90f483d27db04f6077eb25df0eca",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · рисовка · Seedance 2.0 часть 5",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "4e266e73fb766615ce3b57f9a689556ff0dae003acc2cdf0c0a38d80db3f173d",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · рисовка · Seedance 2.0 часть 6",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "b11d93e36c3ad5c2dde86a0a48c2e1dd766eaff959bbb45e605396add70823b2",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · рисовка · Seedance 2.0 часть 7",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "e5295fd387e5d9c960be9cc50487179a05ecdbff1f17ea616813b15b29a366e5",
+      "verified": true
+    },
+    {
+      "scene": 4,
+      "label": "4 · рисовка · Seedance 2.0 часть 8",
+      "model": "HONOR Magic9 Pro Max",
+      "prompt_sha256": "b8a521e26e53770de2f34be4760125a4a1488bbde02a4d8562b8825ed54be9f4",
+      "verified": true
+    },
+    {
+      "scene": 5,
+      "label": "5",
+      "model": "HONOR X9e Pro",
+      "prompt_sha256": "b8a06f270602e503811d092b072489e6ec3f7c4ec2050dab9c5fc582260bdc0a",
+      "verified": true
+    },
+    {
+      "scene": 5,
+      "label": "5 · Seedance 2.0 часть 1",
+      "model": "HONOR X9e Pro",
+      "prompt_sha256": "7dc36cc19346eea094670e8913daf19e986cc36a27405f6799d4ca3519a7a993",
+      "verified": true
+    },
+    {
+      "scene": 5,
+      "label": "5 · Seedance 2.0 часть 2",
+      "model": "HONOR X9e Pro",
+      "prompt_sha256": "9727134becf157f80810241b29ba82ecf0a02eb90cbc140c56b06e8af79ea40b",
+      "verified": true
+    }
+  ],
+  "site": {
+    "checked_at": "2026-11-11T00:06:15+00:00",
+    "base_url": "https://xn--l1adcem8c.xn--d1aigvp.xn--p1ai/",
+    "file_count": 26,
+    "verified_count": 26,
+    "all_verified": true,
+    "results": [
+      {
+        "path": "projects/raznoe/video-prompts.md",
+        "expected_sha256": "986b94bc6c500bffe4810d29566ef241a6a5fe0e56e43685df0458a6e79172e8",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "text/markdown; charset=utf-8",
+        "bytes": 704289,
+        "actual_sha256": "986b94bc6c500bffe4810d29566ef241a6a5fe0e56e43685df0458a6e79172e8"
+      },
+      {
+        "path": "projects/raznoe/character-references.json",
+        "expected_sha256": "11fd3e1c8c1c356f9e48f6f1d9688294aba36e3cf6e598972429bcc5f7a1b643",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 67273,
+        "actual_sha256": "11fd3e1c8c1c356f9e48f6f1d9688294aba36e3cf6e598972429bcc5f7a1b643"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-4/manifest.json",
+        "expected_sha256": "5a33b9438c533b07c83df34193d15a9ab410c0d5e56d0a61f62363fe1fbd1f7f",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 8371,
+        "actual_sha256": "5a33b9438c533b07c83df34193d15a9ab410c0d5e56d0a61f62363fe1fbd1f7f"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-4/reference-bindings.json",
+        "expected_sha256": "2c9c24d90e9e6c57f4328ff25ab2fbd29d8001f01a0dc490646e8ee97d1cb297",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 63892,
+        "actual_sha256": "2c9c24d90e9e6c57f4328ff25ab2fbd29d8001f01a0dc490646e8ee97d1cb297"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-4/official-product-source-links.json",
+        "expected_sha256": "6560a026192be4c7389929c797066c20a843226d4c65021b0e55853d2fd48be2",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 8126,
+        "actual_sha256": "6560a026192be4c7389929c797066c20a843226d4c65021b0e55853d2fd48be2"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-4/production-package.md",
+        "expected_sha256": "e678b6f61e0b72afb0c73c355c58c1fc6a4cb9ea3b0357a39609570e7eb69866",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "text/markdown; charset=utf-8",
+        "bytes": 12654,
+        "actual_sha256": "e678b6f61e0b72afb0c73c355c58c1fc6a4cb9ea3b0357a39609570e7eb69866"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-4/product-compositing.json",
+        "expected_sha256": "7099a3b3b5ee369f51f8acab2e3f00251e39fb728d8b6e21259dcc140ee21b45",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 2363,
+        "actual_sha256": "7099a3b3b5ee369f51f8acab2e3f00251e39fb728d8b6e21259dcc140ee21b45"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-5/manifest.json",
+        "expected_sha256": "632abb36d258b4732566fd100bee6a11473cfcf59ae1fe970bf8cb4d6ae49de9",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 7105,
+        "actual_sha256": "632abb36d258b4732566fd100bee6a11473cfcf59ae1fe970bf8cb4d6ae49de9"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-5/reference-bindings.json",
+        "expected_sha256": "ad794e7b2da2b75c9449f67bb99c554f43b320d5df47dbe1585874b170bb15f8",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 6988,
+        "actual_sha256": "ad794e7b2da2b75c9449f67bb99c554f43b320d5df47dbe1585874b170bb15f8"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-5/official-product-source-links.json",
+        "expected_sha256": "54c1d9b666311b46109662f0b5c6e1b3ccf4c18d28a926992cff5994eff97c6f",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 2623,
+        "actual_sha256": "54c1d9b666311b46109662f0b5c6e1b3ccf4c18d28a926992cff5994eff97c6f"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-5/shooting-package.md",
+        "expected_sha256": "a3c90bc8a7fa166b1e45617386e11619772d0186c757a0cf983104dfb63948c4",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "text/markdown; charset=utf-8",
+        "bytes": 10802,
+        "actual_sha256": "a3c90bc8a7fa166b1e45617386e11619772d0186c757a0cf983104dfb63948c4"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-4/H-GEN-PAIR.png",
+        "expected_sha256": "3c7fb44eeb985cadc936a790defe4428f041c6f8ef4a8e569b9d82d0bb2ab97d",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "image/png",
+        "bytes": 1678388,
+        "actual_sha256": "3c7fb44eeb985cadc936a790defe4428f041c6f8ef4a8e569b9d82d0bb2ab97d"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-4/previews/H-GEN-PAIR.webp",
+        "expected_sha256": "a0df7494f0040503f7b86e9620e2e47833a316d740e6bcd38da118f068c0256c",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "image/webp",
+        "bytes": 15466,
+        "actual_sha256": "a0df7494f0040503f7b86e9620e2e47833a316d740e6bcd38da118f068c0256c"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-4/H-GEN-REAR.png",
+        "expected_sha256": "638788a29ad30654b3a03cd25f0cf0bd7d8161f995ebec2701941e73b97f3889",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "image/png",
+        "bytes": 1770811,
+        "actual_sha256": "638788a29ad30654b3a03cd25f0cf0bd7d8161f995ebec2701941e73b97f3889"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-4/previews/H-GEN-REAR.webp",
+        "expected_sha256": "bdd1e817b76c3d833df1410db1d1d9365ee4e1f496d411d4e82f6ae8bd0c1de0",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "image/webp",
+        "bytes": 13124,
+        "actual_sha256": "bdd1e817b76c3d833df1410db1d1d9365ee4e1f496d411d4e82f6ae8bd0c1de0"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-4/H-GEN-CAMERA.png",
+        "expected_sha256": "e91ba636f6c7ff2d96ed205bd6e81a9848c85939e517367bb1f57ebdc19eab76",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "image/png",
+        "bytes": 1954325,
+        "actual_sha256": "e91ba636f6c7ff2d96ed205bd6e81a9848c85939e517367bb1f57ebdc19eab76"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-4/previews/H-GEN-CAMERA.webp",
+        "expected_sha256": "2bbc741e02bfed048e8b48c98c12c36454ebf11d81e2a9394f2461f525d0eb9b",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "image/webp",
+        "bytes": 20690,
+        "actual_sha256": "2bbc741e02bfed048e8b48c98c12c36454ebf11d81e2a9394f2461f525d0eb9b"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-5/X-GEN-FRONT.png",
+        "expected_sha256": "310d541788fb9369940389d82fc370f39d5dfe72c959f3825139709efb48f9f7",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "image/png",
+        "bytes": 1591984,
+        "actual_sha256": "310d541788fb9369940389d82fc370f39d5dfe72c959f3825139709efb48f9f7"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-5/previews/X-GEN-FRONT.webp",
+        "expected_sha256": "9e75383c85e3a12858f26db70b70ebc846a7aaf6f8f0bf0fa829b651337392f8",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "image/webp",
+        "bytes": 11334,
+        "actual_sha256": "9e75383c85e3a12858f26db70b70ebc846a7aaf6f8f0bf0fa829b651337392f8"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-5/X-GEN-REAR.png",
+        "expected_sha256": "715551970cc8b60b1b3658e646e26a46bb86008822f3a05ffcecad958bdc5f19",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "image/png",
+        "bytes": 2211875,
+        "actual_sha256": "715551970cc8b60b1b3658e646e26a46bb86008822f3a05ffcecad958bdc5f19"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-5/previews/X-GEN-REAR.webp",
+        "expected_sha256": "0975f1678d2a1bcaf40b9e2f75d775b2022765d3f4a0a2c29b51f2f0b472b52c",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "image/webp",
+        "bytes": 15524,
+        "actual_sha256": "0975f1678d2a1bcaf40b9e2f75d775b2022765d3f4a0a2c29b51f2f0b472b52c"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-5/X-GEN-MOSCOW.png",
+        "expected_sha256": "1cb1c6f78c6c34805200f58cf873c31706497b7bd3cba44a7d99362018385c50",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "image/png",
+        "bytes": 2413517,
+        "actual_sha256": "1cb1c6f78c6c34805200f58cf873c31706497b7bd3cba44a7d99362018385c50"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-5/previews/X-GEN-MOSCOW.webp",
+        "expected_sha256": "e36539b16fc9d5975cff7e8b0d2bbb0d78e02c153d6e78705b4baa9d69d48245",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "image/webp",
+        "bytes": 32744,
+        "actual_sha256": "e36539b16fc9d5975cff7e8b0d2bbb0d78e02c153d6e78705b4baa9d69d48245"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-4/01-honor-realism.png",
+        "expected_sha256": "db0c1517d55c460eb78e698c7c4eddb5737fe3e0462d90d7c68502b629a5081e",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "image/png",
+        "bytes": 1383042,
+        "actual_sha256": "db0c1517d55c460eb78e698c7c4eddb5737fe3e0462d90d7c68502b629a5081e"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-4/02-honor-3d.png",
+        "expected_sha256": "b661000edd39577bf516c5c7a3567b21597b96108cffe4ddddeaf611d0e04c24",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "image/png",
+        "bytes": 619834,
+        "actual_sha256": "b661000edd39577bf516c5c7a3567b21597b96108cffe4ddddeaf611d0e04c24"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-4/03-honor-drawn.png",
+        "expected_sha256": "2279000421fef277e1e7555498009f983f7a47e6943e549c75111b2ddf3b3e1d",
+        "verified": true,
+        "http_status": 200,
+        "content_type": "image/png",
+        "bytes": 1421451,
+        "actual_sha256": "2279000421fef277e1e7555498009f983f7a47e6943e549c75111b2ddf3b3e1d"
+      }
+    ]
+  },
+  "drive": {
+    "schema_version": 1,
+    "project": "raznoe",
+    "scenes": [
+      4,
+      5
+    ],
+    "checked_at": "2026-11-10T23:19:16+00:00",
+    "verified_count": 6,
+    "all_verified": true,
+    "site_publication_verified": false,
+    "scope": "Original generated images re-downloaded through authenticated Google Drive connector and compared byte-for-byte. Not proof of product geometry, editorial approval, video completion or contest entry.",
+    "results": [
+      {
+        "asset_id": "H-GEN-PAIR",
+        "drive_id": "1rIUM6WyucPrNc7JRNp-xy1o9JY-okphx",
+        "path": "projects/raznoe/references/scenes/scene-4/H-GEN-PAIR.png",
+        "sha256": "3c7fb44eeb985cadc936a790defe4428f041c6f8ef4a8e569b9d82d0bb2ab97d",
+        "bytes": 1678388,
+        "readback_verified": true
+      },
+      {
+        "asset_id": "H-GEN-REAR",
+        "drive_id": "1dUQvqe4T28cx4YAbVBhgWkAFCWqgvb5l",
+        "path": "projects/raznoe/references/scenes/scene-4/H-GEN-REAR.png",
+        "sha256": "638788a29ad30654b3a03cd25f0cf0bd7d8161f995ebec2701941e73b97f3889",
+        "bytes": 1770811,
+        "readback_verified": true
+      },
+      {
+        "asset_id": "H-GEN-CAMERA",
+        "drive_id": "1JVgChDGu4r5lijnpOtpn_L5K_l4mE9Ib",
+        "path": "projects/raznoe/references/scenes/scene-4/H-GEN-CAMERA.png",
+        "sha256": "e91ba636f6c7ff2d96ed205bd6e81a9848c85939e517367bb1f57ebdc19eab76",
+        "bytes": 1954325,
+        "readback_verified": true
+      },
+      {
+        "asset_id": "X-GEN-FRONT",
+        "drive_id": "1uAycU-1HZJlt50r7chyLbXo5_2eYbDkp",
+        "path": "projects/raznoe/references/scenes/scene-5/X-GEN-FRONT.png",
+        "sha256": "310d541788fb9369940389d82fc370f39d5dfe72c959f3825139709efb48f9f7",
+        "bytes": 1591984,
+        "readback_verified": true
+      },
+      {
+        "asset_id": "X-GEN-REAR",
+        "drive_id": "19RTcxsrwT39DrayLt1Aio8ODez_02kwX",
+        "path": "projects/raznoe/references/scenes/scene-5/X-GEN-REAR.png",
+        "sha256": "715551970cc8b60b1b3658e646e26a46bb86008822f3a05ffcecad958bdc5f19",
+        "bytes": 2211875,
+        "readback_verified": true
+      },
+      {
+        "asset_id": "X-GEN-MOSCOW",
+        "drive_id": "1yXVg8rAT7JJbyxT7qfYuEw1gejZiKrlm",
+        "path": "projects/raznoe/references/scenes/scene-5/X-GEN-MOSCOW.png",
+        "sha256": "1cb1c6f78c6c34805200f58cf873c31706497b7bd3cba44a7d99362018385c50",
+        "bytes": 2413517,
+        "readback_verified": true
+      }
+    ],
+    "evidence_reused_without_redownload": true
+  },
+  "tests": {
+    "checked_at": "2026-11-11T00:06:14+00:00",
+    "tests_run": 550,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "all_tests_passed": true
+  },
+  "technical_reference_integration_complete": true,
+  "full_films_complete": false,
+  "editorial_approval": false,
+  "video_launches": 0,
+  "new_generated_images": 0,
+  "scope": "Complete delivery of existing six generated images and real phone-model reference bindings in scenes 4/5. Not completed videos or contest participation.",
+  "tests_final": {
+    "checked_at": "2026-11-11T00:06:48+00:00",
+    "tests_run": 550,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "all_tests_passed": true
+  },
+  "validations": [
+    {
+      "name": "site",
+      "exit_code": 0
+    },
+    {
+      "name": "instructions",
+      "exit_code": 0
+    },
+    {
+      "name": "projects",
+      "exit_code": 0
+    }
+  ],
+  "protected_files_unchanged": {
+    "projects/raznoe/video-prompts.md": "986b94bc6c500bffe4810d29566ef241a6a5fe0e56e43685df0458a6e79172e8",
+    "projects/raznoe/character-references.json": "11fd3e1c8c1c356f9e48f6f1d9688294aba36e3cf6e598972429bcc5f7a1b643",
+    "projects/raznoe/references/scenes/scene-4/manifest.json": "5a33b9438c533b07c83df34193d15a9ab410c0d5e56d0a61f62363fe1fbd1f7f",
+    "projects/raznoe/references/scenes/scene-4/reference-bindings.json": "2c9c24d90e9e6c57f4328ff25ab2fbd29d8001f01a0dc490646e8ee97d1cb297",
+    "projects/raznoe/references/scenes/scene-4/official-product-source-links.json": "6560a026192be4c7389929c797066c20a843226d4c65021b0e55853d2fd48be2",
+    "projects/raznoe/references/scenes/scene-4/production-package.md": "e678b6f61e0b72afb0c73c355c58c1fc6a4cb9ea3b0357a39609570e7eb69866",
+    "projects/raznoe/references/scenes/scene-4/product-compositing.json": "7099a3b3b5ee369f51f8acab2e3f00251e39fb728d8b6e21259dcc140ee21b45",
+    "projects/raznoe/references/scenes/scene-5/manifest.json": "632abb36d258b4732566fd100bee6a11473cfcf59ae1fe970bf8cb4d6ae49de9",
+    "projects/raznoe/references/scenes/scene-5/reference-bindings.json": "ad794e7b2da2b75c9449f67bb99c554f43b320d5df47dbe1585874b170bb15f8",
+    "projects/raznoe/references/scenes/scene-5/official-product-source-links.json": "54c1d9b666311b46109662f0b5c6e1b3ccf4c18d28a926992cff5994eff97c6f",
+    "projects/raznoe/references/scenes/scene-5/shooting-package.md": "a3c90bc8a7fa166b1e45617386e11619772d0186c757a0cf983104dfb63948c4",
+    "projects/raznoe/references/scenes/scene-4/H-GEN-PAIR.png": "3c7fb44eeb985cadc936a790defe4428f041c6f8ef4a8e569b9d82d0bb2ab97d",
+    "projects/raznoe/references/scenes/scene-4/previews/H-GEN-PAIR.webp": "a0df7494f0040503f7b86e9620e2e47833a316d740e6bcd38da118f068c0256c",
+    "projects/raznoe/references/scenes/scene-4/H-GEN-REAR.png": "638788a29ad30654b3a03cd25f0cf0bd7d8161f995ebec2701941e73b97f3889",
+    "projects/raznoe/references/scenes/scene-4/previews/H-GEN-REAR.webp": "bdd1e817b76c3d833df1410db1d1d9365ee4e1f496d411d4e82f6ae8bd0c1de0",
+    "projects/raznoe/references/scenes/scene-4/H-GEN-CAMERA.png": "e91ba636f6c7ff2d96ed205bd6e81a9848c85939e517367bb1f57ebdc19eab76",
+    "projects/raznoe/references/scenes/scene-4/previews/H-GEN-CAMERA.webp": "2bbc741e02bfed048e8b48c98c12c36454ebf11d81e2a9394f2461f525d0eb9b",
+    "projects/raznoe/references/scenes/scene-5/X-GEN-FRONT.png": "310d541788fb9369940389d82fc370f39d5dfe72c959f3825139709efb48f9f7",
+    "projects/raznoe/references/scenes/scene-5/previews/X-GEN-FRONT.webp": "9e75383c85e3a12858f26db70b70ebc846a7aaf6f8f0bf0fa829b651337392f8",
+    "projects/raznoe/references/scenes/scene-5/X-GEN-REAR.png": "715551970cc8b60b1b3658e646e26a46bb86008822f3a05ffcecad958bdc5f19",
+    "projects/raznoe/references/scenes/scene-5/previews/X-GEN-REAR.webp": "0975f1678d2a1bcaf40b9e2f75d775b2022765d3f4a0a2c29b51f2f0b472b52c",
+    "projects/raznoe/references/scenes/scene-5/X-GEN-MOSCOW.png": "1cb1c6f78c6c34805200f58cf873c31706497b7bd3cba44a7d99362018385c50",
+    "projects/raznoe/references/scenes/scene-5/previews/X-GEN-MOSCOW.webp": "e36539b16fc9d5975cff7e8b0d2bbb0d78e02c153d6e78705b4baa9d69d48245",
+    "projects/raznoe/references/scenes/scene-4/01-honor-realism.png": "db0c1517d55c460eb78e698c7c4eddb5737fe3e0462d90d7c68502b629a5081e",
+    "projects/raznoe/references/scenes/scene-4/02-honor-3d.png": "b661000edd39577bf516c5c7a3567b21597b96108cffe4ddddeaf611d0e04c24",
+    "projects/raznoe/references/scenes/scene-4/03-honor-drawn.png": "2279000421fef277e1e7555498009f983f7a47e6943e549c75111b2ddf3b3e1d",
+    "video-prompts.md": "fc060c599a25ad56cd77141f864834ec430b6b2af7b2676a26b86d458f08bc4c",
+    "review-ledger.json": "4a112ec9a41edd0c99784826ec4dd0435febcff3cdaa0f25da6442df3b7f3e1b",
+    "ops/topview-launch-queue.json": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+    "projects/raznoe/review-ledger.json": "9a4ed6a55a5a8829638567fe1570943ab99f0e5cd6315fed816e4de9519b666d",
+    "projects/raznoe/ops/topview-launch-queue.json": "1532ad13f700b0dbcdb3f1ff590ff5bd2e158f8204de4a32428080d1537adfb5",
+    "NEW-CHAT-HANDOFF.md": "58f30bdb728d23407db4bfa22d10a44aeea78a5b9ec050947d6c6ea2e844840e",
+    "SYNC-RUNBOOK.md": "ed3edff9823e89e4b89770ac55a9d4b9e7e1df34518222a2ee39b13bf942b18a",
+    "AI-PROJECT-GUIDE.md": "c62976f8c2561633e3d9612bcda6bad706ef85a9ad1a5295e2e6e6513b6efca6",
+    "PROMPT-STYLE-GUIDE.md": "2afe827fe839af546a0f7f4c1f36c57fcd976dd3f6fd8759ddf09ff265fa505d",
+    "USER-GUIDE.md": "b5cf8309fba1355fd1cd201e4bfe1abc88726b927d7c7f6d2bdb0c402f7cdc58",
+    "README-AI-SYNC.md": "e8d83475b63a94eeb24c6ac3ac4fd182de6bcb132258f191be2a7759ebf641d9",
+    "BACKUP-AI-RUNBOOK.md": "6b0a0ba95d23937c71d072fa96e278a6485a27391245834f32e05be9572812ac"
+  }
+}

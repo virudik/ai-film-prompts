@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:f3295680-1f4c-4764-9a25-e04b833e7d2d",
   "task": "Finish HONOR4/5 existing reference website readback and full tests; no media generation, queue changes or contest submission",
   "acquired_at": "2026-11-10T23:56:24Z",
-  "expires_at": "2026-11-11T00:30:24Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-11T00:06:48+00:00",
   "rules": "ops/CANON-LOCK.md"
 }
