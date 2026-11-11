@@ -11,8 +11,8 @@
   "preferred_executor_observed": "work",
   "started_at": "2026-11-11T09:00:34.285523Z",
   "receipt_started_at": "2026-11-11T09:09:58.270Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
     "scope": "Authenticated read-only Topview connector: 14 boards, all 15 video-data pages at pageSize100, 672 unique account-wide video tasks; 6 active independently rechecked by taskId; 41/41 submitted/completed registered IDs checked",
@@ -72,9 +72,10 @@
   "lease": {
     "holder": "chatgpt:ordinary:fffabf5f-4d6b-4d50-89a4-b6314dbbb3fd",
     "acquired_at": "2026-11-11T09:08:57.452Z",
-    "expires_at": "2026-11-11T09:23:57.452Z",
+    "expires_at": null,
     "lease_commit": "c52f5f2d9154948919f464f3657270e4b75b32f7",
-    "release_status": "held"
+    "release_status": "released_atomically_with_receipt",
+    "released_at": "2026-11-11T09:10:42.878Z"
   },
   "outcome": "no_free_slot",
   "blocker": "no_free_global_slot: six independent confirmed init Topview tasks on My First Board; no new Create or paid TinyFish allowed",
@@ -88,6 +89,6 @@
     "verified_new_task_id": null
   },
   "source_head_checked": "3d7a6d38f189965fd3bb470c4954900a3b0ce8aa",
-  "completed_at": null,
-  "notes": "Direct owner t369u music/dance held without new consent; S62 held; effective 6/6 so no paid UI. TinyFish historical blocked_browser_input unchanged. GitHub robot free-slot issue #528 dates Nov10 only; current status from fresh connector. Hourly schedule stays enabled, route_generation unchanged, checkpoint/queue and shared telemetry untouched."
+  "completed_at": "2026-11-11T09:10:42.878Z",
+  "notes": "Direct owner t369u music/dance held without new consent; S62 held; effective 6/6 so no paid UI. TinyFish historical blocked_browser_input unchanged. GitHub robot free-slot issue #528 dates Nov10 only; current status from fresh connector. Hourly schedule stays enabled, route_generation unchanged, checkpoint/queue and shared telemetry untouched. Verified cleanly released own exact lease with final receipt under force-with-lease CAS. All six active tasks remain init and registered IDs 41/41 in read-only scan."
 }
