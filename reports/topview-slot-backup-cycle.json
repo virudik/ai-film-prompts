@@ -11,28 +11,51 @@
   "preferred_executor_observed": "work",
   "started_at": "2026-11-11T13:59:13.242148Z",
   "receipt_started_at": "2026-11-11T14:02:21.101Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
-    "complete": false,
-    "scope": null,
-    "boards": null,
-    "pages": null,
-    "video_tasks": null,
-    "unique_task_ids": null,
-    "last_full_scan_at": null
+    "complete": true,
+    "scope": "Authenticated Topview connector read-only scan of all 14 editable boards, 19 video pages pageSize100, followed by all 6 My First Board pages; all registered queue IDs cross-checked against live main-board pages",
+    "boards": 14,
+    "pages": 19,
+    "page_size": 100,
+    "video_tasks": 672,
+    "unique_task_ids": 672,
+    "status_counts": {
+      "success": 640,
+      "fail": 27,
+      "init": 5
+    },
+    "last_full_scan_at": "2026-11-11T14:03:04.397Z",
+    "main_board_rechecked_at": "2026-11-11T14:06:20.674Z",
+    "registered_task_ids": 41,
+    "registered_found": 41,
+    "unreconciled_claims": 0,
+    "ready_sha": {
+      "queue": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+      "task_map": "aa99de52c7f7cf99c464fc402b7abc4b6133f872a66cd3958984e0b042f35bcb",
+      "match_both": true,
+      "algorithm": "independent JS SHA256 UTF8, abc known-answer verified"
+    },
+    "owner_tasks_open": 0
   },
   "slots": {
-    "occupied": null,
-    "free": null,
+    "occupied": 5,
+    "free": 1,
     "physical_cap": 6,
-    "complete_scan_verified": false,
-    "active_task_ids": []
+    "complete_scan_verified": true,
+    "active_task_ids": [
+      "1dcb6fa0628d41b098227ca6c96f1630",
+      "a1330998d39b486e864ed4e22b4fe8c4",
+      "3a09108c8c474a0989118806b4a69f91",
+      "be627af0e9664db5b6ac2b62c34080a6",
+      "8bdd6439dad94592979aba23c137b4a0"
+    ]
   },
   "new_submissions": 0,
   "selected_item": null,
   "task_ids": [],
-  "browser_transport": "not_used",
+  "browser_transport": "not_used_no_owner_authorized_ready_item",
   "tinyfish": {
     "runs": [],
     "steps": 0,
@@ -43,21 +66,24 @@
   "lease": {
     "holder": "chatgpt:ordinary:36656c5b-3358-47a7-917a-21239fc822cc",
     "acquired_at": "2026-11-11T14:01:44.477Z",
-    "expires_at": "2026-11-11T14:46:44.477Z",
+    "expires_at": null,
     "lease_commit": "eb28dc2a1e9ebe05df5a75a68ebbdaed46f7fa1e",
-    "release_status": "held"
+    "release_status": "released_atomically_with_receipt",
+    "released_at": "2026-11-11T14:07:54.318Z"
   },
-  "outcome": "in_progress",
-  "blocker": null,
-  "retryable": null,
+  "outcome": "no_owner_authorized_ready_item",
+  "blocker": "One verified physical free slot (5/6 active); 16 technically ready queue items are all blocked by current owner decisions: scene 62 held by t406u/t422u; scenes 28/49/50/51 require new consent per t369u; S49B only after story completion per t422u. Bot launcher_health actionable denotes input readiness, not owner's authorization. Previous TinyFish file-import/Unlimited0 preflight blocker has no new evidence, no paid probe.",
+  "retryable": false,
   "acceptance": {
-    "scheduled_runtime": "confirmed current run id via Automations.peek",
-    "ui_profile_login": "not_checked",
-    "ui_control": "not_checked",
+    "scheduled_runtime": "Confirmed by Automations.peek current scheduled run id b9ddbc57-e548-8320-9769-c594282d6f72",
+    "ui_profile_login": "not_retested",
+    "ui_control": "not_retested",
     "file_import": "not_verified",
-    "unlimited_zero": "not_yet_checked",
+    "unlimited_zero": "Five live tasks individually show useUnlimitMode=true and creditsCost=0; no new item composer preflight",
     "verified_new_task_id": null
   },
-  "source_head_checked": "eb28dc2a1e9ebe05df5a75a68ebbdaed46f7fa1e",
-  "notes": "Initial actual hourly receipt, before full live scan. Prior cycle is historical, not current capacity."
+  "source_head_checked": "b45c969f6a7ce0f0dab07213f320cf29f883c16d",
+  "notes": "11 Nov 17:00 MSK actual ordinary hourly run. Full 14-board scan 672 videos, active 5, 1 free. All 41 submitted/completed queue task IDs found in direct 505-item main-board scan, queue/map SHA256 independently recalculated. No transitional claims or owner tasks. Holds prevent Create. Work and Relay automation run IDs read; no proof of new Work GUI/quota. No TinyFish, Create, or Topview credits. Schedule HH:00 and route generation 3 unchanged. No checkpoint/resume_focus edit.",
+  "source_head_started": "b45c969f6a7ce0f0dab07213f320cf29f883c16d",
+  "completed_at": "2026-11-11T14:07:54.318Z"
 }
