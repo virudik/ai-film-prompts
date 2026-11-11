@@ -5,32 +5,58 @@
   "runner": "ordinary_hourly",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
   "execution_instance_id": "357660f4-2205-4e6d-9dd3-f3c8c0c468a7",
-  "run_id": null,
-  "run_id_unavailable_reason": "Automations.get returned NOT_FOUND (HTTP 404 action not found) in this runtime; no actual platform run ID exposed.",
+  "run_id": "38cee797-9d80-8322-9710-653e188619e2",
+  "run_id_unavailable_reason": null,
   "route_generation": 3,
   "started_at": "2026-11-11T16:00:15.580Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "source_head_started": "c60faea9354a1e573a44e1941acc6c835824f8fa",
-  "source_head_checked": "7dfec76242a513f9baa1a41dfe1a3c6518614c35",
+  "source_head_checked": "414707158435d0d41f4fd81d92348c90677f9d8a",
   "scan": {
-    "complete": false,
-    "scope": "Pending fresh read-only all-board/all-page Topview scan",
-    "boards": null,
-    "pages": null,
-    "unique_task_ids": null
+    "complete": true,
+    "scope": "Authenticated Topview connector read-only all 14 boards and all 19 paginated video pages size 100; independent get_board_task checks for 5 active and 41 registered task IDs",
+    "boards": 14,
+    "pages": 19,
+    "page_size": 100,
+    "video_tasks": 672,
+    "unique_task_ids": 672,
+    "status_counts": {
+      "success": 640,
+      "fail": 27,
+      "init": 5
+    },
+    "last_full_scan_at": "2026-11-11T16:03:00Z",
+    "active_rechecked_at": "2026-11-11T16:06:06.696Z",
+    "registered_task_ids": 41,
+    "registered_found": 41,
+    "unreconciled_claims": 0,
+    "ready_sha": {
+      "queue": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+      "task_map": "937df596602c93c7dbf8966a07409009a75205b410b532f1f202b8487db4d412",
+      "match_both": true,
+      "algorithm": "Independent JavaScript SHA-256 on UTF-8 bytes; abc test-vector passed"
+    },
+    "technically_ready_not_owner_authorized": 16,
+    "owner_tasks_open": 0
   },
   "slots": {
-    "occupied": null,
-    "free": null,
+    "occupied": 5,
+    "free": 1,
     "physical_cap": 6,
-    "complete_scan_verified": false,
-    "active_task_ids": []
+    "complete_scan_verified": true,
+    "active_task_ids": [
+      "1dcb6fa0628d41b098227ca6c96f1630",
+      "a1330998d39b486e864ed4e22b4fe8c4",
+      "3a09108c8c474a0989118806b4a69f91",
+      "be627af0e9664db5b6ac2b62c34080a6",
+      "8bdd6439dad94592979aba23c137b4a0"
+    ]
   },
   "new_submissions": 0,
   "selected_item": null,
   "task_ids": [],
-  "browser_transport": "not_used",
+  "browser_transport": "not_used_no_owner_authorized_ready_item",
   "tinyfish": {
     "runs": [],
     "steps": 0,
@@ -41,20 +67,23 @@
   "lease": {
     "holder": "chatgpt:ordinary:357660f4-2205-4e6d-9dd3-f3c8c0c468a7",
     "acquired_at": "2026-11-11T16:00:55.436Z",
-    "expires_at": "2026-11-11T16:30:55.436Z",
+    "expires_at": null,
     "lease_commit": "7dfec76242a513f9baa1a41dfe1a3c6518614c35",
-    "release_status": "held"
+    "release_status": "released_atomically_with_receipt",
+    "released_at": "2026-11-11T16:09:06.455Z"
   },
-  "outcome": null,
-  "blocker": null,
-  "retryable": null,
+  "outcome": "no_owner_authorized_ready_item",
+  "blocker": "One free slot after complete 14-board scan, but all 16 technically ready queue items are restricted by owner policy: S62 held t406u/t422u; new scene28 and 49/50/51 music/dance require separate consent t369u; S49B only after all story per t422u. No ready authorized story item. TinyFish native exact-file importer blocker from 2026-11-06 remains unresolved and not worth recurring metered retest. GitHub robot launch_stalled/no_handler_receipt is a telemetry state, not launch authorization.",
+  "retryable": false,
   "acceptance": {
-    "scheduled_runtime": "actual scheduled turn, runtime ID unavailable",
+    "scheduled_runtime": "Confirmed existing hourly schedule enabled via Automations.peek and actual current last_run.id 38cee797-9d80-8322-9710-653e188619e2",
     "ui_profile_login": "not_retested",
     "ui_control": "not_retested",
     "file_import": "not_verified",
-    "unlimited_zero": "not_retested",
+    "unlimited_zero": "5 active task details have Unlimited true/creditsCost 0; no new-item UI preflight",
     "verified_new_task_id": null
   },
-  "notes": "Started independent scheduled check; no new Create. Route and own lease checked."
+  "notes": "11 Nov 19:00 MSK ordinary scheduled run; fresh full Topview scan and reconciliation, all 41 registered task IDs directly rechecked. Read root automation-monitor-status.json launcher_health, event wake, latest bot issue #571, peer run IDs and open owner tasks. Readiness SHA matched both files, owner holds exclude all 16 ready. No Create, no TinyFish, no Topview credits, no change to route_generation3, claims, owner tasks, queue, checkpoints. HH:55 last_run no_update 15:55Z, Relay last_run no_update 15:39Z; old event not used as live capacity.",
+  "runtime_run_id_source": "Automations.peek last_run.id: in_progress for scheduled 2026-11-11T16:00:00Z; distinct from previous latest_result.run_id 3c674917-10b8-832b-8c94-1313e6f291a5",
+  "completed_at": "2026-11-11T16:09:06.455Z"
 }
