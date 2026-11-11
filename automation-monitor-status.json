@@ -196,11 +196,11 @@
     ],
     "robot_rewake": {
       "episode": "6811ec7e",
-      "count": 9,
-      "last_at": "2026-11-11T17:30:33Z",
-      "sequence": 56,
+      "count": 10,
+      "last_at": "2026-11-11T18:30:34Z",
+      "sequence": 57,
       "first_at": "2026-11-11T10:00:32Z",
-      "last_event_id": "slots:6811ec7e:56",
+      "last_event_id": "slots:6811ec7e:57",
       "silence_reported": "slots:d23cf217:2"
     }
   },
