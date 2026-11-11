@@ -30,9 +30,13 @@ import argparse
 import json
 import os
 import re
+import sys
 import tempfile
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import canon_lock  # noqa: E402
 
 KEEP_SECTIONS = 5
 KEEP_COMPLETED = 10
@@ -300,15 +304,19 @@ def bases(root):
                 yield pid, root / "projects" / pid
 
 
-def run(root, write=False, now=None, relay_only=False, root_only=False):
+def run(root, write=False, now=None, relay_only=False, root_only=False, skip_held_locks=False):
     now = now or datetime.now(timezone.utc)
+    root = Path(root)
     report = run_relay(root, write, now)
     if relay_only:
         return report
-    for pid, base in bases(Path(root)):
+    for pid, base in bases(root):
         if root_only and pid:
             continue
         name = pid or "seregius"
+        if skip_held_locks and canon_lock.is_held(canon_lock.read(root, pid or None), now):
+            report.append("{}: замок занят, пропуск".format(name))
+            continue
         prefix = "" if not pid else "projects/{}/".format(pid)
         cp = base / CHECKPOINT
         if cp.is_file():
@@ -363,8 +371,11 @@ def main():
     ap.add_argument("--write", action="store_true")
     ap.add_argument("--relay-only", action="store_true", help="only Relay receipts; no queue or project changes")
     ap.add_argument("--root-only", action="store_true", help="root files only; never write other projects")
+    ap.add_argument("--skip-held-locks", action="store_true",
+                    help="do not trim a project whose canon lock is still held")
     a = ap.parse_args()
-    rep = run(a.repo, a.write, relay_only=a.relay_only, root_only=a.root_only)
+    rep = run(a.repo, a.write, relay_only=a.relay_only, root_only=a.root_only,
+              skip_held_locks=a.skip_held_locks)
     print("\n".join(rep) if rep else "нечего переносить")
 
 

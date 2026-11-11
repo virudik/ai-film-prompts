@@ -3,6 +3,22 @@
   "description": "Finished work moved from work-resume-register.json at the weekly cleanup; newest first. History only, not live work.",
   "completed_work": [
     {
+      "work_id": "PROJECT-UI-INSTRUCTIONS-20261027",
+      "title": "Синхронизация внутренних инструкций ChatGPT Project",
+      "status": "completed_verified_configuration",
+      "updated_at": "2026-10-27T09:35:10.298311+00:00",
+      "completed": [
+        "Saved actual ChatGPT Project Instructions and verified exact full-text readback after reopening.",
+        "Canonical template corrected; 305 unit tests, site validation, instruction consistency and D7 15/15 passed."
+      ],
+      "next_action": "Normal work from fresh main; installed Claude settings remain separately unverified.",
+      "canonical_refs": [
+        "USER-GUIDE.md",
+        "reports/chatgpt-project-instructions-2026-10-27.json"
+      ],
+      "completed_at": "2026-10-27T09:35:10.298311+00:00"
+    },
+    {
       "work_id": "INSTRUCTION-RECONCILE-20261026",
       "title": "Согласование инструкций, автоматизаций и архива входящих",
       "status": "completed_verified_configuration",

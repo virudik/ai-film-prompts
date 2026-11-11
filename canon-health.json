@@ -1,17 +1,11 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-10T23:56:16Z",
+  "checked_at": "2026-11-11T01:21:22Z",
   "status": "warn",
-  "warnings": 3,
-  "info": 17,
+  "warnings": 1,
+  "info": 15,
   "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. Устаревание по состоянию проекта, даты только сигнал. Чистку делает ChatGPT по предупреждению или в воскресенье 08:55 МСК.",
   "problems": [
-    {
-      "level": "warn",
-      "code": "handoff-size",
-      "text": "Хендоф 38 КБ (цель до 35 КБ): старые блоки перенести в журнал archive/handoff-log.md.",
-      "file": "NEW-CHAT-HANDOFF.md"
-    },
     {
       "level": "info",
       "code": "instruction-size",
@@ -27,7 +21,7 @@
     {
       "level": "info",
       "code": "instruction-size",
-      "text": "USER-GUIDE.md: 84 КБ, проверить на повторы.",
+      "text": "USER-GUIDE.md: 85 КБ, проверить на повторы.",
       "file": "USER-GUIDE.md"
     },
     {
@@ -87,12 +81,6 @@
     {
       "level": "info",
       "code": "ops-stale",
-      "text": "ops/SELF-HEAL.md: проверялся 22.10.2026, больше 14 дней назад.",
-      "file": "ops/SELF-HEAL.md"
-    },
-    {
-      "level": "info",
-      "code": "ops-stale",
       "text": "ops/TOPVIEW-EVENT-WAKE.md: проверялся 26.10.2026, больше 14 дней назад.",
       "file": "ops/TOPVIEW-EVENT-WAKE.md"
     },
@@ -109,21 +97,9 @@
       "file": "ops/dance-model-comparison.md"
     },
     {
-      "level": "info",
-      "code": "lock-expired",
-      "text": "Роскосмос: замок проекта (chatgpt:work:da0ac368-f673-451d-8812-b3cc481277ef) истёк 05.11 19:52 UTC и не снят; он считается свободным, но запись стоит убрать.",
-      "file": "projects/roscosmos/canon-lock.json"
-    },
-    {
-      "level": "warn",
-      "code": "project-handoff-size",
-      "text": "Разное: хендоф 15 КБ (цель до 12 КБ): контрольные точки — в projects/raznoe/reports/current-work-checkpoint.md, история — в projects/raznoe/archive/handoff-log.md.",
-      "file": "projects/raznoe/HANDOFF.md"
-    },
-    {
       "level": "warn",
       "code": "service-file-size",
-      "text": "work-resume-register.json: 108 КБ (предел 100 КБ): старые записи перенести в архив — python3 scripts/trim_service_files.py . --write (раздел хендофа «Как чистить», п. 8).",
+      "text": "work-resume-register.json: 107 КБ (предел 100 КБ): старые записи перенести в архив — python3 scripts/trim_service_files.py . --write (раздел хендофа «Как чистить», п. 8).",
       "file": "work-resume-register.json"
     }
   ]

@@ -1,0 +1,141 @@
+name: Service file maintenance
+
+# Owner decision 11.11.2026 04:10 MSK.
+# Finished service entries are archived on main once a day and whenever canon-health
+# reports service-file-size. Handoffs are never trimmed on main: an old dated block
+# becomes a separate pull request, and this workflow does not merge it.
+
+on:
+  schedule:
+    - cron: '40 4 * * *'   # 07:40 МСК, один раз в сутки
+  workflow_run:
+    workflows: ['Canon health (stale, oversized and broken canon parts)']
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: service-maintenance
+  cancel-in-progress: false
+
+jobs:
+  trim-finished:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion != 'cancelled'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          ref: main
+      - name: Archive finished service entries
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ "${{ github.event_name }}" = "workflow_run" ]; then
+            set +e
+            python3 - << 'PY'
+          import json, sys
+          health = json.load(open("canon-health.json"))
+          codes = {p.get("code") for p in health.get("problems") or [] if isinstance(p, dict)}
+          sys.exit(0 if "service-file-size" in codes else 2)
+          PY
+            code=$?
+            set -e
+            if [ "$code" = "2" ]; then
+              echo "no service-file-size warning"
+              exit 0
+            fi
+            if [ "$code" != "0" ]; then exit "$code"; fi
+          fi
+          git fetch origin main
+          git reset --hard origin/main
+          python3 scripts/trim_service_files.py . --write --skip-held-locks
+          if git diff --quiet; then
+            echo "nothing finished to archive"
+            exit 0
+          fi
+          git add -u
+          git commit -m "Trim finished service-file entries into the archive"
+          for attempt in 1 2 3 4; do
+            if git push origin HEAD:main; then exit 0; fi
+            git fetch origin main
+            git rebase origin/main || { git rebase --abort || true; git reset --hard origin/main; python3 scripts/trim_service_files.py . --write --skip-held-locks; git add -u; if git diff --cached --quiet; then exit 0; fi; git commit -m "Trim finished service-file entries into the archive"; }
+            sleep $((attempt * 5))
+          done
+          exit 1
+
+  handoff-proposal:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion != 'cancelled'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          ref: main
+      - name: Open a review PR for old handoff blocks
+        env:
+          GH_TOKEN: ${{ github.token }}
+          AGENT_RELAY_TOKEN: ${{ secrets.AGENT_RELAY_TOKEN }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git reset --hard origin/main
+          set +e
+          python3 - << 'PY'
+          import json, sys
+          health = json.load(open("canon-health.json"))
+          codes = {p.get("code") for p in health.get("problems") or [] if isinstance(p, dict)}
+          sys.exit(0 if codes & {"handoff-size", "project-handoff-size"} else 2)
+          PY
+          code=$?
+          set -e
+          if [ "$code" = "2" ]; then
+            echo "no handoff-size warning"
+            exit 0
+          fi
+          if [ "$code" != "0" ]; then exit "$code"; fi
+          open=$(gh pr list --base main --head robot/handoff-trim --state open --json number --jq 'length')
+          if [ "$open" != "0" ]; then
+            echo "handoff trim PR already open; not merging and not replacing it"
+            exit 0
+          fi
+          git checkout -B robot/handoff-trim origin/main
+          python3 scripts/propose_handoff_trim.py . --write > /tmp/handoff-proposal.json
+          set +e
+          python3 - << 'PY'
+          import json, sys
+          report = json.load(open("/tmp/handoff-proposal.json"))
+          sys.exit(0 if report.get("changed") else 2)
+          PY
+          code=$?
+          set -e
+          if [ "$code" = "2" ]; then
+            echo "nothing old and dated to propose"
+            exit 0
+          fi
+          if [ "$code" != "0" ]; then exit "$code"; fi
+          git add -u -- 'NEW-CHAT-HANDOFF.md' 'archive/handoff-log.md' 'projects/*/HANDOFF.md' 'projects/*/archive/handoff-log.md'
+          if git diff --cached --quiet; then
+            echo "proposal produced no handoff diff"
+            exit 0
+          fi
+          git commit -m "Propose handoff trim: old dated blocks moved to the archive"
+          git push --force-with-lease -u origin robot/handoff-trim
+          python3 scripts/propose_handoff_trim.py --body-json /tmp/handoff-proposal.json > /tmp/handoff-pr-body.md
+          url=$(gh pr create --base main --head robot/handoff-trim --title "Хендоф: предложить перенос старых блоков" --body-file /tmp/handoff-pr-body.md)
+          echo "opened $url"
+          python3 - << PY
+          import sys
+          sys.path.insert(0, "scripts")
+          import propose_handoff_trim as proposal
+          report = __import__("json").load(open("/tmp/handoff-proposal.json"))
+          status = proposal.send_notice(".", "$url", report.get("proposals") or [])
+          print(status)
+          PY
+          echo "This workflow does not merge the handoff PR."

@@ -1246,57 +1246,6 @@
       "updated_at": "2026-11-06T22:29:35.696Z"
     },
     {
-      "work_id": "SEREGIUS-PARODIES-20261109",
-      "project": "seregius",
-      "title": "Семь пародийных сцен с изображениями по прямой команде владельца",
-      "status": "superseded_by_SEREGIUS-PARODIES-20261110",
-      "created_at": "2026-11-09T10:48:12.025422+00:00",
-      "updated_at": "2026-11-09T20:38:32+00:00",
-      "completed": [
-        "Сверены свежие инструкции, ID 74–80 пока свободны; исходный checkpoint сохранён."
-      ],
-      "next_action": "Пародии 74–87 уже опубликованы как DRAFT, кадры Грока в манифестах. Не пересоздавать их и не запускать видео. Очередь не менять. Открыты только слоты без файлов из reports/parody-frames-to-draw-2026-11-10.md.",
-      "recovery": {
-        "schema_version": 1,
-        "verified_at": "2026-11-09T20:38:32+00:00",
-        "last_completed": "Выполнена новая задача сохранения существующих фото: на сайте14 оригиналов и14 превью, на Drive56 отдельных изображений (7 основных+7 первых+33 иных+9 прежних технических проб). Все байты скачаны обратно и SHA совпали. Семь ссылок из сцен проверены. Новых генераций/изменений промптов/приёмки/видео нет.",
-        "next_action": "Пародии 74–87 уже опубликованы как DRAFT, кадры Грока в манифестах. Не пересоздавать их и не запускать видео. Очередь не менять. Открыты только слоты без файлов из reports/parody-frames-to-draw-2026-11-10.md.",
-        "checkpoint": {
-          "file": "reports/current-work-checkpoint.md",
-          "anchor": "# 09.11.2026 — фото пародий: сайт и Drive проверены обратным скачиванием",
-          "sha256": "a2d167df9e9d062943b11a4a4d56cf5933f9d8889d247d902d72040789fe17cc"
-        },
-        "evidence": [
-          {
-            "file": "reports/parody-photo-delivery-2026-11-09.json",
-            "sha256": "51348f3d752a42140b66bbb5322f926b9f906a1f5046f0579b005362cff04cf0"
-          }
-        ],
-        "read_next": [
-          "reports/parody-existing-photos-publication-2026-11-09.json",
-          "archive/parody-74-80/drive-photo-manifest.json"
-        ],
-        "blockers": []
-      },
-      "scene_ids": [
-        74,
-        75,
-        76,
-        77,
-        78,
-        79,
-        80,
-        81,
-        82,
-        83,
-        84,
-        85,
-        86,
-        87
-      ],
-      "last_result": "Выполнена новая задача сохранения существующих фото: на сайте14 оригиналов и14 превью, на Drive56 отдельных изображений (7 основных+7 первых+33 иных+9 прежних технических проб). Все байты скачаны обратно и SHA совпали. Семь ссылок из сцен проверены. Новых генераций/изменений промптов/приёмки/видео нет."
-    },
-    {
       "work_id": "SEREGIUS-PARODIES-20261110",
       "project": "seregius",
       "title": "Пародии 74–87: заметки t540u и кадры t548u–t550u",
@@ -1355,6 +1304,57 @@
     "Keep one writer for canonical changes; update with material work checkpoint"
   ],
   "completed_work": [
+    {
+      "work_id": "SEREGIUS-PARODIES-20261109",
+      "project": "seregius",
+      "title": "Семь пародийных сцен с изображениями по прямой команде владельца",
+      "status": "superseded_by_SEREGIUS-PARODIES-20261110",
+      "created_at": "2026-11-09T10:48:12.025422+00:00",
+      "updated_at": "2026-11-09T20:38:32+00:00",
+      "completed": [
+        "Сверены свежие инструкции, ID 74–80 пока свободны; исходный checkpoint сохранён."
+      ],
+      "next_action": "Пародии 74–87 уже опубликованы как DRAFT, кадры Грока в манифестах. Не пересоздавать их и не запускать видео. Очередь не менять. Открыты только слоты без файлов из reports/parody-frames-to-draw-2026-11-10.md.",
+      "recovery": {
+        "schema_version": 1,
+        "verified_at": "2026-11-09T20:38:32+00:00",
+        "last_completed": "Выполнена новая задача сохранения существующих фото: на сайте14 оригиналов и14 превью, на Drive56 отдельных изображений (7 основных+7 первых+33 иных+9 прежних технических проб). Все байты скачаны обратно и SHA совпали. Семь ссылок из сцен проверены. Новых генераций/изменений промптов/приёмки/видео нет.",
+        "next_action": "Пародии 74–87 уже опубликованы как DRAFT, кадры Грока в манифестах. Не пересоздавать их и не запускать видео. Очередь не менять. Открыты только слоты без файлов из reports/parody-frames-to-draw-2026-11-10.md.",
+        "checkpoint": {
+          "file": "reports/current-work-checkpoint.md",
+          "anchor": "# 09.11.2026 — фото пародий: сайт и Drive проверены обратным скачиванием",
+          "sha256": "a2d167df9e9d062943b11a4a4d56cf5933f9d8889d247d902d72040789fe17cc"
+        },
+        "evidence": [
+          {
+            "file": "reports/parody-photo-delivery-2026-11-09.json",
+            "sha256": "51348f3d752a42140b66bbb5322f926b9f906a1f5046f0579b005362cff04cf0"
+          }
+        ],
+        "read_next": [
+          "reports/parody-existing-photos-publication-2026-11-09.json",
+          "archive/parody-74-80/drive-photo-manifest.json"
+        ],
+        "blockers": []
+      },
+      "scene_ids": [
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "last_result": "Выполнена новая задача сохранения существующих фото: на сайте14 оригиналов и14 превью, на Drive56 отдельных изображений (7 основных+7 первых+33 иных+9 прежних технических проб). Все байты скачаны обратно и SHA совпали. Семь ссылок из сцен проверены. Новых генераций/изменений промптов/приёмки/видео нет."
+    },
     {
       "work_id": "TOPVIEW-FRESHNESS-20261023",
       "title": "Восстановить публикацию Topview и проверить общий экран изображений",
@@ -1707,22 +1707,6 @@
         "ops/topview-launch-queue.json"
       ],
       "completed_at": "2026-10-27T10:08:38.722Z"
-    },
-    {
-      "work_id": "PROJECT-UI-INSTRUCTIONS-20261027",
-      "title": "Синхронизация внутренних инструкций ChatGPT Project",
-      "status": "completed_verified_configuration",
-      "updated_at": "2026-10-27T09:35:10.298311+00:00",
-      "completed": [
-        "Saved actual ChatGPT Project Instructions and verified exact full-text readback after reopening.",
-        "Canonical template corrected; 305 unit tests, site validation, instruction consistency and D7 15/15 passed."
-      ],
-      "next_action": "Normal work from fresh main; installed Claude settings remain separately unverified.",
-      "canonical_refs": [
-        "USER-GUIDE.md",
-        "reports/chatgpt-project-instructions-2026-10-27.json"
-      ],
-      "completed_at": "2026-10-27T09:35:10.298311+00:00"
     }
   ],
   "archived_completed_work": "archive/work-resume-register-archive.json",

@@ -54,9 +54,41 @@ class SelfHeal(unittest.TestCase):
         # third run: no duplicate task
         acts, st, inbox, _ = sh.plan(f, st, inbox, later + timedelta(minutes=30))
         self.assertEqual(len(inbox["tasks"]), 1)
-        # resolved -> logged and cleared
-        acts, st, inbox, _ = sh.plan(healthy(later + timedelta(minutes=60)), st, inbox, later + timedelta(minutes=60))
+        # resolved -> logged, and the self-heal task closes itself
+        when = later + timedelta(minutes=60)
+        acts, st, inbox, _ = sh.plan(healthy(when), st, inbox, when)
         self.assertEqual(st["status"], "ok")
+        self.assertEqual(st["log"][-1]["kind"], "resolved")
+        closed = inbox["tasks"][0]
+        self.assertEqual(closed["status"], "done")
+        self.assertIn("прошло", closed["result"].lower())
+        self.assertEqual(closed["closed_at"], sh.iso(when))
+        again = sh.plan(healthy(when + timedelta(minutes=30)), st, inbox, when + timedelta(minutes=30))[2]
+        self.assertEqual(again["tasks"][0]["closed_at"], closed["closed_at"])
+
+    def test_resolved_self_heal_closes_only_its_own_task(self):
+        inbox = {"tasks": [
+            {"id": "self-heal-sync-stale-1", "heal_key": "sync-stale", "source": "self-heal",
+             "status": "needs_owner", "text": "diagnose"},
+            {"id": "chatgpt-same-key", "heal_key": "sync-stale", "source": "chatgpt",
+             "status": "open", "text": "owner work"},
+            {"id": "owner-task", "source": "owner", "status": "open", "text": "leave me"},
+        ]}
+        prev = {"problems": {"sync-stale": {"text": "stale", "since": ago(90)}}, "log": []}
+        _, st, inbox, _ = sh.plan(healthy(), prev, inbox, NOW)
+        by_id = {t["id"]: t for t in inbox["tasks"]}
+        self.assertEqual(by_id["self-heal-sync-stale-1"]["status"], "done")
+        self.assertEqual(by_id["chatgpt-same-key"]["status"], "open")
+        self.assertEqual(by_id["owner-task"]["status"], "open")
+        self.assertNotIn("result", by_id["chatgpt-same-key"])
+        # A problem that is still current is not closed, even if an older pass is in the log.
+        inbox = {"tasks": [{"id": "still", "heal_key": "sync-stale", "source": "self-heal", "status": "open"}]}
+        prev = {"problems": {"sync-stale": {"text": "stale", "since": ago(10)}},
+                "log": [{"kind": "resolved", "key": "sync-stale", "text": "Прошло: old"}]}
+        facts = healthy()
+        facts["project_status"]["synced_at"] = ago(240)
+        _, _, inbox, _ = sh.plan(facts, prev, inbox, NOW)
+        self.assertEqual(inbox["tasks"][0]["status"], "open")
         self.assertEqual(st["log"][-1]["kind"], "resolved")
 
     def test_failed_run_reruns_once_and_second_failure_goes_to_agent(self):
