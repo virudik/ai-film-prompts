@@ -2,18 +2,18 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "1c566efd-3315-4d14-bab7-2e331f243868",
+  "execution_instance_id": "556c6699-debf-4551-90e3-a304b763720d",
   "runtime_run_id": "f423d09f-89c8-8324-a5f4-e5782b244e82",
-  "runtime_run_id_source": "Automations.peek last_run.id scheduled_for 2026-11-11T00:00:00Z (in_progress)",
-  "source_head_initial": "f29f93e34e82abe7618c2f99ec8155ac1fd77645",
+  "runtime_run_id_source": "Automations.peek last_run.id in_progress scheduled 2026-11-11T00:00:00Z",
+  "source_head_initial": "e03a7f49c257b868d93d14eb5a1084f65aec96a2",
   "route_generation": 3,
   "preferred_executor_observed": "work",
-  "started_at": "2026-11-11T00:09:27.760Z",
-  "phase": "finished",
-  "status": "completed",
+  "started_at": "2026-11-11T00:24:34.342802Z",
+  "phase": "scan_complete",
+  "status": "started",
   "scan": {
     "complete": true,
-    "scope": "Topview connector: 14 boards; all 15 nonempty video pages (19 board first-page checks including empty boards); every video task returned",
+    "scope": "Read-only Topview connector all 14 boards; 19 board-page queries (15 nonempty pages), all video tasks returned",
     "boards": 14,
     "pages": 15,
     "board_queries": 19,
@@ -25,9 +25,8 @@
     },
     "main_board_pages": 6,
     "main_board_tasks": 505,
-    "checked_at": "2026-11-11T00:04:00Z",
-    "checked_at_is_upper_bound": true,
-    "active_recheck_at": "2026-11-11T00:10:00.931Z"
+    "checked_at": "2026-11-11T00:31:17.760Z",
+    "checked_at_is_upper_bound": true
   },
   "slots": {
     "occupied": 6,
@@ -61,15 +60,15 @@
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:1c566efd-3315-4d14-bab7-2e331f243868",
-    "acquired_at": "2026-11-11T00:08:26.949Z",
-    "original_expires_at": "2026-11-11T00:33:26.949Z",
-    "expires_at": null,
-    "released_at": "2026-11-11T00:11:42.660Z",
-    "release_status": "released_atomically_with_receipt"
+    "holder": "chatgpt:ordinary:556c6699-debf-4551-90e3-a304b763720d",
+    "acquired_at": "2026-11-11T00:29:24.325Z",
+    "original_expires_at": "2026-11-11T00:44:24.325Z",
+    "expires_at": "2026-11-11T00:44:24.325Z",
+    "released_at": null,
+    "release_status": "held"
   },
-  "outcome": "no_free_slot",
-  "blocker": "no_free_global_slot: six live init video tasks on My First Board. Do not replay ambiguous active S49B/music tasks.",
+  "outcome": "pending_no_free_slot",
+  "blocker": "no_free_global_slot: six live init videos on My First Board; do not repeat ambiguous active S49B/music tasks",
   "retryable": true,
   "acceptance": {
     "scheduled_runtime": true,
@@ -78,11 +77,11 @@
     "unlimited0_preflight": false,
     "new_task_verified": false,
     "full_scan": true,
-    "queue_sha_matched": true,
-    "task_map_sha_matched": true
+    "queue_sha_matched": null,
+    "task_map_sha_matched": null
   },
-  "updated_at": "2026-11-11T00:11:42.660Z",
-  "source_head_final_prewrite": "102faca8fa24aa6b164bb942aa1a0aad34c60a2a",
+  "updated_at": "2026-11-11T00:31:17.760Z",
+  "source_head_final_prewrite": null,
   "queue_reconciliation": {
     "registered_items": 41,
     "registered_task_ids_found": 41,
@@ -96,7 +95,7 @@
       "8bdd6439dad94592979aba23c137b4a0",
       "0a495e5f77a041e6bcc8d67fb68230b3"
     ],
-    "source_queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
-    "source_task_map_sha256": "f9c7321942c40605d75a2b4c309b51fd55c131c22fde1aa93a4646d276be1cbe"
+    "source_queue_sha256": null,
+    "source_task_map_sha256": null
   }
 }
