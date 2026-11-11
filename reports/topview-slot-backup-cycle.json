@@ -4,60 +4,33 @@
   "source": "ChatGPT scheduled ordinary",
   "runner": "ordinary_hourly",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "c5ae6223-614a-42e3-a2d6-cd4b7e8d685d",
-  "run_id": "44f5e80a-2de4-832d-aa05-af585757bb75",
-  "runtime_run_id_source": "Automations.peek current last_run.id scheduled_for 2026-11-11T17:00:00Z",
+  "execution_instance_id": "e0968867-d64a-4af3-bffd-a032f62099dc",
+  "run_id": null,
+  "runtime_run_id_unavailable_reason": "Automations.get failed with action NOT_FOUND (404); runtime ID not provided to this invocation",
   "route_generation": 3,
-  "started_at": "2026-11-11T17:00:55.928741Z",
-  "phase": "finished",
-  "status": "completed",
-  "source_head_started": "95b661481e9753d7098e1fcd8acd76baf61ddd61",
+  "started_at": "2026-11-11T18:07:29.139Z",
+  "phase": "started",
+  "status": "in_progress",
+  "source_head_started": "cdf6459333e5542c9f2127b637c0186fcb12d285",
+  "source_head_checked": "b5c4bc8209edc2129fb3affd1eae4afc0df30032",
   "scan": {
-    "complete": true,
-    "scope": "Authenticated Topview connector read-only all 14 boards, all 19 paginated video pages size 100; independent get_board_task readbacks for 5 active tasks and 41 queue registered task IDs",
-    "boards": 14,
-    "pages": 19,
-    "page_size": 100,
-    "video_tasks": 672,
-    "unique_task_ids": 672,
-    "status_counts": {
-      "success": 640,
-      "fail": 27,
-      "init": 5
-    },
-    "last_full_scan_at": "2026-11-11T17:08:41.877Z",
-    "active_rechecked_at": "2026-11-11T17:09:07Z",
-    "registered_rechecked_at": "2026-11-11T17:10:52.232Z",
-    "registered_task_ids": 41,
-    "registered_found": 41,
-    "unreconciled_claims": 0,
-    "ready_sha": {
-      "queue": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
-      "task_map": "9b986ca29c9490be48261717bee32e9e394934486e06af18b13f9986416e7916",
-      "match_both": true,
-      "algorithm": "independent pure JavaScript SHA-256 of exact UTF-8 bytes, abc/empty standard test vectors passed",
-      "verified_at": "2026-11-11T17:12:23.495Z"
-    },
-    "technically_ready_not_owner_authorized": 16,
-    "owner_tasks_open": 0
+    "complete": false,
+    "scope": null,
+    "boards": null,
+    "pages": null,
+    "video_tasks": null,
+    "last_full_scan_at": null
   },
   "slots": {
-    "occupied": 5,
-    "free": 1,
+    "occupied": null,
+    "free": null,
     "physical_cap": 6,
-    "complete_scan_verified": true,
-    "active_task_ids": [
-      "1dcb6fa0628d41b098227ca6c96f1630",
-      "a1330998d39b486e864ed4e22b4fe8c4",
-      "3a09108c8c474a0989118806b4a69f91",
-      "be627af0e9664db5b6ac2b62c34080a6",
-      "8bdd6439dad94592979aba23c137b4a0"
-    ]
+    "complete_scan_verified": false
   },
   "selected_item": null,
   "task_ids": [],
   "new_submissions": 0,
-  "browser_transport": "not_used_no_owner_authorized_ready_item",
+  "browser_transport": "not_used",
   "tinyfish": {
     "runs": [],
     "steps": 0,
@@ -66,26 +39,22 @@
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:c5ae6223-614a-42e3-a2d6-cd4b7e8d685d",
-    "acquired_at": "2026-11-11T17:07:19.149Z",
-    "expires_at": null,
-    "lease_commit": "d437dd271ee0cd285a5e2421d20acf41c4e964f3",
-    "release_status": "released_atomically_with_receipt",
-    "released_at": "2026-11-11T17:18:08.805Z"
+    "holder": "chatgpt:ordinary:e0968867-d64a-4af3-bffd-a032f62099dc",
+    "acquired_at": "2026-11-11T18:07:29.139Z",
+    "expires_at": "2026-11-11T18:32:29.139Z",
+    "lease_commit": "b5c4bc8209edc2129fb3affd1eae4afc0df30032",
+    "release_status": "held"
   },
-  "outcome": "no_owner_authorized_ready_item",
-  "blocker": "Global 1/6 free after complete 14-board scan. All 16 technically ready queue items are restricted by current owner policy: S62 on hold (t406u/t422u); new music/dance scenes 28,49,50,51 require separate owner consent (t369u), S49B permitted only after all story scenes (t422u). No independent authorized ready story item. Historical TinyFish exact original-file UI importer blocker from 2026-11-06 has no new capability evidence; no metered retest. Bot wake is telemetry, not a new authorization.",
-  "retryable": false,
+  "outcome": "in_progress",
+  "blocker": null,
+  "retryable": null,
   "acceptance": {
-    "scheduled_runtime": "Automations.peek current 2026-11-11T17:00Z run ID 44f5e80a-2de4-832d-aa05-af585757bb75 in_progress, enabled exact hourly HH:00 Europe/Moscow; own completed receipt confirms this actual cycle",
+    "scheduled_runtime": "this invocation executing under existing scheduled task; actual platform run_id not exposed",
     "ui_profile_login": "not_retested",
     "ui_control": "not_retested",
     "file_import": "not_verified",
-    "unlimited_zero": "All 5 existing active task records have Unlimited=true/creditsCost=0; no new-item website UI preflight",
+    "unlimited_zero": "not_tested_on_new_composer",
     "verified_new_task_id": null
   },
-  "updated_at": "2026-11-11T17:18:08.805Z",
-  "source_head_checked": "c0b56d425e8c0fdb492daa2411eb6aefeab42ba2",
-  "notes": "20:00 Moscow 11 Nov 2026 real scheduled run. Read fresh GitHub registry/lock and policies, owner tasks, queue/ready SHA, automation-monitor launcher_health, event wake, latest bot issues, and peer actual last_run IDs. Full Topview scan completed, 41/41 registered task IDs independently verified. No claim, Create, TinyFish run, new expense, role transfer or checkpoint change. S49A historical fail observed, but owner music restriction means no automatic restart.",
-  "completed_at": "2026-11-11T17:18:08.805Z"
+  "updated_at": "2026-11-11T18:08:07.163Z"
 }
