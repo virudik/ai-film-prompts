@@ -12,30 +12,62 @@
   "runtime_run_id_unavailable_reason": null,
   "runtime_run_id_source": "Automations.peek last_run.id",
   "source_head_started": "4e0fd510421c526b9a52a17daab2aa009ad753b6",
-  "source_head": "4e0fd510421c526b9a52a17daab2aa009ad753b6",
+  "source_head": "eb939d14eaa4e7dd440e52056f4e155139006f77",
   "route_generation": 3,
   "started_at": "2026-11-11T22:03:35.407Z",
-  "checked_at": null,
-  "phase": "started",
-  "status": "in_progress",
+  "checked_at": "2026-11-11T22:09:02.215Z",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
-    "complete": false,
-    "scope": "Topview all boards and pages not yet completed"
+    "complete": true,
+    "scope": "Authenticated Topview connector; full 14-board, 19-page enumeration; 673 unique video tasks; 41 registered canonical task ID lookups",
+    "boards": 14,
+    "pages": 19,
+    "page_size": 100,
+    "video_tasks": 673,
+    "unique_task_ids": 673,
+    "status_counts": {
+      "success": 640,
+      "fail": 27,
+      "init": 6
+    },
+    "verified_at": "2026-11-11T22:04:33.369Z",
+    "active_task_details_verified_at": "2026-11-11T22:09:02.215Z",
+    "registered_task_ids": 41,
+    "registered_found": 41,
+    "unreconciled_claims": 0,
+    "ready_sha": {
+      "queue": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+      "task_map": "e2525d29f4e3405522a60137f2a7b9e0f08a0dbdf0acfcfa2140738532d6aac0",
+      "match_both": true,
+      "method": "SHA-256 of exact GitHub main bytes; known-vector tests passed"
+    },
+    "technically_ready_not_owner_authorized": 16,
+    "owner_tasks_open": 0,
+    "robot_health_checked_at": "2026-11-11T21:50:33Z",
+    "stale_slot_issue": "slots:6811ec7e:58 at 2026-11-11T19:40:25Z is a historical signal, not live capacity"
   },
   "slots": {
     "physical_cap": 6,
-    "occupied": null,
-    "free": null,
-    "complete_scan_verified": false,
-    "active_task_ids": []
+    "occupied": 6,
+    "free": 0,
+    "complete_scan_verified": true,
+    "active_task_ids": [
+      "8c6d92662d1043c7a651168b2b8280ae",
+      "1dcb6fa0628d41b098227ca6c96f1630",
+      "a1330998d39b486e864ed4e22b4fe8c4",
+      "3a09108c8c474a0989118806b4a69f91",
+      "be627af0e9664db5b6ac2b62c34080a6",
+      "8bdd6439dad94592979aba23c137b4a0"
+    ]
   },
-  "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
+  "scan_complete": true,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
   "task_ids": [],
   "new_submissions": 0,
-  "browser_transport": "not_started",
+  "browser_transport": "not_used_capacity_full",
   "tinyfish": {
     "runs": [],
     "steps": 0,
@@ -46,20 +78,39 @@
   "lease": {
     "holder": "chatgpt:ordinary:d30ae839-ff0a-4b70-af9f-b0222f61e7b1",
     "acquired_at": "2026-11-11T22:03:00Z",
-    "expires_at": "2026-11-11T22:23:00Z",
+    "expires_at": null,
     "lease_commit": "4e0fd510421c526b9a52a17daab2aa009ad753b6",
-    "release_status": "held"
+    "release_status": "released_atomically_with_receipt",
+    "released_at": "2026-11-11T22:10:43.659Z"
   },
-  "outcome": "in_progress",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": false,
   "acceptance": {
-    "scheduled_runtime": "Automations.peek active run 5b3c4867-8fc0-832a-9b68-a8d35b528a2f",
+    "scheduled_runtime": "Automations.peek last_run.id 5b3c4867-8fc0-832a-9b68-a8d35b528a2f, scheduled_for 2026-11-11T22:00:00Z, in_progress when read; task enabled",
     "ui_profile_login": "not_retested",
     "ui_control": "not_retested",
     "file_import": "not_verified",
-    "unlimited_zero": "not_preflighted",
+    "unlimited_zero": "six active Topview tasks directly verified unlimited true and 0 credits, 720p 16:9; no new composer preflight",
     "verified_new_task_id": null
   },
-  "updated_at": "2026-11-11T22:03:35.407Z"
+  "updated_at": "2026-11-11T22:10:43.659Z",
+  "source_head_checked": "eb939d14eaa4e7dd440e52056f4e155139006f77",
+  "reconciliation_warning": {
+    "pending_external_matches": [
+      {
+        "candidate_item": "S49B",
+        "task_id": "3a09108c8c474a0989118806b4a69f91",
+        "input_sha_proven": false
+      },
+      {
+        "candidate_item": "S51G",
+        "task_id": "8c6d92662d1043c7a651168b2b8280ae",
+        "input_sha_proven": false
+      }
+    ],
+    "action": "No speculative queue edit or duplicate Create. Exact input SHA evidence still required."
+  },
+  "notes": "No actionable free capacity, no authorized Create. No change to next_action/recovery/checkpoint; Work historical preference and route_generation=3 kept. TinyFish not used.",
+  "completed_at": "2026-11-11T22:10:43.659Z"
 }
