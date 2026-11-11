@@ -11,8 +11,8 @@
   "preferred_executor_observed": "work",
   "started_at": "2026-11-11T04:04:24.754923Z",
   "receipt_started_at": "2026-11-11T04:13:50.665Z",
-  "phase": "started",
-  "status": "running",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
     "scope": "Read-only scan of all 14 Topview boards and 19 video result pages, 672 unique video tasks; all 41 submitted/completed queue task IDs found",
@@ -33,7 +33,8 @@
       "queue": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
       "task_map": "40cecfe0832574f78b861294345e86f2cc5e86e34c128bc86ab5f8e3bbb77298",
       "match_both": true
-    }
+    },
+    "active_recheck_at": "2026-11-11T04:14:26.398Z"
   },
   "slots": {
     "occupied": 6,
@@ -50,7 +51,14 @@
   },
   "new_submissions": 0,
   "selected_item": null,
-  "task_ids": [],
+  "task_ids": [
+    "1dcb6fa0628d41b098227ca6c96f1630",
+    "a1330998d39b486e864ed4e22b4fe8c4",
+    "3a09108c8c474a0989118806b4a69f91",
+    "be627af0e9664db5b6ac2b62c34080a6",
+    "8bdd6439dad94592979aba23c137b4a0",
+    "0a495e5f77a041e6bcc8d67fb68230b3"
+  ],
   "browser_transport": "not_used_no_free_slot",
   "tinyfish": {
     "runs": [],
@@ -62,10 +70,12 @@
   "lease": {
     "holder": "chatgpt:ordinary:85ee0c8a-790b-4f68-ae9e-03a6b69f49f3",
     "acquired_at": "2026-11-11T04:12:59.011Z",
-    "expires_at": "2026-11-11T04:32:59.011Z"
+    "expires_at": null,
+    "released_at": "2026-11-11T04:15:16.230Z",
+    "release_status": "released_atomically_with_receipt"
   },
   "outcome": "no_free_slot",
-  "blocker": "no_free_global_slot",
+  "blocker": "no_free_global_slot: six active/init physical Topview video tasks; Create prohibited",
   "retryable": true,
   "acceptance": {
     "scheduled_runtime": "confirmed_by_Automations.peek_current_in_progress_run",
@@ -75,5 +85,7 @@
     "unlimited_zero": "six active tasks show useUnlimitMode:true and creditsCost:0; new UI preflight not performed",
     "verified_new_task_id": null
   },
-  "notes": "No Create / no paid TinyFish browser. 6/6 physical slots from complete fresh all-board scan; all 41 submitted/completed queue IDs present. Owner tasks: 0 open. Preferred role remains work; no new proof of quota recovery used for route change."
+  "notes": "No Create / no paid TinyFish browser. 6/6 physical slots from complete fresh all-board scan; all 41 submitted/completed queue IDs present. Owner tasks: 0 open. Preferred role remains work; no new proof of quota recovery used for route change. Latest live recheck at 2026-11-11T04:14:26Z six init Unlimited0 tasks. robot topview-status checked 2026-11-11T04:10:29Z; bot monitor 2026-11-11T03:50:28Z; no changes/claims. No forward Work handoff or new automation.",
+  "completed_at": "2026-11-11T04:15:16.230Z",
+  "source_head_checked": "c0023441b140c4ebc513013410974fd885317213"
 }
