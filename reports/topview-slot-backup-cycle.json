@@ -11,8 +11,8 @@
   "preferred_executor_observed": "work",
   "started_at": "2026-11-11T03:08:16.142Z",
   "receipt_started_at": "2026-11-11T03:09:09.643Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
     "scope": "Read-only Topview 14 boards, 19 requested video pages (17 non-empty), 672 unique video tasks; six active tasks individually confirmed via get_board_task; all submitted queue IDs matched",
@@ -37,7 +37,7 @@
       "task_map": "85d7bd034faf1c84a6d0e4277a764d524a8d7391810c5c67d52c9379fed63a81",
       "match_both": true
     },
-    "active_recheck_at": "2026-11-11T03:03:46.991Z"
+    "active_recheck_at": "2026-11-11T03:09:42.730Z"
   },
   "slots": {
     "occupied": 6,
@@ -74,12 +74,12 @@
     "holder": "chatgpt:ordinary:57d14e10-6685-4f05-8514-e6178eed1a7b",
     "acquired_at": "2026-11-11T03:08:16.142Z",
     "original_expires_at": "2026-11-11T03:28:16.142Z",
-    "expires_at": "2026-11-11T03:28:16.142Z",
-    "released_at": null,
-    "release_status": "active"
+    "expires_at": null,
+    "released_at": "2026-11-11T03:10:16.244Z",
+    "release_status": "released_atomically_with_receipt"
   },
-  "outcome": "in_progress_no_free_slot",
-  "blocker": "no_free_global_slot: six active/init video tasks on My First Board",
+  "outcome": "no_free_slot",
+  "blocker": "no_free_global_slot: six confirmed active/init Topview video tasks on My First Board; new Create prohibited",
   "retryable": true,
   "acceptance": {
     "scheduled_runtime": "confirmed_by_Automations.peek_current_in_progress_run",
@@ -89,7 +89,7 @@
     "unlimited_zero": "six existing tasks confirmed useUnlimitMode, creditsCost0; new UI preflight not tested",
     "verified_new_task_id": null
   },
-  "source_head_checked": "1e143914a54ce5dfc88136a59dc7427b39e2cf55",
-  "completed_at": null,
-  "notes": "Only read-only Topview/GitHub checks; issue #528 older and not current capacity. No Create. No item claim or retry change. Owner-tasks all closed. Work preferred in registry, no newer proof of GUI/quota."
+  "source_head_checked": "8a1e0ff993dbf089cf5652bbb2b1504d48293370",
+  "completed_at": "2026-11-11T03:10:16.244Z",
+  "notes": "No new Create, no TinyFish paid browser, no Topview credits. All 41 queue submitted task IDs found in 672 distinct video tasks. Queue and task-map SHA256 match readiness; zero transitional claims. Six tasks rechecked independently as init Unlimited true cost 0. Issue #528 is stale capacity. All owner tasks closed, no canon changes; Work runtime not freshly proved so route_generation preserved."
 }
