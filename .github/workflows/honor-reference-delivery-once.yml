@@ -1,0 +1,66 @@
+name: HONOR reference delivery once
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/honor-reference-delivery-once.yml']
+permissions:
+  contents: write
+concurrency:
+  group: honor-scenes-completion
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      PYTHONPATH: .
+      HOLDER: chatgpt:ordinary:f3295680-1f4c-4764-9a25-e04b833e7d2d
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: pip install --quiet google-auth requests
+      - name: Verify and record existing reference delivery
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/honor-reference-delivery
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          published=false
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            python3 scripts/honor_reference_delivery.py
+            git commit -m 'Verify HONOR reference delivery and save final checkpoint'
+            if git push origin HEAD:main; then
+              git rev-parse HEAD > /tmp/honor-reference-delivery/commit.txt
+              published=true
+              break
+            fi
+          done
+          test "$published" = true
+          git fetch origin main
+          python3 - <<'PY'
+          import hashlib,json,subprocess
+          from pathlib import Path
+          p='projects/raznoe/reports/honor-reference-delivery.json'
+          raw=subprocess.check_output(['git','show','origin/main:'+p])
+          assert raw==Path(p).read_bytes()
+          r=json.loads(raw)
+          assert r['site']['all_verified'] and r['tests_final']['all_tests_passed']
+          assert r['source_model_binding_count']==39
+          for p,d in r['protected_files_unchanged'].items():
+              assert hashlib.sha256(subprocess.check_output(['git','show','origin/main:'+p])).hexdigest()==d,p
+          print('COMMITTED_READBACK_OK',r['site']['verified_count'],r['tests_final']['tests_run'])
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: honor-reference-final-delivery
+          path: /tmp/honor-reference-delivery/
+          retention-days: 7
