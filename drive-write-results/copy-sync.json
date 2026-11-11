@@ -1,33 +1,33 @@
 {
-  "checked_at": "2026-11-10T11:14:50Z",
+  "checked_at": "2026-11-11T10:59:42Z",
   "mode": "sync",
   "summary": {
-    "written": 5,
-    "current": 5
+    "written": 3,
+    "current": 7
   },
   "files": [
     {
       "name": "video-prompts.md",
-      "github_sha256": "86e163772a996cc4e03b4792093d47b1afb5c1b181a2deb4528e44aeed1aab04",
+      "github_sha256": "00db0e8bedb9ec463b530f6863a5fe53873b9b5bc337ec76c6dab603cc84668c",
       "file_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-      "drive_sha256": "86e163772a996cc4e03b4792093d47b1afb5c1b181a2deb4528e44aeed1aab04",
+      "drive_sha256": "00db0e8bedb9ec463b530f6863a5fe53873b9b5bc337ec76c6dab603cc84668c",
       "status": "written",
-      "drive_modified": "2026-11-10T11:14:33.736Z"
+      "drive_modified": "2026-11-11T10:59:26.505Z"
     },
     {
       "name": "NEW-CHAT-HANDOFF.md",
-      "github_sha256": "388b7303cb41a0413db541971a16e79fc2b5a2d2517b49586b5fa48e6c3170af",
+      "github_sha256": "01fea9ed71bdb5c4b7899883dfef7250b9dc9d14ee0adebe36d0886bbe1dc4a9",
       "file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_sha256": "388b7303cb41a0413db541971a16e79fc2b5a2d2517b49586b5fa48e6c3170af",
+      "drive_sha256": "01fea9ed71bdb5c4b7899883dfef7250b9dc9d14ee0adebe36d0886bbe1dc4a9",
       "status": "written",
-      "drive_modified": "2026-11-10T11:14:37.779Z"
+      "drive_modified": "2026-11-11T10:59:32.031Z"
     },
     {
       "name": "SYNC-RUNBOOK.md",
       "github_sha256": "ed3edff9823e89e4b89770ac55a9d4b9e7e1df34518222a2ee39b13bf942b18a",
       "file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
       "drive_sha256": "ed3edff9823e89e4b89770ac55a9d4b9e7e1df34518222a2ee39b13bf942b18a",
-      "status": "written",
+      "status": "current",
       "drive_modified": "2026-11-10T11:14:40.440Z"
     },
     {
@@ -48,18 +48,18 @@
     },
     {
       "name": "USER-GUIDE.md",
-      "github_sha256": "b5cf8309fba1355fd1cd201e4bfe1abc88726b927d7c7f6d2bdb0c402f7cdc58",
+      "github_sha256": "a1e36a365f2b7b7969547ca98423d9782e680856d8f64f5a713e6c255f4c39a5",
       "file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_sha256": "b5cf8309fba1355fd1cd201e4bfe1abc88726b927d7c7f6d2bdb0c402f7cdc58",
+      "drive_sha256": "a1e36a365f2b7b7969547ca98423d9782e680856d8f64f5a713e6c255f4c39a5",
       "status": "written",
-      "drive_modified": "2026-11-10T11:14:44.607Z"
+      "drive_modified": "2026-11-11T10:59:37.767Z"
     },
     {
       "name": "README-AI-SYNC.md",
       "github_sha256": "e8d83475b63a94eeb24c6ac3ac4fd182de6bcb132258f191be2a7759ebf641d9",
       "file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
       "drive_sha256": "e8d83475b63a94eeb24c6ac3ac4fd182de6bcb132258f191be2a7759ebf641d9",
-      "status": "written",
+      "status": "current",
       "drive_modified": "2026-11-10T11:14:46.952Z"
     },
     {
