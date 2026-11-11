@@ -2,64 +2,35 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "bfcf033a-fb2b-4074-8c6d-4f26a90c9d16",
-  "runtime_run_id": "f56e20cd-6f78-832a-a7a1-cf2f5c7d0280",
-  "runtime_run_id_source": "Automations.peek last_run.id, scheduled_for 2026-11-11T06:00:00Z",
-  "source_head_initial": "c9264de6416aaca3369d33ea70b35a5faaf0e37f",
-  "source_head_started": "5fade5922bbcb23ec60cca8ed1963e4850470ace",
+  "execution_instance_id": "8bd91729-d87a-479b-82dc-5ddf8f3ddccc",
+  "runtime_run_id": "d0cadf5b-f414-832c-94e0-238454f1d463",
+  "runtime_run_id_source": "Automations.peek current last_run.id; scheduled_for 2026-11-11T08:00:00Z; observed in_progress",
+  "source_head_initial": "04a4b80f1f16ce2b930788137706905e12afd5bc",
+  "source_head_started": "5ef1fa34f58c941689af8095ac0c6d41f27a17e6",
   "route_generation": 3,
   "preferred_executor_observed": "work",
-  "started_at": "2026-11-11T06:09:47.095929Z",
-  "receipt_started_at": "2026-11-11T06:17:46.653Z",
-  "phase": "finished",
-  "status": "completed",
+  "started_at": "2026-11-11T08:01:27.513093Z",
+  "receipt_started_at": "2026-11-11T08:06:40.629Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan": {
-    "complete": true,
-    "scope": "Read-only Topview connector scan of all 14 boards and 19 video result pages; final independent 41-item get_board_task reconciliation",
-    "boards": 14,
-    "pages": 19,
-    "video_tasks": 672,
-    "unique_task_ids": 672,
-    "status_counts": {
-      "success": 639,
-      "fail": 27,
-      "init": 6
-    },
-    "full_scan_time_note": "Exact timestamp not captured in the original full-scan tool call; active recheck timestamp recorded",
-    "active_recheck_at": "2026-11-11T06:19:18.106Z",
-    "registered_task_ids": 41,
-    "registered_found": 41,
-    "unreconciled_claims": 0,
-    "ready_sha": {
-      "queue": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
-      "task_map": "75782ebcf28f4da0c6c14ef7379493ffb778fd8504fbdd28d6665544706c369d",
-      "match_both": true
-    }
+    "complete": false,
+    "scope": "Read-only Topview connector; first full pre-lease scan completed, awaiting finalized reconciliation",
+    "boards": null,
+    "pages": null,
+    "video_tasks": null,
+    "status_counts": null
   },
   "slots": {
-    "occupied": 6,
-    "free": 0,
+    "occupied": null,
+    "free": null,
     "physical_cap": 6,
-    "active_task_ids": [
-      "1dcb6fa0628d41b098227ca6c96f1630",
-      "a1330998d39b486e864ed4e22b4fe8c4",
-      "3a09108c8c474a0989118806b4a69f91",
-      "be627af0e9664db5b6ac2b62c34080a6",
-      "8bdd6439dad94592979aba23c137b4a0",
-      "0a495e5f77a041e6bcc8d67fb68230b3"
-    ]
+    "active_task_ids": []
   },
   "new_submissions": 0,
   "selected_item": null,
-  "task_ids": [
-    "1dcb6fa0628d41b098227ca6c96f1630",
-    "a1330998d39b486e864ed4e22b4fe8c4",
-    "3a09108c8c474a0989118806b4a69f91",
-    "be627af0e9664db5b6ac2b62c34080a6",
-    "8bdd6439dad94592979aba23c137b4a0",
-    "0a495e5f77a041e6bcc8d67fb68230b3"
-  ],
-  "browser_transport": "not_used_no_free_slot",
+  "task_ids": [],
+  "browser_transport": "not_used",
   "tinyfish": {
     "runs": [],
     "steps": 0,
@@ -68,25 +39,24 @@
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:bfcf033a-fb2b-4074-8c6d-4f26a90c9d16",
-    "acquired_at": "2026-11-11T06:17:13.016Z",
-    "expires_at": null,
-    "lease_commit": "5fade5922bbcb23ec60cca8ed1963e4850470ace",
-    "release_status": "released_atomically_with_receipt",
-    "released_at": "2026-11-11T06:20:30.750Z"
+    "holder": "chatgpt:ordinary:8bd91729-d87a-479b-82dc-5ddf8f3ddccc",
+    "acquired_at": "2026-11-11T08:05:51.723Z",
+    "expires_at": "2026-11-11T08:23:51.723Z",
+    "lease_commit": "5ef1fa34f58c941689af8095ac0c6d41f27a17e6",
+    "release_status": "held"
   },
-  "outcome": "no_free_slot",
-  "blocker": "no_free_global_slot: six physical Topview video tasks remain init; Create and paid TinyFish prohibited",
+  "outcome": "started",
+  "blocker": null,
   "retryable": true,
   "acceptance": {
-    "scheduled_runtime": "confirmed_current_last_run_in_progress",
+    "scheduled_runtime": "in_progress_confirmed_by_peek",
     "ui_profile_login": "not_retested",
     "ui_control": "not_retested",
     "file_import": "not_tested",
-    "unlimited_zero": "six existing init tasks confirmed useUnlimitMode=true, creditsCost=0; new preflight not performed",
+    "unlimited_zero": "not_retested_for_new_submission",
     "verified_new_task_id": null
   },
-  "source_head_checked": "b23190389d99e0c0d72719f5f9cb26c5a0855e7f",
-  "completed_at": "2026-11-11T06:20:30.750Z",
-  "notes": "Actual scheduled execution confirmed by Automations.peek last_run.id. Full read-only scan 14 boards/19 pages: 672 unique video tasks, 639 success/27 fail/6 init. All 41 registered queue task IDs individually checked and found, no unresolved claimed/submitting/unknown. Queue and task-map raw UTF-8 SHA256 independently match current readiness. Active six tasks on My First Board Unlimited0. Monitor launcher_health 05:30Z capacity_full; last bot free-slot signal 10 Nov historical, not fresh proof. owner-tasks 0 open/taken. No Create or paid TinyFish run, no Topview credit use; historical blocked_browser_input not re-tested at 6/6. No queue/claim/checkpoint mutation; work preference unchanged without new recovery evidence."
+  "source_head_checked": "5ef1fa34f58c941689af8095ac0c6d41f27a17e6",
+  "completed_at": null,
+  "notes": "Scheduled ordinary cycle receipt started under own CAS/readback lease. No Create; read-only Topview scan underway."
 }
