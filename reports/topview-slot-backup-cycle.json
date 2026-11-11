@@ -4,61 +4,38 @@
   "source": "ChatGPT scheduled ordinary",
   "runner": "ordinary_hourly",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "a11e8bd1-64b5-4c75-af45-3c70f2fdae72",
-  "run_id": "f927776e-c90c-8333-8075-0dc64a139d76",
+  "automationID": "6ae5e9d563f88191aa6da7c9ba1e05a0",
+  "execution_instance_id": "d30ae839-ff0a-4b70-af9f-b0222f61e7b1",
+  "holder": "chatgpt:ordinary:d30ae839-ff0a-4b70-af9f-b0222f61e7b1",
+  "run_id": "5b3c4867-8fc0-832a-9b68-a8d35b528a2f",
+  "runtime_run_id": "5b3c4867-8fc0-832a-9b68-a8d35b528a2f",
   "runtime_run_id_unavailable_reason": null,
+  "runtime_run_id_source": "Automations.peek last_run.id",
+  "source_head_started": "4e0fd510421c526b9a52a17daab2aa009ad753b6",
+  "source_head": "4e0fd510421c526b9a52a17daab2aa009ad753b6",
   "route_generation": 3,
-  "started_at": "2026-11-11T21:05:57.690Z",
-  "phase": "finished",
-  "status": "completed",
-  "source_head_started": "c3859ed6ba3bc469aee449395c0f11b5d1a644b6",
+  "started_at": "2026-11-11T22:03:35.407Z",
+  "checked_at": null,
+  "phase": "started",
+  "status": "in_progress",
   "scan": {
-    "complete": true,
-    "scope": "Authenticated Topview connector; all 14 boards / 19 video pages; full 673 task enumeration plus 41 canonical registered taskID direct lookups",
-    "boards": 14,
-    "pages": 19,
-    "page_size": 100,
-    "video_tasks": 673,
-    "unique_task_ids": 673,
-    "status_counts": {
-      "success": 640,
-      "fail": 27,
-      "init": 6
-    },
-    "verified_at": "2026-11-11T21:09:00.503Z",
-    "active_task_details_verified_at": "2026-11-11T21:15:07.633Z",
-    "registered_task_ids": 41,
-    "registered_found": 41,
-    "unreconciled_claims": 0,
-    "ready_sha": {
-      "queue": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
-      "task_map": "4a64fe1b8a18862eb08c54e8602bc2ff0c09bbb8fb28668f5c67c29a24cf27ee",
-      "match_both": true,
-      "algorithm": "Independent pure-JS SHA-256 verified against abc and empty test vectors",
-      "verified_at": "2026-11-11T21:11:07.966Z"
-    },
-    "technically_ready_not_owner_authorized": 16,
-    "owner_tasks_open": 0,
-    "robot_mapping_updated_at": "2026-11-11T20:57:35.228487Z"
+    "complete": false,
+    "scope": "Topview all boards and pages not yet completed"
   },
   "slots": {
-    "occupied": 6,
-    "free": 0,
     "physical_cap": 6,
-    "complete_scan_verified": true,
-    "active_task_ids": [
-      "8c6d92662d1043c7a651168b2b8280ae",
-      "1dcb6fa0628d41b098227ca6c96f1630",
-      "a1330998d39b486e864ed4e22b4fe8c4",
-      "3a09108c8c474a0989118806b4a69f91",
-      "be627af0e9664db5b6ac2b62c34080a6",
-      "8bdd6439dad94592979aba23c137b4a0"
-    ]
+    "occupied": null,
+    "free": null,
+    "complete_scan_verified": false,
+    "active_task_ids": []
   },
+  "scan_complete": false,
+  "occupied_slots": null,
+  "free_slots": null,
   "selected_item": null,
   "task_ids": [],
   "new_submissions": 0,
-  "browser_transport": "not_used_capacity_full",
+  "browser_transport": "not_started",
   "tinyfish": {
     "runs": [],
     "steps": 0,
@@ -67,63 +44,22 @@
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:a11e8bd1-64b5-4c75-af45-3c70f2fdae72",
-    "acquired_at": "2026-11-11T21:05:57.690Z",
-    "expires_at": null,
-    "lease_commit": "1956ffb79c1649bdb15714e0baaf6ced0db8b09c",
-    "release_status": "released_atomically_with_receipt",
-    "released_at": "2026-11-11T21:17:08.640Z"
+    "holder": "chatgpt:ordinary:d30ae839-ff0a-4b70-af9f-b0222f61e7b1",
+    "acquired_at": "2026-11-11T22:03:00Z",
+    "expires_at": "2026-11-11T22:23:00Z",
+    "lease_commit": "4e0fd510421c526b9a52a17daab2aa009ad753b6",
+    "release_status": "held"
   },
-  "outcome": "no_free_slot",
+  "outcome": "in_progress",
   "blocker": null,
   "retryable": false,
   "acceptance": {
-    "scheduled_runtime": "Automations.peek last_run.id f927776e-c90c-8333-8075-0dc64a139d76; scheduled_for 2026-11-11T21:00:00Z, in_progress when read; task enabled",
+    "scheduled_runtime": "Automations.peek active run 5b3c4867-8fc0-832a-9b68-a8d35b528a2f",
     "ui_profile_login": "not_retested",
     "ui_control": "not_retested",
     "file_import": "not_verified",
-    "unlimited_zero": "6 active tasks directly checked useUnlimitMode=true and creditsCost=0; not a new UI composer preflight",
+    "unlimited_zero": "not_preflighted",
     "verified_new_task_id": null
   },
-  "updated_at": "2026-11-11T21:17:08.640Z",
-  "runtime_run_id_source": "Automations.peek last_run.id at 2026-11-11T20:00Z",
-  "source_head_checked": "65d8fec2a84b66d91b4e59dbbac5cc3f7b34f614",
-  "reconciliation_warning": {
-    "newly_observed_task": {
-      "candidate_item": "S51G",
-      "task_id": "8c6d92662d1043c7a651168b2b8280ae",
-      "topview_created_at": "2026-11-11T19:59:15Z",
-      "status": "init",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "prompt": "Topview 6299 chars; robot maps by normalized prompt to master block 51G",
-      "references": "Seven image slots exist; exact canonical file SHA equivalence not independently verified",
-      "canonical_queue_state": "waiting_for_slot, task_id=null",
-      "result": "Do not duplicate; external creation source/authorization not established; no Create from this run"
-    },
-    "other_existing_candidates": [
-      {
-        "candidate_item": "S49B",
-        "task_id": "3a09108c8c474a0989118806b4a69f91"
-      },
-      {
-        "candidate_item": "S51E",
-        "task_id": "a1330998d39b486e864ed4e22b4fe8c4"
-      },
-      {
-        "candidate_item": "S51F",
-        "task_id": "1dcb6fa0628d41b098227ca6c96f1630"
-      }
-    ],
-    "action": "Retain original claims and queue; no speculative queue repair, retry, approve or new Create. Reconcile input SHA and full normalized prompt when reliable evidence exists."
-  },
-  "completed_at": "2026-11-11T21:17:08.640Z",
-  "notes": "Fresh full scan 6/6; no allowed Create or metered TinyFish run. Previous S49B/S51G external task reconciliation pending canonical file input SHA evidence, no duplicate attempted. Work preferred historical verified 2026-11-02; role_generation 3 unchanged. No owner task intake; no checkpoint next_action change.",
-  "automationID": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "holder": "chatgpt:ordinary:a11e8bd1-64b5-4c75-af45-3c70f2fdae72",
-  "runtime_run_id": "f927776e-c90c-8333-8075-0dc64a139d76",
-  "source_head": "65d8fec2a84b66d91b4e59dbbac5cc3f7b34f614",
-  "scan_complete": true,
-  "occupied_slots": 6,
-  "free_slots": 0,
-  "checked_at": "2026-11-11T21:15:07.633Z"
+  "updated_at": "2026-11-11T22:03:35.407Z"
 }
