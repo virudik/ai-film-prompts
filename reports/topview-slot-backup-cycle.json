@@ -2,32 +2,27 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "556c6699-debf-4551-90e3-a304b763720d",
-  "runtime_run_id": "f423d09f-89c8-8324-a5f4-e5782b244e82",
-  "runtime_run_id_source": "Automations.peek last_run.id in_progress scheduled 2026-11-11T00:00:00Z",
-  "source_head_initial": "e03a7f49c257b868d93d14eb5a1084f65aec96a2",
+  "execution_instance_id": "6dd387d4-7785-4f5d-a76b-5317150b3e99",
+  "runtime_run_id": "72f0e7d2-d660-832f-86c8-9cae5035a73e",
+  "runtime_run_id_source": "Automations.peek last_run.id in_progress scheduled 2026-11-11T01:00:00Z",
+  "source_head_initial": "9a026e77e95addb93f08cdf227b2935c6833f20f",
   "route_generation": 3,
   "preferred_executor_observed": "work",
-  "started_at": "2026-11-11T00:24:34.342802Z",
-  "phase": "finished",
-  "status": "completed",
+  "started_at": "2026-11-11T00:58:35.027865Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan": {
     "complete": true,
-    "scope": "Read-only Topview connector all 14 boards; 19 board-page queries (15 nonempty pages), all video tasks returned",
+    "scope": "Read-only Topview connector all 14 boards, 17 board-page queries, 672 unique video tasks; all expected pages returned",
     "boards": 14,
-    "pages": 15,
-    "board_queries": 19,
+    "board_queries": 17,
     "video_tasks": 672,
     "status_counts": {
       "success": 639,
       "fail": 27,
       "init": 6
     },
-    "main_board_pages": 6,
-    "main_board_tasks": 505,
-    "checked_at": "2026-11-11T00:31:17.760Z",
-    "checked_at_is_upper_bound": true,
-    "active_recheck_at": "2026-11-11T00:34:55.112Z"
+    "checked_at_is_upper_bound": true
   },
   "slots": {
     "occupied": 6,
@@ -42,14 +37,7 @@
       "0a495e5f77a041e6bcc8d67fb68230b3"
     ]
   },
-  "task_ids": [
-    "1dcb6fa0628d41b098227ca6c96f1630",
-    "a1330998d39b486e864ed4e22b4fe8c4",
-    "3a09108c8c474a0989118806b4a69f91",
-    "be627af0e9664db5b6ac2b62c34080a6",
-    "8bdd6439dad94592979aba23c137b4a0",
-    "0a495e5f77a041e6bcc8d67fb68230b3"
-  ],
+  "task_ids": [],
   "selected_item": null,
   "new_submissions": 0,
   "browser_transport": "not_used_no_free_slot",
@@ -61,15 +49,12 @@
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:556c6699-debf-4551-90e3-a304b763720d",
-    "acquired_at": "2026-11-11T00:29:24.325Z",
-    "original_expires_at": "2026-11-11T00:44:24.325Z",
-    "expires_at": null,
-    "released_at": "2026-11-11T00:36:17.055Z",
-    "release_status": "released_atomically_with_receipt"
+    "holder": "chatgpt:ordinary:6dd387d4-7785-4f5d-a76b-5317150b3e99",
+    "acquired_at": "2026-11-11T01:05:39.632Z",
+    "expires_at": "2026-11-11T01:20:39.632Z"
   },
-  "outcome": "no_free_slot",
-  "blocker": "no_free_global_slot: six live init videos on My First Board. Unmapped active task IDs include S49B/music candidates; no repeat Create.",
+  "outcome": "pending_final_receipt",
+  "blocker": "no_free_global_slot; no Create authorized at 6/6",
   "retryable": true,
   "acceptance": {
     "scheduled_runtime": true,
@@ -78,32 +63,8 @@
     "unlimited0_preflight": false,
     "new_task_verified": false,
     "full_scan": true,
-    "queue_sha_matched": true,
-    "task_map_sha_matched": true
+    "queue_sha_matched": null,
+    "task_map_sha_matched": null
   },
-  "updated_at": "2026-11-11T00:36:17.055Z",
-  "source_head_final_prewrite": "0549c0cf8a50b4252ff5698f6fd1d2e87b8cece0",
-  "queue_reconciliation": {
-    "registered_items": 41,
-    "registered_task_ids_found": 41,
-    "missing_registered_task_ids": [],
-    "unresolved_claimed_submitting_unknown": 0,
-    "unmapped_active_task_ids": [
-      "1dcb6fa0628d41b098227ca6c96f1630",
-      "a1330998d39b486e864ed4e22b4fe8c4",
-      "3a09108c8c474a0989118806b4a69f91",
-      "be627af0e9664db5b6ac2b62c34080a6",
-      "8bdd6439dad94592979aba23c137b4a0",
-      "0a495e5f77a041e6bcc8d67fb68230b3"
-    ],
-    "source_queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
-    "source_task_map_sha256": "f9c7321942c40605d75a2b4c309b51fd55c131c22fde1aa93a4646d276be1cbe"
-  },
-  "completed_at": "2026-11-11T00:36:17.055Z",
-  "notes": {
-    "work_route": "preferred_executor=work from verified 2026-11-02 runtime; ordinary still authorized HH:00 reserve; no new evidence requiring route change",
-    "old_robot_event_not_capacity": "Latest bot issue 528 observed 2026-11-10T11:00:33Z, superseded by full live scan 6/6",
-    "open_owner_tasks_seen": 2,
-    "checkpoint_next_action_unchanged": true
-  }
+  "updated_at": "2026-11-11T01:06:41.375Z"
 }
