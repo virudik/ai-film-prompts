@@ -12,34 +12,61 @@
   "runtime_run_id_source": "Automations.peek.last_run.id matched 2026-11-11T23:00:00Z scheduled",
   "runtime_run_id_unavailable_reason": null,
   "source_head_started": "9b895fd1da83080e25fca2780a09e2c5681adf5f",
-  "source_head": "f9f6996726c66a6ef14e075f90995158d08ef3d9",
+  "source_head": "e2addf60e2401cca274b53413888ccb35a650f0e",
   "route_generation": 3,
   "started_at": "2026-11-11T23:05:50.565Z",
-  "checked_at": "2026-11-11T23:06:29.951Z",
-  "phase": "started",
-  "status": "in_progress",
+  "checked_at": "2026-11-11T23:15:49.984Z",
+  "phase": "completed",
+  "status": "completed",
   "scan": {
-    "complete": false,
-    "scope": "pending fresh full read-only Topview connector scan"
+    "complete": true,
+    "scope": "Topview authenticated read-only connector, all 14 boards / 19 video pages; 673 unique video tasks; independently reconciled 41 canonical submitted/completed task IDs",
+    "boards": 14,
+    "pages": 19,
+    "page_size": 100,
+    "video_tasks": 673,
+    "unique_task_ids": 673,
+    "status_counts": {
+      "success": 640,
+      "fail": 27,
+      "init": 6
+    },
+    "verified_at": "2026-11-11T23:13:56.082Z",
+    "active_task_details_verified_at": "2026-11-11T23:10:40Z",
+    "registered_task_ids": 41,
+    "registered_found": 41,
+    "unreconciled_claims": 0,
+    "ready_sha": {
+      "queue": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+      "task_map": "91b5e3837c43ac02464c83b0d91784fc3825b7f7b106e0f0485c07e8f0246903",
+      "match_both": true,
+      "method": "independent SHA-256 of exact GitHub main UTF-8 bytes, standard test vector validated"
+    },
+    "technically_ready_not_owner_authorized": 16,
+    "owner_tasks_open": 0,
+    "robot_health_checked_at": "2026-11-11T22:50:32Z",
+    "stale_slot_issue": "slots:6811ec7e:58, observed 2026-11-11T19:40:25Z, not live capacity"
   },
   "slots": {
     "capacity": 6,
-    "occupied": null,
-    "free": null
+    "occupied": 6,
+    "free": 0,
+    "confirmed_by": "2026-11-11T23:09:21Z full connector scan"
   },
-  "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
+  "scan_complete": true,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
   "task_ids": [],
   "new_submissions": 0,
-  "browser_transport": "not_started",
+  "browser_transport": "not_used_no_free_slot",
   "tinyfish": {
     "run_ids": [],
     "steps": 0,
     "estimated_cost_usd": 0,
     "confirmed_charge_usd": 0,
-    "used": false
+    "used": false,
+    "reason": "6/6 occupied; paid browser preflight not appropriate"
   },
   "topview_credits_spent": 0,
   "lease": {
@@ -47,20 +74,26 @@
     "acquired_at": "2026-11-11T23:05:50.565Z",
     "expires_at": "2026-11-11T23:33:50.565Z",
     "acquired_commit": "f9f6996726c66a6ef14e075f90995158d08ef3d9",
-    "released": false
+    "released": true,
+    "released_at": "2026-11-11T23:15:49.984Z"
   },
-  "outcome": "in_progress",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": false,
   "acceptance": {
     "hourly_execution": true,
-    "read_only_scan": false,
+    "read_only_scan": true,
     "website_login": false,
     "website_control": false,
     "files_uploaded": false,
     "unlimited_zero": false,
     "topview_task_verified": false,
-    "production_tinyfish_launch": false
+    "production_tinyfish_launch": false,
+    "active_task_details_verified": true
   },
-  "updated_at": "2026-11-11T23:06:29.951Z"
+  "updated_at": "2026-11-11T23:15:49.984Z",
+  "source_head_checked": "e2addf60e2401cca274b53413888ccb35a650f0e",
+  "completed_at": "2026-11-11T23:15:49.984Z",
+  "reconciliation_warning": "S49B and S51G still unlinked from canonical queue; Topview task IDs 3a09108c8c474a0989118806b4a69f91 and 8c6d92662d1043c7a651168b2b8280ae must not be duplicated until exact input/prompt provenance verified.",
+  "notes": "All 6 active tasks verified read-only as My First Board / Unlimited=true / 720p / 16:9 / creditsCost=0. No Create or paid TinyFish run. Owner hold on S62; musical/dance scenes 28,49,50,51 require separate permission. Do not alter checkpoint on no-op."
 }
