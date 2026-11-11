@@ -1,124 +1,41 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-10T13:40:58Z",
+  "checked_at": "2026-11-11T12:53:01Z",
   "window_hours": 24,
-  "verdict": "free_slots_idle_no_schedule_launch",
-  "launches": [
-    {
-      "item": "S67-WAN30",
-      "scene_id": 67,
-      "claimed_at": "2026-11-09T13:59:09Z",
-      "run_id": "",
-      "source": "chat"
-    },
-    {
-      "item": "S68-WAN30",
-      "scene_id": 68,
-      "claimed_at": "2026-11-09T14:25:24Z",
-      "run_id": "",
-      "source": "chat"
-    },
-    {
-      "item": "S69-WAN30",
-      "scene_id": 69,
-      "claimed_at": "2026-11-09T14:55:55Z",
-      "run_id": "",
-      "source": "chat"
-    },
-    {
-      "item": "S70-WAN30",
-      "scene_id": 70,
-      "claimed_at": "2026-11-09T15:30:12Z",
-      "run_id": "",
-      "source": "chat"
-    },
-    {
-      "item": "S66-STITCH-INDEP-WAN30",
-      "scene_id": 66,
-      "claimed_at": "2026-11-09T15:34:55Z",
-      "run_id": "",
-      "source": "chat"
-    },
-    {
-      "item": "S65-WAN30",
-      "scene_id": 65,
-      "claimed_at": "2026-11-10T01:29:49Z",
-      "run_id": "",
-      "source": "chat"
-    }
-  ],
+  "verdict": "launch_stalled",
+  "launches": [],
   "launches_by_schedule": 0,
-  "launches_by_chat": 6,
+  "launches_by_chat": 0,
   "free_slot_observations": [
     {
-      "at": "2026-11-10T10:50:34Z",
+      "at": "2026-11-11T12:41:13Z",
       "occupied": 5,
       "capacity": 6
     },
     {
-      "at": "2026-11-10T10:40:33Z",
+      "at": "2026-11-11T11:50:30Z",
       "occupied": 5,
       "capacity": 6
     },
     {
-      "at": "2026-11-09T15:34:37Z",
-      "occupied": 1,
+      "at": "2026-11-11T10:50:55Z",
+      "occupied": 5,
       "capacity": 6
     },
     {
-      "at": "2026-11-09T15:20:28Z",
-      "occupied": 0,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-09T15:10:41Z",
-      "occupied": 1,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-09T15:00:42Z",
-      "occupied": 1,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-09T14:50:32Z",
-      "occupied": 0,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-09T14:30:27Z",
-      "occupied": 1,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-09T14:20:27Z",
-      "occupied": 0,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-09T14:10:50Z",
-      "occupied": 1,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-09T14:01:03Z",
-      "occupied": 1,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-09T13:50:40Z",
-      "occupied": 0,
+      "at": "2026-11-11T10:00:34Z",
+      "occupied": 5,
       "capacity": 6
     }
   ],
   "ready_items_waiting": 16,
   "launcher_health": {
-    "state": "capacity_full",
-    "unresolved": false,
-    "episode": "648f9aa1",
-    "unresolved_since": null,
-    "reason": "no_free_global_slot; launcher_health_not_proven",
-    "free_slots_global": 0,
+    "state": "launch_stalled",
+    "unresolved": true,
+    "episode": "6811ec7e",
+    "unresolved_since": "2026-11-11T10:00:32Z",
+    "reason": "no_handler_receipt",
+    "free_slots_global": 1,
     "actionable_items": [
       "S49B",
       "S51E",
@@ -138,7 +55,7 @@
       "S28-A13-20261030"
     ],
     "reconciliation_items": [],
-    "last_event_id": "slots:86e4bee6:47",
+    "last_event_id": "slots:6811ec7e:51",
     "receipt_present": false,
     "handler_outcome": null,
     "execution_stage": null,
@@ -147,8 +64,8 @@
     "confirmed_launch_task_ids": [],
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
-    "escalation_attempted_episode": "86e4bee6",
-    "checked_at": "2026-11-10T13:00:40Z"
+    "escalation_attempted_episode": "6811ec7e",
+    "checked_at": "2026-11-11T12:30:30Z"
   },
   "launcher_observation_stale": false,
   "note": "Только чтение репозитория. Запуск из расписания = run_id с префиксом chatgpt-scheduled."
