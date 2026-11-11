@@ -11,30 +11,50 @@
   "preferred_executor_observed": "work",
   "started_at": "2026-11-11T13:01:11.352655Z",
   "receipt_started_at": "2026-11-11T13:05:31.969Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
-    "complete": false,
-    "scope": "Pending fresh full read-only scan",
-    "boards": null,
-    "pages": null,
-    "video_tasks": null,
-    "registered_task_ids": null,
-    "registered_found": null,
-    "unreconciled_claims": null,
-    "owner_tasks_open": null
+    "complete": true,
+    "scope": "Authenticated Topview connector read-only full scan: all 14 editable boards, 19 video pages at pageSize 100; 672 unique video tasks; all 41 submitted/completed queue IDs individually reconciled by board task ID; repeat checks of all five active tasks and My First Board first page",
+    "boards": 14,
+    "pages": 19,
+    "page_size": 100,
+    "video_tasks": 672,
+    "unique_task_ids": 672,
+    "status_counts": {
+      "success": 640,
+      "fail": 27,
+      "init": 5
+    },
+    "last_full_scan_at": "2026-11-11T13:12:33.689Z",
+    "registered_task_ids": 41,
+    "registered_found": 41,
+    "unreconciled_claims": 0,
+    "ready_sha": {
+      "queue": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+      "task_map": "44aece19d0d728e3fd3f7fb4d72cd885e951e32449af30abfea0e082824013d9",
+      "match_both": true,
+      "algorithm": "independent raw UTF-8 SHA-256 of current queue and task map; abc test verified"
+    },
+    "owner_tasks_open": 0
   },
   "slots": {
-    "occupied": null,
-    "free": null,
+    "occupied": 5,
+    "free": 1,
     "physical_cap": 6,
-    "complete_scan_verified": false,
-    "active_task_ids": []
+    "complete_scan_verified": true,
+    "active_task_ids": [
+      "1dcb6fa0628d41b098227ca6c96f1630",
+      "a1330998d39b486e864ed4e22b4fe8c4",
+      "3a09108c8c474a0989118806b4a69f91",
+      "be627af0e9664db5b6ac2b62c34080a6",
+      "8bdd6439dad94592979aba23c137b4a0"
+    ]
   },
   "new_submissions": 0,
   "selected_item": null,
   "task_ids": [],
-  "browser_transport": "not_used",
+  "browser_transport": "not_used_no_owner_authorized_ready_item",
   "tinyfish": {
     "runs": [],
     "steps": 0,
@@ -45,19 +65,23 @@
   "lease": {
     "holder": "chatgpt:ordinary:6ca5dc4a-e351-4eef-b781-7bf4a9493016",
     "acquired_at": "2026-11-11T13:04:47.706Z",
-    "expires_at": "2026-11-11T13:22:47.706Z",
+    "expires_at": null,
     "lease_commit": "69aa66cec2defe1f14a3984607f9591bd3d15f82",
-    "release_status": "held"
+    "release_status": "released_atomically_with_receipt",
+    "released_at": "2026-11-11T13:13:42.194Z"
   },
-  "outcome": null,
-  "blocker": null,
-  "retryable": null,
+  "outcome": "no_owner_authorized_ready_item",
+  "blocker": "One physical slot free (5/6 active) but no owner-authorized independent ready item. All 16 technically ready items are held: scene 62 by owner t406u/t422u; new music and dance scenes 28,49,50,51 by owner t369u. S49B requires completion of all story per owner t422u. Bot launcher_health actionable means input-ready, not owner permission. Previous TinyFish native exact-original file import and Unlimited0 preflight blocker remains without new capability evidence; no paid repeated probing.",
+  "retryable": false,
   "acceptance": {
-    "scheduled_runtime": "0dc7dab0-2254-8329-96f0-2805b8280b64",
+    "scheduled_runtime": "confirmed by Automations.peek last_run.id 0dc7dab0-2254-8329-96f0-2805b8280b64, scheduled_for 2026-11-11T13:00:00Z; latest_result older and not attributed to this run",
     "ui_profile_login": "not_retested",
     "ui_control": "not_retested",
     "file_import": "not_verified",
-    "unlimited_zero": "not_verified_for_new_composer",
+    "unlimited_zero": "Five active existing tasks use Unlimited=true and creditsCost=0; no new item composer preflight",
     "verified_new_task_id": null
-  }
+  },
+  "source_head_checked": "88e2aa6e232abc20e196b3c4eefdff2fc3fb78d8",
+  "notes": "11 Nov 16:00 MSK scheduled ordinary run; fresh full 14-board 19-page scan: 672 videos (640 success, 27 fail, 5 init), 5/6 slots used. All 41 queue task IDs checked directly; SHA256 queue/map matched readiness; no transitional claims or owner tasks. Owner holds prevent selecting a new scene. Work, Relay and HH:55 runtime logs inspected without treating no_update as proof of browser capacity. No Create/TinyFish/credits. Existing hourly schedule and route generation=3 unchanged; no checkpoint/next_action edit.",
+  "completed_at": "2026-11-11T13:13:42.194Z"
 }
