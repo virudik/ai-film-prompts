@@ -2,57 +2,33 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "f10d348b-7b65-4254-8e88-304762fa4bc9",
-  "runtime_run_id": "c2fafb50-8568-832f-98ad-4a7eed1d12dc",
-  "runtime_run_id_source": "Automations.peek last_run.id scheduled_for 2026-11-10T23:00:00Z (in_progress)",
-  "source_head_initial": "c092e2ab94345a71fe44b11af01c8d4121add922",
-  "source_head_pre_started": "87959f9f3a335825459d053d8fd726e137567609",
+  "execution_instance_id": "1c566efd-3315-4d14-bab7-2e331f243868",
+  "runtime_run_id": "f423d09f-89c8-8324-a5f4-e5782b244e82",
+  "runtime_run_id_source": "Automations.peek last_run.id scheduled_for 2026-11-11T00:00:00Z (in_progress)",
+  "source_head_initial": "f29f93e34e82abe7618c2f99ec8155ac1fd77645",
   "route_generation": 3,
   "preferred_executor_observed": "work",
-  "started_at": "2026-11-10T23:02:22.921Z",
-  "phase": "finished",
-  "status": "completed",
+  "started_at": "2026-11-11T00:09:27.760Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan": {
-    "complete": true,
-    "scope": "Topview connector read-only full account: 14 boards, 19 video pages; every video item fetched",
-    "boards": 14,
-    "pages": 19,
-    "video_tasks": 672,
-    "status_counts": {
-      "success": 639,
-      "fail": 27,
-      "init": 6
-    },
-    "main_board_pages": 6,
-    "main_board_tasks": 505,
-    "checked_at": "2026-11-10T23:04:28.034Z",
-    "checked_at_is_upper_bound": true,
-    "active_recheck_at": "2026-11-10T23:09:48.517Z"
+    "complete": false,
+    "scope": "full account-wide Topview video board scan",
+    "boards": null,
+    "pages": null,
+    "video_tasks": null,
+    "status_counts": null
   },
   "slots": {
-    "occupied": 6,
-    "free": 0,
+    "occupied": null,
+    "free": null,
     "physical_cap": 6,
-    "active_task_ids": [
-      "1dcb6fa0628d41b098227ca6c96f1630",
-      "a1330998d39b486e864ed4e22b4fe8c4",
-      "3a09108c8c474a0989118806b4a69f91",
-      "be627af0e9664db5b6ac2b62c34080a6",
-      "8bdd6439dad94592979aba23c137b4a0",
-      "0a495e5f77a041e6bcc8d67fb68230b3"
-    ]
+    "active_task_ids": []
   },
-  "task_ids": [
-    "1dcb6fa0628d41b098227ca6c96f1630",
-    "a1330998d39b486e864ed4e22b4fe8c4",
-    "3a09108c8c474a0989118806b4a69f91",
-    "be627af0e9664db5b6ac2b62c34080a6",
-    "8bdd6439dad94592979aba23c137b4a0",
-    "0a495e5f77a041e6bcc8d67fb68230b3"
-  ],
+  "task_ids": [],
   "selected_item": null,
   "new_submissions": 0,
-  "browser_transport": "not_used_no_free_slot",
+  "browser_transport": "not_used",
   "tinyfish": {
     "runs": [],
     "steps": 0,
@@ -61,15 +37,15 @@
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:f10d348b-7b65-4254-8e88-304762fa4bc9",
-    "acquired_at": "2026-11-10T23:02:22.921Z",
-    "original_expires_at": "2026-11-10T23:42:22.921Z",
-    "expires_at": null,
-    "released_at": "2026-11-10T23:09:48.517Z",
-    "release_status": "released_atomically_with_receipt"
+    "holder": "chatgpt:ordinary:1c566efd-3315-4d14-bab7-2e331f243868",
+    "acquired_at": "2026-11-11T00:08:26.949Z",
+    "original_expires_at": "2026-11-11T00:33:26.949Z",
+    "expires_at": "2026-11-11T00:33:26.949Z",
+    "released_at": null,
+    "release_status": "held"
   },
-  "outcome": "no_free_slot",
-  "blocker": "no_free_global_slot; six actual init video tasks on My First Board. Existing unlinked S49B/music active tasks must not be duplicated.",
+  "outcome": "in_progress",
+  "blocker": null,
   "retryable": true,
   "acceptance": {
     "scheduled_runtime": true,
@@ -77,26 +53,9 @@
     "tinyfish_file_upload": false,
     "unlimited0_preflight": false,
     "new_task_verified": false,
-    "full_scan": true,
-    "queue_sha_matched": true,
-    "task_map_sha_matched": true
+    "full_scan": false,
+    "queue_sha_matched": null,
+    "task_map_sha_matched": null
   },
-  "updated_at": "2026-11-10T23:09:48.517Z",
-  "source_head_final_prewrite": "ec608867a9f69a39f0b6c326d113e351635b2500",
-  "queue_reconciliation": {
-    "registered_items": 41,
-    "registered_task_ids_found": 41,
-    "missing_registered_task_ids": [],
-    "unresolved_claimed_submitting_unknown": 0,
-    "unmapped_active_task_ids": [
-      "1dcb6fa0628d41b098227ca6c96f1630",
-      "a1330998d39b486e864ed4e22b4fe8c4",
-      "3a09108c8c474a0989118806b4a69f91",
-      "be627af0e9664db5b6ac2b62c34080a6",
-      "8bdd6439dad94592979aba23c137b4a0",
-      "0a495e5f77a041e6bcc8d67fb68230b3"
-    ],
-    "source_queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
-    "source_task_map_sha256": "b2f787f828465c8332887d5d27295941c71393e3f233c1edf437b37ef0ce387a"
-  }
+  "updated_at": "2026-11-11T00:09:27.760Z"
 }
