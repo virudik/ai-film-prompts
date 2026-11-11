@@ -9,8 +9,8 @@
   "route_generation": 3,
   "preferred_executor_observed": "work",
   "started_at": "2026-11-11T00:24:34.342802Z",
-  "phase": "scan_complete",
-  "status": "started",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
     "scope": "Read-only Topview connector all 14 boards; 19 board-page queries (15 nonempty pages), all video tasks returned",
@@ -26,7 +26,8 @@
     "main_board_pages": 6,
     "main_board_tasks": 505,
     "checked_at": "2026-11-11T00:31:17.760Z",
-    "checked_at_is_upper_bound": true
+    "checked_at_is_upper_bound": true,
+    "active_recheck_at": "2026-11-11T00:34:55.112Z"
   },
   "slots": {
     "occupied": 6,
@@ -63,12 +64,12 @@
     "holder": "chatgpt:ordinary:556c6699-debf-4551-90e3-a304b763720d",
     "acquired_at": "2026-11-11T00:29:24.325Z",
     "original_expires_at": "2026-11-11T00:44:24.325Z",
-    "expires_at": "2026-11-11T00:44:24.325Z",
-    "released_at": null,
-    "release_status": "held"
+    "expires_at": null,
+    "released_at": "2026-11-11T00:36:17.055Z",
+    "release_status": "released_atomically_with_receipt"
   },
-  "outcome": "pending_no_free_slot",
-  "blocker": "no_free_global_slot: six live init videos on My First Board; do not repeat ambiguous active S49B/music tasks",
+  "outcome": "no_free_slot",
+  "blocker": "no_free_global_slot: six live init videos on My First Board. Unmapped active task IDs include S49B/music candidates; no repeat Create.",
   "retryable": true,
   "acceptance": {
     "scheduled_runtime": true,
@@ -77,11 +78,11 @@
     "unlimited0_preflight": false,
     "new_task_verified": false,
     "full_scan": true,
-    "queue_sha_matched": null,
-    "task_map_sha_matched": null
+    "queue_sha_matched": true,
+    "task_map_sha_matched": true
   },
-  "updated_at": "2026-11-11T00:31:17.760Z",
-  "source_head_final_prewrite": null,
+  "updated_at": "2026-11-11T00:36:17.055Z",
+  "source_head_final_prewrite": "0549c0cf8a50b4252ff5698f6fd1d2e87b8cece0",
   "queue_reconciliation": {
     "registered_items": 41,
     "registered_task_ids_found": 41,
@@ -95,7 +96,14 @@
       "8bdd6439dad94592979aba23c137b4a0",
       "0a495e5f77a041e6bcc8d67fb68230b3"
     ],
-    "source_queue_sha256": null,
-    "source_task_map_sha256": null
+    "source_queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+    "source_task_map_sha256": "f9c7321942c40605d75a2b4c309b51fd55c131c22fde1aa93a4646d276be1cbe"
+  },
+  "completed_at": "2026-11-11T00:36:17.055Z",
+  "notes": {
+    "work_route": "preferred_executor=work from verified 2026-11-02 runtime; ordinary still authorized HH:00 reserve; no new evidence requiring route change",
+    "old_robot_event_not_capacity": "Latest bot issue 528 observed 2026-11-10T11:00:33Z, superseded by full live scan 6/6",
+    "open_owner_tasks_seen": 2,
+    "checkpoint_next_action_unchanged": true
   }
 }
