@@ -11,20 +11,51 @@
   "preferred_executor_observed": "work",
   "started_at": "2026-11-11T11:00:27.319273Z",
   "receipt_started_at": "2026-11-11T11:12:48.874Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
-    "complete": false
+    "complete": true,
+    "scope": "Read-only authenticated Topview connector: all 14 boards and 19 complete video pages (pageSize100), 672 unique video tasks; 41/41 registered queue task IDs independently checked with Topview task detail calls; active main board page 1 rechecked",
+    "boards": 14,
+    "pages": 19,
+    "page_size": 100,
+    "video_tasks": 672,
+    "unique_task_ids": 672,
+    "status_counts": {
+      "success": 640,
+      "fail": 27,
+      "init": 5
+    },
+    "last_full_scan_at": "2026-11-11T11:09:19.890Z",
+    "active_recheck_at": "2026-11-11T11:14:42.622Z",
+    "registered_task_ids": 41,
+    "registered_found": 41,
+    "unreconciled_claims": 0,
+    "ready_sha": {
+      "queue": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+      "task_map": "ff9981c9640ecc1b57d7e7f5f774b061e86d57d898c0656d95c5a4e720dc5826",
+      "match_both": true
+    },
+    "owner_tasks_open": 0
   },
   "slots": {
-    "occupied": null,
-    "free": null,
-    "physical_cap": 6
+    "occupied": 5,
+    "free": 1,
+    "physical_cap": 6,
+    "complete_scan_verified": true,
+    "active_task_ids": [
+      "1dcb6fa0628d41b098227ca6c96f1630",
+      "a1330998d39b486e864ed4e22b4fe8c4",
+      "3a09108c8c474a0989118806b4a69f91",
+      "be627af0e9664db5b6ac2b62c34080a6",
+      "8bdd6439dad94592979aba23c137b4a0"
+    ],
+    "newly_successful_task_id": null
   },
   "new_submissions": 0,
   "selected_item": null,
   "task_ids": [],
-  "browser_transport": "not_used",
+  "browser_transport": "not_used_no_owner_authorized_ready_item",
   "tinyfish": {
     "runs": [],
     "steps": 0,
@@ -35,19 +66,23 @@
   "lease": {
     "holder": "chatgpt:ordinary:373f5762-d5a1-4d88-8c26-c5fe2cd9e416",
     "acquired_at": "2026-11-11T11:11:51.500Z",
-    "expires_at": "2026-11-11T11:21:51.500Z",
+    "expires_at": null,
     "lease_commit": "b6821ffca125038a57637361de3a11085945f968",
-    "release_status": "held"
+    "release_status": "released_atomically_with_receipt",
+    "released_at": "2026-11-11T11:16:06.526Z"
   },
-  "outcome": null,
-  "blocker": null,
-  "retryable": null,
+  "outcome": "no_owner_authorized_ready_item",
+  "blocker": "One physical video slot free (5 init); all 16 technically ready unsubmitted items are currently owner-held: scene62 by t406u/t422u (Nov 9), new music/dance scenes28,49,50,51 by t369u (Nov 8), S49B condition after all story per t422u; no other owner-authorized ready item. Bot launcher_health launch_stalled marks technical readiness, not permission. TinyFish previous blocked_browser_input remains unresolved; no paid repeat.",
+  "retryable": true,
   "acceptance": {
-    "scheduled_runtime": "current Automations.peek last_run.id confirmed in_progress",
+    "scheduled_runtime": "Automations.peek current last_run.id 4ea37eab-e060-8327-8c1e-002755d28c48 confirmed in_progress",
     "ui_profile_login": "not_retested",
     "ui_control": "not_retested",
     "file_import": "not_tested",
-    "unlimited_zero": "not_verified_in_current_UI",
+    "unlimited_zero": "Existing 5 active tasks are Unlimited true / creditsCost 0. No new UI composer preflight",
     "verified_new_task_id": null
-  }
+  },
+  "source_head_checked": "1866a0172f1a4109c73a1c61eda1b5a63025e94f",
+  "notes": "11 Nov 14:00 MSK ordinary scheduled. Fresh authenticated Topview scan: 14 boards,19 pages,672 video tasks (640 success,27 fail,5 init), 41/41 known queue task IDs found, all 5 active confirmed Unlimited true credits0. Queue/task-map SHA256 independently recomputed and matched readiness. No claims/submitting/unknown. No owner task open. 1/6 free, but latest owner policies prohibit the only technically ready waiting items; robot actionable list is not launch authorization. No TinyFish paid runs or Create. HH:00 existing task remains enabled and route_generation=3; preferred work not changed. No checkpoint next_action change.",
+  "completed_at": "2026-11-11T11:16:06.526Z"
 }
