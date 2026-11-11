@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "roscosmos",
   "project_name": "Роскосмос",
-  "checked_at": "2026-11-11T11:53:53+00:00",
-  "source_head": "323d749fc621f65f47d2ea16dda1181e0cedf5c4",
-  "source_fingerprint": "5444ffe8876a679187bc4dbd5ad79ecf75579c47c6865619bc04177d06394d85",
+  "checked_at": "2026-11-11T12:08:44+00:00",
+  "source_head": "e766cf864f504a8ee942c271f67123955f40b51d",
+  "source_fingerprint": "3e2facf3cfebfc539b71a96a749933ef7abae8960d30849d5bdd12b036c3882a",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -208,8 +208,8 @@
     },
     {
       "file": "projects/roscosmos/reports/current-work-checkpoint.md",
-      "sha256": "37e6d049c9daacead7a6849f9d6ddeab9aacf9bb3818250e8471b7036309cd07",
-      "bytes": 20638
+      "sha256": "d9f398b16aa51a19a4d21c674974253ef1cd866cf444a19deebb7b9795ff9b33",
+      "bytes": 8145
     },
     {
       "file": "projects/roscosmos/reports/handoff-receipts.json",
