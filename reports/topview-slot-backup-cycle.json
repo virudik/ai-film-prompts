@@ -9,24 +9,54 @@
   "runtime_run_id_unavailable_reason": null,
   "route_generation": 3,
   "started_at": "2026-11-11T19:05:00.564Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "source_head_started": "7b265d8629e14907999125b8d7fd07cf07cc439e",
   "scan": {
-    "complete": false,
-    "scope": "Read-only Topview all-board scan completed prior to lease; final reconciliation and hashes pending receipt",
-    "verified_at": null
+    "complete": true,
+    "scope": "Authenticated Topview connector: all 14 boards and all 19 video pages (100/page), distinct IDs, 5 active task detail readbacks, 41/41 registered queue taskIDs present",
+    "boards": 14,
+    "pages": 19,
+    "page_size": 100,
+    "video_tasks": 672,
+    "unique_task_ids": 672,
+    "status_counts": {
+      "success": 640,
+      "fail": 27,
+      "init": 5
+    },
+    "verified_at": "2026-11-11T19:07:58.247Z",
+    "active_task_details_verified_at": "2026-11-11T19:07:58.247Z",
+    "registered_task_ids": 41,
+    "registered_found": 41,
+    "unreconciled_claims": 0,
+    "ready_sha": {
+      "queue": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+      "task_map": "0d70b2012aa2a11beed414a891ccf20c98d64f0222d64ec3b0d1c5fc6cedc5b5",
+      "match_both": true,
+      "algorithm": "independent pure-JavaScript SHA-256 over exact UTF-8 text; test vectors abc and empty match",
+      "verified_at": "2026-11-11T19:06:35.164Z"
+    },
+    "technically_ready_not_owner_authorized": 16,
+    "owner_tasks_open": 0
   },
   "slots": {
-    "occupied": null,
-    "free": null,
+    "occupied": 5,
+    "free": 1,
     "physical_cap": 6,
-    "complete_scan_verified": false
+    "complete_scan_verified": true,
+    "active_task_ids": [
+      "1dcb6fa0628d41b098227ca6c96f1630",
+      "a1330998d39b486e864ed4e22b4fe8c4",
+      "3a09108c8c474a0989118806b4a69f91",
+      "be627af0e9664db5b6ac2b62c34080a6",
+      "8bdd6439dad94592979aba23c137b4a0"
+    ]
   },
   "selected_item": null,
   "task_ids": [],
   "new_submissions": 0,
-  "browser_transport": "not_used",
+  "browser_transport": "not_used_no_owner_authorized_ready_item",
   "tinyfish": {
     "runs": [],
     "steps": 0,
@@ -37,21 +67,35 @@
   "lease": {
     "holder": "chatgpt:ordinary:a3101016-c07e-4b81-8f57-9505cce2bca4",
     "acquired_at": "2026-11-11T19:05:00.564Z",
-    "expires_at": "2026-11-11T19:30:00.564Z",
+    "expires_at": null,
     "lease_commit": "aa3a8ea826ce85f12148b2eaf0a2f96002d7bb2a",
-    "release_status": "held"
+    "release_status": "released_atomically_with_receipt",
+    "released_at": "2026-11-11T19:12:07.613Z"
   },
-  "outcome": "in_progress",
-  "blocker": null,
+  "outcome": "no_owner_authorized_ready_item",
+  "blocker": "Free physical capacity 1/6 but all 16 technically ready items restricted by owner decisions: S62 hold t406u/t422u; scenes 28/49/50/51 new music/dance require separate consent t369u; S49B only after all story t422u. Other linked story entries blocked on real continuation input/QC. Existing active task 3a09108c8c474a0989118806b4a69f91 likely belongs S49B, but exact reference SHA and normalized prompt equivalence are not proven; do not duplicate. Existing TinyFish original-file import blocker remains unchanged; no paid run.",
   "retryable": false,
   "acceptance": {
-    "scheduled_runtime": "Automations.peek reports this run in_progress, scheduled_for 2026-11-11T19:00:00Z",
+    "scheduled_runtime": "Automations.peek current last_run.id 35b7bc73-8b74-832f-9dcc-e5e0a5bce791 scheduled_for 2026-11-11T19:00Z, in_progress during cycle; HH:00 enabled Europe/Moscow",
     "ui_profile_login": "not_retested",
     "ui_control": "not_retested",
     "file_import": "not_verified",
-    "unlimited_zero": "pending",
+    "unlimited_zero": "All 5 active My First Board Topview task detail records: useUnlimitMode=true, creditsCost=0, model Seedance 2.0, resolution 720, aspect ratio 16:9; no new UI composer preflight",
     "verified_new_task_id": null
   },
-  "updated_at": "2026-11-11T19:05:36.700Z",
-  "runtime_run_id_source": "Automations.peek last_run.id"
+  "updated_at": "2026-11-11T19:12:07.613Z",
+  "runtime_run_id_source": "Automations.peek last_run.id",
+  "source_head_checked": "fe5ee806458c162df4f4c1e7bf050d0f4fc2e319",
+  "reconciliation_warning": {
+    "item": "S49B",
+    "candidate_task_id": "3a09108c8c474a0989118806b4a69f91",
+    "matched": "scene mapping, model, duration, six reference slots and semantic prompt",
+    "unverified": "exact original input SHA and normalized prompt equivalence",
+    "raw_topview_prompt_sha256": "dfea05c615e60cab374f889cdb41f528c312b83ee8eba0073a5216c12f2ef5cd",
+    "queue_normalized_prompt_sha256": "628b4edaac79e78b9d35cf35b6c5258d0321866d30fabd4d250d58f08e7fd726",
+    "caution": "raw and normalized digest definitions may differ; this alone does not prove content mismatch",
+    "action": "No claim/Create or queue repair until exact reconciliation"
+  },
+  "completed_at": "2026-11-11T19:12:07.613Z",
+  "notes": "Real scheduled ordinary hourly cycle with fresh main, owner policies, work preference and route, all-board Topview scan, queue readiness SHA, 41 task IDs, issue #577 robot wake as historical telemetry. Verified Work restored on 2026-11-02 by durable evidence in slot-backup config; preferred_executor=work remains unchanged but does not reserve slot. Work Relay and HH55 actual automation run status independently read. No claims, new generation, TinyFish costs, Topview credits, or role/checkpoint changes."
 }
