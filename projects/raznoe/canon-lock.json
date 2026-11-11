@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:f3295680-1f4c-4764-9a25-e04b833e7d2d",
   "task": "Record exact-byte readback of the existing HONOR work package updated in place; no master or media changes",
   "acquired_at": "2026-11-11T00:09:44Z",
-  "expires_at": "2026-11-11T00:19:44Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-11T00:10:58Z",
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }
