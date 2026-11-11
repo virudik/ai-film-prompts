@@ -2,7 +2,7 @@ import json
 import sys
 import tempfile
 import unittest
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
@@ -117,6 +117,18 @@ class QueueTests(unittest.TestCase):
             self.assertEqual(pq["archived_items_file"], "projects/p1/" + tsf.QUEUE_ARCHIVE)
             self.assertTrue((Path(d) / "projects/p1" / tsf.CHECKPOINT_ARCHIVE).is_file())
             self.assertEqual(tsf.run(d, write=True, now=NOW), [])
+
+    def test_held_lock_skips_that_project_and_active_items_stay(self):
+        with tempfile.TemporaryDirectory() as d:
+            write(d, tsf.QUEUE, self.queue())
+            future = (NOW + timedelta(hours=1)).strftime("%Y-%m-%dT%H:%M:%SZ")
+            write(d, "ops/canon-lock.json", {"state": "held", "holder": "chatgpt:work:x", "expires_at": future})
+            report = tsf.run(d, write=True, now=NOW, skip_held_locks=True)
+            self.assertTrue(any("замок занят" in line for line in report))
+            live = json.loads((Path(d) / tsf.QUEUE).read_text(encoding="utf-8"))
+            self.assertIn("W", [item["id"] for item in live["items"]])
+            self.assertIn("OLD", [item["id"] for item in live["items"]])
+            self.assertFalse((Path(d) / tsf.QUEUE_ARCHIVE).exists())
 
     def test_active_or_unconfirmed_submitted_tasks_stay_live(self):
         result = tsf.trim_queue(self.queue(), None, NOW, active_task_ids={"t" * 32}, terminal_task_ids={"t" * 32})

@@ -3,6 +3,22 @@
   "description": "Finished work moved from work-resume-register.json at the weekly cleanup; newest first. History only, not live work.",
   "completed_work": [
     {
+      "work_id": "PROJECT-UI-INSTRUCTIONS-20261027",
+      "title": "Синхронизация внутренних инструкций ChatGPT Project",
+      "status": "completed_verified_configuration",
+      "updated_at": "2026-10-27T09:35:10.298311+00:00",
+      "completed": [
+        "Saved actual ChatGPT Project Instructions and verified exact full-text readback after reopening.",
+        "Canonical template corrected; 305 unit tests, site validation, instruction consistency and D7 15/15 passed."
+      ],
+      "next_action": "Normal work from fresh main; installed Claude settings remain separately unverified.",
+      "canonical_refs": [
+        "USER-GUIDE.md",
+        "reports/chatgpt-project-instructions-2026-10-27.json"
+      ],
+      "completed_at": "2026-10-27T09:35:10.298311+00:00"
+    },
+    {
       "work_id": "INSTRUCTION-RECONCILE-20261026",
       "title": "Согласование инструкций, автоматизаций и архива входящих",
       "status": "completed_verified_configuration",
@@ -1006,6 +1022,19 @@
     }
   ],
   "trimmed_done": [
+    {
+      "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+      "completed": [
+        "18:55 MSK cycle 30 Oct: complete 14-board/20-page scan found 951 tasks and6/6 active after Relay submitted S61-P1. No Create. S42-P2 success sampled at0/4/8/12/15s: critical duplicated Ilyusha-like identity replaces Artem and blue-saber deformation; no owner approval or auto-retry. Original archive/SHA blocked by Cloud/CDP filesystem isolation.",
+        "01:55 MSK cycle 4 Nov: full 14-board/18-video-page scan confirmed 627 videos and 6/6 active Unlimited0; no Create/retry/credits. Closed self-heal canon-health task after standard archival cleanup (28 checkpoint sections, 14 register points, two terminal queue items with stubs), refreshed readiness, verified canon-health run 41735782935 success/warnings0, and reconciled all three automation prompts plus active Relay subscription without changing schedules/triggers.",
+        "02:55 MSK cycle 4 Nov: fresh complete 14-board/18-video-page scan found 627 videos and 6/6 active Unlimited0 on My First Board. All 12 live submitted task IDs reconciled; no claimed/submitting/submission_unknown. Queue/readiness hashes matched; next independent ready S63-WAN30. Ordinary current runtime completed but its canonical receipt still has an older run ID. No Create/retry/credits; phases A/B/C not due.",
+        "20:55 MSK cycle 4 Nov: full 14-board/18-page scan confirmed 627 videos and 6/6 active Unlimited0; no Create/retry/credits. Phase A cleaned stale/oversized handoff with verbatim archive, 35143→34212 bytes; canon-health run 41884294876 success/status ok. Phase B mapped new Canon health mail run 41826591451 to the cleaned warning and later success; no blind rerun. Three automations and active Relay subscription checked; schedules/triggers unchanged.",
+        "21:55 MSK cycle 4 Nov: fresh complete 14-board/18-video-page scan found 627 videos and 6/6 active Unlimited0 on My First Board. All 12 submitted task IDs reconciled; no active claimed/submitting/submission_unknown. Queue/readiness hashes matched; next independent ready S63-WAN30. Ordinary actual run 9c9de247 completed but correctly saved no receipt because the prior Work lease was live. No Create/retry/credits; phases A/B/C not due; post-recertification integration remains not_checked.",
+        "14:55 MSK cycle 5 Nov: fresh complete 14-board/18-video-page scan found 628 videos and 6/6 active Unlimited0 on My First Board. All 13 submitted task IDs reconciled; no claimed/submitting/submission_unknown. Queue/readiness hashes matched; next independent ready S64-WAN30. Phase A health and current Actions succeeded; Phase B found no GitHub mail newer than the 09:55 successful check. No Create/retry/credits.",
+        "20:55 MSK cycle 5 Nov: fresh complete 14-board/18-video-page scan found 628 videos and 6/6 active Unlimited0 on My First Board. All 13 submitted task IDs reconciled; no claimed/submitting/submission_unknown. Phase A healthy with actual Actions jobs successful. Phase B resolved one historical launcher-idle alert by subsequent ordinary/current Work runtime evidence and the live 6/6 scan; no repair, rerun, mail mutation, Create or credits.",
+        "21:55 MSK cycle 5 Nov: fresh complete 14-board/18-video-page scan found 628 videos and 6/6 active Unlimited0 on My First Board. All 13 submitted task IDs reconciled; no claimed/submitting/submission_unknown. Queue/readiness hashes matched; next ready S64-WAN30. Ordinary actual run/latest result/receipt matched. Owner tasks open 0. No Create/retry/credits; phases A/B/C not due. Fresh canon-health status ok/warnings0/info10."
+      ]
+    },
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "completed": [
@@ -2179,6 +2208,87 @@
           ],
           "done_archived_points": 1,
           "done_archive": "archive/work-resume-register-archive.json"
+        }
+      ]
+    }
+  ],
+  "trimmed_recovery_history": [
+    {
+      "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+      "recovery_history": [
+        {
+          "schema_version": 1,
+          "verified_at": "2026-10-31T12:22:47+00:00",
+          "last_completed": "Простой 5ч40м19с разобран; исправление71f43c36111659f708af28f4655757f90cffd493 опубликовано и прочитано обратно.91 целевой тест, независимый review,282 CI tests и live consistency прошли; штатный robot12:20Z выполнил новый код и записал capacity_full. Оба существующих automation prompts обновлены и точно проверены.",
+          "next_action": "При следующем настоящем Relay/HH:55 проверить его собственную начальную и итоговую квитанции. Перед следующим Create свежие main/решения/замок, существующие task IDs и полный глобальный scan: при свободной ёмкости первая S71-WAN30, затем S56-SEED20-P2 по живой готовности/priority. S72 task22dbd25cdd9f47cd9e44300e55f5e44f наблюдать без повтора; unknown сначала сверить.",
+          "checkpoint": {
+            "file": "reports/current-work-checkpoint.md",
+            "anchor": "# Простой слота: расследование и исправление автоматики · 31.10.2026",
+            "sha256": "7d4f1942369631d1c1faf3b88de9035f9c2c7de0ce1ebacca82844327df7bcba"
+          },
+          "evidence": [
+            {
+              "file": "reports/topview-slot-idle-2026-10-31.json",
+              "sha256": "d269db6bb9f0f7ade6f1ef533f3c3b4d1b7f99381b61ef8db82c4d639419e458"
+            },
+            {
+              "file": "reports/topview-slot-idle-fix-2026-10-31.json",
+              "sha256": "4e56537294b8e931054964b4e6ec7a94d53a8a8727b45880724002ef1a554d75"
+            }
+          ],
+          "read_next": [
+            "ops/TOPVIEW-EVENT-WAKE.md",
+            "automation-monitor-status.json",
+            "reports/topview-event-wake.json",
+            "ops/topview-launch-queue.json"
+          ],
+          "blockers": []
+        },
+        {
+          "schema_version": 1,
+          "verified_at": "2026-10-31T16:58:22Z",
+          "last_completed": "code_and_documents_validated; automation_and_GUI_acceptance_separate",
+          "next_action": "Свежие роли/слоты/claims; обычный ChatGPT основной пока Work исчерпан. Проверить текущий реальный runtime и GUI. Запускать только готовое разрешённое при свободной ёмкости; unknown не повторять. Ответственность сменщика — ops/LAUNCHER-COORDINATION.md.",
+          "launcher_request_id": "owner-20261031-ordinary-primary",
+          "checkpoint": {
+            "file": "reports/current-work-checkpoint.md",
+            "anchor": "# Обычный ChatGPT — основной; Work — резерв · 31.10.2026",
+            "sha256": "e2f486e269233662732f49dd8eb0afb8fffe9bd7c339ba27cce30c9313eacec0"
+          },
+          "evidence": [],
+          "read_next": [
+            "ops/LAUNCHER-COORDINATION.md",
+            "ops/slot-backup.json"
+          ],
+          "blockers": [
+            "GUI отправка и независимость квоты не подтверждены"
+          ]
+        },
+        {
+          "schema_version": 1,
+          "verified_at": "2026-11-01T00:16:47+00:00",
+          "last_completed": "Grok integration reviewed; canonical instructions aligned and compatibility fixes verified by 431 tests; production queue and first-Create gate unchanged.",
+          "next_action": "Свежие роли/слоты/claims; priority72 →71 →48.2, затем остальные готовые.48.2 привязана по входам, старый blocked_continuity снят. Обычный исполнитель :00 МСК читает живую очередь, TinyFish при недоступном Work. Перед Create полный скан всех досок, собственный замок, CAS claim и Unlimited0; unknown не повторять.",
+          "checkpoint": {
+            "file": "reports/current-work-checkpoint.md",
+            "anchor": "# 01.11.2026 — Grok: инструкции и проверка интеграции",
+            "sha256": "5ab3282656cc39d5fa347932e28153860d739f50e01d4e71e1c28c848ebc3d74"
+          },
+          "evidence": [
+            {
+              "file": "reports/grok-integration-review-2026-11-01.json",
+              "sha256": "266093cc2f205120c56f68542016158c4f1a466f8a92fea88592ab5867860187"
+            }
+          ],
+          "read_next": [
+            "ops/LAUNCHER-COORDINATION.md",
+            "ops/slot-backup.json",
+            "ops/TOPVIEW-FREE-LAUNCH.md",
+            "ops/topview-launch-queue.json"
+          ],
+          "blockers": [
+            "Production TinyFish/Grok Create requires its own real task-ID receipt; canonical review is not browser acceptance."
+          ]
         }
       ]
     }

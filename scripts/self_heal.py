@@ -12,6 +12,9 @@ Fixes it may do (nothing else):
   * re-run the failed jobs of a failed robot run once;
   * rebuild GitHub Pages when the live site lags behind main;
   * mark an expired, never-released canon lock as free.
+When a self-heal alert is already marked passed/resolved and is not a current problem, the matching
+inbox task (source self-heal, same heal_key, still open/taken/needs_owner) is closed as done.
+Owner and ChatGPT tasks are never closed this way.
 It never approves, deletes, reruns or launches Topview generations, never edits master or instructions.
 
 State: ops/self-heal.json (written only when something changed). Shown on the site under the launch queue.
@@ -130,6 +133,37 @@ def detect(f, now):
     return out
 
 
+RESOLVED_KINDS = ("resolved", "passed")
+CLOSABLE = ("open", "taken", "needs_owner")
+
+
+def close_resolved_self_heal(inbox, found_keys, log, now):
+    """Close only self-heal tasks whose alert has already passed and is not current.
+
+    Tasks with any other source (owner, chatgpt, claude, grok) stay as they are.
+    """
+    notes = {}
+    for entry in log:
+        if not isinstance(entry, dict) or entry.get("kind") not in RESOLVED_KINDS:
+            continue
+        key = entry.get("key")
+        if key and key not in found_keys:
+            notes[key] = str(entry.get("text") or key)
+    closed = []
+    for task in inbox.get("tasks") or []:
+        if not isinstance(task, dict) or task.get("source") != "self-heal":
+            continue
+        key = task.get("heal_key")
+        if key not in notes or task.get("status") not in CLOSABLE:
+            continue
+        task["status"] = "done"
+        task["result"] = "Закрыто автоматически: самопроверка уже отметила, что предупреждение прошло. " + notes[key]
+        task["result_commit"] = None
+        task["closed_at"] = iso(now)
+        closed.append(task.get("id"))
+    return closed
+
+
 # --------------------------------------------------------------------------- planning (pure)
 def plan(f, prev, inbox, now):
     """Returns (actions, state, inbox, changed). actions are executed by the runner AFTER the state is pushed."""
@@ -164,6 +198,7 @@ def plan(f, prev, inbox, now):
     for key, o in old.items():
         if key not in found:
             log.append({"at": iso(now), "kind": "resolved", "key": key, "text": f"Прошло: {o.get('text', key)}"})
+    close_resolved_self_heal(inbox, set(found), log, now)
 
     state = {"schema_version": 1, "rules": "ops/SELF-HEAL.md",
              "status": "ok" if not problems else ("escalated" if any(p["escalated_at"] for p in problems.values()) else "fixing"),

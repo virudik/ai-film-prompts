@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "project": "roscosmos",
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:work:da0ac368-f673-451d-8812-b3cc481277ef",
   "task": "Терра Тех 26–30: опубликовать проверенные оригиналы и совмещённые монтажные вставки",
   "acquired_at": "2026-11-05T19:07:02.922Z",
-  "expires_at": "2026-11-05T19:52:02.922Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-11T01:20:59Z",
   "rules": "ops/CANON-LOCK.md"
 }
