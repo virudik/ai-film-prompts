@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-11T00:06:16+00:00",
-  "source_head": "81007321ae156e7a30a0da1b8b39b7ffc23b0489",
-  "source_fingerprint": "6329a120db47f75949566945505a8a2dc512026f25bf12d2ba5d09b23a719b9b",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-11-11T00:10:06+00:00",
+  "source_head": "c90f6cec88eed18a656fd00ad4df8046f94bb9ff",
+  "source_fingerprint": "f90a327e91e217a8f1389d5b2498534a6bcc651a36b2b10ce689e45cd27bc0a2",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "raznoe-continue-20261106-93c791ea-000f-442e-90b9-13502501c5c1",
@@ -31,35 +31,10 @@
     },
     "source_head": "0107904bad80907682f4854768885b56d7d8d8da"
   },
-  "reasons": [],
-  "selected_work": {
-    "work_id": "RAZNOE-HONOR-X9EPRO-CONTEST-20261107",
-    "title": "RAZNOE-HONOR-X9EPRO-CONTEST-20261107",
-    "status": "preproduction_updated_waiting_submission_rehearsal_and_real_phone",
-    "last_completed": "Внесение референсов завершено: 6 PNG, 6 превью и 39 автономных привязок к точным реальным моделям. Сайт: 26/26 файлов совпали по SHA256. Drive6/6 ранее проверены, существующие копии сохранены. Полный набор: 550 тестов, ошибок/пропусков0.",
-    "next_action": "Этап референсов и публикации закрыт: изображения, 36+3 промпта и источники не создавать повторно. Дальше только отдельно разрешённые видеозапуски, реальные стыки, полный QC и приёмка; для X9e — отдельная конкурсная отправка и физическая съёмка. Они этим этапом не выполнены.",
-    "verified_at": "2026-11-11T00:06:15+00:00",
-    "blockers": [],
-    "evidence": [
-      {
-        "file": "projects/raznoe/reports/honor-reference-delivery.json",
-        "sha256": "535da7280b88b63ce3cd4be3cd1a3765ff589c95eb3a94490d1ab070403207bd"
-      },
-      {
-        "file": "projects/raznoe/reports/honor-reference-integration.json",
-        "sha256": "4cbc26eca447b1f22362aa81e0d6105fdb395009057ec1ed39b026f47f0c8bf5"
-      }
-    ],
-    "read_next": [
-      "projects/raznoe/references/scenes/scene-4/reference-bindings.json",
-      "projects/raznoe/references/scenes/scene-5/reference-bindings.json"
-    ],
-    "checkpoint": {
-      "file": "projects/raznoe/reports/current-work-checkpoint.md",
-      "anchor": "# 11.11.2026 — реальные модели и шесть референсов HONOR4/5",
-      "sha256": "1c1c54b2ffe28eabb81132467eed502aefcf62a0030002b6657044f64bb92b3c"
-    }
-  },
+  "reasons": [
+    "recovery evidence changed: projects/raznoe/reports/honor-reference-delivery.json"
+  ],
+  "selected_work": null,
   "checkpoint_text": "# 11.11.2026 — реальные модели и шесть референсов HONOR4/5\n\nwork_id: RAZNOE-HONOR-X9EPRO-CONTEST-20261107\n\n- Внесение референсов завершено: 6 PNG, 6 превью и 39 автономных привязок к точным реальным моделям. Сайт: 26/26 файлов совпали по SHA256. Drive6/6 ранее проверены, существующие копии сохранены. Полный набор: 550 тестов, ошибок/пропусков0.\n- Официальные источники приоритетны. ИИ-кадры только свет/композиция; H-GEN-PAIR — сравнение, X-GEN-MOSCOW — архив.\n- Доказательство: projects/raznoe/reports/honor-reference-delivery.json\n- Следующий шаг: Этап референсов и публикации закрыт: изображения, 36+3 промпта и источники не создавать повторно. Дальше только отдельно разрешённые видеозапуски, реальные стыки, полный QC и приёмка; для X9e — отдельная конкурсная отправка и физическая съёмка. Они этим этапом не выполнены.\n\nchecked_at: 2026-11-11T00:06:15+00:00\n",
   "invariants": [
     {
@@ -153,10 +128,7 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [
-    "projects/raznoe/references/scenes/scene-4/reference-bindings.json",
-    "projects/raznoe/references/scenes/scene-5/reference-bindings.json"
-  ],
+  "read_next": [],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -266,16 +238,6 @@
       "bytes": 8498
     },
     {
-      "file": "projects/raznoe/reports/honor-reference-delivery.json",
-      "sha256": "535da7280b88b63ce3cd4be3cd1a3765ff589c95eb3a94490d1ab070403207bd",
-      "bytes": 23764
-    },
-    {
-      "file": "projects/raznoe/reports/honor-reference-integration.json",
-      "sha256": "4cbc26eca447b1f22362aa81e0d6105fdb395009057ec1ed39b026f47f0c8bf5",
-      "bytes": 14635
-    },
-    {
       "file": "projects/raznoe/video-prompts.md",
       "sha256": "986b94bc6c500bffe4810d29566ef241a6a5fe0e56e43685df0458a6e79172e8",
       "bytes": 704289
@@ -301,5 +263,5 @@
       "bytes": 1855431
     }
   ],
-  "packet_bytes": 6293
+  "packet_bytes": 5274
 }
