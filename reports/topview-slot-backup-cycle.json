@@ -13,16 +13,45 @@
   "source_head_started": "2400583ee7485e93b999912856c26bca6e0fe78b",
   "route_generation": 3,
   "started_at": "2026-11-12T19:57:43.101927Z",
-  "checked_at": "2026-11-12T20:03:31.996Z",
-  "phase": "started",
-  "status": "in_progress",
+  "checked_at": "2026-11-12T20:06:52.497Z",
+  "phase": "completed",
+  "status": "completed",
   "scan": {
-    "complete": false,
-    "scope": "Account-wide Topview connector read-only verification in this execution"
+    "complete": true,
+    "scope": "Fresh Topview connector all-board video scan: 14 boards, 19 pages, 674 unique video tasks; My First Board 507 videos across 6 pages. All 41 recorded queue task IDs present. SHA256 recomputed from raw GitHub files and matched readiness.",
+    "boards": 14,
+    "pages": 19,
+    "unique_task_ids": 674,
+    "status_counts": {
+      "success": 641,
+      "fail": 27,
+      "init": 6
+    },
+    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "main_board_video_tasks": 507,
+    "active_task_ids": [
+      "d775c7a483a44f13ba1704a1c418b208",
+      "8c6d92662d1043c7a651168b2b8280ae",
+      "1dcb6fa0628d41b098227ca6c96f1630",
+      "a1330998d39b486e864ed4e22b4fe8c4",
+      "3a09108c8c474a0989118806b4a69f91",
+      "be627af0e9664db5b6ac2b62c34080a6"
+    ],
+    "readiness_sha_match": true,
+    "queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+    "task_map_sha256": "222c148e422aa08d39e5d87609b4da69cc0940cd7be31e2835dc582222372373",
+    "registered_task_ids_verified": 41,
+    "nonterminal_claims": 0,
+    "owner_tasks_open": 0,
+    "current_taskmap_unmapped_active": [
+      "d775c7a483a44f13ba1704a1c418b208"
+    ],
+    "active_tasks_individually_verified": true,
+    "active_settings": "All six init tasks confirmed on My First Board: Seedance 2.0, 15 seconds, 720p, 16:9, useUnlimitMode=true, creditsCost=0."
   },
-  "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
+  "scan_complete": true,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
   "task_ids": [],
   "browser_transport": "not_used",
@@ -40,15 +69,34 @@
     "acquired_at": "2026-11-12T20:02:44.642Z",
     "expires_at": "2026-11-12T20:27:44.642Z",
     "acquired_commit": "2400583ee7485e93b999912856c26bca6e0fe78b",
-    "released": false
+    "released": true,
+    "release_recorded_at": "2026-11-12T20:06:52.497Z",
+    "release_commit": "same_commit_as_final_receipt"
   },
-  "outcome": "started",
+  "outcome": "no_free_slot",
   "blocker": null,
-  "retryable": null,
+  "retryable": false,
   "acceptance": {
     "scheduled_execution_observed": true,
+    "tinyfish_profile_signin_history_only": true,
     "current_tinyfish_login_control_file_upload_unlimited0_verified": false,
     "topview_task_id_verified_for_this_run": false,
     "end_to_end_background_submission_verified": false
-  }
+  },
+  "source_head": "af9fab584da693a289dd484347a0c7b00ceab451",
+  "completed_at": "2026-11-12T20:06:52.497Z",
+  "new_submissions": 0,
+  "slots": {
+    "capacity": 6,
+    "occupied": 6,
+    "free": 0
+  },
+  "notes": [
+    "Full physical capacity 6/6 in live connector scan; no Create or paid TinyFish polling.",
+    "Existing 41 submitted task IDs all found on My First Board; 0 new submissions, 0 nonterminal queue claims, 0 open owner tasks.",
+    "Old topview-slot-wake issue #600 was superseded by the new 6/6 physical scan.",
+    "d775c7a4… remains active but unmapped in task-map; no guessing or repeat submission.",
+    "Existing hourly HH:00 task remained enabled; route_generation=3 unchanged. Work preference not changed absent fresh GUI/quota verification.",
+    "This cycle's started and final receipts are written under the exact owned lease."
+  ]
 }
