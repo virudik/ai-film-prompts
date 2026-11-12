@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": null,
-  "task": null,
-  "acquired_at": null,
-  "expires_at": null,
-  "released_at": "2026-11-12T05:12:06.674Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:0626f0f0-c27b-49f4-a11a-1e7845184440",
+  "task": "Seregius HH:00 read-only account-wide slot scan / authorized queue reconciliation",
+  "acquired_at": "2026-11-12T06:09:17.460Z",
+  "expires_at": "2026-11-12T06:24:17.460Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
