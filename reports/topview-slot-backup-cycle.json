@@ -5,55 +5,24 @@
   "runner": "chatgpt:ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
   "automationID": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "04e70c9e-6a60-4ec7-9570-cdc6961b1903",
-  "holder": "chatgpt:ordinary:04e70c9e-6a60-4ec7-9570-cdc6961b1903",
-  "run_id": "7de1ec9c-d450-8325-ad33-da050231e83a",
-  "runtime_run_id": "7de1ec9c-d450-8325-ad33-da050231e83a",
-  "runtime_run_id_source": "Automations.peek last_run.id for scheduled_for 2026-11-12T21:00:00Z",
-  "source_head_started": "c9c8b0b7bc35522ab696fdbe03104bd4ce6db253",
+  "execution_instance_id": "0febc030-4773-4a16-8852-c2fcdb2d4bb2",
+  "holder": "chatgpt:ordinary:0febc030-4773-4a16-8852-c2fcdb2d4bb2",
+  "run_id": "3276b128-15e0-8330-8c59-0142165df62a",
+  "runtime_run_id": "3276b128-15e0-8330-8c59-0142165df62a",
+  "runtime_run_id_source": "Automations.peek current last_run.id scheduled_for 2026-11-12T22:00:00Z, started 2026-11-12T22:03:05.087070Z",
+  "source_head_started": "1ba42e0fe6e278e537d7eb12d2848009b24ad8f2",
   "route_generation": 3,
-  "started_at": "2026-11-12T21:06:44.398Z",
-  "checked_at": "2026-11-12T21:08:07.375Z",
-  "phase": "completed",
-  "status": "completed",
+  "started_at": "2026-11-12T22:09:52.619Z",
+  "checked_at": "2026-11-12T22:10:27.673Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan": {
-    "complete": true,
-    "scope": "Complete live Topview connector account-wide video scan: 14 boards, 19 pages, 674 unique videos (641 success/27 fail/6 init); exact My First Board all-media scan 8 pages, 731 unique assets; 41 registered queue task IDs all found; six active task details separately verified. Queue/task-map SHA256 recomputed and matched readiness.",
-    "boards": 14,
-    "pages": 19,
-    "unique_task_ids": 674,
-    "status_counts": {
-      "success": 641,
-      "fail": 27,
-      "init": 6
-    },
-    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-    "main_board_video_tasks": 507,
-    "active_task_ids": [
-      "d775c7a483a44f13ba1704a1c418b208",
-      "8c6d92662d1043c7a651168b2b8280ae",
-      "1dcb6fa0628d41b098227ca6c96f1630",
-      "a1330998d39b486e864ed4e22b4fe8c4",
-      "3a09108c8c474a0989118806b4a69f91",
-      "be627af0e9664db5b6ac2b62c34080a6"
-    ],
-    "readiness_sha_match": true,
-    "queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
-    "task_map_sha256": "9238b01925754d9d9a47ea1e7a943863ee7702394bb5b003a9479e77c8df5eca",
-    "registered_task_ids_verified": 41,
-    "nonterminal_claims": 0,
-    "owner_tasks_open": 0,
-    "current_taskmap_unmapped_active": [
-      "d775c7a483a44f13ba1704a1c418b208"
-    ],
-    "active_tasks_individually_verified": true,
-    "active_settings": "All six init tasks on My First Board: Seedance 2.0, 15s, 720p,16:9, Unlimited true, creditsCost 0.",
-    "main_board_all_media_tasks": 731,
-    "main_board_all_media_pages": 8
+    "complete": false,
+    "scope": "Read-only connector scan performed before lease: 14 boards, 15 nonempty video pages (19 including four empty boards), 674 videos. Detailed reconciliation and receipt in progress."
   },
-  "scan_complete": true,
-  "occupied_slots": 6,
-  "free_slots": 0,
+  "scan_complete": false,
+  "occupied_slots": null,
+  "free_slots": null,
   "selected_item": null,
   "task_ids": [],
   "browser_transport": "not_used",
@@ -67,15 +36,13 @@
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:04e70c9e-6a60-4ec7-9570-cdc6961b1903",
-    "acquired_at": "2026-11-12T21:05:47.934Z",
-    "expires_at": "2026-11-12T21:30:47.934Z",
-    "acquired_commit": "dbb066dbf3f908172c7c8284bf4188fc40e61f40",
-    "released": true,
-    "release_recorded_at": "2026-11-12T21:08:07.375Z",
-    "release_commit": "same_commit_as_final_receipt"
+    "holder": "chatgpt:ordinary:0febc030-4773-4a16-8852-c2fcdb2d4bb2",
+    "acquired_at": "2026-11-12T22:09:52.619Z",
+    "expires_at": "2026-11-12T22:34:52.619Z",
+    "acquired_commit": "711392a6fe342218d50515e74ea86b8f2befdf5c",
+    "released": false
   },
-  "outcome": "no_free_slot",
+  "outcome": "checking",
   "blocker": null,
   "retryable": false,
   "acceptance": {
@@ -85,21 +52,5 @@
     "topview_task_id_verified_for_this_run": false,
     "end_to_end_background_submission_verified": false
   },
-  "source_head": "d21fba3b4be8c3e6628d5a00be2cfb245146e764",
-  "completed_at": "2026-11-12T21:08:07.375Z",
-  "new_submissions": 0,
-  "slots": {
-    "capacity": 6,
-    "occupied": 6,
-    "free": 0
-  },
-  "notes": [
-    "Fresh Topview scan 6/6 active physical video slots. No Create or paid TinyFish run, credits and browser spending 0.",
-    "Independently computed SHA256 queue 1e7c28ec… and task-map 9238b019… match readiness; 41 registered task IDs found on My First Board (full all-media scan).",
-    "Existing unmapped active task d775c7a4… present; no guessing attribution, no repeat Create.",
-    "Open bot issue #600 from 2026-11-12T10:51:07Z is stale, superseded by complete new 6/6 scan.",
-    "Automations.peek observed current last_run.id; older latest_result.run_id is not today's run identity. HH:55 and Relay peers had no confirmed newer Work GUI/quota proof.",
-    "Ordinary automation remains enabled HH:00, route_generation 3 unchanged, queue/readiness/master and next_action not modified.",
-    "Started receipt committed with own exact lease; final receipt and release atomically CAS committed."
-  ]
+  "new_submissions": 0
 }
