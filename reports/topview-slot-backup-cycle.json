@@ -5,25 +5,24 @@
   "runner": "chatgpt_ordinary_scheduled",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
   "automationID": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "0626f0f0-c27b-49f4-a11a-1e7845184440",
-  "holder": "chatgpt:ordinary:0626f0f0-c27b-49f4-a11a-1e7845184440",
-  "run_id": "74f8222a-3428-8330-b324-4092a3d4102a",
-  "runtime_run_id": "74f8222a-3428-8330-b324-4092a3d4102a",
-  "runtime_run_id_source": "Automations.peek.last_run.id",
+  "execution_instance_id": "6fd84d6a-2196-40fc-bce1-8121021f4487",
+  "holder": "chatgpt:ordinary:6fd84d6a-2196-40fc-bce1-8121021f4487",
+  "run_id": "bf558be1-6710-8327-ab4a-2b37685770ef",
+  "runtime_run_id": "bf558be1-6710-8327-ab4a-2b37685770ef",
+  "runtime_run_id_source": "Automations.peek.last_run.id (recorded in_progress current scheduled run)",
   "runtime_run_id_unavailable_reason": null,
-  "source_head_started": "751f34d71e9579e5e4eb9a24b3037173915f468f",
-  "source_head": "84f9137d6880955a6a363e7c25d6946594305daf",
+  "source_head_started": "accc5f3bff0291ddfe0a346f019fdf99171f6434",
+  "source_head": "4b6516d9832e67ec47b958782c2be96c1d6e05cd",
   "route_generation": 3,
-  "started_at": "2026-11-12T06:09:17.460Z",
-  "checked_at": "2026-11-12T06:16:42.166Z",
-  "phase": "completed",
-  "status": "completed",
+  "started_at": "2026-11-12T07:02:10.251Z",
+  "checked_at": null,
+  "phase": "started",
+  "status": "in_progress",
   "scan": {
     "complete": true,
-    "scope": "Topview account-wide 14 boards / 19 paginated video-list queries, 673 unique video tasks; 506 video tasks on My First Board",
+    "scope": "Topview all 14 boards; 19 video-list pages; 673 unique tasks",
     "boards": 14,
     "pages": 19,
-    "page_size": 100,
     "video_tasks": 673,
     "unique_task_ids": 673,
     "status_counts": {
@@ -31,27 +30,12 @@
       "fail": 27,
       "init": 6
     },
-    "verified_at": "2026-11-12T06:15:17Z",
-    "active_task_details_verified_at": "2026-11-12T06:16:42.166Z",
-    "registered_task_ids": 41,
-    "registered_found": 41,
-    "unreconciled_claims": 0,
-    "ready_sha": {
-      "queue": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
-      "task_map": "cadf3900e0b33b8a34490ce3079db82bc9eba6da47864f27c0f4bc85efb02649",
-      "match_both": true,
-      "method": "Independent JS SHA-256 on fresh GitHub UTF-8 bytes, validated against abc vector"
-    },
-    "technically_ready_with_owner_gates": 16,
-    "owner_tasks_open": 0,
-    "robot_health_checked_at": "2026-11-12T05:20:38Z",
-    "stale_slot_issue": "TOPVIEW_SLOT_WAKE_V2 slots:6811ec7e:58 from 2026-11-11; superseded by current full Topview scan",
-    "work_last_run": {
-      "hh55_id": "99cc2ba9-f028-8326-8c8a-d4430d86f91c",
-      "hh55_status": "no_update",
-      "relay_id": "69a887ed-d6d0-832b-948e-020278b9b630",
-      "relay_status": "no_update"
-    }
+    "verified_at": "2026-11-12T07:00:46.551Z",
+    "registered_task_ids": null,
+    "registered_found": null,
+    "unreconciled_claims": null,
+    "ready_sha": null,
+    "owner_tasks_open": null
   },
   "slots": {
     "capacity": 6,
@@ -65,7 +49,7 @@
       "be627af0e9664db5b6ac2b62c34080a6",
       "8bdd6439dad94592979aba23c137b4a0"
     ],
-    "source": "Complete independent read-only Topview account-wide scan",
+    "source": "Complete read-only Topview board-wide scan",
     "active_task_details_verified": true
   },
   "scan_complete": true,
@@ -80,36 +64,24 @@
     "steps": 0,
     "estimated_cost_usd": 0,
     "confirmed_cost_usd": 0,
-    "reason": "Six physical video slots occupied; no chargeable browser call or Wallet query needed"
+    "reason": "All six slots occupied"
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:0626f0f0-c27b-49f4-a11a-1e7845184440",
-    "acquired_at": "2026-11-12T06:09:17.460Z",
-    "expires_at": "2026-11-12T06:24:17.460Z",
-    "acquired_commit": "78b6dbb512650733f1df5bd5c5f39c40e27f94ac",
-    "released": true,
-    "released_at": "2026-11-12T06:18:36.746Z",
-    "release_method": "single_git_tree_commit_expected_head_CAS_readback",
-    "release_atomic_with_receipt": true
+    "holder": "chatgpt:ordinary:6fd84d6a-2196-40fc-bce1-8121021f4487",
+    "acquired_at": "2026-11-12T07:02:10.251Z",
+    "expires_at": "2026-11-12T07:17:10.251Z",
+    "acquired_commit": "4b6516d9832e67ec47b958782c2be96c1d6e05cd",
+    "released": false
   },
-  "outcome": "no_free_slot",
+  "outcome": "in_progress",
   "blocker": null,
   "retryable": false,
   "acceptance": {
-    "hourly_execution": true,
-    "read_only_scan": true,
-    "website_login": false,
-    "website_control": false,
-    "files_uploaded": false,
-    "unlimited_zero": false,
-    "topview_task_verified": false,
-    "production_tinyfish_launch": false,
-    "active_task_details_verified": true
-  },
-  "updated_at": "2026-11-12T06:18:36.746Z",
-  "source_head_checked": "84f9137d6880955a6a363e7c25d6946594305daf",
-  "completed_at": "2026-11-12T06:18:36.746Z",
-  "reconciliation_warning": "S49B task 3a09108c8c474a0989118806b4a69f91 and S51G task 8c6d92662d1043c7a651168b2b8280ae match prompts, but canonical original-image SHA matching incomplete; do not duplicate",
-  "notes": "6/6 active on exact My First Board, 720p 16:9 Seedance 2.0 15s, useUnlimitMode=true in all six. All 41 submitted IDs on board. Queue and readiness SHA aligned. No Create or paid TinyFish. No owner task open. Work HH55 no_update not evidence of restored GUI/quota. Canonical queue/checkpoint unchanged."
+    "hourly_execution_verified": true,
+    "tinyfish_signin_verified_historically": true,
+    "tinyfish_upload_verified": false,
+    "tinyfish_unlimited_zero_preflight_verified": false,
+    "production_submission_verified": false
+  }
 }
