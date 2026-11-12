@@ -5,61 +5,26 @@
   "runner": "chatgpt:ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
   "automationID": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "21fc181f-45f6-4fc6-9ceb-59050c0d48ae",
-  "holder": "chatgpt:ordinary:21fc181f-45f6-4fc6-9ceb-59050c0d48ae",
-  "run_id": "bec35295-9cf4-8321-b614-a6653cd22ae3",
-  "runtime_run_id": "bec35295-9cf4-8321-b614-a6653cd22ae3",
-  "runtime_run_id_source": "Automations.peek last_run.id, scheduled_for 2026-11-12T19:00:00Z, started_at 18:58:29.918624Z",
-  "source_head_started": "3094a30234c0610387276328cf54306225a6739d",
+  "execution_instance_id": "19f66014-7c28-420c-9963-27a0c56f22aa",
+  "holder": "chatgpt:ordinary:19f66014-7c28-420c-9963-27a0c56f22aa",
+  "run_id": "00c36aaa-8688-832e-9f32-d120f5e8337a",
+  "runtime_run_id": "00c36aaa-8688-832e-9f32-d120f5e8337a",
+  "runtime_run_id_source": "Automations.peek current last_run.id scheduled_for 2026-11-12T20:00:00Z",
+  "source_head_started": "2400583ee7485e93b999912856c26bca6e0fe78b",
   "route_generation": 3,
-  "started_at": "2026-11-12T18:58:29.918624Z",
-  "checked_at": "2026-11-12T19:06:53.183Z",
-  "phase": "completed",
-  "status": "completed",
+  "started_at": "2026-11-12T19:57:43.101927Z",
+  "checked_at": "2026-11-12T20:03:31.996Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan": {
-    "complete": true,
-    "scope": "Fresh Topview connector full all-board/all-video-page scan: 14 boards, 19 pages, 674 unique video tasks; independent full 731 media-task scan of My First Board (8 pages). All 41 queued submitted IDs present. Queue and task-map SHA256 recomputed and matched readiness.",
-    "boards": 14,
-    "pages": 19,
-    "unique_task_ids": 674,
-    "status_counts": {
-      "success": 641,
-      "fail": 27,
-      "init": 6
-    },
-    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-    "main_board_media_tasks": 731,
-    "active_task_ids": [
-      "d775c7a483a44f13ba1704a1c418b208",
-      "8c6d92662d1043c7a651168b2b8280ae",
-      "1dcb6fa0628d41b098227ca6c96f1630",
-      "a1330998d39b486e864ed4e22b4fe8c4",
-      "3a09108c8c474a0989118806b4a69f91",
-      "be627af0e9664db5b6ac2b62c34080a6"
-    ],
-    "readiness_sha_match": true,
-    "queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
-    "task_map_sha256": "39813eeea9070a3bf0874d90ded861b176f61931e76ddefa2125d6ab7e5ad893",
-    "registered_task_ids_verified": 41,
-    "nonterminal_claims": 0,
-    "owner_tasks_open": 0,
-    "current_taskmap_unmapped_active": [
-      "d775c7a483a44f13ba1704a1c418b208"
-    ],
-    "active_tasks_individually_verified": true,
-    "active_settings": "Six init tasks confirmed on My First Board: Seedance 2.0, 15s, 720p, 16:9, useUnlimitMode=true, creditsCost=0."
+    "complete": false,
+    "scope": "Account-wide Topview connector read-only verification in this execution"
   },
-  "slots": {
-    "capacity": 6,
-    "occupied": 6,
-    "free": 0
-  },
-  "scan_complete": true,
-  "occupied_slots": 6,
-  "free_slots": 0,
+  "scan_complete": false,
+  "occupied_slots": null,
+  "free_slots": null,
   "selected_item": null,
   "task_ids": [],
-  "new_submissions": 0,
   "browser_transport": "not_used",
   "tinyfish": {
     "used": false,
@@ -71,31 +36,19 @@
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:21fc181f-45f6-4fc6-9ceb-59050c0d48ae",
-    "acquired_at": "2026-11-12T19:03:26.455Z",
-    "expires_at": "2026-11-12T19:18:26.455Z",
-    "acquired_commit": "6d248245a1c941b418fb08c450fd6e738c683ffe",
-    "released": true,
-    "release_recorded_at": "2026-11-12T19:08:54.484Z",
-    "release_commit": "same_commit_as_final_receipt"
+    "holder": "chatgpt:ordinary:19f66014-7c28-420c-9963-27a0c56f22aa",
+    "acquired_at": "2026-11-12T20:02:44.642Z",
+    "expires_at": "2026-11-12T20:27:44.642Z",
+    "acquired_commit": "2400583ee7485e93b999912856c26bca6e0fe78b",
+    "released": false
   },
-  "outcome": "no_free_slot",
+  "outcome": "started",
   "blocker": null,
-  "retryable": false,
+  "retryable": null,
   "acceptance": {
     "scheduled_execution_observed": true,
-    "tinyfish_profile_signin_history_only": true,
     "current_tinyfish_login_control_file_upload_unlimited0_verified": false,
     "topview_task_id_verified_for_this_run": false,
     "end_to_end_background_submission_verified": false
-  },
-  "source_head": "be747dfa8bd42256d1baf6c837911570193422e7",
-  "notes": [
-    "Full physical capacity 6/6; no Create, no paid TinyFish browser poll, no credit spend.",
-    "Fresh queue/task-map/checkpoint, ledger and owner-tasks reviewed. 41 submitted queue task IDs found on exact board. No open owner task or nonterminal queue claim.",
-    "Old wake issue #600 is an earlier signal only, current account-wide scan supersedes it; Work runtime no new verified GUI+quota recovery.",
-    "d775c7a4… remains physical init task without current task-map scene attribution; do not relaunch or guess attribution.",
-    "Initial started receipt saved under own CAS lease. Final receipt and exact lease release committed together."
-  ],
-  "completed_at": "2026-11-12T19:08:54.484Z"
+  }
 }
