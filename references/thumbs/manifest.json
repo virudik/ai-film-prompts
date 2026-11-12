@@ -1663,6 +1663,66 @@
    "thumb_bytes": 44116,
    "src_sha256": "2279000421fef277e1e7555498009f983f7a47e6943e549c75111b2ddf3b3e1d"
   },
+  "projects/raznoe/references/scenes/scene-4/H-GEN-CAMERA.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-4/H-GEN-CAMERA.png.webp",
+   "width": 640,
+   "height": 800,
+   "src_width": 1122,
+   "src_height": 1402,
+   "src_bytes": 1954325,
+   "thumb_bytes": 24820,
+   "src_sha256": "e91ba636f6c7ff2d96ed205bd6e81a9848c85939e517367bb1f57ebdc19eab76"
+  },
+  "projects/raznoe/references/scenes/scene-4/H-GEN-PAIR.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-4/H-GEN-PAIR.png.webp",
+   "width": 640,
+   "height": 800,
+   "src_width": 1122,
+   "src_height": 1402,
+   "src_bytes": 1678388,
+   "thumb_bytes": 18600,
+   "src_sha256": "3c7fb44eeb985cadc936a790defe4428f041c6f8ef4a8e569b9d82d0bb2ab97d"
+  },
+  "projects/raznoe/references/scenes/scene-4/H-GEN-REAR.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-4/H-GEN-REAR.png.webp",
+   "width": 640,
+   "height": 800,
+   "src_width": 1122,
+   "src_height": 1402,
+   "src_bytes": 1770811,
+   "thumb_bytes": 16006,
+   "src_sha256": "638788a29ad30654b3a03cd25f0cf0bd7d8161f995ebec2701941e73b97f3889"
+  },
+  "projects/raznoe/references/scenes/scene-5/X-GEN-FRONT.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-5/X-GEN-FRONT.png.webp",
+   "width": 640,
+   "height": 800,
+   "src_width": 1122,
+   "src_height": 1402,
+   "src_bytes": 1591984,
+   "thumb_bytes": 13488,
+   "src_sha256": "310d541788fb9369940389d82fc370f39d5dfe72c959f3825139709efb48f9f7"
+  },
+  "projects/raznoe/references/scenes/scene-5/X-GEN-MOSCOW.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-5/X-GEN-MOSCOW.png.webp",
+   "width": 640,
+   "height": 800,
+   "src_width": 1122,
+   "src_height": 1402,
+   "src_bytes": 2413517,
+   "thumb_bytes": 41934,
+   "src_sha256": "1cb1c6f78c6c34805200f58cf873c31706497b7bd3cba44a7d99362018385c50"
+  },
+  "projects/raznoe/references/scenes/scene-5/X-GEN-REAR.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-5/X-GEN-REAR.png.webp",
+   "width": 640,
+   "height": 800,
+   "src_width": 1122,
+   "src_height": 1402,
+   "src_bytes": 2211875,
+   "thumb_bytes": 24274,
+   "src_sha256": "715551970cc8b60b1b3658e646e26a46bb86008822f3a05ffcecad958bdc5f19"
+  },
   "projects/raznoe/references/sonya-expressions.png": {
    "thumb": "references/thumbs/projects/raznoe/references/sonya-expressions.png.webp",
    "width": 640,
@@ -5242,6 +5302,106 @@
    "src_bytes": 92564,
    "thumb_bytes": 54384,
    "src_sha256": "b4b0ac60e4a9e7a1ffccd628fa267d17848411a2538523c439a600b8d15f604b"
+  },
+  "references/scenes/scene-89/89E/Image1.jpg": {
+   "thumb": "references/thumbs/scenes/scene-89/89E/Image1.jpg.webp",
+   "width": 640,
+   "height": 357,
+   "src_width": 1920,
+   "src_height": 1071,
+   "src_bytes": 164724,
+   "thumb_bytes": 22524,
+   "src_sha256": "13fc8daea2fd0c7828c47ff34bf24b8c49147cf22e5d490ea3b9030b45c2ccae"
+  },
+  "references/scenes/scene-89/89G/Image4.png": {
+   "thumb": "references/thumbs/scenes/scene-89/89G/Image4.png.webp",
+   "width": 640,
+   "height": 400,
+   "src_width": 1920,
+   "src_height": 1200,
+   "src_bytes": 1205075,
+   "thumb_bytes": 15930,
+   "src_sha256": "c74268e8462336b7755e531af3d919db76fc19aaf3cc87c3280536d379f891a5"
+  },
+  "references/scenes/scene-89/89G/Image5.png": {
+   "thumb": "references/thumbs/scenes/scene-89/89G/Image5.png.webp",
+   "width": 640,
+   "height": 400,
+   "src_width": 1920,
+   "src_height": 1200,
+   "src_bytes": 1314626,
+   "thumb_bytes": 13386,
+   "src_sha256": "98fdf155237351540d361ddcf91fab803836759708624165695f4b8d1096a971"
+  },
+  "references/scenes/scene-89/shared/holo-man.jpg": {
+   "thumb": "references/thumbs/scenes/scene-89/shared/holo-man.jpg.webp",
+   "width": 640,
+   "height": 357,
+   "src_width": 1920,
+   "src_height": 1071,
+   "src_bytes": 136296,
+   "thumb_bytes": 14994,
+   "src_sha256": "b4a1307310e9c7c52a6f1d8b3157acaa4666daad281b305a119806511c6d2f42"
+  },
+  "references/scenes/scene-89/shared/holo-office.jpg": {
+   "thumb": "references/thumbs/scenes/scene-89/shared/holo-office.jpg.webp",
+   "width": 640,
+   "height": 357,
+   "src_width": 1920,
+   "src_height": 1071,
+   "src_bytes": 283182,
+   "thumb_bytes": 39200,
+   "src_sha256": "aa8cded6f151278c5bc1a1823ea8ed04abcde819e93cd2dfc2b38b0b2ce48d54"
+  },
+  "references/scenes/scene-89/shared/holo-woman.jpg": {
+   "thumb": "references/thumbs/scenes/scene-89/shared/holo-woman.jpg.webp",
+   "width": 640,
+   "height": 357,
+   "src_width": 1920,
+   "src_height": 1071,
+   "src_bytes": 142442,
+   "thumb_bytes": 16242,
+   "src_sha256": "85ab20924887bd960cad1a4c3ae3089bc27b6b050d1bef5e63895c48c4604bc8"
+  },
+  "references/scenes/scene-89/shared/jedi1-ilyusha-scene.png": {
+   "thumb": "references/thumbs/scenes/scene-89/shared/jedi1-ilyusha-scene.png.webp",
+   "width": 640,
+   "height": 854,
+   "src_width": 896,
+   "src_height": 1195,
+   "src_bytes": 1879083,
+   "thumb_bytes": 53480,
+   "src_sha256": "f308cb384704d43eb6f4db5bb9425d4ade6be930710e90d3fc4277d9995f07c4"
+  },
+  "references/scenes/scene-89/shared/jedi2-artem-scene.png": {
+   "thumb": "references/thumbs/scenes/scene-89/shared/jedi2-artem-scene.png.webp",
+   "width": 640,
+   "height": 723,
+   "src_width": 976,
+   "src_height": 1103,
+   "src_bytes": 1871086,
+   "thumb_bytes": 41078,
+   "src_sha256": "bf99a0d68b6bf1f8795dc13b4662d5ce72c61a2d4e24490bfd4ddfc8c53760e4"
+  },
+  "references/scenes/scene-89/shared/pasha-scene.png": {
+   "thumb": "references/thumbs/scenes/scene-89/shared/pasha-scene.png.webp",
+   "width": 640,
+   "height": 854,
+   "src_width": 896,
+   "src_height": 1195,
+   "src_bytes": 1702372,
+   "thumb_bytes": 47182,
+   "src_sha256": "58ecb37480403078851d3907cd426f8d9534282ea5e33635583b6d6a60635bf9"
+  },
+  "references/scenes/scene-89/shared/sasha-scene.png": {
+   "thumb": "references/thumbs/scenes/scene-89/shared/sasha-scene.png.webp",
+   "width": 640,
+   "height": 640,
+   "src_width": 1024,
+   "src_height": 1024,
+   "src_bytes": 1900894,
+   "thumb_bytes": 37094,
+   "src_sha256": "5dd419b95d18c94d37629ad1a1f4c3d857644e15cfdfca422a55285752839e4a"
   },
   "references/scenes/ship-locations/Serega-ship-flagship-space.png": {
    "thumb": "references/thumbs/scenes/ship-locations/Serega-ship-flagship-space.png.webp",
