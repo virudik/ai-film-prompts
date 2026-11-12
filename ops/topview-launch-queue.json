@@ -6508,12 +6508,6 @@
       "unlimited_mode_required": true,
       "paid_fallback_forbidden": true,
       "automatic_retry": false,
-      "retry_control": {
-        "policy_id": "owner-20261112-t592u-no-retry",
-        "max_retry_attempts": 0,
-        "retry_attempts_used": 0,
-        "note": "Owner t592u: one Create per part, no auto-retry. Technical retry budget of TOPVIEW-RETRY does not apply to these items."
-      },
       "depends_on_submitted": [],
       "depends_on_completed": [],
       "references": [
@@ -6561,7 +6555,7 @@
       ],
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
-      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry. Not a paid 12-credit Wan path.",
+      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry: automatic_retry is false and retry_control is omitted, because Grok prepare_intent treats any retry_control as a retry Create and would reject the first Unlimited Create. Not a paid 12-credit Wan path.",
       "owner_source": "t593u",
       "story_not_music": true,
       "created_at": "2026-11-12T13:14:25Z"
@@ -6591,12 +6585,6 @@
       "unlimited_mode_required": true,
       "paid_fallback_forbidden": true,
       "automatic_retry": false,
-      "retry_control": {
-        "policy_id": "owner-20261112-t592u-no-retry",
-        "max_retry_attempts": 0,
-        "retry_attempts_used": 0,
-        "note": "Owner t592u: one Create per part, no auto-retry. Technical retry budget of TOPVIEW-RETRY does not apply to these items."
-      },
       "depends_on_submitted": [],
       "depends_on_completed": [],
       "references": [
@@ -6644,7 +6632,7 @@
       ],
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
-      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry. Not a paid 12-credit Wan path.",
+      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry: automatic_retry is false and retry_control is omitted, because Grok prepare_intent treats any retry_control as a retry Create and would reject the first Unlimited Create. Not a paid 12-credit Wan path.",
       "owner_source": "t593u",
       "story_not_music": true,
       "created_at": "2026-11-12T13:14:25Z"
@@ -6674,12 +6662,6 @@
       "unlimited_mode_required": true,
       "paid_fallback_forbidden": true,
       "automatic_retry": false,
-      "retry_control": {
-        "policy_id": "owner-20261112-t592u-no-retry",
-        "max_retry_attempts": 0,
-        "retry_attempts_used": 0,
-        "note": "Owner t592u: one Create per part, no auto-retry. Technical retry budget of TOPVIEW-RETRY does not apply to these items."
-      },
       "depends_on_submitted": [],
       "depends_on_completed": [],
       "references": [
@@ -6727,7 +6709,7 @@
       ],
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
-      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry. Not a paid 12-credit Wan path.",
+      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry: automatic_retry is false and retry_control is omitted, because Grok prepare_intent treats any retry_control as a retry Create and would reject the first Unlimited Create. Not a paid 12-credit Wan path.",
       "owner_source": "t593u",
       "story_not_music": true,
       "created_at": "2026-11-12T13:14:25Z"
@@ -6757,12 +6739,6 @@
       "unlimited_mode_required": true,
       "paid_fallback_forbidden": true,
       "automatic_retry": false,
-      "retry_control": {
-        "policy_id": "owner-20261112-t592u-no-retry",
-        "max_retry_attempts": 0,
-        "retry_attempts_used": 0,
-        "note": "Owner t592u: one Create per part, no auto-retry. Technical retry budget of TOPVIEW-RETRY does not apply to these items."
-      },
       "depends_on_submitted": [],
       "depends_on_completed": [],
       "references": [
@@ -6796,7 +6772,7 @@
       ],
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
-      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry. Not a paid 12-credit Wan path.",
+      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry: automatic_retry is false and retry_control is omitted, because Grok prepare_intent treats any retry_control as a retry Create and would reject the first Unlimited Create. Not a paid 12-credit Wan path.",
       "owner_source": "t593u",
       "story_not_music": true,
       "created_at": "2026-11-12T13:14:25Z"
@@ -6826,12 +6802,6 @@
       "unlimited_mode_required": true,
       "paid_fallback_forbidden": true,
       "automatic_retry": false,
-      "retry_control": {
-        "policy_id": "owner-20261112-t592u-no-retry",
-        "max_retry_attempts": 0,
-        "retry_attempts_used": 0,
-        "note": "Owner t592u: one Create per part, no auto-retry. Technical retry budget of TOPVIEW-RETRY does not apply to these items."
-      },
       "depends_on_submitted": [],
       "depends_on_completed": [],
       "references": [
@@ -6873,7 +6843,7 @@
       ],
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
-      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry. Not a paid 12-credit Wan path.",
+      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry: automatic_retry is false and retry_control is omitted, because Grok prepare_intent treats any retry_control as a retry Create and would reject the first Unlimited Create. Not a paid 12-credit Wan path.",
       "owner_source": "t593u",
       "story_not_music": true,
       "created_at": "2026-11-12T13:14:25Z"
@@ -6903,12 +6873,6 @@
       "unlimited_mode_required": true,
       "paid_fallback_forbidden": true,
       "automatic_retry": false,
-      "retry_control": {
-        "policy_id": "owner-20261112-t592u-no-retry",
-        "max_retry_attempts": 0,
-        "retry_attempts_used": 0,
-        "note": "Owner t592u: one Create per part, no auto-retry. Technical retry budget of TOPVIEW-RETRY does not apply to these items."
-      },
       "depends_on_submitted": [],
       "depends_on_completed": [],
       "references": [
@@ -6936,7 +6900,7 @@
       ],
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
-      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry. Not a paid 12-credit Wan path.",
+      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry: automatic_retry is false and retry_control is omitted, because Grok prepare_intent treats any retry_control as a retry Create and would reject the first Unlimited Create. Not a paid 12-credit Wan path.",
       "owner_source": "t593u",
       "story_not_music": true,
       "created_at": "2026-11-12T13:14:25Z"
@@ -6966,12 +6930,6 @@
       "unlimited_mode_required": true,
       "paid_fallback_forbidden": true,
       "automatic_retry": false,
-      "retry_control": {
-        "policy_id": "owner-20261112-t592u-no-retry",
-        "max_retry_attempts": 0,
-        "retry_attempts_used": 0,
-        "note": "Owner t592u: one Create per part, no auto-retry. Technical retry budget of TOPVIEW-RETRY does not apply to these items."
-      },
       "depends_on_submitted": [],
       "depends_on_completed": [],
       "references": [
@@ -7013,7 +6971,7 @@
       ],
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
-      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry. Not a paid 12-credit Wan path.",
+      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry: automatic_retry is false and retry_control is omitted, because Grok prepare_intent treats any retry_control as a retry Create and would reject the first Unlimited Create. Not a paid 12-credit Wan path.",
       "owner_source": "t593u",
       "story_not_music": true,
       "created_at": "2026-11-12T13:14:25Z"
@@ -7043,12 +7001,6 @@
       "unlimited_mode_required": true,
       "paid_fallback_forbidden": true,
       "automatic_retry": false,
-      "retry_control": {
-        "policy_id": "owner-20261112-t592u-no-retry",
-        "max_retry_attempts": 0,
-        "retry_attempts_used": 0,
-        "note": "Owner t592u: one Create per part, no auto-retry. Technical retry budget of TOPVIEW-RETRY does not apply to these items."
-      },
       "depends_on_submitted": [],
       "depends_on_completed": [],
       "references": [
@@ -7095,7 +7047,7 @@
       ],
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
-      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry. Not a paid 12-credit Wan path.",
+      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry: automatic_retry is false and retry_control is omitted, because Grok prepare_intent treats any retry_control as a retry Create and would reject the first Unlimited Create. Not a paid 12-credit Wan path.",
       "owner_source": "t593u",
       "story_not_music": true,
       "created_at": "2026-11-12T13:14:25Z"
@@ -7125,12 +7077,6 @@
       "unlimited_mode_required": true,
       "paid_fallback_forbidden": true,
       "automatic_retry": false,
-      "retry_control": {
-        "policy_id": "owner-20261112-t592u-no-retry",
-        "max_retry_attempts": 0,
-        "retry_attempts_used": 0,
-        "note": "Owner t592u: one Create per part, no auto-retry. Technical retry budget of TOPVIEW-RETRY does not apply to these items."
-      },
       "depends_on_submitted": [],
       "depends_on_completed": [],
       "references": [
@@ -7165,7 +7111,7 @@
       ],
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
-      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry. Not a paid 12-credit Wan path.",
+      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry: automatic_retry is false and retry_control is omitted, because Grok prepare_intent treats any retry_control as a retry Create and would reject the first Unlimited Create. Not a paid 12-credit Wan path.",
       "owner_source": "t593u",
       "story_not_music": true,
       "created_at": "2026-11-12T13:14:25Z"
@@ -7195,12 +7141,6 @@
       "unlimited_mode_required": true,
       "paid_fallback_forbidden": true,
       "automatic_retry": false,
-      "retry_control": {
-        "policy_id": "owner-20261112-t592u-no-retry",
-        "max_retry_attempts": 0,
-        "retry_attempts_used": 0,
-        "note": "Owner t592u: one Create per part, no auto-retry. Technical retry budget of TOPVIEW-RETRY does not apply to these items."
-      },
       "depends_on_submitted": [],
       "depends_on_completed": [],
       "references": [
@@ -7235,7 +7175,7 @@
       ],
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
-      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry. Not a paid 12-credit Wan path.",
+      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry: automatic_retry is false and retry_control is omitted, because Grok prepare_intent treats any retry_control as a retry Create and would reject the first Unlimited Create. Not a paid 12-credit Wan path.",
       "owner_source": "t593u",
       "story_not_music": true,
       "created_at": "2026-11-12T13:14:25Z"
@@ -8744,6 +8684,8 @@
       "S89I-WAN30",
       "S89J-WAN30"
     ],
-    "placement": "Unlinked dialogue singles. t422u band 2, after the submitted Tatooine chain and before music/dance 28/49/50/51. Scene 62 stays on hold. Within 89: council 89A-89E, holograms 89F-89G, bartender 89H, cantina 89I-89J."
+    "placement": "Unlinked dialogue singles. t422u band 2, after the submitted Tatooine chain and before music/dance 28/49/50/51. Scene 62 stays on hold. Within 89: council 89A-89E, holograms 89F-89G, bartender 89H, cantina 89I-89J.",
+    "retry_control": "omitted",
+    "retry_note": "retry_control is omitted on S89A-WAN30 through S89J-WAN30. A present retry_control makes Grok prepare_intent take the retry path and reject the first Create. No auto-retry is recorded as automatic_retry false, the same shape as the other one-Create items."
   }
 }
