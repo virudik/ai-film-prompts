@@ -12,34 +12,71 @@
   "runtime_run_id_source": "Automations.peek last_run.id scheduled_for 2026-11-12T13:00:00Z",
   "runtime_run_id_unavailable_reason": null,
   "source_head_started": "171f05f9ac50608519dcc12e1fd1593c3001f310",
-  "source_head": "171f05f9ac50608519dcc12e1fd1593c3001f310",
+  "source_head": "5c441b1612fd070ef9cc2acfe0f0885672a7f095",
   "route_generation": 3,
   "started_at": "2026-11-12T13:09:56.463Z",
-  "checked_at": null,
-  "phase": "started",
-  "status": "in_progress",
+  "checked_at": "2026-11-12T13:16:16.458Z",
+  "phase": "finished",
+  "status": "no_free_slot",
   "scan": {
-    "complete": false,
-    "scope": "account-wide Topview board video task scan in this run; summary pending"
+    "complete": true,
+    "scope": "Topview list_boards(mode=all), list_board_tasks(mediaType=video) all 14 boards / 19 pages, six active tasks verified with get_board_task; My First Board 6 pages, 41/41 canonical submitted/completed tasks matched",
+    "boards": 14,
+    "pages": 19,
+    "video_tasks": 674,
+    "unique_task_ids": 674,
+    "status_counts": {
+      "success": 641,
+      "fail": 27,
+      "init": 6
+    },
+    "active_task_ids": [
+      "d775c7a483a44f13ba1704a1c418b208",
+      "8c6d92662d1043c7a651168b2b8280ae",
+      "1dcb6fa0628d41b098227ca6c96f1630",
+      "a1330998d39b486e864ed4e22b4fe8c4",
+      "3a09108c8c474a0989118806b4a69f91",
+      "be627af0e9664db5b6ac2b62c34080a6"
+    ],
+    "main_board_video_tasks": 507,
+    "all_active_direct_verified_unlimited": true,
+    "active_credit_cost_each": 0,
+    "queue_known_task_ids_checked": 41,
+    "queue_known_task_ids_found": 41,
+    "unreconciled_queue_claims": 0,
+    "owner_tasks_open": 0,
+    "ready_sha": {
+      "queue": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+      "task_map": "a25ec6123ac424c55c10c2abd43f91f795c5997cf9dbbec6b0c15f2c2d5d89a0",
+      "match_both": true,
+      "method": "independently computed SHA-256 in JS; abc known vector match"
+    },
+    "unmapped_new_active_task_id": "d775c7a483a44f13ba1704a1c418b208",
+    "robot_checked_at": "2026-11-12T12:40:30Z",
+    "robot_state": "capacity_full",
+    "last_bot_issue_evidence": "prior wake notifications; superseded by current account-wide scan",
+    "verified_at": "2026-11-12T13:16:16.458Z"
   },
   "slots": {
     "capacity": 6,
-    "occupied": null,
-    "free": null
+    "occupied": 6,
+    "free": 0
   },
-  "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
+  "scan_complete": true,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
   "task_ids": [],
   "new_submissions": 0,
   "browser_transport": "not_used",
   "tinyfish": {
     "used": false,
+    "profile_id": "prof_0ac4618d0cf4456e",
     "run_ids": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0
+    "confirmed_cost_usd": 0,
+    "reason": "6/6 physical video slots occupied, no metered polling allowed"
   },
   "topview_credits_spent": 0,
   "lease": {
@@ -47,16 +84,33 @@
     "acquired_at": "2026-11-12T13:09:56.463Z",
     "expires_at": "2026-11-12T13:29:56.463Z",
     "acquired_commit": "171f05f9ac50608519dcc12e1fd1593c3001f310",
-    "released": false,
-    "released_at": null
+    "released": true,
+    "released_at": "2026-11-12T13:16:16.458Z",
+    "release_method": "same atomic CAS commit as final receipt",
+    "release_timestamp_note": "Timestamp captured immediately before preparing the atomic branch update; commit/readback occurs afterward"
   },
-  "outcome": "in_progress",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": false,
   "acceptance": {
     "scheduled_execution_observed": true,
+    "tinyfish_profile_signin_history_only": true,
     "current_tinyfish_login_control_file_upload_unlimited0_verified": false,
     "topview_task_id_verified_for_this_run": false,
     "end_to_end_background_submission_verified": false
-  }
+  },
+  "peer_reconciliation": {
+    "ordinary_last_run_id": "e2da80aa-8080-832f-8d95-7636c48bd0a2",
+    "ordinary_latest_result_run_id": null,
+    "ordinary_result_is_current": false,
+    "work_HH55": "enabled, last run 2026-11-12T12:55:00Z no_update; not evidence of Work GUI",
+    "work_relay": "enabled, last run 2026-11-12T10:58:16Z no_update"
+  },
+  "notes": [
+    "6/6 live physical tasks; no new Create, no TinyFish cost.",
+    "Existing unmapped d775c7a4 task remains active; never re-submit based on missing attribution.",
+    "Existing S49B and S51G canonical input attribution discrepancies are unresolved, no repeats.",
+    "Preferred executor remains work in registry; no new verified GUI/quota evidence, route_generation=3 unchanged.",
+    "No next_action or checkpoint modification on no-op."
+  ]
 }
