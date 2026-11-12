@@ -12,15 +12,15 @@
   "runtime_run_id_source": "Automations.peek last_run.id scheduled_for 2026-11-12T16:00:00Z; observed 2026-11-12 15:55 UTC",
   "runtime_run_id_unavailable_reason": null,
   "source_head_started": "1a92dfff22ad8a81884fefb33c38908f1fda3386",
-  "source_head": "1a92dfff22ad8a81884fefb33c38908f1fda3386",
+  "source_head": "4098847b8a05d080a8b2e05dc7774a24b930409b",
   "route_generation": 3,
   "started_at": "2026-11-12T16:05:07.033Z",
-  "checked_at": "2026-11-12T16:06:21.216Z",
-  "phase": "started",
-  "status": "in_progress",
+  "checked_at": "2026-11-12T16:10:47.192Z",
+  "phase": "completed",
+  "status": "completed",
   "scan": {
-    "complete": false,
-    "scope": "14 boards/21 pages read-only connector scan completed pre-lease; rechecking final state and durable claims",
+    "complete": true,
+    "scope": "Read-only Topview connector 14-board/21-page exhaustive all-video scan, 674 unique video task IDs. Main board 731 items across 8 pages (507 videos); 13 other boards total 167 videos. All 6 active IDs independently rechecked by get_board_task; all 41 current queue task IDs matched on exact My First Board. Queue and task-map SHA256 independently matched derived readiness.",
     "boards": 14,
     "pages": 21,
     "unique_task_ids": 674,
@@ -28,14 +28,29 @@
       "success": 641,
       "fail": 27,
       "init": 6
-    }
+    },
+    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "active_task_ids": [
+      "d775c7a483a44f13ba1704a1c418b208",
+      "8c6d92662d1043c7a651168b2b8280ae",
+      "1dcb6fa0628d41b098227ca6c96f1630",
+      "a1330998d39b486e864ed4e22b4fe8c4",
+      "3a09108c8c474a0989118806b4a69f91",
+      "be627af0e9664db5b6ac2b62c34080a6"
+    ],
+    "readiness_sha_match": true,
+    "queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+    "task_map_sha256": "e4cde4a9d5fed575bb4d83c183f90df25a053b803243a4630e5814a997c47978",
+    "current_queue_task_ids_verified": 41,
+    "nonterminal_claims": 0,
+    "owner_tasks_open": 0
   },
   "slots": {
     "capacity": 6,
     "occupied": 6,
     "free": 0
   },
-  "scan_complete": false,
+  "scan_complete": true,
   "occupied_slots": 6,
   "free_slots": 0,
   "selected_item": null,
@@ -56,9 +71,11 @@
     "acquired_at": "2026-11-12T16:05:07.033Z",
     "expires_at": "2026-11-12T16:20:07.033Z",
     "acquired_commit": "1a92dfff22ad8a81884fefb33c38908f1fda3386",
-    "released": false
+    "released": true,
+    "release_recorded_at": "2026-11-12T16:10:47.192Z",
+    "release_commit": "same_commit_as_final_receipt"
   },
-  "outcome": "in_progress",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": false,
   "acceptance": {
@@ -69,6 +86,10 @@
     "end_to_end_background_submission_verified": false
   },
   "notes": [
-    "Previous ordinary receipt remained phase=started from execution bb579fd3-ecab-4816-9b93-06b4edb088a6; previous lease expired. New independent execution acquired its own lease; old claim/intent not discarded."
-  ]
+    "Previous ordinary receipt remained phase=started from execution bb579fd3-ecab-4816-9b93-06b4edb088a6; previous lease expired. New independent execution acquired its own lease; old claim/intent not discarded.",
+    "All six current tasks are status=init on exact My First Board, model Seedance 2.0 15s 720p 16:9 selected Unlimited, creditsCost=0. The newly unmapped d775c7a4... is preserved, not re-sent.",
+    "Historical GitHub issue free-slot notifications dated 2026-11-12 09:40–10:51Z are stale; no capacity assumed from them.",
+    "No paid TinyFish browse when 6/6. No Create, no queue/route/recovery change. Work restored_verified metadata is historical; no current reclassification without fresh proof."
+  ],
+  "completed_at": "2026-11-12T16:10:47.192Z"
 }
