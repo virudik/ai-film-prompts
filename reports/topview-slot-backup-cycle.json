@@ -12,15 +12,15 @@
   "runtime_run_id_source": "Automations.peek current last_run.id scheduled_for 2026-11-12T14:00:00Z",
   "runtime_run_id_unavailable_reason": null,
   "source_head_started": "f3fdbace523367747b0adb895f7438c2eef7bed5",
-  "source_head": "f3fdbace523367747b0adb895f7438c2eef7bed5",
+  "source_head": "4e33d19dfe6b5b95ef4da8f7e9442380e9540e49",
   "route_generation": 3,
   "started_at": "2026-11-12T14:11:15.104Z",
-  "checked_at": "2026-11-12T14:12:12.089Z",
-  "phase": "started",
-  "status": "in_progress",
+  "checked_at": "2026-11-12T14:17:11.141Z",
+  "phase": "finished",
+  "status": "no_free_slot",
   "scan": {
     "complete": true,
-    "scope": "Topview all 14 boards, all 19 paginated video listings",
+    "scope": "Topview list_boards(mode=all), list_board_tasks(mediaType=video) all 14 boards / 19 pages; My First Board six pages; all 41 canonical task IDs found; six active separately checked",
     "boards": 14,
     "pages": 19,
     "unique_task_ids": 674,
@@ -38,7 +38,25 @@
       "3a09108c8c474a0989118806b4a69f91",
       "be627af0e9664db5b6ac2b62c34080a6"
     ],
-    "direct_task_checks": "5 of 6 returned 200; 1 of 6 returned 5003; full account list complete"
+    "direct_task_checks": "5 of 6 returned 200; 1 of 6 returned 5003; full account list complete",
+    "main_board_video_tasks": 507,
+    "all_active_direct_verified_unlimited": true,
+    "active_credit_cost_each": 0,
+    "queue_known_task_ids_checked": 41,
+    "queue_known_task_ids_found": 41,
+    "unreconciled_queue_claims": 0,
+    "owner_tasks_open": 0,
+    "ready_sha": {
+      "queue": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+      "task_map": "c56608cd93d30abdf53d34ea8085faae17849f6f01307d1f1e7eb9c2e0d01ba4",
+      "match_both": true,
+      "method": "independent JS SHA-256 canonical source bytes; known abc/empty test vectors"
+    },
+    "unmapped_new_active_task_id": "d775c7a483a44f13ba1704a1c418b208",
+    "robot_checked_at": "2026-11-12T14:00:48Z",
+    "robot_state": "capacity_full",
+    "last_bot_issue_evidence": "issue #600 2026-11-12T10:51:07Z superseded by fresh full scan",
+    "verified_at": "2026-11-12T14:17:11.141Z"
   },
   "slots": {
     "capacity": 6,
@@ -59,7 +77,7 @@
     "steps": 0,
     "estimated_cost_usd": 0,
     "confirmed_cost_usd": 0,
-    "reason": "6/6 active; paid polling prohibited"
+    "reason": "6/6 physical video slots occupied; metered polling prohibited"
   },
   "topview_credits_spent": 0,
   "lease": {
@@ -67,9 +85,12 @@
     "acquired_at": "2026-11-12T14:11:15.104Z",
     "expires_at": "2026-11-12T14:31:15.104Z",
     "acquired_commit": "f3fdbace523367747b0adb895f7438c2eef7bed5",
-    "released": false
+    "released": true,
+    "released_at": "2026-11-12T14:17:11.141Z",
+    "release_method": "same atomic CAS commit as final receipt",
+    "release_timestamp_note": "Time recorded before atomic branch CAS update; Git commit publication/readback followed"
   },
-  "outcome": "started",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": false,
   "acceptance": {
@@ -80,13 +101,17 @@
     "end_to_end_background_submission_verified": false
   },
   "peer_reconciliation": {
-    "ordinary_last_run_id": "e2da80aa-8080-832f-8d95-7636c48bd0a2",
-    "ordinary_latest_result_run_id": null,
+    "ordinary_last_run_id": "95c142a3-5f3c-8326-a212-aa149e0ae297",
+    "ordinary_latest_result_run_id": "e2da80aa-8080-832f-8d95-7636c48bd0a2",
     "ordinary_result_is_current": false,
-    "work_HH55": "enabled, last run 2026-11-12T12:55:00Z no_update; not evidence of Work GUI",
-    "work_relay": "enabled, last run 2026-11-12T10:58:16Z no_update"
+    "work_HH55": "enabled; last scheduled 2026-11-12T13:55Z no_update, not Work GUI proof",
+    "work_relay": "enabled; last scheduled 2026-11-12T10:58Z no_update"
   },
   "notes": [
-    "6/6 physical slots in full read-only Topview scan; no Create and no TinyFish paid scan."
+    "Global 6/6 observed; no new Create, no TinyFish run, no Topview credits.",
+    "Unmapped active d775c7a483a44f13ba1704a1c418b208 preserved; no duplicate submission.",
+    "Canonical S49B/S51G exact input attribution pending; no resubmission.",
+    "Preferred work remains in registry; no new Work runtime GUI/quota proof, route_generation 3 unchanged.",
+    "No next_action or checkpoint changes on no-op."
   ]
 }
