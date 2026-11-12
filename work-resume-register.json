@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-10T20:12:54+00:00",
+  "last_updated_at": "2026-11-12T21:26:24.000Z",
   "active_work": [
     {
       "work_id": "SEREGIUS-SASHA-PHOTOGRAPHER-20261110",
@@ -47,7 +47,17 @@
         "blockers": []
       },
       "last_result": "Проверка публикации завершена: 4 оригинала, 4 превью, исходный референс Саши, мастер, manifest и галерея скачаны с сайта; все 12 SHA256 совпали. Пять устаревших/ошибочных тестовых проверок исправлены, полный набор: 538 тестов, 0 сбоев, 0 ошибок, 0 пропусков. Тексты сцен, изображения, очереди, приёмка и семь инструкций не изменены; видео и расходы 0.",
-      "technical_publication_complete": true
+      "technical_publication_complete": true,
+      "last_takeover": {
+        "at": "2026-11-12T21:26:24.000Z",
+        "receipt_id": "ordinary-continue-20261112-3a2c71bf",
+        "session_id": "chatgpt-ordinary-continue-20261112-3a2c71bf-102a-489f-a857-4c29f9f774a5",
+        "surface": "ordinary",
+        "source_head": "a5caa27cc8a2b1e7462a065a82ade29a6a9f2adc",
+        "short_d7_valid": true,
+        "actual_action": "read-only state restored; foreground transferred",
+        "status_unchanged": "awaiting_owner_review"
+      }
     },
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",

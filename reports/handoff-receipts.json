@@ -4,6 +4,71 @@
   "receipts": [
     {
       "schema_version": 1,
+      "receipt_id": "ordinary-continue-20261112-3a2c71bf",
+      "project": "seregius",
+      "work_id": "SEREGIUS-SASHA-PHOTOGRAPHER-20261110",
+      "source_head": "a5caa27cc8a2b1e7462a065a82ade29a6a9f2adc",
+      "takeover_kind": "short_D7",
+      "started_at": "2026-11-12T21:24:16.495Z",
+      "accepted_at": "2026-11-12T21:26:24.000Z",
+      "chat": {
+        "agent": "chatgpt:ordinary:3a2c71bf-102a-489f-a857-4c29f9f774a5",
+        "label": "ChatGPT ordinary — продолжение Серёгиуса",
+        "session_id": "chatgpt-ordinary-continue-20261112-3a2c71bf-102a-489f-a857-4c29f9f774a5",
+        "chat_id": null,
+        "identity_status": "unavailable",
+        "identity_note": "Текущий conversation ID не предоставляется коннектором"
+      },
+      "checks": [
+        {
+          "id": "fresh_main",
+          "result": "passed",
+          "evidence": "GitHub main HEAD a5caa27cc8a2b1e7462a065a82ade29a6a9f2adc read and exact held lock checked; 8 D7 sources sha256 match current bytes, master via GitHub blob"
+        },
+        {
+          "id": "instructions",
+          "result": "passed",
+          "evidence": "D7 brief 2026-11-12 valid_at_generation=true; 15/15 invariant anchors; 7 instruction byte SHA256 and master byte SHA256 all match brief"
+        },
+        {
+          "id": "checkpoint",
+          "result": "passed",
+          "evidence": "Existing explicit resume_focus SEREGIUS-SASHA-PHOTOGRAPHER-20261110; scene 88 published, awaiting_owner_review; current-work-checkpoint and shadow packet read, no rerender"
+        },
+        {
+          "id": "owner_inbox",
+          "result": "passed",
+          "evidence": "GitHub ops/owner-tasks.json open=0; no foreign tasks acquired"
+        },
+        {
+          "id": "owner_decisions",
+          "result": "passed",
+          "evidence": "Live Supabase 12Nov21:24 UTC: no pending/in_progress; one historical needs_owner Grok, not fresh approval"
+        },
+        {
+          "id": "capabilities",
+          "result": "passed",
+          "evidence": "GitHub connected CAS lock 2026-11-12T21:24:16.495Z readback; robot Topview last confirmed 2026-11-12T20:40:29Z, 6/6; no Topview Create or paid route"
+        },
+        {
+          "id": "project_lock",
+          "result": "passed",
+          "evidence": "Own held chatgpt:ordinary:3a2c71bf-102a-489f-a857-4c29f9f774a5 from 2026-11-12T21:24:16.495Z to 2026-11-12T21:34:16.495Z; exactly matched fresh main"
+        }
+      ],
+      "outcome": "accepted",
+      "first_action": {
+        "at": "2026-11-12T21:26:24.000Z",
+        "state": "completed",
+        "description": "Выполнен свежий D7 preflight 8/8 и 15/15; проверено текущее состояние сцены 88 и сохранена передача ordinary epoch 4→5 без изменения очередей и генераций.",
+        "evidence": "ops/slot-backup.json foreground_owners.ordinary; reports/current-work-checkpoint.md; project-status.json; topview-status.json; live Supabase owner_decisions"
+      },
+      "recorded_at": "2026-11-12T21:26:24.000Z",
+      "execution_authorized": false,
+      "source_scope": "GitHub main + live Supabase, Topview status robot snapshot"
+    },
+    {
+      "schema_version": 1,
       "receipt_id": "continue-20261106-93c791ea-000f-442e-90b9-13502501c5c1",
       "project": "seregius",
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
