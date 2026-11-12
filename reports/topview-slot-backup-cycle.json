@@ -5,57 +5,26 @@
   "runner": "chatgpt:ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
   "automationID": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "401d7d97-d855-477e-8090-2eef43f077a8",
-  "holder": "chatgpt:ordinary:401d7d97-d855-477e-8090-2eef43f077a8",
-  "run_id": "b9a60340-2988-832a-9569-ea5c6b0bf273",
-  "runtime_run_id": "b9a60340-2988-832a-9569-ea5c6b0bf273",
-  "runtime_run_id_source": "Automations.peek last_run.id: scheduled_for 2026-11-12T18:00:00Z; started_at 17:58:38.896143Z; in_progress",
-  "source_head_started": "8cbf2f3993fb3c19b3b704b8e241fa4cd9fe2cd5",
+  "execution_instance_id": "21fc181f-45f6-4fc6-9ceb-59050c0d48ae",
+  "holder": "chatgpt:ordinary:21fc181f-45f6-4fc6-9ceb-59050c0d48ae",
+  "run_id": "bec35295-9cf4-8321-b614-a6653cd22ae3",
+  "runtime_run_id": "bec35295-9cf4-8321-b614-a6653cd22ae3",
+  "runtime_run_id_source": "Automations.peek last_run.id, scheduled_for 2026-11-12T19:00:00Z, started_at 18:58:29.918624Z",
+  "source_head_started": "3094a30234c0610387276328cf54306225a6739d",
   "route_generation": 3,
-  "started_at": "2026-11-12T17:58:38.896143Z",
-  "checked_at": "2026-11-12T18:09:49.751Z",
-  "phase": "completed",
-  "status": "completed",
-  "scan": {
-    "complete": true,
-    "scope": "Read-only Topview connector 14 boards / 19 video pages, 674 unique videos; My First Board all 731 media tasks / 8 pages; 41 submitted task IDs present; queue/task-map SHA256 independently matched current readiness.",
-    "boards": 14,
-    "pages": 19,
-    "unique_task_ids": 674,
-    "status_counts": {
-      "success": 641,
-      "fail": 27,
-      "init": 6
-    },
-    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-    "active_task_ids": [
-      "d775c7a483a44f13ba1704a1c418b208",
-      "8c6d92662d1043c7a651168b2b8280ae",
-      "1dcb6fa0628d41b098227ca6c96f1630",
-      "a1330998d39b486e864ed4e22b4fe8c4",
-      "3a09108c8c474a0989118806b4a69f91",
-      "be627af0e9664db5b6ac2b62c34080a6"
-    ],
-    "readiness_sha_match": true,
-    "queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
-    "task_map_sha256": "7374beaf4d02957374288d79c9632d1613ea7a0d38ca2f9bc0c58ca779a61edf",
-    "registered_task_ids_verified": 41,
-    "nonterminal_claims": 0,
-    "owner_tasks_open": 0,
-    "current_taskmap_unmapped_active": [
-      "d775c7a483a44f13ba1704a1c418b208"
-    ],
-    "active_tasks_individually_verified": true,
-    "active_settings": "6 init tasks: exact My First Board, Seedance 2.0, 15s, 720p, 16:9, useUnlimitMode=true, creditsCost=0"
-  },
+  "started_at": "2026-11-12T18:58:29.918624Z",
+  "checked_at": "2026-11-12T19:05:03.353Z",
+  "phase": "started",
+  "status": "in_progress",
+  "scan": null,
   "slots": {
     "capacity": 6,
-    "occupied": 6,
-    "free": 0
+    "occupied": null,
+    "free": null
   },
-  "scan_complete": true,
-  "occupied_slots": 6,
-  "free_slots": 0,
+  "scan_complete": false,
+  "occupied_slots": null,
+  "free_slots": null,
   "selected_item": null,
   "task_ids": [],
   "new_submissions": 0,
@@ -70,17 +39,15 @@
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:401d7d97-d855-477e-8090-2eef43f077a8",
-    "acquired_at": "2026-11-12T18:05:58.344Z",
-    "expires_at": "2026-11-12T18:20:58.344Z",
-    "acquired_commit": "de58357c9fffe4b6684df9c6d21506eca9e0d75e",
-    "released": true,
-    "release_recorded_at": "2026-11-12T18:09:49.751Z",
-    "release_commit": "same_commit_as_final_receipt"
+    "holder": "chatgpt:ordinary:21fc181f-45f6-4fc6-9ceb-59050c0d48ae",
+    "acquired_at": "2026-11-12T19:03:26.455Z",
+    "expires_at": "2026-11-12T19:18:26.455Z",
+    "acquired_commit": "6d248245a1c941b418fb08c450fd6e738c683ffe",
+    "released": false
   },
-  "outcome": "no_free_slot",
+  "outcome": "started",
   "blocker": null,
-  "retryable": false,
+  "retryable": true,
   "acceptance": {
     "scheduled_execution_observed": true,
     "tinyfish_profile_signin_history_only": true,
@@ -88,13 +55,9 @@
     "topview_task_id_verified_for_this_run": false,
     "end_to_end_background_submission_verified": false
   },
-  "source_head": "93198b16ccd06b10e4c42b54756631ae087ed120",
+  "source_head": "8ab7ab2bb9349eda9ba5ecbbfd61d24a6ac83ead",
   "notes": [
-    "No Create: full fresh 14-board/19-page scan has all six account-wide physical video slots occupied. Active tasks individually verified on My First Board in Seedance 2.0, 720p, 16:9, 15s, Unlimited true and creditsCost 0.",
-    "41 queued submitted task IDs found in board's full 731 media tasks; queue/task-map independently recalculated SHA-256 matched latest readiness. No claimed/submitting/submission_unknown entries. 0 open owner tasks.",
-    "Current task d775c7a4... is existing init and still unmapped in task-map; never retry it. Historical bot issue #600 free-slot observation at 10:51 UTC is stale compared with this scan.",
-    "Work preferred/restored_verified registry evidence is historical; no new Work GUI/quota proof. TinyFish paid UI not used at 6/6; file-import/Unlimited preflight not claimed. No checkpoint or next_action changes.",
-    "No queue/credits modifications; 0 new Topview tasks, 0 credits, 0 TinyFish expense."
+    "Started after separate lease CAS/readback. Fresh complete scan and queued task reconciliation ongoing."
   ],
-  "completed_at": "2026-11-12T18:09:49.751Z"
+  "completed_at": null
 }
