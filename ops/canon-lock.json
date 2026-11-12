@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": null,
-  "task": null,
-  "acquired_at": null,
-  "expires_at": null,
+  "state": "held",
+  "holder": "chatgpt:ordinary:6fd84d6a-2196-40fc-bce1-8121021f4487",
+  "task": "TOPVIEW-SLOT-PRIORITY-20261024",
+  "acquired_at": "2026-11-12T07:02:10.251Z",
+  "expires_at": "2026-11-12T07:17:10.251Z",
   "released_at": "2026-11-12T06:18:36.746Z",
   "rules": "ops/CANON-LOCK.md"
 }
