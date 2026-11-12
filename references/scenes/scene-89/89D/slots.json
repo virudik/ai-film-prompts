@@ -1,0 +1,44 @@
+{
+  "subscene": "89D",
+  "images_status": "filled",
+  "durations_s": [
+    15,
+    30
+  ],
+  "same_image_order_for_both_durations": true,
+  "slots": [
+    {
+      "slot": "@Image1",
+      "path": "https://drive.google.com/file/d/1tnUopP8035gpZn0C48b0vL8u78NW0Ack/view",
+      "role": "beer-and-snacks plate from task 5c322c84, 2752×1536 PNG, 12687056 bytes, sha256 833f95c2044d2cdc956a18b5188efb3cb8ebeee429da572f02fdbfac4c0852db. Not in git: larger than the repo's reference stills. Original slot Image1.",
+      "status": "drive_only_too_large",
+      "shared_by_durations_s": [
+        15,
+        30
+      ],
+      "sha256": "833f95c2044d2cdc956a18b5188efb3cb8ebeee429da572f02fdbfac4c0852db",
+      "bytes": 12687056
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/scenes/scene-89/shared/pasha-scene.png",
+      "role": "PASHA, clean-shaven, dark-blue tunic. Original slot Image2. Shared with 89E.",
+      "status": "available",
+      "shared_by_durations_s": [
+        15,
+        30
+      ]
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/scenes/scene-89/shared/sasha-scene.png",
+      "role": "SASHA, beard, round glasses, cream tunic and maroon robe. Original slot Image3. Shared with 89E.",
+      "status": "available",
+      "shared_by_durations_s": [
+        15,
+        30
+      ]
+    }
+  ],
+  "video_launch_approval": false
+}

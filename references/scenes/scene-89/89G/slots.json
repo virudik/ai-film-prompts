@@ -1,0 +1,62 @@
+{
+  "subscene": "89G",
+  "images_status": "filled",
+  "durations_s": [
+    15,
+    30
+  ],
+  "same_image_order_for_both_durations": true,
+  "slots": [
+    {
+      "slot": "@Image1",
+      "path": "references/scenes/scene-89/shared/holo-office.jpg",
+      "role": "circular night office. Original slot Image1 of 1a40a6f4. Same bytes as the hologram office (was <<<Image3>>> there).",
+      "status": "available",
+      "shared_by_durations_s": [
+        15,
+        30
+      ]
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/scenes/scene-89/shared/holo-man.jpg",
+      "role": "seated bald man. Original slot Image2. Same bytes as the hologram man.",
+      "status": "available",
+      "shared_by_durations_s": [
+        15,
+        30
+      ]
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/scenes/scene-89/shared/holo-woman.jpg",
+      "role": "woman hologram. Original slot Image3. Same bytes as the hologram woman.",
+      "status": "available",
+      "shared_by_durations_s": [
+        15,
+        30
+      ]
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/scenes/scene-89/89G/Image4.png",
+      "role": "over-the-shoulder framing of the same two. Original slot Image4.",
+      "status": "available",
+      "shared_by_durations_s": [
+        15,
+        30
+      ]
+    },
+    {
+      "slot": "@Image5",
+      "path": "references/scenes/scene-89/89G/Image5.png",
+      "role": "tight holographic face of the same woman. Original slot Image5.",
+      "status": "available",
+      "shared_by_durations_s": [
+        15,
+        30
+      ]
+    }
+  ],
+  "video_launch_approval": false
+}

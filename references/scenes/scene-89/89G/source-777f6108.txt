@@ -1,0 +1,23 @@
+Cinematic Star Wars. 15 sec.
+ONE CONTINUOUS CINEMATIC SHOT.
+
+Environment:
+Office based on <<<Image3>>> : circular room, curved panoramic windows, night futuristic city, blue holographic displays, dark consoles. City vehicles move outside windows.
+
+MAN reference <<<Image2>>> : COMPLETELY BALD pale man, DARK PURPLE Sith robes, black inner tunic. No beard. No glasses. SEATED in throne chair. Leans forward slightly toward the hologram.
+
+WOMAN reference <<<Image4>>> : heavy build woman, long wavy DARK BROWN hair, full black Sith-style armor, black armored shoulders and chest panel. 
+
+Hologram Rules:
+The woman appears ONLY as a HOLOGRAM projected from the blue pedestal. Upper body only, life-size, BLUE tinted, semi-transparent, subtle holographic flicker throughout. Blue glow radiating onto the man.
+
+VOICE & LIP SYNC RULES:
+ALL SPEAK RUSSIAN. SLOW DELIBERATE HYPER-CLEAR SPEECH WITH STRESSED VOWELS. PERFECT NATURAL LIP SYNC. The woman's holographic mouth moves in sync with the elongated vowels.
+
+DIALOGUE:
+WOMAN HOLOGRAM (1-15 sec): "Нуужно найтии все три фрагмеэнта каарты до джедааев. Они догаадываются, что мы затееяли, и сяядут тебе на хвоост."
+
+CAMERA ACTION:
+Over-the-shoulder shot from behind the man's shoulder, facing the woman's hologram directly. The woman's holographic FACE is fully visible, centered, and clear in the frame from the front. Slow steady cinematic push-in toward the woman's holographic face. Perfectly stable.
+
+Negative Prompt: woman physically in the room, woman not holographic, woman's hologram without blue tint, camera behind the hologram, back of the woman's head, wrong faces, merged characters, lightsabers active, cartoon, 2D animation, watermark, text on screen, logo, diamond symbol, extra characters, daylight outside windows, broken speech.

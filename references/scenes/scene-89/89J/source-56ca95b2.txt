@@ -1,0 +1,59 @@
+duration: 15 seconds
+resolution: 1920x1080, 24fps
+
+Use <<<Image1>>>   as exact appearance reference for Jedi 1.
+Use <<<Image2>>>   as exact appearance reference for Jedi 2.
+Both faces must remain perfectly consistent and highly detailed
+throughout entire shot. Identity must not drift.
+
+Style: photorealistic cinematic CGI with realistic live-action feel.
+Inspired by Star Wars prequel trilogy cinematography.
+Color grade: warm dim interior lighting,
+amber and orange tones, candle-like light sources,
+strong contrast between lit faces and dark background.
+Cinematic shallow depth of field.
+Ambient cantina music — jazz alien style, low volume.
+
+Camera: smooth slow cinematic dolly,
+stable inertia, no shaky cam, natural motion blur only.
+
+All interior elements already exist in 3D space.
+Nothing appears from nowhere.
+
+0-5 sec:
+Wide establishing shot of cantina interior.
+Dim warm lighting. Smoke in the air.
+Various alien patrons in background — blurred, out of focus.
+Bar counter visible in background.
+Jedi 1 and Jedi 2 seated across from each other
+at a small round table in the corner.
+Both wearing Jedi robes, hoods down.
+Two large mugs of beer on the table between them.
+Camera slowly pushes in toward the table.
+
+5-10 sec:
+Medium shot — both Jedis clearly visible.
+Jedi 1 face matching @image1 exactly —
+lifts mug and takes a long slow drink.
+Jedi 2 face matching @image2 exactly —
+leans back in chair, relaxed, looks around the cantina.
+Ambient noise of the bar around them.
+Candle-like light flickers gently on their faces.
+Beer mugs have condensation on the glass.
+
+10-15 sec:
+Camera settles on two-shot — both faces in frame.
+Jedi 2 picks up his mug. Both drinking simultaneously.
+They exchange a glance.
+Comfortable silence between them.
+Alien patron passes behind them out of focus.
+Smoke drifts slowly through the warm light.
+Camera holds on their faces — still, calm, cinematic.
+
+negative_prompt:
+camera shake, jitter, flicker,
+face distortion, identity drift,
+wrong face, generic face,
+bright lighting, clean modern interior,
+empty cantina, cartoon look,
+watermark, subtitles, text artifacts.

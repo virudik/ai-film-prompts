@@ -1,0 +1,100 @@
+[SCENE — Совет джедаев, пиво и серьёзный разговор]
+duration: 15 seconds
+resolution: 1920x1080, 24fps
+
+Use <<<Image1>>>   as primary reference —
+animate exactly this scene, bring it to life.
+Same composition, same characters, same positions,
+same environment, same lighting — everything preserved.
+
+Use <<<Image2>>>   as character reference for LEFT CHARACTER.
+Use <<<Image3>>>   as character reference for RIGHT CHARACTER.
+
+Style: photorealistic cinematic CGI with live-action feel.
+Same warm golden hazy daylight lighting as @image1.
+Same futuristic Coruscant city visible through tall windows behind.
+
+Camera: extremely slow smooth cinematic push in —
+barely perceptible forward movement toward both characters.
+Stable inertia, no jitter, no shake.
+
+DIALOGUE — LEFT CHARACTER SPEAKS (lip sync required):
+
+"Dorogiye moi druz'ya.
+Ya vas vsekh tak lyublyu,
+no chto zhe my budem predprinimat'
+po situatsii s kantslerom Seryogiusom?"
+
+Lip sync this exact transcription to the left character.
+Speech duration: 6-8 seconds.
+Delivery timing:
+— "Dorogiye moi druz'ya. Ya vas vsekh tak lyublyu" —
+warm, soft, emotional, slightly theatrical.
+— "no chto zhe my budem predprinimat'" —
+pause before this phrase, tone shifts to concerned.
+— "po situatsii s kantslerom Seryogiusom?" —
+eyebrows furrow, head tilts slightly forward,
+voice drops lower, questioning intonation at the end.
+
+ANIMATE THESE ELEMENTS:
+
+LEFT CHARACTER — heavyset friendly man, medium-length light brown
+hair, short beard, beige layered Jedi tunic, brown outer robe,
+leather belt, tall brown boots, sitting in left council chair,
+holding beer mug in right hand:
+Mouth moves in full lip sync with the dialogue above.
+Free left hand rises slowly — warm open palm gesture
+addressing the room as he speaks.
+Head turns slightly left then right — speaking to the council.
+Eyebrows raise warmly during first sentence.
+Slight forward lean in chair — passionate and sincere.
+Expression shifts to concerned and questioning
+on the final sentence about the chancellor.
+Beer mug stays held in right hand throughout.
+
+RIGHT CHARACTER — lean man, short brown hair, thin mustache,
+green inner Jedi robes, deep red outer cloak with hood down,
+leather belt, brown boots, sitting in right council chair,
+holding beer mug:
+Silent — listening attentively.
+Turns head slowly toward left character as he begins speaking.
+Expression: relaxed → thoughtful → serious.
+One eyebrow slightly raised halfway through.
+Free hand moves slowly to chin — thinking pose.
+Slight nod — acknowledging the words.
+Beer mug rests loosely in hand, lowered slightly.
+
+BACKGROUND:
+City through the windows alive —
+flying vehicles moving slowly across the skyline.
+Warm golden hazy light holds steady throughout.
+Atmospheric haze drifts gently in the distance.
+
+0-5 sec:
+Scene animates from @image1 exactly.
+Left character opens mouth — begins speaking.
+Hand rises with warm gesture.
+Right character turns head slowly toward him.
+City traffic moves behind them.
+
+5-10 sec:
+Left character continues — warm emotional delivery.
+Right character leans chin on hand — deeply listening.
+Expression becomes more serious.
+
+10-15 sec:
+Left character delivers final questioning phrase.
+Expression shifts — concerned, eyebrows furrow.
+Right character stares forward — silent, processing.
+Camera holds on this quiet dramatic moment.
+
+negative_prompt:
+camera shake, jitter, flicker,
+characters standing up or leaving chairs,
+wrong faces, wrong costumes, costume color changes,
+extra characters appearing,
+right character speaking instead of left,
+static mouths, no lip movement on left character,
+any watermark, any logo, any text on screen,
+corner overlays, diamond watermark,
+nano banana logo, cartoon look, anime style.

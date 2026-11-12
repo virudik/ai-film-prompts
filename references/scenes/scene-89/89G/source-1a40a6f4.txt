@@ -1,0 +1,17 @@
+Cinematic Star Wars. 15 sec.
+STARTING FRAME <<<Image4>>>   : Over-the-shoulder medium shot from behind the man's left shoulder, looking at the talking hologram on the pedestal.
+
+ENVIRONMENT <<<Image1>>>   : Circular futuristic dark office, glowing panoramic windows with night city view, blue terminal displays.
+
+MAN IN FOREGROUND <<<Image2>>>   : Completely bald pale man in dark purple robes. Seated in his high-back throne chair, back partially turned to the camera, staying completely still.
+
+WOMAN HOLOGRAM <<<Image3>>>   : Semi-transparent blue glowing projection of a woman in dark armor with a control panel on her chest. 
+
+ALL SPEAK VIA ENGLISH ENGINE WITH RUSSIAN PHONETICS. PERFECT FULL LIP SYNC.
+
+DIALOGUE:WOMAN HOLOGRAM (1-15 sec):"Noozhno nay-tee fseh tree frag-men-ta kar-ty do dzhe-da-yev. Oh-nee do-ga-dy-va-yoot-sya, chto my za-te-ya-lee, ee sya-doot te-be na hvost."
+
+CAMERA MOVEMENT: 
+Camera starts exactly at the over-the-shoulder framing of <<<Image4>>>  . As the woman speaks, the camera smoothly and continuously zooms in and dollies forward past the man's chair, transforming into a tight, clear close-up portrait of the woman's holographic face, matching the framing of <<<Image5>>>   by the end of the video. Deep depth of field, stable.
+
+negative: woman physically in the room, woman not holographic, wrong faces, merged characters, lightsabers active, cartoon, 3D render look, watermark, text on screen, logo, shaky cam, daylight outside.

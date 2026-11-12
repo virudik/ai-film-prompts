@@ -1,0 +1,497 @@
+{
+  "scene": 89,
+  "shared_files": true,
+  "mp4_in_git": false,
+  "subscenes": {
+    "89A": [
+      {
+        "slot": "@Image1",
+        "path": "https://drive.google.com/file/d/1b3oDLTTIniwoCmLLm35XStUlh6mxq8Kd/view",
+        "role": "council plate from task a7c9e3ba, 2752×1536 PNG, 12687056 bytes, sha256 5d4278cbe789319165be27ff1e9a15a9f494e576b8c3a4830083b2064c9989ac. Not in git: larger than the repo's reference stills. Original slot Image1.",
+        "status": "drive_only_too_large",
+        "shared_by_durations_s": [
+          15,
+          30
+        ],
+        "sha256": "5d4278cbe789319165be27ff1e9a15a9f494e576b8c3a4830083b2064c9989ac",
+        "bytes": 12687056
+      },
+      {
+        "slot": "@Image2",
+        "path": "references/scenes/scene-89/shared/jedi2-artem-scene.png",
+        "role": "ARTEM, Jedi 2, bearded, beige tunic. Original slot Image2. Shared file.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      },
+      {
+        "slot": "@Image3",
+        "path": "references/scenes/scene-89/shared/jedi1-ilyusha-scene.png",
+        "role": "ILYUSHA, Jedi 1, moustache, green tunic, dark-red cloak. Original slot Image3. Shared file.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      },
+      {
+        "slot": "@Image4",
+        "path": "references/full/artem.jpg",
+        "role": "current face sheet of Artem. Identity only, not a new person and not a costume change.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      },
+      {
+        "slot": "@Image5",
+        "path": "references/full/ilyusha.jpg",
+        "role": "current face sheet of Ilyusha. Identity only.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      }
+    ],
+    "89B": [
+      {
+        "slot": "@Image1",
+        "path": "references/scenes/scene-13/S13-Image1-topview-source.png",
+        "role": "council plate. Scene-13 provenance substitute for task 6d69acda Image1 (same s3 path as scene 13 task 73cf9e84; local PNG, original on S3 was JPEG).",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ],
+        "provenance_substitute": "scene-13 task 73cf9e84"
+      },
+      {
+        "slot": "@Image2",
+        "path": "references/scenes/scene-13/S13-Image2-topview-source.png",
+        "role": "VITALIK, black tunic, the speaker. Scene-13 provenance substitute for Image2.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ],
+        "provenance_substitute": "scene-13 task 73cf9e84"
+      },
+      {
+        "slot": "@Image3",
+        "path": "references/scenes/scene-13/S13-Image3-topview-source.png",
+        "role": "LYOKHA, moustache, purple tunic, grey robe, the listener with the cat. Scene-13 provenance substitute for Image3.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ],
+        "provenance_substitute": "scene-13 task 73cf9e84"
+      },
+      {
+        "slot": "@Image4",
+        "path": "references/full/vitalik.jpg",
+        "role": "current face sheet of Vitalik. Identity only.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      },
+      {
+        "slot": "@Image5",
+        "path": "references/full/lesha.jpg",
+        "role": "current face sheet of Lyokha. Identity only.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      }
+    ],
+    "89C": [
+      {
+        "slot": "@Image1",
+        "path": "references/scenes/scene-13/S13-Image1-topview-source.png",
+        "role": "council plate. Scene-13 provenance substitute for task 88140b94 Image1.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ],
+        "provenance_substitute": "scene-13 task 73cf9e84"
+      },
+      {
+        "slot": "@Image2",
+        "path": "references/scenes/scene-13/S13-Image2-topview-source.png",
+        "role": "VITALIK, black tunic, listener. Scene-13 provenance substitute for Image2.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ],
+        "provenance_substitute": "scene-13 task 73cf9e84"
+      },
+      {
+        "slot": "@Image3",
+        "path": "references/scenes/scene-13/S13-Image3-topview-source.png",
+        "role": "LYOKHA, moustache, purple tunic, grey robe, the only speaker. Scene-13 provenance substitute for Image3.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ],
+        "provenance_substitute": "scene-13 task 73cf9e84"
+      },
+      {
+        "slot": "@Image4",
+        "path": "references/full/vitalik.jpg",
+        "role": "current face sheet of Vitalik. Identity only.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      },
+      {
+        "slot": "@Image5",
+        "path": "references/full/lesha.jpg",
+        "role": "current face sheet of Lyokha. Identity only.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      }
+    ],
+    "89D": [
+      {
+        "slot": "@Image1",
+        "path": "https://drive.google.com/file/d/1tnUopP8035gpZn0C48b0vL8u78NW0Ack/view",
+        "role": "beer-and-snacks plate from task 5c322c84, 2752×1536 PNG, 12687056 bytes, sha256 833f95c2044d2cdc956a18b5188efb3cb8ebeee429da572f02fdbfac4c0852db. Not in git: larger than the repo's reference stills. Original slot Image1.",
+        "status": "drive_only_too_large",
+        "shared_by_durations_s": [
+          15,
+          30
+        ],
+        "sha256": "833f95c2044d2cdc956a18b5188efb3cb8ebeee429da572f02fdbfac4c0852db",
+        "bytes": 12687056
+      },
+      {
+        "slot": "@Image2",
+        "path": "references/scenes/scene-89/shared/pasha-scene.png",
+        "role": "PASHA, clean-shaven, dark-blue tunic. Original slot Image2. Shared with 89E.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      },
+      {
+        "slot": "@Image3",
+        "path": "references/scenes/scene-89/shared/sasha-scene.png",
+        "role": "SASHA, beard, round glasses, cream tunic and maroon robe. Original slot Image3. Shared with 89E.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      }
+    ],
+    "89E": [
+      {
+        "slot": "@Image1",
+        "path": "references/scenes/scene-89/89E/Image1.jpg",
+        "role": "Coruscant balcony, two armchairs, beer. Original slot Image1 of task 76fab545.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      },
+      {
+        "slot": "@Image2",
+        "path": "references/scenes/scene-89/shared/pasha-scene.png",
+        "role": "PASHA, clean-shaven, dark-blue tunic, the only speaker. Original slot Image2. Shared with 89D.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      },
+      {
+        "slot": "@Image3",
+        "path": "references/scenes/scene-89/shared/sasha-scene.png",
+        "role": "SASHA, beard and glasses, the listener. Original slot Image3. In the line he is Александрус. Shared with 89D.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      },
+      {
+        "slot": "@Image4",
+        "path": "references/full/pasha.jpg",
+        "role": "current face sheet of Pasha. Identity only.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      },
+      {
+        "slot": "@Image5",
+        "path": "references/full/sasha.jpg",
+        "role": "current face sheet of Sasha. Identity only.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      }
+    ],
+    "89F": [
+      {
+        "slot": "@Image1",
+        "path": "references/scenes/scene-89/shared/holo-man.jpg",
+        "role": "the seated bald man in dark purple robes. Original hologram slot <<<Image2>>>. Shared file.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      },
+      {
+        "slot": "@Image2",
+        "path": "references/scenes/scene-89/shared/holo-office.jpg",
+        "role": "the circular night office. Original slot <<<Image3>>>. Shared file.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      },
+      {
+        "slot": "@Image3",
+        "path": "references/scenes/scene-89/shared/holo-woman.jpg",
+        "role": "the woman hologram, not a solid person. Original slot <<<Image4>>>. Shared file.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      }
+    ],
+    "89G": [
+      {
+        "slot": "@Image1",
+        "path": "references/scenes/scene-89/shared/holo-office.jpg",
+        "role": "circular night office. Original slot Image1 of 1a40a6f4. Same bytes as the hologram office (was <<<Image3>>> there).",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      },
+      {
+        "slot": "@Image2",
+        "path": "references/scenes/scene-89/shared/holo-man.jpg",
+        "role": "seated bald man. Original slot Image2. Same bytes as the hologram man.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      },
+      {
+        "slot": "@Image3",
+        "path": "references/scenes/scene-89/shared/holo-woman.jpg",
+        "role": "woman hologram. Original slot Image3. Same bytes as the hologram woman.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      },
+      {
+        "slot": "@Image4",
+        "path": "references/scenes/scene-89/89G/Image4.png",
+        "role": "over-the-shoulder framing of the same two. Original slot Image4.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      },
+      {
+        "slot": "@Image5",
+        "path": "references/scenes/scene-89/89G/Image5.png",
+        "role": "tight holographic face of the same woman. Original slot Image5.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      }
+    ],
+    "89H": [
+      {
+        "slot": "@Image1",
+        "path": "references/scenes/scene-89/shared/jedi2-artem-scene.png",
+        "role": "ARTEM, Jedi 2, bearded, beige tunic. He answers. Original slot Image1. Shared file.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      },
+      {
+        "slot": "@Image2",
+        "path": "references/scenes/scene-89/shared/jedi1-ilyusha-scene.png",
+        "role": "ILYUSHA, Jedi 1, moustache, green tunic, dark-red cloak. Silent in the background. Original slot Image2. Shared file.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      },
+      {
+        "slot": "@Image3",
+        "path": "references/scenes/scene-89/89H/Image3.png",
+        "role": "data card. LOW-RES: a 406×408 JPEG preview saved under a .png name, 16419 bytes. Shape and orange lights only, not a sharp texture.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ],
+        "low_res": true,
+        "actual_format": "jpeg",
+        "width": 406,
+        "height": 408
+      },
+      {
+        "slot": "@Image4",
+        "path": "references/full/artem.jpg",
+        "role": "current face sheet of Artem. Identity only.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      },
+      {
+        "slot": "@Image5",
+        "path": "references/full/ilyusha.jpg",
+        "role": "current face sheet of Ilyusha. Identity only.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      }
+    ],
+    "89I": [
+      {
+        "slot": "@Image1",
+        "path": "references/scenes/scene-89/shared/jedi1-ilyusha-scene.png",
+        "role": "ILYUSHA, Jedi 1, moustache, green tunic, dark-red cloak. He asks. Original slot Image1 of 0bae7607. Shared file.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      },
+      {
+        "slot": "@Image2",
+        "path": "references/scenes/scene-89/shared/jedi2-artem-scene.png",
+        "role": "ARTEM, Jedi 2, bearded, beige tunic. He answers briefly. Original slot Image2. Shared file.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      },
+      {
+        "slot": "@Image3",
+        "path": "references/full/ilyusha.jpg",
+        "role": "current face sheet of Ilyusha. Identity only, after the original pair.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      },
+      {
+        "slot": "@Image4",
+        "path": "references/full/artem.jpg",
+        "role": "current face sheet of Artem. Identity only.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      }
+    ],
+    "89J": [
+      {
+        "slot": "@Image1",
+        "path": "references/scenes/scene-89/shared/jedi1-ilyusha-scene.png",
+        "role": "ILYUSHA, Jedi 1. He talks. Original slot Image1 of 56ca95b2. Same file as 89I @Image1.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      },
+      {
+        "slot": "@Image2",
+        "path": "references/scenes/scene-89/shared/jedi2-artem-scene.png",
+        "role": "ARTEM, Jedi 2. Short replies. Original slot Image2. Same file as 89I @Image2.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      },
+      {
+        "slot": "@Image3",
+        "path": "references/full/ilyusha.jpg",
+        "role": "current face sheet of Ilyusha. Identity only.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      },
+      {
+        "slot": "@Image4",
+        "path": "references/full/artem.jpg",
+        "role": "current face sheet of Artem. Identity only.",
+        "status": "available",
+        "shared_by_durations_s": [
+          15,
+          30
+        ]
+      }
+    ]
+  },
+  "renumber": {
+    "89F": {
+      "<<<Image2>>>": "@Image1",
+      "<<<Image3>>>": "@Image2",
+      "<<<Image4>>>": "@Image3",
+      "<<<Video1>>>": "not_a_relaunch_slot"
+    },
+    "89G": {
+      "Image1": "@Image1",
+      "Image2": "@Image2",
+      "Image3": "@Image3",
+      "Image4": "@Image4",
+      "Image5": "@Image5"
+    }
+  },
+  "not_added": []
+}

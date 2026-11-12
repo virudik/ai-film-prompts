@@ -1,0 +1,66 @@
+{
+  "subscene": "89H",
+  "images_status": "filled",
+  "durations_s": [
+    15,
+    30
+  ],
+  "same_image_order_for_both_durations": true,
+  "slots": [
+    {
+      "slot": "@Image1",
+      "path": "references/scenes/scene-89/shared/jedi2-artem-scene.png",
+      "role": "ARTEM, Jedi 2, bearded, beige tunic. He answers. Original slot Image1. Shared file.",
+      "status": "available",
+      "shared_by_durations_s": [
+        15,
+        30
+      ]
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/scenes/scene-89/shared/jedi1-ilyusha-scene.png",
+      "role": "ILYUSHA, Jedi 1, moustache, green tunic, dark-red cloak. Silent in the background. Original slot Image2. Shared file.",
+      "status": "available",
+      "shared_by_durations_s": [
+        15,
+        30
+      ]
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/scenes/scene-89/89H/Image3.png",
+      "role": "data card. LOW-RES: a 406×408 JPEG preview saved under a .png name, 16419 bytes. Shape and orange lights only, not a sharp texture.",
+      "status": "available",
+      "shared_by_durations_s": [
+        15,
+        30
+      ],
+      "low_res": true,
+      "actual_format": "jpeg",
+      "width": 406,
+      "height": 408
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/full/artem.jpg",
+      "role": "current face sheet of Artem. Identity only.",
+      "status": "available",
+      "shared_by_durations_s": [
+        15,
+        30
+      ]
+    },
+    {
+      "slot": "@Image5",
+      "path": "references/full/ilyusha.jpg",
+      "role": "current face sheet of Ilyusha. Identity only.",
+      "status": "available",
+      "shared_by_durations_s": [
+        15,
+        30
+      ]
+    }
+  ],
+  "video_launch_approval": false
+}

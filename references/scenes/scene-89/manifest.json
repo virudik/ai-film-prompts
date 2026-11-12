@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "scene_id": 89,
+  "title": "Диалоги на переделку",
+  "production_state": "NEEDS_RERENDER",
+  "video_launch_approval": false,
+  "technical_success_is_editorial_approval": false,
+  "mp4_in_git": false,
+  "launch_queue": "not_added",
+  "images_status": "filled_shared_files_two_plates_and_videos_on_drive",
+  "open_for_more_clips": "Next dialogue appends after 89J. 0bae7607 and 56ca95b2 are 89I and 89J.",
+  "drive": {
+    "root": {
+      "name": "Серёгиус диалоги",
+      "id": "139k4Xm00ThfViX2RYjdGaH3t163d9KMO",
+      "url": "https://drive.google.com/drive/folders/139k4Xm00ThfViX2RYjdGaH3t163d9KMO"
+    },
+    "council": {
+      "name": "01 Совет джедаев",
+      "id": "1KS4tj0U0JkmvAVcvbmkSPj2DquJff9Et",
+      "url": "https://drive.google.com/drive/folders/1KS4tj0U0JkmvAVcvbmkSPj2DquJff9Et"
+    },
+    "holo": {
+      "name": "02 Голограммы",
+      "id": "1-B8jY_qb6p5JCcfTFG2wqFsoN4zDcyZA",
+      "url": "https://drive.google.com/drive/folders/1-B8jY_qb6p5JCcfTFG2wqFsoN4zDcyZA"
+    },
+    "cantina": {
+      "name": "03 Кантина",
+      "id": "1oaALsV74uucWMhVDGMOHcW-M-hnPlbKL",
+      "url": "https://drive.google.com/drive/folders/1oaALsV74uucWMhVDGMOHcW-M-hnPlbKL"
+    }
+  },
+  "subscenes": [
+    {
+      "id": "89A",
+      "title": "Совет джедаев — «Дорогие мои друзья… ситуация с канцлером Серёгиусом»",
+      "group": "council",
+      "slots": 3,
+      "source_tasks": [
+        "a7c9e3ba6ee044668582000d0a55f133"
+      ],
+      "relaunch_source_task": "a7c9e3ba6ee044668582000d0a55f133",
+      "prompt_status": "15s_and_30s_images_filled"
+    },
+    {
+      "id": "89B",
+      "title": "Совет джедаев — «Мы с Лёхиусом отправимся на Кашиик»",
+      "group": "council",
+      "slots": 3,
+      "source_tasks": [
+        "6d69acda515e43b5b470fcabd49cc6e6"
+      ],
+      "relaunch_source_task": "6d69acda515e43b5b470fcabd49cc6e6",
+      "prompt_status": "15s_and_30s_images_filled"
+    },
+    {
+      "id": "89C",
+      "title": "Совет джедаев — «Ситуация требует срочных и решительных действий»",
+      "group": "council",
+      "slots": 3,
+      "source_tasks": [
+        "88140b9497d34ea284e0534bc1d62d6d"
+      ],
+      "relaunch_source_task": "88140b9497d34ea284e0534bc1d62d6d",
+      "prompt_status": "15s_and_30s_images_filled"
+    },
+    {
+      "id": "89D",
+      "title": "Совет джедаев — пиво и закуски, бормотание без реплики",
+      "group": "council",
+      "slots": 3,
+      "source_tasks": [
+        "5c322c84b87f484f95ef52273f6fbf69"
+      ],
+      "relaunch_source_task": "5c322c84b87f484f95ef52273f6fbf69",
+      "prompt_status": "15s_and_30s_images_filled"
+    },
+    {
+      "id": "89E",
+      "title": "Совет джедаев — Паша: рыбалка на Набу и отпуск",
+      "group": "council",
+      "slots": 3,
+      "source_tasks": [],
+      "relaunch_source_task": "76fab545",
+      "prompt_status": "15s_and_30s_images_filled"
+    },
+    {
+      "id": "89F",
+      "title": "Голограммы — «Привет, любимая… купи хлеба и молока»",
+      "group": "holo",
+      "slots": 3,
+      "source_tasks": [
+        "e3199a1406eb46f4986b461b767f8eb3",
+        "ade18ba6bae14b1dad302e36d4b46a9f",
+        "87557bca9757445fae97ebbd9ecfa317"
+      ],
+      "relaunch_source_task": "87557bca9757445fae97ebbd9ecfa317",
+      "prompt_status": "15s_and_30s_images_filled"
+    },
+    {
+      "id": "89G",
+      "title": "Голограммы — три фрагмента карты раньше джедаев",
+      "group": "holo",
+      "slots": 5,
+      "source_tasks": [
+        "de3e86025faf437a8997b843050ea1c2",
+        "cdabfadc1c534b128b7303bbb4fdbb15",
+        "ef91bb1ef1224175a3b4f85208caba52",
+        "777f6108cae24101957223d236af67b7",
+        "1a40a6f4364c4618813b1f1d6caa5e92",
+        "60e7479a15e44ea696ccadfcdc43b40a"
+      ],
+      "relaunch_source_task": "60e7479a15e44ea696ccadfcdc43b40a",
+      "prompt_status": "15s_and_30s_images_filled"
+    },
+    {
+      "id": "89H",
+      "title": "Кантина — бармен прячет карту, «Карту надо спрятать…»",
+      "group": "cantina",
+      "slots": 3,
+      "source_tasks": [
+        "b5ce79713d374cb7987eb16e5a53cd1d"
+      ],
+      "relaunch_source_task": "b5ce79713d374cb7987eb16e5a53cd1d",
+      "prompt_status": "15s_and_30s_images_filled"
+    },
+    {
+      "id": "89I",
+      "title": "Кантина — стойка, Республика и Империя",
+      "group": "cantina",
+      "prompt_status": "15s_and_30s_images_shared",
+      "note": "Только немые Seedance-ролики кантины, кроме речевого b5ce7971.",
+      "source_tasks": [
+        "0bae7607462244fa815f23c1973c4e94"
+      ]
+    },
+    {
+      "id": "89J",
+      "title": "Кантина — угловой столик, TIE и штурмовики",
+      "group": "cantina",
+      "slots": 4,
+      "source_tasks": [
+        "56ca95b2e70042dfb7b199621e64f3ee"
+      ],
+      "prompt_status": "15s_and_30s_images_shared"
+    }
+  ],
+  "notion": {
+    "council": "https://app.notion.com/p/359fe763776280d38344c2442435ee6d",
+    "cantina": "https://app.notion.com/p/359fe76377628013bcace46acade49e1"
+  }
+}

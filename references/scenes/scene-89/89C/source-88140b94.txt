@@ -1,0 +1,64 @@
+[SCENE — Jedi Council, hookah and cat]
+duration: 5 seconds
+resolution: 1920x1080, 24fps
+
+Use <<<Image1>>>   as primary reference —
+animate exactly this scene, bring it to life.
+Same composition, same characters, same positions,
+same lighting — everything preserved.
+
+Use <<<Image2>>>   as character reference for LEFT CHARACTER.
+Use <<<Image3>>>   as character reference for RIGHT CHARACTER.
+
+Style: photorealistic cinematic CGI, warm golden sunset lighting.
+Futuristic Coruscant city through windows behind.
+
+Camera: static, no movement, locked wide shot.
+
+ANIMATE THESE ELEMENTS:
+
+LEFT CHARACTER — stocky man, short brown hair,
+black Anakin-style Jedi outfit, black gloved hand,
+sitting in left council chair:
+Holds hookah pipe hose loosely.
+Exhales thin wispy smoke slowly from mouth.
+Listens. Turns head slightly toward right character.
+Smoke curls upward lazily.
+
+RIGHT CHARACTER — slim man, dark wavy hair,
+thin mustache, gray hooded robe over purple underrobe,
+sitting in right council chair with cat on lap:
+SPEAKS the following phrase in Russian language:
+mouth moves naturally forming Russian speech,
+lip sync to this exact Russian text spoken aloud:
+
+"Situatsiya trebuyet ot nas srochnykh
+i reshitelnykh deystviy.
+Ya gotov vydvigatsya nezamedlitelno.
+Nam nuzhno rasshirit zonu poiska."
+
+Serious confident expression while speaking.
+One hand rests on the cat, fingers still.
+Other hand makes one slow deliberate gesture
+while speaking — palm opens slightly outward.
+
+CAT on right character's lap:
+Stays still. Ears twitch once during speech.
+
+HOOKAH between the chairs:
+Smoke rising slowly from bowl.
+Hose sways very gently.
+
+BACKGROUND:
+City alive — flying vehicles move slowly across skyline.
+Warm hazy golden light stays constant.
+
+negative_prompt:
+camera movement, jitter, shake,
+characters standing up, wrong faces,
+extra characters, cat jumping,
+static mouth on speaking character,
+closed mouth during speech,
+wrong language, English speech,
+cartoon, anime, watermark, logo,
+text on screen, subtitles, corner overlays.

@@ -1,0 +1,34 @@
+[VIDEO REFERENCE 1: End shot leads into opening frame of <<<Video1>>>  ]
+[CHARACTER REFERENCE 1: <<<Image1>>>   - Bearded man in beige and brown Jedi-style tunic]
+[CHARACTER REFERENCE 2: <<<Image2>>>   - Mustached man in red hooded cloak]
+[DATA CARD REFERENCE: <<<Image3>>>   - Small metallic sci-fi card with glowing orange central lights]
+
+Optimized for SeeDance 2.5 | Duration: 30s | Resolution: 4K Photorealistic Sci-Fi | Aspect Ratio: 16:9 | Single Take Unbroken Shot | Prequel Sequence
+
+CONTINUITY & MATCH LOCK:
+• END FRAME (00:30): Absolute continuity match to the opening frame of <<<Video1>>>   (cantina interior, character positioning, atmospheric neon fog, warm lighting).
+
+CAMERA SYSTEM & ACTION TIMELINE (00:00 - 00:30):
+Single unbroken cinematic camera maneuver in a dim sci-fi cantina. Zero hard cuts.
+
+• 00:00–00:08 (Approach): Atmospheric wide-medium shot of the sci-fi cantina bar counter. An exotic, highly detailed alien bartender leans over the counter and approaches the guy in brown (matching image <<<Image1>>>  ).
+• 00:08–00:18 (Handover & Bartender Speech): The alien bartender secretly slides the glowing metallic data card (matching image <<<Image3>>>  ) across the counter into the guy's hand. Over-the-shoulder focus on the alien as it speaks in clear Russian with exact lip sync: «Карту надо спрятать. Она низачто не должна попасть в руки канцлеру.»
+• 00:18–00:25 (Reaction & Pledge): Camera pans smoothly to the guy in brown (<<<Image1>>>  ) looking down at the glowing card, closing his fist around it, looking back up with a resolute expression, and replying in Russian with precise lip sync: «Сделаю что смогу.»
+• 00:25–00:30 (Transition to Video 1 <<<Video1>>>  ): The camera tracks backward, revealing the guy in red (<<<Image2>>>  ) nearby in the cantina background as the bartender steps back into the shadows, settling into the exact opening sкetup of <<<Video1>>>  .
+
+ASSET & ENVIRONMENT LOCK:
+• Guy in Brown: Exact facial match, beard, brown/beige layered tunic, and belt from image <<<Image1>>>  .
+• Guy in Red: Exact facial match, mustache, and red hooded cloak from image <<<Image2>>>   in the background.
+• Data Card: Exact metallic design with twin vertical orange glowing panels from image <<<Image3>>>  .
+• Alien Bartender: Highly exotic creature design matching the cantina staff from <<<Video1>>>  .
+• Environment: Dimly lit Star Wars-inspired space cantina, warm orange/red backlight, volumetric haze, glass drinks.
+
+LIP-SYNC & DIALOGUE LOCK:
+• Alien Bartender (00:10-00:17): Russian speech «Карту надо спрятать. Она низачто не должна попасть в руки канцлеру.»
+• Guy in Brown (00:19-00:23): Russian speech «Сделаю что смогу.»
+
+AUDIO DESIGN:
+Ambient cantina chatter, alien hums, subtle electronic hum from the glowing data card, muffled Russian voice lines with cinematic reverb, sci-fi synth music score.
+
+NEGATIVE PROMPT: hard cuts, jump cuts, English speech, out-of-sync lip movement, missing data card, changing outfits, modern clothing, cartoon 
+style, low quality, UI elements. <<<Video1>>>   <<<Image1>>>   <<<Image2>>>   <<<Image3>>>  

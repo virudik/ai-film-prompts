@@ -1,0 +1,90 @@
+[SCENE — Jedi Council, hookah and cat]
+duration: 5 seconds
+resolution: 1920x1080, 24fps
+
+Use <<<Image1>>>   as primary reference —
+animate exactly this scene, bring it to life.
+Same composition, same characters, same positions,
+same lighting — everything preserved.
+
+Use <<<Image2>>>   as character reference for LEFT CHARACTER.
+Use <<<Image3>>>   as character reference for RIGHT CHARACTER.
+
+Style: photorealistic cinematic CGI, warm golden sunset lighting.
+Futuristic Coruscant city through windows behind.
+
+Camera: static, no movement, locked wide shot.
+
+ANIMATE THESE ELEMENTS:
+
+LEFT CHARACTER — stocky man, short brown hair,
+black Anakin-style Jedi outfit, black gloved hand,
+sitting in left council chair:
+SPEAKS the following phrase in Russian language:
+mouth moves naturally forming Russian speech,
+lip sync to this exact Russian text spoken aloud:
+
+"My s Lyokhiusom otpravimsia na Kashiik
+odin znakomyy vuki dolozhil
+chto tam byli zamecheny nekiye
+nezvannyye gosti v chyornykh mantiyakh."
+
+Serious confident expression while speaking.
+Holds hookah pipe hose loosely in one hand.
+Other hand makes one slow deliberate gesture
+while speaking — palm opens slightly outward.
+Exhales thin wispy smoke from mouth between sentences.
+Smoke curls upward lazily.
+
+RIGHT CHARACTER — slim man, dark wavy hair,
+thin mustache, gray hooded robe over purple underrobe,
+sitting in right council chair:
+Listens attentively to left character.
+Eyes drift toward left character — calm focused expression.
+Both hands rest on the cat on his lap —
+continuously and slowly strokes the cat
+with gentle rhythmic forward and back motion.
+Nods once slowly during speech.
+Completely still otherwise — total composure.
+
+CAT on right character's lap:
+Reacts to petting — eyes half closing with pleasure.
+Subtle purring chest movement.
+Fur shifts gently under hand.
+Tail sways very slowly.
+
+HOOKAH between the chairs:
+Smoke rising slowly from bowl continuously.
+Hose sways very gently.
+Glass base has subtle liquid shimmer inside.
+
+BACKGROUND:
+City alive — flying vehicles move slowly across skyline.
+Warm hazy golden light stays constant.
+Atmospheric haze drifts gently in distance.
+
+0-2 sec:
+Scene comes alive. Left man begins speaking.
+Right man turns head slightly toward him.
+Cat settles into petting. Hookah smoke rises.
+
+2-4 sec:
+Left man continues speaking with hand gesture.
+Right man listens, nods once slowly.
+Cat tail sways. Smoke curls upward.
+
+4-5 sec:
+Left man finishes phrase. Mouth closes.
+Right man holds gaze — processing the words.
+Petting continues. Total stillness settles.
+
+negative_prompt:
+camera movement, jitter, shake,
+right character speaking, wrong lip sync,
+left character silent, closed mouth on speaker,
+characters standing up, wrong faces,
+extra characters, cat jumping off lap,
+static mouth on speaking character,
+cartoon, anime, watermark, logo,
+text on screen, subtitles, corner overlays,
+diamond watermark, nano banana logo.

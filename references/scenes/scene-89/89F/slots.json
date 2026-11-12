@@ -1,0 +1,42 @@
+{
+  "subscene": "89F",
+  "images_status": "filled",
+  "durations_s": [
+    15,
+    30
+  ],
+  "same_image_order_for_both_durations": true,
+  "slots": [
+    {
+      "slot": "@Image1",
+      "path": "references/scenes/scene-89/shared/holo-man.jpg",
+      "role": "the seated bald man in dark purple robes. Original hologram slot <<<Image2>>>. Shared file.",
+      "status": "available",
+      "shared_by_durations_s": [
+        15,
+        30
+      ]
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/scenes/scene-89/shared/holo-office.jpg",
+      "role": "the circular night office. Original slot <<<Image3>>>. Shared file.",
+      "status": "available",
+      "shared_by_durations_s": [
+        15,
+        30
+      ]
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/scenes/scene-89/shared/holo-woman.jpg",
+      "role": "the woman hologram, not a solid person. Original slot <<<Image4>>>. Shared file.",
+      "status": "available",
+      "shared_by_durations_s": [
+        15,
+        30
+      ]
+    }
+  ],
+  "video_launch_approval": false
+}

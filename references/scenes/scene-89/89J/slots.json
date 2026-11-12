@@ -1,0 +1,52 @@
+{
+  "subscene": "89J",
+  "images_status": "filled",
+  "durations_s": [
+    15,
+    30
+  ],
+  "same_image_order_for_both_durations": true,
+  "slots": [
+    {
+      "slot": "@Image1",
+      "path": "references/scenes/scene-89/shared/jedi1-ilyusha-scene.png",
+      "role": "ILYUSHA, Jedi 1. He talks. Original slot Image1 of 56ca95b2. Same file as 89I @Image1.",
+      "status": "available",
+      "shared_by_durations_s": [
+        15,
+        30
+      ]
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/scenes/scene-89/shared/jedi2-artem-scene.png",
+      "role": "ARTEM, Jedi 2. Short replies. Original slot Image2. Same file as 89I @Image2.",
+      "status": "available",
+      "shared_by_durations_s": [
+        15,
+        30
+      ]
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/full/ilyusha.jpg",
+      "role": "current face sheet of Ilyusha. Identity only.",
+      "status": "available",
+      "shared_by_durations_s": [
+        15,
+        30
+      ]
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/full/artem.jpg",
+      "role": "current face sheet of Artem. Identity only.",
+      "status": "available",
+      "shared_by_durations_s": [
+        15,
+        30
+      ]
+    }
+  ],
+  "video_launch_approval": false
+}

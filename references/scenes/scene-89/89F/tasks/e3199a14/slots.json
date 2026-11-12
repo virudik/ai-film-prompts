@@ -1,0 +1,10 @@
+{
+  "role": "same_bytes_as_relaunch",
+  "used_by_relaunch_prompt": true,
+  "files": [
+    "references/scenes/scene-89/shared/holo-man.jpg",
+    "references/scenes/scene-89/shared/holo-office.jpg",
+    "references/scenes/scene-89/shared/holo-woman.jpg"
+  ],
+  "note": "Отдельной копии нет: s3-файлы совпали с перезапуском 89F."
+}
