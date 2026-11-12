@@ -13,12 +13,12 @@
   "source_head_started": "c9c8b0b7bc35522ab696fdbe03104bd4ce6db253",
   "route_generation": 3,
   "started_at": "2026-11-12T21:06:44.398Z",
-  "checked_at": null,
-  "phase": "started",
-  "status": "in_progress",
+  "checked_at": "2026-11-12T21:08:07.375Z",
+  "phase": "completed",
+  "status": "completed",
   "scan": {
     "complete": true,
-    "scope": "Read-only Topview connector scan: 14 boards / 19 pages, 674 video tasks, 641 success + 27 fail + 6 init; individual active tasks checked; queue and task-map SHA256 independently matched readiness.",
+    "scope": "Complete live Topview connector account-wide video scan: 14 boards, 19 pages, 674 unique videos (641 success/27 fail/6 init); exact My First Board all-media scan 8 pages, 731 unique assets; 41 registered queue task IDs all found; six active task details separately verified. Queue/task-map SHA256 recomputed and matched readiness.",
     "boards": 14,
     "pages": 19,
     "unique_task_ids": 674,
@@ -40,14 +40,16 @@
     "readiness_sha_match": true,
     "queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
     "task_map_sha256": "9238b01925754d9d9a47ea1e7a943863ee7702394bb5b003a9479e77c8df5eca",
-    "registered_task_ids_verified": null,
+    "registered_task_ids_verified": 41,
     "nonterminal_claims": 0,
     "owner_tasks_open": 0,
     "current_taskmap_unmapped_active": [
       "d775c7a483a44f13ba1704a1c418b208"
     ],
     "active_tasks_individually_verified": true,
-    "active_settings": "All six init tasks on My First Board: Seedance 2.0, 15s, 720p,16:9, Unlimited true, creditsCost 0."
+    "active_settings": "All six init tasks on My First Board: Seedance 2.0, 15s, 720p,16:9, Unlimited true, creditsCost 0.",
+    "main_board_all_media_tasks": 731,
+    "main_board_all_media_pages": 8
   },
   "scan_complete": true,
   "occupied_slots": 6,
@@ -69,9 +71,11 @@
     "acquired_at": "2026-11-12T21:05:47.934Z",
     "expires_at": "2026-11-12T21:30:47.934Z",
     "acquired_commit": "dbb066dbf3f908172c7c8284bf4188fc40e61f40",
-    "released": false
+    "released": true,
+    "release_recorded_at": "2026-11-12T21:08:07.375Z",
+    "release_commit": "same_commit_as_final_receipt"
   },
-  "outcome": null,
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": false,
   "acceptance": {
@@ -81,8 +85,8 @@
     "topview_task_id_verified_for_this_run": false,
     "end_to_end_background_submission_verified": false
   },
-  "source_head": "dbb066dbf3f908172c7c8284bf4188fc40e61f40",
-  "completed_at": null,
+  "source_head": "d21fba3b4be8c3e6628d5a00be2cfb245146e764",
+  "completed_at": "2026-11-12T21:08:07.375Z",
   "new_submissions": 0,
   "slots": {
     "capacity": 6,
@@ -90,7 +94,12 @@
     "free": 0
   },
   "notes": [
-    "This is a live started receipt, not a Create claim. Full account scan completed before acquiring lease.",
-    "Existing schedule remains enabled. No TinyFish payment or Topview Create with 6/6 physical slots."
+    "Fresh Topview scan 6/6 active physical video slots. No Create or paid TinyFish run, credits and browser spending 0.",
+    "Independently computed SHA256 queue 1e7c28ec… and task-map 9238b019… match readiness; 41 registered task IDs found on My First Board (full all-media scan).",
+    "Existing unmapped active task d775c7a4… present; no guessing attribution, no repeat Create.",
+    "Open bot issue #600 from 2026-11-12T10:51:07Z is stale, superseded by complete new 6/6 scan.",
+    "Automations.peek observed current last_run.id; older latest_result.run_id is not today's run identity. HH:55 and Relay peers had no confirmed newer Work GUI/quota proof.",
+    "Ordinary automation remains enabled HH:00, route_generation 3 unchanged, queue/readiness/master and next_action not modified.",
+    "Started receipt committed with own exact lease; final receipt and release atomically CAS committed."
   ]
 }
