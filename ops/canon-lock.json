@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
-  "holder": "chatgpt:ordinary:3a2c71bf-102a-489f-a857-4c29f9f774a5",
-  "task": "D7 ordinary foreground takeover and receipt for latest verified Seregius resume focus; no video submission",
-  "acquired_at": "2026-11-12T21:24:16.495Z",
-  "expires_at": "2026-11-12T21:34:16.495Z",
-  "released_at": null,
+  "state": "free",
+  "holder": null,
+  "task": null,
+  "acquired_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-12T21:27:46.620Z",
   "rules": "ops/CANON-LOCK.md"
 }
