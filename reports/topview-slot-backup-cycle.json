@@ -13,16 +13,48 @@
   "source_head_started": "1ba42e0fe6e278e537d7eb12d2848009b24ad8f2",
   "route_generation": 3,
   "started_at": "2026-11-12T22:09:52.619Z",
-  "checked_at": "2026-11-12T22:10:27.673Z",
-  "phase": "started",
-  "status": "in_progress",
+  "checked_at": "2026-11-12T22:12:50.278Z",
+  "phase": "completed",
+  "status": "completed",
   "scan": {
-    "complete": false,
-    "scope": "Read-only connector scan performed before lease: 14 boards, 15 nonempty video pages (19 including four empty boards), 674 videos. Detailed reconciliation and receipt in progress."
+    "complete": true,
+    "scope": "Complete read-only Topview connector all-account video scan: 14 boards, 19 board-page requests (15 nonempty video pages), 674 unique videos. Exact My First Board all-media scan 8 pages, 731 unique assets; six init details individually read. 41 registered queue tasks found by task ID. Queue/task-map SHA256 checked against current readiness.",
+    "boards": 14,
+    "pages": 19,
+    "nonempty_video_pages": 15,
+    "unique_task_ids": 674,
+    "status_counts": {
+      "success": 641,
+      "fail": 27,
+      "init": 6
+    },
+    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "main_board_video_tasks": 507,
+    "main_board_all_media_tasks": 731,
+    "main_board_all_media_pages": 8,
+    "active_task_ids": [
+      "d775c7a483a44f13ba1704a1c418b208",
+      "8c6d92662d1043c7a651168b2b8280ae",
+      "1dcb6fa0628d41b098227ca6c96f1630",
+      "a1330998d39b486e864ed4e22b4fe8c4",
+      "3a09108c8c474a0989118806b4a69f91",
+      "be627af0e9664db5b6ac2b62c34080a6"
+    ],
+    "active_tasks_individually_verified": true,
+    "active_settings": "All six init tasks on exact My First Board: Seedance 2.0, 15 seconds, 720p, 16:9, Unlimited true, creditsCost 0.",
+    "readiness_sha_match": true,
+    "queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+    "task_map_sha256": "52747c62867fd64a7f5cb59d5cd118885b260dd628e52d7a4faca2f2fe6fc49a",
+    "registered_task_ids_verified": 41,
+    "nonterminal_claims": 0,
+    "owner_tasks_open": 0,
+    "current_taskmap_unmapped_active": [
+      "d775c7a483a44f13ba1704a1c418b208"
+    ]
   },
-  "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
+  "scan_complete": true,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
   "task_ids": [],
   "browser_transport": "not_used",
@@ -40,9 +72,11 @@
     "acquired_at": "2026-11-12T22:09:52.619Z",
     "expires_at": "2026-11-12T22:34:52.619Z",
     "acquired_commit": "711392a6fe342218d50515e74ea86b8f2befdf5c",
-    "released": false
+    "released": true,
+    "release_recorded_at": "2026-11-12T22:12:50.278Z",
+    "release_commit": "same_commit_as_final_receipt"
   },
-  "outcome": "checking",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": false,
   "acceptance": {
@@ -52,5 +86,31 @@
     "topview_task_id_verified_for_this_run": false,
     "end_to_end_background_submission_verified": false
   },
-  "new_submissions": 0
+  "new_submissions": 0,
+  "completed_at": "2026-11-12T22:12:50.278Z",
+  "slots": {
+    "capacity": 6,
+    "occupied": 6,
+    "free": 0
+  },
+  "source_head": "4999d335005467ee26b3ca5791fb9769005aef9b",
+  "peer_reconciliation": {
+    "ordinary_last_run_id": "3276b128-15e0-8330-8c59-0142165df62a",
+    "ordinary_latest_result_run_id": "7de1ec9c-d450-8325-ad33-da050231e83a",
+    "work_relay_last_run_id": "88605548-8fa8-8330-858a-e315e76c49a3",
+    "work_relay_latest_result_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d",
+    "work_HH55_last_run_id": "e941b296-c47c-8326-ad87-8f869394f1fd",
+    "work_HH55_latest_result_run_id": "1658357b-2320-8333-98ac-459762c93799",
+    "work_current_GUI_quota_verified": false
+  },
+  "notes": [
+    "Live global capacity remains 6/6, six verified init tasks; no new Create or paid TinyFish work, spend zero.",
+    "Directly computed SHA-256 of actual queue and task map matches readiness; all 41 registered task IDs present; no open owner tasks or nonterminal claims.",
+    "Old issue #600 signal at 2026-11-12T10:51:00Z superseded by fresh 6/6 scan; no false free-slot ACK.",
+    "Unmapped active d775c7a4... remains in task map; no inferred association or duplicate.",
+    "Automations.peek current last_run.id is actual scheduled run; latest_result.run_id belongs to preceding run.",
+    "Existing Work preference, route_generation 3, existing hourly HH:00 schedule, queue and continuation checkpoint unchanged.",
+    "This run did not confirm Work GUI restoration; no paid TinyFish run was justified or made.",
+    "Started receipt written under own lease; final receipt and lease release in single expected-head CAS commit."
+  ]
 }
