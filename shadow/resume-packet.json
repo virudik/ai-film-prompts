@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-12T21:27:23+00:00",
-  "source_head": "5b88f2ca571c074373ec8707e1ab51a48b259ef9",
-  "source_fingerprint": "201770d42626f9ca3e8bc801063215cd69dace99c54375cf7d6de4c006472114",
+  "checked_at": "2026-11-12T21:34:12+00:00",
+  "source_head": "f2b5427a17d788b7b5cdeb9fe21fef0fa20865b0",
+  "source_fingerprint": "8045b8d5827dc9b00523259c90fbc0045dace4ae899b67b992a2c90c793d0c34",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -600,8 +600,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "533f6c11ba3258e99f0642defb31dc871231a8e534b2b8cf83358d343dc3fa7d",
-      "bytes": 29560
+      "sha256": "a13d9065a4a8fd44a0598aea69c7b1319f28db8d36a190e014b198d2e6986433",
+      "bytes": 29562
     },
     {
       "file": "references/scenes/scene-88/manifest.json",
