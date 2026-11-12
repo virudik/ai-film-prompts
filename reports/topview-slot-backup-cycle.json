@@ -5,67 +5,31 @@
   "runner": "chatgpt:ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
   "automationID": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "c24e3d53-fbfc-49e0-a4be-5988a0d24f86",
-  "holder": "chatgpt:ordinary:c24e3d53-fbfc-49e0-a4be-5988a0d24f86",
+  "execution_instance_id": "4e38da2c-f2b6-4e4a-87d7-d1d971022bb8",
+  "holder": "chatgpt:ordinary:4e38da2c-f2b6-4e4a-87d7-d1d971022bb8",
   "run_id": null,
   "runtime_run_id": null,
   "runtime_run_id_source": null,
-  "runtime_run_id_unavailable_reason": "Actual runtime run ID not present in this invocation; Automations.get returned tool action 404; execution UUID is not runtime ID",
-  "source_head_started": "f9007b6c07d034936284e15457ed897e255f3de5",
-  "source_head": "6e936f754899df576e0776850a8a7bfaf435711e",
+  "runtime_run_id_unavailable_reason": "Platform run ID not directly supplied to this invocation; Automations.peek last_run is independently verified separately",
+  "source_head_started": "fb69d0bda0bf5dda2a201e398d5131c53e244b9d",
+  "source_head": "42e45e583c45aa02dfa2f640747147b1c5a3b3ae",
   "route_generation": 3,
-  "started_at": "2026-11-12T11:04:54Z",
-  "checked_at": "2026-11-12T11:16:10.964Z",
-  "phase": "finished",
-  "status": "no_free_slot",
+  "started_at": "2026-11-12T12:08:08.432Z",
+  "checked_at": null,
+  "phase": "started",
+  "status": "scanning",
   "scan": {
-    "complete": true,
-    "scope": "Topview read-only list_boards(mode=all), list_board_tasks(mediaType=video) for all 14 boards and all 6 My First Board pages; 19 page requests",
-    "boards": 14,
-    "pages": 19,
-    "video_tasks": 674,
-    "unique_task_ids": 674,
-    "status_counts": {
-      "success": 641,
-      "fail": 27,
-      "init": 6
-    },
-    "active_task_ids": [
-      "d775c7a483a44f13ba1704a1c418b208",
-      "8c6d92662d1043c7a651168b2b8280ae",
-      "1dcb6fa0628d41b098227ca6c96f1630",
-      "a1330998d39b486e864ed4e22b4fe8c4",
-      "3a09108c8c474a0989118806b4a69f91",
-      "be627af0e9664db5b6ac2b62c34080a6"
-    ],
-    "main_board_video_tasks": 507,
-    "unreconciled_queue_claims": 0,
-    "owner_tasks_open": 0,
-    "ready_sha": {
-      "queue": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
-      "task_map": "fe7ff0d68ee59060be0831ea15e84da4075a57c47d86de7c62530e73e294a4c1",
-      "match_both": true,
-      "method": "Independent pure-JavaScript SHA-256 validated against abc standard vector"
-    },
-    "unmapped_new_active_task_id": "d775c7a483a44f13ba1704a1c418b208",
-    "new_active_created_at": "2026-11-12 10:55:38 (Topview provider time, timezone not asserted)",
-    "verified_at": "2026-11-12T11:16:10.964Z",
-    "robot_checked_at": "2026-11-12T11:00:36Z",
-    "robot_state": "capacity_full",
-    "last_bot_issue_evidence": "Older topview-slot-wake reports 1 free slot, superseded by complete current live scan",
-    "all_active_direct_verified_unlimited": true,
-    "active_numeric_credit_cost_visible": false,
-    "registered_task_ids_reconciled_before_launch": "not_required_no_launch",
-    "queue_states_reconciled": true
+    "complete": false,
+    "scope": "Topview read-only full-account board/task scan underway"
   },
   "slots": {
     "capacity": 6,
-    "occupied": 6,
-    "free": 0
+    "occupied": null,
+    "free": null
   },
-  "scan_complete": true,
-  "occupied_slots": 6,
-  "free_slots": 0,
+  "scan_complete": false,
+  "occupied_slots": null,
+  "free_slots": null,
   "selected_item": null,
   "task_ids": [],
   "new_submissions": 0,
@@ -76,20 +40,17 @@
     "run_ids": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0,
-    "reason": "6/6 physical video slots occupied; metered browser polling prohibited"
+    "confirmed_cost_usd": 0
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:c24e3d53-fbfc-49e0-a4be-5988a0d24f86",
-    "acquired_at": "2026-11-12T11:14:01.798Z",
-    "expires_at": "2026-11-12T11:26:01.798Z",
-    "acquired_commit": "a66f1892f4f121685f57a3baace53259ef0ff313",
-    "released": true,
-    "released_at": "2026-11-12T11:16:10.964Z",
-    "release_method": "same CAS commit as final receipt"
+    "holder": "chatgpt:ordinary:4e38da2c-f2b6-4e4a-87d7-d1d971022bb8",
+    "acquired_at": "2026-11-12T12:08:08.432Z",
+    "expires_at": "2026-11-12T12:20:08.432Z",
+    "acquired_commit": "42e45e583c45aa02dfa2f640747147b1c5a3b3ae",
+    "released": false
   },
-  "outcome": "no_free_slot",
+  "outcome": "in_progress",
   "blocker": null,
   "retryable": false,
   "acceptance": {
@@ -98,14 +59,5 @@
     "current_tinyfish_login_control_file_upload_unlimited0_verified": false,
     "topview_task_id_verified_for_this_run": false,
     "end_to_end_background_submission_verified": false
-  },
-  "notes": [
-    "New active d775... is not yet attributed in task map; do not treat it as own Create.",
-    "Owner policy holds scene 62; earlier 13:08 candidate cannot bypass the hold.",
-    "No Topview UI Create or paid TinyFish run attempted.",
-    "All 6 active task IDs independently fetched using read-only Topview get_board_task; Seedance 2.0,720p,16:9,15s,useUnlimitMode=true. Numeric UI price was not inspected, so zero-credit proof is not claimed.",
-    "GitHub telemetry at 11:00:36Z agrees capacity_full, but live Topview 674 task scan is authoritative.",
-    "No new owner task open; route generation unchanged. S49B and S51G remain prior attribution concerns, with no retry."
-  ],
-  "completed_at": "2026-11-12T11:16:10.964Z"
+  }
 }
