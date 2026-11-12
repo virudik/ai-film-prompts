@@ -5,35 +5,39 @@
   "runner": "chatgpt:ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
   "automationID": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "bb579fd3-ecab-4816-9b93-06b4edb088a6",
-  "holder": "chatgpt:ordinary:bb579fd3-ecab-4816-9b93-06b4edb088a6",
-  "run_id": "f028403a-07f8-8331-a3da-defb682e265d",
-  "runtime_run_id": "f028403a-07f8-8331-a3da-defb682e265d",
-  "runtime_run_id_source": "Automations.peek last_run.id scheduled_for 2026-11-12T15:00:00Z",
+  "execution_instance_id": "23702de2-4408-41f3-8af1-00d75cb6d269",
+  "holder": "chatgpt:ordinary:23702de2-4408-41f3-8af1-00d75cb6d269",
+  "run_id": "a91b30e9-88dc-8328-80bd-65dbc12112e7",
+  "runtime_run_id": "a91b30e9-88dc-8328-80bd-65dbc12112e7",
+  "runtime_run_id_source": "Automations.peek last_run.id scheduled_for 2026-11-12T16:00:00Z; observed 2026-11-12 15:55 UTC",
   "runtime_run_id_unavailable_reason": null,
-  "source_head_started": "cd6baef8fd21ddda7d638f09a522e413fbe53b90",
-  "source_head": "cd6baef8fd21ddda7d638f09a522e413fbe53b90",
+  "source_head_started": "1a92dfff22ad8a81884fefb33c38908f1fda3386",
+  "source_head": "1a92dfff22ad8a81884fefb33c38908f1fda3386",
   "route_generation": 3,
-  "started_at": "2026-11-12T15:01:59.008Z",
-  "checked_at": "2026-11-12T15:02:33.326Z",
+  "started_at": "2026-11-12T16:05:07.033Z",
+  "checked_at": "2026-11-12T16:06:21.216Z",
   "phase": "started",
   "status": "in_progress",
   "scan": {
     "complete": false,
-    "scope": "read-only full Topview scan performed before own lease; awaiting final revalidation",
-    "boards": null,
-    "pages": null,
-    "unique_task_ids": null,
-    "status_counts": null
+    "scope": "14 boards/21 pages read-only connector scan completed pre-lease; rechecking final state and durable claims",
+    "boards": 14,
+    "pages": 21,
+    "unique_task_ids": 674,
+    "status_counts": {
+      "success": 641,
+      "fail": 27,
+      "init": 6
+    }
   },
   "slots": {
     "capacity": 6,
-    "occupied": null,
-    "free": null
+    "occupied": 6,
+    "free": 0
   },
   "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
   "task_ids": [],
   "new_submissions": 0,
@@ -48,10 +52,10 @@
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:bb579fd3-ecab-4816-9b93-06b4edb088a6",
-    "acquired_at": "2026-11-12T15:01:59.008Z",
-    "expires_at": "2026-11-12T15:21:59.008Z",
-    "acquired_commit": "cd6baef8fd21ddda7d638f09a522e413fbe53b90",
+    "holder": "chatgpt:ordinary:23702de2-4408-41f3-8af1-00d75cb6d269",
+    "acquired_at": "2026-11-12T16:05:07.033Z",
+    "expires_at": "2026-11-12T16:20:07.033Z",
+    "acquired_commit": "1a92dfff22ad8a81884fefb33c38908f1fda3386",
     "released": false
   },
   "outcome": "in_progress",
@@ -65,6 +69,6 @@
     "end_to_end_background_submission_verified": false
   },
   "notes": [
-    "Initial scheduled cycle receipt; not a completed scan or create acceptance."
+    "Previous ordinary receipt remained phase=started from execution bb579fd3-ecab-4816-9b93-06b4edb088a6; previous lease expired. New independent execution acquired its own lease; old claim/intent not discarded."
   ]
 }
