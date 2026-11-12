@@ -5,31 +5,29 @@
   "runner": "chatgpt:ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
   "automationID": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "201b6859-b53f-4889-aead-942d8011c13b",
-  "holder": "chatgpt:ordinary:201b6859-b53f-4889-aead-942d8011c13b",
-  "run_id": "e2da80aa-8080-832f-8d95-7636c48bd0a2",
-  "runtime_run_id": "e2da80aa-8080-832f-8d95-7636c48bd0a2",
-  "runtime_run_id_source": "Automations.peek last_run.id scheduled_for 2026-11-12T13:00:00Z",
-  "runtime_run_id_unavailable_reason": null,
-  "source_head_started": "171f05f9ac50608519dcc12e1fd1593c3001f310",
-  "source_head": "5c441b1612fd070ef9cc2acfe0f0885672a7f095",
+  "execution_instance_id": "210c91dc-6023-493e-a442-db065be642e8",
+  "holder": "chatgpt:ordinary:210c91dc-6023-493e-a442-db065be642e8",
+  "run_id": "85377e00-4370-8333-a5f2-7685f9ef27d8",
+  "runtime_run_id": "85377e00-4370-8333-a5f2-7685f9ef27d8",
+  "runtime_run_id_source": "Automations.peek last_run.id, scheduled_for 2026-11-12T17:00:00Z, in_progress",
+  "source_head_started": "92d743fad9251487badda89fa070763bd111f520",
   "route_generation": 3,
-  "started_at": "2026-11-12T13:09:56.463Z",
-  "checked_at": "2026-11-12T13:16:16.458Z",
-  "phase": "finished",
-  "status": "no_free_slot",
+  "started_at": "2026-11-12T17:00:22.720Z",
+  "checked_at": "2026-11-12T17:09:12.598Z",
+  "phase": "completed",
+  "status": "completed",
   "scan": {
     "complete": true,
-    "scope": "Topview list_boards(mode=all), list_board_tasks(mediaType=video) all 14 boards / 19 pages, six active tasks verified with get_board_task; My First Board 6 pages, 41/41 canonical submitted/completed tasks matched",
+    "scope": "Topview connector read-only exhaustive video scan, 14 boards / 19 pages; 674 unique video task IDs. Exact My First Board 507 video tasks and all 731 media tasks across 8 pages. Six active task IDs individually verified with get_board_task. Queue source and task-map SHA256 independently matched queue-readiness.json; 38 current submitted videos plus three registered image tasks verified on exact board.",
     "boards": 14,
     "pages": 19,
-    "video_tasks": 674,
     "unique_task_ids": 674,
     "status_counts": {
       "success": 641,
       "fail": 27,
       "init": 6
     },
+    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
     "active_task_ids": [
       "d775c7a483a44f13ba1704a1c418b208",
       "8c6d92662d1043c7a651168b2b8280ae",
@@ -38,24 +36,14 @@
       "3a09108c8c474a0989118806b4a69f91",
       "be627af0e9664db5b6ac2b62c34080a6"
     ],
-    "main_board_video_tasks": 507,
-    "all_active_direct_verified_unlimited": true,
-    "active_credit_cost_each": 0,
-    "queue_known_task_ids_checked": 41,
-    "queue_known_task_ids_found": 41,
-    "unreconciled_queue_claims": 0,
-    "owner_tasks_open": 0,
-    "ready_sha": {
-      "queue": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
-      "task_map": "a25ec6123ac424c55c10c2abd43f91f795c5997cf9dbbec6b0c15f2c2d5d89a0",
-      "match_both": true,
-      "method": "independently computed SHA-256 in JS; abc known vector match"
-    },
-    "unmapped_new_active_task_id": "d775c7a483a44f13ba1704a1c418b208",
-    "robot_checked_at": "2026-11-12T12:40:30Z",
-    "robot_state": "capacity_full",
-    "last_bot_issue_evidence": "prior wake notifications; superseded by current account-wide scan",
-    "verified_at": "2026-11-12T13:16:16.458Z"
+    "readiness_sha_match": true,
+    "queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+    "task_map_sha256": "0e2edbf8e39e4afeb87034b0a6cf1b1cc07c17a742bffd172a7126fe6800f12c",
+    "current_queue_submitted_video_tasks_verified": 38,
+    "registered_image_tasks_verified": 3,
+    "registered_task_ids_verified": 41,
+    "nonterminal_claims": 0,
+    "owner_tasks_open": 0
   },
   "slots": {
     "capacity": 6,
@@ -75,19 +63,17 @@
     "run_ids": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0,
-    "reason": "6/6 physical video slots occupied, no metered polling allowed"
+    "confirmed_cost_usd": 0
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:201b6859-b53f-4889-aead-942d8011c13b",
-    "acquired_at": "2026-11-12T13:09:56.463Z",
-    "expires_at": "2026-11-12T13:29:56.463Z",
-    "acquired_commit": "171f05f9ac50608519dcc12e1fd1593c3001f310",
+    "holder": "chatgpt:ordinary:210c91dc-6023-493e-a442-db065be642e8",
+    "acquired_at": "2026-11-12T17:00:22.720Z",
+    "expires_at": "2026-11-12T17:15:22.720Z",
+    "acquired_commit": "92d743fad9251487badda89fa070763bd111f520",
     "released": true,
-    "released_at": "2026-11-12T13:16:16.458Z",
-    "release_method": "same atomic CAS commit as final receipt",
-    "release_timestamp_note": "Timestamp captured immediately before preparing the atomic branch update; commit/readback occurs afterward"
+    "release_recorded_at": "2026-11-12T17:09:12.598Z",
+    "release_commit": "same_commit_as_final_receipt"
   },
   "outcome": "no_free_slot",
   "blocker": null,
@@ -99,18 +85,14 @@
     "topview_task_id_verified_for_this_run": false,
     "end_to_end_background_submission_verified": false
   },
-  "peer_reconciliation": {
-    "ordinary_last_run_id": "e2da80aa-8080-832f-8d95-7636c48bd0a2",
-    "ordinary_latest_result_run_id": null,
-    "ordinary_result_is_current": false,
-    "work_HH55": "enabled, last run 2026-11-12T12:55:00Z no_update; not evidence of Work GUI",
-    "work_relay": "enabled, last run 2026-11-12T10:58:16Z no_update"
-  },
+  "source_head": "46ed4168a31eb1dadfd72ca7034a4841aa1bbfdf",
+  "completed_at": "2026-11-12T17:09:12.598Z",
   "notes": [
-    "6/6 live physical tasks; no new Create, no TinyFish cost.",
-    "Existing unmapped d775c7a4 task remains active; never re-submit based on missing attribution.",
-    "Existing S49B and S51G canonical input attribution discrepancies are unresolved, no repeats.",
-    "Preferred executor remains work in registry; no new verified GUI/quota evidence, route_generation=3 unchanged.",
-    "No next_action or checkpoint modification on no-op."
+    "No new Create or paid TinyFish: six physical video slots occupied; no owner tasks open, and no submitting/unknown claim.",
+    "All six current active tasks directly confirmed: My First Board, Seedance 2.0, 15s, 720p, 16:9, Unlimited true, creditsCost 0.",
+    "Current d775c7a4... remains unmapped in robot task map; it is already a real active task, so do not resubmit.",
+    "S49B and S51G unresolved canonical source attribution remains unchanged; no repeat Create.",
+    "Latest issue 600 observed free slot at 2026-11-12T10:51:00Z is stale relative to fresh 17:01 UTC full scan. Robot checkpoint/monitor currently also reports 6/6.",
+    "HH:55 no_update and Relay no_update are not taken as evidence of current launch, acceptance or slot capacity. No recovery/next_action edits. Work restored_verified in registry is historical and not fresh GUI/quota proof."
   ]
 }
