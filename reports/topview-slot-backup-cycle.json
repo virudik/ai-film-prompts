@@ -12,28 +12,63 @@
   "runtime_run_id_source": "Automations.peek last_run.id in_progress scheduled 2026-11-12T10:00:00Z",
   "runtime_run_id_unavailable_reason": null,
   "source_head_started": "e226cd39cdf26ca9d61c603118795161b89bdabc",
-  "source_head": "05af49511e9cf21223160c966e2479f64c447e27",
+  "source_head": "3b8840820ac74fe0cc1e2969ec93ec343f3eaffd",
   "route_generation": 3,
   "started_at": "2026-11-12T10:02:54.844Z",
-  "checked_at": "2026-11-12T10:03:39.903Z",
-  "phase": "started",
-  "status": "in_progress",
+  "checked_at": "2026-11-12T10:08:34.217Z",
+  "phase": "finished",
+  "status": "blocked_browser_input",
   "scan": {
-    "complete": false,
-    "scope": "Independent full Topview account read-only scan in progress",
-    "boards": null,
-    "pages": null,
-    "video_tasks": null
+    "complete": true,
+    "scope": "Topview read-only list_board_tasks(mediaType=video) across all 14 boards, 14 first-page requests + 5 additional My First Board pages; 673 unique video tasks; all active tasks direct get_board_task; main board rechecked all 6 pages",
+    "boards": 14,
+    "pages": 19,
+    "all_board_items": null,
+    "video_tasks": 673,
+    "unique_task_ids": 673,
+    "status_counts": {
+      "success": 641,
+      "fail": 27,
+      "init": 5
+    },
+    "verified_at": "2026-11-12T10:05:50.969Z",
+    "main_board_video_tasks": 506,
+    "registered_task_ids": 41,
+    "registered_found": 41,
+    "task_map_ids": 138,
+    "task_map_ids_found": 138,
+    "unreconciled_claims": 0,
+    "ready_sha": {
+      "queue": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+      "task_map": "1dbf2f47420651879ece528e7e458842e6de477bb337024c5ca595c2c39e74fb",
+      "match_both": true,
+      "method": "Independent JS SHA-256 UTF-8 (abc vector validated)"
+    },
+    "owner_tasks_open": 0,
+    "active_task_ids": [
+      "8c6d92662d1043c7a651168b2b8280ae",
+      "1dcb6fa0628d41b098227ca6c96f1630",
+      "a1330998d39b486e864ed4e22b4fe8c4",
+      "3a09108c8c474a0989118806b4a69f91",
+      "be627af0e9664db5b6ac2b62c34080a6"
+    ],
+    "all_active_verified_unlimited0": true,
+    "robot_checked_at": "2026-11-12T09:40:28Z",
+    "bot_issue": 597,
+    "launcher_health": "launch_stalled/episode c8bf02e8, bot telemetry; not proof of a Create",
+    "became_success_task": "8bdd6439dad94592979aba23c137b4a0"
   },
   "slots": {
     "capacity": 6,
-    "occupied": null,
-    "free": null
+    "occupied": 5,
+    "free": 1,
+    "all_active_verified_unlimited": true,
+    "all_active_verified_credits_cost": 0
   },
-  "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
-  "selected_item": null,
+  "scan_complete": true,
+  "occupied_slots": 5,
+  "free_slots": 1,
+  "selected_item": "S62-SEED20-P1-R2-20261108",
   "task_ids": [],
   "new_submissions": 0,
   "browser_transport": "not_used",
@@ -44,7 +79,7 @@
     "steps": 0,
     "estimated_cost_usd": 0,
     "confirmed_cost_usd": 0,
-    "reason": "no paid runs before full read-only readiness and native-UI gate"
+    "reason": "Existing unresolved original-file import/Unlimited0 preflight blocker; no new evidence to justify metered repeat; restored Work preferred in registry"
   },
   "topview_credits_spent": 0,
   "lease": {
@@ -52,21 +87,33 @@
     "acquired_at": "2026-11-12T10:02:54.844Z",
     "expires_at": "2026-11-12T10:17:54.844Z",
     "acquired_commit": "05af49511e9cf21223160c966e2479f64c447e27",
-    "released": false,
-    "released_at": null
+    "released": true,
+    "released_at": "2026-11-12T10:08:34.217Z",
+    "release_method": "same CAS commit as final receipt"
   },
-  "outcome": "in_progress",
-  "blocker": null,
-  "retryable": null,
+  "outcome": "blocked_browser_input",
+  "blocker": {
+    "category": "blocked_browser_input",
+    "item_id": "S62-SEED20-P1-R2-20261108",
+    "priority": 0.4,
+    "why": "One physical video slot is free; first live-priority ready entry requires one exact 3-second @Video1 clip plus six original image files. No verified native Topview UI file import and Unlimited0 preflight through the saved TinyFish profile. Same existing TinyFish browser-input blocker has no new resolving evidence; paid identical test forbidden. Work is preferred in current registry with restored_verified historical evidence; no newly proven Work-unavailable condition authorizing metered fallback.",
+    "evidence": "ops/slot-backup.json:tinyfish_fallback.latest_blocker (2026-11-06T18:08:08Z); current fresh scene62 queue/ref trim provenance; role/work_capacity",
+    "unblock": "Verified native upload of canonical @Video1 + exact @Image1-6 and live selected Unlimited0, plus valid transport/route/lease/claim/intent; independently check any new Work-unavailable evidence.",
+    "repeat_paid_check_allowed_without_new_evidence": false,
+    "create_attempted": false
+  },
+  "retryable": false,
   "acceptance": {
     "hourly_execution_verified": true,
     "scheduled_runtime_run_id_verified": true,
+    "tinyfish_signin_and_reversible_clicks_verified_historically": true,
     "tinyfish_ui_used_this_run": false,
     "tinyfish_file_upload_verified": false,
     "tinyfish_unlimited_zero_preflight_verified": false,
     "topview_task_id_from_this_cycle_verified": false,
-    "production_submission_verified": false
+    "production_submission_verified": false,
+    "overall_state": "free_slot_without_safe_UI_preflight_no_create"
   },
-  "notes": "Current cycle active; no Create. Last completed cycle's report superseded by this started record.",
-  "completed_at": null
+  "notes": "Live physical capacity changed 6/6 to 5/6 after 8bdd6439dad94592979aba23c137b4a0 succeeded (technical success, not owner acceptance). Only read-only Topview/GitHub; 0 new Create/paid runs. All 41 submitted queue IDs + 138 task-map IDs found. No pending claims. Existing S49B and S51G exact input reconciliation warnings not overridden. Bot issue #597 not acknowledged as Relay webhook; monitor telemetry unchanged. Current registry already preferred_executor=work, route_generation=3; no change. No checkpoint/next_action writes.",
+  "completed_at": "2026-11-12T10:08:34.217Z"
 }
