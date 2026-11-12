@@ -5,111 +5,58 @@
   "runner": "chatgpt:ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
   "automationID": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "4e38da2c-f2b6-4e4a-87d7-d1d971022bb8",
-  "holder": "chatgpt:ordinary:4e38da2c-f2b6-4e4a-87d7-d1d971022bb8",
-  "run_id": "472f479c-3720-8324-9812-1eb6f8c80a94",
-  "runtime_run_id": "472f479c-3720-8324-9812-1eb6f8c80a94",
-  "runtime_run_id_source": "Automations.peek last_run.id, scheduled_for 2026-11-12T12:00:00Z",
+  "execution_instance_id": "201b6859-b53f-4889-aead-942d8011c13b",
+  "holder": "chatgpt:ordinary:201b6859-b53f-4889-aead-942d8011c13b",
+  "run_id": "e2da80aa-8080-832f-8d95-7636c48bd0a2",
+  "runtime_run_id": "e2da80aa-8080-832f-8d95-7636c48bd0a2",
+  "runtime_run_id_source": "Automations.peek last_run.id scheduled_for 2026-11-12T13:00:00Z",
   "runtime_run_id_unavailable_reason": null,
-  "source_head_started": "fb69d0bda0bf5dda2a201e398d5131c53e244b9d",
-  "source_head": "06248d9a09b070970ac831dfdd40d09dc9864320",
+  "source_head_started": "171f05f9ac50608519dcc12e1fd1593c3001f310",
+  "source_head": "171f05f9ac50608519dcc12e1fd1593c3001f310",
   "route_generation": 3,
-  "started_at": "2026-11-12T12:08:08.432Z",
-  "checked_at": "2026-11-12T12:12:11.313Z",
-  "phase": "finished",
-  "status": "no_free_slot",
+  "started_at": "2026-11-12T13:09:56.463Z",
+  "checked_at": null,
+  "phase": "started",
+  "status": "in_progress",
   "scan": {
-    "complete": true,
-    "scope": "Topview read-only list_boards(mode=all), list_board_tasks(mediaType=video) across all 14 boards; 19 page requests including 6 My First Board pages; six init tasks individually checked via get_board_task",
-    "boards": 14,
-    "pages": 19,
-    "video_tasks": 674,
-    "unique_task_ids": 674,
-    "status_counts": {
-      "success": 641,
-      "fail": 27,
-      "init": 6
-    },
-    "active_task_ids": [
-      "d775c7a483a44f13ba1704a1c418b208",
-      "8c6d92662d1043c7a651168b2b8280ae",
-      "1dcb6fa0628d41b098227ca6c96f1630",
-      "a1330998d39b486e864ed4e22b4fe8c4",
-      "3a09108c8c474a0989118806b4a69f91",
-      "be627af0e9664db5b6ac2b62c34080a6"
-    ],
-    "main_board_video_tasks": 507,
-    "unreconciled_queue_claims": 0,
-    "owner_tasks_open": 0,
-    "ready_sha": {
-      "queue": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
-      "task_map": "f386244a9feefc8087c25099dd291452c955d7a93bc431362dcdab26a221eba9",
-      "match_both": true,
-      "method": "independent pure-JavaScript SHA-256 verified against abc standard test vector"
-    },
-    "unmapped_new_active_task_id": "d775c7a483a44f13ba1704a1c418b208",
-    "robot_checked_at": "2026-11-12T12:00:34Z",
-    "robot_state": "capacity_full",
-    "last_bot_issue_evidence": "slot wake observed 2026-11-12T10:51:00Z, superseded by complete live scan",
-    "verified_at": "2026-11-12T12:12:11.313Z",
-    "all_active_direct_verified_unlimited": true,
-    "active_numeric_credit_cost_visible": true,
-    "active_credit_cost_each": 0,
-    "submission_ids_reconciliation": "No launch permitted due to 6/6; 86 historical queue task IDs (including 12 not in video processed map: older/moved/image tasks) not independently re-fetched this run; no claim all are live-verified."
+    "complete": false,
+    "scope": "account-wide Topview board video task scan in this run; summary pending"
   },
   "slots": {
     "capacity": 6,
-    "occupied": 6,
-    "free": 0
+    "occupied": null,
+    "free": null
   },
-  "scan_complete": true,
-  "occupied_slots": 6,
-  "free_slots": 0,
+  "scan_complete": false,
+  "occupied_slots": null,
+  "free_slots": null,
   "selected_item": null,
   "task_ids": [],
   "new_submissions": 0,
   "browser_transport": "not_used",
   "tinyfish": {
     "used": false,
-    "profile_id": "prof_0ac4618d0cf4456e",
     "run_ids": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0,
-    "reason": "6/6 physical video slots occupied; metered polling prohibited"
+    "confirmed_cost_usd": 0
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:4e38da2c-f2b6-4e4a-87d7-d1d971022bb8",
-    "acquired_at": "2026-11-12T12:08:08.432Z",
-    "expires_at": "2026-11-12T12:20:08.432Z",
-    "acquired_commit": "42e45e583c45aa02dfa2f640747147b1c5a3b3ae",
-    "released": true,
-    "released_at": "2026-11-12T12:12:11.313Z",
-    "release_method": "same CAS commit as final receipt"
+    "holder": "chatgpt:ordinary:201b6859-b53f-4889-aead-942d8011c13b",
+    "acquired_at": "2026-11-12T13:09:56.463Z",
+    "expires_at": "2026-11-12T13:29:56.463Z",
+    "acquired_commit": "171f05f9ac50608519dcc12e1fd1593c3001f310",
+    "released": false,
+    "released_at": null
   },
-  "outcome": "no_free_slot",
+  "outcome": "in_progress",
   "blocker": null,
   "retryable": false,
   "acceptance": {
     "scheduled_execution_observed": true,
-    "tinyfish_profile_signin_history_only": true,
     "current_tinyfish_login_control_file_upload_unlimited0_verified": false,
     "topview_task_id_verified_for_this_run": false,
     "end_to_end_background_submission_verified": false
-  },
-  "peer_reconciliation": {
-    "ordinary_last_run_id": "472f479c-3720-8324-9812-1eb6f8c80a94",
-    "ordinary_latest_result_run_id": "1e4fa1ce-53c4-832d-a490-817c014d6056",
-    "ordinary_result_is_current": false,
-    "work_HH55": "enabled, last run no_update (not launch evidence)",
-    "work_relay": "enabled, last run no_update"
-  },
-  "notes": [
-    "Current 6/6 capacity verified by live complete Topview account-wide scan; no Create attempted.",
-    "New unmapped active video task d775c7a483a44f13ba1704a1c418b208 remains unassigned in canonical map; do not repeat it.",
-    "Music/dance 28/49/50/51 need separate new owner consent by t369u; scene62 requires exact source/UI import/QC; no permission expansion.",
-    "S49B and S51G canonical attribution not repaired in this no-op; no queue or checkpoint mutation.",
-    "Automation schedule left enabled; route_generation 3 preserved."
-  ]
+  }
 }
