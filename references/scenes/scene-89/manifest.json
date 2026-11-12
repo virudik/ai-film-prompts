@@ -7,8 +7,8 @@
   "technical_success_is_editorial_approval": false,
   "mp4_in_git": false,
   "launch_queue": "not_added",
-  "images_status": "pending_owner_archive",
-  "open_for_more_clips": "Next council or cantina dialogue appends as 89J, 89K, … Jedi 1 / Jedi 2 names in old prompts are not a closed cast.",
+  "images_status": "filled_shared_files_two_plates_and_videos_on_drive",
+  "open_for_more_clips": "Next dialogue appends after 89J. 0bae7607 and 56ca95b2 are 89I and 89J.",
   "drive": {
     "root": {
       "name": "Серёгиус диалоги",
@@ -41,7 +41,7 @@
         "a7c9e3ba6ee044668582000d0a55f133"
       ],
       "relaunch_source_task": "a7c9e3ba6ee044668582000d0a55f133",
-      "prompt_status": "15s_and_30s_written_images_pending"
+      "prompt_status": "15s_and_30s_images_filled"
     },
     {
       "id": "89B",
@@ -52,7 +52,7 @@
         "6d69acda515e43b5b470fcabd49cc6e6"
       ],
       "relaunch_source_task": "6d69acda515e43b5b470fcabd49cc6e6",
-      "prompt_status": "15s_and_30s_written_images_pending"
+      "prompt_status": "15s_and_30s_images_filled"
     },
     {
       "id": "89C",
@@ -63,7 +63,7 @@
         "88140b9497d34ea284e0534bc1d62d6d"
       ],
       "relaunch_source_task": "88140b9497d34ea284e0534bc1d62d6d",
-      "prompt_status": "15s_and_30s_written_images_pending"
+      "prompt_status": "15s_and_30s_images_filled"
     },
     {
       "id": "89D",
@@ -74,7 +74,7 @@
         "5c322c84b87f484f95ef52273f6fbf69"
       ],
       "relaunch_source_task": "5c322c84b87f484f95ef52273f6fbf69",
-      "prompt_status": "15s_and_30s_written_images_pending"
+      "prompt_status": "15s_and_30s_images_filled"
     },
     {
       "id": "89E",
@@ -83,7 +83,7 @@
       "slots": 3,
       "source_tasks": [],
       "relaunch_source_task": "76fab545",
-      "prompt_status": "15s_and_30s_written_images_pending"
+      "prompt_status": "15s_and_30s_images_filled"
     },
     {
       "id": "89F",
@@ -96,7 +96,7 @@
         "87557bca9757445fae97ebbd9ecfa317"
       ],
       "relaunch_source_task": "87557bca9757445fae97ebbd9ecfa317",
-      "prompt_status": "15s_and_30s_written_images_pending"
+      "prompt_status": "15s_and_30s_images_filled"
     },
     {
       "id": "89G",
@@ -112,7 +112,7 @@
         "60e7479a15e44ea696ccadfcdc43b40a"
       ],
       "relaunch_source_task": "60e7479a15e44ea696ccadfcdc43b40a",
-      "prompt_status": "15s_and_30s_written_images_pending"
+      "prompt_status": "15s_and_30s_images_filled"
     },
     {
       "id": "89H",
@@ -123,14 +123,31 @@
         "b5ce79713d374cb7987eb16e5a53cd1d"
       ],
       "relaunch_source_task": "b5ce79713d374cb7987eb16e5a53cd1d",
-      "prompt_status": "15s_and_30s_written_images_pending"
+      "prompt_status": "15s_and_30s_images_filled"
     },
     {
       "id": "89I",
-      "title": "Кантина — другие диалоги Илюши и Артёма",
+      "title": "Кантина — стойка, Республика и Империя",
       "group": "cantina",
-      "prompt_status": "placeholder_no_prompt",
-      "note": "Только немые Seedance-ролики кантины, кроме речевого b5ce7971."
+      "prompt_status": "15s_and_30s_images_shared",
+      "note": "Только немые Seedance-ролики кантины, кроме речевого b5ce7971.",
+      "source_tasks": [
+        "0bae7607462244fa815f23c1973c4e94"
+      ]
+    },
+    {
+      "id": "89J",
+      "title": "Кантина — угловой столик, TIE и штурмовики",
+      "group": "cantina",
+      "slots": 4,
+      "source_tasks": [
+        "56ca95b2e70042dfb7b199621e64f3ee"
+      ],
+      "prompt_status": "15s_and_30s_images_shared"
     }
-  ]
+  ],
+  "notion": {
+    "council": "https://app.notion.com/p/359fe763776280d38344c2442435ee6d",
+    "cantina": "https://app.notion.com/p/359fe76377628013bcace46acade49e1"
+  }
 }

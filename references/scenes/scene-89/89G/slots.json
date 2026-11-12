@@ -1,22 +1,17 @@
 {
   "subscene": "89G",
-  "images_status": "pending_archive",
+  "images_status": "filled",
   "durations_s": [
     15,
     30
   ],
   "same_image_order_for_both_durations": true,
-  "model_15s": "Seedance 2.0",
-  "mode_15s": "omni_reference",
-  "model_30s": "Wan 3.0 / Seedance 2.5",
-  "mode_30s": "omni_reference",
-  "video_launch_approval": false,
   "slots": [
     {
       "slot": "@Image1",
-      "path": "references/scenes/scene-89/89G/Image1.png",
-      "role": "circular night office, panoramic windows, blue displays, throne chair.",
-      "status": "pending_images",
+      "path": "references/scenes/scene-89/shared/holo-office.jpg",
+      "role": "circular night office. Original slot Image1 of 1a40a6f4. Same bytes as the hologram office (was <<<Image3>>> there).",
+      "status": "available",
       "shared_by_durations_s": [
         15,
         30
@@ -24,9 +19,9 @@
     },
     {
       "slot": "@Image2",
-      "path": "references/scenes/scene-89/89G/Image2.png",
-      "role": "the seated bald pale man in dark purple Sith robes. He listens. His back may be toward camera.",
-      "status": "pending_images",
+      "path": "references/scenes/scene-89/shared/holo-man.jpg",
+      "role": "seated bald man. Original slot Image2. Same bytes as the hologram man.",
+      "status": "available",
       "shared_by_durations_s": [
         15,
         30
@@ -34,9 +29,9 @@
     },
     {
       "slot": "@Image3",
-      "path": "references/scenes/scene-89/89G/Image3.png",
-      "role": "the woman hologram, upper body, black armour, long dark-brown hair, blue and semi-transparent.",
-      "status": "pending_images",
+      "path": "references/scenes/scene-89/shared/holo-woman.jpg",
+      "role": "woman hologram. Original slot Image3. Same bytes as the hologram woman.",
+      "status": "available",
       "shared_by_durations_s": [
         15,
         30
@@ -45,8 +40,8 @@
     {
       "slot": "@Image4",
       "path": "references/scenes/scene-89/89G/Image4.png",
-      "role": "over-the-shoulder framing: camera behind the man's left shoulder, hologram centred.",
-      "status": "pending_images",
+      "role": "over-the-shoulder framing of the same two. Original slot Image4.",
+      "status": "available",
       "shared_by_durations_s": [
         15,
         30
@@ -55,21 +50,13 @@
     {
       "slot": "@Image5",
       "path": "references/scenes/scene-89/89G/Image5.png",
-      "role": "tight close-up of her holographic face. Not a second woman.",
-      "status": "pending_images",
+      "role": "tight holographic face of the same woman. Original slot Image5.",
+      "status": "available",
       "shared_by_durations_s": [
         15,
         30
       ]
     }
   ],
-  "relaunch_source_task": "60e7479a15e44ea696ccadfcdc43b40a",
-  "source_tasks": [
-    "de3e86025faf437a8997b843050ea1c2",
-    "cdabfadc1c534b128b7303bbb4fdbb15",
-    "ef91bb1ef1224175a3b4f85208caba52",
-    "777f6108cae24101957223d236af67b7",
-    "1a40a6f4364c4618813b1f1d6caa5e92",
-    "60e7479a15e44ea696ccadfcdc43b40a"
-  ]
+  "video_launch_approval": false
 }

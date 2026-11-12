@@ -1,1 +1,1 @@
-2026-11-12T12:45:00Z Scene 89 «Диалоги на переделку»: register only, no Topview launch. SHA256 34e5966a315043cc01188c51496b186d1c7ea64be03d0dd9dc302c7de1c49582. Sync exact master -> validator -> project-status -> GitHub Pages.
+2026-11-12T12:55:00Z Scene 89 references filled, no Topview launch. SHA256 b8f26e8462387013ff286c7c204587106e1975db17200b13fcab72cf5a108f8e. Sync exact master -> validator -> project-status -> GitHub Pages.

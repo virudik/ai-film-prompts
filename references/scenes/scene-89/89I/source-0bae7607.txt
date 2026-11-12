@@ -1,0 +1,38 @@
+duration: 15 seconds
+resolution: 1920x1080, 24fps
+
+Use <<<Image1>>>  e1 as exact appearance reference for Jedi 1.
+Use <<<Image2>>>  2 as exact appearance reference for Jedi 2.
+Both faces must remain perfectly consistent
+throughout entire shot.
+
+Style: photorealistic cinematic CGI with realistic live-action feel.
+Inspired by Star Wars prequel trilogy cinematography.
+Color grade: warm dim interior lighting,
+amber tones, strong shadow contrast.
+Alien cantina jazz music, low volume.
+
+Camera: slow cinematic dolly,
+stable, no shaky cam, natural motion blur only.
+
+0-5 sec:
+Wide shot of cantina interior.
+Dim warm light. Smoke in the air.
+Various alien patrons in background out of focus.
+Jedi 1 and Jedi 2 seated side by side at the bar counter.
+Jedi robes, hoods down.
+Beer mugs on the counter in front of them.
+
+5-15 sec:
+Camera slowly pushes in toward the two Jedis at the bar.
+Jedi 1 face clearly matching @image1.
+Jedi 2 face clearly matching @image2.
+Both relaxed. Warm light on their faces.
+Alien bartender visible behind the counter.
+
+negative_prompt:
+camera shake, jitter, flicker,
+face distortion, identity drift,
+wrong face, generic face,
+bright modern interior, empty bar,
+cartoon look, watermark, text artifacts.

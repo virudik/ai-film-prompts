@@ -1,7 +1,11 @@
 {
-  "task_id": "de3e86025faf437a8997b843050ea1c2",
-  "role": "source_clip_images_only",
-  "used_by_relaunch_prompt": false,
-  "status": "pending_images",
-  "note": "Положить сюда картинки этой версии, когда придёт refs-manifest. В текст перезапуска они не входят."
+  "role": "same_five_files_as_1a40a6f4",
+  "used_by_relaunch_prompt": true,
+  "files": [
+    "references/scenes/scene-89/shared/holo-office.jpg",
+    "references/scenes/scene-89/shared/holo-man.jpg",
+    "references/scenes/scene-89/shared/holo-woman.jpg",
+    "references/scenes/scene-89/89G/Image4.png",
+    "references/scenes/scene-89/89G/Image5.png"
+  ]
 }

@@ -1,32 +1,29 @@
 {
   "subscene": "89A",
-  "images_status": "pending_archive",
+  "images_status": "filled",
   "durations_s": [
     15,
     30
   ],
   "same_image_order_for_both_durations": true,
-  "model_15s": "Seedance 2.0",
-  "mode_15s": "omni_reference",
-  "model_30s": "Wan 3.0 / Seedance 2.5",
-  "mode_30s": "omni_reference",
-  "video_launch_approval": false,
   "slots": [
     {
       "slot": "@Image1",
-      "path": "references/scenes/scene-89/89A/Image1.png",
-      "role": "primary plate: the council lounge, chairs, beer, light and positions. Not a face sheet.",
-      "status": "pending_images",
+      "path": "https://drive.google.com/file/d/1b3oDLTTIniwoCmLLm35XStUlh6mxq8Kd/view",
+      "role": "council plate from task a7c9e3ba, 2752×1536 PNG, 12687056 bytes, sha256 5d4278cbe789319165be27ff1e9a15a9f494e576b8c3a4830083b2064c9989ac. Not in git: larger than the repo's reference stills. Original slot Image1.",
+      "status": "drive_only_too_large",
       "shared_by_durations_s": [
         15,
         30
-      ]
+      ],
+      "sha256": "5d4278cbe789319165be27ff1e9a15a9f494e576b8c3a4830083b2064c9989ac",
+      "bytes": 12687056
     },
     {
       "slot": "@Image2",
-      "path": "references/scenes/scene-89/89A/Image2.png",
-      "role": "LEFT seated Jedi, identity and costume.",
-      "status": "pending_images",
+      "path": "references/scenes/scene-89/shared/jedi2-artem-scene.png",
+      "role": "ARTEM, Jedi 2, bearded, beige tunic. Original slot Image2. Shared file.",
+      "status": "available",
       "shared_by_durations_s": [
         15,
         30
@@ -34,17 +31,34 @@
     },
     {
       "slot": "@Image3",
-      "path": "references/scenes/scene-89/89A/Image3.png",
-      "role": "RIGHT seated Jedi, identity and costume.",
-      "status": "pending_images",
+      "path": "references/scenes/scene-89/shared/jedi1-ilyusha-scene.png",
+      "role": "ILYUSHA, Jedi 1, moustache, green tunic, dark-red cloak. Original slot Image3. Shared file.",
+      "status": "available",
+      "shared_by_durations_s": [
+        15,
+        30
+      ]
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/full/artem.jpg",
+      "role": "current face sheet of Artem. Identity only, not a new person and not a costume change.",
+      "status": "available",
+      "shared_by_durations_s": [
+        15,
+        30
+      ]
+    },
+    {
+      "slot": "@Image5",
+      "path": "references/full/ilyusha.jpg",
+      "role": "current face sheet of Ilyusha. Identity only.",
+      "status": "available",
       "shared_by_durations_s": [
         15,
         30
       ]
     }
   ],
-  "relaunch_source_task": "a7c9e3ba6ee044668582000d0a55f133",
-  "source_tasks": [
-    "a7c9e3ba6ee044668582000d0a55f133"
-  ]
+  "video_launch_approval": false
 }

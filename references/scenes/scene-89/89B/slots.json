@@ -1,50 +1,65 @@
 {
   "subscene": "89B",
-  "images_status": "pending_archive",
+  "images_status": "filled",
   "durations_s": [
     15,
     30
   ],
   "same_image_order_for_both_durations": true,
-  "model_15s": "Seedance 2.0",
-  "mode_15s": "omni_reference",
-  "model_30s": "Wan 3.0 / Seedance 2.5",
-  "mode_30s": "omni_reference",
-  "video_launch_approval": false,
   "slots": [
     {
       "slot": "@Image1",
-      "path": "references/scenes/scene-89/89B/Image1.png",
-      "role": "primary plate: the council lounge, chairs, beer, light and positions. Not a face sheet.",
-      "status": "pending_images",
+      "path": "references/scenes/scene-13/S13-Image1-topview-source.png",
+      "role": "council plate. Scene-13 provenance substitute for task 6d69acda Image1 (same s3 path as scene 13 task 73cf9e84; local PNG, original on S3 was JPEG).",
+      "status": "available",
       "shared_by_durations_s": [
         15,
         30
-      ]
+      ],
+      "provenance_substitute": "scene-13 task 73cf9e84"
     },
     {
       "slot": "@Image2",
-      "path": "references/scenes/scene-89/89B/Image2.png",
-      "role": "LEFT seated Jedi, identity and costume.",
-      "status": "pending_images",
+      "path": "references/scenes/scene-13/S13-Image2-topview-source.png",
+      "role": "VITALIK, black tunic, the speaker. Scene-13 provenance substitute for Image2.",
+      "status": "available",
+      "shared_by_durations_s": [
+        15,
+        30
+      ],
+      "provenance_substitute": "scene-13 task 73cf9e84"
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/scenes/scene-13/S13-Image3-topview-source.png",
+      "role": "LYOKHA, moustache, purple tunic, grey robe, the listener with the cat. Scene-13 provenance substitute for Image3.",
+      "status": "available",
+      "shared_by_durations_s": [
+        15,
+        30
+      ],
+      "provenance_substitute": "scene-13 task 73cf9e84"
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/full/vitalik.jpg",
+      "role": "current face sheet of Vitalik. Identity only.",
+      "status": "available",
       "shared_by_durations_s": [
         15,
         30
       ]
     },
     {
-      "slot": "@Image3",
-      "path": "references/scenes/scene-89/89B/Image3.png",
-      "role": "RIGHT seated Jedi, identity and costume.",
-      "status": "pending_images",
+      "slot": "@Image5",
+      "path": "references/full/lesha.jpg",
+      "role": "current face sheet of Lyokha. Identity only.",
+      "status": "available",
       "shared_by_durations_s": [
         15,
         30
       ]
     }
   ],
-  "relaunch_source_task": "6d69acda515e43b5b470fcabd49cc6e6",
-  "source_tasks": [
-    "6d69acda515e43b5b470fcabd49cc6e6"
-  ]
+  "video_launch_approval": false
 }

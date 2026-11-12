@@ -1,32 +1,29 @@
 {
   "subscene": "89D",
-  "images_status": "pending_archive",
+  "images_status": "filled",
   "durations_s": [
     15,
     30
   ],
   "same_image_order_for_both_durations": true,
-  "model_15s": "Seedance 2.0",
-  "mode_15s": "omni_reference",
-  "model_30s": "Wan 3.0 / Seedance 2.5",
-  "mode_30s": "omni_reference",
-  "video_launch_approval": false,
   "slots": [
     {
       "slot": "@Image1",
-      "path": "references/scenes/scene-89/89D/Image1.png",
-      "role": "primary plate: the council lounge, chairs, beer, light and positions. Not a face sheet.",
-      "status": "pending_images",
+      "path": "https://drive.google.com/file/d/1tnUopP8035gpZn0C48b0vL8u78NW0Ack/view",
+      "role": "beer-and-snacks plate from task 5c322c84, 2752×1536 PNG, 12687056 bytes, sha256 833f95c2044d2cdc956a18b5188efb3cb8ebeee429da572f02fdbfac4c0852db. Not in git: larger than the repo's reference stills. Original slot Image1.",
+      "status": "drive_only_too_large",
       "shared_by_durations_s": [
         15,
         30
-      ]
+      ],
+      "sha256": "833f95c2044d2cdc956a18b5188efb3cb8ebeee429da572f02fdbfac4c0852db",
+      "bytes": 12687056
     },
     {
       "slot": "@Image2",
-      "path": "references/scenes/scene-89/89D/Image2.png",
-      "role": "LEFT seated Jedi, identity and costume.",
-      "status": "pending_images",
+      "path": "references/scenes/scene-89/shared/pasha-scene.png",
+      "role": "PASHA, clean-shaven, dark-blue tunic. Original slot Image2. Shared with 89E.",
+      "status": "available",
       "shared_by_durations_s": [
         15,
         30
@@ -34,17 +31,14 @@
     },
     {
       "slot": "@Image3",
-      "path": "references/scenes/scene-89/89D/Image3.png",
-      "role": "RIGHT seated Jedi, identity and costume.",
-      "status": "pending_images",
+      "path": "references/scenes/scene-89/shared/sasha-scene.png",
+      "role": "SASHA, beard, round glasses, cream tunic and maroon robe. Original slot Image3. Shared with 89E.",
+      "status": "available",
       "shared_by_durations_s": [
         15,
         30
       ]
     }
   ],
-  "relaunch_source_task": "5c322c84b87f484f95ef52273f6fbf69",
-  "source_tasks": [
-    "5c322c84b87f484f95ef52273f6fbf69"
-  ]
+  "video_launch_approval": false
 }
