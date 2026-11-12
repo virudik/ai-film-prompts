@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-11-08T17:46:57Z",
+  "updated_at": "2026-11-12T13:14:25Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -6482,6 +6482,763 @@
       "submitted_at": "2026-11-03T15:14:23Z",
       "verified_at": "2026-11-03T15:16:24.982Z",
       "receipt": "reports/topview-queue-2026-10-16/S56-SEED20-P2-20261103T151423Z.json"
+    },
+    {
+      "id": "S89A-WAN30",
+      "scene_id": 89,
+      "part": "89A",
+      "prompt_id": "S89A-WAN30",
+      "canonical_block_label": "89",
+      "canonical_prompt_sha256": "357829d4234a54a5d6a4d1fa89f7095d136585eb64f037e390774fb974f1d2a0",
+      "normalized_prompt_sha256": "503380bb45912f1436ffe058ca329715997ab2843b80afd7a230eace2deab583",
+      "priority": 0.301,
+      "state": "waiting_for_slot",
+      "launch_readiness": "authorized_inputs_available",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "credits_cost": 0,
+      "unlimited_mode_required": true,
+      "paid_fallback_forbidden": true,
+      "automatic_retry": false,
+      "retry_control": {
+        "policy_id": "owner-20261112-t592u-no-retry",
+        "max_retry_attempts": 0,
+        "retry_attempts_used": 0,
+        "note": "Owner t592u: one Create per part, no auto-retry. Technical retry budget of TOPVIEW-RETRY does not apply to these items."
+      },
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "required": true,
+          "input_status": "available",
+          "primary_storage": "google_drive",
+          "drive_file_id": "1b3oDLTTIniwoCmLLm35XStUlh6mxq8Kd",
+          "web_view_link": "https://drive.google.com/file/d/1b3oDLTTIniwoCmLLm35XStUlh6mxq8Kd/view",
+          "sha256": "5d4278cbe789319165be27ff1e9a15a9f494e576b8c3a4830083b2064c9989ac",
+          "bytes": 12687056,
+          "width": 2752,
+          "height": 1536,
+          "note": "Council plate a7c9e3ba Image1. Not in git (12.6 MB). Download this Drive file and verify sha256 before upload. Do not substitute a smaller preview."
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-89/shared/jedi2-artem-scene.png",
+          "required": true,
+          "input_status": "available",
+          "sha256": "bf99a0d68b6bf1f8795dc13b4662d5ce72c61a2d4e24490bfd4ddfc8c53760e4"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-89/shared/jedi1-ilyusha-scene.png",
+          "required": true,
+          "input_status": "available",
+          "sha256": "f308cb384704d43eb6f4db5bb9425d4ade6be930710e90d3fc4277d9995f07c4"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/full/artem.jpg",
+          "required": true,
+          "input_status": "available",
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/full/ilyusha.jpg",
+          "required": true,
+          "input_status": "available",
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b"
+        }
+      ],
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry. Not a paid 12-credit Wan path.",
+      "owner_source": "t593u",
+      "story_not_music": true,
+      "created_at": "2026-11-12T13:14:25Z"
+    },
+    {
+      "id": "S89B-WAN30",
+      "scene_id": 89,
+      "part": "89B",
+      "prompt_id": "S89B-WAN30",
+      "canonical_block_label": "89B · Wan 3.0",
+      "canonical_prompt_sha256": "981b37483976d06bceefbfc1a48b404dd354352d2a98b3436337190eb6792998",
+      "normalized_prompt_sha256": "819be4464fa3119384833cd5e8ef675186deb8a9b1b7b0952755b2ddf063ef20",
+      "priority": 0.302,
+      "state": "waiting_for_slot",
+      "launch_readiness": "authorized_inputs_available",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "credits_cost": 0,
+      "unlimited_mode_required": true,
+      "paid_fallback_forbidden": true,
+      "automatic_retry": false,
+      "retry_control": {
+        "policy_id": "owner-20261112-t592u-no-retry",
+        "max_retry_attempts": 0,
+        "retry_attempts_used": 0,
+        "note": "Owner t592u: one Create per part, no auto-retry. Technical retry budget of TOPVIEW-RETRY does not apply to these items."
+      },
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-13/S13-Image1-topview-source.png",
+          "required": true,
+          "input_status": "available",
+          "sha256": "7604d92708048afbb6bcfbdd23edb555ccc52cf7492f4be62085a394f36e0cda",
+          "provenance_substitute": "scene-13 task 73cf9e84",
+          "note": "Scene-13 provenance substitute for 6d69acda/88140b94. Same s3 path; local PNG may differ from the original JPEG on Image1."
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-13/S13-Image2-topview-source.png",
+          "required": true,
+          "input_status": "available",
+          "sha256": "e9b5613886641887dd222097eb32d0a702e5f46aa10fa4a69ebc66e37c257b97",
+          "provenance_substitute": "scene-13 task 73cf9e84",
+          "note": "Scene-13 provenance substitute for 6d69acda/88140b94. Same s3 path; local PNG may differ from the original JPEG on Image1."
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-13/S13-Image3-topview-source.png",
+          "required": true,
+          "input_status": "available",
+          "sha256": "b98957a9bf41db22403cbdcc6b8a6bc61537055e869a6a75576e416e4810635e",
+          "provenance_substitute": "scene-13 task 73cf9e84",
+          "note": "Scene-13 provenance substitute for 6d69acda/88140b94. Same s3 path; local PNG may differ from the original JPEG on Image1."
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/full/vitalik.jpg",
+          "required": true,
+          "input_status": "available",
+          "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/full/lesha.jpg",
+          "required": true,
+          "input_status": "available",
+          "sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9"
+        }
+      ],
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry. Not a paid 12-credit Wan path.",
+      "owner_source": "t593u",
+      "story_not_music": true,
+      "created_at": "2026-11-12T13:14:25Z"
+    },
+    {
+      "id": "S89C-WAN30",
+      "scene_id": 89,
+      "part": "89C",
+      "prompt_id": "S89C-WAN30",
+      "canonical_block_label": "89C · Wan 3.0",
+      "canonical_prompt_sha256": "dadffbca0dacdf9006b986289d55b92863b2ff1e59488737fc920fa837f486aa",
+      "normalized_prompt_sha256": "2d1ff747bd92959093590322b2b20e2a5305d18c6ea3282253505ce2c57a20ec",
+      "priority": 0.303,
+      "state": "waiting_for_slot",
+      "launch_readiness": "authorized_inputs_available",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "credits_cost": 0,
+      "unlimited_mode_required": true,
+      "paid_fallback_forbidden": true,
+      "automatic_retry": false,
+      "retry_control": {
+        "policy_id": "owner-20261112-t592u-no-retry",
+        "max_retry_attempts": 0,
+        "retry_attempts_used": 0,
+        "note": "Owner t592u: one Create per part, no auto-retry. Technical retry budget of TOPVIEW-RETRY does not apply to these items."
+      },
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-13/S13-Image1-topview-source.png",
+          "required": true,
+          "input_status": "available",
+          "sha256": "7604d92708048afbb6bcfbdd23edb555ccc52cf7492f4be62085a394f36e0cda",
+          "provenance_substitute": "scene-13 task 73cf9e84",
+          "note": "Scene-13 provenance substitute for 6d69acda/88140b94. Same s3 path; local PNG may differ from the original JPEG on Image1."
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-13/S13-Image2-topview-source.png",
+          "required": true,
+          "input_status": "available",
+          "sha256": "e9b5613886641887dd222097eb32d0a702e5f46aa10fa4a69ebc66e37c257b97",
+          "provenance_substitute": "scene-13 task 73cf9e84",
+          "note": "Scene-13 provenance substitute for 6d69acda/88140b94. Same s3 path; local PNG may differ from the original JPEG on Image1."
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-13/S13-Image3-topview-source.png",
+          "required": true,
+          "input_status": "available",
+          "sha256": "b98957a9bf41db22403cbdcc6b8a6bc61537055e869a6a75576e416e4810635e",
+          "provenance_substitute": "scene-13 task 73cf9e84",
+          "note": "Scene-13 provenance substitute for 6d69acda/88140b94. Same s3 path; local PNG may differ from the original JPEG on Image1."
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/full/vitalik.jpg",
+          "required": true,
+          "input_status": "available",
+          "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/full/lesha.jpg",
+          "required": true,
+          "input_status": "available",
+          "sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9"
+        }
+      ],
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry. Not a paid 12-credit Wan path.",
+      "owner_source": "t593u",
+      "story_not_music": true,
+      "created_at": "2026-11-12T13:14:25Z"
+    },
+    {
+      "id": "S89D-WAN30",
+      "scene_id": 89,
+      "part": "89D",
+      "prompt_id": "S89D-WAN30",
+      "canonical_block_label": "89D · Wan 3.0",
+      "canonical_prompt_sha256": "976ff82f2753464a926919bb5b30a7f5988cc4bb16119a908e9ac5952b184e70",
+      "normalized_prompt_sha256": "e66a746664db1fd8b8c9ce138f49483385d90225671e61584b69b378c7eea22d",
+      "priority": 0.304,
+      "state": "waiting_for_slot",
+      "launch_readiness": "authorized_inputs_available",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "credits_cost": 0,
+      "unlimited_mode_required": true,
+      "paid_fallback_forbidden": true,
+      "automatic_retry": false,
+      "retry_control": {
+        "policy_id": "owner-20261112-t592u-no-retry",
+        "max_retry_attempts": 0,
+        "retry_attempts_used": 0,
+        "note": "Owner t592u: one Create per part, no auto-retry. Technical retry budget of TOPVIEW-RETRY does not apply to these items."
+      },
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "required": true,
+          "input_status": "available",
+          "primary_storage": "google_drive",
+          "drive_file_id": "1tnUopP8035gpZn0C48b0vL8u78NW0Ack",
+          "web_view_link": "https://drive.google.com/file/d/1tnUopP8035gpZn0C48b0vL8u78NW0Ack/view",
+          "sha256": "833f95c2044d2cdc956a18b5188efb3cb8ebeee429da572f02fdbfac4c0852db",
+          "bytes": 12687056,
+          "width": 2752,
+          "height": 1536,
+          "note": "Beer-and-snacks plate 5c322c84 Image1. Not in git (12.6 MB). Download this Drive file and verify sha256 before upload."
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-89/shared/pasha-scene.png",
+          "required": true,
+          "input_status": "available",
+          "sha256": "58ecb37480403078851d3907cd426f8d9534282ea5e33635583b6d6a60635bf9"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-89/shared/sasha-scene.png",
+          "required": true,
+          "input_status": "available",
+          "sha256": "5dd419b95d18c94d37629ad1a1f4c3d857644e15cfdfca422a55285752839e4a"
+        }
+      ],
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry. Not a paid 12-credit Wan path.",
+      "owner_source": "t593u",
+      "story_not_music": true,
+      "created_at": "2026-11-12T13:14:25Z"
+    },
+    {
+      "id": "S89E-WAN30",
+      "scene_id": 89,
+      "part": "89E",
+      "prompt_id": "S89E-WAN30",
+      "canonical_block_label": "89E · Wan 3.0",
+      "canonical_prompt_sha256": "9b178c5bb300e1be40a95caf85824471a1e30717155dba32431f91e682de1e29",
+      "normalized_prompt_sha256": "6770b9f41544dd86c0ba21159b5f3996902d3230460c13049e55216408a99f8f",
+      "priority": 0.305,
+      "state": "waiting_for_slot",
+      "launch_readiness": "authorized_inputs_available",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "credits_cost": 0,
+      "unlimited_mode_required": true,
+      "paid_fallback_forbidden": true,
+      "automatic_retry": false,
+      "retry_control": {
+        "policy_id": "owner-20261112-t592u-no-retry",
+        "max_retry_attempts": 0,
+        "retry_attempts_used": 0,
+        "note": "Owner t592u: one Create per part, no auto-retry. Technical retry budget of TOPVIEW-RETRY does not apply to these items."
+      },
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-89/89E/Image1.jpg",
+          "required": true,
+          "input_status": "available",
+          "sha256": "13fc8daea2fd0c7828c47ff34bf24b8c49147cf22e5d490ea3b9030b45c2ccae"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-89/shared/pasha-scene.png",
+          "required": true,
+          "input_status": "available",
+          "sha256": "58ecb37480403078851d3907cd426f8d9534282ea5e33635583b6d6a60635bf9"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-89/shared/sasha-scene.png",
+          "required": true,
+          "input_status": "available",
+          "sha256": "5dd419b95d18c94d37629ad1a1f4c3d857644e15cfdfca422a55285752839e4a"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/full/pasha.jpg",
+          "required": true,
+          "input_status": "available",
+          "sha256": "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/full/sasha.jpg",
+          "required": true,
+          "input_status": "available",
+          "sha256": "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102"
+        }
+      ],
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry. Not a paid 12-credit Wan path.",
+      "owner_source": "t593u",
+      "story_not_music": true,
+      "created_at": "2026-11-12T13:14:25Z"
+    },
+    {
+      "id": "S89F-WAN30",
+      "scene_id": 89,
+      "part": "89F",
+      "prompt_id": "S89F-WAN30",
+      "canonical_block_label": "89F · Wan 3.0",
+      "canonical_prompt_sha256": "20ae3f0511dcf92b8820c37d3badce989d1fc1a87223ca48623f75744a09ec9c",
+      "normalized_prompt_sha256": "92efd089cc61b8d557448fe3f1e8ba95963d10dea9b0e5bd120ddc3031bda32f",
+      "priority": 0.306,
+      "state": "waiting_for_slot",
+      "launch_readiness": "authorized_inputs_available",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "credits_cost": 0,
+      "unlimited_mode_required": true,
+      "paid_fallback_forbidden": true,
+      "automatic_retry": false,
+      "retry_control": {
+        "policy_id": "owner-20261112-t592u-no-retry",
+        "max_retry_attempts": 0,
+        "retry_attempts_used": 0,
+        "note": "Owner t592u: one Create per part, no auto-retry. Technical retry budget of TOPVIEW-RETRY does not apply to these items."
+      },
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-89/shared/holo-man.jpg",
+          "required": true,
+          "input_status": "available",
+          "sha256": "b4a1307310e9c7c52a6f1d8b3157acaa4666daad281b305a119806511c6d2f42"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-89/shared/holo-office.jpg",
+          "required": true,
+          "input_status": "available",
+          "sha256": "aa8cded6f151278c5bc1a1823ea8ed04abcde819e93cd2dfc2b38b0b2ce48d54"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-89/shared/holo-woman.jpg",
+          "required": true,
+          "input_status": "available",
+          "sha256": "85ab20924887bd960cad1a4c3ae3089bc27b6b050d1bef5e63895c48c4604bc8"
+        }
+      ],
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry. Not a paid 12-credit Wan path.",
+      "owner_source": "t593u",
+      "story_not_music": true,
+      "created_at": "2026-11-12T13:14:25Z"
+    },
+    {
+      "id": "S89G-WAN30",
+      "scene_id": 89,
+      "part": "89G",
+      "prompt_id": "S89G-WAN30",
+      "canonical_block_label": "89G · Wan 3.0",
+      "canonical_prompt_sha256": "6ae53dc1ea8c1f171c844c556519e4a9f4517b8758ab75fc0e75324f9ef9f4d0",
+      "normalized_prompt_sha256": "e8529d2a22ea56c6eb0ec801f0e8a324604ad52a0aa4f725f89def3112a24638",
+      "priority": 0.307,
+      "state": "waiting_for_slot",
+      "launch_readiness": "authorized_inputs_available",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "credits_cost": 0,
+      "unlimited_mode_required": true,
+      "paid_fallback_forbidden": true,
+      "automatic_retry": false,
+      "retry_control": {
+        "policy_id": "owner-20261112-t592u-no-retry",
+        "max_retry_attempts": 0,
+        "retry_attempts_used": 0,
+        "note": "Owner t592u: one Create per part, no auto-retry. Technical retry budget of TOPVIEW-RETRY does not apply to these items."
+      },
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-89/shared/holo-office.jpg",
+          "required": true,
+          "input_status": "available",
+          "sha256": "aa8cded6f151278c5bc1a1823ea8ed04abcde819e93cd2dfc2b38b0b2ce48d54"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-89/shared/holo-man.jpg",
+          "required": true,
+          "input_status": "available",
+          "sha256": "b4a1307310e9c7c52a6f1d8b3157acaa4666daad281b305a119806511c6d2f42"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-89/shared/holo-woman.jpg",
+          "required": true,
+          "input_status": "available",
+          "sha256": "85ab20924887bd960cad1a4c3ae3089bc27b6b050d1bef5e63895c48c4604bc8"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-89/89G/Image4.png",
+          "required": true,
+          "input_status": "available",
+          "sha256": "c74268e8462336b7755e531af3d919db76fc19aaf3cc87c3280536d379f891a5"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-89/89G/Image5.png",
+          "required": true,
+          "input_status": "available",
+          "sha256": "98fdf155237351540d361ddcf91fab803836759708624165695f4b8d1096a971"
+        }
+      ],
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry. Not a paid 12-credit Wan path.",
+      "owner_source": "t593u",
+      "story_not_music": true,
+      "created_at": "2026-11-12T13:14:25Z"
+    },
+    {
+      "id": "S89H-WAN30",
+      "scene_id": 89,
+      "part": "89H",
+      "prompt_id": "S89H-WAN30",
+      "canonical_block_label": "89H · Wan 3.0",
+      "canonical_prompt_sha256": "f3b7711b9f8d1b29c7252a059ddc2bce5577950e00a7df9887792fa376bb066e",
+      "normalized_prompt_sha256": "812d2167ae0fa499caf93e125c4f4f47071ee511b5252b084402d95e962c5646",
+      "priority": 0.308,
+      "state": "waiting_for_slot",
+      "launch_readiness": "authorized_inputs_available",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "credits_cost": 0,
+      "unlimited_mode_required": true,
+      "paid_fallback_forbidden": true,
+      "automatic_retry": false,
+      "retry_control": {
+        "policy_id": "owner-20261112-t592u-no-retry",
+        "max_retry_attempts": 0,
+        "retry_attempts_used": 0,
+        "note": "Owner t592u: one Create per part, no auto-retry. Technical retry budget of TOPVIEW-RETRY does not apply to these items."
+      },
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-89/shared/jedi2-artem-scene.png",
+          "required": true,
+          "input_status": "available",
+          "sha256": "bf99a0d68b6bf1f8795dc13b4662d5ce72c61a2d4e24490bfd4ddfc8c53760e4"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-89/shared/jedi1-ilyusha-scene.png",
+          "required": true,
+          "input_status": "available",
+          "sha256": "f308cb384704d43eb6f4db5bb9425d4ade6be930710e90d3fc4277d9995f07c4"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-89/89H/Image3.png",
+          "required": true,
+          "input_status": "available",
+          "sha256": "110f04b05d95d236e765ae700cec0a780e6df1945bad89252ab11e06a62b8146",
+          "low_res": true,
+          "actual_format": "jpeg",
+          "width": 406,
+          "height": 408,
+          "note": "406x408 JPEG preview stored as .png. Card shape and orange lights only."
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/full/artem.jpg",
+          "required": true,
+          "input_status": "available",
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/full/ilyusha.jpg",
+          "required": true,
+          "input_status": "available",
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b"
+        }
+      ],
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry. Not a paid 12-credit Wan path.",
+      "owner_source": "t593u",
+      "story_not_music": true,
+      "created_at": "2026-11-12T13:14:25Z"
+    },
+    {
+      "id": "S89I-WAN30",
+      "scene_id": 89,
+      "part": "89I",
+      "prompt_id": "S89I-WAN30",
+      "canonical_block_label": "89I · Wan 3.0",
+      "canonical_prompt_sha256": "969bea0573a4aaaf0ba1f596a4ae4e8f069464efbf1febc14754bb8f60168f44",
+      "normalized_prompt_sha256": "88f3a4946da0df98c980f3f2a8413f12075e3a18f99e35f9854cd80d5ab54b45",
+      "priority": 0.309,
+      "state": "waiting_for_slot",
+      "launch_readiness": "authorized_inputs_available",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "credits_cost": 0,
+      "unlimited_mode_required": true,
+      "paid_fallback_forbidden": true,
+      "automatic_retry": false,
+      "retry_control": {
+        "policy_id": "owner-20261112-t592u-no-retry",
+        "max_retry_attempts": 0,
+        "retry_attempts_used": 0,
+        "note": "Owner t592u: one Create per part, no auto-retry. Technical retry budget of TOPVIEW-RETRY does not apply to these items."
+      },
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-89/shared/jedi1-ilyusha-scene.png",
+          "required": true,
+          "input_status": "available",
+          "sha256": "f308cb384704d43eb6f4db5bb9425d4ade6be930710e90d3fc4277d9995f07c4"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-89/shared/jedi2-artem-scene.png",
+          "required": true,
+          "input_status": "available",
+          "sha256": "bf99a0d68b6bf1f8795dc13b4662d5ce72c61a2d4e24490bfd4ddfc8c53760e4"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/ilyusha.jpg",
+          "required": true,
+          "input_status": "available",
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/full/artem.jpg",
+          "required": true,
+          "input_status": "available",
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba"
+        }
+      ],
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry. Not a paid 12-credit Wan path.",
+      "owner_source": "t593u",
+      "story_not_music": true,
+      "created_at": "2026-11-12T13:14:25Z"
+    },
+    {
+      "id": "S89J-WAN30",
+      "scene_id": 89,
+      "part": "89J",
+      "prompt_id": "S89J-WAN30",
+      "canonical_block_label": "89J · Wan 3.0",
+      "canonical_prompt_sha256": "c1d585532c0b8e4bbe05d2125c138159c5891609826fb5c9bef95a024c788454",
+      "normalized_prompt_sha256": "d4fa2bccbfd08779ddda220d2fe51b8e068292c478533993ea550a9cebc7ec9a",
+      "priority": 0.31,
+      "state": "waiting_for_slot",
+      "launch_readiness": "authorized_inputs_available",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "credits_cost": 0,
+      "unlimited_mode_required": true,
+      "paid_fallback_forbidden": true,
+      "automatic_retry": false,
+      "retry_control": {
+        "policy_id": "owner-20261112-t592u-no-retry",
+        "max_retry_attempts": 0,
+        "retry_attempts_used": 0,
+        "note": "Owner t592u: one Create per part, no auto-retry. Technical retry budget of TOPVIEW-RETRY does not apply to these items."
+      },
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-89/shared/jedi1-ilyusha-scene.png",
+          "required": true,
+          "input_status": "available",
+          "sha256": "f308cb384704d43eb6f4db5bb9425d4ade6be930710e90d3fc4277d9995f07c4"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-89/shared/jedi2-artem-scene.png",
+          "required": true,
+          "input_status": "available",
+          "sha256": "bf99a0d68b6bf1f8795dc13b4662d5ce72c61a2d4e24490bfd4ddfc8c53760e4"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/ilyusha.jpg",
+          "required": true,
+          "input_status": "available",
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/full/artem.jpg",
+          "required": true,
+          "input_status": "available",
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba"
+        }
+      ],
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry. Not a paid 12-credit Wan path.",
+      "owner_source": "t593u",
+      "story_not_music": true,
+      "created_at": "2026-11-12T13:14:25Z"
     }
   ],
   "already_submitted": {
@@ -7965,5 +8722,28 @@
       "S65-WAN30"
     ],
     "rule": "Each Wan link uses the previous part's exact final-frame PNG instead of its last-3s video. Upload that PNG as the last image slot after the existing images. Adapt the prompt the same way when the item becomes ready. Scene 66 must stay at or under 7870 characters. Do not edit 66, 67, 68, 69, 70 or 65 until that previous frame exists."
+  },
+  "owner_instruction_20261112_t593u": {
+    "at": "2026-11-12T13:14:25Z",
+    "source": "t591u t592u t593u",
+    "model": "Wan 3.0",
+    "duration_seconds": 30,
+    "credits": 0,
+    "unlimited": true,
+    "one_create": true,
+    "automatic_retry": false,
+    "order": [
+      "S89A-WAN30",
+      "S89B-WAN30",
+      "S89C-WAN30",
+      "S89D-WAN30",
+      "S89E-WAN30",
+      "S89F-WAN30",
+      "S89G-WAN30",
+      "S89H-WAN30",
+      "S89I-WAN30",
+      "S89J-WAN30"
+    ],
+    "placement": "Unlinked dialogue singles. t422u band 2, after the submitted Tatooine chain and before music/dance 28/49/50/51. Scene 62 stays on hold. Within 89: council 89A-89E, holograms 89F-89G, bartender 89H, cantina 89I-89J."
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+  "source_queue_sha256": "0c869c18077f909957f4cd265a91d628e20530125aa513e68a0850fcac48e356",
   "source_task_map_sha256": "a25ec6123ac424c55c10c2abd43f91f795c5997cf9dbbec6b0c15f2c2d5d89a0",
   "topview_checked_at": "2026-11-12T12:40:30Z",
   "items": [
@@ -183,8 +183,98 @@
       "ready": true,
       "text": "Готова по входам, ждёт свободный слот",
       "queue_state": "waiting_for_slot"
+    },
+    {
+      "id": "S89A-WAN30",
+      "scene_id": 89,
+      "part_label": "89",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
+      "id": "S89B-WAN30",
+      "scene_id": 89,
+      "part_label": "89B · Wan 3.0",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
+      "id": "S89C-WAN30",
+      "scene_id": 89,
+      "part_label": "89C · Wan 3.0",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
+      "id": "S89D-WAN30",
+      "scene_id": 89,
+      "part_label": "89D · Wan 3.0",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
+      "id": "S89E-WAN30",
+      "scene_id": 89,
+      "part_label": "89E · Wan 3.0",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
+      "id": "S89F-WAN30",
+      "scene_id": 89,
+      "part_label": "89F · Wan 3.0",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
+      "id": "S89G-WAN30",
+      "scene_id": 89,
+      "part_label": "89G · Wan 3.0",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
+      "id": "S89H-WAN30",
+      "scene_id": 89,
+      "part_label": "89H · Wan 3.0",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
+      "id": "S89I-WAN30",
+      "scene_id": 89,
+      "part_label": "89I · Wan 3.0",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
+      "id": "S89J-WAN30",
+      "scene_id": 89,
+      "part_label": "89J · Wan 3.0",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-12T12:40:38.453066Z"
+  "checked_at": "2026-11-12T13:14:26.124685Z"
 }
