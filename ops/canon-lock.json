@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": null,
-  "task": null,
-  "acquired_at": null,
-  "expires_at": null,
-  "released_at": "2026-11-12T18:09:49.751Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:21fc181f-45f6-4fc6-9ceb-59050c0d48ae",
+  "task": "Серёгиус: ordinary hourly Topview slot scan and receipt",
+  "acquired_at": "2026-11-12T19:03:26.455Z",
+  "expires_at": "2026-11-12T19:18:26.455Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
