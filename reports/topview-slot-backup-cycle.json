@@ -13,9 +13,9 @@
   "source_head_started": "8cbf2f3993fb3c19b3b704b8e241fa4cd9fe2cd5",
   "route_generation": 3,
   "started_at": "2026-11-12T17:58:38.896143Z",
-  "checked_at": "2026-11-12T18:07:09.044Z",
-  "phase": "started",
-  "status": "in_progress",
+  "checked_at": "2026-11-12T18:09:49.751Z",
+  "phase": "completed",
+  "status": "completed",
   "scan": {
     "complete": true,
     "scope": "Read-only Topview connector 14 boards / 19 video pages, 674 unique videos; My First Board all 731 media tasks / 8 pages; 41 submitted task IDs present; queue/task-map SHA256 independently matched current readiness.",
@@ -41,7 +41,12 @@
     "task_map_sha256": "7374beaf4d02957374288d79c9632d1613ea7a0d38ca2f9bc0c58ca779a61edf",
     "registered_task_ids_verified": 41,
     "nonterminal_claims": 0,
-    "owner_tasks_open": 0
+    "owner_tasks_open": 0,
+    "current_taskmap_unmapped_active": [
+      "d775c7a483a44f13ba1704a1c418b208"
+    ],
+    "active_tasks_individually_verified": true,
+    "active_settings": "6 init tasks: exact My First Board, Seedance 2.0, 15s, 720p, 16:9, useUnlimitMode=true, creditsCost=0"
   },
   "slots": {
     "capacity": 6,
@@ -69,9 +74,11 @@
     "acquired_at": "2026-11-12T18:05:58.344Z",
     "expires_at": "2026-11-12T18:20:58.344Z",
     "acquired_commit": "de58357c9fffe4b6684df9c6d21506eca9e0d75e",
-    "released": false
+    "released": true,
+    "release_recorded_at": "2026-11-12T18:09:49.751Z",
+    "release_commit": "same_commit_as_final_receipt"
   },
-  "outcome": "scanned_no_free_slot",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": false,
   "acceptance": {
@@ -81,9 +88,13 @@
     "topview_task_id_verified_for_this_run": false,
     "end_to_end_background_submission_verified": false
   },
-  "source_head": "de58357c9fffe4b6684df9c6d21506eca9e0d75e",
+  "source_head": "93198b16ccd06b10e4c42b54756631ae087ed120",
   "notes": [
-    "Six physical slots already occupied; no Create or metered TinyFish call.",
-    "New readiness snapshot source map SHA 7374be... matches actual topview-task-map.json."
-  ]
+    "No Create: full fresh 14-board/19-page scan has all six account-wide physical video slots occupied. Active tasks individually verified on My First Board in Seedance 2.0, 720p, 16:9, 15s, Unlimited true and creditsCost 0.",
+    "41 queued submitted task IDs found in board's full 731 media tasks; queue/task-map independently recalculated SHA-256 matched latest readiness. No claimed/submitting/submission_unknown entries. 0 open owner tasks.",
+    "Current task d775c7a4... is existing init and still unmapped in task-map; never retry it. Historical bot issue #600 free-slot observation at 10:51 UTC is stale compared with this scan.",
+    "Work preferred/restored_verified registry evidence is historical; no new Work GUI/quota proof. TinyFish paid UI not used at 6/6; file-import/Unlimited preflight not claimed. No checkpoint or next_action changes.",
+    "No queue/credits modifications; 0 new Topview tasks, 0 credits, 0 TinyFish expense."
+  ],
+  "completed_at": "2026-11-12T18:09:49.751Z"
 }
