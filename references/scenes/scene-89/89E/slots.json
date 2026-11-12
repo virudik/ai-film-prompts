@@ -1,0 +1,48 @@
+{
+  "subscene": "89E",
+  "images_status": "pending_archive",
+  "durations_s": [
+    15,
+    30
+  ],
+  "same_image_order_for_both_durations": true,
+  "model_15s": "Seedance 2.0",
+  "mode_15s": "omni_reference",
+  "model_30s": "Wan 3.0 / Seedance 2.5",
+  "mode_30s": "omni_reference",
+  "video_launch_approval": false,
+  "slots": [
+    {
+      "slot": "@Image1",
+      "path": "references/scenes/scene-89/89E/Image1.png",
+      "role": "Coruscant balcony: two armchairs, beer, evening city. Primary plate.",
+      "status": "pending_images",
+      "shared_by_durations_s": [
+        15,
+        30
+      ]
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/scenes/scene-89/89E/Image2.png",
+      "role": "PASHA, the clean-shaven Jedi in the dark-blue tunic. He is the only speaker.",
+      "status": "pending_images",
+      "shared_by_durations_s": [
+        15,
+        30
+      ]
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/scenes/scene-89/89E/Image3.png",
+      "role": "the other seated Jedi. Listener only. Do not assign him the spoken name Александрус.",
+      "status": "pending_images",
+      "shared_by_durations_s": [
+        15,
+        30
+      ]
+    }
+  ],
+  "relaunch_source_task": "76fab545",
+  "source_tasks": []
+}

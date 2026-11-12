@@ -1,0 +1,88 @@
+[SCENE — Совет джедаев, пиво и закуски]
+duration: 15 seconds
+resolution: 1920x1080, 24fps
+
+Use <<<Image1>>>   as primary reference —
+animate exactly this scene, bring it to life.
+Same composition, same characters, same positions,
+same environment, same lighting — everything preserved.
+
+Use <<<Image2>>>   as character reference for LEFT CHARACTER.
+Use <<<Image3>>>   as character reference for RIGHT CHARACTER.
+
+Style: photorealistic cinematic CGI with live-action feel.
+Same warm golden sunset lighting as <<<Image1>>>  .
+Same futuristic Coruscant city visible through tall windows behind.
+
+Camera: extremely slow smooth cinematic push in —
+barely perceptible forward movement toward the two characters.
+Stable inertia, no jitter, no shake.
+
+ANIMATE THESE ELEMENTS:
+
+LEFT CHARACTER — stocky man, short brown hair, blue Jedi robes,
+dark leather belt and boots, sitting in left council chair:
+Slowly raises the large beer mug toward his mouth —
+takes a slow confident sip.
+Foam visible on upper lip after drinking.
+Slight satisfied nod after the sip.
+Free hand rests relaxed on armrest, fingers tap once gently.
+Subtle smile at the corner of his mouth.
+
+RIGHT CHARACTER — heavier man, dark hair, full dark beard,
+round glasses, dark brown/maroon hooded Jedi robe,
+sitting in right council chair:
+Slowly raises his beer mug and takes a slow thoughtful sip.
+Other hand rests on knee or chin — pensively.
+Turns his head slightly toward left character
+as if saying something quietly.
+Glasses catch a glint of the warm sunset light.
+
+FOOD PLATE on small table between the chairs:
+Fries/sausages on the plate — static but with subtle
+heat shimmer rising gently above the food.
+Table stays perfectly still.
+
+BACKGROUND:
+City through the windows alive —
+flying vehicles moving slowly across the skyline in both directions.
+Warm golden sunset light shifts imperceptibly over 15 seconds —
+slightly deepening toward orange.
+Atmospheric haze drifts gently in the distance.
+Light rays through the tall windows move almost imperceptibly.
+
+0-5 sec:
+Scene exactly as <<<Image1>>>   — everything begins to animate.
+Left man begins slowly raising his beer mug.
+Right man shifts weight slightly in chair, settles in.
+City traffic begins moving in background.
+Warm light establishes itself.
+
+5-10 sec:
+Left man takes his sip — mug tilted up.
+Foam appears on his upper lip.
+Right man raises his mug in a slow mirror response.
+Both men in relaxed council-chair posture.
+Light deepens slightly warmer.
+More vehicles cross the skyline.
+
+10-15 sec:
+Both men hold their mugs contentedly.
+Left man wipes foam from lip with slight grin.
+Right man tilts head slightly as if making a remark.
+City glows warmer in the fading golden hour.
+Camera holds on this peaceful cinematic moment.
+Slow gentle exhale energy — total relaxation.
+
+negative_prompt:
+camera shake, jitter, flicker,
+characters moving dramatically or standing up,
+wrong faces, wrong costumes, extra characters,
+hookah appearing, cats appearing, aliens appearing,
+static city, characters merging or morphing,
+food plate disappearing, table moving,
+cartoon look, anime style,
+any watermark, any logo, any text on screen,
+corner overlays, bottom right graphics,
+diamond watermark, nano banana logo,
+text artifacts, subtitles.

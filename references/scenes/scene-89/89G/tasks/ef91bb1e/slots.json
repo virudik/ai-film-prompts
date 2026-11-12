@@ -1,0 +1,7 @@
+{
+  "task_id": "ef91bb1ef1224175a3b4f85208caba52",
+  "role": "source_clip_images_only",
+  "used_by_relaunch_prompt": false,
+  "status": "pending_images",
+  "note": "Положить сюда картинки этой версии, когда придёт refs-manifest. В текст перезапуска они не входят."
+}

@@ -6,18 +6,18 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**45 сцен к генерации/доработке · 243 полных текста промта**
+**46 сцен к генерации/доработке · 259 полных текста промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 24** сцены сейчас в медленной генерации: **16, 28, 42, 48, 49, 51, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 66, 67, 68, 69, 70, 71, 72, 73** — **5 активных Topview-задач / 5 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
-- **Последняя оформленная активная сцена:** 88 — Саша. Даже слишком красиво. Отдельная версия ChatGPT по прямой команде владельца 10.11: 4 имеющихся PNG + исходный лист Саши, 30 с и 2 × 15 с. DRAFT, без запуска видео; 87 сохранена. Ранее: 87 — Реклама: Саша, лучший фотограф. Пародии 74–80 обновлены 10.11 по команде t506u: кадры и промпты. 81–87 добавлены как DRAFT, номера оставлены. У 74 восемь подсцен 74A–H; основной кадр 75 — рыбалка на месяце, рыбка возвращена. Видео не запускались; очередь и монтажный порядок не менялись; это не одобрение роликов. 10.11 t540u: подсцены 76, 84, 85, 86 и история 81–83 внесены в промпты. 10.11 t550u: портреты Гузеевой, Сябитовой (анфас + вполоборота, одно лицо), Гослинга, Ди Каприо, Питта и отдельные кадры подсцен 76/84/85/86 подключены; в 81A Алексей отвечает Гузеевой «Я сам решу».
+- **Последняя оформленная активная сцена:** 89 — Диалоги на переделку. Пятнадцать старых речевых роликов Seedance (совет, голограммы, кантина) и заглушка 89I. У каждой найденной подсцены текст на 30 с и на 15 с, одни и те же Image1…N, картинок в git ещё нет. NEEDS_RERENDER, очередь не менялась. Ранее: 88 — Саша. Даже слишком красиво. Отдельная версия ChatGPT по прямой команде владельца 10.11: 4 имеющихся PNG + исходный лист Саши, 30 с и 2 × 15 с. DRAFT, без запуска видео; 87 сохранена. Ранее: 87 — Реклама: Саша, лучший фотограф. Пародии 74–80 обновлены 10.11 по команде t506u: кадры и промпты. 81–87 добавлены как DRAFT, номера оставлены. У 74 восемь подсцен 74A–H; основной кадр 75 — рыбалка на месяце, рыбка возвращена. Видео не запускались; очередь и монтажный порядок не менялись; это не одобрение роликов. 10.11 t540u: подсцены 76, 84, 85, 86 и история 81–83 внесены в промпты. 10.11 t550u: портреты Гузеевой, Сябитовой (анфас + вполоборота, одно лицо), Гослинга, Ди Каприо, Питта и отдельные кадры подсцен 76/84/85/86 подключены; в 81A Алексей отвечает Гузеевой «Я сам решу».
 - **История предыдущего оформления:** 73 — Виталик на троне перед титрами; титры — на существующем блоке 28; 71 после титров и перед трейлерами. Новых запусков нет. Прежде: 72 — пролог: Виталик на том же троне из кальянов в кантине Татуина: «Всем привет… Всем приятного просмотра. История-то понятная, житейская»; 71 — его финальное слово и объявление трейлеров. Обе в двух версиях: с заигрывающими инопланетянками по бокам (главная) и без (владелец 30.10; Wan3.0, 30 с; ждут три картинки от открытого чата ChatGPT Work). Прежняя запись: 70 — Татуин: непрерывный пролёт с улицы к столику Серёги в кантине. Связка 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65 использует настоящие последние3с предыдущего звена; вся уличная цепь и65/70 выбраны Wan3.0,30с,52P1–P6 остаются Seedance2.0. В67–69 одна и та же дыня и сумка;69 убирает оставленную Стичем кучу в лазерный совок. Новые сцены остаются DRAFT, видеостыки ожидаются; приоритет до49→50→51→28, ready-skip сохраняется. Никаких видео этой правкой не запущено.
 - **Ревизия Control Center:** дата определяется автоматически по содержательному изменению canonical master; чистая техническая пересинхронизация без изменения содержимого дату ревизии не меняет.
 - **Последняя полная синхронизация:** **12.11.2026 · текущая по live Topview/Drive сверке**. Точное техническое время свежей telemetry берётся из `topview-status.json.checked_at`.
 
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
-**Синхронизация контекста:** **12.11.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **45 актуальных сцен и 243 полных текста промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 43, 44, 45, 46, 47, 53, 54 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16, 28, 42, 48, 49, 51, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 66, 67, 68, 69, 70, 71, 72, 73**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **12.11.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **46 актуальных сцен и 259 полных текста промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 43, 44, 45, 46, 47, 53, 54 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16, 28, 42, 48, 49, 51, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 66, 67, 68, 69, 70, 71, 72, 73**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 **Новые промты 09.10.2026:** Scene 20 расширена вставками 12–13, добавлены Scenes 29–34 с полными production-промтами и имеющимися референсами: кантина (часть 3), три разрушительных боя, исследование руин и вход в храм. Это новые тексты для запуска, а не уже выполненные/одобренные Topview-результаты. Танцы Scene 28 и их неподтверждённые вспомогательные фото не менялись.
 
@@ -141,6 +141,7 @@
 | 86 | [Саша и Маша Ф: «Эх, распаковочка»](#scene-86) | Саша, Маша Ф; подсцены 86A–C | Открытие, ничтожная находка, восторг. Куплеты не зацикливать. DRAFT; видео не запускать. |
 | 87 | [Реклама: Саша, лучший фотограф](#scene-87) | Саша; три кадра одного ролика | Черновик рекламы лучшего фотографа. DRAFT; видео не запускать. |
 | 88 | [Саша. Даже слишком красиво](#scene-88) | Саша; четыре постановки одного ролика | Отдельная пафосно-комедийная реклама. Семья-династия, дождь, фото на пропуск. DRAFT; видео не запускать. |
+| 89 | [Диалоги на переделку](#scene-89) | исходные ролики на Диске; Image1…N ещё не в git | Пятнадцать плохих речевых роликов Seedance и заглушка 89I. У каждой найденной подсцены 30 с и 15 с на одни и те же картинки. NEEDS_RERENDER; видео не запускать. |
 
 ### 🎬 Татуинская связка — единый порядок сцепления и запуска
 
@@ -15380,3 +15381,1031 @@ Full 16:9 landscape edge-to-edge, including the rain and studio shots. No letter
 </div>
 
 </div>
+
+<a id="scene-89"></a>
+
+## Сцена 89 — Диалоги на переделку
+
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"NEEDS_RERENDER","duration_s":15,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["dialogue","needs_rerender","imported_topview_source","not_a_video_launch","seedance_omni","open_for_more_clips"]} -->
+
+**Статус:** NEEDS_RERENDER. Старые речевые ролики Seedance с доски «My First Board» вышли плохо и собраны сюда как материал переделки. Wan-диалоги сюда не входят: владелец оставил их как удачные. Генерация не запускалась. В `ops/topview-launch-queue.json` эта сцена не добавлялась.
+
+**Контекст использования:** не новая глава фильма, а полка плохих диалогов, которые предстоит переснять. Порядок внутри сцены — приоритет владельца: сначала совет, потом голограммы, потом кантина. Место в монтаже не назначалось. Старые промпты звали пару «jedi 1» (усы, часто зелёная туника) и «jedi 2» (борода). Поэтому совет и кантина могут ещё пополниться: следующий код после 89I, без перенумерации.
+
+**Что происходит:** пятнадцать найденных роликов и одна заглушка. У каждой найденной подсцены две вкладки, как у остальных сцен: 30 с (один текст Wan 3.0 / Seedance 2.5) и 15 с Seedance 2.0 omni. Обе ссылаются на один и тот же порядок @Image1…N. Картинок в git ещё нет: владелец пришлёт архив с `refs-manifest.json`. Пока пути только зарезервированы, запуск невозможен.
+
+**Ролики и промпты на Диске, не в git:** <a href="https://drive.google.com/drive/folders/139k4Xm00ThfViX2RYjdGaH3t163d9KMO" target="_blank" rel="noopener">«Серёгиус диалоги»</a> · <a href="https://drive.google.com/drive/folders/1KS4tj0U0JkmvAVcvbmkSPj2DquJff9Et" target="_blank" rel="noopener">01 Совет джедаев</a> · <a href="https://drive.google.com/drive/folders/1-B8jY_qb6p5JCcfTFG2wqFsoN4zDcyZA" target="_blank" rel="noopener">02 Голограммы</a> · <a href="https://drive.google.com/drive/folders/1oaALsV74uucWMhVDGMOHcW-M-hnPlbKL" target="_blank" rel="noopener">03 Кантина</a>. MP4 в репозиторий не класть.
+
+**Подсцены:** <a href="#scene-89A">89A</a> · <a href="#scene-89B">89B</a> · <a href="#scene-89C">89C</a> · <a href="#scene-89D">89D</a> · <a href="#scene-89E">89E</a> · <a href="#scene-89F">89F</a> · <a href="#scene-89G">89G</a> · <a href="#scene-89H">89H</a> · <a href="#scene-89I">89I</a>. 89I без промпта.
+
+Лёхиус в реплике 89B — имя в тексте; ближайшее имя реестра — Лёша (алиас Лёха), в промпт перезапуска подмена не внесена. Александрус в 89E в реестре алиасом не числится, лицом второго кресла его не назначать. Паша в 89E назван владельцем: чисто выбритый, тёмно-синяя туника.
+
+<a id="scene-89A"></a>
+
+### 89A · Совет джедаев — «Дорогие мои друзья… ситуация с канцлером Серёгиусом»
+
+**Статус подсцены:** NEEDS_RERENDER. Ролик вышел плохо, переделка позже. Новой генерации этой записью нет, в очередь запуска не ставилось.
+
+Левый джедай с кружкой пива говорит совету тёплую фразу и тут же спрашивает, что делать с канцлером Серёгиусом. Правый молчит.
+
+**Обе длительности, одни и те же картинки.** Вкладка «30 с · Wan 3.0 / Seedance 2.5» — один непрерывный дубль: завязка, развитие, удар реплики. Вкладка «Seedance 2.0 · 15 с» — та же сцена и тот же порядок @Image1…N, короче. Основной запуск переделки, когда владелец его разрешит, — 15 с Seedance 2.0, omni. Пока файлов картинок в репозитории нет.
+
+**Входы:** @Image1 — `references/scenes/scene-89/89A/Image1.png` — primary plate: the council lounge, chairs, beer, light and positions. Not a face sheet.; @Image2 — `references/scenes/scene-89/89A/Image2.png` — LEFT seated Jedi, identity and costume.; @Image3 — `references/scenes/scene-89/89A/Image3.png` — RIGHT seated Jedi, identity and costume.
+
+<div class="engine-tabs" data-scene="89">
+
+<div class="engine-pane" data-engine="wan30">
+
+#### 89A · Wan 3.0 / Seedance 2.5 · 30 с
+
+**Входы:** @Image1 — `references/scenes/scene-89/89A/Image1.png` — primary plate: the council lounge, chairs, beer, light and positions. Not a face sheet.; @Image2 — `references/scenes/scene-89/89A/Image2.png` — LEFT seated Jedi, identity and costume.; @Image3 — `references/scenes/scene-89/89A/Image3.png` — RIGHT seated Jedi, identity and costume.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal Jedi Council dialogue, one continuous 30-second take
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 = references/scenes/scene-89/89A/Image1.png — primary plate: the council lounge, chairs, beer, light and positions. Not a face sheet.
+@Image2 = references/scenes/scene-89/89A/Image2.png — LEFT seated Jedi, identity and costume.
+@Image3 = references/scenes/scene-89/89A/Image3.png — RIGHT seated Jedi, identity and costume.
+Order is fixed: @Image1, then @Image2, and so on. Both durations of this sub-scene use this same order and these same paths.
+Attached images are the only visual authority for this generation. If a sentence conflicts with the attached image, follow the image. Do not invent extra reference slots.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LEFT (@Image2): heavyset friendly man, medium-length light brown hair, short beard, beige layered Jedi tunic, brown outer robe, leather belt, tall brown boots. Beer mug stays in his right hand.
+RIGHT (@Image3): lean man, short brown hair, thin moustache, green inner Jedi robes, deep red outer cloak with the hood down, brown boots. Beer mug in his hand. He listens.
+Exactly two seated men. The cat and the hookah are not in this clip.
+Source clips call these seats LEFT and RIGHT, or jedi 1 / jedi 2. Do not rename them inside the shot.
+
+START STATE:
+Wide on the same lounge. Both are seated, mugs down or just lifted, the city moving behind them. Nobody has started the line.
+
+STORY FLOW:
+0–8s — SETUP. The lounge is alive: city traffic behind the glass, both men settle in the chairs, leather creaks, mugs catch the light. LEFT looks at RIGHT, then across the empty council, and draws a breath. No line yet.
+8–18s — DEVELOPMENT. LEFT, warm and a little theatrical: «Дорогие мои друзья. Я вас всех так люблю.» An open palm greets the room. His eyebrows lift. RIGHT watches him and does not speak.
+18–26s — The warmth breaks. A real pause. Then, lower: «но что же мы будем предпринимать».
+26–30s — PAYOFF. «по ситуации с канцлером Серёгиусом?» His head tips forward, the mug stays in the right hand, and he waits. RIGHT's mouth stays closed. The question is unanswered.
+
+END STATE:
+Same two men, the question just finished, city still moving. No new speaker and no toast.
+
+CAMERA / PERFORMANCE:
+One readable face for the speaker when a line is said. Motivated warm daylight from the windows. Bodies stay seated. Beer mugs stay solid objects in the hand that already holds them.
+
+AUDIO:
+Native Russian, no accent, lip-sync only on the assigned speaker. The other Jedi does not speak. Room tone, a faint city hush, glass and mug contact. No music.
+
+NEGATIVE:
+no extra people, no swapped faces, no duplicated hero, no child, no subtitles, no logos, no watermark, no lightsaber ignition, no cartoon, no collage, no freeze-frame slideshow.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20" data-main="1">
+
+#### 89A · Seedance 2.0 · 15 с
+
+**Входы:** @Image1 — `references/scenes/scene-89/89A/Image1.png` — primary plate: the council lounge, chairs, beer, light and positions. Not a face sheet.; @Image2 — `references/scenes/scene-89/89A/Image2.png` — LEFT seated Jedi, identity and costume.; @Image3 — `references/scenes/scene-89/89A/Image3.png` — RIGHT seated Jedi, identity and costume.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal Jedi Council dialogue, one continuous 15-second take
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 = references/scenes/scene-89/89A/Image1.png — primary plate: the council lounge, chairs, beer, light and positions. Not a face sheet.
+@Image2 = references/scenes/scene-89/89A/Image2.png — LEFT seated Jedi, identity and costume.
+@Image3 = references/scenes/scene-89/89A/Image3.png — RIGHT seated Jedi, identity and costume.
+Order is fixed: @Image1, then @Image2, and so on. Both durations of this sub-scene use this same order and these same paths.
+Attached images are the only visual authority for this generation. If a sentence conflicts with the attached image, follow the image. Do not invent extra reference slots.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LEFT (@Image2): heavyset friendly man, medium-length light brown hair, short beard, beige layered Jedi tunic, brown outer robe, leather belt, tall brown boots. Beer mug stays in his right hand.
+RIGHT (@Image3): lean man, short brown hair, thin moustache, green inner Jedi robes, deep red outer cloak with the hood down, brown boots. Beer mug in his hand. He listens.
+Exactly two seated men. The cat and the hookah are not in this clip.
+Source clips call these seats LEFT and RIGHT, or jedi 1 / jedi 2. Do not rename them inside the shot.
+
+START STATE:
+Both Jedi are already seated as in @Image1, beer in hand, Coruscant behind the glass. The speaker is about to begin. No line has been said yet.
+
+STORY FLOW:
+0–3s — He looks from the right-hand Jedi to the room, mug steady.
+3–12s — LEFT says the whole line, warm then concerned: «Дорогие мои друзья. Я вас всех так люблю, но что же мы будем предпринимать по ситуации с канцлером Серёгиусом?» The free hand opens once toward the room. The tone drops on the chancellor.
+12–15s — The question hangs. He leans a little forward. RIGHT does not answer.
+
+END STATE:
+LEFT still leaning in, mouth closed after the question, RIGHT listening, both mugs in hand.
+
+CAMERA / PERFORMANCE:
+One readable face for the speaker when a line is said. Motivated warm daylight from the windows. Bodies stay seated. Beer mugs stay solid objects in the hand that already holds them.
+
+AUDIO:
+Native Russian, no accent, lip-sync only on the assigned speaker. The other Jedi does not speak. Room tone, a faint city hush, glass and mug contact. No music.
+
+NEGATIVE:
+no extra people, no swapped faces, no duplicated hero, no child, no subtitles, no logos, no watermark, no lightsaber ignition, no cartoon, no collage, no freeze-frame slideshow.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+</div>
+
+**Исходные промпты Topview**, как reference для переделки:
+
+#### Исходный промпт · v1 · a7c9e3ba
+
+Дословно как ушло в Topview. Это не текст перезапуска. Задача `a7c9e3ba6ee044668582000d0a55f133`, Seedance 2.0, 2026-05-27 17:16:35 МСК. Технический success не приёмка. Полный текст: `references/scenes/scene-89/89A/source-a7c9e3ba.txt`.
+
+<a id="scene-89B"></a>
+
+### 89B · Совет джедаев — «Мы с Лёхиусом отправимся на Кашиик»
+
+**Статус подсцены:** NEEDS_RERENDER. Ролик вышел плохо, переделка позже. Новой генерации этой записью нет, в очередь запуска не ставилось.
+
+Левый джедай с кальяном докладывает, что они с Лёхиусом летят на Кашиик: вуки видел незваных гостей в чёрных мантиях. Правый гладит кота и молчит. Лёхиус в кадре не появляется; в реестре это имя близко к Лёше (алиас Лёха), но в реплике остаётся Лёхиус.
+
+**Обе длительности, одни и те же картинки.** Вкладка «30 с · Wan 3.0 / Seedance 2.5» — один непрерывный дубль: завязка, развитие, удар реплики. Вкладка «Seedance 2.0 · 15 с» — та же сцена и тот же порядок @Image1…N, короче. Основной запуск переделки, когда владелец его разрешит, — 15 с Seedance 2.0, omni. Пока файлов картинок в репозитории нет.
+
+**Входы:** @Image1 — `references/scenes/scene-89/89B/Image1.png` — primary plate: the council lounge, chairs, beer, light and positions. Not a face sheet.; @Image2 — `references/scenes/scene-89/89B/Image2.png` — LEFT seated Jedi, identity and costume.; @Image3 — `references/scenes/scene-89/89B/Image3.png` — RIGHT seated Jedi, identity and costume.
+
+<div class="engine-tabs" data-scene="89">
+
+<div class="engine-pane" data-engine="wan30">
+
+#### 89B · Wan 3.0 / Seedance 2.5 · 30 с
+
+**Входы:** @Image1 — `references/scenes/scene-89/89B/Image1.png` — primary plate: the council lounge, chairs, beer, light and positions. Not a face sheet.; @Image2 — `references/scenes/scene-89/89B/Image2.png` — LEFT seated Jedi, identity and costume.; @Image3 — `references/scenes/scene-89/89B/Image3.png` — RIGHT seated Jedi, identity and costume.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal Jedi Council dialogue, one continuous 30-second take
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 = references/scenes/scene-89/89B/Image1.png — primary plate: the council lounge, chairs, beer, light and positions. Not a face sheet.
+@Image2 = references/scenes/scene-89/89B/Image2.png — LEFT seated Jedi, identity and costume.
+@Image3 = references/scenes/scene-89/89B/Image3.png — RIGHT seated Jedi, identity and costume.
+Order is fixed: @Image1, then @Image2, and so on. Both durations of this sub-scene use this same order and these same paths.
+Attached images are the only visual authority for this generation. If a sentence conflicts with the attached image, follow the image. Do not invent extra reference slots.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LEFT (@Image2): stocky man, short brown hair, black Jedi outfit, black glove. He holds the hookah hose loosely. He is the only speaker.
+RIGHT (@Image3): slim man, dark wavy hair, thin moustache, grey hooded robe over a purple under-robe. A cat is on his lap; both hands keep stroking it. He listens and nods once.
+The spoken name Лёхиус is another person, not a third body in this shot. Do not turn the cat into a person.
+Source clips call these seats LEFT and RIGHT, or jedi 1 / jedi 2. Do not rename them inside the shot.
+
+START STATE:
+Wide on the same lounge. Both are seated, mugs down or just lifted, the city moving behind them. Nobody has started the line.
+
+STORY FLOW:
+0–8s — SETUP. Locked wide shot of the two chairs, the hookah between them, the cat already on RIGHT's lap. Smoke hangs. LEFT is not talking yet; he settles the hose and looks at RIGHT as if choosing where to start.
+8–18s — DEVELOPMENT. LEFT: «Мы с Лёхиусом отправимся на Кашиик.» Confident, one slow outward palm. RIGHT's eyes move to him. The cat's eyes half-close under the hand.
+18–26s — «Один знакомый вуки доложил, что там были замечены некие незваные гости в чёрных мантиях.» He leans in on the black robes. Smoke curls up. RIGHT nods once.
+26–30s — PAYOFF. The report is over. LEFT stays serious, mouth closed. RIGHT keeps the cat and does not answer. The decision sits in the room.
+
+END STATE:
+Both still seated. The Kashyyyk report has been said once. Nobody stands up.
+
+CAMERA / PERFORMANCE:
+One readable face for the speaker when a line is said. Motivated warm daylight from the windows. Bodies stay seated. Beer mugs stay solid objects in the hand that already holds them.
+
+AUDIO:
+Native Russian, no accent, lip-sync only on the assigned speaker. The other Jedi does not speak. Room tone, a faint city hush, glass and mug contact. No music.
+
+NEGATIVE:
+no extra people, no swapped faces, no duplicated hero, no child, no subtitles, no logos, no watermark, no lightsaber ignition, no cartoon, no collage, no freeze-frame slideshow.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20" data-main="1">
+
+#### 89B · Seedance 2.0 · 15 с
+
+**Входы:** @Image1 — `references/scenes/scene-89/89B/Image1.png` — primary plate: the council lounge, chairs, beer, light and positions. Not a face sheet.; @Image2 — `references/scenes/scene-89/89B/Image2.png` — LEFT seated Jedi, identity and costume.; @Image3 — `references/scenes/scene-89/89B/Image3.png` — RIGHT seated Jedi, identity and costume.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal Jedi Council dialogue, one continuous 15-second take
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 = references/scenes/scene-89/89B/Image1.png — primary plate: the council lounge, chairs, beer, light and positions. Not a face sheet.
+@Image2 = references/scenes/scene-89/89B/Image2.png — LEFT seated Jedi, identity and costume.
+@Image3 = references/scenes/scene-89/89B/Image3.png — RIGHT seated Jedi, identity and costume.
+Order is fixed: @Image1, then @Image2, and so on. Both durations of this sub-scene use this same order and these same paths.
+Attached images are the only visual authority for this generation. If a sentence conflicts with the attached image, follow the image. Do not invent extra reference slots.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LEFT (@Image2): stocky man, short brown hair, black Jedi outfit, black glove. He holds the hookah hose loosely. He is the only speaker.
+RIGHT (@Image3): slim man, dark wavy hair, thin moustache, grey hooded robe over a purple under-robe. A cat is on his lap; both hands keep stroking it. He listens and nods once.
+The spoken name Лёхиус is another person, not a third body in this shot. Do not turn the cat into a person.
+Source clips call these seats LEFT and RIGHT, or jedi 1 / jedi 2. Do not rename them inside the shot.
+
+START STATE:
+Both Jedi are already seated as in @Image1, beer in hand, Coruscant behind the glass. The speaker is about to begin. No line has been said yet.
+
+STORY FLOW:
+0–2s — LEFT already has the hose; RIGHT's hands are on the cat.
+2–13s — LEFT says the whole report, serious and sure: «Мы с Лёхиусом отправимся на Кашиик. Один знакомый вуки доложил, что там были замечены некие незваные гости в чёрных мантиях.» One open palm. A thin exhale of smoke between sentences.
+13–15s — He finishes. RIGHT nods once, still stroking the cat. No reply.
+
+END STATE:
+Line finished, smoke still rising, cat still being stroked, no second speech.
+
+CAMERA / PERFORMANCE:
+One readable face for the speaker when a line is said. Motivated warm daylight from the windows. Bodies stay seated. Beer mugs stay solid objects in the hand that already holds them.
+
+AUDIO:
+Native Russian, no accent, lip-sync only on the assigned speaker. The other Jedi does not speak. Room tone, a faint city hush, glass and mug contact. No music.
+
+NEGATIVE:
+no extra people, no swapped faces, no duplicated hero, no child, no subtitles, no logos, no watermark, no lightsaber ignition, no cartoon, no collage, no freeze-frame slideshow.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+</div>
+
+**Исходные промпты Topview**, как reference для переделки:
+
+#### Исходный промпт · v1 · 6d69acda
+
+Дословно как ушло в Topview. Это не текст перезапуска. Задача `6d69acda515e43b5b470fcabd49cc6e6`, Seedance 2.0, 2026-05-27 01:34:40 МСК. Технический success не приёмка. Полный текст: `references/scenes/scene-89/89B/source-6d69acda.txt`.
+
+<a id="scene-89C"></a>
+
+### 89C · Совет джедаев — «Ситуация требует срочных и решительных действий»
+
+**Статус подсцены:** NEEDS_RERENDER. Ролик вышел плохо, переделка позже. Новой генерации этой записью нет, в очередь запуска не ставилось.
+
+Правый джедай с котом на коленях требует расширить поиск и говорит, что готов выдвигаться. Левый с кальяном только слушает.
+
+**Обе длительности, одни и те же картинки.** Вкладка «30 с · Wan 3.0 / Seedance 2.5» — один непрерывный дубль: завязка, развитие, удар реплики. Вкладка «Seedance 2.0 · 15 с» — та же сцена и тот же порядок @Image1…N, короче. Основной запуск переделки, когда владелец его разрешит, — 15 с Seedance 2.0, omni. Пока файлов картинок в репозитории нет.
+
+**Входы:** @Image1 — `references/scenes/scene-89/89C/Image1.png` — primary plate: the council lounge, chairs, beer, light and positions. Not a face sheet.; @Image2 — `references/scenes/scene-89/89C/Image2.png` — LEFT seated Jedi, identity and costume.; @Image3 — `references/scenes/scene-89/89C/Image3.png` — RIGHT seated Jedi, identity and costume.
+
+<div class="engine-tabs" data-scene="89">
+
+<div class="engine-pane" data-engine="wan30">
+
+#### 89C · Wan 3.0 / Seedance 2.5 · 30 с
+
+**Входы:** @Image1 — `references/scenes/scene-89/89C/Image1.png` — primary plate: the council lounge, chairs, beer, light and positions. Not a face sheet.; @Image2 — `references/scenes/scene-89/89C/Image2.png` — LEFT seated Jedi, identity and costume.; @Image3 — `references/scenes/scene-89/89C/Image3.png` — RIGHT seated Jedi, identity and costume.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal Jedi Council dialogue, one continuous 30-second take
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 = references/scenes/scene-89/89C/Image1.png — primary plate: the council lounge, chairs, beer, light and positions. Not a face sheet.
+@Image2 = references/scenes/scene-89/89C/Image2.png — LEFT seated Jedi, identity and costume.
+@Image3 = references/scenes/scene-89/89C/Image3.png — RIGHT seated Jedi, identity and costume.
+Order is fixed: @Image1, then @Image2, and so on. Both durations of this sub-scene use this same order and these same paths.
+Attached images are the only visual authority for this generation. If a sentence conflicts with the attached image, follow the image. Do not invent extra reference slots.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LEFT (@Image2): stocky man, short brown hair, black Jedi outfit, black glove, hookah hose in hand. He listens and turns his head toward RIGHT. He does not take the line.
+RIGHT (@Image3): slim man, dark wavy hair, thin moustache, grey hood over a purple under-robe, cat on his lap. He is the speaker. One hand stays on the cat; the other gestures once.
+The cat stays on the lap and does not speak.
+Source clips call these seats LEFT and RIGHT, or jedi 1 / jedi 2. Do not rename them inside the shot.
+
+START STATE:
+Wide on the same lounge. Both are seated, mugs down or just lifted, the city moving behind them. Nobody has started the line.
+
+STORY FLOW:
+0–8s — SETUP. LEFT exhales a thin stream of smoke and is listening. RIGHT's hand rests on the cat. He looks at LEFT before he commits to the speech. No line yet.
+8–18s — DEVELOPMENT. RIGHT: «Ситуация требует от нас срочных и решительных действий. Я готов выдвигаться незамедлительно.» The free palm opens once. His face stays sure, not panicked. LEFT's head turns toward him.
+18–26s — «Нам нужно расширить зону поиска.» He does not stand. The cat stays still except for one ear twitch.
+26–30s — PAYOFF. Speech ends. Both remain seated. The offer to move is on the table and nobody has left the chair.
+
+END STATE:
+The urgent proposal has been said once. Smoke still moves. Nobody stands.
+
+CAMERA / PERFORMANCE:
+One readable face for the speaker when a line is said. Motivated warm daylight from the windows. Bodies stay seated. Beer mugs stay solid objects in the hand that already holds them.
+
+AUDIO:
+Native Russian, no accent, lip-sync only on the assigned speaker. The other Jedi does not speak. Room tone, a faint city hush, glass and mug contact. No music.
+
+NEGATIVE:
+no extra people, no swapped faces, no duplicated hero, no child, no subtitles, no logos, no watermark, no lightsaber ignition, no cartoon, no collage, no freeze-frame slideshow.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20" data-main="1">
+
+#### 89C · Seedance 2.0 · 15 с
+
+**Входы:** @Image1 — `references/scenes/scene-89/89C/Image1.png` — primary plate: the council lounge, chairs, beer, light and positions. Not a face sheet.; @Image2 — `references/scenes/scene-89/89C/Image2.png` — LEFT seated Jedi, identity and costume.; @Image3 — `references/scenes/scene-89/89C/Image3.png` — RIGHT seated Jedi, identity and costume.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal Jedi Council dialogue, one continuous 15-second take
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 = references/scenes/scene-89/89C/Image1.png — primary plate: the council lounge, chairs, beer, light and positions. Not a face sheet.
+@Image2 = references/scenes/scene-89/89C/Image2.png — LEFT seated Jedi, identity and costume.
+@Image3 = references/scenes/scene-89/89C/Image3.png — RIGHT seated Jedi, identity and costume.
+Order is fixed: @Image1, then @Image2, and so on. Both durations of this sub-scene use this same order and these same paths.
+Attached images are the only visual authority for this generation. If a sentence conflicts with the attached image, follow the image. Do not invent extra reference slots.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LEFT (@Image2): stocky man, short brown hair, black Jedi outfit, black glove, hookah hose in hand. He listens and turns his head toward RIGHT. He does not take the line.
+RIGHT (@Image3): slim man, dark wavy hair, thin moustache, grey hood over a purple under-robe, cat on his lap. He is the speaker. One hand stays on the cat; the other gestures once.
+The cat stays on the lap and does not speak.
+Source clips call these seats LEFT and RIGHT, or jedi 1 / jedi 2. Do not rename them inside the shot.
+
+START STATE:
+Both Jedi are already seated as in @Image1, beer in hand, Coruscant behind the glass. The speaker is about to begin. No line has been said yet.
+
+STORY FLOW:
+0–2s — RIGHT is about to speak; one hand already on the cat.
+2–13s — RIGHT says all of it, serious: «Ситуация требует от нас срочных и решительных действий. Я готов выдвигаться незамедлительно. Нам нужно расширить зону поиска.» One open palm. LEFT turns toward him.
+13–15s — The line ends. The cat's ear flicks once. LEFT does not answer.
+
+END STATE:
+RIGHT's mouth closed, LEFT looking at him, cat on the lap.
+
+CAMERA / PERFORMANCE:
+One readable face for the speaker when a line is said. Motivated warm daylight from the windows. Bodies stay seated. Beer mugs stay solid objects in the hand that already holds them.
+
+AUDIO:
+Native Russian, no accent, lip-sync only on the assigned speaker. The other Jedi does not speak. Room tone, a faint city hush, glass and mug contact. No music.
+
+NEGATIVE:
+no extra people, no swapped faces, no duplicated hero, no child, no subtitles, no logos, no watermark, no lightsaber ignition, no cartoon, no collage, no freeze-frame slideshow.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+</div>
+
+**Исходные промпты Topview**, как reference для переделки:
+
+#### Исходный промпт · v1 · 88140b94
+
+Дословно как ушло в Topview. Это не текст перезапуска. Задача `88140b9497d34ea284e0534bc1d62d6d`, Seedance 2.0, 2026-05-27 01:30:13 МСК. Технический success не приёмка. Полный текст: `references/scenes/scene-89/89C/source-88140b94.txt`.
+
+<a id="scene-89D"></a>
+
+### 89D · Совет джедаев — пиво и закуски, бормотание без реплики
+
+**Статус подсцены:** NEEDS_RERENDER. Ролик вышел плохо, переделка позже. Новой генерации этой записью нет, в очередь запуска не ставилось.
+
+Двое пьют пиво, на столе закуска. Правый поворачивается, будто тихо что-то говорит, но реплики нет и не должно появиться.
+
+**Обе длительности, одни и те же картинки.** Вкладка «30 с · Wan 3.0 / Seedance 2.5» — один непрерывный дубль: завязка, развитие, удар реплики. Вкладка «Seedance 2.0 · 15 с» — та же сцена и тот же порядок @Image1…N, короче. Основной запуск переделки, когда владелец его разрешит, — 15 с Seedance 2.0, omni. Пока файлов картинок в репозитории нет.
+
+**Входы:** @Image1 — `references/scenes/scene-89/89D/Image1.png` — primary plate: the council lounge, chairs, beer, light and positions. Not a face sheet.; @Image2 — `references/scenes/scene-89/89D/Image2.png` — LEFT seated Jedi, identity and costume.; @Image3 — `references/scenes/scene-89/89D/Image3.png` — RIGHT seated Jedi, identity and costume.
+
+<div class="engine-tabs" data-scene="89">
+
+<div class="engine-pane" data-engine="wan30">
+
+#### 89D · Wan 3.0 / Seedance 2.5 · 30 с
+
+**Входы:** @Image1 — `references/scenes/scene-89/89D/Image1.png` — primary plate: the council lounge, chairs, beer, light and positions. Not a face sheet.; @Image2 — `references/scenes/scene-89/89D/Image2.png` — LEFT seated Jedi, identity and costume.; @Image3 — `references/scenes/scene-89/89D/Image3.png` — RIGHT seated Jedi, identity and costume.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal Jedi Council dialogue, one continuous 30-second take
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 = references/scenes/scene-89/89D/Image1.png — primary plate: the council lounge, chairs, beer, light and positions. Not a face sheet.
+@Image2 = references/scenes/scene-89/89D/Image2.png — LEFT seated Jedi, identity and costume.
+@Image3 = references/scenes/scene-89/89D/Image3.png — RIGHT seated Jedi, identity and costume.
+Order is fixed: @Image1, then @Image2, and so on. Both durations of this sub-scene use this same order and these same paths.
+Attached images are the only visual authority for this generation. If a sentence conflicts with the attached image, follow the image. Do not invent extra reference slots.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LEFT (@Image2): stocky man, short brown hair, blue Jedi robes, dark leather belt and boots. He drinks from a large beer mug.
+RIGHT (@Image3): heavier man, dark hair, full dark beard, round glasses, dark brown and maroon hooded Jedi robe. He drinks and once turns as if murmuring. No words are assigned to him.
+A plate of fries and sausages sits on the small table between them. Heat may shimmer over the food. Nobody delivers a sentence.
+Source clips call these seats LEFT and RIGHT, or jedi 1 / jedi 2. Do not rename them inside the shot.
+
+START STATE:
+Wide on the same lounge. Both are seated, mugs down or just lifted, the city moving behind them. Nobody has started the line.
+
+STORY FLOW:
+0–8s — SETUP. Both men are in the chairs with the city behind them. Mugs are lowered. LEFT starts to lift his. The plate of hot food is already between them. No speech.
+8–18s — DEVELOPMENT. LEFT drinks, foam on the lip, a small smile. RIGHT lifts his own mug, drinks, and turns toward LEFT as if sharing a private murmur. The murmur has no words, no subtitle and no lip-sync sentence. One finger taps the armrest.
+18–26s — They lower the mugs. LEFT nods, pleased. Heat shimmers over the fries. Glasses catch the sunset.
+26–30s — PAYOFF. Both hold the mugs, content, watching the sky traffic. The quiet look is the joke. It never becomes a toast speech or a named line.
+
+END STATE:
+They are still drinking, still wordless, the city still moving. The shot does not freeze.
+
+CAMERA / PERFORMANCE:
+One readable face for the speaker when a line is said. Motivated warm daylight from the windows. Bodies stay seated. Beer mugs stay solid objects in the hand that already holds them.
+
+AUDIO:
+No intelligible dialogue and no forced lip-sync sentence. A quiet human murmur may be heard as texture, not as words. Mugs, chair leather, distant city. No music, no subtitles.
+
+NEGATIVE:
+no extra people, no swapped faces, no duplicated hero, no child, no subtitles, no logos, no watermark, no lightsaber ignition, no cartoon, no collage, no freeze-frame slideshow.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20" data-main="1">
+
+#### 89D · Seedance 2.0 · 15 с
+
+**Входы:** @Image1 — `references/scenes/scene-89/89D/Image1.png` — primary plate: the council lounge, chairs, beer, light and positions. Not a face sheet.; @Image2 — `references/scenes/scene-89/89D/Image2.png` — LEFT seated Jedi, identity and costume.; @Image3 — `references/scenes/scene-89/89D/Image3.png` — RIGHT seated Jedi, identity and costume.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal Jedi Council dialogue, one continuous 15-second take
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 = references/scenes/scene-89/89D/Image1.png — primary plate: the council lounge, chairs, beer, light and positions. Not a face sheet.
+@Image2 = references/scenes/scene-89/89D/Image2.png — LEFT seated Jedi, identity and costume.
+@Image3 = references/scenes/scene-89/89D/Image3.png — RIGHT seated Jedi, identity and costume.
+Order is fixed: @Image1, then @Image2, and so on. Both durations of this sub-scene use this same order and these same paths.
+Attached images are the only visual authority for this generation. If a sentence conflicts with the attached image, follow the image. Do not invent extra reference slots.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LEFT (@Image2): stocky man, short brown hair, blue Jedi robes, dark leather belt and boots. He drinks from a large beer mug.
+RIGHT (@Image3): heavier man, dark hair, full dark beard, round glasses, dark brown and maroon hooded Jedi robe. He drinks and once turns as if murmuring. No words are assigned to him.
+A plate of fries and sausages sits on the small table between them. Heat may shimmer over the food. Nobody delivers a sentence.
+Source clips call these seats LEFT and RIGHT, or jedi 1 / jedi 2. Do not rename them inside the shot.
+
+START STATE:
+Both Jedi are already seated as in @Image1, beer in hand, Coruscant behind the glass. The speaker is about to begin. No line has been said yet.
+
+STORY FLOW:
+0–5s — LEFT raises the mug and takes a slow sip. Foam stays on his lip.
+5–10s — RIGHT mirrors the sip. He turns his head toward LEFT as if saying something quietly. His mouth may move, but no words come out.
+10–15s — LEFT wipes the foam and gives a small satisfied nod. The plate stays on the table. Still no line.
+
+END STATE:
+Both mugs in hand, foam wiped, no dialogue delivered.
+
+CAMERA / PERFORMANCE:
+One readable face for the speaker when a line is said. Motivated warm daylight from the windows. Bodies stay seated. Beer mugs stay solid objects in the hand that already holds them.
+
+AUDIO:
+No intelligible dialogue and no forced lip-sync sentence. A quiet human murmur may be heard as texture, not as words. Mugs, chair leather, distant city. No music, no subtitles.
+
+NEGATIVE:
+no extra people, no swapped faces, no duplicated hero, no child, no subtitles, no logos, no watermark, no lightsaber ignition, no cartoon, no collage, no freeze-frame slideshow.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+</div>
+
+**Исходные промпты Topview**, как reference для переделки:
+
+#### Исходный промпт · v1 · 5c322c84
+
+Дословно как ушло в Topview. Это не текст перезапуска. Задача `5c322c84b87f484f95ef52273f6fbf69`, Seedance 2.0, 2026-05-25 14:54:27 МСК. Технический success не приёмка. Полный текст: `references/scenes/scene-89/89D/source-5c322c84.txt`.
+
+<a id="scene-89E"></a>
+
+### 89E · Совет джедаев — Паша: рыбалка на Набу и отпуск
+
+**Статус подсцены:** NEEDS_RERENDER. Ролик вышел плохо, переделка позже. Новой генерации этой записью нет, в очередь запуска не ставилось.
+
+На балконе Корусанта двое в креслах пьют пиво. Чисто выбритый джедай в тёмно-синей тунике — Паша — говорит, что они с Александрусом летят на Набу на нерест «бум-бум», и что с завтрашнего дня у него отпуск. Александрус в кадре не назван лицом: в реестре такого алиаса нет, второго джедая задаёт только его картинка.
+
+**Обе длительности, одни и те же картинки.** Вкладка «30 с · Wan 3.0 / Seedance 2.5» — один непрерывный дубль: завязка, развитие, удар реплики. Вкладка «Seedance 2.0 · 15 с» — та же сцена и тот же порядок @Image1…N, короче. Основной запуск переделки, когда владелец его разрешит, — 15 с Seedance 2.0, omni. Пока файлов картинок в репозитории нет.
+
+**Входы:** @Image1 — `references/scenes/scene-89/89E/Image1.png` — Coruscant balcony: two armchairs, beer, evening city. Primary plate.; @Image2 — `references/scenes/scene-89/89E/Image2.png` — PASHA, the clean-shaven Jedi in the dark-blue tunic. He is the only speaker.; @Image3 — `references/scenes/scene-89/89E/Image3.png` — the other seated Jedi. Listener only. Do not assign him the spoken name Александрус.
+
+Seedance 2.0, 15.06.2026. Полный исходный промпт и порядок картинок придут в архиве референсов. Пока слоты @Image1–@Image3 зарезервированы в этом порядке: балкон, Паша, второй джедай.
+
+<div class="engine-tabs" data-scene="89">
+
+<div class="engine-pane" data-engine="wan30">
+
+#### 89E · Wan 3.0 / Seedance 2.5 · 30 с
+
+**Входы:** @Image1 — `references/scenes/scene-89/89E/Image1.png` — Coruscant balcony: two armchairs, beer, evening city. Primary plate.; @Image2 — `references/scenes/scene-89/89E/Image2.png` — PASHA, the clean-shaven Jedi in the dark-blue tunic. He is the only speaker.; @Image3 — `references/scenes/scene-89/89E/Image3.png` — the other seated Jedi. Listener only. Do not assign him the spoken name Александрус.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal balcony dialogue, Pasha on vacation
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 = references/scenes/scene-89/89E/Image1.png — Coruscant balcony: two armchairs, beer, evening city. Primary plate.
+@Image2 = references/scenes/scene-89/89E/Image2.png — PASHA, the clean-shaven Jedi in the dark-blue tunic. He is the only speaker.
+@Image3 = references/scenes/scene-89/89E/Image3.png — the other seated Jedi. Listener only. Do not assign him the spoken name Александрус.
+Order is fixed: @Image1, then @Image2, and so on. Both durations of this sub-scene use this same order and these same paths.
+Attached images are the only visual authority for this generation. If a sentence conflicts with the attached image, follow the image. Do not invent extra reference slots.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+PASHA (@Image2): clean-shaven adult man in a dark-blue Jedi tunic, brown belt, dark trousers, tall boots, as in the attached image. Beer mug in his hand. He alone speaks.
+OTHER JEDI (@Image3): whoever is in that image, seated in the second armchair, drinking, not speaking. Александрус is a name in the line, not a third person to invent and not a licence to replace @Image3.
+Exactly two people.
+
+START STATE:
+Wide balcony. Two armchairs, two beers, Coruscant beyond the rail. Neither man is speaking yet.
+
+STORY FLOW:
+0–8s — SETUP. They sit back with the mugs. City lanes drift past the towers. Pasha looks out, then across at the other Jedi, as if the idea has just become a plan. No line yet.
+8–18s — DEVELOPMENT. PASHA: «Мы с Александрусом полетим на Набу на рыбалку.» He is cheerful, not announcing a mission. «Там сейчас нерест рыбы бум-бум.» On «бум-бум» his free hand makes one small bounce. The other Jedi listens.
+18–26s — PAYOFF. «И у меня вообще отпуск с завтрашнего дня.» He settles deeper into the chair, pleased with himself. The other man raises his eyebrows and does not speak.
+26–30s — They stay with the beer. Pasha takes a sip after the line, still satisfied. The vacation is the point, not a new action.
+
+END STATE:
+Pasha has finished the thought and is drinking. The other Jedi has not replied. The city is still moving.
+
+CAMERA / PERFORMANCE:
+Start wider than the 15-second version, then come in to Pasha's face for the spawn line and the vacation, then ease back to both chairs. One continuous conversation, not three frozen posters.
+
+AUDIO:
+Native Russian, Pasha only, accurate lip-sync. The listener stays silent. Balcony wind under the voice. No music.
+
+NEGATIVE:
+no extra people, no swapped faces, no duplicated hero, no child, no subtitles, no logos, no watermark, no lightsaber ignition, no cartoon, no collage, no freeze-frame slideshow. No fishing rod, no boat, no cut to Naboo, no second speaker.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20" data-main="1">
+
+#### 89E · Seedance 2.0 · 15 с
+
+**Входы:** @Image1 — `references/scenes/scene-89/89E/Image1.png` — Coruscant balcony: two armchairs, beer, evening city. Primary plate.; @Image2 — `references/scenes/scene-89/89E/Image2.png` — PASHA, the clean-shaven Jedi in the dark-blue tunic. He is the only speaker.; @Image3 — `references/scenes/scene-89/89E/Image3.png` — the other seated Jedi. Listener only. Do not assign him the spoken name Александрус.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal balcony dialogue, Pasha on vacation
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 = references/scenes/scene-89/89E/Image1.png — Coruscant balcony: two armchairs, beer, evening city. Primary plate.
+@Image2 = references/scenes/scene-89/89E/Image2.png — PASHA, the clean-shaven Jedi in the dark-blue tunic. He is the only speaker.
+@Image3 = references/scenes/scene-89/89E/Image3.png — the other seated Jedi. Listener only. Do not assign him the spoken name Александрус.
+Order is fixed: @Image1, then @Image2, and so on. Both durations of this sub-scene use this same order and these same paths.
+Attached images are the only visual authority for this generation. If a sentence conflicts with the attached image, follow the image. Do not invent extra reference slots.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+PASHA (@Image2): clean-shaven adult man in a dark-blue Jedi tunic, brown belt, dark trousers, tall boots, as in the attached image. Beer mug in his hand. He alone speaks.
+OTHER JEDI (@Image3): whoever is in that image, seated in the second armchair, drinking, not speaking. Александрус is a name in the line, not a third person to invent and not a licence to replace @Image3.
+Exactly two people.
+
+START STATE:
+Both are already in the armchairs with beer, the balcony and the city behind them. Pasha is about to speak.
+
+STORY FLOW:
+0–2s — Pasha glances at the other Jedi, mug in hand.
+2–13s — PASHA says the whole line, pleased and ordinary: «Мы с Александрусом полетим на Набу на рыбалку. Там сейчас нерест рыбы бум-бум. И у меня вообще отпуск с завтрашнего дня.» A small gesture on «бум-бум».
+13–15s — He finishes, proud of the plan. The other Jedi does not answer.
+
+END STATE:
+Line done once. Both still seated with beer.
+
+CAMERA / PERFORMANCE:
+Medium two-shot, Pasha's face readable for Russian. Warm balcony light. No standing, no fishing rod in this shot.
+
+AUDIO:
+Native Russian from Pasha only. The other man is silent. Balcony air, a soft city. No music.
+
+NEGATIVE:
+no extra people, no swapped faces, no duplicated hero, no child, no subtitles, no logos, no watermark, no lightsaber ignition, no cartoon, no collage, no freeze-frame slideshow. No fishing rod, no boat, no Naboo landscape cutaway.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+</div>
+
+**Исходный промпт:** в этом коммите его нет. Полный текст задачи `76fab545` придёт вместе с картинками. Выше — новый текст перезапуска по реплике владельца, не претензия на то, что именно эти слова уже уходили в Topview.
+
+<a id="scene-89F"></a>
+
+### 89F · Голограммы — «Привет, любимая… купи хлеба и молока»
+
+**Статус подсцены:** NEEDS_RERENDER. Ролик вышел плохо, переделка позже. Новой генерации этой записью нет, в очередь запуска не ставилось.
+
+Лысый мужчина на троне говорит с голограммой женщины в чёрных доспехах. Она зовёт его за картой и просит по пути купить хлеба и молока. Три старых версии одной реплики. Перезапуск собран по v3 (87557bca): три картинки, без видеовхода.
+
+**Обе длительности, одни и те же картинки.** Вкладка «30 с · Wan 3.0 / Seedance 2.5» — один непрерывный дубль: завязка, развитие, удар реплики. Вкладка «Seedance 2.0 · 15 с» — та же сцена и тот же порядок @Image1…N, короче. Основной запуск переделки, когда владелец его разрешит, — 15 с Seedance 2.0, omni. Пока файлов картинок в репозитории нет.
+
+**Входы:** @Image1 — `references/scenes/scene-89/89F/Image1.png` — the seated man: completely bald, pale, no beard, no glasses, dark purple Sith robes, black inner tunic. Was <<<Image2>>> on task 87557bca.; @Image2 — `references/scenes/scene-89/89F/Image2.png` — the circular office: panoramic windows, night city, blue holograms, dark consoles, throne chair. Was <<<Image3>>> on task 87557bca.; @Image3 — `references/scenes/scene-89/89F/Image3.png` — the woman hologram: heavy build, long wavy dark-brown hair, black Sith armour. She is a projection, not a person in the room. Was <<<Image4>>> on task 87557bca.
+
+v1 (e3199a14) ещё опирался на <<<Video1>>>. В перезапуск видеовход не входит.
+
+<div class="engine-tabs" data-scene="89">
+
+<div class="engine-pane" data-engine="wan30">
+
+#### 89F · Wan 3.0 / Seedance 2.5 · 30 с
+
+**Входы:** @Image1 — `references/scenes/scene-89/89F/Image1.png` — the seated man: completely bald, pale, no beard, no glasses, dark purple Sith robes, black inner tunic. Was <<<Image2>>> on task 87557bca.; @Image2 — `references/scenes/scene-89/89F/Image2.png` — the circular office: panoramic windows, night city, blue holograms, dark consoles, throne chair. Was <<<Image3>>> on task 87557bca.; @Image3 — `references/scenes/scene-89/89F/Image3.png` — the woman hologram: heavy build, long wavy dark-brown hair, black Sith armour. She is a projection, not a person in the room. Was <<<Image4>>> on task 87557bca.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal hologram call, bread and milk
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 = references/scenes/scene-89/89F/Image1.png — the seated man: completely bald, pale, no beard, no glasses, dark purple Sith robes, black inner tunic. Was <<<Image2>>> on task 87557bca.
+@Image2 = references/scenes/scene-89/89F/Image2.png — the circular office: panoramic windows, night city, blue holograms, dark consoles, throne chair. Was <<<Image3>>> on task 87557bca.
+@Image3 = references/scenes/scene-89/89F/Image3.png — the woman hologram: heavy build, long wavy dark-brown hair, black Sith armour. She is a projection, not a person in the room. Was <<<Image4>>> on task 87557bca.
+Order is fixed: @Image1, then @Image2, and so on. Both durations of this sub-scene use this same order and these same paths.
+Attached images are the only visual authority for this generation. If a sentence conflicts with the attached image, follow the image. Do not invent extra reference slots.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+MAN (@Image1): completely bald pale man, no beard, no glasses, dark purple outer robes, black inner tunic, seated in the throne chair the whole time.
+WOMAN (@Image3): heavy build, long wavy dark-brown hair, full black armour on the shoulders and chest. Upper body only, blue-tinted, semi-transparent, a hologram above the pedestal. She is never physically in the room.
+The office (@Image2) is night. No daylight outside.
+
+START STATE:
+Night office, the man alone in the throne chair, the pedestal dark. The hologram has not formed yet.
+
+STORY FLOW:
+0–7s — SETUP. City traffic moves beyond the curved glass. The pedestal wakes, blue light climbs, and her hologram settles into a flicker. He leans forward, not speaking yet.
+7–14s — DEVELOPMENT. He waves, relaxed: «Привет, любимая.» She answers «Привет, дорогой.» The blue glow is on his face.
+14–22s — «Есть информация по карте, которую ты искал. Залетай.» She taps the air of the projection once on the map. He starts to smile, expecting the mission.
+22–30s — PAYOFF. «По пути — купи хлеба и молока.» The shrug is small. His eyebrows go up, he pauses, then he gives one accepting nod. The domestic errand lands harder than the map. She stays a hologram.
+
+END STATE:
+He has nodded. The hologram is still there, still blue. No new sentence.
+
+CAMERA / PERFORMANCE:
+Start on the room and the forming hologram, come closer for the map, then hold both faces for the bread and milk. One call, not a montage.
+
+AUDIO:
+Native Russian. The man speaks only his greeting. The hologram speaks only her answer. No Ukrainian dub, no accent gag, no music.
+
+NEGATIVE:
+no extra people, no swapped faces, no duplicated hero, no child, no subtitles, no logos, no watermark, no lightsaber ignition, no cartoon, no collage, no freeze-frame slideshow. No solid woman in the room, no daylight, no second joke after the nod.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20" data-main="1">
+
+#### 89F · Seedance 2.0 · 15 с
+
+**Входы:** @Image1 — `references/scenes/scene-89/89F/Image1.png` — the seated man: completely bald, pale, no beard, no glasses, dark purple Sith robes, black inner tunic. Was <<<Image2>>> on task 87557bca.; @Image2 — `references/scenes/scene-89/89F/Image2.png` — the circular office: panoramic windows, night city, blue holograms, dark consoles, throne chair. Was <<<Image3>>> on task 87557bca.; @Image3 — `references/scenes/scene-89/89F/Image3.png` — the woman hologram: heavy build, long wavy dark-brown hair, black Sith armour. She is a projection, not a person in the room. Was <<<Image4>>> on task 87557bca.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal hologram call, bread and milk
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 = references/scenes/scene-89/89F/Image1.png — the seated man: completely bald, pale, no beard, no glasses, dark purple Sith robes, black inner tunic. Was <<<Image2>>> on task 87557bca.
+@Image2 = references/scenes/scene-89/89F/Image2.png — the circular office: panoramic windows, night city, blue holograms, dark consoles, throne chair. Was <<<Image3>>> on task 87557bca.
+@Image3 = references/scenes/scene-89/89F/Image3.png — the woman hologram: heavy build, long wavy dark-brown hair, black Sith armour. She is a projection, not a person in the room. Was <<<Image4>>> on task 87557bca.
+Order is fixed: @Image1, then @Image2, and so on. Both durations of this sub-scene use this same order and these same paths.
+Attached images are the only visual authority for this generation. If a sentence conflicts with the attached image, follow the image. Do not invent extra reference slots.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+MAN (@Image1): completely bald pale man, no beard, no glasses, dark purple outer robes, black inner tunic, seated in the throne chair the whole time.
+WOMAN (@Image3): heavy build, long wavy dark-brown hair, full black armour on the shoulders and chest. Upper body only, blue-tinted, semi-transparent, a hologram above the pedestal. She is never physically in the room.
+The office (@Image2) is night. No daylight outside.
+
+START STATE:
+The man is already seated. The woman's hologram is already up, blue and flickering. He has not said hello yet.
+
+STORY FLOW:
+0–4s — MAN, warm, a small wave: «Привет, любимая.»
+4–13s — WOMAN HOLOGRAM, casual: «Привет, дорогой. Есть информация по карте, которую ты искал. Залетай. По пути — купи хлеба и молока.» A small smile on «залетай», a shrug on the bread and milk.
+13–15s — His eyebrows rise on the milk, then he nods once.
+
+END STATE:
+The nod has happened. She is still only a hologram. The call is not over into a new topic.
+
+CAMERA / PERFORMANCE:
+Slow push-in toward the man and the hologram. Stable, no shake. She never becomes solid.
+
+AUDIO:
+Native Russian. The man speaks only his greeting. The hologram speaks only her answer. No Ukrainian dub, no accent gag, no music.
+
+NEGATIVE:
+no extra people, no swapped faces, no duplicated hero, no child, no subtitles, no logos, no watermark, no lightsaber ignition, no cartoon, no collage, no freeze-frame slideshow. No solid woman in the room, no daylight city, no extra hologram.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+</div>
+
+**Исходные промпты Topview**, как reference для переделки:
+
+#### Исходный промпт · v1 · e3199a14
+
+Дословно как ушло в Topview. Это не текст перезапуска. Задача `e3199a1406eb46f4986b461b767f8eb3`, Seedance 2.0, 2026-06-09 01:57:22 МСК. Технический success не приёмка. Полный текст: `references/scenes/scene-89/89F/source-e3199a14.txt`.
+
+#### Исходный промпт · v2 · ade18ba6
+
+Дословно как ушло в Topview. Это не текст перезапуска. Задача `ade18ba6bae14b1dad302e36d4b46a9f`, Seedance 2.0, 2026-06-09 02:14:36 МСК. Технический success не приёмка. Полный текст: `references/scenes/scene-89/89F/source-ade18ba6.txt`.
+
+#### Исходный промпт · v3 · 87557bca
+
+Дословно как ушло в Topview. Это не текст перезапуска. Задача `87557bca9757445fae97ebbd9ecfa317`, Seedance 2.0, 2026-06-09 02:32:46 МСК. Технический success не приёмка. Полный текст: `references/scenes/scene-89/89F/source-87557bca.txt`.
+
+<a id="scene-89G"></a>
+
+### 89G · Голограммы — три фрагмента карты раньше джедаев
+
+**Статус подсцены:** NEEDS_RERENDER. Ролик вышел плохо, переделка позже. Новой генерации этой записью нет, в очередь запуска не ставилось.
+
+Голограмма женщины предупреждает лысого мужчину: три фрагмента карты надо найти до джедаев, иначе они сядут на хвост. Шесть старых версий. Перезапуск собран по v6 (60e7479a), пять картинок Image1–Image5 в том же порядке.
+
+**Обе длительности, одни и те же картинки.** Вкладка «30 с · Wan 3.0 / Seedance 2.5» — один непрерывный дубль: завязка, развитие, удар реплики. Вкладка «Seedance 2.0 · 15 с» — та же сцена и тот же порядок @Image1…N, короче. Основной запуск переделки, когда владелец его разрешит, — 15 с Seedance 2.0, omni. Пока файлов картинок в репозитории нет.
+
+**Входы:** @Image1 — `references/scenes/scene-89/89G/Image1.png` — circular night office, panoramic windows, blue displays, throne chair.; @Image2 — `references/scenes/scene-89/89G/Image2.png` — the seated bald pale man in dark purple Sith robes. He listens. His back may be toward camera.; @Image3 — `references/scenes/scene-89/89G/Image3.png` — the woman hologram, upper body, black armour, long dark-brown hair, blue and semi-transparent.; @Image4 — `references/scenes/scene-89/89G/Image4.png` — over-the-shoulder framing: camera behind the man's left shoulder, hologram centred.; @Image5 — `references/scenes/scene-89/89G/Image5.png` — tight close-up of her holographic face. Not a second woman.
+
+v1–v4 ссылались на картинки со 2-й, без отдельного Image1. Их файлы, когда придут, лягут в tasks/<task_id>/ и в этот перезапуск не подмешиваются.
+
+<div class="engine-tabs" data-scene="89">
+
+<div class="engine-pane" data-engine="wan30">
+
+#### 89G · Wan 3.0 / Seedance 2.5 · 30 с
+
+**Входы:** @Image1 — `references/scenes/scene-89/89G/Image1.png` — circular night office, panoramic windows, blue displays, throne chair.; @Image2 — `references/scenes/scene-89/89G/Image2.png` — the seated bald pale man in dark purple Sith robes. He listens. His back may be toward camera.; @Image3 — `references/scenes/scene-89/89G/Image3.png` — the woman hologram, upper body, black armour, long dark-brown hair, blue and semi-transparent.; @Image4 — `references/scenes/scene-89/89G/Image4.png` — over-the-shoulder framing: camera behind the man's left shoulder, hologram centred.; @Image5 — `references/scenes/scene-89/89G/Image5.png` — tight close-up of her holographic face. Not a second woman.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal hologram warning about the map
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 = references/scenes/scene-89/89G/Image1.png — circular night office, panoramic windows, blue displays, throne chair.
+@Image2 = references/scenes/scene-89/89G/Image2.png — the seated bald pale man in dark purple Sith robes. He listens. His back may be toward camera.
+@Image3 = references/scenes/scene-89/89G/Image3.png — the woman hologram, upper body, black armour, long dark-brown hair, blue and semi-transparent.
+@Image4 = references/scenes/scene-89/89G/Image4.png — over-the-shoulder framing: camera behind the man's left shoulder, hologram centred.
+@Image5 = references/scenes/scene-89/89G/Image5.png — tight close-up of her holographic face. Not a second woman.
+Order is fixed: @Image1, then @Image2, and so on. Both durations of this sub-scene use this same order and these same paths.
+Attached images are the only visual authority for this generation. If a sentence conflicts with the attached image, follow the image. Do not invent extra reference slots.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+MAN (@Image2): completely bald, pale, dark purple robes, black inner tunic, seated the whole time.
+WOMAN HOLOGRAM (@Image3, and her face in @Image5): one woman, upper body only, blue tint, flicker, long dark-brown wavy hair, black armour. @Image4 is a camera angle of the same two people, not a new character.
+She speaks. He does not answer in this clip.
+
+START STATE:
+He is seated alone. The pedestal is dark. The city is outside the glass. She has not appeared.
+
+STORY FLOW:
+0–8s — SETUP. He sits back in the throne chair. The pedestal lights, the hologram climbs into being, blue on his robe. He turns his head toward her and does not speak. The camera is not yet tight.
+8–18s — DEVELOPMENT. Over his left shoulder, as in @Image4, she is centred and already urgent. WOMAN HOLOGRAM: «Нужно найти все три фрагмента карты до джедаев.» She does not smile. He leans a fraction forward.
+18–26s — «Они догадываются, что мы затеяли.» The push-in passes his shoulder. Her flicker reads closer. He still has no line.
+26–30s — PAYOFF. Tight on her face, as in @Image5: «и сядут тебе на хвост.» She holds his eyes. He does not answer. The threat is the end of the shot, not a freeze of an empty room.
+
+END STATE:
+Her face fills the frame, the last phrase just spoken, blue light still moving on the edges of the hologram.
+
+CAMERA / PERFORMANCE:
+One motivated push from the room to the face. She stays one hologram. He stays in the chair.
+
+AUDIO:
+Native Russian, hologram only, serious and direct. No English phonetics, no music.
+
+NEGATIVE:
+no extra people, no swapped faces, no duplicated hero, no child, no subtitles, no logos, no watermark, no lightsaber ignition, no cartoon, no collage, no freeze-frame slideshow. No solid woman, no reply from the man, no extra fragment shown as a cutaway.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20" data-main="1">
+
+#### 89G · Seedance 2.0 · 15 с
+
+**Входы:** @Image1 — `references/scenes/scene-89/89G/Image1.png` — circular night office, panoramic windows, blue displays, throne chair.; @Image2 — `references/scenes/scene-89/89G/Image2.png` — the seated bald pale man in dark purple Sith robes. He listens. His back may be toward camera.; @Image3 — `references/scenes/scene-89/89G/Image3.png` — the woman hologram, upper body, black armour, long dark-brown hair, blue and semi-transparent.; @Image4 — `references/scenes/scene-89/89G/Image4.png` — over-the-shoulder framing: camera behind the man's left shoulder, hologram centred.; @Image5 — `references/scenes/scene-89/89G/Image5.png` — tight close-up of her holographic face. Not a second woman.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal hologram warning about the map
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 = references/scenes/scene-89/89G/Image1.png — circular night office, panoramic windows, blue displays, throne chair.
+@Image2 = references/scenes/scene-89/89G/Image2.png — the seated bald pale man in dark purple Sith robes. He listens. His back may be toward camera.
+@Image3 = references/scenes/scene-89/89G/Image3.png — the woman hologram, upper body, black armour, long dark-brown hair, blue and semi-transparent.
+@Image4 = references/scenes/scene-89/89G/Image4.png — over-the-shoulder framing: camera behind the man's left shoulder, hologram centred.
+@Image5 = references/scenes/scene-89/89G/Image5.png — tight close-up of her holographic face. Not a second woman.
+Order is fixed: @Image1, then @Image2, and so on. Both durations of this sub-scene use this same order and these same paths.
+Attached images are the only visual authority for this generation. If a sentence conflicts with the attached image, follow the image. Do not invent extra reference slots.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+MAN (@Image2): completely bald, pale, dark purple robes, black inner tunic, seated the whole time.
+WOMAN HOLOGRAM (@Image3, and her face in @Image5): one woman, upper body only, blue tint, flicker, long dark-brown wavy hair, black armour. @Image4 is a camera angle of the same two people, not a new character.
+She speaks. He does not answer in this clip.
+
+START STATE:
+Over-the-shoulder as in @Image4. Her hologram is already up. She is about to speak. His shoulder is in the left foreground.
+
+STORY FLOW:
+0–5s — She begins, urgent, eyes on him. The room is the one in @Image1.
+5–12s — WOMAN HOLOGRAM says the whole warning once: «Нужно найти все три фрагмента карты до джедаев. Они догадываются, что мы затеяли, и сядут тебе на хвост.» The camera pushes in. His shoulder leaves the frame.
+12–15s — Tight on her face as in @Image5, blue flicker, the last words, then she holds the look. He does not reply.
+
+END STATE:
+Close on her face, the warning finished, the man still seated and silent.
+
+CAMERA / PERFORMANCE:
+One push from the over-shoulder frame to the face. No cut to a second location.
+
+AUDIO:
+Native Russian from the hologram only. No English phonetics. Room hum under the voice. No music.
+
+NEGATIVE:
+no extra people, no swapped faces, no duplicated hero, no child, no subtitles, no logos, no watermark, no lightsaber ignition, no cartoon, no collage, no freeze-frame slideshow. No solid woman, no second speaker, no English pronunciation guide spoken aloud.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+</div>
+
+**Исходные промпты Topview**, как reference для переделки:
+
+#### Исходный промпт · v1 · de3e8602
+
+Дословно как ушло в Topview. Это не текст перезапуска. Задача `de3e86025faf437a8997b843050ea1c2`, Seedance 2.0, 2026-06-09 02:37:05 МСК. Технический success не приёмка. Полный текст: `references/scenes/scene-89/89G/source-de3e8602.txt`.
+
+#### Исходный промпт · v2 · cdabfadc
+
+Дословно как ушло в Topview. Это не текст перезапуска. Задача `cdabfadc1c534b128b7303bbb4fdbb15`, Seedance 2.0, 2026-06-09 02:50:21 МСК. Технический success не приёмка. Полный текст: `references/scenes/scene-89/89G/source-cdabfadc.txt`.
+
+#### Исходный промпт · v3 · ef91bb1e
+
+Дословно как ушло в Topview. Это не текст перезапуска. Задача `ef91bb1ef1224175a3b4f85208caba52`, Seedance 2.0, 2026-06-09 03:42:35 МСК. Технический success не приёмка. Полный текст: `references/scenes/scene-89/89G/source-ef91bb1e.txt`.
+
+#### Исходный промпт · v4 · 777f6108
+
+Дословно как ушло в Topview. Это не текст перезапуска. Задача `777f6108cae24101957223d236af67b7`, Seedance 2.0, 2026-06-09 03:43:24 МСК. Технический success не приёмка. Полный текст: `references/scenes/scene-89/89G/source-777f6108.txt`.
+
+#### Исходный промпт · v5 · 1a40a6f4
+
+Дословно как ушло в Topview. Это не текст перезапуска. Задача `1a40a6f4364c4618813b1f1d6caa5e92`, Seedance 2.0, 2026-06-09 04:59:17 МСК. Технический success не приёмка. Полный текст: `references/scenes/scene-89/89G/source-1a40a6f4.txt`.
+
+#### Исходный промпт · v6 · 60e7479a
+
+Дословно как ушло в Topview. Это не текст перезапуска. Задача `60e7479a15e44ea696ccadfcdc43b40a`, Seedance 2.0, 2026-06-10 13:23:01 МСК. Технический success не приёмка. Полный текст: `references/scenes/scene-89/89G/source-60e7479a.txt`.
+
+<a id="scene-89H"></a>
+
+### 89H · Кантина — бармен прячет карту, «Карту надо спрятать…»
+
+**Статус подсцены:** NEEDS_RERENDER. Ролик вышел плохо, переделка позже. Новой генерации этой записью нет, в очередь запуска не ставилось.
+
+Бармен-инопланетянин отдаёт светящуюся карту бородатому джедаю в бежевой тунике (в старых промптах это Jedi 2) и говорит спрятать её от канцлера. Тот отвечает: «Сделаю что смогу.» Усатый в красном плаще (Jedi 1; в других старых промптах у него бывала зелёная туника) виден сзади и молчит. Исходник был Seedance 2.5, 30 с, с видеовходом. Перезапуск — только три картинки.
+
+**Обе длительности, одни и те же картинки.** Вкладка «30 с · Wan 3.0 / Seedance 2.5» — один непрерывный дубль: завязка, развитие, удар реплики. Вкладка «Seedance 2.0 · 15 с» — та же сцена и тот же порядок @Image1…N, короче. Основной запуск переделки, когда владелец его разрешит, — 15 с Seedance 2.0, omni. Пока файлов картинок в репозитории нет.
+
+**Входы:** @Image1 — `references/scenes/scene-89/89H/Image1.png` — JEDI 2: bearded man in a beige and brown Jedi tunic. He receives the card and answers.; @Image2 — `references/scenes/scene-89/89H/Image2.png` — JEDI 1: moustache, red hooded cloak in this clip. He is revealed in the background and does not take the line.; @Image3 — `references/scenes/scene-89/89H/Image3.png` — small metallic data card, orange lights in the centre.
+
+Исходный <<<Video1>>> в перезапуск не входит: продолжения тем роликом нет.
+
+<div class="engine-tabs" data-scene="89">
+
+<div class="engine-pane" data-engine="wan30">
+
+#### 89H · Wan 3.0 / Seedance 2.5 · 30 с
+
+**Входы:** @Image1 — `references/scenes/scene-89/89H/Image1.png` — JEDI 2: bearded man in a beige and brown Jedi tunic. He receives the card and answers.; @Image2 — `references/scenes/scene-89/89H/Image2.png` — JEDI 1: moustache, red hooded cloak in this clip. He is revealed in the background and does not take the line.; @Image3 — `references/scenes/scene-89/89H/Image3.png` — small metallic data card, orange lights in the centre.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal cantina, the bartender hides the map
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 = references/scenes/scene-89/89H/Image1.png — JEDI 2: bearded man in a beige and brown Jedi tunic. He receives the card and answers.
+@Image2 = references/scenes/scene-89/89H/Image2.png — JEDI 1: moustache, red hooded cloak in this clip. He is revealed in the background and does not take the line.
+@Image3 = references/scenes/scene-89/89H/Image3.png — small metallic data card, orange lights in the centre.
+Order is fixed: @Image1, then @Image2, and so on. Both durations of this sub-scene use this same order and these same paths.
+Attached images are the only visual authority for this generation. If a sentence conflicts with the attached image, follow the image. Do not invent extra reference slots.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+JEDI 2 (@Image1): bearded man, beige and brown Jedi tunic. He stands at the bar, takes the card, and speaks the second line.
+JEDI 1 (@Image2): moustache, red hooded cloak as in this reference. Background only in the last beat. Older prompts sometimes dress this moustache in a green tunic; this clip's image wins.
+BARTENDER: one alien bartender, not a copy of either Jedi. No separate face sheet: keep one design for the whole shot.
+CARD (@Image3): one small metal card. It stays a physical object passing from the bartender's hand into Jedi 2's hand.
+Old prompts called them jedi 1 and jedi 2, not by registry names. Do not retitle them mid-shot.
+
+START STATE:
+A dim cantina bar. The bartender is at the far side of the counter. Jedi 2 is approaching, empty-handed. The card is not yet offered.
+
+STORY FLOW:
+0–8s — SETUP. Wide-medium on the counter, neon haze, warm practicals. The alien bartender leans in as Jedi 2 reaches the bar. No line yet. Jedi 1 is only a shape in the room, not a second scene.
+8–16s — DEVELOPMENT. The bartender checks the room and slides the glowing card across into Jedi 2's hand. BARTENDER: «Карту надо спрятать. Она низачто не должна попасть в руки канцлеру.»
+16–24s — Jedi 2 looks down, closes his fist around the card, looks back up. JEDI 2: «Сделаю что смогу.»
+24–30s — PAYOFF. The camera drifts back. The bartender sinks into the shadow behind the taps. Jedi 1, red hood, is readable in the background and does not speak. The handoff is done; nobody adds a third line.
+
+END STATE:
+Jedi 2 has the card in his fist. The bartender has withdrawn. Jedi 1 remains in the background. The shot is still moving, not frozen on a poster.
+
+CAMERA / PERFORMANCE:
+One unbroken cantina camera: approach, handover, reaction, a short retreat that reveals Jedi 1. Faces stay readable for the two spoken lines.
+
+AUDIO:
+Native Russian, bartender then Jedi 2 only. Bar murmur stays under them. No music, no chancellor's voice.
+
+NEGATIVE:
+no extra people, no swapped faces, no duplicated hero, no child, no subtitles, no logos, no watermark, no lightsaber ignition, no cartoon, no collage, no freeze-frame slideshow. No third spoken line, no video-input end frame, no duplicate card.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20" data-main="1">
+
+#### 89H · Seedance 2.0 · 15 с
+
+**Входы:** @Image1 — `references/scenes/scene-89/89H/Image1.png` — JEDI 2: bearded man in a beige and brown Jedi tunic. He receives the card and answers.; @Image2 — `references/scenes/scene-89/89H/Image2.png` — JEDI 1: moustache, red hooded cloak in this clip. He is revealed in the background and does not take the line.; @Image3 — `references/scenes/scene-89/89H/Image3.png` — small metallic data card, orange lights in the centre.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cantina, the bartender hides the map
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 = references/scenes/scene-89/89H/Image1.png — JEDI 2: bearded man in a beige and brown Jedi tunic. He receives the card and answers.
+@Image2 = references/scenes/scene-89/89H/Image2.png — JEDI 1: moustache, red hooded cloak in this clip. He is revealed in the background and does not take the line.
+@Image3 = references/scenes/scene-89/89H/Image3.png — small metallic data card, orange lights in the centre.
+Order is fixed: @Image1, then @Image2, and so on. Both durations of this sub-scene use this same order and these same paths.
+Attached images are the only visual authority for this generation. If a sentence conflicts with the attached image, follow the image. Do not invent extra reference slots.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+JEDI 2 (@Image1): bearded man, beige and brown Jedi tunic. He stands at the bar, takes the card, and speaks the second line.
+JEDI 1 (@Image2): moustache, red hooded cloak as in this reference. Background only in the last beat. Older prompts sometimes dress this moustache in a green tunic; this clip's image wins.
+BARTENDER: one alien bartender, not a copy of either Jedi. No separate face sheet: keep one design for the whole shot.
+CARD (@Image3): one small metal card. It stays a physical object passing from the bartender's hand into Jedi 2's hand.
+Old prompts called them jedi 1 and jedi 2, not by registry names. Do not retitle them mid-shot.
+
+START STATE:
+The alien bartender is already across the counter from Jedi 2. The card is still on the bartender's side. Jedi 1 is not yet the subject.
+
+STORY FLOW:
+0–4s — The bartender slides the card (@Image3) into Jedi 2's hand.
+4–10s — BARTENDER, quiet Russian, lip-sync: «Карту надо спрятать. Она низачто не должна попасть в руки канцлеру.»
+10–15s — JEDI 2 looks at the card, closes his fist: «Сделаю что смогу.» The bartender eases back. Jedi 1 (@Image2) is visible behind them and does not speak.
+
+END STATE:
+Jedi 2 holds the card. The bartender has stepped back. Jedi 1 is in the background, silent.
+
+CAMERA / PERFORMANCE:
+One short move from the handover to Jedi 2's face, then a small widening that shows Jedi 1. No hard cut, no match to an old video.
+
+AUDIO:
+Native Russian. Bartender first, Jedi 2 second. Jedi 1 silent. Cantina walla under the lines, no music.
+
+NEGATIVE:
+no extra people, no swapped faces, no duplicated hero, no child, no subtitles, no logos, no watermark, no lightsaber ignition, no cartoon, no collage, no freeze-frame slideshow. No chancellor in person, no second card, no subtitles.
+
+FRAME FILL / NO BARS:
+Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+</div>
+
+</div>
+
+**Исходные промпты Topview**, как reference для переделки:
+
+#### Исходный промпт · v1 · b5ce7971
+
+Дословно как ушло в Topview. Это не текст перезапуска. Задача `b5ce79713d374cb7987eb16e5a53cd1d`, Seedance 2.5, 2026-09-09 15:37:19 МСК. Технический success не приёмка. Полный текст: `references/scenes/scene-89/89H/source-b5ce7971.txt`.
+
+<a id="scene-89I"></a>
+
+### 89I · Кантина — другие диалоги Илюши и Артёма
+
+**Статус подсцены:** не найдено на Topview как речь, уточнить у владельца. Промпта нет. Версии на 15 с и на 30 с не написаны: реплики нет, выдумывать её нельзя.
+
+Владелец помнил разговоры Илюши и Артёма в кантине. Кроме подсцены 89H (задача `b5ce7971`, бармен и карта) другого речевого ролика Seedance для них не нашлось. В старых промптах это Jedi 1 (усы; часто зелёная туника) и Jedi 2 (борода). Для этой пары на Topview остались только немые ролики кантины Seedance: они не диалог и в перезапуск не входят.
+
+Если владелец позже назовёт реплику или пришлёт промпт, подсцена получит те же две вкладки и свой порядок Image1…N. Номер 89I не переиспользовать.

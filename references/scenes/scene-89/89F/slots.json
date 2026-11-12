@@ -1,0 +1,52 @@
+{
+  "subscene": "89F",
+  "images_status": "pending_archive",
+  "durations_s": [
+    15,
+    30
+  ],
+  "same_image_order_for_both_durations": true,
+  "model_15s": "Seedance 2.0",
+  "mode_15s": "omni_reference",
+  "model_30s": "Wan 3.0 / Seedance 2.5",
+  "mode_30s": "omni_reference",
+  "video_launch_approval": false,
+  "slots": [
+    {
+      "slot": "@Image1",
+      "path": "references/scenes/scene-89/89F/Image1.png",
+      "role": "the seated man: completely bald, pale, no beard, no glasses, dark purple Sith robes, black inner tunic. Was <<<Image2>>> on task 87557bca.",
+      "status": "pending_images",
+      "shared_by_durations_s": [
+        15,
+        30
+      ]
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/scenes/scene-89/89F/Image2.png",
+      "role": "the circular office: panoramic windows, night city, blue holograms, dark consoles, throne chair. Was <<<Image3>>> on task 87557bca.",
+      "status": "pending_images",
+      "shared_by_durations_s": [
+        15,
+        30
+      ]
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/scenes/scene-89/89F/Image3.png",
+      "role": "the woman hologram: heavy build, long wavy dark-brown hair, black Sith armour. She is a projection, not a person in the room. Was <<<Image4>>> on task 87557bca.",
+      "status": "pending_images",
+      "shared_by_durations_s": [
+        15,
+        30
+      ]
+    }
+  ],
+  "relaunch_source_task": "87557bca9757445fae97ebbd9ecfa317",
+  "source_tasks": [
+    "e3199a1406eb46f4986b461b767f8eb3",
+    "ade18ba6bae14b1dad302e36d4b46a9f",
+    "87557bca9757445fae97ebbd9ecfa317"
+  ]
+}
