@@ -12,34 +12,70 @@
   "runtime_run_id_source": "Automations.peek.last_run.id for current in_progress run",
   "runtime_run_id_unavailable_reason": null,
   "source_head_started": "6f8dd77b8d66648d4991e0da17595bf50b49d2a2",
-  "source_head": "eaa7f3731f0eabf5bb7b0e82a8ef0d9f8b366209",
+  "source_head": "2eb0fd2f0041689accc506878c5a48eb06f1fe52",
   "route_generation": 3,
   "started_at": "2026-11-12T04:04:05.859Z",
-  "checked_at": null,
-  "phase": "started",
-  "status": "started",
+  "checked_at": "2026-11-12T04:09:49.728Z",
+  "phase": "completed",
+  "status": "completed",
   "scan": {
-    "complete": false,
-    "scope": "Read-only scan pending"
+    "complete": true,
+    "scope": "Authenticated Topview connector read-only all 14 boards / 19 video page requests (15 nonempty), 673 unique video tasks; My First Board queue 41/41 independently verified by task ID",
+    "boards": 14,
+    "pages": 19,
+    "pages_nonempty": 15,
+    "page_size": 100,
+    "video_tasks": 673,
+    "unique_task_ids": 673,
+    "status_counts": {
+      "success": 640,
+      "fail": 27,
+      "init": 6
+    },
+    "verified_at": "2026-11-12T04:05:10.202Z",
+    "active_task_details_verified_at": "2026-11-12T04:07:26.020Z",
+    "registered_task_ids": 41,
+    "registered_found": 41,
+    "unreconciled_claims": 0,
+    "ready_sha": {
+      "queue": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+      "task_map": "c45aae06d179a60873903d42ae073b8ee9bc5f9733b01336c35a3780e5bc355a",
+      "match_both": true,
+      "method": "Independent pure JS SHA-256 of fresh GitHub UTF-8; abc test vector passed"
+    },
+    "technically_ready_not_owner_authorized": 16,
+    "owner_tasks_open": 0,
+    "robot_health_checked_at": "2026-11-12T03:30:30Z",
+    "stale_slot_issue": "#580 slots:6811ec7e:58 observed 2026-11-11T19:40:25Z; not current capacity"
   },
   "slots": {
     "capacity": 6,
-    "occupied": null,
-    "free": null,
-    "active_task_ids": []
+    "occupied": 6,
+    "free": 0,
+    "active_task_ids": [
+      "8c6d92662d1043c7a651168b2b8280ae",
+      "1dcb6fa0628d41b098227ca6c96f1630",
+      "a1330998d39b486e864ed4e22b4fe8c4",
+      "3a09108c8c474a0989118806b4a69f91",
+      "be627af0e9664db5b6ac2b62c34080a6",
+      "8bdd6439dad94592979aba23c137b4a0"
+    ],
+    "source": "full read-only all-board Topview scan",
+    "active_task_details_verified": true
   },
-  "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
+  "scan_complete": true,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
   "task_ids": [],
   "new_submissions": 0,
-  "browser_transport": "not_started",
+  "browser_transport": "not_started_no_free_slot",
   "tinyfish": {
     "run_ids": [],
     "steps": 0,
     "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0
+    "confirmed_cost_usd": 0,
+    "reason": "Six global slots occupied; TinyFish and Wallet not called"
   },
   "topview_credits_spent": 0,
   "lease": {
@@ -47,24 +83,28 @@
     "acquired_at": "2026-11-12T04:04:05.859Z",
     "expires_at": "2026-11-12T04:19:05.859Z",
     "acquired_commit": "eaa7f3731f0eabf5bb7b0e82a8ef0d9f8b366209",
-    "released": false
+    "released": true,
+    "released_at": "2026-11-12T04:10:54.722Z",
+    "release_method": "single_git_tree_commit_expected_head_CAS_readback",
+    "release_atomic_with_receipt": true
   },
-  "outcome": "started",
+  "outcome": "no_free_slot",
   "blocker": null,
-  "retryable": true,
+  "retryable": false,
   "acceptance": {
     "hourly_execution": true,
-    "read_only_scan": false,
+    "read_only_scan": true,
     "website_login": false,
     "website_control": false,
     "files_uploaded": false,
     "unlimited_zero": false,
     "topview_task_verified": false,
-    "production_tinyfish_launch": false
+    "production_tinyfish_launch": false,
+    "active_task_details_verified": true
   },
-  "updated_at": "2026-11-12T04:04:05.859Z",
-  "source_head_checked": null,
-  "completed_at": null,
-  "reconciliation_warning": "S49B 3a09108c8c474a0989118806b4a69f91 and S51G 8c6d92662d1043c7a651168b2b8280ae still lack verified input SHA; do not duplicate",
-  "notes": "Started only; slot count not yet verified."
+  "updated_at": "2026-11-12T04:10:54.722Z",
+  "source_head_checked": "2eb0fd2f0041689accc506878c5a48eb06f1fe52",
+  "completed_at": "2026-11-12T04:10:54.722Z",
+  "reconciliation_warning": "S49B 3a09108c8c474a0989118806b4a69f91 and S51G 8c6d92662d1043c7a651168b2b8280ae: matched by prompts/model but exact source input SHA not verified; Create prohibited pending reconciliation",
+  "notes": "Six of six occupied. Active tasks independently verified as My First Board, Seedance 2.0, 720p, 16:9, Unlimited, credits0. New creates 0. No authorized ready story items; scene62 held, music/dance require owner consent. No TinyFish costs, queue or checkpoint changes. Work HH:55 no_update is not proof of current capacity or restored live GUI quota."
 }
