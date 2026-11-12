@@ -146,7 +146,8 @@
       "result:942bdafcff8640d1b405a37cbbb5cbc6",
       "result:078f094bb1124c2ba7aa22d1ff0eb395",
       "result:2473c9b5bcf645fd85ab308306c53aaa",
-      "result:0a495e5f77a041e6bcc8d67fb68230b3"
+      "result:0a495e5f77a041e6bcc8d67fb68230b3",
+      "result:8bdd6439dad94592979aba23c137b4a0"
     ],
     "robot_wake_keys": [
       "result:56e5e07c85df4af583c62665c51ed563",
@@ -192,21 +193,22 @@
       "result:15e12f1588cc4079983610b63973e028",
       "result:078f094bb1124c2ba7aa22d1ff0eb395",
       "result:2473c9b5bcf645fd85ab308306c53aaa",
-      "result:0a495e5f77a041e6bcc8d67fb68230b3"
+      "result:0a495e5f77a041e6bcc8d67fb68230b3",
+      "result:8bdd6439dad94592979aba23c137b4a0"
     ],
     "robot_rewake": {
-      "episode": "6811ec7e",
-      "count": 11,
-      "last_at": "2026-11-11T19:40:31Z",
+      "episode": "c8bf02e8",
+      "count": 0,
+      "last_at": "2026-11-12T09:40:33Z",
       "sequence": 58,
-      "first_at": "2026-11-11T10:00:32Z",
-      "last_event_id": "slots:6811ec7e:58",
+      "first_at": "2026-11-12T09:40:33Z",
+      "last_event_id": "result:8bdd6439dad94592979aba23c137b4a0",
       "silence_reported": "slots:d23cf217:2"
     }
   },
   "phases": {
     "topview": {
-      "checked_at": "2026-11-12T09:30:28Z",
+      "checked_at": "2026-11-12T09:40:28Z",
       "source": "robot; число слотов — topview-status.json"
     },
     "deep_audit": {
@@ -224,8 +226,8 @@
   },
   "health": "ok",
   "last_scheduled_cycle": {
-    "started_at": "2026-11-12T09:30:33Z",
-    "completed_at": "2026-11-12T09:30:33Z",
+    "started_at": "2026-11-12T09:40:33Z",
+    "completed_at": "2026-11-12T09:40:33Z",
     "health": "ok",
     "phases_completed": [
       "role_check",
@@ -237,7 +239,7 @@
     ],
     "phases_missing": [],
     "runner": "robot_scheduled_task",
-    "note": "GitHub robot: 6 из 6 слотов занято, новых 0, завершено 0."
+    "note": "GitHub robot: 5 из 6 слотов занято, новых 0, завершено 1."
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -296,8 +298,8 @@
       "checked_at": "2026-10-13T19:02:02.187Z"
     }
   },
-  "last_completed_cycle_at": "2026-11-12T09:30:33Z",
-  "last_successful_cycle_at": "2026-11-12T09:30:33Z",
+  "last_completed_cycle_at": "2026-11-12T09:40:33Z",
+  "last_successful_cycle_at": "2026-11-12T09:40:33Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
     "title": "AI Film — единый монитор",
@@ -312,13 +314,13 @@
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-11-12T09:30:33Z"
+    "robot": "2026-11-12T09:40:33Z"
   },
   "last_successful_cycle_runner": "robot_scheduled_task",
   "last_successful_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-11-12T09:30:33Z"
+    "robot": "2026-11-12T09:40:33Z"
   },
   "previous_primary_automation": {
     "id": "trig_014eEvBooAV2hxx1asRo9snm",
@@ -427,12 +429,12 @@
     }
   },
   "launcher_health": {
-    "state": "capacity_full",
+    "state": "awaiting_execution",
     "unresolved": false,
-    "episode": "b6d3a670",
-    "unresolved_since": null,
-    "reason": "no_free_global_slot; launcher_health_not_proven",
-    "free_slots_global": 0,
+    "episode": "c8bf02e8",
+    "unresolved_since": "2026-11-12T09:40:33Z",
+    "reason": "within_initial_execution_window",
+    "free_slots_global": 1,
     "actionable_items": [
       "S49B",
       "S51E",
@@ -462,6 +464,6 @@
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
     "escalation_attempted_episode": "6811ec7e",
-    "checked_at": "2026-11-12T08:50:41Z"
+    "checked_at": "2026-11-12T09:40:33Z"
   }
 }
