@@ -1,8 +1,44 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-12T21:26:24.000Z",
+  "last_updated_at": "2026-11-13T14:08:06+00:00",
   "active_work": [
+    {
+      "work_id": "SEREGIUS-SHIFT-20261113-T611U",
+      "project": "seregius",
+      "title": "Смена 13.11 t611u: очередь 48.4 и 89, отзыв по версиям Grok",
+      "status": "waiting_for_owner",
+      "created_at": "2026-11-13T14:05:00Z",
+      "updated_at": "2026-11-13T14:08:06+00:00",
+      "next_action": "Новых генераций из этой записи не создавать. Свободный слот берёт следующий готовый пункт живой очереди, Unlimited, 0 кредитов. Отзыв Виталика по версиям Grok 48.3/48.4 не заменяет S48-P4-R2, пока он сам не скажет. Сцена 88 по-прежнему ждёт художественной оценки. PR 369, 370 и 371 не трогать.",
+      "recovery": {
+        "schema_version": 1,
+        "verified_at": "2026-11-13T14:08:06+00:00",
+        "last_completed": "PR 604 влит (d8632c517): сцена 89, Wan 3.0, 30 с, 0 кредитов. PR 631 влит 13.11.2026 17:04 МСК (e9389dec). Очередь t601u записана: S48-P4-R2, затем 89A–89G, оставшиеся танцы 28, затем 89H–89J. В Topview из этого списка ничего не отправлено. Версии Grok 48.4 v1–v4 и 48.3 ждут отзыва Виталика.",
+        "next_action": "Новых генераций из этой записи не создавать. Свободный слот берёт следующий готовый пункт живой очереди, Unlimited, 0 кредитов. Отзыв Виталика по версиям Grok 48.3/48.4 не заменяет S48-P4-R2, пока он сам не скажет. Сцена 88 по-прежнему ждёт художественной оценки. PR 369, 370 и 371 не трогать.",
+        "checkpoint": {
+          "file": "reports/current-work-checkpoint.md",
+          "anchor": "# 13.11.2026 17:05 МСК — контрольная точка t611u",
+          "sha256": "4c714bbbe4c076ad79b2e5c9a52a10df1ccb22d7e11545438264ce410f0e8ee5"
+        },
+        "evidence": [
+          {
+            "file": "ops/topview-launch-queue.json",
+            "sha256": "f027ff3383f1941ad6c0b9bcf830377e3ac547f92a928337395b279e2b9d25d5"
+          },
+          {
+            "file": "ops/TOPVIEW-FREE-LAUNCH.md",
+            "sha256": "c6a484f5e22c1c7bbf1d82906d4d864fe95b7b7078e5dd4bd4c14760de3dc8d4"
+          }
+        ],
+        "read_next": [
+          "reports/current-work-checkpoint.md",
+          "NEW-CHAT-HANDOFF.md",
+          "ops/topview-launch-queue.json"
+        ],
+        "blockers": []
+      }
+    },
     {
       "work_id": "SEREGIUS-SASHA-PHOTOGRAPHER-20261110",
       "project": "seregius",
@@ -1641,9 +1677,9 @@
   ],
   "archived_completed_work": "archive/work-resume-register-archive.json",
   "resume_focus": {
-    "work_id": "SEREGIUS-SASHA-PHOTOGRAPHER-20261110",
+    "work_id": "SEREGIUS-SHIFT-20261113-T611U",
     "project": "seregius",
-    "set_at": "2026-11-10T20:12:54+00:00",
+    "set_at": "2026-11-13T14:08:06+00:00",
     "reason": "Explicitly selected by the authorized task writer"
   },
   "last_instruction_review": {
