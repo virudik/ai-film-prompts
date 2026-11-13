@@ -18,8 +18,8 @@
   "status": "completed",
   "scan_complete": true,
   "scan": {
-    "checked_at": "2026-11-13T04:03:00Z",
-    "last_direct_active_check_at": "2026-11-13T04:05:00Z",
+    "checked_at": "2026-11-13T04:09:41.497Z",
+    "last_direct_active_check_at": "2026-11-13T04:09:41.497Z",
     "source": "Topview connector read-only full all-owned-board video-page scan; six init tasks individually refreshed",
     "scope": "all_owned_boards_all_pages_all_video_tasks",
     "current_invocation_direct_full_scan": true,
@@ -121,14 +121,14 @@
     "All six active tasks independently verified on My First Board with Seedance 2.0, 15s, 720p,16:9, Unlimited true, creditsCost0. Unmapped active d775c7a4 remains protected from repeat.",
     "All 41 registered queue task IDs found in main board. Queue items have no nonterminal claimed/submitting/submission_unknown; no open owner-tasks. SHA-256 of exact GitHub queue and task-map bytes independently calculated with verified SHA256 implementation and matched fresh ops/queue-readiness.json.",
     "Latest bot launcher_health at 03:50 UTC had capacity_full, 0 free; wake issue headings referring to free slots are historical, not current capacity.",
-    "No launch, no TinyFish run, no provider cost. Work preferred in route_generation3 as historically verified on Nov2; no fresh Work GUI/quota evidence to change route.",
+    "Direct active verification completed 2026-11-13T04:09:41.497Z; all 6 remained init. No launch, no TinyFish run, no provider cost. Work preferred in route_generation3 as historically verified on Nov2; no fresh Work GUI/quota evidence to change route.",
     "Checkpoint, next_action, retry_control and queue not modified. Receipt updated before release; release verified separately using GitHub contents-CAS."
   ],
   "slots": {
     "capacity": 6,
     "occupied": 6,
     "free": 0,
-    "source_checked_at": "2026-11-13T04:05:00Z"
+    "source_checked_at": "2026-11-13T04:09:41.497Z"
   },
   "peer_reconciliation": {
     "ordinary_last_run_id": "83d61e01-70a8-8320-a56d-bfcdd8f51b07",
