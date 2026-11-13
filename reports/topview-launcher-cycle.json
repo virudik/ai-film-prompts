@@ -5,92 +5,37 @@
   "runner": "chatgpt_scheduled_task",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
   "executor": "work",
-  "run_id": "6a8507ab-69d0-8328-966f-cbc87d3fc5c9",
+  "run_id": "4d1fedeb-350c-8322-992d-5f3f6243b593",
   "run_id_unavailable_reason": null,
   "runtime_run_id_source": "Automations.peek current last_run.id",
-  "execution_instance_id": "b636fded-79a7-4a72-9c83-78bc3dd5363a",
+  "execution_instance_id": "b2021106-59e7-4297-b74a-d62331afabf7",
   "route_generation": 3,
-  "source_head": "89f9b6aa5da787249cf7eeb15d45853bc856ff81",
-  "started_at": "2026-11-06T12:55:20.235232Z",
-  "checked_at": "2026-11-06T13:01:25.250Z",
-  "phase": "finished",
-  "scan_complete": true,
-  "occupied_slots": 6,
-  "free_slots": 0,
+  "source_head": "349799c1b3d389f884db8c8fb1cb3c09a8a8ad2b",
+  "started_at": "2026-11-13T14:06:36.826Z",
+  "checked_at": "2026-11-13T14:06:36.826Z",
+  "phase": "started",
+  "scan_complete": false,
+  "occupied_slots": null,
+  "free_slots": null,
   "selected_item": null,
-  "task_ids": [
-    "101221814fd5430697f697f95a3f4252",
-    "3ebe7c23db05479e9b6f762a75b832e7",
-    "365cf639589a4a5da834d70193d5e8f6",
-    "be960f5e3bf54563aff663fed9da8906",
-    "de8e44bb15d64dc7a4eb640d27a726e4",
-    "431180d384cc43bebe7afc702e4eb4e6"
-  ],
-  "outcome": "no_free_slot",
+  "task_ids": [],
+  "outcome": "started",
   "blocker": null,
-  "retryable": false,
+  "retryable": true,
   "peer_reconciliation": {
-    "ordinary_actual_last_run_id": "7c2a80cd-26e8-8327-8259-2bb577677327",
-    "ordinary_latest_result_run_id": "7c2a80cd-26e8-8327-8259-2bb577677327",
-    "ordinary_receipt_run_id": "c7bd9924-745c-8330-9258-e6af41716263",
-    "status": "receipt_mismatch_for_latest_ordinary_run"
+    "ordinary_actual_last_run_id": "f69173e5-5d18-832c-9119-89024358516c",
+    "ordinary_latest_result_run_id": "a1c07b22-b858-8321-9f90-067219af83c5",
+    "ordinary_receipt_run_id": "a1c07b22-b858-8321-9f90-067219af83c5",
+    "ordinary_current_run_status": "in_progress",
+    "note": "Current ordinary run started independently; no execution inferred from enabled/no_update/in_progress."
   },
-  "owner_tasks": "checked_open_0",
-  "phases": {
-    "a": "not_due_15_55",
-    "b": "not_due_15_55",
-    "c": "not_due_friday"
-  },
-  "new_submissions": [],
-  "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:work:b636fded-79a7-4a72-9c83-78bc3dd5363a",
-    "acquired_at": "2026-11-06T12:57:18Z",
-    "expires_at": "2026-11-06T13:42:18Z",
-    "lease_commit": "3d3792b69f3c6e1395dd2d90491ca8bb588a5dd8",
-    "final_action": "release_pending"
+    "holder": "chatgpt:work:b2021106-59e7-4297-b74a-d62331afabf7",
+    "acquired_at": "2026-11-13T14:06:14.101Z",
+    "expires_at": "2026-11-13T14:21:14.101Z"
   },
-  "completed_at": "2026-11-06T13:01:25.250Z",
-  "status": "completed",
-  "scan": {
-    "complete": true,
-    "boards_scanned": 14,
-    "pages_scanned": 18,
-    "video_tasks_scanned": 630,
-    "status_counts": {
-      "success": 601,
-      "init": 6,
-      "fail": 23
-    },
-    "active_task_ids": [
-      "101221814fd5430697f697f95a3f4252",
-      "3ebe7c23db05479e9b6f762a75b832e7",
-      "365cf639589a4a5da834d70193d5e8f6",
-      "be960f5e3bf54563aff663fed9da8906",
-      "de8e44bb15d64dc7a4eb640d27a726e4",
-      "431180d384cc43bebe7afc702e4eb4e6"
-    ],
-    "scope": "all Topview boards, all video pages"
-  },
-  "slots": {
-    "capacity": 6,
-    "occupied": 6,
-    "free": 0,
-    "complete_scan_verified": true
-  },
-  "next_ready_candidate": "S49B",
-  "result": "no_free_slot",
-  "queue_reconciliation": {
-    "status": "complete",
-    "submitted_task_ids_checked": 15,
-    "claimed": 0,
-    "submitting": 0,
-    "submission_unknown": 0,
-    "all_submitted_found": true
-  },
-  "monitor_role": {
-    "action": "skip",
-    "reason": "robot primary had verified healthy cycle at 2026-11-06T12:50:27Z; no telemetry heartbeat simulated"
-  },
-  "notification": "no_update"
+  "work_capacity_check": {
+    "status": "not_reverified_this_cycle",
+    "note": "No fresh direct owner or current Work UI/quota evidence yet; historical routing evidence is not treated as current quota proof."
+  }
 }
