@@ -13,9 +13,9 @@
   "source_head_started": "596404fe8e66f150db02037f14b064102934bfc2",
   "route_generation": 3,
   "started_at": "2026-11-13T00:12:13.857Z",
-  "checked_at": "2026-11-13T00:13:59.130Z",
-  "phase": "started",
-  "status": "in_progress",
+  "checked_at": "2026-11-13T00:14:33.174Z",
+  "phase": "completed",
+  "status": "completed",
   "scan": {
     "complete": true,
     "scope": "Live Topview read-only: all 14 boards, 19 paginated video pages, 674 unique tasks, plus 8 all-media pages and 731 assets on My First Board; 41 registered taskIDs found; independent queue/task-map SHA256 matched readiness.",
@@ -72,7 +72,9 @@
     "acquired_at": "2026-11-13T00:12:13.857Z",
     "expires_at": "2026-11-13T00:37:13.857Z",
     "acquired_commit": "eacd8a29d53c343daaf95a9d2e727d238b702c37",
-    "released": false
+    "released": true,
+    "release_recorded_at": "2026-11-13T00:14:33.174Z",
+    "release_commit": "same_commit_as_final_receipt"
   },
   "outcome": "no_free_slot",
   "blocker": null,
@@ -85,13 +87,13 @@
     "end_to_end_background_submission_verified": false
   },
   "new_submissions": 0,
-  "completed_at": null,
+  "completed_at": "2026-11-13T00:14:33.174Z",
   "slots": {
     "capacity": 6,
     "occupied": 6,
     "free": 0
   },
-  "source_head": "eacd8a29d53c343daaf95a9d2e727d238b702c37",
+  "source_head": "44ed3bf3a2bf8eb875e1b38f2c2a31d81850fd8a",
   "peer_reconciliation": {
     "ordinary_last_run_id": "849148d6-a848-8330-aacc-63975ed12ae2",
     "ordinary_latest_result_run_id": "31e4e1ef-d150-8327-978d-7e5cab6dae09",
