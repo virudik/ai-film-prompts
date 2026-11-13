@@ -13,16 +13,74 @@
   "source_head_started": "fb6a41a328eded32a9476640e9a448367ba2092d",
   "route_generation": 3,
   "started_at": "2026-11-13T04:58:59.259Z",
-  "checked_at": "2026-11-13T05:00:04.248Z",
-  "phase": "started",
-  "status": "in_progress",
-  "scan_complete": false,
+  "checked_at": "2026-11-13T05:04:33.207Z",
+  "phase": "completed",
+  "status": "completed",
+  "scan_complete": true,
   "scan": {
-    "scope": "pending_direct_scan",
-    "current_invocation_direct_full_scan": false
+    "checked_at": "2026-11-13T05:04:33.207Z",
+    "last_direct_active_check_at": "2026-11-13T05:04:33.207Z",
+    "source": "Topview connector read-only complete all-board video-page scan; six init tasks individually refreshed",
+    "scope": "all_owned_boards_all_pages_all_video_tasks",
+    "current_invocation_direct_full_scan": true,
+    "scan_mode": "full_topview_connector",
+    "boards_scanned": 14,
+    "pages_scanned": 19,
+    "video_tasks_scanned": 674,
+    "main_board_video_tasks": 507,
+    "status_counts": {
+      "success": 641,
+      "fail": 27,
+      "init": 6
+    },
+    "capacity": 6,
+    "occupied_slots": 6,
+    "free_slots": 0,
+    "active_task_ids": [
+      "d775c7a483a44f13ba1704a1c418b208",
+      "8c6d92662d1043c7a651168b2b8280ae",
+      "1dcb6fa0628d41b098227ca6c96f1630",
+      "a1330998d39b486e864ed4e22b4fe8c4",
+      "3a09108c8c474a0989118806b4a69f91",
+      "be627af0e9664db5b6ac2b62c34080a6"
+    ],
+    "unmapped_active_task_ids": [
+      "d775c7a483a44f13ba1704a1c418b208"
+    ],
+    "active_verified_params": {
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost_each": 0
+    },
+    "queue_items": 61,
+    "queue_submitted": 38,
+    "queue_completed": 3,
+    "queue_waiting_for_slot": 16,
+    "queue_blocked_inputs": 3,
+    "queue_blocked_owner_decision": 1,
+    "unique_submitted_task_ids_in_queue": 41,
+    "all_queue_task_ids_found_in_main_board": true,
+    "queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+    "task_map_sha256": "b80215619a7207dd26fc23e45deede14a14aa8d1ef0271d2c23e86418d383174",
+    "readiness_checked_at": "2026-11-13T04:30:38.154926Z",
+    "readiness_sha_matches": true,
+    "nonterminal_claims": 0,
+    "open_owner_tasks": 0,
+    "taken_owner_tasks": 0,
+    "shadow_health_checked_at": "2026-11-13T04:40:38Z",
+    "shadow_health_state": "capacity_full",
+    "shadow_health_free_slots": 0,
+    "ready_derived_items": 16,
+    "ready_unlinked_story_items": [
+      "S62-SEED20-P1-R2-20261108"
+    ]
   },
-  "occupied_slots": null,
-  "free_slots": null,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
   "task_ids": [],
   "browser_transport": "not_used",
@@ -40,11 +98,14 @@
     "acquired_at": "2026-11-13T04:58:59.259Z",
     "expires_at": "2026-11-13T05:13:59.259Z",
     "acquired_commit": "cb7270a273ca452de64574ae3085015afae88a78",
-    "released": false
+    "released": true,
+    "release_recorded_at": "2026-11-13T05:05:37.177Z",
+    "release_commit": null,
+    "atomic_release_with_receipt": true
   },
-  "outcome": "started",
+  "outcome": "no_free_slot",
   "blocker": null,
-  "retryable": true,
+  "retryable": false,
   "acceptance": {
     "scheduled_execution_observed": true,
     "tinyfish_profile_signin_history_only": true,
@@ -53,13 +114,28 @@
     "end_to_end_background_submission_verified": false
   },
   "new_submissions": 0,
-  "completed_at": null,
-  "source_head": "cb7270a273ca452de64574ae3085015afae88a78",
-  "notes": [],
+  "completed_at": "2026-11-13T05:05:37.177Z",
+  "source_head": "2ca53d8184a44fa6ec78d1ab795e147a3968edf0",
+  "notes": [
+    "Fresh full Topview scan: 14 boards, 19 pages, 674 unique videos; 6 init/641 success/27 fail. All six individually remain init on exact My First Board with Seedance 2.0, 15s, 720p, 16:9, Unlimited true and creditsCost0.",
+    "41 registered queue task IDs present on My First Board, no nonterminal claims and no open owner tasks. Independent SHA256 of GitHub queue and task-map bytes matched readiness.",
+    "Direct active state last verified 2026-11-13T05:04:33.207Z. Prior wake issue headings suggesting a free slot are historical, not valid current capacity. Unmapped active d775c7a4 preserved, no repeat.",
+    "No Create or TinyFish paid run; Topview credit spend0. No changes to queue, master, claims, retry budget, checkpoint/next_action or role generation. Preferred Work status from previous verified restoration retained; no fresh Work GUI/quota proof.",
+    "Final receipt and release of exact owned lease are committed atomically in one Git tree and ref CAS transaction; release_commit intentionally null within its own content."
+  ],
   "slots": {
     "capacity": 6,
-    "occupied": null,
-    "free": null,
-    "source_checked_at": null
+    "occupied": 6,
+    "free": 0,
+    "source_checked_at": "2026-11-13T05:04:33.207Z"
+  },
+  "peer_reconciliation": {
+    "ordinary_last_run_id": "66815e86-78e0-832b-bb29-cff4aa0e05e9",
+    "ordinary_latest_result_run_id": "83d61e01-70a8-8320-a56d-bfcdd8f51b07",
+    "work_relay_last_run_id": "88605548-8fa8-8330-858a-e315e76c49a3",
+    "work_relay_latest_result_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d",
+    "work_HH55_last_run_id": "1690f949-1ffc-8321-bd92-d3117d2c36c0",
+    "work_HH55_latest_result_run_id": "1658357b-2320-8333-98ac-459762c93799",
+    "work_current_GUI_quota_verified": false
   }
 }
