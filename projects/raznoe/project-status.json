@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/projects/raznoe/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-13T13:12:27Z",
+  "synced_at": "2026-11-13T16:12:36Z",
   "revision_date": "11.11.2026",
   "master_declared_last_full_sync": "10.11.2026 · сцены 4–5 HONOR: меню, якоря и статусы сверены; канонических продуктовых PNG нет; заявка конкурса не отправлена; видео не запускалось. Сцена 3 RESOURCE без изменений: native-нарезка 19 клипов / 114 с; исходные вкладки 2 × 15 с сохранены; шесть попыток v1 в папке Саши не приняты.",
   "canonical_master_sha256": "986b94bc6c500bffe4810d29566ef241a6a5fe0e56e43685df0458a6e79172e8",
@@ -26,21 +26,21 @@
   "reserved_scene_ids": [],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-11-13T11:00:22.303Z",
+    "snapshot_at": "2026-11-13T14:08:06.848Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 2.201,
+    "age_hours_at_status_build": 2.075,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
         "drive_copy_sha256": "01fea9ed71bdb5c4b7899883dfef7250b9dc9d14ee0adebe36d0886bbe1dc4a9",
         "drive_copy_checked_at": "2026-11-13T11:00:22.303Z",
         "drive_copy_modified_at": "2026-11-11T10:59:32.031Z",
-        "github_blob": "79567285e5ce0c76a2f4cbb621d97e0afa3df738",
-        "mirror_sha256": "01fea9ed71bdb5c4b7899883dfef7250b9dc9d14ee0adebe36d0886bbe1dc4a9",
+        "github_blob": "ad85887504f0a2e8e3ea507abd1dd46bf2c022d4",
+        "mirror_sha256": "a75349e07854d70f962e33270d3f7e2f16e91a49b281a93cd8a40190764f8774",
         "match": true,
-        "drive_copy_match": true
+        "drive_copy_match": false
       },
       "SYNC-RUNBOOK.md": {
         "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
@@ -108,7 +108,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 2.201,
+      "age_hours": 2.075,
       "blocking": false
     },
     "topview_task_map": {
@@ -238,7 +238,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "11.11.2026",
-    "synced_at": "2026-11-13T13:12:27Z",
+    "synced_at": "2026-11-13T16:12:36Z",
     "canonical_master_sha256": "986b94bc6c500bffe4810d29566ef241a6a5fe0e56e43685df0458a6e79172e8",
     "canonical_revision_sha256": "5c086af7a39d50a17c2c204bd404a3d8d6e4bce1a7bad6447153ca78d44c4bd0",
     "scene_count": 5,
