@@ -13,12 +13,12 @@
   "source_head_started": "933dea107c7f9ff994c087a697086d09f95fa57e",
   "route_generation": 3,
   "started_at": "2026-11-13T15:08:54.540Z",
-  "updated_at": "2026-11-13T15:08:54.540Z",
-  "phase": "started",
-  "status": "in_progress",
-  "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
+  "updated_at": "2026-11-13T15:11:18.532Z",
+  "phase": "completed",
+  "status": "completed",
+  "scan_complete": true,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
   "task_ids": [],
   "browser_transport": "not_used",
@@ -36,15 +36,79 @@
     "acquired_at": "2026-11-13T15:08:07.313Z",
     "expires_at": "2026-11-13T15:23:07.313Z",
     "acquired_commit": "933dea107c7f9ff994c087a697086d09f95fa57e",
-    "released": false
+    "released": true,
+    "released_at": "2026-11-13T15:11:18.532Z"
   },
-  "outcome": "started",
+  "outcome": "no_free_slot",
   "acceptance": {
     "scheduled_execution_observed": true,
     "tinyfish_profile_signin_history_only": true,
     "current_tinyfish_login_control_file_upload_unlimited0_verified": false,
     "topview_task_id_verified_for_this_run": false,
     "end_to_end_background_submission_verified": false,
-    "receipt_saved_and_verified": false
+    "receipt_saved_and_verified": true
+  },
+  "completed_at": "2026-11-13T15:11:18.532Z",
+  "checked_at": "2026-11-13T15:10:27.766Z",
+  "source_head": "eaaca7460500549048081b23006cdb41799f6687",
+  "new_submissions": 0,
+  "blocker": null,
+  "retryable": false,
+  "scan": {
+    "source": "Topview connector read-only",
+    "scope": "all 14 editable boards; all video media pages, including zero-video boards",
+    "boards": 14,
+    "pages": 19,
+    "unique_video_tasks": 675,
+    "success": 642,
+    "failed": 27,
+    "active": 6,
+    "scan_complete": true,
+    "checked_at": "2026-11-13T15:05:05.147Z",
+    "active_task_details_checked_at": "2026-11-13T15:10:27.766Z",
+    "active_task_ids": [
+      "bfdb6d9fad7a4ab29492f7bb95c78033",
+      "d775c7a483a44f13ba1704a1c418b208",
+      "8c6d92662d1043c7a651168b2b8280ae",
+      "1dcb6fa0628d41b098227ca6c96f1630",
+      "a1330998d39b486e864ed4e22b4fe8c4",
+      "3a09108c8c474a0989118806b4a69f91"
+    ],
+    "main_board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "main_board_video_tasks": 508,
+    "active_params": {
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost": 0
+    }
+  },
+  "queue_reconciliation": {
+    "queue_items": 63,
+    "states": {
+      "blocked_owner_decision": 1,
+      "waiting_for_slot": 26,
+      "submitted": 30,
+      "completed": 3,
+      "blocked_inputs": 3
+    },
+    "transitional_claims": 0,
+    "owner_tasks_open": 0,
+    "readiness_sha_verified": true,
+    "readiness_queue_sha256": "92e5bd1d8eefc604d634fb24d7c81349dcd69a411193b37d338e4e15be70b0e8",
+    "readiness_task_map_sha256": "92c591c250978da5ce8da92706aa4342ee88f6c415e4dbfa459bd1e48b5d91dd",
+    "readiness_checked_at": "2026-11-13T15:01:39.465868Z",
+    "priority_choice": "not_selected_capacity_full",
+    "bot_issue_open_old_signal": "#636 result:be627af0e9664db5b6ac2b62c34080a6; superseded by complete 6/6 scan",
+    "route_generation": 3,
+    "preferred_executor": "work",
+    "work_restore_runtime_proof_this_cycle": false,
+    "processed_task_map_independently_reconciled_this_cycle": false
+  },
+  "expenses": {
+    "tinyfish_usd": 0,
+    "topview_credits": 0
   }
 }
