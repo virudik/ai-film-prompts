@@ -11,10 +11,10 @@
   "route_generation": 3,
   "source_head": "c41bc64da1f5872b3b20fbd9c7e9a61648e78ee6",
   "started_at": "2026-11-13T23:00:44.017Z",
-  "updated_at": "2026-11-13T23:01:22.456Z",
-  "checked_at": "2026-11-13T23:01:22.456Z",
-  "phase": "started",
-  "status": "started",
+  "updated_at": "2026-11-13T23:03:21.374Z",
+  "checked_at": "2026-11-13T23:03:21.374Z",
+  "phase": "completed",
+  "status": "completed",
   "scan_complete": true,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -42,9 +42,10 @@
     "acquired_at": "2026-11-13T23:00:44.017Z",
     "expires_at": "2026-11-13T23:20:44.017Z",
     "acquired_commit": "c41bc64da1f5872b3b20fbd9c7e9a61648e78ee6",
-    "released": false
+    "released": true,
+    "released_at": "2026-11-13T23:03:21.374Z"
   },
-  "outcome": "in_progress",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": false,
   "acceptance": {
@@ -52,12 +53,12 @@
     "current_tinyfish_login_control_file_upload_unlimited0_verified": false,
     "topview_task_id_verified_for_this_run": false,
     "end_to_end_background_submission_verified": false,
-    "receipt_saved_and_verified": false
+    "receipt_saved_and_verified": true
   },
   "new_submissions": 0,
   "scan": {
     "source": "Topview connector read-only",
-    "scope": "all 14 boards, all 19 video pages",
+    "scope": "all 14 boards, all 19 video pages including zero-video boards",
     "boards": 14,
     "pages": 19,
     "unique_video_tasks": 675,
@@ -74,34 +75,57 @@
       "a1330998d39b486e864ed4e22b4fe8c4",
       "3a09108c8c474a0989118806b4a69f91"
     ],
-    "checked_at": "2026-11-13T23:01:22.456Z",
+    "checked_at": "2026-11-13T23:03:21.374Z",
     "main_board_id": "1a6244cf1ae747ef847d949a80d6133c",
-    "main_board_video_tasks": 508
+    "main_board_video_tasks": 508,
+    "active_params": {
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "useUnlimitMode": true
+    }
   },
   "execution": {
-    "state": "started",
+    "state": "completed",
     "stage": "no_free_slot",
-    "updated_at": "2026-11-13T23:01:22.456Z"
+    "updated_at": "2026-11-13T23:03:21.374Z"
   },
-  "completed_at": null,
-  "source_head_final": null,
+  "completed_at": "2026-11-13T23:03:21.374Z",
+  "source_head_final": "9c4696a4b42d1847437b9acab72d70d28de631ee",
   "queue_reconciliation": {
-    "status": "sha_verified",
+    "status": "sha_verified_no_create",
+    "queue_items": 63,
+    "readiness_items": 30,
+    "readiness_ready": 26,
+    "transitional_claims": 0,
+    "queue_submitted_task_ids": 33,
+    "task_map_processed_count": 139,
+    "task_id_crossmatch_in_this_run": "all 139 processed task-map IDs and all 33 submitted queue IDs independently located in 508-video main board scan",
     "source_queue_sha256": "92e5bd1d8eefc604d634fb24d7c81349dcd69a411193b37d338e4e15be70b0e8",
     "source_task_map_sha256": "d6ad6da1f0f795e8dd80aeaf04c1a1693e8fce2902f80535f87aa945ed671c94",
     "sha256_match_independently_verified": true,
-    "checked_at": "2026-11-13T23:01:22.456Z"
+    "checked_at": "2026-11-13T23:03:21.374Z",
+    "historical_unknown_note": "S49B has archived 2026-11-07 submission_unknown history with create_click_count=0; remains preserved, not cleared or retried"
   },
   "peer_reconciliation": {
     "ordinary_automation_enabled": true,
-    "ordinary_runtime_run_id": "cedefe40-38b4-832d-b9af-262c10245128"
+    "work_hh55_enabled": true,
+    "relay_handler_enabled": true,
+    "ordinary_runtime_run_id": "cedefe40-38b4-832d-b9af-262c10245128",
+    "ordinary_latest_result_run_id": "8d916431-49c4-8322-8a4a-cc075def558c",
+    "work_runtime_run_id": "1b4b9058-53e0-8323-927b-1988576f2715",
+    "relay_runtime_run_id": "cf95fc42-67c8-832e-9995-dd98919c4e09",
+    "old_free_slot_issues_not_current_capacity": true
   },
   "owner_tasks_check": {
-    "status": "pending_final_summary"
+    "open": 0,
+    "taken": 0
   },
   "work_capacity_check": {
     "preferred_executor": "work",
-    "route_generation": 3
+    "route_generation": 3,
+    "note": "Work preference retained per registry's verified previous evidence; no new independent GUI/quota evidence this cycle."
   },
   "expenses": {
     "tinyfish_usd": 0,
