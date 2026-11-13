@@ -5,117 +5,32 @@
   "runner": "chatgpt_scheduled_task",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
   "executor": "work",
-  "run_id": "e228c4ba-8fec-832d-bb07-ca0734949dba",
+  "run_id": "70dec615-9010-832f-9a5f-0d0afddbd61b",
   "run_id_unavailable_reason": null,
   "runtime_run_id_source": "Automations.peek current last_run.id",
-  "execution_instance_id": "f921e229-0c0a-40a5-afb5-bc55756b82d7",
+  "execution_instance_id": "369a9dd3-9eeb-4cb9-9348-1c4cbea5bfcf",
   "route_generation": 3,
-  "source_head": "0025294a80c6031fa02c0cc614a6678e356e207f",
-  "source_head_final": "eb60ccb7cd5939a9aa945b626085c7114ae09285",
-  "started_at": "2026-11-13T14:58:19.142Z",
-  "checked_at": "2026-11-13T15:02:06.357Z",
-  "phase": "finished",
-  "scan_complete": true,
-  "boards_scanned": 14,
-  "pages_scanned": 21,
-  "video_tasks_scanned": 675,
-  "occupied_slots": 6,
-  "free_slots": 0,
+  "source_head": "e5d8fcf9f5edc6cede81aa00b2e3420fd18fbc34",
+  "started_at": "2026-11-13T16:54:40.713Z",
+  "checked_at": "2026-11-13T16:54:40.713Z",
+  "phase": "started",
+  "scan_complete": false,
+  "occupied_slots": null,
+  "free_slots": null,
   "selected_item": null,
-  "task_ids": [
-    "bfdb6d9fad7a4ab29492f7bb95c78033",
-    "d775c7a483a44f13ba1704a1c418b208",
-    "8c6d92662d1043c7a651168b2b8280ae",
-    "1dcb6fa0628d41b098227ca6c96f1630",
-    "a1330998d39b486e864ed4e22b4fe8c4",
-    "3a09108c8c474a0989118806b4a69f91"
-  ],
-  "outcome": "no_free_slot",
+  "task_ids": [],
+  "outcome": "started",
   "blocker": null,
-  "retryable": false,
-  "existing_submission_reconciled": {
-    "item_id": "S48-P4-R2",
-    "task_id": "bfdb6d9fad7a4ab29492f7bb95c78033",
-    "task_status": "init",
-    "task_created_at": "2026-11-13 14:50:55",
-    "queue_commit": "918406a5a4f6ffdf3b623e92f3f0fea6aa6b6276",
-    "origin": "peer_or_external_create_not_attributed",
-    "normalized_prompt_sha256": "726d18108811207b4dd747f69f1ba048be61220a44ccfc5cc4866eeda31d741f",
-    "full_normalized_prompt_match": true,
-    "input_order_match": true,
-    "model": "Seedance 2.0",
-    "duration_seconds": 15,
-    "resolution": 720,
-    "aspect_ratio": "16:9",
-    "useUnlimitMode": true,
-    "creditsCost": 0,
-    "create_performed_by_this_execution": false
-  },
-  "queue_reconciliation": {
-    "queue_items": 63,
-    "states": {
-      "blocked_owner_decision": 1,
-      "waiting_for_slot": 26,
-      "submitted": 30,
-      "completed": 3,
-      "blocked_inputs": 3
-    },
-    "claimed_or_submitting_or_unknown": 0,
-    "submitted_task_ids_checked": 30,
-    "submitted_statuses": {
-      "success": 27,
-      "fail": 2,
-      "init": 1
-    },
-    "submitted_not_found": 0,
-    "readiness_source_queue_sha256": "92e5bd1d8eefc604d634fb24d7c81349dcd69a411193b37d338e4e15be70b0e8",
-    "readiness_status": "stale_after_queue_reconciliation; do not use until robot rebuilds",
-    "note": "Source success/fail is not editorial approval; no automatic approval, rerun, delete or canonical-slow release."
-  },
-  "project_board": {
-    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-    "name": "My First Board",
-    "verified_against_projects_registry": true
-  },
+  "retryable": true,
   "peer_reconciliation": {
-    "ordinary_actual_last_run_id": "26e59d35-2944-8323-918e-578fa4edbaad",
-    "ordinary_actual_last_run_status": "in_progress",
-    "ordinary_latest_result_run_id": "f69173e5-5d18-832c-9119-89024358516c",
-    "ordinary_receipt_run_id": "a1c07b22-b858-8321-9f90-067219af83c5",
-    "ordinary_receipt_phase": "completed",
-    "same_run_proven": false,
-    "note": "Current ordinary completed run has no matching canonical ordinary receipt; no execution inferred from enabled/completed/latest_result alone."
-  },
-  "monitor_role_check": {
-    "command": "python3 scripts/monitor_role.py . --me chatgpt",
-    "action": "skip",
-    "reason": "collision guard unavailable; avoid concurrent write",
-    "telemetry_written": false
-  },
-  "owner_tasks_check": {
-    "checked_at": "2026-11-13T15:02:06.357Z",
-    "open_count": 0,
-    "taken_count": 0
-  },
-  "phases": {
-    "phase_a": "not_due_at_17_55_msk",
-    "phase_b": "not_due_at_17_55_msk",
-    "phase_c": "not_due_friday",
-    "canon_cleanup": "deferred_to_authorized_maintenance_phase; Topview queue handled first"
-  },
-  "work_capacity_check": {
-    "status": "not_reverified_this_cycle",
-    "note": "No fresh direct owner confirmation or current Work GUI/quota evidence; historical routing evidence not reused as current quota proof."
+    "ordinary_actual_last_run_id": "ea0cc296-61d0-832e-9238-eaa841709501",
+    "ordinary_latest_result_run_id": "ea0cc296-61d0-832e-9238-eaa841709501",
+    "ordinary_receipt_run_id": "ea0cc296-61d0-832e-9238-eaa841709501",
+    "same_run_proven": true
   },
   "lease": {
-    "holder": "chatgpt:work:f921e229-0c0a-40a5-afb5-bc55756b82d7",
-    "acquired_at": "2026-11-13T14:57:49.332Z",
-    "expires_at": "2026-11-13T15:12:49.332Z"
-  },
-  "topview_create": {
-    "performed": false,
-    "reason": "fresh_global_capacity_6_of_6_after_existing_S48-P4-R2_submission",
-    "credits_spent": 0,
-    "browser_used": false
+    "holder": "chatgpt:work:369a9dd3-9eeb-4cb9-9348-1c4cbea5bfcf",
+    "acquired_at": "2026-11-13T16:54:20.907Z",
+    "expires_at": "2026-11-13T17:09:20.907Z"
   }
 }
