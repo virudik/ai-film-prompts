@@ -14,7 +14,7 @@
   "route_generation": 3,
   "started_at": "2026-11-13T03:59:57.575Z",
   "checked_at": "2026-11-13T04:09:09.694Z",
-  "phase": "final_pending_release",
+  "phase": "completed",
   "status": "completed",
   "scan_complete": true,
   "scan": {
@@ -99,9 +99,9 @@
     "acquired_at": "2026-11-13T03:59:57.575Z",
     "expires_at": "2026-11-13T04:17:57.575Z",
     "acquired_commit": "c9c77506653f3c9c623a721d91840de64665bc2e",
-    "released": false,
-    "release_recorded_at": null,
-    "release_commit": null
+    "released": true,
+    "release_recorded_at": "2026-11-13T04:10:23.801Z",
+    "release_commit": "0a028e297f691fe3619d0e685c0a9f4048e3915d"
   },
   "outcome": "no_free_slot",
   "blocker": null,
@@ -114,7 +114,7 @@
     "end_to_end_background_submission_verified": false
   },
   "new_submissions": 0,
-  "completed_at": "2026-11-13T04:09:09.694Z",
+  "completed_at": "2026-11-13T04:10:23.801Z",
   "source_head": "f9282a30bb230962f6672c8c42f567b06411879d",
   "notes": [
     "Fresh full Topview scan across all 14 owned boards, 19 video pages, all 674 unique video tasks: 6 init, 641 success, 27 fail; 6/6 physical slots occupied.",
@@ -122,7 +122,7 @@
     "All 41 registered queue task IDs found in main board. Queue items have no nonterminal claimed/submitting/submission_unknown; no open owner-tasks. SHA-256 of exact GitHub queue and task-map bytes independently calculated with verified SHA256 implementation and matched fresh ops/queue-readiness.json.",
     "Latest bot launcher_health at 03:50 UTC had capacity_full, 0 free; wake issue headings referring to free slots are historical, not current capacity.",
     "Direct active verification completed 2026-11-13T04:09:41.497Z; all 6 remained init. No launch, no TinyFish run, no provider cost. Work preferred in route_generation3 as historically verified on Nov2; no fresh Work GUI/quota evidence to change route.",
-    "Checkpoint, next_action, retry_control and queue not modified. Receipt updated before release; release verified separately using GitHub contents-CAS."
+    "Checkpoint, next_action, retry_control and queue not modified. Receipt updated and exact own lock released in successive GitHub contents-CAS commits, each read back; atomic multi-file Git transaction unavailable through this connector."
   ],
   "slots": {
     "capacity": 6,
