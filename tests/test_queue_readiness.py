@@ -140,6 +140,47 @@ class QueueReadinessTests(unittest.TestCase):
         (self.root/'ops/topview-launch-queue.json').write_text(json.dumps(q))
         self.assertEqual(qr.launch_candidates(self.root)['chosen'],['S49B'])
 
+    def test_t601_named_order_puts_dances_between_dialogue_groups(self):
+        (self.root/'note.txt').write_bytes(b'story-ref')
+        (self.root/'end.mp4').write_bytes(b'excerpt-bytes')
+        digest=qr.digest(self.root/'note.txt')
+        clip=qr.digest(self.root/'end.mp4')
+        image=[{'slot':'@Image1','path':'note.txt','sha256':digest}]
+        def item(item_id, scene, priority, **extra):
+            row={'id':item_id,'scene_id':scene,'priority':priority,'state':'waiting_for_slot','references':image}
+            row.update(extra)
+            return row
+        s48=item('S48-P4-R2',48,0.300,depends_on_completed=['P3'],
+                 references=[{'slot':'@Video1','required':True,'canonical_role':'previous_part_end',
+                              'source_item_id':'P3','path':'end.mp4','sha256':clip,'input_status':'available'}])
+        parent={'id':'P3','scene_id':48,'state':'submitted','task_id':'T','references':[]}
+        consent={'owner_music_consent':True,'owner_music_consent_record':{'id':'owner-20261113-t601u','scope':'scene 28 dances'}}
+        dance=item('S28-A1-R2-20261025',28,0.308,**consent)
+        blocked=item('S28-A3-20261023',28,0.319,state='blocked_inputs',depends_on_completed=['S28-A2-R2-20261025'],
+                     references=[{'slot':'@Image4','required':True,'canonical_role':'continuity_frame',
+                                  'source_item_id':'S28-A2-R2-20261025','input_status':'required_not_available'}],
+                     **consent)
+        bare=item('S28-A4-20261023',28,0.001)
+        other=item('S59-SEED20-P3',59,0.01)
+        music=item('S51E',51,0.05)
+        held=item('S62-SEED20-P1-R2-20261108',62,-1)
+        rows=[item('S89H-WAN30',89,0.321),dance,blocked,bare,item('S89A-WAN30',89,0.301),
+              item('S89G-WAN30',89,0.307),s48,other,music,held,parent]
+        self.run_case(rows,[{'task_id':'T','final_status':'success'}])
+        q=json.loads((self.root/'ops/topview-launch-queue.json').read_text())
+        q['owner_policy_20261108_t369u']={'effect':'music_requires_owner_consent','scenes':[28,49,50,51]}
+        q['owner_policy_20261109_t422u']={'effect':'tatooine_chain_first','tatooine_chain':['S52-R2-SEED20-P4'],'hold_scenes':[62]}
+        q['owner_policy_20261113_t601u']={'effect':'explicit_front_order','order':[
+            'S48-P4-R2','S89A-WAN30','S89G-WAN30','S28-A1-R2-20261025','S28-A3-20261023','S28-A4-20261023','S89H-WAN30']}
+        (self.root/'ops/topview-launch-queue.json').write_text(json.dumps(q))
+        picked=qr.launch_candidates(self.root)
+        self.assertEqual(picked['chosen'],['S48-P4-R2','S89A-WAN30','S89G-WAN30','S28-A1-R2-20261025','S89H-WAN30','S59-SEED20-P3'])
+        reasons={row['id']:row['reason'] for row in picked['skipped']}
+        self.assertEqual(reasons['S28-A3-20261023'],'waiting_result')
+        self.assertEqual(reasons['S28-A4-20261023'],'music_owner_consent_required')
+        self.assertEqual(reasons['S51E'],'music_owner_consent_required')
+        self.assertEqual(reasons['S62-SEED20-P1-R2-20261108'],'owner_hold')
+
     def test_does_not_mutate_queue_or_repeat_unchanged_write(self):
         self.run_case([self.first]);before=(self.root/'ops/topview-launch-queue.json').read_bytes()
         self.assertTrue(qr.write(self.root));self.assertFalse(qr.write(self.root))

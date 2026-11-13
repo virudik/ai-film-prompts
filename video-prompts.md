@@ -6,7 +6,7 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**46 сцен к генерации/доработке · 263 полных текста промта**
+**46 сцен к генерации/доработке · 264 полных текста промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 24** сцены сейчас в медленной генерации: **16, 28, 42, 48, 49, 51, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 66, 67, 68, 69, 70, 71, 72, 73** — **5 активных Topview-задач / 5 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
@@ -17,7 +17,7 @@
 
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
-**Синхронизация контекста:** **12.11.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **46 актуальных сцен и 263 полных текста промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 43, 44, 45, 46, 47, 53, 54 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16, 28, 42, 48, 49, 51, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 66, 67, 68, 69, 70, 71, 72, 73**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **12.11.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **46 актуальных сцен и 264 полных текста промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 43, 44, 45, 46, 47, 53, 54 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16, 28, 42, 48, 49, 51, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 66, 67, 68, 69, 70, 71, 72, 73**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 **Новые промты 09.10.2026:** Scene 20 расширена вставками 12–13, добавлены Scenes 29–34 с полными production-промтами и имеющимися референсами: кантина (часть 3), три разрушительных боя, исследование руин и вход в храм. Это новые тексты для запуска, а не уже выполненные/одобренные Topview-результаты. Танцы Scene 28 и их неподтверждённые вспомогательные фото не менялись.
 
@@ -3384,6 +3384,59 @@ Rushing wind, the worm’s roar and a deep whoosh as it dives, the hiss of sand 
 
 NEGATIVE PROMPT:
 Serega falling, rolling or landing on his back, worm swallowing or biting anyone, the worm entering the city, worm smashing the wall or gate, second worm, saddle, reins, lit saber, vehicles or ships, hologram or visible module, smiling or mugging in the deadpan beat, panicking crowd, slow motion, frozen tableau, feet sliding without weight, identity drift, costume changes, gothic cathedral spires, subtitles, text, logo, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 48 · Seedance 2.0 часть 4 · R2
+
+**Переделка 13.11.2026 (t599u, дефект t600u).** Блок выше — текст, ушедший в task `6a70fae84abf401cb93f8c762b8c26e3` (09.11.2026, success, 0 кредитов). Его не заменять и не удалять. В той попытке Серёга задвоился. Причина по референсам: `@Image1` — лист из четырёх фигур в рост и трёх портретов одного человека; `@Image4` ставит того же Серёгу уже стоящим у ворот, тогда как `@Video1` начинает его на черве. Модель читает это как двух людей. `@Image3` Серёгу не содержит: у ворот джава, фермер и дроид.
+
+**Входы те же:** @Video1 — настоящие последние 3 с 48.3 (`references/scenes/scene-48/S48-P3-last3s.mp4`); @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-16/S16-worm-scale.png`; @Image3 — [ворота города](references/scenes/scene-48/S48-P4-city-gate.png); @Image4 — [тот же Серёга у ворот после спуска](references/scenes/scene-48/S48-P4-dismount-landing.png).
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action desert comedy | A fast ride ends in a deadpan dismount at the city gate. Exactly one Serega from the first frame to the last.
+
+ONE SEREGA — CRITICAL:
+Exactly one Serega exists in the whole shot. He is the same man from start to end: the rider, the man who slides, and the man who walks into the gate are one body. No double, no twin, no reflection-copy, no second person with his face, no second plum robe, and no leftover copy standing at the gate while he is still on the worm.
+@Image1 is a turnaround sheet of this one man only: a front view, a left profile, a right profile and a back view, plus three face portraits. Those drawings are alternate views of one person. Do not place the sheet's extra bodies or extra faces into the scene.
+@Video1 begins with this same man close, riding the worm. @Image4 is the later landing of this same man, already off the worm and standing before the gate. Do not put the @Image4 figure into the opening. The sand in front of the gate stays empty of Serega until he himself slides there. When he stands at the gate, he is no longer on the worm. The place he left is empty.
+@Image1 controls his face, age, bald crown, sparse light hair and deep plum hood-down robe. @Image4 controls only the later pose and the spot. Never treat the two pictures as two men.
+
+WHO ELSE IS IN THE FRAME:
+Exactly three others stay by the gate the whole time. None of them has Serega's face or his plum robe:
+- JAWA, seen in @Image3 and again in @Image4: one small figure in a brown hooded robe with glowing eyes. Not a human and not Serega.
+- MOISTURE FARMER, seen in @Image3 and again in @Image4: one taller human in a light dusty tunic and head wrap. A different face and different clothes from the bald man in the plum robe.
+- SMALL DROID, seen in @Image3 and again in @Image4: one boxy astromech. No human face.
+The same three bystanders appear in both stills; do not add a second Jawa, a second farmer or a second droid. The worm is one creature, not a person. No other humans and no crowd.
+
+@Video1 is the actual last three seconds of Part 3: begin on its exact final frame and continue the motion with no replay or reset — the one Serega close, grinning, racing on the worm straight at the gate.
+@Image2 fixes the single colossal worm's segmented hide, girth and circular mouth.
+@Image3 fixes the city gate, the sandstone wall, the strip of open sand before it, and the three bystanders. Serega is not in this picture.
+@Image4 is the later landing of the same Serega: upright on his feet in the open sand a few metres before the gate, a long fresh furrow behind him, robe settling, deadpan face.
+Priority: @Video1 controls the start and motion; @Image1 the one face and costume; @Image2 the worm; @Image3 the place and the three bystanders; @Image4 the later landing pose and spot of that same man.
+
+0–3 s | Continue @Video1 at full speed. The only Serega is the rider. Then cut on motion to a wide frontal-diagonal shot from beside the gate: the colossal worm races straight at the wall with that same Serega riding low on its back. The open sand before the gate has nobody in a plum robe yet. The Jawa, the farmer and the droid flinch back.
+3–6 s | THE DIVE: a few dozen metres before the gate the worm abruptly dives nose-first into the sand like a whale, its body sliding down and under in one smooth arc. The same Serega keeps his balance and rides the sinking back down as it disappears beneath his boots. He does not split into a rider and a man already waiting.
+6–10 s | THE SLIDE: the last ring vanishes. Still in his surfer stance, the same Serega skids on across the sand on his boot soles by inertia, throwing a long fan of sand, and stops upright exactly at the spot of @Image4, a few metres before the gate. Behind him the sand sinks back into a long smooth furrow. The place he left on the worm is empty.
+10–15 s | DEADPAN: medium shot, his face completely composed and serious, no smile. He straightens his robe, shakes a stream of sand out of one sleeve, pats the hidden module once through the cloth and walks into the gate as if this were his usual commute. Still exactly one Serega. The Jawa and the farmer stare after him, frozen; the droid's head swivels to follow. Behind him the tip of the worm's tail rises from the sand, flicks once and slips back under.
+
+CAMERA:
+Fast tracking, then one motivated cut on motion into the wide for the dive; low side tracking during the slide; settle into a steady medium for the deadpan beat, then a short follow as he walks into the gate. Faces readable; never tiny during the gag. Do not frame a second Serega in the background.
+
+PERFORMANCE:
+The ride and the slide are fast and physical, with real weight and planted boots. The dismount is funny through timing and total composure: no flailing, no fall, no surprise on his face. Bystanders react with small frozen stares, not slapstick. Full-body motion at real-time speed.
+
+LIGHTING / MATERIALS:
+Harsh warm desert sunlight, dry haze, flying sand, realistic cloth and dust; sand pouring off the worm as it dives and trickling from his sleeve. No mirror, glass or wet reflection that copies his face.
+
+AUDIO:
+Rushing wind, the worm's roar and a deep whoosh as it dives, the hiss of sand under his skidding boots, sudden quiet, sand trickling from his sleeve, a soft swish of the tail, his footsteps into the gate. No dialogue, narrator or score.
+
+NEGATIVE PROMPT:
+Two Seregas, a twin, a double, a reflection-copy, a second bald face, a second plum robe, the @Image1 sheet poses standing in the scene, the @Image4 man present before he arrives, Serega left behind on the sand or on the worm, Serega falling, rolling or landing on his back, worm swallowing or biting anyone, the worm entering the city, worm smashing the wall or gate, second worm, saddle, reins, lit saber, vehicles or ships, hologram or visible module, smiling or mugging in the deadpan beat, panicking crowd, extra humans, a second Jawa, a second farmer, a second droid, slow motion, frozen tableau, feet sliding without weight, identity drift, costume changes, gothic cathedral spires, subtitles, text, logo, watermark, black bars.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.

@@ -311,6 +311,24 @@ class StandingCommandTests(CursorHostOwnerCommandTests):
             self.cfg, self.lock, self.story(id='S-fresh'), standing, self.scan, GROK_NOW, ledger=ledger)
         self.assertEqual(item['claim']['host_run']['standing_command_id'], 't413u-20261109')
 
+    def test_t601_consent_lets_scene_28_through_and_leaves_other_music_denied(self):
+        actor = self.standing_actor()
+        consent = {'owner_music_consent': True, 'owner_music_consent_record': {'id': 'owner-20261113-t601u'}}
+        dance = self.story(scene_id=28, id='S28-A4-20261023', **consent)
+        item, _ = lc.prepare_transaction(
+            self.cfg, self.lock, dance, actor, self.scan, GROK_NOW, ledger=self.ledger)
+        self.assertEqual(item['claim']['owner_command']['standing_command_id'], 't413u-20261109')
+        denied = [
+            self.story(scene_id=28, id='S28-bare'),
+            self.story(scene_id=49, id='S49B', **consent),
+            self.story(scene_id=51, id='S51E', **consent),
+        ]
+        for item in denied:
+            with self.subTest(item=item['id']), self.assertRaises(lc.Blocked):
+                lc.prepare_transaction(
+                    self.cfg, self.lock, item, self.standing_actor(request_id='eeeeeeee-ffff-4000-8000-222222222222'),
+                    self.scan, GROK_NOW, ledger=self.ledger)
+
     def test_music_hold_budget_scan_and_child_env_still_fail(self):
         actor = self.standing_actor()
         for item in (self.story(scene_id=51), self.story(scene_id=62),

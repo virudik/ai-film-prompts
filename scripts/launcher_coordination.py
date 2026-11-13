@@ -101,8 +101,20 @@ def standing_record(config, actor):
     return match
 
 
+def t601_dance_consent(item):
+    """t601u, 13.11.2026. Only the named scene-28 dances. Other music stays closed."""
+    if not isinstance(item, dict) or item.get('scene_id') != 28 or item.get('owner_music_consent') is not True:
+        return False
+    record = item.get('owner_music_consent_record')
+    return isinstance(record, dict) and record.get('id') == 'owner-20261113-t601u'
+
+
 def check_standing_scope(config, actor, item):
-    """Standing authority is ready story, one free attempt. It does not open music or a held scene."""
+    """Standing authority is ready story, one free attempt. It does not open music or a held scene.
+
+    t601u is the later owner yes for the listed scene-28 dances. That consent does not
+    open scenes 49, 50 or 51, and a scene-28 item without it stays denied.
+    """
     record = standing_record(config, actor)
     if record is None:
         return None
@@ -110,7 +122,8 @@ def check_standing_scope(config, actor, item):
     scene = item.get('scene_id')
     if scene in (scope.get('hold_scenes') or []):
         raise Blocked('standing_command_scene_held')
-    if scope.get('music_dance') is False and scene in (scope.get('excluded_scenes') or []):
+    if (scope.get('music_dance') is False and scene in (scope.get('excluded_scenes') or [])
+            and not t601_dance_consent(item)):
         raise Blocked('standing_command_music_denied')
     if scope.get('one_attempt') is True and item.get('max_new_submissions') != 1:
         raise Blocked('standing_command_one_attempt')

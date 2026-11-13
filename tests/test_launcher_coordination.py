@@ -233,6 +233,16 @@ class GrokHelperTests(unittest.TestCase):
         with self.assertRaises(lc.Blocked): self.intent(item=item)
         item = self.retry_item(); del item['retry_control']
         with self.assertRaises(lc.Blocked): self.intent(item=item)
+    def test_fresh_create_rejects_a_prewritten_retry_control(self):
+        item = copy.deepcopy(self.item)
+        item['automatic_retry'] = False
+        item['retry_control'] = {'policy_id': 'owner-20261112-t592u-no-retry', 'max_retry_attempts': 0,
+                                 'retry_attempts_used': 0}
+        with self.assertRaises(lc.Blocked) as caught:
+            self.intent(item=item)
+        self.assertIn('retry_control_policy_mismatch', str(caught.exception))
+        del item['retry_control']
+        self.assertEqual(self.intent(item=item)['state'], 'submitting')
     def test_grok_retry_denied_when_policy_disabled(self):
         cfg = copy.deepcopy(self.cfg); cfg['grok_launcher']['retries']['enabled'] = False
         with self.assertRaises(lc.Blocked): self.intent(cfg=cfg, item=self.retry_item())
@@ -490,10 +500,20 @@ class GrokReviewRegressionTests(unittest.TestCase):
         import json
         q=json.loads((Path(__file__).resolve().parents[1]/'ops/topview-launch-queue.json').read_text())
         h=self.helper
+        recorded=list(q['items'])+list(q.get('archived_items') or [])
         for key in ('S48-SEED20-P2','S56-SEED20-P2'):
-            item=next(x for x in q['items'] if x['id']==key)
+            item=next(x for x in recorded if x['id']==key)
             self.assertTrue(item.get('board_id',q['board_id'])==BOARD)
             lc.check_grok_policy(h.cfg,item,h.actor,GROK_NOW,queue_board_id=q['board_id'])
+    def test_scene89_first_create_is_not_marked_as_a_retry(self):
+        import json
+        q=json.loads((Path(__file__).resolve().parents[1]/'ops/topview-launch-queue.json').read_text())
+        ids=[f'S89{part}-WAN30' for part in 'ABCDEFGHIJ']
+        for key in ids:
+            item=next(x for x in q['items'] if x['id']==key)
+            self.assertFalse(item['automatic_retry'])
+            self.assertNotIn('retry_control', item)
+            self.assertNotIn('submission_history', item)
 
 class FreeUnlimitedCostTests(unittest.TestCase):
     def base(self, **extra):

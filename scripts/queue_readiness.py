@@ -237,11 +237,30 @@ def link_rank(item):
     return 1 if linked else 0
 
 
-def launch_band(queue, item):
-    """t422u: Tatooine chain, then other linked story, then singles, then music.
+def t601_order(queue):
+    """t601u, 13.11.2026 14:40 MSK. Absent unless this decision is on the queue.
 
-    Without that decision the older order remains: unlinked story, then a ready join.
+    Named items launch in this list order, ahead of the t422u bands. A missing
+    excerpt, an unmet dependency or missing music consent still skips the item.
     """
+    policy = queue.get('owner_policy_20261113_t601u') if isinstance(queue, dict) else None
+    if not isinstance(policy, dict) or policy.get('effect') != 'explicit_front_order':
+        return None
+    order = policy.get('order')
+    if not isinstance(order, list) or not all(isinstance(item_id, str) and item_id for item_id in order):
+        return None
+    return order
+
+
+def launch_band(queue, item):
+    """t601u named order, then t422u: Tatooine chain, linked story, singles, music.
+
+    Without t422u the older order remains: unlinked story, then a ready join.
+    """
+    order = t601_order(queue)
+    item_id = item.get('id') if isinstance(item, dict) else None
+    if order and item_id in order:
+        return (-1, order.index(item_id))
     policy = t422_policy(queue)
     if policy is None:
         return (link_rank(item), 0)
@@ -260,6 +279,7 @@ def launch_band(queue, item):
 def launch_candidates(root, limit=None):
     """Priority order of items that are actually ready to Create. Read-only.
 
+    With t601u: the named front order, then the t422u bands.
     With t422u: the Tatooine chain, then other linked story, then singles, then music.
     Otherwise: story with no link, then story whose join is already ready.
     Music and dance are not a fallback: t369u requires a new owner consent.
