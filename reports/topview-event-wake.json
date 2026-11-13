@@ -1095,6 +1095,30 @@
         }
       ],
       "next_action": "Monitor existing task IDs; next real wake/hourly cycle rescans all slots. Do not repeat S49A."
+    },
+    {
+      "event_id": "result:be627af0e9664db5b6ac2b62c34080a6",
+      "issue_number": 636,
+      "message_id": "247007796016435200",
+      "relay_event_id": "evt_0dc144328f3e2379a25ff304ab94cd75",
+      "checked_at": "2026-11-13T14:47:32.630Z",
+      "outcome": "started",
+      "reason": "Authenticated bot issue; intake.",
+      "task_ids": [],
+      "retryable": true,
+      "source": "Agent Relay webhook",
+      "runner": "chatgpt_event_trigger",
+      "execution_instance_id": "bc6b3c4b-c780-415b-ac8f-8d5becd123d7",
+      "route_generation": 3,
+      "run_id": null,
+      "run_id_reason": "Runtime run_id not exposed",
+      "execution": {
+        "state": "intake",
+        "stage": "intake",
+        "started_at": "2026-11-13T14:47:32.630Z",
+        "updated_at": "2026-11-13T14:47:32.630Z"
+      },
+      "new_submissions": 0
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
