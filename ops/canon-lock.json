@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": null,
-  "task": null,
-  "acquired_at": null,
-  "expires_at": null,
-  "released_at": "2026-11-13T14:09:23.654Z",
+  "state": "held",
+  "holder": "chatgpt:work:bc6b3c4b-c780-415b-ac8f-8d5becd123d7",
+  "task": "Relay #636 reconcile slots and process authorized queue",
+  "acquired_at": "2026-11-13T14:47:05.690Z",
+  "expires_at": "2026-11-13T15:17:05.690Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
