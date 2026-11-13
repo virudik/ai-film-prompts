@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": null,
-  "task": null,
-  "acquired_at": null,
-  "expires_at": null,
-  "released_at": "2026-11-13T20:11:57.116Z",
+  "state": "held",
+  "holder": "chatgpt:work:55147955-5ade-4059-99e7-435632941bb7",
+  "task": "topview_launcher_cycle",
+  "acquired_at": "2026-11-13T21:00:12.144Z",
+  "expires_at": "2026-11-13T21:15:12.144Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
