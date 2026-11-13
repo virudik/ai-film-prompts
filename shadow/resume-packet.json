@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-13T13:54:02+00:00",
-  "source_head": "715e7bd6d4020dfccd092e135bb7d9a03c272491",
-  "source_fingerprint": "46099e4d285e62ba308ab93018f6921d9e08d824ebdc36a78e7930cf52497d5e",
+  "checked_at": "2026-11-13T14:04:43+00:00",
+  "source_head": "e9389decb39d133ad5023cbe8dbfe8e70efd6af5",
+  "source_fingerprint": "5448cc11ef9a7b19f84df0109647022225f7bdf5e89f5bb51448c83fd3b28c9c",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -519,21 +519,21 @@
     ],
     "next_candidates": [
       {
-        "item_id": "S62-SEED20-P1-R2-20261108",
+        "item_id": "S48-P4-R2",
         "state": "waiting_for_slot",
         "task_id": null,
         "recovery_action": "fresh_launch_preflight_required",
         "submit_authorized": false
       },
       {
-        "item_id": "S51E",
+        "item_id": "S89A-WAN30",
         "state": "waiting_for_slot",
         "task_id": null,
         "recovery_action": "fresh_launch_preflight_required",
         "submit_authorized": false
       },
       {
-        "item_id": "S51F",
+        "item_id": "S89B-WAN30",
         "state": "waiting_for_slot",
         "task_id": null,
         "recovery_action": "fresh_launch_preflight_required",
@@ -595,12 +595,12 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "735beb6fe57b61cb931d7a0dc675b496084900d34211d930413d51f7ca912e3e",
-      "bytes": 337199
+      "sha256": "f027ff3383f1941ad6c0b9bcf830377e3ac547f92a928337395b279e2b9d25d5",
+      "bytes": 384722
     },
     {
       "file": "project-status.json",
-      "sha256": "c1a2201d3b6e567c58f917c35b6826e2f6dc8424e9ca543f5ac5f7f92fa4042a",
+      "sha256": "474d48b6790709fa22b0841c4ff386cf69fc8311ebf7a30dc46e76393335de22",
       "bytes": 29560
     },
     {
@@ -635,13 +635,13 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "27b6573495a40ed8e087f83d70cfa76f6495c2ff5d049f203083e1e8205ea949",
+      "sha256": "1c1858f191a229cd8ae2e783635107fe54222bbfa246c9fefca756ab10346ce3",
       "bytes": 32399
     },
     {
       "file": "video-prompts.md",
-      "sha256": "b8f26e8462387013ff286c7c204587106e1975db17200b13fcab72cf5a108f8e",
-      "bytes": 1974961
+      "sha256": "9d7a73c85b9bd213a53615a427336fa6996c4c67d7591b29946e338556b58024",
+      "bytes": 1982779
     },
     {
       "file": "work-resume-register.json",
