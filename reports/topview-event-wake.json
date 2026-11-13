@@ -1101,10 +1101,12 @@
       "issue_number": 636,
       "message_id": "247007796016435200",
       "relay_event_id": "evt_0dc144328f3e2379a25ff304ab94cd75",
-      "checked_at": "2026-11-13T14:47:32.630Z",
-      "outcome": "started",
-      "reason": "Authenticated bot issue; intake.",
-      "task_ids": [],
+      "checked_at": "2026-11-13T14:49:27.802Z",
+      "outcome": "blocked_browser",
+      "reason": "Full 14-board/21-page scan: 5 active videos, 1 free slot. Originating browser context unavailable in two access attempts about one minute apart. No UI preflight, claim, intent or Create.",
+      "task_ids": [
+        "be627af0e9664db5b6ac2b62c34080a6"
+      ],
       "retryable": true,
       "source": "Agent Relay webhook",
       "runner": "chatgpt_event_trigger",
@@ -1113,10 +1115,11 @@
       "run_id": null,
       "run_id_reason": "Runtime run_id not exposed",
       "execution": {
-        "state": "intake",
-        "stage": "browser_access_retry",
+        "state": "blocked",
+        "stage": "blocked_browser",
         "started_at": "2026-11-13T14:47:32.630Z",
-        "updated_at": "2026-11-13T14:48:19.657Z"
+        "updated_at": "2026-11-13T14:49:27.802Z",
+        "finished_at": "2026-11-13T14:49:27.802Z"
       },
       "new_submissions": 0,
       "scan": {
@@ -1314,8 +1317,17 @@
         {
           "at": "2026-11-13T14:48:07.667Z",
           "reason": "Browser access requires originating browser context"
+        },
+        {
+          "at": "2026-11-13T14:49:11.031Z",
+          "reason": "Browser access requires originating browser context"
         }
-      ]
+      ],
+      "next_action": "Next genuine wake/hourly/ordinary executor rechecks browser access and fresh main, existing submissions, input QC and all physical slots; no new Continue required.",
+      "retention": {
+        "outcome": "checked_no_transfer",
+        "checked_at": "2026-11-13T14:51:16.077Z"
+      }
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",

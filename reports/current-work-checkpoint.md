@@ -1,3 +1,7 @@
+<!-- relay-current-start -->
+Relay #636 · 2026-11-13T14:49:27.802Z · result:be627af0e9664db5b6ac2b62c34080a6 · blocked_browser, retryable=true. Полный скан: 14 досок / 21 страница, 5/6 слотов занято; результат подтверждён success. Доступ к браузеру не восстановлен за 2 попытки; claim/intent/Create=0. Следующая настоящая wake/hourly/ordinary проверка повторно проверяет доступ и свежую очередь; текущие next_action/recovery и незавершённые task IDs сохранены. Квитанция: reports/topview-event-wake.json.
+<!-- relay-current-end -->
+
 # 13.11.2026 17:05 МСК — контрольная точка t611u
 
 work_id: SEREGIUS-SHIFT-20261113-T611U
