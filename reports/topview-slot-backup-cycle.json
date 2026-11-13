@@ -11,20 +11,74 @@
   "runtime_run_id": "e89a6b38-cf88-832f-b0ae-f613c2141cf2",
   "runtime_run_id_source": "Automations.peek last_run.id scheduled_for 2026-11-13T09:00:00Z; observed in_progress",
   "source_head_started": "3cfdca39e9929722ab72a1da56304fc3ef8e9a78",
-  "source_head": "0c1b39931e9da4b7bad39be8e307aee52273dde9",
+  "source_head": "19b51c8eb220d7bd9cd38250835b2a0a637a4464",
   "route_generation": 3,
   "started_at": "2026-11-13T09:07:02.326Z",
-  "checked_at": null,
-  "phase": "started",
-  "status": "in_progress",
-  "scan_complete": false,
+  "checked_at": "2026-11-13T09:11:53.531Z",
+  "phase": "completed",
+  "status": "completed",
+  "scan_complete": true,
   "scan": {
-    "source": "not_yet_checked",
-    "scope": null,
-    "scan_complete": false
+    "source": "Topview connector read-only; direct complete scan of all editable boards and all video pages in this invocation; main board registry cross-check and six active individually verified",
+    "scope": "14 editable boards, 19 video pages, 674 unique video tasks",
+    "boards_scanned": 14,
+    "pages_scanned": 19,
+    "video_tasks_scanned": 674,
+    "main_board_video_tasks": 507,
+    "main_board_all_materials": 731,
+    "status_counts": {
+      "success": 641,
+      "fail": 27,
+      "init": 6
+    },
+    "active_task_ids": [
+      "d775c7a483a44f13ba1704a1c418b208",
+      "8c6d92662d1043c7a651168b2b8280ae",
+      "1dcb6fa0628d41b098227ca6c96f1630",
+      "a1330998d39b486e864ed4e22b4fe8c4",
+      "3a09108c8c474a0989118806b4a69f91",
+      "be627af0e9664db5b6ac2b62c34080a6"
+    ],
+    "unmapped_active_task_ids": [
+      "d775c7a483a44f13ba1704a1c418b208"
+    ],
+    "current_invocation_direct_full_scan": true,
+    "scan_complete": true,
+    "checked_at": "2026-11-13T09:11:04.709Z",
+    "capacity": 6,
+    "occupied_slots": 6,
+    "free_slots": 0,
+    "active_verified_params": {
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost_each": 0
+    },
+    "queue_items": 61,
+    "queue_states": {
+      "blocked_owner_decision": 1,
+      "submitted": 38,
+      "waiting_for_slot": 16,
+      "completed": 3,
+      "blocked_inputs": 3
+    },
+    "unique_submitted_task_ids_in_queue": 41,
+    "all_queue_task_ids_found_in_main_board": true,
+    "queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+    "task_map_sha256": "80ffbc50ef91914230ec9415ca3b1803c38ea219ec3283f7401c6b6af218e5a8",
+    "readiness_sha_matches": true,
+    "readiness_checked_at": "2026-11-13T09:00:42.919557Z",
+    "nonterminal_claims": 0,
+    "open_owner_tasks": 0,
+    "taken_owner_tasks": 0,
+    "robot_launcher_health_checked_at": "2026-11-13T09:00:29Z",
+    "ready_derived_items": 16
   },
-  "occupied_slots": null,
-  "free_slots": null,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
   "task_ids": [],
   "browser_transport": "not_used",
@@ -42,9 +96,12 @@
     "acquired_at": "2026-11-13T09:07:02.326Z",
     "expires_at": "2026-11-13T09:27:02.326Z",
     "acquired_commit": "0c1b39931e9da4b7bad39be8e307aee52273dde9",
-    "released": false
+    "released": true,
+    "release_recorded_at": "2026-11-13T09:11:53.531Z",
+    "release_commit": null,
+    "atomic_release_with_receipt": true
   },
-  "outcome": "in_progress",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": false,
   "acceptance": {
@@ -54,5 +111,29 @@
     "topview_task_id_verified_for_this_run": false,
     "end_to_end_background_submission_verified": false
   },
-  "new_submissions": 0
+  "new_submissions": 0,
+  "completed_at": "2026-11-13T09:11:53.531Z",
+  "slots": {
+    "capacity": 6,
+    "occupied": 6,
+    "free": 0,
+    "source_checked_at": "2026-11-13T09:11:04.709Z"
+  },
+  "peer_reconciliation": {
+    "ordinary_last_run_id": "e89a6b38-cf88-832f-b0ae-f613c2141cf2",
+    "ordinary_latest_result_run_id": "9ce5bf98-34ec-8324-8aa5-c27e3b9b2f20",
+    "work_relay_last_run_id": "88605548-8fa8-8330-858a-e315e76c49a3",
+    "work_relay_latest_result_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d",
+    "work_HH55_last_run_id": "79eef960-f34c-8325-9a2d-d07009c2e82b",
+    "work_HH55_latest_result_run_id": "1658357b-2320-8333-98ac-459762c93799",
+    "work_current_GUI_quota_verified": false
+  },
+  "notes": [
+    "Fresh direct scan of all 14 boards, 19 pages and 674 unique videos: success641, fail27, init6, physical slots6/6.",
+    "All six active tasks individually read: exact My First Board, Seedance2.0, 15 seconds, 720p, 16:9, Unlimited true and Topview credits0. Initial transient detail error for a133... resolved by read-only retry.",
+    "All 41 queue-submitted task IDs found on target board (507 videos). Queue and task map SHA-256 independently computed and equal current readiness.",
+    "No active nonterminal queue claims and no open/taken owner tasks; unmapped d775... remains active, no duplicate Create.",
+    "TinyFish file-upload native UI blocker from 2026-11-06 unchanged; at 6/6 no metered browser runs, no new production submission and no credits spent. Restored Work preference has no new current GUI/quota evidence, no route switch.",
+    "Final receipt and exact own lease release in same CAS guarded commit; queue, checkpoint, next_action, retry budgets and automations untouched."
+  ]
 }
