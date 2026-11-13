@@ -5,15 +5,15 @@
   "runner": "chatgpt:ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
   "automationID": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "5133081f-70af-41d5-bb7e-fd8630739ba4",
-  "holder": "chatgpt:ordinary:5133081f-70af-41d5-bb7e-fd8630739ba4",
-  "run_id": "d21dd408-cab8-8328-8b4c-868b609e4886",
-  "runtime_run_id": "d21dd408-cab8-8328-8b4c-868b609e4886",
-  "runtime_run_id_source": "Automations.peek last_run.id scheduled_for 2026-11-13T10:00:00Z observed in_progress",
-  "source_head_started": "e292b41ba1265c1955be11f7be50590fb84fd6b7",
-  "source_head": "e6035426af116bb850d16fc7fd43b370053ca8a5",
+  "execution_instance_id": "40da6a83-2cfe-4590-85ef-3609858d55a4",
+  "holder": "chatgpt:ordinary:40da6a83-2cfe-4590-85ef-3609858d55a4",
+  "run_id": "b7f0d56f-34a4-8333-bb15-d02c508d17b9",
+  "runtime_run_id": "b7f0d56f-34a4-8333-bb15-d02c508d17b9",
+  "runtime_run_id_source": "Automations.peek last_run.id; scheduled_for 2026-11-13T11:00:00Z observed in_progress; started_at 2026-11-13T10:55:37.872054Z",
+  "source_head_started": "98855877d91381022f605b43e3e00daa7dd93fdd",
+  "source_head": "0e4587a66a858cd63f20379d39cfb19371196663",
   "route_generation": 3,
-  "started_at": "2026-11-13T10:05:53.417Z",
+  "started_at": "2026-11-13T10:58:58.517Z",
   "checked_at": null,
   "phase": "started",
   "status": "in_progress",
@@ -39,10 +39,10 @@
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:5133081f-70af-41d5-bb7e-fd8630739ba4",
-    "acquired_at": "2026-11-13T10:05:53.417Z",
-    "expires_at": "2026-11-13T10:25:53.417Z",
-    "acquired_commit": "e6035426af116bb850d16fc7fd43b370053ca8a5",
+    "holder": "chatgpt:ordinary:40da6a83-2cfe-4590-85ef-3609858d55a4",
+    "acquired_at": "2026-11-13T10:58:58.517Z",
+    "expires_at": "2026-11-13T11:18:58.517Z",
+    "acquired_commit": "0e4587a66a858cd63f20379d39cfb19371196663",
     "released": false
   },
   "outcome": "started",
@@ -56,5 +56,11 @@
     "end_to_end_background_submission_verified": false
   },
   "new_submissions": 0,
-  "completed_at": null
+  "completed_at": null,
+  "previous_receipt_incomplete": {
+    "holder": "chatgpt:ordinary:5133081f-70af-41d5-bb7e-fd8630739ba4",
+    "started_at": "2026-11-13T10:05:53.417Z",
+    "status": "in_progress",
+    "expired_lease_not_submission_proof": true
+  }
 }
