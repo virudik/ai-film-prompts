@@ -11,7 +11,7 @@
   "source_head": "8cbbbc0521551599ba63513f58b43dba6b92330e",
   "source_head_pre_final": "53783c6fce665c7290b131450ef79febe606c584",
   "started_at": "2026-11-13T21:00:31.455Z",
-  "updated_at": "2026-11-13T21:01:52.818Z",
+  "updated_at": "2026-11-13T21:03:27.797Z",
   "checked_at": "2026-11-13T21:01:52.818Z",
   "phase": "completed",
   "status": "completed",
@@ -35,7 +35,8 @@
     "acquired_at": "2026-11-13T21:00:12.144Z",
     "expires_at": "2026-11-13T21:15:12.144Z",
     "acquired_commit": "8cbbbc0521551599ba63513f58b43dba6b92330e",
-    "released": false
+    "released": true,
+    "released_at": "2026-11-13T21:03:27.797Z"
   },
   "outcome": "no_free_slot",
   "blocker": null,
@@ -191,5 +192,7 @@
   "expenses": {
     "topview_credits": 0,
     "external_usd": 0
-  }
+  },
+  "completed_at": "2026-11-13T21:03:27.797Z",
+  "source_head_final": "5acd184db03a2aaaca5172dbe89a8e4f4ecc9780"
 }
