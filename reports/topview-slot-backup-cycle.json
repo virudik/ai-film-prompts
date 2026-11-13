@@ -13,17 +13,53 @@
   "source_head_started": "34f5d0ab477ea19ecbe885fe6b02d13f3cc5f1ac",
   "route_generation": 3,
   "started_at": "2026-11-13T02:11:58.930Z",
-  "checked_at": "2026-11-13T02:13:08.267Z",
-  "phase": "started",
-  "status": "started",
+  "checked_at": "2026-11-13T02:17:40.252Z",
+  "phase": "completed",
+  "status": "completed",
   "scan_complete": false,
   "scan": {
-    "checked_at": null,
-    "complete": false,
-    "source": "pending"
+    "checked_at": "2026-11-13T01:40:38Z",
+    "source": "GitHub robot Topview operational telemetry (read-only), cross-checked with launcher_health",
+    "robot_observation_complete": true,
+    "current_invocation_direct_full_scan": false,
+    "scope": "all_owned_boards_unlimited_video_tasks",
+    "scan_mode": "light_board_counts_verified",
+    "boards_scanned": 14,
+    "pages_scanned": 17,
+    "video_tasks_scanned": 673,
+    "capacity": 6,
+    "occupied_slots": 6,
+    "free_slots": 0,
+    "active_task_ids": [
+      "1dcb6fa0628d41b098227ca6c96f1630",
+      "3a09108c8c474a0989118806b4a69f91",
+      "8c6d92662d1043c7a651168b2b8280ae",
+      "a1330998d39b486e864ed4e22b4fe8c4",
+      "be627af0e9664db5b6ac2b62c34080a6",
+      "d775c7a483a44f13ba1704a1c418b208"
+    ],
+    "unmapped_active_task_ids": [
+      "d775c7a483a44f13ba1704a1c418b208"
+    ],
+    "shadow_health_checked_at": "2026-11-13T02:00:39Z",
+    "shadow_health_state": "capacity_full",
+    "shadow_health_free_slots": 0,
+    "queue_items": 61,
+    "queue_submitted": 38,
+    "queue_completed": 3,
+    "queue_waiting_for_slot": 16,
+    "queue_blocked_inputs": 3,
+    "queue_blocked_owner_decision": 1,
+    "unique_submitted_task_ids_in_queue": 41,
+    "queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+    "task_map_sha256": "70cdc63dc8a63647faaeea971f75dbb0b313ba6b869c474fe302166f8a098f51",
+    "readiness_sha_matches": true,
+    "nonterminal_claims": 0,
+    "open_owner_tasks": 0,
+    "taken_owner_tasks": 0
   },
-  "occupied_slots": null,
-  "free_slots": null,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
   "task_ids": [],
   "browser_transport": "not_used",
@@ -41,11 +77,13 @@
     "acquired_at": "2026-11-13T02:11:58.930Z",
     "expires_at": "2026-11-13T02:31:58.930Z",
     "acquired_commit": "12bf479cad6834d1820ee9600442c7f05a2b1650",
-    "released": false
+    "released": true,
+    "release_recorded_at": "2026-11-13T02:17:40.252Z",
+    "release_commit": "same_commit_as_final_receipt"
   },
-  "outcome": "started",
+  "outcome": "no_free_slot",
   "blocker": null,
-  "retryable": true,
+  "retryable": false,
   "acceptance": {
     "scheduled_execution_observed": true,
     "tinyfish_profile_signin_history_only": true,
@@ -54,9 +92,29 @@
     "end_to_end_background_submission_verified": false
   },
   "new_submissions": 0,
-  "completed_at": null,
-  "source_head": "a18df70d3565819d24eb674be1a9b79cb8f52ece",
+  "completed_at": "2026-11-13T02:17:40.252Z",
+  "source_head": "34d93a8691255864785328f1d4eda0e03818d11f",
   "notes": [
-    "Scheduled ordinary cycle started under exact CAS lease; read-only scan in progress."
-  ]
+    "Robot scan at 01:40:38 UTC and launcher health at 02:00:39 UTC both report global 6/6; this execution did not have direct Topview account-wide paginated scan. No Create is permitted; scan_complete=false for this invocation.",
+    "GitHub queue and task-map SHA256 independently calculated from exact current file bytes and matched readiness; 41 unique submitted task IDs in queue; no claimed/submitting/unknown or open owner tasks.",
+    "Unmapped active task d775c7a4 remains counted. No reattempt.",
+    "No TinyFish run, no Topview credits or new submissions. Existing browser-input blocker not re-tested at 6/6.",
+    "Work preference stored as work in registry, without fresh current Work GUI/quota evidence; route_generation 3 unchanged.",
+    "No queue/checkpoint/recovery/role/retry changes."
+  ],
+  "slots": {
+    "capacity": 6,
+    "occupied": 6,
+    "free": 0,
+    "source_checked_at": "2026-11-13T01:40:38Z"
+  },
+  "peer_reconciliation": {
+    "ordinary_last_run_id": "1c5f6d65-8e98-8332-843f-72420816daaa",
+    "ordinary_latest_result_run_id": "0b4465e1-7ecc-8327-b788-c2cd4841482a",
+    "work_relay_last_run_id": "88605548-8fa8-8330-858a-e315e76c49a3",
+    "work_relay_latest_result_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d",
+    "work_HH55_last_run_id": "473cd010-5724-8328-babe-62bf8ce9ec9c",
+    "work_HH55_latest_result_run_id": "1658357b-2320-8333-98ac-459762c93799",
+    "work_current_GUI_quota_verified": false
+  }
 }
