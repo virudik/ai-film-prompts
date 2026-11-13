@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-12T11:13:33Z",
+  "checked_at": "2026-11-13T11:00:22Z",
   "mode": "sync",
   "summary": {
     "written": 1,
@@ -8,11 +8,11 @@
   "files": [
     {
       "name": "video-prompts.md",
-      "github_sha256": "e75d416fc53de978851719c5b20194f1a33b8f8f1d671704b58363cb45863b14",
+      "github_sha256": "b8f26e8462387013ff286c7c204587106e1975db17200b13fcab72cf5a108f8e",
       "file_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-      "drive_sha256": "e75d416fc53de978851719c5b20194f1a33b8f8f1d671704b58363cb45863b14",
+      "drive_sha256": "b8f26e8462387013ff286c7c204587106e1975db17200b13fcab72cf5a108f8e",
       "status": "written",
-      "drive_modified": "2026-11-12T11:13:25.189Z"
+      "drive_modified": "2026-11-13T11:00:13.499Z"
     },
     {
       "name": "NEW-CHAT-HANDOFF.md",
