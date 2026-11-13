@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-11-13T11:46:22Z",
+  "updated_at": "2026-11-13T15:01:03.650Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -153,7 +153,7 @@
       "canonical_block_label": "49B",
       "canonical_prompt_sha256": "82677079b799d1f40a4a39ebf9e6aba8d8121e0bfbb7dda65c92f7c35267b472",
       "normalized_prompt_sha256": "628b4edaac79e78b9d35cf35b6c5258d0321866d30fabd4d250d58f08e7fd726",
-      "priority": 9.0,
+      "priority": 9,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -1901,7 +1901,7 @@
       "canonical_prompt_sha256": "5a755dedb17c1d44bce45db80b17a7c1618e792a4dc50967034cb46e0c39390f",
       "normalized_prompt_sha256": "726d18108811207b4dd747f69f1ba048be61220a44ccfc5cc4866eeda31d741f",
       "priority": 0.3,
-      "state": "waiting_for_slot",
+      "state": "submitted",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -1914,7 +1914,7 @@
       "automatic_retry": false,
       "owner_approval": false,
       "film_acceptance": false,
-      "task_id": null,
+      "task_id": "bfdb6d9fad7a4ab29492f7bb95c78033",
       "claim": null,
       "depends_on_submitted": [
         "S48-SEED20-P3"
@@ -2001,7 +2001,43 @@
       "replaces_artistic_result_of": "S48-SEED20-P4",
       "preserves_previous_task_id": "6a70fae84abf401cb93f8c762b8c26e3",
       "preserves_previous_receipt": "reports/topview-queue-2026-10-16/S48-SEED20-P4-20261109T111900Z.json",
-      "created_at": "2026-11-13T11:45:00Z"
+      "created_at": "2026-11-13T11:45:00Z",
+      "last_reconciliation_at": "2026-11-13T15:01:03.650Z",
+      "submission_verification": {
+        "full_normalized_prompt_match": true,
+        "normalized_prompt_sha256": "726d18108811207b4dd747f69f1ba048be61220a44ccfc5cc4866eeda31d741f",
+        "input_slot_order_match": true,
+        "input_order": [
+          "Video1",
+          "Image1",
+          "Image2",
+          "Image3",
+          "Image4"
+        ],
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "model": "Seedance 2.0",
+        "duration_seconds": 15,
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "quantity": 1,
+        "useUnlimitMode": true,
+        "creditsCost": 0,
+        "task_status_at_reconciliation": "init",
+        "task_created_at": "2026-11-13 14:50:55",
+        "evidence": "Direct Topview board task lookup plus full 14-board/21-page scan; origin not attributed to this HH55 execution."
+      },
+      "submission_history": [
+        {
+          "at": "2026-11-13T15:01:03.650Z",
+          "state": "submitted",
+          "task_id": "bfdb6d9fad7a4ab29492f7bb95c78033",
+          "discovered_by": "chatgpt:work:f921e229-0c0a-40a5-afb5-bc55756b82d7",
+          "execution_instance_id": "f921e229-0c0a-40a5-afb5-bc55756b82d7",
+          "origin": "existing_peer_or_external_create_not_attributed",
+          "create_click_count": 0,
+          "reason": "Existing active board task matched the exact canonical normalized prompt hash, target board, input-slot order, model, duration, resolution, Unlimited and credits0. Accepted without any Create."
+        }
+      ]
     },
     {
       "id": "S28-A3-20261023",
