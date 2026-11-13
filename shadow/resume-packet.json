@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-13T11:34:29+00:00",
-  "source_head": "c257971a75e37554f4edc61014c113f7dbdcd61e",
-  "source_fingerprint": "0f4af793f159e78ed9409c07b0f07706b16a1ed8b5b3d7fdea77232ce89b0352",
+  "checked_at": "2026-11-13T13:03:39+00:00",
+  "source_head": "73cce84de76eed343a8fea7db1da6931d94600b5",
+  "source_fingerprint": "7b4f923c5d0c1dbac6603dd5e8796a43743edd3f8ea21450c02b07754d8c5d8e",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -173,10 +173,6 @@
     "existing_task_count": 86,
     "existing_tasks": [
       {
-        "item_id": "S49A",
-        "task_id": "101221814fd5430697f697f95a3f4252"
-      },
-      {
         "item_id": "S49C",
         "task_id": "abb161edcf5c4b58b91460677939b5d3"
       },
@@ -217,10 +213,6 @@
         "task_id": "199e81ba8c374bdaa6ce9237aa013158"
       },
       {
-        "item_id": "S48-SEED20-P2",
-        "task_id": "de8e44bb15d64dc7a4eb640d27a726e4"
-      },
-      {
         "item_id": "S48-SEED20-P2-R2-20261108",
         "task_id": "dcf9df8fb84e41178b9f11e6be06751b"
       },
@@ -231,10 +223,6 @@
       {
         "item_id": "S48-SEED20-P4",
         "task_id": "6a70fae84abf401cb93f8c762b8c26e3"
-      },
-      {
-        "item_id": "S59-SEED20-P2",
-        "task_id": "b0915b04173c414e9ac08652d34b7852"
       },
       {
         "item_id": "S59-SEED20-P2-R2-20261108",
@@ -249,28 +237,12 @@
         "task_id": "ce934dd80c4e4493b3daffcf09d95dde"
       },
       {
-        "item_id": "S60-SEED20-P1",
-        "task_id": "025955aad2cf494da2b4104d26c36ed5"
-      },
-      {
         "item_id": "S60-SEED20-P2",
         "task_id": "a4a17134107445db8f328c0a3801d02e"
       },
       {
-        "item_id": "S61-SEED20-P1",
-        "task_id": "c72c1ab4524e4f2f9d3a0272474f788a"
-      },
-      {
         "item_id": "S61-SEED20-P2",
         "task_id": "271fba162d2c4a70a2a0412929b84027"
-      },
-      {
-        "item_id": "S62-SEED20-P1",
-        "task_id": "0de1f663432646d294f409a22e20a26e"
-      },
-      {
-        "item_id": "S52-R2-SEED20-P1",
-        "task_id": "c65c30d8cbe14e9eadec886276e62471"
       },
       {
         "item_id": "S52-R2-SEED20-P2",
@@ -295,10 +267,6 @@
       {
         "item_id": "S52-R2-SEED20-P7",
         "task_id": "4283036c9c8c486bb8a60c9e9326447d"
-      },
-      {
-        "item_id": "S64-WAN30",
-        "task_id": "3ebe7c23db05479e9b6f762a75b832e7"
       },
       {
         "item_id": "S65-WAN30",
@@ -331,6 +299,38 @@
       {
         "item_id": "S49G",
         "task_id": "3561d1997a6a4e5d813cfb99fdb60ed4"
+      },
+      {
+        "item_id": "S49A",
+        "task_id": "101221814fd5430697f697f95a3f4252"
+      },
+      {
+        "item_id": "S48-SEED20-P2",
+        "task_id": "de8e44bb15d64dc7a4eb640d27a726e4"
+      },
+      {
+        "item_id": "S59-SEED20-P2",
+        "task_id": "b0915b04173c414e9ac08652d34b7852"
+      },
+      {
+        "item_id": "S60-SEED20-P1",
+        "task_id": "025955aad2cf494da2b4104d26c36ed5"
+      },
+      {
+        "item_id": "S61-SEED20-P1",
+        "task_id": "c72c1ab4524e4f2f9d3a0272474f788a"
+      },
+      {
+        "item_id": "S62-SEED20-P1",
+        "task_id": "0de1f663432646d294f409a22e20a26e"
+      },
+      {
+        "item_id": "S52-R2-SEED20-P1",
+        "task_id": "c65c30d8cbe14e9eadec886276e62471"
+      },
+      {
+        "item_id": "S64-WAN30",
+        "task_id": "3ebe7c23db05479e9b6f762a75b832e7"
       },
       {
         "item_id": "S56-SEED20-P2",
@@ -595,12 +595,12 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
-      "bytes": 387123
+      "sha256": "735beb6fe57b61cb931d7a0dc675b496084900d34211d930413d51f7ca912e3e",
+      "bytes": 337199
     },
     {
       "file": "project-status.json",
-      "sha256": "d95d87ca44357dafed534968d0a345cca2d0d89cd8b47a84bd0e41560cff2d04",
+      "sha256": "1ca5f9c263ac252bb6971b92b61992d86ba75bfab2aa2e439f8b1983cc136a7e",
       "bytes": 29560
     },
     {
@@ -610,8 +610,8 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "1cd461172cdda9fc68b4c83f8af2ff3cf370d4384ddb83beb7a9c25a41bcec6b",
-      "bytes": 14456
+      "sha256": "f7db6a4cd2e8c7abc46b77521c9aa419ff26bfcc01e01a3c1e68ff506071faab",
+      "bytes": 11680
     },
     {
       "file": "reports/handoff-receipts.json",

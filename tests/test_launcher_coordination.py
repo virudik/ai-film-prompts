@@ -500,8 +500,9 @@ class GrokReviewRegressionTests(unittest.TestCase):
         import json
         q=json.loads((Path(__file__).resolve().parents[1]/'ops/topview-launch-queue.json').read_text())
         h=self.helper
+        recorded=list(q['items'])+list(q.get('archived_items') or [])
         for key in ('S48-SEED20-P2','S56-SEED20-P2'):
-            item=next(x for x in q['items'] if x['id']==key)
+            item=next(x for x in recorded if x['id']==key)
             self.assertTrue(item.get('board_id',q['board_id'])==BOARD)
             lc.check_grok_policy(h.cfg,item,h.actor,GROK_NOW,queue_board_id=q['board_id'])
     def test_scene89_first_create_is_not_marked_as_a_retry(self):
