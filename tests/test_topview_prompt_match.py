@@ -38,6 +38,8 @@ class PromptMatch(unittest.TestCase):
         self.assertIn("28 B1", labels)
         self.assertIn("42 · Seedance 2.0 часть 1", labels)
         self.assertIn("42 · Seedance 2.0 часть 2", labels)
+        self.assertIn("48 · Seedance 2.0 часть 4", labels)
+        self.assertIn("48 · Seedance 2.0 часть 4 · R2", labels)
         # Two engine versions per scene since 19.10 (PROMPT-STYLE-GUIDE §7А): one 30 s text for Wan 3.0 /
         # Seedance 2.5 and Seedance 2.0 2 × 15 s; the separate Seedance 2.5 tabs are gone.
         self.assertIn("42", labels)
