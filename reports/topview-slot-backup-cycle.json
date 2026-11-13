@@ -13,13 +13,75 @@
   "source_head_started": "c9c77506653f3c9c623a721d91840de64665bc2e",
   "route_generation": 3,
   "started_at": "2026-11-13T03:59:57.575Z",
-  "checked_at": null,
-  "phase": "started",
-  "status": "in_progress",
-  "scan_complete": false,
-  "scan": null,
-  "occupied_slots": null,
-  "free_slots": null,
+  "checked_at": "2026-11-13T04:09:09.694Z",
+  "phase": "final_pending_release",
+  "status": "completed",
+  "scan_complete": true,
+  "scan": {
+    "checked_at": "2026-11-13T04:03:00Z",
+    "last_direct_active_check_at": "2026-11-13T04:05:00Z",
+    "source": "Topview connector read-only full all-owned-board video-page scan; six init tasks individually refreshed",
+    "scope": "all_owned_boards_all_pages_all_video_tasks",
+    "current_invocation_direct_full_scan": true,
+    "robot_observation_complete": true,
+    "scan_mode": "full_topview_connector",
+    "boards_scanned": 14,
+    "pages_scanned": 19,
+    "video_tasks_scanned": 674,
+    "main_board_video_tasks": 507,
+    "status_counts": {
+      "success": 641,
+      "fail": 27,
+      "init": 6
+    },
+    "capacity": 6,
+    "occupied_slots": 6,
+    "free_slots": 0,
+    "active_task_ids": [
+      "d775c7a483a44f13ba1704a1c418b208",
+      "8c6d92662d1043c7a651168b2b8280ae",
+      "1dcb6fa0628d41b098227ca6c96f1630",
+      "a1330998d39b486e864ed4e22b4fe8c4",
+      "3a09108c8c474a0989118806b4a69f91",
+      "be627af0e9664db5b6ac2b62c34080a6"
+    ],
+    "unmapped_active_task_ids": [
+      "d775c7a483a44f13ba1704a1c418b208"
+    ],
+    "active_verified_params": {
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost_each": 0
+    },
+    "queue_items": 61,
+    "queue_submitted": 38,
+    "queue_completed": 3,
+    "queue_waiting_for_slot": 16,
+    "queue_blocked_inputs": 3,
+    "queue_blocked_owner_decision": 1,
+    "unique_submitted_task_ids_in_queue": 41,
+    "all_queue_task_ids_found_in_main_board": true,
+    "queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
+    "task_map_sha256": "eac6b59f6dc6ee7bbb05314bc46c9b3063347e3ad7bc57ba6f0d08ea274e3fe6",
+    "readiness_checked_at": "2026-11-13T03:30:54.528585Z",
+    "readiness_sha_matches": true,
+    "nonterminal_claims": 0,
+    "open_owner_tasks": 0,
+    "taken_owner_tasks": 0,
+    "shadow_health_checked_at": "2026-11-13T03:50:30Z",
+    "shadow_health_state": "capacity_full",
+    "shadow_health_free_slots": 0,
+    "ready_derived_items": 16,
+    "ready_unlinked_story_items": [
+      "S62-SEED20-P1-R2-20261108"
+    ]
+  },
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
   "task_ids": [],
   "browser_transport": "not_used",
@@ -37,11 +99,13 @@
     "acquired_at": "2026-11-13T03:59:57.575Z",
     "expires_at": "2026-11-13T04:17:57.575Z",
     "acquired_commit": "c9c77506653f3c9c623a721d91840de64665bc2e",
-    "released": false
+    "released": false,
+    "release_recorded_at": null,
+    "release_commit": null
   },
-  "outcome": null,
+  "outcome": "no_free_slot",
   "blocker": null,
-  "retryable": null,
+  "retryable": false,
   "acceptance": {
     "scheduled_execution_observed": true,
     "tinyfish_profile_signin_history_only": true,
@@ -50,14 +114,29 @@
     "end_to_end_background_submission_verified": false
   },
   "new_submissions": 0,
-  "completed_at": null,
-  "source_head": null,
-  "notes": [],
+  "completed_at": "2026-11-13T04:09:09.694Z",
+  "source_head": "f9282a30bb230962f6672c8c42f567b06411879d",
+  "notes": [
+    "Fresh full Topview scan across all 14 owned boards, 19 video pages, all 674 unique video tasks: 6 init, 641 success, 27 fail; 6/6 physical slots occupied.",
+    "All six active tasks independently verified on My First Board with Seedance 2.0, 15s, 720p,16:9, Unlimited true, creditsCost0. Unmapped active d775c7a4 remains protected from repeat.",
+    "All 41 registered queue task IDs found in main board. Queue items have no nonterminal claimed/submitting/submission_unknown; no open owner-tasks. SHA-256 of exact GitHub queue and task-map bytes independently calculated with verified SHA256 implementation and matched fresh ops/queue-readiness.json.",
+    "Latest bot launcher_health at 03:50 UTC had capacity_full, 0 free; wake issue headings referring to free slots are historical, not current capacity.",
+    "No launch, no TinyFish run, no provider cost. Work preferred in route_generation3 as historically verified on Nov2; no fresh Work GUI/quota evidence to change route.",
+    "Checkpoint, next_action, retry_control and queue not modified. Receipt updated before release; release verified separately using GitHub contents-CAS."
+  ],
   "slots": {
     "capacity": 6,
-    "occupied": null,
-    "free": null,
-    "source_checked_at": null
+    "occupied": 6,
+    "free": 0,
+    "source_checked_at": "2026-11-13T04:05:00Z"
   },
-  "peer_reconciliation": null
+  "peer_reconciliation": {
+    "ordinary_last_run_id": "83d61e01-70a8-8320-a56d-bfcdd8f51b07",
+    "ordinary_latest_result_run_id": "927230b8-93ac-8329-8c70-24383eca5000",
+    "work_relay_last_run_id": "88605548-8fa8-8330-858a-e315e76c49a3",
+    "work_relay_latest_result_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d",
+    "work_HH55_last_run_id": "16c99a8f-5588-8333-a985-e05f8c5c3110",
+    "work_HH55_latest_result_run_id": "1658357b-2320-8333-98ac-459762c93799",
+    "work_current_GUI_quota_verified": false
+  }
 }
