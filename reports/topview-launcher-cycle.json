@@ -4,276 +4,39 @@
   "source": "ChatGPT scheduled Work HH:55",
   "runner": "chatgpt_scheduled_task",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "run_id": "fb4d2619-0ab8-8326-9901-a44a4193240d",
-  "runtime_run_id_source": "Automations.peek last_run.id in_progress scheduled_for 2026-11-13T17:55:00Z",
-  "execution_instance_id": "64b86bf3-29ec-40c4-8a5a-9739061643bf",
+  "run_id": "930071dc-8828-8331-b413-d74444604d83",
+  "runtime_run_id_source": "Automations.peek last_run.id in_progress scheduled_for 2026-11-13T18:55:00Z",
+  "execution_instance_id": "3042e857-d5cc-4732-89bb-ef199308e396",
   "route_generation": 3,
-  "source_head": "ef25b09aa27270d7f5e4c78e81865e9de2fe2842",
-  "source_head_pre_final": "8e500d2cd360daf6cea925362ee7bbefc6d10290",
-  "started_at": "2026-11-13T18:00:32.772Z",
-  "updated_at": "2026-11-13T18:09:23.438Z",
-  "checked_at": "2026-11-13T18:09:04.958Z",
-  "phase": "completed",
-  "status": "completed",
-  "scan_complete": true,
-  "occupied_slots": 6,
-  "free_slots": 0,
+  "source_head": "eddadfaf7f3ace58405c0f6222d116275cd40638",
+  "started_at": "2026-11-13T18:54:44.086Z",
+  "updated_at": "2026-11-13T18:54:44.086Z",
+  "phase": "started",
+  "status": "in_progress",
+  "scan_complete": false,
+  "occupied_slots": null,
+  "free_slots": null,
   "selected_item": null,
-  "task_ids": [
-    "bfdb6d9fad7a4ab29492f7bb95c78033",
-    "d775c7a483a44f13ba1704a1c418b208",
-    "8c6d92662d1043c7a651168b2b8280ae",
-    "1dcb6fa0628d41b098227ca6c96f1630",
-    "a1330998d39b486e864ed4e22b4fe8c4",
-    "3a09108c8c474a0989118806b4a69f91"
-  ],
+  "task_ids": [],
   "new_submissions": 0,
   "topview_credits_spent": 0,
   "browser_transport": "not_used",
   "lease": {
-    "holder": "chatgpt:work:64b86bf3-29ec-40c4-8a5a-9739061643bf",
-    "acquired_at": "2026-11-13T17:59:51.686Z",
-    "expires_at": "2026-11-13T18:14:51.686Z",
-    "acquired_commit": "ef25b09aa27270d7f5e4c78e81865e9de2fe2842",
-    "released": true,
-    "released_at": "2026-11-13T18:09:23.438Z"
-  },
-  "outcome": "no_free_slot",
-  "blocker": null,
-  "retryable": false,
-  "scan": {
-    "source": "Topview connector read-only",
-    "scope": "all 14 boards, every video task page including zero-video boards",
-    "boards": 14,
-    "pages": 19,
-    "unique_video_tasks": 675,
-    "success": 642,
-    "failed": 27,
-    "active": 6,
-    "scan_complete": true,
-    "checked_at": "2026-11-13T18:09:04.958Z",
-    "active_task_ids": [
-      "bfdb6d9fad7a4ab29492f7bb95c78033",
-      "d775c7a483a44f13ba1704a1c418b208",
-      "8c6d92662d1043c7a651168b2b8280ae",
-      "1dcb6fa0628d41b098227ca6c96f1630",
-      "a1330998d39b486e864ed4e22b4fe8c4",
-      "3a09108c8c474a0989118806b4a69f91"
-    ],
-    "main_board_id": "1a6244cf1ae747ef847d949a80d6133c",
-    "main_board_name": "My First Board",
-    "main_board_video_tasks": 508,
-    "active_task_details": [
-      {
-        "task_id": "bfdb6d9fad7a4ab29492f7bb95c78033",
-        "status": "init",
-        "gmtCreate": "2026-11-13 14:50:55",
-        "model": "Seedance 2.0",
-        "duration": 15,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "unlimited": true,
-        "credits_cost": 0
-      },
-      {
-        "task_id": "d775c7a483a44f13ba1704a1c418b208",
-        "status": "init",
-        "gmtCreate": "2026-11-12 10:55:38",
-        "model": "Seedance 2.0",
-        "duration": 15,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "unlimited": true,
-        "credits_cost": 0
-      },
-      {
-        "task_id": "8c6d92662d1043c7a651168b2b8280ae",
-        "status": "init",
-        "gmtCreate": "2026-11-11 19:59:15",
-        "model": "Seedance 2.0",
-        "duration": 15,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "unlimited": true,
-        "credits_cost": 0
-      },
-      {
-        "task_id": "1dcb6fa0628d41b098227ca6c96f1630",
-        "status": "init",
-        "gmtCreate": "2026-11-10 11:13:10",
-        "model": "Seedance 2.0",
-        "duration": 15,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "unlimited": true,
-        "credits_cost": 0
-      },
-      {
-        "task_id": "a1330998d39b486e864ed4e22b4fe8c4",
-        "status": "init",
-        "gmtCreate": "2026-11-10 10:45:01",
-        "model": "Seedance 2.0",
-        "duration": 15,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "unlimited": true,
-        "credits_cost": 0
-      },
-      {
-        "task_id": "3a09108c8c474a0989118806b4a69f91",
-        "status": "init",
-        "gmtCreate": "2026-11-10 03:11:50",
-        "model": "Seedance 2.0",
-        "duration": 15,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "unlimited": true,
-        "credits_cost": 0
-      }
-    ]
-  },
-  "queue_reconciliation": {
-    "status": "verified",
-    "queue_items": 63,
-    "states": {
-      "blocked_owner_decision": 1,
-      "waiting_for_slot": 26,
-      "submitted": 30,
-      "completed": 3,
-      "blocked_inputs": 3
-    },
-    "transitional_claims": 0,
-    "submitted_task_ids": 30,
-    "submitted_task_ids_found": 30,
-    "source_queue_sha256": "92e5bd1d8eefc604d634fb24d7c81349dcd69a411193b37d338e4e15be70b0e8",
-    "readiness_source_sha256_match": true,
-    "checked_at": "2026-11-13T18:09:04.958Z"
+    "holder": "chatgpt:work:3042e857-d5cc-4732-89bb-ef199308e396",
+    "acquired_at": "2026-11-13T18:54:23.366Z",
+    "expires_at": "2026-11-13T19:09:23.366Z",
+    "acquired_commit": "eddadfaf7f3ace58405c0f6222d116275cd40638",
+    "released": false
   },
   "peer_reconciliation": {
-    "ordinary_automation_enabled": true,
-    "ordinary_last_run_id": "d99f06da-e5a4-8325-b907-7494f143d800",
-    "ordinary_latest_result_run_id": "d99f06da-e5a4-8325-b907-7494f143d800",
+    "ordinary_automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
+    "ordinary_last_run_id": "f17667a1-d5dc-8330-9f49-2c388e6630d7",
+    "ordinary_latest_result_run_id": "f17667a1-d5dc-8330-9f49-2c388e6630d7",
     "ordinary_receipt_run_id": "d99f06da-e5a4-8325-b907-7494f143d800",
-    "same_run_proven": true
+    "same_run_proven": false,
+    "receipt_stale": true
   },
-  "monitor_role_check": {
-    "action": "skip",
-    "reason": "collision guard unavailable; avoid concurrent write",
-    "error": "CalledProcessError",
-    "telemetry_write_performed": false
-  },
-  "owner_tasks_check": {
-    "open": 0,
-    "taken": 0
-  },
-  "work_capacity_check": {
-    "preferred_executor": "work",
-    "route_generation": 3,
-    "restoration_changed": false,
-    "note": "No fresh direct owner confirmation or independently verified Work GUI/quota evidence; registered peer route is not quota evidence."
-  },
-  "maintenance_phases": {
-    "due_msk": "20:55",
-    "phase_a": {
-      "completed": true,
-      "self_heal": {
-        "status": "ok",
-        "changed_at": "2026-11-13T14:49:24Z",
-        "problems": 0
-      },
-      "project_status": {
-        "health": "ok",
-        "synced_at": "2026-11-13T17:40:34Z",
-        "fresh_under_40m": true
-      },
-      "canon_health": {
-        "status": "warn",
-        "checked_at": "2026-11-13T14:51:55Z",
-        "warnings": [
-          "handoff-size",
-          "service-file-size"
-        ]
-      },
-      "actions": {
-        "canonical_sync": {
-          "run_id": 43478610067,
-          "conclusion": "success",
-          "head_sha": "8e500d2cd360daf6cea925362ee7bbefc6d10290"
-        },
-        "pages": {
-          "run_id": 43478384542,
-          "conclusion": "success",
-          "head_sha": "8e500d2cd360daf6cea925362ee7bbefc6d10290"
-        },
-        "topview_robot": {
-          "run_id": 43478269684,
-          "conclusion": "success"
-        },
-        "canon_health": {
-          "run_id": 43478252730,
-          "conclusion": "success"
-        },
-        "self_heal": {
-          "run_id": 43476524995,
-          "conclusion": "success"
-        },
-        "service_maintenance": {
-          "run_id": 43478346899,
-          "attempt": 2,
-          "conclusion": "success",
-          "repair": "Opened missing review PR #640 from existing robot/handoff-trim branch, then reran failed job only."
-        },
-        "video_archive": {
-          "run_id": 43479109343,
-          "conclusion": "failure",
-          "blocker": "0 owner-owned Drive upload slots; owner OAuth replenishment required",
-          "issue": 500
-        }
-      },
-      "cleanup": {
-        "handoff_review_pr": 640,
-        "merged": false,
-        "review_note": "Moved Scene 88 line is still tied to active waiting_for_owner work; do not merge until an up-to-date live formulation is restored.",
-        "service_register_trim": "trim-finished job succeeded; no eligible safe main change recorded"
-      }
-    },
-    "phase_b": {
-      "completed": true,
-      "coverage_start": "2026-11-03T00:00:00Z",
-      "overlap_reason": "Previous confirmed mail cycle 2026-11-04 with 24h overlap",
-      "query": "after:2026/11/03 \"virudik/ai-film-prompts\" \"Run failed\" -in:spam -in:trash",
-      "pages": 8,
-      "messages_scanned": 689,
-      "mailbox_mutations": false,
-      "latest_message_ids": {
-        "service_maintenance": "1a1d61238c9ae273",
-        "video_archive": "1a1d60d41b078d37"
-      },
-      "current_incidents": [
-        {
-          "workflow": "Archive successful Topview videos to Drive (private backup)",
-          "run_id": 43479109343,
-          "commit": "8e500d2cd360daf6cea925362ee7bbefc6d10290",
-          "status": "blocked_owner_action",
-          "evidence": "latest logs report available owner-owned upload slots=0; issue #500 remains open"
-        }
-      ],
-      "resolved_this_cycle": [
-        {
-          "workflow": "Service file maintenance",
-          "run_id": 43478346899,
-          "attempt": 2,
-          "status": "success",
-          "evidence": "PR #640 exists; failed job rerun completed successfully"
-        }
-      ],
-      "historical_mail_note": "All eight result pages were scanned. Mail was treated as signal only; current scheduled critical workflow states were verified from Actions. One-time historical failures were not blindly rerun."
-    }
-  },
-  "expenses": {
-    "topview_credits": 0,
-    "external_usd": 0
-  },
-  "completed_at": "2026-11-13T18:09:23.438Z",
-  "source_head_final": "cc6895e12c35f121fb98ba714a22df65a131fc23"
+  "outcome": null,
+  "blocker": null,
+  "retryable": null
 }
