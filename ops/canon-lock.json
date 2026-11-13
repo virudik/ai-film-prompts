@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:work:bc6b3c4b-c780-415b-ac8f-8d5becd123d7",
-  "task": "Relay #636 reconcile slots and process authorized queue",
-  "acquired_at": "2026-11-13T14:47:05.690Z",
-  "expires_at": null,
-  "released_at": "2026-11-13T14:51:16.079Z",
+  "state": "held",
+  "holder": "chatgpt:work:f921e229-0c0a-40a5-afb5-bc55756b82d7",
+  "task": "seregius_topview_launcher_hh55",
+  "acquired_at": "2026-11-13T14:57:49.332Z",
+  "expires_at": "2026-11-13T15:12:49.332Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
