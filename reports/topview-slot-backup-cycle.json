@@ -5,58 +5,44 @@
   "runner": "chatgpt:ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
   "automationID": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "17e1f8b9-ed21-4b81-a2c1-be88acf842e5",
-  "holder": "chatgpt:ordinary:17e1f8b9-ed21-4b81-a2c1-be88acf842e5",
-  "run_id": "1c5f6d65-8e98-8332-843f-72420816daaa",
-  "runtime_run_id": "1c5f6d65-8e98-8332-843f-72420816daaa",
-  "runtime_run_id_source": "Automations.peek current last_run.id, scheduled 2026-11-13T02:00:00Z, started 2026-11-13T02:03:33.718281Z",
-  "source_head_started": "34f5d0ab477ea19ecbe885fe6b02d13f3cc5f1ac",
+  "execution_instance_id": "4fbdfaad-cb46-4c50-b6b4-d3771884cb78",
+  "holder": "chatgpt:ordinary:4fbdfaad-cb46-4c50-b6b4-d3771884cb78",
+  "run_id": null,
+  "runtime_run_id": null,
+  "runtime_run_id_source": "Automations.get returned action not found (404); runtime run ID not exposed to current invocation",
+  "source_head_started": "3c4aa1882b9be71d85d505d08e394131f4fa366d",
   "route_generation": 3,
-  "started_at": "2026-11-13T02:11:58.930Z",
-  "checked_at": "2026-11-13T02:17:40.252Z",
-  "phase": "completed",
-  "status": "completed",
+  "started_at": "2026-11-13T03:01:01.221Z",
+  "checked_at": "2026-11-13T03:01:55.123Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan_complete": false,
   "scan": {
-    "checked_at": "2026-11-13T01:40:38Z",
-    "source": "GitHub robot Topview operational telemetry (read-only), cross-checked with launcher_health",
-    "robot_observation_complete": true,
-    "current_invocation_direct_full_scan": false,
-    "scope": "all_owned_boards_unlimited_video_tasks",
-    "scan_mode": "light_board_counts_verified",
+    "source": "Read-only Topview connector, full all-board 19-page scan completed before own lease; reconciliation in progress",
+    "checked_at": "2026-11-13T02:58:22.086Z",
     "boards_scanned": 14,
-    "pages_scanned": 17,
-    "video_tasks_scanned": 673,
+    "pages_scanned": 19,
+    "video_tasks_scanned": 674,
     "capacity": 6,
     "occupied_slots": 6,
     "free_slots": 0,
     "active_task_ids": [
-      "1dcb6fa0628d41b098227ca6c96f1630",
-      "3a09108c8c474a0989118806b4a69f91",
+      "d775c7a483a44f13ba1704a1c418b208",
       "8c6d92662d1043c7a651168b2b8280ae",
+      "1dcb6fa0628d41b098227ca6c96f1630",
       "a1330998d39b486e864ed4e22b4fe8c4",
-      "be627af0e9664db5b6ac2b62c34080a6",
-      "d775c7a483a44f13ba1704a1c418b208"
+      "3a09108c8c474a0989118806b4a69f91",
+      "be627af0e9664db5b6ac2b62c34080a6"
     ],
     "unmapped_active_task_ids": [
       "d775c7a483a44f13ba1704a1c418b208"
     ],
-    "shadow_health_checked_at": "2026-11-13T02:00:39Z",
-    "shadow_health_state": "capacity_full",
-    "shadow_health_free_slots": 0,
-    "queue_items": 61,
-    "queue_submitted": 38,
-    "queue_completed": 3,
-    "queue_waiting_for_slot": 16,
-    "queue_blocked_inputs": 3,
-    "queue_blocked_owner_decision": 1,
-    "unique_submitted_task_ids_in_queue": 41,
-    "queue_sha256": "1e7c28ec8188b16fc90567e2031eb1427eb1c673c432d307d6dd3f6237c613a0",
-    "task_map_sha256": "70cdc63dc8a63647faaeea971f75dbb0b313ba6b869c474fe302166f8a098f51",
-    "readiness_sha_matches": true,
-    "nonterminal_claims": 0,
-    "open_owner_tasks": 0,
-    "taken_owner_tasks": 0
+    "status_counts": {
+      "success": 641,
+      "fail": 27,
+      "init": 6
+    },
+    "full_direct_scan": true
   },
   "occupied_slots": 6,
   "free_slots": 0,
@@ -73,15 +59,13 @@
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:17e1f8b9-ed21-4b81-a2c1-be88acf842e5",
-    "acquired_at": "2026-11-13T02:11:58.930Z",
-    "expires_at": "2026-11-13T02:31:58.930Z",
-    "acquired_commit": "12bf479cad6834d1820ee9600442c7f05a2b1650",
-    "released": true,
-    "release_recorded_at": "2026-11-13T02:17:40.252Z",
-    "release_commit": "same_commit_as_final_receipt"
+    "holder": "chatgpt:ordinary:4fbdfaad-cb46-4c50-b6b4-d3771884cb78",
+    "acquired_at": "2026-11-13T03:01:01.221Z",
+    "expires_at": "2026-11-13T03:21:01.221Z",
+    "acquired_commit": "04f0b457439d66950d77a9d5e8e312dc96207406",
+    "released": false
   },
-  "outcome": "no_free_slot",
+  "outcome": "in_progress",
   "blocker": null,
   "retryable": false,
   "acceptance": {
@@ -92,15 +76,11 @@
     "end_to_end_background_submission_verified": false
   },
   "new_submissions": 0,
-  "completed_at": "2026-11-13T02:17:40.252Z",
-  "source_head": "34d93a8691255864785328f1d4eda0e03818d11f",
+  "completed_at": null,
+  "source_head": "04f0b457439d66950d77a9d5e8e312dc96207406",
   "notes": [
-    "Robot scan at 01:40:38 UTC and launcher health at 02:00:39 UTC both report global 6/6; this execution did not have direct Topview account-wide paginated scan. No Create is permitted; scan_complete=false for this invocation.",
-    "GitHub queue and task-map SHA256 independently calculated from exact current file bytes and matched readiness; 41 unique submitted task IDs in queue; no claimed/submitting/unknown or open owner tasks.",
-    "Unmapped active task d775c7a4 remains counted. No reattempt.",
-    "No TinyFish run, no Topview credits or new submissions. Existing browser-input blocker not re-tested at 6/6.",
-    "Work preference stored as work in registry, without fresh current Work GUI/quota evidence; route_generation 3 unchanged.",
-    "No queue/checkpoint/recovery/role/retry changes."
+    "Started receipt under own read-back-verified lease; independently finished all-board Topview read-only video scan 14 boards/19 pages/674 videos; 6 active; no paid browser or Create.",
+    "Automation runtime ID unavailable through connected automation action; local UUID is only execution instance."
   ],
   "slots": {
     "capacity": 6,
@@ -116,5 +96,6 @@
     "work_HH55_last_run_id": "473cd010-5724-8328-babe-62bf8ce9ec9c",
     "work_HH55_latest_result_run_id": "1658357b-2320-8333-98ac-459762c93799",
     "work_current_GUI_quota_verified": false
-  }
+  },
+  "runtime_run_id_unavailable_reason": "Automations.get returned action not found (404); runtime run ID not exposed to current invocation"
 }
