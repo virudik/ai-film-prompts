@@ -4,17 +4,17 @@
   "source": "ChatGPT scheduled ordinary",
   "runner": "chatgpt_scheduled_task",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "run_id": "21423cf7-5fa0-8320-9fce-7f8886a2a93e",
+  "run_id": "1e8aec8c-32e0-832b-b776-2f6bcea414b0",
   "run_id_unavailable_reason": null,
-  "runtime_run_id_source": "Automations.peek last_run.id (scheduled_for 2026-11-13T20:00:00Z)",
-  "execution_instance_id": "b55e38f3-094f-4682-b5f2-624aadb73983",
+  "runtime_run_id_source": "Automations.peek last_run.id scheduled_for 2026-11-13T21:00:00Z",
+  "execution_instance_id": "832df984-d2bb-40e9-ad1f-ead11d241891",
   "route_generation": 3,
-  "source_head": "11aba265e72ceeebf938a5a6164adb7ace1261a4",
-  "started_at": "2026-11-13T20:02:54.141601Z",
-  "updated_at": "2026-11-13T20:11:57.116Z",
-  "checked_at": "2026-11-13T20:06:58.095Z",
-  "phase": "completed",
-  "status": "completed",
+  "source_head": "bb9837fcc07233d86b8aea91fceb6e7ffba1d15b",
+  "started_at": "2026-11-13T21:04:35.908Z",
+  "updated_at": "2026-11-13T21:05:17.520Z",
+  "checked_at": null,
+  "phase": "started",
+  "status": "in_progress",
   "scan_complete": true,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -38,14 +38,13 @@
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:b55e38f3-094f-4682-b5f2-624aadb73983",
-    "acquired_at": "2026-11-13T20:07:45.996Z",
-    "expires_at": "2026-11-13T20:27:45.996Z",
-    "acquired_commit": "2c23828b01e204e2d3cfb8e95e29cd2103ae5f33",
-    "released": true,
-    "released_at": "2026-11-13T20:11:57.116Z"
+    "holder": "chatgpt:ordinary:832df984-d2bb-40e9-ad1f-ead11d241891",
+    "acquired_at": "2026-11-13T21:04:35.908Z",
+    "expires_at": "2026-11-13T21:24:35.908Z",
+    "acquired_commit": "f1b6a227f18ca23c9dc64408a0d30d9108f13304",
+    "released": false
   },
-  "outcome": "no_free_slot",
+  "outcome": null,
   "blocker": null,
   "retryable": false,
   "acceptance": {
@@ -53,12 +52,12 @@
     "current_tinyfish_login_control_file_upload_unlimited0_verified": false,
     "topview_task_id_verified_for_this_run": false,
     "end_to_end_background_submission_verified": false,
-    "receipt_saved_and_verified": true
+    "receipt_saved_and_verified": false
   },
   "new_submissions": 0,
   "scan": {
     "source": "Topview connector read-only",
-    "scope": "all 14 editable boards, all 19 video pages incl. zero-video boards",
+    "scope": "all 14 editable boards, all 19 video pages",
     "boards": 14,
     "pages": 19,
     "unique_video_tasks": 675,
@@ -76,56 +75,12 @@
       "3a09108c8c474a0989118806b4a69f91"
     ],
     "main_board_id": "1a6244cf1ae747ef847d949a80d6133c",
-    "checked_at": "2026-11-13T20:06:58.095Z",
-    "main_board_video_tasks": 508,
-    "active_params": {
-      "model": "Seedance 2.0",
-      "duration_seconds": 15,
-      "resolution": 720,
-      "unlimited": true,
-      "credits_cost": 0
-    }
+    "checked_at": null,
+    "checked_at_reason": "Topview connector response has no timestamp; scan occurred in this run immediately before lease"
   },
   "execution": {
-    "state": "completed",
-    "stage": "no_free_slot",
-    "updated_at": "2026-11-13T20:11:57.116Z"
-  },
-  "completed_at": "2026-11-13T20:11:57.116Z",
-  "source_head_final": "1cdcd6802782ade5bda383469926cb3665907ce2",
-  "queue_reconciliation": {
-    "status": "sha_verified_no_create",
-    "queue_items": 63,
-    "readiness_items": 30,
-    "transitional_claims": 0,
-    "queue_submitted_task_ids": 33,
-    "task_map_processed_count": 139,
-    "task_id_crossmatch_in_this_run": "not_independently_completed; scan of 675 unique video tasks completed, no Create because 6/6",
-    "source_queue_sha256": "92e5bd1d8eefc604d634fb24d7c81349dcd69a411193b37d338e4e15be70b0e8",
-    "source_task_map_sha256": "c79e0b69d273cf79ad152a48b50425518de14b7061a7ad17992c4f60431bda03",
-    "sha256_match_independently_verified": true,
-    "checked_at": "2026-11-13T20:11:00Z"
-  },
-  "peer_reconciliation": {
-    "ordinary_automation_enabled": true,
-    "work_hh55_enabled": true,
-    "relay_handler_enabled": true,
-    "ordinary_runtime_run_id": "21423cf7-5fa0-8320-9fce-7f8886a2a93e",
-    "work_runtime_run_id": "a3f204cb-0268-8328-a02d-a31342afc844",
-    "relay_runtime_run_id": "cf95fc42-67c8-832e-9995-dd98919c4e09",
-    "old_free_slot_issues_not_current_capacity": true
-  },
-  "owner_tasks_check": {
-    "open": 0,
-    "taken": 0
-  },
-  "work_capacity_check": {
-    "preferred_executor": "work",
-    "route_generation": 3,
-    "note": "Registry historical Work restoration retained; no fresh Work GUI/quota evidence asserted by this cycle."
-  },
-  "expenses": {
-    "tinyfish_usd": 0,
-    "topview_credits": 0
+    "state": "in_progress",
+    "stage": "receipt_started",
+    "updated_at": "2026-11-13T21:05:17.520Z"
   }
 }
