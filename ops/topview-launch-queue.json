@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-11-12T13:14:25Z",
+  "updated_at": "2026-11-13T11:46:22Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -2142,7 +2142,127 @@
       "creditsCost": 0,
       "story_parts_complete": true,
       "story_parts_note": "Scene 48 has no part 5. Provenance trim is not a launch input. Technical success is not film acceptance.",
-      "provenance_path": "references/scenes/scene-48/S48-P4-last3s-20261109.json"
+      "provenance_path": "references/scenes/scene-48/S48-P4-last3s-20261109.json",
+      "owner_artistic_rerepair_20261113": {
+        "item_id": "S48-P4-R2",
+        "authorization_id": "owner-20261113-t599u",
+        "at_local": "2026-11-13T14:37 Europe/Moscow",
+        "quote": "48.4 на переделку отправь. Следующим в очереди.",
+        "defect": "t600u: в кадре два Серёги, персонаж задвоился.",
+        "resets_history": false,
+        "automatic_retry": false,
+        "does_not_delete_task": "6a70fae84abf401cb93f8c762b8c26e3"
+      }
+    },
+    {
+      "id": "S48-P4-R2",
+      "scene_id": 48,
+      "prompt_id": "S48-P4-R2",
+      "canonical_block_label": "48 · Seedance 2.0 часть 4 · R2",
+      "canonical_prompt_sha256": "5a755dedb17c1d44bce45db80b17a7c1618e792a4dc50967034cb46e0c39390f",
+      "normalized_prompt_sha256": "726d18108811207b4dd747f69f1ba048be61220a44ccfc5cc4866eeda31d741f",
+      "priority": 0.3,
+      "state": "waiting_for_slot",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "automatic_retry": false,
+      "owner_approval": false,
+      "film_acceptance": false,
+      "task_id": null,
+      "claim": null,
+      "depends_on_submitted": [
+        "S48-SEED20-P3"
+      ],
+      "depends_on_completed": [
+        "S48-SEED20-P3"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "previous_part_end",
+          "source_item_id": "S48-SEED20-P3",
+          "source_task_id": "94d2ef4fbb7a42a3bee7c112dbc232cc",
+          "filename": "S48-P3-last3s.mp4",
+          "path": "references/scenes/scene-48/S48-P3-last3s.mp4",
+          "sha256": "76739a1bba4ae3d7fec94319e18778362659327eb56967c3976b92df8d066919",
+          "bytes": 2267408,
+          "duration_seconds": 3,
+          "width": 1280,
+          "height": 720,
+          "fps": 24,
+          "frames": 72,
+          "source_start_frame_zero_based": 289,
+          "source_end_frame_inclusive": 360,
+          "drive_file_id": "1Y3RztZo-eFpNsTWHo_UldB16cvFrMzAE",
+          "provenance_path": "references/scenes/scene-48/S48-P3-last3s-20261109.json",
+          "qc_status": "noted_not_blocking",
+          "qc_note": "The end shows the city far away, with needle spires and no gate. Owner t417u said to continue without looking back at that mismatch. Not blocking."
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-16/S16-worm-scale.png",
+          "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-48/S48-P4-city-gate.png",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "city_gate_and_bystanders",
+          "sha256": "6ade90a63126f972c86c046e00075b9215967a5fb4f4e1786029444203d9e858"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-48/S48-P4-dismount-landing.png",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "landing_pose_before_gate",
+          "sha256": "108d897c6bfbdc4977a37242d204b9c05d76f95c62583acef9a51bc7fab965c2"
+        }
+      ],
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "launch_readiness": "authorized_inputs_available",
+      "blocker": null,
+      "authorization_id": "owner-20261113-t599u",
+      "authorization": {
+        "id": "owner-20261113-t599u",
+        "at_local": "2026-11-13T14:37 Europe/Moscow",
+        "card": "t599u",
+        "also": [
+          "t600u",
+          "t601u"
+        ],
+        "quote": "48.4 на переделку отправь. Следующим в очереди.",
+        "defect_t600u": "В кадре два Серёги (персонаж задвоился).",
+        "scope": "One new free artistic Unlimited0 attempt of S48-P4-R2 only. Not a technical retry. Does not reset S48-SEED20-P4.",
+        "unlimited_credits": 0,
+        "model": "Seedance 2.0",
+        "duration_seconds": 15,
+        "automatic_retry": false
+      },
+      "replaces_artistic_result_of": "S48-SEED20-P4",
+      "preserves_previous_task_id": "6a70fae84abf401cb93f8c762b8c26e3",
+      "preserves_previous_receipt": "reports/topview-queue-2026-10-16/S48-SEED20-P4-20261109T111900Z.json",
+      "created_at": "2026-11-13T11:45:00Z"
     },
     {
       "id": "S28-A3-20261023",
@@ -2151,7 +2271,7 @@
       "canonical_block_label": "28 A3",
       "canonical_prompt_sha256": "3ae8f5be91c00a7eda50c4db3bb5bbbbab47c162eb7a1061e395295b40cf67f3",
       "normalized_prompt_sha256": "db4f575648439339ea505a894c6ff83d91cbb54a22e61b3c4c2181bb072bc6fc",
-      "priority": 2.03,
+      "priority": 0.319,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -2215,7 +2335,19 @@
         "4ad12470bbeb66a297955580c8f7da31861092cd2a6083584674870aa4cd23c1"
       ],
       "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted.",
-      "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted."
+      "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted.",
+      "owner_music_consent": true,
+      "owner_music_consent_record": {
+        "id": "owner-20261113-t601u",
+        "at_local": "2026-11-13T14:40 Europe/Moscow",
+        "also": [
+          "t576u",
+          "t578u"
+        ],
+        "quote": "Порядок очереди запуска: 1) S48-P4-R2; 2) совет джедаев на балконе S89A–S89E и голограммы S89F–S89G; 3) оставшиеся танцы сцены 28; 4) остальные разговорные S89H–S89J. Это согласие запускать танцы 28 в этом месте очереди.",
+        "scope": "remaining scene 28 dances listed in owner_policy_20261113_t601u only",
+        "not_consent_for_other_music": true
+      }
     },
     {
       "id": "S28-A4-20261023",
@@ -2224,7 +2356,7 @@
       "canonical_block_label": "28 A4",
       "canonical_prompt_sha256": "58a35e7fcf3c9cf21693f730bda492729fea678abd8f918a644c6eb0a3fa53e7",
       "normalized_prompt_sha256": "af54a74de6f46231c0fd0bbb27cc6fc1668175903a9668784f35bd065ee2d36b",
-      "priority": 2.04,
+      "priority": 0.31,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -2278,7 +2410,19 @@
         "f0002100d788d6c7d390b3c5f3096ebc9cdac7b015d8f1c20ec35f44d3771e75"
       ],
       "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted.",
-      "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted."
+      "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted.",
+      "owner_music_consent": true,
+      "owner_music_consent_record": {
+        "id": "owner-20261113-t601u",
+        "at_local": "2026-11-13T14:40 Europe/Moscow",
+        "also": [
+          "t576u",
+          "t578u"
+        ],
+        "quote": "Порядок очереди запуска: 1) S48-P4-R2; 2) совет джедаев на балконе S89A–S89E и голограммы S89F–S89G; 3) оставшиеся танцы сцены 28; 4) остальные разговорные S89H–S89J. Это согласие запускать танцы 28 в этом месте очереди.",
+        "scope": "remaining scene 28 dances listed in owner_policy_20261113_t601u only",
+        "not_consent_for_other_music": true
+      }
     },
     {
       "id": "S28-A5-20261023",
@@ -2287,7 +2431,7 @@
       "canonical_block_label": "28 A5",
       "canonical_prompt_sha256": "938d3cb01d5d438a2dd98b940efb7b2ab16b4f3373e1d4b2de29fb8c81b4a081",
       "normalized_prompt_sha256": "378c7ae0f237f0c0ca2ab2a4f6089d940c8f2052148751281858643009188027",
-      "priority": 2.05,
+      "priority": 0.311,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -2341,7 +2485,19 @@
         "39fd8522618e92a54a4723b57f55f77576165c8b58d788bde55278e360100a7e"
       ],
       "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted.",
-      "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted."
+      "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted.",
+      "owner_music_consent": true,
+      "owner_music_consent_record": {
+        "id": "owner-20261113-t601u",
+        "at_local": "2026-11-13T14:40 Europe/Moscow",
+        "also": [
+          "t576u",
+          "t578u"
+        ],
+        "quote": "Порядок очереди запуска: 1) S48-P4-R2; 2) совет джедаев на балконе S89A–S89E и голограммы S89F–S89G; 3) оставшиеся танцы сцены 28; 4) остальные разговорные S89H–S89J. Это согласие запускать танцы 28 в этом месте очереди.",
+        "scope": "remaining scene 28 dances listed in owner_policy_20261113_t601u only",
+        "not_consent_for_other_music": true
+      }
     },
     {
       "id": "S28-A6-20261023",
@@ -2350,7 +2506,7 @@
       "canonical_block_label": "28 A6",
       "canonical_prompt_sha256": "f819e63371850fa773ceaca7720fb1b5feaf8051d7169c9fe984f9cdfc899d1f",
       "normalized_prompt_sha256": "80cf42e08bb7aaf8e95031b89a11457dc5e43d77f4ba0a9ac865c12c17faaa72",
-      "priority": 2.06,
+      "priority": 0.312,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -2412,7 +2568,19 @@
         "03e3e48977b61a80f6ab13be61822aff613c74cbd9ddb590ff40c7d13d5cee62"
       ],
       "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted.",
-      "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted."
+      "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted.",
+      "owner_music_consent": true,
+      "owner_music_consent_record": {
+        "id": "owner-20261113-t601u",
+        "at_local": "2026-11-13T14:40 Europe/Moscow",
+        "also": [
+          "t576u",
+          "t578u"
+        ],
+        "quote": "Порядок очереди запуска: 1) S48-P4-R2; 2) совет джедаев на балконе S89A–S89E и голограммы S89F–S89G; 3) оставшиеся танцы сцены 28; 4) остальные разговорные S89H–S89J. Это согласие запускать танцы 28 в этом месте очереди.",
+        "scope": "remaining scene 28 dances listed in owner_policy_20261113_t601u only",
+        "not_consent_for_other_music": true
+      }
     },
     {
       "id": "S28-A7-20261023",
@@ -2421,7 +2589,7 @@
       "canonical_block_label": "28 A7",
       "canonical_prompt_sha256": "8c608514e1a03bf5b36798f18aa3f96b9af5a52c55589360940f958e44ee83da",
       "normalized_prompt_sha256": "e6e7e3f053272cbee0ec0f6f913c191ed2166db2907e328dd17e77896f5792fc",
-      "priority": 2.07,
+      "priority": 0.313,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -2483,7 +2651,19 @@
         "4e4b39b0007965f457e550bf2d9841081757943d9d443b796a902b80cb10fd5d"
       ],
       "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted.",
-      "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted."
+      "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted.",
+      "owner_music_consent": true,
+      "owner_music_consent_record": {
+        "id": "owner-20261113-t601u",
+        "at_local": "2026-11-13T14:40 Europe/Moscow",
+        "also": [
+          "t576u",
+          "t578u"
+        ],
+        "quote": "Порядок очереди запуска: 1) S48-P4-R2; 2) совет джедаев на балконе S89A–S89E и голограммы S89F–S89G; 3) оставшиеся танцы сцены 28; 4) остальные разговорные S89H–S89J. Это согласие запускать танцы 28 в этом месте очереди.",
+        "scope": "remaining scene 28 dances listed in owner_policy_20261113_t601u only",
+        "not_consent_for_other_music": true
+      }
     },
     {
       "id": "S28-A8-20261023",
@@ -2492,7 +2672,7 @@
       "canonical_block_label": "28 A8",
       "canonical_prompt_sha256": "a7ec1b1bdac01eff682f8644c8cff6f801b60f8f1c1980e15cbadc5c53a31f53",
       "normalized_prompt_sha256": "20333cb56211659671f3b10a754453fdd490b43eb01d2d70c60835c434ec4be6",
-      "priority": 2.08,
+      "priority": 0.314,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -2554,7 +2734,19 @@
         "b708bd6ae0a798baa8bad71df2983edb5ead5d62f5a60837f3f0b6a203c5571e"
       ],
       "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted.",
-      "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted."
+      "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted.",
+      "owner_music_consent": true,
+      "owner_music_consent_record": {
+        "id": "owner-20261113-t601u",
+        "at_local": "2026-11-13T14:40 Europe/Moscow",
+        "also": [
+          "t576u",
+          "t578u"
+        ],
+        "quote": "Порядок очереди запуска: 1) S48-P4-R2; 2) совет джедаев на балконе S89A–S89E и голограммы S89F–S89G; 3) оставшиеся танцы сцены 28; 4) остальные разговорные S89H–S89J. Это согласие запускать танцы 28 в этом месте очереди.",
+        "scope": "remaining scene 28 dances listed in owner_policy_20261113_t601u only",
+        "not_consent_for_other_music": true
+      }
     },
     {
       "id": "S28-A9-20261023",
@@ -2563,7 +2755,7 @@
       "canonical_block_label": "28 A9",
       "canonical_prompt_sha256": "a972b5e38551a4be3b71888b0959f1b2398b583aaeea91474071d0b5150a942d",
       "normalized_prompt_sha256": "c290f6358ebc5ee9459aebc03e6db2f1b71bb29c8a82b0de8c40bd2a28913a01",
-      "priority": 2.09,
+      "priority": 0.315,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -2625,7 +2817,19 @@
         "35539c88876c515eb9164b28a53e45d04500ec5ed06514da0802cb5d624e760f"
       ],
       "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted.",
-      "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted."
+      "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted.",
+      "owner_music_consent": true,
+      "owner_music_consent_record": {
+        "id": "owner-20261113-t601u",
+        "at_local": "2026-11-13T14:40 Europe/Moscow",
+        "also": [
+          "t576u",
+          "t578u"
+        ],
+        "quote": "Порядок очереди запуска: 1) S48-P4-R2; 2) совет джедаев на балконе S89A–S89E и голограммы S89F–S89G; 3) оставшиеся танцы сцены 28; 4) остальные разговорные S89H–S89J. Это согласие запускать танцы 28 в этом месте очереди.",
+        "scope": "remaining scene 28 dances listed in owner_policy_20261113_t601u only",
+        "not_consent_for_other_music": true
+      }
     },
     {
       "id": "S28-A10-20261023",
@@ -2634,7 +2838,7 @@
       "canonical_block_label": "28 A10",
       "canonical_prompt_sha256": "9e541aa09e5bf073e6018154809f63f838aea7f8cf80a53a52be448de4b8ba03",
       "normalized_prompt_sha256": "db33c6722a8a327f6cfe9700a6cfb380b131adebdfe05a8e69e5a48bf641ebd3",
-      "priority": 2.1,
+      "priority": 0.317,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -2672,7 +2876,19 @@
         "a105533d95d69fded5afaf7bf2c9f89d614e5488163fbb5d5a9eb0e89f3af4af"
       ],
       "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted.",
-      "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted."
+      "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted.",
+      "owner_music_consent": true,
+      "owner_music_consent_record": {
+        "id": "owner-20261113-t601u",
+        "at_local": "2026-11-13T14:40 Europe/Moscow",
+        "also": [
+          "t576u",
+          "t578u"
+        ],
+        "quote": "Порядок очереди запуска: 1) S48-P4-R2; 2) совет джедаев на балконе S89A–S89E и голограммы S89F–S89G; 3) оставшиеся танцы сцены 28; 4) остальные разговорные S89H–S89J. Это согласие запускать танцы 28 в этом месте очереди.",
+        "scope": "remaining scene 28 dances listed in owner_policy_20261113_t601u only",
+        "not_consent_for_other_music": true
+      }
     },
     {
       "id": "S28-A11-20261023",
@@ -2681,7 +2897,7 @@
       "canonical_block_label": "28 A11",
       "canonical_prompt_sha256": "b9b68e276d8481357cc6fb4553dd89084d6cc3c64e81d6bbd7b8902ecdd60ea7",
       "normalized_prompt_sha256": "5eb05b4497d0cb46f7ffb02fa93ccff446aaab84434bb3a641e6a7d2d4f18f6b",
-      "priority": 2.11,
+      "priority": 0.318,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -2741,7 +2957,19 @@
         "b1d5559ca6fa5955ffee8849a241a2c9ba72e76383b73b273f0cb4d126497982"
       ],
       "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted.",
-      "pose_revision_20261025": "Pose helper added; existing real-video continuity dependency retained."
+      "pose_revision_20261025": "Pose helper added; existing real-video continuity dependency retained.",
+      "owner_music_consent": true,
+      "owner_music_consent_record": {
+        "id": "owner-20261113-t601u",
+        "at_local": "2026-11-13T14:40 Europe/Moscow",
+        "also": [
+          "t576u",
+          "t578u"
+        ],
+        "quote": "Порядок очереди запуска: 1) S48-P4-R2; 2) совет джедаев на балконе S89A–S89E и голограммы S89F–S89G; 3) оставшиеся танцы сцены 28; 4) остальные разговорные S89H–S89J. Это согласие запускать танцы 28 в этом месте очереди.",
+        "scope": "remaining scene 28 dances listed in owner_policy_20261113_t601u only",
+        "not_consent_for_other_music": true
+      }
     },
     {
       "id": "S28-A12-20261023",
@@ -2750,7 +2978,7 @@
       "canonical_block_label": "28 A12",
       "canonical_prompt_sha256": "8ac2aea2de627ace7ab902219e50cd70f02435a91169aadfe0cf54ef0e1d5f0c",
       "normalized_prompt_sha256": "1cef8248f0574ed41fdf0b7eece1df0ac7e3da76d23cf31f99297fd7b3dd5d51",
-      "priority": 2.12,
+      "priority": 0.32,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -2822,7 +3050,19 @@
       ],
       "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted.",
       "pose_revision_20261025": "Pose helper added; existing real-video continuity dependency retained.",
-      "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted."
+      "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted.",
+      "owner_music_consent": true,
+      "owner_music_consent_record": {
+        "id": "owner-20261113-t601u",
+        "at_local": "2026-11-13T14:40 Europe/Moscow",
+        "also": [
+          "t576u",
+          "t578u"
+        ],
+        "quote": "Порядок очереди запуска: 1) S48-P4-R2; 2) совет джедаев на балконе S89A–S89E и голограммы S89F–S89G; 3) оставшиеся танцы сцены 28; 4) остальные разговорные S89H–S89J. Это согласие запускать танцы 28 в этом месте очереди.",
+        "scope": "remaining scene 28 dances listed in owner_policy_20261113_t601u only",
+        "not_consent_for_other_music": true
+      }
     },
     {
       "id": "S59-SEED20-P2",
@@ -4122,7 +4362,7 @@
       "canonical_block_label": "28 A1",
       "canonical_prompt_sha256": "4ae5aaefdf42c4cb003eba540a47439dc7657b7f4b24f8b4ed9cd1b6524254ab",
       "normalized_prompt_sha256": "a20f0559fa71be25af94d2df1aa1e5f3d98be7cf9753a9f8a6f7b601a0afb82c",
-      "priority": 2.01,
+      "priority": 0.308,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -4253,6 +4493,18 @@
         "report": "reports/topview-quality-2026-10-28/S28-A1-TEST-20261017-review.json",
         "owner_approved": false,
         "gate_effect": "duplicate-prevention gate cleared; no submission performed"
+      },
+      "owner_music_consent": true,
+      "owner_music_consent_record": {
+        "id": "owner-20261113-t601u",
+        "at_local": "2026-11-13T14:40 Europe/Moscow",
+        "also": [
+          "t576u",
+          "t578u"
+        ],
+        "quote": "Порядок очереди запуска: 1) S48-P4-R2; 2) совет джедаев на балконе S89A–S89E и голограммы S89F–S89G; 3) оставшиеся танцы сцены 28; 4) остальные разговорные S89H–S89J. Это согласие запускать танцы 28 в этом месте очереди.",
+        "scope": "remaining scene 28 dances listed in owner_policy_20261113_t601u only",
+        "not_consent_for_other_music": true
       }
     },
     {
@@ -4262,7 +4514,7 @@
       "canonical_block_label": "28 A2",
       "canonical_prompt_sha256": "f9b7c8b25cdd8cbf0794a6477b75d8e3933ded1c310e64835f3ff5c7f8345286",
       "normalized_prompt_sha256": "c954e5d931b776add7de7bf1916a6a12c621cff30edb5d8b7cbcc19ebb95726d",
-      "priority": 2.02,
+      "priority": 0.309,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -4334,7 +4586,19 @@
       "terminal_qc_gate_cleared_at": "2026-10-29T07:08:00Z",
       "terminal_qc_report": "reports/topview-quality-2026-10-23/S28-A2-20261023-review.json",
       "terminal_qc_result": "critical_defect_not_owner_approved",
-      "terminal_qc_note": "Predecessor terminal/QC duplicate-prevention gate is satisfied. This does not approve the predecessor or trigger an automatic retry; the separate R2 remains limited to its existing owner25Oct authorization and one future free submission."
+      "terminal_qc_note": "Predecessor terminal/QC duplicate-prevention gate is satisfied. This does not approve the predecessor or trigger an automatic retry; the separate R2 remains limited to its existing owner25Oct authorization and one future free submission.",
+      "owner_music_consent": true,
+      "owner_music_consent_record": {
+        "id": "owner-20261113-t601u",
+        "at_local": "2026-11-13T14:40 Europe/Moscow",
+        "also": [
+          "t576u",
+          "t578u"
+        ],
+        "quote": "Порядок очереди запуска: 1) S48-P4-R2; 2) совет джедаев на балконе S89A–S89E и голограммы S89F–S89G; 3) оставшиеся танцы сцены 28; 4) остальные разговорные S89H–S89J. Это согласие запускать танцы 28 в этом месте очереди.",
+        "scope": "remaining scene 28 dances listed in owner_policy_20261113_t601u only",
+        "not_consent_for_other_music": true
+      }
     },
     {
       "id": "S52-R2-SEED20-P1",
@@ -6276,7 +6540,7 @@
       "canonical_block_label": "28 A13",
       "canonical_prompt_sha256": "16c7e16535f36792c8ceaf4687f735e8d5726fc07412b1e3aa421968f67c765a",
       "normalized_prompt_sha256": "2399d902f98f3365fbe3a4e6097b1d4226376b98d3516aff49b6466851513dae",
-      "priority": 2.095,
+      "priority": 0.316,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -6337,7 +6601,19 @@
       "launch_readiness": "authorized_inputs_available",
       "authorization": "Owner30Oct adds this trio subscene to the already authorized final musical number; existing Unlimited0 one-attempt queue scope continues. No paid run, no duplicate or artistic rerender.",
       "owner_launch_authorized_at": "2026-10-30T01:35:23+00:00",
-      "authorization_recorded_at_note": "Recorded now from current owner request and existing final-number queue authorization, not a claimed message timestamp."
+      "authorization_recorded_at_note": "Recorded now from current owner request and existing final-number queue authorization, not a claimed message timestamp.",
+      "owner_music_consent": true,
+      "owner_music_consent_record": {
+        "id": "owner-20261113-t601u",
+        "at_local": "2026-11-13T14:40 Europe/Moscow",
+        "also": [
+          "t576u",
+          "t578u"
+        ],
+        "quote": "Порядок очереди запуска: 1) S48-P4-R2; 2) совет джедаев на балконе S89A–S89E и голограммы S89F–S89G; 3) оставшиеся танцы сцены 28; 4) остальные разговорные S89H–S89J. Это согласие запускать танцы 28 в этом месте очереди.",
+        "scope": "remaining scene 28 dances listed in owner_policy_20261113_t601u only",
+        "not_consent_for_other_music": true
+      }
     },
     {
       "id": "S56-SEED20-P2",
@@ -6984,7 +7260,7 @@
       "canonical_block_label": "89H · Wan 3.0",
       "canonical_prompt_sha256": "f3b7711b9f8d1b29c7252a059ddc2bce5577950e00a7df9887792fa376bb066e",
       "normalized_prompt_sha256": "812d2167ae0fa499caf93e125c4f4f47071ee511b5252b084402d95e962c5646",
-      "priority": 0.308,
+      "priority": 0.321,
       "state": "waiting_for_slot",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
@@ -7060,7 +7336,7 @@
       "canonical_block_label": "89I · Wan 3.0",
       "canonical_prompt_sha256": "969bea0573a4aaaf0ba1f596a4ae4e8f069464efbf1febc14754bb8f60168f44",
       "normalized_prompt_sha256": "88f3a4946da0df98c980f3f2a8413f12075e3a18f99e35f9854cd80d5ab54b45",
-      "priority": 0.309,
+      "priority": 0.322,
       "state": "waiting_for_slot",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
@@ -7124,7 +7400,7 @@
       "canonical_block_label": "89J · Wan 3.0",
       "canonical_prompt_sha256": "c1d585532c0b8e4bbe05d2125c138159c5891609826fb5c9bef95a024c788454",
       "normalized_prompt_sha256": "d4fa2bccbfd08779ddda220d2fe51b8e068292c478533993ea550a9cebc7ec9a",
-      "priority": 0.31,
+      "priority": 0.323,
       "state": "waiting_for_slot",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
@@ -8687,5 +8963,51 @@
     "placement": "Unlinked dialogue singles. t422u band 2, after the submitted Tatooine chain and before music/dance 28/49/50/51. Scene 62 stays on hold. Within 89: council 89A-89E, holograms 89F-89G, bartender 89H, cantina 89I-89J.",
     "retry_control": "omitted",
     "retry_note": "retry_control is omitted on S89A-WAN30 through S89J-WAN30. A present retry_control makes Grok prepare_intent take the retry path and reject the first Create. No auto-retry is recorded as automatic_retry false, the same shape as the other one-Create items."
+  },
+  "owner_policy_20261113_t601u": {
+    "id": "owner-20261113-t601u",
+    "at_local": "2026-11-13T14:40 Europe/Moscow",
+    "who": "Виталик",
+    "quote": "1) S48-P4-R2; 2) совет джедаев на балконе S89A–S89E и голограммы S89F–S89G; 3) оставшиеся танцы сцены 28; 4) остальные разговорные S89H–S89J.",
+    "effect": "explicit_front_order",
+    "order": [
+      "S48-P4-R2",
+      "S89A-WAN30",
+      "S89B-WAN30",
+      "S89C-WAN30",
+      "S89D-WAN30",
+      "S89E-WAN30",
+      "S89F-WAN30",
+      "S89G-WAN30",
+      "S28-A1-R2-20261025",
+      "S28-A2-R2-20261025",
+      "S28-A4-20261023",
+      "S28-A5-20261023",
+      "S28-A6-20261023",
+      "S28-A7-20261023",
+      "S28-A8-20261023",
+      "S28-A9-20261023",
+      "S28-A13-20261030",
+      "S28-A10-20261023",
+      "S28-A11-20261023",
+      "S28-A3-20261023",
+      "S28-A12-20261023",
+      "S89H-WAN30",
+      "S89I-WAN30",
+      "S89J-WAN30"
+    ],
+    "scene_28_consent": "owner_music_consent on the listed S28 items only; also t576u/t578u. Not after_all_story. Does not consent 49/50/51, parodies, S13 or S62.",
+    "a1_a2": "The waiting takes are S28-A1-R2-20261025 and S28-A2-R2-20261025. Already submitted A1/A2 stays in history.",
+    "a3_a12": "Stay blocked until their predecessor frames exist, then they follow A11 and precede S89H.",
+    "does_not_weaken": [
+      "depends_on_completed",
+      "continuity_excerpt",
+      "continuity_qc",
+      "fresh_scan_120s",
+      "unlimited_zero",
+      "one_attempt",
+      "music_consent"
+    ],
+    "includes_pr_604": "S89A–S89J-WAN30 remain the items from branch cursor/queue-scene-89-wan30-cddb. H–J priorities move after the scene 28 dances."
   }
 }
