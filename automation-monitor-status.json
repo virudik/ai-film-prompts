@@ -440,6 +440,7 @@
       "S49B",
       "S51E",
       "S51F",
+      "S48-P4-R2",
       "S28-A4-20261023",
       "S28-A5-20261023",
       "S28-A6-20261023",
@@ -452,7 +453,17 @@
       "S28-A1-R2-20261025",
       "S28-A2-R2-20261025",
       "S51G",
-      "S28-A13-20261030"
+      "S28-A13-20261030",
+      "S89A-WAN30",
+      "S89B-WAN30",
+      "S89C-WAN30",
+      "S89D-WAN30",
+      "S89E-WAN30",
+      "S89F-WAN30",
+      "S89G-WAN30",
+      "S89H-WAN30",
+      "S89I-WAN30",
+      "S89J-WAN30"
     ],
     "reconciliation_items": [],
     "last_event_id": "slots:c8bf02e8:61",
@@ -465,6 +476,6 @@
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
     "escalation_attempted_episode": "c8bf02e8",
-    "checked_at": "2026-11-13T13:50:36Z"
+    "checked_at": "2026-11-13T14:10:42Z"
   }
 }
