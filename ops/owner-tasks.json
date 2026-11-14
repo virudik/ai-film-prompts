@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "rules": "ops/OWNER-TASKS.md",
-  "updated_at": "2026-11-14T21:05:30.162Z",
+  "updated_at": "2026-11-14T21:09:50.569Z",
   "tasks": [
     {
       "id": "d37ea54b-6b09-4283-892b-d6c3e189b82f",
@@ -159,9 +159,12 @@
       "to": "any",
       "source": "self-heal",
       "text": "Самопроверка: Последний запуск «здоровье канона» на GitHub упал (попытка 2): https://github.com/virudik/ai-film-prompts/actions/runs/43638120305 Найти причину и починить; правила — ops/SELF-HEAL.md.",
-      "status": "taken",
+      "status": "done",
       "taken_by": "chatgpt:ordinary:7664d92f-63b0-4b7d-b6c7-a88dc7d5a47e",
-      "taken_at": "2026-11-14T21:05:30.162Z"
+      "taken_at": "2026-11-14T21:05:30.162Z",
+      "result": "Исправлена причина нового предупреждения canon-health: файл work-resume-register.json занимал 105201 байт (лимит 100 КиБ), поскольку штатная чистка не переносит незавершённые работы. Все 19 активных работ, 10 completed, resume_focus, recovery и любые поля сохранены без изменений; только отступ JSON сокращён с 2 до 1 пробела, размер 98555 байт. Сравнение разобранных JSON с исходным Git blob дало полное семантическое совпадение. После исправления canon-health GitHub Actions run 43641246854 завершился success. Долговременные предупреждения по NEW-CHAT-HANDOFF и info не являются причиной нового сбоя.",
+      "result_commit": "aeb5de1eba2d6ab5b511ca88790d331db3388fcc",
+      "closed_at": "2026-11-14T21:09:50.569Z"
     }
   ]
 }
