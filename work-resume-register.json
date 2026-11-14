@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-14T19:28:43.268Z",
+  "last_updated_at": "2026-11-14T20:04:15+00:00",
   "active_work": [
     {
       "work_id": "SEREGIUS-SHIFT-20261113-T611U",
@@ -9,45 +9,41 @@
       "title": "Смена 13.11 t611u: очередь 48.4 и 89, отзыв по версиям Grok",
       "status": "waiting_for_owner",
       "created_at": "2026-11-13T14:05:00Z",
-      "updated_at": "2026-11-14T18:43:19.304Z",
-      "next_action": "Слоты: S48-P4-R2 и S51E/F/G уже submitted; следующий S89A-WAN30. Последний снимок 5/6 (14.11 18:10Z), но в текущем ordinary Browser требует originating context: нельзя подтвердить native upload и Unlimited0/price0, claim/intent/Create=0. В следующем реальном wake/браузерном исполнении повторить полный scan/UI-preflight и запускать только при доказанном 0 credits. Отзыв владельца о Grok 48.3/48.4 и художественная оценка сцены 88 отдельно; PR 369–371 не трогать.",
+      "updated_at": "2026-11-14T20:04:15+00:00",
+      "next_action": "Восстановить вход Topview в открытой вкладке встроенного браузера этого Work-чата. Затем новый полный скан всех досок, свежий main/lease и проверка дублей; для S89A-WAN30 скачать точные пять исходников, сверить SHA/master и Unlimited/720p/16:9/quantity1/0 credits, CAS-claim/intent/readback и один Create. Продолжать по живой очереди при свободных слотах. Уже submitted S48-P4-R2 и S51E/F/G не повторять. Проверить следующий реальный цикл возобновлённой HH:55 страховки; enabled не доказывает вход или запуск.",
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-14T18:43:19.304Z",
-        "last_completed": "14.11: S48-P4-R2 и S51E/F/G уже отправлены и сверены по task ID; текущий D7 preflight подтверждает full 8/8 SHA и 15/15, live 5/6, S89A следующий. Browser ordinary недоступен (originating_context_required), 0 новых Create.",
-        "next_action": "Слоты: S48-P4-R2 и S51E/F/G уже submitted; следующий S89A-WAN30. Последний снимок 5/6 (14.11 18:10Z), но в текущем ordinary Browser требует originating context: нельзя подтвердить native upload и Unlimited0/price0, claim/intent/Create=0. В следующем реальном wake/браузерном исполнении повторить полный scan/UI-preflight и запускать только при доказанном 0 credits. Отзыв владельца о Grok 48.3/48.4 и художественная оценка сцены 88 отдельно; PR 369–371 не трогать.",
+        "verified_at": "2026-11-14T20:04:15+00:00",
+        "last_completed": "Work выполнил короткий D7: 15/15 правил и SHA источников совпали. Полный read-only скан 14 досок/675 видеозадач в 19:59:04Z: 5/6 занято. Следующий S89A-WAN30; новых claim/intent/Create нет. Существующая часовая страховка снова включена и перечитана через Automations.",
+        "next_action": "Восстановить вход Topview в открытой вкладке встроенного браузера этого Work-чата. Затем новый полный скан всех досок, свежий main/lease и проверка дублей; для S89A-WAN30 скачать точные пять исходников, сверить SHA/master и Unlimited/720p/16:9/quantity1/0 credits, CAS-claim/intent/readback и один Create. Продолжать по живой очереди при свободных слотах. Уже submitted S48-P4-R2 и S51E/F/G не повторять. Проверить следующий реальный цикл возобновлённой HH:55 страховки; enabled не доказывает вход или запуск.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# 14.11.2026 — D7 ordinary: проверка очереди и передача смены",
-          "sha256": "23b70ad5d84b3f67702fbc38584668feba1cf31c01cc7cea4533c8fc85d2d495"
+          "anchor": "# 14.11.2026 — Work: очередь проверена, запуск ожидает входа Topview",
+          "sha256": "38ed7a26da2e9b86e7523c27c25ca7e8b898be6d2b39665e194283098b67376d"
         },
         "evidence": [
           {
-            "file": "ops/topview-launch-queue.json",
-            "sha256": "eadd8263e773d993665fc4fbdfd59a548e4a35c9afeee0b893fc771e8561373f"
-          },
-          {
-            "file": "ops/TOPVIEW-FREE-LAUNCH.md",
-            "sha256": "c6a484f5e22c1c7bbf1d82906d4d864fe95b7b7078e5dd4bd4c14760de3dc8d4"
+            "file": "reports/topview-queue-2026-10-16/preflight-20261114-work-33406175.json",
+            "sha256": "fbb7f6ffe2a4b2ae324a059c7681a0f82258df250a7e6ea306274757209cbd04"
           }
         ],
         "read_next": [
-          "reports/current-work-checkpoint.md",
-          "NEW-CHAT-HANDOFF.md",
-          "ops/topview-launch-queue.json"
+          "ops/topview-launch-queue.json",
+          "ops/TOPVIEW-FREE-LAUNCH.md",
+          "reports/current-work-checkpoint.md"
         ],
         "blockers": [
-          "Topview website UI requires originating browser context in current ordinary chat; native input upload and Unlimited0 cannot be verified; no Create."
+          "Topview login required in current Work cloud browser; generation UI/preflight unavailable before authentication."
         ]
       },
       "last_takeover": {
-        "at": "2026-11-14T18:43:19.304Z",
-        "receipt_id": "ordinary-continue-20261114-9ed5b31a",
-        "session_id": "chatgpt-ordinary-continue-20261114-9ed5b31a-5bbb-4c55-bd73-e7b4da42b5cc",
-        "surface": "ordinary",
-        "source_head": "c146647ab4c0ab5c2e75186c921a95dd26376bc6",
-        "full_intake": true,
-        "actual_action": "read-only queue reconciliation and browser capability check; no Create",
+        "at": "2026-11-14T20:04:15+00:00",
+        "receipt_id": "work-continue-20261114-33406175",
+        "session_id": "chatgpt-work-continue-33406175-4e23-4eca-8906-26de4724d255",
+        "surface": "work",
+        "source_head": "dbfceb4042d0c9caea4b9e53ae77336b4e6ad6f5",
+        "full_intake": false,
+        "actual_action": "Full account read-only scan and login check; existing hourly task resumed; no Create",
         "status_unchanged": "waiting_for_owner"
       },
       "last_relay_event": {
@@ -63,7 +59,7 @@
         "new_submissions": 0,
         "task_ids": []
       },
-      "current_blocker": "Topview website browser required originating browser context on two attempts; exact five-file native upload and Wan 3.0 Unlimited0/price0 could not be verified. No claim, intent or Create."
+      "current_blocker": "Topview login required in current Work cloud browser; generation UI/preflight unavailable before authentication."
     },
     {
       "work_id": "SEREGIUS-SASHA-PHOTOGRAPHER-20261110",

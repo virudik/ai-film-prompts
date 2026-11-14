@@ -3,25 +3,36 @@
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
 Состояние: ready
-Проверено: 2026-11-14T19:54:00+00:00
+Проверено: 2026-11-14T20:04:15+00:00
 Задача: SEREGIUS-SHIFT-20261113-T611U — Смена 13.11 t611u: очередь 48.4 и 89, отзыв по версиям Grok
 
-Последний подтверждённый этап: 14.11: S48-P4-R2 и S51E/F/G уже отправлены и сверены по task ID; текущий D7 preflight подтверждает full 8/8 SHA и 15/15, live 5/6, S89A следующий. Browser ordinary недоступен (originating_context_required), 0 новых Create.
-Следующий шаг: Слоты: S48-P4-R2 и S51E/F/G уже submitted; следующий S89A-WAN30. Последний снимок 5/6 (14.11 18:10Z), но в текущем ordinary Browser требует originating context: нельзя подтвердить native upload и Unlimited0/price0, claim/intent/Create=0. В следующем реальном wake/браузерном исполнении повторить полный scan/UI-preflight и запускать только при доказанном 0 credits. Отзыв владельца о Grok 48.3/48.4 и художественная оценка сцены 88 отдельно; PR 369–371 не трогать.
+Последний подтверждённый этап: Work выполнил короткий D7: 15/15 правил и SHA источников совпали. Полный read-only скан 14 досок/675 видеозадач в 19:59:04Z: 5/6 занято. Следующий S89A-WAN30; новых claim/intent/Create нет. Существующая часовая страховка снова включена и перечитана через Automations.
+Следующий шаг: Восстановить вход Topview в открытой вкладке встроенного браузера этого Work-чата. Затем новый полный скан всех досок, свежий main/lease и проверка дублей; для S89A-WAN30 скачать точные пять исходников, сверить SHA/master и Unlimited/720p/16:9/quantity1/0 credits, CAS-claim/intent/readback и один Create. Продолжать по живой очереди при свободных слотах. Уже submitted S48-P4-R2 и S51E/F/G не повторять. Проверить следующий реальный цикл возобновлённой HH:55 страховки; enabled не доказывает вход или запуск.
 
 ## Контрольная точка
 
-# 14.11.2026 — D7 ordinary: проверка очереди и передача смены
+# 14.11.2026 — Work: очередь проверена, запуск ожидает входа Topview
 
 work_id: SEREGIUS-SHIFT-20261113-T611U
 
-- Полный приём D7 из свежего GitHub main: 15/15 якорей и SHA256 всех 8 канонических источников совпали; после изменения очереди относительно старого recovery выбран полный приём. Resume focus сохранён (SEREGIUS-SHIFT-20261113-T611U); 7 инструкций прочитаны, master байты проверены через blob.
-- Живые источники: проект health=ok, монитор primary=robot, Topview снимок 2026-11-14T18:10:27Z: занято 5/6, свободно 1; очередь t601u: S48-P4-R2 и S51E/F/G уже submitted, в работе. S89A-WAN30 — следующий разрешённый waiting_for_slot/authorized_inputs_available, пять референсов; текущий чат не создавал новые задачи, не менял очереди и не тратил кредиты.
-- Capability preflight текущего обычного чата: Browser.list_tabs требует originating browser context; соединение с авторизованной формой Topview, проверка native file upload и Unlimited0/price0 здесь невозможны. Последний независимый полный скан Relay #674 (2026-11-14T18:10:27Z) также blocked_browser. claim/intent/Create=0; неизвестные отправки и уже выданные task_id сохраняются.
-- Проверены живые GitHub owner-tasks: open/taken/needs_owner=0; Supabase owner_decisions: новых pending/in_progress нет, историческая needs_owner to:grok отдельно. Scene 88 ждёт художественную оценку; PR 369–371 не трогать.
-- Принята foreground ordinary-смена epoch 5→6 (session_id локальный, реальный conversation ID недоступен). Work/Grok, расписания, route_generation и старые claims не менялись. Следующий шаг: только в новом реально авторизованном браузерном исполнении снова полный скан, точные исходники и UI Unlimited0, затем собственный замок/CAS, один Create для следующего ещё не отправленного item. Без этих доказательств — никакого Create.
+- Команда владельца: «Продолжай. Запускай по согласованной очереди». Приём короткий D7; fresh main dbfceb4042d0c9caea4b9e53ae77336b4e6ad6f5, ready_for_short=true, ready_for_resume=true, 15/15 правил.
+- Последний подтверждённый этап: Work выполнил короткий D7: 15/15 правил и SHA источников совпали. Полный read-only скан 14 досок/675 видеозадач в 19:59:04Z: 5/6 занято. Следующий S89A-WAN30; новых claim/intent/Create нет. Существующая часовая страховка снова включена и перечитана через Automations.
+- Проверены live project/instruction/automation/monitor status, canon lock, owner-tasks (открытых нет), Supabase owner_decisions (pending/in_progress нет; историческая needs_owner to:grok не менялась). monitor_role=skip, робот здоров; телеметрия/heartbeat не переписывались.
+- Точный результат скана и активные task IDs: reports/topview-queue-2026-10-16/preflight-20261114-work-33406175.json. Все 19 страниц прочитаны, одно физическое свободное место на момент скана.
+- Блокер этого Work: сайт Topview показывает «Войти», форма входа остаётся открытой. Browser control доступен, авторизованная форма генерации отсутствует. Защищённый запрос входа сначала вернул locator_invalid, исправленный завершился таймаутом; секреты не читались и не вводились агентом. Claim/intent/Create=0; платный обход не применялся.
+- HH:55 6acae6ab433481919e88665c520b8ef2 фактически была disabled. По действующему поручению владельца снова включена 20:01:16Z, Automations.peek подтверждает is_enabled=true, прежнее расписание и prompt сохранены. Возвращаемый next_run_time устарел; будущий успешный запуск не объявляется.
+- Foreground Work epoch 6→7 передан этому session_id chatgpt-work-continue-33406175-4e23-4eca-8906-26de4724d255; ordinary/Grok, route_generation=3, очередь, task IDs и retry budgets сохранены.
+- Следующий шаг: Восстановить вход Topview в открытой вкладке встроенного браузера этого Work-чата. Затем новый полный скан всех досок, свежий main/lease и проверка дублей; для S89A-WAN30 скачать точные пять исходников, сверить SHA/master и Unlimited/720p/16:9/quantity1/0 credits, CAS-claim/intent/readback и один Create. Продолжать по живой очереди при свободных слотах. Уже submitted S48-P4-R2 и S51E/F/G не повторять. Проверить следующий реальный цикл возобновлённой HH:55 страховки; enabled не доказывает вход или запуск.
 
-checked_at: 2026-11-14T18:43:19.304Z
+checked_at: 2026-11-14T20:02:31+00:00
+
+<!-- relay-current-start -->
+Relay #676 · 2026-11-14T19:28:43.268Z · slots:a3e98072:67 · blocked_browser, retryable=true. Полный независимый скан: 14 досок / 19 страниц / 1059 задач, занято 5/6; готов S89A-WAN30. Fresh master raw/normalized SHA совпали, все 5 входов учтены. Подключённый браузер дважды, с повтором примерно через минуту, потребовал исходный контекст; точная загрузка исходников, Wan 3.0 Unlimited0 и цена0 в UI не подтверждены. claim/intent/Create=0. Следующий свежий wake/плановый цикл повторяет доступ и полный preflight. next_action/recovery активной работы сохранены. Квитанция: reports/topview-event-wake.json.
+<!-- relay-current-end -->
+
+<!-- relay-current-start -->
+Relay #676 · 2026-11-14T19:28:43.268Z · slots:a3e98072:67 · blocked_browser, retryable=true. Полный независимый скан: 14 досок / 19 страниц / 1059 задач, занято 5/6; готов S89A-WAN30. Fresh master raw/normalized SHA совпали, все 5 входов учтены. Подключённый браузер дважды, с повтором примерно через минуту, потребовал исходный контекст; точная загрузка исходников, Wan 3.0 Unlimited0 и цена0 в UI не подтверждены. claim/intent/Create=0. Следующий свежий wake/плановый цикл повторяет доступ и полный preflight. next_action/recovery активной работы сохранены. Квитанция: reports/topview-event-wake.json.
+<!-- relay-current-end -->
 
 ## Обязательные правила
 
@@ -43,9 +54,9 @@ checked_at: 2026-11-14T18:43:19.304Z
 
 ## Прочитать под задачу
 
-- `reports/current-work-checkpoint.md`
-- `NEW-CHAT-HANDOFF.md`
 - `ops/topview-launch-queue.json`
+- `ops/TOPVIEW-FREE-LAUNCH.md`
+- `reports/current-work-checkpoint.md`
 
 ## Перед действием
 

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "checked_at": "2026-11-14T19:59:04.457Z",
+  "source": "Topview read-only connector; all owned boards, mediaType=video, every page",
+  "complete": true,
+  "boards_scanned": 14,
+  "pages_scanned": 19,
+  "video_tasks_scanned": 675,
+  "slot_capacity": 6,
+  "occupied_slots": 5,
+  "free_slots": 1,
+  "active_tasks": [
+    {
+      "task_id": "bfdb6d9fad7a4ab29492f7bb95c78033",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "model_id": "seedance-2.0-style",
+      "use_unlimit_mode": true,
+      "credits_cost": 0
+    },
+    {
+      "task_id": "d775c7a483a44f13ba1704a1c418b208",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "model_id": "seedance-2.0-style",
+      "use_unlimit_mode": true,
+      "credits_cost": 0
+    },
+    {
+      "task_id": "8c6d92662d1043c7a651168b2b8280ae",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "model_id": "seedance-2.0-style",
+      "use_unlimit_mode": true,
+      "credits_cost": 0
+    },
+    {
+      "task_id": "1dcb6fa0628d41b098227ca6c96f1630",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "model_id": "seedance-2.0-style",
+      "use_unlimit_mode": true,
+      "credits_cost": 0
+    },
+    {
+      "task_id": "a1330998d39b486e864ed4e22b4fe8c4",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "model_id": "seedance-2.0-style",
+      "use_unlimit_mode": true,
+      "credits_cost": 0
+    }
+  ],
+  "next_item": "S89A-WAN30",
+  "browser": {
+    "origin": "https://www.topview.ai",
+    "authenticated": false,
+    "observed": "Topview home shows Войти; sign-in dialog remains visible. Native file upload and Unlimited settings unavailable before sign-in.",
+    "secure_sign_in": "First request locator_invalid; corrected request timed out and runtime reset. No credentials obtained or entered by agent."
+  },
+  "new_submissions": 0,
+  "claims": 0,
+  "intents": 0,
+  "automation_observation": {
+    "id": "6acae6ab433481919e88665c520b8ef2",
+    "is_enabled": false,
+    "last_run_id": "e7a7948e-8408-8327-9af9-fea417286d2f",
+    "recorded_status": "completed",
+    "requires_user_action": true,
+    "readback": "Automations.peek 2026-11-14",
+    "changed": true,
+    "is_enabled_after": true,
+    "resumed_at": "2026-11-14T20:01:16.835463+00:00",
+    "note": "Existing hourly safety task resumed under standing owner instruction; no new task or schedule changes. Current platform next_run_time is stale and not treated as execution proof."
+  }
+}

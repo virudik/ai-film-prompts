@@ -4,6 +4,163 @@
   "receipts": [
     {
       "schema_version": 1,
+      "receipt_id": "work-continue-20261114-33406175",
+      "project": "seregius",
+      "work_id": "SEREGIUS-SHIFT-20261113-T611U",
+      "source_head": "dbfceb4042d0c9caea4b9e53ae77336b4e6ad6f5",
+      "chat": {
+        "agent": "chatgpt:work:33406175-4e23-4eca-8906-26de4724d255",
+        "label": "ChatGPT Work — согласованная очередь 14.11",
+        "session_id": "chatgpt-work-continue-33406175-4e23-4eca-8906-26de4724d255",
+        "chat_id": null,
+        "identity_status": "unavailable"
+      },
+      "started_at": "2026-11-14T19:59:50+00:00",
+      "accepted_at": "2026-11-14T20:04:15+00:00",
+      "checks": [
+        {
+          "id": "fresh_main",
+          "result": "passed",
+          "evidence": "dbfceb4042d0c9caea4b9e53ae77336b4e6ad6f5; diff from previous attempted base affects only projects/raznoe status and generated packet; fresh preflight passed"
+        },
+        {
+          "id": "instructions",
+          "result": "passed",
+          "evidence": "D7 preflight: 15/15 anchors, source hashes match; current checkpoint and applicable continuation/lock/coordination/owner-task procedures read"
+        },
+        {
+          "id": "checkpoint",
+          "result": "passed",
+          "evidence": "# 14.11.2026 — Work: очередь проверена, запуск ожидает входа Topview; existing work_id and submitted task IDs retained"
+        },
+        {
+          "id": "owner_inbox",
+          "result": "passed",
+          "evidence": "Fresh ops/owner-tasks.json: no open/taken/needs_owner tasks"
+        },
+        {
+          "id": "owner_decisions",
+          "result": "passed",
+          "evidence": "Live Supabase ai-film-comments: no pending/in_progress; one historical needs_owner addressed to grok"
+        },
+        {
+          "id": "capabilities",
+          "result": "blocked",
+          "evidence": "GitHub connector write verified; Topview read-only connector scan complete; browser shows login dialog, upload/Unlimited0 preflight blocked"
+        },
+        {
+          "id": "project_lock",
+          "result": "passed",
+          "evidence": "Exact own lease read back from GitHub; acquired_at=2026-11-14T20:00:19.866Z"
+        }
+      ],
+      "outcome": "blocked",
+      "first_action": {
+        "at": "2026-11-14T20:02:31+00:00",
+        "description": "Запуск следующего S89A-WAN30 ожидает входа Topview; полный read-only скан и возобновление страховки выполнены.",
+        "state": "not_started",
+        "evidence": "reports/topview-queue-2026-10-16/preflight-20261114-work-33406175.json"
+      },
+      "request_sha256": "ff62cd223dbeb2c6341b7a84bc030d299f57b99d87ea8de521209598d302f2c9",
+      "checked_sources": [
+        {
+          "file": "AI-PROJECT-GUIDE.md",
+          "sha256": "c62976f8c2561633e3d9612bcda6bad706ef85a9ad1a5295e2e6e6513b6efca6",
+          "bytes": 42769
+        },
+        {
+          "file": "BACKUP-AI-RUNBOOK.md",
+          "sha256": "6b0a0ba95d23937c71d072fa96e278a6485a27391245834f32e05be9572812ac",
+          "bytes": 21763
+        },
+        {
+          "file": "NEW-CHAT-HANDOFF.md",
+          "sha256": "a75349e07854d70f962e33270d3f7e2f16e91a49b281a93cd8a40190764f8774",
+          "bytes": 36755
+        },
+        {
+          "file": "PROMPT-STYLE-GUIDE.md",
+          "sha256": "2afe827fe839af546a0f7f4c1f36c57fcd976dd3f6fd8759ddf09ff265fa505d",
+          "bytes": 81982
+        },
+        {
+          "file": "README-AI-SYNC.md",
+          "sha256": "e8d83475b63a94eeb24c6ac3ac4fd182de6bcb132258f191be2a7759ebf641d9",
+          "bytes": 18840
+        },
+        {
+          "file": "SYNC-RUNBOOK.md",
+          "sha256": "ed3edff9823e89e4b89770ac55a9d4b9e7e1df34518222a2ee39b13bf942b18a",
+          "bytes": 131326
+        },
+        {
+          "file": "USER-GUIDE.md",
+          "sha256": "a1e36a365f2b7b7969547ca98423d9782e680856d8f64f5a713e6c255f4c39a5",
+          "bytes": 85761
+        },
+        {
+          "file": "instruction-sync-status.json",
+          "sha256": "3aceab9af9397ebacccb767124eadee4506226df83e0957b4ec17dfbfdfebcc1",
+          "bytes": 5134
+        },
+        {
+          "file": "monitor-role.json",
+          "sha256": "47c21b6d9470726545b00fa27d3077fc1d88f5cb3863e94a73237767ed5aafa1",
+          "bytes": 4486
+        },
+        {
+          "file": "ops/CONTINUE-PROTOCOL.md",
+          "sha256": "8b627739d8f195e99249e6ec78aa5cf3c185053260440b6a5b1be811f5c85a06",
+          "bytes": 42881
+        },
+        {
+          "file": "ops/topview-launch-queue.json",
+          "sha256": "eadd8263e773d993665fc4fbdfd59a548e4a35c9afeee0b893fc771e8561373f",
+          "bytes": 390774
+        },
+        {
+          "file": "project-status.json",
+          "sha256": "5f18b8b04b83e458c3c352a5681bda6a79bc2adff62352c24dab14839d2c89ab",
+          "bytes": 29560
+        },
+        {
+          "file": "reports/current-work-checkpoint.md",
+          "sha256": "74648bc1f48b007356f353fdb52c80a53a615b835858a3a8b93d806115575828",
+          "bytes": 20872
+        },
+        {
+          "file": "reports/topview-queue-2026-10-16/preflight-20261114-work-33406175.json",
+          "sha256": "fbb7f6ffe2a4b2ae324a059c7681a0f82258df250a7e6ea306274757209cbd04",
+          "bytes": 2621
+        },
+        {
+          "file": "shadow/current-checkpoint.md",
+          "sha256": "949cdbda6d411828905cf7fa2899af05cef3d8b470854cf30d9446203c5fa9ec",
+          "bytes": 36556
+        },
+        {
+          "file": "shadow/takeover-brief.json",
+          "sha256": "b5e85b0a965e4a70b0181ca6c01356e507a45a8531d3821d4338364bd9f08d65",
+          "bytes": 32399
+        },
+        {
+          "file": "video-prompts.md",
+          "sha256": "20630c5c2059b0a15389ee580072ce12b871f97b520e18ea91647db081736971",
+          "bytes": 1983745
+        },
+        {
+          "file": "work-resume-register.json",
+          "sha256": "a9a6dce8988776d4593fd584c426e140cff22ee8fb2031415dcd47f143c1a31f",
+          "bytes": 104970
+        }
+      ],
+      "source_fingerprint": "07327ef612b69e5b5000f97e8b391d3b2df0b14cbca954dea770eafff4f17c1d",
+      "recorded_at": "2026-11-14T20:04:15+00:00",
+      "source_scope": "Checkout HEAD plus source bytes in the same canonical transaction",
+      "execution_authorized": false
+    },
+    {
+      "schema_version": 1,
       "receipt_id": "ordinary-continue-20261114-9ed5b31a",
       "project": "seregius",
       "work_id": "SEREGIUS-SHIFT-20261113-T611U",

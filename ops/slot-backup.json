@@ -83,7 +83,7 @@
   ],
   "preferred_executor": "work",
   "applied_owner_request_id": "owner-20261031-ordinary-primary",
-  "updated_at": "2026-11-14T18:43:19.304Z",
+  "updated_at": "2026-11-14T20:04:15+00:00",
   "reserve_automation_ids": [
     "6ae5e9d563f88191aa6da7c9ba1e05a0",
     "topview-grok"
@@ -181,13 +181,14 @@
       "first_verified_action": "reports/current-work-checkpoint.md"
     },
     "work": {
-      "session_id": "work-continue-93c791ea-000f-442e-90b9-13502501c5c1",
-      "epoch": 6,
+      "session_id": "chatgpt-work-continue-33406175-4e23-4eca-8906-26de4724d255",
+      "epoch": 7,
       "conversation_id": null,
       "conversation_id_unavailable_reason": "not_exposed_by_current_tools",
-      "accepted_at": "2026-11-06T13:36:47Z",
+      "accepted_at": "2026-11-14T20:04:15Z",
       "source": "direct_owner_Продолжай",
-      "work_id": "TOPVIEW-SLOT-PRIORITY-20261024"
+      "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+      "first_verified_action": "reports/topview-queue-2026-10-16/preflight-20261114-work-33406175.json"
     }
   },
   "foreground_owner_history": [
@@ -304,6 +305,17 @@
       "first_verified_action": "reports/current-work-checkpoint.md",
       "surface": "ordinary",
       "retired_at": "2026-11-14T18:43:19.304Z"
+    },
+    {
+      "session_id": "work-continue-93c791ea-000f-442e-90b9-13502501c5c1",
+      "epoch": 6,
+      "conversation_id": null,
+      "conversation_id_unavailable_reason": "not_exposed_by_current_tools",
+      "accepted_at": "2026-11-06T13:36:47Z",
+      "source": "direct_owner_Продолжай",
+      "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+      "surface": "work",
+      "retired_at": "2026-11-14T20:04:15Z"
     }
   ],
   "schedule_change": {
