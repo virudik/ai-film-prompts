@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
-  "holder": "chatgpt:ordinary:9ed5b31a-5bbb-4c55-bd73-e7b4da42b5cc",
-  "task": "D7 recovery evidence: correct selected checkpoint section digest",
-  "acquired_at": "2026-11-14T18:45:29.239Z",
-  "expires_at": "2026-11-14T18:55:29.239Z",
-  "released_at": null,
+  "state": "free",
+  "holder": null,
+  "task": null,
+  "acquired_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-14T18:46:38.206Z",
   "rules": "ops/CANON-LOCK.md"
 }
