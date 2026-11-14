@@ -2,12 +2,12 @@
 
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
-Состояние: needs_recovery
-Проверено: 2026-11-14T18:43:46+00:00
-Задача: не определена — 
+Состояние: ready
+Проверено: 2026-11-14T18:47:11+00:00
+Задача: SEREGIUS-SHIFT-20261113-T611U — Смена 13.11 t611u: очередь 48.4 и 89, отзыв по версиям Grok
 
-Последний подтверждённый этап: нет доказательств
-Следующий шаг: восстановить конкретный пробел
+Последний подтверждённый этап: 14.11: S48-P4-R2 и S51E/F/G уже отправлены и сверены по task ID; текущий D7 preflight подтверждает full 8/8 SHA и 15/15, live 5/6, S89A следующий. Browser ordinary недоступен (originating_context_required), 0 новых Create.
+Следующий шаг: Слоты: S48-P4-R2 и S51E/F/G уже submitted; следующий S89A-WAN30. Последний снимок 5/6 (14.11 18:10Z), но в текущем ordinary Browser требует originating context: нельзя подтвердить native upload и Unlimited0/price0, claim/intent/Create=0. В следующем реальном wake/браузерном исполнении повторить полный scan/UI-preflight и запускать только при доказанном 0 credits. Отзыв владельца о Grok 48.3/48.4 и художественная оценка сцены 88 отдельно; PR 369–371 не трогать.
 
 ## Контрольная точка
 
@@ -43,6 +43,9 @@ checked_at: 2026-11-14T18:43:19.304Z
 
 ## Прочитать под задачу
 
+- `reports/current-work-checkpoint.md`
+- `NEW-CHAT-HANDOFF.md`
+- `ops/topview-launch-queue.json`
 
 ## Перед действием
 
@@ -57,4 +60,4 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 
 ## Пробелы
 
-- selected checkpoint hash mismatch
+Нет ошибок локальной проверки. Живые проверки выше обязательны.
