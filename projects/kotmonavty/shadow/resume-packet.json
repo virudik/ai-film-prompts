@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "kotmonavty",
   "project_name": "Котмонавты",
-  "checked_at": "2026-11-14T10:03:29+00:00",
-  "source_head": "1e1ef247ef52310a18fd598f022be2b69197ea56",
-  "source_fingerprint": "4e4c977a0af7f354a50aad0b39fb1bd6eb3352767465c7370aa8288a61a630bb",
+  "checked_at": "2026-11-14T10:33:35+00:00",
+  "source_head": "2795f2f2a1639732d2d7a001f944b12716d517af",
+  "source_fingerprint": "9468c15547059f8ba9368b64a6b890f416ebe103a8140691d9efe98300fe4517",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -175,8 +175,8 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "6f25d1c5c900cbd8717ab93bafb407afbe5db2a89fee4311fbb802a66f1558ef",
-      "bytes": 5135
+      "sha256": "3aceab9af9397ebacccb767124eadee4506226df83e0957b4ec17dfbfdfebcc1",
+      "bytes": 5134
     },
     {
       "file": "monitor-role.json",
@@ -190,8 +190,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "2358b6117b3a0c482505f7c9033515e6c684a70b120af993a48692d250f694f2",
-      "bytes": 29563
+      "sha256": "0beb14bed9d033c5282845e9dde3dde60306ee4475670122b0243b38de73c109",
+      "bytes": 29560
     },
     {
       "file": "projects/README.md",
