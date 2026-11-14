@@ -213,7 +213,7 @@
   },
   "phases": {
     "topview": {
-      "checked_at": "2026-11-14T16:20:45Z",
+      "checked_at": "2026-11-14T17:11:48Z",
       "source": "robot; число слотов — topview-status.json"
     },
     "deep_audit": {
@@ -231,8 +231,8 @@
   },
   "health": "ok",
   "last_scheduled_cycle": {
-    "started_at": "2026-11-14T16:20:50Z",
-    "completed_at": "2026-11-14T16:20:50Z",
+    "started_at": "2026-11-14T17:11:56Z",
+    "completed_at": "2026-11-14T17:11:56Z",
     "health": "ok",
     "phases_completed": [
       "role_check",
@@ -303,8 +303,8 @@
       "checked_at": "2026-10-13T19:02:02.187Z"
     }
   },
-  "last_completed_cycle_at": "2026-11-14T16:20:50Z",
-  "last_successful_cycle_at": "2026-11-14T16:20:50Z",
+  "last_completed_cycle_at": "2026-11-14T17:11:56Z",
+  "last_successful_cycle_at": "2026-11-14T17:11:56Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
     "title": "AI Film — единый монитор",
@@ -319,13 +319,13 @@
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-11-14T16:20:50Z"
+    "robot": "2026-11-14T17:11:56Z"
   },
   "last_successful_cycle_runner": "robot_scheduled_task",
   "last_successful_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-11-14T16:20:50Z"
+    "robot": "2026-11-14T17:11:56Z"
   },
   "previous_primary_automation": {
     "id": "trig_014eEvBooAV2hxx1asRo9snm",
@@ -438,7 +438,7 @@
     "unresolved": true,
     "episode": "a3e98072",
     "unresolved_since": "2026-11-14T14:40:38Z",
-    "reason": "handler_receipt_without_confirmed_launch",
+    "reason": "execution_started_without_confirmed_launch",
     "free_slots_global": 1,
     "actionable_items": [
       "S49B",
@@ -469,16 +469,16 @@
       "S89J-WAN30"
     ],
     "reconciliation_items": [],
-    "last_event_id": "slots:a3e98072:64",
+    "last_event_id": "slots:a3e98072:65",
     "receipt_present": true,
-    "handler_outcome": "blocked_browser",
-    "execution_stage": "blocked_browser",
-    "execution_updated_at": "2026-11-14T16:01:11.591Z",
+    "handler_outcome": "started",
+    "execution_stage": "intake",
+    "execution_updated_at": "2026-11-14T17:09:49.148Z",
     "runtime_run_id": null,
     "confirmed_launch_task_ids": [],
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
     "escalation_attempted_episode": "a3e98072",
-    "checked_at": "2026-11-14T16:10:40Z"
+    "checked_at": "2026-11-14T17:11:56Z"
   }
 }
