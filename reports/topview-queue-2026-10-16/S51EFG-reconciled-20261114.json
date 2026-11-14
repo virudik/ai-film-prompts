@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "source_head": "328ecf94784f08cc31a570ab1f3fe9ffa61cf4f9",
+  "checked_at": "2026-11-14T18:28:46.934Z",
+  "type": "existing_submission_reconciliation",
+  "items": [
+    {
+      "item_id": "S51E",
+      "task_id": "a1330998d39b486e864ed4e22b4fe8c4",
+      "status": "init",
+      "model": "Seedance 2.0",
+      "created_at_topview": "2026-11-10 10:45:01",
+      "reference_slots": [
+        "Image1",
+        "Image2",
+        "Image3",
+        "Image4",
+        "Image5",
+        "Image6"
+      ],
+      "unlimited": true,
+      "creditsCost": 0,
+      "checks": {
+        "existing": true,
+        "master_match": true,
+        "waiting": true,
+        "board": true,
+        "model": true,
+        "duration": true,
+        "unlimited": true,
+        "credits": true,
+        "status": true,
+        "reference_slots": true,
+        "unique": true
+      }
+    },
+    {
+      "item_id": "S51F",
+      "task_id": "1dcb6fa0628d41b098227ca6c96f1630",
+      "status": "init",
+      "model": "Seedance 2.0",
+      "created_at_topview": "2026-11-10 11:13:10",
+      "reference_slots": [
+        "Image1",
+        "Image2",
+        "Image3",
+        "Image4",
+        "Image5",
+        "Image6"
+      ],
+      "unlimited": true,
+      "creditsCost": 0,
+      "checks": {
+        "existing": true,
+        "master_match": true,
+        "waiting": true,
+        "board": true,
+        "model": true,
+        "duration": true,
+        "unlimited": true,
+        "credits": true,
+        "status": true,
+        "reference_slots": true,
+        "unique": true
+      }
+    },
+    {
+      "item_id": "S51G",
+      "task_id": "8c6d92662d1043c7a651168b2b8280ae",
+      "status": "init",
+      "model": "Seedance 2.0",
+      "created_at_topview": "2026-11-11 19:59:15",
+      "reference_slots": [
+        "Image1",
+        "Image2",
+        "Image3",
+        "Image4",
+        "Image5",
+        "Image6",
+        "Image7"
+      ],
+      "unlimited": true,
+      "creditsCost": 0,
+      "checks": {
+        "existing": true,
+        "master_match": true,
+        "waiting": true,
+        "board": true,
+        "model": true,
+        "duration": true,
+        "unlimited": true,
+        "credits": true,
+        "status": true,
+        "reference_slots": true,
+        "unique": true
+      }
+    }
+  ],
+  "new_submissions": 0,
+  "topview_credits_spent": 0,
+  "queue_changes": [
+    "S51E",
+    "S51F",
+    "S51G"
+  ],
+  "no_approval": true,
+  "remaining_launch_blocker": "native_original_media_import_and_unlimited0_UI_preflight_not_verified"
+}

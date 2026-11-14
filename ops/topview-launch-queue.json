@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-11-13T15:01:03.650Z",
+  "updated_at": "2026-11-14T18:28:46.934Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -1161,7 +1161,7 @@
       "quantity": 1,
       "mode": "omni_reference",
       "max_new_submissions": 1,
-      "task_id": null,
+      "task_id": "a1330998d39b486e864ed4e22b4fe8c4",
       "claim": null,
       "owner_review_required_after_item": null,
       "id": "S51E",
@@ -1173,7 +1173,7 @@
       "canonical_prompt_sha256": "caec5b995869f9bc6706b4045574e7400ced055d3210377121025f1ba1f462b2",
       "normalized_prompt_sha256": "39894644783b4456e3efff206d66ad60aeba768b7425b5339ba1d53b98320d20",
       "priority": 1.44,
-      "state": "waiting_for_slot",
+      "state": "submitted",
       "references": [
         {
           "slot": "@Image1",
@@ -1221,7 +1221,45 @@
       "launch_readiness": "authorized_inputs_available",
       "authorization": "Owner25Oct: expand the rock finale so every musician breaks their own instrument; six independent pairs replace the unsubmitted three-musician version. Existing one-attempt zero-credit queue authorization continues.",
       "revision_note_20261025_all_twelve": "Unsubmitted revision: each part shows two different owners, complete contacts and visible breakage; all inputs exist. Six Wan30 versions remain alternatives.",
-      "owner_launch_authorized_at": "2026-10-25T13:10:48.355886Z"
+      "owner_launch_authorized_at": "2026-10-25T13:10:48.355886Z",
+      "topview_status": "init",
+      "last_reconciliation_at": "2026-11-14T18:28:46.934Z",
+      "submission_verification": {
+        "source": "read_only_topview_task_get + exact_master_normalized_match",
+        "normalized_prompt_match": true,
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "model": "Seedance 2.0",
+        "duration_seconds": 15,
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "reference_count": 6,
+        "reference_slot_names": [
+          "Image1",
+          "Image2",
+          "Image3",
+          "Image4",
+          "Image5",
+          "Image6"
+        ],
+        "useUnlimitMode": true,
+        "creditsCost": 0,
+        "task_created_at_topview": "2026-11-10 10:45:01",
+        "provider_status_at_reconciliation": "init",
+        "origin": "existing_task_before_this_chat",
+        "create_click_count_in_this_run": 0,
+        "observed_at": "2026-11-14T18:28:46.934Z"
+      },
+      "submission_history": [
+        {
+          "at": "2026-11-14T18:28:46.934Z",
+          "state": "submitted",
+          "task_id": "a1330998d39b486e864ed4e22b4fe8c4",
+          "discovered_by": "chatgpt:ordinary:40c9b1d5-2c97-4a66-9e58-675da8a4c9c1",
+          "origin": "existing_peer_or_external_create_not_attributed",
+          "create_click_count": 0,
+          "reason": "Topview task confirmed by provider, normalized prompt exact match with current master. No Create."
+        }
+      ]
     },
     {
       "scene_id": 51,
@@ -1233,7 +1271,7 @@
       "quantity": 1,
       "mode": "omni_reference",
       "max_new_submissions": 1,
-      "task_id": null,
+      "task_id": "1dcb6fa0628d41b098227ca6c96f1630",
       "claim": null,
       "owner_review_required_after_item": null,
       "id": "S51F",
@@ -1245,7 +1283,7 @@
       "canonical_prompt_sha256": "c6f870031f80b617905f7342845f70072031558624cb7838ee0a46d14a3464bf",
       "normalized_prompt_sha256": "01dd429c978254e2a17205eda5bedf3e1061291a008bb3a60e71b193da316391",
       "priority": 1.45,
-      "state": "waiting_for_slot",
+      "state": "submitted",
       "references": [
         {
           "slot": "@Image1",
@@ -1293,7 +1331,45 @@
       "launch_readiness": "authorized_inputs_available",
       "authorization": "Owner25Oct: expand the rock finale so every musician breaks their own instrument; six independent pairs replace the unsubmitted three-musician version. Existing one-attempt zero-credit queue authorization continues.",
       "revision_note_20261025_all_twelve": "Unsubmitted revision: each part shows two different owners, complete contacts and visible breakage; all inputs exist. Six Wan30 versions remain alternatives.",
-      "owner_launch_authorized_at": "2026-10-25T13:10:48.355886Z"
+      "owner_launch_authorized_at": "2026-10-25T13:10:48.355886Z",
+      "topview_status": "init",
+      "last_reconciliation_at": "2026-11-14T18:28:46.934Z",
+      "submission_verification": {
+        "source": "read_only_topview_task_get + exact_master_normalized_match",
+        "normalized_prompt_match": true,
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "model": "Seedance 2.0",
+        "duration_seconds": 15,
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "reference_count": 6,
+        "reference_slot_names": [
+          "Image1",
+          "Image2",
+          "Image3",
+          "Image4",
+          "Image5",
+          "Image6"
+        ],
+        "useUnlimitMode": true,
+        "creditsCost": 0,
+        "task_created_at_topview": "2026-11-10 11:13:10",
+        "provider_status_at_reconciliation": "init",
+        "origin": "existing_task_before_this_chat",
+        "create_click_count_in_this_run": 0,
+        "observed_at": "2026-11-14T18:28:46.934Z"
+      },
+      "submission_history": [
+        {
+          "at": "2026-11-14T18:28:46.934Z",
+          "state": "submitted",
+          "task_id": "1dcb6fa0628d41b098227ca6c96f1630",
+          "discovered_by": "chatgpt:ordinary:40c9b1d5-2c97-4a66-9e58-675da8a4c9c1",
+          "origin": "existing_peer_or_external_create_not_attributed",
+          "create_click_count": 0,
+          "reason": "Topview task confirmed by provider, normalized prompt exact match with current master. No Create."
+        }
+      ]
     },
     {
       "id": "S50A",
@@ -5549,7 +5625,7 @@
       "canonical_prompt_sha256": "c18705a0ece257402039e9d095c935bbef8c66df81b90af3ee6eb4213bbf666e",
       "normalized_prompt_sha256": "8acfcdc663c160cc2e24c92881e2dc531610e6cbcde8e0155348bc7127bd6e93",
       "priority": 1.46,
-      "state": "waiting_for_slot",
+      "state": "submitted",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -5558,7 +5634,7 @@
       "quantity": 1,
       "mode": "omni_reference",
       "max_new_submissions": 1,
-      "task_id": null,
+      "task_id": "8c6d92662d1043c7a651168b2b8280ae",
       "claim": null,
       "owner_review_required_after_item": null,
       "blocker": null,
@@ -5628,6 +5704,45 @@
       "authorization_recorded_at_note": "Recorded now from current owner request and existing final-number queue authorization, not a claimed message timestamp.",
       "previous_prompt_sha256": [
         "64aa3039988b07d81e466ce3ae28ed145f6d41987ecaa632352303e8b686ace6"
+      ],
+      "topview_status": "init",
+      "last_reconciliation_at": "2026-11-14T18:28:46.934Z",
+      "submission_verification": {
+        "source": "read_only_topview_task_get + exact_master_normalized_match",
+        "normalized_prompt_match": true,
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "model": "Seedance 2.0",
+        "duration_seconds": 15,
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "reference_count": 7,
+        "reference_slot_names": [
+          "Image1",
+          "Image2",
+          "Image3",
+          "Image4",
+          "Image5",
+          "Image6",
+          "Image7"
+        ],
+        "useUnlimitMode": true,
+        "creditsCost": 0,
+        "task_created_at_topview": "2026-11-11 19:59:15",
+        "provider_status_at_reconciliation": "init",
+        "origin": "existing_task_before_this_chat",
+        "create_click_count_in_this_run": 0,
+        "observed_at": "2026-11-14T18:28:46.934Z"
+      },
+      "submission_history": [
+        {
+          "at": "2026-11-14T18:28:46.934Z",
+          "state": "submitted",
+          "task_id": "8c6d92662d1043c7a651168b2b8280ae",
+          "discovered_by": "chatgpt:ordinary:40c9b1d5-2c97-4a66-9e58-675da8a4c9c1",
+          "origin": "existing_peer_or_external_create_not_attributed",
+          "create_click_count": 0,
+          "reason": "Topview task confirmed by provider, normalized prompt exact match with current master. No Create."
+        }
       ]
     },
     {
