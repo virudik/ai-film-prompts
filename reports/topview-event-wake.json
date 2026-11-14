@@ -1574,9 +1574,9 @@
       "issue_number": 674,
       "message_id": "247423016371191808",
       "relay_event_id": "evt_8ccad0f39062d9410cb51d0660e959f9",
-      "checked_at": "2026-11-14T18:15:39.296Z",
+      "checked_at": "2026-11-14T18:16:03.425Z",
       "outcome": "started",
-      "reason": "Verified exact Relay sender and GitHub bot issue; own lease acquired; intake started.",
+      "reason": "Verified intake; beginning independent complete account-wide read-only scan before any preflight.",
       "task_ids": [],
       "retryable": true,
       "source": "Agent Relay webhook",
@@ -1587,9 +1587,9 @@
       "run_id_unavailable_reason": "Runtime run_id not exposed by this invocation.",
       "execution": {
         "state": "started",
-        "stage": "intake",
+        "stage": "account_scan",
         "started_at": "2026-11-14T18:15:39.296Z",
-        "updated_at": "2026-11-14T18:15:39.296Z"
+        "updated_at": "2026-11-14T18:16:03.425Z"
       },
       "new_submissions": 0
     }
