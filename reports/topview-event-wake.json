@@ -1467,9 +1467,9 @@
       "issue_number": 669,
       "message_id": "247387777035427840",
       "relay_event_id": "evt_e44675937e2a909fda91e38a5a5c0c0c",
-      "checked_at": "2026-11-14T16:00:01.979Z",
-      "outcome": "started",
-      "reason": "Connector reauthentication required; first browser access failed. Saved tasks preserved pending live reconciliation.",
+      "checked_at": "2026-11-14T16:01:11.591Z",
+      "outcome": "blocked_browser",
+      "reason": "Topview read-only connector requires reauthentication; originating browser context unavailable in two attempts. Independent full all-board scan unavailable. No claim, intent or Create.",
       "task_ids": [],
       "retryable": true,
       "source": "Agent Relay webhook",
@@ -1479,12 +1479,32 @@
       "run_id": null,
       "run_id_reason": "Runtime run_id not exposed",
       "execution": {
-        "state": "started",
-        "stage": "browser_access",
+        "state": "blocked",
+        "stage": "blocked_browser",
         "started_at": "2026-11-14T15:55:27.960Z",
-        "updated_at": "2026-11-14T16:00:01.979Z"
+        "updated_at": "2026-11-14T16:01:11.591Z",
+        "finished_at": "2026-11-14T16:01:11.591Z"
       },
-      "new_submissions": 0
+      "new_submissions": 0,
+      "browser_attempts": [
+        {
+          "at": "2026-11-14T15:59:51.016Z",
+          "reason": "originating_browser_context_required"
+        },
+        {
+          "at": "2026-11-14T16:01:01.396Z",
+          "reason": "originating_browser_context_required"
+        }
+      ],
+      "connector_error": "UNAUTHORIZED: reauthentication required",
+      "scan_complete": false,
+      "occupied_slots": null,
+      "free_slots": null,
+      "next_action": "Next genuine wake/hourly/ordinary run rechecks authorized access and reconciles preserved submitted/unmapped task IDs; full all-board scan and UI preflight required before any Create. No Continue needed.",
+      "retention": {
+        "outcome": "checked_no_transfer",
+        "checked_at": "2026-11-14T16:01:25.391Z"
+      }
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",

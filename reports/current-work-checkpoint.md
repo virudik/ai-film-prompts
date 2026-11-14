@@ -1,5 +1,5 @@
 <!-- relay-current-start -->
-Relay #668 · 2026-11-14T15:43:06.930Z · slots:a3e98072:63 · blocked_browser, retryable=true. Topview connector требует повторной авторизации; исходный браузерный контекст недоступен за две попытки. Полный свежий скан не выполнен; занятость слотов не подтверждена. claim/intent/Create=0. Следующее настоящее пробуждение повторно проверяет доступ, сохранённые task IDs и все слоты. next_action/recovery активной работы сохранены. Квитанция: reports/topview-event-wake.json.
+Relay #669 · 2026-11-14T16:01:11.591Z · slots:a3e98072:64 · blocked_browser, retryable=true. Topview connector требует повторной авторизации; исходный браузерный контекст недоступен за две попытки. Полный свежий скан не выполнен; занятость слотов не подтверждена. claim/intent/Create=0. Следующее настоящее пробуждение проверяет доступ, сохранённые task IDs и все слоты. next_action/recovery активной работы сохранены. Квитанция: reports/topview-event-wake.json.
 <!-- relay-current-end -->
 
 # 13.11.2026 17:05 МСК — контрольная точка t611u
