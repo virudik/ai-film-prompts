@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-14T21:30:07.433Z",
+  "updated_at": "2026-11-14T21:40:00.000Z",
   "status": "relay_production_enabled",
   "event_automation_id": "6adc585e7ac08191bb93825117dc7213",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
@@ -1948,9 +1948,9 @@
       "run_id_unavailable_reason": "Runtime run_id not exposed by this invocation.",
       "execution": {
         "state": "running",
-        "stage": "intake",
+        "stage": "browser_reconciliation",
         "started_at": "2026-11-14T21:30:07.433Z",
-        "updated_at": "2026-11-14T21:30:07.433Z",
+        "updated_at": "2026-11-14T21:40:00.000Z",
         "finished_at": null
       },
       "new_submissions": 0,
@@ -1962,7 +1962,15 @@
       "target_inbox": "chatgpt@cloud-239644772681871360",
       "claim_created": false,
       "submission_intent_created": false,
-      "create_clicked": false
+      "create_clicked": false,
+      "browser_attempts": 2,
+      "browser_access": "originating_context_required",
+      "scan_complete": true,
+      "boards_scanned": 14,
+      "pages_scanned": 19,
+      "tasks_scanned": 1059,
+      "occupied_slots": 5,
+      "free_slots": 1
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
