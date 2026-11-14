@@ -203,11 +203,11 @@
     ],
     "robot_rewake": {
       "episode": "a3e98072",
-      "count": 0,
-      "last_at": "2026-11-14T14:40:38Z",
-      "sequence": 61,
+      "count": 1,
+      "last_at": "2026-11-14T15:10:30Z",
+      "sequence": 62,
       "first_at": "2026-11-14T14:40:38Z",
-      "last_event_id": "result:3a09108c8c474a0989118806b4a69f91",
+      "last_event_id": "slots:a3e98072:62",
       "silence_reported": "slots:d23cf217:2"
     }
   },
@@ -434,11 +434,11 @@
     }
   },
   "launcher_health": {
-    "state": "awaiting_execution",
-    "unresolved": false,
+    "state": "launch_stalled",
+    "unresolved": true,
     "episode": "a3e98072",
     "unresolved_since": "2026-11-14T14:40:38Z",
-    "reason": "within_initial_execution_window",
+    "reason": "handler_receipt_without_confirmed_launch",
     "free_slots_global": 1,
     "actionable_items": [
       "S49B",
@@ -478,7 +478,7 @@
     "confirmed_launch_task_ids": [],
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
-    "escalation_attempted_episode": "c8bf02e8",
-    "checked_at": "2026-11-14T15:00:37Z"
+    "escalation_attempted_episode": "a3e98072",
+    "checked_at": "2026-11-14T15:10:30Z"
   }
 }
