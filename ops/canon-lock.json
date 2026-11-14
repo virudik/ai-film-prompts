@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:work:d7daaaf5-132d-4e62-bb8b-b3a9a9f2d268",
-  "task": "Relay #665 reconciliation",
-  "acquired_at": "2026-11-14T14:43:34.094Z",
-  "expires_at": null,
-  "released_at": "2026-11-14T14:51:12.346Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:bdee2c95-3eca-4003-bf0f-b8e7cb8d011a",
+  "task": "AI Film scheduled ordinary hourly slot check; receipt only unless independently verified live scan",
+  "acquired_at": "2026-11-14T15:06:31.025Z",
+  "expires_at": "2026-11-14T15:18:31.025Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
