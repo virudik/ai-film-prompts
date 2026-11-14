@@ -4,16 +4,16 @@
   "source": "ChatGPT scheduled ordinary",
   "runner": "chatgpt_scheduled_task",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "run_id": "530e771e-b230-8330-859d-eedc7fb82f0a",
-  "runtime_run_id_source": "Automations.peek last_run.id (in_progress; scheduled_for 2026-11-14T12:00:00Z)",
-  "run_id_unavailable_reason": null,
-  "execution_instance_id": "baf44f13-f112-4903-93fc-c19fe88b7519",
+  "run_id": null,
+  "runtime_run_id_source": null,
+  "run_id_unavailable_reason": "Automations.get connector returned action unavailable (HTTP 404) in this execution; no platform run ID exposed. UUID below is execution instance only.",
+  "execution_instance_id": "010a7de8-d5ad-4058-87da-5dc05ee8c143",
   "route_generation": 3,
-  "source_head": "e576febafcf4f189c4050020b40c20bd742be08f",
-  "started_at": "2026-11-14T12:05:29.223Z",
-  "updated_at": "2026-11-14T12:13:32.154Z",
-  "phase": "completed",
-  "status": "completed",
+  "source_head": "14d8eaea353bbc4bf239a3d6149eaec167cbba29",
+  "started_at": "2026-11-14T13:00:27.098Z",
+  "updated_at": "2026-11-14T13:01:21.157Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan_complete": false,
   "occupied_slots": null,
   "free_slots": null,
@@ -28,110 +28,25 @@
     "steps": 0,
     "estimated_usd": 0,
     "confirmed_charge_usd": 0,
-    "reason": "Latest GitHub-robot read-only account-wide board counts 6/6; no verified free slot, and previous unchanged TinyFish image-upload blocker. No paid idle polling."
+    "reason": "No paid access before complete fresh read-only capacity scan and ready-item checks"
   },
   "lease": {
-    "holder": "chatgpt:ordinary:baf44f13-f112-4903-93fc-c19fe88b7519",
-    "acquired_at": "2026-11-14T12:05:29.223Z",
-    "expires_at": "2026-11-14T12:20:29.223Z",
-    "acquired_commit": "e576febafcf4f189c4050020b40c20bd742be08f",
-    "released": true,
-    "released_at": "2026-11-14T12:13:32.154Z"
+    "holder": "chatgpt:ordinary:010a7de8-d5ad-4058-87da-5dc05ee8c143",
+    "acquired_at": "2026-11-14T13:00:27.098Z",
+    "expires_at": "2026-11-14T13:08:27.098Z",
+    "acquired_commit": "5a642169d4b81ed65f1a677790f8e648a3ff1b1d",
+    "released": false,
+    "released_at": null
   },
-  "outcome": "no_create_robot_six_of_six_independent_live_scan_unavailable",
-  "blocker": {
-    "code": "independent_topview_scan_unavailable",
-    "at": "2026-11-14T12:13:32.154Z",
-    "details": "Topview read-only connector not exposed to this scheduled execution; the previous direct connector path required interactive authorization. Latest GitHub robot checkpoint 2026-11-14T12:00:32Z shows 6/6 occupied, scan mode light_board_counts_verified. Robot scan is not an independent live scan. Queue S49B,S51E,S51F,S51G marked waiting while active scene-linked taskIDs exist and 1 active task remains unmapped; require exact normalized prompt/input/taskID reconciliation before any future Create. Historical issue #636 is stale. No Create, no paid retry."
-  },
-  "retryable": true,
-  "execution": {
-    "hourly_scheduled_execution": true,
-    "platform_run_id_verified": true,
-    "read_only_scan_attempted": true,
-    "global_scan_complete": false,
-    "receipt_write_mode": "Atomic Git tree transaction, expected branch-head SHA and readback",
-    "automations_peek_last_run_id": "530e771e-b230-8330-859d-eedc7fb82f0a",
-    "automations_latest_result_run_id": "65448c62-1a78-8325-b137-6662460ce741",
-    "runtime_started_at": "2026-11-14T12:02:31.480049Z"
-  },
+  "outcome": null,
+  "blocker": null,
+  "retryable": null,
   "acceptance": {
-    "scheduled_runtime": true,
-    "tinyfish_signin_verified_this_run": false,
-    "tinyfish_file_upload_verified": false,
-    "unlimited0_preflight_verified_this_run": false,
-    "task_id_verified_this_run": false,
-    "full_end_to_end_launch_verified": false,
-    "topview_full_scan_verified_this_run": false,
-    "live_capacity_verified_this_run": false
-  },
-  "checked_at": "2026-11-14T12:13:32.154Z",
-  "completed_at": "2026-11-14T12:13:32.154Z",
-  "scan": {
-    "source": "GitHub robot account-wide board count snapshot and direct known active task checks (not independent connector)",
-    "checked_at": null,
-    "complete": false,
-    "all_boards_scanned": null,
-    "pages_scanned": null,
-    "unique_video_tasks": null,
-    "active": null,
-    "last_robot_snapshot": {
-      "checked_at": "2026-11-14T12:00:32Z",
-      "scan_mode": "light_board_counts_verified",
-      "reported_complete": true,
-      "boards_scanned": 14,
-      "pages_scanned": 17,
-      "unique_video_tasks": 675,
-      "occupied": 6,
-      "free": 0,
-      "active_task_ids": [
-        "1dcb6fa0628d41b098227ca6c96f1630",
-        "3a09108c8c474a0989118806b4a69f91",
-        "8c6d92662d1043c7a651168b2b8280ae",
-        "a1330998d39b486e864ed4e22b4fe8c4",
-        "bfdb6d9fad7a4ab29492f7bb95c78033",
-        "d775c7a483a44f13ba1704a1c418b208"
-      ]
-    },
-    "unmapped_active": [
-      "d775c7a483a44f13ba1704a1c418b208"
-    ]
-  },
-  "readiness": {
-    "items": 30,
-    "ready_items": 26,
-    "queue_items": 63,
-    "processed_task_ids": 139,
-    "unresolved_claims": [],
-    "readiness_queue_sha256": "92e5bd1d8eefc604d634fb24d7c81349dcd69a411193b37d338e4e15be70b0e8",
-    "readiness_task_map_sha256": "5570a33c1875de8e112d0cf620c7a2198e269b2e3990048cdc54f7ba9a54195e",
-    "verified_independently": true,
-    "active_parts_also_marked_ready": [
-      "S49B",
-      "S51E",
-      "S51F",
-      "S51G"
-    ],
-    "note": "Independent raw UTF8 SHA256 was verified for both files earlier this run; exact input-level task matching not proven."
-  },
-  "owner_tasks_open": 0,
-  "owner_decisions": {
-    "source": "Supabase public.owner_decisions read-only",
-    "open_unapplied_owner_decisions": 1,
-    "latest_open_action": "owner_task",
-    "latest_open_status": "needs_owner",
-    "note": "No new approval to launch, one older non-scene owner-task decision remains needs_owner"
-  },
-  "work_recovery": {
-    "status": "no_new_current_work_gui_or_quota_evidence",
-    "preferred_executor_recorded": "work",
-    "route_generation_preserved": 3,
-    "hh55_enabled": false,
-    "relay_last_run_at": "2026-11-13T14:52:07.758454Z"
-  },
-  "expenses": {
-    "topview_credits": 0,
-    "external_usd": 0
-  },
-  "end_source_head": "063fdf8c12fe2acc99dee0c9a04beb7bde749109"
+    "scheduled_runtime_observed": true,
+    "tinyfish_profile_signin_this_cycle": false,
+    "ui_controls_this_cycle": false,
+    "canonical_file_upload_this_cycle": false,
+    "unlimited_zero_this_cycle": false,
+    "confirmed_topview_task_id_this_cycle": false
+  }
 }
