@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-14T21:40:00.000Z",
+  "updated_at": "2026-11-14T21:39:40.436Z",
   "status": "relay_production_enabled",
   "event_automation_id": "6adc585e7ac08191bb93825117dc7213",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
@@ -1935,9 +1935,9 @@
       "relay_reminder_event_ids": [
         "evt_86eae3e60f47d84418b9d7d746bc7816"
       ],
-      "checked_at": "2026-11-14T21:30:07.433Z",
-      "outcome": "started",
-      "reason": "Validated exact sender, issue and dedupe; acquired exact own lease after the prior foreground runtime released it. Fresh checkpoint and account reconciliation pending.",
+      "checked_at": "2026-11-14T21:39:40.436Z",
+      "outcome": "blocked_browser",
+      "reason": "Fresh complete account scan found 5/6 physical video slots occupied across 14 boards and 19 pages (1059 total tasks); S89A-WAN30 remains the minimum live ready item. Foreground Work had verified sign-in and exact inputs but its first reference upload was interrupted before claim/intent/Create. This webhook runtime made two read-only browser connection attempts about 45 seconds apart; both required the originating browser context, so it could not safely inspect or resume the form, re-verify all five uploads, Unlimited0, or price 0. No claim, submission intent, or Create was made.",
       "task_ids": [],
       "retryable": true,
       "source": "Agent Relay webhook",
@@ -1947,11 +1947,11 @@
       "run_id": null,
       "run_id_unavailable_reason": "Runtime run_id not exposed by this invocation.",
       "execution": {
-        "state": "running",
-        "stage": "browser_reconciliation",
+        "state": "completed",
+        "stage": "finalization",
         "started_at": "2026-11-14T21:30:07.433Z",
-        "updated_at": "2026-11-14T21:40:00.000Z",
-        "finished_at": null
+        "updated_at": "2026-11-14T21:39:40.436Z",
+        "finished_at": "2026-11-14T21:39:40.436Z"
       },
       "new_submissions": 0,
       "credits_spent": 0,
@@ -1970,7 +1970,18 @@
       "pages_scanned": 19,
       "tasks_scanned": 1059,
       "occupied_slots": 5,
-      "free_slots": 1
+      "free_slots": 1,
+      "claim_changes": 0,
+      "active_task_ids": [
+        "bfdb6d9fad7a4ab29492f7bb95c78033",
+        "d775c7a483a44f13ba1704a1c418b208",
+        "8c6d92662d1043c7a651168b2b8280ae",
+        "1dcb6fa0628d41b098227ca6c96f1630",
+        "a1330998d39b486e864ed4e22b4fe8c4"
+      ],
+      "selected_item": "S89A-WAN30",
+      "lock_outcome": "acquired_via_git_object_CAS; released_atomically_with_receipt",
+      "next_action": "On the next genuine wake/hourly/foreground Work runtime with an authorized originating browser context, perform a fresh full UI preflight from the saved checkpoint; re-check all five exact inputs, prompt equality, Unlimited0/720p/16:9/quantity1 and price 0, then claim+intent CAS/readback and one Create only if the same live capacity remains."
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
