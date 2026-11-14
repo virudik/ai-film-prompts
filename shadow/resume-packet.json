@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-14T18:21:40+00:00",
-  "source_head": "206029b1521151262e55ec8894b044fe6c91e8fa",
-  "source_fingerprint": "ed6aa0e29ca048ca9bfe749152f02a247d03f1792206194cf84c80bca7102942",
+  "checked_at": "2026-11-14T18:30:17+00:00",
+  "source_head": "dca6bd33cd1ee8fd1e61ddad031bfc20bcb4c7ff",
+  "source_fingerprint": "fc6926d49550cbdb562067da1ed6bc589aa6c940f3e732876a303cca65d1c9b0",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -136,7 +136,7 @@
   ],
   "queue_recovery": {
     "unresolved": [],
-    "existing_task_count": 87,
+    "existing_task_count": 90,
     "existing_tasks": [
       {
         "item_id": "S49C",
@@ -169,6 +169,14 @@
       {
         "item_id": "S51D",
         "task_id": "0b6dfa84e4524b438075f10f7205a846"
+      },
+      {
+        "item_id": "S51E",
+        "task_id": "a1330998d39b486e864ed4e22b4fe8c4"
+      },
+      {
+        "item_id": "S51F",
+        "task_id": "1dcb6fa0628d41b098227ca6c96f1630"
       },
       {
         "item_id": "S50A",
@@ -269,6 +277,10 @@
       {
         "item_id": "S49G",
         "task_id": "3561d1997a6a4e5d813cfb99fdb60ed4"
+      },
+      {
+        "item_id": "S51G",
+        "task_id": "8c6d92662d1043c7a651168b2b8280ae"
       },
       {
         "item_id": "S49A",
@@ -565,8 +577,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "92e5bd1d8eefc604d634fb24d7c81349dcd69a411193b37d338e4e15be70b0e8",
-      "bytes": 386338
+      "sha256": "eadd8263e773d993665fc4fbdfd59a548e4a35c9afeee0b893fc771e8561373f",
+      "bytes": 390774
     },
     {
       "file": "project-status.json",
@@ -575,8 +587,8 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "64ab61aba0bdb4c4f1cf91663cd46c36bd1eeaefbececdb99d13e50ce104e1dc",
-      "bytes": 13363
+      "sha256": "7d27706d67832d7938a36e5053e7d625a68e5d5b53377044f7f3ed6452a946a7",
+      "bytes": 15173
     },
     {
       "file": "reports/handoff-receipts.json",
