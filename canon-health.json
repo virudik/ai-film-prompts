@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-13T14:51:55Z",
+  "checked_at": "2026-11-14T00:02:23Z",
   "status": "warn",
   "warnings": 2,
-  "info": 16,
+  "info": 17,
   "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. Устаревание по состоянию проекта, даты только сигнал. Чистку делает ChatGPT по предупреждению или в воскресенье 08:55 МСК.",
   "problems": [
     {
@@ -29,6 +29,12 @@
       "code": "instruction-size",
       "text": "USER-GUIDE.md: 85 КБ, проверить на повторы.",
       "file": "USER-GUIDE.md"
+    },
+    {
+      "level": "info",
+      "code": "ops-stale",
+      "text": "ops/AUTOMATION-CONSISTENCY.md: проверялся 31.10.2026, больше 14 дней назад.",
+      "file": "ops/AUTOMATION-CONSISTENCY.md"
     },
     {
       "level": "info",
