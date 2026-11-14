@@ -11,9 +11,9 @@
   "route_generation": 3,
   "source_head": "14d8eaea353bbc4bf239a3d6149eaec167cbba29",
   "started_at": "2026-11-14T13:00:27.098Z",
-  "updated_at": "2026-11-14T13:01:21.157Z",
-  "phase": "started",
-  "status": "in_progress",
+  "updated_at": "2026-11-14T13:04:12.504Z",
+  "phase": "completed",
+  "status": "completed",
   "scan_complete": false,
   "occupied_slots": null,
   "free_slots": null,
@@ -28,25 +28,64 @@
     "steps": 0,
     "estimated_usd": 0,
     "confirmed_charge_usd": 0,
-    "reason": "No paid access before complete fresh read-only capacity scan and ready-item checks"
+    "reason": "No confirmed free capacity; no paid idle browsing and no repeat of unchanged 2026-11-06 native image-import blocker."
   },
   "lease": {
     "holder": "chatgpt:ordinary:010a7de8-d5ad-4058-87da-5dc05ee8c143",
     "acquired_at": "2026-11-14T13:00:27.098Z",
     "expires_at": "2026-11-14T13:08:27.098Z",
     "acquired_commit": "5a642169d4b81ed65f1a677790f8e648a3ff1b1d",
-    "released": false,
-    "released_at": null
+    "released": true,
+    "released_at": "2026-11-14T13:04:12.504Z"
   },
-  "outcome": null,
-  "blocker": null,
-  "retryable": null,
+  "outcome": "no_create_robot_six_of_six_independent_live_scan_unavailable",
+  "blocker": {
+    "code": "independent_topview_scan_unavailable",
+    "at": "2026-11-14T13:04:12.504Z",
+    "details": "Topview read-only connector requires interactive user confirmation in this non-interactive run. Latest GitHub robot checkpoint reports 6/6 but cannot substitute complete current live independent board/task scan. No Create allowed.",
+    "reconciliation_required_for_future": [
+      "S49B",
+      "S51E",
+      "S51F",
+      "S51G",
+      "unmapped active d775c7a483a44f13ba1704a1c418b208"
+    ]
+  },
+  "retryable": true,
   "acceptance": {
     "scheduled_runtime_observed": true,
+    "actual_platform_run_id_verified": false,
+    "topview_full_live_scan_this_cycle": false,
     "tinyfish_profile_signin_this_cycle": false,
     "ui_controls_this_cycle": false,
     "canonical_file_upload_this_cycle": false,
     "unlimited_zero_this_cycle": false,
     "confirmed_topview_task_id_this_cycle": false
-  }
+  },
+  "scan": {
+    "source": "GitHub robot public Topview API GET telemetry; not independently confirmed",
+    "robot_checked_at": "2026-11-14T12:50:28Z",
+    "robot_occupied_slots": 6,
+    "robot_free_slots": 0,
+    "robot_boards_scanned": 14,
+    "robot_pages_scanned": 17,
+    "robot_tasks_scanned": 675,
+    "robot_scope": "all_owned_board_counts_plus_project_latest_100_with_direct_active_verification",
+    "robot_active_task_ids": [
+      "1dcb6fa0628d41b098227ca6c96f1630",
+      "3a09108c8c474a0989118806b4a69f91",
+      "8c6d92662d1043c7a651168b2b8280ae",
+      "a1330998d39b486e864ed4e22b4fe8c4",
+      "bfdb6d9fad7a4ab29492f7bb95c78033",
+      "d775c7a483a44f13ba1704a1c418b208"
+    ],
+    "readiness_checked_at": "2026-11-14T12:50:37.395377Z",
+    "queue_item_count": 63,
+    "readiness_item_count": 30,
+    "processed_task_id_count": 139,
+    "source_sha256_match": true,
+    "issues_reviewed": true,
+    "open_owner_tasks": 0
+  },
+  "note": "Existing hourly automation and route_generation preserved. No changes to queue, retry budget, owner tasks, checkpoint or monitor telemetry."
 }
