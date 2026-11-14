@@ -11,9 +11,9 @@
   "route_generation": 3,
   "source_head": "6269d89c277a683ac0af50db5901cf947846bcf7",
   "started_at": "2026-11-14T09:02:00.226028Z",
-  "updated_at": "2026-11-14T09:07:42.889Z",
-  "phase": "started",
-  "status": "in_progress",
+  "updated_at": "2026-11-14T09:09:57.585Z",
+  "phase": "completed",
+  "status": "completed",
   "scan_complete": false,
   "occupied_slots": null,
   "free_slots": null,
@@ -27,24 +27,30 @@
     "attempts": 0,
     "steps": 0,
     "estimated_usd": 0,
-    "confirmed_charge_usd": 0
+    "confirmed_charge_usd": 0,
+    "reason": "No metered run: live Topview connector requires interactive user input; robot latest shows 6/6, and paid polls at full capacity are disallowed. No selected item or UI preflight."
   },
   "lease": {
     "holder": "chatgpt:ordinary:f8335dde-aa83-4696-93e8-26c90a59e24a",
     "acquired_at": "2026-11-14T09:07:09.397Z",
     "expires_at": "2026-11-14T09:22:09.397Z",
     "acquired_commit": "b38978932cc9e482478a409d6d729dff97d62ba1",
-    "released": false,
-    "released_at": null
+    "released": true,
+    "released_at": "2026-11-14T09:09:57.585Z"
   },
-  "outcome": null,
-  "blocker": null,
-  "retryable": null,
+  "outcome": "no_create_last_robot_six_of_six_live_connector_blocked",
+  "blocker": {
+    "code": "topview_connector_requires_interactive_user_input",
+    "details": "Topview list_boards(mode=all) requested user input in this non-interactive scheduled run. Last canonical robot verification at 2026-11-14T08:20:24Z was 6/6 (all owned boards by light counts plus exact active task checks). Not a fresh independent account-wide scan. One active task remains unmapped in task-map and must be reconciled before any future selection; S49B, S51E/F/G are marked ready in queue despite corresponding active part-mapped tasks. No proof of new free slot. Do not Create or pay for a polling run.",
+    "at": "2026-11-14T09:09:57.585Z"
+  },
+  "retryable": true,
   "execution": {
     "hourly_scheduled_execution": true,
     "platform_run_id_verified": true,
     "read_only_scan_attempted": true,
-    "global_scan_complete": false
+    "global_scan_complete": false,
+    "receipt_write_mode": "Atomic Git tree commit for own final receipt and exact lock release with expected HEAD CAS and readback"
   },
   "acceptance": {
     "scheduled_runtime": true,
@@ -56,5 +62,65 @@
     "topview_full_scan_verified_this_run": false,
     "live_capacity_verified_this_run": false
   },
-  "checked_at": null
+  "checked_at": "2026-11-14T09:09:57.585Z",
+  "completed_at": "2026-11-14T09:09:57.585Z",
+  "scan": {
+    "source": "Live Topview connector blocked; GitHub robot canonical telemetry",
+    "checked_at": null,
+    "complete": false,
+    "all_boards_scanned": null,
+    "pages_scanned": null,
+    "unique_video_tasks": null,
+    "success": null,
+    "fail": null,
+    "active": null,
+    "active_task_ids": [],
+    "last_robot_snapshot": {
+      "checked_at": "2026-11-14T08:20:24Z",
+      "complete": true,
+      "scan_mode": "light_board_counts_verified",
+      "boards_scanned": 14,
+      "pages_scanned": 17,
+      "unique_video_tasks": 675,
+      "occupied": 6,
+      "free": 0,
+      "active_task_ids": [
+        "1dcb6fa0628d41b098227ca6c96f1630",
+        "3a09108c8c474a0989118806b4a69f91",
+        "8c6d92662d1043c7a651168b2b8280ae",
+        "a1330998d39b486e864ed4e22b4fe8c4",
+        "bfdb6d9fad7a4ab29492f7bb95c78033",
+        "d775c7a483a44f13ba1704a1c418b208"
+      ]
+    },
+    "last_task_map_scan_at": "2026-11-14T08:20:24Z",
+    "unmapped_active": [
+      "d775c7a483a44f13ba1704a1c418b208"
+    ]
+  },
+  "readiness": {
+    "items": 30,
+    "queue_items": 63,
+    "unresolved_claims": [],
+    "readiness_queue_sha256": "92e5bd1d8eefc604d634fb24d7c81349dcd69a411193b37d338e4e15be70b0e8",
+    "readiness_task_map_sha256": "0f5b24ababf64de16d7ad247d3f815e49962c8239697dbd37a7afe5e2bb4b32d",
+    "verified_independently_before_this_commit": true,
+    "active_parts_also_marked_ready": [
+      "S49B",
+      "S51E",
+      "S51F",
+      "S51G"
+    ],
+    "note": "Require complete fresh reconciliation of prompt and real inputs before any future Create. No queue state modified."
+  },
+  "owner_tasks_open": 0,
+  "work_recovery": {
+    "status": "no_current_work_gui_or_quota_evidence",
+    "preferred_executor_recorded": "work",
+    "route_generation_preserved": 3
+  },
+  "expenses": {
+    "topview_credits": 0,
+    "external_usd": 0
+  }
 }
