@@ -11,9 +11,9 @@
   "route_generation": 3,
   "source_head": "ee3d9a04a2dbd4617d1ef2d0f52c82986ea9cbe3",
   "started_at": "2026-11-14T08:02:36.658820Z",
-  "updated_at": "2026-11-14T08:12:09.376Z",
-  "phase": "started",
-  "status": "in_progress",
+  "updated_at": "2026-11-14T08:14:08.709Z",
+  "phase": "completed",
+  "status": "completed",
   "scan_complete": false,
   "occupied_slots": null,
   "free_slots": null,
@@ -27,24 +27,30 @@
     "attempts": 0,
     "steps": 0,
     "estimated_usd": 0,
-    "confirmed_charge_usd": 0
+    "confirmed_charge_usd": 0,
+    "reason": "No paid run: live Topview connector requested user input during a non-interactive scheduled run; last robot full 6/6; shadow light 6/6. No paid polling permitted, no fresh evidence to repeat prior file import blocker."
   },
   "lease": {
     "holder": "chatgpt:ordinary:b1663e54-211e-4083-9181-a3dfd46cbeef",
     "acquired_at": "2026-11-14T08:11:18.743Z",
     "expires_at": "2026-11-14T08:26:18.743Z",
     "acquired_commit": "047ed8a433aee352df5b3be429adafd75d1e3e3c",
-    "released": false,
-    "released_at": null
+    "released": true,
+    "released_at": "2026-11-14T08:14:08.709Z"
   },
-  "outcome": "started",
-  "blocker": null,
+  "outcome": "no_create_last_robot_six_of_six_live_connector_blocked",
+  "blocker": {
+    "code": "topview_connector_requires_interactive_user_input",
+    "details": "Read-only Topview list_boards(mode=all) requested interactive consent, unavailable in this scheduled run. Current full independent scan not possible. Last published robot scan 2026-11-14T07:30:27Z: 14 boards, 17 pages, 675 tasks and 6/6 occupied; shadow read-only light scan 2026-11-14T08:10:29Z: 6/6, incomplete (1 page). Old issue #636 dated 2026-11-13 does not prove current free capacity. No Create and no paid TinyFish polling.",
+    "at": "2026-11-14T08:14:08.709Z"
+  },
   "retryable": true,
   "execution": {
     "hourly_scheduled_execution": true,
     "platform_run_id_verified": true,
     "read_only_scan_attempted": true,
-    "global_scan_complete": false
+    "global_scan_complete": false,
+    "receipt_write_mode": "Atomic Git tree commit for final own lease release and receipt; expected-head CAS/readback"
   },
   "acceptance": {
     "scheduled_runtime": true,
@@ -55,5 +61,65 @@
     "full_end_to_end_launch_verified": false,
     "topview_full_scan_verified_this_run": false,
     "live_capacity_verified_this_run": false
+  },
+  "checked_at": "2026-11-14T08:14:08.709Z",
+  "completed_at": "2026-11-14T08:14:08.709Z",
+  "scan": {
+    "source": "Topview connector requiring interactive consent + independent GitHub robot telemetry and shadow light scan",
+    "checked_at": null,
+    "complete": false,
+    "all_boards_scanned": null,
+    "pages_scanned": null,
+    "unique_video_tasks": null,
+    "success": null,
+    "fail": null,
+    "active": null,
+    "active_task_ids": [],
+    "last_robot_snapshot": {
+      "checked_at": "2026-11-14T07:30:27Z",
+      "complete": true,
+      "boards_scanned": 14,
+      "pages_scanned": 17,
+      "unique_video_tasks": 675,
+      "occupied": 6,
+      "free": 0,
+      "active_task_ids": [
+        "1dcb6fa0628d41b098227ca6c96f1630",
+        "3a09108c8c474a0989118806b4a69f91",
+        "8c6d92662d1043c7a651168b2b8280ae",
+        "a1330998d39b486e864ed4e22b4fe8c4",
+        "bfdb6d9fad7a4ab29492f7bb95c78033",
+        "d775c7a483a44f13ba1704a1c418b208"
+      ]
+    },
+    "last_shadow_snapshot": {
+      "checked_at": "2026-11-14T08:10:29Z",
+      "last_full_scan_at": "2026-11-14T07:50:28Z",
+      "complete": false,
+      "mode": "light",
+      "occupied": 6,
+      "free": 0,
+      "pages_scanned": 1,
+      "tasks_seen": 20,
+      "comparison": true
+    }
+  },
+  "readiness": {
+    "items": 30,
+    "queue_items": 63,
+    "unresolved_claims": [],
+    "readiness_queue_sha256": "92e5bd1d8eefc604d634fb24d7c81349dcd69a411193b37d338e4e15be70b0e8",
+    "readiness_task_map_sha256": "4024a14d6e6204d84ccab23f081707070e291b0095fca151e019cb588aa06d35",
+    "verified_independently_before_this_commit": true
+  },
+  "owner_tasks_open": 0,
+  "work_recovery": {
+    "status": "no_current_work_gui_or_quota_evidence",
+    "preferred_executor_recorded": "work",
+    "route_generation_preserved": 3
+  },
+  "expenses": {
+    "topview_credits": 0,
+    "external_usd": 0
   }
 }
