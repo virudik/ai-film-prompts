@@ -4,29 +4,22 @@
   "source": "ChatGPT scheduled ordinary",
   "runner": "chatgpt_scheduled_task",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "run_id": "bbe18130-6f10-8324-a619-ba7bf889dadf",
+  "run_id": "7b4ab744-ae8c-832f-b656-4ed42642970b",
   "run_id_unavailable_reason": null,
-  "runtime_run_id_source": "Automations.peek last_run.id, in_progress, scheduled_for 2026-11-14T02:00:00Z",
-  "execution_instance_id": "1ecec2ea-5471-4db2-91c9-45cbc0c540d2",
+  "runtime_run_id_source": "Automations.peek last_run.id in_progress scheduled_for 2026-11-14T03:00:00Z",
+  "execution_instance_id": "5957be53-d589-4b90-9eae-7820d33e4ede",
   "route_generation": 3,
-  "source_head": "effe69f028829b93db2ef25136538f171d3f3d17",
-  "started_at": "2026-11-14T02:08:05.701Z",
-  "updated_at": "2026-11-14T02:11:36.055Z",
-  "checked_at": "2026-11-14T02:05:43.440Z",
-  "phase": "completed",
-  "status": "completed",
-  "scan_complete": true,
-  "occupied_slots": 6,
-  "free_slots": 0,
+  "source_head": "f15dbcee7a9ff772576a97f29b075fca99a2541b",
+  "started_at": "2026-11-14T03:02:04.719Z",
+  "updated_at": "2026-11-14T03:02:43.007Z",
+  "checked_at": null,
+  "phase": "started",
+  "status": "in_progress",
+  "scan_complete": false,
+  "occupied_slots": null,
+  "free_slots": null,
   "selected_item": null,
-  "task_ids": [
-    "bfdb6d9fad7a4ab29492f7bb95c78033",
-    "d775c7a483a44f13ba1704a1c418b208",
-    "8c6d92662d1043c7a651168b2b8280ae",
-    "1dcb6fa0628d41b098227ca6c96f1630",
-    "a1330998d39b486e864ed4e22b4fe8c4",
-    "3a09108c8c474a0989118806b4a69f91"
-  ],
+  "task_ids": [],
   "new_submissions": 0,
   "topview_credits_spent": 0,
   "browser_transport": "not_used",
@@ -39,94 +32,31 @@
     "unlimited_ui_verified_in_this_run": false
   },
   "lease": {
-    "holder": "chatgpt:ordinary:1ecec2ea-5471-4db2-91c9-45cbc0c540d2",
-    "acquired_at": "2026-11-14T02:08:05.701Z",
-    "expires_at": "2026-11-14T02:23:05.701Z",
-    "acquired_commit": "e2c74fc2020d85f3a38a7fb26652736bc983b18c",
-    "released": true,
-    "released_at": "2026-11-14T02:11:36.055Z"
+    "holder": "chatgpt:ordinary:5957be53-d589-4b90-9eae-7820d33e4ede",
+    "acquired_at": "2026-11-14T03:02:04.719Z",
+    "expires_at": "2026-11-14T03:17:04.719Z",
+    "acquired_commit": "f15dbcee7a9ff772576a97f29b075fca99a2541b",
+    "released": false,
+    "released_at": null
   },
-  "outcome": "no_free_slot",
+  "outcome": null,
   "blocker": null,
-  "retryable": false,
+  "retryable": null,
   "expenses": {
     "tinyfish_usd": 0,
     "topview_credits": 0
   },
-  "completed_at": "2026-11-14T02:11:36.055Z",
+  "completed_at": null,
   "execution": {
-    "state": "completed",
-    "stage": "no_free_slot",
-    "updated_at": "2026-11-14T02:11:36.055Z"
-  },
-  "scan": {
-    "source": "Topview connector read-only",
-    "all_boards_scanned": 14,
-    "pages_scanned": 19,
-    "unique_video_tasks": 675,
-    "success": 642,
-    "fail": 27,
-    "active": 6,
-    "scan_complete": true,
-    "active_task_board": "My First Board",
-    "active_model": "Seedance 2.0",
-    "active_duration_seconds": 15,
-    "active_resolution": "720p",
-    "active_aspect_ratio": "16:9",
-    "active_unlimited": true,
-    "active_topview_credit_cost": 0,
-    "scanned_at": "2026-11-14T02:02:21.633Z"
-  },
-  "queue_reconciliation": {
-    "status": "sha_verified_no_create",
-    "queue_items": 63,
-    "readiness_items": 30,
-    "readiness_ready": 26,
-    "transitionals": 0,
-    "queue_submitted_completed_task_ids": 33,
-    "task_map_processed_count": 139,
-    "processed_all_found_in_main_board": true,
-    "queue_submitted_all_found_in_main_board": true,
-    "source_queue_sha256": "92e5bd1d8eefc604d634fb24d7c81349dcd69a411193b37d338e4e15be70b0e8",
-    "source_task_map_sha256": "68de68e227f7c1a645a5dbe198ab08efbe80af1c79800ed8fe22328408a3265c",
-    "sha256_match_independently_verified": true,
-    "checked_at": "2026-11-14T02:05:43.440Z",
-    "historical_unknown_note": "Historical S49B unknown remains historical; never repeated."
-  },
-  "peer_reconciliation": {
-    "ordinary_automation_enabled": true,
-    "ordinary_current_run_id": "bbe18130-6f10-8324-a619-ba7bf889dadf",
-    "ordinary_latest_result_run_id": "b0129caa-fb98-832d-b4a0-2cf046341684",
-    "work_hh55_enabled": true,
-    "work_hh55_runtime_run_id": "da5c2cdb-6164-832e-a3d3-f6c1b9e8e00b",
-    "work_hh55_runtime_status": "completed",
-    "relay_handler_enabled": true,
-    "relay_runtime_run_id": "cf95fc42-67c8-832e-9995-dd98919c4e09",
-    "stale_issues_not_counted_as_capacity": true
-  },
-  "owner_tasks_check": {
-    "open": 0,
-    "taken": 0
-  },
-  "work_capacity_check": {
-    "preferred_executor": "work",
-    "route_generation": 3,
-    "note": "Verified Work restoration evidence remains in canonical registry from 2026-11-02; no fresh proof of Work GUI/quota in this ordinary read-only cycle; no route change."
-  },
-  "results_check": {
-    "topview_six_active_tasks_verified": true,
-    "all_active_parameters_match": true,
-    "full_ui_preflight": false,
-    "topview_task_created_this_run": false
+    "state": "in_progress",
+    "stage": "started",
+    "updated_at": "2026-11-14T03:02:43.007Z"
   },
   "acceptance": {
-    "scheduled_ordinary_real_execution": true,
-    "topview_read_only_complete": true,
-    "tinyfish_saved_login_test_from_history_only": true,
-    "tinyfish_run_this_cycle": false,
-    "actual_file_upload_this_cycle": false,
-    "actual_unlimited_ui_preflight_this_cycle": false,
-    "production_create_verified_this_cycle": false
-  },
-  "source_head_pre_final": "f9420765cf018692566fb56d6b1dd89996a5dafb"
+    "hourly_runtime_verified": true,
+    "tinyfish_signin_in_this_run": false,
+    "file_transfer_verified": false,
+    "unlimited_zero_verified_in_this_run": false,
+    "topview_task_id_verified_in_this_run": false
+  }
 }
