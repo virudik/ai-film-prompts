@@ -11,7 +11,7 @@
   "route_generation": 3,
   "source_head": "047db450e6b3ed8c30ddf4984687ae1e506b5fd9",
   "started_at": "2026-11-14T02:58:40.084Z",
-  "updated_at": "2026-11-14T03:00:11.116Z",
+  "updated_at": "2026-11-14T03:00:34.452Z",
   "checked_at": "2026-11-14T03:00:11.116Z",
   "phase": "completed",
   "status": "completed",
@@ -35,8 +35,8 @@
     "acquired_at": "2026-11-14T02:58:40.084Z",
     "expires_at": "2026-11-14T03:13:40.084Z",
     "acquired_commit": "4566b4de36749e4ef1533b96f043219eb924dd6b",
-    "released": false,
-    "released_at": null
+    "released": true,
+    "released_at": "2026-11-14T03:00:34.452Z"
   },
   "outcome": "no_free_slot",
   "blocker": null,
@@ -213,6 +213,6 @@
     "topview_credits": 0,
     "external_usd": 0
   },
-  "completed_at": "2026-11-14T03:00:11.116Z",
-  "source_head_final": null
+  "completed_at": "2026-11-14T03:00:34.452Z",
+  "source_head_final": "820489523f1ec8fe7d1fa3ce360983b2bb5a9925"
 }
