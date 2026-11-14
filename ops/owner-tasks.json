@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "rules": "ops/OWNER-TASKS.md",
-  "updated_at": "2026-11-14T20:49:27Z",
+  "updated_at": "2026-11-14T21:05:30.162Z",
   "tasks": [
     {
       "id": "d37ea54b-6b09-4283-892b-d6c3e189b82f",
@@ -159,9 +159,9 @@
       "to": "any",
       "source": "self-heal",
       "text": "Самопроверка: Последний запуск «здоровье канона» на GitHub упал (попытка 2): https://github.com/virudik/ai-film-prompts/actions/runs/43638120305 Найти причину и починить; правила — ops/SELF-HEAL.md.",
-      "status": "open",
-      "taken_by": null,
-      "taken_at": null
+      "status": "taken",
+      "taken_by": "chatgpt:ordinary:7664d92f-63b0-4b7d-b6c7-a88dc7d5a47e",
+      "taken_at": "2026-11-14T21:05:30.162Z"
     }
   ]
 }
