@@ -13,12 +13,10 @@ work_id: SEREGIUS-SHIFT-20261113-T611U
 
 checked_at: 2026-11-14T20:02:31+00:00
 
-<!-- relay-current-start -->
-Relay #676 · 2026-11-14T19:28:43.268Z · slots:a3e98072:67 · blocked_browser, retryable=true. Полный независимый скан: 14 досок / 19 страниц / 1059 задач, занято 5/6; готов S89A-WAN30. Fresh master raw/normalized SHA совпали, все 5 входов учтены. Подключённый браузер дважды, с повтором примерно через минуту, потребовал исходный контекст; точная загрузка исходников, Wan 3.0 Unlimited0 и цена0 в UI не подтверждены. claim/intent/Create=0. Следующий свежий wake/плановый цикл повторяет доступ и полный preflight. next_action/recovery активной работы сохранены. Квитанция: reports/topview-event-wake.json.
-<!-- relay-current-end -->
+
 
 <!-- relay-current-start -->
-Relay #676 · 2026-11-14T19:28:43.268Z · slots:a3e98072:67 · blocked_browser, retryable=true. Полный независимый скан: 14 досок / 19 страниц / 1059 задач, занято 5/6; готов S89A-WAN30. Fresh master raw/normalized SHA совпали, все 5 входов учтены. Подключённый браузер дважды, с повтором примерно через минуту, потребовал исходный контекст; точная загрузка исходников, Wan 3.0 Unlimited0 и цена0 в UI не подтверждены. claim/intent/Create=0. Следующий свежий wake/плановый цикл повторяет доступ и полный preflight. next_action/recovery активной работы сохранены. Квитанция: reports/topview-event-wake.json.
+Relay #678 · 2026-11-14T20:32:12.935Z · slots:a3e98072:68 · blocked_browser, retryable=true. Fresh полный скан: 14 досок / 19 страниц / 1059 задач, занято 5/6; готов S89A-WAN30. Master raw/normalized SHA совпали, пять входов и порядок учтены. Браузер дважды, с паузой 45 с, потребовал исходный контекст; native upload, Wan 3.0 Unlimited0 и цена0 не подтверждены. claim/intent/Create=0. Следующий настоящий wake/плановый цикл повторяет браузерный доступ и полный preflight; next_action/recovery не менялись. Квитанция: reports/topview-event-wake.json.
 <!-- relay-current-end -->
 
 # 14.11.2026 — D7 ordinary: проверка очереди и передача смены

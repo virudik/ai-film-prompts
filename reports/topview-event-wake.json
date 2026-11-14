@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-14T20:24:52.699Z",
+  "updated_at": "2026-11-14T20:32:12.935Z",
   "status": "relay_production_enabled",
   "event_automation_id": "6adc585e7ac08191bb93825117dc7213",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
@@ -1788,9 +1788,9 @@
       "issue_number": 678,
       "message_id": "247455710466367488",
       "relay_event_id": "evt_03fc5af37c8df861e98e5a0e5abf815b",
-      "checked_at": "2026-11-14T20:24:52.699Z",
-      "outcome": "started",
-      "reason": "Validated event and completed fresh independent read-only scan of all editable boards/pages: 5/6 active video slots. Selected S89A-WAN30 from the fresh canonical queue after reconciling active tasks and zero open claim/submitting/submission_unknown items. Website UI preflight is next.",
+      "checked_at": "2026-11-14T20:32:12.935Z",
+      "outcome": "blocked_browser",
+      "reason": "Complete fresh independent read-only scan found 5/6 active video slots and selected ready S89A-WAN30. The current master blob and canonical queue raw/normalized SHA-256 match exactly; all five required references and their canonical order are recorded, including the 12,687,056-byte Drive original. The connected website browser required its originating context on the initial attempt and on the read-only retry 45 seconds later, so native exact-file upload, selected Wan 3.0 Unlimited0, and displayed zero price could not be verified. No claim, submitting intent, or Create.",
       "task_ids": [],
       "retryable": true,
       "source": "Agent Relay webhook",
@@ -1800,11 +1800,11 @@
       "run_id": null,
       "run_id_unavailable_reason": "Runtime run_id not exposed by this invocation.",
       "execution": {
-        "state": "running",
-        "stage": "account_scan",
+        "state": "blocked",
+        "stage": "blocked_browser",
         "started_at": "2026-11-14T20:23:51.476Z",
-        "updated_at": "2026-11-14T20:24:52.699Z",
-        "finished_at": null
+        "updated_at": "2026-11-14T20:32:12.935Z",
+        "finished_at": "2026-11-14T20:32:12.935Z"
       },
       "new_submissions": 0,
       "credits_spent": 0,
@@ -1855,6 +1855,76 @@
         "ordinary_free_slots": 1,
         "ordinary_execution_instance_id": "72825236-2805-4eb8-beef-f2cff994917e",
         "work_hourly_receipt_state": "in_progress_2026-11-14T04:53:19.362Z_not_current_execution_proof"
+      },
+      "relay_reminder_event_ids": [
+        "evt_d4bb6dbdb3d43815daa8a41fc503e848"
+      ],
+      "actual_sender": "topview-robot",
+      "sender_agent_id": "240204876611608576",
+      "sender_address": "topview-robot@direct",
+      "target_inbox": "chatgpt@cloud-239644772681871360",
+      "browser_attempts": [
+        {
+          "surface": "connected_extension",
+          "outcome": "originating_browser_context_required"
+        },
+        {
+          "surface": "connected_extension_retry_after_45_seconds",
+          "outcome": "originating_browser_context_required"
+        }
+      ],
+      "preflight": {
+        "queue_state": "waiting_for_slot",
+        "launch_readiness": "authorized_inputs_available",
+        "master_blob_sha": "e3c362c809db42835cdfc6abaa9b7926c0b1c76f",
+        "prompt_matcher_blob_sha": "52e44f9470569bef7f209bebb8d1d3cd7235df20",
+        "prompt_raw_sha256": "357829d4234a54a5d6a4d1fa89f7095d136585eb64f037e390774fb974f1d2a0",
+        "prompt_normalized_sha256": "503380bb45912f1436ffe058ca329715997ab2843b80afd7a230eace2deab583",
+        "prompt_hashes_match_queue": true,
+        "reference_count": 5,
+        "references": [
+          {
+            "order": 1,
+            "source": "drive",
+            "id": "1b3oDLTTIniwoCmLLm35XStUlh6mxq8Kd",
+            "bytes": 12687056,
+            "sha256": "5d4278"
+          },
+          {
+            "order": 2,
+            "path": "references/scenes/scene-89/shared/jedi2-artem-scene.png",
+            "sha256": "bf99"
+          },
+          {
+            "order": 3,
+            "path": "references/scenes/scene-89/shared/jedi1-ilyusha-scene.png",
+            "sha256": "f308"
+          },
+          {
+            "order": 4,
+            "path": "references/full/artem.jpg",
+            "sha256": "281f"
+          },
+          {
+            "order": 5,
+            "path": "references/full/ilyusha.jpg",
+            "sha256": "8d4d"
+          }
+        ],
+        "model": "Wan 3.0",
+        "model_id": "qwen-wan3.0-video",
+        "duration_seconds": 30,
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "quantity": 1,
+        "website_unlimited_verified": false,
+        "credits_zero_verified": false,
+        "ui_preflight_complete": false
+      },
+      "next_action": "Next genuine fresh wake/hourly/ordinary run repeats authorized browser access and a full global scan. If the exact five originals can be natively uploaded and Wan 3.0 Unlimited0/price0 are visible, then take a fresh own lease, CAS claim, submitting intent, and one Create. No Continue required.",
+      "retention": {
+        "outcome": "checked_no_transfer",
+        "checked_at": "2026-11-14T20:32:12.935Z"
       }
     }
   ],

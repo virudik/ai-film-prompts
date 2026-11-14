@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-14T20:04:15+00:00",
+  "last_updated_at": "2026-11-14T20:32:12.935Z",
   "active_work": [
     {
       "work_id": "SEREGIUS-SHIFT-20261113-T611U",
@@ -9,7 +9,7 @@
       "title": "Смена 13.11 t611u: очередь 48.4 и 89, отзыв по версиям Grok",
       "status": "waiting_for_owner",
       "created_at": "2026-11-13T14:05:00Z",
-      "updated_at": "2026-11-14T20:04:15+00:00",
+      "updated_at": "2026-11-14T20:32:12.935Z",
       "next_action": "Восстановить вход Topview в открытой вкладке встроенного браузера этого Work-чата. Затем новый полный скан всех досок, свежий main/lease и проверка дублей; для S89A-WAN30 скачать точные пять исходников, сверить SHA/master и Unlimited/720p/16:9/quantity1/0 credits, CAS-claim/intent/readback и один Create. Продолжать по живой очереди при свободных слотах. Уже submitted S48-P4-R2 и S51E/F/G не повторять. Проверить следующий реальный цикл возобновлённой HH:55 страховки; enabled не доказывает вход или запуск.",
       "recovery": {
         "schema_version": 1,
@@ -47,19 +47,22 @@
         "status_unchanged": "waiting_for_owner"
       },
       "last_relay_event": {
-        "event_id": "slots:a3e98072:67",
-        "issue_number": 676,
-        "message_id": "247438235154509824",
-        "relay_event_id": "evt_645fa9fb12114614b6b5aba239fc4969",
-        "checked_at": "2026-11-14T19:28:43.268Z",
+        "event_id": "slots:a3e98072:68",
+        "issue_number": 678,
+        "message_id": "247455710466367488",
+        "relay_event_id": "evt_03fc5af37c8df861e98e5a0e5abf815b",
+        "relay_reminder_event_ids": [
+          "evt_d4bb6dbdb3d43815daa8a41fc503e848"
+        ],
+        "checked_at": "2026-11-14T20:32:12.935Z",
         "outcome": "blocked_browser",
         "retryable": true,
-        "execution_instance_id": "d0215a31-506b-4cfc-9d8d-c23dea456355",
+        "execution_instance_id": "6157d388-cfe9-4ac9-a177-680a3291b92e",
         "route_generation": 3,
         "new_submissions": 0,
         "task_ids": []
       },
-      "current_blocker": "Topview login required in current Work cloud browser; generation UI/preflight unavailable before authentication."
+      "current_blocker": "Fresh Relay #678 scan verified 5/6 and ready S89A-WAN30, but this webhook browser lacked its originating authorized context on both read-only attempts; native exact-file UI preflight, Unlimited0 and price0 remain unverified. claim/intent/Create=0."
     },
     {
       "work_id": "SEREGIUS-SASHA-PHOTOGRAPHER-20261110",
