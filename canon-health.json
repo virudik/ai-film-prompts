@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-14T14:51:46Z",
+  "checked_at": "2026-11-14T15:23:02Z",
   "status": "warn",
-  "warnings": 2,
+  "warnings": 1,
   "info": 17,
   "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. Устаревание по состоянию проекта, даты только сигнал. Чистку делает ChatGPT по предупреждению или в воскресенье 08:55 МСК.",
   "problems": [
@@ -113,12 +113,6 @@
       "code": "ops-stale",
       "text": "ops/dance-model-comparison.md: проверялся 25.10.2026, больше 14 дней назад.",
       "file": "ops/dance-model-comparison.md"
-    },
-    {
-      "level": "warn",
-      "code": "service-file-size",
-      "text": "work-resume-register.json: 100 КБ (предел 100 КБ): старые записи перенести в архив — python3 scripts/trim_service_files.py . --write (раздел хендофа «Как чистить», п. 8).",
-      "file": "work-resume-register.json"
     }
   ]
 }
