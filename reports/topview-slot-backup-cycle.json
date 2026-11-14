@@ -4,16 +4,16 @@
   "source": "ChatGPT scheduled ordinary",
   "runner": "chatgpt_scheduled_task",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "run_id": "86f8f1b8-1cd8-832e-a7a8-aafb823eed53",
-  "runtime_run_id_source": "Automations.peek last_run.id in_progress, scheduled_for 2026-11-14T10:00:00Z",
+  "run_id": "65448c62-1a78-8325-b137-6662460ce741",
+  "runtime_run_id_source": "Automations.peek last_run.id in_progress; scheduled_for 2026-11-14T11:00:00Z",
   "run_id_unavailable_reason": null,
-  "execution_instance_id": "ef6a801d-fc2e-4f45-abbd-589a96c79225",
+  "execution_instance_id": "a74984dd-ab24-4566-9414-daa97dcb1b6f",
   "route_generation": 3,
-  "source_head": "3efec22b027d05f0c861f57bc79d5727ec92c288",
-  "started_at": "2026-11-14T09:57:44.560122Z",
-  "updated_at": "2026-11-14T10:09:58.681Z",
-  "phase": "completed",
-  "status": "completed",
+  "source_head": "d200811a5fd7d563c4abdebcd6e7bb1967d2664b",
+  "started_at": "2026-11-14T11:01:13.753Z",
+  "updated_at": "2026-11-14T11:02:01.302Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan_complete": false,
   "occupied_slots": null,
   "free_slots": null,
@@ -28,29 +28,25 @@
     "steps": 0,
     "estimated_usd": 0,
     "confirmed_charge_usd": 0,
-    "reason": "No paid browser run: last canonical robot scan shows 6/6; direct live Topview connector requires interactive access, no verified free slot. Existing file-import blocker not retested."
+    "reason": "No metered browser run before a verified free slot, complete scan and own claim."
   },
   "lease": {
-    "holder": "chatgpt:ordinary:ef6a801d-fc2e-4f45-abbd-589a96c79225",
-    "acquired_at": "2026-11-14T10:04:46.320Z",
-    "expires_at": "2026-11-14T10:19:46.320Z",
-    "acquired_commit": "a62fa630d36fe82f4efbdd4d38ea046a551f37be",
-    "released": true,
-    "released_at": "2026-11-14T10:09:58.681Z"
+    "holder": "chatgpt:ordinary:a74984dd-ab24-4566-9414-daa97dcb1b6f",
+    "acquired_at": "2026-11-14T11:01:13.753Z",
+    "expires_at": "2026-11-14T11:16:13.753Z",
+    "acquired_commit": "d200811a5fd7d563c4abdebcd6e7bb1967d2664b",
+    "released": false,
+    "released_at": null
   },
-  "outcome": "no_create_robot_six_of_six_live_connector_blocked",
-  "blocker": {
-    "code": "topview_connector_requires_interactive_user_input",
-    "details": "Topview list_boards(mode=all) requires interactive confirmation in this scheduled run. Canonical GitHub robot checkpoint 2026-11-14T10:00:33Z shows six active video tasks; scan is light and not a new independent full account-wide scan. One active task remains unmapped, and S49B/S51E/S51F/S51G are labeled ready even though scene-linked active tasks exist; independent prompt and exact input reconciliation is required before any future Create. Music 49/51 have no new owner consent. No Create or metered polling permitted.",
-    "at": "2026-11-14T10:09:58.681Z"
-  },
-  "retryable": true,
+  "outcome": null,
+  "blocker": null,
+  "retryable": null,
   "execution": {
     "hourly_scheduled_execution": true,
     "platform_run_id_verified": true,
     "read_only_scan_attempted": true,
     "global_scan_complete": false,
-    "receipt_write_mode": "Sequential contents-SHA CAS commits for final receipt and exact own lock release; both read back. Atomic combined Git-tree commit unavailable through this connector."
+    "receipt_write_mode": "GitHub contents SHA CAS/readback"
   },
   "acceptance": {
     "scheduled_runtime": true,
@@ -62,67 +58,18 @@
     "topview_full_scan_verified_this_run": false,
     "live_capacity_verified_this_run": false
   },
-  "checked_at": "2026-11-14T10:09:58.681Z",
+  "checked_at": null,
   "scan": {
-    "source": "Canonical GitHub robot read-only Topview snapshot (not independently rescanned by ordinary executor)",
+    "source": "pending",
     "checked_at": null,
-    "complete": false,
-    "all_boards_scanned": null,
-    "pages_scanned": null,
-    "unique_video_tasks": null,
-    "success": null,
-    "fail": null,
-    "active": null,
-    "active_task_ids": [],
-    "last_robot_snapshot": {
-      "checked_at": "2026-11-14T10:00:33Z",
-      "committed_at": "2026-11-14T10:00:38.995Z",
-      "scan_mode": "light_board_counts_verified",
-      "boards_scanned": 14,
-      "pages_scanned": 1,
-      "unique_video_tasks": null,
-      "occupied": 6,
-      "free": 0,
-      "active_task_ids": [
-        "1dcb6fa0628d41b098227ca6c96f1630",
-        "3a09108c8c474a0989118806b4a69f91",
-        "8c6d92662d1043c7a651168b2b8280ae",
-        "a1330998d39b486e864ed4e22b4fe8c4",
-        "bfdb6d9fad7a4ab29492f7bb95c78033",
-        "d775c7a483a44f13ba1704a1c418b208"
-      ]
-    },
-    "unmapped_active": [
-      "d775c7a483a44f13ba1704a1c418b208"
-    ]
+    "complete": false
   },
-  "readiness": {
-    "items": 30,
-    "queue_items": 63,
-    "processed_task_ids": 139,
-    "unresolved_claims": [],
-    "readiness_queue_sha256": "92e5bd1d8eefc604d634fb24d7c81349dcd69a411193b37d338e4e15be70b0e8",
-    "readiness_task_map_sha256": "b1eb9731630f0b53fce8c078a419f2a5a9ff37e1dcbbe0e6d790cf23a32cfa1c",
-    "verified_independently_before_this_commit": true,
-    "active_parts_also_marked_ready": [
-      "S49B",
-      "S51E",
-      "S51F",
-      "S51G"
-    ],
-    "note": "Two raw UTF-8 SHA-256 values independently computed and match readiness. Scene-level active mapping is not enough to identify the exact part; do not duplicate."
-  },
-  "owner_tasks_open": 0,
-  "work_recovery": {
-    "status": "no_new_current_work_gui_or_quota_evidence",
-    "preferred_executor_recorded": "work",
-    "route_generation_preserved": 3,
-    "relay_last_run_at": "2026-11-13T14:52:07.758454Z",
-    "hh55_enabled": false
-  },
+  "readiness": {},
+  "owner_tasks_open": null,
+  "work_recovery": {},
   "expenses": {
     "topview_credits": 0,
     "external_usd": 0
   },
-  "completed_at": "2026-11-14T10:09:58.681Z"
+  "completed_at": null
 }
