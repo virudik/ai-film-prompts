@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:work:9c8d2761-42bb-4384-b189-61dbb229dba5",
-  "task": "Verified Relay issue 674 intake and current execution check",
-  "acquired_at": "2026-11-14T18:15:25.189Z",
-  "expires_at": null,
-  "released_at": "2026-11-14T18:21:13.414Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:40c9b1d5-2c97-4a66-9e58-675da8a4c9c1",
+  "task": "Reconcile already-submitted S51E/F/G tasks to queue under owner direct command; prepare safe next scene",
+  "acquired_at": "2026-11-14T18:24:39.499Z",
+  "expires_at": "2026-11-14T18:36:39.499Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
