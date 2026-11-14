@@ -11,9 +11,9 @@
   "route_generation": 3,
   "source_head": "952a3fc829e68c74011c6979a2e32a55b1de2e35",
   "started_at": "2026-11-14T15:06:31.025Z",
-  "updated_at": "2026-11-14T15:07:08.621Z",
-  "phase": "started",
-  "status": "in_progress",
+  "updated_at": "2026-11-14T15:11:22.377Z",
+  "phase": "completed",
+  "status": "completed",
   "scan_complete": false,
   "occupied_slots": null,
   "free_slots": null,
@@ -28,19 +28,30 @@
     "steps": 0,
     "estimated_usd": 0,
     "confirmed_charge_usd": 0,
-    "reason": "No paid browsing until verified complete live scan, ready item and required native upload ability."
+    "reason": "Existing S49B native Topview original image/video importer blocker from 2026-11-06 remains; no verified UI capability change. Independent Topview connector requested interactive confirmation. No metered browser polling or repeat blocker test."
   },
   "lease": {
     "holder": "chatgpt:ordinary:bdee2c95-3eca-4003-bf0f-b8e7cb8d011a",
     "acquired_at": "2026-11-14T15:06:31.025Z",
     "expires_at": "2026-11-14T15:18:31.025Z",
     "acquired_commit": "952a3fc829e68c74011c6979a2e32a55b1de2e35",
-    "released": false,
-    "released_at": null
+    "released": true,
+    "released_at": "2026-11-14T15:11:22.377Z"
   },
-  "outcome": null,
-  "blocker": null,
-  "retryable": null,
+  "outcome": "blocked_independent_live_scan_while_robot_reports_one_free_slot",
+  "blocker": {
+    "code": "independent_topview_scan_unavailable",
+    "at": "2026-11-14T15:11:22.377Z",
+    "details": "Read-only Topview connector returns interactive user confirmation required in non-interactive scheduled runtime. GitHub robot observed 5/6 occupied at 2026-11-14T14:40:28Z but its light_board_counts_verified scan cannot replace an independent complete all-board/all-page scan required before Create. Separate unchanged TinyFish input-import blocker prevents legitimate preflight; no paid rerun without new evidence. Queue still waiting for S49B/S51E/S51F/S51G despite robot matching sent Topview tasks; unmapped active d775c7a483a44f13ba1704a1c418b208.",
+    "reconciliation_required_for_future": [
+      "S49B",
+      "S51E",
+      "S51F",
+      "S51G",
+      "unmapped active d775c7a483a44f13ba1704a1c418b208"
+    ]
+  },
+  "retryable": true,
   "acceptance": {
     "scheduled_runtime_observed": true,
     "actual_platform_run_id_verified": true,
@@ -52,15 +63,52 @@
     "confirmed_topview_task_id_this_cycle": false
   },
   "scan": {
-    "source": "GitHub robot read-only Topview API; independent Topview scan pending",
-    "robot_checked_at": null,
-    "robot_occupied_slots": null,
-    "robot_free_slots": null,
-    "robot_boards_scanned": null,
-    "robot_pages_scanned": null,
-    "robot_tasks_scanned": null,
-    "robot_complete": null,
-    "source_sha256_match": null
+    "source": "GitHub robot Topview read-only telemetry; independent complete Topview connector scan blocked",
+    "robot_checked_at": "2026-11-14T14:40:28Z",
+    "robot_occupied_slots": 5,
+    "robot_free_slots": 1,
+    "robot_boards_scanned": 14,
+    "robot_pages_scanned": 17,
+    "robot_tasks_scanned": 675,
+    "robot_scope": "all_owned_boards_unlimited_video_tasks",
+    "robot_scan_mode": "light_board_counts_verified",
+    "robot_complete": true,
+    "robot_active_task_ids": [
+      "1dcb6fa0628d41b098227ca6c96f1630",
+      "8c6d92662d1043c7a651168b2b8280ae",
+      "a1330998d39b486e864ed4e22b4fe8c4",
+      "bfdb6d9fad7a4ab29492f7bb95c78033",
+      "d775c7a483a44f13ba1704a1c418b208"
+    ],
+    "robot_checkpoint_at": "2026-11-14T14:40:28Z",
+    "readiness_checked_at": "2026-11-14T14:40:41.737970Z",
+    "queue_item_count": 63,
+    "readiness_item_count": 30,
+    "processed_task_id_count": 140,
+    "source_sha256_match": true,
+    "source_sha256_verification": "independent raw UTF-8 SHA-256 computed this execution and source file GitHub blob SHA unchanged at final CAS",
+    "issues_reviewed": true,
+    "latest_slot_wake_issue": 665,
+    "latest_issue_observed_at": "2026-11-14T14:40:28Z",
+    "latest_event_id": "result:3a09108c8c474a0989118806b4a69f91",
+    "open_owner_tasks": 0,
+    "open_claim_items": [],
+    "active_mapping_reconciliation_required": [
+      "S49B",
+      "S51E",
+      "S51F",
+      "S51G"
+    ],
+    "unmapped_active_task_id": "d775c7a483a44f13ba1704a1c418b208",
+    "launcher_health_checked_at": "2026-11-14T15:10:30Z",
+    "launcher_health_state": "launch_stalled",
+    "runtime_peers": {
+      "relay_id": "6adc585e7ac08191bb93825117dc7213",
+      "relay_last_completed_at": "2026-11-14T14:52:06.261668Z",
+      "work_hourly_id": "6acae6ab433481919e88665c520b8ef2",
+      "work_hourly_enabled": false
+    }
   },
-  "checked_at": null
+  "checked_at": "2026-11-14T15:11:22.377Z",
+  "note": "One free slot in robot snapshot is NOT independently verified live capacity. No Create, no paid TinyFish. Route generation and HH:00 automation unchanged. Queue, retries, task IDs, checkpoint/continue state not changed; robot heartbeat and Relay receipt untouched."
 }
