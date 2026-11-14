@@ -438,7 +438,7 @@
     "unresolved": true,
     "episode": "a3e98072",
     "unresolved_since": "2026-11-14T14:40:38Z",
-    "reason": "handler_receipt_without_confirmed_launch",
+    "reason": "execution_started_without_confirmed_launch",
     "free_slots_global": 1,
     "actionable_items": [
       "S49B",
@@ -469,16 +469,16 @@
       "S89J-WAN30"
     ],
     "reconciliation_items": [],
-    "last_event_id": "result:3a09108c8c474a0989118806b4a69f91",
+    "last_event_id": "slots:a3e98072:62",
     "receipt_present": true,
-    "handler_outcome": "blocked_browser",
-    "execution_stage": "blocked_browser",
-    "execution_updated_at": "2026-11-14T14:50:59.750Z",
+    "handler_outcome": "started",
+    "execution_stage": "intake",
+    "execution_updated_at": "2026-11-14T15:16:07.458Z",
     "runtime_run_id": null,
     "confirmed_launch_task_ids": [],
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
     "escalation_attempted_episode": "a3e98072",
-    "checked_at": "2026-11-14T15:10:30Z"
+    "checked_at": "2026-11-14T15:20:30Z"
   }
 }
