@@ -4,215 +4,40 @@
   "source": "ChatGPT scheduled Work HH:55",
   "runner": "chatgpt_scheduled_task",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "run_id": "7687ba91-3514-8330-8308-d43a187cbf5c",
+  "run_id": "e7a7948e-8408-8327-9af9-fea417286d2f",
   "run_id_unavailable_reason": null,
-  "runtime_run_id_source": "Automations.peek last_run.id in_progress scheduled_for 2026-11-14T03:55:00Z",
-  "execution_instance_id": "86998ea5-8177-484f-be1a-95f77b8e1def",
+  "runtime_run_id_source": "Automations.peek last_run.id in_progress scheduled_for 2026-11-14T04:55:00Z",
+  "execution_instance_id": "dc0ed308-e353-4f95-b6f5-9ecbb5548e0a",
   "route_generation": 3,
-  "source_head": "41a01fe11d1993d49d30d84cc5768e7bcbb3c1fe",
-  "started_at": "2026-11-14T03:55:57.261Z",
-  "updated_at": "2026-11-14T03:57:39.024Z",
-  "checked_at": "2026-11-14T03:57:17.136Z",
-  "phase": "completed",
-  "status": "completed",
-  "scan_complete": true,
-  "occupied_slots": 6,
-  "free_slots": 0,
+  "source_head": "782b9505b06a985bebd7b007776ea89e58a3765f",
+  "started_at": "2026-11-14T04:53:01.238Z",
+  "updated_at": "2026-11-14T04:53:19.362Z",
+  "checked_at": null,
+  "phase": "started",
+  "status": "in_progress",
+  "scan_complete": false,
+  "occupied_slots": null,
+  "free_slots": null,
   "selected_item": null,
-  "task_ids": [
-    "bfdb6d9fad7a4ab29492f7bb95c78033",
-    "d775c7a483a44f13ba1704a1c418b208",
-    "8c6d92662d1043c7a651168b2b8280ae",
-    "1dcb6fa0628d41b098227ca6c96f1630",
-    "a1330998d39b486e864ed4e22b4fe8c4",
-    "3a09108c8c474a0989118806b4a69f91"
-  ],
+  "task_ids": [],
   "new_submissions": 0,
   "topview_credits_spent": 0,
   "browser_transport": "not_used",
   "lease": {
-    "holder": "chatgpt:work:86998ea5-8177-484f-be1a-95f77b8e1def",
-    "acquired_at": "2026-11-14T03:55:57.261Z",
-    "expires_at": "2026-11-14T04:10:57.261Z",
-    "acquired_commit": "242800bb54083ecaa82514d4affd5d0109eb6023",
-    "released": true,
-    "released_at": "2026-11-14T03:57:39.024Z"
+    "holder": "chatgpt:work:dc0ed308-e353-4f95-b6f5-9ecbb5548e0a",
+    "acquired_at": "2026-11-14T04:53:01.238Z",
+    "expires_at": "2026-11-14T05:08:01.238Z",
+    "acquired_commit": "782b9505b06a985bebd7b007776ea89e58a3765f",
+    "released": false,
+    "released_at": null
   },
-  "outcome": "no_free_slot",
+  "outcome": null,
   "blocker": null,
-  "retryable": false,
-  "peer_reconciliation": {
-    "ordinary_automation_enabled": true,
-    "ordinary_last_run_id": "7b4ab744-ae8c-832f-b656-4ed42642970b",
-    "ordinary_latest_result_run_id": "7b4ab744-ae8c-832f-b656-4ed42642970b",
-    "ordinary_receipt_run_id": "7b4ab744-ae8c-832f-b656-4ed42642970b",
-    "same_run_proven": true,
-    "ordinary_in_progress": false,
-    "receipt_stale": false,
-    "note": "Actual peer run/result and canonical receipt are matched explicitly; older evidence is not attributed to a newer run."
-  },
+  "retryable": null,
   "monitor_role_check": {
     "action": "skip",
     "reason": "collision guard unavailable; avoid concurrent write",
     "error": "CalledProcessError",
     "telemetry_write_performed": false
-  },
-  "source_head_pre_final": "276df12b306ee0ff578a54621cc0ed5b0af85128",
-  "scan": {
-    "source": "Topview connector read-only",
-    "scope": "all 14 boards, every video task page including zero-video boards",
-    "boards": 14,
-    "pages": 19,
-    "unique_video_tasks": 675,
-    "success": 642,
-    "failed": 27,
-    "active": 6,
-    "scan_complete": true,
-    "checked_at": "2026-11-14T03:57:17.136Z",
-    "active_task_ids": [
-      "bfdb6d9fad7a4ab29492f7bb95c78033",
-      "d775c7a483a44f13ba1704a1c418b208",
-      "8c6d92662d1043c7a651168b2b8280ae",
-      "1dcb6fa0628d41b098227ca6c96f1630",
-      "a1330998d39b486e864ed4e22b4fe8c4",
-      "3a09108c8c474a0989118806b4a69f91"
-    ],
-    "main_board_id": "1a6244cf1ae747ef847d949a80d6133c",
-    "main_board_name": "My First Board",
-    "main_board_video_tasks": 508,
-    "active_task_details": [
-      {
-        "task_id": "bfdb6d9fad7a4ab29492f7bb95c78033",
-        "status": "init",
-        "gmtCreate": "2026-11-13 14:50:55",
-        "model": "Seedance 2.0",
-        "duration": 15,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "unlimited": true,
-        "credits_cost": 0,
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "board_name": "My First Board"
-      },
-      {
-        "task_id": "d775c7a483a44f13ba1704a1c418b208",
-        "status": "init",
-        "gmtCreate": "2026-11-12 10:55:38",
-        "model": "Seedance 2.0",
-        "duration": 15,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "unlimited": true,
-        "credits_cost": 0,
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "board_name": "My First Board"
-      },
-      {
-        "task_id": "8c6d92662d1043c7a651168b2b8280ae",
-        "status": "init",
-        "gmtCreate": "2026-11-11 19:59:15",
-        "model": "Seedance 2.0",
-        "duration": 15,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "unlimited": true,
-        "credits_cost": 0,
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "board_name": "My First Board"
-      },
-      {
-        "task_id": "1dcb6fa0628d41b098227ca6c96f1630",
-        "status": "init",
-        "gmtCreate": "2026-11-10 11:13:10",
-        "model": "Seedance 2.0",
-        "duration": 15,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "unlimited": true,
-        "credits_cost": 0,
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "board_name": "My First Board"
-      },
-      {
-        "task_id": "a1330998d39b486e864ed4e22b4fe8c4",
-        "status": "init",
-        "gmtCreate": "2026-11-10 10:45:01",
-        "model": "Seedance 2.0",
-        "duration": 15,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "unlimited": true,
-        "credits_cost": 0,
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "board_name": "My First Board"
-      },
-      {
-        "task_id": "3a09108c8c474a0989118806b4a69f91",
-        "status": "init",
-        "gmtCreate": "2026-11-10 03:11:50",
-        "model": "Seedance 2.0",
-        "duration": 15,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "unlimited": true,
-        "credits_cost": 0,
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "board_name": "My First Board"
-      }
-    ]
-  },
-  "queue_reconciliation": {
-    "status": "verified",
-    "queue_items": 63,
-    "states": {
-      "blocked_owner_decision": 1,
-      "waiting_for_slot": 26,
-      "submitted": 30,
-      "completed": 3,
-      "blocked_inputs": 3
-    },
-    "transitional_claims": 0,
-    "submitted_task_ids": 30,
-    "submitted_task_ids_found": 30,
-    "source_queue_sha256": "92e5bd1d8eefc604d634fb24d7c81349dcd69a411193b37d338e4e15be70b0e8",
-    "readiness_source_sha256_match": true,
-    "readiness_checked_at": "2026-11-14T03:10:36.482395Z",
-    "checked_at": "2026-11-14T03:57:17.136Z"
-  },
-  "owner_tasks_check": {
-    "open": 0,
-    "taken": 0
-  },
-  "work_capacity_check": {
-    "preferred_executor": "work",
-    "route_generation": 3,
-    "state": "restored_verified",
-    "restoration_changed": false,
-    "note": "No route change; existing restoration evidence retained. This cycle does not claim a fresh GUI/quota verification."
-  },
-  "results_check": {
-    "new_terminal_from_active_set": 0,
-    "scene28_new_result_available": false,
-    "note": "The same six task IDs remain init; no newly available result required QC or download."
-  },
-  "maintenance_phases": {
-    "phase_a": {
-      "due": false,
-      "reason": "Current cycle is 06:55 MSK; Phase A runs at 09:55, 14:55 and 20:55."
-    },
-    "phase_b": {
-      "due": false,
-      "reason": "Current cycle is 06:55 MSK; Phase B runs at 09:55, 14:55 and 20:55."
-    },
-    "phase_c": {
-      "due": false,
-      "reason": "Saturday, not Sunday 08:55 MSK."
-    }
-  },
-  "expenses": {
-    "topview_credits": 0,
-    "external_usd": 0
-  },
-  "completed_at": "2026-11-14T03:57:39.024Z",
-  "source_head_final": "ad1728a29f5337044768cbfa164203e8b21301d7"
+  }
 }
