@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-14T00:30:28Z",
+  "checked_at": "2026-11-14T00:40:29Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -67,8 +67,8 @@
       "model": "Seedance 2.0",
       "scene_id": 51,
       "mapping": "task_map",
-      "queue_count": 3170,
-      "wait_seconds": 136871,
+      "queue_count": 3154,
+      "wait_seconds": 136269,
       "process_seconds": null
     },
     {
@@ -80,8 +80,8 @@
       "model": "Seedance 2.0",
       "scene_id": 49,
       "mapping": "task_map",
-      "queue_count": 1583,
-      "wait_seconds": 50470,
+      "queue_count": 1563,
+      "wait_seconds": 49869,
       "process_seconds": null
     },
     {
@@ -93,8 +93,8 @@
       "model": "Seedance 2.0",
       "scene_id": 51,
       "mapping": "task_map",
-      "queue_count": 3891,
-      "wait_seconds": 180070,
+      "queue_count": 3876,
+      "wait_seconds": 179469,
       "process_seconds": null
     },
     {
@@ -106,8 +106,8 @@
       "model": "Seedance 2.0",
       "scene_id": 51,
       "mapping": "task_map",
-      "queue_count": 2439,
-      "wait_seconds": 93670,
+      "queue_count": 2424,
+      "wait_seconds": 93068,
       "process_seconds": null
     },
     {
@@ -119,8 +119,8 @@
       "model": "Seedance 2.0",
       "scene_id": 48,
       "mapping": "task_map",
-      "queue_count": 5477,
-      "wait_seconds": 275111,
+      "queue_count": 5462,
+      "wait_seconds": 274508,
       "process_seconds": null
     },
     {
@@ -132,8 +132,8 @@
       "model": "Seedance 2.0",
       "scene_id": null,
       "mapping": "unknown_new",
-      "queue_count": 4612,
-      "wait_seconds": 223270,
+      "queue_count": 4597,
+      "wait_seconds": 222668,
       "process_seconds": null
     }
   ],
@@ -161,7 +161,7 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-11-13T23:40:33Z",
-    "monitor_age_minutes": 50,
+    "monitor_age_minutes": 60,
     "monitor_occupied": 6,
     "robot_occupied": 6,
     "consistent": true,
