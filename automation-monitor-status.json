@@ -454,7 +454,6 @@
       "S28-A1-R2-20261025",
       "S28-A2-R2-20261025",
       "S28-A13-20261030",
-      "S89A-WAN30",
       "S89B-WAN30",
       "S89C-WAN30",
       "S89D-WAN30",
@@ -476,6 +475,6 @@
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
     "escalation_attempted_episode": "a3e98072",
-    "checked_at": "2026-11-14T21:40:33Z"
+    "checked_at": "2026-11-14T21:50:40Z"
   }
 }
