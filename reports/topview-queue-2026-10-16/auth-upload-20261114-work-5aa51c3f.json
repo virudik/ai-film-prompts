@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-11-14T21:23:52+00:00",
+  "project": "seregius",
+  "item_id": "S89A-WAN30",
+  "source_head": "e088d099596ccffa2db6e52a43a4b13cfc83cdfd",
+  "owner_command": "Продолжай. Запускай по согласованной очереди",
+  "authentication": {
+    "secure_form_requested": true,
+    "request_result": "tool_aborted_by_user; no credential values observed",
+    "verified_signed_in": true,
+    "verification": "Fresh Topview target-origin tab 9 rendered account name Виталик Рудик, then My First Board with План Ultra and owned tasks",
+    "target_origin": "https://www.topview.ai",
+    "current_session_persistence": "unknown after later tab closure"
+  },
+  "global_scan": {
+    "checked_at": "2026-11-14T21:02:24.994Z",
+    "complete": true,
+    "boards": 14,
+    "video_tasks": 675,
+    "pages": 19,
+    "occupied_slots": 5,
+    "free_slots": 1,
+    "active_task_ids": [
+      "bfdb6d9fad7a4ab29492f7bb95c78033",
+      "d775c7a483a44f13ba1704a1c418b208",
+      "8c6d92662d1043c7a651168b2b8280ae",
+      "1dcb6fa0628d41b098227ca6c96f1630",
+      "a1330998d39b486e864ed4e22b4fe8c4"
+    ],
+    "not_a_current_capacity_guarantee": true
+  },
+  "inputs": {
+    "canonical_prompt_sha256": "357829d4234a54a5d6a4d1fa89f7095d136585eb64f037e390774fb974f1d2a0",
+    "normalized_prompt_sha256": "503380bb45912f1436ffe058ca329715997ab2843b80afd7a230eace2deab583",
+    "all_five_local_input_sha256_match": true,
+    "references": [
+      {
+        "slot": "@Image1",
+        "required": true,
+        "input_status": "available",
+        "primary_storage": "google_drive",
+        "drive_file_id": "1b3oDLTTIniwoCmLLm35XStUlh6mxq8Kd",
+        "web_view_link": "https://drive.google.com/file/d/1b3oDLTTIniwoCmLLm35XStUlh6mxq8Kd/view",
+        "sha256": "5d4278cbe789319165be27ff1e9a15a9f494e576b8c3a4830083b2064c9989ac",
+        "bytes": 12687056,
+        "width": 2752,
+        "height": 1536,
+        "note": "Council plate a7c9e3ba Image1. Not in git (12.6 MB). Download this Drive file and verify sha256 before upload. Do not substitute a smaller preview."
+      },
+      {
+        "slot": "@Image2",
+        "path": "references/scenes/scene-89/shared/jedi2-artem-scene.png",
+        "required": true,
+        "input_status": "available",
+        "sha256": "bf99a0d68b6bf1f8795dc13b4662d5ce72c61a2d4e24490bfd4ddfc8c53760e4"
+      },
+      {
+        "slot": "@Image3",
+        "path": "references/scenes/scene-89/shared/jedi1-ilyusha-scene.png",
+        "required": true,
+        "input_status": "available",
+        "sha256": "f308cb384704d43eb6f4db5bb9425d4ade6be930710e90d3fc4277d9995f07c4"
+      },
+      {
+        "slot": "@Image4",
+        "path": "references/full/artem.jpg",
+        "required": true,
+        "input_status": "available",
+        "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba"
+      },
+      {
+        "slot": "@Image5",
+        "path": "references/full/ilyusha.jpg",
+        "required": true,
+        "input_status": "available",
+        "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b"
+      }
+    ],
+    "local_input_directory": "/workspace/shared/seregius-89a",
+    "local_cache_not_canon": true
+  },
+  "ui_observation": {
+    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "board_name": "My First Board",
+    "model": "Wan 3.0",
+    "duration_seconds": 30,
+    "resolution": 720,
+    "aspect_ratio": "16:9",
+    "quantity": 1,
+    "ui_unlimited_label": "Безлимитный режим — бесплатно",
+    "unlimited_mode_selected": true,
+    "numeric_zero_displayed": false,
+    "credits_cost": 0,
+    "credits_cost_evidence": "selected_free_unlimited_current_form",
+    "complete_form_preflight": false
+  },
+  "upload": {
+    "attempted_slot": "@Image1",
+    "file": "Image1.png",
+    "file_bytes": 12687056,
+    "sha256": "5d4278cbe789319165be27ff1e9a15a9f494e576b8c3a4830083b2064c9989ac",
+    "method": "documented browser filechooser from Import",
+    "result": "tool aborted by user after 916.3 seconds; upload completion not observed",
+    "later_observation": "Tab 9 not found",
+    "safe_next_action": "Inspect a fresh signed-in board before any new import; previous Create was never invoked"
+  },
+  "coordination": {
+    "foreign_lease_seen": "chatgpt:ordinary:7664d92f-63b0-4b7d-b6c7-a88dc7d5a47e",
+    "lease_respected": true,
+    "foreground_session_unchanged": true,
+    "route_generation_unchanged": true
+  },
+  "claim_count": 0,
+  "intent_count": 0,
+  "create_click_count": 0,
+  "new_task_ids": [],
+  "outcome": "blocked_browser_upload_interrupted",
+  "retry_in_this_cancelled_operation": false,
+  "next_action": "Restore current browser page, fresh main/decisions/full global scan, finish exact five-input upload and prompt equality verification, own lease/CAS claim+intent then one Create only when full preflight passes."
+}

@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-14T21:13:36+00:00",
-  "source_head": "35471135dba6bc02a959238d81df99e6f52baa47",
-  "source_fingerprint": "5f7282a16bb5ee03572e5e9716ac047ea0e5398ec18be7e96284206c838741d5",
-  "status": "needs_recovery",
-  "ready_for_resume": false,
+  "checked_at": "2026-11-14T21:24:10+00:00",
+  "source_head": "e088d099596ccffa2db6e52a43a4b13cfc83cdfd",
+  "source_fingerprint": "ee05f776adc3f59144976ffc8ec12df9109b7eec8931d7ba28fbc14f02eddd5f",
+  "status": "ready",
+  "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "work-continue-20261114-33406175",
@@ -30,11 +30,35 @@
     },
     "source_head": "dbfceb4042d0c9caea4b9e53ae77336b4e6ad6f5"
   },
-  "reasons": [
-    "selected checkpoint hash mismatch"
-  ],
-  "selected_work": null,
-  "checkpoint_text": "# 14.11.2026 — Work: очередь проверена, запуск ожидает входа Topview\n\nwork_id: SEREGIUS-SHIFT-20261113-T611U\n\n- Команда владельца: «Продолжай. Запускай по согласованной очереди». Приём короткий D7; fresh main dbfceb4042d0c9caea4b9e53ae77336b4e6ad6f5, ready_for_short=true, ready_for_resume=true, 15/15 правил.\n- Последний подтверждённый этап: Work выполнил короткий D7: 15/15 правил и SHA источников совпали. Полный read-only скан 14 досок/675 видеозадач в 19:59:04Z: 5/6 занято. Следующий S89A-WAN30; новых claim/intent/Create нет. Существующая часовая страховка снова включена и перечитана через Automations.\n- Проверены live project/instruction/automation/monitor status, canon lock, owner-tasks (открытых нет), Supabase owner_decisions (pending/in_progress нет; историческая needs_owner to:grok не менялась). monitor_role=skip, робот здоров; телеметрия/heartbeat не переписывались.\n- Точный результат скана и активные task IDs: reports/topview-queue-2026-10-16/preflight-20261114-work-33406175.json. Все 19 страниц прочитаны, одно физическое свободное место на момент скана.\n- Блокер этого Work: сайт Topview показывает «Войти», форма входа остаётся открытой. Browser control доступен, авторизованная форма генерации отсутствует. Защищённый запрос входа сначала вернул locator_invalid, исправленный завершился таймаутом; секреты не читались и не вводились агентом. Claim/intent/Create=0; платный обход не применялся.\n- HH:55 6acae6ab433481919e88665c520b8ef2 фактически была disabled. По действующему поручению владельца снова включена 20:01:16Z, Automations.peek подтверждает is_enabled=true, прежнее расписание и prompt сохранены. Возвращаемый next_run_time устарел; будущий успешный запуск не объявляется.\n- Foreground Work epoch 6→7 передан этому session_id chatgpt-work-continue-33406175-4e23-4eca-8906-26de4724d255; ordinary/Grok, route_generation=3, очередь, task IDs и retry budgets сохранены.\n- Следующий шаг: Восстановить вход Topview в открытой вкладке встроенного браузера этого Work-чата. Затем новый полный скан всех досок, свежий main/lease и проверка дублей; для S89A-WAN30 скачать точные пять исходников, сверить SHA/master и Unlimited/720p/16:9/quantity1/0 credits, CAS-claim/intent/readback и один Create. Продолжать по живой очереди при свободных слотах. Уже submitted S48-P4-R2 и S51E/F/G не повторять. Проверить следующий реальный цикл возобновлённой HH:55 страховки; enabled не доказывает вход или запуск.\n\nchecked_at: 2026-11-14T20:02:31+00:00\n\n\n\n<!-- relay-current-start -->\nRelay #678 · 2026-11-14T20:32:12.935Z · slots:a3e98072:68 · blocked_browser, retryable=true. Fresh полный скан: 14 досок / 19 страниц / 1059 задач, занято 5/6; готов S89A-WAN30. Master raw/normalized SHA совпали, пять входов и порядок учтены. Браузер дважды, с паузой 45 с, потребовал исходный контекст; native upload, Wan 3.0 Unlimited0 и цена0 не подтверждены. claim/intent/Create=0. Следующий настоящий wake/плановый цикл повторяет браузерный доступ и полный preflight; next_action/recovery не менялись. Квитанция: reports/topview-event-wake.json.\n<!-- relay-current-end -->\n",
+  "reasons": [],
+  "selected_work": {
+    "work_id": "SEREGIUS-SHIFT-20261113-T611U",
+    "title": "Смена 13.11 t611u: очередь 48.4 и 89, отзыв по версиям Grok",
+    "status": "blocked_browser",
+    "last_completed": "Вход Topview подтверждён на свежей странице с аккаунтом владельца. Промпт S89A-WAN30 и все пять локальных исходников совпали по SHA с каноном. Выбраны Wan 3.0 / 30с / 720p / 16:9 / 1 / «Безлимитный режим — бесплатно». Загрузка первого референса прервана; вкладка затем недоступна. claim/intent/Create=0, видео не отправлено.",
+    "next_action": "Продолжить S89A-WAN30: проверить сохранение входа в свежей вкладке Topview и состояние импорта; прежний вызов загрузки прерван, Create никогда не вызывался. Взять точные исходники из канона/Drive (локальный кэш /workspace/shared/seregius-89a использовать только после повторной SHA-проверки), загрузить пять файлов по порядку и полный промпт. Затем fresh main/owner_decisions, полный свежий скан всех досок, свой замок, UI Unlimited0/720p/16:9/1, CAS-claim+intent/readback и один Create. Не повторять уже submitted S48-P4-R2 и S51E/F/G. При свободной ёмкости продолжать живую очередь.",
+    "verified_at": "2026-11-14T21:23:52+00:00",
+    "blockers": [
+      "Authentication was verified, but exact-file upload was interrupted and the browser tab disappeared; no Create."
+    ],
+    "evidence": [
+      {
+        "file": "reports/topview-queue-2026-10-16/auth-upload-20261114-work-5aa51c3f.json",
+        "sha256": "83ffa2c570d483fa9984612fd55187ee983d29bb83e9ac2184ce63d6edc80c9f"
+      }
+    ],
+    "read_next": [
+      "ops/topview-launch-queue.json",
+      "ops/TOPVIEW-FREE-LAUNCH.md",
+      "reports/current-work-checkpoint.md"
+    ],
+    "checkpoint": {
+      "file": "reports/current-work-checkpoint.md",
+      "anchor": "# 14.11.2026 — Work: вход подтверждён, загрузка 89A прервана до Create",
+      "sha256": "2c160d386865e4856993c8600aedb884275900cfca94b68acea1bd820310e40a"
+    }
+  },
+  "checkpoint_text": "# 14.11.2026 — Work: вход подтверждён, загрузка 89A прервана до Create\n\nwork_id: SEREGIUS-SHIFT-20261113-T611U\n\n- Команда владельца сохраняется: «Продолжай. Запускай по согласованной очереди»; затем «Дай форму ввода пароля».\n- Последний подтверждённый этап: Вход Topview подтверждён на свежей странице с аккаунтом владельца. Промпт S89A-WAN30 и все пять локальных исходников совпали по SHA с каноном. Выбраны Wan 3.0 / 30с / 720p / 16:9 / 1 / «Безлимитный режим — бесплатно». Загрузка первого референса прервана; вкладка затем недоступна. claim/intent/Create=0, видео не отправлено.\n- Полный скан 21:02:24Z: 14 досок, 19 страниц, 675 видео, занято 5/6. Это исторический снимок, перед отправкой скан обязателен заново.\n- Внешняя lease ordinary была соблюдена; очередь, budgets, task IDs и foreground не изменялись. Робот остаётся primary; monitor_role=skip, heartbeat не писался.\n- Импорт @Image1 документированным filechooser завершился «aborted by user»; последующее чтение вкладки 9 — Tab not found. Успешная загрузка не подтверждена. Нельзя выдавать подготовленную форму за запущенный ролик.\n- Доказательства: reports/topview-queue-2026-10-16/auth-upload-20261114-work-5aa51c3f.json. Промпт и исходники не изменены.\n- Причина прежнего несовпадения recovery SHA проверена по diff: Relay #678 обновил свой блок внутри прежнего checkpoint. Текущий этап привязан к отдельному новому верхнему разделу; правила D7 и скрипты не менялись.\n- Следующий шаг: Продолжить S89A-WAN30: проверить сохранение входа в свежей вкладке Topview и состояние импорта; прежний вызов загрузки прерван, Create никогда не вызывался. Взять точные исходники из канона/Drive (локальный кэш /workspace/shared/seregius-89a использовать только после повторной SHA-проверки), загрузить пять файлов по порядку и полный промпт. Затем fresh main/owner_decisions, полный свежий скан всех досок, свой замок, UI Unlimited0/720p/16:9/1, CAS-claim+intent/readback и один Create. Не повторять уже submitted S48-P4-R2 и S51E/F/G. При свободной ёмкости продолжать живую очередь.\n\nchecked_at: 2026-11-14T21:23:52+00:00\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -127,7 +151,11 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [],
+  "read_next": [
+    "ops/topview-launch-queue.json",
+    "ops/TOPVIEW-FREE-LAUNCH.md",
+    "reports/current-work-checkpoint.md"
+  ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -586,13 +614,18 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "c4b643ebccb300833412e612b353cc7c8dcaa97e9d2a4ad570ad1c3c6dd0332a",
-      "bytes": 19823
+      "sha256": "a4a74b5e07c4e95e130011877b385e956b5b7c5726bee7aa9dc9f5dd3083b590",
+      "bytes": 23080
     },
     {
       "file": "reports/handoff-receipts.json",
       "sha256": "3a80f5dc81de355bed3443f68f1a6878f7dd40f6feaf83315f7c43321ebd7737",
       "bytes": 85061
+    },
+    {
+      "file": "reports/topview-queue-2026-10-16/auth-upload-20261114-work-5aa51c3f.json",
+      "sha256": "83ffa2c570d483fa9984612fd55187ee983d29bb83e9ac2184ce63d6edc80c9f",
+      "bytes": 4918
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -611,9 +644,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "c7debf42b69455e52997e69b0e38e69186227f73533aa4dc95f3423405c982a3",
-      "bytes": 98555
+      "sha256": "a83855ead58fedc10bc3a830a7cb6ea1cd7caf61461e718cf1fce469e5607119",
+      "bytes": 99007
     }
   ],
-  "packet_bytes": 8316
+  "packet_bytes": 8727
 }

@@ -1,30 +1,30 @@
 {
  "schema_version": 1,
  "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
- "last_updated_at": "2026-11-14T20:32:12.935Z",
+ "last_updated_at": "2026-11-14T21:23:52+00:00",
  "active_work": [
   {
    "work_id": "SEREGIUS-SHIFT-20261113-T611U",
    "project": "seregius",
    "title": "Смена 13.11 t611u: очередь 48.4 и 89, отзыв по версиям Grok",
-   "status": "waiting_for_owner",
+   "status": "blocked_browser",
    "created_at": "2026-11-13T14:05:00Z",
-   "updated_at": "2026-11-14T20:32:12.935Z",
-   "next_action": "Восстановить вход Topview в открытой вкладке встроенного браузера этого Work-чата. Затем новый полный скан всех досок, свежий main/lease и проверка дублей; для S89A-WAN30 скачать точные пять исходников, сверить SHA/master и Unlimited/720p/16:9/quantity1/0 credits, CAS-claim/intent/readback и один Create. Продолжать по живой очереди при свободных слотах. Уже submitted S48-P4-R2 и S51E/F/G не повторять. Проверить следующий реальный цикл возобновлённой HH:55 страховки; enabled не доказывает вход или запуск.",
+   "updated_at": "2026-11-14T21:23:52+00:00",
+   "next_action": "Продолжить S89A-WAN30: проверить сохранение входа в свежей вкладке Topview и состояние импорта; прежний вызов загрузки прерван, Create никогда не вызывался. Взять точные исходники из канона/Drive (локальный кэш /workspace/shared/seregius-89a использовать только после повторной SHA-проверки), загрузить пять файлов по порядку и полный промпт. Затем fresh main/owner_decisions, полный свежий скан всех досок, свой замок, UI Unlimited0/720p/16:9/1, CAS-claim+intent/readback и один Create. Не повторять уже submitted S48-P4-R2 и S51E/F/G. При свободной ёмкости продолжать живую очередь.",
    "recovery": {
     "schema_version": 1,
-    "verified_at": "2026-11-14T20:04:15+00:00",
-    "last_completed": "Work выполнил короткий D7: 15/15 правил и SHA источников совпали. Полный read-only скан 14 досок/675 видеозадач в 19:59:04Z: 5/6 занято. Следующий S89A-WAN30; новых claim/intent/Create нет. Существующая часовая страховка снова включена и перечитана через Automations.",
-    "next_action": "Восстановить вход Topview в открытой вкладке встроенного браузера этого Work-чата. Затем новый полный скан всех досок, свежий main/lease и проверка дублей; для S89A-WAN30 скачать точные пять исходников, сверить SHA/master и Unlimited/720p/16:9/quantity1/0 credits, CAS-claim/intent/readback и один Create. Продолжать по живой очереди при свободных слотах. Уже submitted S48-P4-R2 и S51E/F/G не повторять. Проверить следующий реальный цикл возобновлённой HH:55 страховки; enabled не доказывает вход или запуск.",
+    "verified_at": "2026-11-14T21:23:52+00:00",
+    "last_completed": "Вход Topview подтверждён на свежей странице с аккаунтом владельца. Промпт S89A-WAN30 и все пять локальных исходников совпали по SHA с каноном. Выбраны Wan 3.0 / 30с / 720p / 16:9 / 1 / «Безлимитный режим — бесплатно». Загрузка первого референса прервана; вкладка затем недоступна. claim/intent/Create=0, видео не отправлено.",
+    "next_action": "Продолжить S89A-WAN30: проверить сохранение входа в свежей вкладке Topview и состояние импорта; прежний вызов загрузки прерван, Create никогда не вызывался. Взять точные исходники из канона/Drive (локальный кэш /workspace/shared/seregius-89a использовать только после повторной SHA-проверки), загрузить пять файлов по порядку и полный промпт. Затем fresh main/owner_decisions, полный свежий скан всех досок, свой замок, UI Unlimited0/720p/16:9/1, CAS-claim+intent/readback и один Create. Не повторять уже submitted S48-P4-R2 и S51E/F/G. При свободной ёмкости продолжать живую очередь.",
     "checkpoint": {
      "file": "reports/current-work-checkpoint.md",
-     "anchor": "# 14.11.2026 — Work: очередь проверена, запуск ожидает входа Topview",
-     "sha256": "38ed7a26da2e9b86e7523c27c25ca7e8b898be6d2b39665e194283098b67376d"
+     "anchor": "# 14.11.2026 — Work: вход подтверждён, загрузка 89A прервана до Create",
+     "sha256": "2c160d386865e4856993c8600aedb884275900cfca94b68acea1bd820310e40a"
     },
     "evidence": [
      {
-      "file": "reports/topview-queue-2026-10-16/preflight-20261114-work-33406175.json",
-      "sha256": "fbb7f6ffe2a4b2ae324a059c7681a0f82258df250a7e6ea306274757209cbd04"
+      "file": "reports/topview-queue-2026-10-16/auth-upload-20261114-work-5aa51c3f.json",
+      "sha256": "83ffa2c570d483fa9984612fd55187ee983d29bb83e9ac2184ce63d6edc80c9f"
      }
     ],
     "read_next": [
@@ -33,7 +33,7 @@
      "reports/current-work-checkpoint.md"
     ],
     "blockers": [
-     "Topview login required in current Work cloud browser; generation UI/preflight unavailable before authentication."
+     "Authentication was verified, but exact-file upload was interrupted and the browser tab disappeared; no Create."
     ]
    },
    "last_takeover": {
@@ -62,7 +62,12 @@
     "new_submissions": 0,
     "task_ids": []
    },
-   "current_blocker": "Fresh Relay #678 scan verified 5/6 and ready S89A-WAN30, but this webhook browser lacked its originating authorized context on both read-only attempts; native exact-file UI preflight, Unlimited0 and price0 remain unverified. claim/intent/Create=0."
+   "current_blocker": "Authentication was verified, but exact-file upload was interrupted and the browser tab disappeared; no Create.",
+   "last_authentication_check": {
+    "at": "2026-11-14T21:23:52+00:00",
+    "result": "signed_in_observed_before_upload_interruption",
+    "evidence": "reports/topview-queue-2026-10-16/auth-upload-20261114-work-5aa51c3f.json"
+   }
   },
   {
    "work_id": "SEREGIUS-SASHA-PHOTOGRAPHER-20261110",
