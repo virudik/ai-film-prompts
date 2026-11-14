@@ -1,5 +1,5 @@
 <!-- relay-current-start -->
-Relay #674 · 2026-11-14T18:20:16.205Z · slots:a3e98072:66 · blocked_browser, retryable=true. Полный независимый скан: 14 досок / 19 страниц / 1059 задач, занято 5/6; готов S89A-WAN30. Точные raw/normalized SHA промпта совпали, 5 входов учтены. Подключённый браузер дважды не получил исходный контекст, облачный Topview не авторизован; точная загрузка исходников, Wan 3.0 Unlimited0 и цена0 в UI не подтверждены. claim/intent/Create=0. Следующий свежий wake/плановый цикл повторяет доступ и полный preflight. next_action/recovery активной работы сохранены. Квитанция: reports/topview-event-wake.json.
+Relay #676 · 2026-11-14T19:28:43.268Z · slots:a3e98072:67 · blocked_browser, retryable=true. Полный независимый скан: 14 досок / 19 страниц / 1059 задач, занято 5/6; готов S89A-WAN30. Fresh master raw/normalized SHA совпали, все 5 входов учтены. Подключённый браузер дважды, с повтором примерно через минуту, потребовал исходный контекст; точная загрузка исходников, Wan 3.0 Unlimited0 и цена0 в UI не подтверждены. claim/intent/Create=0. Следующий свежий wake/плановый цикл повторяет доступ и полный preflight. next_action/recovery активной работы сохранены. Квитанция: reports/topview-event-wake.json.
 <!-- relay-current-end -->
 
 # 14.11.2026 — D7 ordinary: проверка очереди и передача смены

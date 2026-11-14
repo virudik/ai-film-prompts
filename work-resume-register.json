@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-14T18:43:19.304Z",
+  "last_updated_at": "2026-11-14T19:28:43.268Z",
   "active_work": [
     {
       "work_id": "SEREGIUS-SHIFT-20261113-T611U",
@@ -49,7 +49,21 @@
         "full_intake": true,
         "actual_action": "read-only queue reconciliation and browser capability check; no Create",
         "status_unchanged": "waiting_for_owner"
-      }
+      },
+      "last_relay_event": {
+        "event_id": "slots:a3e98072:67",
+        "issue_number": 676,
+        "message_id": "247438235154509824",
+        "relay_event_id": "evt_645fa9fb12114614b6b5aba239fc4969",
+        "checked_at": "2026-11-14T19:28:43.268Z",
+        "outcome": "blocked_browser",
+        "retryable": true,
+        "execution_instance_id": "d0215a31-506b-4cfc-9d8d-c23dea456355",
+        "route_generation": 3,
+        "new_submissions": 0,
+        "task_ids": []
+      },
+      "current_blocker": "Topview website browser required originating browser context on two attempts; exact five-file native upload and Wan 3.0 Unlimited0/price0 could not be verified. No claim, intent or Create."
     },
     {
       "work_id": "SEREGIUS-SASHA-PHOTOGRAPHER-20261110",
