@@ -11,10 +11,10 @@
   "route_generation": 3,
   "source_head": "effe69f028829b93db2ef25136538f171d3f3d17",
   "started_at": "2026-11-14T02:08:05.701Z",
-  "updated_at": "2026-11-14T02:08:59.667Z",
+  "updated_at": "2026-11-14T02:11:36.055Z",
   "checked_at": "2026-11-14T02:05:43.440Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "completed",
+  "status": "completed",
   "scan_complete": true,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -43,7 +43,8 @@
     "acquired_at": "2026-11-14T02:08:05.701Z",
     "expires_at": "2026-11-14T02:23:05.701Z",
     "acquired_commit": "e2c74fc2020d85f3a38a7fb26652736bc983b18c",
-    "released": false
+    "released": true,
+    "released_at": "2026-11-14T02:11:36.055Z"
   },
   "outcome": "no_free_slot",
   "blocker": null,
@@ -51,5 +52,81 @@
   "expenses": {
     "tinyfish_usd": 0,
     "topview_credits": 0
-  }
+  },
+  "completed_at": "2026-11-14T02:11:36.055Z",
+  "execution": {
+    "state": "completed",
+    "stage": "no_free_slot",
+    "updated_at": "2026-11-14T02:11:36.055Z"
+  },
+  "scan": {
+    "source": "Topview connector read-only",
+    "all_boards_scanned": 14,
+    "pages_scanned": 19,
+    "unique_video_tasks": 675,
+    "success": 642,
+    "fail": 27,
+    "active": 6,
+    "scan_complete": true,
+    "active_task_board": "My First Board",
+    "active_model": "Seedance 2.0",
+    "active_duration_seconds": 15,
+    "active_resolution": "720p",
+    "active_aspect_ratio": "16:9",
+    "active_unlimited": true,
+    "active_topview_credit_cost": 0,
+    "scanned_at": "2026-11-14T02:02:21.633Z"
+  },
+  "queue_reconciliation": {
+    "status": "sha_verified_no_create",
+    "queue_items": 63,
+    "readiness_items": 30,
+    "readiness_ready": 26,
+    "transitionals": 0,
+    "queue_submitted_completed_task_ids": 33,
+    "task_map_processed_count": 139,
+    "processed_all_found_in_main_board": true,
+    "queue_submitted_all_found_in_main_board": true,
+    "source_queue_sha256": "92e5bd1d8eefc604d634fb24d7c81349dcd69a411193b37d338e4e15be70b0e8",
+    "source_task_map_sha256": "68de68e227f7c1a645a5dbe198ab08efbe80af1c79800ed8fe22328408a3265c",
+    "sha256_match_independently_verified": true,
+    "checked_at": "2026-11-14T02:05:43.440Z",
+    "historical_unknown_note": "Historical S49B unknown remains historical; never repeated."
+  },
+  "peer_reconciliation": {
+    "ordinary_automation_enabled": true,
+    "ordinary_current_run_id": "bbe18130-6f10-8324-a619-ba7bf889dadf",
+    "ordinary_latest_result_run_id": "b0129caa-fb98-832d-b4a0-2cf046341684",
+    "work_hh55_enabled": true,
+    "work_hh55_runtime_run_id": "da5c2cdb-6164-832e-a3d3-f6c1b9e8e00b",
+    "work_hh55_runtime_status": "completed",
+    "relay_handler_enabled": true,
+    "relay_runtime_run_id": "cf95fc42-67c8-832e-9995-dd98919c4e09",
+    "stale_issues_not_counted_as_capacity": true
+  },
+  "owner_tasks_check": {
+    "open": 0,
+    "taken": 0
+  },
+  "work_capacity_check": {
+    "preferred_executor": "work",
+    "route_generation": 3,
+    "note": "Verified Work restoration evidence remains in canonical registry from 2026-11-02; no fresh proof of Work GUI/quota in this ordinary read-only cycle; no route change."
+  },
+  "results_check": {
+    "topview_six_active_tasks_verified": true,
+    "all_active_parameters_match": true,
+    "full_ui_preflight": false,
+    "topview_task_created_this_run": false
+  },
+  "acceptance": {
+    "scheduled_ordinary_real_execution": true,
+    "topview_read_only_complete": true,
+    "tinyfish_saved_login_test_from_history_only": true,
+    "tinyfish_run_this_cycle": false,
+    "actual_file_upload_this_cycle": false,
+    "actual_unlimited_ui_preflight_this_cycle": false,
+    "production_create_verified_this_cycle": false
+  },
+  "source_head_pre_final": "f9420765cf018692566fb56d6b1dd89996a5dafb"
 }
