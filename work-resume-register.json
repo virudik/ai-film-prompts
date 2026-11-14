@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-14T14:51:12.346Z",
+  "last_updated_at": "2026-11-14T15:22:23.994Z",
   "active_work": [
     {
       "work_id": "SEREGIUS-SHIFT-20261113-T611U",
@@ -210,48 +210,47 @@
         "unknown_submissions": 0
       },
       "last_relay_event": {
-        "event_id": "result:3a09108c8c474a0989118806b4a69f91",
-        "issue_number": 665,
-        "message_id": "247370197195157504",
-        "relay_event_id": "evt_88a01af545340c29f6df6670d8785667",
-        "checked_at": "2026-11-14T14:50:59.750Z",
+        "event_id": "slots:a3e98072:62",
+        "issue_number": 666,
+        "message_id": "247377691159568384",
+        "relay_event_id": "evt_5ddd32db23c2d52f67dae9d6f859bd3f",
+        "checked_at": "2026-11-14T15:22:04.684Z",
         "outcome": "blocked_browser",
-        "reason": "Topview read-only connector UNAUTHORIZED: reauthentication required. Browser originating context unavailable in two attempts about one minute apart. No independent complete scan or result verification possible; no claim, intent or Create.",
+        "reason": "Topview connector requires reauthentication; originating browser context unavailable in two read-only attempts. Independent complete all-board scan unavailable; robot slot count not used as Create authority. No claim/intent/Create.",
         "task_ids": [],
         "retryable": true,
         "source": "Agent Relay webhook",
         "runner": "chatgpt_event_trigger",
-        "execution_instance_id": "d7daaaf5-132d-4e62-bb8b-b3a9a9f2d268",
+        "execution_instance_id": "c40f5b66-c47b-4bfb-84ba-02b6b2639f9d",
         "route_generation": 3,
         "run_id": null,
         "run_id_reason": "Runtime run_id not exposed",
         "execution": {
           "state": "blocked",
           "stage": "blocked_browser",
-          "started_at": "2026-11-14T14:43:47.775Z",
-          "updated_at": "2026-11-14T14:50:59.750Z",
-          "finished_at": "2026-11-14T14:50:59.750Z"
+          "started_at": "2026-11-14T15:16:07.458Z",
+          "updated_at": "2026-11-14T15:22:04.684Z",
+          "finished_at": "2026-11-14T15:22:04.684Z"
         },
         "new_submissions": 0,
-        "referenced_result_task_id": "3a09108c8c474a0989118806b4a69f91",
-        "scan_complete": false,
-        "occupied_slots": null,
-        "free_slots": null,
         "browser_attempts": [
           {
-            "at": "2026-11-14T14:49:40.091Z",
+            "at": "2026-11-14T15:20:42.939Z",
             "reason": "originating_browser_context_required"
           },
           {
-            "at": "2026-11-14T14:50:45.958Z",
+            "at": "2026-11-14T15:21:51.746Z",
             "reason": "originating_browser_context_required"
           }
         ],
         "connector_error": "UNAUTHORIZED: reauthentication required",
-        "next_action": "Next genuine wake/hourly/ordinary run rechecks authorized access, reconciles preserved submissions and result task, then performs a fresh full slot scan before UI preflight. No Continue required.",
+        "scan_complete": false,
+        "occupied_slots": null,
+        "free_slots": null,
+        "next_action": "Next genuine wake/hourly/ordinary run rechecks authorized access, reconciles all preserved task IDs (including S49B/S51E/S51F/S51G mappings and unmapped d775c7a483a44f13ba1704a1c418b208), then full slot scan and UI preflight; no Continue needed.",
         "retention": {
           "outcome": "checked_no_transfer",
-          "checked_at": "2026-11-14T14:51:12.345Z"
+          "checked_at": "2026-11-14T15:22:23.993Z"
         }
       },
       "last_observed_topview": {
@@ -371,7 +370,7 @@
           "preflight": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown."
         }
       },
-      "current_blocker": "Topview read-only connector UNAUTHORIZED: reauthentication required. Browser originating context unavailable in two attempts about one minute apart. No independent complete scan or result verification possible; no claim, intent or Create.",
+      "current_blocker": "Topview connector requires reauthentication; originating browser context unavailable in two read-only attempts. Independent complete all-board scan unavailable; robot slot count not used as Create authority. No claim/intent/Create.",
       "retry_policy": "ops/TOPVIEW-RETRY.md",
       "retry_policy_receipt": "reports/topview-retry-policy-2026-10-30.json",
       "last_continuation_preflight_report": "reports/ordinary-launcher-recovery-2026-11-01.json",

@@ -1379,9 +1379,9 @@
       "issue_number": 666,
       "message_id": "247377691159568384",
       "relay_event_id": "evt_5ddd32db23c2d52f67dae9d6f859bd3f",
-      "checked_at": "2026-11-14T15:20:55.226Z",
-      "outcome": "started",
-      "reason": "Topview connector UNAUTHORIZED; originating browser unavailable on first attempt. Existing submissions retained; live reconciliation unavailable.",
+      "checked_at": "2026-11-14T15:22:04.684Z",
+      "outcome": "blocked_browser",
+      "reason": "Topview connector requires reauthentication; originating browser context unavailable in two read-only attempts. Independent complete all-board scan unavailable; robot slot count not used as Create authority. No claim/intent/Create.",
       "task_ids": [],
       "retryable": true,
       "source": "Agent Relay webhook",
@@ -1391,12 +1391,32 @@
       "run_id": null,
       "run_id_reason": "Runtime run_id not exposed",
       "execution": {
-        "state": "started",
-        "stage": "browser_access",
+        "state": "blocked",
+        "stage": "blocked_browser",
         "started_at": "2026-11-14T15:16:07.458Z",
-        "updated_at": "2026-11-14T15:20:55.226Z"
+        "updated_at": "2026-11-14T15:22:04.684Z",
+        "finished_at": "2026-11-14T15:22:04.684Z"
       },
-      "new_submissions": 0
+      "new_submissions": 0,
+      "browser_attempts": [
+        {
+          "at": "2026-11-14T15:20:42.939Z",
+          "reason": "originating_browser_context_required"
+        },
+        {
+          "at": "2026-11-14T15:21:51.746Z",
+          "reason": "originating_browser_context_required"
+        }
+      ],
+      "connector_error": "UNAUTHORIZED: reauthentication required",
+      "scan_complete": false,
+      "occupied_slots": null,
+      "free_slots": null,
+      "next_action": "Next genuine wake/hourly/ordinary run rechecks authorized access, reconciles all preserved task IDs (including S49B/S51E/S51F/S51G mappings and unmapped d775c7a483a44f13ba1704a1c418b208), then full slot scan and UI preflight; no Continue needed.",
+      "retention": {
+        "outcome": "checked_no_transfer",
+        "checked_at": "2026-11-14T15:22:23.993Z"
+      }
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
