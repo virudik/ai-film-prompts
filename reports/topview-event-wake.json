@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-06T05:55:16.981Z",
+  "updated_at": "2026-11-14T19:21:30.226Z",
   "status": "relay_production_enabled",
   "event_automation_id": "6adc585e7ac08191bb93825117dc7213",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
@@ -1676,6 +1676,36 @@
         "outcome": "checked_no_transfer",
         "checked_at": "2026-11-14T18:21:13.414Z"
       }
+    },
+    {
+      "event_id": "slots:a3e98072:67",
+      "issue_number": 676,
+      "message_id": "247438235154509824",
+      "relay_event_id": "evt_645fa9fb12114614b6b5aba239fc4969",
+      "checked_at": "2026-11-14T19:21:30.226Z",
+      "outcome": "started",
+      "reason": "Validated fresh Agent Relay event, exact configured sender, bot-authored issue marker/label, no exact live or archived duplicate, and acquired own canon lease by CAS/readback.",
+      "task_ids": [],
+      "retryable": true,
+      "source": "Agent Relay webhook",
+      "runner": "chatgpt_event_trigger",
+      "execution_instance_id": "d0215a31-506b-4cfc-9d8d-c23dea456355",
+      "route_generation": 3,
+      "run_id": null,
+      "run_id_unavailable_reason": "Runtime run_id not exposed by this invocation.",
+      "execution": {
+        "state": "running",
+        "stage": "intake",
+        "started_at": "2026-11-14T19:21:30.226Z",
+        "updated_at": "2026-11-14T19:21:30.226Z",
+        "finished_at": null
+      },
+      "new_submissions": 0,
+      "credits_spent": 0,
+      "observed_at": "2026-11-14T19:10:58Z",
+      "claim_created": false,
+      "submission_intent_created": false,
+      "create_clicked": false
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
