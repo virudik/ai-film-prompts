@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-14T15:22:23.994Z",
+  "last_updated_at": "2026-11-14T15:43:21.727Z",
   "active_work": [
     {
       "work_id": "SEREGIUS-SHIFT-20261113-T611U",
@@ -210,36 +210,36 @@
         "unknown_submissions": 0
       },
       "last_relay_event": {
-        "event_id": "slots:a3e98072:62",
-        "issue_number": 666,
-        "message_id": "247377691159568384",
-        "relay_event_id": "evt_5ddd32db23c2d52f67dae9d6f859bd3f",
-        "checked_at": "2026-11-14T15:22:04.684Z",
+        "event_id": "slots:a3e98072:63",
+        "issue_number": 668,
+        "message_id": "247382729520357376",
+        "relay_event_id": "evt_bf0f07a9b3727d216b43613c257e65fe",
+        "checked_at": "2026-11-14T15:43:06.930Z",
         "outcome": "blocked_browser",
-        "reason": "Topview connector requires reauthentication; originating browser context unavailable in two read-only attempts. Independent complete all-board scan unavailable; robot slot count not used as Create authority. No claim/intent/Create.",
+        "reason": "Topview read-only connector requires reauthentication; originating browser context unavailable in two attempts. No independent complete all-board scan possible. No claim, submission intent or Create.",
         "task_ids": [],
         "retryable": true,
         "source": "Agent Relay webhook",
         "runner": "chatgpt_event_trigger",
-        "execution_instance_id": "c40f5b66-c47b-4bfb-84ba-02b6b2639f9d",
+        "execution_instance_id": "efc4b3f9-abd8-444c-a9ce-bf4af02c7702",
         "route_generation": 3,
         "run_id": null,
         "run_id_reason": "Runtime run_id not exposed",
         "execution": {
           "state": "blocked",
           "stage": "blocked_browser",
-          "started_at": "2026-11-14T15:16:07.458Z",
-          "updated_at": "2026-11-14T15:22:04.684Z",
-          "finished_at": "2026-11-14T15:22:04.684Z"
+          "started_at": "2026-11-14T15:37:52.156Z",
+          "updated_at": "2026-11-14T15:43:06.930Z",
+          "finished_at": "2026-11-14T15:43:06.930Z"
         },
         "new_submissions": 0,
         "browser_attempts": [
           {
-            "at": "2026-11-14T15:20:42.939Z",
+            "at": "2026-11-14T15:41:47.812Z",
             "reason": "originating_browser_context_required"
           },
           {
-            "at": "2026-11-14T15:21:51.746Z",
+            "at": "2026-11-14T15:42:54.780Z",
             "reason": "originating_browser_context_required"
           }
         ],
@@ -247,10 +247,10 @@
         "scan_complete": false,
         "occupied_slots": null,
         "free_slots": null,
-        "next_action": "Next genuine wake/hourly/ordinary run rechecks authorized access, reconciles all preserved task IDs (including S49B/S51E/S51F/S51G mappings and unmapped d775c7a483a44f13ba1704a1c418b208), then full slot scan and UI preflight; no Continue needed.",
+        "next_action": "Next genuine wake/hourly/ordinary run rechecks authorized access, reconciles preserved submitted and unmapped task IDs, and performs a full all-board scan before UI preflight; no Continue needed.",
         "retention": {
           "outcome": "checked_no_transfer",
-          "checked_at": "2026-11-14T15:22:23.993Z"
+          "checked_at": "2026-11-14T15:43:21.727Z"
         }
       },
       "last_observed_topview": {
@@ -370,7 +370,7 @@
           "preflight": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown."
         }
       },
-      "current_blocker": "Topview connector requires reauthentication; originating browser context unavailable in two read-only attempts. Independent complete all-board scan unavailable; robot slot count not used as Create authority. No claim/intent/Create.",
+      "current_blocker": "Topview read-only connector requires reauthentication; originating browser context unavailable in two attempts. No independent complete all-board scan possible. No claim, submission intent or Create.",
       "retry_policy": "ops/TOPVIEW-RETRY.md",
       "retry_policy_receipt": "reports/topview-retry-policy-2026-10-30.json",
       "last_continuation_preflight_report": "reports/ordinary-launcher-recovery-2026-11-01.json",

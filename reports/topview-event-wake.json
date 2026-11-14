@@ -1423,9 +1423,9 @@
       "issue_number": 668,
       "message_id": "247382729520357376",
       "relay_event_id": "evt_bf0f07a9b3727d216b43613c257e65fe",
-      "checked_at": "2026-11-14T15:42:01.089Z",
-      "outcome": "started",
-      "reason": "Connector reauthentication required and first browser access unavailable; preserved task IDs require live reconciliation.",
+      "checked_at": "2026-11-14T15:43:06.930Z",
+      "outcome": "blocked_browser",
+      "reason": "Topview read-only connector requires reauthentication; originating browser context unavailable in two attempts. No independent complete all-board scan possible. No claim, submission intent or Create.",
       "task_ids": [],
       "retryable": true,
       "source": "Agent Relay webhook",
@@ -1435,12 +1435,32 @@
       "run_id": null,
       "run_id_reason": "Runtime run_id not exposed",
       "execution": {
-        "state": "started",
-        "stage": "browser_access",
+        "state": "blocked",
+        "stage": "blocked_browser",
         "started_at": "2026-11-14T15:37:52.156Z",
-        "updated_at": "2026-11-14T15:42:01.089Z"
+        "updated_at": "2026-11-14T15:43:06.930Z",
+        "finished_at": "2026-11-14T15:43:06.930Z"
       },
-      "new_submissions": 0
+      "new_submissions": 0,
+      "browser_attempts": [
+        {
+          "at": "2026-11-14T15:41:47.812Z",
+          "reason": "originating_browser_context_required"
+        },
+        {
+          "at": "2026-11-14T15:42:54.780Z",
+          "reason": "originating_browser_context_required"
+        }
+      ],
+      "connector_error": "UNAUTHORIZED: reauthentication required",
+      "scan_complete": false,
+      "occupied_slots": null,
+      "free_slots": null,
+      "next_action": "Next genuine wake/hourly/ordinary run rechecks authorized access, reconciles preserved submitted and unmapped task IDs, and performs a full all-board scan before UI preflight; no Continue needed.",
+      "retention": {
+        "outcome": "checked_no_transfer",
+        "checked_at": "2026-11-14T15:43:21.727Z"
+      }
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",

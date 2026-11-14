@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:work:efc4b3f9-abd8-444c-a9ce-bf4af02c7702",
   "task": "Relay #668 reconciliation",
   "acquired_at": "2026-11-14T15:37:41.553Z",
-  "expires_at": "2026-11-14T16:07:41.553Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-14T15:43:21.728Z",
   "rules": "ops/CANON-LOCK.md"
 }
