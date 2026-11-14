@@ -11,10 +11,10 @@
   "route_generation": 3,
   "source_head": "cca7d6b84b508913806f4257313323a7f1f7fbc0",
   "started_at": "2026-11-14T01:00:35.501445Z",
-  "updated_at": "2026-11-14T01:04:05.049Z",
-  "checked_at": "2026-11-14T01:04:05.049Z",
-  "phase": "started",
-  "status": "in_progress",
+  "updated_at": "2026-11-14T01:07:21.289Z",
+  "checked_at": "2026-11-14T01:07:21.289Z",
+  "phase": "completed",
+  "status": "completed",
   "scan_complete": true,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -42,7 +42,8 @@
     "acquired_at": "2026-11-14T01:03:29.726Z",
     "expires_at": "2026-11-14T01:23:29.726Z",
     "acquired_commit": "c56f9f6dcdacd4d5eef1b66f7ca3e6f37258ec95",
-    "released": false
+    "released": true,
+    "released_at": "2026-11-14T01:07:21.289Z"
   },
   "outcome": "no_free_slot",
   "blocker": null,
@@ -52,7 +53,7 @@
     "current_tinyfish_login_control_file_upload_unlimited0_verified": false,
     "topview_task_id_verified_for_this_run": false,
     "end_to_end_background_submission_verified": false,
-    "receipt_saved_and_verified": false
+    "receipt_saved_and_verified": true
   },
   "new_submissions": 0,
   "scan": {
@@ -74,7 +75,7 @@
       "a1330998d39b486e864ed4e22b4fe8c4",
       "3a09108c8c474a0989118806b4a69f91"
     ],
-    "checked_at": "2026-11-14T01:04:05.049Z",
+    "checked_at": "2026-11-14T01:07:21.289Z",
     "main_board_id": "1a6244cf1ae747ef847d949a80d6133c",
     "main_board_video_tasks": 508,
     "active_params": {
@@ -84,11 +85,53 @@
       "aspect_ratio": "16:9",
       "useUnlimitMode": true,
       "credits_cost": 0
-    }
+    },
+    "last_page_recheck_at": "2026-11-14T01:07:21.289Z"
   },
   "execution": {
-    "state": "in_progress",
-    "stage": "receipt_started",
-    "updated_at": "2026-11-14T01:04:05.049Z"
-  }
+    "state": "completed",
+    "stage": "no_free_slot",
+    "updated_at": "2026-11-14T01:07:21.289Z"
+  },
+  "completed_at": "2026-11-14T01:07:21.289Z",
+  "queue_reconciliation": {
+    "status": "sha_verified_no_create",
+    "queue_items": 63,
+    "readiness_items": 30,
+    "readiness_ready": 26,
+    "transitional_claims": 0,
+    "queue_submitted_task_ids": 33,
+    "task_map_processed_count": 139,
+    "task_id_crossmatch_in_this_run": "All 139 processed task map IDs and 33 queue submitted/completed IDs found across 508 My First Board video tasks",
+    "source_queue_sha256": "92e5bd1d8eefc604d634fb24d7c81349dcd69a411193b37d338e4e15be70b0e8",
+    "source_task_map_sha256": "f2a192f7878e1d1ea5942cc5d47cc96dab3f6a6f1b051929887589a7c5182d37",
+    "sha256_match_independently_verified": true,
+    "checked_at": "2026-11-14T01:07:21.289Z",
+    "historical_unknown_note": "S49B archived earlier as submission_unknown; no reset or new Create"
+  },
+  "peer_reconciliation": {
+    "ordinary_automation_enabled": true,
+    "work_hh55_enabled": true,
+    "relay_handler_enabled": true,
+    "ordinary_runtime_run_id": "b0129caa-fb98-832d-b4a0-2cf046341684",
+    "ordinary_latest_result_run_id": "c4e9a310-f3f8-8322-9bb7-87f32b776ff0",
+    "work_runtime_run_id": "c09cd795-34b4-8323-abf9-f49ddd30337f",
+    "relay_runtime_run_id": "cf95fc42-67c8-832e-9995-dd98919c4e09",
+    "old_free_slot_issues_not_current_capacity": true,
+    "github_issue_636_open_but_stale": true
+  },
+  "owner_tasks_check": {
+    "open": 0,
+    "taken": 0
+  },
+  "work_capacity_check": {
+    "preferred_executor": "work",
+    "route_generation": 3,
+    "note": "Registry retains 2026-11-02 verified Work restoration; no fresh independent Work GUI/quota proof from this scheduled invocation; no route change."
+  },
+  "expenses": {
+    "tinyfish_usd": 0,
+    "topview_credits": 0
+  },
+  "source_head_final": "20bc9d5c9ea5df4bb23d012ab768df267a643d94"
 }
