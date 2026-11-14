@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:7fc5b842-e393-4825-b20e-3dc4b77f8061",
-  "task": "TOPVIEW-SLOT-PRIORITY-20261024",
-  "acquired_at": "2026-11-14T14:07:34.607Z",
-  "expires_at": null,
-  "released_at": "2026-11-14T14:10:39.928Z",
+  "state": "held",
+  "holder": "chatgpt:work:d7daaaf5-132d-4e62-bb8b-b3a9a9f2d268",
+  "task": "Relay #665 reconciliation",
+  "acquired_at": "2026-11-14T14:43:34.094Z",
+  "expires_at": "2026-11-14T15:13:34.094Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
