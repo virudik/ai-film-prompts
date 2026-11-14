@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
-  "holder": "chatgpt:ordinary:9ed5b31a-5bbb-4c55-bd73-e7b4da42b5cc",
-  "task": "D7 ordinary takeover: verified read-only Topview browser block; checkpoint and receipt",
-  "acquired_at": "2026-11-14T18:39:40.578Z",
-  "expires_at": "2026-11-14T18:54:40.578Z",
-  "released_at": null,
+  "state": "free",
+  "holder": null,
+  "task": null,
+  "acquired_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-14T18:43:19.304Z",
   "rules": "ops/CANON-LOCK.md"
 }

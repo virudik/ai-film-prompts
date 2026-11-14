@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-14T18:21:13.414Z",
+  "last_updated_at": "2026-11-14T18:43:19.304Z",
   "active_work": [
     {
       "work_id": "SEREGIUS-SHIFT-20261113-T611U",
@@ -9,22 +9,22 @@
       "title": "Смена 13.11 t611u: очередь 48.4 и 89, отзыв по версиям Grok",
       "status": "waiting_for_owner",
       "created_at": "2026-11-13T14:05:00Z",
-      "updated_at": "2026-11-13T14:08:06+00:00",
-      "next_action": "Новых генераций из этой записи не создавать. Свободный слот берёт следующий готовый пункт живой очереди, Unlimited, 0 кредитов. Отзыв Виталика по версиям Grok 48.3/48.4 не заменяет S48-P4-R2, пока он сам не скажет. Сцена 88 по-прежнему ждёт художественной оценки. PR 369, 370 и 371 не трогать.",
+      "updated_at": "2026-11-14T18:43:19.304Z",
+      "next_action": "Слоты: S48-P4-R2 и S51E/F/G уже submitted; следующий S89A-WAN30. Последний снимок 5/6 (14.11 18:10Z), но в текущем ordinary Browser требует originating context: нельзя подтвердить native upload и Unlimited0/price0, claim/intent/Create=0. В следующем реальном wake/браузерном исполнении повторить полный scan/UI-preflight и запускать только при доказанном 0 credits. Отзыв владельца о Grok 48.3/48.4 и художественная оценка сцены 88 отдельно; PR 369–371 не трогать.",
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-13T14:08:06+00:00",
-        "last_completed": "PR 604 влит (d8632c517): сцена 89, Wan 3.0, 30 с, 0 кредитов. PR 631 влит 13.11.2026 17:04 МСК (e9389dec). Очередь t601u записана: S48-P4-R2, затем 89A–89G, оставшиеся танцы 28, затем 89H–89J. В Topview из этого списка ничего не отправлено. Версии Grok 48.4 v1–v4 и 48.3 ждут отзыва Виталика.",
-        "next_action": "Новых генераций из этой записи не создавать. Свободный слот берёт следующий готовый пункт живой очереди, Unlimited, 0 кредитов. Отзыв Виталика по версиям Grok 48.3/48.4 не заменяет S48-P4-R2, пока он сам не скажет. Сцена 88 по-прежнему ждёт художественной оценки. PR 369, 370 и 371 не трогать.",
+        "verified_at": "2026-11-14T18:43:19.304Z",
+        "last_completed": "14.11: S48-P4-R2 и S51E/F/G уже отправлены и сверены по task ID; текущий D7 preflight подтверждает full 8/8 SHA и 15/15, live 5/6, S89A следующий. Browser ordinary недоступен (originating_context_required), 0 новых Create.",
+        "next_action": "Слоты: S48-P4-R2 и S51E/F/G уже submitted; следующий S89A-WAN30. Последний снимок 5/6 (14.11 18:10Z), но в текущем ordinary Browser требует originating context: нельзя подтвердить native upload и Unlimited0/price0, claim/intent/Create=0. В следующем реальном wake/браузерном исполнении повторить полный scan/UI-preflight и запускать только при доказанном 0 credits. Отзыв владельца о Grok 48.3/48.4 и художественная оценка сцены 88 отдельно; PR 369–371 не трогать.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# 13.11.2026 17:05 МСК — контрольная точка t611u",
-          "sha256": "4c714bbbe4c076ad79b2e5c9a52a10df1ccb22d7e11545438264ce410f0e8ee5"
+          "anchor": "# 14.11.2026 — D7 ordinary: проверка очереди и передача смены",
+          "sha256": "22be0cfdcde0e4f9cb25a49b876d23467a2405bbc91b30c22dccdc250ccde3c8"
         },
         "evidence": [
           {
             "file": "ops/topview-launch-queue.json",
-            "sha256": "f027ff3383f1941ad6c0b9bcf830377e3ac547f92a928337395b279e2b9d25d5"
+            "sha256": "eadd8263e773d993665fc4fbdfd59a548e4a35c9afeee0b893fc771e8561373f"
           },
           {
             "file": "ops/TOPVIEW-FREE-LAUNCH.md",
@@ -36,7 +36,19 @@
           "NEW-CHAT-HANDOFF.md",
           "ops/topview-launch-queue.json"
         ],
-        "blockers": []
+        "blockers": [
+          "Topview website UI requires originating browser context in current ordinary chat; native input upload and Unlimited0 cannot be verified; no Create."
+        ]
+      },
+      "last_takeover": {
+        "at": "2026-11-14T18:43:19.304Z",
+        "receipt_id": "ordinary-continue-20261114-9ed5b31a",
+        "session_id": "chatgpt-ordinary-continue-20261114-9ed5b31a-5bbb-4c55-bd73-e7b4da42b5cc",
+        "surface": "ordinary",
+        "source_head": "c146647ab4c0ab5c2e75186c921a95dd26376bc6",
+        "full_intake": true,
+        "actual_action": "read-only queue reconciliation and browser capability check; no Create",
+        "status_unchanged": "waiting_for_owner"
       }
     },
     {
@@ -574,7 +586,18 @@
         "current_work_actual_run_id": "40609a23-c130-8328-a33e-9e4526e0a4f3"
       },
       "recovery_history_archived_points": 3,
-      "recovery_history_archive": "archive/work-resume-register-archive.json"
+      "recovery_history_archive": "archive/work-resume-register-archive.json",
+      "last_foreground_takeover": {
+        "at": "2026-11-14T18:43:19.304Z",
+        "receipt_id": "ordinary-continue-20261114-9ed5b31a",
+        "session_id": "chatgpt-ordinary-continue-20261114-9ed5b31a-5bbb-4c55-bd73-e7b4da42b5cc",
+        "surface": "ordinary",
+        "epoch": 6,
+        "browser": "originating_browser_context_required",
+        "new_submissions": 0,
+        "credits_spent": 0,
+        "topview_status_checked_at": "2026-11-14T18:10:27Z"
+      }
     },
     {
       "work_id": "S58-P2-CONTINUITY-LAUNCH-20261023",

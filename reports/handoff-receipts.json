@@ -4,6 +4,71 @@
   "receipts": [
     {
       "schema_version": 1,
+      "receipt_id": "ordinary-continue-20261114-9ed5b31a",
+      "project": "seregius",
+      "work_id": "SEREGIUS-SHIFT-20261113-T611U",
+      "source_head": "c146647ab4c0ab5c2e75186c921a95dd26376bc6",
+      "takeover_kind": "full_D7",
+      "started_at": "2026-11-14T18:39:40.578Z",
+      "accepted_at": "2026-11-14T18:43:19.304Z",
+      "chat": {
+        "agent": "chatgpt:ordinary:9ed5b31a-5bbb-4c55-bd73-e7b4da42b5cc",
+        "label": "ChatGPT ordinary — продолжение проекта Серёгиус",
+        "session_id": "chatgpt-ordinary-continue-20261114-9ed5b31a-5bbb-4c55-bd73-e7b4da42b5cc",
+        "chat_id": null,
+        "identity_status": "unavailable",
+        "identity_note": "Текущий conversation ID не предоставляется"
+      },
+      "checks": [
+        {
+          "id": "fresh_main",
+          "result": "passed",
+          "evidence": "GitHub main c146647ab4c0ab5c2e75186c921a95dd26376bc6 + held exact root lock; all 8 source byte-SHA256 match brief, 15/15 anchors"
+        },
+        {
+          "id": "instructions",
+          "result": "passed",
+          "evidence": "Full D7 read in canonical order: 7 instruction blobs and master full blob; 8/8 SHA256 exact match; status health=ok, instruction certificate health=ok"
+        },
+        {
+          "id": "checkpoint",
+          "result": "passed",
+          "evidence": "Fresh shadow/current-checkpoint, reports/current-work-checkpoint, explicit focus SEREGIUS-SHIFT-20261113-T611U. Prior recovery queue digest changed; fresh queue reconciled S48-P4-R2 and S51E/F/G submitted; S89A next"
+        },
+        {
+          "id": "owner_inbox",
+          "result": "passed",
+          "evidence": "ops/owner-tasks.json live 10 items, open/taken/needs_owner 0; no foreign taken tasks reclaimed"
+        },
+        {
+          "id": "owner_decisions",
+          "result": "passed",
+          "evidence": "Supabase public.owner_decisions live SELECT 2026-11-14: pending/in_progress=0, one historical needs_owner to:grok 2026-11-01; not new owner approval"
+        },
+        {
+          "id": "capabilities",
+          "result": "passed",
+          "evidence": "GitHub CAS/readback and Supabase SQL available. Browser.list_tabs refused originating_browser_context_required; thus Topview native upload and Unlimited0 not verified; no Create/claim/intent. Future authorized browser is independent"
+        },
+        {
+          "id": "project_lock",
+          "result": "passed",
+          "evidence": "Exact holder chatgpt:ordinary:9ed5b31a-5bbb-4c55-bd73-e7b4da42b5cc acquired 2026-11-14T18:39:40.578Z and read back, expiry 18:54:40.578Z. Release atomically in this commit"
+        }
+      ],
+      "outcome": "accepted",
+      "first_action": {
+        "at": "2026-11-14T18:43:19.304Z",
+        "state": "completed",
+        "description": "Сверены 8/8 SHA и 15/15; прочитана живая очередь, исключены дубли S48/S51, проверена невозможность Topview UI в этом ordinary браузерном контексте; передача ordinary epoch 5→6. Никаких видео, оплаты или новых заявок.",
+        "evidence": "ops/slot-backup.json foreground_owners.ordinary; reports/current-work-checkpoint.md; topview-status.json; ops/topview-launch-queue.json; Supabase owner_decisions"
+      },
+      "recorded_at": "2026-11-14T18:43:19.304Z",
+      "execution_authorized": false,
+      "source_scope": "GitHub main exact bytes + Supabase live + connected Browser failed capability check"
+    },
+    {
+      "schema_version": 1,
       "receipt_id": "ordinary-continue-20261112-3a2c71bf",
       "project": "seregius",
       "work_id": "SEREGIUS-SASHA-PHOTOGRAPHER-20261110",
