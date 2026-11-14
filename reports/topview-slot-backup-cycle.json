@@ -11,15 +11,22 @@
   "route_generation": 3,
   "source_head": "f15dbcee7a9ff772576a97f29b075fca99a2541b",
   "started_at": "2026-11-14T03:02:04.719Z",
-  "updated_at": "2026-11-14T03:02:43.007Z",
-  "checked_at": null,
-  "phase": "started",
-  "status": "in_progress",
-  "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
+  "updated_at": "2026-11-14T03:06:18.202Z",
+  "checked_at": "2026-11-14T03:06:18.202Z",
+  "phase": "completed",
+  "status": "completed",
+  "scan_complete": true,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
-  "task_ids": [],
+  "task_ids": [
+    "bfdb6d9fad7a4ab29492f7bb95c78033",
+    "d775c7a483a44f13ba1704a1c418b208",
+    "8c6d92662d1043c7a651168b2b8280ae",
+    "1dcb6fa0628d41b098227ca6c96f1630",
+    "a1330998d39b486e864ed4e22b4fe8c4",
+    "3a09108c8c474a0989118806b4a69f91"
+  ],
   "new_submissions": 0,
   "topview_credits_spent": 0,
   "browser_transport": "not_used",
@@ -36,21 +43,21 @@
     "acquired_at": "2026-11-14T03:02:04.719Z",
     "expires_at": "2026-11-14T03:17:04.719Z",
     "acquired_commit": "f15dbcee7a9ff772576a97f29b075fca99a2541b",
-    "released": false,
-    "released_at": null
+    "released": true,
+    "released_at": "2026-11-14T03:06:18.202Z"
   },
-  "outcome": null,
+  "outcome": "no_free_slot",
   "blocker": null,
-  "retryable": null,
+  "retryable": false,
   "expenses": {
     "tinyfish_usd": 0,
     "topview_credits": 0
   },
-  "completed_at": null,
+  "completed_at": "2026-11-14T03:06:18.202Z",
   "execution": {
-    "state": "in_progress",
-    "stage": "started",
-    "updated_at": "2026-11-14T03:02:43.007Z"
+    "state": "completed",
+    "stage": "no_free_slot",
+    "updated_at": "2026-11-14T03:06:18.202Z"
   },
   "acceptance": {
     "hourly_runtime_verified": true,
@@ -58,5 +65,60 @@
     "file_transfer_verified": false,
     "unlimited_zero_verified_in_this_run": false,
     "topview_task_id_verified_in_this_run": false
+  },
+  "source_head_pre_final": "a6be63856cb488c0c005671e64032dfdac9e6533",
+  "scan": {
+    "source": "Topview connector read-only",
+    "all_boards_scanned": 14,
+    "pages_scanned": 19,
+    "unique_video_tasks": 675,
+    "success": 642,
+    "fail": 27,
+    "active": 6,
+    "scan_complete": true,
+    "active_task_board": "My First Board",
+    "active_model": "Seedance 2.0",
+    "active_duration_seconds": 15,
+    "active_resolution": "720p",
+    "active_aspect_ratio": "16:9",
+    "active_unlimited": true,
+    "active_topview_credit_cost": 0,
+    "scanned_at": "2026-11-14T03:06:18.202Z"
+  },
+  "queue_reconciliation": {
+    "status": "sha_verified_no_create",
+    "queue_items": 63,
+    "readiness_items": 30,
+    "readiness_ready": 26,
+    "transitionals": 0,
+    "queue_submitted_completed_task_ids": 33,
+    "task_map_processed_count": 139,
+    "processed_all_found_in_main_board": true,
+    "queue_submitted_all_found_in_main_board": true,
+    "source_queue_sha256": "92e5bd1d8eefc604d634fb24d7c81349dcd69a411193b37d338e4e15be70b0e8",
+    "source_task_map_sha256": "03dc6101c5c1f239a67c3be0ab3cec7e2d20f8f0754af329651eaf409fac556b",
+    "sha256_recalculated_match": true,
+    "unknown_not_retried": true
+  },
+  "peer_reconciliation": {
+    "work_last_run_id": "79749833-b13c-8325-a70a-8b911440e09a",
+    "work_status": "completed",
+    "relay_last_run_id": "cf95fc42-67c8-832e-9995-dd98919c4e09",
+    "relay_status": "completed",
+    "stale_issue_636_not_treated_as_capacity": true
+  },
+  "owner_tasks_check": {
+    "open_tasks": 0,
+    "action": "none"
+  },
+  "work_capacity_check": {
+    "preferred_executor": "work",
+    "route_generation": 3,
+    "changed": false
+  },
+  "results_check": {
+    "new_task_ids": [],
+    "new_submissions": 0,
+    "topview_credits": 0
   }
 }
