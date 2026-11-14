@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "92e5bd1d8eefc604d634fb24d7c81349dcd69a411193b37d338e4e15be70b0e8",
+  "source_queue_sha256": "eadd8263e773d993665fc4fbdfd59a548e4a35c9afeee0b893fc771e8561373f",
   "source_task_map_sha256": "250b87784ce3febb335bd3ee0fc47b144b528d288cf3028ca386c627cb116ce9",
   "topview_checked_at": "2026-11-14T18:10:27Z",
   "items": [
@@ -17,24 +17,6 @@
       "id": "S49B",
       "scene_id": 49,
       "part_label": "49B",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
-      "queue_state": "waiting_for_slot"
-    },
-    {
-      "id": "S51E",
-      "scene_id": 51,
-      "part_label": "51E",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
-      "queue_state": "waiting_for_slot"
-    },
-    {
-      "id": "S51F",
-      "scene_id": 51,
-      "part_label": "51F",
       "code": "ready",
       "ready": true,
       "text": "Готова по входам, ждёт свободный слот",
@@ -167,15 +149,6 @@
       "queue_state": "waiting_for_slot"
     },
     {
-      "id": "S51G",
-      "scene_id": 51,
-      "part_label": "51G",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
-      "queue_state": "waiting_for_slot"
-    },
-    {
       "id": "S28-A13-20261030",
       "scene_id": 28,
       "part_label": "28 A13",
@@ -276,5 +249,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-14T18:10:36.300373Z"
+  "checked_at": "2026-11-14T18:30:23.817435Z"
 }
