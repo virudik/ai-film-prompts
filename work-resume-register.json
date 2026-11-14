@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-14T16:01:25.392Z",
+  "last_updated_at": "2026-11-14T17:49:40.735Z",
   "active_work": [
     {
       "work_id": "SEREGIUS-SHIFT-20261113-T611U",
@@ -210,47 +210,66 @@
         "unknown_submissions": 0
       },
       "last_relay_event": {
-        "event_id": "slots:a3e98072:64",
-        "issue_number": 669,
-        "message_id": "247387777035427840",
-        "relay_event_id": "evt_e44675937e2a909fda91e38a5a5c0c0c",
-        "checked_at": "2026-11-14T16:01:11.591Z",
-        "outcome": "blocked_browser",
-        "reason": "Topview read-only connector requires reauthentication; originating browser context unavailable in two attempts. Independent full all-board scan unavailable. No claim, intent or Create.",
+        "event_id": "slots:a3e98072:65",
+        "issue_number": 671,
+        "message_id": "247405398807334912",
+        "relay_event_id": "evt_8cf21c00b2e9975656f2e67dcbae2615",
+        "checked_at": "2026-11-14T17:49:24.102Z",
+        "outcome": "stale",
+        "reason": "Original observed_at 2026-11-14T17:00:28Z exceeded 30 minutes while access was being restored. Read-only Topview board listing recovered (14 boards; authorized board name/id matched), but no complete task scan or UI preflight occurred. Browser originally required originating context; subsequent browser completion call was blocked by app configuration. Original lease expired; exact unchanged own lease reacquired by CAS for finalization only. No claim, intent or Create.",
         "task_ids": [],
-        "retryable": true,
+        "retryable": false,
         "source": "Agent Relay webhook",
         "runner": "chatgpt_event_trigger",
-        "execution_instance_id": "42b02362-568b-47ee-96ff-5cbbf528a8c3",
+        "execution_instance_id": "5213c14d-42ab-4152-ba03-96e78dd0162f",
         "route_generation": 3,
         "run_id": null,
-        "run_id_reason": "Runtime run_id not exposed",
+        "run_id_unavailable_reason": "Runtime run_id not exposed by this invocation.",
         "execution": {
-          "state": "blocked",
-          "stage": "blocked_browser",
-          "started_at": "2026-11-14T15:55:27.960Z",
-          "updated_at": "2026-11-14T16:01:11.591Z",
-          "finished_at": "2026-11-14T16:01:11.591Z"
+          "state": "finished",
+          "stage": "stale",
+          "started_at": "2026-11-14T17:09:49.148Z",
+          "updated_at": "2026-11-14T17:49:24.102Z",
+          "finished_at": "2026-11-14T17:49:24.102Z"
         },
         "new_submissions": 0,
-        "browser_attempts": [
-          {
-            "at": "2026-11-14T15:59:51.016Z",
-            "reason": "originating_browser_context_required"
-          },
-          {
-            "at": "2026-11-14T16:01:01.396Z",
-            "reason": "originating_browser_context_required"
-          }
-        ],
-        "connector_error": "UNAUTHORIZED: reauthentication required",
+        "observed_at": "2026-11-14T17:00:28Z",
         "scan_complete": false,
         "occupied_slots": null,
         "free_slots": null,
-        "next_action": "Next genuine wake/hourly/ordinary run rechecks authorized access and reconciles preserved submitted/unmapped task IDs; full all-board scan and UI preflight required before any Create. No Continue needed.",
+        "credits_spent": 0,
+        "browser_attempts": [
+          {
+            "at": "2026-11-14T17:09:56.625Z",
+            "outcome": "originating_browser_context_required"
+          }
+        ],
+        "browser_completion": {
+          "observed_at": "2026-11-14T17:48:47Z",
+          "outcome": "blocked_by_app_configuration"
+        },
+        "connector_access": {
+          "result": "read_only_board_listing_succeeded_after_authentication",
+          "boards": 14,
+          "authorized_board_id": "1a6244cf1ae747ef847d949a80d6133c",
+          "authorized_board_name": "My First Board",
+          "full_task_scan": false
+        },
+        "lease_recovery": {
+          "previous_acquired_at": "2026-11-14T17:09:36.323Z",
+          "previous_expires_at": "2026-11-14T17:24:36.323Z",
+          "reacquired_at": "2026-11-14T17:49:01.831Z",
+          "purpose": "finalization_only"
+        },
+        "peer_checks": {
+          "ordinary_receipt_checked_at": "2026-11-14T17:02:36.189Z",
+          "ordinary_outcome": "blocked_independent_live_scan_while_robot_reports_one_free_slot",
+          "work_hourly_receipt_state": "started_2026-11-14T04:53:19.362Z_not_current_execution_proof"
+        },
+        "next_action": "This stale signal authorizes no Create. Next genuine fresh wake or scheduled cycle checks authorized browser access, reconciles preserved claims/task IDs, and performs a complete global scan before preflight.",
         "retention": {
           "outcome": "checked_no_transfer",
-          "checked_at": "2026-11-14T16:01:25.391Z"
+          "checked_at": "2026-11-14T17:49:40.735Z"
         }
       },
       "last_observed_topview": {
@@ -370,7 +389,7 @@
           "preflight": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown."
         }
       },
-      "current_blocker": "Topview read-only connector requires reauthentication; originating browser context unavailable in two attempts. Independent full all-board scan unavailable. No claim, intent or Create.",
+      "current_blocker": "Relay #671 stale after access recovery. Board listing restored, but complete live task scan and browser UI preflight remain unverified; browser tool blocked by app configuration. No Create. Fresh future wake required.",
       "retry_policy": "ops/TOPVIEW-RETRY.md",
       "retry_policy_receipt": "reports/topview-retry-policy-2026-10-30.json",
       "last_continuation_preflight_report": "reports/ordinary-launcher-recovery-2026-11-01.json",

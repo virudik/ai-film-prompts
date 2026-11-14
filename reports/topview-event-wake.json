@@ -1511,11 +1511,11 @@
       "issue_number": 671,
       "message_id": "247405398807334912",
       "relay_event_id": "evt_8cf21c00b2e9975656f2e67dcbae2615",
-      "checked_at": "2026-11-14T17:09:49.148Z",
-      "outcome": "started",
-      "reason": "Verified bot sender and issue; exact own lease acquired; intake.",
+      "checked_at": "2026-11-14T17:49:24.102Z",
+      "outcome": "stale",
+      "reason": "Original observed_at 2026-11-14T17:00:28Z exceeded 30 minutes while access was being restored. Read-only Topview board listing recovered (14 boards; authorized board name/id matched), but no complete task scan or UI preflight occurred. Browser originally required originating context; subsequent browser completion call was blocked by app configuration. Original lease expired; exact unchanged own lease reacquired by CAS for finalization only. No claim, intent or Create.",
       "task_ids": [],
-      "retryable": true,
+      "retryable": false,
       "source": "Agent Relay webhook",
       "runner": "chatgpt_event_trigger",
       "execution_instance_id": "5213c14d-42ab-4152-ba03-96e78dd0162f",
@@ -1523,12 +1523,51 @@
       "run_id": null,
       "run_id_unavailable_reason": "Runtime run_id not exposed by this invocation.",
       "execution": {
-        "state": "started",
-        "stage": "intake",
+        "state": "finished",
+        "stage": "stale",
         "started_at": "2026-11-14T17:09:49.148Z",
-        "updated_at": "2026-11-14T17:09:49.148Z"
+        "updated_at": "2026-11-14T17:49:24.102Z",
+        "finished_at": "2026-11-14T17:49:24.102Z"
       },
-      "new_submissions": 0
+      "new_submissions": 0,
+      "observed_at": "2026-11-14T17:00:28Z",
+      "scan_complete": false,
+      "occupied_slots": null,
+      "free_slots": null,
+      "credits_spent": 0,
+      "browser_attempts": [
+        {
+          "at": "2026-11-14T17:09:56.625Z",
+          "outcome": "originating_browser_context_required"
+        }
+      ],
+      "browser_completion": {
+        "observed_at": "2026-11-14T17:48:47Z",
+        "outcome": "blocked_by_app_configuration"
+      },
+      "connector_access": {
+        "result": "read_only_board_listing_succeeded_after_authentication",
+        "boards": 14,
+        "authorized_board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "authorized_board_name": "My First Board",
+        "full_task_scan": false
+      },
+      "lease_recovery": {
+        "previous_acquired_at": "2026-11-14T17:09:36.323Z",
+        "previous_expires_at": "2026-11-14T17:24:36.323Z",
+        "reacquired_at": "2026-11-14T17:49:01.831Z",
+        "purpose": "finalization_only"
+      },
+      "peer_checks": {
+        "ordinary_receipt_checked_at": "2026-11-14T17:02:36.189Z",
+        "ordinary_outcome": "blocked_independent_live_scan_while_robot_reports_one_free_slot",
+        "work_hourly_receipt_state": "started_2026-11-14T04:53:19.362Z_not_current_execution_proof"
+      },
+      "next_action": "This stale signal authorizes no Create. Next genuine fresh wake or scheduled cycle checks authorized browser access, reconciles preserved claims/task IDs, and performs a complete global scan before preflight.",
+      "retention": {
+        "outcome": "checked_no_transfer",
+        "checked_at": "2026-11-14T17:49:40.735Z"
+      }
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
