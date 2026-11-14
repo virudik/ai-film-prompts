@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-11-14T18:28:46.934Z",
+  "updated_at": "2026-11-14T21:36:34Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -5837,7 +5837,7 @@
       "canonical_prompt_sha256": "357829d4234a54a5d6a4d1fa89f7095d136585eb64f037e390774fb974f1d2a0",
       "normalized_prompt_sha256": "503380bb45912f1436ffe058ca329715997ab2843b80afd7a230eace2deab583",
       "priority": 0.301,
-      "state": "waiting_for_slot",
+      "state": "submitted",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "model_id": "qwen-wan3.0-video",
@@ -5903,7 +5903,31 @@
       "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry: automatic_retry is false and retry_control is omitted, because Grok prepare_intent treats any retry_control as a retry Create and would reject the first Unlimited Create. Not a paid 12-credit Wan path.",
       "owner_source": "t593u",
       "story_not_music": true,
-      "created_at": "2026-11-12T13:14:25Z"
+      "created_at": "2026-11-12T13:14:25Z",
+      "task_id": "425108630b0e48c9a4b299fc89ad88ee",
+      "task_name": "261114_0001_video_edit_2956",
+      "claim": null,
+      "submitted_at": "2026-11-14T21:32:23Z",
+      "submitted_at_local": "2026-11-15T00:32:23 Europe/Moscow",
+      "topview_status": "init",
+      "queued": true,
+      "ui_eta_minutes": 4338,
+      "ui_toast": "Успешно создано задач: 1",
+      "ui_card": "В очереди",
+      "create_click_count": 1,
+      "max_new_submissions_consumed": 1,
+      "creditsCost": 0,
+      "credits_balance_before": 11.05,
+      "credits_balance_after": 11.05,
+      "prompt_characters": 3852,
+      "receipt": "reports/topview-queue-2026-10-16/S89A-WAN30-20261114T213223Z.json",
+      "slot_event": {
+        "issue_number": 680,
+        "event_id": "slots:a3e98072:69",
+        "observed_create_at": "2026-11-14T21:32:23Z"
+      },
+      "replay_forbidden": true,
+      "no_second_create": true
     },
     {
       "id": "S89B-WAN30",
