@@ -11,9 +11,9 @@
   "route_generation": 3,
   "source_head": "238e6b2e3bab8981b43c2a50c5570208ce67ac32",
   "started_at": "2026-11-14T23:06:19.939Z",
-  "updated_at": "2026-11-14T23:07:08.772Z",
-  "phase": "started",
-  "status": "in_progress",
+  "updated_at": "2026-11-14T23:08:57.497Z",
+  "phase": "complete",
+  "status": "completed",
   "scan_complete": true,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -22,7 +22,7 @@
   "task_ids": [],
   "new_submissions": 0,
   "topview_credits_spent": 0,
-  "browser_transport": "not_used; full 6/6",
+  "browser_transport": "not_used; verified six of six physical video slots occupied",
   "tinyfish": {
     "run_ids": [],
     "attempts": 0,
@@ -36,13 +36,19 @@
   "lease": {
     "holder": "chatgpt:ordinary:d93d5e9c-d917-406b-8206-4c97dbe897a9",
     "acquired_at": "2026-11-14T23:06:19.939Z",
-    "expires_at": "2026-11-14T23:21:19.939Z",
-    "released_at": null,
-    "lock_outcome": "held",
+    "expires_at": null,
+    "released_at": "2026-11-14T23:08:57.497Z",
+    "lock_outcome": "released_atomically_with_final_receipt",
     "verified_start_readback": true
   },
-  "outcome": null,
-  "blocker": null,
+  "outcome": "no_free_slot",
+  "blocker": {
+    "code": "no_free_global_slot",
+    "category": "capacity_full",
+    "details": "Complete Topview read-only scan of all 14 editable boards and 19 pages returned 1060 tasks, including six init video tasks on My First Board. S89A-WAN30 task 425108630b0e48c9a4b299fc89ad88ee is already submitted by another executor. Current capacity is 6/6; no Create and no paid TinyFish allowed.",
+    "next_attempt_condition": "Next independently scheduled fresh read-only scan; old issue #680 is not proof of current free capacity",
+    "retryable_on_new_evidence": true
+  },
   "retryable": false,
   "checked_at": "2026-11-14T23:04:50.109Z",
   "scan": {
@@ -67,9 +73,13 @@
     "queue_blob_sha": "8f89d9f89eabe372646126e2e781f0aa9583b317",
     "readiness_blob_sha": "8cab824fc633c89e62a7978383dcc13d962a7791",
     "taskmap_blob_sha": "190e5bc8ccc73d4521e2855cef2494b3612809e2",
-    "source_sha256_verification": "pending",
+    "source_sha256_verification": "both matched by SHA-256 calculation; computed values match readiness",
     "open_claims": 0,
-    "owner_tasks_open": 0
+    "owner_tasks_open": 0,
+    "source_queue_sha256": "af62a3bc029d66a85ae611ecb488e7655a5798b5221e4eed78e7ef1f95ea5077",
+    "source_taskmap_sha256": "a475f5c1c8bc6ac193d96be946cdda353b61664806cb625d1b745fdfdc28ee47",
+    "queue_sha256_match": true,
+    "taskmap_sha256_match": true
   },
   "peer_runtime": {
     "ordinary_hourly_enabled": true,
@@ -87,5 +97,6 @@
     "verified_task_id": null,
     "full_background_launch_accepted": false,
     "independently_verified_other_executor_submission_task_id": "425108630b0e48c9a4b299fc89ad88ee"
-  }
+  },
+  "notes": "Independent scheduled scan, not event subscription; GitHub issue #680 from 2026-11-14T21:20:37Z is stale capacity evidence. Verified exact ordinary automation enabled, Relay enabled, HH:55 Work task disabled. No TinyFish call or wallet check at 6/6. The preceding S89A task was created by another executor; this run performed no Create. Continue/recovery next_action unchanged."
 }
