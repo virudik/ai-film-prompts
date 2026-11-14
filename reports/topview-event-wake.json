@@ -1417,6 +1417,30 @@
         "outcome": "checked_no_transfer",
         "checked_at": "2026-11-14T15:22:23.993Z"
       }
+    },
+    {
+      "event_id": "slots:a3e98072:63",
+      "issue_number": 668,
+      "message_id": "247382729520357376",
+      "relay_event_id": "evt_bf0f07a9b3727d216b43613c257e65fe",
+      "checked_at": "2026-11-14T15:37:52.156Z",
+      "outcome": "started",
+      "reason": "Verified sender, bot issue and exact dedupe; own lease read back",
+      "task_ids": [],
+      "retryable": true,
+      "source": "Agent Relay webhook",
+      "runner": "chatgpt_event_trigger",
+      "execution_instance_id": "efc4b3f9-abd8-444c-a9ce-bf4af02c7702",
+      "route_generation": 3,
+      "run_id": null,
+      "run_id_reason": "Runtime run_id not exposed",
+      "execution": {
+        "state": "started",
+        "stage": "intake",
+        "started_at": "2026-11-14T15:37:52.156Z",
+        "updated_at": "2026-11-14T15:37:52.156Z"
+      },
+      "new_submissions": 0
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
