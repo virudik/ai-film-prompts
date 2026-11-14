@@ -1,5 +1,5 @@
 <!-- relay-current-start -->
-Relay #671 · 2026-11-14T17:49:24.102Z · slots:a3e98072:65 · stale, retryable=false. Исходный observed_at 17:00:28Z старше 30 минут после восстановления доступа. Список 14 досок Topview прочитан, My First Board/id совпали; полный скан задач и UI-preflight не выполнены. Браузер: originating context unavailable; позднее вызов заблокирован настройками приложения. claim/intent/Create=0. Своя истёкшая lease повторно взята только для финализации. Следующий свежий wake/плановый цикл проверяет доступ, сохранённые task IDs и все слоты. next_action/recovery сохранены. Квитанция: reports/topview-event-wake.json.
+Relay #674 · 2026-11-14T18:20:16.205Z · slots:a3e98072:66 · blocked_browser, retryable=true. Полный независимый скан: 14 досок / 19 страниц / 1059 задач, занято 5/6; готов S89A-WAN30. Точные raw/normalized SHA промпта совпали, 5 входов учтены. Подключённый браузер дважды не получил исходный контекст, облачный Topview не авторизован; точная загрузка исходников, Wan 3.0 Unlimited0 и цена0 в UI не подтверждены. claim/intent/Create=0. Следующий свежий wake/плановый цикл повторяет доступ и полный preflight. next_action/recovery активной работы сохранены. Квитанция: reports/topview-event-wake.json.
 <!-- relay-current-end -->
 
 # 13.11.2026 17:05 МСК — контрольная точка t611u

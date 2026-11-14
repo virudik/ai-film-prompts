@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-14T17:49:40.735Z",
+  "last_updated_at": "2026-11-14T18:21:13.414Z",
   "active_work": [
     {
       "work_id": "SEREGIUS-SHIFT-20261113-T611U",
@@ -210,66 +210,111 @@
         "unknown_submissions": 0
       },
       "last_relay_event": {
-        "event_id": "slots:a3e98072:65",
-        "issue_number": 671,
-        "message_id": "247405398807334912",
-        "relay_event_id": "evt_8cf21c00b2e9975656f2e67dcbae2615",
-        "checked_at": "2026-11-14T17:49:24.102Z",
-        "outcome": "stale",
-        "reason": "Original observed_at 2026-11-14T17:00:28Z exceeded 30 minutes while access was being restored. Read-only Topview board listing recovered (14 boards; authorized board name/id matched), but no complete task scan or UI preflight occurred. Browser originally required originating context; subsequent browser completion call was blocked by app configuration. Original lease expired; exact unchanged own lease reacquired by CAS for finalization only. No claim, intent or Create.",
+        "event_id": "slots:a3e98072:66",
+        "issue_number": 674,
+        "message_id": "247423016371191808",
+        "relay_event_id": "evt_8ccad0f39062d9410cb51d0660e959f9",
+        "checked_at": "2026-11-14T18:20:16.205Z",
+        "outcome": "blocked_browser",
+        "reason": "Complete independent read-only scan found 5/6 active video slots and selected ready S89A-WAN30. Exact master prompt raw and normalized SHA-256 matched queue. Required five references are recorded and ready, including a 12,687,056-byte Drive original, but the connected browser lacked its originating context on two attempts and the cloud browser was not authenticated. Therefore full website UI preflight, native exact-file upload, selected Wan 3.0 Unlimited0, and displayed zero price could not be verified. No claim, intent, or Create.",
         "task_ids": [],
-        "retryable": false,
+        "retryable": true,
         "source": "Agent Relay webhook",
         "runner": "chatgpt_event_trigger",
-        "execution_instance_id": "5213c14d-42ab-4152-ba03-96e78dd0162f",
+        "execution_instance_id": "9c8d2761-42bb-4384-b189-61dbb229dba5",
         "route_generation": 3,
         "run_id": null,
         "run_id_unavailable_reason": "Runtime run_id not exposed by this invocation.",
         "execution": {
-          "state": "finished",
-          "stage": "stale",
-          "started_at": "2026-11-14T17:09:49.148Z",
-          "updated_at": "2026-11-14T17:49:24.102Z",
-          "finished_at": "2026-11-14T17:49:24.102Z"
+          "state": "blocked",
+          "stage": "blocked_browser",
+          "started_at": "2026-11-14T18:15:39.296Z",
+          "updated_at": "2026-11-14T18:20:16.205Z",
+          "finished_at": "2026-11-14T18:20:16.205Z"
         },
         "new_submissions": 0,
-        "observed_at": "2026-11-14T17:00:28Z",
-        "scan_complete": false,
-        "occupied_slots": null,
-        "free_slots": null,
         "credits_spent": 0,
+        "observed_at": "2026-11-14T18:10:27Z",
+        "scan": {
+          "checked_at": "2026-11-14T18:20:16.205Z",
+          "complete": true,
+          "boards_scanned": 14,
+          "pages_scanned": 19,
+          "all_board_tasks_seen": 1059,
+          "main_board": "My First Board",
+          "main_board_id": "1a6244cf1ae747ef847d949a80d6133c",
+          "main_board_tasks_seen": 732,
+          "occupied_slots": 5,
+          "free_slots": 1,
+          "active_task_ids": [
+            "bfdb6d9fad7a4ab29492f7bb95c78033",
+            "d775c7a483a44f13ba1704a1c418b208",
+            "8c6d92662d1043c7a651168b2b8280ae",
+            "1dcb6fa0628d41b098227ca6c96f1630",
+            "a1330998d39b486e864ed4e22b4fe8c4"
+          ],
+          "status_counts": {
+            "video_init": 5,
+            "video_success": 643,
+            "video_fail": 27,
+            "image_success": 368,
+            "image_fail": 16
+          }
+        },
+        "reconciliation": {
+          "open_claim_items": [],
+          "submitted_live_task_ids": [
+            "bfdb6d9fad7a4ab29492f7bb95c78033"
+          ],
+          "mapped_active_scene51": [
+            "1dcb6fa0628d41b098227ca6c96f1630",
+            "8c6d92662d1043c7a651168b2b8280ae",
+            "a1330998d39b486e864ed4e22b4fe8c4"
+          ],
+          "unmapped_active_task_ids": [
+            "d775c7a483a44f13ba1704a1c418b208"
+          ],
+          "selected_item": "S89A-WAN30",
+          "selected_item_independent_of_unknown": true
+        },
+        "preflight": {
+          "queue_state": "waiting_for_slot",
+          "launch_readiness": "authorized_inputs_available",
+          "prompt_raw_sha256": "357829d4234a54a5d6a4d1fa89f7095d136585eb64f037e390774fb974f1d2a0",
+          "prompt_normalized_sha256": "503380bb45912f1436ffe058ca329715997ab2843b80afd7a230eace2deab583",
+          "prompt_hashes_match_queue": true,
+          "reference_count": 5,
+          "drive_original_bytes": 12687056,
+          "model": "Wan 3.0",
+          "duration_seconds": 30,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "website_unlimited_verified": false,
+          "credits_zero_verified": false,
+          "ui_preflight_complete": false
+        },
         "browser_attempts": [
           {
-            "at": "2026-11-14T17:09:56.625Z",
+            "surface": "connected_extension",
+            "outcome": "originating_browser_context_required"
+          },
+          {
+            "surface": "cloud_browser",
+            "outcome": "not_authenticated_topview_board"
+          },
+          {
+            "surface": "connected_extension_retry",
             "outcome": "originating_browser_context_required"
           }
         ],
-        "browser_completion": {
-          "observed_at": "2026-11-14T17:48:47Z",
-          "outcome": "blocked_by_app_configuration"
-        },
-        "connector_access": {
-          "result": "read_only_board_listing_succeeded_after_authentication",
-          "boards": 14,
-          "authorized_board_id": "1a6244cf1ae747ef847d949a80d6133c",
-          "authorized_board_name": "My First Board",
-          "full_task_scan": false
-        },
-        "lease_recovery": {
-          "previous_acquired_at": "2026-11-14T17:09:36.323Z",
-          "previous_expires_at": "2026-11-14T17:24:36.323Z",
-          "reacquired_at": "2026-11-14T17:49:01.831Z",
-          "purpose": "finalization_only"
-        },
-        "peer_checks": {
-          "ordinary_receipt_checked_at": "2026-11-14T17:02:36.189Z",
-          "ordinary_outcome": "blocked_independent_live_scan_while_robot_reports_one_free_slot",
-          "work_hourly_receipt_state": "started_2026-11-14T04:53:19.362Z_not_current_execution_proof"
-        },
-        "next_action": "This stale signal authorizes no Create. Next genuine fresh wake or scheduled cycle checks authorized browser access, reconciles preserved claims/task IDs, and performs a complete global scan before preflight.",
+        "claim_created": false,
+        "submission_intent_created": false,
+        "create_clicked": false,
+        "next_action": "Next genuine fresh wake/hourly/ordinary run repeats authorized browser access and full scan. If the exact five originals can be natively uploaded and Wan 3.0 Unlimited0/price0 are visible, then fresh own lease, CAS claim, submitting intent, and one Create. No Continue required.",
         "retention": {
           "outcome": "checked_no_transfer",
-          "checked_at": "2026-11-14T17:49:40.735Z"
+          "checked_at": "2026-11-14T18:21:13.414Z"
         }
       },
       "last_observed_topview": {
@@ -389,7 +434,7 @@
           "preflight": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown."
         }
       },
-      "current_blocker": "Relay #671 stale after access recovery. Board listing restored, but complete live task scan and browser UI preflight remain unverified; browser tool blocked by app configuration. No Create. Fresh future wake required.",
+      "current_blocker": "Relay #674: full scan confirms 5/6 and ready S89A-WAN30, but exact website input upload and Wan 3.0 Unlimited0/price0 UI preflight are unavailable because connected browser context is missing and cloud Topview is unauthenticated. No claim, intent or Create.",
       "retry_policy": "ops/TOPVIEW-RETRY.md",
       "retry_policy_receipt": "reports/topview-retry-policy-2026-10-30.json",
       "last_continuation_preflight_report": "reports/ordinary-launcher-recovery-2026-11-01.json",
