@@ -11,7 +11,7 @@
   "route_generation": 3,
   "source_head": "b52e679fcecb020550804c0e1ac64398d8bbb45f",
   "started_at": "2026-11-14T04:07:46.972Z",
-  "updated_at": "2026-11-14T04:10:22.693Z",
+  "updated_at": "2026-11-14T04:11:21.730Z",
   "checked_at": "2026-11-14T04:09:30.773Z",
   "phase": "completed",
   "status": "completed",
@@ -43,7 +43,8 @@
     "acquired_at": "2026-11-14T04:07:46.972Z",
     "expires_at": "2026-11-14T04:22:46.972Z",
     "acquired_commit": "b52e679fcecb020550804c0e1ac64398d8bbb45f",
-    "released": false
+    "released": true,
+    "released_at": "2026-11-14T04:11:21.730Z"
   },
   "outcome": "no_free_slot",
   "blocker": null,
@@ -139,5 +140,9 @@
     "new_terminal_from_active_set": 0,
     "scene28_new_result_available": false,
     "note": "All six unchanged active Topview tasks; no new terminal result"
+  },
+  "finalization": {
+    "write_method": "sequential file-sha CAS; not a shared atomic multi-file commit",
+    "release_requested_at": "2026-11-14T04:11:21.730Z"
   }
 }
