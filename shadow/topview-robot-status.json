@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-14T14:40:28Z",
+  "checked_at": "2026-11-14T14:50:56Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -27,7 +27,7 @@
     },
     "pages_scanned": 1,
     "tasks_seen": 20,
-    "api_requests": 8,
+    "api_requests": 7,
     "detail_failed": []
   },
   "cursor": {
@@ -67,8 +67,8 @@
       "model": "Seedance 2.0",
       "scene_id": 51,
       "mapping": "task_map",
-      "queue_count": 3044,
-      "wait_seconds": 129564,
+      "queue_count": 3030,
+      "wait_seconds": 128935,
       "process_seconds": null
     },
     {
@@ -80,8 +80,8 @@
       "model": "Seedance 2.0",
       "scene_id": 51,
       "mapping": "task_map",
-      "queue_count": 3765,
-      "wait_seconds": 172763,
+      "queue_count": 3751,
+      "wait_seconds": 172135,
       "process_seconds": null
     },
     {
@@ -93,8 +93,8 @@
       "model": "Seedance 2.0",
       "scene_id": 51,
       "mapping": "task_map",
-      "queue_count": 2316,
-      "wait_seconds": 86362,
+      "queue_count": 2301,
+      "wait_seconds": 85735,
       "process_seconds": null
     },
     {
@@ -106,8 +106,8 @@
       "model": "Seedance 2.0",
       "scene_id": 48,
       "mapping": "task_map",
-      "queue_count": 5351,
-      "wait_seconds": 267802,
+      "queue_count": 5337,
+      "wait_seconds": 267174,
       "process_seconds": null
     },
     {
@@ -119,8 +119,8 @@
       "model": "Seedance 2.0",
       "scene_id": null,
       "mapping": "unknown_new",
-      "queue_count": 4486,
-      "wait_seconds": 215962,
+      "queue_count": 4472,
+      "wait_seconds": 215334,
       "process_seconds": null
     }
   ],
@@ -135,15 +135,7 @@
       "prompt_head": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal cinematic alien-rock performance, "
     }
   ],
-  "finished_known": [
-    {
-      "task_id": "3a09108c8c474a0989118806b4a69f91",
-      "scene_id": 49,
-      "final_status": "success",
-      "completed_at": "2026-11-14 14:39:53",
-      "error_code": null
-    }
-  ],
+  "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
     {
@@ -155,23 +147,12 @@
     }
   ],
   "comparison": {
-    "monitor_checked_at": "2026-11-14T13:40:47Z",
-    "monitor_age_minutes": 60,
-    "monitor_occupied": 6,
+    "monitor_checked_at": "2026-11-14T14:40:28Z",
+    "monitor_age_minutes": 10,
+    "monitor_occupied": 5,
     "robot_occupied": 5,
-    "consistent": false,
-    "monitor_may_lag": true,
-    "differences": [
-      {
-        "type": "only_in_monitor",
-        "task_id": "3a09108c8c474a0989118806b4a69f91",
-        "scene_id": 49
-      },
-      {
-        "type": "occupied_differs",
-        "monitor": 6,
-        "robot": 5
-      }
-    ]
+    "consistent": true,
+    "monitor_may_lag": false,
+    "differences": []
   }
 }
