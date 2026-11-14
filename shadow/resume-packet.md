@@ -2,12 +2,12 @@
 
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
-Состояние: ready
-Проверено: 2026-11-14T20:23:26+00:00
-Задача: SEREGIUS-SHIFT-20261113-T611U — Смена 13.11 t611u: очередь 48.4 и 89, отзыв по версиям Grok
+Состояние: needs_recovery
+Проверено: 2026-11-14T20:33:36+00:00
+Задача: не определена — 
 
-Последний подтверждённый этап: Work выполнил короткий D7: 15/15 правил и SHA источников совпали. Полный read-only скан 14 досок/675 видеозадач в 19:59:04Z: 5/6 занято. Следующий S89A-WAN30; новых claim/intent/Create нет. Существующая часовая страховка снова включена и перечитана через Automations.
-Следующий шаг: Восстановить вход Topview в открытой вкладке встроенного браузера этого Work-чата. Затем новый полный скан всех досок, свежий main/lease и проверка дублей; для S89A-WAN30 скачать точные пять исходников, сверить SHA/master и Unlimited/720p/16:9/quantity1/0 credits, CAS-claim/intent/readback и один Create. Продолжать по живой очереди при свободных слотах. Уже submitted S48-P4-R2 и S51E/F/G не повторять. Проверить следующий реальный цикл возобновлённой HH:55 страховки; enabled не доказывает вход или запуск.
+Последний подтверждённый этап: нет доказательств
+Следующий шаг: восстановить конкретный пробел
 
 ## Контрольная точка
 
@@ -26,12 +26,10 @@ work_id: SEREGIUS-SHIFT-20261113-T611U
 
 checked_at: 2026-11-14T20:02:31+00:00
 
-<!-- relay-current-start -->
-Relay #676 · 2026-11-14T19:28:43.268Z · slots:a3e98072:67 · blocked_browser, retryable=true. Полный независимый скан: 14 досок / 19 страниц / 1059 задач, занято 5/6; готов S89A-WAN30. Fresh master raw/normalized SHA совпали, все 5 входов учтены. Подключённый браузер дважды, с повтором примерно через минуту, потребовал исходный контекст; точная загрузка исходников, Wan 3.0 Unlimited0 и цена0 в UI не подтверждены. claim/intent/Create=0. Следующий свежий wake/плановый цикл повторяет доступ и полный preflight. next_action/recovery активной работы сохранены. Квитанция: reports/topview-event-wake.json.
-<!-- relay-current-end -->
+
 
 <!-- relay-current-start -->
-Relay #676 · 2026-11-14T19:28:43.268Z · slots:a3e98072:67 · blocked_browser, retryable=true. Полный независимый скан: 14 досок / 19 страниц / 1059 задач, занято 5/6; готов S89A-WAN30. Fresh master raw/normalized SHA совпали, все 5 входов учтены. Подключённый браузер дважды, с повтором примерно через минуту, потребовал исходный контекст; точная загрузка исходников, Wan 3.0 Unlimited0 и цена0 в UI не подтверждены. claim/intent/Create=0. Следующий свежий wake/плановый цикл повторяет доступ и полный preflight. next_action/recovery активной работы сохранены. Квитанция: reports/topview-event-wake.json.
+Relay #678 · 2026-11-14T20:32:12.935Z · slots:a3e98072:68 · blocked_browser, retryable=true. Fresh полный скан: 14 досок / 19 страниц / 1059 задач, занято 5/6; готов S89A-WAN30. Master raw/normalized SHA совпали, пять входов и порядок учтены. Браузер дважды, с паузой 45 с, потребовал исходный контекст; native upload, Wan 3.0 Unlimited0 и цена0 не подтверждены. claim/intent/Create=0. Следующий настоящий wake/плановый цикл повторяет браузерный доступ и полный preflight; next_action/recovery не менялись. Квитанция: reports/topview-event-wake.json.
 <!-- relay-current-end -->
 
 ## Обязательные правила
@@ -54,9 +52,6 @@ Relay #676 · 2026-11-14T19:28:43.268Z · slots:a3e98072:67 · blocked_browser, 
 
 ## Прочитать под задачу
 
-- `ops/topview-launch-queue.json`
-- `ops/TOPVIEW-FREE-LAUNCH.md`
-- `reports/current-work-checkpoint.md`
 
 ## Перед действием
 
@@ -71,4 +66,4 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 
 ## Пробелы
 
-Нет ошибок локальной проверки. Живые проверки выше обязательны.
+- selected checkpoint hash mismatch
