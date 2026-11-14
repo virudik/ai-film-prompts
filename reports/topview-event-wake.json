@@ -1568,6 +1568,30 @@
         "outcome": "checked_no_transfer",
         "checked_at": "2026-11-14T17:49:40.735Z"
       }
+    },
+    {
+      "event_id": "slots:a3e98072:66",
+      "issue_number": 674,
+      "message_id": "247423016371191808",
+      "relay_event_id": "evt_8ccad0f39062d9410cb51d0660e959f9",
+      "checked_at": "2026-11-14T18:15:39.296Z",
+      "outcome": "started",
+      "reason": "Verified exact Relay sender and GitHub bot issue; own lease acquired; intake started.",
+      "task_ids": [],
+      "retryable": true,
+      "source": "Agent Relay webhook",
+      "runner": "chatgpt_event_trigger",
+      "execution_instance_id": "9c8d2761-42bb-4384-b189-61dbb229dba5",
+      "route_generation": 3,
+      "run_id": null,
+      "run_id_unavailable_reason": "Runtime run_id not exposed by this invocation.",
+      "execution": {
+        "state": "started",
+        "stage": "intake",
+        "started_at": "2026-11-14T18:15:39.296Z",
+        "updated_at": "2026-11-14T18:15:39.296Z"
+      },
+      "new_submissions": 0
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
