@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:work:96c5da97-dead-44b0-905e-b2277a03d6c5",
-  "task": "topview-slot-wake:slots:a3e98072:69",
+  "task": null,
   "acquired_at": "2026-11-14T21:29:23.891Z",
-  "expires_at": "2026-11-14T22:00:00.000Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-14T21:39:40.436Z",
   "rules": "ops/CANON-LOCK.md"
 }

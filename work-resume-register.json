@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
- "last_updated_at": "2026-11-14T21:23:52+00:00",
+ "last_updated_at": "2026-11-14T21:39:40.436Z",
  "active_work": [
   {
    "work_id": "SEREGIUS-SHIFT-20261113-T611U",
@@ -9,7 +9,7 @@
    "title": "Смена 13.11 t611u: очередь 48.4 и 89, отзыв по версиям Grok",
    "status": "blocked_browser",
    "created_at": "2026-11-13T14:05:00Z",
-   "updated_at": "2026-11-14T21:23:52+00:00",
+   "updated_at": "2026-11-14T21:39:40.436Z",
    "next_action": "Продолжить S89A-WAN30: проверить сохранение входа в свежей вкладке Topview и состояние импорта; прежний вызов загрузки прерван, Create никогда не вызывался. Взять точные исходники из канона/Drive (локальный кэш /workspace/shared/seregius-89a использовать только после повторной SHA-проверки), загрузить пять файлов по порядку и полный промпт. Затем fresh main/owner_decisions, полный свежий скан всех досок, свой замок, UI Unlimited0/720p/16:9/1, CAS-claim+intent/readback и один Create. Не повторять уже submitted S48-P4-R2 и S51E/F/G. При свободной ёмкости продолжать живую очередь.",
    "recovery": {
     "schema_version": 1,
@@ -47,22 +47,22 @@
     "status_unchanged": "waiting_for_owner"
    },
    "last_relay_event": {
-    "event_id": "slots:a3e98072:68",
-    "issue_number": 678,
-    "message_id": "247455710466367488",
-    "relay_event_id": "evt_03fc5af37c8df861e98e5a0e5abf815b",
+    "event_id": "slots:a3e98072:69",
+    "issue_number": 680,
+    "message_id": "247470816310288384",
+    "relay_event_id": "evt_28ec5d7cdecfb5616caa4dfeaa357e0f",
     "relay_reminder_event_ids": [
-     "evt_d4bb6dbdb3d43815daa8a41fc503e848"
+     "evt_86eae3e60f47d84418b9d7d746bc7816"
     ],
-    "checked_at": "2026-11-14T20:32:12.935Z",
+    "checked_at": "2026-11-14T21:39:40.436Z",
     "outcome": "blocked_browser",
     "retryable": true,
-    "execution_instance_id": "6157d388-cfe9-4ac9-a177-680a3291b92e",
+    "execution_instance_id": "96c5da97-dead-44b0-905e-b2277a03d6c5",
     "route_generation": 3,
     "new_submissions": 0,
     "task_ids": []
    },
-   "current_blocker": "Authentication was verified, but exact-file upload was interrupted and the browser tab disappeared; no Create.",
+   "current_blocker": "Foreground Work verified authentication and exact inputs, but the first upload was interrupted before Create; this webhook runtime cannot access the originating browser context for a fresh continuous UI preflight.",
    "last_authentication_check": {
     "at": "2026-11-14T21:23:52+00:00",
     "result": "signed_in_observed_before_upload_interruption",

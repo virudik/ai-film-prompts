@@ -31,7 +31,7 @@ checked_at: 2026-11-14T20:02:31+00:00
 
 
 <!-- relay-current-start -->
-Relay #678 · 2026-11-14T20:32:12.935Z · slots:a3e98072:68 · blocked_browser, retryable=true. Fresh полный скан: 14 досок / 19 страниц / 1059 задач, занято 5/6; готов S89A-WAN30. Master raw/normalized SHA совпали, пять входов и порядок учтены. Браузер дважды, с паузой 45 с, потребовал исходный контекст; native upload, Wan 3.0 Unlimited0 и цена0 не подтверждены. claim/intent/Create=0. Следующий настоящий wake/плановый цикл повторяет браузерный доступ и полный preflight; next_action/recovery не менялись. Квитанция: reports/topview-event-wake.json.
+Relay #680 · 2026-11-14T21:39:40.436Z · slots:a3e98072:69 · blocked_browser, retryable=true. Fresh полный скан: 14 досок / 19 страниц / 1059 задач, занято 5/6; готов S89A-WAN30. Foreground Work подтвердил вход и точные SHA, но загрузка @Image1 была прервана до claim/intent/Create. Этот webhook-runtime дважды с паузой около 45 с получил требование исходного browser-контекста; непрерывный UI preflight, пять загрузок, Unlimited0 и цена0 не подтверждены. claim/intent/Create=0. Следующий настоящий wake/часовой или foreground Work с авторизованным исходным контекстом выполняет полный свежий preflight; next_action/recovery не менялись. Квитанция: reports/topview-event-wake.json.
 <!-- relay-current-end -->
 
 # 14.11.2026 — D7 ordinary: проверка очереди и передача смены
