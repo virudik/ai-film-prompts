@@ -11,9 +11,9 @@
   "route_generation": 3,
   "source_head": "dd737dd96177832f77d43fecf6203351e8a44705",
   "started_at": "2026-11-14T22:09:11.797Z",
-  "updated_at": "2026-11-14T22:09:57.047Z",
-  "phase": "started",
-  "status": "in_progress",
+  "updated_at": "2026-11-14T22:11:12.649Z",
+  "phase": "complete",
+  "status": "completed",
   "scan_complete": true,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -36,18 +36,20 @@
   "lease": {
     "holder": "chatgpt:ordinary:46018c3e-625d-46e5-a192-2574157f20b4",
     "acquired_at": "2026-11-14T22:09:11.797Z",
-    "expires_at": "2026-11-14T22:21:11.797Z",
-    "released_at": null,
-    "lock_outcome": "held",
+    "expires_at": null,
+    "released_at": "2026-11-14T22:11:12.649Z",
+    "lock_outcome": "released_atomically_with_final_receipt",
     "verified_start_readback": true
   },
-  "outcome": "in_progress",
+  "outcome": "no_free_slot",
   "blocker": {
     "code": "no_free_global_slot",
     "category": "capacity_full",
+    "details": "Fresh verified full 14-board/21-page scan lists six init video tasks in My First Board. S89A-WAN30 task 425108630b0e48c9a4b299fc89ad88ee was submitted earlier at 2026-11-14T21:32:23Z by another executor, now independently read through Topview board-task API. No Create is permitted at six physical active slots.",
+    "next_attempt_condition": "Next hourly scheduled read-only global scan; free capacity is a new observation, not inferred from previous events",
     "retryable_on_new_evidence": true
   },
-  "retryable": true,
+  "retryable": false,
   "acceptance": {
     "hourly_runtime_verified": true,
     "complete_read_only_scan_verified": true,
@@ -57,7 +59,8 @@
     "unlimited_zero_verified": false,
     "production_create_verified": false,
     "verified_task_id": null,
-    "full_background_launch_accepted": false
+    "full_background_launch_accepted": false,
+    "independently_verified_other_executor_submission_task_id": "425108630b0e48c9a4b299fc89ad88ee"
   },
   "checked_at": "2026-11-14T22:09:57.047Z",
   "scan": {
@@ -93,5 +96,6 @@
     "work_hh55_enabled": false,
     "relay_enabled": true
   },
-  "note": "Fresh 14-board/21-page/1060-task read-only scan: 6 physical init video slots. S89A-WAN30 already submitted by an independent earlier sender at 21:32:23Z, verified in Topview and the queue; do not duplicate. No browser/Create/claims/Topview credits. No active owner task. Existing schedule and route_generation3 unchanged."
+  "note": "Live Topview 14 boards, 21 pages, 1060 account tasks: 6/6 init videos, free 0. Queue/readiness SHA256 independently matched current queue and task-map; 63 queue items, 26 readiness entries, no claims/submission_unknown. New previously submitted S89A-WAN30 accepted at 2026-11-14T21:32:23Z, exact task 425108630b0e48c9a4b299fc89ad88ee in My First Board, Wan3/30s/720p/16:9/5 images, unlimited and 0 credits; created by OTHER executor, not this cycle. Next queue S89B-WAN30 only after independently proven capacity and fresh full preflight. TinyFish 0 runs, Topview 0 Create, costs 0. Owner task open=0. Ordinary HH00 enabled, Work HH55 disabled, Relay enabled. Route generation unchanged; next_action/recovery/checkpoint untouched.",
+  "finished_at": "2026-11-14T22:11:12.649Z"
 }
