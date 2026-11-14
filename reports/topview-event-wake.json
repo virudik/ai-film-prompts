@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-14T19:21:30.226Z",
+  "updated_at": "2026-11-14T19:23:13.337Z",
   "status": "relay_production_enabled",
   "event_automation_id": "6adc585e7ac08191bb93825117dc7213",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
@@ -1682,9 +1682,9 @@
       "issue_number": 676,
       "message_id": "247438235154509824",
       "relay_event_id": "evt_645fa9fb12114614b6b5aba239fc4969",
-      "checked_at": "2026-11-14T19:21:30.226Z",
+      "checked_at": "2026-11-14T19:23:13.337Z",
       "outcome": "started",
-      "reason": "Validated fresh Agent Relay event, exact configured sender, bot-authored issue marker/label, no exact live or archived duplicate, and acquired own canon lease by CAS/readback.",
+      "reason": "Validated event and completed fresh read-only scan of all editable boards/pages: 5/6 active video slots. Selected S89A-WAN30 from the fresh canonical queue after reconciling active tasks and zero open claim/submitting/submission_unknown items. Website UI preflight is in progress.",
       "task_ids": [],
       "retryable": true,
       "source": "Agent Relay webhook",
@@ -1695,9 +1695,9 @@
       "run_id_unavailable_reason": "Runtime run_id not exposed by this invocation.",
       "execution": {
         "state": "running",
-        "stage": "intake",
+        "stage": "account_scan",
         "started_at": "2026-11-14T19:21:30.226Z",
-        "updated_at": "2026-11-14T19:21:30.226Z",
+        "updated_at": "2026-11-14T19:23:13.337Z",
         "finished_at": null
       },
       "new_submissions": 0,
@@ -1705,7 +1705,57 @@
       "observed_at": "2026-11-14T19:10:58Z",
       "claim_created": false,
       "submission_intent_created": false,
-      "create_clicked": false
+      "create_clicked": false,
+      "scan": {
+        "checked_at": "2026-11-14T19:23:13.337Z",
+        "complete": true,
+        "boards_scanned": 14,
+        "pages_scanned": 19,
+        "all_board_tasks_seen": 1059,
+        "main_board": "My First Board",
+        "main_board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "main_board_tasks_seen": 732,
+        "occupied_slots": 5,
+        "free_slots": 1,
+        "active_task_ids": [
+          "bfdb6d9fad7a4ab29492f7bb95c78033",
+          "d775c7a483a44f13ba1704a1c418b208",
+          "8c6d92662d1043c7a651168b2b8280ae",
+          "1dcb6fa0628d41b098227ca6c96f1630",
+          "a1330998d39b486e864ed4e22b4fe8c4"
+        ],
+        "status_counts": {
+          "image:success": 368,
+          "video:success": 643,
+          "image:fail": 16,
+          "video:init": 5,
+          "video:fail": 27
+        }
+      },
+      "reconciliation": {
+        "open_claim_items": [],
+        "submitted_live_task_ids": [
+          "bfdb6d9fad7a4ab29492f7bb95c78033"
+        ],
+        "unmapped_active_task_ids": [
+          "d775c7a483a44f13ba1704a1c418b208"
+        ],
+        "selected_item": "S89A-WAN30",
+        "selected_item_independent_of_unknown": true
+      },
+      "peer_checks": {
+        "ordinary_receipt_checked_at": "2026-11-14T19:08:55Z",
+        "ordinary_outcome": "blocked_native_canonical_input_import_with_verified_free_slot",
+        "ordinary_free_slots": 1,
+        "work_hourly_receipt_state": "in_progress_2026-11-14T04:53:19.362Z_not_current_execution_proof"
+      },
+      "browser_attempts": [
+        {
+          "at": "2026-11-14T19:23:13.339Z",
+          "surface": "connected_extension",
+          "outcome": "originating_browser_context_required"
+        }
+      ]
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
