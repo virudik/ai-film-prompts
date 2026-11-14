@@ -1379,9 +1379,9 @@
       "issue_number": 666,
       "message_id": "247377691159568384",
       "relay_event_id": "evt_5ddd32db23c2d52f67dae9d6f859bd3f",
-      "checked_at": "2026-11-14T15:16:07.458Z",
+      "checked_at": "2026-11-14T15:20:55.226Z",
       "outcome": "started",
-      "reason": "Verified sender, bot issue and exact dedupe; own lease read back",
+      "reason": "Topview connector UNAUTHORIZED; originating browser unavailable on first attempt. Existing submissions retained; live reconciliation unavailable.",
       "task_ids": [],
       "retryable": true,
       "source": "Agent Relay webhook",
@@ -1392,9 +1392,9 @@
       "run_id_reason": "Runtime run_id not exposed",
       "execution": {
         "state": "started",
-        "stage": "intake",
+        "stage": "browser_access",
         "started_at": "2026-11-14T15:16:07.458Z",
-        "updated_at": "2026-11-14T15:16:07.458Z"
+        "updated_at": "2026-11-14T15:20:55.226Z"
       },
       "new_submissions": 0
     }
