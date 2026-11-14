@@ -1,17 +1,23 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-13T13:19:53Z",
+  "checked_at": "2026-11-14T12:24:16Z",
   "window_hours": 24,
-  "verdict": "no_free_slots",
+  "verdict": "free_slots_idle_no_schedule_launch",
   "launches": [],
   "launches_by_schedule": 0,
   "launches_by_chat": 0,
-  "free_slot_observations": [],
-  "ready_items_waiting": 16,
+  "free_slot_observations": [
+    {
+      "at": "2026-11-13T14:40:40Z",
+      "occupied": 5,
+      "capacity": 6
+    }
+  ],
+  "ready_items_waiting": 26,
   "launcher_health": {
     "state": "capacity_full",
     "unresolved": false,
-    "episode": "d782d1b7",
+    "episode": "16acfb4d",
     "unresolved_since": null,
     "reason": "no_free_global_slot; launcher_health_not_proven",
     "free_slots_global": 0,
@@ -31,20 +37,30 @@
       "S28-A1-R2-20261025",
       "S28-A2-R2-20261025",
       "S51G",
-      "S28-A13-20261030"
+      "S28-A13-20261030",
+      "S89A-WAN30",
+      "S89B-WAN30",
+      "S89C-WAN30",
+      "S89D-WAN30",
+      "S89E-WAN30",
+      "S89F-WAN30",
+      "S89G-WAN30",
+      "S89H-WAN30",
+      "S89I-WAN30",
+      "S89J-WAN30"
     ],
     "reconciliation_items": [],
-    "last_event_id": "slots:c8bf02e8:61",
-    "receipt_present": false,
-    "handler_outcome": null,
-    "execution_stage": null,
-    "execution_updated_at": null,
+    "last_event_id": "result:be627af0e9664db5b6ac2b62c34080a6",
+    "receipt_present": true,
+    "handler_outcome": "blocked_browser",
+    "execution_stage": "blocked_browser",
+    "execution_updated_at": "2026-11-13T14:49:27.802Z",
     "runtime_run_id": null,
     "confirmed_launch_task_ids": [],
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
     "escalation_attempted_episode": "c8bf02e8",
-    "checked_at": "2026-11-13T13:00:36Z"
+    "checked_at": "2026-11-14T12:00:36Z"
   },
   "launcher_observation_stale": false,
   "note": "Только чтение репозитория. Запуск из расписания = run_id с префиксом chatgpt-scheduled."
