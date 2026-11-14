@@ -3,39 +3,39 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-14T18:33:52+00:00",
-  "source_head": "4e3dd0a3d61e152f3350b8afe6966416cd383f59",
-  "source_fingerprint": "33c55d52d701bbdf35a91fe3e2aa485c8f677cff8dff5199a229edafbc07499a",
+  "checked_at": "2026-11-14T18:43:46+00:00",
+  "source_head": "7fa8ae9e1314cef2d6931bff18260f7272836cae",
+  "source_fingerprint": "e5f403e7aa3a9377ef179854584291ad7eb360d18ba9a2c618e82a888cd8d790",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": {
-    "receipt_id": "ordinary-continue-20261112-3a2c71bf",
+    "receipt_id": "ordinary-continue-20261114-9ed5b31a",
     "project": "seregius",
-    "work_id": "SEREGIUS-SASHA-PHOTOGRAPHER-20261110",
+    "work_id": "SEREGIUS-SHIFT-20261113-T611U",
     "chat": {
-      "agent": "chatgpt:ordinary:3a2c71bf-102a-489f-a857-4c29f9f774a5",
-      "label": "ChatGPT ordinary — продолжение Серёгиуса",
-      "session_id": "chatgpt-ordinary-continue-20261112-3a2c71bf-102a-489f-a857-4c29f9f774a5",
+      "agent": "chatgpt:ordinary:9ed5b31a-5bbb-4c55-bd73-e7b4da42b5cc",
+      "label": "ChatGPT ordinary — продолжение проекта Серёгиус",
+      "session_id": "chatgpt-ordinary-continue-20261114-9ed5b31a-5bbb-4c55-bd73-e7b4da42b5cc",
       "chat_id": null,
       "identity_status": "unavailable",
-      "identity_note": "Текущий conversation ID не предоставляется коннектором"
+      "identity_note": "Текущий conversation ID не предоставляется"
     },
-    "accepted_at": "2026-11-12T21:26:24.000Z",
+    "accepted_at": "2026-11-14T18:43:19.304Z",
     "outcome": "accepted",
     "first_action": {
-      "at": "2026-11-12T21:26:24.000Z",
+      "at": "2026-11-14T18:43:19.304Z",
       "state": "completed",
-      "description": "Выполнен свежий D7 preflight 8/8 и 15/15; проверено текущее состояние сцены 88 и сохранена передача ordinary epoch 4→5 без изменения очередей и генераций.",
-      "evidence": "ops/slot-backup.json foreground_owners.ordinary; reports/current-work-checkpoint.md; project-status.json; topview-status.json; live Supabase owner_decisions"
+      "description": "Сверены 8/8 SHA и 15/15; прочитана живая очередь, исключены дубли S48/S51, проверена невозможность Topview UI в этом ordinary браузерном контексте; передача ordinary epoch 5→6. Никаких видео, оплаты или новых заявок.",
+      "evidence": "ops/slot-backup.json foreground_owners.ordinary; reports/current-work-checkpoint.md; topview-status.json; ops/topview-launch-queue.json; Supabase owner_decisions"
     },
-    "source_head": "a5caa27cc8a2b1e7462a065a82ade29a6a9f2adc"
+    "source_head": "c146647ab4c0ab5c2e75186c921a95dd26376bc6"
   },
   "reasons": [
-    "recovery evidence changed: ops/topview-launch-queue.json"
+    "selected checkpoint hash mismatch"
   ],
   "selected_work": null,
-  "checkpoint_text": "# 13.11.2026 17:05 МСК — контрольная точка t611u\n\nwork_id: SEREGIUS-SHIFT-20261113-T611U\n\n- PR 604 влит: сцена 89, Wan 3.0, 30 с, 0 кредитов. Merge `d8632c517b3f8f85d3d1d4990f561711b3419652`.\n- PR 631 влит 13.11.2026 17:04 МСК. Merge `e9389decb39d133ad5023cbe8dbfe8e70efd6af5`.\n- Очередь Topview (t601u). Из этого списка в Topview ещё ничего не отправлено. Запуск только при свободном слоте, сайт Unlimited, 0 кредитов: 1) `S48-P4-R2` — переделка 48.4, дефект прежнего ролика: два Серёги в кадре; 2) совет джедаев 89A–89E и голограммы 89F–89G; 3) оставшиеся танцы сцены 28; 4) 89H–89J.\n- Свои версии Grok сделаны через GenerateVideo, это не запуск очереди и не приёмка. 48.4 v1–v4 лежат в Drive-папке `1odIGtDi9ld7elxGNH_04lxoW-afgJld2`: в v4 нет доски и панели на груди, но остаются двойная экспозиция около 6.5 с, у червя мелькают ноги около 3 с, хвост во дворе. 48.3 лежит в папке `1nytVCkQSsp2EXjTm7WvYRfOWVGpkF2gu`: один Серёга, города нет; минусы — гребень около 4 с, средний план, взгляд в камеру. Ждём отзыва Виталика. Пока он сам не скажет иное, очередь `S48-P4-R2` эти версии не заменяет.\n- Открыто: ОСАГО Kia (около 16.11, ждём ответа); заявка HONOR (16.11.2026 12:00 МСК); «Разное» 1/2; перенос YouTube на Rutube и чистка MP4 на GitHub; S13; S62; S49A-R2; выбор переделок своих клипов сцены 89.\n- Не трогать PR 369, 370 и 371.\n- Следующий шаг: новых генераций из этой записи не создавать. Свободный слот берёт следующий готовый пункт живой очереди, Unlimited, 0 кредитов. Сцена 88 по-прежнему ждёт художественной оценки владельца и этим шагом не закрыта.\n\nchecked_at: 2026-11-13T14:05:00Z\n",
+  "checkpoint_text": "# 14.11.2026 — D7 ordinary: проверка очереди и передача смены\n\nwork_id: SEREGIUS-SHIFT-20261113-T611U\n\n- Полный приём D7 из свежего GitHub main: 15/15 якорей и SHA256 всех 8 канонических источников совпали; после изменения очереди относительно старого recovery выбран полный приём. Resume focus сохранён (SEREGIUS-SHIFT-20261113-T611U); 7 инструкций прочитаны, master байты проверены через blob.\n- Живые источники: проект health=ok, монитор primary=robot, Topview снимок 2026-11-14T18:10:27Z: занято 5/6, свободно 1; очередь t601u: S48-P4-R2 и S51E/F/G уже submitted, в работе. S89A-WAN30 — следующий разрешённый waiting_for_slot/authorized_inputs_available, пять референсов; текущий чат не создавал новые задачи, не менял очереди и не тратил кредиты.\n- Capability preflight текущего обычного чата: Browser.list_tabs требует originating browser context; соединение с авторизованной формой Topview, проверка native file upload и Unlimited0/price0 здесь невозможны. Последний независимый полный скан Relay #674 (2026-11-14T18:10:27Z) также blocked_browser. claim/intent/Create=0; неизвестные отправки и уже выданные task_id сохраняются.\n- Проверены живые GitHub owner-tasks: open/taken/needs_owner=0; Supabase owner_decisions: новых pending/in_progress нет, историческая needs_owner to:grok отдельно. Scene 88 ждёт художественную оценку; PR 369–371 не трогать.\n- Принята foreground ordinary-смена epoch 5→6 (session_id локальный, реальный conversation ID недоступен). Work/Grok, расписания, route_generation и старые claims не менялись. Следующий шаг: только в новом реально авторизованном браузерном исполнении снова полный скан, точные исходники и UI Unlimited0, затем собственный замок/CAS, один Create для следующего ещё не отправленного item. Без этих доказательств — никакого Create.\n\nchecked_at: 2026-11-14T18:43:19.304Z\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -582,18 +582,18 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "723c88b7b7882fbbd3f18a4f7ac7edf8b2042b5248ffb9d08d2bc2a452104a84",
+      "sha256": "9d3193b7628bfdefcfbbbc3394768af1de4cb9de3e2dfdbfd7783a111fc66fcc",
       "bytes": 29560
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "35c56204d4f587a8650118c6467e7b5494d18df537f083175e7d95382c559eb7",
-      "bytes": 13616
+      "sha256": "22be0cfdcde0e4f9cb25a49b876d23467a2405bbc91b30c22dccdc250ccde3c8",
+      "bytes": 16291
     },
     {
       "file": "reports/handoff-receipts.json",
-      "sha256": "736d2adce5a3ef92eb39ef40206b801dfebedfef0b382397b53abfac045f7df4",
-      "bytes": 75071
+      "sha256": "0a1fcb73173392deae4993ca7a4ee7dc8a98030ba32d37ad9f142f4c7d59ca0b",
+      "bytes": 78702
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -612,9 +612,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "eace72d28f604bc27f7784c2fe11d962c00e94020c867b56558e0213d90a1d0e",
-      "bytes": 102697
+      "sha256": "016a779569c661ec75607515375e62f3dbae18c4ec7dca7c2794fa7a4672317c",
+      "bytes": 104112
     }
   ],
-  "packet_bytes": 6268
+  "packet_bytes": 6516
 }
