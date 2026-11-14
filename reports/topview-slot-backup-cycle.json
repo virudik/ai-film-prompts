@@ -4,29 +4,22 @@
   "source": "ChatGPT scheduled ordinary",
   "runner": "chatgpt_scheduled_task",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "run_id": null,
-  "run_id_unavailable_reason": "Automations.get returned HTTP 404 action not found; runtime run ID not surfaced by this scheduled run",
-  "runtime_run_id_source": null,
-  "execution_instance_id": "39c0c943-c827-46bf-bc9e-397034cf8267",
+  "run_id": "a36f6be0-3450-8331-b42c-6544644766ec",
+  "runtime_run_id_source": "Automations.peek last_run.id scheduled_for 2026-11-14T05:00:00Z, started_at 2026-11-14T05:02:48.046981Z",
+  "run_id_unavailable_reason": null,
+  "execution_instance_id": "59ecaf6c-341f-4931-9220-8b1a83c220be",
   "route_generation": 3,
-  "source_head": "b52e679fcecb020550804c0e1ac64398d8bbb45f",
-  "started_at": "2026-11-14T04:07:46.972Z",
-  "updated_at": "2026-11-14T04:11:21.730Z",
-  "checked_at": "2026-11-14T04:09:30.773Z",
-  "phase": "completed",
-  "status": "completed",
-  "scan_complete": true,
-  "occupied_slots": 6,
-  "free_slots": 0,
+  "source_head": "5a4872d2c031665a7dbc0a3f9e2712510337c4be",
+  "started_at": "2026-11-14T05:02:48.046981Z",
+  "updated_at": "2026-11-14T05:09:48.258Z",
+  "checked_at": null,
+  "phase": "started",
+  "status": "in_progress",
+  "scan_complete": false,
+  "occupied_slots": null,
+  "free_slots": null,
   "selected_item": null,
-  "task_ids": [
-    "bfdb6d9fad7a4ab29492f7bb95c78033",
-    "d775c7a483a44f13ba1704a1c418b208",
-    "8c6d92662d1043c7a651168b2b8280ae",
-    "1dcb6fa0628d41b098227ca6c96f1630",
-    "a1330998d39b486e864ed4e22b4fe8c4",
-    "3a09108c8c474a0989118806b4a69f91"
-  ],
+  "task_ids": [],
   "new_submissions": 0,
   "topview_credits_spent": 0,
   "browser_transport": "not_used",
@@ -36,30 +29,30 @@
     "estimated_usd": 0,
     "confirmed_charge_usd": 0,
     "attempts": 0,
-    "reason": "All 6 physical Topview video slots occupied; no metered browser use"
+    "reason": "No paid browser for capacity/read-only checks; existing unresolved native-file-import blocker"
   },
   "lease": {
-    "holder": "chatgpt:ordinary:39c0c943-c827-46bf-bc9e-397034cf8267",
-    "acquired_at": "2026-11-14T04:07:46.972Z",
-    "expires_at": "2026-11-14T04:22:46.972Z",
-    "acquired_commit": "b52e679fcecb020550804c0e1ac64398d8bbb45f",
-    "released": true,
-    "released_at": "2026-11-14T04:11:21.730Z"
+    "holder": "chatgpt:ordinary:59ecaf6c-341f-4931-9220-8b1a83c220be",
+    "acquired_at": "2026-11-14T05:09:09.226Z",
+    "expires_at": "2026-11-14T05:24:09.226Z",
+    "acquired_commit": "5a4872d2c031665a7dbc0a3f9e2712510337c4be",
+    "released": false,
+    "released_at": null
   },
-  "outcome": "no_free_slot",
+  "outcome": null,
   "blocker": null,
-  "retryable": false,
+  "retryable": null,
   "expenses": {
     "topview_credits": 0,
     "external_usd": 0
   },
-  "completed_at": "2026-11-14T04:10:22.693Z",
+  "completed_at": null,
   "execution": {
     "hourly_scheduled_execution": true,
-    "platform_run_id_verified": false,
+    "platform_run_id_verified": true,
     "read_only_scan": true,
-    "global_scan_complete": true,
-    "receipt_write_mode": "GitHub contents file-SHA CAS and readback; release is separate commit"
+    "global_scan_complete": false,
+    "receipt_write_mode": "GitHub contents SHA CAS with readback; final release via lease compare-and-swap"
   },
   "acceptance": {
     "scheduled_runtime": true,
@@ -68,81 +61,5 @@
     "unlimited0_preflight_verified_this_run": false,
     "task_id_verified_this_run": false,
     "full_end_to_end_launch_verified": false
-  },
-  "source_head_pre_final": "baaf22fb6aa3374427dd4c4baf3f5362b5fed344",
-  "scan": {
-    "source": "Topview connector read-only",
-    "all_boards_scanned": 14,
-    "pages_scanned": 19,
-    "unique_video_tasks": 675,
-    "success": 642,
-    "fail": 27,
-    "active": 6,
-    "scan_complete": true,
-    "active_task_ids": [
-      "bfdb6d9fad7a4ab29492f7bb95c78033",
-      "d775c7a483a44f13ba1704a1c418b208",
-      "8c6d92662d1043c7a651168b2b8280ae",
-      "1dcb6fa0628d41b098227ca6c96f1630",
-      "a1330998d39b486e864ed4e22b4fe8c4",
-      "3a09108c8c474a0989118806b4a69f91"
-    ],
-    "main_board_id": "1a6244cf1ae747ef847d949a80d6133c",
-    "main_board_name": "My First Board",
-    "active_model": "Seedance 2.0",
-    "active_duration_seconds": 15,
-    "active_resolution": "720p",
-    "active_aspect_ratio": "16:9",
-    "active_unlimited": true,
-    "active_topview_credit_cost": 0,
-    "scanned_at": "2026-11-14T04:09:30.773Z"
-  },
-  "queue_reconciliation": {
-    "queue_items": 63,
-    "queue_states": {
-      "blocked_owner_decision": 1,
-      "waiting_for_slot": 26,
-      "submitted": 30,
-      "completed": 3,
-      "blocked_inputs": 3
-    },
-    "transitional_claims": 0,
-    "processed_task_ids": 139,
-    "processed_task_ids_found": 139,
-    "submitted_queue_task_ids": 33,
-    "submitted_queue_task_ids_found": 33,
-    "source_queue_sha256": "92e5bd1d8eefc604d634fb24d7c81349dcd69a411193b37d338e4e15be70b0e8",
-    "source_task_map_sha256": "cd48870af26f6371d5abcc1d617bb81610a0c32d60b609c666ff5902d15f3889",
-    "readiness_source_sha256_match": true,
-    "readiness_checked_at": "2026-11-14T04:00:38.889533Z",
-    "checked_at": "2026-11-14T04:09:30.773Z"
-  },
-  "peer_reconciliation": {
-    "work_hh55_last_receipt_time": "2026-11-14T03:57:39.024Z",
-    "work_hh55_receipt_outcome": "no_free_slot",
-    "relay_last_receipt_time": "2026-11-06T05:55:16.981Z",
-    "automation_get": "HTTP 404 Action not found for all three automation IDs",
-    "runtime_run_id_matched": false,
-    "note": "No platform run ID surfaced; historical signals and receipts not treated as this run or present free capacity"
-  },
-  "owner_tasks_check": {
-    "open": 0,
-    "taken": 0
-  },
-  "work_capacity_check": {
-    "preferred_executor": "work",
-    "route_generation": 3,
-    "state": "restored_verified",
-    "restoration_changed": false,
-    "note": "Historic Work restoration evidence retained; no fresh verified GUI/quota result to justify altering role"
-  },
-  "results_check": {
-    "new_terminal_from_active_set": 0,
-    "scene28_new_result_available": false,
-    "note": "All six unchanged active Topview tasks; no new terminal result"
-  },
-  "finalization": {
-    "write_method": "sequential file-sha CAS; not a shared atomic multi-file commit",
-    "release_requested_at": "2026-11-14T04:11:21.730Z"
   }
 }
