@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-14T21:31:00+00:00",
-  "source_head": "1ee43f3b12562cc1efdc384953c3f7480304ad00",
-  "source_fingerprint": "683baa96f1783ab849476de6a7623dd825e28de79543d884e798aed5aa40b8ee",
+  "checked_at": "2026-11-14T21:40:54+00:00",
+  "source_head": "730565cc6e9222596716cab9ac3140e65c913c57",
+  "source_fingerprint": "8dcf6d31c4c48b53215abc877c7a10ca30553b4d810a8831c0616705968cb3fa",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -609,13 +609,13 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "540b71e64810285ae1b02989e3f4b22fbef82764ed67347cb57de5b8746b9b25",
-      "bytes": 29562
+      "sha256": "abf73590a963c41b517bc8a814553cc9b91afcb798e9fd3a5c7582b17702bb89",
+      "bytes": 29588
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "a4a74b5e07c4e95e130011877b385e956b5b7c5726bee7aa9dc9f5dd3083b590",
-      "bytes": 23080
+      "sha256": "b41c83da9c8bd7fa798b4491db205ccd1685dc7f04bc1e3fe7be3c2e4525f847",
+      "bytes": 23278
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -634,18 +634,18 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "b5e85b0a965e4a70b0181ca6c01356e507a45a8531d3821d4338364bd9f08d65",
-      "bytes": 32399
+      "sha256": "9bd8ebbf32efc5d5322f24506414787c375cef945df06d5ac281a7de26d18282",
+      "bytes": 32407
     },
     {
       "file": "video-prompts.md",
-      "sha256": "20630c5c2059b0a15389ee580072ce12b871f97b520e18ea91647db081736971",
-      "bytes": 1983745
+      "sha256": "74c98c9a5e8f51c5d88f990a38abed5cacbb44bc43018d7b4bc8155f50a1319f",
+      "bytes": 1984092
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "a83855ead58fedc10bc3a830a7cb6ea1cd7caf61461e718cf1fce469e5607119",
-      "bytes": 99007
+      "sha256": "0ea2b823cf853090636886627672200c6ebd144b0a8145b6b27e25f539b7bc9d",
+      "bytes": 99108
     }
   ],
   "packet_bytes": 8727
