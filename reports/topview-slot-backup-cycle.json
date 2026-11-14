@@ -11,9 +11,9 @@
   "route_generation": 3,
   "source_head": "3be57ee278cfd66d70be5feb62243de3af8c5ff5",
   "started_at": "2026-11-14T16:09:10.835Z",
-  "updated_at": "2026-11-14T16:09:54.708Z",
-  "phase": "started",
-  "status": "in_progress",
+  "updated_at": "2026-11-14T16:15:05.576Z",
+  "phase": "completed",
+  "status": "completed",
   "scan_complete": false,
   "occupied_slots": null,
   "free_slots": null,
@@ -28,19 +28,30 @@
     "steps": 0,
     "estimated_usd": 0,
     "confirmed_charge_usd": 0,
-    "reason": "No paid run before full independent read-only scan and UI import capability confirmation"
+    "reason": "No paid run: independent Topview read-only board list requests interactive approval in non-interactive scheduled runtime. Prior native UI original-file import blocker unchanged; no verified full UI preflight or Unlimited0. Avoid repeated metered testing."
   },
   "lease": {
     "holder": "chatgpt:ordinary:307ab641-a770-481b-80e0-c00f939a4e3c",
     "acquired_at": "2026-11-14T16:09:10.835Z",
     "expires_at": "2026-11-14T16:21:10.835Z",
     "acquired_commit": "3be57ee278cfd66d70be5feb62243de3af8c5ff5",
-    "released": false,
-    "released_at": null
+    "released": true,
+    "released_at": "2026-11-14T16:15:05.576Z"
   },
-  "outcome": null,
-  "blocker": null,
-  "retryable": null,
+  "outcome": "blocked_independent_live_scan_while_robot_reports_one_free_slot",
+  "blocker": {
+    "code": "independent_topview_scan_unavailable",
+    "at": "2026-11-14T16:15:05.576Z",
+    "details": "Read-only Topview connector requires interactive user approval in this scheduled execution. GitHub monitor at 2026-11-14T15:30:24Z reported 5/6, shadow light scan at 2026-11-14T16:10:32Z also 5/6; neither is an independently authenticated full all-board/all-page scan. Existing TinyFish original-media import blocker remains unverified. No Create attempted. Existing S49B/S51E/S51F/S51G waiting statuses require reconciliation with already recorded task IDs; one active remains unmapped.",
+    "reconciliation_required_for_future": [
+      "S49B",
+      "S51E",
+      "S51F",
+      "S51G",
+      "unmapped active d775c7a483a44f13ba1704a1c418b208"
+    ]
+  },
+  "retryable": true,
   "acceptance": {
     "scheduled_runtime_observed": true,
     "actual_platform_run_id_verified": true,
@@ -51,5 +62,53 @@
     "unlimited_zero_this_cycle": false,
     "confirmed_topview_task_id_this_cycle": false
   },
-  "checked_at": null
+  "checked_at": "2026-11-14T16:15:05.576Z",
+  "scan": {
+    "source": "GitHub robot monitor and light shadow scan; independent Topview connector scan blocked by interactive approval",
+    "robot_checked_at": "2026-11-14T15:30:24Z",
+    "robot_occupied_slots": 5,
+    "robot_free_slots": 1,
+    "robot_scope": "all_owned_board_counts_plus_ai_film_latest_100_plus_direct_known_active",
+    "shadow_checked_at": "2026-11-14T16:10:32Z",
+    "shadow_scan_mode": "light",
+    "shadow_scan_complete": false,
+    "shadow_occupied_slots": 5,
+    "shadow_free_slots": 1,
+    "robot_last_full_scan_at": "2026-11-14T13:40:47Z",
+    "robot_boards_scanned": 14,
+    "robot_light_tasks_seen": 20,
+    "readiness_checked_at": "2026-11-14T15:30:32.322542Z",
+    "queue_item_count": 63,
+    "readiness_item_count": 30,
+    "processed_task_id_count": 140,
+    "source_queue_sha256_match": true,
+    "source_task_map_sha256_match": true,
+    "source_sha256_verification": "Independent raw UTF-8 SHA-256 computed in this execution and matched both readiness fields",
+    "open_owner_tasks": 0,
+    "open_claim_items": [],
+    "active_by_scene": {
+      "48": [
+        "bfdb6d9fad7a4ab29492f7bb95c78033"
+      ],
+      "51": [
+        "1dcb6fa0628d41b098227ca6c96f1630",
+        "8c6d92662d1043c7a651168b2b8280ae",
+        "a1330998d39b486e864ed4e22b4fe8c4"
+      ]
+    },
+    "unmapped_active_task_ids": [
+      "d775c7a483a44f13ba1704a1c418b208"
+    ],
+    "latest_slot_wake_issue": 669,
+    "latest_event_id": "slots:a3e98072:64",
+    "launcher_health_checked_at": "2026-11-14T16:10:40Z",
+    "launcher_health_state": "launch_stalled",
+    "runtime_peers": {
+      "relay_id": "6adc585e7ac08191bb93825117dc7213",
+      "relay_last_completed_at": "2026-11-14T16:02:09.501908Z",
+      "work_hourly_id": "6acae6ab433481919e88665c520b8ef2",
+      "work_hourly_enabled": false
+    }
+  },
+  "note": "One free slot in robot snapshot is not independently verified live capacity. S89A-WAN30 is the highest-priority eligible waiting item (S48-P4-R2 already submitted), but no selection/claim possible without full scan and verified UI preflight. No Create, no TinyFish spend. Existing HH:00 task remains enabled; route_generation=3. No checkpoint/recovery next_action change."
 }
