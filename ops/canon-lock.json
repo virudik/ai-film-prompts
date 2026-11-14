@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:7664d92f-63b0-4b7d-b6c7-a88dc7d5a47e",
-  "task": null,
-  "acquired_at": "2026-11-14T21:03:13.830Z",
-  "expires_at": null,
-  "released_at": "2026-11-14T21:10:53.241Z",
+  "state": "held",
+  "holder": "chatgpt:work:5aa51c3f-d13e-43db-98c3-5d92456aa6fb",
+  "task": "Save verified authentication and interrupted S89A upload checkpoint; no Create",
+  "acquired_at": "2026-11-14T21:22:40.958Z",
+  "expires_at": "2026-11-14T21:32:40.958Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
