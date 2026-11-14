@@ -4,17 +4,17 @@
   "source": "ChatGPT scheduled ordinary",
   "runner": "chatgpt_scheduled_task",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "run_id": "c4e9a310-f3f8-8322-9bb7-87f32b776ff0",
+  "run_id": "b0129caa-fb98-832d-b4a0-2cf046341684",
   "run_id_unavailable_reason": null,
-  "runtime_run_id_source": "Automations.peek last_run.id in_progress scheduled_for 2026-11-14T00:00:00Z",
-  "execution_instance_id": "38cf81d5-0094-43dd-acac-cfc4aa16eaa7",
+  "runtime_run_id_source": "Automations.peek last_run.id in_progress scheduled_for 2026-11-14T01:00:00Z",
+  "execution_instance_id": "3a9f45ae-af74-4897-b97f-ac836623d902",
   "route_generation": 3,
-  "source_head": "f6268fd6a3e4d5f8b3de5d9abf54084d71e7332f",
-  "started_at": "2026-11-13T23:56:50.201413Z",
-  "updated_at": "2026-11-14T00:06:08.322Z",
-  "checked_at": "2026-11-14T00:06:08.322Z",
-  "phase": "completed",
-  "status": "completed",
+  "source_head": "cca7d6b84b508913806f4257313323a7f1f7fbc0",
+  "started_at": "2026-11-14T01:00:35.501445Z",
+  "updated_at": "2026-11-14T01:04:05.049Z",
+  "checked_at": "2026-11-14T01:04:05.049Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan_complete": true,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -38,12 +38,11 @@
   },
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:38cf81d5-0094-43dd-acac-cfc4aa16eaa7",
-    "acquired_at": "2026-11-14T00:01:49.216Z",
-    "expires_at": "2026-11-14T00:21:49.216Z",
-    "acquired_commit": "cdd42e88e7c9476c8c3ec92e6baddcc35937287a",
-    "released": true,
-    "released_at": "2026-11-14T00:06:08.322Z"
+    "holder": "chatgpt:ordinary:3a9f45ae-af74-4897-b97f-ac836623d902",
+    "acquired_at": "2026-11-14T01:03:29.726Z",
+    "expires_at": "2026-11-14T01:23:29.726Z",
+    "acquired_commit": "c56f9f6dcdacd4d5eef1b66f7ca3e6f37258ec95",
+    "released": false
   },
   "outcome": "no_free_slot",
   "blocker": null,
@@ -53,7 +52,7 @@
     "current_tinyfish_login_control_file_upload_unlimited0_verified": false,
     "topview_task_id_verified_for_this_run": false,
     "end_to_end_background_submission_verified": false,
-    "receipt_saved_and_verified": true
+    "receipt_saved_and_verified": false
   },
   "new_submissions": 0,
   "scan": {
@@ -75,7 +74,7 @@
       "a1330998d39b486e864ed4e22b4fe8c4",
       "3a09108c8c474a0989118806b4a69f91"
     ],
-    "checked_at": "2026-11-14T00:02:33.542Z",
+    "checked_at": "2026-11-14T01:04:05.049Z",
     "main_board_id": "1a6244cf1ae747ef847d949a80d6133c",
     "main_board_video_tasks": 508,
     "active_params": {
@@ -83,52 +82,13 @@
       "duration_seconds": 15,
       "resolution": 720,
       "aspect_ratio": "16:9",
-      "useUnlimitMode": true
+      "useUnlimitMode": true,
+      "credits_cost": 0
     }
   },
   "execution": {
-    "state": "completed",
-    "stage": "no_free_slot",
-    "updated_at": "2026-11-14T00:06:08.322Z"
-  },
-  "completed_at": "2026-11-14T00:06:08.322Z",
-  "source_head_final": "156744386133e214f8b15f9601b4dccaeead389d",
-  "queue_reconciliation": {
-    "status": "sha_verified_no_create",
-    "queue_items": 63,
-    "readiness_items": 30,
-    "readiness_ready": 26,
-    "transitional_claims": 0,
-    "queue_submitted_task_ids": 30,
-    "task_map_processed_count": 139,
-    "task_id_crossmatch_in_this_run": "all 139 processed task-map taskIDs and 30 submitted queue IDs independently located on 508-video main board scan",
-    "source_queue_sha256": "92e5bd1d8eefc604d634fb24d7c81349dcd69a411193b37d338e4e15be70b0e8",
-    "source_task_map_sha256": "00dcffe800ed41ad433b2de7f1d36e19afd772f15b79f378625f1ddcafce681a",
-    "sha256_match_independently_verified": true,
-    "checked_at": "2026-11-14T00:04:47.974Z",
-    "historical_unknown_note": "S49B archived 2026-11-07 submission_unknown retained as historical; no new Create or reset"
-  },
-  "peer_reconciliation": {
-    "ordinary_automation_enabled": true,
-    "work_hh55_enabled": true,
-    "relay_handler_enabled": true,
-    "ordinary_runtime_run_id": "c4e9a310-f3f8-8322-9bb7-87f32b776ff0",
-    "ordinary_latest_result_run_id": "cedefe40-38b4-832d-b9af-262c10245128",
-    "work_runtime_run_id": "c8ac199e-cfd0-832e-9088-c5e78b48f381",
-    "relay_runtime_run_id": "cf95fc42-67c8-832e-9995-dd98919c4e09",
-    "old_free_slot_issues_not_current_capacity": true
-  },
-  "owner_tasks_check": {
-    "open": 0,
-    "taken": 0
-  },
-  "work_capacity_check": {
-    "preferred_executor": "work",
-    "route_generation": 3,
-    "note": "Registry retains verified 2026-11-02 Work restoration; no fresh GUI/quota evidence this cycle, no route change."
-  },
-  "expenses": {
-    "tinyfish_usd": 0,
-    "topview_credits": 0
+    "state": "in_progress",
+    "stage": "receipt_started",
+    "updated_at": "2026-11-14T01:04:05.049Z"
   }
 }
