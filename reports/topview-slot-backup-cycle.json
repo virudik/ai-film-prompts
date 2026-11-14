@@ -11,10 +11,10 @@
   "route_generation": 3,
   "source_head": "b981cbce3c986138998f7d70c863603bf2d7fb86",
   "started_at": "2026-11-14T07:00:04.670146Z",
-  "updated_at": "2026-11-14T07:07:53.719Z",
-  "checked_at": null,
-  "phase": "started",
-  "status": "running",
+  "updated_at": "2026-11-14T07:09:34.517Z",
+  "checked_at": "2026-11-14T07:09:34.517Z",
+  "phase": "completed",
+  "status": "completed",
   "scan_complete": false,
   "occupied_slots": null,
   "free_slots": null,
@@ -29,23 +29,29 @@
     "attempts": 0,
     "estimated_usd": 0,
     "confirmed_charge_usd": 0,
-    "reason": "Not invoked; live connector cannot authorize read-only full scan and robot shows 6/6."
+    "reason": "No paid run: live connector requested non-interactive user input; latest full robot 6/6 and shadow light scan 6/6. Existing 2026-11-06 native original-image import blocker unchanged; no new evidence warrants paid re-test."
   },
   "lease": {
     "holder": "chatgpt:ordinary:45ba6e1a-bd1d-4a1e-ad3e-eb1a5d51bb08",
     "acquired_at": "2026-11-14T07:07:15.432Z",
     "expires_at": "2026-11-14T07:22:15.432Z",
     "acquired_commit": "b981cbce3c986138998f7d70c863603bf2d7fb86",
-    "released": false
+    "released": true,
+    "released_at": "2026-11-14T07:09:34.517Z"
   },
-  "outcome": "started",
-  "blocker": null,
+  "outcome": "no_create_last_robot_six_of_six_live_connector_blocked",
+  "blocker": {
+    "code": "topview_connector_requires_interactive_user_input",
+    "details": "Read-only Topview list_boards(mode=all) failed with User input required in non-interactive scheduled run. No independent fresh account-wide task scan. Last authoritative GitHub robot at 2026-11-14T06:40:28Z reported 6/6 with 675 unique video tasks across 14 boards and 17 pages. Shadow read-only at 2026-11-14T07:00:28Z counted 6/6 but has complete=false, not independent capacity proof. No Create possible safely; do not use metered TinyFish for polling. Existing file-import blocker remains.",
+    "at": "2026-11-14T07:09:34.517Z"
+  },
   "retryable": true,
   "execution": {
     "hourly_scheduled_execution": true,
     "platform_run_id_verified": true,
     "read_only_scan_attempted": true,
-    "global_scan_complete": false
+    "global_scan_complete": false,
+    "receipt_write_mode": "Atomic Git tree commit including own lease release; expected-head CAS; readback required"
   },
   "acceptance": {
     "scheduled_runtime": true,
@@ -56,5 +62,61 @@
     "full_end_to_end_launch_verified": false,
     "topview_full_scan_verified_this_run": false,
     "live_capacity_verified_this_run": false
+  },
+  "expenses": {
+    "topview_credits": 0,
+    "external_usd": 0
+  },
+  "completed_at": "2026-11-14T07:09:34.517Z",
+  "scan": {
+    "source": "Topview connector (requires interaction) + GitHub robot and shadow scans (read-only)",
+    "checked_at": null,
+    "complete": false,
+    "all_boards_scanned": null,
+    "pages_scanned": null,
+    "unique_video_tasks": null,
+    "success": null,
+    "fail": null,
+    "active": null,
+    "active_task_ids": [],
+    "last_robot_snapshot": {
+      "checked_at": "2026-11-14T06:40:28Z",
+      "complete": true,
+      "boards_scanned": 14,
+      "pages_scanned": 17,
+      "unique_video_tasks": 675,
+      "occupied": 6,
+      "free": 0,
+      "active_task_ids": [
+        "1dcb6fa0628d41b098227ca6c96f1630",
+        "3a09108c8c474a0989118806b4a69f91",
+        "8c6d92662d1043c7a651168b2b8280ae",
+        "a1330998d39b486e864ed4e22b4fe8c4",
+        "bfdb6d9fad7a4ab29492f7bb95c78033",
+        "d775c7a483a44f13ba1704a1c418b208"
+      ]
+    },
+    "last_shadow_snapshot": {
+      "checked_at": "2026-11-14T07:00:28Z",
+      "complete": false,
+      "occupied": 6,
+      "free": 0,
+      "pages_scanned": 1,
+      "tasks_seen": 20
+    }
+  },
+  "readiness": {
+    "items": 30,
+    "queue_items": 63,
+    "unresolved_claims": [],
+    "readiness_queue_sha256": "92e5bd1d8eefc604d634fb24d7c81349dcd69a411193b37d338e4e15be70b0e8",
+    "readiness_task_map_sha256": "b466c25149b97524e77e75cb042d9c3e2c32950d59002588dc7c21dccd14f3db",
+    "verified_independently_before_this_commit": true
+  },
+  "owner_tasks_open": 0,
+  "work_recovery": {
+    "status": "unverified_current_gui_quota",
+    "preferred_executor_recorded": "work",
+    "route_generation_preserved": 3
   }
 }
