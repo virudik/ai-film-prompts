@@ -3,7 +3,7 @@
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
 Состояние: ready
-Проверено: 2026-11-14T18:47:11+00:00
+Проверено: 2026-11-14T19:04:52+00:00
 Задача: SEREGIUS-SHIFT-20261113-T611U — Смена 13.11 t611u: очередь 48.4 и 89, отзыв по версиям Grok
 
 Последний подтверждённый этап: 14.11: S48-P4-R2 и S51E/F/G уже отправлены и сверены по task ID; текущий D7 preflight подтверждает full 8/8 SHA и 15/15, live 5/6, S89A следующий. Browser ordinary недоступен (originating_context_required), 0 новых Create.
