@@ -11,9 +11,9 @@
   "route_generation": 3,
   "source_head": "c0944278ac4d10d26b2b74e122c2cab587220ab2",
   "started_at": "2026-11-14T20:57:02.608342Z",
-  "updated_at": "2026-11-14T21:04:00.835Z",
-  "phase": "scanned_and_locked",
-  "status": "in_progress",
+  "updated_at": "2026-11-14T21:10:53.241Z",
+  "phase": "complete",
+  "status": "completed",
   "scan_complete": true,
   "occupied_slots": 5,
   "free_slots": 1,
@@ -28,25 +28,38 @@
     "steps": 0,
     "estimated_usd": 0,
     "confirmed_charge_usd": 0,
-    "reason": "Prior native image upload and Unlimited0 blocker still unresolved; no meter-only repetition"
+    "provider_charge_unavailable_reason": "No metered browser run invoked",
+    "current_wallet_usd": null,
+    "wallet_unchecked_reason": "No paid run contemplated; unchanged technical blocker prohibits repeat metered test"
   },
   "lease": {
     "holder": "chatgpt:ordinary:7664d92f-63b0-4b7d-b6c7-a88dc7d5a47e",
     "acquired_at": "2026-11-14T21:03:13.830Z",
-    "expires_at": "2026-11-14T21:28:13.830Z",
-    "readback": true
+    "expires_at": null,
+    "released_at": "2026-11-14T21:10:53.241Z",
+    "lock_outcome": "released_atomically_with_receipt",
+    "verified_start_readback": true
   },
-  "outcome": null,
-  "blocker": null,
+  "outcome": "blocked_native_canonical_input_import_with_verified_free_slot",
+  "blocker": {
+    "code": "native_canonical_media_upload_and_unlimited0_unverified",
+    "latest_checked_at": "2026-11-14T21:10:53.241Z",
+    "details": "Full fresh read-only Topview scan 14 boards/21 pages/1059 tasks confirmed five init video tasks and one free physical slot; S89A-WAN30 is ready priority0.301 with five exact required canonical images, including 12,687,056-byte Drive original. Saved TinyFish profile login/reversible clicks were historically verified, but real native Omni-reference original-file upload and visible selected Unlimited0/credits0 are still unproven. Last metered TinyFish run on 2026-11-06 failed to find native image picker; no new independent evidence of UI or transport fix, so no repeat paid experiment, no claim, no intent and no Create. Work HH:55 scheduled automation currently observed disabled; no new proof of currently usable Work GUI. Root canon-health warning remedied separately by lossless register formatting; successful CI run 43641246854.",
+    "next_attempt_condition": "Only after independently verified native image import and selected Unlimited0 in target Topview composer, repeat full free scan, exact lease, complete UI-preflight and durable unique claim/intent before single Create.",
+    "category": "blocked_browser/input/paid_mode",
+    "retryable_on_new_evidence": true
+  },
   "retryable": false,
   "acceptance": {
     "hourly_runtime_verified": true,
-    "board_read_only_scan_verified": true,
-    "tinyfish_profile_prior_login_verified": true,
-    "native_canonical_file_import_verified": false,
+    "complete_read_only_scan_verified": true,
+    "canonical_queue_item_ready": true,
+    "old_tinyfish_signin_and_reversible_controls_verified": true,
+    "exact_native_original_files_uploaded": false,
     "unlimited_zero_verified": false,
-    "topview_create_verified": false,
-    "verified_task_id": null
+    "production_create_verified": false,
+    "verified_task_id": null,
+    "full_background_launch_accepted": false
   },
   "checked_at": "2026-11-14T21:04:00.835Z",
   "scan": {
@@ -75,5 +88,18 @@
     "selected_priority": 0.301,
     "selected_refs": 5
   },
-  "note": "No claim, intent or Create. Started receipt after exact lease. Next: check task inbox/canon health; finish with immutable evidence and release."
+  "note": "No Create or Topview credits. Owner-task canon-health warning resolved via lossless JSON reformat 105201→98555 bytes; semantic equality confirmed with old git blob, health CI passed. Active next_action/recovery, queue/claims and route_generation untouched. Saved final cycle and released exact own lease in a single CAS commit.",
+  "finished_at": "2026-11-14T21:10:53.241Z",
+  "owner_task": {
+    "id": "self-heal-run-failed-canon-health-202611142049",
+    "status": "done",
+    "result_commit": "aeb5de1eba2d6ab5b511ca88790d331db3388fcc",
+    "verified_canon_health_run_url": "https://github.com/virudik/ai-film-prompts/actions/runs/43641246854"
+  },
+  "peer_runtime": {
+    "ordinary_hourly_enabled": true,
+    "work_hh55_enabled": false,
+    "relay_enabled": true,
+    "source": "Automations.peek 2026-11-14 current run"
+  }
 }
