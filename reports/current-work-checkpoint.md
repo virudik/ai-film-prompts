@@ -1,5 +1,5 @@
 <!-- relay-current-start -->
-Relay #636 · 2026-11-13T14:49:27.802Z · result:be627af0e9664db5b6ac2b62c34080a6 · blocked_browser, retryable=true. Полный скан: 14 досок / 21 страница, 5/6 слотов занято; результат подтверждён success. Доступ к браузеру не восстановлен за 2 попытки; claim/intent/Create=0. Следующая настоящая wake/hourly/ordinary проверка повторно проверяет доступ и свежую очередь; текущие next_action/recovery и незавершённые task IDs сохранены. Квитанция: reports/topview-event-wake.json.
+Relay #665 · 2026-11-14T14:50:59.750Z · result:3a09108c8c474a0989118806b4a69f91 · blocked_browser, retryable=true. Topview connector требует повторной авторизации; браузерный контекст недоступен за две попытки. Свежий полный скан и результат task не подтверждены; claim/intent/Create=0. Следующее настоящее пробуждение повторно проверяет доступ и сохранённые task IDs. next_action/recovery активной работы сохранены. Квитанция: reports/topview-event-wake.json.
 <!-- relay-current-end -->
 
 # 13.11.2026 17:05 МСК — контрольная точка t611u

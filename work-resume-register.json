@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-13T14:51:16.079Z",
+  "last_updated_at": "2026-11-14T14:51:12.346Z",
   "active_work": [
     {
       "work_id": "SEREGIUS-SHIFT-20261113-T611U",
@@ -210,236 +210,48 @@
         "unknown_submissions": 0
       },
       "last_relay_event": {
-        "event_id": "result:be627af0e9664db5b6ac2b62c34080a6",
-        "issue_number": 636,
-        "message_id": "247007796016435200",
-        "relay_event_id": "evt_0dc144328f3e2379a25ff304ab94cd75",
-        "checked_at": "2026-11-13T14:49:27.802Z",
+        "event_id": "result:3a09108c8c474a0989118806b4a69f91",
+        "issue_number": 665,
+        "message_id": "247370197195157504",
+        "relay_event_id": "evt_88a01af545340c29f6df6670d8785667",
+        "checked_at": "2026-11-14T14:50:59.750Z",
         "outcome": "blocked_browser",
-        "reason": "Full 14-board/21-page scan: 5 active videos, 1 free slot. Originating browser context unavailable in two access attempts about one minute apart. No UI preflight, claim, intent or Create.",
-        "task_ids": [
-          "be627af0e9664db5b6ac2b62c34080a6"
-        ],
+        "reason": "Topview read-only connector UNAUTHORIZED: reauthentication required. Browser originating context unavailable in two attempts about one minute apart. No independent complete scan or result verification possible; no claim, intent or Create.",
+        "task_ids": [],
         "retryable": true,
         "source": "Agent Relay webhook",
         "runner": "chatgpt_event_trigger",
-        "execution_instance_id": "bc6b3c4b-c780-415b-ac8f-8d5becd123d7",
+        "execution_instance_id": "d7daaaf5-132d-4e62-bb8b-b3a9a9f2d268",
         "route_generation": 3,
         "run_id": null,
         "run_id_reason": "Runtime run_id not exposed",
         "execution": {
           "state": "blocked",
           "stage": "blocked_browser",
-          "started_at": "2026-11-13T14:47:32.630Z",
-          "updated_at": "2026-11-13T14:49:27.802Z",
-          "finished_at": "2026-11-13T14:49:27.802Z"
+          "started_at": "2026-11-14T14:43:47.775Z",
+          "updated_at": "2026-11-14T14:50:59.750Z",
+          "finished_at": "2026-11-14T14:50:59.750Z"
         },
         "new_submissions": 0,
-        "scan": {
-          "boards": 14,
-          "pages": 21,
-          "tasks": 1058,
-          "complete": true,
-          "occupied_slots": 5,
-          "free_slots": 1,
-          "active_task_ids": [
-            "d775c7a483a44f13ba1704a1c418b208",
-            "8c6d92662d1043c7a651168b2b8280ae",
-            "1dcb6fa0628d41b098227ca6c96f1630",
-            "a1330998d39b486e864ed4e22b4fe8c4",
-            "3a09108c8c474a0989118806b4a69f91"
-          ]
-        },
-        "queue_reconciliation": [
-          {
-            "id": "S49C",
-            "state": "submitted",
-            "task_id": "abb161edcf5c4b58b91460677939b5d3",
-            "live": "success"
-          },
-          {
-            "id": "S49D",
-            "state": "submitted",
-            "task_id": "fe78a852b7a343e6a37d146cec789358",
-            "live": "success"
-          },
-          {
-            "id": "S49E",
-            "state": "submitted",
-            "task_id": "dbc9aff605ec48349062638cdaa7fd5a",
-            "live": "success"
-          },
-          {
-            "id": "S49F",
-            "state": "submitted",
-            "task_id": "faf2aa38db484f4caae06eeb13c7d166",
-            "live": "success"
-          },
-          {
-            "id": "S51A",
-            "state": "submitted",
-            "task_id": "f3b8883f44b14a2ba432ce429ba02709",
-            "live": "success"
-          },
-          {
-            "id": "S51B",
-            "state": "submitted",
-            "task_id": "8a1982a55f794a049a62eaa91bf8827f",
-            "live": "success"
-          },
-          {
-            "id": "S51C",
-            "state": "submitted",
-            "task_id": "2d8efbd16f5146f48cd7a9a1ffb99369",
-            "live": "success"
-          },
-          {
-            "id": "S51D",
-            "state": "submitted",
-            "task_id": "0b6dfa84e4524b438075f10f7205a846",
-            "live": "success"
-          },
-          {
-            "id": "S50A",
-            "state": "submitted",
-            "task_id": "7264c9a1189a49d5ad76cf43fbee87dd",
-            "live": "fail"
-          },
-          {
-            "id": "S50B",
-            "state": "submitted",
-            "task_id": "199e81ba8c374bdaa6ce9237aa013158",
-            "live": "fail"
-          },
-          {
-            "id": "S48-SEED20-P2-R2-20261108",
-            "state": "submitted",
-            "task_id": "dcf9df8fb84e41178b9f11e6be06751b",
-            "live": "success"
-          },
-          {
-            "id": "S48-SEED20-P3",
-            "state": "submitted",
-            "task_id": "94d2ef4fbb7a42a3bee7c112dbc232cc",
-            "live": "success"
-          },
-          {
-            "id": "S59-SEED20-P2-R2-20261108",
-            "state": "submitted",
-            "task_id": "50521f871db34fbab150617ea92f5243",
-            "live": "success"
-          },
-          {
-            "id": "S59-SEED20-P3",
-            "state": "submitted",
-            "task_id": "5dbf6f87306a4f2f958781935894aaca",
-            "live": "success"
-          },
-          {
-            "id": "S59-SEED20-P4",
-            "state": "submitted",
-            "task_id": "ce934dd80c4e4493b3daffcf09d95dde",
-            "live": "success"
-          },
-          {
-            "id": "S52-R2-SEED20-P2",
-            "state": "submitted",
-            "task_id": "47804d4f777e4613b6187a7bff6e0dd0",
-            "live": "success"
-          },
-          {
-            "id": "S52-R2-SEED20-P3",
-            "state": "submitted",
-            "task_id": "7f3aba2b4e1b42b69b9871c5b8e4c08b",
-            "live": "success"
-          },
-          {
-            "id": "S52-R2-SEED20-P4",
-            "state": "submitted",
-            "task_id": "3ea23879815e47989d08ae559bd81f51",
-            "live": "success"
-          },
-          {
-            "id": "S52-R2-SEED20-P5",
-            "state": "submitted",
-            "task_id": "be59815f157e47c0924b91dbde48f997",
-            "live": "success"
-          },
-          {
-            "id": "S52-R2-SEED20-P6",
-            "state": "submitted",
-            "task_id": "4c35bb617de143b39723924075b31c3d",
-            "live": "success"
-          },
-          {
-            "id": "S52-R2-SEED20-P7",
-            "state": "submitted",
-            "task_id": "4283036c9c8c486bb8a60c9e9326447d",
-            "live": "success"
-          },
-          {
-            "id": "S65-WAN30",
-            "state": "submitted",
-            "task_id": "078f094bb1124c2ba7aa22d1ff0eb395",
-            "live": "success"
-          },
-          {
-            "id": "S66-WAN30",
-            "state": "submitted",
-            "task_id": "4aaca9143ee14b7d81220223974e4569",
-            "live": "success"
-          },
-          {
-            "id": "S67-WAN30",
-            "state": "submitted",
-            "task_id": "3fd9f3d9ae2d470eb5ec8b428a7ae044",
-            "live": "success"
-          },
-          {
-            "id": "S68-WAN30",
-            "state": "submitted",
-            "task_id": "0ef78e7bcda54cb88821e9349e39f85a",
-            "live": "success"
-          },
-          {
-            "id": "S69-WAN30",
-            "state": "submitted",
-            "task_id": "15e12f1588cc4079983610b63973e028",
-            "live": "success"
-          },
-          {
-            "id": "S70-WAN30",
-            "state": "submitted",
-            "task_id": "942bdafcff8640d1b405a37cbbb5cbc6",
-            "live": "success"
-          },
-          {
-            "id": "S66-STITCH-INDEP-WAN30",
-            "state": "submitted",
-            "task_id": "efaad07750974b678df63a6be00f15d8",
-            "live": "success"
-          },
-          {
-            "id": "S49G",
-            "state": "submitted",
-            "task_id": "3561d1997a6a4e5d813cfb99fdb60ed4",
-            "live": "success"
-          }
-        ],
+        "referenced_result_task_id": "3a09108c8c474a0989118806b4a69f91",
+        "scan_complete": false,
+        "occupied_slots": null,
+        "free_slots": null,
         "browser_attempts": [
           {
-            "at": "2026-11-13T14:48:07.667Z",
-            "reason": "Browser access requires originating browser context"
+            "at": "2026-11-14T14:49:40.091Z",
+            "reason": "originating_browser_context_required"
           },
           {
-            "at": "2026-11-13T14:49:11.031Z",
-            "reason": "Browser access requires originating browser context"
+            "at": "2026-11-14T14:50:45.958Z",
+            "reason": "originating_browser_context_required"
           }
         ],
-        "next_action": "Next genuine wake/hourly/ordinary executor rechecks browser access and fresh main, existing submissions, input QC and all physical slots; no new Continue required.",
+        "connector_error": "UNAUTHORIZED: reauthentication required",
+        "next_action": "Next genuine wake/hourly/ordinary run rechecks authorized access, reconciles preserved submissions and result task, then performs a fresh full slot scan before UI preflight. No Continue required.",
         "retention": {
           "outcome": "checked_no_transfer",
-          "checked_at": "2026-11-13T14:51:16.077Z"
+          "checked_at": "2026-11-14T14:51:12.345Z"
         }
       },
       "last_observed_topview": {
@@ -559,7 +371,7 @@
           "preflight": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown."
         }
       },
-      "current_blocker": "Browser access requires the originating browser context; two access attempts failed. Latest complete scan: 5/6 occupied, 1 free. No claim/intent/Create.",
+      "current_blocker": "Topview read-only connector UNAUTHORIZED: reauthentication required. Browser originating context unavailable in two attempts about one minute apart. No independent complete scan or result verification possible; no claim, intent or Create.",
       "retry_policy": "ops/TOPVIEW-RETRY.md",
       "retry_policy_receipt": "reports/topview-retry-policy-2026-10-30.json",
       "last_continuation_preflight_report": "reports/ordinary-launcher-recovery-2026-11-01.json",

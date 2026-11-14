@@ -1334,9 +1334,9 @@
       "issue_number": 665,
       "message_id": "247370197195157504",
       "relay_event_id": "evt_88a01af545340c29f6df6670d8785667",
-      "checked_at": "2026-11-14T14:49:54.078Z",
-      "outcome": "started",
-      "reason": "Topview connector requires reauthentication; first browser access failed; checking recovery. Live scan/result unavailable.",
+      "checked_at": "2026-11-14T14:50:59.750Z",
+      "outcome": "blocked_browser",
+      "reason": "Topview read-only connector UNAUTHORIZED: reauthentication required. Browser originating context unavailable in two attempts about one minute apart. No independent complete scan or result verification possible; no claim, intent or Create.",
       "task_ids": [],
       "retryable": true,
       "source": "Agent Relay webhook",
@@ -1346,12 +1346,33 @@
       "run_id": null,
       "run_id_reason": "Runtime run_id not exposed",
       "execution": {
-        "state": "started",
-        "stage": "browser_access",
+        "state": "blocked",
+        "stage": "blocked_browser",
         "started_at": "2026-11-14T14:43:47.775Z",
-        "updated_at": "2026-11-14T14:49:54.078Z"
+        "updated_at": "2026-11-14T14:50:59.750Z",
+        "finished_at": "2026-11-14T14:50:59.750Z"
       },
-      "new_submissions": 0
+      "new_submissions": 0,
+      "referenced_result_task_id": "3a09108c8c474a0989118806b4a69f91",
+      "scan_complete": false,
+      "occupied_slots": null,
+      "free_slots": null,
+      "browser_attempts": [
+        {
+          "at": "2026-11-14T14:49:40.091Z",
+          "reason": "originating_browser_context_required"
+        },
+        {
+          "at": "2026-11-14T14:50:45.958Z",
+          "reason": "originating_browser_context_required"
+        }
+      ],
+      "connector_error": "UNAUTHORIZED: reauthentication required",
+      "next_action": "Next genuine wake/hourly/ordinary run rechecks authorized access, reconciles preserved submissions and result task, then performs a fresh full slot scan before UI preflight. No Continue required.",
+      "retention": {
+        "outcome": "checked_no_transfer",
+        "checked_at": "2026-11-14T14:51:12.345Z"
+      }
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
