@@ -1467,9 +1467,9 @@
       "issue_number": 669,
       "message_id": "247387777035427840",
       "relay_event_id": "evt_e44675937e2a909fda91e38a5a5c0c0c",
-      "checked_at": "2026-11-14T15:55:27.960Z",
+      "checked_at": "2026-11-14T16:00:01.979Z",
       "outcome": "started",
-      "reason": "Verified sender, bot issue, dedupe and own lease readback",
+      "reason": "Connector reauthentication required; first browser access failed. Saved tasks preserved pending live reconciliation.",
       "task_ids": [],
       "retryable": true,
       "source": "Agent Relay webhook",
@@ -1480,9 +1480,9 @@
       "run_id_reason": "Runtime run_id not exposed",
       "execution": {
         "state": "started",
-        "stage": "intake",
+        "stage": "browser_access",
         "started_at": "2026-11-14T15:55:27.960Z",
-        "updated_at": "2026-11-14T15:55:27.960Z"
+        "updated_at": "2026-11-14T16:00:01.979Z"
       },
       "new_submissions": 0
     }
