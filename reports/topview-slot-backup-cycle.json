@@ -11,9 +11,9 @@
   "route_generation": 3,
   "source_head": "f480b3a762dd046e92533c1758740f2da91eb7f0",
   "started_at": "2026-11-14T20:04:05.945315Z",
-  "updated_at": "2026-11-14T20:13:40.612Z",
-  "phase": "started",
-  "status": "in_progress",
+  "updated_at": "2026-11-14T20:15:35.950Z",
+  "phase": "completed",
+  "status": "completed",
   "scan_complete": true,
   "occupied_slots": 5,
   "free_slots": 1,
@@ -31,18 +31,26 @@
     "wallet_usd": "9.424",
     "wallet_auto_reload": "unconfigured",
     "wallet_checked_at": "2026-11-14T20:12:09.930Z",
-    "reason": "Unchanged native original import / selected Unlimited0 not independently verified; no paid idle recheck"
+    "reason": "No metered browser run: no independently proven change to prior native media import / current selected Unlimited0 blocker; wallet USD 9.424 auto-reload unconfigured; no spend"
   },
   "lease": {
     "holder": "chatgpt:ordinary:72825236-2805-4eb8-beef-f2cff994917e",
     "acquired_at": "2026-11-14T20:12:52.003Z",
     "expires_at": "2026-11-14T20:27:52.003Z",
     "acquired_commit": "f480b3a762dd046e92533c1758740f2da91eb7f0",
-    "released": false,
-    "released_at": null
+    "released": true,
+    "released_at": "2026-11-14T20:15:35.950Z"
   },
-  "outcome": "in_progress",
-  "blocker": null,
+  "outcome": "blocked_native_canonical_input_import_with_verified_free_slot",
+  "blocker": {
+    "code": "native_canonical_media_upload_unverified",
+    "at": "2026-11-14T20:15:35.950Z",
+    "details": "Fresh complete independent Topview connector scan: 14 boards / 21 pages / 1059 tasks, five init video tasks, one free global slot. Owner-authorized S89A-WAN30 is ready in queue with five canonical refs (one 12,687,056-byte Drive original); queue and task-map SHA256 independently recomputed equal to readiness. Prior TinyFish native original-file import into Omni-reference and visible current Unlimited0 remain unverified; 2026-11-06 matching metered attempt showed no file picker in exact My First Board. No independently confirmed UI import change this cycle, so no paid repeat of identical blocker. Current Work checkpoint reports login required in Work browser; does not prove TinyFish profile logout. No claim, intent, Create, task ID or spend.",
+    "latest_relevant_tinyfish_run_id": "97f6704a-9c5d-4e59-b864-c3c4b849b25f",
+    "next_attempt_condition": "Independently confirmed native canonical original-image import and selected Unlimited0 in exact website composer, or new proven UI capability, then fresh scan/lease, UI preflight, CAS claim/intent and exactly one Create.",
+    "work_hourly_enabled": true,
+    "work_gui_authenticated": false
+  },
   "retryable": true,
   "acceptance": {
     "scheduled_runtime_observed": true,
@@ -54,11 +62,11 @@
     "unlimited_zero_this_cycle": false,
     "confirmed_topview_task_id_this_cycle": false
   },
-  "checked_at": "2026-11-14T20:13:40.612Z",
+  "checked_at": "2026-11-14T20:15:35.950Z",
   "scan": {
     "source": "Topview read-only connector; all 14 boards and 21 task pages; 1059 tasks",
     "started_at": "2026-11-14T20:07:30.958Z",
-    "finished_at": "2026-11-14T20:08:00Z",
+    "finished_at": null,
     "boards": 14,
     "pages": 21,
     "total_tasks": 1059,
@@ -79,7 +87,7 @@
     "queue_sha256_match": true,
     "task_map_sha256_match": true,
     "readiness_checked_at": "2026-11-14T19:50:37.670929Z",
-    "source_head_at_completion": "f480b3a762dd046e92533c1758740f2da91eb7f0",
+    "source_head_at_completion": "7519c89154742ccd2b04944e95486733dfc95274",
     "route_generation": 3,
     "open_owner_tasks": 0,
     "open_claim_items": [],
@@ -87,7 +95,8 @@
     "selected_item": "S89A-WAN30",
     "selected_reference_count": 5,
     "provider": "Topview connector read-only",
-    "write_scope": "own receipt only"
+    "write_scope": "own receipt only",
+    "finished_at_unavailable_reason": "Last task-page read time not individually returned; complete scan occurred before independent SHA recheck at 2026-11-14T20:08:11.407Z"
   },
-  "note": "Existing HH:00 Europe/Moscow task and route_generation=3 retained. No change to selected next_action/checkpoint/register, retry budgets, owner holds, Work/Relay receipts or automation schedules. Known unresolved UI blocker unchanged; no new notifications needed."
+  "note": "Retained existing schedule HH:00 Europe/Moscow and route_generation=3. Did not change current-work checkpoint/recovery next_action, old claims, retry budgets, queue, status/monitor robot telemetry, or Work/Relay receipts. Work browser login requirement was independently read from current checkpoint; ordinary TinyFish unchanged technical blocker is not a new paid-test reason."
 }
