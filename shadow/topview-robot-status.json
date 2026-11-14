@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-14T14:30:28Z",
+  "checked_at": "2026-11-14T14:40:28Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -51,8 +51,8 @@
   },
   "slots": {
     "capacity": 6,
-    "occupied": 6,
-    "free": 0,
+    "occupied": 5,
+    "free": 1,
     "basis": "active unlimited video tasks on all owned boards",
     "complete": false,
     "active_not_unlimited": 0
@@ -67,21 +67,8 @@
       "model": "Seedance 2.0",
       "scene_id": 51,
       "mapping": "task_map",
-      "queue_count": 2316,
-      "wait_seconds": 86470,
-      "process_seconds": null
-    },
-    {
-      "task_id": "3a09108c8c474a0989118806b4a69f91",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "unlimited": true,
-      "created_at": "2026-11-10 03:11:50",
-      "model": "Seedance 2.0",
-      "scene_id": 49,
-      "mapping": "task_map",
-      "queue_count": 21,
-      "wait_seconds": 69,
+      "queue_count": 3044,
+      "wait_seconds": 129564,
       "process_seconds": null
     },
     {
@@ -93,8 +80,8 @@
       "model": "Seedance 2.0",
       "scene_id": 51,
       "mapping": "task_map",
-      "queue_count": 3043,
-      "wait_seconds": 129669,
+      "queue_count": 3765,
+      "wait_seconds": 172763,
       "process_seconds": null
     },
     {
@@ -106,8 +93,8 @@
       "model": "Seedance 2.0",
       "scene_id": 51,
       "mapping": "task_map",
-      "queue_count": 1456,
-      "wait_seconds": 43269,
+      "queue_count": 2316,
+      "wait_seconds": 86362,
       "process_seconds": null
     },
     {
@@ -119,8 +106,8 @@
       "model": "Seedance 2.0",
       "scene_id": 48,
       "mapping": "task_map",
-      "queue_count": 4629,
-      "wait_seconds": 224708,
+      "queue_count": 5351,
+      "wait_seconds": 267802,
       "process_seconds": null
     },
     {
@@ -132,8 +119,8 @@
       "model": "Seedance 2.0",
       "scene_id": null,
       "mapping": "unknown_new",
-      "queue_count": 3764,
-      "wait_seconds": 172868,
+      "queue_count": 4486,
+      "wait_seconds": 215962,
       "process_seconds": null
     }
   ],
@@ -148,24 +135,43 @@
       "prompt_head": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal cinematic alien-rock performance, "
     }
   ],
-  "finished_known": [],
+  "finished_known": [
+    {
+      "task_id": "3a09108c8c474a0989118806b4a69f91",
+      "scene_id": 49,
+      "final_status": "success",
+      "completed_at": "2026-11-14 14:39:53",
+      "error_code": null
+    }
+  ],
   "missing_known_active": [],
   "recent_completions": [
     {
-      "task_id": "be627af0e9664db5b6ac2b62c34080a6",
-      "scene_id": 59,
+      "task_id": "3a09108c8c474a0989118806b4a69f91",
+      "scene_id": 49,
       "mapping": "task_map",
       "final_status": "success",
-      "completed_at": "2026-11-13 14:31:40"
+      "completed_at": "2026-11-14 14:39:53"
     }
   ],
   "comparison": {
     "monitor_checked_at": "2026-11-14T13:40:47Z",
-    "monitor_age_minutes": 50,
+    "monitor_age_minutes": 60,
     "monitor_occupied": 6,
-    "robot_occupied": 6,
-    "consistent": true,
-    "monitor_may_lag": false,
-    "differences": []
+    "robot_occupied": 5,
+    "consistent": false,
+    "monitor_may_lag": true,
+    "differences": [
+      {
+        "type": "only_in_monitor",
+        "task_id": "3a09108c8c474a0989118806b4a69f91",
+        "scene_id": 49
+      },
+      {
+        "type": "occupied_differs",
+        "monitor": 6,
+        "robot": 5
+      }
+    ]
   }
 }
