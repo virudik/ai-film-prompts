@@ -162,6 +162,21 @@
       "result": "Причина: run 41267737048 падал только на намеренном шаге уведомления о новом warning — NEW-CHAT-HANDOFF.md 37 КБ при цели 35 КБ; сама проверка и публикация прошли. Пять строк «Новое» (Grok 01.11, ordinary 31.10) перенесены дословно в archive/handoff-log.md, хендоф 34807 байт; canon_health status=ok warnings=0, 456 тестов OK, validate_site ok, замок снят.",
       "result_commit": "c95c10edcd2afe96d8360dfafcb5ff9b8b89478c",
       "closed_at": "2026-11-01T07:12:35Z"
+    },
+    {
+      "id": "self-heal-run-failed-canon-health-202611010749",
+      "heal_key": "run-failed-canon-health",
+      "created_at": "2026-11-01T07:49:18Z",
+      "scene_id": null,
+      "to": "any",
+      "source": "self-heal",
+      "text": "Самопроверка: Последний запуск «здоровье канона» на GitHub упал (попытка 2): https://github.com/virudik/ai-film-prompts/actions/runs/41283865148 Найти причину и починить; правила — ops/SELF-HEAL.md.",
+      "status": "done",
+      "taken_by": "grok:poruchenia-routine",
+      "taken_at": "2026-11-01T07:49:51Z",
+      "result": "Причина: кратковременная. Правка хендофа c95c10e (прошлая самопроверка) поменяла NEW-CHAT-HANDOFF.md, и до перезаверки инструкций роботом статус 0224229 (07:12:28Z) имел instruction_sync health=error, отсюда warn status-health в run 41283865148. Робот перезаверил инструкции (e9b8134, 07:13:30Z), статус e590ab3 health=ok, canon-health 07:19Z status=ok, следующий run 41286344998 success. Правок канона не потребовалось.",
+      "result_commit": null,
+      "closed_at": "2026-11-01T07:50:33Z"
     }
   ]
 }
