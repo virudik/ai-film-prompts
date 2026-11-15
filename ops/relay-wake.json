@@ -15,5 +15,12 @@
   "note": "One DM per robot cycle with a confirmed free slot, after the GitHub issue TOPVIEW_SLOT_WAKE_V2 is created. No token = no-op. The DM is a wake-up signal, not permission.",
   "sender_agent_id": "240204876611608576",
   "production_accepted_at": "2026-10-25T22:02:56.119Z",
-  "production_evidence": "reports/topview-event-wake.json: robot_relay.production_acceptance"
+  "production_evidence": "reports/topview-event-wake.json: robot_relay.production_acceptance",
+  "dispatch": {
+    "mode": "primary_then_backup",
+    "enabled": false,
+    "primary": "dot via configured ChatGPT Relay inbox",
+    "backup": "Grok via GitHub issue assignment",
+    "activation_gate": "Require current-dot genuine started ACK and read-only route verification before enabling; historical transport enqueue is insufficient."
+  }
 }
