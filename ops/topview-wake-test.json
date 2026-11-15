@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "enabled": true,
+  "enabled": false,
   "channel": "relay",
   "test_id": "dot-ack-contract-20261115-2204",
   "read_only": true,
@@ -14,5 +14,7 @@
     "channel": "new_issue",
     "result": "no_run_after_new_thread",
     "completed_at": "2026-10-25T08:27:12.062Z"
-  }
+  },
+  "completed_at": "2026-11-15T22:13:19.985Z",
+  "result": "Actual webhook received; separate started ACK commit/readback then read_only_test_complete; no generation."
 }
