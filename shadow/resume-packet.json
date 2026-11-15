@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-15T11:53:33+00:00",
-  "source_head": "13f8405f59644f19a9032517095a5a6221ba13b0",
-  "source_fingerprint": "6a5306ecb30db2c3ec68fbc97172c2f6f1873bb3437050004e7b0e8858e87f41",
+  "checked_at": "2026-11-15T12:09:53+00:00",
+  "source_head": "90d529d9a29beed56c3aee687c1743ac811fda10",
+  "source_fingerprint": "91dbd28e2fee4b0a11388cd7eb0ead282e03c0f7eeac29a3885259a3be081e1c",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -167,10 +167,6 @@
     "existing_task_count": 91,
     "existing_tasks": [
       {
-        "item_id": "S49C",
-        "task_id": "abb161edcf5c4b58b91460677939b5d3"
-      },
-      {
         "item_id": "S49D",
         "task_id": "fe78a852b7a343e6a37d146cec789358"
       },
@@ -313,6 +309,10 @@
       {
         "item_id": "S89A-WAN30",
         "task_id": "425108630b0e48c9a4b299fc89ad88ee"
+      },
+      {
+        "item_id": "S49C",
+        "task_id": "abb161edcf5c4b58b91460677939b5d3"
       },
       {
         "item_id": "S49A",
@@ -569,8 +569,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "864c530c8a87a594da6b03b591da3a896738ffd8cdbeb3acd2d3183824390412",
-      "bytes": 34992
+      "sha256": "b63eb4ae8f45e281010f9b4c9b357e188dfc27be116d14acfe426c07997a7abe",
+      "bytes": 34591
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -594,7 +594,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "7c91e0638ededa2b9b8fc6bcb7307e451d634302b0fe6b710253aa90b4a53ee4",
+      "sha256": "0332c26ebd0198c198bae9cc41579283f65011fbac2935e79fa1f803e3288336",
       "bytes": 5135
     },
     {
@@ -604,23 +604,23 @@
     },
     {
       "file": "ops/CONTINUE-PROTOCOL.md",
-      "sha256": "8b627739d8f195e99249e6ec78aa5cf3c185053260440b6a5b1be811f5c85a06",
+      "sha256": "05022877e46dc859b8377fc68d85d4c791a374c797511b61d92b65dc76048d69",
       "bytes": 42881
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "af62a3bc029d66a85ae611ecb488e7655a5798b5221e4eed78e7ef1f95ea5077",
-      "bytes": 391695
+      "sha256": "84779ac9be124aacd789e9ecd890391fbc8f3ae6e9dd34f9db3575e8c1f9261a",
+      "bytes": 387167
     },
     {
       "file": "project-status.json",
-      "sha256": "36d913bfeb0997789c72e7816601f60b1950c3ad082f49c2c73be4d4f5aac0eb",
+      "sha256": "f46c29077e516e72b15dd3bc2e2a16e335ca073dfab9aeb3c3946f1a1192b6d3",
       "bytes": 29587
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "05262396ac92ec1e03b4a0d9906063fa875a4d843f53381b8a88c814b7cb7c7e",
-      "bytes": 26716
+      "sha256": "72bc28ea24a6ed5d364ad64abf5c44abbff71730524eb4d6d71127ae7a235b9c",
+      "bytes": 22183
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -634,12 +634,12 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "95d7f227a3dcba3e783f18fe9dfc94e2eec31a827d35ac7819bcb3f876a8a236",
-      "bytes": 34793
+      "sha256": "3068dcd97e6a2cad44fb6d98acf518fe52279ed39b4e7053518ff8e242993206",
+      "bytes": 34392
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "9065e942f723ca24fa2f7c2ace35893bd53e9e448a7c2aa497395282c9642059",
+      "sha256": "09446b2180900d778306031c50b5466ad6db5093f04a9b0d3a5941b0f9851de1",
       "bytes": 32407
     },
     {
@@ -649,8 +649,8 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "d877c2379210ef32f4c8121e56819b231279fbcfbcd3f6c6200ff802030f3fd9",
-      "bytes": 98604
+      "sha256": "7a51c9d6eb70f69e64f404f64574c0c5bb1304bd348b95e8f1ae419304458db2",
+      "bytes": 98210
     }
   ],
   "packet_bytes": 8643
