@@ -1,19 +1,18 @@
 {
   "schema_version": 1,
-  "enabled": false,
-  "channel": "backup_issue",
-  "test_id": "grok-backup-readonly-20261115-2154",
+  "enabled": true,
+  "channel": "relay",
+  "test_id": "dot-ack-contract-20261115-2204",
   "read_only": true,
-  "requested_at": "2026-11-15T21:53:22.529Z",
+  "requested_at": "2026-11-15T22:04:31.722Z",
   "expected_new_submissions": 0,
   "automation_id": "6af9b2a7212081919b191786c483ad13",
-  "reason": "Read-only backup bot issue713 assigned virudik, workflow43766223822 success. Grok runtime ACK not yet verified; production dispatch remains disabled.",
+  "reason": "Read-only early ACK contract test. Current dot writes test:<test_id> started then read_only_test_complete to events[] under own lease, before any lengthy work. No Topview, claim, intent or Create.",
   "resend_same_test": false,
   "previous": {
     "test_id": "wake-v2-newthread-20261024-01",
     "channel": "new_issue",
     "result": "no_run_after_new_thread",
     "completed_at": "2026-10-25T08:27:12.062Z"
-  },
-  "completed_at": "2026-11-15T21:55:33.067Z"
+  }
 }

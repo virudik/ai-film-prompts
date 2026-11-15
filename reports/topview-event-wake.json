@@ -2781,6 +2781,46 @@
       "new_submissions": 0,
       "credits_spent": 0,
       "production_dispatch_enabled": false
+    },
+    {
+      "test_id": "dot-primary-readonly-20261115-2148",
+      "relay_event_id": "evt_2bc9bbe5d1fd5d6527316e0dc3d9e46d",
+      "message_id": "247840711698350080",
+      "issue_number": 712,
+      "checked_at": "2026-11-15T22:03:48.747Z",
+      "outcome": "delayed_runtime_wake_verified",
+      "source": "actual webhook received by dot root; delegated source/readback verification",
+      "sender_agent_id": "240204876611608576",
+      "message_created_at": "2026-11-15T21:50:30Z",
+      "runtime_wake_observed_before": "2026-11-15T21:59:31Z",
+      "runtime_started_at": null,
+      "run_id": null,
+      "run_id_unavailable_reason": "Platform run ID and exact start time not supplied; root reported actual webhook, distinct from earlier manual read.",
+      "new_submissions": 0,
+      "credits_spent": 0,
+      "production_early_ack_verified": false,
+      "production_dispatch_enabled": false
     }
-  ]
+  ],
+  "primary_backup_acceptance": {
+    "checked_at": "2026-11-15T22:03:48.747Z",
+    "primary": {
+      "status": "runtime_wake_verified_early_ack_not_yet_verified",
+      "test_id": "dot-primary-readonly-20261115-2148",
+      "issue_number": 712
+    },
+    "backup": {
+      "status": "grok_self_reported_runtime_test_receipt",
+      "test_id": "grok-backup-readonly-20261115-2154",
+      "issue_number": 713,
+      "relay_event_id": "evt_c073571113cbb8771a48d4f16bec497c",
+      "message_id": "247842748584734720",
+      "reported_routine_started_at": "2026-11-15T21:54:00Z",
+      "exact_start_time_known": false,
+      "independent_runtime_log_verified": false,
+      "source": "GrokBot authenticated Relay response; reports read-only recognition/no claim/intent/Create"
+    },
+    "gate_enabled": false,
+    "remaining": "Need real early started ACK in production-compatible events[] format before lengthy work. Plan 20-minute no-ACK / 30-minute no-progress grace due observed dot wake delay."
+  }
 }
