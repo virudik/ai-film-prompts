@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-11-14T21:36:34Z",
+  "updated_at": "2026-11-15T15:14:35Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -5826,7 +5826,7 @@
       "canonical_prompt_sha256": "981b37483976d06bceefbfc1a48b404dd354352d2a98b3436337190eb6792998",
       "normalized_prompt_sha256": "819be4464fa3119384833cd5e8ef675186deb8a9b1b7b0952755b2ddf063ef20",
       "priority": 0.302,
-      "state": "waiting_for_slot",
+      "state": "submitted",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "model_id": "qwen-wan3.0-video",
@@ -5892,7 +5892,26 @@
       "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry: automatic_retry is false and retry_control is omitted, because Grok prepare_intent treats any retry_control as a retry Create and would reject the first Unlimited Create. Not a paid 12-credit Wan path.",
       "owner_source": "t593u",
       "story_not_music": true,
-      "created_at": "2026-11-12T13:14:25Z"
+      "created_at": "2026-11-12T13:14:25Z",
+      "task_id": "90db5dd309db477eb346e8d82676f7b5",
+      "claim": null,
+      "submitted_at": "2026-11-15T15:11:23Z",
+      "submitted_at_local": "2026-11-15T18:11:23 Europe/Moscow",
+      "create_clicked_at": "2026-11-15T15:11:12Z",
+      "create_clicked_at_local": "2026-11-15T18:11:12 Europe/Moscow",
+      "topview_status": "init",
+      "create_click_count": 1,
+      "max_new_submissions_consumed": 1,
+      "creditsCost": 0,
+      "credits_balance_before": 11.05,
+      "credits_balance_after": 11.05,
+      "receipt": "reports/topview-queue-2026-10-16/S89B-WAN30-20261115T151123Z.json",
+      "slot_event": {
+        "issue_number": 703
+      },
+      "replay_forbidden": true,
+      "no_second_create": true,
+      "normalized_prompt_match": true
     },
     {
       "id": "S89C-WAN30",
