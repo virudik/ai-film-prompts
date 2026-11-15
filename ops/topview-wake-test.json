@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "enabled": false,
+  "enabled": true,
   "channel": "relay",
-  "test_id": "wake-relay-after-lock-receipts-20261025-02",
+  "test_id": "dot-relay-readonly-20261115-1794749199032",
   "read_only": true,
-  "requested_at": "2026-10-25T21:57:35.129Z",
+  "requested_at": "2026-11-15T13:27:05.616Z",
   "expected_new_submissions": 0,
-  "automation_id": "6adc585e7ac08191bb93825117dc7213",
-  "reason": "Acceptance complete: exact mutex receipts and genuine after-lock ACK verified; production enabled. Diagnostic stopped; hourly fallback unchanged.",
+  "automation_id": "6af9b2a7212081919b191786c483ad13",
+  "reason": "Owner requested enable and configure current dot relay. Genuine robot delivery diagnostic only; no Create, claim, queue or schedule changes. Verify actual receiving dot, not only transport ACK.",
   "resend_same_test": false,
   "previous": {
     "test_id": "wake-v2-newthread-20261024-01",
