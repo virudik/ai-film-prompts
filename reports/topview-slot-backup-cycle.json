@@ -11,9 +11,9 @@
   "route_generation": 3,
   "source_head": "3567e42791d8bf7637f089c7e2c8d5bcc2e63b33",
   "started_at": "2026-11-15T08:59:58.396Z",
-  "updated_at": "2026-11-15T09:01:57.716Z",
-  "phase": "started",
-  "status": "in_progress",
+  "updated_at": "2026-11-15T09:06:14.419Z",
+  "phase": "complete",
+  "status": "completed",
   "scan_complete": false,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -35,22 +35,22 @@
   "lease": {
     "holder": "chatgpt:ordinary:96ead7ad-7b15-4a9a-8494-4861531f6e70",
     "acquired_at": "2026-11-15T09:01:02.977Z",
-    "expires_at": "2026-11-15T09:11:02.977Z",
-    "released_at": null,
+    "expires_at": null,
+    "released_at": "2026-11-15T09:06:14.419Z",
     "acquired_commit": "3567e42791d8bf7637f089c7e2c8d5bcc2e63b33",
     "verified_start_readback": true,
-    "lock_outcome": "held_for_receipt"
+    "lock_outcome": "released_atomically_with_final_receipt"
   },
-  "outcome": "capacity_full_verified",
+  "outcome": "no_free_slot",
   "blocker": {
     "code": "no_free_global_slot",
     "category": "capacity_full",
-    "details": "Topview My First Board page 1 (100 of 509 video tasks) contains six distinct init video tasks. All report Unlimited=true and creditsCost=0. Full account scan unnecessary for conclusive saturation.",
-    "next_attempt_condition": "fresh read-only check in next scheduled cycle",
+    "details": "Direct Topview read-only scan of My First Board 100 newest videos found six distinct init tasks (Unlimited=true, creditsCost=0), agreeing with robot launcher_health checked at 2026-11-15T09:00:42Z. Six physical slots occupied; no new Create.",
+    "next_attempt_condition": "new scheduled independent read-only capacity check",
     "retryable_on_new_evidence": true
   },
   "retryable": true,
-  "checked_at": "2026-11-15T09:01:57.716Z",
+  "checked_at": "2026-11-15T09:06:14.419Z",
   "scan": {
     "source": "Topview read-only My First Board video page 1, all boards registry 14",
     "boards": 1,
@@ -73,7 +73,10 @@
     "queue_items": 63,
     "open_claims": 0,
     "owner_tasks_open": 0,
-    "sha256_independently_verified": false
+    "sha256_independently_verified": false,
+    "readiness_items": 26,
+    "robot_checked_at": "2026-11-15T09:00:42Z",
+    "robot_free_slots": 0
   },
   "acceptance": {
     "scheduled_execution": true,
@@ -99,5 +102,5 @@
       "reason": "Fresh Automations.get failed."
     }
   },
-  "notes": "No Create or claim. S89A submitted historically; S89B next. Previous Work checkpoint S89A pre-Create is stale; active continuation state unchanged. Current registry preferred_executor=work, but ordinary remains enabled/allowlisted, route_generation unchanged."
+  "notes": "No paid Topview or TinyFish activity. S89A's verified prior task remains init; S89B next pending capacity. GitHub robot telemetry is separate and current 6/6. This run's platform run ID could not be retrieved because Automations.get returned NOT_FOUND. Interactive checkpoint and next_action unchanged. Route_generation=3 and preferred=work retained per latest registry."
 }
