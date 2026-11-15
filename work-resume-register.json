@@ -1,30 +1,30 @@
 {
  "schema_version": 1,
  "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
- "last_updated_at": "2026-11-14T21:39:40.436Z",
+ "last_updated_at": "2026-11-15T11:26:05+00:00",
  "active_work": [
   {
    "work_id": "SEREGIUS-SHIFT-20261113-T611U",
    "project": "seregius",
    "title": "Смена 13.11 t611u: очередь 48.4 и 89, отзыв по версиям Grok",
-   "status": "blocked_browser",
+   "status": "waiting_for_slot",
    "created_at": "2026-11-13T14:05:00Z",
-   "updated_at": "2026-11-14T21:39:40.436Z",
-   "next_action": "Продолжить S89A-WAN30: проверить сохранение входа в свежей вкладке Topview и состояние импорта; прежний вызов загрузки прерван, Create никогда не вызывался. Взять точные исходники из канона/Drive (локальный кэш /workspace/shared/seregius-89a использовать только после повторной SHA-проверки), загрузить пять файлов по порядку и полный промпт. Затем fresh main/owner_decisions, полный свежий скан всех досок, свой замок, UI Unlimited0/720p/16:9/1, CAS-claim+intent/readback и один Create. Не повторять уже submitted S48-P4-R2 и S51E/F/G. При свободной ёмкости продолжать живую очередь.",
+   "updated_at": "2026-11-15T11:26:05+00:00",
+   "next_action": "При следующей проверке начать с фактической общей ёмкости и свежего main. 89A уже submitted: не повторять. Следующий кандидат — S89B-WAN30, затем живая очередь. Перед Create заново проверить все доски, unknown/claims/task IDs, решения владельца, точные SHA пяти исходников/master, текущую форму Wan 3.0/30с/720p/16:9/1/Unlimited0, свой замок/CAS claim+intent/readback; один Create. Сейчас 6/6 занято. Проверить фактический следующий HH:55 runtime: enabled не доказывает успешную проверку или запуск.",
    "recovery": {
     "schema_version": 1,
-    "verified_at": "2026-11-14T21:23:52+00:00",
-    "last_completed": "Вход Topview подтверждён на свежей странице с аккаунтом владельца. Промпт S89A-WAN30 и все пять локальных исходников совпали по SHA с каноном. Выбраны Wan 3.0 / 30с / 720p / 16:9 / 1 / «Безлимитный режим — бесплатно». Загрузка первого референса прервана; вкладка затем недоступна. claim/intent/Create=0, видео не отправлено.",
-    "next_action": "Продолжить S89A-WAN30: проверить сохранение входа в свежей вкладке Topview и состояние импорта; прежний вызов загрузки прерван, Create никогда не вызывался. Взять точные исходники из канона/Drive (локальный кэш /workspace/shared/seregius-89a использовать только после повторной SHA-проверки), загрузить пять файлов по порядку и полный промпт. Затем fresh main/owner_decisions, полный свежий скан всех досок, свой замок, UI Unlimited0/720p/16:9/1, CAS-claim+intent/readback и один Create. Не повторять уже submitted S48-P4-R2 и S51E/F/G. При свободной ёмкости продолжать живую очередь.",
+    "verified_at": "2026-11-15T11:26:05+00:00",
+    "last_completed": "В браузере владельца подтверждены 6 задач в очереди и существующая 89A (425108630b0e48c9a4b299fc89ad88ee). Точный промпт 89B и все пять исходников проверены по SHA и визуально. HH:55 снова включена и перечитана. Create/claim/intent в этом чате не выполнялись.",
+    "next_action": "При следующей проверке начать с фактической общей ёмкости и свежего main. 89A уже submitted: не повторять. Следующий кандидат — S89B-WAN30, затем живая очередь. Перед Create заново проверить все доски, unknown/claims/task IDs, решения владельца, точные SHA пяти исходников/master, текущую форму Wan 3.0/30с/720p/16:9/1/Unlimited0, свой замок/CAS claim+intent/readback; один Create. Сейчас 6/6 занято. Проверить фактический следующий HH:55 runtime: enabled не доказывает успешную проверку или запуск.",
     "checkpoint": {
      "file": "reports/current-work-checkpoint.md",
-     "anchor": "# 14.11.2026 — Work: вход подтверждён, загрузка 89A прервана до Create",
-     "sha256": "2c160d386865e4856993c8600aedb884275900cfca94b68acea1bd820310e40a"
+     "anchor": "# 15.11.2026 — Work: 89A уже отправлена, 89B проверена, занято 6/6",
+     "sha256": "9050dc0e79f193f9d564127dfe1a1a4d64f311e21d679085d4fd1ba7c8ff761b"
     },
     "evidence": [
      {
-      "file": "reports/topview-queue-2026-10-16/auth-upload-20261114-work-5aa51c3f.json",
-      "sha256": "83ffa2c570d483fa9984612fd55187ee983d29bb83e9ac2184ce63d6edc80c9f"
+      "file": "reports/topview-queue-2026-10-16/continue-20261115-work-248a657f.json",
+      "sha256": "249e83f382b90fa5a312822e2c900b478befdc40a0bfc90101a98231fc29909b"
      }
     ],
     "read_next": [
@@ -33,18 +33,18 @@
      "reports/current-work-checkpoint.md"
     ],
     "blockers": [
-     "Authentication was verified, but exact-file upload was interrupted and the browser tab disappeared; no Create."
+     "Global capacity occupied: 6 active queued video tasks observed; fresh full account scan required before any new Create."
     ]
    },
    "last_takeover": {
-    "at": "2026-11-14T20:04:15+00:00",
-    "receipt_id": "work-continue-20261114-33406175",
-    "session_id": "chatgpt-work-continue-33406175-4e23-4eca-8906-26de4724d255",
+    "at": "2026-11-15T11:26:05+00:00",
+    "receipt_id": "work-continue-20261115-248a657f",
+    "session_id": "chatgpt-work-continue-248a657f-036e-42a6-b600-6701db5845ba",
     "surface": "work",
-    "source_head": "dbfceb4042d0c9caea4b9e53ae77336b4e6ad6f5",
-    "full_intake": false,
-    "actual_action": "Full account read-only scan and login check; existing hourly task resumed; no Create",
-    "status_unchanged": "waiting_for_owner"
+    "source_head": "99f871e8472d63bd92f7fec01f214e6a12838bc0",
+    "full_intake": true,
+    "actual_action": "Verified existing S89A task in owner browser; exact S89B source preparation and hourly re-enable",
+    "new_submissions": 0
    },
    "last_relay_event": {
     "event_id": "slots:a3e98072:69",
@@ -62,11 +62,11 @@
     "new_submissions": 0,
     "task_ids": []
    },
-   "current_blocker": "Foreground Work verified authentication and exact inputs, but the first upload was interrupted before Create; this webhook runtime cannot access the originating browser context for a fresh continuous UI preflight.",
+   "current_blocker": "Global capacity occupied: 6 active queued video tasks observed; fresh full account scan required before any new Create.",
    "last_authentication_check": {
-    "at": "2026-11-14T21:23:52+00:00",
-    "result": "signed_in_observed_before_upload_interruption",
-    "evidence": "reports/topview-queue-2026-10-16/auth-upload-20261114-work-5aa51c3f.json"
+    "at": "2026-11-15T11:26:05+00:00",
+    "result": "signed_in_observed_in_current_interactive_turn",
+    "evidence": "reports/topview-queue-2026-10-16/continue-20261115-work-248a657f.json"
    }
   },
   {

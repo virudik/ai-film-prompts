@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "work_id": "SEREGIUS-SHIFT-20261113-T611U",
+  "checked_at": "2026-11-15T11:26:05+00:00",
+  "source_head": "99f871e8472d63bd92f7fec01f214e6a12838bc0",
+  "execution_instance_id": "248a657f-036e-42a6-b600-6701db5845ba",
+  "runtime_run_id": null,
+  "runtime_run_id_unavailable_reason": "not_exposed_by_current_tools",
+  "intake": "full_after_initial_stale_brief",
+  "browser": {
+    "surface": "cloud browser cdp",
+    "authentication": "owner signed-in observed in current interactive turn",
+    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "active_queued_cards_observed": 6,
+    "all_account_pages_scanned_by_this_chat": false,
+    "free_capacity_claimed": false,
+    "s89a_task_id": "425108630b0e48c9a4b299fc89ad88ee",
+    "s89a_ui_status": "В очереди",
+    "s89a_details_url": "https://www.topview.ai/board/1a6244cf1ae747ef847d949a80d6133c?boardResultId=425108630b0e48c9a4b299fc89ad88ee&tool-type=text-to-image",
+    "s89a_parameters_observed": "Wan 3.0, 30s, 720p, 16:9, five image inputs",
+    "scope": "Read-only board and S89A details; no upload, claim, intent or Create"
+  },
+  "robot_observation": {
+    "checked_at": "2026-11-15T11:20:31Z",
+    "slots": {
+      "capacity": 6,
+      "occupied": 6,
+      "free": 0,
+      "basis": "active unlimited video tasks on all owned boards",
+      "complete": false,
+      "active_not_unlimited": 0
+    },
+    "scan": {
+      "mode": "light",
+      "reasons": [],
+      "boards": 14,
+      "board_task_counts": {
+        "3db83056ccef4361a9563a4f77afa1d5": 56,
+        "6b246f75715f43be945f17b06bff9d88": 16,
+        "c934cec563ea45e1b37d12657821ebd5": 0,
+        "1cb8d0f6d11440ce9740bbafab36a6a5": 0,
+        "d3bdcbe509594dcf82f8eddcaabe17fe": 11,
+        "86c6cb46bf76400f93fea9c82d8e9b0f": 4,
+        "db4b4d6d0abc4cb4b278ea80738639f2": 32,
+        "24a69085fab4497b9c1a52536252b63d": 20,
+        "0aafc553d8a049d2bc21221511293830": 5,
+        "9f8ec3c1d7294675bfb87fa75577dec2": 64,
+        "29d5b28f0e744b9eb6bfbee47efb6ff9": 37,
+        "dde2634b5fb54e789bb22dd4c95a75b6": 23,
+        "caa5d8898f14442ea37c3278d156b3fe": 59,
+        "1a6244cf1ae747ef847d949a80d6133c": 733
+      },
+      "pages_scanned": 1,
+      "tasks_seen": 20,
+      "api_requests": 8,
+      "detail_failed": []
+    },
+    "role_result": "skip; robot remains primary; no telemetry written"
+  },
+  "s89a_existing_receipt": {
+    "file": "reports/topview-queue-2026-10-16/S89A-WAN30-20261114T213223Z.json",
+    "sha256": "1b3f82f2c088c21982bb4aa863a5ef4672b59db9fc032e5f200907d601dd5414"
+  },
+  "next_item_preparation": {
+    "item_id": "S89B-WAN30",
+    "canonical_prompt_sha256": "981b37483976d06bceefbfc1a48b404dd354352d2a98b3436337190eb6792998",
+    "normalized_prompt_sha256": "819be4464fa3119384833cd5e8ef675186deb8a9b1b7b0952755b2ddf063ef20",
+    "prompt_characters": 3724,
+    "references": [
+      {
+        "slot": "@Image1",
+        "path": "references/scenes/scene-13/S13-Image1-topview-source.png",
+        "sha256": "7604d92708048afbb6bcfbdd23edb555ccc52cf7492f4be62085a394f36e0cda",
+        "bytes": 1223451,
+        "width": 1600,
+        "height": 900,
+        "format": "PNG"
+      },
+      {
+        "slot": "@Image2",
+        "path": "references/scenes/scene-13/S13-Image2-topview-source.png",
+        "sha256": "e9b5613886641887dd222097eb32d0a702e5f46aa10fa4a69ebc66e37c257b97",
+        "bytes": 843599,
+        "width": 1600,
+        "height": 900,
+        "format": "PNG"
+      },
+      {
+        "slot": "@Image3",
+        "path": "references/scenes/scene-13/S13-Image3-topview-source.png",
+        "sha256": "b98957a9bf41db22403cbdcc6b8a6bc61537055e869a6a75576e416e4810635e",
+        "bytes": 1344988,
+        "width": 1600,
+        "height": 900,
+        "format": "PNG"
+      },
+      {
+        "slot": "@Image4",
+        "path": "references/full/vitalik.jpg",
+        "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+        "bytes": 277558,
+        "width": 1536,
+        "height": 1536,
+        "format": "JPEG"
+      },
+      {
+        "slot": "@Image5",
+        "path": "references/full/lesha.jpg",
+        "sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9",
+        "bytes": 161032,
+        "width": 1536,
+        "height": 857,
+        "format": "JPEG"
+      }
+    ]
+  },
+  "visual_input_check": {
+    "result": "consistent_with_canonical_roles",
+    "observations": [
+      "Image1: seated Vitalik in black on left, Lyokha in grey/purple on right with cat; council lounge",
+      "Image2/4: Vitalik black costume and identity sheets",
+      "Image3/5: Lyokha moustache, grey robe and purple tunic",
+      "Existing reference-sheet labels, white margins and watermark symbols preserved; no file editing or replacement"
+    ],
+    "upload_form_and_Unlimited_for_89B": "not_attempted; requires fresh pre-submit verification"
+  },
+  "automations": {
+    "hourly": {
+      "id": "6acae6ab433481919e88665c520b8ef2",
+      "is_enabled": true,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/Moscow:20261015T225500\nRRULE:FREQ=HOURLY;INTERVAL=1;BYMINUTE=55;BYSECOND=0\nEND:VEVENT",
+      "updated_at": "2026-11-15T11:21:13.909242+00:00",
+      "next_run_time": "2026-11-15T00:55:00+03:00",
+      "last_run": {
+        "id": "b26b9665-1ac8-8327-8c16-b556272d97ef",
+        "recorded_status": "completed",
+        "scheduled_for": "2026-11-14T20:55:00Z",
+        "started_at": "2026-11-14T20:56:53.272973Z",
+        "completed_at": "2026-11-14T20:58:24.731327Z",
+        "chat_ref": {
+          "type": "chatgpt",
+          "id": "6acae851-4f7c-83ed-a459-e371ce64a39f"
+        }
+      }
+    },
+    "previous_enabled": false,
+    "previous_updated_at": "2026-11-14T20:59:41.415527+00:00",
+    "only_is_enabled_changed": true,
+    "disable_reason": "not_exposed_and_not_confirmed",
+    "successful_post_resume_runtime_verified": false,
+    "next_run_time_api_note": "Returned value precedes this check; use stored hourly :55 schedule, do not treat this timestamp as proof of future delivery",
+    "relay_enabled_observed": true,
+    "ordinary_enabled_observed": true
+  },
+  "owner_checks": {
+    "open_owner_tasks": 0,
+    "supabase_pending_in_progress": 0,
+    "historical_needs_owner_id": "d37ea54b-6b09-4283-892b-d6c3e189b82f",
+    "historical_needs_owner_created_at": "2026-11-01T01:19:36.273461+00:00",
+    "historical_needs_owner_unchanged": true
+  },
+  "unresolved_submission_items_preserved": [],
+  "new_submissions": 0,
+  "create_click_count": 0,
+  "credits_spent_by_this_execution": 0,
+  "next_action": "При следующей проверке начать с фактической общей ёмкости и свежего main. 89A уже submitted: не повторять. Следующий кандидат — S89B-WAN30, затем живая очередь. Перед Create заново проверить все доски, unknown/claims/task IDs, решения владельца, точные SHA пяти исходников/master, текущую форму Wan 3.0/30с/720p/16:9/1/Unlimited0, свой замок/CAS claim+intent/readback; один Create. Сейчас 6/6 занято. Проверить фактический следующий HH:55 runtime: enabled не доказывает успешную проверку или запуск."
+}

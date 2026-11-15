@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:work:248a657f-036e-42a6-b600-6701db5845ba",
   "task": "D7 Continue: reconcile S89A submitted; verify S89B inputs; resume hourly insurance and checkpoint",
   "acquired_at": "2026-11-15T11:23:35Z",
-  "expires_at": "2026-11-15T11:48:35Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-15T11:26:05Z",
   "rules": "ops/CANON-LOCK.md"
 }

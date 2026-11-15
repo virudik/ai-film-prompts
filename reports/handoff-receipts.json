@@ -4,6 +4,164 @@
   "receipts": [
     {
       "schema_version": 1,
+      "receipt_id": "work-continue-20261115-248a657f",
+      "project": "seregius",
+      "work_id": "SEREGIUS-SHIFT-20261113-T611U",
+      "source_head": "99f871e8472d63bd92f7fec01f214e6a12838bc0",
+      "chat": {
+        "agent": "chatgpt:work:248a657f-036e-42a6-b600-6701db5845ba",
+        "label": "Work — продолжение Серёгиуса 15.11.2026",
+        "session_id": "chatgpt-work-continue-248a657f-036e-42a6-b600-6701db5845ba",
+        "chat_id": null,
+        "identity_status": "unavailable",
+        "identity_unavailable_reason": "Current conversation ID not exposed by tools; session is locally generated"
+      },
+      "started_at": "2026-11-15T11:22:53+00:00",
+      "accepted_at": "2026-11-15T11:26:05+00:00",
+      "checks": [
+        {
+          "id": "fresh_main",
+          "result": "passed",
+          "evidence": "99f871e8472d63bd92f7fec01f214e6a12838bc0"
+        },
+        {
+          "id": "instructions",
+          "result": "passed",
+          "evidence": "All seven read after stale-brief full fallback; byte/SHA preflight verified"
+        },
+        {
+          "id": "checkpoint",
+          "result": "passed",
+          "evidence": "SEREGIUS-SHIFT-20261113-T611U; stale 89A-next step corrected from actual submitted task"
+        },
+        {
+          "id": "owner_inbox",
+          "result": "passed",
+          "evidence": "ops/owner-tasks.json: open/taken=0"
+        },
+        {
+          "id": "owner_decisions",
+          "result": "passed",
+          "evidence": "Fresh Supabase SELECT: pending/in_progress=0; one historical needs_owner unchanged"
+        },
+        {
+          "id": "capabilities",
+          "result": "passed",
+          "evidence": "reports/topview-queue-2026-10-16/continue-20261115-work-248a657f.json; signed-in cloud browser, GitHub connector canonical CAS writer, exact Git inputs available"
+        },
+        {
+          "id": "project_lock",
+          "result": "passed",
+          "evidence": "chatgpt:work:248a657f-036e-42a6-b600-6701db5845ba / 2026-11-15T11:23:35Z"
+        }
+      ],
+      "outcome": "accepted",
+      "first_action": {
+        "at": "2026-11-15T11:26:05+00:00",
+        "description": "Revalidated exact five S89B inputs/master and reconciled continuation with existing S89A; hourly re-enable recorded",
+        "state": "completed",
+        "evidence": "reports/topview-queue-2026-10-16/continue-20261115-work-248a657f.json"
+      },
+      "request_sha256": "9c3ab4db4b711ccc5bcec707ff1330287d3a09d71748110640e2b7e5d3ad6f1e",
+      "checked_sources": [
+        {
+          "file": "AI-PROJECT-GUIDE.md",
+          "sha256": "c62976f8c2561633e3d9612bcda6bad706ef85a9ad1a5295e2e6e6513b6efca6",
+          "bytes": 42769
+        },
+        {
+          "file": "BACKUP-AI-RUNBOOK.md",
+          "sha256": "6b0a0ba95d23937c71d072fa96e278a6485a27391245834f32e05be9572812ac",
+          "bytes": 21763
+        },
+        {
+          "file": "NEW-CHAT-HANDOFF.md",
+          "sha256": "864c530c8a87a594da6b03b591da3a896738ffd8cdbeb3acd2d3183824390412",
+          "bytes": 34992
+        },
+        {
+          "file": "PROMPT-STYLE-GUIDE.md",
+          "sha256": "2afe827fe839af546a0f7f4c1f36c57fcd976dd3f6fd8759ddf09ff265fa505d",
+          "bytes": 81982
+        },
+        {
+          "file": "README-AI-SYNC.md",
+          "sha256": "e8d83475b63a94eeb24c6ac3ac4fd182de6bcb132258f191be2a7759ebf641d9",
+          "bytes": 18840
+        },
+        {
+          "file": "SYNC-RUNBOOK.md",
+          "sha256": "ed3edff9823e89e4b89770ac55a9d4b9e7e1df34518222a2ee39b13bf942b18a",
+          "bytes": 131326
+        },
+        {
+          "file": "USER-GUIDE.md",
+          "sha256": "a1e36a365f2b7b7969547ca98423d9782e680856d8f64f5a713e6c255f4c39a5",
+          "bytes": 85761
+        },
+        {
+          "file": "instruction-sync-status.json",
+          "sha256": "7c91e0638ededa2b9b8fc6bcb7307e451d634302b0fe6b710253aa90b4a53ee4",
+          "bytes": 5135
+        },
+        {
+          "file": "monitor-role.json",
+          "sha256": "47c21b6d9470726545b00fa27d3077fc1d88f5cb3863e94a73237767ed5aafa1",
+          "bytes": 4486
+        },
+        {
+          "file": "ops/CONTINUE-PROTOCOL.md",
+          "sha256": "8b627739d8f195e99249e6ec78aa5cf3c185053260440b6a5b1be811f5c85a06",
+          "bytes": 42881
+        },
+        {
+          "file": "ops/topview-launch-queue.json",
+          "sha256": "af62a3bc029d66a85ae611ecb488e7655a5798b5221e4eed78e7ef1f95ea5077",
+          "bytes": 391695
+        },
+        {
+          "file": "project-status.json",
+          "sha256": "c39f28f397bc1674be8a2e0ab79de23e7ce3d6294d82be22d2c108edde26dc12",
+          "bytes": 29587
+        },
+        {
+          "file": "reports/current-work-checkpoint.md",
+          "sha256": "05262396ac92ec1e03b4a0d9906063fa875a4d843f53381b8a88c814b7cb7c7e",
+          "bytes": 26716
+        },
+        {
+          "file": "reports/topview-queue-2026-10-16/continue-20261115-work-248a657f.json",
+          "sha256": "249e83f382b90fa5a312822e2c900b478befdc40a0bfc90101a98231fc29909b",
+          "bytes": 7367
+        },
+        {
+          "file": "shadow/current-checkpoint.md",
+          "sha256": "95d7f227a3dcba3e783f18fe9dfc94e2eec31a827d35ac7819bcb3f876a8a236",
+          "bytes": 34793
+        },
+        {
+          "file": "shadow/takeover-brief.json",
+          "sha256": "9065e942f723ca24fa2f7c2ace35893bd53e9e448a7c2aa497395282c9642059",
+          "bytes": 32407
+        },
+        {
+          "file": "video-prompts.md",
+          "sha256": "74c98c9a5e8f51c5d88f990a38abed5cacbb44bc43018d7b4bc8155f50a1319f",
+          "bytes": 1984092
+        },
+        {
+          "file": "work-resume-register.json",
+          "sha256": "d877c2379210ef32f4c8121e56819b231279fbcfbcd3f6c6200ff802030f3fd9",
+          "bytes": 98604
+        }
+      ],
+      "source_fingerprint": "abdc07f6a08fa239f8bf747f64527e3feda3c66ad530a0168de7e2c9bd4cac3b",
+      "recorded_at": "2026-11-15T11:26:05+00:00",
+      "source_scope": "Checkout HEAD plus source bytes in the same canonical transaction",
+      "execution_authorized": false
+    },
+    {
+      "schema_version": 1,
       "receipt_id": "work-continue-20261114-33406175",
       "project": "seregius",
       "work_id": "SEREGIUS-SHIFT-20261113-T611U",
