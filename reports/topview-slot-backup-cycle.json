@@ -4,16 +4,16 @@
   "source": "ChatGPT scheduled ordinary",
   "runner": "chatgpt:ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "run_id": "3e86e987-0ee0-832d-b74a-dfd5bc8c8f5f",
-  "runtime_run_id_source": "Automations.peek last_run.id in_progress scheduled_for 2026-11-15T13:00:00Z",
+  "run_id": "8bf6f573-afc0-8324-bf98-c1bb724a55e2",
+  "runtime_run_id_source": "Automations.peek last_run.id in_progress scheduled_for 2026-11-15T14:00:00Z",
   "run_id_unavailable_reason": null,
-  "execution_instance_id": "0ceb8a53-a407-4d4e-bf03-50c4ff1080b3",
+  "execution_instance_id": "7cdd42bb-b38b-4b76-a886-2be05184ab69",
   "route_generation": 3,
-  "source_head": "e1a15aa669da8721faa15d70b698b59fdf0a89f3",
-  "started_at": "2026-11-15T13:09:27.414Z",
-  "updated_at": "2026-11-15T13:15:51.877Z",
-  "phase": "complete",
-  "status": "completed",
+  "source_head": "a6f26c7a44cc347ab8be7f7b43a4d8ad44f9c0cf",
+  "started_at": "2026-11-15T14:04:14.444Z",
+  "updated_at": "2026-11-15T14:05:02.693Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan_complete": false,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -30,25 +30,19 @@
     "estimated_usd": 0,
     "confirmed_charge_usd": 0,
     "current_wallet_usd": null,
-    "wallet_unchecked_reason": "Direct read-only Topview scan confirms 6/6; no paid browser required"
+    "wallet_unchecked_reason": "Direct read-only Topview 6/6, no paid browser needed"
   },
   "lease": {
-    "holder": "chatgpt:ordinary:0ceb8a53-a407-4d4e-bf03-50c4ff1080b3",
-    "acquired_at": "2026-11-15T13:09:27.414Z",
-    "expires_at": null,
-    "released_at": "2026-11-15T13:15:51.877Z",
-    "acquired_commit": "2d5104bd2560da31dc6ec1d7c86cc97cd5a48490",
+    "holder": "chatgpt:ordinary:7cdd42bb-b38b-4b76-a886-2be05184ab69",
+    "acquired_at": "2026-11-15T14:04:14.444Z",
+    "expires_at": "2026-11-15T14:19:14.444Z",
+    "released_at": null,
+    "acquired_commit": "a6f26c7a44cc347ab8be7f7b43a4d8ad44f9c0cf",
     "verified_start_readback": true,
-    "lock_outcome": "released_by_exact_sequential_contents_sha_CAS"
+    "lock_outcome": "held"
   },
-  "outcome": "no_free_slot",
-  "blocker": {
-    "code": "no_free_global_slot",
-    "category": "capacity_full",
-    "details": "100 newest video tasks on My First Board contained six distinct init tasks, each Unlimited=true and creditsCost=0; global video capacity 6/6.",
-    "next_attempt_condition": "next independent scheduled capacity check",
-    "retryable_on_new_evidence": true
-  },
+  "outcome": "in_progress",
+  "blocker": null,
   "retryable": true,
   "scan": {
     "source": "Topview read-only connector, My First Board page 1; 14 boards discovered; GitHub telemetry 2026-11-15T12:40:28Z",
@@ -86,7 +80,7 @@
     "topview_new_task_id_confirmed": false,
     "production_tinyfish_end_to_end_verified": false
   },
-  "checked_at": "2026-11-15T13:15:51.877Z",
+  "checked_at": "2026-11-15T14:05:02.693Z",
   "peer_runtime": {
     "relay_last_run_id": "2bc4e4c6-bc54-8331-9dc9-b54bd7946ebd",
     "work_hourly_last_run_id": "92827f35-359c-8323-aa88-29ccf388e0cb",
