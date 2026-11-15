@@ -1982,6 +1982,29 @@
       "selected_item": "S89A-WAN30",
       "lock_outcome": "acquired_via_git_object_CAS; released_atomically_with_receipt",
       "next_action": "On the next genuine wake/hourly/foreground Work runtime with an authorized originating browser context, perform a fresh full UI preflight from the saved checkpoint; re-check all five exact inputs, prompt equality, Unlimited0/720p/16:9/quantity1 and price 0, then claim+intent CAS/readback and one Create only if the same live capacity remains."
+    },
+    {
+      "event_id": "test:dot-ack-contract-20261115-2204",
+      "issue_number": 714,
+      "message_id": "247844406187737088",
+      "relay_event_id": "evt_07ca380be2b7075da96fb36aebe8ab70",
+      "checked_at": "2026-11-15T22:12:29.673Z",
+      "outcome": "started",
+      "retryable": true,
+      "task_ids": [],
+      "source": "dot Agent Relay webhook; root delegated receipt write after actual runtime wake",
+      "runner": "dot_event_handler",
+      "run_id": null,
+      "run_id_unavailable_reason": "not exposed",
+      "test_only": true,
+      "execution": {
+        "state": "started",
+        "stage": "intake",
+        "started_at": "2026-11-15T22:12:29.673Z",
+        "updated_at": "2026-11-15T22:12:29.673Z"
+      },
+      "new_submissions": 0,
+      "credits_spent": 0
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
