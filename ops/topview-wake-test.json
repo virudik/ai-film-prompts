@@ -1,18 +1,19 @@
 {
   "schema_version": 1,
-  "enabled": true,
+  "enabled": false,
   "channel": "relay",
   "test_id": "dot-relay-readonly-20261115-1794749199032",
   "read_only": true,
   "requested_at": "2026-11-15T13:27:05.616Z",
   "expected_new_submissions": 0,
   "automation_id": "6af9b2a7212081919b191786c483ad13",
-  "reason": "Owner requested enable and configure current dot relay. Genuine robot delivery diagnostic only; no Create, claim, queue or schedule changes. Verify actual receiving dot, not only transport ACK.",
+  "reason": "Read-only robot test dispatched successfully; workflow 43719105489, issue701, message247714256755650560. Actual current-dot event wake verification is separate and pending; test disabled, no Create/queue/schedule changes.",
   "resend_same_test": false,
   "previous": {
     "test_id": "wake-v2-newthread-20261024-01",
     "channel": "new_issue",
     "result": "no_run_after_new_thread",
     "completed_at": "2026-10-25T08:27:12.062Z"
-  }
+  },
+  "completed_at": "2026-11-15T13:28:49.749Z"
 }
