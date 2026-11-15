@@ -1,0 +1,238 @@
+{
+  "checked_at": "2026-11-15T12:06:17.559Z",
+  "boards": 14,
+  "pages": 19,
+  "total_video_tasks": 676,
+  "complete": true,
+  "active": [
+    {
+      "task_id": "425108630b0e48c9a4b299fc89ad88ee",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "use_unlimit_mode": true,
+      "credits_cost": 0
+    },
+    {
+      "task_id": "bfdb6d9fad7a4ab29492f7bb95c78033",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "use_unlimit_mode": true,
+      "credits_cost": 0
+    },
+    {
+      "task_id": "d775c7a483a44f13ba1704a1c418b208",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "use_unlimit_mode": true,
+      "credits_cost": 0
+    },
+    {
+      "task_id": "8c6d92662d1043c7a651168b2b8280ae",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "use_unlimit_mode": true,
+      "credits_cost": 0
+    },
+    {
+      "task_id": "1dcb6fa0628d41b098227ca6c96f1630",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "use_unlimit_mode": true,
+      "credits_cost": 0
+    },
+    {
+      "task_id": "a1330998d39b486e864ed4e22b4fe8c4",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "use_unlimit_mode": true,
+      "credits_cost": 0
+    }
+  ],
+  "page_counts": [
+    {
+      "board_id": "3db83056ccef4361a9563a4f77afa1d5",
+      "page": 1,
+      "total": 0,
+      "count": 0
+    },
+    {
+      "board_id": "6b246f75715f43be945f17b06bff9d88",
+      "page": 1,
+      "total": 16,
+      "count": 16
+    },
+    {
+      "board_id": "c934cec563ea45e1b37d12657821ebd5",
+      "page": 1,
+      "total": 0,
+      "count": 0
+    },
+    {
+      "board_id": "1cb8d0f6d11440ce9740bbafab36a6a5",
+      "page": 1,
+      "total": 0,
+      "count": 0
+    },
+    {
+      "board_id": "d3bdcbe509594dcf82f8eddcaabe17fe",
+      "page": 1,
+      "total": 11,
+      "count": 11
+    },
+    {
+      "board_id": "86c6cb46bf76400f93fea9c82d8e9b0f",
+      "page": 1,
+      "total": 4,
+      "count": 4
+    },
+    {
+      "board_id": "db4b4d6d0abc4cb4b278ea80738639f2",
+      "page": 1,
+      "total": 32,
+      "count": 32
+    },
+    {
+      "board_id": "24a69085fab4497b9c1a52536252b63d",
+      "page": 1,
+      "total": 5,
+      "count": 5
+    },
+    {
+      "board_id": "0aafc553d8a049d2bc21221511293830",
+      "page": 1,
+      "total": 0,
+      "count": 0
+    },
+    {
+      "board_id": "9f8ec3c1d7294675bfb87fa75577dec2",
+      "page": 1,
+      "total": 35,
+      "count": 35
+    },
+    {
+      "board_id": "29d5b28f0e744b9eb6bfbee47efb6ff9",
+      "page": 1,
+      "total": 8,
+      "count": 8
+    },
+    {
+      "board_id": "dde2634b5fb54e789bb22dd4c95a75b6",
+      "page": 1,
+      "total": 22,
+      "count": 22
+    },
+    {
+      "board_id": "caa5d8898f14442ea37c3278d156b3fe",
+      "page": 1,
+      "total": 34,
+      "count": 34
+    },
+    {
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "page": 1,
+      "total": 509,
+      "count": 100
+    },
+    {
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "page": 2,
+      "total": 509,
+      "count": 100
+    },
+    {
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "page": 3,
+      "total": 509,
+      "count": 100
+    },
+    {
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "page": 4,
+      "total": 509,
+      "count": 100
+    },
+    {
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "page": 5,
+      "total": 509,
+      "count": 100
+    },
+    {
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "page": 6,
+      "total": 509,
+      "count": 9
+    }
+  ],
+  "new_generations": 0,
+  "next_candidate": "S89B-WAN30",
+  "hourly": {
+    "id": "6acae6ab433481919e88665c520b8ef2",
+    "enabled": true,
+    "last_run_id": "b26b9665-1ac8-8327-8c16-b556272d97ef",
+    "last_scheduled_for": "2026-11-14T20:55:00Z",
+    "next_scheduled": "2026-11-15T11:55:00Z",
+    "new_runtime_after_reenable_verified": false,
+    "observed_runtime": {
+      "id": "bc1b92cb-608c-832c-b87c-dfdeb7098662",
+      "started_at": "2026-11-15T11:50:43.260225Z",
+      "recorded_status": "in_progress",
+      "scheduled_for": "2026-11-15T11:55:00Z"
+    }
+  },
+  "archive": {
+    "run_id": 43709625696,
+    "status": "success",
+    "copy_verify_step": "success",
+    "at": "2026-11-15T11:35:33Z"
+  },
+  "owner_inbox": {
+    "open": 0,
+    "taken": 0,
+    "needs_owner": 0
+  },
+  "owner_decisions": {
+    "pending": 0,
+    "in_progress": 0,
+    "historical_needs_owner": 1
+  },
+  "ui_generation_preflight": "not_checked; no capacity, no Create attempted",
+  "previous_full_scan": "2026-11-15T11:38:28.179Z",
+  "instruction_audit": {
+    "source": "Root agent reported full audit by dedicated reader and its child; receiving handoff agent completed BACKUP-AI-RUNBOOK and kotmonavty/INSTRUCTIONS directly",
+    "canonical_instructions": "all seven fully read across collaborating agents",
+    "project_instructions": "projects/README and INSTRUCTIONS/HANDOFF for roscosmos,raznoe,kot-detektiv,kotmonavty fully read",
+    "limits": "master and backlog selective for current work; not exhaustive prompt or reference inspection; receipt is Seregius only"
+  },
+  "hourly_verified": {
+    "automation_id": "6acae6ab433481919e88665c520b8ef2",
+    "run_id": "bc1b92cb-608c-832c-b87c-dfdeb7098662",
+    "status": "completed",
+    "completed_at": "2026-11-15T12:09:49.375207Z",
+    "canonical_receipt": "reports/topview-launcher-cycle.json",
+    "outcome": "no_free_slot",
+    "new_submissions": 0
+  },
+  "source_head": "91e36aa5b674ee66df422bfa9873fcfc7241e012",
+  "recorded_at": "2026-11-15T12:15:31+00:00",
+  "scope": "Operational takeover with instruction audit reported by root; not a generation receipt or exhaustive prompt/reference review",
+  "owner_approval": "Owner explicitly approved service lock, receipt and checkpoint in main; no scenes, queue or schedule changes.",
+  "browser_path": {
+    "source": "current root agent direct browser observation",
+    "authenticated": true,
+    "board": "My First Board",
+    "model": "Wan 3.0",
+    "duration_seconds": 30,
+    "resolution": "720p",
+    "unlimited_free_selected": true,
+    "active_video_cards": 6,
+    "create_clicked": false,
+    "submission_verified": false,
+    "note": "Form access only. Full exact-input/UI preflight must be repeated before any future Create."
+  },
+  "tests": {
+    "continue_tests": 28,
+    "launcher_coordination_tests": 68,
+    "passed": true
+  }
+}

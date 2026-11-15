@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
- "last_updated_at": "2026-11-15T11:26:05+00:00",
+ "last_updated_at": "2026-11-15T12:15:31+00:00",
  "active_work": [
   {
    "work_id": "SEREGIUS-SHIFT-20261113-T611U",
@@ -9,22 +9,22 @@
    "title": "Смена 13.11 t611u: очередь 48.4 и 89, отзыв по версиям Grok",
    "status": "waiting_for_slot",
    "created_at": "2026-11-13T14:05:00Z",
-   "updated_at": "2026-11-15T11:26:05+00:00",
-   "next_action": "При следующей проверке начать с фактической общей ёмкости и свежего main. 89A уже submitted: не повторять. Следующий кандидат — S89B-WAN30, затем живая очередь. Перед Create заново проверить все доски, unknown/claims/task IDs, решения владельца, точные SHA пяти исходников/master, текущую форму Wan 3.0/30с/720p/16:9/1/Unlimited0, свой замок/CAS claim+intent/readback; один Create. Сейчас 6/6 занято. Проверить фактический следующий HH:55 runtime: enabled не доказывает успешную проверку или запуск.",
+   "updated_at": "2026-11-15T12:15:31+00:00",
+   "next_action": "Повторить свежий main/решения владельца и полный глобальный скан перед запуском. Не повторять 89A. При свободном слоте следующий кандидат S89B-WAN30: точные исходники/SHA/master, полный UI-preflight Wan3/30с/720p/16:9/1/Unlimited0, собственные lease/CAS claim+intent/readback, один Create. HH:55 runtime 11:55 UTC подтверждён completed в 12:09:49 UTC. Расписания остаются в прежних чатах, перенос к dot не заявлен.",
    "recovery": {
     "schema_version": 1,
-    "verified_at": "2026-11-15T11:26:05+00:00",
-    "last_completed": "В браузере владельца подтверждены 6 задач в очереди и существующая 89A (425108630b0e48c9a4b299fc89ad88ee). Точный промпт 89B и все пять исходников проверены по SHA и визуально. HH:55 снова включена и перечитана. Create/claim/intent в этом чате не выполнялись.",
-    "next_action": "При следующей проверке начать с фактической общей ёмкости и свежего main. 89A уже submitted: не повторять. Следующий кандидат — S89B-WAN30, затем живая очередь. Перед Create заново проверить все доски, unknown/claims/task IDs, решения владельца, точные SHA пяти исходников/master, текущую форму Wan 3.0/30с/720p/16:9/1/Unlimited0, свой замок/CAS claim+intent/readback; один Create. Сейчас 6/6 занято. Проверить фактический следующий HH:55 runtime: enabled не доказывает успешную проверку или запуск.",
+    "verified_at": "2026-11-15T12:15:31+00:00",
+    "last_completed": "dot изучил инструкции через отдельный аудит, проверил D7 и полный read-only скан 14 досок/19 страниц/676 видео: 6/6 активных Unlimited0. 89A уже submitted, следующая 89B. Подтверждены действующие HH:00/HH:55/Relay и успешный архив. Бесплатная авторизованная форма в текущем браузере проверена до Create; отправок нет.",
+    "next_action": "Повторить свежий main/решения владельца и полный глобальный скан перед запуском. Не повторять 89A. При свободном слоте следующий кандидат S89B-WAN30: точные исходники/SHA/master, полный UI-preflight Wan3/30с/720p/16:9/1/Unlimited0, собственные lease/CAS claim+intent/readback, один Create. HH:55 runtime 11:55 UTC подтверждён completed в 12:09:49 UTC. Расписания остаются в прежних чатах, перенос к dot не заявлен.",
     "checkpoint": {
      "file": "reports/current-work-checkpoint.md",
-     "anchor": "# 15.11.2026 — Work: 89A уже отправлена, 89B проверена, занято 6/6",
-     "sha256": "9050dc0e79f193f9d564127dfe1a1a4d64f311e21d679085d4fd1ba7c8ff761b"
+     "anchor": "# 15.11.2026 — dot: приём смены, инструкции изучены, очередь сверена",
+     "sha256": "4b3d0055b282bded6075077c5a910adcb0db0fcf68b7bc613b8765142f3453b6"
     },
     "evidence": [
      {
-      "file": "reports/topview-queue-2026-10-16/continue-20261115-work-248a657f.json",
-      "sha256": "249e83f382b90fa5a312822e2c900b478befdc40a0bfc90101a98231fc29909b"
+      "file": "reports/topview-queue-2026-10-16/dot-takeover-20261115-a83fdec7.json",
+      "sha256": "f71e7c478492daf250ccb1d41b1cadd6baf27e6c886401891b4715a2052786a1"
      }
     ],
     "read_next": [
@@ -32,9 +32,7 @@
      "ops/TOPVIEW-FREE-LAUNCH.md",
      "reports/current-work-checkpoint.md"
     ],
-    "blockers": [
-     "Global capacity occupied: 6 active queued video tasks observed; fresh full account scan required before any new Create."
-    ]
+    "blockers": []
    },
    "last_takeover": {
     "at": "2026-11-15T11:26:05+00:00",
@@ -176,7 +174,11 @@
     "new_messages": [],
     "action_jobs_verified": {
      "owner_repair_verification": {
-      "failed_run_ids": [43706578575, 43706943000, 43707033456],
+      "failed_run_ids": [
+       43706578575,
+       43706943000,
+       43707033456
+      ],
       "run_id": 43707240081,
       "conclusion": "success"
      },

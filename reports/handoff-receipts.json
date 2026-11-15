@@ -4,6 +4,163 @@
   "receipts": [
     {
       "schema_version": 1,
+      "project": "seregius",
+      "receipt_id": "dot-takeover-20261115-a83fdec7",
+      "work_id": "SEREGIUS-SHIFT-20261113-T611U",
+      "source_head": "91e36aa5b674ee66df422bfa9873fcfc7241e012",
+      "chat": {
+        "agent": "chatgpt:ordinary:a83fdec7-a0e2-48af-8314-a324d65998a3",
+        "label": "dot — приём AI Film",
+        "session_id": "dot-ai-film-a83fdec7-a0e2-48af-8314-a324d65998a3",
+        "chat_id": null,
+        "identity_status": "unavailable"
+      },
+      "started_at": "2026-11-15T11:38:28Z",
+      "accepted_at": "2026-11-15T12:15:31+00:00",
+      "checks": [
+        {
+          "id": "fresh_main",
+          "result": "passed",
+          "evidence": "Fresh origin/main clone/fetch; source_head 91e36aa5b674ee66df422bfa9873fcfc7241e012"
+        },
+        {
+          "id": "instructions",
+          "result": "passed",
+          "evidence": "Root confirmed full reading audit of seven canonical instructions and four project INSTRUCTIONS/HANDOFF pairs; D7 15/15 anchors and actual-byte hashes passed. Master/backlog selectively read for current work; not an exhaustive prompt/reference review."
+        },
+        {
+          "id": "checkpoint",
+          "result": "passed",
+          "evidence": "Read current-work-checkpoint and selected work; preserved same work ID and captured verified new checkpoint"
+        },
+        {
+          "id": "owner_inbox",
+          "result": "passed",
+          "evidence": "Live GitHub owner-tasks: open/taken/needs_owner 0"
+        },
+        {
+          "id": "owner_decisions",
+          "result": "passed",
+          "evidence": "Live Supabase pending/in_progress 0; historical needs_owner unchanged"
+        },
+        {
+          "id": "capabilities",
+          "result": "passed",
+          "evidence": "GitHub clone/CAS lock, Topview and Supabase read access verified. Root verified authenticated free browser form; no Create; future submission preflight remains mandatory."
+        },
+        {
+          "id": "project_lock",
+          "result": "passed",
+          "evidence": "Own held unexpired lock chatgpt:ordinary:a83fdec7-a0e2-48af-8314-a324d65998a3 read back from GitHub"
+        }
+      ],
+      "outcome": "accepted",
+      "first_action": {
+        "at": "2026-11-15T11:38:28Z",
+        "description": "Full read-only Topview scan and reconciliation with canonical queue; preserved six existing tasks, next candidate S89B",
+        "state": "completed",
+        "evidence": "reports/topview-queue-2026-10-16/dot-takeover-20261115-a83fdec7.json"
+      },
+      "request_sha256": "70453b488beb060a8432b737752c8ac55dca0512f4ddca5f081b0591cf7dbfed",
+      "checked_sources": [
+        {
+          "file": "AI-PROJECT-GUIDE.md",
+          "sha256": "c62976f8c2561633e3d9612bcda6bad706ef85a9ad1a5295e2e6e6513b6efca6",
+          "bytes": 42769
+        },
+        {
+          "file": "BACKUP-AI-RUNBOOK.md",
+          "sha256": "6b0a0ba95d23937c71d072fa96e278a6485a27391245834f32e05be9572812ac",
+          "bytes": 21763
+        },
+        {
+          "file": "NEW-CHAT-HANDOFF.md",
+          "sha256": "b63eb4ae8f45e281010f9b4c9b357e188dfc27be116d14acfe426c07997a7abe",
+          "bytes": 34591
+        },
+        {
+          "file": "PROMPT-STYLE-GUIDE.md",
+          "sha256": "2afe827fe839af546a0f7f4c1f36c57fcd976dd3f6fd8759ddf09ff265fa505d",
+          "bytes": 81982
+        },
+        {
+          "file": "README-AI-SYNC.md",
+          "sha256": "e8d83475b63a94eeb24c6ac3ac4fd182de6bcb132258f191be2a7759ebf641d9",
+          "bytes": 18840
+        },
+        {
+          "file": "SYNC-RUNBOOK.md",
+          "sha256": "ed3edff9823e89e4b89770ac55a9d4b9e7e1df34518222a2ee39b13bf942b18a",
+          "bytes": 131326
+        },
+        {
+          "file": "USER-GUIDE.md",
+          "sha256": "a1e36a365f2b7b7969547ca98423d9782e680856d8f64f5a713e6c255f4c39a5",
+          "bytes": 85761
+        },
+        {
+          "file": "instruction-sync-status.json",
+          "sha256": "0332c26ebd0198c198bae9cc41579283f65011fbac2935e79fa1f803e3288336",
+          "bytes": 5135
+        },
+        {
+          "file": "monitor-role.json",
+          "sha256": "47c21b6d9470726545b00fa27d3077fc1d88f5cb3863e94a73237767ed5aafa1",
+          "bytes": 4486
+        },
+        {
+          "file": "ops/CONTINUE-PROTOCOL.md",
+          "sha256": "05022877e46dc859b8377fc68d85d4c791a374c797511b61d92b65dc76048d69",
+          "bytes": 42881
+        },
+        {
+          "file": "ops/topview-launch-queue.json",
+          "sha256": "84779ac9be124aacd789e9ecd890391fbc8f3ae6e9dd34f9db3575e8c1f9261a",
+          "bytes": 387167
+        },
+        {
+          "file": "project-status.json",
+          "sha256": "f46c29077e516e72b15dd3bc2e2a16e335ca073dfab9aeb3c3946f1a1192b6d3",
+          "bytes": 29587
+        },
+        {
+          "file": "reports/current-work-checkpoint.md",
+          "sha256": "3698b3853ff50f5762814649af6e27e41a7c2232dca86d7614354f7748c7328c",
+          "bytes": 25776
+        },
+        {
+          "file": "reports/topview-queue-2026-10-16/dot-takeover-20261115-a83fdec7.json",
+          "sha256": "f71e7c478492daf250ccb1d41b1cadd6baf27e6c886401891b4715a2052786a1",
+          "bytes": 6501
+        },
+        {
+          "file": "shadow/current-checkpoint.md",
+          "sha256": "3068dcd97e6a2cad44fb6d98acf518fe52279ed39b4e7053518ff8e242993206",
+          "bytes": 34392
+        },
+        {
+          "file": "shadow/takeover-brief.json",
+          "sha256": "09446b2180900d778306031c50b5466ad6db5093f04a9b0d3a5941b0f9851de1",
+          "bytes": 32407
+        },
+        {
+          "file": "video-prompts.md",
+          "sha256": "74c98c9a5e8f51c5d88f990a38abed5cacbb44bc43018d7b4bc8155f50a1319f",
+          "bytes": 1984092
+        },
+        {
+          "file": "work-resume-register.json",
+          "sha256": "0e72320cf1f9b8d002dff2f07370237268b85d7a946060cacf1fa0b321d6cf01",
+          "bytes": 97913
+        }
+      ],
+      "source_fingerprint": "14c11b725f04dbd4d8088e48ccf3e4ee0caa2b963ded903f6e6d9b0fa95f5f08",
+      "recorded_at": "2026-11-15T12:15:31+00:00",
+      "source_scope": "Checkout HEAD plus source bytes in the same canonical transaction",
+      "execution_authorized": false
+    },
+    {
+      "schema_version": 1,
       "receipt_id": "work-continue-20261115-248a657f",
       "project": "seregius",
       "work_id": "SEREGIUS-SHIFT-20261113-T611U",

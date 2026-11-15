@@ -3,49 +3,46 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-15T12:09:53+00:00",
-  "source_head": "90d529d9a29beed56c3aee687c1743ac811fda10",
-  "source_fingerprint": "91dbd28e2fee4b0a11388cd7eb0ead282e03c0f7eeac29a3885259a3be081e1c",
+  "checked_at": "2026-11-15T12:15:31+00:00",
+  "source_head": "91e36aa5b674ee66df422bfa9873fcfc7241e012",
+  "source_fingerprint": "e7fa80b910d0547e4e1147036e53259b798ce26cd92495dea34c731ad7e2ce0b",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": {
-    "receipt_id": "work-continue-20261115-248a657f",
+    "receipt_id": "dot-takeover-20261115-a83fdec7",
     "project": "seregius",
     "work_id": "SEREGIUS-SHIFT-20261113-T611U",
     "chat": {
-      "agent": "chatgpt:work:248a657f-036e-42a6-b600-6701db5845ba",
-      "label": "Work — продолжение Серёгиуса 15.11.2026",
-      "session_id": "chatgpt-work-continue-248a657f-036e-42a6-b600-6701db5845ba",
+      "agent": "chatgpt:ordinary:a83fdec7-a0e2-48af-8314-a324d65998a3",
+      "label": "dot — приём AI Film",
+      "session_id": "dot-ai-film-a83fdec7-a0e2-48af-8314-a324d65998a3",
       "chat_id": null,
-      "identity_status": "unavailable",
-      "identity_unavailable_reason": "Current conversation ID not exposed by tools; session is locally generated"
+      "identity_status": "unavailable"
     },
-    "accepted_at": "2026-11-15T11:26:05+00:00",
+    "accepted_at": "2026-11-15T12:15:31+00:00",
     "outcome": "accepted",
     "first_action": {
-      "at": "2026-11-15T11:26:05+00:00",
-      "description": "Revalidated exact five S89B inputs/master and reconciled continuation with existing S89A; hourly re-enable recorded",
+      "at": "2026-11-15T11:38:28Z",
+      "description": "Full read-only Topview scan and reconciliation with canonical queue; preserved six existing tasks, next candidate S89B",
       "state": "completed",
-      "evidence": "reports/topview-queue-2026-10-16/continue-20261115-work-248a657f.json"
+      "evidence": "reports/topview-queue-2026-10-16/dot-takeover-20261115-a83fdec7.json"
     },
-    "source_head": "99f871e8472d63bd92f7fec01f214e6a12838bc0"
+    "source_head": "91e36aa5b674ee66df422bfa9873fcfc7241e012"
   },
   "reasons": [],
   "selected_work": {
     "work_id": "SEREGIUS-SHIFT-20261113-T611U",
     "title": "Смена 13.11 t611u: очередь 48.4 и 89, отзыв по версиям Grok",
     "status": "waiting_for_slot",
-    "last_completed": "В браузере владельца подтверждены 6 задач в очереди и существующая 89A (425108630b0e48c9a4b299fc89ad88ee). Точный промпт 89B и все пять исходников проверены по SHA и визуально. HH:55 снова включена и перечитана. Create/claim/intent в этом чате не выполнялись.",
-    "next_action": "При следующей проверке начать с фактической общей ёмкости и свежего main. 89A уже submitted: не повторять. Следующий кандидат — S89B-WAN30, затем живая очередь. Перед Create заново проверить все доски, unknown/claims/task IDs, решения владельца, точные SHA пяти исходников/master, текущую форму Wan 3.0/30с/720p/16:9/1/Unlimited0, свой замок/CAS claim+intent/readback; один Create. Сейчас 6/6 занято. Проверить фактический следующий HH:55 runtime: enabled не доказывает успешную проверку или запуск.",
-    "verified_at": "2026-11-15T11:26:05+00:00",
-    "blockers": [
-      "Global capacity occupied: 6 active queued video tasks observed; fresh full account scan required before any new Create."
-    ],
+    "last_completed": "dot изучил инструкции через отдельный аудит, проверил D7 и полный read-only скан 14 досок/19 страниц/676 видео: 6/6 активных Unlimited0. 89A уже submitted, следующая 89B. Подтверждены действующие HH:00/HH:55/Relay и успешный архив. Бесплатная авторизованная форма в текущем браузере проверена до Create; отправок нет.",
+    "next_action": "Повторить свежий main/решения владельца и полный глобальный скан перед запуском. Не повторять 89A. При свободном слоте следующий кандидат S89B-WAN30: точные исходники/SHA/master, полный UI-preflight Wan3/30с/720p/16:9/1/Unlimited0, собственные lease/CAS claim+intent/readback, один Create. HH:55 runtime 11:55 UTC подтверждён completed в 12:09:49 UTC. Расписания остаются в прежних чатах, перенос к dot не заявлен.",
+    "verified_at": "2026-11-15T12:15:31+00:00",
+    "blockers": [],
     "evidence": [
       {
-        "file": "reports/topview-queue-2026-10-16/continue-20261115-work-248a657f.json",
-        "sha256": "249e83f382b90fa5a312822e2c900b478befdc40a0bfc90101a98231fc29909b"
+        "file": "reports/topview-queue-2026-10-16/dot-takeover-20261115-a83fdec7.json",
+        "sha256": "f71e7c478492daf250ccb1d41b1cadd6baf27e6c886401891b4715a2052786a1"
       }
     ],
     "read_next": [
@@ -55,11 +52,11 @@
     ],
     "checkpoint": {
       "file": "reports/current-work-checkpoint.md",
-      "anchor": "# 15.11.2026 — Work: 89A уже отправлена, 89B проверена, занято 6/6",
-      "sha256": "9050dc0e79f193f9d564127dfe1a1a4d64f311e21d679085d4fd1ba7c8ff761b"
+      "anchor": "# 15.11.2026 — dot: приём смены, инструкции изучены, очередь сверена",
+      "sha256": "4b3d0055b282bded6075077c5a910adcb0db0fcf68b7bc613b8765142f3453b6"
     }
   },
-  "checkpoint_text": "# 15.11.2026 — Work: 89A уже отправлена, 89B проверена, занято 6/6\n\nwork_id: SEREGIUS-SHIFT-20261113-T611U\n\n- Полный приём смены после несовпадения первоначального брифа со свежим main; 7 инструкций и живые статусы проверены. Бриф затем сошёлся.\n- В браузере владельца подтверждены 6 задач в очереди и существующая 89A (425108630b0e48c9a4b299fc89ad88ee). Точный промпт 89B и все пять исходников проверены по SHA и визуально. HH:55 снова включена и перечитана. Create/claim/intent в этом чате не выполнялись.\n- Браузерный осмотр охватил доску My First Board и детали 89A, не все страницы аккаунта. Шесть видимых активных карточек подтверждают отсутствие свободного слота; снимок робота 2026-11-15T11:20:31Z также показывает 6/6 (light scan, complete=false). Нового полного скана для запуска не заявляем.\n- Старый blocked_browser относится к предыдущей попытке. В этом интерактивном Work вход доступен; состояние других фоновых сред из этого не выводится.\n- Существующая HH:55 6acae6ab433481919e88665c520b8ef2 включена 2026-11-15T11:21:13.909242+00:00, read-back enabled=true. Prompt/расписание сохранены, Relay и ordinary не менялись. Причина выключения неизвестна; следующий успешный runtime ещё не подтверждён.\n- 89B: все пять полных канонических файлов скачаны, SHA/форматы/размеры и роли просмотрены; промпт 3724 символа, SHA совпал. Загрузка формы/Unlimited для 89B не проверялись.\n- Свой foreground Work принят по прямому «Продолжай»; другие peers, route_generation, claims и очередь сохранены. Новых owner tasks/решений pending нет, историческое needs_owner Grok не изменено.\n- Следующий шаг: При следующей проверке начать с фактической общей ёмкости и свежего main. 89A уже submitted: не повторять. Следующий кандидат — S89B-WAN30, затем живая очередь. Перед Create заново проверить все доски, unknown/claims/task IDs, решения владельца, точные SHA пяти исходников/master, текущую форму Wan 3.0/30с/720p/16:9/1/Unlimited0, свой замок/CAS claim+intent/readback; один Create. Сейчас 6/6 занято. Проверить фактический следующий HH:55 runtime: enabled не доказывает успешную проверку или запуск.\n- Доказательства: `reports/topview-queue-2026-10-16/continue-20261115-work-248a657f.json`.\n\nchecked_at: 2026-11-15T11:26:05+00:00\n",
+  "checkpoint_text": "# 15.11.2026 — dot: приём смены, инструкции изучены, очередь сверена\n\nwork_id: SEREGIUS-SHIFT-20261113-T611U\n\n- Проверка восстановления D7: 15/15 якорей и SHA восьми канонических источников совпали; ready_for_resume=true.\n- Полный скан Topview 2026-11-15T12:06:17.559Z: 14 досок, 19 страниц, 676 видео; шесть активных init, Unlimited=true, creditsCost=0. Следующая S89B-WAN30; 89A уже submitted.\n- Входящие GitHub open/taken/needs_owner=0. Supabase pending/in_progress=0; историческая needs_owner 01.11 сохранена.\n- HH:00 реально отработала 15.11 11:00 UTC; HH:55 включена; runtime 11:55 UTC завершился в 12:09:49 UTC, квитанция в main: no_free_slot, 6/6, Create=0. Relay включён, его прежний blocked_browser — исторический результат. Автоматизации не переносились в dot и не менялись.\n- Архив run 43709625696 успешен, включая Copy and verify completed videos; Pages успешен.\n- В текущем браузере dot подтверждены вход, My First Board и выбранный бесплатный Unlimited для Wan3/30с/720p; шесть видео в очереди. Create не нажат. Доступ к форме не выдаётся за доказательство отправки или возможности любого фонового runtime.\n- Первая запись lock была отклонена проверкой безопасности и не попала на GitHub. Затем владелец явно разрешил служебную запись. Чужая HH:55 lease соблюдена; приём сохраняется только под собственной свежей lease.\n- Сцены, промпты, очередь, task IDs, приёмка, retry budgets, расписания и роль робота не изменены. Новых видео и расходов нет.\n- Инструкции: полный аудит семи канонических документов и INSTRUCTIONS/HANDOFF четырёх дополнительных проектов подтверждён корневым агентом. Master/backlog изучены по текущей задаче; полного просмотра всех промптов и референсов не заявляем. Приём квитанции относится к Серёгиусу; отдельные проектные квитанции и замки этой записью не создаются.\n- Доказательства: `reports/topview-queue-2026-10-16/dot-takeover-20261115-a83fdec7.json`. Следующий шаг: Повторить свежий main/решения владельца и полный глобальный скан перед запуском. Не повторять 89A. При свободном слоте следующий кандидат S89B-WAN30: точные исходники/SHA/master, полный UI-preflight Wan3/30с/720p/16:9/1/Unlimited0, собственные lease/CAS claim+intent/readback, один Create. HH:55 runtime 11:55 UTC подтверждён completed в 12:09:49 UTC. Расписания остаются в прежних чатах, перенос к dot не заявлен.\n\nchecked_at: 2026-11-15T12:15:31+00:00\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -619,18 +616,18 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "72bc28ea24a6ed5d364ad64abf5c44abbff71730524eb4d6d71127ae7a235b9c",
-      "bytes": 22183
+      "sha256": "3698b3853ff50f5762814649af6e27e41a7c2232dca86d7614354f7748c7328c",
+      "bytes": 25776
     },
     {
       "file": "reports/handoff-receipts.json",
-      "sha256": "198b748e93a5fa273a2c69badf86fdcbbbe0569b2483ef0646725a50d230afbc",
-      "bytes": 91191
+      "sha256": "bf028fd46b22a0fd670ab9e26c77da5f68adbfc3fc8d2e0d57f23d056294ddd4",
+      "bytes": 97430
     },
     {
-      "file": "reports/topview-queue-2026-10-16/continue-20261115-work-248a657f.json",
-      "sha256": "249e83f382b90fa5a312822e2c900b478befdc40a0bfc90101a98231fc29909b",
-      "bytes": 7367
+      "file": "reports/topview-queue-2026-10-16/dot-takeover-20261115-a83fdec7.json",
+      "sha256": "f71e7c478492daf250ccb1d41b1cadd6baf27e6c886401891b4715a2052786a1",
+      "bytes": 6501
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -649,9 +646,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "7a51c9d6eb70f69e64f404f64574c0c5bb1304bd348b95e8f1ae419304458db2",
-      "bytes": 98210
+      "sha256": "0e72320cf1f9b8d002dff2f07370237268b85d7a946060cacf1fa0b321d6cf01",
+      "bytes": 97913
     }
   ],
-  "packet_bytes": 8643
+  "packet_bytes": 8744
 }
