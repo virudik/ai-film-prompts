@@ -11,18 +11,18 @@
   "route_generation": 3,
   "source_head": "ee6c53e6b201becf3c8faa2846a9278a7b822181",
   "started_at": "2026-11-15T03:01:14.607Z",
-  "updated_at": "2026-11-15T03:01:58.765Z",
-  "phase": "started",
-  "status": "running",
-  "scan_complete": null,
-  "occupied_slots": null,
-  "free_slots": null,
+  "updated_at": "2026-11-15T03:03:20.429Z",
+  "phase": "complete",
+  "status": "completed",
+  "scan_complete": false,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
-  "next_ready_item": null,
+  "next_ready_item": "S89B-WAN30",
   "task_ids": [],
   "new_submissions": 0,
   "topview_credits_spent": 0,
-  "browser_transport": "not_used",
+  "browser_transport": "not_used; global capacity full 6/6",
   "tinyfish": {
     "run_ids": [],
     "attempts": 0,
@@ -30,33 +30,67 @@
     "estimated_usd": 0,
     "confirmed_charge_usd": 0,
     "current_wallet_usd": null,
-    "wallet_unchecked_reason": "read-only cycle until verified global free slot"
+    "wallet_unchecked_reason": "6/6 directly confirmed; no paid browser run"
   },
   "lease": {
     "holder": "chatgpt:ordinary:e2b46629-e725-4886-8223-274349d2ae8b",
     "acquired_at": "2026-11-15T03:01:14.607Z",
-    "expires_at": "2026-11-15T03:16:14.607Z",
-    "released_at": null,
-    "lock_outcome": "held",
+    "expires_at": null,
+    "released_at": "2026-11-15T03:03:20.429Z",
+    "lock_outcome": "released_atomically_with_final_receipt",
     "verified_start_readback": true
   },
-  "outcome": "checking",
-  "blocker": null,
-  "retryable": null,
-  "checked_at": null,
-  "scan": null,
+  "outcome": "no_free_slot",
+  "blocker": {
+    "code": "no_free_global_slot",
+    "category": "capacity_full",
+    "details": "Topview connector directly verified 6 distinct video tasks status=init on My First Board at 2026-11-15T03:02:30.940Z; latest robot telemetry 2026-11-15T02:50:40Z also reports 6/6. Direct task lookups establish occupied capacity without needing a new full all-board scan. No Create or paid browser call.",
+    "next_attempt_condition": "Fresh slot check at next scheduled cycle.",
+    "retryable_on_new_evidence": true
+  },
+  "retryable": false,
+  "checked_at": "2026-11-15T03:02:30.940Z",
+  "scan": {
+    "source": "Topview read-only connector: direct board-task lookups for all six active robot task IDs; GitHub robot cross-check",
+    "boards": 1,
+    "pages": 0,
+    "scanned_tasks": 6,
+    "complete": false,
+    "capacity_conclusive": true,
+    "robot_checked_at": "2026-11-15T02:50:40Z",
+    "robot_scan_mode": "light_board_counts_verified",
+    "robot_boards_scanned": 14,
+    "robot_video_tasks_scanned": 676,
+    "active_video_task_ids": [
+      "1dcb6fa0628d41b098227ca6c96f1630",
+      "425108630b0e48c9a4b299fc89ad88ee",
+      "8c6d92662d1043c7a651168b2b8280ae",
+      "a1330998d39b486e864ed4e22b4fe8c4",
+      "bfdb6d9fad7a4ab29492f7bb95c78033",
+      "d775c7a483a44f13ba1704a1c418b208"
+    ],
+    "occupied_slots": 6,
+    "free_slots": 0,
+    "queue_items": 63,
+    "readiness_items": 26,
+    "open_claims": 0,
+    "owner_tasks_open": 0,
+    "queue_readiness_sha256_claimed_not_independently_recalculated": true
+  },
   "acceptance": {
     "scheduled_execution": true,
     "tinyfish_login": false,
     "tinyfish_ui_control": false,
     "tinyfish_file_upload": false,
     "tinyfish_unlimited0": false,
-    "verified_create_task_id": null
+    "verified_create_task_id": null,
+    "topview_connector_read_only_check": true,
+    "full_background_launch_verified": false
   },
   "peer_runtime": {
     "work_relay_last_run_id": "2bc4e4c6-bc54-8331-9dc9-b54bd7946ebd",
     "work_hh55_last_run_id": "b26b9665-1ac8-8327-8c16-b556272d97ef",
     "work_hh55_enabled": false
   },
-  "notes": "Fresh scan and claim reconciliation to follow; no Create authorization from this receipt."
+  "notes": "Existing HH:00 task remains enabled; no changes to role, route generation, next_action, master, claims, or retry budget. Work HH:55 observed disabled; no new proof of Work GUI/quota. S89A remains init. Six active means no UI preflight or TinyFish was required."
 }
