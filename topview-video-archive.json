@@ -38,6 +38,15 @@
       "sha256": "abdb5ac32765bfde7f9413bb18ac741dc7a95522ac6459d50ee989d497c6c002",
       "size_bytes": 42306520
     },
+    "0a495e5f77a041e6bcc8d67fb68230b3": {
+      "archived_at": "2026-11-15T10:55:58Z",
+      "drive_url": "https://drive.google.com/file/d/1rlbF1I9cVksWJHIfGZ76D-W4aLihGxFs/view",
+      "file_id": "1rlbF1I9cVksWJHIfGZ76D-W4aLihGxFs",
+      "md5": "eef72c463a3a0f6b5b849e3bccf31a3f",
+      "scene_id": 48,
+      "sha256": "596fd8993cbfa675501881fc6ccf6376c507a22519f3de90fcd37d1034d8922d",
+      "size_bytes": 11769326
+    },
     "0b6dfa84e4524b438075f10f7205a846": {
       "archived_at": "2026-11-09T10:45:41Z",
       "drive_url": "https://drive.google.com/file/d/1tCtTR8SaHqUVOgOqjVRFPa78wo6C5pFc/view",
@@ -559,6 +568,15 @@
       "scene_id": 58,
       "sha256": "acc1ae01c1b7c20cbe5656f47ba4e2f20d3749d4feaa426f8975ea306277843a",
       "size_bytes": 11721376
+    },
+    "8bdd6439dad94592979aba23c137b4a0": {
+      "archived_at": "2026-11-15T10:55:54Z",
+      "drive_url": "https://drive.google.com/file/d/1XcuZAW6ez7pLHXy6VgPPpIYEwGsjeh1p/view",
+      "file_id": "1XcuZAW6ez7pLHXy6VgPPpIYEwGsjeh1p",
+      "md5": "54ac4d6bf66a34114203bacda2ca7e16",
+      "scene_id": 48,
+      "sha256": "a54c35cf60abeb22284bdf7293753b0254fcc9c53fa482fe0ec98314721bbb61",
+      "size_bytes": 11719863
     },
     "8d7ff1e2de63478693778de29e0dd56e": {
       "archived_at": "2026-10-31T05:35:40Z",
