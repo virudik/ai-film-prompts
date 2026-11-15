@@ -11,18 +11,18 @@
   "route_generation": 3,
   "source_head": "8ad0d9cc14cb490f3a8d47a060a7dcc43a186f06",
   "started_at": "2026-11-15T08:04:54.589Z",
-  "updated_at": "2026-11-15T08:05:45.984Z",
-  "phase": "started",
-  "status": "in_progress",
+  "updated_at": "2026-11-15T08:08:26.258Z",
+  "phase": "complete",
+  "status": "completed",
   "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
-  "next_ready_item": null,
+  "next_ready_item": "S89B-WAN30",
   "task_ids": [],
   "new_submissions": 0,
   "topview_credits_spent": 0,
-  "browser_transport": "not_used",
+  "browser_transport": "not_used: 6/6 verified read-only",
   "tinyfish": {
     "run_ids": [],
     "attempts": 0,
@@ -30,23 +30,55 @@
     "estimated_usd": 0,
     "confirmed_charge_usd": 0,
     "current_wallet_usd": null,
-    "wallet_unchecked_reason": "read-only capacity check pending"
+    "wallet_unchecked_reason": "all six video slots occupied; paid browser forbidden"
   },
   "lease": {
     "holder": "chatgpt:ordinary:bbf8b515-7850-4847-b6fa-83450bb52d78",
     "acquired_at": "2026-11-15T08:04:54.589Z",
-    "expires_at": "2026-11-15T08:19:54.589Z",
-    "released_at": null,
+    "expires_at": null,
+    "released_at": "2026-11-15T08:08:26.258Z",
     "acquired_commit": "a862ea80f5d382b3a8a696df769823d61d450db9",
-    "verified_start_readback": true
+    "verified_start_readback": true,
+    "lock_outcome": "released_atomically_with_final_receipt"
   },
-  "outcome": null,
-  "blocker": null,
-  "retryable": null,
-  "checked_at": null,
+  "outcome": "no_free_slot",
+  "blocker": {
+    "code": "no_free_global_slot",
+    "category": "capacity_full",
+    "details": "Fresh Topview My First Board latest 100 tasks contained six distinct init video tasks with Unlimited=true and creditsCost=0. Robot status at 2026-11-15T07:30:29Z agrees 6/6. No global spare physical slot. Full all-board scan not needed to establish saturation.",
+    "next_attempt_condition": "next scheduled read-only check with fresh Topview capacity",
+    "retryable_on_new_evidence": true
+  },
+  "retryable": true,
+  "checked_at": "2026-11-15T08:08:26.258Z",
   "scan": {
-    "source": "pending",
-    "complete": false
+    "source": "Topview read-only My First Board page 1 of 733; independent robot topview-status.json cross-check",
+    "boards": 1,
+    "pages": 1,
+    "scanned_tasks": 100,
+    "total_board_tasks": 733,
+    "complete": false,
+    "capacity_conclusive": true,
+    "robot_checked_at": "2026-11-15T07:30:29Z",
+    "robot_occupied_slots": 6,
+    "active_video_task_ids": [
+      "425108630b0e48c9a4b299fc89ad88ee",
+      "bfdb6d9fad7a4ab29492f7bb95c78033",
+      "d775c7a483a44f13ba1704a1c418b208",
+      "8c6d92662d1043c7a651168b2b8280ae",
+      "1dcb6fa0628d41b098227ca6c96f1630",
+      "a1330998d39b486e864ed4e22b4fe8c4"
+    ],
+    "occupied_slots": 6,
+    "free_slots": 0,
+    "queue_items": 63,
+    "readiness_items": 26,
+    "readiness_ready_items": 22,
+    "open_claims": 0,
+    "owner_tasks_open": 0,
+    "source_queue_sha256": "af62a3bc029d66a85ae611ecb488e7655a5798b5221e4eed78e7ef1f95ea5077",
+    "source_task_map_sha256": "43658121333b1291ccdd76276c611fc3cfcefcd56f75ca5b8bca84beec743a38",
+    "sha256_independently_verified": false
   },
   "acceptance": {
     "scheduled_execution": true,
@@ -55,12 +87,12 @@
     "tinyfish_file_upload": false,
     "tinyfish_unlimited0": false,
     "verified_create_task_id": null,
-    "topview_connector_read_only_check": false,
+    "topview_connector_read_only_check": true,
     "full_background_launch_verified": false
   },
   "peer_runtime": {
     "ordinary": {
-      "run_id": "01aa345e-33f0-8325-815e-94f87ed76e77",
+      "run_id": "713ee3e0-7a4c-8330-9325-5d459e1d71c5",
       "recorded_status": "in_progress_at_peek",
       "enabled": true
     },
@@ -75,5 +107,5 @@
       "is_enabled": false
     }
   },
-  "notes": "Started receipt only; no Create or browser call."
+  "notes": "No Create. S89A already submitted (425108630b0e48c9a4b299fc89ad88ee), do not repeat. Old Work checkpoint still mentions S89A pre-Create; queue takes precedence. Interactive resume state unchanged; route_generation=3 unchanged. Earlier wake issue 680 is historical, not current capacity."
 }
