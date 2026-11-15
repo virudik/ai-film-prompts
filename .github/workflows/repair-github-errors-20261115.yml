@@ -23,6 +23,9 @@ jobs:
         with:
           ref: main
           fetch-depth: 1
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
       - name: Apply reviewed minimal cleanup, certify, test, and CAS-publish
         env:
           REPAIR_HOLDER: chatgpt:ordinary:c9ff470f-280e-4cc6-8b05-04c63cca721b
@@ -47,8 +50,9 @@ jobs:
               'BACKUP-AI-RUNBOOK.md': 'e98a0d592c71eac61b9192a5bd8d926b9ba50c71',
           }
           REPORT = Path('reports/github-error-repair-2026-11-15.json')
+          TEST_FILE = Path('tests/test_recovery_integration.py')
           ALLOWED = {'NEW-CHAT-HANDOFF.md', 'archive/handoff-log.md',
-                     'instruction-sync-status.json', 'canon-health.json', str(REPORT)}
+                     'instruction-sync-status.json', 'canon-health.json', str(REPORT), str(TEST_FILE)}
 
           def call(*args):
               return subprocess.check_output(args, text=True).strip()
@@ -99,6 +103,29 @@ jobs:
               assert original[original.index(tail):] == s[s.index(tail):], 'Standing rules changed'
               return s, moved
 
+          def repair_test_contract():
+              raw = TEST_FILE.read_bytes()
+              assert blob(raw) == '24119281dc6d7d95cc042bd5f9da8afafb703ab8', 'Integration test changed; review required'
+              text = raw.decode()
+              old = '        self.assertEqual(top["occupied_slots"], sum(len(v) for v in task["active_by_scene"].values()))'
+              new = '''        # Unmapped provider tasks still occupy physical slots; never invent a scene.
+                  mapped_ids = [tid for ids in task["active_by_scene"].values() for tid in ids]
+                  known_rows = [row for row in top["active_tasks"] if row.get("scene_id") is not None]
+                  unmapped_rows = [row for row in top["active_tasks"] if row.get("scene_id") is None]
+                  self.assertCountEqual(mapped_ids, [row["task_id"] for row in known_rows])
+                  self.assertEqual(top["occupied_slots"], len(mapped_ids) + len(unmapped_rows))
+                  self.assertEqual(len({row["task_id"] for row in top["active_tasks"]}), top["occupied_slots"])'''
+              # Strip only the extra heredoc indentation in the replacement string.
+              new = new.replace('\n        ', '\n')
+              assert text.count(old) == 1
+              text = text.replace(old, new, 1)
+              old = '            sorted({x["scene_id"] for x in top["active_tasks"]}),'
+              new = '            sorted({x["scene_id"] for x in top["active_tasks"] if x.get("scene_id") is not None}),'
+              assert text.count(old) == 1
+              text = text.replace(old, new, 1)
+              compile(text, str(TEST_FILE), 'exec')
+              TEST_FILE.write_text(text)
+
           for attempt in range(1, 4):
               subprocess.run(['git', 'fetch', 'origin', 'main'], check=True)
               subprocess.run(['git', 'reset', '--hard', 'origin/main'], check=True)
@@ -126,6 +153,7 @@ jobs:
               assert Path('archive/handoff-log.md').read_bytes().endswith(original_archive)
               for text in moved:
                   assert text.encode() in Path('archive/handoff-log.md').read_bytes()
+              repair_test_contract()
               tests = []
               commands = [
                   ['python3', 'scripts/cert_github.py', '.'],
@@ -137,8 +165,8 @@ jobs:
               ]
               for command in commands:
                   result = subprocess.run(command, text=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-                  print('RUN:', ' '.join(command))
-                  print(result.stdout[-18000:])
+                  print('RUN:', ' '.join(command), flush=True)
+                  print(result.stdout[-18000:], flush=True)
                   tests.append({'command': command, 'exit_code': result.returncode})
                   if result.returncode != 0:
                       raise RuntimeError('Verification failed: ' + ' '.join(command))
@@ -169,7 +197,9 @@ jobs:
                   'scene88_pending_owner_review_preserved': True, 'standing_rules_byte_identical': True,
                   'instruction_certificate_files': 7, 'brief_valid': True, 'brief_anchors': '15/15',
                   'canon_health': health['status'], 'canon_warnings': health['warnings'],
-                  'tests': tests, 'master_queue_and_other_tracked_files_unchanged': True,
+                  'tests': tests,
+                  'test_contract_repair': 'Include unmapped provider tasks in physical slots; compare checkpoint only to known scene IDs; retain all task-ID and uniqueness checks.',
+                  'master_queue_and_other_tracked_files_unchanged': True,
                   'new_video_generations': 0, 'topview_credits_spent': 0,
                   'limitations': ['Drive sharing permissions preserved, not changed or certified private.', 'Pool is finite; low-water warning remains enabled.'],
                   'temporary_executor': '.github/workflows/repair-github-errors-20261115.yml; no schedule; remove after verification',
@@ -186,7 +216,7 @@ jobs:
               subprocess.run(['git', 'config', 'user.name', 'github-actions[bot]'], check=True)
               subprocess.run(['git', 'config', 'user.email', '41898282+github-actions[bot]@users.noreply.github.com'], check=True)
               subprocess.run(['git', 'add', '--', *sorted(ALLOWED)], check=True)
-              subprocess.run(['git', 'commit', '-m', 'Repair GitHub health: archive stale handoff notes, preserve active work, recertify and verify'], check=True)
+              subprocess.run(['git', 'commit', '-m', 'Repair GitHub health and unmapped-task regression checks; preserve active work and verify'], check=True)
               if subprocess.run(['git', 'push', 'origin', 'HEAD:main']).returncode == 0:
                   committed = call('git', 'rev-parse', 'HEAD')
                   subprocess.run(['git', 'fetch', 'origin', 'main'], check=True)
