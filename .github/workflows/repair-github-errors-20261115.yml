@@ -23,6 +23,8 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
+      - name: Install the existing archive test dependencies
+        run: python3 -m pip install --quiet requests google-auth
       - name: Execute pinned reviewed repair with all lease, hash, test and CAS gates
         env:
           REPAIR_HOLDER: chatgpt:ordinary:c9ff470f-280e-4cc6-8b05-04c63cca721b
