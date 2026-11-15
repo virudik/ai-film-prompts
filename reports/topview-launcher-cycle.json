@@ -11,7 +11,7 @@
   "route_generation": 3,
   "source_head": "dca244489244afc2a2a003558e48644a85d25a00",
   "started_at": "2026-11-15T13:00:27.871Z",
-  "updated_at": "2026-11-15T13:02:15.707Z",
+  "updated_at": "2026-11-15T13:02:46.497Z",
   "checked_at": "2026-11-15T13:02:15.707Z",
   "phase": "completed",
   "status": "ok",
@@ -35,8 +35,8 @@
     "acquired_at": "2026-11-15T13:00:27.871Z",
     "expires_at": "2026-11-15T13:15:27.871Z",
     "acquired_commit": "dca244489244afc2a2a003558e48644a85d25a00",
-    "released": false,
-    "released_at": null
+    "released": true,
+    "released_at": "2026-11-15T13:02:46.497Z"
   },
   "outcome": "no_free_slot",
   "blocker": null,

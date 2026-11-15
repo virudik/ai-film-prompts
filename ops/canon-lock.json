@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
-  "holder": "chatgpt:work:d27074de-63fd-46c6-b949-f52120435c1d",
-  "task": "Scheduled HH:55 Seregius slot/QC/maintenance cycle",
-  "acquired_at": "2026-11-15T13:00:27.871Z",
-  "expires_at": "2026-11-15T13:15:27.871Z",
-  "released_at": null,
+  "state": "free",
+  "holder": null,
+  "task": null,
+  "acquired_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-15T13:02:46.497Z",
   "rules": "ops/CANON-LOCK.md"
 }
