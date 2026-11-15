@@ -11,18 +11,18 @@
   "route_generation": 3,
   "source_head": "7fca66fe5c1de5873cf1323b21df3f3006b990b3",
   "started_at": "2026-11-15T04:01:19.601Z",
-  "updated_at": "2026-11-15T04:01:53.679Z",
-  "phase": "started",
-  "status": "in_progress",
+  "updated_at": "2026-11-15T04:03:20.418Z",
+  "phase": "complete",
+  "status": "completed",
   "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
   "next_ready_item": "S89B-WAN30",
   "task_ids": [],
   "new_submissions": 0,
   "topview_credits_spent": 0,
-  "browser_transport": "not_used",
+  "browser_transport": "not_used; account capacity full 6/6",
   "tinyfish": {
     "run_ids": [],
     "attempts": 0,
@@ -30,23 +30,52 @@
     "estimated_usd": 0,
     "confirmed_charge_usd": 0,
     "current_wallet_usd": null,
-    "wallet_unchecked_reason": "no paid browser run planned while 6/6"
+    "wallet_unchecked_reason": "6/6; no paid browser run"
   },
   "lease": {
     "holder": "chatgpt:ordinary:e4eab8a3-ea7f-46c8-b768-fd9a2f4931da",
     "acquired_at": "2026-11-15T04:01:19.601Z",
-    "expires_at": "2026-11-15T04:10:19.601Z",
-    "released_at": null,
-    "lock_outcome": "held",
+    "expires_at": null,
+    "released_at": "2026-11-15T04:03:20.418Z",
+    "lock_outcome": "released_atomically_with_final_receipt",
     "verified_start_readback": true
   },
-  "outcome": "in_progress",
-  "blocker": null,
+  "outcome": "no_free_slot",
+  "blocker": {
+    "code": "no_free_global_slot",
+    "category": "capacity_full",
+    "details": "At 2026-11-15T04:02:29.076Z direct read-only Topview list of 100 recent tasks on My First Board returned six distinct active video tasks status=init (Unlimited=true, creditsCost=0), matching GitHub topview-status.json snapshot 2026-11-15T03:50:29Z. Full all-board scan not needed to prove all 6 occupied slots. No Create and no paid browser run.",
+    "next_attempt_condition": "Next hourly fresh capacity check.",
+    "retryable_on_new_evidence": true
+  },
   "retryable": false,
-  "checked_at": null,
+  "checked_at": "2026-11-15T04:02:29.076Z",
   "scan": {
-    "source": "Topview board tasks + GitHub robot cross-check",
-    "complete": false
+    "source": "Topview connector: latest 100 of 733 My First Board tasks; GitHub topview-status.json robot cross-check",
+    "boards": 1,
+    "pages": 1,
+    "scanned_tasks": 100,
+    "complete": false,
+    "capacity_conclusive": true,
+    "robot_checked_at": "2026-11-15T03:50:29Z",
+    "robot_occupied_slots": 6,
+    "active_video_task_ids": [
+      "425108630b0e48c9a4b299fc89ad88ee",
+      "bfdb6d9fad7a4ab29492f7bb95c78033",
+      "d775c7a483a44f13ba1704a1c418b208",
+      "8c6d92662d1043c7a651168b2b8280ae",
+      "1dcb6fa0628d41b098227ca6c96f1630",
+      "a1330998d39b486e864ed4e22b4fe8c4"
+    ],
+    "occupied_slots": 6,
+    "free_slots": 0,
+    "queue_items": 63,
+    "readiness_items": 26,
+    "open_claims": 0,
+    "owner_tasks_open": 0,
+    "source_queue_sha256": "af62a3bc029d66a85ae611ecb488e7655a5798b5221e4eed78e7ef1f95ea5077",
+    "source_task_map_sha256": "c758a077e13dd27b0bc140109bd42ef59d2efac3402ef24ed8fed8618f44c687",
+    "queue_readiness_sha256_claimed_not_independently_recalculated": true
   },
   "acceptance": {
     "scheduled_execution": true,
@@ -55,7 +84,7 @@
     "tinyfish_file_upload": false,
     "tinyfish_unlimited0": false,
     "verified_create_task_id": null,
-    "topview_connector_read_only_check": false,
+    "topview_connector_read_only_check": true,
     "full_background_launch_verified": false
   },
   "peer_runtime": {
@@ -63,5 +92,5 @@
     "work_hh55_last_run_id": "b26b9665-1ac8-8327-8c16-b556272d97ef",
     "work_hh55_enabled": false
   },
-  "notes": "Started under exact own lease. Waiting final read-only capacity snapshot."
+  "notes": "Existing HH:00 automation enabled. Work GUI/quota recovery not newly verified. No changes to route_generation, foreground, canon, next_action, queue, retry budgets or task IDs; S89A remains init. 6/6 so no TinyFish."
 }
