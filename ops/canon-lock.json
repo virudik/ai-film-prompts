@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:e2b46629-e725-4886-8223-274349d2ae8b",
-  "task": "Seregius ordinary scheduled read-only capacity check and receipt",
-  "acquired_at": "2026-11-15T03:01:14.607Z",
-  "expires_at": null,
-  "released_at": "2026-11-15T03:03:20.429Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:e4eab8a3-ea7f-46c8-b768-fd9a2f4931da",
+  "task": "Seregius ordinary scheduled no-free-slot cycle",
+  "acquired_at": "2026-11-15T04:01:19.601Z",
+  "expires_at": "2026-11-15T04:10:19.601Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
