@@ -2766,5 +2766,21 @@
         "brief_anchors": "15/15"
       }
     }
-  }
+  },
+  "test_acks": [
+    {
+      "test_id": "dot-primary-readonly-20261115-2148",
+      "relay_event_id": "evt_2bc9bbe5d1fd5d6527316e0dc3d9e46d",
+      "message_id": "247840711698350080",
+      "issue_number": 712,
+      "checked_at": "2026-11-15T21:52:06.424Z",
+      "outcome": "manual_verified_not_runtime",
+      "source": "dot interactive manual Relay get_event verification",
+      "run_id": null,
+      "run_id_unavailable_reason": "No automatic webhook run observed; manual reading is not runtime wake evidence.",
+      "new_submissions": 0,
+      "credits_spent": 0,
+      "production_dispatch_enabled": false
+    }
+  ]
 }
