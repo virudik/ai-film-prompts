@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:3114738f-f6de-4b70-91d4-d699118479ce",
-  "task": null,
-  "acquired_at": "2026-11-15T00:01:04.362Z",
-  "expires_at": null,
-  "released_at": "2026-11-15T00:04:50.775Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:58c72ed6-c4c8-46a2-bdcd-94415ca20d11",
+  "task": "Серёгиус — scheduled ordinary slot scan and cycle receipt",
+  "acquired_at": "2026-11-15T01:04:36.195Z",
+  "expires_at": "2026-11-15T01:19:36.195Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
