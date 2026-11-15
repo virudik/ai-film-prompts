@@ -11,9 +11,9 @@
   "route_generation": 3,
   "source_head": "d92a5ddef6a9f37c48908489b1d94585bc56fe32",
   "started_at": "2026-11-15T23:09:47.556Z",
-  "updated_at": "2026-11-15T23:11:28.399Z",
-  "phase": "started",
-  "status": "in_progress",
+  "updated_at": "2026-11-15T23:12:08.694Z",
+  "phase": "finished",
+  "status": "completed",
   "scan_complete": false,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -35,8 +35,9 @@
     "acquired_at": "2026-11-15T23:09:47.556Z",
     "expires_at": "2026-11-15T23:19:47.556Z",
     "verified_start_readback": true,
-    "lock_outcome": "held_for_receipt",
-    "released": false
+    "lock_outcome": "released_atomically_with_final_receipt",
+    "released": true,
+    "released_at": "2026-11-15T23:12:08.694Z"
   },
   "outcome": "no_free_slot",
   "blocker": "global_video_slots_6_of_6",
@@ -50,7 +51,7 @@
     "topview_new_task_id_confirmed": false,
     "production_tinyfish_end_to_end_verified": false
   },
-  "checked_at": "2026-11-15T23:06:54.753Z",
+  "checked_at": "2026-11-15T23:11:48.785Z",
   "scan": {
     "source": "Topview connector direct read-only My First Board recent 100; GitHub canonical queue/readiness",
     "boards_scanned": 1,
@@ -60,7 +61,7 @@
     "total_main_board_video_tasks": 510,
     "complete": false,
     "capacity_conclusive": true,
-    "latest_refresh_at": "2026-11-15T23:06:54.753Z",
+    "latest_refresh_at": "2026-11-15T23:11:48.785Z",
     "active_video_task_ids": [
       "90db5dd309db477eb346e8d82676f7b5",
       "425108630b0e48c9a4b299fc89ad88ee",
