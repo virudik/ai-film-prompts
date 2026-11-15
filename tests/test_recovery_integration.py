@@ -79,7 +79,13 @@ class IntegrationRecoveryTests(unittest.TestCase):
         top = json.loads(TOPVIEW.read_text(encoding="utf-8"))
         task = json.loads(TASKMAP.read_text(encoding="utf-8"))
         self.assertEqual(top["occupied_slots"], len(top["active_tasks"]))
-        self.assertEqual(top["occupied_slots"], sum(len(v) for v in task["active_by_scene"].values()))
+        # Unmapped provider tasks still occupy physical slots; never invent a scene.
+        mapped_ids = [tid for ids in task["active_by_scene"].values() for tid in ids]
+        known_rows = [row for row in top["active_tasks"] if row.get("scene_id") is not None]
+        unmapped_rows = [row for row in top["active_tasks"] if row.get("scene_id") is None]
+        self.assertCountEqual(mapped_ids, [row["task_id"] for row in known_rows])
+        self.assertEqual(top["occupied_slots"], len(mapped_ids) + len(unmapped_rows))
+        self.assertEqual(len({row["task_id"] for row in top["active_tasks"]}), top["occupied_slots"])
         status_slow = set(run_validator()[1]["slow_scenes"])
         self.assertTrue({int(s) for s in task["active_by_scene"]}.issubset(status_slow))
         # Owner-pending scenes may outnumber currently occupied Topview slots.
@@ -245,7 +251,7 @@ class IntegrationRecoveryTests(unittest.TestCase):
         )
         self.assertEqual(
             sorted(checkpoint["active_scene_ids"]),
-            sorted({x["scene_id"] for x in top["active_tasks"]}),
+            sorted({x["scene_id"] for x in top["active_tasks"] if x.get("scene_id") is not None}),
         )
 
     def test_stale_instruction_certificate_is_maintenance_not_sync_failure(self):

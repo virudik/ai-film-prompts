@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "verified": true,
+  "source_head": "04058a701a5400de9c60a2a4732bfc6ec3deec05",
+  "checked_at": "2026-11-15T11:06:33.491348+00:00",
+  "owner_request": "Доделай и исправь ошибки если они остались",
+  "runtime_run_id": "43707240081",
+  "lock_holder": "chatgpt:ordinary:c9ff470f-280e-4cc6-8b05-04c63cca721b",
+  "archive_refill_commit": "290a2188f9156aedc782b77a9a609b0c609cd57f",
+  "archive_verified_run_id": 43705571996,
+  "archive_verified_task_ids": [
+    "3a09108c8c474a0989118806b4a69f91",
+    "be627af0e9664db5b6ac2b62c34080a6"
+  ],
+  "archive_slots_added": 20,
+  "archive_free_slots_at_20261115T104541Z": 18,
+  "handoff_before_bytes": 36755,
+  "handoff_after_bytes": 34992,
+  "archived_verbatim_blocks": 7,
+  "archive_original_bytes_preserved": true,
+  "scene88_pending_owner_review_preserved": true,
+  "standing_rules_byte_identical": true,
+  "instruction_certificate_files": 7,
+  "brief_valid": true,
+  "brief_anchors": "15/15",
+  "canon_health": "ok",
+  "canon_warnings": 0,
+  "tests": [
+    {
+      "command": [
+        "python3",
+        "scripts/cert_github.py",
+        "."
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/validate_site.py",
+        "."
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/check_instruction_consistency.py",
+        "."
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "node",
+        "tests/continue_status_check.js"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/canon_health.py",
+        ".",
+        "--write"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "test_contract_repair": "Include unmapped provider tasks in physical slots; compare checkpoint only to known scene IDs; retain all task-ID and uniqueness checks.",
+  "master_queue_and_other_tracked_files_unchanged": true,
+  "new_video_generations": 0,
+  "topview_credits_spent": 0,
+  "limitations": [
+    "Drive sharing permissions preserved, not changed or certified private.",
+    "Pool is finite; low-water warning remains enabled."
+  ],
+  "temporary_executor": ".github/workflows/repair-github-errors-20261115.yml; no schedule; remove after verification"
+}
