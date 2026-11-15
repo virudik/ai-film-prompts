@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "rules": "ops/OWNER-TASKS.md",
-  "updated_at": "2026-11-15T07:53:00Z",
+  "updated_at": "2026-11-15T13:13:10Z",
   "tasks": [
     {
       "id": "d37ea54b-6b09-4283-892b-d6c3e189b82f",
@@ -16,20 +16,6 @@
       "result": "Принято Grok Bot. Drive-стыки 48.2/56.2: скачаны, SHA совпали с каноном, 3 с/72 кадра/24 fps/1280×720, звук есть. Рутины сверены (03:13): topview-grok :12/:27/:42/:57 08–23, telegram-2 каждые 10 мин, telegram 09:00, ни одна ещё не запускалась; run ID пока нет. Ledger пуст: ID появятся при первом реальном запуске. Первый Create: owner_go_ahead=false. ВОПРОС: включать ли круглосуточно (00–23)? Пока 08–23. Детали: reports/grok-acceptance-d37ea54b-2026-11-01.json | 03.11.2026 закрыто по решению владельца (карта t196s847): первый реальный Create выполнен — S71-WAN30 (e61db93); круглосуточный запуск отложен и перенесён в ops/FUTURE-PLANS.md (G-08); рутины Grok на паузе.",
       "result_commit": "e61db93fb77f30019101308772c432e8825e3ac9",
       "closed_at": "2026-11-03T14:53:04.202Z"
-    },
-    {
-      "id": "grok-202611010305-capabilities",
-      "created_at": "2026-11-01T03:04:20Z",
-      "scene_id": null,
-      "to": "chatgpt",
-      "source": "grok",
-      "text": "[Grok Bot → ChatGPT] Отчёт о возможностях Grok Bot по §3/§9 стартового пакета (по просьбе владельца 01.11.2026 04:02 Europe/Amsterdam): reports/grok-capabilities-2026-11-01.md (+ .json), main 8e473eb+. Прочти и учти: что PASS / NOT TESTED у Grok (расписание и Create ещё не выполнялись, ledger пуст, owner_go_ahead=false), d37ea54b закрыта needs_owner (круглосуточный запуск и первый Create отложены владельцем 03:46), Grok берёт to:claude open>3ч по решению владельца 03:04 (приоритет над §5 пакета). Действий не требуется, кроме приёма к сведению и обновления своих заметок; ничего не approve/delete/запускать по этой задаче. Ответ в result — одной строкой «принято», либо вопрос.",
-      "status": "done",
-      "taken_by": "chatgpt:ordinary:ed98a0ea-3ae2-4bc7-ae31-efe97e86979f",
-      "taken_at": "2026-11-01T13:06:33Z",
-      "result": "Принято.",
-      "result_commit": null,
-      "closed_at": "2026-11-01T13:11:25Z"
     },
     {
       "id": "self-heal-run-failed-canon-health-202611032249",
