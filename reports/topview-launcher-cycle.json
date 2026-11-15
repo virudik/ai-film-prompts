@@ -4,75 +4,40 @@
   "source": "ChatGPT scheduled Work HH:55",
   "runner": "chatgpt_scheduled_task",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "run_id": "bc1b92cb-608c-832c-b87c-dfdeb7098662",
+  "run_id": "92827f35-359c-8323-aa88-29ccf388e0cb",
   "run_id_unavailable_reason": null,
-  "runtime_run_id_source": "Automations.peek last_run.id in_progress scheduled_for 2026-11-15T11:55:00Z",
-  "execution_instance_id": "3edb5082-4bff-4b2a-9a69-79dec66882a9",
+  "runtime_run_id_source": "Automations.peek current last_run.id in_progress scheduled_for 2026-11-15T12:55:00Z",
+  "execution_instance_id": "d27074de-63fd-46c6-b949-f52120435c1d",
   "route_generation": 3,
-  "source_head": "e92a38d0aee09e8844c3be7c14ec1b04f5e3f768",
-  "started_at": "2026-11-15T11:52:33Z",
-  "updated_at": "2026-11-15T12:02:06Z",
-  "checked_at": "2026-11-15T12:02:06Z",
-  "phase": "completed",
-  "status": "ok",
-  "scan_complete": true,
-  "occupied_slots": 6,
-  "free_slots": 0,
+  "source_head": "dca244489244afc2a2a003558e48644a85d25a00",
+  "started_at": "2026-11-15T13:00:27.871Z",
+  "updated_at": "2026-11-15T13:00:55.192Z",
+  "checked_at": null,
+  "phase": "started",
+  "status": "in_progress",
+  "scan_complete": false,
+  "occupied_slots": null,
+  "free_slots": null,
   "selected_item": null,
-  "task_ids": [
-    "425108630b0e48c9a4b299fc89ad88ee",
-    "bfdb6d9fad7a4ab29492f7bb95c78033",
-    "d775c7a483a44f13ba1704a1c418b208",
-    "8c6d92662d1043c7a651168b2b8280ae",
-    "1dcb6fa0628d41b098227ca6c96f1630",
-    "a1330998d39b486e864ed4e22b4fe8c4"
-  ],
+  "task_ids": [],
   "new_submissions": 0,
   "topview_credits_spent": 0,
   "browser_transport": "not_used",
   "lease": {
-    "holder": "chatgpt:work:3edb5082-4bff-4b2a-9a69-79dec66882a9",
-    "acquired_at": "2026-11-15T11:52:33Z",
-    "expires_at": "2026-11-15T12:07:33Z",
-    "acquired_commit": "e92a38d0aee09e8844c3be7c14ec1b04f5e3f768",
-    "released": true,
-    "released_at": "2026-11-15T12:05:30Z"
+    "holder": "chatgpt:work:d27074de-63fd-46c6-b949-f52120435c1d",
+    "acquired_at": "2026-11-15T13:00:27.871Z",
+    "expires_at": "2026-11-15T13:15:27.871Z",
+    "acquired_commit": "dca244489244afc2a2a003558e48644a85d25a00",
+    "released": false,
+    "released_at": null
   },
-  "outcome": "no_free_slot",
+  "outcome": null,
   "blocker": null,
-  "retryable": false,
+  "retryable": null,
   "monitor_role_check": {
     "action": "skip",
-    "reason": "standby; primary last verified (or owner role set) 5/180 min ago",
+    "reason": "standby; primary last verified (or owner role set) 20/180 min ago",
     "primary": "robot",
     "telemetry_write_performed": false
-  },
-  "scan": {
-    "boards": 14,
-    "pages": 19,
-    "total_videos": 676,
-    "status_counts": {
-      "success": 643,
-      "fail": 27,
-      "init": 6
-    },
-    "project_board": {
-      "name": "My First Board",
-      "id": "1a6244cf1ae747ef847d949a80d6133c",
-      "videos": 509
-    }
-  },
-  "ordinary_peer": {
-    "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-    "last_run_id": "bb1858b8-24a4-832b-8355-f1ebe5d1aab3",
-    "latest_result_run_id": "bb1858b8-24a4-832b-8355-f1ebe5d1aab3",
-    "receipt": "reports/topview-slot-backup-cycle.json"
-  },
-  "maintenance": {
-    "phase_a": "healthy",
-    "phase_b": "historical_failures_resolved_by_later_success",
-    "phase_c": "weekly_cleanup_completed",
-    "owner_tasks_open": 0,
-    "mailbox_mutated": false
   }
 }
