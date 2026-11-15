@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:ce489f47-9b84-4a70-b4ca-a8a6f0ddab92",
-  "task": "Seregius ordinary scheduled read-only slot verification; no Create at 6/6",
-  "acquired_at": "2026-11-15T21:08:53.551Z",
-  "expires_at": null,
-  "released_at": "2026-11-15T21:12:40.397Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:2e3e2091-38d2-438f-9c13-af40af46fbc3",
+  "task": "Publish tested phased launcher entry wrapper; no video",
+  "acquired_at": "2026-11-15T21:44:49Z",
+  "expires_at": "2026-11-15T21:49:49Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
