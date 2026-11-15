@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "roscosmos",
   "project_name": "Роскосмос",
-  "checked_at": "2026-11-15T22:23:52+00:00",
-  "source_head": "8bc771a2df351e705bcf82c555c2cb2b14991303",
-  "source_fingerprint": "09c90e31c08666d59a2922a3c8dee203e5e08529e9f4e733b7aed50930e79ebb",
+  "checked_at": "2026-11-15T22:43:29+00:00",
+  "source_head": "4ed8ae358f03cc18c6a0ad4f0245ee945fde87a6",
+  "source_fingerprint": "97895014aa612cf05d16765a7d44372fac5263ac2745dfad8426bf2e03694037",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -203,8 +203,8 @@
     },
     {
       "file": "projects/roscosmos/project-status.json",
-      "sha256": "6b0e42c72db594f7bbe22caec6cd4ba48e762ebd1cde09085afb71e2b8d38ed1",
-      "bytes": 21825
+      "sha256": "5e697a59203a4e0616966b12fe48235252009fb1b0e9cf9d013cd12e9ff19dc9",
+      "bytes": 21827
     },
     {
       "file": "projects/roscosmos/reports/current-work-checkpoint.md",
