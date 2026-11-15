@@ -10,7 +10,7 @@
   "site_alert_address": "GrokBot@cloud-242545579433959424",
   "site_alert_note": "Canon-health warn/fail and dashboard error/warn banners only. The GitHub robot sends one Agent Relay DM when that set changes. Info notes are not sent. This is not a Grok polling routine and not a slot wake.",
   "secret": "AGENT_RELAY_TOKEN (GitHub Actions secret; Agent Relay agent token of the robot identity, at_live_*)",
-  "handler_automation_id": "6adc585e7ac08191bb93825117dc7213",
+  "handler_automation_id": "6af9b2a7212081919b191786c483ad13",
   "rules": "ops/TOPVIEW-EVENT-WAKE.md",
   "note": "One DM per robot cycle with a confirmed free slot, after the GitHub issue TOPVIEW_SLOT_WAKE_V2 is created. No token = no-op. The DM is a wake-up signal, not permission.",
   "sender_agent_id": "240204876611608576",
@@ -18,9 +18,14 @@
   "production_evidence": "reports/topview-event-wake.json: robot_relay.production_acceptance",
   "dispatch": {
     "mode": "primary_then_backup",
-    "enabled": false,
+    "enabled": true,
     "primary": "dot via configured ChatGPT Relay inbox",
     "backup": "Grok via GitHub issue assignment",
-    "activation_gate": "Require current-dot genuine started ACK and read-only route verification before enabling; historical transport enqueue is insufficient."
+    "activation_gate": "Passed read-only primary runtime ACK and backup issue-assigned test; continuous production heartbeat/fallback not yet independently observed. Hourly insurance retained.",
+    "activated_at": "2026-11-15T22:17:17.868Z",
+    "ack_timeout_minutes": 20,
+    "progress_timeout_minutes": 30,
+    "backup_repeat_minutes": 60,
+    "acceptance_evidence": "reports/primary-backup-acceptance.json"
   }
 }

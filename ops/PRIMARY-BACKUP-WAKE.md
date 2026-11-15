@@ -4,12 +4,12 @@ Owner requested one initial AI wake, not two competing full scans. This change r
 
 ## Activation status
 
-Implementation staged behind `ops/relay-wake.json.dispatch.enabled=false`. The working legacy route remains unchanged until current-dot runtime ACK has been independently verified. Do not describe staged code as a completed switch. Existing HH:55/HH:00 insurance is unchanged and can still consume model quota.
+Enabled after read-only transport/ACK acceptance on 15.11.2026; evidence: `reports/primary-backup-acceptance.json`. Primary test714 produced a genuine webhook-triggered, delegated started ACK in 888c8352 and completed ACK in a83c2578. Relay-to-started delay was 7m19s, so thresholds are 20/30 minutes. Grok backup runtime evidence is its explicit correlated self-report about issue713, not an independently inspected Grok execution log. Existing HH:55/HH:00 insurance is unchanged and can still consume model quota.
 
 ## Enabled behavior
 
 - New demand episode (active global task set) first wakes only dot through the existing configured ChatGPT Relay inbox. The audit issue has **no assignee**, so it does not also wake Grok through issue-assigned.
-- A subsequent fresh complete robot scan checks the exact event receipt. Missing ACK after 10 minutes allows a backup wake. A real dated receipt/`execution.updated_at` suppresses another AI wake until 20 minutes without progress. Checks occur on actual robot runs, not exact promised deadlines.
+- A subsequent fresh complete robot scan checks the exact event receipt. Missing ACK after 20 minutes allows a backup wake. A real dated receipt/`execution.updated_at` suppresses another AI wake until 30 minutes without progress. Checks occur on actual robot runs, not exact promised deadlines.
 - Any held unexpired/malformed global lease suppresses competing wakes. An expired lease does not clear claim/intent or authorize Create.
 - Backup wake uses the existing Grok GitHub issue-assigned route, **without a duplicate dot DM**. Further backup checks are paced at 60 minutes while demand remains.
 - Both workers obey the shared CAS/lease/claim/intent/verify protocol. Any claimed/submitting/unknown item first requires reconciliation; the wake's text explicitly prohibits retrying an unknown Create. The robot never edits queues or launches videos.
@@ -24,3 +24,7 @@ The genuine worker writes its exact business `event_id` in `reports/topview-even
 Before enable: verify primary bot delivery into the current dot and its genuine early ACK; test primary-no-assignment, no-ACK backup, fresh ACK suppression, held lease suppression, backup-no-primary-DM and rejected-CAS-no-send without Topview. Confirm Grok still receives the unchanged issue-assigned backup. Record evidence, then flip only `dispatch.enabled=true` under own canon lease/CAS. Rollback is `false`: restores legacy simultaneous issue-assigned + primary DM, preserving the backup and queue safeguards.
 
 Do not disable the hourly insurance until primary and backup runtime behavior is proven. No paid generation is part of acceptance.
+
+## Verification limits
+
+Read-only stage/time fixtures prove parser compatibility and progress suppression, not future worker reliability. Actual launch latency and long production heartbeat remain operational observations. Legacy hourly insurance is retained; it may still consume model quota. After backup selection an unchanged episode stays backup-only with 60-minute checks. Any dated final receipt also restarts the 30-minute progress grace. Unknown submissions remain reconcile-only.

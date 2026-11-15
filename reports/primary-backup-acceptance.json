@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "activated_at": "2026-11-15T22:17:17.868Z",
+  "mode": "primary_then_backup",
+  "primary": {
+    "test_id": "dot-ack-contract-20261115-2204",
+    "issue": 714,
+    "relay_event_id": "evt_07ca380be2b7075da96fb36aebe8ab70",
+    "message_id": "247844406187737088",
+    "relay_created_at": "2026-11-15T22:05:11Z",
+    "started_at": "2026-11-15T22:12:29.673Z",
+    "relay_to_started_seconds": 438.673,
+    "started_commit": "888c8352c3d501e8337785829baa126041141852",
+    "completed_commit": "a83c257802cbc916f9f48c14b8ffb14b7cb6e50a",
+    "source": "Actual dot webhook followed by delegated CAS receipt writer; root confirmed runtime wake"
+  },
+  "backup": {
+    "issue": 713,
+    "issue_assignee": "virudik",
+    "workflow_run": "43766223822",
+    "workflow_result": "success",
+    "relay_reply": "247842748584734720",
+    "correlated_request": "247841003097559040",
+    "relay_status": "replied",
+    "source": "Grok self-report of topview-grok routine at21:54 UTC processing read-only issue713; NOT independent runtime log",
+    "continuous_production_fallback_verified": false
+  },
+  "ack_timeout_minutes": 20,
+  "progress_timeout_minutes": 30,
+  "heartbeat_compatibility": {
+    "test_only": true,
+    "fixture_id": "test:dot-heartbeat-fixture-20261115-2220",
+    "source": "Local read-only fixture, not production worker heartbeat",
+    "checks": [
+      {
+        "stage": "fixture_intake",
+        "actual_checked_at": "2026-11-15T22:15:37.953587+00:00",
+        "disk_readback": true,
+        "stock_parser_pass": true
+      },
+      {
+        "stage": "parser_readback",
+        "actual_checked_at": "2026-11-15T22:15:37.974727+00:00",
+        "disk_readback": true,
+        "stock_parser_pass": true
+      },
+      {
+        "stage": "completed",
+        "actual_checked_at": "2026-11-15T22:15:37.995106+00:00",
+        "disk_readback": true,
+        "stock_parser_pass": true
+      }
+    ],
+    "dispatcher_multi_progress_test": "PASS including dated final receipt"
+  },
+  "tests": {
+    "focused": 8,
+    "full": 589,
+    "result": "PASS",
+    "network_provider_calls": "none"
+  },
+  "safety": {
+    "hourly_insurance_preserved": true,
+    "queue_and_claims_unchanged": true,
+    "no_video_created": true,
+    "paid_generation_forbidden": true,
+    "unknown_submission": "reconcile only; no automatic repeat",
+    "lock": "own lease CAS/readback",
+    "test_sender_enabled": false
+  },
+  "limitations": [
+    "No guarantee of future or continuous production heartbeat",
+    "No independent Grok internal execution log",
+    "Real production fallback not yet observed",
+    "Hourly safety jobs may still consume model quota",
+    "Once backup selected, same episode remains backup-only at60-minute pacing"
+  ]
+}

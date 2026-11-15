@@ -20,10 +20,10 @@ class PrimaryDispatchTests(unittest.TestCase):
         n = FakeNotifier()
         rt.maybe_rewake(self.root, FakeGit(), n, NOW, z(NOW))
         self.assertEqual(n.wakes[0]['dispatch_target'], 'primary')
-        t = NOW + timedelta(minutes=10)
+        t = NOW + timedelta(minutes=20)
         rt.maybe_rewake(self.root, FakeGit(), n, t, z(t))
         self.assertEqual(n.wakes[1]['dispatch_target'], 'backup')
-        self.assertEqual(n.wakes[1]['dispatch_reason'], 'no_ack_after_10_minutes')
+        self.assertEqual(n.wakes[1]['dispatch_reason'], 'no_ack_after_20_minutes')
         t += timedelta(minutes=10)
         rt.maybe_rewake(self.root, FakeGit(), n, t, z(t))
         self.assertEqual(len(n.wakes), 2)
@@ -36,7 +36,7 @@ class PrimaryDispatchTests(unittest.TestCase):
         t = NOW+timedelta(minutes=20)
         rt.maybe_rewake(self.root, FakeGit(), n, t, z(t))
         self.assertEqual(len(n.wakes), 1)
-        t += timedelta(minutes=10)
+        t += timedelta(minutes=20)
         rt.maybe_rewake(self.root, FakeGit(), n, t, z(t))
         self.assertEqual(n.wakes[-1]['dispatch_target'], 'backup')
 
@@ -71,3 +71,27 @@ class PrimaryDispatchTests(unittest.TestCase):
                 create=next(c for c in calls if '.number, .html_url' in c)
                 self.assertEqual(any(s.startswith('assignees[]=') for s in create), target=='backup')
                 self.assertEqual(dm.call_count, 1 if target=='primary' else 0)
+
+    def test_multiple_heartbeats_and_final_receipt_refresh_suppression(self):
+        n = FakeNotifier()
+        rt.maybe_rewake(self.root, FakeGit(), n, NOW, z(NOW))
+        event_id = n.wakes[0]['event_id']
+        for minute, stage in ((9, 'intake'), (25, 'read_only_validation'), (45, 'finalization')):
+            progress = NOW + timedelta(minutes=minute)
+            receipt = {'event_id': event_id, 'outcome': 'started' if minute < 45 else 'no_update', 'checked_at': z(progress),
+                       'execution': {'updated_at': z(progress), 'stage': stage}}
+            self.receipts([receipt])
+            self.assertEqual(rt.handler_receipt(self.root, event_id, progress), receipt)
+            t = progress + timedelta(minutes=20)
+            rt.maybe_rewake(self.root, FakeGit(), n, t, z(t))
+            self.assertEqual(len(n.wakes), 1)
+        t = NOW + timedelta(minutes=75)
+        rt.maybe_rewake(self.root, FakeGit(), n, t, z(t))
+        self.assertEqual(n.wakes[-1]['dispatch_target'], 'backup')
+
+    def test_no_ack_does_not_wake_backup_at_ten_minutes(self):
+        n = FakeNotifier()
+        rt.maybe_rewake(self.root, FakeGit(), n, NOW, z(NOW))
+        t = NOW + timedelta(minutes=10)
+        rt.maybe_rewake(self.root, FakeGit(), n, t, z(t))
+        self.assertEqual(len(n.wakes), 1)

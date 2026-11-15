@@ -958,13 +958,13 @@ def dispatch_signal(root, signal, now):
                 return None
             target, reason = "backup", "backup_recovery_check"
         elif last_progress is not None:
-            if (now - last_progress).total_seconds() < 20 * 60:
+            if (now - last_progress).total_seconds() < 30 * 60:
                 return None
-            target, reason = "backup", "no_progress_for_20_minutes"
-        elif elapsed < 10:
+            target, reason = "backup", "no_progress_for_30_minutes"
+        elif elapsed < 20:
             return None
         else:
-            target, reason = "backup", "no_ack_after_10_minutes"
+            target, reason = "backup", "no_ack_after_20_minutes"
     routed = dict(signal, dispatch_target=target, dispatch_reason=reason,
                   dispatch_policy="check_existing_claim_intent_and_task_first; never_repeat_unknown_Create")
     ns["robot_dispatch"] = {"episode": episode, "event_id": signal["event_id"],
