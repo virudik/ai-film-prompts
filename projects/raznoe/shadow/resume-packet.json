@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-15T11:03:45+00:00",
-  "source_head": "0192beb92d3f0109cfa972b93ed0c1a7745df957",
-  "source_fingerprint": "1fef5df596c142b9fa3dc42dd4e7bbd895cf88871bf82570c3876752ca850521",
+  "checked_at": "2026-11-15T11:13:58+00:00",
+  "source_head": "92b46cc6aa0b77320eb7a212bd987ea69ce02389",
+  "source_fingerprint": "28203dfc3067131e4dbdfa900d94fc22a48ca49000d2406589cba5868355dee9",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -182,8 +182,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "a75349e07854d70f962e33270d3f7e2f16e91a49b281a93cd8a40190764f8774",
-      "bytes": 36755
+      "sha256": "864c530c8a87a594da6b03b591da3a896738ffd8cdbeb3acd2d3183824390412",
+      "bytes": 34992
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -207,8 +207,8 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "10f6ab04e5f6c4f5ca6aff9c9b9bdfcef20a282fa912064da0b30ea84003d702",
-      "bytes": 5134
+      "sha256": "7c91e0638ededa2b9b8fc6bcb7307e451d634302b0fe6b710253aa90b4a53ee4",
+      "bytes": 5135
     },
     {
       "file": "monitor-role.json",
@@ -222,8 +222,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "21b46ade0e179c40c42583f43c3a037e5e5c3ef0347f9417091c885334a621b7",
-      "bytes": 29584
+      "sha256": "c39f28f397bc1674be8a2e0ab79de23e7ce3d6294d82be22d2c108edde26dc12",
+      "bytes": 29587
     },
     {
       "file": "projects/README.md",
@@ -287,12 +287,12 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "949cdbda6d411828905cf7fa2899af05cef3d8b470854cf30d9446203c5fa9ec",
-      "bytes": 36556
+      "sha256": "95d7f227a3dcba3e783f18fe9dfc94e2eec31a827d35ac7819bcb3f876a8a236",
+      "bytes": 34793
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "9bd8ebbf32efc5d5322f24506414787c375cef945df06d5ac281a7de26d18282",
+      "sha256": "9065e942f723ca24fa2f7c2ace35893bd53e9e448a7c2aa497395282c9642059",
       "bytes": 32407
     },
     {
