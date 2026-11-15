@@ -11,9 +11,9 @@
   "route_generation": 3,
   "source_head": "a6f26c7a44cc347ab8be7f7b43a4d8ad44f9c0cf",
   "started_at": "2026-11-15T14:04:14.444Z",
-  "updated_at": "2026-11-15T14:05:02.693Z",
-  "phase": "started",
-  "status": "in_progress",
+  "updated_at": "2026-11-15T14:06:05.725Z",
+  "phase": "complete",
+  "status": "completed",
   "scan_complete": false,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -30,7 +30,7 @@
     "estimated_usd": 0,
     "confirmed_charge_usd": 0,
     "current_wallet_usd": null,
-    "wallet_unchecked_reason": "Direct read-only Topview 6/6, no paid browser needed"
+    "wallet_unchecked_reason": "Global capacity conclusive at 6/6; paid browser not permitted"
   },
   "lease": {
     "holder": "chatgpt:ordinary:7cdd42bb-b38b-4b76-a886-2be05184ab69",
@@ -39,15 +39,21 @@
     "released_at": null,
     "acquired_commit": "a6f26c7a44cc347ab8be7f7b43a4d8ad44f9c0cf",
     "verified_start_readback": true,
-    "lock_outcome": "held"
+    "lock_outcome": "held_pending_exact_release"
   },
-  "outcome": "in_progress",
-  "blocker": null,
+  "outcome": "no_free_slot",
+  "blocker": {
+    "code": "no_free_global_slot",
+    "category": "capacity_full",
+    "details": "Direct Topview My First Board page 1 newest 100 video tasks includes 6 distinct init videos (Unlimited true, creditsCost 0); no additional Create permitted.",
+    "next_attempt_condition": "next independent scheduled read-only capacity check",
+    "retryable_on_new_evidence": true
+  },
   "retryable": true,
   "scan": {
-    "source": "Topview read-only connector, My First Board page 1; 14 boards discovered; GitHub telemetry 2026-11-15T12:40:28Z",
+    "source": "Topview read-only connector, My First Board page 1; GitHub automation-monitor-status.json, relay and HH:55 cycle",
     "boards": 1,
-    "boards_discovered": 14,
+    "boards_discovered": null,
     "pages": 1,
     "scanned_tasks": 100,
     "total_board_video_tasks": 509,
@@ -69,7 +75,8 @@
     "owner_tasks_open": 0,
     "readiness_items": 26,
     "sha256_independently_verified": false,
-    "robot_checked_at": "2026-11-15T12:40:28Z"
+    "robot_checked_at": "2026-11-15T13:30:34Z",
+    "work_hourly_checked_at": "2026-11-15T14:02:15.146Z"
   },
   "acceptance": {
     "scheduled_cycle": true,
@@ -80,11 +87,11 @@
     "topview_new_task_id_confirmed": false,
     "production_tinyfish_end_to_end_verified": false
   },
-  "checked_at": "2026-11-15T14:05:02.693Z",
+  "checked_at": "2026-11-15T14:06:05.725Z",
   "peer_runtime": {
     "relay_last_run_id": "2bc4e4c6-bc54-8331-9dc9-b54bd7946ebd",
-    "work_hourly_last_run_id": "92827f35-359c-8323-aa88-29ccf388e0cb",
-    "ordinary_runtime_run_id": "3e86e987-0ee0-832d-b74a-dfd5bc8c8f5f"
+    "work_hourly_last_run_id": "ea63be71-0664-832e-81ea-0ef15c88a130",
+    "ordinary_runtime_run_id": "8bf6f573-afc0-8324-bf98-c1bb724a55e2"
   },
-  "notes": "No Create, no TinyFish run, no paid credits, no claim/retry change. S89A remains submitted and active; S89B next. Capacity conclusive without exhaustive multi-board scan. Work preferred restored recorded 2026-11-02 but ordinary enabled and independently authorized; routing unchanged. Atomic two-file Git object attempt errored without published mutation; fallback contents-SHA CAS. Lease release in its own exact SHA-CAS; verify after write."
+  "notes": "No new Create, no TinyFish, no Topview credits. S89A submitted already; S89B next. Direct 6/6 makes full 14-board scan unnecessary for capacity. Work preferred in registry after prior evidence, ordinary permitted and independent; route_generation 3 unchanged. Exact lease release pending following receipt readback."
 }
