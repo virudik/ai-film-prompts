@@ -1,19 +1,16 @@
 name: Owner repair verification 2026-11-15
 
-# One-shot executor for the owner's requested repair. No schedule, secrets,
-# provider calls, scene edits, approvals or generation. Remove after readback.
+# Temporary, unscheduled executor of the exact reviewed repair at the pinned commit.
+# No provider calls, new generations, permissions changes or secret access.
 on:
   push:
     branches: [main]
     paths: ['.github/workflows/repair-github-errors-20261115.yml']
-
 permissions:
   contents: write
-
 concurrency:
   group: owner-repair-20261115
   cancel-in-progress: false
-
 jobs:
   repair:
     runs-on: ubuntu-latest
@@ -26,208 +23,27 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
-      - name: Apply reviewed minimal cleanup, certify, test, and CAS-publish
+      - name: Execute pinned reviewed repair with all lease, hash, test and CAS gates
         env:
           REPAIR_HOLDER: chatgpt:ordinary:c9ff470f-280e-4cc6-8b05-04c63cca721b
         shell: bash
         run: |
           set -euo pipefail
-          cat > /tmp/owner-repair-20261115.py <<'PY'
-          from pathlib import Path
-          from datetime import datetime, timezone
-          import hashlib, json, os, re, subprocess, sys, tempfile
-
-          EXPECTED = 'ad85887504f0a2e8e3ea507abd1dd46bf2c022d4'
-          HOLDER = os.environ['REPAIR_HOLDER']
-          MARKER = '## 15.11.2026 — обслуживание архива MP4 и сверка текущего хендофа'
-          NOTE = '- **15.11 — ремонт GitHub:** пул архива пополнен 20 файлами владельца; запуск 43705571996 сохранил и проверил MP4 сцен 49/59. Устаревшие записи перенесены в `archive/handoff-log.md`; отчёт — `reports/github-error-repair-2026-11-15.json`. Очередь и приёмка не изменялись.'
-          OTHER_DOCS = {
-              'SYNC-RUNBOOK.md': '68fcc7d5885d1a7a956f9547425598c624a2a7d4',
-              'AI-PROJECT-GUIDE.md': '2d8351ab14665f0d946ca68d8f94d1d23caa328f',
-              'PROMPT-STYLE-GUIDE.md': '5c7e1e6dc7d2ceddbb21a584008a42a1d0e9ad60',
-              'USER-GUIDE.md': 'bbd7762a84e7ed00ab38190631e757aa5e69e4aa',
-              'README-AI-SYNC.md': 'e7740f82bbfb874070405924da5c7f526305e2bf',
-              'BACKUP-AI-RUNBOOK.md': 'e98a0d592c71eac61b9192a5bd8d926b9ba50c71',
-          }
-          REPORT = Path('reports/github-error-repair-2026-11-15.json')
-          TEST_FILE = Path('tests/test_recovery_integration.py')
-          ALLOWED = {'NEW-CHAT-HANDOFF.md', 'archive/handoff-log.md',
-                     'instruction-sync-status.json', 'canon-health.json', str(REPORT), str(TEST_FILE)}
-
-          def call(*args):
-              return subprocess.check_output(args, text=True).strip()
-
-          def blob(data):
-              return hashlib.sha1(b'blob ' + str(len(data)).encode() + b'\0' + data).hexdigest()
-
-          def check_lock(data=None):
-              lock = json.loads(data) if data else json.loads(Path('ops/canon-lock.json').read_text())
-              assert lock['state'] == 'held' and lock['holder'] == HOLDER, 'Own lease absent'
-              assert datetime.fromisoformat(lock['expires_at'].replace('Z', '+00:00')) > datetime.now(timezone.utc), 'Own lease expired'
-
-          def patch(s):
-              original = s
-              moved = []
-              for prefix in ('- **10.11 t546u:**', '- **10.11 t545u:**', '- **10.11 t540u:**'):
-                  found = [p for p in s.split('\n\n') if p.startswith(prefix)]
-                  assert len(found) == 1, prefix
-                  paragraph = found[0]
-                  moved.append(paragraph)
-                  s = s.replace(paragraph + '\n\n', '', 1)
-              start = s.index('### Новое с последней чистки')
-              end = s.index('\n---\n', start)
-              news = s[start:end]
-              scene88 = [p for p in news.split('\n\n') if p.startswith('- **10.11 — сцена 88')]
-              assert len(scene88) == 1
-              retained = scene88[0] + '\n\n- **Пародии 74–87:** DRAFT; кадры подключены (t550u). Первые семь фото — композиционные черновики, не эталоны лиц. Галерея `parodies.html`; новых изображений и видео без команды не создавать, очередь не менять. Рассадка, реплики и единственный кадр комнаты 82 сохраняются по master.\n\n'
-              s = s[:start] + '### Новое с последней чистки (дописывать сюда, одной строкой с датой)\n\n' + NOTE + '\n' + s[end:]
-              moved.append(news.rstrip())
-              where = s.index('- **Приоритет 23.10:**')
-              s = s[:where] + retained + s[where:]
-              replacements = {
-                  'В Topview из этого списка ничего не отправлено; только свободный слот, Unlimited, 0 кредитов.': 'Отправки — в живой очереди; только свободный слот, Unlimited, 0 кредитов.',
-                  'В Topview из списка t601u ещё ничего не отправлено.': 'Отправленные task ID проверять по живой очереди, не повторять.',
-                  'В Topview этот список ещё не отправлен.': 'Уже отправленное по живой очереди не повторять.',
-              }
-              for old, new in replacements.items():
-                  assert s.count(old) == 1, old
-                  moved.append(next(p for p in s.split('\n\n') if old in p))
-                  s = s.replace(old, new, 1)
-              s = s.replace('## СЕЙЧАС (обновлено 13.11.2026)', '## СЕЙЧАС (обновлено 15.11.2026)', 1)
-              s = s.replace('**Последнее (13.11).**', '**Последнее (15.11).**', 1)
-              assert len(s.encode()) < 35000
-              assert scene88[0] in s
-              for anchor in ('PR 369, 370 и 371 не трогать', 'Canonical slow снимает только явная кнопка владельца', '## КАК ЧИСТИТЬ ХЕНДОФ И ИНСТРУКЦИИ'):
-                  assert anchor in s, anchor
-              tail = '## ЖИВОЕ СОСТОЯНИЕ'
-              assert original[original.index(tail):] == s[s.index(tail):], 'Standing rules changed'
-              return s, moved
-
-          def repair_test_contract():
-              raw = TEST_FILE.read_bytes()
-              assert blob(raw) == '24119281dc6d7d95cc042bd5f9da8afafb703ab8', 'Integration test changed; review required'
-              text = raw.decode()
-              old = '        self.assertEqual(top["occupied_slots"], sum(len(v) for v in task["active_by_scene"].values()))'
-              new = '''        # Unmapped provider tasks still occupy physical slots; never invent a scene.
-                  mapped_ids = [tid for ids in task["active_by_scene"].values() for tid in ids]
-                  known_rows = [row for row in top["active_tasks"] if row.get("scene_id") is not None]
-                  unmapped_rows = [row for row in top["active_tasks"] if row.get("scene_id") is None]
-                  self.assertCountEqual(mapped_ids, [row["task_id"] for row in known_rows])
-                  self.assertEqual(top["occupied_slots"], len(mapped_ids) + len(unmapped_rows))
-                  self.assertEqual(len({row["task_id"] for row in top["active_tasks"]}), top["occupied_slots"])'''
-              # Strip only the extra heredoc indentation in the replacement string.
-              new = new.replace('\n        ', '\n')
-              assert text.count(old) == 1
-              text = text.replace(old, new, 1)
-              old = '            sorted({x["scene_id"] for x in top["active_tasks"]}),'
-              new = '            sorted({x["scene_id"] for x in top["active_tasks"] if x.get("scene_id") is not None}),'
-              assert text.count(old) == 1
-              text = text.replace(old, new, 1)
-              compile(text, str(TEST_FILE), 'exec')
-              TEST_FILE.write_text(text)
-
-          for attempt in range(1, 4):
-              subprocess.run(['git', 'fetch', 'origin', 'main'], check=True)
-              subprocess.run(['git', 'reset', '--hard', 'origin/main'], check=True)
-              check_lock()
-              source_head = call('git', 'rev-parse', 'HEAD')
-              if REPORT.exists():
-                  previous = json.loads(REPORT.read_text())
-                  if previous.get('verified') is True:
-                      print('Previously verified repair already published; no duplicate write.')
-                      sys.exit(0)
-                  raise RuntimeError('Unexpected pre-existing repair report')
-              raw = Path('NEW-CHAT-HANDOFF.md').read_bytes()
-              assert blob(raw) == EXPECTED, 'Handoff changed; fresh human review required'
-              for name, expected in OTHER_DOCS.items():
-                  assert blob(Path(name).read_bytes()) == expected, name
-              tracked = call('git', 'ls-files').splitlines()
-              protected = {p: hashlib.sha256(Path(p).read_bytes()).hexdigest()
-                           for p in tracked if p not in ALLOWED and Path(p).is_file()}
-              original_archive = Path('archive/handoff-log.md').read_bytes()
-              assert MARKER.encode() not in original_archive, 'Archive entry already exists'
-              after, moved = patch(raw.decode('utf-8'))
-              entry = (MARKER + '\n\nИстория, не текущая команда. Исходные абзацы сохранены дословно; актуальная сцена 88 остаётся в хендофе.\n\n' + '\n\n'.join(moved) + '\n\n---\n\n').encode()
-              Path('NEW-CHAT-HANDOFF.md').write_bytes(after.encode())
-              Path('archive/handoff-log.md').write_bytes(entry + original_archive)
-              assert Path('archive/handoff-log.md').read_bytes().endswith(original_archive)
-              for text in moved:
-                  assert text.encode() in Path('archive/handoff-log.md').read_bytes()
-              repair_test_contract()
-              tests = []
-              commands = [
-                  ['python3', 'scripts/cert_github.py', '.'],
-                  ['python3', '-m', 'unittest', 'discover', '-s', 'tests'],
-                  ['python3', 'scripts/validate_site.py', '.'],
-                  ['python3', 'scripts/check_instruction_consistency.py', '.'],
-                  ['node', 'tests/continue_status_check.js'],
-                  ['python3', 'scripts/canon_health.py', '.', '--write'],
-              ]
-              for command in commands:
-                  result = subprocess.run(command, text=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-                  print('RUN:', ' '.join(command), flush=True)
-                  print(result.stdout[-18000:], flush=True)
-                  tests.append({'command': command, 'exit_code': result.returncode})
-                  if result.returncode != 0:
-                      raise RuntimeError('Verification failed: ' + ' '.join(command))
-              with tempfile.TemporaryDirectory(prefix='repair-brief-') as out:
-                  subprocess.run(['python3', 'scripts/build_takeover_brief.py', '.', out], check=True)
-                  brief = json.loads((Path(out) / 'takeover-brief.json').read_text())
-                  assert brief['valid_at_generation'] is True
-                  assert len(brief['invariants']) == 15 and all(i['anchor_ok'] for i in brief['invariants'])
-              health = json.loads(Path('canon-health.json').read_text())
-              assert health['status'] == 'ok' and health['warnings'] == 0, 'Health warning remains'
-              for name, sha in protected.items():
-                  assert hashlib.sha256(Path(name).read_bytes()).hexdigest() == sha, 'Protected file changed: ' + name
-              cert = json.loads(Path('instruction-sync-status.json').read_text())
-              assert cert['health'] == 'ok' and cert['all_match'] is True
-              for name in ('NEW-CHAT-HANDOFF.md', *OTHER_DOCS):
-                  assert cert['files'][name]['github_blob'] == blob(Path(name).read_bytes())
-              report = {
-                  'schema_version': 1, 'project': 'seregius', 'verified': True,
-                  'source_head': source_head, 'checked_at': datetime.now(timezone.utc).isoformat(),
-                  'owner_request': 'Доделай и исправь ошибки если они остались',
-                  'runtime_run_id': os.environ['GITHUB_RUN_ID'], 'lock_holder': HOLDER,
-                  'archive_refill_commit': '290a2188f9156aedc782b77a9a609b0c609cd57f',
-                  'archive_verified_run_id': 43705571996,
-                  'archive_verified_task_ids': ['3a09108c8c474a0989118806b4a69f91', 'be627af0e9664db5b6ac2b62c34080a6'],
-                  'archive_slots_added': 20, 'archive_free_slots_at_20261115T104541Z': 18,
-                  'handoff_before_bytes': len(raw), 'handoff_after_bytes': len(after.encode()),
-                  'archived_verbatim_blocks': len(moved), 'archive_original_bytes_preserved': True,
-                  'scene88_pending_owner_review_preserved': True, 'standing_rules_byte_identical': True,
-                  'instruction_certificate_files': 7, 'brief_valid': True, 'brief_anchors': '15/15',
-                  'canon_health': health['status'], 'canon_warnings': health['warnings'],
-                  'tests': tests,
-                  'test_contract_repair': 'Include unmapped provider tasks in physical slots; compare checkpoint only to known scene IDs; retain all task-ID and uniqueness checks.',
-                  'master_queue_and_other_tracked_files_unchanged': True,
-                  'new_video_generations': 0, 'topview_credits_spent': 0,
-                  'limitations': ['Drive sharing permissions preserved, not changed or certified private.', 'Pool is finite; low-water warning remains enabled.'],
-                  'temporary_executor': '.github/workflows/repair-github-errors-20261115.yml; no schedule; remove after verification',
-              }
-              REPORT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
-              changed = set(call('git', 'diff', '--name-only').splitlines())
-              assert changed <= ALLOWED, changed
-              subprocess.run(['git', 'fetch', 'origin', 'main'], check=True)
-              check_lock(call('git', 'show', 'origin/main:ops/canon-lock.json'))
-              if call('git', 'rev-parse', 'origin/main') != source_head:
-                  print('Main advanced; discard staged proposal and rebuild from fresh main.')
-                  REPORT.unlink()
-                  continue
-              subprocess.run(['git', 'config', 'user.name', 'github-actions[bot]'], check=True)
-              subprocess.run(['git', 'config', 'user.email', '41898282+github-actions[bot]@users.noreply.github.com'], check=True)
-              subprocess.run(['git', 'add', '--', *sorted(ALLOWED)], check=True)
-              subprocess.run(['git', 'commit', '-m', 'Repair GitHub health and unmapped-task regression checks; preserve active work and verify'], check=True)
-              if subprocess.run(['git', 'push', 'origin', 'HEAD:main']).returncode == 0:
-                  committed = call('git', 'rev-parse', 'HEAD')
-                  subprocess.run(['git', 'fetch', 'origin', 'main'], check=True)
-                  for name in ALLOWED:
-                      expected = subprocess.check_output(['git', 'show', committed + ':' + name])
-                      actual = subprocess.check_output(['git', 'show', 'origin/main:' + name])
-                      assert expected == actual, 'Readback mismatch: ' + name
-                  print('VERIFIED_REPAIR_COMMIT=' + committed)
-                  print(json.dumps(report, ensure_ascii=False))
-                  sys.exit(0)
-              print('Push rejected; rebuild from scratch, never replay stale diff.')
-          raise RuntimeError('Concurrent writer prevented publish after three fresh rebuilds')
+          git fetch --depth=1 origin e8b87df78ad62df5438cfec249e67b7221f286e8
+          python3 - <<'PY'
+          import hashlib, subprocess, textwrap
+          revision = 'e8b87df78ad62df5438cfec249e67b7221f286e8'
+          path = '.github/workflows/repair-github-errors-20261115.yml'
+          raw = subprocess.check_output(['git', 'show', revision + ':' + path])
+          actual = hashlib.sha1(b'blob ' + str(len(raw)).encode() + b'\0' + raw).hexdigest()
+          assert actual == '4e519321cada1f2fef36fe22b56243af973feced'
+          start = "          cat > /tmp/owner-repair-20261115.py <<'PY'\n"
+          code = textwrap.dedent(raw.decode().split(start, 1)[1].split('\n          PY\n', 1)[0])
+          lines = code.splitlines()
+          bad = [i for i, line in enumerate(lines) if line.strip().startswith('new = new.replace(')]
+          assert len(bad) == 1
+          # YAML already removes block indentation; preserve the test's eight spaces.
+          lines.pop(bad[0])
+          code = '\n'.join(lines) + '\n'
+          exec(compile(code, '/tmp/reviewed-owner-repair.py', 'exec'), {'__name__': '__main__'})
           PY
-          python3 /tmp/owner-repair-20261115.py
