@@ -4,25 +4,25 @@
   "source": "ChatGPT scheduled ordinary",
   "runner": "chatgpt:ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "run_id": null,
-  "runtime_run_id_source": null,
-  "run_id_unavailable_reason": "Connected Automations.get returned NOT_FOUND (action not found); platform did not expose current runtime run ID.",
-  "execution_instance_id": "96ead7ad-7b15-4a9a-8494-4861531f6e70",
+  "run_id": "6ff739f3-8460-8320-8f0c-8c213594de3d",
+  "runtime_run_id_source": "Automations.peek last_run.id in_progress scheduled_for 2026-11-15T10:00:00Z",
+  "run_id_unavailable_reason": null,
+  "execution_instance_id": "b043a726-0770-4780-afc4-55855306f6e6",
   "route_generation": 3,
-  "source_head": "3567e42791d8bf7637f089c7e2c8d5bcc2e63b33",
-  "started_at": "2026-11-15T08:59:58.396Z",
-  "updated_at": "2026-11-15T09:06:14.419Z",
-  "phase": "complete",
-  "status": "completed",
+  "source_head": "77b222bab0c2eab18b07d8e05a7bba0b8f8488e6",
+  "started_at": "2026-11-15T10:01:01.768Z",
+  "updated_at": "2026-11-15T10:01:01.768Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan_complete": false,
-  "occupied_slots": 6,
-  "free_slots": 0,
+  "occupied_slots": null,
+  "free_slots": null,
   "selected_item": null,
-  "next_ready_item": "S89B-WAN30",
+  "next_ready_item": null,
   "task_ids": [],
   "new_submissions": 0,
   "topview_credits_spent": 0,
-  "browser_transport": "not_used: verified 6/6 with free read-only Topview",
+  "browser_transport": "not_used",
   "tinyfish": {
     "run_ids": [],
     "attempts": 0,
@@ -30,54 +30,21 @@
     "estimated_usd": 0,
     "confirmed_charge_usd": 0,
     "current_wallet_usd": null,
-    "wallet_unchecked_reason": "six physically occupied video slots; no paid browser run permitted"
+    "wallet_unchecked_reason": "read-only 6/6 capacity check; no paid browser run necessary"
   },
   "lease": {
-    "holder": "chatgpt:ordinary:96ead7ad-7b15-4a9a-8494-4861531f6e70",
-    "acquired_at": "2026-11-15T09:01:02.977Z",
-    "expires_at": null,
-    "released_at": "2026-11-15T09:06:14.419Z",
-    "acquired_commit": "3567e42791d8bf7637f089c7e2c8d5bcc2e63b33",
+    "holder": "chatgpt:ordinary:b043a726-0770-4780-afc4-55855306f6e6",
+    "acquired_at": "2026-11-15T10:00:43.272Z",
+    "expires_at": "2026-11-15T10:15:43.272Z",
+    "released_at": null,
+    "acquired_commit": "00ef7ce13a91c012ce0d66bbd94ba47220bfa679",
     "verified_start_readback": true,
-    "lock_outcome": "released_atomically_with_final_receipt"
+    "lock_outcome": "held"
   },
-  "outcome": "no_free_slot",
-  "blocker": {
-    "code": "no_free_global_slot",
-    "category": "capacity_full",
-    "details": "Direct Topview read-only scan of My First Board 100 newest videos found six distinct init tasks (Unlimited=true, creditsCost=0), agreeing with robot launcher_health checked at 2026-11-15T09:00:42Z. Six physical slots occupied; no new Create.",
-    "next_attempt_condition": "new scheduled independent read-only capacity check",
-    "retryable_on_new_evidence": true
-  },
-  "retryable": true,
-  "checked_at": "2026-11-15T09:06:14.419Z",
-  "scan": {
-    "source": "Topview read-only My First Board video page 1, all boards registry 14",
-    "boards": 1,
-    "boards_discovered": 14,
-    "pages": 1,
-    "scanned_tasks": 100,
-    "total_board_video_tasks": 509,
-    "complete": false,
-    "capacity_conclusive": true,
-    "active_video_task_ids": [
-      "425108630b0e48c9a4b299fc89ad88ee",
-      "bfdb6d9fad7a4ab29492f7bb95c78033",
-      "d775c7a483a44f13ba1704a1c418b208",
-      "8c6d92662d1043c7a651168b2b8280ae",
-      "1dcb6fa0628d41b098227ca6c96f1630",
-      "a1330998d39b486e864ed4e22b4fe8c4"
-    ],
-    "occupied_slots": 6,
-    "free_slots": 0,
-    "queue_items": 63,
-    "open_claims": 0,
-    "owner_tasks_open": 0,
-    "sha256_independently_verified": false,
-    "readiness_items": 26,
-    "robot_checked_at": "2026-11-15T09:00:42Z",
-    "robot_free_slots": 0
-  },
+  "outcome": null,
+  "blocker": null,
+  "retryable": null,
+  "scan": null,
   "acceptance": {
     "scheduled_execution": true,
     "tinyfish_login": false,
@@ -85,22 +52,7 @@
     "tinyfish_file_upload": false,
     "tinyfish_unlimited0": false,
     "verified_create_task_id": null,
-    "topview_connector_read_only_check": true,
+    "topview_connector_read_only_check": false,
     "full_background_launch_verified": false
-  },
-  "peer_runtime": {
-    "ordinary": {
-      "run_id": null,
-      "reason": "Automations.get unavailable; this invocation independently executed."
-    },
-    "relay": {
-      "run_id": null,
-      "reason": "Fresh Automations.get failed."
-    },
-    "work_hh55": {
-      "run_id": null,
-      "reason": "Fresh Automations.get failed."
-    }
-  },
-  "notes": "No paid Topview or TinyFish activity. S89A's verified prior task remains init; S89B next pending capacity. GitHub robot telemetry is separate and current 6/6. This run's platform run ID could not be retrieved because Automations.get returned NOT_FOUND. Interactive checkpoint and next_action unchanged. Route_generation=3 and preferred=work retained per latest registry."
+  }
 }
