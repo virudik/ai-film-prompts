@@ -11,7 +11,7 @@
   "route_generation": 3,
   "source_head": "a6f26c7a44cc347ab8be7f7b43a4d8ad44f9c0cf",
   "started_at": "2026-11-15T14:04:14.444Z",
-  "updated_at": "2026-11-15T14:06:05.725Z",
+  "updated_at": "2026-11-15T14:06:47.561Z",
   "phase": "complete",
   "status": "completed",
   "scan_complete": false,
@@ -36,10 +36,11 @@
     "holder": "chatgpt:ordinary:7cdd42bb-b38b-4b76-a886-2be05184ab69",
     "acquired_at": "2026-11-15T14:04:14.444Z",
     "expires_at": "2026-11-15T14:19:14.444Z",
-    "released_at": null,
+    "released_at": "2026-11-15T14:06:47.561Z",
     "acquired_commit": "a6f26c7a44cc347ab8be7f7b43a4d8ad44f9c0cf",
     "verified_start_readback": true,
-    "lock_outcome": "held_pending_exact_release"
+    "lock_outcome": "released_by_exact_atomic_git_CAS",
+    "verified_end_readback": true
   },
   "outcome": "no_free_slot",
   "blocker": {
@@ -87,11 +88,11 @@
     "topview_new_task_id_confirmed": false,
     "production_tinyfish_end_to_end_verified": false
   },
-  "checked_at": "2026-11-15T14:06:05.725Z",
+  "checked_at": "2026-11-15T14:06:47.561Z",
   "peer_runtime": {
     "relay_last_run_id": "2bc4e4c6-bc54-8331-9dc9-b54bd7946ebd",
     "work_hourly_last_run_id": "ea63be71-0664-832e-81ea-0ef15c88a130",
     "ordinary_runtime_run_id": "8bf6f573-afc0-8324-bf98-c1bb724a55e2"
   },
-  "notes": "No new Create, no TinyFish, no Topview credits. S89A submitted already; S89B next. Direct 6/6 makes full 14-board scan unnecessary for capacity. Work preferred in registry after prior evidence, ordinary permitted and independent; route_generation 3 unchanged. Exact lease release pending following receipt readback."
+  "notes": "No new Create, no TinyFish, no Topview credits. S89A submitted already; S89B next. Direct 6/6 makes full 14-board scan unnecessary for capacity. Work preferred in registry after prior evidence, ordinary permitted and independent; route_generation 3 unchanged. Exact lease release pending following receipt readback. Lease released atomically with final receipt; exact holder/acquired_at verified."
 }
