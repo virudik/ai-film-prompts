@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:6d45792d-cb48-472d-9b6f-98d9894543a8",
-  "task": "Activate verified primary/backup notifications at20/30 minutes; no video",
-  "acquired_at": "2026-11-15T22:16:25.293Z",
-  "expires_at": null,
-  "released_at": "2026-11-15T22:17:17.868Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:c659431b-8c21-4874-8cc4-b46598a9bd85",
+  "task": "Reconcile confirmed A09 A40 Keep statuses only; no video",
+  "acquired_at": "2026-11-15T23:07:07.651Z",
+  "expires_at": "2026-11-15T23:22:07.651Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
