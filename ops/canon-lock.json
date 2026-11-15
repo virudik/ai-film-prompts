@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:2a18abc1-af9a-4866-81fd-99bbe053a2e7",
   "task": "Seregius ordinary HH:00 full-capacity check and cycle receipt; Create forbidden unless fresh free-capacity preflight",
   "acquired_at": "2026-11-15T07:04:13.409Z",
-  "expires_at": "2026-11-15T07:16:13.409Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-15T07:07:12.223Z",
   "rules": "ops/CANON-LOCK.md"
 }
