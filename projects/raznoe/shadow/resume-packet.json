@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-15T10:01:35+00:00",
-  "source_head": "e9a0308ed4fa12f529b819d91f4e68a6db7d59cd",
-  "source_fingerprint": "81aabc98c353c4e479cb94d116ffa7e0e5f0dbe11432a25811aa6cc4b5380b81",
+  "checked_at": "2026-11-15T10:33:28+00:00",
+  "source_head": "db7a3e76eb90d7c38a1f026345f44ece0f4dc13a",
+  "source_fingerprint": "5879af704c549821e5d504a038d7e40d6d38bfa6e9686a8db6f2fb986300a290",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -222,7 +222,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "1f67808d3369ed29a7be0737c3ed933f11bb512ed893a07206f3c4906aeefd7e",
+      "sha256": "a2df54cab43c0703b82c887199c076a489d9ea82aad715fe8a277b6559ceb715",
       "bytes": 29588
     },
     {
