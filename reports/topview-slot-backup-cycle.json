@@ -11,7 +11,7 @@
   "route_generation": 3,
   "source_head": "e1a15aa669da8721faa15d70b698b59fdf0a89f3",
   "started_at": "2026-11-15T13:09:27.414Z",
-  "updated_at": "2026-11-15T13:15:00.780Z",
+  "updated_at": "2026-11-15T13:15:51.877Z",
   "phase": "complete",
   "status": "completed",
   "scan_complete": false,
@@ -36,10 +36,10 @@
     "holder": "chatgpt:ordinary:0ceb8a53-a407-4d4e-bf03-50c4ff1080b3",
     "acquired_at": "2026-11-15T13:09:27.414Z",
     "expires_at": null,
-    "released_at": null,
+    "released_at": "2026-11-15T13:15:51.877Z",
     "acquired_commit": "2d5104bd2560da31dc6ec1d7c86cc97cd5a48490",
     "verified_start_readback": true,
-    "lock_outcome": "release_pending"
+    "lock_outcome": "released_by_exact_sequential_contents_sha_CAS"
   },
   "outcome": "no_free_slot",
   "blocker": {
@@ -86,11 +86,11 @@
     "topview_new_task_id_confirmed": false,
     "production_tinyfish_end_to_end_verified": false
   },
-  "checked_at": "2026-11-15T13:15:00.780Z",
+  "checked_at": "2026-11-15T13:15:51.877Z",
   "peer_runtime": {
     "relay_last_run_id": "2bc4e4c6-bc54-8331-9dc9-b54bd7946ebd",
     "work_hourly_last_run_id": "92827f35-359c-8323-aa88-29ccf388e0cb",
     "ordinary_runtime_run_id": "3e86e987-0ee0-832d-b74a-dfd5bc8c8f5f"
   },
-  "notes": "No Create, no TinyFish run, no paid credits, no claim/retry change. S89A remains submitted and active; S89B next. Capacity conclusive without exhaustive multi-board scan. Work preferred restored recorded 2026-11-02 but ordinary enabled and independently authorized; routing unchanged. Atomic two-file Git object attempt errored without published mutation; fallback contents-SHA CAS."
+  "notes": "No Create, no TinyFish run, no paid credits, no claim/retry change. S89A remains submitted and active; S89B next. Capacity conclusive without exhaustive multi-board scan. Work preferred restored recorded 2026-11-02 but ordinary enabled and independently authorized; routing unchanged. Atomic two-file Git object attempt errored without published mutation; fallback contents-SHA CAS. Lease release in its own exact SHA-CAS; verify after write."
 }
