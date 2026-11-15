@@ -11,18 +11,18 @@
   "route_generation": 3,
   "source_head": "f6a5720169bee1e9c17f38386c3e796e77c2beb6",
   "started_at": "2026-11-15T00:01:04.362Z",
-  "updated_at": "2026-11-15T00:01:32.871Z",
-  "phase": "started",
-  "status": "in_progress",
-  "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
+  "updated_at": "2026-11-15T00:04:50.775Z",
+  "phase": "complete",
+  "status": "completed",
+  "scan_complete": true,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
-  "next_ready_item": null,
+  "next_ready_item": "S89B-WAN30",
   "task_ids": [],
   "new_submissions": 0,
   "topview_credits_spent": 0,
-  "browser_transport": "not_used",
+  "browser_transport": "not_used; six of six physical video slots occupied",
   "tinyfish": {
     "run_ids": [],
     "attempts": 0,
@@ -31,23 +31,57 @@
     "confirmed_charge_usd": 0,
     "provider_charge_unavailable_reason": "no_paid_browser_run",
     "current_wallet_usd": null,
-    "wallet_unchecked_reason": "no_paid_browser_run_yet"
+    "wallet_unchecked_reason": "6_of_6_full_no_paid_browser_run"
   },
   "lease": {
     "holder": "chatgpt:ordinary:3114738f-f6de-4b70-91d4-d699118479ce",
     "acquired_at": "2026-11-15T00:01:04.362Z",
-    "expires_at": "2026-11-15T00:16:04.362Z",
-    "released_at": null,
-    "lock_outcome": "held_verified",
+    "expires_at": null,
+    "released_at": "2026-11-15T00:04:50.775Z",
+    "lock_outcome": "released_atomically_with_final_receipt",
     "verified_start_readback": true
   },
-  "outcome": "in_progress",
-  "blocker": null,
+  "outcome": "no_free_slot",
+  "blocker": {
+    "code": "no_free_global_slot",
+    "category": "capacity_full",
+    "details": "Complete live Topview read-only scan of all 14 editable boards, 21 paginated responses, and 1060 tasks: six init video tasks on My First Board, zero free slots. Existing S89A task confirmed; no Create or TinyFish attempted.",
+    "next_attempt_condition": "Next independent scheduled fresh read-only scan; 14 Nov issue #680 is stale capacity evidence",
+    "retryable_on_new_evidence": true
+  },
   "retryable": false,
-  "checked_at": null,
+  "checked_at": "2026-11-15T00:04:05.947Z",
   "scan": {
-    "source": "Topview read-only connector; scan in progress",
-    "complete": false
+    "source": "Topview read-only connector, all editable boards and all pages",
+    "boards": 14,
+    "pages": 21,
+    "board_declared_tasks": 1060,
+    "scanned_tasks": 1060,
+    "complete": true,
+    "active_video_task_ids": [
+      "425108630b0e48c9a4b299fc89ad88ee",
+      "bfdb6d9fad7a4ab29492f7bb95c78033",
+      "d775c7a483a44f13ba1704a1c418b208",
+      "8c6d92662d1043c7a651168b2b8280ae",
+      "1dcb6fa0628d41b098227ca6c96f1630",
+      "a1330998d39b486e864ed4e22b4fe8c4"
+    ],
+    "occupied_slots": 6,
+    "free_slots": 0,
+    "queue_items": 63,
+    "readiness_items": 26,
+    "queue_blob_sha": "8f89d9f89eabe372646126e2e781f0aa9583b317",
+    "readiness_blob_sha": "f1bf3e496760bb435139d4e1dc403908381a5d4e",
+    "taskmap_blob_sha": "bc1883a7a28995ff5db824f79194555e0bb4de04",
+    "source_sha256_verification": "SHA-256 recomputed in current run; queue and task-map both match readiness",
+    "open_claims": 0,
+    "owner_tasks_open": 0,
+    "source_queue_sha256": "af62a3bc029d66a85ae611ecb488e7655a5798b5221e4eed78e7ef1f95ea5077",
+    "source_taskmap_sha256": "77bc3c304c3a65add1e7fb457e4c311627f448902dfc6e43b592ffd7af002ff0",
+    "queue_sha256_match": true,
+    "taskmap_sha256_match": true,
+    "unmapped_active_count": 1,
+    "unmapped_active_task_id": "d775c7a483a44f13ba1704a1c418b208"
   },
   "peer_runtime": {
     "ordinary_hourly_enabled": true,
@@ -56,15 +90,15 @@
   },
   "acceptance": {
     "hourly_runtime_verified": true,
-    "complete_read_only_scan_verified": false,
-    "canonical_queue_item_ready": null,
+    "complete_read_only_scan_verified": true,
+    "canonical_queue_item_ready": true,
     "old_tinyfish_signin_and_reversible_controls_verified": true,
     "exact_native_original_files_uploaded": false,
     "unlimited_zero_verified": false,
     "production_create_verified": false,
     "verified_task_id": null,
     "full_background_launch_accepted": false,
-    "independently_verified_other_executor_submission_task_id": null
+    "independently_verified_other_executor_submission_task_id": "425108630b0e48c9a4b299fc89ad88ee"
   },
-  "notes": "Started receipt under exact own CAS lease. Scan and queue reconciliation in progress; no Create."
+  "notes": "Scheduled pull independently checked current slots, queue, SHA, owner tasks, robot wake events and peer last-runs. Most recent wake issue #680 at 2026-11-14T21:20:28Z is superseded by live 6/6. No TinyFish call because 6/6. No next_action or retry edits. Task-map has one pre-existing unmapped_active task; full connector scan includes it in capacity."
 }
