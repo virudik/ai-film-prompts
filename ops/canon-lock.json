@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:c659431b-8c21-4874-8cc4-b46598a9bd85",
   "task": "Consolidate common todo and dot weekly Keep ownership, certified handoff docs; no video",
   "acquired_at": "2026-11-15T23:18:31.422Z",
-  "expires_at": "2026-11-15T23:43:31.422Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-15T23:19:22.775Z",
   "rules": "ops/CANON-LOCK.md"
 }
