@@ -3,8 +3,8 @@
   "state": "held",
   "holder": "chatgpt:work:4b065dbe-16f1-440f-9358-ed25a41bf368",
   "task": "Scheduled HH:55 Seregius slot/QC/maintenance cycle",
-  "acquired_at": "2026-11-15T14:52:28.777Z",
-  "expires_at": "2026-11-15T15:07:28.777Z",
+  "acquired_at": "2026-11-15T14:58:32.083Z",
+  "expires_at": "2026-11-15T15:13:32.083Z",
   "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
