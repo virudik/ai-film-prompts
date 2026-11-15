@@ -4,16 +4,16 @@
   "source": "ChatGPT scheduled ordinary",
   "runner": "chatgpt:ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "run_id": "8bf6f573-afc0-8324-bf98-c1bb724a55e2",
-  "runtime_run_id_source": "Automations.peek last_run.id in_progress scheduled_for 2026-11-15T14:00:00Z",
+  "run_id": "c3ec85cd-b398-832f-afb4-fb61ddadb2ba",
+  "runtime_run_id_source": "Automations.peek last_run.id in_progress scheduled_for 2026-11-15T15:00:00Z",
   "run_id_unavailable_reason": null,
-  "execution_instance_id": "7cdd42bb-b38b-4b76-a886-2be05184ab69",
+  "execution_instance_id": "02219db4-f612-43cb-872c-514ca1af9528",
   "route_generation": 3,
-  "source_head": "a6f26c7a44cc347ab8be7f7b43a4d8ad44f9c0cf",
-  "started_at": "2026-11-15T14:04:14.444Z",
-  "updated_at": "2026-11-15T14:06:47.561Z",
-  "phase": "complete",
-  "status": "completed",
+  "source_head": "abce982d5a374835e47c039c6c65248cbee0fa01",
+  "started_at": "2026-11-15T15:03:23.050755Z",
+  "updated_at": "2026-11-15T15:17:48.637Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan_complete": false,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -30,43 +30,39 @@
     "estimated_usd": 0,
     "confirmed_charge_usd": 0,
     "current_wallet_usd": null,
-    "wallet_unchecked_reason": "Global capacity conclusive at 6/6; paid browser not permitted"
+    "wallet_unchecked_reason": "6/6 capacity; no paid browser permitted"
   },
   "lease": {
-    "holder": "chatgpt:ordinary:7cdd42bb-b38b-4b76-a886-2be05184ab69",
-    "acquired_at": "2026-11-15T14:04:14.444Z",
-    "expires_at": "2026-11-15T14:19:14.444Z",
-    "released_at": "2026-11-15T14:06:47.561Z",
-    "acquired_commit": "a6f26c7a44cc347ab8be7f7b43a4d8ad44f9c0cf",
+    "holder": "chatgpt:ordinary:02219db4-f612-43cb-872c-514ca1af9528",
+    "acquired_at": "2026-11-15T15:14:14.407Z",
+    "expires_at": "2026-11-15T15:29:14.407Z",
+    "acquired_commit": "abce982d5a374835e47c039c6c65248cbee0fa01",
     "verified_start_readback": true,
-    "lock_outcome": "released_by_exact_atomic_git_CAS",
-    "verified_end_readback": true
+    "lock_outcome": "held",
+    "verified_end_readback": false
   },
-  "outcome": "no_free_slot",
-  "blocker": {
-    "code": "no_free_global_slot",
-    "category": "capacity_full",
-    "details": "Direct Topview My First Board page 1 newest 100 video tasks includes 6 distinct init videos (Unlimited true, creditsCost 0); no additional Create permitted.",
-    "next_attempt_condition": "next independent scheduled read-only capacity check",
-    "retryable_on_new_evidence": true
-  },
-  "retryable": true,
+  "outcome": null,
+  "blocker": null,
+  "retryable": false,
   "scan": {
-    "source": "Topview read-only connector, My First Board page 1; GitHub automation-monitor-status.json, relay and HH:55 cycle",
-    "boards": 1,
-    "boards_discovered": null,
-    "pages": 1,
-    "scanned_tasks": 100,
-    "total_board_video_tasks": 509,
+    "source": "14 boards full read-only initially; latest My First Board refreshed",
+    "boards": 14,
+    "boards_discovered": 14,
+    "pages": 19,
+    "scanned_tasks": 676,
+    "initial_full_scan_at": "2026-11-15T15:08:00Z",
+    "initial_occupied_slots": 5,
+    "initial_free_slots": 1,
     "complete": false,
     "capacity_conclusive": true,
+    "latest_refresh_at": "2026-11-15T15:15:53.473Z",
     "active_video_task_ids": [
+      "90db5dd309db477eb346e8d82676f7b5",
       "425108630b0e48c9a4b299fc89ad88ee",
       "bfdb6d9fad7a4ab29492f7bb95c78033",
       "d775c7a483a44f13ba1704a1c418b208",
       "8c6d92662d1043c7a651168b2b8280ae",
-      "1dcb6fa0628d41b098227ca6c96f1630",
-      "a1330998d39b486e864ed4e22b4fe8c4"
+      "1dcb6fa0628d41b098227ca6c96f1630"
     ],
     "occupied_slots": 6,
     "free_slots": 0,
@@ -75,9 +71,8 @@
     "open_claims": 0,
     "owner_tasks_open": 0,
     "readiness_items": 26,
-    "sha256_independently_verified": false,
-    "robot_checked_at": "2026-11-15T13:30:34Z",
-    "work_hourly_checked_at": "2026-11-15T14:02:15.146Z"
+    "sha256_independently_verified": true,
+    "robot_checked_at": "2026-11-15T14:50:46Z"
   },
   "acceptance": {
     "scheduled_cycle": true,
@@ -88,11 +83,11 @@
     "topview_new_task_id_confirmed": false,
     "production_tinyfish_end_to_end_verified": false
   },
-  "checked_at": "2026-11-15T14:06:47.561Z",
+  "checked_at": "2026-11-15T15:17:48.637Z",
   "peer_runtime": {
     "relay_last_run_id": "2bc4e4c6-bc54-8331-9dc9-b54bd7946ebd",
-    "work_hourly_last_run_id": "ea63be71-0664-832e-81ea-0ef15c88a130",
-    "ordinary_runtime_run_id": "8bf6f573-afc0-8324-bf98-c1bb724a55e2"
+    "work_hourly_last_run_id": "4fa9ac52-b69c-8325-9822-2aada8d8a547",
+    "ordinary_runtime_run_id": "c3ec85cd-b398-832f-afb4-fb61ddadb2ba"
   },
-  "notes": "No new Create, no TinyFish, no Topview credits. S89A submitted already; S89B next. Direct 6/6 makes full 14-board scan unnecessary for capacity. Work preferred in registry after prior evidence, ordinary permitted and independent; route_generation 3 unchanged. Exact lease release pending following receipt readback. Lease released atomically with final receipt; exact holder/acquired_at verified."
+  "notes": "Initially 5/6 and foreign unexpired lock. Acquired exact lease after expiry. A new sixth init task appeared in subsequent Topview scan, so no Create or paid TinyFish. Investigating task mapping before completion."
 }
