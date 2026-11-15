@@ -4,16 +4,16 @@
   "source": "ChatGPT scheduled ordinary",
   "runner": "chatgpt:ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "run_id": "713ee3e0-7a4c-8330-9325-5d459e1d71c5",
-  "runtime_run_id_source": "Automations.peek.last_run.id (in_progress for 2026-11-15T08:00:00Z)",
-  "run_id_unavailable_reason": null,
-  "execution_instance_id": "bbf8b515-7850-4847-b6fa-83450bb52d78",
+  "run_id": null,
+  "runtime_run_id_source": null,
+  "run_id_unavailable_reason": "Connected Automations.get returned NOT_FOUND (action not found); platform did not expose current runtime run ID.",
+  "execution_instance_id": "96ead7ad-7b15-4a9a-8494-4861531f6e70",
   "route_generation": 3,
-  "source_head": "8ad0d9cc14cb490f3a8d47a060a7dcc43a186f06",
-  "started_at": "2026-11-15T08:04:54.589Z",
-  "updated_at": "2026-11-15T08:08:26.258Z",
-  "phase": "complete",
-  "status": "completed",
+  "source_head": "3567e42791d8bf7637f089c7e2c8d5bcc2e63b33",
+  "started_at": "2026-11-15T08:59:58.396Z",
+  "updated_at": "2026-11-15T09:01:57.716Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan_complete": false,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -22,7 +22,7 @@
   "task_ids": [],
   "new_submissions": 0,
   "topview_credits_spent": 0,
-  "browser_transport": "not_used: 6/6 verified read-only",
+  "browser_transport": "not_used: verified 6/6 with free read-only Topview",
   "tinyfish": {
     "run_ids": [],
     "attempts": 0,
@@ -30,37 +30,36 @@
     "estimated_usd": 0,
     "confirmed_charge_usd": 0,
     "current_wallet_usd": null,
-    "wallet_unchecked_reason": "all six video slots occupied; paid browser forbidden"
+    "wallet_unchecked_reason": "six physically occupied video slots; no paid browser run permitted"
   },
   "lease": {
-    "holder": "chatgpt:ordinary:bbf8b515-7850-4847-b6fa-83450bb52d78",
-    "acquired_at": "2026-11-15T08:04:54.589Z",
-    "expires_at": null,
-    "released_at": "2026-11-15T08:08:26.258Z",
-    "acquired_commit": "a862ea80f5d382b3a8a696df769823d61d450db9",
+    "holder": "chatgpt:ordinary:96ead7ad-7b15-4a9a-8494-4861531f6e70",
+    "acquired_at": "2026-11-15T09:01:02.977Z",
+    "expires_at": "2026-11-15T09:11:02.977Z",
+    "released_at": null,
+    "acquired_commit": "3567e42791d8bf7637f089c7e2c8d5bcc2e63b33",
     "verified_start_readback": true,
-    "lock_outcome": "released_atomically_with_final_receipt"
+    "lock_outcome": "held_for_receipt"
   },
-  "outcome": "no_free_slot",
+  "outcome": "capacity_full_verified",
   "blocker": {
     "code": "no_free_global_slot",
     "category": "capacity_full",
-    "details": "Fresh Topview My First Board latest 100 tasks contained six distinct init video tasks with Unlimited=true and creditsCost=0. Robot status at 2026-11-15T07:30:29Z agrees 6/6. No global spare physical slot. Full all-board scan not needed to establish saturation.",
-    "next_attempt_condition": "next scheduled read-only check with fresh Topview capacity",
+    "details": "Topview My First Board page 1 (100 of 509 video tasks) contains six distinct init video tasks. All report Unlimited=true and creditsCost=0. Full account scan unnecessary for conclusive saturation.",
+    "next_attempt_condition": "fresh read-only check in next scheduled cycle",
     "retryable_on_new_evidence": true
   },
   "retryable": true,
-  "checked_at": "2026-11-15T08:08:26.258Z",
+  "checked_at": "2026-11-15T09:01:57.716Z",
   "scan": {
-    "source": "Topview read-only My First Board page 1 of 733; independent robot topview-status.json cross-check",
+    "source": "Topview read-only My First Board video page 1, all boards registry 14",
     "boards": 1,
+    "boards_discovered": 14,
     "pages": 1,
     "scanned_tasks": 100,
-    "total_board_tasks": 733,
+    "total_board_video_tasks": 509,
     "complete": false,
     "capacity_conclusive": true,
-    "robot_checked_at": "2026-11-15T07:30:29Z",
-    "robot_occupied_slots": 6,
     "active_video_task_ids": [
       "425108630b0e48c9a4b299fc89ad88ee",
       "bfdb6d9fad7a4ab29492f7bb95c78033",
@@ -72,12 +71,8 @@
     "occupied_slots": 6,
     "free_slots": 0,
     "queue_items": 63,
-    "readiness_items": 26,
-    "readiness_ready_items": 22,
     "open_claims": 0,
     "owner_tasks_open": 0,
-    "source_queue_sha256": "af62a3bc029d66a85ae611ecb488e7655a5798b5221e4eed78e7ef1f95ea5077",
-    "source_task_map_sha256": "43658121333b1291ccdd76276c611fc3cfcefcd56f75ca5b8bca84beec743a38",
     "sha256_independently_verified": false
   },
   "acceptance": {
@@ -92,20 +87,17 @@
   },
   "peer_runtime": {
     "ordinary": {
-      "run_id": "713ee3e0-7a4c-8330-9325-5d459e1d71c5",
-      "recorded_status": "in_progress_at_peek",
-      "enabled": true
+      "run_id": null,
+      "reason": "Automations.get unavailable; this invocation independently executed."
     },
     "relay": {
-      "last_run_id": "2bc4e4c6-bc54-8331-9dc9-b54bd7946ebd",
-      "recorded_status": "completed",
-      "is_enabled": true
+      "run_id": null,
+      "reason": "Fresh Automations.get failed."
     },
     "work_hh55": {
-      "last_run_id": "b26b9665-1ac8-8327-8c16-b556272d97ef",
-      "recorded_status": "completed",
-      "is_enabled": false
+      "run_id": null,
+      "reason": "Fresh Automations.get failed."
     }
   },
-  "notes": "No Create. S89A already submitted (425108630b0e48c9a4b299fc89ad88ee), do not repeat. Old Work checkpoint still mentions S89A pre-Create; queue takes precedence. Interactive resume state unchanged; route_generation=3 unchanged. Earlier wake issue 680 is historical, not current capacity."
+  "notes": "No Create or claim. S89A submitted historically; S89B next. Previous Work checkpoint S89A pre-Create is stale; active continuation state unchanged. Current registry preferred_executor=work, but ordinary remains enabled/allowlisted, route_generation unchanged."
 }
