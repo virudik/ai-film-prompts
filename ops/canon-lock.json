@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt:ordinary:6d45792d-cb48-472d-9b6f-98d9894543a8",
-  "task": "Record honest manual test receipt and disable test",
-  "acquired_at": "2026-11-15T21:51:37.195Z",
-  "expires_at": null,
-  "released_at": "2026-11-15T21:52:06.424Z",
+  "task": "Read-only backup issue-assigned acceptance test",
+  "acquired_at": "2026-11-15T21:53:00.859Z",
+  "expires_at": "2026-11-15T21:58:00.860Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
