@@ -7,6 +7,7 @@ click in its originating uninterrupted execution, never replay after a gap.
 """
 import argparse
 import copy
+import hashlib
 import json
 import uuid
 from datetime import datetime, timezone
@@ -286,6 +287,107 @@ def wake_selection(root, config, free_slots):
     return queue_readiness.launch_candidates(root, limit=min(cap, free_slots))
 
 
+def intent_payload_sha(item):
+    """Bind final readback to the complete claimed item, not only its intent ID."""
+    payload = copy.deepcopy(item)
+    payload.setdefault('claim', {}).pop('intent_payload_sha256', None)
+    return hashlib.sha256(json.dumps(payload, ensure_ascii=False, sort_keys=True,
+                                     separators=(',', ':')).encode('utf-8')).hexdigest()
+
+
+def check_launch_observation(scan, item_id, now):
+    """Require explicit fresh duplicate reconciliation, not merely a free-slot count."""
+    observed = ts(scan.get('checked_at'))
+    if (scan.get('complete') is not True or not observed or
+            not 0 <= (now - observed).total_seconds() <= 120 or
+            type(scan.get('free_slots')) is not int or not 1 <= scan['free_slots'] <= 6):
+        raise Blocked('fresh_complete_global_capacity_required')
+    match = (scan.get('item_reconciliation') or {}).get(item_id)
+    if (not isinstance(match, dict) or match.get('complete') is not True or
+            match.get('matched_task_ids') != [] or match.get('ambiguous') is not False):
+        raise Blocked('item_duplicate_reconciliation_required')
+
+
+def prepare_claim(config, lock, item, actor, scan, now, preflight, source_sha,
+                  root, ledger=None, queue_board_id=None):
+    """Draft first-writer claim. Publish via main-head CAS; this function grants no UI action."""
+    check_route(config, actor, now)
+    check_lease(lock, actor, now)
+    if (item.get('state') != 'waiting_for_slot' or item.get('claim') or item.get('task_id')):
+        raise Blocked('item_already_owned_or_consumed; reconcile_without_Create')
+    if (not isinstance(source_sha, str) or len(source_sha) != 40 or
+            any(c not in '0123456789abcdef' for c in source_sha)):
+        raise Blocked('fresh_main_sha_required')
+    # Root must be a freshly read snapshot of the SAME main used for expected_sha.
+    queue = read(Path(root) / QUEUE)
+    matches = [i for i in queue.get('items', []) if i.get('id') == item.get('id')]
+    if len(matches) != 1 or matches[0] != item:
+        raise Blocked('fresh_queue_item_mismatch')
+    if queue_readiness.launch_candidates(root, limit=1)['chosen'] != [item.get('id')]:
+        raise Blocked('not_next_ready_authorized_item')
+    check_launch_observation(scan, item.get('id'), now)
+    out = copy.deepcopy(item)
+    out['state'] = 'claimed'
+    out['claim'] = {'claim_id': str(uuid.uuid4()), 'execution_instance_id': instance(actor),
+                    'route_generation': config['route_generation'], 'source_sha': source_sha,
+                    'claimed_at': stamp(now), 'lease_holder': holder(actor),
+                    'lease_acquired_at': lock['acquired_at'], 'preflight': copy.deepcopy(preflight),
+                    'coordination_version': 2}
+    # Reuse every existing authorization, free-route, continuity and ledger guard.
+    # The generated intent is discarded; caller still needs a SECOND CAS for intent.
+    prepare_intent(config, lock, out, actor, scan, now, queue_board_id, ledger, root)
+    return out
+
+
+def verify_before_create(config, lock, item, actor, scan, now, expected_claim_id,
+                         expected_intent_id, ledger=None, root=None, expected_payload_sha=None):
+    """Check freshly published readback. Not an idempotency token or replay permission.
+
+    Caller may use this only immediately after its own successful intent CAS, in
+    the same uninterrupted execution. On a crash/timeout it must reconcile instead.
+    """
+    check_route(config, actor, now)
+    check_lease(lock, actor, now)
+    claim = item.get('claim') or {}
+    if (item.get('state') != 'submitting' or item.get('task_id') or
+            claim.get('coordination_version') != 2 or claim.get('replay_forbidden') is not True or
+            not expected_claim_id or not expected_intent_id or
+            claim.get('claim_id') != expected_claim_id or
+            claim.get('submission_intent_id') != expected_intent_id or
+            claim.get('execution_instance_id') != instance(actor) or
+            claim.get('route_generation') != config['route_generation'] or
+            claim.get('lease_holder') != lock.get('holder') or
+            claim.get('lease_acquired_at') != lock.get('acquired_at')):
+        raise Blocked('fresh_owned_intent_readback_required')
+    if (not expected_payload_sha or claim.get('intent_payload_sha256') != expected_payload_sha or
+            expected_payload_sha != intent_payload_sha(item)):
+        raise Blocked('intent_payload_changed; reconcile_without_Create')
+    intent_at = ts(claim.get('submission_intent_at'))
+    if not intent_at or not 0 <= (now - intent_at).total_seconds() <= 120:
+        raise Blocked('intent_interrupted_or_stale; reconcile_without_Create')
+    check_launch_observation(scan, item.get('id'), now)
+    if root is None:
+        raise Blocked('fresh_policy_root_required')
+    queue = read(Path(root) / QUEUE)
+    matches = [i for i in queue.get('items', []) if i.get('id') == item.get('id')]
+    if len(matches) != 1 or matches[0] != item:
+        raise Blocked('fresh_queue_item_mismatch')
+    if item.get('scene_id') in ((queue_readiness.t422_policy(queue) or {}).get('hold_scenes') or []):
+        raise Blocked('owner_hold')
+    if queue_readiness.music_create_blocked(queue, item):
+        raise Blocked('music_owner_consent_required')
+    if queue_readiness.continuity_blocks_launch(item, root):
+        raise Blocked('continuity_excerpt_missing')
+    if queue_readiness.substantive_refusal(item):
+        raise Blocked('substantive_refusal_not_retried')
+    if run_ledger.required(config, actor):
+        try:
+            run_ledger.verify_binding(item, ledger)
+        except run_ledger.LedgerBlocked as error:
+            raise Blocked(str(error)) from error
+    return True
+
+
 def prepare_intent(config, lock, item, actor, scan, now, queue_board_id=None, ledger=None, root=None):
     """Transition claimed -> submitting once. Persist and read back before one click."""
     check_route(config, actor, now)
@@ -308,6 +410,11 @@ def prepare_intent(config, lock, item, actor, scan, now, queue_board_id=None, le
             not isinstance(scan.get('free_slots'), int) or isinstance(scan.get('free_slots'), bool) or
             not 1 <= scan['free_slots'] <= 6):
         raise Blocked('fresh_complete_global_capacity_required')
+    if claim.get('coordination_version') == 2:
+        if (claim.get('lease_holder') != lock.get('holder') or
+                claim.get('lease_acquired_at') != lock.get('acquired_at')):
+            raise Blocked('claim_lease_changed; reconcile_without_Create')
+        check_launch_observation(scan, item.get('id'), now)
     p = claim.get('preflight') or {}
     if not all(p.get(k) is True for k in ('owner_authorized', 'prompt_match', 'input_sha_match',
                                           'input_order_match', 'qc_passed', 'website_unlimited')):
@@ -368,6 +475,8 @@ def prepare_intent(config, lock, item, actor, scan, now, queue_board_id=None, le
             if record is not None and record.get('host_address'):
                 recorded['standing_host_address'] = record['host_address']
         out['claim']['owner_command'] = recorded
+    if out['claim'].get('coordination_version') == 2:
+        out['claim']['intent_payload_sha256'] = intent_payload_sha(out)
     return out
 
 
@@ -505,11 +614,16 @@ def read(path):
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument('root', type=Path)
-    ap.add_argument('action', choices=('status', 'check', 'takeover', 'prepare-intent', 'restore-work'))
+    ap.add_argument('action', choices=('status', 'check', 'takeover', 'prepare-claim', 'prepare-intent', 'verify-before-create', 'restore-work'))
     ap.add_argument('--actor', type=Path)
     ap.add_argument('--scan', type=Path)
     ap.add_argument('--evidence', type=Path)
     ap.add_argument('--item-id')
+    ap.add_argument('--preflight', type=Path)
+    ap.add_argument('--source-sha')
+    ap.add_argument('--claim-id')
+    ap.add_argument('--intent-id')
+    ap.add_argument('--expected-payload-sha')
     ap.add_argument('--owner-command')
     ap.add_argument('--wake-issue', type=int, help='grok free-slot wake issue number: skip the :10-:40 window only')
     ap.add_argument('--write', action='store_true', help='Write local files only; caller must CAS-publish and read back')
@@ -537,8 +651,18 @@ def main():
             matches = [i for i in queue['items'] if i.get('id') == args.item_id]
             if len(matches) != 1: raise Blocked('item_not_unique')
             ledger = read(args.root / run_ledger.PATH) if run_ledger.required(cfg, actor) else None
-            result, updated_ledger = prepare_transaction(cfg, lock, matches[0], actor, read(args.scan), now,
-                                                        ledger=ledger, queue_board_id=queue.get('board_id'), root=args.root)
+            if args.action == 'verify-before-create':
+                verify_before_create(cfg, lock, matches[0], actor, read(args.scan), now,
+                                     args.claim_id, args.intent_id, ledger, args.root, args.expected_payload_sha)
+                print(json.dumps({'allowed': True, 'replay_permitted': False})); return 0
+            if args.action == 'prepare-claim':
+                result = prepare_claim(cfg, lock, matches[0], actor, read(args.scan), now,
+                                       read(args.preflight), args.source_sha, args.root,
+                                       ledger, queue.get('board_id'))
+                updated_ledger = None
+            else:
+                result, updated_ledger = prepare_transaction(cfg, lock, matches[0], actor, read(args.scan), now,
+                                                            ledger=ledger, queue_board_id=queue.get('board_id'), root=args.root)
             queue['items'][queue['items'].index(matches[0])] = result
             if args.write:
                 if updated_ledger is not None:

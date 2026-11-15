@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:78363c23-e604-4c0b-9203-bb13d60e52c4",
   "task": "Publish reviewed dot/Grok first-winner coordination guards; no video",
   "acquired_at": "2026-11-15T15:28:18Z",
-  "expires_at": "2026-11-15T15:33:18Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-15T15:29:20Z",
   "rules": "ops/CANON-LOCK.md"
 }
