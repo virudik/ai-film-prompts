@@ -1,19 +1,18 @@
 {
   "schema_version": 1,
-  "enabled": false,
-  "channel": "relay",
-  "test_id": "dot-primary-readonly-20261115-2148",
+  "enabled": true,
+  "channel": "backup_issue",
+  "test_id": "grok-backup-readonly-20261115-2154",
   "read_only": true,
-  "requested_at": "2026-11-15T21:48:47.805260+00:00",
+  "requested_at": "2026-11-15T21:53:22.529Z",
   "expected_new_submissions": 0,
   "automation_id": "6af9b2a7212081919b191786c483ad13",
-  "reason": "Test delivered to Relay inbox and manually verified; automatic dot runtime wake/early ACK not proven. Do not enable production dispatch.",
+  "reason": "Owner-authorized read-only Grok issue-assigned acceptance. No dot DM, no claim/Create. Await genuine Grok ACK.",
   "resend_same_test": false,
   "previous": {
     "test_id": "wake-v2-newthread-20261024-01",
     "channel": "new_issue",
     "result": "no_run_after_new_thread",
     "completed_at": "2026-10-25T08:27:12.062Z"
-  },
-  "completed_at": "2026-11-15T21:52:06.424Z"
+  }
 }
