@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": null,
-  "task": null,
-  "acquired_at": null,
-  "expires_at": null,
-  "released_at": "2026-11-15T13:27:05.616Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:a83fdec7-a0e2-48af-8314-a324d65998a3",
+  "task": "Disable completed read-only Relay diagnostic",
+  "acquired_at": "2026-11-15T13:28:30.504Z",
+  "expires_at": "2026-11-15T13:33:30.504Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
