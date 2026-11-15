@@ -11,14 +11,14 @@
   "route_generation": 3,
   "source_head": "77b222bab0c2eab18b07d8e05a7bba0b8f8488e6",
   "started_at": "2026-11-15T10:01:01.768Z",
-  "updated_at": "2026-11-15T10:01:01.768Z",
-  "phase": "started",
-  "status": "in_progress",
+  "updated_at": "2026-11-15T10:02:33.727Z",
+  "phase": "complete",
+  "status": "completed",
   "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
-  "next_ready_item": null,
+  "next_ready_item": "S89B-WAN30",
   "task_ids": [],
   "new_submissions": 0,
   "topview_credits_spent": 0,
@@ -35,16 +35,48 @@
   "lease": {
     "holder": "chatgpt:ordinary:b043a726-0770-4780-afc4-55855306f6e6",
     "acquired_at": "2026-11-15T10:00:43.272Z",
-    "expires_at": "2026-11-15T10:15:43.272Z",
-    "released_at": null,
+    "expires_at": null,
+    "released_at": "2026-11-15T10:02:33.727Z",
     "acquired_commit": "00ef7ce13a91c012ce0d66bbd94ba47220bfa679",
     "verified_start_readback": true,
-    "lock_outcome": "held"
+    "lock_outcome": "released_atomically_with_final_receipt"
   },
-  "outcome": null,
-  "blocker": null,
-  "retryable": null,
-  "scan": null,
+  "outcome": "no_free_slot",
+  "blocker": {
+    "code": "no_free_global_slot",
+    "category": "capacity_full",
+    "details": "Fresh Topview read-only scan of My First Board 100 newest tasks found six distinct init video tasks, each selected Unlimited true and creditsCost 0. Global 6/6 full; no Create.",
+    "next_attempt_condition": "next independent scheduled read-only capacity check",
+    "retryable_on_new_evidence": true
+  },
+  "retryable": true,
+  "scan": {
+    "source": "Topview read-only My First Board page1 and 14-board registry",
+    "boards": 1,
+    "boards_discovered": 14,
+    "pages": 1,
+    "scanned_tasks": 100,
+    "total_board_tasks": 733,
+    "complete": false,
+    "capacity_conclusive": true,
+    "active_video_task_ids": [
+      "425108630b0e48c9a4b299fc89ad88ee",
+      "bfdb6d9fad7a4ab29492f7bb95c78033",
+      "d775c7a483a44f13ba1704a1c418b208",
+      "8c6d92662d1043c7a651168b2b8280ae",
+      "1dcb6fa0628d41b098227ca6c96f1630",
+      "a1330998d39b486e864ed4e22b4fe8c4"
+    ],
+    "occupied_slots": 6,
+    "free_slots": 0,
+    "all_active_unlimited0": true,
+    "queue_items": 63,
+    "open_claims": 0,
+    "owner_tasks_open": 0,
+    "readiness_items": 26,
+    "sha256_independently_verified": false,
+    "robot_checked_at": "2026-11-15T10:00:27Z"
+  },
   "acceptance": {
     "scheduled_execution": true,
     "tinyfish_login": false,
@@ -52,7 +84,25 @@
     "tinyfish_file_upload": false,
     "tinyfish_unlimited0": false,
     "verified_create_task_id": null,
-    "topview_connector_read_only_check": false,
+    "topview_connector_read_only_check": true,
     "full_background_launch_verified": false
-  }
+  },
+  "checked_at": "2026-11-15T10:02:33.727Z",
+  "peer_runtime": {
+    "ordinary": {
+      "run_id": "6ff739f3-8460-8320-8f0c-8c213594de3d",
+      "source": "Automations.peek last_run.id in_progress matching scheduled_for, no inference from prior latest_result"
+    },
+    "relay": {
+      "last_run_id": "2bc4e4c6-bc54-8331-9dc9-b54bd7946ebd",
+      "status": "completed",
+      "last_run_started_at": "2026-11-14T21:28:22.698284Z"
+    },
+    "work_hh55": {
+      "last_run_id": "b26b9665-1ac8-8327-8c16-b556272d97ef",
+      "enabled": false,
+      "last_run_started_at": "2026-11-14T20:56:53.272973Z"
+    }
+  },
+  "notes": "Old bot issue free-slot signals dated 2026-11-14 are stale, current robot 2026-11-15T10:00:27Z and direct Topview scan both 6/6. S89A already submitted and still init; next S89B. No paid browser run or Create, no new wallet or credits charge. Queue/readiness SHA recorded but not independently recomputed. Route_generation=3, preferred_executor=work unchanged. No interactive checkpoint edits."
 }
