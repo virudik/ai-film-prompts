@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-14T21:10:23Z",
+  "checked_at": "2026-11-15T00:01:44Z",
   "status": "warn",
   "warnings": 1,
-  "info": 17,
+  "info": 18,
   "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. Устаревание по состоянию проекта, даты только сигнал. Чистку делает ChatGPT по предупреждению или в воскресенье 08:55 МСК.",
   "problems": [
     {
@@ -59,6 +59,12 @@
       "code": "ops-stale",
       "text": "ops/DRIVE-WIF-SETUP.md: проверялся 18.10.2026, больше 14 дней назад.",
       "file": "ops/DRIVE-WIF-SETUP.md"
+    },
+    {
+      "level": "info",
+      "code": "ops-stale",
+      "text": "ops/LAUNCHER-COORDINATION.md: проверялся 01.11.2026, больше 14 дней назад.",
+      "file": "ops/LAUNCHER-COORDINATION.md"
     },
     {
       "level": "info",
