@@ -147,60 +147,49 @@
    "automation_schedule": "hourly HH:55 Europe/Moscow",
    "new_automations": 0,
    "last_phase_ab_check": {
-    "checked_at": "2026-11-05T17:57:01.708Z",
-    "cycle": "20:55 Europe/Moscow",
+    "checked_at": "2026-11-15T12:02:06Z",
+    "cycle": "14:55 Europe/Moscow",
     "self_heal": "ok",
     "owner_tasks_open": 0,
     "owner_tasks_taken": 0,
     "claude_open_over_3h": 0,
     "project_status": {
      "health": "ok",
-     "synced_at": "2026-11-05T17:40:35Z",
+     "synced_at": "2026-11-15T11:50:31Z",
      "fresh_under_40_minutes": true,
      "instruction_health": "ok"
     },
     "canon_health": {
      "status": "ok",
-     "checked_at": "2026-11-05T01:59:23Z",
+     "checked_at": "2026-11-15T11:06:32Z",
      "warnings": 0,
-     "info": 11
+     "info": 18
     },
-    "gmail_query": "from:notifications@github.com \"virudik/ai-film-prompts\" after:2026/11/04 -in:spam -in:trash",
-    "gmail_results": 10,
+    "gmail_query": "from:notifications@github.com virudik/ai-film-prompts newer_than:7d",
+    "gmail_results": 27,
     "gmail_all_pages": true,
     "gmail_next_page_token": null,
-    "gmail_state_unchanged": false,
+    "gmail_state_unchanged": true,
     "mailbox_mutated": false,
-    "coverage_from": "2026-11-04T12:04:52.888Z",
+    "coverage_from": "2026-11-08T12:00:00Z",
     "overlap_hours": 24,
-    "new_messages": [
-     {
-      "message_id": "1a1abe302e87e108",
-      "github_message_id": "<virudik/ai-film-prompts/issues/18/6659143718@github.com>",
-      "received_at": "2026-11-05T13:25:43Z",
-      "kind": "launcher_idle_signal",
-      "resolution": "historical window; subsequent ordinary runtime completed with matching receipt and current Work/live 6/6 scan proves the alert is no longer actionable"
-     }
-    ],
+    "new_messages": [],
     "action_jobs_verified": {
-     "self_heal": {
-      "run_id": 42022008164,
+     "owner_repair_verification": {
+      "failed_run_ids": [43706578575, 43706943000, 43707033456],
+      "run_id": 43707240081,
       "conclusion": "success"
      },
-     "canonical_master": {
-      "run_id": 42022404497,
+     "archive_video": {
+      "run_id": 43711212558,
       "conclusion": "success"
      },
      "canon_health_current": {
-      "run_id": 42023376029,
-      "conclusion": "success"
-     },
-     "topview_robot": {
-      "run_id": 42023445879,
+      "run_id": 43711034230,
       "conclusion": "success"
      },
      "pages": {
-      "run_id": 42023512664,
+      "run_id": 43711103170,
       "conclusion": "success"
      }
     },
@@ -209,8 +198,8 @@
      "repair_performed": false,
      "blind_rerun_performed": false
     },
-    "monitor_role": "not_checked: local checkout unavailable; robot heartbeat not imitated",
-    "result": "One new historical launcher-idle signal was resolved by later runtime/receipt evidence and the fresh 6/6 scan; current health and Actions are healthy."
+    "monitor_role": "skip: standby; primary last verified 5/180 min ago; robot heartbeat not imitated",
+    "result": "GitHub notification failures were historical and resolved by later successful runs; current project, self-heal and canon health are healthy."
    },
    "last_topview_scan": {
     "checked_at": "2026-11-05T18:56:51.876Z",
@@ -432,16 +421,15 @@
    "completed_archived_points": 38,
    "completed_archive": "archive/work-resume-register-archive.json",
    "last_canon_cleanup": {
-    "checked_at": "2026-10-29T07:07:04.001Z",
+    "checked_at": "2026-11-15T12:02:06Z",
     "mode": "root-only",
     "queue_items_archived": [
-     "S37-SEED20-P2",
-     "S40-SEED20-P1",
-     "S53-SEED20-P1"
+     "S49C"
     ],
-    "checkpoint_sections_archived": 12,
-    "register_points_archived": 2,
-    "relay_events_archived": 0
+    "checkpoint_sections_archived": 2,
+    "register_points_archived": 0,
+    "relay_events_archived": 0,
+    "archive_integrity": "existing checkpoint archive preserved byte-for-byte as suffix; two sections prepended"
    },
    "last_verified_submission": {
     "item_id": "S63-WAN30",

@@ -11,15 +11,22 @@
   "route_generation": 3,
   "source_head": "e92a38d0aee09e8844c3be7c14ec1b04f5e3f768",
   "started_at": "2026-11-15T11:52:33Z",
-  "updated_at": "2026-11-15T11:52:59Z",
-  "checked_at": null,
-  "phase": "started",
-  "status": "in_progress",
-  "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
+  "updated_at": "2026-11-15T12:02:06Z",
+  "checked_at": "2026-11-15T12:02:06Z",
+  "phase": "completed",
+  "status": "ok",
+  "scan_complete": true,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
-  "task_ids": [],
+  "task_ids": [
+    "425108630b0e48c9a4b299fc89ad88ee",
+    "bfdb6d9fad7a4ab29492f7bb95c78033",
+    "d775c7a483a44f13ba1704a1c418b208",
+    "8c6d92662d1043c7a651168b2b8280ae",
+    "1dcb6fa0628d41b098227ca6c96f1630",
+    "a1330998d39b486e864ed4e22b4fe8c4"
+  ],
   "new_submissions": 0,
   "topview_credits_spent": 0,
   "browser_transport": "not_used",
@@ -28,16 +35,44 @@
     "acquired_at": "2026-11-15T11:52:33Z",
     "expires_at": "2026-11-15T12:07:33Z",
     "acquired_commit": "e92a38d0aee09e8844c3be7c14ec1b04f5e3f768",
-    "released": false,
-    "released_at": null
+    "released": true,
+    "released_at": "2026-11-15T12:05:30Z"
   },
-  "outcome": null,
+  "outcome": "no_free_slot",
   "blocker": null,
-  "retryable": null,
+  "retryable": false,
   "monitor_role_check": {
     "action": "skip",
-    "reason": "collision guard unavailable; avoid concurrent write",
-    "error": "CalledProcessError",
+    "reason": "standby; primary last verified (or owner role set) 5/180 min ago",
+    "primary": "robot",
     "telemetry_write_performed": false
+  },
+  "scan": {
+    "boards": 14,
+    "pages": 19,
+    "total_videos": 676,
+    "status_counts": {
+      "success": 643,
+      "fail": 27,
+      "init": 6
+    },
+    "project_board": {
+      "name": "My First Board",
+      "id": "1a6244cf1ae747ef847d949a80d6133c",
+      "videos": 509
+    }
+  },
+  "ordinary_peer": {
+    "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
+    "last_run_id": "bb1858b8-24a4-832b-8355-f1ebe5d1aab3",
+    "latest_result_run_id": "bb1858b8-24a4-832b-8355-f1ebe5d1aab3",
+    "receipt": "reports/topview-slot-backup-cycle.json"
+  },
+  "maintenance": {
+    "phase_a": "healthy",
+    "phase_b": "historical_failures_resolved_by_later_success",
+    "phase_c": "weekly_cleanup_completed",
+    "owner_tasks_open": 0,
+    "mailbox_mutated": false
   }
 }

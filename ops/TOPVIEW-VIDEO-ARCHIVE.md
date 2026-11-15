@@ -1,6 +1,6 @@
 # Topview completed video archive — private Drive backup
 
-Статус: действует. Проверено: 18.10.2026.
+Статус: действует. Проверено: 15.11.2026.
 
 **Status 13.10.2026: OPERATIONAL.** End-to-end uploads with Drive checksum read-back verified (Scene 30, 78,644,925 B, and Scene 27, 78,611,053 B; Scene 25 added later by the schedule). GitHub Actions runs 38381306579 and 38381835331. Output link / scene ID / task ID are recorded in `topview-video-archive.json`. No Topview generation launched.
 

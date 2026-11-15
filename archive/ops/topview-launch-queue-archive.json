@@ -3,6 +3,118 @@
   "description": "Finished launch-queue items moved verbatim at the weekly cleanup; newest first. History only: never relaunch from here.",
   "items": [
     {
+      "id": "S49C",
+      "scene_id": 49,
+      "prompt_id": "S49C",
+      "canonical_block_label": "49C",
+      "canonical_prompt_sha256": "5def36a3acc6c34ba405ecf6a01abc30dd6c7ed5a4710e53c7168050ce293ff2",
+      "normalized_prompt_sha256": "10af344c025e52f443f2578f2a23cf5fb0a120fedd0e51d50cb278bc0499e9df",
+      "priority": 1.22,
+      "state": "submitted",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/ilyusha.jpg",
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/lesha.jpg",
+          "sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/full/vitalik.jpg",
+          "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-49/S49C-drums-wind-bass.png",
+          "sha256": "71feded8ffb7dbaeac6ba21e16d116ffd4d6cb754e22f2fa80572c3dd423683e",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-49/S49C-playing-grip.png",
+          "sha256": "8920dfd9af6a9d60c8d064654e3cead4d4b6b05480afc9f667843de756f0dea9",
+          "required": true
+        }
+      ],
+      "task_id": "abb161edcf5c4b58b91460677939b5d3",
+      "claim": null,
+      "owner_review_required_after_item": null,
+      "blocker": null,
+      "previous_prompt_sha256": [
+        "a046163c0464fbe5be31d0b58a5bdc74ab11b1d3029ec3caa871264ac23a84ec",
+        "12bcf81d590f9583f0dd827201d6b32818062d32acd49df4c2466f17037e8a0c"
+      ],
+      "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
+      "authorization_before_20261023_expansion": null,
+      "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
+      "previous_gates_20261023": {
+        "depends_on_submitted": [
+          "B7",
+          "B8",
+          "B9",
+          "B3",
+          "S43-R1-20261017",
+          "S44-R1-20261017",
+          "S36-S36",
+          "S37-SEED20-P2",
+          "S39-SEED20-P2",
+          "S40-SEED20-P2",
+          "S41",
+          "S42-SEED20-P2",
+          "S47-SEED20-P2",
+          "S48-SEED20-P2",
+          "S52-SEED20-P2",
+          "S53-SEED20-P2",
+          "S54",
+          "S28-A1-TEST-20261017",
+          "S57-SEED20-P2",
+          "S58-SEED20-P2"
+        ],
+        "depends_on_completed": [],
+        "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency.",
+        "state": "blocked_test_review"
+      },
+      "depends_on_completed": [],
+      "launch_readiness": "authorized_inputs_available",
+      "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
+      "priority_before_20261023_primary": 612,
+      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted.",
+      "submitted_at": "2026-11-07T21:30:26Z",
+      "receipt": "reports/topview-queue-2026-10-16/S49C-20261107T213026Z.json",
+      "ui_proof": "reports/topview-queue-2026-10-16/S49C-20261107T213026Z.jpg",
+      "last_claim": {
+        "claim_id": "9e3103d9-89d4-45f7-a0c0-9b5b2416e6da",
+        "claimed_at": "2026-11-07T21:29:17Z",
+        "run_id": "grok-99506b04-36b7-40aa-be2d-3c33dbe4be37",
+        "execution_instance_id": "99506b04-36b7-40aa-be2d-3c33dbe4be37",
+        "submission_intent_id": "4d4f7c73-7b12-4589-aa79-84f59e681210",
+        "archive_file": "archive/ops/queue-history-20261109.json",
+        "archive_sha256": "f885631dff5afe01f4d95226a498d43d184ef6c5f7a8a371adfdf50887d56331"
+      }
+    },
+    {
       "id": "S49A",
       "scene_id": 49,
       "prompt_id": "S49A",
