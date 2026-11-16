@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-16T15:57:17+00:00",
-  "source_head": "07a641d0193430b96ce52d2df98630675e37e25d",
-  "source_fingerprint": "368b6155ba664ab4525f96e6fc6d663b4d6dbecd10b517e45b5b3853d9c9424c",
+  "checked_at": "2026-11-16T15:57:56+00:00",
+  "source_head": "219d5328bdcdb5a335667cd32ddd7a11ebe1c008",
+  "source_fingerprint": "1b0be4dd5dedf1accc80df7d9376be7c68eb35feef3b730b3694cc36f91f9eaf",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -163,7 +163,7 @@
     "unresolved": [
       {
         "item_id": "S89C-WAN30",
-        "state": "claimed",
+        "state": "submitting",
         "task_id": null,
         "recovery_action": "reconcile_without_resubmitting",
         "submit_authorized": false
@@ -618,8 +618,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "8b58b1c7992dd01797f40310e03fd664d99e690d95539271a59af512d7c169c4",
-      "bytes": 280666
+      "sha256": "9ee81ab911c937a4fc81b064f84f8ffb90c299e5e674d0c4f595427278152bdd",
+      "bytes": 280932
     },
     {
       "file": "project-status.json",
