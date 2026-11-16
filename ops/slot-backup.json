@@ -83,7 +83,7 @@
   ],
   "preferred_executor": "work",
   "applied_owner_request_id": "owner-20261031-ordinary-primary",
-  "updated_at": "2026-11-15T11:26:05+00:00",
+  "updated_at": "2026-11-16T15:48:10.528Z",
   "reserve_automation_ids": [
     "6ae5e9d563f88191aa6da7c9ba1e05a0",
     "topview-grok"
@@ -424,8 +424,8 @@
       "unlimited_zero_verified": false,
       "scheduled_tinyfish_run_verified": true,
       "production_submission_verified": false,
-      "state": "live_ordinary_scheduled_preparation_blocked_input_no_create",
-      "latest_authenticated_board_check_at": "2026-11-06T18:08:08Z"
+      "state": "blocked_native_input_and_unlimited0_for_S89C",
+      "latest_authenticated_board_check_at": "2026-11-16T15:27:08Z"
     },
     "automation_prompt_updated_at": "2026-10-31T19:43:29.364733+00:00",
     "new_automations": 0,
@@ -433,24 +433,53 @@
     "relay_changed": false,
     "new_topview_submissions_in_configuration_change": 0,
     "latest_blocker": {
-      "item_id": "S49B",
-      "category": "blocked_browser_input",
-      "observed_at": "2026-11-06T18:08:08Z",
-      "run_id": "97f6704a-9c5d-4e59-b864-c3c4b849b25f",
-      "run_url": "https://agent.tinyfish.ai/runs/97f6704a-9c5d-4e59-b864-c3c4b849b25f",
+      "item_id": "S89C-WAN30",
+      "category": "blocked_browser_input_and_paid_mode",
+      "observed_at": "2026-11-16T15:27:08Z",
+      "run_id": "f3474b8d-9e7c-45a2-974e-38aaaf59a493",
+      "run_url": "https://agent.tinyfish.ai/runs/f3474b8d-9e7c-45a2-974e-38aaaf59a493",
       "profile_id": "prof_0ac4618d0cf4456e",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "same_board_authenticated": true,
-      "precise_issue": "TinyFish native Topview UI navigation showed Agent Bot/Assets rather than the full Omni-reference composer. No native image file picker/import of six exact GitHub originals was accessible. Prompt not entered, settings and Unlimited0 not independently verified. No Create attempted.",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "precise_issue": "Native reference-materials upload/Import did not open an image-file picker: 0/5 canonical images loaded, no @ImageN references bound, canonical prompt empty. Unlimited toggle absent; Create showed 12 Topview credits despite 16:9/720p/30s. Non-submission preflight only; NO Create.",
       "prepared_input_count": 0,
       "preflight_complete": false,
       "unlimited_zero_verified": false,
       "create_attempted": false,
       "repeat_paid_check_without_new_evidence": false,
-      "retry_condition": "New verified native original-file upload path and Unlimited0 controls on exact My First Board, or an independently confirmed UI capability change; do not repeat the same paid step on hourly wakes.",
+      "retry_condition": "New verified native image-file import and visible Unlimited 0 credits on exact My First Board, or independently confirmed Topview UI capability change; do not re-run same paid test hourly.",
       "credits_spent_topview": 0,
-      "estimated_tinyfish_cost_usd": 0.3565,
-      "confirmed_tinyfish_cost_usd": null
-    }
+      "tinyfish_steps": 24,
+      "estimated_tinyfish_cost_usd": 0.39343,
+      "confirmed_tinyfish_cost_usd": null,
+      "evidence_report": "reports/tinyfish-topview-preflight-2026-11-16-S89C.json"
+    },
+    "blocker_history": [
+      {
+        "item_id": "S49B",
+        "category": "blocked_browser_input",
+        "observed_at": "2026-11-06T18:08:08Z",
+        "run_id": "97f6704a-9c5d-4e59-b864-c3c4b849b25f",
+        "run_url": "https://agent.tinyfish.ai/runs/97f6704a-9c5d-4e59-b864-c3c4b849b25f",
+        "profile_id": "prof_0ac4618d0cf4456e",
+        "same_board_authenticated": true,
+        "precise_issue": "TinyFish native Topview UI navigation showed Agent Bot/Assets rather than the full Omni-reference composer. No native image file picker/import of six exact GitHub originals was accessible. Prompt not entered, settings and Unlimited0 not independently verified. No Create attempted.",
+        "prepared_input_count": 0,
+        "preflight_complete": false,
+        "unlimited_zero_verified": false,
+        "create_attempted": false,
+        "repeat_paid_check_without_new_evidence": false,
+        "retry_condition": "New verified native original-file upload path and Unlimited0 controls on exact My First Board, or an independently confirmed UI capability change; do not repeat the same paid step on hourly wakes.",
+        "credits_spent_topview": 0,
+        "estimated_tinyfish_cost_usd": 0.3565,
+        "confirmed_tinyfish_cost_usd": null
+      }
+    ]
   },
   "grok_launcher": {
     "owner_request_id": "owner-20261101-grok-helper-launcher",
