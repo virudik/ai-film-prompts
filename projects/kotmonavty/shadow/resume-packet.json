@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "kotmonavty",
   "project_name": "Котмонавты",
-  "checked_at": "2026-11-16T23:23:40+00:00",
-  "source_head": "709bbdf83b211d6b0caaa4f33ebd4f8fa2878a24",
-  "source_fingerprint": "07011a1746d6075fdc9c6e1d6938957752e8a8324bd258cf38239b6650762ce2",
+  "checked_at": "2026-11-16T23:53:34+00:00",
+  "source_head": "0efc5286be1dc8adafbb01c2b4efdf3c32a94c79",
+  "source_fingerprint": "125df789c4f97ac13dc4bc7cd69b45575e430f4eb7c090d25925844ab4320d40",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -190,7 +190,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "9e0f5b8cef6c861eb388d77c3f0b62c3752ab46fde5254938ef0c4886be5ac71",
+      "sha256": "53ebf11b455108cccd45fd5df152671e07563da5ed1c42e0f5e7161604bce0d5",
       "bytes": 29595
     },
     {
