@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-16T16:03:20+00:00",
-  "source_head": "78dae1823b2eeaba6602bab7b358f374d06d81ad",
-  "source_fingerprint": "175289ddf760017706933b9284f3c9073acaeb84a9d83832954e36a2f416f4e3",
+  "checked_at": "2026-11-16T16:05:03+00:00",
+  "source_head": "7e4a75728fb73962a5f70b928714f909f8a54e7e",
+  "source_fingerprint": "d97165dc435b1807b2dfb7d795a08f02a1750f8f8658b2fb5d8bd90ab2da30e5",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -188,26 +188,6 @@
         "task_id": "078f094bb1124c2ba7aa22d1ff0eb395"
       },
       {
-        "item_id": "S66-WAN30",
-        "task_id": "4aaca9143ee14b7d81220223974e4569"
-      },
-      {
-        "item_id": "S67-WAN30",
-        "task_id": "3fd9f3d9ae2d470eb5ec8b428a7ae044"
-      },
-      {
-        "item_id": "S68-WAN30",
-        "task_id": "0ef78e7bcda54cb88821e9349e39f85a"
-      },
-      {
-        "item_id": "S69-WAN30",
-        "task_id": "15e12f1588cc4079983610b63973e028"
-      },
-      {
-        "item_id": "S70-WAN30",
-        "task_id": "942bdafcff8640d1b405a37cbbb5cbc6"
-      },
-      {
         "item_id": "S66-STITCH-INDEP-WAN30",
         "task_id": "efaad07750974b678df63a6be00f15d8"
       },
@@ -226,6 +206,26 @@
       {
         "item_id": "S89C-WAN30",
         "task_id": "5d1f4fc1b4e548a7828892c73b672990"
+      },
+      {
+        "item_id": "S66-WAN30",
+        "task_id": "4aaca9143ee14b7d81220223974e4569"
+      },
+      {
+        "item_id": "S67-WAN30",
+        "task_id": "3fd9f3d9ae2d470eb5ec8b428a7ae044"
+      },
+      {
+        "item_id": "S68-WAN30",
+        "task_id": "0ef78e7bcda54cb88821e9349e39f85a"
+      },
+      {
+        "item_id": "S69-WAN30",
+        "task_id": "15e12f1588cc4079983610b63973e028"
+      },
+      {
+        "item_id": "S70-WAN30",
+        "task_id": "942bdafcff8640d1b405a37cbbb5cbc6"
       },
       {
         "item_id": "S49D",
@@ -610,8 +610,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "1e56a86f029adb325de2970242fad6c8aa895e1ddfd3c960cb12bbfa23717a11",
-      "bytes": 280011
+      "sha256": "691b5f5a9af744c1d008b54e9311f8cfef37affe5cd5275e3b842f8ea593868e",
+      "bytes": 248923
     },
     {
       "file": "project-status.json",
@@ -620,8 +620,8 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "1e52220f8ade15a1a7c1fca45c07401e07d32f8ef3bdd63e14ef720c2767f599",
-      "bytes": 24989
+      "sha256": "99acdfc225e3a4939ab95d8a5523686cc3b249fcb8ed2b81191efbe9ad5c7df5",
+      "bytes": 22315
     },
     {
       "file": "reports/handoff-receipts.json",
