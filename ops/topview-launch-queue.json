@@ -3535,7 +3535,7 @@
       "canonical_prompt_sha256": "dadffbca0dacdf9006b986289d55b92863b2ff1e59488737fc920fa837f486aa",
       "normalized_prompt_sha256": "2d1ff747bd92959093590322b2b20e2a5305d18c6ea3282253505ce2c57a20ec",
       "priority": 0.303,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "model_id": "qwen-wan3.0-video",
@@ -3601,7 +3601,35 @@
       "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry: automatic_retry is false and retry_control is omitted, because Grok prepare_intent treats any retry_control as a retry Create and would reject the first Unlimited Create. Not a paid 12-credit Wan path.",
       "owner_source": "t593u",
       "story_not_music": true,
-      "created_at": "2026-11-12T13:14:25Z"
+      "created_at": "2026-11-12T13:14:25Z",
+      "claim": {
+        "claim_id": "d6358ce7-e5fa-48ca-a195-012252eb23f3",
+        "execution_instance_id": "74ae9e21-7e4e-4190-a75e-a3666126d4d8",
+        "route_generation": 3,
+        "source_sha": "9b0db1678b3420b342b8fdef51744ee73a6ac916",
+        "claimed_at": "2026-11-16T15:56:24Z",
+        "lease_holder": "chatgpt:ordinary:74ae9e21-7e4e-4190-a75e-a3666126d4d8",
+        "lease_acquired_at": "2026-11-16T15:52:21.039Z",
+        "preflight": {
+          "owner_authorized": true,
+          "prompt_match": true,
+          "input_sha_match": true,
+          "input_order_match": true,
+          "qc_passed": true,
+          "website_unlimited": true,
+          "credits_cost": 0,
+          "quantity": 1,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "numeric_zero_displayed": false,
+          "unlimited_mode_selected": true,
+          "ui_unlimited_label": "Безлимитный режим — бесплатно",
+          "credits_cost_evidence": "selected_free_unlimited_current_form",
+          "model": "qwen-wan3.0-video",
+          "duration": 30
+        },
+        "coordination_version": 2
+      }
     },
     {
       "id": "S89D-WAN30",
