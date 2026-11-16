@@ -83,7 +83,20 @@ jobs:
           set -uo pipefail
           python3 scripts/robot_telemetry.py --mode "$ROBOT_TELEMETRY" || echo "::warning title=robot-telemetry::exited with code $?"
           exit 0
-      - name: Report changed warn/fail and dashboard banners to Grok Bot
+
+  site-alerts:
+    needs: scan
+    if: always() && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    concurrency:
+      group: site-alert-routing
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          ref: main
+      - name: Report site warnings to Dot with delayed Grok backup
         env:
           AGENT_RELAY_TOKEN: ${{ secrets.AGENT_RELAY_TOKEN }}
           BRANCH: ${{ github.ref_name }}
@@ -97,12 +110,16 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add ops/site-alert-state.json
-          git commit -m "Site alerts: report the changed problem set to Grok Bot"
+          git commit -m "Site alerts: persist primary/backup delivery state"
           for attempt in 1 2 3 4; do
             if git push origin "HEAD:${BRANCH}"; then exit 0; fi
             echo "Push rejected; re-reading ${BRANCH} ($attempt/4)"
             git fetch origin "${BRANCH}"
-            git rebase "origin/${BRANCH}" || git rebase --abort || true
+            git reset --hard "origin/${BRANCH}"
+            python3 scripts/site_alerts.py . --notify || echo "::warning title=site-alerts::notify retry failed"
+            if [ -z "$(git status --porcelain -- ops/site-alert-state.json)" ]; then exit 0; fi
+            git add ops/site-alert-state.json
+            git commit -m "Site alerts: reconcile latest primary/backup state"
           done
           echo "::warning title=site-alerts::could not push the dedup state"
           exit 0

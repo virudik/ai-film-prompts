@@ -7,8 +7,8 @@
   "api_base": "https://cast.agentrelay.com/v1",
   "address": "chatgpt@cloud-239644772681871360",
   "site_alert_enabled": true,
-  "site_alert_address": "GrokBot@cloud-242545579433959424",
-  "site_alert_note": "Canon-health warn/fail and dashboard error/warn banners only. The GitHub robot sends one Agent Relay DM when that set changes. Info notes are not sent. This is not a Grok polling routine and not a slot wake.",
+  "site_alert_address": "chatgpt@cloud-239644772681871360",
+  "site_alert_note": "Site alerts go to Dot first; Grok after 30 min (fail/error) or 120 min (warn) without exact incident ACK/progress. This route never launches video or changes slot dispatch.",
   "secret": "AGENT_RELAY_TOKEN (GitHub Actions secret; Agent Relay agent token of the robot identity, at_live_*)",
   "handler_automation_id": "6af9b2a7212081919b191786c483ad13",
   "rules": "ops/TOPVIEW-EVENT-WAKE.md",
@@ -27,5 +27,12 @@
     "progress_timeout_minutes": 30,
     "backup_repeat_minutes": 60,
     "acceptance_evidence": "reports/primary-backup-acceptance.json"
+  },
+  "site_alert_routing": {
+    "mode": "dot_then_grok",
+    "backup_address": "GrokBot@cloud-242545579433959424",
+    "critical_timeout_minutes": 30,
+    "warning_timeout_minutes": 120,
+    "receipts": "reports/site-alert-receipts.json"
   }
 }
