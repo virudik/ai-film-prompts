@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "rules": "ops/OWNER-TASKS.md",
-  "updated_at": "2026-11-16T19:07:21.887Z",
+  "updated_at": "2026-11-16T19:10:41.600Z",
   "tasks": [
     {
       "id": "d37ea54b-6b09-4283-892b-d6c3e189b82f",
@@ -130,9 +130,12 @@
       "to": "any",
       "source": "self-heal",
       "text": "Самопроверка: Последний запуск «здоровье канона» на GitHub упал (попытка 2): https://github.com/virudik/ai-film-prompts/actions/runs/43925539517 Найти причину и починить; правила — ops/SELF-HEAL.md.",
-      "status": "taken",
+      "status": "done",
       "taken_by": "chatgpt:ordinary:d52a0ae1-d360-4473-9b80-a18da6d52090",
-      "taken_at": "2026-11-16T19:07:21.887Z"
+      "taken_at": "2026-11-16T19:07:21.887Z",
+      "result": "Устранено предупреждение Canon health: work-resume-register.json уменьшен с 104167 до 96944 байт (лимит 100000). Две старые записи recovery_history и сохранённый снимок phase A/B перенесены дословно в archive/work-resume-register-archive.json; рабочие next_action/recovery и незавершённые задачи не изменены. Новый workflow 43936302258 завершился success, canon-health.json status=ok, warnings=0.",
+      "result_commit": "48f13e0ec6d023a89740525b3a9b60811fd049a4",
+      "closed_at": "2026-11-16T19:10:41.600Z"
     }
   ]
 }
