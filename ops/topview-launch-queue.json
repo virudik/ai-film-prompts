@@ -3535,7 +3535,7 @@
       "canonical_prompt_sha256": "dadffbca0dacdf9006b986289d55b92863b2ff1e59488737fc920fa837f486aa",
       "normalized_prompt_sha256": "2d1ff747bd92959093590322b2b20e2a5305d18c6ea3282253505ce2c57a20ec",
       "priority": 0.303,
-      "state": "claimed",
+      "state": "submitting",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "model_id": "qwen-wan3.0-video",
@@ -3628,7 +3628,11 @@
           "model": "qwen-wan3.0-video",
           "duration": 30
         },
-        "coordination_version": 2
+        "coordination_version": 2,
+        "submission_intent_id": "97efe05d-4aec-4cdf-b2e5-09c92f102af8",
+        "submission_intent_at": "2026-11-16T15:57:12Z",
+        "replay_forbidden": true,
+        "intent_payload_sha256": "6580d9b86da70dc975578d86f14b058b6e3344721bf92b2967ceeb68a2801e9e"
       }
     },
     {
