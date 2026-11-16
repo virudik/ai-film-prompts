@@ -11,9 +11,9 @@
   "route_generation": 3,
   "source_head": "64ca2b7b548aaf70fb1807b95e73bfb506eced32",
   "started_at": "2026-11-16T12:16:28.727Z",
-  "updated_at": "2026-11-16T12:17:34.394Z",
-  "phase": "started",
-  "status": "in_progress",
+  "updated_at": "2026-11-16T12:21:54.442Z",
+  "phase": "finished",
+  "status": "completed",
   "scan_complete": false,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -34,11 +34,12 @@
     "acquired_at": "2026-11-16T12:16:28.727Z",
     "expires_at": "2026-11-16T12:28:28.727Z",
     "verified_start_readback": true,
-    "released": false,
-    "lock_outcome": "held_own_lease"
+    "released": true,
+    "lock_outcome": "released_atomically_with_final_receipt",
+    "released_at": "2026-11-16T12:21:54.442Z"
   },
-  "outcome": "capacity_verification_in_progress",
-  "blocker": null,
+  "outcome": "no_free_slot",
+  "blocker": "global_video_slots_6_of_6",
   "retryable": true,
   "acceptance": {
     "scheduled_cycle": true,
@@ -53,7 +54,7 @@
     "execution_instance_id": "ac20394c-38ee-4467-834b-90288ff893a4",
     "outcome": "no_free_slot"
   },
-  "checked_at": "2026-11-16T12:17:34.394Z",
+  "checked_at": "2026-11-16T12:21:54.442Z",
   "scan": {
     "source": "Live Topview direct read-only My First Board page 1 (100 video tasks), 14 boards listed; GitHub robot at 2026-11-16T12:00:46Z; queue/readiness and owner tasks",
     "boards_scanned": 1,
@@ -77,11 +78,14 @@
     "queue_items": 62,
     "open_claims": 0,
     "readiness_items": 25,
-    "sha256_independently_verified": false,
+    "sha256_independently_verified": true,
     "readiness_checked_at": "2026-11-16T12:00:46Z",
     "open_owner_tasks": 0,
     "robot_all_board_scan_at": null,
-    "live_topview_checked_at": "2026-11-16T12:17:34.394Z"
+    "live_topview_checked_at": "2026-11-16T12:21:45.344Z",
+    "sha256_queue_matches": true,
+    "sha256_task_map_matches": true,
+    "wake_issues_open": 4
   },
   "topview_preflight": "not_needed_capacity_6_of_6",
   "next_ready_item": "S89C-WAN30",
