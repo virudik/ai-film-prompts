@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-15T21:50:29Z",
+  "checked_at": "2026-11-16T12:24:51Z",
   "status": "ok",
   "warnings": 0,
-  "info": 5,
+  "info": 4,
   "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. Устаревание по состоянию проекта, даты только сигнал. Чистку делает ChatGPT по предупреждению или в воскресенье 08:55 МСК.",
   "problems": [
     {
       "level": "info",
       "code": "instruction-size",
-      "text": "SYNC-RUNBOOK.md: 131 КБ, проверить на повторы.",
+      "text": "SYNC-RUNBOOK.md: 128 КБ, проверить на повторы.",
       "file": "SYNC-RUNBOOK.md"
     },
     {
@@ -21,7 +21,7 @@
     {
       "level": "info",
       "code": "instruction-size",
-      "text": "USER-GUIDE.md: 85 КБ, проверить на повторы.",
+      "text": "USER-GUIDE.md: 84 КБ, проверить на повторы.",
       "file": "USER-GUIDE.md"
     },
     {
@@ -29,12 +29,6 @@
       "code": "ops-unchecked",
       "text": "ops/LAUNCHER-ENTRY.md: в шапке нет строки «Статус: … Проверено: дд.мм.гггг». Нужен — проверить и поставить дату, не нужен — в archive/ops/.",
       "file": "ops/LAUNCHER-ENTRY.md"
-    },
-    {
-      "level": "info",
-      "code": "ops-unchecked",
-      "text": "ops/PRIMARY-BACKUP-WAKE.md: в шапке нет строки «Статус: … Проверено: дд.мм.гггг». Нужен — проверить и поставить дату, не нужен — в archive/ops/.",
-      "file": "ops/PRIMARY-BACKUP-WAKE.md"
     }
   ]
 }
