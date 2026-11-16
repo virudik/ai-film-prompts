@@ -4,14 +4,14 @@
   "source": "ChatGPT scheduled ordinary",
   "runner": "chatgpt_scheduled_task",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "run_id": "81f22ae0-bd68-8325-b10b-3dc131ed8eec",
+  "run_id": "273a888f-6158-832e-8acf-0103e935b56b",
   "run_id_unavailable_reason": null,
   "runtime_run_id_source": "Automations.peek current last_run.id",
-  "execution_instance_id": "f670bb98-a8a0-40bc-9dcb-f9c61eba6879",
+  "execution_instance_id": "74d029f7-dabc-4378-8058-1dbd55a4d1a0",
   "route_generation": 3,
-  "source_head": "d92a5ddef6a9f37c48908489b1d94585bc56fe32",
-  "started_at": "2026-11-15T23:09:47.556Z",
-  "updated_at": "2026-11-15T23:12:08.694Z",
+  "source_head": "57bf0fc1fd134ea7e52ea38e07b8434caeb6518f",
+  "started_at": "2026-11-16T00:06:13.482Z",
+  "updated_at": "2026-11-16T00:08:48.528Z",
   "phase": "finished",
   "status": "completed",
   "scan_complete": false,
@@ -31,13 +31,13 @@
     "performed": false
   },
   "lease": {
-    "holder": "chatgpt:ordinary:f670bb98-a8a0-40bc-9dcb-f9c61eba6879",
-    "acquired_at": "2026-11-15T23:09:47.556Z",
-    "expires_at": "2026-11-15T23:19:47.556Z",
+    "holder": "chatgpt:ordinary:74d029f7-dabc-4378-8058-1dbd55a4d1a0",
+    "acquired_at": "2026-11-16T00:06:13.482Z",
+    "expires_at": "2026-11-16T00:16:13.482Z",
     "verified_start_readback": true,
     "lock_outcome": "released_atomically_with_final_receipt",
     "released": true,
-    "released_at": "2026-11-15T23:12:08.694Z"
+    "released_at": "2026-11-16T00:08:48.528Z"
   },
   "outcome": "no_free_slot",
   "blocker": "global_video_slots_6_of_6",
@@ -51,9 +51,9 @@
     "topview_new_task_id_confirmed": false,
     "production_tinyfish_end_to_end_verified": false
   },
-  "checked_at": "2026-11-15T23:11:48.785Z",
+  "checked_at": "2026-11-16T00:08:14.904Z",
   "scan": {
-    "source": "Topview connector direct read-only My First Board recent 100; GitHub canonical queue/readiness",
+    "source": "Topview connector direct read-only My First Board 100 latest video tasks and GitHub queue/readiness",
     "boards_scanned": 1,
     "boards_listed": 14,
     "pages_scanned": 1,
@@ -61,7 +61,7 @@
     "total_main_board_video_tasks": 510,
     "complete": false,
     "capacity_conclusive": true,
-    "latest_refresh_at": "2026-11-15T23:11:48.785Z",
+    "latest_refresh_at": "2026-11-16T00:08:14.904Z",
     "active_video_task_ids": [
       "90db5dd309db477eb346e8d82676f7b5",
       "425108630b0e48c9a4b299fc89ad88ee",
@@ -77,14 +77,15 @@
     "open_claims": 0,
     "readiness_items": 25,
     "sha256_independently_verified": false,
-    "robot_checked_at": "2026-11-15T22:20:28Z",
+    "readiness_checked_at": "2026-11-16T00:00:33.199109Z",
+    "robot_checked_at": "2026-11-15T23:50:31Z",
     "open_owner_tasks": 0
   },
   "peer_runtime": {
     "relay_last_run_id": "2bc4e4c6-bc54-8331-9dc9-b54bd7946ebd",
     "work_hourly_last_run_id": "4fa9ac52-b69c-8325-9822-2aada8d8a547",
     "work_hourly_enabled": false,
-    "ordinary_runtime_run_id": "81f22ae0-bd68-8325-b10b-3dc131ed8eec"
+    "ordinary_runtime_run_id": "273a888f-6158-832e-8acf-0103e935b56b"
   },
   "reconciled_existing_task_ids": [
     "425108630b0e48c9a4b299fc89ad88ee",
