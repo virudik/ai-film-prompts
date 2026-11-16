@@ -8,18 +8,26 @@
   "run_id_unavailable_reason": null,
   "execution_instance_id": "4efd5608-34b9-4a55-a42a-f645d8258147",
   "route_generation": 3,
-  "source_head": "00faf7e5c78ae09d07d6a5a9b1b82c2c50b365d2",
+  "source_head": "bbb2206d388e1b68b089fccaea0d7398a00539d0",
   "started_at": "2026-11-16T21:57:17.664Z",
-  "updated_at": "2026-11-16T21:57:17.664Z",
-  "phase": "started",
-  "status": "in_progress",
-  "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
+  "updated_at": "2026-11-16T21:58:38.303Z",
+  "phase": "completed",
+  "status": "no_free_slot",
+  "scan_complete": true,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
-  "task_ids": [],
+  "task_ids": [
+    "5d1f4fc1b4e548a7828892c73b672990",
+    "90db5dd309db477eb346e8d82676f7b5",
+    "425108630b0e48c9a4b299fc89ad88ee",
+    "bfdb6d9fad7a4ab29492f7bb95c78033",
+    "d775c7a483a44f13ba1704a1c418b208",
+    "8c6d92662d1043c7a651168b2b8280ae"
+  ],
   "new_submissions": 0,
   "topview_credits_spent": 0,
+  "browser_transport": "not_invoked",
   "lease": {
     "holder": "chatgpt:work:4efd5608-34b9-4a55-a42a-f645d8258147",
     "acquired_at": "2026-11-16T21:56:58.127Z",
@@ -27,13 +35,150 @@
     "verified_start_readback": true,
     "released": false
   },
-  "previous_receipt": {
-    "execution_instance_id": "02675838-7510-4f9d-9870-fe3a8e267bf0",
-    "updated_at": "2026-11-16T20:55:37.396Z",
-    "outcome": "no_free_slot"
+  "acceptance": {
+    "scheduled_cycle": true,
+    "full_all_board_scan": true,
+    "new_task_created_by_this_execution": false,
+    "project_board_verified": true,
+    "readiness_hashes_match": true,
+    "continue_preflight_ready_for_resume": true,
+    "work_quota_restoration_proven": false
   },
-  "checked_at": "2026-11-16T21:57:17.664Z",
-  "outcome": "in_progress",
+  "checked_at": "2026-11-16T21:58:38.303Z",
+  "outcome": "no_free_slot",
   "blocker": null,
-  "retryable": true
+  "retryable": true,
+  "next_action_unchanged": true,
+  "scan": {
+    "checked_at": "2026-11-16T21:58:38.303Z",
+    "complete": true,
+    "boards_scanned": 14,
+    "pages_scanned": 19,
+    "video_tasks_scanned": 678,
+    "status_counts": {
+      "success": 645,
+      "init": 6,
+      "fail": 27
+    },
+    "occupied_slots": 6,
+    "free_slots": 0,
+    "active_tasks": [
+      {
+        "task_id": "5d1f4fc1b4e548a7828892c73b672990",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "unlimited": true,
+        "credits_cost": 0,
+        "created_at": "2026-11-16 15:58:20",
+        "model": "qwen-wan3.0-video",
+        "duration": 30,
+        "resolution": 720,
+        "aspect_ratio": "16:9"
+      },
+      {
+        "task_id": "90db5dd309db477eb346e8d82676f7b5",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "unlimited": true,
+        "credits_cost": 0,
+        "created_at": "2026-11-15 15:11:23",
+        "model": "qwen-wan3.0-video",
+        "duration": 30,
+        "resolution": 720,
+        "aspect_ratio": "16:9"
+      },
+      {
+        "task_id": "425108630b0e48c9a4b299fc89ad88ee",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "unlimited": true,
+        "credits_cost": 0,
+        "created_at": "2026-11-14 21:32:24",
+        "model": "qwen-wan3.0-video",
+        "duration": 30,
+        "resolution": 720,
+        "aspect_ratio": "16:9"
+      },
+      {
+        "task_id": "bfdb6d9fad7a4ab29492f7bb95c78033",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "unlimited": true,
+        "credits_cost": 0,
+        "created_at": "2026-11-13 14:50:55",
+        "model": "seedance-2.0-style",
+        "duration": 15,
+        "resolution": 720,
+        "aspect_ratio": "16:9"
+      },
+      {
+        "task_id": "d775c7a483a44f13ba1704a1c418b208",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "unlimited": true,
+        "credits_cost": 0,
+        "created_at": "2026-11-12 10:55:38",
+        "model": "seedance-2.0-style",
+        "duration": 15,
+        "resolution": 720,
+        "aspect_ratio": "16:9"
+      },
+      {
+        "task_id": "8c6d92662d1043c7a651168b2b8280ae",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "unlimited": true,
+        "credits_cost": 0,
+        "created_at": "2026-11-11 19:59:15",
+        "model": "seedance-2.0-style",
+        "duration": 15,
+        "resolution": 720,
+        "aspect_ratio": "16:9"
+      }
+    ],
+    "all_six_unlimited": true,
+    "all_six_credits_cost": 0,
+    "queue_sha256": "320e162ad5111792f6af06124deba5c2bc6d684c39aa5f6a6e2ef68f4ab90d7f",
+    "task_map_sha256": "c97834ba98eefcdc8e8e8cd50c111c8f6381c2330c74fa92185a55282923f723",
+    "readiness_hashes_match": true
+  },
+  "peer_runtime": {
+    "ordinary_last_run": {
+      "id": "0b6bfb60-4740-8320-bb37-8e654d98f36c",
+      "recorded_status": "in_progress",
+      "scheduled_for": "2026-11-16T22:00:00Z",
+      "started_at": "2026-11-16T21:56:00.452113Z",
+      "completed_at": null,
+      "chat_ref": null
+    },
+    "ordinary_latest_result_run_id": "3fb99ce6-cf78-8329-9fed-87dabb9186c1",
+    "ordinary_receipt_run_id": "3fb99ce6-cf78-8329-9fed-87dabb9186c1",
+    "ordinary_receipt_outcome": "no_free_slot",
+    "ordinary_receipt_scan_complete": false,
+    "work_last_run": {
+      "id": "67073c4e-2604-832a-a3da-8edff5f0c329",
+      "recorded_status": "in_progress",
+      "scheduled_for": "2026-11-16T21:55:00Z",
+      "started_at": "2026-11-16T21:55:17.142930Z",
+      "completed_at": null,
+      "chat_ref": null
+    },
+    "work_latest_result_run_id": "eaf2fc43-fca8-8333-8e9d-6ae71e249f2e"
+  },
+  "maintenance": {
+    "monitor_role": "skip; robot primary healthy",
+    "canon_health": {
+      "status": "ok",
+      "warnings": 0,
+      "checked_at": "2026-11-16T19:09:43Z"
+    },
+    "self_heal": {
+      "status": "ok",
+      "changed_at": "2026-11-16T19:19:28Z"
+    },
+    "open_owner_tasks": 0,
+    "owner_decisions_live": "pending=0,in_progress=0; one historical needs_owner addressed to grok only",
+    "phases_a_b": "not_due_this_hour",
+    "phase_c": "not_due_tuesday"
+  }
 }
