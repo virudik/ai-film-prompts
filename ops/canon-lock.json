@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "state": "held",
-  "holder": "chatgpt:ordinary:278879ce-cfed-464c-81f5-cff248323c17",
-  "task": "Seregius hourly ordinary real capacity scan and receipt; no Create without full UI preflight, claim and intent",
-  "acquired_at": "2026-11-16T15:13:33.204Z",
-  "expires_at": "2026-11-16T15:38:33.204Z",
+  "holder": "chatgpt:ordinary:852dc69c-c2db-4854-903b-305b02e05b8f",
+  "task": "Seregius scheduled ordinary: reconcile completed TinyFish S89C preflight, fresh slot scan and final receipt; no Create",
+  "acquired_at": "2026-11-16T15:43:40.754Z",
+  "expires_at": "2026-11-16T15:55:40.754Z",
   "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
