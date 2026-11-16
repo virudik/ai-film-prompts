@@ -2,6 +2,20 @@
 
 Новые сверху. Дословные разделы, убранные из `reports/current-work-checkpoint.md` при недельной чистке.
 
+# 14.11.2026 — D7 ordinary: проверка очереди и передача смены
+
+work_id: SEREGIUS-SHIFT-20261113-T611U
+
+- Полный приём D7 из свежего GitHub main: 15/15 якорей и SHA256 всех 8 канонических источников совпали; после изменения очереди относительно старого recovery выбран полный приём. Resume focus сохранён (SEREGIUS-SHIFT-20261113-T611U); 7 инструкций прочитаны, master байты проверены через blob.
+- Живые источники: проект health=ok, монитор primary=robot, Topview снимок 2026-11-14T18:10:27Z: занято 5/6, свободно 1; очередь t601u: S48-P4-R2 и S51E/F/G уже submitted, в работе. S89A-WAN30 — следующий разрешённый waiting_for_slot/authorized_inputs_available, пять референсов; текущий чат не создавал новые задачи, не менял очереди и не тратил кредиты.
+- Capability preflight текущего обычного чата: Browser.list_tabs требует originating browser context; соединение с авторизованной формой Topview, проверка native file upload и Unlimited0/price0 здесь невозможны. Последний независимый полный скан Relay #674 (2026-11-14T18:10:27Z) также blocked_browser. claim/intent/Create=0; неизвестные отправки и уже выданные task_id сохраняются.
+- Проверены живые GitHub owner-tasks: open/taken/needs_owner=0; Supabase owner_decisions: новых pending/in_progress нет, историческая needs_owner to:grok отдельно. Scene 88 ждёт художественную оценку; PR 369–371 не трогать.
+- Принята foreground ordinary-смена epoch 5→6 (session_id локальный, реальный conversation ID недоступен). Work/Grok, расписания, route_generation и старые claims не менялись. Следующий шаг: только в новом реально авторизованном браузерном исполнении снова полный скан, точные исходники и UI Unlimited0, затем собственный замок/CAS, один Create для следующего ещё не отправленного item. Без этих доказательств — никакого Create.
+
+checked_at: 2026-11-14T18:43:19.304Z
+
+---
+
 # 14.11.2026 — исправление учёта уже запущенных 51E/F/G (не новый Create)
 
 work_id: SEREGIUS-SHIFT-20261113-T611U
