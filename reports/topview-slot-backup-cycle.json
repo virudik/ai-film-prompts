@@ -11,12 +11,12 @@
   "route_generation": 3,
   "source_head": "ae7816e95da586d5b8a58df9766404adeff0c01d",
   "started_at": "2026-11-16T14:16:53.119Z",
-  "updated_at": "2026-11-16T14:17:46.955Z",
-  "phase": "started",
-  "status": "in_progress",
+  "updated_at": "2026-11-16T14:20:05.300Z",
+  "phase": "finished",
+  "status": "completed",
   "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
   "task_ids": [],
   "new_submissions": 0,
@@ -34,14 +34,16 @@
     "acquired_at": "2026-11-16T14:16:53.119Z",
     "expires_at": "2026-11-16T14:28:53.119Z",
     "verified_start_readback": true,
-    "released": false
+    "released": true,
+    "released_at": "2026-11-16T14:20:05.300Z",
+    "lock_outcome": "released_atomically_with_final_receipt"
   },
-  "outcome": null,
-  "blocker": null,
-  "retryable": null,
+  "outcome": "no_free_slot",
+  "blocker": "global_video_slots_6_of_6",
+  "retryable": true,
   "acceptance": {
     "scheduled_cycle": true,
-    "topview_read_only_capacity_verified": false,
+    "topview_read_only_capacity_verified": true,
     "tinyfish_authenticated_control_verified_this_cycle": false,
     "tinyfish_file_transfer_verified": false,
     "unlimited0_submission_preflight_verified": false,
@@ -51,5 +53,49 @@
   "previous_receipt": {
     "execution_instance_id": "d9331b70-ce1e-4a38-baa4-c9b8b2108c8b",
     "outcome": "no_free_slot"
+  },
+  "checked_at": "2026-11-16T14:20:00.166Z",
+  "scan": {
+    "scope": "Read-only My First Board page 1/100 confirms six active videos. 14 boards listed; no full account-wide scan because verified global 6/6",
+    "complete": false,
+    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "board_video_total": 510,
+    "board_video_page": 1,
+    "board_video_scanned": 100,
+    "checked_at": "2026-11-16T14:20:00.166Z",
+    "active_task_ids": [
+      "90db5dd309db477eb346e8d82676f7b5",
+      "425108630b0e48c9a4b299fc89ad88ee",
+      "bfdb6d9fad7a4ab29492f7bb95c78033",
+      "d775c7a483a44f13ba1704a1c418b208",
+      "8c6d92662d1043c7a651168b2b8280ae",
+      "1dcb6fa0628d41b098227ca6c96f1630"
+    ],
+    "active_status": "init",
+    "active_unlimited_count": 6,
+    "active_zero_credits_count": 6,
+    "capacity_evidence": "Topview direct read-only board tasks"
+  },
+  "next_ready_item": "S89C-WAN30",
+  "queue_pending_claim_count": 0,
+  "queue_items_count": 41,
+  "readiness_items_count": 25,
+  "sha_independently_recomputed": false,
+  "preferred_executor_snapshot": "work",
+  "peer_runtime": {
+    "relay_last_run_id": "2bc4e4c6-bc54-8331-9dc9-b54bd7946ebd",
+    "work_hourly_last_run_id": "4fa9ac52-b69c-8325-9822-2aada8d8a547",
+    "work_hourly_enabled": false,
+    "ordinary_runtime_run_id": "03c2a587-5700-832a-af1b-744ee729594d"
+  },
+  "telemetry": {
+    "robot_automation_monitor_last_checked_at": "2026-11-16T13:50:36Z",
+    "last_issue_topview_slot_wake": 714,
+    "last_issue_updated_at": "2026-11-15T22:05:08Z",
+    "last_issue_is_test": true,
+    "full_all_board_scan_not_performed": true,
+    "owner_tasks_open_count": 0,
+    "readiness_source_queue_sha256": "279c32b30084ea0ec65477e6a5126379e5e6641806b5d63910b4615e1d63f83e",
+    "readiness_source_task_map_sha256": "de04ae6abacffcd034becd190b842ce6ffbd373b317782a6107f7b3ac1d96803"
   }
 }
