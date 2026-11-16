@@ -11,9 +11,9 @@
   "route_generation": 3,
   "source_head": "08d966584617869e5ddc2df700b863ca4fb5515e",
   "started_at": "2026-11-16T06:08:38.778Z",
-  "updated_at": "2026-11-16T06:09:24.162Z",
-  "phase": "started",
-  "status": "running",
+  "updated_at": "2026-11-16T06:11:44.714Z",
+  "phase": "finished",
+  "status": "completed",
   "scan_complete": false,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -34,10 +34,11 @@
     "acquired_at": "2026-11-16T06:08:38.778Z",
     "expires_at": "2026-11-16T06:18:38.778Z",
     "verified_start_readback": true,
-    "lock_outcome": "held",
-    "released": false
+    "lock_outcome": "released_atomically_with_final_receipt",
+    "released": true,
+    "released_at": "2026-11-16T06:11:44.714Z"
   },
-  "outcome": "capacity_observed_no_free_slot",
+  "outcome": "no_free_slot",
   "blocker": "global_video_slots_6_of_6",
   "retryable": true,
   "acceptance": {
@@ -49,9 +50,9 @@
     "topview_new_task_id_confirmed": false,
     "production_tinyfish_end_to_end_verified": false
   },
-  "checked_at": "2026-11-16T06:09:24.162Z",
+  "checked_at": "2026-11-16T06:11:44.714Z",
   "scan": {
-    "source": "Topview connector direct read-only My First Board latest 100 video tasks; 14 boards listed; fresh queue/readiness; GitHub wake issues",
+    "source": "Topview connector read-only My First Board latest 100 video tasks, 14 boards listed; GitHub queue/readiness, owner tasks, wake issues and telemetry",
     "boards_scanned": 1,
     "boards_listed": 14,
     "pages_scanned": 1,
@@ -74,16 +75,18 @@
     "open_claims": 0,
     "readiness_items": 25,
     "sha256_independently_verified": false,
-    "readiness_checked_at": "2026-11-16T05:00:40Z",
+    "readiness_checked_at": "2026-11-16T06:00:42.842133Z",
     "open_owner_tasks": 0,
-    "monitor_telemetry": "path_unresolved_in_repository",
-    "event_wake_last_checked_at": "2026-11-15T22:13:19.985Z"
+    "monitor_telemetry": "automation-monitor-status.json read; topview-status.json 2026-11-16T06:00:33Z",
+    "event_wake_last_checked_at": "2026-11-15T22:13:19.985Z",
+    "live_topview_checked_at": "2026-11-16T06:11:00.923Z",
+    "wake_issues_open": 4
   },
   "peer_runtime": {
     "relay_last_run_id": "2bc4e4c6-bc54-8331-9dc9-b54bd7946ebd",
     "work_hourly_last_run_id": "4fa9ac52-b69c-8325-9822-2aada8d8a547",
     "work_hourly_enabled": false,
-    "ordinary_runtime_run_id": "0332f584-6d90-8329-a658-30e741846371"
+    "ordinary_runtime_run_id": "b7d1062a-fd74-8320-a29d-3bb7071fa653"
   },
   "next_ready_item": "S89C-WAN30",
   "reconciled_existing_task_ids": [
