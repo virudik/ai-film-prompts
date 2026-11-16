@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "source_queue_sha256": "6939a88c909ef71b85daa03e87bcc3814bba2cc24aedc7a0879ea6341ef77e71",
-  "source_task_map_sha256": "0c06ef591c21306a6cc9faa4981e9865b0a4dfe2f2e0f2fdef6c479439f4fcae",
-  "topview_checked_at": "2026-11-16T05:00:40Z",
+  "source_task_map_sha256": "932a9e924a17c7030bff8344f42ad3ce436e3fd66aaf1d3b87e5c9a6bc2f05d5",
+  "topview_checked_at": "2026-11-16T06:00:33Z",
   "items": [
     {
       "id": "S13-S13",
@@ -231,5 +231,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-16T05:00:51.583118Z"
+  "checked_at": "2026-11-16T06:00:42.842133Z"
 }
