@@ -11,33 +11,118 @@
   "route_generation": 3,
   "source_head": "48ec3db10eb44dae609ef40a4edae0edc4e4d1c8",
   "started_at": "2026-11-16T17:59:01.245Z",
-  "updated_at": "2026-11-16T17:59:58.655Z",
-  "checked_at": null,
-  "phase": "started",
-  "status": "in_progress",
-  "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
+  "updated_at": "2026-11-16T18:07:17.029Z",
+  "checked_at": "2026-11-16T18:07:17.029Z",
+  "phase": "completed",
+  "status": "no_free_slot",
+  "scan_complete": true,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
-  "task_ids": [],
+  "task_ids": [
+    "5d1f4fc1b4e548a7828892c73b672990",
+    "90db5dd309db477eb346e8d82676f7b5",
+    "425108630b0e48c9a4b299fc89ad88ee",
+    "bfdb6d9fad7a4ab29492f7bb95c78033",
+    "d775c7a483a44f13ba1704a1c418b208",
+    "8c6d92662d1043c7a651168b2b8280ae"
+  ],
   "new_submissions": 0,
   "topview_credits_spent": 0,
-  "browser_transport": "not_used",
+  "browser_transport": "not_used_full_capacity",
   "lease": {
     "holder": "chatgpt:work:0877152a-a035-454a-a03a-8c5f56168940",
     "acquired_at": "2026-11-16T17:59:01.245Z",
-    "expires_at": "2026-11-16T18:09:01.245Z",
+    "expires_at": "2026-11-16T18:17:21.755Z",
     "acquired_commit": "48ec3db10eb44dae609ef40a4edae0edc4e4d1c8",
     "released": false,
     "released_at": null
   },
-  "outcome": null,
+  "outcome": "no_free_slot",
   "blocker": null,
-  "retryable": null,
+  "retryable": false,
   "monitor_role_check": {
     "action": "skip",
-    "reason": "robot primary has a verified healthy cycle at 2026-11-16T17:50:49Z (within 180-minute threshold); live-main equivalent check",
+    "reason": "standby; primary last verified (or owner role set) 13/180 min ago",
     "primary": "robot",
-    "telemetry_write_performed": false
+    "runner": "chatgpt",
+    "primary_age_minutes": 12.9,
+    "swapped": false,
+    "telemetry_write_performed": false,
+    "command": "python3 scripts/monitor_role.py . --me chatgpt --dry-run on fresh main"
+  },
+  "scan": {
+    "checked_at": "2026-11-16T18:07:17.029Z",
+    "complete": true,
+    "boards_scanned": 14,
+    "pages_scanned": 19,
+    "video_tasks_scanned": 678,
+    "status_counts": {
+      "success": 645,
+      "init": 6,
+      "fail": 27
+    },
+    "occupied_slots": 6,
+    "free_slots": 0,
+    "active_task_ids": [
+      "5d1f4fc1b4e548a7828892c73b672990",
+      "90db5dd309db477eb346e8d82676f7b5",
+      "425108630b0e48c9a4b299fc89ad88ee",
+      "bfdb6d9fad7a4ab29492f7bb95c78033",
+      "d775c7a483a44f13ba1704a1c418b208",
+      "8c6d92662d1043c7a651168b2b8280ae"
+    ],
+    "all_six_unlimited": true,
+    "all_six_credits_cost": 0,
+    "queue_sha256": "320e162ad5111792f6af06124deba5c2bc6d684c39aa5f6a6e2ef68f4ab90d7f",
+    "task_map_sha256": "178dc4ba5b34fb24d8a161b926805258927a5e9ee7961b2f1f53b548521890a8",
+    "readiness_hashes_match": true
+  },
+  "maintenance_phases": {
+    "a": {
+      "status": "completed",
+      "self_heal": "ok",
+      "project_status": {
+        "health": "ok",
+        "synced_at": "2026-11-16T17:50:49Z",
+        "fresh_under_40_minutes": true
+      },
+      "canon_health": {
+        "status": "warn",
+        "warnings": 1,
+        "info": 4,
+        "cleanup_command": "python3 scripts/trim_service_files.py . --write",
+        "cleanup_result": "no eligible records; service-file-size warning remains"
+      },
+      "owner_tasks_open": 0,
+      "claude_open_over_3h": 0
+    },
+    "b": {
+      "status": "completed",
+      "gmail_search_ids": 278,
+      "unique_messages_read": 287,
+      "pages": 3,
+      "mailbox_mutated": false,
+      "current_failure": false,
+      "resolved_run_ids": [
+        43924033697,
+        43923342589,
+        43707240081,
+        43922721586
+      ]
+    },
+    "c": {
+      "status": "not_due_monday"
+    }
+  },
+  "peer_reconciliation": {
+    "ordinary_actual_last_run_id": "9aae852c-6b68-8323-b948-b2147069fb8c",
+    "ordinary_latest_result_run_id": "9aae852c-6b68-8323-b948-b2147069fb8c",
+    "ordinary_receipt_run_id": "9aae852c-6b68-8323-b948-b2147069fb8c",
+    "match": true
+  },
+  "work_recovery": {
+    "route_changed": false,
+    "reason": "no new direct Work quota/GUI evidence in this cycle"
   }
 }
