@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:d52a0ae1-d360-4473-9b80-a18da6d52090",
-  "task": "Repair canon health: safely archive old resume history; no launch",
-  "acquired_at": "2026-11-16T19:08:01.689Z",
-  "expires_at": null,
-  "released_at": "2026-11-16T19:08:59.323Z",
+  "state": "held",
+  "holder": "chatgpt:work:6893a89a-f642-4f13-bd9e-667f7a29a007",
+  "task": "HH:55 Seregius: full Topview slot scan and canon-health follow-up",
+  "acquired_at": "2026-11-16T19:57:50.122Z",
+  "expires_at": "2026-11-16T20:42:50.122Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
