@@ -11,8 +11,8 @@
   "route_generation": 3,
   "source_head": "fafd6bfac95751f68ca63de7baf9b7bcb3a9a2aa",
   "started_at": "2026-11-16T15:13:33.204Z",
-  "updated_at": "2026-11-16T15:14:06.090Z",
-  "phase": "started",
+  "updated_at": "2026-11-16T15:22:53.668Z",
+  "phase": "preflight_tinyfish_running",
   "status": "in_progress",
   "scan_complete": true,
   "occupied_slots": 5,
@@ -21,13 +21,18 @@
   "task_ids": [],
   "new_submissions": 0,
   "topview_credits_spent": 0,
-  "browser_transport": "not_used",
+  "browser_transport": "TinyFish saved Topview profile",
   "tinyfish": {
-    "run_ids": [],
-    "steps": 0,
-    "estimated_cost_usd": 0,
-    "confirmed_cost_usd": 0,
-    "performed": false
+    "run_ids": [
+      "f3474b8d-9e7c-45a2-974e-38aaaf59a493"
+    ],
+    "steps": null,
+    "estimated_cost_usd": null,
+    "maximum_cost_usd": 0.49,
+    "confirmed_cost_usd": null,
+    "performed": true,
+    "wallet_balance_before_usd": 9.424,
+    "auto_reload_state": "unconfigured"
   },
   "lease": {
     "holder": "chatgpt:ordinary:278879ce-cfed-464c-81f5-cff248323c17",
@@ -36,7 +41,7 @@
     "verified_start_readback": true,
     "released": false
   },
-  "outcome": "scanned_one_free_slot_preflight_pending",
+  "outcome": "preflight_browser_pending",
   "blocker": null,
   "retryable": true,
   "acceptance": {
