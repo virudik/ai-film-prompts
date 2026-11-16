@@ -4,16 +4,15 @@
   "source": "ChatGPT scheduled ordinary",
   "runner": "chatgpt_scheduled_task",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "run_id": null,
-  "runtime_run_id_source": null,
-  "run_id_unavailable_reason": "Current automation runtime run ID was not exposed by the available scheduler status; execution_instance_id is not runtime run ID.",
-  "execution_instance_id": "0b0bcd00-cc37-4819-897b-b816e5016f4c",
+  "run_id": "3fb99ce6-cf78-8329-9fed-87dabb9186c1",
+  "runtime_run_id_source": "Automations.peek current last_run.id with scheduled_for 2026-11-16T21:00:00Z and status in_progress",
+  "execution_instance_id": "7133953f-2a7b-43a8-8094-e91613338074",
   "route_generation": 3,
-  "source_head": "874708a2ecb6eb192bb4e589645396bfd6ad4bc5",
-  "started_at": "2026-11-16T20:03:05.012Z",
-  "updated_at": "2026-11-16T20:05:24.119Z",
-  "phase": "completed",
-  "status": "no_free_slot",
+  "source_head": "d2f256341fbe3c05cf609cde6f1bfecb0d1f3441",
+  "started_at": "2026-11-16T21:03:40.914937Z",
+  "updated_at": "2026-11-16T21:09:55.664Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan_complete": false,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -31,16 +30,15 @@
     "create_clicked": false
   },
   "lease": {
-    "holder": "chatgpt:ordinary:0b0bcd00-cc37-4819-897b-b816e5016f4c",
-    "acquired_at": "2026-11-16T20:03:05.012Z",
-    "expires_at": "2026-11-16T20:10:05.012Z",
+    "holder": "chatgpt:ordinary:7133953f-2a7b-43a8-8094-e91613338074",
+    "acquired_at": "2026-11-16T21:09:08.018Z",
+    "expires_at": "2026-11-16T21:18:08.018Z",
     "verified_start_readback": true,
-    "released": true,
-    "released_at": "2026-11-16T20:05:24.119Z"
+    "released": false
   },
   "previous_receipt": {
-    "execution_instance_id": "d52a0ae1-d360-4473-9b80-a18da6d52090",
-    "updated_at": "2026-11-16T19:01:59.259Z",
+    "execution_instance_id": "0b0bcd00-cc37-4819-897b-b816e5016f4c",
+    "updated_at": "2026-11-16T20:05:24.119Z",
     "outcome": "no_free_slot"
   },
   "acceptance": {
@@ -53,56 +51,8 @@
     "production_tinyfish_end_to_end_verified": false,
     "latest_s89c_task_id_independently_verified": true
   },
-  "checked_at": "2026-11-16T20:04:31.420Z",
-  "outcome": "no_free_slot",
+  "checked_at": "2026-11-16T21:09:55.664Z",
+  "outcome": "in_progress",
   "blocker": null,
-  "retryable": true,
-  "next_action_unchanged": true,
-  "queue_items_count": 35,
-  "queue_pending_claim_count": 0,
-  "owner_tasks_open_count": 0,
-  "sha_independently_recomputed": false,
-  "scan": {
-    "scope": "Topview read-only: 14 editable boards enumerated; 100 most recent video tasks on My First Board (511 total). Full all-board paging skipped because six active physical video slots already confirmed.",
-    "complete": false,
-    "checked_at": "2026-11-16T20:04:31.420Z",
-    "boards_listed": 14,
-    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-    "video_tasks_scanned": 100,
-    "board_video_total": 511,
-    "occupied_slots": 6,
-    "free_slots": 0,
-    "active_task_ids": [
-      "5d1f4fc1b4e548a7828892c73b672990",
-      "90db5dd309db477eb346e8d82676f7b5",
-      "425108630b0e48c9a4b299fc89ad88ee",
-      "bfdb6d9fad7a4ab29492f7bb95c78033",
-      "d775c7a483a44f13ba1704a1c418b208",
-      "8c6d92662d1043c7a651168b2b8280ae"
-    ],
-    "all_six_unlimited": true,
-    "all_six_credits_cost": 0,
-    "queue_sha_checked_against_readiness": false,
-    "queue_current_items_count": 35,
-    "readiness_items_count": 24,
-    "priority_next_ready_item": "S89D-WAN30",
-    "known_historical_wake": "TOPVIEW_SLOT_WAKE_V2 free1 superseded by fresh six-active scan"
-  },
-  "peer_verified_submission": {
-    "item_id": "S89C-WAN30",
-    "task_id": "5d1f4fc1b4e548a7828892c73b672990",
-    "created_by_this_execution": false,
-    "status": "init",
-    "unlimited": true,
-    "credits_cost": 0,
-    "artistic_acceptance": false
-  },
-  "peer_runtime": {
-    "ordinary_automation_enabled": true,
-    "work_hourly_enabled": true,
-    "relay_enabled": true,
-    "work_restore_not_changed": true,
-    "run_ids_unavailable_in_this_cycle": true
-  },
-  "owner_tasks_note": "Read ops/owner-tasks.json: no open or taken owner tasks."
+  "retryable": true
 }
