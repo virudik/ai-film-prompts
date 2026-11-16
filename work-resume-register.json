@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-16T15:59:55+00:00",
+  "last_updated_at": "2026-11-16T18:06:45.574Z",
   "active_work": [
     {
       "work_id": "SEREGIUS-SHIFT-20261113-T611U",
@@ -143,53 +143,77 @@
       "automation_schedule": "hourly HH:55 Europe/Moscow",
       "new_automations": 0,
       "last_phase_ab_check": {
-        "checked_at": "2026-11-15T12:02:06Z",
-        "cycle": "14:55 Europe/Moscow",
+        "checked_at": "2026-11-16T18:06:45.574Z",
+        "cycle": "20:55 Europe/Moscow",
         "self_heal": "ok",
         "owner_tasks_open": 0,
         "owner_tasks_taken": 0,
         "claude_open_over_3h": 0,
         "project_status": {
           "health": "ok",
-          "synced_at": "2026-11-15T11:50:31Z",
+          "synced_at": "2026-11-16T17:50:49Z",
           "fresh_under_40_minutes": true,
           "instruction_health": "ok"
         },
         "canon_health": {
-          "status": "ok",
-          "checked_at": "2026-11-15T11:06:32Z",
-          "warnings": 0,
-          "info": 18
+          "status": "warn",
+          "checked_at": "2026-11-16T16:03:28Z",
+          "warnings": 1,
+          "info": 4,
+          "cleanup_attempted": "python3 scripts/trim_service_files.py . --write",
+          "cleanup_result": "no eligible records; work-resume-register.json remains 102893 bytes and warning remains"
         },
-        "gmail_query": "from:notifications@github.com virudik/ai-film-prompts newer_than:7d",
-        "gmail_results": 27,
+        "gmail_query": "from:notifications@github.com \"virudik/ai-film-prompts\" after:2026/11/14 -in:spam -in:trash",
+        "gmail_search_ids": 278,
+        "gmail_unique_messages_read": 287,
+        "gmail_pages": 3,
         "gmail_all_pages": true,
         "gmail_next_page_token": null,
         "gmail_state_unchanged": true,
         "mailbox_mutated": false,
-        "coverage_from": "2026-11-08T12:00:00Z",
+        "coverage_from": "2026-11-14T12:02:06Z",
         "overlap_hours": 24,
-        "new_messages": [],
-        "action_jobs_verified": {
-          "owner_repair_verification": {
+        "failure_signals": [
+          {
+            "workflow": "Canon health (stale, oversized and broken canon parts)",
+            "message_id": "<virudik/ai-film-prompts/check-suites/CS_kwDOUdbzfM8AAAAbrCijFw/1794845016@github.com>",
+            "failed_run_id": 43903117248,
+            "resolved_by_run_id": 43924033697,
+            "resolution": "success"
+          },
+          {
+            "workflow": "Archive successful Topview videos to Drive (private backup)",
+            "failed_messages": 214,
+            "latest_failed_run_id": 43704778423,
+            "resolved_by_run_id": 43923342589,
+            "resolution": "success"
+          },
+          {
+            "workflow": "Owner repair verification 2026-11-15",
             "failed_run_ids": [
               43706578575,
               43706943000,
               43707033456
             ],
+            "resolved_by_run_id": 43707240081,
+            "resolution": "success"
+          }
+        ],
+        "action_jobs_verified": {
+          "canon_health_current": {
+            "run_id": 43924033697,
+            "conclusion": "success"
+          },
+          "archive_video_current": {
+            "run_id": 43923342589,
+            "conclusion": "success"
+          },
+          "owner_repair_verification": {
             "run_id": 43707240081,
             "conclusion": "success"
           },
-          "archive_video": {
-            "run_id": 43711212558,
-            "conclusion": "success"
-          },
-          "canon_health_current": {
-            "run_id": 43711034230,
-            "conclusion": "success"
-          },
-          "pages": {
-            "run_id": 43711103170,
+          "pages_current_success": {
+            "run_id": 43922721586,
             "conclusion": "success"
           }
         },
@@ -198,34 +222,34 @@
           "repair_performed": false,
           "blind_rerun_performed": false
         },
-        "monitor_role": "skip: standby; primary last verified 5/180 min ago; robot heartbeat not imitated",
-        "result": "GitHub notification failures were historical and resolved by later successful runs; current project, self-heal and canon health are healthy."
+        "monitor_role": "skip: standby; primary robot last verified 13/180 min ago; exact scripts/monitor_role.py --dry-run on fresh main; robot heartbeat not imitated",
+        "result": "All GitHub failure notifications in coverage are historical and resolved by later successful runs. Self-heal and project status are healthy. Canon health remains warn because the standard trim found no eligible records for the 102893-byte resume register."
       },
       "last_topview_scan": {
-        "checked_at": "2026-11-05T18:56:51.876Z",
+        "checked_at": "2026-11-16T18:06:45.574Z",
         "complete": true,
         "boards": 14,
-        "pages": 18,
-        "video_tasks": 628,
+        "pages": 19,
+        "video_tasks": 678,
         "status_counts": {
-          "success": 599,
+          "success": 645,
           "init": 6,
-          "fail": 23
+          "fail": 27
         },
         "occupied_slots": 6,
         "free_slots": 0,
         "active_task_ids": [
-          "365cf639589a4a5da834d70193d5e8f6",
-          "be960f5e3bf54563aff663fed9da8906",
-          "de8e44bb15d64dc7a4eb640d27a726e4",
-          "431180d384cc43bebe7afc702e4eb4e6",
-          "22dbd25cdd9f47cd9e44300e55f5e44f",
-          "c72c1ab4524e4f2f9d3a0272474f788a"
+          "5d1f4fc1b4e548a7828892c73b672990",
+          "90db5dd309db477eb346e8d82676f7b5",
+          "425108630b0e48c9a4b299fc89ad88ee",
+          "bfdb6d9fad7a4ab29492f7bb95c78033",
+          "d775c7a483a44f13ba1704a1c418b208",
+          "8c6d92662d1043c7a651168b2b8280ae"
         ],
-        "queue_sha256": "b425fd314f9f2404926b5b67c525e9fd6f3c8e9c23bd059f7b7a3440b2c51d05",
-        "task_map_sha256": "5086974231a01ae37ae2a084460d19f0709e1301028efad7964619eedba34497",
+        "queue_sha256": "320e162ad5111792f6af06124deba5c2bc6d684c39aa5f6a6e2ef68f4ab90d7f",
+        "task_map_sha256": "178dc4ba5b34fb24d8a161b926805258927a5e9ee7961b2f1f53b548521890a8",
         "readiness_hashes_match": true,
-        "submitted_task_ids_verified": 13,
+        "submitted_task_ids_verified": 11,
         "unknown_submissions": 0
       },
       "last_relay_event": {
@@ -421,15 +445,12 @@
       "completed_archived_points": 38,
       "completed_archive": "archive/work-resume-register-archive.json",
       "last_canon_cleanup": {
-        "checked_at": "2026-11-15T12:02:06Z",
+        "checked_at": "2026-11-16T18:06:45.574Z",
         "mode": "root-only",
-        "queue_items_archived": [
-          "S49C"
-        ],
-        "checkpoint_sections_archived": 2,
-        "register_points_archived": 0,
-        "relay_events_archived": 0,
-        "archive_integrity": "existing checkpoint archive preserved byte-for-byte as suffix; two sections prepended"
+        "command": "python3 scripts/trim_service_files.py . --write",
+        "result": "no eligible records",
+        "register_bytes": 102893,
+        "warning_remaining": "service-file-size"
       },
       "last_verified_submission": {
         "item_id": "S63-WAN30",
@@ -560,36 +581,37 @@
         "report": "reports/topview-quality-2026-11-03/S62-SEED20-P1-0de1f663-review.json"
       },
       "last_hourly_cycle": {
-        "checked_at": "2026-11-05T18:56:51.876Z",
-        "cycle": "21:55 Europe/Moscow",
-        "runtime_run_id": "40609a23-c130-8328-a33e-9e4526e0a4f3",
-        "execution_instance_id": "2aaaeffb-2222-400b-aea4-5c374c3ea955",
+        "checked_at": "2026-11-16T18:06:45.574Z",
+        "cycle": "20:55 Europe/Moscow",
+        "runtime_run_id": "5653d121-207c-8324-8416-0e82c56885a6",
+        "execution_instance_id": "0877152a-a035-454a-a03a-8c5f56168940",
         "route_generation": 3,
         "outcome": "no_free_slot",
         "new_submissions": 0,
         "credits_spent": 0,
         "phases": {
-          "a": "not_due",
-          "b": "not_due",
-          "c": "not_due_thursday"
+          "a": "completed",
+          "b": "completed",
+          "c": "not_due_monday"
         },
         "owner_tasks_open": 0,
         "canon_health": {
-          "status": "ok",
-          "warnings": 0,
-          "info": 10,
-          "checked_at": "2026-11-05T18:55:10Z"
+          "status": "warn",
+          "warnings": 1,
+          "info": 4,
+          "checked_at": "2026-11-16T16:03:28Z",
+          "cleanup": "attempted_no_eligible_records"
         }
       },
       "last_peer_reconciliation": {
-        "checked_at": "2026-11-05T18:56:51.876Z",
-        "ordinary_actual_last_run_id": "b5a6ed68-7d90-8327-83c7-9da03f1330b3",
+        "checked_at": "2026-11-16T18:06:45.574Z",
+        "ordinary_actual_last_run_id": "9aae852c-6b68-8323-b948-b2147069fb8c",
         "ordinary_status": "completed",
-        "ordinary_latest_result_run_id": "b5a6ed68-7d90-8327-83c7-9da03f1330b3",
-        "ordinary_receipt_run_id": "b5a6ed68-7d90-8327-83c7-9da03f1330b3",
+        "ordinary_latest_result_run_id": "9aae852c-6b68-8323-b948-b2147069fb8c",
+        "ordinary_receipt_run_id": "9aae852c-6b68-8323-b948-b2147069fb8c",
         "actual_latest_match": true,
         "canonical_receipt_match": true,
-        "current_work_actual_run_id": "40609a23-c130-8328-a33e-9e4526e0a4f3"
+        "current_work_actual_run_id": "5653d121-207c-8324-8416-0e82c56885a6"
       },
       "recovery_history_archived_points": 3,
       "recovery_history_archive": "archive/work-resume-register-archive.json",
