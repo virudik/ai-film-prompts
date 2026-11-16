@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "item_id": "S89C-WAN30",
+  "outcome": "submitted",
+  "task_id": "5d1f4fc1b4e548a7828892c73b672990",
+  "submitted_at": "2026-11-16T15:58:20Z",
+  "checked_at": "2026-11-16T15:59:03.424Z",
+  "create_click_count": 1,
+  "credits_spent": 0,
+  "numeric_zero_displayed": false,
+  "ui_unlimited_label": "Безлимитный режим — бесплатно",
+  "credits_cost_evidence": "selected_free_unlimited_current_form",
+  "browser": "own cloud browser; no TinyFish",
+  "canonical_prompt_sha256": "dadffbca0dacdf9006b986289d55b92863b2ff1e59488737fc920fa837f486aa",
+  "normalized_prompt_sha256": "2d1ff747bd92959093590322b2b20e2a5305d18c6ea3282253505ce2c57a20ec",
+  "full_prompt_match": true,
+  "references": [
+    {
+      "slot": "@Image1",
+      "path": "references/scenes/scene-13/S13-Image1-topview-source.png",
+      "required": true,
+      "input_status": "available",
+      "sha256": "7604d92708048afbb6bcfbdd23edb555ccc52cf7492f4be62085a394f36e0cda",
+      "provenance_substitute": "scene-13 task 73cf9e84",
+      "note": "Scene-13 provenance substitute for 6d69acda/88140b94. Same s3 path; local PNG may differ from the original JPEG on Image1."
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/scenes/scene-13/S13-Image2-topview-source.png",
+      "required": true,
+      "input_status": "available",
+      "sha256": "e9b5613886641887dd222097eb32d0a702e5f46aa10fa4a69ebc66e37c257b97",
+      "provenance_substitute": "scene-13 task 73cf9e84",
+      "note": "Scene-13 provenance substitute for 6d69acda/88140b94. Same s3 path; local PNG may differ from the original JPEG on Image1."
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/scenes/scene-13/S13-Image3-topview-source.png",
+      "required": true,
+      "input_status": "available",
+      "sha256": "b98957a9bf41db22403cbdcc6b8a6bc61537055e869a6a75576e416e4810635e",
+      "provenance_substitute": "scene-13 task 73cf9e84",
+      "note": "Scene-13 provenance substitute for 6d69acda/88140b94. Same s3 path; local PNG may differ from the original JPEG on Image1."
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/full/vitalik.jpg",
+      "required": true,
+      "input_status": "available",
+      "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d"
+    },
+    {
+      "slot": "@Image5",
+      "path": "references/full/lesha.jpg",
+      "required": true,
+      "input_status": "available",
+      "sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9"
+    }
+  ],
+  "reference_sha_and_order_verified": true,
+  "ui_prompt_exact_match": true,
+  "claim_before_submission": {
+    "claim_id": "d6358ce7-e5fa-48ca-a195-012252eb23f3",
+    "execution_instance_id": "74ae9e21-7e4e-4190-a75e-a3666126d4d8",
+    "route_generation": 3,
+    "source_sha": "9b0db1678b3420b342b8fdef51744ee73a6ac916",
+    "claimed_at": "2026-11-16T15:56:24Z",
+    "lease_holder": "chatgpt:ordinary:74ae9e21-7e4e-4190-a75e-a3666126d4d8",
+    "lease_acquired_at": "2026-11-16T15:52:21.039Z",
+    "preflight": {
+      "owner_authorized": true,
+      "prompt_match": true,
+      "input_sha_match": true,
+      "input_order_match": true,
+      "qc_passed": true,
+      "website_unlimited": true,
+      "credits_cost": 0,
+      "quantity": 1,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "numeric_zero_displayed": false,
+      "unlimited_mode_selected": true,
+      "ui_unlimited_label": "Безлимитный режим — бесплатно",
+      "credits_cost_evidence": "selected_free_unlimited_current_form",
+      "model": "qwen-wan3.0-video",
+      "duration": 30
+    },
+    "coordination_version": 2,
+    "submission_intent_id": "97efe05d-4aec-4cdf-b2e5-09c92f102af8",
+    "submission_intent_at": "2026-11-16T15:57:12Z",
+    "replay_forbidden": true,
+    "intent_payload_sha256": "6580d9b86da70dc975578d86f14b058b6e3344721bf92b2967ceeb68a2801e9e"
+  },
+  "evidence": {
+    "task": {
+      "boardTaskId": "5d1f4fc1b4e548a7828892c73b672990",
+      "boardId": "1a6244cf1ae747ef847d949a80d6133c",
+      "sortWeight": 788,
+      "uid": "FGlyiGi4FG26kZmpCiUH",
+      "userName": "Виталик Рудик",
+      "toolType": "video-edit",
+      "toolCategory": "video",
+      "status": "init",
+      "mediaType": "video",
+      "rating": 0,
+      "parameters": {
+        "taskType": "videoEdit",
+        "modelId": "qwen-wan3.0-video",
+        "modelName": "Wan 3.0",
+        "resolution": 720,
+        "duration": 30,
+        "inputImages": [
+          {
+            "inputImageResourceId": null,
+            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/8NH5rHFmEFuDoZwMilJDO.png",
+            "inputImageUrl": null,
+            "projectAssetId": null,
+            "name": "Image1"
+          },
+          {
+            "inputImageResourceId": null,
+            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/OJrtNPcF8FogC69WyfFKz.png",
+            "inputImageUrl": null,
+            "projectAssetId": null,
+            "name": "Image2"
+          },
+          {
+            "inputImageResourceId": null,
+            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/43tzIxAaAYuMsU46s5VJM.png",
+            "inputImageUrl": null,
+            "projectAssetId": null,
+            "name": "Image3"
+          },
+          {
+            "inputImageResourceId": null,
+            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/cP886PbZbeRPisV18w8zv.jpg",
+            "inputImageUrl": null,
+            "projectAssetId": null,
+            "name": "Image4"
+          },
+          {
+            "inputImageResourceId": null,
+            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/4TqSK15VnmpRLGLQXCg1h.jpg",
+            "inputImageUrl": null,
+            "projectAssetId": null,
+            "name": "Image5"
+          }
+        ],
+        "imageMode": "multiImage",
+        "positivePrompt": "Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Wan 3.0 / Seedance 2.5 | Photoreal Jedi Council dialogue, one continuous 30-second take\n\nREFERENCES / AUTHORITY ORDER:\n<<<Image1>>>  = references/scenes/scene-13/S13-Image1-topview-source.png — council plate. Scene-13 provenance substitute for task 88140b94 Image1.\n<<<Image2>>>  = references/scenes/scene-13/S13-Image2-topview-source.png — VITALIK, black tunic, listener. Scene-13 provenance substitute for Image2.\n<<<Image3>>>  = references/scenes/scene-13/S13-Image3-topview-source.png — LYOKHA, moustache, purple tunic, grey robe, the only speaker. Scene-13 provenance substitute for Image3.\n<<<Image4>>>  = references/full/vitalik.jpg — current face sheet of Vitalik. Identity only.\n<<<Image5>>>  = references/full/lesha.jpg — current face sheet of Lyokha. Identity only.\nOrder is fixed. The 15s and 30s versions of this sub-scene use this same order and these same files.\nAttached images are the only visual authority for this generation. If a sentence conflicts with an attached image, follow the image. Do not invent extra reference slots.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\nLEFT (<<<Image2>>> ): stocky man, short brown hair, black Jedi outfit, black glove, hookah hose in hand. He listens and turns his head toward RIGHT. He does not take the line.\nRIGHT (<<<Image3>>> ): slim man, dark wavy hair, thin moustache, grey hood over a purple under-robe, cat on his lap. He is the speaker. One hand stays on the cat; the other gestures once.\nThe cat stays on the lap and does not speak.\nLYOKHA is the moustache in the grey robe (<<<Image3>>> , face <<<Image5>>> ) and the only speaker. VITALIK is the man in black (<<<Image2>>> , face <<<Image4>>> ). Vitalik's mouth stays closed.\n\nLIP SYNC / WHO SPEAKS:\nLYOKHA is the only speaker. His lips form the Russian words and then close.\nVITALIK listens with a closed mouth. The cat does not speak. No gibberish, no extra syllables, no English.\n\nSTART STATE:\nWide on the same lounge. Both are seated, mugs down or just lifted, the city moving behind them. Nobody has started the line.\n\nSTORY FLOW:\n0–8s — SETUP. LEFT exhales a thin stream of smoke and is listening. RIGHT's hand rests on the cat. He looks at LEFT before he commits to the speech. No line yet.\n8–18s — DEVELOPMENT. RIGHT: «Ситуация требует от нас срочных и решительных действий. Я готов выдвигаться незамедлительно.» The free palm opens once. His face stays sure, not panicked. LEFT's head turns toward him.\n18–26s — «Нам нужно расширить зону поиска.» He does not stand. The cat stays still except for one ear twitch.\n26–30s — PAYOFF. Speech ends. Both remain seated. The offer to move is on the table and nobody has left the chair.\n\nEND STATE:\nThe urgent proposal has been said once. Smoke still moves. Nobody stands.\n\nCAMERA / PERFORMANCE:\nOne readable face for the speaker when a line is said. Motivated warm daylight from the windows. Bodies stay seated. Beer mugs stay solid objects in the hand that already holds them.\n\nAUDIO:\nNative Russian, no accent, lip-sync only on the assigned speaker. The other Jedi does not speak. Room tone, a faint city hush, glass and mug contact. No music.\n\nNEGATIVE:\nno extra people, no swapped faces, no duplicated hero, no child, no subtitles, no logos, no watermark, no lightsaber ignition, no cartoon, no collage, no freeze-frame slideshow.\n\nFRAME FILL / NO BARS:\nFull 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.",
+        "aspectRatio": "16:9",
+        "source": "board",
+        "sound": "on",
+        "boardTaskId": "5d1f4fc1b4e548a7828892c73b672990",
+        "useUnlimitMode": true,
+        "internetSearch": false,
+        "autoVideoUpscale": false,
+        "skipCreditConsume": false
+      },
+      "creditsCost": 0,
+      "creditsPayerUid": "FGlyiGi4FG26kZmpCiUH",
+      "creditsPayerName": "Виталик Рудик",
+      "gmtCreate": "2026-11-16 15:58:20",
+      "gmtModify": "2026-11-16 15:58:21",
+      "isPinned": false,
+      "groupIds": [
+        "879d0ea65b834d3c8a877f995e597f41"
+      ],
+      "unresolvedCount": 0,
+      "useUnlimitMode": true,
+      "estimateInfo": {
+        "queueCount": 4750,
+        "estimatedWaitSeconds": 229591,
+        "estimatedProcessSeconds": null
+      }
+    },
+    "pre_scan": {
+      "complete": true,
+      "checked_at": "2026-11-16T15:57:57.873Z",
+      "free_slots": 1,
+      "item_reconciliation": {
+        "S89C-WAN30": {
+          "complete": true,
+          "matched_task_ids": [],
+          "ambiguous": false
+        }
+      }
+    },
+    "post_scan": {
+      "complete": true,
+      "checked_at": "2026-11-16T15:59:03.424Z",
+      "boards": 14,
+      "total_tasks": 678,
+      "occupied_slots": 6,
+      "free_slots": 0,
+      "active_task_ids": [
+        "5d1f4fc1b4e548a7828892c73b672990",
+        "90db5dd309db477eb346e8d82676f7b5",
+        "425108630b0e48c9a4b299fc89ad88ee",
+        "bfdb6d9fad7a4ab29492f7bb95c78033",
+        "d775c7a483a44f13ba1704a1c418b208",
+        "8c6d92662d1043c7a651168b2b8280ae"
+      ]
+    },
+    "lease": {
+      "schema_version": 1,
+      "state": "held",
+      "holder": "chatgpt:ordinary:74ae9e21-7e4e-4190-a75e-a3666126d4d8",
+      "task": "Dot delegated cloud-browser S89C and verified event735; no TinyFish",
+      "acquired_at": "2026-11-16T15:52:21.039Z",
+      "expires_at": "2026-11-16T16:12:21.039Z",
+      "released_at": null,
+      "rules": "ops/CANON-LOCK.md"
+    }
+  },
+  "artistic_acceptance": false,
+  "retry_forbidden": true
+}

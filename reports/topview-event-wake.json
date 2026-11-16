@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-16T15:53:15.864Z",
+  "updated_at": "2026-11-16T15:59:03.424Z",
   "status": "relay_production_enabled",
   "event_automation_id": "6adc585e7ac08191bb93825117dc7213",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
@@ -2032,17 +2032,39 @@
       "runner": "chatgpt_interactive_delegated",
       "run_id": null,
       "run_id_unavailable_reason": "Delegated runtime does not expose actual run ID.",
-      "checked_at": "2026-11-16T15:53:15.864Z",
-      "outcome": "started",
-      "retryable": true,
-      "task_ids": [],
+      "checked_at": "2026-11-16T15:59:03.424Z",
+      "outcome": "submitted",
+      "retryable": false,
+      "task_ids": [
+        "5d1f4fc1b4e548a7828892c73b672990"
+      ],
       "execution": {
-        "state": "started",
-        "stage": "intake",
+        "state": "finished",
+        "stage": "submitted",
         "started_at": "2026-11-16T15:53:15.864Z",
-        "updated_at": "2026-11-16T15:53:15.864Z"
+        "updated_at": "2026-11-16T15:59:03.424Z"
       },
-      "reason": "Verified full Relay sender/message and bot issue735; earlier foreign lease prevented receipt. Own exact lease now read back. Browser S89C prepared; no Create. Old event is not current capacity evidence."
+      "reason": "One authorized S89C Create in own cloud browser after full scan, exact refs/prompt, free Unlimited selection and separate CAS claim/intent/readback. Confirmed task uses Unlimited and creditsCost=0. Post-scan 6/6. Not artistic acceptance.",
+      "new_submissions": 1,
+      "credits_spent": 0,
+      "scan_complete": true,
+      "scan": {
+        "complete": true,
+        "checked_at": "2026-11-16T15:59:03.424Z",
+        "boards": 14,
+        "total_tasks": 678,
+        "occupied_slots": 6,
+        "free_slots": 0,
+        "active_task_ids": [
+          "5d1f4fc1b4e548a7828892c73b672990",
+          "90db5dd309db477eb346e8d82676f7b5",
+          "425108630b0e48c9a4b299fc89ad88ee",
+          "bfdb6d9fad7a4ab29492f7bb95c78033",
+          "d775c7a483a44f13ba1704a1c418b208",
+          "8c6d92662d1043c7a651168b2b8280ae"
+        ]
+      },
+      "receipt": "reports/topview-queue-2026-10-16/S89C-WAN30-20261116T155820Z.json"
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
