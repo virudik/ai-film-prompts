@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:31272054-df10-43d6-99bd-707c3e238a62",
-  "task": "HH:00 scheduled ordinary: confirm global Topview capacity and reconcile already submitted S89C; no Create at 6/6",
-  "acquired_at": "2026-11-16T16:58:02.765Z",
-  "expires_at": null,
-  "released_at": "2026-11-16T17:03:33.336Z",
+  "state": "held",
+  "holder": "chatgpt:work:0877152a-a035-454a-a03a-8c5f56168940",
+  "task": "HH:55 scheduled Work: full Topview capacity scan and due 20:55 maintenance phases; Create only if a verified free slot exists",
+  "acquired_at": "2026-11-16T17:59:01.245Z",
+  "expires_at": "2026-11-16T18:09:01.245Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
