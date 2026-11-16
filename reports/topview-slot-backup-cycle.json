@@ -6,13 +6,13 @@
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
   "run_id": "bba17803-d000-8321-a7ac-6f33818dc750",
   "run_id_unavailable_reason": null,
-  "runtime_run_id_source": "Automations.peek last_run.id scheduled_for 2026-11-16T15:00:00Z",
-  "execution_instance_id": "278879ce-cfed-464c-81f5-cff248323c17",
+  "runtime_run_id_source": "Automations.peek last_run.id; scheduled_for 2026-11-16T15:00:00Z; active attempt observed at 15:38:26Z",
+  "execution_instance_id": "852dc69c-c2db-4854-903b-305b02e05b8f",
   "route_generation": 3,
-  "source_head": "fafd6bfac95751f68ca63de7baf9b7bcb3a9a2aa",
-  "started_at": "2026-11-16T15:13:33.204Z",
-  "updated_at": "2026-11-16T15:22:53.668Z",
-  "phase": "preflight_tinyfish_running",
+  "source_head": "8830dbfb448b07819c1c37b507b2e53693cbe8bb",
+  "started_at": "2026-11-16T15:43:40.754Z",
+  "updated_at": "2026-11-16T15:44:49.100Z",
+  "phase": "terminal_tinyfish_preflight_reconciliation",
   "status": "in_progress",
   "scan_complete": true,
   "occupied_slots": 5,
@@ -21,29 +21,30 @@
   "task_ids": [],
   "new_submissions": 0,
   "topview_credits_spent": 0,
-  "browser_transport": "TinyFish saved Topview profile",
+  "browser_transport": "TinyFish saved Topview profile (previous execution, terminal read-only reconciliation)",
   "tinyfish": {
     "run_ids": [
       "f3474b8d-9e7c-45a2-974e-38aaaf59a493"
     ],
-    "steps": null,
+    "steps": 24,
+    "status": "COMPLETED",
+    "started_at": "2026-11-16T15:22:25Z",
+    "finished_at": "2026-11-16T15:27:08Z",
+    "performed_by_this_execution": false,
+    "create_clicked": false,
     "estimated_cost_usd": null,
-    "maximum_cost_usd": 0.49,
-    "confirmed_cost_usd": null,
-    "performed": true,
-    "wallet_balance_before_usd": 9.424,
-    "auto_reload_state": "unconfigured"
+    "confirmed_cost_usd": null
   },
   "lease": {
-    "holder": "chatgpt:ordinary:278879ce-cfed-464c-81f5-cff248323c17",
-    "acquired_at": "2026-11-16T15:13:33.204Z",
-    "expires_at": "2026-11-16T15:38:33.204Z",
+    "holder": "chatgpt:ordinary:852dc69c-c2db-4854-903b-305b02e05b8f",
+    "acquired_at": "2026-11-16T15:43:40.754Z",
+    "expires_at": "2026-11-16T15:55:40.754Z",
     "verified_start_readback": true,
     "released": false
   },
-  "outcome": "preflight_browser_pending",
-  "blocker": null,
-  "retryable": true,
+  "outcome": "in_progress",
+  "blocker": "tinyfish_preflight_terminal_non_submission; blocked_input_import and blocked_paid_mode 12 credits",
+  "retryable": false,
   "acceptance": {
     "scheduled_cycle": true,
     "topview_read_only_capacity_verified": true,
@@ -54,51 +55,12 @@
     "production_tinyfish_end_to_end_verified": false
   },
   "previous_receipt": {
-    "execution_instance_id": "f30224e5-2f49-440a-b107-d38449d2e046",
-    "outcome": "no_free_slot"
-  },
-  "checked_at": "2026-11-16T15:14:06.090Z",
-  "scan": {
-    "scope": "Full account-wide read-only Topview list_board_tasks: 14 boards, all video pages; My First Board 510 videos over 6 pages and other boards 167 videos; five init in My First Board, none elsewhere.",
-    "complete": true,
-    "boards_scanned": 14,
-    "video_tasks_scanned": 677,
-    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-    "board_video_total": 510,
-    "board_video_scanned": 510,
-    "checked_at": "2026-11-16T15:14:06.090Z",
-    "active_task_ids": [
-      "90db5dd309db477eb346e8d82676f7b5",
-      "425108630b0e48c9a4b299fc89ad88ee",
-      "bfdb6d9fad7a4ab29492f7bb95c78033",
-      "d775c7a483a44f13ba1704a1c418b208",
-      "8c6d92662d1043c7a651168b2b8280ae"
-    ],
-    "active_status": "init",
-    "active_unlimited_count": 5,
-    "active_zero_credits_count": 5,
-    "capacity_evidence": "Topview direct read-only 14 boards all pages"
-  },
-  "next_ready_item": "S89C-WAN30",
-  "queue_pending_claim_count": 0,
-  "queue_items_count": 41,
-  "readiness_items_count": 25,
-  "sha_independently_recomputed": false,
-  "preferred_executor_snapshot": "work",
-  "peer_runtime": {
-    "relay_last_run_id": "2bc4e4c6-bc54-8331-9dc9-b54bd7946ebd",
-    "work_hourly_last_run_id": "4fa9ac52-b69c-8325-9822-2aada8d8a547",
-    "work_hourly_enabled": false,
-    "ordinary_runtime_run_id": "bba17803-d000-8321-a7ac-6f33818dc750"
-  },
-  "telemetry": {
-    "robot_automation_monitor_last_checked_at": "2026-11-16T13:50:36Z",
-    "last_issue_topview_slot_wake": 714,
-    "last_issue_updated_at": "2026-11-15T22:05:08Z",
-    "last_issue_is_test": true,
-    "full_all_board_scan_not_performed": true,
-    "owner_tasks_open_count": 0,
-    "readiness_source_queue_sha256": "279c32b30084ea0ec65477e6a5126379e5e6641806b5d63910b4615e1d63f83e",
-    "readiness_source_task_map_sha256": "de04ae6abacffcd034becd190b842ce6ffbd373b317782a6107f7b3ac1d96803"
+    "execution_instance_id": "278879ce-cfed-464c-81f5-cff248323c17",
+    "phase": "preflight_tinyfish_running",
+    "outcome": "preflight_browser_pending",
+    "updated_at": "2026-11-16T15:22:53.668Z",
+    "tinyfish_run_ids": [
+      "f3474b8d-9e7c-45a2-974e-38aaaf59a493"
+    ]
   }
 }
