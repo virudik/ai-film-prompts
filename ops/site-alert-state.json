@@ -1,12 +1,8 @@
 {
   "schema_version": 1,
-  "signature": [
-    "canon:service-file-size:work-resume-register.json|work-resume-register.json: 104 КБ (предел 100 КБ): старые записи перенести в архив — python3 scripts/trim_service_files.py . --write (раздел хендофа «Как чистить», п. 8)."
-  ],
+  "signature": [],
   "relay": {
-    "status": "sent",
-    "detail": "message_id=248147152153096192",
-    "at": "2026-11-16T18:08:09Z"
+    "status": "cleared"
   },
   "rules": "scripts/site_alerts.py; dedup is this signature. Info notes are not included. No Grok polling routine."
 }
