@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:6f383755-d644-483f-a91b-b73f69c40484",
   "task": "Clarify historical pricing in Raznoe handoff and checkpoint without changing prices",
   "acquired_at": "2026-11-16T10:02:41.506Z",
-  "expires_at": "2026-11-16T10:17:41.506Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-16T10:03:33.911Z",
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }
