@@ -28,7 +28,7 @@ class AlertTests(unittest.TestCase):
         (self.root / "ops" / "relay-wake.json").write_text(json.dumps({
             "enabled": True, "api_base": "https://cast.agentrelay.com/v1",
             "address": "chatgpt@example", "site_alert_enabled": True,
-            "site_alert_address": "chatgpt@example", "site_alert_routing": {"mode":"dot_then_grok", "backup_address":"GrokBot@example"}}), encoding="utf-8")
+            "site_alert_address": "chatgpt@example", "site_alert_routing": {"enabled":True,"primary_address":"chatgpt@example","mode":"dot_then_grok", "backup_address":"GrokBot@example"}}), encoding="utf-8")
         self.sent = []
 
     def sender(self, text, **kwargs):
@@ -275,6 +275,42 @@ class RoutingTests(AlertTests):
         self.assertEqual(self.call(NOW + timedelta(minutes=159))['action'], 'unchanged')
         self.assertEqual(self.call(NOW + timedelta(minutes=160))['target'], 'backup')
         self.assertEqual(self.call(NOW + timedelta(minutes=170))['action'], 'unchanged')
+
+class ActivationGuardTests(AlertTests):
+    def config(self, flag):
+        cfg = json.loads((self.root / "ops/relay-wake.json").read_text())
+        cfg["site_alert_address"] = "GrokBot@example"
+        if flag == "missing": cfg["site_alert_routing"].pop("enabled", None)
+        else: cfg["site_alert_routing"]["enabled"] = flag
+        write(self.root, "ops/relay-wake.json", cfg)
+    def test_disabled_missing_and_nonboolean_preserve_legacy_route(self):
+        for flag in (False, "missing", "true", 1):
+            with self.subTest(flag=flag):
+                self.config(flag)
+                (self.root / site_alerts.STATE).unlink(missing_ok=True)
+                self.base(health={"problems":[{"level":"error","code":"broken","text":"details"}]})
+                calls=[]
+                def send(text, **kw):
+                    calls.append((text,kw)); return "sent","ok"
+                site_alerts.notify(self.root,NOW,send)
+                self.assertEqual(calls[0][1], {"address":"GrokBot@example","target":"legacy"})
+                self.assertNotIn("SITE_ALERT_V2",calls[0][0])
+                self.assertEqual(site_alerts.notify(self.root,NOW,send)["action"],"unchanged")
+                self.assertEqual(len(calls),1)
+                self.assertEqual(site_alerts.load_state(self.root)["schema_version"],1)
+    def test_rollback_from_v2_sends_legacy_then_deduplicates(self):
+        self.base(health={"problems":[{"level":"warn","code":"a","text":"problem"}]})
+        self.assertEqual(site_alerts.notify(self.root,NOW,self.sender)["target"],"primary")
+        self.config(False)
+        self.assertEqual(site_alerts.notify(self.root,NOW,self.sender)["action"],"sent")
+        self.assertEqual(site_alerts.load_state(self.root)["schema_version"],1)
+        self.assertEqual(site_alerts.notify(self.root,NOW,self.sender)["action"],"unchanged")
+
+    def test_committed_config_keeps_existing_route(self):
+        cfg=json.loads((Path(__file__).resolve().parents[1] / "ops/relay-wake.json").read_text())
+        self.assertIs(cfg["site_alert_routing"]["enabled"],False)
+        self.assertEqual(cfg["site_alert_address"],cfg["site_alert_routing"]["backup_address"])
+        self.assertTrue(cfg["site_alert_enabled"])
 
 if __name__ == '__main__':
     unittest.main()

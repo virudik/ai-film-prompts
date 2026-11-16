@@ -157,6 +157,31 @@ def progress_at(root, incident, now):
     return min(valid)[1]
 
 
+def notify_legacy(root, now, sender, alerts, cfg):
+    """Preserve the existing Grok route until V2 is explicitly enabled."""
+    sig = sorted(f"{a['code']}|{a.get('detail', '')}" for a in alerts)
+    prev = load_state(root)
+    if sig == (prev.get("signature") or []) and (prev.get("relay") or {}).get("status") == "sent":
+        return {"action": "unchanged", "count": len(alerts)}
+    if not sig:
+        if prev.get("signature"):
+            save_state(root, {"schema_version": 1, "signature": [], "relay": {"status": "cleared"}})
+            return {"action": "cleared", "count": 0}
+        return {"action": "none", "count": 0}
+    address = cfg.get("site_alert_address")
+    if not cfg.get("site_alert_enabled") or not address:
+        return {"action": "disabled", "count": len(alerts)}
+    text = render_text(alerts)
+    if sender is None:
+        status, detail = relay_wake.send_dm(root, text, address=address, key_prefix="site-alert-", require_enabled=False)
+    else:
+        status, detail = sender(text, address=address, target="legacy")
+    if status == "sent":
+        save_state(root, {"schema_version": 1, "signature": sig,
+                          "relay": {"status": status, "detail": detail, "at": stamp(now)}})
+    return {"action": status, "detail": detail, "count": len(alerts)}
+
+
 def notify(root, now=None, sender=None):
     now = now or datetime.now(timezone.utc)
     alerts = collect(root, now)
@@ -164,7 +189,9 @@ def notify(root, now=None, sender=None):
     prev = load_state(root)
     cfg = relay_wake.load_config(root)
     routing = cfg.get("site_alert_routing") or {}
-    primary = cfg.get("site_alert_address")
+    if routing.get("enabled") is not True:
+        return notify_legacy(root, now, sender, alerts, cfg)
+    primary = routing.get("primary_address")
     backup = routing.get("backup_address")
     if not sig:
         if prev.get("signature"):
