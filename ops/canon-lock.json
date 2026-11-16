@@ -4,7 +4,7 @@
   "holder": "chatgpt:work:0877152a-a035-454a-a03a-8c5f56168940",
   "task": "HH:55 scheduled Work: full Topview capacity scan and due 20:55 maintenance phases; Create only if a verified free slot exists",
   "acquired_at": "2026-11-16T17:59:01.245Z",
-  "expires_at": "2026-11-16T18:09:01.245Z",
+  "expires_at": "2026-11-16T18:17:21.755Z",
   "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
