@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-16T00:53:40+00:00",
-  "source_head": "2a912a3df5fe11100bcb150b6b72c2aef6d55cda",
-  "source_fingerprint": "b789a511608fd3faf812dce1d271e8da24a91f6720db9214bfabbed7c7684251",
+  "checked_at": "2026-11-16T11:53:49+00:00",
+  "source_head": "3f350999ab5bfe8f6588b51f6f07151432280fee",
+  "source_fingerprint": "95518185efdb648a80f9ea424c6c9bacac3b61c8c71a1a50c806764cba2eb2cc",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -207,8 +207,8 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "0332c26ebd0198c198bae9cc41579283f65011fbac2935e79fa1f803e3288336",
-      "bytes": 5135
+      "sha256": "af8ea3d7dabc86f7451523d2c74dd2e91d731ad1ca57ae4ecf2dfa0ef04c9943",
+      "bytes": 5134
     },
     {
       "file": "monitor-role.json",
@@ -222,8 +222,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "826fe21ee3e799405f5a10758bdbeb565cc60450efdf12f9d632c1ccd2704468",
-      "bytes": 29589
+      "sha256": "259b03735a79abc31b0aa1d02b2281e21d87f9e1bfd613a1951a573a582e0396",
+      "bytes": 29586
     },
     {
       "file": "projects/README.md",
@@ -237,8 +237,8 @@
     },
     {
       "file": "projects/raznoe/HANDOFF.md",
-      "sha256": "0f76c374d31c06127b65121c3e8c4d3a4820869934b5abb2749963266fc55bf8",
-      "bytes": 9922
+      "sha256": "49b76bc7988ddf22f06f7e43361161874a7c2864b5aef38d2beea4dfe15598c3",
+      "bytes": 11725
     },
     {
       "file": "projects/raznoe/INSTRUCTIONS.md",
@@ -252,13 +252,13 @@
     },
     {
       "file": "projects/raznoe/project-status.json",
-      "sha256": "977a20e9ef1627ecd1c65b503e289a605027c5e393f5af68f126d275fc350f01",
+      "sha256": "71ee4c540b2e79d4f94553f2b89b35d7afce111d991b764429020e689918a323",
       "bytes": 10499
     },
     {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
-      "sha256": "235a253d6fa51f771d39254cac469b35c6b0a26462f7155a6e4376b8a03339b6",
-      "bytes": 13043
+      "sha256": "c28ae4c48268b249c9b5ebdfffd624726ed6a8f33f63db045d0899d09245e407",
+      "bytes": 14057
     },
     {
       "file": "projects/raznoe/reports/handoff-receipts.json",

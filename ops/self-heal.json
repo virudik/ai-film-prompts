@@ -5,18 +5,6 @@
   "problems": {},
   "log": [
     {
-      "at": "2026-11-09T16:49:35Z",
-      "kind": "resolved",
-      "key": "run-failed-canon-health",
-      "text": "Прошло: Последний запуск «здоровье канона» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/42653048032"
-    },
-    {
-      "at": "2026-11-09T17:49:50Z",
-      "kind": "fixed",
-      "key": "telemetry-stale",
-      "text": "Нашёл: Робот сканирует, но статус Topview на сайте не обновлялся 135 мин. Последнее решение робота: «hold — unmapped_active:6fa3cdac». Обычно это пауза робота (hold): задача без сцены, неполный скан или сбой проверки публикации. Сделал: запустил полный скан Topview."
-    },
-    {
       "at": "2026-11-09T18:49:34Z",
       "kind": "escalated",
       "key": "telemetry-stale",
@@ -123,7 +111,19 @@
       "kind": "resolved",
       "key": "run-failed-canon-health",
       "text": "Прошло: Последний запуск «здоровье канона» на GitHub упал (попытка 2): https://github.com/virudik/ai-film-prompts/actions/runs/43638120305"
+    },
+    {
+      "at": "2026-11-16T07:22:45Z",
+      "kind": "fixed",
+      "key": "pages-lag",
+      "text": "Нашёл: Сайт показывает статус от 2026-11-16T06:50:33Z, а в main уже 2026-11-16T07:22:30Z (отставание 31 мин). Сделал: пересобрал сайт на GitHub Pages."
+    },
+    {
+      "at": "2026-11-16T07:49:27Z",
+      "kind": "resolved",
+      "key": "pages-lag",
+      "text": "Прошло: Сайт показывает статус от 2026-11-16T06:50:33Z, а в main уже 2026-11-16T07:22:30Z (отставание 31 мин)."
     }
   ],
-  "changed_at": "2026-11-14T21:19:26Z"
+  "changed_at": "2026-11-16T07:49:27Z"
 }
