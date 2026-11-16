@@ -10,9 +10,9 @@
   "route_generation": 3,
   "source_head": "d2f256341fbe3c05cf609cde6f1bfecb0d1f3441",
   "started_at": "2026-11-16T21:03:40.914937Z",
-  "updated_at": "2026-11-16T21:09:55.664Z",
-  "phase": "started",
-  "status": "in_progress",
+  "updated_at": "2026-11-16T21:13:05.064Z",
+  "phase": "completed",
+  "status": "no_free_slot",
   "scan_complete": false,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -34,7 +34,8 @@
     "acquired_at": "2026-11-16T21:09:08.018Z",
     "expires_at": "2026-11-16T21:18:08.018Z",
     "verified_start_readback": true,
-    "released": false
+    "released": true,
+    "released_at": "2026-11-16T21:13:05.064Z"
   },
   "previous_receipt": {
     "execution_instance_id": "0b0bcd00-cc37-4819-897b-b816e5016f4c",
@@ -51,8 +52,60 @@
     "production_tinyfish_end_to_end_verified": false,
     "latest_s89c_task_id_independently_verified": true
   },
-  "checked_at": "2026-11-16T21:09:55.664Z",
-  "outcome": "in_progress",
+  "checked_at": "2026-11-16T21:12:15.359Z",
+  "outcome": "no_free_slot",
   "blocker": null,
-  "retryable": true
+  "retryable": true,
+  "next_action_unchanged": true,
+  "queue_items_count": 35,
+  "queue_pending_claim_count": 0,
+  "owner_tasks_open_count": 0,
+  "sha_independently_recomputed": true,
+  "scan": {
+    "scope": "Topview direct read-only: 14 boards listed; most recent 100 of 511 video tasks from My First Board. All six active physical video slots already confirmed; no other board pagination required to prove no spare capacity.",
+    "complete": false,
+    "checked_at": "2026-11-16T21:12:15.359Z",
+    "boards_listed": 14,
+    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "video_tasks_scanned": 100,
+    "board_video_total": 511,
+    "occupied_slots": 6,
+    "free_slots": 0,
+    "active_task_ids": [
+      "5d1f4fc1b4e548a7828892c73b672990",
+      "90db5dd309db477eb346e8d82676f7b5",
+      "425108630b0e48c9a4b299fc89ad88ee",
+      "bfdb6d9fad7a4ab29492f7bb95c78033",
+      "d775c7a483a44f13ba1704a1c418b208",
+      "8c6d92662d1043c7a651168b2b8280ae"
+    ],
+    "all_six_unlimited": true,
+    "all_six_credits_cost": 0,
+    "queue_sha_checked_against_readiness": true,
+    "queue_source_sha256": "320e162ad5111792f6af06124deba5c2bc6d684c39aa5f6a6e2ef68f4ab90d7f",
+    "task_map_sha256": "286bae4524fcdfdb48f9d9fccc5b52b8ddff2a2be46041718ec8483310dc7970",
+    "queue_current_items_count": 35,
+    "readiness_items_count": 24,
+    "priority_next_ready_item": "S89D-WAN30",
+    "known_historical_wake": "Issue #737 event slots:ea03b4f7:70 from 2026-11-16T15:40:27Z superseded by fresh direct 6/6 scan"
+  },
+  "peer_verified_submission": {
+    "item_id": "S89C-WAN30",
+    "task_id": "5d1f4fc1b4e548a7828892c73b672990",
+    "created_by_this_execution": false,
+    "status": "init",
+    "unlimited": true,
+    "credits_cost": 0,
+    "artistic_acceptance": false
+  },
+  "peer_runtime": {
+    "ordinary_automation_enabled": true,
+    "ordinary_last_run_id": "3fb99ce6-cf78-8329-9fed-87dabb9186c1",
+    "work_hourly_enabled": true,
+    "work_last_run_id": "eaf2fc43-fca8-8333-8e9d-6ae71e249f2e",
+    "relay_enabled": true,
+    "relay_last_run_id": "2bc4e4c6-bc54-8331-9dc9-b54bd7946ebd",
+    "work_restore_not_changed": true
+  },
+  "owner_tasks_note": "Fresh ops/owner-tasks.json read: 9 tasks, 0 open/taken."
 }
