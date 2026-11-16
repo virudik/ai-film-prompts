@@ -1206,6 +1206,96 @@
   ],
   "historical_resume_fields": [
     {
+      "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+      "archived_at": "2026-11-16T19:08:59.323Z",
+      "reason": "Older completed read-only phase A/B telemetry; retain verbatim to meet 100000-byte live service file guard, without modifying next_action or recovery",
+      "fields": {
+        "last_phase_ab_check": {
+          "checked_at": "2026-11-16T18:06:45.574Z",
+          "cycle": "20:55 Europe/Moscow",
+          "self_heal": "ok",
+          "owner_tasks_open": 0,
+          "owner_tasks_taken": 0,
+          "claude_open_over_3h": 0,
+          "project_status": {
+            "health": "ok",
+            "synced_at": "2026-11-16T17:50:49Z",
+            "fresh_under_40_minutes": true,
+            "instruction_health": "ok"
+          },
+          "canon_health": {
+            "status": "warn",
+            "checked_at": "2026-11-16T16:03:28Z",
+            "warnings": 1,
+            "info": 4,
+            "cleanup_attempted": "python3 scripts/trim_service_files.py . --write",
+            "cleanup_result": "no eligible records; work-resume-register.json remains 102893 bytes and warning remains"
+          },
+          "gmail_query": "from:notifications@github.com \"virudik/ai-film-prompts\" after:2026/11/14 -in:spam -in:trash",
+          "gmail_search_ids": 278,
+          "gmail_unique_messages_read": 287,
+          "gmail_pages": 3,
+          "gmail_all_pages": true,
+          "gmail_next_page_token": null,
+          "gmail_state_unchanged": true,
+          "mailbox_mutated": false,
+          "coverage_from": "2026-11-14T12:02:06Z",
+          "overlap_hours": 24,
+          "failure_signals": [
+            {
+              "workflow": "Canon health (stale, oversized and broken canon parts)",
+              "message_id": "<virudik/ai-film-prompts/check-suites/CS_kwDOUdbzfM8AAAAbrCijFw/1794845016@github.com>",
+              "failed_run_id": 43903117248,
+              "resolved_by_run_id": 43924033697,
+              "resolution": "success"
+            },
+            {
+              "workflow": "Archive successful Topview videos to Drive (private backup)",
+              "failed_messages": 214,
+              "latest_failed_run_id": 43704778423,
+              "resolved_by_run_id": 43923342589,
+              "resolution": "success"
+            },
+            {
+              "workflow": "Owner repair verification 2026-11-15",
+              "failed_run_ids": [
+                43706578575,
+                43706943000,
+                43707033456
+              ],
+              "resolved_by_run_id": 43707240081,
+              "resolution": "success"
+            }
+          ],
+          "action_jobs_verified": {
+            "canon_health_current": {
+              "run_id": 43924033697,
+              "conclusion": "success"
+            },
+            "archive_video_current": {
+              "run_id": 43923342589,
+              "conclusion": "success"
+            },
+            "owner_repair_verification": {
+              "run_id": 43707240081,
+              "conclusion": "success"
+            },
+            "pages_current_success": {
+              "run_id": 43922721586,
+              "conclusion": "success"
+            }
+          },
+          "current_verification": {
+            "current_failure": false,
+            "repair_performed": false,
+            "blind_rerun_performed": false
+          },
+          "monitor_role": "skip: standby; primary robot last verified 13/180 min ago; exact scripts/monitor_role.py --dry-run on fresh main; robot heartbeat not imitated",
+          "result": "All GitHub failure notifications in coverage are historical and resolved by later successful runs. Self-heal and project status are healthy. Canon health remains warn because the standard trim found no eligible records for the 102893-byte resume register."
+        }
+      }
+    },
+    {
       "work_id": "CONTINUE-001",
       "archived_at": "2026-10-25T23:17:11.868890Z",
       "reason": "Old fixed queue order and obsolete51B dependency superseded by current queue and25Oct reference completion.",
@@ -2213,6 +2303,74 @@
     }
   ],
   "trimmed_recovery_history": [
+    {
+      "work_id": "SEREGIUS-PLAN-20261023",
+      "recovery_history": [
+        {
+          "schema_version": 1,
+          "verified_at": "2026-10-27T14:46:23+00:00",
+          "last_completed": "Сцена52: семь частей, промпты, референсы и очередь подготовлены. Механизм «Продолжай» и квитанции внедрены во всех пяти проектах; исходящая смена сохранена. Реальная приёмка новым чатом остаётся открытой.",
+          "next_action": "Принять смену по свежему main и сохранить собственную квитанцию; затем проверить результаты/QC, решения владельца и общие live-слоты. Продолжить разрешённую очередь Серёгиуса: новая S52-R2-P1 при свободном слоте, P2–P7 после реального результата и QC предшественника. Существующие task ID не отправлять повторно. Новая конкретная команда владельца приоритетнее этого фокуса.",
+          "checkpoint": {
+            "file": "reports/current-work-checkpoint.md",
+            "anchor": "# Передача смены по просьбе владельца · 27.10.2026",
+            "sha256": "179401b9aa64b5baec4f8021ff58d5efc935d60577ee71770711bb5214f91958"
+          },
+          "evidence": [
+            {
+              "file": "reports/scene52-rebuild-2026-10-27.json",
+              "sha256": "ad507bf04b6b1c5ca6ee8fcaeaa2508055389d80bebc40ebd2779213079b1c72"
+            },
+            {
+              "file": "reports/continue-multiproject-2026-10-27.json",
+              "sha256": "bd4852c666e26a8342582673399237b9fe8540ce502c8de2c2496c4bf8c79b9d"
+            }
+          ],
+          "read_next": [
+            "ops/CONTINUE-PROTOCOL.md",
+            "reports/handoff-receipts.json",
+            "reports/scene52-seven-parts-handoff-2026-10-27.md",
+            "ops/TOPVIEW-FREE-LAUNCH.md",
+            "ops/OWNER-TASKS.md"
+          ],
+          "blockers": []
+        }
+      ]
+    },
+    {
+      "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+      "recovery_history": [
+        {
+          "schema_version": 1,
+          "verified_at": "2026-11-02T14:07:13.033Z",
+          "last_completed": "16:55 MSK: complete Topview scan 6/6, no Create/retry. S52 exact continuity tail fully decoded and all 72 frames inspected as an ordered contact sheet; audio stream present but not listened and Drive preview failed, so dependent launch remains blocked.",
+          "next_action": "Monitor existing task IDs; when a slot frees, fresh main/owner decisions/all-board scan and own lease. Next independent ready priority S63-WAN30. S52P2/S59P3/S62P2 remain blocked on their documented continuity/QC defects. Do not repeat submitted S56-P2.",
+          "checkpoint": {
+            "file": "reports/current-work-checkpoint.md",
+            "anchor": "# 01.11.2026 — Продолжай: восстановление часового исполнителя",
+            "sha256": "40ca18c7891a03c159cd3e7a7d91d8d0de87f80ed09ed1c30e09281fdb8194fe"
+          },
+          "evidence": [
+            {
+              "file": "reports/ordinary-launcher-recovery-2026-11-01.json",
+              "sha256": "73309d84de5308ad83ee016fc00e708c9369980613a740700b1fe34336637192"
+            }
+          ],
+          "read_next": [
+            "ops/LAUNCHER-COORDINATION.md",
+            "ops/slot-backup.json",
+            "ops/TOPVIEW-FREE-LAUNCH.md",
+            "ops/topview-launch-queue.json"
+          ],
+          "blockers": [
+            "6/6 active physical video slots.",
+            "S52-R2-P2: continuous real-time playback with audio listening still required.",
+            "S59-P3: P2 ends after the landing; owner decision or suitable real airborne source required.",
+            "S62-P2: P1 already reaches the final triangle and blue/green ignition reserved for P2; owner decision or suitable earlier real handoff required."
+          ]
+        }
+      ]
+    },
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "recovery_history": [
