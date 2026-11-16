@@ -4,20 +4,20 @@
   "source": "ChatGPT scheduled ordinary",
   "runner": "chatgpt_scheduled_task",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "run_id": "03c2a587-5700-832a-af1b-744ee729594d",
+  "run_id": "bba17803-d000-8321-a7ac-6f33818dc750",
   "run_id_unavailable_reason": null,
-  "runtime_run_id_source": "Automations.peek last_run.id scheduled_for 2026-11-16T14:00:00Z",
-  "execution_instance_id": "f30224e5-2f49-440a-b107-d38449d2e046",
+  "runtime_run_id_source": "Automations.peek last_run.id scheduled_for 2026-11-16T15:00:00Z",
+  "execution_instance_id": "278879ce-cfed-464c-81f5-cff248323c17",
   "route_generation": 3,
-  "source_head": "ae7816e95da586d5b8a58df9766404adeff0c01d",
-  "started_at": "2026-11-16T14:16:53.119Z",
-  "updated_at": "2026-11-16T14:20:05.300Z",
-  "phase": "finished",
-  "status": "completed",
-  "scan_complete": false,
-  "occupied_slots": 6,
-  "free_slots": 0,
-  "selected_item": null,
+  "source_head": "fafd6bfac95751f68ca63de7baf9b7bcb3a9a2aa",
+  "started_at": "2026-11-16T15:13:33.204Z",
+  "updated_at": "2026-11-16T15:14:06.090Z",
+  "phase": "started",
+  "status": "in_progress",
+  "scan_complete": true,
+  "occupied_slots": 5,
+  "free_slots": 1,
+  "selected_item": "S89C-WAN30",
   "task_ids": [],
   "new_submissions": 0,
   "topview_credits_spent": 0,
@@ -30,16 +30,14 @@
     "performed": false
   },
   "lease": {
-    "holder": "chatgpt:ordinary:f30224e5-2f49-440a-b107-d38449d2e046",
-    "acquired_at": "2026-11-16T14:16:53.119Z",
-    "expires_at": "2026-11-16T14:28:53.119Z",
+    "holder": "chatgpt:ordinary:278879ce-cfed-464c-81f5-cff248323c17",
+    "acquired_at": "2026-11-16T15:13:33.204Z",
+    "expires_at": "2026-11-16T15:38:33.204Z",
     "verified_start_readback": true,
-    "released": true,
-    "released_at": "2026-11-16T14:20:05.300Z",
-    "lock_outcome": "released_atomically_with_final_receipt"
+    "released": false
   },
-  "outcome": "no_free_slot",
-  "blocker": "global_video_slots_6_of_6",
+  "outcome": "scanned_one_free_slot_preflight_pending",
+  "blocker": null,
   "retryable": true,
   "acceptance": {
     "scheduled_cycle": true,
@@ -51,30 +49,30 @@
     "production_tinyfish_end_to_end_verified": false
   },
   "previous_receipt": {
-    "execution_instance_id": "d9331b70-ce1e-4a38-baa4-c9b8b2108c8b",
+    "execution_instance_id": "f30224e5-2f49-440a-b107-d38449d2e046",
     "outcome": "no_free_slot"
   },
-  "checked_at": "2026-11-16T14:20:00.166Z",
+  "checked_at": "2026-11-16T15:14:06.090Z",
   "scan": {
-    "scope": "Read-only My First Board page 1/100 confirms six active videos. 14 boards listed; no full account-wide scan because verified global 6/6",
-    "complete": false,
+    "scope": "Full account-wide read-only Topview list_board_tasks: 14 boards, all video pages; My First Board 510 videos over 6 pages and other boards 167 videos; five init in My First Board, none elsewhere.",
+    "complete": true,
+    "boards_scanned": 14,
+    "video_tasks_scanned": 677,
     "board_id": "1a6244cf1ae747ef847d949a80d6133c",
     "board_video_total": 510,
-    "board_video_page": 1,
-    "board_video_scanned": 100,
-    "checked_at": "2026-11-16T14:20:00.166Z",
+    "board_video_scanned": 510,
+    "checked_at": "2026-11-16T15:14:06.090Z",
     "active_task_ids": [
       "90db5dd309db477eb346e8d82676f7b5",
       "425108630b0e48c9a4b299fc89ad88ee",
       "bfdb6d9fad7a4ab29492f7bb95c78033",
       "d775c7a483a44f13ba1704a1c418b208",
-      "8c6d92662d1043c7a651168b2b8280ae",
-      "1dcb6fa0628d41b098227ca6c96f1630"
+      "8c6d92662d1043c7a651168b2b8280ae"
     ],
     "active_status": "init",
-    "active_unlimited_count": 6,
-    "active_zero_credits_count": 6,
-    "capacity_evidence": "Topview direct read-only board tasks"
+    "active_unlimited_count": 5,
+    "active_zero_credits_count": 5,
+    "capacity_evidence": "Topview direct read-only 14 boards all pages"
   },
   "next_ready_item": "S89C-WAN30",
   "queue_pending_claim_count": 0,
@@ -86,7 +84,7 @@
     "relay_last_run_id": "2bc4e4c6-bc54-8331-9dc9-b54bd7946ebd",
     "work_hourly_last_run_id": "4fa9ac52-b69c-8325-9822-2aada8d8a547",
     "work_hourly_enabled": false,
-    "ordinary_runtime_run_id": "03c2a587-5700-832a-af1b-744ee729594d"
+    "ordinary_runtime_run_id": "bba17803-d000-8321-a7ac-6f33818dc750"
   },
   "telemetry": {
     "robot_automation_monitor_last_checked_at": "2026-11-16T13:50:36Z",
