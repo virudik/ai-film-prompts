@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-17T11:33:36+00:00",
-  "source_head": "820d9cf5f86f07aced4bfd663936073a4d6063d9",
-  "source_fingerprint": "db2b424d3fba93c8b1aa375c1e3fbca85f57766afe784e519faa5b35fd4e1c6e",
+  "checked_at": "2026-11-17T11:55:01+00:00",
+  "source_head": "504c6e3a9b233f5dab1310e779bd60c3b0333a3b",
+  "source_fingerprint": "e634afb56d4c8c03a9c5ffc5c6243c9f75e05ffc8305bbd4724d810f3c20b247",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -207,8 +207,8 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "a0a8756e6604c97a6084993ad3bdca1bd13238dc2ef246ae1e3e2784712e7a90",
-      "bytes": 5141
+      "sha256": "228f0f63dea71d7bd5c8309278ca8bb8d03908656a8760c8ae0c0fa675ba251e",
+      "bytes": 5134
     },
     {
       "file": "monitor-role.json",

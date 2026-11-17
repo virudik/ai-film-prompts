@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "kotmonavty",
   "project_name": "Котмонавты",
-  "checked_at": "2026-11-17T11:33:36+00:00",
-  "source_head": "820d9cf5f86f07aced4bfd663936073a4d6063d9",
-  "source_fingerprint": "2dd6d354ccc67395869abbe9a7f60db63ad4fc657882e68cc76dbd304a43548b",
+  "checked_at": "2026-11-17T11:55:01+00:00",
+  "source_head": "504c6e3a9b233f5dab1310e779bd60c3b0333a3b",
+  "source_fingerprint": "1a3dfe4e42eddc49fcc4575d98145108baeef8e7346ec2d7b5d5eb94d72f1165",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -175,8 +175,8 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "a0a8756e6604c97a6084993ad3bdca1bd13238dc2ef246ae1e3e2784712e7a90",
-      "bytes": 5141
+      "sha256": "228f0f63dea71d7bd5c8309278ca8bb8d03908656a8760c8ae0c0fa675ba251e",
+      "bytes": 5134
     },
     {
       "file": "monitor-role.json",
