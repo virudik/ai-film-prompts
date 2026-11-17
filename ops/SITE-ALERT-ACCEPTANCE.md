@@ -55,3 +55,6 @@ actual message ID and genuine progress must still be handled by the receiving
 agent. The prepared-canonical-state test invokes this gate inside fake transport
 before the sender records its receipt, proving the intended ordering offline.
 This is not evidence that a saved receiving automation has been installed.
+
+
+Приёмная сторона (lease/CAS/readback ACK, TEST read-only): `ops/SITE-ALERT-V2-RECEIVER.md`, `scripts/site_alert_handler.py`.
