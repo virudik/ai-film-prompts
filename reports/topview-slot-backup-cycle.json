@@ -7,19 +7,20 @@
   "automation_context_version": "a3ee12acd936406cbd4e23c8adab7fb9f827da78a17acf064254fb0929be9403",
   "run_id": null,
   "run_id_unavailable_reason": "Not exposed in delegated actual scheduled wake or automations.get",
-  "execution_instance_id": "951db61a-a3d7-46dc-a514-3f11dec71a1f",
+  "execution_instance_id": "a7258bb0-120b-4987-abdf-068caafc89a7",
   "route_generation": 6,
-  "source_head": "3b957791b0dbecc72fadee570752940644b16349",
+  "source_head": "55d5eb8383706bc5ccf5831e416d105971faf05a",
   "actual_trigger": "scheduled",
-  "started_at": "2026-11-17T19:59:49.242928+00:00",
-  "updated_at": "2026-11-17T20:01:10.351Z",
+  "started_at": "2026-11-17T21:03:38.754728+00:00",
+  "updated_at": "2026-11-17T21:04:11.378Z",
+  "completed_at": "2026-11-17T21:04:11.378Z",
   "phase": "completed",
   "outcome": "no_update_all_slots_occupied",
   "browser_transport": "dot_own_browser",
   "browser_used": false,
   "scan": {
     "complete": true,
-    "checked_at": "2026-11-17T19:59:05.223Z",
+    "checked_at": "2026-11-17T21:03:16.806Z",
     "boards_listed": 14,
     "pages_scanned": 21,
     "tasks_scanned": 1063,
@@ -49,19 +50,17 @@
   "next_action_unchanged": true,
   "browser_not_used_reason": "Full account-wide read-only scan verified 6/6 active; no UI preflight/Create needed",
   "lease": {
-    "holder": "chatgpt:ordinary:951db61a-a3d7-46dc-a514-3f11dec71a1f",
-    "acquired_at": "2026-11-17T19:59:49.242928+00:00",
-    "acquisition_commit": "2885183c0f246f9ee7fe55fd61eeb91b0dc9165b",
+    "holder": "chatgpt:ordinary:a7258bb0-120b-4987-abdf-068caafc89a7",
+    "acquired_at": "2026-11-17T21:03:38.754728+00:00",
+    "acquisition_commit": "dea299621a410bb5058495435554fca698e69f82",
     "verified_start_readback": true,
-    "released_at": "2026-11-17T20:01:10.351Z",
+    "released_at": "2026-11-17T21:04:11.378Z",
     "release_state": "released_in_same_CAS_as_final_receipt"
   },
   "execution": {
     "state": "completed",
     "stage": "capacity_checked_no_create",
-    "updated_at": "2026-11-17T20:01:10.351Z",
-    "completed_at": "2026-11-17T20:01:10.351Z"
-  },
-  "completed_at": "2026-11-17T20:01:10.351Z",
-  "receipt_write_note": "Initial receipt CAS rejected after concurrent robot commit; fresh main inspected and exact own lease reverified before final receipt."
+    "updated_at": "2026-11-17T21:04:11.378Z",
+    "completed_at": "2026-11-17T21:04:11.378Z"
+  }
 }
