@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-17T18:00:28Z",
+  "checked_at": "2026-11-17T18:10:48Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -67,8 +67,8 @@
       "model": "Wan 3.0",
       "scene_id": 89,
       "mapping": "task_map",
-      "queue_count": 3360,
-      "wait_seconds": 145004,
+      "queue_count": 3349,
+      "wait_seconds": 144382,
       "process_seconds": null
     },
     {
@@ -80,8 +80,8 @@
       "model": "Wan 3.0",
       "scene_id": 89,
       "mapping": "task_map",
-      "queue_count": 3938,
-      "wait_seconds": 179564,
+      "queue_count": 3927,
+      "wait_seconds": 178942,
       "process_seconds": null
     },
     {
@@ -93,8 +93,8 @@
       "model": "Wan 3.0",
       "scene_id": 89,
       "mapping": "task_map",
-      "queue_count": 3649,
-      "wait_seconds": 162283,
+      "queue_count": 3638,
+      "wait_seconds": 161661,
       "process_seconds": null
     },
     {
@@ -104,10 +104,10 @@
       "unlimited": true,
       "created_at": "2026-11-17 17:56:10",
       "model": "Wan 3.0",
-      "scene_id": null,
-      "mapping": "unknown_new",
-      "queue_count": 4227,
-      "wait_seconds": 196843,
+      "scene_id": 89,
+      "mapping": "task_map",
+      "queue_count": 4216,
+      "wait_seconds": 196221,
       "process_seconds": null
     },
     {
@@ -119,8 +119,8 @@
       "model": "Seedance 2.0",
       "scene_id": 48,
       "mapping": "task_map",
-      "queue_count": 3071,
-      "wait_seconds": 127723,
+      "queue_count": 3059,
+      "wait_seconds": 127100,
       "process_seconds": null
     },
     {
@@ -132,8 +132,8 @@
       "model": "Seedance 2.0",
       "scene_id": null,
       "mapping": "unknown_new",
-      "queue_count": 2181,
-      "wait_seconds": 75883,
+      "queue_count": 2169,
+      "wait_seconds": 75260,
       "process_seconds": null
     }
   ],
@@ -146,15 +146,6 @@
       "model": "Seedance 2.0",
       "unlimited": true,
       "prompt_head": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal cinematic alien-rock performance, "
-    },
-    {
-      "task_id": "9d4b3b177e6d452abe499537a05f454c",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "created_at": "2026-11-17 17:56:10",
-      "model": "Wan 3.0",
-      "unlimited": true,
-      "prompt_head": "Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Wan 3.0 / Seedance 2.5 | Photoreal balcony dialogue, Pasha "
     }
   ],
   "finished_known": [],
@@ -169,24 +160,12 @@
     }
   ],
   "comparison": {
-    "monitor_checked_at": "2026-11-17T17:41:28Z",
-    "monitor_age_minutes": 19,
-    "monitor_occupied": 5,
+    "monitor_checked_at": "2026-11-17T18:00:28Z",
+    "monitor_age_minutes": 10,
+    "monitor_occupied": 6,
     "robot_occupied": 6,
-    "consistent": false,
+    "consistent": true,
     "monitor_may_lag": false,
-    "differences": [
-      {
-        "type": "only_in_robot",
-        "task_id": "9d4b3b177e6d452abe499537a05f454c",
-        "scene_id": null,
-        "mapping": "unknown_new"
-      },
-      {
-        "type": "occupied_differs",
-        "monitor": 5,
-        "robot": 6
-      }
-    ]
+    "differences": []
   }
 }
