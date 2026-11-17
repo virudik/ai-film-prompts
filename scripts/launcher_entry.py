@@ -75,6 +75,46 @@ def one_item(queue, item_id):
     return found[0]
 
 
+def published_session_item(queue, phase, request, session):
+    """Read-only boundary check. Repeat under exclusive marker before mutation."""
+    if (not isinstance(session, dict) or session.get('schema_version') != 1
+            or session.get('actor_sha') != digest(request['actor'])
+            or session.get('item_id') != request.get('item_id')):
+        raise lc.Blocked('original_session_actor_and_item_required')
+    required = {'intent': 'claim_prepared', 'verify': 'intent_prepared'}[phase]
+    if session.get('phase') != required:
+        raise lc.Blocked('phase_already_consumed_or_out_of_order; reconcile_without_Create')
+    item = one_item(queue, session['item_id'])
+    if digest(item) != session['expected_item_sha']:
+        raise lc.Blocked('original_payload_not_published_exactly; reconcile_without_Create')
+    return item
+
+
+def unchanged_claim_history(root, session, current_sha):
+    """Local immutable Git history only; no inference from a connector error."""
+    base = session.get('claim_base_main_sha')
+    if not base or not session.get('base_item_sha'):
+        raise lc.Blocked('original_claim_base_history_required')
+    if subprocess.run(['git', '-C', str(root), 'merge-base', '--is-ancestor', base, current_sha],
+                      stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL).returncode:
+        raise lc.Blocked('claim_base_not_ancestor_of_fresh_main')
+    commits = subprocess.check_output(['git','-C',str(root),'rev-list','--ancestry-path',base+'..'+current_sha], text=True).split()
+    if len(commits) > 100:
+        raise lc.Blocked('claim_history_window_requires_manual_reconciliation')
+    baseline_ledger = None
+    for sha in [base] + list(reversed(commits)):
+        queue = json.loads(subprocess.check_output(['git','-C',str(root),'show',sha+':'+lc.QUEUE]))
+        if digest(one_item(queue, session['item_id'])) != session['base_item_sha']:
+            raise lc.Blocked('claim_item_changed_in_main_history')
+        ledger = subprocess.check_output(['git','-C',str(root),'show',sha+':'+ledger_tools.PATH])
+        ledger_sha = hashlib.sha256(ledger).hexdigest()
+        if baseline_ledger is not None and ledger_sha != baseline_ledger:
+            raise lc.Blocked('ledger_changed_during_claim_publication')
+        baseline_ledger = ledger_sha
+    return {'base_main_sha':base, 'readback_main_sha':current_sha,
+            'session_sha':digest(session), 'item_unchanged':True, 'ledger_unchanged':True}
+
+
 def step(root, phase, request, session, now, main_sha):
     """Pure planning/validation except reads. Caller persists returned session first.
 
@@ -90,28 +130,38 @@ def step(root, phase, request, session, now, main_sha):
         return {'phase': 'plan', 'main_sha': main_sha, 'selection': candidates,
                 'lock': lock, 'create_allowed': False,
                 'next': 'prepare verified form and live scan; acquire own lease via separate CAS/readback'}, None
-    if phase == 'claim':
-        if session is not None:
+    if phase in ('claim', 'refresh-claim'):
+        if phase == 'claim' and session is not None:
             raise lc.Blocked('session_already_exists; reconcile_without_Create')
         item = one_item(queue, request['item_id'])
+        previous_claim_id = None
+        if phase == 'refresh-claim':
+            if (not isinstance(session, dict) or session.get('schema_version') != 1
+                    or session.get('phase') != 'claim_prepared'
+                    or session.get('actor_sha') != digest(actor) or session.get('item_id') != item['id']
+                    or not session.get('base_item_sha') or digest(item) != session['base_item_sha']):
+                raise lc.Blocked('unchanged_unpublished_claim_base_required')
+            history = request.get('_claim_history') or {}
+            if (history.get('base_main_sha') != session.get('claim_base_main_sha')
+                    or history.get('readback_main_sha') != main_sha
+                    or history.get('session_sha') != digest(session)
+                    or history.get('item_unchanged') is not True or history.get('ledger_unchanged') is not True):
+                raise lc.Blocked('fresh_unpublished_claim_history_required')
+            previous_claim_id = session.get('claim_id')
+            if not previous_claim_id:
+                raise lc.Blocked('original_claim_identity_required')
         ledger = lc.read(root / ledger_tools.PATH) if ledger_tools.required(cfg, actor) else None
         updated = lc.prepare_claim(cfg, lock, item, actor, scan, now,
                                    request['preflight'], main_sha, root, ledger, queue.get('board_id'))
+        if previous_claim_id:
+            updated['claim']['claim_id'] = previous_claim_id
         session = {'schema_version': 1, 'phase': 'claim_prepared', 'actor_sha': digest(actor),
                    'item_id': item['id'], 'claim_id': updated['claim']['claim_id'],
-                   'expected_item_sha': digest(updated)}
+                   'expected_item_sha': digest(updated), 'base_item_sha': digest(item),
+                   'claim_base_main_sha': main_sha}
         updated_ledger = None
     else:
-        if (not isinstance(session, dict) or session.get('schema_version') != 1 or
-                session.get('actor_sha') != digest(actor) or
-                session.get('item_id') != request.get('item_id')):
-            raise lc.Blocked('original_session_actor_and_item_required')
-        required_phase = {'intent': 'claim_prepared', 'verify': 'intent_prepared'}[phase]
-        if session.get('phase') != required_phase:
-            raise lc.Blocked('phase_already_consumed_or_out_of_order; reconcile_without_Create')
-        item = one_item(queue, session['item_id'])
-        if digest(item) != session['expected_item_sha']:
-            raise lc.Blocked('original_payload_not_published_exactly; reconcile_without_Create')
+        item = published_session_item(queue, phase, request, session)
         ledger = lc.read(root / ledger_tools.PATH) if ledger_tools.required(cfg, actor) else None
         if phase == 'verify':
             lc.verify_before_create(cfg, lock, item, actor, scan, now,
@@ -227,7 +277,7 @@ def write_exclusive(path, value):
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument('root', type=Path)
-    ap.add_argument('phase', choices=('plan', 'claim', 'intent', 'verify'))
+    ap.add_argument('phase', choices=('plan', 'claim', 'refresh-claim', 'intent', 'verify'))
     ap.add_argument('--request', required=True, type=Path)
     ap.add_argument('--session', type=Path, help='Private local anti-replay file; outside checkout; never publish')
     args = ap.parse_args()
@@ -251,6 +301,12 @@ def main():
             # Network may be slow. Finish the final fetch BEFORE freshness checks.
             if snapshot(root) != sha:
                 raise lc.Blocked('main_changed_during_phase; reconcile_without_Create')
+            if args.phase == 'refresh-claim':
+                prior = lc.read(args.session) if args.session and args.session.exists() else {}
+                request['_claim_history'] = unchanged_claim_history(root, prior, sha)
+            if args.phase in ('intent', 'verify'):
+                prior = lc.read(args.session) if args.session and args.session.exists() else None
+                published_session_item(lc.read(isolated / lc.QUEUE), args.phase, request, prior)
             if guard:
                 write_exclusive(guard, {'phase': args.phase})
             # Serialize before reading phase state; a concurrent caller must not

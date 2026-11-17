@@ -127,6 +127,88 @@ class EntryTests(unittest.TestCase):
             self.assertEqual(entry.main(),2)
             self.assertTrue(session.with_name(session.name+'.busy').exists())
 
+    def test_unpublished_claim_rejects_intent_before_creating_marker(self):
+        import shutil
+        _,session=self.step('claim')
+        request=Path(self.tmp.name)/'request.json';request.write_text(json.dumps(self.request))
+        session_path=Path(self.tmp.name)/'session.json';session_path.write_text(json.dumps(session))
+        argv=['launcher_entry.py',str(self.root),'intent','--request',str(request),'--session',str(session_path)]
+        def materialize(root,sha,destination):shutil.copytree(root,destination,dirs_exist_ok=True)
+        with patch.object(sys,'argv',argv),patch.object(entry,'snapshot',return_value='a'*40), \
+             patch.object(entry,'materialize_snapshot',side_effect=materialize),patch('sys.stdout',new_callable=io.StringIO) as out:
+            self.assertEqual(entry.main(),2)
+            self.assertIn('original_payload_not_published_exactly',out.getvalue())
+            self.assertFalse(session_path.with_name(session_path.name+'.busy').exists())
+            self.assertEqual(json.loads(session_path.read_text()),session)
+
+    def test_publication_precheck_is_repeated_after_exclusive_marker(self):
+        import shutil
+        transaction,session=self.step('claim');self.publish(transaction)
+        request=Path(self.tmp.name)/'request.json';request.write_text(json.dumps(self.request))
+        session_path=Path(self.tmp.name)/'session.json';session_path.write_text(json.dumps(session))
+        argv=['launcher_entry.py',str(self.root),'intent','--request',str(request),'--session',str(session_path)]
+        def materialize(root,sha,destination):shutil.copytree(root,destination,dirs_exist_ok=True)
+        original_write=entry.write_exclusive
+        def race(path,value):
+            original_write(path,value)
+            if path.name.endswith('.busy'):
+                changed=dict(session,actor_sha='another-execution');session_path.write_text(json.dumps(changed))
+        with patch.object(sys,'argv',argv),patch.object(entry,'snapshot',return_value='a'*40), \
+             patch.object(entry,'materialize_snapshot',side_effect=materialize), \
+             patch.object(entry,'write_exclusive',side_effect=race),patch('sys.stdout',new_callable=io.StringIO) as out:
+            self.assertEqual(entry.main(),2)
+            self.assertIn('original_session_actor_and_item_required',out.getvalue())
+            self.assertTrue(session_path.with_name(session_path.name+'.busy').exists())
+            self.assertEqual(json.loads(session_path.read_text())['phase'],'claim_prepared')
+
+    def refresh_request(self,session,sha='b'*40):
+        request=copy.deepcopy(self.request)
+        request['_claim_history']={'base_main_sha':session['claim_base_main_sha'],
+                                  'readback_main_sha':sha,'session_sha':entry.digest(session),
+                                  'item_unchanged':True,'ledger_unchanged':True}
+        return request
+
+    def test_refresh_claim_rebuilds_current_queue_and_preserves_unpublished_identity(self):
+        _,session=self.step('claim')
+        self.queue['items'].append({'id':'other','state':'completed','task_id':'peer-task'})
+        (self.root/entry.lc.QUEUE).write_text(json.dumps(self.queue))
+        out,new=entry.step(self.root,'refresh-claim',self.refresh_request(session),session,fixtures.NOW,'b'*40)
+        self.assertEqual(new['claim_id'],session['claim_id'])
+        self.assertEqual(out['expected_main_sha'],'b'*40)
+        self.assertEqual(out['files'][entry.lc.QUEUE]['items'][1]['task_id'],'peer-task')
+        self.assertFalse(out['create_allowed'])
+        self.assertEqual(new['claim_base_main_sha'],'b'*40)
+
+    def test_refresh_requires_history_and_full_original_guards(self):
+        _,session=self.step('claim')
+        for change in ('history','phase','base','paid','scan','lease'):
+            request=self.refresh_request(session);candidate=copy.deepcopy(session)
+            if change=='history':request.pop('_claim_history')
+            if change=='phase':candidate['phase']='intent_prepared'
+            if change=='base':candidate['base_item_sha']='changed'
+            if change=='paid':request['preflight']['credits_cost']=18
+            if change=='scan':request['scan']['complete']=False
+            if change=='lease':request['actor']['execution_instance_id']=fixtures.B
+            with self.subTest(change=change),self.assertRaises(entry.lc.Blocked):
+                entry.step(self.root,'refresh-claim',request,candidate,fixtures.NOW,'b'*40)
+
+    def test_claim_history_detects_publish_then_revert_not_just_current_item(self):
+        import subprocess
+        root=Path(self.tmp.name)/'history';(root/'ops').mkdir(parents=True)
+        def git(*args):return subprocess.check_output(['git','-C',str(root),*args],text=True).strip()
+        git('init','-q');git('config','user.email','test@example.invalid');git('config','user.name','test')
+        q=root/entry.lc.QUEUE;q.write_text(json.dumps(self.queue))
+        (root/entry.ledger_tools.PATH).write_text(json.dumps({'runs':{}}))
+        def commit():git('add','.');git('commit','-qm','fixture');return git('rev-parse','HEAD')
+        base=commit();session={'claim_base_main_sha':base,'base_item_sha':entry.digest(self.queue['items'][0]),'item_id':'S-example'}
+        (root/'unrelated').write_text('robot telemetry');head=commit()
+        self.assertTrue(entry.unchanged_claim_history(root,session,head)['item_unchanged'])
+        changed=copy.deepcopy(self.queue);changed['items'][0]['claim']={'claim_id':'possibly-published'}
+        q.write_text(json.dumps(changed));commit()
+        q.write_text(json.dumps(self.queue));head=commit()
+        with self.assertRaisesRegex(entry.lc.Blocked,'claim_item_changed_in_main_history'):
+            entry.unchanged_claim_history(root,session,head)
+
     def abort_fixture(self):
         session=Path(self.tmp.name)/'aborted-session.json'
         session.with_name(session.name+'.busy').write_text(json.dumps({'phase':'claim'}))
