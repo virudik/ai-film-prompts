@@ -2071,8 +2071,8 @@
       "issue_number": 770,
       "message_id": "248467382049165312",
       "relay_event_id": "evt_757a3ae9c4dad15ae1d463a739cd4191",
-      "checked_at": "2026-11-17T15:28:36.481Z",
-      "outcome": "started",
+      "checked_at": "2026-11-17T15:31:50.496Z",
+      "outcome": "blocked",
       "retryable": true,
       "task_ids": [],
       "source": "dot Agent Relay webhook",
@@ -2080,12 +2080,20 @@
       "run_id": null,
       "run_id_unavailable_reason": "not exposed",
       "execution": {
-        "state": "started",
-        "stage": "preflight",
+        "state": "blocked",
+        "stage": "route_guard",
         "started_at": "2026-11-17T15:24:47.410Z",
-        "updated_at": "2026-11-17T15:28:36.481Z"
+        "updated_at": "2026-11-17T15:31:50.496Z",
+        "completed_at": "2026-11-17T15:31:50.496Z"
       },
-      "details": "Full account scan 14 boards/21 pages/1062 tasks at 2026-11-17T15:26:56.445Z; 5 init, 1 free. S89D-WAN30 selected provisionally; preparing verified inputs and website Unlimited0 form; Create count0."
+      "details": "Actual Relay automation ID is absent from all peers automation_ids in ops/slot-backup.json; check_route denies retired_or_unregistered_automation. No identity substitution, no claim/intent/Create. Full scan 14 boards/21pages/1062tasks at 2026-11-17T15:26:56.445Z. Exact3 inputs and canonical prompt SHA verified. Website form Wan3.0/30s/720p/16:9 qty1 shows selected Безлимитный режим — бесплатно; no paid generation. Reserved Grok route is GitHub issue-assigned, not fabricated primary receipt.",
+      "actor": "dot",
+      "automation_id": "6af9b2a7212081919b191786c483ad13",
+      "blocker": "retired_or_unregistered_automation",
+      "scan_complete": true,
+      "occupied_slots": 5,
+      "free_slots": 1,
+      "selected_item": "S89D-WAN30"
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
