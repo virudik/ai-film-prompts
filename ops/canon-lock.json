@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:327cc43b-2bad-47f5-921b-0162d3eb14e7",
-  "task": "Register actual Dot Relay launcher; no Topview submissions",
-  "acquired_at": "2026-11-17T15:34:56.044549Z",
-  "expires_at": null,
-  "released_at": "2026-11-17T15:36:43.920347Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:c38e7671-afd8-4f9f-9bb8-ab4a4660c15f",
+  "task": "S89D-WAN30 fresh launch event770",
+  "acquired_at": "2026-11-17T15:42:51.814Z",
+  "expires_at": "2026-11-17T15:54:51.814Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
