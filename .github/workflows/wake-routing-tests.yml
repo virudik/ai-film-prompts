@@ -1,0 +1,34 @@
+name: Wake routing regression tests
+on:
+  pull_request:
+    paths:
+      - 'scripts/site_alert*'
+      - 'scripts/wake_roles.py'
+      - 'scripts/robot_telemetry.py'
+      - 'scripts/relay_wake.py'
+      - 'tests/**'
+      - 'ops/relay-wake.json'
+      - '.github/workflows/wake-routing-tests.yml'
+      - '.github/workflows/canon-health.yml'
+      - '.github/workflows/topview-robot.yml'
+      - '.github/workflows/site-alert-canary.yml'
+permissions:
+  contents: read
+concurrency:
+  group: wake-routing-tests-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+jobs:
+  offline-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Test dependencies only; no credentials or live service calls
+        run: python -m pip install requests==2.32.5 PyYAML==6.0.3
+      - name: Shell syntax and full regression suite
+        run: |
+          bash -n scripts/site_alert_publish.sh
+          python -m unittest discover -s tests

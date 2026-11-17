@@ -3,6 +3,7 @@
 import argparse
 import re
 import relay_wake
+import wake_roles
 
 
 def send(root, test_id, recipient, confirm=False, sender=None):
@@ -13,16 +14,19 @@ def send(root, test_id, recipient, confirm=False, sender=None):
     if recipient not in ('dot', 'grok'):
         return 'error', 'invalid recipient'
     cfg = relay_wake.load_config(root)
-    routing = cfg.get('site_alert_routing') or {}
+    routing = cfg.get('site_alert_routing')
+    roles = wake_roles.resolve(cfg)
+    if not isinstance(routing, dict) or roles is None:
+        return 'error', 'invalid routing configuration'
     # Acceptance precedes activation. Never change this flag as a test side effect.
     if routing.get('enabled') is not False:
         return 'error', 'reviewed disabled V2 config required'
     address = routing.get('primary_address' if recipient == 'dot' else 'backup_address')
     if not address:
         return 'error', 'reviewed recipient address required'
-    role = 'primary' if recipient == 'dot' else 'backup'
+    role = 'primary' if recipient == roles['primary_actor'] else 'backup'
     text = ('SITE_ALERT_V2_TEST\ntest_id=' + test_id + '\nrecipient_role=' + role +
-            '\nread_only=true\nNo Topview, Create, queue, lease or production ACK writes. '
+            '\nrecipient_actor=' + recipient + '\nread_only=true\nNo Topview, Create, queue, lease or production ACK writes. '
             'Report actual receipt metadata only; this is not production incident progress.')
     sender = sender or relay_wake.send_dm
     return sender(root, text, address=address, key_prefix='site-canary-', require_enabled=False)

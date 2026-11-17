@@ -100,26 +100,4 @@ jobs:
         env:
           AGENT_RELAY_TOKEN: ${{ secrets.AGENT_RELAY_TOKEN }}
           BRANCH: ${{ github.ref_name }}
-        run: |
-          set -uo pipefail
-          python3 scripts/site_alerts.py . --notify || echo "::warning title=site-alerts::notify step failed"
-          if [ -z "$(git status --porcelain -- ops/site-alert-state.json)" ]; then
-            echo "Alert set unchanged."
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add ops/site-alert-state.json
-          git commit -m "Site alerts: persist primary/backup delivery state"
-          for attempt in 1 2 3 4; do
-            if git push origin "HEAD:${BRANCH}"; then exit 0; fi
-            echo "Push rejected; re-reading ${BRANCH} ($attempt/4)"
-            git fetch origin "${BRANCH}"
-            git reset --hard "origin/${BRANCH}"
-            python3 scripts/site_alerts.py . --notify || echo "::warning title=site-alerts::notify retry failed"
-            if [ -z "$(git status --porcelain -- ops/site-alert-state.json)" ]; then exit 0; fi
-            git add ops/site-alert-state.json
-            git commit -m "Site alerts: reconcile latest primary/backup state"
-          done
-          echo "::warning title=site-alerts::could not push the dedup state"
-          exit 0
+        run: bash scripts/site_alert_publish.sh

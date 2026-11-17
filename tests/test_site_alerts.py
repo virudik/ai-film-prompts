@@ -28,7 +28,7 @@ class AlertTests(unittest.TestCase):
         (self.root / "ops" / "relay-wake.json").write_text(json.dumps({
             "enabled": True, "api_base": "https://cast.agentrelay.com/v1",
             "address": "chatgpt@example", "site_alert_enabled": True,
-            "site_alert_address": "chatgpt@example", "site_alert_routing": {"enabled":True,"primary_address":"chatgpt@example","mode":"dot_then_grok", "backup_address":"GrokBot@example"}}), encoding="utf-8")
+            "site_alert_address": "chatgpt@example", "site_alert_routing": {"enabled":True,"critical_timeout_minutes":30,"primary_address":"chatgpt@example","mode":"dot_then_grok", "backup_address":"GrokBot@example"}}), encoding="utf-8")
         self.sent = []
 
     def sender(self, text, **kwargs):
@@ -311,6 +311,166 @@ class ActivationGuardTests(AlertTests):
         self.assertIs(cfg["site_alert_routing"]["enabled"],False)
         self.assertEqual(cfg["site_alert_address"],cfg["site_alert_routing"]["backup_address"])
         self.assertTrue(cfg["site_alert_enabled"])
+
+
+class ProductionPathTests(AlertTests):
+    def problem(self):
+        self.base(health={"problems": [{"level": "error", "code": "broken-ref", "file": "H.md", "text": "missing target"}]})
+
+    def test_cli_notify_requires_published_preparation(self):
+        self.problem()
+        from unittest.mock import patch
+        with patch.object(site_alerts.relay_wake, "send_dm", return_value=("sent", "receipt")) as send:
+            self.assertEqual(site_alerts.main([str(self.root), "--notify"]), 1)
+            send.assert_not_called()
+            # Use fixed clock because fixture status timestamps are historical.
+            site_alerts.notify(self.root, NOW, prepare_only=True)
+            canonical = site_alerts.load_state(self.root)
+            def receiver(*args, **kw):
+                self.assertIn(canonical["incident_id"], args[1])
+                self.assertEqual(canonical["pending_delivery"]["target"], "primary")
+                return "sent", "receipt"
+            send.side_effect = receiver
+            self.assertEqual(site_alerts.notify(self.root, NOW, require_prepared=True)["action"], "sent")
+
+    def test_preparation_binds_recipient_and_configuration(self):
+        self.problem()
+        site_alerts.notify(self.root, NOW, prepare_only=True)
+        cfg = site_alerts.read_json(self.root, 'ops/relay-wake.json')
+        cfg['site_alert_routing']['primary_address'] = 'different@example'
+        write(self.root, 'ops/relay-wake.json', cfg)
+        self.assertEqual(site_alerts.notify(self.root,NOW,self.sender,require_prepared=True)['action'], 'prepare_required')
+        self.assertEqual(self.sent, [])
+
+    def test_site_default_critical_timeout_is_two_hours(self):
+        self.problem()
+        cfg = site_alerts.read_json(self.root, 'ops/relay-wake.json')
+        cfg['site_alert_routing'].pop('critical_timeout_minutes')
+        write(self.root, 'ops/relay-wake.json', cfg)
+        site_alerts.notify(self.root,NOW,self.sender)
+        for minute in (30,119):
+            now=NOW+timedelta(minutes=minute)
+            write(self.root,'topview-status.json',{'checked_at':now.isoformat()})
+            write(self.root,'automation-monitor-status.json',{'last_scheduled_cycle':{'health':'ok','completed_at':now.isoformat()}})
+            self.assertEqual(site_alerts.notify(self.root,now,self.sender)['action'],'unchanged')
+        self.assertEqual(site_alerts.notify(self.root,NOW+timedelta(minutes=120),self.sender)['target'],'backup')
+        cfg = site_alerts.read_json(Path(__file__).resolve().parents[1], 'ops/relay-wake.json')
+        self.assertEqual(cfg['site_alert_routing']['critical_timeout_minutes'],120)
+        self.assertEqual(cfg['site_alert_routing']['warning_timeout_minutes'],120)
+        self.assertEqual(cfg['dispatch']['ack_timeout_minutes'],20)
+        self.assertEqual(cfg['dispatch']['progress_timeout_minutes'],30)
+
+    def test_readable_payload_does_not_change_on_dynamic_detail_retry(self):
+        self.problem()
+        site_alerts.notify(self.root,NOW,self.sender)
+        first=self.sent[-1]
+        self.assertIn('Инструкция ссылается на отсутствующий файл',first)
+        (self.root/site_alerts.STATE).unlink()
+        self.base(health={"problems":[{"level":"error","code":"broken-ref","file":"H.md","text":"new dynamic details"}]})
+        site_alerts.notify(self.root,NOW,self.sender)
+        self.assertEqual(self.sent[-1],first)
+
+    def test_legacy_actual_transport_request_and_state(self):
+        from unittest.mock import patch
+        self.problem()
+        cfg=site_alerts.read_json(self.root,'ops/relay-wake.json')
+        cfg['site_alert_address']='GrokBot@example'
+        cfg['site_alert_routing']['enabled']=False
+        write(self.root,'ops/relay-wake.json',cfg)
+        requests=[]
+        class Response:
+            status=200
+            def __enter__(self): return self
+            def __exit__(self,*args): pass
+            def read(self): return b'{"ok":true,"data":{"id":"123"}}'
+        class Opener:
+            def open(self,request,timeout):
+                requests.append(request)
+                return Response()
+        with patch.dict('os.environ',{'AGENT_RELAY_TOKEN':'at_live_test_fixture'}), patch.object(site_alerts.relay_wake.urllib.request,'build_opener',return_value=Opener()):
+            self.assertEqual(site_alerts.notify(self.root,NOW,prepare_only=True)['action'],'legacy')
+            self.assertFalse((self.root/site_alerts.STATE).exists())
+            self.assertEqual(site_alerts.notify(self.root,NOW,require_prepared=True)['action'],'sent')
+            self.assertEqual(site_alerts.notify(self.root,NOW,require_prepared=True)['action'],'unchanged')
+        self.assertEqual(len(requests),1)
+        body=json.loads(requests[0].data)
+        self.assertEqual(body['address'],'GrokBot@example')
+        self.assertNotIn('SITE_ALERT_V2',body['text'])
+        self.assertTrue(requests[0].get_header('Idempotency-key').startswith('site-alert-'))
+        self.assertEqual(site_alerts.load_state(self.root)['schema_version'],1)
+
+    def test_malformed_rollout_config_preserves_legacy(self):
+        self.problem()
+        cfg=site_alerts.read_json(self.root,'ops/relay-wake.json')
+        for routing in (None,[], 'invalid', 7):
+            cfg['site_alert_routing']=routing
+            write(self.root,'ops/relay-wake.json',cfg)
+            (self.root/site_alerts.STATE).unlink(missing_ok=True)
+            self.assertEqual(site_alerts.notify(self.root,NOW,self.sender)['action'],'sent')
+            self.assertNotIn('SITE_ALERT_V2',self.sent[-1])
+
+    def test_rollback_reenable_cannot_reuse_incident_or_key(self):
+        self.problem()
+        first=site_alerts.notify(self.root,NOW,self.sender)['incident_id']
+        payload=self.sent[-1]
+        cfg=site_alerts.read_json(self.root,'ops/relay-wake.json')
+        cfg['site_alert_routing']['enabled']=False
+        write(self.root,'ops/relay-wake.json',cfg)
+        site_alerts.notify(self.root,NOW,self.sender)
+        cfg['site_alert_routing']['enabled']=True
+        write(self.root,'ops/relay-wake.json',cfg)
+        second=site_alerts.notify(self.root,NOW,self.sender)['incident_id']
+        self.assertNotEqual(first,second)
+        self.assertNotEqual(payload,self.sent[-1])
+
+
+class SiteRoleSwitchTests(AlertTests):
+    def configure(self, primary, backup):
+        cfg=site_alerts.read_json(self.root,'ops/relay-wake.json')
+        cfg['wake_roles']={'primary_actor':primary,'backup_actor':backup}
+        cfg['site_alert_routing']['critical_timeout_minutes']=120
+        write(self.root,'ops/relay-wake.json',cfg)
+    def refresh(self, now):
+        write(self.root,'topview-status.json',{'checked_at':now.isoformat()})
+        write(self.root,'automation-monitor-status.json',{'last_scheduled_cycle':{'health':'ok','completed_at':now.isoformat()}})
+    def test_reverse_roles_route_and_require_grok_progress(self):
+        self.base(health={'problems':[{'level':'error','code':'test','text':'problem'}]})
+        self.configure('grok','dot')
+        calls=[]
+        def send(text, **kwargs):
+            calls.append((text,kwargs));return 'sent','receipt'
+        first=site_alerts.notify(self.root,NOW,send)
+        self.assertEqual(calls[0][1]['address'],'GrokBot@example')
+        self.assertIn('recipient_actor=grok',calls[0][0])
+        write(self.root,site_alerts.RECEIPTS,{'events':[{'incident_id':first['incident_id'],'actor':'dot',
+            'state':'in_progress','updated_at':(NOW+timedelta(minutes=119)).isoformat(),'evidence':'wrong actor'}]})
+        later=NOW+timedelta(minutes=120);self.refresh(later)
+        self.assertEqual(site_alerts.notify(self.root,later,send)['target'],'backup')
+        self.assertEqual(calls[-1][1]['address'],'chatgpt@example')
+        self.assertIn('recipient_actor=dot',calls[-1][0])
+    def test_current_primary_progress_suppresses_reverse_backup(self):
+        self.base(health={'problems':[{'level':'error','code':'test','text':'problem'}]})
+        self.configure('grok','dot')
+        first=site_alerts.notify(self.root,NOW,self.sender)
+        write(self.root,site_alerts.RECEIPTS,{'events':[{'incident_id':first['incident_id'],'actor':'grok',
+            'state':'in_progress','updated_at':(NOW+timedelta(minutes=119)).isoformat(),'evidence':'real check'}]})
+        later=NOW+timedelta(minutes=120);self.refresh(later)
+        self.assertEqual(site_alerts.notify(self.root,later,self.sender)['action'],'unchanged')
+    def test_role_switch_starts_new_incident_and_cannot_reuse_preparation(self):
+        self.base(health={'problems':[{'level':'warn','code':'test','text':'problem'}]})
+        self.configure('dot','grok')
+        first=site_alerts.notify(self.root,NOW,prepare_only=True)
+        self.configure('grok','dot')
+        self.assertEqual(site_alerts.notify(self.root,NOW,self.sender,require_prepared=True)['action'],'prepare_required')
+        second=site_alerts.notify(self.root,NOW,prepare_only=True)
+        self.assertNotEqual(first['incident_id'],second['incident_id'])
+        self.assertEqual(site_alerts.load_state(self.root)['primary_actor'],'grok')
+        self.assertEqual(self.sent,[])
+    def test_invalid_roles_fail_closed(self):
+        self.base(health={'problems':[{'level':'warn','code':'test','text':'problem'}]})
+        self.configure('dot','dot')
+        self.assertEqual(site_alerts.notify(self.root,NOW,self.sender)['action'],'disabled')
+        self.assertEqual(self.sent,[])
 
 if __name__ == '__main__':
     unittest.main()

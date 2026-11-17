@@ -41,6 +41,7 @@ import robot_master_actions as rma        # noqa: E402
 import relay_wake                         # noqa: E402
 import topview_prompt_match as pm         # noqa: E402
 import queue_readiness                    # noqa: E402
+import wake_roles                         # noqa: E402
 
 SCRIPTS = Path(__file__).resolve().parent
 HEARTBEAT_MIN = 50            # refresh unchanged telemetry before the site's 120-minute "stale" mark
@@ -526,27 +527,38 @@ class GhNotifier:
         return r.returncode == 0
 
     def wake(self, signal):
-        """Wake: a NEW issue per slot event (audit record the executor verifies), then one Agent Relay DM.
+        """Wake: a NEW audit issue, then only the selected actor's transport.
 
         The DM to the subscribed ChatGPT inbox is what wakes the executor (owner decision 25.10.2026);
         older open wake issues are closed as superseded signals, never as proof of completed handling."""
+        config = relay_wake.load_config(SCRIPTS.parent)
+        roles = wake_roles.resolve(config)
+        if roles is None:
+            return False
+        route = signal.get("dispatch_target", "legacy")
+        if route not in ("legacy", "primary", "backup"):
+            return False
+        actor = roles.get(route + "_actor") if route != "legacy" else None
+        if "dispatch_actor" in signal and signal["dispatch_actor"] != actor:
+            # A configuration change after the persisted decision cannot retarget it.
+            return False
         env = dict(os.environ)
         subprocess.run(["gh", "api", "repos/{owner}/{repo}/labels", "-f", f"name={WAKE_LABEL}", "-f", "color=d93f0b"],
                        text=True, capture_output=True, env=env)
-        route = signal.get("dispatch_target", "legacy")
-        assignment = ["-f", f"assignees[]={WAKE_ASSIGNEE}"] if route != "primary" else []
+        assignment = ["-f", f"assignees[]={WAKE_ASSIGNEE}"] if actor == "grok" or route == "legacy" else []
         c = subprocess.run(["gh", "api", "repos/{owner}/{repo}/issues", "-f", f"title={wake_issue_title(signal)}",
                             "-f", f"body={wake_issue_body(signal)}", "-f", f"labels[]={WAKE_LABEL}",
-                            *assignment,  # Grok issue-assigned only on legacy or explicit backup
+                            *assignment,  # Only Grok's route assigns; Dot's route sends the Relay DM.
                             "--jq", '.number, .html_url'], text=True, capture_output=True, env=env)
         out = c.stdout.split()
         if c.returncode != 0 or len(out) < 2:
             return False
         number, url = out[0], out[1]
-        status, detail = ("backup_issue", "Grok issue-assigned; no primary DM") if route == "backup" else relay_wake.send_dm(SCRIPTS.parent, wake_dm_text(signal, url),
+        status, detail = ("grok_issue", "Grok issue-assigned; no Dot DM") if actor == "grok" else relay_wake.send_dm(SCRIPTS.parent, wake_dm_text(signal, url),
                                             {"marker": WAKE_MARKER, "event_id": signal["event_id"],
                                              "issue_number": int(number), "issue_url": url,
                                              "observed_at": signal["observed_at"],
+                                             "dispatch_target": route, "dispatch_actor": actor,
                                              "free_slots_global": signal["free_slots_global"]})
         print(f"::notice title=robot-wake::issue #{number}; relay {status} ({detail})")
         if status in ("error", "no_token"):      # visible to the owner; paced re-wakes retry later
@@ -710,10 +722,11 @@ def wake_issue_title(signal):
 
 
 def wake_issue_body(signal):
-    return (f"Робот подтвердил свободный слот Topview; исполнитель будится через Agent Relay и проверяет свежую очередь.\n\n"
+    return (f"Робот подтвердил свободный слот Topview; назначенный исполнитель проверяет свежую очередь.\n\n"
             f"{WAKE_MARKER}\nevent_id: {signal['event_id']}\nobserved_at: {signal['observed_at']}\n"
             f"free_slots_global: {signal['free_slots_global']}\n"
             f"dispatch_target: {signal.get('dispatch_target', 'legacy')}\n"
+            f"dispatch_actor: {signal.get('dispatch_actor', 'legacy')}\n"
             f"dispatch_reason: {signal.get('dispatch_reason', 'legacy_route')}\n"
             "Backup: first reconcile existing claim/intent/task; unknown outcome never permits another Create.\n\n"
             "Сигнал не является разрешением на оплату или одобрением качества. Порядок — ops/TOPVIEW-EVENT-WAKE.md."
@@ -799,7 +812,7 @@ def handler_acked(root, event_id):
             or (isinstance(archived, list) and event_id in archived))
 
 
-def handler_receipt(root, event_id, now):
+def handler_receipt(root, event_id, now, actor=None):
     """Latest exact live receipt by trustworthy time, regardless of append/prepend journal order.
 
     Undated/future-only or conflicting equally timed records prove presence only (ID-only result).
@@ -808,7 +821,8 @@ def handler_receipt(root, event_id, now):
     data = read_json(Path(root) / "reports/topview-event-wake.json", {}) or {}
     if not isinstance(data, dict) or not isinstance(data.get("events", []), list):
         return {}
-    events = [e for e in data.get("events", []) if isinstance(e, dict) and e.get("event_id") == event_id]
+    events = [e for e in data.get("events", []) if isinstance(e, dict) and e.get("event_id") == event_id
+              and (actor is None or wake_roles.receipt_actor(e) == actor)]
     if not event_id or not events:
         return {}
     dated = []
@@ -929,7 +943,13 @@ def dispatch_signal(root, signal, now):
     This is notification routing, never permission to take a lease or Create.
     Legacy route stays intact until a separately verified activation.
     """
-    cfg = relay_wake.load_config(root).get("dispatch", {})
+    config = relay_wake.load_config(root)
+    roles = wake_roles.resolve(config)
+    if roles is None:
+        return None
+    cfg = config.get("dispatch", {})
+    if not isinstance(cfg, dict):
+        return None
     if cfg.get("mode") != "primary_then_backup" or cfg.get("enabled") is not True:
         return signal
     path = Path(root) / "automation-monitor-status.json"
@@ -942,13 +962,17 @@ def dispatch_signal(root, signal, now):
     # A held malformed lease is also fail-closed. Don't wake a competitor during ownership.
     if lock.get("state") == "held" and (expiry is None or expiry > now):
         return None
-    same = previous.get("episode") == episode
+    previous_roles = (previous.get("primary_actor", "dot"), previous.get("backup_actor", "grok"))
+    same = previous.get("episode") == episode and previous_roles == (roles["primary_actor"], roles["backup_actor"])
     target, reason = "primary", "new_episode"
     if same:
-        receipt = handler_receipt(root, previous.get("event_id"), now)
+        expected_actor = roles["backup_actor"] if previous.get("target") == "backup" else roles["primary_actor"]
+        receipt = handler_receipt(root, previous.get("event_id"), now,
+                                  actor=expected_actor if roles["explicit"] else None)
         execution = receipt.get("execution") if isinstance(receipt.get("execution"), dict) else {}
         timestamps = [parse_ts(v) for v in (receipt.get("checked_at"), receipt.get("updated_at"), execution.get("updated_at"))]
-        valid = [t for t in timestamps if t and t <= now]
+        attempted = parse_ts(previous.get("attempted_at"))
+        valid = [t for t in timestamps if t and t <= now and (attempted is None or t >= attempted)]
         last_progress = max(valid) if valid else None
         elapsed = minutes_since(previous.get("attempted_at"), now)
         if elapsed is None or elapsed < 0:
@@ -966,9 +990,12 @@ def dispatch_signal(root, signal, now):
         else:
             target, reason = "backup", "no_ack_after_20_minutes"
     routed = dict(signal, dispatch_target=target, dispatch_reason=reason,
+                  dispatch_actor=roles[target + "_actor"],
                   dispatch_policy="check_existing_claim_intent_and_task_first; never_repeat_unknown_Create")
     ns["robot_dispatch"] = {"episode": episode, "event_id": signal["event_id"],
-                            "target": target, "reason": reason, "attempted_at": now_z(now)}
+                            "target": target, "actor": roles[target + "_actor"],
+                            "primary_actor": roles["primary_actor"], "backup_actor": roles["backup_actor"],
+                            "reason": reason, "attempted_at": now_z(now)}
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return routed
 
@@ -987,7 +1014,12 @@ def rewake_due(root, now, observed_at=None):
     sequence = max(REWAKE_MAX, int(rw.get("sequence", 0)), int(rw.get("count", 0))) + 1
     since = minutes_since(rw.get("last_at"), now)
     interval = REWAKE_RECOVERY_MIN if count >= REWAKE_MAX else REWAKE_MIN
-    dispatch = relay_wake.load_config(root).get("dispatch", {})
+    config = relay_wake.load_config(root)
+    if wake_roles.resolve(config) is None:
+        return None
+    dispatch = config.get("dispatch", {})
+    if not isinstance(dispatch, dict):
+        return None
     if dispatch.get("enabled") is True and dispatch.get("mode") == "primary_then_backup":
         interval = 10  # cheap robot evaluates ACK; dispatch_signal suppresses healthy/redundant wakes
     if since is not None and since < interval:
@@ -1025,6 +1057,8 @@ def maybe_rewake(root, git, notifier, now, observed_at=None):
 def wake_dm_text(signal, issue_url):
     """Agent Relay DM: plain data for the executor, verified against the issue and fresh main."""
     return (f"{WAKE_MARKER}\nevent_id: {signal['event_id']}\nissue: {issue_url}\n"
+            f"dispatch_target: {signal.get('dispatch_target', 'legacy')}\n"
+            f"dispatch_actor: {signal.get('dispatch_actor', 'legacy')}\n"
             f"observed_at: {signal['observed_at']}\nfree_slots_global: {signal['free_slots_global']}\n"
             "repo: virudik/ai-film-prompts (main). Это сигнал пробуждения, не разрешение: свежий main, полный скан, "
             "замок и claim по ops/TOPVIEW-EVENT-WAKE.md.")

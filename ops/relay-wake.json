@@ -29,9 +29,9 @@
     "acceptance_evidence": "reports/primary-backup-acceptance.json"
   },
   "site_alert_routing": {
-    "mode": "dot_then_grok",
+    "mode": "primary_then_backup",
     "backup_address": "GrokBot@cloud-242545579433959424",
-    "critical_timeout_minutes": 30,
+    "critical_timeout_minutes": 120,
     "warning_timeout_minutes": 120,
     "receipts": "reports/site-alert-receipts.json",
     "enabled": false,
