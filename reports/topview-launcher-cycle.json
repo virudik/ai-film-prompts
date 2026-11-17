@@ -4,231 +4,65 @@
   "source": "ChatGPT scheduled work",
   "runner": "chatgpt_scheduled_task",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "run_id": "4f49dd13-5af8-8329-b347-7732511c0399",
+  "run_id": "edc8a077-6880-8320-ab98-e9c2d2dba280",
   "run_id_unavailable_reason": null,
-  "execution_instance_id": "3da7b6c2-2690-4189-b3bc-87c98ecf6a6b",
+  "execution_instance_id": "e05b29bf-9409-4a98-8a4e-e0621339a0b3",
   "route_generation": 3,
-  "source_head": "d7ac5c4e4b1c8026129680af512ac5ae6fb872a0",
-  "started_at": "2026-11-17T09:01:30.227Z",
-  "updated_at": "2026-11-17T09:04:21.849Z",
-  "completed_at": "2026-11-17T09:04:21.849Z",
-  "phase": "completed",
-  "status": "completed",
-  "scan_complete": true,
-  "occupied_slots": 6,
-  "free_slots": 0,
+  "source_head": "b984d89f030d05f1729e2a253eb119808e7fefe9",
+  "started_at": "2026-11-17T09:55:00.909Z",
+  "updated_at": "2026-11-17T09:55:22.657Z",
+  "completed_at": null,
+  "phase": "started",
+  "status": "in_progress",
+  "scan_complete": false,
+  "occupied_slots": null,
+  "free_slots": null,
   "selected_item": null,
-  "task_ids": [
-    "5d1f4fc1b4e548a7828892c73b672990",
-    "90db5dd309db477eb346e8d82676f7b5",
-    "425108630b0e48c9a4b299fc89ad88ee",
-    "bfdb6d9fad7a4ab29492f7bb95c78033",
-    "d775c7a483a44f13ba1704a1c418b208",
-    "8c6d92662d1043c7a651168b2b8280ae"
-  ],
+  "task_ids": [],
   "new_submissions": 0,
   "topview_credits_spent": 0,
-  "browser_transport": "topview_read_only_connector_full_scan",
+  "browser_transport": null,
   "lease": {
-    "holder": "chatgpt:work:3da7b6c2-2690-4189-b3bc-87c98ecf6a6b",
-    "acquired_at": "2026-11-17T09:01:30.227Z",
-    "expires_at": "2026-11-17T09:46:30.227Z",
+    "holder": "chatgpt:work:e05b29bf-9409-4a98-8a4e-e0621339a0b3",
+    "acquired_at": "2026-11-17T09:55:00.909Z",
+    "expires_at": "2026-11-17T10:40:00.909Z",
     "verified_start_readback": true,
-    "verified_before_final_write": true,
+    "verified_before_final_write": false,
     "released": false
   },
   "acceptance": {
     "scheduled_cycle": true,
-    "full_all_board_scan": true,
+    "full_all_board_scan": false,
     "new_task_created_by_this_execution": false
   },
   "topview_scan": {
-    "checked_at": "2026-11-17T09:04:21.849Z",
-    "boards_scanned": 14,
-    "pages_scanned": 19,
-    "video_tasks_scanned": 678,
-    "status_counts": {
-      "success": 645,
-      "init": 6,
-      "fail": 27
-    },
-    "board": {
-      "name": "My First Board",
-      "id": "1a6244cf1ae747ef847d949a80d6133c"
-    },
+    "checked_at": null,
+    "boards_scanned": 0,
+    "pages_scanned": 0,
+    "video_tasks_scanned": 0,
+    "status_counts": null,
     "global_slot_capacity": 6,
-    "occupied_slots": 6,
-    "active_tasks": [
-      {
-        "task_id": "5d1f4fc1b4e548a7828892c73b672990",
-        "model": "Wan 3.0",
-        "duration": 30,
-        "queue": 3736,
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "status": "init",
-        "use_unlimited": true,
-        "credits_cost": 0,
-        "resolution": 720,
-        "aspect_ratio": "16:9"
-      },
-      {
-        "task_id": "90db5dd309db477eb346e8d82676f7b5",
-        "model": "Wan 3.0",
-        "duration": 30,
-        "queue": 3447,
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "status": "init",
-        "use_unlimited": true,
-        "credits_cost": 0,
-        "resolution": 720,
-        "aspect_ratio": "16:9"
-      },
-      {
-        "task_id": "425108630b0e48c9a4b299fc89ad88ee",
-        "model": "Wan 3.0",
-        "duration": 30,
-        "queue": 3158,
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "status": "init",
-        "use_unlimited": true,
-        "credits_cost": 0,
-        "resolution": 720,
-        "aspect_ratio": "16:9"
-      },
-      {
-        "task_id": "bfdb6d9fad7a4ab29492f7bb95c78033",
-        "model": "Seedance 2.0",
-        "duration": 15,
-        "queue": 2869,
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "status": "init",
-        "use_unlimited": true,
-        "credits_cost": 0,
-        "resolution": 720,
-        "aspect_ratio": "16:9"
-      },
-      {
-        "task_id": "d775c7a483a44f13ba1704a1c418b208",
-        "model": "Seedance 2.0",
-        "duration": 15,
-        "queue": 1940,
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "status": "init",
-        "use_unlimited": true,
-        "credits_cost": 0,
-        "resolution": 720,
-        "aspect_ratio": "16:9"
-      },
-      {
-        "task_id": "8c6d92662d1043c7a651168b2b8280ae",
-        "model": "Seedance 2.0",
-        "duration": 15,
-        "queue": 859,
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "status": "init",
-        "use_unlimited": true,
-        "credits_cost": 0,
-        "resolution": 720,
-        "aspect_ratio": "16:9"
-      }
-    ],
+    "occupied_slots": null,
+    "active_tasks": [],
     "website_authenticated": null,
-    "website_not_checked_reason": "Full read-only connector scan proved 6/6; no Create or UI preflight was permitted.",
     "create_performed": false
-  },
-  "queue_guard": {
-    "queue_sha256": "320e162ad5111792f6af06124deba5c2bc6d684c39aa5f6a6e2ef68f4ab90d7f",
-    "task_map_sha256": "a0647a71af5c6a1ef04672255d44154224b071a3a87ddf3efd17ef2b1d0745b1",
-    "readiness_queue_sha256": "320e162ad5111792f6af06124deba5c2bc6d684c39aa5f6a6e2ef68f4ab90d7f",
-    "readiness_task_map_sha256": "a0647a71af5c6a1ef04672255d44154224b071a3a87ddf3efd17ef2b1d0745b1",
-    "readiness_checked_at": "2026-11-17T08:10:39.936705Z",
-    "items_total": 35,
-    "states": {
-      "claimed": 0,
-      "submitting": 0,
-      "submission_unknown": 0,
-      "submitted": 11
-    },
-    "hashes_match": true
-  },
-  "dance_archive": {
-    "checked": true,
-    "folder_id": "1e1DFvcKeKrNdcHrdZaJRHqaT2vXvxatm",
-    "existing_files": 25,
-    "scene_counts": {
-      "28": 13,
-      "49": 6,
-      "51": 6
-    },
-    "all_nonzero": true,
-    "task_ids_in_names": true,
-    "new_ready_originals": 0,
-    "uploads": 0,
-    "duplicates_created": 0,
-    "grok_files_changed": false,
-    "note": "Fresh full Topview scan found no newly terminal dance/hangar video; Drive inventory unchanged."
-  },
-  "maintenance": {
-    "phase_a": {
-      "due": false,
-      "reason": "11:55 Europe/Moscow; previous 09:55 cycle completed",
-      "owner_tasks_open_for_chatgpt_any": 0,
-      "self_heal_status": "ok",
-      "project_status": {
-        "health": "ok",
-        "synced_at": "2026-11-17T08:42:24Z"
-      },
-      "canon_health": {
-        "status": "ok",
-        "warnings": 0,
-        "info": 6
-      }
-    },
-    "phase_b": {
-      "due": false,
-      "reason": "11:55 Europe/Moscow; previous 09:55 mail check completed"
-    },
-    "phase_c": {
-      "due": false,
-      "reason": "2026-11-17 is Tuesday in Europe/Moscow"
-    }
-  },
-  "owner_decisions": {
-    "checked": true,
-    "counts": {
-      "applied": 127,
-      "needs_owner": 1,
-      "superseded": 4,
-      "pending": 0,
-      "in_progress": 0
-    },
-    "unchanged_needs_owner_id": "d37ea54b-6b09-4283-892b-d6c3e189b82f"
-  },
-  "agent_relay": {
-    "checked": true,
-    "events_found": 0,
-    "polling_active": false,
-    "receipt_imitation": false
   },
   "peer_reconciliation": {
     "ordinary": {
       "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
       "last_run_id": "6ecb4b8a-10e0-8333-8d73-c449cba9f6b6",
-      "last_run_status": "in_progress",
-      "latest_result_run_id": "fa52f9a4-c040-8328-b2a9-b7918235fb96",
-      "receipt_run_id": "fa52f9a4-c040-8328-b2a9-b7918235fb96",
-      "receipt_scan_complete": false,
-      "current_cycle_receipt_matches_actual_run": false
+      "last_run_status": "completed",
+      "latest_result_run_id": "6ecb4b8a-10e0-8333-8d73-c449cba9f6b6"
     },
     "work": {
       "automation_id": "6acae6ab433481919e88665c520b8ef2",
-      "last_run_id": "4f49dd13-5af8-8329-b347-7732511c0399",
-      "recorded_status_at_final_peek": "in_progress",
+      "last_run_id": "edc8a077-6880-8320-ab98-e9c2d2dba280",
+      "recorded_status_at_start": "in_progress",
       "latest_result_run_id": null
     }
   },
-  "checked_at": "2026-11-17T09:04:21.849Z",
-  "outcome": "no_free_slot",
+  "checked_at": "2026-11-17T09:55:22.657Z",
+  "outcome": null,
   "blocker": null,
   "retryable": true
 }
