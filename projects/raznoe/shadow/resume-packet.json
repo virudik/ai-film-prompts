@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-17T19:53:52+00:00",
-  "source_head": "5464e81e99b4d26c86f37239b6775e478879d779",
-  "source_fingerprint": "08174ef8119032d550976dcb40f9349a2bbc28f3e6a4110c8c284c49c76965f6",
+  "checked_at": "2026-11-17T20:19:50+00:00",
+  "source_head": "278651f2ced7a9e26a0e35c230c9e579e7033b75",
+  "source_fingerprint": "8c76bf3cd351a22a5fc2ce4211f294f8a36900c28b5f7742347d3788319237b1",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -252,8 +252,8 @@
     },
     {
       "file": "projects/raznoe/project-status.json",
-      "sha256": "4e0130af5cc099726bc1310570bde60d3012275de280c7caad9aa1dea046089c",
-      "bytes": 10495
+      "sha256": "8ef3d7bc41ca9d4cba703956af660f473269b9db1e78d7db13685cf179b418df",
+      "bytes": 10692
     },
     {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
@@ -277,8 +277,8 @@
     },
     {
       "file": "projects/raznoe/video-prompts.md",
-      "sha256": "ebfd4d3ab27a28b9a6699ff3e88ce0977a70d06eb858b461fb30342bf3519cbd",
-      "bytes": 709615
+      "sha256": "d3c078906919e69f5ea32987b6ef80ece8eedce0c99087ef78343f293507e51a",
+      "bytes": 722105
     },
     {
       "file": "projects/raznoe/work-resume-register.json",
