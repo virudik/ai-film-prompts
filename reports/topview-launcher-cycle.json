@@ -10,51 +10,93 @@
   "route_generation": 3,
   "source_head": "3a375343658e07aadd50eb6946f142bcb79d8b83",
   "started_at": "2026-11-17T04:52:55.606Z",
-  "updated_at": "2026-11-17T04:52:55.606Z",
-  "phase": "started",
-  "status": "in_progress",
-  "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
+  "updated_at": "2026-11-17T04:54:19.028Z",
+  "phase": "completed",
+  "status": "completed",
+  "scan_complete": true,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
   "task_ids": [],
   "new_submissions": 0,
   "topview_credits_spent": 0,
-  "browser_transport": "not_invoked",
+  "browser_transport": "Topview connector read-only full scan; website Create not invoked because capacity is 6/6",
   "lease": {
     "holder": "chatgpt:work:65f87627-8d31-4781-a79e-53ac6d44c38a",
     "acquired_at": "2026-11-17T04:52:31.663Z",
     "expires_at": "2026-11-17T05:37:31.663Z",
     "verified_start_readback": true,
-    "released": false
+    "final_prewrite_readback": true,
+    "released": false,
+    "release_planned_after_final_receipt_readback": true
   },
   "acceptance": {
     "scheduled_cycle": true,
-    "full_all_board_scan": false,
+    "full_all_board_scan": true,
     "new_task_created_by_this_execution": false,
-    "project_board_verified": false,
+    "project_board_verified": true,
     "readiness_hashes_match": true,
     "continue_preflight_ready_for_resume": true,
     "full_intake_required_due_material_owner_change": false,
     "full_intake_completed": false,
     "work_quota_restoration_proven": false
   },
-  "checked_at": null,
-  "outcome": null,
+  "checked_at": "2026-11-17T04:54:19.028Z",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": true,
   "next_action_unchanged": true,
   "scan": {
-    "scope_complete": false
+    "boards_scanned": 14,
+    "pages_scanned": 19,
+    "video_tasks_scanned": 678,
+    "success": 645,
+    "active": 6,
+    "failed": 27,
+    "scope_complete": true,
+    "project_board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "project_board_name": "My First Board",
+    "active_task_ids": [
+      "5d1f4fc1b4e548a7828892c73b672990",
+      "90db5dd309db477eb346e8d82676f7b5",
+      "425108630b0e48c9a4b299fc89ad88ee",
+      "bfdb6d9fad7a4ab29492f7bb95c78033",
+      "d775c7a483a44f13ba1704a1c418b208",
+      "8c6d92662d1043c7a651168b2b8280ae"
+    ],
+    "active_all_unlimited": true,
+    "active_all_credits_cost_zero": true,
+    "free_slots": 0
+  },
+  "queue": {
+    "items": 35,
+    "pending_claims": 0,
+    "submitted_task_ids": 11,
+    "source_queue_sha256": "320e162ad5111792f6af06124deba5c2bc6d684c39aa5f6a6e2ef68f4ab90d7f",
+    "source_task_map_sha256": "33f5218cded30fe498cf92e3e94f4aabbe11057f7e1a297c40359659aef2fcc2",
+    "readiness_hashes_match": true
   },
   "dance_archive": {
-    "phase": "pending_after_priority_slot_scan",
+    "phase": "verified_complete_for_current_ready_set",
     "destination_folder_id": "1e1DFvcKeKrNdcHrdZaJRHqaT2vXvxatm",
-    "checked": false,
+    "checked": true,
+    "checked_at": "2026-11-17T04:54:19.028Z",
+    "existing_files": 25,
+    "scene_28_files": 13,
+    "scene_49_files": 6,
+    "scene_51_files": 6,
+    "all_filenames_include_topview_task_id": true,
+    "unique_task_ids": 25,
+    "all_referenced_tasks_confirmed_success": true,
+    "all_referenced_tasks_have_origin_video": true,
+    "all_files_nonzero_size": true,
+    "new_ready_task_ids": [],
     "new_files_saved": 0,
-    "duplicate_uploads_prevented": false,
+    "duplicate_uploads_prevented": true,
+    "hash_verification": "not_available from current Topview and Drive metadata; exact task IDs, success state, origin-video presence, filenames and nonzero file sizes verified",
     "grok_files_moved_or_deleted": false,
-    "technical_ready_is_not_artistic_approval": true
+    "technical_ready_is_not_artistic_approval": true,
+    "note": "Fresh full Topview scan found no new successful dance/hangar task beyond the 25 exact IDs already present in the requested Drive folder. Active S51 task 8c6d92662d1043c7a651168b2b8280ae remains init and was not archived."
   },
   "peer_runtime": {
     "ordinary_last_run": {
@@ -78,9 +120,11 @@
     "work_latest_result_run_id": null
   },
   "maintenance": {
-    "monitor_role": "skip; robot primary healthy ~22 min",
+    "monitor_role": "skip; robot primary healthy ~22 min; queue and independent phases still checked",
     "phases_a_b": "not_due_07:55_msk",
     "phase_c": "not_due_tuesday",
-    "owner_tasks_open": 0
+    "owner_tasks_open": 0,
+    "owner_decisions": "pending=0; in_progress=0; one old needs_owner owner_task from 2026-11-01 remains",
+    "work_restoration": "canonical route already records verified restoration on 2026-11-02; this cycle does not treat enabled/in_progress as fresh GUI or quota proof and makes no route change"
   }
 }
