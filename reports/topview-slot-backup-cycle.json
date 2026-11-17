@@ -1,43 +1,39 @@
 {
   "schema_version": 1,
   "project": "seregius",
-  "source": "ChatGPT scheduled ordinary",
-  "runner": "chatgpt_scheduled_task",
-  "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "run_id": "e5bdbe66-b694-8327-b3c4-8dbf6beb7bb8",
-  "run_id_unavailable_reason": null,
-  "execution_instance_id": "48bd4e55-1faa-4e6a-8db8-6e0dbb3ec005",
-  "route_generation": 3,
-  "source_head": "eaf78b9069cc259c1690e279b1a8987e6a1eeb53",
-  "started_at": "2026-11-17T15:08:58.732Z",
-  "updated_at": "2026-11-17T15:15:54.263Z",
-  "completed_at": "2026-11-17T15:15:54.263Z",
+  "source": "Dot scheduled own browser",
+  "runner": "dot_scheduled_handler",
+  "automation_id": "6afc8b674794819192ba0b1415c5a220",
+  "automation_context_version": "a3ee12acd936406cbd4e23c8adab7fb9f827da78a17acf064254fb0929be9403",
+  "run_id": null,
+  "run_id_unavailable_reason": "Not exposed in delegated actual scheduled wake or automations.get",
+  "execution_instance_id": "951db61a-a3d7-46dc-a514-3f11dec71a1f",
+  "route_generation": 6,
+  "source_head": "3b957791b0dbecc72fadee570752940644b16349",
+  "actual_trigger": "scheduled",
+  "started_at": "2026-11-17T19:59:49.242928+00:00",
+  "updated_at": "2026-11-17T20:01:10.351Z",
   "phase": "completed",
-  "status": "completed",
-  "outcome": "blocked_browser_input_and_paid_mode",
-  "blocker": {
-    "category": "blocked_browser_input_and_paid_mode",
-    "item_id": "S89D-WAN30",
-    "reason": "A sixth task completed at 2026-11-17 15:05:12 UTC, opening one physical slot. Full read-only Topview scan of 14 boards/19 pages/678 videos at 15:08:28Z found 5 active. Live robot telemetry at 15:10:31Z also shows 5/6. The earlier measured TinyFish native browser preflight for the same Wan 3.0 form on 2026-11-16 could not import canonical image files (0/5) and showed a 12-credit paid Create instead of Unlimited0. No verified new website capability to resolve the blocker; a fresh Work scheduled runtime completed at 15:03:59Z, so Work unavailability is not confirmed. No metered browser run or Create is authorized without new evidence. The S89D UI itself was not opened.",
-    "evidence": "reports/tinyfish-topview-preflight-2026-11-16-S89C.json",
-    "retry_condition": "New independently verified native image/video import and Unlimited0 controls on exact board, or confirmed Work unavailability plus new browser capability evidence."
+  "outcome": "no_update_all_slots_occupied",
+  "browser_transport": "dot_own_browser",
+  "browser_used": false,
+  "scan": {
+    "complete": true,
+    "checked_at": "2026-11-17T19:59:05.223Z",
+    "boards_listed": 14,
+    "pages_scanned": 21,
+    "tasks_scanned": 1063,
+    "statuses": {
+      "success": 1014,
+      "fail": 43,
+      "init": 6
+    }
   },
-  "retryable": true,
-  "scan_complete": true,
-  "occupied_slots": 5,
-  "free_slots": 1,
-  "selected_item": "S89D-WAN30",
-  "item_ids": [
-    "S89D-WAN30"
-  ],
-  "task_ids": [
-    "5d1f4fc1b4e548a7828892c73b672990",
-    "90db5dd309db477eb346e8d82676f7b5",
-    "425108630b0e48c9a4b299fc89ad88ee",
-    "bfdb6d9fad7a4ab29492f7bb95c78033",
-    "d775c7a483a44f13ba1704a1c418b208"
-  ],
+  "occupied_slots": 6,
+  "free_slots": 0,
+  "next_item_if_capacity": "S89D-WAN30-R2",
   "active_task_ids": [
+    "9d4b3b177e6d452abe499537a05f454c",
     "5d1f4fc1b4e548a7828892c73b672990",
     "90db5dd309db477eb346e8d82676f7b5",
     "425108630b0e48c9a4b299fc89ad88ee",
@@ -45,72 +41,27 @@
     "d775c7a483a44f13ba1704a1c418b208"
   ],
   "new_submissions": 0,
-  "topview_credits_spent": 0,
-  "browser_transport": "not_used_existing_unresolved_input_import_and_unlimited0",
-  "tinyfish": {
-    "run_ids": [],
-    "steps": 0,
-    "estimated_cost_usd": 0,
-    "confirmed_charge_usd": 0
-  },
-  "lease": {
-    "holder": "chatgpt:ordinary:48bd4e55-1faa-4e6a-8db8-6e0dbb3ec005",
-    "acquired_at": "2026-11-17T15:08:58.732Z",
-    "expires_at": "2026-11-17T15:23:58.732Z",
-    "acquisition_commit": "eaf78b9069cc259c1690e279b1a8987e6a1eeb53",
-    "verified_start_readback": true,
-    "release_state": "released_in_same_CAS_as_final_receipt",
-    "verified_before_final_write": true,
-    "released_at": "2026-11-17T15:15:54.263Z"
-  },
-  "previous_receipt": {
-    "execution_instance_id": "89f521ba-d1dd-46cc-8c70-0c1bc6b396c0",
-    "updated_at": "2026-11-17T14:06:02.260Z",
-    "status": "completed"
-  },
-  "acceptance": {
-    "scheduled_cycle_context": true,
-    "actual_runtime_run_id_verified": true,
-    "topview_read_only_verified": true,
-    "all_board_scan_verified_this_run": true,
-    "tinyfish_login_verified_this_run": false,
-    "ui_file_transfer_verified_this_run": false,
-    "unlimited_zero_verified_in_ui_this_run": false,
-    "new_task_id_verified_this_run": false
-  },
-  "scan": {
-    "method": "Topview connector read-only, all boards",
-    "boards_listed": 14,
-    "pages_scanned": 19,
-    "videos_scanned": 678,
-    "all_boards_all_pages": true,
-    "checked_at": "2026-11-17T15:08:28.506Z",
-    "verified_telemetry_checked_at": "2026-11-17T15:10:31Z",
-    "task_completion": "8c6d92662d1043c7a651168b2b8280ae",
-    "five_active_ids": [
-      "5d1f4fc1b4e548a7828892c73b672990",
-      "90db5dd309db477eb346e8d82676f7b5",
-      "425108630b0e48c9a4b299fc89ad88ee",
-      "bfdb6d9fad7a4ab29492f7bb95c78033",
-      "d775c7a483a44f13ba1704a1c418b208"
-    ]
-  },
-  "queue_items_count": 34,
-  "queue_pending_claim_count": 0,
-  "owner_tasks_open_count": 0,
-  "next_item_if_capacity": "S89D-WAN30",
-  "next_action_unchanged": true,
   "queue_pending_claim_items": [],
-  "queue_states": {
-    "blocked_owner_decision": 1,
-    "waiting_for_slot": 20,
-    "submitted": 10,
-    "blocked_inputs": 3
+  "owner_tasks_open_count": 0,
+  "status": "completed",
+  "blocker": null,
+  "retryable": false,
+  "next_action_unchanged": true,
+  "browser_not_used_reason": "Full account-wide read-only scan verified 6/6 active; no UI preflight/Create needed",
+  "lease": {
+    "holder": "chatgpt:ordinary:951db61a-a3d7-46dc-a514-3f11dec71a1f",
+    "acquired_at": "2026-11-17T19:59:49.242928+00:00",
+    "acquisition_commit": "2885183c0f246f9ee7fe55fd61eeb91b0dc9165b",
+    "verified_start_readback": true,
+    "released_at": "2026-11-17T20:01:10.351Z",
+    "release_state": "released_in_same_CAS_as_final_receipt"
   },
-  "sha_independently_recomputed": {
-    "queue_matches": true,
-    "task_map_matches": true,
-    "checked_at": "2026-11-17T15:12:37.836Z"
+  "execution": {
+    "state": "completed",
+    "stage": "capacity_checked_no_create",
+    "updated_at": "2026-11-17T20:01:10.351Z",
+    "completed_at": "2026-11-17T20:01:10.351Z"
   },
-  "completed_source_head": "7de9824088e9a59f44f0c7489ce7b96fe2b1e518"
+  "completed_at": "2026-11-17T20:01:10.351Z",
+  "receipt_write_note": "Initial receipt CAS rejected after concurrent robot commit; fresh main inspected and exact own lease reverified before final receipt."
 }

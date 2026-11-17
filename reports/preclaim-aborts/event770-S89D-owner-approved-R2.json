@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "kind": "owner_authorized_new_attempt_not_historical_recovery",
+  "item_id": "S89D-WAN30-R2",
+  "previous_item_id": "S89D-WAN30",
+  "recorded_at": "2026-11-17T18:24:12.381410+00:00",
+  "owner_instruction": {
+    "date": "2026-11-17",
+    "priority_quote": "Сцену эту что не получилась следующей ставь тогда на запуск и проверь чтобы работало всё",
+    "rerun_quote": "Убери блокировку. Если она и запускалась то давно а это повторный запуск же всей сцены заново"
+  },
+  "decision": "Queue one separate fresh complete rerun, first in explicit order. Old item remains blocked_recovery with all historical evidence unchanged. This is not proof the old Create did not occur.",
+  "historical_source_binding": "unproven; no_published_claim report not used to clear old hold",
+  "old_session_control": "Original managing worker explicitly stopped old session and will not continue its claim/intent/verify/Create; original raw command transcript remains unavailable.",
+  "new_attempt_limits": {
+    "max_new_submissions": 1,
+    "automatic_retry": false,
+    "credits": 0,
+    "website_unlimited_required": true,
+    "same_canonical_prompt_and_reference_sha": true,
+    "same_duration_resolution_aspect": true
+  },
+  "last_complete_provider_scan": {
+    "checked_at": "2026-11-17T18:16:14.723Z",
+    "boards": 14,
+    "pages": 21,
+    "tasks": 1063,
+    "occupied": 6,
+    "matching_S89D_tasks": [],
+    "status": "historical_only_not_launch_permit",
+    "sha256": "0b783f29c599310bc56b9da90603e06c14c1ccb8aa0980548a2f673bc57f939c"
+  },
+  "later_scan": "Interrupted by user; not treated as complete and not repeated. No provider action performed.",
+  "live_launch_requirement": "Fresh complete global scan and exact-input reconciliation, actual current slots/peer/route/lease/claim/intent/verify and website Unlimited0 immediately before any Create. Stop for active or ambiguous concurrent sender. Never continue old session.",
+  "queue_checks": {
+    "old_item_unchanged": true,
+    "selector_first": "S89D-WAN30-R2",
+    "priority": 0.304,
+    "new_item_input_readiness": "ready",
+    "dependencies_empty": true,
+    "no_active_claim_submitting_unknown_on_main": true
+  },
+  "create_allowed": false,
+  "new_session_allowed_by_this_report": false,
+  "markers_modified": false,
+  "retry_budget_reset": false,
+  "queue_base_main_sha": "e7a635cd7b7fe5c9a57f433bcfe69982ba41efe5",
+  "review": "Independent guard_fix review approved queue-only owner-authorized new R2, not old hold recovery.",
+  "tests": {
+    "no_published_claim": 19,
+    "queue_readiness": 13,
+    "all_passed": true
+  }
+}
