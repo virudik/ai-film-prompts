@@ -5,23 +5,23 @@
   "runner": "chatgpt_scheduled_task",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
   "execution_instance_id": "b7fb18cf-27c4-4ae4-8e7e-d119bf5e15ce",
-  "run_id": null,
-  "runtime_run_id_source": "Actual platform runtime run_id not exposed; Automations.get for this ID returns NOT_FOUND/404",
+  "run_id": "4bbe7476-8830-8324-a7d2-fbcf01245cca",
+  "runtime_run_id_source": "Automations.peek current HH:00 last_run.id, scheduled_for 2026-11-17T04:00:00Z; Automations.get failed 404",
   "route_generation": 3,
   "source_head": "1ae18f2dfe3263af2b4e8a1a3ffd1fcf562f6b0c",
   "started_at": "2026-11-17T04:02:25.867Z",
-  "updated_at": "2026-11-17T04:02:53.886Z",
-  "phase": "started",
-  "status": "running_read_only",
+  "updated_at": "2026-11-17T04:04:56.246Z",
+  "phase": "completed",
+  "status": "no_free_slot",
   "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
   "item_ids": [],
   "task_ids": [],
   "new_submissions": 0,
   "topview_credits_spent": 0,
-  "browser_transport": "not_used",
+  "browser_transport": "not_used_capacity_6_of_6",
   "tinyfish": {
     "run_ids": [],
     "steps": 0,
@@ -33,9 +33,9 @@
     "acquired_at": "2026-11-17T04:02:25.867Z",
     "expires_at": "2026-11-17T04:14:25.867Z",
     "acquisition_commit": "787a42914454eddfe87df601392f62834df6d164",
-    "started_receipt_commit": null,
-    "released_at": null,
-    "release_state": "held"
+    "started_receipt_commit": "c9ad2db418fc60d689a56b37a9b978d36e540e4b",
+    "released_at": "2026-11-17T04:04:56.246Z",
+    "release_state": "released_in_same_CAS_as_final_receipt"
   },
   "previous_receipt": {
     "execution_instance_id": "f172a204-8e24-401f-9198-a8d449913f1e",
@@ -44,16 +44,79 @@
   },
   "acceptance": {
     "scheduled_cycle_context": true,
-    "actual_runtime_run_id_verified": false,
-    "topview_read_only_verified": false,
+    "actual_runtime_run_id_verified": true,
+    "topview_read_only_verified": true,
     "all_board_scan_verified_this_run": false,
     "tinyfish_login_verified_this_run": false,
     "ui_file_transfer_verified_this_run": false,
     "unlimited_zero_verified_in_ui_this_run": false,
     "new_task_id_verified_this_run": false
   },
-  "outcome": "in_progress",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": false,
-  "checked_at": "2026-11-17T04:02:53.886Z"
+  "checked_at": "2026-11-17T04:04:51.222Z",
+  "scan": {
+    "method": "Topview connector direct read-only board task scan",
+    "checked_at": "2026-11-17T04:04:51.222Z",
+    "boards_listed": 14,
+    "main_board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "main_board_video_total": 511,
+    "main_board_page": 1,
+    "main_board_page_size": 100,
+    "main_board_page_scanned": 100,
+    "complete": false,
+    "partial_reason": "Six active init tasks on target board exhaust global capacity; all-board scan not needed for no-free decision",
+    "active_count": 6,
+    "active_task_ids": [
+      "5d1f4fc1b4e548a7828892c73b672990",
+      "90db5dd309db477eb346e8d82676f7b5",
+      "425108630b0e48c9a4b299fc89ad88ee",
+      "bfdb6d9fad7a4ab29492f7bb95c78033",
+      "d775c7a483a44f13ba1704a1c418b208",
+      "8c6d92662d1043c7a651168b2b8280ae"
+    ],
+    "task_status_counts": {
+      "init": 6,
+      "success": 90,
+      "fail": 4
+    },
+    "active_unlimited_count": 6,
+    "active_credits_cost": 0,
+    "global_capacity": 6,
+    "free_slots": 0
+  },
+  "active_task_ids": [
+    "5d1f4fc1b4e548a7828892c73b672990",
+    "90db5dd309db477eb346e8d82676f7b5",
+    "425108630b0e48c9a4b299fc89ad88ee",
+    "bfdb6d9fad7a4ab29492f7bb95c78033",
+    "d775c7a483a44f13ba1704a1c418b208",
+    "8c6d92662d1043c7a651168b2b8280ae"
+  ],
+  "queue_items_count": 35,
+  "queue_readiness_items_count": 24,
+  "queue_pending_claim_count": 0,
+  "queue_pending_claim_items": [],
+  "owner_tasks_open_count": 0,
+  "sha_independently_recomputed": {
+    "queue_matches": null,
+    "task_map_matches": null,
+    "explanation": "Not recomputed during this no-free cycle; preceding Work HH:55 verified hashes"
+  },
+  "next_item_if_capacity": "S89D-WAN30",
+  "next_item_reason": "Next candidate only; will require fresh authorization/readiness, full anti-duplicate and UI preflight",
+  "peer_verified_submission": {
+    "item_id": "S89C-WAN30",
+    "task_id": "5d1f4fc1b4e548a7828892c73b672990",
+    "created_by_this_run": false,
+    "still_active": true
+  },
+  "peer_runtime": {
+    "work_hourly_last_run_id": "a589c3aa-1d98-832e-aba4-abad7f154716",
+    "work_hourly_scheduled_for": "2026-11-17T03:55:00Z",
+    "relay_last_run_id": "2bc4e4c6-bc54-8331-9dc9-b54bd7946ebd",
+    "ordinary_current_runtime_run_id": "4bbe7476-8830-8324-a7d2-fbcf01245cca"
+  },
+  "next_action_unchanged": true
 }
