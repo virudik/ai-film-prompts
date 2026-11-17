@@ -34,7 +34,9 @@ if cmd=='git':
   if not code:s['published']=True
 elif '--prepare' in args:s['published']=False
 elif '--notify' in args:
- if not s['published']:code=90
+ s['notify_attempts']=s.get('notify_attempts',0)+1
+ if mode=='notify_mismatch' and s['notify_attempts']==1:code=1
+ elif not s['published']:code=90
  else:s['sends']+=1
 p.write_text(json.dumps(s))
 sys.exit(code)
@@ -62,6 +64,13 @@ sys.exit(code)
     def test_rejected_prepare_recomputes_without_sending(self):
         result,state=self.run_flow('first_reject')
         self.assertEqual(result.returncode,0,result.stderr)
+        self.assertEqual(state['sends'],1)
+        self.assertEqual(state['pushes'],3)
+
+    def test_notify_mismatch_recomputes_before_sending(self):
+        result,state=self.run_flow('notify_mismatch')
+        self.assertEqual(result.returncode,0,result.stderr)
+        self.assertEqual(state['notify_attempts'],2)
         self.assertEqual(state['sends'],1)
         self.assertEqual(state['pushes'],3)
 
