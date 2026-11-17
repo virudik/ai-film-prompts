@@ -72,13 +72,13 @@ class PrimaryDispatchTests(unittest.TestCase):
                 self.assertEqual(any(s.startswith('assignees[]=') for s in create), target=='backup')
                 self.assertEqual(dm.call_count, 1 if target=='primary' else 0)
 
-    def test_multiple_heartbeats_and_final_receipt_refresh_suppression(self):
+    def test_multiple_active_heartbeats_refresh_suppression(self):
         n = FakeNotifier()
         rt.maybe_rewake(self.root, FakeGit(), n, NOW, z(NOW))
         event_id = n.wakes[0]['event_id']
         for minute, stage in ((9, 'intake'), (25, 'read_only_validation'), (45, 'finalization')):
             progress = NOW + timedelta(minutes=minute)
-            receipt = {'event_id': event_id, 'outcome': 'started' if minute < 45 else 'no_update', 'checked_at': z(progress),
+            receipt = {'event_id': event_id, 'outcome': 'started', 'checked_at': z(progress),
                        'execution': {'updated_at': z(progress), 'stage': stage}}
             self.receipts([receipt])
             self.assertEqual(rt.handler_receipt(self.root, event_id, progress), receipt)
@@ -88,6 +88,83 @@ class PrimaryDispatchTests(unittest.TestCase):
         t = NOW + timedelta(minutes=75)
         rt.maybe_rewake(self.root, FakeGit(), n, t, z(t))
         self.assertEqual(n.wakes[-1]['dispatch_target'], 'backup')
+
+    def test_terminal_blocked_retryable_does_not_hide_behind_fresh_timestamp(self):
+        for state, outcome in (('blocked', 'blocked'), ('completed', 'blocked_browser'),
+                               ('started', 'blocked_browser')):
+            with self.subTest(state=state, outcome=outcome):
+                (self.root/'automation-monitor-status.json').write_text('{}')
+                n = FakeNotifier()
+                rt.maybe_rewake(self.root, FakeGit(), n, NOW, z(NOW))
+                self.receipts([{'event_id': n.wakes[0]['event_id'], 'outcome': outcome,
+                               'retryable': True, 'checked_at': z(NOW+timedelta(minutes=9)),
+                               'execution': {'state': state, 'completed_at': z(NOW+timedelta(minutes=9))}}])
+                t = NOW+timedelta(minutes=10)
+                rt.maybe_rewake(self.root, FakeGit(), n, t, z(t))
+                self.assertEqual(n.wakes[-1]['dispatch_reason'], 'primary_blocked_retryable')
+                self.assertIn('never_repeat_unknown_Create', n.wakes[-1]['dispatch_policy'])
+                rt.maybe_rewake(self.root, FakeGit(), n, t+timedelta(minutes=10), z(t+timedelta(minutes=10)))
+                self.assertEqual(len(n.wakes), 2)  # backup remains paced, no wake loop
+
+    def test_terminal_receipt_does_not_renew_active_progress_grace(self):
+        for outcome in ('no_update', 'submitted', 'submission_unknown', 'read_only_test_complete'):
+            with self.subTest(outcome=outcome):
+                (self.root/'automation-monitor-status.json').write_text('{}')
+                n = FakeNotifier()
+                rt.maybe_rewake(self.root, FakeGit(), n, NOW, z(NOW))
+                self.receipts([{'event_id': n.wakes[0]['event_id'], 'outcome': outcome,
+                               'checked_at': z(NOW+timedelta(minutes=19)),
+                               'execution': {'state': 'finished'}}])
+                t = NOW+timedelta(minutes=20)
+                rt.maybe_rewake(self.root, FakeGit(), n, t, z(t))
+                self.assertEqual(n.wakes[-1]['dispatch_target'], 'backup')
+
+    def test_blocked_receipt_never_overrides_live_or_malformed_lease_or_failed_cas(self):
+        for expiry in (z(NOW+timedelta(minutes=45)), 'invalid', None):
+            with self.subTest(expiry=expiry):
+                (self.root/'automation-monitor-status.json').write_text('{}')
+                (self.root/'ops/canon-lock.json').write_text('{}')
+                n = FakeNotifier()
+                rt.maybe_rewake(self.root, FakeGit(), n, NOW, z(NOW))
+                self.receipts([{'event_id': n.wakes[0]['event_id'], 'outcome': 'blocked',
+                               'retryable': True, 'checked_at': z(NOW+timedelta(minutes=9))}])
+                if expiry is not None:
+                    (self.root/'ops/canon-lock.json').write_text(json.dumps({'state':'held','expires_at':expiry}))
+                t = NOW+timedelta(minutes=10)
+                rt.maybe_rewake(self.root, FakeGit(push_ok=expiry is not None), n, t, z(t))
+                self.assertEqual(len(n.wakes), 1)
+
+    def test_untrustworthy_blocked_receipts_do_not_trigger_early_backup(self):
+        for change in ({'checked_at': z(NOW-timedelta(minutes=1))},
+                       {'checked_at': z(NOW+timedelta(minutes=30))},
+                       {'event_id': 'other:event'}, {'actor': 'grok'}):
+            with self.subTest(change=change):
+                (self.root/'automation-monitor-status.json').write_text('{}')
+                self.cfg['wake_roles'] = {'primary_actor':'dot', 'backup_actor':'grok'}
+                (self.root/'ops/relay-wake.json').write_text(json.dumps(self.cfg))
+                n = FakeNotifier()
+                rt.maybe_rewake(self.root, FakeGit(), n, NOW, z(NOW))
+                receipt = {'event_id': n.wakes[0]['event_id'], 'actor':'dot', 'outcome':'blocked',
+                           'retryable': True, 'checked_at':z(NOW+timedelta(minutes=9))}
+                receipt.update(change)
+                self.receipts([receipt])
+                t = NOW+timedelta(minutes=10)
+                rt.maybe_rewake(self.root, FakeGit(), n, t, z(t))
+                self.assertEqual(len(n.wakes), 1)
+
+    def test_new_terminal_receipt_overrides_earlier_started_in_either_array_order(self):
+        for reverse in (False, True):
+            (self.root/'automation-monitor-status.json').write_text('{}')
+            n = FakeNotifier()
+            rt.maybe_rewake(self.root, FakeGit(), n, NOW, z(NOW))
+            event_id = n.wakes[0]['event_id']
+            receipts = [{'event_id':event_id, 'outcome':'started', 'checked_at':z(NOW+timedelta(minutes=5))},
+                        {'event_id':event_id, 'outcome':'blocked', 'retryable':True,
+                         'checked_at':z(NOW+timedelta(minutes=9))}]
+            self.receipts(receipts[::-1] if reverse else receipts)
+            t = NOW+timedelta(minutes=10)
+            rt.maybe_rewake(self.root, FakeGit(), n, t, z(t))
+            self.assertEqual(n.wakes[-1]['dispatch_reason'], 'primary_blocked_retryable')
 
     def test_no_ack_does_not_wake_backup_at_ten_minutes(self):
         n = FakeNotifier()

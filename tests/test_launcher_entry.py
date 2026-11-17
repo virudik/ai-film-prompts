@@ -86,6 +86,152 @@ class EntryTests(unittest.TestCase):
         p=Path(self.tmp.name)/'session.busy'
         entry.write_exclusive(p,{'first':True})
         with self.assertRaises(FileExistsError):entry.write_exclusive(p,{'second':True})
+    def test_snapshot_rejection_does_not_consume_unstarted_claim_session(self):
+        request = Path(self.tmp.name)/'request.json';request.write_text(json.dumps(self.request))
+        session = Path(self.tmp.name)/'session.json'
+        argv=['launcher_entry.py',str(self.root),'claim','--request',str(request),'--session',str(session)]
+        for snapshots in ([entry.lc.Blocked('checkout_must_equal_fresh_origin_main')],
+                          ['a'*40, entry.lc.Blocked('checkout_must_equal_fresh_origin_main')],
+                          ['a'*40, 'b'*40]):
+            with self.subTest(snapshots=snapshots), patch.object(sys,'argv',argv), \
+                 patch.object(entry,'snapshot',side_effect=snapshots), \
+                 patch.object(entry,'materialize_snapshot'), patch.object(entry,'step') as step, \
+                 patch('sys.stdout',new_callable=io.StringIO):
+                self.assertEqual(entry.main(),2)
+                step.assert_not_called()
+                self.assertFalse(session.exists())
+                self.assertFalse(session.with_name(session.name+'.busy').exists())
+
+    def test_existing_busy_marker_survives_snapshot_failure_and_success(self):
+        request=Path(self.tmp.name)/'request.json';request.write_text(json.dumps(self.request))
+        session=Path(self.tmp.name)/'session.json'
+        busy=session.with_name(session.name+'.busy');busy.write_text('original crash marker')
+        argv=['launcher_entry.py',str(self.root),'claim','--request',str(request),'--session',str(session)]
+        for snapshots in ([entry.lc.Blocked('checkout_must_equal_fresh_origin_main')], ['a'*40,'a'*40]):
+            with self.subTest(snapshots=snapshots), patch.object(sys,'argv',argv), \
+                 patch.object(entry,'snapshot',side_effect=snapshots), \
+                 patch.object(entry,'materialize_snapshot'), patch.object(entry,'step') as step, \
+                 patch('sys.stdout',new_callable=io.StringIO):
+                self.assertEqual(entry.main(),2)
+                step.assert_not_called()
+                self.assertEqual(busy.read_text(),'original crash marker')
+
+    def test_error_after_exclusive_marker_retains_anti_replay_guard(self):
+        request=Path(self.tmp.name)/'request.json';request.write_text(json.dumps(self.request))
+        session=Path(self.tmp.name)/'session.json'
+        argv=['launcher_entry.py',str(self.root),'claim','--request',str(request),'--session',str(session)]
+        with patch.object(sys,'argv',argv), patch.object(entry,'snapshot',return_value='a'*40), \
+             patch.object(entry,'materialize_snapshot'), \
+             patch.object(entry,'step',side_effect=entry.lc.Blocked('after_phase_entry')), \
+             patch('sys.stdout',new_callable=io.StringIO):
+            self.assertEqual(entry.main(),2)
+            self.assertTrue(session.with_name(session.name+'.busy').exists())
+
+    def abort_fixture(self):
+        session=Path(self.tmp.name)/'aborted-session.json'
+        session.with_name(session.name+'.busy').write_text(json.dumps({'phase':'claim'}))
+        failure=Path(self.tmp.name)/'failure.json'
+        failure.write_text(json.dumps({'checks_passed':False,'create_allowed':False,
+                                       'reason':'checkout_must_equal_fresh_origin_main'}))
+        (self.root/entry.lc.LOCK).write_text(json.dumps({'state':'free'}))
+        process={'exited':True,'exit_code':2,'output_complete':True,'phase':'claim',
+                 'session_path':str(session.resolve())}
+        original=Path(self.tmp.name)/'original-request.json';original.write_text(json.dumps(self.request))
+        process['provenance']={'argv_request_path':str(original.resolve()),
+            'captured_request_sha256':entry.hashlib.sha256(original.read_bytes()).hexdigest(),
+            'runner_record_id':'actual-command-record',
+            'execution_instance_id':self.request['actor']['execution_instance_id'],
+            'legacy_source_sha256':'76b2b7e15a8394e70ad1338148f50ee03006fc0c89d8ef552a0bfd95e76fca31',
+            'marker_absent_before_invocation':True,'marker_created_by_this_invocation':True,
+            'no_remaining_orchestrator':True,'argv_phase':'claim','argv_session_path':str(session.resolve()),
+            'captured_stdout_sha256':entry.hashlib.sha256(failure.read_bytes()).hexdigest()}
+        (self.root/entry.ledger_tools.PATH).write_text(json.dumps({'runs':{}}))
+        return session,failure,process
+
+    def abort_report(self, session, failure, process, scan=None):
+        return entry.assess_preclaim_abort(self.root,session,failure,process,self.request['actor'],
+                   'S-example',scan or self.request['scan'],fixtures.NOW,'a'*40,Path(self.tmp.name)/'original-request.json')
+
+    def test_proven_preclaim_abort_is_only_report_and_preserves_marker(self):
+        session,failure,process=self.abort_fixture()
+        marker=session.with_name(session.name+'.busy');before=marker.read_bytes()
+        report=self.abort_report(session,failure,process)
+        self.assertTrue(report['eligible_for_abort_record'])
+        self.assertFalse(report['create_allowed'])
+        self.assertFalse(report['new_session_allowed_by_this_report'])
+        self.assertNotIn(str(session),json.dumps(report))
+        self.assertNotIn('process_result',report)
+        self.assertEqual(marker.read_bytes(),before)
+        self.assertFalse(session.exists())
+
+    def test_abort_assessment_rejects_incomplete_process_or_session_evidence(self):
+        session,failure,process=self.abort_fixture()
+        for changes in ({'exited':False},{'exit_code':0},{'output_complete':False},
+                        {'phase':'verify'},{'session_path':'other'}):
+            with self.subTest(changes=changes),self.assertRaises(entry.lc.Blocked):
+                self.abort_report(session,failure,dict(process,**changes))
+        for suffix in ('','.pending'):
+            path=session.with_name(session.name+suffix);path.write_text('{}')
+            with self.assertRaises(entry.lc.Blocked):self.abort_report(session,failure,process)
+            path.unlink()
+        for body in ({'phase':'intent'},{'phase':'verify'}):
+            session.with_name(session.name+'.busy').write_text(json.dumps(body))
+            with self.assertRaises(entry.lc.Blocked):self.abort_report(session,failure,process)
+
+    def test_abort_assessment_rejects_peer_action_unknown_or_unavailable_scan(self):
+        session,failure,process=self.abort_fixture()
+        for lock in ({'state':'held','expires_at':'invalid'}, {'state':'held','expires_at':'2000-01-01T00:00:00Z'}, {}):
+            (self.root/entry.lc.LOCK).write_text(json.dumps(lock))
+            with self.assertRaises(entry.lc.Blocked):self.abort_report(session,failure,process)
+        (self.root/entry.lc.LOCK).write_text(json.dumps({'state':'free'}))
+        for changes in ({'claim':{'holder':'grok'}},{'state':'submission_unknown'},
+                        {'state':'submitted','task_id':'new-task'}):
+            changed=copy.deepcopy(self.queue);changed['items'][0].update(changes)
+            (self.root/entry.lc.QUEUE).write_text(json.dumps(changed))
+            with self.assertRaises(entry.lc.Blocked):self.abort_report(session,failure,process)
+        (self.root/entry.lc.QUEUE).write_text(json.dumps(self.queue))
+        for changes in ({'complete':False},{'free_slots':0},{'checked_at':'2000-01-01T00:00:00Z'},
+                        {'item_reconciliation':{'S-example':{'complete':True,'matched_task_ids':['peer-task'],'ambiguous':False}}}):
+            with self.subTest(changes=changes),self.assertRaises(entry.lc.Blocked):
+                self.abort_report(session,failure,process,dict(self.request['scan'],**changes))
+
+    def test_abort_assessment_rejects_lost_output_or_possible_transaction(self):
+        session,failure,process=self.abort_fixture()
+        for body in ({'checks_passed':False,'create_allowed':False,'reason':'other_error'},
+                     {'checks_passed':True,'create_allowed':True},
+                     {'checks_passed':False,'create_allowed':False,
+                      'reason':'checkout_must_equal_fresh_origin_main','files':{}}):
+            failure.write_text(json.dumps(body))
+            process['provenance']['captured_stdout_sha256']=entry.hashlib.sha256(failure.read_bytes()).hexdigest()
+            with self.assertRaisesRegex(entry.lc.Blocked,'captured_pre_step_snapshot_rejection_required'):
+                self.abort_report(session,failure,process)
+
+    def test_abort_assessment_fails_closed_on_missing_provenance_history_or_ledger(self):
+        session,failure,process=self.abort_fixture()
+        for key in process['provenance']:
+            changed=copy.deepcopy(process);del changed['provenance'][key]
+            with self.subTest(missing=key),self.assertRaises(entry.lc.Blocked):
+                self.abort_report(session,failure,changed)
+        for key in ('submission_history','archive_file','retry_control'):
+            changed=copy.deepcopy(self.queue);changed['items'][0][key]={'prior':'task'}
+            (self.root/entry.lc.QUEUE).write_text(json.dumps(changed))
+            with self.assertRaises(entry.lc.Blocked):self.abort_report(session,failure,process)
+        (self.root/entry.lc.QUEUE).write_text(json.dumps(self.queue))
+        ledger=self.root/entry.ledger_tools.PATH
+        ledger.write_text(json.dumps({'runs':{'old':{'item_id':'S-example','consumed':True}}}))
+        with self.assertRaises(entry.lc.Blocked):self.abort_report(session,failure,process)
+        ledger.unlink()
+        with self.assertRaises(entry.lc.Blocked):self.abort_report(session,failure,process)
+
+    def test_abort_requires_original_item_and_actor_not_another_ready_item(self):
+        session,failure,process=self.abort_fixture()
+        original=Path(self.tmp.name)/'original-request.json'
+        for changes in ({'item_id':'another-item'},{'actor':dict(self.request['actor'],execution_instance_id=fixtures.B)}):
+            changed=copy.deepcopy(self.request);changed.update(changes);original.write_text(json.dumps(changed))
+            process['provenance']['captured_request_sha256']=entry.hashlib.sha256(original.read_bytes()).hexdigest()
+            with self.assertRaisesRegex(entry.lc.Blocked,'original_request_actor_and_item_required'):
+                self.abort_report(session,failure,process)
+
     def test_delayed_final_fetch_cannot_authorize_expired_lease(self):
         import shutil
         from datetime import timedelta

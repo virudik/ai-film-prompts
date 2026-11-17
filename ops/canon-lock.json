@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:c18df366-7b21-4f54-be9d-e7a45004eb76",
   "task": "Fix preclaim snapshot marker and terminal backup contract; no Create",
   "acquired_at": "2026-11-17T16:25:21.612310Z",
-  "expires_at": "2026-11-17T16:35:21.612310Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-17T16:25:51.434352Z",
   "rules": "ops/CANON-LOCK.md"
 }

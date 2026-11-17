@@ -137,6 +137,88 @@ def step(root, phase, request, session, now, main_sha):
             'next': 'CAS publish these files together; fetch/check out main; run next phase with fresh scan'}, session
 
 
+def assess_preclaim_abort(root, session_path, failure_output, process_result,
+                          actor, item_id, scan, now, main_sha, original_request=None):
+    """Read-only eligibility for recording a proven pre-step abort, never a retry permit.
+
+    root must be an immutable fresh snapshot; process_result must come from the
+    actual command runner, not a PID guess. Existing markers are retained.
+    """
+    if (process_result.get('exited') is not True or process_result.get('exit_code') != 2
+            or process_result.get('output_complete') is not True
+            or process_result.get('phase') != 'claim'
+            or process_result.get('session_path') != str(session_path.resolve())):
+        raise lc.Blocked('complete_exited_initial_claim_evidence_required')
+    if (not isinstance(main_sha, str) or len(main_sha) != 40
+            or any(c not in '0123456789abcdef' for c in main_sha)):
+        raise lc.Blocked('fresh_main_sha_required')
+    provenance = process_result.get('provenance') or {}
+    if (provenance.get('runner_record_id') in (None, '')
+            or provenance.get('execution_instance_id') != actor.get('execution_instance_id')
+            or provenance.get('legacy_source_sha256') != '76b2b7e15a8394e70ad1338148f50ee03006fc0c89d8ef552a0bfd95e76fca31'
+            or provenance.get('marker_absent_before_invocation') is not True
+            or provenance.get('marker_created_by_this_invocation') is not True
+            or provenance.get('no_remaining_orchestrator') is not True
+            or provenance.get('argv_phase') != 'claim'
+            or provenance.get('argv_session_path') != str(session_path.resolve())):
+        raise lc.Blocked('bound_legacy_invocation_and_marker_provenance_required')
+    if (original_request is None or not original_request.is_file() or original_request.is_symlink()
+            or provenance.get('argv_request_path') != str(original_request.resolve())
+            or provenance.get('captured_request_sha256') != hashlib.sha256(original_request.read_bytes()).hexdigest()):
+        raise lc.Blocked('unchanged_original_request_binding_required')
+    original = lc.read(original_request)
+    if original.get('actor') != actor or original.get('item_id') != item_id:
+        raise lc.Blocked('original_request_actor_and_item_required')
+    busy = session_path.with_name(session_path.name + '.busy')
+    pending = session_path.with_name(session_path.name + '.pending')
+    if (os.path.lexists(session_path) or os.path.lexists(pending) or busy.is_symlink()
+            or not busy.is_file() or lc.read(busy) != {'phase': 'claim'}):
+        raise lc.Blocked('unstarted_claim_marker_only_required')
+    if provenance.get('captured_stdout_sha256') != hashlib.sha256(failure_output.read_bytes()).hexdigest():
+        raise lc.Blocked('unchanged_complete_failure_output_required')
+    failure = lc.read(failure_output)
+    reasons = {'checkout_must_equal_fresh_origin_main', 'tracked_checkout_must_be_clean',
+               'main_changed_during_phase; reconcile_without_Create'}
+    if (set(failure) != {'checks_passed', 'create_allowed', 'reason'}
+            or failure.get('checks_passed') is not False or failure.get('create_allowed') is not False
+            or failure.get('reason') not in reasons):
+        raise lc.Blocked('captured_pre_step_snapshot_rejection_required')
+    cfg, lock, queue = (lc.read(root / p) for p in (lc.CONFIG, lc.LOCK, lc.QUEUE))
+    lc.check_route(cfg, actor, now)
+    # Do not infer idleness from expiry, absence or malformed lock. Reconcile the
+    # actual current executor first; this assessment never takes/releases a lease.
+    if lock.get('state') != 'free':
+        raise lc.Blocked('explicitly_free_current_lease_required')
+    item = one_item(queue, item_id)
+    if (item.get('state') != 'waiting_for_slot' or item.get('claim') or item.get('task_id')
+            or item.get('task_ids') or item.get('submission_intent_id')):
+        raise lc.Blocked('item_already_owned_or_consumed; reconcile_without_Create')
+    if any(value for key, value in item.items() if 'history' in key or 'archive' in key or key == 'retry_control'):
+        raise lc.Blocked('first_attempt_without_history_required')
+    if any(row.get('id') == item_id for row in queue.get('archived_items', []) if isinstance(row, dict)):
+        raise lc.Blocked('archived_item_requires_general_reconciliation')
+    ledger_path = root / ledger_tools.PATH
+    if not ledger_path.is_file():
+        raise lc.Blocked('fresh_ledger_required')
+    ledger = lc.read(ledger_path)
+    # Conservative: a mention in any retained ledger row is not an unused first attempt.
+    if item_id in json.dumps(ledger, ensure_ascii=False):
+        raise lc.Blocked('ledger_item_requires_general_reconciliation')
+    lc.check_launch_observation(scan, item_id, now)
+    return {'schema_version': 1, 'kind': 'proven_preclaim_abort_assessment',
+            'checked_at': lc.stamp(now), 'main_sha': main_sha, 'item_id': item_id,
+            'actor_sha': digest(actor), 'item_sha': digest(item),
+            'marker_sha256': hashlib.sha256(busy.read_bytes()).hexdigest(),
+            'failure_sha256': hashlib.sha256(failure_output.read_bytes()).hexdigest(),
+            'failure_reason': failure['reason'],
+            'process_evidence_sha256': digest(process_result),
+            'request_sha256': hashlib.sha256(original_request.read_bytes()).hexdigest(),
+            'scan_sha': digest(scan), 'marker_preserved': True,
+            'eligible_for_abort_record': True, 'create_allowed': False,
+            'new_session_allowed_by_this_report': False,
+            'next': 'publish abort evidence under own exact lease/CAS/readback, then independently recheck live state; no old phase resume'}
+
+
 def write_exclusive(path, value):
     with path.open('x', encoding='utf-8') as f:
         json.dump(value, f, ensure_ascii=False, indent=2); f.write('\n'); f.flush(); os.fsync(f.fileno())
@@ -159,17 +241,21 @@ def main():
             if path == root or root in path.parents:
                 raise lc.Blocked('session_must_be_outside_repository')
             guard = path.with_name(path.name + '.busy')
-            write_exclusive(guard, {'phase': args.phase})
-        # After a local crash the busy marker remains. Never delete to retry Create.
+        # Snapshot validation is read-only: a clean pre-phase mismatch must not
+        # consume the local session. Existing crash markers are never removed.
         sha = snapshot(root)
         request = lc.read(args.request)
-        session = lc.read(args.session) if args.session and args.session.exists() else None
         with tempfile.TemporaryDirectory(prefix='launcher-readback-') as directory:
             isolated = Path(directory)
             materialize_snapshot(root, sha, isolated)
             # Network may be slow. Finish the final fetch BEFORE freshness checks.
             if snapshot(root) != sha:
                 raise lc.Blocked('main_changed_during_phase; reconcile_without_Create')
+            if guard:
+                write_exclusive(guard, {'phase': args.phase})
+            # Serialize before reading phase state; a concurrent caller must not
+            # use a stale session read from before the exclusive marker.
+            session = lc.read(args.session) if args.session and args.session.exists() else None
             result, updated = step(isolated, args.phase, request, session, datetime.now(timezone.utc), sha)
         if updated is not None:
             if args.phase == 'claim':
