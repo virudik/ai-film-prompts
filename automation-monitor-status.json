@@ -450,11 +450,11 @@
     }
   },
   "launcher_health": {
-    "state": "awaiting_execution",
-    "unresolved": false,
+    "state": "launch_stalled",
+    "unresolved": true,
     "episode": "b088674e",
     "unresolved_since": "2026-11-17T15:10:35Z",
-    "reason": "within_initial_execution_window",
+    "reason": "execution_started_without_confirmed_launch",
     "free_slots_global": 1,
     "actionable_items": [
       "S49B",
@@ -479,16 +479,16 @@
       "S89J-WAN30"
     ],
     "reconciliation_items": [],
-    "last_event_id": "slots:ea03b4f7:70",
-    "receipt_present": false,
-    "handler_outcome": null,
-    "execution_stage": null,
-    "execution_updated_at": null,
+    "last_event_id": "slots:b088674e:71",
+    "receipt_present": true,
+    "handler_outcome": "started",
+    "execution_stage": "preflight",
+    "execution_updated_at": "2026-11-17T15:28:36.481Z",
     "runtime_run_id": null,
     "confirmed_launch_task_ids": [],
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
-    "escalation_attempted_episode": "ea03b4f7",
-    "checked_at": "2026-11-17T15:10:35Z"
+    "escalation_attempted_episode": "b088674e",
+    "checked_at": "2026-11-17T15:30:46Z"
   }
 }
