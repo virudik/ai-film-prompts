@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:work:3da7b6c2-2690-4189-b3bc-87c98ecf6a6b",
   "task": "HH:55 Work: full Topview scan, dance archive check, receipt",
   "acquired_at": "2026-11-17T09:01:30.227Z",
-  "expires_at": "2026-11-17T09:46:30.227Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-17T09:04:38.789Z",
   "rules": "ops/CANON-LOCK.md"
 }
