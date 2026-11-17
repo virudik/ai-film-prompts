@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:5685eb23-8e52-43e0-b8e6-e8a934f2873c",
-  "task": "Relay slots:b088674e:71 final receipt",
-  "acquired_at": "2026-11-17T15:30:18.424Z",
-  "expires_at": null,
-  "released_at": "2026-11-17T15:31:50.496Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:327cc43b-2bad-47f5-921b-0162d3eb14e7",
+  "task": "Register actual Dot Relay launcher; no Topview submissions",
+  "acquired_at": "2026-11-17T15:34:56.044549Z",
+  "expires_at": "2026-11-17T15:54:56.044549Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
