@@ -10,8 +10,8 @@
   "route_generation": 3,
   "source_head": "3f5b1f7616f9411ed9de8ab24013c72f19c97a9e",
   "started_at": "2026-11-17T05:05:41Z",
-  "updated_at": "2026-11-17T05:06:21.069Z",
-  "phase": "started",
+  "updated_at": "2026-11-17T05:07:17.076Z",
+  "phase": "completed",
   "status": "no_free_slot",
   "scan_complete": false,
   "occupied_slots": 6,
@@ -33,9 +33,9 @@
     "acquired_at": "2026-11-17T05:05:41Z",
     "expires_at": "2026-11-17T05:13:41Z",
     "acquisition_commit": "923d0933dd0245675854b4d4d183520fad7f8f94",
-    "started_receipt_commit": null,
-    "released_at": null,
-    "release_state": "held"
+    "started_receipt_commit": "282eacc9222124ed410de5fd6d92dab382bea957",
+    "released_at": "2026-11-17T05:07:17.076Z",
+    "release_state": "released_in_same_CAS_as_final_receipt"
   },
   "previous_receipt": {
     "execution_instance_id": "b7fb18cf-27c4-4ae4-8e7e-d119bf5e15ce",
@@ -55,10 +55,10 @@
   "outcome": "no_free_slot",
   "blocker": null,
   "retryable": false,
-  "checked_at": "2026-11-17T05:06:21.069Z",
+  "checked_at": "2026-11-17T05:07:14.440Z",
   "scan": {
     "method": "Topview connector read-only list_board_tasks",
-    "checked_at": "2026-11-17T05:06:21.069Z",
+    "checked_at": "2026-11-17T05:07:14.440Z",
     "boards_listed": 14,
     "main_board_id": "1a6244cf1ae747ef847d949a80d6133c",
     "main_board_video_total": 511,
