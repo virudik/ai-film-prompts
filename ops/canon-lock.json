@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:5685eb23-8e52-43e0-b8e6-e8a934f2873c",
   "task": "Relay slots:b088674e:71 intake",
   "acquired_at": "2026-11-17T15:23:58.658259+00:00",
-  "expires_at": "2026-11-17T15:33:58.658Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-17T15:28:36.481Z",
   "rules": "ops/CANON-LOCK.md"
 }
