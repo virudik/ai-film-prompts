@@ -11,6 +11,54 @@
   "references": [
     {
       "scene_id": 5,
+      "asset_id": "X-BACK",
+      "path": "projects/raznoe/references/scenes/scene-5/X-BACK.png",
+      "sha256": "14d398440bb9c38b3f383d36bfcbec39a7a892159a5783fbe22b929519ac1dd5",
+      "bytes": 185328,
+      "width": 255,
+      "height": 532,
+      "preview": "projects/raznoe/references/scenes/scene-5/previews/X-BACK.webp",
+      "preview_sha256": "3cecd666e70e385d76d30834e6509c4e3d8b2502c0b37a3d8b7f4c1552dac99c",
+      "preview_bytes": 8384,
+      "preview_width": 255,
+      "preview_height": 532,
+      "drive_id": "19VmU-oOfN91PTR2QE5t4YZsRhEDbh3yf",
+      "drive_url": "https://drive.google.com/file/d/19VmU-oOfN91PTR2QE5t4YZsRhEDbh3yf/view",
+      "caption": "Официальный задний вид X-BACK, 255×532",
+      "role": "official_front_or_rear",
+      "active_prompt_input": true,
+      "technical_product_identity": true,
+      "editorial_status": "not_approved",
+      "source_kind": "official_source_not_generated",
+      "qc_notes": "Те же байты, что на Drive. 255×532, без увеличения. Это не приёмка сцены и не кадр теста.",
+      "original_bytes_preserved": true
+    },
+    {
+      "scene_id": 5,
+      "asset_id": "X-FRONT",
+      "path": "projects/raznoe/references/scenes/scene-5/X-FRONT.png",
+      "sha256": "8ddd755d7ef91b0b21e8940d620955dcd2473b4ad6f2c43f9e1225ee0a34e77f",
+      "bytes": 91357,
+      "width": 255,
+      "height": 532,
+      "preview": "projects/raznoe/references/scenes/scene-5/previews/X-FRONT.webp",
+      "preview_sha256": "62f3d67102f32801c7425a4021c2eb419019cbb60f1fd167757468be6c9c0ae5",
+      "preview_bytes": 7198,
+      "preview_width": 255,
+      "preview_height": 532,
+      "drive_id": "1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL",
+      "drive_url": "https://drive.google.com/file/d/1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL/view",
+      "caption": "Официальный передний вид X-FRONT, 255×532",
+      "role": "official_front_or_rear",
+      "active_prompt_input": true,
+      "technical_product_identity": true,
+      "editorial_status": "not_approved",
+      "source_kind": "official_source_not_generated",
+      "qc_notes": "Те же байты, что на Drive. 255×532, без увеличения. Это не приёмка сцены и не кадр теста.",
+      "original_bytes_preserved": true
+    },
+    {
+      "scene_id": 5,
       "asset_id": "X-GEN-FRONT",
       "path": "projects/raznoe/references/scenes/scene-5/X-GEN-FRONT.png",
       "original_name": "honor_x9e_pro_золотой_шик.png",
@@ -213,7 +261,9 @@
       "color": "Purple reference only; actual loan handset color not promised",
       "drive_id": "19VmU-oOfN91PTR2QE5t4YZsRhEDbh3yf",
       "drive_url": "https://drive.google.com/file/d/19VmU-oOfN91PTR2QE5t4YZsRhEDbh3yf/view",
-      "drive_readback_match": true
+      "drive_readback_match": true,
+      "path": "projects/raznoe/references/scenes/scene-5/X-BACK.png",
+      "repo_sha256": "14d398440bb9c38b3f383d36bfcbec39a7a892159a5783fbe22b929519ac1dd5"
     },
     {
       "slot": "X-FRONT",
@@ -228,7 +278,9 @@
       "color": "Purple reference only; actual loan handset color not promised",
       "drive_id": "1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL",
       "drive_url": "https://drive.google.com/file/d/1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL/view",
-      "drive_readback_match": true
+      "drive_readback_match": true,
+      "path": "projects/raznoe/references/scenes/scene-5/X-FRONT.png",
+      "repo_sha256": "8ddd755d7ef91b0b21e8940d620955dcd2473b4ad6f2c43f9e1225ee0a34e77f"
     }
   ],
   "official_sources_are_not_test_footage": true,
@@ -253,7 +305,7 @@
     "competition_entry": false,
     "part_2_requires_actual_part_1_tail": true
   },
-  "updated_at": "2026-11-17T18:10:00+00:00",
+  "updated_at": "2026-11-17T18:30:00+00:00",
   "reference_binding_complete": true,
   "product_identity_model": "HONOR X9e Pro",
   "reference_priority": "official_model_sources > approved_video_continuity > mood > generated_composition",

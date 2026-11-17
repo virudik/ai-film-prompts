@@ -20,11 +20,11 @@
 | 2 | [Тихая планета — история Мирона](#scene-2) | Мирон, мама Вера, бабушка Нина, Дарья Андреевна, доктор Марк Львович, парикмахер Лиля, лошадь Туман | Мальчик с аутизмом рассказывает о громком мире, трудных днях, бабушке, которая нашла помощь, успехах, школе и надежде. Структура рилса, вертикаль 9:16, 4 ролика по 30 с или 8 по 15 с |
 | 3 | [RESOURCE](#scene-3) | Инженер мастерской и синей формы, работница сортировки | Фотореал 16:9. Исходник 2 × 15 с сохранён. Текущая нарезка — 19 native-клипов, 114 с: мастерская, завод, сборка, старт, орбита, постановочная станция, ЦУП. Не одобрено |
 | 4 | [HONOR Magic9 Pro Max](#scene-4) | Модель выбрана; канонических продуктовых PNG нет | Три ролика по 120 с: 3D, реализм, рисовка. Кадры только настроение. Не одобрено. Видео не запускать |
-| 5 | [HONOR X9e Pro — «Город проверяет»](#scene-5) | Житель [ГОРОД], настоящий HONOR X9e Pro только после отбора | Конкурс «Несокрушимый HONOR»: настоящая съёмка 60–120 с, цель 90 с, вертикаль 9:16, без музыки. ИИ 30 с — только отдельный неконкурсный превиз. Заявка не отправлена |
+| 5 | [HONOR X9e Pro — «Дворовая машина Голдберга»](#scene-5) | Житель Москвы, настоящий HONOR X9e Pro только после отбора | Конкурс «Несокрушимый HONOR», Москва: настоящая съёмка 60–120 с, цель 90 с, вертикаль 9:16, без музыки. ИИ 30 с — только отдельный неконкурсный превиз. Заявка не отправлена |
 
 ## Сцены в работе
 
-Сцены 1 и 2 — **DRAFT**; все **26/26** и **33/33** референсов технически готовы, но **not_approved**. Сцена 3 RESOURCE — отдельный фотореал 16:9, тоже **DRAFT** и **not_approved**; десять исходных кадров на месте, металлический финал только в архиве, native-нарезка 19/114 опубликована отдельно от вкладок 2 × 15 с. Очередь Topview не менялась. Шесть native-попыток v1 лежат в папке Саши и не приняты. Следующий шаг по сценам 1–2 — художественная проверка и выбор клиентского объёма. Сцена 4 HONOR Magic9 Pro Max — три ролика по 120 с каждый, not_approved; модель выбрана, канонических продуктовых PNG нет, продуктовый QC и приёмка открыты. Старые космические сцены — в проекте «Роскосмос». Сцена 5 — отдельный конкурсный HONOR X9e Pro, «Город проверяет», вертикаль 9:16, DRAFT: город в тексте остаётся [ГОРОД], тест и права не согласованы, заявка не отправлена (приём идей до 16.11.2026, 12:00). Это не замена сцены 4. Папка материалов: [«Хонор» на Google Диске](https://drive.google.com/drive/folders/11ZlXyZwAVpcKymg8vM9qjziKrbop3wZA).
+Сцены 1 и 2 — **DRAFT**; все **26/26** и **33/33** референсов технически готовы, но **not_approved**. Сцена 3 RESOURCE — отдельный фотореал 16:9, тоже **DRAFT** и **not_approved**; десять исходных кадров на месте, металлический финал только в архиве, native-нарезка 19/114 опубликована отдельно от вкладок 2 × 15 с. Очередь Topview не менялась. Шесть native-попыток v1 лежат в папке Саши и не приняты. Следующий шаг по сценам 1–2 — художественная проверка и выбор клиентского объёма. Сцена 4 HONOR Magic9 Pro Max — три ролика по 120 с каждый, not_approved; модель выбрана, канонических продуктовых PNG нет, продуктовый QC и приёмка открыты. Старые космические сцены — в проекте «Роскосмос». Сцена 5 — отдельный конкурсный HONOR X9e Pro, Москва, «Дворовая машина Голдберга», вертикаль 9:16, DRAFT: тест и права не согласованы, заявка не отправлена (приём идей до 16.11.2026, 12:00). Это не замена сцены 4. Папка материалов: [«Хонор» на Google Диске](https://drive.google.com/drive/folders/11ZlXyZwAVpcKymg8vM9qjziKrbop3wZA).
 
 <a id="misc-pricing"></a>
 ## Стоимость производства (простыми словами, редакция 03.11.2026, версия 3)
@@ -5657,7 +5657,13 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 <a id="scene-5"></a>
 ## Сцена 5 — HONOR X9e Pro · «Дворовая машина Голдберга» (конкурс «Несокрушимый HONOR»)
 
-<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":90,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["owner_requested","contest_pitch","honor_x9e_pro","vertical_9x16","real_local_footage_required","two_engine_versions","not_approved","raznoe_scene_5","real_footage_60_120s","music_prohibited","not_submitted","moscow_goldberg_owner_concept","physical_rehearsal_pending"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","contest_pitch","honor_x9e_pro","vertical_9x16","real_local_footage_required","two_engine_versions","not_approved","raznoe_scene_5","real_footage_60_120s","music_prohibited","not_submitted","moscow_goldberg_owner_concept","physical_rehearsal_pending","contest_film_90s","contest_dialogue_ru","ai_preview_30s","ai_preview_seedance_2x15","ai_preview_native_audio_off","ai_preview_not_contest"]} -->
+
+**Контекст использования:** конкурс «Несокрушимый HONOR», Москва, «Дворовая машина Голдберга». Реальная съёмка 60–120 с, цель 90 с, вертикаль 9:16, без музыки, со своей речью. ИИ-превиз — отдельный неконкурсный пакет: 30 с Wan 3.0 / Seedance 2.5 и Seedance 2.0 2×15 с, native audio выключен. В scene-meta `duration_s` 30 и `dialogue.enabled` false описывают превиз; конкурсные 90 с и русская речь реальной съёмки записаны тегами `contest_film_90s` и `contest_dialogue_ru`. Сцена DRAFT, не одобрена. Заявка не отправлена, телефон не получен, видео не запускать.
+
+**Референсы:** @Image1 = X-BACK `projects/raznoe/references/scenes/scene-5/X-BACK.png` · @Image2 = X-FRONT `projects/raznoe/references/scenes/scene-5/X-FRONT.png` · @Image3 = X-GEN-FRONT, только свет и композиция · @Image4 = X-GEN-REAR, только свет и композиция · @Image5 = YARD-LOC-01, двор · @Image6 = YARD-LOC-03, двор · @Image7 = X-3D-TURNAROUND, эталон внешнего вида и сторон, утверждён 17.11.2026. Спецификация сторон: `projects/raznoe/references/scenes/scene-5/PHONE-SIDES-SPEC.md`.
+
+**Что происходит:** конкурсный ролик — один HONOR X9e Pro проходит двор цепочкой горка, качели, песочница, жёлоб и задуманный водный финиш. Это план реальной съёмки: физика не доказана, ИИ её не подменяет. ИИ-превиз показывает тот же телефон и неподвижный двор: задний вид, обход площадки, передний вид на столе, без удара, воды и видеозвонка.
 
 **Состояние:** DRAFT / not_approved. Заявка не отправлена, телефон не получен, настоящая съёмка не выполнена. Реальный итоговый конкурсный ролик 60–120 с (цель 90 с), не 30 с. Город и идея — Москва / «Дворовая машина Голдберга» по сохранённому согласованию t529. Отправка и допуск организатора остаются отдельными действиями. Это отдельный конкурсный ролик, не реклама Magic9 и не RESOURCE.
 
@@ -5668,7 +5674,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 
 [Полный сценарий 90 с, заявка и лист проверки](projects/raznoe/references/scenes/scene-5/shooting-package.md) · [источники и SHA](projects/raznoe/references/scenes/scene-5/official-product-source-links.json) · [папка сцены5 в «Хонор»](https://drive.google.com/drive/folders/1h6Jfpznn_CME22IReM8VjLempjkQjgpm).
 
-**Технические виды:** [X-BACK](https://drive.google.com/file/d/19VmU-oOfN91PTR2QE5t4YZsRhEDbh3yf/view) и [X-FRONT](https://drive.google.com/file/d/1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL/view). Оригинальные 255×532 пикселя производителя без синтеза деталей. Это сверка формы, не кадры теста и не крупный рекламный план. Реальный цвет определяется выданным телефоном, не фиолетовым примером.
+**Технические виды:** [X-BACK](projects/raznoe/references/scenes/scene-5/X-BACK.png) и [X-FRONT](projects/raznoe/references/scenes/scene-5/X-FRONT.png), те же файлы на Drive: [X-BACK](https://drive.google.com/file/d/19VmU-oOfN91PTR2QE5t4YZsRhEDbh3yf/view) и [X-FRONT](https://drive.google.com/file/d/1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL/view). Оригинальные 255×532 пикселя производителя без синтеза деталей и без увеличения. Это сверка формы, не кадры теста и не крупный рекламный план. Реальный цвет определяется выданным телефоном, не фиолетовым примером.
 
 **Физика не доказана:** песок сам не отправляет аппарат в жёлоб; траектория качелей и вся цепочка требуют репетиции муляжом и согласования. Непрерывный звонок под водой не обещается. Повреждение/нагрев — стоп, без воды и зарядки. Дождь, мороз, удачный результат и экран не подделывать. Реальное видео остаётся неснятым.
 
@@ -5738,7 +5744,7 @@ https://docs.google.com/document/d/1g0Fl1-5qeStudQuo9r2qF5G6c1AYKmPFps72Gx67ZbE/
 
 [Лист-разворот, 8 ракурсов, 5120×4300](projects/raznoe/references/scenes/scene-5/X-3D-TURNAROUND.jpg) — обязательный эталон внешнего вида и сторон HONOR X9e Pro во всех промптах этой сцены, где есть телефон. Спецификация сторон: [PHONE-SIDES-SPEC.md](projects/raznoe/references/scenes/scene-5/PHONE-SIDES-SPEC.md). Размеры 162,2×77×8,08 мм. Кнопки громкости и питания — только на правой грани, если смотреть на экран (качелька ближе к верхнему торцу, питание ниже); левая грань гладкая. Верхний торец слева направо, если смотреть на экран: отверстие микрофона и по центру решётка динамика из четырёх отверстий; ИК-порт фото не подтверждён — не ставить. Нижний торец слева направо: лоток на две nano-SIM, микрофон, USB-C, решётка основного динамика. Официальные X-BACK и X-FRONT остаются видами зада и переда; лист задаёт стороны и общий внешний вид. Утверждение листа не меняет DRAFT сцены, не отправляет заявку и не запускает видео.
 
-<div class="scene-ref-gallery"><figure><a href="projects/raznoe/references/scenes/scene-5/X-GEN-FRONT.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-5/previews/X-GEN-FRONT.webp" alt="Передний ракурс — свет и композиция" loading="lazy"></a><figcaption>X-GEN-FRONT · Передний ракурс — свет и композиция · ИИ, не официальное фото · <a href="https://drive.google.com/file/d/1uAycU-1HZJlt50r7chyLbXo5_2eYbDkp/view" target="_blank" rel="noopener">оригинал на Drive</a></figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-5/X-GEN-REAR.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-5/previews/X-GEN-REAR.webp" alt="Задний ракурс — свет и композиция" loading="lazy"></a><figcaption>X-GEN-REAR · Задний ракурс — свет и композиция · ИИ, не официальное фото · <a href="https://drive.google.com/file/d/19RTcxsrwT39DrayLt1Aio8ODez_02kwX/view" target="_blank" rel="noopener">оригинал на Drive</a></figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-5/X-GEN-MOSCOW.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-5/previews/X-GEN-MOSCOW.webp" alt="Архив: Кремль и выдуманный снег — не для конкурса" loading="lazy"></a><figcaption>X-GEN-MOSCOW · Архив: Кремль и выдуманный снег — не для конкурса · ИИ, не официальное фото · <a href="https://drive.google.com/file/d/1yXVg8rAT7JJbyxT7qfYuEw1gejZiKrlm/view" target="_blank" rel="noopener">оригинал на Drive</a></figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-5/X-3D-TURNAROUND.jpg" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-5/previews/X-3D-TURNAROUND.webp" alt="Телефон HONOR X9e Pro — эталон 3D-модели (8 ракурсов), утверждён 17.11.2026" loading="lazy"></a><figcaption>X-3D-TURNAROUND · Телефон HONOR X9e Pro — эталон 3D-модели (8 ракурсов), утверждён 17.11.2026 · <a href="projects/raznoe/references/scenes/scene-5/PHONE-SIDES-SPEC.md">спецификация сторон</a></figcaption></figure></div>
+<div class="scene-ref-gallery"><figure><a href="projects/raznoe/references/scenes/scene-5/X-BACK.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-5/previews/X-BACK.webp" alt="X-BACK — официальный задний вид, 255×532" loading="lazy"></a><figcaption>X-BACK · официальный задний вид, 255×532 · не приёмка сцены · <a href="https://drive.google.com/file/d/19VmU-oOfN91PTR2QE5t4YZsRhEDbh3yf/view" target="_blank" rel="noopener">копия на Drive</a></figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-5/X-FRONT.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-5/previews/X-FRONT.webp" alt="X-FRONT — официальный передний вид, 255×532" loading="lazy"></a><figcaption>X-FRONT · официальный передний вид, 255×532 · не приёмка сцены · <a href="https://drive.google.com/file/d/1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL/view" target="_blank" rel="noopener">копия на Drive</a></figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-5/X-GEN-FRONT.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-5/previews/X-GEN-FRONT.webp" alt="Передний ракурс — свет и композиция" loading="lazy"></a><figcaption>X-GEN-FRONT · Передний ракурс — свет и композиция · ИИ, не официальное фото · <a href="https://drive.google.com/file/d/1uAycU-1HZJlt50r7chyLbXo5_2eYbDkp/view" target="_blank" rel="noopener">оригинал на Drive</a></figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-5/X-GEN-REAR.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-5/previews/X-GEN-REAR.webp" alt="Задний ракурс — свет и композиция" loading="lazy"></a><figcaption>X-GEN-REAR · Задний ракурс — свет и композиция · ИИ, не официальное фото · <a href="https://drive.google.com/file/d/19RTcxsrwT39DrayLt1Aio8ODez_02kwX/view" target="_blank" rel="noopener">оригинал на Drive</a></figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-5/X-GEN-MOSCOW.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-5/previews/X-GEN-MOSCOW.webp" alt="Архив: Кремль и выдуманный снег — не для конкурса" loading="lazy"></a><figcaption>X-GEN-MOSCOW · Архив: Кремль и выдуманный снег — не для конкурса · ИИ, не официальное фото · <a href="https://drive.google.com/file/d/1yXVg8rAT7JJbyxT7qfYuEw1gejZiKrlm/view" target="_blank" rel="noopener">оригинал на Drive</a></figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-5/X-3D-TURNAROUND.jpg" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-5/previews/X-3D-TURNAROUND.webp" alt="Телефон HONOR X9e Pro — эталон 3D-модели (8 ракурсов), утверждён 17.11.2026" loading="lazy"></a><figcaption>X-3D-TURNAROUND · Телефон HONOR X9e Pro — эталон 3D-модели (8 ракурсов), утверждён 17.11.2026 · <a href="projects/raznoe/references/scenes/scene-5/PHONE-SIDES-SPEC.md">спецификация сторон</a></figcaption></figure></div>
 
 **X-GEN-MOSCOW сохранён для памяти, но исключён из рабочих входов:** узнаваемый Кремль и нарисованный снег не соответствуют нейтральному фону и фактической погоде конкурсной съёмки. Это не доказательство теста или присутствия автора в Москве.
 
@@ -5747,19 +5753,29 @@ https://docs.google.com/document/d/1g0Fl1-5qeStudQuo9r2qF5G6c1AYKmPFps72Gx67ZbE/
 
 Превиз теперь использует реальные референсы X9e Pro, а не безымянный муляж. Он показывает внешний вид и расстановку ещё неподвижной площадки — без ударов, погружения, видеозвонка и выдуманного результата. Реальная 90-секундная съёмка и согласованная заявка выше не заменяются ИИ и не отправляются этим обновлением. [Карта входов](projects/raznoe/references/scenes/scene-5/reference-bindings.json).
 
+**Референсы раскадровки (только уже лежащие файлы сцены 5, новых кадров нет):**
+- 0–8 с превиза, зад телефона: @Image1 X-BACK · @Image4 X-GEN-REAR (только свет) · @Image7 X-3D-TURNAROUND.
+- 8–20 с, двор без телефона: @Image5 YARD-LOC-01 общий план · YARD-LOC-02 скат горки (в пакет локации, не во вход промпта) · @Image6 YARD-LOC-03 качели и песочница · YARD-LOC-04 песочница и фонарь (в пакет локации, не во вход промпта).
+- 20–30 с, перед телефона: @Image2 X-FRONT · @Image3 X-GEN-FRONT (только свет) · @Image7 X-3D-TURNAROUND.
+- X-GEN-MOSCOW в раскадровку не входит: Кремль и выдуманный снег.
+
+**Покадровая раскадровка превиза текстом.** 30 с: 0–8 с задний крупный план одного телефона; 8–20 с камера через плечо показывает неподвижные горку, качели, песочницу и жёлоб, телефон остаётся в правой руке; 20–30 с возврат к столу и передний вид. Seedance часть 1: 0–6 с зад, 6–15 с проход к песочнице. Seedance часть 2 ждёт реальный хвост части 1 и своего файла не имеет: 0–7 с от песочницы вдоль жёлоба к столу, 7–15 с передний вид. Ударов, воды и звонка в этих кадрах нет.
+
+**Каких кадров не хватает:** рука в перчатке с телефоном; стол осмотра; жёлоб; один кадр «через плечо», где телефон и двор вместе; взрослый без узнаваемого лица. Этих файлов в сцене нет, новые картинки не создавались.
+
 <div class="engine-tabs" data-scene="5">
 <div class="engine-pane" data-engine="wan30" data-main="1">
 #### 5 · Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** реальные X-BACK и X-FRONT плюс два ИИ-референса ракурса в порядке @Image1–4, постоянный вид двора @Image5 (YARD-LOC-01) и @Image6 (YARD-LOC-03), и обязательный эталон внешнего вида и сторон @Image7 (X-3D-TURNAROUND, утверждён 17.11.2026). Официальные файлы скачать по ссылкам выше; не заменять их сгенерированными картинками.
+**Входы:** реальные X-BACK и X-FRONT из репозитория плюс два ИИ-референса ракурса в порядке @Image1–4, постоянный вид двора @Image5 (YARD-LOC-01) и @Image6 (YARD-LOC-03), и обязательный эталон внешнего вида и сторон @Image7 (X-3D-TURNAROUND, утверждён 17.11.2026). Официальные файлы — `X-BACK.png` и `X-FRONT.png` в папке сцены; ссылки Drive ведут на те же байты. Не заменять их сгенерированными картинками. Раскадровка — блок выше.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
 Optimized for Wan 3.0 / Seedance 2.5 | Synthetic product-and-set concept only; NOT competition test footage
 
 REFERENCES / PRODUCT IDENTITY:
-@Image1 = X-BACK, official HONOR X9e Pro rear source: https://drive.google.com/file/d/19VmU-oOfN91PTR2QE5t4YZsRhEDbh3yf/view.
-@Image2 = X-FRONT, official HONOR X9e Pro front source: https://drive.google.com/file/d/1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL/view.
+@Image1 = projects/raznoe/references/scenes/scene-5/X-BACK.png; official HONOR X9e Pro rear, 255x532, same bytes as the Drive copy https://drive.google.com/file/d/19VmU-oOfN91PTR2QE5t4YZsRhEDbh3yf/view.
+@Image2 = projects/raznoe/references/scenes/scene-5/X-FRONT.png; official HONOR X9e Pro front, 255x532, same bytes as the Drive copy https://drive.google.com/file/d/1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL/view.
 @Image3 = projects/raznoe/references/scenes/scene-5/X-GEN-FRONT.png; generated front-angle framing/light only.
 @Image4 = projects/raznoe/references/scenes/scene-5/X-GEN-REAR.png; generated rear-angle framing/light only.
 @Image5 = projects/raznoe/references/scenes/scene-5/YARD-LOC-01.jpg; permanent yard view, overview from the slide top (location only).
@@ -5788,15 +5804,15 @@ No test action, impact, immersion, fake water resistance, fictional result, succ
 <div class="engine-pane" data-engine="sd20x2">
 #### 5 · Seedance 2.0 часть 1 · 15 с
 
-**Входы:** те же @Image1–6 (включая постоянный вид двора) и обязательный эталон внешнего вида и сторон @Image7 (X-3D-TURNAROUND); это синтетический превиз, не конкурсный ролик.
+**Входы:** те же @Image1–6 (включая постоянный вид двора; X-BACK и X-FRONT — файлы репозитория) и обязательный эталон внешнего вида и сторон @Image7 (X-3D-TURNAROUND); это синтетический превиз, не конкурсный ролик. Раскадровка — блок выше.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
 Optimized for Seedance 2.0 | Synthetic product-and-set concept only; NOT competition test footage
 
 REFERENCES / PRODUCT IDENTITY:
-@Image1 = X-BACK, official HONOR X9e Pro rear source: https://drive.google.com/file/d/19VmU-oOfN91PTR2QE5t4YZsRhEDbh3yf/view.
-@Image2 = X-FRONT, official HONOR X9e Pro front source: https://drive.google.com/file/d/1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL/view.
+@Image1 = projects/raznoe/references/scenes/scene-5/X-BACK.png; official HONOR X9e Pro rear, 255x532, same bytes as the Drive copy https://drive.google.com/file/d/19VmU-oOfN91PTR2QE5t4YZsRhEDbh3yf/view.
+@Image2 = projects/raznoe/references/scenes/scene-5/X-FRONT.png; official HONOR X9e Pro front, 255x532, same bytes as the Drive copy https://drive.google.com/file/d/1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL/view.
 @Image3 = projects/raznoe/references/scenes/scene-5/X-GEN-FRONT.png; generated front-angle framing/light only.
 @Image4 = projects/raznoe/references/scenes/scene-5/X-GEN-REAR.png; generated rear-angle framing/light only.
 @Image5 = projects/raznoe/references/scenes/scene-5/YARD-LOC-01.jpg; permanent yard view, overview from the slide top (location only).
@@ -5821,24 +5837,24 @@ No test action, impact, immersion, fake water resistance, fictional result, succ
 
 ```
 
-#### 5 · Seedance 2.0 часть 2 · 15 с
+#### 5 · Seedance 2.0 часть 2 · 15 с · ждёт реальный хвост части 1, файла нет
 
-**Входы:** те же @Image1–6 (включая постоянный вид двора), обязательный эталон внешнего вида и сторон @Image7 (X-3D-TURNAROUND) и @Video1 — настоящий проверенный конец части 1 длительностью 3 секунды. Пока его нет, часть 2 не READY. Новые фото не подменяют видеостык.
+**Входы:** те же @Image1–6 (включая постоянный вид двора; X-BACK и X-FRONT — файлы репозитория), обязательный эталон внешнего вида и сторон @Image7 (X-3D-TURNAROUND) и @Video1. Часть 2 ждёт реальный хвост части 1, последние 3 секунды. Файла хвоста в репозитории нет, выдумывать его нельзя. Пока хвоста нет, часть 2 не READY. Новые фото не подменяют видеостык. Раскадровка — блок выше.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
 Optimized for Seedance 2.0 | Synthetic product-and-set concept only; NOT competition test footage
 
 REFERENCES / PRODUCT IDENTITY:
-@Image1 = X-BACK, official HONOR X9e Pro rear source: https://drive.google.com/file/d/19VmU-oOfN91PTR2QE5t4YZsRhEDbh3yf/view.
-@Image2 = X-FRONT, official HONOR X9e Pro front source: https://drive.google.com/file/d/1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL/view.
+@Image1 = projects/raznoe/references/scenes/scene-5/X-BACK.png; official HONOR X9e Pro rear, 255x532, same bytes as the Drive copy https://drive.google.com/file/d/19VmU-oOfN91PTR2QE5t4YZsRhEDbh3yf/view.
+@Image2 = projects/raznoe/references/scenes/scene-5/X-FRONT.png; official HONOR X9e Pro front, 255x532, same bytes as the Drive copy https://drive.google.com/file/d/1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL/view.
 @Image3 = projects/raznoe/references/scenes/scene-5/X-GEN-FRONT.png; generated front-angle framing/light only.
 @Image4 = projects/raznoe/references/scenes/scene-5/X-GEN-REAR.png; generated rear-angle framing/light only.
 @Image5 = projects/raznoe/references/scenes/scene-5/YARD-LOC-01.jpg; permanent yard view, overview from the slide top (location only).
 @Image6 = projects/raznoe/references/scenes/scene-5/YARD-LOC-03.jpg; permanent yard view, swing and sandbox (location only).
 @Image7 = projects/raznoe/references/scenes/scene-5/X-3D-TURNAROUND.jpg; mandatory exterior and sides reference, owner-approved 3D turnaround (8 views, 17.11.2026). PHONE SIDES, must hold in every frame and match this sheet: one HONOR X9e Pro, 162.2 x 77 x 8.08 mm. Volume rocker and power key only on the right edge when looking at the screen (rocker closer to the top, power key below it); the other long edge is smooth. Top edge, left to right when looking at the screen: a microphone hole and a centered 4-hole speaker grille; do not invent an IR window. Bottom edge, left to right when looking at the screen: dual-nano-SIM tray, microphone, USB-C, main speaker grille. Camera island and punch-hole stay at the same top end. Never a mirrored phone, never buttons on both long edges, never a SIM tray or USB-C on the top or side edges.
 The exact real model is HONOR X9e Pro: purple back and gold perimeter as in the supplied example, one large circular black rear island inside a gold ring, two upper lens windows and lower elements placed exactly as @Image1; centered round punch-hole display as @Image2. Do not import the green Magic9 body, its asymmetric large-left camera disk, side-stacked camera layout, ARRI mark or pill cutout. Original model sources override all synthetic details and lettering in @Image3/4. One phone, not a generic blank prop. Source color is for this concept illustration, not a promise of the contest loan unit's color. Reference-only is not first/last frame. @Image7 is mandatory for exterior appearance and for which side carries the buttons and openings. @Image1 and @Image2 remain the official front and rear photographs. @Image3 and @Image4 stay lighting and framing only.
-@Video1 = actual last 3 seconds of the finished concept part 1. Preserve the same adult, RIGHT-hand grip, phone, location and camera direction; do not repeat this tail. Original @Image1/2 still control model identity.
+@Video1 = actual last 3 seconds of the finished concept part 1. Preserve the same adult, RIGHT-hand grip, phone, location and camera direction; do not repeat this tail. Original @Image1/2 still control model identity. No tail file is stored in the repository; do not invent, synthesize or substitute one. Part 2 stays waiting until that real tail exists.
 
 START STATE:
 Continue the actual part-1 tail at the sand tray. Same phone, hand, adult and set; no replay.

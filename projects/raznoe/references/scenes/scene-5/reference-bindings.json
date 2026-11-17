@@ -3,7 +3,7 @@
   "project": "raznoe",
   "scene_id": 5,
   "model": "HONOR X9e Pro",
-  "updated_at": "2026-11-17T18:10:00+00:00",
+  "updated_at": "2026-11-17T18:30:00+00:00",
   "official_sources_are_primary": true,
   "generated_images_are_not_official": true,
   "source_access": "Existing private Drive originals; no new public sharing of manufacturer sources",
@@ -13,7 +13,7 @@
   "prompts": [
     {
       "label": "5",
-      "prompt_sha256": "365e47529af1a472cf0f8c17944f7241648d91d8d396a986a2ee9de9db89cf63",
+      "prompt_sha256": "2cf6a9b01d3ed49e9e440b9d7208a96b711c700cda53b49004827a74e8b301bf",
       "inputs": {
         "@Image1": {
           "slot": "X-BACK",
@@ -28,7 +28,9 @@
           "color": "Purple reference only; actual loan handset color not promised",
           "drive_id": "19VmU-oOfN91PTR2QE5t4YZsRhEDbh3yf",
           "drive_url": "https://drive.google.com/file/d/19VmU-oOfN91PTR2QE5t4YZsRhEDbh3yf/view",
-          "drive_readback_match": true
+          "drive_readback_match": true,
+          "path": "projects/raznoe/references/scenes/scene-5/X-BACK.png",
+          "repo_bytes_match_drive": true
         },
         "@Image2": {
           "slot": "X-FRONT",
@@ -43,7 +45,9 @@
           "color": "Purple reference only; actual loan handset color not promised",
           "drive_id": "1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL",
           "drive_url": "https://drive.google.com/file/d/1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL/view",
-          "drive_readback_match": true
+          "drive_readback_match": true,
+          "path": "projects/raznoe/references/scenes/scene-5/X-FRONT.png",
+          "repo_bytes_match_drive": true
         },
         "@Image3": {
           "path": "projects/raznoe/references/scenes/scene-5/X-GEN-FRONT.png",
@@ -72,7 +76,7 @@
     },
     {
       "label": "5 · Seedance 2.0 часть 1",
-      "prompt_sha256": "f5f714ba33194a90f55eec2fc66a526e3358d3958d6dfa37f8f37e44e6367b73",
+      "prompt_sha256": "9268bcada13a13be9a65657a05f5e7a240d2ca471e7a4ae727455dbbc5840464",
       "inputs": {
         "@Image1": {
           "slot": "X-BACK",
@@ -87,7 +91,9 @@
           "color": "Purple reference only; actual loan handset color not promised",
           "drive_id": "19VmU-oOfN91PTR2QE5t4YZsRhEDbh3yf",
           "drive_url": "https://drive.google.com/file/d/19VmU-oOfN91PTR2QE5t4YZsRhEDbh3yf/view",
-          "drive_readback_match": true
+          "drive_readback_match": true,
+          "path": "projects/raznoe/references/scenes/scene-5/X-BACK.png",
+          "repo_bytes_match_drive": true
         },
         "@Image2": {
           "slot": "X-FRONT",
@@ -102,7 +108,9 @@
           "color": "Purple reference only; actual loan handset color not promised",
           "drive_id": "1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL",
           "drive_url": "https://drive.google.com/file/d/1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL/view",
-          "drive_readback_match": true
+          "drive_readback_match": true,
+          "path": "projects/raznoe/references/scenes/scene-5/X-FRONT.png",
+          "repo_bytes_match_drive": true
         },
         "@Image3": {
           "path": "projects/raznoe/references/scenes/scene-5/X-GEN-FRONT.png",
@@ -131,7 +139,7 @@
     },
     {
       "label": "5 · Seedance 2.0 часть 2",
-      "prompt_sha256": "102910d66030c03e3cc5588901da005d7658494682a20caef5bd9e39b79fd623",
+      "prompt_sha256": "09438fa5fc37ff420b930046f3c8a59d2e49e3ad9c517a595b80baa47039053a",
       "inputs": {
         "@Image1": {
           "slot": "X-BACK",
@@ -146,7 +154,9 @@
           "color": "Purple reference only; actual loan handset color not promised",
           "drive_id": "19VmU-oOfN91PTR2QE5t4YZsRhEDbh3yf",
           "drive_url": "https://drive.google.com/file/d/19VmU-oOfN91PTR2QE5t4YZsRhEDbh3yf/view",
-          "drive_readback_match": true
+          "drive_readback_match": true,
+          "path": "projects/raznoe/references/scenes/scene-5/X-BACK.png",
+          "repo_bytes_match_drive": true
         },
         "@Image2": {
           "slot": "X-FRONT",
@@ -161,7 +171,9 @@
           "color": "Purple reference only; actual loan handset color not promised",
           "drive_id": "1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL",
           "drive_url": "https://drive.google.com/file/d/1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL/view",
-          "drive_readback_match": true
+          "drive_readback_match": true,
+          "path": "projects/raznoe/references/scenes/scene-5/X-FRONT.png",
+          "repo_bytes_match_drive": true
         },
         "@Image3": {
           "path": "projects/raznoe/references/scenes/scene-5/X-GEN-FRONT.png",
@@ -219,5 +231,11 @@
       "contest_submission",
       "video_launch"
     ]
+  },
+  "part_2_waiting_for_real_tail": {
+    "label": "5 · Seedance 2.0 часть 2",
+    "needs": "@Video1 last 3 seconds of finished part 1",
+    "file_in_repo": false,
+    "do_not_invent": true
   }
 }

@@ -1703,6 +1703,26 @@
    "thumb_bytes": 12040,
    "src_sha256": "0e63a9de0e1f07662dd987dbad2c7c65e5302f8acd1f1ad91855ccb1aa157010"
   },
+  "projects/raznoe/references/scenes/scene-5/X-BACK.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-5/X-BACK.png.webp",
+   "width": 255,
+   "height": 532,
+   "src_width": 255,
+   "src_height": 532,
+   "src_bytes": 185328,
+   "thumb_bytes": 9990,
+   "src_sha256": "14d398440bb9c38b3f383d36bfcbec39a7a892159a5783fbe22b929519ac1dd5"
+  },
+  "projects/raznoe/references/scenes/scene-5/X-FRONT.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-5/X-FRONT.png.webp",
+   "width": 255,
+   "height": 532,
+   "src_width": 255,
+   "src_height": 532,
+   "src_bytes": 91357,
+   "thumb_bytes": 7614,
+   "src_sha256": "8ddd755d7ef91b0b21e8940d620955dcd2473b4ad6f2c43f9e1225ee0a34e77f"
+  },
   "projects/raznoe/references/scenes/scene-5/X-GEN-FRONT.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-5/X-GEN-FRONT.png.webp",
    "width": 640,
