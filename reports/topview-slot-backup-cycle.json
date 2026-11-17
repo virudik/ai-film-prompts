@@ -10,12 +10,18 @@
   "route_generation": 3,
   "source_head": "eaf78b9069cc259c1690e279b1a8987e6a1eeb53",
   "started_at": "2026-11-17T15:08:58.732Z",
-  "updated_at": "2026-11-17T15:09:35.553Z",
-  "completed_at": null,
-  "phase": "started",
-  "status": "in_progress",
-  "outcome": "preflight_required",
-  "blocker": null,
+  "updated_at": "2026-11-17T15:15:54.263Z",
+  "completed_at": "2026-11-17T15:15:54.263Z",
+  "phase": "completed",
+  "status": "completed",
+  "outcome": "blocked_browser_input_and_paid_mode",
+  "blocker": {
+    "category": "blocked_browser_input_and_paid_mode",
+    "item_id": "S89D-WAN30",
+    "reason": "A sixth task completed at 2026-11-17 15:05:12 UTC, opening one physical slot. Full read-only Topview scan of 14 boards/19 pages/678 videos at 15:08:28Z found 5 active. Live robot telemetry at 15:10:31Z also shows 5/6. The earlier measured TinyFish native browser preflight for the same Wan 3.0 form on 2026-11-16 could not import canonical image files (0/5) and showed a 12-credit paid Create instead of Unlimited0. No verified new website capability to resolve the blocker; a fresh Work scheduled runtime completed at 15:03:59Z, so Work unavailability is not confirmed. No metered browser run or Create is authorized without new evidence. The S89D UI itself was not opened.",
+    "evidence": "reports/tinyfish-topview-preflight-2026-11-16-S89C.json",
+    "retry_condition": "New independently verified native image/video import and Unlimited0 controls on exact board, or confirmed Work unavailability plus new browser capability evidence."
+  },
   "retryable": true,
   "scan_complete": true,
   "occupied_slots": 5,
@@ -40,7 +46,7 @@
   ],
   "new_submissions": 0,
   "topview_credits_spent": 0,
-  "browser_transport": "not_yet_used",
+  "browser_transport": "not_used_existing_unresolved_input_import_and_unlimited0",
   "tinyfish": {
     "run_ids": [],
     "steps": 0,
@@ -53,7 +59,9 @@
     "expires_at": "2026-11-17T15:23:58.732Z",
     "acquisition_commit": "eaf78b9069cc259c1690e279b1a8987e6a1eeb53",
     "verified_start_readback": true,
-    "release_state": "held"
+    "release_state": "released_in_same_CAS_as_final_receipt",
+    "verified_before_final_write": true,
+    "released_at": "2026-11-17T15:15:54.263Z"
   },
   "previous_receipt": {
     "execution_instance_id": "89f521ba-d1dd-46cc-8c70-0c1bc6b396c0",
@@ -71,22 +79,38 @@
     "new_task_id_verified_this_run": false
   },
   "scan": {
-    "method": "Topview connector read-only complete all-board scan",
+    "method": "Topview connector read-only, all boards",
     "boards_listed": 14,
     "pages_scanned": 19,
     "videos_scanned": 678,
     "all_boards_all_pages": true,
-    "active_status": "init",
-    "active_unlimited": true,
-    "active_credits_cost": 0,
     "checked_at": "2026-11-17T15:08:28.506Z",
-    "freed_task_id": "8c6d92662d1043c7a651168b2b8280ae",
-    "freed_task_status": "success",
-    "freed_task_modified": "2026-11-17 15:05:12"
+    "verified_telemetry_checked_at": "2026-11-17T15:10:31Z",
+    "task_completion": "8c6d92662d1043c7a651168b2b8280ae",
+    "five_active_ids": [
+      "5d1f4fc1b4e548a7828892c73b672990",
+      "90db5dd309db477eb346e8d82676f7b5",
+      "425108630b0e48c9a4b299fc89ad88ee",
+      "bfdb6d9fad7a4ab29492f7bb95c78033",
+      "d775c7a483a44f13ba1704a1c418b208"
+    ]
   },
   "queue_items_count": 34,
   "queue_pending_claim_count": 0,
   "owner_tasks_open_count": 0,
   "next_item_if_capacity": "S89D-WAN30",
-  "next_action_unchanged": true
+  "next_action_unchanged": true,
+  "queue_pending_claim_items": [],
+  "queue_states": {
+    "blocked_owner_decision": 1,
+    "waiting_for_slot": 20,
+    "submitted": 10,
+    "blocked_inputs": 3
+  },
+  "sha_independently_recomputed": {
+    "queue_matches": true,
+    "task_map_matches": true,
+    "checked_at": "2026-11-17T15:12:37.836Z"
+  },
+  "completed_source_head": "7de9824088e9a59f44f0c7489ce7b96fe2b1e518"
 }
