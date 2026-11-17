@@ -1,5 +1,6 @@
 {
   "schema_version": 1,
+  "project": "seregius",
   "source": "ChatGPT scheduled ordinary",
   "runner": "chatgpt_scheduled_task",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
@@ -9,16 +10,27 @@
   "route_generation": 3,
   "source_head": "567b23931c8d8bc6d3aa4655a8ea06ea2678df75",
   "started_at": "2026-11-17T10:59:54.365036Z",
-  "updated_at": "2026-11-17T11:04:33.292Z",
-  "completed_at": null,
-  "phase": "started",
-  "status": "in_progress",
+  "updated_at": "2026-11-17T11:05:45.869Z",
+  "completed_at": "2026-11-17T11:05:45.869Z",
+  "phase": "completed",
+  "status": "completed",
+  "outcome": "no_free_slot",
+  "blocker": null,
+  "retryable": false,
   "scan_complete": false,
   "occupied_slots": 6,
   "free_slots": 0,
   "selected_item": null,
   "item_ids": [],
   "task_ids": [
+    "5d1f4fc1b4e548a7828892c73b672990",
+    "90db5dd309db477eb346e8d82676f7b5",
+    "425108630b0e48c9a4b299fc89ad88ee",
+    "bfdb6d9fad7a4ab29492f7bb95c78033",
+    "d775c7a483a44f13ba1704a1c418b208",
+    "8c6d92662d1043c7a651168b2b8280ae"
+  ],
+  "active_task_ids": [
     "5d1f4fc1b4e548a7828892c73b672990",
     "90db5dd309db477eb346e8d82676f7b5",
     "425108630b0e48c9a4b299fc89ad88ee",
@@ -40,8 +52,10 @@
     "acquired_at": "2026-11-17T11:03:42.877Z",
     "expires_at": "2026-11-17T11:09:42.877Z",
     "acquisition_commit": "e7e270d95f7241f169632a59cd5496bbd2dba98c",
-    "released_at": null,
-    "verified_before_write": true
+    "released_at": "2026-11-17T11:05:45.869Z",
+    "release_state": "released_in_same_CAS_as_final_receipt",
+    "verified_before_write": true,
+    "verified_before_final_write": true
   },
   "previous_receipt": {
     "execution_instance_id": "feee9483-3d31-4c3b-a6fb-8543e4766835",
@@ -58,9 +72,6 @@
     "unlimited_zero_verified_in_ui_this_run": false,
     "new_task_id_verified_this_run": false
   },
-  "outcome": "in_progress_no_free_slot",
-  "blocker": null,
-  "retryable": false,
   "scan": {
     "method": "Topview connector read-only",
     "boards_listed": 14,
@@ -70,17 +81,40 @@
     "main_board_videos_total": 511,
     "main_board_videos_scanned": 100,
     "all_boards_all_pages": false,
-    "reason_full_scan_not_needed": "Six ongoing tasks prove the physical capacity limit is reached"
+    "reason_full_scan_not_needed": "Six active tasks were directly verified in the first 100 video tasks, so the global six-slot limit is reached",
+    "active_status": "init",
+    "active_unlimited": true,
+    "active_credits_cost": 0,
+    "active_resolution": 720,
+    "active_aspect_ratio": "16:9"
   },
-  "project": "seregius",
   "queue_items_count": 35,
   "queue_readiness_items_count": 24,
   "queue_pending_claim_count": 0,
+  "queue_pending_claim_items": [],
+  "queue_states": {
+    "waiting_for_slot": 20,
+    "submitted": 11,
+    "blocked_inputs": 3,
+    "blocked_owner_decision": 1
+  },
   "owner_tasks_open_count": 0,
+  "sha_independently_recomputed": {
+    "queue_matches": null,
+    "task_map_matches": null,
+    "explanation": "Independent SHA rehash not performed in 6/6 no-op; no Create or queue mutation"
+  },
   "next_item_if_capacity": "S89D-WAN30",
   "next_action_unchanged": true,
+  "peer_verified_submission": {
+    "item_id": "S89C-WAN30",
+    "task_id": "5d1f4fc1b4e548a7828892c73b672990",
+    "created_by_this_run": false,
+    "still_active": true
+  },
   "peer_runtime": {
     "work_hourly_receipt_run_id": "5bca5d87-3308-832d-9e5a-47a602a73a8c",
-    "relay_last_run_id": "2bc4e4c6-bc54-8331-9dc9-b54bd7946ebd"
+    "relay_last_run_id": "2bc4e4c6-bc54-8331-9dc9-b54bd7946ebd",
+    "ordinary_actual_runtime_run_id": "93658466-d7e4-8323-951b-d2f30a97f5d5"
   }
 }
