@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-17T06:30:45Z",
+  "checked_at": "2026-11-17T06:40:30Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -68,7 +68,7 @@
       "scene_id": 89,
       "mapping": "task_map",
       "queue_count": 3296,
-      "wait_seconds": 142690,
+      "wait_seconds": 142106,
       "process_seconds": null
     },
     {
@@ -80,8 +80,8 @@
       "model": "Wan 3.0",
       "scene_id": 89,
       "mapping": "task_map",
-      "queue_count": 3873,
-      "wait_seconds": 177251,
+      "queue_count": 3874,
+      "wait_seconds": 176666,
       "process_seconds": null
     },
     {
@@ -93,8 +93,8 @@
       "model": "Seedance 2.0",
       "scene_id": 51,
       "mapping": "task_map",
-      "queue_count": 1134,
-      "wait_seconds": 30369,
+      "queue_count": 1128,
+      "wait_seconds": 29786,
       "process_seconds": null
     },
     {
@@ -106,8 +106,8 @@
       "model": "Wan 3.0",
       "scene_id": 89,
       "mapping": "task_map",
-      "queue_count": 3584,
-      "wait_seconds": 159968,
+      "queue_count": 3585,
+      "wait_seconds": 159386,
       "process_seconds": null
     },
     {
@@ -119,8 +119,8 @@
       "model": "Seedance 2.0",
       "scene_id": 48,
       "mapping": "task_map",
-      "queue_count": 3006,
-      "wait_seconds": 125408,
+      "queue_count": 3007,
+      "wait_seconds": 124826,
       "process_seconds": null
     },
     {
@@ -133,7 +133,7 @@
       "scene_id": null,
       "mapping": "unknown_new",
       "queue_count": 2112,
-      "wait_seconds": 73568,
+      "wait_seconds": 72986,
       "process_seconds": null
     }
   ],
@@ -161,7 +161,7 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-11-17T06:20:39Z",
-    "monitor_age_minutes": 10,
+    "monitor_age_minutes": 20,
     "monitor_occupied": 6,
     "robot_occupied": 6,
     "consistent": true,
