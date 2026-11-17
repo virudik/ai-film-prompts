@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:9d62ecb7-7c5f-4e4b-8729-9543cd3c6fc0",
-  "task": "Publish reviewed source-bound pre-step abort protocol; no launch",
-  "acquired_at": "2026-11-17T16:35:14.881988Z",
-  "expires_at": null,
-  "released_at": "2026-11-17T16:35:44.976614Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:8dc86f42-86a4-42aa-8589-c47788af6f73",
+  "task": "Source-bound770 abort reconciliation only",
+  "acquired_at": "2026-11-17T16:38:06.907Z",
+  "expires_at": "2026-11-17T16:43:06.907Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
