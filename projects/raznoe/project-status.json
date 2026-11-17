@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/projects/raznoe/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-17T13:19:40Z",
+  "synced_at": "2026-11-17T16:22:29Z",
   "revision_date": "17.11.2026",
   "master_declared_last_full_sync": "10.11.2026 · сцены 4–5 HONOR: меню, якоря и статусы сверены; канонических продуктовых PNG нет; заявка конкурса не отправлена; видео не запускалось. Сцена 3 RESOURCE без изменений: native-нарезка 19 клипов / 114 с; исходные вкладки 2 × 15 с сохранены; шесть попыток v1 в папке Саши не приняты.",
   "canonical_master_sha256": "ebfd4d3ab27a28b9a6699ff3e88ce0977a70d06eb858b461fb30342bf3519cbd",
@@ -30,7 +30,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 1.025,
+    "age_hours_at_status_build": 4.072,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -108,7 +108,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 1.025,
+      "age_hours": 4.072,
       "blocking": false
     },
     "topview_task_map": {
@@ -238,7 +238,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "17.11.2026",
-    "synced_at": "2026-11-17T13:19:40Z",
+    "synced_at": "2026-11-17T16:22:29Z",
     "canonical_master_sha256": "ebfd4d3ab27a28b9a6699ff3e88ce0977a70d06eb858b461fb30342bf3519cbd",
     "canonical_revision_sha256": "534d22845d5907e476555aac15da60c2af3dc108ba54093d3c07408c4ed544be",
     "scene_count": 5,
