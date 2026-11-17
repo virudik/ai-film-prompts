@@ -11,9 +11,9 @@
   "source_head": "bca88109b27b1c675f5482ade01d2e00ed06d921",
   "actual_trigger": "scheduled",
   "started_at": "2026-11-17T19:02:18.508Z",
-  "updated_at": "2026-11-17T19:02:18.508Z",
-  "phase": "started",
-  "outcome": "started",
+  "updated_at": "2026-11-17T19:02:49.890Z",
+  "phase": "completed",
+  "outcome": "no_update_all_slots_occupied",
   "browser_transport": "dot_own_browser",
   "browser_used": false,
   "scan": {
@@ -41,5 +41,25 @@
   ],
   "new_submissions": 0,
   "queue_pending_claim_items": [],
-  "owner_tasks_open_count": 0
+  "owner_tasks_open_count": 0,
+  "completed_at": "2026-11-17T19:02:49.890Z",
+  "status": "completed",
+  "blocker": null,
+  "retryable": false,
+  "next_action_unchanged": true,
+  "browser_not_used_reason": "Full account-wide read-only scan verified 6/6 active; no UI preflight/Create needed",
+  "lease": {
+    "holder": "chatgpt:ordinary:3f0d96b4-8be8-4ea5-95b8-a3723135c895",
+    "acquired_at": "2026-11-17T19:02:18.508Z",
+    "acquisition_commit": "31b36f640429b87af27e508b0a1b82e53584a6b8",
+    "verified_start_readback": true,
+    "released_at": "2026-11-17T19:02:49.890Z",
+    "release_state": "released_in_same_CAS_as_final_receipt"
+  },
+  "execution": {
+    "state": "completed",
+    "stage": "capacity_checked_no_create",
+    "updated_at": "2026-11-17T19:02:49.890Z",
+    "completed_at": "2026-11-17T19:02:49.890Z"
+  }
 }
