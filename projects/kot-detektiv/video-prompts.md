@@ -60,15 +60,11 @@
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["trailer","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Самостоятельный рекламный трейлер; набор событий не повторяет событийную заставку. Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
 
 **Что происходит:** Письмо появляется раньше события → мокрый след в пустой ложе → единственное сухое дело в затопленном архиве → управляемая тень → оттиск предсказывает погасший фонарь → на аукционе голосует пустое кресло. Кто ставит эти события?
 
-**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
-
-**Назначение:** Самостоятельный рекламный трейлер; набор событий не повторяет событийную заставку.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Кот — выбранный владельцем оригинал" loading="lazy"></a><figcaption>@Image1 — Кот — выбранный владельцем оригинал</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Пёс — исходная внешность и форма" loading="lazy"></a><figcaption>@Image2 — Пёс — исходная внешность и форма</figcaption></figure>
@@ -460,15 +456,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца. Отдельная графическая заставка / анимация названия. Событийное начало сериала — сцена 21. Полный материал 30 секунд; при монтаже можно выбрать короткий фрагмент раскрытия названия.
 
 **Что происходит:** Газовый свет выхватывает часы, лупу, красную печать и нить на столе. В тумане за окном проступает Лондон; появляется название «КОТ ДЕТЕКТИВ».
 
-**Готовность:** Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца.
-
-**Монтажная роль:** Отдельная графическая заставка / анимация названия. Событийное начало сериала — сцена 21. Полный материал 30 секунд; при монтаже можно выбрать короткий фрагмент раскрытия названия.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/branding/KD-opening.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/branding/KD-opening.png" alt="Заставка: точная композиция и надписи" loading="lazy"></a><figcaption>@Image1 — Заставка: точная композиция и надписи</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/branding/KD-poster.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/branding/KD-poster.png" alt="Афиша: сверка названия и общего фирменного оформления; не переносить персонажей или плакатную компоновку в анимацию, основной титульный кадр имеет приоритет" loading="lazy"></a><figcaption>@Image2 — Афиша: сверка названия и общего фирменного оформления; не переносить персонажей или плакатную компоновку в анимацию, основной титульный кадр имеет приоритет</figcaption></figure>
@@ -800,15 +792,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца. Черновой эпизод; сюжет можно дорабатывать по референсу. Номер сцены закреплён, автоматического запуска нет.
 
 **Что происходит:** Кот изучает запечатанное письмо. Часы умолкают, а вошедший констебль показывает такие же остановившиеся часы. Первое совпадение становится делом.
 
-**Готовность:** Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца.
-
-**Монтажная роль:** Черновой эпизод; сюжет можно дорабатывать по референсу. Номер сцены закреплён, автоматического запуска нет.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
@@ -1186,15 +1174,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца. Черновой эпизод; сюжет можно дорабатывать по референсу. Номер сцены закреплён, автоматического запуска нет.
 
 **Что происходит:** На мокрой улице кот находит одинаковый красный знак на двух объявлениях о пропаже. Констебль замечает движение в тумане у моста.
 
-**Готовность:** Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца.
-
-**Монтажная роль:** Черновой эпизод; сюжет можно дорабатывать по референсу. Номер сцены закреплён, автоматического запуска нет.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
@@ -1572,15 +1556,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца. Черновой эпизод; сюжет можно дорабатывать по референсу. Номер сцены закреплён, автоматического запуска нет.
 
 **Что происходит:** Следы заканчиваются перед целым ограждением набережной. Кот находит часы и обломок печати, а пёс освещает исчезающую в тумане лодку.
 
-**Готовность:** Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца.
-
-**Монтажная роль:** Черновой эпизод; сюжет можно дорабатывать по референсу. Номер сцены закреплён, автоматического запуска нет.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
@@ -1965,15 +1945,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца. Черновой эпизод; сюжет можно дорабатывать по референсу. Номер сцены закреплён, автоматического запуска нет.
 
 **Что происходит:** Красная нить связывает места происшествий с часовой башней. Пока кот проверяет совпадение, под запертой дверью появляется новое письмо.
 
-**Готовность:** Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца.
-
-**Монтажная роль:** Черновой эпизод; сюжет можно дорабатывать по референсу. Номер сцены закреплён, автоматического запуска нет.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
@@ -2337,15 +2313,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца. Черновой эпизод; сюжет можно дорабатывать по референсу. Номер сцены закреплён, автоматического запуска нет.
 
 **Что происходит:** Внутри остановленной башни красная лента ведёт героев наверх. Неизвестная фигура скрывается за механизмом, а пёс удерживает опасно сорвавшуюся цепь.
 
-**Готовность:** Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца.
-
-**Монтажная роль:** Черновой эпизод; сюжет можно дорабатывать по референсу. Номер сцены закреплён, автоматического запуска нет.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
@@ -2709,15 +2681,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца. Черновой эпизод; сюжет можно дорабатывать по референсу. Номер сцены закреплён, автоматического запуска нет.
 
 **Что происходит:** На верхней площадке кот сопоставляет часы с картой. Он указывает на обсерваторию: это следующий адрес, а не время преступления.
 
-**Готовность:** Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца.
-
-**Монтажная роль:** Черновой эпизод; сюжет можно дорабатывать по референсу. Номер сцены закреплён, автоматического запуска нет.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
@@ -3081,15 +3049,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца. Черновой эпизод; сюжет можно дорабатывать по референсу. Номер сцены закреплён, автоматического запуска нет.
 
 **Что происходит:** Ночной экипаж приехал пустым. На подножке — свежие следы, на сиденье — перчатка и письмо. Кучер-барсук уверяет жестами, что дверь не открывалась.
 
-**Готовность:** Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца.
-
-**Монтажная роль:** Черновой эпизод; сюжет можно дорабатывать по референсу. Номер сцены закреплён, автоматического запуска нет.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
@@ -3446,15 +3410,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца. Черновой эпизод; сюжет можно дорабатывать по референсу. Номер сцены закреплён, автоматического запуска нет.
 
 **Что происходит:** В закрытой обсерватории телескоп направлен на город, а не на звёзды. Кот обнаруживает красную нить в механизме; пёс замечает, что дверь за ними закрывается.
 
-**Готовность:** Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца.
-
-**Монтажная роль:** Черновой эпизод; сюжет можно дорабатывать по референсу. Номер сцены закреплён, автоматического запуска нет.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
@@ -3811,15 +3771,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем. Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
 
 **Что происходит:** Следы ведут от запертого чемодана. Кот сверяет пломбу, пёс расспрашивает ворона-станционного смотрителя, а паровоз без пассажиров даёт один сигнал.
 
-**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
-
-**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
@@ -4176,15 +4132,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем. Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
 
 **Что происходит:** В заброшенной оранжерее цветёт свежая роза. Красная нить ведёт к верхней галерее; увиденный там силуэт исчезает, оставив запотевший след на стекле.
 
-**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
-
-**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
@@ -4541,15 +4493,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем. Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
 
 **Что происходит:** В пустой ложе остались мокрый след и маска. Через треснувший бинокль кот замечает отражение закрытой двери, которая только что открылась.
 
-**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
-
-**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
@@ -4906,15 +4854,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем. Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
 
 **Что происходит:** На крыше к трубе привязан чёрный змей с капсулой. Кот подтягивает нить, пёс страхует его; внутри капсулы оказывается новая схема улицы.
 
-**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
-
-**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
@@ -5271,15 +5215,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем. Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
 
 **Что происходит:** Архив затоплен, но одна папка лежит сухой под стеклом. Кот замечает пустое место в описи, пока пёс спасает намокшую книгу.
 
-**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
-
-**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
@@ -5636,15 +5576,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем. Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
 
 **Что происходит:** В мастерской марионеток мокрый след пересекает красные нити. Пёс замечает тень за занавеской; кот обнаруживает, что ею управляли снаружи.
 
-**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
-
-**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
@@ -6001,15 +5937,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем. Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
 
 **Что происходит:** На свежем оттиске изображён погасший фонарь, который за окном ещё горит. Пока кот сравнивает детали, настоящий фонарь гаснет.
 
-**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
-
-**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
@@ -6366,15 +6298,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем. Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
 
 **Что происходит:** Пустая лодка тянет канат против потока. Пёс удерживает её у причала, кот достаёт запечатанное письмо и находит уходящую под воду леску.
 
-**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
-
-**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
@@ -6731,15 +6659,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем. Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
 
 **Что происходит:** На закрытом аукционе маленький ключ отбрасывает огромную тень. Торг выигрывает пустое мокрое кресло, а кот замечает леску у таблички участника.
 
-**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
-
-**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
@@ -7096,15 +7020,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем. Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
 
 **Что происходит:** Колокол звучал, хотя его язык снят. Кот находит свежий срез каната; очередной удар слышится с другой стороны города.
 
-**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
-
-**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
@@ -7461,15 +7381,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["event_opening","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Событийная начальная заставка сериала: самостоятельный монтаж мира и героев; графическая заставка сохранена отдельно. Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
 
 **Что происходит:** Вокзал → оранжерея → крыши → шлюз → колокольня → название. Заставка знакомит с методичностью кота, быстрыми реакциями пса и огромным загадочным Лондоном; разгадок и кадров трейлера здесь нет.
 
-**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
-
-**Назначение:** Событийная начальная заставка сериала: самостоятельный монтаж мира и героев; графическая заставка сохранена отдельно.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Кот — выбранный владельцем оригинал" loading="lazy"></a><figcaption>@Image1 — Кот — выбранный владельцем оригинал</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Пёс — исходная внешность и форма" loading="lazy"></a><figcaption>@Image2 — Пёс — исходная внешность и форма</figcaption></figure>
@@ -7867,15 +7783,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","action_chase","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по прямой задаче владельца 21.10.2026. В очередь не добавлять. Видео не запускалось.**
+**Контекст использования:** Черновик по прямой задаче владельца 21.10.2026. В очередь не добавлять. Видео не запускалось. Четыре сюжетных PNG созданы и визуально проверены; три исходных опоры сохранены. Все семь изображений приложены ниже. Для части 2 нужен настоящий будущий результат части 1 как @Video1. Изображения и сцена not_approved/DRAFT до решения владельца. Самостоятельная динамичная сцена для дальнейшей доработки. Это новая погоня, отдельная от сцены 9 с пустой каретой. Основная рекомендуемая версия для движения — Seedance 2.0, 2 × 15 с; альтернативный текст 30 с — Wan 3.0 / Seedance 2.5. Здесь нет команды на запуск.
 
 **Что происходит:** По ночным улицам Лондона кот-детектив уверенно правит дилижансом, а паникующий констебль предупреждает об опасном повороте. Они преследуют чёрный дилижанс фигуры в плаще и шляпе с афиши. Колесо проходит рядом с фонарём; погоня вырывается на мост и уходит в туман. Личность беглеца остаётся тайной.
 
-**Контекст использования:** Самостоятельная динамичная сцена для дальнейшей доработки. Это новая погоня, отдельная от сцены 9 с пустой каретой. Основная рекомендуемая версия для движения — Seedance 2.0, 2 × 15 с; альтернативный текст 30 с — Wan 3.0 / Seedance 2.5. Здесь нет команды на запуск.
-
-**Готовность:** Четыре сюжетных PNG созданы и визуально проверены; три исходных опоры сохранены. Все семь изображений приложены ниже. Для части 2 нужен настоящий будущий результат части 1 как @Video1. Изображения и сцена not_approved/DRAFT до решения владельца.
-
-**Референсы и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="PRIMARY CAT identity: original selected by owner; exclude office props" loading="lazy"></a><figcaption>@Image1 — PRIMARY CAT identity: original selected by owner; exclude office props</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="PRIMARY DOG identity/costume only; exclude incidental people and modern props" loading="lazy"></a><figcaption>@Image2 — PRIMARY DOG identity/costume only; exclude incidental people and modern props</figcaption></figure>

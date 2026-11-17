@@ -3054,7 +3054,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"READY","duration_s":45,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":56}],"tags":["serega","ilyusha","artem","tatooine","worm","map","force_pull","worm_ride","deadpan","continuity"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"READY","duration_s":60,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":56}],"tags":["serega","ilyusha","artem","tatooine","worm","map","force_pull","worm_ride","deadpan","continuity"]} -->
 
 Seedance 2.0 task `8bdd6439dad94592979aba23c137b4a0` технически завершён 12.11.2026 09:35:14 UTC. Результат требует отдельной редакционной проверки; новый Scene ID не создаётся.
 
@@ -3353,6 +3353,9 @@ Optimized for Seedance 2.0 | Photoreal live-action desert adventure | One unbrok
 11–15 s | Continue the same push from @Image5 into @Image6 without a cut. He squints into the wind, then breaks into a broad delighted grin as the camera reaches his face; the mouth passes out of frame to the right. Keep his hand, the ridged back and the city in view, the gate now close. End close, still racing straight at the gate.
 
 Sound: rushing wind, cloth snapping, the heavy thump of the worm slamming down after the crest, rolling sand. No dialogue or score. No camera cut, camera-axis crossing, pullback, still-frame hold, slow motion, Serega falling off or remounting, second worm, saddle, reins, lit saber, vehicles, captions or bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 #### 48 · Seedance 2.0 часть 4
@@ -4415,6 +4418,12 @@ Seedance 2.0 task `f3b8883f44b14a2ba432ce429ba02709` технически зав
 **Площадка и порядок:** собственные лица, одежда и ангар H28B. Сюжетные приоритеты →63→49→50→51A–G→танцы28. Реакции выбранных вуки остаются отдельными роликами50 и монтажными перебивками, а не перегружают каждый удар. Коты получают свой финал и не стоят в зоне замаха людей. Музыкальный выбор для28/49–51 прежний: «Flares of the Blazing Sun» (HOYO-MiX, YMIR, 3:33), добавляется на монтаже; генерация не копирует запись.
 
 **Критерий результата:** все15 исполнителей (исходные12 + отдельное трио51G) по отдельности ломают своё. Гитары/басы — корпусом о пол при хвате двумя руками за гриф; перкуссия — падение и разрушение рамы; барабаны — порванная мембрана и развал установки; духовой — сломанная труба/раструб; арфа — сломанная рама и ослабшие струны; клавиши — расколотый корпус и выпавшие клавиши; у каждого кота — сломанный собственный контроллер. Погасшие огни, брошенный целый инструмент или облако искр без видимого контакта не засчитываются. Технический успех генерации не означает приёмку владельцем.
+
+**Контекст использования:** рок-финал расширен на всех 12 музыкантов. Шесть самостоятельных роликов по 15 секунд, по два исполнителя с последовательными сольными акцентами: каждому видны подготовка, контакт и поломка именно его инструмента. Суммарно 90 секунд исходного материала; в монтаже можно оставить лучшие короткие фрагменты. Для каждой пары есть самостоятельная альтернатива Wan 3.0 на 30 секунд, в очередь она не добавлена. Старый вариант «51A замах троих →51B удар троих» заменён до отправки; его история сохранена в git и отчёте. Теперь **51B не ждёт видео51A**: это другая самостоятельная пара. Все шесть частей ждут только свободный слот по очереди. Собственные лица, одежда и ангар H28B.
+
+**Референсы:** у каждой группы 51A–G есть отдельные целые инструменты/подготовка и отдельный образец поломки. Новый кадр результата — только конец после видимого контакта; он не первый кадр и не замена действию. Кадры не переопределяют лица и конструкцию инструмента.
+
+**Что происходит:** все15 исполнителей (исходные12 + отдельное трио51G) по отдельности ломают своё. Гитары/басы — корпусом о пол при хвате двумя руками за гриф; перкуссия — падение и разрушение рамы; барабаны — порванная мембрана и развал установки; духовой — сломанная труба/раструб; арфа — сломанная рама и ослабшие струны; клавиши — расколотый корпус и выпавшие клавиши; у каждого кота — сломанный собственный контроллер. Погасшие огни, брошенный целый инструмент или облако искр без видимого контакта не засчитываются.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/scenes/scene-51/S51A-own-instrument-result.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-51/S51A-own-instrument-result.png.webp" alt="51A — результат разбивания; только конечное состояние" loading="lazy"></a><figcaption>51A — результат разбивания; только конечное состояние</figcaption></figure>
@@ -6673,6 +6682,8 @@ Seedance 2.0 task `b0915b04173c414e9ac08652d34b7852` технически зав
 
 **Новый источник корзинки и настроения:** `260917_0001_video_edit_6252.mp4` (30с). Берём точные лицо, робу, небольшую овальную плетёную корзинку с одной ручкой и левую руку переноса. Корзинка при выходе пустая; грибы ещё не собираются. Прежнее требование «холодное лицо, без улыбки, без корзины» отменено для этого выхода. Прежний янтарный прибор остаётся убранным внутри корабля, а не превращается в корзинку.
 
+**Контекст использования:** готовая первая часть + три новых продолжения по15с: **59P2 — атмосфера и лес; 59P3 — посадка; 59P4 — выход с корзинкой**. Итого около60с с существующей P1, новых генераций —45с. Не уплотнять эти три действия обратно в один15сролик. 59P2 готова по входам и ждёт слот. 59P3 ждёт результат59P2, затем вырезку последних3с, финальный кадр и проверку стыка. 59P4 так же ждёт59P3. Готовые картинки корзинки не снимают эти зависимости. Пока часть ждёт, запускать следующую готовую сцену по очереди; не держать слот пустым.
+
 **Что происходит:** мощный заход сквозь атмосферу → раскрытие гигантского леса → один читаемый S-вираж вокруг крон → отдельная тормозящая дуга над поляной → волна листьев и тяжёлое касание опор → тихий выход по боковой рампе с корзинкой → светлеющий взгляд, довольная улыбка и первые шаги к грибам. Динамика строится на скорости, масштабе леса, параллаксе и массе корабля; лицо получает отдельное время после посадки.
 
 **Точные статусы:**59P2 готова по входам и ждёт слот.59P3 ждёт результат59P2, затем вырезку последних3с, финальный кадр и проверку стыка.59P4 так же ждёт59P3. Готовые картинки корзинки не снимают эти зависимости. Пока часть ждёт, запускать следующую готовую сцену по очереди; не держать слот пустым. Позиция блока остаётся после червей и62, перед60/61.
@@ -6690,7 +6701,7 @@ Seedance 2.0 task `b0915b04173c414e9ac08652d34b7852` технически зав
 <figure><a href="references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/ship-locations/Serega-ship-kashyyyk-landing.png.webp" alt="Корабль на поляне · синтетический ориентир, не видеокадр" loading="lazy"></a><figcaption>Корабль на поляне · синтетический ориентир, не видеокадр</figcaption></figure>
 </div>
 
-**Референсы по ролям:** космический финал — точный кадр P1; лес/свет — кадры нового грибного видео; корзинка/рука/роба — кадр8,5с; лицо и плетение — кадр18с; каноническая внешность — `references/full/serega.jpg`. Существующая картинка корабля на поляне — только AI-ориентир геометрии и масштаба, не обещание финального кадра. Кроп крон не содержит человека и используется в двух внешних сценах полёта/посадки.
+**Референсы:** космический финал — точный кадр P1; лес/свет — кадры нового грибного видео; корзинка/рука/роба — кадр8,5с; лицо и плетение — кадр18с; каноническая внешность — `references/full/serega.jpg`. Существующая картинка корабля на поляне — только AI-ориентир геометрии и масштаба, не обещание финального кадра. Кроп крон не содержит человека и используется в двух внешних сценах полёта/посадки.
 
 <div class="engine-tabs" data-scene="59">
 
@@ -7969,9 +7980,9 @@ START STATE:
 Serega enters the corridor from the near end in mid-stride, already in a cheerful mood, snapping his fingers; the officers ahead are still at their posts along the walls.
 
 TIMELINE:
-[0:00–0:06] HAPPY STRIDE — Low 28mm tracking shot moving backwards ahead of him. Serega walks with a bouncy step, snapping his fingers on the beat, shoulders rolling, a small satisfied smile. Ahead the first officer turns from a wall console, sees him and straightens rigidly against the panel.
-[0:06–0:12] THE MOVES — Cut on motion to a side tracking 35mm view. He does a sliding side step, a quick heel spin with the robe flaring out, and a little hop-skip without breaking forward motion. Two officers flatten against the wall as he passes; their heads turn to follow him, eyes wide.
-[0:12–0:18] FEAR AND CONFUSION — Medium 50mm reaction from the officers' side: one officer drops his datapad with a clatter, looks down at it and does not dare to bend for it; the stormtrooper freezes mid-step and slowly shifts back to the wall. Serega's shimmying back recedes past them.
+[0:00–0:05] HAPPY STRIDE — Low 28mm tracking shot moving backwards ahead of him. Serega walks with a bouncy step, snapping his fingers on the beat, shoulders rolling, a small satisfied smile. Ahead the first officer turns from a wall console, sees him and straightens rigidly against the panel.
+[0:05–0:10] THE MOVES — Cut on motion to a side tracking 35mm view. He does a sliding side step, a quick heel spin with the robe flaring out, and a little hop-skip without breaking forward motion. Two officers flatten against the wall as he passes; their heads turn to follow him, eyes wide.
+[0:10–0:15] FEAR AND CONFUSION — Medium 50mm reaction from the officers' side: one officer drops his datapad with a clatter, looks down at it and does not dare to bend for it; the stormtrooper freezes mid-step and slowly shifts back to the wall. Serega's shimmying back recedes past them.
 
 END STATE:
 Serega mid-move in the corridor centre with officers pressed against the walls; one datapad on the floor; he is still dancing forward toward the blast doors. Keep the motion going through the final 3 seconds for Part 2; no fade or end pose.
