@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:46823ee1-8651-4abb-be97-489561cc82a5",
-  "task": "Fresh initial S89D launch after abort reconciliation",
-  "acquired_at": "2026-11-17T16:39:38.612Z",
-  "expires_at": null,
-  "released_at": "2026-11-17T16:42:37.509Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:fd53582e-9378-4cb8-a6b4-26b71fc3c777",
+  "task": "Publish fail-fast claim CAS race prevention; no queue or marker changes",
+  "acquired_at": "2026-11-17T16:47:42.856570Z",
+  "expires_at": "2026-11-17T16:53:42.856570Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
