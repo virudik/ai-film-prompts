@@ -220,9 +220,14 @@ def _write_receipt(repo, text, gate, base, state, evidence, sync, clock, hooks, 
     out = dict(base, kind="production", incident_id=incident_id, state=state, holder=holder)
     lease_pushed = False
     try:
-        for attempt in range(1, MAX_ATTEMPTS + 1):
-            out["attempts"] = attempt
-            if attempt > 1:
+        # Count only rejected pushes (real CAS losses). Taking the lease and the
+        # follow-up re-validation pass do not consume the retry budget.
+        cas_failures = 0
+        out["cas_retries"] = 0
+        for step in range(2 * MAX_ATTEMPTS + 2):  # hard safety bound
+            if cas_failures >= MAX_ATTEMPTS:
+                break
+            if step > 0:
                 out["main_sha"] = fresh_main(repo, True)
             now = clock()
             # Re-run the gate on every fresh main: incident must still be current.
@@ -252,6 +257,8 @@ def _write_receipt(repo, text, gate, base, state, evidence, sync, clock, hooks, 
                 new = canon_lock.acquire(lock, holder, f"SITE_ALERT_V2 receipt {incident_id}", LEASE_MINUTES, now)
                 write_json(repo, LOCK, new)
                 if not commit_push(repo, [LOCK], f"Site alert V2: {actor} lease for receipt {incident_id}"):
+                    cas_failures += 1
+                    out["cas_retries"] = cas_failures
                     continue  # CAS lost: re-read main and decide again.
                 lease_pushed = True
                 if "after_lease" in hooks:
@@ -279,6 +286,8 @@ def _write_receipt(repo, text, gate, base, state, evidence, sync, clock, hooks, 
             if "before_receipt_push" in hooks:
                 hooks["before_receipt_push"]()
             if not commit_push(repo, [RECEIPTS, LOCK], f"Site alert V2: {actor} {state} {incident_id}; lease released"):
+                cas_failures += 1
+                out["cas_retries"] = cas_failures
                 continue
             lease_pushed = False
             fresh_main(repo, True)

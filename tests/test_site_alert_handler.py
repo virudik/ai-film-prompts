@@ -216,9 +216,26 @@ class HandlerTests(unittest.TestCase):
 
         out = self.run_handler(text, actor="dot", hooks={"before_receipt_push": race})
         self.assertTrue(out["ok"], out)
-        self.assertGreater(out["attempts"], 2)
+        self.assertEqual(out["cas_retries"], 1)
         self.assertTrue((self.seed / "unrelated.txt").exists())
         self.assertEqual(len(self.origin_json(site_alerts.RECEIPTS)["events"]), 1)
+        self.assertEqual(self.origin_json(canon_lock.LOCK)["state"], "free")
+
+    def test_every_receipt_push_rejected_exhausts_full_budget_and_releases(self):
+        text = self.publish()
+        n = []
+
+        def race():
+            n.append(1)
+            self.pull_seed()
+            (self.seed / f"race{len(n)}.txt").write_text("x")
+            self.push_seed("race")
+
+        out = self.run_handler(text, actor="dot", hooks={"before_receipt_push": race})
+        self.assertEqual((out["ok"], out["reason"], out["cas_retries"]), (False, "cas_exhausted", handler.MAX_ATTEMPTS))
+        self.assertEqual(len(n), handler.MAX_ATTEMPTS)
+        self.assertIsNone(self.origin_json(site_alerts.RECEIPTS))
+        self.assertEqual(out["lease"], "released")
         self.assertEqual(self.origin_json(canon_lock.LOCK)["state"], "free")
 
     def test_lease_stolen_between_steps_fails_closed(self):
