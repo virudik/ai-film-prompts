@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-17T13:23:33+00:00",
-  "source_head": "a780d86f649247a27e76d3575afbf5a217527bf2",
-  "source_fingerprint": "ff53318b7ec19ae88ffc8e19bd831c3d4dc949ac0a09222c59a732db322430d3",
+  "checked_at": "2026-11-17T13:53:30+00:00",
+  "source_head": "c053704742a0fc1711922dde781b9dd24c475a8e",
+  "source_fingerprint": "ce25379cef6f1194a9ce5dd877914138f39a0a0417d0a4c289cdb6df8f83719f",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -184,10 +184,6 @@
         "task_id": "bfdb6d9fad7a4ab29492f7bb95c78033"
       },
       {
-        "item_id": "S65-WAN30",
-        "task_id": "078f094bb1124c2ba7aa22d1ff0eb395"
-      },
-      {
         "item_id": "S51G",
         "task_id": "8c6d92662d1043c7a651168b2b8280ae"
       },
@@ -202,6 +198,10 @@
       {
         "item_id": "S89C-WAN30",
         "task_id": "5d1f4fc1b4e548a7828892c73b672990"
+      },
+      {
+        "item_id": "S65-WAN30",
+        "task_id": "078f094bb1124c2ba7aa22d1ff0eb395"
       },
       {
         "item_id": "S66-STITCH-INDEP-WAN30",
@@ -610,13 +610,13 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "239080988b3253e6217f97dbcf9c6c2834e65cb18636483c717012b5772fd009",
-      "bytes": 243694
+      "sha256": "42a0b2c370f99b3a30b2fee59db11066bc07250c8eea60644a6fd95973fe3552",
+      "bytes": 239727
     },
     {
       "file": "project-status.json",
-      "sha256": "fb69991af718d38633c8142e827a8ff40b4575e082928463df7c49bf23f7d2af",
-      "bytes": 29584
+      "sha256": "882b34e49c47327bae74552ad5e81af8113cc1eff200d2a368ee0e21895eb769",
+      "bytes": 29586
     },
     {
       "file": "reports/current-work-checkpoint.md",
