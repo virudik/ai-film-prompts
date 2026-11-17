@@ -32,7 +32,10 @@ for attempt in 1 2 3 4; do
   git fetch origin main
   git reset --hard origin/main
   # V2 receiver can now verify the exact incident in canonical main.
-  python3 scripts/site_alerts.py . --notify
+  if ! python3 scripts/site_alerts.py . --notify; then
+    echo "Prepared state changed before notify ($attempt/4); recompute from fresh main."
+    continue
+  fi
   if publish_state 'Site alerts: persist delivery receipt'; then
     exit 0
   fi
