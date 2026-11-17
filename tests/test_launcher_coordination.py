@@ -547,4 +547,37 @@ class FreeUnlimitedCostTests(unittest.TestCase):
             unlimited_mode_selected=True, ui_unlimited_label='Unlimited',
             credits_cost_evidence='pricing_page')))
 
+
+class DotRelayRegistrationTests(unittest.TestCase):
+    """Real event handler must pass the ordinary route, never bypass launch gates."""
+    def setUp(self):
+        import json
+        self.cfg = json.loads((Path(__file__).resolve().parents[1] / 'ops/slot-backup.json').read_text())
+        fixture = CoordinationTests('test_both_peers_run_independently')
+        fixture.setUp()
+        self.actor = dict(fixture.actor, automation_id='6af9b2a7212081919b191786c483ad13',
+                          route_generation=self.cfg['route_generation'])
+        self.lock, self.item, self.scan = fixture.lock, fixture.item, fixture.scan
+        self.item['claim']['route_generation'] = self.cfg['route_generation']
+
+    def test_real_dot_event_route_is_registered(self):
+        self.assertTrue(lc.check_route(self.cfg, self.actor))
+        self.assertTrue(lc.prepare_intent(self.cfg, self.lock, self.item, self.actor, self.scan, NOW))
+
+    def test_registration_does_not_allow_other_surface_unknown_id_or_stale_generation(self):
+        for changes in ({'surface': 'work'}, {'automation_id': 'unregistered-event-handler'},
+                        {'route_generation': self.cfg['route_generation'] - 1}):
+            with self.subTest(changes=changes), self.assertRaises(lc.Blocked):
+                lc.check_route(self.cfg, dict(self.actor, **changes))
+
+    def test_registered_dot_still_cannot_pay_repeat_or_use_foreign_lease(self):
+        paid = copy.deepcopy(self.item)
+        paid['claim']['preflight']['credits_cost'] = 1
+        for lock, item, scan in ((self.lock, paid, self.scan),
+                                 (self.lock, dict(self.item, state='submission_unknown'), self.scan),
+                                 (dict(self.lock, holder='chatgpt:ordinary:' + B), self.item, self.scan),
+                                 (self.lock, self.item, dict(self.scan, complete=False))):
+            with self.subTest(lock=lock, item=item, scan=scan), self.assertRaises(lc.Blocked):
+                lc.prepare_intent(self.cfg, lock, item, self.actor, scan, NOW)
+
 if __name__=='__main__': unittest.main()

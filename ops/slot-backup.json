@@ -5,7 +5,7 @@
   "enabled": true,
   "transport": "scheduled_poll",
   "active_automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "route_generation": 3,
+  "route_generation": 4,
   "relay_identity": "chatgpt-slot-backup",
   "relay_address": "chatgpt-slot-backup@cloud-242278071146024960",
   "relay_subscription_required": false,
@@ -79,14 +79,31 @@
       "previous_route_generation": 2,
       "previous_active_automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
       "reason": "Work preference restored after a valid completed Work runtime submitted S48-P2 with verified task/receipt, current authenticated GUI control, and visible Unlimited free mode / Topview credits cost 0. Ordinary and Grok remain enabled reserves."
+    },
+    {
+      "at": "2026-11-17T15:35:53.246842Z",
+      "previous_preferred_executor": "work",
+      "previous_route_generation": 3,
+      "previous_active_automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
+      "registered_automation_id": "6af9b2a7212081919b191786c483ad13",
+      "surface": "ordinary",
+      "change": "add_existing_dot_relay_not_replace_scheduler",
+      "reason": "Restoration of the already documented Dot Relay route, not a new launch workflow. Owner standing instruction: Dot launches authorized queue scenes into free slots and repairs failover. Actual enabled Dot Relay automation verified by provider get on 2026-11-17; real slots:b088674e:71 / issue #770 reached Dot but was blocked as retired_or_unregistered_automation. Add its genuine ID without impersonation. The hourly active pointer and every existing peer remain unchanged. Legacy preferred/reserve lists do not override primary/backup wake dispatch. All exact lease, claim, one-time intent, duplicate, queue/input/QC, fresh scan and Unlimited0 gates remain mandatory. No paid authority, new automation, or Topview submission in this change. Fresh generation required; old prepared actions must not resume.",
+      "validation": {
+        "launcher_tests_passed": 98,
+        "recovery_integration_tests_passed": 15,
+        "instruction_consistency_tests_passed": 5,
+        "topview_submissions": 0
+      }
     }
   ],
   "preferred_executor": "work",
   "applied_owner_request_id": "owner-20261031-ordinary-primary",
-  "updated_at": "2026-11-16T15:48:10.528Z",
+  "updated_at": "2026-11-17T15:35:53.246842Z",
   "reserve_automation_ids": [
     "6ae5e9d563f88191aa6da7c9ba1e05a0",
-    "topview-grok"
+    "topview-grok",
+    "6af9b2a7212081919b191786c483ad13"
   ],
   "coordination_rules": "ops/LAUNCHER-COORDINATION.md",
   "coordination_guard": "scripts/launcher_coordination.py",
@@ -119,7 +136,8 @@
     "ordinary": {
       "enabled": true,
       "automation_ids": [
-        "6ae5e9d563f88191aa6da7c9ba1e05a0"
+        "6ae5e9d563f88191aa6da7c9ba1e05a0",
+        "6af9b2a7212081919b191786c483ad13"
       ],
       "receipt": "reports/topview-slot-backup-cycle.json",
       "handoff_to_work_allowed": false
