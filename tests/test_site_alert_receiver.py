@@ -44,6 +44,42 @@ class ReceiverTests(AlertTests):
         self.base()
         self.assertFalse(self.check(text)['accepted'])
 
+    def test_both_receivers_in_both_roles_production_and_canary(self):
+        # Exercise the same admission gate for Dot and Grok in both directions.
+        # All transport is an in-memory callback; no external receiver is contacted.
+        for primary, backup in (('dot', 'grok'), ('grok', 'dot')):
+            with self.subTest(primary=primary):
+                (self.root/site_alerts.STATE).unlink(missing_ok=True)
+                self.base(health={'problems':[{'level':'error','code':'broken-ref','text':'broken'}]})
+                cfg=site_alerts.read_json(self.root,'ops/relay-wake.json')
+                cfg['site_alert_enabled']=True
+                cfg['wake_roles']={'primary_actor':primary,'backup_actor':backup}
+                cfg['site_alert_routing'].update(enabled=True,mode='primary_then_backup',critical_timeout_minutes=120)
+                write(self.root,'ops/relay-wake.json',cfg)
+                self.sent=[]
+                site_alerts.notify(self.root,NOW,prepare_only=True)
+                site_alerts.notify(self.root,NOW,self.sender,require_prepared=True)
+                self.assertTrue(self.check(self.sent[-1],actor=primary)['accepted'])
+                self.assertFalse(self.check(self.sent[-1],actor=backup)['accepted'])
+                later=NOW+timedelta(minutes=120)
+                write(self.root,'topview-status.json',{'checked_at':later.isoformat()})
+                write(self.root,'automation-monitor-status.json',{'last_scheduled_cycle':{'health':'ok','completed_at':later.isoformat()}})
+                site_alerts.notify(self.root,later,prepare_only=True)
+                site_alerts.notify(self.root,later,self.sender,require_prepared=True)
+                self.assertTrue(self.check(self.sent[-1],actor=backup,now=later)['accepted'])
+                self.assertFalse(self.check(self.sent[-1],actor=primary,now=later)['accepted'])
+                cfg['site_alert_routing']['enabled']=False
+                write(self.root,'ops/relay-wake.json',cfg)
+                for actor in (primary,backup):
+                    calls=[]
+                    def send(root,text,**kw):
+                        calls.append(text);return 'sent','receipt'
+                    site_alert_canary.send(self.root,'site-test-matrix',actor,True,send)
+                    self.assertFalse(self.check(calls[-1],actor=actor)['accepted'])
+                    result=self.check(calls[-1],actor=actor,allowed_test_ids=['site-test-matrix'])
+                    self.assertTrue(result['accepted'])
+                    self.assertFalse(result['write_allowed'])
+
     def test_general_disable_or_invalid_mode_rejects_inflight_production(self):
         site_alerts.notify(self.root,NOW,self.sender)
         text=self.sent[-1]
