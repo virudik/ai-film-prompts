@@ -4,152 +4,48 @@
   "source": "ChatGPT scheduled work",
   "runner": "chatgpt_scheduled_task",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "run_id": "8615faf7-0d80-8324-8ca4-356efaa38978",
+  "run_id": "e828b97d-5014-832f-9ef8-f44eaf37c82f",
   "run_id_unavailable_reason": null,
-  "execution_instance_id": "50f3bd3f-0352-476a-8634-cdb7af851475",
+  "execution_instance_id": "2466cf06-045f-4a9b-8743-680aeb79a2fe",
   "route_generation": 3,
-  "source_head": "cb80f56f58ff2fa25e994d67e51ecc4b96d7c342",
-  "started_at": "2026-11-17T11:54:11.486Z",
-  "updated_at": "2026-11-17T12:10:06.503Z",
-  "completed_at": "2026-11-17T12:10:06.503Z",
-  "phase": "completed",
-  "status": "completed",
-  "scan_complete": true,
-  "occupied_slots": 6,
-  "free_slots": 0,
+  "source_head": "8d9473aaa80e283d637e7740abbaa3c0a1ee3d10",
+  "started_at": "2026-11-17T12:58:18.278Z",
+  "updated_at": "2026-11-17T12:58:47.323Z",
+  "completed_at": null,
+  "phase": "started",
+  "status": "in_progress",
+  "scan_complete": false,
+  "occupied_slots": null,
+  "free_slots": null,
   "selected_item": null,
-  "task_ids": [
-    "5d1f4fc1b4e548a7828892c73b672990",
-    "90db5dd309db477eb346e8d82676f7b5",
-    "425108630b0e48c9a4b299fc89ad88ee",
-    "bfdb6d9fad7a4ab29492f7bb95c78033",
-    "d775c7a483a44f13ba1704a1c418b208",
-    "8c6d92662d1043c7a651168b2b8280ae"
-  ],
+  "task_ids": [],
   "new_submissions": 0,
   "topview_credits_spent": 0,
-  "browser_transport": "topview_connector_read_only_full_all_board_scan",
+  "browser_transport": null,
   "lease": {
-    "holder": "chatgpt:work:50f3bd3f-0352-476a-8634-cdb7af851475",
-    "acquired_at": "2026-11-17T11:54:11.486Z",
-    "expires_at": "2026-11-17T12:39:11.486Z",
+    "holder": "chatgpt:work:2466cf06-045f-4a9b-8743-680aeb79a2fe",
+    "acquired_at": "2026-11-17T12:58:18.278Z",
+    "expires_at": "2026-11-17T13:43:18.278Z",
+    "acquisition_commit": "1346cefc2fc42e1e368844ad8587feb0087c85a2",
     "verified_start_readback": true,
-    "verified_before_final_write": true,
+    "verified_before_final_write": false,
     "released": false
   },
   "acceptance": {
     "scheduled_cycle": true,
-    "actual_runtime_run_id_verified": true,
-    "full_all_board_scan": true,
-    "current_global_capacity_verified": true,
-    "new_task_created_by_this_execution": false,
-    "task_id_created_by_this_execution": false
+    "full_all_board_scan": false,
+    "new_task_created_by_this_execution": false
   },
   "topview_scan": {
-    "checked_at": "2026-11-17T11:56:38Z",
-    "boards_scanned": 14,
-    "pages_scanned": 19,
-    "video_tasks_scanned": 678,
-    "status_counts": {
-      "success": 645,
-      "init": 6,
-      "fail": 27
-    },
+    "checked_at": null,
+    "boards_scanned": 0,
+    "pages_scanned": 0,
+    "video_tasks_scanned": 0,
+    "status_counts": null,
     "global_slot_capacity": 6,
-    "occupied_slots": 6,
-    "free_slots": 0,
-    "active_tasks": [
-      {
-        "task_id": "5d1f4fc1b4e548a7828892c73b672990",
-        "model": "Wan 3.0",
-        "duration": 30,
-        "queue": 3552,
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "status": "init",
-        "use_unlimited": true,
-        "credits_cost": 0,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "gmt_create": "2026-11-16 15:58:20",
-        "gmt_modify": "2026-11-16 15:58:21"
-      },
-      {
-        "task_id": "90db5dd309db477eb346e8d82676f7b5",
-        "model": "Wan 3.0",
-        "duration": 30,
-        "queue": 3263,
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "status": "init",
-        "use_unlimited": true,
-        "credits_cost": 0,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "gmt_create": "2026-11-15 15:11:23",
-        "gmt_modify": "2026-11-15 15:11:25"
-      },
-      {
-        "task_id": "425108630b0e48c9a4b299fc89ad88ee",
-        "model": "Wan 3.0",
-        "duration": 30,
-        "queue": 2974,
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "status": "init",
-        "use_unlimited": true,
-        "credits_cost": 0,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "gmt_create": "2026-11-14 21:32:24",
-        "gmt_modify": "2026-11-14 21:32:24"
-      },
-      {
-        "task_id": "bfdb6d9fad7a4ab29492f7bb95c78033",
-        "model": "Seedance 2.0",
-        "duration": 15,
-        "queue": 2683,
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "status": "init",
-        "use_unlimited": true,
-        "credits_cost": 0,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "gmt_create": "2026-11-13 14:50:55",
-        "gmt_modify": "2026-11-13 14:50:55"
-      },
-      {
-        "task_id": "d775c7a483a44f13ba1704a1c418b208",
-        "model": "Seedance 2.0",
-        "duration": 15,
-        "queue": 1713,
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "status": "init",
-        "use_unlimited": true,
-        "credits_cost": 0,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "gmt_create": "2026-11-12 10:55:38",
-        "gmt_modify": "2026-11-12 10:55:39"
-      },
-      {
-        "task_id": "8c6d92662d1043c7a651168b2b8280ae",
-        "model": "Seedance 2.0",
-        "duration": 15,
-        "queue": 501,
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "status": "init",
-        "use_unlimited": true,
-        "credits_cost": 0,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "gmt_create": "2026-11-11 19:59:15",
-        "gmt_modify": "2026-11-11 19:59:15"
-      }
-    ],
-    "target_board": {
-      "name": "My First Board",
-      "id": "1a6244cf1ae747ef847d949a80d6133c"
-    },
+    "occupied_slots": null,
+    "active_tasks": [],
     "website_authenticated": null,
-    "connector_authenticated": true,
     "create_performed": false
   },
   "peer_reconciliation": {
@@ -158,168 +54,23 @@
       "last_run_id": "38cc4537-2b78-832e-81b6-490642215bce",
       "last_run_status": "completed",
       "latest_result_run_id": "38cc4537-2b78-832e-81b6-490642215bce",
-      "canonical_receipt_run_id": "93658466-d7e4-8323-951b-d2f30a97f5d5",
-      "canonical_receipt_updated_for_latest_run": false,
-      "reason": "current ordinary run observed another executor's valid lease and did not save a receipt"
+      "canonical_receipt_run_id": "93658466-d7e4-8323-951b-d2f30a97f5d5"
     },
     "work": {
       "automation_id": "6acae6ab433481919e88665c520b8ef2",
-      "last_run_id": "8615faf7-0d80-8324-8ca4-356efaa38978",
-      "recorded_status_at_final_write": "in_progress",
-      "latest_result_run_id": null
+      "last_run_id": "e828b97d-5014-832f-9ef8-f44eaf37c82f",
+      "recorded_status_at_start": "in_progress",
+      "latest_result_run_id": "8615faf7-0d80-8324-8ca4-356efaa38978"
     }
   },
-  "checked_at": "2026-11-17T12:10:06.503Z",
-  "outcome": "no_free_slot",
+  "previous_receipt": {
+    "run_id": "8615faf7-0d80-8324-8ca4-356efaa38978",
+    "execution_instance_id": "50f3bd3f-0352-476a-8634-cdb7af851475",
+    "completed_at": "2026-11-17T12:10:06.503Z",
+    "outcome": "no_free_slot"
+  },
+  "checked_at": "2026-11-17T12:58:47.323Z",
+  "outcome": null,
   "blocker": null,
-  "retryable": true,
-  "queue_snapshot": {
-    "queue": {
-      "items_total": 35,
-      "state_counts": {
-        "blocked_owner_decision": 1,
-        "waiting_for_slot": 20,
-        "submitted": 11,
-        "blocked_inputs": 3
-      },
-      "pending_claim_count": 0,
-      "source_sha256": "320e162ad5111792f6af06124deba5c2bc6d684c39aa5f6a6e2ef68f4ab90d7f"
-    },
-    "readiness": {
-      "items_total": 24,
-      "ready_true": 20,
-      "ready_false": 4,
-      "checked_at": "2026-11-17T11:30:36.993287Z",
-      "source_queue_sha256": "320e162ad5111792f6af06124deba5c2bc6d684c39aa5f6a6e2ef68f4ab90d7f",
-      "source_task_map_sha256": "b2aac946206aa4f1db47b71b5be635f830bee8ef3d32271ea4764fd4c1e9a859",
-      "queue_hash_matches": true,
-      "task_map_hash_matches": true
-    },
-    "task_map": {
-      "updated_at": "2026-11-17T11:30:30Z",
-      "active_task_ids": [
-        "5d1f4fc1b4e548a7828892c73b672990",
-        "90db5dd309db477eb346e8d82676f7b5",
-        "425108630b0e48c9a4b299fc89ad88ee",
-        "bfdb6d9fad7a4ab29492f7bb95c78033",
-        "d775c7a483a44f13ba1704a1c418b208",
-        "8c6d92662d1043c7a651168b2b8280ae"
-      ],
-      "source_sha256": "b2aac946206aa4f1db47b71b5be635f830bee8ef3d32271ea4764fd4c1e9a859"
-    }
-  },
-  "dance_archive": {
-    "checked": true,
-    "folder_id": "1e1DFvcKeKrNdcHrdZaJRHqaT2vXvxatm",
-    "existing_files": 25,
-    "zero_byte_files": 0,
-    "scene_counts": {
-      "S28": 13,
-      "S49": 6,
-      "S51": 6
-    },
-    "task_ids_in_names": true,
-    "new_terminal_topview_dance_results": 0,
-    "uploaded_files": 0,
-    "duplicates_created": 0,
-    "grok_files_touched": 0,
-    "artistic_approval_asserted": false
-  },
-  "phases": {
-    "A": {
-      "due": true,
-      "completed": true,
-      "self_heal": {
-        "status": "ok"
-      },
-      "project_status": {
-        "health": "ok",
-        "synced_at": "2026-11-17T11:30:33Z",
-        "fresh_under_40_minutes_at_check": true
-      },
-      "canon_health": {
-        "status": "ok",
-        "warnings": 0,
-        "info": 7
-      },
-      "owner_tasks": {
-        "total": 9,
-        "open": 0,
-        "takeable_chatgpt_or_any": 0,
-        "eligible_claude_over_3h": 0
-      }
-    },
-    "B": {
-      "due": true,
-      "completed": true,
-      "query": "from:notifications@github.com \"virudik/ai-film-prompts\" after:2026/11/16 -in:spam -in:trash",
-      "pages": 1,
-      "messages": 15,
-      "next_page_token": null,
-      "new_messages_since_previous_successful_check": 1,
-      "new_message": {
-        "id": "1a1e93545839a092",
-        "kind": "pull_request_review",
-        "pull_request": 747,
-        "commit": "ca9fb2e",
-        "finding": "site_alert_publish.sh retry loop exited under set -e on prepare_required"
-      },
-      "repair": {
-        "applied": true,
-        "script_commit": "a2919592714c5e6481e3b903ce67660ef60439af",
-        "regression_test_commit": "37d66f8651d170ad21fd3babf13e3176ce827d6f",
-        "targeted_tests": "81 passed",
-        "full_tests": "665 passed",
-        "shell_syntax": true,
-        "github_actions_run_for_direct_fix": null,
-        "routing_enabled": false,
-        "live_canary_run": false
-      },
-      "earlier_failure_notifications": {
-        "already_processed_at_previous_cycle": true,
-        "canon_health_run_id": "43925539517",
-        "later_success_run_id": "44034578918",
-        "service_maintenance_run_id": "43927720509",
-        "later_full_success_run_id": "44034650883"
-      },
-      "unresolved_failures": 0,
-      "mailbox_mutated": false
-    },
-    "C": {
-      "due": false,
-      "weekday": "Tuesday",
-      "completed": false
-    }
-  },
-  "owner_decisions": {
-    "applied": 127,
-    "needs_owner": 1,
-    "superseded": 4,
-    "instructions_executed_from_needs_owner": 0
-  },
-  "relay": {
-    "recent_events": 0,
-    "polling_active": false,
-    "delivery_paused": false,
-    "event_receipt_imitated": false,
-    "handler_automation_id": "6adc585e7ac08191bb93825117dc7213",
-    "handler_prompt_owner_task_clause_repaired": true,
-    "handler_schedule_changed": false,
-    "handler_trigger_changed": false
-  },
-  "instruction_consistency": {
-    "seven_instructions_present": "7/7",
-    "report_status": "ok",
-    "problems": [],
-    "checked_at": "2026-11-17T12:04:38.011798+00:00",
-    "report_commit": "125ef63ca7db0a3e22ad0c39213177a77bfb39af",
-    "work_prompt_sha256": "a7cd3d17004fde9aed96b473fb656f5f2a4d028043614dccd04e12503ac4f55b",
-    "relay_prompt_sha256": "7926623b4ca20c08a4598b732161c2a8c2da20d5320e0d8960d23841669aff9f"
-  },
-  "continue_preflight": {
-    "ready_for_resume": true,
-    "work_id": "SEREGIUS-SHIFT-20261113-T611U",
-    "next_action": "wait for a free Topview slot; never repeat S89C"
-  },
-  "final_head_before_receipt": "125ef63ca7db0a3e22ad0c39213177a77bfb39af"
+  "retryable": true
 }
