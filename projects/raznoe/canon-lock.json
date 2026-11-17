@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:6f383755-d644-483f-a91b-b73f69c40484",
-  "task": "Clarify historical pricing in Raznoe handoff and checkpoint without changing prices",
-  "acquired_at": "2026-11-16T10:02:41.506Z",
-  "expires_at": null,
-  "released_at": "2026-11-16T10:03:33.911Z",
+  "state": "held",
+  "holder": "grok:honor-yard-canon",
+  "task": "HONOR сцена 5: канон вида двора в референсы и промпты (PR, без слияния)",
+  "acquired_at": "2026-11-17T13:18:05Z",
+  "expires_at": "2026-11-17T14:18:05Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }
