@@ -55,6 +55,7 @@
 7. План «на потом» всех исполнителей — `ops/FUTURE-PLANS.md`.
 
 ### Новое с последней чистки (дописывать сюда, одной строкой с датой)
+- **17.11:** отдельная reviewed source-bound схема подтверждает pre-step abort без выдуманного Python exit; исторический assessment770 не даёт launch authority, live reconciliation и CAS обязательны — `ops/LAUNCHER-ENTRY.md`.
 - **17.11:** wrapper не создаёт новый `.busy` при read-only snapshot mismatch до входа в фазу; существующие crash markers и запрет неоднозначного повтора сохраняются — `ops/LAUNCHER-ENTRY.md`.
 - **17.11:** устранён ложный «Dot активен» после terminal blocked (#770): активный heartbeat и завершённая квитанция различаются; правило резерва — `ops/PRIMARY-BACKUP-WAKE.md`. Lease/claim/reconcile и Unlimited0 без изменений.
 

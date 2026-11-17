@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "kind": "source_bound_pre_step_abort_assessment",
+  "event_id": "slots:b088674e:71",
+  "issue_number": 770,
+  "item_id": "S89D-WAN30",
+  "execution_instance_id": "c38e7671-afd8-4f9f-9bb8-ab4a4660c15f",
+  "checked_at": "2026-11-17T16:34:41.911611Z",
+  "scope": "Historical source/control-flow assessment only. Not fresh remote/live reconciliation or launch authorization.",
+  "observed": {
+    "initial_tool_result": "complete snapshot rejection JSON, checks_passed=false/create_allowed=false, checkout_must_equal_fresh_origin_main",
+    "shell_exit_code": 0,
+    "python_exit_code": null,
+    "stdout_file": "overwritten by second attempt; first tool transcript retained as reconstruction",
+    "second_tool_result": "FileExistsError on same claim busy marker; shell completed0",
+    "session_file_exists": false,
+    "subsequent_launcher_calls": "worker reports none after second claim; no intent/verify/Create",
+    "historical_source_binding": "clean checkout66e10dff then bounded checkout-only/no-code-edits chain to c718ad3 and8e94f16; all four source hashes identical; later current tracked clean corroborates",
+    "marker_preserved": true
+  },
+  "derived_from_reviewed_source": {
+    "marker_created_by_first_invocation": true,
+    "step_reached": false,
+    "claim_or_intent_transaction_prepared": false,
+    "foreground_children_terminated_before_shell_completion": true,
+    "request_read": "not asserted; unnecessary for pre-step proof"
+  },
+  "source_sha256": {
+    "launcher_entry.py": "76b2b7e15a8394e70ad1338148f50ee03006fc0c89d8ef552a0bfd95e76fca31",
+    "launcher_coordination.py": "da83f5f8652b9ec91af209dab9c2e85edc778352c341c0317953a77f8a6875e5",
+    "launcher_run_ledger.py": "3fb2349962457778366bfd4e2ed5aabba9abb705c1a938598e4d165ce1714032",
+    "queue_readiness.py": "a0fb24cb4ec9fc19a878c853885a3b7668db85b667993832f3dafaa236793b5a"
+  },
+  "private_evidence_sha256": [
+    "69bc5502fdac33585e4ee03819dc9fc38d7bc440169cd84b01a0fcd51985b4d2",
+    "767d12ff554bf000d997f80b96b54148eaf08cbd0dbbad6e5bf405662ed82fdf"
+  ],
+  "independent_review": "Source-bound pre-step abort accepted; strict exit2 proof not claimed. Real current launch eligibility requires subsequent live and canonical reconciliation.",
+  "regression": "Exact legacy source subprocess simulation: shell0 + snapshot error leaves claim marker/no session; second shell0 + FileExistsError. Pass; semantic test is not proof of historical occurrence.",
+  "strict_exit2_assessment_passed": false,
+  "fresh_remote_and_live_reconciliation_complete": false,
+  "new_session_allowed_by_this_report": false,
+  "create_allowed": false,
+  "next": "Fresh peer/main/lease/queue/history/ledger/live scan; persist separate abort reconciliation receipt with exact own CAS lease/readback, then fresh ordinary initial claim protocol if still eligible."
+}
