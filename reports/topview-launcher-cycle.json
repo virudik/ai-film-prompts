@@ -10,64 +10,348 @@
   "route_generation": 4,
   "source_head": "9e38aa9894f4bda2d5f211dd2b2da919b2ae5c6c",
   "started_at": "2026-11-17T15:58:11.108Z",
-  "updated_at": "2026-11-17T15:58:11.108Z",
-  "completed_at": null,
-  "phase": "started",
-  "status": "in_progress",
-  "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
-  "selected_item": null,
-  "task_ids": [],
+  "updated_at": "2026-11-17T16:08:18.894Z",
+  "completed_at": "2026-11-17T16:08:18.894Z",
+  "phase": "completed",
+  "status": "completed",
+  "scan_complete": true,
+  "occupied_slots": 5,
+  "free_slots": 1,
+  "selected_item": "S89D-WAN30",
+  "task_ids": [
+    "5d1f4fc1b4e548a7828892c73b672990",
+    "90db5dd309db477eb346e8d82676f7b5",
+    "425108630b0e48c9a4b299fc89ad88ee",
+    "bfdb6d9fad7a4ab29492f7bb95c78033",
+    "d775c7a483a44f13ba1704a1c418b208"
+  ],
   "new_submissions": 0,
   "topview_credits_spent": 0,
-  "browser_transport": null,
+  "browser_transport": "topview_connector_read_only_full_all_board_scan; connected Browser unavailable; cloud website persistent Login after hydration/reload",
   "lease": {
     "holder": "chatgpt:work:a931f189-71d2-4228-a497-5f42a4315261",
     "acquired_at": "2026-11-17T15:57:37.536Z",
     "expires_at": "2026-11-17T16:42:37.538Z",
     "acquisition_commit": "bd4f4b844e27087efe27f6d946f6212b7ce2f6be",
     "verified_start_readback": true,
-    "verified_before_final_write": false,
+    "verified_before_final_write": true,
     "released": false
   },
   "acceptance": {
     "scheduled_cycle": true,
     "actual_runtime_run_id_verified": true,
-    "full_all_board_scan": false,
-    "current_global_capacity_verified": false,
+    "full_all_board_scan": true,
+    "current_global_capacity_verified": true,
+    "website_authenticated": false,
+    "unlimited_zero_ui_verified": false,
+    "item_claim_created": false,
+    "submission_intent_created": false,
+    "create_clicked": false,
     "new_task_created_by_this_execution": false,
     "task_id_created_by_this_execution": false
   },
+  "topview_scan": {
+    "checked_at": null,
+    "checked_at_unavailable_reason": "Topview list responses did not expose an observation timestamp; this execution completed the scan after started_at and before robot task-map scan 2026-11-17T16:00:28Z",
+    "boards_scanned": 14,
+    "pages_scanned": 19,
+    "video_tasks_scanned": 678,
+    "status_counts": {
+      "success": 646,
+      "init": 5,
+      "running": 0,
+      "fail": 27
+    },
+    "global_slot_capacity": 6,
+    "occupied_slots": 5,
+    "free_slots": 1,
+    "active_tasks": [
+      {
+        "task_id": "5d1f4fc1b4e548a7828892c73b672990",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "board_name": "My First Board",
+        "status": "init",
+        "model": "Wan 3.0",
+        "duration": 30,
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "use_unlimited": true,
+        "credits_cost": 0,
+        "queue_count": 4045,
+        "gmt_create": "2026-11-16 15:58:20",
+        "gmt_modify": "2026-11-16 15:58:21"
+      },
+      {
+        "task_id": "90db5dd309db477eb346e8d82676f7b5",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "board_name": "My First Board",
+        "status": "init",
+        "model": "Wan 3.0",
+        "duration": 30,
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "use_unlimited": true,
+        "credits_cost": 0,
+        "queue_count": 3756,
+        "gmt_create": "2026-11-15 15:11:23",
+        "gmt_modify": "2026-11-15 15:11:25"
+      },
+      {
+        "task_id": "425108630b0e48c9a4b299fc89ad88ee",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "board_name": "My First Board",
+        "status": "init",
+        "model": "Wan 3.0",
+        "duration": 30,
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "use_unlimited": true,
+        "credits_cost": 0,
+        "queue_count": 3467,
+        "gmt_create": "2026-11-14 21:32:24",
+        "gmt_modify": "2026-11-14 21:32:24"
+      },
+      {
+        "task_id": "bfdb6d9fad7a4ab29492f7bb95c78033",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "board_name": "My First Board",
+        "status": "init",
+        "model": "Seedance 2.0",
+        "duration": 15,
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "use_unlimited": true,
+        "credits_cost": 0,
+        "queue_count": 3178,
+        "gmt_create": "2026-11-13 14:50:55",
+        "gmt_modify": "2026-11-13 14:50:55"
+      },
+      {
+        "task_id": "d775c7a483a44f13ba1704a1c418b208",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "board_name": "My First Board",
+        "status": "init",
+        "model": "Seedance 2.0",
+        "duration": 15,
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "use_unlimited": true,
+        "credits_cost": 0,
+        "queue_count": 2305,
+        "gmt_create": "2026-11-12 10:55:38",
+        "gmt_modify": "2026-11-12 10:55:39"
+      }
+    ],
+    "target_board": {
+      "name": "My First Board",
+      "id": "1a6244cf1ae747ef847d949a80d6133c",
+      "projects_registry_match": true
+    },
+    "connector_authenticated": true,
+    "website_authenticated": false,
+    "create_performed": false,
+    "terminal_change": {
+      "task_id": "8c6d92662d1043c7a651168b2b8280ae",
+      "previous_status": "running",
+      "current_status": "success",
+      "terminal": true,
+      "gmt_modify": "2026-11-17 15:05:12"
+    }
+  },
+  "selected_item_preflight": {
+    "item_id": "S89D-WAN30",
+    "priority": 0.304,
+    "queue_state": "waiting_for_slot",
+    "readiness": true,
+    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "board_name": "My First Board",
+    "model": "Wan 3.0",
+    "model_id": "qwen-wan3.0-video",
+    "duration_seconds": 30,
+    "resolution": 720,
+    "aspect_ratio": "16:9",
+    "quantity": 1,
+    "mode": "omni_reference",
+    "canonical_prompt_sha256": "976ff82f2753464a926919bb5b30a7f5988cc4bb16119a908e9ac5952b184e70",
+    "normalized_prompt_sha256": "e66a746664db1fd8b8c9ce138f49483385d90225671e61584b69b378c7eea22d",
+    "master_hash_match": true,
+    "normalized_hash_match": true,
+    "full_scan_normalized_prompt_matches": [],
+    "inputs": [
+      {
+        "slot": "@Image1",
+        "sha256": "833f95c2044d2cdc956a18b5188efb3cb8ebeee429da572f02fdbfac4c0852db",
+        "bytes": 12687056,
+        "width": 2752,
+        "height": 1536,
+        "verified": true,
+        "source": "Google Drive 1tnUopP8035gpZn0C48b0vL8u78NW0Ack"
+      },
+      {
+        "slot": "@Image2",
+        "path": "references/scenes/scene-89/shared/pasha-scene.png",
+        "sha256": "58ecb37480403078851d3907cd426f8d9534282ea5e33635583b6d6a60635bf9",
+        "width": 896,
+        "height": 1195,
+        "verified": true
+      },
+      {
+        "slot": "@Image3",
+        "path": "references/scenes/scene-89/shared/sasha-scene.png",
+        "sha256": "5dd419b95d18c94d37629ad1a1f4c3d857644e15cfdfca422a55285752839e4a",
+        "width": 1024,
+        "height": 1024,
+        "verified": true
+      }
+    ],
+    "website_preflight_completed": false,
+    "claim_created": false,
+    "submission_intent_created": false
+  },
+  "outcome": "blocked_browser_pre_create",
+  "blocker": {
+    "category": "blocked_browser_pre_create",
+    "item_id": "S89D-WAN30",
+    "reason": "The connected Browser action was unavailable, and the permitted cloud-browser fallback showed a persistent Topview Login state after direct board navigation and reload. The exact board editor, file inputs, Unlimited mode and visible credits cost 0 could not be verified. No claim/intent was written and Create was not clicked.",
+    "retryable": true,
+    "next_cycle_rule": "Fresh route/lock/queue/full-slot scan and website preflight; do not reuse any intent because none was created."
+  },
+  "retryable": true,
   "peer_reconciliation": {
     "ordinary": {
       "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-      "last_run_id": "e5bdbe66-b694-8327-b3c4-8dbf6beb7bb8",
+      "last_run_id": "052e20f0-890c-8332-9e4d-184d949737c2",
       "last_run_status": "completed",
-      "latest_result_run_id": "e5bdbe66-b694-8327-b3c4-8dbf6beb7bb8",
+      "latest_result_run_id": "052e20f0-890c-8332-9e4d-184d949737c2",
       "canonical_receipt_run_id": "e5bdbe66-b694-8327-b3c4-8dbf6beb7bb8",
-      "canonical_receipt_matches_latest_run": true
+      "canonical_receipt_matches_latest_run": false,
+      "receipt_not_saved_reason": "Current ordinary run observed this Work lease as foreign and reported receipt_not_saved; its latest_result text records read-only 5/6 scan and no Create."
     },
     "additional_ordinary": {
       "automation_id": "6af9b2a7212081919b191786c483ad13",
       "provider_status": "not_checked",
       "reason": "automation task not found or inaccessible to current provider peek; no inference of disabled/deleted"
     },
+    "relay": {
+      "automation_id": "6adc585e7ac08191bb93825117dc7213",
+      "last_run_id": "2bc4e4c6-bc54-8331-9dc9-b54bd7946ebd",
+      "last_run_status": "completed",
+      "latest_result_run_id": "2bc4e4c6-bc54-8331-9dc9-b54bd7946ebd"
+    },
     "work": {
       "automation_id": "6acae6ab433481919e88665c520b8ef2",
       "last_run_id": "7c9dac5d-901c-8328-8ad0-394555335973",
-      "recorded_status_at_start": "in_progress",
+      "recorded_status_at_final_write": "in_progress",
       "latest_result_run_id": null
     }
   },
-  "previous_receipt": {
-    "run_id": "c268d6ef-c2e8-8331-b368-ec698abbfb9a",
-    "execution_instance_id": "3d328a2b-761e-4d08-8489-39c2e94aace7",
-    "completed_at": "2026-11-17T15:03:31.183Z",
-    "outcome": "no_free_slot"
+  "queue_snapshot": {
+    "items_total": 34,
+    "state_counts": {
+      "blocked_owner_decision": 1,
+      "waiting_for_slot": 20,
+      "submitted": 10,
+      "blocked_inputs": 3
+    },
+    "pending_claim_count": 0,
+    "readiness_items_total": 24,
+    "readiness_counts": {
+      "ready_true": 20,
+      "ready_false": 4
+    },
+    "readiness_checked_at": "2026-11-17T16:00:36.395392Z",
+    "source_queue_sha256": "42a0b2c370f99b3a30b2fee59db11066bc07250c8eea60644a6fd95973fe3552",
+    "source_task_map_sha256": "fa496295cd0034cb52230f01364208c06137273d0551bc6227e988997f7be992",
+    "queue_hash_matches": true,
+    "task_map_hash_matches": true,
+    "unmapped_active": [
+      "d775c7a483a44f13ba1704a1c418b208"
+    ],
+    "queue_blob_sha": "2e6cf63ba7283a41ee129837ef15f1e31755d532",
+    "readiness_blob_sha": "7d5adcbb0eb50ff0dfc8b3ab218131e7b6ec6606",
+    "task_map_blob_sha": "ad34d4aba983b6c0c4333b4b884e7da6e9efa2fe"
   },
-  "checked_at": "2026-11-17T15:58:11.108Z",
-  "outcome": null,
-  "blocker": null,
-  "retryable": true
+  "dance_archive": {
+    "checked": true,
+    "folder_id": "1e1DFvcKeKrNdcHrdZaJRHqaT2vXvxatm",
+    "existing_files_before": 25,
+    "existing_files_after": 26,
+    "task_id": "8c6d92662d1043c7a651168b2b8280ae",
+    "scene_id": 51,
+    "original_sha256": "b298e0e1a6b7df16d51986cc26e3b9f6ed2ed558ccb9eacf02ebe96ae048c040",
+    "original_bytes": 11718687,
+    "duration_seconds": 15.104,
+    "width": 1280,
+    "height": 720,
+    "video_codec": "h264",
+    "audio": "aac stereo 32000 Hz",
+    "qc_scope": "sampled visual contact sheet at 1 fps plus stream metadata; not full watch with audio",
+    "sampled_observation": "Three performers and separate instrument lanes remain visible; ordered destruction is represented and no obvious duplicate performer or frame bars appeared in sampled frames.",
+    "technical_success_is_not_artistic_approval": true,
+    "drive_file_id": "1VLUcIUfRmiOvwnStDvDwrnsT9eUzwW8S",
+    "drive_url": "https://drive.google.com/file/d/1VLUcIUfRmiOvwnStDvDwrnsT9eUzwW8S/view?usp=drivesdk",
+    "drive_size_verified": 11718687,
+    "uploaded_files": 1,
+    "duplicates_created": 0,
+    "grok_files_touched": 0,
+    "artistic_approval_asserted": false
+  },
+  "owner_decisions": {
+    "applied": 127,
+    "needs_owner": 1,
+    "superseded": 4,
+    "changed_since_previous_cycle": false,
+    "instructions_executed_from_needs_owner": 0
+  },
+  "owner_tasks": {
+    "total": 8,
+    "open": 0,
+    "taken": 0,
+    "takeable_chatgpt_or_any": 0
+  },
+  "relay": {
+    "recent_events": 0,
+    "polling_active": false,
+    "delivery_paused": false,
+    "event_receipt_imitated": false,
+    "subscription_check": "checked",
+    "active_subscription": {
+      "event": "relay.message",
+      "arguments": {
+        "from": "topview-robot"
+      },
+      "status": "active"
+    },
+    "unfiltered_subscription_active": false
+  },
+  "instruction_consistency": {
+    "checked": true,
+    "status": "warn",
+    "problems": [
+      "relay-subscription"
+    ],
+    "report_commit": "a5aadd6ba912024e55b2d5c1a429dff2cc786cbf",
+    "meaning": "Live active Relay subscription is filtered to topview-robot; the expected unfiltered relay.message subscription is not active. No trigger or schedule was changed in this cycle."
+  },
+  "phases": {
+    "A": {
+      "due": false,
+      "reason": "18:55 MSK cycle; last confirmed Phase A 14:55 MSK; next scheduled Phase A 20:55 MSK"
+    },
+    "B": {
+      "due": false,
+      "reason": "18:55 MSK cycle; last confirmed Phase B 14:55 MSK; next scheduled Phase B 20:55 MSK"
+    },
+    "C": {
+      "due": false,
+      "weekday": "Tuesday"
+    }
+  },
+  "continue_preflight": {
+    "ready_for_resume": true,
+    "work_id": "SEREGIUS-SHIFT-20261113-T611U",
+    "next_action": "Wait for free slot then fresh queue/anti-duplicate preflight; never repeat S89C Create",
+    "changed_this_cycle": false
+  },
+  "checked_at": "2026-11-17T16:08:18.894Z"
 }
