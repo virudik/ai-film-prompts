@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-17T12:04:38.011798+00:00",
-  "status": "ok",
+  "checked_at": "2026-11-17T16:05:16.917825+00:00",
+  "status": "warn",
   "scope": "Selected consistency invariants only; full semantic review and runtime success are separate.",
   "live_automations": "checked",
   "automation_observations": [
     {
       "id": "6acae6ab433481919e88665c520b8ef2",
-      "updated_at": "2026-11-17T10:58:05.450873+00:00",
+      "updated_at": "2026-11-17T15:04:22.935272+00:00",
       "prompt_sha256": "a7cd3d17004fde9aed96b473fb656f5f2a4d028043614dccd04e12503ac4f55b"
     },
     {
@@ -16,5 +16,7 @@
       "prompt_sha256": "7926623b4ca20c08a4598b732161c2a8c2da20d5320e0d8960d23841669aff9f"
     }
   ],
-  "problems": []
+  "problems": [
+    "relay-subscription"
+  ]
 }
