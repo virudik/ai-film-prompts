@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:c18df366-7b21-4f54-be9d-e7a45004eb76",
-  "task": "Fix preclaim snapshot marker and terminal backup contract; no Create",
-  "acquired_at": "2026-11-17T16:25:21.612310Z",
-  "expires_at": null,
-  "released_at": "2026-11-17T16:25:51.434352Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:9d62ecb7-7c5f-4e4b-8729-9543cd3c6fc0",
+  "task": "Publish reviewed source-bound pre-step abort protocol; no launch",
+  "acquired_at": "2026-11-17T16:35:14.881988Z",
+  "expires_at": "2026-11-17T16:42:14.881988Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
