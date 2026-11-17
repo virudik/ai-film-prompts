@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-17T17:44:48.921Z",
+  "automation_id": "6afc8b674794819192ba0b1415c5a220",
+  "source": "actual root scheduled wake; delegated execution",
+  "run_id": null,
+  "run_id_unavailable_reason": "Provider peek exposes null last_run/latest_result for this self-owned oneoff; root observed actual notification.",
+  "execution_instance_id": "5eb46ae8-b543-40ec-a5b2-39f827e3f920",
+  "outcome": "registered_launch_pending_recovery_hold",
+  "route_generation": 5,
+  "source_head": "4dd3bd23b4b7c0dcfaaf53c24c6ad8375b6c6e28",
+  "work_peer": {
+    "run_id": "5ce0bc47-18b0-8333-8ddf-faf25680fb29",
+    "provider_status": "completed",
+    "completed_at": "2026-11-17T17:02:10.458004Z",
+    "expired_lease_holder": "chatgpt:work:ae0c2864-0512-4385-bf05-c5e842d9e324"
+  },
+  "scan": {
+    "checked_at": "2026-11-17T17:41:59.410Z",
+    "complete": true,
+    "boards": 14,
+    "pages": 21,
+    "tasks": 1062,
+    "occupied": 5
+  },
+  "new_submissions": 0,
+  "credits_spent": 0,
+  "old_markers_preserved": true,
+  "blocker": "S89D unresolved prior local intent-stage marker; next independent item requires honest queue hold, not marker bypass."
+}

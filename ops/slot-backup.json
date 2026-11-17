@@ -5,7 +5,7 @@
   "enabled": true,
   "transport": "scheduled_poll",
   "active_automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "route_generation": 4,
+  "route_generation": 5,
   "relay_identity": "chatgpt-slot-backup",
   "relay_address": "chatgpt-slot-backup@cloud-242278071146024960",
   "relay_subscription_required": false,
@@ -95,11 +95,20 @@
         "instruction_consistency_tests_passed": 5,
         "topview_submissions": 0
       }
+    },
+    {
+      "at": "2026-11-17T17:44:48.921Z",
+      "previous_route_generation": 4,
+      "previous_active_automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
+      "registered_automation_id": "6afc8b674794819192ba0b1415c5a220",
+      "surface": "ordinary",
+      "change": "register_actual_self_owned_oneoff_without_role_replacement",
+      "reason": "Actual root scheduled wake delegated to slot_wake. Provider peek verifies self-owned ID and last_run_time 2026-11-17T17:40:37.436448+00:00; runtime run_id unavailable. Saved prompt explicitly authorizes this registration after foreign lease expiration and reconciliation. Existing active pointer, peers, preferred executor and site-alert V2 unchanged."
     }
   ],
   "preferred_executor": "work",
   "applied_owner_request_id": "owner-20261031-ordinary-primary",
-  "updated_at": "2026-11-17T15:35:53.246842Z",
+  "updated_at": "2026-11-17T17:44:48.921Z",
   "reserve_automation_ids": [
     "6ae5e9d563f88191aa6da7c9ba1e05a0",
     "topview-grok",
@@ -137,7 +146,8 @@
       "enabled": true,
       "automation_ids": [
         "6ae5e9d563f88191aa6da7c9ba1e05a0",
-        "6af9b2a7212081919b191786c483ad13"
+        "6af9b2a7212081919b191786c483ad13",
+        "6afc8b674794819192ba0b1415c5a220"
       ],
       "receipt": "reports/topview-slot-backup-cycle.json",
       "handoff_to_work_allowed": false
