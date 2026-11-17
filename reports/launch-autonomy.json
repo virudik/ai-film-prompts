@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-16T13:53:57Z",
+  "checked_at": "2026-11-17T14:45:46Z",
   "window_hours": 24,
   "verdict": "free_slots_idle_no_schedule_launch",
   "launches": [],
@@ -8,16 +8,21 @@
   "launches_by_chat": 0,
   "free_slot_observations": [
     {
-      "at": "2026-11-15T14:50:55Z",
+      "at": "2026-11-16T15:51:19Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-11-16T15:01:01Z",
       "occupied": 5,
       "capacity": 6
     }
   ],
-  "ready_items_waiting": 21,
+  "ready_items_waiting": 20,
   "launcher_health": {
     "state": "capacity_full",
     "unresolved": false,
-    "episode": "3d809f83",
+    "episode": "370b42bb",
     "unresolved_since": null,
     "reason": "no_free_global_slot; launcher_health_not_proven",
     "free_slots_global": 0,
@@ -35,7 +40,6 @@
       "S28-A1-R2-20261025",
       "S28-A2-R2-20261025",
       "S28-A13-20261030",
-      "S89C-WAN30",
       "S89D-WAN30",
       "S89E-WAN30",
       "S89F-WAN30",
@@ -45,7 +49,7 @@
       "S89J-WAN30"
     ],
     "reconciliation_items": [],
-    "last_event_id": "result:a1330998d39b486e864ed4e22b4fe8c4",
+    "last_event_id": "slots:ea03b4f7:70",
     "receipt_present": false,
     "handler_outcome": null,
     "execution_stage": null,
@@ -54,8 +58,8 @@
     "confirmed_launch_task_ids": [],
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
-    "escalation_attempted_episode": "a3e98072",
-    "checked_at": "2026-11-16T13:30:36Z"
+    "escalation_attempted_episode": "ea03b4f7",
+    "checked_at": "2026-11-17T14:10:39Z"
   },
   "launcher_observation_stale": false,
   "note": "Только чтение репозитория. Запуск из расписания = run_id с префиксом chatgpt-scheduled."
