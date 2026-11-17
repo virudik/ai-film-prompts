@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "project": "raznoe",
-  "updated_at": "2026-11-10T23:31:21+00:00",
+  "updated_at": "2026-11-17T18:30:00+00:00",
   "source": "59/59 existing scene references recovered and registered; all not_approved; no video generated. 06.11.2026: сцена 3 RESOURCE, 10 поставленных кадров, not_approved; 45737 — полимер; старый металл вне галереи.",
   "characters": [
     {
@@ -1675,13 +1675,39 @@
       "id": "honor-x9e-pro",
       "name": "HONOR X9e Pro",
       "kind": "product",
-      "notes": "Реальные источники модели имеют приоритет. ИИ-изображения — только композиция/свет; не официальные фотографии и не технические характеристики.",
+      "notes": "Реальные источники модели имеют приоритет. ИИ-изображения — только композиция/свет; не официальные фотографии и не технические характеристики. Лист X-3D-TURNAROUND утверждён владельцем 17.11.2026 как эталон внешнего вида и сторон; это не приёмка сцены и не запуск видео. Официальные X-BACK.png и X-FRONT.png лежат в папке сцены 5, те же байты, что на Drive; это не приёмка сцены.",
       "scenes": [
         5
       ],
       "editorial_status": "not_approved",
       "reference_bindings": "projects/raznoe/references/scenes/scene-5/reference-bindings.json",
       "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-5/X-BACK.png",
+          "caption": "Официальный задний вид X-BACK, 255×532",
+          "sha256": "14d398440bb9c38b3f383d36bfcbec39a7a892159a5783fbe22b929519ac1dd5",
+          "width": 255,
+          "height": 532,
+          "scenes": [
+            5
+          ],
+          "editorial_status": "not_approved",
+          "role": "official_rear",
+          "active_prompt_input": true
+        },
+        {
+          "path": "projects/raznoe/references/scenes/scene-5/X-FRONT.png",
+          "caption": "Официальный передний вид X-FRONT, 255×532",
+          "sha256": "8ddd755d7ef91b0b21e8940d620955dcd2473b4ad6f2c43f9e1225ee0a34e77f",
+          "width": 255,
+          "height": 532,
+          "scenes": [
+            5
+          ],
+          "editorial_status": "not_approved",
+          "role": "official_front",
+          "active_prompt_input": true
+        },
         {
           "path": "projects/raznoe/references/scenes/scene-5/X-GEN-FRONT.png",
           "caption": "Передний ракурс — свет и композиция",
@@ -1714,6 +1740,21 @@
           "editorial_status": "not_approved",
           "role": "archive_only",
           "active_prompt_input": false
+        },
+        {
+          "path": "projects/raznoe/references/scenes/scene-5/X-3D-TURNAROUND.jpg",
+          "caption": "Телефон HONOR X9e Pro — эталон 3D-модели (8 ракурсов), утверждён 17.11.2026",
+          "sha256": "0e63a9de0e1f07662dd987dbad2c7c65e5302f8acd1f1ad91855ccb1aa157010",
+          "width": 5120,
+          "height": 4300,
+          "scenes": [
+            5
+          ],
+          "editorial_status": "approved",
+          "role": "appearance_and_sides_canon",
+          "active_prompt_input": true,
+          "spec": "projects/raznoe/references/scenes/scene-5/PHONE-SIDES-SPEC.md",
+          "approved_at": "2026-11-17"
         }
       ]
     }
