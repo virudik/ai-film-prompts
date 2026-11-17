@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "state": "held",
-  "holder": "chatgpt:work:ae0c2864-0512-4385-bf05-c5e842d9e324",
-  "task": "Seregius HH:55 priority slot cycle",
-  "acquired_at": "2026-11-17T16:56:41.648Z",
-  "expires_at": "2026-11-17T17:41:41.648Z",
+  "holder": "chatgpt:ordinary:5eb46ae8-b543-40ec-a5b2-39f827e3f920",
+  "task": "Register actual self-owned scheduled wake; no Topview submission",
+  "acquired_at": "2026-11-17T17:43:58.002362Z",
+  "expires_at": "2026-11-17T17:48:58.002362Z",
   "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
