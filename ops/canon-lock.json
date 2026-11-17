@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:work:1f2896d9-7882-4b59-b292-bf4e3caf121e",
+  "state": "held",
+  "holder": "chatgpt:work:87bcca41-b804-4fdb-941b-fce10d81d468",
   "task": "HH:55 Seregius: full Topview slot scan, dance result archive, hourly receipt",
-  "acquired_at": "2026-11-17T02:00:33.680Z",
-  "expires_at": null,
-  "released_at": "2026-11-17T02:05:18.809Z",
+  "acquired_at": "2026-11-17T02:56:23.055Z",
+  "expires_at": "2026-11-17T03:41:23.055Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
