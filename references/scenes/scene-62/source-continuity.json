@@ -40,7 +40,8 @@
   "current_p1_video1": {
     "item_id": "S62-SEED20-P1-R2-20261108",
     "sha256": "5ea587ea568c4b1ec252e788ba05a1e86a6074d76651f87bfb94d16d6c8f09a8",
-    "drive_file_id": "1Nc1wItx51QFUfk2G5BGktqole_RIO0QB",
+    "drive_file_id": "1CfEP1sDJ2sfPIBsB7rkFGIm_5j2cP5fX",
+    "drive_file_id_before_mime_fix_20261117": "1Nc1wItx51QFUfk2G5BGktqole_RIO0QB",
     "provenance_file": "references/scenes/scene-62/S62-source-A-last3s-20261109.json",
     "legacy_trim_sha256_is_not_this_file": "5786c8aa50d3a4d68c38f4953a1933d8b421aed86ca0ac3f647d3ef518283fe7",
     "note": "Self-trim of the same full source. Not the legacy library trim and not a generated clip."

@@ -16136,7 +16136,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 ### 89F · Голограммы — «Привет, любимая… купи хлеба и молока»
 
-**Пометка:** Перенумерация: исходные Image2→@Image1, Image3→@Image2, Image4→@Image3. Video1 (sha256 285c5b18fb2067236c2b9d31ba2c9e083589b937bcd09590fa5af176a8de54ba, 6047009 bytes) в перезапуск не входит, MP4 в git нет: https://drive.google.com/file/d/1ahqLfQyVJJTw3DMi_--ZaMuOBAZkgjhZ/view . Те же три файла у e3199a14, ade18ba6, 87557bca, de3e8602, cdabfadc, ef91bb1e, 777f6108.
+**Пометка:** Перенумерация: исходные Image2→@Image1, Image3→@Image2, Image4→@Image3. Video1 (sha256 285c5b18fb2067236c2b9d31ba2c9e083589b937bcd09590fa5af176a8de54ba, 6047009 bytes) в перезапуск не входит, MP4 в git нет: https://drive.google.com/file/d/1fPTwKR6tgmP1sbgCwQ2u85I0peGMo0eK/view . Те же три файла у e3199a14, ade18ba6, 87557bca, de3e8602, cdabfadc, ef91bb1e, 777f6108.
 
 **Статус подсцены:** NEEDS_RERENDER. Ролик вышел плохо, переделка позже. Новой генерации этой записью нет, в очередь запуска не ставилось.
 
@@ -16432,7 +16432,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 ### 89H · Кантина — бармен прячет карту, «Карту надо спрятать…»
 
-**Пометка:** Image3 помечен как низкое разрешение. Video1 исходника в перезапуск не входит (sha256 24f3d3b2daa2ea23688a6aeb9dbcfe67be946d96d3bbf5a11bf2fdefb184f73a): https://drive.google.com/file/d/1sfh69wI3OL_qw-VyYL66GN2pi1EXCL_l/view .
+**Пометка:** Image3 помечен как низкое разрешение. Video1 исходника в перезапуск не входит (sha256 24f3d3b2daa2ea23688a6aeb9dbcfe67be946d96d3bbf5a11bf2fdefb184f73a): https://drive.google.com/file/d/1o5ECaVWQ8b2GJ6EAOW4zsefRPNF-dDQY/view .
 
 **Статус подсцены:** NEEDS_RERENDER. Ролик вышел плохо, переделка позже. Новой генерации этой записью нет, в очередь запуска не ставилось.
 

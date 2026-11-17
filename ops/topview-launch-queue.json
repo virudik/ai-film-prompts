@@ -888,7 +888,8 @@
           "frames": 72,
           "source_start_frame_zero_based": 289,
           "source_end_frame_inclusive": 360,
-          "drive_file_id": "1Y3RztZo-eFpNsTWHo_UldB16cvFrMzAE",
+          "drive_file_id": "1Jl3GNvN8Em3lxfgdl22HSKpHgdR9vV5w",
+          "drive_file_id_before_mime_fix_20261117": "1Y3RztZo-eFpNsTWHo_UldB16cvFrMzAE",
           "provenance_path": "references/scenes/scene-48/S48-P3-last3s-20261109.json",
           "qc_status": "noted_not_blocking",
           "qc_note": "The end shows the city far away, with needle spires and no gate. Owner t417u said to continue without looking back at that mismatch. Not blocking."
@@ -1827,7 +1828,8 @@
           "frames": 72,
           "source_start_frame_zero_based": 289,
           "source_end_frame_inclusive": 360,
-          "drive_file_id": "1Nc1wItx51QFUfk2G5BGktqole_RIO0QB",
+          "drive_file_id": "1CfEP1sDJ2sfPIBsB7rkFGIm_5j2cP5fX",
+          "drive_file_id_before_mime_fix_20261117": "1Nc1wItx51QFUfk2G5BGktqole_RIO0QB",
           "provenance_path": "references/scenes/scene-62/S62-source-A-last3s-20261109.json",
           "qc_status": "self_trim_metadata_verified_not_film_accepted"
         },
