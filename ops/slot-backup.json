@@ -4,8 +4,8 @@
   "role": "coordinated_launchers",
   "enabled": true,
   "transport": "scheduled_poll",
-  "active_automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "route_generation": 5,
+  "active_automation_id": "6afc8b674794819192ba0b1415c5a220",
+  "route_generation": 6,
   "relay_identity": "chatgpt-slot-backup",
   "relay_address": "chatgpt-slot-backup@cloud-242278071146024960",
   "relay_subscription_required": false,
@@ -104,13 +104,23 @@
       "surface": "ordinary",
       "change": "register_actual_self_owned_oneoff_without_role_replacement",
       "reason": "Actual root scheduled wake delegated to slot_wake. Provider peek verifies self-owned ID and last_run_time 2026-11-17T17:40:37.436448+00:00; runtime run_id unavailable. Saved prompt explicitly authorizes this registration after foreign lease expiration and reconciliation. Existing active pointer, peers, preferred executor and site-alert V2 unchanged."
+    },
+    {
+      "changed_at": "2026-11-17T18:02:08.014656Z",
+      "reason": "Replace legacy TinyFish ordinary HH:00 with verified self-owned Dot browser hourly executor, owner direction 17.11.2026; provider scheduler staged disabled, activation pending root readback.",
+      "previous_active_automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
+      "active_automation_id": "6afc8b674794819192ba0b1415c5a220",
+      "previous_route_generation": 5,
+      "route_generation": 6,
+      "evidence": "reports/topview-queue-2026-10-16/S89E-WAN30-20261117.json",
+      "unchanged": "Work/Grok/Relay permissions, schedules and preferred executor; queue/history/retry untouched."
     }
   ],
   "preferred_executor": "work",
   "applied_owner_request_id": "owner-20261031-ordinary-primary",
-  "updated_at": "2026-11-17T17:44:48.921Z",
+  "updated_at": "2026-11-17T18:02:08.014656Z",
   "reserve_automation_ids": [
-    "6ae5e9d563f88191aa6da7c9ba1e05a0",
+    "6afc8b674794819192ba0b1415c5a220",
     "topview-grok",
     "6af9b2a7212081919b191786c483ad13"
   ],
@@ -145,9 +155,8 @@
     "ordinary": {
       "enabled": true,
       "automation_ids": [
-        "6ae5e9d563f88191aa6da7c9ba1e05a0",
-        "6af9b2a7212081919b191786c483ad13",
-        "6afc8b674794819192ba0b1415c5a220"
+        "6afc8b674794819192ba0b1415c5a220",
+        "6af9b2a7212081919b191786c483ad13"
       ],
       "receipt": "reports/topview-slot-backup-cycle.json",
       "handoff_to_work_allowed": false
