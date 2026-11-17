@@ -11,7 +11,7 @@
   "canonical_product_png": false,
   "quality_boundary": "255x532 original source pixels: shape verification only, not high-resolution final advertising frames. No synthesized upscaling or invented details.",
   "source_review": "Front: single central circular punch hole. Rear: large circular island centered near top; two optical units upper-left and upper-right, flash lower-right. Do not substitute Magic9 pill cutout or rectangular camera plateau.",
-  "rights": "Private technical review only; commercial use rights not established. No source pixels republished in public GitHub.",
+  "rights": "Commercial use rights not established. On 17.11.2026 the owner placed these exact 255x532 files in the scene reference pack; they are the same bytes as the Drive copies. Do not upscale or invent detail.",
   "items": [
     {
       "slot": "X-BACK",
@@ -26,7 +26,8 @@
       "color": "Purple reference only; actual loan handset color not promised",
       "drive_id": "19VmU-oOfN91PTR2QE5t4YZsRhEDbh3yf",
       "drive_url": "https://drive.google.com/file/d/19VmU-oOfN91PTR2QE5t4YZsRhEDbh3yf/view",
-      "drive_readback_match": true
+      "drive_readback_match": true,
+      "path": "projects/raznoe/references/scenes/scene-5/X-BACK.png"
     },
     {
       "slot": "X-FRONT",
@@ -41,7 +42,8 @@
       "color": "Purple reference only; actual loan handset color not promised",
       "drive_id": "1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL",
       "drive_url": "https://drive.google.com/file/d/1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL/view",
-      "drive_readback_match": true
+      "drive_readback_match": true,
+      "path": "projects/raznoe/references/scenes/scene-5/X-FRONT.png"
     }
   ],
   "no_submission": true,
