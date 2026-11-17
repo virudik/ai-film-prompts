@@ -4,204 +4,37 @@
   "source": "ChatGPT scheduled work",
   "runner": "chatgpt_scheduled_task",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "run_id": "c2aad818-e138-8327-b150-5558fce39bfd",
+  "run_id": "15120166-29cc-8332-a51a-4381714b9979",
   "run_id_unavailable_reason": null,
-  "execution_instance_id": "60ff2747-ed8a-4204-a89c-1ad056c3891e",
+  "execution_instance_id": "da069532-0b4b-4533-b301-508ba15dda85",
   "route_generation": 3,
-  "source_head": "f7a0bf3373a840d864e3c8ad6411ad6199bfe3db",
-  "started_at": "2026-11-17T06:54:06.659Z",
-  "updated_at": "2026-11-17T07:01:00.456Z",
-  "completed_at": "2026-11-17T07:01:00.456Z",
-  "phase": "completed",
-  "status": "completed",
-  "scan_complete": true,
-  "occupied_slots": 6,
-  "free_slots": 0,
+  "source_head": "5d8b0d446392ded54a3849be1e1625b216e1b624",
+  "started_at": "2026-11-17T08:00:40.920Z",
+  "updated_at": "2026-11-17T08:00:40.920Z",
+  "phase": "started",
+  "status": "in_progress",
+  "scan_complete": false,
+  "occupied_slots": null,
+  "free_slots": null,
   "selected_item": null,
-  "task_ids": [
-    "5d1f4fc1b4e548a7828892c73b672990",
-    "90db5dd309db477eb346e8d82676f7b5",
-    "425108630b0e48c9a4b299fc89ad88ee",
-    "bfdb6d9fad7a4ab29492f7bb95c78033",
-    "d775c7a483a44f13ba1704a1c418b208",
-    "8c6d92662d1043c7a651168b2b8280ae"
-  ],
+  "task_ids": [],
   "new_submissions": 0,
   "topview_credits_spent": 0,
-  "browser_transport": "connected_authorized_topview_read_only_scan",
+  "browser_transport": "not_started",
   "lease": {
-    "holder": "chatgpt:work:60ff2747-ed8a-4204-a89c-1ad056c3891e",
-    "acquired_at": "2026-11-17T06:53:31.506Z",
-    "expires_at": "2026-11-17T07:38:31.506Z",
+    "holder": "chatgpt:work:da069532-0b4b-4533-b301-508ba15dda85",
+    "acquired_at": "2026-11-17T08:00:11.050Z",
+    "expires_at": "2026-11-17T08:45:11.050Z",
     "verified_start_readback": true,
-    "verified_before_final_write": true,
     "released": false
   },
   "acceptance": {
     "scheduled_cycle": true,
-    "full_all_board_scan": true,
+    "full_all_board_scan": false,
     "new_task_created_by_this_execution": false
   },
-  "topview_scan": {
-    "checked_at": "2026-11-17T06:56:00Z",
-    "boards_scanned": 14,
-    "pages_scanned": 19,
-    "video_tasks_scanned": 678,
-    "status_counts": {
-      "success": 645,
-      "init": 6,
-      "fail": 27
-    },
-    "board": {
-      "name": "My First Board",
-      "id": "1a6244cf1ae747ef847d949a80d6133c"
-    },
-    "global_slot_capacity": 6,
-    "occupied_slots": 6,
-    "active_task_ids": [
-      "5d1f4fc1b4e548a7828892c73b672990",
-      "90db5dd309db477eb346e8d82676f7b5",
-      "425108630b0e48c9a4b299fc89ad88ee",
-      "bfdb6d9fad7a4ab29492f7bb95c78033",
-      "d775c7a483a44f13ba1704a1c418b208",
-      "8c6d92662d1043c7a651168b2b8280ae"
-    ],
-    "unlimited0_confirmed_for_active_tasks": true,
-    "create_performed": false
-  },
-  "queue_guard": {
-    "queue_sha256": "320e162ad5111792f6af06124deba5c2bc6d684c39aa5f6a6e2ef68f4ab90d7f",
-    "task_map_sha256": "9bb246736b962f28254107e8f2ef1ddd442c0646142ff65f87e1bd49dfe8da37",
-    "readiness_queue_sha256": "320e162ad5111792f6af06124deba5c2bc6d684c39aa5f6a6e2ef68f4ab90d7f",
-    "readiness_task_map_sha256": "9bb246736b962f28254107e8f2ef1ddd442c0646142ff65f87e1bd49dfe8da37",
-    "readiness_checked_at": "2026-11-17T06:20:47.583626Z",
-    "items_total": 35,
-    "states": {
-      "claimed": 0,
-      "submitting": 0,
-      "submission_unknown": 0,
-      "submitted": 11
-    },
-    "hashes_match": true
-  },
-  "dance_archive": {
-    "checked": true,
-    "folder_id": "1e1DFvcKeKrNdcHrdZaJRHqaT2vXvxatm",
-    "existing_files": 25,
-    "scene_counts": {
-      "28": 13,
-      "49": 6,
-      "51": 6
-    },
-    "all_nonzero": true,
-    "task_ids_in_names": true,
-    "new_ready_originals": 0,
-    "uploads": 0,
-    "duplicates_created": 0,
-    "grok_files_changed": false,
-    "note": "No new terminal dance task appeared in the fresh Topview scan; folder listing is unchanged."
-  },
-  "maintenance": {
-    "phase_a": {
-      "due": true,
-      "checked_at": "2026-11-17T07:01:00.456Z",
-      "self_heal_status": "ok",
-      "project_status_synced_at": "2026-11-17T06:52:26Z",
-      "project_status_fresh_under_40m": true,
-      "canon_health": {
-        "status": "ok",
-        "warnings": 0,
-        "info": 6
-      },
-      "owner_tasks_open_for_chatgpt_any": 0,
-      "owner_tasks_open_for_claude_over_3h": 0,
-      "repair_performed": false
-    },
-    "phase_b": {
-      "due": true,
-      "checked_at": "2026-11-17T07:01:00.456Z",
-      "repository": "virudik/ai-film-prompts",
-      "query": "from:notifications@github.com \"virudik/ai-film-prompts\" after:2026/11/15 -in:spam -in:trash",
-      "messages_scanned": 93,
-      "pages_scanned": 1,
-      "next_page_token": null,
-      "overlap_start": "2026-11-15T18:06:45.574Z",
-      "overlap_messages": 16,
-      "new_messages": 3,
-      "message_ids": [
-        "1a1e58bf296b9037",
-        "1a1e596c34709d79",
-        "1a1e641992076b78"
-      ],
-      "signals": [
-        {
-          "workflow": "Canon health (stale, oversized and broken canon parts)",
-          "run_id": 43925539517,
-          "head_sha": "40b9c7a",
-          "attempts_seen": [
-            1,
-            2
-          ],
-          "message_ids": [
-            "1a1e58bf296b9037",
-            "1a1e596c34709d79"
-          ],
-          "cause": "work-resume-register.json exceeded the 100 KB service-file threshold (104 KB); the intentional owner-notification step failed after recording the new warning.",
-          "resolution": "Self-heal/ordinary maintenance archived old completed register material without changing active recovery; later Canon health succeeded.",
-          "latest_verified_success_run_id": 44034578918,
-          "latest_verified_success_head": "e42881b351d772fb28634f94963205bf74dc2d88"
-        },
-        {
-          "workflow": "Service file maintenance",
-          "run_id": 43927720509,
-          "head_sha": "c7317aff905393b36433d3f49dc2d977f22919f6",
-          "message_ids": [
-            "1a1e641992076b78"
-          ],
-          "cause": "handoff-proposal checkout repeatedly failed with network early EOF / invalid index-pack; trim-finished succeeded.",
-          "resolution": "No repository repair required; later full workflow succeeded including checkout and handoff-proposal.",
-          "latest_verified_success_run_id": 44034650883,
-          "latest_verified_success_head": "f7a0bf3373a840d864e3c8ad6411ad6199bfe3db"
-        }
-      ],
-      "unresolved_failures": 0,
-      "mailbox_mutated": false
-    },
-    "phase_c": {
-      "due": false,
-      "reason": "2026-11-17 is Tuesday in Europe/Moscow"
-    }
-  },
-  "owner_decisions": {
-    "checked": true,
-    "counts": {
-      "applied": 127,
-      "needs_owner": 1,
-      "superseded": 4,
-      "pending": 0,
-      "in_progress": 0
-    },
-    "unchanged_needs_owner_id": "d37ea54b-6b09-4283-892b-d6c3e189b82f",
-    "note": "Old Grok owner_task remains needs_owner; no instruction from that row was executed."
-  },
-  "peer_reconciliation": {
-    "ordinary": {
-      "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-      "last_run_id": "ee50296f-679c-8326-8394-707a3552b868",
-      "latest_result_run_id": "ee50296f-679c-8326-8394-707a3552b868",
-      "receipt_run_id": "ee50296f-679c-8326-8394-707a3552b868",
-      "receipt_scan_complete": false,
-      "current_cycle_proven": false
-    },
-    "work": {
-      "automation_id": "6acae6ab433481919e88665c520b8ef2",
-      "last_run_id": "c2aad818-e138-8327-b150-5558fce39bfd",
-      "recorded_status_at_final_peek": "in_progress",
-      "latest_result_run_id": null
-    }
-  },
-  "checked_at": "2026-11-17T07:01:00.456Z",
-  "outcome": "no_free_slot",
+  "checked_at": "2026-11-17T08:00:40.920Z",
+  "outcome": null,
   "blocker": null,
   "retryable": true
 }
