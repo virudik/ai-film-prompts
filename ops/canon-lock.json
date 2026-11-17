@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:fd53582e-9378-4cb8-a6b4-26b71fc3c777",
-  "task": "Publish fail-fast claim CAS race prevention; no queue or marker changes",
-  "acquired_at": "2026-11-17T16:47:42.856570Z",
-  "expires_at": null,
-  "released_at": "2026-11-17T16:48:15.955097Z",
+  "state": "held",
+  "holder": "chatgpt:work:ae0c2864-0512-4385-bf05-c5e842d9e324",
+  "task": "Seregius HH:55 priority slot cycle",
+  "acquired_at": "2026-11-17T16:56:41.648Z",
+  "expires_at": "2026-11-17T17:41:41.648Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
