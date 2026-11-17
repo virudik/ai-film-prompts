@@ -55,6 +55,8 @@
 7. План «на потом» всех исполнителей — `ops/FUTURE-PLANS.md`.
 
 ### Новое с последней чистки (дописывать сюда, одной строкой с датой)
+- **17.11:** wrapper не создаёт новый `.busy` при read-only snapshot mismatch до входа в фазу; существующие crash markers и запрет неоднозначного повтора сохраняются — `ops/LAUNCHER-ENTRY.md`.
+- **17.11:** устранён ложный «Dot активен» после terminal blocked (#770): активный heartbeat и завершённая квитанция различаются; правило резерва — `ops/PRIMARY-BACKUP-WAKE.md`. Lease/claim/reconcile и Unlimited0 без изменений.
 
 - **16.11:** пробуждение и предупреждения — `ops/PRIMARY-BACKUP-WAKE.md` (t626u, t633u; код предупреждений не переключён). Повторы — `ops/TOPVIEW-RETRY.md` (t634s3201, t635u).
 
