@@ -13,7 +13,7 @@
   "prompts": [
     {
       "label": "5",
-      "prompt_sha256": "b8a06f270602e503811d092b072489e6ec3f7c4ec2050dab9c5fc582260bdc0a",
+      "prompt_sha256": "2d66d05288cbe79dc1a17e311c1833f4d726863b3a9a28e0c8707b64b2f55946",
       "inputs": {
         "@Image1": {
           "slot": "X-BACK",
@@ -52,12 +52,20 @@
         "@Image4": {
           "path": "projects/raznoe/references/scenes/scene-5/X-GEN-REAR.png",
           "role": "lighting_and_framing_only"
+        },
+        "@Image5": {
+          "path": "projects/raznoe/references/scenes/scene-5/YARD-LOC-01.jpg",
+          "role": "location_canon"
+        },
+        "@Image6": {
+          "path": "projects/raznoe/references/scenes/scene-5/YARD-LOC-03.jpg",
+          "role": "location_canon"
         }
       }
     },
     {
       "label": "5 · Seedance 2.0 часть 1",
-      "prompt_sha256": "7dc36cc19346eea094670e8913daf19e986cc36a27405f6799d4ca3519a7a993",
+      "prompt_sha256": "fb8790b1327ad890861f3bee037a51ae2287a61e29b6d66cef62234d733a5b85",
       "inputs": {
         "@Image1": {
           "slot": "X-BACK",
@@ -96,12 +104,20 @@
         "@Image4": {
           "path": "projects/raznoe/references/scenes/scene-5/X-GEN-REAR.png",
           "role": "lighting_and_framing_only"
+        },
+        "@Image5": {
+          "path": "projects/raznoe/references/scenes/scene-5/YARD-LOC-01.jpg",
+          "role": "location_canon"
+        },
+        "@Image6": {
+          "path": "projects/raznoe/references/scenes/scene-5/YARD-LOC-03.jpg",
+          "role": "location_canon"
         }
       }
     },
     {
       "label": "5 · Seedance 2.0 часть 2",
-      "prompt_sha256": "9727134becf157f80810241b29ba82ecf0a02eb90cbc140c56b06e8af79ea40b",
+      "prompt_sha256": "e3bb336074f80147c625d3f53231e0b49e97be6695d537737581e0b6d30999b7",
       "inputs": {
         "@Image1": {
           "slot": "X-BACK",
@@ -146,8 +162,30 @@
           "status": "required_before_launch",
           "duration_s": 3,
           "not_synthetic": true
+        },
+        "@Image5": {
+          "path": "projects/raznoe/references/scenes/scene-5/YARD-LOC-01.jpg",
+          "role": "location_canon"
+        },
+        "@Image6": {
+          "path": "projects/raznoe/references/scenes/scene-5/YARD-LOC-03.jpg",
+          "role": "location_canon"
         }
       }
     }
-  ]
+  ],
+  "yard_canon": {
+    "assets": [
+      "YARD-LOC-01",
+      "YARD-LOC-02",
+      "YARD-LOC-03",
+      "YARD-LOC-04"
+    ],
+    "prompt_inputs": [
+      "YARD-LOC-01",
+      "YARD-LOC-03"
+    ],
+    "location_text": "projects/raznoe/references/scenes/scene-5/yard-canon-location.txt",
+    "fixed_at": "2026-11-17"
+  }
 }

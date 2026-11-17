@@ -5672,7 +5672,16 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 
 **Физика не доказана:** песок сам не отправляет аппарат в жёлоб; траектория качелей и вся цепочка требуют репетиции муляжом и согласования. Непрерывный звонок под водой не обещается. Повреждение/нагрев — стоп, без воды и зарядки. Дождь, мороз, удачный результат и экран не подделывать. Реальное видео остаётся неснятым.
 
-**Навигация:** [правила](#honor-5-rules) · [идея](#honor-5-idea) · [план 90 с](#honor-5-plan) · [черновик ВК](#honor-5-vk) · [ИИ-превиз, не конкурс](#honor-5-preview) · [сцена 4 Magic9](#scene-4).
+**Навигация:** [вид двора](#honor-5-yard) · [правила](#honor-5-rules) · [идея](#honor-5-idea) · [план 90 с](#honor-5-plan) · [черновик ВК](#honor-5-vk) · [ИИ-превиз, не конкурс](#honor-5-preview) · [сцена 4 Magic9](#scene-4).
+
+<a id="honor-5-yard"></a>
+### Постоянный вид двора (канон локации, 17.11.2026)
+
+Один и тот же двор во всех итерациях ИИ-превиза: общий план, скат горки, качели и песочница в одно время суток и в одну погоду. Кадры — это кадры превиза Grok v2, из которых убраны рука, телефон и ледянка; новые опорные кадры двора не создаются, новая точка — только дорисовкой из канона с пометкой. Все клипы — только от этих кадров или от последнего кадра предыдущего клипа. Это ИИ-иллюстрация, не реальная площадка конкурсной съёмки.
+
+[YARD-LOC-01 · общий план с горки](projects/raznoe/references/scenes/scene-5/YARD-LOC-01.jpg) · [YARD-LOC-02 · скат горки](projects/raznoe/references/scenes/scene-5/YARD-LOC-02.jpg) · [YARD-LOC-03 · качели и песочница](projects/raznoe/references/scenes/scene-5/YARD-LOC-03.jpg) · [YARD-LOC-04 · песочница и фонарь](projects/raznoe/references/scenes/scene-5/YARD-LOC-04.jpg) · [текст для промптов](projects/raznoe/references/scenes/scene-5/yard-canon-location.txt) · [папка «Локация — канон» на Диске](https://drive.google.com/drive/folders/1imqZ-NlCuhtuUDd_6UScW0RH1PR8K7Jn).
+
+**Текст локации для промптов (дословно):** LOCATION CANON (same in every shot, matches the canonical location plates): an ordinary Moscow residential courtyard at overcast late-November dawn right after night drizzle. Wet dark asphalt with shallow puddles reflecting two warm amber streetlamps; bare black trees; grey five-storey prefab panel apartment blocks with a few warm lit windows; cool blue-grey cloudy sky. Playground: a steel children's slide with yellow side walls and dark blue rounded rails; a swing set with slanted dark-blue and red frame poles, long galvanized chains and a black rubber seat; a low square wooden sandbox of thick weathered planks with damp light-brown sand right behind the swing. Neutral natural color, no pink or magenta cast, no snow, no fog, no mist, no steam, no haze, no people.
 
 <a id="honor-5-rules"></a>
 ### Источник и границы проверки
@@ -5737,7 +5746,7 @@ https://docs.google.com/document/d/1g0Fl1-5qeStudQuo9r2qF5G6c1AYKmPFps72Gx67ZbE/
 <div class="engine-pane" data-engine="wan30" data-main="1">
 #### 5 · Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** реальные X-BACK и X-FRONT плюс два ИИ-референса ракурса в порядке @Image1–4. Официальные файлы скачать по ссылкам выше; не заменять их сгенерированными картинками.
+**Входы:** реальные X-BACK и X-FRONT плюс два ИИ-референса ракурса в порядке @Image1–4 и постоянный вид двора @Image5 (YARD-LOC-01) и @Image6 (YARD-LOC-03). Официальные файлы скачать по ссылкам выше; не заменять их сгенерированными картинками.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
@@ -5748,6 +5757,8 @@ REFERENCES / PRODUCT IDENTITY:
 @Image2 = X-FRONT, official HONOR X9e Pro front source: https://drive.google.com/file/d/1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL/view.
 @Image3 = projects/raznoe/references/scenes/scene-5/X-GEN-FRONT.png; generated front-angle framing/light only.
 @Image4 = projects/raznoe/references/scenes/scene-5/X-GEN-REAR.png; generated rear-angle framing/light only.
+@Image5 = projects/raznoe/references/scenes/scene-5/YARD-LOC-01.jpg; permanent yard view, overview from the slide top (location only).
+@Image6 = projects/raznoe/references/scenes/scene-5/YARD-LOC-03.jpg; permanent yard view, swing and sandbox (location only).
 The exact real model is HONOR X9e Pro: purple back and gold perimeter as in the supplied example, one large circular black rear island inside a gold ring, two upper lens windows and lower elements placed exactly as @Image1; centered round punch-hole display as @Image2. Do not import the green Magic9 body, its asymmetric large-left camera disk, side-stacked camera layout, ARRI mark or pill cutout. Original model sources override all synthetic details and lettering in @Image3/4. One phone, not a generic blank prop. Source color is for this concept illustration, not a promise of the contest loan unit's color. Reference-only is not first/last frame.
 
 START STATE:
@@ -5760,7 +5771,7 @@ END STATE:
 One phone at the table, no claimed result.
 
 PERFORMANCE / CAMERA / LIGHT:
-Photographic live-action concept staging. One anonymous adult, unidentifiable face, plain dark jacket and black gloves, holds the single phone in the RIGHT hand; keep grip and dimensions stable. Neutral closed rehearsal area, sand tray, stationary swing and gutter; plain backdrop, no identifiable buildings, landmarks, flags, logos or bystanders. Diffuse overcast light, no invented snow. Side/rear product views are limited to those supported by the sources.
+Photographic live-action concept staging. One anonymous adult, unidentifiable face, plain dark jacket and black gloves, holds the single phone in the RIGHT hand; keep grip and dimensions stable. YARD CANON, the permanent yard view, identical in every shot and matching @Image5/@Image6: an ordinary residential courtyard at overcast late-November dawn after night drizzle; wet dark asphalt with shallow puddles reflecting two warm amber streetlamps; bare black trees; generic grey five-storey panel blocks with a few warm windows, soft in the background; a steel slide with yellow side walls and dark blue rounded rails; a swing set with slanted dark-blue and red poles, long chains and a black rubber seat; a low square wooden sandbox of thick weathered planks right behind the swing. Closed rehearsal area: slide, swing, sandbox and gutter stay stationary; no identifiable landmarks, flags, logos or bystanders; no fog, haze or steam. Do not redesign or relocate the yard. Diffuse overcast light, no invented snow. Side/rear product views are limited to those supported by the sources.
 AUDIO:
 Picture only; native audio off, no voice, music or generated UI. The real contest film is separate and uses actual recorded speech and ambient sound without music. This AI illustration does not prove durability, an actual call, the planned chain's feasibility or any test outcome.
 NEGATIVE / FRAME FILL:
@@ -5771,7 +5782,7 @@ No test action, impact, immersion, fake water resistance, fictional result, succ
 <div class="engine-pane" data-engine="sd20x2">
 #### 5 · Seedance 2.0 часть 1 · 15 с
 
-**Входы:** те же четыре изображения @Image1–4; это синтетический превиз, не конкурсный ролик.
+**Входы:** те же шесть изображений @Image1–6 (включая постоянный вид двора); это синтетический превиз, не конкурсный ролик.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
@@ -5782,6 +5793,8 @@ REFERENCES / PRODUCT IDENTITY:
 @Image2 = X-FRONT, official HONOR X9e Pro front source: https://drive.google.com/file/d/1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL/view.
 @Image3 = projects/raznoe/references/scenes/scene-5/X-GEN-FRONT.png; generated front-angle framing/light only.
 @Image4 = projects/raznoe/references/scenes/scene-5/X-GEN-REAR.png; generated rear-angle framing/light only.
+@Image5 = projects/raznoe/references/scenes/scene-5/YARD-LOC-01.jpg; permanent yard view, overview from the slide top (location only).
+@Image6 = projects/raznoe/references/scenes/scene-5/YARD-LOC-03.jpg; permanent yard view, swing and sandbox (location only).
 The exact real model is HONOR X9e Pro: purple back and gold perimeter as in the supplied example, one large circular black rear island inside a gold ring, two upper lens windows and lower elements placed exactly as @Image1; centered round punch-hole display as @Image2. Do not import the green Magic9 body, its asymmetric large-left camera disk, side-stacked camera layout, ARRI mark or pill cutout. Original model sources override all synthetic details and lettering in @Image3/4. One phone, not a generic blank prop. Source color is for this concept illustration, not a promise of the contest loan unit's color. Reference-only is not first/last frame.
 
 START STATE:
@@ -5793,7 +5806,7 @@ END STATE:
 Adult at the sand tray, right-hand rear-facing phone; camera moving toward the stationary gutter.
 
 PERFORMANCE / CAMERA / LIGHT:
-Photographic live-action concept staging. One anonymous adult, unidentifiable face, plain dark jacket and black gloves, holds the single phone in the RIGHT hand; keep grip and dimensions stable. Neutral closed rehearsal area, sand tray, stationary swing and gutter; plain backdrop, no identifiable buildings, landmarks, flags, logos or bystanders. Diffuse overcast light, no invented snow. Side/rear product views are limited to those supported by the sources.
+Photographic live-action concept staging. One anonymous adult, unidentifiable face, plain dark jacket and black gloves, holds the single phone in the RIGHT hand; keep grip and dimensions stable. YARD CANON, the permanent yard view, identical in every shot and matching @Image5/@Image6: an ordinary residential courtyard at overcast late-November dawn after night drizzle; wet dark asphalt with shallow puddles reflecting two warm amber streetlamps; bare black trees; generic grey five-storey panel blocks with a few warm windows, soft in the background; a steel slide with yellow side walls and dark blue rounded rails; a swing set with slanted dark-blue and red poles, long chains and a black rubber seat; a low square wooden sandbox of thick weathered planks right behind the swing. Closed rehearsal area: slide, swing, sandbox and gutter stay stationary; no identifiable landmarks, flags, logos or bystanders; no fog, haze or steam. Do not redesign or relocate the yard. Diffuse overcast light, no invented snow. Side/rear product views are limited to those supported by the sources.
 AUDIO:
 Picture only; native audio off, no voice, music or generated UI. The real contest film is separate and uses actual recorded speech and ambient sound without music. This AI illustration does not prove durability, an actual call, the planned chain's feasibility or any test outcome.
 NEGATIVE / FRAME FILL:
@@ -5803,7 +5816,7 @@ No test action, impact, immersion, fake water resistance, fictional result, succ
 
 #### 5 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** те же @Image1–4 и @Video1 — настоящий проверенный конец части 1 длительностью 3 секунды. Пока его нет, часть 2 не READY. Новые фото не подменяют видеостык.
+**Входы:** те же @Image1–6 (включая постоянный вид двора) и @Video1 — настоящий проверенный конец части 1 длительностью 3 секунды. Пока его нет, часть 2 не READY. Новые фото не подменяют видеостык.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
@@ -5814,6 +5827,8 @@ REFERENCES / PRODUCT IDENTITY:
 @Image2 = X-FRONT, official HONOR X9e Pro front source: https://drive.google.com/file/d/1DVs38N_X58mSOT-cjJyHlpChRPvZcKHL/view.
 @Image3 = projects/raznoe/references/scenes/scene-5/X-GEN-FRONT.png; generated front-angle framing/light only.
 @Image4 = projects/raznoe/references/scenes/scene-5/X-GEN-REAR.png; generated rear-angle framing/light only.
+@Image5 = projects/raznoe/references/scenes/scene-5/YARD-LOC-01.jpg; permanent yard view, overview from the slide top (location only).
+@Image6 = projects/raznoe/references/scenes/scene-5/YARD-LOC-03.jpg; permanent yard view, swing and sandbox (location only).
 The exact real model is HONOR X9e Pro: purple back and gold perimeter as in the supplied example, one large circular black rear island inside a gold ring, two upper lens windows and lower elements placed exactly as @Image1; centered round punch-hole display as @Image2. Do not import the green Magic9 body, its asymmetric large-left camera disk, side-stacked camera layout, ARRI mark or pill cutout. Original model sources override all synthetic details and lettering in @Image3/4. One phone, not a generic blank prop. Source color is for this concept illustration, not a promise of the contest loan unit's color. Reference-only is not first/last frame.
 @Video1 = actual last 3 seconds of the finished concept part 1. Preserve the same adult, RIGHT-hand grip, phone, location and camera direction; do not repeat this tail. Original @Image1/2 still control model identity.
 
@@ -5826,7 +5841,7 @@ END STATE:
 Steady front-side concept view of one exact-model phone above the plain table.
 
 PERFORMANCE / CAMERA / LIGHT:
-Photographic live-action concept staging. One anonymous adult, unidentifiable face, plain dark jacket and black gloves, holds the single phone in the RIGHT hand; keep grip and dimensions stable. Neutral closed rehearsal area, sand tray, stationary swing and gutter; plain backdrop, no identifiable buildings, landmarks, flags, logos or bystanders. Diffuse overcast light, no invented snow. Side/rear product views are limited to those supported by the sources.
+Photographic live-action concept staging. One anonymous adult, unidentifiable face, plain dark jacket and black gloves, holds the single phone in the RIGHT hand; keep grip and dimensions stable. YARD CANON, the permanent yard view, identical in every shot and matching @Image5/@Image6: an ordinary residential courtyard at overcast late-November dawn after night drizzle; wet dark asphalt with shallow puddles reflecting two warm amber streetlamps; bare black trees; generic grey five-storey panel blocks with a few warm windows, soft in the background; a steel slide with yellow side walls and dark blue rounded rails; a swing set with slanted dark-blue and red poles, long chains and a black rubber seat; a low square wooden sandbox of thick weathered planks right behind the swing. Closed rehearsal area: slide, swing, sandbox and gutter stay stationary; no identifiable landmarks, flags, logos or bystanders; no fog, haze or steam. Do not redesign or relocate the yard. Diffuse overcast light, no invented snow. Side/rear product views are limited to those supported by the sources.
 AUDIO:
 Picture only; native audio off, no voice, music or generated UI. The real contest film is separate and uses actual recorded speech and ambient sound without music. This AI illustration does not prove durability, an actual call, the planned chain's feasibility or any test outcome.
 NEGATIVE / FRAME FILL:
