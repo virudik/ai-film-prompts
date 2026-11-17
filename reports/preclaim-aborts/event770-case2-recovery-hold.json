@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "item_id": "S89D-WAN30",
+  "status": "pending_reconciliation",
+  "observed_at": "2026-11-17T17:46:55.542597+00:00",
+  "kind": "conservative_local_recovery_hold",
+  "reason": "Old session remains claim_prepared and a legacy intent busy marker exists. This hold does not decide whether a provider submission occurred. Original invocation transcript and Python exit are not available as direct evidence.",
+  "artifacts": [
+    {
+      "name": "770-new-session.json",
+      "sha256": "a231e489e8cf947e45287c1ad809f5b773c6a1bfc3deb8d2d4d45af434ef37a2",
+      "provenance": "present local artifact, not original command transcript"
+    },
+    {
+      "name": "770-new-session.json.busy",
+      "sha256": "41ae25b242f04fbb2248ee108105de24abec025316b00f8cbb4f4bb83d72721e",
+      "provenance": "present local artifact, not original command transcript"
+    },
+    {
+      "name": "770-new-intent.json",
+      "sha256": "a95add5291ff469b5327584358331e81f481d7a11d4a28914b60e454430de7b0",
+      "provenance": "present local artifact, not original command transcript"
+    }
+  ],
+  "python_exit_code_observed": null,
+  "create_occurred_determination": "not_established_by_this_report",
+  "markers_modified": false,
+  "retry_budget_changed": false,
+  "resume_condition": "Resolve historical session using authorized reconciliation and a fresh complete provider scan for exact inputs/prompt/time; do not clear by TTL or retry automatically.",
+  "independent_item_review": {
+    "item_id": "S89E-WAN30",
+    "declared_dependencies_empty": true,
+    "reference_slots": "five images, no source_item_id/source_task_id or continuity role",
+    "not_live_readiness_or_Create_authorization": true
+  },
+  "tests": {
+    "selector_synthetic_fixture": "passed: blocked D skipped and ready-independent E chosen with limit 1",
+    "D_prior_fields_preserved_except_state": "passed",
+    "live_scan": "not_performed_by_this_review"
+  }
+}

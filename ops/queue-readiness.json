@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "42a0b2c370f99b3a30b2fee59db11066bc07250c8eea60644a6fd95973fe3552",
+  "source_queue_sha256": "3fe6ac42c8801c6fefc0e4818889ac2e73332027bfd6cb87f6b5040143086f39",
   "source_task_map_sha256": "cf1a7275e221295441f7e310328b75ef4d6fc61b2e85d77e35c9dac846d3d98e",
   "topview_checked_at": "2026-11-17T17:41:28Z",
   "items": [
@@ -161,10 +161,10 @@
       "id": "S89D-WAN30",
       "scene_id": 89,
       "part_label": "89D · Wan 3.0",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
-      "queue_state": "waiting_for_slot"
+      "code": "preflight_required",
+      "ready": false,
+      "text": "Входы найдены; требуется снять записанный блокер после проверки",
+      "queue_state": "blocked_recovery"
     },
     {
       "id": "S89E-WAN30",
@@ -222,5 +222,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-17T17:41:46.481591Z"
+  "checked_at": "2026-11-17T17:48:12.457349Z"
 }
