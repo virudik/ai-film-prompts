@@ -8,33 +8,221 @@
   "run_id_unavailable_reason": null,
   "execution_instance_id": "da069532-0b4b-4533-b301-508ba15dda85",
   "route_generation": 3,
-  "source_head": "5d8b0d446392ded54a3849be1e1625b216e1b624",
+  "source_head": "56e85b49e7d25a62cfc529230758f559c1824404",
   "started_at": "2026-11-17T08:00:40.920Z",
-  "updated_at": "2026-11-17T08:00:40.920Z",
-  "phase": "started",
-  "status": "in_progress",
-  "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
+  "updated_at": "2026-11-17T08:05:09.776Z",
+  "completed_at": "2026-11-17T08:05:09.776Z",
+  "phase": "completed",
+  "status": "completed",
+  "scan_complete": true,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
-  "task_ids": [],
+  "task_ids": [
+    "5d1f4fc1b4e548a7828892c73b672990",
+    "90db5dd309db477eb346e8d82676f7b5",
+    "425108630b0e48c9a4b299fc89ad88ee",
+    "bfdb6d9fad7a4ab29492f7bb95c78033",
+    "d775c7a483a44f13ba1704a1c418b208",
+    "8c6d92662d1043c7a651168b2b8280ae"
+  ],
   "new_submissions": 0,
   "topview_credits_spent": 0,
-  "browser_transport": "not_started",
+  "browser_transport": "cloud_browser_authenticated_read_only_plus_topview_read_api",
   "lease": {
     "holder": "chatgpt:work:da069532-0b4b-4533-b301-508ba15dda85",
     "acquired_at": "2026-11-17T08:00:11.050Z",
     "expires_at": "2026-11-17T08:45:11.050Z",
     "verified_start_readback": true,
+    "verified_before_final_write": true,
     "released": false
   },
   "acceptance": {
     "scheduled_cycle": true,
-    "full_all_board_scan": false,
+    "full_all_board_scan": true,
     "new_task_created_by_this_execution": false
   },
-  "checked_at": "2026-11-17T08:00:40.920Z",
-  "outcome": null,
+  "topview_scan": {
+    "checked_at": "2026-11-17T08:05:09.776Z",
+    "boards_scanned": 14,
+    "pages_scanned": 19,
+    "video_tasks_scanned": 678,
+    "status_counts": {
+      "success": 645,
+      "init": 6,
+      "fail": 27
+    },
+    "board": {
+      "name": "My First Board",
+      "id": "1a6244cf1ae747ef847d949a80d6133c"
+    },
+    "global_slot_capacity": 6,
+    "occupied_slots": 6,
+    "active_tasks": [
+      {
+        "task_id": "5d1f4fc1b4e548a7828892c73b672990",
+        "model": "Wan 3.0",
+        "duration": 30,
+        "queue": 3788,
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "use_unlimited": true,
+        "credits_cost": 0,
+        "resolution": 720,
+        "aspect_ratio": "16:9"
+      },
+      {
+        "task_id": "90db5dd309db477eb346e8d82676f7b5",
+        "model": "Wan 3.0",
+        "duration": 30,
+        "queue": 3499,
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "use_unlimited": true,
+        "credits_cost": 0,
+        "resolution": 720,
+        "aspect_ratio": "16:9"
+      },
+      {
+        "task_id": "425108630b0e48c9a4b299fc89ad88ee",
+        "model": "Wan 3.0",
+        "duration": 30,
+        "queue": 3210,
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "use_unlimited": true,
+        "credits_cost": 0,
+        "resolution": 720,
+        "aspect_ratio": "16:9"
+      },
+      {
+        "task_id": "bfdb6d9fad7a4ab29492f7bb95c78033",
+        "model": "Seedance 2.0",
+        "duration": 15,
+        "queue": 2921,
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "use_unlimited": true,
+        "credits_cost": 0,
+        "resolution": 720,
+        "aspect_ratio": "16:9"
+      },
+      {
+        "task_id": "d775c7a483a44f13ba1704a1c418b208",
+        "model": "Seedance 2.0",
+        "duration": 15,
+        "queue": 2008,
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "use_unlimited": true,
+        "credits_cost": 0,
+        "resolution": 720,
+        "aspect_ratio": "16:9"
+      },
+      {
+        "task_id": "8c6d92662d1043c7a651168b2b8280ae",
+        "model": "Seedance 2.0",
+        "duration": 15,
+        "queue": 974,
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "use_unlimited": true,
+        "credits_cost": 0,
+        "resolution": 720,
+        "aspect_ratio": "16:9"
+      }
+    ],
+    "website_authenticated": true,
+    "website_visible_active_cards": 6,
+    "create_performed": false
+  },
+  "queue_guard": {
+    "queue_sha256": "320e162ad5111792f6af06124deba5c2bc6d684c39aa5f6a6e2ef68f4ab90d7f",
+    "task_map_sha256": "9027c74630d64e9a162f6782fed2cc0132dbea2850139e762848b3465d452269",
+    "readiness_queue_sha256": "320e162ad5111792f6af06124deba5c2bc6d684c39aa5f6a6e2ef68f4ab90d7f",
+    "readiness_task_map_sha256": "9027c74630d64e9a162f6782fed2cc0132dbea2850139e762848b3465d452269",
+    "readiness_checked_at": "2026-11-17T07:20:34.028430Z",
+    "items_total": 35,
+    "states": {
+      "claimed": 0,
+      "submitting": 0,
+      "submission_unknown": 0,
+      "submitted": 11
+    },
+    "hashes_match": true
+  },
+  "dance_archive": {
+    "checked": true,
+    "folder_id": "1e1DFvcKeKrNdcHrdZaJRHqaT2vXvxatm",
+    "existing_files": 25,
+    "scene_counts": {
+      "28": 13,
+      "49": 6,
+      "51": 6
+    },
+    "all_nonzero": true,
+    "task_ids_in_names": true,
+    "new_ready_originals": 0,
+    "uploads": 0,
+    "duplicates_created": 0,
+    "grok_files_changed": false,
+    "note": "Fresh Topview scan found no new terminal dance/hangar video; Drive inventory unchanged."
+  },
+  "maintenance": {
+    "phase_a": {
+      "due": false,
+      "reason": "10:55 Europe/Moscow; previous 09:55 cycle completed",
+      "owner_tasks_open_for_chatgpt_any": 0,
+      "self_heal_status": "ok",
+      "project_status": {
+        "health": "ok",
+        "synced_at": "2026-11-17T07:52:36Z"
+      },
+      "canon_health": {
+        "status": "ok",
+        "warnings": 0,
+        "info": 6
+      }
+    },
+    "phase_b": {
+      "due": false,
+      "reason": "10:55 Europe/Moscow; previous 09:55 mail check completed"
+    },
+    "phase_c": {
+      "due": false,
+      "reason": "2026-11-17 is Tuesday in Europe/Moscow"
+    }
+  },
+  "owner_decisions": {
+    "checked": true,
+    "counts": {
+      "applied": 127,
+      "needs_owner": 1,
+      "superseded": 4,
+      "pending": 0,
+      "in_progress": 0
+    },
+    "unchanged_needs_owner_id": "d37ea54b-6b09-4283-892b-d6c3e189b82f"
+  },
+  "peer_reconciliation": {
+    "ordinary": {
+      "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
+      "last_run_id": "fa52f9a4-c040-8328-b2a9-b7918235fb96",
+      "last_run_status": "in_progress",
+      "latest_result_run_id": "b74a64de-a58c-8331-9897-07dcc580b020",
+      "receipt_run_id": "ee50296f-679c-8326-8394-707a3552b868",
+      "receipt_scan_complete": false,
+      "current_cycle_receipt_not_proven": true
+    },
+    "work": {
+      "automation_id": "6acae6ab433481919e88665c520b8ef2",
+      "last_run_id": "15120166-29cc-8332-a51a-4381714b9979",
+      "recorded_status_at_final_peek": "in_progress",
+      "latest_result_run_id": null
+    }
+  },
+  "checked_at": "2026-11-17T08:05:09.776Z",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": true
 }
