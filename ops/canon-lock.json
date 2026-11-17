@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:3412c6aa-3316-4772-9246-df90c615f233",
   "task": "Publish reviewed read-only no-published-claim reconciliation protocol",
   "acquired_at": "2026-11-17T18:14:00.917410Z",
-  "expires_at": "2026-11-17T18:19:00.917410Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-17T18:14:33.012875Z",
   "rules": "ops/CANON-LOCK.md"
 }
