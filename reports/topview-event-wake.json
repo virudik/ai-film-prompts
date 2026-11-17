@@ -2065,6 +2065,26 @@
         ]
       },
       "receipt": "reports/topview-queue-2026-10-16/S89C-WAN30-20261116T155820Z.json"
+    },
+    {
+      "event_id": "slots:b088674e:71",
+      "issue_number": 770,
+      "message_id": "248467382049165312",
+      "relay_event_id": "evt_757a3ae9c4dad15ae1d463a739cd4191",
+      "checked_at": "2026-11-17T15:24:47.410Z",
+      "outcome": "started",
+      "retryable": true,
+      "task_ids": [],
+      "source": "dot Agent Relay webhook",
+      "runner": "dot_event_handler",
+      "run_id": null,
+      "run_id_unavailable_reason": "not exposed",
+      "execution": {
+        "state": "started",
+        "stage": "intake",
+        "started_at": "2026-11-17T15:24:47.410Z",
+        "updated_at": "2026-11-17T15:24:47.410Z"
+      }
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
