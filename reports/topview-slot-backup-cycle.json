@@ -3,32 +3,25 @@
   "source": "ChatGPT scheduled ordinary",
   "runner": "chatgpt_scheduled_task",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "run_id": "6ecb4b8a-10e0-8333-8d73-c449cba9f6b6",
-  "run_id_unavailable_reason": null,
-  "execution_instance_id": "37890d8d-23f3-4cb5-ba99-e27a2bd27fd2",
+  "run_id": null,
+  "run_id_unavailable_reason": "Scheduled run context did not expose a platform runtime run ID; Automations.get calls returned NOT_FOUND/404, not evidence of a specific run.",
+  "execution_instance_id": "feee9483-3d31-4c3b-a6fb-8543e4766835",
   "route_generation": 3,
-  "source_head": "3311c0f456ae28ffffb35e18fa8cd8dc73cf4aa0",
-  "started_at": "2026-11-17T09:02:37.278157Z",
-  "updated_at": "2026-11-17T09:09:21.262Z",
-  "completed_at": "2026-11-17T09:09:21.262Z",
-  "phase": "completed",
-  "status": "completed",
+  "source_head": "3aba0fee5273a956c60939fcdb969b0e5980c4af",
+  "started_at": "2026-11-17T10:01:17.743Z",
+  "updated_at": "2026-11-17T10:01:49.374Z",
+  "completed_at": null,
+  "phase": "started",
+  "status": "in_progress",
   "scan_complete": false,
-  "occupied_slots": 6,
-  "free_slots": 0,
+  "occupied_slots": null,
+  "free_slots": null,
   "selected_item": null,
   "item_ids": [],
-  "task_ids": [
-    "5d1f4fc1b4e548a7828892c73b672990",
-    "90db5dd309db477eb346e8d82676f7b5",
-    "425108630b0e48c9a4b299fc89ad88ee",
-    "bfdb6d9fad7a4ab29492f7bb95c78033",
-    "d775c7a483a44f13ba1704a1c418b208",
-    "8c6d92662d1043c7a651168b2b8280ae"
-  ],
+  "task_ids": [],
   "new_submissions": 0,
   "topview_credits_spent": 0,
-  "browser_transport": "not_used_capacity_6_of_6",
+  "browser_transport": "not_used",
   "tinyfish": {
     "run_ids": [],
     "steps": 0,
@@ -36,105 +29,29 @@
     "confirmed_charge_usd": 0
   },
   "lease": {
-    "holder": "chatgpt:ordinary:37890d8d-23f3-4cb5-ba99-e27a2bd27fd2",
-    "acquired_at": "2026-11-17T09:06:32.044Z",
-    "expires_at": "2026-11-17T09:16:32.044Z",
-    "acquisition_commit": "5980ee13af0094c851fe28101336a7e75037f362",
-    "released_at": "2026-11-17T09:09:21.262Z",
-    "release_state": "released_in_same_CAS_as_final_receipt",
-    "verified_before_write": true,
-    "verified_before_final_write": true
+    "holder": "chatgpt:ordinary:feee9483-3d31-4c3b-a6fb-8543e4766835",
+    "acquired_at": "2026-11-17T10:01:17.743Z",
+    "expires_at": "2026-11-17T10:13:17.743Z",
+    "acquisition_commit": "c4570a9e4fbc12443b8ec7414663fa572c156288",
+    "released_at": null,
+    "release_state": "held"
   },
   "previous_receipt": {
-    "execution_instance_id": "04c1e34c-e2cb-404f-a5b8-1bb2bd83dcd9",
+    "execution_instance_id": "37890d8d-23f3-4cb5-ba99-e27a2bd27fd2",
     "status": "completed",
-    "updated_at": "2026-11-17T08:10:19.690Z"
+    "updated_at": "2026-11-17T09:09:21.262Z"
   },
   "acceptance": {
     "scheduled_cycle_context": true,
-    "actual_runtime_run_id_verified": true,
-    "topview_read_only_verified": true,
+    "actual_runtime_run_id_verified": false,
+    "topview_read_only_verified": false,
     "all_board_scan_verified_this_run": false,
     "tinyfish_login_verified_this_run": false,
     "ui_file_transfer_verified_this_run": false,
     "unlimited_zero_verified_in_ui_this_run": false,
     "new_task_id_verified_this_run": false
   },
-  "outcome": "no_free_slot",
+  "outcome": "pending_scan",
   "blocker": null,
-  "retryable": false,
-  "active_task_ids": [
-    "5d1f4fc1b4e548a7828892c73b672990",
-    "90db5dd309db477eb346e8d82676f7b5",
-    "425108630b0e48c9a4b299fc89ad88ee",
-    "bfdb6d9fad7a4ab29492f7bb95c78033",
-    "d775c7a483a44f13ba1704a1c418b208",
-    "8c6d92662d1043c7a651168b2b8280ae"
-  ],
-  "checked_at": "2026-11-17T09:05:31.202Z",
-  "scan": {
-    "method": "Topview connector read-only list_board_tasks",
-    "checked_at": "2026-11-17T09:05:31.202Z",
-    "boards_listed": 14,
-    "main_board_id": "1a6244cf1ae747ef847d949a80d6133c",
-    "main_board_video_total": 511,
-    "main_board_page": 1,
-    "main_board_page_size": 100,
-    "main_board_page_scanned": 100,
-    "complete": false,
-    "partial_reason": "6 active physical video tasks found on first board, filling global limit; no Create or paid browser allowed.",
-    "active_count": 6,
-    "active_task_ids": [
-      "5d1f4fc1b4e548a7828892c73b672990",
-      "90db5dd309db477eb346e8d82676f7b5",
-      "425108630b0e48c9a4b299fc89ad88ee",
-      "bfdb6d9fad7a4ab29492f7bb95c78033",
-      "d775c7a483a44f13ba1704a1c418b208",
-      "8c6d92662d1043c7a651168b2b8280ae"
-    ],
-    "task_status_counts": {
-      "init": 6,
-      "success": 90,
-      "fail": 4
-    },
-    "active_unlimited_count": 6,
-    "active_credits_cost": 0,
-    "global_capacity": 6,
-    "free_slots": 0,
-    "peer_complete_scan": {
-      "source": "reports/topview-launcher-cycle.json",
-      "checked_at": "2026-11-17T09:04:21.849Z",
-      "boards_scanned": 14,
-      "pages_scanned": 19,
-      "video_tasks_scanned": 678,
-      "occupied_slots": 6,
-      "free_slots": 0,
-      "verified_as_peer_receipt_not_scanned_by_this_cycle": true
-    }
-  },
-  "project": "seregius",
-  "queue_items_count": 35,
-  "queue_readiness_items_count": 24,
-  "queue_pending_claim_count": 0,
-  "queue_pending_claim_items": [],
-  "owner_tasks_open_count": 0,
-  "sha_independently_recomputed": {
-    "queue_matches": null,
-    "task_map_matches": null,
-    "explanation": "No independent SHA recomputation during 6/6 capacity-noop; readiness and source queue read, no Create."
-  },
-  "next_item_if_capacity": "S89D-WAN30",
-  "next_item_reason": "Fresh priority evaluation, full dedup/all-board scan, matched source SHA and UI preflight required before Create.",
-  "next_action_unchanged": true,
-  "peer_verified_submission": {
-    "item_id": "S89C-WAN30",
-    "task_id": "5d1f4fc1b4e548a7828892c73b672990",
-    "created_by_this_run": false,
-    "still_active": true
-  },
-  "peer_runtime": {
-    "work_hourly_last_run_id": "4f49dd13-5af8-8329-b347-7732511c0399",
-    "relay_last_run_id": "2bc4e4c6-bc54-8331-9dc9-b54bd7946ebd",
-    "ordinary_current_runtime_run_id": "6ecb4b8a-10e0-8333-8d73-c449cba9f6b6"
-  }
+  "retryable": false
 }
