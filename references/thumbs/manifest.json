@@ -1723,6 +1723,46 @@
    "thumb_bytes": 24274,
    "src_sha256": "715551970cc8b60b1b3658e646e26a46bb86008822f3a05ffcecad958bdc5f19"
   },
+  "projects/raznoe/references/scenes/scene-5/YARD-LOC-01.jpg": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-5/YARD-LOC-01.jpg.webp",
+   "width": 640,
+   "height": 1138,
+   "src_width": 720,
+   "src_height": 1280,
+   "src_bytes": 287717,
+   "thumb_bytes": 71658,
+   "src_sha256": "2ccb3cbb359cc7b78ce7aa383ccf7dfb873a303663f6c9797a29abd9991690d4"
+  },
+  "projects/raznoe/references/scenes/scene-5/YARD-LOC-02.jpg": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-5/YARD-LOC-02.jpg.webp",
+   "width": 640,
+   "height": 1138,
+   "src_width": 720,
+   "src_height": 1280,
+   "src_bytes": 265354,
+   "thumb_bytes": 60286,
+   "src_sha256": "0cd86d9cb03bd7ad2b6cfc0dc6b72e978ac4b6c0681db889c7b4bf1ffe5a39ae"
+  },
+  "projects/raznoe/references/scenes/scene-5/YARD-LOC-03.jpg": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-5/YARD-LOC-03.jpg.webp",
+   "width": 640,
+   "height": 1138,
+   "src_width": 720,
+   "src_height": 1280,
+   "src_bytes": 292951,
+   "thumb_bytes": 75392,
+   "src_sha256": "a93ebb0d750f44fe675fca9a9e68f3bf5fb68f7998ca9583f2e92991c32c933b"
+  },
+  "projects/raznoe/references/scenes/scene-5/YARD-LOC-04.jpg": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-5/YARD-LOC-04.jpg.webp",
+   "width": 640,
+   "height": 1138,
+   "src_width": 720,
+   "src_height": 1280,
+   "src_bytes": 263143,
+   "thumb_bytes": 60298,
+   "src_sha256": "19f8a585944667741a0a5a8978d0c39511b8c59b70a1caa31809c22b83d9b44b"
+  },
   "projects/raznoe/references/sonya-expressions.png": {
    "thumb": "references/thumbs/projects/raznoe/references/sonya-expressions.png.webp",
    "width": 640,
