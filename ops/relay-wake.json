@@ -8,7 +8,7 @@
   "address": "chatgpt@cloud-239644772681871360",
   "site_alert_enabled": true,
   "site_alert_address": "GrokBot@cloud-242545579433959424",
-  "site_alert_note": "Canon-health warn/fail and dashboard error/warn banners only. The GitHub robot sends one Agent Relay DM when that set changes. Info notes are not sent. This is not a Grok polling routine and not a slot wake.",
+  "site_alert_note": "Legacy direct Grok route remains active. V2 Dot-primary routing is disabled until genuine handler integration and separate activation approval.",
   "secret": "AGENT_RELAY_TOKEN (GitHub Actions secret; Agent Relay agent token of the robot identity, at_live_*)",
   "handler_automation_id": "6af9b2a7212081919b191786c483ad13",
   "rules": "ops/TOPVIEW-EVENT-WAKE.md",
@@ -27,5 +27,14 @@
     "progress_timeout_minutes": 30,
     "backup_repeat_minutes": 60,
     "acceptance_evidence": "reports/primary-backup-acceptance.json"
+  },
+  "site_alert_routing": {
+    "mode": "primary_then_backup",
+    "backup_address": "GrokBot@cloud-242545579433959424",
+    "critical_timeout_minutes": 120,
+    "warning_timeout_minutes": 120,
+    "receipts": "reports/site-alert-receipts.json",
+    "enabled": false,
+    "primary_address": "chatgpt@cloud-239644772681871360"
   }
 }

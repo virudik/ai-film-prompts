@@ -1,0 +1,34 @@
+name: Site alert read-only canary (manual only)
+on:
+  workflow_dispatch:
+    inputs:
+      test_id:
+        description: Exact previously authorized SITE_ALERT_V2_TEST ID
+        required: true
+        type: string
+      recipient:
+        description: Previously authorized test recipient
+        required: true
+        type: choice
+        options: [dot, grok]
+      confirm_read_only:
+        description: Explicitly authorize one read-only canary message
+        type: boolean
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: site-alert-canary
+  cancel-in-progress: false
+jobs:
+  send:
+    if: github.ref == 'refs/heads/main' && inputs.confirm_read_only == true
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Send only a read-only canary, no production receipt
+        env:
+          AGENT_RELAY_TOKEN: ${{ secrets.AGENT_RELAY_TOKEN }}
+          TEST_ID: ${{ inputs.test_id }}
+          RECIPIENT: ${{ inputs.recipient }}
+        run: python3 scripts/site_alert_canary.py --test-id "$TEST_ID" --recipient "$RECIPIENT" --confirm-read-only
