@@ -1693,6 +1693,16 @@
    "thumb_bytes": 16006,
    "src_sha256": "638788a29ad30654b3a03cd25f0cf0bd7d8161f995ebec2701941e73b97f3889"
   },
+  "projects/raznoe/references/scenes/scene-5/X-3D-TURNAROUND.jpg": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-5/X-3D-TURNAROUND.jpg.webp",
+   "width": 640,
+   "height": 538,
+   "src_width": 5120,
+   "src_height": 4300,
+   "src_bytes": 1497453,
+   "thumb_bytes": 12040,
+   "src_sha256": "0e63a9de0e1f07662dd987dbad2c7c65e5302f8acd1f1ad91855ccb1aa157010"
+  },
   "projects/raznoe/references/scenes/scene-5/X-GEN-FRONT.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-5/X-GEN-FRONT.png.webp",
    "width": 640,

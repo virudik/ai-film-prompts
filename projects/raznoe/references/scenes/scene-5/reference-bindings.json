@@ -3,7 +3,7 @@
   "project": "raznoe",
   "scene_id": 5,
   "model": "HONOR X9e Pro",
-  "updated_at": "2026-11-10T23:31:21+00:00",
+  "updated_at": "2026-11-17T18:10:00+00:00",
   "official_sources_are_primary": true,
   "generated_images_are_not_official": true,
   "source_access": "Existing private Drive originals; no new public sharing of manufacturer sources",
@@ -13,7 +13,7 @@
   "prompts": [
     {
       "label": "5",
-      "prompt_sha256": "2d66d05288cbe79dc1a17e311c1833f4d726863b3a9a28e0c8707b64b2f55946",
+      "prompt_sha256": "365e47529af1a472cf0f8c17944f7241648d91d8d396a986a2ee9de9db89cf63",
       "inputs": {
         "@Image1": {
           "slot": "X-BACK",
@@ -60,12 +60,19 @@
         "@Image6": {
           "path": "projects/raznoe/references/scenes/scene-5/YARD-LOC-03.jpg",
           "role": "location_canon"
+        },
+        "@Image7": {
+          "path": "projects/raznoe/references/scenes/scene-5/X-3D-TURNAROUND.jpg",
+          "role": "appearance_and_sides_canon",
+          "asset_id": "X-3D-TURNAROUND",
+          "spec": "projects/raznoe/references/scenes/scene-5/PHONE-SIDES-SPEC.md",
+          "approved_at": "2026-11-17"
         }
       }
     },
     {
       "label": "5 · Seedance 2.0 часть 1",
-      "prompt_sha256": "fb8790b1327ad890861f3bee037a51ae2287a61e29b6d66cef62234d733a5b85",
+      "prompt_sha256": "f5f714ba33194a90f55eec2fc66a526e3358d3958d6dfa37f8f37e44e6367b73",
       "inputs": {
         "@Image1": {
           "slot": "X-BACK",
@@ -112,12 +119,19 @@
         "@Image6": {
           "path": "projects/raznoe/references/scenes/scene-5/YARD-LOC-03.jpg",
           "role": "location_canon"
+        },
+        "@Image7": {
+          "path": "projects/raznoe/references/scenes/scene-5/X-3D-TURNAROUND.jpg",
+          "role": "appearance_and_sides_canon",
+          "asset_id": "X-3D-TURNAROUND",
+          "spec": "projects/raznoe/references/scenes/scene-5/PHONE-SIDES-SPEC.md",
+          "approved_at": "2026-11-17"
         }
       }
     },
     {
       "label": "5 · Seedance 2.0 часть 2",
-      "prompt_sha256": "e3bb336074f80147c625d3f53231e0b49e97be6695d537737581e0b6d30999b7",
+      "prompt_sha256": "102910d66030c03e3cc5588901da005d7658494682a20caef5bd9e39b79fd623",
       "inputs": {
         "@Image1": {
           "slot": "X-BACK",
@@ -170,6 +184,13 @@
         "@Image6": {
           "path": "projects/raznoe/references/scenes/scene-5/YARD-LOC-03.jpg",
           "role": "location_canon"
+        },
+        "@Image7": {
+          "path": "projects/raznoe/references/scenes/scene-5/X-3D-TURNAROUND.jpg",
+          "role": "appearance_and_sides_canon",
+          "asset_id": "X-3D-TURNAROUND",
+          "spec": "projects/raznoe/references/scenes/scene-5/PHONE-SIDES-SPEC.md",
+          "approved_at": "2026-11-17"
         }
       }
     }
@@ -187,5 +208,16 @@
     ],
     "location_text": "projects/raznoe/references/scenes/scene-5/yard-canon-location.txt",
     "fixed_at": "2026-11-17"
+  },
+  "phone_3d_canon": {
+    "asset": "X-3D-TURNAROUND",
+    "spec": "projects/raznoe/references/scenes/scene-5/PHONE-SIDES-SPEC.md",
+    "approved_at": "2026-11-17",
+    "role": "mandatory exterior appearance and sides in every prompt that shows the phone",
+    "does_not_approve": [
+      "scene",
+      "contest_submission",
+      "video_launch"
+    ]
   }
 }

@@ -172,6 +172,31 @@
       "source_kind": "grok_generated_edit",
       "qc_notes": "Канонический вид двора (зафиксирован 17.11.2026). Правка кадра ИИ-превиза Grok (v2 c03 1.0s): убраны рука, телефон и ледянка; двор, свет и погода не менялись. Все будущие ИИ-клипы сцены 5 — только от этих кадров или от последнего кадра предыдущего клипа. Не документальная съёмка и не конкурсный материал.",
       "original_bytes_preserved": true
+    },
+    {
+      "scene_id": 5,
+      "asset_id": "X-3D-TURNAROUND",
+      "path": "projects/raznoe/references/scenes/scene-5/X-3D-TURNAROUND.jpg",
+      "original_name": "HONOR-X9e-Pro-3D-turnaround.jpg",
+      "sha256": "0e63a9de0e1f07662dd987dbad2c7c65e5302f8acd1f1ad91855ccb1aa157010",
+      "bytes": 1497453,
+      "width": 5120,
+      "height": 4300,
+      "preview": "projects/raznoe/references/scenes/scene-5/previews/X-3D-TURNAROUND.webp",
+      "preview_sha256": "b8b0405bcff2194e822eda63f676816fcc2770794641f9ad1aa6f06f895887a5",
+      "preview_bytes": 14740,
+      "preview_width": 762,
+      "preview_height": 640,
+      "caption": "Телефон HONOR X9e Pro — эталон 3D-модели (8 ракурсов), утверждён 17.11.2026",
+      "role": "appearance_and_sides_canon",
+      "active_prompt_input": true,
+      "technical_product_identity": true,
+      "editorial_status": "approved",
+      "source_kind": "owner_approved_3d_turnaround",
+      "spec": "projects/raznoe/references/scenes/scene-5/PHONE-SIDES-SPEC.md",
+      "qc_notes": "Лист-разворот 8 ракурсов утверждён владельцем 17.11.2026 как эталон внешнего вида и сторон HONOR X9e Pro. Это не приёмка сцены, не отправка заявки и не запуск видео. ИК-порт на листе не подтверждён и не добавляется. Официальные X-BACK/X-FRONT остаются видами зада и переда.",
+      "original_bytes_preserved": true,
+      "approved_at": "2026-11-17"
     }
   ],
   "technical_sources": [
@@ -228,7 +253,7 @@
     "competition_entry": false,
     "part_2_requires_actual_part_1_tail": true
   },
-  "updated_at": "2026-11-10T23:31:21+00:00",
+  "updated_at": "2026-11-17T18:10:00+00:00",
   "reference_binding_complete": true,
   "product_identity_model": "HONOR X9e Pro",
   "reference_priority": "official_model_sources > approved_video_continuity > mood > generated_composition",
@@ -245,5 +270,11 @@
     "location_text": "projects/raznoe/references/scenes/scene-5/yard-canon-location.txt",
     "drive_folder": "https://drive.google.com/drive/folders/1imqZ-NlCuhtuUDd_6UScW0RH1PR8K7Jn",
     "rule": "Новых опорных кадров двора не создавать; новая точка — только дорисовкой из YARD-LOC-xx с пометкой."
+  },
+  "phone_3d_canon": {
+    "fixed_at": "2026-11-17",
+    "asset": "X-3D-TURNAROUND",
+    "spec": "projects/raznoe/references/scenes/scene-5/PHONE-SIDES-SPEC.md",
+    "rule": "Обязательный эталон внешнего вида и сторон в каждом промпте сцены 5, где есть телефон. Утверждение листа не переводит сцену в READY и не разрешает видео."
   }
 }

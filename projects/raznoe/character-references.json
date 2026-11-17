@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "project": "raznoe",
-  "updated_at": "2026-11-10T23:31:21+00:00",
+  "updated_at": "2026-11-17T18:10:00+00:00",
   "source": "59/59 existing scene references recovered and registered; all not_approved; no video generated. 06.11.2026: сцена 3 RESOURCE, 10 поставленных кадров, not_approved; 45737 — полимер; старый металл вне галереи.",
   "characters": [
     {
@@ -1675,7 +1675,7 @@
       "id": "honor-x9e-pro",
       "name": "HONOR X9e Pro",
       "kind": "product",
-      "notes": "Реальные источники модели имеют приоритет. ИИ-изображения — только композиция/свет; не официальные фотографии и не технические характеристики.",
+      "notes": "Реальные источники модели имеют приоритет. ИИ-изображения — только композиция/свет; не официальные фотографии и не технические характеристики. Лист X-3D-TURNAROUND утверждён владельцем 17.11.2026 как эталон внешнего вида и сторон; это не приёмка сцены и не запуск видео.",
       "scenes": [
         5
       ],
@@ -1714,6 +1714,21 @@
           "editorial_status": "not_approved",
           "role": "archive_only",
           "active_prompt_input": false
+        },
+        {
+          "path": "projects/raznoe/references/scenes/scene-5/X-3D-TURNAROUND.jpg",
+          "caption": "Телефон HONOR X9e Pro — эталон 3D-модели (8 ракурсов), утверждён 17.11.2026",
+          "sha256": "0e63a9de0e1f07662dd987dbad2c7c65e5302f8acd1f1ad91855ccb1aa157010",
+          "width": 5120,
+          "height": 4300,
+          "scenes": [
+            5
+          ],
+          "editorial_status": "approved",
+          "role": "appearance_and_sides_canon",
+          "active_prompt_input": true,
+          "spec": "projects/raznoe/references/scenes/scene-5/PHONE-SIDES-SPEC.md",
+          "approved_at": "2026-11-17"
         }
       ]
     }
