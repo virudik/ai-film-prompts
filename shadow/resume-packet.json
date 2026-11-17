@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-17T18:03:37+00:00",
-  "source_head": "96718ab594d710b987e077687ba0ab9b61a2eb44",
-  "source_fingerprint": "f4f3df9640f014adaa42d6f3fefe1108711dc07357e54e05e9c3ffb0bca8f1f6",
+  "checked_at": "2026-11-17T18:26:07+00:00",
+  "source_head": "076c6e4e38baeddd2671431abec9bde8402e6246",
+  "source_fingerprint": "1414c9b8c99bed0d38e837b5328107acfcfdba97ee5c42d7fd0ed56ee8dac31b",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -538,6 +538,13 @@
     ],
     "next_candidates": [
       {
+        "item_id": "S89D-WAN30-R2",
+        "state": "waiting_for_slot",
+        "task_id": null,
+        "recovery_action": "fresh_launch_preflight_required",
+        "submit_authorized": false
+      },
+      {
         "item_id": "S89F-WAN30",
         "state": "waiting_for_slot",
         "task_id": null,
@@ -546,13 +553,6 @@
       },
       {
         "item_id": "S89G-WAN30",
-        "state": "waiting_for_slot",
-        "task_id": null,
-        "recovery_action": "fresh_launch_preflight_required",
-        "submit_authorized": false
-      },
-      {
-        "item_id": "S28-A1-R2-20261025",
         "state": "waiting_for_slot",
         "task_id": null,
         "recovery_action": "fresh_launch_preflight_required",
@@ -614,8 +614,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "e50ef3ac39129052175f0b43fef5d89b85194c89cc828dfbc0dd887496a35e77",
-      "bytes": 241823
+      "sha256": "b20690d859440a6a5bb3f207e0d9bcccf2d1876efaf4a419f9a30266870beadb",
+      "bytes": 246608
     },
     {
       "file": "project-status.json",
