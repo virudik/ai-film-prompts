@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "grok:honor-yard-canon",
   "task": "HONOR сцена 5: канон вида двора в референсы и промпты (PR, без слияния)",
   "acquired_at": "2026-11-17T13:18:05Z",
-  "expires_at": "2026-11-17T14:18:05Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-17T13:21:06Z",
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }
