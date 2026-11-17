@@ -2828,7 +2828,7 @@
       "canonical_prompt_sha256": "9b178c5bb300e1be40a95caf85824471a1e30717155dba32431f91e682de1e29",
       "normalized_prompt_sha256": "6770b9f41544dd86c0ba21159b5f3996902d3230460c13049e55216408a99f8f",
       "priority": 0.305,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "model_id": "qwen-wan3.0-video",
@@ -2888,7 +2888,36 @@
       "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry: automatic_retry is false and retry_control is omitted, because Grok prepare_intent treats any retry_control as a retry Create and would reject the first Unlimited Create. Not a paid 12-credit Wan path.",
       "owner_source": "t593u",
       "story_not_music": true,
-      "created_at": "2026-11-12T13:14:25Z"
+      "created_at": "2026-11-12T13:14:25Z",
+      "claim": {
+        "claim_id": "db9415f9-16b0-4c10-9f8c-b16ed915db5b",
+        "execution_instance_id": "2fb86b90-859c-49ad-ae78-148f2a99e863",
+        "route_generation": 5,
+        "source_sha": "72a2e90498b4aef2bf4cfc4cb6bc9210cbaf69f3",
+        "claimed_at": "2026-11-17T17:53:09Z",
+        "lease_holder": "chatgpt:ordinary:2fb86b90-859c-49ad-ae78-148f2a99e863",
+        "lease_acquired_at": "2026-11-17T17:47:36.328288Z",
+        "preflight": {
+          "owner_authorized": true,
+          "prompt_match": true,
+          "input_sha_match": true,
+          "input_order_match": true,
+          "qc_passed": true,
+          "website_unlimited": true,
+          "credits_cost": 0,
+          "numeric_zero_displayed": false,
+          "unlimited_mode_selected": true,
+          "credits_cost_evidence": "selected_free_unlimited_current_form",
+          "ui_unlimited_label": "Безлимитный режим — бесплатно",
+          "paid_credit_mode_selected": false,
+          "quantity": 1,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "model": "Wan 3.0",
+          "duration_seconds": 30
+        },
+        "coordination_version": 2
+      }
     },
     {
       "id": "S89F-WAN30",
