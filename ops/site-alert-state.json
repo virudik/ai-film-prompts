@@ -1,8 +1,12 @@
 {
   "schema_version": 1,
-  "signature": [],
+  "signature": [
+    "canon:handoff-size:NEW-CHAT-HANDOFF.md|Хендоф 35 КБ (цель до 35 КБ): старые блоки перенести в журнал archive/handoff-log.md."
+  ],
+  "sequence": 0,
   "relay": {
-    "status": "cleared"
-  },
-  "rules": "scripts/site_alerts.py; dedup is this signature. Info notes are not included. No Grok polling routine."
+    "status": "sent",
+    "detail": "message_id=248484234984136704",
+    "at": "2026-11-17T16:27:35Z"
+  }
 }
