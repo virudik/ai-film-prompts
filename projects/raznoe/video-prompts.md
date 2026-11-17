@@ -317,7 +317,7 @@ Language: Russian. Speaker: YARIK as the first-person narrator, the voice of a c
 Voice sits in the mix above the effects; no subtitles, no captions.
 
 AUDIO:
-Sound effects follow the action: Sea, wind and wave rumble, soft creak of the boat; words make no sound; then Crying (non-verbal), boot scuff, jacket rustle, muffled street through the door. No spoken words, no music. The only voice is Yarik's voice-over above; non-verbal crying and children's shouts stay wordless. No music, no sung words.
+Sound effects follow the action: Sea, wind and wave rumble, soft creak of the boat; words make no sound; then Crying (non-verbal), boot scuff, jacket rustle, muffled street through the door. No on-screen speech, no music. The only voice is Yarik's voice-over above; non-verbal crying and children's shouts stay wordless. No music, no sung words.
 
 NEGATIVE PROMPT:
 Realistic sea documentary look, drowning peril, blood, gore, Violence, hitting, throwing boots at people, mocking expression, Identity drift between shots, extra people, altered clothing colours, scary or distorted faces, exaggerated slapstick, photoreal live-action look, uncanny teeth, extra fingers or limbs, camera shake, speech from on-screen characters, lip-synced dialogue, singing, generated music score, subtitles, captions, on-screen text, a different voice, a robotic or accented voice, logos, watermark, split screen, poster layout, horizontal landscape framing, letterbox, pillarbox, black bars, tiny subject lost in a wide frame, cropped heads.
@@ -402,7 +402,7 @@ CAMERA / SPACE:
 First half: Slow dolly-in from the doorway, medium close two-shot of the headphone moment, low angle on the bed for the dog. Steady, intimate. Second half: Slow medium two-shot across the table, close insert on the hand placing cards, gentle push-in on the final faces. No cuts faster than 3 seconds. One clean transition at 0:15; no whip pans, no hand-held feel. Vertical 9:16 composition: main subject centred in the middle third, characters stacked high-to-low or front-to-back rather than side by side, tall depth layers (foreground, subject, background), faces large enough to read on a phone, phone-UI safe margins, no wide horizontal panoramas.
 
 PERFORMANCE:
-Sonya: shy, tender, no speech. Yarik: cautious trust. Bublik: calm, heavy settling. Anna: infinite patience, quiet warmth. Yarik: concentration, then a brief fragile joy.
+Sonya: shy, tender, no on-screen speech. Yarik: cautious trust. Bublik: calm, heavy settling. Anna: infinite patience, quiet warmth. Yarik: concentration, then a brief fragile joy.
 
 LIGHTING / MATERIALS:
 Dark blue night, one warm moving lighthouse beam, faint city glow; skin stays warm and readable. Then: Bright soft daylight through sheer curtains, warm wood, light blue accents from the rug. Stylized 3D materials with believable softness, readable faces at all times.
@@ -1280,7 +1280,7 @@ Language: Russian. Speaker: MIRON as the first-person narrator — his inner voi
 Voice sits in the mix above the effects; no subtitles, no captions.
 
 AUDIO:
-Sound effects follow the action: Muffled breathing inside a helmet, distant traffic, rain; then a soft TV cartoon tune (instrumental, original), warm room tone; then Soft TV tune and room tone, then traffic, horns, footsteps and a rising low hum; no speech from characters. The only voice is Miron's voice-over above; crying and children's shouts stay wordless. No music score, no sung words.
+Sound effects follow the action: Muffled breathing inside a helmet, distant traffic, rain; then a soft TV cartoon tune (instrumental, original), warm room tone; then Soft TV tune and room tone, then traffic, horns, footsteps and a rising low hum; no on-screen speech from characters. The only voice is Miron's voice-over above; crying and children's shouts stay wordless. No music score, no sung words.
 
 NEGATIVE PROMPT:
 Identity drift between shots, extra people, altered clothing colours, scary or distorted faces, exaggerated slapstick, photoreal live-action look, uncanny teeth, extra fingers or limbs, camera shake, speech from on-screen characters, lip-synced dialogue, singing, generated music score, subtitles, captions, on-screen text, a different voice, a robotic or accented voice, logos, watermark, split screen, poster layout, horizontal landscape framing, letterbox, pillarbox, black bars, tiny subject lost in a wide frame, cropped heads, copies of existing cartoon, film or advertising characters, brand names, a real child's likeness, donation or payment details.
@@ -1387,7 +1387,7 @@ Language: Russian. Speaker: MIRON as the first-person narrator — his inner voi
 Voice sits in the mix above the effects; no subtitles, no captions.
 
 AUDIO:
-Sound effects follow the action: Rain, running footsteps, muffled kids' shouts (wordless), cardboard falls, a rising hum; no speech; then Scissors snip (soft), crying (wordless), a clock ticking at night, a door creak, fabric of the hug; no speech. The only voice is Miron's voice-over above; crying and children's shouts stay wordless. No music score, no sung words.
+Sound effects follow the action: Rain, running footsteps, muffled kids' shouts (wordless), cardboard falls, a rising hum; no on-screen speech; then Scissors snip (soft), crying (wordless), a clock ticking at night, a door creak, fabric of the hug; no on-screen speech. The only voice is Miron's voice-over above; crying and children's shouts stay wordless. No music score, no sung words.
 
 NEGATIVE PROMPT:
 Violence, anger directed at the child, Injury, blood, scissors near the eye or skin, medicine labels with text, Identity drift between shots, extra people, altered clothing colours, scary or distorted faces, exaggerated slapstick, photoreal live-action look, uncanny teeth, extra fingers or limbs, camera shake, speech from on-screen characters, lip-synced dialogue, singing, generated music score, subtitles, captions, on-screen text, a different voice, a robotic or accented voice, logos, watermark, split screen, poster layout, horizontal landscape framing, letterbox, pillarbox, black bars, tiny subject lost in a wide frame, cropped heads, copies of existing cartoon, film or advertising characters, brand names, a real child's likeness, donation or payment details.
@@ -1502,7 +1502,7 @@ Language: Russian. Speaker: MIRON as the first-person narrator — his inner voi
 Voice sits in the mix above the effects; no subtitles, no captions.
 
 AUDIO:
-Sound effects follow the action: Footsteps echoing in a corridor, stamp thud, keyboard, bright phone ringtone (instrumental), soft room tone, card slides; no speech; then Footsteps, till beeps, scissors snip, page turn, a very quiet human sound of a first word, no clear speech. The only voice is Miron's voice-over above; crying and children's shouts stay wordless. No music score, no sung words.
+Sound effects follow the action: Footsteps echoing in a corridor, stamp thud, keyboard, bright phone ringtone (instrumental), soft room tone, card slides; no on-screen speech; then Footsteps, till beeps, scissors snip, page turn, a very quiet human sound of a first word, no clear speech. The only voice is Miron's voice-over above; crying and children's shouts stay wordless. No music score, no sung words.
 
 NEGATIVE PROMPT:
 Identity drift between shots, extra people, altered clothing colours, scary or distorted faces, exaggerated slapstick, photoreal live-action look, uncanny teeth, extra fingers or limbs, camera shake, speech from on-screen characters, lip-synced dialogue, singing, generated music score, subtitles, captions, on-screen text, a different voice, a robotic or accented voice, logos, watermark, split screen, poster layout, horizontal landscape framing, letterbox, pillarbox, black bars, tiny subject lost in a wide frame, cropped heads, copies of existing cartoon, film or advertising characters, brand names, a real child's likeness, donation or payment details.
@@ -1613,7 +1613,7 @@ Language: Russian. Speaker: MIRON as the first-person narrator — his inner voi
 Voice sits in the mix above the effects; no subtitles, no captions.
 
 AUDIO:
-Sound effects follow the action: Warm piano-less room tone, school-yard murmur with party blower (wordless), clay squish, paper rustle, calculator beeps; no speech; then Low muffled hum, horse hooves and breath, soft wind, then silence broken by a faint high shimmer; no speech. The only voice is Miron's voice-over above; crying and children's shouts stay wordless. No music score, no sung words.
+Sound effects follow the action: Warm piano-less room tone, school-yard murmur with party blower (wordless), clay squish, paper rustle, calculator beeps; no on-screen speech; then Low muffled hum, horse hooves and breath, soft wind, then silence broken by a faint high shimmer; no on-screen speech. The only voice is Miron's voice-over above; crying and children's shouts stay wordless. No music score, no sung words.
 
 NEGATIVE PROMPT:
 Identity drift between shots, extra people, altered clothing colours, scary or distorted faces, exaggerated slapstick, photoreal live-action look, uncanny teeth, extra fingers or limbs, camera shake, speech from on-screen characters, lip-synced dialogue, singing, generated music score, subtitles, captions, on-screen text, a different voice, a robotic or accented voice, logos, watermark, split screen, poster layout, horizontal landscape framing, letterbox, pillarbox, black bars, tiny subject lost in a wide frame, cropped heads, copies of existing cartoon, film or advertising characters, brand names, a real child's likeness, donation or payment details.

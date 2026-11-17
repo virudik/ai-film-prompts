@@ -61,15 +61,13 @@
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 20.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 20.10.2026. В очередь не добавлять. Генерации не запускались. Все четыре статичных входа существуют и визуально проверены; сюжет сцены соответствует прямой команде владельца. Готов текст, но видеорезультата ещё нет. Техническая проверка изображения не является одобрением владельца.
 
 **Что происходит:** Лучик и Рыжик за стойкой инопланетного бара лакают молоко из рюмок. За их спинами вспыхивает потасовка, бармен гасит её ударом ладони, а коты, не моргнув, делают последний глоток.
 
-**Готовность:** Все четыре статичных входа существуют и визуально проверены; сюжет сцены соответствует прямой команде владельца. Готов текст, но видеорезультата ещё нет. Техническая проверка изображения не является одобрением владельца.
-
 **Второй ракурс и вариант завязки:** `projects/kotmonavty/references/development/KM-bar-compass.png`. Компас используется только в предложенном трейлере/сюжете; в самостоятельном барном промте он не появляется.
 
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Лучик — абсолютная идентичность" loading="lazy"></a><figcaption>@Image1 — Лучик — абсолютная идентичность</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Рыжик — абсолютная идентичность" loading="lazy"></a><figcaption>@Image2 — Рыжик — абсолютная идентичность</figcaption></figure>
@@ -250,15 +248,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Seedance 2.5","production_state":"RESULT_RECEIVED","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["trailer","owner_requested","two_engine_versions","reference_first","result_received","awaiting_owner_review","owner_paid_exception_20261029"]} -->
 
-**Результат получен:** по прямому разрешению владельца 29.10.2026 выполнен один платный запуск Seedance 2.5, 30 с, 720p, 16:9 на доске «Котмонавты» — 36 кредитов. Topview: success; художественная приёмка ожидается. [Квитанция](projects/kotmonavty/reports/KM02-SEED25-30-20261029.json).
+**Контекст использования:** по прямому разрешению владельца 29.10.2026 выполнен один платный запуск Seedance 2.5, 30 с, 720p, 16:9 на доске «Котмонавты» — 36 кредитов. Topview: success; художественная приёмка ожидается. [Квитанция](projects/kotmonavty/reports/KM02-SEED25-30-20261029.json). Самостоятельный рекламный трейлер; набор событий не повторяет событийную заставку. Полный 30-секундный результат Seedance 2.5 получен. Девять входов и полный отправленный промпт сверены с каноном. Альтернативные части Seedance 2.0 не запускались: их часть 2 по-прежнему требует результат соответствующей части 1. Технический success не является художественной приёмкой; повтор не разрешён.
 
 **Что происходит:** Магнитная свалка → погоня через кольцо → маяк в буре → прыжок по грузовому поезду → ключ во льду → авария музейной гравитации. Шесть разных опасностей и один невозмутимый экипаж.
 
-**Готовность:** Полный 30-секундный результат Seedance 2.5 получен. Девять входов и полный отправленный промпт сверены с каноном. Альтернативные части Seedance 2.0 не запускались: их часть 2 по-прежнему требует результат соответствующей части 1. Технический success не является художественной приёмкой; повтор не разрешён.
-
-**Назначение:** Самостоятельный рекламный трейлер; набор событий не повторяет событийную заставку.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Лучик — исходная идентичность" loading="lazy"></a><figcaption>@Image1 — Лучик — исходная идентичность</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Рыжик — исходная идентичность" loading="lazy"></a><figcaption>@Image2 — Рыжик — исходная идентичность</figcaption></figure>
@@ -470,15 +464,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца. Отдельная графическая заставка / анимация названия. Событийное начало сериала — сцена 22. Полный материал 30 секунд; при монтаже можно выбрать короткий фрагмент раскрытия названия.
 
 **Что происходит:** Над горизонтом планеты проявляется эмблема кота-космонавта. Под ней появляются «РОСКОТМОС» и название «КОТМОНАВТЫ».
 
-**Готовность:** Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца.
-
-**Монтажная роль:** Отдельная графическая заставка / анимация названия. Событийное начало сериала — сцена 22. Полный материал 30 секунд; при монтаже можно выбрать короткий фрагмент раскрытия названия.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kotmonavty/references/roskotmos-logo.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/roskotmos-logo.png" alt="Исходная эмблема РосКОТмоса — дизайн" loading="lazy"></a><figcaption>@Image1 — Исходная эмблема РосКОТмоса — дизайн</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/branding/KM-opening.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/branding/KM-opening.png" alt="Заставка: точная композиция и надписи" loading="lazy"></a><figcaption>@Image2 — Заставка: точная композиция и надписи</figcaption></figure>
@@ -655,15 +645,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","two_engine_versions","reference_first","submitted","owner_paid_exception_20261030"]} -->
 
-**30.10.2026: отправлена одна платная генерация Wan 3.0, 30 с, 720p, 16:9, звук включён — 12 кредитов. Task `4dc7da2c6bff41b3a8161a6cc427aaa7`, статус running. Квитанция: `projects/kotmonavty/reports/KM04-WAN30-20261030.json`. Результат ещё не получен; повторный запуск не разрешён.**
+**Контекст использования:** 30.10.2026: отправлена одна платная генерация Wan 3.0, 30 с, 720p, 16:9, звук включён — 12 кредитов. Task `4dc7da2c6bff41b3a8161a6cc427aaa7`, статус running. Квитанция: `projects/kotmonavty/reports/KM04-WAN30-20261030.json`. Результат ещё не получен; повторный запуск не разрешён. Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца. Черновой эпизод; сюжет можно дорабатывать по референсу. Номер сцены закреплён, автоматического запуска нет.
 
 **Что происходит:** Бармен выкатывает компас. Рыжик касается светящейся точки, прибор выдаёт координаты, а в дверях появляются дроны. Лучик замечает выход.
 
-**Готовность:** Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца.
-
-**Монтажная роль:** Черновой эпизод; сюжет можно дорабатывать по референсу. Номер сцены закреплён, автоматического запуска нет.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
@@ -853,15 +839,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца. Черновой эпизод; сюжет можно дорабатывать по референсу. Номер сцены закреплён, автоматического запуска нет.
 
 **Что происходит:** Корабль уходит от трёх дронов через сломанное кольцо станции. Рыжик показывает проход, Лучик делает резкий вираж и выводит корабль из-под удара.
 
-**Готовность:** Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца.
-
-**Монтажная роль:** Черновой эпизод; сюжет можно дорабатывать по референсу. Номер сцены закреплён, автоматического запуска нет.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
@@ -1077,15 +1059,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца. Черновой эпизод; сюжет можно дорабатывать по референсу. Номер сцены закреплён, автоматического запуска нет.
 
 **Что происходит:** Компас открывает гигантскую дверь звёздного архива. Коты входят, и их движение пробуждает древнюю систему, превращая карту в опасный механизм.
 
-**Готовность:** Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца.
-
-**Монтажная роль:** Черновой эпизод; сюжет можно дорабатывать по референсу. Номер сцены закреплён, автоматического запуска нет.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
@@ -1275,15 +1253,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца. Черновой эпизод; сюжет можно дорабатывать по референсу. Номер сцены закреплён, автоматического запуска нет.
 
 **Что происходит:** Мост в архиве рушится под лапами. Лучик первым перескакивает разрыв, Рыжик спасает компас и прыгает следом; оба выбираются к выходу.
 
-**Готовность:** Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца.
-
-**Монтажная роль:** Черновой эпизод; сюжет можно дорабатывать по референсу. Номер сцены закреплён, автоматического запуска нет.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
@@ -1473,15 +1447,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца. Черновой эпизод; сюжет можно дорабатывать по референсу. Номер сцены закреплён, автоматического запуска нет.
 
 **Что происходит:** Потрёпанные коты возвращаются в бар. Бармен ставит молоко, компас вспыхивает и прочерчивает маршрут через весь бар, посетители пригибаются, а Рыжик сначала допивает.
 
-**Готовность:** Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца.
-
-**Монтажная роль:** Черновой эпизод; сюжет можно дорабатывать по референсу. Номер сцены закреплён, автоматического запуска нет.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
@@ -1671,15 +1641,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","two_engine_versions","reference_first","submitted","owner_paid_exception_20261030"]} -->
 
-**30.10.2026: отправлена одна платная генерация Wan 3.0, 30 с, 720p, 16:9, звук включён — 12 кредитов. Task `16d53ab1a84e4091b8867b7ed5cc8f4c`, статус running. Квитанция: `projects/kotmonavty/reports/KM09-WAN30-20261030.json`. Результат ещё не получен; повторный запуск не разрешён.**
+**Контекст использования:** 30.10.2026: отправлена одна платная генерация Wan 3.0, 30 с, 720p, 16:9, звук включён — 12 кредитов. Task `16d53ab1a84e4091b8867b7ed5cc8f4c`, статус running. Квитанция: `projects/kotmonavty/reports/KM09-WAN30-20261030.json`. Результат ещё не получен; повторный запуск не разрешён. Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца. Черновой эпизод; сюжет можно дорабатывать по референсу. Номер сцены закреплён, автоматического запуска нет.
 
 **Что происходит:** В корабельном камбузе пропадает тяжесть. Молоко собирается в шарики, и коты ловят их языками, пока Лучик пытается добраться до выключателя.
 
-**Готовность:** Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца.
-
-**Монтажная роль:** Черновой эпизод; сюжет можно дорабатывать по референсу. Номер сцены закреплён, автоматического запуска нет.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
@@ -1869,15 +1835,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца. Черновой эпизод; сюжет можно дорабатывать по референсу. Номер сцены закреплён, автоматического запуска нет.
 
 **Что происходит:** Коты едут через таможенный сканер в открытом чемодане. На экране рыба, воет сирена, инспектор-краб останавливает ленту; коты выдерживают его взгляд, и он сдаётся.
 
-**Готовность:** Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца.
-
-**Монтажная роль:** Черновой эпизод; сюжет можно дорабатывать по референсу. Номер сцены закреплён, автоматического запуска нет.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
@@ -2063,15 +2025,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем. Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
 
 **Что происходит:** В командном зале загорается аварийный сектор. Рыжик подтверждает вылет, Лучик выбирает маршрут; оба мчатся через ангар к своему кораблю.
 
-**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
-
-**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
@@ -2271,15 +2229,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем. Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
 
 **Что происходит:** Магнит поднимает ящик вместе с Рыжиком. Лучик находит аварийную педаль; Рыжик использует раскачивание, чтобы выбраться на соседнюю балку.
 
-**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
-
-**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
@@ -2465,15 +2419,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем. Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
 
 **Что происходит:** Коты выбирают светящуюся жемчужину у многоглазого торговца. Рыжик замечает гигантскую рыбу за стеклом, и сделка едва не срывается.
 
-**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
-
-**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
@@ -2659,15 +2609,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем. Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
 
 **Что происходит:** Во время песчаной бури коты откапывают старый маяк рядом с кораблём. Он отвечает координатами объекта, которого не было на карте.
 
-**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
-
-**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
@@ -2860,15 +2806,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем. Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
 
 **Что происходит:** У панорамного стекла Рыжик касается лапой отражения. Огромный глаз снаружи следит за ними; Лучик бежит вдоль окна — глаз мчится следом. Коты понимают, что их изучают.
 
-**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
-
-**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
@@ -3054,15 +2996,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем. Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
 
 **Что происходит:** Коты на председательском кресле галактического совета. Рыжик жмёт кнопку, зал взрывается голосованием, кресла поднимаются, а коты прыжками уходят к выходу.
 
-**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
-
-**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
@@ -3248,15 +3186,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем. Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
 
 **Что происходит:** Коты бегут по живому мосту: цветы поворачиваются вслед, лозы ползут за ними и сами перекидывают ступеньку через разрыв к заросшим воротам.
 
-**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
-
-**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
@@ -3442,15 +3376,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем. Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
 
 **Что происходит:** По крышам грузового поезда котов преследует дрон. Лучик первым перескакивает сцепку; Рыжик следует за ним, и низкая балка задерживает погоню.
 
-**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
-
-**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
@@ -3636,15 +3566,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем. Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
 
 **Что происходит:** Рыжик пробует лёд с ключом-рыбой языком. Лучик включает подогрев, лёд лопается, ключ уносится по жёлобу, и Рыжик в прыжке ловит его у самой решётки.
 
-**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
-
-**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
@@ -3830,15 +3756,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем. Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
 
 **Что происходит:** Коты сходят с корабля на плавучий космопорт. Волна перекрывает дорогу; они пережидают удар за ограждением и рывком добираются до входа.
 
-**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
-
-**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
@@ -4031,15 +3953,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Контекст использования:** Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались. Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем. Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
 
 **Что происходит:** В музее миниатюрная чёрная дыра притягивает буклеты. Рыжик пытается нажать кнопку, а Лучик удерживает защитный рычаг, пока экспонат не успокоится.
 
-**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
-
-**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
@@ -4225,15 +4143,11 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 <!-- scene-meta: {"target_engine":"Seedance 2.5","production_state":"RESULT_RECEIVED","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["event_opening","owner_requested","two_engine_versions","reference_first","result_received","awaiting_owner_review","owner_paid_exception_20261029"]} -->
 
-**Результат получен:** по прямому разрешению владельца 29.10.2026 выполнен один платный запуск Seedance 2.5, 30 с, 720p, 16:9 на доске «Котмонавты» — 36 кредитов. Topview: success; художественная приёмка ожидается. [Квитанция](projects/kotmonavty/reports/KM22-SEED25-30-20261029.json).
+**Контекст использования:** по прямому разрешению владельца 29.10.2026 выполнен один платный запуск Seedance 2.5, 30 с, 720p, 16:9 на доске «Котмонавты» — 36 кредитов. Topview: success; художественная приёмка ожидается. [Квитанция](projects/kotmonavty/reports/KM22-SEED25-30-20261029.json). Событийная начальная заставка сериала: самостоятельный монтаж мира и героев; графическая заставка сохранена отдельно. Полный 30-секундный результат Seedance 2.5 получен. Девять входов и полный отправленный промпт сверены с каноном. Альтернативные части Seedance 2.0 не запускались: их часть 2 по-прежнему требует результат соответствующей части 1. Технический success не является художественной приёмкой; повтор не разрешён.
 
 **Что происходит:** Штаб выдаёт маршрут → коты бегут на корабль → подводный рынок встречает их гигантской рыбой → галактический совет принимает случайный голос → живой сад открывает дорогу → название сериала. Это регулярная заставка мира и героев.
 
-**Готовность:** Полный 30-секундный результат Seedance 2.5 получен. Девять входов и полный отправленный промпт сверены с каноном. Альтернативные части Seedance 2.0 не запускались: их часть 2 по-прежнему требует результат соответствующей части 1. Технический success не является художественной приёмкой; повтор не разрешён.
-
-**Назначение:** Событийная начальная заставка сериала: самостоятельный монтаж мира и героев; графическая заставка сохранена отдельно.
-
-**Входные изображения и их роли:**
+**Референсы:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Лучик — исходная идентичность" loading="lazy"></a><figcaption>@Image1 — Лучик — исходная идентичность</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Рыжик — исходная идентичность" loading="lazy"></a><figcaption>@Image2 — Рыжик — исходная идентичность</figcaption></figure>
