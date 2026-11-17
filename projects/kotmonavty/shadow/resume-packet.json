@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "kotmonavty",
   "project_name": "Котмонавты",
-  "checked_at": "2026-11-17T20:43:46+00:00",
-  "source_head": "42e6c565fa090fef31d2026bc3bcca2eda419eda",
-  "source_fingerprint": "6adddc00874806b9b19a1a757092be11decb6ac2a868b320e2c4a7089e0394a8",
+  "checked_at": "2026-11-17T20:49:41+00:00",
+  "source_head": "e9e5b3d55a09097b273a428498c75178c02c2597",
+  "source_fingerprint": "ab89b6fb43237bbe6b237725c36911c94bc18822dbf230e5c9c4cf1d10a7fdda",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -190,7 +190,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "80e6ec227050579e571904055dc1d338dc072a14e901c0998d284e1804c565b5",
+      "sha256": "b987bf83723e378d290d700d76a5b45a59ac5679fd03eb90e179de7c41bdec28",
       "bytes": 29587
     },
     {
@@ -215,7 +215,7 @@
     },
     {
       "file": "projects/kotmonavty/project-status.json",
-      "sha256": "c95b83b6b1538059bb8fa9b22c1631a721cc78d84805e12d4345ef99fe82d56a",
+      "sha256": "fb71be12348c8305abc2ce560b1327fb74ee7f490dbf3a8e04c6a650bf18579a",
       "bytes": 17154
     },
     {
@@ -240,8 +240,8 @@
     },
     {
       "file": "projects/kotmonavty/video-prompts.md",
-      "sha256": "59d21fb29cf7c430eafefe6322f571f6c381e91ef2dffe98b3eed66cf6757ba4",
-      "bytes": 440524
+      "sha256": "e34b1a9cbdeeafcc3b2a7006e899581b08f5583533e17b350075c7c23dcaf1d8",
+      "bytes": 439435
     },
     {
       "file": "projects/kotmonavty/work-resume-register.json",
@@ -260,13 +260,13 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "fe534646986bbf2a16ba276ef58628caab27792cd4f5f6c436df01037a1c61ee",
+      "sha256": "19cb905b14106a6ca6dc9a4f55afa8e9eed8c3561728a68163e403e2a1e09b2c",
       "bytes": 32407
     },
     {
       "file": "video-prompts.md",
-      "sha256": "6a5fb341ef6cb375e93750ab4246789fe4590b447b558a243f3ed2435787f76a",
-      "bytes": 1985808
+      "sha256": "94d96ad868a8fdd298d5c22ae1318f04d524ec05100bf67be1f227564bda6eed",
+      "bytes": 1989594
     }
   ],
   "packet_bytes": 6925

@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-17T20:33:40+00:00",
-  "source_head": "9b66129e44ef9b55f529af78630d80808b3e2c29",
-  "source_fingerprint": "04b4315774a102086672b55c3f11cdeccd74ca99b32e15d01cf345ff277fb172",
+  "checked_at": "2026-11-17T20:49:41+00:00",
+  "source_head": "e9e5b3d55a09097b273a428498c75178c02c2597",
+  "source_fingerprint": "2f84d236c88f4fb864143117f31302d00b7b5c932c03fcfacc457fccabd477aa",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -222,7 +222,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "80e6ec227050579e571904055dc1d338dc072a14e901c0998d284e1804c565b5",
+      "sha256": "b987bf83723e378d290d700d76a5b45a59ac5679fd03eb90e179de7c41bdec28",
       "bytes": 29587
     },
     {
@@ -252,8 +252,8 @@
     },
     {
       "file": "projects/raznoe/project-status.json",
-      "sha256": "8ef3d7bc41ca9d4cba703956af660f473269b9db1e78d7db13685cf179b418df",
-      "bytes": 10692
+      "sha256": "49f0c2fa0f8b12d4b5a0fc3768829965185e77b3c701505a773c940d31f58c2c",
+      "bytes": 10690
     },
     {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
@@ -277,8 +277,8 @@
     },
     {
       "file": "projects/raznoe/video-prompts.md",
-      "sha256": "d3c078906919e69f5ea32987b6ef80ece8eedce0c99087ef78343f293507e51a",
-      "bytes": 722105
+      "sha256": "2b84b5caf1d561e8f4000595f8724f1110d36c0f9565676cc1b89ec586c39436",
+      "bytes": 722179
     },
     {
       "file": "projects/raznoe/work-resume-register.json",
@@ -292,13 +292,13 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "fe534646986bbf2a16ba276ef58628caab27792cd4f5f6c436df01037a1c61ee",
+      "sha256": "19cb905b14106a6ca6dc9a4f55afa8e9eed8c3561728a68163e403e2a1e09b2c",
       "bytes": 32407
     },
     {
       "file": "video-prompts.md",
-      "sha256": "6a5fb341ef6cb375e93750ab4246789fe4590b447b558a243f3ed2435787f76a",
-      "bytes": 1985808
+      "sha256": "94d96ad868a8fdd298d5c22ae1318f04d524ec05100bf67be1f227564bda6eed",
+      "bytes": 1989594
     }
   ],
   "packet_bytes": 6293
