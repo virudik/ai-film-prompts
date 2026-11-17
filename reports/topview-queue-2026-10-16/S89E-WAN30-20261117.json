@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "item_id": "S89E-WAN30",
+  "task_id": "9d4b3b177e6d452abe499537a05f454c",
+  "checked_at": "2026-11-17T17:57:21.876101Z",
+  "submitted_at": "2026-11-17T17:56:10Z",
+  "automation_id": "6afc8b674794819192ba0b1415c5a220",
+  "execution_instance_id": "2fb86b90-859c-49ad-ae78-148f2a99e863",
+  "route_generation": 5,
+  "outcome": "submitted",
+  "new_submissions": 1,
+  "credits_spent": 0,
+  "normalized_prompt_match": true,
+  "input_order_sha_verified_before_upload": true,
+  "provider_task": {
+    "boardTaskId": "9d4b3b177e6d452abe499537a05f454c",
+    "boardId": "1a6244cf1ae747ef847d949a80d6133c",
+    "sortWeight": 789,
+    "uid": "FGlyiGi4FG26kZmpCiUH",
+    "userName": "Виталик Рудик",
+    "toolType": "video-edit",
+    "toolCategory": "video",
+    "status": "init",
+    "mediaType": "video",
+    "rating": 0,
+    "parameters": {
+      "taskType": "videoEdit",
+      "modelId": "qwen-wan3.0-video",
+      "modelName": "Wan 3.0",
+      "resolution": 720,
+      "duration": 30,
+      "inputImages": [
+        {
+          "inputImageResourceId": null,
+          "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/vVKLsKWIPSHX3e08rVGkl.jpg",
+          "inputImageUrl": null,
+          "projectAssetId": null,
+          "name": "Image1"
+        },
+        {
+          "inputImageResourceId": null,
+          "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/nQHsw14Om3etHlSLYws8N.png",
+          "inputImageUrl": null,
+          "projectAssetId": null,
+          "name": "Image2"
+        },
+        {
+          "inputImageResourceId": null,
+          "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/sMXX7VLLU7t1S3cGhU0Vi.png",
+          "inputImageUrl": null,
+          "projectAssetId": null,
+          "name": "Image3"
+        },
+        {
+          "inputImageResourceId": null,
+          "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/h5UdqfRQrKE6e6d7n9aqg.jpg",
+          "inputImageUrl": null,
+          "projectAssetId": null,
+          "name": "Image4"
+        },
+        {
+          "inputImageResourceId": null,
+          "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/F0V9bewrO8lMBhO9b4tVX.jpg",
+          "inputImageUrl": null,
+          "projectAssetId": null,
+          "name": "Image5"
+        }
+      ],
+      "imageMode": "multiImage",
+      "positivePrompt": "Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Wan 3.0 / Seedance 2.5 | Photoreal balcony dialogue, Pasha on vacation\n\nREFERENCES / AUTHORITY ORDER:\n<<<Image1>>>  = references/scenes/scene-89/89E/Image1.jpg — Coruscant balcony, two armchairs, beer. Original slot Image1 of task 76fab545.\n<<<Image2>>>  = references/scenes/scene-89/shared/pasha-scene.png — PASHA, clean-shaven, dark-blue tunic, the only speaker. Original slot Image2. Shared with 89D.\n<<<Image3>>>  = references/scenes/scene-89/shared/sasha-scene.png — SASHA, beard and glasses, the listener. Original slot Image3. In the line he is Александрус. Shared with 89D.\n<<<Image4>>>  = references/full/pasha.jpg — current face sheet of Pasha. Identity only.\n<<<Image5>>>  = references/full/sasha.jpg — current face sheet of Sasha. Identity only.\nOrder is fixed. The 15s and 30s versions of this sub-scene use this same order and these same files.\nAttached images are the only visual authority for this generation. If a sentence conflicts with an attached image, follow the image. Do not invent extra reference slots.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\nPASHA (<<<Image2>>> ): clean-shaven adult man in a dark-blue Jedi tunic, brown belt, dark trousers, tall boots, as in the attached image. Beer mug in his hand. He alone speaks.\nOTHER JEDI (<<<Image3>>> ): whoever is in that image, seated in the second armchair, drinking, not speaking. Александрус is a name in the line, not a third person to invent and not a licence to replace <<<Image3>>> .\nExactly two people.\n\nLIP SYNC / WHO SPEAKS:\nPASHA is the only speaker. His lips form the Russian words and then close.\nSASHA keeps his mouth closed. No gibberish, no extra syllables, no English, no second voice.\n\nSTART STATE:\nWide balcony. Two armchairs, two beers, Coruscant beyond the rail. Neither man is speaking yet.\n\nSTORY FLOW:\n0–8s — SETUP. They sit back with the mugs. City lanes drift past the towers. Pasha looks out, then across at the other Jedi, as if the idea has just become a plan. No line yet.\n8–18s — DEVELOPMENT. PASHA: «Мы с Александрусом полетим на Набу на рыбалку.» He is cheerful, not announcing a mission. «Там сейчас нерест рыбы бум-бум.» On «бум-бум» his free hand makes one small bounce. The other Jedi listens.\n18–26s — PAYOFF. «И у меня вообще отпуск с завтрашнего дня.» He settles deeper into the chair, pleased with himself. The other man raises his eyebrows and does not speak.\n26–30s — They stay with the beer. Pasha takes a sip after the line, still satisfied. The vacation is the point, not a new action.\n\nEND STATE:\nPasha has finished the thought and is drinking. The other Jedi has not replied. The city is still moving.\n\nCAMERA / PERFORMANCE:\nStart wider than the 15-second version, then come in to Pasha's face for the spawn line and the vacation, then ease back to both chairs. One continuous conversation, not three frozen posters.\n\nAUDIO:\nNative Russian, Pasha only, accurate lip-sync. The listener stays silent. Balcony wind under the voice. No music.\n\nNEGATIVE:\nno extra people, no swapped faces, no duplicated hero, no child, no subtitles, no logos, no watermark, no lightsaber ignition, no cartoon, no collage, no freeze-frame slideshow. No fishing rod, no boat, no cut to Naboo, no second speaker.\n\nFRAME FILL / NO BARS:\nFull 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.",
+      "aspectRatio": "16:9",
+      "source": "board",
+      "sound": "on",
+      "boardTaskId": "9d4b3b177e6d452abe499537a05f454c",
+      "useUnlimitMode": true,
+      "internetSearch": false,
+      "autoVideoUpscale": false,
+      "skipCreditConsume": false
+    },
+    "creditsCost": 0,
+    "creditsPayerUid": "FGlyiGi4FG26kZmpCiUH",
+    "creditsPayerName": "Виталик Рудик",
+    "gmtCreate": "2026-11-17 17:56:10",
+    "gmtModify": "2026-11-17 17:56:11",
+    "isPinned": false,
+    "groupIds": [
+      "879d0ea65b834d3c8a877f995e597f41"
+    ],
+    "unresolvedCount": 0,
+    "useUnlimitMode": true,
+    "estimateInfo": {
+      "queueCount": 4218,
+      "estimatedWaitSeconds": 197091,
+      "estimatedProcessSeconds": null
+    }
+  },
+  "create_clicks": 1,
+  "claim_commit": "a179f99280b3dd4e024203dcda73d49069c33e8b",
+  "intent_commit": "89edb379de1917de932359316a9082b50b6a2852",
+  "verify_main": "450d19a488e68f93c281dfdbcb6c21bad04a013b",
+  "artistic_approval": false
+}
