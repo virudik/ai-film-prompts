@@ -210,23 +210,23 @@
       "result:bfdb6d9fad7a4ab29492f7bb95c78033"
     ],
     "robot_rewake": {
-      "episode": "09b02477",
+      "episode": "2f83982f",
       "count": 1,
-      "last_at": "2026-11-18T15:20:38Z",
-      "sequence": 74,
-      "first_at": "2026-11-18T15:20:38Z",
-      "last_event_id": "slots:09b02477:74",
+      "last_at": "2026-11-18T21:40:35Z",
+      "sequence": 75,
+      "first_at": "2026-11-18T21:40:35Z",
+      "last_event_id": "slots:2f83982f:75",
       "silence_reported": "slots:d23cf217:2"
     },
     "robot_dispatch": {
-      "episode": "09b02477",
-      "event_id": "slots:09b02477:74",
+      "episode": "2f83982f",
+      "event_id": "slots:2f83982f:75",
       "target": "primary",
       "actor": "dot",
       "primary_actor": "dot",
       "backup_actor": "grok",
       "reason": "new_episode",
-      "attempted_at": "2026-11-18T15:20:38Z"
+      "attempted_at": "2026-11-18T21:40:35Z"
     }
   },
   "phases": {
@@ -495,6 +495,6 @@
       "02fd85ac5fde408285bc439f15ba8239"
     ],
     "escalation_attempted_episode": "2f83982f",
-    "checked_at": "2026-11-18T20:41:16Z"
+    "checked_at": "2026-11-18T21:40:35Z"
   }
 }
