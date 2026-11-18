@@ -2015,7 +2015,7 @@
       "canonical_prompt_sha256": "4ae5aaefdf42c4cb003eba540a47439dc7657b7f4b24f8b4ed9cd1b6524254ab",
       "normalized_prompt_sha256": "a20f0559fa71be25af94d2df1aa1e5f3d98be7cf9753a9f8a6f7b601a0afb82c",
       "priority": 0.308,
-      "state": "claimed",
+      "state": "submitting",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -2161,7 +2161,11 @@
             "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a"
           ]
         },
-        "coordination_version": 2
+        "coordination_version": 2,
+        "submission_intent_id": "27e39193-648e-4966-8ee1-9369bba4f869",
+        "submission_intent_at": "2026-11-18T15:55:21Z",
+        "replay_forbidden": true,
+        "intent_payload_sha256": "9000eefcdc336a6b33ec385a0d6d54715744dd0cfbe422d4fb4df0741ce14075"
       },
       "rerender_of_item_id": "S28-A1-TEST-20261017",
       "rerender_of_task_id": "4b7b972870a44dfbb29bd6c5e330a633",
