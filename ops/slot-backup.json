@@ -5,7 +5,7 @@
   "enabled": true,
   "transport": "scheduled_poll",
   "active_automation_id": "6afc8b674794819192ba0b1415c5a220",
-  "route_generation": 6,
+  "route_generation": 7,
   "relay_identity": "chatgpt-slot-backup",
   "relay_address": "chatgpt-slot-backup@cloud-242278071146024960",
   "relay_subscription_required": false,
@@ -114,15 +114,36 @@
       "route_generation": 6,
       "evidence": "reports/topview-queue-2026-10-16/S89E-WAN30-20261117.json",
       "unchanged": "Work/Grok/Relay permissions, schedules and preferred executor; queue/history/retry untouched."
+    },
+    {
+      "at": "2026-11-18T03:55:50.621Z",
+      "previous_route_generation": 6,
+      "previous_active_automation_id": "6afc8b674794819192ba0b1415c5a220",
+      "previous_preferred_executor": "work",
+      "retired_automation_id": "6af9b2a7212081919b191786c483ad13",
+      "registered_automation_id": "6afd1f83b1b08191b4b7c8ad55c132cf",
+      "surface": "ordinary",
+      "change": "replace_superseded_relay_handler_only_preserve_hourly_and_roles",
+      "reason": "Owner requested automatic GrokBot reception. Unified relay.message subscription receives robot and Grok in separate guarded branches. Verified actual enabled ID/root thread and genuine read-only robot webhook wake at 2026-11-18T03:52:47Z, sender metadata/issue #788, separate started and completed ACKs. No Topview, claim, intent, Create or paid action. Superseded Relay ID retired; hourly pointer, Work/Grok and all roles preserved.",
+      "evidence": {
+        "test_id": "dot-unified-relay-20261118-0351",
+        "relay_event_id": "evt_9ff225ceb8b87e89c3acacfa9f0cb131",
+        "started_ack_commit": "e86b304d1a63c2ae60ff7fad0a3c6a3f35d28f85",
+        "completed_ack_commit": "f84f0123ec90818fc62ff4c983095ca183837eda",
+        "automation_context_version": "41dcd112678dd7a4d9fc3ebe963f5380afd4edd1c00a9deb073040d76d88fce2",
+        "active_subscription": "sub_8deff7f61ca0044e1eb23054f7f1e673",
+        "launcher_tests_passed": 112,
+        "instruction_consistency_tests_passed": 5
+      }
     }
   ],
   "preferred_executor": "work",
   "applied_owner_request_id": "owner-20261031-ordinary-primary",
-  "updated_at": "2026-11-17T18:02:08.014656Z",
+  "updated_at": "2026-11-18T03:55:50.621Z",
   "reserve_automation_ids": [
     "6afc8b674794819192ba0b1415c5a220",
     "topview-grok",
-    "6af9b2a7212081919b191786c483ad13"
+    "6afd1f83b1b08191b4b7c8ad55c132cf"
   ],
   "coordination_rules": "ops/LAUNCHER-COORDINATION.md",
   "coordination_guard": "scripts/launcher_coordination.py",
@@ -156,7 +177,7 @@
       "enabled": true,
       "automation_ids": [
         "6afc8b674794819192ba0b1415c5a220",
-        "6af9b2a7212081919b191786c483ad13"
+        "6afd1f83b1b08191b4b7c8ad55c132cf"
       ],
       "receipt": "reports/topview-slot-backup-cycle.json",
       "handoff_to_work_allowed": false

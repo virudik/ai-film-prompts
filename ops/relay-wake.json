@@ -10,7 +10,7 @@
   "site_alert_address": "GrokBot@cloud-242545579433959424",
   "site_alert_note": "Legacy direct Grok route remains active. V2 Dot-primary routing is disabled until genuine handler integration and separate activation approval.",
   "secret": "AGENT_RELAY_TOKEN (GitHub Actions secret; Agent Relay agent token of the robot identity, at_live_*)",
-  "handler_automation_id": "6af9b2a7212081919b191786c483ad13",
+  "handler_automation_id": "6afd1f83b1b08191b4b7c8ad55c132cf",
   "rules": "ops/TOPVIEW-EVENT-WAKE.md",
   "note": "One DM per robot cycle with a confirmed free slot, after the GitHub issue TOPVIEW_SLOT_WAKE_V2 is created. No token = no-op. The DM is a wake-up signal, not permission.",
   "sender_agent_id": "240204876611608576",
