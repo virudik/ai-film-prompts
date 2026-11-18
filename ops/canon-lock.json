@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:work:e19ddb18-729a-4474-b41f-974d1a832a4f",
   "task": "PR804: reviewed handoff archive and HONOR test boundaries; no generation",
   "acquired_at": "2026-11-18T17:34:46.185Z",
-  "expires_at": "2026-11-18T17:49:46.185Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-18T17:35:19.819Z",
   "rules": "ops/CANON-LOCK.md"
 }
