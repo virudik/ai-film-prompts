@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-18T16:08:08+00:00",
-  "source_head": "e946485b923a75c40ed504bfaf03412b28220736",
-  "source_fingerprint": "11e359c3682dddf4c8f957ab15342571f4c0eb362322fcbe011d084a739f4b15",
+  "checked_at": "2026-11-18T16:40:24+00:00",
+  "source_head": "90b3cd566d4e713309da4d5ace5a17ec4e063c8b",
+  "source_fingerprint": "56735551102b054cef5a68517401e6f6bd2866ea4c1f10a6df82d7d38eb71fb7",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -550,21 +550,21 @@
     ],
     "next_candidates": [
       {
+        "item_id": "S89F-WAN30",
+        "state": "waiting_for_slot",
+        "task_id": null,
+        "recovery_action": "fresh_launch_preflight_required",
+        "submit_authorized": false
+      },
+      {
+        "item_id": "S89G-WAN30",
+        "state": "waiting_for_slot",
+        "task_id": null,
+        "recovery_action": "fresh_launch_preflight_required",
+        "submit_authorized": false
+      },
+      {
         "item_id": "S28-A2-R2-20261025",
-        "state": "waiting_for_slot",
-        "task_id": null,
-        "recovery_action": "fresh_launch_preflight_required",
-        "submit_authorized": false
-      },
-      {
-        "item_id": "S28-A4-20261023",
-        "state": "waiting_for_slot",
-        "task_id": null,
-        "recovery_action": "fresh_launch_preflight_required",
-        "submit_authorized": false
-      },
-      {
-        "item_id": "S28-A5-20261023",
         "state": "waiting_for_slot",
         "task_id": null,
         "recovery_action": "fresh_launch_preflight_required",
@@ -626,8 +626,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "0a0b8b5d0a15f778441e8a5c6af2ff56ec4aff18389a2f531d45dda11356d0ce",
-      "bytes": 251256
+      "sha256": "15f8cbf8a774a9988aa146d3ea9b21c824fd312e31c7fab2a5777677f6abc1f6",
+      "bytes": 250901
     },
     {
       "file": "project-status.json",
