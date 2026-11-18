@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "enabled": true,
+  "enabled": false,
   "channel": "relay",
   "test_id": "dot-unified-relay-20261118-0351",
   "read_only": true,
@@ -19,5 +19,7 @@
     "test_id": "dot-ack-contract-20261115-2204",
     "completed_at": "2026-11-15T22:13:19.985Z",
     "result": "Actual webhook received; separate started ACK commit/readback then read_only_test_complete; no generation."
-  }
+  },
+  "completed_at": "2026-11-18T03:54:50.990Z",
+  "result": "Genuine unified webhook reached root; delegated sender/issue verification and separate started/completed test ACKs; no Topview or Create."
 }

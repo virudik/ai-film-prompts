@@ -2108,9 +2108,9 @@
       "issue_number": 788,
       "message_id": "248656420749209600",
       "relay_event_id": "evt_9ff225ceb8b87e89c3acacfa9f0cb131",
-      "checked_at": "2026-11-18T03:54:30.793Z",
-      "outcome": "started",
-      "retryable": true,
+      "checked_at": "2026-11-18T03:54:50.990Z",
+      "outcome": "read_only_test_complete",
+      "retryable": false,
       "task_ids": [],
       "source": "dot Agent Relay webhook; genuine root wake delegated verification",
       "runner": "dot_event_handler",
@@ -2119,15 +2119,27 @@
       "run_id": null,
       "run_id_unavailable_reason": "not exposed",
       "execution": {
-        "state": "started",
-        "stage": "intake",
+        "state": "read_only_test_complete",
+        "stage": "complete",
         "started_at": "2026-11-18T03:52:47Z",
         "started_at_source": "genuine root webhook wake reported by root",
-        "updated_at": "2026-11-18T03:54:30.793Z",
-        "execution_instance_id": "e16b9dbb-8877-4eb3-a154-042719ee914e"
+        "updated_at": "2026-11-18T03:54:50.990Z",
+        "execution_instance_id": "e16b9dbb-8877-4eb3-a154-042719ee914e",
+        "completed_at": "2026-11-18T03:54:50.990Z"
       },
       "new_submissions": 0,
-      "credits_spent": 0
+      "credits_spent": 0,
+      "started_ack_commit": "e86b304d1a63c2ae60ff7fad0a3c6a3f35d28f85",
+      "verification": {
+        "sender_metadata_matches_config": true,
+        "issue_bot_author_verified": true,
+        "issue_label_and_test_id_verified": true,
+        "configuration_read_only": true,
+        "root_webhook_wake_observed": true,
+        "topview_accessed": false,
+        "claim_intent_create": false,
+        "production_launch_proven": false
+      }
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
