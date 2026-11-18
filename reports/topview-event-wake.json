@@ -2146,9 +2146,9 @@
       "issue_number": 802,
       "message_id": "248829805329379328",
       "relay_event_id": "evt_31906bfab705a43d78de688b8e3ef69d",
-      "checked_at": "2026-11-18T15:30:34.745Z",
+      "checked_at": "2026-11-18T15:36:51.079Z",
       "outcome": "started",
-      "reason": "Verified exact registered sender agent ID, bot issue and permitted handler; acquired own lease and read back",
+      "reason": "UI accessible and authenticated; S89D-R2 full prompt exact and all three reference SHA verified; Wan3 30s720p16:9x1 selected Unlimited free. Await fresh scan for claim",
       "task_ids": [],
       "retryable": true,
       "actor": "dot",
@@ -2158,9 +2158,9 @@
       "run_id_unavailable_reason": "Platform runtime ID not exposed to delegated handler",
       "execution": {
         "state": "started",
-        "stage": "intake",
+        "stage": "browser_preflight",
         "started_at": "2026-11-18T15:30:34.745Z",
-        "updated_at": "2026-11-18T15:30:34.745Z"
+        "updated_at": "2026-11-18T15:36:51.079Z"
       }
     }
   ],
