@@ -35,6 +35,46 @@ STALE_PHRASES = (
 )
 
 
+def dot_current_task_gap(root):
+    """Name Dot's current ordinary tasks without treating that as a live check.
+
+    The automation snapshot still accepts only the previous Work pair. Reading
+    the canon IDs makes the omission explicit; it does not prove prompt,
+    enabled, schedule or subscription, and it does not change those routes.
+    """
+    root = Path(root)
+    ids = []
+    sources = []
+    slot_path = root / 'ops/slot-backup.json'
+    if slot_path.is_file():
+        slot = json.loads(slot_path.read_text(encoding='utf-8'))
+        ordinary = slot.get('peers', {}).get('ordinary', {}).get('automation_ids') or []
+        for item in ordinary:
+            if item and item not in ids:
+                ids.append(item)
+        active = slot.get('active_automation_id')
+        if active and active not in ids:
+            ids.append(active)
+        sources.append('ops/slot-backup.json')
+    wake_path = root / 'ops/relay-wake.json'
+    if wake_path.is_file():
+        handler = json.loads(wake_path.read_text(encoding='utf-8')).get('handler_automation_id')
+        if handler and handler not in ids:
+            ids.append(handler)
+        sources.append('ops/relay-wake.json')
+    return {
+        'status': 'not_checked',
+        'ids': ids,
+        'sources': sources,
+        'reason': (
+            'Live prompt, enabled flag, schedule and Relay subscription of Dot current '
+            'ordinary tasks are outside this script. The checked automation set is still '
+            'only the previous Work pair. IDs below are read from canon so the gap names '
+            'the actual tasks; not_checked is not a pass and does not change routes.'
+        ),
+    }
+
+
 def stale_phrases(root):
     root = Path(root)
     found = []
@@ -120,7 +160,8 @@ def check(root, snapshot=None, now=None):
     problems.extend(stale_phrases(root))
     return {'schema_version': 1, 'checked_at': now.isoformat(), 'status': 'warn' if problems else 'ok',
             'scope': 'Selected consistency invariants only; full semantic review and runtime success are separate.',
-            'live_automations': live_status, 'automation_observations': observations, 'problems': problems}
+            'live_automations': live_status, 'automation_observations': observations,
+            'dot_current_tasks': dot_current_task_gap(root), 'problems': problems}
 
 
 def main():

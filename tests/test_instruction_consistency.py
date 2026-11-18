@@ -79,6 +79,31 @@ class InstructionConsistencyTests(unittest.TestCase):
     def test_live_files_do_not_restore_replaced_decisions(self):
         self.assertEqual(ci.stale_phrases(ROOT), [])
 
+    def test_dot_current_tasks_stay_named_and_unchecked(self):
+        gap = ci.check(ROOT, now=self.now)['dot_current_tasks']
+        self.assertEqual(gap['status'], 'not_checked')
+        self.assertEqual(gap['ids'], [
+            '6afc8b674794819192ba0b1415c5a220',
+            '6afd1f83b1b08191b4b7c8ad55c132cf',
+        ])
+        doc = (ROOT / 'ops/AUTOMATION-CONSISTENCY.md').read_text(encoding='utf-8')
+        self.assertIn('dot_current_tasks.status=not_checked', doc)
+        for task_id in gap['ids']:
+            self.assertIn(task_id, doc)
+        sandbox = ci.check(self.root, self.snapshot(), self.now)
+        self.assertEqual(sandbox['dot_current_tasks']['status'], 'not_checked')
+        self.assertEqual(sandbox['dot_current_tasks']['ids'], [])
+        self.assertNotIn('dot-current-tasks', sandbox['problems'])
+        snapshot = self.snapshot()
+        snapshot['automations'].append({
+            'id': '6afd1f83b1b08191b4b7c8ad55c132cf', 'is_enabled': True,
+            'schedule': 'BEGIN:VEVENT\nX-UNSCHEDULED:1\nEND:VEVENT',
+            'prompt': 'ops/OWNER-TASKS.md; строго больше 3 часов; только Claude',
+        })
+        extra = ci.check(self.root, snapshot, self.now)
+        self.assertIn('automation-set', extra['problems'])
+        self.assertEqual(extra['dot_current_tasks']['status'], 'not_checked')
+
     def test_stale_observation_and_changed_canonical_bytes_are_detected(self):
         snapshot = self.snapshot(); snapshot['checked_at'] = (self.now - timedelta(hours=2)).isoformat()
         (self.root / cg.FILES[0]).write_text('new instructions')
