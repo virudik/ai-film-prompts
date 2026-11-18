@@ -6325,7 +6325,7 @@ NEGATIVE / FRAME FILL:
 
 </div>
 
-<div class="engine-pane" data-engine="sd20x2">
+<div class="engine-pane" data-engine="sd20">
 
 #### 6 · Вариант A · 15 роликов по 15 с
 
