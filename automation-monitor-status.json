@@ -481,20 +481,18 @@
     "reconciliation_items": [
       "S89D-WAN30-R2"
     ],
-    "last_event_id": "slots:09b02477:74",
-    "receipt_present": true,
-    "handler_outcome": "submitted",
-    "execution_stage": "submitted_postscan_complete",
-    "execution_updated_at": "2026-11-18T16:01:10.667923+00:00",
+    "last_event_id": "slots:2f83982f:75",
+    "receipt_present": false,
+    "handler_outcome": null,
+    "execution_stage": null,
+    "execution_updated_at": null,
     "runtime_run_id": null,
-    "confirmed_launch_task_ids": [
-      "02fd85ac5fde408285bc439f15ba8239"
-    ],
+    "confirmed_launch_task_ids": [],
     "last_confirmed_event_id": "slots:09b02477:74",
     "last_confirmed_launch_task_ids": [
       "02fd85ac5fde408285bc439f15ba8239"
     ],
     "escalation_attempted_episode": "2f83982f",
-    "checked_at": "2026-11-18T21:40:35Z"
+    "checked_at": "2026-11-18T21:50:31Z"
   }
 }
