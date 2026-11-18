@@ -7,20 +7,20 @@
   "automation_context_version": "a3ee12acd936406cbd4e23c8adab7fb9f827da78a17acf064254fb0929be9403",
   "run_id": null,
   "run_id_unavailable_reason": "Not exposed in delegated actual scheduled wake or automations.get",
-  "execution_instance_id": "8410c246-5f74-4988-bf21-4ff4adc52d9b",
+  "execution_instance_id": "b682591c-5bf3-4025-b9c0-ac9784b8af79",
   "route_generation": 6,
-  "source_head": "0dcfddb353e9d07d28f06f764df79a72144a6609",
+  "source_head": "1c260c991583e713359904e2fc9843932af4acf9",
   "actual_trigger": "scheduled",
-  "started_at": "2026-11-18T00:00:00.331999+00:00",
-  "updated_at": "2026-11-18T00:01:15.191Z",
-  "completed_at": "2026-11-18T00:01:15.191Z",
+  "started_at": "2026-11-18T01:04:35.087830+00:00",
+  "updated_at": "2026-11-18T01:05:08.163Z",
+  "completed_at": "2026-11-18T01:05:08.163Z",
   "phase": "completed",
   "outcome": "no_update_all_slots_occupied",
   "browser_transport": "dot_own_browser",
   "browser_used": false,
   "scan": {
     "complete": true,
-    "checked_at": "2026-11-17T23:59:40.348Z",
+    "checked_at": "2026-11-18T01:04:16.674Z",
     "boards_listed": 14,
     "pages_scanned": 21,
     "tasks_scanned": 1063,
@@ -50,17 +50,17 @@
   "next_action_unchanged": true,
   "browser_not_used_reason": "Full account-wide read-only scan verified 6/6 active; no UI preflight/Create needed",
   "lease": {
-    "holder": "chatgpt:ordinary:8410c246-5f74-4988-bf21-4ff4adc52d9b",
-    "acquired_at": "2026-11-18T00:00:00.331999+00:00",
-    "acquisition_commit": "20f6957c88a2de2e2a68c79408d53977dcaa102a",
+    "holder": "chatgpt:ordinary:b682591c-5bf3-4025-b9c0-ac9784b8af79",
+    "acquired_at": "2026-11-18T01:04:35.087830+00:00",
+    "acquisition_commit": "d58f26a63e61f829c723cc13d5334dc9dd0a0412",
     "verified_start_readback": true,
-    "released_at": "2026-11-18T00:01:15.191Z",
+    "released_at": "2026-11-18T01:05:08.163Z",
     "release_state": "released_in_same_CAS_as_final_receipt"
   },
   "execution": {
     "state": "completed",
     "stage": "capacity_checked_no_create",
-    "updated_at": "2026-11-18T00:01:15.191Z",
-    "completed_at": "2026-11-18T00:01:15.191Z"
+    "updated_at": "2026-11-18T01:05:08.163Z",
+    "completed_at": "2026-11-18T01:05:08.163Z"
   }
 }
