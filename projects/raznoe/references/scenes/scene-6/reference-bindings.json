@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "project": "raznoe",
+  "scene": 6,
+  "state": "DRAFT",
+  "human_inputs": "awaiting_owner_photos_then_3d_models",
+  "bindings": {
+    "6-B01": [
+      {
+        "slot": "@Image1",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC01-dacha.png",
+        "role": "location_only",
+        "blob_sha": "63820d40786f75697b7c27eb45332f9cfb222789"
+      }
+    ],
+    "6-B02": [
+      {
+        "slot": "@Image1",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png",
+        "role": "location_only",
+        "blob_sha": "fc8bf43316f1aae1f90e071976813800dc3cc6c9"
+      }
+    ],
+    "6-B03": [
+      {
+        "slot": "@Image1",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC06-red-square.png",
+        "role": "location_only",
+        "blob_sha": "bf35a79575de454203d80ace5522c477f2ceda0a"
+      },
+      {
+        "slot": "@Image2",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png",
+        "role": "location_only",
+        "blob_sha": "fc8bf43316f1aae1f90e071976813800dc3cc6c9"
+      }
+    ],
+    "6-B04": [
+      {
+        "slot": "@Image1",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png",
+        "role": "location_only",
+        "blob_sha": "fc8bf43316f1aae1f90e071976813800dc3cc6c9"
+      }
+    ],
+    "6-B05": [
+      {
+        "slot": "@Image1",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC07-azlk.png",
+        "role": "location_only",
+        "blob_sha": "48b5f7b2776883b6b00c212c6700a3de06508f26"
+      }
+    ],
+    "6-B06": [
+      {
+        "slot": "@Image1",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png",
+        "role": "location_only",
+        "blob_sha": "fc8bf43316f1aae1f90e071976813800dc3cc6c9"
+      },
+      {
+        "slot": "@Image2",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC03-kitchen.png",
+        "role": "location_only",
+        "blob_sha": "f5e4966d6f287d7cd3a9866b30a2bfa643d2f135"
+      },
+      {
+        "slot": "@Image3",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC04-bathroom.png",
+        "role": "location_only",
+        "blob_sha": "ba50f401836a95db0bb5c0b003244a978ed2031f"
+      },
+      {
+        "slot": "@Image4",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC05-bedroom.png",
+        "role": "location_only",
+        "blob_sha": "a82fe2077e685f3d74811cd12f14910d9db9dba1"
+      }
+    ],
+    "6-B07": [
+      {
+        "slot": "@Image1",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC08-hospital-corridor.png",
+        "role": "location_only",
+        "blob_sha": "247c619adeac4802429ec47dfb1fb51d19daeb85"
+      },
+      {
+        "slot": "@Image2",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png",
+        "role": "location_only",
+        "blob_sha": "b907d3bc52610811c5ac831c73e09dffa99ca696"
+      }
+    ],
+    "6-B08": [
+      {
+        "slot": "@Image1",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png",
+        "role": "location_only",
+        "blob_sha": "b907d3bc52610811c5ac831c73e09dffa99ca696"
+      }
+    ],
+    "6-B09": [
+      {
+        "slot": "@Image1",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC10-cemetery.png",
+        "role": "location_only",
+        "blob_sha": "981a2792b4c45a857bfe98bb5913e55b14887084"
+      }
+    ],
+    "6-B10": [
+      {
+        "slot": "@Image1",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png",
+        "role": "location_only",
+        "blob_sha": "fc8bf43316f1aae1f90e071976813800dc3cc6c9"
+      }
+    ],
+    "6-A01": [
+      {
+        "slot": "@Image1",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC01-dacha.png",
+        "role": "location_only",
+        "blob_sha": "63820d40786f75697b7c27eb45332f9cfb222789"
+      }
+    ],
+    "6-A02": [
+      {
+        "slot": "@Image1",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC01-dacha.png",
+        "role": "location_only",
+        "blob_sha": "63820d40786f75697b7c27eb45332f9cfb222789"
+      }
+    ],
+    "6-A03": [
+      {
+        "slot": "@Image1",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png",
+        "role": "location_only",
+        "blob_sha": "fc8bf43316f1aae1f90e071976813800dc3cc6c9"
+      }
+    ],
+    "6-A04": [
+      {
+        "slot": "@Image1",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC06-red-square.png",
+        "role": "location_only",
+        "blob_sha": "bf35a79575de454203d80ace5522c477f2ceda0a"
+      }
+    ],
+    "6-A05": [
+      {
+        "slot": "@Image1",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC06-red-square.png",
+        "role": "location_only",
+        "blob_sha": "bf35a79575de454203d80ace5522c477f2ceda0a"
+      },
+      {
+        "slot": "@Image2",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png",
+        "role": "location_only",
+        "blob_sha": "fc8bf43316f1aae1f90e071976813800dc3cc6c9"
+      }
+    ],
+    "6-A06": [
+      {
+        "slot": "@Image1",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png",
+        "role": "location_only",
+        "blob_sha": "fc8bf43316f1aae1f90e071976813800dc3cc6c9"
+      }
+    ],
+    "6-A07": [
+      {
+        "slot": "@Image1",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC07-azlk.png",
+        "role": "location_only",
+        "blob_sha": "48b5f7b2776883b6b00c212c6700a3de06508f26"
+      }
+    ],
+    "6-A08": [
+      {
+        "slot": "@Image1",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png",
+        "role": "location_only",
+        "blob_sha": "fc8bf43316f1aae1f90e071976813800dc3cc6c9"
+      },
+      {
+        "slot": "@Image2",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC03-kitchen.png",
+        "role": "location_only",
+        "blob_sha": "f5e4966d6f287d7cd3a9866b30a2bfa643d2f135"
+      },
+      {
+        "slot": "@Image3",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC04-bathroom.png",
+        "role": "location_only",
+        "blob_sha": "ba50f401836a95db0bb5c0b003244a978ed2031f"
+      },
+      {
+        "slot": "@Image4",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC05-bedroom.png",
+        "role": "location_only",
+        "blob_sha": "a82fe2077e685f3d74811cd12f14910d9db9dba1"
+      }
+    ],
+    "6-A09": [
+      {
+        "slot": "@Image1",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC05-bedroom.png",
+        "role": "location_only",
+        "blob_sha": "a82fe2077e685f3d74811cd12f14910d9db9dba1"
+      }
+    ],
+    "6-A10": [
+      {
+        "slot": "@Image1",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC08-hospital-corridor.png",
+        "role": "location_only",
+        "blob_sha": "247c619adeac4802429ec47dfb1fb51d19daeb85"
+      },
+      {
+        "slot": "@Image2",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png",
+        "role": "location_only",
+        "blob_sha": "b907d3bc52610811c5ac831c73e09dffa99ca696"
+      }
+    ],
+    "6-A11": [
+      {
+        "slot": "@Image1",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png",
+        "role": "location_only",
+        "blob_sha": "b907d3bc52610811c5ac831c73e09dffa99ca696"
+      }
+    ],
+    "6-A12": [
+      {
+        "slot": "@Image1",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png",
+        "role": "location_only",
+        "blob_sha": "b907d3bc52610811c5ac831c73e09dffa99ca696"
+      }
+    ],
+    "6-A13": [
+      {
+        "slot": "@Image1",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png",
+        "role": "location_only",
+        "blob_sha": "b907d3bc52610811c5ac831c73e09dffa99ca696"
+      }
+    ],
+    "6-A14": [
+      {
+        "slot": "@Image1",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC10-cemetery.png",
+        "role": "location_only",
+        "blob_sha": "981a2792b4c45a857bfe98bb5913e55b14887084"
+      }
+    ],
+    "6-A15": [
+      {
+        "slot": "@Image1",
+        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png",
+        "role": "location_only",
+        "blob_sha": "fc8bf43316f1aae1f90e071976813800dc3cc6c9"
+      }
+    ]
+  }
+}

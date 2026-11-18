@@ -33,13 +33,15 @@
     9,
     12
   ],
-  "generations": 0,
   "credits_spent": 0,
   "production_state": "DRAFT",
-  "checked_at": "2026-11-18T16:57:54.902623+00:00",
+  "checked_at": "2026-11-18T17:13:22.500Z",
   "limitations": [
-    "References not supplied",
-    "Episode 06 speech timing unverified",
-    "Not production prompts"
-  ]
+    "Human identity awaiting owner photos, then 3D models",
+    "Speech timing requires recorded test and editorial decision",
+    "Location imagery not owner-approved"
+  ],
+  "image_generations": 10,
+  "video_generations": 0,
+  "prompt_blocks": 25
 }

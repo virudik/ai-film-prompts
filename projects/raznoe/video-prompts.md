@@ -4,13 +4,13 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**18.11.2026 · 6 сцен к генерации/доработке · 68 полных текстов трёх версий; сцена 3 RESOURCE: native-нарезка 19 клипов / 114 с в той же сцене, исходник 2 × 15 с сохранён; шесть попыток v1 лежат в папке Саши и не приняты; в репозиторий ролики не вкладывались; сцены 4 и 5 HONOR сверены по меню, статусам и границам, промпты не переписывались; все сцены DRAFT.**
+**18.11.2026 · 6 сцен к генерации/доработке · 93 полных текстов трёх версий; сцена 3 RESOURCE: native-нарезка 19 клипов / 114 с в той же сцене, исходник 2 × 15 с сохранён; шесть попыток v1 лежат в папке Саши и не приняты; в репозиторий ролики не вкладывались; сцены 4 и 5 HONOR сверены по меню, статусам и границам, промпты не переписывались; все сцены DRAFT.**
 
 - **🛠️ 0** рабочих направлений W.
 - **⏳ 0** сцен сейчас в медленной генерации: **нет**.
 - **Последняя полная синхронизация:** **10.11.2026 · сцены 4–5 HONOR: меню, якоря и статусы сверены; канонических продуктовых PNG нет; заявка конкурса не отправлена; видео не запускалось. Сцена 3 RESOURCE без изменений: native-нарезка 19 клипов / 114 с; исходные вкладки 2 × 15 с сохранены; шесть попыток v1 в папке Саши не приняты.**
 
-**18.11.2026 · сцена 6:** добавлен сценарий Стахия и две монтажные разбивки. 68 прежних production-текстов не менялись; у новой сцены пока сценарные карточки, не готовые промпты. Разрешений на запуск нет.
+**18.11.2026 · сцена 6:** добавлен сценарий Стахия и две монтажные разбивки. 68 прежних текстов не менялись; у новой сцены25 автономных DRAFT-промптов и10 локационных референсов; фото людей ожидаются. Разрешений на запуск нет.
 
 **Референсы · 02.11.2026:** **59/59** сохранены: сцена 1 — **26/26**, сцена 2 — **33/33**. Все `not_approved`, ожидают просмотра владельцем. [Исходное задание](projects/raznoe/references/GPT-TASK.md) · [реестр](projects/raznoe/references/generation-progress.json). **Разрешения на платные видео нет.**
 
@@ -5892,9 +5892,15 @@ No test action, impact, immersion, fake water resistance, fictional result, succ
 
 **Формат:** полный кадр 9:16, без чёрных полос; целевой монтаж 03:08 (188 с). Фотореалистичная сдержанная драма как постановочная реконструкция, не архивная хроника. Тёплое лето → зимняя мечта → тревога → холодная больница → тихая квартира.
 
-**Референсы:** фотографий/утверждённых внешностей героев и локаций в этом файле нет. Персонажей других сцен не подставлять. Нужны отдельные согласованные identity-входы Аркадия, Надежды, Стаса в разных возрастах и дедушки Анатолия, дача, квартира, Красная площадь и больница эпохи, точная модель «Зенита» с электронной подсказкой экспозиции. Сходство и право использовать фотографии уточнить до создания изображений. Внешность, диагноз и номер модели фотоаппарата не выдуманы.
+**Референсы:** 10 отдельных локаций созданы штатным ChatGPT ImageGen по поручению владельца; они ниже и в каждом промпте. Все not_approved, постановочная реконструкция, не реальные архивные фотографии. Фотографий/утверждённых внешностей героев пока нет: владелец пришлёт их позже, после них готовятся 3D-модели. Не рисовать лица заранее. Персонажей других сцен не подставлять. Нужны отдельные согласованные identity-входы Аркадия, Надежды, Стаса в разных возрастах и дедушки Анатолия, дача, квартира, Красная площадь и больница эпохи, точная модель «Зенита» с электронной подсказкой экспозиции. Сходство и право использовать фотографии уточнить до создания изображений. Внешность, диагноз и номер модели фотоаппарата не выдуманы.
 
-**Готовность:** DRAFT / not_approved. Здесь создана сцена и монтажные подсцены, а не готовый к отправке пакет production-промптов. Нет утверждённых референсов, видеохвостов, записанной озвучки, решения о варианте или разрешения запуска. Очередь не менялась. Ни изображения, ни видео не генерировались, кредиты не расходовались. После согласования референсов каждую карточку превратить в самостоятельный промпт по PROMPT-STYLE-GUIDE; не копировать общий синопсис в генератор как готовый клип.
+**Готовность:** DRAFT / not_approved. Созданы сцена, монтажные подсцены и 25 автономных режиссёрских DRAFT-промптов с реальными локационными входами; без фотографий людей это ещё не готовый к отправке пакет. Нет утверждённых референсов, видеохвостов, записанной озвучки, решения о варианте или разрешения запуска. Очередь не менялась. Созданы только 10 разрешённых локационных изображений в ChatGPT; видео не генерировались, Topview/платные кредиты не использовались. После согласования референсов каждую карточку превратить в самостоятельный промпт по PROMPT-STYLE-GUIDE; не копировать общий синопсис в генератор как готовый клип.
+
+### Локации сцены 6
+
+10 отдельных изображений без людей. Кухня, ванная, коридор и палата имеют портретное соотношение сторон, отличное от 9:16: это reference-only входы, не готовые кадры видео; не растягивать. Сама сцена остаётся 9:16. Локации не задают лица или внешность героев.
+
+<div class="scene-ref-gallery"><figure><a href="projects/raznoe/references/scenes/scene-6/S6-LOC01-dacha.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/S6-LOC01-dacha.png" alt="Летняя дача — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Летняя дача · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png" alt="Общая комната квартиры — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Общая комната квартиры · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-6/S6-LOC03-kitchen.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/S6-LOC03-kitchen.png" alt="Кухня вечером — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Кухня вечером · 1052×1494 · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-6/S6-LOC04-bathroom.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/S6-LOC04-bathroom.png" alt="Ванная — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Ванная · 1055×1491 · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-6/S6-LOC05-bedroom.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/S6-LOC05-bedroom.png" alt="Спальня ночью — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Спальня ночью · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-6/S6-LOC06-red-square.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/S6-LOC06-red-square.png" alt="Красная площадь зимой — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Красная площадь зимой · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-6/S6-LOC07-azlk.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/S6-LOC07-azlk.png" alt="Токарный цех — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Токарный цех · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-6/S6-LOC08-hospital-corridor.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/S6-LOC08-hospital-corridor.png" alt="Больничный коридор — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Больничный коридор · 1049×1499 · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png" alt="Больничная палата — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Больничная палата · 1054×1492 · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-6/S6-LOC10-cemetery.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/S6-LOC10-cemetery.png" alt="Кладбище, дальний план — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Кладбище, дальний план · 941×1672 · не одобрено</figcaption></figure></div>
 
 ### Два варианта по количеству роликов
 
@@ -5908,7 +5914,7 @@ No test action, impact, immersion, fake water resistance, fictional result, succ
 
 #### 6 · Вариант B · 10 роликов по 30 с
 
-**Входы:** отдельные реальные согласованные референсы каждого эпизода пока отсутствуют. Для слышимой русской речи предпочтение Wan 3.0; подпись общей вкладки не разрешает перенос в Seedance 2.5. Ни одна карточка пока не READY.
+**Входы:** реальные файлы локаций перечислены у каждого блока; лица и возрастные варианты ожидают фото владельца. Для слышимой русской речи предпочтение Wan 3.0; подпись общей вкладки не разрешает перенос в Seedance 2.5. Ни одна карточка пока не READY.
 
 | Подсцена | Исходный эпизод / время фильма | Использовать | Постановочное действие, звук и монтажный выход |
 |---|---|---:|---|
@@ -5923,13 +5929,408 @@ No test action, impact, immersion, fake water resistance, fictional result, succ
 | 6-B09 | 09. Тишина · 02:47–02:56 | 9 с | Щелчок обрывается, тишина. Дальний план похорон, Надежда и Стас. Голос: «Папе было тридцать. Мне — три». Музыки нет; сохранить паузу и отсутствие натуралистичных подробностей. |
 | 6-B10 | 10. То, что осталось · 02:56–03:08 | 12 с | Надежда ставит «Зенит» у фотографии Аркадия, Стас смотрит. Полный финальный закадровый текст из источника. Чёрный экран и «Продолжение следует…» делать монтажом, не генерировать буквы внутри кадра. |
 
+<a id="6-B01"></a>
+#### 6-B01 · 30 с · DRAFT
+
+**Локации:** [Летняя дача](projects/raznoe/references/scenes/scene-6/S6-LOC01-dacha.png). Только окружение, не лица. **Ожидается:** фото людей от владельца → 3D-модели/identity-lock; до этого не запускать.
+
+```text
+Mode: reference-to-video (draft specification) | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0
+
+REFERENCES / LOCATION AUTHORITY:
+@Image1 = projects/raznoe/references/scenes/scene-6/S6-LOC01-dacha.png; Летняя дача. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Аркадий — молодой отец; Надежда — мать; Стас — ребёнок около года. Пётр — дедушка, Нина — бабушка, Владимир — дядя. Не смешивать их лица и поколения. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+
+STYLE / LOCATION / LIGHT:
+Постановочная фотореалистичная семейная драма, не документальная хроника. Семейная дача летом в 1990-х: домик, сад, натуральный дневной свет сквозь листву. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
+
+START STATE:
+Аркадий сидит со Стасом на коленях, Надежда рядом с клубникой.
+
+STORY FLOW:
+Надежда спокойно подносит ягоду, ребёнок откликается, отец поддерживает его. Родственники заняты своими делами в саду; наблюдать живую реакцию семьи, без предвестия трагедии.
+
+END STATE:
+Сын остаётся на коленях у отца, мама рядом; семья продолжает обычный день.
+
+CAMERA / CONTINUITY:
+Один мягкий боковой проезд на уровне сидящих людей; не кружить вокруг ребёнка. Stable physical camera, coherent space and motivated cuts only. Preserve object ownership and hand contacts. No forced frozen tableau merely to fill the render limit.
+
+AUDIO:
+Смех, тихие неразборчивые бытовые разговоры, птицы и листья. Ни закадрового объяснения, ни новой разборчивой реплики.
+
+NEGATIVE / FRAME FILL:
+Не дублировать ребёнка, не менять хват отца, не навязывать печальную музыку. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
+
+```
+
+<a id="6-B02"></a>
+#### 6-B02 · 30 с · DRAFT
+
+**Локации:** [Общая комната квартиры](projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png). Только окружение, не лица. **Ожидается:** фото людей от владельца → 3D-модели/identity-lock; до этого не запускать.
+
+```text
+Mode: reference-to-video (draft specification) | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0
+
+REFERENCES / LOCATION AUTHORITY:
+@Image1 = projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png; Общая комната квартиры. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Анатолий — дедушка Стаса, отец Надежды; Стас — маленький ребёнок. Это не дедушка Пётр. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+
+STYLE / LOCATION / LIGHT:
+Постановочная фотореалистичная семейная драма, не документальная хроника. Обычный семейный интерьер 1990-х, мягкий оконный свет. Место этого эпизода — постановочное предложение, в исходнике не уточнено. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
+
+START STATE:
+Дедушка держит сладкую вату в коричневой крафтовой бумаге, ребёнок видит угощение.
+
+STORY FLOW:
+Дедушка приближается и раскрывает угощение; ребёнок тянется к нему. Показать руки, шуршащую бумагу, радость ребёнка и улыбку дедушки.
+
+END STATE:
+Угощение между дедушкой и ребёнком; коричневая бумага хорошо различима.
+
+CAMERA / CONTINUITY:
+Мотивированные склейки: средний парный план → крупно руки и бумага → реакция ребёнка. Stable physical camera, coherent space and motivated cuts only. Preserve object ownership and hand contacts. No forced frozen tableau merely to fill the render limit.
+
+AUDIO:
+Шорох бумаги, тихое дыхание и радостная реакция; без выдуманного диалога.
+
+NEGATIVE / FRAME FILL:
+Не заменять бумагу пластиком, не подменять Анатолия Петром, не превращать в рекламу сладостей. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
+
+```
+
+<a id="6-B03"></a>
+#### 6-B03 · 30 с · DRAFT
+
+**Локации:** [Красная площадь зимой](projects/raznoe/references/scenes/scene-6/S6-LOC06-red-square.png) · [Общая комната квартиры](projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png). Только окружение, не лица. **Ожидается:** фото людей от владельца → 3D-модели/identity-lock; до этого не запускать.
+
+```text
+Mode: reference-to-video (draft specification) | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0
+
+REFERENCES / LOCATION AUTHORITY:
+@Image1 = projects/raznoe/references/scenes/scene-6/S6-LOC06-red-square.png; Красная площадь зимой. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+@Image2 = projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png; Общая комната квартиры. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Аркадий — молодой отец, Надежда — мать, Стас — маленький ребёнок в коляске; в квартирной вставке также бабушка по маминой линии, Валерий, Ольга и маленькая Вика. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+
+STYLE / LOCATION / LIGHT:
+Постановочная фотореалистичная семейная драма, не документальная хроника. Зимняя Красная площадь Москвы в 1990-х, рассеянный зимний свет. Вставка: тесная многолюдная четырёхкомнатная квартира в Люберцах, домашний свет. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
+
+START STATE:
+Родители идут рядом с коляской.
+
+STORY FLOW:
+Аркадий говорит о собственном жилье, Надежда отвечает и смотрит на него. Затем короткая отдельная склейка в общую квартиру: проходы заняты бытом семьи, теснота ощутима без карикатуры.
+
+END STATE:
+Семья в квартире, образ будущей отдельной комнаты ещё только мечта.
+
+CAMERA / CONTINUITY:
+Плавное сопровождение прогулки, средний парный план с коляской; квартирная вставка явно монтажная, не магический проход. Stable physical camera, coherent space and motivated cuts only. Preserve object ownership and hand contacts. No forced frozen tableau merely to fill the render limit.
+
+AUDIO:
+АРКАДИЙ: «Надь, я хочу, чтобы у нас было своё жильё. Только наше. Чтобы у Стасика была отдельная комната». НАДЕЖДА: «Будет, Аркаш. Обязательно будет». Русская естественная речь, говорящий один за раз, точный липсинк; шаги и зимний фон ниже речи.
+
+NEGATIVE / FRAME FILL:
+Нет современного телефона/электросамоката, выдуманных родственников, речи одновременно и внезапной новой комнаты. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
+
+```
+
+<a id="6-B04"></a>
+#### 6-B04 · 30 с · DRAFT
+
+**Локации:** [Общая комната квартиры](projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png). Только окружение, не лица. **Ожидается:** фото людей от владельца → 3D-модели/identity-lock; до этого не запускать.
+
+```text
+Mode: reference-to-video (draft specification) | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0
+
+REFERENCES / LOCATION AUTHORITY:
+@Image1 = projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png; Общая комната квартиры. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Анатолий — дедушка, отец Надежды; маленький Стас — точка наблюдения. Взрослые родственники реагируют за пределами главного плана. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+
+STYLE / LOCATION / LIGHT:
+Постановочная фотореалистичная семейная драма, не документальная хроника. Квартира 1990-х, обычный дневной свет, кресло и стол с коричневой крафтовой бумагой. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
+
+START STATE:
+Дедушка находится в комнате; камера на уровне глаз ребёнка.
+
+STORY FLOW:
+Анатолию внезапно плохо, он теряет опору и опускается за нижнюю границу кадра. Взрослые устремляются к нему. Прямая временная склейка: пустое кресло, на столе бумага от сладкой ваты.
+
+END STATE:
+Пустое кресло и неподвижная бумага, отсутствие человека становится смыслом кадра.
+
+CAMERA / CONTINUITY:
+Низкая спокойная камера; не следовать за падением крупно. Один мотивированный монтажный переход к креслу. Stable physical camera, coherent space and motivated cuts only. Preserve object ownership and hand contacts. No forced frozen tableau merely to fill the render limit.
+
+AUDIO:
+Испуганные голоса взрослых без разборчивого нового текста, затем тихий воздух комнаты. Без объясняющего голоса.
+
+NEGATIVE / FRAME FILL:
+Нет крови, травмы крупно, тела умершего крупно, диагноза, театрального падения или хоррор-эффектов. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
+
+```
+
+<a id="6-B05"></a>
+#### 6-B05 · 30 с · DRAFT
+
+**Локации:** [Токарный цех](projects/raznoe/references/scenes/scene-6/S6-LOC07-azlk.png). Только окружение, не лица. **Ожидается:** фото людей от владельца → 3D-модели/identity-lock; до этого не запускать.
+
+```text
+Mode: reference-to-video (draft specification) | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0
+
+REFERENCES / LOCATION AUTHORITY:
+@Image1 = projects/raznoe/references/scenes/scene-6/S6-LOC07-azlk.png; Токарный цех. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Аркадий — отец Стаса, взрослый рабочий; в этой сцене он ещё способен трудиться и не выглядит при смерти. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+
+STYLE / LOCATION / LIGHT:
+Постановочная фотореалистичная семейная драма, не документальная хроника. Завод АЗЛК 1990-х, токарный станок, металлическая стружка, практический цеховой свет. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
+
+START STATE:
+Аркадий сосредоточенно занят у станка; руки держатся вне вращающихся деталей.
+
+STORY FLOW:
+Ритм работы прерывает приступ кашля. Он отступает от опасной зоны, переводит дыхание и возвращается к рабочему месту.
+
+END STATE:
+Аркадий снова у станка, остаточный кашель может стать звуковым мостом к дому.
+
+CAMERA / CONTINUITY:
+Средний боковой план, осторожный короткий наезд на реакцию; вращающуюся деталь и руки не пересекать. Stable physical camera, coherent space and motivated cuts only. Preserve object ownership and hand contacts. No forced frozen tableau merely to fill the render limit.
+
+AUDIO:
+Грохот оборудования, кашель и дыхание; никакого диагноза или утверждения о причине заболевания.
+
+NEGATIVE / FRAME FILL:
+Нет несчастного случая, крови, дыма как причины болезни и опасного касания вращающегося металла. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
+
+```
+
+<a id="6-B06"></a>
+#### 6-B06 · 30 с · DRAFT
+
+**Локации:** [Общая комната квартиры](projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png) · [Кухня вечером](projects/raznoe/references/scenes/scene-6/S6-LOC03-kitchen.png) · [Ванная](projects/raznoe/references/scenes/scene-6/S6-LOC04-bathroom.png) · [Спальня ночью](projects/raznoe/references/scenes/scene-6/S6-LOC05-bedroom.png). Только окружение, не лица. **Ожидается:** фото людей от владельца → 3D-модели/identity-lock; до этого не запускать.
+
+```text
+Mode: reference-to-video (draft specification) | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
+Optimized for Wan 3.0
+
+REFERENCES / LOCATION AUTHORITY:
+@Image1 = projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png; Общая комната квартиры. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+@Image2 = projects/raznoe/references/scenes/scene-6/S6-LOC03-kitchen.png; Кухня вечером. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+@Image3 = projects/raznoe/references/scenes/scene-6/S6-LOC04-bathroom.png; Ванная. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+@Image4 = projects/raznoe/references/scenes/scene-6/S6-LOC05-bedroom.png; Спальня ночью. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Аркадий — отец Стаса, усталый и тревожный; Надежда — его жена; маленький Стас спит в кроватке. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+
+STYLE / LOCATION / LIGHT:
+Постановочная фотореалистичная семейная драма, не документальная хроника. Квартира вечером и ночью, кухня, ванная и спальня; скромный бытовой свет 1990-х. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
+
+START STATE:
+Аркадий возвращается, замечает сына и старается улыбнуться.
+
+STORY FLOW:
+Монтаж: возвращение и тёплый взгляд на сына; короткий ужин рядом с Надеждой; электробритва и приступ кашля; ночной двухплан родителей и спящий ребёнок. Кровь в раковине — отдельная неутверждённая реконструкция, в этом базовом визуальном варианте её не показывать.
+
+END STATE:
+Медленный перевод внимания со взрослых на спящего Стаса.
+
+CAMERA / CONTINUITY:
+Домашние эпизоды связать честными монтажными склейками; ночью неподвижный средний план, затем спокойный перевод на кроватку. Stable physical camera, coherent space and motivated cuts only. Preserve object ownership and hand contacts. No forced frozen tableau merely to fill the render limit.
+
+AUDIO:
+Native audio off. Только изображение. Бытовые шумы, кашель и полный ночной разговор записываются и монтируются отдельно после согласования тайминга; не генерировать речь, музыку или случайный голос.
+
+NEGATIVE / FRAME FILL:
+Не создавать липсинк без утверждённой записи; нет крови, объяснения диагноза, чрезмерной агонии и счастливой развязки. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
+
+```
+
+<a id="6-B07"></a>
+#### 6-B07 · 30 с · DRAFT
+
+**Локации:** [Больничный коридор](projects/raznoe/references/scenes/scene-6/S6-LOC08-hospital-corridor.png) · [Больничная палата](projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png). Только окружение, не лица. **Ожидается:** фото людей от владельца → 3D-модели/identity-lock; до этого не запускать.
+
+```text
+Mode: reference-to-video (draft specification) | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0
+
+REFERENCES / LOCATION AUTHORITY:
+@Image1 = projects/raznoe/references/scenes/scene-6/S6-LOC08-hospital-corridor.png; Больничный коридор. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+@Image2 = projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png; Больничная палата. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Надежда — мать; Стас почти двухлетний в начале больничного года; Аркадий — отец в палате. Возраст ребёнка меняется только между согласованными временными эпизодами, не внутри кадра. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+
+STYLE / LOCATION / LIGHT:
+Постановочная фотореалистичная семейная драма, не документальная хроника. Больничный коридор и палата 1990-х, холодноватый дневной свет, сдержанный медицинский быт. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
+
+START STATE:
+Надежда ведёт Стаса за руку по коридору к палате.
+
+STORY FLOW:
+Приход к Аркадию. Затем монтаж времени: палата, работа персонала, календарь, закрытые двери операционного блока вместо операции крупно, короткое облегчение, затем новое ухудшение.
+
+END STATE:
+Отец снова ослаблен в той же палате; ребёнок и мать рядом.
+
+CAMERA / CONTINUITY:
+Плавное сопровождение за парой, затем короткие осмысленные склейки; не менять планировку палаты между возвратами. Stable physical camera, coherent space and motivated cuts only. Preserve object ownership and hand contacts. No forced frozen tableau merely to fill the render limit.
+
+AUDIO:
+ГОЛОС ВЗРОСЛОГО СТАХИЯ, за кадром: «Папа почти год боролся за жизнь. Врачи делали всё возможное. Ему удалили одно лёгкое. На какое-то время стало лучше. Но болезнь не отступила». Голос естественный, спокойно, без липсинка персонажей; фон больницы ниже речи.
+
+NEGATIVE / FRAME FILL:
+Без хирургических подробностей, выдуманного точного диагноза, современных экранов и скачущего возраста в одном плане. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
+
+```
+
+<a id="6-B08"></a>
+#### 6-B08 · 30 с · DRAFT
+
+**Локации:** [Больничная палата](projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png). Только окружение, не лица. **Ожидается:** фото людей от владельца → 3D-модели/identity-lock; до этого не запускать.
+
+```text
+Mode: reference-to-video (draft specification) | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0
+
+REFERENCES / LOCATION AUTHORITY:
+@Image1 = projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png; Больничная палата. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Стас — маленький сын, Аркадий — ослабленный отец, Надежда — мать и жена. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+
+STYLE / LOCATION / LIGHT:
+Постановочная фотореалистичная семейная драма, не документальная хроника. Больничная палата 1990-х, мягкий свет из окна; новый плёночный «Зенит» с электронной подсказкой экспозиции в коробке. Точный индекс модели не назначен. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
+
+START STATE:
+Мать с сыном у кровати Аркадия, коробка у Надежды.
+
+STORY FLOW:
+Сын обнимает отца и произносит свою реплику. Отец слабо улыбается. Мама достаёт фотоаппарат, говорит; отец принимает его, смотрит на камеру и родных, отвечает. Крупно руки и аппарат; щелчок затвора.
+
+END STATE:
+Камера в руках отца; последний звук — один щелчок затвора.
+
+CAMERA / CONTINUITY:
+Средний план троих, затем бережный крупный рук без перескока оси. Не закрывать передачу фотоаппарата случайной перебивкой. Stable physical camera, coherent space and motivated cuts only. Preserve object ownership and hand contacts. No forced frozen tableau merely to fill the render limit.
+
+AUDIO:
+СТАС: «Папа, ты мало мяса ел, поэтому заболел. Тебе надо кушать, и ты поправишься». НАДЕЖДА: «Смотри, что я тебе принесла. Новый „Зенит“. Ты ведь такой хотел. Выздоравливай, будем фотографировать». АРКАДИЙ: «Да… Ради такого фотоаппарата можно дальше жить». Разговор по-русски, по очереди, естественный липсинк; тишина палаты и щелчок.
+
+NEGATIVE / FRAME FILL:
+Не представлять детскую реплику о мясе медицинским объяснением. Нет DSLR/смартфона, рекламной улыбки, удвоения камеры, лишней реплики. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
+
+```
+
+<a id="6-B09"></a>
+#### 6-B09 · 30 с · DRAFT
+
+**Локации:** [Кладбище, дальний план](projects/raznoe/references/scenes/scene-6/S6-LOC10-cemetery.png). Только окружение, не лица. **Ожидается:** фото людей от владельца → 3D-модели/identity-lock; до этого не запускать.
+
+```text
+Mode: reference-to-video (draft specification) | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0
+
+REFERENCES / LOCATION AUTHORITY:
+@Image1 = projects/raznoe/references/scenes/scene-6/S6-LOC10-cemetery.png; Кладбище, дальний план. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Надежда — мать; Стасу три года согласно финальной реплике. Остальные присутствующие остаются неузнаваемыми дальними фигурами. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+
+STYLE / LOCATION / LIGHT:
+Постановочная фотореалистичная семейная драма, не документальная хроника. Похороны, сдержанный общий план без натуралистичных деталей, неброский естественный свет. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
+
+START STATE:
+После звукового обрыва затвора видны Надежда и маленький Стас рядом.
+
+STORY FLOW:
+Они молча стоят среди собравшихся. Сохранить неподвижную паузу и человеческое дыхание, без постановочной истерики.
+
+END STATE:
+Мать и ребёнок остаются рядом в тишине.
+
+CAMERA / CONTINUITY:
+Дальний общий план на устойчивой камере; не приближаться к телу или лицу умершего. Stable physical camera, coherent space and motivated cuts only. Preserve object ownership and hand contacts. No forced frozen tableau merely to fill the render limit.
+
+AUDIO:
+ГОЛОС ВЗРОСЛОГО СТАХИЯ: «Папе было тридцать. Мне — три». До и после фразы выдержанная тишина. Музыки нет.
+
+NEGATIVE / FRAME FILL:
+Без крупного тела, крови, плачущих лиц крупно, музыкальной кульминации или возврата живого отца. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
+
+```
+
+<a id="6-B10"></a>
+#### 6-B10 · 30 с · DRAFT
+
+**Локации:** [Общая комната квартиры](projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png). Только окружение, не лица. **Ожидается:** фото людей от владельца → 3D-модели/identity-lock; до этого не запускать.
+
+```text
+Mode: reference-to-video (draft specification) | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0
+
+REFERENCES / LOCATION AUTHORITY:
+@Image1 = projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png; Общая комната квартиры. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Надежда — мать; маленький Стас — ребёнок после смерти отца; фотография изображает Аркадия, а не другого мужчину. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+
+STYLE / LOCATION / LIGHT:
+Постановочная фотореалистичная семейная драма, не документальная хроника. Тихая квартира 1990-х, полка с фотографией Аркадия, естественный спокойный свет. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
+
+START STATE:
+Надежда держит тот самый «Зенит» у полки, Стас смотрит.
+
+STORY FLOW:
+Она ставит аппарат рядом с фотографией Аркадия, отпускает его. Мальчик переводит взгляд с фотографии на фотоаппарат. Не даёт новой клятвы и не берёт камеру в руки: его будущая профессия ещё впереди.
+
+END STATE:
+Фотоаппарат и фотография рядом, ребёнок смотрит; место для монтажного ухода в чёрный.
+
+CAMERA / CONTINUITY:
+Мягкий наезд от пары к предметам на полке, ясный контакт при постановке аппарата. Stable physical camera, coherent space and motivated cuts only. Preserve object ownership and hand contacts. No forced frozen tableau merely to fill the render limit.
+
+AUDIO:
+ГОЛОС ВЗРОСЛОГО СТАХИЯ: «Тогда я ещё не знал, что однажды возьму в руки фотоаппарат. И он изменит всю мою жизнь». Спокойный воздух квартиры; титр «Продолжение следует…» добавляется отдельно в редакторе.
+
+NEGATIVE / FRAME FILL:
+Нет выдуманной фотографии иного человека, второго фотоаппарата, текста поверх изображения и взрослого Стаса в комнате. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
+
+```
+
 </div>
 
 <div class="engine-pane" data-engine="sd20x2">
 
 #### 6 · Вариант A · 15 роликов по 15 с
 
-**Входы:** согласованные identity/локационные референсы отсутствуют. Для непрерывного продолжения A02, A05, A09, A11, A13 использовать настоящий хвост предыдущей части только после его появления и QC, если это именно непрерывный кадр; самостоятельную монтажную склейку не маскировать под бесшовное продолжение. @Video1 и имена файлов сейчас не назначаются. Русскую речь для Seedance 2.0 планировать отдельной записью и монтажом; естественный липсинк не заявлен проверенным.
+**Входы:** локационные файлы существуют и назначены ниже; identity-референсы ожидают фото владельца. Для непрерывного продолжения A02, A05, A09, A11, A13 использовать настоящий хвост предыдущей части только после его появления и QC, если это именно непрерывный кадр; самостоятельную монтажную склейку не маскировать под бесшовное продолжение. @Video1 и имена файлов сейчас не назначаются. Русскую речь для Seedance 2.0 планировать отдельной записью и монтажом; естественный липсинк не заявлен проверенным.
 
 | Подсцена | Время фильма | Использовать | Действие / звук / стык |
 |---|---|---:|---|
@@ -5949,11 +6350,601 @@ No test action, impact, immersion, fake water resistance, fictional result, succ
 | 6-A14 | 02:47–02:56 | 9 с | Похороны общим планом, точная короткая фраза взрослого Стахия. Пауза, без музыки. |
 | 6-A15 | 02:56–03:08 | 12 с | «Зенит» рядом с фото Аркадия, взгляд Стаса, весь финальный закадровый текст. Чёрный экран и титр в редакторе. |
 
-</div>
+<a id="6-A01"></a>
+#### 6-A01 · 15 с · DRAFT
+
+**Локации:** [Летняя дача](projects/raznoe/references/scenes/scene-6/S6-LOC01-dacha.png). Только окружение, не лица. **Ожидается:** фото людей от владельца → 3D-модели/identity-lock; до этого не запускать.
+
+```text
+Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
+Optimized for Seedance 2.0
+
+REFERENCES / LOCATION AUTHORITY:
+@Image1 = projects/raznoe/references/scenes/scene-6/S6-LOC01-dacha.png; Летняя дача. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Аркадий — молодой отец; Надежда — мать; Стас — ребёнок около года. Пётр — дедушка, Нина — бабушка, Владимир — дядя. Не смешивать их лица и поколения. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+
+STYLE / LOCATION / LIGHT:
+Постановочная фотореалистичная семейная драма, не документальная хроника. Семейная дача летом в 1990-х: домик, сад, натуральный дневной свет сквозь листву. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
+
+START STATE:
+Аркадий сидит со Стасом на коленях, Надежда рядом.
+
+STORY FLOW:
+Мать кормит ребёнка клубникой, отец надёжно поддерживает его; живой ответ ребёнка и тёплая семейная реакция.
+
+END STATE:
+Стас остаётся у Аркадия; Надежда рядом, положение и свет пригодны для продолжения.
+
+CAMERA / CONTINUITY:
+Устойчивая камера, средний план и мотивированные крупные перебивки только для описанного здесь действия. Сохранять ось, передачу предметов и контакт рук. Смена помещения только явной монтажной склейкой, не телепортацией. No forced frozen tableau merely to fill the render limit.
+
+AUDIO:
+Native audio off. Только изображение: не генерировать речь, музыку или случайный голос. Реплики записываются отдельно; не изображать активную несинхронную артикуляцию. Для будущего звучащего диалога использовать согласованный монтаж по слушающему персонажу/рукам или отдельно подготовленный lip-sync, не обещать его здесь.
+
+NEGATIVE / FRAME FILL:
+Не дублировать ребёнка, не менять хват отца, не навязывать печальную музыку. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
+
+```
+
+<a id="6-A02"></a>
+#### 6-A02 · 15 с · DRAFT
+
+**Локации:** [Летняя дача](projects/raznoe/references/scenes/scene-6/S6-LOC01-dacha.png). Только окружение, не лица. **Ожидается:** фото людей от владельца → 3D-модели/identity-lock; до этого не запускать.
+
+```text
+Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
+Optimized for Seedance 2.0
+
+REFERENCES / LOCATION AUTHORITY:
+@Image1 = projects/raznoe/references/scenes/scene-6/S6-LOC01-dacha.png; Летняя дача. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Аркадий — молодой отец; Надежда — мать; Стас — ребёнок около года. Пётр — дедушка, Нина — бабушка, Владимир — дядя. Не смешивать их лица и поколения. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+
+STYLE / LOCATION / LIGHT:
+Постановочная фотореалистичная семейная драма, не документальная хроника. Семейная дача летом в 1990-х: домик, сад, натуральный дневной свет сквозь листву. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
+
+START STATE:
+Стас на коленях отца, Надежда рядом, тот же летний день.
+
+STORY FLOW:
+Сохранить реакцию семьи и открыть в саду Петра, Нину и Владимира, занятых обычными делами. Не вводить трагедию или новый разговор.
+
+END STATE:
+Семейная группа остаётся в дачном саду.
+
+CAMERA / CONTINUITY:
+Устойчивая камера, средний план и мотивированные крупные перебивки только для описанного здесь действия. Сохранять ось, передачу предметов и контакт рук. Смена помещения только явной монтажной склейкой, не телепортацией. No forced frozen tableau merely to fill the render limit.
+
+AUDIO:
+Native audio off. Только изображение: не генерировать речь, музыку или случайный голос. Реплики записываются отдельно; не изображать активную несинхронную артикуляцию. Для будущего звучащего диалога использовать согласованный монтаж по слушающему персонажу/рукам или отдельно подготовленный lip-sync, не обещать его здесь.
+
+NEGATIVE / FRAME FILL:
+Не дублировать ребёнка, не менять хват отца, не навязывать печальную музыку. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
+
+```
+
+<a id="6-A03"></a>
+#### 6-A03 · 15 с · DRAFT
+
+**Локации:** [Общая комната квартиры](projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png). Только окружение, не лица. **Ожидается:** фото людей от владельца → 3D-модели/identity-lock; до этого не запускать.
+
+```text
+Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
+Optimized for Seedance 2.0
+
+REFERENCES / LOCATION AUTHORITY:
+@Image1 = projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png; Общая комната квартиры. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Анатолий — дедушка Стаса, отец Надежды; Стас — маленький ребёнок. Это не дедушка Пётр. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+
+STYLE / LOCATION / LIGHT:
+Постановочная фотореалистичная семейная драма, не документальная хроника. Обычный семейный интерьер 1990-х, мягкий оконный свет. Место этого эпизода — постановочное предложение, в исходнике не уточнено. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
+
+START STATE:
+Дедушка держит сладкую вату в коричневой крафтовой бумаге, ребёнок видит угощение.
+
+STORY FLOW:
+Дедушка приближается и раскрывает угощение; ребёнок тянется к нему. Показать руки, шуршащую бумагу, радость ребёнка и улыбку дедушки.
+
+END STATE:
+Угощение между дедушкой и ребёнком; коричневая бумага хорошо различима.
+
+CAMERA / CONTINUITY:
+Устойчивая камера, средний план и мотивированные крупные перебивки только для описанного здесь действия. Сохранять ось, передачу предметов и контакт рук. Смена помещения только явной монтажной склейкой, не телепортацией. No forced frozen tableau merely to fill the render limit.
+
+AUDIO:
+Native audio off. Только изображение: не генерировать речь, музыку или случайный голос. Реплики записываются отдельно; не изображать активную несинхронную артикуляцию. Для будущего звучащего диалога использовать согласованный монтаж по слушающему персонажу/рукам или отдельно подготовленный lip-sync, не обещать его здесь.
+
+NEGATIVE / FRAME FILL:
+Не заменять бумагу пластиком, не подменять Анатолия Петром, не превращать в рекламу сладостей. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
+
+```
+
+<a id="6-A04"></a>
+#### 6-A04 · 15 с · DRAFT
+
+**Локации:** [Красная площадь зимой](projects/raznoe/references/scenes/scene-6/S6-LOC06-red-square.png). Только окружение, не лица. **Ожидается:** фото людей от владельца → 3D-модели/identity-lock; до этого не запускать.
+
+```text
+Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
+Optimized for Seedance 2.0
+
+REFERENCES / LOCATION AUTHORITY:
+@Image1 = projects/raznoe/references/scenes/scene-6/S6-LOC06-red-square.png; Красная площадь зимой. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Аркадий — молодой отец, Надежда — мать, Стас — маленький ребёнок в коляске; в квартирной вставке также бабушка по маминой линии, Валерий, Ольга и маленькая Вика. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+
+STYLE / LOCATION / LIGHT:
+Постановочная фотореалистичная семейная драма, не документальная хроника. Зимняя Красная площадь Москвы в 1990-х, рассеянный зимний свет. Вставка: тесная многолюдная четырёхкомнатная квартира в Люберцах, домашний свет. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
+
+START STATE:
+Аркадий и Надежда идут с коляской по зимней Красной площади.
+
+STORY FLOW:
+Аркадий спокойно говорит о собственном жилье, глядя то на жену, то на коляску. Надежда слушает, не отвечает одновременно.
+
+END STATE:
+Он закончил фразу и ждёт её ответа.
+
+CAMERA / CONTINUITY:
+Устойчивая камера, средний план и мотивированные крупные перебивки только для описанного здесь действия. Сохранять ось, передачу предметов и контакт рук. Смена помещения только явной монтажной склейкой, не телепортацией. No forced frozen tableau merely to fill the render limit.
+
+AUDIO:
+Native audio off. Только изображение: не генерировать речь, музыку или случайный голос. Реплики записываются отдельно; не изображать активную несинхронную артикуляцию. Для будущего звучащего диалога использовать согласованный монтаж по слушающему персонажу/рукам или отдельно подготовленный lip-sync, не обещать его здесь.
+
+NEGATIVE / FRAME FILL:
+Нет современного телефона/электросамоката, выдуманных родственников, речи одновременно и внезапной новой комнаты. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
+
+```
+
+<a id="6-A05"></a>
+#### 6-A05 · 15 с · DRAFT
+
+**Локации:** [Красная площадь зимой](projects/raznoe/references/scenes/scene-6/S6-LOC06-red-square.png) · [Общая комната квартиры](projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png). Только окружение, не лица. **Ожидается:** фото людей от владельца → 3D-модели/identity-lock; до этого не запускать.
+
+```text
+Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
+Optimized for Seedance 2.0
+
+REFERENCES / LOCATION AUTHORITY:
+@Image1 = projects/raznoe/references/scenes/scene-6/S6-LOC06-red-square.png; Красная площадь зимой. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+@Image2 = projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png; Общая комната квартиры. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Аркадий — молодой отец, Надежда — мать, Стас — маленький ребёнок в коляске; в квартирной вставке также бабушка по маминой линии, Валерий, Ольга и маленькая Вика. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+
+STYLE / LOCATION / LIGHT:
+Постановочная фотореалистичная семейная драма, не документальная хроника. Зимняя Красная площадь Москвы в 1990-х, рассеянный зимний свет. Вставка: тесная многолюдная четырёхкомнатная квартира в Люберцах, домашний свет. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
+
+START STATE:
+После реплики Аркадия Надежда поворачивается к нему у коляски.
+
+STORY FLOW:
+Надежда отвечает. После реакции прямая монтажная склейка в тесную четырёхкомнатную квартиру: родители, Стас, бабушка по маминой линии, Валерий, Ольга и маленькая Вика.
+
+END STATE:
+Семья в общей квартире, мечта об отдельной комнате ещё не осуществилась.
+
+CAMERA / CONTINUITY:
+Устойчивая камера, средний план и мотивированные крупные перебивки только для описанного здесь действия. Сохранять ось, передачу предметов и контакт рук. Смена помещения только явной монтажной склейкой, не телепортацией. No forced frozen tableau merely to fill the render limit.
+
+AUDIO:
+Native audio off. Только изображение: не генерировать речь, музыку или случайный голос. Реплики записываются отдельно; не изображать активную несинхронную артикуляцию. Для будущего звучащего диалога использовать согласованный монтаж по слушающему персонажу/рукам или отдельно подготовленный lip-sync, не обещать его здесь.
+
+NEGATIVE / FRAME FILL:
+Нет современного телефона/электросамоката, выдуманных родственников, речи одновременно и внезапной новой комнаты. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
+
+```
+
+<a id="6-A06"></a>
+#### 6-A06 · 15 с · DRAFT
+
+**Локации:** [Общая комната квартиры](projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png). Только окружение, не лица. **Ожидается:** фото людей от владельца → 3D-модели/identity-lock; до этого не запускать.
+
+```text
+Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
+Optimized for Seedance 2.0
+
+REFERENCES / LOCATION AUTHORITY:
+@Image1 = projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png; Общая комната квартиры. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Анатолий — дедушка, отец Надежды; маленький Стас — точка наблюдения. Взрослые родственники реагируют за пределами главного плана. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+
+STYLE / LOCATION / LIGHT:
+Постановочная фотореалистичная семейная драма, не документальная хроника. Квартира 1990-х, обычный дневной свет, кресло и стол с коричневой крафтовой бумагой. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
+
+START STATE:
+Дедушка находится в комнате; камера на уровне глаз ребёнка.
+
+STORY FLOW:
+Анатолию внезапно плохо, он теряет опору и опускается за нижнюю границу кадра. Взрослые устремляются к нему. Прямая временная склейка: пустое кресло, на столе бумага от сладкой ваты.
+
+END STATE:
+Пустое кресло и неподвижная бумага, отсутствие человека становится смыслом кадра.
+
+CAMERA / CONTINUITY:
+Устойчивая камера, средний план и мотивированные крупные перебивки только для описанного здесь действия. Сохранять ось, передачу предметов и контакт рук. Смена помещения только явной монтажной склейкой, не телепортацией. No forced frozen tableau merely to fill the render limit.
+
+AUDIO:
+Native audio off. Только изображение: не генерировать речь, музыку или случайный голос. Реплики записываются отдельно; не изображать активную несинхронную артикуляцию. Для будущего звучащего диалога использовать согласованный монтаж по слушающему персонажу/рукам или отдельно подготовленный lip-sync, не обещать его здесь.
+
+NEGATIVE / FRAME FILL:
+Нет крови, травмы крупно, тела умершего крупно, диагноза, театрального падения или хоррор-эффектов. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
+
+```
+
+<a id="6-A07"></a>
+#### 6-A07 · 15 с · DRAFT
+
+**Локации:** [Токарный цех](projects/raznoe/references/scenes/scene-6/S6-LOC07-azlk.png). Только окружение, не лица. **Ожидается:** фото людей от владельца → 3D-модели/identity-lock; до этого не запускать.
+
+```text
+Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
+Optimized for Seedance 2.0
+
+REFERENCES / LOCATION AUTHORITY:
+@Image1 = projects/raznoe/references/scenes/scene-6/S6-LOC07-azlk.png; Токарный цех. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Аркадий — отец Стаса, взрослый рабочий; в этой сцене он ещё способен трудиться и не выглядит при смерти. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+
+STYLE / LOCATION / LIGHT:
+Постановочная фотореалистичная семейная драма, не документальная хроника. Завод АЗЛК 1990-х, токарный станок, металлическая стружка, практический цеховой свет. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
+
+START STATE:
+Аркадий сосредоточенно занят у станка; руки держатся вне вращающихся деталей.
+
+STORY FLOW:
+Ритм работы прерывает приступ кашля. Он отступает от опасной зоны, переводит дыхание и возвращается к рабочему месту.
+
+END STATE:
+Аркадий снова у станка, остаточный кашель может стать звуковым мостом к дому.
+
+CAMERA / CONTINUITY:
+Устойчивая камера, средний план и мотивированные крупные перебивки только для описанного здесь действия. Сохранять ось, передачу предметов и контакт рук. Смена помещения только явной монтажной склейкой, не телепортацией. No forced frozen tableau merely to fill the render limit.
+
+AUDIO:
+Native audio off. Только изображение: не генерировать речь, музыку или случайный голос. Реплики записываются отдельно; не изображать активную несинхронную артикуляцию. Для будущего звучащего диалога использовать согласованный монтаж по слушающему персонажу/рукам или отдельно подготовленный lip-sync, не обещать его здесь.
+
+NEGATIVE / FRAME FILL:
+Нет несчастного случая, крови, дыма как причины болезни и опасного касания вращающегося металла. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
+
+```
+
+<a id="6-A08"></a>
+#### 6-A08 · 15 с · DRAFT
+
+**Локации:** [Общая комната квартиры](projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png) · [Кухня вечером](projects/raznoe/references/scenes/scene-6/S6-LOC03-kitchen.png) · [Ванная](projects/raznoe/references/scenes/scene-6/S6-LOC04-bathroom.png) · [Спальня ночью](projects/raznoe/references/scenes/scene-6/S6-LOC05-bedroom.png). Только окружение, не лица. **Ожидается:** фото людей от владельца → 3D-модели/identity-lock; до этого не запускать.
+
+```text
+Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
+Optimized for Seedance 2.0
+
+REFERENCES / LOCATION AUTHORITY:
+@Image1 = projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png; Общая комната квартиры. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+@Image2 = projects/raznoe/references/scenes/scene-6/S6-LOC03-kitchen.png; Кухня вечером. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+@Image3 = projects/raznoe/references/scenes/scene-6/S6-LOC04-bathroom.png; Ванная. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+@Image4 = projects/raznoe/references/scenes/scene-6/S6-LOC05-bedroom.png; Спальня ночью. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Аркадий — отец Стаса, усталый и тревожный; Надежда — его жена; маленький Стас спит в кроватке. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+
+STYLE / LOCATION / LIGHT:
+Постановочная фотореалистичная семейная драма, не документальная хроника. Квартира вечером и ночью, кухня, ванная и спальня; скромный бытовой свет 1990-х. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
+
+START STATE:
+Аркадий входит домой, сын замечает его.
+
+STORY FLOW:
+Отец улыбается сыну; короткая перебивка ужина рядом с Надеждой; электробритва, кашель; завершить переходом к спальне. Не показывать кровь как неподтверждённый факт.
+
+END STATE:
+Ночная спальня, родители рядом, Стас спит в кроватке.
+
+CAMERA / CONTINUITY:
+Устойчивая камера, средний план и мотивированные крупные перебивки только для описанного здесь действия. Сохранять ось, передачу предметов и контакт рук. Смена помещения только явной монтажной склейкой, не телепортацией. No forced frozen tableau merely to fill the render limit.
+
+AUDIO:
+Native audio off. Только изображение: не генерировать речь, музыку или случайный голос. Реплики записываются отдельно; не изображать активную несинхронную артикуляцию. Для будущего звучащего диалога использовать согласованный монтаж по слушающему персонажу/рукам или отдельно подготовленный lip-sync, не обещать его здесь.
+
+NEGATIVE / FRAME FILL:
+Не создавать липсинк без утверждённой записи; нет крови, объяснения диагноза, чрезмерной агонии и счастливой развязки. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
+
+```
+
+<a id="6-A09"></a>
+#### 6-A09 · 15 с · DRAFT
+
+**Локации:** [Спальня ночью](projects/raznoe/references/scenes/scene-6/S6-LOC05-bedroom.png). Только окружение, не лица. **Ожидается:** фото людей от владельца → 3D-модели/identity-lock; до этого не запускать.
+
+```text
+Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
+Optimized for Seedance 2.0
+
+REFERENCES / LOCATION AUTHORITY:
+@Image1 = projects/raznoe/references/scenes/scene-6/S6-LOC05-bedroom.png; Спальня ночью. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Аркадий — отец Стаса, усталый и тревожный; Надежда — его жена; маленький Стас спит в кроватке. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+
+STYLE / LOCATION / LIGHT:
+Постановочная фотореалистичная семейная драма, не документальная хроника. Квартира вечером и ночью, кухня, ванная и спальня; скромный бытовой свет 1990-х. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
+
+START STATE:
+Аркадий и Надежда лежат рядом; Стас спит в кроватке.
+
+STORY FLOW:
+Сдержанная тревога родителей: отец думает и смотрит на жену, она внимательно слушает; кадр уходит к спящему ребёнку. Это немая визуальная заготовка для отдельно согласованной длительности речи, не ускоренный пересказ разговора.
+
+END STATE:
+В фокусе спящий Стас, взрослые остаются рядом.
+
+CAMERA / CONTINUITY:
+Устойчивая камера, средний план и мотивированные крупные перебивки только для описанного здесь действия. Сохранять ось, передачу предметов и контакт рук. Смена помещения только явной монтажной склейкой, не телепортацией. No forced frozen tableau merely to fill the render limit.
+
+AUDIO:
+Native audio off. Только изображение: не генерировать речь, музыку или случайный голос. Реплики записываются отдельно; не изображать активную несинхронную артикуляцию. Для будущего звучащего диалога использовать согласованный монтаж по слушающему персонажу/рукам или отдельно подготовленный lip-sync, не обещать его здесь.
+
+NEGATIVE / FRAME FILL:
+Не создавать липсинк без утверждённой записи; нет крови, объяснения диагноза, чрезмерной агонии и счастливой развязки. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
+
+```
+
+<a id="6-A10"></a>
+#### 6-A10 · 15 с · DRAFT
+
+**Локации:** [Больничный коридор](projects/raznoe/references/scenes/scene-6/S6-LOC08-hospital-corridor.png) · [Больничная палата](projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png). Только окружение, не лица. **Ожидается:** фото людей от владельца → 3D-модели/identity-lock; до этого не запускать.
+
+```text
+Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
+Optimized for Seedance 2.0
+
+REFERENCES / LOCATION AUTHORITY:
+@Image1 = projects/raznoe/references/scenes/scene-6/S6-LOC08-hospital-corridor.png; Больничный коридор. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+@Image2 = projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png; Больничная палата. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Надежда — мать; Стас почти двухлетний в начале больничного года; Аркадий — отец в палате. Возраст ребёнка меняется только между согласованными временными эпизодами, не внутри кадра. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+
+STYLE / LOCATION / LIGHT:
+Постановочная фотореалистичная семейная драма, не документальная хроника. Больничный коридор и палата 1990-х, холодноватый дневной свет, сдержанный медицинский быт. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
+
+START STATE:
+Надежда ведёт почти двухлетнего Стаса за руку в больницу.
+
+STORY FLOW:
+Пройти по коридору, войти к Аркадию; затем отдельные монтажные планы палаты, персонала, календаря, закрытых дверей операционного блока и короткого облегчения.
+
+END STATE:
+Аркадий в палате после временного улучшения.
+
+CAMERA / CONTINUITY:
+Устойчивая камера, средний план и мотивированные крупные перебивки только для описанного здесь действия. Сохранять ось, передачу предметов и контакт рук. Смена помещения только явной монтажной склейкой, не телепортацией. No forced frozen tableau merely to fill the render limit.
+
+AUDIO:
+Native audio off. Только изображение: не генерировать речь, музыку или случайный голос. Реплики записываются отдельно; не изображать активную несинхронную артикуляцию. Для будущего звучащего диалога использовать согласованный монтаж по слушающему персонажу/рукам или отдельно подготовленный lip-sync, не обещать его здесь.
+
+NEGATIVE / FRAME FILL:
+Без хирургических подробностей, выдуманного точного диагноза, современных экранов и скачущего возраста в одном плане. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
+
+```
+
+<a id="6-A11"></a>
+#### 6-A11 · 15 с · DRAFT
+
+**Локации:** [Больничная палата](projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png). Только окружение, не лица. **Ожидается:** фото людей от владельца → 3D-модели/identity-lock; до этого не запускать.
+
+```text
+Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
+Optimized for Seedance 2.0
+
+REFERENCES / LOCATION AUTHORITY:
+@Image1 = projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png; Больничная палата. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Надежда — мать; Стас почти двухлетний в начале больничного года; Аркадий — отец в палате. Возраст ребёнка меняется только между согласованными временными эпизодами, не внутри кадра. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+
+STYLE / LOCATION / LIGHT:
+Постановочная фотореалистичная семейная драма, не документальная хроника. Больничный коридор и палата 1990-х, холодноватый дневной свет, сдержанный медицинский быт. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
+
+START STATE:
+Та же палата спустя время, отец вновь ослаблен.
+
+STORY FLOW:
+Надежда и ребёнок рядом; сдержанные взгляды и дыхание сообщают об ухудшении без новых медицинских деталей.
+
+END STATE:
+Семья у больничной кровати.
+
+CAMERA / CONTINUITY:
+Устойчивая камера, средний план и мотивированные крупные перебивки только для описанного здесь действия. Сохранять ось, передачу предметов и контакт рук. Смена помещения только явной монтажной склейкой, не телепортацией. No forced frozen tableau merely to fill the render limit.
+
+AUDIO:
+Native audio off. Только изображение: не генерировать речь, музыку или случайный голос. Реплики записываются отдельно; не изображать активную несинхронную артикуляцию. Для будущего звучащего диалога использовать согласованный монтаж по слушающему персонажу/рукам или отдельно подготовленный lip-sync, не обещать его здесь.
+
+NEGATIVE / FRAME FILL:
+Без хирургических подробностей, выдуманного точного диагноза, современных экранов и скачущего возраста в одном плане. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
+
+```
+
+<a id="6-A12"></a>
+#### 6-A12 · 15 с · DRAFT
+
+**Локации:** [Больничная палата](projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png). Только окружение, не лица. **Ожидается:** фото людей от владельца → 3D-модели/identity-lock; до этого не запускать.
+
+```text
+Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
+Optimized for Seedance 2.0
+
+REFERENCES / LOCATION AUTHORITY:
+@Image1 = projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png; Больничная палата. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Стас — маленький сын, Аркадий — ослабленный отец, Надежда — мать и жена. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+
+STYLE / LOCATION / LIGHT:
+Постановочная фотореалистичная семейная драма, не документальная хроника. Больничная палата 1990-х, мягкий свет из окна; новый плёночный «Зенит» с электронной подсказкой экспозиции в коробке. Точный индекс модели не назначен. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
+
+START STATE:
+Мать и сын у кровати Аркадия; коробка с фотоаппаратом у Надежды.
+
+STORY FLOW:
+Стас бережно обнимает ослабленного отца; тот слабо улыбается. Мама начинает доставать коробку, не перебивая ребёнка.
+
+END STATE:
+Ребёнок закончил реплику, Надежда готова показать подарок.
+
+CAMERA / CONTINUITY:
+Устойчивая камера, средний план и мотивированные крупные перебивки только для описанного здесь действия. Сохранять ось, передачу предметов и контакт рук. Смена помещения только явной монтажной склейкой, не телепортацией. No forced frozen tableau merely to fill the render limit.
+
+AUDIO:
+Native audio off. Только изображение: не генерировать речь, музыку или случайный голос. Реплики записываются отдельно; не изображать активную несинхронную артикуляцию. Для будущего звучащего диалога использовать согласованный монтаж по слушающему персонажу/рукам или отдельно подготовленный lip-sync, не обещать его здесь.
+
+NEGATIVE / FRAME FILL:
+Не представлять детскую реплику о мясе медицинским объяснением. Нет DSLR/смартфона, рекламной улыбки, удвоения камеры, лишней реплики. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
+
+```
+
+<a id="6-A13"></a>
+#### 6-A13 · 15 с · DRAFT
+
+**Локации:** [Больничная палата](projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png). Только окружение, не лица. **Ожидается:** фото людей от владельца → 3D-модели/identity-lock; до этого не запускать.
+
+```text
+Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
+Optimized for Seedance 2.0
+
+REFERENCES / LOCATION AUTHORITY:
+@Image1 = projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png; Больничная палата. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Стас — маленький сын, Аркадий — ослабленный отец, Надежда — мать и жена. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+
+STYLE / LOCATION / LIGHT:
+Постановочная фотореалистичная семейная драма, не документальная хроника. Больничная палата 1990-х, мягкий свет из окна; новый плёночный «Зенит» с электронной подсказкой экспозиции в коробке. Точный индекс модели не назначен. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
+
+START STATE:
+Надежда держит коробку, отец и сын смотрят.
+
+STORY FLOW:
+Мать показывает новый «Зенит» и передаёт его Аркадию. Отец смотрит на аппарат и родных, слабо улыбается. Крупно руки и фотоаппарат; один щелчок затвора.
+
+END STATE:
+Фотоаппарат у Аркадия; щелчок затвора перед переходом в тишину.
+
+CAMERA / CONTINUITY:
+Устойчивая камера, средний план и мотивированные крупные перебивки только для описанного здесь действия. Сохранять ось, передачу предметов и контакт рук. Смена помещения только явной монтажной склейкой, не телепортацией. No forced frozen tableau merely to fill the render limit.
+
+AUDIO:
+Native audio off. Только изображение: не генерировать речь, музыку или случайный голос. Реплики записываются отдельно; не изображать активную несинхронную артикуляцию. Для будущего звучащего диалога использовать согласованный монтаж по слушающему персонажу/рукам или отдельно подготовленный lip-sync, не обещать его здесь.
+
+NEGATIVE / FRAME FILL:
+Не представлять детскую реплику о мясе медицинским объяснением. Нет DSLR/смартфона, рекламной улыбки, удвоения камеры, лишней реплики. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
+
+```
+
+<a id="6-A14"></a>
+#### 6-A14 · 15 с · DRAFT
+
+**Локации:** [Кладбище, дальний план](projects/raznoe/references/scenes/scene-6/S6-LOC10-cemetery.png). Только окружение, не лица. **Ожидается:** фото людей от владельца → 3D-модели/identity-lock; до этого не запускать.
+
+```text
+Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
+Optimized for Seedance 2.0
+
+REFERENCES / LOCATION AUTHORITY:
+@Image1 = projects/raznoe/references/scenes/scene-6/S6-LOC10-cemetery.png; Кладбище, дальний план. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Надежда — мать; Стасу три года согласно финальной реплике. Остальные присутствующие остаются неузнаваемыми дальними фигурами. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+
+STYLE / LOCATION / LIGHT:
+Постановочная фотореалистичная семейная драма, не документальная хроника. Похороны, сдержанный общий план без натуралистичных деталей, неброский естественный свет. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
+
+START STATE:
+После звукового обрыва затвора видны Надежда и маленький Стас рядом.
+
+STORY FLOW:
+Они молча стоят среди собравшихся. Сохранить неподвижную паузу и человеческое дыхание, без постановочной истерики.
+
+END STATE:
+Мать и ребёнок остаются рядом в тишине.
+
+CAMERA / CONTINUITY:
+Устойчивая камера, средний план и мотивированные крупные перебивки только для описанного здесь действия. Сохранять ось, передачу предметов и контакт рук. Смена помещения только явной монтажной склейкой, не телепортацией. No forced frozen tableau merely to fill the render limit.
+
+AUDIO:
+Native audio off. Только изображение: не генерировать речь, музыку или случайный голос. Реплики записываются отдельно; не изображать активную несинхронную артикуляцию. Для будущего звучащего диалога использовать согласованный монтаж по слушающему персонажу/рукам или отдельно подготовленный lip-sync, не обещать его здесь.
+
+NEGATIVE / FRAME FILL:
+Без крупного тела, крови, плачущих лиц крупно, музыкальной кульминации или возврата живого отца. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
+
+```
+
+<a id="6-A15"></a>
+#### 6-A15 · 15 с · DRAFT
+
+**Локации:** [Общая комната квартиры](projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png). Только окружение, не лица. **Ожидается:** фото людей от владельца → 3D-модели/identity-lock; до этого не запускать.
+
+```text
+Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
+Optimized for Seedance 2.0
+
+REFERENCES / LOCATION AUTHORITY:
+@Image1 = projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png; Общая комната квартиры. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
+These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Надежда — мать; маленький Стас — ребёнок после смерти отца; фотография изображает Аркадия, а не другого мужчину. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+
+STYLE / LOCATION / LIGHT:
+Постановочная фотореалистичная семейная драма, не документальная хроника. Тихая квартира 1990-х, полка с фотографией Аркадия, естественный спокойный свет. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
+
+START STATE:
+Надежда держит тот самый «Зенит» у полки, Стас смотрит.
+
+STORY FLOW:
+Она ставит аппарат рядом с фотографией Аркадия, отпускает его. Мальчик переводит взгляд с фотографии на фотоаппарат. Не даёт новой клятвы и не берёт камеру в руки: его будущая профессия ещё впереди.
+
+END STATE:
+Фотоаппарат и фотография рядом, ребёнок смотрит; место для монтажного ухода в чёрный.
+
+CAMERA / CONTINUITY:
+Устойчивая камера, средний план и мотивированные крупные перебивки только для описанного здесь действия. Сохранять ось, передачу предметов и контакт рук. Смена помещения только явной монтажной склейкой, не телепортацией. No forced frozen tableau merely to fill the render limit.
+
+AUDIO:
+Native audio off. Только изображение: не генерировать речь, музыку или случайный голос. Реплики записываются отдельно; не изображать активную несинхронную артикуляцию. Для будущего звучащего диалога использовать согласованный монтаж по слушающему персонажу/рукам или отдельно подготовленный lip-sync, не обещать его здесь.
+
+NEGATIVE / FRAME FILL:
+Нет выдуманной фотографии иного человека, второго фотоаппарата, текста поверх изображения и взрослого Стаса в комнате. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
+
+```
 
 </div>
 
-[Карта референсов и расчёт озвучки](projects/raznoe/references/scenes/scene-6/production-preflight.md)
+</div>
+
+[Полный аудиолист и предложение расширения](projects/raznoe/references/scenes/scene-6/audio-timing.md) · [Карта референсов и расчёт озвучки](projects/raznoe/references/scenes/scene-6/production-preflight.md)
 
 ### Проверки до производственных промптов и запуска
 

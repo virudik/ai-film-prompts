@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "project": "raznoe",
-  "updated_at": "2026-11-17T18:30:00+00:00",
+  "updated_at": "2026-11-18T17:13:22.191Z",
   "source": "59/59 existing scene references recovered and registered; all not_approved; no video generated. 06.11.2026: сцена 3 RESOURCE, 10 поставленных кадров, not_approved; 45737 — полимер; старый металл вне галереи.",
   "characters": [
     {
@@ -1757,6 +1757,276 @@
           "approved_at": "2026-11-17"
         }
       ]
+    },
+    {
+      "id": "S6-LOC01-dacha",
+      "name": "Летняя дача",
+      "kind": "location",
+      "scenes": [
+        6
+      ],
+      "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-6/S6-LOC01-dacha.png",
+          "caption": "Летняя дача",
+          "scenes": [
+            6
+          ],
+          "blob_sha": "63820d40786f75697b7c27eb45332f9cfb222789",
+          "width": 941,
+          "height": 1672,
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "ChatGPT ImageGen, owner requested location references 18.11.2026"
+      }
+    },
+    {
+      "id": "S6-LOC02-apartment",
+      "name": "Общая комната квартиры",
+      "kind": "location",
+      "scenes": [
+        6
+      ],
+      "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png",
+          "caption": "Общая комната квартиры",
+          "scenes": [
+            6
+          ],
+          "blob_sha": "fc8bf43316f1aae1f90e071976813800dc3cc6c9",
+          "width": 941,
+          "height": 1672,
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "ChatGPT ImageGen, owner requested location references 18.11.2026"
+      }
+    },
+    {
+      "id": "S6-LOC03-kitchen",
+      "name": "Кухня вечером",
+      "kind": "location",
+      "scenes": [
+        6
+      ],
+      "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-6/S6-LOC03-kitchen.png",
+          "caption": "Кухня вечером",
+          "scenes": [
+            6
+          ],
+          "blob_sha": "f5e4966d6f287d7cd3a9866b30a2bfa643d2f135",
+          "width": 1052,
+          "height": 1494,
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "ChatGPT ImageGen, owner requested location references 18.11.2026"
+      }
+    },
+    {
+      "id": "S6-LOC04-bathroom",
+      "name": "Ванная",
+      "kind": "location",
+      "scenes": [
+        6
+      ],
+      "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-6/S6-LOC04-bathroom.png",
+          "caption": "Ванная",
+          "scenes": [
+            6
+          ],
+          "blob_sha": "ba50f401836a95db0bb5c0b003244a978ed2031f",
+          "width": 1055,
+          "height": 1491,
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "ChatGPT ImageGen, owner requested location references 18.11.2026"
+      }
+    },
+    {
+      "id": "S6-LOC05-bedroom",
+      "name": "Спальня ночью",
+      "kind": "location",
+      "scenes": [
+        6
+      ],
+      "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-6/S6-LOC05-bedroom.png",
+          "caption": "Спальня ночью",
+          "scenes": [
+            6
+          ],
+          "blob_sha": "a82fe2077e685f3d74811cd12f14910d9db9dba1",
+          "width": 941,
+          "height": 1672,
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "ChatGPT ImageGen, owner requested location references 18.11.2026"
+      }
+    },
+    {
+      "id": "S6-LOC06-red-square",
+      "name": "Красная площадь зимой",
+      "kind": "location",
+      "scenes": [
+        6
+      ],
+      "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-6/S6-LOC06-red-square.png",
+          "caption": "Красная площадь зимой",
+          "scenes": [
+            6
+          ],
+          "blob_sha": "bf35a79575de454203d80ace5522c477f2ceda0a",
+          "width": 941,
+          "height": 1672,
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "ChatGPT ImageGen, owner requested location references 18.11.2026"
+      }
+    },
+    {
+      "id": "S6-LOC07-azlk",
+      "name": "Токарный цех",
+      "kind": "location",
+      "scenes": [
+        6
+      ],
+      "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-6/S6-LOC07-azlk.png",
+          "caption": "Токарный цех",
+          "scenes": [
+            6
+          ],
+          "blob_sha": "48b5f7b2776883b6b00c212c6700a3de06508f26",
+          "width": 941,
+          "height": 1672,
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "ChatGPT ImageGen, owner requested location references 18.11.2026"
+      }
+    },
+    {
+      "id": "S6-LOC08-hospital-corridor",
+      "name": "Больничный коридор",
+      "kind": "location",
+      "scenes": [
+        6
+      ],
+      "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-6/S6-LOC08-hospital-corridor.png",
+          "caption": "Больничный коридор",
+          "scenes": [
+            6
+          ],
+          "blob_sha": "247c619adeac4802429ec47dfb1fb51d19daeb85",
+          "width": 1049,
+          "height": 1499,
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "ChatGPT ImageGen, owner requested location references 18.11.2026"
+      }
+    },
+    {
+      "id": "S6-LOC09-hospital-room",
+      "name": "Больничная палата",
+      "kind": "location",
+      "scenes": [
+        6
+      ],
+      "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png",
+          "caption": "Больничная палата",
+          "scenes": [
+            6
+          ],
+          "blob_sha": "b907d3bc52610811c5ac831c73e09dffa99ca696",
+          "width": 1054,
+          "height": 1492,
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "ChatGPT ImageGen, owner requested location references 18.11.2026"
+      }
+    },
+    {
+      "id": "S6-LOC10-cemetery",
+      "name": "Кладбище, дальний план",
+      "kind": "location",
+      "scenes": [
+        6
+      ],
+      "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-6/S6-LOC10-cemetery.png",
+          "caption": "Кладбище, дальний план",
+          "scenes": [
+            6
+          ],
+          "blob_sha": "981a2792b4c45a857bfe98bb5913e55b14887084",
+          "width": 941,
+          "height": 1672,
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "ChatGPT ImageGen, owner requested location references 18.11.2026"
+      }
     }
   ],
   "non_character_reference_rules": [
