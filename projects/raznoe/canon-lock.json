@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:work:2e2b875b-60b5-44c7-9477-ee02d0b27999",
-  "task": "Сцена 6 Стахий: исходник и варианты 15/30 секунд, без генерации",
+  "task": "Стахий: сцена6,10 локаций,25 привязанных DRAFT-промптов; опубликовано и проверено",
   "acquired_at": "2026-11-18T16:55:59.180Z",
-  "expires_at": "2026-11-18T17:40:59.180Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-18T17:20:30.876Z",
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }
