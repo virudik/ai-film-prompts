@@ -1776,7 +1776,9 @@
           "blob_sha": "63820d40786f75697b7c27eb45332f9cfb222789",
           "width": 941,
           "height": 1672,
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "sha256": "90babd927e0ba425af0d917deecaa11b8ebbc648e2b21011ea0895bdf410292c",
+          "bytes": 3394063
         }
       ],
       "editorial_status": "not_approved",
@@ -1803,7 +1805,9 @@
           "blob_sha": "fc8bf43316f1aae1f90e071976813800dc3cc6c9",
           "width": 941,
           "height": 1672,
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "sha256": "2d9c9f55bf640e7532c2f1f9b8676f137de22b8c3cf193174310089c9464cedc",
+          "bytes": 2549468
         }
       ],
       "editorial_status": "not_approved",
@@ -1830,7 +1834,9 @@
           "blob_sha": "f5e4966d6f287d7cd3a9866b30a2bfa643d2f135",
           "width": 1052,
           "height": 1494,
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "sha256": "837b3c2b2ac4a8fc8ad8f09c81de62691af7d4fdaee638909d5f2c2166010ea2",
+          "bytes": 2401204
         }
       ],
       "editorial_status": "not_approved",
@@ -1857,7 +1863,9 @@
           "blob_sha": "ba50f401836a95db0bb5c0b003244a978ed2031f",
           "width": 1055,
           "height": 1491,
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "sha256": "34e52dc5deb372be16a3f84d2a426b631369b8b178d3e1d1afb5125853af4cd5",
+          "bytes": 2126926
         }
       ],
       "editorial_status": "not_approved",
@@ -1884,7 +1892,9 @@
           "blob_sha": "a82fe2077e685f3d74811cd12f14910d9db9dba1",
           "width": 941,
           "height": 1672,
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "sha256": "c20fb33409a9abec6159bc41b317682398e24051a99df99f951ff48a2ebaf5bf",
+          "bytes": 2447794
         }
       ],
       "editorial_status": "not_approved",
@@ -1911,7 +1921,9 @@
           "blob_sha": "bf35a79575de454203d80ace5522c477f2ceda0a",
           "width": 941,
           "height": 1672,
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "sha256": "4b550666f00a5b40927eed232db198d00f5b422727603b1786a0a1b03be8a560",
+          "bytes": 2797165
         }
       ],
       "editorial_status": "not_approved",
@@ -1938,7 +1950,9 @@
           "blob_sha": "48b5f7b2776883b6b00c212c6700a3de06508f26",
           "width": 941,
           "height": 1672,
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "sha256": "d0c143bfe758d6a241aeaf83246ea77896adbd42fbb59ddbf2c6e8dfc0f888b5",
+          "bytes": 2768081
         }
       ],
       "editorial_status": "not_approved",
@@ -1965,7 +1979,9 @@
           "blob_sha": "247c619adeac4802429ec47dfb1fb51d19daeb85",
           "width": 1049,
           "height": 1499,
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "sha256": "00ac6be49fe7b8776bf3db188f1e678c0806eb5964b5bcee046bd61ec68d654f",
+          "bytes": 2192149
         }
       ],
       "editorial_status": "not_approved",
@@ -1992,7 +2008,9 @@
           "blob_sha": "b907d3bc52610811c5ac831c73e09dffa99ca696",
           "width": 1054,
           "height": 1492,
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "sha256": "71e214b21d6d2f8e8e41613b4cd6b6faa92498a09780fbabcb6e7cc813c6ac63",
+          "bytes": 2362159
         }
       ],
       "editorial_status": "not_approved",
@@ -2019,7 +2037,9 @@
           "blob_sha": "981a2792b4c45a857bfe98bb5913e55b14887084",
           "width": 941,
           "height": 1672,
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "sha256": "1845c13ab4da5f1bf0f8df9979c361877f22b7e5499b0b024946c6f45da72eb7",
+          "bytes": 3890794
         }
       ],
       "editorial_status": "not_approved",
