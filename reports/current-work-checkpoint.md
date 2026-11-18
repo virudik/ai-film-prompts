@@ -1,3 +1,7 @@
+# Relay802 · 18.11.2026 · claim published, intent CAS blocked, Create=0
+
+2026-11-18T15:44:28.864971+00:00 · S89D-WAN30-R2. Full scan 15:40:54Z: 5/6. Claim 2512568 / 5f633ff1-7ecb-45d3-97ca-2a9d24c85bb2 retained. Intent CAS failed; readback remains claimed. Verify fail-closed; no Create. Recovery must not replay intent or reset claim. Evidence: reports/topview-queue-2026-10-16/relay802-publish-blocker.json.
+
 # 16.11.2026 — dot: S89C отправлена через cloud browser, 6/6
 
 work_id: SEREGIUS-SHIFT-20261113-T611U

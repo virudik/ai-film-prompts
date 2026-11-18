@@ -124,14 +124,14 @@
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
-      "status": "waiting_for_slot",
-      "updated_at": "2026-11-09T19:04:21+00:00",
+      "status": "blocked_publish",
+      "updated_at": "2026-11-18T15:44:28.864971+00:00",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "2026-11-07T19:12:10.175Z: D7 ordinary takeover to epoch 4; GitHub SHA source 8/8 and invariants 15/15 match; robot telemetry checked 2026-11-07T19:00:28Z: 6/6 occupied (0 free), queue 15 submitted / 26 waiting / 21 blocked_inputs. No website Create/claims/retry/credits.",
         "2026-11-07T19:31:52.758Z: updated handoff 358b9cea and A-01..A-30 statuses bb487775; Topview 6/6/0, ordinary hourly run verified, 6 public shares read, Grok not accessible, Drive Sasha/Vizitka verified, Rutube embeds 3 unavailable; health warning still awaiting readback, honor/resource/joins/SSL print QC open."
       ],
-      "next_action": "Читать живую очередь без дублей. Для Школы (A-33) подтвердить рабочее воспроизведение и приватность перед заменой/архивацией. A-20 требует разрешённой административной сессии Pages. Доделать оригинальные продуктовые PNG HONOR с QC/сохранением; заявка конкурса ждёт настоящего города и согласования теста. RESOURCE/видеостыки остаются QC, Keep/Роскосмос на паузе. Не повторять шесть опубликованных плееров, порядок A-32 и уже исправленный конкурсный мастер.",
+      "next_action": "Reconcile published claim and failed unpublished intent under current official recovery protocol; do not replay intent, delete session markers, clear claim, or Create from this session.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md",
@@ -513,7 +513,8 @@
         "credits_spent": 0,
         "topview_status_checked_at": "2026-11-14T18:10:27Z"
       },
-      "last_phase_ab_check_archive": "archive/work-resume-register-archive.json"
+      "last_phase_ab_check_archive": "archive/work-resume-register-archive.json",
+      "last_relay_receipt": "reports/topview-queue-2026-10-16/relay802-publish-blocker.json"
     },
     {
       "work_id": "S58-P2-CONTINUITY-LAUNCH-20261023",
