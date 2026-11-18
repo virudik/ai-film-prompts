@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:6be37095-5715-40ec-bd3e-b249020c9e7d",
   "task": "Genuine Dot hourly capacity receipt; no Create at 6/6",
   "acquired_at": "2026-11-18T02:58:04.898225+00:00",
-  "expires_at": "2026-11-18T03:08:04.898225+00:00",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-18T02:58:33.504Z",
   "rules": "ops/CANON-LOCK.md"
 }
