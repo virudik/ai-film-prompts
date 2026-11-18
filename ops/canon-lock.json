@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt:ordinary:82f03912-b081-4993-b45f-664c004529c0",
-  "task": "Genuine Relay813 early ACK; no launch until full fresh preflight",
-  "acquired_at": "2026-11-18T21:51:46.074Z",
-  "expires_at": null,
-  "released_at": "2026-11-18T21:52:11.306Z",
+  "task": "Relay813 S89F full preflight and unique launch",
+  "acquired_at": "2026-11-18T22:02:13.949Z",
+  "expires_at": "2026-11-18T22:22:13.949Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
