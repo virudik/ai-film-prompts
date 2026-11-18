@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:43bc6df1-ee56-4f38-bc8f-c7c901104778",
-  "task": "Merge reviewed PR812 only; no queue or launch changes",
-  "acquired_at": "2026-11-18T22:24:26Z",
-  "expires_at": null,
-  "released_at": "2026-11-18T22:25:13.734Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:f0fe2976-c0da-490c-b040-6bbd4d880711",
+  "task": "Owner-approved S89F separate attempt preparation only; no video launch",
+  "acquired_at": "2026-11-18T22:56:08.488Z",
+  "expires_at": "2026-11-18T23:06:08.488Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
