@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "raznoe",
-  "last_updated_at": "2026-11-11T00:06:15+00:00",
+  "last_updated_at": "2026-11-18T16:57:54.902623+00:00",
   "active_work": [
     {
       "work_id": "RAZNOE-SCENE3-RESOURCE",
@@ -264,13 +264,28 @@
         ],
         "blockers": []
       }
+    },
+    {
+      "work_id": "RAZNOE-STAKHIY-SCENE6-20261118",
+      "project": "raznoe",
+      "title": "Стахий: сцена и разбивка 15/30 секунд",
+      "status": "awaiting_editorial_review",
+      "updated_at": "2026-11-18T16:57:54.902623+00:00",
+      "completed": [
+        "18.11.2026: создана сцена 6 «Ради этого стоит жить» по файлу «Фильм Стахий.docx»: 188 с, 9:16, 10 авторских эпизодов, A=15×15 с / B=10×30 с с монтажной обрезкой. Сценарные карточки, не READY. Озвучка эпизода 06 перегружена; фото/внешности и факты реконструкции ждут согласования. Очередь и генерации не менялись."
+      ],
+      "next_action": "Согласовать хронометраж речи и внешности/референсы; не генерировать без отдельной команды.",
+      "canonical_refs": [
+        "projects/raznoe/video-prompts.md#scene-6",
+        "projects/raznoe/references/scenes/scene-6/source-scenario.md"
+      ]
     }
   ],
   "idle_state": null,
   "resume_focus": {
-    "work_id": "RAZNOE-HONOR-X9EPRO-CONTEST-20261107",
+    "work_id": "RAZNOE-STAKHIY-SCENE6-20261118",
     "project": "raznoe",
-    "set_at": "2026-11-11T00:06:15+00:00",
-    "reason": "Explicitly selected by the authorized task writer"
+    "set_at": "2026-11-18T16:57:54.902623+00:00",
+    "reason": "Latest explicit owner scene-creation request"
   }
 }
