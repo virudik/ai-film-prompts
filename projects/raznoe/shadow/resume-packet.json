@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-18T17:01:55+00:00",
-  "source_head": "3acf3d2e420d299b98f4c69c4cdaea9fe8a01433",
-  "source_fingerprint": "230174fbca35408ef4323b17f1bcbe286f5226729ef406c9fcce213f919ba7af",
+  "checked_at": "2026-11-18T17:02:36+00:00",
+  "source_head": "d52fcae88f9bc2974062bfbe1c7fb124445df6c7",
+  "source_fingerprint": "fd21db2689cff7993c9b835d6494619da56d6d7eacea1e5ee102bce25261f9d1",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -32,7 +32,6 @@
     "source_head": "0107904bad80907682f4854768885b56d7d8d8da"
   },
   "reasons": [
-    "project master/status mismatch: raznoe",
     "selected work has no verified recovery record"
   ],
   "selected_work": null,
@@ -225,7 +224,7 @@
     },
     {
       "file": "projects/raznoe/project-status.json",
-      "sha256": "6a0f654804c74fa5f35590dbb357caca94538d1d7c102e3beac4b70aae30d127",
+      "sha256": "a4bdde35349da0e35b47df4528a234e598c7c27242bfa9d4c2ae5f17eb59183f",
       "bytes": 11170
     },
     {
@@ -264,5 +263,5 @@
       "bytes": 1990363
     }
   ],
-  "packet_bytes": 3894
+  "packet_bytes": 3853
 }
