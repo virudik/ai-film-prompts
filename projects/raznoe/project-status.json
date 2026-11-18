@@ -3,12 +3,12 @@
   "source_of_truth": "GitHub main/projects/raznoe/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-18T16:57:55Z",
+  "synced_at": "2026-11-18T17:01:58Z",
   "revision_date": "18.11.2026",
   "master_declared_last_full_sync": "10.11.2026 · сцены 4–5 HONOR: меню, якоря и статусы сверены; канонических продуктовых PNG нет; заявка конкурса не отправлена; видео не запускалось. Сцена 3 RESOURCE без изменений: native-нарезка 19 клипов / 114 с; исходные вкладки 2 × 15 с сохранены; шесть попыток v1 в папке Саши не приняты.",
-  "canonical_master_sha256": "fdce8c1252a5785cc7d08965dfd1085439ed78f8b6590513f6c99d22cdcd727c",
-  "canonical_revision_sha256": "847061afcc7c2b0a45b6d3c3b3e03e7d651af88aacd34f98ae0b22b2e5b0d0c4",
-  "canonical_master_bytes": 741102,
+  "canonical_master_sha256": "88158c9bb5b9710c34f63ac8bcb7ded3557f83583e4ebecda8c42e45a5164385",
+  "canonical_revision_sha256": "faee27b49122a8432a3586544432aa4ba1413f92f8547bf48b2925b132dd8a9a",
+  "canonical_master_bytes": 741224,
   "scenes": 6,
   "prompt_texts": 68,
   "work_items": [],
@@ -31,7 +31,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 5.227,
+    "age_hours_at_status_build": 5.295,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -109,7 +109,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 5.227,
+      "age_hours": 5.295,
       "blocking": false
     },
     "topview_task_map": {
@@ -265,9 +265,9 @@
   },
   "audit_fingerprint": {
     "revision_date": "18.11.2026",
-    "synced_at": "2026-11-18T16:57:55Z",
-    "canonical_master_sha256": "fdce8c1252a5785cc7d08965dfd1085439ed78f8b6590513f6c99d22cdcd727c",
-    "canonical_revision_sha256": "847061afcc7c2b0a45b6d3c3b3e03e7d651af88aacd34f98ae0b22b2e5b0d0c4",
+    "synced_at": "2026-11-18T17:01:58Z",
+    "canonical_master_sha256": "88158c9bb5b9710c34f63ac8bcb7ded3557f83583e4ebecda8c42e45a5164385",
+    "canonical_revision_sha256": "faee27b49122a8432a3586544432aa4ba1413f92f8547bf48b2925b132dd8a9a",
     "scene_count": 6,
     "prompt_count": 68,
     "scene_ids": [
