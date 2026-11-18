@@ -12,48 +12,138 @@
   "source_head": "4b8c0849deb4add6bb02eba39a0f5d22a5d488be",
   "started_at": "2026-11-18T20:54:25.493920Z",
   "receipt_started_at": "2026-11-18T21:03:01.123Z",
-  "updated_at": "2026-11-18T21:03:01.123Z",
-  "completed_at": null,
-  "phase": "started",
-  "status": "in_progress",
+  "updated_at": "2026-11-18T21:31:24.182Z",
+  "completed_at": "2026-11-18T21:31:24.182Z",
+  "phase": "completed",
+  "status": "blocked",
   "execution": {
-    "state": "in_progress",
-    "stage": "lease_acquired_before_launch_scan",
+    "state": "completed",
+    "stage": "browser_upload_interrupted_preclaim",
     "actual_trigger": "scheduled",
     "runtime_run_id": "69a2321c-cf84-832b-9e4a-cf45ddfc2301"
   },
-  "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
-  "selected_item": null,
-  "task_ids": [],
+  "scan_complete": true,
+  "occupied_slots": 5,
+  "free_slots": 1,
+  "selected_item": "S89F-WAN30",
+  "task_ids": [
+    "02fd85ac5fde408285bc439f15ba8239",
+    "9d4b3b177e6d452abe499537a05f454c",
+    "5d1f4fc1b4e548a7828892c73b672990",
+    "90db5dd309db477eb346e8d82676f7b5",
+    "425108630b0e48c9a4b299fc89ad88ee"
+  ],
   "new_submissions": 0,
   "topview_credits_spent": 0,
-  "browser_transport": null,
+  "browser_transport": "authenticated_topview_cloud_browser",
   "lease": {
     "holder": "chatgpt:work:63a7ca83-4d82-4735-bc71-fcf29eb1551b",
     "acquired_at": "2026-11-18T21:02:22.323Z",
     "expires_at": "2026-11-18T21:32:22.323Z",
     "acquisition_commit": "a43d8e7015853e60ee6832ffaabc9e356ee1080a",
     "verified_start_readback": true,
-    "verified_before_final_write": false,
-    "released": false
+    "verified_before_final_write": true,
+    "released": true,
+    "released_at": "2026-11-18T21:31:24.182Z"
   },
   "acceptance": {
     "scheduled_cycle": true,
     "actual_runtime_run_id_verified": true,
     "actual_trigger_verified": true,
-    "full_all_board_scan": false,
-    "current_global_capacity_verified": false,
-    "website_authenticated": false,
-    "unlimited_zero_ui_verified": false,
+    "full_all_board_scan": true,
+    "current_global_capacity_verified": true,
+    "website_authenticated": true,
+    "unlimited_zero_ui_verified": true,
     "item_claim_created": false,
     "submission_intent_created": false,
     "create_clicked": false,
     "new_task_created_by_this_execution": false,
     "task_id_created_by_this_execution": false
   },
-  "outcome": null,
-  "blocker": null,
-  "retryable": true
+  "outcome": "blocked_browser_upload_interrupted_preclaim",
+  "blocker": "Cloud-browser reference upload did not return and the tab became unavailable after interruption. No queue claim, no submission intent and no Create were made; restart requires fresh reconciliation.",
+  "retryable": true,
+  "scan": {
+    "checked_at": "2026-11-18T21:04:48.920890Z",
+    "boards_scanned": 14,
+    "pages_scanned": 19,
+    "video_tasks_total": 680,
+    "status_counts": {
+      "success": 646,
+      "fail": 29,
+      "init": 5
+    },
+    "target_board": {
+      "id": "1a6244cf1ae747ef847d949a80d6133c",
+      "name": "My First Board",
+      "matched_projects_registry": true
+    },
+    "active_tasks": [
+      {
+        "task_id": "02fd85ac5fde408285bc439f15ba8239",
+        "status": "init",
+        "gmtCreate": "2026-11-18 15:56:42",
+        "model": "Seedance 2.0",
+        "duration_seconds": 15,
+        "useUnlimitMode": true,
+        "creditsCost": 0
+      },
+      {
+        "task_id": "9d4b3b177e6d452abe499537a05f454c",
+        "status": "init",
+        "gmtCreate": "2026-11-17 17:56:10",
+        "model": "Wan 3.0",
+        "duration_seconds": 30,
+        "useUnlimitMode": true,
+        "creditsCost": 0
+      },
+      {
+        "task_id": "5d1f4fc1b4e548a7828892c73b672990",
+        "status": "init",
+        "gmtCreate": "2026-11-16 15:58:20",
+        "model": "Wan 3.0",
+        "duration_seconds": 30,
+        "useUnlimitMode": true,
+        "creditsCost": 0
+      },
+      {
+        "task_id": "90db5dd309db477eb346e8d82676f7b5",
+        "status": "init",
+        "gmtCreate": "2026-11-15 15:11:23",
+        "model": "Wan 3.0",
+        "duration_seconds": 30,
+        "useUnlimitMode": true,
+        "creditsCost": 0
+      },
+      {
+        "task_id": "425108630b0e48c9a4b299fc89ad88ee",
+        "status": "init",
+        "gmtCreate": "2026-11-14 21:32:24",
+        "model": "Wan 3.0",
+        "duration_seconds": 30,
+        "useUnlimitMode": true,
+        "creditsCost": 0
+      }
+    ],
+    "item_reconciliation": {
+      "S89D-WAN30-R2": {
+        "state": "foreign_claim_preserved",
+        "claim_id": "5f633ff1-7ecb-45d3-97ca-2a9d24c85bb2",
+        "create_attempted": false
+      },
+      "S89F-WAN30": {
+        "complete": true,
+        "matched_task_ids": [],
+        "ambiguous": false
+      }
+    }
+  },
+  "hangar_archive": {
+    "checked_at": "2026-11-18T20:58:00Z",
+    "topview_count": 26,
+    "new_copies": 0,
+    "note": "No new ready hangar-dance result; current Scene 28 task remains init. Grok files untouched."
+  },
+  "owner_tasks_open_count": 0,
+  "relay_events_new_count": 0
 }

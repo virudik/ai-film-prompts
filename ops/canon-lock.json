@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:work:63a7ca83-4d82-4735-bc71-fcf29eb1551b",
   "task": "HH:55 Topview slot launch and dance archive cycle",
   "acquired_at": "2026-11-18T21:02:22.323Z",
-  "expires_at": "2026-11-18T21:32:22.323Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-18T21:31:24.182Z",
   "rules": "ops/CANON-LOCK.md"
 }
