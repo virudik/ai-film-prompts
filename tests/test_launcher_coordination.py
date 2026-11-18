@@ -555,7 +555,8 @@ class DotRelayRegistrationTests(unittest.TestCase):
         self.cfg = json.loads((Path(__file__).resolve().parents[1] / 'ops/slot-backup.json').read_text())
         fixture = CoordinationTests('test_both_peers_run_independently')
         fixture.setUp()
-        self.actor = dict(fixture.actor, automation_id='6af9b2a7212081919b191786c483ad13',
+        relay = json.loads((Path(__file__).resolve().parents[1] / 'ops/relay-wake.json').read_text())
+        self.actor = dict(fixture.actor, automation_id=relay['handler_automation_id'],
                           route_generation=self.cfg['route_generation'])
         self.lock, self.item, self.scan = fixture.lock, fixture.item, fixture.scan
         self.item['claim']['route_generation'] = self.cfg['route_generation']
@@ -566,6 +567,7 @@ class DotRelayRegistrationTests(unittest.TestCase):
 
     def test_registration_does_not_allow_other_surface_unknown_id_or_stale_generation(self):
         for changes in ({'surface': 'work'}, {'automation_id': 'unregistered-event-handler'},
+                        {'automation_id': '6af9b2a7212081919b191786c483ad13'},
                         {'route_generation': self.cfg['route_generation'] - 1}):
             with self.subTest(changes=changes), self.assertRaises(lc.Blocked):
                 lc.check_route(self.cfg, dict(self.actor, **changes))
