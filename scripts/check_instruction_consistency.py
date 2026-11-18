@@ -35,6 +35,136 @@ STALE_PHRASES = (
 )
 
 
+def dot_current_task_gap(root):
+    """Name Dot's current ordinary tasks without treating that as a live check.
+
+    The automation snapshot still accepts only the previous Work pair. Reading
+    the canon IDs makes the omission explicit; it does not prove prompt,
+    enabled, schedule or subscription, and it does not change those routes.
+    """
+    root = Path(root)
+    ids = []
+    sources = []
+    slot_path = root / 'ops/slot-backup.json'
+    if slot_path.is_file():
+        slot = json.loads(slot_path.read_text(encoding='utf-8'))
+        ordinary = slot.get('peers', {}).get('ordinary', {}).get('automation_ids') or []
+        for item in ordinary:
+            if item and item not in ids:
+                ids.append(item)
+        active = slot.get('active_automation_id')
+        if active and active not in ids:
+            ids.append(active)
+        sources.append('ops/slot-backup.json')
+    wake_path = root / 'ops/relay-wake.json'
+    if wake_path.is_file():
+        handler = json.loads(wake_path.read_text(encoding='utf-8')).get('handler_automation_id')
+        if handler and handler not in ids:
+            ids.append(handler)
+        sources.append('ops/relay-wake.json')
+    return {
+        'status': 'not_checked',
+        'ids': ids,
+        'sources': sources,
+        'reason': 'No fresh Dot snapshot supplied; canonical IDs are not live verification.',
+    }
+
+
+def check_dot_tasks(root, snapshot, now):
+    """Read-only configuration checks, never runtime or delivery certification."""
+    result = dot_current_task_gap(root)
+    result.update(runtime_status='not_checked', observations=[], problems=[])
+    if snapshot is None:
+        return result
+    errors = result['problems']
+    if not isinstance(snapshot, dict):
+        errors.append('dot-observation-invalid-or-stale')
+        result['reason'] = 'Snapshot must be an object.'
+        return result
+    def require(ok, code):
+        if not ok:
+            errors.append(code)
+    try:
+        seen = datetime.fromisoformat(snapshot['checked_at'].replace('Z', '+00:00'))
+        fresh = seen.tzinfo is not None and 0 <= (now - seen).total_seconds() <= 3600
+    except (KeyError, ValueError, TypeError, AttributeError):
+        fresh = False
+    if not fresh or snapshot.get('source') != 'automations.get':
+        result['reason'] = 'Fresh timestamp and automations.get source required.'
+        errors.append('dot-observation-invalid-or-stale')
+        return result
+    root = Path(root)
+    try:
+        slot = json.loads((root / 'ops/slot-backup.json').read_text())
+        wake = json.loads((root / 'ops/relay-wake.json').read_text())
+        hourly, relay = slot['active_automation_id'], wake['handler_automation_id']
+        allowed = slot['peers']['ordinary']['automation_ids']
+        require(hourly != relay and {hourly, relay} <= set(allowed), 'dot-canonical-ids')
+    except (OSError, ValueError, KeyError, TypeError):
+        result['reason'] = 'Canonical Dot task registry unavailable.'
+        errors.append('dot-registry-unavailable')
+        return result
+    items = snapshot.get('automations', [])
+    require(isinstance(items, list) and len(items) == 2 and
+            all(isinstance(a, dict) for a in items) and
+            {a.get('id') for a in items} == {hourly, relay}, 'dot-automation-set')
+    for a in items if isinstance(items, list) else []:
+        if not isinstance(a, dict) or a.get('id') not in (hourly, relay):
+            continue
+        aid = a['id']; prompt = a.get('prompt', ''); schedule = a.get('schedule', '')
+        if not isinstance(prompt, str):
+            prompt = ''
+        if not isinstance(schedule, str):
+            schedule = ''
+        enabled = a.get('is_enabled') is True
+        require(enabled, 'dot-disabled:' + aid)
+        required = ('PRIMARY-BACKUP-WAKE', 'LAUNCHER-COORDINATION', 'TOPVIEW-RETRY',
+                    'CAS', 'readback', 'Unlimited', 'PROVENANCE')
+        prompt_ok = isinstance(prompt, str) and all(x in prompt for x in required)
+        require(prompt_ok, 'dot-prompt-invariants:' + aid)
+        rules = []
+        schedule_valid = True
+        for line in schedule.splitlines():
+            if line.startswith(('RDATE', 'EXDATE', 'EXRULE')):
+                schedule_valid = False
+            if line.startswith('RRULE:'):
+                rule = {}
+                for part in line[6:].split(';'):
+                    if '=' not in part:
+                        schedule_valid = False
+                        continue
+                    key, value = part.split('=', 1)
+                    if key in rule or not key or not value:
+                        schedule_valid = False
+                    rule[key] = value
+                rules.append(rule)
+        if aid == hourly:
+            schedule_ok = (schedule_valid and len(rules) == 1 and rules[0].get('FREQ') == 'HOURLY' and
+                           rules[0].get('INTERVAL', '1') == '1' and rules[0].get('BYMINUTE') == '0' and
+                           rules[0].get('BYSECOND') == '0' and
+                           set(rules[0]) <= {'FREQ', 'INTERVAL', 'BYMINUTE', 'BYSECOND'} and
+                           a.get('default_timezone') == slot.get('timezone') == 'Europe/Moscow' and
+                           'X-UNSCHEDULED:1' not in schedule)
+        else:
+            schedule_ok = schedule_valid and 'X-UNSCHEDULED:1' in schedule.splitlines() and not rules and 'RDATE' not in schedule
+        require(schedule_ok, 'dot-schedule:' + aid)
+        result['observations'].append({'id': aid, 'enabled': 'ok' if enabled else 'warn',
+            'prompt_invariants': 'ok' if prompt_ok else 'warn', 'schedule': 'ok' if schedule_ok else 'warn',
+            'updated_at': a.get('updated_at'), 'prompt_sha256': hashlib.sha256(prompt.encode()).hexdigest()})
+    # Connector-wide subscription counts cannot establish task-specific binding.
+    subs = snapshot.get('relay_subscriptions')
+    if not isinstance(subs, list) or not any(isinstance(s, dict) and s.get('automation_id') == relay for s in subs):
+        result['subscription_status'] = 'not_checked'
+    else:
+        bound = [s for s in subs if isinstance(s, dict) and s.get('automation_id') == relay and s.get('active') is True]
+        ok = len(bound) == 1 and bound[0].get('event') == 'relay.message' and bound[0].get('arguments') == {}
+        result['subscription_status'] = 'ok' if ok else 'warn'
+        require(ok, 'dot-relay-subscription')
+    result['status'] = 'warn' if errors else ('ok' if result['subscription_status'] == 'ok' else 'partial')
+    result['reason'] = 'Selected configuration invariants only; subscription without exact task binding is not_checked. Runtime and delivery are not checked.'
+    return result
+
+
 def stale_phrases(root):
     root = Path(root)
     found = []
@@ -50,7 +180,7 @@ def stale_phrases(root):
     return found
 
 
-def check(root, snapshot=None, now=None):
+def check(root, snapshot=None, now=None, dot_snapshot=None):
     root = Path(root)
     now = now or datetime.now(timezone.utc)
     problems = []
@@ -118,19 +248,24 @@ def check(root, snapshot=None, now=None):
         require(len(subs) == 1 and subs[0].get('event') == 'relay.message' and
                 subs[0].get('active') is True and subs[0].get('arguments') == {}, 'relay-subscription')
     problems.extend(stale_phrases(root))
+    dot_result = check_dot_tasks(root, dot_snapshot, now)
+    problems.extend(dot_result['problems'])
     return {'schema_version': 1, 'checked_at': now.isoformat(), 'status': 'warn' if problems else 'ok',
             'scope': 'Selected consistency invariants only; full semantic review and runtime success are separate.',
-            'live_automations': live_status, 'automation_observations': observations, 'problems': problems}
+            'live_automations': live_status, 'automation_observations': observations,
+            'dot_current_tasks': dot_result, 'problems': problems}
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('root', nargs='?', default='.')
     ap.add_argument('--automations', help='Fresh sanitized peek snapshot in a local temporary file')
+    ap.add_argument('--dot-automations', help='Fresh read-only Dot get snapshot; independent of legacy Work pair')
     ap.add_argument('--write', action='store_true')
     a = ap.parse_args()
     snapshot = json.loads(Path(a.automations).read_text()) if a.automations else None
-    result = check(a.root, snapshot)
+    dot_snapshot = json.loads(Path(a.dot_automations).read_text()) if a.dot_automations else None
+    result = check(a.root, snapshot, dot_snapshot=dot_snapshot)
     text = json.dumps(result, ensure_ascii=False, indent=2) + '\n'
     if a.write:
         path = Path(a.root) / 'reports/instruction-consistency.json'
