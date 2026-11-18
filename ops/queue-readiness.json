@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "350ce7a48b9930e2ef395fe15f6d8fd6e0861d3310d745f9757b2b51280c0ec7",
+  "source_queue_sha256": "6e8a65bbf0d856f22fd82ccf47809b7c2462ad3079bc715b94e93bd84b6ce421",
   "source_task_map_sha256": "34e3d164e758e750b6f862708d0b9be80fccd0c28cde8bb4312528af2f8d0dad",
   "topview_checked_at": "2026-11-18T15:20:35Z",
   "items": [
@@ -179,19 +179,19 @@
       "id": "S89F-WAN30",
       "scene_id": 89,
       "part_label": "89F · Wan 3.0",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
-      "queue_state": "waiting_for_slot"
+      "code": "blocked_model_preparation",
+      "ready": false,
+      "text": "Нужна подготовка промта",
+      "queue_state": "blocked_model_preparation"
     },
     {
       "id": "S89G-WAN30",
       "scene_id": 89,
       "part_label": "89G · Wan 3.0",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
-      "queue_state": "waiting_for_slot"
+      "code": "blocked_model_preparation",
+      "ready": false,
+      "text": "Нужна подготовка промта",
+      "queue_state": "blocked_model_preparation"
     },
     {
       "id": "S89H-WAN30",
@@ -222,5 +222,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-18T15:42:33.048639Z"
+  "checked_at": "2026-11-18T15:50:40.587411Z"
 }
