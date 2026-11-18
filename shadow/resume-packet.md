@@ -3,7 +3,7 @@
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
 Состояние: ready
-Проверено: 2026-11-18T15:52:43+00:00
+Проверено: 2026-11-18T15:54:55+00:00
 Задача: SEREGIUS-SHIFT-20261113-T611U — Смена 13.11 t611u: очередь 48.4 и 89, отзыв по версиям Grok
 
 Последний подтверждённый этап: S89C submitted, task 5d1f4fc1b4e548a7828892c73b672990, Unlimited0; post-scan6/6
@@ -53,6 +53,7 @@ checked_at: 2026-11-16T15:59:03.424Z
 
 Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconcile first; no retry.
 Задач с сохранённым task ID: 94
+- S28-A1-R2-20261025: reconcile_without_resubmitting
 - S89D-WAN30-R2: reconcile_without_resubmitting
 
 ## Пробелы
