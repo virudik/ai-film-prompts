@@ -180,3 +180,8 @@ class DotConfigurationTests(unittest.TestCase):
                          'RRULE:FREQ=HOURLY;BYMINUTE=0;BYSECOND=0\nEXDATE:20261119T000000Z'):
             self.snapshot['automations'][0]['schedule'] = schedule
             self.assertIn('dot-schedule:' + self.hourly, self.check()['problems'])
+
+    def test_malformed_snapshot_and_null_timestamp(self):
+        self.snapshot['checked_at'] = None
+        self.assertEqual(self.check()['status'], 'not_checked')
+        self.assertEqual(ci.check_dot_tasks(ROOT, [], self.now)['status'], 'not_checked')

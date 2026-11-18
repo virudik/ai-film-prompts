@@ -77,13 +77,17 @@ def check_dot_tasks(root, snapshot, now):
     if snapshot is None:
         return result
     errors = result['problems']
+    if not isinstance(snapshot, dict):
+        errors.append('dot-observation-invalid-or-stale')
+        result['reason'] = 'Snapshot must be an object.'
+        return result
     def require(ok, code):
         if not ok:
             errors.append(code)
     try:
         seen = datetime.fromisoformat(snapshot['checked_at'].replace('Z', '+00:00'))
         fresh = seen.tzinfo is not None and 0 <= (now - seen).total_seconds() <= 3600
-    except (KeyError, ValueError, TypeError):
+    except (KeyError, ValueError, TypeError, AttributeError):
         fresh = False
     if not fresh or snapshot.get('source') != 'automations.get':
         result['reason'] = 'Fresh timestamp and automations.get source required.'
