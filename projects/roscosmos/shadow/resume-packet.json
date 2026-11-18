@@ -3,14 +3,16 @@
   "generator": "continue-2.0",
   "project": "roscosmos",
   "project_name": "Роскосмос",
-  "checked_at": "2026-11-18T16:03:19+00:00",
-  "source_head": "9ac90b1f1e757a8450ff8c437dcadcda6815a8b5",
-  "source_fingerprint": "ab11d8a1f5943f5e351146ff8f5e36549ae80a75e1ec83be0107f6d688c32e4e",
+  "checked_at": "2026-11-18T16:06:55+00:00",
+  "source_head": "70ad28a2f403126d5fba2b5e09848c331fff0d45",
+  "source_fingerprint": "b7fd072ede6d62c1d1d1aaab212a22e0d5b7facfeaa3322a8e71d4d5cc62e375",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": null,
   "reasons": [
+    "brief was invalid at generation",
+    "master vs project-status sha256 mismatch",
     "recovery evidence changed: projects/roscosmos/reports/terratech-revision-2026-11-04.json"
   ],
   "selected_work": null,
@@ -233,14 +235,14 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "36c0f75bdd3047a30d9ecdd20dd8e736ef51409df3c7b4ae2678b6dcb7675374",
-      "bytes": 32407
+      "sha256": "8c205d85199b0af6027c69677d83b3dd7da0db89cfcc5466106c3277ef55b2cc",
+      "bytes": 32408
     },
     {
       "file": "video-prompts.md",
-      "sha256": "1e707b45246ff236b3f3b766676f6d97ad1ad09e4a4c275d9be17971a19b52f2",
-      "bytes": 1989868
+      "sha256": "f5d9c8329d13ed24981b0fa03c2aff36eb4dc0835ec4d514bdf12e9499ef410f",
+      "bytes": 1990363
     }
   ],
-  "packet_bytes": 4683
+  "packet_bytes": 4760
 }

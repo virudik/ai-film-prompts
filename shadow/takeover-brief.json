@@ -2,8 +2,8 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-11-18T16:03:19+00:00",
- "valid_at_generation": true,
+ "generated_at": "2026-11-18T16:06:55+00:00",
+ "valid_at_generation": false,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
  "sources": [
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "1e707b45246ff236b3f3b766676f6d97ad1ad09e4a4c275d9be17971a19b52f2",
-   "bytes": 1989868
+   "sha256": "f5d9c8329d13ed24981b0fa03c2aff36eb4dc0835ec4d514bdf12e9499ef410f",
+   "bytes": 1990363
   }
  ],
  "invariants": [
@@ -1285,8 +1285,8 @@
     "@Image5"
    ],
    "offset": 1677108,
-   "chars": 105072,
-   "sha256_12": "efbe9089c6cf"
+   "chars": 105567,
+   "sha256_12": "5facf8b2786b"
   }
  ],
  "read_sets": {

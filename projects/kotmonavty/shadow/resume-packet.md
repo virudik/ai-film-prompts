@@ -3,7 +3,7 @@
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project kotmonavty`; разрешением на запуск не является.
 
 Состояние: needs_recovery
-Проверено: 2026-11-18T16:03:19+00:00
+Проверено: 2026-11-18T16:06:55+00:00
 Задача: не определена — 
 
 Последний подтверждённый этап: нет доказательств
@@ -59,4 +59,6 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 
 ## Пробелы
 
+- brief was invalid at generation
+- master vs project-status sha256 mismatch
 - recovery evidence changed: projects/kotmonavty/ops/topview-launch-queue.json

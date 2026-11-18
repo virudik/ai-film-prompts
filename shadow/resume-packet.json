@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-18T16:03:19+00:00",
-  "source_head": "9ac90b1f1e757a8450ff8c437dcadcda6815a8b5",
-  "source_fingerprint": "801f5bf1fd46264f844619864f36ab1ec44473cc3f27b6f6f423575b6f4b1617",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-11-18T16:06:55+00:00",
+  "source_head": "70ad28a2f403126d5fba2b5e09848c331fff0d45",
+  "source_fingerprint": "471ee4a7155e1698f7b0fb13819a20732071a9f6c2b941f4b12549a4916eb6b7",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "dot-takeover-20261115-a83fdec7",
@@ -30,7 +30,10 @@
     },
     "source_head": "91e36aa5b674ee66df422bfa9873fcfc7241e012"
   },
-  "reasons": [],
+  "reasons": [
+    "brief was invalid at generation",
+    "master vs project-status sha256 mismatch"
+  ],
   "selected_work": {
     "work_id": "SEREGIUS-SHIFT-20261113-T611U",
     "title": "Смена 13.11 t611u: очередь 48.4 и 89, отзыв по версиям Grok",
@@ -626,7 +629,7 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "2b5d7a26dc985a9a4529e96396f5ce4bf904c172ec1a51e5e4f3a944ada803d6",
+      "sha256": "0a0b8b5d0a15f778441e8a5c6af2ff56ec4aff18389a2f531d45dda11356d0ce",
       "bytes": 251256
     },
     {
@@ -656,13 +659,13 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "36c0f75bdd3047a30d9ecdd20dd8e736ef51409df3c7b4ae2678b6dcb7675374",
-      "bytes": 32407
+      "sha256": "8c205d85199b0af6027c69677d83b3dd7da0db89cfcc5466106c3277ef55b2cc",
+      "bytes": 32408
     },
     {
       "file": "video-prompts.md",
-      "sha256": "1e707b45246ff236b3f3b766676f6d97ad1ad09e4a4c275d9be17971a19b52f2",
-      "bytes": 1989868
+      "sha256": "f5d9c8329d13ed24981b0fa03c2aff36eb4dc0835ec4d514bdf12e9499ef410f",
+      "bytes": 1990363
     },
     {
       "file": "work-resume-register.json",
@@ -670,5 +673,5 @@
       "bytes": 95324
     }
   ],
-  "packet_bytes": 5097
+  "packet_bytes": 5065
 }
