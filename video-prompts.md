@@ -16159,7 +16159,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 **Обе длительности, одни и те же картинки.** Вкладка «30 с · Wan 3.0 / Seedance 2.5» — один непрерывный дубль: завязка, развитие, удар реплики. Вкладка «Seedance 2.0 · 15 с» — та же сцена и тот же порядок @Image1…N, короче. Основной запуск переделки, когда владелец его разрешит, — 15 с Seedance 2.0, omni. Пока файлов картинок в репозитории нет.
 
-**Входы:** @Image1 — `references/scenes/scene-89/shared/holo-man.jpg` — the seated bald man in dark purple robes. Original hologram slot <<<Image2>>>. Shared file; @Image2 — `references/scenes/scene-89/shared/holo-office.jpg` — the circular night office. Original slot <<<Image3>>>. Shared file; @Image3 — `references/scenes/scene-89/shared/holo-woman.jpg` — the woman hologram, not a solid person. Original slot <<<Image4>>>. Shared file.
+**Входы:** @Image1 — `references/scenes/scene-89/shared/holo-man.jpg` — the seated bald man in dark purple robes. Historical hologram source slot 2 (not a current reference). Shared file; @Image2 — `references/scenes/scene-89/shared/holo-office.jpg` — the circular night office. Historical source slot 3 (not a current reference). Shared file; @Image3 — `references/scenes/scene-89/shared/holo-woman.jpg` — the woman hologram, not a solid person. Historical source slot 4 (not a current reference). Shared file.
 
 v1 (e3199a14) ещё опирался на <<<Video1>>>. В перезапуск видеовход не входит.
 
@@ -16169,16 +16169,16 @@ v1 (e3199a14) ещё опирался на <<<Video1>>>. В перезапуск
 
 #### 89F · Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — `references/scenes/scene-89/shared/holo-man.jpg` — the seated bald man in dark purple robes. Original hologram slot <<<Image2>>>. Shared file; @Image2 — `references/scenes/scene-89/shared/holo-office.jpg` — the circular night office. Original slot <<<Image3>>>. Shared file; @Image3 — `references/scenes/scene-89/shared/holo-woman.jpg` — the woman hologram, not a solid person. Original slot <<<Image4>>>. Shared file.
+**Входы:** @Image1 — `references/scenes/scene-89/shared/holo-man.jpg` — the seated bald man in dark purple robes. Historical hologram source slot 2 (not a current reference). Shared file; @Image2 — `references/scenes/scene-89/shared/holo-office.jpg` — the circular night office. Historical source slot 3 (not a current reference). Shared file; @Image3 — `references/scenes/scene-89/shared/holo-woman.jpg` — the woman hologram, not a solid person. Historical source slot 4 (not a current reference). Shared file.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 / Seedance 2.5 | Photoreal hologram call, bread and milk
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 = references/scenes/scene-89/shared/holo-man.jpg — the seated bald man in dark purple robes. Original hologram slot <<<Image2>>>. Shared file.
-@Image2 = references/scenes/scene-89/shared/holo-office.jpg — the circular night office. Original slot <<<Image3>>>. Shared file.
-@Image3 = references/scenes/scene-89/shared/holo-woman.jpg — the woman hologram, not a solid person. Original slot <<<Image4>>>. Shared file.
+@Image1 = references/scenes/scene-89/shared/holo-man.jpg — the seated bald man in dark purple robes. Historical hologram source slot 2 (not a current reference). Shared file.
+@Image2 = references/scenes/scene-89/shared/holo-office.jpg — the circular night office. Historical source slot 3 (not a current reference). Shared file.
+@Image3 = references/scenes/scene-89/shared/holo-woman.jpg — the woman hologram, not a solid person. Historical source slot 4 (not a current reference). Shared file.
 Order is fixed. The 15s and 30s versions of this sub-scene use this same order and these same files.
 Attached images are the only visual authority for this generation. If a sentence conflicts with an attached image, follow the image. Do not invent extra reference slots.
 
@@ -16223,16 +16223,16 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### 89F · Seedance 2.0 · 15 с
 
-**Входы:** @Image1 — `references/scenes/scene-89/shared/holo-man.jpg` — the seated bald man in dark purple robes. Original hologram slot <<<Image2>>>. Shared file; @Image2 — `references/scenes/scene-89/shared/holo-office.jpg` — the circular night office. Original slot <<<Image3>>>. Shared file; @Image3 — `references/scenes/scene-89/shared/holo-woman.jpg` — the woman hologram, not a solid person. Original slot <<<Image4>>>. Shared file.
+**Входы:** @Image1 — `references/scenes/scene-89/shared/holo-man.jpg` — the seated bald man in dark purple robes. Historical hologram source slot 2 (not a current reference). Shared file; @Image2 — `references/scenes/scene-89/shared/holo-office.jpg` — the circular night office. Historical source slot 3 (not a current reference). Shared file; @Image3 — `references/scenes/scene-89/shared/holo-woman.jpg` — the woman hologram, not a solid person. Historical source slot 4 (not a current reference). Shared file.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal hologram call, bread and milk
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 = references/scenes/scene-89/shared/holo-man.jpg — the seated bald man in dark purple robes. Original hologram slot <<<Image2>>>. Shared file.
-@Image2 = references/scenes/scene-89/shared/holo-office.jpg — the circular night office. Original slot <<<Image3>>>. Shared file.
-@Image3 = references/scenes/scene-89/shared/holo-woman.jpg — the woman hologram, not a solid person. Original slot <<<Image4>>>. Shared file.
+@Image1 = references/scenes/scene-89/shared/holo-man.jpg — the seated bald man in dark purple robes. Historical hologram source slot 2 (not a current reference). Shared file.
+@Image2 = references/scenes/scene-89/shared/holo-office.jpg — the circular night office. Historical source slot 3 (not a current reference). Shared file.
+@Image3 = references/scenes/scene-89/shared/holo-woman.jpg — the woman hologram, not a solid person. Historical source slot 4 (not a current reference). Shared file.
 Order is fixed. The 15s and 30s versions of this sub-scene use this same order and these same files.
 Attached images are the only visual authority for this generation. If a sentence conflicts with an attached image, follow the image. Do not invent extra reference slots.
 
@@ -16300,7 +16300,7 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 **Обе длительности, одни и те же картинки.** Вкладка «30 с · Wan 3.0 / Seedance 2.5» — один непрерывный дубль: завязка, развитие, удар реплики. Вкладка «Seedance 2.0 · 15 с» — та же сцена и тот же порядок @Image1…N, короче. Основной запуск переделки, когда владелец его разрешит, — 15 с Seedance 2.0, omni. Пока файлов картинок в репозитории нет.
 
-**Входы:** @Image1 — `references/scenes/scene-89/shared/holo-office.jpg` — circular night office. Original slot Image1 of 1a40a6f4. Same bytes as the hologram office (was <<<Image3>>> there); @Image2 — `references/scenes/scene-89/shared/holo-man.jpg` — seated bald man. Original slot Image2. Same bytes as the hologram man; @Image3 — `references/scenes/scene-89/shared/holo-woman.jpg` — woman hologram. Original slot Image3. Same bytes as the hologram woman; @Image4 — `references/scenes/scene-89/89G/Image4.png` — over-the-shoulder framing of the same two. Original slot Image4; @Image5 — `references/scenes/scene-89/89G/Image5.png` — tight holographic face of the same woman. Original slot Image5.
+**Входы:** @Image1 — `references/scenes/scene-89/shared/holo-office.jpg` — circular night office. Original slot Image1 of 1a40a6f4. Same bytes as the hologram office (historical source slot 3, not a current reference); @Image2 — `references/scenes/scene-89/shared/holo-man.jpg` — seated bald man. Original slot Image2. Same bytes as the hologram man; @Image3 — `references/scenes/scene-89/shared/holo-woman.jpg` — woman hologram. Original slot Image3. Same bytes as the hologram woman; @Image4 — `references/scenes/scene-89/89G/Image4.png` — over-the-shoulder framing of the same two. Original slot Image4; @Image5 — `references/scenes/scene-89/89G/Image5.png` — tight holographic face of the same woman. Original slot Image5.
 
 v1–v4 ссылались на картинки со 2-й, без отдельного Image1. Их файлы, когда придут, лягут в tasks/<task_id>/ и в этот перезапуск не подмешиваются.
 
@@ -16310,14 +16310,14 @@ v1–v4 ссылались на картинки со 2-й, без отдель�
 
 #### 89G · Wan 3.0 / Seedance 2.5 · 30 с
 
-**Входы:** @Image1 — `references/scenes/scene-89/shared/holo-office.jpg` — circular night office. Original slot Image1 of 1a40a6f4. Same bytes as the hologram office (was <<<Image3>>> there); @Image2 — `references/scenes/scene-89/shared/holo-man.jpg` — seated bald man. Original slot Image2. Same bytes as the hologram man; @Image3 — `references/scenes/scene-89/shared/holo-woman.jpg` — woman hologram. Original slot Image3. Same bytes as the hologram woman; @Image4 — `references/scenes/scene-89/89G/Image4.png` — over-the-shoulder framing of the same two. Original slot Image4; @Image5 — `references/scenes/scene-89/89G/Image5.png` — tight holographic face of the same woman. Original slot Image5.
+**Входы:** @Image1 — `references/scenes/scene-89/shared/holo-office.jpg` — circular night office. Original slot Image1 of 1a40a6f4. Same bytes as the hologram office (historical source slot 3, not a current reference); @Image2 — `references/scenes/scene-89/shared/holo-man.jpg` — seated bald man. Original slot Image2. Same bytes as the hologram man; @Image3 — `references/scenes/scene-89/shared/holo-woman.jpg` — woman hologram. Original slot Image3. Same bytes as the hologram woman; @Image4 — `references/scenes/scene-89/89G/Image4.png` — over-the-shoulder framing of the same two. Original slot Image4; @Image5 — `references/scenes/scene-89/89G/Image5.png` — tight holographic face of the same woman. Original slot Image5.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 / Seedance 2.5 | Photoreal hologram warning about the map
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 = references/scenes/scene-89/shared/holo-office.jpg — circular night office. Original slot Image1 of 1a40a6f4. Same bytes as the hologram office (was <<<Image3>>> there).
+@Image1 = references/scenes/scene-89/shared/holo-office.jpg — circular night office. Original slot Image1 of 1a40a6f4. Same bytes as the hologram office (historical source slot 3, not a current reference).
 @Image2 = references/scenes/scene-89/shared/holo-man.jpg — seated bald man. Original slot Image2. Same bytes as the hologram man.
 @Image3 = references/scenes/scene-89/shared/holo-woman.jpg — woman hologram. Original slot Image3. Same bytes as the hologram woman.
 @Image4 = references/scenes/scene-89/89G/Image4.png — over-the-shoulder framing of the same two. Original slot Image4.
@@ -16365,14 +16365,14 @@ Full 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, dec
 
 #### 89G · Seedance 2.0 · 15 с
 
-**Входы:** @Image1 — `references/scenes/scene-89/shared/holo-office.jpg` — circular night office. Original slot Image1 of 1a40a6f4. Same bytes as the hologram office (was <<<Image3>>> there); @Image2 — `references/scenes/scene-89/shared/holo-man.jpg` — seated bald man. Original slot Image2. Same bytes as the hologram man; @Image3 — `references/scenes/scene-89/shared/holo-woman.jpg` — woman hologram. Original slot Image3. Same bytes as the hologram woman; @Image4 — `references/scenes/scene-89/89G/Image4.png` — over-the-shoulder framing of the same two. Original slot Image4; @Image5 — `references/scenes/scene-89/89G/Image5.png` — tight holographic face of the same woman. Original slot Image5.
+**Входы:** @Image1 — `references/scenes/scene-89/shared/holo-office.jpg` — circular night office. Original slot Image1 of 1a40a6f4. Same bytes as the hologram office (historical source slot 3, not a current reference); @Image2 — `references/scenes/scene-89/shared/holo-man.jpg` — seated bald man. Original slot Image2. Same bytes as the hologram man; @Image3 — `references/scenes/scene-89/shared/holo-woman.jpg` — woman hologram. Original slot Image3. Same bytes as the hologram woman; @Image4 — `references/scenes/scene-89/89G/Image4.png` — over-the-shoulder framing of the same two. Original slot Image4; @Image5 — `references/scenes/scene-89/89G/Image5.png` — tight holographic face of the same woman. Original slot Image5.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal hologram warning about the map
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 = references/scenes/scene-89/shared/holo-office.jpg — circular night office. Original slot Image1 of 1a40a6f4. Same bytes as the hologram office (was <<<Image3>>> there).
+@Image1 = references/scenes/scene-89/shared/holo-office.jpg — circular night office. Original slot Image1 of 1a40a6f4. Same bytes as the hologram office (historical source slot 3, not a current reference).
 @Image2 = references/scenes/scene-89/shared/holo-man.jpg — seated bald man. Original slot Image2. Same bytes as the hologram man.
 @Image3 = references/scenes/scene-89/shared/holo-woman.jpg — woman hologram. Original slot Image3. Same bytes as the hologram woman.
 @Image4 = references/scenes/scene-89/89G/Image4.png — over-the-shoulder framing of the same two. Original slot Image4.

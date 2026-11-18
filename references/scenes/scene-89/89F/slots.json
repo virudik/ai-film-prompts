@@ -10,7 +10,7 @@
     {
       "slot": "@Image1",
       "path": "references/scenes/scene-89/shared/holo-man.jpg",
-      "role": "the seated bald man in dark purple robes. Original hologram slot <<<Image2>>>. Shared file.",
+      "role": "the seated bald man in dark purple robes. Historical hologram source slot 2 (not a current reference). Shared file.",
       "status": "available",
       "shared_by_durations_s": [
         15,
@@ -20,7 +20,7 @@
     {
       "slot": "@Image2",
       "path": "references/scenes/scene-89/shared/holo-office.jpg",
-      "role": "the circular night office. Original slot <<<Image3>>>. Shared file.",
+      "role": "the circular night office. Historical source slot 3 (not a current reference). Shared file.",
       "status": "available",
       "shared_by_durations_s": [
         15,
@@ -30,7 +30,7 @@
     {
       "slot": "@Image3",
       "path": "references/scenes/scene-89/shared/holo-woman.jpg",
-      "role": "the woman hologram, not a solid person. Original slot <<<Image4>>>. Shared file.",
+      "role": "the woman hologram, not a solid person. Historical source slot 4 (not a current reference). Shared file.",
       "status": "available",
       "shared_by_durations_s": [
         15,
