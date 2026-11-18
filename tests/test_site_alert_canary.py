@@ -73,6 +73,29 @@ class CanaryTests(unittest.TestCase):
         self.assertEqual(canary.send(self.root, 'site-test-123', 'dot', True, fail), ('error', 'HTTP 503'))
         self.assertFalse((self.root / 'reports').exists())
 
+    def test_exact_test_target_override_no_configuration_writes(self):
+        before = (self.root / 'ops/relay-wake.json').read_bytes()
+        target = 'GrokBotWake@cloud-248663208472330240'
+        result = canary.send(self.root, 'site-v2-grok-canary-20261118-completion',
+                             'grok', True, self.sender, test_address=target)
+        self.assertEqual(result[0], 'sent')
+        self.assertEqual(self.calls[-1][1]['address'], target)
+        self.assertEqual((self.root / 'ops/relay-wake.json').read_bytes(), before)
+        self.assertFalse((self.root / 'reports').exists())
+
+    def test_override_rejects_other_id_actor_address_and_enabled_v2(self):
+        target = 'GrokBotWake@cloud-248663208472330240'
+        tid = 'site-v2-grok-canary-20261118-completion'
+        for test_id, actor, address in [('other-test-id', 'grok', target),
+                (tid, 'dot', target), (tid, 'grok', 'other@example'), (tid, 'grok', '')]:
+            self.assertEqual(canary.send(self.root, test_id, actor, True,
+                self.sender, test_address=address)[0], 'error')
+        self.cfg['site_alert_routing']['enabled'] = True
+        self.save()
+        self.assertEqual(canary.send(self.root, tid, 'grok', True,
+            self.sender, test_address=target)[0], 'error')
+        self.assertEqual(self.calls, [])
+
     def test_workflow_manual_main_only_and_no_write_permissions(self):
         text = (ROOT / '.github/workflows/site-alert-canary.yml').read_text()
         self.assertIn("github.ref == 'refs/heads/main' && inputs.confirm_read_only == true", text)

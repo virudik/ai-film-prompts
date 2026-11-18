@@ -11,6 +11,12 @@ on:
         required: true
         type: choice
         options: [dot, grok]
+      test_address:
+        description: Optional exact allowlisted test-only address; never changes production
+        required: false
+        type: choice
+        default: configured
+        options: [configured, 'GrokBotWake@cloud-248663208472330240']
       confirm_read_only:
         description: Explicitly authorize one read-only canary message
         type: boolean
@@ -31,4 +37,10 @@ jobs:
           AGENT_RELAY_TOKEN: ${{ secrets.AGENT_RELAY_TOKEN }}
           TEST_ID: ${{ inputs.test_id }}
           RECIPIENT: ${{ inputs.recipient }}
-        run: python3 scripts/site_alert_canary.py --test-id "$TEST_ID" --recipient "$RECIPIENT" --confirm-read-only
+          TEST_ADDRESS: ${{ inputs.test_address }}
+        run: |
+          args=()
+          if [ -n "$TEST_ADDRESS" ] && [ "$TEST_ADDRESS" != configured ]; then
+            args+=(--test-address "$TEST_ADDRESS")
+          fi
+          python3 scripts/site_alert_canary.py --test-id "$TEST_ID" --recipient "$RECIPIENT" --confirm-read-only "${args[@]}"

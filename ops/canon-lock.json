@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:site-canary:7f1856de-1ee0-47c1-8449-d901a6e1b3f9",
   "task": "Publish exact read-only GrokWake canary target; no production or legacy changes",
   "acquired_at": "2026-11-18T17:03:22Z",
-  "expires_at": "2026-11-18T17:13:22Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-18T17:05:01Z",
   "rules": "ops/CANON-LOCK.md"
 }

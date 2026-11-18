@@ -6,7 +6,14 @@ import relay_wake
 import wake_roles
 
 
-def send(root, test_id, recipient, confirm=False, sender=None):
+# Temporary, exact owner-authorized transport probe. Not a production route.
+TEST_ONLY_TARGETS = {
+    ('site-v2-grok-canary-20261118-completion', 'grok'):
+        'GrokBotWake@cloud-248663208472330240',
+}
+
+
+def send(root, test_id, recipient, confirm=False, sender=None, test_address=None):
     if confirm is not True:
         return 'disabled', 'explicit read-only confirmation required'
     if not isinstance(test_id, str) or not re.fullmatch(r'[A-Za-z0-9_-]{8,80}', test_id):
@@ -22,6 +29,10 @@ def send(root, test_id, recipient, confirm=False, sender=None):
     if routing.get('enabled') is not False:
         return 'error', 'reviewed disabled V2 config required'
     address = routing.get('primary_address' if recipient == 'dot' else 'backup_address')
+    if test_address is not None:
+        if TEST_ONLY_TARGETS.get((test_id, recipient)) != test_address:
+            return 'error', 'test-only target not authorized'
+        address = test_address
     if not address:
         return 'error', 'reviewed recipient address required'
     role = 'primary' if recipient == roles['primary_actor'] else 'backup'
@@ -38,8 +49,9 @@ def main():
     ap.add_argument('--test-id', required=True)
     ap.add_argument('--recipient', choices=['dot', 'grok'], required=True)
     ap.add_argument('--confirm-read-only', action='store_true')
+    ap.add_argument('--test-address', default=None)
     a = ap.parse_args()
-    status, detail = send(a.root, a.test_id, a.recipient, a.confirm_read_only)
+    status, detail = send(a.root, a.test_id, a.recipient, a.confirm_read_only, test_address=a.test_address)
     print(status, detail)
     return 0 if status == 'sent' else 1
 

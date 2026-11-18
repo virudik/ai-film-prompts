@@ -58,3 +58,10 @@ This is not evidence that a saved receiving automation has been installed.
 
 
 Приёмная сторона (lease/CAS/readback ACK, TEST read-only): `ops/SITE-ALERT-V2-RECEIVER.md`, `scripts/site_alert_handler.py`.
+
+
+## Read-only completion probe · 18.11.2026
+
+Owner requested completion and testing, not production activation. The temporary canary-only `--test-address` option accepts exactly test ID `site-v2-grok-canary-20261118-completion`, actor `grok`, and address `GrokBotWake@cloud-248663208472330240`. It still requires explicit confirmation and literal `site_alert_routing.enabled=false`. The default configured-address behavior and all production/legacy addresses remain unchanged. Workflow inputs are quoted through environment variables and a Bash array; permissions remain contents-read, manual main-only.
+
+Before dispatch, verify the receiving routine has accepted this exact temporary ID. A peer's pending approval is not readiness; do not send until the receiver confirms. After the probe, remove the temporary sender allowlist entry and receiver allowlist entry, preserving the evidence. Do not reuse the older 17.11 ID. Dot probe `site-v2-dot-canary-20261118-completion` was dispatched in workflow run 44353666056; transport message 248854986484445184 is not by itself receiving-handler acceptance. No production ACK or 120-minute fallback is claimed by these tests.
