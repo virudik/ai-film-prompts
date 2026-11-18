@@ -23,7 +23,7 @@ class LaunchAutonomyTest(unittest.TestCase):
                        item("B", "chatgpt-cloud-20261017-B", "2026-10-17T12:00:00Z"),
                        item("old", "chatgpt-cloud-x", "2026-10-16T12:00:00Z")]}
         ll = lac.launches(q, NOW - timedelta(hours=24))
-        self.assertEqual([x["source"] for x in ll], ["chat", "schedule"])
+        self.assertEqual([x["source"] for x in ll], ["unknown", "schedule"])
         self.assertEqual(lac.verdict(ll, [], []), "schedule_launched")
 
     def test_reads_last_claim_after_verified_submission(self):
@@ -40,7 +40,7 @@ class LaunchAutonomyTest(unittest.TestCase):
                "2026-10-18T03:00:00+00:00\tGitHub robot: Topview telemetry — 6/6 slots, +0 new, 0 finished"]
         free = lac.free_slot_observations(log)
         self.assertEqual(len(free), 1)
-        self.assertEqual(lac.verdict([], free, ["S36"]), "free_slots_idle_no_schedule_launch")
+        self.assertEqual(lac.verdict([], free, ["S36"]), "historical_free_slots_unverified")
         self.assertEqual(lac.verdict([], [], ["S36"]), "no_free_slots")
 
     def test_old_scheduled_launch_does_not_hide_current_unresolved_executor(self):
@@ -89,9 +89,61 @@ class LaunchAutonomyTest(unittest.TestCase):
         repo = Path(__file__).resolve().parents[1]
         r = lac.build(repo, 24, NOW, [])
         self.assertIn(r["verdict"], ("schedule_launched", "chat_only", "no_free_slots", "nothing_ready",
-                                     "free_slots_idle_no_schedule_launch", "launch_stalled"))
+                                     "historical_free_slots_unverified", "launch_stalled", "launches_observed"))
         self.assertIn("launcher_health", r)
 
+
+
+class ModernLaunchEvidenceTest(unittest.TestCase):
+    def fixture(self, root, trigger='scheduled'):
+        it={'id':'S89E-WAN30','state':'completed','task_id':'9d4b3b177e6d452abe499537a05f454c',
+            'submitted_at':'2026-10-18T04:00:00Z','receipt':'reports/task.json',
+            'claim':{'claimed_at':'2026-10-16T04:00:00Z','execution_instance_id':'actual-uuid','run_id':None}}
+        r={'item_id':it['id'],'task_id':it['task_id'],'execution_instance_id':'actual-uuid',
+           'actual_trigger':trigger,'automation_id':'real-automation','run_id':None}
+        (root/'reports').mkdir(exist_ok=True); (root/'reports/task.json').write_text(json.dumps(r))
+        return it,r
+    def test_null_id_with_bound_trigger_is_schedule_not_chat(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp); it,_=self.fixture(root)
+            ll=lac.launches({'items':[it]},NOW-timedelta(hours=24),repo=root,now=NOW)
+            self.assertEqual(ll[0]['source'],'schedule'); self.assertIsNone(ll[0]['run_id'])
+            self.assertEqual(ll[0]['time_basis'],'submitted_at')
+    def test_manual_webhook_unknown_and_unbound(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp)
+            for trigger,source in [('manual_run_now','manual_run_now'),('webhook','webhook'),('not_exposed','unknown')]:
+                it,_=self.fixture(root,trigger)
+                self.assertEqual(lac.launches({'items':[it]},NOW-timedelta(days=1),repo=root)[0]['source'],source)
+            it,r=self.fixture(root); r['task_id']='wrong'; (root/'reports/task.json').write_text(json.dumps(r))
+            self.assertEqual(lac.launches({'items':[it]},NOW-timedelta(days=1),repo=root)[0]['source'],'unknown')
+    def test_s89e_historical_receipt_without_trigger_remains_unknown(self):
+        root=Path(__file__).resolve().parents[1]
+        r=json.loads((root/'reports/topview-queue-2026-10-16/S89E-WAN30-20261117.json').read_text())
+        it={'id':r['item_id'],'task_id':r['task_id']}; claim={'execution_instance_id':r['execution_instance_id']}
+        self.assertEqual(lac.launch_source(it,claim,r)[0],'unknown')
+    def test_completed_archived_and_deduplicated(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp); it,_=self.fixture(root)
+            (root/'ops').mkdir(); (root/'archive/ops').mkdir(parents=True)
+            (root/'ops/topview-launch-queue.json').write_text(json.dumps({'items':[]}))
+            (root/'archive/ops/topview-launch-queue-archive.json').write_text(json.dumps({'items':[it,it]}))
+            r=lac.build(root,24,NOW,[])
+            self.assertEqual(r['launches_by_schedule'],1)
+    def test_old_slots_and_current_queue_do_not_prove_idle(self):
+        self.assertEqual(lac.verdict([], [{'at':'old'}], ['ready_now'],
+                                    {'state':'capacity_full','unresolved':False}), 'historical_free_slots_unverified')
+    def test_claim_without_submission_is_not_launch(self):
+        it=item('not-submitted',None,'2026-10-18T04:00:00Z','completed')
+        self.assertEqual(lac.launches({'items':[it]},NOW-timedelta(days=1)),[])
+
+    def test_unbound_or_conflicting_trigger_never_uses_legacy_prefix(self):
+        it={'id':'x','task_id':'task'}
+        cl={'execution_instance_id':'uuid','automation_id':'right','run_id':'chatgpt-scheduled-old'}
+        for task,automation in [('wrong','right'),('task','wrong')]:
+            receipt={'item_id':'x','task_id':task,'execution_instance_id':'uuid',
+                     'actual_trigger':'scheduled','automation_id':automation}
+            self.assertEqual(lac.launch_source(it,cl,receipt)[0],'unknown')
 
 if __name__ == "__main__":
     unittest.main()
