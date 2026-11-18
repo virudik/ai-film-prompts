@@ -2,12 +2,12 @@
   "schema_version": 1,
   "signature": [
     "canon:handoff-size:NEW-CHAT-HANDOFF.md|Хендоф 36 КБ (цель до 35 КБ): старые блоки перенести в журнал archive/handoff-log.md.",
-    "canon:project-handoff-size:projects/raznoe/HANDOFF.md|Разное: хендоф 12 КБ (цель до 12 КБ): контрольные точки — в projects/raznoe/reports/current-work-checkpoint.md, история — в projects/raznoe/archive/handoff-log.md."
+    "canon:project-handoff-size:projects/raznoe/HANDOFF.md|Разное: хендоф 13 КБ (цель до 12 КБ): контрольные точки — в projects/raznoe/reports/current-work-checkpoint.md, история — в projects/raznoe/archive/handoff-log.md."
   ],
   "sequence": 0,
   "relay": {
     "status": "sent",
-    "detail": "message_id=248854928605507584",
-    "at": "2026-11-18T17:00:40Z"
+    "detail": "message_id=248858506731896832",
+    "at": "2026-11-18T17:14:49Z"
   }
 }
