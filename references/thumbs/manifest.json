@@ -1793,6 +1793,106 @@
    "thumb_bytes": 60298,
    "src_sha256": "19f8a585944667741a0a5a8978d0c39511b8c59b70a1caa31809c22b83d9b44b"
   },
+  "projects/raznoe/references/scenes/scene-6/S6-LOC01-dacha.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-6/S6-LOC01-dacha.png.webp",
+   "width": 640,
+   "height": 1137,
+   "src_width": 941,
+   "src_height": 1672,
+   "src_bytes": 3394063,
+   "thumb_bytes": 208366,
+   "src_sha256": "90babd927e0ba425af0d917deecaa11b8ebbc648e2b21011ea0895bdf410292c"
+  },
+  "projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png.webp",
+   "width": 640,
+   "height": 1137,
+   "src_width": 941,
+   "src_height": 1672,
+   "src_bytes": 2549468,
+   "thumb_bytes": 93442,
+   "src_sha256": "2d9c9f55bf640e7532c2f1f9b8676f137de22b8c3cf193174310089c9464cedc"
+  },
+  "projects/raznoe/references/scenes/scene-6/S6-LOC03-kitchen.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-6/S6-LOC03-kitchen.png.webp",
+   "width": 640,
+   "height": 909,
+   "src_width": 1052,
+   "src_height": 1494,
+   "src_bytes": 2401204,
+   "thumb_bytes": 67588,
+   "src_sha256": "837b3c2b2ac4a8fc8ad8f09c81de62691af7d4fdaee638909d5f2c2166010ea2"
+  },
+  "projects/raznoe/references/scenes/scene-6/S6-LOC04-bathroom.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-6/S6-LOC04-bathroom.png.webp",
+   "width": 640,
+   "height": 904,
+   "src_width": 1055,
+   "src_height": 1491,
+   "src_bytes": 2126926,
+   "thumb_bytes": 46480,
+   "src_sha256": "34e52dc5deb372be16a3f84d2a426b631369b8b178d3e1d1afb5125853af4cd5"
+  },
+  "projects/raznoe/references/scenes/scene-6/S6-LOC05-bedroom.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-6/S6-LOC05-bedroom.png.webp",
+   "width": 640,
+   "height": 1137,
+   "src_width": 941,
+   "src_height": 1672,
+   "src_bytes": 2447794,
+   "thumb_bytes": 78328,
+   "src_sha256": "c20fb33409a9abec6159bc41b317682398e24051a99df99f951ff48a2ebaf5bf"
+  },
+  "projects/raznoe/references/scenes/scene-6/S6-LOC06-red-square.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-6/S6-LOC06-red-square.png.webp",
+   "width": 640,
+   "height": 1137,
+   "src_width": 941,
+   "src_height": 1672,
+   "src_bytes": 2797165,
+   "thumb_bytes": 113914,
+   "src_sha256": "4b550666f00a5b40927eed232db198d00f5b422727603b1786a0a1b03be8a560"
+  },
+  "projects/raznoe/references/scenes/scene-6/S6-LOC07-azlk.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-6/S6-LOC07-azlk.png.webp",
+   "width": 640,
+   "height": 1137,
+   "src_width": 941,
+   "src_height": 1672,
+   "src_bytes": 2768081,
+   "thumb_bytes": 114834,
+   "src_sha256": "d0c143bfe758d6a241aeaf83246ea77896adbd42fbb59ddbf2c6e8dfc0f888b5"
+  },
+  "projects/raznoe/references/scenes/scene-6/S6-LOC08-hospital-corridor.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-6/S6-LOC08-hospital-corridor.png.webp",
+   "width": 640,
+   "height": 915,
+   "src_width": 1049,
+   "src_height": 1499,
+   "src_bytes": 2192149,
+   "thumb_bytes": 41602,
+   "src_sha256": "00ac6be49fe7b8776bf3db188f1e678c0806eb5964b5bcee046bd61ec68d654f"
+  },
+  "projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png.webp",
+   "width": 640,
+   "height": 906,
+   "src_width": 1054,
+   "src_height": 1492,
+   "src_bytes": 2362159,
+   "thumb_bytes": 53394,
+   "src_sha256": "71e214b21d6d2f8e8e41613b4cd6b6faa92498a09780fbabcb6e7cc813c6ac63"
+  },
+  "projects/raznoe/references/scenes/scene-6/S6-LOC10-cemetery.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-6/S6-LOC10-cemetery.png.webp",
+   "width": 640,
+   "height": 1137,
+   "src_width": 941,
+   "src_height": 1672,
+   "src_bytes": 3890794,
+   "thumb_bytes": 230674,
+   "src_sha256": "1845c13ab4da5f1bf0f8df9979c361877f22b7e5499b0b024946c6f45da72eb7"
+  },
   "projects/raznoe/references/sonya-expressions.png": {
    "thumb": "references/thumbs/projects/raznoe/references/sonya-expressions.png.webp",
    "width": 640,
