@@ -1,28 +1,46 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-17T14:45:46Z",
+  "checked_at": "2026-11-18T14:26:35Z",
   "window_hours": 24,
   "verdict": "free_slots_idle_no_schedule_launch",
-  "launches": [],
+  "launches": [
+    {
+      "item": "S89E-WAN30",
+      "scene_id": 89,
+      "claimed_at": "2026-11-17T17:53:09Z",
+      "run_id": "",
+      "source": "chat"
+    }
+  ],
   "launches_by_schedule": 0,
-  "launches_by_chat": 0,
+  "launches_by_chat": 1,
   "free_slot_observations": [
     {
-      "at": "2026-11-16T15:51:19Z",
+      "at": "2026-11-17T17:41:46Z",
       "occupied": 5,
       "capacity": 6
     },
     {
-      "at": "2026-11-16T15:01:01Z",
+      "at": "2026-11-17T16:50:41Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-11-17T16:00:36Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-11-17T15:10:38Z",
       "occupied": 5,
       "capacity": 6
     }
   ],
-  "ready_items_waiting": 20,
+  "ready_items_waiting": 19,
   "launcher_health": {
     "state": "capacity_full",
     "unresolved": false,
-    "episode": "370b42bb",
+    "episode": "0e702b91",
     "unresolved_since": null,
     "reason": "no_free_global_slot; launcher_health_not_proven",
     "free_slots_global": 0,
@@ -40,8 +58,7 @@
       "S28-A1-R2-20261025",
       "S28-A2-R2-20261025",
       "S28-A13-20261030",
-      "S89D-WAN30",
-      "S89E-WAN30",
+      "S89D-WAN30-R2",
       "S89F-WAN30",
       "S89G-WAN30",
       "S89H-WAN30",
@@ -49,7 +66,7 @@
       "S89J-WAN30"
     ],
     "reconciliation_items": [],
-    "last_event_id": "slots:ea03b4f7:70",
+    "last_event_id": "slots:b088674e:73",
     "receipt_present": false,
     "handler_outcome": null,
     "execution_stage": null,
@@ -58,8 +75,8 @@
     "confirmed_launch_task_ids": [],
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
-    "escalation_attempted_episode": "ea03b4f7",
-    "checked_at": "2026-11-17T14:10:39Z"
+    "escalation_attempted_episode": "b088674e",
+    "checked_at": "2026-11-18T14:20:36Z"
   },
   "launcher_observation_stale": false,
   "note": "Только чтение репозитория. Запуск из расписания = run_id с префиксом chatgpt-scheduled."
