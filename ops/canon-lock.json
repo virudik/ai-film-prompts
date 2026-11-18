@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:5840bf90-d916-4ab2-861d-f282bc863d07",
-  "task": "Fix launch autonomy diagnostics and truthful receipt provenance; no generation",
-  "acquired_at": "2026-11-18T15:24:53.240Z",
-  "expires_at": null,
-  "released_at": "2026-11-18T15:27:51.110Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:5d29a838-4607-4266-83a6-a442ca305ec7",
+  "task": "Relay slots:09b02477:74 issue802 intake and permitted free launch",
+  "acquired_at": "2026-11-18T15:29:52Z",
+  "expires_at": "2026-11-18T15:49:52Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
