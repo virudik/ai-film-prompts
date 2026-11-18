@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "roscosmos",
   "project_name": "Роскосмос",
-  "checked_at": "2026-11-18T20:23:59+00:00",
-  "source_head": "26c638e163f304fe027d4b3621cfabc80ab49bb4",
-  "source_fingerprint": "b195793f32517d1b477ac70f962393c60f0e7b789d8a1b5b3732d26c27d000af",
+  "checked_at": "2026-11-18T20:35:12+00:00",
+  "source_head": "c0f9474939a417163bab7bd3dda82e6a76b48a46",
+  "source_fingerprint": "3083fbe7d71101a06219e6f20e6d430a5ab144b896fc750a5564205cda6c546c",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -133,8 +133,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "8c05563656b5dfc93334188cc47fc9b935de371a7e941a70bf22ae5104707a29",
-      "bytes": 34980
+      "sha256": "cc5619eff4d22e81c4ff7ad83946aaa0d42f2b2b1fc4a56b36b185c92c28c987",
+      "bytes": 34851
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -158,7 +158,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "0ca74af5023447cf11b46318965e44b559b058b594f4ff7114785494600a5791",
+      "sha256": "36ff6e24846d4c981e14a15fd9c89d94e272b64d63922577af23b2c18a663bc1",
       "bytes": 5135
     },
     {
@@ -168,8 +168,8 @@
     },
     {
       "file": "ops/CONTINUE-PROTOCOL.md",
-      "sha256": "05022877e46dc859b8377fc68d85d4c791a374c797511b61d92b65dc76048d69",
-      "bytes": 42881
+      "sha256": "7775747a1190299fa378ed4cd0a36319e9005dffc552864b3137ae3280868edd",
+      "bytes": 43746
     },
     {
       "file": "project-status.json",
@@ -228,12 +228,12 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "ce14899b7d1cb6dbb941227bcba10d7e4d83a33c11d401ade424f68ad74f7ceb",
-      "bytes": 34781
+      "sha256": "85bb66ca2ef25d3d794914b47b61b266f199fb18566baff5b58c8795f96673a9",
+      "bytes": 34652
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "ced37712114101cf3939f8ab3e5ba09e532dbf26503b0075bdc3a65b9bd95756",
+      "sha256": "e60fccd64836412908c07e789fc44216c7b2d05681729eea382bdefc07f8fa54",
       "bytes": 32409
     },
     {
