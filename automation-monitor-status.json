@@ -450,11 +450,11 @@
     }
   },
   "launcher_health": {
-    "state": "awaiting_execution",
-    "unresolved": false,
+    "state": "launch_stalled",
+    "unresolved": true,
     "episode": "09b02477",
     "unresolved_since": "2026-11-18T15:20:38Z",
-    "reason": "within_initial_execution_window",
+    "reason": "execution_started_without_confirmed_launch",
     "free_slots_global": 1,
     "actionable_items": [
       "S49B",
@@ -479,15 +479,15 @@
     ],
     "reconciliation_items": [],
     "last_event_id": "slots:09b02477:74",
-    "receipt_present": false,
-    "handler_outcome": null,
-    "execution_stage": null,
-    "execution_updated_at": null,
+    "receipt_present": true,
+    "handler_outcome": "started",
+    "execution_stage": "browser_preflight",
+    "execution_updated_at": "2026-11-18T15:36:51.079Z",
     "runtime_run_id": null,
     "confirmed_launch_task_ids": [],
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
-    "escalation_attempted_episode": "b088674e",
-    "checked_at": "2026-11-18T15:30:34Z"
+    "escalation_attempted_episode": "09b02477",
+    "checked_at": "2026-11-18T15:40:55Z"
   }
 }
