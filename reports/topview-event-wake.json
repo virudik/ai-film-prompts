@@ -2193,8 +2193,8 @@
       "actual_trigger": "webhook",
       "execution_instance_id": "82f03912-b081-4993-b45f-664c004529c0",
       "route_generation": 7,
-      "checked_at": "2026-11-18T21:52:11.306Z",
-      "outcome": "started",
+      "checked_at": "2026-11-18T22:23:15.956Z",
+      "outcome": "blocked_reconciliation_required",
       "retryable": true,
       "task_ids": [],
       "source": "dot Agent Relay webhook; genuine root wake delegated",
@@ -2203,13 +2203,23 @@
       "run_id": null,
       "run_id_unavailable_reason": "not exposed",
       "execution": {
-        "state": "started",
-        "stage": "intake",
+        "state": "completed",
+        "stage": "verify_blocked_before_create",
         "started_at": "2026-11-18T21:50:30.665Z",
-        "updated_at": "2026-11-18T21:52:11.306Z"
+        "updated_at": "2026-11-18T22:23:15.956Z",
+        "completed_at": "2026-11-18T22:23:15.956Z"
       },
-      "scan_complete": false,
-      "new_submissions": 0
+      "scan_complete": true,
+      "new_submissions": 0,
+      "scan_checked_at": "2026-11-18T22:22:38.381Z",
+      "free_slots": 1,
+      "credits_spent": 0,
+      "item_id": "S89F-WAN30",
+      "claim_id": "f652a7a4-ed06-4722-ae35-d663c8267595",
+      "submission_intent_id": "bd65b3f0-637a-421f-bf77-404dad6f266f",
+      "create_click_count": 0,
+      "blocker": "verify snapshot rejected advancing main before marker; no Create permission issued. Runtime ends; old intent cannot resume.",
+      "evidence": "reports/preclaim-aborts/relay813-S89F-verify-no-create-20261118.json"
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:82f03912-b081-4993-b45f-664c004529c0",
   "task": "Relay813 terminal receipt only; no claim intent or Create",
   "acquired_at": "2026-11-18T22:22:02.166Z",
-  "expires_at": "2026-11-18T22:32:02.166Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-18T22:23:15.956Z",
   "rules": "ops/CANON-LOCK.md"
 }

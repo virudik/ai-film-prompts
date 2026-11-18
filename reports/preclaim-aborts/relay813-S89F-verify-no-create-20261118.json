@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "event_id": "slots:2f83982f:75",
+  "issue_number": 813,
+  "item_id": "S89F-WAN30",
+  "execution_instance_id": "82f03912-b081-4993-b45f-664c004529c0",
+  "automation_id": "6afd1f83b1b08191b4b7c8ad55c132cf",
+  "actual_trigger": "webhook",
+  "run_id": null,
+  "run_id_unavailable_reason": "not exposed",
+  "started_at": "2026-11-18T21:50:30.665Z",
+  "completed_at": "2026-11-18T22:23:15.956Z",
+  "create_click_count": 0,
+  "new_submissions": 0,
+  "credits_spent": 0,
+  "claim_commit": "6fa8002ea6b1a42b54a3a68ac67b581b62aa7ee2",
+  "intent_commit": "a5afaeed4c31217cc4651d027e3990d4304a7c7c",
+  "claim_id": "f652a7a4-ed06-4722-ae35-d663c8267595",
+  "intent_id": "bd65b3f0-637a-421f-bf77-404dad6f266f",
+  "intent_at": "2026-11-18T22:19:17Z",
+  "intent_payload_sha256": "1767f94908ef3c1344082f38abd1171caf990454d0472a67e4bc3c5f88a7a6b2",
+  "exact_claim_and_intent_readback": true,
+  "verify_invocations": [
+    {
+      "runner_chunk_id": "dd0a8c",
+      "exit_code": 2,
+      "old_main": "a5afaeed4c31217cc4651d027e3990d4304a7c7c",
+      "fetch_main_prefix": "74e9f72",
+      "stdout_result": {
+        "checks_passed": false,
+        "create_allowed": false,
+        "reason": "checkout_must_equal_fresh_origin_main"
+      }
+    },
+    {
+      "runner_chunk_id": "f015d4",
+      "exit_code": 2,
+      "old_main_prefix": "74e9f72",
+      "fetch_main": "4199e670a0fb1f1c753371fca364548fea3d6dab",
+      "stdout_result": {
+        "checks_passed": false,
+        "create_allowed": false,
+        "reason": "checkout_must_equal_fresh_origin_main"
+      }
+    }
+  ],
+  "helper_sha256": "b5ccdca246407174edf39106b1b1e58360067e5553a7317c05305132c42a0f9f",
+  "private_artifact_hashes": {
+    "claim_transaction": "3903ab3e1ba0935cc440fb01037e11b72db1aa86658e5f9f867491a23c38b488",
+    "intent_transaction": "64743a108e33139e3aa5b0dc0f0104f677778729f6e6d2ccc3aa903a4bef3765",
+    "session": "c53d36c66dc77f94e43061c3a9e8cb7643d765e798705cb0c8502cf947aa0e00",
+    "last_request": "92db4803b5a68a8eeb840df81e12ce8a65b84437c8900bed4e354cba17138f5a"
+  },
+  "session_phase": "intent_prepared",
+  "busy_marker_exists": false,
+  "worker_stopped": true,
+  "old_intent_preserved": true,
+  "replay_forbidden": true,
+  "queue_not_modified_by_terminal_report": true,
+  "live_scan": {
+    "checked_at": "2026-11-18T22:22:38.381Z",
+    "complete": true,
+    "boards": 14,
+    "tasks": 1064,
+    "active_task_ids": [
+      "02fd85ac5fde408285bc439f15ba8239",
+      "9d4b3b177e6d452abe499537a05f454c",
+      "5d1f4fc1b4e548a7828892c73b672990",
+      "90db5dd309db477eb346e8d82676f7b5",
+      "425108630b0e48c9a4b299fc89ad88ee"
+    ],
+    "free_slots": 1,
+    "s89f_candidates": []
+  },
+  "blocker": "verify snapshot rejected advancing main before marker; no Create permission issued. Runtime ends; old intent cannot resume.",
+  "limitations": "Observed own click_count0 and no matching live task are recorded facts, not permission for another Create. Independent reconciliation required; no holds/claims/intent reset.",
+  "independent_next": "S89G-WAN30 remains waiting_for_slot, requires its own full preflight and fresh scan. Sparse checkout omits some later references and must not be used to declare global readiness missing."
+}
