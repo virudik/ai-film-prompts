@@ -1,19 +1,26 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "project": "seregius",
   "source": "ChatGPT scheduled work",
   "runner": "chatgpt_scheduled_task",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "run_id": "5ce0bc47-18b0-8333-8ddf-faf25680fb29",
+  "actual_trigger": "scheduled",
+  "run_id": "1dc9e36e-f99c-8327-887d-65f6322cc45b",
   "run_id_unavailable_reason": null,
-  "execution_instance_id": "ae0c2864-0512-4385-bf05-c5e842d9e324",
-  "route_generation": 4,
-  "source_head": "a4aaf0305377011eaa9cfc22ffd3fa717aff43dc",
-  "started_at": "2026-11-17T16:57:18.629Z",
-  "updated_at": "2026-11-17T16:57:18.629Z",
+  "execution_instance_id": "8770f34f-9132-4550-b817-4cdbd4a803f5",
+  "route_generation": 7,
+  "source_head": "9a4508dd31086dfbd2a1177dfbe20eb5179af637",
+  "started_at": "2026-11-18T18:54:31.029331Z",
+  "updated_at": "2026-11-18T18:59:41.575Z",
   "completed_at": null,
   "phase": "started",
   "status": "in_progress",
+  "execution": {
+    "state": "started",
+    "stage": "lease_acquired_started_receipt",
+    "actual_trigger": "scheduled",
+    "runtime_run_id": "1dc9e36e-f99c-8327-887d-65f6322cc45b"
+  },
   "scan_complete": false,
   "occupied_slots": null,
   "free_slots": null,
@@ -23,10 +30,10 @@
   "topview_credits_spent": 0,
   "browser_transport": null,
   "lease": {
-    "holder": "chatgpt:work:ae0c2864-0512-4385-bf05-c5e842d9e324",
-    "acquired_at": "2026-11-17T16:56:41.648Z",
-    "expires_at": "2026-11-17T17:41:41.648Z",
-    "acquisition_commit": "a4aaf0305377011eaa9cfc22ffd3fa717aff43dc",
+    "holder": "chatgpt:work:8770f34f-9132-4550-b817-4cdbd4a803f5",
+    "acquired_at": "2026-11-18T18:58:43.603Z",
+    "expires_at": "2026-11-18T19:43:43.603Z",
+    "acquisition_commit": "1b22ff76d5fa22067c4e1b8df247582e03022ff9",
     "verified_start_readback": true,
     "verified_before_final_write": false,
     "released": false
@@ -34,6 +41,7 @@
   "acceptance": {
     "scheduled_cycle": true,
     "actual_runtime_run_id_verified": true,
+    "actual_trigger_verified": true,
     "full_all_board_scan": false,
     "current_global_capacity_verified": false,
     "website_authenticated": false,
@@ -46,16 +54,15 @@
   },
   "peer_reconciliation": {
     "ordinary": {
-      "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-      "last_run_id": "052e20f0-890c-8332-9e4d-184d949737c2",
-      "last_run_status": "completed",
-      "latest_result_run_id": "052e20f0-890c-8332-9e4d-184d949737c2",
-      "canonical_receipt_checked": false
-    },
-    "additional_ordinary": {
-      "automation_id": "6af9b2a7212081919b191786c483ad13",
+      "automation_ids": [
+        "6afc8b674794819192ba0b1415c5a220",
+        "6afd1f83b1b08191b4b7c8ad55c132cf"
+      ],
       "provider_status": "not_checked",
-      "reason": "automation task inaccessible to current provider peek; no inference"
+      "reason": "both current ordinary automation IDs are not accessible to current provider peek; canonical receipt inspected separately",
+      "canonical_receipt_automation_id": "6afc8b674794819192ba0b1415c5a220",
+      "canonical_receipt_run_id": null,
+      "canonical_receipt_outcome": "no_update_all_slots_occupied"
     },
     "relay": {
       "automation_id": "6adc585e7ac08191bb93825117dc7213",
@@ -65,9 +72,9 @@
     },
     "work": {
       "automation_id": "6acae6ab433481919e88665c520b8ef2",
-      "last_run_id": "5ce0bc47-18b0-8333-8ddf-faf25680fb29",
+      "last_run_id": "1dc9e36e-f99c-8327-887d-65f6322cc45b",
       "recorded_status": "in_progress",
-      "latest_result_run_id": "7c9dac5d-901c-8328-8ad0-394555335973"
+      "latest_result_run_id": "5ce0bc47-18b0-8333-8ddf-faf25680fb29"
     }
   },
   "outcome": "started",
