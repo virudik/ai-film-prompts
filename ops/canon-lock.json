@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:site-evidence:1be0ce0f-9f7e-474b-b36a-80ce7f42baa8",
   "task": "Record final peer receiver cleanup evidence only",
   "acquired_at": "2026-11-18T18:23:00Z",
-  "expires_at": "2026-11-18T18:33:00Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-18T18:23:35Z",
   "rules": "ops/CANON-LOCK.md"
 }
