@@ -64,6 +64,21 @@ class InstructionConsistencyTests(unittest.TestCase):
         self.assertTrue(any(x.startswith('automation-stale-dependency') for x in errors))
         self.assertIn('relay-subscription', errors)
 
+    def test_removed_plot_ban_is_detected_if_it_returns(self):
+        path = self.root / 'ops/FUTURE-PLANS.md'
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text('С 10.11 (t512u) сюжетную очередь не продолжать.\n', encoding='utf-8')
+        self.assertIn('stale-phrase:plot-ban-t512', ci.check(self.root, now=self.now)['problems'])
+
+    def test_launch_by_run_id_prefix_is_detected_if_it_returns(self):
+        path = self.root / 'ops/CONTINUE-PROTOCOL.md'
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text('запуска начинается с `chatgpt-scheduled-`\n', encoding='utf-8')
+        self.assertIn('stale-phrase:launch-by-name', ci.check(self.root, now=self.now)['problems'])
+
+    def test_live_files_do_not_restore_replaced_decisions(self):
+        self.assertEqual(ci.stale_phrases(ROOT), [])
+
     def test_stale_observation_and_changed_canonical_bytes_are_detected(self):
         snapshot = self.snapshot(); snapshot['checked_at'] = (self.now - timedelta(hours=2)).isoformat()
         (self.root / cg.FILES[0]).write_text('new instructions')

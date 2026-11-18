@@ -15,6 +15,40 @@ from cert_github import FILES, blob
 HOURLY = '6acae6ab433481919e88665c520b8ef2'
 RELAY = '6adc585e7ac08191bb93825117dc7213'
 
+# Exact leftovers of decisions a later owner record already replaced.
+# Archive copies may keep the old sentences; these live files may not.
+STALE_PHRASES = (
+    ('ops/FUTURE-PLANS.md', 'сюжетную очередь не продолжать', 'stale-phrase:plot-ban-t512'),
+    ('ops/FUTURE-PLANS.md', 'Следующие разрешённые запуски — музыка по A-36, не сюжет', 'stale-phrase:music-not-plot'),
+    ('ops/FUTURE-PLANS.md', 'Следующее разрешённое — A-36', 'stale-phrase:next-is-a36'),
+    ('ops/FUTURE-PLANS.md', 'Танцы 28 последними', 'stale-phrase:dances-last'),
+    ('ops/FUTURE-PLANS.md', 'все заново и последними', 'stale-phrase:dances-last-again'),
+    ('ops/FUTURE-PLANS.md', 'пока PR 516 не в main', 'stale-phrase:pr516-unmerged'),
+    ('ops/FUTURE-PLANS.md', 'на момент 10.11 не в main', 'stale-phrase:parodies-unmerged'),
+    ('ops/FUTURE-PLANS.md', 'ещё не отправленная в Topview', 'stale-phrase:t611-unsent'),
+    ('ops/FUTURE-PLANS.md', 'PR 369, 370 и 371 не трогать', 'stale-phrase:pr369-open'),
+    ('ops/FUTURE-PLANS.md', 'task нет — к запуску', 'stale-phrase:music-ready-to-launch'),
+    ('ops/FUTURE-PLANS.md', 'ОЧЕРЕДЬ СЮЖЕТА ЗАКРЫТА', 'stale-phrase:plot-queue-closed'),
+    ('ops/CONTINUE-PROTOCOL.md', 'начинается с `chatgpt-scheduled-`', 'stale-phrase:launch-by-name'),
+    ('NEW-CHAT-HANDOFF.md', 'PR 369, 370 и 371 не трогать', 'stale-phrase:pr369-open'),
+    ('shadow/current-checkpoint.md', 'PR 369, 370 и 371 не трогать', 'stale-phrase:pr369-open'),
+)
+
+
+def stale_phrases(root):
+    root = Path(root)
+    found = []
+    for rel, needle, code in STALE_PHRASES:
+        path = root / rel
+        if not path.is_file():
+            continue
+        text = path.read_text(encoding='utf-8')
+        haystack = text.casefold() if needle[:1].islower() else text
+        probe = needle.casefold() if needle[:1].islower() else needle
+        if probe in haystack:
+            found.append(code)
+    return found
+
 
 def check(root, snapshot=None, now=None):
     root = Path(root)
@@ -83,6 +117,7 @@ def check(root, snapshot=None, now=None):
         subs = snapshot.get('relay_subscriptions', [])
         require(len(subs) == 1 and subs[0].get('event') == 'relay.message' and
                 subs[0].get('active') is True and subs[0].get('arguments') == {}, 'relay-subscription')
+    problems.extend(stale_phrases(root))
     return {'schema_version': 1, 'checked_at': now.isoformat(), 'status': 'warn' if problems else 'ok',
             'scope': 'Selected consistency invariants only; full semantic review and runtime success are separate.',
             'live_automations': live_status, 'automation_observations': observations, 'problems': problems}
