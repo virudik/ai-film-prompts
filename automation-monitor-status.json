@@ -208,23 +208,23 @@
       "result:8c6d92662d1043c7a651168b2b8280ae"
     ],
     "robot_rewake": {
-      "episode": "b088674e",
-      "count": 3,
-      "last_at": "2026-11-17T17:41:43Z",
-      "sequence": 73,
-      "first_at": "2026-11-17T15:20:32Z",
-      "last_event_id": "slots:b088674e:73",
+      "episode": "09b02477",
+      "count": 1,
+      "last_at": "2026-11-18T15:20:38Z",
+      "sequence": 74,
+      "first_at": "2026-11-18T15:20:38Z",
+      "last_event_id": "slots:09b02477:74",
       "silence_reported": "slots:d23cf217:2"
     },
     "robot_dispatch": {
-      "episode": "b088674e",
-      "event_id": "slots:b088674e:73",
-      "target": "backup",
-      "actor": "grok",
+      "episode": "09b02477",
+      "event_id": "slots:09b02477:74",
+      "target": "primary",
+      "actor": "dot",
       "primary_actor": "dot",
       "backup_actor": "grok",
-      "reason": "backup_recovery_check",
-      "attempted_at": "2026-11-17T17:41:43Z"
+      "reason": "new_episode",
+      "attempted_at": "2026-11-18T15:20:38Z"
     }
   },
   "phases": {
