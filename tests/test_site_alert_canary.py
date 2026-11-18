@@ -3,6 +3,7 @@ from pathlib import Path
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
@@ -76,13 +77,22 @@ class CanaryTests(unittest.TestCase):
     def test_exact_test_target_override_no_configuration_writes(self):
         before = (self.root / 'ops/relay-wake.json').read_bytes()
         target = 'GrokBotWake@cloud-248663208472330240'
-        result = canary.send(self.root, 'site-v2-grok-canary-20261118-completion',
-                             'grok', True, self.sender, test_address=target)
+        with patch.dict(canary.TEST_ONLY_TARGETS, {('fixture-grok-test', 'grok'): target}, clear=True):
+            result = canary.send(self.root, 'fixture-grok-test',
+                                 'grok', True, self.sender, test_address=target)
         self.assertEqual(result[0], 'sent')
         self.assertEqual(self.calls[-1][1]['address'], target)
         self.assertEqual((self.root / 'ops/relay-wake.json').read_bytes(), before)
         self.assertFalse((self.root / 'reports').exists())
 
+    def test_completed_override_is_disabled(self):
+        self.assertEqual(canary.TEST_ONLY_TARGETS, {})
+        self.assertEqual(canary.send(self.root, 'site-v2-grok-canary-20261118-completion',
+            'grok', True, self.sender, test_address='GrokBotWake@cloud-248663208472330240')[0], 'error')
+        self.assertEqual(self.calls, [])
+
+    @patch.dict(canary.TEST_ONLY_TARGETS, {('site-v2-grok-canary-20261118-completion', 'grok'):
+        'GrokBotWake@cloud-248663208472330240'}, clear=True)
     def test_override_rejects_other_id_actor_address_and_enabled_v2(self):
         target = 'GrokBotWake@cloud-248663208472330240'
         tid = 'site-v2-grok-canary-20261118-completion'

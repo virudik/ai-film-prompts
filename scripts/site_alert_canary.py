@@ -6,11 +6,8 @@ import relay_wake
 import wake_roles
 
 
-# Temporary, exact owner-authorized transport probe. Not a production route.
-TEST_ONLY_TARGETS = {
-    ('site-v2-grok-canary-20261118-completion', 'grok'):
-        'GrokBotWake@cloud-248663208472330240',
-}
+# Empty after completion; new test targets require a separately reviewed authorization.
+TEST_ONLY_TARGETS = {}
 
 
 def send(root, test_id, recipient, confirm=False, sender=None, test_address=None):
