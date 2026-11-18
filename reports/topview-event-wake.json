@@ -2182,6 +2182,34 @@
           "claim_id": "5f633ff1-7ecb-45d3-97ca-2a9d24c85bb2"
         }
       ]
+    },
+    {
+      "event_id": "slots:2f83982f:75",
+      "issue_number": 813,
+      "message_id": "248925402752761856",
+      "relay_event_id": "evt_49b8b7a690afea243360d462dba51419",
+      "sender_agent_id": "240204876611608576",
+      "automation_id": "6afd1f83b1b08191b4b7c8ad55c132cf",
+      "actual_trigger": "webhook",
+      "execution_instance_id": "82f03912-b081-4993-b45f-664c004529c0",
+      "route_generation": 7,
+      "checked_at": "2026-11-18T21:52:11.306Z",
+      "outcome": "started",
+      "retryable": true,
+      "task_ids": [],
+      "source": "dot Agent Relay webhook; genuine root wake delegated",
+      "runner": "dot_event_handler",
+      "actor": "dot",
+      "run_id": null,
+      "run_id_unavailable_reason": "not exposed",
+      "execution": {
+        "state": "started",
+        "stage": "intake",
+        "started_at": "2026-11-18T21:50:30.665Z",
+        "updated_at": "2026-11-18T21:52:11.306Z"
+      },
+      "scan_complete": false,
+      "new_submissions": 0
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
