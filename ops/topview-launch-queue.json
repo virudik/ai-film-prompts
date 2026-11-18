@@ -3084,7 +3084,7 @@
       "canonical_prompt_sha256": "fbc6cf05411549582e90d228c4d70f3410d449baac5c8e1885adc188ecad89db",
       "normalized_prompt_sha256": "91c247c4013547f69175c21ed4c99bb4251934b0d4c4ba6ab3f6be55902e6e82",
       "priority": 0.306,
-      "state": "blocked_model_preparation",
+      "state": "waiting_for_slot",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "model_id": "qwen-wan3.0-video",
@@ -3131,12 +3131,12 @@
       "owner_source": "t593u",
       "story_not_music": true,
       "created_at": "2026-11-12T13:14:25Z",
-      "blocker": {
-        "code": "legacy_provenance_active_image_mentions",
-        "checked_at": "2026-11-18T15:49:36.966Z",
-        "reason": "Historical <<<Image2/3/4>>> become active current chips; nonexistent Image4 in 3-input UI, verified in Topview form",
-        "resume_condition": "Reviewed canonical prompt/manifest normalization removing active mention syntax from historical provenance; fresh full preflight",
-        "previous_state": "waiting_for_slot"
+      "model_preparation_qc": {
+        "result": "passed_reference_chip_qc",
+        "checked_at": "2026-11-18T16:34:04.239Z",
+        "report": "reports/scene89-fg-provenance-ui-qc-2026-11-18.json",
+        "restored_at": "2026-11-18T16:39:16.684107Z",
+        "fresh_full_launch_preflight_required": true
       }
     },
     {
@@ -3148,7 +3148,7 @@
       "canonical_prompt_sha256": "a1e23bdb5675dfa496b5126b5ae0049ca0b434e855ac54fb823da4f347d5daa8",
       "normalized_prompt_sha256": "d503c25ca38c8ca0955a95dcb69fcd2aa509c853c70349832051b0180702e8cf",
       "priority": 0.307,
-      "state": "blocked_model_preparation",
+      "state": "waiting_for_slot",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "model_id": "qwen-wan3.0-video",
@@ -3209,12 +3209,12 @@
       "owner_source": "t593u",
       "story_not_music": true,
       "created_at": "2026-11-12T13:14:25Z",
-      "blocker": {
-        "code": "legacy_provenance_active_image_mentions",
-        "checked_at": "2026-11-18T15:49:36.966Z",
-        "reason": "Historical <<<Image3>>> in office Image1 provenance points to current woman Image3; same active-mention syntax confirmed in F UI",
-        "resume_condition": "Reviewed canonical prompt/manifest normalization removing active mention syntax from historical provenance; fresh full preflight",
-        "previous_state": "waiting_for_slot"
+      "model_preparation_qc": {
+        "result": "passed_reference_chip_qc",
+        "checked_at": "2026-11-18T16:34:04.239Z",
+        "report": "reports/scene89-fg-provenance-ui-qc-2026-11-18.json",
+        "restored_at": "2026-11-18T16:39:16.684107Z",
+        "fresh_full_launch_preflight_required": true
       }
     },
     {

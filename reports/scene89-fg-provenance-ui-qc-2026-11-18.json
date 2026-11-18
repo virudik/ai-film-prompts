@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-18T16:34:04.239Z",
+  "main_sha": "85859998b3a55d32582e7df60569be0ba9017dca",
+  "scope": "Topview UI prompt/ref-chip QC only; no Create, no paid action, no full launch authorization",
+  "url": "https://www.topview.ai/board/1a6244cf1ae747ef847d949a80d6133c?tool-type=video-edit&model-id=qwen-wan3.0-video",
+  "model": "Wan 3.0",
+  "duration_seconds": 30,
+  "resolution": "720p",
+  "aspect_ratio": "16:9",
+  "items": [
+    {
+      "id": "S89F-WAN30",
+      "tab_id": "6",
+      "prompt_sha256": "fbc6cf05411549582e90d228c4d70f3410d449baac5c8e1885adc188ecad89db",
+      "exact_dom_readback": true,
+      "reference_order": [
+        "holo-man.jpg",
+        "holo-office.jpg",
+        "holo-woman.jpg"
+      ],
+      "chips": [
+        1,
+        2,
+        3,
+        1,
+        3,
+        2
+      ],
+      "all_chips_busy": false,
+      "historical_provenance_is_plain_text": true
+    },
+    {
+      "id": "S89G-WAN30",
+      "tab_id": "8",
+      "prompt_sha256": "a1e23bdb5675dfa496b5126b5ae0049ca0b434e855ac54fb823da4f347d5daa8",
+      "exact_dom_readback": true,
+      "reference_order": [
+        "holo-office.jpg",
+        "holo-man.jpg",
+        "holo-woman.jpg",
+        "Image4.png",
+        "Image5.png"
+      ],
+      "chips": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        2,
+        3,
+        5,
+        4,
+        4,
+        5
+      ],
+      "all_chips_busy": false,
+      "historical_provenance_is_plain_text": true
+    }
+  ],
+  "create_clicked": false,
+  "canonical_state_changed": false,
+  "screenshot_note": "Visual screenshots inspected in browser tool outputs. Local screenshot writes failed EROFS; no saved screenshot file claimed.",
+  "restoration": {
+    "base_main_sha": "183bc49e1ef130185a4a93fc135aac0180f9d96f",
+    "recorded_at": "2026-11-18T16:39:16.684107Z",
+    "items": [
+      {
+        "id": "S89F-WAN30",
+        "previous_state": "blocked_model_preparation",
+        "restored_state": "waiting_for_slot",
+        "resolved_blocker": {
+          "code": "legacy_provenance_active_image_mentions",
+          "checked_at": "2026-11-18T15:49:36.966Z",
+          "reason": "Historical <<<Image2/3/4>>> become active current chips; nonexistent Image4 in 3-input UI, verified in Topview form",
+          "resume_condition": "Reviewed canonical prompt/manifest normalization removing active mention syntax from historical provenance; fresh full preflight",
+          "previous_state": "waiting_for_slot"
+        }
+      },
+      {
+        "id": "S89G-WAN30",
+        "previous_state": "blocked_model_preparation",
+        "restored_state": "waiting_for_slot",
+        "resolved_blocker": {
+          "code": "legacy_provenance_active_image_mentions",
+          "checked_at": "2026-11-18T15:49:36.966Z",
+          "reason": "Historical <<<Image3>>> in office Image1 provenance points to current woman Image3; same active-mention syntax confirmed in F UI",
+          "resume_condition": "Reviewed canonical prompt/manifest normalization removing active mention syntax from historical provenance; fresh full preflight",
+          "previous_state": "waiting_for_slot"
+        }
+      }
+    ],
+    "fresh_full_launch_preflight_required": true,
+    "create_authorized_by_this_report": false
+  }
+}
