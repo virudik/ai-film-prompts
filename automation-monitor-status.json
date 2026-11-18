@@ -211,22 +211,22 @@
     ],
     "robot_rewake": {
       "episode": "2f83982f",
-      "count": 1,
-      "last_at": "2026-11-18T21:40:35Z",
-      "sequence": 75,
+      "count": 2,
+      "last_at": "2026-11-18T22:30:57Z",
+      "sequence": 76,
       "first_at": "2026-11-18T21:40:35Z",
-      "last_event_id": "slots:2f83982f:75",
+      "last_event_id": "slots:2f83982f:76",
       "silence_reported": "slots:d23cf217:2"
     },
     "robot_dispatch": {
       "episode": "2f83982f",
-      "event_id": "slots:2f83982f:75",
-      "target": "primary",
-      "actor": "dot",
+      "event_id": "slots:2f83982f:76",
+      "target": "backup",
+      "actor": "grok",
       "primary_actor": "dot",
       "backup_actor": "grok",
-      "reason": "new_episode",
-      "attempted_at": "2026-11-18T21:40:35Z"
+      "reason": "primary_blocked_retryable",
+      "attempted_at": "2026-11-18T22:30:57Z"
     }
   },
   "phases": {
@@ -483,9 +483,9 @@
     ],
     "last_event_id": "slots:2f83982f:75",
     "receipt_present": true,
-    "handler_outcome": "started",
-    "execution_stage": "intake",
-    "execution_updated_at": "2026-11-18T21:52:11.306Z",
+    "handler_outcome": "blocked_reconciliation_required",
+    "execution_stage": "verify_blocked_before_create",
+    "execution_updated_at": "2026-11-18T22:23:15.956Z",
     "runtime_run_id": null,
     "confirmed_launch_task_ids": [],
     "last_confirmed_event_id": "slots:09b02477:74",
@@ -493,6 +493,6 @@
       "02fd85ac5fde408285bc439f15ba8239"
     ],
     "escalation_attempted_episode": "2f83982f",
-    "checked_at": "2026-11-18T22:20:36Z"
+    "checked_at": "2026-11-18T22:30:57Z"
   }
 }
