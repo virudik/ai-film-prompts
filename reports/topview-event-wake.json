@@ -2140,6 +2140,28 @@
         "claim_intent_create": false,
         "production_launch_proven": false
       }
+    },
+    {
+      "event_id": "slots:09b02477:74",
+      "issue_number": 802,
+      "message_id": "248829805329379328",
+      "relay_event_id": "evt_31906bfab705a43d78de688b8e3ef69d",
+      "checked_at": "2026-11-18T15:30:34.745Z",
+      "outcome": "started",
+      "reason": "Verified exact registered sender agent ID, bot issue and permitted handler; acquired own lease and read back",
+      "task_ids": [],
+      "retryable": true,
+      "actor": "dot",
+      "source": "dot Agent Relay webhook",
+      "runner": "dot_event_handler",
+      "run_id": null,
+      "run_id_unavailable_reason": "Platform runtime ID not exposed to delegated handler",
+      "execution": {
+        "state": "started",
+        "stage": "intake",
+        "started_at": "2026-11-18T15:30:34.745Z",
+        "updated_at": "2026-11-18T15:30:34.745Z"
+      }
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
