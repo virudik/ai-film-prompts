@@ -153,7 +153,8 @@
       "result:3a09108c8c474a0989118806b4a69f91",
       "result:a1330998d39b486e864ed4e22b4fe8c4",
       "result:1dcb6fa0628d41b098227ca6c96f1630",
-      "result:8c6d92662d1043c7a651168b2b8280ae"
+      "result:8c6d92662d1043c7a651168b2b8280ae",
+      "result:bfdb6d9fad7a4ab29492f7bb95c78033"
     ],
     "robot_wake_keys": [
       "result:56e5e07c85df4af583c62665c51ed563",
@@ -205,7 +206,8 @@
       "result:3a09108c8c474a0989118806b4a69f91",
       "result:a1330998d39b486e864ed4e22b4fe8c4",
       "result:1dcb6fa0628d41b098227ca6c96f1630",
-      "result:8c6d92662d1043c7a651168b2b8280ae"
+      "result:8c6d92662d1043c7a651168b2b8280ae",
+      "result:bfdb6d9fad7a4ab29492f7bb95c78033"
     ],
     "robot_rewake": {
       "episode": "09b02477",
@@ -229,7 +231,7 @@
   },
   "phases": {
     "topview": {
-      "checked_at": "2026-11-18T20:10:30Z",
+      "checked_at": "2026-11-18T20:20:41Z",
       "source": "robot; число слотов — topview-status.json"
     },
     "deep_audit": {
@@ -247,8 +249,8 @@
   },
   "health": "ok",
   "last_scheduled_cycle": {
-    "started_at": "2026-11-18T20:10:34Z",
-    "completed_at": "2026-11-18T20:10:34Z",
+    "started_at": "2026-11-18T20:20:47Z",
+    "completed_at": "2026-11-18T20:20:47Z",
     "health": "ok",
     "phases_completed": [
       "role_check",
@@ -260,7 +262,7 @@
     ],
     "phases_missing": [],
     "runner": "robot_scheduled_task",
-    "note": "GitHub robot: 6 из 6 слотов занято, новых 0, завершено 0."
+    "note": "GitHub robot: 5 из 6 слотов занято, новых 0, завершено 1."
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -319,8 +321,8 @@
       "checked_at": "2026-10-13T19:02:02.187Z"
     }
   },
-  "last_completed_cycle_at": "2026-11-18T20:10:34Z",
-  "last_successful_cycle_at": "2026-11-18T20:10:34Z",
+  "last_completed_cycle_at": "2026-11-18T20:20:47Z",
+  "last_successful_cycle_at": "2026-11-18T20:20:47Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
     "title": "AI Film — единый монитор",
@@ -335,13 +337,13 @@
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-11-18T20:10:34Z"
+    "robot": "2026-11-18T20:20:47Z"
   },
   "last_successful_cycle_runner": "robot_scheduled_task",
   "last_successful_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-11-18T20:10:34Z"
+    "robot": "2026-11-18T20:20:47Z"
   },
   "previous_primary_automation": {
     "id": "trig_014eEvBooAV2hxx1asRo9snm",
@@ -450,12 +452,12 @@
     }
   },
   "launcher_health": {
-    "state": "capacity_full",
-    "unresolved": false,
-    "episode": "c5099599",
-    "unresolved_since": null,
-    "reason": "no_free_global_slot; launcher_health_not_proven",
-    "free_slots_global": 0,
+    "state": "reconciliation_required",
+    "unresolved": true,
+    "episode": "2f83982f",
+    "unresolved_since": "2026-11-18T20:20:47Z",
+    "reason": "saved_claim_or_unknown_submission; no_repeat_Create",
+    "free_slots_global": 1,
     "actionable_items": [
       "S49B",
       "S28-A4-20261023",
@@ -493,6 +495,6 @@
       "02fd85ac5fde408285bc439f15ba8239"
     ],
     "escalation_attempted_episode": null,
-    "checked_at": "2026-11-18T19:20:49Z"
+    "checked_at": "2026-11-18T20:20:47Z"
   }
 }
