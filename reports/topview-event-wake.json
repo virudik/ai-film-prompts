@@ -2146,9 +2146,9 @@
       "issue_number": 802,
       "message_id": "248829805329379328",
       "relay_event_id": "evt_31906bfab705a43d78de688b8e3ef69d",
-      "checked_at": "2026-11-18T15:44:28.864971+00:00",
-      "outcome": "blocked_publish",
-      "reason": "Intent CAS failed while robot advanced main; exact readback retains claimed only. Verify rejected original_payload_not_published_exactly. No UI Create. intent_prepared session cannot refresh-claim or replay.",
+      "checked_at": "2026-11-18T15:49:37.278Z",
+      "outcome": "started",
+      "reason": "D claim retained, F/G canonical QC blockers recorded; preparing next independent owner-authorized A1",
       "task_ids": [],
       "retryable": true,
       "actor": "dot",
@@ -2157,14 +2157,28 @@
       "run_id": null,
       "run_id_unavailable_reason": "Platform runtime ID not exposed to delegated handler",
       "execution": {
-        "state": "blocked",
-        "stage": "intent_publish_failed",
+        "state": "started",
+        "stage": "independent_candidate_preflight",
         "started_at": "2026-11-18T15:30:34.745Z",
-        "updated_at": "2026-11-18T15:44:28.864971+00:00",
-        "completed_at": "2026-11-18T15:44:28.864971+00:00"
+        "updated_at": "2026-11-18T15:49:37.278Z"
       },
       "claim_id": "5f633ff1-7ecb-45d3-97ca-2a9d24c85bb2",
-      "receipt": "reports/topview-queue-2026-10-16/relay802-publish-blocker.json"
+      "receipt": "reports/topview-queue-2026-10-16/relay802-publish-blocker.json",
+      "attempt_history": [
+        {
+          "outcome": "blocked_publish",
+          "checked_at": "2026-11-18T15:44:28.864971+00:00",
+          "execution": {
+            "state": "blocked",
+            "stage": "intent_publish_failed",
+            "started_at": "2026-11-18T15:30:34.745Z",
+            "updated_at": "2026-11-18T15:44:28.864971+00:00",
+            "completed_at": "2026-11-18T15:44:28.864971+00:00"
+          },
+          "receipt": "reports/topview-queue-2026-10-16/relay802-publish-blocker.json",
+          "claim_id": "5f633ff1-7ecb-45d3-97ca-2a9d24c85bb2"
+        }
+      ]
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",

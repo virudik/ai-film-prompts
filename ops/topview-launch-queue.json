@@ -3042,7 +3042,7 @@
       "canonical_prompt_sha256": "20ae3f0511dcf92b8820c37d3badce989d1fc1a87223ca48623f75744a09ec9c",
       "normalized_prompt_sha256": "92efd089cc61b8d557448fe3f1e8ba95963d10dea9b0e5bd120ddc3031bda32f",
       "priority": 0.306,
-      "state": "waiting_for_slot",
+      "state": "blocked_model_preparation",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "model_id": "qwen-wan3.0-video",
@@ -3088,7 +3088,14 @@
       "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry: automatic_retry is false and retry_control is omitted, because Grok prepare_intent treats any retry_control as a retry Create and would reject the first Unlimited Create. Not a paid 12-credit Wan path.",
       "owner_source": "t593u",
       "story_not_music": true,
-      "created_at": "2026-11-12T13:14:25Z"
+      "created_at": "2026-11-12T13:14:25Z",
+      "blocker": {
+        "code": "legacy_provenance_active_image_mentions",
+        "checked_at": "2026-11-18T15:49:36.966Z",
+        "reason": "Historical <<<Image2/3/4>>> become active current chips; nonexistent Image4 in 3-input UI, verified in Topview form",
+        "resume_condition": "Reviewed canonical prompt/manifest normalization removing active mention syntax from historical provenance; fresh full preflight",
+        "previous_state": "waiting_for_slot"
+      }
     },
     {
       "id": "S89G-WAN30",
@@ -3099,7 +3106,7 @@
       "canonical_prompt_sha256": "6ae53dc1ea8c1f171c844c556519e4a9f4517b8758ab75fc0e75324f9ef9f4d0",
       "normalized_prompt_sha256": "e8529d2a22ea56c6eb0ec801f0e8a324604ad52a0aa4f725f89def3112a24638",
       "priority": 0.307,
-      "state": "waiting_for_slot",
+      "state": "blocked_model_preparation",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "model_id": "qwen-wan3.0-video",
@@ -3159,7 +3166,14 @@
       "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry: automatic_retry is false and retry_control is omitted, because Grok prepare_intent treats any retry_control as a retry Create and would reject the first Unlimited Create. Not a paid 12-credit Wan path.",
       "owner_source": "t593u",
       "story_not_music": true,
-      "created_at": "2026-11-12T13:14:25Z"
+      "created_at": "2026-11-12T13:14:25Z",
+      "blocker": {
+        "code": "legacy_provenance_active_image_mentions",
+        "checked_at": "2026-11-18T15:49:36.966Z",
+        "reason": "Historical <<<Image3>>> in office Image1 provenance points to current woman Image3; same active-mention syntax confirmed in F UI",
+        "resume_condition": "Reviewed canonical prompt/manifest normalization removing active mention syntax from historical provenance; fresh full preflight",
+        "previous_state": "waiting_for_slot"
+      }
     },
     {
       "id": "S89H-WAN30",
