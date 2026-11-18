@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:f4e963db-73b9-469b-a9b9-d46ae8cf1742",
-  "task": "Hourly 16:00 read-only slot and hangar archive receipt",
-  "acquired_at": "2026-11-18T16:07:11.391Z",
-  "expires_at": null,
-  "released_at": "2026-11-18T16:07:33.791Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:0a5d553a-4e7c-480c-90f2-858db4a34200",
+  "task": "Reviewed launch autonomy diagnostics and receipt provenance; no launch",
+  "acquired_at": "2026-11-18T16:08:18Z",
+  "expires_at": "2026-11-18T16:23:18Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
