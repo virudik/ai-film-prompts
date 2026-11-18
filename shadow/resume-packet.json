@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-18T16:06:55+00:00",
-  "source_head": "70ad28a2f403126d5fba2b5e09848c331fff0d45",
-  "source_fingerprint": "471ee4a7155e1698f7b0fb13819a20732071a9f6c2b941f4b12549a4916eb6b7",
-  "status": "needs_recovery",
-  "ready_for_resume": false,
+  "checked_at": "2026-11-18T16:08:08+00:00",
+  "source_head": "e946485b923a75c40ed504bfaf03412b28220736",
+  "source_fingerprint": "11e359c3682dddf4c8f957ab15342571f4c0eb362322fcbe011d084a739f4b15",
+  "status": "ready",
+  "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "dot-takeover-20261115-a83fdec7",
@@ -30,10 +30,7 @@
     },
     "source_head": "91e36aa5b674ee66df422bfa9873fcfc7241e012"
   },
-  "reasons": [
-    "brief was invalid at generation",
-    "master vs project-status sha256 mismatch"
-  ],
+  "reasons": [],
   "selected_work": {
     "work_id": "SEREGIUS-SHIFT-20261113-T611U",
     "title": "Смена 13.11 t611u: очередь 48.4 и 89, отзыв по версиям Grok",
@@ -634,7 +631,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "22286567616e25a66aed79eba1a61c4cfdff1c542a5e8defa0985286bd63c77a",
+      "sha256": "79ee1b881d4d9b724cc689a1fa750e65b347f56307d078ddf255868f79a097a0",
       "bytes": 29586
     },
     {
@@ -659,8 +656,8 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "8c205d85199b0af6027c69677d83b3dd7da0db89cfcc5466106c3277ef55b2cc",
-      "bytes": 32408
+      "sha256": "80ae71dce5f559d086ccdcce59a07a700ce1a3752df4c81dc341f3c34e952522",
+      "bytes": 32407
     },
     {
       "file": "video-prompts.md",
@@ -673,5 +670,5 @@
       "bytes": 95324
     }
   ],
-  "packet_bytes": 5065
+  "packet_bytes": 5097
 }

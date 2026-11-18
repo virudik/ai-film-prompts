@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-18T16:06:55+00:00",
-  "source_head": "70ad28a2f403126d5fba2b5e09848c331fff0d45",
-  "source_fingerprint": "374c8f9136d59a9567226fb4a75428f41b382733a683a73ade231120e2914066",
-  "status": "needs_recovery",
-  "ready_for_resume": false,
+  "checked_at": "2026-11-18T16:08:08+00:00",
+  "source_head": "e946485b923a75c40ed504bfaf03412b28220736",
+  "source_fingerprint": "9120f85d4fcbf51b9223934eadaa1bcce09aa66fc203ac0156c14e0446d574f1",
+  "status": "ready",
+  "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "raznoe-continue-20261106-93c791ea-000f-442e-90b9-13502501c5c1",
@@ -31,10 +31,7 @@
     },
     "source_head": "0107904bad80907682f4854768885b56d7d8d8da"
   },
-  "reasons": [
-    "brief was invalid at generation",
-    "master vs project-status sha256 mismatch"
-  ],
+  "reasons": [],
   "selected_work": {
     "work_id": "RAZNOE-HONOR-X9EPRO-CONTEST-20261107",
     "title": "RAZNOE-HONOR-X9EPRO-CONTEST-20261107",
@@ -225,7 +222,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "22286567616e25a66aed79eba1a61c4cfdff1c542a5e8defa0985286bd63c77a",
+      "sha256": "79ee1b881d4d9b724cc689a1fa750e65b347f56307d078ddf255868f79a097a0",
       "bytes": 29586
     },
     {
@@ -295,8 +292,8 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "8c205d85199b0af6027c69677d83b3dd7da0db89cfcc5466106c3277ef55b2cc",
-      "bytes": 32408
+      "sha256": "80ae71dce5f559d086ccdcce59a07a700ce1a3752df4c81dc341f3c34e952522",
+      "bytes": 32407
     },
     {
       "file": "video-prompts.md",
@@ -304,5 +301,5 @@
       "bytes": 1990363
     }
   ],
-  "packet_bytes": 6261
+  "packet_bytes": 6293
 }

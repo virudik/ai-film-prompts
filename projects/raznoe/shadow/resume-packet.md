@@ -2,8 +2,8 @@
 
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project raznoe`; разрешением на запуск не является.
 
-Состояние: needs_recovery
-Проверено: 2026-11-18T16:06:55+00:00
+Состояние: ready
+Проверено: 2026-11-18T16:08:08+00:00
 Задача: RAZNOE-HONOR-X9EPRO-CONTEST-20261107 — RAZNOE-HONOR-X9EPRO-CONTEST-20261107
 
 Последний подтверждённый этап: Внесение референсов завершено: 6 PNG, 6 превью и 39 автономных привязок к точным реальным моделям. Сайт: 26/26 файлов совпали по SHA256. Drive6/6 ранее проверены, существующие копии сохранены. Полный набор: 550 тестов, ошибок/пропусков0.
@@ -58,5 +58,4 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 
 ## Пробелы
 
-- brief was invalid at generation
-- master vs project-status sha256 mismatch
+Нет ошибок локальной проверки. Живые проверки выше обязательны.
