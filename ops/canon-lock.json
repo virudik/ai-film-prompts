@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:01b67fea-c618-440c-b3ba-cde33fc8929d",
-  "task": "Dot: finish PR812 instruction consistency follow-up (no launches)",
-  "acquired_at": "2026-11-18T21:43:58Z",
-  "expires_at": null,
-  "released_at": "2026-11-18T21:50:27.315Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:82f03912-b081-4993-b45f-664c004529c0",
+  "task": "Genuine Relay813 early ACK; no launch until full fresh preflight",
+  "acquired_at": "2026-11-18T21:51:46.074Z",
+  "expires_at": "2026-11-18T22:01:46.074Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
