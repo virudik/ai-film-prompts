@@ -1,15 +1,17 @@
 {
   "schema_version": 1,
   "rules": "ops/SELF-HEAL.md",
-  "status": "ok",
-  "problems": {},
+  "status": "fixing",
+  "problems": {
+    "pages-lag": {
+      "text": "Сайт показывает статус от 2026-11-18T17:40:36Z, а в main уже 2026-11-18T18:12:36Z (отставание 32 мин).",
+      "since": "2026-11-18T18:13:46Z",
+      "fixes": 1,
+      "last_fix_at": "2026-11-18T18:13:46Z",
+      "escalated_at": null
+    }
+  },
   "log": [
-    {
-      "at": "2026-11-10T04:19:38Z",
-      "kind": "fixed",
-      "key": "pages-lag",
-      "text": "Нашёл: Сайт показывает статус от 2026-11-10T03:40:00Z, а в main уже 2026-11-10T04:10:41Z (отставание 30 мин). Сделал: пересобрал сайт на GitHub Pages."
-    },
     {
       "at": "2026-11-10T04:19:38Z",
       "kind": "resolved",
@@ -123,7 +125,13 @@
       "kind": "resolved",
       "key": "run-failed-canon-health",
       "text": "Прошло: Последний запуск «здоровье канона» на GitHub упал (попытка 2): https://github.com/virudik/ai-film-prompts/actions/runs/43925539517"
+    },
+    {
+      "at": "2026-11-18T18:13:46Z",
+      "kind": "fixed",
+      "key": "pages-lag",
+      "text": "Нашёл: Сайт показывает статус от 2026-11-18T17:40:36Z, а в main уже 2026-11-18T18:12:36Z (отставание 32 мин). Сделал: пересобрал сайт на GitHub Pages."
     }
   ],
-  "changed_at": "2026-11-16T19:19:28Z"
+  "changed_at": "2026-11-18T18:13:46Z"
 }
