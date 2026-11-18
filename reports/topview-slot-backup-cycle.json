@@ -7,20 +7,20 @@
   "automation_context_version": "a3ee12acd936406cbd4e23c8adab7fb9f827da78a17acf064254fb0929be9403",
   "run_id": null,
   "run_id_unavailable_reason": "Not exposed in delegated actual scheduled wake or automations.get",
-  "execution_instance_id": "6be37095-5715-40ec-bd3e-b249020c9e7d",
-  "route_generation": 6,
-  "source_head": "445d35d9baec82ed0d5ca005bceb7a4e438d3d51",
+  "execution_instance_id": "549b2641-820f-41a7-9c0d-5ec72a590b98",
+  "route_generation": 7,
+  "source_head": "a1430bc3edeaa35a4b7e37a3ed37d04aa9ca598c",
   "actual_trigger": "scheduled",
-  "started_at": "2026-11-18T02:58:04.898225+00:00",
-  "updated_at": "2026-11-18T02:58:33.504Z",
-  "completed_at": "2026-11-18T02:58:33.504Z",
+  "started_at": "2026-11-18T04:02:40.161761+00:00",
+  "updated_at": "2026-11-18T04:03:13.317Z",
+  "completed_at": "2026-11-18T04:03:13.317Z",
   "phase": "completed",
   "outcome": "no_update_all_slots_occupied",
   "browser_transport": "dot_own_browser",
   "browser_used": false,
   "scan": {
     "complete": true,
-    "checked_at": "2026-11-18T02:57:46.225Z",
+    "checked_at": "2026-11-18T04:02:11.987Z",
     "boards_listed": 14,
     "pages_scanned": 21,
     "tasks_scanned": 1063,
@@ -50,17 +50,17 @@
   "next_action_unchanged": true,
   "browser_not_used_reason": "Full account-wide read-only scan verified 6/6 active; no UI preflight/Create needed",
   "lease": {
-    "holder": "chatgpt:ordinary:6be37095-5715-40ec-bd3e-b249020c9e7d",
-    "acquired_at": "2026-11-18T02:58:04.898225+00:00",
-    "acquisition_commit": "14d60a133fc9483e49adfacd7a9038cd985f512c",
+    "holder": "chatgpt:ordinary:549b2641-820f-41a7-9c0d-5ec72a590b98",
+    "acquired_at": "2026-11-18T04:02:40.161761+00:00",
+    "acquisition_commit": "4d2292e5cc3f31f5c3c4981de09fe412242770fd",
     "verified_start_readback": true,
-    "released_at": "2026-11-18T02:58:33.504Z",
+    "released_at": "2026-11-18T04:03:13.317Z",
     "release_state": "released_in_same_CAS_as_final_receipt"
   },
   "execution": {
     "state": "completed",
     "stage": "capacity_checked_no_create",
-    "updated_at": "2026-11-18T02:58:33.504Z",
-    "completed_at": "2026-11-18T02:58:33.504Z"
+    "updated_at": "2026-11-18T04:03:13.317Z",
+    "completed_at": "2026-11-18T04:03:13.317Z"
   }
 }
