@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:43bc6df1-ee56-4f38-bc8f-c7c901104778",
   "task": "Merge reviewed PR812 only; no queue or launch changes",
   "acquired_at": "2026-11-18T22:24:26Z",
-  "expires_at": "2026-11-18T22:34:26Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-18T22:25:13.734Z",
   "rules": "ops/CANON-LOCK.md"
 }
