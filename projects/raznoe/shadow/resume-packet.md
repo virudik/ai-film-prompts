@@ -3,7 +3,7 @@
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project raznoe`; разрешением на запуск не является.
 
 Состояние: needs_recovery
-Проверено: 2026-11-18T18:13:58+00:00
+Проверено: 2026-11-18T18:18:40+00:00
 Задача: не определена — 
 
 Последний подтверждённый этап: нет доказательств
@@ -46,4 +46,6 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 
 ## Пробелы
 
+- brief was invalid at generation
+- master vs project-status sha256 mismatch
 - selected work has no verified recovery record

@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-18T18:13:58+00:00",
-  "source_head": "37d8b9a3b76f0d1b466f7dd4c272531b58ec3e82",
-  "source_fingerprint": "f5aa2ce1a7db1207a3aa5cadfef42517230bd1abe46e0085f61dd85d359933c4",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-11-18T18:18:40+00:00",
+  "source_head": "b0ced1544975059da236d411ca9ec92c8c116852",
+  "source_fingerprint": "c6897e941c800f9c9a011836090daaa97ac2ea3a795d530eb8e7eb42a77d7e5f",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "dot-takeover-20261115-a83fdec7",
@@ -30,7 +30,10 @@
     },
     "source_head": "91e36aa5b674ee66df422bfa9873fcfc7241e012"
   },
-  "reasons": [],
+  "reasons": [
+    "brief was invalid at generation",
+    "master vs project-status sha256 mismatch"
+  ],
   "selected_work": {
     "work_id": "SEREGIUS-SHIFT-20261113-T611U",
     "title": "Смена 13.11 t611u: очередь 48.4 и 89, отзыв по версиям Grok",
@@ -626,8 +629,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "15f8cbf8a774a9988aa146d3ea9b21c824fd312e31c7fab2a5777677f6abc1f6",
-      "bytes": 250901
+      "sha256": "8f0df9cbecc4bcc9eeb84f3a6c6a89400cd7bb70ac197bdd9f327ff055875ab8",
+      "bytes": 254016
     },
     {
       "file": "project-status.json",
@@ -656,13 +659,13 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "0039bc6e0efc00942c2dd37aee65469eccfefdbee58f37e29c12c9bbd07c9a75",
-      "bytes": 32407
+      "sha256": "980cef549c654cc3f4f1f7b94405fe8d628e479bec6cbc584ffb5fac6bbf18cb",
+      "bytes": 32410
     },
     {
       "file": "video-prompts.md",
-      "sha256": "f5d9c8329d13ed24981b0fa03c2aff36eb4dc0835ec4d514bdf12e9499ef410f",
-      "bytes": 1990363
+      "sha256": "18160c3264ee8a2e2cdae3672064d48df9c7e5d5a379e428b5529eed666add4a",
+      "bytes": 1997595
     },
     {
       "file": "work-resume-register.json",
@@ -670,5 +673,5 @@
       "bytes": 95324
     }
   ],
-  "packet_bytes": 5097
+  "packet_bytes": 5065
 }
