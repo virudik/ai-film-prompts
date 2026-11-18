@@ -3084,7 +3084,7 @@
       "canonical_prompt_sha256": "fbc6cf05411549582e90d228c4d70f3410d449baac5c8e1885adc188ecad89db",
       "normalized_prompt_sha256": "91c247c4013547f69175c21ed4c99bb4251934b0d4c4ba6ab3f6be55902e6e82",
       "priority": 0.306,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "model_id": "qwen-wan3.0-video",
@@ -3137,6 +3137,42 @@
         "report": "reports/scene89-fg-provenance-ui-qc-2026-11-18.json",
         "restored_at": "2026-11-18T16:39:16.684107Z",
         "fresh_full_launch_preflight_required": true
+      },
+      "claim": {
+        "claim_id": "f652a7a4-ed06-4722-ae35-d663c8267595",
+        "execution_instance_id": "82f03912-b081-4993-b45f-664c004529c0",
+        "route_generation": 7,
+        "source_sha": "d96d8a9321b73fbf507be6c406f6b0e7f5da75b6",
+        "claimed_at": "2026-11-18T22:17:17Z",
+        "lease_holder": "chatgpt:ordinary:82f03912-b081-4993-b45f-664c004529c0",
+        "lease_acquired_at": "2026-11-18T22:02:13.949Z",
+        "preflight": {
+          "owner_authorized": true,
+          "prompt_match": true,
+          "input_sha_match": true,
+          "input_order_match": true,
+          "qc_passed": true,
+          "website_unlimited": true,
+          "numeric_zero_displayed": false,
+          "credits_cost": 0,
+          "unlimited_mode_selected": true,
+          "credits_cost_evidence": "selected_free_unlimited_current_form",
+          "ui_unlimited_label": "Безлимитный режим — бесплатно",
+          "paid_credit_mode_selected": false,
+          "quantity": 1,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "model_id": "qwen-wan3.0-video",
+          "duration_seconds": 30,
+          "prompt_sha256": "fbc6cf05411549582e90d228c4d70f3410d449baac5c8e1885adc188ecad89db",
+          "ui_prompt_exact": true,
+          "reference_sha256": [
+            "b4a1307310e9c7c52a6f1d8b3157acaa4666daad281b305a119806511c6d2f42",
+            "aa8cded6f151278c5bc1a1823ea8ed04abcde819e93cd2dfc2b38b0b2ce48d54",
+            "85ab20924887bd960cad1a4c3ae3089bc27b6b050d1bef5e63895c48c4604bc8"
+          ]
+        },
+        "coordination_version": 2
       }
     },
     {
