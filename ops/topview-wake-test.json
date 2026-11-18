@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "enabled": false,
+  "enabled": true,
   "channel": "relay",
-  "test_id": "dot-ack-contract-20261115-2204",
+  "test_id": "dot-unified-relay-20261118-0351",
   "read_only": true,
-  "requested_at": "2026-11-15T22:04:31.722Z",
+  "requested_at": "2026-11-18T03:51:20.216Z",
   "expected_new_submissions": 0,
-  "automation_id": "6af9b2a7212081919b191786c483ad13",
-  "reason": "Read-only early ACK contract test. Current dot writes test:<test_id> started then read_only_test_complete to events[] under own lease, before any lengthy work. No Topview, claim, intent or Create.",
+  "automation_id": "6afd1f83b1b08191b4b7c8ad55c132cf",
+  "reason": "Read-only unified Relay runtime acceptance before launch registration. Verify sender/issue; own lease started and read_only_test_complete. No Topview, claim, intent, Create or Grok request.",
   "resend_same_test": false,
   "previous": {
     "test_id": "wake-v2-newthread-20261024-01",
@@ -15,6 +15,9 @@
     "result": "no_run_after_new_thread",
     "completed_at": "2026-10-25T08:27:12.062Z"
   },
-  "completed_at": "2026-11-15T22:13:19.985Z",
-  "result": "Actual webhook received; separate started ACK commit/readback then read_only_test_complete; no generation."
+  "previous_test": {
+    "test_id": "dot-ack-contract-20261115-2204",
+    "completed_at": "2026-11-15T22:13:19.985Z",
+    "result": "Actual webhook received; separate started ACK commit/readback then read_only_test_complete; no generation."
+  }
 }

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:f8be56f8-6688-4d92-8208-24069dcddaf9",
   "task": "Read-only unified Relay handler runtime acceptance; no Topview or launch registration",
   "acquired_at": "2026-11-18T03:49:55.364769+00:00",
-  "expires_at": "2026-11-18T04:04:55.364769+00:00",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-18T03:51:20.216Z",
   "rules": "ops/CANON-LOCK.md"
 }
