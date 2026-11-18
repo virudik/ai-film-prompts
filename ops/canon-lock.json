@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:5d29a838-4607-4266-83a6-a442ca305ec7",
-  "task": "Relay slots:09b02477:74 issue802 intake and permitted free launch",
-  "acquired_at": "2026-11-18T15:29:52Z",
-  "expires_at": null,
-  "released_at": "2026-11-18T15:44:28.864971+00:00",
+  "state": "held",
+  "holder": "chatgpt:ordinary:b37f28b3-25fb-48b1-a596-8658e79a8e3e",
+  "task": "Relay802 independent A1 after D publication blocker and F/G QC blockers",
+  "acquired_at": "2026-11-18T15:49:14.809Z",
+  "expires_at": "2026-11-18T16:09:14.809Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
