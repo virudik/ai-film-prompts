@@ -5,23 +5,23 @@
   "runner": "dot_scheduled_handler",
   "automation_id": "6afc8b674794819192ba0b1415c5a220",
   "automation_context_version": "04b6bdacc9946bde47a4909ab3733a300b1d5874a3d53f49cd82a752b1ebcc75",
-  "execution_instance_id": "4e0d4a3f-b656-4bce-b435-c73e37539041",
+  "execution_instance_id": "deb196db-be37-4433-a1cd-03b994455b17",
   "run_id": null,
-  "run_id_unavailable_reason": "Not exposed in scheduled wake delegated by root or automations.get",
+  "run_id_unavailable_reason": "Not exposed in scheduled wake delegated by root",
   "actual_trigger": "scheduled",
-  "scheduled_for": "2026-11-18T17:00:00Z",
-  "started_at": "2026-11-18T16:57:36.617Z",
-  "updated_at": "2026-11-18T17:00:12.615Z",
-  "phase": "completed",
-  "status": "completed",
-  "outcome": "no_update_all_slots_occupied",
-  "source_head": "514971b157f89fd892bcdd891010e6524c51fe7f",
+  "scheduled_for": "2026-11-18T18:00:00Z",
+  "started_at": "2026-11-18T18:03:22.683Z",
+  "updated_at": "2026-11-18T18:04:36.700Z",
+  "phase": "started",
+  "status": "started",
+  "outcome": "started",
+  "source_head": "78080115fa519241b443b86554ca83e70c3a7c12",
   "route_generation": 7,
   "browser_transport": "dot_own_browser",
   "browser_used": false,
   "scan": {
     "complete": true,
-    "checked_at": "2026-11-18T16:58:11.490Z",
+    "checked_at": "2026-11-18T18:03:54.057Z",
     "boards_listed": 14,
     "pages_scanned": 21,
     "tasks_scanned": 1064,
@@ -42,252 +42,22 @@
     "bfdb6d9fad7a4ab29492f7bb95c78033"
   ],
   "execution": {
-    "state": "completed",
-    "stage": "full_slots_and_hangar_no_changes",
-    "updated_at": "2026-11-18T17:00:12.615Z",
-    "completed_at": "2026-11-18T17:00:12.615Z"
+    "state": "started",
+    "stage": "full_scan_completed_hangar_archive_check_pending"
   },
   "lease": {
     "schema_version": 1,
-    "state": "free",
-    "holder": "chatgpt:ordinary:4e0d4a3f-b656-4bce-b435-c73e37539041",
-    "task": "Hourly 17:00 slot and hangar archive check",
-    "acquired_at": "2026-11-18T16:58:24.270Z",
-    "expires_at": null,
-    "released_at": "2026-11-18T17:00:12.615Z",
+    "state": "held",
+    "holder": "chatgpt:ordinary:deb196db-be37-4433-a1cd-03b994455b17",
+    "task": "Hourly 18:00 slots and hangar archive receipt",
+    "acquired_at": "2026-11-18T18:04:12.219Z",
+    "expires_at": "2026-11-18T18:09:12.219Z",
+    "released_at": null,
     "rules": "ops/CANON-LOCK.md",
-    "acquisition_commit": "bd9655024d6e8fe53e8f2b149218adc2033d0739",
+    "acquisition_commit": "e11f38ec607afc01399af520734e6f2cdab3c7f9",
     "verified_start_readback": true
   },
   "new_submissions": 0,
   "owner_tasks_open_count": 0,
-  "next_action_unchanged": true,
-  "completed_at": "2026-11-18T17:00:12.615Z",
-  "blocker": null,
-  "retryable": false,
-  "hangar_archive": {
-    "checked_at": "2026-11-18T16:59:36.563Z",
-    "topview_count": 26,
-    "grok_count": 29,
-    "matches": [
-      {
-        "task_id": "8c6d92662d1043c7a651168b2b8280ae",
-        "file_id": "1VLUcIUfRmiOvwnStDvDwrnsT9eUzwW8S",
-        "size": 11718687,
-        "archive_source_file_id": "13niQQ3vZDeqxN3z7BuDITrVjSR6ZKih3",
-        "size_match": true,
-        "live_status": "success"
-      },
-      {
-        "task_id": "faf2aa38db484f4caae06eeb13c7d166",
-        "file_id": "1nJZ6apRNz4lOeiTjmXA3WTCgsFRIYKzu",
-        "size": 12775380,
-        "size_match": null,
-        "live_status": "success"
-      },
-      {
-        "task_id": "762b3091b3e44b8599a0a58b91a253c5",
-        "file_id": "1xVshJt9316Bzik4jp9rxGzPjhTe4DzK0",
-        "size": 78612300,
-        "archive_source_file_id": "15Laq_4setDFgt0ZNn9na9N-ilubBaWoG",
-        "size_match": true,
-        "live_status": "success"
-      },
-      {
-        "task_id": "d3844e4199d64abebe323be430a5cb35",
-        "file_id": "1xQ2DiWGew7MLrng4jPrOV_jzJLvjdlsB",
-        "size": 78623479,
-        "archive_source_file_id": "1XYqPqbL5Y9vh_68vl8MaZZ63WthRnB0Y",
-        "size_match": true,
-        "live_status": "success"
-      },
-      {
-        "task_id": "721cfbef2af0479da57f0a52479d2f54",
-        "file_id": "1rgR1AGl1IxR7NObgHRBLMjYpYdNyIwzs",
-        "size": 78612089,
-        "archive_source_file_id": "1izIyYzTlPQAGkELv875dntoifEXDJuMY",
-        "size_match": true,
-        "live_status": "success"
-      },
-      {
-        "task_id": "fec838b4f63b452c8c76fe50f8e0fdad",
-        "file_id": "14rSbVrswp15pvesmdlb5ypcRcbvkRNtf",
-        "size": 11723947,
-        "archive_source_file_id": "1uCTLx9-eeJBHMYhX-L3_KvYu54MsXT60",
-        "size_match": true,
-        "live_status": "success"
-      },
-      {
-        "task_id": "f88eee8ea93242309b71621e354ccac2",
-        "file_id": "1lImYgpUbHFNJgM8K-234G20v9RJEVP2w",
-        "size": 78608914,
-        "archive_source_file_id": "1Od-oApM_pioLc3in1qBPZe8YsCnFERKC",
-        "size_match": true,
-        "live_status": "success"
-      },
-      {
-        "task_id": "e471e35fc7454fe5a2a89e06fac3f122",
-        "file_id": "1yeJxRtwzZfdJHMNp6RDxypO6_vCjXW_I",
-        "size": 11482855,
-        "archive_source_file_id": "1QyFAkS34rennKplncQkMeRd4BJD9Lavf",
-        "size_match": true,
-        "live_status": "success"
-      },
-      {
-        "task_id": "979f07acffe04750961515f4baf21a3f",
-        "file_id": "1ka1y66kSoMzssCJidpyeU-VMUrDLpt_k",
-        "size": 78629913,
-        "archive_source_file_id": "1aNdaPdF1_UORRaCE9o1NSqlgsGg8ubFu",
-        "size_match": true,
-        "live_status": "success"
-      },
-      {
-        "task_id": "56c0ea656f484b0cb8464233fe097e0d",
-        "file_id": "1UvSdsJY6buSzMNRXA42elKiENdTiKE4s",
-        "size": 78613171,
-        "archive_source_file_id": "1JNfXyCV4kOv4E2IFns0f8Gnd2CG_YcOt",
-        "size_match": true,
-        "live_status": "success"
-      },
-      {
-        "task_id": "2bccc8a3521b411cb7bd51f9c8ba1119",
-        "file_id": "1Hqisoq-h4pPUfVRttD1Yh4kMaXImEkZt",
-        "size": 78608781,
-        "archive_source_file_id": "1DxQSoa2lyboXvTRB1cL37M3ElqfSYp3V",
-        "size_match": true,
-        "live_status": "success"
-      },
-      {
-        "task_id": "5333994f739f4a8b813a6a36dcb7e140",
-        "file_id": "15mN1UUizG7fDUFjQRM9xAmPwsajUUKly",
-        "size": 78609081,
-        "archive_source_file_id": "1g7kCg0FIHPLPDGTexE5N8Q-Omm3PmCSX",
-        "size_match": true,
-        "live_status": "success"
-      },
-      {
-        "task_id": "0d1f17c226834bfbb851d76ed32f9877",
-        "file_id": "1MHsT8-dE93TZrRBaZH7blwDUtpxc37k_",
-        "size": 78609392,
-        "archive_source_file_id": "1kR6tCTudaZzn2qEa24zfFmJuvKEH79bM",
-        "size_match": true,
-        "live_status": "success"
-      },
-      {
-        "task_id": "4b7b972870a44dfbb29bd6c5e330a633",
-        "file_id": "1MmJ87fl3FdeqdtP_Seg_zcoGWk9bq0tC",
-        "size": 11722153,
-        "archive_source_file_id": "1mV7CfO7SoW4MZAMPa_JpTH91964Svsph",
-        "size_match": true,
-        "live_status": "success"
-      },
-      {
-        "task_id": "8a8eadc809004e318c47201b8a463be0",
-        "file_id": "1fpwGN0fV84RhH6KEAa_JB2gf81AxC6rs",
-        "size": 11721554,
-        "archive_source_file_id": "1E2l7YLUBV-BANmBE7i8eKw28UanNRZKO",
-        "size_match": true,
-        "live_status": "success"
-      },
-      {
-        "task_id": "fe78a852b7a343e6a37d146cec789358",
-        "file_id": "101N6AQHatnlMQ4DRj_9CcjewVAc5F4_u",
-        "size": 12519687,
-        "archive_source_file_id": "1ZULAaKy5aVQZMjcFEOWYAPAOhC2SICZd",
-        "size_match": true,
-        "live_status": "success"
-      },
-      {
-        "task_id": "abb161edcf5c4b58b91460677939b5d3",
-        "file_id": "1wNt1lPKXUc44pn6oxPiYZu7yL_7T_-1b",
-        "size": 11662562,
-        "archive_source_file_id": "1SbiKvBs58kZeEzNEYQYHfA40FL2_og8Y",
-        "size_match": true,
-        "live_status": "success"
-      },
-      {
-        "task_id": "3561d1997a6a4e5d813cfb99fdb60ed4",
-        "file_id": "1EjGP1vsWRTZ_YmIV7t__tXKRsa-G70oI",
-        "size": 13356654,
-        "archive_source_file_id": "1sZsosdtxsDvSU3shC3i8ikGSnoqjj75r",
-        "size_match": true,
-        "live_status": "success"
-      },
-      {
-        "task_id": "f3b8883f44b14a2ba432ce429ba02709",
-        "file_id": "1xkd04ePdgiOBf7bYMShiDG8Oz8cUhhqH",
-        "size": 11718698,
-        "archive_source_file_id": "1RR3KL-g3i4ZGuRtTWYB0Dpmy5v5blU1r",
-        "size_match": true,
-        "live_status": "success"
-      },
-      {
-        "task_id": "dbc9aff605ec48349062638cdaa7fd5a",
-        "file_id": "1rHni4a6pIqwq4-nof5DuhDBmYx5qWB8s",
-        "size": 10005391,
-        "archive_source_file_id": "1uGoNxMSaNDK9JFrwpVvRSVkMksUSGMEK",
-        "size_match": true,
-        "live_status": "success"
-      },
-      {
-        "task_id": "8a1982a55f794a049a62eaa91bf8827f",
-        "file_id": "1Zj-JeFpRXKjGGLc1Hn6UmP-yx7hSsAGe",
-        "size": 11718916,
-        "archive_source_file_id": "1nibwT5Mhoppf87jtFmapjCRPTetNWy8o",
-        "size_match": true,
-        "live_status": "success"
-      },
-      {
-        "task_id": "2d8efbd16f5146f48cd7a9a1ffb99369",
-        "file_id": "1eAvPNiGDrF_4EGHa-VpQUm6hIhNDCok8",
-        "size": 9994417,
-        "archive_source_file_id": "1mSDBho6BOybIpkL6VpmFujINtBFsrX_x",
-        "size_match": true,
-        "live_status": "success"
-      },
-      {
-        "task_id": "0b6dfa84e4524b438075f10f7205a846",
-        "file_id": "1lEXbXJW75LYSa_sK5HscMNmTWnk3-Pq1",
-        "size": 10851013,
-        "archive_source_file_id": "1tCtTR8SaHqUVOgOqjVRFPa78wo6C5pFc",
-        "size_match": true,
-        "live_status": "success"
-      },
-      {
-        "task_id": "3a09108c8c474a0989118806b4a69f91",
-        "file_id": "1Kf468EsKewPw10jPHQS-AuOtOjRn1-d_",
-        "size": 11719476,
-        "archive_source_file_id": "12KS5X6pLmynbsORTSxwUmfy4tw7add7g",
-        "size_match": true,
-        "live_status": "success"
-      },
-      {
-        "task_id": "a1330998d39b486e864ed4e22b4fe8c4",
-        "file_id": "1GxC9t2coFKhLbzyz9Zw5H9IWJxdqINTe",
-        "size": 11718570,
-        "archive_source_file_id": "1Dyp_m-hgjnI2C1IkbWoxVRZuhOhltIPc",
-        "size_match": true,
-        "live_status": "success"
-      },
-      {
-        "task_id": "1dcb6fa0628d41b098227ca6c96f1630",
-        "file_id": "1QtZikK2M9WnWBXS4GLeO-VfvGPCIqWEK",
-        "size": 11720887,
-        "archive_source_file_id": "1QzF8uKewQ8fRWS_sQ6YIO4QQ_FuI4DFq",
-        "size_match": true,
-        "live_status": "success"
-      }
-    ],
-    "new_copies": 0,
-    "missing_ready_topview": [],
-    "grok_full_source_catalog_checked": false,
-    "note": "25 archive source sizes matched; extra successful S49F already present; no new successful hangar performance in full scan."
-  },
-  "queue_pending_claim_items": [
-    "S89D-WAN30-R2"
-  ],
-  "pending_claim_note": "D foreign claim preserved; F/G waiting_for_slot after separate UI QC. No queue mutation.",
-  "browser_not_used_reason": "Full read-only scan verified 6/6; no UI Create permitted or needed.",
-  "started_receipt_commit": "52437b923d1ebf5458916d1fd9ce9812d72ba508",
-  "started_receipt_readback": true
+  "next_action_unchanged": true
 }
