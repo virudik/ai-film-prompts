@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:0a5d553a-4e7c-480c-90f2-858db4a34200",
-  "task": "Reviewed launch autonomy diagnostics and receipt provenance; no launch",
-  "acquired_at": "2026-11-18T16:08:18Z",
-  "expires_at": null,
-  "released_at": "2026-11-18T16:09:03.884Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:995d13ce-d503-4323-aa32-d10ca669f947",
+  "task": "Restore only UI-verified F/G to prior waiting state; no Create",
+  "acquired_at": "2026-11-18T16:38:16.694Z",
+  "expires_at": "2026-11-18T16:53:16.694Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
