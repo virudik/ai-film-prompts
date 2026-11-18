@@ -6,7 +6,7 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**46 сцен к генерации/доработке · 264 полных текста промта**
+**46 сцен к генерации/доработке · 265 полных текстов промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 25** сцен сейчас в медленной генерации: **16, 28, 42, 48, 49, 51, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 66, 67, 68, 69, 70, 71, 72, 73, 89** — **6 активных Topview-задач / 6 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
@@ -17,7 +17,7 @@
 
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
-**Синхронизация контекста:** **18.11.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **46 актуальных сцен и 264 полных текста промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 43, 44, 45, 46, 47, 53, 54 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16, 28, 42, 48, 49, 51, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 66, 67, 68, 69, 70, 71, 72, 73, 89**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **18.11.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **46 актуальных сцен и 265 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 43, 44, 45, 46, 47, 53, 54 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16, 28, 42, 48, 49, 51, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 66, 67, 68, 69, 70, 71, 72, 73, 89**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 **Новые промты 09.10.2026:** Scene 20 расширена вставками 12–13, добавлены Scenes 29–34 с полными production-промтами и имеющимися референсами: кантина (часть 3), три разрушительных боя, исследование руин и вход в храм. Это новые тексты для запуска, а не уже выполненные/одобренные Topview-результаты. Танцы Scene 28 и их неподтверждённые вспомогательные фото не менялись.
 
@@ -4189,6 +4189,62 @@ Wrong owners, cloned or merged faces, costume changes, floating fingers, missed 
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+#### 49 · Wan 3.0 часть 5 · только 49A, гитарный дуэт
+
+**Версия по команде владельца 18.11.2026:** только Серёга и Юля, без 49B. Прежний Seedance task `d775c7a483a44f13ba1704a1c418b208` и отказ 7000 сохраняются. Смена модели не отменяет copyright-ограничения и не гарантирует успех. Один бесплатный запуск по защищённой очереди.
+
+**Входы (строго по порядку):** @Image1 = `references/scenes/scene-28/H28B-disco.png`; @Image2 = `references/full/serega.jpg`; @Image3 = `references/full/yulya.jpg`; @Image4 = `references/scenes/scene-49/S49A-lead-and-bass.png`; @Image5 = `references/scenes/scene-49/S49A-playing-grip.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Photoreal cinematic alien-rock performance, dramatic and absurdly pompous. A wildly pompous face-to-face melodic alien-guitar duet. The two rivals radiate serious rock-star grandeur.
+
+REFERENCES / AUTHORITY ORDER:
+@Image1: exact H28B hangar architecture, fixture layout and opening light phase only, not performer identity.
+@Image2 — ABSOLUTE CHARACTER IDENTITY: Серёга; exact face, hair, build and costume as described below.
+@Image3 — ABSOLUTE CHARACTER IDENTITY: Юля; exact face, hair, build and costume as described below.
+@Image4 — PROP DESIGN ONLY: Serega black/blue six-string lead guitar with blue ring core and Yulya silver/violet four-string bass.
+@Image5 — PLAYING GRIP / POSE ONLY: left hand frets the physical neck, right hand picks strings above the body bridge, supported by a strap; do not use a two-handed smash grip. Original identities @Image2–3 and prop design @Image4 retain priority.
+Priority: each identity reference controls its own performer; location, prop and pose references control only their stated roles.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Серёга (@Image2) — SEREGA, pale older male Chancellor with sparse light hair and a bald crown, reserved mature face, EXACT long dark-purple robe from individual sheet.
+Юля (@Image3) — YULYA, long chestnut hair, exact adult female face; charcoal-black fitted armour, shoulder plates, gloves and long dark cape.
+Preserve each exact face, age, build and approved outfit; do not blend or recast the performers.
+
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor, Imperial medallion, amber guide lanes and existing LED borders. Space opening, parked shuttle and fixture mounts remain fixed in world space; their screen position changes only with camera parallax. Begin in the reference opening light phase; visible colour and intensity changes begin within the first second. Existing overhead beams sweep behind the performers, cycling cyan, magenta, amber and back to cyan about every two seconds, with short brightness pulses between changes. A matching travelling colour chase runs along the existing floor LED borders; reflections on the dark floor change with it. Only emitted light changes, not the floor grid or materials. Constant soft neutral-white face/fur fill and stable camera exposure preserve readable faces and base costume colours. Resolve coloured light to the H28B cyan/magenta phase only in the final half-second. Real cloth and metal; no new stage, fixtures or room.
+
+INSTRUMENTS / CONTACT:
+One assigned rigid, playable instrument per performer; fixed stands remain planted. Серёга: blue-ringed black-metal alien lead guitar, six clearly defined taut luminous strings, one physical neck and resonant blue energy core
+Юля: silver-and-violet four-string alien bass with slim nacelle-like resonator, physical frets and hand-sized body
+Playing hands or paws contact the actual strings, keys, membranes or pads; instrument light stays local. No ownership changes.
+
+START STATE:
+Exactly Серёга, Юля are already performing in a consistent medium-wide shot within H28B, already in playing position with one distinct instrument apiece. The camera sees enough of floor architecture to register the SAME hangar.
+
+STORY FLOW:
+Serega left and Yulya right are already playing an exuberant alien-rock guitar duel. They challenge and answer one another through the music, leaning into riffs, stepping with the groove and turning out and back without swapping sides. Let their performance develop naturally with pompous, utterly serious rock-star faces. Keep the straps supporting the instruments, left hands fretting and right hands picking at the bridges; necks move through separate arcs. Develop several answering phrases over the full 30 seconds with continuous energetic playing, not a slowed-down 15-second take. Build to a shared closing accent only at the end, still visibly playing.
+
+END STATE:
+The same performers finish their musical phrase in the established positions, identities and instruments intact. The final accent is brief; breath, cloth/fur and instrumental resonance continue.
+
+CAMERA / SPACE:
+One continuous medium-full two-shot, natural 35–50mm perspective. Travel in a smooth 60-degree arc around the FRONT of the duet while gently moving closer during the answering riff, then ease outward into the shared closing accent. Both faces, feet, complete instruments and fretting/picking hands remain visible. Stay in the same front hemisphere without swapping left/right players or passing behind them; preserve real H28B parallax, not a rotating backdrop. Performer motion remains energetic throughout the camera move.
+
+PERFORMANCE:
+Proud, deadpan rock-star grandeur with energetic playing at normal real-time speed. Link riffs and accents through continuous hand/paw playing and visible body rhythm; maintain the energy through the middle, with no arms-out reset or waiting tableau. Fixed instrumental supports and actual playing contacts stay correct. A final accent takes only the last half-second, followed by natural breath, cloth/fur and resonance. Improvisation concerns performance, never cast, instrument design or grip.
+
+AUDIO:
+Native original instrumental cinematic hard rock, driving and heroic: fast steady four-beat drum pulse, crunchy distorted guitars, deep bass and bright futuristic synth accents, with big dramatic hits on every accent; each note synchronized precisely with the fingers or paws that play it. Original music only, no recognizable published melody. Natural reverb of the large metal hangar. No spoken dialogue, lyrics, stage announcements or human singing. Only natural exertion, breath and faint cheers from any distant existing onlookers if present.
+
+NEGATIVE PROMPT:
+Face or costume swaps, added performers, missed hand/paw contacts, liquid or swapped instruments, new concert arena, full-frame flashes, blackouts or coloured facial flicker, slow motion, long pose holds, random cuts, subtitles or watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 </div>

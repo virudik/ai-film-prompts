@@ -1,0 +1,72 @@
+{
+  "prepared_at": "2026-11-18T18:15:59.953071+00:00",
+  "item_id": "S49A-WAN30-20261118",
+  "canonical_block_label": "49 · Wan 3.0 часть 5",
+  "source_master_blob": "c47396f765d4867adde910cf1401c6293e431c41",
+  "original_attempt": {
+    "item_id": "S49A-R2",
+    "task_id": "d775c7a483a44f13ba1704a1c418b208",
+    "model": "Seedance 2.0",
+    "duration_seconds": 15,
+    "status": "fail",
+    "error_code": 7000,
+    "automatic_retry": false,
+    "preserved": true
+  },
+  "change": "Separate 30s WAN duet. Same content except model/duration and continuous 30s musical phrasing. No 49B.",
+  "references": [
+    {
+      "slot": "@Image1",
+      "path": "references/scenes/scene-28/H28B-disco.png",
+      "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+      "required": true
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/full/serega.jpg",
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "required": true
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/full/yulya.jpg",
+      "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+      "required": true
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/scenes/scene-49/S49A-lead-and-bass.png",
+      "sha256": "9514e2c8370bc1a2b63d833b363fa287416f1fbc77125d853d75aef35f035715",
+      "required": true
+    },
+    {
+      "slot": "@Image5",
+      "path": "references/scenes/scene-49/S49A-playing-grip.png",
+      "sha256": "baf85452c7302218a45f256259b14e004f075a6e9a4f13f85a9e8c74b47a6568",
+      "required": true
+    }
+  ],
+  "reference_visual_qc": "All five images viewed: location, two identities, instrument designs, correct playing grip. Clear separate roles.",
+  "moderation": "No concealment or bypass edits. No promise of acceptance. Any new substantive refusal held, not auto-retried.",
+  "create_click_count": 0,
+  "credits_spent": 0,
+  "original_49A_unchanged": true,
+  "existing_WAN_parts_1_to_4_unchanged": true,
+  "preflight_required": [
+    "fresh global slots",
+    "reference hashes and UI assignments",
+    "WAN reference-only mode with all five refs",
+    "Unlimited0",
+    "no duplicates",
+    "own lock/CAS claim/intent/receipt"
+  ],
+  "validation": {
+    "prompt_tests_passed": 18,
+    "queue_readiness_tests_passed": 13,
+    "master_health": "ok",
+    "master_invariant_failures": [],
+    "derived_queue_readiness": "ready",
+    "independent_review": "Passed: unique label and hashes, original blocks byte-identical, five reference hashes, history and guard preservation",
+    "full_suite_run": false
+  }
+}
