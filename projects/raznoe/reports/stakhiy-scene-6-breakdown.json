@@ -1,0 +1,45 @@
+{
+  "scene": 6,
+  "project": "raznoe",
+  "source_filename": "Фильм Стахий.docx",
+  "source_content_sha256": "cfcee58c4b7978681b6970b4ecab2c1ba991e585f0c27128ae7e754cc501d32c",
+  "source_duration_s": 188,
+  "cut_15s": [
+    15,
+    8,
+    15,
+    15,
+    9,
+    15,
+    15,
+    15,
+    11,
+    15,
+    5,
+    15,
+    14,
+    9,
+    12
+  ],
+  "cut_30s": [
+    23,
+    15,
+    24,
+    15,
+    15,
+    26,
+    20,
+    29,
+    9,
+    12
+  ],
+  "generations": 0,
+  "credits_spent": 0,
+  "production_state": "DRAFT",
+  "checked_at": "2026-11-18T16:57:54.902623+00:00",
+  "limitations": [
+    "References not supplied",
+    "Episode 06 speech timing unverified",
+    "Not production prompts"
+  ]
+}
