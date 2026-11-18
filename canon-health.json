@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-18T16:59:53Z",
+  "checked_at": "2026-11-18T17:14:10Z",
   "status": "warn",
   "warnings": 2,
   "info": 8,
@@ -63,7 +63,7 @@
     {
       "level": "warn",
       "code": "project-handoff-size",
-      "text": "Разное: хендоф 12 КБ (цель до 12 КБ): контрольные точки — в projects/raznoe/reports/current-work-checkpoint.md, история — в projects/raznoe/archive/handoff-log.md.",
+      "text": "Разное: хендоф 13 КБ (цель до 12 КБ): контрольные точки — в projects/raznoe/reports/current-work-checkpoint.md, история — в projects/raznoe/archive/handoff-log.md.",
       "file": "projects/raznoe/HANDOFF.md"
     }
   ]
