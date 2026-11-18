@@ -1,6 +1,27 @@
 import hashlib,json,re,sys,unittest
 from pathlib import Path
-R=Path(__file__).resolve().parents[1];P=R/'projects/raznoe';S=(P/'video-prompts.md').read_text();C4=S[S.index('<a id="scene-4">'):S.index('<a id="scene-5">')];C5=S[S.index('<a id="scene-5">'):];B={4:re.findall(r'```text\n(.*?)\n```',C4,re.S),5:re.findall(r'```text\n(.*?)\n```',C5,re.S)}
+def scene_section(master, scene_id):
+ # Bound a scene by the next actual scene anchor, not end-of-file or ID+1.
+ anchors=list(re.finditer(r'^<a id="scene-(\d+)"></a>[ \t]*$',master,re.M))
+ for i,anchor in enumerate(anchors):
+  if int(anchor.group(1))==scene_id:
+   end=anchors[i+1].start() if i+1<len(anchors) else len(master)
+   return master[anchor.start():end]
+ raise ValueError(f'Missing scene anchor: {scene_id}')
+R=Path(__file__).resolve().parents[1];P=R/'projects/raznoe';S=(P/'video-prompts.md').read_text();C4=scene_section(S,4);C5=scene_section(S,5);B={4:re.findall(r'```text\n(.*?)\n```',C4,re.S),5:re.findall(r'```text\n(.*?)\n```',C5,re.S)}
+class SceneSectionBoundaries(unittest.TestCase):
+ def test_stops_before_appended_scene(self):
+  honor='<a id="scene-5"></a>\nHONOR\n'
+  self.assertEqual(scene_section(honor+'<a id="scene-6"></a>\nSTAKHIY\n',5),honor)
+ def test_last_scene_extends_to_eof(self):
+  section='<a id="scene-5"></a>\nHONOR\n'
+  self.assertEqual(scene_section('preamble\n'+section,5),section)
+ def test_next_anchor_need_not_have_consecutive_id(self):
+  section='<a id="scene-5"></a>\nHONOR\n'
+  self.assertEqual(scene_section(section+'<a id="scene-9"></a>\nOTHER\n',5),section)
+ def test_missing_anchor_is_not_silently_empty(self):
+  with self.assertRaises(ValueError):scene_section('<a id="scene-6"></a>\nOTHER',5)
+
 class HonorBindings(unittest.TestCase):
  def test_counts_and_durations(self):
   self.assertEqual([len(B[4]),len(B[5])],[36,3]);self.assertEqual(sum('Duration: 30s' in x for x in B[4]),12);self.assertEqual(sum('Duration: 15s' in x for x in B[4]),24)
