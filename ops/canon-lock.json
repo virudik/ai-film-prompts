@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:deb196db-be37-4433-a1cd-03b994455b17",
-  "task": "Hourly 18:00 slots and hangar archive receipt",
-  "acquired_at": "2026-11-18T18:04:12.219Z",
-  "expires_at": null,
-  "released_at": "2026-11-18T18:06:56.055Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:1c780cff-37e0-4c9c-bc62-dabb78f332ab",
+  "task": "Owner requested separate S49A WAN version; no Create",
+  "acquired_at": "2026-11-18T18:13:56.996Z",
+  "expires_at": "2026-11-18T18:38:56.996Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
