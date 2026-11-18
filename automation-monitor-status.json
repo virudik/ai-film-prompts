@@ -450,11 +450,11 @@
     }
   },
   "launcher_health": {
-    "state": "launch_stalled",
+    "state": "reconciliation_required",
     "unresolved": true,
     "episode": "09b02477",
     "unresolved_since": "2026-11-18T15:20:38Z",
-    "reason": "execution_started_without_confirmed_launch",
+    "reason": "saved_claim_or_unknown_submission; no_repeat_Create",
     "free_slots_global": 1,
     "actionable_items": [
       "S49B",
@@ -470,24 +470,25 @@
       "S28-A1-R2-20261025",
       "S28-A2-R2-20261025",
       "S28-A13-20261030",
-      "S89D-WAN30-R2",
       "S89F-WAN30",
       "S89G-WAN30",
       "S89H-WAN30",
       "S89I-WAN30",
       "S89J-WAN30"
     ],
-    "reconciliation_items": [],
+    "reconciliation_items": [
+      "S89D-WAN30-R2"
+    ],
     "last_event_id": "slots:09b02477:74",
     "receipt_present": true,
     "handler_outcome": "started",
-    "execution_stage": "browser_preflight",
-    "execution_updated_at": "2026-11-18T15:36:51.079Z",
+    "execution_stage": "independent_candidate_preflight",
+    "execution_updated_at": "2026-11-18T15:49:37.278Z",
     "runtime_run_id": null,
     "confirmed_launch_task_ids": [],
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
     "escalation_attempted_episode": "09b02477",
-    "checked_at": "2026-11-18T15:40:55Z"
+    "checked_at": "2026-11-18T15:50:30Z"
   }
 }
