@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-16T15:59:03.424Z",
+  "updated_at": "2026-11-18T16:01:10.667923+00:00",
   "status": "relay_production_enabled",
   "event_automation_id": "6adc585e7ac08191bb93825117dc7213",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
@@ -2146,24 +2146,27 @@
       "issue_number": 802,
       "message_id": "248829805329379328",
       "relay_event_id": "evt_31906bfab705a43d78de688b8e3ef69d",
-      "checked_at": "2026-11-18T15:49:37.278Z",
-      "outcome": "started",
-      "reason": "D claim retained, F/G canonical QC blockers recorded; preparing next independent owner-authorized A1",
-      "task_ids": [],
-      "retryable": true,
+      "checked_at": "2026-11-18T16:01:10.667923+00:00",
+      "outcome": "submitted",
+      "reason": "Independent A1 submitted after D publication blocker and F/G QC blockers; postscan 6/6, no further Create",
+      "task_ids": [
+        "02fd85ac5fde408285bc439f15ba8239"
+      ],
+      "retryable": false,
       "actor": "dot",
       "source": "dot Agent Relay webhook",
       "runner": "dot_event_handler",
       "run_id": null,
       "run_id_unavailable_reason": "Platform runtime ID not exposed to delegated handler",
       "execution": {
-        "state": "started",
-        "stage": "independent_candidate_preflight",
+        "state": "completed",
+        "stage": "submitted_postscan_complete",
         "started_at": "2026-11-18T15:30:34.745Z",
-        "updated_at": "2026-11-18T15:49:37.278Z"
+        "updated_at": "2026-11-18T16:01:10.667923+00:00",
+        "completed_at": "2026-11-18T16:01:10.667923+00:00"
       },
-      "claim_id": "5f633ff1-7ecb-45d3-97ca-2a9d24c85bb2",
-      "receipt": "reports/topview-queue-2026-10-16/relay802-publish-blocker.json",
+      "claim_id": "babd8310-b7e6-44f2-8079-43643651b502",
+      "receipt": "reports/topview-queue-2026-10-16/relay802-S28-A1-R2.json",
       "attempt_history": [
         {
           "outcome": "blocked_publish",

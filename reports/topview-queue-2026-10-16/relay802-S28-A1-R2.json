@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "event_id": "slots:09b02477:74",
+  "relay_event_id": "evt_31906bfab705a43d78de688b8e3ef69d",
+  "issue_number": 802,
+  "automation_id": "6afd1f83b1b08191b4b7c8ad55c132cf",
+  "run_id": null,
+  "run_id_unavailable_reason": "Platform runtime ID not exposed to delegated handler",
+  "item_id": "S28-A1-R2-20261025",
+  "outcome": "submitted",
+  "checked_at": "2026-11-18T16:01:10.667923+00:00",
+  "submitted_at": "2026-11-18T15:56:42Z",
+  "task_id": "02fd85ac5fde408285bc439f15ba8239",
+  "actual_task": {
+    "boardTaskId": "02fd85ac5fde408285bc439f15ba8239",
+    "boardId": "1a6244cf1ae747ef847d949a80d6133c",
+    "sortWeight": 790,
+    "uid": "FGlyiGi4FG26kZmpCiUH",
+    "toolType": "video-edit",
+    "toolCategory": "video",
+    "status": "init",
+    "mediaType": "video",
+    "rating": 0,
+    "parameters": {
+      "taskType": "videoEdit",
+      "modelId": "seedance-2.0-style",
+      "modelName": "Seedance 2.0",
+      "resolution": 720,
+      "duration": 15,
+      "inputImages": [
+        {
+          "inputImageResourceId": null,
+          "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/XW3lUHeB0IhyptsPwVZHv.png",
+          "inputImageUrl": null,
+          "projectAssetId": null,
+          "name": "Image1"
+        },
+        {
+          "inputImageResourceId": null,
+          "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/28BBTR2M16g9xgoYOZp1o.jpg",
+          "inputImageUrl": null,
+          "projectAssetId": null,
+          "name": "Image2"
+        },
+        {
+          "inputImageResourceId": null,
+          "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/ecAJrxvnyBLmdUec4AHUl.jpg",
+          "inputImageUrl": null,
+          "projectAssetId": null,
+          "name": "Image3"
+        }
+      ],
+      "imageMode": "multiImage",
+      "positivePrompt": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion\n\nREFERENCES / AUTHORITY ORDER:\n<<<Image1>>> : H28B architecture, fixture layout and opening light state only; animate the emitted light as specified below. <<<Image2>>> : SEREGA exact identity/costume. <<<Image3>>> : YULIA exact identity/costume. Exactly two adults; each multi-view sheet is one person. Individual sheets control appearance, not the room image.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\nSEREGA: pale older Chancellor, balding crown with sparse light hair, approved build and long deep-purple robe. YULIA: exact adult face and build, long chestnut hair, black-grey armour, shoulder pieces, gloves and long black cloak. Preserve their individual faces, ages and full adult proportions. Empty hands except for the specified partner support; no weapons.\n\nSCENE / LIGHT:\nPhotoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor, Imperial medallion and existing LED borders. Space opening, parked shuttle and fixture mounts remain fixed in world space; their screen position changes only with camera parallax. Begin in the reference's opening light state; visible colour and intensity changes begin within the first second. Existing overhead beams sweep behind the dancers, cycling cyan, magenta, amber and back to cyan about every two seconds, with short brightness pulses between changes. A matching travelling colour chase runs along the existing floor LED borders; reflections on the dark floor change with it. Only the emitted light changes, not the floor pattern or materials. Constant soft neutral-white facial key/fill and stable camera exposure preserve skin and base costume colours. Resolve the coloured lighting to the H28B cyan/magenta phase only during the final half-second. Real cloth and metal; no new stage, fixtures or room.\n\nSTART STATE:\nSerega frame-left and Yulia frame-right, about1.4metres apart, facing camera and ready to step. H28B lights already ON. The first foot push and torso accent happen immediately; no lighting or hangar establishing shot.\n\nSTORY FLOW:\nSerega and Yulia launch straight into an exuberant, deliberately absurd partner dance with utterly official faces. They answer and outdo each other with broad whole-body phrases, lively footwork and flowing arm swings. Let their steps and transitions develop naturally, with real push-offs and robe inertia; keep their left/right lanes. Continue broad, evolving dance phrases until the final two seconds, then use lively inward dance steps to turn face-to-face. Reach the 60 cm gap with both hands down only in the final half-second; do not walk slowly into position or wait there. Signature moves to recur and vary (link them freely): a sharp synchronized head snap toward camera, a wide double-arm windmill, and a sideways shuffle-slide punctuated by a hip bump; each may add one small two-foot parade hop.\n\nEND STATE:\nSerega left facing right and Yulia right facing left, approximately 60 cm face separation, both hands lowered. The next editorial shot may be closer on this same axis.\n\nCAMERA / SPACE:\nOne continuous full-body view, natural 35–50mm perspective. Make a smooth 50-degree arc within the FRONT hemisphere of the dancers, gradually dollying closer with the rising phrase and easing outward toward the final formation. Faces, feet and complete hand arcs stay readable, bodies large in frame. Return smoothly to the established frontal axis for the last movement; keep left/centre/right roles and match-cut positions. No full orbit, flight between partners, distant establishing reveal or digital zoom. The dancers keep moving independently of the camera.\n\nPERFORMANCE:\nCommitted energetic dancing at normal real-time speed with completely serious faces. Link each phrase directly into the next through weight transfers and visible torso/arm rhythm, never a stationary arms-out reset. Keep the movement amplitude alive through the middle and through approaches or retreats; reaching a position is part of the dance, not a reason to wait. Resolve into the end pose only in the final half-second, with breath and cloth still moving. Facial restraint does not mean a rigid body. Fast disco pulse around 120 BPM, with a decisive full-body accent every beat or two; this sets the energy, not exact music sync.\n\nAUDIO:\nFoot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.\n\nNEGATIVE PROMPT:\nIdentity swaps, extra cast, skating feet, fused limbs, weapons, full-frame flashes, blackouts or coloured facial flicker, slow motion, prolonged poses, camera cuts, generated titles or watermark.\n\nFRAME FILL / NO BARS:\nFill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.",
+      "aspectRatio": "16:9",
+      "source": "board",
+      "sound": "on",
+      "boardTaskId": "02fd85ac5fde408285bc439f15ba8239",
+      "useUnlimitMode": true,
+      "internetSearch": false,
+      "autoVideoUpscale": false,
+      "skipCreditConsume": false
+    },
+    "creditsCost": 0,
+    "creditsPayerUid": "FGlyiGi4FG26kZmpCiUH",
+    "gmtCreate": "2026-11-18 15:56:42",
+    "gmtModify": "2026-11-18 15:56:42",
+    "isPinned": false,
+    "groupIds": [
+      "879d0ea65b834d3c8a877f995e597f41"
+    ],
+    "unresolvedCount": 0,
+    "useUnlimitMode": true,
+    "estimateInfo": {
+      "queueCount": 3112,
+      "estimatedWaitSeconds": 127318,
+      "estimatedProcessSeconds": null
+    }
+  },
+  "canonical_prompt": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion\n\nREFERENCES / AUTHORITY ORDER:\n@Image1: H28B architecture, fixture layout and opening light state only; animate the emitted light as specified below. @Image2: SEREGA exact identity/costume. @Image3: YULIA exact identity/costume. Exactly two adults; each multi-view sheet is one person. Individual sheets control appearance, not the room image.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\nSEREGA: pale older Chancellor, balding crown with sparse light hair, approved build and long deep-purple robe. YULIA: exact adult face and build, long chestnut hair, black-grey armour, shoulder pieces, gloves and long black cloak. Preserve their individual faces, ages and full adult proportions. Empty hands except for the specified partner support; no weapons.\n\nSCENE / LIGHT:\nPhotoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor, Imperial medallion and existing LED borders. Space opening, parked shuttle and fixture mounts remain fixed in world space; their screen position changes only with camera parallax. Begin in the reference's opening light state; visible colour and intensity changes begin within the first second. Existing overhead beams sweep behind the dancers, cycling cyan, magenta, amber and back to cyan about every two seconds, with short brightness pulses between changes. A matching travelling colour chase runs along the existing floor LED borders; reflections on the dark floor change with it. Only the emitted light changes, not the floor pattern or materials. Constant soft neutral-white facial key/fill and stable camera exposure preserve skin and base costume colours. Resolve the coloured lighting to the H28B cyan/magenta phase only during the final half-second. Real cloth and metal; no new stage, fixtures or room.\n\nSTART STATE:\nSerega frame-left and Yulia frame-right, about1.4metres apart, facing camera and ready to step. H28B lights already ON. The first foot push and torso accent happen immediately; no lighting or hangar establishing shot.\n\nSTORY FLOW:\nSerega and Yulia launch straight into an exuberant, deliberately absurd partner dance with utterly official faces. They answer and outdo each other with broad whole-body phrases, lively footwork and flowing arm swings. Let their steps and transitions develop naturally, with real push-offs and robe inertia; keep their left/right lanes. Continue broad, evolving dance phrases until the final two seconds, then use lively inward dance steps to turn face-to-face. Reach the 60 cm gap with both hands down only in the final half-second; do not walk slowly into position or wait there. Signature moves to recur and vary (link them freely): a sharp synchronized head snap toward camera, a wide double-arm windmill, and a sideways shuffle-slide punctuated by a hip bump; each may add one small two-foot parade hop.\n\nEND STATE:\nSerega left facing right and Yulia right facing left, approximately 60 cm face separation, both hands lowered. The next editorial shot may be closer on this same axis.\n\nCAMERA / SPACE:\nOne continuous full-body view, natural 35–50mm perspective. Make a smooth 50-degree arc within the FRONT hemisphere of the dancers, gradually dollying closer with the rising phrase and easing outward toward the final formation. Faces, feet and complete hand arcs stay readable, bodies large in frame. Return smoothly to the established frontal axis for the last movement; keep left/centre/right roles and match-cut positions. No full orbit, flight between partners, distant establishing reveal or digital zoom. The dancers keep moving independently of the camera.\n\nPERFORMANCE:\nCommitted energetic dancing at normal real-time speed with completely serious faces. Link each phrase directly into the next through weight transfers and visible torso/arm rhythm, never a stationary arms-out reset. Keep the movement amplitude alive through the middle and through approaches or retreats; reaching a position is part of the dance, not a reason to wait. Resolve into the end pose only in the final half-second, with breath and cloth still moving. Facial restraint does not mean a rigid body. Fast disco pulse around 120 BPM, with a decisive full-body accent every beat or two; this sets the energy, not exact music sync.\n\nAUDIO:\nFoot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.\n\nNEGATIVE PROMPT:\nIdentity swaps, extra cast, skating feet, fused limbs, weapons, full-frame flashes, blackouts or coloured facial flicker, slow motion, prolonged poses, camera cuts, generated titles or watermark.\n\nFRAME FILL / NO BARS:\nFill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.",
+  "canonical_prompt_sha256": "4ae5aaefdf42c4cb003eba540a47439dc7657b7f4b24f8b4ed9cd1b6524254ab",
+  "references": [
+    {
+      "slot": "@Image1",
+      "path": "references/scenes/scene-28/H28B-disco.png",
+      "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+      "role": "location",
+      "required": true
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/full/serega.jpg",
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "role": "identity",
+      "required": true
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/full/yulya.jpg",
+      "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+      "role": "identity",
+      "required": true
+    }
+  ],
+  "claim": {
+    "claim_id": "babd8310-b7e6-44f2-8079-43643651b502",
+    "execution_instance_id": "b37f28b3-25fb-48b1-a596-8658e79a8e3e",
+    "route_generation": 7,
+    "source_sha": "e48a46b7d1fad33a074d71aab512892b401da774",
+    "claimed_at": "2026-11-18T15:54:11Z",
+    "lease_holder": "chatgpt:ordinary:b37f28b3-25fb-48b1-a596-8658e79a8e3e",
+    "lease_acquired_at": "2026-11-18T15:49:14.809Z",
+    "preflight": {
+      "owner_authorized": true,
+      "prompt_match": true,
+      "input_sha_match": true,
+      "input_order_match": true,
+      "qc_passed": true,
+      "website_unlimited": true,
+      "numeric_zero_displayed": false,
+      "credits_cost": 0,
+      "unlimited_mode_selected": true,
+      "credits_cost_evidence": "selected_free_unlimited_current_form",
+      "ui_unlimited_label": "Безлимитный режим — бесплатно",
+      "paid_credit_mode_selected": false,
+      "quantity": 1,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "model_id": "seedance-2.0-style",
+      "duration_seconds": 15,
+      "prompt_sha256": "4ae5aaefdf42c4cb003eba540a47439dc7657b7f4b24f8b4ed9cd1b6524254ab",
+      "ui_prompt_exact": true,
+      "reference_sha256": [
+        "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+        "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+        "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a"
+      ]
+    },
+    "coordination_version": 2,
+    "submission_intent_id": "27e39193-648e-4966-8ee1-9369bba4f869",
+    "submission_intent_at": "2026-11-18T15:55:21Z",
+    "replay_forbidden": true,
+    "intent_payload_sha256": "9000eefcdc336a6b33ec385a0d6d54715744dd0cfbe422d4fb4df0741ce14075"
+  },
+  "claim_commit": "9d2493938a097d9ff5412beda2a40c3020589901",
+  "intent_commit": "acfd01fcc03a54dd767615235fc62fa0fc07139e",
+  "verify": {
+    "phase": "verify",
+    "checks_passed": true,
+    "main_sha": "9457a9b2e4eca7fab38aaefba42876e54142d7a1",
+    "create_allowed": "one_click_only_in_same_uninterrupted_execution",
+    "replay_permitted": false,
+    "next": "one UI Create now; save task receipt or unknown, never retry ambiguous submission"
+  },
+  "pre_create_scan": {
+    "complete": true,
+    "checked_at": "2026-11-18T15:56:15.145Z",
+    "free_slots": 1,
+    "item_reconciliation": {
+      "S28-A1-R2-20261025": {
+        "complete": true,
+        "matched_task_ids": [],
+        "ambiguous": false
+      }
+    }
+  },
+  "post_create_scan": {
+    "checked_at": "2026-11-18T16:00:09.980Z",
+    "complete": true,
+    "boards": 14,
+    "pages": 21,
+    "total": 1064,
+    "counts": {
+      "success": 1014,
+      "fail": 44,
+      "init": 6
+    },
+    "active": [
+      {
+        "task_id": "02fd85ac5fde408285bc439f15ba8239",
+        "status": "init",
+        "creditsCost": 0,
+        "useUnlimitMode": true
+      },
+      {
+        "task_id": "9d4b3b177e6d452abe499537a05f454c",
+        "status": "init",
+        "creditsCost": 0,
+        "useUnlimitMode": true
+      },
+      {
+        "task_id": "5d1f4fc1b4e548a7828892c73b672990",
+        "status": "init",
+        "creditsCost": 0,
+        "useUnlimitMode": true
+      },
+      {
+        "task_id": "90db5dd309db477eb346e8d82676f7b5",
+        "status": "init",
+        "creditsCost": 0,
+        "useUnlimitMode": true
+      },
+      {
+        "task_id": "425108630b0e48c9a4b299fc89ad88ee",
+        "status": "init",
+        "creditsCost": 0,
+        "useUnlimitMode": true
+      },
+      {
+        "task_id": "bfdb6d9fad7a4ab29492f7bb95c78033",
+        "status": "init",
+        "creditsCost": 0,
+        "useUnlimitMode": true
+      }
+    ]
+  },
+  "create_count": 1,
+  "creditsCost": 0,
+  "useUnlimitMode": true,
+  "ui_evidence": {
+    "observed": true,
+    "prompt_exact": true,
+    "input_count": 3,
+    "order_verified": true,
+    "unlimited_label": "Безлимитный режим — бесплатно",
+    "screenshot_observed_in_runtime": true,
+    "screenshot_persisted": false
+  },
+  "editorial_completion": false,
+  "result_review_required": true,
+  "prior_D_receipt": "reports/topview-queue-2026-10-16/relay802-publish-blocker.json"
+}

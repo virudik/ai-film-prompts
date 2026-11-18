@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-11-16T15:59:03.424Z",
+  "updated_at": "2026-11-18T16:01:10.667923+00:00",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -2015,7 +2015,7 @@
       "canonical_prompt_sha256": "4ae5aaefdf42c4cb003eba540a47439dc7657b7f4b24f8b4ed9cd1b6524254ab",
       "normalized_prompt_sha256": "a20f0559fa71be25af94d2df1aa1e5f3d98be7cf9753a9f8a6f7b601a0afb82c",
       "priority": 0.308,
-      "state": "submitting",
+      "state": "submitted",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -2121,12 +2121,13 @@
       "submission_verification": {
         "full_normalized_prompt_match": true,
         "useUnlimitMode": true,
-        "creditsCost": 0
+        "creditsCost": 0,
+        "task_id_confirmed": true
       },
       "result_review_required": true,
       "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
       "editorial_completion": false,
-      "task_id": null,
+      "task_id": "02fd85ac5fde408285bc439f15ba8239",
       "claim": {
         "claim_id": "babd8310-b7e6-44f2-8079-43643651b502",
         "execution_instance_id": "b37f28b3-25fb-48b1-a596-8658e79a8e3e",
@@ -2196,7 +2197,9 @@
         "quote": "Порядок очереди запуска: 1) S48-P4-R2; 2) совет джедаев на балконе S89A–S89E и голограммы S89F–S89G; 3) оставшиеся танцы сцены 28; 4) остальные разговорные S89H–S89J. Это согласие запускать танцы 28 в этом месте очереди.",
         "scope": "remaining scene 28 dances listed in owner_policy_20261113_t601u only",
         "not_consent_for_other_music": true
-      }
+      },
+      "submitted_at": "2026-11-18T15:56:42Z",
+      "receipt": "reports/topview-queue-2026-10-16/relay802-S28-A1-R2.json"
     },
     {
       "id": "S28-A2-R2-20261025",

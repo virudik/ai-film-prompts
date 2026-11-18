@@ -1,3 +1,7 @@
+# Relay802 · 18.11.2026 · A1 submitted, 6/6
+
+2026-11-18T16:01:10.667923+00:00 · S28-A1-R2-20261025 task `02fd85ac5fde408285bc439f15ba8239`; one Create at15:56:42Z, Seedance2.0 15s720p16:9, three verified refs, Unlimited=true creditsCost=0. Full postscan16:00:09Z:14boards21pages1064tasks,6init. Wait capacity and review result when ready; never repeat this A1. D claim retained; F/G QC blockers remain pending reviewed repair. Receipt: reports/topview-queue-2026-10-16/relay802-S28-A1-R2.json.
+
 # Relay802 · 18.11.2026 · claim published, intent CAS blocked, Create=0
 
 2026-11-18T15:44:28.864971+00:00 · S89D-WAN30-R2. Full scan 15:40:54Z: 5/6. Claim 2512568 / 5f633ff1-7ecb-45d3-97ca-2a9d24c85bb2 retained. Intent CAS failed; readback remains claimed. Verify fail-closed; no Create. Recovery must not replay intent or reset claim. Evidence: reports/topview-queue-2026-10-16/relay802-publish-blocker.json.
