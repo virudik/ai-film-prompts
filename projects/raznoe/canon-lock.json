@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:work:2e2b875b-60b5-44c7-9477-ee02d0b27999",
-  "task": "Стахий: сцена6,10 локаций,25 привязанных DRAFT-промптов; опубликовано и проверено",
-  "acquired_at": "2026-11-18T16:55:59.180Z",
-  "expires_at": null,
-  "released_at": "2026-11-18T17:20:30.876Z",
+  "state": "held",
+  "holder": "chatgpt:work:e19ddb18-729a-4474-b41f-974d1a832a4f",
+  "task": "PR804: reviewed handoff archive and HONOR test boundaries; no generation",
+  "acquired_at": "2026-11-18T17:34:46.185Z",
+  "expires_at": "2026-11-18T17:49:46.185Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }
