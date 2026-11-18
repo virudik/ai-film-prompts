@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "kind": "owner_authorized_new_attempt_after_no_dispatch_review",
+  "item_id": "S89F-WAN30-R2",
+  "previous_item_id": "S89F-WAN30",
+  "recorded_at": "2026-11-18T22:56:51.293Z",
+  "owner_instruction": {
+    "date": "2026-11-18",
+    "question": "Разрешаешь после сверки вернуть S89D-R2 в очередь и подготовить отдельную попытку S89F, если отсутствие отправки подтвердится? Если останутся сомнения, блокировку не сниму.",
+    "answer": "Да",
+    "scope": "S89F only in this change; separate preparation conditional on no dispatch. S89D not modified.",
+    "exact_message_time": null
+  },
+  "decision": "Prepare one separate F-R2 item. Preserve original item and published claim/intent unchanged. This does not resume old session or issue runtime Create permission.",
+  "original_item_archive": "archive/ops/s89f-event813-original-item.json",
+  "prior_evidence": "reports/preclaim-aborts/relay813-S89F-verify-no-create-20261118.json",
+  "evidence": {
+    "session_phase": "intent_prepared",
+    "busy_marker": false,
+    "pending_file": false,
+    "session_sha256": "c53d36c66dc77f94e43061c3a9e8cb7643d765e798705cb0c8502cf947aa0e00",
+    "claim_transaction_sha256": "3903ab3e1ba0935cc440fb01037e11b72db1aa86658e5f9f867491a23c38b488",
+    "intent_transaction_sha256": "64743a108e33139e3aa5b0dc0f0104f677778729f6e6d2ccc3aa903a4bef3765",
+    "helper_sha256": "b5ccdca246407174edf39106b1b1e58360067e5553a7317c05305132c42a0f9f",
+    "verify_tool_transcription_sha256": "ac489f1db5a834395ae8404e2a9f0f867c0d33bfa2049b36a7f5a1c4b88d20aa",
+    "transcription_limitation": "Saved artifact is a transcription of complete observed tool results, not original redirected stdout. Both terminal results also observed firsthand in uninterrupted runtime.",
+    "verify_results": [
+      "dd0a8c exit2 checkout_must_equal_fresh_origin_main",
+      "f015d4 exit2 checkout_must_equal_fresh_origin_main"
+    ],
+    "source_bound_conclusion": "Both observed errors occur in snapshot before guard/step; successful verify would persist verify_consumed before returning. Hash-matched unchanged intent_prepared session and stopped original runtime agree with no successful verify/no Create.",
+    "original_runtime_stopped": true,
+    "create_click_count": 0,
+    "ancestry": {
+      "from": "6fa8002ea6b1a42b54a3a68ac67b581b62aa7ee2",
+      "to": "520a77ca6e3bd57cd80a0c53b3dcf5210a06ef9d",
+      "commits": 19,
+      "states": [
+        "claimed",
+        "submitting"
+      ],
+      "task_id": null,
+      "helper_changes": 0,
+      "ledger_F_occurrences": 0
+    }
+  },
+  "independent_review": {
+    "result": "pass_for_new_item_preparation_only",
+    "reviewer": "independent Dot reviewer",
+    "source_and_artifact_hashes_checked": true,
+    "full_scan": {
+      "checked_at": "2026-11-18T22:54:04.115Z",
+      "boards": 14,
+      "pages": 21,
+      "tasks": 1064,
+      "active": 5,
+      "free": 1,
+      "exact_normalized_F_matches": [],
+      "distinctive_F_matches": [],
+      "new_video_tasks_today": [
+        "02fd85ac5fde408285bc439f15ba8239"
+      ]
+    }
+  },
+  "queue_validation": {
+    "old_item_unchanged": true,
+    "old_intent_unchanged": true,
+    "all_other_items_unchanged": true,
+    "priority": 0.306,
+    "explicit_order": "insert new ID immediately after preserved original F, preserving all existing relative order",
+    "dry_selector_chosen": [
+      "S89F-WAN30-R2",
+      "S89G-WAN30"
+    ],
+    "old_F_selector_result": "preflight_required",
+    "continuity_blocks_launch": false,
+    "substantive_refusal": false,
+    "physical_capacity_not_inferred_from_old_claim": true,
+    "live_duplicate_reconciliation_still_mandatory": true
+  },
+  "tests": {
+    "launcher_entry": 24,
+    "queue_readiness": 13,
+    "launcher_coordination": 71,
+    "all_passed": true
+  },
+  "limits": {
+    "max_new_submissions": 1,
+    "automatic_retry": false,
+    "credits": 0,
+    "website_unlimited_required": true,
+    "same_prompt_and_reference_sha": true,
+    "old_session_replay_forbidden": true
+  },
+  "create_allowed": false,
+  "new_session_allowed_by_this_report": false,
+  "video_launches": 0,
+  "paid_credits": 0,
+  "queue_base_main_sha": "74e768e261450f43afcf463281efc08560fe0ebb"
+}

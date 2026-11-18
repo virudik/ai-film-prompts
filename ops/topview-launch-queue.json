@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-11-18T18:18:02.620Z",
+  "updated_at": "2026-11-18T22:56:51.293Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -3537,6 +3537,79 @@
       },
       "owner_launch_authorized_at": "2026-11-18T18:15:59.953071+00:00",
       "report": "reports/s49a-wan-selection-20261118.json"
+    },
+    {
+      "id": "S89F-WAN30-R2",
+      "scene_id": 89,
+      "part": "89F",
+      "prompt_id": "S89F-WAN30",
+      "canonical_block_label": "89F · Wan 3.0",
+      "canonical_prompt_sha256": "fbc6cf05411549582e90d228c4d70f3410d449baac5c8e1885adc188ecad89db",
+      "normalized_prompt_sha256": "91c247c4013547f69175c21ed4c99bb4251934b0d4c4ba6ab3f6be55902e6e82",
+      "priority": 0.306,
+      "state": "waiting_for_slot",
+      "launch_readiness": "authorized_inputs_available",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "credits_cost": 0,
+      "unlimited_mode_required": true,
+      "paid_fallback_forbidden": true,
+      "automatic_retry": false,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-89/shared/holo-man.jpg",
+          "required": true,
+          "input_status": "available",
+          "sha256": "b4a1307310e9c7c52a6f1d8b3157acaa4666daad281b305a119806511c6d2f42"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-89/shared/holo-office.jpg",
+          "required": true,
+          "input_status": "available",
+          "sha256": "aa8cded6f151278c5bc1a1823ea8ed04abcde819e93cd2dfc2b38b0b2ce48d54"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-89/shared/holo-woman.jpg",
+          "required": true,
+          "input_status": "available",
+          "sha256": "85ab20924887bd960cad1a4c3ae3089bc27b6b050d1bef5e63895c48c4604bc8"
+        }
+      ],
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "authorization": "Owner 2026-11-18 explicitly approved preparation of one separate S89F attempt conditional on confirming no previous dispatch. Independent source-bound review plus fresh complete provider scan confirmed no Create in event813. Not a replay of the preserved old intent and not an automatic technical retry. Same Wan3.0 30s website Unlimited0 only; fresh full launch guards required.",
+      "owner_source": "Owner confirmed Yes to conditional preparation question on 2026-11-18; verified in private Dot conversation. Exact message time not provided.",
+      "story_not_music": true,
+      "created_at": "2026-11-18T22:56:51.293Z",
+      "model_preparation_qc": {
+        "result": "passed_reference_chip_qc",
+        "checked_at": "2026-11-18T16:34:04.239Z",
+        "report": "reports/scene89-fg-provenance-ui-qc-2026-11-18.json",
+        "restored_at": "2026-11-18T16:39:16.684107Z",
+        "fresh_full_launch_preflight_required": true
+      },
+      "task_id": null,
+      "owner_approved_rerun": {
+        "previous_item_id": "S89F-WAN30",
+        "old_submission_outcome": "no_Create_observed_and_independently_reviewed",
+        "old_item_intent_preserved": true,
+        "scope": "one new separate attempt after verified absence of dispatch; preparation only in this execution",
+        "new_authorization_date": "2026-11-18",
+        "report": "reports/preclaim-aborts/S89F-owner-approved-separate-attempt-20261118.json"
+      }
     }
   ],
   "already_submitted": {
@@ -5496,6 +5569,7 @@
       "S89D-WAN30",
       "S89E-WAN30",
       "S89F-WAN30",
+      "S89F-WAN30-R2",
       "S89G-WAN30",
       "S28-A1-R2-20261025",
       "S28-A2-R2-20261025",
