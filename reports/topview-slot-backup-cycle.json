@@ -7,20 +7,20 @@
   "automation_context_version": "a3ee12acd936406cbd4e23c8adab7fb9f827da78a17acf064254fb0929be9403",
   "run_id": null,
   "run_id_unavailable_reason": "Not exposed in delegated scheduled wake or automations.get",
-  "execution_instance_id": "43d51b11-b708-4711-b0c4-28cde5e11a25",
+  "execution_instance_id": "fee29485-3d32-4574-81e7-fd0f5de4c857",
   "route_generation": 7,
-  "source_head": "0e603c0da80f4a71170478dce199b08f8c57ff21",
+  "source_head": "eab4fba29c8f3c72cad6e973ca7e8282cbc0fbb3",
   "actual_trigger": "scheduled",
-  "started_at": "2026-11-18T06:02:31.802230+00:00",
-  "updated_at": "2026-11-18T06:04:58.496Z",
-  "completed_at": "2026-11-18T06:04:58.496Z",
+  "started_at": "2026-11-18T07:02:06.523Z",
+  "updated_at": "2026-11-18T07:02:24.182Z",
+  "completed_at": "2026-11-18T07:02:24.182Z",
   "phase": "completed",
   "outcome": "no_update_all_slots_occupied",
   "browser_transport": "dot_own_browser",
   "browser_used": false,
   "scan": {
     "complete": true,
-    "checked_at": "2026-11-18T06:01:23.293Z",
+    "checked_at": "2026-11-18T07:00:54.800Z",
     "boards_listed": 14,
     "pages_scanned": 21,
     "tasks_scanned": 1063,
@@ -50,17 +50,17 @@
   "next_action_unchanged": true,
   "browser_not_used_reason": "Full account-wide read-only scan verified 6/6; no UI Create needed",
   "lease": {
-    "holder": "chatgpt:ordinary:43d51b11-b708-4711-b0c4-28cde5e11a25",
-    "acquired_at": "2026-11-18T06:02:31.802230+00:00",
-    "acquisition_commit": "9f814a4db1218df5db3c891747eddf1b1a5de4bc",
+    "holder": "chatgpt:ordinary:fee29485-3d32-4574-81e7-fd0f5de4c857",
+    "acquired_at": "2026-11-18T07:02:06.523Z",
+    "acquisition_commit": "273db6c5a35835bacd22bd9dc64df2dc036f4288",
     "verified_start_readback": true,
-    "released_at": "2026-11-18T06:04:58.496Z",
+    "released_at": "2026-11-18T07:02:24.182Z",
     "release_state": "released_in_same_CAS_as_final_receipt"
   },
   "execution": {
     "state": "completed",
     "stage": "capacity_checked_no_create",
-    "updated_at": "2026-11-18T06:04:58.496Z",
-    "completed_at": "2026-11-18T06:04:58.496Z"
+    "updated_at": "2026-11-18T07:02:24.182Z",
+    "completed_at": "2026-11-18T07:02:24.182Z"
   }
 }
