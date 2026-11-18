@@ -7,20 +7,20 @@
   "automation_context_version": "a3ee12acd936406cbd4e23c8adab7fb9f827da78a17acf064254fb0929be9403",
   "run_id": null,
   "run_id_unavailable_reason": "Not exposed in delegated scheduled wake or automations.get",
-  "execution_instance_id": "22e9bca2-23df-4c25-9f35-4c47810b52d4",
+  "execution_instance_id": "04cc4d9e-b1cb-4864-ad01-e2cfd6731cd5",
   "route_generation": 7,
-  "source_head": "d87617ebd1ac110e235202ed62f5796bcabf5f1b",
+  "source_head": "ef25bcad82f396b53c586f70fbb4ab4cf4602f12",
   "actual_trigger": "scheduled",
-  "started_at": "2026-11-18T07:59:15.357Z",
-  "updated_at": "2026-11-18T07:59:33.563Z",
-  "completed_at": "2026-11-18T07:59:33.563Z",
+  "started_at": "2026-11-18T08:59:46.739Z",
+  "updated_at": "2026-11-18T09:00:02.621Z",
+  "completed_at": "2026-11-18T09:00:02.621Z",
   "phase": "completed",
   "outcome": "no_update_all_slots_occupied",
   "browser_transport": "dot_own_browser",
   "browser_used": false,
   "scan": {
     "complete": true,
-    "checked_at": "2026-11-18T07:59:02.246Z",
+    "checked_at": "2026-11-18T08:59:07.336Z",
     "boards_listed": 14,
     "pages_scanned": 21,
     "tasks_scanned": 1063,
@@ -50,17 +50,17 @@
   "next_action_unchanged": true,
   "browser_not_used_reason": "Full account-wide read-only scan verified 6/6; no UI Create needed",
   "lease": {
-    "holder": "chatgpt:ordinary:22e9bca2-23df-4c25-9f35-4c47810b52d4",
-    "acquired_at": "2026-11-18T07:59:15.357Z",
-    "acquisition_commit": "b2370ad031fc6e8697367d4d5b874869571d4792",
+    "holder": "chatgpt:ordinary:04cc4d9e-b1cb-4864-ad01-e2cfd6731cd5",
+    "acquired_at": "2026-11-18T08:59:46.739Z",
+    "acquisition_commit": "06bbb4db378cc0c2bca2a0dad048477875cd1b37",
     "verified_start_readback": true,
-    "released_at": "2026-11-18T07:59:33.563Z",
+    "released_at": "2026-11-18T09:00:02.621Z",
     "release_state": "released_in_same_CAS_as_final_receipt"
   },
   "execution": {
     "state": "completed",
     "stage": "capacity_checked_no_create",
-    "updated_at": "2026-11-18T07:59:33.563Z",
-    "completed_at": "2026-11-18T07:59:33.563Z"
+    "updated_at": "2026-11-18T09:00:02.621Z",
+    "completed_at": "2026-11-18T09:00:02.621Z"
   }
 }
