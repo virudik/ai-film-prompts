@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:deb196db-be37-4433-a1cd-03b994455b17",
   "task": "Hourly 18:00 slots and hangar archive receipt",
   "acquired_at": "2026-11-18T18:04:12.219Z",
-  "expires_at": "2026-11-18T18:09:12.219Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-18T18:06:56.055Z",
   "rules": "ops/CANON-LOCK.md"
 }

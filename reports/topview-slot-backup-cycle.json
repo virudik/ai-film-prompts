@@ -11,17 +11,17 @@
   "actual_trigger": "scheduled",
   "scheduled_for": "2026-11-18T18:00:00Z",
   "started_at": "2026-11-18T18:03:22.683Z",
-  "updated_at": "2026-11-18T18:04:36.700Z",
-  "phase": "started",
-  "status": "started",
-  "outcome": "started",
+  "updated_at": "2026-11-18T18:06:56.055Z",
+  "phase": "completed",
+  "status": "completed",
+  "outcome": "no_update_all_slots_occupied",
   "source_head": "78080115fa519241b443b86554ca83e70c3a7c12",
   "route_generation": 7,
   "browser_transport": "dot_own_browser",
   "browser_used": false,
   "scan": {
     "complete": true,
-    "checked_at": "2026-11-18T18:03:54.057Z",
+    "checked_at": "2026-11-18T18:05:47.654Z",
     "boards_listed": 14,
     "pages_scanned": 21,
     "tasks_scanned": 1064,
@@ -42,22 +42,40 @@
     "bfdb6d9fad7a4ab29492f7bb95c78033"
   ],
   "execution": {
-    "state": "started",
-    "stage": "full_scan_completed_hangar_archive_check_pending"
+    "state": "completed",
+    "stage": "full_slots_and_archive_counts_unchanged",
+    "updated_at": "2026-11-18T18:06:56.055Z",
+    "completed_at": "2026-11-18T18:06:56.055Z"
   },
   "lease": {
     "schema_version": 1,
-    "state": "held",
+    "state": "free",
     "holder": "chatgpt:ordinary:deb196db-be37-4433-a1cd-03b994455b17",
     "task": "Hourly 18:00 slots and hangar archive receipt",
     "acquired_at": "2026-11-18T18:04:12.219Z",
-    "expires_at": "2026-11-18T18:09:12.219Z",
-    "released_at": null,
+    "expires_at": null,
+    "released_at": "2026-11-18T18:06:56.055Z",
     "rules": "ops/CANON-LOCK.md",
     "acquisition_commit": "e11f38ec607afc01399af520734e6f2cdab3c7f9",
     "verified_start_readback": true
   },
   "new_submissions": 0,
   "owner_tasks_open_count": 0,
-  "next_action_unchanged": true
+  "next_action_unchanged": true,
+  "completed_at": "2026-11-18T18:06:56.055Z",
+  "blocker": null,
+  "retryable": false,
+  "hangar_archive": {
+    "checked_at": "2026-11-18T18:05:47.654Z",
+    "topview_count": 26,
+    "grok_count": 29,
+    "new_copies": 0,
+    "grok_full_source_catalog_checked": false,
+    "note": "Folder counts unchanged. Live task status totals unchanged across two complete scans. No new ready video. Detailed comparison interrupted by environment disconnect; no copies attempted."
+  },
+  "queue_pending_claim_items": [
+    "S89D-WAN30-R2"
+  ],
+  "browser_not_used_reason": "Full live scan verified6/6; no UI Create needed.",
+  "started_receipt_readback": true
 }
