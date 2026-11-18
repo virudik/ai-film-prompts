@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:1c780cff-37e0-4c9c-bc62-dabb78f332ab",
-  "task": "Owner requested separate S49A WAN version; no Create",
-  "acquired_at": "2026-11-18T18:13:56.996Z",
-  "expires_at": null,
-  "released_at": "2026-11-18T18:18:02.620Z",
+  "state": "held",
+  "holder": "chatgpt:site-cleanup:8bc38143-7e38-4f2a-9ef9-fd04e0a5a044",
+  "task": "Close one-time site canary and save evidence; no production routing changes",
+  "acquired_at": "2026-11-18T18:18:34Z",
+  "expires_at": "2026-11-18T18:28:34Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
