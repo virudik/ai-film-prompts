@@ -4,23 +4,23 @@
   "source": "Dot scheduled own browser",
   "runner": "dot_scheduled_handler",
   "automation_id": "6afc8b674794819192ba0b1415c5a220",
-  "automation_context_version": "a3ee12acd936406cbd4e23c8adab7fb9f827da78a17acf064254fb0929be9403",
+  "automation_context_version": "890b85edddd0519fa70867b2e765080826ebec5aa1f02704aa85c77f22a7c717",
   "run_id": null,
   "run_id_unavailable_reason": "Not exposed in delegated scheduled wake or automations.get",
-  "execution_instance_id": "04cc4d9e-b1cb-4864-ad01-e2cfd6731cd5",
+  "execution_instance_id": "23caad88-d368-40a7-974f-86a3c944c742",
   "route_generation": 7,
-  "source_head": "ef25bcad82f396b53c586f70fbb4ab4cf4602f12",
+  "source_head": "864815021d94b309b585f671ea7632a43e17f39c",
   "actual_trigger": "scheduled",
-  "started_at": "2026-11-18T08:59:46.739Z",
-  "updated_at": "2026-11-18T09:00:02.621Z",
-  "completed_at": "2026-11-18T09:00:02.621Z",
+  "started_at": "2026-11-18T09:58:05.489Z",
+  "updated_at": "2026-11-18T09:58:22.467Z",
+  "completed_at": "2026-11-18T09:58:22.467Z",
   "phase": "completed",
   "outcome": "no_update_all_slots_occupied",
   "browser_transport": "dot_own_browser",
   "browser_used": false,
   "scan": {
     "complete": true,
-    "checked_at": "2026-11-18T08:59:07.336Z",
+    "checked_at": "2026-11-18T09:57:03.644Z",
     "boards_listed": 14,
     "pages_scanned": 21,
     "tasks_scanned": 1063,
@@ -50,17 +50,183 @@
   "next_action_unchanged": true,
   "browser_not_used_reason": "Full account-wide read-only scan verified 6/6; no UI Create needed",
   "lease": {
-    "holder": "chatgpt:ordinary:04cc4d9e-b1cb-4864-ad01-e2cfd6731cd5",
-    "acquired_at": "2026-11-18T08:59:46.739Z",
-    "acquisition_commit": "06bbb4db378cc0c2bca2a0dad048477875cd1b37",
+    "holder": "chatgpt:ordinary:23caad88-d368-40a7-974f-86a3c944c742",
+    "acquired_at": "2026-11-18T09:58:05.489Z",
+    "acquisition_commit": "a3ddcc1dec65c6f1ae68d41ae8b6dda2bcf99d2d",
     "verified_start_readback": true,
-    "released_at": "2026-11-18T09:00:02.621Z",
+    "released_at": "2026-11-18T09:58:22.467Z",
     "release_state": "released_in_same_CAS_as_final_receipt"
   },
   "execution": {
     "state": "completed",
-    "stage": "capacity_checked_no_create",
-    "updated_at": "2026-11-18T09:00:02.621Z",
-    "completed_at": "2026-11-18T09:00:02.621Z"
+    "stage": "capacity_and_hangar_checked_no_changes",
+    "updated_at": "2026-11-18T09:58:22.467Z",
+    "completed_at": "2026-11-18T09:58:22.467Z"
+  },
+  "hangar_archive": {
+    "checked_at": "2026-11-18T09:57:56.473Z",
+    "topview_count": 26,
+    "grok_count": 29,
+    "matches": [
+      {
+        "task": "8c6d92662d1043c7a651168b2b8280ae",
+        "archived": true,
+        "size_match": true,
+        "live_status": "success"
+      },
+      {
+        "task": "faf2aa38db484f4caae06eeb13c7d166",
+        "archived": false,
+        "size_match": null,
+        "live_status": "success"
+      },
+      {
+        "task": "762b3091b3e44b8599a0a58b91a253c5",
+        "archived": true,
+        "size_match": true,
+        "live_status": "success"
+      },
+      {
+        "task": "d3844e4199d64abebe323be430a5cb35",
+        "archived": true,
+        "size_match": true,
+        "live_status": "success"
+      },
+      {
+        "task": "721cfbef2af0479da57f0a52479d2f54",
+        "archived": true,
+        "size_match": true,
+        "live_status": "success"
+      },
+      {
+        "task": "fec838b4f63b452c8c76fe50f8e0fdad",
+        "archived": true,
+        "size_match": true,
+        "live_status": "success"
+      },
+      {
+        "task": "f88eee8ea93242309b71621e354ccac2",
+        "archived": true,
+        "size_match": true,
+        "live_status": "success"
+      },
+      {
+        "task": "e471e35fc7454fe5a2a89e06fac3f122",
+        "archived": true,
+        "size_match": true,
+        "live_status": "success"
+      },
+      {
+        "task": "979f07acffe04750961515f4baf21a3f",
+        "archived": true,
+        "size_match": true,
+        "live_status": "success"
+      },
+      {
+        "task": "56c0ea656f484b0cb8464233fe097e0d",
+        "archived": true,
+        "size_match": true,
+        "live_status": "success"
+      },
+      {
+        "task": "2bccc8a3521b411cb7bd51f9c8ba1119",
+        "archived": true,
+        "size_match": true,
+        "live_status": "success"
+      },
+      {
+        "task": "5333994f739f4a8b813a6a36dcb7e140",
+        "archived": true,
+        "size_match": true,
+        "live_status": "success"
+      },
+      {
+        "task": "0d1f17c226834bfbb851d76ed32f9877",
+        "archived": true,
+        "size_match": true,
+        "live_status": "success"
+      },
+      {
+        "task": "4b7b972870a44dfbb29bd6c5e330a633",
+        "archived": true,
+        "size_match": true,
+        "live_status": "success"
+      },
+      {
+        "task": "8a8eadc809004e318c47201b8a463be0",
+        "archived": true,
+        "size_match": true,
+        "live_status": "success"
+      },
+      {
+        "task": "fe78a852b7a343e6a37d146cec789358",
+        "archived": true,
+        "size_match": true,
+        "live_status": "success"
+      },
+      {
+        "task": "abb161edcf5c4b58b91460677939b5d3",
+        "archived": true,
+        "size_match": true,
+        "live_status": "success"
+      },
+      {
+        "task": "3561d1997a6a4e5d813cfb99fdb60ed4",
+        "archived": true,
+        "size_match": true,
+        "live_status": "success"
+      },
+      {
+        "task": "f3b8883f44b14a2ba432ce429ba02709",
+        "archived": true,
+        "size_match": true,
+        "live_status": "success"
+      },
+      {
+        "task": "dbc9aff605ec48349062638cdaa7fd5a",
+        "archived": true,
+        "size_match": true,
+        "live_status": "success"
+      },
+      {
+        "task": "8a1982a55f794a049a62eaa91bf8827f",
+        "archived": true,
+        "size_match": true,
+        "live_status": "success"
+      },
+      {
+        "task": "2d8efbd16f5146f48cd7a9a1ffb99369",
+        "archived": true,
+        "size_match": true,
+        "live_status": "success"
+      },
+      {
+        "task": "0b6dfa84e4524b438075f10f7205a846",
+        "archived": true,
+        "size_match": true,
+        "live_status": "success"
+      },
+      {
+        "task": "3a09108c8c474a0989118806b4a69f91",
+        "archived": true,
+        "size_match": true,
+        "live_status": "success"
+      },
+      {
+        "task": "a1330998d39b486e864ed4e22b4fe8c4",
+        "archived": true,
+        "size_match": true,
+        "live_status": "success"
+      },
+      {
+        "task": "1dcb6fa0628d41b098227ca6c96f1630",
+        "archived": true,
+        "size_match": true,
+        "live_status": "success"
+      }
+    ],
+    "new_copies": 0,
+    "prior_content_audit": "Parent verified all 55 MP4 playback at about 09:10 UTC; unchanged task IDs and file sizes this cycle",
+    "grok_source_scope": "Target folder verified; external Grok catalog not fully enumerated"
   }
 }
