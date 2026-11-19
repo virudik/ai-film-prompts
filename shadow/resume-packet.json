@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-19T00:51:26+00:00",
-  "source_head": "d843f76d8108a5f1f3ac70241a6f9819ee583596",
-  "source_fingerprint": "9183227098c52046e3b1f40b35826c55f0f69eab08273d6313d51b649dd8bd65",
+  "checked_at": "2026-11-19T00:54:19+00:00",
+  "source_head": "a2797aa98975b6c034994b5f8f610640f52b81e4",
+  "source_fingerprint": "8a6a38f2d1060515ed244ca2d978e50df0ee4642653f9c2d62242a266f71aad1",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -568,21 +568,21 @@
     ],
     "next_candidates": [
       {
+        "item_id": "S89D-WAN30-R3",
+        "state": "waiting_for_slot",
+        "task_id": null,
+        "recovery_action": "fresh_launch_preflight_required",
+        "submit_authorized": false
+      },
+      {
+        "item_id": "S89F-WAN30-R3",
+        "state": "waiting_for_slot",
+        "task_id": null,
+        "recovery_action": "fresh_launch_preflight_required",
+        "submit_authorized": false
+      },
+      {
         "item_id": "S28-A2-R2-20261025",
-        "state": "waiting_for_slot",
-        "task_id": null,
-        "recovery_action": "fresh_launch_preflight_required",
-        "submit_authorized": false
-      },
-      {
-        "item_id": "S28-A4-20261023",
-        "state": "waiting_for_slot",
-        "task_id": null,
-        "recovery_action": "fresh_launch_preflight_required",
-        "submit_authorized": false
-      },
-      {
-        "item_id": "S28-A5-20261023",
         "state": "waiting_for_slot",
         "task_id": null,
         "recovery_action": "fresh_launch_preflight_required",
@@ -644,8 +644,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "21d3facbe3271c71fc459b2cb06018d242f4421c6d59082f57d3765418f55bde",
-      "bytes": 268711
+      "sha256": "4d64c6585d48ec2261ec65e9fbed415481d94f8a7cb6b6f1a86f581b14f577a4",
+      "bytes": 275300
     },
     {
       "file": "project-status.json",
