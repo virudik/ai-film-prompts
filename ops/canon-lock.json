@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:997fc603-79d5-4f48-920e-d95a9ba8fddc",
-  "task": "Стахий: парные V1/V2 референсы персонажей в сцене и галерее",
-  "acquired_at": "2026-11-19T22:38:37.700Z",
-  "expires_at": null,
-  "released_at": "2026-11-19T22:39:24.444Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:ab8427a3-a3cb-43b9-bad2-3533961e5ef0",
+  "task": "Relay #845: reconcile occupied Topview slot",
+  "acquired_at": "2026-11-19T22:45:52Z",
+  "expires_at": "2026-11-19T22:49:52Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
