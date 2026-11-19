@@ -461,6 +461,10 @@ E. только после checkpoint — обычный sync-trigger, если 
 
 Порядок пробуждения и предупреждения сайта — `ops/PRIMARY-BACKUP-WAKE.md`. Повторы — `ops/TOPVIEW-RETRY.md`. Назначения задач — `ops/OWNER-TASKS.md`. Прежние расписания — `archive/ops/wake-roles-until-2026-11-15.md`.
 
+## Исполнитель Minimax, роль read-only · 19.11.2026
+
+Решение владельца 19.11.2026: «1 да. 2 read-only. 3 read-only. 4 да». Peer `minimax` зарегистрирован в `ops/slot-backup.json` → `minimax_read_only`: отдельный holder `minimax:<UUID4>`, transport `interactive_chat`/`slack`, запрещено `claim`, `lease`, `intent`, `create`, `retry`, `cancel`, `queue_edit`, `budget_spend`, `site_submit`, `ledger_row`. Путь launcher-а закрыт (`minimax_launcher.enabled=false` → `minimax_launcher_disabled`), поэтому `provider_run_id` peer-у не требуется и `minimax` не входит в `run_ledger.required_surfaces` — журнал пишет только реальные попытки отправки. Команда владельца из Slack `#all-vint` `C0CBQT4H50E` (бот `minimax` `U0CJWT05HBM`, владелец `U0CBWH0DXKN`) действует только при упоминании этого бота и только на чтение и ответ; гвард — `check_minimax_read_only_route`. Транспорт — `scripts/slack_transport.py`, квитанция — `reports/slack-events.json`. Правила — `ops/LAUNCHER-COORDINATION.md` и `ops/TOPVIEW-EVENT-WAKE.md`. Токен бота — только в хранилище секретов, не в репозитории и не в чате.
+
 ## Общая работа с Grok · 01.11.2026
 
 Входы всех исполнителей: GitHub images/master/manifests + Google Drive MP4, реестр `ops/shared-inputs.json`; не оставлять готовый обязательный стык только в Library. Перед отправкой скачать из основного shared источника, проверить SHA/длительность/QC и соответствие слотов. После изменения очереди/входов: `python3 scripts/queue_readiness.py .` и `python3 scripts/shared_input_registry.py .`; реестр производный, не новое разрешение. Действующие потребление run/message IDs и ночные роли — `ops/LAUNCHER-COORDINATION.md`; файлы очереди и ledger публиковать одной CAS-транзакцией.
