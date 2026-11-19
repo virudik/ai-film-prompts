@@ -5888,6 +5888,7 @@
     "effect": "explicit_front_order",
     "order": [
       "S89D-WAN30-R2",
+      "S89D-WAN30-R3",
       "S48-P4-R2",
       "S89A-WAN30",
       "S89B-WAN30",
@@ -5896,6 +5897,7 @@
       "S89E-WAN30",
       "S89F-WAN30",
       "S89F-WAN30-R2",
+      "S89F-WAN30-R3",
       "S89G-WAN30",
       "S28-A1-R2-20261025",
       "S28-A2-R2-20261025",
@@ -5956,6 +5958,12 @@
         "S89I-WAN30",
         "S89J-WAN30"
       ]
+    },
+    "owner_update_20261119_R3": {
+      "at_local": "2026-11-19T03:41 Europe/Moscow",
+      "who": "owner t719u",
+      "quote": "Да. все сцены запускай самостоятельно. по каждой моего да не жди",
+      "effect": "S89D-WAN30-R3 and S89F-WAN30-R3 placed immediately after their preserved R2 items (same precedent as R2); relative order otherwise unchanged"
     }
   }
 }
