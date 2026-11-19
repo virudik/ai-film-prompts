@@ -2,20 +2,20 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-11-19T01:33:59+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-11-19T01:43:59+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
 GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main
 
 ## Источники (sha256)
-- NEW-CHAT-HANDOFF.md · копия на Drive `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD` · 34851 B · `cc5619eff4d22e81`
-- SYNC-RUNBOOK.md · копия на Drive `1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4` · 128795 B · `dacd5d49c8c00578`
-- AI-PROJECT-GUIDE.md · копия на Drive `1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u` · 41704 B · `1d754244779e067a`
+- NEW-CHAT-HANDOFF.md · копия на Drive `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD` · 34539 B · `dd499c6442614de8`
+- SYNC-RUNBOOK.md · копия на Drive `1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4` · 130224 B · `fcabe8166e358d49`
+- AI-PROJECT-GUIDE.md · копия на Drive `1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u` · 42055 B · `7101730f0b5647d7`
 - PROMPT-STYLE-GUIDE.md · копия на Drive `14VzE8DwjKIquGJWENci6rYWj_1xEn34d` · 81939 B · `e9cce20ce71adf45`
-- USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 84245 B · `bf96009919340114`
-- README-AI-SYNC.md · копия на Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 18140 B · `f92524af84e6faf3`
-- BACKUP-AI-RUNBOOK.md · копия на Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 21720 B · `e1cfbacddb7fb23c`
+- USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 84893 B · `89b386367c72b824`
+- README-AI-SYNC.md · копия на Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 18556 B · `3f5d374201a97717`
+- BACKUP-AI-RUNBOOK.md · копия на Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 22247 B · `49b83f49fefddba9`
 - video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1998395 B · `5106cb47d3e811cf`
 
 ## Обязательные инварианты
@@ -111,4 +111,4 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 
 ## Текущий checkpoint (дословно из NEW-CHAT-HANDOFF.md, до пометки «Предыдущая история»)
 
-См. `current-checkpoint.md` (22911 симв., sha `85bb66ca2ef2`).
+См. `current-checkpoint.md` (22713 симв., sha `d79e2c7723b7`).

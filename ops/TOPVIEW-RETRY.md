@@ -11,3 +11,9 @@
 - Историю и подтверждения всех попыток сохранять: прежние task id, claim, intent и receipt не стирать и не переиспользовать. Каждая разрешённая новая попытка проходит тот же протокол со своими новыми claim и intent (`ops/LAUNCHER-COORDINATION.md`; обёртка `scripts/launcher_entry.py`, `ops/LAUNCHER-ENTRY.md`).
 - Только бесплатный Unlimited за 0 кредитов.
 - Техническая переделка, которую владелец явно поручил новым item id с суффиксом `-R2`, — новый пункт, не повтор той же попытки.
+
+## Minimax (18.11.2026)
+
+Повторы для peer `minimax` **не разрешены**. В отличие от Grok, которому владелец разрешил повторы 01.11.2026, у Minimax нет собственного retry-бюджета и он не наследует Grok-политику, её счётчики и её лимит: `minimax_launcher.retry_budget.enabled = false`, а `scripts/launcher_coordination.py` блокирует любой `prepare-intent` для поверхности `minimax` при наличии `retry_control` или `submission_history` (`minimax_retry_requires_own_owner_granted_budget`). Любой повтор для Minimax — только после отдельного решения владельца, отдельной выданной политики и общего счётчика попыток.
+
+Peer `minimax` работает в роли **read-only** (решение владельца 19.11.2026): он читает и отвечает, но не claim-ит, не берёт lease, не готовит intent и не создаёт. Поэтому повтор к нему неприменим вовсе, а путь launcher-а закрыт (`minimax_launcher.enabled=false` → `minimax_launcher_disabled`). Если владелец когда-либо откроет роль launcher-а, тот же коммит обязан вернуть `minimax` в `run_ledger.required_surfaces`, выдать собственный retry-бюджет и получить `first_real_create.owner_go_ahead = true` — отдельное слово владельца в чате.
