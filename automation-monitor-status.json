@@ -217,22 +217,22 @@
     ],
     "robot_rewake": {
       "episode": "d6346db8",
-      "count": 0,
-      "last_at": "2026-11-19T21:10:35Z",
-      "sequence": 78,
+      "count": 1,
+      "last_at": "2026-11-19T21:30:47Z",
+      "sequence": 79,
       "first_at": "2026-11-19T21:10:35Z",
-      "last_event_id": "result:5d1f4fc1b4e548a7828892c73b672990",
+      "last_event_id": "slots:d6346db8:79",
       "silence_reported": "slots:d23cf217:2"
     },
     "robot_dispatch": {
       "episode": "d6346db8",
-      "event_id": "result:5d1f4fc1b4e548a7828892c73b672990",
-      "target": "primary",
-      "actor": "grok",
+      "event_id": "slots:d6346db8:79",
+      "target": "backup",
+      "actor": "dot",
       "primary_actor": "grok",
       "backup_actor": "dot",
-      "reason": "new_episode",
-      "attempted_at": "2026-11-19T21:10:35Z"
+      "reason": "no_ack_after_20_minutes",
+      "attempted_at": "2026-11-19T21:30:47Z"
     }
   },
   "phases": {
@@ -498,7 +498,7 @@
     "last_confirmed_launch_task_ids": [
       "3daf88bcc82b4b668a3bb4b405ed0703"
     ],
-    "escalation_attempted_episode": null,
-    "checked_at": "2026-11-19T21:20:38Z"
+    "escalation_attempted_episode": "d6346db8",
+    "checked_at": "2026-11-19T21:30:47Z"
   }
 }
