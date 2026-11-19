@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:f4325595-8f6f-44b7-b6a8-59b709eabef1",
   "task": "Разное: подтверждённые черновые монтажи сцен 7 и 9",
   "acquired_at": "2026-11-19T22:50:03.235Z",
-  "expires_at": "2026-11-19T23:05:03.235Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-19T22:50:26.890Z",
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }

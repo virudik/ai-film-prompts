@@ -5997,7 +5997,9 @@ Locked eye-level room view, the student closes the plain notebook once, then loo
 
 <!-- scene-meta: {"target_engine":"Grok Imagine","production_state":"DRAFT","duration_s":90,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["contest","not_approved","no_launch"]} -->
 
-**Готовность:** DRAFT · Монтаж и сверка непрерывности в работе.
+**Готовность:** DRAFT · Собран черновой монтаж (90 с). По отчёту монтажа, с озвучкой, без субтитров. Художественная приёмка и подача не подтверждены.
+
+**Черновой экспорт:** [открыть файл на Google Диске](https://drive.google.com/file/d/1WFhXL-DeEFDQ6QEjEUnD3ci1pRs02EGX/view?usp=drivesdk). Просмотр без входа пока выдаёт ошибку; для проверки используйте скачивание из меню Диска.
 
 **Формат:** 16:9, 90 с.
 
@@ -6169,7 +6171,9 @@ Presenter raises the ring once toward the fixed lens, preserving the clipped top
 
 <!-- scene-meta: {"target_engine":"Grok Imagine","production_state":"DRAFT","duration_s":84,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["contest","not_approved","no_launch"]} -->
 
-**Готовность:** DRAFT · Монтаж и сверка композита в работе: проверить течение и положение пластин.
+**Готовность:** DRAFT · Собран черновой монтаж (84 с). По отчёту монтажа, с озвучкой, без субтитров. Художественная приёмка и подача не подтверждены.
+
+**Черновой экспорт:** [открыть файл на Google Диске](https://drive.google.com/file/d/1zW2RhENukVM7hcEEcV2wxjegv29IJEIl/view?usp=drivesdk). Просмотр без входа пока выдаёт ошибку; для проверки используйте скачивание из меню Диска.
 
 **Формат:** 16:9, 84 с.
 
