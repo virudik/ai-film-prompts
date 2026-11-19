@@ -478,13 +478,13 @@
       "S89H-WAN30",
       "S89I-WAN30",
       "S89J-WAN30",
-      "S49A-WAN30-20261118",
-      "S89F-WAN30-R3"
+      "S49A-WAN30-20261118"
     ],
     "reconciliation_items": [
       "S89D-WAN30-R2",
       "S89F-WAN30",
-      "S89F-WAN30-R2"
+      "S89F-WAN30-R2",
+      "S89F-WAN30-R3"
     ],
     "last_event_id": "result:90db5dd309db477eb346e8d82676f7b5",
     "receipt_present": true,
@@ -498,6 +498,6 @@
       "98092b65ccfc4307ba98b9f9c675d001"
     ],
     "escalation_attempted_episode": null,
-    "checked_at": "2026-11-19T11:28:52Z"
+    "checked_at": "2026-11-19T11:33:12Z"
   }
 }
