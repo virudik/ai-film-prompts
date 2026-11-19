@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "project": "stikhiy",
-  "state": "free",
-  "holder": "chatgpt:ordinary:fcb32bfa-f663-4141-99df-0e60a78ea2f9",
-  "task": "Исправить название проекта на Стахий и эмодзи на фотоаппарат",
-  "acquired_at": "2026-11-19T21:41:19.841Z",
-  "expires_at": null,
-  "released_at": "2026-11-19T21:41:37.957Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:997fc603-79d5-4f48-920e-d95a9ba8fddc",
+  "task": "Стахий: парные V1/V2 референсы персонажей в сцене и галерее",
+  "acquired_at": "2026-11-19T22:38:37.700Z",
+  "expires_at": "2026-11-19T22:53:37.700Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
