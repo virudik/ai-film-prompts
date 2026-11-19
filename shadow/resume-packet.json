@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-19T21:39:06+00:00",
-  "source_head": "277c39bcf8b976becdedbd26c8bfe6632a5b552d",
-  "source_fingerprint": "5afba56c0f6a82bf8ab799a59e9472fd390ce36e3852180325371264c8857638",
+  "checked_at": "2026-11-19T21:40:56+00:00",
+  "source_head": "3ed49b0939c3e093a7a4eff58e4f64b1ac68d63c",
+  "source_fingerprint": "782cf877f8d7d34adfe6fed7fa047c76e87a57600ecec59d4ee35bfbddcab786",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -158,13 +158,6 @@
   "queue_recovery": {
     "unresolved": [
       {
-        "item_id": "S28-A2-R2-20261025",
-        "state": "submitting",
-        "task_id": null,
-        "recovery_action": "reconcile_without_resubmitting",
-        "submit_authorized": false
-      },
-      {
         "item_id": "S89D-WAN30-R2",
         "state": "claimed",
         "task_id": null,
@@ -186,7 +179,7 @@
         "submit_authorized": false
       }
     ],
-    "existing_task_count": 98,
+    "existing_task_count": 99,
     "existing_tasks": [
       {
         "item_id": "S49F",
@@ -215,6 +208,10 @@
       {
         "item_id": "S28-A1-R2-20261025",
         "task_id": "02fd85ac5fde408285bc439f15ba8239"
+      },
+      {
+        "item_id": "S28-A2-R2-20261025",
+        "task_id": "55dadcb20d2b48a09d1b2b6b4ba0d9ea"
       },
       {
         "item_id": "S51G",
@@ -659,13 +656,13 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "aa77053c6ffc569979868a9b488b704c344211ed71a4f6f7298cd8d3106a5c10",
-      "bytes": 288573
+      "sha256": "62043b65b6cb5958c151e12232f364681a57e52f9ed7abd2159babd344048581",
+      "bytes": 288973
     },
     {
       "file": "project-status.json",
-      "sha256": "6819627eb04ba6f9b96c44d2ac5b44deec89b77d8154d90a5fde0773fbb2cb0b",
-      "bytes": 29584
+      "sha256": "3f485d83731d81630a3bff9cc709408127c83b64c92fefc150f250bc5f73111e",
+      "bytes": 29586
     },
     {
       "file": "reports/current-work-checkpoint.md",
@@ -689,13 +686,13 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "bd283811dfc452a787e5c9fd756a09df0e7d5d78fc7ee81a79b53757ae8a3c6a",
+      "sha256": "ed45a0a19d2941a35824187dd89e27c0e01d3288946ea27114af2ef7bbcbfca5",
       "bytes": 32409
     },
     {
       "file": "video-prompts.md",
-      "sha256": "0c9fbb2d3659ecfaba94f25074eb0f7b2814d9e2f92a87e204db5fa3a28dd383",
-      "bytes": 1999529
+      "sha256": "ba775358b671766248219a904a9d99e9f152c7e50f8d908499f6e20a634e8557",
+      "bytes": 1999796
     },
     {
       "file": "work-resume-register.json",
@@ -703,5 +700,5 @@
       "bytes": 95324
     }
   ],
-  "packet_bytes": 5243
+  "packet_bytes": 5190
 }
