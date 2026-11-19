@@ -3188,7 +3188,7 @@
       "canonical_prompt_sha256": "a1e23bdb5675dfa496b5126b5ae0049ca0b434e855ac54fb823da4f347d5daa8",
       "normalized_prompt_sha256": "d503c25ca38c8ca0955a95dcb69fcd2aa509c853c70349832051b0180702e8cf",
       "priority": 0.307,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "model_id": "qwen-wan3.0-video",
@@ -3255,6 +3255,64 @@
         "report": "reports/scene89-fg-provenance-ui-qc-2026-11-18.json",
         "restored_at": "2026-11-18T16:39:16.684107Z",
         "fresh_full_launch_preflight_required": true
+      },
+      "claim": {
+        "claim_id": "65441f77-5c71-4e83-90db-50519b050753",
+        "execution_instance_id": "14c0379c-19f2-4dcc-b08f-3c238f1c75c0",
+        "route_generation": 7,
+        "source_sha": "c1b955e3c6887932f58f1618c5793a4f8a2536d1",
+        "claimed_at": "2026-11-19T00:45:53Z",
+        "lease_holder": "grok:14c0379c-19f2-4dcc-b08f-3c238f1c75c0",
+        "lease_acquired_at": "2026-11-19T00:43:57Z",
+        "preflight": {
+          "owner_authorized": true,
+          "prompt_match": true,
+          "input_sha_match": true,
+          "input_order_match": true,
+          "qc_passed": true,
+          "website_unlimited": true,
+          "unlimited_mode_selected": true,
+          "ui_prompt_exact": true,
+          "numeric_zero_displayed": false,
+          "paid_credit_mode_selected": false,
+          "credits_cost": 0,
+          "credits_cost_evidence": "selected_free_unlimited_current_form",
+          "ui_unlimited_label": "∞ Безлимитный режим · Загружено · Сейчас большая очередь.",
+          "quantity": 1,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "model_id": "qwen-wan3.0-video",
+          "duration_seconds": 30,
+          "prompt_sha256": "a1e23bdb5675dfa496b5126b5ae0049ca0b434e855ac54fb823da4f347d5daa8",
+          "reference_sha256": [
+            "aa8cded6f151278c5bc1a1823ea8ed04abcde819e93cd2dfc2b38b0b2ce48d54",
+            "b4a1307310e9c7c52a6f1d8b3157acaa4666daad281b305a119806511c6d2f42",
+            "85ab20924887bd960cad1a4c3ae3089bc27b6b050d1bef5e63895c48c4604bc8",
+            "c74268e8462336b7755e531af3d919db76fc19aaf3cc87c3280536d379f891a5",
+            "98fdf155237351540d361ddcf91fab803836759708624165695f4b8d1096a971"
+          ],
+          "owner_free_label_decision": {
+            "host_address": "t718s3708 answer",
+            "at": "2026-11-19T00:30:00Z",
+            "role": "user",
+            "text": "Да, «Безлимитный режим» без цены считай бесплатным, запускай"
+          },
+          "form_evidence": {
+            "checked_at_msk": "2026-11-19T03:43",
+            "url": "https://www.topview.ai/board/1a6244cf1ae747ef847d949a80d6133c?tool-type=video-edit",
+            "mode": "ИИ-видео / Омни-референс / Wan 3.0, 16:9, 30s, 720p, Количество 1",
+            "payment": "Безлимитный режим выбран (Загружен, Сейчас большая очередь.), Кредитный режим не выбран, кнопка Создать без цены",
+            "refs_order": [
+              "1-holo-office.jpg",
+              "2-holo-man.jpg",
+              "3-holo-woman.jpg",
+              "4-Image4.png",
+              "5-Image5.png"
+            ],
+            "prompt_dom_check": "11 mentionChip заменены на data-image-tag, длина 3359 = prompt.txt, FNV-1a 3443068346 совпал"
+          }
+        },
+        "coordination_version": 2
       }
     },
     {
