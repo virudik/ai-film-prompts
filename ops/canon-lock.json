@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "minimax:67abb19b-36ae-42c0-8fb1-bcdc0d481cb1",
-  "task": "Register the Minimax peer as a read-only executor with a Slack command source; publish the peer registration pull request",
-  "acquired_at": "2026-11-19T02:08:05Z",
-  "expires_at": null,
-  "released_at": "2026-11-19T02:12:45Z",
+  "state": "held",
+  "holder": "grok:21a4d8ab-16cf-4197-99ce-bfff92010c4d",
+  "task": "Grok standing t413u / mandate t719u: S89F-WAN30-R3 lease/claim/intent/verify",
+  "acquired_at": "2026-11-19T11:27:43Z",
+  "expires_at": "2026-11-19T11:42:43Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
