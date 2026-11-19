@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "aa77053c6ffc569979868a9b488b704c344211ed71a4f6f7298cd8d3106a5c10",
+  "source_queue_sha256": "62043b65b6cb5958c151e12232f364681a57e52f9ed7abd2159babd344048581",
   "source_task_map_sha256": "455bb0e655dbc9865c881ae8c1b9a3fe1308404900e2ceede859c6be7be9fc94",
   "topview_checked_at": "2026-11-19T21:40:29Z",
   "items": [
@@ -28,7 +28,7 @@
       "part_label": "28 A3",
       "code": "waiting_result",
       "ready": false,
-      "text": "@Image4: ждёт результат 28 A2 (ещё не запущен)",
+      "text": "@Image4: ждёт результат 28 A2",
       "queue_state": "blocked_inputs"
     },
     {
@@ -131,15 +131,6 @@
       "queue_state": "blocked_inputs"
     },
     {
-      "id": "S28-A2-R2-20261025",
-      "scene_id": 28,
-      "part_label": "28 A2",
-      "code": "preflight_required",
-      "ready": false,
-      "text": "Входы найдены; требуется снять записанный блокер после проверки",
-      "queue_state": "submitting"
-    },
-    {
       "id": "S28-A13-20261030",
       "scene_id": 28,
       "part_label": "28 A13",
@@ -222,5 +213,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-19T21:40:34.523651Z"
+  "checked_at": "2026-11-19T21:41:28.821246Z"
 }
