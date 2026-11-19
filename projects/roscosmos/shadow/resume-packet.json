@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "roscosmos",
   "project_name": "Роскосмос",
-  "checked_at": "2026-11-19T21:14:20+00:00",
-  "source_head": "000d56a49325634253bd434b0cae543f8e922077",
-  "source_fingerprint": "da1d5e0090b04af5ae37a3cf568b52eb728af64f7f152387fd0af8b87966bf86",
+  "checked_at": "2026-11-19T21:27:30+00:00",
+  "source_head": "0e0484d83579dab1a42a0e2012c8f1ac448db9df",
+  "source_fingerprint": "46224bcb171062b6abb6b93569303a56432ea44875b80a9dbda223ede2efe347",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -178,13 +178,13 @@
     },
     {
       "file": "projects/README.md",
-      "sha256": "393a3a7428f376faea7471ac4d1b5c564318e67a89170b14001cf649cb482e0d",
-      "bytes": 16927
+      "sha256": "7160b509443a21505d853dc52ac55170b47cd9e7c77e9b95805f7eff449fa677",
+      "bytes": 17391
     },
     {
       "file": "projects/projects.json",
-      "sha256": "0eb7f9e87da72168f0c9c85e66937f35f6f605f6d2201607c0b3e6917ac50603",
-      "bytes": 9321
+      "sha256": "08a9d7ead72e94544e606077960b9be7b3013b68b8dc6efb99087268c4bee4db",
+      "bytes": 10339
     },
     {
       "file": "projects/roscosmos/HANDOFF.md",

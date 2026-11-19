@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-19T21:14:20+00:00",
-  "source_head": "000d56a49325634253bd434b0cae543f8e922077",
-  "source_fingerprint": "7146f63fe1b575ae3dc7523c32e0532097730bcdf99a696e587deb381d09c3dd",
+  "checked_at": "2026-11-19T21:27:30+00:00",
+  "source_head": "0e0484d83579dab1a42a0e2012c8f1ac448db9df",
+  "source_fingerprint": "b2ff23531dfb95de766ea1d96d8591b9459d96cad161201ddd2c574be7e12f3f",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -32,7 +32,7 @@
     "source_head": "0107904bad80907682f4854768885b56d7d8d8da"
   },
   "reasons": [
-    "selected work has no verified recovery record"
+    "resume target is missing or finished: RAZNOE-STAKHIY-SCENE6-20261118"
   ],
   "selected_work": null,
   "checkpoint_text": "",
@@ -199,23 +199,23 @@
     },
     {
       "file": "projects/README.md",
-      "sha256": "393a3a7428f376faea7471ac4d1b5c564318e67a89170b14001cf649cb482e0d",
-      "bytes": 16927
+      "sha256": "7160b509443a21505d853dc52ac55170b47cd9e7c77e9b95805f7eff449fa677",
+      "bytes": 17391
     },
     {
       "file": "projects/projects.json",
-      "sha256": "0eb7f9e87da72168f0c9c85e66937f35f6f605f6d2201607c0b3e6917ac50603",
-      "bytes": 9321
+      "sha256": "08a9d7ead72e94544e606077960b9be7b3013b68b8dc6efb99087268c4bee4db",
+      "bytes": 10339
     },
     {
       "file": "projects/raznoe/HANDOFF.md",
-      "sha256": "17fb97b115e05902fe25e7f93b10da923efacde2405a3f866f3a543248de3cb7",
-      "bytes": 12139
+      "sha256": "2ed71d28218d8855afc25efdb6e8d25cb0e697d424428c582ad1696369bc90e3",
+      "bytes": 10228
     },
     {
       "file": "projects/raznoe/INSTRUCTIONS.md",
-      "sha256": "5a6e7c0e3512cef6f9776f659f1134d6e8eea6f44658171b347fb11d1786fa0d",
-      "bytes": 5562
+      "sha256": "86d49b4125b36914885470493af54519bad81d610668a73b3e5e66b110f790b9",
+      "bytes": 3847
     },
     {
       "file": "projects/raznoe/ops/topview-launch-queue.json",
@@ -224,13 +224,13 @@
     },
     {
       "file": "projects/raznoe/project-status.json",
-      "sha256": "6abb7490ecbe8e4e3f762a09891754bc2b9f889f8396789737cda2500d009b49",
-      "bytes": 11168
+      "sha256": "9891b9e171a28efe529ad823c208f5f7bacd8ce8f99b1bd566a8057183544343",
+      "bytes": 10739
     },
     {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
-      "sha256": "18f83c7b30d96e2053b71cb3f1c7f9d21fb84f32dcc8fa55da1a1353f0044d05",
-      "bytes": 11989
+      "sha256": "8347d7a8022feff9e9c658c44d5d5808884b7ee8608f30a4af484cd57d5c5f0c",
+      "bytes": 10058
     },
     {
       "file": "projects/raznoe/reports/handoff-receipts.json",
@@ -239,13 +239,13 @@
     },
     {
       "file": "projects/raznoe/video-prompts.md",
-      "sha256": "106bf131ad68adf1b74fd8678b80e0ed613125ac94bb61aeff5e00718f21df9f",
-      "bytes": 872544
+      "sha256": "6d4bd0477ab62c24f5d91a0f996c4e674f79aba74a98d199c02e65e43c10404e",
+      "bytes": 722344
     },
     {
       "file": "projects/raznoe/work-resume-register.json",
-      "sha256": "242f5f2dc7491237928f78a7ffbfeb5b0431f6930d51d3bf26bfaceb42a13bb9",
-      "bytes": 28353
+      "sha256": "ea804a71908f5f77cba091dfbd1aadceab96a95114c4a86367890c4c8a26020f",
+      "bytes": 26330
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -263,5 +263,5 @@
       "bytes": 1999529
     }
   ],
-  "packet_bytes": 3853
+  "packet_bytes": 3876
 }

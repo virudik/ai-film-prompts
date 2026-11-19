@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "generator": "continue-2.0",
+  "project": "stikhiy",
+  "project_name": "Стихий",
+  "checked_at": "2026-11-19T21:27:30+00:00",
+  "source_head": "0e0484d83579dab1a42a0e2012c8f1ac448db9df",
+  "source_fingerprint": "2db8a7647bb3cd130effa949f064811a499358efc303912a823b363554522388",
+  "status": "ready",
+  "ready_for_resume": true,
+  "execution_authorized": false,
+  "handoff_receipt": null,
+  "reasons": [],
+  "selected_work": {
+    "work_id": "STIKHIY-SCENE1-20261118",
+    "title": "Стахий: сцена 1 и разбивка 15/30 секунд",
+    "status": "awaiting_editorial_review",
+    "last_completed": "Перенос пакета сцены: 25 промтов и 20 рабочих референсов, без запуска.",
+    "next_action": "Проверить с владельцем черновые референсы, уточнить роли Шуры и Юлии, затем проверить пробную озвучку ночного диалога и 188-секундный монтаж. До отдельного разрешения видео не запускать.",
+    "verified_at": "2026-11-19T21:24:24+00:00",
+    "blockers": [],
+    "evidence": [
+      {
+        "file": "projects/stikhiy/reports/stakhiy-scene-1-breakdown.json",
+        "sha256": "20dc86f2c9713da39d86b5cc2f1a18fdc6cb292dc006eaf3ecf3e44e9ec7aee1"
+      },
+      {
+        "file": "projects/stikhiy/references/scenes/scene-1/reference-bindings.json",
+        "sha256": "5303bef32030d48b20f8de0141b6df938aa950909e3c1c883e6bb33325691ecf"
+      }
+    ],
+    "read_next": [
+      "projects/stikhiy/INSTRUCTIONS.md",
+      "projects/stikhiy/reports/current-work-checkpoint.md"
+    ],
+    "checkpoint": {
+      "file": "projects/stikhiy/reports/current-work-checkpoint.md",
+      "anchor": "# 19.11.2026 — Стихий: перенос проекта и статус работы",
+      "sha256": "af90a813fb3da751e3ab1956e69936a89752aaceea253d4d05d4ec4e7e56f2b5"
+    }
+  },
+  "checkpoint_text": "# 19.11.2026 — Стихий: перенос проекта и статус работы\n\nwork_id: STIKHIY-SCENE1-20261118\n\nПроект выделен из «Разного» по прямому поручению владельца. Сцена 1 «Ради этого стоит жить»; имя героя — Стахий. Сохранены варианты 15×15 и 10×30, все 25 промтов, 10 локаций, 9 черновых листов внешности и реконструкция дачи. Нумерация исходных эпизодов и реплики не менялись. Шура и Юлия по-прежнему не распределены по ролям. Оригинальные семейные фотографии не опубликованы.\n\nСледующий шаг: Проверить с владельцем черновые референсы, уточнить роли Шуры и Юлии, затем проверить пробную озвучку ночного диалога и 188-секундный монтаж. До отдельного разрешения видео не запускать.\n",
+  "invariants": [
+    {
+      "id": "INV-AUTH",
+      "rule": "Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story.",
+      "owner_doc": "NEW-CHAT-HANDOFF.md",
+      "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ"
+    },
+    {
+      "id": "INV-ONE-MASTER",
+      "rule": "One master: video-prompts.md in GitHub main; no v2/final/copy.",
+      "owner_doc": "AI-PROJECT-GUIDE.md",
+      "anchor": "^## 3\\. Master"
+    },
+    {
+      "id": "INV-FRESH-WRITE",
+      "rule": "Before any master write: fresh git pull of main; minimal commit → SYNC-TRIGGER → validator health=ok → Pages → verification; rejected push = another writer, redo from scratch.",
+      "owner_doc": "NEW-CHAT-HANDOFF.md",
+      "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ"
+    },
+    {
+      "id": "INV-SERIAL-DOCS",
+      "rule": "Instruction edits: fresh pull → minimal commit → scripts/cert_github.py → push → verify; never replay a stale write.",
+      "owner_doc": "NEW-CHAT-HANDOFF.md",
+      "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ"
+    },
+    {
+      "id": "INV-SCENE-ID",
+      "rule": "Scene IDs stable; retired IDs never reused; rerender keeps the same Scene ID.",
+      "owner_doc": "AI-PROJECT-GUIDE.md",
+      "anchor": "^## 3\\. Master"
+    },
+    {
+      "id": "INV-SUCCESS-NOT-APPROVAL",
+      "rule": "Topview technical success ≠ editorial approval; never auto approve/rerun/delete/close.",
+      "owner_doc": "SYNC-RUNBOOK.md",
+      "anchor": "^## 10\\. Topview telemetry"
+    },
+    {
+      "id": "INV-SLOTS",
+      "rule": "Slot capacity 6; one active task = one slot; a terminal task frees its slot at once; canonical slow is cleared only by an explicit owner button (11.10.2026), never by a technical terminal.",
+      "owner_doc": "SYNC-RUNBOOK.md",
+      "anchor": "^### Точное ТЗ — Topview slow slots"
+    },
+    {
+      "id": "INV-ONE-MONITOR",
+      "rule": "One writer, decided by monitor-role.json + scripts/monitor_role.py: since 13.10.2026 the GitHub robot (topview-robot.yml → robot_telemetry.py, every 10 min via Supabase pg_cron) is primary, ChatGPT is standby and takes over only after 180 min without a verified healthy robot cycle; the Claude monitor is off; kill switch ROBOT_TELEMETRY=shadow. Old ChatGPT HH:00 monitor and archived Recovery/slot-watcher stay off.",
+      "owner_doc": "NEW-CHAT-HANDOFF.md",
+      "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ"
+    },
+    {
+      "id": "INV-NO-FAKE-TIME",
+      "rule": "Never fake checked_at/queue/ETA; partial phases keep last confirmed timestamps.",
+      "owner_doc": "SYNC-RUNBOOK.md",
+      "anchor": "^### Background connector degradation"
+    },
+    {
+      "id": "INV-OWNER-BOUNDARY",
+      "rule": "Owner decides only creative/editorial choices, ambiguous task↔Scene mapping, approval, rerender, deletion/closing; deterministic work is done by the agent; never ask for info already in sources.",
+      "owner_doc": "AI-PROJECT-GUIDE.md",
+      "anchor": "^## 14\\. Поведение нового сменщика"
+    },
+    {
+      "id": "INV-PROMPT-AUTONOMY",
+      "rule": "Every copyable prompt is self-contained: identity lock, reference roles/priority, camera/space, timeline, native audio, negatives, FRAME FILL.",
+      "owner_doc": "PROMPT-STYLE-GUIDE.md",
+      "anchor": "^## 16A\\. Автономность"
+    },
+    {
+      "id": "INV-MATERIAL-CHANGE",
+      "rule": "Material workflow/site/authority/recovery change → relevant canonical docs + SAME handoff → cert_github.py certificate → push to main → Notion pointer → backup copies (best-effort).",
+      "owner_doc": "SYNC-RUNBOOK.md",
+      "anchor": "^## 9\\. Material Change Documentation Rule"
+    },
+    {
+      "id": "INV-NO-CREDITS",
+      "rule": "Agents may launch only owner-authorized queue items via the website in Unlimited mode at zero credits. Paid Topview launches are performed only by the owner.",
+      "owner_doc": "SYNC-RUNBOOK.md",
+      "anchor": "^## Scene Reference Pack automation"
+    },
+    {
+      "id": "INV-LIBRARY-NONBLOCKING",
+      "rule": "Library is best-effort, never a completion gate.",
+      "owner_doc": "SYNC-RUNBOOK.md",
+      "anchor": "^## LIBRARY RECOVERY"
+    },
+    {
+      "id": "INV-DONE",
+      "rule": "Never say «готово» before the relevant read-back/verification passed.",
+      "owner_doc": "SYNC-RUNBOOK.md",
+      "anchor": "^## 14\\. Verification before final answer"
+    }
+  ],
+  "read_next": [
+    "projects/stikhiy/INSTRUCTIONS.md",
+    "projects/stikhiy/reports/current-work-checkpoint.md"
+  ],
+  "live_checks_required": [
+    "Fresh main and canon lock before writing",
+    "Open owner_decisions and agent inbox; do not infer approval from this packet",
+    "Current capabilities; for a video submit use all-project slot scan, input/QC, Unlimited0 and CAS claim"
+  ],
+  "queue_recovery": {
+    "unresolved": [],
+    "existing_task_count": 0,
+    "existing_tasks": [],
+    "next_candidates": [],
+    "rule": "Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconcile first; no retry."
+  },
+  "sources": [
+    {
+      "file": "AI-PROJECT-GUIDE.md",
+      "sha256": "1d754244779e067a12de42a74440aa2015e64fadd31e96a194bd6cc11dbe6127",
+      "bytes": 41704
+    },
+    {
+      "file": "BACKUP-AI-RUNBOOK.md",
+      "sha256": "e1cfbacddb7fb23c33ceca445e82033263edc633be5ee38fd373a5f131530b8b",
+      "bytes": 21720
+    },
+    {
+      "file": "NEW-CHAT-HANDOFF.md",
+      "sha256": "cc5619eff4d22e81c4ff7ad83946aaa0d42f2b2b1fc4a56b36b185c92c28c987",
+      "bytes": 34851
+    },
+    {
+      "file": "PROMPT-STYLE-GUIDE.md",
+      "sha256": "e9cce20ce71adf45093dc9f6feaa01b1c056e15a0a219da90ec6870744d6a9b1",
+      "bytes": 81939
+    },
+    {
+      "file": "README-AI-SYNC.md",
+      "sha256": "f92524af84e6faf30238f6d9be9372e29bd5e9827f8c348e303939b8c95fb048",
+      "bytes": 18140
+    },
+    {
+      "file": "SYNC-RUNBOOK.md",
+      "sha256": "dacd5d49c8c00578680b4dea14052296fdbbb585a604f8b8a3a074e7bb6dedd2",
+      "bytes": 128795
+    },
+    {
+      "file": "USER-GUIDE.md",
+      "sha256": "bf9600991934011496d1e3d02ade288ef465468c8efb3ca00609bbc7c31afdbf",
+      "bytes": 84245
+    },
+    {
+      "file": "instruction-sync-status.json",
+      "sha256": "23b498a4ef9436b27aaa72f426011884b9613a193bc42940fa167446f7040eb3",
+      "bytes": 5134
+    },
+    {
+      "file": "monitor-role.json",
+      "sha256": "47c21b6d9470726545b00fa27d3077fc1d88f5cb3863e94a73237767ed5aafa1",
+      "bytes": 4486
+    },
+    {
+      "file": "ops/CONTINUE-PROTOCOL.md",
+      "sha256": "7775747a1190299fa378ed4cd0a36319e9005dffc552864b3137ae3280868edd",
+      "bytes": 43746
+    },
+    {
+      "file": "project-status.json",
+      "sha256": "6819627eb04ba6f9b96c44d2ac5b44deec89b77d8154d90a5fde0773fbb2cb0b",
+      "bytes": 29584
+    },
+    {
+      "file": "projects/README.md",
+      "sha256": "7160b509443a21505d853dc52ac55170b47cd9e7c77e9b95805f7eff449fa677",
+      "bytes": 17391
+    },
+    {
+      "file": "projects/projects.json",
+      "sha256": "08a9d7ead72e94544e606077960b9be7b3013b68b8dc6efb99087268c4bee4db",
+      "bytes": 10339
+    },
+    {
+      "file": "projects/stikhiy/HANDOFF.md",
+      "sha256": "c0038b0f4b3bd772ab8ca5a17bbea89843d6a440aa2fea94d25a4df0130dbd2d",
+      "bytes": 2648
+    },
+    {
+      "file": "projects/stikhiy/INSTRUCTIONS.md",
+      "sha256": "8fc2fbd494995305243a8982da30afae5932aa18e4718cde9a18210cff2f040a",
+      "bytes": 2247
+    },
+    {
+      "file": "projects/stikhiy/ops/topview-launch-queue.json",
+      "sha256": "46a6f36a6e2848c34f507a8672161d339557411a56f836cd415a8996070c3659",
+      "bytes": 689
+    },
+    {
+      "file": "projects/stikhiy/project-status.json",
+      "sha256": "a5218ac68528f1e82734ddcf7332e494f4315f9ef4cb1b482807e74e8bd52f40",
+      "bytes": 7877
+    },
+    {
+      "file": "projects/stikhiy/references/scenes/scene-1/reference-bindings.json",
+      "sha256": "5303bef32030d48b20f8de0141b6df938aa950909e3c1c883e6bb33325691ecf",
+      "bytes": 32605
+    },
+    {
+      "file": "projects/stikhiy/reports/current-work-checkpoint.md",
+      "sha256": "af90a813fb3da751e3ab1956e69936a89752aaceea253d4d05d4ec4e7e56f2b5",
+      "bytes": 1167
+    },
+    {
+      "file": "projects/stikhiy/reports/stakhiy-scene-1-breakdown.json",
+      "sha256": "20dc86f2c9713da39d86b5cc2f1a18fdc6cb292dc006eaf3ecf3e44e9ec7aee1",
+      "bytes": 816
+    },
+    {
+      "file": "projects/stikhiy/video-prompts.md",
+      "sha256": "defeede26c674695aeab1dbe709a871cc0d2ab7a5cf050ee6f0eceee2f29f9dd",
+      "bytes": 151121
+    },
+    {
+      "file": "projects/stikhiy/work-resume-register.json",
+      "sha256": "9d6993d01276887d7914ab2aaf287e1309867b903251252263001db218de55aa",
+      "bytes": 3917
+    },
+    {
+      "file": "shadow/current-checkpoint.md",
+      "sha256": "85bb66ca2ef25d3d794914b47b61b266f199fb18566baff5b58c8795f96673a9",
+      "bytes": 34652
+    },
+    {
+      "file": "shadow/takeover-brief.json",
+      "sha256": "bd283811dfc452a787e5c9fd756a09df0e7d5d78fc7ee81a79b53757ae8a3c6a",
+      "bytes": 32409
+    },
+    {
+      "file": "video-prompts.md",
+      "sha256": "0c9fbb2d3659ecfaba94f25074eb0f7b2814d9e2f92a87e204db5fa3a28dd383",
+      "bytes": 1999529
+    }
+  ],
+  "packet_bytes": 5610
+}
