@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:fcb32bfa-f663-4141-99df-0e60a78ea2f9",
-  "task": "Исправить название проекта на Стахий и эмодзи на фотоаппарат",
-  "acquired_at": "2026-11-19T21:41:19.841Z",
-  "expires_at": null,
-  "released_at": "2026-11-19T21:41:37.957Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:08071819-2aa6-4753-a7f1-38f4748ba4f7",
+  "task": "Добавить восемь конкурсных DRAFT-сцен 6–13 в Разное",
+  "acquired_at": "2026-11-19T21:54:42.233Z",
+  "expires_at": "2026-11-19T22:09:42.233Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }
