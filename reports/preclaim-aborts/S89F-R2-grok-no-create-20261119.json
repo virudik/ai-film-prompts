@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "kind": "terminal_no_create_after_published_intent",
+  "event_id": "slots:2f83982f:77",
+  "issue_number": 817,
+  "item_id": "S89F-WAN30-R2",
+  "actor": "grok",
+  "execution_instance_id": "3ab55a31-49a8-49cd-8d59-f279eccc8df5",
+  "route_generation": 7,
+  "trigger": "owner_command cursor_host t718u (2026-11-18T23:53:00Z)",
+  "run_id": null,
+  "run_id_unavailable_reason": "not exposed",
+  "lease_commit": "cad7bc5aa6726ab04557a41ce4ce3cb5069f750d",
+  "owner_rule_commit": "63eb4ce10ee2840a53058116b2a6d258041c5cba",
+  "claim_commit": "8499e39ca2e3295612c60dc3cf6c5aa4568f3306",
+  "intent_commit": "2741d13d3af359afb28ba010216948e152692da4",
+  "claim_id": "5116fdde-7959-4050-9b3f-87c8c07651a9",
+  "intent_id": "8a3fb67b-9900-49f2-8a0c-56110a5303cf",
+  "intent_at": "2026-11-19T00:35:56Z",
+  "intent_payload_sha256": "c22263ee8102cbf06036eadfe2707e6eee60c6eb1668b595d9c8031130003170",
+  "verify": {
+    "checks_passed": true,
+    "main_sha": "2741d13d3af359afb28ba010216948e152692da4",
+    "completed_at_msk": "2026-11-19T03:36:05+03:00"
+  },
+  "create_click_count": 0,
+  "new_submissions": 0,
+  "credits_spent": 0,
+  "no_create_evidence": {
+    "observed": "UI helper reported at 2026-11-19T03:36:46+03:00 that the Chrome window was closed (about:blank), the form tab was lost before any click; Create pressed 0 times.",
+    "source": "parent-coordinated browser helper report; not a provider receipt",
+    "live_scan": {
+      "checked_at": "2026-11-19T00:38:12Z",
+      "mode": "full",
+      "complete": true,
+      "tasks_seen_video": 680,
+      "occupied": 5,
+      "free": 1,
+      "active_task_ids": [
+        "02fd85ac5fde408285bc439f15ba8239",
+        "425108630b0e48c9a4b299fc89ad88ee",
+        "5d1f4fc1b4e548a7828892c73b672990",
+        "90db5dd309db477eb346e8d82676f7b5",
+        "9d4b3b177e6d452abe499537a05f454c"
+      ],
+      "unknown_new": [],
+      "S89F_matched_task_ids": [],
+      "ambiguous": false,
+      "robot_run_id": 44430520708
+    }
+  },
+  "session_phase": "verify_consumed",
+  "worker_stopped_for_this_intent": true,
+  "old_intent_preserved": true,
+  "replay_forbidden": true,
+  "queue_not_modified_by_terminal_report": true,
+  "private_artifact_hashes": {
+    "session": "0e45391ebdcff5361be1efd9aeb6a26531e248d3861f07f4780f1e000497f395",
+    "request": "c843be6213e2023acb8186c2db0ff64d6c9aa19f5e4bba5caf7c07c1a0acdc6a",
+    "claim_transaction": "d353a177574feb1e1e8dc1fe22d23addb87ec9305ca8658d3a33554e9006bf4d",
+    "intent_transaction": "47eff5fbad333f5b36eecdc4721ffa81ccdf7c7aba54a87a2760d30c7a905ce9",
+    "verify_output": "6dfb759579668bb7f421fd3714b86680832c256e38ec3f377c162551bf9a4cb0"
+  },
+  "next": "Item stays submitting with this intent; a new attempt of 89F needs an explicit owner decision (separate item, as for S89F-WAN30-R2). Independent ready items may proceed after a fresh full scan.",
+  "create_allowed": false,
+  "new_session_allowed_by_this_report": false,
+  "recorded_at": "2026-11-19T00:39:30Z"
+}

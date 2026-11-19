@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "grok:3ab55a31-49a8-49cd-8d59-f279eccc8df5",
   "task": "Owner t718u: Grok S89F-WAN30-R2 lease/claim (intent/verify/Create later in same execution)",
   "acquired_at": "2026-11-19T00:32:08Z",
   "expires_at": "2026-11-19T00:52:08Z",
-  "released_at": null,
+  "released_at": "2026-11-19T00:39:30Z",
   "rules": "ops/CANON-LOCK.md"
 }
