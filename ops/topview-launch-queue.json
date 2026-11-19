@@ -2977,7 +2977,7 @@
       "canonical_prompt_sha256": "976ff82f2753464a926919bb5b30a7f5988cc4bb16119a908e9ac5952b184e70",
       "normalized_prompt_sha256": "e66a746664db1fd8b8c9ce138f49483385d90225671e61584b69b378c7eea22d",
       "priority": 0.304,
-      "state": "claimed",
+      "state": "submitting",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "model_id": "qwen-wan3.0-video",
@@ -3085,7 +3085,33 @@
             "prompt_dom_check": "7 mentionChip заменены на data-image-tag; без 4 лишних пробелов после чипов длина 3523 и FNV-1a 0x1d1b7ec6 совпали с prompt.txt"
           }
         },
-        "coordination_version": 2
+        "coordination_version": 2,
+        "submission_intent_id": "66a10177-5eab-4ed4-8ad0-5be875b6cba1",
+        "submission_intent_at": "2026-11-19T01:53:24Z",
+        "replay_forbidden": true,
+        "host_run": {
+          "namespace": "cursor_host",
+          "observation_source": "parent_shell_os_environ",
+          "field": "CURSOR_REQUEST_ID",
+          "value": "7fe3d47f-fd24-4f57-a2be-2cc218a4cfd9",
+          "conversation_field": "CURSOR_CONVERSATION_ID",
+          "conversation_id": "1c1bf697-3c93-4068-b457-e90efdd5ef8f",
+          "standing_command_id": "t413u-20261109"
+        },
+        "provider_run_key": "c033b9046d6c373c20b7b930081be10f7aaf014e75cf0736c1f164d7f59153b6",
+        "owner_event_keys": [
+          "98fdd3427f3270f4838928cdea5811066eea46651cdbc049444a1fe5456df991"
+        ],
+        "ledger_path": "ops/launcher-run-ledger.json",
+        "trigger": "owner_command",
+        "owner_command": {
+          "quote": "Говорю запускай значит запускай. Зачем спрашивать по 10 раз если есть уже согласованная очередь запуска",
+          "source": "cursor_host",
+          "at": "2026-11-09T08:25:00Z",
+          "standing_command_id": "t413u-20261109",
+          "standing_host_address": "t413u"
+        },
+        "intent_payload_sha256": "f856f1448b5c3efed5343c46bd895181b4f462409f6c742b807ad94b09c8db09"
       }
     },
     {
