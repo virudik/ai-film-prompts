@@ -199,7 +199,21 @@ def unlimited_zero_cost_accepted(preflight):
     label = preflight.get('ui_unlimited_label')
     return (preflight.get('unlimited_mode_selected') is True
             and preflight.get('credits_cost_evidence') == 'selected_free_unlimited_current_form'
-            and isinstance(label, str) and 'бесплатн' in label.casefold())
+            and isinstance(label, str)
+            and ('бесплатн' in label.casefold() or unpriced_unlimited_label(label, preflight)))
+
+
+def unpriced_unlimited_label(label, preflight):
+    """Owner 19.11.2026 03:30 MSK (answer to card t718s3708): «Да, «Безлимитный режим» без цены
+    считай бесплатным, запускай». The SELECTED option «Безлимитный режим» with no price/credits in
+    its label counts as free only when the Credit mode is explicitly NOT selected. Any digit,
+    «кредит»/«credit» in the selected label, a selected paid mode or a positive cost still fails.
+    """
+    text = label.casefold()
+    return ('безлимитный режим' in text
+            and preflight.get('paid_credit_mode_selected') is False
+            and not any(ch.isdigit() for ch in text)
+            and 'кредит' not in text and 'credit' not in text)
 
 
 def check_lease(lock, actor, now):

@@ -546,6 +546,22 @@ class FreeUnlimitedCostTests(unittest.TestCase):
         self.assertFalse(lc.unlimited_zero_cost_accepted(self.base(numeric_zero_displayed=False,
             unlimited_mode_selected=True, ui_unlimited_label='Unlimited',
             credits_cost_evidence='pricing_page')))
+    def test_owner_20261119_unpriced_selected_unlimited_label(self):
+        label = '∞ Безлимитный режим · Загружено · Сейчас большая очередь.'
+        ok = dict(numeric_zero_displayed=False, unlimited_mode_selected=True, ui_unlimited_label=label,
+                  credits_cost_evidence='selected_free_unlimited_current_form')
+        self.assertTrue(lc.unlimited_zero_cost_accepted(self.base(paid_credit_mode_selected=False, **ok)))
+        # Credit mode state unknown, selected paid, positive cost, priced or credit labels still fail.
+        self.assertFalse(lc.unlimited_zero_cost_accepted(self.base(**ok)))
+        self.assertFalse(lc.unlimited_zero_cost_accepted(self.base(paid_credit_mode_selected=True, **ok)))
+        self.assertFalse(lc.unlimited_zero_cost_accepted(self.base(paid_credit_mode_selected=False,
+            **dict(ok, ui_unlimited_label='Кредитный режим / Приоритетная скорость · 12 кредитов'))))
+        self.assertFalse(lc.unlimited_zero_cost_accepted(self.base(paid_credit_mode_selected=False,
+            **dict(ok, ui_unlimited_label='Безлимитный режим · 12'))))
+        self.assertFalse(lc.unlimited_zero_cost_accepted(self.base(paid_credit_mode_selected=False,
+            credits_cost=12, **{k: v for k, v in ok.items()})))
+        self.assertFalse(lc.unlimited_zero_cost_accepted(self.base(paid_credit_mode_selected=False,
+            **dict(ok, unlimited_mode_selected=False))))
 
 
 class DotRelayRegistrationTests(unittest.TestCase):
