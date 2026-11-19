@@ -23,7 +23,7 @@
 | 3 | [RESOURCE](#scene-3) | Инженер мастерской и синей формы, работница сортировки | Фотореал 16:9. Исходник 2 × 15 с сохранён. Текущая нарезка — 19 native-клипов, 114 с: мастерская, завод, сборка, старт, орбита, постановочная станция, ЦУП. Не одобрено |
 | 4 | [HONOR Magic9 Pro Max](#scene-4) | Модель выбрана; канонических продуктовых PNG нет | Три ролика по 120 с: 3D, реализм, рисовка. Кадры только настроение. Не одобрено. Видео не запускать |
 | 5 | [HONOR X9e Pro — «Дворовая машина Голдберга»](#scene-5) | Житель Москвы, настоящий HONOR X9e Pro только после отбора | Конкурс «Несокрушимый HONOR», Москва: настоящая съёмка 60–120 с, цель 90 с, вертикаль 9:16, без музыки. ИИ 30 с — только отдельный неконкурсный превиз. Заявка не отправлена |
-| 6 | [Ради этого стоит жить — Стахий, S1E1](#scene-6) | Аркадий, Надежда, Стас, семья | Исходник 03:08, 9:16. Одна сцена: 15 подсцен под 15 с либо 10 под 30 с. Сценарная разбивка DRAFT, без запусков |
+| 6 | [Ради этого стоит жить — Стахий, S1E1](#scene-6) | Аркадий, Надежда, Стахий, семья | Исходник 03:08, 9:16. Одна сцена: 15 подсцен под 15 с либо 10 под 30 с. Сценарная разбивка DRAFT, без запусков |
 
 ## Сцены в работе
 
@@ -5881,11 +5881,13 @@ No test action, impact, immersion, fake water resistance, fictional result, succ
 <a id="scene-6"></a>
 ## Сцена 6 — Ради этого стоит жить (Стахий, сезон 1 / серия 1)
 
+**Имя героя:** Стахий. Это имя используется во всех карточках, подписях и репликах для озвучки.
+
 <!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":188,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["owner_requested","draft","vertical_9x16","biographical_screenplay","two_duration_breakdowns","references_missing","not_approved"]} -->
 
 **Контекст использования:** по файлу владельца «Фильм Стахий.docx», 18.11.2026. Отдельная история проекта «Разное», не Серёгиус и не Роскосмос. Автобиографическая короткометражная драма, Люберцы и Москва 1990-х. Сезон 1, серия 1. Авторские 10 эпизодов объединены в одну сцену проекта, а не десять новых Scene ID.
 
-**Что происходит:** семейное лето и мечта Аркадия о собственном доме сменяются утратой дедушки и болезнью отца. Подаренный «Зенит» становится знаком надежды, памяти и будущего Стаса. Сохраняются крафтовая бумага от сладкой ваты, мечта о квартире и фотоаппарат как три сквозных мотива. Трагедию не раскрывать в первых кадрах.
+**Что происходит:** семейное лето и мечта Аркадия о собственном доме сменяются утратой дедушки и болезнью отца. Подаренный «Зенит» становится знаком надежды, памяти и будущего Стахия. Сохраняются крафтовая бумага от сладкой ваты, мечта о квартире и фотоаппарат как три сквозных мотива. Трагедию не раскрывать в первых кадрах.
 
 **Источник:** [полный текст сценария с исходными репликами и примечаниями](projects/raznoe/references/scenes/scene-6/source-scenario.md). Разбивка ниже редакторская; исходный текст не сокращён и не выдан за согласованные биографические факты.
 
@@ -5905,7 +5907,7 @@ No test action, impact, immersion, fake water resistance, fictional result, succ
 
 Постановочная реконструкция, не архив. 3D-листы — изображения внешности, не риггированные модели. Семейные оригиналы в этой галерее не опубликованы. Шура и Юлия пока представлены только в галерее, без назначения на роли.
 
-<div class="scene-ref-gallery"><figure><a href="projects/raznoe/references/scenes/scene-6/S6-Arkady.webp" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/S6-Arkady.webp" alt="Аркадий" loading="lazy"></a><figcaption>Аркадий · черновик</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp" alt="Надежда" loading="lazy"></a><figcaption>Надежда · черновик</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp" alt="Стас (Стахий): 1, 2 и 3 года" loading="lazy"></a><figcaption>Стас (Стахий): 1, 2 и 3 года · черновик</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-6/S6-Petr.webp" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/S6-Petr.webp" alt="Пётр" loading="lazy"></a><figcaption>Пётр · черновик</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-6/S6-Nina.webp" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/S6-Nina.webp" alt="Нина" loading="lazy"></a><figcaption>Нина · черновик</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-6/S6-Anatoly.webp" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/S6-Anatoly.webp" alt="Анатолий" loading="lazy"></a><figcaption>Анатолий · черновик</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-6/S6-Vladimir.webp" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/S6-Vladimir.webp" alt="Владимир" loading="lazy"></a><figcaption>Владимир · черновик</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-6/S6-Shura.webp" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/S6-Shura.webp" alt="Шура" loading="lazy"></a><figcaption>Шура · черновик</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-6/S6-Julia.webp" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/S6-Julia.webp" alt="Юлия" loading="lazy"></a><figcaption>Юлия · черновик</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-6/S6-Dacha-reference.webp" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/S6-Dacha-reference.webp" alt="Дача и сад · реконструкция по фото" loading="lazy"></a><figcaption>Дача и сад · реконструкция по фото · черновик</figcaption></figure></div>
+<div class="scene-ref-gallery"><figure><a href="projects/raznoe/references/scenes/scene-6/S6-Arkady.webp" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/S6-Arkady.webp" alt="Аркадий" loading="lazy"></a><figcaption>Аркадий · черновик</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp" alt="Надежда" loading="lazy"></a><figcaption>Надежда · черновик</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp" alt="Стахий: 1, 2 и 3 года" loading="lazy"></a><figcaption>Стахий: 1, 2 и 3 года · черновик</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-6/S6-Petr.webp" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/S6-Petr.webp" alt="Пётр" loading="lazy"></a><figcaption>Пётр · черновик</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-6/S6-Nina.webp" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/S6-Nina.webp" alt="Нина" loading="lazy"></a><figcaption>Нина · черновик</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-6/S6-Anatoly.webp" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/S6-Anatoly.webp" alt="Анатолий" loading="lazy"></a><figcaption>Анатолий · черновик</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-6/S6-Vladimir.webp" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/S6-Vladimir.webp" alt="Владимир" loading="lazy"></a><figcaption>Владимир · черновик</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-6/S6-Shura.webp" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/S6-Shura.webp" alt="Шура" loading="lazy"></a><figcaption>Шура · черновик</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-6/S6-Julia.webp" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/S6-Julia.webp" alt="Юлия" loading="lazy"></a><figcaption>Юлия · черновик</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-6/S6-Dacha-reference.webp" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/S6-Dacha-reference.webp" alt="Дача и сад · реконструкция по фото" loading="lazy"></a><figcaption>Дача и сад · реконструкция по фото · черновик</figcaption></figure></div>
 
 ### Два варианта по количеству роликов
 
@@ -5923,23 +5925,23 @@ No test action, impact, immersion, fake water resistance, fictional result, succ
 
 | Подсцена | Исходный эпизод / время фильма | Использовать | Постановочное действие, звук и монтажный выход |
 |---|---|---:|---|
-| 6-B01 | 01. Счастливое лето · 00:00–00:23 | 23 с | Дача: Аркадий держит годовалого Стаса на коленях, Надежда кормит клубникой. Пётр, Нина и Владимир рядом заняты своими делами. Наблюдающая камера, смех, птицы и листья; без объясняющего голоса. Выход на счастливую семейную реакцию. |
+| 6-B01 | 01. Счастливое лето · 00:00–00:23 | 23 с | Дача: Аркадий держит годовалого Стахия на коленях, Надежда кормит клубникой. Пётр, Нина и Владимир рядом заняты своими делами. Наблюдающая камера, смех, птицы и листья; без объясняющего голоса. Выход на счастливую семейную реакцию. |
 | 6-B02 | 02. Дедушка и сладкая вата · 00:23–00:38 | 15 с | Анатолий приносит сладкую вату в коричневой крафтовой бумаге. Руки, бумага, ребёнок тянется, улыбка дедушки. Бумага становится узнаваемым мотивом. |
 | 6-B03 | 03. Мечта · 00:38–01:02 | 24 с | Зима, Красная площадь, родители с коляской. Реплики Аркадия о своей квартире и ответ Надежды сохранить целиком. Монтажная вставка тесной четырёхкомнатной квартиры с указанными в источнике родственниками. Не выдавать вставку за непрерывное перемещение камеры. |
-| 6-B04 | 04. Смерть дедушки Анатолия · 01:02–01:17 | 15 с | Дедушке плохо, он падает; взгляд с высоты маленького Стаса, испуганные голоса взрослых. Склейка на пустое кресло и бумагу. Без натурализма, объясняющей реплики и музыки, подсказывающей диагноз. |
+| 6-B04 | 04. Смерть дедушки Анатолия · 01:02–01:17 | 15 с | Дедушке плохо, он падает; взгляд с высоты маленького Стахия, испуганные голоса взрослых. Склейка на пустое кресло и бумагу. Без натурализма, объясняющей реплики и музыки, подсказывающей диагноз. |
 | 6-B05 | 05. Первый кашель · 01:17–01:32 | 15 с | АЗЛК, Аркадий у токарного станка; приступ кашля, пауза, возвращение к работе. Звук оборудования и кашель как мост домой. Не связывать болезнь с работой причинным утверждением. |
 | 6-B06 | 06. Ничто не вечно · 01:32–01:58 | 26 с | Возвращение, кухня, бритьё и ночной разговор рядом со спящим сыном. Самый перегруженный эпизод: исходные реплики и кровь при кашле оставлены только как реконструкция до согласования. Монтаж/запись речи должны подтвердить длительность; не ускорять речь ради цифры. |
-| 6-B07 | 07. Год надежды · 01:58–02:18 | 20 с | Надежда ведёт почти двухлетнего Стаса по коридору к Аркадию. Сдержанный монтаж года: палата, персонал, календарь, операция вне подробностей, временное улучшение и ухудшение. Точный текст взрослого Стахия из источника; без добавленного диагноза. |
+| 6-B07 | 07. Год надежды · 01:58–02:18 | 20 с | Надежда ведёт почти двухлетнего Стахия по коридору к Аркадию. Сдержанный монтаж года: палата, персонал, календарь, операция вне подробностей, временное улучшение и ухудшение. Точный текст взрослого Стахия из источника; без добавленного диагноза. |
 | 6-B08 | 08. Зенит · 02:18–02:47 | 29 с | Сын обнимает ослабленного отца и говорит о мясе; мама приносит коробку с новым «Зенитом», отец отвечает. Реплики целиком по источнику, руки и корпус камеры крупно, щелчок затвора в финале. Кульминация, без рекламной подачи. |
-| 6-B09 | 09. Тишина · 02:47–02:56 | 9 с | Щелчок обрывается, тишина. Дальний план похорон, Надежда и Стас. Голос: «Папе было тридцать. Мне — три». Музыки нет; сохранить паузу и отсутствие натуралистичных подробностей. |
-| 6-B10 | 10. То, что осталось · 02:56–03:08 | 12 с | Надежда ставит «Зенит» у фотографии Аркадия, Стас смотрит. Полный финальный закадровый текст из источника. Чёрный экран и «Продолжение следует…» делать монтажом, не генерировать буквы внутри кадра. |
+| 6-B09 | 09. Тишина · 02:47–02:56 | 9 с | Щелчок обрывается, тишина. Дальний план похорон, Надежда и Стахий. Голос: «Папе было тридцать. Мне — три». Музыки нет; сохранить паузу и отсутствие натуралистичных подробностей. |
+| 6-B10 | 10. То, что осталось · 02:56–03:08 | 12 с | Надежда ставит «Зенит» у фотографии Аркадия, Стахий смотрит. Полный финальный закадровый текст из источника. Чёрный экран и «Продолжение следует…» делать монтажом, не генерировать буквы внутри кадра. |
 
 <a id="6-B01"></a>
 #### 6-B01 · 30 с · DRAFT
 
 **Локации:** [Летняя дача](projects/raznoe/references/scenes/scene-6/S6-LOC01-dacha.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стас (Стахий): 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp) · [Пётр](projects/raznoe/references/scenes/scene-6/S6-Petr.webp) · [Нина](projects/raznoe/references/scenes/scene-6/S6-Nina.webp) · [Владимир](projects/raznoe/references/scenes/scene-6/S6-Vladimir.webp) · [Дача и сад · реконструкция по фото](projects/raznoe/references/scenes/scene-6/S6-Dacha-reference.webp). Стасу около года: левая колонка листа.
+**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp) · [Пётр](projects/raznoe/references/scenes/scene-6/S6-Petr.webp) · [Нина](projects/raznoe/references/scenes/scene-6/S6-Nina.webp) · [Владимир](projects/raznoe/references/scenes/scene-6/S6-Vladimir.webp) · [Дача и сад · реконструкция по фото](projects/raznoe/references/scenes/scene-6/S6-Dacha-reference.webp). Стахию около года: левая колонка листа.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
@@ -5950,17 +5952,17 @@ REFERENCES / LOCATION AUTHORITY:
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
 WORKING REFERENCES (for review; not numbered inputs): S6-Arkady: projects/raznoe/references/scenes/scene-6/S6-Arkady.webp; S6-Nadezhda: projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp; S6-Stas-ages: projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp; S6-Petr: projects/raznoe/references/scenes/scene-6/S6-Petr.webp; S6-Nina: projects/raznoe/references/scenes/scene-6/S6-Nina.webp; S6-Vladimir: projects/raznoe/references/scenes/scene-6/S6-Vladimir.webp; S6-Dacha-reference: projects/raznoe/references/scenes/scene-6/S6-Dacha-reference.webp.
-Стасу около года: левая колонка листа.
+Стахию около года: левая колонка листа.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Аркадий — молодой отец; Надежда — мать; Стас — ребёнок около года. Пётр — дедушка, Нина — бабушка, Владимир — дядя. Не смешивать их лица и поколения. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Аркадий — молодой отец; Надежда — мать; Стахий — ребёнок около года. Пётр — дедушка, Нина — бабушка, Владимир — дядя. Не смешивать их лица и поколения. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Семейная дача летом в 1990-х: домик, сад, натуральный дневной свет сквозь листву. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
 
 START STATE:
-Аркадий сидит со Стасом на коленях, Надежда рядом с клубникой.
+Аркадий сидит со Стахием на коленях, Надежда рядом с клубникой.
 
 STORY FLOW:
 Надежда спокойно подносит ягоду, ребёнок откликается, отец поддерживает его. Родственники заняты своими делами в саду; наблюдать живую реакцию семьи, без предвестия трагедии.
@@ -5984,7 +5986,7 @@ NEGATIVE / FRAME FILL:
 
 **Локации:** [Общая комната квартиры](projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Анатолий](projects/raznoe/references/scenes/scene-6/S6-Anatoly.webp) · [Стас (Стахий): 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Стас около года: предварительно левая колонка листа.
+**Дополнительные референсы:** [Анатолий](projects/raznoe/references/scenes/scene-6/S6-Anatoly.webp) · [Стахий: 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Стахий около года: предварительно левая колонка листа.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
@@ -5995,11 +5997,11 @@ REFERENCES / LOCATION AUTHORITY:
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
 WORKING REFERENCES (for review; not numbered inputs): S6-Anatoly: projects/raznoe/references/scenes/scene-6/S6-Anatoly.webp; S6-Stas-ages: projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp.
-Стас около года: предварительно левая колонка листа.
+Стахий около года: предварительно левая колонка листа.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Анатолий — дедушка Стаса, отец Надежды; Стас — маленький ребёнок. Это не дедушка Пётр. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Анатолий — дедушка Стахия, отец Надежды; Стахий — маленький ребёнок. Это не дедушка Пётр. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Обычный семейный интерьер 1990-х, мягкий оконный свет. Место этого эпизода — постановочное предложение, в исходнике не уточнено. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
@@ -6029,7 +6031,7 @@ NEGATIVE / FRAME FILL:
 
 **Локации:** [Красная площадь зимой](projects/raznoe/references/scenes/scene-6/S6-LOC06-red-square.png) · [Общая комната квартиры](projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стас (Стахий): 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Ранний возраст Стаса: предварительно левая колонка. Для Валерия, Ольги, Вики и бабушки по маме подтверждённых портретов пока нет.
+**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Ранний возраст Стахия: предварительно левая колонка. Для Валерия, Ольги, Вики и бабушки по маме подтверждённых портретов пока нет.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
@@ -6041,11 +6043,11 @@ REFERENCES / LOCATION AUTHORITY:
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
 WORKING REFERENCES (for review; not numbered inputs): S6-Arkady: projects/raznoe/references/scenes/scene-6/S6-Arkady.webp; S6-Nadezhda: projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp; S6-Stas-ages: projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp.
-Ранний возраст Стаса: предварительно левая колонка. Для Валерия, Ольги, Вики и бабушки по маме подтверждённых портретов пока нет.
+Ранний возраст Стахия: предварительно левая колонка. Для Валерия, Ольги, Вики и бабушки по маме подтверждённых портретов пока нет.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Аркадий — молодой отец, Надежда — мать, Стас — маленький ребёнок в коляске; в квартирной вставке также бабушка по маминой линии, Валерий, Ольга и маленькая Вика. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Аркадий — молодой отец, Надежда — мать, Стахий — маленький ребёнок в коляске; в квартирной вставке также бабушка по маминой линии, Валерий, Ольга и маленькая Вика. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Зимняя Красная площадь Москвы в 1990-х, рассеянный зимний свет. Вставка: тесная многолюдная четырёхкомнатная квартира в Люберцах, домашний свет. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
@@ -6063,7 +6065,7 @@ CAMERA / CONTINUITY:
 Плавное сопровождение прогулки, средний парный план с коляской; квартирная вставка явно монтажная, не магический проход. Stable physical camera, coherent space and motivated cuts only. Preserve object ownership and hand contacts. No forced frozen tableau merely to fill the render limit.
 
 AUDIO:
-АРКАДИЙ: «Надь, я хочу, чтобы у нас было своё жильё. Только наше. Чтобы у Стасика была отдельная комната». НАДЕЖДА: «Будет, Аркаш. Обязательно будет». Русская естественная речь, говорящий один за раз, точный липсинк; шаги и зимний фон ниже речи.
+АРКАДИЙ: «Надь, я хочу, чтобы у нас было своё жильё. Только наше. Чтобы у Стахия была отдельная комната». НАДЕЖДА: «Будет, Аркаш. Обязательно будет». Русская естественная речь, говорящий один за раз, точный липсинк; шаги и зимний фон ниже речи.
 
 NEGATIVE / FRAME FILL:
 Нет современного телефона/электросамоката, выдуманных родственников, речи одновременно и внезапной новой комнаты. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
@@ -6075,7 +6077,7 @@ NEGATIVE / FRAME FILL:
 
 **Локации:** [Общая комната квартиры](projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Анатолий](projects/raznoe/references/scenes/scene-6/S6-Anatoly.webp) · [Стас (Стахий): 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Дедушка Анатолий; ранний возраст Стаса, точная дата не указана.
+**Дополнительные референсы:** [Анатолий](projects/raznoe/references/scenes/scene-6/S6-Anatoly.webp) · [Стахий: 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Дедушка Анатолий; ранний возраст Стахия, точная дата не указана.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
@@ -6086,11 +6088,11 @@ REFERENCES / LOCATION AUTHORITY:
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
 WORKING REFERENCES (for review; not numbered inputs): S6-Anatoly: projects/raznoe/references/scenes/scene-6/S6-Anatoly.webp; S6-Stas-ages: projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp.
-Дедушка Анатолий; ранний возраст Стаса, точная дата не указана.
+Дедушка Анатолий; ранний возраст Стахия, точная дата не указана.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Анатолий — дедушка, отец Надежды; маленький Стас — точка наблюдения. Взрослые родственники реагируют за пределами главного плана. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Анатолий — дедушка, отец Надежды; маленький Стахий — точка наблюдения. Взрослые родственники реагируют за пределами главного плана. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Квартира 1990-х, обычный дневной свет, кресло и стол с коричневой крафтовой бумагой. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
@@ -6135,7 +6137,7 @@ WORKING REFERENCES (for review; not numbered inputs): S6-Arkady: projects/raznoe
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Аркадий — отец Стаса, взрослый рабочий; в этой сцене он ещё способен трудиться и не выглядит при смерти. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Аркадий — отец Стахия, взрослый рабочий; в этой сцене он ещё способен трудиться и не выглядит при смерти. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Завод АЗЛК 1990-х, токарный станок, металлическая стружка, практический цеховой свет. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
@@ -6165,7 +6167,7 @@ NEGATIVE / FRAME FILL:
 
 **Локации:** [Общая комната квартиры](projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png) · [Кухня вечером](projects/raznoe/references/scenes/scene-6/S6-LOC03-kitchen.png) · [Ванная](projects/raznoe/references/scenes/scene-6/S6-LOC04-bathroom.png) · [Спальня ночью](projects/raznoe/references/scenes/scene-6/S6-LOC05-bedroom.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стас (Стахий): 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Ранний возраст Стаса: предварительно левая колонка.
+**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Ранний возраст Стахия: предварительно левая колонка.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
@@ -6179,11 +6181,11 @@ REFERENCES / LOCATION AUTHORITY:
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
 WORKING REFERENCES (for review; not numbered inputs): S6-Arkady: projects/raznoe/references/scenes/scene-6/S6-Arkady.webp; S6-Nadezhda: projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp; S6-Stas-ages: projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp.
-Ранний возраст Стаса: предварительно левая колонка.
+Ранний возраст Стахия: предварительно левая колонка.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Аркадий — отец Стаса, усталый и тревожный; Надежда — его жена; маленький Стас спит в кроватке. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Аркадий — отец Стахия, усталый и тревожный; Надежда — его жена; маленький Стахий спит в кроватке. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Квартира вечером и ночью, кухня, ванная и спальня; скромный бытовой свет 1990-х. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
@@ -6195,7 +6197,7 @@ STORY FLOW:
 Монтаж: возвращение и тёплый взгляд на сына; короткий ужин рядом с Надеждой; электробритва и приступ кашля; ночной двухплан родителей и спящий ребёнок. Кровь в раковине — отдельная неутверждённая реконструкция, в этом базовом визуальном варианте её не показывать.
 
 END STATE:
-Медленный перевод внимания со взрослых на спящего Стаса.
+Медленный перевод внимания со взрослых на спящего Стахия.
 
 CAMERA / CONTINUITY:
 Домашние эпизоды связать честными монтажными склейками; ночью неподвижный средний план, затем спокойный перевод на кроватку. Stable physical camera, coherent space and motivated cuts only. Preserve object ownership and hand contacts. No forced frozen tableau merely to fill the render limit.
@@ -6213,7 +6215,7 @@ NEGATIVE / FRAME FILL:
 
 **Локации:** [Больничный коридор](projects/raznoe/references/scenes/scene-6/S6-LOC08-hospital-corridor.png) · [Больничная палата](projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стас (Стахий): 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Стасу почти два года: средняя колонка.
+**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Стахию почти два года: средняя колонка.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
@@ -6225,17 +6227,17 @@ REFERENCES / LOCATION AUTHORITY:
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
 WORKING REFERENCES (for review; not numbered inputs): S6-Arkady: projects/raznoe/references/scenes/scene-6/S6-Arkady.webp; S6-Nadezhda: projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp; S6-Stas-ages: projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp.
-Стасу почти два года: средняя колонка.
+Стахию почти два года: средняя колонка.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Надежда — мать; Стас почти двухлетний в начале больничного года; Аркадий — отец в палате. Возраст ребёнка меняется только между согласованными временными эпизодами, не внутри кадра. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Надежда — мать; Стахий почти двухлетний в начале больничного года; Аркадий — отец в палате. Возраст ребёнка меняется только между согласованными временными эпизодами, не внутри кадра. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Больничный коридор и палата 1990-х, холодноватый дневной свет, сдержанный медицинский быт. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
 
 START STATE:
-Надежда ведёт Стаса за руку по коридору к палате.
+Надежда ведёт Стахия за руку по коридору к палате.
 
 STORY FLOW:
 Приход к Аркадию. Затем монтаж времени: палата, работа персонала, календарь, закрытые двери операционного блока вместо операции крупно, короткое облегчение, затем новое ухудшение.
@@ -6259,7 +6261,7 @@ NEGATIVE / FRAME FILL:
 
 **Локации:** [Больничная палата](projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стас (Стахий): 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Для «Зенита» правая колонка Стаса пока ориентир; точный возраст надо уточнить.
+**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Для «Зенита» правая колонка Стахия пока ориентир; точный возраст надо уточнить.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
@@ -6270,11 +6272,11 @@ REFERENCES / LOCATION AUTHORITY:
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
 WORKING REFERENCES (for review; not numbered inputs): S6-Arkady: projects/raznoe/references/scenes/scene-6/S6-Arkady.webp; S6-Nadezhda: projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp; S6-Stas-ages: projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp.
-Для «Зенита» правая колонка Стаса пока ориентир; точный возраст надо уточнить.
+Для «Зенита» правая колонка Стахия пока ориентир; точный возраст надо уточнить.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Стас — маленький сын, Аркадий — ослабленный отец, Надежда — мать и жена. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Стахий — маленький сын, Аркадий — ослабленный отец, Надежда — мать и жена. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Больничная палата 1990-х, мягкий свет из окна; новый плёночный «Зенит» с электронной подсказкой экспозиции в коробке. Точный индекс модели не назначен. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
@@ -6304,7 +6306,7 @@ NEGATIVE / FRAME FILL:
 
 **Локации:** [Кладбище, дальний план](projects/raznoe/references/scenes/scene-6/S6-LOC10-cemetery.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стас (Стахий): 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Стасу три года: правая колонка.
+**Дополнительные референсы:** [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Стахию три года: правая колонка.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
@@ -6315,17 +6317,17 @@ REFERENCES / LOCATION AUTHORITY:
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
 WORKING REFERENCES (for review; not numbered inputs): S6-Nadezhda: projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp; S6-Stas-ages: projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp.
-Стасу три года: правая колонка.
+Стахию три года: правая колонка.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Надежда — мать; Стасу три года согласно финальной реплике. Остальные присутствующие остаются неузнаваемыми дальними фигурами. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Надежда — мать; Стахию три года согласно финальной реплике. Остальные присутствующие остаются неузнаваемыми дальними фигурами. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Похороны, сдержанный общий план без натуралистичных деталей, неброский естественный свет. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
 
 START STATE:
-После звукового обрыва затвора видны Надежда и маленький Стас рядом.
+После звукового обрыва затвора видны Надежда и маленький Стахий рядом.
 
 STORY FLOW:
 Они молча стоят среди собравшихся. Сохранить неподвижную паузу и человеческое дыхание, без постановочной истерики.
@@ -6349,7 +6351,7 @@ NEGATIVE / FRAME FILL:
 
 **Локации:** [Общая комната квартиры](projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стас (Стахий): 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Стасу три года: правая колонка. Фото Аркадия на полке — отдельный источник; 3D-лист не заменяет архивный портрет.
+**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Стахию три года: правая колонка. Фото Аркадия на полке — отдельный источник; 3D-лист не заменяет архивный портрет.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
@@ -6360,17 +6362,17 @@ REFERENCES / LOCATION AUTHORITY:
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
 WORKING REFERENCES (for review; not numbered inputs): S6-Arkady: projects/raznoe/references/scenes/scene-6/S6-Arkady.webp; S6-Nadezhda: projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp; S6-Stas-ages: projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp.
-Стасу три года: правая колонка. Фото Аркадия на полке — отдельный источник; 3D-лист не заменяет архивный портрет.
+Стахию три года: правая колонка. Фото Аркадия на полке — отдельный источник; 3D-лист не заменяет архивный портрет.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Надежда — мать; маленький Стас — ребёнок после смерти отца; фотография изображает Аркадия, а не другого мужчину. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Надежда — мать; маленький Стахий — ребёнок после смерти отца; фотография изображает Аркадия, а не другого мужчину. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Тихая квартира 1990-х, полка с фотографией Аркадия, естественный спокойный свет. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
 
 START STATE:
-Надежда держит тот самый «Зенит» у полки, Стас смотрит.
+Надежда держит тот самый «Зенит» у полки, Стахий смотрит.
 
 STORY FLOW:
 Она ставит аппарат рядом с фотографией Аркадия, отпускает его. Мальчик переводит взгляд с фотографии на фотоаппарат. Не даёт новой клятвы и не берёт камеру в руки: его будущая профессия ещё впереди.
@@ -6385,7 +6387,7 @@ AUDIO:
 ГОЛОС ВЗРОСЛОГО СТАХИЯ: «Тогда я ещё не знал, что однажды возьму в руки фотоаппарат. И он изменит всю мою жизнь». Спокойный воздух квартиры; титр «Продолжение следует…» добавляется отдельно в редакторе.
 
 NEGATIVE / FRAME FILL:
-Нет выдуманной фотографии иного человека, второго фотоаппарата, текста поверх изображения и взрослого Стаса в комнате. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
+Нет выдуманной фотографии иного человека, второго фотоаппарата, текста поверх изображения и взрослого Стахия в комнате. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
 
 ```
 
@@ -6399,28 +6401,28 @@ NEGATIVE / FRAME FILL:
 
 | Подсцена | Время фильма | Использовать | Действие / звук / стык |
 |---|---|---:|---|
-| 6-A01 | 00:00–00:15 | 15 с | Дача: Аркадий с годовалым Стасом, Надежда и клубника. Живой семейный момент, естественные звуки, без закадрового пояснения. |
+| 6-A01 | 00:00–00:15 | 15 с | Дача: Аркадий с годовалым Стахием, Надежда и клубника. Живой семейный момент, естественные звуки, без закадрового пояснения. |
 | 6-A02 | 00:15–00:23 | 8 с | Продолжение счастливого лета: семейные реакции, Пётр, Нина, Владимир и сад. Те же внешности и летняя одежда; не вводить новый сюжет. |
-| 6-A03 | 00:23–00:38 | 15 с | Анатолий со сладкой ватой: бумага, руки, радость Стаса и улыбка дедушки. Выход на мотив крафтовой бумаги. |
+| 6-A03 | 00:23–00:38 | 15 с | Анатолий со сладкой ватой: бумага, руки, радость Стахия и улыбка дедушки. Выход на мотив крафтовой бумаги. |
 | 6-A04 | 00:38–00:53 | 15 с | Зимняя прогулка с коляской. Вся реплика Аркадия о своём жилье целиком; спокойная речь, без разрыва фразы на границе клипа. |
 | 6-A05 | 00:53–01:02 | 9 с | Ответ Надежды «Будет, Аркаш. Обязательно будет». Отдельная монтажная вставка тесной квартиры. Переход к следующему эпизоду после реакции. |
 | 6-A06 | 01:02–01:17 | 15 с | Анатолию плохо, реакция взрослых с уровня ребёнка, затем пустое кресло и бумага. Смерть через отсутствие, не натурализм. |
 | 6-A07 | 01:17–01:32 | 15 с | Токарный станок АЗЛК, кашель, возвращение к работе. Кашель звуковым мостом в следующую часть. |
 | 6-A08 | 01:32–01:47 | 15 с | Домашний вечер: возвращение к сыну, кухня и переход к ночному разговору. Бритьё/кровь только после фактического согласования. Первая длинная реплика Аркадия целиком, без рубки слов. Требуется проба записи. |
 | 6-A09 | 01:47–01:58 | 11 с | Ответ Надежды и оставшиеся ночные реплики, перевод внимания на спящего ребёнка. Это предварительный монтажный слот: полный диалог в 11 с пока не подтверждён и вероятно требует пересмотра тайминга. Не сокращать текст самостоятельно. |
-| 6-A10 | 01:58–02:13 | 15 с | Надежда со Стасом в коридоре, палата, ход лечения и временное улучшение. Взрослый Стахий рассказывает о почти годе борьбы; запись отдельно. |
+| 6-A10 | 01:58–02:13 | 15 с | Надежда со Стахием в коридоре, палата, ход лечения и временное улучшение. Взрослый Стахий рассказывает о почти годе борьбы; запись отдельно. |
 | 6-A11 | 02:13–02:18 | 5 с | Завершение больничного монтажа и ухудшение. Последняя фраза «Но болезнь не отступила». Без нового диагноза или хирургического натурализма. |
 | 6-A12 | 02:18–02:33 | 15 с | Сын обнимает Аркадия, целая детская реплика о мясе. Надежда достаёт коробку; переход к её реплике на следующем клипе, не обрывая ребёнка. |
 | 6-A13 | 02:33–02:47 | 14 с | Надежда с «Зенитом», её полная реплика, затем полная реплика Аркадия. Руки и камера крупно, щелчок затвора. Темп проверить по записи до производства. |
 | 6-A14 | 02:47–02:56 | 9 с | Похороны общим планом, точная короткая фраза взрослого Стахия. Пауза, без музыки. |
-| 6-A15 | 02:56–03:08 | 12 с | «Зенит» рядом с фото Аркадия, взгляд Стаса, весь финальный закадровый текст. Чёрный экран и титр в редакторе. |
+| 6-A15 | 02:56–03:08 | 12 с | «Зенит» рядом с фото Аркадия, взгляд Стахия, весь финальный закадровый текст. Чёрный экран и титр в редакторе. |
 
 <a id="6-A01"></a>
 #### 6-A01 · 15 с · DRAFT
 
 **Локации:** [Летняя дача](projects/raznoe/references/scenes/scene-6/S6-LOC01-dacha.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стас (Стахий): 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp) · [Пётр](projects/raznoe/references/scenes/scene-6/S6-Petr.webp) · [Нина](projects/raznoe/references/scenes/scene-6/S6-Nina.webp) · [Владимир](projects/raznoe/references/scenes/scene-6/S6-Vladimir.webp) · [Дача и сад · реконструкция по фото](projects/raznoe/references/scenes/scene-6/S6-Dacha-reference.webp). Стасу около года: левая колонка листа.
+**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp) · [Пётр](projects/raznoe/references/scenes/scene-6/S6-Petr.webp) · [Нина](projects/raznoe/references/scenes/scene-6/S6-Nina.webp) · [Владимир](projects/raznoe/references/scenes/scene-6/S6-Vladimir.webp) · [Дача и сад · реконструкция по фото](projects/raznoe/references/scenes/scene-6/S6-Dacha-reference.webp). Стахию около года: левая колонка листа.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
@@ -6431,23 +6433,23 @@ REFERENCES / LOCATION AUTHORITY:
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
 WORKING REFERENCES (for review; not numbered inputs): S6-Arkady: projects/raznoe/references/scenes/scene-6/S6-Arkady.webp; S6-Nadezhda: projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp; S6-Stas-ages: projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp; S6-Petr: projects/raznoe/references/scenes/scene-6/S6-Petr.webp; S6-Nina: projects/raznoe/references/scenes/scene-6/S6-Nina.webp; S6-Vladimir: projects/raznoe/references/scenes/scene-6/S6-Vladimir.webp; S6-Dacha-reference: projects/raznoe/references/scenes/scene-6/S6-Dacha-reference.webp.
-Стасу около года: левая колонка листа.
+Стахию около года: левая колонка листа.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Аркадий — молодой отец; Надежда — мать; Стас — ребёнок около года. Пётр — дедушка, Нина — бабушка, Владимир — дядя. Не смешивать их лица и поколения. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Аркадий — молодой отец; Надежда — мать; Стахий — ребёнок около года. Пётр — дедушка, Нина — бабушка, Владимир — дядя. Не смешивать их лица и поколения. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Семейная дача летом в 1990-х: домик, сад, натуральный дневной свет сквозь листву. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
 
 START STATE:
-Аркадий сидит со Стасом на коленях, Надежда рядом.
+Аркадий сидит со Стахием на коленях, Надежда рядом.
 
 STORY FLOW:
 Мать кормит ребёнка клубникой, отец надёжно поддерживает его; живой ответ ребёнка и тёплая семейная реакция.
 
 END STATE:
-Стас остаётся у Аркадия; Надежда рядом, положение и свет пригодны для продолжения.
+Стахий остаётся у Аркадия; Надежда рядом, положение и свет пригодны для продолжения.
 
 CAMERA / CONTINUITY:
 Устойчивая камера, средний план и мотивированные крупные перебивки только для описанного здесь действия. Сохранять ось, передачу предметов и контакт рук. Смена помещения только явной монтажной склейкой, не телепортацией. No forced frozen tableau merely to fill the render limit.
@@ -6465,7 +6467,7 @@ NEGATIVE / FRAME FILL:
 
 **Локации:** [Летняя дача](projects/raznoe/references/scenes/scene-6/S6-LOC01-dacha.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стас (Стахий): 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp) · [Пётр](projects/raznoe/references/scenes/scene-6/S6-Petr.webp) · [Нина](projects/raznoe/references/scenes/scene-6/S6-Nina.webp) · [Владимир](projects/raznoe/references/scenes/scene-6/S6-Vladimir.webp) · [Дача и сад · реконструкция по фото](projects/raznoe/references/scenes/scene-6/S6-Dacha-reference.webp). Стасу около года: левая колонка листа.
+**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp) · [Пётр](projects/raznoe/references/scenes/scene-6/S6-Petr.webp) · [Нина](projects/raznoe/references/scenes/scene-6/S6-Nina.webp) · [Владимир](projects/raznoe/references/scenes/scene-6/S6-Vladimir.webp) · [Дача и сад · реконструкция по фото](projects/raznoe/references/scenes/scene-6/S6-Dacha-reference.webp). Стахию около года: левая колонка листа.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
@@ -6476,17 +6478,17 @@ REFERENCES / LOCATION AUTHORITY:
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
 WORKING REFERENCES (for review; not numbered inputs): S6-Arkady: projects/raznoe/references/scenes/scene-6/S6-Arkady.webp; S6-Nadezhda: projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp; S6-Stas-ages: projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp; S6-Petr: projects/raznoe/references/scenes/scene-6/S6-Petr.webp; S6-Nina: projects/raznoe/references/scenes/scene-6/S6-Nina.webp; S6-Vladimir: projects/raznoe/references/scenes/scene-6/S6-Vladimir.webp; S6-Dacha-reference: projects/raznoe/references/scenes/scene-6/S6-Dacha-reference.webp.
-Стасу около года: левая колонка листа.
+Стахию около года: левая колонка листа.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Аркадий — молодой отец; Надежда — мать; Стас — ребёнок около года. Пётр — дедушка, Нина — бабушка, Владимир — дядя. Не смешивать их лица и поколения. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Аркадий — молодой отец; Надежда — мать; Стахий — ребёнок около года. Пётр — дедушка, Нина — бабушка, Владимир — дядя. Не смешивать их лица и поколения. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Семейная дача летом в 1990-х: домик, сад, натуральный дневной свет сквозь листву. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
 
 START STATE:
-Стас на коленях отца, Надежда рядом, тот же летний день.
+Стахий на коленях отца, Надежда рядом, тот же летний день.
 
 STORY FLOW:
 Сохранить реакцию семьи и открыть в саду Петра, Нину и Владимира, занятых обычными делами. Не вводить трагедию или новый разговор.
@@ -6510,7 +6512,7 @@ NEGATIVE / FRAME FILL:
 
 **Локации:** [Общая комната квартиры](projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Анатолий](projects/raznoe/references/scenes/scene-6/S6-Anatoly.webp) · [Стас (Стахий): 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Стас около года: предварительно левая колонка листа.
+**Дополнительные референсы:** [Анатолий](projects/raznoe/references/scenes/scene-6/S6-Anatoly.webp) · [Стахий: 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Стахий около года: предварительно левая колонка листа.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
@@ -6521,11 +6523,11 @@ REFERENCES / LOCATION AUTHORITY:
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
 WORKING REFERENCES (for review; not numbered inputs): S6-Anatoly: projects/raznoe/references/scenes/scene-6/S6-Anatoly.webp; S6-Stas-ages: projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp.
-Стас около года: предварительно левая колонка листа.
+Стахий около года: предварительно левая колонка листа.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Анатолий — дедушка Стаса, отец Надежды; Стас — маленький ребёнок. Это не дедушка Пётр. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Анатолий — дедушка Стахия, отец Надежды; Стахий — маленький ребёнок. Это не дедушка Пётр. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Обычный семейный интерьер 1990-х, мягкий оконный свет. Место этого эпизода — постановочное предложение, в исходнике не уточнено. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
@@ -6555,7 +6557,7 @@ NEGATIVE / FRAME FILL:
 
 **Локации:** [Красная площадь зимой](projects/raznoe/references/scenes/scene-6/S6-LOC06-red-square.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стас (Стахий): 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Ранний возраст Стаса: предварительно левая колонка. Для Валерия, Ольги, Вики и бабушки по маме подтверждённых портретов пока нет.
+**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Ранний возраст Стахия: предварительно левая колонка. Для Валерия, Ольги, Вики и бабушки по маме подтверждённых портретов пока нет.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
@@ -6566,11 +6568,11 @@ REFERENCES / LOCATION AUTHORITY:
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
 WORKING REFERENCES (for review; not numbered inputs): S6-Arkady: projects/raznoe/references/scenes/scene-6/S6-Arkady.webp; S6-Nadezhda: projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp; S6-Stas-ages: projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp.
-Ранний возраст Стаса: предварительно левая колонка. Для Валерия, Ольги, Вики и бабушки по маме подтверждённых портретов пока нет.
+Ранний возраст Стахия: предварительно левая колонка. Для Валерия, Ольги, Вики и бабушки по маме подтверждённых портретов пока нет.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Аркадий — молодой отец, Надежда — мать, Стас — маленький ребёнок в коляске; в квартирной вставке также бабушка по маминой линии, Валерий, Ольга и маленькая Вика. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Аркадий — молодой отец, Надежда — мать, Стахий — маленький ребёнок в коляске; в квартирной вставке также бабушка по маминой линии, Валерий, Ольга и маленькая Вика. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Зимняя Красная площадь Москвы в 1990-х, рассеянный зимний свет. Вставка: тесная многолюдная четырёхкомнатная квартира в Люберцах, домашний свет. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
@@ -6600,7 +6602,7 @@ NEGATIVE / FRAME FILL:
 
 **Локации:** [Красная площадь зимой](projects/raznoe/references/scenes/scene-6/S6-LOC06-red-square.png) · [Общая комната квартиры](projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стас (Стахий): 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Ранний возраст Стаса: предварительно левая колонка. Для Валерия, Ольги, Вики и бабушки по маме подтверждённых портретов пока нет.
+**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Ранний возраст Стахия: предварительно левая колонка. Для Валерия, Ольги, Вики и бабушки по маме подтверждённых портретов пока нет.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
@@ -6612,11 +6614,11 @@ REFERENCES / LOCATION AUTHORITY:
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
 WORKING REFERENCES (for review; not numbered inputs): S6-Arkady: projects/raznoe/references/scenes/scene-6/S6-Arkady.webp; S6-Nadezhda: projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp; S6-Stas-ages: projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp.
-Ранний возраст Стаса: предварительно левая колонка. Для Валерия, Ольги, Вики и бабушки по маме подтверждённых портретов пока нет.
+Ранний возраст Стахия: предварительно левая колонка. Для Валерия, Ольги, Вики и бабушки по маме подтверждённых портретов пока нет.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Аркадий — молодой отец, Надежда — мать, Стас — маленький ребёнок в коляске; в квартирной вставке также бабушка по маминой линии, Валерий, Ольга и маленькая Вика. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Аркадий — молодой отец, Надежда — мать, Стахий — маленький ребёнок в коляске; в квартирной вставке также бабушка по маминой линии, Валерий, Ольга и маленькая Вика. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Зимняя Красная площадь Москвы в 1990-х, рассеянный зимний свет. Вставка: тесная многолюдная четырёхкомнатная квартира в Люберцах, домашний свет. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
@@ -6625,7 +6627,7 @@ START STATE:
 После реплики Аркадия Надежда поворачивается к нему у коляски.
 
 STORY FLOW:
-Надежда отвечает. После реакции прямая монтажная склейка в тесную четырёхкомнатную квартиру: родители, Стас, бабушка по маминой линии, Валерий, Ольга и маленькая Вика.
+Надежда отвечает. После реакции прямая монтажная склейка в тесную четырёхкомнатную квартиру: родители, Стахий, бабушка по маминой линии, Валерий, Ольга и маленькая Вика.
 
 END STATE:
 Семья в общей квартире, мечта об отдельной комнате ещё не осуществилась.
@@ -6646,7 +6648,7 @@ NEGATIVE / FRAME FILL:
 
 **Локации:** [Общая комната квартиры](projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Анатолий](projects/raznoe/references/scenes/scene-6/S6-Anatoly.webp) · [Стас (Стахий): 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Дедушка Анатолий; ранний возраст Стаса, точная дата не указана.
+**Дополнительные референсы:** [Анатолий](projects/raznoe/references/scenes/scene-6/S6-Anatoly.webp) · [Стахий: 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Дедушка Анатолий; ранний возраст Стахия, точная дата не указана.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
@@ -6657,11 +6659,11 @@ REFERENCES / LOCATION AUTHORITY:
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
 WORKING REFERENCES (for review; not numbered inputs): S6-Anatoly: projects/raznoe/references/scenes/scene-6/S6-Anatoly.webp; S6-Stas-ages: projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp.
-Дедушка Анатолий; ранний возраст Стаса, точная дата не указана.
+Дедушка Анатолий; ранний возраст Стахия, точная дата не указана.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Анатолий — дедушка, отец Надежды; маленький Стас — точка наблюдения. Взрослые родственники реагируют за пределами главного плана. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Анатолий — дедушка, отец Надежды; маленький Стахий — точка наблюдения. Взрослые родственники реагируют за пределами главного плана. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Квартира 1990-х, обычный дневной свет, кресло и стол с коричневой крафтовой бумагой. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
@@ -6706,7 +6708,7 @@ WORKING REFERENCES (for review; not numbered inputs): S6-Arkady: projects/raznoe
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Аркадий — отец Стаса, взрослый рабочий; в этой сцене он ещё способен трудиться и не выглядит при смерти. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Аркадий — отец Стахия, взрослый рабочий; в этой сцене он ещё способен трудиться и не выглядит при смерти. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Завод АЗЛК 1990-х, токарный станок, металлическая стружка, практический цеховой свет. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
@@ -6736,7 +6738,7 @@ NEGATIVE / FRAME FILL:
 
 **Локации:** [Общая комната квартиры](projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png) · [Кухня вечером](projects/raznoe/references/scenes/scene-6/S6-LOC03-kitchen.png) · [Ванная](projects/raznoe/references/scenes/scene-6/S6-LOC04-bathroom.png) · [Спальня ночью](projects/raznoe/references/scenes/scene-6/S6-LOC05-bedroom.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стас (Стахий): 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Ранний возраст Стаса: предварительно левая колонка.
+**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Ранний возраст Стахия: предварительно левая колонка.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
@@ -6750,11 +6752,11 @@ REFERENCES / LOCATION AUTHORITY:
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
 WORKING REFERENCES (for review; not numbered inputs): S6-Arkady: projects/raznoe/references/scenes/scene-6/S6-Arkady.webp; S6-Nadezhda: projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp; S6-Stas-ages: projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp.
-Ранний возраст Стаса: предварительно левая колонка.
+Ранний возраст Стахия: предварительно левая колонка.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Аркадий — отец Стаса, усталый и тревожный; Надежда — его жена; маленький Стас спит в кроватке. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Аркадий — отец Стахия, усталый и тревожный; Надежда — его жена; маленький Стахий спит в кроватке. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Квартира вечером и ночью, кухня, ванная и спальня; скромный бытовой свет 1990-х. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
@@ -6766,7 +6768,7 @@ STORY FLOW:
 Отец улыбается сыну; короткая перебивка ужина рядом с Надеждой; электробритва, кашель; завершить переходом к спальне. Не показывать кровь как неподтверждённый факт.
 
 END STATE:
-Ночная спальня, родители рядом, Стас спит в кроватке.
+Ночная спальня, родители рядом, Стахий спит в кроватке.
 
 CAMERA / CONTINUITY:
 Устойчивая камера, средний план и мотивированные крупные перебивки только для описанного здесь действия. Сохранять ось, передачу предметов и контакт рук. Смена помещения только явной монтажной склейкой, не телепортацией. No forced frozen tableau merely to fill the render limit.
@@ -6784,7 +6786,7 @@ NEGATIVE / FRAME FILL:
 
 **Локации:** [Спальня ночью](projects/raznoe/references/scenes/scene-6/S6-LOC05-bedroom.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стас (Стахий): 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Ранний возраст Стаса: предварительно левая колонка.
+**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Ранний возраст Стахия: предварительно левая колонка.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
@@ -6795,23 +6797,23 @@ REFERENCES / LOCATION AUTHORITY:
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
 WORKING REFERENCES (for review; not numbered inputs): S6-Arkady: projects/raznoe/references/scenes/scene-6/S6-Arkady.webp; S6-Nadezhda: projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp; S6-Stas-ages: projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp.
-Ранний возраст Стаса: предварительно левая колонка.
+Ранний возраст Стахия: предварительно левая колонка.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Аркадий — отец Стаса, усталый и тревожный; Надежда — его жена; маленький Стас спит в кроватке. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Аркадий — отец Стахия, усталый и тревожный; Надежда — его жена; маленький Стахий спит в кроватке. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Квартира вечером и ночью, кухня, ванная и спальня; скромный бытовой свет 1990-х. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
 
 START STATE:
-Аркадий и Надежда лежат рядом; Стас спит в кроватке.
+Аркадий и Надежда лежат рядом; Стахий спит в кроватке.
 
 STORY FLOW:
 Сдержанная тревога родителей: отец думает и смотрит на жену, она внимательно слушает; кадр уходит к спящему ребёнку. Это немая визуальная заготовка для отдельно согласованной длительности речи, не ускоренный пересказ разговора.
 
 END STATE:
-В фокусе спящий Стас, взрослые остаются рядом.
+В фокусе спящий Стахий, взрослые остаются рядом.
 
 CAMERA / CONTINUITY:
 Устойчивая камера, средний план и мотивированные крупные перебивки только для описанного здесь действия. Сохранять ось, передачу предметов и контакт рук. Смена помещения только явной монтажной склейкой, не телепортацией. No forced frozen tableau merely to fill the render limit.
@@ -6829,7 +6831,7 @@ NEGATIVE / FRAME FILL:
 
 **Локации:** [Больничный коридор](projects/raznoe/references/scenes/scene-6/S6-LOC08-hospital-corridor.png) · [Больничная палата](projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стас (Стахий): 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Стасу почти два года: средняя колонка.
+**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Стахию почти два года: средняя колонка.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
@@ -6841,17 +6843,17 @@ REFERENCES / LOCATION AUTHORITY:
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
 WORKING REFERENCES (for review; not numbered inputs): S6-Arkady: projects/raznoe/references/scenes/scene-6/S6-Arkady.webp; S6-Nadezhda: projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp; S6-Stas-ages: projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp.
-Стасу почти два года: средняя колонка.
+Стахию почти два года: средняя колонка.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Надежда — мать; Стас почти двухлетний в начале больничного года; Аркадий — отец в палате. Возраст ребёнка меняется только между согласованными временными эпизодами, не внутри кадра. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Надежда — мать; Стахий почти двухлетний в начале больничного года; Аркадий — отец в палате. Возраст ребёнка меняется только между согласованными временными эпизодами, не внутри кадра. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Больничный коридор и палата 1990-х, холодноватый дневной свет, сдержанный медицинский быт. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
 
 START STATE:
-Надежда ведёт почти двухлетнего Стаса за руку в больницу.
+Надежда ведёт почти двухлетнего Стахия за руку в больницу.
 
 STORY FLOW:
 Пройти по коридору, войти к Аркадию; затем отдельные монтажные планы палаты, персонала, календаря, закрытых дверей операционного блока и короткого облегчения.
@@ -6875,7 +6877,7 @@ NEGATIVE / FRAME FILL:
 
 **Локации:** [Больничная палата](projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стас (Стахий): 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Стасу почти два года: средняя колонка.
+**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Стахию почти два года: средняя колонка.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
@@ -6886,11 +6888,11 @@ REFERENCES / LOCATION AUTHORITY:
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
 WORKING REFERENCES (for review; not numbered inputs): S6-Arkady: projects/raznoe/references/scenes/scene-6/S6-Arkady.webp; S6-Nadezhda: projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp; S6-Stas-ages: projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp.
-Стасу почти два года: средняя колонка.
+Стахию почти два года: средняя колонка.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Надежда — мать; Стас почти двухлетний в начале больничного года; Аркадий — отец в палате. Возраст ребёнка меняется только между согласованными временными эпизодами, не внутри кадра. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Надежда — мать; Стахий почти двухлетний в начале больничного года; Аркадий — отец в палате. Возраст ребёнка меняется только между согласованными временными эпизодами, не внутри кадра. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Больничный коридор и палата 1990-х, холодноватый дневной свет, сдержанный медицинский быт. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
@@ -6920,7 +6922,7 @@ NEGATIVE / FRAME FILL:
 
 **Локации:** [Больничная палата](projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стас (Стахий): 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Для «Зенита» правая колонка Стаса пока ориентир; точный возраст надо уточнить.
+**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Для «Зенита» правая колонка Стахия пока ориентир; точный возраст надо уточнить.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
@@ -6931,11 +6933,11 @@ REFERENCES / LOCATION AUTHORITY:
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
 WORKING REFERENCES (for review; not numbered inputs): S6-Arkady: projects/raznoe/references/scenes/scene-6/S6-Arkady.webp; S6-Nadezhda: projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp; S6-Stas-ages: projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp.
-Для «Зенита» правая колонка Стаса пока ориентир; точный возраст надо уточнить.
+Для «Зенита» правая колонка Стахия пока ориентир; точный возраст надо уточнить.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Стас — маленький сын, Аркадий — ослабленный отец, Надежда — мать и жена. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Стахий — маленький сын, Аркадий — ослабленный отец, Надежда — мать и жена. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Больничная палата 1990-х, мягкий свет из окна; новый плёночный «Зенит» с электронной подсказкой экспозиции в коробке. Точный индекс модели не назначен. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
@@ -6944,7 +6946,7 @@ START STATE:
 Мать и сын у кровати Аркадия; коробка с фотоаппаратом у Надежды.
 
 STORY FLOW:
-Стас бережно обнимает ослабленного отца; тот слабо улыбается. Мама начинает доставать коробку, не перебивая ребёнка.
+Стахий бережно обнимает ослабленного отца; тот слабо улыбается. Мама начинает доставать коробку, не перебивая ребёнка.
 
 END STATE:
 Ребёнок закончил реплику, Надежда готова показать подарок.
@@ -6965,7 +6967,7 @@ NEGATIVE / FRAME FILL:
 
 **Локации:** [Больничная палата](projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стас (Стахий): 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Для «Зенита» правая колонка Стаса пока ориентир; точный возраст надо уточнить.
+**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Для «Зенита» правая колонка Стахия пока ориентир; точный возраст надо уточнить.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
@@ -6976,11 +6978,11 @@ REFERENCES / LOCATION AUTHORITY:
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
 WORKING REFERENCES (for review; not numbered inputs): S6-Arkady: projects/raznoe/references/scenes/scene-6/S6-Arkady.webp; S6-Nadezhda: projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp; S6-Stas-ages: projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp.
-Для «Зенита» правая колонка Стаса пока ориентир; точный возраст надо уточнить.
+Для «Зенита» правая колонка Стахия пока ориентир; точный возраст надо уточнить.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Стас — маленький сын, Аркадий — ослабленный отец, Надежда — мать и жена. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Стахий — маленький сын, Аркадий — ослабленный отец, Надежда — мать и жена. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Больничная палата 1990-х, мягкий свет из окна; новый плёночный «Зенит» с электронной подсказкой экспозиции в коробке. Точный индекс модели не назначен. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
@@ -7010,7 +7012,7 @@ NEGATIVE / FRAME FILL:
 
 **Локации:** [Кладбище, дальний план](projects/raznoe/references/scenes/scene-6/S6-LOC10-cemetery.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стас (Стахий): 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Стасу три года: правая колонка.
+**Дополнительные референсы:** [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Стахию три года: правая колонка.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
@@ -7021,17 +7023,17 @@ REFERENCES / LOCATION AUTHORITY:
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
 WORKING REFERENCES (for review; not numbered inputs): S6-Nadezhda: projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp; S6-Stas-ages: projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp.
-Стасу три года: правая колонка.
+Стахию три года: правая колонка.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Надежда — мать; Стасу три года согласно финальной реплике. Остальные присутствующие остаются неузнаваемыми дальними фигурами. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Надежда — мать; Стахию три года согласно финальной реплике. Остальные присутствующие остаются неузнаваемыми дальними фигурами. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Похороны, сдержанный общий план без натуралистичных деталей, неброский естественный свет. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
 
 START STATE:
-После звукового обрыва затвора видны Надежда и маленький Стас рядом.
+После звукового обрыва затвора видны Надежда и маленький Стахий рядом.
 
 STORY FLOW:
 Они молча стоят среди собравшихся. Сохранить неподвижную паузу и человеческое дыхание, без постановочной истерики.
@@ -7055,7 +7057,7 @@ NEGATIVE / FRAME FILL:
 
 **Локации:** [Общая комната квартиры](projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стас (Стахий): 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Стасу три года: правая колонка. Фото Аркадия на полке — отдельный источник; 3D-лист не заменяет архивный портрет.
+**Дополнительные референсы:** [Аркадий](projects/raznoe/references/scenes/scene-6/S6-Arkady.webp) · [Надежда](projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp). Стахию три года: правая колонка. Фото Аркадия на полке — отдельный источник; 3D-лист не заменяет архивный портрет.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
@@ -7066,17 +7068,17 @@ REFERENCES / LOCATION AUTHORITY:
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
 WORKING REFERENCES (for review; not numbered inputs): S6-Arkady: projects/raznoe/references/scenes/scene-6/S6-Arkady.webp; S6-Nadezhda: projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp; S6-Stas-ages: projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp.
-Стасу три года: правая колонка. Фото Аркадия на полке — отдельный источник; 3D-лист не заменяет архивный портрет.
+Стахию три года: правая колонка. Фото Аркадия на полке — отдельный источник; 3D-лист не заменяет архивный портрет.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Надежда — мать; маленький Стас — ребёнок после смерти отца; фотография изображает Аркадия, а не другого мужчину. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Надежда — мать; маленький Стахий — ребёнок после смерти отца; фотография изображает Аркадия, а не другого мужчину. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Тихая квартира 1990-х, полка с фотографией Аркадия, естественный спокойный свет. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
 
 START STATE:
-Надежда держит тот самый «Зенит» у полки, Стас смотрит.
+Надежда держит тот самый «Зенит» у полки, Стахий смотрит.
 
 STORY FLOW:
 Она ставит аппарат рядом с фотографией Аркадия, отпускает его. Мальчик переводит взгляд с фотографии на фотоаппарат. Не даёт новой клятвы и не берёт камеру в руки: его будущая профессия ещё впереди.
@@ -7091,7 +7093,7 @@ AUDIO:
 Native audio off. Только изображение: не генерировать речь, музыку или случайный голос. Реплики записываются отдельно; не изображать активную несинхронную артикуляцию. Для будущего звучащего диалога использовать согласованный монтаж по слушающему персонажу/рукам или отдельно подготовленный lip-sync, не обещать его здесь.
 
 NEGATIVE / FRAME FILL:
-Нет выдуманной фотографии иного человека, второго фотоаппарата, текста поверх изображения и взрослого Стаса в комнате. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
+Нет выдуманной фотографии иного человека, второго фотоаппарата, текста поверх изображения и взрослого Стахия в комнате. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
 
 ```
 
@@ -7105,6 +7107,6 @@ NEGATIVE / FRAME FILL:
 
 - Хронометраж таблиц без разрывов: A01–A15 = B01–B10 = 188 с. B01=A01+A02; B02=A03; B03=A04+A05; B04=A06; B05=A07; B06=A08+A09; B07=A10+A11; B08=A12+A13; B09=A14; B10=A15.
 - Приоритет исходных реплик над жёсткой сеткой. Эпизод 06 содержит 50 слов диалога плюс несколько бытовых действий в 26 с: спокойная драматическая речь и паузы могут не поместиться. Сначала пробная озвучка; если не помещается, согласовать увеличение длительности/числа клипов либо сокращение текста. Текущие 15/10 — план по авторскому хронометражу, не гарантия производства.
-- В исходнике «почти двухлетний Стас» в начале больничного года и «Мне — три» в финале: это может быть переход возраста за год. Согласовать хронологию и отдельные возрастные образы, не менять цифры молча.
+- В исходнике «почти двухлетний Стахий» в начале больничного года и «Мне — три» в финале: это может быть переход возраста за год. Согласовать хронологию и отдельные возрастные образы, не менять цифры молча.
 - Ночной диалог, кровь при кашле и бытовые действия обозначены автором как художественная реконструкция. Не представлять их установленными фактами. Не выводить диагноз из операции и не объяснять болезнь заводской работой.
 - До создания узнаваемых лиц проверить согласие/права на исходные фото; до публикации готового фильма получить художественную и фактическую приёмку владельца. Эта запись не разрешает будущую рассылку, генерацию или платные действия.

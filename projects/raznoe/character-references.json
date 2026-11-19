@@ -848,14 +848,14 @@
     },
     {
       "id": "S6-Stas-ages",
-      "name": "Стас (Стахий): 1, 2 и 3 года",
+      "name": "Стахий: 1, 2 и 3 года",
       "aliases": [],
       "scenes": [
         6
       ],
       "model_sheet": {
         "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
-        "primary": "Стас (Стахий): 1, 2 и 3 года",
+        "primary": "Стахий: 1, 2 и 3 года",
         "additional": [],
         "public_image": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
         "full_image": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp"
@@ -875,7 +875,7 @@
       "reference_images": [
         {
           "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
-          "caption": "Стас (Стахий): 1, 2 и 3 года · черновик",
+          "caption": "Стахий: 1, 2 и 3 года · черновик",
           "sha256": "13403399c0a3e910fe38fd0d718424a15617956b80d9f64fe50b98ec4bf5d2ad",
           "scenes": [
             6
