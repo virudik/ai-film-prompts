@@ -1,12 +1,8 @@
 {
   "schema_version": 1,
-  "signature": [
-    "canon:project-handoff-size:projects/raznoe/HANDOFF.md|Разное: хендоф 12 КБ (цель до 12 КБ): контрольные точки — в projects/raznoe/reports/current-work-checkpoint.md, история — в projects/raznoe/archive/handoff-log.md."
-  ],
-  "sequence": 0,
+  "signature": [],
   "relay": {
-    "status": "sent",
-    "detail": "message_id=249143347720007680",
-    "at": "2026-11-19T12:06:41Z"
-  }
+    "status": "cleared"
+  },
+  "sequence": 0
 }
