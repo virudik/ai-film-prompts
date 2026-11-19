@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-19T00:34:31+00:00",
-  "source_head": "8499e39ca2e3295612c60dc3cf6c5aa4568f3306",
-  "source_fingerprint": "d2bce653cb3f87d27c3708f9ee53af13066d88944ea9c378a50673c84617f124",
+  "checked_at": "2026-11-19T00:36:35+00:00",
+  "source_head": "2741d13d3af359afb28ba010216948e152692da4",
+  "source_fingerprint": "3b03efd477afb4fab0ae29075c05258ce6e67dfffdfa10c05868287985d74f76",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -173,7 +173,7 @@
       },
       {
         "item_id": "S89F-WAN30-R2",
-        "state": "claimed",
+        "state": "submitting",
         "task_id": null,
         "recovery_action": "reconcile_without_resubmitting",
         "submit_authorized": false
@@ -640,8 +640,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "d1f9761bb7986df2bae14bc36970a64d6d0f2e3462d3fa603d3f01e3c0b0b1dc",
-      "bytes": 262548
+      "sha256": "f714c0a158bac57262bfc926689fa30f14d7e3d2ea0a672f62b9167ab526ab0c",
+      "bytes": 263967
     },
     {
       "file": "project-status.json",
