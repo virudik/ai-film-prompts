@@ -2,44 +2,19 @@
   "schema_version": 1,
   "generator": "continue-2.0",
   "project": "stikhiy",
-  "project_name": "Стихий",
-  "checked_at": "2026-11-19T21:40:56+00:00",
-  "source_head": "3ed49b0939c3e093a7a4eff58e4f64b1ac68d63c",
-  "source_fingerprint": "a0a0626684d4c19eedf835dbfa435bab7f0adbdd559770d95da11cc25260cee6",
-  "status": "ready",
-  "ready_for_resume": true,
+  "project_name": "Стахий",
+  "checked_at": "2026-11-19T21:42:14+00:00",
+  "source_head": "f3a025ab811247a03d78e5b14d9b51ede6277e81",
+  "source_fingerprint": "a8b7f4bf19e42d50abe75da42be089345e41983f4a4e20e08b007c8bd53bb76b",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [],
-  "selected_work": {
-    "work_id": "STIKHIY-SCENE1-20261118",
-    "title": "Стахий: сцена 1 и разбивка 15/30 секунд",
-    "status": "awaiting_editorial_review",
-    "last_completed": "Перенос пакета сцены: 25 промтов и 20 рабочих референсов, без запуска.",
-    "next_action": "Проверить с владельцем черновые референсы, уточнить роли Шуры и Юлии, затем проверить пробную озвучку ночного диалога и 188-секундный монтаж. До отдельного разрешения видео не запускать.",
-    "verified_at": "2026-11-19T21:24:24+00:00",
-    "blockers": [],
-    "evidence": [
-      {
-        "file": "projects/stikhiy/reports/stakhiy-scene-1-breakdown.json",
-        "sha256": "20dc86f2c9713da39d86b5cc2f1a18fdc6cb292dc006eaf3ecf3e44e9ec7aee1"
-      },
-      {
-        "file": "projects/stikhiy/references/scenes/scene-1/reference-bindings.json",
-        "sha256": "5303bef32030d48b20f8de0141b6df938aa950909e3c1c883e6bb33325691ecf"
-      }
-    ],
-    "read_next": [
-      "projects/stikhiy/INSTRUCTIONS.md",
-      "projects/stikhiy/reports/current-work-checkpoint.md"
-    ],
-    "checkpoint": {
-      "file": "projects/stikhiy/reports/current-work-checkpoint.md",
-      "anchor": "# 19.11.2026 — Стихий: перенос проекта и статус работы",
-      "sha256": "af90a813fb3da751e3ab1956e69936a89752aaceea253d4d05d4ec4e7e56f2b5"
-    }
-  },
-  "checkpoint_text": "# 19.11.2026 — Стихий: перенос проекта и статус работы\n\nwork_id: STIKHIY-SCENE1-20261118\n\nПроект выделен из «Разного» по прямому поручению владельца. Сцена 1 «Ради этого стоит жить»; имя героя — Стахий. Сохранены варианты 15×15 и 10×30, все 25 промтов, 10 локаций, 9 черновых листов внешности и реконструкция дачи. Нумерация исходных эпизодов и реплики не менялись. Шура и Юлия по-прежнему не распределены по ролям. Оригинальные семейные фотографии не опубликованы.\n\nСледующий шаг: Проверить с владельцем черновые референсы, уточнить роли Шуры и Юлии, затем проверить пробную озвучку ночного диалога и 188-секундный монтаж. До отдельного разрешения видео не запускать.\n",
+  "reasons": [
+    "selected checkpoint hash mismatch"
+  ],
+  "selected_work": null,
+  "checkpoint_text": "# 19.11.2026 — Стахий: перенос проекта и статус работы\n\nwork_id: STIKHIY-SCENE1-20261118\n\nПроект выделен из «Разного» по прямому поручению владельца. Сцена 1 «Ради этого стоит жить»; имя героя — Стахий. Сохранены варианты 15×15 и 10×30, все 25 промтов, 10 локаций, 9 черновых листов внешности и реконструкция дачи. Нумерация исходных эпизодов и реплики не менялись. Шура и Юлия по-прежнему не распределены по ролям. Оригинальные семейные фотографии не опубликованы.\n\nСледующий шаг: Проверить с владельцем черновые референсы, уточнить роли Шуры и Юлии, затем проверить пробную озвучку ночного диалога и 188-секундный монтаж. До отдельного разрешения видео не запускать.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -132,10 +107,7 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [
-    "projects/stikhiy/INSTRUCTIONS.md",
-    "projects/stikhiy/reports/current-work-checkpoint.md"
-  ],
+  "read_next": [],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -206,57 +178,47 @@
     },
     {
       "file": "projects/README.md",
-      "sha256": "7160b509443a21505d853dc52ac55170b47cd9e7c77e9b95805f7eff449fa677",
-      "bytes": 17391
+      "sha256": "247f5e551a74bfd1504200d802e188e24dd1f5dbc5515ac67f1be0b20f84c3c7",
+      "bytes": 17535
     },
     {
       "file": "projects/projects.json",
-      "sha256": "08a9d7ead72e94544e606077960b9be7b3013b68b8dc6efb99087268c4bee4db",
-      "bytes": 10339
+      "sha256": "9b76eb4fc5e85b5c5fe8fcf4773c673d2b771308ac3f5ac706507ca351132231",
+      "bytes": 10336
     },
     {
       "file": "projects/stikhiy/HANDOFF.md",
-      "sha256": "c0038b0f4b3bd772ab8ca5a17bbea89843d6a440aa2fea94d25a4df0130dbd2d",
+      "sha256": "69abf59aae24c073f5af7f4f291a5a82f959c8c56ab8c1543e9f85fbe53050f5",
       "bytes": 2648
     },
     {
       "file": "projects/stikhiy/INSTRUCTIONS.md",
-      "sha256": "8fc2fbd494995305243a8982da30afae5932aa18e4718cde9a18210cff2f040a",
-      "bytes": 2247
+      "sha256": "03a2b5f94a91cd6967218f0a61b4a725887098a22d014619f559e20dce255f76",
+      "bytes": 2199
     },
     {
       "file": "projects/stikhiy/ops/topview-launch-queue.json",
-      "sha256": "46a6f36a6e2848c34f507a8672161d339557411a56f836cd415a8996070c3659",
+      "sha256": "0c6e488a29d5178be2e83669c3046b9b72942d97aedb6bc1f0ccb3e0c3b7ed55",
       "bytes": 689
     },
     {
       "file": "projects/stikhiy/project-status.json",
-      "sha256": "a5218ac68528f1e82734ddcf7332e494f4315f9ef4cb1b482807e74e8bd52f40",
-      "bytes": 7877
-    },
-    {
-      "file": "projects/stikhiy/references/scenes/scene-1/reference-bindings.json",
-      "sha256": "5303bef32030d48b20f8de0141b6df938aa950909e3c1c883e6bb33325691ecf",
-      "bytes": 32605
+      "sha256": "719d9c1a6e797dd65fe3a51fe13de12bd303e54e7215d2422f663a98e0cf7355",
+      "bytes": 7881
     },
     {
       "file": "projects/stikhiy/reports/current-work-checkpoint.md",
-      "sha256": "af90a813fb3da751e3ab1956e69936a89752aaceea253d4d05d4ec4e7e56f2b5",
+      "sha256": "717a50adc168b4907150ebf7249d6c040c90a7176a27f665583caaabde1adf63",
       "bytes": 1167
     },
     {
-      "file": "projects/stikhiy/reports/stakhiy-scene-1-breakdown.json",
-      "sha256": "20dc86f2c9713da39d86b5cc2f1a18fdc6cb292dc006eaf3ecf3e44e9ec7aee1",
-      "bytes": 816
-    },
-    {
       "file": "projects/stikhiy/video-prompts.md",
-      "sha256": "defeede26c674695aeab1dbe709a871cc0d2ab7a5cf050ee6f0eceee2f29f9dd",
-      "bytes": 151121
+      "sha256": "09ae24599f98f6b015b439dba87f15af55e50d0c89a325240dcd40bf7078e7ab",
+      "bytes": 151118
     },
     {
       "file": "projects/stikhiy/work-resume-register.json",
-      "sha256": "9d6993d01276887d7914ab2aaf287e1309867b903251252263001db218de55aa",
+      "sha256": "3d262c30d58ff2299db5a2583c49d75af3d61d73c91852d73e5efaff5f28d02b",
       "bytes": 3917
     },
     {
@@ -275,5 +237,5 @@
       "bytes": 1999796
     }
   ],
-  "packet_bytes": 5610
+  "packet_bytes": 5009
 }

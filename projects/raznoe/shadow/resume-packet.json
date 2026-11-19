@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-19T21:40:56+00:00",
-  "source_head": "3ed49b0939c3e093a7a4eff58e4f64b1ac68d63c",
-  "source_fingerprint": "501c35ecfaf819d981c9dd14737d6efd53bc2fae647c2b9d94781d7667387bbd",
+  "checked_at": "2026-11-19T21:42:14+00:00",
+  "source_head": "f3a025ab811247a03d78e5b14d9b51ede6277e81",
+  "source_fingerprint": "e78cccba335070c474f1ef30f816355a04d8f25a0774c964af8ecd540651a5e8",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -199,22 +199,22 @@
     },
     {
       "file": "projects/README.md",
-      "sha256": "7160b509443a21505d853dc52ac55170b47cd9e7c77e9b95805f7eff449fa677",
-      "bytes": 17391
+      "sha256": "247f5e551a74bfd1504200d802e188e24dd1f5dbc5515ac67f1be0b20f84c3c7",
+      "bytes": 17535
     },
     {
       "file": "projects/projects.json",
-      "sha256": "08a9d7ead72e94544e606077960b9be7b3013b68b8dc6efb99087268c4bee4db",
-      "bytes": 10339
+      "sha256": "9b76eb4fc5e85b5c5fe8fcf4773c673d2b771308ac3f5ac706507ca351132231",
+      "bytes": 10336
     },
     {
       "file": "projects/raznoe/HANDOFF.md",
-      "sha256": "9c1e4094e597e0406d330766807bfd881c4b46466975cb5b05c1d83e014dfb2a",
+      "sha256": "b1c2726fb9567a345e3c30c3d3be782e1574c56681f57f3d618e281a9101ad17",
       "bytes": 11724
     },
     {
       "file": "projects/raznoe/INSTRUCTIONS.md",
-      "sha256": "554375b13279212a69a3e442b7d64610b52732d1d8c90687f5ca4c5f2ee327a1",
+      "sha256": "2d8c692daeb01b2869a117b49ee3782530160422c0d2ce48234450668fdd4f05",
       "bytes": 4030
     },
     {
@@ -224,12 +224,12 @@
     },
     {
       "file": "projects/raznoe/project-status.json",
-      "sha256": "9891b9e171a28efe529ad823c208f5f7bacd8ce8f99b1bd566a8057183544343",
-      "bytes": 10739
+      "sha256": "62533b5db8d0f4051f2ebd922aa1b31056790b61f91a52a8c84f2ddee01584e1",
+      "bytes": 10743
     },
     {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
-      "sha256": "8347d7a8022feff9e9c658c44d5d5808884b7ee8608f30a4af484cd57d5c5f0c",
+      "sha256": "c5f4fb140d393f724b1d43e74f4ae8a8b43b1fa85bf18ec615f830fdb0321c59",
       "bytes": 10058
     },
     {
@@ -239,7 +239,7 @@
     },
     {
       "file": "projects/raznoe/video-prompts.md",
-      "sha256": "6d4bd0477ab62c24f5d91a0f996c4e674f79aba74a98d199c02e65e43c10404e",
+      "sha256": "b817c4cf5035e6e607ba5e62a8b812059e2f95ef47fabb27ac0335ef03db60aa",
       "bytes": 722344
     },
     {
