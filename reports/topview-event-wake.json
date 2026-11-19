@@ -2348,11 +2348,13 @@
       "run_id_unavailable_reason": "not exposed",
       "execution_instance_id": "291fb5d7-580a-4feb-8c3e-4fbd7ee2727a",
       "route_generation": 7,
-      "outcome": "started",
-      "retryable": true,
+      "outcome": "submitted",
+      "retryable": false,
       "item_id": "S28-A2-R2-20261025",
-      "task_ids": [],
-      "new_submissions": 0,
+      "task_ids": [
+        "55dadcb20d2b48a09d1b2b6b4ba0d9ea"
+      ],
+      "new_submissions": 1,
       "credits_spent": 0,
       "owner_command": {
         "host_address": "t746s3893 answer",
@@ -2360,13 +2362,18 @@
         "quote": "Да, запускай S28-A2-R2",
         "scope": "this item only"
       },
-      "checked_at": "2026-11-19T21:34:54Z",
+      "checked_at": "2026-11-19T21:40:46Z",
       "execution": {
-        "state": "started",
-        "stage": "intake",
+        "state": "completed",
+        "stage": "submitted",
         "started_at": "2026-11-19T21:34:54Z",
-        "updated_at": "2026-11-19T21:34:54Z"
-      }
+        "updated_at": "2026-11-19T21:40:46Z",
+        "completed_at": "2026-11-19T21:40:46Z"
+      },
+      "receipt": "reports/topview-queue-2026-10-16/S28-A2-R2-20261025-20261119T213923Z.json",
+      "claim_id": "3fe88f12-930a-4123-93ea-0c45c866b8f2",
+      "submission_intent_id": "b8630301-69a4-4c96-b7cc-1b97ad72996c",
+      "create_click_count": 1
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",

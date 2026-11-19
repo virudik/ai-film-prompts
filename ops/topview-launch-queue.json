@@ -2209,7 +2209,7 @@
       "canonical_prompt_sha256": "f9b7c8b25cdd8cbf0794a6477b75d8e3933ded1c310e64835f3ff5c7f8345286",
       "normalized_prompt_sha256": "c954e5d931b776add7de7bf1916a6a12c621cff30edb5d8b7cbcc19ebb95726d",
       "priority": 0.309,
-      "state": "submitting",
+      "state": "submitted",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -2262,7 +2262,7 @@
       "result_review_required": true,
       "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
       "editorial_completion": false,
-      "task_id": null,
+      "task_id": "55dadcb20d2b48a09d1b2b6b4ba0d9ea",
       "claim": {
         "claim_id": "3fe88f12-930a-4123-93ea-0c45c866b8f2",
         "execution_instance_id": "291fb5d7-580a-4feb-8c3e-4fbd7ee2727a",
@@ -2370,7 +2370,16 @@
         "quote": "Порядок очереди запуска: 1) S48-P4-R2; 2) совет джедаев на балконе S89A–S89E и голограммы S89F–S89G; 3) оставшиеся танцы сцены 28; 4) остальные разговорные S89H–S89J. Это согласие запускать танцы 28 в этом месте очереди.",
         "scope": "remaining scene 28 dances listed in owner_policy_20261113_t601u only",
         "not_consent_for_other_music": true
-      }
+      },
+      "submitted_at": "2026-11-19T21:39:23Z",
+      "topview_status": "init",
+      "create_click_count": 1,
+      "max_new_submissions_consumed": 1,
+      "creditsCost": 0,
+      "receipt": "reports/topview-queue-2026-10-16/S28-A2-R2-20261025-20261119T213923Z.json",
+      "replay_forbidden": true,
+      "no_second_create": true,
+      "normalized_prompt_match": true
     },
     {
       "id": "S51G",
