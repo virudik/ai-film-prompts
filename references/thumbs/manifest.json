@@ -2653,6 +2653,16 @@
    "thumb_bytes": 54284,
    "src_sha256": "1ee57fe0bc7677cb1757bdeaa96d29b2aa9c27076075d1fe116ca4bb6cdc90ca"
   },
+  "projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2.webp": {
+   "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2.webp.webp",
+   "width": 640,
+   "height": 320,
+   "src_width": 1536,
+   "src_height": 768,
+   "src_bytes": 142400,
+   "thumb_bytes": 15600,
+   "src_sha256": "349a4589d24ef2a1cdce703c28e274aaf015ddda89cf1d48a03b5fb15c3cff19"
+  },
   "projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp": {
    "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp.webp",
    "width": 640,
@@ -2662,6 +2672,16 @@
    "src_bytes": 103420,
    "thumb_bytes": 21824,
    "src_sha256": "57b61e7362cf72db9bb6a9cf7e98ce44232a21670de0031ca8a7703533cf1692"
+  },
+  "projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp": {
+   "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp.webp",
+   "width": 640,
+   "height": 427,
+   "src_width": 1536,
+   "src_height": 1024,
+   "src_bytes": 144064,
+   "thumb_bytes": 16160,
+   "src_sha256": "751092a5f51e3c8343a6aee125b0328300b35e3d8bb6d5e718b5bd65c295fe2d"
   },
   "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp": {
    "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp.webp",
@@ -2682,6 +2702,16 @@
    "src_bytes": 287064,
    "thumb_bytes": 140280,
    "src_sha256": "fd1948581c2cec9dff974d6708683194096c76c1e22a940095977b9b5a88a96e"
+  },
+  "projects/stikhiy/references/scenes/scene-1/S6-Julia-Head-V2.webp": {
+   "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-Julia-Head-V2.webp.webp",
+   "width": 640,
+   "height": 427,
+   "src_width": 1536,
+   "src_height": 1024,
+   "src_bytes": 131348,
+   "thumb_bytes": 18432,
+   "src_sha256": "229a862e63db7bcdd7cf8bc76f3e1bf0c9f3942f0b1584af99b15667f4f9eca3"
   },
   "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.png": {
    "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.png.webp",
@@ -2783,6 +2813,16 @@
    "thumb_bytes": 230674,
    "src_sha256": "1845c13ab4da5f1bf0f8df9979c361877f22b7e5499b0b024946c6f45da72eb7"
   },
+  "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp": {
+   "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp.webp",
+   "width": 640,
+   "height": 427,
+   "src_width": 1536,
+   "src_height": 1024,
+   "src_bytes": 187108,
+   "thumb_bytes": 20182,
+   "src_sha256": "605e99dcd85c39f16b48bb0907cfaba69ddd9aa2a1fe471fa707cbd43f81debd"
+  },
   "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp": {
    "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp.webp",
    "width": 640,
@@ -2792,6 +2832,16 @@
    "src_bytes": 74038,
    "thumb_bytes": 17998,
    "src_sha256": "ecb8e3889da18219df7cff1a257745d72fcee325bd72e78221aff01d353661f4"
+  },
+  "projects/stikhiy/references/scenes/scene-1/S6-Nina-Head-V2.webp": {
+   "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-Nina-Head-V2.webp.webp",
+   "width": 640,
+   "height": 320,
+   "src_width": 1536,
+   "src_height": 768,
+   "src_bytes": 140216,
+   "thumb_bytes": 16446,
+   "src_sha256": "df7a713b2097a6f4edf67bc6137b8492162e92ea6318c38485b6620fabe468b0"
   },
   "projects/stikhiy/references/scenes/scene-1/S6-Nina.webp": {
    "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-Nina.webp.webp",
@@ -2803,6 +2853,16 @@
    "thumb_bytes": 18230,
    "src_sha256": "0a5b09a1fae4bb9fe4aff349a59e08f4505a81f627816f79828de175225b2fa5"
   },
+  "projects/stikhiy/references/scenes/scene-1/S6-Petr-Head-V2.webp": {
+   "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-Petr-Head-V2.webp.webp",
+   "width": 640,
+   "height": 427,
+   "src_width": 1536,
+   "src_height": 1024,
+   "src_bytes": 206658,
+   "thumb_bytes": 22126,
+   "src_sha256": "4a8749e7b81a5f499447d460f361120b0fbd93336304fd921f4e29c5d8f705fa"
+  },
   "projects/stikhiy/references/scenes/scene-1/S6-Petr.webp": {
    "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-Petr.webp.webp",
    "width": 640,
@@ -2812,6 +2872,16 @@
    "src_bytes": 83532,
    "thumb_bytes": 18362,
    "src_sha256": "15c315d10db462c88fce87fcc4cd63b520a6efc2b8a7c9a0d88bb981b2ee3ec9"
+  },
+  "projects/stikhiy/references/scenes/scene-1/S6-Shura-Head-V2.webp": {
+   "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-Shura-Head-V2.webp.webp",
+   "width": 640,
+   "height": 427,
+   "src_width": 1536,
+   "src_height": 1024,
+   "src_bytes": 219282,
+   "thumb_bytes": 25090,
+   "src_sha256": "ad15ca87c37f6ad7a33ed0084938a1bb865480ed01feffcdf1e0353a225b1ed7"
   },
   "projects/stikhiy/references/scenes/scene-1/S6-Shura.webp": {
    "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-Shura.webp.webp",
@@ -2823,6 +2893,36 @@
    "thumb_bytes": 18750,
    "src_sha256": "fe4f5a31662abc87093ecd9342e69b15987dbb58059f34975d04090f2ac19972"
   },
+  "projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp": {
+   "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp.webp",
+   "width": 640,
+   "height": 427,
+   "src_width": 1536,
+   "src_height": 1024,
+   "src_bytes": 203484,
+   "thumb_bytes": 23770,
+   "src_sha256": "6c6c3c379444bcf95d4ad5969685c4124ae45d1189199af19c58ed5853023511"
+  },
+  "projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp": {
+   "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp.webp",
+   "width": 640,
+   "height": 427,
+   "src_width": 1536,
+   "src_height": 1024,
+   "src_bytes": 220010,
+   "thumb_bytes": 29620,
+   "src_sha256": "7ba78814eacf9914200c1de2da69920c4b0363cefb9e1a05a788eb5984b40722"
+  },
+  "projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp": {
+   "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp.webp",
+   "width": 640,
+   "height": 427,
+   "src_width": 1536,
+   "src_height": 1024,
+   "src_bytes": 154540,
+   "thumb_bytes": 20244,
+   "src_sha256": "551b02331509554ba23e0d0c0c60742d44bb7f6a2e5cbc62473e3853fb3e5fd5"
+  },
   "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp": {
    "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp.webp",
    "width": 640,
@@ -2832,6 +2932,16 @@
    "src_bytes": 77994,
    "thumb_bytes": 17454,
    "src_sha256": "13403399c0a3e910fe38fd0d718424a15617956b80d9f64fe50b98ec4bf5d2ad"
+  },
+  "projects/stikhiy/references/scenes/scene-1/S6-Vladimir-Head-V2.webp": {
+   "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-Vladimir-Head-V2.webp.webp",
+   "width": 640,
+   "height": 320,
+   "src_width": 1536,
+   "src_height": 768,
+   "src_bytes": 89156,
+   "thumb_bytes": 11794,
+   "src_sha256": "dda42e6d61565f6c71d744627555f7193dfa992285b6a0228093b3e1e6032666"
   },
   "references/full/artem.jpg": {
    "thumb": "references/thumbs/full/artem.jpg.webp",
