@@ -32,7 +32,7 @@
   "receipt_path": "reports/topview-slot-backup-cycle.json",
   "takeover_condition": "Current authorized ready work and verified free global capacity, no valid competing lease. Both peers act independently; preferred role and prior success never reserve a free slot. Reconcile claims/unknown first.",
   "ownership": {
-    "holder_template": "chatgpt:<ordinary|work>:<execution-instance-uuid> or grok:<execution-instance-uuid> (Grok Bot helper)",
+    "holder_template": "chatgpt:<ordinary|work>:<execution-instance-uuid> or grok:<execution-instance-uuid> (Grok Bot helper) or minimax:<execution-instance-uuid> (Minimax helper with its own transport and runtime run ID)",
     "runtime_run_id": "Use the actual platform run ID when exposed; otherwise null plus reason. A locally generated execution_instance_id is not a runtime run ID.",
     "before_each_write_and_create": "Fresh-read registry and lock. Scheduled caller must be allowed by peers.<surface>.automation_ids; active_automation_id is the ordinary scheduled executor pointer, not a requirement that Work IDs equal the ordinary ID. Interactive caller must match foreground_owners.<surface>.session_id/epoch. Require unchanged route_generation, exact holder/acquired_at, unexpired lease and own item claim. A held generic chatgpt lock is foreign. Any mismatch stops the write/Create.",
     "expired_lease": "Reacquire only when allowed; expiry never clears a claim or proves that Create did not happen.",
@@ -225,6 +225,40 @@
           57
         ]
       }
+    },
+    "minimax": {
+      "enabled": true,
+      "enabled_note": "Enabled as a READ-ONLY peer by the owner decision of 19.11.2026 (role=read-only). It reads the canon, the queue, the reports and the owner tasks, and answers the owner in Slack. It may never claim an item, take a lease, prepare an intent, Create, retry or spend credits. The launcher path stays closed: minimax_launcher.enabled remains false, so scripts/launcher_coordination.py answers minimax_launcher_disabled for any attempt to launch.",
+      "role": "read_only",
+      "automation_ids": [],
+      "receipt": "reports/slack-events.json",
+      "handoff_to_work_allowed": false,
+      "transport": [
+        "interactive_chat",
+        "slack"
+      ],
+      "runtime_run_id": null,
+      "runtime_run_id_unavailable_reason": "Not exposed by the current Minimax runtime. A locally generated execution_instance_id is not a runtime run ID and is rejected by scripts/launcher_coordination.py.",
+      "command_sources": [
+        "slack"
+      ],
+      "slack_app_id": "A0CK6QV1VGU",
+      "slack_channel_id": "C0CBQT4H50E",
+      "slack_channel_name": "all-vint",
+      "slack_transport_note": "The Minimax bot is installed in the workspace Vint and invited to #all-vint with read and write scopes (owner decision 19.11.2026). The transport module is scripts/slack_transport.py. The command path is closed until the owner grants it, see minimax_launcher.owner_command_launch.",
+      "forbidden": [
+        "claim",
+        "lease",
+        "intent",
+        "create",
+        "retry",
+        "cancel",
+        "queue_edit",
+        "budget_spend",
+        "site_submit",
+        "ledger_row"
+      ],
+      "launcher_receipt_reserved": "reports/topview-minimax-cycle.json"
     }
   },
   "foreground_owners": {
@@ -874,6 +908,108 @@
       ]
     }
   },
+  "minimax_launcher": {
+    "owner_request_id": "owner-20261118-minimax-peer-registration",
+    "recorded_at": "2026-11-18T20:45:00Z",
+    "recorded_at_local": "18.11.2026 23:45 Europe/Moscow",
+    "authorization_source": "Owner request on 18.11.2026: prepare the Minimax peer as a reviewable patch. Registration only; no launch permission yet.",
+    "role": "helper",
+    "surface": "minimax",
+    "enabled": false,
+    "enabled_note": "The launcher path of the Minimax peer stays CLOSED: the owner decided on 19.11.2026 that this peer is read-only. Enabling minimax_launcher would need a separate owner decision and, in the same commit, the return of 'minimax' to run_ledger.required_surfaces and a real provider_run_id.",
+    "holder_format": "minimax:<execution-instance-uuid4>",
+    "transport": [
+      "interactive_chat",
+      "slack"
+    ],
+    "runtime_run_id": null,
+    "runtime_run_id_unavailable_reason": "Not exposed by the current Minimax runtime. A locally generated execution_instance_id is not a runtime run ID; the actor must carry a real platform run ID or the Create stays blocked.",
+    "scope": "Серёгиус, доска My First Board 1a6244cf1ae747ef847d949a80d6133c, Unlimited0 (720p, 16:9, quantity 1, видимая цена 0), готовые разрешённые пункты общей очереди по живому priority. Платный MCP/Canvas запрещён; другие проекты, «Роскосмос», пробы Стича и owner hold не запускать.",
+    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "board_name": "My First Board",
+    "unlimited_zero_only": true,
+    "slot_capacity": 6,
+    "max_submissions_per_wake": null,
+    "max_submissions_per_wake_unavailable_reason": "Not granted yet. A null cap keeps every Minimax Create blocked; the owner sets the real per-wake budget together with the launch permission.",
+    "first_real_create": {
+      "owner_go_ahead": false,
+      "owner_go_ahead_reason": "Not granted. The first real Minimax Create additionally needs an explicit owner go-ahead in chat, enforced by scripts/launcher_coordination.py.",
+      "accepted_at": null,
+      "reference": null
+    },
+    "retry_budget": {
+      "enabled": false,
+      "note": "Minimax has no retry budget of its own yet. A retry stays blocked until the owner grants one; it never reuses the Grok retry policy or its counters."
+    },
+    "wake_issue": null,
+    "wake_issue_note": "Minimax has no free-slot wake issue. The Grok wake-issue shortcut never applies to this surface.",
+    "delivery": {
+      "inbox": "ops/owner-tasks.json",
+      "addressed_to": "minimax",
+      "reader": "scripts/minimax_inbox.py",
+      "receipt": "reports/topview-minimax-cycle.json",
+      "ack_rule": "Every delivered task needs its own receipt with the protocol version and a verified refusal at a foreign lease/claim, without a real Create. No ACK without a recorded receipt."
+    },
+    "rules": [
+      "ops/LAUNCHER-COORDINATION.md",
+      "ops/CANON-LOCK.md",
+      "ops/TOPVIEW-FREE-LAUNCH.md",
+      "ops/TOPVIEW-RETRY.md"
+    ],
+    "owner_command_launch": {
+      "enabled": false,
+      "enabled_note": "Owner decision 19.11.2026: the Minimax Slack bot exists (app A0CK6QV1VGU, workspace Vint T0CBMHB1CS1, channel #all-vint C0CBQT4H50E, scopes read and write). Whether a Slack message counts as a direct owner command is a separate owner decision, so the command path stays closed until it is granted here.",
+      "owner_request_id": "owner-20261119-minimax-slack-transport",
+      "recorded_at": "2026-11-19T03:00:00Z",
+      "recorded_at_local": "19.11.2026 06:00 Europe/Moscow",
+      "owner_quote": "Бот minimax готов: приложение создано и установлено в Vint, в #all-vint его добавил. Права у него только читать канал и писать.",
+      "sources": [
+        "slack"
+      ],
+      "slack_app_id": "A0CK6QV1VGU",
+      "slack_workspace_id": "T0CBMHB1CS1",
+      "slack_channel_id": "C0CBQT4H50E",
+      "slack_channel_name": "all-vint",
+      "slack_owner_user_id": "U0CBWH0DXKN",
+      "slack_owner_user_id_source": "Confirmed live on 19.11.2026: users.info for U0CBWH0DXKN returned name=vitalikrudik, real_name=Виталик Рудик, is_bot=false. The id from the 23.10 archive was correct.",
+      "max_age_minutes": 60,
+      "required_in_actor": [
+        "owner_command.quote",
+        "owner_command.source",
+        "owner_command.at",
+        "owner_command.channel_id (must equal slack_channel_id)",
+        "owner_command.user_id (must equal slack_owner_user_id)",
+        "owner_command.message_id (Slack ts, used for dedupe)"
+      ],
+      "recorded_in_intent": "claim.trigger=owner_command and claim.owner_command{quote,source,at,channel_id,user_id,message_id}",
+      "guard": "scripts/slack_transport.py verifies the channel and the sender before it builds the actor; scripts/launcher_coordination.py check_minimax_owner_command repeats both checks against this policy.",
+      "unchanged_gates": "The lock, the lease, the claim, one intent, the readback, the board, Unlimited0 with credits 0, the per-run cap and ops/TOPVIEW-RETRY.md still apply. A Slack command does not cancel them and does not open first_real_create.",
+      "token_handling": "The bot token lives in the product secret store as SLACK_BOT_TOKEN and is never written to the repository, a report or a chat message. The owner pasted it into the chat on 19.11.2026; rotate it after the integration is proven and store the new value as a file attachment instead.",
+      "historical_note": "23.10.2026: the ChatGPT Slack subscription was refused with '@ChatGPT isn't in all-vint' although the Slack API confirmed the bot membership and the join in the channel history. The cause was never established. If the same error appears for Minimax, record it as a blocker and do not work around it.",
+      "slack_bot_user_id": "U0CJWT05HBM",
+      "slack_bot_display_name": "minimax",
+      "slack_bot_id": "B0CK51383LH",
+      "accept_unaddressed": false,
+      "addressing_rule": "A message counts as a command for this peer only when it mentions this bot (<@U0CJWT05HBM>). A message that names another bot belongs to that bot (outcome other_bot_addressed). A message without a mention is a general channel message (outcome channel_general) and is not a command while accept_unaddressed is false.",
+      "verified_at": "2026-11-19T04:05:00Z",
+      "verified": {
+        "auth_test": "bot user_id U0CJWT05HBM, bot_id B0CK51383LH, team Vint T0CBMHB1CS1 - the token belongs to the Minimax bot",
+        "bot_profile": "name=minimax, is_bot=true, deleted=false",
+        "owner_profile": "U0CBWH0DXKN vitalikrudik / Виталик Рудик, is_bot=false - the only human in the channel",
+        "channel": "C0CBQT4H50E #all-vint, bot is a member",
+        "channel_members": {
+          "U0CBWH0DXKN": "vitalikrudik (owner, human)",
+          "U0CBQTGARUN": "chatgpt (bot)",
+          "U0CDP52P6EB": "cursor (bot)",
+          "U0CJUKDTLJ2": "vitalikrudikdot / GPT Dot (bot)",
+          "U0CK2V6SJSE": "kimi (bot)",
+          "U0CKUJTSEQ0": "grok_bot / Grok (bot)",
+          "U0CJWT05HBM": "minimax (bot, this peer)"
+        },
+        "scope_note": "conversations.list returns missing_scope - the bot may read the channel it is in, not the workspace channel list. No wider access is needed."
+      }
+    }
+  },
   "run_ledger": {
     "schema_version": 1,
     "required_surfaces": [
@@ -881,6 +1017,92 @@
     ],
     "path": "ops/launcher-run-ledger.json",
     "owner_authorized_at": "2026-11-01T01:17:06Z",
-    "rule": "prepare_transaction returns queue+ledger; CAS-publish both, read back and verify_binding before each single click. One real provider run may hold up to slot_capacity distinct consumed submissions. Legacy one-item rows are not extended. Stable consumed keys have no TTL; no resetting failed/unknown/substantive refusal. A new provider_run_id does not raise the current wake cap. Provider authentication stays in the adapter."
+    "rule": "prepare_transaction returns queue+ledger; CAS-publish both, read back and verify_binding before each single click. One real provider run may hold up to slot_capacity distinct consumed submissions. Legacy one-item rows are not extended. Stable consumed keys have no TTL; no resetting failed/unknown/substantive refusal. A new provider_run_id does not raise the current wake cap. Provider authentication stays in the adapter.",
+    "required_surfaces_note": "minimax removed on 19.11.2026: the peer is read-only and records no submission attempts. It returns here in the same commit that would enable the launcher role."
+  },
+  "minimax_read_only": {
+    "enabled": true,
+    "role": "read_only",
+    "owner_request_id": "owner-20261119-minimax-read-only",
+    "recorded_at": "2026-11-19T04:30:00Z",
+    "recorded_at_local": "19.11.2026 07:30 Europe/Moscow",
+    "owner_quote": "1 да. 2 read-only. 3 read-only. 4 да",
+    "owner_decisions": {
+      "slack_command": "granted - a message in #all-vint that mentions this bot is a direct owner command",
+      "role": "read-only",
+      "runtime_run_id": "read-only, so no ledger row, no claim and no Create - the provider_run_id rule does not apply",
+      "publish": "the peer patch is published to main under the canon lock"
+    },
+    "transport": [
+      "interactive_chat",
+      "slack"
+    ],
+    "scope": [
+      "read_canon",
+      "read_queue",
+      "read_status",
+      "read_reports",
+      "read_owner_tasks",
+      "read_ledger",
+      "answer_owner_in_slack",
+      "write_slack_receipts"
+    ],
+    "forbidden": [
+      "claim",
+      "lease",
+      "intent",
+      "create",
+      "retry",
+      "cancel",
+      "queue_edit",
+      "budget_spend",
+      "site_submit",
+      "ledger_row"
+    ],
+    "owner_command": {
+      "enabled": true,
+      "sources": [
+        "slack"
+      ],
+      "require_mention": true,
+      "accept_unaddressed": false,
+      "slack_app_id": "A0CK6QV1VGU",
+      "slack_workspace_id": "T0CBMHB1CS1",
+      "slack_channel_id": "C0CBQT4H50E",
+      "slack_channel_name": "all-vint",
+      "slack_bot_user_id": "U0CJWT05HBM",
+      "slack_bot_display_name": "minimax",
+      "slack_owner_user_id": "U0CBWH0DXKN",
+      "slack_owner_display_name": "vitalikrudik",
+      "max_age_minutes": 60,
+      "allowed_actions": [
+        "answer",
+        "report_status",
+        "read_only_check"
+      ],
+      "note": "A command may only make this peer read and answer. It never authorizes a claim, a lease, an intent, a Create or a paid action. The first real Create and any paid generation remain a separate owner go-ahead.",
+      "verified_at": "2026-11-19T04:05:00Z",
+      "verified": {
+        "auth_test": "bot user_id U0CJWT05HBM, bot_id B0CK51383LH, team Vint T0CBMHB1CS1",
+        "bot_profile": "name=minimax, is_bot=true",
+        "owner_profile": "U0CBWH0DXKN vitalikrudik / Виталик Рудик, is_bot=false - the only human in the channel",
+        "channel": "C0CBQT4H50E #all-vint, the bot is a member",
+        "channel_members": {
+          "U0CBWH0DXKN": "vitalikrudik (owner, human)",
+          "U0CBQTGARUN": "chatgpt (bot)",
+          "U0CDP52P6EB": "cursor (bot)",
+          "U0CJUKDTLJ2": "vitalikrudikdot / GPT Dot (bot)",
+          "U0CK2V6SJSE": "kimi (bot)",
+          "U0CKUJTSEQ0": "grok_bot / Grok (bot)",
+          "U0CJWT05HBM": "minimax (bot, this peer)"
+        },
+        "scope_note": "conversations.list returns missing_scope - the bot reads the channel it is in, not the workspace channel list"
+      }
+    },
+    "runtime_run_id": null,
+    "runtime_run_id_note": "Not required for a read-only peer: no ledger row, no claim and no Create. The launcher path is closed, so the provider_run_id rule does not apply.",
+    "ledger_note": "minimax is not in run_ledger.required_surfaces: the ledger records real submission attempts, and a read-only peer makes none. If the owner ever grants the launcher role, 'minimax' returns to required_surfaces in that same commit.",
+    "max_submissions_per_wake": null,
+    "new_video_submissions": 0
   }
 }

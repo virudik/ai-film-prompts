@@ -21,8 +21,17 @@ LOCK = 'ops/canon-lock.json'
 QUEUE = 'ops/topview-launch-queue.json'
 # 'grok' = Grok Bot, a helper launcher (owner decision 01.11.2026, see ops/LAUNCHER-COORDINATION.md).
 # It launches either on its schedule (kind=scheduled) or on the owner's direct command (kind=owner_command).
-SURFACES = ('ordinary', 'work', 'grok')
+# 'minimax' = Minimax, a separate helper launcher with its own holder, transport, runtime run ID and budget.
+# It never inherits a Grok window, wake issue, standing owner command or lease. It starts disabled
+# and stays fail-closed until the owner grants its own policy (ops/slot-backup.json -> minimax_launcher).
+SURFACES = ('ordinary', 'work', 'grok', 'minimax')
 OWNER_COMMAND_SOURCES = ('grok_chat', 'telegram', 'cursor_host')
+# The Minimax peer never reuses the Grok command sources. Its own owner command
+# arrives through the Slack bot in the agreed channel (owner decision 19.11.2026:
+# the bot A0CK6QV1VGU is installed in the workspace Vint and invited to
+# #all-vint). The source is still blocked until the owner grants it, see
+# ops/slot-backup.json -> minimax_launcher.owner_command_launch.
+MINIMAX_OWNER_COMMAND_SOURCES = ('slack',)
 
 class Blocked(ValueError):
     pass
@@ -51,7 +60,36 @@ def instance(actor):
 def holder(actor):
     if actor.get('surface') == 'grok':
         return 'grok:' + instance(actor)
+    if actor.get('surface') == 'minimax':
+        return 'minimax:' + instance(actor)
     return 'chatgpt:' + actor['surface'] + ':' + instance(actor)
+
+
+def check_minimax_route(config, actor):
+    """The Minimax peer needs its own verified identity, transport and runtime run ID.
+
+    A locally generated execution_instance_id is not a runtime run ID. The peer stays
+    blocked until the owner enables its own minimax_launcher policy.
+    """
+    policy = config.get('minimax_launcher')
+    if not isinstance(policy, dict):
+        raise Blocked('minimax_launcher_policy_missing')
+    if policy.get('enabled') is not True:
+        raise Blocked('minimax_launcher_disabled')
+    transport = actor.get('transport')
+    allowed_transports = policy.get('transport')
+    if isinstance(allowed_transports, str):
+        allowed_transports = [allowed_transports]
+    if not isinstance(transport, str) or transport not in (allowed_transports or []):
+        raise Blocked('minimax_transport_mismatch')
+    run_id = actor.get('provider_run_id')
+    if not isinstance(run_id, str) or not run_id.strip():
+        raise Blocked('minimax_runtime_run_id_required')
+    if run_id.strip() == instance(actor):
+        raise Blocked('minimax_runtime_run_id_must_not_be_local_uuid')
+    if policy.get('unlimited_zero_only') is not True:
+        raise Blocked('minimax_unlimited_zero_only_required')
+    return True
 
 def check_route(config, actor, now=None):
     instance(actor)
@@ -63,14 +101,26 @@ def check_route(config, actor, now=None):
     peer = (config.get('peers') or {}).get(actor['surface']) or {}
     if peer.get('enabled') is not True:
         raise Blocked('peer_not_enabled')
+    if actor['surface'] == 'minimax' and actor.get('kind') != 'owner_read':
+        # The launcher path of the Minimax peer stays closed: check_minimax_route
+        # refuses it while minimax_launcher is disabled. A read-only command
+        # (kind=owner_read) does not go through the launcher at all.
+        check_minimax_route(config, actor)
     kind = actor.get('kind')
     if actor['surface'] == 'grok' and kind not in ('scheduled', 'owner_command'):
         # Grok Bot has no foreground-shift (interactive/takeover) path; only schedule or a recorded owner command.
         raise Blocked('grok_interactive_not_authorized')
-    if kind == 'owner_command':
-        if actor['surface'] != 'grok':
+    if kind == 'owner_read':
+        if actor['surface'] != 'minimax':
+            raise Blocked('owner_read_only_for_minimax')
+        check_minimax_read_only_route(config, actor, now or datetime.now(timezone.utc))
+    elif kind == 'owner_command':
+        if actor['surface'] == 'grok':
+            check_owner_command(config, actor, now or datetime.now(timezone.utc))
+        elif actor['surface'] == 'minimax':
+            check_minimax_owner_command(config, actor, now or datetime.now(timezone.utc))
+        else:
             raise Blocked('owner_command_only_for_grok')
-        check_owner_command(config, actor, now or datetime.now(timezone.utc))
     elif kind == 'scheduled':
         if actor.get('automation_id') not in peer.get('automation_ids', []):
             raise Blocked('retired_or_unregistered_automation')
@@ -171,6 +221,68 @@ def check_owner_command(config, actor, now):
     age = (now - at).total_seconds()
     if not 0 <= age <= max_age * 60:
         raise Blocked('owner_command_stale_or_future')
+    return True
+
+def check_minimax_owner_command(policy, actor, now):
+    """Minimax owner command: recorded quote, agreed channel, owner sender.
+
+    The Slack transport (scripts/slack_transport.py) verifies the channel, the
+    sender and the mention of this bot before it builds the actor. This guard
+    repeats those checks against the recorded policy, so a hand-made actor
+    cannot bypass them. The policy is passed in: the launcher path and the
+    read-only path keep their own owner_command blocks.
+    """
+    if not isinstance(policy, dict) or policy.get('enabled') is not True:
+        raise Blocked('minimax_owner_command_not_authorized')
+    command = actor.get('owner_command')
+    if not isinstance(command, dict):
+        raise Blocked('minimax_owner_command_record_required')
+    quote = command.get('quote')
+    if not isinstance(quote, str) or len(quote.strip()) < 2:
+        raise Blocked('minimax_owner_command_quote_required')
+    source = command.get('source')
+    allowed = policy.get('sources') or list(MINIMAX_OWNER_COMMAND_SOURCES)
+    if source not in MINIMAX_OWNER_COMMAND_SOURCES or source not in allowed:
+        raise Blocked('minimax_owner_command_source_not_allowed')
+    channel = str(policy.get('slack_channel_id') or '')
+    if not channel or str(command.get('channel_id')) != channel:
+        raise Blocked('minimax_owner_command_channel_mismatch')
+    owner = str(policy.get('slack_owner_user_id') or '')
+    if not owner or str(command.get('user_id')) != owner:
+        raise Blocked('minimax_owner_command_sender_mismatch')
+    if not str(command.get('message_id') or ''):
+        raise Blocked('minimax_owner_command_message_id_required')
+    at = ts(command.get('at'))
+    max_age = policy.get('max_age_minutes')
+    if not at or type(max_age) is not int or max_age < 1:
+        raise Blocked('minimax_owner_command_timestamp_required')
+    age = (now - at).total_seconds()
+    if not 0 <= age <= max_age * 60:
+        raise Blocked('minimax_owner_command_stale_or_future')
+    return True
+
+def check_minimax_read_only_route(config, actor, now):
+    """The Minimax peer is read-only (owner decision 19.11.2026).
+
+    It reads the canon and the queue and answers the owner in Slack. It never
+    claims an item, takes a lease, prepares an intent or Creates, so the
+    launcher path stays closed for it and the ledger needs no row.
+    """
+    policy = config.get('minimax_read_only')
+    if not isinstance(policy, dict):
+        raise Blocked('minimax_read_only_policy_missing')
+    if policy.get('enabled') is not True:
+        raise Blocked('minimax_read_only_disabled')
+    peer = (config.get('peers') or {}).get('minimax') or {}
+    if peer.get('role') != 'read_only':
+        raise Blocked('minimax_read_only_role_required')
+    transport = actor.get('transport')
+    allowed = policy.get('transport') or []
+    if isinstance(allowed, str):
+        allowed = [allowed]
+    if not isinstance(transport, str) or transport not in allowed:
+        raise Blocked('minimax_transport_mismatch')
+    check_minimax_owner_command(policy.get('owner_command') or {}, actor, now)
     return True
 
 def unlimited_zero_cost_accepted(preflight):
@@ -289,6 +401,42 @@ def check_grok_retry(config, item):
     if queue_readiness.substantive_refusal(item):
         raise Blocked('substantive_refusal_not_retried')
     return True
+
+def check_minimax_launch(config, item, actor, now, queue_board_id=None):
+    """Extra fail-closed limits for the Minimax peer (config['minimax_launcher']).
+
+    Minimax never inherits the Grok launch window, wake issue, standing owner command
+    or retry budget: it is a separate surface with its own owner-granted scope.
+    """
+    policy = config.get('minimax_launcher')
+    if not isinstance(policy, dict):
+        raise Blocked('minimax_launcher_policy_missing')
+    if policy.get('enabled') is not True:
+        raise Blocked('minimax_launcher_disabled')
+    if (policy.get('first_real_create') or {}).get('owner_go_ahead') is not True:
+        raise Blocked('minimax_first_real_create_pending_owner_go_ahead')
+    board = item.get('board_id')
+    if board in (None, ''):
+        board = queue_board_id
+    if (not policy.get('board_id') or board != policy['board_id'] or
+            (queue_board_id is not None and queue_board_id != board)):
+        raise Blocked('minimax_board_not_authorized')
+    if policy.get('unlimited_zero_only') is not True:
+        raise Blocked('minimax_unlimited_zero_only_required')
+    # A prior attempt or a retry counter means this is a retry. Minimax has no retry budget
+    # of its own yet and never inherits the Grok one, so a retry stays blocked.
+    if item.get('retry_control') is not None or item.get('submission_history'):
+        raise Blocked('minimax_retry_requires_own_owner_granted_budget')
+    limit = policy.get('max_submissions_per_wake')
+    capacity = policy.get('slot_capacity', run_ledger.ACCOUNT_SLOT_CAPACITY)
+    if (type(limit) is not int or type(capacity) is not int or
+            capacity != run_ledger.ACCOUNT_SLOT_CAPACITY or not 1 <= limit <= capacity):
+        raise Blocked('minimax_submission_limit_per_wake')
+    done = actor.get('submissions_this_wake', 0)
+    if type(done) is not int or done < 0 or done >= limit:
+        raise Blocked('minimax_submission_limit_per_wake')
+    return True
+
 
 def wake_selection(root, config, free_slots):
     """Ids this real wake may Create, in queue priority, capped by free slots and account capacity."""
@@ -411,6 +559,8 @@ def prepare_intent(config, lock, item, actor, scan, now, queue_board_id=None, le
         check_standing_scope(config, actor, item)
         if item.get('retry_control') is not None or item.get('submission_history'):
             check_grok_retry(config, item)
+    if actor['surface'] == 'minimax':
+        check_minimax_launch(config, item, actor, now, queue_board_id=queue_board_id)
     if item.get('state') != 'claimed':
         raise Blocked('not_a_fresh_owned_claim; reconcile_without_Create')
     claim = item.get('claim') or {}

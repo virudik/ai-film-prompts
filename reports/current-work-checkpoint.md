@@ -1,3 +1,51 @@
+## 19.11.2026 — peer minimax опубликован: роль read-only, команда из Slack разрешена
+
+Решение владельца 19.11.2026: «1 да. 2 read-only. 3 read-only. 4 да». Патч опубликован в `main` под замком канона `minimax:<uuid4>` отдельным CAS-коммитом, с readback.
+
+**Роль — read-only.** `peers.minimax.enabled = true`, `role = read_only`. Peer читает канон, очередь, статусы, отчёты и `ops/owner-tasks.json` и отвечает владельцу в Slack. Запрещено: `claim`, `lease`, `intent`, `create`, `retry`, `cancel`, `queue_edit`, `budget_spend`, `site_submit`, `ledger_row`. Путь launcher-а закрыт навсегда: `minimax_launcher.enabled = false` → `minimax_launcher_disabled`.
+
+**Runtime run ID больше не нужен.** Read-only peer не делает попыток отправки, не пишет строку журнала и не создаёт intent, поэтому правило `provider_run_id` к нему не относится, а `minimax` выведен из `run_ledger.required_surfaces` (журнал пишет только реальные попытки; пустые строки не дописываются). Возврат `minimax` в `required_surfaces` обязан произойти в том же коммите, который когда-либо откроет роль launcher-а.
+
+**Команда из Slack разрешена и ограничена чтением.** `minimax_read_only.owner_command.enabled = true`: сообщение в `#all-vint` с упоминанием `<@U0CJWT05HBM>` — прямая команда владельца (`kind=owner_read`), дающая право прочитать и ответить. Гвард — `check_minimax_read_only_route`; канал, отправитель, упоминание, свежесть (60 минут) и `message_id` проверяются по записанной политике.
+
+Живая проверка 19.11.2026: `auth.test` → бот `minimax` `U0CJWT05HBM` в workspace Vint `T0CBMHB1CS1`; `users.info` подтвердил владельца `U0CBWH0DXKN` (`vitalikrudik` / Виталик Рудик, `is_bot=false`); бот состоит в `#all-vint` `C0CBQT4H50E`, где семь участников — владелец и боты `chatgpt`, `cursor`, `GPT Dot`, `kimi`, `Grok`, `minimax`. Правило адресации обязательно: сообщение другому боту — не моя команда. Опрос канала: 12 сообщений, ни одно не принято как команда (5 входов, 2 адресованы чужим ботам, 3 общих).
+
+Проверки перед публикацией: 827 тестов (`python3 -m unittest discover -s tests`), единственная ошибка — доисторическая (`requests` недоступен, PyPI закрыт); `canon_health.py` — status=ok, warnings=0; `validate_site.py` — ok; `build_takeover_brief.py` — valid, anchors 15/15; `cert_github.py` — 7/7 совпадений по GitHub-blob.
+
+Токен бота — только в хранилище секретов (`SLACK_BOT_TOKEN`), в репозитории, отчётах и квитанциях его нет; он был прислан владельцем в чат 19.11.2026 и остался в истории диалога, поэтому подлежит перевыпуску после приёмки. Create=0, кредиты не тратились, очередь, canonical slow, Scene ID и реестр слотов не менялись.
+
+Запись — `ops/slot-backup.json#minimax_read_only`, правила — `ops/LAUNCHER-COORDINATION.md` и `ops/TOPVIEW-EVENT-WAKE.md`.
+
+## 19.11.2026 — Slack живой: бот minimax в #all-vint, токен проверен, адресация исправлена
+
+Токен бота принят и положен в хранилище секретов как `SLACK_BOT_TOKEN`; в репозитории, отчётах и квитанциях его нет. Живая проверка 19.11.2026: `auth.test` → бот `minimax`, `user_id U0CJWT05HBM`, `bot_id B0CK51383LH`, workspace Vint `T0CBMHB1CS1`; `users.info` подтвердил владельца `U0CBWH0DXKN` (`vitalikrudik` / Виталик Рудик, `is_bot=false`) — id из архива от 23.10 оказался верным; `conversations.members` подтвердил, что бот состоит в `#all-vint` `C0CBQT4H50E`. В канале семь участников: владелец и шесть ботов — `chatgpt`, `cursor`, `GPT Dot`, `kimi`, `Grok`, `minimax`. `conversations.list` отдаёт `missing_scope` (бот читает только свой канал) — для работы этого достаточно.
+
+**Найден и исправлен дефект классификации.** Первая версия считала любой текст владельца командой для minimax. Живая история канала показала, что это неверно: владелец адресует сообщения конкретным ботам — `<@U0CBQTGARUN> Ответь «Связь работает»` и `<@U0CJUKDTLJ2> Dot, что сообщения с «[Grok]» пишу я как коллега, а не ты`. Теперь команда требует упоминания именно этого бота (`<@U0CJWT05HBM>`); сообщение другому боту даёт `other_bot_addressed`, сообщение без упоминания — `channel_general` и командой не является, пока `accept_unaddressed = false`. Правка в `scripts/slack_transport.py`, регрессы — `tests/test_slack_transport.py` (26 тестов).
+
+**Команда владельца из Slack по-прежнему не разрешена:** `minimax_launcher.owner_command_launch.enabled = false`. Сообщения читаются и пишутся в receipt, но ни одна команда не доходит до launcher; peer выключен, первый настоящий Create — только по отдельному «да». Замеров канала: 12 сообщений, 5 от владельца, остальные — входы участников.
+
+Токен был прислан владельцем в чат 19.11.2026 и остался в истории диалога. После приёмки его следует перевыпустить в Slack и положить новый уже файлом-вложением, а не текстом. Create=0, кредиты не тратились, очередь, canonical slow, Scene ID и реестр слотов не менялись.
+
+Запись — `ops/slot-backup.json#minimax_launcher.owner_command_launch`, правила — `ops/LAUNCHER-COORDINATION.md` и `ops/TOPVIEW-EVENT-WAKE.md`.
+
+## 19.11.2026 — Slack-транспорт для peer minimax: бот готов, команда закрыта
+
+Решение владельца 19.11.2026: «Бот minimax готов: приложение создано и установлено в Vint, в #all-vint его добавил. Права у него только читать канал и писать». Приложение `A0CK6QV1VGU`, workspace Vint `T0CBMHB1CS1`, канал `#all-vint` `C0CBQT4H50E`, владелец `U0CBWH0DXKN` (подтвердить через `users.info` при первом реальном чтении).
+
+Добавлен `scripts/slack_transport.py`: чтение канала через `conversations.history`, проверка отправителя, построение актора для гварда, дедупликация по Slack `ts`, receipt на каждое увиденное сообщение, отправка ответа. В `scripts/launcher_coordination.py` добавлен `check_minimax_owner_command` и расширен `minimax_launcher.transport` до списка `["interactive_chat", "slack"]`. Регрессы — `tests/test_slack_transport.py` (21 тест), полный набор 797 тестов; единственная ошибка — доисторическая (`requests` недоступен, PyPI закрыт).
+
+**Команда владельца из Slack пока не разрешена:** `minimax_launcher.owner_command_launch.enabled = false`. Политика зарегистрирована с источником `slack`, каналом, `user_id` владельца и `max_age_minutes: 60`, но решение «сообщение в #all-vint = прямая команда» не выдано, поэтому сообщения читаются и пишутся в receipt, но ни одна команда не доходит до launcher; claim и Create невозможны. Peer остаётся выключенным (`peers.minimax.enabled=false`), первый настоящий Create — только по отдельному «да».
+
+Токен бота живёт только в хранилище секретов (`SLACK_BOT_TOKEN`); в репозитории, отчётах и чате его нет. Права не расширены: команда из Slack, как и команда из Telegram у `grok`, не отменяет замок, lease, claim, один intent, readback, доску, Unlimited0 с ценой 0, лимит пробуждения и `ops/TOPVIEW-RETRY.md`, и не открывает `first_real_create.owner_go_ahead`. Create=0, кредиты не тратились, очередь, canonical slow, Scene ID и реестр слотов не менялись.
+
+Запись — `ops/slot-backup.json#minimax_launcher.owner_command_launch`, правила — `ops/LAUNCHER-COORDINATION.md` и `ops/TOPVIEW-EVENT-WAKE.md`.
+
+## 18.11.2026 — peer Minimax зарегистрирован отдельной поверхностью, выключен
+
+Решение владельца 18.11.2026: «для интеграции в проект по этой инструкции что тебе потребуется?» и уточнение «ты не кими ты минимакс же». Регистрация выполнена как отдельная поверхность по образцу peer `grok` (прецедент — коммит `81084f0dc`): `scripts/launcher_coordination.py` (`SURFACES += minimax`, holder `minimax:<uuid4>`, собственные route- и launch-guard-ы), `ops/slot-backup.json` (`peers.minimax.enabled=false`, `minimax_launcher.enabled=false`, `owner_go_ahead=false`, `max_submissions_per_wake=null`, `minimax` в `run_ledger.required_surfaces`), `scripts/minimax_inbox.py` (read-only доставка задач `to: minimax`), `tests/test_minimax_peer.py` (30 регресс-тестов по 00-START-HERE.md §5), `ops/LAUNCHER-COORDINATION.md`, `ops/CANON-LOCK.md`, `ops/TOPVIEW-RETRY.md`.
+
+Peer **выключен**: claim, lease и Create заблокированы (`peer_not_enabled`, `minimax_launcher_disabled`). Minimax не наследует ни Grok-окно :10–:40, ни wake-issue, ни standing owner command, ни Grok lease, ни Grok retry-бюджет, ни чужие счётчики. Отдельного допуска владельца на первый реальный Create нет; собственного runtime run ID у среды нет — гвард `minimax_runtime_run_id_must_not_be_local_uuid` его отвергает, поэтому Create невозможен до решения владельца. Повторы для Minimax не разрешены (`ops/TOPVIEW-RETRY.md`). Очередь, Topview, canonical slow, Scene ID, реестр слотов и бюджеты повторов не изменялись. Видео не запускалось, кредиты не тратились, Create=0. Проверки: 773 теста (`python3 -m unittest discover -s tests`), `validate_site.py` — ok, `canon_health.py` — status=ok, warnings=0, `build_takeover_brief.py` — valid, anchors 15/15. Запись — `ops/slot-backup.json#minimax_launcher`, правила — `ops/LAUNCHER-COORDINATION.md`.
+
 # Relay802 · 18.11.2026 · A1 submitted, 6/6
 
 2026-11-18T16:01:10.667923+00:00 · S28-A1-R2-20261025 task `02fd85ac5fde408285bc439f15ba8239`; one Create at15:56:42Z, Seedance2.0 15s720p16:9, three verified refs, Unlimited=true creditsCost=0. Full postscan16:00:09Z:14boards21pages1064tasks,6init. Wait capacity and review result when ready; never repeat this A1. D claim retained; F/G QC blockers remain pending reviewed repair. Receipt: reports/topview-queue-2026-10-16/relay802-S28-A1-R2.json.
