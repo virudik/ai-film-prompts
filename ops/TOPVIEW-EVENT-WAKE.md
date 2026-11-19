@@ -8,6 +8,18 @@
 
 Повторы — `ops/TOPVIEW-RETRY.md`. Порядок пробуждения — `ops/PRIMARY-BACKUP-WAKE.md`. Предупреждения сайта: действующий и планируемый маршруты разделены там же; код не переключён. Привязка сигнала к прежнему handler — `archive/ops/wake-roles-until-2026-11-15.md`.
 
+## Slack как источник команд для peer `minimax` · 19.11.2026
+
+Это **дополнительный** источник для одного peer-а, не замена Relay и не новый wake робота. Relay остаётся действующим путём пробуждения.
+
+- Бот `minimax` (приложение `A0CK6QV1VGU`) установлен в workspace Vint и приглашён в `#all-vint` `C0CBQT4H50E` с правами читать канал и писать (решение владельца 19.11.2026).
+- Чтение канала — `scripts/slack_transport.py`, опрос по расписанию. На каждое увиденное сообщение пишется receipt (transport `slack`, `message_ts` = Slack `ts`, `outcome`, `reason`) в `reports/slack-events.json`; тот же `ts` второй раз командой не считается.
+- Сообщение признаётся командой владельца только при совпадении канала, `user_id` владельца, живого отправителя, отсутствия `subtype`, непустого текста **и** упоминания этого бота. Иначе — receipt с `outcome` вида `foreign_user` / `bot_message` / `subtype_message` / `foreign_channel` / `other_bot_addressed` / `channel_general`, и никакой реакции.
+- В канале шесть ботов и один человек; живая сверка 19.11.2026: `chatgpt`, `cursor`, `GPT Dot`, `kimi`, `Grok`, `minimax`, владелец `vitalikrudik` (`U0CBWH0DXKN`). Адресация — обязательная часть проверки, иначе сообщение, адресованное другому боту, будет принято за мою команду.
+- **Команда разрешена только на чтение** (решение владельца 19.11.2026): `minimax_read_only.owner_command.enabled = true`, `kind=owner_read`, гвард — `scripts/launcher_coordination.py check_minimax_read_only_route`. Команда даёт peer-у право прочитать и ответить; она **не** даёт claim, lease, intent, Create или оплаты. Путь launcher-а для этого peer закрыт (`minimax_launcher.enabled = false` → `minimax_launcher_disabled`), и `minimax` не входит в `run_ledger.required_surfaces`.
+- Политика и правила — `ops/slot-backup.json#minimax_launcher.owner_command_launch` и `ops/LAUNCHER-COORDINATION.md`. Токен бота — только в хранилище секретов (`SLACK_BOT_TOKEN`), никогда в репозитории, отчёте или чате.
+- 23.10.2026 подписка Slack для ChatGPT была отклонена («@ChatGPT isn't in all-vint») при подтверждённом API членстве; причина не установлена. Повтор такой ошибки — блокер, а не повод для обхода.
+
 ## Действующий режим и завершённая приёмка · 26.10.2026 МСК
 
 Существующий робот раз в10мин проверяет Topview. После проверенной публикации нового готового результата при свободных глобальных слотах кого будить решает `ops/PRIMARY-BACKUP-WAKE.md`. Исполнитель заново проверяет main, источник события, разрешённую очередь/priority, owner decisions, реальные входы/QC и все доски/страницы; затем общий замок + CAS claim и только сайт Unlimited0. Часовые страховки остаются (`ops/PRIMARY-BACKUP-WAKE.md`). Новых automation и платных путей нет; повторы — `ops/TOPVIEW-RETRY.md`.

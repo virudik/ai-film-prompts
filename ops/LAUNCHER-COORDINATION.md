@@ -7,7 +7,7 @@
 ## Одна очередь, один отправитель
 
 1. Fresh main, разрешения владельца, общий полный учёт всех досок, master/manifests/SHA/QC — по `ops/TOPVIEW-FREE-LAUNCH.md`. Сначала reconciliation всех `claimed/submitting/submission_unknown` и уже отправленных task IDs. Успех Topview не является одобрением.
-2. Каждый реальный вызов генерирует отдельный UUID `execution_instance_id`; это **не** runtime run ID. Holder: `chatgpt:ordinary:<UUID>`, `chatgpt:work:<UUID>` или `grok:<UUID>`. Общее имя `chatgpt` не доказывает владение. Перед записью взять общий `ops/canon-lock.json` отдельным CAS-коммитом и прочитать обратно. Чужой непросроченный замок не перехватывать. Для launch-операции брать короткую разумную lease и продлевать только при настоящем выполненном шаге; не имитировать прогресс.
+2. Каждый реальный вызов генерирует отдельный UUID `execution_instance_id`; это **не** runtime run ID. Holder: `chatgpt:ordinary:<UUID>`, `chatgpt:work:<UUID>`, `grok:<UUID>` или `minimax:<UUID>`. Общее имя `chatgpt` не доказывает владение. Перед записью взять общий `ops/canon-lock.json` отдельным CAS-коммитом и прочитать обратно. Чужой непросроченный замок не перехватывать. Для launch-операции брать короткую разумную lease и продлевать только при настоящем выполненном шаге; не имитировать прогресс.
 3. Перед каждой записью/claim/Create повторно читать реестр, `route_generation`, точный holder, `acquired_at`, срок lease и собственный item claim. Потеря роли или lease немедленно запрещает старому вызову писать/нажимать Create. Для интерактивного чата также проверять `foreground_owners.<surface>.session_id/epoch`.
 4. После полного UI-preflight сохранить уникальный claim с execution UUID, route generation и исходным SHA. Непосредственно перед единственным Create отдельной атомарной записью перевести собственный `claimed` в `submitting` с `submission_intent_id` и временем. **Сначала CAS и readback, затем ровно один клик в том же непрерывном исполнении.** Повторный вызов, разрыв после intent, expired lease и новый чат не разрешают второй клик; такой исход сверяется. `scripts/launcher_coordination.py` проверяет роль/lease/claim и одноразовый переход; сам видео не запускает и git не публикует.
 5. Подтверждённый task ID, полный текст/входы/параметры/Unlimited0 — receipt и `submitted`. Неизвестный исход — сохраняется, не обнуляется по TTL. Неизвестную отправку не повторять. Повтор — только `ops/TOPVIEW-RETRY.md`. Второй клик в той же попытке не разрешается. Другая независимая готовая сцена может занять реально свободный слот после полного скана. После отправки заново пересчитать все слоты и продолжить доступное.
@@ -29,6 +29,37 @@
 **Проверка внедрения:** наличие этого текста и тестов не доказывает, что независимый Grok уже прочитал и применяет его. Требуется его собственная квитанция с версией протокола и проверкой отказа при чужой lease/чужом claim, без реального Create. До такой квитанции не заявлять полную межагентную гарантию. В Topview GUI нет серверного idempotency/fencing token: соблюдающим протокол исполнителям общие CAS/intent предотвращают гонку, но произвольный ручной или обходной клик технически не запрещают. Не менять доступ/учётные данные ради этого без отдельного разрешения.
 
 CLI готовит только локальные данные. Проверку ожидаемого SHA выполняет публикация GitHub, не Python helper. Корень локальной проверки должен быть снимком того же fresh main. Сканы и UI-проверки не синтезировать. Успешная проверка `verify-before-create` не является многократно используемым разрешением или самостоятельным браузерным действием.
+
+## Minimax — отдельный peer, роль read-only · 18–19.11.2026
+
+Решение владельца 19.11.2026: «1 да. 2 read-only. 3 read-only. 4 да». Minimax зарегистрирован в `ops/slot-backup.json` как **отдельная** surface со своим holder (`minimax:<UUID4>`), своим transport и своим запретом на запуск. Он **не** наследует ни Grok-окно :10–:40, ни Grok wake-issue, ни standing owner command, ни Grok lease, ни Grok retry policy и ни один счётчик.
+
+- **Роль — только чтение.** `peers.minimax.role = "read_only"`, `peers.minimax.enabled = true`. Peer читает канон, очередь, статусы, отчёты и `ops/owner-tasks.json` и отвечает владельцу в Slack. Запрещённый список — в `peers.minimax.forbidden`: `claim`, `lease`, `intent`, `create`, `retry`, `cancel`, `queue_edit`, `budget_spend`, `site_submit`, `ledger_row`.
+- **Путь launcher-а закрыт навсегда.** `minimax_launcher.enabled = false` и не меняется без отдельного решения владельца. Любая попытка пойти по пути launcher-а возвращает `minimax_launcher_disabled`. Чтобы открыть роль launcher-а, нужно в том же коммите вернуть `minimax` в `run_ledger.required_surfaces` и обеспечить настоящий `provider_run_id`.
+- **Runtime run ID не требуется.** Read-only peer не делает попыток отправки, не пишет строку журнала и не создаёт intent, поэтому правило `provider_run_id` к нему не относится. Гвард `minimax_runtime_run_id_must_not_be_local_uuid` продолжает действовать для пути launcher-а.
+- **Ledger.** `minimax` **не** входит в `run_ledger.required_surfaces`: журнал записывает реальные попытки отправки, а read-only peer их не делает. Пустые строки в журнал не дописываются.
+- **Свой transport.** `actor.transport` обязан входить в `minimax_read_only.transport` (`minimax_transport_mismatch`) — список `["interactive_chat", "slack"]`.
+- **Команда из Slack разрешена** (решение владельца 19.11.2026): сообщение в `#all-vint` с упоминанием `<@U0CJWT05HBM>` — прямая команда владельца, но только на чтение и ответ. `kind=owner_read`; гвард — `check_minimax_read_only_route`.
+- **Доставка и ACK.** Задачи адресуются `to: "minimax"` в `ops/owner-tasks.json`, читаются `scripts/minimax_inbox.py` (только чтение, без wake и Create). Квитанция Slack-транспорта — `reports/slack-events.json`; `reports/topview-minimax-cycle.json` зарезервирован под путь launcher-а и не используется.
+- **Ограничение доставки.** Список исполнителей на сайте (`scripts/robot_site_actions.py`, `scripts/canon_health.py`) пока знает только `claude`, `chatgpt`, `grok`, `any`. Задача, адресованная `minimax`, через сайт не маршрутизируется; её нужно заводить в `ops/owner-tasks.json` напрямую, либо сначала расширить список исполнителей на сайте отдельным владельческим решением.
+- **Запрещённые пути.** Платный Topview MCP/Canvas и Plugin остаются запрещены: генерация по этому пути не Unlimited и тратит кредиты. Канонический путь — сайт под входом владельца, Unlimited0. Чтение Topview через MCP допустимо.
+
+Регрессы-тесты: `tests/test_minimax_peer.py`, `tests/test_slack_transport.py`.
+
+## Minimax · Slack-транспорт · 19.11.2026
+
+Владелец 19.11.2026: «Бот minimax готов: приложение создано и установлено в Vint, в #all-vint его добавил. Права у него только читать канал и писать». Приложение `A0CK6QV1VGU`, workspace Vint `T0CBMHB1CS1`, канал `#all-vint` `C0CBQT4H50E`.
+
+- **Транспорт.** `scripts/slack_transport.py` читает канал через `conversations.history`, проверяет отправителя и строит актора для гварда. Команда считается командой владельца **только** если совпадают все признаки: тот же канал, тот же `user_id` владельца, живой отправитель (не бот), нет `subtype`, непустой текст **и** сообщение адресовано именно этому боту (`<@U0CJWT05HBM>`).
+- **В канале шесть ботов.** Живая сверка 19.11.2026 (`users.info`, `conversations.members`): `chatgpt`, `cursor`, `GPT Dot`, `kimi`, `Grok`, `minimax` и владелец `vitalikrudik` (единственный человек). Поэтому адресация обязательна: сообщение с `<@U0CJUKDTLJ2>` — это команда Dot, а не Minimax (`other_bot_addressed`). Сообщение без упоминания — общее (`channel_general`) и командой не является, пока `accept_unaddressed = false`.
+- **Гвард в координаторе.** `check_minimax_owner_command` в `scripts/launcher_coordination.py` повторяет проверки канала и отправителя по записанной политике `minimax_read_only.owner_command`, поэтому подделанный актор их не обходит. Ошибки: `minimax_owner_command_not_authorized`, `..._quote_required`, `..._source_not_allowed`, `..._channel_mismatch`, `..._sender_mismatch`, `..._message_id_required`, `..._stale_or_future`.
+- **Команда разрешена, но только на чтение.** Решение владельца 19.11.2026: «да». Сообщение с упоминанием этого бота — прямая команда владельца; она даёт peer-у право **прочитать и ответить** и ничего больше. Ни claim, ни lease, ни intent, ни Create, ни оплата.
+- **Дедупликация.** У каждого сообщения один `message_id` (Slack `ts`); второй опрос не выдаёт то же сообщение второй раз. Receipt на каждое увиденное сообщение — как у Relay.
+- **Токен.** Токен бота живёт только в хранилище секретов (`SLACK_BOT_TOKEN`), никогда в репозитории, отчёте или чате. Канал: `SLACK_CHANNEL_ID = C0CBQT4H50E`.
+- **Права не расширяются.** Как и команда из Telegram у `grok`, команда из Slack не отменяет замок, lease, claim, один intent, readback, доску, Unlimited0 с ценой 0, лимит пробуждения и `ops/TOPVIEW-RETRY.md`. Она также **не** открывает `first_real_create.owner_go_ahead`.
+- **Историческая справка.** 23.10.2026 подписка на Slack для ChatGPT была отклонена («@ChatGPT isn't in all-vint»), хотя API подтверждал членство бота; причина не установлена. Если то же повторится для Minimax — записать блокером и не обходить.
+
+Регрессы-тесты: `tests/test_slack_transport.py`.
 
 ## Упрощённый интерфейс для обоих агентов
 
