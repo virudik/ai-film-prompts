@@ -452,11 +452,11 @@
     }
   },
   "launcher_health": {
-    "state": "launch_confirmed",
+    "state": "capacity_full",
     "unresolved": false,
     "episode": "4e1963f5",
     "unresolved_since": null,
-    "reason": "submitted_receipt_task_ids_match_queue_and_live_scan",
+    "reason": "no_free_global_slot; launcher_health_not_proven",
     "free_slots_global": 0,
     "actionable_items": [
       "S49B",
@@ -471,10 +471,12 @@
       "S62-SEED20-P1-R2-20261108",
       "S28-A2-R2-20261025",
       "S28-A13-20261030",
+      "S89D-WAN30-R3",
       "S89H-WAN30",
       "S89I-WAN30",
       "S89J-WAN30",
-      "S49A-WAN30-20261118"
+      "S49A-WAN30-20261118",
+      "S89F-WAN30-R3"
     ],
     "reconciliation_items": [
       "S89D-WAN30-R2",
@@ -495,6 +497,6 @@
       "e78f7a26f841414cac6689f2d79601b5"
     ],
     "escalation_attempted_episode": null,
-    "checked_at": "2026-11-19T00:51:33Z"
+    "checked_at": "2026-11-19T01:00:38Z"
   }
 }
