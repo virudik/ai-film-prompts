@@ -113,9 +113,10 @@ class RegistryTests(unittest.TestCase):
         self.assertEqual((len(refs["characters"]), len(refs["assets"])), (9, 11))
         raznoe = prj.get(ROOT, "raznoe")
         old = json.loads((ROOT / raznoe["status"]).read_text())
-        self.assertEqual(old["scene_ids"], [1, 2, 3, 4, 5])
-        self.assertIn(6, old["reserved_scene_ids"])
-        self.assertFalse((ROOT / "projects/raznoe/references/scenes/scene-6").exists())
+        self.assertEqual(old["scene_ids"], list(range(1, 14)))
+        self.assertEqual(old["reserved_scene_ids"], [])
+        for sid in range(6, 14):
+            self.assertTrue((ROOT / f"projects/raznoe/references/scenes/scene-{sid}/storyboard-and-prompts.md").is_file())
 
     def test_roscosmos_stays_paused_and_raznoe_is_the_independent_project(self):
         space = prj.get(ROOT, 'roscosmos')

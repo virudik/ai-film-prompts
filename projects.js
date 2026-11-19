@@ -42,7 +42,7 @@ var want=null;try{var qs=new URLSearchParams(location.search);var qProject=qs.ge
 try {
  if(want==='raznoe'){
   var oldHash=String(location.hash||'');
-  var moved=oldHash==='#scene-6'?'#scene-1':oldHash.replace(/^#6-([AB][0-9]{2})$/,'#1-$1');
+  var moved=oldHash==='#legacy-stakhiy-scene-6'?'#scene-1':oldHash.replace(/^#6-([AB][0-9]{2})$/,'#1-$1');
   if(moved!==oldHash){
    qs.delete('p');qs.set('project','stikhiy');want='stikhiy';
    window.history.replaceState(null,'',location.pathname+'?'+qs.toString()+moved);

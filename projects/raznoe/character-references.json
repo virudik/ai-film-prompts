@@ -1757,6 +1757,131 @@
           "approved_at": "2026-11-17"
         }
       ]
+    },
+    {
+      "id": "NC-R02-case-match",
+      "name": "Кейс: графитовый корпус и янтарный акцент",
+      "kind": "scene",
+      "notes": "Кейс: графитовый корпус и янтарный акцент; рабочий референс, не утверждённый стартовый кадр",
+      "scenes": [
+        6
+      ],
+      "editorial_status": "not_approved",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-6/NC-R02-case-match.webp",
+          "caption": "Кейс: графитовый корпус и янтарный акцент; рабочий референс, не утверждённый стартовый кадр",
+          "sha256": "eb748f7e02606ddc1110522217a0982489feca32ac8ed907cad0b67864e9b4d8",
+          "width": 1280,
+          "height": 720,
+          "scenes": [
+            6
+          ],
+          "editorial_status": "not_approved",
+          "role": "framing_only",
+          "active_prompt_input": false
+        }
+      ]
+    },
+    {
+      "id": "CP-R01-designer-identity",
+      "name": "Вымышленный дизайнер Саша: лист внешности",
+      "kind": "character",
+      "notes": "Вымышленный дизайнер Саша: лист внешности; рабочий референс, не утверждённый стартовый кадр",
+      "scenes": [
+        7
+      ],
+      "editorial_status": "not_approved",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-7/CP-R01-designer-identity.webp",
+          "caption": "Вымышленный дизайнер Саша: лист внешности; рабочий референс, не утверждённый стартовый кадр",
+          "sha256": "99d1aaafab67211277a0a9c6ce4396f7c8002cd18fa703594e754926fb8db293",
+          "width": 1280,
+          "height": 853,
+          "scenes": [
+            7
+          ],
+          "editorial_status": "not_approved",
+          "role": "framing_only",
+          "active_prompt_input": false
+        }
+      ]
+    },
+    {
+      "id": "OR-R01-courtyard-model",
+      "name": "Макет вымышленного двора для первого выпуска",
+      "kind": "scene",
+      "notes": "Макет вымышленного двора для первого выпуска; рабочий референс, не утверждённый стартовый кадр",
+      "scenes": [
+        8
+      ],
+      "editorial_status": "not_approved",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-8/OR-R01-courtyard-model.webp",
+          "caption": "Макет вымышленного двора для первого выпуска; рабочий референс, не утверждённый стартовый кадр",
+          "sha256": "705d7ca3a7705d3e66d09a41914fc9a6182abde05dba9fece040c0833daed620",
+          "width": 720,
+          "height": 1280,
+          "scenes": [
+            8
+          ],
+          "editorial_status": "not_approved",
+          "role": "framing_only",
+          "active_prompt_input": false
+        }
+      ]
+    },
+    {
+      "id": "RIF-R02-reef-geography",
+      "name": "Архив и единая география вымышленного рифа",
+      "kind": "scene",
+      "notes": "Архив и единая география вымышленного рифа; рабочий референс, не утверждённый стартовый кадр",
+      "scenes": [
+        9
+      ],
+      "editorial_status": "not_approved",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-9/RIF-R02-reef-geography.webp",
+          "caption": "Архив и единая география вымышленного рифа; рабочий референс, не утверждённый стартовый кадр",
+          "sha256": "9be6deae93ba2cf9e3cb3c1798b798e223753b25ce03fc7a506d56687ce63d16",
+          "width": 1280,
+          "height": 720,
+          "scenes": [
+            9
+          ],
+          "editorial_status": "not_approved",
+          "role": "framing_only",
+          "active_prompt_input": false
+        }
+      ]
+    },
+    {
+      "id": "BN-R01-dog-identity",
+      "name": "Лист пса: левая передняя лапа белая, правое ухо загнуто",
+      "kind": "character",
+      "notes": "Лист пса: левая передняя лапа белая, правое ухо загнуто; рабочий референс, не утверждённый стартовый кадр",
+      "scenes": [
+        13
+      ],
+      "editorial_status": "not_approved",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-13/BN-R01-dog-identity.webp",
+          "caption": "Лист пса: левая передняя лапа белая, правое ухо загнуто; рабочий референс, не утверждённый стартовый кадр",
+          "sha256": "6d75e79536f793900ad121cc170754337e73d7cc847cd3dbbde6d50997c38d10",
+          "width": 1280,
+          "height": 640,
+          "scenes": [
+            13
+          ],
+          "editorial_status": "not_approved",
+          "role": "framing_only",
+          "active_prompt_input": false
+        }
+      ]
     }
   ],
   "non_character_reference_rules": [

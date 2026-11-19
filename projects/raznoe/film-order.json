@@ -7,7 +7,8 @@
   "sources": {
     "scenes_1_2": "projects/raznoe/video-prompts.md, сцены 1 и 2",
     "resource": "Владелец 06.11.2026: сцена 3 RESOURCE, часть 1 из 3",
-    "honor": "Владелец 06.11.2026: отдельная сцена HONOR в Разном, три варианта, модель не выбрана"
+    "honor": "Владелец 06.11.2026: отдельная сцена HONOR в Разном, три варианта, модель не выбрана",
+    "creative_generation": "Редакторские конкурсные материалы, сцены 6–13."
   },
   "blocks": [
     {
@@ -51,6 +52,66 @@
       "title": "HONOR — три ролика по 120 с без выбранной модели",
       "text": "Реализм, 3D и рисовка. Кадры только настроение. Хронометраж 4×30 или 8×15.",
       "source": "honor"
+    },
+    {
+      "kind": "chapter",
+      "title": "Креативное поколение — конкурсные сцены (DRAFT)"
+    },
+    {
+      "kind": "scene",
+      "scene": 6,
+      "title": "НЦКК — Один сигнал, два маршрута",
+      "text": "16:9, 110 с B2G и 85 с B2C. DRAFT; отдельная конкурсная работа.",
+      "source": "creative_generation"
+    },
+    {
+      "kind": "scene",
+      "scene": 7,
+      "title": "Чужой пиксель",
+      "text": "16:9, 90 с. DRAFT; отдельная конкурсная работа.",
+      "source": "creative_generation"
+    },
+    {
+      "kind": "scene",
+      "scene": 8,
+      "title": "Космический тренд — Пас с орбиты",
+      "text": "9:16, 29 / 32 / 35 / 28 / 33 с. DRAFT; отдельная конкурсная работа.",
+      "source": "creative_generation"
+    },
+    {
+      "kind": "scene",
+      "scene": 9,
+      "title": "Риф без границ",
+      "text": "16:9, 84 с. DRAFT; отдельная конкурсная работа.",
+      "source": "creative_generation"
+    },
+    {
+      "kind": "scene",
+      "scene": 10,
+      "title": "TenChat — Одна витрина",
+      "text": "9:16, 40 с. DRAFT; отдельная конкурсная работа.",
+      "source": "creative_generation"
+    },
+    {
+      "kind": "scene",
+      "scene": 11,
+      "title": "OnlyMakers — Из клипа в канал",
+      "text": "9:16, 20 с; баннер 16:9 (1920×1080). DRAFT; отдельная конкурсная работа.",
+      "source": "creative_generation"
+    },
+    {
+      "kind": "scene",
+      "scene": 12,
+      "title": "DFM — Шинель: тепло не найдено",
+      "text": "9:16, 90 с. DRAFT; отдельная конкурсная работа.",
+      "source": "creative_generation"
+    },
+    {
+      "kind": "scene",
+      "scene": 13,
+      "title": "ХвостРадар — Белый носок",
+      "text": "9:16, 48 с. DRAFT; отдельная конкурсная работа.",
+      "source": "creative_generation"
     }
   ]
 }

@@ -4,7 +4,7 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**19.11.2026 · 5 сцен к генерации/доработке · 68 полных текстов трёх версий; сцена 3 RESOURCE: native-нарезка 19 клипов / 114 с в той же сцене, исходник 2 × 15 с сохранён; шесть попыток v1 лежат в папке Саши и не приняты; в репозиторий ролики не вкладывались; сцены 4 и 5 HONOR сверены по меню, статусам и границам, промпты не переписывались; все сцены DRAFT.**
+**19.11.2026 · 13 сцен к генерации/доработке · 138 полных текстов нескольких версий; сцена 3 RESOURCE: native-нарезка 19 клипов / 114 с в той же сцене, исходник 2 × 15 с сохранён; шесть попыток v1 лежат в папке Саши и не приняты; в репозиторий ролики не вкладывались; сцены 4 и 5 HONOR сверены по меню, статусам и границам, промпты не переписывались; все сцены DRAFT.**
 
 - **🛠️ 0** рабочих направлений W.
 - **⏳ 0** сцен сейчас в медленной генерации: **нет**.
@@ -21,6 +21,14 @@
 | 3 | [RESOURCE](#scene-3) | Инженер мастерской и синей формы, работница сортировки | Фотореал 16:9. Исходник 2 × 15 с сохранён. Текущая нарезка — 19 native-клипов, 114 с: мастерская, завод, сборка, старт, орбита, постановочная станция, ЦУП. Не одобрено |
 | 4 | [HONOR Magic9 Pro Max](#scene-4) | Модель выбрана; канонических продуктовых PNG нет | Три ролика по 120 с: 3D, реализм, рисовка. Кадры только настроение. Не одобрено. Видео не запускать |
 | 5 | [HONOR X9e Pro — «Дворовая машина Голдберга»](#scene-5) | Житель Москвы, настоящий HONOR X9e Pro только после отбора | Конкурс «Несокрушимый HONOR», Москва: настоящая съёмка 60–120 с, цель 90 с, вертикаль 9:16, без музыки. ИИ 30 с — только отдельный неконкурсный превиз. Заявка не отправлена |
+| 6 | [НЦКК — Один сигнал, два маршрута](#scene-6) | Руководитель, стажёр, инженер | Одна профессиональная задача, два самостоятельных ролика для разных аудиторий. |
+| 7 | [Чужой пиксель](#scene-7) | Саша, коллега | Молодой специалист отличает изменение на карте от ошибки чтения легенды. |
+| 8 | [Космический тренд — Пас с орбиты](#scene-8) | Ведущая, второй ведущий | Пять выпусков: масштаб, проверка данных, дуэт, квиз и эстафета. |
+| 9 | [Риф без границ](#scene-9) | Иона | Архивистка совмещает две пластины и обнаруживает связь по обе стороны линии на карте. |
+| 10 | [TenChat — Одна витрина](#scene-10) | Аня, Олег, организатор | Один контакт открывает дверь, дальше Аня сама защищает идею. |
+| 11 | [OnlyMakers — Из клипа в канал](#scene-11) | Автор игрового канала | Редкий игровой момент превращается в начало собственного канала. |
+| 12 | [DFM — Шинель: тепло не найдено](#scene-12) | Акакий, сотрудник бюро | Адаптация Гоголя для «Бюро отсутствующих»: одна шинель, один отказ и странный финал. |
+| 13 | [ХвостРадар — Белый носок](#scene-13) | Марина, Игорь, Рыжик | Два объявления, две фотографии и один белый носок, по которому люди проверяют совпадение. |
 
 ## Сцены в работе
 
@@ -5875,4 +5883,629 @@ No test action, impact, immersion, fake water resistance, fictional result, succ
 </div>
 </div>
 
-Сцены 6 удалены из active master; их номера зарезервированы. Сцена перенесена в проект «Стахий».
+<a id="scene-6"></a>
+## Сцена 6 — НЦКК — Один сигнал, два маршрута
+
+<!-- scene-meta: {"target_engine":"Grok Imagine","production_state":"DRAFT","duration_s":null,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["contest","not_approved","no_launch"]} -->
+
+**Готовность:** DRAFT · Два черновых монтажа; проверить факты, фирменный комплект и согласованный экспорт.
+
+**Формат:** 16:9, 110 с B2G и 85 с B2C.
+
+**Персонажи:** Руководитель, стажёр, инженер.
+
+**Что происходит:** Одна профессиональная задача, два самостоятельных ролика для разных аудиторий.
+
+**Конкурс:** «Креативное поколение», урок №1 на платформе.
+
+**Раскадровка, референсы и промты:** [полный рабочий план](projects/raznoe/references/scenes/scene-6/storyboard-and-prompts.md).
+
+**Рабочий визуальный референс:**
+
+<div class="scene-ref-gallery"><figure><a href="projects/raznoe/references/scenes/scene-6/NC-R02-case-match.webp" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/NC-R02-case-match.webp" alt="Кейс: графитовый корпус и янтарный акцент; рабочий референс, не утверждённый стартовый кадр" loading="lazy"></a><figcaption>Кейс: графитовый корпус и янтарный акцент; рабочий референс, не утверждённый стартовый кадр</figcaption></figure></div>
+
+**Промты видео · Grok Imagine (черновик)**
+
+#### 6 · G01
+
+```text
+Locked 50 mm close-up. A graphite A5 case rests on a matte table; a single warm glint crosses the fixed amber tab as afternoon light shifts subtly. The distant lead remains in soft focus. Nothing moves except the narrow reflection.
+```
+
+#### 6 · G02
+
+```text
+Fixed medium shot. The lead turns his eyes from a printed unlabeled gray card to the empty rigid monitor and pauses once; keep the monitor perfectly trackable.
+```
+
+#### 6 · G03
+
+```text
+True overhead locked shot. One hand places the third blank gray card next to two already aligned cards and withdraws. White paper remains blank, spacing and case fixed.
+```
+
+#### 6 · G04
+
+```text
+Fixed shoulder-height two-shot. The researcher in olive makes one small palm-up gesture toward the blank card; the lead listens. No speaking lips, no additional people or big gestures.
+```
+
+#### 6 · G05
+
+```text
+Locked close side view. A researcher compares the blank monitor and one plain card, moving eyes only once; the rigid screen and all corners remain fixed.
+```
+
+#### 6 · G06
+
+```text
+Static over-shoulder shot. The student sets her hand on the mouse and looks once toward the researcher for a quiet check, then holds. The researcher listens silently and remains steady; grey display stays blank.
+```
+
+#### 6 · G08
+
+```text
+Wide locked shot of the exact three adults around the established table. The lead passes a single unmarked card a short distance to the researcher; the student observes. One action, stable wardrobe and identity, no additional people.
+```
+
+#### 6 · G10
+
+```text
+Locked existing case frame. The lead's right hand enters left edge, slides the same graphite A5 case just a few centimeters toward center, stops and withdraws. Preserve its rigid geometry and amber tab.
+```
+
+#### 6 · C01
+
+```text
+Locked medium close-up in soft window light. The student in blue opens a blank notebook once and glances at it. No visible writing or props resembling flight hardware.
+```
+
+#### 6 · C02
+
+```text
+Fixed medium over-shoulder. The student leans the head forward a few centimeters while the neutral monitor stays perfectly rigid. Hold the pose without gesturing or blinking screens.
+```
+
+#### 6 · C03
+
+```text
+Static close-up at desk height. The student's right hand with a subtle bracelet pauses before clicking, then deliberately clicks once. Keep fingers anatomically natural, no extra motion.
+```
+
+#### 6 · C05
+
+```text
+Locked two-shot. The researcher quietly nods once while both look at the same off-screen monitor; the student relaxes her shoulders slightly. No voice, no new people, no hand overlap.
+```
+
+#### 6 · C07
+
+```text
+Fixed top-three-quarter frame. The student turns one plain sheet with a small deliberate hand movement and holds. No readable screen, letters, logos or projected icons.
+```
+
+#### 6 · C08
+
+```text
+Locked eye-level room view, the student closes the plain notebook once, then looks thoughtfully toward the steady blank display. Keep daylight, wardrobe and geography unchanged.
+```
+
+**Перед запуском:** DRAFT. Не запускать или повторно генерировать по карточке. Публикация рабочего материала не означает художественной приёмки, готовности к подаче или отправки заявки.
+
+<a id="scene-7"></a>
+## Сцена 7 — Чужой пиксель
+
+<!-- scene-meta: {"target_engine":"Grok Imagine","production_state":"DRAFT","duration_s":90,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["contest","not_approved","no_launch"]} -->
+
+**Готовность:** DRAFT · Монтаж и сверка непрерывности в работе.
+
+**Формат:** 16:9, 90 с.
+
+**Персонажи:** Саша, коллега.
+
+**Что происходит:** Молодой специалист отличает изменение на карте от ошибки чтения легенды.
+
+**Конкурс:** «Креативное поколение», урок №2 на платформе.
+
+**Раскадровка, референсы и промты:** [полный рабочий план](projects/raznoe/references/scenes/scene-7/storyboard-and-prompts.md).
+
+**Рабочий визуальный референс:**
+
+<div class="scene-ref-gallery"><figure><a href="projects/raznoe/references/scenes/scene-7/CP-R01-designer-identity.webp" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-7/CP-R01-designer-identity.webp" alt="Вымышленный дизайнер Саша: лист внешности; рабочий референс, не утверждённый стартовый кадр" loading="lazy"></a><figcaption>Вымышленный дизайнер Саша: лист внешности; рабочий референс, не утверждённый стартовый кадр</figcaption></figure></div>
+
+**Слои композита:** [подложка](projects/raznoe/references/scenes/scene-7/PX-MAP-BASE.webp) · [наблюдение А](projects/raznoe/references/scenes/scene-7/PX-MAP-OBS-A.webp) · [наблюдение Б](projects/raznoe/references/scenes/scene-7/PX-MAP-OBS-B.webp) · [легенда](projects/raznoe/references/scenes/scene-7/PX-MAP-LEGEND-AFTER.webp).
+
+**Промты видео · Grok Imagine (черновик)**
+
+#### 7 · PX01
+
+```text
+9 s, 16:9 full frame, animate exactly this neutral blank monitor plate. Hold completely still for two seconds, then move backward a few centimeters on a fixed axis to reveal a little desk edge; hold clean last frame. Bezel and all four monitor corners rigid, screen fill uniform, screen stays blank and trackable. Natural small reflection only, no map, text, logos or dramatic rack focus. Silent plate.
+```
+
+#### 7 · PX02
+
+```text
+9 s in the same 16:9 animated medium profile. Maintain Sasha as in CP-R01: same facial features, cropped deep dark brown bob, slate blue chore jacket, ivory crewneck, small circular brass earrings; eyes remain on the grey blank monitor. One finger settles on the mouse, pauses before clicking, and relaxes. Gentle breath only and locked camera; no dialogue, no lip movement, no extra fingers, no words, no logos, no screen graphics. End in the same seating position.
+```
+
+#### 7 · PX03
+
+```text
+If a generated plate is needed, 9 s, 16:9 locked-off blank pale neutral surface; no scale changes, dolly, focus changes, vignette, light pulses, maps, digits, or text. Prefer direct post-only animation: hold dates UI 2 s, reveal A 2 s and B 3 s, compare as clean split for 2 s without moving map coordinates.
+```
+
+#### 7 · PX04
+
+```text
+9 s blank locked-off 16:9 plate, consistent diffuse light and no geometry changes; preserve blankness. Written legend and one connecting arrow are editorial composites; never animate any type in Grok. Prefer post-only: hold E3/old color relation, then reveal explanation on the post-built legend panel.
+```
+
+#### 7 · PX05
+
+```text
+9 s 16:9. Keep Sasha’s cropped deep dark brown bob, slate blue chore jacket, ivory crewneck and small circular brass earrings as in CP-R01, and preserve the colleague design and screen orientation from the input. Junior rotates monitor slightly (no more than a few degrees); colleague quietly indicates the lower-right legend area with an open-hand gesture, not touching the screen. Neither speaks. Single locked viewpoint, rigid monitor and reliable fingers, no crowd, duplicate person, charts, text or overlays. Settle before cut.
+```
+
+#### 7 · PX06
+
+```text
+9 s static plain neutral 16:9 frame, no overlays, camera or light animation. Post preferred: at editorial second 2, transition from original to updated card with simple hard wipe, not a morph; same map origin and E3. At second 5 the hatch and restrained outline arrive, with legend matched in the same frame; hold through out.
+```
+
+#### 7 · PX07
+
+```text
+9 s static empty 16:9 plate. Prefer post: A/B open for 3 s, pointer enters at second 3 and selects E3 at second 4, editorial E3 card holds the last 4 s. No cut that shifts scale or alignment, no changing light or generative UI.
+```
+
+#### 7 · PX08
+
+```text
+9 s 16:9, preserve colleague face and wardrobe; eyes go from central map area to lower-right legend, then one modest nod. No speaking; real room light steady. No extra hands or people, no animated screen content or moving monitor. Prefer nearly fixed camera, hold last second after nod.
+```
+
+#### 7 · PX09
+
+```text
+9 s 16:9. Preserve Sasha as in CP-R01: cropped deep dark brown bob, slate blue chore jacket, ivory crewneck, small circular brass earrings; keep the desk layout unchanged. Junior makes one understated deliberate writing gesture, then puts pencil down and looks briefly toward the monitor; camera floats backward by a few centimeters and holds. No actual legible marks from generation, no speech, brand, celebratory acting, camera rotation or extra limbs. Editorial text may be separately placed on the notebook only if needed.
+```
+
+#### 7 · PX10
+
+```text
+9 s absolutely steady neutral plate, no generated type, marks or motion. Preferred compositor build: abstract 1.0 s E3 outline transition, title by second 4, hold title and fiction notice to out. No AI model needed.
+```
+
+**Перед запуском:** DRAFT. Не запускать или повторно генерировать по карточке. Публикация рабочего материала не означает художественной приёмки, готовности к подаче или отправки заявки.
+
+<a id="scene-8"></a>
+## Сцена 8 — Космический тренд — Пас с орбиты
+
+<!-- scene-meta: {"target_engine":"Grok Imagine","production_state":"DRAFT","duration_s":null,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["contest","not_approved","no_launch"]} -->
+
+**Готовность:** DRAFT · Есть пять рабочих экспортов. Проверка совместимости файла не означает художественную приёмку.
+
+**Формат:** 9:16, 29 / 32 / 35 / 28 / 33 с.
+
+**Персонажи:** Ведущая, второй ведущий.
+
+**Что происходит:** Пять выпусков: масштаб, проверка данных, дуэт, квиз и эстафета.
+
+**Конкурс:** «Креативное поколение», урок №3 на платформе.
+
+**Раскадровка, референсы и промты:** [полный рабочий план](projects/raznoe/references/scenes/scene-8/storyboard-and-prompts.md).
+
+**Рабочий визуальный референс:**
+
+<div class="scene-ref-gallery"><figure><a href="projects/raznoe/references/scenes/scene-8/OR-R01-courtyard-model.webp" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-8/OR-R01-courtyard-model.webp" alt="Макет вымышленного двора для первого выпуска; рабочий референс, не утверждённый стартовый кадр" loading="lazy"></a><figcaption>Макет вымышленного двора для первого выпуска; рабочий референс, не утверждённый стартовый кадр</figcaption></figure></div>
+
+**Промты видео · Grok Imagine (черновик)**
+
+#### 8 · OT01-G1
+
+```text
+One hand lowers the frame a few centimeters and pauses above that same bench; no touching or distortion, locked overhead camera.
+```
+
+#### 8 · OT01-G3
+
+```text
+Push in very slowly toward the mosaic; every individual block maintains its dimensions relative to the others and no details appear in the material.
+```
+
+#### 8 · OT02-G1
+
+```text
+Locked-off shot; the presenter turns her eyes from the screen down to a physical paper note; hands at rest, screen stays neutral and trackable.
+```
+
+#### 8 · OT02-G3
+
+```text
+Make one short deliberate pencil gesture and return the hand to rest; static camera, no legible writing, no additional hands.
+```
+
+#### 8 · OT03-G1
+
+```text
+Slides the translucent tile once toward screen right and stops before leaving frame. No head turn into camera, no bending tile or editing.
+```
+
+#### 8 · OT03-G2
+
+```text
+Moves that same tile from screen left into the center of their desk and stops; one hand, tile stays rigid, motion matched to previous direction.
+```
+
+#### 8 · OT04-G1
+
+```text
+Presenter raises one closed hand once as a signal to pause, keeps mouth still; camera fixed, empty boards do not move or acquire markings.
+```
+
+#### 8 · OT05-G1
+
+```text
+Single hand moves ring directly toward the lens with no spin, ring remains rigid and centered. Hold a beat before it occupies the frame.
+```
+
+#### 8 · OT05-G2
+
+```text
+Gloved hand advances the same ring to a fixed placement on the mat in one motion; camera does not track. Cut with ring geometry unchanged.
+```
+
+#### 8 · OT05-G4
+
+```text
+Presenter raises the ring once toward the fixed lens, preserving the clipped top right corner and its orientation; no dialogue, no background change.
+```
+
+**Перед запуском:** DRAFT. Не запускать или повторно генерировать по карточке. Публикация рабочего материала не означает художественной приёмки, готовности к подаче или отправки заявки.
+
+<a id="scene-9"></a>
+## Сцена 9 — Риф без границ
+
+<!-- scene-meta: {"target_engine":"Grok Imagine","production_state":"DRAFT","duration_s":84,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["contest","not_approved","no_launch"]} -->
+
+**Готовность:** DRAFT · Монтаж и сверка композита в работе: проверить течение и положение пластин.
+
+**Формат:** 16:9, 84 с.
+
+**Персонажи:** Иона.
+
+**Что происходит:** Архивистка совмещает две пластины и обнаруживает связь по обе стороны линии на карте.
+
+**Конкурс:** «Креативное поколение», урок №12 на платформе.
+
+**Раскадровка, референсы и промты:** [полный рабочий план](projects/raznoe/references/scenes/scene-9/storyboard-and-prompts.md).
+
+**Рабочий визуальный референс:**
+
+<div class="scene-ref-gallery"><figure><a href="projects/raznoe/references/scenes/scene-9/RIF-R02-reef-geography.webp" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-9/RIF-R02-reef-geography.webp" alt="Архив и единая география вымышленного рифа; рабочий референс, не утверждённый стартовый кадр" loading="lazy"></a><figcaption>Архив и единая география вымышленного рифа; рабочий референс, не утверждённый стартовый кадр</figcaption></figure></div>
+
+**Промты видео · Grok Imagine (черновик)**
+
+#### 9 · RF01
+
+```text
+From RF01-KEY, locked macro shot. A small cluster of warm amber particles glides once from left to right behind the same fixed cobalt Y-shaped branch. Keep the branch, focus and natural exposure stable; no creatures, flashes or second particle source. Hold trailing edge.
+```
+
+#### 9 · RF02
+
+```text
+From RF02-KEY, single gentle 20 cm dolly straight toward the motionless archivist. Her face and clothing are unchanged. Preserve the rigged circular window and the desk relationship, with all water outside the glass. No generated graphics or acting beats. Settle.
+```
+
+#### 9 · RF03
+
+```text
+From RF03-KEY, locked overhead composition. A single teal-sleeved hand slides the one blank acrylic plate two centimeters toward the two pegs, then stops. The number and geometry of plate and pegs never change. No other hand, marks, repositioning or camera.
+```
+
+#### 9 · RF04
+
+```text
+From RF04-KEY, locked frame. A sparse stream of small amber particles continues left to right behind the circular glass and along the reef. Nothing passes into the room. Same location and no cuts; the glass and reef stay rigid.
+```
+
+#### 9 · RF05
+
+```text
+From RF05-KEY, one quiet eye movement from the plate to the window on frame-right, with a tiny head turn after that gaze, then hold. Preserve face, curls, scar position, intact ears and wardrobe. Locked camera, no dialogue, no body jump or screen graphics.
+```
+
+#### 9 · RF06
+
+```text
+From RF06-KEY, same overhead fixed camera. One hand lowers the second transparent plate beside the first until it rests, then pauses. The original plate and pegs remain perfectly still. Both plates blank; do not generate lines, lettering or scale changes.
+```
+
+#### 9 · RF07
+
+```text
+From RF07-KEY, locked camera. Slide the second blank plate once onto the first until the holes line up with the fixed pegs, then the hand comes to rest. Both plates keep precise shape and a sharp edge. No printed lines, no magic change, no cut. Hold the final position for compositing.
+```
+
+#### 9 · RF08
+
+```text
+From RF08-KEY, fixed 16:9 exterior. The same small amber plume passes from left to right in a smooth continuous stream along the reef shelf; one top branch catches a subtle amber reflection as it passes. Keep the rest of the environment still and don't add bioluminescent explosions.
+```
+
+#### 9 · RF09
+
+```text
+From RF09-KEY, locked side view. Iona slowly withdraws her hand from the glass plate and rests it beside her, holding her quiet look. Preserve the plate and window geometry and the established background, no dialogue, no text, no new people; hold her settled pose.
+```
+
+**Перед запуском:** DRAFT. Не запускать или повторно генерировать по карточке. Публикация рабочего материала не означает художественной приёмки, готовности к подаче или отправки заявки.
+
+<a id="scene-10"></a>
+## Сцена 10 — TenChat — Одна витрина
+
+<!-- scene-meta: {"target_engine":"Grok Imagine","production_state":"DRAFT","duration_s":40,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["contest","not_approved","no_launch"]} -->
+
+**Готовность:** DRAFT · Есть смонтированная версия для просмотра; приёмка и подача не подтверждены.
+
+**Формат:** 9:16, 40 с.
+
+**Персонажи:** Аня, Олег, организатор.
+
+**Что происходит:** Один контакт открывает дверь, дальше Аня сама защищает идею.
+
+**Конкурс:** «Креативное поколение», урок №4 на платформе.
+
+**Раскадровка, референсы и промты:** [полный рабочий план](projects/raznoe/references/scenes/scene-10/storyboard-and-prompts.md).
+
+Требования к референсам описаны в плане. Закрытые служебные листы не публикуются.
+
+**Черновой экспорт:** [файл на Google Диске](https://drive.google.com/file/d/1eQ2-lW2mWKgG35iz_MTXITgwOYuddTQc/view), не отметка о приёмке и не встроенное видео.
+
+**Промты видео · Grok Imagine (черновик)**
+
+#### 10 · K01
+
+```text
+Photoreal cinematic vertical 9:16 from still P5-F3. Slow push-in. The same woman [lock] looks at the locked poster, almost slides it into a drawer, then stops and keeps it on the desk. Natural window light, no text, no logo.
+```
+
+#### 10 · K02
+
+```text
+Vertical 9:16 from still P5-F4. Camera locked. Her thumb types one short message and taps send on a simplified, unbranded screen. No official UI, no readable logos.
+```
+
+#### 10 · K03
+
+```text
+Vertical 9:16, small cafe table by a window. Oleg [lock] walks the same woman [lock] to the table and gestures from her to the organizer [lock], introducing them; the organizer and she shake hands. Soft daylight, no text, no logo.
+```
+
+#### 10 · K04
+
+```text
+Vertical 9:16. She stands the locked poster on the table and presents it herself, calm and clear, hands on the print. Medium shot, slow drift, no text, no logo.
+```
+
+#### 10 · K5a/b
+
+```text
+Vertical 9:16, camera locked on the exact vitrine angle of P5-F6/F7. First clip: empty case, faint room ambience, 4s. Second clip: identical camera, the locked poster already behind glass, 4s. No camera move, no lighting change.
+```
+
+#### 10 · K06
+
+```text
+Vertical 9:16, wider shot: she stands beside the finished vitrine, two visitors look at the poster. Slow settle, no text, no logo.
+```
+
+**Перед запуском:** DRAFT. Не запускать или повторно генерировать по карточке. Публикация рабочего материала не означает художественной приёмки, готовности к подаче или отправки заявки.
+
+<a id="scene-11"></a>
+## Сцена 11 — OnlyMakers — Из клипа в канал
+
+<!-- scene-meta: {"target_engine":"Grok Imagine","production_state":"DRAFT","duration_s":20,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["contest","not_approved","no_launch"]} -->
+
+**Готовность:** DRAFT · Есть экспорт ролика и баннер; размеры баннера рабочие до проверки полного брифа.
+
+**Формат:** 9:16, 20 с; баннер 16:9 (1920×1080).
+
+**Персонажи:** Автор игрового канала.
+
+**Что происходит:** Редкий игровой момент превращается в начало собственного канала.
+
+**Конкурс:** «Креативное поколение», урок №5 на платформе.
+
+**Раскадровка, референсы и промты:** [полный рабочий план](projects/raznoe/references/scenes/scene-11/storyboard-and-prompts.md).
+
+Требования к референсам описаны в плане. Закрытые служебные листы не публикуются.
+
+**Черновой экспорт:** [файл на Google Диске](https://drive.google.com/file/d/1LieS6QCIYaiVCaTKuMZe6CNpnV3UyYPQ/view), не отметка о приёмке и не встроенное видео.
+
+**Отдельный файл:** [баннер 16:9](https://drive.google.com/file/d/11-pGEMQU5gz59ODHiaS5GBoM3aspMtXp/view).
+
+**Промты видео · Grok Imagine (черновик)**
+
+#### 11 · K01
+
+```text
+Vertical 9:16, photoreal. Start on the locked sci-fi rooftop action for two seconds, then cut to his hand above a generic delete control; the finger hesitates and does not press. Handheld micro-shake, no text, no logo.
+```
+
+#### 11 · K02
+
+```text
+Vertical 9:16 from still P6-F3. Camera locked. He leans to the microphone and records a short voice-over, one breath, one sentence-length gesture. No text, no logo.
+```
+
+#### 11 · K03
+
+```text
+Vertical 9:16 from still P6-F4. Quick cuts inside the shot: playhead runs, two clips snap to the timeline, the rooftop preview plays. No readable official UI, no logos.
+```
+
+#### 11 · K04
+
+```text
+Vertical 9:16. The cover from P6-F5 settles into place on a desk or screen. Slow push, no typography, no logo.
+```
+
+#### 11 · K05
+
+```text
+Vertical 9:16, calm hold on the desk and muted monitor, 4s, for a CTA plate in edit. No text in generation.
+```
+
+**Перед запуском:** DRAFT. Не запускать или повторно генерировать по карточке. Публикация рабочего материала не означает художественной приёмки, готовности к подаче или отправки заявки.
+
+<a id="scene-12"></a>
+## Сцена 12 — DFM — Шинель: тепло не найдено
+
+<!-- scene-meta: {"target_engine":"Grok Imagine","production_state":"DRAFT","duration_s":90,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["contest","not_approved","no_launch"]} -->
+
+**Готовность:** DRAFT · Есть смонтированная версия. Концепцию сериала готовить отдельным приложением.
+
+**Формат:** 9:16, 90 с.
+
+**Персонажи:** Акакий, сотрудник бюро.
+
+**Что происходит:** Адаптация Гоголя для «Бюро отсутствующих»: одна шинель, один отказ и странный финал.
+
+**Конкурс:** «Креативное поколение», урок №15 на платформе.
+
+**Раскадровка, референсы и промты:** [полный рабочий план](projects/raznoe/references/scenes/scene-12/storyboard-and-prompts.md).
+
+Требования к референсам описаны в плане. Закрытые служебные листы не публикуются.
+
+**Черновой экспорт:** [файл на Google Диске](https://drive.google.com/file/d/1eavL2dBGC-mhvM1Qz_zf8UaA3Fvot2Jx/view), не отметка о приёмке и не встроенное видео.
+
+**Промты видео · Grok Imagine (черновик)**
+
+#### 12 · K01
+
+```text
+Vertical 9:16, photoreal, from P7-F4. The same man [thin-coat lock] counts small coins in a trembling palm, steam in the underpass. Slow push, no text.
+```
+
+#### 12 · K02
+
+```text
+Vertical 9:16. At a tailor counter he receives the locked overcoat; the orange cuff thread is visible as he slips it on. Camera steady, no text, no logo.
+```
+
+#### 12 · K03
+
+```text
+Vertical 9:16, night courtyard snow. He walks in the locked overcoat, shoulders finally straight, one visible breath. Tracking medium shot, no text.
+```
+
+#### 12 · K04
+
+```text
+Vertical 9:16, back in the underpass. Hands yank the overcoat off; he falls; the coat disappears down the corridor. Sharp, short action, no gore, no text.
+```
+
+#### 12 · K05
+
+```text
+Vertical 9:16, from P7-F6. He stands at the desk; the clerk [lock] refuses him. A stylized unbranded board flickers a generic “not found” mark — not a real government UI. No logos.
+```
+
+#### 12 · K06
+
+```text
+Vertical 9:16. Same man back in the thin coat, empty underpass, wind. Hold on his face, no text.
+```
+
+#### 12 · K7a
+
+```text
+Vertical 9:16, camera locked on the exact plate of P7-F5. Empty underpass, still puddle, steam drifts. No people, no reflection action, no text.
+```
+
+#### 12 · K7b
+
+```text
+Vertical 9:16, same underpass and the same locked camera height, eye level. The same man [lock] in the locked charcoal overcoat with the orange cuff thread steps up to the clerk [lock] and pulls the black coat off his shoulders. No change of camera, no extra characters, no text, no logo, no glitch effects. Use 6–8 seconds, then hold the reflection inside the mask on the background plate until 01:10.
+```
+
+#### 12 · K08
+
+```text
+Same locked camera. The reflection fades; the underpass is empty; the clerk's black coat (the one taken in the K7 reflection) lies on a rail for a beat and is gone; the charcoal overcoat with the orange thread is not on the rail. No text.
+```
+
+**Перед запуском:** DRAFT. Не запускать или повторно генерировать по карточке. Публикация рабочего материала не означает художественной приёмки, готовности к подаче или отправки заявки.
+
+<a id="scene-13"></a>
+## Сцена 13 — ХвостРадар — Белый носок
+
+<!-- scene-meta: {"target_engine":"Grok Imagine","production_state":"DRAFT","duration_s":48,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["contest","not_approved","no_launch"]} -->
+
+**Готовность:** DRAFT · Есть смонтированный вариант. Художественная приёмка и подача не подтверждены.
+
+**Формат:** 9:16, 48 с.
+
+**Персонажи:** Марина, Игорь, Рыжик.
+
+**Что происходит:** Два объявления, две фотографии и один белый носок, по которому люди проверяют совпадение.
+
+**Конкурс:** «Креативное поколение», урок №6 на платформе.
+
+**Раскадровка, референсы и промты:** [полный рабочий план](projects/raznoe/references/scenes/scene-13/storyboard-and-prompts.md).
+
+**Рабочий визуальный референс:**
+
+<div class="scene-ref-gallery"><figure><a href="projects/raznoe/references/scenes/scene-13/BN-R01-dog-identity.webp" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-13/BN-R01-dog-identity.webp" alt="Лист пса: левая передняя лапа белая, правое ухо загнуто; рабочий референс, не утверждённый стартовый кадр" loading="lazy"></a><figcaption>Лист пса: левая передняя лапа белая, правое ухо загнуто; рабочий референс, не утверждённый стартовый кадр</figcaption></figure></div>
+
+**Черновой экспорт:** [файл на Google Диске](https://drive.google.com/file/d/18wyfw8Ms2O_4FxKKHK_EWQ44pnsyUi5u/view), не отметка о приёмке и не встроенное видео.
+
+**Промты видео · Grok Imagine (черновик)**
+
+#### 13 · K01
+
+```text
+Vertical 9:16 from P8-F6. The woman [lock] steps in, sees the empty bowl and leash, picks up a printed or phone copy of still P8-F2. Medium shot, no text, no logo.
+```
+
+#### 13 · K02
+
+```text
+Vertical 9:16, close on her hands. She uploads the home photo on a simplified unbranded phone screen and confirms. Camera locked, no official UI, no logo.
+```
+
+#### 13 · K03
+
+```text
+Vertical 9:16 from still P8-F3, camera locked, eye level. The same dog [lock] takes one step, stops, and turns its head toward a soft off-screen whistle. White left front paw, folded right ear, ginger coat and green bench unchanged. Then a man [Igor lock] raises a phone and takes one photo. No new characters beyond him, no text, no logo.
+```
+
+#### 13 · K04
+
+```text
+Post-production only. Place crops from the same two existing owner/found photographs P8-F2 and P8-F3 side by side; preserve the dog’s anatomical left white forepaw and bent right ear. No new photographs, no generation, no mirroring.
+```
+
+#### 13 · K05
+
+```text
+Vertical 9:16, same courtyard and green bench. The woman and the man [locks] compare the paw and the ear in person; the dog [lock] stands with them. Natural overcast light, no text, no logo.
+```
+
+#### 13 · K06
+
+```text
+Vertical 9:16. She kneels, the dog steps to her; the man stays a step aside. Short, quiet, no slow motion, no text, no logo.
+```
+
+#### 13 · K07
+
+```text
+Vertical 9:16, gentle hold on the bench and the dog’s left front paw, 4s, for the end plate. No text in generation.
+```
+
+**Перед запуском:** DRAFT. Не запускать или повторно генерировать по карточке. Публикация рабочего материала не означает художественной приёмки, готовности к подаче или отправки заявки.
+
