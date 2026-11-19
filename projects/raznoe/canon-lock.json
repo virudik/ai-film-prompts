@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:12ba392e-7a26-44eb-94dc-0b123e5b9e44",
-  "task": "Стахий: добавить проверенные рабочие референсы в сцену 6",
-  "acquired_at": "2026-11-19T12:04:37.883Z",
-  "expires_at": null,
-  "released_at": "2026-11-19T12:05:11.707Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:3ae7ab23-55ae-4daf-9476-0324f39e0715",
+  "task": "Стахий: закрепить каноническое имя героя в сцене 6",
+  "acquired_at": "2026-11-19T13:01:39.471Z",
+  "expires_at": "2026-11-19T13:31:39.472Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }
