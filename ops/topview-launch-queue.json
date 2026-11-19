@@ -3547,7 +3547,7 @@
       "canonical_prompt_sha256": "fbc6cf05411549582e90d228c4d70f3410d449baac5c8e1885adc188ecad89db",
       "normalized_prompt_sha256": "91c247c4013547f69175c21ed4c99bb4251934b0d4c4ba6ab3f6be55902e6e82",
       "priority": 0.306,
-      "state": "claimed",
+      "state": "submitting",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "model_id": "qwen-wan3.0-video",
@@ -3667,7 +3667,34 @@
             "text": "Да, «Безлимитный режим» без цены считай бесплатным, запускай"
           }
         },
-        "coordination_version": 2
+        "coordination_version": 2,
+        "submission_intent_id": "8a3fb67b-9900-49f2-8a0c-56110a5303cf",
+        "submission_intent_at": "2026-11-19T00:35:56Z",
+        "replay_forbidden": true,
+        "host_run": {
+          "namespace": "cursor_host",
+          "observation_source": "parent_shell_os_environ",
+          "field": "CURSOR_REQUEST_ID",
+          "value": "c8951c23-a0fe-4962-a263-317cf4daeafb",
+          "conversation_field": "CURSOR_CONVERSATION_ID",
+          "conversation_id": "1c1bf697-3c93-4068-b457-e90efdd5ef8f",
+          "owner_host_address": "t718u",
+          "owner_host_role": "user"
+        },
+        "provider_run_key": "d17110d659efba92ce40341d5c5fe027c1db20ad75aa053ca1ed6cf82d0082dc",
+        "owner_event_keys": [
+          "56864b7e8cc9dc6d3068bd34f8d4d623329393afa27ae6dec5977bdb97545bd8"
+        ],
+        "ledger_path": "ops/launcher-run-ledger.json",
+        "trigger": "owner_command",
+        "owner_command": {
+          "quote": "Короче не справляется дот, бери все его обязанности по слотам на себя. Он там косячит запускай и следи за очередью сам",
+          "source": "cursor_host",
+          "at": "2026-11-18T23:53:00Z",
+          "host_address": "t718u",
+          "host_role": "user"
+        },
+        "intent_payload_sha256": "c22263ee8102cbf06036eadfe2707e6eee60c6eb1668b595d9c8031130003170"
       }
     }
   ],
