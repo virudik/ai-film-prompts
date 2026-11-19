@@ -3,12 +3,12 @@
   "source_of_truth": "GitHub main/projects/stikhiy/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-19T21:41:53Z",
+  "synced_at": "2026-11-19T22:37:50Z",
   "revision_date": "20.11.2026",
-  "master_declared_last_full_sync": "19.11.2026 · самостоятельный проект «Стахий»; одна сцена, 25 DRAFT-промтов, 20 рабочих референсов. Запуск не разрешён.",
-  "canonical_master_sha256": "09ae24599f98f6b015b439dba87f15af55e50d0c89a325240dcd40bf7078e7ab",
-  "canonical_revision_sha256": "d6d5fea0b32f7d04dca673dc502ecb74ad743b91c7875fb1a30297e43b9f9713",
-  "canonical_master_bytes": 151118,
+  "master_declared_last_full_sync": "19.11.2026 · самостоятельный проект «Стахий»; одна сцена, 25 DRAFT-промтов, 31 рабочий референс, из них 11 листов V2 с ракурсами головы. Запуск не разрешён.",
+  "canonical_master_sha256": "f3972a1fd89106e603c91d39c6ea10c91dcbfc2959c61988f9eeeb07162facd3",
+  "canonical_revision_sha256": "42d11faafd78ef41828ef8067178a4e18871e6259d4aef13b36f20bdfc0fcae8",
+  "canonical_master_bytes": 156826,
   "scenes": 1,
   "prompt_texts": 25,
   "work_items": [],
@@ -26,7 +26,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 10.001,
+    "age_hours_at_status_build": 10.934,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -104,7 +104,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 10.001,
+      "age_hours": 10.934,
       "blocking": false
     },
     "topview_task_map": {
@@ -138,9 +138,9 @@
   },
   "audit_fingerprint": {
     "revision_date": "20.11.2026",
-    "synced_at": "2026-11-19T21:41:53Z",
-    "canonical_master_sha256": "09ae24599f98f6b015b439dba87f15af55e50d0c89a325240dcd40bf7078e7ab",
-    "canonical_revision_sha256": "d6d5fea0b32f7d04dca673dc502ecb74ad743b91c7875fb1a30297e43b9f9713",
+    "synced_at": "2026-11-19T22:37:50Z",
+    "canonical_master_sha256": "f3972a1fd89106e603c91d39c6ea10c91dcbfc2959c61988f9eeeb07162facd3",
+    "canonical_revision_sha256": "42d11faafd78ef41828ef8067178a4e18871e6259d4aef13b36f20bdfc0fcae8",
     "scene_count": 1,
     "prompt_count": 25,
     "scene_ids": [

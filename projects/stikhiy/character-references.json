@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "project": "stikhiy",
-  "updated_at": "2026-11-19T21:21:08.719Z",
-  "source": "Перенос уже опубликованных рабочих референсов проекта «Стахий»: 9 листов внешности и 11 локаций. Исходные семейные фотографии не публикуются.",
+  "updated_at": "2026-11-19T22:37:50.615281Z",
+  "source": "Перенос уже опубликованных рабочих референсов проекта «Стахий»: 9 листов внешности и 11 локаций. Исходные семейные фотографии не публикуются. Добавлены 11 изображений V2 по опубликованным черновикам; исходники V1 оставлены как дополнительные.",
   "characters": [
     {
       "id": "S6-Arkady",
@@ -16,10 +16,50 @@
         "primary": "Аркадий",
         "additional": [],
         "public_image": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
-        "full_image": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp"
+        "full_image": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
+        "gallery": [
+          {
+            "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
+            "caption": "Аркадий · V1, дополнительный лист",
+            "width": 1250,
+            "height": 833,
+            "sha256": "2b46c27705531e51535878b15437f54f13743dd7ab293a916079987c1213ee97",
+            "scenes": [
+              1
+            ],
+            "editorial_status": "not_approved",
+            "role": "character_identity_draft",
+            "active_prompt_input": false
+          },
+          {
+            "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp",
+            "caption": "Аркадий · V2, ракурсы головы",
+            "width": 1536,
+            "height": 1024,
+            "sha256": "751092a5f51e3c8343a6aee125b0328300b35e3d8bb6d5e718b5bd65c295fe2d",
+            "scenes": [
+              1
+            ],
+            "editorial_status": "not_approved",
+            "role": "character_turnaround_draft",
+            "active_prompt_input": false,
+            "derived_from": [
+              "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp"
+            ]
+          }
+        ]
       },
       "outfit_variant": "Одежду выбирать по эпизоду, а не по листу.",
-      "variants": [],
+      "variants": [
+        {
+          "model_sheet_path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp",
+          "label": "Аркадий · V2, ракурсы головы",
+          "notes": "Черновик V2, отдельные положения головы в одном возрасте и прежней одежде.",
+          "scenes": [
+            1
+          ]
+        }
+      ],
       "provenance": {
         "project": "stikhiy",
         "created": "2026-11-19",
@@ -40,6 +80,22 @@
           ],
           "editorial_status": "not_approved",
           "derived_from": []
+        },
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp",
+          "caption": "Аркадий · V2, ракурсы головы",
+          "width": 1536,
+          "height": 1024,
+          "sha256": "751092a5f51e3c8343a6aee125b0328300b35e3d8bb6d5e718b5bd65c295fe2d",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved",
+          "role": "character_turnaround_draft",
+          "active_prompt_input": false,
+          "derived_from": [
+            "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp"
+          ]
         }
       ]
     },
@@ -55,10 +111,50 @@
         "primary": "Надежда",
         "additional": [],
         "public_image": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
-        "full_image": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp"
+        "full_image": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
+        "gallery": [
+          {
+            "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
+            "caption": "Надежда · V1, дополнительный лист",
+            "width": 1250,
+            "height": 833,
+            "sha256": "ecb8e3889da18219df7cff1a257745d72fcee325bd72e78221aff01d353661f4",
+            "scenes": [
+              1
+            ],
+            "editorial_status": "not_approved",
+            "role": "character_identity_draft",
+            "active_prompt_input": false
+          },
+          {
+            "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp",
+            "caption": "Надежда · V2, ракурсы головы",
+            "width": 1536,
+            "height": 1024,
+            "sha256": "605e99dcd85c39f16b48bb0907cfaba69ddd9aa2a1fe471fa707cbd43f81debd",
+            "scenes": [
+              1
+            ],
+            "editorial_status": "not_approved",
+            "role": "character_turnaround_draft",
+            "active_prompt_input": false,
+            "derived_from": [
+              "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp"
+            ]
+          }
+        ]
       },
       "outfit_variant": "Одежду выбирать по эпизоду, а не по листу.",
-      "variants": [],
+      "variants": [
+        {
+          "model_sheet_path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp",
+          "label": "Надежда · V2, ракурсы головы",
+          "notes": "Черновик V2, отдельные положения головы в одном возрасте и прежней одежде.",
+          "scenes": [
+            1
+          ]
+        }
+      ],
       "provenance": {
         "project": "stikhiy",
         "created": "2026-11-19",
@@ -79,6 +175,22 @@
           ],
           "editorial_status": "not_approved",
           "derived_from": []
+        },
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp",
+          "caption": "Надежда · V2, ракурсы головы",
+          "width": 1536,
+          "height": 1024,
+          "sha256": "605e99dcd85c39f16b48bb0907cfaba69ddd9aa2a1fe471fa707cbd43f81debd",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved",
+          "role": "character_turnaround_draft",
+          "active_prompt_input": false,
+          "derived_from": [
+            "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp"
+          ]
         }
       ]
     },
@@ -94,10 +206,101 @@
         "primary": "Стахий: 1, 2 и 3 года",
         "additional": [],
         "public_image": "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp",
-        "full_image": "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp"
+        "full_image": "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp",
+        "gallery": [
+          {
+            "path": "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp",
+            "caption": "Стахий: 1, 2 и 3 года · V1, дополнительный лист",
+            "width": 1250,
+            "height": 833,
+            "sha256": "13403399c0a3e910fe38fd0d718424a15617956b80d9f64fe50b98ec4bf5d2ad",
+            "scenes": [
+              1
+            ],
+            "editorial_status": "not_approved",
+            "role": "character_identity_draft",
+            "active_prompt_input": false
+          },
+          {
+            "path": "projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp",
+            "caption": "Стахий, 1 год · V2, ракурсы головы",
+            "width": 1536,
+            "height": 1024,
+            "sha256": "6c6c3c379444bcf95d4ad5969685c4124ae45d1189199af19c58ed5853023511",
+            "scenes": [
+              1
+            ],
+            "editorial_status": "not_approved",
+            "role": "character_turnaround_draft",
+            "active_prompt_input": false,
+            "derived_from": [
+              "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp"
+            ]
+          },
+          {
+            "path": "projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp",
+            "caption": "Стахий, 2 года · V2, ракурсы головы",
+            "width": 1536,
+            "height": 1024,
+            "sha256": "7ba78814eacf9914200c1de2da69920c4b0363cefb9e1a05a788eb5984b40722",
+            "scenes": [
+              1
+            ],
+            "editorial_status": "not_approved",
+            "role": "character_turnaround_draft",
+            "active_prompt_input": false,
+            "derived_from": [
+              "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp"
+            ]
+          },
+          {
+            "path": "projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp",
+            "caption": "Стахий, 3 года · V2, ракурсы головы",
+            "width": 1536,
+            "height": 1024,
+            "sha256": "551b02331509554ba23e0d0c0c60742d44bb7f6a2e5cbc62473e3853fb3e5fd5",
+            "scenes": [
+              1
+            ],
+            "editorial_status": "not_approved",
+            "role": "character_turnaround_draft",
+            "active_prompt_input": false,
+            "derived_from": [
+              "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp"
+            ]
+          }
+        ]
       },
       "outfit_variant": "Возрастные колонки слева направо: около 1, 2 и 3 лет.",
-      "variants": [],
+      "variants": [
+        {
+          "model_sheet_path": "projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp",
+          "label": "Стахий, 1 год · V2, ракурсы головы",
+          "notes": "Черновик V2, отдельные положения головы в одном возрасте и прежней одежде.",
+          "scenes": [
+            1
+          ],
+          "age_years_approx": 1
+        },
+        {
+          "model_sheet_path": "projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp",
+          "label": "Стахий, 2 года · V2, ракурсы головы",
+          "notes": "Черновик V2, отдельные положения головы в одном возрасте и прежней одежде.",
+          "scenes": [
+            1
+          ],
+          "age_years_approx": 2
+        },
+        {
+          "model_sheet_path": "projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp",
+          "label": "Стахий, 3 года · V2, ракурсы головы",
+          "notes": "Черновик V2, отдельные положения головы в одном возрасте и прежней одежде.",
+          "scenes": [
+            1
+          ],
+          "age_years_approx": 3
+        }
+      ],
       "provenance": {
         "project": "stikhiy",
         "created": "2026-11-19",
@@ -118,6 +321,54 @@
           ],
           "editorial_status": "not_approved",
           "derived_from": []
+        },
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp",
+          "caption": "Стахий, 1 год · V2, ракурсы головы",
+          "width": 1536,
+          "height": 1024,
+          "sha256": "6c6c3c379444bcf95d4ad5969685c4124ae45d1189199af19c58ed5853023511",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved",
+          "role": "character_turnaround_draft",
+          "active_prompt_input": false,
+          "derived_from": [
+            "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp"
+          ]
+        },
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp",
+          "caption": "Стахий, 2 года · V2, ракурсы головы",
+          "width": 1536,
+          "height": 1024,
+          "sha256": "7ba78814eacf9914200c1de2da69920c4b0363cefb9e1a05a788eb5984b40722",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved",
+          "role": "character_turnaround_draft",
+          "active_prompt_input": false,
+          "derived_from": [
+            "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp"
+          ]
+        },
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp",
+          "caption": "Стахий, 3 года · V2, ракурсы головы",
+          "width": 1536,
+          "height": 1024,
+          "sha256": "551b02331509554ba23e0d0c0c60742d44bb7f6a2e5cbc62473e3853fb3e5fd5",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved",
+          "role": "character_turnaround_draft",
+          "active_prompt_input": false,
+          "derived_from": [
+            "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp"
+          ]
         }
       ]
     },
@@ -133,10 +384,50 @@
         "primary": "Пётр",
         "additional": [],
         "public_image": "projects/stikhiy/references/scenes/scene-1/S6-Petr.webp",
-        "full_image": "projects/stikhiy/references/scenes/scene-1/S6-Petr.webp"
+        "full_image": "projects/stikhiy/references/scenes/scene-1/S6-Petr.webp",
+        "gallery": [
+          {
+            "path": "projects/stikhiy/references/scenes/scene-1/S6-Petr.webp",
+            "caption": "Пётр · V1, дополнительный лист",
+            "width": 1250,
+            "height": 833,
+            "sha256": "15c315d10db462c88fce87fcc4cd63b520a6efc2b8a7c9a0d88bb981b2ee3ec9",
+            "scenes": [
+              1
+            ],
+            "editorial_status": "not_approved",
+            "role": "character_identity_draft",
+            "active_prompt_input": false
+          },
+          {
+            "path": "projects/stikhiy/references/scenes/scene-1/S6-Petr-Head-V2.webp",
+            "caption": "Пётр · V2, ракурсы головы",
+            "width": 1536,
+            "height": 1024,
+            "sha256": "4a8749e7b81a5f499447d460f361120b0fbd93336304fd921f4e29c5d8f705fa",
+            "scenes": [
+              1
+            ],
+            "editorial_status": "not_approved",
+            "role": "character_turnaround_draft",
+            "active_prompt_input": false,
+            "derived_from": [
+              "projects/stikhiy/references/scenes/scene-1/S6-Petr.webp"
+            ]
+          }
+        ]
       },
       "outfit_variant": "Одежду выбирать по эпизоду, а не по листу.",
-      "variants": [],
+      "variants": [
+        {
+          "model_sheet_path": "projects/stikhiy/references/scenes/scene-1/S6-Petr-Head-V2.webp",
+          "label": "Пётр · V2, ракурсы головы",
+          "notes": "Черновик V2, отдельные положения головы в одном возрасте и прежней одежде.",
+          "scenes": [
+            1
+          ]
+        }
+      ],
       "provenance": {
         "project": "stikhiy",
         "created": "2026-11-19",
@@ -157,6 +448,22 @@
           ],
           "editorial_status": "not_approved",
           "derived_from": []
+        },
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Petr-Head-V2.webp",
+          "caption": "Пётр · V2, ракурсы головы",
+          "width": 1536,
+          "height": 1024,
+          "sha256": "4a8749e7b81a5f499447d460f361120b0fbd93336304fd921f4e29c5d8f705fa",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved",
+          "role": "character_turnaround_draft",
+          "active_prompt_input": false,
+          "derived_from": [
+            "projects/stikhiy/references/scenes/scene-1/S6-Petr.webp"
+          ]
         }
       ]
     },
@@ -172,10 +479,50 @@
         "primary": "Нина",
         "additional": [],
         "public_image": "projects/stikhiy/references/scenes/scene-1/S6-Nina.webp",
-        "full_image": "projects/stikhiy/references/scenes/scene-1/S6-Nina.webp"
+        "full_image": "projects/stikhiy/references/scenes/scene-1/S6-Nina.webp",
+        "gallery": [
+          {
+            "path": "projects/stikhiy/references/scenes/scene-1/S6-Nina.webp",
+            "caption": "Нина · V1, дополнительный лист",
+            "width": 1250,
+            "height": 833,
+            "sha256": "0a5b09a1fae4bb9fe4aff349a59e08f4505a81f627816f79828de175225b2fa5",
+            "scenes": [
+              1
+            ],
+            "editorial_status": "not_approved",
+            "role": "character_identity_draft",
+            "active_prompt_input": false
+          },
+          {
+            "path": "projects/stikhiy/references/scenes/scene-1/S6-Nina-Head-V2.webp",
+            "caption": "Нина · V2, ракурсы головы",
+            "width": 1536,
+            "height": 768,
+            "sha256": "df7a713b2097a6f4edf67bc6137b8492162e92ea6318c38485b6620fabe468b0",
+            "scenes": [
+              1
+            ],
+            "editorial_status": "not_approved",
+            "role": "character_turnaround_draft",
+            "active_prompt_input": false,
+            "derived_from": [
+              "projects/stikhiy/references/scenes/scene-1/S6-Nina.webp"
+            ]
+          }
+        ]
       },
       "outfit_variant": "Одежду выбирать по эпизоду, а не по листу.",
-      "variants": [],
+      "variants": [
+        {
+          "model_sheet_path": "projects/stikhiy/references/scenes/scene-1/S6-Nina-Head-V2.webp",
+          "label": "Нина · V2, ракурсы головы",
+          "notes": "Черновик V2, отдельные положения головы в одном возрасте и прежней одежде.",
+          "scenes": [
+            1
+          ]
+        }
+      ],
       "provenance": {
         "project": "stikhiy",
         "created": "2026-11-19",
@@ -196,6 +543,22 @@
           ],
           "editorial_status": "not_approved",
           "derived_from": []
+        },
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nina-Head-V2.webp",
+          "caption": "Нина · V2, ракурсы головы",
+          "width": 1536,
+          "height": 768,
+          "sha256": "df7a713b2097a6f4edf67bc6137b8492162e92ea6318c38485b6620fabe468b0",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved",
+          "role": "character_turnaround_draft",
+          "active_prompt_input": false,
+          "derived_from": [
+            "projects/stikhiy/references/scenes/scene-1/S6-Nina.webp"
+          ]
         }
       ]
     },
@@ -211,10 +574,50 @@
         "primary": "Анатолий",
         "additional": [],
         "public_image": "projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp",
-        "full_image": "projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp"
+        "full_image": "projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp",
+        "gallery": [
+          {
+            "path": "projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp",
+            "caption": "Анатолий · V1, дополнительный лист",
+            "width": 1250,
+            "height": 833,
+            "sha256": "57b61e7362cf72db9bb6a9cf7e98ce44232a21670de0031ca8a7703533cf1692",
+            "scenes": [
+              1
+            ],
+            "editorial_status": "not_approved",
+            "role": "character_identity_draft",
+            "active_prompt_input": false
+          },
+          {
+            "path": "projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2.webp",
+            "caption": "Анатолий · V2, ракурсы головы",
+            "width": 1536,
+            "height": 768,
+            "sha256": "349a4589d24ef2a1cdce703c28e274aaf015ddda89cf1d48a03b5fb15c3cff19",
+            "scenes": [
+              1
+            ],
+            "editorial_status": "not_approved",
+            "role": "character_turnaround_draft",
+            "active_prompt_input": false,
+            "derived_from": [
+              "projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp"
+            ]
+          }
+        ]
       },
       "outfit_variant": "Одежду выбирать по эпизоду, а не по листу.",
-      "variants": [],
+      "variants": [
+        {
+          "model_sheet_path": "projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2.webp",
+          "label": "Анатолий · V2, ракурсы головы",
+          "notes": "Черновик V2, отдельные положения головы в одном возрасте и прежней одежде.",
+          "scenes": [
+            1
+          ]
+        }
+      ],
       "provenance": {
         "project": "stikhiy",
         "created": "2026-11-19",
@@ -235,6 +638,22 @@
           ],
           "editorial_status": "not_approved",
           "derived_from": []
+        },
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2.webp",
+          "caption": "Анатолий · V2, ракурсы головы",
+          "width": 1536,
+          "height": 768,
+          "sha256": "349a4589d24ef2a1cdce703c28e274aaf015ddda89cf1d48a03b5fb15c3cff19",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved",
+          "role": "character_turnaround_draft",
+          "active_prompt_input": false,
+          "derived_from": [
+            "projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp"
+          ]
         }
       ]
     },
@@ -250,10 +669,50 @@
         "primary": "Владимир",
         "additional": [],
         "public_image": "projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp",
-        "full_image": "projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp"
+        "full_image": "projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp",
+        "gallery": [
+          {
+            "path": "projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp",
+            "caption": "Владимир · V1, дополнительный лист",
+            "width": 1250,
+            "height": 833,
+            "sha256": "c62d5db6b9cfa70a6ee03f0e06d2a508e0754965bcb934912761cdfa56d4edee",
+            "scenes": [
+              1
+            ],
+            "editorial_status": "not_approved",
+            "role": "character_identity_draft",
+            "active_prompt_input": false
+          },
+          {
+            "path": "projects/stikhiy/references/scenes/scene-1/S6-Vladimir-Head-V2.webp",
+            "caption": "Владимир · V2, ракурсы головы",
+            "width": 1536,
+            "height": 768,
+            "sha256": "dda42e6d61565f6c71d744627555f7193dfa992285b6a0228093b3e1e6032666",
+            "scenes": [
+              1
+            ],
+            "editorial_status": "not_approved",
+            "role": "character_turnaround_draft",
+            "active_prompt_input": false,
+            "derived_from": [
+              "projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp"
+            ]
+          }
+        ]
       },
       "outfit_variant": "Одежду выбирать по эпизоду, а не по листу.",
-      "variants": [],
+      "variants": [
+        {
+          "model_sheet_path": "projects/stikhiy/references/scenes/scene-1/S6-Vladimir-Head-V2.webp",
+          "label": "Владимир · V2, ракурсы головы",
+          "notes": "Черновик V2, отдельные положения головы в одном возрасте и прежней одежде.",
+          "scenes": [
+            1
+          ]
+        }
+      ],
       "provenance": {
         "project": "stikhiy",
         "created": "2026-11-19",
@@ -274,6 +733,22 @@
           ],
           "editorial_status": "not_approved",
           "derived_from": []
+        },
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Vladimir-Head-V2.webp",
+          "caption": "Владимир · V2, ракурсы головы",
+          "width": 1536,
+          "height": 768,
+          "sha256": "dda42e6d61565f6c71d744627555f7193dfa992285b6a0228093b3e1e6032666",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved",
+          "role": "character_turnaround_draft",
+          "active_prompt_input": false,
+          "derived_from": [
+            "projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp"
+          ]
         }
       ]
     },
@@ -287,10 +762,44 @@
         "primary": "Шура",
         "additional": [],
         "public_image": "projects/stikhiy/references/scenes/scene-1/S6-Shura.webp",
-        "full_image": "projects/stikhiy/references/scenes/scene-1/S6-Shura.webp"
+        "full_image": "projects/stikhiy/references/scenes/scene-1/S6-Shura.webp",
+        "gallery": [
+          {
+            "path": "projects/stikhiy/references/scenes/scene-1/S6-Shura.webp",
+            "caption": "Шура · V1, дополнительный лист",
+            "width": 1250,
+            "height": 833,
+            "sha256": "fe4f5a31662abc87093ecd9342e69b15987dbb58059f34975d04090f2ac19972",
+            "scenes": [],
+            "editorial_status": "not_approved",
+            "role": "gallery_only",
+            "active_prompt_input": false
+          },
+          {
+            "path": "projects/stikhiy/references/scenes/scene-1/S6-Shura-Head-V2.webp",
+            "caption": "Шура · V2, ракурсы головы · только галерея, роль не назначена",
+            "width": 1536,
+            "height": 1024,
+            "sha256": "ad15ca87c37f6ad7a33ed0084938a1bb865480ed01feffcdf1e0353a225b1ed7",
+            "scenes": [],
+            "editorial_status": "not_approved",
+            "role": "gallery_only",
+            "active_prompt_input": false,
+            "derived_from": [
+              "projects/stikhiy/references/scenes/scene-1/S6-Shura.webp"
+            ]
+          }
+        ]
       },
       "outfit_variant": "Галерея; сюжетный эпизод не назначен.",
-      "variants": [],
+      "variants": [
+        {
+          "model_sheet_path": "projects/stikhiy/references/scenes/scene-1/S6-Shura-Head-V2.webp",
+          "label": "Шура · V2, ракурсы головы · только галерея, роль не назначена",
+          "notes": "Черновик V2, отдельные положения головы в одном возрасте и прежней одежде.",
+          "scenes": []
+        }
+      ],
       "provenance": {
         "project": "stikhiy",
         "created": "2026-11-19",
@@ -309,6 +818,20 @@
           "scenes": [],
           "editorial_status": "not_approved",
           "derived_from": []
+        },
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Shura-Head-V2.webp",
+          "caption": "Шура · V2, ракурсы головы · только галерея, роль не назначена",
+          "width": 1536,
+          "height": 1024,
+          "sha256": "ad15ca87c37f6ad7a33ed0084938a1bb865480ed01feffcdf1e0353a225b1ed7",
+          "scenes": [],
+          "editorial_status": "not_approved",
+          "role": "gallery_only",
+          "active_prompt_input": false,
+          "derived_from": [
+            "projects/stikhiy/references/scenes/scene-1/S6-Shura.webp"
+          ]
         }
       ]
     },
@@ -322,10 +845,44 @@
         "primary": "Юлия",
         "additional": [],
         "public_image": "projects/stikhiy/references/scenes/scene-1/S6-Julia.webp",
-        "full_image": "projects/stikhiy/references/scenes/scene-1/S6-Julia.webp"
+        "full_image": "projects/stikhiy/references/scenes/scene-1/S6-Julia.webp",
+        "gallery": [
+          {
+            "path": "projects/stikhiy/references/scenes/scene-1/S6-Julia.webp",
+            "caption": "Юлия · V1, дополнительный лист",
+            "width": 1250,
+            "height": 833,
+            "sha256": "a165ec9d705f0b7867bda487b7c72777b497bc0a69e7527d928c6c6bf47770d9",
+            "scenes": [],
+            "editorial_status": "not_approved",
+            "role": "gallery_only",
+            "active_prompt_input": false
+          },
+          {
+            "path": "projects/stikhiy/references/scenes/scene-1/S6-Julia-Head-V2.webp",
+            "caption": "Юлия · V2, ракурсы головы · только галерея, роль не назначена",
+            "width": 1536,
+            "height": 1024,
+            "sha256": "229a862e63db7bcdd7cf8bc76f3e1bf0c9f3942f0b1584af99b15667f4f9eca3",
+            "scenes": [],
+            "editorial_status": "not_approved",
+            "role": "gallery_only",
+            "active_prompt_input": false,
+            "derived_from": [
+              "projects/stikhiy/references/scenes/scene-1/S6-Julia.webp"
+            ]
+          }
+        ]
       },
       "outfit_variant": "Галерея; сюжетный эпизод не назначен.",
-      "variants": [],
+      "variants": [
+        {
+          "model_sheet_path": "projects/stikhiy/references/scenes/scene-1/S6-Julia-Head-V2.webp",
+          "label": "Юлия · V2, ракурсы головы · только галерея, роль не назначена",
+          "notes": "Черновик V2, отдельные положения головы в одном возрасте и прежней одежде.",
+          "scenes": []
+        }
+      ],
       "provenance": {
         "project": "stikhiy",
         "created": "2026-11-19",
@@ -344,6 +901,20 @@
           "scenes": [],
           "editorial_status": "not_approved",
           "derived_from": []
+        },
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Julia-Head-V2.webp",
+          "caption": "Юлия · V2, ракурсы головы · только галерея, роль не назначена",
+          "width": 1536,
+          "height": 1024,
+          "sha256": "229a862e63db7bcdd7cf8bc76f3e1bf0c9f3942f0b1584af99b15667f4f9eca3",
+          "scenes": [],
+          "editorial_status": "not_approved",
+          "role": "gallery_only",
+          "active_prompt_input": false,
+          "derived_from": [
+            "projects/stikhiy/references/scenes/scene-1/S6-Julia.webp"
+          ]
         }
       ]
     }
