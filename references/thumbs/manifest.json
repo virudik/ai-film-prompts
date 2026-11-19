@@ -1793,6 +1793,66 @@
    "thumb_bytes": 60298,
    "src_sha256": "19f8a585944667741a0a5a8978d0c39511b8c59b70a1caa31809c22b83d9b44b"
   },
+  "projects/raznoe/references/scenes/scene-7/CP-R01-designer-identity.webp": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-7/CP-R01-designer-identity.webp.webp",
+   "width": 640,
+   "height": 426,
+   "src_width": 1280,
+   "src_height": 853,
+   "src_bytes": 75896,
+   "thumb_bytes": 18874,
+   "src_sha256": "99d1aaafab67211277a0a9c6ce4396f7c8002cd18fa703594e754926fb8db293"
+  },
+  "projects/raznoe/references/scenes/scene-7/PX-MAP-LEGEND-AFTER.webp": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-7/PX-MAP-LEGEND-AFTER.webp.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1600,
+   "src_height": 900,
+   "src_bytes": 71328,
+   "thumb_bytes": 13674,
+   "src_sha256": "e24db880739b4345315c7d89732713fa98d533bfc235dee6bc70ceb05ca0cf98"
+  },
+  "projects/raznoe/references/scenes/scene-7/PX-MAP-OBS-A.webp": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-7/PX-MAP-OBS-A.webp.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1600,
+   "src_height": 900,
+   "src_bytes": 62968,
+   "thumb_bytes": 11638,
+   "src_sha256": "bd24aaf813e7141b3a090864c0cdb43f1939d75fb8575745c69d038ae87da624"
+  },
+  "projects/raznoe/references/scenes/scene-7/PX-MAP-OBS-B.webp": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-7/PX-MAP-OBS-B.webp.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1600,
+   "src_height": 900,
+   "src_bytes": 61974,
+   "thumb_bytes": 11644,
+   "src_sha256": "2539dfc1aec118a7aef63e47faa6130876ff824331d7858df47e50e7be6db59b"
+  },
+  "projects/raznoe/references/scenes/scene-8/OR-R01-courtyard-model.webp": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-8/OR-R01-courtyard-model.webp.webp",
+   "width": 640,
+   "height": 1138,
+   "src_width": 720,
+   "src_height": 1280,
+   "src_bytes": 173458,
+   "thumb_bytes": 99422,
+   "src_sha256": "705d7ca3a7705d3e66d09a41914fc9a6182abde05dba9fece040c0833daed620"
+  },
+  "projects/raznoe/references/scenes/scene-9/RIF-R02-reef-geography.webp": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-9/RIF-R02-reef-geography.webp.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 184774,
+   "thumb_bytes": 48382,
+   "src_sha256": "9be6deae93ba2cf9e3cb3c1798b798e223753b25ce03fc7a506d56687ce63d16"
+  },
   "projects/raznoe/references/sonya-expressions.png": {
    "thumb": "references/thumbs/projects/raznoe/references/sonya-expressions.png.webp",
    "width": 640,
