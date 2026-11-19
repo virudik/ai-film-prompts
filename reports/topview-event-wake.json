@@ -2337,6 +2337,36 @@
       "claim_id": "67df4273-dac1-46c1-81fe-48f2c7254414",
       "submission_intent_id": "a976fb0f-e52e-4672-bc94-f65582d675fc",
       "create_click_count": 1
+    },
+    {
+      "event_id": "result:5d1f4fc1b4e548a7828892c73b672990",
+      "issue_number": 844,
+      "actor": "grok",
+      "source": "grok issue-assigned wake #844 + owner card answer t746s3893",
+      "runner": "grok_executor",
+      "run_id": null,
+      "run_id_unavailable_reason": "not exposed",
+      "execution_instance_id": "291fb5d7-580a-4feb-8c3e-4fbd7ee2727a",
+      "route_generation": 7,
+      "outcome": "started",
+      "retryable": true,
+      "item_id": "S28-A2-R2-20261025",
+      "task_ids": [],
+      "new_submissions": 0,
+      "credits_spent": 0,
+      "owner_command": {
+        "host_address": "t746s3893 answer",
+        "at": "2026-11-19T21:32:00Z",
+        "quote": "Да, запускай S28-A2-R2",
+        "scope": "this item only"
+      },
+      "checked_at": "2026-11-19T21:34:54Z",
+      "execution": {
+        "state": "started",
+        "stage": "intake",
+        "started_at": "2026-11-19T21:34:54Z",
+        "updated_at": "2026-11-19T21:34:54Z"
+      }
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
