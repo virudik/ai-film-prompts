@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T22:46:55.804Z",
+  "updated_at": "2026-11-19T22:47:10.123Z",
   "status": "relay_production_enabled",
   "event_automation_id": "6adc585e7ac08191bb93825117dc7213",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
@@ -2399,16 +2399,45 @@
       "new_submissions": 0,
       "claim_changes": 0,
       "credits_spent": 0,
-      "updated_at": "2026-11-19T22:46:55.804Z",
-      "outcome": "started",
-      "retryable": true,
-      "scan_complete": false,
-      "execution": {
-        "state": "started",
-        "stage": "intake",
-        "updated_at": "2026-11-19T22:46:55.804Z"
+      "updated_at": "2026-11-19T22:47:10.123Z",
+      "checked_at": "2026-11-19T22:47:08.555Z",
+      "completed_at": "2026-11-19T22:47:10.123Z",
+      "outcome": "no_update",
+      "retryable": false,
+      "reason": "Late 21:30:41Z free-slot backup signal. Independent Grok submission S28-A2-R2 at 21:39:23Z occupied that slot. Full live scan confirms global 6/6, no free slot, no actions by this wake.",
+      "scan_complete": true,
+      "occupied_slots": 6,
+      "free_slots": 0,
+      "scan": {
+        "complete": true,
+        "method": "read-only Topview connector: all boards/pages, video",
+        "checked_at": "2026-11-19T22:47:08.555Z",
+        "boards": 14,
+        "pages": 19,
+        "unique_video_tasks": 684,
+        "occupied_slots": 6,
+        "free_slots": 0,
+        "active_task_ids": [
+          "55dadcb20d2b48a09d1b2b6b4ba0d9ea",
+          "3daf88bcc82b4b668a3bb4b405ed0703",
+          "98092b65ccfc4307ba98b9f9c675d001",
+          "e78f7a26f841414cac6689f2d79601b5",
+          "02fd85ac5fde408285bc439f15ba8239",
+          "9d4b3b177e6d452abe499537a05f454c"
+        ]
       },
-      "note": "Initial read-only intake found a potential stale signal; full final scan is recorded separately."
+      "concurrent_submission": {
+        "item_id": "S28-A2-R2-20261025",
+        "task_id": "55dadcb20d2b48a09d1b2b6b4ba0d9ea",
+        "receipt": "reports/topview-queue-2026-10-16/S28-A2-R2-20261025-20261119T213923Z.json",
+        "created_by_this_run": false
+      },
+      "execution": {
+        "state": "finished",
+        "stage": "no_free_slot",
+        "updated_at": "2026-11-19T22:47:10.123Z"
+      },
+      "lock_outcome": "own_exact_lease_acquired_by_CAS; released_atomically_with_terminal_receipt"
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
