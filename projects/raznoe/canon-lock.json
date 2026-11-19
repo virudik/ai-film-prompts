@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:989f45f5-f6b4-4333-98c7-9fa76a31ee7e",
   "task": "Зарезервировать номера 6–13 для конкурсных сцен без публикации",
   "acquired_at": "2026-11-19T21:38:17.721Z",
-  "expires_at": "2026-11-19T21:53:17.721Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-19T21:39:01.168Z",
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }
