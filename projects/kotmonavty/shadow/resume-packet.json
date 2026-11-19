@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "kotmonavty",
   "project_name": "Котмонавты",
-  "checked_at": "2026-11-19T21:42:51+00:00",
-  "source_head": "7bda8c60a76343484e6b482ac1dbf44d04b35662",
-  "source_fingerprint": "085b5bd13ad18b9f02b26e5fbc4b4bdf868c18da87f1b79c98cfa42e317bdb0a",
+  "checked_at": "2026-11-19T21:57:59+00:00",
+  "source_head": "39c64b530cafa07108fbd3ab7e5ef18e4d3a7a57",
+  "source_fingerprint": "5dab27d49b4a7354816067b6fdd9a09b5f717ac2cefd634d7833f16a159b8776",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -195,8 +195,8 @@
     },
     {
       "file": "projects/README.md",
-      "sha256": "247f5e551a74bfd1504200d802e188e24dd1f5dbc5515ac67f1be0b20f84c3c7",
-      "bytes": 17535
+      "sha256": "44b02880d8c7dded48c89d0d7e5417872a89b52c4a60f99d8ecb77b8b8a0d718",
+      "bytes": 17576
     },
     {
       "file": "projects/kotmonavty/HANDOFF.md",
