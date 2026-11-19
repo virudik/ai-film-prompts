@@ -3,13 +3,11 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-19T00:50:04Z",
+  "checked_at": "2026-11-19T00:51:27Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
-    "mode": "full",
-    "reasons": [
-      "forced"
-    ],
+    "mode": "light",
+    "reasons": [],
     "boards": 14,
     "board_task_counts": {
       "3db83056ccef4361a9563a4f77afa1d5": 56,
@@ -27,9 +25,9 @@
       "caa5d8898f14442ea37c3278d156b3fe": 59,
       "1a6244cf1ae747ef847d949a80d6133c": 738
     },
-    "pages_scanned": 17,
-    "tasks_seen": 681,
-    "api_requests": 25,
+    "pages_scanned": 1,
+    "tasks_seen": 20,
+    "api_requests": 8,
     "detail_failed": []
   },
   "cursor": {
@@ -56,7 +54,7 @@
     "occupied": 6,
     "free": 0,
     "basis": "active unlimited video tasks on all owned boards",
-    "complete": true,
+    "complete": false,
     "active_not_unlimited": 0
   },
   "active_tasks": [
@@ -69,8 +67,8 @@
       "model": "Seedance 2.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 2569,
-      "wait_seconds": 95929,
+      "queue_count": 2570,
+      "wait_seconds": 95855,
       "process_seconds": null
     },
     {
@@ -82,8 +80,8 @@
       "model": "Wan 3.0",
       "scene_id": 89,
       "mapping": "task_map",
-      "queue_count": 63,
-      "wait_seconds": 889,
+      "queue_count": 60,
+      "wait_seconds": 814,
       "process_seconds": null
     },
     {
@@ -96,7 +94,7 @@
       "scene_id": 89,
       "mapping": "task_map",
       "queue_count": 1355,
-      "wait_seconds": 35449,
+      "wait_seconds": 35374,
       "process_seconds": null
     },
     {
@@ -108,8 +106,8 @@
       "model": "Wan 3.0",
       "scene_id": 89,
       "mapping": "task_map",
-      "queue_count": 807,
-      "wait_seconds": 18168,
+      "queue_count": 805,
+      "wait_seconds": 18094,
       "process_seconds": null
     },
     {
@@ -121,8 +119,8 @@
       "model": "Wan 3.0",
       "scene_id": 89,
       "mapping": "task_map",
-      "queue_count": 1746,
-      "wait_seconds": 52728,
+      "queue_count": 1747,
+      "wait_seconds": 52653,
       "process_seconds": null
     },
     {
@@ -132,24 +130,14 @@
       "unlimited": true,
       "created_at": "2026-11-19 00:48:43",
       "model": "Wan 3.0",
-      "scene_id": null,
-      "mapping": "unknown_new",
-      "queue_count": 2860,
-      "wait_seconds": 113208,
+      "scene_id": 89,
+      "mapping": "task_map",
+      "queue_count": 2861,
+      "wait_seconds": 113133,
       "process_seconds": null
     }
   ],
-  "unknown_new": [
-    {
-      "task_id": "e78f7a26f841414cac6689f2d79601b5",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "created_at": "2026-11-19 00:48:43",
-      "model": "Wan 3.0",
-      "unlimited": true,
-      "prompt_head": "Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Wan 3.0 / Seedance 2.5 | Photoreal hologram warning about t"
-    }
-  ],
+  "unknown_new": [],
   "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
@@ -169,24 +157,12 @@
     }
   ],
   "comparison": {
-    "monitor_checked_at": "2026-11-19T00:44:34Z",
-    "monitor_age_minutes": 6,
-    "monitor_occupied": 5,
+    "monitor_checked_at": "2026-11-19T00:50:04Z",
+    "monitor_age_minutes": 1,
+    "monitor_occupied": 6,
     "robot_occupied": 6,
-    "consistent": false,
+    "consistent": true,
     "monitor_may_lag": false,
-    "differences": [
-      {
-        "type": "only_in_robot",
-        "task_id": "e78f7a26f841414cac6689f2d79601b5",
-        "scene_id": null,
-        "mapping": "unknown_new"
-      },
-      {
-        "type": "occupied_differs",
-        "monitor": 5,
-        "robot": 6
-      }
-    ]
+    "differences": []
   }
 }
