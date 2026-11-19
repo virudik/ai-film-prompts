@@ -2977,7 +2977,7 @@
       "canonical_prompt_sha256": "976ff82f2753464a926919bb5b30a7f5988cc4bb16119a908e9ac5952b184e70",
       "normalized_prompt_sha256": "e66a746664db1fd8b8c9ce138f49483385d90225671e61584b69b378c7eea22d",
       "priority": 0.304,
-      "state": "submitting",
+      "state": "submitted",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "model_id": "qwen-wan3.0-video",
@@ -3030,7 +3030,7 @@
       "owner_source": "t719u (with t718u 02:53 MSK: Grok takes over slot duties)",
       "story_not_music": true,
       "created_at": "2026-11-19T00:53:40Z",
-      "task_id": null,
+      "task_id": "98092b65ccfc4307ba98b9f9c675d001",
       "owner_approved_rerun": {
         "previous_item_id": "S89D-WAN30-R2",
         "old_submission_outcome": "claim published, intent CAS failed, verify fail-closed, ui_create_count 0; full scans 19.11 0 matches",
@@ -3112,7 +3112,16 @@
           "standing_host_address": "t413u"
         },
         "intent_payload_sha256": "f856f1448b5c3efed5343c46bd895181b4f462409f6c742b807ad94b09c8db09"
-      }
+      },
+      "submitted_at": "2026-11-19T01:54:10Z",
+      "topview_status": "init",
+      "create_click_count": 1,
+      "max_new_submissions_consumed": 1,
+      "creditsCost": 0,
+      "receipt": "reports/topview-queue-2026-10-16/S89D-WAN30-R3-20261119T015410Z.json",
+      "replay_forbidden": true,
+      "no_second_create": true,
+      "normalized_prompt_match": true
     },
     {
       "id": "S89E-WAN30",

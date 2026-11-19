@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "item_id": "S89D-WAN30-R3",
+  "outcome": "submitted",
+  "task_id": "98092b65ccfc4307ba98b9f9c675d001",
+  "submitted_at": "2026-11-19T01:54:10Z",
+  "create_clicked_at": "2026-11-19T01:54:09.907Z",
+  "ui_toast": "Успешно создано задач: 1",
+  "checked_at": "2026-11-19T01:55:42Z",
+  "create_click_count": 1,
+  "credits_spent": 0,
+  "credit_balance_before_after": [
+    11.05,
+    11.05
+  ],
+  "creditsCost": 0,
+  "useUnlimitMode": true,
+  "numeric_zero_displayed": false,
+  "ui_unlimited_label": "∞ Безлимитный режим · Загружено · Сейчас большая очередь.",
+  "credits_cost_evidence": "selected_free_unlimited_current_form",
+  "owner_free_label_rule": "owner t718s3708 19.11 03:30 MSK; ops/TOPVIEW-FREE-LAUNCH.md",
+  "browser": "parent-coordinated Grok browser helper; UI screenshot kept privately",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "model_id": "qwen-wan3.0-video",
+  "duration_seconds": 30,
+  "resolution": 720,
+  "aspect_ratio": "16:9",
+  "topview_status_at_check": "init",
+  "canonical_prompt_sha256": "976ff82f2753464a926919bb5b30a7f5988cc4bb16119a908e9ac5952b184e70",
+  "normalized_prompt_sha256": "e66a746664db1fd8b8c9ce138f49483385d90225671e61584b69b378c7eea22d",
+  "submitted_prompt_sha256_raw": "5bee9f95fbde4172773b27e7154ae787a08536292a4c13a81d2016b97400efc5",
+  "full_prompt_match": true,
+  "prompt_match_method": "provider positivePrompt with <<<ImageN>>> chips mapped to @ImageN equals canonical block ignoring whitespace; only differences are single spaces after 5 chips inserted by the editor",
+  "submitted_prompt_verbatim": "Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Wan 3.0 / Seedance 2.5 | Photoreal Jedi Council dialogue, one continuous 30-second take\n\nREFERENCES / AUTHORITY ORDER:\n<<<Image1>>>  = https://drive.google.com/file/d/1tnUopP8035gpZn0C48b0vL8u78NW0Ack/view — beer-and-snacks plate from task 5c322c84, 2752×1536 PNG, 12687056 bytes, sha256 833f95c2044d2cdc956a18b5188efb3cb8ebeee429da572f02fdbfac4c0852db. Not in git: larger than the repo's reference stills. Original slot Image1.\n<<<Image2>>>  = references/scenes/scene-89/shared/pasha-scene.png — PASHA, clean-shaven, dark-blue tunic. Original slot Image2. Shared with 89E.\n<<<Image3>>>  = references/scenes/scene-89/shared/sasha-scene.png — SASHA, beard, round glasses, cream tunic and maroon robe. Original slot Image3. Shared with 89E.\nOrder is fixed. The 15s and 30s versions of this sub-scene use this same order and these same files.\nAttached images are the only visual authority for this generation. If a sentence conflicts with an attached image, follow the image. Do not invent extra reference slots.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\nLEFT (<<<Image2>>>  ): stocky man, short brown hair, blue Jedi robes, dark leather belt and boots. He drinks from a large beer mug.\nRIGHT (<<<Image3>>>  ): heavier man, dark hair, full dark beard, round glasses, dark brown and maroon hooded Jedi robe. He drinks and once turns as if murmuring. No words are assigned to him.\nA plate of fries and sausages sits on the small table between them. Heat may shimmer over the food. Nobody delivers a sentence.\nPASHA is the clean-shaven man in the dark-blue tunic (<<<Image2>>>  ). SASHA is the bearded man with glasses (<<<Image3>>>  ). Neither of them speaks.\n\nLIP SYNC / WHO SPEAKS:\nNobody speaks. Mouths open only to drink. No words, no gibberish, no invented Russian, no lip-sync of a murmur.\n\nSTART STATE:\nWide on the same lounge. Both are seated, mugs down or just lifted, the city moving behind them. Nobody has started the line.\n\nSTORY FLOW:\n0–8s — SETUP. Both men are in the chairs with the city behind them. Mugs are lowered. LEFT starts to lift his. The plate of hot food is already between them. No speech.\n8–18s — DEVELOPMENT. LEFT drinks, foam on the lip, a small smile. RIGHT lifts his own mug, drinks, and turns toward LEFT as if sharing a private murmur. The murmur has no words, no subtitle and no lip-sync sentence. One finger taps the armrest.\n18–26s — They lower the mugs. LEFT nods, pleased. Heat shimmers over the fries. Glasses catch the sunset.\n26–30s — PAYOFF. Both hold the mugs, content, watching the sky traffic. The quiet look is the joke. It never becomes a toast speech or a named line.\n\nEND STATE:\nThey are still drinking, still wordless, the city still moving. The shot does not freeze.\n\nCAMERA / PERFORMANCE:\nOne readable face for the speaker when a line is said. Motivated warm daylight from the windows. Bodies stay seated. Beer mugs stay solid objects in the hand that already holds them.\n\nAUDIO:\nNo intelligible dialogue and no forced lip-sync sentence. A quiet human murmur may be heard as texture, not as words. Mugs, chair leather, distant city. No music, no subtitles.\n\nNEGATIVE:\nno extra people, no swapped faces, no duplicated hero, no child, no subtitles, no logos, no watermark, no lightsaber ignition, no cartoon, no collage, no freeze-frame slideshow.\n\nFRAME FILL / NO BARS:\nFull 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.",
+  "references": [
+    {
+      "slot": "@Image1",
+      "path": "drive:1tnUopP8035gpZn0C48b0vL8u78NW0Ack",
+      "sha256": "833f95c2044d2cdc956a18b5188efb3cb8ebeee429da572f02fdbfac4c0852db",
+      "provider_input": "Image1"
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/scenes/scene-89/shared/pasha-scene.png",
+      "sha256": "58ecb37480403078851d3907cd426f8d9534282ea5e33635583b6d6a60635bf9",
+      "provider_input": "Image2"
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/scenes/scene-89/shared/sasha-scene.png",
+      "sha256": "5dd419b95d18c94d37629ad1a1f4c3d857644e15cfdfca422a55285752839e4a",
+      "provider_input": "Image3"
+    }
+  ],
+  "reference_count": 3,
+  "reference_sha_and_order_verified": "repo SHA verified before upload; provider stores re-encoded copies, order Image1..5 matches",
+  "claim_before_submission": {
+    "claim_id": "d4ef17b6-59db-4f26-a001-94854bd4408a",
+    "intent_id": "66a10177-5eab-4ed4-8ad0-5be875b6cba1",
+    "intent_at": "2026-11-19T01:53:24Z",
+    "intent_payload_sha256": "f856f1448b5c3efed5343c46bd895181b4f462409f6c742b807ad94b09c8db09",
+    "verify_checks_passed_at": "2026-11-19T01:53:33Z",
+    "verify_main": "7883b89",
+    "lease_holder": "grok:2b3f0be9-7c34-4cbc-af84-0e2c1463ac89"
+  },
+  "trigger": "standing owner command t413u-20261109 (cursor_host request 7fe3d47f); general mandate t719u 2026-11-19T00:41:00Z",
+  "event_id": "result:425108630b0e48c9a4b299fc89ad88ee",
+  "issue_number": 821,
+  "evidence": {
+    "detection": "topview_list_board_tasks newest on My First Board + topview_get_board_task",
+    "total_after": 739
+  },
+  "artistic_acceptance": "pending_owner_review",
+  "retry_forbidden": true
+}
