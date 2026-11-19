@@ -496,7 +496,7 @@
     "last_confirmed_launch_task_ids": [
       "e78f7a26f841414cac6689f2d79601b5"
     ],
-    "escalation_attempted_episode": null,
-    "checked_at": "2026-11-19T01:40:39Z"
+    "escalation_attempted_episode": "a59aa19b",
+    "checked_at": "2026-11-19T01:42:34Z"
   }
 }
