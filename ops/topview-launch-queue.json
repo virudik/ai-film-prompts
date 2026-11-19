@@ -2209,7 +2209,7 @@
       "canonical_prompt_sha256": "f9b7c8b25cdd8cbf0794a6477b75d8e3933ded1c310e64835f3ff5c7f8345286",
       "normalized_prompt_sha256": "c954e5d931b776add7de7bf1916a6a12c621cff30edb5d8b7cbcc19ebb95726d",
       "priority": 0.309,
-      "state": "claimed",
+      "state": "submitting",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -2310,7 +2310,37 @@
             "prompt_dom_check": "4 чипа @Image1..4, счётчик 5322/10000, readback form-prompt-chips.txt sha256 f9b7c8b2…5286 = canonical"
           }
         },
-        "coordination_version": 2
+        "coordination_version": 2,
+        "submission_intent_id": "b8630301-69a4-4c96-b7cc-1b97ad72996c",
+        "submission_intent_at": "2026-11-19T21:38:32Z",
+        "replay_forbidden": true,
+        "host_run": {
+          "namespace": "cursor_host",
+          "observation_source": "parent_shell_os_environ",
+          "field": "CURSOR_REQUEST_ID",
+          "value": "3c6ed61a-6fde-4555-a5b6-75982eea0185",
+          "conversation_field": "CURSOR_CONVERSATION_ID",
+          "conversation_id": "1c1bf697-3c93-4068-b457-e90efdd5ef8f",
+          "owner_response_kind": "answered_card",
+          "owner_response_to_card_address": "t746s3893",
+          "owner_response_role": "user",
+          "current_owner_response_message_address": null
+        },
+        "provider_run_key": "ad11de5b791a8486b6a8b80133f59aacd705daa9a8d7e07ed83ac059bb89d6e1",
+        "owner_event_keys": [
+          "5e8567b45ea06a9969738c83c7cef1ccf628b4f69cebf25f67d15c14a65cc087"
+        ],
+        "ledger_path": "ops/launcher-run-ledger.json",
+        "trigger": "owner_command",
+        "owner_command": {
+          "quote": "Да, запускай S28-A2-R2",
+          "source": "cursor_host",
+          "at": "2026-11-19T21:32:00Z",
+          "owner_response_to_card_address": "t746s3893",
+          "owner_response_role": "user",
+          "current_owner_response_message_address": null
+        },
+        "intent_payload_sha256": "cfdd0d4ac51d11a450c0a3da4a6d2937e4103ef0c7454296562dbe80a2899fc5"
       },
       "rerender_of_item_id": "S28-A2-20261023",
       "rerender_of_task_id": "8a8eadc809004e318c47201b8a463be0",

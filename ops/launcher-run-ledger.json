@@ -1227,6 +1227,57 @@
         }
       },
       "note": "Bounded wake batch: one distinct Create per ready item, at most account slot capacity, before each click. Failed, unknown, expiry and substantive refusal never reopen that item or raise the cap."
+    },
+    "ad11de5b791a8486b6a8b80133f59aacd705daa9a8d7e07ed83ac059bb89d6e1": {
+      "surface": "grok",
+      "provider_run_id": null,
+      "host_run": {
+        "namespace": "cursor_host",
+        "observation_source": "parent_shell_os_environ",
+        "field": "CURSOR_REQUEST_ID",
+        "value": "3c6ed61a-6fde-4555-a5b6-75982eea0185",
+        "conversation_field": "CURSOR_CONVERSATION_ID",
+        "conversation_id": "1c1bf697-3c93-4068-b457-e90efdd5ef8f",
+        "owner_response_kind": "answered_card",
+        "owner_response_to_card_address": "t746s3893",
+        "owner_response_role": "user",
+        "current_owner_response_message_address": null
+      },
+      "automation_id": null,
+      "execution_instance_id": "291fb5d7-580a-4feb-8c3e-4fbd7ee2727a",
+      "item_id": "S28-A2-R2-20261025",
+      "submission_intent_id": "b8630301-69a4-4c96-b7cc-1b97ad72996c",
+      "intent_at": "2026-11-19T21:38:32Z",
+      "consumed": true,
+      "submission_cap": 6,
+      "submissions": [
+        {
+          "item_id": "S28-A2-R2-20261025",
+          "submission_intent_id": "b8630301-69a4-4c96-b7cc-1b97ad72996c",
+          "intent_at": "2026-11-19T21:38:32Z",
+          "execution_instance_id": "291fb5d7-580a-4feb-8c3e-4fbd7ee2727a",
+          "consumed": true
+        }
+      ],
+      "event_keys": [
+        "5e8567b45ea06a9969738c83c7cef1ccf628b4f69cebf25f67d15c14a65cc087"
+      ],
+      "owner_event": {
+        "source": "cursor_host",
+        "host_run": {
+          "namespace": "cursor_host",
+          "observation_source": "parent_shell_os_environ",
+          "field": "CURSOR_REQUEST_ID",
+          "value": "3c6ed61a-6fde-4555-a5b6-75982eea0185",
+          "conversation_field": "CURSOR_CONVERSATION_ID",
+          "conversation_id": "1c1bf697-3c93-4068-b457-e90efdd5ef8f",
+          "owner_response_kind": "answered_card",
+          "owner_response_to_card_address": "t746s3893",
+          "owner_response_role": "user",
+          "current_owner_response_message_address": null
+        }
+      },
+      "note": "Bounded wake batch: one distinct Create per ready item, at most account slot capacity, before each click. Failed, unknown, expiry and substantive refusal never reopen that item or raise the cap."
     }
   },
   "events": {
@@ -1251,6 +1302,7 @@
     "56864b7e8cc9dc6d3068bd34f8d4d623329393afa27ae6dec5977bdb97545bd8": "d17110d659efba92ce40341d5c5fe027c1db20ad75aa053ca1ed6cf82d0082dc",
     "6e34a8cd57debbd4db7acff80d028ad027a685120a5deac17ecf0c2ea167c7ae": "497bc6e2d6b8acbb4a47dde66ec7a52544f1cfb9f7c964ccde6390237d55de76",
     "98fdd3427f3270f4838928cdea5811066eea46651cdbc049444a1fe5456df991": "c033b9046d6c373c20b7b930081be10f7aaf014e75cf0736c1f164d7f59153b6",
-    "8c060b3730c912f564c5306cf0d1540ce4004d447d0ea9507c858e72f86a86f4": "1dd0b32ce2bd6db176ac5dacc799fb6d80dc3b4aab6632ad106722174d61dd99"
+    "8c060b3730c912f564c5306cf0d1540ce4004d447d0ea9507c858e72f86a86f4": "1dd0b32ce2bd6db176ac5dacc799fb6d80dc3b4aab6632ad106722174d61dd99",
+    "5e8567b45ea06a9969738c83c7cef1ccf628b4f69cebf25f67d15c14a65cc087": "ad11de5b791a8486b6a8b80133f59aacd705daa9a8d7e07ed83ac059bb89d6e1"
   }
 }
