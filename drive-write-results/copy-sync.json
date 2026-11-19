@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-18T11:44:16Z",
+  "checked_at": "2026-11-19T11:41:47Z",
   "mode": "sync",
   "summary": {
     "written": 2,
@@ -8,19 +8,19 @@
   "files": [
     {
       "name": "video-prompts.md",
-      "github_sha256": "94d96ad868a8fdd298d5c22ae1318f04d524ec05100bf67be1f227564bda6eed",
+      "github_sha256": "813a1870a32a2b499d75368c0b1fc9435a067ba259e8d55cb84e6865c24cd18b",
       "file_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-      "drive_sha256": "94d96ad868a8fdd298d5c22ae1318f04d524ec05100bf67be1f227564bda6eed",
+      "drive_sha256": "813a1870a32a2b499d75368c0b1fc9435a067ba259e8d55cb84e6865c24cd18b",
       "status": "written",
-      "drive_modified": "2026-11-18T11:44:05.562Z"
+      "drive_modified": "2026-11-19T11:41:37.637Z"
     },
     {
       "name": "NEW-CHAT-HANDOFF.md",
-      "github_sha256": "c1b068e14e5c73f91d0bbc04c351dda5004b65da7fc08b044edcd1fa0194c407",
+      "github_sha256": "cc5619eff4d22e81c4ff7ad83946aaa0d42f2b2b1fc4a56b36b185c92c28c987",
       "file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_sha256": "c1b068e14e5c73f91d0bbc04c351dda5004b65da7fc08b044edcd1fa0194c407",
+      "drive_sha256": "cc5619eff4d22e81c4ff7ad83946aaa0d42f2b2b1fc4a56b36b185c92c28c987",
       "status": "written",
-      "drive_modified": "2026-11-18T11:44:09.958Z"
+      "drive_modified": "2026-11-19T11:41:41.871Z"
     },
     {
       "name": "SYNC-RUNBOOK.md",
