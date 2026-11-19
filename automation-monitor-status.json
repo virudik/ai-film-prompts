@@ -475,7 +475,6 @@
       "S28-A10-20261023",
       "S28-A11-20261023",
       "S62-SEED20-P1-R2-20261108",
-      "S28-A2-R2-20261025",
       "S28-A13-20261030",
       "S89H-WAN30",
       "S89I-WAN30",
@@ -483,6 +482,7 @@
       "S49A-WAN30-20261118"
     ],
     "reconciliation_items": [
+      "S28-A2-R2-20261025",
       "S89D-WAN30-R2",
       "S89F-WAN30",
       "S89F-WAN30-R2"
@@ -499,6 +499,6 @@
       "3daf88bcc82b4b668a3bb4b405ed0703"
     ],
     "escalation_attempted_episode": "d6346db8",
-    "checked_at": "2026-11-19T21:35:46Z"
+    "checked_at": "2026-11-19T21:37:31Z"
   }
 }
