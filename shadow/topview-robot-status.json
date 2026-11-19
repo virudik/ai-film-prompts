@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-19T01:10:30Z",
+  "checked_at": "2026-11-19T01:20:44Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -51,8 +51,8 @@
   },
   "slots": {
     "capacity": 6,
-    "occupied": 6,
-    "free": 0,
+    "occupied": 5,
+    "free": 1,
     "basis": "active unlimited video tasks on all owned boards",
     "complete": false,
     "active_not_unlimited": 0
@@ -67,22 +67,9 @@
       "model": "Seedance 2.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 2561,
-      "wait_seconds": 95040,
+      "queue_count": 2847,
+      "wait_seconds": 112046,
       "process_seconds": null
-    },
-    {
-      "task_id": "425108630b0e48c9a4b299fc89ad88ee",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "running",
-      "unlimited": true,
-      "created_at": "2026-11-14 21:32:24",
-      "model": "Wan 3.0",
-      "scene_id": 89,
-      "mapping": "task_map",
-      "queue_count": null,
-      "wait_seconds": null,
-      "process_seconds": 5400
     },
     {
       "task_id": "5d1f4fc1b4e548a7828892c73b672990",
@@ -93,8 +80,8 @@
       "model": "Wan 3.0",
       "scene_id": 89,
       "mapping": "task_map",
-      "queue_count": 1336,
-      "wait_seconds": 34560,
+      "queue_count": 1728,
+      "wait_seconds": 51565,
       "process_seconds": null
     },
     {
@@ -106,8 +93,8 @@
       "model": "Wan 3.0",
       "scene_id": 89,
       "mapping": "task_map",
-      "queue_count": 788,
-      "wait_seconds": 17280,
+      "queue_count": 1327,
+      "wait_seconds": 34285,
       "process_seconds": null
     },
     {
@@ -119,8 +106,8 @@
       "model": "Wan 3.0",
       "scene_id": 89,
       "mapping": "task_map",
-      "queue_count": 1734,
-      "wait_seconds": 51840,
+      "queue_count": 2088,
+      "wait_seconds": 68845,
       "process_seconds": null
     },
     {
@@ -132,15 +119,30 @@
       "model": "Wan 3.0",
       "scene_id": 89,
       "mapping": "task_map",
-      "queue_count": 2852,
-      "wait_seconds": 112320,
+      "queue_count": 3137,
+      "wait_seconds": 129325,
       "process_seconds": null
     }
   ],
   "unknown_new": [],
-  "finished_known": [],
+  "finished_known": [
+    {
+      "task_id": "425108630b0e48c9a4b299fc89ad88ee",
+      "scene_id": 89,
+      "final_status": "success",
+      "completed_at": "2026-11-19 01:16:13",
+      "error_code": null
+    }
+  ],
   "missing_known_active": [],
   "recent_completions": [
+    {
+      "task_id": "425108630b0e48c9a4b299fc89ad88ee",
+      "scene_id": 89,
+      "mapping": "task_map",
+      "final_status": "success",
+      "completed_at": "2026-11-19 01:16:13"
+    },
     {
       "task_id": "bfdb6d9fad7a4ab29492f7bb95c78033",
       "scene_id": 48,
@@ -157,18 +159,22 @@
     }
   ],
   "comparison": {
-    "monitor_checked_at": "2026-11-19T00:50:04Z",
-    "monitor_age_minutes": 20,
+    "monitor_checked_at": "2026-11-19T01:10:30Z",
+    "monitor_age_minutes": 10,
     "monitor_occupied": 6,
-    "robot_occupied": 6,
+    "robot_occupied": 5,
     "consistent": false,
     "monitor_may_lag": false,
     "differences": [
       {
-        "type": "status_differs",
+        "type": "only_in_monitor",
         "task_id": "425108630b0e48c9a4b299fc89ad88ee",
-        "monitor": "init",
-        "robot": "running"
+        "scene_id": 89
+      },
+      {
+        "type": "occupied_differs",
+        "monitor": 6,
+        "robot": 5
       }
     ]
   }
