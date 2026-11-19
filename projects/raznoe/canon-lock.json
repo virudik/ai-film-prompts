@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:3ae7ab23-55ae-4daf-9476-0324f39e0715",
-  "task": "Стахий: закрепить каноническое имя героя в сцене 6",
-  "acquired_at": "2026-11-19T13:01:39.471Z",
-  "expires_at": null,
-  "released_at": "2026-11-19T13:02:14.143Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:849f4b2c-6b1e-4f0c-a848-062f772330b3",
+  "task": "Стахий: исправить метку говорящего в 6-B08",
+  "acquired_at": "2026-11-19T13:27:01.075Z",
+  "expires_at": "2026-11-19T13:52:01.075Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }
