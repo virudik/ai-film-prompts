@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "d1f9761bb7986df2bae14bc36970a64d6d0f2e3462d3fa603d3f01e3c0b0b1dc",
+  "source_queue_sha256": "f714c0a158bac57262bfc926689fa30f14d7e3d2ea0a672f62b9167ab526ab0c",
   "source_task_map_sha256": "3df3728220c75518c73c61244f890656d2babb56750ad0aeda76b36b5e2b66c3",
   "topview_checked_at": "2026-11-18T23:51:09Z",
   "items": [
@@ -227,9 +227,9 @@
       "code": "preflight_required",
       "ready": false,
       "text": "Входы найдены; требуется снять записанный блокер после проверки",
-      "queue_state": "claimed"
+      "queue_state": "submitting"
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-19T00:34:35.271508Z"
+  "checked_at": "2026-11-19T00:36:40.444927Z"
 }
