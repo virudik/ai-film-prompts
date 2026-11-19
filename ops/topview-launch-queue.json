@@ -2977,7 +2977,7 @@
       "canonical_prompt_sha256": "976ff82f2753464a926919bb5b30a7f5988cc4bb16119a908e9ac5952b184e70",
       "normalized_prompt_sha256": "e66a746664db1fd8b8c9ce138f49483385d90225671e61584b69b378c7eea22d",
       "priority": 0.304,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "model_id": "qwen-wan3.0-video",
@@ -3038,6 +3038,54 @@
         "scope": "one new separate attempt; not replay of the preserved intent/claim",
         "new_authorization_date": "2026-11-19",
         "report": "reports/topview-queue-2026-10-16/relay802-publish-blocker.json"
+      },
+      "claim": {
+        "claim_id": "d4ef17b6-59db-4f26-a001-94854bd4408a",
+        "execution_instance_id": "2b3f0be9-7c34-4cbc-af84-0e2c1463ac89",
+        "route_generation": 7,
+        "source_sha": "ee155a02fd35b8809f3363b457bcf6f267d536ba",
+        "claimed_at": "2026-11-19T01:39:38Z",
+        "lease_holder": "grok:2b3f0be9-7c34-4cbc-af84-0e2c1463ac89",
+        "lease_acquired_at": "2026-11-19T01:37:49Z",
+        "preflight": {
+          "owner_authorized": true,
+          "prompt_match": true,
+          "input_sha_match": true,
+          "input_order_match": true,
+          "qc_passed": true,
+          "website_unlimited": true,
+          "unlimited_mode_selected": true,
+          "ui_prompt_exact": true,
+          "numeric_zero_displayed": false,
+          "paid_credit_mode_selected": false,
+          "credits_cost": 0,
+          "credits_cost_evidence": "selected_free_unlimited_current_form",
+          "ui_unlimited_label": "Безлимитный режим — бесплатно",
+          "quantity": 1,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "model_id": "qwen-wan3.0-video",
+          "duration_seconds": 30,
+          "prompt_sha256": "976ff82f2753464a926919bb5b30a7f5988cc4bb16119a908e9ac5952b184e70",
+          "reference_sha256": [
+            "833f95c2044d2cdc956a18b5188efb3cb8ebeee429da572f02fdbfac4c0852db",
+            "58ecb37480403078851d3907cd426f8d9534282ea5e33635583b6d6a60635bf9",
+            "5dd419b95d18c94d37629ad1a1f4c3d857644e15cfdfca422a55285752839e4a"
+          ],
+          "form_evidence": {
+            "checked_at_msk": "2026-11-19T04:36",
+            "url": "https://www.topview.ai/board/1a6244cf1ae747ef847d949a80d6133c?tool-type=video-edit",
+            "mode": "ИИ-видео / Омни-референс / Wan 3.0, 16:9, 30s, 720p, Количество 1",
+            "payment": "Безлимитный режим — бесплатно выбран, Кредитный режим · 12 кредитов не выбран, кнопка Создать без цены, баланс 11.05",
+            "refs_order": [
+              "1-beer-snacks-plate.png",
+              "2-pasha-scene.png",
+              "3-sasha-scene.png"
+            ],
+            "prompt_dom_check": "7 mentionChip заменены на data-image-tag; без 4 лишних пробелов после чипов длина 3523 и FNV-1a 0x1d1b7ec6 совпали с prompt.txt"
+          }
+        },
+        "coordination_version": 2
       }
     },
     {
