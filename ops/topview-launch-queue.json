@@ -3547,7 +3547,7 @@
       "canonical_prompt_sha256": "fbc6cf05411549582e90d228c4d70f3410d449baac5c8e1885adc188ecad89db",
       "normalized_prompt_sha256": "91c247c4013547f69175c21ed4c99bb4251934b0d4c4ba6ab3f6be55902e6e82",
       "priority": 0.306,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "model_id": "qwen-wan3.0-video",
@@ -3609,6 +3609,65 @@
         "scope": "one new separate attempt after verified absence of dispatch; preparation only in this execution",
         "new_authorization_date": "2026-11-18",
         "report": "reports/preclaim-aborts/S89F-owner-approved-separate-attempt-20261118.json"
+      },
+      "claim": {
+        "claim_id": "5116fdde-7959-4050-9b3f-87c8c07651a9",
+        "execution_instance_id": "3ab55a31-49a8-49cd-8d59-f279eccc8df5",
+        "route_generation": 7,
+        "source_sha": "51571ec1e841348c9e23fb0bbb1fb2dd812c565b",
+        "claimed_at": "2026-11-19T00:33:53Z",
+        "lease_holder": "grok:3ab55a31-49a8-49cd-8d59-f279eccc8df5",
+        "lease_acquired_at": "2026-11-19T00:32:08Z",
+        "preflight": {
+          "owner_authorized": true,
+          "prompt_match": true,
+          "input_sha_match": true,
+          "input_order_match": true,
+          "qc_passed": true,
+          "website_unlimited": true,
+          "unlimited_mode_selected": true,
+          "ui_prompt_exact": true,
+          "numeric_zero_displayed": false,
+          "paid_credit_mode_selected": false,
+          "credits_cost": 0,
+          "credits_cost_evidence": "selected_free_unlimited_current_form",
+          "ui_unlimited_label": "∞ Безлимитный режим · Загружено · Сейчас большая очередь.",
+          "quantity": 1,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "model_id": "qwen-wan3.0-video",
+          "duration_seconds": 30,
+          "prompt_sha256": "fbc6cf05411549582e90d228c4d70f3410d449baac5c8e1885adc188ecad89db",
+          "reference_sha256": [
+            "b4a1307310e9c7c52a6f1d8b3157acaa4666daad281b305a119806511c6d2f42",
+            "aa8cded6f151278c5bc1a1823ea8ed04abcde819e93cd2dfc2b38b0b2ce48d54",
+            "85ab20924887bd960cad1a4c3ae3089bc27b6b050d1bef5e63895c48c4604bc8"
+          ],
+          "form_evidence": {
+            "checked_at_msk": "2026-11-19T03:06",
+            "url": "https://www.topview.ai/board/1a6244cf1ae747ef847d949a80d6133c?tool-type=video-edit",
+            "mode": "ИИ-видео / Омни-референс / Wan 3.0",
+            "payment_dropdown": "Безлимитный режим (выбран), Кредитный режим ~12 не выбран, цены у кнопки нет",
+            "prompt_first_last_60_match": true,
+            "editor_innerText_len": 3282,
+            "file_len": 3276,
+            "len_note": "6 @Image упоминаний превращены редактором в чипы",
+            "payment_dropdown_verbatim": {
+              "selected": "∞ / Безлимитный режим / Загружено / Сейчас большая очередь.",
+              "other": "Кредитный режим / Приоритетная скорость · 12 кредитов",
+              "create_button": "только значок короны, без цены",
+              "checked_at_msk": "2026-11-19T03:09"
+            },
+            "prompt_dom_check": "чипы заменены на data-image-tag: 3276 символов, cyrb53 совпал с prompt.txt (03:09 МСК)"
+          },
+          "owner_free_label_decision": {
+            "host_address": "t718s3708 answer",
+            "at": "2026-11-19T00:30:00Z",
+            "role": "user",
+            "text": "Да, «Безлимитный режим» без цены считай бесплатным, запускай"
+          }
+        },
+        "coordination_version": 2
       }
     }
   ],
