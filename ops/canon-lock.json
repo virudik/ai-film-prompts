@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "grok:14c0379c-19f2-4dcc-b08f-3c238f1c75c0",
   "task": "Grok owner t719u: S89G-WAN30 lease/claim/intent/verify",
   "acquired_at": "2026-11-19T00:43:57Z",
   "expires_at": "2026-11-19T00:58:57Z",
-  "released_at": null,
+  "released_at": "2026-11-19T00:50:49Z",
   "rules": "ops/CANON-LOCK.md"
 }

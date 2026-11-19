@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "item_id": "S89G-WAN30",
+  "outcome": "submitted",
+  "task_id": "e78f7a26f841414cac6689f2d79601b5",
+  "submitted_at": "2026-11-19T00:48:43Z",
+  "create_clicked_at_approx": "2026-11-19T00:48:40Z",
+  "create_click_window": [
+    "2026-11-19T00:48:35.7Z",
+    "2026-11-19T00:48:42.2Z"
+  ],
+  "checked_at": "2026-11-19T00:50:49Z",
+  "create_click_count": 1,
+  "credits_spent": 0,
+  "credit_balance_before_after": [
+    11.05,
+    11.05
+  ],
+  "creditsCost": 0,
+  "useUnlimitMode": true,
+  "numeric_zero_displayed": false,
+  "ui_unlimited_label": "∞ Безлимитный режим · Загружено · Сейчас большая очередь.",
+  "credits_cost_evidence": "selected_free_unlimited_current_form",
+  "owner_free_label_rule": "owner t718s3708 19.11 03:30 MSK; ops/TOPVIEW-FREE-LAUNCH.md",
+  "browser": "parent-coordinated Grok browser helper; UI screenshot kept privately",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "model_id": "qwen-wan3.0-video",
+  "duration_seconds": 30,
+  "resolution": 720,
+  "aspect_ratio": "16:9",
+  "topview_status_at_check": "init",
+  "canonical_prompt_sha256": "a1e23bdb5675dfa496b5126b5ae0049ca0b434e855ac54fb823da4f347d5daa8",
+  "normalized_prompt_sha256": "d503c25ca38c8ca0955a95dcb69fcd2aa509c853c70349832051b0180702e8cf",
+  "submitted_prompt_sha256_raw": "594d838d89e41245037cf2c7037ee984ad32ed64dee4d1339bc985aca45a8eb5",
+  "full_prompt_match": true,
+  "prompt_match_method": "provider positivePrompt with <<<ImageN>>> chips mapped to @ImageN equals canonical block ignoring whitespace; only differences are single spaces after 5 chips inserted by the editor",
+  "submitted_prompt_verbatim": "Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Wan 3.0 / Seedance 2.5 | Photoreal hologram warning about the map\n\nREFERENCES / AUTHORITY ORDER:\n<<<Image1>>>  = references/scenes/scene-89/shared/holo-office.jpg — circular night office. Original slot Image1 of 1a40a6f4. Same bytes as the hologram office (historical source slot 3, not a current reference).\n<<<Image2>>>  = references/scenes/scene-89/shared/holo-man.jpg — seated bald man. Original slot Image2. Same bytes as the hologram man.\n<<<Image3>>>  = references/scenes/scene-89/shared/holo-woman.jpg — woman hologram. Original slot Image3. Same bytes as the hologram woman.\n<<<Image4>>>  = references/scenes/scene-89/89G/Image4.png — over-the-shoulder framing of the same two. Original slot Image4.\n<<<Image5>>>  = references/scenes/scene-89/89G/Image5.png — tight holographic face of the same woman. Original slot Image5.\nOrder is fixed. The 15s and 30s versions of this sub-scene use this same order and these same files.\nAttached images are the only visual authority for this generation. If a sentence conflicts with an attached image, follow the image. Do not invent extra reference slots.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\nMAN (<<<Image2>>> ): completely bald, pale, dark purple robes, black inner tunic, seated the whole time.\nWOMAN HOLOGRAM (<<<Image3>>> , and her face in <<<Image5>>> ): one woman, upper body only, blue tint, flicker, long dark-brown wavy hair, black armour. <<<Image4>>>  is a camera angle of the same two people, not a new character.\nShe speaks. He does not answer in this clip.\n\nLIP SYNC / WHO SPEAKS:\nOnly the WOMAN hologram speaks, one Russian warning, then her mouth closes.\nThe MAN's mouth stays closed. No English phonetics, no gibberish, no second voice.\n\nSTART STATE:\nHe is seated alone. The pedestal is dark. The city is outside the glass. She has not appeared.\n\nSTORY FLOW:\n0–8s — SETUP. He sits back in the throne chair. The pedestal lights, the hologram climbs into being, blue on his robe. He turns his head toward her and does not speak. The camera is not yet tight.\n8–18s — DEVELOPMENT. Over his left shoulder, as in <<<Image4>>> , she is centred and already urgent. WOMAN HOLOGRAM: «Нужно найти все три фрагмента карты до джедаев.» She does not smile. He leans a fraction forward.\n18–26s — «Они догадываются, что мы затеяли.» The push-in passes his shoulder. Her flicker reads closer. He still has no line.\n26–30s — PAYOFF. Tight on her face, as in <<<Image5>>> : «и сядут тебе на хвост.» She holds his eyes. He does not answer. The threat is the end of the shot, not a freeze of an empty room.\n\nEND STATE:\nHer face fills the frame, the last phrase just spoken, blue light still moving on the edges of the hologram.\n\nCAMERA / PERFORMANCE:\nOne motivated push from the room to the face. She stays one hologram. He stays in the chair.\n\nAUDIO:\nNative Russian, hologram only, serious and direct. No English phonetics, no music.\n\nNEGATIVE:\nno extra people, no swapped faces, no duplicated hero, no child, no subtitles, no logos, no watermark, no lightsaber ignition, no cartoon, no collage, no freeze-frame slideshow. No solid woman, no reply from the man, no extra fragment shown as a cutaway.\n\nFRAME FILL / NO BARS:\nFull 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.",
+  "references": [
+    {
+      "slot": "@Image1",
+      "path": "references/scenes/scene-89/shared/holo-office.jpg",
+      "sha256": "aa8cded6f151278c5bc1a1823ea8ed04abcde819e93cd2dfc2b38b0b2ce48d54",
+      "provider_input": "Image1"
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/scenes/scene-89/shared/holo-man.jpg",
+      "sha256": "b4a1307310e9c7c52a6f1d8b3157acaa4666daad281b305a119806511c6d2f42",
+      "provider_input": "Image2"
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/scenes/scene-89/shared/holo-woman.jpg",
+      "sha256": "85ab20924887bd960cad1a4c3ae3089bc27b6b050d1bef5e63895c48c4604bc8",
+      "provider_input": "Image3"
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/scenes/scene-89/89G/Image4.png",
+      "sha256": "c74268e8462336b7755e531af3d919db76fc19aaf3cc87c3280536d379f891a5",
+      "provider_input": "Image4"
+    },
+    {
+      "slot": "@Image5",
+      "path": "references/scenes/scene-89/89G/Image5.png",
+      "sha256": "98fdf155237351540d361ddcf91fab803836759708624165695f4b8d1096a971",
+      "provider_input": "Image5"
+    }
+  ],
+  "reference_count": 5,
+  "reference_sha_and_order_verified": "repo SHA verified before upload; provider stores re-encoded copies, order Image1..5 matches",
+  "claim_before_submission": {
+    "claim_id": "65441f77-5c71-4e83-90db-50519b050753",
+    "intent_id": "1b0b6f79-53d0-43e6-b430-05a95eb64845",
+    "intent_at": "2026-11-19T00:47:47Z",
+    "intent_payload_sha256": "d6f53bc7081b578e75b8276fada0a0437fae7077869437236ac67b3c7771c2a9",
+    "verify_checks_passed_at": "2026-11-19T00:47:56Z",
+    "verify_main": "4ee30627",
+    "lease_holder": "grok:14c0379c-19f2-4dcc-b08f-3c238f1c75c0"
+  },
+  "trigger": "owner_command t719u (2026-11-19T00:41:00Z) «Да. все сцены запускай самостоятельно. по каждой моего да не жди»",
+  "event_id": "slots:2f83982f:78",
+  "issue_number": 820,
+  "evidence": {
+    "detection": "topview_list_board_tasks newest on My First Board + topview_get_board_task",
+    "total_after": 738
+  },
+  "artistic_acceptance": "pending_owner_review",
+  "retry_forbidden": true
+}
