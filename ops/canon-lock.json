@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:291fb5d7-580a-4feb-8c3e-4fbd7ee2727a",
-  "task": "Grok owner t746s3893: S28-A2-R2-20261025 lease/claim/intent/verify",
-  "acquired_at": "2026-11-19T21:34:54Z",
-  "expires_at": "2026-11-19T21:49:54Z",
-  "released_at": "2026-11-19T21:40:46Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:fcb32bfa-f663-4141-99df-0e60a78ea2f9",
+  "task": "Исправить название проекта на Стахий и эмодзи на фотоаппарат",
+  "acquired_at": "2026-11-19T21:41:19.841Z",
+  "expires_at": "2026-11-19T21:56:19.841Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }

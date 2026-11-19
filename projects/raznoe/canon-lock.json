@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:989f45f5-f6b4-4333-98c7-9fa76a31ee7e",
-  "task": "Зарезервировать номера 6–13 для конкурсных сцен без публикации",
-  "acquired_at": "2026-11-19T21:38:17.721Z",
-  "expires_at": null,
-  "released_at": "2026-11-19T21:39:01.168Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:fcb32bfa-f663-4141-99df-0e60a78ea2f9",
+  "task": "Исправить название проекта на Стахий и эмодзи на фотоаппарат",
+  "acquired_at": "2026-11-19T21:41:19.841Z",
+  "expires_at": "2026-11-19T21:56:19.841Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }
