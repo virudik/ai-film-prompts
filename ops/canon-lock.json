@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:3ab55a31-49a8-49cd-8d59-f279eccc8df5",
-  "task": "Owner t718u: Grok S89F-WAN30-R2 lease/claim (intent/verify/Create later in same execution)",
-  "acquired_at": "2026-11-19T00:32:08Z",
-  "expires_at": "2026-11-19T00:52:08Z",
-  "released_at": "2026-11-19T00:39:30Z",
+  "state": "held",
+  "holder": "grok:14c0379c-19f2-4dcc-b08f-3c238f1c75c0",
+  "task": "Grok owner t719u: S89G-WAN30 lease/claim/intent/verify",
+  "acquired_at": "2026-11-19T00:43:57Z",
+  "expires_at": "2026-11-19T00:58:57Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }

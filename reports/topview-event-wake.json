@@ -2220,6 +2220,36 @@
       "create_click_count": 0,
       "blocker": "verify snapshot rejected advancing main before marker; no Create permission issued. Runtime ends; old intent cannot resume.",
       "evidence": "reports/preclaim-aborts/relay813-S89F-verify-no-create-20261118.json"
+    },
+    {
+      "event_id": "slots:2f83982f:78",
+      "issue_number": 820,
+      "actor": "grok",
+      "source": "grok issue-assigned wake + owner command t719u",
+      "runner": "grok_executor",
+      "run_id": null,
+      "run_id_unavailable_reason": "not exposed",
+      "execution_instance_id": "14c0379c-19f2-4dcc-b08f-3c238f1c75c0",
+      "route_generation": 7,
+      "outcome": "started",
+      "retryable": true,
+      "item_id": "S89G-WAN30",
+      "task_ids": [],
+      "new_submissions": 0,
+      "credits_spent": 0,
+      "owner_command": {
+        "host_address": "t719u",
+        "at": "2026-11-19T00:41:00Z",
+        "quote": "Да. все сцены запускай самостоятельно. по каждой моего да не жди",
+        "scope": "general: launch all scenes autonomously, no per-scene owner yes"
+      },
+      "checked_at": "2026-11-19T00:43:57Z",
+      "execution": {
+        "state": "started",
+        "stage": "intake",
+        "started_at": "2026-11-19T00:43:57Z",
+        "updated_at": "2026-11-19T00:43:57Z"
+      }
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
