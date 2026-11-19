@@ -13,7 +13,7 @@ var PROJECTS=[
  {id:'kotmonavty',name:'Котмонавты',emoji:'🐱🚀',root:'projects/kotmonavty/',about:'спин-офф про котов'},
  {id:'kot-detektiv',name:'Кот детектив',emoji:'🕵️🐈',root:'projects/kot-detektiv/',about:'кот-сыщик'},
  {id:'roscosmos',name:'Роскосмос',emoji:'🚀',root:'projects/roscosmos/',about:'космические организации'},
- {id:'stikhiy',name:'Стихий',emoji:'🎞️',root:'projects/stikhiy/',about:'Ради этого стоит жить'},
+ {id:'stikhiy',name:'Стахий',emoji:'📷',root:'projects/stikhiy/',about:'Ради этого стоит жить'},
  {id:'raznoe',name:'Разное',emoji:'🎲',root:'projects/raznoe/',about:'независимые ролики'}
 ];
 var ROOT='seregius',SLOTS=6;

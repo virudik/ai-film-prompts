@@ -7,7 +7,7 @@
   "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
   "selection_policy": "Доска не назначена, запуск заблокирован. Только по отдельной команде владельца, после настройки собственной доски, Unlimited и 0 кредитов.",
   "board_id": null,
-  "board_name": "Стихий",
+  "board_name": "Стахий",
   "board_routing_rule": "projects/README.md",
   "receipts_directory": "projects/stikhiy/reports",
   "items": [],

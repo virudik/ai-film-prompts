@@ -5875,4 +5875,4 @@ No test action, impact, immersion, fake water resistance, fictional result, succ
 </div>
 </div>
 
-Сцены 6 удалены из active master; их номера зарезервированы. Сцена перенесена в проект «Стихий».
+Сцены 6 удалены из active master; их номера зарезервированы. Сцена перенесена в проект «Стахий».

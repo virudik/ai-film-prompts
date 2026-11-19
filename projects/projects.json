@@ -138,8 +138,8 @@
     },
     {
       "id": "stikhiy",
-      "name": "Стихий",
-      "emoji": "🎞️",
+      "name": "Стахий",
+      "emoji": "📷",
       "root": "projects/stikhiy",
       "state": "active",
       "description": "«Ради этого стоит жить»: биографическая семейная драма о Стахии.",
@@ -160,7 +160,7 @@
       "status": "projects/stikhiy/project-status.json",
       "topview_board": {
         "board_id": null,
-        "name": "Стихий",
+        "name": "Стахий",
         "state": "not_configured"
       }
     },
