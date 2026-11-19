@@ -231,7 +231,7 @@
   },
   "phases": {
     "topview": {
-      "checked_at": "2026-11-18T23:51:09Z",
+      "checked_at": "2026-11-19T00:44:34Z",
       "source": "robot; число слотов — topview-status.json"
     },
     "deep_audit": {
@@ -249,8 +249,8 @@
   },
   "health": "ok",
   "last_scheduled_cycle": {
-    "started_at": "2026-11-18T23:51:14Z",
-    "completed_at": "2026-11-18T23:51:14Z",
+    "started_at": "2026-11-19T00:44:45Z",
+    "completed_at": "2026-11-19T00:44:45Z",
     "health": "ok",
     "phases_completed": [
       "role_check",
@@ -321,8 +321,8 @@
       "checked_at": "2026-10-13T19:02:02.187Z"
     }
   },
-  "last_completed_cycle_at": "2026-11-18T23:51:14Z",
-  "last_successful_cycle_at": "2026-11-18T23:51:14Z",
+  "last_completed_cycle_at": "2026-11-19T00:44:45Z",
+  "last_successful_cycle_at": "2026-11-19T00:44:45Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
     "title": "AI Film — единый монитор",
@@ -337,13 +337,13 @@
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-11-18T23:51:14Z"
+    "robot": "2026-11-19T00:44:45Z"
   },
   "last_successful_cycle_runner": "robot_scheduled_task",
   "last_successful_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-11-18T23:51:14Z"
+    "robot": "2026-11-19T00:44:45Z"
   },
   "previous_primary_automation": {
     "id": "trig_014eEvBooAV2hxx1asRo9snm",
@@ -482,11 +482,11 @@
       "S89F-WAN30",
       "S89F-WAN30-R2"
     ],
-    "last_event_id": "slots:2f83982f:77",
-    "receipt_present": false,
-    "handler_outcome": null,
-    "execution_stage": null,
-    "execution_updated_at": null,
+    "last_event_id": "slots:2f83982f:78",
+    "receipt_present": true,
+    "handler_outcome": "started",
+    "execution_stage": "intake",
+    "execution_updated_at": "2026-11-19T00:43:57Z",
     "runtime_run_id": null,
     "confirmed_launch_task_ids": [],
     "last_confirmed_event_id": "slots:09b02477:74",
@@ -494,6 +494,6 @@
       "02fd85ac5fde408285bc439f15ba8239"
     ],
     "escalation_attempted_episode": "2f83982f",
-    "checked_at": "2026-11-19T00:34:48Z"
+    "checked_at": "2026-11-19T00:44:45Z"
   }
 }
