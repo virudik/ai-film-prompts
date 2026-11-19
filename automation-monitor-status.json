@@ -452,11 +452,11 @@
     }
   },
   "launcher_health": {
-    "state": "capacity_full",
+    "state": "launch_confirmed",
     "unresolved": false,
     "episode": "4e1963f5",
     "unresolved_since": null,
-    "reason": "no_free_global_slot; launcher_health_not_proven",
+    "reason": "submitted_receipt_task_ids_match_queue_and_live_scan",
     "free_slots_global": 0,
     "actionable_items": [
       "S49B",
@@ -479,21 +479,22 @@
     "reconciliation_items": [
       "S89D-WAN30-R2",
       "S89F-WAN30",
-      "S89G-WAN30",
       "S89F-WAN30-R2"
     ],
     "last_event_id": "slots:2f83982f:78",
     "receipt_present": true,
-    "handler_outcome": "started",
-    "execution_stage": "intake",
-    "execution_updated_at": "2026-11-19T00:43:57Z",
+    "handler_outcome": "submitted",
+    "execution_stage": "submitted",
+    "execution_updated_at": "2026-11-19T00:50:49Z",
     "runtime_run_id": null,
-    "confirmed_launch_task_ids": [],
-    "last_confirmed_event_id": "slots:09b02477:74",
-    "last_confirmed_launch_task_ids": [
-      "02fd85ac5fde408285bc439f15ba8239"
+    "confirmed_launch_task_ids": [
+      "e78f7a26f841414cac6689f2d79601b5"
     ],
-    "escalation_attempted_episode": "2f83982f",
-    "checked_at": "2026-11-19T00:50:17Z"
+    "last_confirmed_event_id": "slots:2f83982f:78",
+    "last_confirmed_launch_task_ids": [
+      "e78f7a26f841414cac6689f2d79601b5"
+    ],
+    "escalation_attempted_episode": null,
+    "checked_at": "2026-11-19T00:51:33Z"
   }
 }
