@@ -155,7 +155,8 @@
       "result:1dcb6fa0628d41b098227ca6c96f1630",
       "result:8c6d92662d1043c7a651168b2b8280ae",
       "result:bfdb6d9fad7a4ab29492f7bb95c78033",
-      "result:425108630b0e48c9a4b299fc89ad88ee"
+      "result:425108630b0e48c9a4b299fc89ad88ee",
+      "result:90db5dd309db477eb346e8d82676f7b5"
     ],
     "robot_wake_keys": [
       "result:56e5e07c85df4af583c62665c51ed563",
@@ -209,31 +210,32 @@
       "result:1dcb6fa0628d41b098227ca6c96f1630",
       "result:8c6d92662d1043c7a651168b2b8280ae",
       "result:bfdb6d9fad7a4ab29492f7bb95c78033",
-      "result:425108630b0e48c9a4b299fc89ad88ee"
+      "result:425108630b0e48c9a4b299fc89ad88ee",
+      "result:90db5dd309db477eb346e8d82676f7b5"
     ],
     "robot_rewake": {
-      "episode": "a59aa19b",
+      "episode": "b179169c",
       "count": 0,
-      "last_at": "2026-11-19T01:20:49Z",
+      "last_at": "2026-11-19T11:20:30Z",
       "sequence": 78,
-      "first_at": "2026-11-19T01:20:49Z",
-      "last_event_id": "result:425108630b0e48c9a4b299fc89ad88ee",
+      "first_at": "2026-11-19T11:20:30Z",
+      "last_event_id": "result:90db5dd309db477eb346e8d82676f7b5",
       "silence_reported": "slots:d23cf217:2"
     },
     "robot_dispatch": {
-      "episode": "a59aa19b",
-      "event_id": "result:425108630b0e48c9a4b299fc89ad88ee",
+      "episode": "b179169c",
+      "event_id": "result:90db5dd309db477eb346e8d82676f7b5",
       "target": "primary",
       "actor": "grok",
       "primary_actor": "grok",
       "backup_actor": "dot",
       "reason": "new_episode",
-      "attempted_at": "2026-11-19T01:20:49Z"
+      "attempted_at": "2026-11-19T11:20:30Z"
     }
   },
   "phases": {
     "topview": {
-      "checked_at": "2026-11-19T11:00:29Z",
+      "checked_at": "2026-11-19T11:20:26Z",
       "source": "robot; число слотов — topview-status.json"
     },
     "deep_audit": {
@@ -251,8 +253,8 @@
   },
   "health": "ok",
   "last_scheduled_cycle": {
-    "started_at": "2026-11-19T11:00:34Z",
-    "completed_at": "2026-11-19T11:00:34Z",
+    "started_at": "2026-11-19T11:20:30Z",
+    "completed_at": "2026-11-19T11:20:30Z",
     "health": "ok",
     "phases_completed": [
       "role_check",
@@ -264,7 +266,7 @@
     ],
     "phases_missing": [],
     "runner": "robot_scheduled_task",
-    "note": "GitHub robot: 6 из 6 слотов занято, новых 0, завершено 0."
+    "note": "GitHub robot: 5 из 6 слотов занято, новых 0, завершено 1."
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -323,8 +325,8 @@
       "checked_at": "2026-10-13T19:02:02.187Z"
     }
   },
-  "last_completed_cycle_at": "2026-11-19T11:00:34Z",
-  "last_successful_cycle_at": "2026-11-19T11:00:34Z",
+  "last_completed_cycle_at": "2026-11-19T11:20:30Z",
+  "last_successful_cycle_at": "2026-11-19T11:20:30Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
     "title": "AI Film — единый монитор",
@@ -339,13 +341,13 @@
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-11-19T11:00:34Z"
+    "robot": "2026-11-19T11:20:30Z"
   },
   "last_successful_cycle_runner": "robot_scheduled_task",
   "last_successful_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-11-19T11:00:34Z"
+    "robot": "2026-11-19T11:20:30Z"
   },
   "previous_primary_automation": {
     "id": "trig_014eEvBooAV2hxx1asRo9snm",
@@ -454,12 +456,12 @@
     }
   },
   "launcher_health": {
-    "state": "capacity_full",
-    "unresolved": false,
-    "episode": "2c0d62a6",
-    "unresolved_since": null,
-    "reason": "no_free_global_slot; launcher_health_not_proven",
-    "free_slots_global": 0,
+    "state": "reconciliation_required",
+    "unresolved": true,
+    "episode": "b179169c",
+    "unresolved_since": "2026-11-19T11:20:30Z",
+    "reason": "saved_claim_or_unknown_submission; no_repeat_Create",
+    "free_slots_global": 1,
     "actionable_items": [
       "S49B",
       "S28-A4-20261023",
@@ -498,6 +500,6 @@
       "98092b65ccfc4307ba98b9f9c675d001"
     ],
     "escalation_attempted_episode": null,
-    "checked_at": "2026-11-19T10:20:37Z"
+    "checked_at": "2026-11-19T11:20:30Z"
   }
 }
