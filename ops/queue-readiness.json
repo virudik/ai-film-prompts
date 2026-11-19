@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "c282d21ade7838960bfb7d7287775e9e1ee6052ef4d5487214ac0a1e935905e4",
+  "source_queue_sha256": "db0ab17a6842a6bc37432d69dff369437cd52e002badd1e6a67ffb683c5b2b12",
   "source_task_map_sha256": "77f6065d9a448436002f40ac4bf37ede55d6d4443ddbafd2f60cfacf666e37bc",
   "topview_checked_at": "2026-11-19T01:20:44Z",
   "items": [
@@ -173,7 +173,7 @@
       "code": "preflight_required",
       "ready": false,
       "text": "Входы найдены; требуется снять записанный блокер после проверки",
-      "queue_state": "claimed"
+      "queue_state": "submitting"
     },
     {
       "id": "S89F-WAN30",
@@ -240,5 +240,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-19T01:41:07.723575Z"
+  "checked_at": "2026-11-19T01:54:25.428675Z"
 }
