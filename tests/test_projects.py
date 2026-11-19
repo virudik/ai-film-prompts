@@ -87,13 +87,32 @@ class RegistryTests(unittest.TestCase):
 
     def test_launch_queues_use_distinct_project_boards(self):
         items = prj.projects(ROOT, include_root=True)
-        ids = [p['topview_board']['board_id'] for p in items]
+        ids = [p['topview_board']['board_id'] for p in items if p['topview_board']['board_id']]
         self.assertEqual(len(ids), len(set(ids)))
         for p in items:
             board = p['topview_board']
             self.assertEqual(board['name'], 'My First Board' if p['id'] == 'seregius' else p['name'])
             queue = json.loads((ROOT / p['queue']).read_text())
             self.assertEqual((queue['board_id'], queue['board_name']), (board['board_id'], board['name']))
+            if not board['board_id']:
+                self.assertEqual(board.get('state'), 'not_configured')
+                self.assertEqual(queue['state'], 'paused_by_owner')
+                self.assertEqual(queue['items'], [])
+                self.assertNotIn(p['id'], prj.load(ROOT)['launch_scope_override']['allowed_projects'])
+
+    def test_stikhiy_scene_split_preserves_catalog_and_references(self):
+        projects = prj.projects(ROOT, include_root=True)
+        self.assertEqual([x["id"] for x in projects][-3:], ["roscosmos", "stikhiy", "raznoe"])
+        candidate = prj.get(ROOT, "stikhiy")
+        status = json.loads((ROOT / candidate["status"]).read_text())
+        self.assertEqual((status["scene_ids"], status["prompt_texts"]), ([1], 25))
+        refs = json.loads((ROOT / candidate["references"]).read_text())
+        self.assertEqual((len(refs["characters"]), len(refs["assets"])), (9, 11))
+        raznoe = prj.get(ROOT, "raznoe")
+        old = json.loads((ROOT / raznoe["status"]).read_text())
+        self.assertEqual(old["scene_ids"], [1, 2, 3, 4, 5])
+        self.assertIn(6, old["reserved_scene_ids"])
+        self.assertFalse((ROOT / "projects/raznoe/references/scenes/scene-6").exists())
 
     def test_roscosmos_stays_paused_and_raznoe_is_the_independent_project(self):
         space = prj.get(ROOT, 'roscosmos')

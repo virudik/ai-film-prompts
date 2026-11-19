@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "project": "stikhiy",
+  "queue_id": "STIKHIY-QUEUE",
+  "updated_at": "2026-11-19T21:21:08.719Z",
+  "state": "paused_by_owner",
+  "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
+  "selection_policy": "Доска не назначена, запуск заблокирован. Только по отдельной команде владельца, после настройки собственной доски, Unlimited и 0 кредитов.",
+  "board_id": null,
+  "board_name": "Стихий",
+  "board_routing_rule": "projects/README.md",
+  "receipts_directory": "projects/stikhiy/reports",
+  "items": [],
+  "already_submitted": {},
+  "owner_site_actions": []
+}

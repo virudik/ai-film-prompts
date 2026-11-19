@@ -1,266 +1,266 @@
 {
   "schema_version": 1,
-  "project": "raznoe",
-  "scene": 6,
+  "project": "stikhiy",
+  "scene": 1,
   "state": "DRAFT",
   "human_inputs": "source_photos_received_working_refs_draft",
   "bindings": {
-    "6-B01": [
+    "1-B01": [
       {
         "slot": "@Image1",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC01-dacha.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.png",
         "role": "location_only",
         "blob_sha": "63820d40786f75697b7c27eb45332f9cfb222789"
       }
     ],
-    "6-B02": [
+    "1-B02": [
       {
         "slot": "@Image1",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png",
         "role": "location_only",
         "blob_sha": "fc8bf43316f1aae1f90e071976813800dc3cc6c9"
       }
     ],
-    "6-B03": [
+    "1-B03": [
       {
         "slot": "@Image1",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC06-red-square.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png",
         "role": "location_only",
         "blob_sha": "bf35a79575de454203d80ace5522c477f2ceda0a"
       },
       {
         "slot": "@Image2",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png",
         "role": "location_only",
         "blob_sha": "fc8bf43316f1aae1f90e071976813800dc3cc6c9"
       }
     ],
-    "6-B04": [
+    "1-B04": [
       {
         "slot": "@Image1",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png",
         "role": "location_only",
         "blob_sha": "fc8bf43316f1aae1f90e071976813800dc3cc6c9"
       }
     ],
-    "6-B05": [
+    "1-B05": [
       {
         "slot": "@Image1",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC07-azlk.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.png",
         "role": "location_only",
         "blob_sha": "48b5f7b2776883b6b00c212c6700a3de06508f26"
       }
     ],
-    "6-B06": [
+    "1-B06": [
       {
         "slot": "@Image1",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png",
         "role": "location_only",
         "blob_sha": "fc8bf43316f1aae1f90e071976813800dc3cc6c9"
       },
       {
         "slot": "@Image2",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC03-kitchen.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.png",
         "role": "location_only",
         "blob_sha": "f5e4966d6f287d7cd3a9866b30a2bfa643d2f135"
       },
       {
         "slot": "@Image3",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC04-bathroom.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.png",
         "role": "location_only",
         "blob_sha": "ba50f401836a95db0bb5c0b003244a978ed2031f"
       },
       {
         "slot": "@Image4",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC05-bedroom.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png",
         "role": "location_only",
         "blob_sha": "a82fe2077e685f3d74811cd12f14910d9db9dba1"
       }
     ],
-    "6-B07": [
+    "1-B07": [
       {
         "slot": "@Image1",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC08-hospital-corridor.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.png",
         "role": "location_only",
         "blob_sha": "247c619adeac4802429ec47dfb1fb51d19daeb85"
       },
       {
         "slot": "@Image2",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png",
         "role": "location_only",
         "blob_sha": "b907d3bc52610811c5ac831c73e09dffa99ca696"
       }
     ],
-    "6-B08": [
+    "1-B08": [
       {
         "slot": "@Image1",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png",
         "role": "location_only",
         "blob_sha": "b907d3bc52610811c5ac831c73e09dffa99ca696"
       }
     ],
-    "6-B09": [
+    "1-B09": [
       {
         "slot": "@Image1",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC10-cemetery.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.png",
         "role": "location_only",
         "blob_sha": "981a2792b4c45a857bfe98bb5913e55b14887084"
       }
     ],
-    "6-B10": [
+    "1-B10": [
       {
         "slot": "@Image1",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png",
         "role": "location_only",
         "blob_sha": "fc8bf43316f1aae1f90e071976813800dc3cc6c9"
       }
     ],
-    "6-A01": [
+    "1-A01": [
       {
         "slot": "@Image1",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC01-dacha.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.png",
         "role": "location_only",
         "blob_sha": "63820d40786f75697b7c27eb45332f9cfb222789"
       }
     ],
-    "6-A02": [
+    "1-A02": [
       {
         "slot": "@Image1",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC01-dacha.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.png",
         "role": "location_only",
         "blob_sha": "63820d40786f75697b7c27eb45332f9cfb222789"
       }
     ],
-    "6-A03": [
+    "1-A03": [
       {
         "slot": "@Image1",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png",
         "role": "location_only",
         "blob_sha": "fc8bf43316f1aae1f90e071976813800dc3cc6c9"
       }
     ],
-    "6-A04": [
+    "1-A04": [
       {
         "slot": "@Image1",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC06-red-square.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png",
         "role": "location_only",
         "blob_sha": "bf35a79575de454203d80ace5522c477f2ceda0a"
       }
     ],
-    "6-A05": [
+    "1-A05": [
       {
         "slot": "@Image1",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC06-red-square.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png",
         "role": "location_only",
         "blob_sha": "bf35a79575de454203d80ace5522c477f2ceda0a"
       },
       {
         "slot": "@Image2",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png",
         "role": "location_only",
         "blob_sha": "fc8bf43316f1aae1f90e071976813800dc3cc6c9"
       }
     ],
-    "6-A06": [
+    "1-A06": [
       {
         "slot": "@Image1",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png",
         "role": "location_only",
         "blob_sha": "fc8bf43316f1aae1f90e071976813800dc3cc6c9"
       }
     ],
-    "6-A07": [
+    "1-A07": [
       {
         "slot": "@Image1",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC07-azlk.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.png",
         "role": "location_only",
         "blob_sha": "48b5f7b2776883b6b00c212c6700a3de06508f26"
       }
     ],
-    "6-A08": [
+    "1-A08": [
       {
         "slot": "@Image1",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png",
         "role": "location_only",
         "blob_sha": "fc8bf43316f1aae1f90e071976813800dc3cc6c9"
       },
       {
         "slot": "@Image2",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC03-kitchen.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.png",
         "role": "location_only",
         "blob_sha": "f5e4966d6f287d7cd3a9866b30a2bfa643d2f135"
       },
       {
         "slot": "@Image3",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC04-bathroom.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.png",
         "role": "location_only",
         "blob_sha": "ba50f401836a95db0bb5c0b003244a978ed2031f"
       },
       {
         "slot": "@Image4",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC05-bedroom.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png",
         "role": "location_only",
         "blob_sha": "a82fe2077e685f3d74811cd12f14910d9db9dba1"
       }
     ],
-    "6-A09": [
+    "1-A09": [
       {
         "slot": "@Image1",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC05-bedroom.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png",
         "role": "location_only",
         "blob_sha": "a82fe2077e685f3d74811cd12f14910d9db9dba1"
       }
     ],
-    "6-A10": [
+    "1-A10": [
       {
         "slot": "@Image1",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC08-hospital-corridor.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.png",
         "role": "location_only",
         "blob_sha": "247c619adeac4802429ec47dfb1fb51d19daeb85"
       },
       {
         "slot": "@Image2",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png",
         "role": "location_only",
         "blob_sha": "b907d3bc52610811c5ac831c73e09dffa99ca696"
       }
     ],
-    "6-A11": [
+    "1-A11": [
       {
         "slot": "@Image1",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png",
         "role": "location_only",
         "blob_sha": "b907d3bc52610811c5ac831c73e09dffa99ca696"
       }
     ],
-    "6-A12": [
+    "1-A12": [
       {
         "slot": "@Image1",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png",
         "role": "location_only",
         "blob_sha": "b907d3bc52610811c5ac831c73e09dffa99ca696"
       }
     ],
-    "6-A13": [
+    "1-A13": [
       {
         "slot": "@Image1",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC09-hospital-room.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png",
         "role": "location_only",
         "blob_sha": "b907d3bc52610811c5ac831c73e09dffa99ca696"
       }
     ],
-    "6-A14": [
+    "1-A14": [
       {
         "slot": "@Image1",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC10-cemetery.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.png",
         "role": "location_only",
         "blob_sha": "981a2792b4c45a857bfe98bb5913e55b14887084"
       }
     ],
-    "6-A15": [
+    "1-A15": [
       {
         "slot": "@Image1",
-        "path": "projects/raznoe/references/scenes/scene-6/S6-LOC02-apartment.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png",
         "role": "location_only",
         "blob_sha": "fc8bf43316f1aae1f90e071976813800dc3cc6c9"
       }
@@ -268,587 +268,587 @@
   },
   "supplementary_note": "Рабочие референсы для согласования, не назначенные слоты @Image.",
   "supplementary_references": {
-    "6-A01": {
+    "1-A01": {
       "references": [
         {
           "asset_id": "S6-Arkady",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
           "role": "character_identity_draft",
           "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
         },
         {
           "asset_id": "S6-Nadezhda",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
           "role": "character_identity_draft",
           "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
         },
         {
           "asset_id": "S6-Stas-ages",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp",
           "role": "character_identity_draft",
           "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
         },
         {
           "asset_id": "S6-Petr",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Petr.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Petr.webp",
           "role": "character_identity_draft",
           "blob_sha": "4cf1b519fc90ee989a44efbed0f8e61055ffd32a"
         },
         {
           "asset_id": "S6-Nina",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Nina.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nina.webp",
           "role": "character_identity_draft",
           "blob_sha": "42574b30960a8e768169ff23597bba16fb9ac8f6"
         },
         {
           "asset_id": "S6-Vladimir",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Vladimir.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp",
           "role": "character_identity_draft",
           "blob_sha": "ae17c0e6f0f7aa33ce6b2f06af4cb07b8ad5ed61"
         },
         {
           "asset_id": "S6-Dacha-reference",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Dacha-reference.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Dacha-reference.webp",
           "role": "location_reconstruction",
           "blob_sha": "9d51efebc0e86dfef93496ac92cb6540c964c1db"
         }
       ],
       "notes": "Стахию около года: левая колонка листа."
     },
-    "6-A02": {
+    "1-A02": {
       "references": [
         {
           "asset_id": "S6-Arkady",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
           "role": "character_identity_draft",
           "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
         },
         {
           "asset_id": "S6-Nadezhda",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
           "role": "character_identity_draft",
           "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
         },
         {
           "asset_id": "S6-Stas-ages",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp",
           "role": "character_identity_draft",
           "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
         },
         {
           "asset_id": "S6-Petr",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Petr.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Petr.webp",
           "role": "character_identity_draft",
           "blob_sha": "4cf1b519fc90ee989a44efbed0f8e61055ffd32a"
         },
         {
           "asset_id": "S6-Nina",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Nina.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nina.webp",
           "role": "character_identity_draft",
           "blob_sha": "42574b30960a8e768169ff23597bba16fb9ac8f6"
         },
         {
           "asset_id": "S6-Vladimir",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Vladimir.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp",
           "role": "character_identity_draft",
           "blob_sha": "ae17c0e6f0f7aa33ce6b2f06af4cb07b8ad5ed61"
         },
         {
           "asset_id": "S6-Dacha-reference",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Dacha-reference.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Dacha-reference.webp",
           "role": "location_reconstruction",
           "blob_sha": "9d51efebc0e86dfef93496ac92cb6540c964c1db"
         }
       ],
       "notes": "Стахию около года: левая колонка листа."
     },
-    "6-B01": {
+    "1-B01": {
       "references": [
         {
           "asset_id": "S6-Arkady",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
           "role": "character_identity_draft",
           "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
         },
         {
           "asset_id": "S6-Nadezhda",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
           "role": "character_identity_draft",
           "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
         },
         {
           "asset_id": "S6-Stas-ages",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp",
           "role": "character_identity_draft",
           "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
         },
         {
           "asset_id": "S6-Petr",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Petr.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Petr.webp",
           "role": "character_identity_draft",
           "blob_sha": "4cf1b519fc90ee989a44efbed0f8e61055ffd32a"
         },
         {
           "asset_id": "S6-Nina",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Nina.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nina.webp",
           "role": "character_identity_draft",
           "blob_sha": "42574b30960a8e768169ff23597bba16fb9ac8f6"
         },
         {
           "asset_id": "S6-Vladimir",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Vladimir.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp",
           "role": "character_identity_draft",
           "blob_sha": "ae17c0e6f0f7aa33ce6b2f06af4cb07b8ad5ed61"
         },
         {
           "asset_id": "S6-Dacha-reference",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Dacha-reference.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Dacha-reference.webp",
           "role": "location_reconstruction",
           "blob_sha": "9d51efebc0e86dfef93496ac92cb6540c964c1db"
         }
       ],
       "notes": "Стахию около года: левая колонка листа."
     },
-    "6-A03": {
+    "1-A03": {
       "references": [
         {
           "asset_id": "S6-Anatoly",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Anatoly.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp",
           "role": "character_identity_draft",
           "blob_sha": "907c202eb662f4067ff125d44fa74a6e0b4d6791"
         },
         {
           "asset_id": "S6-Stas-ages",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp",
           "role": "character_identity_draft",
           "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
         }
       ],
       "notes": "Стахий около года: предварительно левая колонка листа."
     },
-    "6-B02": {
+    "1-B02": {
       "references": [
         {
           "asset_id": "S6-Anatoly",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Anatoly.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp",
           "role": "character_identity_draft",
           "blob_sha": "907c202eb662f4067ff125d44fa74a6e0b4d6791"
         },
         {
           "asset_id": "S6-Stas-ages",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp",
           "role": "character_identity_draft",
           "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
         }
       ],
       "notes": "Стахий около года: предварительно левая колонка листа."
     },
-    "6-A06": {
+    "1-A06": {
       "references": [
         {
           "asset_id": "S6-Anatoly",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Anatoly.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp",
           "role": "character_identity_draft",
           "blob_sha": "907c202eb662f4067ff125d44fa74a6e0b4d6791"
         },
         {
           "asset_id": "S6-Stas-ages",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp",
           "role": "character_identity_draft",
           "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
         }
       ],
       "notes": "Дедушка Анатолий; ранний возраст Стахия, точная дата не указана."
     },
-    "6-B04": {
+    "1-B04": {
       "references": [
         {
           "asset_id": "S6-Anatoly",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Anatoly.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp",
           "role": "character_identity_draft",
           "blob_sha": "907c202eb662f4067ff125d44fa74a6e0b4d6791"
         },
         {
           "asset_id": "S6-Stas-ages",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp",
           "role": "character_identity_draft",
           "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
         }
       ],
       "notes": "Дедушка Анатолий; ранний возраст Стахия, точная дата не указана."
     },
-    "6-A04": {
+    "1-A04": {
       "references": [
         {
           "asset_id": "S6-Arkady",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
           "role": "character_identity_draft",
           "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
         },
         {
           "asset_id": "S6-Nadezhda",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
           "role": "character_identity_draft",
           "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
         },
         {
           "asset_id": "S6-Stas-ages",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp",
           "role": "character_identity_draft",
           "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
         }
       ],
       "notes": "Ранний возраст Стахия: предварительно левая колонка. Для Валерия, Ольги, Вики и бабушки по маме подтверждённых портретов пока нет."
     },
-    "6-A05": {
+    "1-A05": {
       "references": [
         {
           "asset_id": "S6-Arkady",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
           "role": "character_identity_draft",
           "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
         },
         {
           "asset_id": "S6-Nadezhda",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
           "role": "character_identity_draft",
           "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
         },
         {
           "asset_id": "S6-Stas-ages",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp",
           "role": "character_identity_draft",
           "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
         }
       ],
       "notes": "Ранний возраст Стахия: предварительно левая колонка. Для Валерия, Ольги, Вики и бабушки по маме подтверждённых портретов пока нет."
     },
-    "6-B03": {
+    "1-B03": {
       "references": [
         {
           "asset_id": "S6-Arkady",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
           "role": "character_identity_draft",
           "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
         },
         {
           "asset_id": "S6-Nadezhda",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
           "role": "character_identity_draft",
           "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
         },
         {
           "asset_id": "S6-Stas-ages",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp",
           "role": "character_identity_draft",
           "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
         }
       ],
       "notes": "Ранний возраст Стахия: предварительно левая колонка. Для Валерия, Ольги, Вики и бабушки по маме подтверждённых портретов пока нет."
     },
-    "6-A07": {
+    "1-A07": {
       "references": [
         {
           "asset_id": "S6-Arkady",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
           "role": "character_identity_draft",
           "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
         }
       ],
       "notes": "Аркадий до болезни."
     },
-    "6-B05": {
+    "1-B05": {
       "references": [
         {
           "asset_id": "S6-Arkady",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
           "role": "character_identity_draft",
           "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
         }
       ],
       "notes": "Аркадий до болезни."
     },
-    "6-A08": {
+    "1-A08": {
       "references": [
         {
           "asset_id": "S6-Arkady",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
           "role": "character_identity_draft",
           "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
         },
         {
           "asset_id": "S6-Nadezhda",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
           "role": "character_identity_draft",
           "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
         },
         {
           "asset_id": "S6-Stas-ages",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp",
           "role": "character_identity_draft",
           "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
         }
       ],
       "notes": "Ранний возраст Стахия: предварительно левая колонка."
     },
-    "6-A09": {
+    "1-A09": {
       "references": [
         {
           "asset_id": "S6-Arkady",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
           "role": "character_identity_draft",
           "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
         },
         {
           "asset_id": "S6-Nadezhda",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
           "role": "character_identity_draft",
           "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
         },
         {
           "asset_id": "S6-Stas-ages",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp",
           "role": "character_identity_draft",
           "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
         }
       ],
       "notes": "Ранний возраст Стахия: предварительно левая колонка."
     },
-    "6-B06": {
+    "1-B06": {
       "references": [
         {
           "asset_id": "S6-Arkady",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
           "role": "character_identity_draft",
           "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
         },
         {
           "asset_id": "S6-Nadezhda",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
           "role": "character_identity_draft",
           "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
         },
         {
           "asset_id": "S6-Stas-ages",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp",
           "role": "character_identity_draft",
           "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
         }
       ],
       "notes": "Ранний возраст Стахия: предварительно левая колонка."
     },
-    "6-A10": {
+    "1-A10": {
       "references": [
         {
           "asset_id": "S6-Arkady",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
           "role": "character_identity_draft",
           "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
         },
         {
           "asset_id": "S6-Nadezhda",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
           "role": "character_identity_draft",
           "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
         },
         {
           "asset_id": "S6-Stas-ages",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp",
           "role": "character_identity_draft",
           "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
         }
       ],
       "notes": "Стахию почти два года: средняя колонка."
     },
-    "6-A11": {
+    "1-A11": {
       "references": [
         {
           "asset_id": "S6-Arkady",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
           "role": "character_identity_draft",
           "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
         },
         {
           "asset_id": "S6-Nadezhda",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
           "role": "character_identity_draft",
           "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
         },
         {
           "asset_id": "S6-Stas-ages",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp",
           "role": "character_identity_draft",
           "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
         }
       ],
       "notes": "Стахию почти два года: средняя колонка."
     },
-    "6-B07": {
+    "1-B07": {
       "references": [
         {
           "asset_id": "S6-Arkady",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
           "role": "character_identity_draft",
           "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
         },
         {
           "asset_id": "S6-Nadezhda",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
           "role": "character_identity_draft",
           "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
         },
         {
           "asset_id": "S6-Stas-ages",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp",
           "role": "character_identity_draft",
           "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
         }
       ],
       "notes": "Стахию почти два года: средняя колонка."
     },
-    "6-A12": {
+    "1-A12": {
       "references": [
         {
           "asset_id": "S6-Arkady",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
           "role": "character_identity_draft",
           "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
         },
         {
           "asset_id": "S6-Nadezhda",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
           "role": "character_identity_draft",
           "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
         },
         {
           "asset_id": "S6-Stas-ages",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp",
           "role": "character_identity_draft",
           "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
         }
       ],
       "notes": "Для «Зенита» правая колонка Стахия пока ориентир; точный возраст надо уточнить."
     },
-    "6-A13": {
+    "1-A13": {
       "references": [
         {
           "asset_id": "S6-Arkady",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
           "role": "character_identity_draft",
           "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
         },
         {
           "asset_id": "S6-Nadezhda",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
           "role": "character_identity_draft",
           "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
         },
         {
           "asset_id": "S6-Stas-ages",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp",
           "role": "character_identity_draft",
           "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
         }
       ],
       "notes": "Для «Зенита» правая колонка Стахия пока ориентир; точный возраст надо уточнить."
     },
-    "6-B08": {
+    "1-B08": {
       "references": [
         {
           "asset_id": "S6-Arkady",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
           "role": "character_identity_draft",
           "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
         },
         {
           "asset_id": "S6-Nadezhda",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
           "role": "character_identity_draft",
           "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
         },
         {
           "asset_id": "S6-Stas-ages",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp",
           "role": "character_identity_draft",
           "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
         }
       ],
       "notes": "Для «Зенита» правая колонка Стахия пока ориентир; точный возраст надо уточнить."
     },
-    "6-A14": {
+    "1-A14": {
       "references": [
         {
           "asset_id": "S6-Nadezhda",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
           "role": "character_identity_draft",
           "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
         },
         {
           "asset_id": "S6-Stas-ages",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp",
           "role": "character_identity_draft",
           "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
         }
       ],
       "notes": "Стахию три года: правая колонка."
     },
-    "6-B09": {
+    "1-B09": {
       "references": [
         {
           "asset_id": "S6-Nadezhda",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
           "role": "character_identity_draft",
           "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
         },
         {
           "asset_id": "S6-Stas-ages",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp",
           "role": "character_identity_draft",
           "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
         }
       ],
       "notes": "Стахию три года: правая колонка."
     },
-    "6-A15": {
+    "1-A15": {
       "references": [
         {
           "asset_id": "S6-Arkady",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
           "role": "character_identity_draft",
           "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
         },
         {
           "asset_id": "S6-Nadezhda",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
           "role": "character_identity_draft",
           "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
         },
         {
           "asset_id": "S6-Stas-ages",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp",
           "role": "character_identity_draft",
           "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
         }
       ],
       "notes": "Стахию три года: правая колонка. Фото Аркадия на полке — отдельный источник; 3D-лист не заменяет архивный портрет."
     },
-    "6-B10": {
+    "1-B10": {
       "references": [
         {
           "asset_id": "S6-Arkady",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
           "role": "character_identity_draft",
           "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
         },
         {
           "asset_id": "S6-Nadezhda",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
           "role": "character_identity_draft",
           "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
         },
         {
           "asset_id": "S6-Stas-ages",
-          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp",
           "role": "character_identity_draft",
           "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
         }

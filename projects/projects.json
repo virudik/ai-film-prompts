@@ -137,6 +137,34 @@
       }
     },
     {
+      "id": "stikhiy",
+      "name": "Стихий",
+      "emoji": "🎞️",
+      "root": "projects/stikhiy",
+      "state": "active",
+      "description": "«Ради этого стоит жить»: биографическая семейная драма о Стахии.",
+      "aliases": [
+        "стихий",
+        "стахий",
+        "стахия",
+        "ради этого стоит жить",
+        "stikhiy",
+        "stakhiy"
+      ],
+      "master": "projects/stikhiy/video-prompts.md",
+      "handoff": "projects/stikhiy/HANDOFF.md",
+      "instructions": "projects/stikhiy/INSTRUCTIONS.md",
+      "references": "projects/stikhiy/character-references.json",
+      "queue": "projects/stikhiy/ops/topview-launch-queue.json",
+      "lock": "projects/stikhiy/canon-lock.json",
+      "status": "projects/stikhiy/project-status.json",
+      "topview_board": {
+        "board_id": null,
+        "name": "Стихий",
+        "state": "not_configured"
+      }
+    },
+    {
       "id": "raznoe",
       "name": "Разное",
       "emoji": "🎲",
@@ -179,6 +207,7 @@
     "kotmonavty",
     "kot-detektiv",
     "roscosmos",
+    "stikhiy",
     "raznoe"
   ],
   "launch_order_note": "Если готовы элементы очередей нескольких проектов, а слот один: сначала проект выше в launch_order, внутри проекта — наименьший priority. Порядок меняет владелец («в проекте X запускать первым»).",

@@ -13,6 +13,7 @@ var PROJECTS=[
  {id:'kotmonavty',name:'Котмонавты',emoji:'🐱🚀',root:'projects/kotmonavty/',about:'спин-офф про котов'},
  {id:'kot-detektiv',name:'Кот детектив',emoji:'🕵️🐈',root:'projects/kot-detektiv/',about:'кот-сыщик'},
  {id:'roscosmos',name:'Роскосмос',emoji:'🚀',root:'projects/roscosmos/',about:'космические организации'},
+ {id:'stikhiy',name:'Стихий',emoji:'🎞️',root:'projects/stikhiy/',about:'Ради этого стоит жить'},
  {id:'raznoe',name:'Разное',emoji:'🎲',root:'projects/raznoe/',about:'независимые ролики'}
 ];
 var ROOT='seregius',SLOTS=6;
@@ -37,6 +38,17 @@ function resolveCode(code, kind, recordedAt){
 var API_HOST='https://vzohfatqzyioydtgjiyd.supabase.co/functions/v1/owner-decision';
 var want=null;try{var qs=new URLSearchParams(location.search);var qProject=qs.get('project'),qP=qs.get('p');
  want=qProject?resolveCode(qProject,'project',null):(qP?resolveCode(qP,'p',null):null)}catch(e){}
+// The old standalone Raznoe scene moved; do not redirect Roscosmos or any other Raznoe scene.
+try {
+ if(want==='raznoe'){
+  var oldHash=String(location.hash||'');
+  var moved=oldHash==='#scene-6'?'#scene-1':oldHash.replace(/^#6-([AB][0-9]{2})$/,'#1-$1');
+  if(moved!==oldHash){
+   qs.delete('p');qs.set('project','stikhiy');want='stikhiy';
+   window.history.replaceState(null,'',location.pathname+'?'+qs.toString()+moved);
+  }
+ }
+}catch(e){}
 var P=PROJECTS.filter(function(x){return x.id===want})[0]||PROJECTS[0];
 var OTHER=P.id!==ROOT;
 // files every project has in its own folder (root path -> path inside projects/<id>/)

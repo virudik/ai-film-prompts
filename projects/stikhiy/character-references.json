@@ -1,0 +1,679 @@
+{
+  "schema_version": 2,
+  "project": "stikhiy",
+  "updated_at": "2026-11-19T21:21:08.719Z",
+  "source": "Перенос уже опубликованных рабочих референсов проекта «Стихий»: 9 листов внешности и 11 локаций. Исходные семейные фотографии не публикуются.",
+  "characters": [
+    {
+      "id": "S6-Arkady",
+      "name": "Аркадий",
+      "aliases": [],
+      "scenes": [
+        1
+      ],
+      "model_sheet": {
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "primary": "Аркадий",
+        "additional": [],
+        "public_image": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
+        "full_image": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp"
+      },
+      "outfit_variant": "Одежду выбирать по эпизоду, а не по листу.",
+      "variants": [],
+      "provenance": {
+        "project": "stikhiy",
+        "created": "2026-11-19",
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "status": "generated",
+        "sha256": "2b46c27705531e51535878b15437f54f13743dd7ab293a916079987c1213ee97",
+        "width": 1250,
+        "height": 833,
+        "editorial_status": "not_approved"
+      },
+      "reference_images": [
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
+          "caption": "Аркадий · черновик",
+          "sha256": "2b46c27705531e51535878b15437f54f13743dd7ab293a916079987c1213ee97",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved",
+          "derived_from": []
+        }
+      ]
+    },
+    {
+      "id": "S6-Nadezhda",
+      "name": "Надежда",
+      "aliases": [],
+      "scenes": [
+        1
+      ],
+      "model_sheet": {
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "primary": "Надежда",
+        "additional": [],
+        "public_image": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
+        "full_image": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp"
+      },
+      "outfit_variant": "Одежду выбирать по эпизоду, а не по листу.",
+      "variants": [],
+      "provenance": {
+        "project": "stikhiy",
+        "created": "2026-11-19",
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "status": "generated",
+        "sha256": "ecb8e3889da18219df7cff1a257745d72fcee325bd72e78221aff01d353661f4",
+        "width": 1250,
+        "height": 833,
+        "editorial_status": "not_approved"
+      },
+      "reference_images": [
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
+          "caption": "Надежда · черновик",
+          "sha256": "ecb8e3889da18219df7cff1a257745d72fcee325bd72e78221aff01d353661f4",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved",
+          "derived_from": []
+        }
+      ]
+    },
+    {
+      "id": "S6-Stas-ages",
+      "name": "Стахий: 1, 2 и 3 года",
+      "aliases": [],
+      "scenes": [
+        1
+      ],
+      "model_sheet": {
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "primary": "Стахий: 1, 2 и 3 года",
+        "additional": [],
+        "public_image": "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp",
+        "full_image": "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp"
+      },
+      "outfit_variant": "Возрастные колонки слева направо: около 1, 2 и 3 лет.",
+      "variants": [],
+      "provenance": {
+        "project": "stikhiy",
+        "created": "2026-11-19",
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "status": "generated",
+        "sha256": "13403399c0a3e910fe38fd0d718424a15617956b80d9f64fe50b98ec4bf5d2ad",
+        "width": 1250,
+        "height": 833,
+        "editorial_status": "not_approved"
+      },
+      "reference_images": [
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp",
+          "caption": "Стахий: 1, 2 и 3 года · черновик",
+          "sha256": "13403399c0a3e910fe38fd0d718424a15617956b80d9f64fe50b98ec4bf5d2ad",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved",
+          "derived_from": []
+        }
+      ]
+    },
+    {
+      "id": "S6-Petr",
+      "name": "Пётр",
+      "aliases": [],
+      "scenes": [
+        1
+      ],
+      "model_sheet": {
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "primary": "Пётр",
+        "additional": [],
+        "public_image": "projects/stikhiy/references/scenes/scene-1/S6-Petr.webp",
+        "full_image": "projects/stikhiy/references/scenes/scene-1/S6-Petr.webp"
+      },
+      "outfit_variant": "Одежду выбирать по эпизоду, а не по листу.",
+      "variants": [],
+      "provenance": {
+        "project": "stikhiy",
+        "created": "2026-11-19",
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "status": "generated",
+        "sha256": "15c315d10db462c88fce87fcc4cd63b520a6efc2b8a7c9a0d88bb981b2ee3ec9",
+        "width": 1250,
+        "height": 833,
+        "editorial_status": "not_approved"
+      },
+      "reference_images": [
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Petr.webp",
+          "caption": "Пётр · черновик",
+          "sha256": "15c315d10db462c88fce87fcc4cd63b520a6efc2b8a7c9a0d88bb981b2ee3ec9",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved",
+          "derived_from": []
+        }
+      ]
+    },
+    {
+      "id": "S6-Nina",
+      "name": "Нина",
+      "aliases": [],
+      "scenes": [
+        1
+      ],
+      "model_sheet": {
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "primary": "Нина",
+        "additional": [],
+        "public_image": "projects/stikhiy/references/scenes/scene-1/S6-Nina.webp",
+        "full_image": "projects/stikhiy/references/scenes/scene-1/S6-Nina.webp"
+      },
+      "outfit_variant": "Одежду выбирать по эпизоду, а не по листу.",
+      "variants": [],
+      "provenance": {
+        "project": "stikhiy",
+        "created": "2026-11-19",
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "status": "generated",
+        "sha256": "0a5b09a1fae4bb9fe4aff349a59e08f4505a81f627816f79828de175225b2fa5",
+        "width": 1250,
+        "height": 833,
+        "editorial_status": "not_approved"
+      },
+      "reference_images": [
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nina.webp",
+          "caption": "Нина · черновик",
+          "sha256": "0a5b09a1fae4bb9fe4aff349a59e08f4505a81f627816f79828de175225b2fa5",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved",
+          "derived_from": []
+        }
+      ]
+    },
+    {
+      "id": "S6-Anatoly",
+      "name": "Анатолий",
+      "aliases": [],
+      "scenes": [
+        1
+      ],
+      "model_sheet": {
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "primary": "Анатолий",
+        "additional": [],
+        "public_image": "projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp",
+        "full_image": "projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp"
+      },
+      "outfit_variant": "Одежду выбирать по эпизоду, а не по листу.",
+      "variants": [],
+      "provenance": {
+        "project": "stikhiy",
+        "created": "2026-11-19",
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "status": "generated",
+        "sha256": "57b61e7362cf72db9bb6a9cf7e98ce44232a21670de0031ca8a7703533cf1692",
+        "width": 1250,
+        "height": 833,
+        "editorial_status": "not_approved"
+      },
+      "reference_images": [
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp",
+          "caption": "Анатолий · черновик",
+          "sha256": "57b61e7362cf72db9bb6a9cf7e98ce44232a21670de0031ca8a7703533cf1692",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved",
+          "derived_from": []
+        }
+      ]
+    },
+    {
+      "id": "S6-Vladimir",
+      "name": "Владимир",
+      "aliases": [],
+      "scenes": [
+        1
+      ],
+      "model_sheet": {
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "primary": "Владимир",
+        "additional": [],
+        "public_image": "projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp",
+        "full_image": "projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp"
+      },
+      "outfit_variant": "Одежду выбирать по эпизоду, а не по листу.",
+      "variants": [],
+      "provenance": {
+        "project": "stikhiy",
+        "created": "2026-11-19",
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "status": "generated",
+        "sha256": "c62d5db6b9cfa70a6ee03f0e06d2a508e0754965bcb934912761cdfa56d4edee",
+        "width": 1250,
+        "height": 833,
+        "editorial_status": "not_approved"
+      },
+      "reference_images": [
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp",
+          "caption": "Владимир · черновик",
+          "sha256": "c62d5db6b9cfa70a6ee03f0e06d2a508e0754965bcb934912761cdfa56d4edee",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved",
+          "derived_from": []
+        }
+      ]
+    },
+    {
+      "id": "S6-Shura",
+      "name": "Шура",
+      "aliases": [],
+      "scenes": [],
+      "model_sheet": {
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "primary": "Шура",
+        "additional": [],
+        "public_image": "projects/stikhiy/references/scenes/scene-1/S6-Shura.webp",
+        "full_image": "projects/stikhiy/references/scenes/scene-1/S6-Shura.webp"
+      },
+      "outfit_variant": "Галерея; сюжетный эпизод не назначен.",
+      "variants": [],
+      "provenance": {
+        "project": "stikhiy",
+        "created": "2026-11-19",
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "status": "generated",
+        "sha256": "fe4f5a31662abc87093ecd9342e69b15987dbb58059f34975d04090f2ac19972",
+        "width": 1250,
+        "height": 833,
+        "editorial_status": "not_approved"
+      },
+      "reference_images": [
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Shura.webp",
+          "caption": "Шура · черновик",
+          "sha256": "fe4f5a31662abc87093ecd9342e69b15987dbb58059f34975d04090f2ac19972",
+          "scenes": [],
+          "editorial_status": "not_approved",
+          "derived_from": []
+        }
+      ]
+    },
+    {
+      "id": "S6-Julia",
+      "name": "Юлия",
+      "aliases": [],
+      "scenes": [],
+      "model_sheet": {
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "primary": "Юлия",
+        "additional": [],
+        "public_image": "projects/stikhiy/references/scenes/scene-1/S6-Julia.webp",
+        "full_image": "projects/stikhiy/references/scenes/scene-1/S6-Julia.webp"
+      },
+      "outfit_variant": "Галерея; сюжетный эпизод не назначен.",
+      "variants": [],
+      "provenance": {
+        "project": "stikhiy",
+        "created": "2026-11-19",
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "status": "generated",
+        "sha256": "a165ec9d705f0b7867bda487b7c72777b497bc0a69e7527d928c6c6bf47770d9",
+        "width": 1250,
+        "height": 833,
+        "editorial_status": "not_approved"
+      },
+      "reference_images": [
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Julia.webp",
+          "caption": "Юлия · черновик",
+          "sha256": "a165ec9d705f0b7867bda487b7c72777b497bc0a69e7527d928c6c6bf47770d9",
+          "scenes": [],
+          "editorial_status": "not_approved",
+          "derived_from": []
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "id": "S6-LOC01-dacha",
+      "name": "Летняя дача",
+      "kind": "location",
+      "scenes": [
+        1
+      ],
+      "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
+      "images": [
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.png",
+          "caption": "Летняя дача",
+          "scenes": [
+            1
+          ],
+          "blob_sha": "63820d40786f75697b7c27eb45332f9cfb222789",
+          "width": 941,
+          "height": 1672,
+          "editorial_status": "not_approved",
+          "sha256": "90babd927e0ba425af0d917deecaa11b8ebbc648e2b21011ea0895bdf410292c",
+          "bytes": 3394063
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "ChatGPT ImageGen, owner requested location references 18.11.2026"
+      }
+    },
+    {
+      "id": "S6-LOC02-apartment",
+      "name": "Общая комната квартиры",
+      "kind": "location",
+      "scenes": [
+        1
+      ],
+      "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
+      "images": [
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png",
+          "caption": "Общая комната квартиры",
+          "scenes": [
+            1
+          ],
+          "blob_sha": "fc8bf43316f1aae1f90e071976813800dc3cc6c9",
+          "width": 941,
+          "height": 1672,
+          "editorial_status": "not_approved",
+          "sha256": "2d9c9f55bf640e7532c2f1f9b8676f137de22b8c3cf193174310089c9464cedc",
+          "bytes": 2549468
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "ChatGPT ImageGen, owner requested location references 18.11.2026"
+      }
+    },
+    {
+      "id": "S6-LOC03-kitchen",
+      "name": "Кухня вечером",
+      "kind": "location",
+      "scenes": [
+        1
+      ],
+      "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
+      "images": [
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.png",
+          "caption": "Кухня вечером",
+          "scenes": [
+            1
+          ],
+          "blob_sha": "f5e4966d6f287d7cd3a9866b30a2bfa643d2f135",
+          "width": 1052,
+          "height": 1494,
+          "editorial_status": "not_approved",
+          "sha256": "837b3c2b2ac4a8fc8ad8f09c81de62691af7d4fdaee638909d5f2c2166010ea2",
+          "bytes": 2401204
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "ChatGPT ImageGen, owner requested location references 18.11.2026"
+      }
+    },
+    {
+      "id": "S6-LOC04-bathroom",
+      "name": "Ванная",
+      "kind": "location",
+      "scenes": [
+        1
+      ],
+      "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
+      "images": [
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.png",
+          "caption": "Ванная",
+          "scenes": [
+            1
+          ],
+          "blob_sha": "ba50f401836a95db0bb5c0b003244a978ed2031f",
+          "width": 1055,
+          "height": 1491,
+          "editorial_status": "not_approved",
+          "sha256": "34e52dc5deb372be16a3f84d2a426b631369b8b178d3e1d1afb5125853af4cd5",
+          "bytes": 2126926
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "ChatGPT ImageGen, owner requested location references 18.11.2026"
+      }
+    },
+    {
+      "id": "S6-LOC05-bedroom",
+      "name": "Спальня ночью",
+      "kind": "location",
+      "scenes": [
+        1
+      ],
+      "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
+      "images": [
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png",
+          "caption": "Спальня ночью",
+          "scenes": [
+            1
+          ],
+          "blob_sha": "a82fe2077e685f3d74811cd12f14910d9db9dba1",
+          "width": 941,
+          "height": 1672,
+          "editorial_status": "not_approved",
+          "sha256": "c20fb33409a9abec6159bc41b317682398e24051a99df99f951ff48a2ebaf5bf",
+          "bytes": 2447794
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "ChatGPT ImageGen, owner requested location references 18.11.2026"
+      }
+    },
+    {
+      "id": "S6-LOC06-red-square",
+      "name": "Красная площадь зимой",
+      "kind": "location",
+      "scenes": [
+        1
+      ],
+      "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
+      "images": [
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png",
+          "caption": "Красная площадь зимой",
+          "scenes": [
+            1
+          ],
+          "blob_sha": "bf35a79575de454203d80ace5522c477f2ceda0a",
+          "width": 941,
+          "height": 1672,
+          "editorial_status": "not_approved",
+          "sha256": "4b550666f00a5b40927eed232db198d00f5b422727603b1786a0a1b03be8a560",
+          "bytes": 2797165
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "ChatGPT ImageGen, owner requested location references 18.11.2026"
+      }
+    },
+    {
+      "id": "S6-LOC07-azlk",
+      "name": "Токарный цех",
+      "kind": "location",
+      "scenes": [
+        1
+      ],
+      "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
+      "images": [
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.png",
+          "caption": "Токарный цех",
+          "scenes": [
+            1
+          ],
+          "blob_sha": "48b5f7b2776883b6b00c212c6700a3de06508f26",
+          "width": 941,
+          "height": 1672,
+          "editorial_status": "not_approved",
+          "sha256": "d0c143bfe758d6a241aeaf83246ea77896adbd42fbb59ddbf2c6e8dfc0f888b5",
+          "bytes": 2768081
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "ChatGPT ImageGen, owner requested location references 18.11.2026"
+      }
+    },
+    {
+      "id": "S6-LOC08-hospital-corridor",
+      "name": "Больничный коридор",
+      "kind": "location",
+      "scenes": [
+        1
+      ],
+      "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
+      "images": [
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.png",
+          "caption": "Больничный коридор",
+          "scenes": [
+            1
+          ],
+          "blob_sha": "247c619adeac4802429ec47dfb1fb51d19daeb85",
+          "width": 1049,
+          "height": 1499,
+          "editorial_status": "not_approved",
+          "sha256": "00ac6be49fe7b8776bf3db188f1e678c0806eb5964b5bcee046bd61ec68d654f",
+          "bytes": 2192149
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "ChatGPT ImageGen, owner requested location references 18.11.2026"
+      }
+    },
+    {
+      "id": "S6-LOC09-hospital-room",
+      "name": "Больничная палата",
+      "kind": "location",
+      "scenes": [
+        1
+      ],
+      "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
+      "images": [
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png",
+          "caption": "Больничная палата",
+          "scenes": [
+            1
+          ],
+          "blob_sha": "b907d3bc52610811c5ac831c73e09dffa99ca696",
+          "width": 1054,
+          "height": 1492,
+          "editorial_status": "not_approved",
+          "sha256": "71e214b21d6d2f8e8e41613b4cd6b6faa92498a09780fbabcb6e7cc813c6ac63",
+          "bytes": 2362159
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "ChatGPT ImageGen, owner requested location references 18.11.2026"
+      }
+    },
+    {
+      "id": "S6-LOC10-cemetery",
+      "name": "Кладбище, дальний план",
+      "kind": "location",
+      "scenes": [
+        1
+      ],
+      "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
+      "images": [
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.png",
+          "caption": "Кладбище, дальний план",
+          "scenes": [
+            1
+          ],
+          "blob_sha": "981a2792b4c45a857bfe98bb5913e55b14887084",
+          "width": 941,
+          "height": 1672,
+          "editorial_status": "not_approved",
+          "sha256": "1845c13ab4da5f1bf0f8df9979c361877f22b7e5499b0b024946c6f45da72eb7",
+          "bytes": 3890794
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "ChatGPT ImageGen, owner requested location references 18.11.2026"
+      }
+    },
+    {
+      "id": "S6-Dacha-reference",
+      "name": "Дача и сад · реконструкция по фото",
+      "kind": "location",
+      "notes": "Постановочная реконструкция по фото, без людей; не архив.",
+      "images": [
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Dacha-reference.webp",
+          "caption": "Дача и сад · реконструкция по фото · черновик",
+          "sha256": "fd1948581c2cec9dff974d6708683194096c76c1e22a940095977b9b5a88a96e",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "project": "stikhiy",
+        "created": "2026-11-19",
+        "source": "Постановочная реконструкция по фото, без людей; не архив.",
+        "status": "generated",
+        "sha256": "fd1948581c2cec9dff974d6708683194096c76c1e22a940095977b9b5a88a96e",
+        "width": 883,
+        "height": 1250,
+        "editorial_status": "not_approved"
+      },
+      "scenes": [
+        1
+      ]
+    }
+  ],
+  "non_character_reference_rules": [
+    "Индивидуальный лист персонажа всегда выше кадра локации и реквизита для лица, возраста, пропорций и одежды.",
+    "@Image1/@Image2/… — локальные обозначения внутри конкретного промта, не глобальные номера.",
+    "Пути к картинкам — от корня репозитория (projects/stikhiy/references/…)."
+  ]
+}
