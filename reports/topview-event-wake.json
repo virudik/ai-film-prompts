@@ -2257,6 +2257,39 @@
       "claim_id": "65441f77-5c71-4e83-90db-50519b050753",
       "submission_intent_id": "1b0b6f79-53d0-43e6-b430-05a95eb64845",
       "create_click_count": 1
+    },
+    {
+      "event_id": "result:425108630b0e48c9a4b299fc89ad88ee",
+      "issue_number": 821,
+      "actor": "grok",
+      "source": "grok issue-assigned wake #821 (primary) + standing owner command t413u; general mandate t719u",
+      "runner": "grok_executor",
+      "run_id": null,
+      "run_id_unavailable_reason": "not exposed",
+      "execution_instance_id": "2b3f0be9-7c34-4cbc-af84-0e2c1463ac89",
+      "route_generation": 7,
+      "outcome": "started",
+      "retryable": true,
+      "item_id": "S89D-WAN30-R3",
+      "task_ids": [],
+      "new_submissions": 0,
+      "credits_spent": 0,
+      "owner_command": {
+        "standing_command_id": "t413u-20261109",
+        "quote": "Говорю запускай значит запускай. Зачем спрашивать по 10 раз если есть уже согласованная очередь запуска",
+        "general_mandate": {
+          "host_address": "t719u",
+          "at": "2026-11-19T00:41:00Z",
+          "quote": "Да. все сцены запускай самостоятельно. по каждой моего да не жди"
+        }
+      },
+      "checked_at": "2026-11-19T01:37:49Z",
+      "execution": {
+        "state": "started",
+        "stage": "intake",
+        "started_at": "2026-11-19T01:37:49Z",
+        "updated_at": "2026-11-19T01:37:49Z"
+      }
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
