@@ -1793,6 +1793,36 @@
    "thumb_bytes": 60298,
    "src_sha256": "19f8a585944667741a0a5a8978d0c39511b8c59b70a1caa31809c22b83d9b44b"
   },
+  "projects/raznoe/references/scenes/scene-6/S6-Anatoly.webp": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-6/S6-Anatoly.webp.webp",
+   "width": 640,
+   "height": 426,
+   "src_width": 1250,
+   "src_height": 833,
+   "src_bytes": 103420,
+   "thumb_bytes": 21824,
+   "src_sha256": "57b61e7362cf72db9bb6a9cf7e98ce44232a21670de0031ca8a7703533cf1692"
+  },
+  "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-6/S6-Arkady.webp.webp",
+   "width": 640,
+   "height": 426,
+   "src_width": 1250,
+   "src_height": 833,
+   "src_bytes": 63678,
+   "thumb_bytes": 15868,
+   "src_sha256": "2b46c27705531e51535878b15437f54f13743dd7ab293a916079987c1213ee97"
+  },
+  "projects/raznoe/references/scenes/scene-6/S6-Dacha-reference.webp": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-6/S6-Dacha-reference.webp.webp",
+   "width": 640,
+   "height": 906,
+   "src_width": 883,
+   "src_height": 1250,
+   "src_bytes": 287064,
+   "thumb_bytes": 140280,
+   "src_sha256": "fd1948581c2cec9dff974d6708683194096c76c1e22a940095977b9b5a88a96e"
+  },
   "projects/raznoe/references/scenes/scene-6/S6-LOC01-dacha.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-6/S6-LOC01-dacha.png.webp",
    "width": 640,
@@ -1892,6 +1922,56 @@
    "src_bytes": 3890794,
    "thumb_bytes": 230674,
    "src_sha256": "1845c13ab4da5f1bf0f8df9979c361877f22b7e5499b0b024946c6f45da72eb7"
+  },
+  "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp.webp",
+   "width": 640,
+   "height": 426,
+   "src_width": 1250,
+   "src_height": 833,
+   "src_bytes": 74038,
+   "thumb_bytes": 17998,
+   "src_sha256": "ecb8e3889da18219df7cff1a257745d72fcee325bd72e78221aff01d353661f4"
+  },
+  "projects/raznoe/references/scenes/scene-6/S6-Nina.webp": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-6/S6-Nina.webp.webp",
+   "width": 640,
+   "height": 426,
+   "src_width": 1250,
+   "src_height": 833,
+   "src_bytes": 75366,
+   "thumb_bytes": 18230,
+   "src_sha256": "0a5b09a1fae4bb9fe4aff349a59e08f4505a81f627816f79828de175225b2fa5"
+  },
+  "projects/raznoe/references/scenes/scene-6/S6-Petr.webp": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-6/S6-Petr.webp.webp",
+   "width": 640,
+   "height": 426,
+   "src_width": 1250,
+   "src_height": 833,
+   "src_bytes": 83532,
+   "thumb_bytes": 18362,
+   "src_sha256": "15c315d10db462c88fce87fcc4cd63b520a6efc2b8a7c9a0d88bb981b2ee3ec9"
+  },
+  "projects/raznoe/references/scenes/scene-6/S6-Shura.webp": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-6/S6-Shura.webp.webp",
+   "width": 640,
+   "height": 426,
+   "src_width": 1250,
+   "src_height": 833,
+   "src_bytes": 81528,
+   "thumb_bytes": 18750,
+   "src_sha256": "fe4f5a31662abc87093ecd9342e69b15987dbb58059f34975d04090f2ac19972"
+  },
+  "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp.webp",
+   "width": 640,
+   "height": 426,
+   "src_width": 1250,
+   "src_height": 833,
+   "src_bytes": 77994,
+   "thumb_bytes": 17454,
+   "src_sha256": "13403399c0a3e910fe38fd0d718424a15617956b80d9f64fe50b98ec4bf5d2ad"
   },
   "projects/raznoe/references/sonya-expressions.png": {
    "thumb": "references/thumbs/projects/raznoe/references/sonya-expressions.png.webp",
