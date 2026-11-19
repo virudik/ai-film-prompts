@@ -2308,11 +2308,13 @@
       "run_id_unavailable_reason": "not exposed",
       "execution_instance_id": "21a4d8ab-16cf-4197-99ce-bfff92010c4d",
       "route_generation": 7,
-      "outcome": "started",
-      "retryable": true,
+      "outcome": "submitted",
+      "retryable": false,
       "item_id": "S89F-WAN30-R3",
-      "task_ids": [],
-      "new_submissions": 0,
+      "task_ids": [
+        "3daf88bcc82b4b668a3bb4b405ed0703"
+      ],
+      "new_submissions": 1,
       "credits_spent": 0,
       "owner_command": {
         "standing_command_id": "t413u-20261109",
@@ -2323,13 +2325,18 @@
           "quote": "Да. все сцены запускай самостоятельно. по каждой моего да не жди"
         }
       },
-      "checked_at": "2026-11-19T11:27:43Z",
+      "checked_at": "2026-11-19T11:36:12Z",
       "execution": {
-        "state": "started",
-        "stage": "intake",
+        "state": "completed",
+        "stage": "submitted",
         "started_at": "2026-11-19T11:27:43Z",
-        "updated_at": "2026-11-19T11:27:43Z"
-      }
+        "updated_at": "2026-11-19T11:36:12Z",
+        "completed_at": "2026-11-19T11:36:12Z"
+      },
+      "receipt": "reports/topview-queue-2026-10-16/S89F-WAN30-R3-20261119T113522Z.json",
+      "claim_id": "67df4273-dac1-46c1-81fe-48f2c7254414",
+      "submission_intent_id": "a976fb0f-e52e-4672-bc94-f65582d675fc",
+      "create_click_count": 1
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",

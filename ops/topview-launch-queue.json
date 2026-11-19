@@ -3956,7 +3956,7 @@
       "canonical_prompt_sha256": "fbc6cf05411549582e90d228c4d70f3410d449baac5c8e1885adc188ecad89db",
       "normalized_prompt_sha256": "91c247c4013547f69175c21ed4c99bb4251934b0d4c4ba6ab3f6be55902e6e82",
       "priority": 0.306,
-      "state": "submitting",
+      "state": "submitted",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "model_id": "qwen-wan3.0-video",
@@ -4010,7 +4010,7 @@
         "restored_at": "2026-11-18T16:39:16.684107Z",
         "fresh_full_launch_preflight_required": true
       },
-      "task_id": null,
+      "task_id": "3daf88bcc82b4b668a3bb4b405ed0703",
       "owner_approved_rerun": {
         "previous_item_id": "S89F-WAN30-R2",
         "old_submission_outcome": "no_Create: browser closed before click, full scans 0 matches",
@@ -4098,7 +4098,16 @@
           "standing_host_address": "t413u"
         },
         "intent_payload_sha256": "6aa061a72ac24022a4214da8fcc61ae0a02ce496b5f4aa4b7e79794a90130c5a"
-      }
+      },
+      "submitted_at": "2026-11-19T11:35:22Z",
+      "topview_status": "init",
+      "create_click_count": 1,
+      "max_new_submissions_consumed": 1,
+      "creditsCost": 0,
+      "receipt": "reports/topview-queue-2026-10-16/S89F-WAN30-R3-20261119T113522Z.json",
+      "replay_forbidden": true,
+      "no_second_create": true,
+      "normalized_prompt_match": true
     }
   ],
   "already_submitted": {

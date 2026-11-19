@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "item_id": "S89F-WAN30-R3",
+  "outcome": "submitted",
+  "task_id": "3daf88bcc82b4b668a3bb4b405ed0703",
+  "submitted_at": "2026-11-19T11:35:22Z",
+  "create_clicked_at": "2026-11-19T11:35:22Z",
+  "ui_toast": "Задачи успешно отправлены / Успешно создано задач: 1.",
+  "checked_at": "2026-11-19T11:36:12Z",
+  "create_click_count": 1,
+  "credits_spent": 0,
+  "credit_balance_before_after": [
+    11.05,
+    11.05
+  ],
+  "creditsCost": 0,
+  "useUnlimitMode": true,
+  "numeric_zero_displayed": false,
+  "ui_unlimited_label": "Безлимитный режим — бесплатно (Загружено / Сейчас большая очередь.)",
+  "credits_cost_evidence": "selected_free_unlimited_current_form",
+  "owner_free_label_rule": "owner t718s3708 19.11 03:30 MSK; ops/TOPVIEW-FREE-LAUNCH.md",
+  "browser": "parent-coordinated Grok browser helper; UI screenshot kept privately",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "model_id": "qwen-wan3.0-video",
+  "duration_seconds": 30,
+  "resolution": 720,
+  "aspect_ratio": "16:9",
+  "topview_status_at_check": "init",
+  "canonical_prompt_sha256": "fbc6cf05411549582e90d228c4d70f3410d449baac5c8e1885adc188ecad89db",
+  "normalized_prompt_sha256": "91c247c4013547f69175c21ed4c99bb4251934b0d4c4ba6ab3f6be55902e6e82",
+  "submitted_prompt_sha256_raw": "e846fcfef9bb94742ce25ee3f9675686c934d61d2847bd82ea55b78226ec0eba",
+  "full_prompt_match": true,
+  "prompt_match_method": "provider positivePrompt with <<<ImageN>>> chips mapped to @ImageN equals canonical block ignoring whitespace; only differences are single spaces after 5 chips inserted by the editor",
+  "submitted_prompt_verbatim": "Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Wan 3.0 / Seedance 2.5 | Photoreal hologram call, bread and milk\n\nREFERENCES / AUTHORITY ORDER:\n<<<Image1>>>  = references/scenes/scene-89/shared/holo-man.jpg — the seated bald man in dark purple robes. Historical hologram source slot 2 (not a current reference). Shared file.\n<<<Image2>>>  = references/scenes/scene-89/shared/holo-office.jpg — the circular night office. Historical source slot 3 (not a current reference). Shared file.\n<<<Image3>>>  = references/scenes/scene-89/shared/holo-woman.jpg — the woman hologram, not a solid person. Historical source slot 4 (not a current reference). Shared file.\nOrder is fixed. The 15s and 30s versions of this sub-scene use this same order and these same files.\nAttached images are the only visual authority for this generation. If a sentence conflicts with an attached image, follow the image. Do not invent extra reference slots.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\nMAN (<<<Image1>>> ): completely bald pale man, no beard, no glasses, dark purple outer robes, black inner tunic, seated in the throne chair the whole time.\nWOMAN (<<<Image3>>> ): heavy build, long wavy dark-brown hair, full black armour on the shoulders and chest. Upper body only, blue-tinted, semi-transparent, a hologram above the pedestal. She is never physically in the room.\nThe office (<<<Image2>>> ) is night. No daylight outside.\n\nLIP SYNC / WHO SPEAKS:\nThe MAN speaks only «Привет, любимая.» and then his mouth closes.\nThe WOMAN hologram speaks only her answer. They never talk at the same time.\nNo Ukrainian, no English phonetics, no gibberish, no extra lines. Clear Russian.\n\nSTART STATE:\nNight office, the man alone in the throne chair, the pedestal dark. The hologram has not formed yet.\n\nSTORY FLOW:\n0–7s — SETUP. City traffic moves beyond the curved glass. The pedestal wakes, blue light climbs, and her hologram settles into a flicker. He leans forward, not speaking yet.\n7–14s — DEVELOPMENT. He waves, relaxed: «Привет, любимая.» She answers «Привет, дорогой.» The blue glow is on his face.\n14–22s — «Есть информация по карте, которую ты искал. Залетай.» She taps the air of the projection once on the map. He starts to smile, expecting the mission.\n22–30s — PAYOFF. «По пути — купи хлеба и молока.» The shrug is small. His eyebrows go up, he pauses, then he gives one accepting nod. The domestic errand lands harder than the map. She stays a hologram.\n\nEND STATE:\nHe has nodded. The hologram is still there, still blue. No new sentence.\n\nCAMERA / PERFORMANCE:\nStart on the room and the forming hologram, come closer for the map, then hold both faces for the bread and milk. One call, not a montage.\n\nAUDIO:\nNative Russian. The man speaks only his greeting. The hologram speaks only her answer. No Ukrainian dub, no accent gag, no music.\n\nNEGATIVE:\nno extra people, no swapped faces, no duplicated hero, no child, no subtitles, no logos, no watermark, no lightsaber ignition, no cartoon, no collage, no freeze-frame slideshow. No solid woman in the room, no daylight, no second joke after the nod.\n\nFRAME FILL / NO BARS:\nFull 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.",
+  "references": [
+    {
+      "slot": "@Image1",
+      "path": "references/scenes/scene-89/shared/holo-man.jpg",
+      "sha256": "b4a1307310e9c7c52a6f1d8b3157acaa4666daad281b305a119806511c6d2f42",
+      "provider_input": "Image1"
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/scenes/scene-89/shared/holo-office.jpg",
+      "sha256": "aa8cded6f151278c5bc1a1823ea8ed04abcde819e93cd2dfc2b38b0b2ce48d54",
+      "provider_input": "Image2"
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/scenes/scene-89/shared/holo-woman.jpg",
+      "sha256": "85ab20924887bd960cad1a4c3ae3089bc27b6b050d1bef5e63895c48c4604bc8",
+      "provider_input": "Image3"
+    }
+  ],
+  "reference_count": 3,
+  "reference_sha_and_order_verified": "repo SHA verified before upload; provider stores re-encoded copies, order Image1..3 matches",
+  "claim_before_submission": {
+    "claim_id": "67df4273-dac1-46c1-81fe-48f2c7254414",
+    "intent_id": "a976fb0f-e52e-4672-bc94-f65582d675fc",
+    "intent_at": "2026-11-19T11:34:30Z",
+    "intent_payload_sha256": "6aa061a72ac24022a4214da8fcc61ae0a02ce496b5f4aa4b7e79794a90130c5a",
+    "verify_checks_passed_at": "2026-11-19T11:34:39Z",
+    "verify_main": "d14c3a6",
+    "lease_holder": "grok:21a4d8ab-16cf-4197-99ce-bfff92010c4d"
+  },
+  "trigger": "standing owner command t413u-20261109 (cursor_host request bb4e14b7); general mandate t719u 2026-11-19T00:41:00Z",
+  "event_id": "result:90db5dd309db477eb346e8d82676f7b5",
+  "issue_number": 833,
+  "evidence": {
+    "detection": "topview_list_board_tasks newest on My First Board + topview_get_board_task",
+    "total_after": 740
+  },
+  "artistic_acceptance": "pending_owner_review",
+  "retry_forbidden": true
+}
