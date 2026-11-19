@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-19T21:27:30+00:00",
-  "source_head": "0e0484d83579dab1a42a0e2012c8f1ac448db9df",
-  "source_fingerprint": "b2ff23531dfb95de766ea1d96d8591b9459d96cad161201ddd2c574be7e12f3f",
+  "checked_at": "2026-11-19T21:39:07+00:00",
+  "source_head": "277c39bcf8b976becdedbd26c8bfe6632a5b552d",
+  "source_fingerprint": "bc91e9d479070033b99c696757d97ba354d72cf48a6bff65f409126378955d3e",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -209,13 +209,13 @@
     },
     {
       "file": "projects/raznoe/HANDOFF.md",
-      "sha256": "2ed71d28218d8855afc25efdb6e8d25cb0e697d424428c582ad1696369bc90e3",
-      "bytes": 10228
+      "sha256": "9c1e4094e597e0406d330766807bfd881c4b46466975cb5b05c1d83e014dfb2a",
+      "bytes": 11724
     },
     {
       "file": "projects/raznoe/INSTRUCTIONS.md",
-      "sha256": "86d49b4125b36914885470493af54519bad81d610668a73b3e5e66b110f790b9",
-      "bytes": 3847
+      "sha256": "554375b13279212a69a3e442b7d64610b52732d1d8c90687f5ca4c5f2ee327a1",
+      "bytes": 4030
     },
     {
       "file": "projects/raznoe/ops/topview-launch-queue.json",
