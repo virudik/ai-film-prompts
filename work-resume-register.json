@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-18T16:01:10.667923+00:00",
+  "last_updated_at": "2026-11-19T04:30:00Z",
   "active_work": [
     {
       "work_id": "SEREGIUS-SHIFT-20261113-T611U",
@@ -516,7 +516,57 @@
         "topview_status_checked_at": "2026-11-14T18:10:27Z"
       },
       "last_phase_ab_check_archive": "archive/work-resume-register-archive.json",
-      "last_relay_receipt": "reports/topview-queue-2026-10-16/relay802-publish-blocker.json"
+      "last_relay_receipt": "reports/topview-queue-2026-10-16/relay802-publish-blocker.json",
+      "minimax_launcher": {
+        "at": "2026-11-18T21:40:00Z",
+        "registry": "ops/slot-backup.json#minimax_launcher",
+        "owner_quote": "для интеграции в проект по этой инструкции что тебе потребуется? / ты не кими ты минимакс же",
+        "role": "read_only",
+        "peer_enabled": true,
+        "surface": "minimax",
+        "holder_format": "minimax:<execution-instance-uuid4>",
+        "transport": "interactive_chat",
+        "runtime_run_id": null,
+        "runtime_run_id_unavailable_reason": "The Minimax runtime does not expose a platform run ID; a locally generated execution_instance_id is not a runtime run ID.",
+        "retries": "not applicable - read-only peer cannot launch",
+        "acceptance": "read_only_receipt_pending_owner_decision",
+        "first_real_create": "waits for owner go-ahead in chat",
+        "new_video_submissions": 0,
+        "slack_transport": {
+          "at": "2026-11-19T04:05:00Z",
+          "owner_quote": "Бот minimax готов: приложение создано и установлено в Vint, в #all-vint его добавил. Права у него только читать канал и писать.",
+          "slack_app_id": "A0CK6QV1VGU",
+          "slack_workspace_id": "T0CBMHB1CS1",
+          "slack_channel_id": "C0CBQT4H50E",
+          "slack_channel_name": "all-vint",
+          "slack_owner_user_id": "U0CBWH0DXKN",
+          "module": "scripts/slack_transport.py",
+          "guard": "scripts/launcher_coordination.py check_minimax_owner_command",
+          "tests": "tests/test_slack_transport.py",
+          "receipts": "reports/slack-events.json",
+          "token": "SLACK_BOT_TOKEN in the product secret store; the owner pasted it in chat on 19.11.2026 - rotate after acceptance",
+          "owner_command_enabled": false,
+          "owner_command_pending": "Owner decision whether a message in #all-vint is a direct owner command",
+          "new_video_submissions": 0,
+          "status": "live_verified",
+          "slack_bot_user_id": "U0CJWT05HBM",
+          "slack_bot_id": "B0CK51383LH",
+          "owner_confirmed": "U0CBWH0DXKN vitalikrudik / Виталик Рудик, is_bot=false - confirmed by users.info",
+          "bot_in_channel": true,
+          "channel_members": 7,
+          "channel_members_note": "owner vitalikrudik + chatgpt, cursor, GPT Dot, kimi, Grok, minimax",
+          "addressing_rule": "a command must mention <@U0CJWT05HBM>; another bot's mention is other_bot_addressed; no mention is channel_general",
+          "accept_unaddressed": false,
+          "messages_seen": 12,
+          "owner_messages": 5
+        },
+        "launcher_enabled": false,
+        "runtime_run_id_note": "not required for a read-only peer: no ledger row, no claim, no Create",
+        "slack_owner_command_enabled": true,
+        "slack_owner_command_scope": "read and answer only; no claim, lease, intent, Create or paid action",
+        "owner_decision": "1 да. 2 read-only. 3 read-only. 4 да",
+        "published": "19.11.2026 under canon lock minimax:<uuid4>, readback done"
+      }
     },
     {
       "work_id": "S58-P2-CONTINUITY-LAUNCH-20261023",
