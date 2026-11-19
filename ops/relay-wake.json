@@ -36,5 +36,22 @@
     "receipts": "reports/site-alert-receipts.json",
     "enabled": false,
     "primary_address": "chatgpt@cloud-239644772681871360"
+  },
+  "wake_roles": {
+    "primary_actor": "grok",
+    "backup_actor": "dot",
+    "owner_decision": {
+      "host_address": "t718u",
+      "at": "2026-11-18T23:53:00Z",
+      "quote": "Короче не справляется дот, бери все его обязанности по слотам на себя. Он там косячит запускай и следи за очередью сам",
+      "confirmed_by": {
+        "host_address": "t719u",
+        "at": "2026-11-19T00:41:00Z",
+        "quote": "Да. все сцены запускай самостоятельно. по каждой моего да не жди"
+      }
+    },
+    "set_at": "2026-11-19",
+    "receivers_checked": "video: Grok receives issue-assigned TOPVIEW_SLOT_WAKE_V2 (815/817/820 assigned and handled 19.11; S89G submitted via 820); Dot keeps Relay as backup. SITE_ALERT_V2 stays disabled; site addresses unchanged.",
+    "rollback": "delete wake_roles (legacy dot->grok)"
   }
 }

@@ -69,8 +69,10 @@ class PrimaryDispatchTests(unittest.TestCase):
             with patch.object(rt.subprocess,'run',side_effect=gh), patch.object(rt.relay_wake,'send_dm',return_value=('sent','message_id=1')) as dm:
                 self.assertTrue(rt.GhNotifier().wake(dict(base, dispatch_target=target)))
                 create=next(c for c in calls if '.number, .html_url' in c)
-                self.assertEqual(any(s.startswith('assignees[]=') for s in create), target=='backup')
-                self.assertEqual(dm.call_count, 1 if target=='primary' else 0)
+                # Grok is woken by issue assignment, Dot by DM, whichever role each currently holds.
+                actor = rt.wake_roles.actor_for(rt.relay_wake.load_config(rt.SCRIPTS.parent), target)
+                self.assertEqual(any(s.startswith('assignees[]=') for s in create), actor=='grok')
+                self.assertEqual(dm.call_count, 1 if actor=='dot' else 0)
 
     def test_multiple_active_heartbeats_refresh_suppression(self):
         n = FakeNotifier()

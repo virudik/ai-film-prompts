@@ -61,7 +61,7 @@ Read-only stage/time fixtures prove parser compatibility and progress suppressio
 `{"primary_actor":"dot","backup_actor":"grok"}` либо обратная пара.
 Отсутствие блока сохраняет прежний Dot → Grok. Неполный, одинаковый или неизвестный
 actor блокирует отправки, а не угадывает адресата. Само наличие кода не меняет
-роли: блок в production пока не установлен. SITE_ALERT_V2 по-прежнему выключен.
+роли. **19.11.2026 установлен `{"primary_actor":"grok","backup_actor":"dot"}`** по решению владельца t718u (02:53 МСК, «бери все его обязанности по слотам на себя»), подтверждено t719u (03:41 МСК). SITE_ALERT_V2 по-прежнему выключен.
 
 Адреса привязаны к исполнителям, а не к должностям: существующий
 `site_alert_routing.primary_address` всегда адрес Dot, `backup_address` — Grok.

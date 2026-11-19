@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "grok:17029263-f52d-47cc-a2cb-f05f95a9a3de",
   "task": "Grok t718u/t719u: wake_roles grok primary; queue S89F-R3/S89D-R3 (no Create)",
   "acquired_at": "2026-11-19T00:53:33Z",
   "expires_at": "2026-11-19T01:03:33Z",
-  "released_at": null,
+  "released_at": "2026-11-19T00:53:40Z",
   "rules": "ops/CANON-LOCK.md"
 }
