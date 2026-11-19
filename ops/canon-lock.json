@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:21a4d8ab-16cf-4197-99ce-bfff92010c4d",
-  "task": "Grok standing t413u / mandate t719u: S89F-WAN30-R3 lease/claim/intent/verify (extended; fresh parent request id)",
-  "acquired_at": "2026-11-19T11:27:43Z",
-  "expires_at": "2026-11-19T11:45:10Z",
-  "released_at": "2026-11-19T11:36:12Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:44d78827-eb49-4e0d-8c98-dbd8f40329a3",
+  "task": "Выделение проекта Стихий: перенос прежней сцены 6 Разного в сцену 1",
+  "acquired_at": "2026-11-19T21:23:03.483Z",
+  "expires_at": "2026-11-19T22:08:03.483Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
