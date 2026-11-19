@@ -19,7 +19,7 @@
     "inserted_into_film=true requires reviewed=true and accepted=true.",
     "For result_received=true, selected_result_task_id identifies the concrete render proposed for review when known; result_url may be null until a stable safe link is available."
   ],
-  "updated_at": "2026-11-17T15:10:31Z",
+  "updated_at": "2026-11-19T01:20:44Z",
   "scenes": {
     "3": {
       "result_received": true,
@@ -1081,15 +1081,17 @@
       "last_human_update_at": null
     },
     "89": {
-      "result_received": null,
-      "result_received_at": null,
+      "result_received": true,
+      "result_received_at": "2026-11-19T01:16:13Z",
       "reviewed": true,
       "reviewed_at": "2026-11-12T12:29:00Z",
       "accepted": false,
       "needs_redo": true,
       "inserted_into_film": null,
       "montage_note": "Владелец 12.11.2026: старые диалоги Seedance с My First Board вышли плохо. Собраны в сцену 89 для переделки, без новой генерации. Картинки референсов ещё не в репозитории.",
-      "last_human_update_at": "2026-11-12T12:29:00Z"
+      "last_human_update_at": "2026-11-12T12:29:00Z",
+      "selected_result_task_id": "425108630b0e48c9a4b299fc89ad88ee",
+      "result_url": null
     }
   }
 }
