@@ -3,7 +3,7 @@
   "project": "raznoe",
   "scene": 6,
   "state": "DRAFT",
-  "human_inputs": "awaiting_owner_photos_then_3d_models",
+  "human_inputs": "source_photos_received_working_refs_draft",
   "bindings": {
     "6-B01": [
       {
@@ -265,5 +265,595 @@
         "blob_sha": "fc8bf43316f1aae1f90e071976813800dc3cc6c9"
       }
     ]
+  },
+  "supplementary_note": "Рабочие референсы для согласования, не назначенные слоты @Image.",
+  "supplementary_references": {
+    "6-A01": {
+      "references": [
+        {
+          "asset_id": "S6-Arkady",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
+        },
+        {
+          "asset_id": "S6-Nadezhda",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
+        },
+        {
+          "asset_id": "S6-Stas-ages",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
+        },
+        {
+          "asset_id": "S6-Petr",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Petr.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "4cf1b519fc90ee989a44efbed0f8e61055ffd32a"
+        },
+        {
+          "asset_id": "S6-Nina",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Nina.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "42574b30960a8e768169ff23597bba16fb9ac8f6"
+        },
+        {
+          "asset_id": "S6-Vladimir",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Vladimir.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "ae17c0e6f0f7aa33ce6b2f06af4cb07b8ad5ed61"
+        },
+        {
+          "asset_id": "S6-Dacha-reference",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Dacha-reference.webp",
+          "role": "location_reconstruction",
+          "blob_sha": "9d51efebc0e86dfef93496ac92cb6540c964c1db"
+        }
+      ],
+      "notes": "Стасу около года: левая колонка листа."
+    },
+    "6-A02": {
+      "references": [
+        {
+          "asset_id": "S6-Arkady",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
+        },
+        {
+          "asset_id": "S6-Nadezhda",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
+        },
+        {
+          "asset_id": "S6-Stas-ages",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
+        },
+        {
+          "asset_id": "S6-Petr",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Petr.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "4cf1b519fc90ee989a44efbed0f8e61055ffd32a"
+        },
+        {
+          "asset_id": "S6-Nina",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Nina.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "42574b30960a8e768169ff23597bba16fb9ac8f6"
+        },
+        {
+          "asset_id": "S6-Vladimir",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Vladimir.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "ae17c0e6f0f7aa33ce6b2f06af4cb07b8ad5ed61"
+        },
+        {
+          "asset_id": "S6-Dacha-reference",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Dacha-reference.webp",
+          "role": "location_reconstruction",
+          "blob_sha": "9d51efebc0e86dfef93496ac92cb6540c964c1db"
+        }
+      ],
+      "notes": "Стасу около года: левая колонка листа."
+    },
+    "6-B01": {
+      "references": [
+        {
+          "asset_id": "S6-Arkady",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
+        },
+        {
+          "asset_id": "S6-Nadezhda",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
+        },
+        {
+          "asset_id": "S6-Stas-ages",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
+        },
+        {
+          "asset_id": "S6-Petr",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Petr.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "4cf1b519fc90ee989a44efbed0f8e61055ffd32a"
+        },
+        {
+          "asset_id": "S6-Nina",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Nina.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "42574b30960a8e768169ff23597bba16fb9ac8f6"
+        },
+        {
+          "asset_id": "S6-Vladimir",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Vladimir.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "ae17c0e6f0f7aa33ce6b2f06af4cb07b8ad5ed61"
+        },
+        {
+          "asset_id": "S6-Dacha-reference",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Dacha-reference.webp",
+          "role": "location_reconstruction",
+          "blob_sha": "9d51efebc0e86dfef93496ac92cb6540c964c1db"
+        }
+      ],
+      "notes": "Стасу около года: левая колонка листа."
+    },
+    "6-A03": {
+      "references": [
+        {
+          "asset_id": "S6-Anatoly",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Anatoly.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "907c202eb662f4067ff125d44fa74a6e0b4d6791"
+        },
+        {
+          "asset_id": "S6-Stas-ages",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
+        }
+      ],
+      "notes": "Стас около года: предварительно левая колонка листа."
+    },
+    "6-B02": {
+      "references": [
+        {
+          "asset_id": "S6-Anatoly",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Anatoly.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "907c202eb662f4067ff125d44fa74a6e0b4d6791"
+        },
+        {
+          "asset_id": "S6-Stas-ages",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
+        }
+      ],
+      "notes": "Стас около года: предварительно левая колонка листа."
+    },
+    "6-A06": {
+      "references": [
+        {
+          "asset_id": "S6-Anatoly",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Anatoly.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "907c202eb662f4067ff125d44fa74a6e0b4d6791"
+        },
+        {
+          "asset_id": "S6-Stas-ages",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
+        }
+      ],
+      "notes": "Дедушка Анатолий; ранний возраст Стаса, точная дата не указана."
+    },
+    "6-B04": {
+      "references": [
+        {
+          "asset_id": "S6-Anatoly",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Anatoly.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "907c202eb662f4067ff125d44fa74a6e0b4d6791"
+        },
+        {
+          "asset_id": "S6-Stas-ages",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
+        }
+      ],
+      "notes": "Дедушка Анатолий; ранний возраст Стаса, точная дата не указана."
+    },
+    "6-A04": {
+      "references": [
+        {
+          "asset_id": "S6-Arkady",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
+        },
+        {
+          "asset_id": "S6-Nadezhda",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
+        },
+        {
+          "asset_id": "S6-Stas-ages",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
+        }
+      ],
+      "notes": "Ранний возраст Стаса: предварительно левая колонка. Для Валерия, Ольги, Вики и бабушки по маме подтверждённых портретов пока нет."
+    },
+    "6-A05": {
+      "references": [
+        {
+          "asset_id": "S6-Arkady",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
+        },
+        {
+          "asset_id": "S6-Nadezhda",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
+        },
+        {
+          "asset_id": "S6-Stas-ages",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
+        }
+      ],
+      "notes": "Ранний возраст Стаса: предварительно левая колонка. Для Валерия, Ольги, Вики и бабушки по маме подтверждённых портретов пока нет."
+    },
+    "6-B03": {
+      "references": [
+        {
+          "asset_id": "S6-Arkady",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
+        },
+        {
+          "asset_id": "S6-Nadezhda",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
+        },
+        {
+          "asset_id": "S6-Stas-ages",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
+        }
+      ],
+      "notes": "Ранний возраст Стаса: предварительно левая колонка. Для Валерия, Ольги, Вики и бабушки по маме подтверждённых портретов пока нет."
+    },
+    "6-A07": {
+      "references": [
+        {
+          "asset_id": "S6-Arkady",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
+        }
+      ],
+      "notes": "Аркадий до болезни."
+    },
+    "6-B05": {
+      "references": [
+        {
+          "asset_id": "S6-Arkady",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
+        }
+      ],
+      "notes": "Аркадий до болезни."
+    },
+    "6-A08": {
+      "references": [
+        {
+          "asset_id": "S6-Arkady",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
+        },
+        {
+          "asset_id": "S6-Nadezhda",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
+        },
+        {
+          "asset_id": "S6-Stas-ages",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
+        }
+      ],
+      "notes": "Ранний возраст Стаса: предварительно левая колонка."
+    },
+    "6-A09": {
+      "references": [
+        {
+          "asset_id": "S6-Arkady",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
+        },
+        {
+          "asset_id": "S6-Nadezhda",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
+        },
+        {
+          "asset_id": "S6-Stas-ages",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
+        }
+      ],
+      "notes": "Ранний возраст Стаса: предварительно левая колонка."
+    },
+    "6-B06": {
+      "references": [
+        {
+          "asset_id": "S6-Arkady",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
+        },
+        {
+          "asset_id": "S6-Nadezhda",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
+        },
+        {
+          "asset_id": "S6-Stas-ages",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
+        }
+      ],
+      "notes": "Ранний возраст Стаса: предварительно левая колонка."
+    },
+    "6-A10": {
+      "references": [
+        {
+          "asset_id": "S6-Arkady",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
+        },
+        {
+          "asset_id": "S6-Nadezhda",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
+        },
+        {
+          "asset_id": "S6-Stas-ages",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
+        }
+      ],
+      "notes": "Стасу почти два года: средняя колонка."
+    },
+    "6-A11": {
+      "references": [
+        {
+          "asset_id": "S6-Arkady",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
+        },
+        {
+          "asset_id": "S6-Nadezhda",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
+        },
+        {
+          "asset_id": "S6-Stas-ages",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
+        }
+      ],
+      "notes": "Стасу почти два года: средняя колонка."
+    },
+    "6-B07": {
+      "references": [
+        {
+          "asset_id": "S6-Arkady",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
+        },
+        {
+          "asset_id": "S6-Nadezhda",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
+        },
+        {
+          "asset_id": "S6-Stas-ages",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
+        }
+      ],
+      "notes": "Стасу почти два года: средняя колонка."
+    },
+    "6-A12": {
+      "references": [
+        {
+          "asset_id": "S6-Arkady",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
+        },
+        {
+          "asset_id": "S6-Nadezhda",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
+        },
+        {
+          "asset_id": "S6-Stas-ages",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
+        }
+      ],
+      "notes": "Для «Зенита» правая колонка Стаса пока ориентир; точный возраст надо уточнить."
+    },
+    "6-A13": {
+      "references": [
+        {
+          "asset_id": "S6-Arkady",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
+        },
+        {
+          "asset_id": "S6-Nadezhda",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
+        },
+        {
+          "asset_id": "S6-Stas-ages",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
+        }
+      ],
+      "notes": "Для «Зенита» правая колонка Стаса пока ориентир; точный возраст надо уточнить."
+    },
+    "6-B08": {
+      "references": [
+        {
+          "asset_id": "S6-Arkady",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
+        },
+        {
+          "asset_id": "S6-Nadezhda",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
+        },
+        {
+          "asset_id": "S6-Stas-ages",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
+        }
+      ],
+      "notes": "Для «Зенита» правая колонка Стаса пока ориентир; точный возраст надо уточнить."
+    },
+    "6-A14": {
+      "references": [
+        {
+          "asset_id": "S6-Nadezhda",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
+        },
+        {
+          "asset_id": "S6-Stas-ages",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
+        }
+      ],
+      "notes": "Стасу три года: правая колонка."
+    },
+    "6-B09": {
+      "references": [
+        {
+          "asset_id": "S6-Nadezhda",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
+        },
+        {
+          "asset_id": "S6-Stas-ages",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
+        }
+      ],
+      "notes": "Стасу три года: правая колонка."
+    },
+    "6-A15": {
+      "references": [
+        {
+          "asset_id": "S6-Arkady",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
+        },
+        {
+          "asset_id": "S6-Nadezhda",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
+        },
+        {
+          "asset_id": "S6-Stas-ages",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
+        }
+      ],
+      "notes": "Стасу три года: правая колонка. Фото Аркадия на полке — отдельный источник; 3D-лист не заменяет архивный портрет."
+    },
+    "6-B10": {
+      "references": [
+        {
+          "asset_id": "S6-Arkady",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "0bff97a8f355a503394da2de267093372ae82eb2"
+        },
+        {
+          "asset_id": "S6-Nadezhda",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf"
+        },
+        {
+          "asset_id": "S6-Stas-ages",
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "role": "character_identity_draft",
+          "blob_sha": "1b6656f082e0496cb156b3f2afa7b6787dcd3435"
+        }
+      ],
+      "notes": "Стасу три года: правая колонка. Фото Аркадия на полке — отдельный источник; 3D-лист не заменяет архивный портрет."
+    }
   }
 }

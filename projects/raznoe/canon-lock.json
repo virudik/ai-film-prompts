@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:12ba392e-7a26-44eb-94dc-0b123e5b9e44",
   "task": "Стахий: добавить проверенные рабочие референсы в сцену 6",
   "acquired_at": "2026-11-19T12:04:37.883Z",
-  "expires_at": "2026-11-19T12:24:37.883Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-19T12:05:11.707Z",
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "project": "raznoe",
-  "updated_at": "2026-11-18T17:13:22.191Z",
+  "updated_at": "2026-11-19T12:04:13.899Z",
   "source": "59/59 existing scene references recovered and registered; all not_approved; no video generated. 06.11.2026: сцена 3 RESOURCE, 10 поставленных кадров, not_approved; 45737 — полимер; старый металл вне галереи.",
   "characters": [
     {
@@ -765,6 +765,349 @@
           "scenes": [
             3
           ]
+        }
+      ]
+    },
+    {
+      "id": "S6-Arkady",
+      "name": "Аркадий",
+      "aliases": [],
+      "scenes": [
+        6
+      ],
+      "model_sheet": {
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "primary": "Аркадий",
+        "additional": [],
+        "public_image": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+        "full_image": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp"
+      },
+      "outfit_variant": "Одежду выбирать по эпизоду, а не по листу.",
+      "variants": [],
+      "provenance": {
+        "project": "raznoe",
+        "created": "2026-11-19",
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "status": "generated",
+        "sha256": "2b46c27705531e51535878b15437f54f13743dd7ab293a916079987c1213ee97",
+        "width": 1250,
+        "height": 833,
+        "editorial_status": "not_approved"
+      },
+      "reference_images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Arkady.webp",
+          "caption": "Аркадий · черновик",
+          "sha256": "2b46c27705531e51535878b15437f54f13743dd7ab293a916079987c1213ee97",
+          "scenes": [
+            6
+          ],
+          "editorial_status": "not_approved",
+          "derived_from": []
+        }
+      ]
+    },
+    {
+      "id": "S6-Nadezhda",
+      "name": "Надежда",
+      "aliases": [],
+      "scenes": [
+        6
+      ],
+      "model_sheet": {
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "primary": "Надежда",
+        "additional": [],
+        "public_image": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+        "full_image": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp"
+      },
+      "outfit_variant": "Одежду выбирать по эпизоду, а не по листу.",
+      "variants": [],
+      "provenance": {
+        "project": "raznoe",
+        "created": "2026-11-19",
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "status": "generated",
+        "sha256": "ecb8e3889da18219df7cff1a257745d72fcee325bd72e78221aff01d353661f4",
+        "width": 1250,
+        "height": 833,
+        "editorial_status": "not_approved"
+      },
+      "reference_images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Nadezhda.webp",
+          "caption": "Надежда · черновик",
+          "sha256": "ecb8e3889da18219df7cff1a257745d72fcee325bd72e78221aff01d353661f4",
+          "scenes": [
+            6
+          ],
+          "editorial_status": "not_approved",
+          "derived_from": []
+        }
+      ]
+    },
+    {
+      "id": "S6-Stas-ages",
+      "name": "Стас (Стахий): 1, 2 и 3 года",
+      "aliases": [],
+      "scenes": [
+        6
+      ],
+      "model_sheet": {
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "primary": "Стас (Стахий): 1, 2 и 3 года",
+        "additional": [],
+        "public_image": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+        "full_image": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp"
+      },
+      "outfit_variant": "Возрастные колонки слева направо: около 1, 2 и 3 лет.",
+      "variants": [],
+      "provenance": {
+        "project": "raznoe",
+        "created": "2026-11-19",
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "status": "generated",
+        "sha256": "13403399c0a3e910fe38fd0d718424a15617956b80d9f64fe50b98ec4bf5d2ad",
+        "width": 1250,
+        "height": 833,
+        "editorial_status": "not_approved"
+      },
+      "reference_images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Stas-ages.webp",
+          "caption": "Стас (Стахий): 1, 2 и 3 года · черновик",
+          "sha256": "13403399c0a3e910fe38fd0d718424a15617956b80d9f64fe50b98ec4bf5d2ad",
+          "scenes": [
+            6
+          ],
+          "editorial_status": "not_approved",
+          "derived_from": []
+        }
+      ]
+    },
+    {
+      "id": "S6-Petr",
+      "name": "Пётр",
+      "aliases": [],
+      "scenes": [
+        6
+      ],
+      "model_sheet": {
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "primary": "Пётр",
+        "additional": [],
+        "public_image": "projects/raznoe/references/scenes/scene-6/S6-Petr.webp",
+        "full_image": "projects/raznoe/references/scenes/scene-6/S6-Petr.webp"
+      },
+      "outfit_variant": "Одежду выбирать по эпизоду, а не по листу.",
+      "variants": [],
+      "provenance": {
+        "project": "raznoe",
+        "created": "2026-11-19",
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "status": "generated",
+        "sha256": "15c315d10db462c88fce87fcc4cd63b520a6efc2b8a7c9a0d88bb981b2ee3ec9",
+        "width": 1250,
+        "height": 833,
+        "editorial_status": "not_approved"
+      },
+      "reference_images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Petr.webp",
+          "caption": "Пётр · черновик",
+          "sha256": "15c315d10db462c88fce87fcc4cd63b520a6efc2b8a7c9a0d88bb981b2ee3ec9",
+          "scenes": [
+            6
+          ],
+          "editorial_status": "not_approved",
+          "derived_from": []
+        }
+      ]
+    },
+    {
+      "id": "S6-Nina",
+      "name": "Нина",
+      "aliases": [],
+      "scenes": [
+        6
+      ],
+      "model_sheet": {
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "primary": "Нина",
+        "additional": [],
+        "public_image": "projects/raznoe/references/scenes/scene-6/S6-Nina.webp",
+        "full_image": "projects/raznoe/references/scenes/scene-6/S6-Nina.webp"
+      },
+      "outfit_variant": "Одежду выбирать по эпизоду, а не по листу.",
+      "variants": [],
+      "provenance": {
+        "project": "raznoe",
+        "created": "2026-11-19",
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "status": "generated",
+        "sha256": "0a5b09a1fae4bb9fe4aff349a59e08f4505a81f627816f79828de175225b2fa5",
+        "width": 1250,
+        "height": 833,
+        "editorial_status": "not_approved"
+      },
+      "reference_images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Nina.webp",
+          "caption": "Нина · черновик",
+          "sha256": "0a5b09a1fae4bb9fe4aff349a59e08f4505a81f627816f79828de175225b2fa5",
+          "scenes": [
+            6
+          ],
+          "editorial_status": "not_approved",
+          "derived_from": []
+        }
+      ]
+    },
+    {
+      "id": "S6-Anatoly",
+      "name": "Анатолий",
+      "aliases": [],
+      "scenes": [
+        6
+      ],
+      "model_sheet": {
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "primary": "Анатолий",
+        "additional": [],
+        "public_image": "projects/raznoe/references/scenes/scene-6/S6-Anatoly.webp",
+        "full_image": "projects/raznoe/references/scenes/scene-6/S6-Anatoly.webp"
+      },
+      "outfit_variant": "Одежду выбирать по эпизоду, а не по листу.",
+      "variants": [],
+      "provenance": {
+        "project": "raznoe",
+        "created": "2026-11-19",
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "status": "generated",
+        "sha256": "57b61e7362cf72db9bb6a9cf7e98ce44232a21670de0031ca8a7703533cf1692",
+        "width": 1250,
+        "height": 833,
+        "editorial_status": "not_approved"
+      },
+      "reference_images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Anatoly.webp",
+          "caption": "Анатолий · черновик",
+          "sha256": "57b61e7362cf72db9bb6a9cf7e98ce44232a21670de0031ca8a7703533cf1692",
+          "scenes": [
+            6
+          ],
+          "editorial_status": "not_approved",
+          "derived_from": []
+        }
+      ]
+    },
+    {
+      "id": "S6-Vladimir",
+      "name": "Владимир",
+      "aliases": [],
+      "scenes": [
+        6
+      ],
+      "model_sheet": {
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "primary": "Владимир",
+        "additional": [],
+        "public_image": "projects/raznoe/references/scenes/scene-6/S6-Vladimir.webp",
+        "full_image": "projects/raznoe/references/scenes/scene-6/S6-Vladimir.webp"
+      },
+      "outfit_variant": "Одежду выбирать по эпизоду, а не по листу.",
+      "variants": [],
+      "provenance": {
+        "project": "raznoe",
+        "created": "2026-11-19",
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "status": "generated",
+        "sha256": "c62d5db6b9cfa70a6ee03f0e06d2a508e0754965bcb934912761cdfa56d4edee",
+        "width": 1250,
+        "height": 833,
+        "editorial_status": "not_approved"
+      },
+      "reference_images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Vladimir.webp",
+          "caption": "Владимир · черновик",
+          "sha256": "c62d5db6b9cfa70a6ee03f0e06d2a508e0754965bcb934912761cdfa56d4edee",
+          "scenes": [
+            6
+          ],
+          "editorial_status": "not_approved",
+          "derived_from": []
+        }
+      ]
+    },
+    {
+      "id": "S6-Shura",
+      "name": "Шура",
+      "aliases": [],
+      "scenes": [],
+      "model_sheet": {
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "primary": "Шура",
+        "additional": [],
+        "public_image": "projects/raznoe/references/scenes/scene-6/S6-Shura.webp",
+        "full_image": "projects/raznoe/references/scenes/scene-6/S6-Shura.webp"
+      },
+      "outfit_variant": "Галерея; сюжетный эпизод не назначен.",
+      "variants": [],
+      "provenance": {
+        "project": "raznoe",
+        "created": "2026-11-19",
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "status": "generated",
+        "sha256": "fe4f5a31662abc87093ecd9342e69b15987dbb58059f34975d04090f2ac19972",
+        "width": 1250,
+        "height": 833,
+        "editorial_status": "not_approved"
+      },
+      "reference_images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Shura.webp",
+          "caption": "Шура · черновик",
+          "sha256": "fe4f5a31662abc87093ecd9342e69b15987dbb58059f34975d04090f2ac19972",
+          "scenes": [],
+          "editorial_status": "not_approved",
+          "derived_from": []
+        }
+      ]
+    },
+    {
+      "id": "S6-Julia",
+      "name": "Юлия",
+      "aliases": [],
+      "scenes": [],
+      "model_sheet": {
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "primary": "Юлия",
+        "additional": [],
+        "public_image": "projects/raznoe/references/scenes/scene-6/S6-Julia.webp",
+        "full_image": "projects/raznoe/references/scenes/scene-6/S6-Julia.webp"
+      },
+      "outfit_variant": "Галерея; сюжетный эпизод не назначен.",
+      "variants": [],
+      "provenance": {
+        "project": "raznoe",
+        "created": "2026-11-19",
+        "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
+        "status": "generated",
+        "sha256": "a165ec9d705f0b7867bda487b7c72777b497bc0a69e7527d928c6c6bf47770d9",
+        "width": 1250,
+        "height": 833,
+        "editorial_status": "not_approved"
+      },
+      "reference_images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Julia.webp",
+          "caption": "Юлия · черновик",
+          "sha256": "a165ec9d705f0b7867bda487b7c72777b497bc0a69e7527d928c6c6bf47770d9",
+          "scenes": [],
+          "editorial_status": "not_approved",
+          "derived_from": []
         }
       ]
     }
@@ -2047,6 +2390,37 @@
         "status": "generated",
         "source": "ChatGPT ImageGen, owner requested location references 18.11.2026"
       }
+    },
+    {
+      "id": "S6-Dacha-reference",
+      "name": "Дача и сад · реконструкция по фото",
+      "kind": "location",
+      "notes": "Постановочная реконструкция по фото, без людей; не архив.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-6/S6-Dacha-reference.webp",
+          "caption": "Дача и сад · реконструкция по фото · черновик",
+          "sha256": "fd1948581c2cec9dff974d6708683194096c76c1e22a940095977b9b5a88a96e",
+          "scenes": [
+            6
+          ],
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "project": "raznoe",
+        "created": "2026-11-19",
+        "source": "Постановочная реконструкция по фото, без людей; не архив.",
+        "status": "generated",
+        "sha256": "fd1948581c2cec9dff974d6708683194096c76c1e22a940095977b9b5a88a96e",
+        "width": 883,
+        "height": 1250,
+        "editorial_status": "not_approved"
+      },
+      "scenes": [
+        6
+      ]
     }
   ],
   "non_character_reference_rules": [
