@@ -1080,7 +1080,7 @@
       "canonical_prompt_sha256": "58a35e7fcf3c9cf21693f730bda492729fea678abd8f918a644c6eb0a3fa53e7",
       "normalized_prompt_sha256": "af54a74de6f46231c0fd0bbb27cc6fc1668175903a9668784f35bd065ee2d36b",
       "priority": 0.31,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -1119,7 +1119,60 @@
         }
       ],
       "task_id": null,
-      "claim": null,
+      "claim": {
+        "claim_id": "bd65db7f-d46c-47f3-a9df-c54db55e8599",
+        "execution_instance_id": "b9d9940c-9567-40f9-9ba1-387c936afb7d",
+        "route_generation": 7,
+        "source_sha": "5ddcce024296ddd5534950e0427116fce885eb90",
+        "claimed_at": "2026-11-20T07:18:08Z",
+        "lease_holder": "grok:b9d9940c-9567-40f9-9ba1-387c936afb7d",
+        "lease_acquired_at": "2026-11-20T07:16:23Z",
+        "preflight": {
+          "owner_authorized": true,
+          "prompt_match": true,
+          "input_sha_match": true,
+          "input_order_match": true,
+          "qc_passed": true,
+          "website_unlimited": true,
+          "unlimited_mode_selected": true,
+          "ui_prompt_exact": true,
+          "numeric_zero_displayed": false,
+          "paid_credit_mode_selected": false,
+          "credits_cost": 0,
+          "credits_cost_evidence": "selected_free_unlimited_current_form",
+          "ui_unlimited_label": "Безлимитный режим — бесплатно",
+          "quantity": 1,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "model_id": "seedance-2.0-style",
+          "duration_seconds": 15,
+          "prompt_sha256": "58a35e7fcf3c9cf21693f730bda492729fea678abd8f918a644c6eb0a3fa53e7",
+          "reference_sha256": [
+            "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+            "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
+            "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102"
+          ],
+          "form_evidence": {
+            "checked_at_msk": "2026-11-20 10:15 МСК",
+            "url": "https://www.topview.ai/board/1a6244cf1ae747ef847d949a80d6133c?tool-type=video-edit",
+            "mode": "Омни-референс / Seedance 2.0, 16:9, 15s, HD 720p, Количество 1; Авто повышение качества и Поиск в интернете выкл",
+            "payment": "Безлимитный режим — бесплатно выбран (Загружено, большая очередь), Кредитный режим не выбран, кнопка Создать без цены, баланс 11.05",
+            "refs_order": [
+              "1-H28B-disco.png",
+              "2-pasha.jpg",
+              "3-sasha.jpg"
+            ],
+            "prompt_dom_check": "3 чипа @Image1..3 в REFERENCES, вставка 4823 символа, readback editor-readback.txt cmp = prompt.txt sha256 58a35e7f…53e7"
+          },
+          "owner_free_label_decision": {
+            "host_address": "t718s3708 answer",
+            "at": "2026-11-19T00:30:00Z",
+            "role": "user",
+            "text": "Да, «Безлимитный режим» без цены считай бесплатным, запускай"
+          }
+        },
+        "coordination_version": 2
+      },
       "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
       "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
       "blocker": null,
