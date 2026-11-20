@@ -61,7 +61,11 @@
     "9d4b3b177e6d452abe499537a05f454c"
   ],
   "owner_tasks_open_count": 0,
-  "queue_pending_claim_items": [],
+  "queue_pending_claim_items": [
+    "S89D-WAN30-R2",
+    "S89F-WAN30",
+    "S89F-WAN30-R2"
+  ],
   "next_action_unchanged": true,
   "blocker": null,
   "retryable": false,
