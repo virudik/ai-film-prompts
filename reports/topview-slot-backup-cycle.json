@@ -11,17 +11,18 @@
   "run_id": null,
   "run_id_unavailable_reason": "Scheduled wake does not expose platform run_id.",
   "started_at": "2026-11-20T08:56:21.302Z",
-  "updated_at": "2026-11-20T08:58:01.237Z",
-  "phase": "started",
-  "status": "started",
+  "updated_at": "2026-11-20T08:58:03.835Z",
+  "phase": "completed",
+  "status": "completed",
   "source_head": "da10331a9b4822259a018dc82c84ea8ffbbd74f0",
   "route_generation": 7,
   "browser_transport": "dot_own_browser",
   "browser_used": false,
   "execution": {
-    "state": "started",
-    "stage": "live_scan_readback",
-    "updated_at": "2026-11-20T08:58:01.237Z"
+    "state": "completed",
+    "stage": "full_slots_and_no_new_hangar_video",
+    "updated_at": "2026-11-20T08:58:03.835Z",
+    "completed_at": "2026-11-20T08:58:03.835Z"
   },
   "lease": {
     "schema_version": 1,
@@ -42,5 +43,42 @@
   ],
   "next_action_unchanged": true,
   "blocker": null,
-  "retryable": false
+  "retryable": false,
+  "completed_at": "2026-11-20T08:58:03.835Z",
+  "outcome": "no_update_all_slots_occupied",
+  "scan": {
+    "complete": true,
+    "boards_listed": 14,
+    "pages_scanned": 19,
+    "tasks_scanned": 685,
+    "statuses": {
+      "success": 650,
+      "init": 6,
+      "fail": 29
+    }
+  },
+  "occupied_slots": 6,
+  "free_slots": 0,
+  "active_task_ids": [
+    "3644ab40a51c428b9e733aaba2c1c24b",
+    "55dadcb20d2b48a09d1b2b6b4ba0d9ea",
+    "3daf88bcc82b4b668a3bb4b405ed0703",
+    "98092b65ccfc4307ba98b9f9c675d001",
+    "e78f7a26f841414cac6689f2d79601b5",
+    "02fd85ac5fde408285bc439f15ba8239"
+  ],
+  "started_receipt_readback": true,
+  "browser_not_used_reason": "Full account-wide read-only scan verified all six slots occupied.",
+  "hangar_archive": {
+    "topview_count": 26,
+    "grok_count": 29,
+    "new_copies": 0,
+    "grok_full_source_catalog_checked": false,
+    "note": "The six pending IDs and completion totals are unchanged from prior verified account scan; no new source."
+  },
+  "work_backup": {
+    "enabled": false,
+    "last_run_time": "2026-11-18T21:07:31.592127+00:00",
+    "changed": false
+  }
 }
