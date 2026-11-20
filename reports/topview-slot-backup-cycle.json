@@ -11,17 +11,18 @@
   "run_id": null,
   "run_id_unavailable_reason": "Scheduled wake does not expose platform run_id.",
   "started_at": "2026-11-20T07:58:07.498Z",
-  "updated_at": "2026-11-20T08:05:22.044Z",
-  "phase": "started",
-  "status": "started",
+  "updated_at": "2026-11-20T08:05:25.996Z",
+  "phase": "completed",
+  "status": "completed",
   "source_head": "d449617e450b4f39b47fb53efa0fc3566c8161c5",
   "route_generation": 7,
   "browser_transport": "dot_own_browser",
   "browser_used": false,
   "execution": {
-    "state": "started",
-    "stage": "lease_verified_after_full_read_only_scan",
-    "updated_at": "2026-11-20T08:05:22.044Z"
+    "state": "completed",
+    "stage": "full_slots_and_no_new_hangar_video",
+    "updated_at": "2026-11-20T08:05:25.996Z",
+    "completed_at": "2026-11-20T08:05:25.996Z"
   },
   "lease": {
     "schema_version": 1,
@@ -33,5 +34,60 @@
     "released_at": null,
     "rules": "ops/CANON-LOCK.md",
     "acquisition_commit": "5f88fdf85100750df5e929ebea8b70911b9af019"
+  },
+  "new_submissions": 0,
+  "completed_at": "2026-11-20T08:05:25.996Z",
+  "outcome": "no_update_all_slots_occupied",
+  "scan": {
+    "checked_at": "2026-11-20T07:58:14.580Z",
+    "complete": true,
+    "boards_listed": 14,
+    "pages_scanned": 19,
+    "tasks_scanned": 685,
+    "statuses": {
+      "success": 650,
+      "init": 6,
+      "fail": 29
+    }
+  },
+  "occupied_slots": 6,
+  "free_slots": 0,
+  "active_task_ids": [
+    "3644ab40a51c428b9e733aaba2c1c24b",
+    "55dadcb20d2b48a09d1b2b6b4ba0d9ea",
+    "3daf88bcc82b4b668a3bb4b405ed0703",
+    "98092b65ccfc4307ba98b9f9c675d001",
+    "e78f7a26f841414cac6689f2d79601b5",
+    "02fd85ac5fde408285bc439f15ba8239"
+  ],
+  "peer_submitted_observation": {
+    "source": "canonical queue and live Topview scan",
+    "item_id": "S28-A4-20261023",
+    "task_id": "3644ab40a51c428b9e733aaba2c1c24b",
+    "runner": "Grok",
+    "status": "submitted"
+  },
+  "owner_tasks_open_count": 0,
+  "queue_pending_claim_items": [
+    "S89D-WAN30-R2",
+    "S89F-WAN30",
+    "S89F-WAN30-R2"
+  ],
+  "next_action_unchanged": true,
+  "blocker": null,
+  "retryable": false,
+  "started_receipt_readback": true,
+  "browser_not_used_reason": "Full account-wide read-only scan verified all six slots occupied.",
+  "hangar_archive": {
+    "topview_count": 26,
+    "grok_count": 29,
+    "new_copies": 0,
+    "grok_full_source_catalog_checked": false,
+    "note": "Latest successful S89E is dialogue; no new verified hangar source."
+  },
+  "work_backup": {
+    "enabled": false,
+    "last_run_time": "2026-11-18T21:07:31.592127+00:00",
+    "changed": false
   }
 }
