@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:f8458994-b013-4da7-84c3-48e956e38f9d",
   "task": "Hourly 06:00 UTC Topview slot and hangar archive receipt",
   "acquired_at": "2026-11-20T06:05:30.751Z",
-  "expires_at": "2026-11-20T06:13:30.751Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-20T06:05:43.266Z",
   "rules": "ops/CANON-LOCK.md"
 }
