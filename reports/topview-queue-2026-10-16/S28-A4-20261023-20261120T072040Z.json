@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "item_id": "S28-A4-20261023",
+  "outcome": "submitted",
+  "task_id": "3644ab40a51c428b9e733aaba2c1c24b",
+  "submitted_at": "2026-11-20T07:20:40Z",
+  "create_clicked_at_approx": "2026-11-20T07:20:38Z",
+  "checked_at": "2026-11-20T07:21:29Z",
+  "create_click_count": 1,
+  "credits_spent": 0,
+  "credit_balance_before_after": [
+    11.05,
+    11.05
+  ],
+  "creditsCost": 0,
+  "useUnlimitMode": true,
+  "numeric_zero_displayed": false,
+  "ui_unlimited_label": "Безлимитный режим — бесплатно",
+  "credits_cost_evidence": "selected_free_unlimited_current_form",
+  "owner_free_label_rule": "owner t718s3708 19.11 03:30 MSK; ops/TOPVIEW-FREE-LAUNCH.md",
+  "browser": "parent-coordinated Grok computerUse helper; UI screenshot kept privately",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "model_id": "seedance-2.0-style",
+  "duration_seconds": 15,
+  "resolution": 720,
+  "aspect_ratio": "16:9",
+  "topview_status_at_check": "init",
+  "canonical_prompt_sha256": "58a35e7fcf3c9cf21693f730bda492729fea678abd8f918a644c6eb0a3fa53e7",
+  "normalized_prompt_sha256": "af54a74de6f46231c0fd0bbb27cc6fc1668175903a9668784f35bd065ee2d36b",
+  "submitted_prompt_sha256_raw": "46330cc7ba8da83ebb81038ceb73ad1ae297ab111bcb19c97a81ff97f961e7d6",
+  "full_prompt_match": true,
+  "prompt_match_method": "provider positivePrompt with <<<ImageN>>> chips mapped to @ImageN equals canonical block ignoring whitespace",
+  "submitted_prompt_verbatim": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion\n\nREFERENCES / AUTHORITY ORDER:\n<<<Image1>>> : H28B architecture, fixture layout and opening light state only; animate the emitted light as specified below. <<<Image2>>> : PASHA exact identity/costume. <<<Image3>>> : SASHA exact identity/costume. Individual sheets outrank environment details; each sheet is one person. Exactly these two Jedi, empty hands, no lightsabers.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\nPASHA has the exact referenced clean-shaven face and build, dark navy Jedi tunic, brown belt, dark trousers and tall boots. SASHA has the exact referenced bearded face, round glasses, cream inner tunic and dark burgundy-brown outer robe. Keep Sasha's glasses stable and present. Do not transfer beard, glasses, hair or costume between them.\n\nSCENE / LIGHT:\nPhotoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor, Imperial medallion and existing LED borders. Space opening, parked shuttle and fixture mounts remain fixed in world space; their screen position changes only with camera parallax. Begin in the reference's opening light state; visible colour and intensity changes begin within the first second. Existing overhead beams sweep behind the dancers, cycling cyan, magenta, amber and back to cyan about every two seconds, with short brightness pulses between changes. A matching travelling colour chase runs along the existing floor LED borders; reflections on the dark floor change with it. Only the emitted light changes, not the floor pattern or materials. Constant soft neutral-white facial key/fill and stable camera exposure preserve skin and base costume colours. Resolve the coloured lighting to the H28B cyan/magenta phase only during the final half-second. Real cloth and metal; no new stage, fixtures or room.\n\nSTART STATE:\nPasha left and Sasha right, front-facing, hands in a low angular pose, individual lanes separated by visible air.\n\nSTORY FLOW:\nPasha and Sasha throw themselves into a gloriously overconfident dance duel, faces as solemn as an official ceremony. They trade broad angular phrases, lively travelling footwork and playful body answers, alternately leading and echoing one another. Let the choreography develop naturally; keep Pasha left, Sasha right, visible air between them and glasses stable. End back at their original marks, front-facing in the low angular arm pose, only on the last beat. Signature moves to recur and vary (link them freely): mirrored lunges with flat karate-chop palms like imaginary lightsabers (empty hands), a crisp heel spin, and a pointed-toe side kick; they may land one synchronized small hop.\n\nEND STATE:\nPasha remains left and Sasha right on their initial marks, facing camera in the angular low-arm pose, ready for a graphic match-cut to another pair.\n\nCAMERA / SPACE:\nOne continuous full-body view, natural 35–50mm perspective. Make a smooth 50-degree arc within the FRONT hemisphere of the dancers, gradually dollying closer with the rising phrase and easing outward toward the final formation. Faces, feet and complete hand arcs stay readable, bodies large in frame. Return smoothly to the established frontal axis for the last movement; keep left/centre/right roles and match-cut positions. No full orbit, flight between partners, distant establishing reveal or digital zoom. The dancers keep moving independently of the camera.\n\nPERFORMANCE:\nCommitted energetic dancing at normal real-time speed with completely serious faces. Link each phrase directly into the next through weight transfers and visible torso/arm rhythm, never a stationary arms-out reset. Keep the movement amplitude alive through the middle and through approaches or retreats; reaching a position is part of the dance, not a reason to wait. Resolve into the end pose only in the final half-second, with breath and cloth still moving. Facial restraint does not mean a rigid body. Fast disco pulse around 120 BPM, with a decisive full-body accent every beat or two; this sets the energy, not exact music sync.\n\nAUDIO:\nFoot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.\n\nNEGATIVE PROMPT:\nIdentity swaps, extra cast, skating feet, fused limbs, weapons, full-frame flashes, blackouts or coloured facial flicker, slow motion, prolonged poses, camera cuts, generated titles or watermark.\n\nFRAME FILL / NO BARS:\nFill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.",
+  "references": [
+    {
+      "slot": "@Image1",
+      "path": "references/scenes/scene-28/H28B-disco.png",
+      "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+      "provider_input": "Image1"
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/full/pasha.jpg",
+      "sha256": "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
+      "provider_input": "Image2"
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/full/sasha.jpg",
+      "sha256": "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102",
+      "provider_input": "Image3"
+    }
+  ],
+  "reference_count": 3,
+  "reference_sha_and_order_verified": "repo SHA verified before upload; provider stores re-encoded copies, order Image1..3 matches",
+  "claim_before_submission": {
+    "claim_id": "bd65db7f-d46c-47f3-a9df-c54db55e8599",
+    "intent_id": "2ffe82ab-1a1b-450d-9691-5b4f695f236f",
+    "intent_at": "2026-11-20T07:19:49Z",
+    "intent_payload_sha256": "bd1f835a5c3f6922e1153d2059ff93eb637f2a27a32eced23ef9cf69b09c2903",
+    "lease_holder": "grok:b9d9940c-9567-40f9-9ba1-387c936afb7d"
+  },
+  "trigger": "grok issue-assigned wake #855 (primary) + standing owner command t413u; general mandate t719u; music consent owner-20261113-t601u",
+  "event_id": "result:9d4b3b177e6d452abe499537a05f454c",
+  "issue_number": 855,
+  "evidence": {
+    "detection": "topview_list_board_tasks newest on My First Board + topview_get_board_task",
+    "credits_balance_ui": "11.05 before/after"
+  },
+  "artistic_acceptance": "pending_owner_review",
+  "retry_forbidden": true
+}

@@ -1080,7 +1080,7 @@
       "canonical_prompt_sha256": "58a35e7fcf3c9cf21693f730bda492729fea678abd8f918a644c6eb0a3fa53e7",
       "normalized_prompt_sha256": "af54a74de6f46231c0fd0bbb27cc6fc1668175903a9668784f35bd065ee2d36b",
       "priority": 0.31,
-      "state": "submitting",
+      "state": "submitted",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -1118,7 +1118,7 @@
           "input_status": "available"
         }
       ],
-      "task_id": null,
+      "task_id": "3644ab40a51c428b9e733aaba2c1c24b",
       "claim": {
         "claim_id": "bd65db7f-d46c-47f3-a9df-c54db55e8599",
         "execution_instance_id": "b9d9940c-9567-40f9-9ba1-387c936afb7d",
@@ -1224,7 +1224,16 @@
         "quote": "Порядок очереди запуска: 1) S48-P4-R2; 2) совет джедаев на балконе S89A–S89E и голограммы S89F–S89G; 3) оставшиеся танцы сцены 28; 4) остальные разговорные S89H–S89J. Это согласие запускать танцы 28 в этом месте очереди.",
         "scope": "remaining scene 28 dances listed in owner_policy_20261113_t601u only",
         "not_consent_for_other_music": true
-      }
+      },
+      "submitted_at": "2026-11-20T07:20:40Z",
+      "topview_status": "init",
+      "create_click_count": 1,
+      "max_new_submissions_consumed": 1,
+      "creditsCost": 0,
+      "receipt": "reports/topview-queue-2026-10-16/S28-A4-20261023-20261120T072040Z.json",
+      "replay_forbidden": true,
+      "no_second_create": true,
+      "normalized_prompt_match": true
     },
     {
       "id": "S28-A5-20261023",

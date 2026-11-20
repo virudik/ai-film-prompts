@@ -2449,11 +2449,13 @@
       "run_id_unavailable_reason": "not exposed",
       "execution_instance_id": "b9d9940c-9567-40f9-9ba1-387c936afb7d",
       "route_generation": 7,
-      "outcome": "started",
-      "retryable": true,
+      "outcome": "submitted",
+      "retryable": false,
       "item_id": "S28-A4-20261023",
-      "task_ids": [],
-      "new_submissions": 0,
+      "task_ids": [
+        "3644ab40a51c428b9e733aaba2c1c24b"
+      ],
+      "new_submissions": 1,
       "credits_spent": 0,
       "owner_command": {
         "standing_command_id": "t413u-20261109",
@@ -2472,13 +2474,18 @@
         "complete": false,
         "note": "full robot scan required before claim and before intent"
       },
-      "checked_at": "2026-11-20T07:16:23Z",
+      "checked_at": "2026-11-20T07:21:29Z",
       "execution": {
-        "state": "started",
-        "stage": "lease_claim",
+        "state": "completed",
+        "stage": "submitted",
         "started_at": "2026-11-20T07:09:15Z",
-        "updated_at": "2026-11-20T07:16:23Z"
-      }
+        "updated_at": "2026-11-20T07:21:29Z",
+        "completed_at": "2026-11-20T07:21:29Z"
+      },
+      "receipt": "reports/topview-queue-2026-10-16/S28-A4-20261023-20261120T072040Z.json",
+      "claim_id": "bd65db7f-d46c-47f3-a9df-c54db55e8599",
+      "submission_intent_id": "2ffe82ab-1a1b-450d-9691-5b4f695f236f",
+      "create_click_count": 1
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
