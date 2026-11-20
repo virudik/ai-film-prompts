@@ -5,80 +5,30 @@
   "runner": "dot_scheduled_handler",
   "automation_id": "6afc8b674794819192ba0b1415c5a220",
   "automation_context_version": "d33b8ca4e3c0421986e1a4a8b7b6a9069c4e43fb0db2cec1835fb8b5e57c0be1",
-  "execution_instance_id": "ea14bb5e-796a-4b0c-92b4-6b4f88e0163d",
+  "execution_instance_id": "0cf09524-0a08-4ef3-bee6-b6933215c1f1",
   "actual_trigger": "scheduled",
-  "scheduled_for": "2026-11-20T15:00:00Z",
+  "scheduled_for": "2026-11-20T16:00:00Z",
   "run_id": null,
   "run_id_unavailable_reason": "Runtime notification does not expose platform run_id.",
-  "started_at": "2026-11-20T15:02:14.482Z",
-  "updated_at": "2026-11-20T15:02:51.149Z",
-  "phase": "completed",
-  "status": "completed",
-  "source_head": "2305a7da6f3fe8e8c61379d96e372d256f927a4c",
+  "started_at": "2026-11-20T16:00:32.272Z",
+  "updated_at": "2026-11-20T16:01:33.295Z",
+  "phase": "started",
+  "status": "started",
+  "source_head": "723590b1b651705a47a0d46bce6e8798b045ce56",
   "route_generation": 7,
-  "browser_transport": "dot_own_browser",
-  "browser_used": false,
   "execution": {
-    "state": "completed",
-    "stage": "all_slots_occupied_no_new_hangar_video",
-    "updated_at": "2026-11-20T15:02:51.149Z",
-    "completed_at": "2026-11-20T15:02:51.149Z"
+    "state": "started",
+    "stage": "before_full_scan",
+    "updated_at": "2026-11-20T16:01:33.295Z"
   },
   "lease": {
     "schema_version": 1,
     "state": "held",
-    "holder": "chatgpt:ordinary:ea14bb5e-796a-4b0c-92b4-6b4f88e0163d",
-    "task": "Hourly 15:00 UTC Topview slot and archive receipt",
-    "acquired_at": "2026-11-20T15:02:47.406Z",
-    "expires_at": "2026-11-20T15:08:47.406Z",
+    "holder": "chatgpt:ordinary:0cf09524-0a08-4ef3-bee6-b6933215c1f1",
+    "task": "Hourly 16:00 UTC Topview slot and archive receipt",
+    "acquired_at": "2026-11-20T16:01:21.807Z",
+    "expires_at": "2026-11-20T16:07:21.807Z",
     "released_at": null,
     "rules": "ops/CANON-LOCK.md"
-  },
-  "completed_at": "2026-11-20T15:02:51.149Z",
-  "outcome": "no_update_all_slots_occupied",
-  "scan": {
-    "checked_at": "2026-11-20T15:02:19.351Z",
-    "complete": true,
-    "boards_listed": 14,
-    "pages_scanned": 19,
-    "tasks_scanned": 685,
-    "statuses": {
-      "success": 650,
-      "init": 6,
-      "fail": 29
-    }
-  },
-  "occupied_slots": 6,
-  "free_slots": 0,
-  "active_task_ids": [
-    "3644ab40a51c428b9e733aaba2c1c24b",
-    "55dadcb20d2b48a09d1b2b6b4ba0d9ea",
-    "3daf88bcc82b4b668a3bb4b405ed0703",
-    "98092b65ccfc4307ba98b9f9c675d001",
-    "e78f7a26f841414cac6689f2d79601b5",
-    "02fd85ac5fde408285bc439f15ba8239"
-  ],
-  "started_receipt_readback": true,
-  "new_submissions": 0,
-  "next_action_unchanged": true,
-  "owner_tasks_open_count": 0,
-  "queue_pending_claim_items": [
-    "S89D-WAN30-R2",
-    "S89F-WAN30",
-    "S89F-WAN30-R2"
-  ],
-  "browser_not_used_reason": "Full scan verified six occupied slots; no Create permitted.",
-  "blocker": null,
-  "retryable": false,
-  "hangar_archive": {
-    "topview_count": 26,
-    "grok_count": 29,
-    "new_copies": 0,
-    "grok_full_source_catalog_checked": false
-  },
-  "work_backup": {
-    "enabled": false,
-    "last_run_time": "2026-11-18T21:07:31.592127+00:00",
-    "changed": false
   }
 }
