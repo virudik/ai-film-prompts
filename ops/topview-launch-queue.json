@@ -1080,7 +1080,7 @@
       "canonical_prompt_sha256": "58a35e7fcf3c9cf21693f730bda492729fea678abd8f918a644c6eb0a3fa53e7",
       "normalized_prompt_sha256": "af54a74de6f46231c0fd0bbb27cc6fc1668175903a9668784f35bd065ee2d36b",
       "priority": 0.31,
-      "state": "claimed",
+      "state": "submitting",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -1171,7 +1171,33 @@
             "text": "Да, «Безлимитный режим» без цены считай бесплатным, запускай"
           }
         },
-        "coordination_version": 2
+        "coordination_version": 2,
+        "submission_intent_id": "2ffe82ab-1a1b-450d-9691-5b4f695f236f",
+        "submission_intent_at": "2026-11-20T07:19:49Z",
+        "replay_forbidden": true,
+        "host_run": {
+          "namespace": "cursor_host",
+          "observation_source": "parent_shell_os_environ",
+          "field": "CURSOR_REQUEST_ID",
+          "value": "4a9dd636-d34e-454d-a318-787b5aef80ec",
+          "conversation_field": "CURSOR_CONVERSATION_ID",
+          "conversation_id": "1c1bf697-3c93-4068-b457-e90efdd5ef8f",
+          "standing_command_id": "t413u-20261109"
+        },
+        "provider_run_key": "9b8aea63579d998981fd8be5d1e0f2477eb5784bb2f7c8648587e1a5949150e7",
+        "owner_event_keys": [
+          "64ce800988fb3f0ae12ac0f0910eea2b82392586d83a983b616a6d9d3e2e77af"
+        ],
+        "ledger_path": "ops/launcher-run-ledger.json",
+        "trigger": "owner_command",
+        "owner_command": {
+          "quote": "Говорю запускай значит запускай. Зачем спрашивать по 10 раз если есть уже согласованная очередь запуска",
+          "source": "cursor_host",
+          "at": "2026-11-09T08:25:00Z",
+          "standing_command_id": "t413u-20261109",
+          "standing_host_address": "t413u"
+        },
+        "intent_payload_sha256": "bd1f835a5c3f6922e1153d2059ff93eb637f2a27a32eced23ef9cf69b09c2903"
       },
       "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
       "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
