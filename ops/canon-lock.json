@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "grok:b9d9940c-9567-40f9-9ba1-387c936afb7d",
   "task": "Grok wake #855: started ACK for S28-A4-20261023 (lease/claim/intent/verify follow)",
   "acquired_at": "2026-11-20T07:09:15Z",
   "expires_at": "2026-11-20T07:19:15Z",
-  "released_at": null,
+  "released_at": "2026-11-20T07:09:41Z",
   "rules": "ops/CANON-LOCK.md"
 }
