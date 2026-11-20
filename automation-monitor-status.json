@@ -491,8 +491,8 @@
     "last_event_id": "result:9d4b3b177e6d452abe499537a05f454c",
     "receipt_present": true,
     "handler_outcome": "started",
-    "execution_stage": "intake",
-    "execution_updated_at": "2026-11-20T07:09:15Z",
+    "execution_stage": "lease_claim",
+    "execution_updated_at": "2026-11-20T07:16:23Z",
     "runtime_run_id": null,
     "confirmed_launch_task_ids": [],
     "last_confirmed_event_id": "result:90db5dd309db477eb346e8d82676f7b5",
@@ -500,6 +500,6 @@
       "3daf88bcc82b4b668a3bb4b405ed0703"
     ],
     "escalation_attempted_episode": "d6346db8",
-    "checked_at": "2026-11-20T07:10:40Z"
+    "checked_at": "2026-11-20T07:17:07Z"
   }
 }
