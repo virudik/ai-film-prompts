@@ -235,6 +235,21 @@
       "result": "Причина подтверждена: новая S49A task 101221814fd5430697f697f95a3f4252 была сохранена в очереди/receipt, но отсутствовала в topview-task-map.json.active_by_scene; поэтому штатный скан отмечал unmapped_active и блокировал публикацию. Под своей lease исправлена точная привязка к сцене 49 и атомарно обновлён SHA queue-readiness, коммит 3bfde979b67fadc3ac11ec97c8159ef4a51e6c04. Независимый штатный shadow-скан 2026-11-06T10:20:25Z подтвердил scene_id=49 и unknown_new=0. Публикация canonical topview-status.json ещё требует самостоятельного успешного цикла GitHub-робота; checked_at искусственно не обновлялся, запуск видео не производился.",
       "result_commit": "3bfde979b67fadc3ac11ec97c8159ef4a51e6c04",
       "closed_at": "2026-11-06T10:24:10Z"
+    },
+    {
+      "id": "self-heal-run-failed-sync-from-drive-202611061920",
+      "heal_key": "run-failed-sync-from-drive",
+      "created_at": "2026-11-06T19:20:09Z",
+      "scene_id": null,
+      "to": "any",
+      "source": "self-heal",
+      "text": "Самопроверка: Последний запуск «проверка канона и кнопок» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/42277512140 Робот уже повторил упавший запуск «проверка канона и кнопок» 2026-11-06T18:49:45Z, не помогло. Найти причину и починить; правила — ops/SELF-HEAL.md.",
+      "status": "done",
+      "taken_by": "chatgpt:ordinary",
+      "taken_at": "2026-11-06T22:42:47.462Z",
+      "result": "Ошибка sync-from-drive от 06.11 устранена автоматическим восстановлением. Подтверждены success запусков 42304154919, 42305425599 и 42305864747, self-heal.json.status=ok и project-status.health=ok после обновления мастера. Ручной повтор и изменение workflow не требуются.",
+      "result_commit": "eff22d811ff74fdec589f96101ae1d05842e211c",
+      "closed_at": "2026-11-06T22:42:52.996Z"
     }
   ]
 }
