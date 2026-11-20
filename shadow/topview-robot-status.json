@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-20T06:40:33Z",
+  "checked_at": "2026-11-20T06:50:37Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -67,7 +67,7 @@
       "model": "Seedance 2.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 1471,
+      "queue_count": 1485,
       "wait_seconds": 43200,
       "process_seconds": null
     },
@@ -80,7 +80,7 @@
       "model": "Wan 3.0",
       "scene_id": 89,
       "mapping": "task_map",
-      "queue_count": 2493,
+      "queue_count": 2507,
       "wait_seconds": 95040,
       "process_seconds": null
     },
@@ -93,7 +93,7 @@
       "model": "Seedance 2.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 3224,
+      "queue_count": 3238,
       "wait_seconds": 138240,
       "process_seconds": null
     },
@@ -106,7 +106,7 @@
       "model": "Wan 3.0",
       "scene_id": 89,
       "mapping": "task_map",
-      "queue_count": 2185,
+      "queue_count": 2198,
       "wait_seconds": 77760,
       "process_seconds": null
     },
@@ -132,7 +132,7 @@
       "model": "Wan 3.0",
       "scene_id": 89,
       "mapping": "task_map",
-      "queue_count": 1849,
+      "queue_count": 1862,
       "wait_seconds": 60480,
       "process_seconds": null
     }
@@ -157,19 +157,12 @@
     }
   ],
   "comparison": {
-    "monitor_checked_at": "2026-11-20T06:00:25Z",
-    "monitor_age_minutes": 40,
+    "monitor_checked_at": "2026-11-20T06:40:33Z",
+    "monitor_age_minutes": 10,
     "monitor_occupied": 6,
     "robot_occupied": 6,
-    "consistent": false,
+    "consistent": true,
     "monitor_may_lag": false,
-    "differences": [
-      {
-        "type": "status_differs",
-        "task_id": "9d4b3b177e6d452abe499537a05f454c",
-        "monitor": "init",
-        "robot": "running"
-      }
-    ]
+    "differences": []
   }
 }
