@@ -2472,12 +2472,12 @@
         "complete": false,
         "note": "full robot scan required before claim and before intent"
       },
-      "checked_at": "2026-11-20T07:09:15Z",
+      "checked_at": "2026-11-20T07:16:23Z",
       "execution": {
         "state": "started",
-        "stage": "intake",
+        "stage": "lease_claim",
         "started_at": "2026-11-20T07:09:15Z",
-        "updated_at": "2026-11-20T07:09:15Z"
+        "updated_at": "2026-11-20T07:16:23Z"
       }
     }
   ],
