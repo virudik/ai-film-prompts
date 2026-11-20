@@ -11,26 +11,73 @@
   "run_id": null,
   "run_id_unavailable_reason": "Runtime notification does not expose platform run_id.",
   "started_at": "2026-11-20T13:00:00Z",
-  "updated_at": "2026-11-20T13:01:03.944Z",
-  "phase": "started",
-  "status": "started",
+  "updated_at": "2026-11-20T13:01:37.236Z",
+  "phase": "completed",
+  "status": "completed",
   "source_head": "96b7289cb902c57591b61c6f24e121df4c72df05",
   "route_generation": 7,
   "browser_transport": "dot_own_browser",
   "browser_used": false,
   "execution": {
-    "state": "started",
-    "stage": "read_only_slot_scan_complete_persisting_receipt",
-    "updated_at": "2026-11-20T13:01:03.944Z"
+    "state": "completed",
+    "stage": "full_slots_and_no_new_hangar_video",
+    "updated_at": "2026-11-20T13:01:37.236Z",
+    "completed_at": "2026-11-20T13:01:37.236Z"
   },
   "lease": {
     "schema_version": 1,
     "state": "held",
     "holder": "chatgpt:ordinary:2a7c9896-1a47-4d0f-b8c9-b7e51623f94d",
     "task": "Hourly 13:00 UTC Topview slot and hangar archive receipt",
-    "acquired_at": "2026-11-20T13:01:01.885Z",
-    "expires_at": "2026-11-20T13:09:01.885Z",
+    "acquired_at": "2026-11-20T13:01:35.356Z",
+    "expires_at": "2026-11-20T13:03:35.356Z",
     "released_at": null,
     "rules": "ops/CANON-LOCK.md"
+  },
+  "completed_at": "2026-11-20T13:01:37.236Z",
+  "outcome": "no_update_all_slots_occupied",
+  "scan": {
+    "complete": true,
+    "boards_listed": 14,
+    "pages_scanned": 19,
+    "tasks_scanned": 685,
+    "statuses": {
+      "success": 650,
+      "init": 6,
+      "fail": 29
+    }
+  },
+  "occupied_slots": 6,
+  "free_slots": 0,
+  "active_task_ids": [
+    "3644ab40a51c428b9e733aaba2c1c24b",
+    "55dadcb20d2b48a09d1b2b6b4ba0d9ea",
+    "3daf88bcc82b4b668a3bb4b405ed0703",
+    "98092b65ccfc4307ba98b9f9c675d001",
+    "e78f7a26f841414cac6689f2d79601b5",
+    "02fd85ac5fde408285bc439f15ba8239"
+  ],
+  "started_receipt_readback": true,
+  "new_submissions": 0,
+  "next_action_unchanged": true,
+  "owner_tasks_open_count": 0,
+  "queue_pending_claim_items": [
+    "S89D-WAN30-R2",
+    "S89F-WAN30",
+    "S89F-WAN30-R2"
+  ],
+  "browser_not_used_reason": "Complete read-only scan found six occupied slots.",
+  "blocker": null,
+  "retryable": false,
+  "hangar_archive": {
+    "topview_count": 26,
+    "grok_count": 29,
+    "new_copies": 0,
+    "grok_full_source_catalog_checked": false
+  },
+  "work_backup": {
+    "enabled": false,
+    "last_run_time": "2026-11-18T21:07:31.592127+00:00",
+    "changed": false
   }
 }
