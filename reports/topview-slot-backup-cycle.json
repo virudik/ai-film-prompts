@@ -11,17 +11,18 @@
   "run_id": null,
   "run_id_unavailable_reason": "Scheduled wake does not expose platform run_id.",
   "started_at": "2026-11-20T06:04:51.470Z",
-  "updated_at": "2026-11-20T06:05:34.224Z",
-  "phase": "started",
-  "status": "started",
+  "updated_at": "2026-11-20T06:05:38.088Z",
+  "phase": "completed",
+  "status": "completed",
   "source_head": "c730ea1e491f9a2ca8053e162320661254e5910a",
   "route_generation": 7,
   "browser_transport": "dot_own_browser",
   "browser_used": false,
   "execution": {
-    "state": "started",
-    "stage": "lease_verified_after_full_read_only_scan",
-    "updated_at": "2026-11-20T06:05:34.224Z"
+    "state": "completed",
+    "stage": "full_slots_and_no_new_hangar_video",
+    "updated_at": "2026-11-20T06:05:38.088Z",
+    "completed_at": "2026-11-20T06:05:38.088Z"
   },
   "lease": {
     "schema_version": 1,
@@ -33,5 +34,53 @@
     "released_at": null,
     "rules": "ops/CANON-LOCK.md",
     "acquisition_commit": "7830993b6e710a910ea340d15fc7fe921d56aead"
+  },
+  "new_submissions": 0,
+  "completed_at": "2026-11-20T06:05:38.088Z",
+  "outcome": "no_update_all_slots_occupied",
+  "scan": {
+    "checked_at": "2026-11-20T06:04:59.553Z",
+    "complete": true,
+    "boards_listed": 14,
+    "pages_scanned": 19,
+    "tasks_scanned": 684,
+    "statuses": {
+      "success": 649,
+      "init": 6,
+      "fail": 29
+    }
+  },
+  "occupied_slots": 6,
+  "free_slots": 0,
+  "active_task_ids": [
+    "55dadcb20d2b48a09d1b2b6b4ba0d9ea",
+    "3daf88bcc82b4b668a3bb4b405ed0703",
+    "98092b65ccfc4307ba98b9f9c675d001",
+    "e78f7a26f841414cac6689f2d79601b5",
+    "02fd85ac5fde408285bc439f15ba8239",
+    "9d4b3b177e6d452abe499537a05f454c"
+  ],
+  "owner_tasks_open_count": 0,
+  "queue_pending_claim_items": [
+    "S89D-WAN30-R2",
+    "S89F-WAN30",
+    "S89F-WAN30-R2"
+  ],
+  "next_action_unchanged": true,
+  "blocker": null,
+  "retryable": false,
+  "started_receipt_readback": true,
+  "browser_not_used_reason": "Full account-wide read-only scan verified all six slots occupied.",
+  "hangar_archive": {
+    "topview_count": 26,
+    "grok_count": 29,
+    "new_copies": 0,
+    "grok_full_source_catalog_checked": false,
+    "note": "No new successful Topview task; latest verified completion is dialogue."
+  },
+  "work_backup": {
+    "enabled": false,
+    "last_run_time": "2026-11-18T21:07:31.592127+00:00",
+    "changed": false
   }
 }
