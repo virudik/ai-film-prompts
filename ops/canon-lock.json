@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:f8458994-b013-4da7-84c3-48e956e38f9d",
-  "task": "Hourly 06:00 UTC Topview slot and hangar archive receipt",
-  "acquired_at": "2026-11-20T06:05:30.751Z",
-  "expires_at": null,
-  "released_at": "2026-11-20T06:05:43.266Z",
+  "state": "held",
+  "holder": "grok:b9d9940c-9567-40f9-9ba1-387c936afb7d",
+  "task": "Grok wake #855: started ACK for S28-A4-20261023 (lease/claim/intent/verify follow)",
+  "acquired_at": "2026-11-20T07:09:15Z",
+  "expires_at": "2026-11-20T07:19:15Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }

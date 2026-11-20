@@ -2438,6 +2438,47 @@
         "updated_at": "2026-11-19T22:47:10.123Z"
       },
       "lock_outcome": "own_exact_lease_acquired_by_CAS; released_atomically_with_terminal_receipt"
+    },
+    {
+      "event_id": "result:9d4b3b177e6d452abe499537a05f454c",
+      "issue_number": 855,
+      "actor": "grok",
+      "source": "grok issue-assigned wake #855 (primary) + standing owner command t413u; general mandate t719u",
+      "runner": "grok_executor",
+      "run_id": null,
+      "run_id_unavailable_reason": "not exposed",
+      "execution_instance_id": "b9d9940c-9567-40f9-9ba1-387c936afb7d",
+      "route_generation": 7,
+      "outcome": "started",
+      "retryable": true,
+      "item_id": "S28-A4-20261023",
+      "task_ids": [],
+      "new_submissions": 0,
+      "credits_spent": 0,
+      "owner_command": {
+        "standing_command_id": "t413u-20261109",
+        "quote": "Говорю запускай значит запускай. Зачем спрашивать по 10 раз если есть уже согласованная очередь запуска",
+        "general_mandate": {
+          "host_address": "t719u",
+          "at": "2026-11-19T00:41:00Z",
+          "quote": "Да. все сцены запускай самостоятельно. по каждой моего да не жди"
+        }
+      },
+      "preliminary_scan": {
+        "method": "read-only Topview MCP: board list counts unchanged vs robot 07:00:29Z + detail of every known-active task",
+        "checked_at": "2026-11-20T07:06:12Z",
+        "occupied_slots": 5,
+        "free_slots": 1,
+        "complete": false,
+        "note": "full robot scan required before claim and before intent"
+      },
+      "checked_at": "2026-11-20T07:09:15Z",
+      "execution": {
+        "state": "started",
+        "stage": "intake",
+        "started_at": "2026-11-20T07:09:15Z",
+        "updated_at": "2026-11-20T07:09:15Z"
+      }
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
