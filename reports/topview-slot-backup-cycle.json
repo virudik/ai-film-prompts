@@ -4,78 +4,35 @@
   "source": "Dot scheduled own browser",
   "runner": "dot_scheduled_handler",
   "automation_id": "6afc8b674794819192ba0b1415c5a220",
-  "automation_context_version": "04b6bdacc9946bde47a4909ab3733a300b1d5874a3d53f49cd82a752b1ebcc75",
-  "execution_instance_id": "deb196db-be37-4433-a1cd-03b994455b17",
+  "automation_context_version": "d33b8ca4e3c0421986e1a4a8b7b6a9069c4e43fb0db2cec1835fb8b5e57c0be1",
+  "execution_instance_id": "fecfa027-15e3-4438-b304-3d2d6dd1aae8",
   "run_id": null,
-  "run_id_unavailable_reason": "Not exposed in scheduled wake delegated by root",
+  "run_id_unavailable_reason": "Scheduled wake payload does not expose platform run_id.",
   "actual_trigger": "scheduled",
-  "scheduled_for": "2026-11-18T18:00:00Z",
-  "started_at": "2026-11-18T18:03:22.683Z",
-  "updated_at": "2026-11-18T18:06:56.055Z",
-  "phase": "completed",
-  "status": "completed",
-  "outcome": "no_update_all_slots_occupied",
-  "source_head": "78080115fa519241b443b86554ca83e70c3a7c12",
+  "scheduled_for": "2026-11-20T00:00:00Z",
+  "started_at": "2026-11-20T00:00:52.816Z",
+  "updated_at": "2026-11-20T00:02:22.704Z",
+  "phase": "started",
+  "status": "started",
+  "source_head": "5461d0389fa5b80c06c751f9a475055b81209f47",
   "route_generation": 7,
   "browser_transport": "dot_own_browser",
   "browser_used": false,
-  "scan": {
-    "complete": true,
-    "checked_at": "2026-11-18T18:05:47.654Z",
-    "boards_listed": 14,
-    "pages_scanned": 21,
-    "tasks_scanned": 1064,
-    "statuses": {
-      "success": 1014,
-      "fail": 44,
-      "init": 6
-    }
-  },
-  "occupied_slots": 6,
-  "free_slots": 0,
-  "active_task_ids": [
-    "02fd85ac5fde408285bc439f15ba8239",
-    "9d4b3b177e6d452abe499537a05f454c",
-    "5d1f4fc1b4e548a7828892c73b672990",
-    "90db5dd309db477eb346e8d82676f7b5",
-    "425108630b0e48c9a4b299fc89ad88ee",
-    "bfdb6d9fad7a4ab29492f7bb95c78033"
-  ],
   "execution": {
-    "state": "completed",
-    "stage": "full_slots_and_archive_counts_unchanged",
-    "updated_at": "2026-11-18T18:06:56.055Z",
-    "completed_at": "2026-11-18T18:06:56.055Z"
+    "state": "started",
+    "stage": "live_scan_and_archive_read_complete",
+    "updated_at": "2026-11-20T00:02:22.704Z"
   },
   "lease": {
     "schema_version": 1,
-    "state": "free",
-    "holder": "chatgpt:ordinary:deb196db-be37-4433-a1cd-03b994455b17",
-    "task": "Hourly 18:00 slots and hangar archive receipt",
-    "acquired_at": "2026-11-18T18:04:12.219Z",
-    "expires_at": null,
-    "released_at": "2026-11-18T18:06:56.055Z",
+    "state": "held",
+    "holder": "chatgpt:ordinary:fecfa027-15e3-4438-b304-3d2d6dd1aae8",
+    "task": "Hourly 00:00 UTC Topview slot and hangar archive receipt",
+    "acquired_at": "2026-11-20T00:02:07.329Z",
+    "expires_at": "2026-11-20T00:12:07.329Z",
+    "released_at": null,
     "rules": "ops/CANON-LOCK.md",
-    "acquisition_commit": "e11f38ec607afc01399af520734e6f2cdab3c7f9",
-    "verified_start_readback": true
+    "acquisition_commit": "d578f00cf522543f59effe8a2df5c9a1595cd380"
   },
-  "new_submissions": 0,
-  "owner_tasks_open_count": 0,
-  "next_action_unchanged": true,
-  "completed_at": "2026-11-18T18:06:56.055Z",
-  "blocker": null,
-  "retryable": false,
-  "hangar_archive": {
-    "checked_at": "2026-11-18T18:05:47.654Z",
-    "topview_count": 26,
-    "grok_count": 29,
-    "new_copies": 0,
-    "grok_full_source_catalog_checked": false,
-    "note": "Folder counts unchanged. Live task status totals unchanged across two complete scans. No new ready video. Detailed comparison interrupted by environment disconnect; no copies attempted."
-  },
-  "queue_pending_claim_items": [
-    "S89D-WAN30-R2"
-  ],
-  "browser_not_used_reason": "Full live scan verified6/6; no UI Create needed.",
-  "started_receipt_readback": true
+  "new_submissions": 0
 }
