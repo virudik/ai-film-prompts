@@ -11,15 +11,16 @@
   "run_id": null,
   "run_id_unavailable_reason": "Runtime notification does not expose platform run_id.",
   "started_at": "2026-11-20T20:58:03.885Z",
-  "updated_at": "2026-11-20T20:58:34.089Z",
-  "phase": "started",
-  "status": "started",
+  "updated_at": "2026-11-20T20:59:16.089Z",
+  "phase": "completed",
+  "status": "completed",
   "source_head": "eb146b04a4f72908f37ede2b50489280cb5e0205",
   "route_generation": 7,
   "execution": {
-    "state": "started",
-    "stage": "before_full_scan",
-    "updated_at": "2026-11-20T20:58:34.089Z"
+    "state": "completed",
+    "stage": "all_slots_occupied_no_new_hangar_video",
+    "updated_at": "2026-11-20T20:59:16.089Z",
+    "completed_at": "2026-11-20T20:59:16.089Z"
   },
   "lease": {
     "schema_version": 1,
@@ -30,5 +31,52 @@
     "expires_at": "2026-11-20T21:04:22.826Z",
     "released_at": null,
     "rules": "ops/CANON-LOCK.md"
+  },
+  "completed_at": "2026-11-20T20:59:16.089Z",
+  "outcome": "no_update_all_slots_occupied",
+  "scan": {
+    "checked_at": "2026-11-20T20:58:52.250Z",
+    "complete": true,
+    "boards_listed": 14,
+    "pages_scanned": 19,
+    "tasks_scanned": 685,
+    "statuses": {
+      "success": 650,
+      "init": 6,
+      "fail": 29
+    }
+  },
+  "occupied_slots": 6,
+  "free_slots": 0,
+  "active_task_ids": [
+    "3644ab40a51c428b9e733aaba2c1c24b",
+    "55dadcb20d2b48a09d1b2b6b4ba0d9ea",
+    "3daf88bcc82b4b668a3bb4b405ed0703",
+    "98092b65ccfc4307ba98b9f9c675d001",
+    "e78f7a26f841414cac6689f2d79601b5",
+    "02fd85ac5fde408285bc439f15ba8239"
+  ],
+  "started_receipt_readback": true,
+  "new_submissions": 0,
+  "next_action_unchanged": true,
+  "owner_tasks_open_count": 0,
+  "queue_pending_claim_items": [
+    "S89D-WAN30-R2",
+    "S89F-WAN30",
+    "S89F-WAN30-R2"
+  ],
+  "browser_not_used_reason": "Full scan verified six occupied slots; no Create permitted.",
+  "blocker": null,
+  "retryable": false,
+  "hangar_archive": {
+    "topview_count": 26,
+    "grok_count": 29,
+    "new_copies": 0,
+    "grok_full_source_catalog_checked": false
+  },
+  "work_backup": {
+    "enabled": false,
+    "last_run_time": "2026-11-18T21:07:31.592127+00:00",
+    "changed": false
   }
 }
