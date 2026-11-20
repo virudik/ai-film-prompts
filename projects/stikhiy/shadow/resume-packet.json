@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "stikhiy",
   "project_name": "Стахий",
-  "checked_at": "2026-11-20T19:13:56+00:00",
-  "source_head": "b56abcce812169b9395e0d007adc1efbafa80145",
-  "source_fingerprint": "ba0245e36582668d6240b8b61f7a1cde0a1204e656a1cc06c1d83ba5f182d8da",
+  "checked_at": "2026-11-20T19:45:00+00:00",
+  "source_head": "633d9b7a5b44da51a610cd7dfe3408c2523f3054",
+  "source_fingerprint": "528697eda28c65f1574bf742f0d91eb956472cad5e32a1af714eb6ca1c1619bd",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -173,7 +173,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "ed8a8bc918b3bb7fd76e70bbc0ec5e56c0a4d151c71e8f66fe960e786b54c3fd",
+      "sha256": "9168b95406da62c93f3ecc4df5648c533ad42878708ca3ce3118b1c49a78719d",
       "bytes": 29586
     },
     {
