@@ -11,15 +11,16 @@
   "run_id": null,
   "run_id_unavailable_reason": "Runtime notification does not expose platform run_id.",
   "started_at": "2026-11-21T22:01:35.394687Z",
-  "updated_at": "2026-11-21T22:15:50.510Z",
-  "phase": "started",
-  "status": "in_progress",
+  "updated_at": "2026-11-21T22:16:00.499Z",
+  "phase": "completed",
+  "status": "completed",
   "source_head": "d7ba688f13d49324d4dceaf187b18a1f92dde5c3",
   "route_generation": 7,
   "execution": {
-    "state": "started",
-    "stage": "fresh_full_scan_reverified",
-    "updated_at": "2026-11-21T22:15:50.510Z"
+    "state": "completed",
+    "stage": "all_slots_occupied_no_new_hangar_video",
+    "updated_at": "2026-11-21T22:16:00.499Z",
+    "completed_at": "2026-11-21T22:16:00.499Z"
   },
   "lease": {
     "schema_version": 1,
@@ -32,7 +33,7 @@
     "rules": "ops/CANON-LOCK.md"
   },
   "browser_transport": "dot_own_browser",
-  "completed_at": null,
+  "completed_at": "2026-11-21T22:16:00.499Z",
   "scan": {
     "checked_at": "2026-11-21T22:12:44.596Z",
     "complete": true,
@@ -55,10 +56,10 @@
     "3daf88bcc82b4b668a3bb4b405ed0703",
     "98092b65ccfc4307ba98b9f9c675d001"
   ],
-  "outcome": null,
+  "outcome": "no_update_all_slots_occupied",
   "new_submissions": 0,
   "next_action_unchanged": true,
-  "started_receipt_readback": false,
+  "started_receipt_readback": true,
   "owner_tasks_open_count": 0,
   "queue_pending_claim_items": [
     "S28-A5-20261023",
