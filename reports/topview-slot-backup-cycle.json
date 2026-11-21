@@ -11,15 +11,16 @@
   "run_id": null,
   "run_id_unavailable_reason": "Runtime notification does not expose platform run_id.",
   "started_at": "2026-11-21T21:02:37.035Z",
-  "updated_at": "2026-11-21T21:03:44.480Z",
-  "phase": "started",
-  "status": "started",
+  "updated_at": "2026-11-21T21:04:19.943Z",
+  "phase": "completed",
+  "status": "completed",
   "source_head": "91c6ce7a61f25e16dd9f85194951c8241c2de63f",
   "route_generation": 7,
   "execution": {
-    "state": "started",
-    "stage": "live_scan_and_archive_checks",
-    "updated_at": "2026-11-21T21:03:44.480Z"
+    "state": "completed",
+    "stage": "all_slots_occupied_no_new_hangar_video",
+    "updated_at": "2026-11-21T21:04:19.943Z",
+    "completed_at": "2026-11-21T21:04:19.943Z"
   },
   "lease": {
     "schema_version": 1,
@@ -31,5 +32,55 @@
     "released_at": null,
     "rules": "ops/CANON-LOCK.md"
   },
-  "browser_transport": "dot_own_browser"
+  "browser_transport": "dot_own_browser",
+  "completed_at": "2026-11-21T21:04:19.943Z",
+  "scan": {
+    "checked_at": "2026-11-21T21:03:11.528Z",
+    "complete": true,
+    "boards_listed": 14,
+    "pages_scanned": 19,
+    "tasks_scanned": 687,
+    "statuses": {
+      "success": 652,
+      "init": 6,
+      "fail": 29
+    }
+  },
+  "occupied_slots": 6,
+  "free_slots": 0,
+  "active_task_ids": [
+    "d6fb29ca214e42ec9b8c950657b26832",
+    "2891ed5c97be4438ac3a23f9b19ea193",
+    "3644ab40a51c428b9e733aaba2c1c24b",
+    "55dadcb20d2b48a09d1b2b6b4ba0d9ea",
+    "3daf88bcc82b4b668a3bb4b405ed0703",
+    "98092b65ccfc4307ba98b9f9c675d001"
+  ],
+  "outcome": "no_update_all_slots_occupied",
+  "new_submissions": 0,
+  "next_action_unchanged": true,
+  "started_receipt_readback": true,
+  "owner_tasks_open_count": 0,
+  "queue_pending_claim_items": [
+    "S28-A5-20261023",
+    "S89D-WAN30-R2",
+    "S89F-WAN30",
+    "S89F-WAN30-R2"
+  ],
+  "browser_not_used_reason": "Fresh complete scan found six active jobs, including two already submitted by Grok. No Create permitted.",
+  "blocker": null,
+  "retryable": false,
+  "hangar_archive": {
+    "topview_count": 27,
+    "grok_count": 29,
+    "new_copies": 0,
+    "latest_success_excluded_task_id": "e78f7a26f841414cac6689f2d79601b5",
+    "latest_success_excluded_reason": "S89G hologram dialogue, not a hangar musical number",
+    "grok_full_source_catalog_checked": false
+  },
+  "work_backup": {
+    "enabled": false,
+    "last_run_time": "2026-11-18T21:07:31.592127+00:00",
+    "changed": false
+  }
 }
