@@ -2552,11 +2552,11 @@
       "runner": "grok_executor",
       "run_id": null,
       "run_id_unavailable_reason": "not exposed",
-      "execution_instance_id": "81da5783-64e1-420c-b3af-a6d685482813",
+      "execution_instance_id": "857fc83e-b8b8-43b1-ae01-e6cf483cc9b9",
       "route_generation": 7,
-      "outcome": "submitted",
-      "retryable": false,
-      "item_id": "S28-A6-20261023",
+      "outcome": "started",
+      "retryable": true,
+      "item_id": "S28-A7-20261023",
       "task_ids": [
         "2891ed5c97be4438ac3a23f9b19ea193"
       ],
@@ -2568,18 +2568,43 @@
         "quote": "Да, запускай следующую сцену в Topview",
         "scope": "next ready item; selected S28-A6-20261023"
       },
-      "checked_at": "2026-11-21T20:22:02Z",
+      "checked_at": "2026-11-21T20:26:03Z",
       "execution": {
-        "state": "completed",
-        "stage": "submitted",
+        "state": "started",
+        "stage": "intake",
         "started_at": "2026-11-21T20:16:08Z",
-        "updated_at": "2026-11-21T20:22:02Z",
-        "completed_at": "2026-11-21T20:22:02Z"
+        "updated_at": "2026-11-21T20:26:03Z",
+        "previous_completed_at": "2026-11-21T20:22:02Z",
+        "follow_up_started_at": "2026-11-21T20:26:03Z"
       },
       "receipt": "reports/topview-queue-2026-10-16/S28-A6-20261023-20261121T202013Z.json",
       "claim_id": "c3526cd7-c977-4555-8966-325807b66c2a",
       "submission_intent_id": "1c108c67-2430-4f58-81a5-6ccb96ab35a9",
-      "create_click_count": 1
+      "create_click_count": 1,
+      "completed_submissions": [
+        {
+          "item_id": "S28-A6-20261023",
+          "task_ids": [
+            "2891ed5c97be4438ac3a23f9b19ea193"
+          ],
+          "receipt": "reports/topview-queue-2026-10-16/S28-A6-20261023-20261121T202013Z.json",
+          "claim_id": "c3526cd7-c977-4555-8966-325807b66c2a",
+          "submission_intent_id": "1c108c67-2430-4f58-81a5-6ccb96ab35a9",
+          "execution_instance_id": "81da5783-64e1-420c-b3af-a6d685482813",
+          "completed_at": "2026-11-21T20:22:02Z",
+          "new_submissions": 1
+        }
+      ],
+      "item_ids": [
+        "S28-A6-20261023",
+        "S28-A7-20261023"
+      ],
+      "follow_up": {
+        "item_id": "S28-A7-20261023",
+        "submissions_this_wake": 1,
+        "previous_item_id": "S28-A6-20261023",
+        "previous_task_id": "2891ed5c97be4438ac3a23f9b19ea193"
+      }
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
