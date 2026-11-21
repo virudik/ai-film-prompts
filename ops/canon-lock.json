@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:5458409f-1be1-424b-ba4a-ac5479d481bb",
-  "task": "Hourly 04:00 UTC Topview slot and archive receipt",
-  "acquired_at": "2026-11-21T03:58:30.019Z",
-  "expires_at": null,
-  "released_at": "2026-11-21T03:59:03.523Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:76585ee0-056e-4a5d-a758-c1b926ebe890",
+  "task": "Topview Relay wake #886",
+  "acquired_at": "2026-11-21T08:26:00.875Z",
+  "expires_at": "2026-11-21T08:34:00.875Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
