@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:76585ee0-056e-4a5d-a758-c1b926ebe890",
   "task": "Topview Relay wake #886",
   "acquired_at": "2026-11-21T08:26:00.875Z",
-  "expires_at": "2026-11-21T08:34:00.875Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-21T08:28:12.018Z",
   "rules": "ops/CANON-LOCK.md"
 }
