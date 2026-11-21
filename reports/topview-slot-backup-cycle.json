@@ -11,15 +11,16 @@
   "run_id": null,
   "run_id_unavailable_reason": "Runtime notification does not expose platform run_id.",
   "started_at": "2026-11-21T09:03:00.948Z",
-  "updated_at": "2026-11-21T09:03:33.920Z",
-  "phase": "started",
-  "status": "started",
+  "updated_at": "2026-11-21T09:12:24.547Z",
+  "phase": "completed",
+  "status": "blocked",
   "source_head": "240b86bb174eaaac114e1f528948552f2e133dcf",
   "route_generation": 7,
   "execution": {
-    "state": "started",
-    "stage": "live_scan_and_archive_checks",
-    "updated_at": "2026-11-21T09:03:33.920Z"
+    "state": "blocked",
+    "stage": "intent_base_changed_before_publication",
+    "updated_at": "2026-11-21T09:12:24.547Z",
+    "completed_at": "2026-11-21T09:12:24.547Z"
   },
   "lease": {
     "schema_version": 1,
@@ -27,9 +28,79 @@
     "holder": "chatgpt:ordinary:dac65db3-5b52-410a-ac02-1c8c8f538e92",
     "task": "Hourly 09:00 UTC Topview slot and archive receipt",
     "acquired_at": "2026-11-21T09:03:32.693Z",
-    "expires_at": "2026-11-21T09:09:32.693Z",
+    "expires_at": "2026-11-21T09:14:27.128Z",
     "released_at": null,
     "rules": "ops/CANON-LOCK.md"
   },
-  "browser_transport": "dot_own_browser"
+  "browser_transport": "dot_own_browser",
+  "completed_at": "2026-11-21T09:12:24.547Z",
+  "outcome": "blocked_intent_source_head_changed",
+  "scan": {
+    "checked_at": "2026-11-21T09:10:29.030Z",
+    "complete": true,
+    "boards_listed": 14,
+    "pages_scanned": 19,
+    "tasks_scanned": 685,
+    "statuses": {
+      "success": 651,
+      "init": 5,
+      "fail": 29
+    },
+    "active": [
+      "3644ab40a51c428b9e733aaba2c1c24b",
+      "55dadcb20d2b48a09d1b2b6b4ba0d9ea",
+      "3daf88bcc82b4b668a3bb4b405ed0703",
+      "98092b65ccfc4307ba98b9f9c675d001",
+      "e78f7a26f841414cac6689f2d79601b5"
+    ],
+    "latest": [
+      [
+        "02fd85ac5fde408285bc439f15ba8239",
+        "2026-11-21 07:00:09"
+      ],
+      [
+        "9d4b3b177e6d452abe499537a05f454c",
+        "2026-11-20 06:51:22"
+      ]
+    ]
+  },
+  "occupied_slots": 5,
+  "free_slots": 1,
+  "active_task_ids": [
+    "3644ab40a51c428b9e733aaba2c1c24b",
+    "55dadcb20d2b48a09d1b2b6b4ba0d9ea",
+    "3daf88bcc82b4b668a3bb4b405ed0703",
+    "98092b65ccfc4307ba98b9f9c675d001",
+    "e78f7a26f841414cac6689f2d79601b5"
+  ],
+  "started_receipt_readback": true,
+  "new_submissions": 0,
+  "next_action_unchanged": true,
+  "owner_tasks_open_count": 0,
+  "selected_item_id": "S28-A5-20261023",
+  "claim_id": "47b3a121-ff5d-441c-b398-58bdea483469",
+  "claim_commit": "6d2906b78763bdbef3d592cc71e39f039e661360",
+  "claim_preserved": true,
+  "intent_published": false,
+  "intent_expected_main_sha": "e0837104305b3206d270b7abf8d6a25c8f134f20",
+  "create_clicks": 0,
+  "blocker": "Own Topview browser authenticated, exact A5 form and Unlimited free verified. Own claim published/read back; remote main changed before intent publication, so no intent was published and no Create was clicked. Preserve the existing claim, do not replay the prepared intent; reconcile using fresh evidence via canonical procedure.",
+  "retryable": true,
+  "hangar_archive": {
+    "topview_count": 27,
+    "grok_count": 29,
+    "new_copies": 0,
+    "latest_verified_task_id": "02fd85ac5fde408285bc439f15ba8239",
+    "latest_verified_archive_file_id": "11DkbQMQ7B7xZsbdIx4Yh89aFbPpSUbdl",
+    "grok_full_source_catalog_checked": false
+  },
+  "work_backup": {
+    "enabled": false,
+    "last_run_time": "2026-11-18T21:07:31.592127+00:00",
+    "changed": false
+  },
+  "prior_backup_signal": {
+    "delivery": "acked",
+    "launch_confirmed": false
+  }
 }
