@@ -2554,11 +2554,13 @@
       "run_id_unavailable_reason": "not exposed",
       "execution_instance_id": "81da5783-64e1-420c-b3af-a6d685482813",
       "route_generation": 7,
-      "outcome": "started",
-      "retryable": true,
+      "outcome": "submitted",
+      "retryable": false,
       "item_id": "S28-A6-20261023",
-      "task_ids": [],
-      "new_submissions": 0,
+      "task_ids": [
+        "2891ed5c97be4438ac3a23f9b19ea193"
+      ],
+      "new_submissions": 1,
       "credits_spent": 0,
       "owner_command": {
         "host_address": "t782s4180 answer",
@@ -2566,13 +2568,18 @@
         "quote": "Да, запускай следующую сцену в Topview",
         "scope": "next ready item; selected S28-A6-20261023"
       },
-      "checked_at": "2026-11-21T20:16:08Z",
+      "checked_at": "2026-11-21T20:22:02Z",
       "execution": {
-        "state": "started",
-        "stage": "intake",
+        "state": "completed",
+        "stage": "submitted",
         "started_at": "2026-11-21T20:16:08Z",
-        "updated_at": "2026-11-21T20:16:08Z"
-      }
+        "updated_at": "2026-11-21T20:22:02Z",
+        "completed_at": "2026-11-21T20:22:02Z"
+      },
+      "receipt": "reports/topview-queue-2026-10-16/S28-A6-20261023-20261121T202013Z.json",
+      "claim_id": "c3526cd7-c977-4555-8966-325807b66c2a",
+      "submission_intent_id": "1c108c67-2430-4f58-81a5-6ccb96ab35a9",
+      "create_click_count": 1
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",

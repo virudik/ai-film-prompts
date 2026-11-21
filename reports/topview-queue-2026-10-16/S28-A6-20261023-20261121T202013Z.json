@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "item_id": "S28-A6-20261023",
+  "outcome": "submitted",
+  "task_id": "2891ed5c97be4438ac3a23f9b19ea193",
+  "submitted_at": "2026-11-21T20:20:13Z",
+  "create_clicked_at_approx": "2026-11-21T20:20:12Z",
+  "checked_at": "2026-11-21T20:22:02Z",
+  "create_click_count": 1,
+  "credits_spent": 0,
+  "credit_balance_before_after": [
+    11.05,
+    11.05
+  ],
+  "creditsCost": 0,
+  "useUnlimitMode": true,
+  "numeric_zero_displayed": false,
+  "ui_unlimited_label": "Безлимитный режим — бесплатно",
+  "credits_cost_evidence": "selected_free_unlimited_current_form",
+  "owner_free_label_rule": "owner t718s3708 19.11 03:30 MSK; ops/TOPVIEW-FREE-LAUNCH.md",
+  "browser": "parent-coordinated Grok computerUse helper; UI screenshot kept privately",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "model_id": "seedance-2.0-style",
+  "duration_seconds": 15,
+  "resolution": 720,
+  "aspect_ratio": "16:9",
+  "topview_status_at_check": "init",
+  "canonical_prompt_sha256": "f819e63371850fa773ceaca7720fb1b5feaf8051d7169c9fe984f9cdfc899d1f",
+  "normalized_prompt_sha256": "80cf42e08bb7aaf8e95031b89a11457dc5e43d77f4ba0a9ac865c12c17faaa72",
+  "submitted_prompt_sha256_raw": "3a18fdc72e6e4d78d0d607e390737aadeae32c305af25450e078b609cb926f30",
+  "full_prompt_match": true,
+  "prompt_match_method": "provider positivePrompt with <<<ImageN>>> chips mapped to @ImageN equals canonical block ignoring whitespace",
+  "submitted_prompt_verbatim": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion\n\nREFERENCES / AUTHORITY ORDER:\n<<<Image1>>> : H28B architecture, fixture layout and opening light state only; animate the emitted light as specified below. <<<Image2>>> : MASHA-LAGUNA exact identity/design. <<<Image3>>> : LESHA exact identity/costume. <<<Image4>>> : VITALIK exact identity/costume. Each sheet supplies one distinct performer and controls that person above the room image. Exactly three characters.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\nMASHA-LAGUNA is the tall slender adult aquatic-blue woman with the exact human face, long light-blue tentacle-like head strands and black ornamental crown, neck collar and upper-back structure. Her exact floor-length light-blue costume has an OPAQUE, continuous smooth torso covering the entire chest and abdomen. The torso is costume material, not bare skin: no nipples, areolae, navel, anatomical breast-tip relief, cutouts or transparency. Preserve the reference silhouette without adding new clothing panels or changing the long hem.\nLESHA is the exact slimmer moustached man in a purple inner tunic, long grey hooded robe, brown belt and light boots. VITALIK is the exact heavier-built man in a black tunic, dark leather/armor panels, brown trousers and tall boots. Do not blend their faces, builds or costumes. All hands are empty.\n\nSCENE / LIGHT:\nPhotoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor, Imperial medallion and existing LED borders. Space opening, parked shuttle and fixture mounts remain fixed in world space; their screen position changes only with camera parallax. Begin in the reference's opening light state; visible colour and intensity changes begin within the first second. Existing overhead beams sweep behind the dancers, cycling cyan, magenta, amber and back to cyan about every two seconds, with short brightness pulses between changes. A matching travelling colour chase runs along the existing floor LED borders; reflections on the dark floor change with it. Only the emitted light changes, not the floor pattern or materials. Constant soft neutral-white facial key/fill and stable camera exposure preserve skin and base costume colours. Resolve the coloured lighting to the H28B cyan/magenta phase only during the final half-second. Real cloth and metal; no new stage, fixtures or room.\n\nSTART STATE:\nMasha centre, Lesha left, Vitalik right, a compact staggered trio with three unobstructed faces. No cast beyond these three.\n\nSTORY FLOW:\nMasha leads an expansive, absurdly majestic dance phrase; Lesha and Vitalik answer on either side, passing the energy through the trio. Let their shoulders, arms and footwork develop into a lively shared groove with serious faces. Masha's stride stays inside her intact closed hem; her upper body and head strands carry the larger expression. The men move freely in their own lanes, without crossing her silhouette. Return to the same staggered trio, facing camera with low arms on the last beat. Signature moves to recur and vary (link them freely): Masha's flowing double-arm wave with a head-strand toss, the men's late-arriving disco point to the ceiling and down to the floor, and the men's sideways grapevine; the men may add a small hop, Masha never jumps.\n\nEND STATE:\nMasha centre, Lesha left, Vitalik right, all facing camera, arms held low and faces clear. No new entrants.\n\nCAMERA / SPACE:\nOne continuous full-body view, natural 35–50mm perspective. Make a smooth 50-degree arc within the FRONT hemisphere of the dancers, gradually dollying closer with the rising phrase and easing outward toward the final formation. Faces, feet and complete hand arcs stay readable, bodies large in frame. Return smoothly to the established frontal axis for the last movement; keep left/centre/right roles and match-cut positions. No full orbit, flight between partners, distant establishing reveal or digital zoom. The dancers keep moving independently of the camera.\n\nPERFORMANCE:\nCommitted energetic dancing at normal real-time speed with completely serious faces. Link each phrase directly into the next through weight transfers and visible torso/arm rhythm, never a stationary arms-out reset. Keep the movement amplitude alive through the middle and through approaches or retreats; reaching a position is part of the dance, not a reason to wait. Resolve into the end pose only in the final half-second, with breath and cloth still moving. Facial restraint does not mean a rigid body. Fast disco pulse around 120 BPM, with a decisive full-body accent every beat or two; this sets the energy, not exact music sync.\n\nAUDIO:\nFoot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.\n\nNEGATIVE PROMPT:\nIdentity swaps, extra cast, skating feet, fused limbs, weapons, full-frame flashes, blackouts or coloured facial flicker, slow motion, prolonged poses, camera cuts, generated titles or watermark.\n\nFRAME FILL / NO BARS:\nFill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.",
+  "references": [
+    {
+      "slot": "@Image1",
+      "path": "references/scenes/scene-28/H28B-disco.png",
+      "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+      "provider_input": "Image1"
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/masha-laguna.webp",
+      "sha256": "71a739a2ab872f7fcca6decd87e26d0d75f583ecbfbd89c8c26253b17a01bab0",
+      "provider_input": "Image2"
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/full/lesha.jpg",
+      "sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9",
+      "provider_input": "Image3"
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/full/vitalik.jpg",
+      "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+      "provider_input": "Image4"
+    }
+  ],
+  "reference_count": 4,
+  "reference_sha_and_order_verified": "repo SHA verified before upload; provider stores re-encoded copies, order Image1..4 matches",
+  "claim_before_submission": {
+    "claim_id": "c3526cd7-c977-4555-8966-325807b66c2a",
+    "intent_id": "1c108c67-2430-4f58-81a5-6ccb96ab35a9",
+    "intent_at": "2026-11-21T20:19:27Z",
+    "intent_payload_sha256": "23e0d789ebf19605cfc2ac546a5723053643910eb9eb8d5a1214dd35495f1f73",
+    "verify_main": "df028bd2bedb030680ab6665135c0ef4d972eae8",
+    "lease_holder": "grok:81da5783-64e1-420c-b3af-a6d685482813"
+  },
+  "trigger": "owner card answer t782s4180 (2026-11-21T19:56:00Z) «Да, запускай следующую сцену в Topview»; music consent owner-20261113-t601u",
+  "event_id": "result:e78f7a26f841414cac6689f2d79601b5",
+  "issue_number": 905,
+  "evidence": {
+    "detection": "topview_list_board_tasks newest on My First Board + topview_get_board_task",
+    "credits_balance_ui": "11.05 before/after"
+  },
+  "artistic_acceptance": "pending_owner_review",
+  "retry_forbidden": true
+}
