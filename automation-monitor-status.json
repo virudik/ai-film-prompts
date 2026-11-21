@@ -472,7 +472,6 @@
     "free_slots_global": 2,
     "actionable_items": [
       "S49B",
-      "S28-A6-20261023",
       "S28-A7-20261023",
       "S28-A8-20261023",
       "S28-A9-20261023",
@@ -487,6 +486,7 @@
     ],
     "reconciliation_items": [
       "S28-A5-20261023",
+      "S28-A6-20261023",
       "S89D-WAN30-R2",
       "S89F-WAN30",
       "S89F-WAN30-R2"
@@ -503,6 +503,6 @@
       "3644ab40a51c428b9e733aaba2c1c24b"
     ],
     "escalation_attempted_episode": "0a603473",
-    "checked_at": "2026-11-21T19:40:28Z"
+    "checked_at": "2026-11-21T20:18:40Z"
   }
 }
