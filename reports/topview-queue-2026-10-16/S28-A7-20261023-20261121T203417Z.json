@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "item_id": "S28-A7-20261023",
+  "outcome": "submitted",
+  "task_id": "d6fb29ca214e42ec9b8c950657b26832",
+  "submitted_at": "2026-11-21T20:34:17Z",
+  "create_clicked_at_approx": "2026-11-21T20:34:16Z",
+  "checked_at": "2026-11-21T20:35:40Z",
+  "create_click_count": 1,
+  "credits_spent": 0,
+  "credit_balance_before_after": [
+    11.05,
+    11.05
+  ],
+  "creditsCost": 0,
+  "useUnlimitMode": true,
+  "numeric_zero_displayed": false,
+  "ui_unlimited_label": "Безлимитный режим — бесплатно",
+  "credits_cost_evidence": "selected_free_unlimited_current_form",
+  "owner_free_label_rule": "owner t718s3708 19.11 03:30 MSK; ops/TOPVIEW-FREE-LAUNCH.md",
+  "browser": "parent-coordinated Grok computerUse helper; UI screenshot kept privately",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "model_id": "seedance-2.0-style",
+  "duration_seconds": 15,
+  "resolution": 720,
+  "aspect_ratio": "16:9",
+  "topview_status_at_check": "init",
+  "canonical_prompt_sha256": "8c608514e1a03bf5b36798f18aa3f96b9af5a52c55589360940f958e44ee83da",
+  "normalized_prompt_sha256": "e6e7e3f053272cbee0ec0f6f913c191ed2166db2907e328dd17e77896f5792fc",
+  "submitted_prompt_sha256_raw": "7068813f5406cea05745b5fccdad415351dadd5aad834fd5bdfe7aa4b4e50e1d",
+  "full_prompt_match": true,
+  "prompt_match_method": "provider positivePrompt with <<<ImageN>>> chips mapped to @ImageN equals canonical block ignoring whitespace",
+  "submitted_prompt_verbatim": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion\n\nREFERENCES / AUTHORITY ORDER:\n<<<Image1>>> : H28B architecture, fixture layout and opening light state only; animate the emitted light as specified below. <<<Image2>>> : LUCHIK exact feline identity. <<<Image3>>> : RYZHIK exact feline identity. <<<Image4>>> : ALESYA exact adult face, brown hood and small furry body. Individual references control appearance above the location. Exactly Alesya and two ordinary domestic cats; never mix their species.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\nLUCHIK is the long-haired fluffy white-grey cat with white muzzle, chest and paws, grey crown/back markings and the exact referenced feline face. RYZHIK is the long-haired ginger tabby with darker orange stripes and a paler muzzle/chest. Keep their separate coat patterns, body proportions, ear shapes and natural paws. They remain ordinary domestic-cat scale relative to hangar floor panels: low bodies, four feline legs, no human torso or hands. Alesya is about one metre tall; the cats remain normal house cats well below her waist. Preserve her adult face from Image4, hood and short furry limbs. Alesya has no spear or other weapon. No lightsabers in this dance.\n\nSCENE / LIGHT:\nPhotoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor, Imperial medallion and existing LED borders. Space opening, parked shuttle and fixture mounts remain fixed in world space; their screen position changes only with camera parallax. Begin in the reference's opening light state; visible colour and intensity changes begin within the first second. Existing overhead beams sweep behind the dancers, cycling cyan, magenta, amber and back to cyan about every two seconds, with short brightness pulses between changes. A matching travelling colour chase runs along the existing floor LED borders; reflections on the dark floor change with it. Only the emitted light changes, not the floor pattern or materials. Constant soft neutral-white facial key/fill and stable camera exposure preserve skin and base costume colours. Resolve the coloured lighting to the H28B cyan/magenta phase only during the final half-second. Real cloth and metal; no new stage, fixtures or room.\n\nSTART STATE:\nAlesya centre, Luchik left, Ryzhik right, all three fully visible from a low close camera. Cats ordinary house-cat scale; Alesya about one metre tall with her exact adult face.\n\nSTORY FLOW:\nAlesya conducts with tremendous solemn authority, dancing enthusiastically as the two cats playfully respond around her. Let the cats trot, turn and make short natural pounces in their own floor lanes; tails balance them and every landing is feline. Alesya follows their antics with expressive conducting gestures and buoyant steps. Keep the interplay alive without human choreography for the cats. Finish with Alesya centre, arms low, Luchik left and Ryzhik right naturally on all fours, looking toward camera. Signature moves to recur and vary (link them freely): Alesya's big double-arm conducting downbeat, a fast high-knee march on the spot, and a grand sweeping bow-and-rise. No jumping near the cats.\n\nEND STATE:\nAlesya remains centre with her original adult face and low arms. Both cats stand naturally on all fours at the closer marks, Luchik left and Ryzhik right, facing camera with stable anatomy.\n\nCAMERA / SPACE:\nOne continuous low full-body three-subject view. A smooth 20-degree front arc and gentle dolly-back follow the approaching cats while keeping Alesya and both entire cats large and readable. Show all paws and floor contacts, retain left/centre/right lanes and true adult-Ewok/cat scale. No orbit behind Alesya, camera through paws or distant reveal.\n\nPERFORMANCE:\nCommitted energetic dancing at normal real-time speed with completely serious faces. Link each phrase directly into the next through Alesya's weight transfers and conducting arms, and the cats' natural steps, turns and tails, never a stationary arms-out reset. Keep the movement amplitude alive through the middle and through approaches or retreats; reaching a position is part of the dance, not a reason to wait. Resolve into the end pose only in the final half-second, with breath and cloth still moving. Facial restraint does not mean a rigid body. Fast disco pulse around 120 BPM, with Alesya making a decisive whole-body accent every beat or two; the cats keep natural feline movement; this sets the energy, not exact music sync.\n\nAUDIO:\nFoot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.\n\nNEGATIVE PROMPT:\nIdentity swaps, extra cast, skating feet, fused limbs, weapons, full-frame flashes, blackouts or coloured facial flicker, slow motion, prolonged poses, camera cuts, generated titles or watermark. Human hands or upright dancing on cats, giant cats, child face or adult-human scale for Alesya.\n\nFRAME FILL / NO BARS:\nFill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.",
+  "references": [
+    {
+      "slot": "@Image1",
+      "path": "references/scenes/scene-28/H28B-disco.png",
+      "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+      "provider_input": "Image1"
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/luchik.jpg",
+      "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+      "provider_input": "Image2"
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/ryzhik.jpg",
+      "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+      "provider_input": "Image3"
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
+      "sha256": "cc79d93bc2d0482b792807b391e12f1905b09a296d8f7225dca9f8930e2e146f",
+      "provider_input": "Image4"
+    }
+  ],
+  "reference_count": 4,
+  "reference_sha_and_order_verified": "repo SHA verified before upload; provider stores re-encoded copies, order Image1..4 matches",
+  "claim_before_submission": {
+    "claim_id": "aa627597-23e2-40e5-8c18-074799cbee24",
+    "intent_id": "3b6b8f29-4bc1-4aac-8a2f-52d875234581",
+    "intent_at": "2026-11-21T20:33:28Z",
+    "intent_payload_sha256": "756a61a692f56a64685a2f73d330416d152e52095bcfdcd2f3c5b7e8790d2f3e",
+    "verify_main": "eab0dddded9d5981bd314d537dbc2c53285e3f3b",
+    "lease_holder": "grok:857fc83e-b8b8-43b1-ae01-e6cf483cc9b9"
+  },
+  "trigger": "owner card answer t782s4180 (2026-11-21T19:56:00Z) «Да, запускай следующую сцену в Topview»; same wake as A6, submissions_this_wake=1; music consent owner-20261113-t601u",
+  "event_id": "result:e78f7a26f841414cac6689f2d79601b5",
+  "issue_number": 905,
+  "wake_sequence": 2,
+  "previous_submission": {
+    "item_id": "S28-A6-20261023",
+    "task_id": "2891ed5c97be4438ac3a23f9b19ea193",
+    "receipt": "reports/topview-queue-2026-10-16/S28-A6-20261023-20261121T202013Z.json"
+  },
+  "evidence": {
+    "detection": "topview_list_board_tasks newest on My First Board + topview_get_board_task",
+    "credits_balance_ui": "11.05 before/after"
+  },
+  "artistic_acceptance": "pending_owner_review",
+  "retry_forbidden": true
+}
