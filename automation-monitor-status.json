@@ -486,7 +486,6 @@
     ],
     "reconciliation_items": [
       "S28-A5-20261023",
-      "S28-A6-20261023",
       "S89D-WAN30-R2",
       "S89F-WAN30",
       "S89F-WAN30-R2"
@@ -503,6 +502,6 @@
       "3644ab40a51c428b9e733aaba2c1c24b"
     ],
     "escalation_attempted_episode": "0a603473",
-    "checked_at": "2026-11-21T20:20:37Z"
+    "checked_at": "2026-11-21T20:26:41Z"
   }
 }
