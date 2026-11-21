@@ -11,15 +11,16 @@
   "run_id": null,
   "run_id_unavailable_reason": "Runtime notification does not expose platform run_id.",
   "started_at": "2026-11-21T22:57:19.277Z",
-  "updated_at": "2026-11-21T23:01:11.291Z",
-  "phase": "started",
-  "status": "in_progress",
+  "updated_at": "2026-11-21T23:01:22.440Z",
+  "phase": "completed",
+  "status": "completed",
   "source_head": "44b169904cc4beb52a72c38ae7b1ecd3b1d42b12",
   "route_generation": 7,
   "execution": {
-    "state": "started",
-    "stage": "fresh_scan_complete_and_archive_checked",
-    "updated_at": "2026-11-21T23:01:11.291Z"
+    "state": "completed",
+    "stage": "all_slots_occupied_no_new_hangar_video",
+    "updated_at": "2026-11-21T23:01:22.440Z",
+    "completed_at": "2026-11-21T23:01:22.440Z"
   },
   "lease": {
     "schema_version": 1,
@@ -32,7 +33,7 @@
     "rules": "ops/CANON-LOCK.md"
   },
   "browser_transport": "dot_own_browser",
-  "completed_at": null,
+  "completed_at": "2026-11-21T23:01:22.440Z",
   "scan": {
     "checked_at": "2026-11-21T22:57:23.757Z",
     "complete": true,
@@ -55,10 +56,10 @@
     "3daf88bcc82b4b668a3bb4b405ed0703",
     "98092b65ccfc4307ba98b9f9c675d001"
   ],
-  "outcome": null,
+  "outcome": "no_update_all_slots_occupied",
   "new_submissions": 0,
   "next_action_unchanged": true,
-  "started_receipt_readback": false,
+  "started_receipt_readback": true,
   "owner_tasks_open_count": 0,
   "queue_pending_claim_items": [],
   "browser_not_used_reason": "Fresh complete scan found six active jobs; no Create permitted.",
