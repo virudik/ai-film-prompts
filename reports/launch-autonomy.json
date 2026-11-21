@@ -1,64 +1,68 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-11-20T14:16:11Z",
+  "checked_at": "2026-11-21T13:39:06Z",
   "window_hours": 24,
-  "verdict": "historical_free_slots_unverified",
-  "launches": [
-    {
-      "item": "S28-A2-R2-20261025",
-      "scene_id": 28,
-      "task_id": "55dadcb20d2b48a09d1b2b6b4ba0d9ea",
-      "claimed_at": "2026-11-19T21:36:45Z",
-      "submitted_at": "2026-11-19T21:39:23Z",
-      "observed_at": "2026-11-19T21:39:23Z",
-      "time_basis": "submitted_at",
-      "run_id": null,
-      "source": "unknown",
-      "source_evidence": "missing_or_unbound_trigger_evidence"
-    },
-    {
-      "item": "S28-A4-20261023",
-      "scene_id": 28,
-      "task_id": "3644ab40a51c428b9e733aaba2c1c24b",
-      "claimed_at": "2026-11-20T07:18:08Z",
-      "submitted_at": "2026-11-20T07:20:40Z",
-      "observed_at": "2026-11-20T07:20:40Z",
-      "time_basis": "submitted_at",
-      "run_id": null,
-      "source": "unknown",
-      "source_evidence": "missing_or_unbound_trigger_evidence"
-    }
-  ],
+  "verdict": "launch_stalled",
+  "launches": [],
   "launches_by_schedule": 0,
   "launches_by_chat": 0,
   "launches_by_webhook": 0,
   "launches_by_manual_run_now": 0,
-  "launches_unknown_source": 2,
+  "launches_unknown_source": 0,
   "historical_opportunity_verified": false,
   "historical_opportunity_note": "Past free-slot observations are not joined to historical queue readiness, authorization or leases; no idle-launch incident inferred from them.",
   "free_slot_observations": [
     {
-      "at": "2026-11-20T07:00:34Z",
+      "at": "2026-11-21T13:10:35Z",
       "occupied": 5,
       "capacity": 6
     },
     {
-      "at": "2026-11-19T21:10:36Z",
+      "at": "2026-11-21T12:20:41Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-11-21T11:30:36Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-11-21T10:40:37Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-11-21T09:40:42Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-11-21T08:40:38Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-11-21T07:50:42Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-11-21T07:00:38Z",
       "occupied": 5,
       "capacity": 6
     }
   ],
-  "ready_items_waiting": 14,
+  "ready_items_waiting": 13,
   "launcher_health": {
-    "state": "capacity_full",
-    "unresolved": false,
-    "episode": "c5001134",
-    "unresolved_since": null,
-    "reason": "no_free_global_slot; launcher_health_not_proven",
-    "free_slots_global": 0,
+    "state": "reconciliation_required",
+    "unresolved": true,
+    "episode": "0eeb7668",
+    "unresolved_since": "2026-11-21T07:00:36Z",
+    "reason": "saved_claim_or_unknown_submission; no_repeat_Create",
+    "free_slots_global": 1,
     "actionable_items": [
       "S49B",
-      "S28-A5-20261023",
       "S28-A6-20261023",
       "S28-A7-20261023",
       "S28-A8-20261023",
@@ -73,25 +77,24 @@
       "S49A-WAN30-20261118"
     ],
     "reconciliation_items": [
+      "S28-A5-20261023",
       "S89D-WAN30-R2",
       "S89F-WAN30",
       "S89F-WAN30-R2"
     ],
-    "last_event_id": "result:9d4b3b177e6d452abe499537a05f454c",
-    "receipt_present": true,
-    "handler_outcome": "submitted",
-    "execution_stage": "submitted",
-    "execution_updated_at": "2026-11-20T07:21:29Z",
+    "last_event_id": "slots:0eeb7668:85",
+    "receipt_present": false,
+    "handler_outcome": null,
+    "execution_stage": null,
+    "execution_updated_at": null,
     "runtime_run_id": null,
-    "confirmed_launch_task_ids": [
-      "3644ab40a51c428b9e733aaba2c1c24b"
-    ],
+    "confirmed_launch_task_ids": [],
     "last_confirmed_event_id": "result:9d4b3b177e6d452abe499537a05f454c",
     "last_confirmed_launch_task_ids": [
       "3644ab40a51c428b9e733aaba2c1c24b"
     ],
-    "escalation_attempted_episode": null,
-    "checked_at": "2026-11-20T14:00:33Z"
+    "escalation_attempted_episode": "0eeb7668",
+    "checked_at": "2026-11-21T12:40:49Z"
   },
   "launcher_observation_stale": false,
   "note": "Source requires a task/execution-bound trigger receipt; legacy prefixes retained as labelled evidence. Missing runtime ID never implies chat."
