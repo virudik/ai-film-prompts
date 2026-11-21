@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T22:47:10.123Z",
+  "updated_at": "2026-11-21T08:26:03.185Z",
   "status": "relay_production_enabled",
   "event_automation_id": "6adc585e7ac08191bb93825117dc7213",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
@@ -2486,6 +2486,32 @@
       "claim_id": "bd65db7f-d46c-47f3-a9df-c54db55e8599",
       "submission_intent_id": "2ffe82ab-1a1b-450d-9691-5b4f695f236f",
       "create_click_count": 1
+    },
+    {
+      "event_id": "slots:0eeb7668:81",
+      "issue_number": 886,
+      "message_id": "249811250017558528",
+      "relay_event_id": "evt_de6256da93784b524780f03ce2b66a95",
+      "checked_at": "2026-11-21T08:26:03.185Z",
+      "outcome": "started",
+      "retryable": true,
+      "task_ids": [],
+      "source": "dot Agent Relay webhook",
+      "runner": "dot_event_handler",
+      "actual_trigger": "webhook",
+      "automation_id": "6afd1f83b1b08191b4b7c8ad55c132cf",
+      "automation_context_version": "79bf0a72fd82c6ae9e4071689bebe2cd9f64106fede65caa3af278f6008e5809",
+      "run_id": null,
+      "run_id_unavailable_reason": "not exposed",
+      "execution_instance_id": "76585ee0-056e-4a5d-a758-c1b926ebe890",
+      "route_generation": 7,
+      "source_head": "d2511fb1aa8c8eba952353c2ecc7b5eb07487352",
+      "execution": {
+        "state": "started",
+        "stage": "intake",
+        "started_at": "2026-11-21T08:25:10.283Z",
+        "updated_at": "2026-11-21T08:26:03.185Z"
+      }
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
