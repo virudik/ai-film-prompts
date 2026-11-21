@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-21T08:26:03.185Z",
+  "updated_at": "2026-11-21T08:28:09.344Z",
   "status": "relay_production_enabled",
   "event_automation_id": "6adc585e7ac08191bb93825117dc7213",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
@@ -2492,8 +2492,8 @@
       "issue_number": 886,
       "message_id": "249811250017558528",
       "relay_event_id": "evt_de6256da93784b524780f03ce2b66a95",
-      "checked_at": "2026-11-21T08:26:03.185Z",
-      "outcome": "started",
+      "checked_at": "2026-11-21T08:26:24.721Z",
+      "outcome": "blocked_browser_auth",
       "retryable": true,
       "task_ids": [],
       "source": "dot Agent Relay webhook",
@@ -2507,11 +2507,42 @@
       "route_generation": 7,
       "source_head": "d2511fb1aa8c8eba952353c2ecc7b5eb07487352",
       "execution": {
-        "state": "started",
-        "stage": "intake",
+        "state": "blocked",
+        "stage": "own_cloud_topview_login_required",
         "started_at": "2026-11-21T08:25:10.283Z",
-        "updated_at": "2026-11-21T08:26:03.185Z"
-      }
+        "updated_at": "2026-11-21T08:28:09.344Z",
+        "completed_at": "2026-11-21T08:28:09.344Z"
+      },
+      "scan": {
+        "complete": true,
+        "boards": 14,
+        "pages": 19,
+        "tasks": 685,
+        "statuses": {
+          "success": 651,
+          "init": 5,
+          "fail": 29
+        },
+        "active_task_ids": [
+          "3644ab40a51c428b9e733aaba2c1c24b",
+          "55dadcb20d2b48a09d1b2b6b4ba0d9ea",
+          "3daf88bcc82b4b668a3bb4b405ed0703",
+          "98092b65ccfc4307ba98b9f9c675d001",
+          "e78f7a26f841414cac6689f2d79601b5"
+        ]
+      },
+      "occupied_slots": 5,
+      "free_slots": 1,
+      "completed_task_ids": [
+        "02fd85ac5fde408285bc439f15ba8239"
+      ],
+      "new_submissions": 0,
+      "blocker": "Connected Dot cloud Chrome showed Login on My First Board; signed-in workspace/Unlimited 0 not verified. S28 A1 is newly complete; required artistic review before another S28 launch is not recorded for this cycle. No claim/intent/Create.",
+      "queue_unknown_preserved": [
+        "S89D-WAN30-R2",
+        "S89F-WAN30",
+        "S89F-WAN30-R2"
+      ]
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
