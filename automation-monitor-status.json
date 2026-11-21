@@ -221,22 +221,22 @@
     ],
     "robot_rewake": {
       "episode": "0eeb7668",
-      "count": 9,
-      "last_at": "2026-11-21T15:40:45Z",
-      "sequence": 88,
+      "count": 10,
+      "last_at": "2026-11-21T16:40:50Z",
+      "sequence": 89,
       "first_at": "2026-11-21T07:00:36Z",
-      "last_event_id": "slots:0eeb7668:88",
+      "last_event_id": "slots:0eeb7668:89",
       "silence_reported": "slots:d23cf217:2"
     },
     "robot_dispatch": {
       "episode": "0eeb7668",
-      "event_id": "slots:0eeb7668:88",
+      "event_id": "slots:0eeb7668:89",
       "target": "backup",
       "actor": "dot",
       "primary_actor": "grok",
       "backup_actor": "dot",
       "reason": "backup_recovery_check",
-      "attempted_at": "2026-11-21T15:40:45Z"
+      "attempted_at": "2026-11-21T16:40:50Z"
     }
   },
   "phases": {
