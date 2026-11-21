@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:dac65db3-5b52-410a-ac02-1c8c8f538e92",
-  "task": "Hourly 09:00 UTC Topview slot and archive receipt",
-  "acquired_at": "2026-11-21T09:03:32.693Z",
-  "expires_at": null,
-  "released_at": "2026-11-21T09:12:26.224Z",
+  "state": "held",
+  "holder": "grok:81da5783-64e1-420c-b3af-a6d685482813",
+  "task": "Grok wake #905 owner t782s4180: S28-A6-20261023 lease/claim/intent/verify",
+  "acquired_at": "2026-11-21T20:16:08Z",
+  "expires_at": "2026-11-21T20:31:08Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
