@@ -2623,6 +2623,58 @@
         "S28-A6-20261023": "reports/topview-queue-2026-10-16/S28-A6-20261023-20261121T202013Z.json",
         "S28-A7-20261023": "reports/topview-queue-2026-10-16/S28-A7-20261023-20261121T203417Z.json"
       }
+    },
+    {
+      "event_id": "result:98092b65ccfc4307ba98b9f9c675d001",
+      "issue_number": 919,
+      "actor": "grok",
+      "source": "grok issue-assigned wake #919 (primary) + direct owner instruction in this Grok session",
+      "runner": "grok_executor",
+      "run_id": null,
+      "run_id_unavailable_reason": "not exposed",
+      "execution_instance_id": "3ee7c638-703d-45eb-bb94-88faed542247",
+      "route_generation": 7,
+      "checked_at": "2026-11-22T03:03:06Z",
+      "outcome": "blocked_owner_constraint",
+      "retryable": true,
+      "task_ids": [],
+      "new_submissions": 0,
+      "credits_spent": 0,
+      "item_id": null,
+      "next_protocol_item": "S28-A8-20261023",
+      "reason": "launcher_entry plan on main chose S28-A8-20261023 (scene 28 dance). The owner's instruction for this wake forbids launching music/dance scenes; the coordinator rejects any other item (not_next_ready_authorized_item), and changing priority is not allowed. No claim, intent or Create. Slot left free.",
+      "completed_result": {
+        "task_id": "98092b65ccfc4307ba98b9f9c675d001",
+        "item_id": "S89D-WAN30-R3",
+        "downloaded": true,
+        "archived_to": [
+          "Box: Серёгиус Topview/2026-11-22",
+          "Yandex Disk: Нейровидео/Серёгиус/. Topview/2026-11-22"
+        ]
+      },
+      "scan": {
+        "source": "topview-robot run 44978580176",
+        "checked_at": "2026-11-22T03:01:29Z",
+        "mode": "light",
+        "occupied_slots": 5,
+        "free_slots": 1,
+        "active_task_ids": [
+          "2891ed5c97be4438ac3a23f9b19ea193",
+          "3644ab40a51c428b9e733aaba2c1c24b",
+          "3daf88bcc82b4b668a3bb4b405ed0703",
+          "55dadcb20d2b48a09d1b2b6b4ba0d9ea",
+          "d6fb29ca214e42ec9b8c950657b26832"
+        ],
+        "S89H_present": false
+      },
+      "dot_activity": "none: no Dot comment/claim on #919, no started receipt for this event; canon-lock was free",
+      "execution": {
+        "state": "blocked",
+        "stage": "owner_constraint_no_dance",
+        "started_at": "2026-11-22T03:02:49Z",
+        "updated_at": "2026-11-22T03:03:06Z",
+        "completed_at": "2026-11-22T03:03:06Z"
+      }
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",

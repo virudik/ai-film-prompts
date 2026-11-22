@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "grok:3ee7c638-703d-45eb-bb94-88faed542247",
   "task": "Grok wake #919: event receipt result:98092b65 (no Create)",
   "acquired_at": "2026-11-22T03:02:49Z",
-  "expires_at": "2026-11-22T03:12:49Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-22T03:03:06Z",
   "rules": "ops/CANON-LOCK.md"
 }
