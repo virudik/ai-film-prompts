@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "3ccf9aad3a77a8baedb3ec74cf5b90bbbbaeb207833967f3ab9cc1867a1dcc34",
+  "source_queue_sha256": "1abfe65927d00e6c36e2010667378f00849d68e2a57de1858c1f473ba13fddf7",
   "source_task_map_sha256": "3229e6056d8c6e404a6705eb554a62cc982c3a3ca20de86c80c740ccd17534b3",
   "topview_checked_at": "2026-11-22T09:50:27Z",
   "items": [
@@ -44,10 +44,10 @@
       "id": "S28-A8-20261023",
       "scene_id": 28,
       "part_label": "28 A8",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
-      "queue_state": "waiting_for_slot"
+      "code": "preflight_required",
+      "ready": false,
+      "text": "Входы найдены; требуется снять записанный блокер после проверки",
+      "queue_state": "claimed"
     },
     {
       "id": "S28-A9-20261023",
@@ -186,5 +186,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-22T09:50:33.205788Z"
+  "checked_at": "2026-11-22T10:35:48.660838Z"
 }
