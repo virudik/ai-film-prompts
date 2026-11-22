@@ -2628,21 +2628,20 @@
       "event_id": "result:98092b65ccfc4307ba98b9f9c675d001",
       "issue_number": 919,
       "actor": "grok",
-      "source": "grok issue-assigned wake #919 (primary) + direct owner instruction in this Grok session",
+      "source": "grok issue-assigned wake #919 (primary) + owner card answer t815s4432",
       "runner": "grok_executor",
       "run_id": null,
       "run_id_unavailable_reason": "not exposed",
-      "execution_instance_id": "3ee7c638-703d-45eb-bb94-88faed542247",
+      "execution_instance_id": "cc503806-85c6-436b-8602-0f238e6a70eb",
       "route_generation": 7,
-      "checked_at": "2026-11-22T03:03:06Z",
-      "outcome": "blocked_owner_constraint",
+      "checked_at": "2026-11-22T10:33:34Z",
+      "outcome": "started",
       "retryable": true,
       "task_ids": [],
       "new_submissions": 0,
       "credits_spent": 0,
-      "item_id": null,
+      "item_id": "S28-A8-20261023",
       "next_protocol_item": "S28-A8-20261023",
-      "reason": "launcher_entry plan on main chose S28-A8-20261023 (scene 28 dance). The owner's instruction for this wake forbids launching music/dance scenes; the coordinator rejects any other item (not_next_ready_authorized_item), and changing priority is not allowed. No claim, intent or Create. Slot left free.",
       "completed_result": {
         "task_id": "98092b65ccfc4307ba98b9f9c675d001",
         "item_id": "S89D-WAN30-R3",
@@ -2669,11 +2668,26 @@
       },
       "dot_activity": "none: no Dot comment/claim on #919, no started receipt for this event; canon-lock was free",
       "execution": {
+        "state": "started",
+        "stage": "intake",
+        "started_at": "2026-11-22T10:33:34Z",
+        "updated_at": "2026-11-22T10:33:34Z",
+        "previous_completed_at": "2026-11-22T03:03:06Z"
+      },
+      "previous_outcome": "blocked_owner_constraint",
+      "previous_reason": "launcher_entry plan on main chose S28-A8-20261023 (scene 28 dance). The owner's instruction for this wake forbids launching music/dance scenes; the coordinator rejects any other item (not_next_ready_authorized_item), and changing priority is not allowed. No claim, intent or Create. Slot left free.",
+      "previous_execution": {
         "state": "blocked",
         "stage": "owner_constraint_no_dance",
         "started_at": "2026-11-22T03:02:49Z",
         "updated_at": "2026-11-22T03:03:06Z",
         "completed_at": "2026-11-22T03:03:06Z"
+      },
+      "owner_command": {
+        "host_address": "t815s4432 answer",
+        "at": "2026-11-22T10:19:00Z",
+        "quote": "Разрешаю запустить танец S28-A8",
+        "scope": "only S28-A8-20261023"
       }
     }
   ],
