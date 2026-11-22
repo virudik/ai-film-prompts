@@ -2,7 +2,7 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-11-21T20:43:42+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-11-22T02:43:50+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -16,7 +16,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 - USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 84245 B · `bf96009919340114`
 - README-AI-SYNC.md · копия на Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 18140 B · `f92524af84e6faf3`
 - BACKUP-AI-RUNBOOK.md · копия на Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 21720 B · `e1cfbacddb7fb23c`
-- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 2001624 B · `5bd3c9d3e77ff23e`
+- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 2001936 B · `e2b301d4ecb8f71e`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story. → `NEW-CHAT-HANDOFF.md` ✓
@@ -87,7 +87,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 86 | Саша и Маша Ф: «Эх, распаковочка» | Wan 3.0 | DRAFT/IDLE | 9 | @Image1 @Image2 @Image3 @Image4 @Image5 | [] | 075fc29b7363 |
 | 87 | Реклама: Саша, лучший фотограф | Wan 3.0 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [] | b6de9470cefb |
 | 88 | Саша. Даже слишком красиво | Wan 3.0 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 | [] | a08e40c8a705 |
-| 89 | Диалоги на переделку | Seedance 2.0 | NEEDS_RERENDER/SLOW_PENDING | 20 | @Image1 @Image2 @Image3 @Image4 @Image5 | [] | f5aa204b1072 |
+| 89 | Диалоги на переделку | Seedance 2.0 | NEEDS_RERENDER/SLOW_PENDING | 20 | @Image1 @Image2 @Image3 @Image4 @Image5 | [] | 710eeb5bdc1b |
 
 ## Что читать под задачу (сверх брифа)
 - **takeover** — документы: —; master: index_only (D7 (owner 14.10.2026): short takeover = this read set; open full sections per task; any fallback trigger → full 7+master+status read.)
