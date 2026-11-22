@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:cc503806-85c6-436b-8602-0f238e6a70eb",
-  "task": "Grok wake #919 owner t815s4432: S28-A8-20261023 lease/claim/intent/verify",
-  "acquired_at": "2026-11-22T10:33:34Z",
-  "expires_at": null,
-  "released_at": "2026-11-22T10:39:27Z",
+  "state": "held",
+  "holder": "grok:4a3c5e20-ac8a-4ffd-b3f5-de8175cf65a2",
+  "task": "Grok wake #938 owner t819s4466: S28-A9-20261023 lease/claim/intent/verify",
+  "acquired_at": "2026-11-22T12:55:58Z",
+  "expires_at": "2026-11-22T13:10:58Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }

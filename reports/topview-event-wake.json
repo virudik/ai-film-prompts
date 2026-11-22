@@ -2696,6 +2696,41 @@
       "claim_id": "7505ffcd-3683-47d0-95de-a98722aef9ab",
       "submission_intent_id": "de8ecdc3-d02a-4d81-b799-8747e5e7bc59",
       "create_click_count": 1
+    },
+    {
+      "event_id": "result:3daf88bcc82b4b668a3bb4b405ed0703",
+      "issue_number": 938,
+      "actor": "grok",
+      "source": "grok issue-assigned wake #938 (primary) + owner card answer t819s4466",
+      "runner": "grok_executor",
+      "run_id": null,
+      "run_id_unavailable_reason": "not exposed",
+      "execution_instance_id": "4a3c5e20-ac8a-4ffd-b3f5-de8175cf65a2",
+      "route_generation": 7,
+      "outcome": "started",
+      "retryable": true,
+      "item_id": "S28-A9-20261023",
+      "task_ids": [],
+      "new_submissions": 0,
+      "credits_spent": 0,
+      "owner_command": {
+        "host_address": "t819s4466 answer",
+        "at": "2026-11-22T12:49:00Z",
+        "quote": "Да, запускай S28-A9",
+        "scope": "only S28-A9-20261023"
+      },
+      "checked_at": "2026-11-22T12:55:58Z",
+      "completed_result": {
+        "task_id": "3daf88bcc82b4b668a3bb4b405ed0703",
+        "item_id": "S89F-WAN30-R3",
+        "final_status": "success"
+      },
+      "execution": {
+        "state": "started",
+        "stage": "intake",
+        "started_at": "2026-11-22T12:55:58Z",
+        "updated_at": "2026-11-22T12:55:58Z"
+      }
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
