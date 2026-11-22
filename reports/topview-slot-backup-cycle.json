@@ -11,15 +11,16 @@
   "run_id": null,
   "run_id_unavailable_reason": "Runtime notification does not expose platform run_id.",
   "started_at": "2026-11-22T14:02:58.998Z",
-  "updated_at": "2026-11-22T14:03:57.873Z",
-  "phase": "started",
-  "status": "started",
+  "updated_at": "2026-11-22T14:04:46.660Z",
+  "phase": "completed",
+  "status": "completed",
   "source_head": "85e5706ea678e755f1fa751c650d39af13391317",
   "route_generation": 7,
   "execution": {
-    "state": "started",
-    "stage": "read_only_checks_active",
-    "updated_at": "2026-11-22T14:03:57.873Z"
+    "state": "completed",
+    "stage": "all_slots_occupied_no_new_hangar_video",
+    "updated_at": "2026-11-22T14:04:46.660Z",
+    "completed_at": "2026-11-22T14:04:46.660Z"
   },
   "lease": {
     "schema_version": 1,
@@ -31,5 +32,57 @@
     "released_at": null,
     "rules": "ops/CANON-LOCK.md"
   },
-  "browser_transport": "dot_own_browser"
+  "browser_transport": "dot_own_browser",
+  "completed_at": "2026-11-22T14:04:46.660Z",
+  "scan": {
+    "started_at": "2026-11-22T14:03:15.720Z",
+    "checked_at": "2026-11-22T14:03:21.100Z",
+    "complete": true,
+    "boards_listed": 14,
+    "pages_scanned": 19,
+    "tasks_scanned": 689,
+    "statuses": {
+      "success": 654,
+      "init": 6,
+      "fail": 29
+    },
+    "unknown": 0
+  },
+  "occupied_slots": 6,
+  "free_slots": 0,
+  "active_task_ids": [
+    "17c2f95f1f9349dabfe9a2e75fd9a18c",
+    "a841c617d6ee4590adde0f8377ed43b9",
+    "d6fb29ca214e42ec9b8c950657b26832",
+    "2891ed5c97be4438ac3a23f9b19ea193",
+    "3644ab40a51c428b9e733aaba2c1c24b",
+    "55dadcb20d2b48a09d1b2b6b4ba0d9ea"
+  ],
+  "outcome": "no_update_all_slots_occupied",
+  "new_submissions": 0,
+  "next_action_unchanged": true,
+  "started_receipt_readback": true,
+  "blocker": null,
+  "retryable": false,
+  "owner_tasks_open_count": 0,
+  "queue_pending_claim_items": [
+    "S28-A5-20261023",
+    "S89D-WAN30-R2",
+    "S89F-WAN30",
+    "S89F-WAN30-R2"
+  ],
+  "browser_not_used_reason": "Fresh complete scan confirmed six occupied physical slots.",
+  "hangar_archive": {
+    "topview_count": 27,
+    "grok_count": 29,
+    "new_copies": 0,
+    "latest_success_excluded_task_id": "3daf88bcc82b4b668a3bb4b405ed0703",
+    "latest_success_excluded_reason": "S89F dialogue, not an angar musical number",
+    "grok_full_source_catalog_checked": false
+  },
+  "work_backup": {
+    "enabled": false,
+    "last_run_time": "2026-11-18T21:07:31.592127+00:00",
+    "changed": false
+  }
 }
