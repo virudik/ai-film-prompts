@@ -1,72 +1,172 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-11-21T13:39:06Z",
+  "checked_at": "2026-11-22T13:31:17Z",
   "window_hours": 24,
-  "verdict": "launch_stalled",
-  "launches": [],
+  "verdict": "historical_free_slots_unverified",
+  "launches": [
+    {
+      "item": "S28-A6-20261023",
+      "scene_id": 28,
+      "task_id": "2891ed5c97be4438ac3a23f9b19ea193",
+      "claimed_at": "2026-11-21T20:17:48Z",
+      "submitted_at": "2026-11-21T20:20:13Z",
+      "observed_at": "2026-11-21T20:20:13Z",
+      "time_basis": "submitted_at",
+      "run_id": null,
+      "source": "unknown",
+      "source_evidence": "missing_or_unbound_trigger_evidence"
+    },
+    {
+      "item": "S28-A7-20261023",
+      "scene_id": 28,
+      "task_id": "d6fb29ca214e42ec9b8c950657b26832",
+      "claimed_at": "2026-11-21T20:27:54Z",
+      "submitted_at": "2026-11-21T20:34:17Z",
+      "observed_at": "2026-11-21T20:34:17Z",
+      "time_basis": "submitted_at",
+      "run_id": null,
+      "source": "unknown",
+      "source_evidence": "missing_or_unbound_trigger_evidence"
+    },
+    {
+      "item": "S28-A8-20261023",
+      "scene_id": 28,
+      "task_id": "a841c617d6ee4590adde0f8377ed43b9",
+      "claimed_at": "2026-11-22T10:35:14Z",
+      "submitted_at": "2026-11-22T10:37:37Z",
+      "observed_at": "2026-11-22T10:37:37Z",
+      "time_basis": "submitted_at",
+      "run_id": null,
+      "source": "unknown",
+      "source_evidence": "missing_or_unbound_trigger_evidence"
+    },
+    {
+      "item": "S28-A9-20261023",
+      "scene_id": 28,
+      "task_id": "17c2f95f1f9349dabfe9a2e75fd9a18c",
+      "claimed_at": "2026-11-22T12:57:42Z",
+      "submitted_at": "2026-11-22T12:59:58Z",
+      "observed_at": "2026-11-22T12:59:58Z",
+      "time_basis": "submitted_at",
+      "run_id": null,
+      "source": "unknown",
+      "source_evidence": "missing_or_unbound_trigger_evidence"
+    }
+  ],
   "launches_by_schedule": 0,
   "launches_by_chat": 0,
   "launches_by_webhook": 0,
   "launches_by_manual_run_now": 0,
-  "launches_unknown_source": 0,
+  "launches_unknown_source": 4,
   "historical_opportunity_verified": false,
   "historical_opportunity_note": "Past free-slot observations are not joined to historical queue readiness, authorization or leases; no idle-launch incident inferred from them.",
   "free_slot_observations": [
     {
-      "at": "2026-11-21T13:10:35Z",
+      "at": "2026-11-22T12:30:33Z",
       "occupied": 5,
       "capacity": 6
     },
     {
-      "at": "2026-11-21T12:20:41Z",
+      "at": "2026-11-22T09:50:33Z",
       "occupied": 5,
       "capacity": 6
     },
     {
-      "at": "2026-11-21T11:30:36Z",
+      "at": "2026-11-22T09:00:36Z",
       "occupied": 5,
       "capacity": 6
     },
     {
-      "at": "2026-11-21T10:40:37Z",
+      "at": "2026-11-22T08:00:40Z",
       "occupied": 5,
       "capacity": 6
     },
     {
-      "at": "2026-11-21T09:40:42Z",
+      "at": "2026-11-22T07:10:36Z",
       "occupied": 5,
       "capacity": 6
     },
     {
-      "at": "2026-11-21T08:40:38Z",
+      "at": "2026-11-22T06:20:33Z",
       "occupied": 5,
       "capacity": 6
     },
     {
-      "at": "2026-11-21T07:50:42Z",
+      "at": "2026-11-22T05:20:43Z",
       "occupied": 5,
       "capacity": 6
     },
     {
-      "at": "2026-11-21T07:00:38Z",
+      "at": "2026-11-22T04:30:35Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-11-22T03:30:38Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-11-22T02:40:36Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-11-21T20:20:39Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-11-21T19:30:35Z",
+      "occupied": 4,
+      "capacity": 6
+    },
+    {
+      "at": "2026-11-21T18:40:45Z",
+      "occupied": 4,
+      "capacity": 6
+    },
+    {
+      "at": "2026-11-21T17:50:33Z",
+      "occupied": 4,
+      "capacity": 6
+    },
+    {
+      "at": "2026-11-21T17:00:34Z",
+      "occupied": 4,
+      "capacity": 6
+    },
+    {
+      "at": "2026-11-21T16:40:51Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-11-21T15:51:13Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-11-21T15:00:32Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-11-21T14:00:37Z",
       "occupied": 5,
       "capacity": 6
     }
   ],
-  "ready_items_waiting": 13,
+  "ready_items_waiting": 9,
   "launcher_health": {
-    "state": "reconciliation_required",
-    "unresolved": true,
-    "episode": "0eeb7668",
-    "unresolved_since": "2026-11-21T07:00:36Z",
-    "reason": "saved_claim_or_unknown_submission; no_repeat_Create",
-    "free_slots_global": 1,
+    "state": "capacity_full",
+    "unresolved": false,
+    "episode": "13208a56",
+    "unresolved_since": null,
+    "reason": "no_free_global_slot; launcher_health_not_proven",
+    "free_slots_global": 0,
     "actionable_items": [
       "S49B",
-      "S28-A6-20261023",
-      "S28-A7-20261023",
-      "S28-A8-20261023",
-      "S28-A9-20261023",
       "S28-A10-20261023",
       "S28-A11-20261023",
       "S62-SEED20-P1-R2-20261108",
@@ -82,7 +182,7 @@
       "S89F-WAN30",
       "S89F-WAN30-R2"
     ],
-    "last_event_id": "slots:0eeb7668:85",
+    "last_event_id": "slots:94eb03c2:100",
     "receipt_present": false,
     "handler_outcome": null,
     "execution_stage": null,
@@ -93,8 +193,8 @@
     "last_confirmed_launch_task_ids": [
       "3644ab40a51c428b9e733aaba2c1c24b"
     ],
-    "escalation_attempted_episode": "0eeb7668",
-    "checked_at": "2026-11-21T12:40:49Z"
+    "escalation_attempted_episode": "94eb03c2",
+    "checked_at": "2026-11-22T13:10:32Z"
   },
   "launcher_observation_stale": false,
   "note": "Source requires a task/execution-bound trigger receipt; legacy prefixes retained as labelled evidence. Missing runtime ID never implies chat."
