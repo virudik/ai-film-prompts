@@ -5,37 +5,36 @@
   "runner": "dot_scheduled_handler",
   "automation_id": "6afc8b674794819192ba0b1415c5a220",
   "automation_context_version": "d33b8ca4e3c0421986e1a4a8b7b6a9069c4e43fb0db2cec1835fb8b5e57c0be1",
-  "execution_instance_id": "4933fd38-f0b4-4b37-8160-3a2fa032c8c1",
+  "execution_instance_id": "6c9dacbb-16c2-44a4-adfe-9f0cac080727",
   "actual_trigger": "scheduled",
-  "scheduled_for": "2026-11-22T19:00:00Z",
+  "scheduled_for": "2026-11-22T20:00:00Z",
   "run_id": null,
   "run_id_unavailable_reason": "Runtime notification does not expose platform run_id.",
-  "started_at": "2026-11-22T19:32:29.412Z",
-  "updated_at": "2026-11-22T19:35:04.890Z",
-  "phase": "completed",
-  "status": "completed",
-  "source_head": "a225902414211d51d3bc6a183476a375ab3786e8",
+  "started_at": "2026-11-22T20:00:37.477Z",
+  "updated_at": "2026-11-22T20:02:18.057Z",
+  "phase": "started",
+  "status": "started",
+  "source_head": "6842b4df91130ae2782cae5a1bf47acb3b0dae1d",
   "route_generation": 7,
   "execution": {
-    "state": "completed",
-    "stage": "all_slots_occupied_no_new_hangar_video",
-    "updated_at": "2026-11-22T19:35:04.890Z",
-    "completed_at": "2026-11-22T19:35:04.890Z"
+    "state": "started",
+    "stage": "read_only_checks_completed",
+    "updated_at": "2026-11-22T20:02:18.057Z"
   },
   "lease": {
     "schema_version": 1,
     "state": "held",
-    "holder": "chatgpt:ordinary:4933fd38-f0b4-4b37-8160-3a2fa032c8c1",
-    "task": "Scheduled 19:00 UTC Topview capacity and archive check",
-    "acquired_at": "2026-11-22T19:34:03.826Z",
-    "expires_at": "2026-11-22T19:44:03.826Z",
+    "holder": "chatgpt:ordinary:6c9dacbb-16c2-44a4-adfe-9f0cac080727",
+    "task": "Scheduled 20:00 UTC Topview capacity and archive check",
+    "acquired_at": "2026-11-22T20:01:58.545Z",
+    "expires_at": "2026-11-22T20:11:58.545Z",
     "released_at": null,
     "rules": "ops/CANON-LOCK.md"
   },
   "browser_transport": "dot_own_browser",
   "scan": {
-    "started_at": "2026-11-22T19:33:07.902Z",
-    "checked_at": "2026-11-22T19:33:11.323Z",
+    "started_at": "2026-11-22T20:01:07.159Z",
+    "checked_at": "2026-11-22T20:01:10.181Z",
     "complete": true,
     "boards_listed": 14,
     "pages_scanned": 19,
@@ -48,41 +47,5 @@
     "unknown": 0
   },
   "occupied_slots": 6,
-  "free_slots": 0,
-  "completed_at": "2026-11-22T19:35:04.890Z",
-  "active_task_ids": [
-    "17c2f95f1f9349dabfe9a2e75fd9a18c",
-    "a841c617d6ee4590adde0f8377ed43b9",
-    "d6fb29ca214e42ec9b8c950657b26832",
-    "2891ed5c97be4438ac3a23f9b19ea193",
-    "3644ab40a51c428b9e733aaba2c1c24b",
-    "55dadcb20d2b48a09d1b2b6b4ba0d9ea"
-  ],
-  "outcome": "no_update_all_slots_occupied",
-  "new_submissions": 0,
-  "next_action_unchanged": true,
-  "started_receipt_readback": true,
-  "blocker": null,
-  "retryable": false,
-  "owner_tasks_open_count": 0,
-  "queue_pending_claim_items": [
-    "S28-A5-20261023",
-    "S89D-WAN30-R2",
-    "S89F-WAN30",
-    "S89F-WAN30-R2"
-  ],
-  "browser_not_used_reason": "Fresh complete scan confirmed six occupied physical slots.",
-  "hangar_archive": {
-    "topview_count": 27,
-    "grok_count": 29,
-    "new_copies": 0,
-    "latest_success_excluded_task_id": "3daf88bcc82b4b668a3bb4b405ed0703",
-    "latest_success_excluded_reason": "S89F dialogue, not a hangar musical number",
-    "grok_full_source_catalog_checked": false
-  },
-  "work_backup": {
-    "enabled": false,
-    "last_run_time": "2026-11-18T21:07:31.592127+00:00",
-    "changed": false
-  }
+  "free_slots": 0
 }
