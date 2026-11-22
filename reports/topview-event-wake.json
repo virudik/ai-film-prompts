@@ -2634,11 +2634,13 @@
       "run_id_unavailable_reason": "not exposed",
       "execution_instance_id": "cc503806-85c6-436b-8602-0f238e6a70eb",
       "route_generation": 7,
-      "checked_at": "2026-11-22T10:33:34Z",
-      "outcome": "started",
-      "retryable": true,
-      "task_ids": [],
-      "new_submissions": 0,
+      "checked_at": "2026-11-22T10:39:27Z",
+      "outcome": "submitted",
+      "retryable": false,
+      "task_ids": [
+        "a841c617d6ee4590adde0f8377ed43b9"
+      ],
+      "new_submissions": 1,
       "credits_spent": 0,
       "item_id": "S28-A8-20261023",
       "next_protocol_item": "S28-A8-20261023",
@@ -2668,11 +2670,12 @@
       },
       "dot_activity": "none: no Dot comment/claim on #919, no started receipt for this event; canon-lock was free",
       "execution": {
-        "state": "started",
-        "stage": "intake",
+        "state": "completed",
+        "stage": "submitted",
         "started_at": "2026-11-22T10:33:34Z",
-        "updated_at": "2026-11-22T10:33:34Z",
-        "previous_completed_at": "2026-11-22T03:03:06Z"
+        "updated_at": "2026-11-22T10:39:27Z",
+        "previous_completed_at": "2026-11-22T03:03:06Z",
+        "completed_at": "2026-11-22T10:39:27Z"
       },
       "previous_outcome": "blocked_owner_constraint",
       "previous_reason": "launcher_entry plan on main chose S28-A8-20261023 (scene 28 dance). The owner's instruction for this wake forbids launching music/dance scenes; the coordinator rejects any other item (not_next_ready_authorized_item), and changing priority is not allowed. No claim, intent or Create. Slot left free.",
@@ -2688,7 +2691,11 @@
         "at": "2026-11-22T10:19:00Z",
         "quote": "Разрешаю запустить танец S28-A8",
         "scope": "only S28-A8-20261023"
-      }
+      },
+      "receipt": "reports/topview-queue-2026-10-16/S28-A8-20261023-20261122T103737Z.json",
+      "claim_id": "7505ffcd-3683-47d0-95de-a98722aef9ab",
+      "submission_intent_id": "de8ecdc3-d02a-4d81-b799-8747e5e7bc59",
+      "create_click_count": 1
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
