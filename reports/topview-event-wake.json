@@ -2707,11 +2707,13 @@
       "run_id_unavailable_reason": "not exposed",
       "execution_instance_id": "4a3c5e20-ac8a-4ffd-b3f5-de8175cf65a2",
       "route_generation": 7,
-      "outcome": "started",
-      "retryable": true,
+      "outcome": "submitted",
+      "retryable": false,
       "item_id": "S28-A9-20261023",
-      "task_ids": [],
-      "new_submissions": 0,
+      "task_ids": [
+        "17c2f95f1f9349dabfe9a2e75fd9a18c"
+      ],
+      "new_submissions": 1,
       "credits_spent": 0,
       "owner_command": {
         "host_address": "t819s4466 answer",
@@ -2719,18 +2721,23 @@
         "quote": "Да, запускай S28-A9",
         "scope": "only S28-A9-20261023"
       },
-      "checked_at": "2026-11-22T12:55:58Z",
+      "checked_at": "2026-11-22T13:01:18Z",
       "completed_result": {
         "task_id": "3daf88bcc82b4b668a3bb4b405ed0703",
         "item_id": "S89F-WAN30-R3",
         "final_status": "success"
       },
       "execution": {
-        "state": "started",
-        "stage": "intake",
+        "state": "completed",
+        "stage": "submitted",
         "started_at": "2026-11-22T12:55:58Z",
-        "updated_at": "2026-11-22T12:55:58Z"
-      }
+        "updated_at": "2026-11-22T13:01:18Z",
+        "completed_at": "2026-11-22T13:01:18Z"
+      },
+      "receipt": "reports/topview-queue-2026-10-16/S28-A9-20261023-20261122T125958Z.json",
+      "claim_id": "4fc5bbb0-dc0e-4f9a-8726-859baac44a35",
+      "submission_intent_id": "01a91d88-afec-44b8-af6c-2aa62cf21e3d",
+      "create_click_count": 1
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
