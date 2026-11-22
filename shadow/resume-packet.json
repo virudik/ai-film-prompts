@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-22T10:36:59+00:00",
-  "source_head": "7e7449ad7ff2c9ae158eac3a935ed54983928350",
-  "source_fingerprint": "0ace1bfacddf4b9b1d42bcfbbc81bab047c3d7a58d4254ff0610ba8f0ca22701",
+  "checked_at": "2026-11-22T10:39:55+00:00",
+  "source_head": "a50d105f3660e1fef38f70d4b23f7b0488fb64a9",
+  "source_fingerprint": "2460b816ecf447ff056f1a6b0a90135187d9d0e433b0cbf6ea3374d2b4680d21",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -165,13 +165,6 @@
         "submit_authorized": false
       },
       {
-        "item_id": "S28-A8-20261023",
-        "state": "submitting",
-        "task_id": null,
-        "recovery_action": "reconcile_without_resubmitting",
-        "submit_authorized": false
-      },
-      {
         "item_id": "S89D-WAN30-R2",
         "state": "claimed",
         "task_id": null,
@@ -193,7 +186,7 @@
         "submit_authorized": false
       }
     ],
-    "existing_task_count": 102,
+    "existing_task_count": 103,
     "existing_tasks": [
       {
         "item_id": "S49F",
@@ -230,6 +223,10 @@
       {
         "item_id": "S28-A7-20261023",
         "task_id": "d6fb29ca214e42ec9b8c950657b26832"
+      },
+      {
+        "item_id": "S28-A8-20261023",
+        "task_id": "a841c617d6ee4590adde0f8377ed43b9"
       },
       {
         "item_id": "S28-A1-R2-20261025",
@@ -682,8 +679,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "267106dcf030230f2a635e72028286fd32caef0a86f257ebb00e3107e02e8cb2",
-      "bytes": 310166
+      "sha256": "3c8bff484d72a53cad0933cfcad5783b87e4a7a52d64f3469f8161761ea608f2",
+      "bytes": 310563
     },
     {
       "file": "project-status.json",
@@ -726,5 +723,5 @@
       "bytes": 95324
     }
   ],
-  "packet_bytes": 5291
+  "packet_bytes": 5241
 }
