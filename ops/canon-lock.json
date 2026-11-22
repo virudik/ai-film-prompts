@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:47bad753-0b06-4d0b-8c31-54c519628390",
-  "task": "Scheduled 01:00 UTC Topview capacity and archive check",
-  "acquired_at": "2026-11-22T01:00:06.502Z",
-  "expires_at": null,
-  "released_at": "2026-11-22T01:01:16.590Z",
+  "state": "held",
+  "holder": "grok:3ee7c638-703d-45eb-bb94-88faed542247",
+  "task": "Grok wake #919: event receipt result:98092b65 (no Create)",
+  "acquired_at": "2026-11-22T03:02:49Z",
+  "expires_at": "2026-11-22T03:12:49Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
