@@ -704,6 +704,15 @@
       "sha256": "149dabd5de7ca107969bf62f9e3a6005be0ef4e9e3864396bc2a0bf844731543",
       "size_bytes": 78629913
     },
+    "98092b65ccfc4307ba98b9f9c675d001": {
+      "archived_at": "2026-11-22T02:45:47Z",
+      "drive_url": "https://drive.google.com/file/d/1Gvn6ppggzNPX7jPLyCON5hm0V3HUphmK/view",
+      "file_id": "1Gvn6ppggzNPX7jPLyCON5hm0V3HUphmK",
+      "md5": "1e7a660ce4d059ef6e80b7efdb695521",
+      "scene_id": 89,
+      "sha256": "6ceafd64528e9bca7bd4ffd19312619bc9dab370748853f81cbbb78df58cdd83",
+      "size_bytes": 78609173
+    },
     "98150f1d673344e4b2fec6f9cd6685a0": {
       "archived_at": "2026-10-13T18:45:22Z",
       "drive_url": "https://drive.google.com/file/d/1K4Q5MMOw0gLjBIDLxbXTbME2erNHOup6/view",
