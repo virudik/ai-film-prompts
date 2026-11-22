@@ -1897,7 +1897,7 @@
       "canonical_prompt_sha256": "a972b5e38551a4be3b71888b0959f1b2398b583aaeea91474071d0b5150a942d",
       "normalized_prompt_sha256": "c290f6358ebc5ee9459aebc03e6db2f1b71bb29c8a82b0de8c40bd2a28913a01",
       "priority": 0.315,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -1944,7 +1944,67 @@
         }
       ],
       "task_id": null,
-      "claim": null,
+      "claim": {
+        "claim_id": "4fc5bbb0-dc0e-4f9a-8726-859baac44a35",
+        "execution_instance_id": "4a3c5e20-ac8a-4ffd-b3f5-de8175cf65a2",
+        "route_generation": 7,
+        "source_sha": "e89b4a1d91a6fa1bd311993e9ff51853d27e4076",
+        "claimed_at": "2026-11-22T12:57:42Z",
+        "lease_holder": "grok:4a3c5e20-ac8a-4ffd-b3f5-de8175cf65a2",
+        "lease_acquired_at": "2026-11-22T12:55:58Z",
+        "preflight": {
+          "owner_authorized": true,
+          "prompt_match": true,
+          "input_sha_match": true,
+          "input_order_match": true,
+          "qc_passed": true,
+          "website_unlimited": true,
+          "unlimited_mode_selected": true,
+          "paid_credit_mode_selected": false,
+          "paid_18_credit_mode_selected": false,
+          "numeric_zero_displayed": false,
+          "credits_cost": 0,
+          "credits_cost_evidence": "selected_free_unlimited_current_form",
+          "quantity": 1,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "model": "Seedance 2.0",
+          "model_id": "seedance-2.0-style",
+          "duration_seconds": 15,
+          "mode": "omni_reference",
+          "prompt_sha256": "a972b5e38551a4be3b71888b0959f1b2398b583aaeea91474071d0b5150a942d",
+          "canonical_prompt_sha256": "a972b5e38551a4be3b71888b0959f1b2398b583aaeea91474071d0b5150a942d",
+          "reference_sha256": [
+            "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+            "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+            "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+            "f7f61144684f0fe3831a6a3f82d8a87a4dff41e69b162a6af569884f5dd5a912"
+          ],
+          "ui_unlimited_label": "Безлимитный режим — бесплатно",
+          "ui_prompt_exact": true,
+          "ui_create_button_text": "Создать",
+          "form_evidence": {
+            "checked_at_msk": "2026-11-22T15:55:38+03:00",
+            "url": "https://www.topview.ai/board/1a6244cf1ae747ef847d949a80d6133c?tool-type=video-edit",
+            "mode": "Омни-референс / Seedance 2.0, 16:9, 15s, HD 720p, Количество 1",
+            "payment": "Выбран 'Безлимитный режим — бесплатно' (радио отмечено, статус 'Загружено' — большая очередь); 'Кредитный режим' (Приоритетная скорость · 15 кредитов) не выбран; кнопка 'Создать' без цены в кредитах; баланс 11.05/600 кредитов",
+            "refs_order": [
+              "Image1-H28B-disco.png",
+              "Image2-serega.jpg",
+              "Image3-yulya.jpg",
+              "Image4-S28-shoulder.png"
+            ],
+            "prompt_dom_check": "4 mentionChip: @Image1..@Image4, data-url совпадает с blob-миниатюрами референсов 1..4 по порядку; счётчик 5853 / 10000 = 5853 символов prompt.txt; cmp form-readback.txt prompt.txt: идентичны (5855 байт)"
+          },
+          "owner_free_label_decision": {
+            "host_address": "t718s3708 answer",
+            "at": "2026-11-19T00:30:00Z",
+            "role": "user",
+            "text": "Да, «Безлимитный режим» без цены считай бесплатным, запускай"
+          }
+        },
+        "coordination_version": 2
+      },
       "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
       "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
       "blocker": null,
