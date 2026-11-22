@@ -1715,7 +1715,7 @@
       "canonical_prompt_sha256": "a7ec1b1bdac01eff682f8644c8cff6f801b60f8f1c1980e15cbadc5c53a31f53",
       "normalized_prompt_sha256": "20333cb56211659671f3b10a754453fdd490b43eb01d2d70c60835c434ec4be6",
       "priority": 0.314,
-      "state": "claimed",
+      "state": "submitting",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -1821,7 +1821,37 @@
             "text": "Да, «Безлимитный режим» без цены считай бесплатным, запускай"
           }
         },
-        "coordination_version": 2
+        "coordination_version": 2,
+        "submission_intent_id": "de8ecdc3-d02a-4d81-b799-8747e5e7bc59",
+        "submission_intent_at": "2026-11-22T10:36:49Z",
+        "replay_forbidden": true,
+        "host_run": {
+          "namespace": "cursor_host",
+          "observation_source": "parent_shell_os_environ",
+          "field": "CURSOR_REQUEST_ID",
+          "value": "4906c7f7-8bc2-4277-a28a-7c33700bf0b4",
+          "conversation_field": "CURSOR_CONVERSATION_ID",
+          "conversation_id": "1c1bf697-3c93-4068-b457-e90efdd5ef8f",
+          "owner_response_kind": "answered_card",
+          "owner_response_to_card_address": "t815s4432",
+          "owner_response_role": "user",
+          "current_owner_response_message_address": null
+        },
+        "provider_run_key": "83037b751bf85905a2ecfc8d52b026faba0d2d5616d9c6221340da21966db0f4",
+        "owner_event_keys": [
+          "d7daf0158c2ed7e236f032ab02ffb7c69149ae98e0345704a5c2dfd8eae0e1b2"
+        ],
+        "ledger_path": "ops/launcher-run-ledger.json",
+        "trigger": "owner_command",
+        "owner_command": {
+          "quote": "Разрешаю запустить танец S28-A8",
+          "source": "cursor_host",
+          "at": "2026-11-22T10:19:00Z",
+          "owner_response_to_card_address": "t815s4432",
+          "owner_response_role": "user",
+          "current_owner_response_message_address": null
+        },
+        "intent_payload_sha256": "253c7b8f7f62bcdf11a13bddfd1bc91a14f5a7839be9b86c78bb1ec9f6202406"
       },
       "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
       "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
