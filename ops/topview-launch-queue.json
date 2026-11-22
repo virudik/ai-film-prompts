@@ -3011,107 +3011,6 @@
       "max_credits": 0
     },
     {
-      "id": "S89A-WAN30",
-      "scene_id": 89,
-      "part": "89A",
-      "prompt_id": "S89A-WAN30",
-      "canonical_block_label": "89",
-      "canonical_prompt_sha256": "357829d4234a54a5d6a4d1fa89f7095d136585eb64f037e390774fb974f1d2a0",
-      "normalized_prompt_sha256": "503380bb45912f1436ffe058ca329715997ab2843b80afd7a230eace2deab583",
-      "priority": 0.301,
-      "state": "submitted",
-      "launch_readiness": "authorized_inputs_available",
-      "model": "Wan 3.0",
-      "model_id": "qwen-wan3.0-video",
-      "duration_seconds": 30,
-      "actual_resolution": 720,
-      "prompt_text_resolution": 720,
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "omni_reference",
-      "max_new_submissions": 1,
-      "max_credits": 0,
-      "credits_cost": 0,
-      "unlimited_mode_required": true,
-      "paid_fallback_forbidden": true,
-      "automatic_retry": false,
-      "depends_on_submitted": [],
-      "depends_on_completed": [],
-      "references": [
-        {
-          "slot": "@Image1",
-          "required": true,
-          "input_status": "available",
-          "primary_storage": "google_drive",
-          "drive_file_id": "1b3oDLTTIniwoCmLLm35XStUlh6mxq8Kd",
-          "web_view_link": "https://drive.google.com/file/d/1b3oDLTTIniwoCmLLm35XStUlh6mxq8Kd/view",
-          "sha256": "5d4278cbe789319165be27ff1e9a15a9f494e576b8c3a4830083b2064c9989ac",
-          "bytes": 12687056,
-          "width": 2752,
-          "height": 1536,
-          "note": "Council plate a7c9e3ba Image1. Not in git (12.6 MB). Download this Drive file and verify sha256 before upload. Do not substitute a smaller preview."
-        },
-        {
-          "slot": "@Image2",
-          "path": "references/scenes/scene-89/shared/jedi2-artem-scene.png",
-          "required": true,
-          "input_status": "available",
-          "sha256": "bf99a0d68b6bf1f8795dc13b4662d5ce72c61a2d4e24490bfd4ddfc8c53760e4"
-        },
-        {
-          "slot": "@Image3",
-          "path": "references/scenes/scene-89/shared/jedi1-ilyusha-scene.png",
-          "required": true,
-          "input_status": "available",
-          "sha256": "f308cb384704d43eb6f4db5bb9425d4ade6be930710e90d3fc4277d9995f07c4"
-        },
-        {
-          "slot": "@Image4",
-          "path": "references/full/artem.jpg",
-          "required": true,
-          "input_status": "available",
-          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba"
-        },
-        {
-          "slot": "@Image5",
-          "path": "references/full/ilyusha.jpg",
-          "required": true,
-          "input_status": "available",
-          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b"
-        }
-      ],
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "board_name": "My First Board",
-      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry: automatic_retry is false and retry_control is omitted, because Grok prepare_intent treats any retry_control as a retry Create and would reject the first Unlimited Create. Not a paid 12-credit Wan path.",
-      "owner_source": "t593u",
-      "story_not_music": true,
-      "created_at": "2026-11-12T13:14:25Z",
-      "task_id": "425108630b0e48c9a4b299fc89ad88ee",
-      "task_name": "261114_0001_video_edit_2956",
-      "claim": null,
-      "submitted_at": "2026-11-14T21:32:23Z",
-      "submitted_at_local": "2026-11-15T00:32:23 Europe/Moscow",
-      "topview_status": "init",
-      "queued": true,
-      "ui_eta_minutes": 4338,
-      "ui_toast": "Успешно создано задач: 1",
-      "ui_card": "В очереди",
-      "create_click_count": 1,
-      "max_new_submissions_consumed": 1,
-      "creditsCost": 0,
-      "credits_balance_before": 11.05,
-      "credits_balance_after": 11.05,
-      "prompt_characters": 3852,
-      "receipt": "reports/topview-queue-2026-10-16/S89A-WAN30-20261114T213223Z.json",
-      "slot_event": {
-        "issue_number": 680,
-        "event_id": "slots:a3e98072:69",
-        "observed_create_at": "2026-11-14T21:32:23Z"
-      },
-      "replay_forbidden": true,
-      "no_second_create": true
-    },
-    {
       "id": "S89B-WAN30",
       "scene_id": 89,
       "part": "89B",
@@ -5055,6 +4954,17 @@
     "recorded_by": "claude:chatgpt-review"
   },
   "archived_items": [
+    {
+      "id": "S89A-WAN30",
+      "scene_id": 89,
+      "prompt_id": "S89A-WAN30",
+      "canonical_block_label": "89",
+      "state": "submitted",
+      "task_id": "425108630b0e48c9a4b299fc89ad88ee",
+      "submitted_at": "2026-11-14T21:32:23Z",
+      "canonical_prompt_sha256": "357829d4234a54a5d6a4d1fa89f7095d136585eb64f037e390774fb974f1d2a0",
+      "normalized_prompt_sha256": "503380bb45912f1436ffe058ca329715997ab2843b80afd7a230eace2deab583"
+    },
     {
       "id": "S65-WAN30",
       "scene_id": 65,
