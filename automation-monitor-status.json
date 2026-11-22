@@ -225,22 +225,22 @@
     ],
     "robot_rewake": {
       "episode": "c1e99b5b",
-      "count": 4,
-      "last_at": "2026-11-22T06:30:28Z",
-      "sequence": 96,
+      "count": 5,
+      "last_at": "2026-11-22T07:30:32Z",
+      "sequence": 97,
       "first_at": "2026-11-22T02:40:35Z",
-      "last_event_id": "slots:c1e99b5b:96",
+      "last_event_id": "slots:c1e99b5b:97",
       "silence_reported": "slots:d23cf217:2"
     },
     "robot_dispatch": {
       "episode": "c1e99b5b",
-      "event_id": "slots:c1e99b5b:96",
+      "event_id": "slots:c1e99b5b:97",
       "target": "backup",
       "actor": "dot",
       "primary_actor": "grok",
       "backup_actor": "dot",
       "reason": "backup_recovery_check",
-      "attempted_at": "2026-11-22T06:30:28Z"
+      "attempted_at": "2026-11-22T07:30:32Z"
     }
   },
   "phases": {
@@ -503,6 +503,6 @@
       "3644ab40a51c428b9e733aaba2c1c24b"
     ],
     "escalation_attempted_episode": "c1e99b5b",
-    "checked_at": "2026-11-22T06:40:31Z"
+    "checked_at": "2026-11-22T07:30:32Z"
   }
 }
