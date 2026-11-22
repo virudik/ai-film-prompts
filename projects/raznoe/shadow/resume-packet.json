@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-22T11:13:39+00:00",
-  "source_head": "92d4e64a80c91b039e7818404d980de160be2dec",
-  "source_fingerprint": "2b6b02a478aeb50680a0f5b81ec6ea1df5750e1d4e828eae67efb0d1a54b8925",
+  "checked_at": "2026-11-22T11:33:29+00:00",
+  "source_head": "375ccd243a22dccdb3983e33a478b317d784ebc4",
+  "source_fingerprint": "d8fab4d8ac2c3a5241775d68e866cedbd930192247c37f1e999dddf57de75068",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -179,7 +179,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "0f25ce1f42646fb1c1968fd1659e5da44260139fe5b17df6e7c2d5e4acb915eb",
+      "sha256": "dd5dea0ef84a2dfd4a93d7306fdf73ad59da317e0575ed149b7a4242b0fc7a60",
       "bytes": 5134
     },
     {
@@ -194,8 +194,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "d181c2c4d1075e7a9b8f44f55387637d102a3f2410d2bc552d036cfe8c0d2cf3",
-      "bytes": 29588
+      "sha256": "d83c7f3716519812769cd98674d6deeaecf735440738b811bbdab734c33e812a",
+      "bytes": 29586
     },
     {
       "file": "projects/README.md",
