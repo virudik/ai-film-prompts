@@ -11,15 +11,16 @@
   "run_id": null,
   "run_id_unavailable_reason": "Runtime notification does not expose platform run_id.",
   "started_at": "2026-11-22T21:05:09.218231+00:00",
-  "updated_at": "2026-11-22T21:09:52.837Z",
-  "phase": "started",
-  "status": "started",
+  "updated_at": "2026-11-22T21:10:05.362Z",
+  "phase": "completed",
+  "status": "completed",
   "source_head": "019999ab0ca4dd03e869ca20ef310a05fc3914c4",
   "route_generation": 7,
   "execution": {
-    "state": "started",
-    "stage": "live_scan_complete_reviewing_hangar_and_noop",
-    "updated_at": "2026-11-22T21:09:52.837Z"
+    "state": "completed",
+    "stage": "all_slots_occupied_no_new_hangar_video",
+    "updated_at": "2026-11-22T21:10:05.362Z",
+    "completed_at": "2026-11-22T21:10:05.362Z"
   },
   "lease": {
     "schema_version": 1,
@@ -56,10 +57,10 @@
     "3644ab40a51c428b9e733aaba2c1c24b",
     "55dadcb20d2b48a09d1b2b6b4ba0d9ea"
   ],
-  "outcome": null,
+  "outcome": "no_update_all_slots_occupied",
   "new_submissions": 0,
   "next_action_unchanged": true,
-  "started_receipt_readback": false,
+  "started_receipt_readback": true,
   "blocker": null,
   "retryable": false,
   "owner_tasks_open_count": 0,
@@ -75,5 +76,14 @@
     "last_run_time": "2026-11-18T21:07:31.592127+00:00",
     "requires_user_action": null,
     "changed": false
+  },
+  "completed_at": "2026-11-22T21:10:05.362Z",
+  "hangar_archive": {
+    "topview_count": 27,
+    "grok_count": 29,
+    "new_copies": 0,
+    "latest_success_excluded_task_id": "3daf88bcc82b4b668a3bb4b405ed0703",
+    "latest_success_excluded_reason": "S89F dialogue, not an angar musical number",
+    "grok_full_source_catalog_checked": false
   }
 }
