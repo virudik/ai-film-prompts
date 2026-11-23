@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "grok:10e33926-07ba-44cf-abb6-c31244efdbdf",
   "task": "Grok wake #967 standing t413u (order t853u): S89H-WAN30 lease/claim/intent/verify",
   "acquired_at": "2026-11-23T12:46:48Z",
-  "expires_at": "2026-11-23T13:01:48Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-23T12:56:01Z",
   "rules": "ops/CANON-LOCK.md"
 }

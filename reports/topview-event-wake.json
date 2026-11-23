@@ -2749,11 +2749,13 @@
       "run_id_unavailable_reason": "not exposed",
       "execution_instance_id": "10e33926-07ba-44cf-abb6-c31244efdbdf",
       "route_generation": 7,
-      "outcome": "started",
-      "retryable": true,
+      "outcome": "submitted",
+      "retryable": false,
       "item_id": "S89H-WAN30",
-      "task_ids": [],
-      "new_submissions": 0,
+      "task_ids": [
+        "79090d8a644f44068751a0d33cbfeb71"
+      ],
+      "new_submissions": 1,
       "credits_spent": 0,
       "owner_command": {
         "standing_command_id": "t413u-20261109",
@@ -2768,13 +2770,18 @@
         "quote": "Хотя танцевальный номер уже смонтирован и вместо танцев давай диалоги сначала",
         "commit": "f0bf0f1ae7e90422b7b3db535095705da25b4044"
       },
-      "checked_at": "2026-11-23T12:46:48Z",
+      "checked_at": "2026-11-23T12:56:01Z",
       "execution": {
-        "state": "started",
-        "stage": "intake",
+        "state": "completed",
+        "stage": "submitted",
         "started_at": "2026-11-23T12:46:48Z",
-        "updated_at": "2026-11-23T12:46:48Z"
-      }
+        "updated_at": "2026-11-23T12:56:01Z",
+        "completed_at": "2026-11-23T12:56:01Z"
+      },
+      "receipt": "reports/topview-queue-2026-10-16/S89H-WAN30-20261123T125411Z.json",
+      "claim_id": "1df85e53-9a5d-4946-b7b2-a907d2735661",
+      "submission_intent_id": "574569c9-6b2a-4d9b-b0ad-611262cb55a5",
+      "create_click_count": 1
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",

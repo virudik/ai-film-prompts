@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "item_id": "S89H-WAN30",
+  "outcome": "submitted",
+  "task_id": "79090d8a644f44068751a0d33cbfeb71",
+  "submitted_at": "2026-11-23T12:54:11Z",
+  "create_clicked_at_approx": "2026-11-23T12:54:10Z",
+  "checked_at": "2026-11-23T12:56:01Z",
+  "create_click_count": 1,
+  "credits_spent": 0,
+  "credit_balance_before_after": [
+    11.05,
+    11.05
+  ],
+  "creditsCost": 0,
+  "useUnlimitMode": true,
+  "numeric_zero_displayed": false,
+  "ui_unlimited_label": "Безлимитный режим — бесплатно",
+  "credits_cost_evidence": "selected_free_unlimited_current_form",
+  "owner_free_label_rule": "owner t718s3708 19.11 03:30 MSK; ops/TOPVIEW-FREE-LAUNCH.md",
+  "browser": "parent-coordinated Grok computerUse helper; UI screenshot kept privately",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "model_id": "qwen-wan3.0-video",
+  "duration_seconds": 30,
+  "resolution": 720,
+  "aspect_ratio": "16:9",
+  "topview_status_at_check": "init",
+  "canonical_prompt_sha256": "f3b7711b9f8d1b29c7252a059ddc2bce5577950e00a7df9887792fa376bb066e",
+  "normalized_prompt_sha256": "812d2167ae0fa499caf93e125c4f4f47071ee511b5252b084402d95e962c5646",
+  "submitted_prompt_sha256_raw": "a360a62bbabc193b8b149d527ab375eebb6c3de5190bffbd6e23f0541245ddcf",
+  "full_prompt_match": true,
+  "prompt_match_method": "provider positivePrompt with <<<ImageN>>> chips mapped to @ImageN equals canonical block ignoring whitespace",
+  "submitted_prompt_verbatim": "Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Wan 3.0 / Seedance 2.5 | Photoreal cantina, the bartender hides the map\n\nREFERENCES / AUTHORITY ORDER:\n<<<Image1>>>  = references/scenes/scene-89/shared/jedi2-artem-scene.png — ARTEM, Jedi 2, bearded, beige tunic. He answers. Original slot Image1. Shared file.\n<<<Image2>>>  = references/scenes/scene-89/shared/jedi1-ilyusha-scene.png — ILYUSHA, Jedi 1, moustache, green tunic, dark-red cloak. Silent in the background. Original slot Image2. Shared file.\n<<<Image3>>>  = references/scenes/scene-89/89H/Image3.png — data card. LOW-RES: a 406×408 JPEG preview saved under a .png name, 16419 bytes. Shape and orange lights only, not a sharp texture.\n<<<Image4>>>  = references/full/artem.jpg — current face sheet of Artem. Identity only.\n<<<Image5>>>  = references/full/ilyusha.jpg — current face sheet of Ilyusha. Identity only.\nOrder is fixed. The 15s and 30s versions of this sub-scene use this same order and these same files.\nAttached images are the only visual authority for this generation. If a sentence conflicts with an attached image, follow the image. Do not invent extra reference slots.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\nJEDI 2 (<<<Image1>>> ): bearded man, beige and brown Jedi tunic. He stands at the bar, takes the card, and speaks the second line.\nJEDI 1 (<<<Image2>>> ): moustache, red hooded cloak as in this reference. Background only in the last beat. Older prompts sometimes dress this moustache in a green tunic; this clip's image wins.\nBARTENDER: one alien bartender, not a copy of either Jedi. No separate face sheet: keep one design for the whole shot.\nCARD (<<<Image3>>> ): one small metal card. It stays a physical object passing from the bartender's hand into Jedi 2's hand.\nOld prompts called them jedi 1 and jedi 2, not by registry names. Do not retitle them mid-shot.\n\nLIP SYNC / WHO SPEAKS:\nThe BARTENDER speaks the first line, then his mouth closes.\nARTEM speaks the second line, then his mouth closes.\nILYUSHA never speaks and keeps his mouth closed.\nNo overlap, no gibberish, no English. Clear Russian only.\n\nSTART STATE:\nA dim cantina bar. The bartender is at the far side of the counter. Jedi 2 is approaching, empty-handed. The card is not yet offered.\n\nSTORY FLOW:\n0–8s — SETUP. Wide-medium on the counter, neon haze, warm practicals. The alien bartender leans in as Jedi 2 reaches the bar. No line yet. Jedi 1 is only a shape in the room, not a second scene.\n8–16s — DEVELOPMENT. The bartender checks the room and slides the glowing card across into Jedi 2's hand. BARTENDER: «Карту надо спрятать. Она низачто не должна попасть в руки канцлеру.»\n16–24s — Jedi 2 looks down, closes his fist around the card, looks back up. JEDI 2: «Сделаю что смогу.»\n24–30s — PAYOFF. The camera drifts back. The bartender sinks into the shadow behind the taps. Jedi 1, red hood, is readable in the background and does not speak. The handoff is done; nobody adds a third line.\n\nEND STATE:\nJedi 2 has the card in his fist. The bartender has withdrawn. Jedi 1 remains in the background. The shot is still moving, not frozen on a poster.\n\nCAMERA / PERFORMANCE:\nOne unbroken cantina camera: approach, handover, reaction, a short retreat that reveals Jedi 1. Faces stay readable for the two spoken lines.\n\nAUDIO:\nNative Russian, bartender then Jedi 2 only. Bar murmur stays under them. No music, no chancellor's voice.\n\nNEGATIVE:\nno extra people, no swapped faces, no duplicated hero, no child, no subtitles, no logos, no watermark, no lightsaber ignition, no cartoon, no collage, no freeze-frame slideshow. No third spoken line, no video-input end frame, no duplicate card.\n\nFRAME FILL / NO BARS:\nFull 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.",
+  "references": [
+    {
+      "slot": "@Image1",
+      "path": "references/scenes/scene-89/shared/jedi2-artem-scene.png",
+      "sha256": "bf99a0d68b6bf1f8795dc13b4662d5ce72c61a2d4e24490bfd4ddfc8c53760e4",
+      "provider_input": "Image1"
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/scenes/scene-89/shared/jedi1-ilyusha-scene.png",
+      "sha256": "f308cb384704d43eb6f4db5bb9425d4ade6be930710e90d3fc4277d9995f07c4",
+      "provider_input": "Image2"
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/scenes/scene-89/89H/Image3.png",
+      "sha256": "110f04b05d95d236e765ae700cec0a780e6df1945bad89252ab11e06a62b8146",
+      "provider_input": "Image3"
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/full/artem.jpg",
+      "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+      "provider_input": "Image4"
+    },
+    {
+      "slot": "@Image5",
+      "path": "references/full/ilyusha.jpg",
+      "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+      "provider_input": "Image5"
+    }
+  ],
+  "reference_count": 5,
+  "reference_sha_and_order_verified": "repo SHA verified before upload; provider stores re-encoded copies, order Image1..5 matches",
+  "claim_before_submission": {
+    "claim_id": "1df85e53-9a5d-4946-b7b2-a907d2735661",
+    "intent_id": "574569c9-6b2a-4d9b-b0ad-611262cb55a5",
+    "intent_at": "2026-11-23T12:53:29Z",
+    "intent_payload_sha256": "e0e181cb9d0c9da6694662bccffbb12d646d2f32c9878237b0d32ecb063c3b66",
+    "verify_main": "7789811072db4c2b90f340d00b53fc93c844105a",
+    "lease_holder": "grok:10e33926-07ba-44cf-abb6-c31244efdbdf"
+  },
+  "trigger": "standing t413u-20261109; queue order owner t853u 2026-11-23T09:50:00Z (commit f0bf0f1ae7e90422b7b3db535095705da25b4044)",
+  "event_id": "result:55dadcb20d2b48a09d1b2b6b4ba0d9ea",
+  "issue_number": 967,
+  "evidence": {
+    "detection": "topview_list_board_tasks newest on My First Board + topview_get_board_task",
+    "credits_balance_ui": "11.05 before/after"
+  },
+  "artistic_acceptance": "pending_owner_review",
+  "retry_forbidden": true
+}
