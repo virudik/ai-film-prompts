@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "roscosmos",
   "project_name": "Роскосмос",
-  "checked_at": "2026-11-23T20:43:48+00:00",
-  "source_head": "a16be75da6e67aa2ec856179129d8c9dacf272fa",
-  "source_fingerprint": "e307f2897df42a89c91b9501229ed10dad6fa16e8f9b9ac4a1c65d52a4c8b796",
+  "checked_at": "2026-11-23T21:04:03+00:00",
+  "source_head": "9045e480ab182f3508dd04697dd0c703c0644569",
+  "source_fingerprint": "8545226970d9d0bd5f4650fd9daf82fba9eac202f27d5f7522b32cf47edb3630",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -173,7 +173,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "6518e0de9d92d04b0198f1a7d3aa62ac42b95ada2b61db8ea604d1fcba8c2420",
+      "sha256": "45fb4b85ebbad9a5b95cd85f1838695ebf3d2b9b5a031058ca22e90c54e25cca",
       "bytes": 29586
     },
     {
