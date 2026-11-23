@@ -1,5 +1,7 @@
 # Site alerts: staged acceptance, not activation
 
+Status: in force. Checked: 23.11.2026.
+
 The V2 route is disabled. This document and the manual canary do not install an automation handler, enable routing, or authorize merge.
 
 ## Before merge

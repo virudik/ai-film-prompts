@@ -1,17 +1,11 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-21T12:47:13Z",
-  "status": "warn",
-  "warnings": 1,
-  "info": 8,
+  "checked_at": "2026-11-23T06:57:32Z",
+  "status": "ok",
+  "warnings": 0,
+  "info": 5,
   "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. Устаревание по состоянию проекта, даты только сигнал. Чистку делает ChatGPT по предупреждению или в воскресенье 08:55 МСК.",
   "problems": [
-    {
-      "level": "warn",
-      "code": "handoff-now-stale",
-      "text": "Верхний блок хендофа от 18.11.2026: старше 3 дней, проверить, что «Сейчас» ещё правда.",
-      "file": "NEW-CHAT-HANDOFF.md"
-    },
     {
       "level": "info",
       "code": "instruction-size",
@@ -41,24 +35,6 @@
       "code": "ops-stale",
       "text": "ops/FAMILY-SITES.md: проверялся 03.11.2026, больше 14 дней назад.",
       "file": "ops/FAMILY-SITES.md"
-    },
-    {
-      "level": "info",
-      "code": "ops-unchecked",
-      "text": "ops/LAUNCHER-ENTRY.md: в шапке нет строки «Статус: … Проверено: дд.мм.гггг». Нужен — проверить и поставить дату, не нужен — в archive/ops/.",
-      "file": "ops/LAUNCHER-ENTRY.md"
-    },
-    {
-      "level": "info",
-      "code": "ops-unchecked",
-      "text": "ops/LAUNCHER-RECEIPT-PROVENANCE.md: в шапке нет строки «Статус: … Проверено: дд.мм.гггг». Нужен — проверить и поставить дату, не нужен — в archive/ops/.",
-      "file": "ops/LAUNCHER-RECEIPT-PROVENANCE.md"
-    },
-    {
-      "level": "info",
-      "code": "ops-unchecked",
-      "text": "ops/SITE-ALERT-ACCEPTANCE.md: в шапке нет строки «Статус: … Проверено: дд.мм.гггг». Нужен — проверить и поставить дату, не нужен — в archive/ops/.",
-      "file": "ops/SITE-ALERT-ACCEPTANCE.md"
     }
   ]
 }
