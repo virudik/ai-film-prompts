@@ -3110,102 +3110,6 @@
       "max_credits": 0
     },
     {
-      "id": "S89B-WAN30",
-      "scene_id": 89,
-      "part": "89B",
-      "prompt_id": "S89B-WAN30",
-      "canonical_block_label": "89B · Wan 3.0",
-      "canonical_prompt_sha256": "981b37483976d06bceefbfc1a48b404dd354352d2a98b3436337190eb6792998",
-      "normalized_prompt_sha256": "819be4464fa3119384833cd5e8ef675186deb8a9b1b7b0952755b2ddf063ef20",
-      "priority": 0.302,
-      "state": "submitted",
-      "launch_readiness": "authorized_inputs_available",
-      "model": "Wan 3.0",
-      "model_id": "qwen-wan3.0-video",
-      "duration_seconds": 30,
-      "actual_resolution": 720,
-      "prompt_text_resolution": 720,
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "omni_reference",
-      "max_new_submissions": 1,
-      "max_credits": 0,
-      "credits_cost": 0,
-      "unlimited_mode_required": true,
-      "paid_fallback_forbidden": true,
-      "automatic_retry": false,
-      "depends_on_submitted": [],
-      "depends_on_completed": [],
-      "references": [
-        {
-          "slot": "@Image1",
-          "path": "references/scenes/scene-13/S13-Image1-topview-source.png",
-          "required": true,
-          "input_status": "available",
-          "sha256": "7604d92708048afbb6bcfbdd23edb555ccc52cf7492f4be62085a394f36e0cda",
-          "provenance_substitute": "scene-13 task 73cf9e84",
-          "note": "Scene-13 provenance substitute for 6d69acda/88140b94. Same s3 path; local PNG may differ from the original JPEG on Image1."
-        },
-        {
-          "slot": "@Image2",
-          "path": "references/scenes/scene-13/S13-Image2-topview-source.png",
-          "required": true,
-          "input_status": "available",
-          "sha256": "e9b5613886641887dd222097eb32d0a702e5f46aa10fa4a69ebc66e37c257b97",
-          "provenance_substitute": "scene-13 task 73cf9e84",
-          "note": "Scene-13 provenance substitute for 6d69acda/88140b94. Same s3 path; local PNG may differ from the original JPEG on Image1."
-        },
-        {
-          "slot": "@Image3",
-          "path": "references/scenes/scene-13/S13-Image3-topview-source.png",
-          "required": true,
-          "input_status": "available",
-          "sha256": "b98957a9bf41db22403cbdcc6b8a6bc61537055e869a6a75576e416e4810635e",
-          "provenance_substitute": "scene-13 task 73cf9e84",
-          "note": "Scene-13 provenance substitute for 6d69acda/88140b94. Same s3 path; local PNG may differ from the original JPEG on Image1."
-        },
-        {
-          "slot": "@Image4",
-          "path": "references/full/vitalik.jpg",
-          "required": true,
-          "input_status": "available",
-          "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d"
-        },
-        {
-          "slot": "@Image5",
-          "path": "references/full/lesha.jpg",
-          "required": true,
-          "input_status": "available",
-          "sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9"
-        }
-      ],
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "board_name": "My First Board",
-      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry: automatic_retry is false and retry_control is omitted, because Grok prepare_intent treats any retry_control as a retry Create and would reject the first Unlimited Create. Not a paid 12-credit Wan path.",
-      "owner_source": "t593u",
-      "story_not_music": true,
-      "created_at": "2026-11-12T13:14:25Z",
-      "task_id": "90db5dd309db477eb346e8d82676f7b5",
-      "claim": null,
-      "submitted_at": "2026-11-15T15:11:23Z",
-      "submitted_at_local": "2026-11-15T18:11:23 Europe/Moscow",
-      "create_clicked_at": "2026-11-15T15:11:12Z",
-      "create_clicked_at_local": "2026-11-15T18:11:12 Europe/Moscow",
-      "topview_status": "init",
-      "create_click_count": 1,
-      "max_new_submissions_consumed": 1,
-      "creditsCost": 0,
-      "credits_balance_before": 11.05,
-      "credits_balance_after": 11.05,
-      "receipt": "reports/topview-queue-2026-10-16/S89B-WAN30-20261115T151123Z.json",
-      "slot_event": {
-        "issue_number": 703
-      },
-      "replay_forbidden": true,
-      "no_second_create": true,
-      "normalized_prompt_match": true
-    },
-    {
       "id": "S89C-WAN30",
       "scene_id": 89,
       "part": "89C",
@@ -5148,6 +5052,17 @@
     "recorded_by": "claude:chatgpt-review"
   },
   "archived_items": [
+    {
+      "id": "S89B-WAN30",
+      "scene_id": 89,
+      "prompt_id": "S89B-WAN30",
+      "canonical_block_label": "89B · Wan 3.0",
+      "state": "submitted",
+      "task_id": "90db5dd309db477eb346e8d82676f7b5",
+      "submitted_at": "2026-11-15T15:11:23Z",
+      "canonical_prompt_sha256": "981b37483976d06bceefbfc1a48b404dd354352d2a98b3436337190eb6792998",
+      "normalized_prompt_sha256": "819be4464fa3119384833cd5e8ef675186deb8a9b1b7b0952755b2ddf063ef20"
+    },
     {
       "id": "S89A-WAN30",
       "scene_id": 89,
