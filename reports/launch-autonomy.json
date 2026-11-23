@@ -1,52 +1,16 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-11-22T13:31:17Z",
+  "checked_at": "2026-11-23T16:20:03Z",
   "window_hours": 24,
   "verdict": "historical_free_slots_unverified",
   "launches": [
     {
-      "item": "S28-A6-20261023",
-      "scene_id": 28,
-      "task_id": "2891ed5c97be4438ac3a23f9b19ea193",
-      "claimed_at": "2026-11-21T20:17:48Z",
-      "submitted_at": "2026-11-21T20:20:13Z",
-      "observed_at": "2026-11-21T20:20:13Z",
-      "time_basis": "submitted_at",
-      "run_id": null,
-      "source": "unknown",
-      "source_evidence": "missing_or_unbound_trigger_evidence"
-    },
-    {
-      "item": "S28-A7-20261023",
-      "scene_id": 28,
-      "task_id": "d6fb29ca214e42ec9b8c950657b26832",
-      "claimed_at": "2026-11-21T20:27:54Z",
-      "submitted_at": "2026-11-21T20:34:17Z",
-      "observed_at": "2026-11-21T20:34:17Z",
-      "time_basis": "submitted_at",
-      "run_id": null,
-      "source": "unknown",
-      "source_evidence": "missing_or_unbound_trigger_evidence"
-    },
-    {
-      "item": "S28-A8-20261023",
-      "scene_id": 28,
-      "task_id": "a841c617d6ee4590adde0f8377ed43b9",
-      "claimed_at": "2026-11-22T10:35:14Z",
-      "submitted_at": "2026-11-22T10:37:37Z",
-      "observed_at": "2026-11-22T10:37:37Z",
-      "time_basis": "submitted_at",
-      "run_id": null,
-      "source": "unknown",
-      "source_evidence": "missing_or_unbound_trigger_evidence"
-    },
-    {
-      "item": "S28-A9-20261023",
-      "scene_id": 28,
-      "task_id": "17c2f95f1f9349dabfe9a2e75fd9a18c",
-      "claimed_at": "2026-11-22T12:57:42Z",
-      "submitted_at": "2026-11-22T12:59:58Z",
-      "observed_at": "2026-11-22T12:59:58Z",
+      "item": "S89H-WAN30",
+      "scene_id": 89,
+      "task_id": "79090d8a644f44068751a0d33cbfeb71",
+      "claimed_at": "2026-11-23T12:48:50Z",
+      "submitted_at": "2026-11-23T12:54:11Z",
+      "observed_at": "2026-11-23T12:54:11Z",
       "time_basis": "submitted_at",
       "run_id": null,
       "source": "unknown",
@@ -57,121 +21,31 @@
   "launches_by_chat": 0,
   "launches_by_webhook": 0,
   "launches_by_manual_run_now": 0,
-  "launches_unknown_source": 4,
+  "launches_unknown_source": 1,
   "historical_opportunity_verified": false,
   "historical_opportunity_note": "Past free-slot observations are not joined to historical queue readiness, authorization or leases; no idle-launch incident inferred from them.",
   "free_slot_observations": [
     {
-      "at": "2026-11-22T12:30:33Z",
-      "occupied": 5,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-22T09:50:33Z",
-      "occupied": 5,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-22T09:00:36Z",
-      "occupied": 5,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-22T08:00:40Z",
-      "occupied": 5,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-22T07:10:36Z",
-      "occupied": 5,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-22T06:20:33Z",
-      "occupied": 5,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-22T05:20:43Z",
-      "occupied": 5,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-22T04:30:35Z",
-      "occupied": 5,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-22T03:30:38Z",
-      "occupied": 5,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-22T02:40:36Z",
-      "occupied": 5,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-21T20:20:39Z",
-      "occupied": 5,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-21T19:30:35Z",
-      "occupied": 4,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-21T18:40:45Z",
-      "occupied": 4,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-21T17:50:33Z",
-      "occupied": 4,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-21T17:00:34Z",
-      "occupied": 4,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-21T16:40:51Z",
-      "occupied": 5,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-21T15:51:13Z",
-      "occupied": 5,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-21T15:00:32Z",
-      "occupied": 5,
-      "capacity": 6
-    },
-    {
-      "at": "2026-11-21T14:00:37Z",
+      "at": "2026-11-23T12:40:43Z",
       "occupied": 5,
       "capacity": 6
     }
   ],
-  "ready_items_waiting": 9,
+  "ready_items_waiting": 8,
   "launcher_health": {
     "state": "capacity_full",
     "unresolved": false,
-    "episode": "13208a56",
+    "episode": "65df531b",
     "unresolved_since": null,
     "reason": "no_free_global_slot; launcher_health_not_proven",
     "free_slots_global": 0,
     "actionable_items": [
       "S49B",
+      "S28-A3-20261023",
       "S28-A10-20261023",
       "S28-A11-20261023",
       "S62-SEED20-P1-R2-20261108",
       "S28-A13-20261030",
-      "S89H-WAN30",
       "S89I-WAN30",
       "S89J-WAN30",
       "S49A-WAN30-20261118"
@@ -182,19 +56,21 @@
       "S89F-WAN30",
       "S89F-WAN30-R2"
     ],
-    "last_event_id": "slots:94eb03c2:100",
-    "receipt_present": false,
-    "handler_outcome": null,
-    "execution_stage": null,
-    "execution_updated_at": null,
+    "last_event_id": "result:55dadcb20d2b48a09d1b2b6b4ba0d9ea",
+    "receipt_present": true,
+    "handler_outcome": "submitted",
+    "execution_stage": "submitted",
+    "execution_updated_at": "2026-11-23T12:56:01Z",
     "runtime_run_id": null,
-    "confirmed_launch_task_ids": [],
-    "last_confirmed_event_id": "result:9d4b3b177e6d452abe499537a05f454c",
-    "last_confirmed_launch_task_ids": [
-      "3644ab40a51c428b9e733aaba2c1c24b"
+    "confirmed_launch_task_ids": [
+      "79090d8a644f44068751a0d33cbfeb71"
     ],
-    "escalation_attempted_episode": "94eb03c2",
-    "checked_at": "2026-11-22T13:10:32Z"
+    "last_confirmed_event_id": "result:55dadcb20d2b48a09d1b2b6b4ba0d9ea",
+    "last_confirmed_launch_task_ids": [
+      "79090d8a644f44068751a0d33cbfeb71"
+    ],
+    "escalation_attempted_episode": null,
+    "checked_at": "2026-11-23T15:50:35Z"
   },
   "launcher_observation_stale": false,
   "note": "Source requires a task/execution-bound trigger receipt; legacy prefixes retained as labelled evidence. Missing runtime ID never implies chat."
