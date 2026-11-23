@@ -1483,6 +1483,51 @@
         }
       },
       "note": "Bounded wake batch: one distinct Create per ready item, at most account slot capacity, before each click. Failed, unknown, expiry and substantive refusal never reopen that item or raise the cap."
+    },
+    "1b29aafdc397c8d5a5b9b806165bc84bd73ac61c7b17e90ef9df514ee549c3be": {
+      "surface": "grok",
+      "provider_run_id": null,
+      "host_run": {
+        "namespace": "cursor_host",
+        "observation_source": "parent_shell_os_environ",
+        "field": "CURSOR_REQUEST_ID",
+        "value": "84288e64-2989-4b6f-aca5-3822bcf340e9",
+        "conversation_field": "CURSOR_CONVERSATION_ID",
+        "conversation_id": "1c1bf697-3c93-4068-b457-e90efdd5ef8f",
+        "standing_command_id": "t413u-20261109"
+      },
+      "automation_id": null,
+      "execution_instance_id": "10e33926-07ba-44cf-abb6-c31244efdbdf",
+      "item_id": "S89H-WAN30",
+      "submission_intent_id": "574569c9-6b2a-4d9b-b0ad-611262cb55a5",
+      "intent_at": "2026-11-23T12:53:29Z",
+      "consumed": true,
+      "submission_cap": 6,
+      "submissions": [
+        {
+          "item_id": "S89H-WAN30",
+          "submission_intent_id": "574569c9-6b2a-4d9b-b0ad-611262cb55a5",
+          "intent_at": "2026-11-23T12:53:29Z",
+          "execution_instance_id": "10e33926-07ba-44cf-abb6-c31244efdbdf",
+          "consumed": true
+        }
+      ],
+      "event_keys": [
+        "ac8f361ff2399fafac7d216c7ec6020adadc2237e84d7af08bfe887b2c29367a"
+      ],
+      "owner_event": {
+        "source": "cursor_host",
+        "host_run": {
+          "namespace": "cursor_host",
+          "observation_source": "parent_shell_os_environ",
+          "field": "CURSOR_REQUEST_ID",
+          "value": "84288e64-2989-4b6f-aca5-3822bcf340e9",
+          "conversation_field": "CURSOR_CONVERSATION_ID",
+          "conversation_id": "1c1bf697-3c93-4068-b457-e90efdd5ef8f",
+          "standing_command_id": "t413u-20261109"
+        }
+      },
+      "note": "Bounded wake batch: one distinct Create per ready item, at most account slot capacity, before each click. Failed, unknown, expiry and substantive refusal never reopen that item or raise the cap."
     }
   },
   "events": {
@@ -1512,6 +1557,7 @@
     "64ce800988fb3f0ae12ac0f0910eea2b82392586d83a983b616a6d9d3e2e77af": "9b8aea63579d998981fd8be5d1e0f2477eb5784bb2f7c8648587e1a5949150e7",
     "03293f3018c60161ea0d079000a330b9b5df20cac4a41fdb6c078ef1d1585c3f": "ac9c354fec9781b51a17173bc625f1acda635cf6dda14ace806638798a2b782b",
     "d7daf0158c2ed7e236f032ab02ffb7c69149ae98e0345704a5c2dfd8eae0e1b2": "83037b751bf85905a2ecfc8d52b026faba0d2d5616d9c6221340da21966db0f4",
-    "204399893302c20c99cbab18f8fdc6b04aadf9ed99b74669d52d6591a1336f4b": "108d9f21f997fe8ecb1707568a47126891f24f1bf96c599a7983d899ceb6c80d"
+    "204399893302c20c99cbab18f8fdc6b04aadf9ed99b74669d52d6591a1336f4b": "108d9f21f997fe8ecb1707568a47126891f24f1bf96c599a7983d899ceb6c80d",
+    "ac8f361ff2399fafac7d216c7ec6020adadc2237e84d7af08bfe887b2c29367a": "1b29aafdc397c8d5a5b9b806165bc84bd73ac61c7b17e90ef9df514ee549c3be"
   }
 }

@@ -4019,7 +4019,7 @@
       "canonical_prompt_sha256": "f3b7711b9f8d1b29c7252a059ddc2bce5577950e00a7df9887792fa376bb066e",
       "normalized_prompt_sha256": "812d2167ae0fa499caf93e125c4f4f47071ee511b5252b084402d95e962c5646",
       "priority": 0.321,
-      "state": "claimed",
+      "state": "submitting",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "model_id": "qwen-wan3.0-video",
@@ -4142,7 +4142,33 @@
             "prompt_dom_check": "sha256 f3b7711b9f8d1b29c7252a059ddc2bce5577950e00a7df9887792fa376bb066e == prompt.txt (match)"
           }
         },
-        "coordination_version": 2
+        "coordination_version": 2,
+        "submission_intent_id": "574569c9-6b2a-4d9b-b0ad-611262cb55a5",
+        "submission_intent_at": "2026-11-23T12:53:29Z",
+        "replay_forbidden": true,
+        "host_run": {
+          "namespace": "cursor_host",
+          "observation_source": "parent_shell_os_environ",
+          "field": "CURSOR_REQUEST_ID",
+          "value": "84288e64-2989-4b6f-aca5-3822bcf340e9",
+          "conversation_field": "CURSOR_CONVERSATION_ID",
+          "conversation_id": "1c1bf697-3c93-4068-b457-e90efdd5ef8f",
+          "standing_command_id": "t413u-20261109"
+        },
+        "provider_run_key": "1b29aafdc397c8d5a5b9b806165bc84bd73ac61c7b17e90ef9df514ee549c3be",
+        "owner_event_keys": [
+          "ac8f361ff2399fafac7d216c7ec6020adadc2237e84d7af08bfe887b2c29367a"
+        ],
+        "ledger_path": "ops/launcher-run-ledger.json",
+        "trigger": "owner_command",
+        "owner_command": {
+          "quote": "Говорю запускай значит запускай. Зачем спрашивать по 10 раз если есть уже согласованная очередь запуска",
+          "source": "cursor_host",
+          "at": "2026-11-09T08:25:00Z",
+          "standing_command_id": "t413u-20261109",
+          "standing_host_address": "t413u"
+        },
+        "intent_payload_sha256": "e0e181cb9d0c9da6694662bccffbb12d646d2f32c9878237b0d32ecb063c3b66"
       }
     },
     {
