@@ -6593,14 +6593,14 @@
       "S28-A7-20261023",
       "S28-A8-20261023",
       "S28-A9-20261023",
+      "S89H-WAN30",
+      "S89I-WAN30",
+      "S89J-WAN30",
       "S28-A13-20261030",
       "S28-A10-20261023",
       "S28-A11-20261023",
       "S28-A3-20261023",
-      "S28-A12-20261023",
-      "S89H-WAN30",
-      "S89I-WAN30",
-      "S89J-WAN30"
+      "S28-A12-20261023"
     ],
     "scene_28_consent": "owner_music_consent on the listed S28 items only; also t576u/t578u. Not after_all_story. Does not consent 49/50/51, parodies, S13 or S62.",
     "a1_a2": "The waiting takes are S28-A1-R2-20261025 and S28-A2-R2-20261025. Already submitted A1/A2 stays in history.",
@@ -6650,6 +6650,13 @@
       "who": "owner t719u",
       "quote": "Да. все сцены запускай самостоятельно. по каждой моего да не жди",
       "effect": "S89D-WAN30-R3 and S89F-WAN30-R3 placed immediately after their preserved R2 items (same precedent as R2); relative order otherwise unchanged"
+    },
+    "owner_update_20261123_t853u": {
+      "at_local": "2026-11-23T12:50 Europe/Moscow",
+      "who": "owner t853u",
+      "source": "owner_instruction t853u",
+      "quote": "Хотя танцевальный номер уже смонтирован и вместо танцев давай диалоги сначала",
+      "effect": "S89H-WAN30, S89I-WAN30 and S89J-WAN30 placed before remaining scene 28 dances (A13, A10, A11, A3, A12); already submitted scene 28 items and their consents unchanged"
     }
   }
 }

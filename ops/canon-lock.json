@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "grok:49901d5b-2350-4417-ba01-a0e41f0f964d",
   "task": "Grok t853u: place S89H–S89J before remaining scene 28 dances in t601u order (no Create)",
   "acquired_at": "2026-11-23T09:54:04Z",
-  "expires_at": "2026-11-23T10:09:04Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-23T09:54:31Z",
   "rules": "ops/CANON-LOCK.md"
 }
