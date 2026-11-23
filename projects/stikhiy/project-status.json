@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/projects/stikhiy/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-23T07:02:35Z",
+  "synced_at": "2026-11-23T10:12:33Z",
   "revision_date": "20.11.2026",
   "master_declared_last_full_sync": "19.11.2026 · самостоятельный проект «Стахий»; одна сцена, 25 DRAFT-промтов, 31 рабочий референс, из них 11 листов V2 с ракурсами головы. Запуск не разрешён.",
   "canonical_master_sha256": "f3972a1fd89106e603c91d39c6ea10c91dcbfc2959c61988f9eeeb07162facd3",
@@ -22,21 +22,21 @@
   "reserved_scene_ids": [],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-11-22T11:27:01.385Z",
+    "snapshot_at": "2026-11-23T06:57:32.878Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 19.593,
+    "age_hours_at_status_build": 3.25,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
         "drive_copy_sha256": "cc5619eff4d22e81c4ff7ad83946aaa0d42f2b2b1fc4a56b36b185c92c28c987",
         "drive_copy_checked_at": "2026-11-22T11:27:01.385Z",
         "drive_copy_modified_at": "2026-11-19T11:41:41.871Z",
-        "github_blob": "efd718b02dd5c1220da6e9b082bf2448e9e9fbdc",
-        "mirror_sha256": "cc5619eff4d22e81c4ff7ad83946aaa0d42f2b2b1fc4a56b36b185c92c28c987",
+        "github_blob": "49d991c6e31e41a0ebe6049749cbd479749e7195",
+        "mirror_sha256": "200c4d9cc2af089b0fe61a5a06584ae82175c8969599dc4081b69c5eb4fe4163",
         "match": true,
-        "drive_copy_match": true
+        "drive_copy_match": false
       },
       "SYNC-RUNBOOK.md": {
         "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
@@ -104,7 +104,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 19.593,
+      "age_hours": 3.25,
       "blocking": false
     },
     "topview_task_map": {
@@ -138,7 +138,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "20.11.2026",
-    "synced_at": "2026-11-23T07:02:35Z",
+    "synced_at": "2026-11-23T10:12:33Z",
     "canonical_master_sha256": "f3972a1fd89106e603c91d39c6ea10c91dcbfc2959c61988f9eeeb07162facd3",
     "canonical_revision_sha256": "42d11faafd78ef41828ef8067178a4e18871e6259d4aef13b36f20bdfc0fcae8",
     "scene_count": 1,
