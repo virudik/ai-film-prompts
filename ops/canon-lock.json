@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:49901d5b-2350-4417-ba01-a0e41f0f964d",
-  "task": "Grok t853u: place S89H–S89J before remaining scene 28 dances in t601u order (no Create)",
-  "acquired_at": "2026-11-23T09:54:04Z",
-  "expires_at": null,
-  "released_at": "2026-11-23T09:54:31Z",
+  "state": "held",
+  "holder": "grok:10e33926-07ba-44cf-abb6-c31244efdbdf",
+  "task": "Grok wake #967 standing t413u (order t853u): S89H-WAN30 lease/claim/intent/verify",
+  "acquired_at": "2026-11-23T12:46:48Z",
+  "expires_at": "2026-11-23T13:01:48Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }

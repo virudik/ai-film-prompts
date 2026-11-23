@@ -2738,6 +2738,43 @@
       "claim_id": "4fc5bbb0-dc0e-4f9a-8726-859baac44a35",
       "submission_intent_id": "01a91d88-afec-44b8-af6c-2aa62cf21e3d",
       "create_click_count": 1
+    },
+    {
+      "event_id": "result:55dadcb20d2b48a09d1b2b6b4ba0d9ea",
+      "issue_number": 967,
+      "actor": "grok",
+      "source": "grok issue-assigned wake #967 (primary) + standing owner command t413u; order t853u 2026-11-23T09:50:00Z",
+      "runner": "grok_executor",
+      "run_id": null,
+      "run_id_unavailable_reason": "not exposed",
+      "execution_instance_id": "10e33926-07ba-44cf-abb6-c31244efdbdf",
+      "route_generation": 7,
+      "outcome": "started",
+      "retryable": true,
+      "item_id": "S89H-WAN30",
+      "task_ids": [],
+      "new_submissions": 0,
+      "credits_spent": 0,
+      "owner_command": {
+        "standing_command_id": "t413u-20261109",
+        "at": "2026-11-09T08:25:00Z",
+        "quote": "Говорю запускай значит запускай. Зачем спрашивать по 10 раз если есть уже согласованная очередь запуска",
+        "scope": "story next in queue (S89H first after t853u)"
+      },
+      "order_basis": {
+        "source": "owner_instruction t853u",
+        "at": "2026-11-23T09:50:00Z",
+        "at_local": "2026-11-23T12:50 Europe/Moscow",
+        "quote": "Хотя танцевальный номер уже смонтирован и вместо танцев давай диалоги сначала",
+        "commit": "f0bf0f1ae7e90422b7b3db535095705da25b4044"
+      },
+      "checked_at": "2026-11-23T12:46:48Z",
+      "execution": {
+        "state": "started",
+        "stage": "intake",
+        "started_at": "2026-11-23T12:46:48Z",
+        "updated_at": "2026-11-23T12:46:48Z"
+      }
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
