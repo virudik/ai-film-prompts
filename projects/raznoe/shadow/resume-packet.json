@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-23T07:03:45+00:00",
-  "source_head": "957556edea97252834d8840d81b13e3195e7f09f",
-  "source_fingerprint": "fbb3bd87e26ca8fca1bc3ccdee54867ac06a22db026339e928145df327ae4ec9",
+  "checked_at": "2026-11-23T07:10:43+00:00",
+  "source_head": "c47671986c9193e5c5f8eda6d5bd1a8a4d764ae4",
+  "source_fingerprint": "055b5fe8a7476198e38966ee50413442061803417421b07d3c9a78c86ebcd87e",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -154,8 +154,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "cc5619eff4d22e81c4ff7ad83946aaa0d42f2b2b1fc4a56b36b185c92c28c987",
-      "bytes": 34851
+      "sha256": "200c4d9cc2af089b0fe61a5a06584ae82175c8969599dc4081b69c5eb4fe4163",
+      "bytes": 33616
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -179,8 +179,8 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "dd5dea0ef84a2dfd4a93d7306fdf73ad59da317e0575ed149b7a4242b0fc7a60",
-      "bytes": 5134
+      "sha256": "d23ac2dcd9c7304c7fafb334f26703e3fc08288195296598c81356b7df773020",
+      "bytes": 5135
     },
     {
       "file": "monitor-role.json",
@@ -249,12 +249,12 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "85bb66ca2ef25d3d794914b47b61b266f199fb18566baff5b58c8795f96673a9",
-      "bytes": 34652
+      "sha256": "55b21912655d31ea5cb75fa1c2deee6dcef5ef8af4385b4f88f60f9c5492cc8a",
+      "bytes": 33417
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "781e08ed18b86ff296b5d6c50197035e448836630d88cfd5bfb85c1b8960a136",
+      "sha256": "c378f01e91c6c148fd2ee3e81226025023939dddcdf91bcfca513ddf7f77e8a6",
       "bytes": 32409
     },
     {
