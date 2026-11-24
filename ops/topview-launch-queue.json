@@ -4094,7 +4094,7 @@
       "canonical_prompt_sha256": "969bea0573a4aaaf0ba1f596a4ae4e8f069464efbf1febc14754bb8f60168f44",
       "normalized_prompt_sha256": "88f3a4946da0df98c980f3f2a8413f12075e3a18f99e35f9854cd80d5ab54b45",
       "priority": 0.322,
-      "state": "claimed",
+      "state": "submitting",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "model_id": "qwen-wan3.0-video",
@@ -4203,7 +4203,33 @@
             "prompt_dom_check": "4 чипа @Image1..4 на 1-jedi1-ilyusha-scene.png, 2-jedi2-artem-scene.png, 3-ilyusha.jpg, 4-artem.jpg; readback /workspace/topview-s89i/form-readback.txt matches prompt.txt sha256 969bea05…8f44"
           }
         },
-        "coordination_version": 2
+        "coordination_version": 2,
+        "submission_intent_id": "0724cbb6-7eda-4449-b29f-439528b35e19",
+        "submission_intent_at": "2026-11-24T13:05:24Z",
+        "replay_forbidden": true,
+        "host_run": {
+          "namespace": "cursor_host",
+          "observation_source": "parent_shell_os_environ",
+          "field": "CURSOR_REQUEST_ID",
+          "value": "a03a658e-ca77-43d2-a728-4ab258b40f86",
+          "conversation_field": "CURSOR_CONVERSATION_ID",
+          "conversation_id": "1c1bf697-3c93-4068-b457-e90efdd5ef8f",
+          "standing_command_id": "t413u-20261109"
+        },
+        "provider_run_key": "f48717d08047d05f6f9f94df1015d4664c70b793fd38ea2f96eda8c18e75d392",
+        "owner_event_keys": [
+          "9a36affce3b1c8993e4d5b397ad61b9e586eb5f5350c9eabb681644d9476b53d"
+        ],
+        "ledger_path": "ops/launcher-run-ledger.json",
+        "trigger": "owner_command",
+        "owner_command": {
+          "quote": "Говорю запускай значит запускай. Зачем спрашивать по 10 раз если есть уже согласованная очередь запуска",
+          "source": "cursor_host",
+          "at": "2026-11-09T08:25:00Z",
+          "standing_command_id": "t413u-20261109",
+          "standing_host_address": "t413u"
+        },
+        "intent_payload_sha256": "bc90385c7d89182fe40dfaf11702fb6960203278c5a69d89beb4e03a3cb92dde"
       }
     },
     {
