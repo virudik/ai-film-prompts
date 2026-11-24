@@ -11,9 +11,9 @@
   "run_id": null,
   "run_id_unavailable_reason": "Runtime notification does not expose platform run_id.",
   "started_at": "2026-11-24T11:00:53Z",
-  "updated_at": "2026-11-24T11:01:59.825Z",
-  "phase": "started",
-  "status": "started",
+  "updated_at": "2026-11-24T11:02:13.301Z",
+  "phase": "completed",
+  "status": "completed",
   "source_head": "17b853f057dc69870f354092d5f11877680b64c5",
   "route_generation": 7,
   "lease": {
@@ -54,9 +54,10 @@
   "new_submissions": 0,
   "browser_not_used_reason": "Complete live read-only connector scan confirmed six occupied physical slots; UI changes were not needed.",
   "execution": {
-    "state": "started",
-    "stage": "confirmed_full_capacity_and_archive_scan",
-    "updated_at": "2026-11-24T11:01:59.825Z"
+    "state": "completed",
+    "stage": "all_slots_occupied_no_new_hangar_video",
+    "updated_at": "2026-11-24T11:02:13.301Z",
+    "completed_at": "2026-11-24T11:02:13.301Z"
   },
   "owner_tasks_open_count": 0,
   "work_backup": {
@@ -70,5 +71,11 @@
     "new_copies": 0,
     "latest_verified_existing_task_id": "55dadcb20d2b48a09d1b2b6b4ba0d9ea",
     "grok_full_source_catalog_checked": false
-  }
+  },
+  "completed_at": "2026-11-24T11:02:13.301Z",
+  "outcome": "no_update_all_slots_occupied",
+  "next_action_unchanged": true,
+  "started_receipt_readback": true,
+  "blocker": null,
+  "retryable": false
 }
