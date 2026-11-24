@@ -485,7 +485,6 @@
       "S28-A11-20261023",
       "S62-SEED20-P1-R2-20261108",
       "S28-A13-20261030",
-      "S89I-WAN30",
       "S89J-WAN30",
       "S49A-WAN30-20261118"
     ],
@@ -493,6 +492,7 @@
       "S28-A5-20261023",
       "S89D-WAN30-R2",
       "S89F-WAN30",
+      "S89I-WAN30",
       "S89F-WAN30-R2"
     ],
     "last_event_id": "result:3644ab40a51c428b9e733aaba2c1c24b",
@@ -507,6 +507,6 @@
       "79090d8a644f44068751a0d33cbfeb71"
     ],
     "escalation_attempted_episode": null,
-    "checked_at": "2026-11-24T13:03:12Z"
+    "checked_at": "2026-11-24T13:04:39Z"
   }
 }
