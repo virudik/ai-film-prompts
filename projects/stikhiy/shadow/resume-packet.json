@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "stikhiy",
   "project_name": "Стахий",
-  "checked_at": "2026-11-24T12:55:21+00:00",
-  "source_head": "646802a677fe406487af19533745d2de2fed02f6",
-  "source_fingerprint": "85f20ebe280453e489e923bbd316becc01c35e5f2519bde8f267236f870a92e1",
+  "checked_at": "2026-11-24T13:10:49+00:00",
+  "source_head": "0d99725c74b4997044529c826c7cc0ffaf25cd97",
+  "source_fingerprint": "ef66e8a9c3cecf8691f16089afc99f0a1f0cc2933b9a522e0bbe77acaa2cec5b",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -173,7 +173,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "8ce474552d02153394b2b8949fc9baf1916e64742386de12b6182f3ce82e608f",
+      "sha256": "e1a425c2d1c661b05db450fb06b3fbaa288c6f5f4ae05e1bb7813a4fd73d0aeb",
       "bytes": 29588
     },
     {
@@ -228,13 +228,13 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "ade3b7262570e6f9e5f0bd37e46d757514c9f9a3299e0e4ad33f70cd167221cf",
+      "sha256": "a9c54a4cf2c88b66b4193f040b434803d51a408371d5ad6ec6af85f4e4b60f93",
       "bytes": 32409
     },
     {
       "file": "video-prompts.md",
-      "sha256": "8f072e76d68065e3afff2df9951c2abb729e9e7414a5e386341ac292400da1c1",
-      "bytes": 2003695
+      "sha256": "e314a9f5b5622e1fb5b0d7b465bb0d9531ca866744bda52f56021c271a19b009",
+      "bytes": 2003950
     }
   ],
   "packet_bytes": 5379
