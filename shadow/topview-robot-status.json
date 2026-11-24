@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-24T13:10:35Z",
+  "checked_at": "2026-11-24T13:20:29Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -67,8 +67,8 @@
       "model": "Seedance 2.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 4545,
-      "wait_seconds": 214352,
+      "queue_count": 4526,
+      "wait_seconds": 213757,
       "process_seconds": null
     },
     {
@@ -80,8 +80,8 @@
       "model": "Seedance 2.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 2368,
-      "wait_seconds": 84751,
+      "queue_count": 2350,
+      "wait_seconds": 84157,
       "process_seconds": null
     },
     {
@@ -91,10 +91,10 @@
       "unlimited": true,
       "created_at": "2026-11-24 13:06:28",
       "model": "Wan 3.0",
-      "scene_id": null,
-      "mapping": "unknown_new",
-      "queue_count": 5123,
-      "wait_seconds": 248911,
+      "scene_id": 89,
+      "mapping": "task_map",
+      "queue_count": 5104,
+      "wait_seconds": 248317,
       "process_seconds": null
     },
     {
@@ -106,8 +106,8 @@
       "model": "Wan 3.0",
       "scene_id": 89,
       "mapping": "task_map",
-      "queue_count": 4834,
-      "wait_seconds": 231632,
+      "queue_count": 4814,
+      "wait_seconds": 231036,
       "process_seconds": null
     },
     {
@@ -119,8 +119,8 @@
       "model": "Seedance 2.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 3824,
-      "wait_seconds": 171151,
+      "queue_count": 3804,
+      "wait_seconds": 170556,
       "process_seconds": null
     },
     {
@@ -132,22 +132,12 @@
       "model": "Seedance 2.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 3103,
-      "wait_seconds": 127951,
+      "queue_count": 3083,
+      "wait_seconds": 127356,
       "process_seconds": null
     }
   ],
-  "unknown_new": [
-    {
-      "task_id": "66dc44271e6f4336ad801102ca860e68",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "created_at": "2026-11-24 13:06:28",
-      "model": "Wan 3.0",
-      "unlimited": true,
-      "prompt_head": "Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Wan 3.0 / Seedance 2.5 | Photoreal cantina, two Jedi at the"
-    }
-  ],
+  "unknown_new": [],
   "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
@@ -160,24 +150,12 @@
     }
   ],
   "comparison": {
-    "monitor_checked_at": "2026-11-24T12:50:34Z",
-    "monitor_age_minutes": 20,
-    "monitor_occupied": 5,
+    "monitor_checked_at": "2026-11-24T13:10:35Z",
+    "monitor_age_minutes": 10,
+    "monitor_occupied": 6,
     "robot_occupied": 6,
-    "consistent": false,
+    "consistent": true,
     "monitor_may_lag": false,
-    "differences": [
-      {
-        "type": "only_in_robot",
-        "task_id": "66dc44271e6f4336ad801102ca860e68",
-        "scene_id": null,
-        "mapping": "unknown_new"
-      },
-      {
-        "type": "occupied_differs",
-        "monitor": 5,
-        "robot": 6
-      }
-    ]
+    "differences": []
   }
 }
