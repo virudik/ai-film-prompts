@@ -2812,7 +2812,7 @@
         "quote": "Хотя танцевальный номер уже смонтирован и вместо танцев давай диалоги сначала",
         "commit": "f0bf0f1ae7e90422b7b3db535095705da25b4044"
       },
-      "checked_at": "2026-11-24T12:57:36Z",
+      "checked_at": "2026-11-24T13:02:19Z",
       "completed_result": {
         "task_id": "3644ab40a51c428b9e733aaba2c1c24b",
         "item_id": "S28-A4-20261023",
@@ -2821,9 +2821,9 @@
       },
       "execution": {
         "state": "started",
-        "stage": "intake",
+        "stage": "lease",
         "started_at": "2026-11-24T12:57:36Z",
-        "updated_at": "2026-11-24T12:57:36Z"
+        "updated_at": "2026-11-24T13:02:19Z"
       }
     }
   ],
