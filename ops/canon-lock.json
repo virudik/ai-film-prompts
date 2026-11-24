@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:78ff06e9-4f86-4c81-86b2-8e0c11670e9f",
-  "task": "Scheduled 07:00 UTC Topview capacity and archive check",
-  "acquired_at": "2026-11-24T07:01:40.511Z",
-  "expires_at": null,
-  "released_at": "2026-11-24T07:01:47.166Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:f5afd2cf-345e-4fc5-9adc-f426b92dd615",
+  "task": "Scheduled 08:00 UTC Topview capacity and archive check",
+  "acquired_at": "2026-11-24T08:02:04.761Z",
+  "expires_at": "2026-11-24T08:12:04.761Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
