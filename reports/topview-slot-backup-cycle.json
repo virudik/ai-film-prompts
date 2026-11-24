@@ -11,9 +11,9 @@
   "run_id": null,
   "run_id_unavailable_reason": "Runtime notification does not expose platform run_id.",
   "started_at": "2026-11-24T13:00:33Z",
-  "updated_at": "2026-11-24T13:10:21.255Z",
-  "phase": "started",
-  "status": "started",
+  "updated_at": "2026-11-24T13:11:30.659Z",
+  "phase": "completed",
+  "status": "completed",
   "source_head": "9f54a430fcd504f0408c78bda3a8398ac5960a96",
   "route_generation": 7,
   "lease": {
@@ -53,9 +53,10 @@
   ],
   "new_submissions": 0,
   "execution": {
-    "state": "started",
-    "stage": "reconciled_other_executor_and_rescanned_full_capacity",
-    "updated_at": "2026-11-24T13:10:21.255Z"
+    "state": "completed",
+    "stage": "peer_submission_confirmed_archive_source_pending",
+    "updated_at": "2026-11-24T13:11:30.659Z",
+    "completed_at": "2026-11-24T13:11:30.659Z"
   },
   "owner_tasks_open_count": 0,
   "work_backup": {
@@ -97,5 +98,11 @@
     "task_id": "66dc44271e6f4336ad801102ca860e68",
     "submitted_at": "2026-11-24T13:06:25Z",
     "credits_spent": 0
-  }
+  },
+  "completed_at": "2026-11-24T13:11:30.659Z",
+  "outcome": "peer_submission_confirmed_all_slots_occupied",
+  "next_action_unchanged": true,
+  "started_receipt_readback": true,
+  "blocker": null,
+  "retryable": false
 }
