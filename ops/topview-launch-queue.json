@@ -4094,7 +4094,7 @@
       "canonical_prompt_sha256": "969bea0573a4aaaf0ba1f596a4ae4e8f069464efbf1febc14754bb8f60168f44",
       "normalized_prompt_sha256": "88f3a4946da0df98c980f3f2a8413f12075e3a18f99e35f9854cd80d5ab54b45",
       "priority": 0.322,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "model_id": "qwen-wan3.0-video",
@@ -4147,7 +4147,64 @@
       "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry: automatic_retry is false and retry_control is omitted, because Grok prepare_intent treats any retry_control as a retry Create and would reject the first Unlimited Create. Not a paid 12-credit Wan path.",
       "owner_source": "t593u",
       "story_not_music": true,
-      "created_at": "2026-11-12T13:14:25Z"
+      "created_at": "2026-11-12T13:14:25Z",
+      "claim": {
+        "claim_id": "750d3d1b-4075-4d35-8a3b-9e4d3e3ddb75",
+        "execution_instance_id": "dd22dac1-90a3-44a9-90a3-f78dfa591dde",
+        "route_generation": 7,
+        "source_sha": "74138497aba001825ff1b78fd06dc27366d464c0",
+        "claimed_at": "2026-11-24T13:03:58Z",
+        "lease_holder": "grok:dd22dac1-90a3-44a9-90a3-f78dfa591dde",
+        "lease_acquired_at": "2026-11-24T13:02:19Z",
+        "preflight": {
+          "owner_authorized": true,
+          "prompt_match": true,
+          "input_sha_match": true,
+          "input_order_match": true,
+          "qc_passed": true,
+          "website_unlimited": true,
+          "unlimited_mode_selected": true,
+          "ui_prompt_exact": true,
+          "numeric_zero_displayed": false,
+          "paid_credit_mode_selected": false,
+          "credits_cost": 0,
+          "credits_cost_evidence": "selected_free_unlimited_current_form",
+          "ui_unlimited_label": "Безлимитный режим — бесплатно",
+          "ui_create_button_text": "Создать (без цены на кнопке)",
+          "quantity": 1,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "model_id": "qwen-wan3.0-video",
+          "duration_seconds": 30,
+          "prompt_sha256": "969bea0573a4aaaf0ba1f596a4ae4e8f069464efbf1febc14754bb8f60168f44",
+          "reference_sha256": [
+            "f308cb384704d43eb6f4db5bb9425d4ade6be930710e90d3fc4277d9995f07c4",
+            "bf99a0d68b6bf1f8795dc13b4662d5ce72c61a2d4e24490bfd4ddfc8c53760e4",
+            "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+            "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba"
+          ],
+          "owner_free_label_decision": {
+            "host_address": "t718s3708 answer",
+            "at": "2026-11-19T00:30:00Z",
+            "role": "user",
+            "text": "Да, «Безлимитный режим» без цены считай бесплатным, запускай"
+          },
+          "form_evidence": {
+            "checked_at_msk": "2026-11-24T16:10:00+03:00",
+            "url": "https://www.topview.ai/board/1a6244cf1ae747ef847d949a80d6133c?tool-type=video-edit",
+            "mode": "Омни-референс (reference-to-video)",
+            "payment": "Безлимитный режим — бесплатно (0 кредитов); Кредитный режим не выбран",
+            "refs_order": [
+              "1-jedi1-ilyusha-scene.png",
+              "2-jedi2-artem-scene.png",
+              "3-ilyusha.jpg",
+              "4-artem.jpg"
+            ],
+            "prompt_dom_check": "4 чипа @Image1..4 на 1-jedi1-ilyusha-scene.png, 2-jedi2-artem-scene.png, 3-ilyusha.jpg, 4-artem.jpg; readback /workspace/topview-s89i/form-readback.txt matches prompt.txt sha256 969bea05…8f44"
+          }
+        },
+        "coordination_version": 2
+      }
     },
     {
       "id": "S89J-WAN30",
