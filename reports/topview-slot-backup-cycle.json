@@ -11,9 +11,9 @@
   "run_id": null,
   "run_id_unavailable_reason": "Runtime notification does not expose platform run_id.",
   "started_at": "2026-11-24T15:00:12Z",
-  "updated_at": "2026-11-24T15:01:27.884Z",
-  "phase": "started",
-  "status": "started",
+  "updated_at": "2026-11-24T15:01:42.794Z",
+  "phase": "completed",
+  "status": "completed",
   "source_head": "282afbce245be8c4463d1d69ed5e9b80fa9e95ec",
   "route_generation": 7,
   "lease": {
@@ -53,9 +53,10 @@
   ],
   "new_submissions": 0,
   "execution": {
-    "state": "started",
-    "stage": "confirmed_full_capacity_and_archive_scan",
-    "updated_at": "2026-11-24T15:01:27.884Z"
+    "state": "completed",
+    "stage": "all_slots_occupied_archive_source_pending",
+    "updated_at": "2026-11-24T15:01:42.794Z",
+    "completed_at": "2026-11-24T15:01:42.794Z"
   },
   "owner_tasks_open_count": 0,
   "work_backup": {
@@ -73,5 +74,11 @@
     "pending_item_id": "S28-A4-20261023",
     "pending_reason": "Completed provider output; standard source Drive archive not yet verified, curated copy absent."
   },
-  "browser_not_used_reason": "Complete read-only live scan confirmed six occupied physical slots; no UI changes needed."
+  "browser_not_used_reason": "Complete read-only live scan confirmed six occupied physical slots; no UI changes needed.",
+  "completed_at": "2026-11-24T15:01:42.794Z",
+  "outcome": "no_update_all_slots_occupied",
+  "next_action_unchanged": true,
+  "started_receipt_readback": true,
+  "blocker": null,
+  "retryable": false
 }
