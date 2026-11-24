@@ -5,31 +5,31 @@
   "runner": "dot_scheduled_handler",
   "automation_id": "6afc8b674794819192ba0b1415c5a220",
   "automation_context_version": "d33b8ca4e3c0421986e1a4a8b7b6a9069c4e43fb0db2cec1835fb8b5e57c0be1",
-  "execution_instance_id": "23430991-3e58-4dd6-9874-30df0a8e9e63",
+  "execution_instance_id": "d013161c-daad-4f2e-898c-1169fd644e07",
   "actual_trigger": "scheduled",
-  "scheduled_for": "2026-11-24T09:00:00Z",
+  "scheduled_for": "2026-11-24T10:00:00Z",
   "run_id": null,
   "run_id_unavailable_reason": "Runtime notification does not expose platform run_id.",
-  "started_at": "2026-11-24T09:00:41Z",
-  "updated_at": "2026-11-24T09:02:04.346Z",
-  "phase": "completed",
-  "status": "completed",
-  "source_head": "97a611bd93afdc3cc102fe63e2e686a24ef874d7",
+  "started_at": "2026-11-24T10:00:35Z",
+  "updated_at": "2026-11-24T10:01:45.527Z",
+  "phase": "started",
+  "status": "started",
+  "source_head": "35dec44133f8b7ba7ef5dc6ae485cace51836eed",
   "route_generation": 7,
   "lease": {
     "schema_version": 1,
     "state": "held",
-    "holder": "chatgpt:ordinary:23430991-3e58-4dd6-9874-30df0a8e9e63",
-    "task": "Scheduled 09:00 UTC Topview capacity and archive check",
-    "acquired_at": "2026-11-24T09:01:41.045Z",
-    "expires_at": "2026-11-24T09:11:41.045Z",
+    "holder": "chatgpt:ordinary:d013161c-daad-4f2e-898c-1169fd644e07",
+    "task": "Scheduled 10:00 UTC Topview capacity and archive check",
+    "acquired_at": "2026-11-24T10:01:34.168Z",
+    "expires_at": "2026-11-24T10:11:34.168Z",
     "released_at": null,
     "rules": "ops/CANON-LOCK.md"
   },
   "browser_transport": "dot_own_browser",
   "scan": {
-    "started_at": "2026-11-24T09:01:03.154Z",
-    "checked_at": "2026-11-24T09:01:06.470Z",
+    "started_at": "2026-11-24T10:00:57.480Z",
+    "checked_at": "2026-11-24T10:01:02.130Z",
     "complete": true,
     "boards_listed": 14,
     "pages_scanned": 21,
@@ -54,10 +54,9 @@
   "new_submissions": 0,
   "browser_not_used_reason": "Complete live read-only connector scan confirmed six occupied physical slots; UI changes were not needed.",
   "execution": {
-    "state": "completed",
-    "stage": "all_slots_occupied_no_new_hangar_video",
-    "updated_at": "2026-11-24T09:02:04.346Z",
-    "completed_at": "2026-11-24T09:02:04.346Z"
+    "state": "started",
+    "stage": "confirmed_full_capacity_and_archive_scan",
+    "updated_at": "2026-11-24T10:01:45.527Z"
   },
   "owner_tasks_open_count": 0,
   "work_backup": {
@@ -71,11 +70,5 @@
     "new_copies": 0,
     "latest_verified_existing_task_id": "55dadcb20d2b48a09d1b2b6b4ba0d9ea",
     "grok_full_source_catalog_checked": false
-  },
-  "completed_at": "2026-11-24T09:02:04.346Z",
-  "outcome": "no_update_all_slots_occupied",
-  "next_action_unchanged": true,
-  "started_receipt_readback": true,
-  "blocker": null,
-  "retryable": false
+  }
 }
