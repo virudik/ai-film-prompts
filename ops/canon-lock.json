@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:4b5b1e3f-330f-4059-99fd-6db214b97f96",
   "task": "Scheduled 03:00 UTC Topview capacity and archive check",
   "acquired_at": "2026-11-24T03:02:14.030Z",
-  "expires_at": "2026-11-24T03:12:14.030Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-24T03:02:20.918Z",
   "rules": "ops/CANON-LOCK.md"
 }
