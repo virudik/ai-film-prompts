@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "stikhiy",
   "project_name": "Стахий",
-  "checked_at": "2026-11-24T14:03:38+00:00",
-  "source_head": "7b36c6384611b0af2e7d91589256055f0115a028",
-  "source_fingerprint": "1fc3cfb6dfeb0ad62c31decfa3121af8f524c9a3dea593be56e72011f8daa7da",
+  "checked_at": "2026-11-24T14:14:05+00:00",
+  "source_head": "a08e8689fb828d33e67bd7ea3338eb78067c13d2",
+  "source_fingerprint": "e8ac31e070c439a6c0f57754bd31d3bbc022e4e2eb0d0c604045931211c4d011",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -203,8 +203,8 @@
     },
     {
       "file": "projects/stikhiy/project-status.json",
-      "sha256": "f876b512b45cd33efb7ab1d5e75315250156febf70dd8dabc97bec9bc0851017",
-      "bytes": 7940
+      "sha256": "2046bab604df347adc87ee3dfda6a7447d56eaab92e263b1494c88d882a02c7e",
+      "bytes": 7942
     },
     {
       "file": "projects/stikhiy/reports/current-work-checkpoint.md",
