@@ -5,45 +5,46 @@
   "runner": "dot_scheduled_handler",
   "automation_id": "6afc8b674794819192ba0b1415c5a220",
   "automation_context_version": "d33b8ca4e3c0421986e1a4a8b7b6a9069c4e43fb0db2cec1835fb8b5e57c0be1",
-  "execution_instance_id": "7c0746d0-fd31-4153-b4f6-016004b958d1",
+  "execution_instance_id": "7bb1ee34-798b-42f5-9ccf-e918bb8d643b",
   "actual_trigger": "scheduled",
-  "scheduled_for": "2026-11-25T13:00:00Z",
+  "scheduled_for": "2026-11-25T21:00:00Z",
   "run_id": null,
   "run_id_unavailable_reason": "Runtime notification does not expose platform run_id.",
-  "started_at": "2026-11-25T12:56:44Z",
-  "updated_at": "2026-11-25T13:08:44.535Z",
-  "phase": "completed",
-  "status": "completed",
-  "source_head": "689dc48dc2d6026bb0fce9592dbdd977ddc29ebf",
+  "started_at": "2026-11-25T21:31:09Z",
+  "updated_at": "2026-11-25T21:32:08.583Z",
+  "phase": "started",
+  "status": "started",
+  "source_head": "1fb14295ae1d835a7e25001c4f2f7ad90dcfb904",
   "route_generation": 7,
   "lease": {
     "schema_version": 1,
     "state": "held",
-    "holder": "chatgpt:ordinary:7c0746d0-fd31-4153-b4f6-016004b958d1",
-    "task": "Scheduled 13:00 UTC Topview capacity and peer coordination",
-    "acquired_at": "2026-11-25T13:08:37.455Z",
-    "expires_at": "2026-11-25T13:13:37.455Z",
+    "holder": "chatgpt:ordinary:7bb1ee34-798b-42f5-9ccf-e918bb8d643b",
+    "task": "Scheduled 21:00 UTC Topview capacity and archive check",
+    "acquired_at": "2026-11-25T21:32:05.656Z",
+    "expires_at": "2026-11-25T21:37:05.656Z",
     "released_at": null,
     "rules": "ops/CANON-LOCK.md"
   },
   "browser_transport": "dot_own_browser",
   "scan": {
-    "started_at": "2026-11-25T13:05:52.117Z",
-    "checked_at": "2026-11-25T13:05:54.561Z",
+    "started_at": "2026-11-25T21:31:30.106Z",
+    "checked_at": "2026-11-25T21:31:33.523Z",
     "boards_listed": 14,
     "pages_scanned": 21,
-    "tasks_scanned": 1075,
+    "tasks_scanned": 1076,
     "complete": true,
     "statuses": {
       "success": 1025,
       "fail": 45,
-      "init": 5
+      "init": 6
     },
     "unknown": 0
   },
-  "occupied_slots": 5,
-  "free_slots": 1,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "active_task_ids": [
+    "45fb0ba125114ba48b48dd8a129f9015",
     "66dc44271e6f4336ad801102ca860e68",
     "79090d8a644f44068751a0d33cbfeb71",
     "17c2f95f1f9349dabfe9a2e75fd9a18c",
@@ -51,12 +52,6 @@
     "d6fb29ca214e42ec9b8c950657b26832"
   ],
   "new_submissions": 0,
-  "execution": {
-    "state": "completed",
-    "stage": "stood_down_for_verified_active_peer",
-    "updated_at": "2026-11-25T13:08:44.535Z",
-    "completed_at": "2026-11-25T13:08:44.535Z"
-  },
   "owner_tasks_open_count": 0,
   "work_backup": {
     "enabled": false,
@@ -64,36 +59,9 @@
     "requires_user_action": true,
     "changed": false
   },
-  "selected_item_id": "S89J-WAN30",
-  "peer": {
-    "actor": "grok",
-    "event_id": "result:2891ed5c97be4438ac3a23f9b19ea193",
-    "issue_number": 1023,
-    "receipt_outcome": "started",
-    "verified_at": "2026-11-25T13:03:40Z"
-  },
-  "completed_at": "2026-11-25T13:08:44.535Z",
-  "outcome": "no_update_active_peer",
-  "retryable": false,
-  "blocker": null,
-  "started_receipt_readback": true,
-  "next_action_unchanged": true,
-  "hangar_archive": {
-    "topview_count": 28,
-    "new_copies": 0,
-    "latest_verified_existing_task_id": "55dadcb20d2b48a09d1b2b6b4ba0d9ea",
-    "grok_full_source_catalog_checked": false,
-    "pending_task_id": "3644ab40a51c428b9e733aaba2c1c24b",
-    "pending_item_id": "S28-A4-20261023",
-    "pending_reason": "Completed provider output; standard source Drive archive not yet verified, curated copy absent.",
-    "newly_completed_pending": [
-      {
-        "item_id": "S28-A6-20261023",
-        "task_id": "2891ed5c97be4438ac3a23f9b19ea193",
-        "completed_at": "2026-11-25T12:51:18Z",
-        "reason": "No exact Drive source or curated match; wait for standard export."
-      }
-    ]
-  },
-  "browser_observation": "Authenticated My First Board reached and Wan 3.0 selector verified. No asset uploads, claim, intent, or Create."
+  "execution": {
+    "state": "started",
+    "stage": "full_scan_verified",
+    "updated_at": "2026-11-25T21:32:08.583Z"
+  }
 }
