@@ -11,9 +11,9 @@
   "run_id": null,
   "run_id_unavailable_reason": "Runtime notification does not expose platform run_id.",
   "started_at": "2026-11-25T12:56:44Z",
-  "updated_at": "2026-11-25T13:08:41.343Z",
-  "phase": "started",
-  "status": "started",
+  "updated_at": "2026-11-25T13:08:44.535Z",
+  "phase": "completed",
+  "status": "completed",
   "source_head": "689dc48dc2d6026bb0fce9592dbdd977ddc29ebf",
   "route_generation": 7,
   "lease": {
@@ -52,9 +52,10 @@
   ],
   "new_submissions": 0,
   "execution": {
-    "state": "started",
-    "stage": "verified_grok_active_intake",
-    "updated_at": "2026-11-25T13:08:41.343Z"
+    "state": "completed",
+    "stage": "stood_down_for_verified_active_peer",
+    "updated_at": "2026-11-25T13:08:44.535Z",
+    "completed_at": "2026-11-25T13:08:44.535Z"
   },
   "owner_tasks_open_count": 0,
   "work_backup": {
@@ -70,5 +71,29 @@
     "issue_number": 1023,
     "receipt_outcome": "started",
     "verified_at": "2026-11-25T13:03:40Z"
-  }
+  },
+  "completed_at": "2026-11-25T13:08:44.535Z",
+  "outcome": "no_update_active_peer",
+  "retryable": false,
+  "blocker": null,
+  "started_receipt_readback": true,
+  "next_action_unchanged": true,
+  "hangar_archive": {
+    "topview_count": 28,
+    "new_copies": 0,
+    "latest_verified_existing_task_id": "55dadcb20d2b48a09d1b2b6b4ba0d9ea",
+    "grok_full_source_catalog_checked": false,
+    "pending_task_id": "3644ab40a51c428b9e733aaba2c1c24b",
+    "pending_item_id": "S28-A4-20261023",
+    "pending_reason": "Completed provider output; standard source Drive archive not yet verified, curated copy absent.",
+    "newly_completed_pending": [
+      {
+        "item_id": "S28-A6-20261023",
+        "task_id": "2891ed5c97be4438ac3a23f9b19ea193",
+        "completed_at": "2026-11-25T12:51:18Z",
+        "reason": "No exact Drive source or curated match; wait for standard export."
+      }
+    ]
+  },
+  "browser_observation": "Authenticated My First Board reached and Wan 3.0 selector verified. No asset uploads, claim, intent, or Create."
 }
