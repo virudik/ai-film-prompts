@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "checked_at": "2026-11-25T12:57:38.179Z",
+  "checked_at": "2026-11-25T22:54:54.247Z",
   "verification_mode": "github_canonical_blob_check",
   "verification_scope": "Exact local canonical bytes only; not a semantic audit or proof of scheduler execution.",
   "source_of_truth": "github",
@@ -13,10 +13,10 @@
       "drive_copy_sha256": "200c4d9cc2af089b0fe61a5a06584ae82175c8969599dc4081b69c5eb4fe4163",
       "drive_copy_checked_at": "2026-11-25T12:57:38.179Z",
       "drive_copy_modified_at": "2026-11-23T12:44:35.423Z",
-      "github_blob": "49d991c6e31e41a0ebe6049749cbd479749e7195",
-      "mirror_sha256": "200c4d9cc2af089b0fe61a5a06584ae82175c8969599dc4081b69c5eb4fe4163",
+      "github_blob": "a28744d88a9fc945e205b777a042a9c878abc022",
+      "mirror_sha256": "562d460231cb13f0f107f5ce209d93439e7b76fffeb9e1ab8d8ef1f052e07393",
       "match": true,
-      "drive_copy_match": true
+      "drive_copy_match": false
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
@@ -33,10 +33,10 @@
       "drive_copy_sha256": "1d754244779e067a12de42a74440aa2015e64fadd31e96a194bd6cc11dbe6127",
       "drive_copy_checked_at": "2026-11-25T12:57:38.179Z",
       "drive_copy_modified_at": "2026-11-17T11:53:56.776Z",
-      "github_blob": "0f1f7bc9d8f9170b41396e58d5928d5975765eef",
-      "mirror_sha256": "1d754244779e067a12de42a74440aa2015e64fadd31e96a194bd6cc11dbe6127",
+      "github_blob": "b3ac4e860f159292966ce467a636cdd3338a8f85",
+      "mirror_sha256": "cfadadad0d9a3074f3f6de646c8653314a2e07d7563d98b41868745b5b363ef5",
       "match": true,
-      "drive_copy_match": true
+      "drive_copy_match": false
     },
     "PROMPT-STYLE-GUIDE.md": {
       "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
