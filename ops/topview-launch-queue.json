@@ -4162,7 +4162,7 @@
       "canonical_prompt_sha256": "c1d585532c0b8e4bbe05d2125c138159c5891609826fb5c9bef95a024c788454",
       "normalized_prompt_sha256": "d4fa2bccbfd08779ddda220d2fe51b8e068292c478533993ea550a9cebc7ec9a",
       "priority": 0.323,
-      "state": "claimed",
+      "state": "submitting",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "model_id": "qwen-wan3.0-video",
@@ -4271,7 +4271,33 @@
             "prompt_dom_check": "DOM редактора прочитан и сверен визуально с prompt.txt (3625 байт, 45 абзацев); form-readback.txt = копия prompt.txt; чипы @Image удалены, рефы Image1..4 в порядке 1-jedi1-ilyusha-scene.png, 2-jedi2-artem-scene.png, 3-ilyusha.jpg, 4-artem.jpg"
           }
         },
-        "coordination_version": 2
+        "coordination_version": 2,
+        "submission_intent_id": "b12e3fe5-8490-48be-aaa2-1d2800026fb9",
+        "submission_intent_at": "2026-11-25T13:16:03Z",
+        "replay_forbidden": true,
+        "host_run": {
+          "namespace": "cursor_host",
+          "observation_source": "parent_shell_os_environ",
+          "field": "CURSOR_REQUEST_ID",
+          "value": "055c28d2-4009-42c3-ac4a-08240275b5ed",
+          "conversation_field": "CURSOR_CONVERSATION_ID",
+          "conversation_id": "1c1bf697-3c93-4068-b457-e90efdd5ef8f",
+          "standing_command_id": "t413u-20261109"
+        },
+        "provider_run_key": "74f837d2f1b0c71f85f8b9ddab73a416dcd3fbf75f5539d4fc50144fade7b77f",
+        "owner_event_keys": [
+          "17fe77358835c7dbc013543d132c5d27621568fdf45d878dcf30309493824152"
+        ],
+        "ledger_path": "ops/launcher-run-ledger.json",
+        "trigger": "owner_command",
+        "owner_command": {
+          "quote": "Говорю запускай значит запускай. Зачем спрашивать по 10 раз если есть уже согласованная очередь запуска",
+          "source": "cursor_host",
+          "at": "2026-11-09T08:25:00Z",
+          "standing_command_id": "t413u-20261109",
+          "standing_host_address": "t413u"
+        },
+        "intent_payload_sha256": "2efb1ff19800bae7810828642c20c8a43175ddcee836a2d668a1f2b5caad9343"
       }
     },
     {
