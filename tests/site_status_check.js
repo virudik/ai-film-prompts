@@ -17,14 +17,26 @@ function scenarios() {
   const mon = read('automation-monitor-status.json');
   const clone = x => JSON.parse(JSON.stringify(x));
   const freshTv = () => { const t = clone(tv); t.checked_at = iso(10); return t; };
-  const freshMon = () => { const m = clone(mon); m.last_scheduled_cycle = { ...(m.last_scheduled_cycle || {}), completed_at: iso(15), health: 'ok' }; return m; };
+  const freshMon = () => { const m = clone(mon); m.last_scheduled_cycle = { ...(m.last_scheduled_cycle || {}), completed_at: iso(15), health: 'ok' }; m.last_successful_cycle_at = iso(15); return m; };
+  const scanOf = (base, minAgo, differ) => ({
+    checked_at: iso(minAgo),
+    active_tasks: differ ? [{ task_id: 'ab'.repeat(16), unlimited: true }] : (base.active_tasks || []).filter(x => x && x.task_id).map(x => ({ task_id: x.task_id, unlimited: x.unlimited !== false })),
+  });
+  const oldMon = freshMon(); oldMon.last_scheduled_cycle = { ...oldMon.last_scheduled_cycle, completed_at: iso(180), health: 'ok' }; oldMon.last_successful_cycle_at = iso(180);
+  const weekMon = freshMon(); weekMon.last_scheduled_cycle = { ...weekMon.last_scheduled_cycle, completed_at: iso(6 * 24 * 60), health: 'ok' }; weekMon.last_successful_cycle_at = iso(6 * 24 * 60);
+  const tv50 = freshTv(); tv50.checked_at = iso(50);
+  const tv180 = freshTv(); tv180.checked_at = iso(180);
   return [
-    { name: 'fresh everything', tv: freshTv(), mon: freshMon(), expect: { cls: 'ok', text: 'ПРОЕКТ СИНХРОНИЗИРОВАН' } },
+    { name: 'fresh everything', tv: freshTv(), mon: freshMon(), expect: { cls: 'ok', text: 'ПРОЕКТ СИНХРОНИЗИРОВАН', ins: 'порог 48' } },
     { name: 'Topview 3 h old', tv: Object.assign(freshTv(), { checked_at: iso(180) }), mon: freshMon(), expect: { cls: 'warn', text: 'ДАННЫЕ TOPVIEW УСТАРЕЛИ' } },
     { name: 'Topview checked_at missing', tv: Object.assign(freshTv(), { checked_at: null }), mon: freshMon(), expect: { cls: 'warn', text: 'ДАННЫЕ TOPVIEW УСТАРЕЛИ' } },
     { name: 'Topview checked_at invalid', tv: Object.assign(freshTv(), { checked_at: 'not-a-date' }), mon: freshMon(), expect: { cls: 'warn', text: 'ДАННЫЕ TOPVIEW УСТАРЕЛИ' } },
     { name: 'Topview checked_at in the future', tv: Object.assign(freshTv(), { checked_at: iso(-90) }), mon: freshMon(), expect: { cls: 'warn', text: 'НЕВЕРНОЕ ВРЕМЯ ПРОВЕРКИ' } },
-    { name: 'monitor cycle 3 h old', tv: freshTv(), mon: (() => { const m = freshMon(); m.last_scheduled_cycle.completed_at = iso(180); return m; })(), expect: { cls: 'warn', text: 'МОНИТОР НЕ ОТВЕЧАЕТ' } },
+    { name: 'monitor cycle 3 h old', tv: freshTv(), mon: oldMon, scan: scanOf(freshTv(), 180), expect: { cls: 'warn', text: 'МОНИТОР НЕ ОТВЕЧАЕТ' } },
+    { name: 'stale monitor copy but fresh robot scan', tv: freshTv(), mon: weekMon, scan: scanOf(freshTv(), 10), expect: { cls: 'ok', text: 'ПРОЕКТ СИНХРОНИЗИРОВАН', noDaysWarn: true } },
+    { name: 'publish lag 50 min is not a stale look', tv: tv50, mon: freshMon(), scan: scanOf(tv50, 8), expect: { cls: 'ok', text: 'ПРОЕКТ СИНХРОНИЗИРОВАН', capStale: false, capHas: 'проверено', capLacks: 'устарела' } },
+    { name: 'unpublished task delta within publish lag is not yellow', tv: tv50, mon: freshMon(), scan: scanOf(tv50, 8, true), expect: { cls: 'ok', text: 'ПРОЕКТ СИНХРОНИЗИРОВАН', capStale: false, capLacks: 'устарела', capHas: 'не выложены' } },
+    { name: 'look older than 2 h is yellow', tv: tv180, mon: oldMon, scan: scanOf(tv180, 180), expect: { cls: 'warn', text: 'ДАННЫЕ TOPVIEW УСТАРЕЛИ', capStale: true, capHas: 'устарела' } },
     { name: 'monitor cycle unhealthy', tv: freshTv(), mon: (() => { const m = freshMon(); m.last_scheduled_cycle.health = 'degraded'; return m; })(), expect: { cls: 'warn', text: 'МОНИТОР: НЕПОЛНЫЙ ЦИКЛ' } },
     { name: 'monitor file missing (backward compatible)', tv: freshTv(), mon: 404, expect: { cls: 'ok', text: 'ПРОЕКТ СИНХРОНИЗИРОВАН' } },
     { name: 'wrong master SHA is never green', tv: freshTv(), mon: freshMon(), status: Object.assign(clone(status), { canonical_master_sha256: '0'.repeat(64) }), expect: { cls: 'bad', text: 'ОШИБКА' } },
@@ -44,24 +56,36 @@ function scenarios() {
       const u = route.request().url();
       if (!u.startsWith(BASE)) { if (!/supabase\.co\/rest\/v1\/comments/.test(u)) { externalRequests++; console.log('      external request:', u); } return route.abort(); }
       const f = u.slice(BASE.length).split('?')[0];
-      const body = { 'topview-status.json': sc.tv, 'automation-monitor-status.json': sc.mon, 'project-status.json': sc.status }[f];
+      const body = { 'topview-status.json': sc.tv, 'automation-monitor-status.json': sc.mon, 'project-status.json': sc.status, 'shadow/topview-robot-status.json': sc.scan }[f];
       if (body === 404) return route.fulfill({ status: 404, body: 'missing' });
       if (body !== undefined) return route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify(body) });
       return route.continue();
     });
     await page.goto(BASE + 'index.html', { waitUntil: 'networkidle' });
-    await page.waitForTimeout(400);
+    if (sc.expect.capHas || sc.expect.capStale != null) await page.waitForFunction(() => /проверено|устарела|занято/.test(document.getElementById('topviewCapacity')?.textContent || ''), { timeout: 8000 }).catch(() => {});
+    else await page.waitForTimeout(400);
     const r = await page.evaluate(() => ({
       cls: ['ok', 'warn', 'bad'].find(c => document.getElementById('health').classList.contains(c)),
       text: document.getElementById('health').textContent,
       fresh: document.getElementById('freshnessLine')?.innerText || '',
+      warnText: [...document.querySelectorAll('#freshnessLine .fresh-warn')].map(n => n.textContent).join(' | '),
+      ins: [...document.querySelectorAll('#freshnessLine [title]')].map(n => n.getAttribute('title')).join('\n'),
+      cap: document.getElementById('topviewCapacity')?.textContent || '',
+      capStale: document.getElementById('topviewCapacity')?.classList.contains('stale') || false,
       h2: document.querySelectorAll('#content h2').length,
       copy: [...document.querySelectorAll('button')].filter(b => /Копировать промт/.test(b.innerText)).length,
       galleries: document.querySelectorAll('.scene-ref-gallery img').length,
     }));
-    const ok = r.cls === sc.expect.cls && r.text.includes(sc.expect.text) && errors.length === 0 && r.h2 > 10 && r.copy > 10 && externalRequests === 0;
+    const ex = sc.expect;
+    const ok = r.cls === ex.cls && r.text.includes(ex.text) && errors.length === 0 && r.h2 > 10 && r.copy > 10 && externalRequests === 0
+      && (ex.capStale == null || r.capStale === ex.capStale)
+      && (ex.capHas == null || r.cap.includes(ex.capHas))
+      && (ex.capLacks == null || !r.cap.includes(ex.capLacks))
+      && (ex.ins == null || r.ins.includes(ex.ins))
+      && (!ex.noDaysWarn || !/дн/.test(r.warnText));
     if (!ok) failures++;
     console.log(`${ok ? 'PASS' : 'FAIL'}  ${sc.name.padEnd(56)} health=${r.cls} «${r.text}»  h2=${r.h2} copy=${r.copy} img=${r.galleries} ext=${externalRequests}${errors.length ? ' errors=' + errors.join(' | ') : ''}`);
+    if (!ok && (ex.capHas || ex.capStale != null || ex.ins || ex.noDaysWarn)) console.log('      detail capStale=' + r.capStale + ' cap=«' + r.cap.replace(/\s+/g, ' ') + '» warn=«' + r.warnText + '» insHas48=' + r.ins.includes('порог 48'));
     if (sc.name === 'Topview 3 h old') console.log('      freshness line:', r.fresh.replace(/\s+/g, ' '));
     await page.close();
   }
