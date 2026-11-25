@@ -11,9 +11,9 @@
   "run_id": null,
   "run_id_unavailable_reason": "Runtime notification does not expose platform run_id.",
   "started_at": "2026-11-25T21:31:09Z",
-  "updated_at": "2026-11-25T21:32:08.583Z",
-  "phase": "started",
-  "status": "started",
+  "updated_at": "2026-11-25T21:32:12.169Z",
+  "phase": "completed",
+  "status": "completed",
   "source_head": "1fb14295ae1d835a7e25001c4f2f7ad90dcfb904",
   "route_generation": 7,
   "lease": {
@@ -60,8 +60,32 @@
     "changed": false
   },
   "execution": {
-    "state": "started",
-    "stage": "full_scan_verified",
-    "updated_at": "2026-11-25T21:32:08.583Z"
-  }
+    "state": "completed",
+    "stage": "all_slots_occupied_archive_reserve_empty",
+    "updated_at": "2026-11-25T21:32:12.169Z",
+    "completed_at": "2026-11-25T21:32:12.169Z"
+  },
+  "completed_at": "2026-11-25T21:32:12.169Z",
+  "outcome": "no_update_all_slots_occupied",
+  "started_receipt_readback": true,
+  "next_action_unchanged": true,
+  "blocker": null,
+  "retryable": false,
+  "hangar_archive": {
+    "topview_count": 28,
+    "new_copies": 0,
+    "grok_full_source_catalog_checked": false,
+    "pending": [
+      {
+        "item_id": "S28-A4-20261023",
+        "task_id": "3644ab40a51c428b9e733aaba2c1c24b"
+      },
+      {
+        "item_id": "S28-A6-20261023",
+        "task_id": "2891ed5c97be4438ac3a23f9b19ea193"
+      }
+    ],
+    "blocker": "Standard Drive archive reserve empty; owner asked to authorize replenishment separately."
+  },
+  "browser_not_used_reason": "Complete read-only all-board scan confirmed all six slots occupied."
 }
