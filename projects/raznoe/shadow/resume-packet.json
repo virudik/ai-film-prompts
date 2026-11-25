@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-25T22:43:43+00:00",
-  "source_head": "eb2a8ffb66448ba2bec0cc2f1084c0cd1a84149e",
-  "source_fingerprint": "cf61a5a4d87deed6eb6c6def3bc5b53a7f124a56727b0d3d64a293c5c9e99cdc",
+  "checked_at": "2026-11-25T22:53:17+00:00",
+  "source_head": "f83d225da1844803aff2e17fdffad610f49d2561",
+  "source_fingerprint": "b881118e34166452a700404d90a9610404f03121dd8bedbf5beed4866a0c962f",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -32,6 +32,9 @@
     "source_head": "0107904bad80907682f4854768885b56d7d8d8da"
   },
   "reasons": [
+    "brief was invalid at generation",
+    "instruction certificate mismatch: NEW-CHAT-HANDOFF.md",
+    "instruction certificate mismatch: AI-PROJECT-GUIDE.md",
     "resume target is missing or finished: RAZNOE-STAKHIY-SCENE6-20261118"
   ],
   "selected_work": null,
@@ -144,8 +147,8 @@
   "sources": [
     {
       "file": "AI-PROJECT-GUIDE.md",
-      "sha256": "1d754244779e067a12de42a74440aa2015e64fadd31e96a194bd6cc11dbe6127",
-      "bytes": 41704
+      "sha256": "cfadadad0d9a3074f3f6de646c8653314a2e07d7563d98b41868745b5b363ef5",
+      "bytes": 40887
     },
     {
       "file": "BACKUP-AI-RUNBOOK.md",
@@ -154,8 +157,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "200c4d9cc2af089b0fe61a5a06584ae82175c8969599dc4081b69c5eb4fe4163",
-      "bytes": 33616
+      "sha256": "562d460231cb13f0f107f5ce209d93439e7b76fffeb9e1ab8d8ef1f052e07393",
+      "bytes": 36490
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -249,13 +252,13 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "55b21912655d31ea5cb75fa1c2deee6dcef5ef8af4385b4f88f60f9c5492cc8a",
-      "bytes": 33417
+      "sha256": "1f8fc156e7abeedf09c71587896bd83f2aff80b59f4c091887786f089ddffd20",
+      "bytes": 36291
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "5f8b5c25cc04149a3464ca79e5eaeba934f27f3dbbef96e9ea5b93f54b9bd0ce",
-      "bytes": 32409
+      "sha256": "55bfe04ed83fbf32fcca13ce7a3a6022a869d69f1d5c604c58406a3b044421c7",
+      "bytes": 32461
     },
     {
       "file": "video-prompts.md",
@@ -263,5 +266,5 @@
       "bytes": 2004522
     }
   ],
-  "packet_bytes": 3876
+  "packet_bytes": 4022
 }
