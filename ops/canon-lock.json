@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:93c876de-9f50-48b7-9011-1aef90549e7f",
   "task": "Owner-authorized Topview Drive archive pool refill slots 121–140",
   "acquired_at": "2026-11-25T22:15:09.163Z",
-  "expires_at": "2026-11-25T22:25:09.163Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-25T22:15:12.308Z",
   "rules": "ops/CANON-LOCK.md"
 }
