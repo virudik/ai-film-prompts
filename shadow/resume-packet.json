@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-25T14:43:50+00:00",
-  "source_head": "7891ce4895071dc2e83fb13abdf45b81b98c4c34",
-  "source_fingerprint": "99a699cbf5bd14b56bcfa90e886a3c11458764bc2360716ae19722f2646bf456",
+  "checked_at": "2026-11-25T14:53:46+00:00",
+  "source_head": "2c8b9fb96daaf822e02c30ba2b3ca67e54f3362e",
+  "source_fingerprint": "bba2be7616037f8d101cfc975229099beb472f8167dd340a79550d27616ecbfa",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -249,10 +249,6 @@
         "task_id": "98092b65ccfc4307ba98b9f9c675d001"
       },
       {
-        "item_id": "S89E-WAN30",
-        "task_id": "9d4b3b177e6d452abe499537a05f454c"
-      },
-      {
         "item_id": "S89G-WAN30",
         "task_id": "e78f7a26f841414cac6689f2d79601b5"
       },
@@ -271,6 +267,10 @@
       {
         "item_id": "S89F-WAN30-R3",
         "task_id": "3daf88bcc82b4b668a3bb4b405ed0703"
+      },
+      {
+        "item_id": "S89E-WAN30",
+        "task_id": "9d4b3b177e6d452abe499537a05f454c"
       },
       {
         "item_id": "S89C-WAN30",
@@ -695,8 +695,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "f48470676a0dc0c5d256f15c83208e2b0f0556d4b816db356aed5b1a9423bb41",
-      "bytes": 319615
+      "sha256": "ec9df50e55ff008e2aa6872837268ab307322e54bcbd589e15c3954c93b107a5",
+      "bytes": 315548
     },
     {
       "file": "project-status.json",
