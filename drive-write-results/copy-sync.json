@@ -1,9 +1,8 @@
 {
-  "checked_at": "2026-11-24T13:45:35Z",
+  "checked_at": "2026-11-25T12:57:38Z",
   "mode": "sync",
   "summary": {
-    "written": 1,
-    "current": 9
+    "current": 10
   },
   "files": [
     {
@@ -11,7 +10,7 @@
       "github_sha256": "e314a9f5b5622e1fb5b0d7b465bb0d9531ca866744bda52f56021c271a19b009",
       "file_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
       "drive_sha256": "e314a9f5b5622e1fb5b0d7b465bb0d9531ca866744bda52f56021c271a19b009",
-      "status": "written",
+      "status": "current",
       "drive_modified": "2026-11-24T13:45:26.820Z"
     },
     {
