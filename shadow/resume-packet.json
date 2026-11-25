@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-25T22:54:41+00:00",
-  "source_head": "76200813d9aa1036abe54add433004f97fcd73c4",
-  "source_fingerprint": "72a1f97e3355d4752a3c0b1948294b44ff32da2bc3d9fff32658e5617a6c4b2b",
-  "status": "needs_recovery",
-  "ready_for_resume": false,
+  "checked_at": "2026-11-25T22:56:06+00:00",
+  "source_head": "56feb9e1f3411dcc9b6463c78e9ddc8f6c6b21f5",
+  "source_fingerprint": "0fa7e886af1541b91b2895f63d4f646f7e60598f20a9b07d72f93044ab06df04",
+  "status": "ready",
+  "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "dot-takeover-20261115-a83fdec7",
@@ -30,12 +30,7 @@
     },
     "source_head": "91e36aa5b674ee66df422bfa9873fcfc7241e012"
   },
-  "reasons": [
-    "brief was invalid at generation",
-    "instruction certificate mismatch: NEW-CHAT-HANDOFF.md",
-    "instruction certificate mismatch: AI-PROJECT-GUIDE.md",
-    "project-status health not ok"
-  ],
+  "reasons": [],
   "selected_work": {
     "work_id": "SEREGIUS-SHIFT-20261113-T611U",
     "title": "Смена 13.11 t611u: очередь 48.4 и 89, отзыв по версиям Grok",
@@ -685,8 +680,8 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "f11efbd5f41d55151f632720cb1abc33a8c67fde6e7cba47a80496c3a7a1e763",
-      "bytes": 5134
+      "sha256": "535774db124127671d625d39b5f4a24e0d889c21ab8240a25ae7d1c3ff0bc901",
+      "bytes": 5136
     },
     {
       "file": "monitor-role.json",
@@ -705,8 +700,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "79cd9054b8dad3148233a7a6a798a6ed09db8a92abae113b0a40d0792eaabade",
-      "bytes": 29633
+      "sha256": "f078fdcbb6dba61f9a2764ee5bb9fbb59b492a8fa5908e3c059bb67a4578a219",
+      "bytes": 29588
     },
     {
       "file": "reports/current-work-checkpoint.md",
@@ -730,8 +725,8 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "313f26447d05eab831f387fe2871bc94b02fc2cd94162ab9f6328f290ab20f89",
-      "bytes": 32464
+      "sha256": "3044da7800ccb940ed987a93d48ae95089bc019a7d8053559ace62ae1b454903",
+      "bytes": 32409
     },
     {
       "file": "video-prompts.md",
@@ -744,5 +739,5 @@
       "bytes": 95324
     }
   ],
-  "packet_bytes": 5309
+  "packet_bytes": 5241
 }

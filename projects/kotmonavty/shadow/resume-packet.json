@@ -3,19 +3,14 @@
   "generator": "continue-2.0",
   "project": "kotmonavty",
   "project_name": "Котмонавты",
-  "checked_at": "2026-11-25T22:54:41+00:00",
-  "source_head": "76200813d9aa1036abe54add433004f97fcd73c4",
-  "source_fingerprint": "af9c2c06eeb07e17428c483372bbddbfe5466be798fa3916b95796cd1f30b7ce",
+  "checked_at": "2026-11-25T22:56:06+00:00",
+  "source_head": "56feb9e1f3411dcc9b6463c78e9ddc8f6c6b21f5",
+  "source_fingerprint": "7188a0740874f8f48db92a3addca73038b5a88f1183fa7db42843510bbab386e",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": null,
   "reasons": [
-    "brief was invalid at generation",
-    "instruction certificate mismatch: NEW-CHAT-HANDOFF.md",
-    "instruction certificate mismatch: AI-PROJECT-GUIDE.md",
-    "project-status health not ok",
-    "project master/status mismatch: kotmonavty",
     "recovery evidence changed: projects/kotmonavty/ops/topview-launch-queue.json"
   ],
   "selected_work": null,
@@ -180,8 +175,8 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "f11efbd5f41d55151f632720cb1abc33a8c67fde6e7cba47a80496c3a7a1e763",
-      "bytes": 5134
+      "sha256": "535774db124127671d625d39b5f4a24e0d889c21ab8240a25ae7d1c3ff0bc901",
+      "bytes": 5136
     },
     {
       "file": "monitor-role.json",
@@ -195,8 +190,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "79cd9054b8dad3148233a7a6a798a6ed09db8a92abae113b0a40d0792eaabade",
-      "bytes": 29633
+      "sha256": "f078fdcbb6dba61f9a2764ee5bb9fbb59b492a8fa5908e3c059bb67a4578a219",
+      "bytes": 29588
     },
     {
       "file": "projects/README.md",
@@ -220,8 +215,8 @@
     },
     {
       "file": "projects/kotmonavty/project-status.json",
-      "sha256": "c0b8ad47384a46b39015a5c06bdfea27e39f54ccef9bf208c190a1916b09c5b5",
-      "bytes": 17200
+      "sha256": "383901f72761f3f2dcf965c2d3c7b40c94fd6f6eb54d6c885a6eb16ba6295020",
+      "bytes": 17155
     },
     {
       "file": "projects/kotmonavty/reports/KM04-WAN30-20261030.json",
@@ -265,8 +260,8 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "313f26447d05eab831f387fe2871bc94b02fc2cd94162ab9f6328f290ab20f89",
-      "bytes": 32464
+      "sha256": "3044da7800ccb940ed987a93d48ae95089bc019a7d8053559ace62ae1b454903",
+      "bytes": 32409
     },
     {
       "file": "video-prompts.md",
@@ -274,5 +269,5 @@
       "bytes": 2004522
     }
   ],
-  "packet_bytes": 7147
+  "packet_bytes": 6925
 }

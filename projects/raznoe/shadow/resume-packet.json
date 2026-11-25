@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-25T22:54:41+00:00",
-  "source_head": "76200813d9aa1036abe54add433004f97fcd73c4",
-  "source_fingerprint": "3887d376d61a7f8019777d15caffdf0ae80c76bb11d8ffa70097e02717302cfc",
+  "checked_at": "2026-11-25T22:56:06+00:00",
+  "source_head": "56feb9e1f3411dcc9b6463c78e9ddc8f6c6b21f5",
+  "source_fingerprint": "e9940825161397fbc7c18dd4d99a21cf69c69730331c4bfdfa0a66a62d572c3b",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -32,11 +32,6 @@
     "source_head": "0107904bad80907682f4854768885b56d7d8d8da"
   },
   "reasons": [
-    "brief was invalid at generation",
-    "instruction certificate mismatch: NEW-CHAT-HANDOFF.md",
-    "instruction certificate mismatch: AI-PROJECT-GUIDE.md",
-    "project-status health not ok",
-    "project master/status mismatch: raznoe",
     "resume target is missing or finished: RAZNOE-STAKHIY-SCENE6-20261118"
   ],
   "selected_work": null,
@@ -184,8 +179,8 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "f11efbd5f41d55151f632720cb1abc33a8c67fde6e7cba47a80496c3a7a1e763",
-      "bytes": 5134
+      "sha256": "535774db124127671d625d39b5f4a24e0d889c21ab8240a25ae7d1c3ff0bc901",
+      "bytes": 5136
     },
     {
       "file": "monitor-role.json",
@@ -199,8 +194,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "79cd9054b8dad3148233a7a6a798a6ed09db8a92abae113b0a40d0792eaabade",
-      "bytes": 29633
+      "sha256": "f078fdcbb6dba61f9a2764ee5bb9fbb59b492a8fa5908e3c059bb67a4578a219",
+      "bytes": 29588
     },
     {
       "file": "projects/README.md",
@@ -229,8 +224,8 @@
     },
     {
       "file": "projects/raznoe/project-status.json",
-      "sha256": "e248643dd74d5948376d942eab0ce1c6f771ec3846994754420b30ce206788cc",
-      "bytes": 13599
+      "sha256": "3d6138c27a01cb48eabe1e47c2c259eb16cc98336e0a20dfeb9d1ae2bd0b0438",
+      "bytes": 13554
     },
     {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
@@ -259,8 +254,8 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "313f26447d05eab831f387fe2871bc94b02fc2cd94162ab9f6328f290ab20f89",
-      "bytes": 32464
+      "sha256": "3044da7800ccb940ed987a93d48ae95089bc019a7d8053559ace62ae1b454903",
+      "bytes": 32409
     },
     {
       "file": "video-prompts.md",
@@ -268,5 +263,5 @@
       "bytes": 2004522
     }
   ],
-  "packet_bytes": 4094
+  "packet_bytes": 3876
 }
