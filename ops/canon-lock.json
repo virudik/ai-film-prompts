@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:f5b3132d-f8b6-46e1-9289-0fa7893be2fd",
-  "task": "Grok wake #1023 standing t413u (order t853u): S89J-WAN30 lease/claim/intent/verify",
-  "acquired_at": "2026-11-25T13:12:24Z",
-  "expires_at": null,
-  "released_at": "2026-11-25T13:18:21Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:7bb1ee34-798b-42f5-9ccf-e918bb8d643b",
+  "task": "Scheduled 21:00 UTC Topview capacity and archive check",
+  "acquired_at": "2026-11-25T21:32:05.656Z",
+  "expires_at": "2026-11-25T21:37:05.656Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
