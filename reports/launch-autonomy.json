@@ -1,16 +1,16 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-11-24T16:08:18Z",
+  "checked_at": "2026-11-25T15:55:18Z",
   "window_hours": 24,
   "verdict": "historical_free_slots_unverified",
   "launches": [
     {
-      "item": "S89I-WAN30",
+      "item": "S89J-WAN30",
       "scene_id": 89,
-      "task_id": "66dc44271e6f4336ad801102ca860e68",
-      "claimed_at": "2026-11-24T13:03:58Z",
-      "submitted_at": "2026-11-24T13:06:25Z",
-      "observed_at": "2026-11-24T13:06:25Z",
+      "task_id": "45fb0ba125114ba48b48dd8a129f9015",
+      "claimed_at": "2026-11-25T13:14:11Z",
+      "submitted_at": "2026-11-25T13:16:58Z",
+      "observed_at": "2026-11-25T13:16:58Z",
       "time_basis": "submitted_at",
       "run_id": null,
       "source": "unknown",
@@ -26,16 +26,16 @@
   "historical_opportunity_note": "Past free-slot observations are not joined to historical queue readiness, authorization or leases; no idle-launch incident inferred from them.",
   "free_slot_observations": [
     {
-      "at": "2026-11-24T12:50:39Z",
+      "at": "2026-11-25T13:00:52Z",
       "occupied": 5,
       "capacity": 6
     }
   ],
-  "ready_items_waiting": 7,
+  "ready_items_waiting": 6,
   "launcher_health": {
     "state": "capacity_full",
     "unresolved": false,
-    "episode": "aa0b6a76",
+    "episode": "c433c506",
     "unresolved_since": null,
     "reason": "no_free_global_slot; launcher_health_not_proven",
     "free_slots_global": 0,
@@ -46,7 +46,6 @@
       "S28-A11-20261023",
       "S62-SEED20-P1-R2-20261108",
       "S28-A13-20261030",
-      "S89J-WAN30",
       "S49A-WAN30-20261118"
     ],
     "reconciliation_items": [
@@ -55,21 +54,21 @@
       "S89F-WAN30",
       "S89F-WAN30-R2"
     ],
-    "last_event_id": "result:3644ab40a51c428b9e733aaba2c1c24b",
+    "last_event_id": "result:2891ed5c97be4438ac3a23f9b19ea193",
     "receipt_present": true,
     "handler_outcome": "submitted",
     "execution_stage": "submitted",
-    "execution_updated_at": "2026-11-24T13:08:06Z",
+    "execution_updated_at": "2026-11-25T13:18:21Z",
     "runtime_run_id": null,
     "confirmed_launch_task_ids": [
-      "66dc44271e6f4336ad801102ca860e68"
+      "45fb0ba125114ba48b48dd8a129f9015"
     ],
-    "last_confirmed_event_id": "result:3644ab40a51c428b9e733aaba2c1c24b",
+    "last_confirmed_event_id": "result:2891ed5c97be4438ac3a23f9b19ea193",
     "last_confirmed_launch_task_ids": [
-      "66dc44271e6f4336ad801102ca860e68"
+      "45fb0ba125114ba48b48dd8a129f9015"
     ],
     "escalation_attempted_episode": null,
-    "checked_at": "2026-11-24T15:50:45Z"
+    "checked_at": "2026-11-25T15:10:38Z"
   },
   "launcher_observation_stale": false,
   "note": "Source requires a task/execution-bound trigger receipt; legacy prefixes retained as labelled evidence. Missing runtime ID never implies chat."
