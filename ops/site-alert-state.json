@@ -1,8 +1,13 @@
 {
   "schema_version": 1,
-  "signature": [],
+  "signature": [
+    "banner:sync-error|error",
+    "canon:handoff-size:NEW-CHAT-HANDOFF.md|Хендоф 36 КБ (цель до 35 КБ): старые блоки перенести в журнал archive/handoff-log.md."
+  ],
+  "sequence": 0,
   "relay": {
-    "status": "cleared"
-  },
-  "sequence": 0
+    "status": "sent",
+    "detail": "message_id=251480537223385088",
+    "at": "2026-11-25T22:53:50Z"
+  }
 }
