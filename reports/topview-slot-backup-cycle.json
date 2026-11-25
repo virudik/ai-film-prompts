@@ -5,31 +5,31 @@
   "runner": "dot_scheduled_handler",
   "automation_id": "6afc8b674794819192ba0b1415c5a220",
   "automation_context_version": "d33b8ca4e3c0421986e1a4a8b7b6a9069c4e43fb0db2cec1835fb8b5e57c0be1",
-  "execution_instance_id": "48647cbe-5141-4e57-88a2-cecd806be292",
+  "execution_instance_id": "46ca7cb4-a02f-42da-97f4-caf603b064dd",
   "actual_trigger": "scheduled",
-  "scheduled_for": "2026-11-25T00:00:00Z",
+  "scheduled_for": "2026-11-25T01:00:00Z",
   "run_id": null,
   "run_id_unavailable_reason": "Runtime notification does not expose platform run_id.",
-  "started_at": "2026-11-25T00:01:53Z",
-  "updated_at": "2026-11-25T00:03:40.269Z",
-  "phase": "completed",
-  "status": "completed",
-  "source_head": "1e743e51e3fd6b8eb429bad39d22c2272469fe2c",
+  "started_at": "2026-11-25T01:01:21Z",
+  "updated_at": "2026-11-25T01:02:33.272Z",
+  "phase": "started",
+  "status": "started",
+  "source_head": "3cd613de31aa42ce5d003851d208eac42fc4a151",
   "route_generation": 7,
   "lease": {
     "schema_version": 1,
     "state": "held",
-    "holder": "chatgpt:ordinary:48647cbe-5141-4e57-88a2-cecd806be292",
-    "task": "Scheduled 00:00 UTC Topview capacity and archive check",
-    "acquired_at": "2026-11-25T00:03:32.603Z",
-    "expires_at": "2026-11-25T00:13:32.603Z",
+    "holder": "chatgpt:ordinary:46ca7cb4-a02f-42da-97f4-caf603b064dd",
+    "task": "Scheduled 01:00 UTC Topview capacity and archive check",
+    "acquired_at": "2026-11-25T01:02:30.048Z",
+    "expires_at": "2026-11-25T01:12:30.048Z",
     "released_at": null,
     "rules": "ops/CANON-LOCK.md"
   },
   "browser_transport": "dot_own_browser",
   "scan": {
-    "started_at": "2026-11-25T00:02:19.219Z",
-    "checked_at": "2026-11-25T00:02:29.282Z",
+    "started_at": "2026-11-25T01:01:40.976Z",
+    "checked_at": "2026-11-25T01:01:47.454Z",
     "complete": true,
     "boards_listed": 14,
     "pages_scanned": 21,
@@ -53,10 +53,9 @@
   ],
   "new_submissions": 0,
   "execution": {
-    "state": "completed",
-    "stage": "all_slots_occupied_archive_source_pending",
-    "updated_at": "2026-11-25T00:03:40.269Z",
-    "completed_at": "2026-11-25T00:03:40.269Z"
+    "state": "started",
+    "stage": "full_scan_verified_archive_check",
+    "updated_at": "2026-11-25T01:02:33.272Z"
   },
   "owner_tasks_open_count": 0,
   "work_backup": {
@@ -65,20 +64,5 @@
     "requires_user_action": true,
     "changed": false
   },
-  "hangar_archive": {
-    "topview_count": 28,
-    "new_copies": 0,
-    "latest_verified_existing_task_id": "55dadcb20d2b48a09d1b2b6b4ba0d9ea",
-    "grok_full_source_catalog_checked": false,
-    "pending_task_id": "3644ab40a51c428b9e733aaba2c1c24b",
-    "pending_item_id": "S28-A4-20261023",
-    "pending_reason": "Completed provider output; standard source Drive archive not yet verified, curated copy absent."
-  },
-  "browser_not_used_reason": "Complete read-only live scan confirmed six occupied physical slots; no UI changes needed.",
-  "completed_at": "2026-11-25T00:03:40.269Z",
-  "outcome": "no_update_all_slots_occupied",
-  "next_action_unchanged": true,
-  "started_receipt_readback": true,
-  "blocker": null,
-  "retryable": false
+  "browser_not_used_reason": "Complete read-only live scan confirmed six occupied physical slots; no UI changes needed."
 }
