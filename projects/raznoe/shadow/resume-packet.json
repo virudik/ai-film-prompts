@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-25T22:53:17+00:00",
-  "source_head": "f83d225da1844803aff2e17fdffad610f49d2561",
-  "source_fingerprint": "b881118e34166452a700404d90a9610404f03121dd8bedbf5beed4866a0c962f",
+  "checked_at": "2026-11-25T22:54:41+00:00",
+  "source_head": "76200813d9aa1036abe54add433004f97fcd73c4",
+  "source_fingerprint": "3887d376d61a7f8019777d15caffdf0ae80c76bb11d8ffa70097e02717302cfc",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -35,6 +35,8 @@
     "brief was invalid at generation",
     "instruction certificate mismatch: NEW-CHAT-HANDOFF.md",
     "instruction certificate mismatch: AI-PROJECT-GUIDE.md",
+    "project-status health not ok",
+    "project master/status mismatch: raznoe",
     "resume target is missing or finished: RAZNOE-STAKHIY-SCENE6-20261118"
   ],
   "selected_work": null,
@@ -197,8 +199,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "a841b9b77a4907d9fc2dcf0f7814dcd5f93c95f7a390e2d11e7bd244c3cad776",
-      "bytes": 29586
+      "sha256": "79cd9054b8dad3148233a7a6a798a6ed09db8a92abae113b0a40d0792eaabade",
+      "bytes": 29633
     },
     {
       "file": "projects/README.md",
@@ -227,8 +229,8 @@
     },
     {
       "file": "projects/raznoe/project-status.json",
-      "sha256": "0396608fcd29c0bb732bf4a5448991ee37a601a8f3e8d9c2a964f9cdaf49d66e",
-      "bytes": 13552
+      "sha256": "e248643dd74d5948376d942eab0ce1c6f771ec3846994754420b30ce206788cc",
+      "bytes": 13599
     },
     {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
@@ -257,8 +259,8 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "55bfe04ed83fbf32fcca13ce7a3a6022a869d69f1d5c604c58406a3b044421c7",
-      "bytes": 32461
+      "sha256": "313f26447d05eab831f387fe2871bc94b02fc2cd94162ab9f6328f290ab20f89",
+      "bytes": 32464
     },
     {
       "file": "video-prompts.md",
@@ -266,5 +268,5 @@
       "bytes": 2004522
     }
   ],
-  "packet_bytes": 4022
+  "packet_bytes": 4094
 }

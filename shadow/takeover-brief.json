@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-11-25T22:53:17+00:00",
+ "generated_at": "2026-11-25T22:54:41+00:00",
  "valid_at_generation": false,
  "validity_mismatches": [
   "NEW-CHAT-HANDOFF.md",
@@ -191,7 +191,7 @@
   "extra_current_sections": []
  },
  "runtime": {
-  "project_health": "ok",
+  "project_health": "error",
   "scenes": 46,
   "prompt_texts": 265,
   "scene_ids": [

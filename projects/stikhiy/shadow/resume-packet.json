@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "stikhiy",
   "project_name": "Стахий",
-  "checked_at": "2026-11-25T22:53:17+00:00",
-  "source_head": "f83d225da1844803aff2e17fdffad610f49d2561",
-  "source_fingerprint": "b2a4c9e814a2b22601977c0749867a0b414129ecfab6fdbcb36f49cf71b1f59a",
+  "checked_at": "2026-11-25T22:54:41+00:00",
+  "source_head": "76200813d9aa1036abe54add433004f97fcd73c4",
+  "source_fingerprint": "4f858cb510bcea3e0378288abaf5e02b4353436e35397aa331d9824676cc0828",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -14,6 +14,8 @@
     "brief was invalid at generation",
     "instruction certificate mismatch: NEW-CHAT-HANDOFF.md",
     "instruction certificate mismatch: AI-PROJECT-GUIDE.md",
+    "project-status health not ok",
+    "project master/status mismatch: stikhiy",
     "selected checkpoint hash mismatch"
   ],
   "selected_work": null,
@@ -176,8 +178,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "a841b9b77a4907d9fc2dcf0f7814dcd5f93c95f7a390e2d11e7bd244c3cad776",
-      "bytes": 29586
+      "sha256": "79cd9054b8dad3148233a7a6a798a6ed09db8a92abae113b0a40d0792eaabade",
+      "bytes": 29633
     },
     {
       "file": "projects/README.md",
@@ -206,8 +208,8 @@
     },
     {
       "file": "projects/stikhiy/project-status.json",
-      "sha256": "71a67bc2a1fca5cbd6e9c9d582c1bd6e719570ada2216a9832aae1acc373f104",
-      "bytes": 7942
+      "sha256": "0a5c4a8a7b257d9504bbf5cd6bc0284e7422a84b8ee45b803363c3f004c0a4e2",
+      "bytes": 7989
     },
     {
       "file": "projects/stikhiy/reports/current-work-checkpoint.md",
@@ -231,8 +233,8 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "55bfe04ed83fbf32fcca13ce7a3a6022a869d69f1d5c604c58406a3b044421c7",
-      "bytes": 32461
+      "sha256": "313f26447d05eab831f387fe2871bc94b02fc2cd94162ab9f6328f290ab20f89",
+      "bytes": 32464
     },
     {
       "file": "video-prompts.md",
@@ -240,5 +242,5 @@
       "bytes": 2004522
     }
   ],
-  "packet_bytes": 5525
+  "packet_bytes": 5598
 }

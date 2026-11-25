@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "kot-detektiv",
   "project_name": "Кот детектив",
-  "checked_at": "2026-11-25T22:53:17+00:00",
-  "source_head": "f83d225da1844803aff2e17fdffad610f49d2561",
-  "source_fingerprint": "2d3b6939d79c2c7e98af7d7d4ed46c279058c86a3f3ceef12f5edf4fd8b02be6",
+  "checked_at": "2026-11-25T22:54:41+00:00",
+  "source_head": "76200813d9aa1036abe54add433004f97fcd73c4",
+  "source_fingerprint": "29044f0bb3dabe84ac1346fbbcbe0e3aead438c7a11bdc7c1fc1a782cbbdb166",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -13,7 +13,9 @@
   "reasons": [
     "brief was invalid at generation",
     "instruction certificate mismatch: NEW-CHAT-HANDOFF.md",
-    "instruction certificate mismatch: AI-PROJECT-GUIDE.md"
+    "instruction certificate mismatch: AI-PROJECT-GUIDE.md",
+    "project-status health not ok",
+    "project master/status mismatch: kot-detektiv"
   ],
   "selected_work": {
     "work_id": "KD-WAIT-OWNER",
@@ -207,8 +209,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "a841b9b77a4907d9fc2dcf0f7814dcd5f93c95f7a390e2d11e7bd244c3cad776",
-      "bytes": 29586
+      "sha256": "79cd9054b8dad3148233a7a6a798a6ed09db8a92abae113b0a40d0792eaabade",
+      "bytes": 29633
     },
     {
       "file": "projects/README.md",
@@ -232,8 +234,8 @@
     },
     {
       "file": "projects/kot-detektiv/project-status.json",
-      "sha256": "7ae129e312b686ec20c7dc2d858baaa78cecde59ab67b0e47fe7430551a91711",
-      "bytes": 16728
+      "sha256": "de6dbd60bcb68a97a3020ec78a59d6bcb64946c25adf02d7a3d28187f9ff7541",
+      "bytes": 16775
     },
     {
       "file": "projects/kot-detektiv/reports/current-work-checkpoint.md",
@@ -267,8 +269,8 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "55bfe04ed83fbf32fcca13ce7a3a6022a869d69f1d5c604c58406a3b044421c7",
-      "bytes": 32461
+      "sha256": "313f26447d05eab831f387fe2871bc94b02fc2cd94162ab9f6328f290ab20f89",
+      "bytes": 32464
     },
     {
       "file": "video-prompts.md",
@@ -276,5 +278,5 @@
       "bytes": 2004522
     }
   ],
-  "packet_bytes": 5392
+  "packet_bytes": 5470
 }

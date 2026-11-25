@@ -3,7 +3,7 @@
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
 Состояние: needs_recovery
-Проверено: 2026-11-25T22:53:17+00:00
+Проверено: 2026-11-25T22:54:41+00:00
 Задача: SEREGIUS-SHIFT-20261113-T611U — Смена 13.11 t611u: очередь 48.4 и 89, отзыв по версиям Grok
 
 Последний подтверждённый этап: S89C submitted, task 5d1f4fc1b4e548a7828892c73b672990, Unlimited0; post-scan6/6
@@ -63,3 +63,4 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 - brief was invalid at generation
 - instruction certificate mismatch: NEW-CHAT-HANDOFF.md
 - instruction certificate mismatch: AI-PROJECT-GUIDE.md
+- project-status health not ok

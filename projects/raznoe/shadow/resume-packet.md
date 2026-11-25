@@ -3,7 +3,7 @@
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project raznoe`; разрешением на запуск не является.
 
 Состояние: needs_recovery
-Проверено: 2026-11-25T22:53:17+00:00
+Проверено: 2026-11-25T22:54:41+00:00
 Задача: не определена — 
 
 Последний подтверждённый этап: нет доказательств
@@ -49,4 +49,6 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 - brief was invalid at generation
 - instruction certificate mismatch: NEW-CHAT-HANDOFF.md
 - instruction certificate mismatch: AI-PROJECT-GUIDE.md
+- project-status health not ok
+- project master/status mismatch: raznoe
 - resume target is missing or finished: RAZNOE-STAKHIY-SCENE6-20261118

@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "kotmonavty",
   "project_name": "Котмонавты",
-  "checked_at": "2026-11-25T22:53:17+00:00",
-  "source_head": "f83d225da1844803aff2e17fdffad610f49d2561",
-  "source_fingerprint": "71d151703ebf1c9b4bad6adc8752c5e3dc2208ddceb9f66a1f995dcf44b7f574",
+  "checked_at": "2026-11-25T22:54:41+00:00",
+  "source_head": "76200813d9aa1036abe54add433004f97fcd73c4",
+  "source_fingerprint": "af9c2c06eeb07e17428c483372bbddbfe5466be798fa3916b95796cd1f30b7ce",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -14,6 +14,8 @@
     "brief was invalid at generation",
     "instruction certificate mismatch: NEW-CHAT-HANDOFF.md",
     "instruction certificate mismatch: AI-PROJECT-GUIDE.md",
+    "project-status health not ok",
+    "project master/status mismatch: kotmonavty",
     "recovery evidence changed: projects/kotmonavty/ops/topview-launch-queue.json"
   ],
   "selected_work": null,
@@ -193,8 +195,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "a841b9b77a4907d9fc2dcf0f7814dcd5f93c95f7a390e2d11e7bd244c3cad776",
-      "bytes": 29586
+      "sha256": "79cd9054b8dad3148233a7a6a798a6ed09db8a92abae113b0a40d0792eaabade",
+      "bytes": 29633
     },
     {
       "file": "projects/README.md",
@@ -218,8 +220,8 @@
     },
     {
       "file": "projects/kotmonavty/project-status.json",
-      "sha256": "5e9cf75e04c46f697fc8751d33f253ee708e3a156fda586e3ce7a24c97aac44d",
-      "bytes": 17153
+      "sha256": "c0b8ad47384a46b39015a5c06bdfea27e39f54ccef9bf208c190a1916b09c5b5",
+      "bytes": 17200
     },
     {
       "file": "projects/kotmonavty/reports/KM04-WAN30-20261030.json",
@@ -263,8 +265,8 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "55bfe04ed83fbf32fcca13ce7a3a6022a869d69f1d5c604c58406a3b044421c7",
-      "bytes": 32461
+      "sha256": "313f26447d05eab831f387fe2871bc94b02fc2cd94162ab9f6328f290ab20f89",
+      "bytes": 32464
     },
     {
       "file": "video-prompts.md",
@@ -272,5 +274,5 @@
       "bytes": 2004522
     }
   ],
-  "packet_bytes": 7071
+  "packet_bytes": 7147
 }
