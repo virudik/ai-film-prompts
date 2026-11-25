@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:93c876de-9f50-48b7-9011-1aef90549e7f",
-  "task": "Owner-authorized Topview Drive archive pool refill slots 121–140",
-  "acquired_at": "2026-11-25T22:15:09.163Z",
-  "expires_at": null,
-  "released_at": "2026-11-25T22:15:12.308Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:65216e18-5e5e-4d1b-9e92-3dbe44b2dc6c",
+  "task": "Scheduled 22:00 UTC Topview capacity and archive check",
+  "acquired_at": "2026-11-25T22:15:53.643Z",
+  "expires_at": "2026-11-25T22:20:53.643Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
