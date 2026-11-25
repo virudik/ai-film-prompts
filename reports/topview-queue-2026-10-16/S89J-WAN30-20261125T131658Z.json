@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "item_id": "S89J-WAN30",
+  "outcome": "submitted",
+  "task_id": "45fb0ba125114ba48b48dd8a129f9015",
+  "submitted_at": "2026-11-25T13:16:58Z",
+  "create_clicked_at_approx": "2026-11-25T13:16:56Z",
+  "checked_at": "2026-11-25T13:18:21Z",
+  "create_click_count": 1,
+  "credits_spent": 0,
+  "credit_balance_before_after": [
+    11.05,
+    11.05
+  ],
+  "creditsCost": 0,
+  "useUnlimitMode": true,
+  "numeric_zero_displayed": false,
+  "ui_unlimited_label": "Безлимитный режим — бесплатно",
+  "credits_cost_evidence": "selected_free_unlimited_current_form",
+  "owner_free_label_rule": "owner t718s3708 19.11 03:30 MSK; ops/TOPVIEW-FREE-LAUNCH.md",
+  "browser": "parent-coordinated Grok computerUse helper; UI screenshot kept privately",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "model_id": "qwen-wan3.0-video",
+  "duration_seconds": 30,
+  "resolution": 720,
+  "aspect_ratio": "16:9",
+  "topview_status_at_check": "init",
+  "canonical_prompt_sha256": "c1d585532c0b8e4bbe05d2125c138159c5891609826fb5c9bef95a024c788454",
+  "normalized_prompt_sha256": "d4fa2bccbfd08779ddda220d2fe51b8e068292c478533993ea550a9cebc7ec9a",
+  "submitted_prompt_sha256_raw": "2f8de55a18554e3d620df47ce3cc47310a1ed829c19aa2ebe3cf113fb9379e26",
+  "full_prompt_match": true,
+  "prompt_match_method": "provider positivePrompt with <<<ImageN>>> chips mapped to @ImageN equals canonical block ignoring whitespace",
+  "submitted_prompt_verbatim": "Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Wan 3.0 / Seedance 2.5 | Photoreal cantina, corner table\n\nREFERENCES / AUTHORITY ORDER:\n<<<Image1>>>  = references/scenes/scene-89/shared/jedi1-ilyusha-scene.png — ILYUSHA, Jedi 1. He talks. Original slot Image1 of 56ca95b2. Same file as 89I <<<Image1>>> .\n<<<Image2>>>  = references/scenes/scene-89/shared/jedi2-artem-scene.png — ARTEM, Jedi 2. Short replies. Original slot Image2. Same file as 89I <<<Image2>>> .\n<<<Image3>>>  = references/full/ilyusha.jpg — current face sheet of Ilyusha. Identity only.\n<<<Image4>>>  = references/full/artem.jpg — current face sheet of Artem. Identity only.\nOrder is fixed. The 15s and 30s versions of this sub-scene use this same order and these same files.\nAttached images are the only visual authority for this generation. If a sentence conflicts with an attached image, follow the image. Do not invent extra reference slots.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\nILYUSHA (<<<Image1>>> , face sheet <<<Image3>>> ): moustache, green tunic, dark-red cloak, hood down. Chatty. He asks.\nARTEM (<<<Image2>>> , face sheet <<<Image4>>> ): stockier, beard, beige and brown Jedi tunic. He answers in short lines.\nExactly these two in the foreground. Hoods stay down. Beer mugs stay in their hands or on the table.\n\nLIP SYNC / WHO SPEAKS:\nOnly one mouth moves at a time.\nILYUSHA speaks his questions. While he speaks, ARTEM's mouth is closed.\nARTEM speaks his short answers. While he speaks, ILYUSHA's mouth is closed.\nNo gibberish, no extra words, no English, no chorus. Clear Russian.\n\nSTART STATE:\nThey are already across the corner table. Beers down. Comfortable silence, mouths closed.\n\nSTORY FLOW:\n0–6s — SETUP. The corner, the round table, two mugs. Ilyusha looks at Artem as if the complaint has been building. Artem leans back. No speech yet.\n6–14s — DEVELOPMENT. ILYUSHA: «…и вот эти их TIE fighters. Ты видел? Квадратные солнечные панели, круглая будка. Как они вообще хоть кого-то видят?» ARTEM: «Может, там система камер?»\n14–24s — ILYUSHA, not letting it go: «Система камер? В звёздном истребителе который должен сбивать контрабандистов? Ты вообще представь: сидишь в этой банке, по бокам стенки, и единственное, что видишь – панели. Куда поворачивай – панели. Я бы на них даже на парковке везде врезался.»\n24–30s — PAYOFF. ARTEM laughs once and asks «А как тебе штурмовики?» ILYUSHA: «О, не начинай. Были раньше цветные всякие, яркие. А теперь… белый пластик, из-под кефира. Дизайн просто… школьник с ДЦП.» He stops. Artem does not top it.\n\nEND STATE:\nThe rant is finished. Both mouths closed. The corner table and the two mugs are still there.\n\nCAMERA / PERFORMANCE:\nWarm dim cantina, faces readable, one slow push. Mouths move only on that person's own line.\n\nAUDIO:\nClear native Russian, no accent. Cantina room tone under the voices. No music with lyrics.\n\nNEGATIVE:\nno extra people, no swapped faces, no child, no subtitles, no logos, no watermark, no gibberish, no two mouths talking at once, no cartoon.\n\nFRAME FILL / NO BARS:\nFull 16:9 landscape edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.",
+  "references": [
+    {
+      "slot": "@Image1",
+      "path": "references/scenes/scene-89/shared/jedi1-ilyusha-scene.png",
+      "sha256": "f308cb384704d43eb6f4db5bb9425d4ade6be930710e90d3fc4277d9995f07c4",
+      "provider_input": "Image1"
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/scenes/scene-89/shared/jedi2-artem-scene.png",
+      "sha256": "bf99a0d68b6bf1f8795dc13b4662d5ce72c61a2d4e24490bfd4ddfc8c53760e4",
+      "provider_input": "Image2"
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/full/ilyusha.jpg",
+      "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+      "provider_input": "Image3"
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/full/artem.jpg",
+      "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+      "provider_input": "Image4"
+    }
+  ],
+  "reference_count": 4,
+  "reference_sha_and_order_verified": "repo SHA verified before upload; provider stores re-encoded copies, order Image1..4 matches",
+  "claim_before_submission": {
+    "claim_id": "106b5b11-81a1-416f-b010-9bdfa3f4c346",
+    "intent_id": "b12e3fe5-8490-48be-aaa2-1d2800026fb9",
+    "intent_at": "2026-11-25T13:16:03Z",
+    "intent_payload_sha256": "2efb1ff19800bae7810828642c20c8a43175ddcee836a2d668a1f2b5caad9343",
+    "verify_main": "6efb24fe6221006b9b04d4c1e0627515ae70f71a",
+    "lease_holder": "grok:f5b3132d-f8b6-46e1-9289-0fa7893be2fd"
+  },
+  "trigger": "standing t413u-20261109; queue order owner t853u 2026-11-23T09:50:00Z (commit f0bf0f1ae7e90422b7b3db535095705da25b4044); wake #1023",
+  "event_id": "result:2891ed5c97be4438ac3a23f9b19ea193",
+  "issue_number": 1023,
+  "evidence": {
+    "detection": "topview_list_board_tasks newest on My First Board + topview_get_board_task",
+    "credits_balance_ui": "11.05 before/after"
+  },
+  "artistic_acceptance": "pending_owner_review",
+  "retry_forbidden": true
+}

@@ -2843,11 +2843,13 @@
       "run_id_unavailable_reason": "not exposed",
       "execution_instance_id": "f5b3132d-f8b6-46e1-9289-0fa7893be2fd",
       "route_generation": 7,
-      "outcome": "started",
-      "retryable": true,
+      "outcome": "submitted",
+      "retryable": false,
       "item_id": "S89J-WAN30",
-      "task_ids": [],
-      "new_submissions": 0,
+      "task_ids": [
+        "45fb0ba125114ba48b48dd8a129f9015"
+      ],
+      "new_submissions": 1,
       "credits_spent": 0,
       "owner_command": {
         "standing_command_id": "t413u-20261109",
@@ -2862,7 +2864,7 @@
         "quote": "Хотя танцевальный номер уже смонтирован и вместо танцев давай диалоги сначала",
         "commit": "f0bf0f1ae7e90422b7b3db535095705da25b4044"
       },
-      "checked_at": "2026-11-25T13:12:24Z",
+      "checked_at": "2026-11-25T13:18:21Z",
       "completed_result": {
         "task_id": "2891ed5c97be4438ac3a23f9b19ea193",
         "item_id": "S28-A6-20261023",
@@ -2870,11 +2872,16 @@
         "completed_at": "2026-11-25T12:51:18Z"
       },
       "execution": {
-        "state": "started",
-        "stage": "lease",
+        "state": "completed",
+        "stage": "submitted",
         "started_at": "2026-11-25T13:03:40Z",
-        "updated_at": "2026-11-25T13:12:24Z"
-      }
+        "updated_at": "2026-11-25T13:18:21Z",
+        "completed_at": "2026-11-25T13:18:21Z"
+      },
+      "receipt": "reports/topview-queue-2026-10-16/S89J-WAN30-20261125T131658Z.json",
+      "claim_id": "106b5b11-81a1-416f-b010-9bdfa3f4c346",
+      "submission_intent_id": "b12e3fe5-8490-48be-aaa2-1d2800026fb9",
+      "create_click_count": 1
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
