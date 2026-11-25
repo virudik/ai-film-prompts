@@ -6,10 +6,10 @@
   "status": "reference_images_ready",
   "references": [
     {
-      "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+      "path": "projects/kotmonavty/references/ship-exterior-front.png",
       "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
       "role": "vehicle_exterior",
-      "asset_id": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+      "asset_id": "projects/kotmonavty/references/ship-exterior-front.png",
       "media_type": "image",
       "owner_approval": "design_selected_2026-10-17T03:32MSK",
       "assistant_qc": {
@@ -18,7 +18,7 @@
         "checked_at": "2026-10-19"
       },
       "site_published": {
-        "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+        "path": "projects/kotmonavty/references/ship-exterior-front.png",
         "linked_in_master": true,
         "git_present": true
       },
@@ -184,7 +184,7 @@
       "slots": [
         {
           "slot": "@Image1",
-          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+          "path": "projects/kotmonavty/references/ship-exterior-front.png",
           "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
           "required": true,
           "input_status": "available"
@@ -241,7 +241,7 @@
       "slots": [
         {
           "slot": "@Image1",
-          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+          "path": "projects/kotmonavty/references/ship-exterior-front.png",
           "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
           "required": true,
           "input_status": "available"
@@ -306,7 +306,7 @@
         },
         {
           "slot": "@Image1",
-          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+          "path": "projects/kotmonavty/references/ship-exterior-front.png",
           "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
           "required": true,
           "input_status": "available"
@@ -356,7 +356,7 @@
     "Individual sheets outrank helpers for identity",
     "@Image numbering is local to this prompt",
     "Missing @Video inputs must not be invented",
-    "Ship design authority = references/scenes/scene-45/S45-roskotmos-ship-first-option.png (owner 20.10)"
+    "Ship design authority = projects/kotmonavty/references/ship-exterior-front.png (owner 20.10)"
   ],
   "note": "Owner 20.10.2026 02:29 MSK. Place: 46 → 57 → 58 → 40 → 26 (default choice, owner may change).",
   "additional_available_orientation_reference": {

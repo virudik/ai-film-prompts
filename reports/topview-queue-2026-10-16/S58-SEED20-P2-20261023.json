@@ -68,7 +68,7 @@
     },
     {
       "slot": "@Image4",
-      "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+      "path": "projects/kotmonavty/references/ship-exterior-front.png",
       "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
       "required": true,
       "input_status": "available"

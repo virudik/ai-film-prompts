@@ -368,6 +368,56 @@ def pr_body(changed):
     return "\n".join(lines).rstrip() + "\n"
 
 
+STUCK_LABEL = "handoff-trim-stuck"
+STUCK_TITLE = "Хендоф больше порога, а переносить нечего"
+
+
+def section_sizes(text):
+    pre, sections = split_level(text or "", 2)
+    rows = [("преамбула", len(pre.encode("utf-8")))]
+    for section in sections:
+        rows.append((first_line(section)[:120], len(section.encode("utf-8"))))
+    rows.sort(key=lambda item: item[1], reverse=True)
+    return rows
+
+
+def stuck_issue(root, now=None):
+    """Issue payload when a size warning remains and no dated block can move. None otherwise."""
+    root = Path(root)
+    warned = targets(root)
+    if not warned:
+        return None
+    stuck = []
+    for rel in warned:
+        src = root / rel
+        if not src.is_file():
+            stuck.append((rel, "файла нет"))
+            continue
+        arch_rel = archive_for(root, rel)
+        arch = root / arch_rel
+        result = propose(src.read_text(encoding="utf-8"),
+                         arch.read_text(encoding="utf-8") if arch.is_file() else "", rel, now)
+        if result:
+            return None
+        stuck.append((rel, src))
+    lines = [
+        "Робот чистки не нашёл датированных блоков, которые можно перенести, но предупреждение о размере осталось.",
+        "Он не выходит молча и сам этот вопрос не решает. Хендоф прямым коммитом не режется.",
+        "",
+    ]
+    for rel, src in stuck:
+        if isinstance(src, str):
+            lines.append(f"- `{rel}`: {src}")
+            continue
+        text = src.read_text(encoding="utf-8")
+        lines.append(f"- `{rel}`: {len(text.encode('utf-8')) // 1000} КБ. "
+                     "Датированных блоков старше текущего «СЕЙЧАС» нет: объём держат постоянные разделы.")
+        for title, size in section_sizes(text)[:8]:
+            lines.append(f"  - {size // 1000} КБ — {title}")
+    lines.extend(["", "Нужно решение владельца: что из оставшихся разделов можно вынести. Робот PR не вливает."])
+    return {"needed": True, "label": STUCK_LABEL, "title": STUCK_TITLE, "body": "\n".join(lines) + "\n"}
+
+
 def notify_text(pr_url, changed):
     files = ", ".join(item["file"] for item in changed) or "хендоф"
     return (
@@ -394,7 +444,13 @@ def main(argv=None):
     parser.add_argument("--pr-body", action="store_true", help="print the pull-request body for a proposal already applied")
     parser.add_argument("--body-json", help="read a previous --write JSON report and print the PR body or notice")
     parser.add_argument("--notify-text", help="print the Agent Relay notice for this PR url")
+    parser.add_argument("--stuck-issue", action="store_true",
+                        help="print the GitHub issue payload when a size warning remains and nothing can move")
     args = parser.parse_args(argv)
+    if args.stuck_issue:
+        payload = stuck_issue(args.root) or {"needed": False}
+        print(json.dumps(payload, ensure_ascii=False, indent=2))
+        return 0
     if args.body_json:
         report = json.loads(Path(args.body_json).read_text(encoding="utf-8"))
         changed = report.get("proposals") or []

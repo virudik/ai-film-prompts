@@ -6240,7 +6240,7 @@ Seedance 2.0 task `20bf2d185da546aa8aba3b1d4508d0d8` технически зав
 
 **Референсы:**
 
-- @Image1 — <a href="references/scenes/scene-45/S45-roskotmos-ship-first-option.png">корабль РосКОТмоса, первый референс</a> (дизайн корабля);
+- @Image1 — <a href="projects/kotmonavty/references/ship-exterior-front.png">корабль РосКОТмоса, первый референс</a> (дизайн корабля);
 - @Image2 — <a href="references/scenes/scene-57/S57-crash-avenue.png">аллея колонн и статуй до аварии</a> (готовый референс ChatGPT);
 - @Image3 — <a href="references/scenes/scene-27/S27-Image5-topview-source.png">руины планеты ситхов</a> (палитра, свет, горизонт);
 - @Image4 — <a href="references/scenes/scene-24/S24-Image3-topview-source.png">кабина котов из 24/25</a>;
@@ -6249,7 +6249,7 @@ Seedance 2.0 task `20bf2d185da546aa8aba3b1d4508d0d8` технически зав
 
 <div class="scene-ref-gallery">
 <figure><a href="references/scenes/scene-57/S57-crash-avenue.png" target="_blank" rel="noopener"><img src="references/scenes/scene-57/S57-crash-avenue.png" alt="@Image2 — аллея до аварии"></a><figcaption>@Image2 — аллея до аварии</figcaption></figure>
-<figure><a href="references/scenes/scene-45/S45-roskotmos-ship-first-option.png" target="_blank" rel="noopener"><img src="references/scenes/scene-45/S45-roskotmos-ship-first-option.png" alt="@Image1 — корабль РосКОТмоса"></a><figcaption>@Image1 — корабль РосКОТмоса, первый референс</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/ship-exterior-front.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ship-exterior-front.png" alt="@Image1 — корабль РосКОТмоса"></a><figcaption>@Image1 — корабль РосКОТмоса, первый референс</figcaption></figure>
 <figure><a href="references/scenes/scene-27/S27-Image5-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-27/S27-Image5-topview-source.png" alt="@Image3 — руины ситхов"></a><figcaption>@Image3 — руины ситхов</figcaption></figure>
 <figure><a href="references/scenes/scene-24/S24-Image3-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-24/S24-Image3-topview-source.png" alt="@Image4 — кабина котов"></a><figcaption>@Image4 — кабина котов</figcaption></figure>
 <figure><a href="references/luchik.jpg" target="_blank" rel="noopener"><img src="references/luchik.jpg" alt="@Image5 — Лучик"></a><figcaption>@Image5 — Лучик</figcaption></figure>
@@ -6339,9 +6339,9 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 Та же сцена двумя роликами по 15 с: сначала часть 1, часть 2 — после её результата (@Video1 части 2 = последние секунды части 1). Нумерация входов в каждой части своя.
 
-**Входы части 1:** @Image1 — `references/scenes/scene-45/S45-roskotmos-ship-first-option.png` (корабль); @Image2 — `references/scenes/scene-57/S57-crash-avenue.png` (аллея, готова); @Image3 — `references/scenes/scene-27/S27-Image5-topview-source.png` (руины); @Image4 — `references/scenes/scene-24/S24-Image3-topview-source.png` (кабина); @Image5 — `references/luchik.jpg`; @Image6 — `references/ryzhik.jpg`.
+**Входы части 1:** @Image1 — `projects/kotmonavty/references/ship-exterior-front.png` (корабль); @Image2 — `references/scenes/scene-57/S57-crash-avenue.png` (аллея, готова); @Image3 — `references/scenes/scene-27/S27-Image5-topview-source.png` (руины); @Image4 — `references/scenes/scene-24/S24-Image3-topview-source.png` (кабина); @Image5 — `references/luchik.jpg`; @Image6 — `references/ryzhik.jpg`.
 
-**Входы части 2:** @Video1 — конец части 1; @Image1 — `references/scenes/scene-45/S45-roskotmos-ship-first-option.png` (корабль); @Image2 — `references/scenes/scene-57/S57-crash-avenue.png` (аллея); @Image3 — `references/scenes/scene-24/S24-Image3-topview-source.png` (кабина); @Image4 — `references/luchik.jpg`; @Image5 — `references/ryzhik.jpg`.
+**Входы части 2:** @Video1 — конец части 1; @Image1 — `projects/kotmonavty/references/ship-exterior-front.png` (корабль); @Image2 — `references/scenes/scene-57/S57-crash-avenue.png` (аллея); @Image3 — `references/scenes/scene-24/S24-Image3-topview-source.png` (кабина); @Image4 — `references/luchik.jpg`; @Image5 — `references/ryzhik.jpg`.
 
 #### 57 · Seedance 2.0 часть 1
 
@@ -6502,7 +6502,7 @@ Seedance 2.0 task `6598a21c2c684d43b7cede9cfc987107` технически зав
 **Референсы:**
 
 - @Image1 — <a href="references/scenes/scene-58/S58-wreck-start-owner-selected.png">первый аварийный кадр — нос в постаменте</a> (созданный стартовый референс, не извлечённый видеокадр);
-- @Image2 — <a href="references/scenes/scene-45/S45-roskotmos-ship-first-option.png">корабль РосКОТмоса, первый референс</a> (дизайн, эмблема);
+- @Image2 — <a href="projects/kotmonavty/references/ship-exterior-front.png">корабль РосКОТмоса, первый референс</a> (дизайн, эмблема);
 - @Image3 — <a href="references/luchik.jpg">Лучик</a>;
 - @Image4 — <a href="references/ryzhik.jpg">Рыжик</a>;
 - @Image5 — <a href="references/scenes/scene-57/S57-crash-avenue.png">та же аллея до аварии</a>;
@@ -6517,7 +6517,7 @@ Seedance 2.0 task `6598a21c2c684d43b7cede9cfc987107` технически зав
 <figure><a href="references/scenes/scene-58/S58-emblem-at-cats-paws.png" target="_blank" rel="noopener"><img src="references/scenes/scene-58/S58-emblem-at-cats-paws.png" alt="Эмблема у лап"></a><figcaption>Эмблема у лап</figcaption></figure>
 <figure><a href="references/scenes/scene-58/S58-wreck-start-owner-selected.png" target="_blank" rel="noopener"><img src="references/scenes/scene-58/S58-wreck-start-owner-selected.png" alt="@Image1 — корабль после аварии"></a><figcaption>@Image1 — корабль после аварии</figcaption></figure>
 <figure><a href="references/scenes/scene-57/S57-crash-avenue.png" target="_blank" rel="noopener"><img src="references/scenes/scene-57/S57-crash-avenue.png" alt="@Image5 — аллея до аварии"></a><figcaption>@Image5 — аллея до аварии</figcaption></figure>
-<figure><a href="references/scenes/scene-45/S45-roskotmos-ship-first-option.png" target="_blank" rel="noopener"><img src="references/scenes/scene-45/S45-roskotmos-ship-first-option.png" alt="@Image2 — корабль РосКОТмоса"></a><figcaption>@Image2 — корабль РосКОТмоса, первый референс</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/ship-exterior-front.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ship-exterior-front.png" alt="@Image2 — корабль РосКОТмоса"></a><figcaption>@Image2 — корабль РосКОТмоса, первый референс</figcaption></figure>
 <figure><a href="references/luchik.jpg" target="_blank" rel="noopener"><img src="references/luchik.jpg" alt="@Image3 — Лучик"></a><figcaption>@Image3 — Лучик</figcaption></figure>
 <figure><a href="references/ryzhik.jpg" target="_blank" rel="noopener"><img src="references/ryzhik.jpg" alt="@Image4 — Рыжик"></a><figcaption>@Image4 — Рыжик</figcaption></figure>
 </div>
@@ -6528,7 +6528,7 @@ Seedance 2.0 task `6598a21c2c684d43b7cede9cfc987107` технически зав
 
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
-**Входы 30 с:** @Image1 — `references/scenes/scene-58/S58-wreck-start-owner-selected.png`; @Image2 — `references/scenes/scene-45/S45-roskotmos-ship-first-option.png`; @Image3 — `references/luchik.jpg`; @Image4 — `references/ryzhik.jpg`; @Image5 — `references/scenes/scene-57/S57-crash-avenue.png`; @Image6 — `references/scenes/scene-58/S58-cats-escape-open-hatch.png`; @Image7 — `references/scenes/scene-58/S58-ship-explosion-open-hatch.png`; @Image8 — `references/scenes/scene-58/S58-emblem-at-cats-paws.png`.
+**Входы 30 с:** @Image1 — `references/scenes/scene-58/S58-wreck-start-owner-selected.png`; @Image2 — `projects/kotmonavty/references/ship-exterior-front.png`; @Image3 — `references/luchik.jpg`; @Image4 — `references/ryzhik.jpg`; @Image5 — `references/scenes/scene-57/S57-crash-avenue.png`; @Image6 — `references/scenes/scene-58/S58-cats-escape-open-hatch.png`; @Image7 — `references/scenes/scene-58/S58-ship-explosion-open-hatch.png`; @Image8 — `references/scenes/scene-58/S58-emblem-at-cats-paws.png`.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -6607,9 +6607,9 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 Та же сцена двумя роликами по 15 с: сначала часть 1, часть 2 — после её результата (@Video1 части 2 = последние секунды части 1). Нумерация входов в каждой части своя.
 
-**Входы части 1:** @Image1 — `references/scenes/scene-58/S58-wreck-start-owner-selected.png`; @Image2 — `references/scenes/scene-45/S45-roskotmos-ship-first-option.png`; @Image3 — `references/luchik.jpg`; @Image4 — `references/ryzhik.jpg`; @Image5 — `references/scenes/scene-57/S57-crash-avenue.png`; @Image6 — `references/scenes/scene-58/S58-cats-escape-open-hatch.png`.
+**Входы части 1:** @Image1 — `references/scenes/scene-58/S58-wreck-start-owner-selected.png`; @Image2 — `projects/kotmonavty/references/ship-exterior-front.png`; @Image3 — `references/luchik.jpg`; @Image4 — `references/ryzhik.jpg`; @Image5 — `references/scenes/scene-57/S57-crash-avenue.png`; @Image6 — `references/scenes/scene-58/S58-cats-escape-open-hatch.png`.
 
-**Входы части 2:** @Video1 — настоящий конец части 1; @Image1 — `references/luchik.jpg`; @Image2 — `references/ryzhik.jpg`; @Image3 — `references/scenes/scene-58/S58-ship-explosion-open-hatch.png`; @Image4 — `references/scenes/scene-45/S45-roskotmos-ship-first-option.png`; @Image5 — `references/scenes/scene-58/S58-cats-escape-open-hatch.png`; @Image6 — `references/scenes/scene-58/S58-emblem-at-cats-paws.png`.
+**Входы части 2:** @Video1 — настоящий конец части 1; @Image1 — `references/luchik.jpg`; @Image2 — `references/ryzhik.jpg`; @Image3 — `references/scenes/scene-58/S58-ship-explosion-open-hatch.png`; @Image4 — `projects/kotmonavty/references/ship-exterior-front.png`; @Image5 — `references/scenes/scene-58/S58-cats-escape-open-hatch.png`; @Image6 — `references/scenes/scene-58/S58-emblem-at-cats-paws.png`.
 
 #### 58 · Seedance 2.0 часть 1
 

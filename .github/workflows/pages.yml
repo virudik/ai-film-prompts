@@ -1,0 +1,53 @@
+name: Publish GitHub Pages
+
+# Filtered site artifact. Heavy generation stills stay in git for prompts and are
+# not uploaded. Deploy runs only after the repository source is GitHub Actions
+# (build_type=workflow). Until then the check exits and the current branch
+# publish is left as it is.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  mode:
+    runs-on: ubuntu-latest
+    outputs:
+      build_type: ${{ steps.mode.outputs.build_type }}
+    steps:
+      - name: Read the Pages source
+        id: mode
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mode=$(gh api "repos/${GITHUB_REPOSITORY}/pages" --jq .build_type || echo unknown)
+          echo "build_type=$mode" >> "$GITHUB_OUTPUT"
+          echo "Pages source is $mode"
+
+  deploy:
+    needs: mode
+    if: needs.mode.outputs.build_type == 'workflow'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/configure-pages@v5
+      - name: Assemble the site
+        run: python3 scripts/pages_publish.py . "$RUNNER_TEMP/site" --mode workflow
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ runner.temp }}/site
+      - id: deployment
+        uses: actions/deploy-pages@v4

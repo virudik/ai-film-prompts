@@ -16,7 +16,7 @@
         "kind": "chatgpt_imagegen",
         "created_at": "2026-10-20T00:29:29.065Z",
         "input_paths": [
-          "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+          "projects/kotmonavty/references/ship-exterior-front.png",
           "references/scenes/scene-57/S57-crash-avenue.png"
         ],
         "prompt_path": "references/scenes/scene-58/S58-wreck-image-prompt.txt",
@@ -44,10 +44,10 @@
       "superseded_by": "references/scenes/scene-58/S58-wreck-start-owner-selected.png"
     },
     {
-      "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+      "path": "projects/kotmonavty/references/ship-exterior-front.png",
       "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
       "role": "vehicle_exterior",
-      "asset_id": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+      "asset_id": "projects/kotmonavty/references/ship-exterior-front.png",
       "media_type": "image",
       "owner_approval": "design_selected_2026-10-17T03:32MSK",
       "assistant_qc": {
@@ -56,7 +56,7 @@
         "checked_at": "2026-10-19"
       },
       "site_published": {
-        "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+        "path": "projects/kotmonavty/references/ship-exterior-front.png",
         "linked_in_master": true,
         "git_present": true
       },
@@ -177,7 +177,7 @@
         "prompt_path": "references/scenes/scene-58/S58-ship-explosion-open-hatch-prompt.txt",
         "input_paths": [
           "references/scenes/scene-58/S58-wreck-start-owner-selected.png",
-          "references/scenes/scene-45/S45-roskotmos-ship-first-option.png"
+          "projects/kotmonavty/references/ship-exterior-front.png"
         ]
       },
       "assistant_qc": {
@@ -242,7 +242,7 @@
         "prompt_path": "references/scenes/scene-58/S58-emblem-at-cats-paws-prompt.txt",
         "input_paths": [
           "references/scenes/scene-58/S58-cats-escape-open-hatch.png",
-          "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+          "projects/kotmonavty/references/ship-exterior-front.png",
           "references/luchik.jpg",
           "references/ryzhik.jpg"
         ]
@@ -364,7 +364,7 @@
         },
         {
           "slot": "@Image2",
-          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+          "path": "projects/kotmonavty/references/ship-exterior-front.png",
           "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
           "required": true,
           "input_status": "available"
@@ -438,7 +438,7 @@
         },
         {
           "slot": "@Image2",
-          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+          "path": "projects/kotmonavty/references/ship-exterior-front.png",
           "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
           "required": true,
           "input_status": "available"
@@ -538,7 +538,7 @@
         },
         {
           "slot": "@Image4",
-          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+          "path": "projects/kotmonavty/references/ship-exterior-front.png",
           "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
           "required": true,
           "input_status": "available"
@@ -575,7 +575,7 @@
     "Individual sheets outrank helpers for identity",
     "@Image numbering is local to this prompt",
     "Missing @Video inputs must not be invented",
-    "Ship design authority = references/scenes/scene-45/S45-roskotmos-ship-first-option.png (owner 20.10)"
+    "Ship design authority = projects/kotmonavty/references/ship-exterior-front.png (owner 20.10)"
   ],
   "note": "Owner 20.10.2026 02:29 MSK. Place: 46 → 57 → 58 → 40 → 26 (default choice, owner may change).",
   "reference_timing": {

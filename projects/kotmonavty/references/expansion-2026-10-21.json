@@ -114,7 +114,7 @@
       "inputs": [
         "projects/kotmonavty/references/luchik.jpg",
         "projects/kotmonavty/references/ryzhik.jpg",
-        "projects/kotmonavty/references/ship-interior-cockpit.png",
+        "references/scenes/scene-24/S24-Image3-topview-source.png",
         "projects/kotmonavty/references/development/KM-ring-chase.png"
       ],
       "status": "generated_and_saved",
@@ -199,7 +199,7 @@
       "inputs": [
         "projects/kotmonavty/references/luchik.jpg",
         "projects/kotmonavty/references/ryzhik.jpg",
-        "projects/kotmonavty/references/ship-interior-cockpit.png"
+        "references/scenes/scene-24/S24-Image3-topview-source.png"
       ],
       "status": "generated_and_saved",
       "editorial_status": "not_approved",

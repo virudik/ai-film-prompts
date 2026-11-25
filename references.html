@@ -36,17 +36,17 @@ function closeLightbox(){const box=document.getElementById('lightbox');box.class
 let thumbs=null;
 // Ships, places, props of a project (projects/<id>/character-references.json → assets), owner decision 20.10.2026
 function renderAssets(q){const list=(reg?.assets||[]).filter(a=>JSON.stringify(a).toLowerCase().includes(q));const head=document.getElementById('assets-head'),box=document.getElementById('assets');if(!head||!box)return;head.hidden=!(reg?.assets||[]).length;
- box.innerHTML=list.map(a=>'<div class="scenehead" style="font-size:15px">'+esc(a.name)+'</div>'+(a.notes?'<div class="sub">'+esc(a.notes)+'</div>':'')+'<div class="scenegrid">'+((a.images||[]).length?(a.images||[]).map(im=>{const shown=(thumbs&&thumbs[im.path]&&thumbs[im.path].thumb)||im.path;return '<div class="sceneref assetref"><img class="zoomable" src="'+esc(shown)+'" data-full="'+esc(im.path)+'" data-orig="'+esc(im.path)+'" alt="'+esc(im.caption||a.name)+'" loading="lazy" decoding="async"><div class="fn">'+esc(im.caption||im.path.split('/').pop())+'</div></div>'}).join(''):'<div class="empty">Картинок пока нет.</div>')+'</div>').join('')}
+ box.innerHTML=list.map(a=>'<div class="scenehead" style="font-size:15px">'+esc(a.name)+'</div>'+(a.notes?'<div class="sub">'+esc(a.notes)+'</div>':'')+'<div class="scenegrid">'+((a.images||[]).length?(a.images||[]).map(im=>{const shown=(thumbs&&thumbs[im.path]&&thumbs[im.path].thumb)||im.path;return '<div class="sceneref assetref"><img class="zoomable" src="'+esc(shown)+'" data-full="'+esc(shown)+'" data-orig="'+esc(im.path)+'" alt="'+esc(im.caption||a.name)+'" loading="lazy" decoding="async"><div class="fn">'+esc(im.caption||im.path.split('/').pop())+'</div></div>'}).join(''):'<div class="empty">Картинок пока нет.</div>')+'</div>').join('')}
 function render(){
  const q=document.getElementById('q').value.trim().toLowerCase();
  const chars=(reg?.characters||[]).filter(ch=>JSON.stringify(ch).toLowerCase().includes(q));
  document.getElementById('grid').innerHTML=chars.length?chars.map(ch=>{
-  const p=ch.preview||{},src=ch.model_sheet?.full_image||ch.model_sheet?.public_image||p.url||'',full=ch.model_sheet?.full_image||src,shown=(thumbs&&thumbs[src]&&thumbs[src].thumb)||src,img=src?'<img class="zoomable" src="'+esc(shown)+'" data-full="'+esc(full)+'" data-orig="'+esc(src)+'" alt="'+esc(ch.name)+'" title="Открыть оригинал" loading="lazy" decoding="async">':'Фото пока не подтверждено';
+  const p=ch.preview||{},src=ch.model_sheet?.full_image||ch.model_sheet?.public_image||p.url||'',shown=(thumbs&&thumbs[src]&&thumbs[src].thumb)||src,img=src?'<img class="zoomable" src="'+esc(shown)+'" data-full="'+esc(shown)+'" data-orig="'+esc(src)+'" alt="'+esc(ch.name)+'" title="Открыть превью" loading="lazy" decoding="async">':'Фото пока не подтверждено';
   const gallery=(window.AIFP?.id==='stikhiy' && Array.isArray(ch.model_sheet?.gallery))?ch.model_sheet.gallery:[];
   const galleryHtml=gallery.length?'<div class="character-sheet-pairs">'+gallery.map(im=>{
     const original=im.path, preview=(thumbs&&thumbs[original]&&thumbs[original].thumb)||original;
     const cap=im.caption||ch.name;
-    return '<figure><img class="zoomable" src="'+esc(preview)+'" data-full="'+esc(original)+'" data-orig="'+esc(original)+'" alt="'+esc(cap)+'" title="Открыть оригинал" loading="lazy" decoding="async"><figcaption>'+esc(cap)+'</figcaption></figure>';
+    return '<figure><img class="zoomable" src="'+esc(preview)+'" data-full="'+esc(preview)+'" data-orig="'+esc(original)+'" alt="'+esc(cap)+'" title="Открыть превью" loading="lazy" decoding="async"><figcaption>'+esc(cap)+'</figcaption></figure>';
   }).join('')+'</div>':'';
   const sceneList=ch.scenes||[],scenes=sceneList.map(id=>'<a class="scene" href="index.html#scene-'+id+'">Сцена '+id+'</a>').join('');
   const add=(ch.model_sheet?.additional||[]).length?' + '+ch.model_sheet.additional.join(', '):'';
@@ -85,7 +85,7 @@ const SCENE_DIR=new RegExp('^'+((window.AIFP&&window.AIFP.root)||'').replace(/[.
 function renderScenes(){const el=document.getElementById('sceneRefs');if(!el)return;const active=new Set((STATUS?.scene_ids||[]).map(Number));const by=new Map();
  Object.keys(THUMBS).forEach(p=>{const m=p.match(SCENE_DIR);if(!m)return;const sid=Number(m[1]);if(active.size&&!active.has(sid))return;if(!by.has(sid))by.set(sid,[]);by.get(sid).push(p)});
  const sids=[...by.keys()].sort((a,b)=>a-b);
- el.innerHTML=sids.length?sids.map(sid=>'<div class="scenehead" style="font-size:15px"><a href="index.html#scene-'+sid+'">Сцена '+sid+'</a></div><div class="scenegrid">'+by.get(sid).sort().map(p=>'<div class="sceneref"><img class="zoomable-scene" src="'+esc(THUMBS[p].thumb||p)+'" data-full="'+esc(p)+'" alt="'+esc(p)+'" loading="lazy" decoding="async"><div class="fn">'+esc(p.split('/').pop())+'</div>'+box(p,sid)+'</div>').join('')+'</div>').join(''):'<div class="empty">Картинок сцен пока нет.</div>';
+ el.innerHTML=sids.length?sids.map(sid=>'<div class="scenehead" style="font-size:15px"><a href="index.html#scene-'+sid+'">Сцена '+sid+'</a></div><div class="scenegrid">'+by.get(sid).sort().map(p=>{const shown=THUMBS[p].thumb||p;return '<div class="sceneref"><img class="zoomable-scene" src="'+esc(shown)+'" data-full="'+esc(shown)+'" alt="'+esc(p)+'" loading="lazy" decoding="async"><div class="fn">'+esc(p.split('/').pop())+'</div>'+box(p,sid)+'</div>'}).join('')+'</div>').join(''):'<div class="empty">Картинок сцен пока нет.</div>';
  el.querySelectorAll('.zoomable-scene').forEach(img=>img.addEventListener('click',()=>openLightbox(img.dataset.full,img.alt)))}
 document.addEventListener('click',e=>{const b=e.target.closest('button[data-ref]');if(!b)return;const w=b.closest('.refbtns');const path=w.dataset.path,sid=Number(w.dataset.sid)||null;
  if(b.dataset.ref==='form'){w.querySelector('.refform').classList.toggle('open');return}

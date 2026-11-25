@@ -183,8 +183,8 @@
       "reused_from_existing_pack": true
     },
     {
-      "path": "references/scenes/scene-20/S20-Image2-topview-source.png",
-      "asset_id": "references/scenes/scene-20/S20-Image2-topview-source.png",
+      "path": "references/scenes/scene-19/S19-Image5-topview-source.png",
+      "asset_id": "references/scenes/scene-19/S19-Image5-topview-source.png",
       "sha256": "efe0ab0a37b8da125a8eb925e36e66b470e599f9c6bf145a1089bc576b2a7ab1",
       "bytes": 786405,
       "media_type": "image",
@@ -199,7 +199,7 @@
         "evidence": "Existing source file registered for provenance only; no identity/visual approval or new prompt binding."
       },
       "site_published": {
-        "path": "references/scenes/scene-20/S20-Image2-topview-source.png",
+        "path": "references/scenes/scene-19/S19-Image5-topview-source.png",
         "git_present": true,
         "linked_in_master": false
       },

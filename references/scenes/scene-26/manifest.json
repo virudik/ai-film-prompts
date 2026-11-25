@@ -56,7 +56,7 @@
       }
     },
     {
-      "path": "references/scenes/scene-26/S26-Image1-topview-source.png",
+      "path": "references/scenes/scene-27/S27-Image1-topview-source.png",
       "sha256": "a6b44b808a9be0581b853194f1d7a0949c39bdf5fd0c44fcdd1faaaae23bd81f",
       "dimensions": [
         1600,
@@ -65,7 +65,7 @@
       "drive_file_id": "19n-FVlw3yyHsLPeBhkSj8tSemivI_YQ6",
       "library_file_id": "libfile_2d5da5bfffe881918be6d60de93c1d1c",
       "role": "pose_composition_helper",
-      "asset_id": "references/scenes/scene-26/S26-Image1-topview-source.png",
+      "asset_id": "references/scenes/scene-27/S27-Image1-topview-source.png",
       "bytes": 1955624,
       "media_type": "image",
       "owner_approval": "not_recorded",
@@ -75,13 +75,13 @@
         "checked_at": "2026-10-08"
       },
       "site_published": {
-        "path": "references/scenes/scene-26/S26-Image1-topview-source.png",
+        "path": "references/scenes/scene-27/S27-Image1-topview-source.png",
         "linked_in_master": true,
         "git_present": true
       }
     },
     {
-      "path": "references/scenes/scene-26/S26-Image4-topview-source.png",
+      "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
       "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73",
       "dimensions": [
         1600,
@@ -90,7 +90,7 @@
       "drive_file_id": "1xpKEdkRM4hj8jbbwu2yYiCi_AxpZV7dv",
       "library_file_id": "libfile_b4d6a3c8000c8191ac52e33e7bb8f213",
       "role": "location",
-      "asset_id": "references/scenes/scene-26/S26-Image4-topview-source.png",
+      "asset_id": "references/scenes/scene-27/S27-Image5-topview-source.png",
       "bytes": 2034728,
       "media_type": "image",
       "owner_approval": "not_recorded",
@@ -100,7 +100,7 @@
         "checked_at": "2026-10-08"
       },
       "site_published": {
-        "path": "references/scenes/scene-26/S26-Image4-topview-source.png",
+        "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
         "linked_in_master": true,
         "git_present": true
       }
@@ -114,21 +114,21 @@
     "references/ryzhik.jpg"
   ],
   "location_refs": [
-    "references/scenes/scene-26/S26-Image4-topview-source.png"
+    "references/scenes/scene-27/S27-Image5-topview-source.png"
   ],
   "prop_refs": [],
   "start_frame": null,
   "end_frame": null,
   "pose_composition_helpers": [
-    "references/scenes/scene-26/S26-Image1-topview-source.png"
+    "references/scenes/scene-27/S27-Image1-topview-source.png"
   ],
   "video_refs": [],
   "approved": {
     "assistant_qc": [
       "references/luchik.jpg",
       "references/ryzhik.jpg",
-      "references/scenes/scene-26/S26-Image1-topview-source.png",
-      "references/scenes/scene-26/S26-Image4-topview-source.png"
+      "references/scenes/scene-27/S27-Image1-topview-source.png",
+      "references/scenes/scene-27/S27-Image5-topview-source.png"
     ],
     "scope_note": "owner_supplied_identity_refs identifies previously provided identity sources. Explicit acceptance of generated helpers/video is not inferred; owner_explicit empty means no separate acceptance receipt recorded here. Assistant QC is not owner acceptance.",
     "owner_supplied_identity_refs": [
@@ -180,7 +180,7 @@
       "model": "Wan 3",
       "slots": {
         "@Image1": {
-          "asset_id": "references/scenes/scene-26/S26-Image1-topview-source.png",
+          "asset_id": "references/scenes/scene-27/S27-Image1-topview-source.png",
           "required": true,
           "role": "pose_composition_helper",
           "status": "available"
@@ -198,7 +198,7 @@
           "status": "available"
         },
         "@Image4": {
-          "asset_id": "references/scenes/scene-26/S26-Image4-topview-source.png",
+          "asset_id": "references/scenes/scene-27/S27-Image5-topview-source.png",
           "required": true,
           "role": "location",
           "status": "available"
@@ -215,8 +215,8 @@
     "gallery_paths": [
       "references/luchik.jpg",
       "references/ryzhik.jpg",
-      "references/scenes/scene-26/S26-Image1-topview-source.png",
-      "references/scenes/scene-26/S26-Image4-topview-source.png"
+      "references/scenes/scene-27/S27-Image1-topview-source.png",
+      "references/scenes/scene-27/S27-Image5-topview-source.png"
     ],
     "status": "existing_gallery_in_published_master",
     "manifest_publication": "included_with_this_repository_version"

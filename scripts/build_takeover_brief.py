@@ -142,7 +142,8 @@ def main(repo, out):
     # current checkpoint: verbatim text above the history marker + any ТЕКУЩЕЕ pointer sections
     h = texts["NEW-CHAT-HANDOFF.md"]
     m = HISTORY_MARKER.search(h)
-    current = h[: m.start()] if m else h[:20000]
+    # No history marker: the whole handoff is the live checkpoint. A 20 KB cap used to drop the tail.
+    current = h[: m.start()] if m else h
     # Sections below the history marker that are still in force: every '## ' section whose heading
     # carries a date within RECENT_DAYS of the newest dated heading, or that is marked 'Действующ'.
     recent = []

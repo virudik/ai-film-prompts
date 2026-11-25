@@ -138,7 +138,7 @@
       "bytes_verified": true
     },
     {
-      "path": "references/scenes/scene-45/S45-roskotmos-logo.png",
+      "path": "projects/kotmonavty/references/roskotmos-logo.png",
       "sha256": "8481db6884b934d5889adf7ae9504ed82e447136b5002b0bf7fc120fdb9cb94f",
       "git_present": true,
       "master_linked": true,
@@ -152,14 +152,14 @@
       "bytes_verified": true
     },
     {
-      "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+      "path": "projects/kotmonavty/references/ship-exterior-front.png",
       "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
       "git_present": true,
       "master_linked": true,
       "bytes_verified": true
     },
     {
-      "path": "references/scenes/scene-45/S45-roskotmos-ship-first-rear.png",
+      "path": "projects/kotmonavty/references/ship-exterior-rear.png",
       "sha256": "cbfccd3343a453cbe4ab8a866901d20c8a622de1414ea9efbfe7b62552ada30f",
       "git_present": true,
       "master_linked": true,

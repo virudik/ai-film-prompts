@@ -80,7 +80,7 @@
       }
     },
     {
-      "path": "references/scenes/scene-10/S10-Image3-jedi-source.png",
+      "path": "references/scenes/scene-89/shared/jedi1-ilyusha-scene.png",
       "sha256": "f308cb384704d43eb6f4db5bb9425d4ade6be930710e90d3fc4277d9995f07c4",
       "dimensions": [
         896,
@@ -89,7 +89,7 @@
       "drive_file_id": "189mrOdNgYW9BR7ZYl61pDZ86dSoOU6Xf",
       "library_file_id": "libfile_34bf3f99b85c8191877f57c551650d04",
       "role": "identity",
-      "asset_id": "references/scenes/scene-10/S10-Image3-jedi-source.png",
+      "asset_id": "references/scenes/scene-89/shared/jedi1-ilyusha-scene.png",
       "bytes": 1879083,
       "media_type": "image",
       "owner_approval": "user_supplied_identity",
@@ -99,7 +99,7 @@
         "checked_at": "2026-10-08"
       },
       "site_published": {
-        "path": "references/scenes/scene-10/S10-Image3-jedi-source.png",
+        "path": "references/scenes/scene-89/shared/jedi1-ilyusha-scene.png",
         "linked_in_master": true,
         "git_present": true
       }
@@ -111,7 +111,7 @@
   "identity_refs": [
     "references/full/ilyusha.jpg",
     "references/scenes/scene-10/S10-Image2-han-source.png",
-    "references/scenes/scene-10/S10-Image3-jedi-source.png"
+    "references/scenes/scene-89/shared/jedi1-ilyusha-scene.png"
   ],
   "location_refs": [
     "references/scenes/scene-10/S10-Image1-cantina-source.png"
@@ -126,12 +126,12 @@
       "references/full/ilyusha.jpg",
       "references/scenes/scene-10/S10-Image1-cantina-source.png",
       "references/scenes/scene-10/S10-Image2-han-source.png",
-      "references/scenes/scene-10/S10-Image3-jedi-source.png"
+      "references/scenes/scene-89/shared/jedi1-ilyusha-scene.png"
     ],
     "scope_note": "owner_supplied_identity_refs identifies previously provided identity sources. Explicit acceptance of generated helpers/video is not inferred; owner_explicit empty means no separate acceptance receipt recorded here. Assistant QC is not owner acceptance.",
     "owner_supplied_identity_refs": [
       "references/scenes/scene-10/S10-Image2-han-source.png",
-      "references/scenes/scene-10/S10-Image3-jedi-source.png"
+      "references/scenes/scene-89/shared/jedi1-ilyusha-scene.png"
     ],
     "owner_explicit": []
   },
@@ -168,7 +168,7 @@
           "status": "available"
         },
         "@Image3": {
-          "asset_id": "references/scenes/scene-10/S10-Image3-jedi-source.png",
+          "asset_id": "references/scenes/scene-89/shared/jedi1-ilyusha-scene.png",
           "required": true,
           "role": "identity",
           "status": "available"
@@ -186,7 +186,7 @@
       "references/full/ilyusha.jpg",
       "references/scenes/scene-10/S10-Image1-cantina-source.png",
       "references/scenes/scene-10/S10-Image2-han-source.png",
-      "references/scenes/scene-10/S10-Image3-jedi-source.png"
+      "references/scenes/scene-89/shared/jedi1-ilyusha-scene.png"
     ],
     "status": "existing_gallery_in_published_master",
     "manifest_publication": "included_with_this_repository_version"

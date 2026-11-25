@@ -83,6 +83,26 @@ class ProposeHandoffTrim(unittest.TestCase):
         self.assertIn("does not merge", workflow)
         self.assertIn(proposal.REVIEW_SENTENCE, rules)
         self.assertIn("source: self-heal", (ROOT / "ops/SELF-HEAL.md").read_text(encoding="utf-8"))
+        self.assertIn("--stuck-issue", workflow)
+        self.assertIn("handoff-trim-stuck", workflow)
+
+    def test_stuck_issue_when_warning_remains_and_nothing_moves(self):
+        import tempfile
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            handoff = root / "NEW-CHAT-HANDOFF.md"
+            handoff.write_text("# Заголовок\n\n## СЕЙЧАС (обновлено 18.10.2026)\n\nПравило без старой даты.\n", encoding="utf-8")
+            health = {"problems": [{"level": "warn", "code": "handoff-size", "file": "NEW-CHAT-HANDOFF.md",
+                                    "text": "Хендоф больше 35 КБ"}]}
+            (root / "canon-health.json").write_text(json.dumps(health), encoding="utf-8")
+            issue = proposal.stuck_issue(root)
+            self.assertTrue(issue["needed"])
+            self.assertEqual(issue["label"], "handoff-trim-stuck")
+            self.assertIn("не нашёл", issue["body"])
+            self.assertIn("NEW-CHAT-HANDOFF.md", issue["body"])
+            # A movable dated block means the robot should open a PR, not the stuck issue.
+            handoff.write_text(FIXTURE, encoding="utf-8")
+            self.assertIsNone(proposal.stuck_issue(root))
 
 
 if __name__ == "__main__":

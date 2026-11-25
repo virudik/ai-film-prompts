@@ -22,7 +22,9 @@ def repo(d, handoff="## Сейчас 18.10.2026\nвсё хорошо\n", extra=N
     (root / "ops" / "A.md").write_text("# A\n\nСтатус: действует. Проверено: 17.10.2026.\n", encoding="utf-8")
     (root / "project-status.json").write_text(json.dumps({"scene_ids": [40, 41], "health": "ok"}), encoding="utf-8")
     for rel, text in (extra or {}).items():
-        (root / rel).write_text(text, encoding="utf-8")
+        dest = root / rel
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        dest.write_text(text, encoding="utf-8")
     return root
 
 
@@ -78,6 +80,39 @@ class CanonHealthTests(unittest.TestCase):
             (root / "USER-GUIDE.md").write_text("`scripts/gone.py`\n", encoding="utf-8")
             self.assertEqual(ch.main([str(root), "--write", "--fail-on-new"]), 1)   # new problem: one e-mail
             self.assertEqual(ch.main([str(root), "--write", "--fail-on-new"]), 0)
+
+    def test_instruction_100kb_is_a_warning_and_60kb_stays_info(self):
+        with tempfile.TemporaryDirectory() as d:
+            root = repo(d, extra={"SYNC-RUNBOOK.md": "x" * 100_001, "USER-GUIDE.md": "y" * 70_000})
+            res = ch.check(root, NOW)
+            levels = {(p["code"], p["level"], p["file"]) for p in res["problems"]}
+            self.assertIn(("instruction-size", "warn", "SYNC-RUNBOOK.md"), levels)
+            self.assertIn(("instruction-size", "info", "USER-GUIDE.md"), levels)
+
+    def test_old_selected_work_warns_for_root_and_any_project(self):
+        with tempfile.TemporaryDirectory() as d:
+            packet = {"selected_work": {"work_id": "S89C", "verified_at": "2026-10-01T00:00:00Z"}}
+            other = {"selected_work": {"work_id": "NEXT", "verified_at": "2026-10-02T00:00:00Z"}}
+            reg = {"projects": [{"id": "rootfilm", "root": "."}, {"id": "next", "root": "projects/next"}]}
+            root = repo(d, extra={"shadow/resume-packet.json": json.dumps(packet),
+                                  "projects/projects.json": json.dumps(reg),
+                                  "projects/next/shadow/resume-packet.json": json.dumps(other)})
+            res = ch.check(root, NOW)
+            files = [p["file"] for p in res["problems"] if p["code"] == "resume-selected-stale"]
+            self.assertIn("shadow/resume-packet.json", files)
+            self.assertIn("projects/next/shadow/resume-packet.json", files)
+
+    def test_pages_size_uses_the_publish_mode(self):
+        with tempfile.TemporaryDirectory() as d:
+            root = repo(d, extra={"ops/pages-deploy.json": json.dumps({"source": "legacy"})})
+            import pages_publish
+            original = pages_publish.published_bytes
+            pages_publish.published_bytes = lambda root, mode=None: ch.PAGES_WARN_BYTES
+            try:
+                res = ch.check(root, NOW)
+            finally:
+                pages_publish.published_bytes = original
+            self.assertIn("pages-size", codes(res))
 
 
 if __name__ == "__main__":

@@ -34,7 +34,7 @@
             1,
             11
           ],
-          "copied_from": "projects/roscosmos/references/space-organizations/01-earth-work.png"
+          "copied_from": "projects/roscosmos/references/scenes/scene-1/01-earth-work.png"
         }
       ]
     },
@@ -60,7 +60,7 @@
           "scenes": [
             2
           ],
-          "copied_from": "projects/roscosmos/references/space-organizations/02-stereo-relief.png"
+          "copied_from": "projects/roscosmos/references/scenes/scene-2/02-stereo-relief.png"
         }
       ]
     },
@@ -86,7 +86,7 @@
           "scenes": [
             3
           ],
-          "copied_from": "projects/roscosmos/references/space-organizations/03-small-satellite.png"
+          "copied_from": "projects/roscosmos/references/scenes/scene-6/03-small-satellite.png"
         }
       ]
     },
@@ -112,7 +112,7 @@
           "scenes": [
             4
           ],
-          "copied_from": "projects/roscosmos/references/space-organizations/04-mission-exhibit.png"
+          "copied_from": "projects/roscosmos/references/scenes/scene-7/04-mission-exhibit.png"
         }
       ]
     },
@@ -138,7 +138,7 @@
           "scenes": [
             5
           ],
-          "copied_from": "projects/roscosmos/references/space-organizations/05-space-instrument.png"
+          "copied_from": "projects/roscosmos/references/scenes/scene-11/05-space-instrument.png"
         }
       ]
     },
@@ -164,7 +164,7 @@
           "scenes": [
             6
           ],
-          "copied_from": "projects/roscosmos/references/space-organizations/06-power-corridor.png"
+          "copied_from": "projects/roscosmos/references/scenes/scene-12/06-power-corridor.png"
         }
       ]
     },
@@ -190,7 +190,7 @@
           "scenes": [
             7
           ],
-          "copied_from": "projects/roscosmos/references/space-organizations/07-earth-operations.png"
+          "copied_from": "projects/roscosmos/references/scenes/scene-16/07-earth-operations.png"
         }
       ]
     },
@@ -216,7 +216,7 @@
           "scenes": [
             8
           ],
-          "copied_from": "projects/roscosmos/references/space-organizations/08-land-memory.png"
+          "copied_from": "projects/roscosmos/references/scenes/scene-17/08-land-memory.png"
         }
       ]
     },
@@ -1582,7 +1582,7 @@
       "notes": "Горизонталь 16:9, холст 1672×941. not_approved. Пиксель в пиксель tt26-orbit.png. Маска выключена. projects/roscosmos/references/scenes/scene-26/tt26-delta-clean.image-prompt.txt",
       "images": [
         {
-          "path": "projects/roscosmos/references/scenes/scene-26/tt26-delta-clean.png",
+          "path": "projects/roscosmos/references/scenes/scene-26/tt26-orbit.png",
           "caption": "Терра Тех: чистая дельта для монитора",
           "prompt_file": "projects/roscosmos/references/scenes/scene-26/tt26-delta-clean.image-prompt.txt",
           "created_by": "derived from existing still, no new generation",
@@ -1666,7 +1666,7 @@
       "notes": "Горизонталь 16:9, холст 1672×941. not_approved. Пиксель в пиксель tt28-clearing.png. projects/roscosmos/references/scenes/scene-28/tt28-wipe-after.image-prompt.txt",
       "images": [
         {
-          "path": "projects/roscosmos/references/scenes/scene-28/tt28-wipe-after.png",
+          "path": "projects/roscosmos/references/scenes/scene-28/tt28-clearing.png",
           "caption": "Терра Тех: просвет, тот же ракурс",
           "prompt_file": "projects/roscosmos/references/scenes/scene-28/tt28-wipe-after.image-prompt.txt",
           "created_by": "derived from existing still, no new generation",

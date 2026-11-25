@@ -128,7 +128,7 @@
         },
         {
           "slot": "@Image4",
-          "path": "projects/kotmonavty/references/ship-interior-cockpit.png",
+          "path": "references/scenes/scene-24/S24-Image3-topview-source.png",
           "sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00",
           "input_status": "available",
           "required": true

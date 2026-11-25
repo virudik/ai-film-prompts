@@ -18,29 +18,6 @@
   "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
   "selection_policy": "Owner08Nov2026 20:40MSK t369u: ready unlinked story, then join-ready story; new music/dance 28/49/50/51 only with new owner consent. t364u and t365u superseded. Owner30Oct2026: fill confirmed free global slots with selected Seregius videos by live item priority; skip true blockers/dependencies without reserving slots. Confirmed technical failure: up to2 additional attempts per item with one durable shared budget, then next independent ready item in same cycle, per ops/TOPVIEW-RETRY.md. Never duplicate active/unknown/successful tasks or revive owner-cancelled/held/superseded items; Roscosmos paused. Exact current item model/prompt/refs/QC, own lock+CAS claim, website Unlimited0 and verified receipt required. Historical selection text preserved verbatim in archive/ops/topview-launch-queue-archive.json -> metadata_history.selection_policy_before_20261030_retry; live priorities/dependencies unchanged.",
-  "owner_hold_20261108_t364u": {
-    "authorization_id": "owner-20261108-t364u",
-    "at": "2026-11-08T17:16:00Z",
-    "source": "t364u",
-    "quote": "Музыкально-Танцевальные пока не запускаем.",
-    "effect": "superseded_by_t365u",
-    "scenes": [
-      28,
-      49,
-      50,
-      51
-    ],
-    "includes_linked_parts": true,
-    "keeps_prepared": true,
-    "does_not_cancel_states": [
-      "submitted",
-      "submitting",
-      "submission_unknown"
-    ],
-    "until": "separate_owner_decision",
-    "superseded_at": "2026-11-08T17:24:00Z",
-    "superseded_by": "owner-20261108-t365u"
-  },
   "owner_policy_20261108_t365u": {
     "authorization_id": "owner-20261108-t365u",
     "at": "2026-11-08T17:24:00Z",
@@ -4726,16 +4703,6 @@
     51,
     28
   ],
-  "owner_instruction_20261016": {
-    "archived_to": "archive/ops/topview-launch-queue-archive.json",
-    "archive_key": "metadata_history.owner_instruction_20261016",
-    "history_only": true
-  },
-  "owner_instruction_20261017": {
-    "archived_to": "archive/ops/topview-launch-queue-archive.json",
-    "archive_key": "metadata_history.owner_instruction_20261017",
-    "history_only": true
-  },
   "last_live_scan": {
     "at": "2026-10-31T11:09:40Z",
     "boards": 14,
@@ -4755,72 +4722,12 @@
     "free_video_slots": 0,
     "evidence": "reports/topview-queue-2026-10-16/S72-WAN30-postscan-20261031.json"
   },
-  "owner_instruction_20261017_2112": {
-    "archived_to": "archive/ops/topview-launch-queue-archive.json",
-    "archive_key": "metadata_history.owner_instruction_20261017_2112",
-    "history_only": true
-  },
-  "owner_instruction_20261017_2145": {
-    "archived_to": "archive/ops/topview-launch-queue-archive.json",
-    "archive_key": "metadata_history.owner_instruction_20261017_2145",
-    "history_only": true
-  },
   "slot_capacity_observation": {
     "checked_at": "2026-10-17T19:07:34.210Z",
     "active_unlimited_images": 2,
     "active_unlimited_videos": 5,
     "observed_total": 7,
     "conclusion": "Live account contradicts assumption of shared six image+video cap. Exact separate model/media cap not verified; do not silently change video cap or hardcode an image cap."
-  },
-  "owner_instruction_20261017_2233": {
-    "archived_to": "archive/ops/topview-launch-queue-archive.json",
-    "archive_key": "metadata_history.owner_instruction_20261017_2233",
-    "history_only": true
-  },
-  "owner_instruction_20261017_2253": {
-    "archived_to": "archive/ops/topview-launch-queue-archive.json",
-    "archive_key": "metadata_history.owner_instruction_20261017_2253",
-    "history_only": true
-  },
-  "owner_instruction_20261017_2303": {
-    "archived_to": "archive/ops/topview-launch-queue-archive.json",
-    "archive_key": "metadata_history.owner_instruction_20261017_2303",
-    "history_only": true
-  },
-  "owner_instruction_20261017_2358": {
-    "archived_to": "archive/ops/topview-launch-queue-archive.json",
-    "archive_key": "metadata_history.owner_instruction_20261017_2358",
-    "history_only": true
-  },
-  "owner_instruction_20261018_0017": {
-    "archived_to": "archive/ops/topview-launch-queue-archive.json",
-    "archive_key": "metadata_history.owner_instruction_20261018_0017",
-    "history_only": true
-  },
-  "owner_instruction_20261018_0030": {
-    "archived_to": "archive/ops/topview-launch-queue-archive.json",
-    "archive_key": "metadata_history.owner_instruction_20261018_0030",
-    "history_only": true
-  },
-  "owner_instruction_20261018_0106": {
-    "archived_to": "archive/ops/topview-launch-queue-archive.json",
-    "archive_key": "metadata_history.owner_instruction_20261018_0106",
-    "history_only": true
-  },
-  "owner_instruction_20261018_0309": {
-    "archived_to": "archive/ops/topview-launch-queue-archive.json",
-    "archive_key": "metadata_history.owner_instruction_20261018_0309",
-    "history_only": true
-  },
-  "owner_instruction_20261019_1315": {
-    "archived_to": "archive/ops/topview-launch-queue-archive.json",
-    "archive_key": "metadata_history.owner_instruction_20261019_1315",
-    "history_only": true
-  },
-  "owner_instruction_20261020_0055": {
-    "archived_to": "archive/ops/topview-launch-queue-archive.json",
-    "archive_key": "metadata_history.owner_instruction_20261020_0055",
-    "history_only": true
   },
   "owner_site_actions": [
     {
@@ -4852,11 +4759,6 @@
     ],
     "preserve_existing_owner_site_actions": true,
     "technical_success_is_editorial_approval": false
-  },
-  "owner_instruction_20261020_0229": {
-    "archived_to": "archive/ops/topview-launch-queue-archive.json",
-    "archive_key": "metadata_history.owner_instruction_20261020_0229",
-    "history_only": true
   },
   "owner_instruction_20261020_0312": {
     "instruction": "Create free S57 avenue then S58 wreck from exact queued prompts; save/QC inputs; video57/58 before dance.",
@@ -4903,11 +4805,6 @@
     "engine": "Seedance 2.0",
     "video_priority": "57/58 before dance; existing worm and owner ordering preserved",
     "report": "reports/scene58-action-references-2026-10-20.json"
-  },
-  "owner_instruction_20261020_1937": {
-    "archived_to": "archive/ops/topview-launch-queue-archive.json",
-    "archive_key": "metadata_history.owner_instruction_20261020_1937",
-    "history_only": true
   },
   "owner_instruction_20261022": {
     "project": "seregius",
@@ -6435,16 +6332,6 @@
     "archive": "archive/ops/topview-launch-queue-archive.json",
     "metadata_key": "blocked_browser",
     "rule": "Verify current browser access each run; historical failure does not block a ready item."
-  },
-  "owner_instruction_20261028_stitch_batch": {
-    "recorded_at": "2026-10-28T16:32:18+00:00",
-    "items": [
-      "S66-STITCH-NB-IMAGE-1",
-      "S66-STITCH-NB-IMAGE-2",
-      "S66-STITCH-NB-IMAGE-3"
-    ],
-    "policy": "Optional visual trial; keep first in queue. After one video slot becomes free, submit the three existing image prompts consecutively, one image per prompt, without waiting for results. Owner reports three images fit one video slot and take about 10 min; verify live Unlimited image capacity and 0-credit UI, do not hardcode runtime or equate one image to one video slot. Check taskID/capacity after each click; stop on UI limit, no paid fallback or repeat. First item has one newly authorized attempt after the documented no-task rejection. Videos may use the existing general frame without waiting for these images or their approval.",
-    "superseded_by": "owner_instruction_20261029_resume_without_stitch"
   },
   "owner_instruction_20261029_resume_without_stitch": {
     "at": "2026-10-29T07:46:52.392Z",

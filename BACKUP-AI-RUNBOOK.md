@@ -23,7 +23,7 @@
 | Файлы Claude Project (claude.ai) | Claude собирает комплект, владелец загружает (из облачной сессии файлы проекта недоступны) | при материальных изменениях канона, best-effort (ежевечернее обслуживание 21:40 МСК выключено) | `python3 scripts/build_project_files.py . <папка>` → 22 файла: `00-START-HERE.md`, `CURRENT-STATE.md` (= верхние блоки хендофа), `TAKEOVER-BRIEF.md` (D7), `CHARACTERS.md`, 7 инструкций, `video-prompts.md`, `film-analysis.md`, `film-backlog.md`, `model-sheets/*.jpg`; старые файлы проекта удалить, загрузить новые целиком; эти же файлы годятся для ChatGPT Project |
 | Notion «🧭 AI Film — Актуальная инструкция / Handoff» (страница `3e1fe763-7762-81d5-8c4e-dce504d7c5ec`) | агент, внёсший изменение (Claude / ChatGPT) | best-effort при материальных изменениях | Summary + верхний блок-указатель |
 | Файлы ChatGPT Project и Library | ChatGPT | суточная проверка ChatGPT | best-effort; если Library требует интерактивного разрешения — пометить stale и продолжить (`SYNC-RUNBOOK.md` «LIBRARY RECOVERY») |
-| MP4 готовых роликов Topview — приватная папка Drive `AI Film Prompts Master / AI Film Generated Videos / Scene-NN` (не канон) | Робот GitHub (`topview-video-archive.yml`, `scripts/topview_video_archive.py`) | запуск снаружи — Supabase pg_cron каждые 10 мин (:05/:15/…, `ops/ROBOT-TRIGGER.md`); расписание GitHub — запасное | только успешные задачи **активных** сцен с доказанной привязкой Scene↔task; см. «MP4-архив роликов Topview» ниже |
+| MP4 готовых роликов любого проекта | `ops/TOPVIEW-VIDEO-ARCHIVE.md` (t935u): Яндекс Диск, не Google Drive | понедельник, `ops/HANDOFF-CLEANUP.md` п. 11 | индекс уже скопированного на Drive не удалять |
 
 **Состав копии Library** (best-effort): 7 инструкций, `READ-FIRST.txt`, `CURRENT-STATE.json`, `SITE-STATUS.md`, `SHIFT-HANDOFF.md` и recovery ZIP / summary / status, если он поддерживается как актуальный пакет; recovery-пакет указывает `main` и иерархию живых источников; копия никогда не переопределяет `main` и не предпочитается канону.
 
@@ -41,9 +41,11 @@
 - `film-backlog.md` → `1YixC7zQFY7z3Bn1XGXxeQIMema3inCT9`; `film-analysis.md` — по точному имени в папке.
 - Рабочая папка референсов «Scene Reference Packs» — `16LjAT7YkVGMAc1xw0WkjgGDYbAejzJNI` (копии и обменный канал изображений от ChatGPT; не канон).
 
-### MP4-архив роликов Topview (с 13.10.2026)
+### MP4-архив роликов Topview (с 13.10.2026; копирование в Drive остановлено 26.11.2026)
 
-Готовые ролики Topview робот GitHub копирует в приватную Drive-папку `AI Film Prompts Master / AI Film Generated Videos / Scene-NN` (файл `<Topview task ID>.mp4`); как работает копирование — `SYNC-RUNBOOK.md` «Автоархив готовых Topview MP4 в Drive». Это резервная копия результатов генерации, а не канон: ни master, ни статусы из неё не восстанавливаются; заархивированный ролик — не одобренная сцена. Индекс — `topview-video-archive.json` (Drive file ID, размер, MD5, SHA-256, без подписанных URL). Восстановление: найти запись по task_id, открыть `drive_url` под аккаунтом владельца. Нельзя делать папку публичной, выдавать права извне или править файлы вручную; пул слотов-заглушек пополнять только через Drive владельца, ключи и IAM не трогать.
+С 26.11.2026 GitHub не копирует ролики на Google Drive. Действующая схема — `ops/TOPVIEW-VIDEO-ARCHIVE.md`. Индекс уже скопированного не удалять.
+
+До остановки готовые ролики робот GitHub копировал в приватную Drive-папку `AI Film Prompts Master / AI Film Generated Videos / Scene-NN` (файл `<Topview task ID>.mp4`); как работает копирование — `SYNC-RUNBOOK.md` «Автоархив готовых Topview MP4 в Drive». Это резервная копия результатов генерации, а не канон: ни master, ни статусы из неё не восстанавливаются; заархивированный ролик — не одобренная сцена. Индекс — `topview-video-archive.json` (Drive file ID, размер, MD5, SHA-256, без подписанных URL). Восстановление: найти запись по task_id, открыть `drive_url` под аккаунтом владельца. Нельзя делать папку публичной, выдавать права извне или править файлы вручную; пул слотов-заглушек пополнять только через Drive владельца, ключи и IAM не трогать.
 
 ### Архив в репозитории
 

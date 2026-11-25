@@ -122,7 +122,7 @@ window.fetch=function(input,init){
      if(MAP[path])return origFetch(P.root+MAP[path]+q,init);
      if(path==='topview-status.json')return synthTopview().then(reply);
      if(path==='topview-task-map.json')return synthTaskMap().then(reply);
-     if(path==='topview-video-archive.json')return Promise.resolve(reply({schema_version:1,project:P.id,videos:{}}));
+     if(path==='topview-video-archive.json')return origFetch(P.root+'topview-video-archive.json'+q,init).then(function(r){return r.ok?r:reply({schema_version:1,project:P.id,videos:{},copy_scheme:'yandex-original'})});
     }else if(path==='topview-status.json'){
      telemetry().then(function(tel){return fresh('topview-status.json').then(function(root){SHARED=sharedSlots(root||{},tel);showSlots()})});
     }

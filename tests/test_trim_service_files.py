@@ -148,6 +148,46 @@ class QueueTests(unittest.TestCase):
             self.assertFalse((Path(d) / "projects/p1" / tsf.QUEUE_ARCHIVE).exists())
 
 
+class OwnerRecordAndWakeTests(unittest.TestCase):
+    def test_only_explicit_owner_records_move(self):
+        queue = {
+            "items": [{"id": "LIVE", "state": "waiting_for_slot"}],
+            "owner_policy_20261113_t601u": {"effect": "explicit_front_order", "order": ["S89"]},
+            "owner_policy_20261108_t369u": {"effect": "music_requires_owner_consent", "fallback_20_24": "superseded"},
+            "owner_hold_old": {"effect": "superseded_by_t365u", "superseded_by": "owner-new"},
+            "owner_instruction_stub": {"history_only": True, "archived_to": "archive/ops/topview-launch-queue-archive.json"},
+            "owner_instruction_note": {"quote": "do not guess that this was replaced"},
+            "authorization": {"max_credits_per_task": 0},
+        }
+        result = tsf.trim_owner_records(queue, None)
+        self.assertEqual(result["moved"], ["owner_hold_old", "owner_instruction_stub"])
+        self.assertEqual(result["ambiguous"], ["owner_instruction_note"])
+        self.assertIn("LIVE", [item["id"] for item in result["queue"]["items"]])
+        self.assertEqual(result["queue"]["authorization"]["max_credits_per_task"], 0)
+        self.assertEqual(result["queue"]["owner_policy_20261113_t601u"]["effect"], "explicit_front_order")
+        self.assertIn("owner_hold_old", result["archive"]["owner_records"])
+        again = tsf.trim_owner_records(result["queue"], result["archive"])
+        self.assertEqual(again["moved"], [])
+        self.assertEqual(again["archive"]["owner_records"]["owner_hold_old"]["effect"], "superseded_by_t365u")
+
+    def test_wake_test_sections_move_and_receipts_stay(self):
+        data = {
+            "events": [{"event_id": "result:live", "outcome": "blocked_browser", "retryable": True}],
+            "slack_test": {"test_id": "TOPVIEW_SLACK_TEST"},
+            "comparison": {"status": "completed_transport_comparison"},
+            "robot_relay": {"test_acks": [{"test_id": "keep"}]},
+            "test_acks": [{"test_id": "keep-top"}],
+            "primary_backup_acceptance": {"gate_enabled": False},
+        }
+        live, archive, moved = tsf.trim_wake_test_sections(data, None)
+        self.assertEqual(moved, ["comparison", "slack_test"])
+        self.assertEqual(live["events"], data["events"])
+        self.assertEqual(live["robot_relay"]["test_acks"][0]["test_id"], "keep")
+        self.assertIn("test_acks", live)
+        self.assertEqual(archive["test_sections"]["slack_test"]["test_id"], "TOPVIEW_SLACK_TEST")
+        self.assertIsNone(tsf.trim_wake_test_sections(live, archive))
+
+
 class CanonHealthServiceSizeTests(unittest.TestCase):
     def test_oversized_service_file_warns(self):
         with tempfile.TemporaryDirectory() as d:
@@ -161,6 +201,12 @@ class CanonHealthServiceSizeTests(unittest.TestCase):
             res = ch.check(root, NOW)
             self.assertIn("service-file-size", [p["code"] for p in res["problems"]])
             write(d, "reports/current-work-checkpoint.md", "x" * 1000)
+            res = ch.check(root, NOW)
+            self.assertNotIn("service-file-size", [p["code"] for p in res["problems"]])
+            write(d, "reports/current-work-checkpoint.md", "x" * 41_000)
+            res = ch.check(root, NOW)
+            self.assertIn("service-file-size", [p["code"] for p in res["problems"]])
+            write(d, "reports/current-work-checkpoint.md", "x" * 39_000)
             res = ch.check(root, NOW)
             self.assertNotIn("service-file-size", [p["code"] for p in res["problems"]])
             write(d, tsf.RELAY_REPORT, "x" * 210_000)

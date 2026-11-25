@@ -848,7 +848,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 <figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/scenes/scene-5/KM05-cockpit-bank.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/scenes/scene-5/KM05-cockpit-bank.png" alt="Ключевой кадр кабины в вираже: Рыжик слева у навигации, Лучик справа за штурвалом, летит лист — фаза крена" loading="lazy"></a><figcaption>@Image3 — Ключевой кадр кабины в вираже: Рыжик слева у навигации, Лучик справа за штурвалом, летит лист — фаза крена</figcaption></figure>
-<figure><a href="projects/kotmonavty/references/ship-interior-cockpit.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ship-interior-cockpit.png" alt="Кабина корабля — пульты, кресла, окна и янтарный свет интерьера" loading="lazy"></a><figcaption>@Image4 — Кабина корабля — пульты, кресла, окна и янтарный свет интерьера</figcaption></figure>
+<figure><a href="references/scenes/scene-24/S24-Image3-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-24/S24-Image3-topview-source.png" alt="Кабина корабля — пульты, кресла, окна и янтарный свет интерьера" loading="lazy"></a><figcaption>@Image4 — Кабина корабля — пульты, кресла, окна и янтарный свет интерьера</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/development/KM-ring-chase.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/development/KM-ring-chase.png" alt="Корабль в вираже через разрушенное кольцо над газовым гигантом, дроны с лазерами — вид пролёта и масштаб кольца" loading="lazy"></a><figcaption>@Image5 — Корабль в вираже через разрушенное кольцо над газовым гигантом, дроны с лазерами — вид пролёта и масштаб кольца</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/ship-exterior-front.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ship-exterior-front.png" alt="Исходный корабль — абсолютная конструкция" loading="lazy"></a><figcaption>@Image6 — Исходный корабль — абсолютная конструкция</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/ship-exterior-rear.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ship-exterior-rear.png" alt="Корма и расположение двигателей — технический оригинал" loading="lazy"></a><figcaption>@Image7 — Корма и расположение двигателей — технический оригинал</figcaption></figure>
@@ -863,7 +863,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 5 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-5/KM05-cockpit-bank.png`; @Image4 — `projects/kotmonavty/references/ship-interior-cockpit.png`; @Image5 — `projects/kotmonavty/references/development/KM-ring-chase.png`; @Image6 — `projects/kotmonavty/references/ship-exterior-front.png`; @Image7 — `projects/kotmonavty/references/ship-exterior-rear.png`; @Image8 — `projects/kotmonavty/references/ship-exterior-four-engines.png`; @Image9 — `projects/kotmonavty/references/ship-interior-window.webp`.
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-5/KM05-cockpit-bank.png`; @Image4 — `references/scenes/scene-24/S24-Image3-topview-source.png`; @Image5 — `projects/kotmonavty/references/development/KM-ring-chase.png`; @Image6 — `projects/kotmonavty/references/ship-exterior-front.png`; @Image7 — `projects/kotmonavty/references/ship-exterior-rear.png`; @Image8 — `projects/kotmonavty/references/ship-exterior-four-engines.png`; @Image9 — `projects/kotmonavty/references/ship-interior-window.webp`.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -873,7 +873,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
 @Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
 @Image3 — Ключевой кадр кабины в вираже: Рыжик слева у навигации, Лучик справа за штурвалом, летит лист — фаза крена; file: projects/kotmonavty/references/scenes/scene-5/KM05-cockpit-bank.png.
-@Image4 — Кабина корабля — пульты, кресла, окна и янтарный свет интерьера; file: projects/kotmonavty/references/ship-interior-cockpit.png.
+@Image4 — Кабина корабля — пульты, кресла, окна и янтарный свет интерьера; file: references/scenes/scene-24/S24-Image3-topview-source.png.
 @Image5 — Корабль в вираже через разрушенное кольцо над газовым гигантом, дроны с лазерами — вид пролёта и масштаб кольца; file: projects/kotmonavty/references/development/KM-ring-chase.png.
 @Image6 — Исходный корабль — абсолютная конструкция; file: projects/kotmonavty/references/ship-exterior-front.png.
 @Image7 — Корма и расположение двигателей — технический оригинал; file: projects/kotmonavty/references/ship-exterior-rear.png.
@@ -932,7 +932,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 5 · Seedance 2.0 часть 1 · 15 с
 
-**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-5/KM05-cockpit-bank.png`; @Image4 — `projects/kotmonavty/references/ship-interior-cockpit.png`; @Image5 — `projects/kotmonavty/references/development/KM-ring-chase.png`; @Image6 — `projects/kotmonavty/references/ship-exterior-front.png`; @Image7 — `projects/kotmonavty/references/ship-exterior-rear.png`; @Image8 — `projects/kotmonavty/references/ship-exterior-four-engines.png`; @Image9 — `projects/kotmonavty/references/ship-interior-window.webp`.
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-5/KM05-cockpit-bank.png`; @Image4 — `references/scenes/scene-24/S24-Image3-topview-source.png`; @Image5 — `projects/kotmonavty/references/development/KM-ring-chase.png`; @Image6 — `projects/kotmonavty/references/ship-exterior-front.png`; @Image7 — `projects/kotmonavty/references/ship-exterior-rear.png`; @Image8 — `projects/kotmonavty/references/ship-exterior-four-engines.png`; @Image9 — `projects/kotmonavty/references/ship-interior-window.webp`.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -942,7 +942,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
 @Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
 @Image3 — Ключевой кадр кабины в вираже: Рыжик слева у навигации, Лучик справа за штурвалом, летит лист — фаза крена; file: projects/kotmonavty/references/scenes/scene-5/KM05-cockpit-bank.png.
-@Image4 — Кабина корабля — пульты, кресла, окна и янтарный свет интерьера; file: projects/kotmonavty/references/ship-interior-cockpit.png.
+@Image4 — Кабина корабля — пульты, кресла, окна и янтарный свет интерьера; file: references/scenes/scene-24/S24-Image3-topview-source.png.
 @Image5 — Корабль в вираже через разрушенное кольцо над газовым гигантом, дроны с лазерами — вид пролёта и масштаб кольца; file: projects/kotmonavty/references/development/KM-ring-chase.png.
 @Image6 — Исходный корабль — абсолютная конструкция; file: projects/kotmonavty/references/ship-exterior-front.png.
 @Image7 — Корма и расположение двигателей — технический оригинал; file: projects/kotmonavty/references/ship-exterior-rear.png.
@@ -992,7 +992,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 5 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-5/KM05-cockpit-bank.png`; @Image4 — `projects/kotmonavty/references/ship-interior-cockpit.png`; @Image5 — `projects/kotmonavty/references/development/KM-ring-chase.png`; @Image6 — `projects/kotmonavty/references/ship-exterior-front.png`; @Image7 — `projects/kotmonavty/references/ship-exterior-rear.png`; @Image8 — `projects/kotmonavty/references/ship-exterior-four-engines.png`; @Image9 — `projects/kotmonavty/references/ship-interior-window.webp`.
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-5/KM05-cockpit-bank.png`; @Image4 — `references/scenes/scene-24/S24-Image3-topview-source.png`; @Image5 — `projects/kotmonavty/references/development/KM-ring-chase.png`; @Image6 — `projects/kotmonavty/references/ship-exterior-front.png`; @Image7 — `projects/kotmonavty/references/ship-exterior-rear.png`; @Image8 — `projects/kotmonavty/references/ship-exterior-four-engines.png`; @Image9 — `projects/kotmonavty/references/ship-interior-window.webp`.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -1003,7 +1003,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
 @Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
 @Image3 — Ключевой кадр кабины в вираже: Рыжик слева у навигации, Лучик справа за штурвалом, летит лист — фаза крена; file: projects/kotmonavty/references/scenes/scene-5/KM05-cockpit-bank.png.
-@Image4 — Кабина корабля — пульты, кресла, окна и янтарный свет интерьера; file: projects/kotmonavty/references/ship-interior-cockpit.png.
+@Image4 — Кабина корабля — пульты, кресла, окна и янтарный свет интерьера; file: references/scenes/scene-24/S24-Image3-topview-source.png.
 @Image5 — Корабль в вираже через разрушенное кольцо над газовым гигантом, дроны с лазерами — вид пролёта и масштаб кольца; file: projects/kotmonavty/references/development/KM-ring-chase.png.
 @Image6 — Исходный корабль — абсолютная конструкция; file: projects/kotmonavty/references/ship-exterior-front.png.
 @Image7 — Корма и расположение двигателей — технический оригинал; file: projects/kotmonavty/references/ship-exterior-rear.png.
@@ -1650,7 +1650,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 <figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/scenes/scene-9/KM09-zero-gravity-milk.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/scenes/scene-9/KM09-zero-gravity-milk.png" alt="Ключевой кадр: невесомость в камбузе — Лучик у поручня, Рыжик летит к шарикам молока, миска пристёгнута" loading="lazy"></a><figcaption>@Image3 — Ключевой кадр: невесомость в камбузе — Лучик у поручня, Рыжик летит к шарикам молока, миска пристёгнута</figcaption></figure>
-<figure><a href="projects/kotmonavty/references/ship-interior-cockpit.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ship-interior-cockpit.png" alt="Интерьер корабля — материалы, янтарный свет и устройство отсеков; камбуз — по ключевому кадру" loading="lazy"></a><figcaption>@Image4 — Интерьер корабля — материалы, янтарный свет и устройство отсеков; камбуз — по ключевому кадру</figcaption></figure>
+<figure><a href="references/scenes/scene-24/S24-Image3-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-24/S24-Image3-topview-source.png" alt="Интерьер корабля — материалы, янтарный свет и устройство отсеков; камбуз — по ключевому кадру" loading="lazy"></a><figcaption>@Image4 — Интерьер корабля — материалы, янтарный свет и устройство отсеков; камбуз — по ключевому кадру</figcaption></figure>
 </div>
 
 **Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Один 30-секундный вариант уже отправлен по разовому платному разрешению 30.10. Части Seedance 2.0 не запускались. Любая новая попытка требует отдельного решения владельца.
@@ -1660,7 +1660,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 9 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-9/KM09-zero-gravity-milk.png`; @Image4 — `projects/kotmonavty/references/ship-interior-cockpit.png`.
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-9/KM09-zero-gravity-milk.png`; @Image4 — `references/scenes/scene-24/S24-Image3-topview-source.png`.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -1670,7 +1670,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
 @Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
 @Image3 — Ключевой кадр: невесомость в камбузе — Лучик у поручня, Рыжик летит к шарикам молока, миска пристёгнута; file: projects/kotmonavty/references/scenes/scene-9/KM09-zero-gravity-milk.png.
-@Image4 — Интерьер корабля — материалы, янтарный свет и устройство отсеков; камбуз — по ключевому кадру; file: projects/kotmonavty/references/ship-interior-cockpit.png.
+@Image4 — Интерьер корабля — материалы, янтарный свет и устройство отсеков; камбуз — по ключевому кадру; file: references/scenes/scene-24/S24-Image3-topview-source.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -1722,7 +1722,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 9 · Seedance 2.0 часть 1 · 15 с
 
-**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-9/KM09-zero-gravity-milk.png`; @Image4 — `projects/kotmonavty/references/ship-interior-cockpit.png`.
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-9/KM09-zero-gravity-milk.png`; @Image4 — `references/scenes/scene-24/S24-Image3-topview-source.png`.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -1732,7 +1732,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
 @Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
 @Image3 — Ключевой кадр: невесомость в камбузе — Лучик у поручня, Рыжик летит к шарикам молока, миска пристёгнута; file: projects/kotmonavty/references/scenes/scene-9/KM09-zero-gravity-milk.png.
-@Image4 — Интерьер корабля — материалы, янтарный свет и устройство отсеков; камбуз — по ключевому кадру; file: projects/kotmonavty/references/ship-interior-cockpit.png.
+@Image4 — Интерьер корабля — материалы, янтарный свет и устройство отсеков; камбуз — по ключевому кадру; file: references/scenes/scene-24/S24-Image3-topview-source.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -1775,7 +1775,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 9 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-9/KM09-zero-gravity-milk.png`; @Image4 — `projects/kotmonavty/references/ship-interior-cockpit.png`.
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-9/KM09-zero-gravity-milk.png`; @Image4 — `references/scenes/scene-24/S24-Image3-topview-source.png`.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -1786,7 +1786,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
 @Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
 @Image3 — Ключевой кадр: невесомость в камбузе — Лучик у поручня, Рыжик летит к шарикам молока, миска пристёгнута; file: projects/kotmonavty/references/scenes/scene-9/KM09-zero-gravity-milk.png.
-@Image4 — Интерьер корабля — материалы, янтарный свет и устройство отсеков; камбуз — по ключевому кадру; file: projects/kotmonavty/references/ship-interior-cockpit.png.
+@Image4 — Интерьер корабля — материалы, янтарный свет и устройство отсеков; камбуз — по ключевому кадру; file: references/scenes/scene-24/S24-Image3-topview-source.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
