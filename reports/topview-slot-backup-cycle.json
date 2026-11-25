@@ -11,9 +11,9 @@
   "run_id": null,
   "run_id_unavailable_reason": "Runtime notification does not expose platform run_id.",
   "started_at": "2026-11-25T22:15:11Z",
-  "updated_at": "2026-11-25T22:15:56.779Z",
-  "phase": "started",
-  "status": "started",
+  "updated_at": "2026-11-25T22:15:59.996Z",
+  "phase": "completed",
+  "status": "completed",
   "source_head": "ce39bafe9917db9dec612291b4f9690ab82c3d26",
   "route_generation": 7,
   "lease": {
@@ -60,8 +60,37 @@
     "changed": false
   },
   "execution": {
-    "state": "started",
-    "stage": "full_scan_verified",
-    "updated_at": "2026-11-25T22:15:56.779Z"
-  }
+    "state": "completed",
+    "stage": "all_slots_occupied_waiting_standard_archive",
+    "updated_at": "2026-11-25T22:15:59.996Z",
+    "completed_at": "2026-11-25T22:15:59.996Z"
+  },
+  "completed_at": "2026-11-25T22:15:59.996Z",
+  "outcome": "no_update_all_slots_occupied",
+  "started_receipt_readback": true,
+  "next_action_unchanged": true,
+  "blocker": null,
+  "retryable": false,
+  "hangar_archive": {
+    "topview_count": 28,
+    "new_copies": 0,
+    "grok_full_source_catalog_checked": false,
+    "pending": [
+      {
+        "item_id": "S28-A4-20261023",
+        "task_id": "3644ab40a51c428b9e733aaba2c1c24b"
+      },
+      {
+        "item_id": "S28-A6-20261023",
+        "task_id": "2891ed5c97be4438ac3a23f9b19ea193"
+      }
+    ],
+    "blocker": null,
+    "reserve_refill": {
+      "registered": 20,
+      "commit": "ce39bafe9917db9dec612291b4f9690ab82c3d26",
+      "copy_verified": false
+    }
+  },
+  "browser_not_used_reason": "Complete read-only all-board scan confirmed all six slots occupied."
 }
