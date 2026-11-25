@@ -496,20 +496,18 @@
       "S89F-WAN30",
       "S89F-WAN30-R2"
     ],
-    "last_event_id": "result:3644ab40a51c428b9e733aaba2c1c24b",
+    "last_event_id": "result:2891ed5c97be4438ac3a23f9b19ea193",
     "receipt_present": true,
-    "handler_outcome": "submitted",
-    "execution_stage": "submitted",
-    "execution_updated_at": "2026-11-24T13:08:06Z",
+    "handler_outcome": "started",
+    "execution_stage": "intake",
+    "execution_updated_at": "2026-11-25T13:03:40Z",
     "runtime_run_id": null,
-    "confirmed_launch_task_ids": [
-      "66dc44271e6f4336ad801102ca860e68"
-    ],
+    "confirmed_launch_task_ids": [],
     "last_confirmed_event_id": "result:3644ab40a51c428b9e733aaba2c1c24b",
     "last_confirmed_launch_task_ids": [
       "66dc44271e6f4336ad801102ca860e68"
     ],
     "escalation_attempted_episode": null,
-    "checked_at": "2026-11-25T13:00:51Z"
+    "checked_at": "2026-11-25T13:10:33Z"
   }
 }
