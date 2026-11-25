@@ -11,9 +11,9 @@
   "run_id": null,
   "run_id_unavailable_reason": "Runtime notification does not expose platform run_id.",
   "started_at": "2026-11-25T01:01:21Z",
-  "updated_at": "2026-11-25T01:02:33.272Z",
-  "phase": "started",
-  "status": "started",
+  "updated_at": "2026-11-25T01:02:37.098Z",
+  "phase": "completed",
+  "status": "completed",
   "source_head": "3cd613de31aa42ce5d003851d208eac42fc4a151",
   "route_generation": 7,
   "lease": {
@@ -53,9 +53,10 @@
   ],
   "new_submissions": 0,
   "execution": {
-    "state": "started",
-    "stage": "full_scan_verified_archive_check",
-    "updated_at": "2026-11-25T01:02:33.272Z"
+    "state": "completed",
+    "stage": "all_slots_occupied_archive_source_pending",
+    "updated_at": "2026-11-25T01:02:37.098Z",
+    "completed_at": "2026-11-25T01:02:37.098Z"
   },
   "owner_tasks_open_count": 0,
   "work_backup": {
@@ -64,5 +65,20 @@
     "requires_user_action": true,
     "changed": false
   },
-  "browser_not_used_reason": "Complete read-only live scan confirmed six occupied physical slots; no UI changes needed."
+  "hangar_archive": {
+    "topview_count": 28,
+    "new_copies": 0,
+    "latest_verified_existing_task_id": "55dadcb20d2b48a09d1b2b6b4ba0d9ea",
+    "grok_full_source_catalog_checked": false,
+    "pending_task_id": "3644ab40a51c428b9e733aaba2c1c24b",
+    "pending_item_id": "S28-A4-20261023",
+    "pending_reason": "Completed provider output; standard source Drive archive not yet verified, curated copy absent."
+  },
+  "browser_not_used_reason": "Complete read-only live scan confirmed six occupied physical slots; no UI changes needed.",
+  "completed_at": "2026-11-25T01:02:37.098Z",
+  "outcome": "no_update_all_slots_occupied",
+  "next_action_unchanged": true,
+  "started_receipt_readback": true,
+  "blocker": null,
+  "retryable": false
 }
