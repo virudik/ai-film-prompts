@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/projects/kotmonavty/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-25T19:52:28Z",
+  "synced_at": "2026-11-25T22:53:23Z",
   "revision_date": "17.11.2026",
   "master_declared_last_full_sync": "30.10.2026 · два готовых результата (2/22) и два платных запуска в обработке (4/9); полные промпты и параметры подтверждены; изображения не изменены",
   "canonical_master_sha256": "e34b1a9cbdeeafcc3b2a7006e899581b08f5583533e17b350075c7c23dcaf1d8",
@@ -42,12 +42,12 @@
   "latest_scene": 22,
   "reserved_scene_ids": [],
   "instruction_sync": {
-    "health": "ok",
+    "health": "error",
     "snapshot_at": "2026-11-25T12:57:38.179Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 6.914,
+    "age_hours_at_status_build": 9.929,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -121,12 +121,14 @@
       }
     }
   },
-  "warnings": [],
+  "warnings": [
+    "instruction_sync_error"
+  ],
   "maintenance": {
     "instruction_verification": {
-      "state": "ok",
-      "age_hours": 6.914,
-      "blocking": false
+      "state": "error",
+      "age_hours": 9.929,
+      "blocking": true
     },
     "topview_task_map": {
       "state": "unverified",
@@ -552,7 +554,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "17.11.2026",
-    "synced_at": "2026-11-25T19:52:28Z",
+    "synced_at": "2026-11-25T22:53:23Z",
     "canonical_master_sha256": "e34b1a9cbdeeafcc3b2a7006e899581b08f5583533e17b350075c7c23dcaf1d8",
     "canonical_revision_sha256": "8dc08be2cf8d262d69eeb54e40acc03c8a5a7033117f18b4884d8af41dc8f9f9",
     "scene_count": 22,
@@ -583,10 +585,10 @@
     ],
     "work_items": [],
     "slow_scenes": [],
-    "health": "ok",
-    "instruction_sync_health": "ok"
+    "health": "error",
+    "instruction_sync_health": "error"
   },
-  "health": "ok",
+  "health": "error",
   "checks": {
     "declared_scene_count_matches_sections": true,
     "declared_scene_count_matches_toc": true,
@@ -618,7 +620,7 @@
     "scene_meta_dialogue_valid": true,
     "scene_meta_tags_valid": true,
     "scene_meta_target_engine_valid": true,
-    "instruction_mirrors_match_drive": true
+    "instruction_mirrors_match_drive": false
   },
   "project": "kotmonavty",
   "project_name": "Котмонавты"
