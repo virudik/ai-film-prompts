@@ -6,7 +6,7 @@ REFERENCES / ORDER:
 
 <IMAGE_1> projects/raznoe/references/scenes/scene-3/expansion/assets/A-polymer-gripper-product.png (sha256 aeb0526b4bd804851df6f1177b04b587f7cf1ecef5d5040b672559cc7659f6f0); canonical main; role: A-polymer-gripper-product.png
 
-<IMAGE_2> projects/raznoe/references/scenes/scene-3/10-45737.png (sha256 802992aa667bd04bacb8e23e7a894a725eef8e1337951dc2feda0b94c2753736); canonical main; role: FAC-polymer-print-45737.png
+<IMAGE_2> projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-polymer-print-45737.png (sha256 802992aa667bd04bacb8e23e7a894a725eef8e1337951dc2feda0b94c2753736); canonical main; role: FAC-polymer-print-45737.png
 
 START: Идёт аддитивная печать открытого полимерного захвата
 

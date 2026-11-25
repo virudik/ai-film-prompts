@@ -1582,7 +1582,7 @@
       "notes": "Горизонталь 16:9, холст 1672×941. not_approved. Пиксель в пиксель tt26-orbit.png. Маска выключена. projects/roscosmos/references/scenes/scene-26/tt26-delta-clean.image-prompt.txt",
       "images": [
         {
-          "path": "projects/roscosmos/references/scenes/scene-26/tt26-orbit.png",
+          "path": "projects/roscosmos/references/scenes/scene-26/tt26-delta-clean.png",
           "caption": "Терра Тех: чистая дельта для монитора",
           "prompt_file": "projects/roscosmos/references/scenes/scene-26/tt26-delta-clean.image-prompt.txt",
           "created_by": "derived from existing still, no new generation",
@@ -1666,7 +1666,7 @@
       "notes": "Горизонталь 16:9, холст 1672×941. not_approved. Пиксель в пиксель tt28-clearing.png. projects/roscosmos/references/scenes/scene-28/tt28-wipe-after.image-prompt.txt",
       "images": [
         {
-          "path": "projects/roscosmos/references/scenes/scene-28/tt28-clearing.png",
+          "path": "projects/roscosmos/references/scenes/scene-28/tt28-wipe-after.png",
           "caption": "Терра Тех: просвет, тот же ракурс",
           "prompt_file": "projects/roscosmos/references/scenes/scene-28/tt28-wipe-after.image-prompt.txt",
           "created_by": "derived from existing still, no new generation",
