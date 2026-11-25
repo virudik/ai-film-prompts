@@ -57,7 +57,7 @@ const successOnlyStale = monitorEvidence({
  last_successful_cycle_at: iso(6 * 24 * 60)
 }, iso(10), now, STALE, FUTURE, SKEW);
 assert.equal(successOnlyStale.unhealthy, false);
-assert.equal(successOnlyStale.successAge.state, 'fresh', 'success chip must not stay on a 6-day copy when the scan is fresh');
 assert.equal(successOnlyStale.copyStale, false);
+assert.equal(successOnlyStale.successAge.state, 'stale', 'a current cycle keeps an older last success; a scan is not a successful cycle');
 
 console.log('Status freshness: stale monitor copy, real silence, degraded cycle, 50 min publish lag passed.');

@@ -22,12 +22,12 @@ function monitorEvidence(monitor, scanCheckedAt, now, staleMin, futureMin, skewM
  const successAt = monitor && monitor.last_successful_cycle_at || '';
  const scanMs = Date.parse(scanCheckedAt || '');
  const cycleMs = Date.parse(cycleAt || '');
- const successMs = Date.parse(successAt || '');
  const scanFresh = age(scanCheckedAt).state === 'fresh';
+ // Both timestamps travel in one file. Substitute the scan only when that whole
+ // file is an old copy. A current cycle with an older last success is a real gap.
  const copyStale = scanFresh && (!Number.isFinite(cycleMs) || scanMs - cycleMs > skew * 60000);
- const successCopyStale = scanFresh && (!Number.isFinite(successMs) || scanMs - successMs > skew * 60000);
  const shownCycle = copyStale ? scanCheckedAt : cycleAt;
- const shownSuccess = successCopyStale ? scanCheckedAt : successAt;
+ const shownSuccess = copyStale ? scanCheckedAt : successAt;
  const cycleAge = monitor ? age(shownCycle) : {state:'unknown', min:Infinity};
  const successAge = monitor ? age(shownSuccess) : {state:'unknown', min:Infinity};
  const healthBad = !copyStale && Boolean(cycle && cycle.health && cycle.health !== 'ok');

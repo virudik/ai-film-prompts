@@ -39,7 +39,7 @@ function scenarios() {
     { name: 'look older than 2 h is yellow', tv: tv180, mon: oldMon, scan: scanOf(tv180, 180), expect: { cls: 'warn', text: 'ДАННЫЕ TOPVIEW УСТАРЕЛИ', capStale: true, capHas: 'устарела' } },
     { name: 'monitor cycle unhealthy', tv: freshTv(), mon: (() => { const m = freshMon(); m.last_scheduled_cycle.health = 'degraded'; return m; })(), expect: { cls: 'warn', text: 'МОНИТОР: НЕПОЛНЫЙ ЦИКЛ' } },
     { name: 'monitor file missing (backward compatible)', tv: freshTv(), mon: 404, expect: { cls: 'ok', text: 'ПРОЕКТ СИНХРОНИЗИРОВАН' } },
-    { name: 'wrong master SHA is never green', tv: freshTv(), mon: freshMon(), status: Object.assign(clone(status), { canonical_master_sha256: '0'.repeat(64) }), expect: { cls: 'bad', text: 'ОШИБКА' } },
+    { name: 'wrong master SHA is never green', tv: freshTv(), mon: freshMon(), status: Object.assign(clone(status), { canonical_master_sha256: '0'.repeat(64) }), expect: { cls: 'bad', text: 'ОШИБКА', msg: 'Загруженный master не соответствует' } },
     { name: 'canonical health error is red even with fresh telemetry', tv: freshTv(), mon: freshMon(), status: Object.assign(clone(status), { health: 'error' }), expect: { cls: 'bad', text: 'ОШИБКА' } },
   ];
 }
@@ -72,6 +72,7 @@ function scenarios() {
       ins: [...document.querySelectorAll('#freshnessLine [title]')].map(n => n.getAttribute('title')).join('\n'),
       cap: document.getElementById('topviewCapacity')?.textContent || '',
       capStale: document.getElementById('topviewCapacity')?.classList.contains('stale') || false,
+      msg: document.getElementById('statusMessage')?.textContent || '',
       h2: document.querySelectorAll('#content h2').length,
       copy: [...document.querySelectorAll('button')].filter(b => /Копировать промт/.test(b.innerText)).length,
       galleries: document.querySelectorAll('.scene-ref-gallery img').length,
@@ -82,10 +83,11 @@ function scenarios() {
       && (ex.capHas == null || r.cap.includes(ex.capHas))
       && (ex.capLacks == null || !r.cap.includes(ex.capLacks))
       && (ex.ins == null || r.ins.includes(ex.ins))
-      && (!ex.noDaysWarn || !/дн/.test(r.warnText));
+      && (!ex.noDaysWarn || !/дн/.test(r.warnText))
+      && (ex.msg == null || r.msg.includes(ex.msg));
     if (!ok) failures++;
     console.log(`${ok ? 'PASS' : 'FAIL'}  ${sc.name.padEnd(56)} health=${r.cls} «${r.text}»  h2=${r.h2} copy=${r.copy} img=${r.galleries} ext=${externalRequests}${errors.length ? ' errors=' + errors.join(' | ') : ''}`);
-    if (!ok && (ex.capHas || ex.capStale != null || ex.ins || ex.noDaysWarn)) console.log('      detail capStale=' + r.capStale + ' cap=«' + r.cap.replace(/\s+/g, ' ') + '» warn=«' + r.warnText + '» insHas48=' + r.ins.includes('порог 48'));
+    if (!ok && (ex.capHas || ex.capStale != null || ex.ins || ex.noDaysWarn || ex.msg)) console.log('      detail capStale=' + r.capStale + ' cap=«' + r.cap.replace(/\s+/g, ' ') + '» warn=«' + r.warnText + '» msg=«' + r.msg + '»');
     if (sc.name === 'Topview 3 h old') console.log('      freshness line:', r.fresh.replace(/\s+/g, ' '));
     await page.close();
   }
