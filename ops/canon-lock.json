@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:f7d1699d-7c64-4bda-a818-60c129d2d0d8",
-  "task": "Scheduled 02:00 UTC Topview capacity and archive check",
-  "acquired_at": "2026-11-25T02:03:47.884Z",
-  "expires_at": null,
-  "released_at": "2026-11-25T02:03:54.450Z",
+  "state": "held",
+  "holder": "grok:22583ca4-bb83-4f8c-8f40-2b5c395b659a",
+  "task": "Grok 1023: started ACK result:2891ed5c… for S89J-WAN30 (no claim/Create)",
+  "acquired_at": "2026-11-25T13:03:25Z",
+  "expires_at": "2026-11-25T13:18:25Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
