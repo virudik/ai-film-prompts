@@ -1,5 +1,16 @@
 # Topview completed video archive — private Drive backup
 
+## Показ роликов с Яндекс Диска (все проекты, решение владельца 26.11.2026)
+
+- Сайт играет готовые ролики с Яндекс Диска. Google Drive и поток Supabase `drive-video` остаются запасным вариантом.
+- Формат одинаковый для всех проектов. Каждый проект хранит список в своём `topview-video-archive.json`: у «Серёгиуса» в корне, у остальных в `projects/<id>/`. В записи (ключ = номер задачи Topview или короткий id) лежат `scene_id` (или `scene`), `project`, `yandex_path`, `yandex_public_key`, `yandex_verified_at`, `size_bytes`, `md5`, `sha256`, а при наличии ещё `file_id` / `drive_url`.
+- Публичный доступ открыт только к отдельным файлам, папки не открыты. Ключ даёт прочитать один файл, это не секрет. Токены и `rclone.conf` в репозиторий не попадают.
+- Страница (`video-source.js`) при каждом открытии берёт у `cloud-api.yandex.net/v1/disk/public/resources/download` свежую ссылку (живёт около 4 ч) и ставит её в `<video>`. Если Яндекс не ответил или ролик не открылся, страница берёт Supabase/Drive.
+- Яндекс отвечает 403, если в запросе виден чужой Referer. Поэтому в `videos.html` и `film.html` обязательна строка `<meta name="referrer" content="no-referrer">`, её проверяют `scripts/validate_site.py` и `tests/test_yandex_video_links.py`.
+- Новые ролики добавляет понедельничная проверка: она докачивает файлы на Яндекс, затем выполняет `python3 scripts/yandex_video_links.py publish --project <id> --remote "ya-api:<папка>" --write`. Скрипт сверяет md5 и sha256 и публикует только совпавший файл. Ролики других проектов добавляются командой `python3 scripts/yandex_video_links.py import <manifest.json> --write`, записи в манифесте: `project`, `scene`, `yandex_public_key`, `yandex_path`, `task_id`.
+- 26.11.2026 опубликованы и проверены по md5+sha256+размеру все 123 ролика «Серёгиуса» из `Нейровидео/Серёгиус/. Topview/<дата>`. 82 найдены по номеру задачи в имени файла, 41 по точному размеру (имена `*_video_edit_*`).
+
+
 Статус: действует. Проверено: 15.11.2026.
 
 **Status 13.10.2026: OPERATIONAL.** End-to-end uploads with Drive checksum read-back verified (Scene 30, 78,644,925 B, and Scene 27, 78,611,053 B; Scene 25 added later by the schedule). GitHub Actions runs 38381306579 and 38381835331. Output link / scene ID / task ID are recorded in `topview-video-archive.json`. No Topview generation launched.

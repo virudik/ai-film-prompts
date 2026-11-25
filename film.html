@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="no-referrer">
 <title>AI Film — Фильм по порядку</title>
 <script src="projects.js?v=contest20261120"></script>
 <style>
@@ -53,7 +54,9 @@ let D={};
 // Scene order of the launch queue, same rule as index.html and scripts/robot_site_actions.py
 function queueOrder(q){const band=new Map(),held=new Set();(q?.items||[]).forEach(it=>{const sid=Number(it.scene_id);if(waiting(it.state)){const p=Number(it.priority)||0;band.set(sid,Math.min(band.has(sid)?band.get(sid):p,p))}else if(it.state==='held_owner_site')held.add(sid)});
  const live=[...band.entries()].sort((a,b)=>a[1]-b[1]||a[0]-b[0]).map(x=>x[0]);return{pos:new Map(live.map((s,i)=>[s,i+1])),held:new Set([...held].filter(s=>!band.has(s)))}}
-function videos(sid){const v=D.archive?.videos||{};return Object.values(v).filter(x=>Number(x.scene_id)===sid&&x.drive_url).sort((a,b)=>String(b.archived_at||'').localeCompare(String(a.archived_at||'')))}
+// Finished videos of any project (Yandex Disk first, Drive as fallback) play on videos.html (video-source.js).
+function videos(sid){const v=D.archive?.videos||{};return Object.entries(v).filter(([t,x])=>/^[A-Za-z0-9._-]{1,80}$/.test(t)&&x&&Number(x.scene_id??x.scene)===sid&&(x.yandex_public_key||x.file_id||x.drive_url)).map(([t,x])=>Object.assign({task:t},x)).sort((a,b)=>String(b.archived_at||'').localeCompare(String(a.archived_at||'')))}
+function videoHref(x){const P=window.AIFP||{isRoot:true};return 'videos.html?'+(P.isRoot?'':'project='+encodeURIComponent(P.id)+'&')+'task='+encodeURIComponent(x.task)}
 function status(sid){const L=D.ledger?.scenes?.[String(sid)]||{},M=D.status?.scene_meta?.[String(sid)],b=[];let cls='';
  const active=(D.topview?.active_tasks||[]).filter(t=>Number(t.scene_id)===sid);const Q=D.q;
  if(L.inserted_into_film){b.push(['b-film','✓ в фильме'+(L.insert_timecode?' · '+L.insert_timecode:'')]);cls='done'}
@@ -68,7 +71,7 @@ function status(sid){const L=D.ledger?.scenes?.[String(sid)]||{},M=D.status?.sce
 function counts(sids){const c={film:0,acc:0,redo:0,gen:0,q:0,other:0};sids.forEach(s=>{const {L}=status(s);if(L.inserted_into_film)c.film++;else if(L.accepted)c.acc++;else if(L.needs_redo)c.redo++;else if((D.topview?.active_tasks||[]).some(t=>Number(t.scene_id)===s))c.gen++;else if(D.q.pos.has(s))c.q++;else c.other++});
  return [['в фильме',c.film],['принято',c.acc],['переделать',c.redo],['генерируется',c.gen],['в очереди',c.q],['остальные',c.other]].map(([k,n])=>'<span class="count">'+k+': <b>'+n+'</b></span>').join('')}
 function ownerBox(sid,L){if(!key())return '';const q=!L.inserted_into_film&&!D.q.pos.has(sid);return '<div class="owner-btns">'+(q?'<button type="button" class="owner-btn" data-act="queue_add" data-sid="'+sid+'" title="Поставить сцену в очередь бесплатного запуска">в очередь</button>':'')+'<button type="button" class="owner-btn" data-act="task" data-sid="'+sid+'">✎ Задача</button></div><div class="task" id="task'+sid+'"><textarea maxlength="2000" placeholder="Что сделать со сценой '+sid+'"></textarea><div style="display:flex;gap:6px;flex-wrap:wrap"><select title="Кому задача"><option value="any">Кому: любой (кто свободен)</option><option value="claude">Кому: Claude</option><option value="chatgpt">Кому: ChatGPT</option><option value="grok">Кому: Grok</option></select><button type="button" class="owner-btn" data-act="send" data-sid="'+sid+'">Отправить</button></div></div>'}
-function card(sid,title,text){const {b,cls,L}=status(sid);const v=videos(sid);const links=[];if(L.result_url)links.push('<a href="'+esc(L.result_url)+'" target="_blank" rel="noopener">▶ выбранный ролик</a>');v.slice(0,3).forEach((x,i)=>links.push('<a href="'+esc(x.drive_url)+'" target="_blank" rel="noopener">▶ видео '+(i+1)+'</a>'));if(v.length>3)links.push('<span class="meta">ещё '+(v.length-3)+'</span>');
+function card(sid,title,text){const {b,cls,L}=status(sid);const v=videos(sid);const links=[];if(L.result_url)links.push('<a href="'+esc(L.result_url)+'" target="_blank" rel="noopener">▶ выбранный ролик</a>');v.slice(0,3).forEach((x,i)=>links.push('<a href="'+esc(videoHref(x))+'" target="_blank" rel="noopener">▶ видео '+(i+1)+(x.yandex_public_key?'':' (Drive)')+'</a>'));if(v.length>3)links.push('<span class="meta">ещё '+(v.length-3)+'</span>');
  const inMaster=(D.status?.scene_ids||[]).includes(sid);
  return '<div class="card '+cls+'"><div class="num">'+sid+'<small>сцена</small></div><div><div class="t">'+(inMaster?'<a href="index.html#scene-'+sid+'">'+esc(title)+'</a>':esc(title))+'</div>'+(text?'<div class="meta">'+esc(text)+'</div>':'')+(L.montage_note&&L.montage_note!=='в фильме'?'<div class="meta">Монтаж: '+esc(String(L.montage_note).slice(0,220))+'</div>':'')+'<div>'+b.map(([c,t])=>'<span class="badge '+c+'">'+esc(t)+'</span>').join('')+'</div>'+(links.length?'<div class="links">'+links.join('')+'</div>':'')+ownerBox(sid,L)+'</div></div>'}
 function render(){const box=document.getElementById('list');const O=D.order;if(!O){box.innerHTML='<div class="empty">Не удалось загрузить film-order.json.</div>';return}
