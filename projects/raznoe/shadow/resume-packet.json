@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-25T12:53:51+00:00",
-  "source_head": "3fb1f408d90c9c092555d591369c02459cd79538",
-  "source_fingerprint": "735940cae975b82b630918ed80302d36c7892106eeebc3782f3591b173103beb",
+  "checked_at": "2026-11-25T13:03:55+00:00",
+  "source_head": "62b1e289f2c910c59e449206f5525b4f17fe9346",
+  "source_fingerprint": "77ab82506ae2d8599de6318ff56950751f32434b8646f11c62b62abefa8fe2ab",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -179,7 +179,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "b30564463d68606fd83c03298fc0922787ba6a36e97941d320302259a77bc518",
+      "sha256": "f11efbd5f41d55151f632720cb1abc33a8c67fde6e7cba47a80496c3a7a1e763",
       "bytes": 5134
     },
     {
@@ -194,8 +194,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "6b02cdfd75e80566f95ccdc72703aec33e1871f0c09fbe1d147f31775b0d7ffa",
-      "bytes": 29588
+      "sha256": "bb8d27ad39b5701ee04037d91154a8e001a23ba921114c3acaf1c0fc3f24727d",
+      "bytes": 29586
     },
     {
       "file": "projects/README.md",
@@ -254,13 +254,13 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "a9c54a4cf2c88b66b4193f040b434803d51a408371d5ad6ec6af85f4e4b60f93",
+      "sha256": "41ef8de3708c64f22036735e19528d137e5574c9c66b1602d7da936ac7f19453",
       "bytes": 32409
     },
     {
       "file": "video-prompts.md",
-      "sha256": "e314a9f5b5622e1fb5b0d7b465bb0d9531ca866744bda52f56021c271a19b009",
-      "bytes": 2003950
+      "sha256": "a2d25749b21253e345af0ef936384b6c4e5afc4b1002b001e6fed385131f2baf",
+      "bytes": 2004267
     }
   ],
   "packet_bytes": 3876
