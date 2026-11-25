@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/projects/kot-detektiv/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-25T22:53:23Z",
+  "synced_at": "2026-11-25T22:54:58Z",
   "revision_date": "17.11.2026",
   "master_declared_last_full_sync": "23.10.2026 · в сценах 1–21 добавлена вкладка «⚡ Динамичная» (старые промты сохранены без изменений)",
   "canonical_master_sha256": "e819fcb3f142db2d50c33aa8c80e6a8b7874609ed0c294ef54474549ce1e218c",
@@ -42,22 +42,22 @@
   "latest_scene": 22,
   "reserved_scene_ids": [],
   "instruction_sync": {
-    "health": "error",
-    "snapshot_at": "2026-11-25T12:57:38.179Z",
+    "health": "ok",
+    "snapshot_at": "2026-11-25T22:54:54.247Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 9.929,
+    "age_hours_at_status_build": 0.001,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
         "drive_copy_sha256": "200c4d9cc2af089b0fe61a5a06584ae82175c8969599dc4081b69c5eb4fe4163",
         "drive_copy_checked_at": "2026-11-25T12:57:38.179Z",
         "drive_copy_modified_at": "2026-11-23T12:44:35.423Z",
-        "github_blob": "49d991c6e31e41a0ebe6049749cbd479749e7195",
-        "mirror_sha256": "200c4d9cc2af089b0fe61a5a06584ae82175c8969599dc4081b69c5eb4fe4163",
+        "github_blob": "a28744d88a9fc945e205b777a042a9c878abc022",
+        "mirror_sha256": "562d460231cb13f0f107f5ce209d93439e7b76fffeb9e1ab8d8ef1f052e07393",
         "match": true,
-        "drive_copy_match": true
+        "drive_copy_match": false
       },
       "SYNC-RUNBOOK.md": {
         "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
@@ -74,10 +74,10 @@
         "drive_copy_sha256": "1d754244779e067a12de42a74440aa2015e64fadd31e96a194bd6cc11dbe6127",
         "drive_copy_checked_at": "2026-11-25T12:57:38.179Z",
         "drive_copy_modified_at": "2026-11-17T11:53:56.776Z",
-        "github_blob": "0f1f7bc9d8f9170b41396e58d5928d5975765eef",
-        "mirror_sha256": "1d754244779e067a12de42a74440aa2015e64fadd31e96a194bd6cc11dbe6127",
+        "github_blob": "b3ac4e860f159292966ce467a636cdd3338a8f85",
+        "mirror_sha256": "cfadadad0d9a3074f3f6de646c8653314a2e07d7563d98b41868745b5b363ef5",
         "match": true,
-        "drive_copy_match": true
+        "drive_copy_match": false
       },
       "PROMPT-STYLE-GUIDE.md": {
         "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
@@ -121,14 +121,12 @@
       }
     }
   },
-  "warnings": [
-    "instruction_sync_error"
-  ],
+  "warnings": [],
   "maintenance": {
     "instruction_verification": {
-      "state": "error",
-      "age_hours": 9.929,
-      "blocking": true
+      "state": "ok",
+      "age_hours": 0.001,
+      "blocking": false
     },
     "topview_task_map": {
       "state": "unverified",
@@ -550,7 +548,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "17.11.2026",
-    "synced_at": "2026-11-25T22:53:23Z",
+    "synced_at": "2026-11-25T22:54:58Z",
     "canonical_master_sha256": "e819fcb3f142db2d50c33aa8c80e6a8b7874609ed0c294ef54474549ce1e218c",
     "canonical_revision_sha256": "f82362e4fe1b888014891095974edbdec87d1f79a918cc5fb3c045a1619c9fac",
     "scene_count": 22,
@@ -581,10 +579,10 @@
     ],
     "work_items": [],
     "slow_scenes": [],
-    "health": "error",
-    "instruction_sync_health": "error"
+    "health": "ok",
+    "instruction_sync_health": "ok"
   },
-  "health": "error",
+  "health": "ok",
   "checks": {
     "declared_scene_count_matches_sections": true,
     "declared_scene_count_matches_toc": true,
@@ -616,7 +614,7 @@
     "scene_meta_dialogue_valid": true,
     "scene_meta_tags_valid": true,
     "scene_meta_target_engine_valid": true,
-    "instruction_mirrors_match_drive": false
+    "instruction_mirrors_match_drive": true
   },
   "project": "kot-detektiv",
   "project_name": "Кот детектив"
