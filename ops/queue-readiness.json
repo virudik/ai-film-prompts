@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "457d0af39e19776e18865e334a74634f8e0f58af867ac576e4f324a65fc70067",
+  "source_queue_sha256": "f48470676a0dc0c5d256f15c83208e2b0f0556d4b816db356aed5b1a9423bb41",
   "source_task_map_sha256": "6f0cea875e0300256600ba0fda71509708e95d43c54cf830715624ab18d017a7",
   "topview_checked_at": "2026-11-25T13:00:45Z",
   "items": [
@@ -122,15 +122,6 @@
       "queue_state": "submitting"
     },
     {
-      "id": "S89J-WAN30",
-      "scene_id": 89,
-      "part_label": "89J · Wan 3.0",
-      "code": "preflight_required",
-      "ready": false,
-      "text": "Входы найдены; требуется снять записанный блокер после проверки",
-      "queue_state": "submitting"
-    },
-    {
       "id": "S49A-WAN30-20261118",
       "scene_id": 49,
       "part_label": "Часть 5",
@@ -150,5 +141,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-25T13:16:37.007899Z"
+  "checked_at": "2026-11-25T13:18:52.943889Z"
 }
