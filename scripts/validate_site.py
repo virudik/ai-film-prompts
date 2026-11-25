@@ -79,8 +79,9 @@ if 'id="schema"' in html:
 # Monitor freshness: stale scheduler observation must not look like a new
 # autonomous run; the owner should see the last verified healthy cycle.
 for required in (
-    "monSuccessAge=monitor?ageInfo(monitor?.last_successful_cycle_at)",
-    "unreportedSchedulerRun=Number.isFinite(schedulerObservedMs)",
+    "const monSuccessAge=monEv.successAge",
+    "SF.monitorEvidence(",
+    "unreportedSchedulerRun=!monEv.copyStale&&Number.isFinite(schedulerObservedMs)",
     "chip('Успешный цикл',monSuccessAge",
     "chip('Запуск без отчёта',ageInfo(schedulerObservedAt)",
 ):
@@ -137,8 +138,10 @@ for required in (
     'id="freshnessLine"',
     "const STALE_MIN=120",
     "healthClass='warn'",
-    "fetch('ci-status.json'",
-    "fetch('automation-monitor-status.json'",
+    "fetch(bust('ci-status.json')",
+    "fetch(bust('automation-monitor-status.json')",
+    "status-freshness.js?v=20261126",
+    "SF.slowLineAlarm(age.state)",
 ):
     if required not in html:
         raise SystemExit("missing freshness/renderer contract: "+required)

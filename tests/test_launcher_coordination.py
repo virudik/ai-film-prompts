@@ -508,10 +508,13 @@ class GrokReviewRegressionTests(unittest.TestCase):
     def test_scene89_first_create_is_not_marked_as_a_retry(self):
         import json
         q=json.loads((Path(__file__).resolve().parents[1]/'ops/topview-launch-queue.json').read_text())
+        # Submitted parts leave the active list for the archive. Both are still the first create, not a retry.
+        recorded=list(q['items'])+list(q.get('archived_items') or [])
         ids=[f'S89{part}-WAN30' for part in 'ABCDEFGHIJ']
         for key in ids:
-            item=next(x for x in q['items'] if x['id']==key)
-            self.assertFalse(item['automatic_retry'])
+            item=next((x for x in recorded if x['id']==key), None)
+            self.assertIsNotNone(item, key)
+            self.assertFalse(item.get('automatic_retry'))
             self.assertNotIn('retry_control', item)
             self.assertNotIn('submission_history', item)
 
