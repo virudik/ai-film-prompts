@@ -278,9 +278,12 @@ function sceneResultAttempts(sceneId,tv){
 }
 function archivedDriveUrl(taskId,sceneId){
  const entry=topviewVideoArchive?.videos?.[String(taskId)];
- const id=String(entry?.file_id||'');
- if(Number(entry?.scene_id)!==Number(sceneId)||!/^[A-Za-z0-9_-]{15,}$/.test(id))return null;
- // Drive's own viewer cannot play these files (MP4 written over text seed files, no video preview): open the site's video list.
+ if(!entry||Number(entry.scene_id)!==Number(sceneId))return null;
+ const id=String(entry.file_id||'');
+ const yandex=/^[A-Za-z0-9_-]{8,}$/.test(String(entry.yandex_public_key||''));
+ if(!/^[A-Za-z0-9_-]{15,}$/.test(id)&&!yandex)return null;
+ // A Yandex key is a single file (disk.yandex.ru/i/…), not a folder. Old Drive rows keep file_id.
+ // Either way the card opens videos.html, which plays the copy. Drive's own viewer cannot play these MP4s.
  return 'videos.html?task='+encodeURIComponent(String(taskId));
 }
 function topviewResultLinks(sceneId,tv,onlyPart){
@@ -291,7 +294,10 @@ function topviewResultLinks(sceneId,tv,onlyPart){
   const pt=typeof taskPartMap==='function'?taskPartMap().get(x.task_id):null,n=pt?shortPart(pt):String(i+1);
   const inTopview='<a target="_blank" rel="noopener noreferrer" title="Открыть получившийся ролик в своём Topview" href="https://www.topview.ai/board/'+TOPVIEW_FILM_BOARD+'?tool-type=video-edit&amp;boardResultId='+x.task_id+'">'+(pt?'▶ Готово '+esc(n):'▶ Версия '+n)+'</a>';
   const url=archivedDriveUrl(x.task_id,sceneId);
-  return inTopview+(url?' · <a target="_blank" rel="noopener noreferrer" title="Смотреть проверенную копию MP4 из Google Drive" href="'+esc(url)+'">💾 Drive '+esc(n)+'</a>':'');
+  const yandex=/^[A-Za-z0-9_-]{8,}$/.test(String(topviewVideoArchive?.videos?.[String(x.task_id)]?.yandex_public_key||''));
+  const copyTitle=yandex?'Смотреть копию на Яндекс Диске':'Смотреть проверенную копию MP4 из Google Drive';
+  const copyLabel=yandex?'💾 MP4 ':'💾 Drive ';
+  return inTopview+(url?' · <a target="_blank" rel="noopener noreferrer" title="'+copyTitle+'" href="'+esc(url)+'">'+copyLabel+esc(n)+'</a>':'');
  }).join(' · ')+'</div>';
 }
 function sceneDoneState(sid){const st=typeof runtimeSceneStatus==='function'&&runtimeTopview?runtimeSceneStatus(sid):null;if(!st||st.running)return null;if(st.finishedStatus==='success')return 'done';if(['fail','failed','cancelled'].includes(st.finishedStatus))return 'fail';return null}
@@ -308,9 +314,10 @@ function syncArchivedSceneLinks(){
    if(!url)return;
    const link=document.createElement('a');
    link.className='scene-chip scene-archive-link';
+   const yandex=/^[A-Za-z0-9_-]{8,}$/.test(String(topviewVideoArchive?.videos?.[String(v.task_id)]?.yandex_public_key||''));
    link.textContent='💾 MP4 '+(i+1);
    link.href=url;link.target='_blank';link.rel='noopener noreferrer';
-   link.title='Смотреть проверенную копию MP4 из Google Drive';
+   link.title=yandex?'Смотреть копию на Яндекс Диске':'Смотреть проверенную копию MP4 из Google Drive';
    videosRow(tools).appendChild(link);
   });
  });
@@ -559,7 +566,7 @@ function syncSubScenes(){
   lab.textContent='Подсцены: готово '+count.done+(count.run+count.queue?' · генерируется '+(count.run+count.queue):'')+(count.fail?' · ошибка '+count.fail:'')+' · '+(byPart.unknown?'нет записи о запуске ':'не запускалась ')+count.none+(byPart.unknown?' · ещё '+byPart.unknown+' старых задач без кода подсцены':'')+' —';
   if(tools)tools.appendChild(strip);
   // video links of the card: name the part instead of «Ролик 1 / 2»
-  tools?.querySelectorAll('a.scene-chip').forEach(a=>{const id=(a.href.match(/boardResultId=([0-9a-f]{32})/)||[])[1]||(topviewVideoArchive?.videos&&Object.entries(topviewVideoArchive.videos).find(([,v])=>a.href.includes(encodeURIComponent(String(v?.file_id||'-'))))?.[0]),pt=id&&parts.get(id);if(pt)a.textContent=(/MP4/.test(a.textContent)?'💾 MP4 ':'▶ Ролик ')+shortPart(pt)});
+  tools?.querySelectorAll('a.scene-chip').forEach(a=>{const id=(a.href.match(/boardResultId=([0-9a-f]{32})/)||a.href.match(/[?&]task=([0-9a-f]{32})/)||[])[1]||(topviewVideoArchive?.videos&&Object.entries(topviewVideoArchive.videos).find(([,v])=>a.href.includes(encodeURIComponent(String(v?.file_id||'-'))))?.[0]),pt=id&&parts.get(id);if(pt)a.textContent=(/MP4/.test(a.textContent)?'💾 MP4 ':'▶ Ролик ')+shortPart(pt)});
  });
  // «⏳ Сейчас в медленной генерации»: show the part code next to the scene number of each task row
  const slowTable=[...content.querySelectorAll('table')].find(t=>/^Сцена$/.test(t.querySelector('thead th')?.textContent.trim()||'')&&/^Действие$/.test(t.querySelector('thead th:last-child')?.textContent.trim()||''));

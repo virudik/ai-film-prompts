@@ -118,35 +118,7 @@ jobs:
           set -e
           if [ "$code" = "2" ]; then
             echo "nothing old and dated to propose"
-            python3 scripts/propose_handoff_trim.py . --stuck-issue > /tmp/handoff-stuck.json
-            python3 - << 'PY'
-            import json, os, subprocess
-            payload = json.load(open("/tmp/handoff-stuck.json"))
-            if not payload.get("needed"):
-                print("no remaining size warning")
-                raise SystemExit(0)
-            repo = os.environ["GITHUB_REPOSITORY"]
-            label = payload["label"]
-            listed = subprocess.run(
-                ["gh", "api", f"repos/{repo}/issues?state=open&labels={label}&per_page=5"],
-                check=False, capture_output=True, text=True)
-            number = ""
-            if listed.returncode == 0 and listed.stdout.strip():
-                rows = json.loads(listed.stdout)
-                if rows:
-                    number = str(rows[0]["number"])
-            if not number:
-                subprocess.run(["gh", "api", "-X", "POST", f"repos/{repo}/labels",
-                                "-f", f"name={label}", "-f", "color=fbca04"], check=False)
-                subprocess.run(["gh", "api", "-X", "POST", f"repos/{repo}/issues",
-                                "-f", f"title={payload['title']}", "-f", f"body={payload['body']}",
-                                "-f", f"labels[]={label}"], check=True)
-                print("opened stuck-handoff issue")
-            else:
-                subprocess.run(["gh", "api", "-X", "PATCH", f"repos/{repo}/issues/{number}",
-                                "-f", f"title={payload['title']}", "-f", f"body={payload['body']}"], check=True)
-                print(f"updated stuck-handoff issue {number}")
-            PY
+            python3 scripts/propose_handoff_trim.py . --publish-stuck-issue
             exit 0
           fi
           if [ "$code" != "0" ]; then exit "$code"; fi

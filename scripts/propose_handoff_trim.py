@@ -25,7 +25,9 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
+import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -418,6 +420,39 @@ def stuck_issue(root, now=None):
     return {"needed": True, "label": STUCK_LABEL, "title": STUCK_TITLE, "body": "\n".join(lines) + "\n"}
 
 
+def publish_stuck_issue(root):
+    """Open or update the one stuck-handoff issue. Returns a process status code."""
+    payload = stuck_issue(root)
+    if not payload:
+        print("no remaining size warning")
+        return 0
+    repo = os.environ.get("GITHUB_REPOSITORY", "")
+    if not repo:
+        print("GITHUB_REPOSITORY is unset", file=sys.stderr)
+        return 1
+    label = payload["label"]
+    listed = subprocess.run(
+        ["gh", "api", f"repos/{repo}/issues?state=open&labels={label}&per_page=5"],
+        check=False, capture_output=True, text=True)
+    number = ""
+    if listed.returncode == 0 and listed.stdout.strip():
+        rows = json.loads(listed.stdout)
+        if rows:
+            number = str(rows[0]["number"])
+    if not number:
+        subprocess.run(["gh", "api", "-X", "POST", f"repos/{repo}/labels",
+                        "-f", f"name={label}", "-f", "color=fbca04"], check=False)
+        subprocess.run(["gh", "api", "-X", "POST", f"repos/{repo}/issues",
+                        "-f", f"title={payload['title']}", "-f", f"body={payload['body']}",
+                        "-f", f"labels[]={label}"], check=True)
+        print("opened stuck-handoff issue")
+    else:
+        subprocess.run(["gh", "api", "-X", "PATCH", f"repos/{repo}/issues/{number}",
+                        "-f", f"title={payload['title']}", "-f", f"body={payload['body']}"], check=True)
+        print(f"updated stuck-handoff issue {number}")
+    return 0
+
+
 def notify_text(pr_url, changed):
     files = ", ".join(item["file"] for item in changed) or "хендоф"
     return (
@@ -446,7 +481,11 @@ def main(argv=None):
     parser.add_argument("--notify-text", help="print the Agent Relay notice for this PR url")
     parser.add_argument("--stuck-issue", action="store_true",
                         help="print the GitHub issue payload when a size warning remains and nothing can move")
+    parser.add_argument("--publish-stuck-issue", action="store_true",
+                        help="open or update the stuck-handoff issue; no shell heredoc")
     args = parser.parse_args(argv)
+    if args.publish_stuck_issue:
+        return publish_stuck_issue(args.root)
     if args.stuck_issue:
         payload = stuck_issue(args.root) or {"needed": False}
         print(json.dumps(payload, ensure_ascii=False, indent=2))

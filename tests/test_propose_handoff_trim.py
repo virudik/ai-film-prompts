@@ -83,8 +83,8 @@ class ProposeHandoffTrim(unittest.TestCase):
         self.assertIn("does not merge", workflow)
         self.assertIn(proposal.REVIEW_SENTENCE, rules)
         self.assertIn("source: self-heal", (ROOT / "ops/SELF-HEAL.md").read_text(encoding="utf-8"))
-        self.assertIn("--stuck-issue", workflow)
-        self.assertIn("handoff-trim-stuck", workflow)
+        self.assertIn("--publish-stuck-issue", workflow)
+        self.assertNotIn("handoff-stuck.json", workflow)
 
     def test_stuck_issue_when_warning_remains_and_nothing_moves(self):
         import tempfile
@@ -103,6 +103,13 @@ class ProposeHandoffTrim(unittest.TestCase):
             # A movable dated block means the robot should open a PR, not the stuck issue.
             handoff.write_text(FIXTURE, encoding="utf-8")
             self.assertIsNone(proposal.stuck_issue(root))
+
+    def test_publish_stuck_issue_is_quiet_without_a_warning(self):
+        import tempfile
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            (root / "canon-health.json").write_text('{"problems":[]}', encoding="utf-8")
+            self.assertEqual(proposal.publish_stuck_issue(root), 0)
 
 
 if __name__ == "__main__":

@@ -202,6 +202,8 @@ for required in ("topview-video-archive.json?fresh=", "function archivedDriveUrl
         raise SystemExit("Archived Drive MP4 link regression: " + required)
 # Drive's own viewer cannot play these MP4s (written over text seed files, no video preview) and Drive refuses
 # cross-site video requests, so links open videos.html, which plays through the Supabase drive-video stream (20.10.2026).
+if "yandex_public_key" not in html:
+    raise SystemExit("Scene cards must open a Yandex-only archive row, not only a Drive file_id")
 if "return 'videos.html?task='" not in html or "return 'https://drive.google.com/file/d/'" in html:
     raise SystemExit("Archived MP4 links must open videos.html, not the Drive viewer")
 if 'href="videos.html"' not in html:
