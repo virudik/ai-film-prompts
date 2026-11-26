@@ -3,19 +3,14 @@
   "generator": "continue-2.0",
   "project": "roscosmos",
   "project_name": "Роскосмос",
-  "checked_at": "2026-11-26T11:19:15+00:00",
-  "source_head": "aeaa4e2e757cec8acea112a16694e0fdfaa65db1",
-  "source_fingerprint": "c1c4992fb908abc79b8665dc1e0c86bf66aee620b480111393694d5936c3984b",
+  "checked_at": "2026-11-26T11:20:39+00:00",
+  "source_head": "29d3921ab6c52a54cf39510dc39819be9b7ddb9d",
+  "source_fingerprint": "d2a21daa6de3b5ab0cbb5efd1cece679312875d815b7aad70ff7bb0aa0b9ddc3",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": null,
   "reasons": [
-    "brief was invalid at generation",
-    "instruction certificate mismatch: SYNC-RUNBOOK.md",
-    "instruction certificate mismatch: AI-PROJECT-GUIDE.md",
-    "instruction certificate mismatch: USER-GUIDE.md",
-    "instruction certificate mismatch: README-AI-SYNC.md",
     "recovery evidence changed: projects/roscosmos/reports/terratech-revision-2026-11-04.json"
   ],
   "selected_work": null,
@@ -163,7 +158,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "cbc5a50df8891f998e7db84626fb99f49e370cf35c362144d34914cfe95ef3be",
+      "sha256": "8c55eda7d550829eca61e62748121e837ae046e19bdae12ad6006bb203b2ee66",
       "bytes": 5140
     },
     {
@@ -178,8 +173,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "468d9550367ae904fdfc8e5f5ec093093cf793b9b54d154437e62cd62199706b",
-      "bytes": 29594
+      "sha256": "d0e2ed9a8090c354b69e72dea34ab2ab5f85112ffabe19fd52a7dd9ae711d53c",
+      "bytes": 29592
     },
     {
       "file": "projects/README.md",
@@ -238,8 +233,8 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "49d084862dd9607345a67e8cb59a3f491fd459cabbd4b30baf3ca1d94b86c1b1",
-      "bytes": 32499
+      "sha256": "dcfbdf79880b5ae3c71e5c31e96b276a884126a5ad0b6b7a32da31056d86f58c",
+      "bytes": 32409
     },
     {
       "file": "video-prompts.md",
@@ -247,5 +242,5 @@
       "bytes": 2004434
     }
   ],
-  "packet_bytes": 4929
+  "packet_bytes": 4683
 }
