@@ -12,7 +12,7 @@ Two jobs, run on a machine with rclone set up for Yandex (the owner's box; no ke
               exact size), compare md5 (rclone) and md5+sha256+size (public API after publishing) with the
               entry; publish only that one file, never a folder; on any mismatch unpublish and report.
   import   -- merge records from a manifest (list or {"videos": [...]}) with project, scene,
-              yandex_public_key, yandex_path, optional task_id/key: the public API must answer for the key;
+              yandex_public_key, yandex_path, optional task_id/key, part, source, label: the public API must answer for the key;
               size/md5/sha256 come from it.
 Never prints tokens or rclone.conf. Deletes nothing, renames nothing. Writes only with --write.
 """
@@ -122,6 +122,9 @@ def import_manifest(args):
         if not meta or (args.write and meta.get("type") not in (None, "file")):
             bad.append((vkey, "Yandex public API did not answer for this key"))
             continue
+        if args.write and r.get("md5") and meta.get("md5") != r.get("md5"):
+            bad.append((vkey, "md5 from Yandex differs from the manifest"))
+            continue
         data = by_project.setdefault(pid, load(pid))
         e = data["videos"].setdefault(vkey, {})
         e.update({"project": pid, "scene_id": int(scene), "yandex_public_key": key,
@@ -129,6 +132,9 @@ def import_manifest(args):
         for k_out, k_in in (("size_bytes", "size"), ("md5", "md5"), ("sha256", "sha256")):
             if meta.get(k_in) is not None:
                 e[k_out] = meta[k_in]
+        for k in ("part", "source", "label"):
+            if r.get(k):
+                e[k] = str(r[k])[:60]
         e.setdefault("archived_at", r.get("archived_at") or now())
     for pid, data in by_project.items():
         if args.write:

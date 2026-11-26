@@ -6,7 +6,7 @@
 <!-- Yandex Disk refuses video requests that carry a foreign Referer (403): keep this line (video-source.js). -->
 <meta name="referrer" content="no-referrer">
 <title>AI Film — Ролики по сценам</title>
-<script src="projects.js?v=stikhiy20261119"></script>
+<script src="projects.js?v=yandex20261126"></script>
 <script src="video-source.js?v=yandex20261126"></script>
 <style>
 :root{color-scheme:dark;--bg:#090b0e;--panel:#101419;--panel2:#151b22;--text:#edf2f7;--muted:#8f9aa6;--line:#28313b;--accent:#7dbbff;--bad:#ff8f8f;--ok:#7ee2a8}
@@ -51,7 +51,7 @@ function play(v,auto){
  const btn=document.querySelector('.v[data-task="'+v.task+'"]');if(btn)btn.classList.add('on');
  const mb=v.size?(v.size/1048576).toFixed(0)+' МБ':'';
  $('player').innerHTML='<video controls playsinline preload="metadata"'+(auto?' autoplay':'')+'></video>'+
-  '<div class="now"><b>Сцена '+esc(v.scene)+(titles[v.scene]?' — '+esc(titles[v.scene]):'')+'</b><span>версия '+esc(v.n)+(v.at?' · '+esc(day(v.at)):'')+'</span><span class="src" id="src"></span><a id="dl" href="#" download="scene-'+esc(v.scene)+'-v'+esc(v.n)+'.mp4" rel="noopener noreferrer">⬇ Скачать'+(mb?' ('+mb+')':'')+'</a><a href="index.html#scene-'+esc(v.scene)+'">к сцене</a></div>';
+  '<div class="now"><b>Сцена '+esc(v.scene)+(titles[v.scene]?' — '+esc(titles[v.scene]):'')+'</b><span>версия '+esc(v.n)+(v.e.label?' · '+esc(v.e.label):'')+(v.at?' · '+esc(day(v.at)):'')+'</span><span class="src" id="src"></span><a id="dl" href="#" download="scene-'+esc(v.scene)+'-v'+esc(v.n)+'.mp4" rel="noopener noreferrer">⬇ Скачать'+(mb?' ('+mb+')':'')+'</a><a href="index.html#scene-'+esc(v.scene)+'">к сцене</a></div>';
  const video=$('player').querySelector('video');
  VS.attach(video,v.e,()=>{$('player').insertAdjacentHTML('beforeend','<div class="note err">Браузер не открыл ролик ни с Яндекса, ни с Google Drive. Обновите страницу или откройте ролик в Topview со страницы сцены.</div>')},
   s=>{$('src').textContent=s.kind==='yandex'?'Яндекс Диск':'Google Drive';$('dl').href=s.url});
@@ -63,7 +63,7 @@ function render(){
  const byScene=new Map();videos.forEach(v=>{if(!byScene.has(v.scene))byScene.set(v.scene,[]);byScene.get(v.scene).push(v)});
  const scenes=[...byScene.keys()].sort((a,b)=>a-b).filter(s=>!q||String(s)===q||String(s).startsWith(q)||(titles[s]||'').toLowerCase().includes(q));
  $('list').innerHTML=scenes.length?scenes.map(s=>'<div class="scene"><div class="scene-head"><span class="num">Сцена '+s+'</span><span class="t">'+esc(titles[s]||'')+'</span></div><div class="vers">'+
-  byScene.get(s).map(v=>'<button type="button" class="v" data-task="'+esc(v.task)+'">▶ '+esc(v.n)+(v.at?' · '+esc(day(v.at).slice(0,5)):'')+'</button>').join('')+'</div></div>').join(''):'<div class="note">'+(videos.length?'Ничего не найдено.':'В этом проекте пока нет сохранённых роликов.')+'</div>';
+  byScene.get(s).map(v=>'<button type="button" class="v" data-task="'+esc(v.task)+'">▶ '+esc(v.e.label||v.n)+(v.at?' · '+esc(day(v.at).slice(0,5)):'')+'</button>').join('')+'</div></div>').join(''):'<div class="note">'+(videos.length?'Ничего не найдено.':'В этом проекте пока нет сохранённых роликов.')+'</div>';
  $('list').querySelectorAll('.v').forEach(b=>b.onclick=()=>play(videos.find(v=>v.task===b.dataset.task),true));
 }
 function titlesFrom(order,md){
