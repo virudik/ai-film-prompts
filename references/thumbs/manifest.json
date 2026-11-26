@@ -2563,6 +2563,16 @@
    "thumb_bytes": 17972,
    "src_sha256": "b27ebf31fb7ac58daa057ff05e2dfd262e98acb316715f0404fdbd3f244ca94e"
   },
+  "projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2-cap.webp": {
+   "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2-cap.webp.webp",
+   "width": 640,
+   "height": 320,
+   "src_width": 1536,
+   "src_height": 768,
+   "src_bytes": 175276,
+   "thumb_bytes": 17946,
+   "src_sha256": "66d0e264264cb4824cb2a980fd2249e11be3567b908f14227489ffec11ec2f5b"
+  },
   "projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2.webp": {
    "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2.webp.webp",
    "width": 640,
@@ -2572,6 +2582,16 @@
    "src_bytes": 142400,
    "thumb_bytes": 15600,
    "src_sha256": "349a4589d24ef2a1cdce703c28e274aaf015ddda89cf1d48a03b5fb15c3cff19"
+  },
+  "projects/stikhiy/references/scenes/scene-1/S6-Anatoly-cap.webp": {
+   "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-Anatoly-cap.webp.webp",
+   "width": 640,
+   "height": 426,
+   "src_width": 1250,
+   "src_height": 833,
+   "src_bytes": 164790,
+   "thumb_bytes": 23142,
+   "src_sha256": "2402d4e77522798538f9fc7e06e81787ba9094dd74c5f9a422f8969d61120dd3"
   },
   "projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp": {
    "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp.webp",
@@ -2622,6 +2642,26 @@
    "src_bytes": 131348,
    "thumb_bytes": 18432,
    "src_sha256": "229a862e63db7bcdd7cf8bc76f3e1bf0c9f3942f0b1584af99b15667f4f9eca3"
+  },
+  "projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png": {
+   "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png.webp",
+   "width": 640,
+   "height": 1137,
+   "src_width": 941,
+   "src_height": 1672,
+   "src_bytes": 3356815,
+   "thumb_bytes": 205372,
+   "src_sha256": "c11129f42a7288629c17eb79b3f53a9cede2b976eb71bb3e5f5ca7b813b0d04f"
+  },
+  "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png": {
+   "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png.webp",
+   "width": 640,
+   "height": 1137,
+   "src_width": 941,
+   "src_height": 1672,
+   "src_bytes": 3577117,
+   "thumb_bytes": 209364,
+   "src_sha256": "e40fecded4d642945e916419ed6385d2040344738d77c5d1959a8d6350c8010e"
   },
   "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.png": {
    "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.png.webp",
