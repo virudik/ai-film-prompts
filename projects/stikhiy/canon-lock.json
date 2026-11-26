@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:f873ee5c-b58b-45b6-bfe4-5d04e4459396",
-  "task": "Стахий: 18 клипов READY, Wan 3.0 очередь, версии видео, битые фото (owner t980u–t984u)",
-  "acquired_at": "2026-11-26T22:43:29Z",
-  "expires_at": null,
-  "released_at": "2026-11-26T22:44:47Z",
+  "state": "held",
+  "holder": "grok:d9bae192-aabf-4312-bd46-0fc1e148cffd",
+  "task": "Стахий: оригиналы PNG, очередь Wan 3.0",
+  "acquired_at": "2026-11-26T22:50:04Z",
+  "expires_at": "2026-11-26T23:50:04Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "stikhiy"
 }
