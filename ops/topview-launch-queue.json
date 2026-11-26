@@ -2829,7 +2829,7 @@
       "canonical_prompt_sha256": "16c7e16535f36792c8ceaf4687f735e8d5726fc07412b1e3aa421968f67c765a",
       "normalized_prompt_sha256": "2399d902f98f3365fbe3a4e6097b1d4226376b98d3516aff49b6466851513dae",
       "priority": 0.316,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -2839,7 +2839,66 @@
       "mode": "omni_reference",
       "max_new_submissions": 1,
       "task_id": null,
-      "claim": null,
+      "claim": {
+        "claim_id": "86122844-dd6c-47af-ad50-6d3c9617f6c7",
+        "execution_instance_id": "1cbc555c-9d69-492a-8522-3875106b51cf",
+        "route_generation": 7,
+        "source_sha": "f7771474076668353a2d45ca52cbc01682d74bd4",
+        "claimed_at": "2026-11-26T21:07:46Z",
+        "lease_holder": "grok:1cbc555c-9d69-492a-8522-3875106b51cf",
+        "lease_acquired_at": "2026-11-26T21:05:56Z",
+        "preflight": {
+          "owner_authorized": true,
+          "prompt_match": true,
+          "input_sha_match": true,
+          "input_order_match": true,
+          "qc_passed": true,
+          "website_unlimited": true,
+          "unlimited_mode_selected": true,
+          "ui_prompt_exact": true,
+          "numeric_zero_displayed": false,
+          "paid_credit_mode_selected": false,
+          "credits_cost": 0,
+          "credits_cost_evidence": "selected_free_unlimited_current_form",
+          "ui_unlimited_label": "Безлимитный режим — бесплатно",
+          "ui_create_button_text": "Создать",
+          "quantity": 1,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "model": "Seedance 2.0",
+          "model_id": "seedance-2.0-style",
+          "duration_seconds": 15,
+          "prompt_sha256": "16c7e16535f36792c8ceaf4687f735e8d5726fc07412b1e3aa421968f67c765a",
+          "reference_sha256": [
+            "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+            "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+            "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+            "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
+            "f6499c3ca6b546daac6066754823348306bf8248f4979a708db16047f4be2c9c"
+          ],
+          "owner_free_label_decision": {
+            "host_address": "t718s3708 answer",
+            "at": "2026-11-19T00:30:00Z",
+            "role": "user",
+            "text": "Да, «Безлимитный режим» без цены считай бесплатным, запускай"
+          },
+          "form_evidence": {
+            "checked_at_msk": "2026-11-27T00:05:56+03:00",
+            "url": "https://www.topview.ai/board/1a6244cf1ae747ef847d949a80d6133c?tool-type=video-edit",
+            "mode": "Omni-reference (Омни-референс)",
+            "payment": "Безлимитный режим — бесплатно (Кредитный режим 15 кредитов не выбран; кнопка «Создать» без цены)",
+            "refs_order": [
+              "Image1=1-H28B-disco.png",
+              "Image2=2-S67-Masha-R-tatooine-sheet.png",
+              "Image3=3-S66-Alina-tatooine-sheet.png",
+              "Image4=4-S66-Dasha-tatooine-sheet.png",
+              "Image5=5-S28-trio-masha-alina-dasha-dance.png"
+            ],
+            "prompt_dom_check": "5 чипов @Image1..5 на 1-H28B-disco.png, 2-S67-Masha-R-tatooine-sheet.png, 3-S66-Alina-tatooine-sheet.png, 4-S66-Dasha-tatooine-sheet.png, 5-S28-trio-masha-alina-dasha-dance.png; readback /workspace/topview-1058/form-readback.txt matches prompt.txt sha256 16c7e165…765a"
+          }
+        },
+        "coordination_version": 2
+      },
       "owner_review_required_after_item": null,
       "blocker": null,
       "references": [
