@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-11-18T22:56:51.293Z",
+  "updated_at": "2026-11-26T20:59:50Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -2096,15 +2096,21 @@
       "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted.",
       "owner_music_consent": true,
       "owner_music_consent_record": {
-        "id": "owner-20261113-t601u",
-        "at_local": "2026-11-13T14:40 Europe/Moscow",
-        "also": [
-          "t576u",
-          "t578u"
-        ],
-        "quote": "Порядок очереди запуска: 1) S48-P4-R2; 2) совет джедаев на балконе S89A–S89E и голограммы S89F–S89G; 3) оставшиеся танцы сцены 28; 4) остальные разговорные S89H–S89J. Это согласие запускать танцы 28 в этом месте очереди.",
-        "scope": "remaining scene 28 dances listed in owner_policy_20261113_t601u only",
-        "not_consent_for_other_music": true
+        "id": "owner-20261126-t961s5455",
+        "widget": "t961s5455",
+        "at": "2026-11-26T20:53:00Z",
+        "at_local": "2026-11-26T23:53 Europe/Moscow",
+        "quote": "Да, и дальше A10 и A11 без вопросов",
+        "scope": "S28-A13-20261030 now; then S28-A10-20261023 and S28-A11-20261023 on later free slots without a new question",
+        "not_consent_for_other_music": true,
+        "supersedes_as_launch_basis": "owner-20261113-t601u",
+        "does_not_cover": [
+          "S28-A3-20261023",
+          "S28-A12-20261023",
+          "scene 49",
+          "scene 50",
+          "scene 51"
+        ]
       }
     },
     {
@@ -2177,15 +2183,21 @@
       "pose_revision_20261025": "Pose helper added; existing real-video continuity dependency retained.",
       "owner_music_consent": true,
       "owner_music_consent_record": {
-        "id": "owner-20261113-t601u",
-        "at_local": "2026-11-13T14:40 Europe/Moscow",
-        "also": [
-          "t576u",
-          "t578u"
-        ],
-        "quote": "Порядок очереди запуска: 1) S48-P4-R2; 2) совет джедаев на балконе S89A–S89E и голограммы S89F–S89G; 3) оставшиеся танцы сцены 28; 4) остальные разговорные S89H–S89J. Это согласие запускать танцы 28 в этом месте очереди.",
-        "scope": "remaining scene 28 dances listed in owner_policy_20261113_t601u only",
-        "not_consent_for_other_music": true
+        "id": "owner-20261126-t961s5455",
+        "widget": "t961s5455",
+        "at": "2026-11-26T20:53:00Z",
+        "at_local": "2026-11-26T23:53 Europe/Moscow",
+        "quote": "Да, и дальше A10 и A11 без вопросов",
+        "scope": "S28-A13-20261030 now; then S28-A10-20261023 and S28-A11-20261023 on later free slots without a new question",
+        "not_consent_for_other_music": true,
+        "supersedes_as_launch_basis": "owner-20261113-t601u",
+        "does_not_cover": [
+          "S28-A3-20261023",
+          "S28-A12-20261023",
+          "scene 49",
+          "scene 50",
+          "scene 51"
+        ]
       }
     },
     {
@@ -2880,15 +2892,21 @@
       "authorization_recorded_at_note": "Recorded now from current owner request and existing final-number queue authorization, not a claimed message timestamp.",
       "owner_music_consent": true,
       "owner_music_consent_record": {
-        "id": "owner-20261113-t601u",
-        "at_local": "2026-11-13T14:40 Europe/Moscow",
-        "also": [
-          "t576u",
-          "t578u"
-        ],
-        "quote": "Порядок очереди запуска: 1) S48-P4-R2; 2) совет джедаев на балконе S89A–S89E и голограммы S89F–S89G; 3) оставшиеся танцы сцены 28; 4) остальные разговорные S89H–S89J. Это согласие запускать танцы 28 в этом месте очереди.",
-        "scope": "remaining scene 28 dances listed in owner_policy_20261113_t601u only",
-        "not_consent_for_other_music": true
+        "id": "owner-20261126-t961s5455",
+        "widget": "t961s5455",
+        "at": "2026-11-26T20:53:00Z",
+        "at_local": "2026-11-26T23:53 Europe/Moscow",
+        "quote": "Да, и дальше A10 и A11 без вопросов",
+        "scope": "S28-A13-20261030 now; then S28-A10-20261023 and S28-A11-20261023 on later free slots without a new question",
+        "not_consent_for_other_music": true,
+        "supersedes_as_launch_basis": "owner-20261113-t601u",
+        "does_not_cover": [
+          "S28-A3-20261023",
+          "S28-A12-20261023",
+          "scene 49",
+          "scene 50",
+          "scene 51"
+        ]
       },
       "max_credits": 0
     },
@@ -5926,6 +5944,18 @@
       "source": "owner_instruction t853u",
       "quote": "Хотя танцевальный номер уже смонтирован и вместо танцев давай диалоги сначала",
       "effect": "S89H-WAN30, S89I-WAN30 and S89J-WAN30 placed before remaining scene 28 dances (A13, A10, A11, A3, A12); already submitted scene 28 items and their consents unchanged"
+    },
+    "owner_update_20261126_t961s5455": {
+      "at_local": "2026-11-26T23:53 Europe/Moscow",
+      "who": "owner t961s5455",
+      "source": "owner_card_response t961s5455",
+      "quote": "Да, и дальше A10 и A11 без вопросов",
+      "effect": "Launch consent for S28-A13-20261030 now, then S28-A10-20261023 and S28-A11-20261023 on subsequent free slots without asking again. t601u remains historical order policy but is not the launch-consent basis. Does not cover other dances or music (A3, A12, 49/50/51, etc.). Relative order after submitted S89H–S89J is unchanged: A13, A10, A11, then still-blocked A3, A12.",
+      "launch_without_new_question": [
+        "S28-A13-20261030",
+        "S28-A10-20261023",
+        "S28-A11-20261023"
+      ]
     }
   }
 }

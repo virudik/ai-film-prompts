@@ -2809,6 +2809,49 @@
       "claim_id": "106b5b11-81a1-416f-b010-9bdfa3f4c346",
       "submission_intent_id": "b12e3fe5-8490-48be-aaa2-1d2800026fb9",
       "create_click_count": 1
+    },
+    {
+      "event_id": "result:d6fb29ca214e42ec9b8c950657b26832",
+      "issue_number": 1058,
+      "actor": "grok",
+      "source": "grok issue-assigned wake #1058 (primary) + owner card answer t961s5455",
+      "runner": "grok_executor",
+      "run_id": null,
+      "run_id_unavailable_reason": "not exposed",
+      "execution_instance_id": "1cbc555c-9d69-492a-8522-3875106b51cf",
+      "route_generation": 7,
+      "outcome": "started",
+      "retryable": true,
+      "item_id": "S28-A13-20261030",
+      "task_ids": [],
+      "new_submissions": 0,
+      "credits_spent": 0,
+      "owner_command": {
+        "host_address": "t961s5455 answer",
+        "at": "2026-11-26T20:53:00Z",
+        "quote": "Да, и дальше A10 и A11 без вопросов",
+        "scope": "S28-A13 now; A10 and A11 on later free slots; not other music"
+      },
+      "order_basis": {
+        "source": "owner_card_response t961s5455",
+        "at": "2026-11-26T20:53:00Z",
+        "at_local": "2026-11-26T23:53 Europe/Moscow",
+        "quote": "Да, и дальше A10 и A11 без вопросов",
+        "record": "owner-20261126-t961s5455"
+      },
+      "checked_at": "2026-11-26T20:59:50Z",
+      "completed_result": {
+        "task_id": "d6fb29ca214e42ec9b8c950657b26832",
+        "item_id": "S28-A7-20261023",
+        "final_status": "success",
+        "completed_at": "2026-11-26T12:59:46Z"
+      },
+      "execution": {
+        "state": "started",
+        "stage": "intake",
+        "started_at": "2026-11-26T20:59:50Z",
+        "updated_at": "2026-11-26T20:59:50Z"
+      }
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
