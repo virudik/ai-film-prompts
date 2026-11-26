@@ -2829,7 +2829,7 @@
       "canonical_prompt_sha256": "16c7e16535f36792c8ceaf4687f735e8d5726fc07412b1e3aa421968f67c765a",
       "normalized_prompt_sha256": "2399d902f98f3365fbe3a4e6097b1d4226376b98d3516aff49b6466851513dae",
       "priority": 0.316,
-      "state": "claimed",
+      "state": "submitting",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -2897,7 +2897,37 @@
             "prompt_dom_check": "5 чипов @Image1..5 на 1-H28B-disco.png, 2-S67-Masha-R-tatooine-sheet.png, 3-S66-Alina-tatooine-sheet.png, 4-S66-Dasha-tatooine-sheet.png, 5-S28-trio-masha-alina-dasha-dance.png; readback /workspace/topview-1058/form-readback.txt matches prompt.txt sha256 16c7e165…765a"
           }
         },
-        "coordination_version": 2
+        "coordination_version": 2,
+        "submission_intent_id": "e8179f3c-f040-4bb5-a64b-9cb0535f5d47",
+        "submission_intent_at": "2026-11-26T21:09:28Z",
+        "replay_forbidden": true,
+        "host_run": {
+          "namespace": "cursor_host",
+          "observation_source": "parent_shell_os_environ",
+          "field": "CURSOR_REQUEST_ID",
+          "value": "713ba3b5-0c56-4e77-a79f-2574babff8ad",
+          "conversation_field": "CURSOR_CONVERSATION_ID",
+          "conversation_id": "1c1bf697-3c93-4068-b457-e90efdd5ef8f",
+          "owner_response_kind": "answered_card",
+          "owner_response_to_card_address": "t961s5455",
+          "owner_response_role": "user",
+          "current_owner_response_message_address": null
+        },
+        "provider_run_key": "ab7c3abac3d35d0ec18498b6ded36cce7e3b89a5fbe74715b5c38262ed8f1550",
+        "owner_event_keys": [
+          "13782423befb4c1e21dfe0569c33b64b07bc9d29f2d46c67981040bb521a004d"
+        ],
+        "ledger_path": "ops/launcher-run-ledger.json",
+        "trigger": "owner_command",
+        "owner_command": {
+          "quote": "Да, и дальше A10 и A11 без вопросов",
+          "source": "cursor_host",
+          "at": "2026-11-26T20:53:00Z",
+          "owner_response_to_card_address": "t961s5455",
+          "owner_response_role": "user",
+          "current_owner_response_message_address": null
+        },
+        "intent_payload_sha256": "898819bd545d3bac78414d8710604ecf5bfae5d20b261fff799aad58a48e11d8"
       },
       "owner_review_required_after_item": null,
       "blocker": null,
