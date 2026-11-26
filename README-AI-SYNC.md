@@ -1,4 +1,4 @@
-﻿# README-AI-SYNC v5.1
+# README-AI-SYNC v5.1
 
 > **Пробуждение, роли и предупреждения сайта** — одно место: `ops/PRIMARY-BACKUP-WAKE.md`. Замок, claim и один Create — `ops/LAUNCHER-COORDINATION.md`; обёртка — `ops/LAUNCHER-ENTRY.md`. Копии и прежние отчёты это не переопределяют.
 
@@ -37,7 +37,7 @@
 - **Topview** — task / model / status / queue / ETA / result (телеметрия, для агентов только чтение). Technical `success` ≠ approval. Генерации — только по команде владельца, безлимитный режим через сайт Topview; MCP / Canvas Topview платные — запрещено.
 - **Supabase** (проект `ai-film-comments`, ref `vzohfatqzyioydtgjiyd`, организация `Vint`) — backend комментариев (`submit-comment`) и решений владельца (`owner_decisions`, Edge Function `owner-decision`, исходник `ops/supabase/owner-decision/`) и внешний запуск workflow (pg_cron + pg_net → `workflow_dispatch`, `ops/ROBOT-TRIGGER.md`). Применяют решения только робот / монитор / агент по канону; Supabase не получает прав на master, Scene ID, slow-lock, approval или запуск генераций.
 - **GitHub Actions (роботы)** — детерминированные исполнители: телеметрия Topview, кнопки владельца, статус, копия канона на Drive. Копии роликов на Google Drive выключены.
-- **Ролики всех проектов** — Яндекс Диск, не Google Drive (`ops/TOPVIEW-VIDEO-ARCHIVE.md`). Старый индекс Drive не удалять.
+- **Ролики всех проектов** — Яндекс Диск, не Google Drive; когда раскладывать — `ops/TOPVIEW-VIDEO-ARCHIVE.md`. Старый индекс Drive не удалять.
 - **Референсы** — принятые кадры сцены в `references/scenes/scene-N/` в `main` с manifest (сайт показывает миниатюры `references/thumbs/`); `scene-reference-plan.json` / `.md` — аудит недостающих кадров; рабочие копии пакетов — Drive «Scene Reference Packs» и Library (`BACKUP-AI-RUNBOOK.md`). Референсы не заменяют текст промта и сами не меняют состав сцен.
 - **Очередь и задачи** — `ops/topview-launch-queue.json` (очередь бесплатных запусков), `ops/owner-tasks.json` (входящие задачи владельца), `ops/canon-lock.json` (кто сейчас правит канон), `work-resume-register.json` (точка продолжения работы).
 
