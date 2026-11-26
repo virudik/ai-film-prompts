@@ -2,28 +2,33 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-11-26T10:28:31+00:00",
- "valid_at_generation": true,
- "validity_mismatches": [],
+ "generated_at": "2026-11-26T11:19:14+00:00",
+ "valid_at_generation": false,
+ "validity_mismatches": [
+  "SYNC-RUNBOOK.md",
+  "AI-PROJECT-GUIDE.md",
+  "USER-GUIDE.md",
+  "README-AI-SYNC.md"
+ ],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
  "sources": [
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "7ac823f42d1181a39b9c97e2afc321e09538e37c07b49be2b9e750164901e815",
-   "bytes": 28290
+   "sha256": "af63fc7cff7ddfc310caadc28f42b244786a869ec9e277e3695881bde9ed079c",
+   "bytes": 29238
   },
   {
    "file": "SYNC-RUNBOOK.md",
    "drive_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-   "sha256": "6f8089f91e39055e6be35b808146afc51faf5d5e711bb5a4b0e04c5a7b2cce30",
-   "bytes": 129605
+   "sha256": "b66245b481140083ac6ae5733214570f79d758e4e2d7309d6389657416156398",
+   "bytes": 129436
   },
   {
    "file": "AI-PROJECT-GUIDE.md",
    "drive_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-   "sha256": "95b7fe8c1038866a5ce9057424f2420560115432e407df0bf2414886856ad96a",
-   "bytes": 40995
+   "sha256": "1d8dbbc6ffda3f267787276d94416a039779d79bdecc5590445a0d5a16efefd2",
+   "bytes": 41079
   },
   {
    "file": "PROMPT-STYLE-GUIDE.md",
@@ -34,14 +39,14 @@
   {
    "file": "USER-GUIDE.md",
    "drive_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-   "sha256": "f9d36e68e469165ddcf72212a434f0b21f4b62111484ffc13176d318e4bc48c5",
-   "bytes": 83052
+   "sha256": "a049556aa027dabce0e9c50ea36a6ba3f1e191c09b364233ce60702a1d14550b",
+   "bytes": 83535
   },
   {
    "file": "README-AI-SYNC.md",
    "drive_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-   "sha256": "a55ebb7ecb24ac5bb9737a1e7a3944f2d3d3c9ac8d88189c33894a9de28f7ea6",
-   "bytes": 17991
+   "sha256": "b072999f994bdbb0402d6bb98739417410359f884f9797c1352bd8551a596560",
+   "bytes": 18027
   },
   {
    "file": "BACKUP-AI-RUNBOOK.md",
@@ -180,11 +185,11 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 18899,
-  "above_marker_chars": 18899,
+  "chars": 19505,
+  "above_marker_chars": 19505,
   "recent_sections_below_marker": [],
-  "sha256": "7ac823f42d1181a39b9c97e2afc321e09538e37c07b49be2b9e750164901e815",
-  "sha256_12": "7ac823f42d11",
+  "sha256": "af63fc7cff7ddfc310caadc28f42b244786a869ec9e277e3695881bde9ed079c",
+  "sha256_12": "af63fc7cff7d",
   "extra_current_sections": []
  },
  "runtime": {

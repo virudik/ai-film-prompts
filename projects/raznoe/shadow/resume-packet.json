@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-26T10:53:36+00:00",
-  "source_head": "d0b1e07a602d8b649b171723a17561ece795b93c",
-  "source_fingerprint": "1156d2258f9eb89729a1efcce804df017f362b753bfdda0e780972457f4e61d2",
+  "checked_at": "2026-11-26T11:19:15+00:00",
+  "source_head": "aeaa4e2e757cec8acea112a16694e0fdfaa65db1",
+  "source_fingerprint": "fa0a730feb02049e2d039cfa98db28fefaedd7da5fc2f56e2858fa40d7776872",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -32,6 +32,11 @@
     "source_head": "0107904bad80907682f4854768885b56d7d8d8da"
   },
   "reasons": [
+    "brief was invalid at generation",
+    "instruction certificate mismatch: SYNC-RUNBOOK.md",
+    "instruction certificate mismatch: AI-PROJECT-GUIDE.md",
+    "instruction certificate mismatch: USER-GUIDE.md",
+    "instruction certificate mismatch: README-AI-SYNC.md",
     "resume target is missing or finished: RAZNOE-STAKHIY-SCENE6-20261118"
   ],
   "selected_work": null,
@@ -144,8 +149,8 @@
   "sources": [
     {
       "file": "AI-PROJECT-GUIDE.md",
-      "sha256": "95b7fe8c1038866a5ce9057424f2420560115432e407df0bf2414886856ad96a",
-      "bytes": 40995
+      "sha256": "1d8dbbc6ffda3f267787276d94416a039779d79bdecc5590445a0d5a16efefd2",
+      "bytes": 41079
     },
     {
       "file": "BACKUP-AI-RUNBOOK.md",
@@ -154,8 +159,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "7ac823f42d1181a39b9c97e2afc321e09538e37c07b49be2b9e750164901e815",
-      "bytes": 28290
+      "sha256": "af63fc7cff7ddfc310caadc28f42b244786a869ec9e277e3695881bde9ed079c",
+      "bytes": 29238
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -164,22 +169,22 @@
     },
     {
       "file": "README-AI-SYNC.md",
-      "sha256": "a55ebb7ecb24ac5bb9737a1e7a3944f2d3d3c9ac8d88189c33894a9de28f7ea6",
-      "bytes": 17991
+      "sha256": "b072999f994bdbb0402d6bb98739417410359f884f9797c1352bd8551a596560",
+      "bytes": 18027
     },
     {
       "file": "SYNC-RUNBOOK.md",
-      "sha256": "6f8089f91e39055e6be35b808146afc51faf5d5e711bb5a4b0e04c5a7b2cce30",
-      "bytes": 129605
+      "sha256": "b66245b481140083ac6ae5733214570f79d758e4e2d7309d6389657416156398",
+      "bytes": 129436
     },
     {
       "file": "USER-GUIDE.md",
-      "sha256": "f9d36e68e469165ddcf72212a434f0b21f4b62111484ffc13176d318e4bc48c5",
-      "bytes": 83052
+      "sha256": "a049556aa027dabce0e9c50ea36a6ba3f1e191c09b364233ce60702a1d14550b",
+      "bytes": 83535
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "0a2261aeb7131956ebbb9ecf1e8a46d16e55d2a885ce11f597dc0e8658a5d967",
+      "sha256": "cbc5a50df8891f998e7db84626fb99f49e370cf35c362144d34914cfe95ef3be",
       "bytes": 5140
     },
     {
@@ -249,13 +254,13 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "7ac823f42d1181a39b9c97e2afc321e09538e37c07b49be2b9e750164901e815",
-      "bytes": 28290
+      "sha256": "af63fc7cff7ddfc310caadc28f42b244786a869ec9e277e3695881bde9ed079c",
+      "bytes": 29238
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "3a9b1d7bb9c139c1421f06db6c5051b441fe65b9b4a6f572af2697877f7fa7cc",
-      "bytes": 32409
+      "sha256": "49d084862dd9607345a67e8cb59a3f491fd459cabbd4b30baf3ca1d94b86c1b1",
+      "bytes": 32499
     },
     {
       "file": "video-prompts.md",
@@ -263,5 +268,5 @@
       "bytes": 2004434
     }
   ],
-  "packet_bytes": 3876
+  "packet_bytes": 4122
 }
