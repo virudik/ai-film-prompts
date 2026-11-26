@@ -2839,7 +2839,7 @@
         "quote": "Да, и дальше A10 и A11 без вопросов",
         "record": "owner-20261126-t961s5455"
       },
-      "checked_at": "2026-11-26T20:59:50Z",
+      "checked_at": "2026-11-26T21:05:56Z",
       "completed_result": {
         "task_id": "d6fb29ca214e42ec9b8c950657b26832",
         "item_id": "S28-A7-20261023",
@@ -2848,9 +2848,9 @@
       },
       "execution": {
         "state": "started",
-        "stage": "intake",
+        "stage": "lease",
         "started_at": "2026-11-26T20:59:50Z",
-        "updated_at": "2026-11-26T20:59:50Z"
+        "updated_at": "2026-11-26T21:05:56Z"
       }
     }
   ],
