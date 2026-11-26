@@ -54,6 +54,34 @@
       "yandex_public_key": "https://yadi.sk/i/5thuJhJc-GlIfQ",
       "yandex_verified_at": "2026-11-25T23:37:08Z"
     },
+    "043d6d4c2350440dbc7bc593845387ab": {
+      "archived_at": "2026-11-26T11:01:17Z",
+      "label": "Seedance-2.5",
+      "md5": "15f43c7199033d5ff85c5edb19b3c07b",
+      "project": "seregius",
+      "scene_id": 3,
+      "sha256": "5692b1c4c91b099292326c41fd8f7c1192be9d975b6d62820c868586a9b2643c",
+      "size_bytes": 36907857,
+      "source": "topview",
+      "task_id": "043d6d4c2350440dbc7bc593845387ab",
+      "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-09-23/S3_Seedance-2.5_043d6d4c2350440dbc7bc593845387ab.mp4",
+      "yandex_public_key": "https://yadi.sk/i/qi91CsCEcHWITQ",
+      "yandex_verified_at": "2026-11-26T11:01:17Z"
+    },
+    "05ff0d3ed87b443b81dd35f0477cadd3": {
+      "archived_at": "2026-11-26T10:59:17Z",
+      "label": "Wan-3.0",
+      "md5": "820642b76666610f52607ba02658091e",
+      "project": "seregius",
+      "scene_id": 20,
+      "sha256": "329c8cd1b08c45fcc90b2cf9313a1f9a65f583652242763aa6615c6b9818d385",
+      "size_bytes": 78608540,
+      "source": "topview",
+      "task_id": "05ff0d3ed87b443b81dd35f0477cadd3",
+      "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-10-06/S20_Wan-3.0_05ff0d3ed87b443b81dd35f0477cadd3.mp4",
+      "yandex_public_key": "https://yadi.sk/i/dWs51Yuhe5mvnw",
+      "yandex_verified_at": "2026-11-26T10:59:17Z"
+    },
     "078f094bb1124c2ba7aa22d1ff0eb395": {
       "archived_at": "2026-11-15T11:05:36Z",
       "drive_url": "https://drive.google.com/file/d/1PfG0if6mqvAH_RVYbCnQks5CdaTTrDN2/view",
@@ -144,6 +172,20 @@
       "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-11-09/261109_0017_video_edit_4220.mp4",
       "yandex_public_key": "https://yadi.sk/i/JDLb4wiM6cUwkQ",
       "yandex_verified_at": "2026-11-25T23:37:08Z"
+    },
+    "117b9d976d2c4a54945256e79fc64639": {
+      "archived_at": "2026-11-26T10:59:11Z",
+      "label": "Wan-3.0",
+      "md5": "7f318fde093a64db3a646fd8d7251e74",
+      "project": "seregius",
+      "scene_id": 20,
+      "sha256": "7ffdeb8cd498d6d02db40bdfa085a820baf2c2e011236a98a32ca23dc9b9b7dc",
+      "size_bytes": 78611618,
+      "source": "topview",
+      "task_id": "117b9d976d2c4a54945256e79fc64639",
+      "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-10-07/S20_Wan-3.0_117b9d976d2c4a54945256e79fc64639.mp4",
+      "yandex_public_key": "https://yadi.sk/i/OHI0lNfcAPESew",
+      "yandex_verified_at": "2026-11-26T10:59:11Z"
     },
     "15e12f1588cc4079983610b63973e028": {
       "archived_at": "2026-11-15T11:15:53Z",
@@ -275,6 +317,20 @@
       "yandex_public_key": "https://yadi.sk/i/GroNfY5NnwVPKQ",
       "yandex_verified_at": "2026-11-25T23:37:08Z"
     },
+    "2b87094928e14ca7827b911f2fbbd747": {
+      "archived_at": "2026-11-26T10:59:49Z",
+      "label": "Wan-3.0",
+      "md5": "aaec185fb827d9951b73c402e2be611b",
+      "project": "seregius",
+      "scene_id": 20,
+      "sha256": "28fd6240727ca56d7075dbf3387509bd7e9fe3a478de99545a9352756ddafc1e",
+      "size_bytes": 78649761,
+      "source": "topview",
+      "task_id": "2b87094928e14ca7827b911f2fbbd747",
+      "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-10-04/S20_Wan-3.0_2b87094928e14ca7827b911f2fbbd747.mp4",
+      "yandex_public_key": "https://yadi.sk/i/2GWSRaCn6RoNPg",
+      "yandex_verified_at": "2026-11-26T10:59:49Z"
+    },
     "2bccc8a3521b411cb7bd51f9c8ba1119": {
       "archived_at": "2026-10-17T23:15:27Z",
       "drive_url": "https://drive.google.com/file/d/1DxQSoa2lyboXvTRB1cL37M3ElqfSYp3V/view",
@@ -287,6 +343,20 @@
       "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-10-18/S28_Wan-3.0_2bccc8a3521b411cb7bd51f9c8ba1119.mp4",
       "yandex_public_key": "https://yadi.sk/i/pMo6S_MyDMVrbw",
       "yandex_verified_at": "2026-11-25T23:37:08Z"
+    },
+    "2c28a4161c8f459d8bf0c0460ac21ec5": {
+      "archived_at": "2026-11-26T10:58:28Z",
+      "label": "Wan-3.0",
+      "md5": "f6a75739b0c475023bdc51aee80ad6ab",
+      "project": "seregius",
+      "scene_id": 20,
+      "sha256": "39f104cea913394c02c7bcd07739d900c265d9ab7ce719cdd8e501bc7566e857",
+      "size_bytes": 78608265,
+      "source": "topview",
+      "task_id": "2c28a4161c8f459d8bf0c0460ac21ec5",
+      "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-10-10/S20_Wan-3.0_2c28a4161c8f459d8bf0c0460ac21ec5.mp4",
+      "yandex_public_key": "https://yadi.sk/i/Am2GmGhXfVaR5Q",
+      "yandex_verified_at": "2026-11-26T10:58:28Z"
     },
     "2d8efbd16f5146f48cd7a9a1ffb99369": {
       "archived_at": "2026-11-09T10:35:40Z",
@@ -470,6 +540,20 @@
       "yandex_public_key": "https://yadi.sk/i/sPaNL7uUEhdwaQ",
       "yandex_verified_at": "2026-11-25T23:37:08Z"
     },
+    "3f1800f1f2774492ab8bc2eb163cc589": {
+      "archived_at": "2026-11-26T11:01:26Z",
+      "label": "Seedance-2.5",
+      "md5": "4d058a92c0fee76a6f4fed1c10bb5bd3",
+      "project": "seregius",
+      "scene_id": 5,
+      "sha256": "b1af8696a7259351a04db840fc5aa9f91fc1dbf36f76f507040c308870f8512d",
+      "size_bytes": 35317273,
+      "source": "topview",
+      "task_id": "3f1800f1f2774492ab8bc2eb163cc589",
+      "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-09-23/S5_Seedance-2.5_3f1800f1f2774492ab8bc2eb163cc589.mp4",
+      "yandex_public_key": "https://yadi.sk/i/3u5cqjHbtMRu_A",
+      "yandex_verified_at": "2026-11-26T11:01:26Z"
+    },
     "3fb3d9ee26474b62982ae8ef062afc32": {
       "archived_at": "2026-10-13T18:15:46Z",
       "drive_url": "https://drive.google.com/file/d/1wAov-EOkkMEUmWoT7Gk-2I1BZNego4Oz/view",
@@ -521,6 +605,20 @@
       "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-11-09/261109_0014_video_edit_1829.mp4",
       "yandex_public_key": "https://yadi.sk/i/-p9dC7dR2v1RwA",
       "yandex_verified_at": "2026-11-25T23:37:08Z"
+    },
+    "42e5cdb42c1a45df8a037a26eb3fa26b": {
+      "archived_at": "2026-11-26T10:58:56Z",
+      "label": "Wan-3.0",
+      "md5": "a1bc2800cf2a985c39f8e8087c88e238",
+      "project": "seregius",
+      "scene_id": 20,
+      "sha256": "e43fedfdd369cc555cfd4ddaa004f9075df8dff254e21e3dc0a070189f03b799",
+      "size_bytes": 78609575,
+      "source": "topview",
+      "task_id": "42e5cdb42c1a45df8a037a26eb3fa26b",
+      "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-10-08/S20_Wan-3.0_42e5cdb42c1a45df8a037a26eb3fa26b.mp4",
+      "yandex_public_key": "https://yadi.sk/i/niYXQRijTJNm7Q",
+      "yandex_verified_at": "2026-11-26T10:58:56Z"
     },
     "42f5f94e994a4768a4618c5cda3fa4d1": {
       "archived_at": "2026-10-22T22:55:45Z",
@@ -756,6 +854,20 @@
       "yandex_public_key": "https://yadi.sk/i/qq43b8nZzZrDDg",
       "yandex_verified_at": "2026-11-25T23:37:08Z"
     },
+    "6519d4dc9b11437999b103d557a410cf": {
+      "archived_at": "2026-11-26T10:58:41Z",
+      "label": "Wan-3.0",
+      "md5": "1ea03d72b5706dabfaf449832c243c95",
+      "project": "seregius",
+      "scene_id": 11,
+      "sha256": "da450b79bfce39cbb9ba594ed4eff1e42757d08eb6fad616e1ac43573051b331",
+      "size_bytes": 26466767,
+      "source": "topview",
+      "task_id": "6519d4dc9b11437999b103d557a410cf",
+      "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-10-08/S11_Wan-3.0_6519d4dc9b11437999b103d557a410cf.mp4",
+      "yandex_public_key": "https://yadi.sk/i/tsK9dZMjiFwv3w",
+      "yandex_verified_at": "2026-11-26T10:58:41Z"
+    },
     "6598a21c2c684d43b7cede9cfc987107": {
       "archived_at": "2026-10-23T21:25:32Z",
       "drive_url": "https://drive.google.com/file/d/1aXAwnh8E3yxcpgiueGFmNXEh44znqLfr/view",
@@ -768,6 +880,34 @@
       "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-10-24/S58_Seedance-2.0_6598a21c2c684d43b7cede9cfc987107.mp4",
       "yandex_public_key": "https://yadi.sk/i/UPGgwE8jc8z8dw",
       "yandex_verified_at": "2026-11-25T23:37:08Z"
+    },
+    "67b8304f8a324b7493af32fd0a0ae5d7": {
+      "archived_at": "2026-11-26T11:00:49Z",
+      "label": "Seedance-2.5",
+      "md5": "125ea6dc89d71f84598ea2a23665c54a",
+      "project": "seregius",
+      "scene_id": 17,
+      "sha256": "fa1e437b578184e43512fa2453d132e5848ef5194f12816db2a5d549da6ce95b",
+      "size_bytes": 28123270,
+      "source": "topview",
+      "task_id": "67b8304f8a324b7493af32fd0a0ae5d7",
+      "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-09-26/S17_Seedance-2.5_67b8304f8a324b7493af32fd0a0ae5d7.mp4",
+      "yandex_public_key": "https://yadi.sk/i/7QNGFnu9PaoXaQ",
+      "yandex_verified_at": "2026-11-26T11:00:49Z"
+    },
+    "6926ce5d0f81477ea06f135d4b658f97": {
+      "archived_at": "2026-11-26T11:00:12Z",
+      "label": "Seedance-2.5",
+      "md5": "2983369ecd0bc15d7d07f869d180d5d5",
+      "project": "seregius",
+      "scene_id": 22,
+      "sha256": "eb7a62514c5b027450d3fff3c85600c29067b624dfcc151e30b6898a28066840",
+      "size_bytes": 41546693,
+      "source": "topview",
+      "task_id": "6926ce5d0f81477ea06f135d4b658f97",
+      "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-10-01/S22_Seedance-2.5_6926ce5d0f81477ea06f135d4b658f97.mp4",
+      "yandex_public_key": "https://yadi.sk/i/x_d-YHRvvIP-zQ",
+      "yandex_verified_at": "2026-11-26T11:00:12Z"
     },
     "6a70fae84abf401cb93f8c762b8c26e3": {
       "archived_at": "2026-11-09T11:45:43Z",
@@ -782,6 +922,20 @@
       "yandex_public_key": "https://yadi.sk/i/VtgXWcwO0msiQA",
       "yandex_verified_at": "2026-11-25T23:37:08Z"
     },
+    "6d05c85753234b64b43fc75157437a0d": {
+      "archived_at": "2026-11-26T11:00:24Z",
+      "label": "Seedance-2.5",
+      "md5": "2a8a69b490a845fec224ae145ec24a67",
+      "project": "seregius",
+      "scene_id": 21,
+      "sha256": "fef80def882fe7cc1f2fe06975deb42789cbc16abb29baadf3abc4b95f5abe32",
+      "size_bytes": 32072289,
+      "source": "topview",
+      "task_id": "6d05c85753234b64b43fc75157437a0d",
+      "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-09-30/S21_Seedance-2.5_6d05c85753234b64b43fc75157437a0d.mp4",
+      "yandex_public_key": "https://yadi.sk/i/abKFewAKwp9FMg",
+      "yandex_verified_at": "2026-11-26T11:00:24Z"
+    },
     "6d1ff4a96a0043f2884ffb528d5d9c9a": {
       "archived_at": "2026-10-14T02:15:27Z",
       "drive_url": "https://drive.google.com/file/d/1r-i4Jmw-Ag6IJVwzjyL35m442f1CiYjU/view",
@@ -794,6 +948,20 @@
       "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-10-14/S35_Wan-3.0_6d1ff4a96a0043f2884ffb528d5d9c9a.mp4",
       "yandex_public_key": "https://yadi.sk/i/lbzAyZBXH-N2XQ",
       "yandex_verified_at": "2026-11-25T23:37:08Z"
+    },
+    "6ef310d646ca4605b5b10c12752b6ab7": {
+      "archived_at": "2026-11-26T11:01:41Z",
+      "label": "Wan-3.0",
+      "md5": "90224c1c624b70d07010b5933344e0c2",
+      "project": "seregius",
+      "scene_id": 19,
+      "sha256": "312caed915674ccf6d7e6fd72661ecd53cd11cd00c60b0a43f158feb097649d6",
+      "size_bytes": 32052378,
+      "source": "topview",
+      "task_id": "6ef310d646ca4605b5b10c12752b6ab7",
+      "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-09-21/S19_Wan-3.0_6ef310d646ca4605b5b10c12752b6ab7.mp4",
+      "yandex_public_key": "https://yadi.sk/i/mqTVzxkzqgGDRg",
+      "yandex_verified_at": "2026-11-26T11:01:41Z"
     },
     "70ba69f8c44e4898ab587fbffeaeca01": {
       "archived_at": "2026-10-20T17:35:40Z",
@@ -886,6 +1054,20 @@
       "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-10-23/S40_Seedance-2.0_790a7017632045a58d83ccc0891c44ac.mp4",
       "yandex_public_key": "https://yadi.sk/i/wJJKcxcoMeB6Rg",
       "yandex_verified_at": "2026-11-25T23:37:08Z"
+    },
+    "7da3246d27c44cf4a0f17af16ad1b9cf": {
+      "archived_at": "2026-11-26T10:59:43Z",
+      "label": "Wan-3.0",
+      "md5": "74efae07f7f50e95b96fe4046c85e72e",
+      "project": "seregius",
+      "scene_id": 20,
+      "sha256": "711ff7481ca1fcd1db611fbe13c976e084371a983d3c3a288e353cb602f77252",
+      "size_bytes": 29034955,
+      "source": "topview",
+      "task_id": "7da3246d27c44cf4a0f17af16ad1b9cf",
+      "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-10-05/S20_Wan-3.0_7da3246d27c44cf4a0f17af16ad1b9cf.mp4",
+      "yandex_public_key": "https://yadi.sk/i/9ArNfWCTioZF4g",
+      "yandex_verified_at": "2026-11-26T10:59:43Z"
     },
     "7f3aba2b4e1b42b69b9871c5b8e4c08b": {
       "archived_at": "2026-11-09T10:25:34Z",
@@ -1043,6 +1225,20 @@
       "yandex_public_key": "https://yadi.sk/i/NJOkccfJnSibNA",
       "yandex_verified_at": "2026-11-25T23:37:08Z"
     },
+    "943741b1bb4b40fd8189767eb18c9285": {
+      "archived_at": "2026-11-26T10:59:29Z",
+      "label": "Wan-3.0",
+      "md5": "b9586984f75816206fb863e2894bacd9",
+      "project": "seregius",
+      "scene_id": 20,
+      "sha256": "b0390fb59327b5334ccc9e06eeaa5a5e127a6145c514ce7d0866e8281a5d21c4",
+      "size_bytes": 78621491,
+      "source": "topview",
+      "task_id": "943741b1bb4b40fd8189767eb18c9285",
+      "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-10-06/S20_Wan-3.0_943741b1bb4b40fd8189767eb18c9285.mp4",
+      "yandex_public_key": "https://yadi.sk/i/EOUxR0Th00m_5Q",
+      "yandex_verified_at": "2026-11-26T10:59:29Z"
+    },
     "94d2ef4fbb7a42a3bee7c112dbc232cc": {
       "archived_at": "2026-11-09T10:35:35Z",
       "drive_url": "https://drive.google.com/file/d/1q7HqPPuIZiK1---f-ny70ZgfrYSiqTTq/view",
@@ -1107,6 +1303,20 @@
       "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-10-03/S27_Seedance-2.0_98150f1d673344e4b2fec6f9cd6685a0.mp4",
       "yandex_public_key": "https://yadi.sk/i/l4r3TfY0HN6iyQ",
       "yandex_verified_at": "2026-11-25T23:37:08Z"
+    },
+    "9c13463d52f9432d93c9b8b6288efdec": {
+      "archived_at": "2026-11-26T10:59:35Z",
+      "label": "Wan-3.0",
+      "md5": "c7d76c4709102afdd7b78989cc0d391e",
+      "project": "seregius",
+      "scene_id": 20,
+      "sha256": "e18dc67171189088ba708d26541b64ab70b772bff2a62cbfa843dbc7435292fd",
+      "size_bytes": 78611701,
+      "source": "topview",
+      "task_id": "9c13463d52f9432d93c9b8b6288efdec",
+      "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-10-05/S20_Wan-3.0_9c13463d52f9432d93c9b8b6288efdec.mp4",
+      "yandex_public_key": "https://yadi.sk/i/Y0crPYeHGw_7BA",
+      "yandex_verified_at": "2026-11-26T10:59:35Z"
     },
     "9d4b3b177e6d452abe499537a05f454c": {
       "archived_at": "2026-11-20T07:05:45Z",
@@ -1238,6 +1448,20 @@
       "yandex_public_key": "https://yadi.sk/i/L_gSpXl11JTeUA",
       "yandex_verified_at": "2026-11-25T23:37:08Z"
     },
+    "b95a76b92f9d4787b738b165eaeb270f": {
+      "archived_at": "2026-11-26T10:58:49Z",
+      "label": "Wan-3.0",
+      "md5": "f7d808f4ca6a72ebdad1eeb66968c897",
+      "project": "seregius",
+      "scene_id": 26,
+      "sha256": "598be8b732a9f280510742179f1a29128fda50e972a0f3573aacc36571b21734",
+      "size_bytes": 33472873,
+      "source": "topview",
+      "task_id": "b95a76b92f9d4787b738b165eaeb270f",
+      "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-10-08/S26_Wan-3.0_b95a76b92f9d4787b738b165eaeb270f.mp4",
+      "yandex_public_key": "https://yadi.sk/i/4t6jnlMvX6iCvg",
+      "yandex_verified_at": "2026-11-26T10:58:49Z"
+    },
     "be59815f157e47c0924b91dbde48f997": {
       "archived_at": "2026-11-09T12:05:36Z",
       "drive_url": "https://drive.google.com/file/d/1yw5AWv1oyO1Ui4BQEV_J3u8CQfd5R8CM/view",
@@ -1368,6 +1592,34 @@
       "yandex_public_key": "https://yadi.sk/i/I2YmNyUMrW7AOQ",
       "yandex_verified_at": "2026-11-25T23:37:08Z"
     },
+    "cfe166820fe046e09d57870928dd87cd": {
+      "archived_at": "2026-11-26T11:01:09Z",
+      "label": "Seedance-2.5",
+      "md5": "f4cec1473d6b624108d4eb7fdd903343",
+      "project": "seregius",
+      "scene_id": 4,
+      "sha256": "c7b886f740a340aba15184f19b5958f7890593d18e24c9ca88613edc9ca8797e",
+      "size_bytes": 25941060,
+      "source": "topview",
+      "task_id": "cfe166820fe046e09d57870928dd87cd",
+      "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-09-24/S4_Seedance-2.5_cfe166820fe046e09d57870928dd87cd.mp4",
+      "yandex_public_key": "https://yadi.sk/i/wRhV4aPDb_gkHQ",
+      "yandex_verified_at": "2026-11-26T11:01:09Z"
+    },
+    "d28b2481a8b344439fa175c3ef0b7f5b": {
+      "archived_at": "2026-11-26T11:01:33Z",
+      "label": "Seedance-2.5",
+      "md5": "466153aa91927cb21080e79867934938",
+      "project": "seregius",
+      "scene_id": 2,
+      "sha256": "333dab7d59609ed215d3872657e180c2f2b19179c8a64df8a231e91e5639f5f5",
+      "size_bytes": 38434968,
+      "source": "topview",
+      "task_id": "d28b2481a8b344439fa175c3ef0b7f5b",
+      "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-09-22/S2_Seedance-2.5_d28b2481a8b344439fa175c3ef0b7f5b.mp4",
+      "yandex_public_key": "https://yadi.sk/i/zp0R_zwj14Yohg",
+      "yandex_verified_at": "2026-11-26T11:01:33Z"
+    },
     "d3844e4199d64abebe323be430a5cb35": {
       "archived_at": "2026-10-17T11:25:32Z",
       "drive_url": "https://drive.google.com/file/d/1XYqPqbL5Y9vh_68vl8MaZZ63WthRnB0Y/view",
@@ -1433,6 +1685,20 @@
       "yandex_public_key": "https://yadi.sk/i/x15Ni2g4QHG23g",
       "yandex_verified_at": "2026-11-25T23:37:08Z"
     },
+    "e100cb476f9548edae0f36a99471b6e5": {
+      "archived_at": "2026-11-26T10:59:58Z",
+      "label": "Wan-3.0",
+      "md5": "92a95186c9d95c8f76038b7cc660c409",
+      "project": "seregius",
+      "scene_id": 26,
+      "sha256": "2e11e9daef95907b6f6cc82f7c080a95826d7d572d0303340d2bbd9a51df132f",
+      "size_bytes": 35996618,
+      "source": "topview",
+      "task_id": "e100cb476f9548edae0f36a99471b6e5",
+      "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-10-03/S26_Wan-3.0_e100cb476f9548edae0f36a99471b6e5.mp4",
+      "yandex_public_key": "https://yadi.sk/i/29-a_EX5ZnlSFw",
+      "yandex_verified_at": "2026-11-26T10:59:58Z"
+    },
     "e33891d4568a4a90b31ff3c67f5a7100": {
       "archived_at": "2026-10-21T03:35:52Z",
       "drive_url": "https://drive.google.com/file/d/14x9V85h69-Fm9rAYa990C7LgjK5mlznJ/view",
@@ -1459,6 +1725,20 @@
       "yandex_public_key": "https://yadi.sk/i/NCviSYYpHp4Z_Q",
       "yandex_verified_at": "2026-11-25T23:37:08Z"
     },
+    "e42b4746c792472a9586ae95cd1513d3": {
+      "archived_at": "2026-11-26T11:00:04Z",
+      "label": "Seedance-2.5",
+      "md5": "8fb2dbc14bdfbae698277163ca2a0d82",
+      "project": "seregius",
+      "scene_id": 23,
+      "sha256": "f5b96600551026269442fdd3a8c7d97ccfb41fb65f1eba39029508bae1025423",
+      "size_bytes": 37752955,
+      "source": "topview",
+      "task_id": "e42b4746c792472a9586ae95cd1513d3",
+      "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-10-02/S23_Seedance-2.5_e42b4746c792472a9586ae95cd1513d3.mp4",
+      "yandex_public_key": "https://yadi.sk/i/yCbdWhuFFFzvMw",
+      "yandex_verified_at": "2026-11-26T11:00:04Z"
+    },
     "e471e35fc7454fe5a2a89e06fac3f122": {
       "archived_at": "2026-10-17T02:55:37Z",
       "drive_url": "https://drive.google.com/file/d/1QyFAkS34rennKplncQkMeRd4BJD9Lavf/view",
@@ -1471,6 +1751,34 @@
       "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-10-17/S28_Seedance-2.0_e471e35fc7454fe5a2a89e06fac3f122.mp4",
       "yandex_public_key": "https://yadi.sk/i/jaKiOvXyNWZ_sg",
       "yandex_verified_at": "2026-11-25T23:37:08Z"
+    },
+    "e4ad0298cf7d48a98c6ba6498bb62c48": {
+      "archived_at": "2026-11-26T11:00:59Z",
+      "label": "Seedance-2.5",
+      "md5": "2ee0f0815bf78eea0b3e188addd64af4",
+      "project": "seregius",
+      "scene_id": 19,
+      "sha256": "3f2162658530c09db5b8e8feb16e5b684b4ae5a08aa3a4f4e3da8c30440c44f5",
+      "size_bytes": 24642423,
+      "source": "topview",
+      "task_id": "e4ad0298cf7d48a98c6ba6498bb62c48",
+      "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-09-25/S19_Seedance-2.5_e4ad0298cf7d48a98c6ba6498bb62c48.mp4",
+      "yandex_public_key": "https://yadi.sk/i/iquuOouHik6PHg",
+      "yandex_verified_at": "2026-11-26T11:00:59Z"
+    },
+    "e620bf1255a9445b8ccfe5e44e30b5b6": {
+      "archived_at": "2026-11-26T11:00:32Z",
+      "label": "Seedance-2.5",
+      "md5": "350d161338272664fdef10d215a58301",
+      "project": "seregius",
+      "scene_id": 20,
+      "sha256": "a1e5501a3148f7c7215a97192971c7f82827853c7a4066382d5663e4667429bb",
+      "size_bytes": 37583703,
+      "source": "topview",
+      "task_id": "e620bf1255a9445b8ccfe5e44e30b5b6",
+      "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-09-28/S20_Seedance-2.5_e620bf1255a9445b8ccfe5e44e30b5b6.mp4",
+      "yandex_public_key": "https://yadi.sk/i/WpoTMPRp6SPeNw",
+      "yandex_verified_at": "2026-11-26T11:00:32Z"
     },
     "e6a5cf9a3d04413e943c9bbbff9e1f73": {
       "archived_at": "2026-10-21T16:05:51Z",
@@ -1524,6 +1832,20 @@
       "yandex_public_key": "https://yadi.sk/d/rWsqCulAvTua8Q",
       "yandex_verified_at": "2026-11-25T23:37:08Z"
     },
+    "ef0a2cdb1c8841ac8d031a19fa07bd9e": {
+      "archived_at": "2026-11-26T10:59:05Z",
+      "label": "Wan-3.0",
+      "md5": "109dd80a95355ac35461c2ce0b69471d",
+      "project": "seregius",
+      "scene_id": 20,
+      "sha256": "1e7f4e2bc48038a99c7d7b83b6598829a5973228eb9feb96e7a68a75c91f0594",
+      "size_bytes": 30478032,
+      "source": "topview",
+      "task_id": "ef0a2cdb1c8841ac8d031a19fa07bd9e",
+      "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-10-07/S20_Wan-3.0_ef0a2cdb1c8841ac8d031a19fa07bd9e.mp4",
+      "yandex_public_key": "https://yadi.sk/i/sDJGvlrOjiWmsQ",
+      "yandex_verified_at": "2026-11-26T10:59:05Z"
+    },
     "efaad07750974b678df63a6be00f15d8": {
       "archived_at": "2026-11-15T11:05:41Z",
       "drive_url": "https://drive.google.com/file/d/1HG1G7Pp-QNg-7imUzL5FcgPkru0X_Ad-/view",
@@ -1537,6 +1859,20 @@
       "yandex_public_key": "https://yadi.sk/i/kz83FVOEjD5U0A",
       "yandex_verified_at": "2026-11-25T23:37:08Z"
     },
+    "efda861b19834b50bbf591ad37d52b67": {
+      "archived_at": "2026-11-26T11:00:41Z",
+      "label": "Seedance-2.5",
+      "md5": "4d0b953a1823fc0a9caa70aa00a0dacb",
+      "project": "seregius",
+      "scene_id": 20,
+      "sha256": "90e19b0cd84c7a1524c9657494b75b575e01c6663fab143ce78992ed24775d7b",
+      "size_bytes": 34875230,
+      "source": "topview",
+      "task_id": "efda861b19834b50bbf591ad37d52b67",
+      "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-09-27/S20_Seedance-2.5_efda861b19834b50bbf591ad37d52b67.mp4",
+      "yandex_public_key": "https://yadi.sk/i/rWxX5n0pEh7D4g",
+      "yandex_verified_at": "2026-11-26T11:00:41Z"
+    },
     "f3b8883f44b14a2ba432ce429ba02709": {
       "archived_at": "2026-11-08T23:25:32Z",
       "drive_url": "https://drive.google.com/file/d/1RR3KL-g3i4ZGuRtTWYB0Dpmy5v5blU1r/view",
@@ -1549,6 +1885,20 @@
       "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-11-09/261108_0007_video_edit_4930.mp4",
       "yandex_public_key": "https://yadi.sk/i/2lOvvsORnjrlBg",
       "yandex_verified_at": "2026-11-25T23:37:08Z"
+    },
+    "f77c6f5b78d9414ebb70362d7e94c182": {
+      "archived_at": "2026-11-26T10:59:23Z",
+      "label": "Wan-3.0",
+      "md5": "33e56e8734c3ef8fa52623ba736ccc67",
+      "project": "seregius",
+      "scene_id": 20,
+      "sha256": "14f54c991ba7c50654beec8da8ce68fd19b4730905dc67124c95196d17796b57",
+      "size_bytes": 78647621,
+      "source": "topview",
+      "task_id": "f77c6f5b78d9414ebb70362d7e94c182",
+      "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-10-06/S20_Wan-3.0_f77c6f5b78d9414ebb70362d7e94c182.mp4",
+      "yandex_public_key": "https://yadi.sk/i/fI9Obnlpf5NGnw",
+      "yandex_verified_at": "2026-11-26T10:59:23Z"
     },
     "f8810d1b4b624a50944363bf2e448f09": {
       "archived_at": "2026-10-17T18:05:22Z",
@@ -1575,6 +1925,20 @@
       "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-10-17/S28_Wan-3.0_f88eee8ea93242309b71621e354ccac2.mp4",
       "yandex_public_key": "https://yadi.sk/i/hFeT8Zi_mj2UGA",
       "yandex_verified_at": "2026-11-25T23:37:08Z"
+    },
+    "fd385c969ef2484993751dbd6056831d": {
+      "archived_at": "2026-11-26T10:58:34Z",
+      "label": "Wan-3.0",
+      "md5": "ca7d363fcf06504485b8800c6c56d23b",
+      "project": "seregius",
+      "scene_id": 10,
+      "sha256": "29d1b608092226f4f6412e67f1e87ea94df371e178e453c7ac4204e6319a05a3",
+      "size_bytes": 24000223,
+      "source": "topview",
+      "task_id": "fd385c969ef2484993751dbd6056831d",
+      "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-10-08/S10_Wan-3.0_fd385c969ef2484993751dbd6056831d.mp4",
+      "yandex_public_key": "https://yadi.sk/i/tGYQcu2L7-yhiQ",
+      "yandex_verified_at": "2026-11-26T10:58:34Z"
     },
     "fe78a852b7a343e6a37d146cec789358": {
       "archived_at": "2026-11-08T17:16:12Z",
