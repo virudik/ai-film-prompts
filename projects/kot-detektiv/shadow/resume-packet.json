@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "kot-detektiv",
   "project_name": "Кот детектив",
-  "checked_at": "2026-11-26T09:53:49+00:00",
-  "source_head": "8b7b7e7e97281b17c71129f42690383fdd0e0277",
-  "source_fingerprint": "12175972e83ecdf6cda5de8fea033ac6b203b5d462bad2243189cd3a3c3132dc",
+  "checked_at": "2026-11-26T10:15:50+00:00",
+  "source_head": "2d57570108050e648cd0e90154e524a24d148f8f",
+  "source_fingerprint": "f07aa31063a50accabb250d36dc0c602840b6b4516533e65fe744a634444f5c5",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -208,8 +208,8 @@
     },
     {
       "file": "projects/README.md",
-      "sha256": "44b02880d8c7dded48c89d0d7e5417872a89b52c4a60f99d8ecb77b8b8a0d718",
-      "bytes": 17576
+      "sha256": "f2d3b775835c47ae16834c3d27fa22ce7e6eeb56f0dafc047d8c51494d05d59c",
+      "bytes": 18072
     },
     {
       "file": "projects/kot-detektiv/HANDOFF.md",
