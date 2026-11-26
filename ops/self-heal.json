@@ -1,29 +1,24 @@
 {
   "schema_version": 1,
   "rules": "ops/SELF-HEAL.md",
-  "status": "fixing",
+  "status": "escalated",
   "problems": {
     "run-failed-canon-health": {
-      "text": "Последний запуск «здоровье канона» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/45834545017",
+      "text": "Последний запуск «здоровье канона» на GitHub упал (попытка 2): https://github.com/virudik/ai-film-prompts/actions/runs/45834545017",
       "since": "2026-11-26T14:19:29Z",
       "fixes": 1,
       "last_fix_at": "2026-11-26T14:19:29Z",
+      "escalated_at": "2026-11-26T14:32:20Z"
+    },
+    "pages-lag": {
+      "text": "Сайт показывает статус от 2026-11-26T13:32:25Z, а в main уже 2026-11-26T14:22:30Z (отставание 50 мин).",
+      "since": "2026-11-26T14:32:20Z",
+      "fixes": 1,
+      "last_fix_at": "2026-11-26T14:32:20Z",
       "escalated_at": null
     }
   },
   "log": [
-    {
-      "at": "2026-11-18T18:13:46Z",
-      "kind": "fixed",
-      "key": "pages-lag",
-      "text": "Нашёл: Сайт показывает статус от 2026-11-18T17:40:36Z, а в main уже 2026-11-18T18:12:36Z (отставание 32 мин). Сделал: пересобрал сайт на GitHub Pages."
-    },
-    {
-      "at": "2026-11-18T18:19:36Z",
-      "kind": "resolved",
-      "key": "pages-lag",
-      "text": "Прошло: Сайт показывает статус от 2026-11-18T17:40:36Z, а в main уже 2026-11-18T18:12:36Z (отставание 32 мин)."
-    },
     {
       "at": "2026-11-19T12:19:33Z",
       "kind": "fixed",
@@ -131,7 +126,19 @@
       "kind": "resolved",
       "key": "pages-lag",
       "text": "Прошло: Сайт показывает статус от 2026-11-26T13:00:41Z, а в main уже 2026-11-26T13:32:25Z (отставание 31 мин)."
+    },
+    {
+      "at": "2026-11-26T14:32:20Z",
+      "kind": "escalated",
+      "key": "run-failed-canon-health",
+      "text": "Не чинится само: Последний запуск «здоровье канона» на GitHub упал (попытка 2): https://github.com/virudik/ai-film-prompts/actions/runs/45834545017 Передал агенту (задача в списке под очередью)."
+    },
+    {
+      "at": "2026-11-26T14:32:20Z",
+      "kind": "fixed",
+      "key": "pages-lag",
+      "text": "Нашёл: Сайт показывает статус от 2026-11-26T13:32:25Z, а в main уже 2026-11-26T14:22:30Z (отставание 50 мин). Сделал: пересобрал сайт на GitHub Pages."
     }
   ],
-  "changed_at": "2026-11-26T14:19:29Z"
+  "changed_at": "2026-11-26T14:32:20Z"
 }
