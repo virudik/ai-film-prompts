@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-26T13:53:44+00:00",
-  "source_head": "a348fc393eda3fa21ae6e4838da223e615f7ad7a",
-  "source_fingerprint": "403181dc8c079942cabce483e9a92f8b0cbc3a7d94344a24b2a1c7610fd3f4f0",
+  "checked_at": "2026-11-26T14:23:46+00:00",
+  "source_head": "b8870c225da47d409a57be261eaf97313a3cc54a",
+  "source_fingerprint": "48de2ec2aa3f1444bd9bf85f06a511dbb8428176ce76c4f287fc7f86a33d08fd",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -233,24 +233,12 @@
         "task_id": "17c2f95f1f9349dabfe9a2e75fd9a18c"
       },
       {
-        "item_id": "S28-A1-R2-20261025",
-        "task_id": "02fd85ac5fde408285bc439f15ba8239"
-      },
-      {
         "item_id": "S28-A2-R2-20261025",
         "task_id": "55dadcb20d2b48a09d1b2b6b4ba0d9ea"
       },
       {
         "item_id": "S51G",
         "task_id": "8c6d92662d1043c7a651168b2b8280ae"
-      },
-      {
-        "item_id": "S89D-WAN30-R3",
-        "task_id": "98092b65ccfc4307ba98b9f9c675d001"
-      },
-      {
-        "item_id": "S89G-WAN30",
-        "task_id": "e78f7a26f841414cac6689f2d79601b5"
       },
       {
         "item_id": "S89H-WAN30",
@@ -263,6 +251,18 @@
       {
         "item_id": "S89J-WAN30",
         "task_id": "45fb0ba125114ba48b48dd8a129f9015"
+      },
+      {
+        "item_id": "S28-A1-R2-20261025",
+        "task_id": "02fd85ac5fde408285bc439f15ba8239"
+      },
+      {
+        "item_id": "S89D-WAN30-R3",
+        "task_id": "98092b65ccfc4307ba98b9f9c675d001"
+      },
+      {
+        "item_id": "S89G-WAN30",
+        "task_id": "e78f7a26f841414cac6689f2d79601b5"
       },
       {
         "item_id": "S89F-WAN30-R3",
@@ -695,12 +695,12 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "ff9e43865b03e6303fed19d8668e90d130b0a1ca2e01c14ad236b633013fe25f",
-      "bytes": 310667
+      "sha256": "76156b975e05464cd9284f5a2655cf67bebd1ad797b18573fd8ddd32f83ba060",
+      "bytes": 279033
     },
     {
       "file": "project-status.json",
-      "sha256": "b9e94bacfb8b8b989e01317b1bf2c39b809488627d0dfb0366c37333fb5e20f1",
+      "sha256": "88a543a461c0dd59d2e667e2ed5f15179e62b4f050e0a03770712e95e2aa22b7",
       "bytes": 29586
     },
     {
