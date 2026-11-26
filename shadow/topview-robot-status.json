@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-26T21:20:29Z",
+  "checked_at": "2026-11-26T21:30:29Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -67,8 +67,8 @@
       "model": "Seedance 2.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 2637,
-      "wait_seconds": 99555,
+      "queue_count": 2626,
+      "wait_seconds": 98955,
       "process_seconds": null
     },
     {
@@ -80,8 +80,8 @@
       "model": "Wan 3.0",
       "scene_id": 89,
       "mapping": "task_map",
-      "queue_count": 3505,
-      "wait_seconds": 151395,
+      "queue_count": 3494,
+      "wait_seconds": 150795,
       "process_seconds": null
     },
     {
@@ -93,8 +93,8 @@
       "model": "Wan 3.0",
       "scene_id": 89,
       "mapping": "task_map",
-      "queue_count": 3216,
-      "wait_seconds": 134115,
+      "queue_count": 3205,
+      "wait_seconds": 133516,
       "process_seconds": null
     },
     {
@@ -106,8 +106,8 @@
       "model": "Wan 3.0",
       "scene_id": 89,
       "mapping": "task_map",
-      "queue_count": 2927,
-      "wait_seconds": 116835,
+      "queue_count": 2916,
+      "wait_seconds": 116235,
       "process_seconds": null
     },
     {
@@ -119,8 +119,8 @@
       "model": "Seedance 2.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 1837,
-      "wait_seconds": 56354,
+      "queue_count": 1822,
+      "wait_seconds": 55755,
       "process_seconds": null
     },
     {
@@ -130,24 +130,14 @@
       "unlimited": true,
       "created_at": "2026-11-26 21:10:29",
       "model": "Seedance 2.0",
-      "scene_id": null,
-      "mapping": "unknown_new",
-      "queue_count": 4226,
-      "wait_seconds": 194595,
+      "scene_id": 28,
+      "mapping": "task_map",
+      "queue_count": 4215,
+      "wait_seconds": 193995,
       "process_seconds": null
     }
   ],
-  "unknown_new": [
-    {
-      "task_id": "be8cd77be15147d68e9ae4e1b8140472",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "created_at": "2026-11-26 21:10:29",
-      "model": "Seedance 2.0",
-      "unlimited": true,
-      "prompt_head": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal live-action final musical dance nu"
-    }
-  ],
+  "unknown_new": [],
   "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
@@ -160,24 +150,12 @@
     }
   ],
   "comparison": {
-    "monitor_checked_at": "2026-11-26T21:00:34Z",
-    "monitor_age_minutes": 20,
-    "monitor_occupied": 5,
+    "monitor_checked_at": "2026-11-26T21:20:29Z",
+    "monitor_age_minutes": 10,
+    "monitor_occupied": 6,
     "robot_occupied": 6,
-    "consistent": false,
+    "consistent": true,
     "monitor_may_lag": false,
-    "differences": [
-      {
-        "type": "only_in_robot",
-        "task_id": "be8cd77be15147d68e9ae4e1b8140472",
-        "scene_id": null,
-        "mapping": "unknown_new"
-      },
-      {
-        "type": "occupied_differs",
-        "monitor": 5,
-        "robot": 6
-      }
-    ]
+    "differences": []
   }
 }
