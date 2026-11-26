@@ -2502,200 +2502,6 @@
       }
     },
     {
-      "id": "S28-A1-R2-20261025",
-      "scene_id": 28,
-      "prompt_id": "A1",
-      "canonical_block_label": "28 A1",
-      "canonical_prompt_sha256": "4ae5aaefdf42c4cb003eba540a47439dc7657b7f4b24f8b4ed9cd1b6524254ab",
-      "normalized_prompt_sha256": "a20f0559fa71be25af94d2df1aa1e5f3d98be7cf9753a9f8a6f7b601a0afb82c",
-      "priority": 0.308,
-      "state": "submitted",
-      "model": "Seedance 2.0",
-      "duration_seconds": 15,
-      "actual_resolution": 720,
-      "prompt_text_resolution": 720,
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "omni_reference",
-      "max_new_submissions": 1,
-      "depends_on_submitted": [],
-      "references": [
-        {
-          "slot": "@Image1",
-          "path": "references/scenes/scene-28/H28B-disco.png",
-          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
-          "role": "location",
-          "required": true
-        },
-        {
-          "slot": "@Image2",
-          "path": "references/full/serega.jpg",
-          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
-          "role": "identity",
-          "required": true
-        },
-        {
-          "slot": "@Image3",
-          "path": "references/full/yulya.jpg",
-          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
-          "role": "identity",
-          "required": true
-        }
-      ],
-      "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
-      "max_credits": 0,
-      "review_gate_after_success": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
-      "previous_prompt_sha256": [
-        "7c15f2867e5c397e2aa94d30ff467743d7122ae3c0198cd3ddd72d83f3170a20",
-        "8de01121123bc93d1f5bcb530dc0ba7686b63657099f63e34f080f56b621760e",
-        "0da433bbc5b5d32352f0e88fe119bff0b4acaaa003fbebdc1e609079d9f5d67b",
-        "168c78cd3861f6ccf648eacd3e259d391a4f9ad3bd07dd191bf02b50d71a478b"
-      ],
-      "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
-      "depends_on_completed": [],
-      "launch_readiness": "authorized_inputs_available",
-      "blocker": null,
-      "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
-      "last_claim": {
-        "run_id": "EXPAND-20261023-S28A1",
-        "claimed_at": "2026-10-23T01:55:57.180Z",
-        "holder": "chatgpt",
-        "preflight": {
-          "global_scan": {
-            "at": "2026-10-23T01:55:32.105Z",
-            "boards": 13,
-            "pages": 19,
-            "total": 931,
-            "scan_complete": true,
-            "active": [
-              {
-                "id": "34ff1bf7fe9d47f08de5a635d5626c70",
-                "status": "init",
-                "credits": 0
-              },
-              {
-                "id": "56e5e07c85df4af583c62665c51ed563",
-                "status": "init",
-                "credits": 0
-              },
-              {
-                "id": "af8e389dc9564607bc6138b408c72da5",
-                "status": "init",
-                "credits": 0
-              },
-              {
-                "id": "6598a21c2c684d43b7cede9cfc987107",
-                "status": "init",
-                "credits": 0
-              },
-              {
-                "id": "bf27bb8615eb4ad5a44a86ec2efcd3be",
-                "status": "init",
-                "credits": 0
-              }
-            ]
-          },
-          "full_normalized_prompt_match": true,
-          "input_hashes_verified": true,
-          "input_order": [
-            "Image1",
-            "Image2",
-            "Image3"
-          ],
-          "model": "Seedance 2.0",
-          "duration": 15,
-          "resolution": 720,
-          "aspect_ratio": "16:9",
-          "quantity": 1,
-          "useUnlimitMode": true,
-          "credits": 0,
-          "owner_decisions_open": 0
-        }
-      },
-      "submission_verification": {
-        "full_normalized_prompt_match": true,
-        "useUnlimitMode": true,
-        "creditsCost": 0,
-        "task_id_confirmed": true
-      },
-      "result_review_required": true,
-      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
-      "editorial_completion": false,
-      "task_id": "02fd85ac5fde408285bc439f15ba8239",
-      "claim": {
-        "claim_id": "babd8310-b7e6-44f2-8079-43643651b502",
-        "execution_instance_id": "b37f28b3-25fb-48b1-a596-8658e79a8e3e",
-        "route_generation": 7,
-        "source_sha": "e48a46b7d1fad33a074d71aab512892b401da774",
-        "claimed_at": "2026-11-18T15:54:11Z",
-        "lease_holder": "chatgpt:ordinary:b37f28b3-25fb-48b1-a596-8658e79a8e3e",
-        "lease_acquired_at": "2026-11-18T15:49:14.809Z",
-        "preflight": {
-          "owner_authorized": true,
-          "prompt_match": true,
-          "input_sha_match": true,
-          "input_order_match": true,
-          "qc_passed": true,
-          "website_unlimited": true,
-          "numeric_zero_displayed": false,
-          "credits_cost": 0,
-          "unlimited_mode_selected": true,
-          "credits_cost_evidence": "selected_free_unlimited_current_form",
-          "ui_unlimited_label": "Безлимитный режим — бесплатно",
-          "paid_credit_mode_selected": false,
-          "quantity": 1,
-          "resolution": 720,
-          "aspect_ratio": "16:9",
-          "model_id": "seedance-2.0-style",
-          "duration_seconds": 15,
-          "prompt_sha256": "4ae5aaefdf42c4cb003eba540a47439dc7657b7f4b24f8b4ed9cd1b6524254ab",
-          "ui_prompt_exact": true,
-          "reference_sha256": [
-            "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
-            "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
-            "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a"
-          ]
-        },
-        "coordination_version": 2,
-        "submission_intent_id": "27e39193-648e-4966-8ee1-9369bba4f869",
-        "submission_intent_at": "2026-11-18T15:55:21Z",
-        "replay_forbidden": true,
-        "intent_payload_sha256": "9000eefcdc336a6b33ec385a0d6d54715744dd0cfbe422d4fb4df0741ce14075"
-      },
-      "rerender_of_item_id": "S28-A1-TEST-20261017",
-      "rerender_of_task_id": "4b7b972870a44dfbb29bd6c5e330a633",
-      "rerender_authorized": true,
-      "rerender_authorized_at": "2026-10-25T09:29:18.695660Z",
-      "rerender_reason": "Owner25Oct: старые варианты были неудачные, их не учитывать отработанными",
-      "terminal_dependency_policy": "This predecessor is a duplicate-prevention gate, not a visual input. After terminal success OR fail and QC evidence, remove this depends_on_completed entry, set waiting_for_slot, preserve prior task; do not require a successful failed take and do not resurrect a one-test owner gate. Existing normalized match is allowed only for this explicit owner-authorized rerender, never for a second submission of this new item.",
-      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted.",
-      "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted.",
-      "predecessor_terminal_qc": {
-        "source_item_id": "S28-A1-TEST-20261017",
-        "source_task_id": "4b7b972870a44dfbb29bd6c5e330a633",
-        "terminal_status": "success",
-        "completed_at": "2026-10-28T05:39:06Z",
-        "reviewed_at": "2026-10-28T08:06:00Z",
-        "report": "reports/topview-quality-2026-10-28/S28-A1-TEST-20261017-review.json",
-        "owner_approved": false,
-        "gate_effect": "duplicate-prevention gate cleared; no submission performed"
-      },
-      "owner_music_consent": true,
-      "owner_music_consent_record": {
-        "id": "owner-20261113-t601u",
-        "at_local": "2026-11-13T14:40 Europe/Moscow",
-        "also": [
-          "t576u",
-          "t578u"
-        ],
-        "quote": "Порядок очереди запуска: 1) S48-P4-R2; 2) совет джедаев на балконе S89A–S89E и голограммы S89F–S89G; 3) оставшиеся танцы сцены 28; 4) остальные разговорные S89H–S89J. Это согласие запускать танцы 28 в этом месте очереди.",
-        "scope": "remaining scene 28 dances listed in owner_policy_20261113_t601u only",
-        "not_consent_for_other_music": true
-      },
-      "submitted_at": "2026-11-18T15:56:42Z",
-      "receipt": "reports/topview-queue-2026-10-16/relay802-S28-A1-R2.json"
-    },
-    {
       "id": "S28-A2-R2-20261025",
       "scene_id": 28,
       "prompt_id": "A2",
@@ -3264,161 +3070,6 @@
       }
     },
     {
-      "id": "S89D-WAN30-R3",
-      "scene_id": 89,
-      "part": "89D",
-      "prompt_id": "S89D-WAN30",
-      "canonical_block_label": "89D · Wan 3.0",
-      "canonical_prompt_sha256": "976ff82f2753464a926919bb5b30a7f5988cc4bb16119a908e9ac5952b184e70",
-      "normalized_prompt_sha256": "e66a746664db1fd8b8c9ce138f49483385d90225671e61584b69b378c7eea22d",
-      "priority": 0.304,
-      "state": "submitted",
-      "launch_readiness": "authorized_inputs_available",
-      "model": "Wan 3.0",
-      "model_id": "qwen-wan3.0-video",
-      "duration_seconds": 30,
-      "actual_resolution": 720,
-      "prompt_text_resolution": 720,
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "omni_reference",
-      "max_new_submissions": 1,
-      "max_credits": 0,
-      "credits_cost": 0,
-      "unlimited_mode_required": true,
-      "paid_fallback_forbidden": true,
-      "automatic_retry": false,
-      "depends_on_submitted": [],
-      "depends_on_completed": [],
-      "references": [
-        {
-          "slot": "@Image1",
-          "required": true,
-          "input_status": "available",
-          "primary_storage": "google_drive",
-          "drive_file_id": "1tnUopP8035gpZn0C48b0vL8u78NW0Ack",
-          "web_view_link": "https://drive.google.com/file/d/1tnUopP8035gpZn0C48b0vL8u78NW0Ack/view",
-          "sha256": "833f95c2044d2cdc956a18b5188efb3cb8ebeee429da572f02fdbfac4c0852db",
-          "bytes": 12687056,
-          "width": 2752,
-          "height": 1536,
-          "note": "Beer-and-snacks plate 5c322c84 Image1. Not in git (12.6 MB). Download this Drive file and verify sha256 before upload."
-        },
-        {
-          "slot": "@Image2",
-          "path": "references/scenes/scene-89/shared/pasha-scene.png",
-          "required": true,
-          "input_status": "available",
-          "sha256": "58ecb37480403078851d3907cd426f8d9534282ea5e33635583b6d6a60635bf9"
-        },
-        {
-          "slot": "@Image3",
-          "path": "references/scenes/scene-89/shared/sasha-scene.png",
-          "required": true,
-          "input_status": "available",
-          "sha256": "5dd419b95d18c94d37629ad1a1f4c3d857644e15cfdfca422a55285752839e4a"
-        }
-      ],
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "board_name": "My First Board",
-      "authorization": "Owner t719u 19.11.2026 03:41 MSK: «Да. все сцены запускай самостоятельно. по каждой моего да не жди» (general: launch all scenes autonomously). Same canonical prompt and references as S89D-WAN30-R2; Wan 3.0 30s website Unlimited0 only; one Create; fresh full scan, lease/claim/intent/verify required.",
-      "owner_source": "t719u (with t718u 02:53 MSK: Grok takes over slot duties)",
-      "story_not_music": true,
-      "created_at": "2026-11-19T00:53:40Z",
-      "task_id": "98092b65ccfc4307ba98b9f9c675d001",
-      "owner_approved_rerun": {
-        "previous_item_id": "S89D-WAN30-R2",
-        "old_submission_outcome": "claim published, intent CAS failed, verify fail-closed, ui_create_count 0; full scans 19.11 0 matches",
-        "old_item_preserved": true,
-        "scope": "one new separate attempt; not replay of the preserved intent/claim",
-        "new_authorization_date": "2026-11-19",
-        "report": "reports/topview-queue-2026-10-16/relay802-publish-blocker.json"
-      },
-      "claim": {
-        "claim_id": "d4ef17b6-59db-4f26-a001-94854bd4408a",
-        "execution_instance_id": "2b3f0be9-7c34-4cbc-af84-0e2c1463ac89",
-        "route_generation": 7,
-        "source_sha": "ee155a02fd35b8809f3363b457bcf6f267d536ba",
-        "claimed_at": "2026-11-19T01:39:38Z",
-        "lease_holder": "grok:2b3f0be9-7c34-4cbc-af84-0e2c1463ac89",
-        "lease_acquired_at": "2026-11-19T01:37:49Z",
-        "preflight": {
-          "owner_authorized": true,
-          "prompt_match": true,
-          "input_sha_match": true,
-          "input_order_match": true,
-          "qc_passed": true,
-          "website_unlimited": true,
-          "unlimited_mode_selected": true,
-          "ui_prompt_exact": true,
-          "numeric_zero_displayed": false,
-          "paid_credit_mode_selected": false,
-          "credits_cost": 0,
-          "credits_cost_evidence": "selected_free_unlimited_current_form",
-          "ui_unlimited_label": "Безлимитный режим — бесплатно",
-          "quantity": 1,
-          "resolution": 720,
-          "aspect_ratio": "16:9",
-          "model_id": "qwen-wan3.0-video",
-          "duration_seconds": 30,
-          "prompt_sha256": "976ff82f2753464a926919bb5b30a7f5988cc4bb16119a908e9ac5952b184e70",
-          "reference_sha256": [
-            "833f95c2044d2cdc956a18b5188efb3cb8ebeee429da572f02fdbfac4c0852db",
-            "58ecb37480403078851d3907cd426f8d9534282ea5e33635583b6d6a60635bf9",
-            "5dd419b95d18c94d37629ad1a1f4c3d857644e15cfdfca422a55285752839e4a"
-          ],
-          "form_evidence": {
-            "checked_at_msk": "2026-11-19T04:36",
-            "url": "https://www.topview.ai/board/1a6244cf1ae747ef847d949a80d6133c?tool-type=video-edit",
-            "mode": "ИИ-видео / Омни-референс / Wan 3.0, 16:9, 30s, 720p, Количество 1",
-            "payment": "Безлимитный режим — бесплатно выбран, Кредитный режим · 12 кредитов не выбран, кнопка Создать без цены, баланс 11.05",
-            "refs_order": [
-              "1-beer-snacks-plate.png",
-              "2-pasha-scene.png",
-              "3-sasha-scene.png"
-            ],
-            "prompt_dom_check": "7 mentionChip заменены на data-image-tag; без 4 лишних пробелов после чипов длина 3523 и FNV-1a 0x1d1b7ec6 совпали с prompt.txt"
-          }
-        },
-        "coordination_version": 2,
-        "submission_intent_id": "66a10177-5eab-4ed4-8ad0-5be875b6cba1",
-        "submission_intent_at": "2026-11-19T01:53:24Z",
-        "replay_forbidden": true,
-        "host_run": {
-          "namespace": "cursor_host",
-          "observation_source": "parent_shell_os_environ",
-          "field": "CURSOR_REQUEST_ID",
-          "value": "7fe3d47f-fd24-4f57-a2be-2cc218a4cfd9",
-          "conversation_field": "CURSOR_CONVERSATION_ID",
-          "conversation_id": "1c1bf697-3c93-4068-b457-e90efdd5ef8f",
-          "standing_command_id": "t413u-20261109"
-        },
-        "provider_run_key": "c033b9046d6c373c20b7b930081be10f7aaf014e75cf0736c1f164d7f59153b6",
-        "owner_event_keys": [
-          "98fdd3427f3270f4838928cdea5811066eea46651cdbc049444a1fe5456df991"
-        ],
-        "ledger_path": "ops/launcher-run-ledger.json",
-        "trigger": "owner_command",
-        "owner_command": {
-          "quote": "Говорю запускай значит запускай. Зачем спрашивать по 10 раз если есть уже согласованная очередь запуска",
-          "source": "cursor_host",
-          "at": "2026-11-09T08:25:00Z",
-          "standing_command_id": "t413u-20261109",
-          "standing_host_address": "t413u"
-        },
-        "intent_payload_sha256": "f856f1448b5c3efed5343c46bd895181b4f462409f6c742b807ad94b09c8db09"
-      },
-      "submitted_at": "2026-11-19T01:54:10Z",
-      "topview_status": "init",
-      "create_click_count": 1,
-      "max_new_submissions_consumed": 1,
-      "creditsCost": 0,
-      "receipt": "reports/topview-queue-2026-10-16/S89D-WAN30-R3-20261119T015410Z.json",
-      "replay_forbidden": true,
-      "no_second_create": true,
-      "normalized_prompt_match": true
-    },
-    {
       "id": "S89F-WAN30",
       "scene_id": 89,
       "part": "89F",
@@ -3521,179 +3172,6 @@
         "replay_forbidden": true,
         "intent_payload_sha256": "1767f94908ef3c1344082f38abd1171caf990454d0472a67e4bc3c5f88a7a6b2"
       }
-    },
-    {
-      "id": "S89G-WAN30",
-      "scene_id": 89,
-      "part": "89G",
-      "prompt_id": "S89G-WAN30",
-      "canonical_block_label": "89G · Wan 3.0",
-      "canonical_prompt_sha256": "a1e23bdb5675dfa496b5126b5ae0049ca0b434e855ac54fb823da4f347d5daa8",
-      "normalized_prompt_sha256": "d503c25ca38c8ca0955a95dcb69fcd2aa509c853c70349832051b0180702e8cf",
-      "priority": 0.307,
-      "state": "submitted",
-      "launch_readiness": "authorized_inputs_available",
-      "model": "Wan 3.0",
-      "model_id": "qwen-wan3.0-video",
-      "duration_seconds": 30,
-      "actual_resolution": 720,
-      "prompt_text_resolution": 720,
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "omni_reference",
-      "max_new_submissions": 1,
-      "max_credits": 0,
-      "credits_cost": 0,
-      "unlimited_mode_required": true,
-      "paid_fallback_forbidden": true,
-      "automatic_retry": false,
-      "depends_on_submitted": [],
-      "depends_on_completed": [],
-      "references": [
-        {
-          "slot": "@Image1",
-          "path": "references/scenes/scene-89/shared/holo-office.jpg",
-          "required": true,
-          "input_status": "available",
-          "sha256": "aa8cded6f151278c5bc1a1823ea8ed04abcde819e93cd2dfc2b38b0b2ce48d54"
-        },
-        {
-          "slot": "@Image2",
-          "path": "references/scenes/scene-89/shared/holo-man.jpg",
-          "required": true,
-          "input_status": "available",
-          "sha256": "b4a1307310e9c7c52a6f1d8b3157acaa4666daad281b305a119806511c6d2f42"
-        },
-        {
-          "slot": "@Image3",
-          "path": "references/scenes/scene-89/shared/holo-woman.jpg",
-          "required": true,
-          "input_status": "available",
-          "sha256": "85ab20924887bd960cad1a4c3ae3089bc27b6b050d1bef5e63895c48c4604bc8"
-        },
-        {
-          "slot": "@Image4",
-          "path": "references/scenes/scene-89/89G/Image4.png",
-          "required": true,
-          "input_status": "available",
-          "sha256": "c74268e8462336b7755e531af3d919db76fc19aaf3cc87c3280536d379f891a5"
-        },
-        {
-          "slot": "@Image5",
-          "path": "references/scenes/scene-89/89G/Image5.png",
-          "required": true,
-          "input_status": "available",
-          "sha256": "98fdf155237351540d361ddcf91fab803836759708624165695f4b8d1096a971"
-        }
-      ],
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "board_name": "My First Board",
-      "authorization": "Owner t591u/t592u/t593u 12.11.2026: queue scene 89 dialogues. Wan 3.0 30s only, website Unlimited, 0 credits. One Create per part. No auto-retry: automatic_retry is false and retry_control is omitted, because Grok prepare_intent treats any retry_control as a retry Create and would reject the first Unlimited Create. Not a paid 12-credit Wan path.",
-      "owner_source": "t593u",
-      "story_not_music": true,
-      "created_at": "2026-11-12T13:14:25Z",
-      "model_preparation_qc": {
-        "result": "passed_reference_chip_qc",
-        "checked_at": "2026-11-18T16:34:04.239Z",
-        "report": "reports/scene89-fg-provenance-ui-qc-2026-11-18.json",
-        "restored_at": "2026-11-18T16:39:16.684107Z",
-        "fresh_full_launch_preflight_required": true
-      },
-      "claim": {
-        "claim_id": "65441f77-5c71-4e83-90db-50519b050753",
-        "execution_instance_id": "14c0379c-19f2-4dcc-b08f-3c238f1c75c0",
-        "route_generation": 7,
-        "source_sha": "c1b955e3c6887932f58f1618c5793a4f8a2536d1",
-        "claimed_at": "2026-11-19T00:45:53Z",
-        "lease_holder": "grok:14c0379c-19f2-4dcc-b08f-3c238f1c75c0",
-        "lease_acquired_at": "2026-11-19T00:43:57Z",
-        "preflight": {
-          "owner_authorized": true,
-          "prompt_match": true,
-          "input_sha_match": true,
-          "input_order_match": true,
-          "qc_passed": true,
-          "website_unlimited": true,
-          "unlimited_mode_selected": true,
-          "ui_prompt_exact": true,
-          "numeric_zero_displayed": false,
-          "paid_credit_mode_selected": false,
-          "credits_cost": 0,
-          "credits_cost_evidence": "selected_free_unlimited_current_form",
-          "ui_unlimited_label": "∞ Безлимитный режим · Загружено · Сейчас большая очередь.",
-          "quantity": 1,
-          "resolution": 720,
-          "aspect_ratio": "16:9",
-          "model_id": "qwen-wan3.0-video",
-          "duration_seconds": 30,
-          "prompt_sha256": "a1e23bdb5675dfa496b5126b5ae0049ca0b434e855ac54fb823da4f347d5daa8",
-          "reference_sha256": [
-            "aa8cded6f151278c5bc1a1823ea8ed04abcde819e93cd2dfc2b38b0b2ce48d54",
-            "b4a1307310e9c7c52a6f1d8b3157acaa4666daad281b305a119806511c6d2f42",
-            "85ab20924887bd960cad1a4c3ae3089bc27b6b050d1bef5e63895c48c4604bc8",
-            "c74268e8462336b7755e531af3d919db76fc19aaf3cc87c3280536d379f891a5",
-            "98fdf155237351540d361ddcf91fab803836759708624165695f4b8d1096a971"
-          ],
-          "owner_free_label_decision": {
-            "host_address": "t718s3708 answer",
-            "at": "2026-11-19T00:30:00Z",
-            "role": "user",
-            "text": "Да, «Безлимитный режим» без цены считай бесплатным, запускай"
-          },
-          "form_evidence": {
-            "checked_at_msk": "2026-11-19T03:43",
-            "url": "https://www.topview.ai/board/1a6244cf1ae747ef847d949a80d6133c?tool-type=video-edit",
-            "mode": "ИИ-видео / Омни-референс / Wan 3.0, 16:9, 30s, 720p, Количество 1",
-            "payment": "Безлимитный режим выбран (Загружен, Сейчас большая очередь.), Кредитный режим не выбран, кнопка Создать без цены",
-            "refs_order": [
-              "1-holo-office.jpg",
-              "2-holo-man.jpg",
-              "3-holo-woman.jpg",
-              "4-Image4.png",
-              "5-Image5.png"
-            ],
-            "prompt_dom_check": "11 mentionChip заменены на data-image-tag, длина 3359 = prompt.txt, FNV-1a 3443068346 совпал"
-          }
-        },
-        "coordination_version": 2,
-        "submission_intent_id": "1b0b6f79-53d0-43e6-b430-05a95eb64845",
-        "submission_intent_at": "2026-11-19T00:47:47Z",
-        "replay_forbidden": true,
-        "host_run": {
-          "namespace": "cursor_host",
-          "observation_source": "parent_shell_os_environ",
-          "field": "CURSOR_REQUEST_ID",
-          "value": "6da03501-7a74-4a82-a9d8-33f7b5471717",
-          "conversation_field": "CURSOR_CONVERSATION_ID",
-          "conversation_id": "1c1bf697-3c93-4068-b457-e90efdd5ef8f",
-          "owner_host_address": "t719u",
-          "owner_host_role": "user"
-        },
-        "provider_run_key": "497bc6e2d6b8acbb4a47dde66ec7a52544f1cfb9f7c964ccde6390237d55de76",
-        "owner_event_keys": [
-          "6e34a8cd57debbd4db7acff80d028ad027a685120a5deac17ecf0c2ea167c7ae"
-        ],
-        "ledger_path": "ops/launcher-run-ledger.json",
-        "trigger": "owner_command",
-        "owner_command": {
-          "quote": "Да. все сцены запускай самостоятельно. по каждой моего да не жди",
-          "source": "cursor_host",
-          "at": "2026-11-19T00:41:00Z",
-          "host_address": "t719u",
-          "host_role": "user"
-        },
-        "intent_payload_sha256": "d6f53bc7081b578e75b8276fada0a0437fae7077869437236ac67b3c7771c2a9"
-      },
-      "task_id": "e78f7a26f841414cac6689f2d79601b5",
-      "submitted_at": "2026-11-19T00:48:43Z",
-      "topview_status": "init",
-      "create_click_count": 1,
-      "max_new_submissions_consumed": 1,
-      "creditsCost": 0,
-      "receipt": "reports/topview-queue-2026-10-16/S89G-WAN30-20261119T004843Z.json",
-      "replay_forbidden": true,
-      "no_second_create": true,
-      "normalized_prompt_match": true
     },
     {
       "id": "S89H-WAN30",
@@ -4415,168 +3893,6 @@
         },
         "intent_payload_sha256": "c22263ee8102cbf06036eadfe2707e6eee60c6eb1668b595d9c8031130003170"
       }
-    },
-    {
-      "id": "S89F-WAN30-R3",
-      "scene_id": 89,
-      "part": "89F",
-      "prompt_id": "S89F-WAN30",
-      "canonical_block_label": "89F · Wan 3.0",
-      "canonical_prompt_sha256": "fbc6cf05411549582e90d228c4d70f3410d449baac5c8e1885adc188ecad89db",
-      "normalized_prompt_sha256": "91c247c4013547f69175c21ed4c99bb4251934b0d4c4ba6ab3f6be55902e6e82",
-      "priority": 0.306,
-      "state": "submitted",
-      "launch_readiness": "authorized_inputs_available",
-      "model": "Wan 3.0",
-      "model_id": "qwen-wan3.0-video",
-      "duration_seconds": 30,
-      "actual_resolution": 720,
-      "prompt_text_resolution": 720,
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "omni_reference",
-      "max_new_submissions": 1,
-      "max_credits": 0,
-      "credits_cost": 0,
-      "unlimited_mode_required": true,
-      "paid_fallback_forbidden": true,
-      "automatic_retry": false,
-      "depends_on_submitted": [],
-      "depends_on_completed": [],
-      "references": [
-        {
-          "slot": "@Image1",
-          "path": "references/scenes/scene-89/shared/holo-man.jpg",
-          "required": true,
-          "input_status": "available",
-          "sha256": "b4a1307310e9c7c52a6f1d8b3157acaa4666daad281b305a119806511c6d2f42"
-        },
-        {
-          "slot": "@Image2",
-          "path": "references/scenes/scene-89/shared/holo-office.jpg",
-          "required": true,
-          "input_status": "available",
-          "sha256": "aa8cded6f151278c5bc1a1823ea8ed04abcde819e93cd2dfc2b38b0b2ce48d54"
-        },
-        {
-          "slot": "@Image3",
-          "path": "references/scenes/scene-89/shared/holo-woman.jpg",
-          "required": true,
-          "input_status": "available",
-          "sha256": "85ab20924887bd960cad1a4c3ae3089bc27b6b050d1bef5e63895c48c4604bc8"
-        }
-      ],
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "board_name": "My First Board",
-      "authorization": "Owner t719u 19.11.2026 03:41 MSK: «Да. все сцены запускай самостоятельно. по каждой моего да не жди» (general: launch all scenes autonomously). Same canonical prompt and references as S89F-WAN30-R2; Wan 3.0 30s website Unlimited0 only; one Create; fresh full scan, lease/claim/intent/verify required.",
-      "owner_source": "t719u (with t718u 02:53 MSK: Grok takes over slot duties)",
-      "story_not_music": true,
-      "created_at": "2026-11-19T00:53:40Z",
-      "model_preparation_qc": {
-        "result": "passed_reference_chip_qc",
-        "checked_at": "2026-11-18T16:34:04.239Z",
-        "report": "reports/scene89-fg-provenance-ui-qc-2026-11-18.json",
-        "restored_at": "2026-11-18T16:39:16.684107Z",
-        "fresh_full_launch_preflight_required": true
-      },
-      "task_id": "3daf88bcc82b4b668a3bb4b405ed0703",
-      "owner_approved_rerun": {
-        "previous_item_id": "S89F-WAN30-R2",
-        "old_submission_outcome": "no_Create: browser closed before click, full scans 0 matches",
-        "old_item_preserved": true,
-        "scope": "one new separate attempt; not replay of the preserved intent/claim",
-        "new_authorization_date": "2026-11-19",
-        "report": "reports/preclaim-aborts/S89F-R2-grok-no-create-20261119.json"
-      },
-      "claim": {
-        "claim_id": "67df4273-dac1-46c1-81fe-48f2c7254414",
-        "execution_instance_id": "21a4d8ab-16cf-4197-99ce-bfff92010c4d",
-        "route_generation": 7,
-        "source_sha": "f1442bee2d654338ff95c8a0f94ff75071125c94",
-        "claimed_at": "2026-11-19T11:32:30Z",
-        "lease_holder": "grok:21a4d8ab-16cf-4197-99ce-bfff92010c4d",
-        "lease_acquired_at": "2026-11-19T11:27:43Z",
-        "preflight": {
-          "owner_authorized": true,
-          "prompt_match": true,
-          "input_sha_match": true,
-          "input_order_match": true,
-          "qc_passed": true,
-          "website_unlimited": true,
-          "unlimited_mode_selected": true,
-          "ui_prompt_exact": true,
-          "numeric_zero_displayed": false,
-          "paid_credit_mode_selected": false,
-          "credits_cost": 0,
-          "credits_cost_evidence": "selected_free_unlimited_current_form",
-          "ui_unlimited_label": "Безлимитный режим — бесплатно",
-          "quantity": 1,
-          "resolution": 720,
-          "aspect_ratio": "16:9",
-          "model_id": "qwen-wan3.0-video",
-          "duration_seconds": 30,
-          "prompt_sha256": "fbc6cf05411549582e90d228c4d70f3410d449baac5c8e1885adc188ecad89db",
-          "reference_sha256": [
-            "b4a1307310e9c7c52a6f1d8b3157acaa4666daad281b305a119806511c6d2f42",
-            "aa8cded6f151278c5bc1a1823ea8ed04abcde819e93cd2dfc2b38b0b2ce48d54",
-            "85ab20924887bd960cad1a4c3ae3089bc27b6b050d1bef5e63895c48c4604bc8"
-          ],
-          "form_evidence": {
-            "checked_at_msk": "2026-11-19T14:26",
-            "url": "https://www.topview.ai/board/1a6244cf1ae747ef847d949a80d6133c?tool-type=video-edit",
-            "mode": "ИИ-видео / Омни-референс / Wan 3.0, 16:9, 30s, 720p, Количество 1",
-            "payment": "Безлимитный режим — бесплатно выбран (Загружено / Сейчас большая очередь), Кредитный режим · 12 кредитов не выбран, кнопка Создать без цены, баланс 11.05",
-            "refs_order": [
-              "1-holo-man.jpg",
-              "2-holo-office.jpg",
-              "3-holo-woman.jpg"
-            ],
-            "prompt_dom_check": "счётчик 3276/20000, 6 @Image чипов, полный текст совпал с prompt.txt кроме чипов"
-          },
-          "owner_free_label_decision": {
-            "host_address": "t718s3708 answer",
-            "at": "2026-11-19T00:30:00Z",
-            "role": "user",
-            "text": "Да, «Безлимитный режим» без цены считай бесплатным, запускай"
-          }
-        },
-        "coordination_version": 2,
-        "submission_intent_id": "a976fb0f-e52e-4672-bc94-f65582d675fc",
-        "submission_intent_at": "2026-11-19T11:34:30Z",
-        "replay_forbidden": true,
-        "host_run": {
-          "namespace": "cursor_host",
-          "observation_source": "parent_shell_os_environ",
-          "field": "CURSOR_REQUEST_ID",
-          "value": "bb4e14b7-86da-46d8-a54c-94f0cbbd2e13",
-          "conversation_field": "CURSOR_CONVERSATION_ID",
-          "conversation_id": "1c1bf697-3c93-4068-b457-e90efdd5ef8f",
-          "standing_command_id": "t413u-20261109"
-        },
-        "provider_run_key": "1dd0b32ce2bd6db176ac5dacc799fb6d80dc3b4aab6632ad106722174d61dd99",
-        "owner_event_keys": [
-          "8c060b3730c912f564c5306cf0d1540ce4004d447d0ea9507c858e72f86a86f4"
-        ],
-        "ledger_path": "ops/launcher-run-ledger.json",
-        "trigger": "owner_command",
-        "owner_command": {
-          "quote": "Говорю запускай значит запускай. Зачем спрашивать по 10 раз если есть уже согласованная очередь запуска",
-          "source": "cursor_host",
-          "at": "2026-11-09T08:25:00Z",
-          "standing_command_id": "t413u-20261109",
-          "standing_host_address": "t413u"
-        },
-        "intent_payload_sha256": "6aa061a72ac24022a4214da8fcc61ae0a02ce496b5f4aa4b7e79794a90130c5a"
-      },
-      "submitted_at": "2026-11-19T11:35:22Z",
-      "topview_status": "init",
-      "create_click_count": 1,
-      "max_new_submissions_consumed": 1,
-      "creditsCost": 0,
-      "receipt": "reports/topview-queue-2026-10-16/S89F-WAN30-R3-20261119T113522Z.json",
-      "replay_forbidden": true,
-      "no_second_create": true,
-      "normalized_prompt_match": true
     }
   ],
   "already_submitted": {
@@ -4939,6 +4255,50 @@
     "recorded_by": "claude:chatgpt-review"
   },
   "archived_items": [
+    {
+      "id": "S28-A1-R2-20261025",
+      "scene_id": 28,
+      "prompt_id": "A1",
+      "canonical_block_label": "28 A1",
+      "state": "submitted",
+      "task_id": "02fd85ac5fde408285bc439f15ba8239",
+      "submitted_at": "2026-11-18T15:56:42Z",
+      "canonical_prompt_sha256": "4ae5aaefdf42c4cb003eba540a47439dc7657b7f4b24f8b4ed9cd1b6524254ab",
+      "normalized_prompt_sha256": "a20f0559fa71be25af94d2df1aa1e5f3d98be7cf9753a9f8a6f7b601a0afb82c"
+    },
+    {
+      "id": "S89D-WAN30-R3",
+      "scene_id": 89,
+      "prompt_id": "S89D-WAN30",
+      "canonical_block_label": "89D · Wan 3.0",
+      "state": "submitted",
+      "task_id": "98092b65ccfc4307ba98b9f9c675d001",
+      "submitted_at": "2026-11-19T01:54:10Z",
+      "canonical_prompt_sha256": "976ff82f2753464a926919bb5b30a7f5988cc4bb16119a908e9ac5952b184e70",
+      "normalized_prompt_sha256": "e66a746664db1fd8b8c9ce138f49483385d90225671e61584b69b378c7eea22d"
+    },
+    {
+      "id": "S89G-WAN30",
+      "scene_id": 89,
+      "prompt_id": "S89G-WAN30",
+      "canonical_block_label": "89G · Wan 3.0",
+      "state": "submitted",
+      "task_id": "e78f7a26f841414cac6689f2d79601b5",
+      "submitted_at": "2026-11-19T00:48:43Z",
+      "canonical_prompt_sha256": "a1e23bdb5675dfa496b5126b5ae0049ca0b434e855ac54fb823da4f347d5daa8",
+      "normalized_prompt_sha256": "d503c25ca38c8ca0955a95dcb69fcd2aa509c853c70349832051b0180702e8cf"
+    },
+    {
+      "id": "S89F-WAN30-R3",
+      "scene_id": 89,
+      "prompt_id": "S89F-WAN30",
+      "canonical_block_label": "89F · Wan 3.0",
+      "state": "submitted",
+      "task_id": "3daf88bcc82b4b668a3bb4b405ed0703",
+      "submitted_at": "2026-11-19T11:35:22Z",
+      "canonical_prompt_sha256": "fbc6cf05411549582e90d228c4d70f3410d449baac5c8e1885adc188ecad89db",
+      "normalized_prompt_sha256": "91c247c4013547f69175c21ed4c99bb4251934b0d4c4ba6ab3f6be55902e6e82"
+    },
     {
       "id": "S89E-WAN30",
       "scene_id": 89,
