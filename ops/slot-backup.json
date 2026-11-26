@@ -882,5 +882,34 @@
     "path": "ops/launcher-run-ledger.json",
     "owner_authorized_at": "2026-11-01T01:17:06Z",
     "rule": "prepare_transaction returns queue+ledger; CAS-publish both, read back and verify_binding before each single click. One real provider run may hold up to slot_capacity distinct consumed submissions. Legacy one-item rows are not extended. Stable consumed keys have no TTL; no resetting failed/unknown/substantive refusal. A new provider_run_id does not raise the current wake cap. Provider authentication stays in the adapter."
+  },
+  "project_launch_scopes": {
+    "stikhiy": {
+      "enabled": true,
+      "owner_quote": "Перед запуском доделай что написал. И по этим изменениям Да. … Сделай свою версию и в Ван3 запускай через топвюв их следующими в очереди",
+      "source": "t980u",
+      "at_local": "2026-11-27T01:27 Europe/Moscow",
+      "board_id": "e4156a8c422a4904b88b7bce6018b796",
+      "board_name": "Стахий",
+      "aspect_ratios": [
+        "9:16"
+      ],
+      "resolution": 720,
+      "quantity": 1,
+      "unlimited_zero_only": true,
+      "items": [
+        "1-W01-WAN30",
+        "1-W02-WAN30",
+        "1-W03-WAN30",
+        "1-W04-WAN30",
+        "1-W05-WAN30",
+        "1-W06-WAN30",
+        "1-W07-WAN30",
+        "1-W08-WAN30",
+        "1-W09-WAN30",
+        "1-W10-WAN30"
+      ],
+      "rule": "Пункт project=stikhiy запускается только в доске «Стахий» (board_id на самом пункте), 9:16, 720p, Unlimited 0. Доска My First Board для него запрещена."
+    }
   }
 }

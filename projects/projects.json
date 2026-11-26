@@ -216,13 +216,30 @@
   "launch_scope_override": {
     "updated_at": "2026-10-23T00:40:49.801Z",
     "allowed_projects": [
-      "seregius"
+      "seregius",
+      "stikhiy"
     ],
     "owner_quote": "Разное не запускать. Сначала доделаем серёгиуса всего по плану",
     "preserve_launch_order": true,
     "raznoe_resume_requires": "New explicit owner decision",
     "reason": "Owner directs completing Seregius before launching other projects.",
-    "rename_note": "Историческая цитата «Разное не запускать» относится к проекту, который теперь id roscosmos (Роскосмос). Новое Разное (id raznoe, раньше misc) пустое по запускам и разрешения не имеет. allowed_projects остаётся seregius."
+    "rename_note": "Историческая цитата «Разное не запускать» относится к проекту, который теперь id roscosmos (Роскосмос). Новое Разное (id raznoe, раньше misc) пустое по запускам и разрешения не имеет. allowed_projects: seregius и с 27.11.2026 stikhiy (только 1-W01…1-W10-WAN30, owner t980u).",
+    "stikhiy_20261127_t980u": {
+      "quote": "Перед запуском доделай что написал. И по этим изменениям Да. … Сделай свою версию и в Ван3 запускай через топвюв их следующими в очереди",
+      "items": [
+        "1-W01-WAN30",
+        "1-W02-WAN30",
+        "1-W03-WAN30",
+        "1-W04-WAN30",
+        "1-W05-WAN30",
+        "1-W06-WAN30",
+        "1-W07-WAN30",
+        "1-W08-WAN30",
+        "1-W09-WAN30",
+        "1-W10-WAN30"
+      ],
+      "board_id": "e4156a8c422a4904b88b7bce6018b796"
+    }
   },
   "board_routing_rule": "Каждый проект запускается только в собственной доске по точной паре name/board_id ниже. Серёгиус остаётся My First Board. Перед submit сверить обе величины в интерфейсе; при несовпадении блокировать этот проект, не использовать другую доску. Общий скан слотов по всем доскам сохраняется."
 }

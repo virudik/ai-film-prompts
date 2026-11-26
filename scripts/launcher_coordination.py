@@ -224,6 +224,32 @@ def check_lease(lock, actor, now):
         raise Blocked('exact_current_unexpired_lease_required')
     return True
 
+def project_launch_scope(config, item):
+    """Owner-authorized project in the shared queue (config['project_launch_scopes']), else None.
+
+    An item that names a project without a recorded scope is refused rather than treated as Seregius.
+    """
+    project = item.get('project') if isinstance(item, dict) else None
+    if project in (None, '', 'seregius'):
+        return None
+    scopes = config.get('project_launch_scopes')
+    scope = scopes.get(project) if isinstance(scopes, dict) else None
+    if not isinstance(scope, dict) or scope.get('enabled') is not True or scope.get('unlimited_zero_only') is not True:
+        raise Blocked('project_launch_scope_not_authorized')
+    return scope
+
+
+def allowed_aspect_ratios(config, item):
+    """16:9 for Seregius; a project scope may name its own ratios (Stakhiy 9:16, owner t980u)."""
+    scope = project_launch_scope(config, item)
+    if scope is None:
+        return ('16:9',)
+    ratios = scope.get('aspect_ratios')
+    if not isinstance(ratios, list) or not ratios or not all(isinstance(r, str) for r in ratios):
+        raise Blocked('project_launch_scope_not_authorized')
+    return tuple(ratios)
+
+
 def check_grok_policy(config, item, actor, now, queue_board_id=None):
     """Extra fail-closed limits for the Grok Bot helper (config['grok_launcher']); other surfaces unaffected."""
     policy = config.get('grok_launcher')
@@ -257,12 +283,19 @@ def check_grok_policy(config, item, actor, now, queue_board_id=None):
         raise Blocked('grok_first_real_create_pending_owner_go_ahead')
     # Some canonical parts inherit their board from the containing queue.
     # Never infer it from the policy alone, and reject any explicit conflict.
-    board = item.get('board_id')
-    if board in (None, ''):
-        board = queue_board_id
-    if (not policy.get('board_id') or board != policy['board_id'] or
-            (queue_board_id is not None and queue_board_id != board)):
-        raise Blocked('grok_board_not_authorized')
+    scope = project_launch_scope(config, item)
+    if scope is not None:
+        # A project item launches only in its own board, written on the item itself (never inherited
+        # from the shared queue, never the Seregius board).
+        if not scope.get('board_id') or item.get('board_id') != scope['board_id'] or item['board_id'] == policy.get('board_id'):
+            raise Blocked('grok_board_not_authorized')
+    else:
+        board = item.get('board_id')
+        if board in (None, ''):
+            board = queue_board_id
+        if (not policy.get('board_id') or board != policy['board_id'] or
+                (queue_board_id is not None and queue_board_id != board)):
+            raise Blocked('grok_board_not_authorized')
     try:
         limit = run_ledger.submission_cap(config)
     except run_ledger.LedgerBlocked as error:
@@ -435,7 +468,8 @@ def prepare_intent(config, lock, item, actor, scan, now, queue_board_id=None, le
         raise Blocked('required_preflight_not_verified')
     if (not unlimited_zero_cost_accepted(p) or
             type(p.get('quantity')) is not int or p.get('quantity') != 1 or
-            p.get('resolution') != 720 or p.get('aspect_ratio') != '16:9'):
+            p.get('resolution') != 720 or p.get('aspect_ratio') not in allowed_aspect_ratios(config, item) or
+            (item.get('aspect_ratio') is not None and p.get('aspect_ratio') != item.get('aspect_ratio'))):
         raise Blocked('unlimited_zero_credit_parameters_required')
     if queue_readiness.substantive_refusal(item):
         raise Blocked('substantive_refusal_not_retried')

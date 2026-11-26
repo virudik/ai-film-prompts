@@ -114,3 +114,5 @@ t406u: новые запуски сцены 62 не делать до отдел
 ## Дополнение исполнителей · 16.11.2026
 
 Кого будить и кому слать предупреждения сайта — `ops/PRIMARY-BACKUP-WAKE.md`. Шаги claim, intent и verify-before-create — `ops/LAUNCHER-COORDINATION.md`; обёртка — `scripts/launcher_entry.py`, инструкция `ops/LAUNCHER-ENTRY.md`. Повторы — `ops/TOPVIEW-RETRY.md`. Прежний текст дополнения — `archive/ops/wake-roles-until-2026-11-15.md`.
+
+**Пункты других проектов в общей очереди (27.11.2026, owner t980u).** Пункт с полем `project` (сейчас только `stikhiy`, части `1-W01…1-W10-WAN30`) запускается только по записи `ops/slot-backup.json#project_launch_scopes.<project>`: доска — `board_id` самого пункта («Стахий» `e4156a8c422a4904b88b7bce6018b796`, не My First Board и не доска очереди), формат из `aspect_ratios` (9:16), 720p, quantity 1, Unlimited 0. Текст промта — первый блок ```text после якоря `prompt_source.anchor` в `prompt_source.path`, SHA = `canonical_prompt_sha256`. Порядок — `owner_policy_20261127_t980u` (перед списком t601u). Проверки свежего скана, антидублей, лимита на пробуждение и 0 кредитов не меняются.

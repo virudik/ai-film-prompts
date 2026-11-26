@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "f3c34f3eca7f19853b390eb45cda8cec8e99e61b361ce52ed5e9e181a38eda9f",
+  "source_queue_sha256": "aab056912c653f5e5ef22acfd2b3643cac16d619eaf05e96a908718a9a8d1cb1",
   "source_task_map_sha256": "5f76ae1f66979c2a4740517ec36c35219962a6964f71e3e74c8b7792231b04ad",
   "topview_checked_at": "2026-11-26T22:10:44Z",
   "items": [
@@ -129,8 +129,98 @@
       "ready": false,
       "text": "Входы найдены; требуется снять записанный блокер после проверки",
       "queue_state": "submitting"
+    },
+    {
+      "id": "1-W01-WAN30",
+      "scene_id": 1,
+      "part_label": "1 · Wan 3.0 1-W01",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
+      "id": "1-W02-WAN30",
+      "scene_id": 1,
+      "part_label": "1 · Wan 3.0 1-W02",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
+      "id": "1-W03-WAN30",
+      "scene_id": 1,
+      "part_label": "1 · Wan 3.0 1-W03",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
+      "id": "1-W04-WAN30",
+      "scene_id": 1,
+      "part_label": "1 · Wan 3.0 1-W04",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
+      "id": "1-W05-WAN30",
+      "scene_id": 1,
+      "part_label": "1 · Wan 3.0 1-W05",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
+      "id": "1-W06-WAN30",
+      "scene_id": 1,
+      "part_label": "1 · Wan 3.0 1-W06",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
+      "id": "1-W07-WAN30",
+      "scene_id": 1,
+      "part_label": "1 · Wan 3.0 1-W07",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
+      "id": "1-W08-WAN30",
+      "scene_id": 1,
+      "part_label": "1 · Wan 3.0 1-W08",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
+      "id": "1-W09-WAN30",
+      "scene_id": 1,
+      "part_label": "1 · Wan 3.0 1-W09",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
+      "id": "1-W10-WAN30",
+      "scene_id": 1,
+      "part_label": "1 · Wan 3.0 1-W10",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-26T22:10:51.971968Z"
+  "checked_at": "2026-11-26T22:52:26.074198Z"
 }

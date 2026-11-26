@@ -249,7 +249,22 @@ def t601_order(queue):
     order = policy.get('order')
     if not isinstance(order, list) or not all(isinstance(item_id, str) and item_id for item_id in order):
         return None
-    return order
+    front = t980_front(queue)
+    return front + [item_id for item_id in order if item_id not in front] if front else order
+
+
+def t980_front(queue):
+    """t980u, 27.11.2026 01:27 MSK: Stakhiy scene 1 Wan 3.0 parts go next, ahead of the t601u list.
+
+    Only the order changes. Readiness, dependencies, music consent and Unlimited 0 still apply.
+    """
+    policy = queue.get('owner_policy_20261127_t980u') if isinstance(queue, dict) else None
+    if not isinstance(policy, dict) or policy.get('effect') != 'explicit_front_order_prepend':
+        return []
+    order = policy.get('order')
+    if not isinstance(order, list) or not all(isinstance(item_id, str) and item_id for item_id in order):
+        return []
+    return list(order)
 
 
 def launch_band(queue, item):
