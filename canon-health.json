@@ -1,21 +1,15 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-26T10:15:53Z",
+  "checked_at": "2026-11-26T10:28:21Z",
   "status": "warn",
-  "warnings": 1,
-  "info": 6,
-  "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. Устаревание по состоянию проекта, даты только сигнал. Чистку делает ChatGPT по предупреждению или в воскресенье 08:55 МСК.",
+  "warnings": 4,
+  "info": 4,
+  "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. Одни пороги для корня и для каждого projects/<id>/ из реестра; Серёгиус — корневой проект, не отдельная схема. Устаревание по состоянию проекта, даты только сигнал. Чистка и еженедельная сверка копий роликов — ops/HANDOFF-CLEANUP.md.",
   "problems": [
     {
       "level": "warn",
-      "code": "handoff-size",
-      "text": "Хендоф 36 КБ (цель до 35 КБ): старые блоки перенести в журнал archive/handoff-log.md.",
-      "file": "NEW-CHAT-HANDOFF.md"
-    },
-    {
-      "level": "info",
       "code": "instruction-size",
-      "text": "SYNC-RUNBOOK.md: 128 КБ, проверить на повторы.",
+      "text": "SYNC-RUNBOOK.md: 129 КБ, порог предупреждения 100 КБ.",
       "file": "SYNC-RUNBOOK.md"
     },
     {
@@ -27,7 +21,7 @@
     {
       "level": "info",
       "code": "instruction-size",
-      "text": "USER-GUIDE.md: 84 КБ, проверить на повторы.",
+      "text": "USER-GUIDE.md: 83 КБ, проверить на повторы.",
       "file": "USER-GUIDE.md"
     },
     {
@@ -43,10 +37,22 @@
       "file": "ops/FAMILY-SITES.md"
     },
     {
-      "level": "info",
-      "code": "ops-unchecked",
-      "text": "ops/TOPVIEW-VIDEO-ARCHIVE.md: в шапке нет строки «Статус: … Проверено: дд.мм.гггг». Нужен — проверить и поставить дату, не нужен — в archive/ops/.",
-      "file": "ops/TOPVIEW-VIDEO-ARCHIVE.md"
+      "level": "warn",
+      "code": "resume-selected-stale",
+      "text": "shadow/resume-packet.json: выбранная работа «SEREGIUS-SHIFT-20261113-T611U» от 16.11.2026, старше 7 дней (9).",
+      "file": "shadow/resume-packet.json"
+    },
+    {
+      "level": "warn",
+      "code": "resume-selected-stale",
+      "text": "projects/kot-detektiv/shadow/resume-packet.json: выбранная работа «KD-WAIT-OWNER» от 27.10.2026, старше 7 дней (29).",
+      "file": "projects/kot-detektiv/shadow/resume-packet.json"
+    },
+    {
+      "level": "warn",
+      "code": "pages-size",
+      "text": "Общий сайт Pages всех проектов (legacy) — 1157 МБ, порог 900 МБ.",
+      "file": "ops/pages-deploy.json"
     }
   ]
 }
