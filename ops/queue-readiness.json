@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "debbdf9353bcc59aa026f94e1815b3dbffb18ab1f77d34f9e14342d8daf96064",
+  "source_queue_sha256": "f3c34f3eca7f19853b390eb45cda8cec8e99e61b361ce52ed5e9e181a38eda9f",
   "source_task_map_sha256": "f5580f95378946fc51dd8f6e1d75d1cf8b4c0b675983a3e434d803cd1935898c",
   "topview_checked_at": "2026-11-26T21:00:34Z",
   "items": [
@@ -86,15 +86,6 @@
       "queue_state": "blocked_inputs"
     },
     {
-      "id": "S28-A13-20261030",
-      "scene_id": 28,
-      "part_label": "28 A13",
-      "code": "preflight_required",
-      "ready": false,
-      "text": "Входы найдены; требуется снять записанный блокер после проверки",
-      "queue_state": "submitting"
-    },
-    {
       "id": "S89D-WAN30",
       "scene_id": 89,
       "part_label": "89D · Wan 3.0",
@@ -141,5 +132,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-26T21:10:27.346941Z"
+  "checked_at": "2026-11-26T21:14:02.694787Z"
 }
