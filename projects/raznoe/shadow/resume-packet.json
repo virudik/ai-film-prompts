@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-26T11:20:39+00:00",
-  "source_head": "29d3921ab6c52a54cf39510dc39819be9b7ddb9d",
-  "source_fingerprint": "39fe23197a1550b1736a1690377c91e664d7906dc7bc1cf317da736b655be331",
+  "checked_at": "2026-11-26T11:33:38+00:00",
+  "source_head": "55451157b49d9458012cf0801ad6b8058a31b6eb",
+  "source_fingerprint": "e498f92347e10587d2490fba3347a541e8079075800d4f57a2c6797a1b5b83a1",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -224,8 +224,8 @@
     },
     {
       "file": "projects/raznoe/project-status.json",
-      "sha256": "6e800bf108694cb7d544292921a708779f77a87d39cd90bc3dbcdbd1f704b36f",
-      "bytes": 13554
+      "sha256": "e7948149c5ef4877cc2c95d94c3affa40688e9db6a8d49d715e4f52bd9c90885",
+      "bytes": 13558
     },
     {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
