@@ -1,4 +1,4 @@
-﻿# SYNC-RUNBOOK v5.1 — AI Film Project
+# SYNC-RUNBOOK v5.1 — AI Film Project
 
 > **Пробуждение, роли и предупреждения сайта** — одно место: `ops/PRIMARY-BACKUP-WAKE.md`. Замок, claim и один Create — `ops/LAUNCHER-COORDINATION.md`; обёртка — `ops/LAUNCHER-ENTRY.md`. Копии и прежние отчёты это не переопределяют.
 
@@ -70,7 +70,7 @@ GitHub `schedule:` ненадёжен (по истории запусков 12�
 5. загрузка идёт в заранее выданные владельцем файлы-слоты (`topview-archive-seeds.json`); пул конечен (100 слотов на 13.10); при остатке ≤10 workflow открывает issue `topview-archive-pool`; при «No preauthorized owner-owned Drive upload slots remain» — остановиться и спросить владельца; пополняет слоты только владелец; IAM и ключи не менять, JSON-ключи не добавлять;
 6. перед изменением скрипта — `python3 -m unittest discover -s tests -p 'test_topview_video_archive.py'`.
 
-Ссылки на копии на сайте строятся из `file_id` в `topview-video-archive.json` только при совпадении сцены и задачи. Проверка работы: свежий прогон workflow, где успешны шаги «Copy and verify completed videos» и «Commit verified archive index only», плюс открытие записи индекса под аккаунтом владельца. Хранить MP4 в GitHub нельзя: репозиторий публичный; сменить хранилище — только по явному решению владельца.
+С 26.11.2026 сайт играет ролики с `yandex_public_key`; `file_id` Drive — запасной путь только для старых записей без яндексовского ключа. Не включать заливку на Drive снова. Хранить MP4 в GitHub нельзя: репозиторий публичный. Когда раскладывать новые ролики и схема папок — `ops/TOPVIEW-VIDEO-ARCHIVE.md`.
 
 ### Несколько проектов в одном репозитории (решение владельца 20.10.2026)
 Проекты: **Серёгиус** (корень, как раньше), **Котмонавты**, **Кот детектив**, **Роскосмос** (id `roscosmos`), **Разное** (id `raznoe`) — каждый в `projects/<id>/` со своим мастером, статусом, хендофом, инструкцией, референсами, очередью, замком и журналом решений; номера сцен у каждого свои. Реестр `projects/projects.json`, полные правила — `projects/README.md`. Коротко: сообщение владельца без названия проекта — Серёгиус (`python3 scripts/projects.py . detect "<текст>"`); правка внутри `projects/<id>/` — под замком проекта (`canon_lock.py --project <id>`), всё остальное — под общим замком; после правки мастера проекта — `projects.py . status --project <id> --write` (страхует `projects-sync.yml`). Кнопки других проектов помечены `value = "project:<id>"` / «[проект: <id>]»; фазы 1–3 их пропускают, применяет фаза 4 `scripts/robot_project_actions.py`. Робот телеметрии узнаёт задачи других проектов по точному совпадению промта и пишет их в `projects/topview-projects.json` (без `hold`); слоты Topview общие — 6 на все проекты. Сайт: переключатель вверху слева, `?p=<id>` (`projects.js`).
