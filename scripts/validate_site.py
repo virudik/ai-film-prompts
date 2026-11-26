@@ -212,6 +212,49 @@ video_page = (root / "videos.html").read_text(encoding="utf-8")
 for required in ("topview-video-archive.json", "functions/v1/drive-video?id=", "<video controls playsinline", "/^[0-9a-f]{32}$/", "projects.js"):
     if required not in video_page:
         raise SystemExit("videos.html regression: " + required)
+# Yandex Disk playback for every project (owner decision 26.11.2026): Yandex answers 403 to a video request
+# with a foreign Referer, so pages that play or link videos must send none; the shared logic is video-source.js.
+REFERRER_META = '<meta name="referrer" content="no-referrer">'
+for page in ("videos.html", "film.html"):
+    if REFERRER_META not in (root / page).read_text(encoding="utf-8"):
+        raise SystemExit(page + " must keep " + REFERRER_META + " (Yandex Disk refuses foreign Referer)")
+if "video-source.js" not in video_page or "AIFP_VIDEO" not in video_page:
+    raise SystemExit("videos.html must play through video-source.js")
+video_source = (root / "video-source.js").read_text(encoding="utf-8")
+for required in ("https://cloud-api.yandex.net/v1/disk/public/resources/download?public_key=",
+                 "functions/v1/drive-video?id=", "yandex_public_key", "window.AIFP_VIDEO="):
+    if required not in video_source:
+        raise SystemExit("video-source.js regression: " + required)
+_vs = subprocess.run(["node", "--check", str(root / "video-source.js")], text=True, capture_output=True)
+if _vs.returncode:
+    raise SystemExit("video-source.js: " + (_vs.stderr or _vs.stdout))
+# Same archive format in every project: <project root>/topview-video-archive.json.
+_YA_KEY = re.compile(r"^https://(yadi\.sk|disk\.yandex\.(ru|com))/(i|d)/[A-Za-z0-9_-]{6,}$")
+_archives = [("seregius", root / "topview-video-archive.json")] + [
+    (d.name, d / "topview-video-archive.json") for d in sorted((root / "projects").iterdir()) if d.is_dir()]
+for _pid, _path in _archives:
+    if not _path.exists():
+        continue
+    _arch = json.loads(_path.read_text(encoding="utf-8"))
+    for _tid, _e in (_arch.get("videos") or {}).items():
+        # Key: Topview task id, or a short id for a video made elsewhere (other projects' Yandex uploads).
+        if not re.fullmatch(r"[A-Za-z0-9._-]{1,80}", _tid):
+            raise SystemExit(f"{_path.name} ({_pid}): bad video key {_tid}")
+        try:
+            _scene = int(_e.get("scene_id", _e.get("scene")))
+        except (TypeError, ValueError):
+            _scene = 0
+        if _scene <= 0:
+            raise SystemExit(f"{_pid} {_tid}: video needs scene_id (or scene)")
+        _key = _e.get("yandex_public_key")
+        if _key is not None and not _YA_KEY.match(str(_key)):
+            raise SystemExit(f"{_pid} {_tid}: yandex_public_key must be a Yandex Disk public link")
+        if _key and not str(_e.get("yandex_path") or "").strip():
+            raise SystemExit(f"{_pid} {_tid}: yandex_public_key needs yandex_path")
+        if _e.get("project") not in (None, _pid):
+            raise SystemExit(f"{_pid} {_tid}: project field {_e.get('project')!r} does not match folder")
+        if not _key and not re.fullmatch(r"[A-Za-z0-9_-]{15,}", str(_e.get("file_id") or "")):
+            raise SystemExit(f"{_pid} {_tid}: video has neither Yandex key nor Drive file_id")
 # Status lines (owner 20.10.2026): canon lock, tasks, canon health and self-heal sit once, in the top status panel.
 _ctl = html[html.index('<section class="control">'):html.index('<section id="now-view"')]
 for required in ('id="canonLockLine"', 'id="inboxList"', 'id="canonHealth"', 'id="selfHeal"'):
