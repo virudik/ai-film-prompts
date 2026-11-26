@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "stikhiy",
   "project_name": "Стахий",
-  "checked_at": "2026-11-26T22:07:30+00:00",
+  "checked_at": "2026-11-26T22:09:08+00:00",
   "source_head": "d55c75e3b322cf78d19e675280e938af454de58b",
-  "source_fingerprint": "5ec7e0a9b59896d9ecd555d44688ad03be4b0ce322e588d695a0204e85d46c3a",
+  "source_fingerprint": "2b9d7640e0cdd4d1d3bd4b1da444997789e1c45b0c31991bd0a98392e1ffc1f6",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -15,9 +15,9 @@
     "work_id": "STIKHIY-SCENE1-20261118",
     "title": "Стахий: сцена 1 и разбивка 15/30 секунд",
     "status": "awaiting_editorial_review",
-    "last_completed": "Подготовлены четыре референса, 25 базовых и восемь дополнительных промптов. Единственная рабочая сетка владельца — 03:52.",
-    "next_action": "Grok: взять только рабочие 03:52, провести контрольную читку 06/08/10 и сверить модель Зенита до крупного плана; Dot видео не запускает.",
-    "verified_at": "2026-11-26T22:07:30+00:00",
+    "last_completed": "Подготовлены четыре референса, 25 базовых и восемь дополнительных промптов, карта русских реплик для Grok и единственный монтаж 03:52.",
+    "next_action": "Grok: 03:52; проверить синхронную русскую речь 06/08/10, записать закадр отдельно, сверить модель Зенита перед крупным планом; Dot не запускает.",
+    "verified_at": "2026-11-26T22:09:08+00:00",
     "blockers": [],
     "evidence": [
       {
@@ -26,7 +26,7 @@
       },
       {
         "file": "projects/stikhiy/references/scenes/scene-1/continuity-edit-v2.md",
-        "sha256": "501dff6d007aca261e6412a7a2fc983e6f2de19c45528ec9e17e328156dc85a5"
+        "sha256": "d674d998d5f3c8277b01f5738e5d63aaa3fe07048a1fbd6b5ea33d293f20dc26"
       },
       {
         "file": "projects/stikhiy/references/scenes/scene-1/manifest.json",
@@ -220,8 +220,8 @@
     },
     {
       "file": "projects/stikhiy/HANDOFF.md",
-      "sha256": "c4f63be1eebe2d39431463af38d68f0404a567f357d539c9234ded04060ea78e",
-      "bytes": 7097
+      "sha256": "35bf9606ba29a4dbbb540a66604646f1ffa0154ed7aebe06921f321a6698c34e",
+      "bytes": 7343
     },
     {
       "file": "projects/stikhiy/INSTRUCTIONS.md",
@@ -240,8 +240,8 @@
     },
     {
       "file": "projects/stikhiy/references/scenes/scene-1/continuity-edit-v2.md",
-      "sha256": "501dff6d007aca261e6412a7a2fc983e6f2de19c45528ec9e17e328156dc85a5",
-      "bytes": 18194
+      "sha256": "d674d998d5f3c8277b01f5738e5d63aaa3fe07048a1fbd6b5ea33d293f20dc26",
+      "bytes": 23676
     },
     {
       "file": "projects/stikhiy/references/scenes/scene-1/manifest.json",
@@ -265,8 +265,8 @@
     },
     {
       "file": "projects/stikhiy/work-resume-register.json",
-      "sha256": "6b3883182c8649d744147f071fdac92b54768b73df18fd71d5c3465a5fb143a3",
-      "bytes": 3997
+      "sha256": "d51675e76a187dd5bf7140e37f1e857e56e8d7e7f1cf2b3e0a2ac99be1ef86ed",
+      "bytes": 4045
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -284,5 +284,5 @@
       "bytes": 2005020
     }
   ],
-  "packet_bytes": 5620
+  "packet_bytes": 5653
 }
