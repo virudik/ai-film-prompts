@@ -2653,6 +2653,16 @@
    "thumb_bytes": 205372,
    "src_sha256": "c11129f42a7288629c17eb79b3f53a9cede2b976eb71bb3e5f5ca7b813b0d04f"
   },
+  "projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.webp": {
+   "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.webp.webp",
+   "width": 640,
+   "height": 1137,
+   "src_width": 941,
+   "src_height": 1672,
+   "src_bytes": 586152,
+   "thumb_bytes": 203140,
+   "src_sha256": "e1725a4171fb6f3c139e5c9d7cee5cef6bc962e66bb376c4661959c2154c69d2"
+  },
   "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png": {
    "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png.webp",
    "width": 640,
@@ -2662,6 +2672,16 @@
    "src_bytes": 3577117,
    "thumb_bytes": 209364,
    "src_sha256": "e40fecded4d642945e916419ed6385d2040344738d77c5d1959a8d6350c8010e"
+  },
+  "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.webp": {
+   "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.webp.webp",
+   "width": 640,
+   "height": 1137,
+   "src_width": 941,
+   "src_height": 1672,
+   "src_bytes": 664368,
+   "thumb_bytes": 205436,
+   "src_sha256": "bee8220e90a9587ac5c43cbfdf563432db770151f132c1ac66853c3044b287cf"
   },
   "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.png": {
    "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.png.webp",
@@ -2673,6 +2693,16 @@
    "thumb_bytes": 208366,
    "src_sha256": "90babd927e0ba425af0d917deecaa11b8ebbc648e2b21011ea0895bdf410292c"
   },
+  "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.webp": {
+   "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.webp.webp",
+   "width": 640,
+   "height": 1137,
+   "src_width": 941,
+   "src_height": 1672,
+   "src_bytes": 615512,
+   "thumb_bytes": 204590,
+   "src_sha256": "693a9085011931b8a50259b367f7a451d8fe0264a82eb60ba495bf5651d3b81c"
+  },
   "projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png": {
    "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png.webp",
    "width": 640,
@@ -2682,6 +2712,16 @@
    "src_bytes": 2549468,
    "thumb_bytes": 93442,
    "src_sha256": "2d9c9f55bf640e7532c2f1f9b8676f137de22b8c3cf193174310089c9464cedc"
+  },
+  "projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp": {
+   "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp.webp",
+   "width": 640,
+   "height": 1137,
+   "src_width": 941,
+   "src_height": 1672,
+   "src_bytes": 347638,
+   "thumb_bytes": 91042,
+   "src_sha256": "f48f858a681c8c2601f15b54f445c41312b6d77c4897ad3c8375a3970a107890"
   },
   "projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.png": {
    "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.png.webp",
@@ -2693,6 +2733,16 @@
    "thumb_bytes": 67588,
    "src_sha256": "837b3c2b2ac4a8fc8ad8f09c81de62691af7d4fdaee638909d5f2c2166010ea2"
   },
+  "projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.webp": {
+   "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.webp.webp",
+   "width": 640,
+   "height": 909,
+   "src_width": 1052,
+   "src_height": 1494,
+   "src_bytes": 298694,
+   "thumb_bytes": 65206,
+   "src_sha256": "df673b4cd852ed5a17bd014e7a15a10eb12a5d84c0fc4ac084177ccffc6e90e2"
+  },
   "projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.png": {
    "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.png.webp",
    "width": 640,
@@ -2702,6 +2752,16 @@
    "src_bytes": 2126926,
    "thumb_bytes": 46480,
    "src_sha256": "34e52dc5deb372be16a3f84d2a426b631369b8b178d3e1d1afb5125853af4cd5"
+  },
+  "projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.webp": {
+   "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.webp.webp",
+   "width": 640,
+   "height": 904,
+   "src_width": 1055,
+   "src_height": 1491,
+   "src_bytes": 187864,
+   "thumb_bytes": 45224,
+   "src_sha256": "1dacf006a672292d8b6013124d1878dd714ae4869190b69e02704c4af010e4f6"
   },
   "projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png": {
    "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png.webp",
@@ -2713,6 +2773,16 @@
    "thumb_bytes": 78328,
    "src_sha256": "c20fb33409a9abec6159bc41b317682398e24051a99df99f951ff48a2ebaf5bf"
   },
+  "projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.webp": {
+   "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.webp.webp",
+   "width": 640,
+   "height": 1137,
+   "src_width": 941,
+   "src_height": 1672,
+   "src_bytes": 310844,
+   "thumb_bytes": 76646,
+   "src_sha256": "60d8d30288360a7f747fe4fe992e6ae23d2778d2385f625b5402022ee6c02dc2"
+  },
   "projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png": {
    "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png.webp",
    "width": 640,
@@ -2722,6 +2792,16 @@
    "src_bytes": 2797165,
    "thumb_bytes": 113914,
    "src_sha256": "4b550666f00a5b40927eed232db198d00f5b422727603b1786a0a1b03be8a560"
+  },
+  "projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.webp": {
+   "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.webp.webp",
+   "width": 640,
+   "height": 1137,
+   "src_width": 941,
+   "src_height": 1672,
+   "src_bytes": 369184,
+   "thumb_bytes": 113144,
+   "src_sha256": "99e293dafe273d936d479a765ccc614a1d417374497e3ddd7b7a636acec5c83e"
   },
   "projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.png": {
    "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.png.webp",
@@ -2733,6 +2813,16 @@
    "thumb_bytes": 114834,
    "src_sha256": "d0c143bfe758d6a241aeaf83246ea77896adbd42fbb59ddbf2c6e8dfc0f888b5"
   },
+  "projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.webp": {
+   "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.webp.webp",
+   "width": 640,
+   "height": 1137,
+   "src_width": 941,
+   "src_height": 1672,
+   "src_bytes": 398606,
+   "thumb_bytes": 113180,
+   "src_sha256": "848de90e03d75472b7a0d98f4e743715022068bd7e573159dcac3b4eee1a3990"
+  },
   "projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.png": {
    "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.png.webp",
    "width": 640,
@@ -2742,6 +2832,16 @@
    "src_bytes": 2192149,
    "thumb_bytes": 41602,
    "src_sha256": "00ac6be49fe7b8776bf3db188f1e678c0806eb5964b5bcee046bd61ec68d654f"
+  },
+  "projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.webp": {
+   "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.webp.webp",
+   "width": 640,
+   "height": 915,
+   "src_width": 1049,
+   "src_height": 1499,
+   "src_bytes": 184820,
+   "thumb_bytes": 40078,
+   "src_sha256": "2ab2b6eda3475dce899efb9b9c454d22fbcd3cefde81a37cc76edf383d36db9d"
   },
   "projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png": {
    "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png.webp",
@@ -2753,6 +2853,16 @@
    "thumb_bytes": 53394,
    "src_sha256": "71e214b21d6d2f8e8e41613b4cd6b6faa92498a09780fbabcb6e7cc813c6ac63"
   },
+  "projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp": {
+   "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp.webp",
+   "width": 640,
+   "height": 906,
+   "src_width": 1054,
+   "src_height": 1492,
+   "src_bytes": 244236,
+   "thumb_bytes": 52058,
+   "src_sha256": "86edab29617b6e39035d17de9c7b2d9f179171fa8f9d1a91a92b0a2ac352a811"
+  },
   "projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.png": {
    "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.png.webp",
    "width": 640,
@@ -2762,6 +2872,16 @@
    "src_bytes": 3890794,
    "thumb_bytes": 230674,
    "src_sha256": "1845c13ab4da5f1bf0f8df9979c361877f22b7e5499b0b024946c6f45da72eb7"
+  },
+  "projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.webp": {
+   "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.webp.webp",
+   "width": 640,
+   "height": 1137,
+   "src_width": 941,
+   "src_height": 1672,
+   "src_bytes": 724782,
+   "thumb_bytes": 227654,
+   "src_sha256": "9935bb1d2ca170be10c51c6b4b73dfc2cffaecdbef24bb5d0311d82b8a16bcd9"
   },
   "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp": {
    "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp.webp",
