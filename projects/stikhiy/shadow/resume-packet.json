@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "stikhiy",
   "project_name": "Стахий",
-  "checked_at": "2026-11-26T22:50:43+00:00",
-  "source_head": "59b9381734f330e0cc9e8ae142239cab64720098",
-  "source_fingerprint": "46472392bb7e611a9e4ce5a0f8d3414e1a4b7ad4b9318641c279475aa356f2d0",
+  "checked_at": "2026-11-26T22:53:06+00:00",
+  "source_head": "2c095d0368d25367c878f0e1b5d3cc34b40241d5",
+  "source_fingerprint": "397cfa7744511b3dbe53adf4e9af9b29f5d72e213f0ad517864371c96604b1f1",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -149,29 +149,7 @@
     "unresolved": [],
     "existing_task_count": 0,
     "existing_tasks": [],
-    "next_candidates": [
-      {
-        "item_id": "1-W01-WAN30",
-        "state": "waiting_for_slot",
-        "task_id": null,
-        "recovery_action": "fresh_launch_preflight_required",
-        "submit_authorized": false
-      },
-      {
-        "item_id": "1-W02-WAN30",
-        "state": "waiting_for_slot",
-        "task_id": null,
-        "recovery_action": "fresh_launch_preflight_required",
-        "submit_authorized": false
-      },
-      {
-        "item_id": "1-W03-WAN30",
-        "state": "waiting_for_slot",
-        "task_id": null,
-        "recovery_action": "fresh_launch_preflight_required",
-        "submit_authorized": false
-      }
-    ],
+    "next_candidates": [],
     "rule": "Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconcile first; no retry."
   },
   "sources": [
@@ -237,8 +215,8 @@
     },
     {
       "file": "projects/projects.json",
-      "sha256": "67282fdb905921bd98c323abcae17a143dad3f65143d38a9dc773fdf58e175a6",
-      "bytes": 10408
+      "sha256": "5111101095722794c6fb1c9a78cdab3615bdd5e9d467bba561435ae0742faa3b",
+      "bytes": 11095
     },
     {
       "file": "projects/stikhiy/HANDOFF.md",
@@ -252,8 +230,8 @@
     },
     {
       "file": "projects/stikhiy/ops/topview-launch-queue.json",
-      "sha256": "fefe687c567570a0c33bebf9b505573e3b5c603a3362402178d983f42794eede",
-      "bytes": 30310
+      "sha256": "20498d2a52350e58eab37a4c8fbb5a94acba4bde95ad3d9da2d15e8109c694e8",
+      "bytes": 1676
     },
     {
       "file": "projects/stikhiy/project-status.json",
