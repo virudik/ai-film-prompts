@@ -50,8 +50,11 @@ function play(v,auto){
  document.querySelectorAll('.v.on').forEach(b=>b.classList.remove('on'));
  const btn=document.querySelector('.v[data-task="'+v.task+'"]');if(btn)btn.classList.add('on');
  const mb=v.size?(v.size/1048576).toFixed(0)+' МБ':'';
+ const group=String(v.e.group||'').trim();
+ const head=group||('Сцена '+v.scene+(titles[v.scene]?' — '+titles[v.scene]:''));
+ const fname=(v.e.label||('scene-'+v.scene+'-v'+v.n))+'.mp4';
  $('player').innerHTML='<video controls playsinline preload="metadata"'+(auto?' autoplay':'')+'></video>'+
-  '<div class="now"><b>Сцена '+esc(v.scene)+(titles[v.scene]?' — '+esc(titles[v.scene]):'')+'</b><span>версия '+esc(v.n)+(v.e.label?' · '+esc(v.e.label):'')+(v.at?' · '+esc(day(v.at)):'')+'</span><span class="src" id="src"></span><a id="dl" href="#" download="scene-'+esc(v.scene)+'-v'+esc(v.n)+'.mp4" rel="noopener noreferrer">⬇ Скачать'+(mb?' ('+mb+')':'')+'</a><a href="index.html#scene-'+esc(v.scene)+'">к сцене</a></div>';
+  '<div class="now"><b>'+esc(head)+'</b><span>версия '+esc(v.n)+(v.e.label?' · '+esc(v.e.label):'')+(v.at?' · '+esc(day(v.at)):'')+'</span><span class="src" id="src"></span><a id="dl" href="#" download="'+esc(fname)+'" rel="noopener noreferrer">⬇ Скачать'+(mb?' ('+mb+')':'')+'</a>'+(group?'':'<a href="index.html#scene-'+esc(v.scene)+'">к сцене</a>')+'</div>';
  const video=$('player').querySelector('video');
  VS.attach(video,v.e,()=>{$('player').insertAdjacentHTML('beforeend','<div class="note err">Браузер не открыл ролик ни с Яндекса, ни с Google Drive. Обновите страницу или откройте ролик в Topview со страницы сцены.</div>')},
   s=>{$('src').textContent=s.kind==='yandex'?'Яндекс Диск':'Google Drive';$('dl').href=s.url});
@@ -61,8 +64,9 @@ function play(v,auto){
 function render(){
  const q=$('filter').value.trim().toLowerCase();
  const byScene=new Map();videos.forEach(v=>{if(!byScene.has(v.scene))byScene.set(v.scene,[]);byScene.get(v.scene).push(v)});
- const scenes=[...byScene.keys()].sort((a,b)=>a-b).filter(s=>!q||String(s)===q||String(s).startsWith(q)||(titles[s]||'').toLowerCase().includes(q));
- $('list').innerHTML=scenes.length?scenes.map(s=>'<div class="scene"><div class="scene-head"><span class="num">Сцена '+s+'</span><span class="t">'+esc(titles[s]||'')+'</span></div><div class="vers">'+
+ const groupOf=s=>String((byScene.get(s)||[]).find(v=>v.e.group)?.e.group||'').trim();
+ const scenes=[...byScene.keys()].sort((a,b)=>a-b).filter(s=>!q||String(s)===q||String(s).startsWith(q)||(titles[s]||'').toLowerCase().includes(q)||groupOf(s).toLowerCase().includes(q));
+ $('list').innerHTML=scenes.length?scenes.map(s=>'<div class="scene"><div class="scene-head"><span class="num">'+(groupOf(s)?esc(groupOf(s)):'Сцена '+s)+'</span><span class="t">'+esc(groupOf(s)?'':(titles[s]||''))+'</span></div><div class="vers">'+
   byScene.get(s).map(v=>'<button type="button" class="v" data-task="'+esc(v.task)+'">▶ '+esc(v.e.label||v.n)+(v.at?' · '+esc(day(v.at).slice(0,5)):'')+'</button>').join('')+'</div></div>').join(''):'<div class="note">'+(videos.length?'Ничего не найдено.':'В этом проекте пока нет сохранённых роликов.')+'</div>';
  $('list').querySelectorAll('.v').forEach(b=>b.onclick=()=>play(videos.find(v=>v.task===b.dataset.task),true));
 }
@@ -82,7 +86,9 @@ Promise.all([get('topview-video-archive.json'),get('film-order.json'),get('video
  const per=new Map();list.sort((x,y)=>x.scene-y.scene||String(x.at).localeCompare(String(y.at))).forEach(v=>{const n=(per.get(v.scene)||0)+1;per.set(v.scene,n);v.n=n});
  videos=list.sort((x,y)=>x.scene-y.scene||y.n-x.n);
  const ya=videos.filter(v=>VS.yandexKey(v.e)).length;
- $('sub').innerHTML=videos.length+' роликов · '+per.size+' сцен · с Яндекс Диска '+ya+(AIFP.isRoot?' · <a href="'+DRIVE_FOLDER+'" target="_blank" rel="noopener noreferrer">📁 запасная папка в Google Drive</a>':'');
+ const groups=[...new Set(videos.map(v=>String(v.e.group||'').trim()).filter(Boolean))];
+ const sceneN=[...per.keys()].filter(s=>!videos.some(v=>v.scene===s&&v.e.group)).length;
+ $('sub').innerHTML=videos.length+' роликов · '+sceneN+' сцен'+(groups.length?' · '+groups.map(esc).join(', '):'')+' · с Яндекс Диска '+ya+(AIFP.isRoot?' · <a href="'+DRIVE_FOLDER+'" target="_blank" rel="noopener noreferrer">📁 запасная папка в Google Drive</a>':'');
  render();$('filter').oninput=render;
  const want=new URLSearchParams(location.search).get('task');const v=want&&videos.find(x=>x.task===want);if(v)play(v,false);
 }).catch(e=>{$('list').innerHTML='<div class="err">Не удалось загрузить список: '+esc(e.message)+'</div>'});
