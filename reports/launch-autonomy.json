@@ -1,44 +1,41 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-11-25T15:55:18Z",
+  "checked_at": "2026-11-26T15:35:37Z",
   "window_hours": 24,
-  "verdict": "historical_free_slots_unverified",
-  "launches": [
-    {
-      "item": "S89J-WAN30",
-      "scene_id": 89,
-      "task_id": "45fb0ba125114ba48b48dd8a129f9015",
-      "claimed_at": "2026-11-25T13:14:11Z",
-      "submitted_at": "2026-11-25T13:16:58Z",
-      "observed_at": "2026-11-25T13:16:58Z",
-      "time_basis": "submitted_at",
-      "run_id": null,
-      "source": "unknown",
-      "source_evidence": "missing_or_unbound_trigger_evidence"
-    }
-  ],
+  "verdict": "launch_stalled",
+  "launches": [],
   "launches_by_schedule": 0,
   "launches_by_chat": 0,
   "launches_by_webhook": 0,
   "launches_by_manual_run_now": 0,
-  "launches_unknown_source": 1,
+  "launches_unknown_source": 0,
   "historical_opportunity_verified": false,
   "historical_opportunity_note": "Past free-slot observations are not joined to historical queue readiness, authorization or leases; no idle-launch incident inferred from them.",
   "free_slot_observations": [
     {
-      "at": "2026-11-25T13:00:52Z",
+      "at": "2026-11-26T14:50:37Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-11-26T13:50:46Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-11-26T13:00:42Z",
       "occupied": 5,
       "capacity": 6
     }
   ],
   "ready_items_waiting": 6,
   "launcher_health": {
-    "state": "capacity_full",
-    "unresolved": false,
-    "episode": "c433c506",
-    "unresolved_since": null,
-    "reason": "no_free_global_slot; launcher_health_not_proven",
-    "free_slots_global": 0,
+    "state": "reconciliation_required",
+    "unresolved": true,
+    "episode": "5caa3638",
+    "unresolved_since": "2026-11-26T13:00:41Z",
+    "reason": "saved_claim_or_unknown_submission; no_repeat_Create",
+    "free_slots_global": 1,
     "actionable_items": [
       "S49B",
       "S28-A3-20261023",
@@ -54,21 +51,19 @@
       "S89F-WAN30",
       "S89F-WAN30-R2"
     ],
-    "last_event_id": "result:2891ed5c97be4438ac3a23f9b19ea193",
-    "receipt_present": true,
-    "handler_outcome": "submitted",
-    "execution_stage": "submitted",
-    "execution_updated_at": "2026-11-25T13:18:21Z",
+    "last_event_id": "slots:5caa3638:102",
+    "receipt_present": false,
+    "handler_outcome": null,
+    "execution_stage": null,
+    "execution_updated_at": null,
     "runtime_run_id": null,
-    "confirmed_launch_task_ids": [
-      "45fb0ba125114ba48b48dd8a129f9015"
-    ],
+    "confirmed_launch_task_ids": [],
     "last_confirmed_event_id": "result:2891ed5c97be4438ac3a23f9b19ea193",
     "last_confirmed_launch_task_ids": [
       "45fb0ba125114ba48b48dd8a129f9015"
     ],
-    "escalation_attempted_episode": null,
-    "checked_at": "2026-11-25T15:10:38Z"
+    "escalation_attempted_episode": "5caa3638",
+    "checked_at": "2026-11-26T15:30:35Z"
   },
   "launcher_observation_stale": false,
   "note": "Source requires a task/execution-bound trigger receipt; legacy prefixes retained as labelled evidence. Missing runtime ID never implies chat."
