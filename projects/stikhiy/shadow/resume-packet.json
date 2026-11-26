@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "stikhiy",
   "project_name": "Стахий",
-  "checked_at": "2026-11-26T22:43:40+00:00",
-  "source_head": "bd3447a1c7111808902027de58bdb4884470ad41",
-  "source_fingerprint": "74a228d76e2bc752cb117358d61756c1997eaec2be6ff310eb625f39a8ad42a2",
+  "checked_at": "2026-11-26T22:45:34+00:00",
+  "source_head": "517eaeec44a68c5828f5d2e854ec5909cb247aad",
+  "source_fingerprint": "4dfc85d534972f876cbf508d705199dacf392f9467884ce76f7ce5c1056692bd",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -149,7 +149,29 @@
     "unresolved": [],
     "existing_task_count": 0,
     "existing_tasks": [],
-    "next_candidates": [],
+    "next_candidates": [
+      {
+        "item_id": "1-W01-WAN30",
+        "state": "waiting_for_slot",
+        "task_id": null,
+        "recovery_action": "fresh_launch_preflight_required",
+        "submit_authorized": false
+      },
+      {
+        "item_id": "1-W02-WAN30",
+        "state": "waiting_for_slot",
+        "task_id": null,
+        "recovery_action": "fresh_launch_preflight_required",
+        "submit_authorized": false
+      },
+      {
+        "item_id": "1-W03-WAN30",
+        "state": "waiting_for_slot",
+        "task_id": null,
+        "recovery_action": "fresh_launch_preflight_required",
+        "submit_authorized": false
+      }
+    ],
     "rule": "Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconcile first; no retry."
   },
   "sources": [
@@ -215,13 +237,13 @@
     },
     {
       "file": "projects/projects.json",
-      "sha256": "9b76eb4fc5e85b5c5fe8fcf4773c673d2b771308ac3f5ac706507ca351132231",
-      "bytes": 10336
+      "sha256": "67282fdb905921bd98c323abcae17a143dad3f65143d38a9dc773fdf58e175a6",
+      "bytes": 10408
     },
     {
       "file": "projects/stikhiy/HANDOFF.md",
-      "sha256": "79e266246ac52ff3174bde8249e7cbc5b997f9cd8fc29bda4ea07e32505a2c70",
-      "bytes": 7326
+      "sha256": "7a92f5ca54251e8b8100c719ca8b73f83508c7c98515b3888d3b7418c47fcfc0",
+      "bytes": 8948
     },
     {
       "file": "projects/stikhiy/INSTRUCTIONS.md",
@@ -230,13 +252,13 @@
     },
     {
       "file": "projects/stikhiy/ops/topview-launch-queue.json",
-      "sha256": "0c6e488a29d5178be2e83669c3046b9b72942d97aedb6bc1f0ccb3e0c3b7ed55",
-      "bytes": 689
+      "sha256": "fefe687c567570a0c33bebf9b505573e3b5c603a3362402178d983f42794eede",
+      "bytes": 30310
     },
     {
       "file": "projects/stikhiy/project-status.json",
-      "sha256": "4b2e81518dd95abc042bcf3db7025d3a8dfcbec76306f21fbb1b600eff6292d9",
-      "bytes": 8333
+      "sha256": "ead5e70f235a45c6acddadf80940e1b7f3e0ff3715e8d5ae02abf3ae7f8e13b6",
+      "bytes": 8335
     },
     {
       "file": "projects/stikhiy/references/scenes/scene-1/continuity-edit-v2.md",
@@ -260,8 +282,8 @@
     },
     {
       "file": "projects/stikhiy/video-prompts.md",
-      "sha256": "adf196d9990ff369c1ebd8097e3d563da24eeae7007fddfb035f87810abd0fd6",
-      "bytes": 175263
+      "sha256": "2772d2634a43d34102fba4e9d98afa97f3fa69a6fb1ddf3cd1b3be327123921d",
+      "bytes": 278661
     },
     {
       "file": "projects/stikhiy/work-resume-register.json",

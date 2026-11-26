@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "kotmonavty",
   "project_name": "Котмонавты",
-  "checked_at": "2026-11-26T22:43:40+00:00",
-  "source_head": "bd3447a1c7111808902027de58bdb4884470ad41",
-  "source_fingerprint": "1aeebc11e19026f838704509cec3545e46393000dbb0259c951a8e0e0a37a024",
+  "checked_at": "2026-11-26T22:45:34+00:00",
+  "source_head": "517eaeec44a68c5828f5d2e854ec5909cb247aad",
+  "source_fingerprint": "7076a6da4f738e61a262446d35eba59677934d5d0d88d8a09acf0a8ed798bce8",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -245,8 +245,8 @@
     },
     {
       "file": "projects/projects.json",
-      "sha256": "9b76eb4fc5e85b5c5fe8fcf4773c673d2b771308ac3f5ac706507ca351132231",
-      "bytes": 10336
+      "sha256": "67282fdb905921bd98c323abcae17a143dad3f65143d38a9dc773fdf58e175a6",
+      "bytes": 10408
     },
     {
       "file": "shadow/current-checkpoint.md",

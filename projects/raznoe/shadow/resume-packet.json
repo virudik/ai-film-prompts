@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-26T22:43:40+00:00",
-  "source_head": "bd3447a1c7111808902027de58bdb4884470ad41",
-  "source_fingerprint": "7f2351c5cdb90639b88c82d4073bcf5e1e311810dc9f1522e71a3ddd3e123118",
+  "checked_at": "2026-11-26T22:45:34+00:00",
+  "source_head": "517eaeec44a68c5828f5d2e854ec5909cb247aad",
+  "source_fingerprint": "26e2becca4f06c506913f2b4e446046fc13a7b90347b31dce46ce1081c9eb292",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -204,8 +204,8 @@
     },
     {
       "file": "projects/projects.json",
-      "sha256": "9b76eb4fc5e85b5c5fe8fcf4773c673d2b771308ac3f5ac706507ca351132231",
-      "bytes": 10336
+      "sha256": "67282fdb905921bd98c323abcae17a143dad3f65143d38a9dc773fdf58e175a6",
+      "bytes": 10408
     },
     {
       "file": "projects/raznoe/HANDOFF.md",

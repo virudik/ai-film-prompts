@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "roscosmos",
   "project_name": "Роскосмос",
-  "checked_at": "2026-11-26T22:43:40+00:00",
-  "source_head": "bd3447a1c7111808902027de58bdb4884470ad41",
-  "source_fingerprint": "fb85c94b2e718060ab225cf50a83d52669bb1463a8a7208d2099b16c0eafa942",
+  "checked_at": "2026-11-26T22:45:34+00:00",
+  "source_head": "517eaeec44a68c5828f5d2e854ec5909cb247aad",
+  "source_fingerprint": "a784239886ae62167b105eeea878858ca660e2e817e9f3dd9b7a086949fff009",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -183,8 +183,8 @@
     },
     {
       "file": "projects/projects.json",
-      "sha256": "9b76eb4fc5e85b5c5fe8fcf4773c673d2b771308ac3f5ac706507ca351132231",
-      "bytes": 10336
+      "sha256": "67282fdb905921bd98c323abcae17a143dad3f65143d38a9dc773fdf58e175a6",
+      "bytes": 10408
     },
     {
       "file": "projects/roscosmos/HANDOFF.md",
