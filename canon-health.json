@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-26T10:28:21Z",
+  "checked_at": "2026-11-26T10:42:14Z",
   "status": "warn",
-  "warnings": 4,
+  "warnings": 3,
   "info": 4,
   "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. Одни пороги для корня и для каждого projects/<id>/ из реестра; Серёгиус — корневой проект, не отдельная схема. Устаревание по состоянию проекта, даты только сигнал. Чистка и еженедельная сверка копий роликов — ops/HANDOFF-CLEANUP.md.",
   "problems": [
@@ -47,12 +47,6 @@
       "code": "resume-selected-stale",
       "text": "projects/kot-detektiv/shadow/resume-packet.json: выбранная работа «KD-WAIT-OWNER» от 27.10.2026, старше 7 дней (29).",
       "file": "projects/kot-detektiv/shadow/resume-packet.json"
-    },
-    {
-      "level": "warn",
-      "code": "pages-size",
-      "text": "Общий сайт Pages всех проектов (legacy) — 1157 МБ, порог 900 МБ.",
-      "file": "ops/pages-deploy.json"
     }
   ]
 }
