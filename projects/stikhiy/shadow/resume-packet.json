@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "stikhiy",
   "project_name": "Стахий",
-  "checked_at": "2026-11-26T22:09:08+00:00",
-  "source_head": "d55c75e3b322cf78d19e675280e938af454de58b",
-  "source_fingerprint": "2b9d7640e0cdd4d1d3bd4b1da444997789e1c45b0c31991bd0a98392e1ffc1f6",
+  "checked_at": "2026-11-26T22:13:14+00:00",
+  "source_head": "55b5d5ef72f3fb039ffdc12c37386ad1994db260",
+  "source_fingerprint": "34c77cb6810665e85f2bebc879492d94284c4cf0a7444e74e8eb354c5ae19e60",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -16,7 +16,7 @@
     "title": "Стахий: сцена 1 и разбивка 15/30 секунд",
     "status": "awaiting_editorial_review",
     "last_completed": "Подготовлены четыре референса, 25 базовых и восемь дополнительных промптов, карта русских реплик для Grok и единственный монтаж 03:52.",
-    "next_action": "Grok: 03:52; проверить синхронную русскую речь 06/08/10, записать закадр отдельно, сверить модель Зенита перед крупным планом; Dot не запускает.",
+    "next_action": "Grok: 03:52; проверить синхронную русскую речь 06/08/10, записать закадр отдельно, использовать корпус Зенит‑12сд без читаемой маркировки во всех планах; Dot не запускает.",
     "verified_at": "2026-11-26T22:09:08+00:00",
     "blockers": [],
     "evidence": [
@@ -26,7 +26,7 @@
       },
       {
         "file": "projects/stikhiy/references/scenes/scene-1/continuity-edit-v2.md",
-        "sha256": "d674d998d5f3c8277b01f5738e5d63aaa3fe07048a1fbd6b5ea33d293f20dc26"
+        "sha256": "cbdc46272c04d303949b912e5619be65465ab76bc76dc2808ab0969a1e242113"
       },
       {
         "file": "projects/stikhiy/references/scenes/scene-1/manifest.json",
@@ -40,10 +40,10 @@
     "checkpoint": {
       "file": "projects/stikhiy/reports/current-work-checkpoint.md",
       "anchor": "# 27.11.2026 — Стахий: подготовка пакета сцены 1",
-      "sha256": "50c4c1d96671abf86eac24e4a31e859526551dcf9a98c4e191d85cfe354d613e"
+      "sha256": "f4537c2a43e42cff25ba0d4004c194c00ed62f4f91c67cd32876d997f1bc9533"
     }
   },
-  "checkpoint_text": "# 27.11.2026 — Стахий: подготовка пакета сцены 1\n\nwork_id: STIKHIY-SCENE1-20261118\n\nФасад и двор, два листа деда Толи с кепкой, сценарий и автономные промпты 9:16 подготовлены. Две разные Ольги: Ольга Чечулина, впоследствии Мазур, — сестра Надежды и Валерия, крёстная Стахия и мама Юлии. Ольга Гусарова, впоследствии Чечулина, — жена Валерия и мама Виктории; пока в сериал не входит, её фото не присылались. На присланных фото с Ольгой — Ольга Мазур; конкретный файл её лица пока не привязан.\n\nВладелец выбрал единственный рабочий монтаж 03:52 с 8 монтажными карточками. Контрольная читка перед запуском — у Grok. Точный «Зенит» сверить перед крупным планом. Запуск делает Grok.\n",
+  "checkpoint_text": "# 27.11.2026 — Стахий: подготовка пакета сцены 1\n\nwork_id: STIKHIY-SCENE1-20261118\n\nФасад и двор, два листа деда Толи с кепкой, сценарий и автономные промпты 9:16 подготовлены. Две разные Ольги: Ольга Чечулина, впоследствии Мазур, — сестра Надежды и Валерия, крёстная Стахия и мама Юлии. Ольга Гусарова, впоследствии Чечулина, — жена Валерия и мама Виктории; пока в сериал не входит, её фото не присылались. На присланных фото с Ольгой — Ольга Мазур; конкретный файл её лица пока не привязан.\n\nВладелец выбрал единственный рабочий монтаж 03:52 с 8 монтажными карточками. Контрольная читка перед запуском — у Grok. Для «Зенита» выбран постановочный корпус 12сд без читаемого индекса и надписей на коробке. Семейную модель не утверждаем; от ожидания фото не зависит рабочий монтаж. Запуск делает Grok.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -205,7 +205,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "aefccd55381cf7400369377a7a6db9165ff75425def98d2e1645aec9132a614c",
+      "sha256": "e71d28b384008666c908397830129747491f7d2fdfa8f7d3d23ed069355b492e",
       "bytes": 29586
     },
     {
@@ -220,8 +220,8 @@
     },
     {
       "file": "projects/stikhiy/HANDOFF.md",
-      "sha256": "35bf9606ba29a4dbbb540a66604646f1ffa0154ed7aebe06921f321a6698c34e",
-      "bytes": 7343
+      "sha256": "79e266246ac52ff3174bde8249e7cbc5b997f9cd8fc29bda4ea07e32505a2c70",
+      "bytes": 7326
     },
     {
       "file": "projects/stikhiy/INSTRUCTIONS.md",
@@ -235,13 +235,13 @@
     },
     {
       "file": "projects/stikhiy/project-status.json",
-      "sha256": "861366aeac36e4c11d785b881479beefdb0fc6ca851437d27799bf06c8d21579",
+      "sha256": "4b2e81518dd95abc042bcf3db7025d3a8dfcbec76306f21fbb1b600eff6292d9",
       "bytes": 8333
     },
     {
       "file": "projects/stikhiy/references/scenes/scene-1/continuity-edit-v2.md",
-      "sha256": "d674d998d5f3c8277b01f5738e5d63aaa3fe07048a1fbd6b5ea33d293f20dc26",
-      "bytes": 23676
+      "sha256": "cbdc46272c04d303949b912e5619be65465ab76bc76dc2808ab0969a1e242113",
+      "bytes": 24026
     },
     {
       "file": "projects/stikhiy/references/scenes/scene-1/manifest.json",
@@ -255,18 +255,18 @@
     },
     {
       "file": "projects/stikhiy/reports/current-work-checkpoint.md",
-      "sha256": "88dd58a770129f441675cee1c35520b77dc282b8e824b1111ff703310df0ed6f",
-      "bytes": 5549
+      "sha256": "6f9ee8cd2b74b2301ecb9066c0781a07f255a05ed1088e2bce0e905eae747323",
+      "bytes": 5769
     },
     {
       "file": "projects/stikhiy/video-prompts.md",
-      "sha256": "14eb5191ce1340fd9911f0845b53dc53e4c1b975f2e6a11da0399d60f5b70669",
-      "bytes": 173284
+      "sha256": "adf196d9990ff369c1ebd8097e3d563da24eeae7007fddfb035f87810abd0fd6",
+      "bytes": 175263
     },
     {
       "file": "projects/stikhiy/work-resume-register.json",
-      "sha256": "d51675e76a187dd5bf7140e37f1e857e56e8d7e7f1cf2b3e0a2ac99be1ef86ed",
-      "bytes": 4045
+      "sha256": "f26d482bc652db060ce060a6e49107d913b032d110c296dfa293845b14344bc2",
+      "bytes": 4145
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -284,5 +284,5 @@
       "bytes": 2005020
     }
   ],
-  "packet_bytes": 5653
+  "packet_bytes": 5923
 }

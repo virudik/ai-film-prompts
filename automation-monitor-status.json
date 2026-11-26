@@ -255,7 +255,7 @@
   },
   "phases": {
     "topview": {
-      "checked_at": "2026-11-26T21:20:29Z",
+      "checked_at": "2026-11-26T22:10:44Z",
       "source": "robot; число слотов — topview-status.json"
     },
     "deep_audit": {
@@ -273,8 +273,8 @@
   },
   "health": "ok",
   "last_scheduled_cycle": {
-    "started_at": "2026-11-26T21:20:33Z",
-    "completed_at": "2026-11-26T21:20:33Z",
+    "started_at": "2026-11-26T22:10:50Z",
+    "completed_at": "2026-11-26T22:10:50Z",
     "health": "ok",
     "phases_completed": [
       "role_check",
@@ -286,7 +286,7 @@
     ],
     "phases_missing": [],
     "runner": "robot_scheduled_task",
-    "note": "GitHub robot: 6 из 6 слотов занято, новых 1, завершено 0."
+    "note": "GitHub robot: 6 из 6 слотов занято, новых 0, завершено 0."
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -345,8 +345,8 @@
       "checked_at": "2026-10-13T19:02:02.187Z"
     }
   },
-  "last_completed_cycle_at": "2026-11-26T21:20:33Z",
-  "last_successful_cycle_at": "2026-11-26T21:20:33Z",
+  "last_completed_cycle_at": "2026-11-26T22:10:50Z",
+  "last_successful_cycle_at": "2026-11-26T22:10:50Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
     "title": "AI Film — единый монитор",
@@ -361,13 +361,13 @@
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-11-26T21:20:33Z"
+    "robot": "2026-11-26T22:10:50Z"
   },
   "last_successful_cycle_runner": "robot_scheduled_task",
   "last_successful_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-11-26T21:20:33Z"
+    "robot": "2026-11-26T22:10:50Z"
   },
   "previous_primary_automation": {
     "id": "trig_014eEvBooAV2hxx1asRo9snm",
@@ -508,6 +508,6 @@
       "45fb0ba125114ba48b48dd8a129f9015"
     ],
     "escalation_attempted_episode": "5caa3638",
-    "checked_at": "2026-11-26T21:20:33Z"
+    "checked_at": "2026-11-26T22:10:50Z"
   }
 }
