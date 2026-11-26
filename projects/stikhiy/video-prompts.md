@@ -41,7 +41,7 @@
 
 10 отдельных изображений без людей. Кухня, ванная, коридор и палата имеют портретное соотношение сторон, отличное от 9:16: это reference-only входы, не готовые кадры видео; не растягивать. Сама сцена остаётся 9:16. Локации не задают лица или внешность героев.
 
-<div class="scene-ref-gallery"><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.webp" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.webp" alt="Летняя дача — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Летняя дача · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp" alt="Общая комната квартиры — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Общая комната квартиры · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.webp" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.webp" alt="Кухня вечером — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Кухня вечером · 1052×1494 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.webp" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.webp" alt="Ванная — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Ванная · 1055×1491 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.webp" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.webp" alt="Спальня ночью — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Спальня ночью · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.webp" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.webp" alt="Красная площадь зимой — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Красная площадь зимой · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.webp" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.webp" alt="Токарный цех — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Токарный цех · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.webp" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.webp" alt="Больничный коридор — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Больничный коридор · 1049×1499 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp" alt="Больничная палата — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Больничная палата · 1054×1492 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.webp" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.webp" alt="Кладбище, дальний план — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Кладбище, дальний план · 941×1672 · не одобрено</figcaption></figure></div>
+<div class="scene-ref-gallery"><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png" alt="Летняя дача — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Летняя дача · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png" alt="Общая комната квартиры — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Общая комната квартиры · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.png" alt="Кухня вечером — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Кухня вечером · 1052×1494 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.png" alt="Ванная — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Ванная · 1055×1491 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png" alt="Спальня ночью — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Спальня ночью · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png" alt="Красная площадь зимой — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Красная площадь зимой · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.png" alt="Токарный цех — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Токарный цех · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.png" alt="Больничный коридор — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Больничный коридор · 1049×1499 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png" alt="Больничная палата — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Больничная палата · 1054×1492 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.png" alt="Кладбище, дальний план — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Кладбище, дальний план · 941×1672 · не одобрено</figcaption></figure></div>
 
 ### Персонажи сцены 1 — ростовой лист и ракурсы головы
 
@@ -107,7 +107,7 @@ V1 — прежняя ростовая версия. V2 — тот же обра
 
 Картинка ниже — прежняя ИИ-реконструкция: бирюзовая покраска, теплица и кованая беседка **не совпадают** с фото дома. Пока её не перерисуют без людей, геометрию и материалы брать из текстового описания фото, а не из этой картинки как из авторитета. Исходные семейные фото в репозиторий не публикуются: источники владельца, не для публикации.
 
-<div class="scene-ref-gallery"><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.webp" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.webp" alt="Дача и сад · реконструкция по фото · черновик" loading="lazy"></a><figcaption>Дача и сад · реконструкция по фото · черновик</figcaption></figure></div>
+<div class="scene-ref-gallery"><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png" alt="Дача и сад · реконструкция по фото · черновик" loading="lazy"></a><figcaption>Дача и сад · реконструкция по фото · черновик</figcaption></figure></div>
 
 ### Два варианта по количеству роликов
 
@@ -128,9 +128,9 @@ V1 — прежняя ростовая версия. V2 — тот же обра
 <a id="1-B01"></a>
 #### 1-B01 · 30 с · DRAFT
 
-**Локации:** [Летняя дача](projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.webp). Только окружение, не лица.
+**Локации:** [Летняя дача](projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp) · [Пётр](projects/stikhiy/references/scenes/scene-1/S6-Petr.webp) · [Нина](projects/stikhiy/references/scenes/scene-1/S6-Nina.webp) · [Владимир](projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp) · [Дача и сад · реконструкция по фото](projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.webp). Стахию около года: левая колонка листа.
+**Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp) · [Пётр](projects/stikhiy/references/scenes/scene-1/S6-Petr.webp) · [Нина](projects/stikhiy/references/scenes/scene-1/S6-Nina.webp) · [Владимир](projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp) · [Дача и сад · реконструкция по фото](projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png). Стахию около года: левая колонка листа.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
@@ -173,7 +173,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-B02"></a>
 #### 1-B02 · 30 с · DRAFT
 
-**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp). Только окружение, не лица.
+**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png). Только окружение, не лица.
 
 **Дополнительные референсы:** [Анатолий](projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Стахий около года: предварительно левая колонка листа.
 
@@ -218,7 +218,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-B03"></a>
 #### 1-B03 · 30 с · DRAFT
 
-**Локации:** [Красная площадь зимой](projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.webp) · [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp). Только окружение, не лица.
+**Локации:** [Красная площадь зимой](projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png) · [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Ранний возраст Стахия: предварительно левая колонка. Для Шуры есть рабочий лист. У Валерия, Ольги Мазур (девичья фамилия Чечулина) и Виктории нет привязанного лицевого референса: не выдумывать, показать некрупно / спиной / вне фокуса либо убрать из кадра (это не блокер). Юлию не ставить.
 
@@ -264,7 +264,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-B04"></a>
 #### 1-B04 · 30 с · DRAFT
 
-**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp). Только окружение, не лица.
+**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png). Только окружение, не лица.
 
 **Дополнительные референсы:** [Анатолий](projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Дедушка Анатолий; ранний возраст Стахия, точная дата не указана.
 
@@ -309,7 +309,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-B05"></a>
 #### 1-B05 · 30 с · DRAFT
 
-**Локации:** [Токарный цех](projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.webp). Только окружение, не лица.
+**Локации:** [Токарный цех](projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.png). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp). Аркадий до болезни.
 
@@ -354,7 +354,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-B06"></a>
 #### 1-B06 · 30 с · DRAFT
 
-**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp) · [Кухня вечером](projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.webp) · [Ванная](projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.webp) · [Спальня ночью](projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.webp). Только окружение, не лица.
+**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png) · [Кухня вечером](projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.png) · [Ванная](projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.png) · [Спальня ночью](projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Ранний возраст Стахия: предварительно левая колонка.
 
@@ -402,7 +402,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-B07"></a>
 #### 1-B07 · 30 с · DRAFT
 
-**Локации:** [Больничный коридор](projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.webp) · [Больничная палата](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp). Только окружение, не лица.
+**Локации:** [Больничный коридор](projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.png) · [Больничная палата](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Стахию почти два года: средняя колонка.
 
@@ -448,7 +448,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-B08"></a>
 #### 1-B08 · 30 с · DRAFT
 
-**Локации:** [Больничная палата](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp). Только окружение, не лица.
+**Локации:** [Больничная палата](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Для «Зенита» правая колонка Стахия пока ориентир; точный возраст надо уточнить.
 
@@ -493,7 +493,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-B09"></a>
 #### 1-B09 · 30 с · DRAFT
 
-**Локации:** [Кладбище, дальний план](projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.webp). Только окружение, не лица.
+**Локации:** [Кладбище, дальний план](projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.png). Только окружение, не лица.
 
 **Дополнительные референсы:** [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Стахию три года: правая колонка.
 
@@ -538,7 +538,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-B10"></a>
 #### 1-B10 · 30 с · DRAFT
 
-**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp). Только окружение, не лица.
+**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Стахию три года: правая колонка. Фото Аркадия на полке — отдельный источник; 3D-лист не заменяет архивный портрет.
 
@@ -593,9 +593,9 @@ NEGATIVE / FRAME FILL:
 <a id="1-A01"></a>
 #### 1-A01 · 15 с · DRAFT
 
-**Локации:** [Летняя дача](projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.webp). Только окружение, не лица.
+**Локации:** [Летняя дача](projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp) · [Пётр](projects/stikhiy/references/scenes/scene-1/S6-Petr.webp) · [Нина](projects/stikhiy/references/scenes/scene-1/S6-Nina.webp) · [Владимир](projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp) · [Дача и сад · реконструкция по фото](projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.webp). Стахию около года: левая колонка листа.
+**Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp) · [Пётр](projects/stikhiy/references/scenes/scene-1/S6-Petr.webp) · [Нина](projects/stikhiy/references/scenes/scene-1/S6-Nina.webp) · [Владимир](projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp) · [Дача и сад · реконструкция по фото](projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png). Стахию около года: левая колонка листа.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
@@ -638,9 +638,9 @@ NEGATIVE / FRAME FILL:
 <a id="1-A02"></a>
 #### 1-A02 · 15 с · DRAFT
 
-**Локации:** [Летняя дача](projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.webp). Только окружение, не лица.
+**Локации:** [Летняя дача](projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp) · [Пётр](projects/stikhiy/references/scenes/scene-1/S6-Petr.webp) · [Нина](projects/stikhiy/references/scenes/scene-1/S6-Nina.webp) · [Владимир](projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp) · [Дача и сад · реконструкция по фото](projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.webp). Стахию около года: левая колонка листа.
+**Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp) · [Пётр](projects/stikhiy/references/scenes/scene-1/S6-Petr.webp) · [Нина](projects/stikhiy/references/scenes/scene-1/S6-Nina.webp) · [Владимир](projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp) · [Дача и сад · реконструкция по фото](projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png). Стахию около года: левая колонка листа.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
@@ -683,7 +683,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-A03"></a>
 #### 1-A03 · 15 с · DRAFT
 
-**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp). Только окружение, не лица.
+**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png). Только окружение, не лица.
 
 **Дополнительные референсы:** [Анатолий](projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Стахий около года: предварительно левая колонка листа.
 
@@ -728,7 +728,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-A04"></a>
 #### 1-A04 · 15 с · DRAFT
 
-**Локации:** [Красная площадь зимой](projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.webp). Только окружение, не лица.
+**Локации:** [Красная площадь зимой](projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Ранний возраст Стахия: предварительно левая колонка. Для Шуры есть рабочий лист. У Валерия, Ольги Мазур (девичья фамилия Чечулина) и Виктории нет привязанного лицевого референса: не выдумывать, показать некрупно / спиной / вне фокуса либо убрать из кадра (это не блокер). Юлию не ставить.
 
@@ -773,7 +773,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-A05"></a>
 #### 1-A05 · 15 с · DRAFT
 
-**Локации:** [Красная площадь зимой](projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.webp) · [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp). Только окружение, не лица.
+**Локации:** [Красная площадь зимой](projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png) · [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Ранний возраст Стахия: предварительно левая колонка. Для Шуры есть рабочий лист. У Валерия, Ольги Мазур (девичья фамилия Чечулина) и Виктории нет привязанного лицевого референса: не выдумывать, показать некрупно / спиной / вне фокуса либо убрать из кадра (это не блокер). Юлию не ставить.
 
@@ -819,7 +819,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-A06"></a>
 #### 1-A06 · 15 с · DRAFT
 
-**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp). Только окружение, не лица.
+**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png). Только окружение, не лица.
 
 **Дополнительные референсы:** [Анатолий](projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Дедушка Анатолий; ранний возраст Стахия, точная дата не указана.
 
@@ -864,7 +864,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-A07"></a>
 #### 1-A07 · 15 с · DRAFT
 
-**Локации:** [Токарный цех](projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.webp). Только окружение, не лица.
+**Локации:** [Токарный цех](projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.png). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp). Аркадий до болезни.
 
@@ -909,7 +909,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-A08"></a>
 #### 1-A08 · 15 с · DRAFT
 
-**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp) · [Кухня вечером](projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.webp) · [Ванная](projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.webp) · [Спальня ночью](projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.webp). Только окружение, не лица.
+**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png) · [Кухня вечером](projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.png) · [Ванная](projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.png) · [Спальня ночью](projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Ранний возраст Стахия: предварительно левая колонка.
 
@@ -957,7 +957,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-A09"></a>
 #### 1-A09 · 15 с · DRAFT
 
-**Локации:** [Спальня ночью](projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.webp). Только окружение, не лица.
+**Локации:** [Спальня ночью](projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Ранний возраст Стахия: предварительно левая колонка.
 
@@ -1002,7 +1002,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-A10"></a>
 #### 1-A10 · 15 с · DRAFT
 
-**Локации:** [Больничный коридор](projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.webp) · [Больничная палата](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp). Только окружение, не лица.
+**Локации:** [Больничный коридор](projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.png) · [Больничная палата](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Стахию почти два года: средняя колонка.
 
@@ -1048,7 +1048,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-A11"></a>
 #### 1-A11 · 15 с · DRAFT
 
-**Локации:** [Больничная палата](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp). Только окружение, не лица.
+**Локации:** [Больничная палата](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Стахию почти два года: средняя колонка.
 
@@ -1093,7 +1093,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-A12"></a>
 #### 1-A12 · 15 с · DRAFT
 
-**Локации:** [Больничная палата](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp). Только окружение, не лица.
+**Локации:** [Больничная палата](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Для «Зенита» правая колонка Стахия пока ориентир; точный возраст надо уточнить.
 
@@ -1138,7 +1138,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-A13"></a>
 #### 1-A13 · 15 с · DRAFT
 
-**Локации:** [Больничная палата](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp). Только окружение, не лица.
+**Локации:** [Больничная палата](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Для «Зенита» правая колонка Стахия пока ориентир; точный возраст надо уточнить.
 
@@ -1183,7 +1183,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-A14"></a>
 #### 1-A14 · 15 с · DRAFT
 
-**Локации:** [Кладбище, дальний план](projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.webp). Только окружение, не лица.
+**Локации:** [Кладбище, дальний план](projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.png). Только окружение, не лица.
 
 **Дополнительные референсы:** [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Стахию три года: правая колонка.
 
@@ -1228,7 +1228,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-A15"></a>
 #### 1-A15 · 15 с · DRAFT
 
-**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp). Только окружение, не лица.
+**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Стахию три года: правая колонка. Фото Аркадия на полке — отдельный источник; 3D-лист не заменяет архивный портрет.
 
@@ -1305,7 +1305,7 @@ NEGATIVE / FRAME FILL:
 
 **Время в фильме:** 00:00–00:15 · в монтаж 15 с · **Эпизод:** 01 Лето · **Лето на даче: ягодка**
 
-**Рефы:** `<IMAGE_0>` [S6-LOC01-dacha-v3](projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.webp) · `<IMAGE_1>` [S6-LOC-dacha-shower](projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.webp) · `<IMAGE_2>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_3>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_4>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_5>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_6>` [S6-Stakhiy-age-1-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp)
+**Рефы:** `<IMAGE_0>` [S6-LOC01-dacha-v3](projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png) · `<IMAGE_1>` [S6-LOC-dacha-shower](projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png) · `<IMAGE_2>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_3>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_4>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_5>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_6>` [S6-Stakhiy-age-1-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp)
 
 ```text
 Лето на даче: ягодка — Stakhiy, scene 1, film time 00:00–00:15. Mode: reference-to-video. Duration 15 s render, used 15 s from the start. 720p, 9:16, 24 fps. Native audio ON.
@@ -1330,7 +1330,7 @@ END / NOTES: End with the family still on the bench, same light, ready to contin
 
 **Время в фильме:** 00:15–00:23 · в монтаж 8 с · **Эпизод:** 01 Лето · **Лето на даче: родные в саду**
 
-**Рефы:** `<IMAGE_0>` [S6-LOC-dacha-shower](projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.webp) · `<IMAGE_1>` [S6-LOC01-dacha-v3](projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.webp) · `<IMAGE_2>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_3>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_4>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_5>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_6>` [S6-Stakhiy-age-1-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp) · `<IMAGE_7>` [S6-Petr-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Petr-Head-V2.webp) · `<IMAGE_8>` [S6-Nina-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nina-Head-V2.webp) · `<IMAGE_9>` [S6-Vladimir-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Vladimir-Head-V2.webp)
+**Рефы:** `<IMAGE_0>` [S6-LOC-dacha-shower](projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png) · `<IMAGE_1>` [S6-LOC01-dacha-v3](projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png) · `<IMAGE_2>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_3>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_4>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_5>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_6>` [S6-Stakhiy-age-1-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp) · `<IMAGE_7>` [S6-Petr-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Petr-Head-V2.webp) · `<IMAGE_8>` [S6-Nina-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nina-Head-V2.webp) · `<IMAGE_9>` [S6-Vladimir-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Vladimir-Head-V2.webp)
 
 ```text
 Лето на даче: родные в саду — Stakhiy, scene 1, film time 00:15–00:23. Mode: reference-to-video. Duration 15 s render, used 8 s from the start. 720p, 9:16, 24 fps. Native audio ON.
@@ -1355,7 +1355,7 @@ END / NOTES: After the lines a calm hold of the family in the yard; nothing dram
 
 **Время в фильме:** 00:23–00:38 · в монтаж 15 с · **Эпизод:** 02 Вата · **Дедушка и сладкая вата**
 
-**Рефы:** `<IMAGE_0>` [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp) · `<IMAGE_1>` [S6-Anatoly](projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp) · `<IMAGE_2>` [S6-Anatoly-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2.webp) · `<IMAGE_3>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_4>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_5>` [S6-Stakhiy-age-1-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp)
+**Рефы:** `<IMAGE_0>` [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png) · `<IMAGE_1>` [S6-Anatoly](projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp) · `<IMAGE_2>` [S6-Anatoly-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2.webp) · `<IMAGE_3>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_4>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_5>` [S6-Stakhiy-age-1-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp)
 
 ```text
 Дедушка и сладкая вата — Stakhiy, scene 1, film time 00:23–00:38. Mode: reference-to-video. Duration 15 s render, used 15 s from the start. 720p, 9:16, 24 fps. Native audio ON.
@@ -1380,7 +1380,7 @@ END / NOTES: End on the kraft paper in Anatoly's hand and the boy's happy face.
 
 **Время в фильме:** 00:38–00:50 · в монтаж 12 с · **Эпизод:** 03 Мечта · **Мечта: Красная площадь**
 
-**Рефы:** `<IMAGE_0>` [S6-LOC06-red-square](projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.webp) · `<IMAGE_1>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_2>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_3>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_4>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_5>` [S6-Stakhiy-age-1-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp)
+**Рефы:** `<IMAGE_0>` [S6-LOC06-red-square](projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png) · `<IMAGE_1>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_2>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_3>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_4>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_5>` [S6-Stakhiy-age-1-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp)
 
 ```text
 Мечта: Красная площадь — Stakhiy, scene 1, film time 00:38–00:50. Mode: reference-to-video. Duration 15 s render, used 12 s from the start. 720p, 9:16, 24 fps. Native audio ON.
@@ -1405,7 +1405,7 @@ END / NOTES: End as he finishes and waits for her answer.
 
 **Время в фильме:** 00:50–01:02 · в монтаж 12 с · **Эпизод:** 03 Мечта · **Мечта: ответ и тесная квартира**
 
-**Рефы:** `<IMAGE_0>` [S6-LOC06-red-square](projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.webp) · `<IMAGE_1>` [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp) · `<IMAGE_2>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_3>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_4>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_5>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_6>` [S6-Stakhiy-age-1-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp) · `<IMAGE_7>` [S6-Shura-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Shura-Head-V2.webp)
+**Рефы:** `<IMAGE_0>` [S6-LOC06-red-square](projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png) · `<IMAGE_1>` [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png) · `<IMAGE_2>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_3>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_4>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_5>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_6>` [S6-Stakhiy-age-1-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp) · `<IMAGE_7>` [S6-Shura-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Shura-Head-V2.webp)
 
 ```text
 Мечта: ответ и тесная квартира — Stakhiy, scene 1, film time 00:50–01:02. Mode: reference-to-video. Duration 15 s render, used 12 s from the start. 720p, 9:16, 24 fps. Native audio ON.
@@ -1430,7 +1430,7 @@ END / NOTES: End inside the cramped apartment: the dream of an own room is not y
 
 **Время в фильме:** 01:02–01:17 · в монтаж 15 с · **Эпизод:** 04 Утрата · **Смерть дедушки Анатолия**
 
-**Рефы:** `<IMAGE_0>` [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp) · `<IMAGE_1>` [S6-Anatoly](projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp) · `<IMAGE_2>` [S6-Anatoly-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2.webp) · `<IMAGE_3>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_4>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_5>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_6>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_7>` [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp)
+**Рефы:** `<IMAGE_0>` [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png) · `<IMAGE_1>` [S6-Anatoly](projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp) · `<IMAGE_2>` [S6-Anatoly-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2.webp) · `<IMAGE_3>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_4>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_5>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_6>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_7>` [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp)
 
 ```text
 Смерть дедушки Анатолия — Stakhiy, scene 1, film time 01:02–01:17. Mode: reference-to-video. Duration 15 s render, used 15 s from the start. 720p, 9:16, 24 fps. Native audio ON.
@@ -1455,7 +1455,7 @@ END / NOTES: End on the empty armchair and the motionless kraft paper; absence i
 
 **Время в фильме:** 01:17–01:32 · в монтаж 15 с · **Эпизод:** 05 Кашель · **Цех АЗЛК: первый кашель**
 
-**Рефы:** `<IMAGE_0>` [S6-LOC07-azlk](projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.webp) · `<IMAGE_1>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_2>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp)
+**Рефы:** `<IMAGE_0>` [S6-LOC07-azlk](projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.png) · `<IMAGE_1>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_2>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp)
 
 ```text
 Цех АЗЛК: первый кашель — Stakhiy, scene 1, film time 01:17–01:32. Mode: reference-to-video. Duration 15 s render, used 15 s from the start. 720p, 9:16, 24 fps. Native audio ON.
@@ -1480,7 +1480,7 @@ END / NOTES: End on Arkady back at the lathe; a faint residual cough can bridge 
 
 **Время в фильме:** 01:32–01:47 · в монтаж 15 с · **Эпизод:** 06 Ночь · **06a · Вечер дома**
 
-**Рефы:** `<IMAGE_0>` [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp) · `<IMAGE_1>` [S6-LOC03-kitchen](projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.webp) · `<IMAGE_2>` [S6-LOC04-bathroom](projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.webp) · `<IMAGE_3>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_4>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_5>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_6>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_7>` [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp)
+**Рефы:** `<IMAGE_0>` [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png) · `<IMAGE_1>` [S6-LOC03-kitchen](projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.png) · `<IMAGE_2>` [S6-LOC04-bathroom](projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.png) · `<IMAGE_3>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_4>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_5>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_6>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_7>` [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp)
 
 ```text
 06a · Вечер дома — Stakhiy, scene 1, film time 01:32–01:47. Mode: reference-to-video. Duration 15 s render, used 15 s from the start. 720p, 9:16, 24 fps. Native audio ON.
@@ -1505,7 +1505,7 @@ END / NOTES: End on the silent razor by the mirror.
 
 **Время в фильме:** 01:47–02:02 · в монтаж 15 с · **Эпизод:** 06 Ночь · **06b · Ночной разговор 1**
 
-**Рефы:** `<IMAGE_0>` [S6-LOC05-bedroom](projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.webp) · `<IMAGE_1>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_2>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_3>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_4>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_5>` [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp)
+**Рефы:** `<IMAGE_0>` [S6-LOC05-bedroom](projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png) · `<IMAGE_1>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_2>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_3>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_4>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_5>` [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp)
 
 ```text
 06b · Ночной разговор 1 — Stakhiy, scene 1, film time 01:47–02:02. Mode: reference-to-video. Duration 15 s render, used 15 s from the start. 720p, 9:16, 24 fps. Native audio ON.
@@ -1530,7 +1530,7 @@ END / NOTES: End on her attentive look. No blood, no subtitles, no music.
 
 **Время в фильме:** 02:02–02:17 · в монтаж 15 с · **Эпизод:** 06 Ночь · **06c · Ночной разговор 2**
 
-**Рефы:** `<IMAGE_0>` [S6-LOC05-bedroom](projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.webp) · `<IMAGE_1>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_2>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_3>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_4>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_5>` [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp)
+**Рефы:** `<IMAGE_0>` [S6-LOC05-bedroom](projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png) · `<IMAGE_1>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_2>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_3>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_4>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_5>` [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp)
 
 ```text
 06c · Ночной разговор 2 — Stakhiy, scene 1, film time 02:02–02:17. Mode: reference-to-video. Duration 15 s render, used 15 s from the start. 720p, 9:16, 24 fps. Native audio ON.
@@ -1555,7 +1555,7 @@ END / NOTES: End just before her answer. No new people, no symptoms in close-up,
 
 **Время в фильме:** 02:17–02:32 · в монтаж 15 с · **Эпизод:** 06 Ночь · **06d · «Не откладывай»**
 
-**Рефы:** `<IMAGE_0>` [S6-LOC05-bedroom](projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.webp) · `<IMAGE_1>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_2>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_3>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_4>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_5>` [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp)
+**Рефы:** `<IMAGE_0>` [S6-LOC05-bedroom](projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png) · `<IMAGE_1>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_2>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_3>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_4>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_5>` [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp)
 
 ```text
 06d · «Не откладывай» — Stakhiy, scene 1, film time 02:17–02:32. Mode: reference-to-video. Duration 15 s render, used 15 s from the start. 720p, 9:16, 24 fps. Native audio ON.
@@ -1580,7 +1580,7 @@ END / NOTES: End on the sleeping boy.
 
 **Время в фильме:** 02:32–02:42 · в монтаж 10 с · **Эпизод:** 07 Год надежды · **Больница: «Идём к папе»**
 
-**Рефы:** `<IMAGE_0>` [S6-LOC08-hospital-corridor](projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.webp) · `<IMAGE_1>` [S6-LOC09-hospital-room](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp) · `<IMAGE_2>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_3>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_4>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_5>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_6>` [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp)
+**Рефы:** `<IMAGE_0>` [S6-LOC08-hospital-corridor](projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.png) · `<IMAGE_1>` [S6-LOC09-hospital-room](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png) · `<IMAGE_2>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_3>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_4>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_5>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_6>` [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp)
 
 ```text
 Больница: «Идём к папе» — Stakhiy, scene 1, film time 02:32–02:42. Mode: reference-to-video. Duration 15 s render, used 10 s from the start. 720p, 9:16, 24 fps. Native audio ON.
@@ -1605,7 +1605,7 @@ END / NOTES: The adult Stakhiy voice-over is an off-screen calm warm male voice 
 
 **Время в фильме:** 02:42–02:52 · в монтаж 10 с · **Эпизод:** 07 Год надежды · **Больница: лечение**
 
-**Рефы:** `<IMAGE_0>` [S6-LOC09-hospital-room](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp) · `<IMAGE_1>` [S6-LOC08-hospital-corridor](projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.webp) · `<IMAGE_2>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_3>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_4>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_5>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_6>` [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp)
+**Рефы:** `<IMAGE_0>` [S6-LOC09-hospital-room](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png) · `<IMAGE_1>` [S6-LOC08-hospital-corridor](projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.png) · `<IMAGE_2>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_3>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_4>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_5>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_6>` [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp)
 
 ```text
 Больница: лечение — Stakhiy, scene 1, film time 02:42–02:52. Mode: reference-to-video. Duration 15 s render, used 10 s from the start. 720p, 9:16, 24 fps. Native audio ON.
@@ -1630,7 +1630,7 @@ END / NOTES: The adult Stakhiy voice-over is an off-screen calm warm male voice 
 
 **Время в фильме:** 02:52–03:06 · в монтаж 14 с · **Эпизод:** 08 Зенит · **08a · «Ты мало мяса ел»**
 
-**Рефы:** `<IMAGE_0>` [S6-LOC09-hospital-room](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp) · `<IMAGE_1>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_2>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_3>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_4>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_5>` [S6-Stakhiy-age-3-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp)
+**Рефы:** `<IMAGE_0>` [S6-LOC09-hospital-room](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png) · `<IMAGE_1>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_2>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_3>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_4>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_5>` [S6-Stakhiy-age-3-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp)
 
 ```text
 08a · «Ты мало мяса ел» — Stakhiy, scene 1, film time 02:52–03:06. Mode: reference-to-video. Duration 15 s render, used 14 s from the start. 720p, 9:16, 24 fps. Native audio ON.
@@ -1655,7 +1655,7 @@ END / NOTES: These are a child's words, not a diagnosis. The box stays closed. N
 
 **Время в фильме:** 03:06–03:18 · в монтаж 12 с · **Эпизод:** 08 Зенит · **08b · Подарок**
 
-**Рефы:** `<IMAGE_0>` [S6-LOC09-hospital-room](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp) · `<IMAGE_1>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_2>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_3>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_4>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_5>` [S6-Stakhiy-age-3-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp)
+**Рефы:** `<IMAGE_0>` [S6-LOC09-hospital-room](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png) · `<IMAGE_1>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_2>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_3>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_4>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_5>` [S6-Stakhiy-age-3-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp)
 
 ```text
 08b · Подарок — Stakhiy, scene 1, film time 03:06–03:18. Mode: reference-to-video. Duration 15 s render, used 12 s from the start. 720p, 9:16, 24 fps. Native audio ON.
@@ -1680,7 +1680,7 @@ END / NOTES: The camera is not yet handed over.
 
 **Время в фильме:** 03:18–03:28 · в монтаж 10 с · **Эпизод:** 08 Зенит · **08c · «Ради такого фотоаппарата»**
 
-**Рефы:** `<IMAGE_0>` [S6-LOC09-hospital-room](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp) · `<IMAGE_1>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_2>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_3>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_4>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_5>` [S6-Stakhiy-age-3-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp)
+**Рефы:** `<IMAGE_0>` [S6-LOC09-hospital-room](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png) · `<IMAGE_1>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_2>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_3>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_4>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_5>` [S6-Stakhiy-age-3-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp)
 
 ```text
 08c · «Ради такого фотоаппарата» — Stakhiy, scene 1, film time 03:18–03:28. Mode: reference-to-video. Duration 15 s render, used 10 s from the start. 720p, 9:16, 24 fps. Native audio ON.
@@ -1705,7 +1705,7 @@ END / NOTES: No second click, no other camera, no music.
 
 **Время в фильме:** 03:28–03:37 · в монтаж 9 с · **Эпизод:** 09 Тишина · **Тишина: похороны**
 
-**Рефы:** `<IMAGE_0>` [S6-LOC10-cemetery](projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.webp) · `<IMAGE_1>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_2>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_3>` [S6-Stakhiy-age-3-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp)
+**Рефы:** `<IMAGE_0>` [S6-LOC10-cemetery](projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.png) · `<IMAGE_1>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_2>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_3>` [S6-Stakhiy-age-3-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp)
 
 ```text
 Тишина: похороны — Stakhiy, scene 1, film time 03:28–03:37. Mode: reference-to-video. Duration 15 s render, used 9 s from the start. 720p, 9:16, 24 fps. Native audio ON.
@@ -1730,7 +1730,7 @@ END / NOTES: The adult Stakhiy voice-over is an off-screen calm warm male voice 
 
 **Время в фильме:** 03:37–03:52 · в монтаж 15 с · **Эпизод:** 10 Полка · **Полка: тот же «Зенит»**
 
-**Рефы:** `<IMAGE_0>` [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp) · `<IMAGE_1>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_2>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_3>` [S6-Stakhiy-age-3-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp)
+**Рефы:** `<IMAGE_0>` [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png) · `<IMAGE_1>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_2>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_3>` [S6-Stakhiy-age-3-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp)
 
 ```text
 Полка: тот же «Зенит» — Stakhiy, scene 1, film time 03:37–03:52. Mode: reference-to-video. Duration 15 s render, used 15 s from the start. 720p, 9:16, 24 fps. Native audio ON.
@@ -1771,7 +1771,7 @@ END / NOTES: The adult Stakhiy voice-over is an off-screen calm warm male voice 
 <a id="1-W01"></a>
 #### 1-W01 · 30 с · READY · Wan 3.0
 
-**Входы:** @Image1 [S6-LOC01-dacha-v3](projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.webp) · @Image2 [S6-LOC-dacha-shower](projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.webp) · @Image3 [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · @Image4 [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · @Image5 [S6-Stakhiy-age-1-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp) · @Image6 [S6-Petr-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Petr-Head-V2.webp) · @Image7 [S6-Nina-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nina-Head-V2.webp) · @Image8 [S6-Vladimir-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Vladimir-Head-V2.webp)
+**Входы:** @Image1 [S6-LOC01-dacha-v3](projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png) · @Image2 [S6-LOC-dacha-shower](projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png) · @Image3 [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · @Image4 [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · @Image5 [S6-Stakhiy-age-1-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp) · @Image6 [S6-Petr-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Petr-Head-V2.webp) · @Image7 [S6-Nina-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nina-Head-V2.webp) · @Image8 [S6-Vladimir-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Vladimir-Head-V2.webp)
 
 ```text
 Stakhiy, scene 1, Wan 3.0 part 1-W01 (1-G01, 1-G02). Mode: omni reference. 30 s, 720p, 9:16. Native audio ON. Story content lasts 23 s; join segments by one clear straight cut; after the last segment a calm hold.
@@ -1796,7 +1796,7 @@ AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken
 <a id="1-W02"></a>
 #### 1-W02 · 30 с · READY · Wan 3.0
 
-**Входы:** @Image1 [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp) · @Image2 [S6-Anatoly](projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp) · @Image3 [S6-Anatoly-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2.webp) · @Image4 [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · @Image5 [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · @Image6 [S6-Stakhiy-age-1-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp)
+**Входы:** @Image1 [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png) · @Image2 [S6-Anatoly](projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp) · @Image3 [S6-Anatoly-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2.webp) · @Image4 [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · @Image5 [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · @Image6 [S6-Stakhiy-age-1-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp)
 
 ```text
 Stakhiy, scene 1, Wan 3.0 part 1-W02 (1-G03). Mode: omni reference. 30 s, 720p, 9:16. Native audio ON. Story content lasts 15 s; join segments by one clear straight cut; after the last segment a calm hold.
@@ -1816,7 +1816,7 @@ AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken
 <a id="1-W03"></a>
 #### 1-W03 · 30 с · READY · Wan 3.0
 
-**Входы:** @Image1 [S6-LOC06-red-square](projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.webp) · @Image2 [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · @Image3 [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · @Image4 [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · @Image5 [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · @Image6 [S6-Stakhiy-age-1-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp) · @Image7 [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp) · @Image8 [S6-Shura-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Shura-Head-V2.webp)
+**Входы:** @Image1 [S6-LOC06-red-square](projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png) · @Image2 [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · @Image3 [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · @Image4 [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · @Image5 [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · @Image6 [S6-Stakhiy-age-1-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp) · @Image7 [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png) · @Image8 [S6-Shura-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Shura-Head-V2.webp)
 
 ```text
 Stakhiy, scene 1, Wan 3.0 part 1-W03 (1-G04, 1-G05). Mode: omni reference. 30 s, 720p, 9:16. Native audio ON. Story content lasts 24 s; join segments by one clear straight cut; after the last segment a calm hold.
@@ -1841,7 +1841,7 @@ AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken
 <a id="1-W04"></a>
 #### 1-W04 · 30 с · READY · Wan 3.0
 
-**Входы:** @Image1 [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp) · @Image2 [S6-Anatoly](projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp) · @Image3 [S6-Anatoly-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2.webp) · @Image4 [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · @Image5 [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · @Image6 [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · @Image7 [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · @Image8 [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp) · @Image9 [S6-LOC07-azlk](projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.webp)
+**Входы:** @Image1 [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png) · @Image2 [S6-Anatoly](projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp) · @Image3 [S6-Anatoly-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2.webp) · @Image4 [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · @Image5 [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · @Image6 [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · @Image7 [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · @Image8 [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp) · @Image9 [S6-LOC07-azlk](projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.png)
 
 ```text
 Stakhiy, scene 1, Wan 3.0 part 1-W04 (1-G06, 1-G07). Mode: omni reference. 30 s, 720p, 9:16. Native audio ON. Story content lasts 30 s; join segments by one clear straight cut; after the last segment a calm hold.
@@ -1866,7 +1866,7 @@ AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken
 <a id="1-W05"></a>
 #### 1-W05 · 30 с · READY · Wan 3.0
 
-**Входы:** @Image1 [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp) · @Image2 [S6-LOC03-kitchen](projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.webp) · @Image3 [S6-LOC04-bathroom](projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.webp) · @Image4 [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · @Image5 [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · @Image6 [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · @Image7 [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · @Image8 [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp) · @Image9 [S6-LOC05-bedroom](projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.webp)
+**Входы:** @Image1 [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png) · @Image2 [S6-LOC03-kitchen](projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.png) · @Image3 [S6-LOC04-bathroom](projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.png) · @Image4 [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · @Image5 [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · @Image6 [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · @Image7 [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · @Image8 [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp) · @Image9 [S6-LOC05-bedroom](projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png)
 
 ```text
 Stakhiy, scene 1, Wan 3.0 part 1-W05 (1-G08, 1-G09). Mode: omni reference. 30 s, 720p, 9:16. Native audio ON. Story content lasts 30 s; join segments by one clear straight cut; after the last segment a calm hold.
@@ -1891,7 +1891,7 @@ AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken
 <a id="1-W06"></a>
 #### 1-W06 · 30 с · READY · Wan 3.0
 
-**Входы:** @Image1 [S6-LOC05-bedroom](projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.webp) · @Image2 [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · @Image3 [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · @Image4 [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · @Image5 [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · @Image6 [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp)
+**Входы:** @Image1 [S6-LOC05-bedroom](projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png) · @Image2 [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · @Image3 [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · @Image4 [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · @Image5 [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · @Image6 [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp)
 
 ```text
 Stakhiy, scene 1, Wan 3.0 part 1-W06 (1-G10, 1-G11). Mode: omni reference. 30 s, 720p, 9:16. Native audio ON. Story content lasts 30 s; join segments by one clear straight cut; after the last segment a calm hold.
@@ -1916,7 +1916,7 @@ AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken
 <a id="1-W07"></a>
 #### 1-W07 · 30 с · READY · Wan 3.0
 
-**Входы:** @Image1 [S6-LOC08-hospital-corridor](projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.webp) · @Image2 [S6-LOC09-hospital-room](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp) · @Image3 [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · @Image4 [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · @Image5 [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · @Image6 [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · @Image7 [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp)
+**Входы:** @Image1 [S6-LOC08-hospital-corridor](projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.png) · @Image2 [S6-LOC09-hospital-room](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png) · @Image3 [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · @Image4 [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · @Image5 [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · @Image6 [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · @Image7 [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp)
 
 ```text
 Stakhiy, scene 1, Wan 3.0 part 1-W07 (1-G12, 1-G13). Mode: omni reference. 30 s, 720p, 9:16. Native audio ON. Story content lasts 20 s; join segments by one clear straight cut; after the last segment a calm hold.
@@ -1941,7 +1941,7 @@ AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken
 <a id="1-W08"></a>
 #### 1-W08 · 30 с · READY · Wan 3.0
 
-**Входы:** @Image1 [S6-LOC09-hospital-room](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp) · @Image2 [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · @Image3 [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · @Image4 [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · @Image5 [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · @Image6 [S6-Stakhiy-age-3-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp)
+**Входы:** @Image1 [S6-LOC09-hospital-room](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png) · @Image2 [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · @Image3 [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · @Image4 [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · @Image5 [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · @Image6 [S6-Stakhiy-age-3-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp)
 
 ```text
 Stakhiy, scene 1, Wan 3.0 part 1-W08 (1-G14, 1-G15). Mode: omni reference. 30 s, 720p, 9:16. Native audio ON. Story content lasts 26 s; join segments by one clear straight cut; after the last segment a calm hold.
@@ -1966,7 +1966,7 @@ AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken
 <a id="1-W09"></a>
 #### 1-W09 · 30 с · READY · Wan 3.0
 
-**Входы:** @Image1 [S6-LOC09-hospital-room](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp) · @Image2 [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · @Image3 [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · @Image4 [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · @Image5 [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · @Image6 [S6-Stakhiy-age-3-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp) · @Image7 [S6-LOC10-cemetery](projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.webp)
+**Входы:** @Image1 [S6-LOC09-hospital-room](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png) · @Image2 [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · @Image3 [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · @Image4 [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · @Image5 [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · @Image6 [S6-Stakhiy-age-3-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp) · @Image7 [S6-LOC10-cemetery](projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.png)
 
 ```text
 Stakhiy, scene 1, Wan 3.0 part 1-W09 (1-G16, 1-G17). Mode: omni reference. 30 s, 720p, 9:16. Native audio ON. Story content lasts 19 s; join segments by one clear straight cut; after the last segment a calm hold.
@@ -1991,7 +1991,7 @@ AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken
 <a id="1-W10"></a>
 #### 1-W10 · 30 с · READY · Wan 3.0
 
-**Входы:** @Image1 [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp) · @Image2 [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · @Image3 [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · @Image4 [S6-Stakhiy-age-3-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp)
+**Входы:** @Image1 [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png) · @Image2 [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · @Image3 [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · @Image4 [S6-Stakhiy-age-3-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp)
 
 ```text
 Stakhiy, scene 1, Wan 3.0 part 1-W10 (1-G18). Mode: omni reference. 30 s, 720p, 9:16. Native audio ON. Story content lasts 15 s; join segments by one clear straight cut; after the last segment a calm hold.

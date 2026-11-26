@@ -26,12 +26,18 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.wr
 <h2 class="scenehead" id="assets-head" hidden>Корабли, места, предметы</h2><div id="assets"></div>
 <h2 class="scenehead" id="scene-refs">Картинки сцен</h2><div class="sub" id="sceneRefsSub">Референсы и стартовые кадры активных сцен. В режиме владельца (пароль вводится на главной странице) у каждой картинки есть «✓ подходит» и «✎ перерисовать»: перерисовка с вашим комментарием сразу становится задачей ChatGPT.</div><div id="sceneRefs"></div>
 </main>
-<div id="lightbox" class="lightbox" aria-hidden="true"><button id="lightboxClose" class="lightbox-close" aria-label="Закрыть">×</button><img id="lightboxImage" alt="Полноразмерный model sheet"></div>
+<div id="lightbox" class="lightbox" aria-hidden="true"><button id="lightboxClose" class="lightbox-close" aria-label="Закрыть">×</button><img id="lightboxImage" alt="Полноразмерный оригинал"></div>
 <script>
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let reg=null;
-function openLightbox(src,alt){
+// The lightbox opens the full-size original. Heavy PNG/JPEG stills are not in the Pages artifact
+// (scripts/pages_publish.py), so they open from the public repository; the preview is the fallback.
+const FULL_RAW_BASE='https://raw.githubusercontent.com/virudik/ai-film-prompts/main/';
+function heavyStillPath(u){if(!u||/^[a-z][a-z0-9+.-]*:|^\/\/|^#/i.test(u))return '';const p=u.split('#')[0].split('?')[0].replace(/^\.\//,'');if(!/\.(png|jpe?g)$/i.test(p)||/(^|\/)(thumbs|previews)\//.test(p))return '';return (/^(references|archive)\//.test(p)||/\/references\//.test(p))?p:''}
+function fullOriginalUrl(u){const p=heavyStillPath(u);return p?FULL_RAW_BASE+p.split('/').map(s=>encodeURIComponent(decodeURIComponent(s))).join('/'):u}
+function openLightbox(src,alt,fallback){
  const box=document.getElementById('lightbox'),img=document.getElementById('lightboxImage');
+ img.onerror=fallback&&fallback!==src?()=>{img.onerror=null;img.src=fallback}:null;
  img.src=src;img.alt=alt||'Model sheet';box.classList.add('open');box.setAttribute('aria-hidden','false');
 }
 function closeLightbox(){const box=document.getElementById('lightbox');box.classList.remove('open');box.setAttribute('aria-hidden','true')}
@@ -43,12 +49,12 @@ function render(){
  const q=document.getElementById('q').value.trim().toLowerCase();
  const chars=(reg?.characters||[]).filter(ch=>JSON.stringify(ch).toLowerCase().includes(q));
  document.getElementById('grid').innerHTML=chars.length?chars.map(ch=>{
-  const p=ch.preview||{},src=ch.model_sheet?.full_image||ch.model_sheet?.public_image||p.url||'',shown=(thumbs&&thumbs[src]&&thumbs[src].thumb)||src,img=src?'<img class="zoomable" src="'+esc(shown)+'" data-full="'+esc(shown)+'" data-orig="'+esc(src)+'" alt="'+esc(ch.name)+'" title="Открыть превью" loading="lazy" decoding="async">':'Фото пока не подтверждено';
+  const p=ch.preview||{},src=ch.model_sheet?.full_image||ch.model_sheet?.public_image||p.url||'',shown=(thumbs&&thumbs[src]&&thumbs[src].thumb)||src,img=src?'<img class="zoomable" src="'+esc(shown)+'" data-full="'+esc(shown)+'" data-orig="'+esc(src)+'" alt="'+esc(ch.name)+'" title="Открыть оригинал" loading="lazy" decoding="async">':'Фото пока не подтверждено';
   const gallery=(window.AIFP?.id==='stikhiy' && Array.isArray(ch.model_sheet?.gallery))?ch.model_sheet.gallery:[];
   const galleryHtml=gallery.length?'<div class="character-sheet-pairs">'+gallery.map(im=>{
     const original=im.path, preview=(thumbs&&thumbs[original]&&thumbs[original].thumb)||original;
     const cap=im.caption||ch.name;
-    return '<figure><img class="zoomable" src="'+esc(preview)+'" data-full="'+esc(preview)+'" data-orig="'+esc(original)+'" alt="'+esc(cap)+'" title="Открыть превью" loading="lazy" decoding="async"><figcaption>'+esc(cap)+'</figcaption></figure>';
+    return '<figure><img class="zoomable" src="'+esc(preview)+'" data-full="'+esc(preview)+'" data-orig="'+esc(original)+'" alt="'+esc(cap)+'" title="Открыть оригинал" loading="lazy" decoding="async"><figcaption>'+esc(cap)+'</figcaption></figure>';
   }).join('')+'</div>':'';
   const sceneList=ch.scenes||[],scenes=sceneList.map(id=>'<a class="scene" href="index.html#scene-'+id+'">Сцена '+id+'</a>').join('');
   const add=(ch.model_sheet?.additional||[]).length?' + '+ch.model_sheet.additional.join(', '):'';
@@ -56,7 +62,7 @@ function render(){
   return '<article class="card"><div>'+(galleryHtml||'<div class="photo">'+img+'</div>')+'</div><div><div class="name">'+esc(ch.name)+'</div>'+((ch.aliases||[]).length?'<div class="alias">'+((ch.relationship||(window.AIFP&&window.AIFP.id==='stikhiy'))?'Также: ':'Технические имена: ')+esc((ch.aliases||[]).join(' · '))+'</div>':'')+(ch.relationship?'<div class="role">'+esc(ch.relationship)+'</div>':'')+(sceneList.length?'<div class="scenes">'+scenes+'</div>':'<span class="unassigned">Пока не привязана к активной сцене</span>')+(ch.blocker?'<span class="blocker">блокер: '+esc(ch.blocker)+'</span>':'')+'<div class="row"><b>Основной референс:</b> '+esc(ch.model_sheet?.primary||'—')+esc(add)+'</div><div class="row"><b>Одежда / образ:</b> '+esc(ch.outfit_variant||'—')+'</div>'+(variants?'<div class="variants"><b>'+ (gallery.length?'Варианты внешности':'Сценические варианты') +'</b>'+variants+'</div>':'')+'</div></article>';
  }).join(''):'<div class="empty">Ничего не найдено.</div>';
  renderAssets(q);
- document.querySelectorAll('.zoomable').forEach(img=>{img.addEventListener('click',()=>openLightbox(img.dataset.full||img.src,img.alt));img.addEventListener('error',()=>{if(img.dataset.orig&&img.getAttribute('src')!==img.dataset.orig)img.src=img.dataset.orig},{once:true})});
+ document.querySelectorAll('.zoomable').forEach(img=>{img.addEventListener('click',()=>openLightbox(fullOriginalUrl(img.dataset.orig)||img.dataset.full||img.src,img.alt,img.dataset.full||img.src));img.addEventListener('error',()=>{if(img.dataset.orig&&img.getAttribute('src')!==img.dataset.orig)img.src=img.dataset.orig},{once:true})});
  const rules=reg?.non_character_reference_rules||[];
  document.getElementById('rules').innerHTML='<b>Правило референсов:</b> '+esc(rules.join(' · '));
  const fam=reg&&reg.family,fbox=document.getElementById('family');
@@ -91,7 +97,7 @@ function renderScenes(){const el=document.getElementById('sceneRefs');if(!el)ret
  Object.keys(THUMBS).forEach(p=>{const m=p.match(SCENE_DIR);if(!m)return;const sid=Number(m[1]);if(active.size&&!active.has(sid))return;if(!by.has(sid))by.set(sid,[]);by.get(sid).push(p)});
  const sids=[...by.keys()].sort((a,b)=>a-b);
  el.innerHTML=sids.length?sids.map(sid=>'<div class="scenehead" style="font-size:15px"><a href="index.html#scene-'+sid+'">Сцена '+sid+'</a></div><div class="scenegrid">'+by.get(sid).sort().map(p=>{const shown=THUMBS[p].thumb||p;return '<div class="sceneref"><img class="zoomable-scene" src="'+esc(shown)+'" data-full="'+esc(shown)+'" alt="'+esc(p)+'" loading="lazy" decoding="async"><div class="fn">'+esc(p.split('/').pop())+'</div>'+box(p,sid)+'</div>'}).join('')+'</div>').join(''):'<div class="empty">Картинок сцен пока нет.</div>';
- el.querySelectorAll('.zoomable-scene').forEach(img=>img.addEventListener('click',()=>openLightbox(img.dataset.full,img.alt)))}
+ el.querySelectorAll('.zoomable-scene').forEach(img=>img.addEventListener('click',()=>openLightbox(fullOriginalUrl(img.alt)||img.dataset.full,img.alt,img.dataset.full)))}
 document.addEventListener('click',e=>{const b=e.target.closest('button[data-ref]');if(!b)return;const w=b.closest('.refbtns');const path=w.dataset.path,sid=Number(w.dataset.sid)||null;
  if(b.dataset.ref==='form'){w.querySelector('.refform').classList.toggle('open');return}
  const send=(value,note,done)=>{b.disabled=true;call({value,note,scene_id:sid}).then(()=>{toast(value==='ok'?'Записано: подходит':'Записано: перерисовать. Задача уйдёт ChatGPT в ближайшие 10 минут');done&&done()}).catch(err=>toast('Не записано: '+(ERR[err.message]||err.message))).finally(()=>{b.disabled=false})};

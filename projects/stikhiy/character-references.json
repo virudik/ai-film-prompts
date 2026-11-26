@@ -1378,7 +1378,7 @@
       "notes": "Архивный черновик реконструкции с неверной геометрией. Для сцены 1 использовать новый фасад и отдельный двор.",
       "images": [
         {
-          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.png",
           "caption": "Летняя дача",
           "scenes": [
             1
@@ -1389,8 +1389,7 @@
           "editorial_status": "not_approved",
           "sha256": "90babd927e0ba425af0d917deecaa11b8ebbc648e2b21011ea0895bdf410292c",
           "bytes": 3394063,
-          "generation_input": "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.png",
-          "site_copy": "WebP q92 для сайта (Pages не публикует PNG из references/)"
+          "site_preview": "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.webp"
         }
       ],
       "editorial_status": "not_approved",
@@ -1410,7 +1409,7 @@
       "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
       "images": [
         {
-          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png",
           "caption": "Общая комната квартиры",
           "scenes": [
             1
@@ -1421,8 +1420,7 @@
           "editorial_status": "not_approved",
           "sha256": "2d9c9f55bf640e7532c2f1f9b8676f137de22b8c3cf193174310089c9464cedc",
           "bytes": 2549468,
-          "generation_input": "projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png",
-          "site_copy": "WebP q92 для сайта (Pages не публикует PNG из references/)"
+          "site_preview": "projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp"
         }
       ],
       "editorial_status": "not_approved",
@@ -1441,7 +1439,7 @@
       "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
       "images": [
         {
-          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.png",
           "caption": "Кухня вечером",
           "scenes": [
             1
@@ -1452,8 +1450,7 @@
           "editorial_status": "not_approved",
           "sha256": "837b3c2b2ac4a8fc8ad8f09c81de62691af7d4fdaee638909d5f2c2166010ea2",
           "bytes": 2401204,
-          "generation_input": "projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.png",
-          "site_copy": "WebP q92 для сайта (Pages не публикует PNG из references/)"
+          "site_preview": "projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.webp"
         }
       ],
       "editorial_status": "not_approved",
@@ -1472,7 +1469,7 @@
       "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
       "images": [
         {
-          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.png",
           "caption": "Ванная",
           "scenes": [
             1
@@ -1483,8 +1480,7 @@
           "editorial_status": "not_approved",
           "sha256": "34e52dc5deb372be16a3f84d2a426b631369b8b178d3e1d1afb5125853af4cd5",
           "bytes": 2126926,
-          "generation_input": "projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.png",
-          "site_copy": "WebP q92 для сайта (Pages не публикует PNG из references/)"
+          "site_preview": "projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.webp"
         }
       ],
       "editorial_status": "not_approved",
@@ -1503,7 +1499,7 @@
       "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
       "images": [
         {
-          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png",
           "caption": "Спальня ночью",
           "scenes": [
             1
@@ -1514,8 +1510,7 @@
           "editorial_status": "not_approved",
           "sha256": "c20fb33409a9abec6159bc41b317682398e24051a99df99f951ff48a2ebaf5bf",
           "bytes": 2447794,
-          "generation_input": "projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png",
-          "site_copy": "WebP q92 для сайта (Pages не публикует PNG из references/)"
+          "site_preview": "projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.webp"
         }
       ],
       "editorial_status": "not_approved",
@@ -1534,7 +1529,7 @@
       "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
       "images": [
         {
-          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png",
           "caption": "Красная площадь зимой",
           "scenes": [
             1
@@ -1545,8 +1540,7 @@
           "editorial_status": "not_approved",
           "sha256": "4b550666f00a5b40927eed232db198d00f5b422727603b1786a0a1b03be8a560",
           "bytes": 2797165,
-          "generation_input": "projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png",
-          "site_copy": "WebP q92 для сайта (Pages не публикует PNG из references/)"
+          "site_preview": "projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.webp"
         }
       ],
       "editorial_status": "not_approved",
@@ -1565,7 +1559,7 @@
       "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
       "images": [
         {
-          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.png",
           "caption": "Токарный цех",
           "scenes": [
             1
@@ -1576,8 +1570,7 @@
           "editorial_status": "not_approved",
           "sha256": "d0c143bfe758d6a241aeaf83246ea77896adbd42fbb59ddbf2c6e8dfc0f888b5",
           "bytes": 2768081,
-          "generation_input": "projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.png",
-          "site_copy": "WebP q92 для сайта (Pages не публикует PNG из references/)"
+          "site_preview": "projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.webp"
         }
       ],
       "editorial_status": "not_approved",
@@ -1596,7 +1589,7 @@
       "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
       "images": [
         {
-          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.png",
           "caption": "Больничный коридор",
           "scenes": [
             1
@@ -1607,8 +1600,7 @@
           "editorial_status": "not_approved",
           "sha256": "00ac6be49fe7b8776bf3db188f1e678c0806eb5964b5bcee046bd61ec68d654f",
           "bytes": 2192149,
-          "generation_input": "projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.png",
-          "site_copy": "WebP q92 для сайта (Pages не публикует PNG из references/)"
+          "site_preview": "projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.webp"
         }
       ],
       "editorial_status": "not_approved",
@@ -1627,7 +1619,7 @@
       "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
       "images": [
         {
-          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png",
           "caption": "Больничная палата",
           "scenes": [
             1
@@ -1638,8 +1630,7 @@
           "editorial_status": "not_approved",
           "sha256": "71e214b21d6d2f8e8e41613b4cd6b6faa92498a09780fbabcb6e7cc813c6ac63",
           "bytes": 2362159,
-          "generation_input": "projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png",
-          "site_copy": "WebP q92 для сайта (Pages не публикует PNG из references/)"
+          "site_preview": "projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp"
         }
       ],
       "editorial_status": "not_approved",
@@ -1658,7 +1649,7 @@
       "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
       "images": [
         {
-          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.png",
           "caption": "Кладбище, дальний план",
           "scenes": [
             1
@@ -1669,8 +1660,7 @@
           "editorial_status": "not_approved",
           "sha256": "1845c13ab4da5f1bf0f8df9979c361877f22b7e5499b0b024946c6f45da72eb7",
           "bytes": 3890794,
-          "generation_input": "projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.png",
-          "site_copy": "WebP q92 для сайта (Pages не публикует PNG из references/)"
+          "site_preview": "projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.webp"
         }
       ],
       "editorial_status": "not_approved",
@@ -1721,7 +1711,7 @@
       "notes": "Пустой двор конца 1980-х, 9:16. Отдельно стоящая душевая с тёмной вертикальной бочкой на крыше, горизонтальная ёмкость в траве, вишня у бочки, теплица с помидорами и огурцами справа. Только окружение; не новый сюжетный эпизод.",
       "images": [
         {
-          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png",
           "width": 941,
           "height": 1672,
           "sha256": "c11129f42a7288629c17eb79b3f53a9cede2b976eb71bb3e5f5ca7b813b0d04f",
@@ -1732,8 +1722,7 @@
             1
           ],
           "editorial_status": "not_approved",
-          "generation_input": "projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png",
-          "site_copy": "WebP q92 для сайта (Pages не публикует PNG из references/)"
+          "site_preview": "projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.webp"
         }
       ],
       "editorial_status": "not_approved",
@@ -1766,7 +1755,7 @@
       "notes": "Рабочая реконструкция конца 1980-х по геометрии архивных фото, 9:16, без людей. Старый фасад не применять.",
       "images": [
         {
-          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.webp",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png",
           "width": 941,
           "height": 1672,
           "sha256": "e40fecded4d642945e916419ed6385d2040344738d77c5d1959a8d6350c8010e",
@@ -1777,8 +1766,7 @@
             1
           ],
           "editorial_status": "not_approved",
-          "generation_input": "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png",
-          "site_copy": "WebP q92 для сайта (Pages не публикует PNG из references/)"
+          "site_preview": "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.webp"
         }
       ],
       "editorial_status": "not_approved",
