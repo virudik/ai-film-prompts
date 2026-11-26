@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "rules": "ops/OWNER-TASKS.md",
-  "updated_at": "2026-11-26T02:49:30Z",
+  "updated_at": "2026-11-26T12:49:25Z",
   "tasks": [
     {
       "id": "self-heal-run-failed-canon-health-202611142049",
@@ -77,6 +77,18 @@
       "result": "Закрыто автоматически: самопроверка уже отметила, что предупреждение прошло. Прошло: Последний запуск «здоровье канона» на GitHub упал (попытка 2): https://github.com/virudik/ai-film-prompts/actions/runs/45716908316",
       "result_commit": null,
       "closed_at": "2026-11-26T02:49:30Z"
+    },
+    {
+      "id": "self-heal-pages-lag-202611261249",
+      "heal_key": "pages-lag",
+      "created_at": "2026-11-26T12:49:25Z",
+      "scene_id": null,
+      "to": "any",
+      "source": "self-heal",
+      "text": "Самопроверка: Сайт показывает статус от 2026-11-26T12:12:23Z, а в main уже 2026-11-26T12:42:24Z (отставание 30 мин). Робот уже пересобрал сайт на GitHub Pages 2026-11-26T12:19:52Z, не помогло. Найти причину и починить; правила — ops/SELF-HEAL.md.",
+      "status": "open",
+      "taken_by": null,
+      "taken_at": null
     }
   ]
 }
