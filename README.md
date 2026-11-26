@@ -42,7 +42,7 @@ Full map: `README-AI-SYNC.md` («Компоненты и workflow»).
 
 - `topview-robot.yml` — Topview telemetry writer: `scripts/topview_api_scan.py` (read-only GET) → `scripts/robot_telemetry.py`, minimal slow-row master edits via `scripts/master_slow_edit.py`. Since 13.10.2026 `monitor-role.json` has `primary=robot`, `standby=chatgpt` (ChatGPT takes over by itself after 180 minutes without a verified healthy robot cycle); the Claude monitor is off. Kill switch: GitHub Variable `ROBOT_TELEMETRY=shadow`. Details: `ops/ROBOT-TELEMETRY.md`.
 - `sync-from-drive.yml` (historical name; it no longer pulls the master from Drive) — builds `project-status.json` from `main` and applies owner buttons from Supabase `owner_decisions` (`scripts/process_owner_decisions.py`, `scripts/robot_master_actions.py`).
-- `topview-video-archive.yml` + `scripts/topview_video_archive.py` — copies finished MP4s of active scenes into a private Drive folder through pre-created owner slots; only metadata (`topview-video-archive.json`) goes to git (`ops/TOPVIEW-VIDEO-ARCHIVE.md`).
+- `topview-video-archive.yml` + `scripts/topview_video_archive.py` — since 26.11.2026 the Drive copy job is skipped; current placement is Yandex Disk (`ops/TOPVIEW-VIDEO-ARCHIVE.md`). The index `topview-video-archive.json` is kept.
 - `drive-write.yml` + `scripts/drive_write.py` — daily refresh of the read-only Drive copies.
 - GitHub `schedule:` is unreliable, so Supabase pg_cron + pg_net start the robots via `workflow_dispatch` (`ops/ROBOT-TRIGGER.md`, SQL in `ops/supabase/`).
 - `scripts/monitor_role.py` — one-writer guard (`claude` / `chatgpt` / `robot`).

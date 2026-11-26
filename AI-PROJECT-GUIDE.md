@@ -1,4 +1,4 @@
-﻿# AI Film Project — Start Here v5.1
+# AI Film Project — Start Here v5.1
 
 > **Пробуждение, роли и предупреждения сайта** — одно место: `ops/PRIMARY-BACKUP-WAKE.md`. Замок, claim и один Create — `ops/LAUNCHER-COORDINATION.md`; обёртка — `ops/LAUNCHER-ENTRY.md`. Копии и прежние отчёты это не переопределяют.
 
@@ -9,7 +9,7 @@
 **Назначение:** главная операционная инструкция проекта для текущего редактора и любого следующего чата / сменщика: обзор проекта, приём смены и поведение агента. Механика записи, синхронизации, робота и Topview — `SYNC-RUNBOOK.md`; здесь — одна строка и ссылка.
 **Редакция:** 18.10.2026 — убраны повторы между инструкциями (одно правило — одно место); генеральная зачистка 11–14.10.2026 до этого. Прежние тексты — `git log` и `archive/instructions-before-cleanup-2026-10-14/AI-PROJECT-GUIDE.md` (только справка, не канон).
 
-> **Источник истины (решение владельца 11.10.2026, 03:25 МСК).** Канон один — GitHub `virudik/ai-film-prompts`, ветка `main`: `video-prompts.md` и ровно 7 инструкций. Google Drive, Notion, Claude Project, ChatGPT Project и Library — резервные копии только для чтения, никогда не правятся вместо канона и не переопределяют `main`. Правка = минимальный коммит в `main`; authority и процедуры — `SYNC-RUNBOOK.md`. Свежий `main` всегда побеждает. Копии роликов всех проектов и понедельничная сверка — `ops/TOPVIEW-VIDEO-ARCHIVE.md` и `ops/HANDOFF-CLEANUP.md` п. 11.
+> **Источник истины (решение владельца 11.10.2026, 03:25 МСК).** Канон один — GitHub `virudik/ai-film-prompts`, ветка `main`: `video-prompts.md` и ровно 7 инструкций. Google Drive, Notion, Claude Project, ChatGPT Project и Library — резервные копии только для чтения, никогда не правятся вместо канона и не переопределяют `main`. Правка = минимальный коммит в `main`; authority и процедуры — `SYNC-RUNBOOK.md`. Свежий `main` всегда побеждает. Копии роликов всех проектов, когда их раскладывать, и понедельничная сверка — `ops/TOPVIEW-VIDEO-ARCHIVE.md` и `ops/HANDOFF-CLEANUP.md` п. 11; актуализация Notion — п. 12.
 
 **Где живёт каждое правило.**
 

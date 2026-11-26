@@ -1,4 +1,4 @@
-# Topview completed video archive — private Drive backup
+# Архив готовых роликов — Яндекс Диск (новые копии на Google Drive не класть)
 
 Статус: показ с Яндекс Диска действует; копирование на Google Drive выключено 26.11.2026. Проверено: 26.11.2026.
 
@@ -9,7 +9,7 @@
 - Публичный доступ открыт только к отдельным файлам, папки не открыты. Ключ даёт прочитать один файл, это не секрет. Токены и `rclone.conf` в репозиторий не попадают.
 - Страница (`video-source.js`) при каждом открытии берёт у `cloud-api.yandex.net/v1/disk/public/resources/download` свежую ссылку (живёт около 4 ч) и ставит её в `<video>`. Если Яндекс не ответил или ролик не открылся, страница берёт Supabase/Drive.
 - Яндекс отвечает 403, если в запросе виден чужой Referer. Поэтому в `videos.html` и `film.html` обязательна строка `<meta name="referrer" content="no-referrer">`, её проверяют `scripts/validate_site.py` и `tests/test_yandex_video_links.py`.
-- Новые ролики добавляет понедельничная проверка: она докачивает файлы на Яндекс, затем выполняет `python3 scripts/yandex_video_links.py publish --project <id> --remote "ya-api:<папка>" --write`. Скрипт сверяет md5 и sha256 и публикует только совпавший файл. Ролики других проектов добавляются командой `python3 scripts/yandex_video_links.py import <manifest.json> --write`, записи в манифесте: `project`, `scene`, `yandex_public_key`, `yandex_path`, `task_id`.
+- Новые ролики сначала раскладываются по правилу «Когда раскладывать» ниже (Topview — на wake со свободным слотом; ролики Grok — сразу). Понедельничная проверка (`ops/HANDOFF-CLEANUP.md` п. 11) докачивает пропущенное, сверяет md5 и sha256 и затем выполняет `python3 scripts/yandex_video_links.py publish --project <id> --remote "ya-api:<папка>" --write`. Скрипт публикует только совпавший файл. Ролики других проектов добавляются командой `python3 scripts/yandex_video_links.py import <manifest.json> --write`, записи в манифесте: `project`, `scene`, `yandex_public_key`, `yandex_path`, `task_id`.
 - 26.11.2026 опубликованы и проверены по md5+sha256+размеру все 123 ролика «Серёгиуса» из `Нейровидео/Серёгиус/. Topview/<дата>`. 82 найдены по номеру задачи в имени файла, 41 по точному размеру (имена `*_video_edit_*`).
 - Карточка сцены открывает `videos.html` и для записи только с `yandex_public_key`. Ролики, которых нет в телеметрии Topview, подписаны «📼 Ролик N»; копия, привязанная к успешной задаче, — «💾 MP4».
 
@@ -23,6 +23,13 @@
 - **Box** — основное место только для Серёгиуса и только через браузер. На Google Drive ролики не класть: `.github/workflows/topview-video-archive.yml` отключён, индекс `topview-video-archive.json` не удалять. MP4 в публичный GitHub не класть.
 - **Сайт** `промты.рудик.рф` показывает видео сцен с Яндекс Диска. Ссылка — на отдельный файл (`https://disk.yandex.ru/i/<ключ>`), не на папку. Запись архива: `project`, `scene`, `yandex_public_key`, `yandex_path`, `md5`. Страница роликов одна для любого проекта. У страницы, которая играет ролик, обязателен `<meta name="referrer" content="no-referrer">`. Пока у старой записи есть только `file_id` Drive и нет яндексовского ключа, страница играет эту прежнюю копию.
 - **Жёлтая плашка** на сайте — только реальный сбой, не обычная задержка публикации (PR 1036, `status-freshness.js`).
+
+## Когда раскладывать (26.11.2026, t950u–t952u)
+
+- **Ролики Topview** раскладывать только на реальном wake робота со свободным слотом и до запуска новой сцены: на Яндекс в `Нейровидео/<Проект>/. Topview/<YYYY-MM-DD>/`, на сайт промтов, для «Серёгиуса» ещё на Box (только через браузер). Если все слоты заняты, раскладку не делать. Отдельной периодической проверки нет: не тратить лимит, пока слоты заняты.
+- Инструмент: `/workspace/video-autosync` (`autosync.py pending` / `feed` / `run.sh`; для Серёгиуса ещё `box_pending` / `box-done`).
+- **Ролики, которые Grok делает своим генератором**, раскладывать сразу после изготовления, не дожидаясь wake: `Нейровидео/<Проект>/.Грок/<YYYY-MM-DD>/` на Яндексе в исходном качестве и запись на сайт промтов.
+- Понедельничная чистка (`ops/HANDOFF-CLEANUP.md` п. 11) — сверка, докачка и проверка качества, не замена своевременной раскладки.
 
 **Status 13.10.2026: был OPERATIONAL, с 26.11.2026 остановлен.** End-to-end uploads with Drive checksum read-back verified (Scene 30, 78,644,925 B, and Scene 27, 78,611,053 B; Scene 25 added later by the schedule). GitHub Actions runs 38381306579 and 38381835331. Output link / scene ID / task ID are recorded in `topview-video-archive.json`. No Topview generation launched.
 
