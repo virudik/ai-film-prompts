@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-26T10:23:30+00:00",
-  "source_head": "6812d17f6e0cccb83b3a6cd94135cdac739686ea",
-  "source_fingerprint": "b65dcd9e36288863862992f4202927ec703c9adb05e9a3dcd444cef9d543eaa1",
+  "checked_at": "2026-11-26T10:28:31+00:00",
+  "source_head": "3f6a7da13a21fb4d194172b6551ae6c8f59fbf88",
+  "source_fingerprint": "1fc9ab4794176efa3a0b58dd646fcd0b02d248419e9c5476973115657a4a64ed",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -645,18 +645,18 @@
   "sources": [
     {
       "file": "AI-PROJECT-GUIDE.md",
-      "sha256": "cfadadad0d9a3074f3f6de646c8653314a2e07d7563d98b41868745b5b363ef5",
-      "bytes": 40887
+      "sha256": "95b7fe8c1038866a5ce9057424f2420560115432e407df0bf2414886856ad96a",
+      "bytes": 40995
     },
     {
       "file": "BACKUP-AI-RUNBOOK.md",
-      "sha256": "e1cfbacddb7fb23c33ceca445e82033263edc633be5ee38fd373a5f131530b8b",
-      "bytes": 21720
+      "sha256": "56017d0dae803cbf790f5ad31b59d580e09c19409a7f033d7517424c1c2dd78d",
+      "bytes": 21708
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "562d460231cb13f0f107f5ce209d93439e7b76fffeb9e1ab8d8ef1f052e07393",
-      "bytes": 36490
+      "sha256": "7ac823f42d1181a39b9c97e2afc321e09538e37c07b49be2b9e750164901e815",
+      "bytes": 28290
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -665,23 +665,23 @@
     },
     {
       "file": "README-AI-SYNC.md",
-      "sha256": "f92524af84e6faf30238f6d9be9372e29bd5e9827f8c348e303939b8c95fb048",
-      "bytes": 18140
+      "sha256": "a55ebb7ecb24ac5bb9737a1e7a3944f2d3d3c9ac8d88189c33894a9de28f7ea6",
+      "bytes": 17991
     },
     {
       "file": "SYNC-RUNBOOK.md",
-      "sha256": "dacd5d49c8c00578680b4dea14052296fdbbb585a604f8b8a3a074e7bb6dedd2",
-      "bytes": 128795
+      "sha256": "6f8089f91e39055e6be35b808146afc51faf5d5e711bb5a4b0e04c5a7b2cce30",
+      "bytes": 129605
     },
     {
       "file": "USER-GUIDE.md",
-      "sha256": "bf9600991934011496d1e3d02ade288ef465468c8efb3ca00609bbc7c31afdbf",
-      "bytes": 84245
+      "sha256": "f9d36e68e469165ddcf72212a434f0b21f4b62111484ffc13176d318e4bc48c5",
+      "bytes": 83052
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "535774db124127671d625d39b5f4a24e0d889c21ab8240a25ae7d1c3ff0bc901",
-      "bytes": 5136
+      "sha256": "0a2261aeb7131956ebbb9ecf1e8a46d16e55d2a885ce11f597dc0e8658a5d967",
+      "bytes": 5140
     },
     {
       "file": "monitor-role.json",
@@ -695,13 +695,13 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "ec9df50e55ff008e2aa6872837268ab307322e54bcbd589e15c3954c93b107a5",
-      "bytes": 315548
+      "sha256": "ff9e43865b03e6303fed19d8668e90d130b0a1ca2e01c14ad236b633013fe25f",
+      "bytes": 310667
     },
     {
       "file": "project-status.json",
-      "sha256": "74c5f09d0b54e7dcaf25bb6f530cc468817c7740d7454d5ea1352adb1927e2fe",
-      "bytes": 29590
+      "sha256": "8a4b5d542efae339009801d8a76982c67505d9dd8c66ec3b4f84e0082b20bb62",
+      "bytes": 29594
     },
     {
       "file": "reports/current-work-checkpoint.md",
@@ -720,18 +720,18 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "1f8fc156e7abeedf09c71587896bd83f2aff80b59f4c091887786f089ddffd20",
-      "bytes": 36291
+      "sha256": "7ac823f42d1181a39b9c97e2afc321e09538e37c07b49be2b9e750164901e815",
+      "bytes": 28290
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "3044da7800ccb940ed987a93d48ae95089bc019a7d8053559ace62ae1b454903",
+      "sha256": "3a9b1d7bb9c139c1421f06db6c5051b441fe65b9b4a6f572af2697877f7fa7cc",
       "bytes": 32409
     },
     {
       "file": "video-prompts.md",
-      "sha256": "ba048f6a37497aec79b7812c06322eadf9f2b08c3758f4ae31e045a36f292a2b",
-      "bytes": 2004522
+      "sha256": "b7014a9d0ac715d67f4c26fee4f3cc59ef95cdf1e3e2f91ed95637e8f75bec3e",
+      "bytes": 2004434
     },
     {
       "file": "work-resume-register.json",
