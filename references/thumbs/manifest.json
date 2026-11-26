@@ -444,7 +444,7 @@
    "src_sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6"
   },
   "projects/kotmonavty/references/roskotmos-logo.png": {
-   "thumb": "references/thumbs/projects/kotmonavty/references/roskotmos-logo.png.webp",
+   "thumb": "references/thumbs/scenes/scene-45/S45-roskotmos-logo.png.webp",
    "width": 560,
    "height": 630,
    "src_width": 560,
@@ -674,7 +674,7 @@
    "src_sha256": "5807845254f9d5eb2112cee654bf0f7dafe745a5e5cd2fba4ef56cb15a8cae58"
   },
   "projects/kotmonavty/references/ship-exterior-four-engines.png": {
-   "thumb": "references/thumbs/projects/kotmonavty/references/ship-exterior-four-engines.png.webp",
+   "thumb": "references/thumbs/scenes/scene-45/S45-ship-design-actual.png.webp",
    "width": 640,
    "height": 360,
    "src_width": 1280,
@@ -684,34 +684,24 @@
    "src_sha256": "41b51f4b883a2b88ca111f139a166abfbfac39d0ca99157061244bc04ad4cb00"
   },
   "projects/kotmonavty/references/ship-exterior-front.png": {
-   "thumb": "references/thumbs/projects/kotmonavty/references/ship-exterior-front.png.webp",
+   "thumb": "references/thumbs/scenes/scene-45/S45-roskotmos-ship-first-option.png.webp",
    "width": 640,
    "height": 360,
    "src_width": 1672,
    "src_height": 941,
    "src_bytes": 2580201,
-   "thumb_bytes": 45062,
+   "thumb_bytes": 50226,
    "src_sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f"
   },
   "projects/kotmonavty/references/ship-exterior-rear.png": {
-   "thumb": "references/thumbs/projects/kotmonavty/references/ship-exterior-rear.png.webp",
+   "thumb": "references/thumbs/scenes/scene-45/S45-roskotmos-ship-first-rear.png.webp",
    "width": 640,
    "height": 360,
    "src_width": 1672,
    "src_height": 941,
    "src_bytes": 2606016,
-   "thumb_bytes": 50908,
+   "thumb_bytes": 56816,
    "src_sha256": "cbfccd3343a453cbe4ab8a866901d20c8a622de1414ea9efbfe7b62552ada30f"
-  },
-  "references/scenes/scene-24/S24-Image3-topview-source.png": {
-   "thumb": "references/thumbs/references/scenes/scene-24/S24-Image3-topview-source.png.webp",
-   "width": 640,
-   "height": 360,
-   "src_width": 1600,
-   "src_height": 900,
-   "src_bytes": 2085347,
-   "thumb_bytes": 63008,
-   "src_sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00"
   },
   "projects/raznoe/references/anna-sergeevna.png": {
    "thumb": "references/thumbs/projects/raznoe/references/anna-sergeevna.png.webp",
@@ -1403,8 +1393,8 @@
    "thumb_bytes": 57530,
    "src_sha256": "a90be81fc9eacd17618ff5aabf0f8a75b6d3511539f2c575185a434e3fad4e84"
   },
-  "projects/raznoe/references/scenes/scene-3/10-45737.png": {
-   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/10-45737.png.webp",
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-polymer-print-45737.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-polymer-print-45737.png.webp",
    "width": 640,
    "height": 360,
    "src_width": 1280,
@@ -2253,8 +2243,8 @@
    "thumb_bytes": 72916,
    "src_sha256": "853e1729eed4bef02b6f1a80d9b6475b7ae626abb69fc33b1262dc8d6ab92859"
   },
-  "projects/roscosmos/references/scenes/scene-26/tt26-orbit.png": {
-   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-26/tt26-orbit.png.webp",
+  "projects/roscosmos/references/scenes/scene-26/tt26-delta-clean.png": {
+   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-26/tt26-delta-clean.png.webp",
    "width": 640,
    "height": 360,
    "src_width": 1672,
@@ -2363,8 +2353,8 @@
    "thumb_bytes": 67838,
    "src_sha256": "4156429e5052c75b447a79dead3aa919f4edf529e531896d21dfe44130f5c934"
   },
-  "projects/roscosmos/references/scenes/scene-28/tt28-clearing.png": {
-   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-28/tt28-clearing.png.webp",
+  "projects/roscosmos/references/scenes/scene-28/tt28-wipe-after.png": {
+   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-28/tt28-wipe-after.png.webp",
    "width": 640,
    "height": 360,
    "src_width": 1672,
@@ -2572,86 +2562,6 @@
    "src_bytes": 1921078,
    "thumb_bytes": 17972,
    "src_sha256": "b27ebf31fb7ac58daa057ff05e2dfd262e98acb316715f0404fdbd3f244ca94e"
-  },
-  "projects/roscosmos/references/scenes/scene-1/01-earth-work.png": {
-   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-1/01-earth-work.png.webp",
-   "width": 640,
-   "height": 360,
-   "src_width": 1672,
-   "src_height": 941,
-   "src_bytes": 2904024,
-   "thumb_bytes": 60698,
-   "src_sha256": "c2ba5edac3b3603e86120ca94db46e4ca83d42e69e25f92afc2a172b5225f880"
-  },
-  "projects/roscosmos/references/scenes/scene-2/02-stereo-relief.png": {
-   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-2/02-stereo-relief.png.webp",
-   "width": 640,
-   "height": 360,
-   "src_width": 1672,
-   "src_height": 941,
-   "src_bytes": 2856786,
-   "thumb_bytes": 52424,
-   "src_sha256": "b6b061873aa1e3b957360fae6324e56fc368039c6995e805aef0f6a16a775a9d"
-  },
-  "projects/roscosmos/references/scenes/scene-6/03-small-satellite.png": {
-   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-6/03-small-satellite.png.webp",
-   "width": 640,
-   "height": 360,
-   "src_width": 1672,
-   "src_height": 941,
-   "src_bytes": 2096212,
-   "thumb_bytes": 35212,
-   "src_sha256": "4f740fe62d033d2d561dfa96ce5a1e462be3d650758e39a7cd6ddd9b1c4b559b"
-  },
-  "projects/roscosmos/references/scenes/scene-7/04-mission-exhibit.png": {
-   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-7/04-mission-exhibit.png.webp",
-   "width": 640,
-   "height": 360,
-   "src_width": 1672,
-   "src_height": 941,
-   "src_bytes": 1907568,
-   "thumb_bytes": 30012,
-   "src_sha256": "8437d32fad246b4e22698300aaac7ad8e904101b124bc18a0e099f215ee1feee"
-  },
-  "projects/roscosmos/references/scenes/scene-11/05-space-instrument.png": {
-   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-11/05-space-instrument.png.webp",
-   "width": 640,
-   "height": 360,
-   "src_width": 1672,
-   "src_height": 941,
-   "src_bytes": 2237132,
-   "thumb_bytes": 35686,
-   "src_sha256": "16b4c8e44b31e4d02b4a189fafb6b52d6a19e90d7cb4061adcc165f9c5e0ce0f"
-  },
-  "projects/roscosmos/references/scenes/scene-12/06-power-corridor.png": {
-   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-12/06-power-corridor.png.webp",
-   "width": 640,
-   "height": 360,
-   "src_width": 1672,
-   "src_height": 941,
-   "src_bytes": 3259527,
-   "thumb_bytes": 76726,
-   "src_sha256": "1ee23cb47d55b8a5164d84db8004d563a3a61bf39e893a4cce95d61f27b8c6e8"
-  },
-  "projects/roscosmos/references/scenes/scene-16/07-earth-operations.png": {
-   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-16/07-earth-operations.png.webp",
-   "width": 640,
-   "height": 360,
-   "src_width": 1672,
-   "src_height": 941,
-   "src_bytes": 2720141,
-   "thumb_bytes": 53662,
-   "src_sha256": "58e99df1b09bb61b91a4f7bde992e3e0dba8fad558569d06055140e7028d1e08"
-  },
-  "projects/roscosmos/references/scenes/scene-17/08-land-memory.png": {
-   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-17/08-land-memory.png.webp",
-   "width": 640,
-   "height": 360,
-   "src_width": 1672,
-   "src_height": 941,
-   "src_bytes": 2727540,
-   "thumb_bytes": 54284,
-   "src_sha256": "1ee57fe0bc7677cb1757bdeaa96d29b2aa9c27076075d1fe116ca4bb6cdc90ca"
   },
   "projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2.webp": {
    "thumb": "references/thumbs/projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2.webp.webp",
@@ -3163,16 +3073,6 @@
    "thumb_bytes": 19916,
    "src_sha256": "716a91f0f3a45153f65b90b8b9de2e45f8bb21cb53dc42104e10a4da0fe12e10"
   },
-  "references/scenes/scene-89/shared/jedi1-ilyusha-scene.png": {
-   "thumb": "references/thumbs/scenes/scene-10/S10-Image3-jedi-source.png.webp",
-   "width": 640,
-   "height": 854,
-   "src_width": 896,
-   "src_height": 1195,
-   "src_bytes": 1879083,
-   "thumb_bytes": 53480,
-   "src_sha256": "f308cb384704d43eb6f4db5bb9425d4ade6be930710e90d3fc4277d9995f07c4"
-  },
   "references/scenes/scene-13/S13-Image1-topview-source.png": {
    "thumb": "references/thumbs/scenes/scene-13/S13-Image1-topview-source.png.webp",
    "width": 640,
@@ -3273,26 +3173,6 @@
    "thumb_bytes": 45146,
    "src_sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a"
   },
-  "references/scenes/scene-19/S19-Image4-topview-source.png": {
-   "thumb": "references/thumbs/scenes/scene-17/S17-Image1-topview-source.png.webp",
-   "width": 640,
-   "height": 360,
-   "src_width": 1600,
-   "src_height": 900,
-   "src_bytes": 642452,
-   "thumb_bytes": 12920,
-   "src_sha256": "f49483bacd284427b6463c8b1303ed75fd51e4b8321b6596b0ab04e065fe86e8"
-  },
-  "references/scenes/scene-19/S19-Image3-topview-source.png": {
-   "thumb": "references/thumbs/scenes/scene-17/S17-Image2-topview-source.png.webp",
-   "width": 640,
-   "height": 360,
-   "src_width": 1600,
-   "src_height": 900,
-   "src_bytes": 846657,
-   "thumb_bytes": 15912,
-   "src_sha256": "40c9413859c96a978ecf54851866ab6f7ce9544159bc47f12d3d75ab5e681afa"
-  },
   "references/scenes/scene-17/S17-Image3-topview-source.png": {
    "thumb": "references/thumbs/scenes/scene-17/S17-Image3-topview-source.png.webp",
    "width": 640,
@@ -3384,7 +3264,7 @@
    "src_sha256": "f49483bacd284427b6463c8b1303ed75fd51e4b8321b6596b0ab04e065fe86e8"
   },
   "references/scenes/scene-19/S19-Image5-topview-source.png": {
-   "thumb": "references/thumbs/scenes/scene-19/S19-Image5-topview-source.png.webp",
+   "thumb": "references/thumbs/scenes/scene-20/S20-Image2-topview-source.png.webp",
    "width": 640,
    "height": 360,
    "src_width": 1600,
@@ -3402,16 +3282,6 @@
    "src_bytes": 2025163,
    "thumb_bytes": 47444,
    "src_sha256": "32f85b561bd727995943fa48eade0f5fe3fab4107f000638b13235d3f6a97222"
-  },
-  "references/scenes/scene-19/S19-Image5-topview-source.png": {
-   "thumb": "references/thumbs/scenes/scene-20/S20-Image2-topview-source.png.webp",
-   "width": 640,
-   "height": 360,
-   "src_width": 1600,
-   "src_height": 900,
-   "src_bytes": 786405,
-   "thumb_bytes": 19528,
-   "src_sha256": "efe0ab0a37b8da125a8eb925e36e66b470e599f9c6bf145a1089bc576b2a7ab1"
   },
   "references/scenes/scene-20/S20-close-performance.png": {
    "thumb": "references/thumbs/scenes/scene-20/S20-close-performance.png.webp",
@@ -3552,26 +3422,6 @@
    "src_bytes": 2085347,
    "thumb_bytes": 63008,
    "src_sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00"
-  },
-  "references/scenes/scene-27/S27-Image1-topview-source.png": {
-   "thumb": "references/thumbs/scenes/scene-26/S26-Image1-topview-source.png.webp",
-   "width": 640,
-   "height": 360,
-   "src_width": 1600,
-   "src_height": 900,
-   "src_bytes": 1955624,
-   "thumb_bytes": 53810,
-   "src_sha256": "a6b44b808a9be0581b853194f1d7a0949c39bdf5fd0c44fcdd1faaaae23bd81f"
-  },
-  "references/scenes/scene-27/S27-Image5-topview-source.png": {
-   "thumb": "references/thumbs/scenes/scene-26/S26-Image4-topview-source.png.webp",
-   "width": 640,
-   "height": 360,
-   "src_width": 1600,
-   "src_height": 900,
-   "src_bytes": 2034728,
-   "thumb_bytes": 51742,
-   "src_sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73"
   },
   "references/scenes/scene-27/S27-Image1-topview-source.png": {
    "thumb": "references/thumbs/scenes/scene-27/S27-Image1-topview-source.png.webp",
@@ -3973,16 +3823,6 @@
    "thumb_bytes": 39446,
    "src_sha256": "13d6ac672dfc7a8067362f7a10ac2d5d4c79ee1e34f62f15909ea577a7c5dc17"
   },
-  "projects/kotmonavty/references/roskotmos-logo.png": {
-   "thumb": "references/thumbs/scenes/scene-45/S45-roskotmos-logo.png.webp",
-   "width": 560,
-   "height": 630,
-   "src_width": 560,
-   "src_height": 630,
-   "src_bytes": 267116,
-   "thumb_bytes": 20742,
-   "src_sha256": "8481db6884b934d5889adf7ae9504ed82e447136b5002b0bf7fc120fdb9cb94f"
-  },
   "references/scenes/scene-45/S45-roskotmos-ship-exterior.png": {
    "thumb": "references/thumbs/scenes/scene-45/S45-roskotmos-ship-exterior.png.webp",
    "width": 640,
@@ -3992,36 +3832,6 @@
    "src_bytes": 2602753,
    "thumb_bytes": 52586,
    "src_sha256": "cee8bf7cf28121e885320f39efe358f4ed0f167e74f0b431da2983cba36a7a29"
-  },
-  "projects/kotmonavty/references/ship-exterior-front.png": {
-   "thumb": "references/thumbs/scenes/scene-45/S45-roskotmos-ship-first-option.png.webp",
-   "width": 640,
-   "height": 360,
-   "src_width": 1672,
-   "src_height": 941,
-   "src_bytes": 2580201,
-   "thumb_bytes": 50226,
-   "src_sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f"
-  },
-  "projects/kotmonavty/references/ship-exterior-rear.png": {
-   "thumb": "references/thumbs/scenes/scene-45/S45-roskotmos-ship-first-rear.png.webp",
-   "width": 640,
-   "height": 360,
-   "src_width": 1672,
-   "src_height": 941,
-   "src_bytes": 2606016,
-   "thumb_bytes": 56816,
-   "src_sha256": "cbfccd3343a453cbe4ab8a866901d20c8a622de1414ea9efbfe7b62552ada30f"
-  },
-  "projects/kotmonavty/references/ship-exterior-four-engines.png": {
-   "thumb": "references/thumbs/scenes/scene-45/S45-ship-design-actual.png.webp",
-   "width": 640,
-   "height": 360,
-   "src_width": 1280,
-   "src_height": 720,
-   "src_bytes": 1111844,
-   "thumb_bytes": 30378,
-   "src_sha256": "41b51f4b883a2b88ca111f139a166abfbfac39d0ca99157061244bc04ad4cb00"
   },
   "references/scenes/scene-45/S45-ship-four-engines-actual.png": {
    "thumb": "references/thumbs/scenes/scene-45/S45-ship-four-engines-actual.png.webp",
