@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "rules": "ops/OWNER-TASKS.md",
-  "updated_at": "2026-11-26T17:49:25Z",
+  "updated_at": "2026-11-26T21:19:21Z",
   "tasks": [
     {
       "id": "self-heal-run-failed-canon-health-202611142049",
@@ -116,9 +116,12 @@
       "to": "any",
       "source": "self-heal",
       "text": "Самопроверка: Сайт показывает статус от 2026-11-26T15:41:08Z, а в main уже 2026-11-26T16:12:31Z (отставание 31 мин). Робот уже пересобрал сайт на GitHub Pages 2026-11-26T15:49:25Z, не помогло. Найти причину и починить; правила — ops/SELF-HEAL.md.",
-      "status": "open",
+      "status": "done",
       "taken_by": null,
-      "taken_at": null
+      "taken_at": null,
+      "result": "Закрыто автоматически: самопроверка уже отметила, что предупреждение прошло. Прошло: Сайт показывает статус от 2026-11-26T15:41:08Z, а в main уже 2026-11-26T20:42:29Z (отставание 301 мин).",
+      "result_commit": null,
+      "closed_at": "2026-11-26T21:19:21Z"
     }
   ]
 }

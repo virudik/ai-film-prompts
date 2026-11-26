@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "source": "Topview operational telemetry",
-  "checked_at": "2026-11-26T21:00:34Z",
+  "checked_at": "2026-11-26T21:20:29Z",
   "timezone": "UTC",
   "canonical_behavior": "Topview slow capacity is 6 concurrent active task slots. One active Topview task occupies one slot even when several tasks belong to the same Scene ID. Canonical slow membership remains unique by Scene ID.",
   "scenes": {
@@ -335,14 +335,15 @@
       "model_id": "seedance-2.0-style",
       "topview_status": "init",
       "started_at": "2026-11-22T12:59:58Z",
-      "queue_count": 2658,
-      "topview_estimated_wait_seconds": 100749,
-      "checked_at": "2026-11-26T21:00:34Z",
+      "queue_count": 2637,
+      "topview_estimated_wait_seconds": 99555,
+      "checked_at": "2026-11-26T21:20:29Z",
       "verified": true,
       "mapping_confidence": "prompt normalized match with master block 28 A9 (robot)",
       "active_task_ids": [
         "17c2f95f1f9349dabfe9a2e75fd9a18c",
-        "a841c617d6ee4590adde0f8377ed43b9"
+        "a841c617d6ee4590adde0f8377ed43b9",
+        "be8cd77be15147d68e9ae4e1b8140472"
       ],
       "completed_at": null,
       "topview_estimated_process_seconds": null
@@ -917,9 +918,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-11-25T13:16:56Z",
-      "queue_count": 3526,
-      "topview_estimated_wait_seconds": 152589,
-      "checked_at": "2026-11-26T21:00:34Z",
+      "queue_count": 3505,
+      "topview_estimated_wait_seconds": 151395,
+      "checked_at": "2026-11-26T21:20:29Z",
       "verified": true,
       "mapping_confidence": "prompt normalized match with master block 89J · Wan 3.0 (robot)",
       "active_task_ids": [
@@ -931,7 +932,7 @@
       "topview_estimated_process_seconds": null
     }
   },
-  "note": "GitHub robot: 5 из 6 слотов занято, новых 0, завершено 0.",
+  "note": "GitHub robot: 6 из 6 слотов занято, новых 1, завершено 0.",
   "ui_contract": {
     "slow_table": "one row per active Topview task/slot; Scene ID may repeat",
     "capacity": 6,
@@ -941,13 +942,13 @@
     "header_timestamp_source": "checked_at",
     "header_timestamp_style": "ordinary text color and weight; no 'синхр.' label",
     "three_view_source": "active_tasks[] normalized once per page load",
-    "three_view_checked_at": "2026-11-26T21:00:34Z",
+    "three_view_checked_at": "2026-11-26T21:20:29Z",
     "scene_summary": "unique Scene IDs with multiplicity; mixed task statuses preserved",
     "queue_source": "exact active_tasks[].queue_count per task"
   },
   "slot_capacity": 6,
-  "occupied_slots": 5,
-  "free_slots": 1,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "active_tasks": [
     {
       "scene_id": 28,
@@ -956,9 +957,9 @@
       "model_id": "seedance-2.0-style",
       "topview_status": "init",
       "started_at": "2026-11-22T12:59:58Z",
-      "queue_count": 2658,
-      "topview_estimated_wait_seconds": 100749,
-      "checked_at": "2026-11-26T21:00:34Z",
+      "queue_count": 2637,
+      "topview_estimated_wait_seconds": 99555,
+      "checked_at": "2026-11-26T21:20:29Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "prompt normalized match with master block 28 A9 (robot)",
@@ -971,9 +972,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-11-25T13:16:56Z",
-      "queue_count": 3526,
-      "topview_estimated_wait_seconds": 152589,
-      "checked_at": "2026-11-26T21:00:34Z",
+      "queue_count": 3505,
+      "topview_estimated_wait_seconds": 151395,
+      "checked_at": "2026-11-26T21:20:29Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "prompt normalized match with master block 89J · Wan 3.0 (robot)",
@@ -986,9 +987,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-11-24T13:06:28Z",
-      "queue_count": 3237,
-      "topview_estimated_wait_seconds": 135309,
-      "checked_at": "2026-11-26T21:00:34Z",
+      "queue_count": 3216,
+      "topview_estimated_wait_seconds": 134115,
+      "checked_at": "2026-11-26T21:20:29Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "prompt normalized match with master block 89I · Wan 3.0 (robot)",
@@ -1001,9 +1002,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-11-23T12:54:13Z",
-      "queue_count": 2948,
-      "topview_estimated_wait_seconds": 118028,
-      "checked_at": "2026-11-26T21:00:34Z",
+      "queue_count": 2927,
+      "topview_estimated_wait_seconds": 116835,
+      "checked_at": "2026-11-26T21:20:29Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "prompt normalized match with master block 89H · Wan 3.0 (robot)",
@@ -1016,18 +1017,33 @@
       "model_id": "seedance-2.0-style",
       "topview_status": "init",
       "started_at": "2026-11-22T10:37:37Z",
-      "queue_count": 1867,
-      "topview_estimated_wait_seconds": 57548,
-      "checked_at": "2026-11-26T21:00:34Z",
+      "queue_count": 1837,
+      "topview_estimated_wait_seconds": 56354,
+      "checked_at": "2026-11-26T21:20:29Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "prompt normalized match with master block 28 A8 (robot)",
       "part": "A8"
+    },
+    {
+      "scene_id": 28,
+      "task_id": "be8cd77be15147d68e9ae4e1b8140472",
+      "model": "Seedance 2.0",
+      "model_id": "seedance-2.0-style",
+      "topview_status": "init",
+      "started_at": "2026-11-26T21:10:29Z",
+      "queue_count": 4226,
+      "topview_estimated_wait_seconds": 194595,
+      "checked_at": "2026-11-26T21:20:29Z",
+      "topview_estimated_process_seconds": null,
+      "verified": true,
+      "mapping_confidence": "prompt normalized match with master block 28 A13 (robot)",
+      "part": "A13"
     }
   ],
   "scope": "all_owned_board_counts_plus_ai_film_latest_100_plus_direct_known_active",
   "account_observation": {
-    "checked_at": "2026-11-26T21:00:34Z",
+    "checked_at": "2026-11-26T21:20:29Z",
     "complete": true,
     "boards_scanned": 14,
     "video_tasks_scanned": 692,
@@ -1035,14 +1051,15 @@
     "scope": "all_owned_boards_unlimited_video_tasks",
     "scan_mode": "light_board_counts_verified",
     "slot_capacity": 6,
-    "occupied_slots": 5,
-    "free_slots": 1,
+    "occupied_slots": 6,
+    "free_slots": 0,
     "active_task_ids": [
       "17c2f95f1f9349dabfe9a2e75fd9a18c",
       "45fb0ba125114ba48b48dd8a129f9015",
       "66dc44271e6f4336ad801102ca860e68",
       "79090d8a644f44068751a0d33cbfeb71",
-      "a841c617d6ee4590adde0f8377ed43b9"
+      "a841c617d6ee4590adde0f8377ed43b9",
+      "be8cd77be15147d68e9ae4e1b8140472"
     ]
   },
   "updated_at": "2026-10-13T17:52:06.640Z",
@@ -1122,6 +1139,7 @@
     "17c2f95f1f9349dabfe9a2e75fd9a18c": "A9",
     "79090d8a644f44068751a0d33cbfeb71": "H · Wan 3.0",
     "66dc44271e6f4336ad801102ca860e68": "I · Wan 3.0",
-    "45fb0ba125114ba48b48dd8a129f9015": "J · Wan 3.0"
+    "45fb0ba125114ba48b48dd8a129f9015": "J · Wan 3.0",
+    "be8cd77be15147d68e9ae4e1b8140472": "A13"
   }
 }

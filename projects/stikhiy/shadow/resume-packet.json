@@ -3,18 +3,47 @@
   "generator": "continue-2.0",
   "project": "stikhiy",
   "project_name": "Стахий",
-  "checked_at": "2026-11-26T21:01:36+00:00",
-  "source_head": "9effc473e96aa61f1604f5d1066276ca2b60c5ea",
-  "source_fingerprint": "bfcb6e378374159da7c896fee4bdfab4709f958620b972251a1dd16a1a73d08c",
-  "status": "needs_recovery",
-  "ready_for_resume": false,
+  "checked_at": "2026-11-26T22:07:30+00:00",
+  "source_head": "d55c75e3b322cf78d19e675280e938af454de58b",
+  "source_fingerprint": "5ec7e0a9b59896d9ecd555d44688ad03be4b0ce322e588d695a0204e85d46c3a",
+  "status": "ready",
+  "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [
-    "selected checkpoint hash mismatch"
-  ],
-  "selected_work": null,
-  "checkpoint_text": "# 19.11.2026 — Стахий: перенос проекта и статус работы\n\nwork_id: STIKHIY-SCENE1-20261118\n\nПроект выделен из «Разного» по прямому поручению владельца. Сцена 1 «Ради этого стоит жить»; имя героя — Стахий. Сохранены варианты 15×15 и 10×30, все 25 промтов, 10 локаций, 9 черновых листов внешности и реконструкция дачи. Нумерация исходных эпизодов и реплики не менялись. Шура и Юлия по-прежнему не распределены по ролям. Оригинальные семейные фотографии не опубликованы.\n\nДобавлены 11 отдельных V2-листов с ракурсами головы: 8 других персонажей и Стахий по листу на 1, 2 и 3 года. Девять прежних V1 сохранены как дополнительные. Роли Шуры и Юлии, номера и входы промтов не менялись.\n\nСледующий шаг: Проверить с владельцем черновые референсы, уточнить роли Шуры и Юлии, затем проверить пробную озвучку ночного диалога и 188-секундный монтаж. До отдельного разрешения видео не запускать.\n",
+  "reasons": [],
+  "selected_work": {
+    "work_id": "STIKHIY-SCENE1-20261118",
+    "title": "Стахий: сцена 1 и разбивка 15/30 секунд",
+    "status": "awaiting_editorial_review",
+    "last_completed": "Подготовлены четыре референса, 25 базовых и восемь дополнительных промптов. Единственная рабочая сетка владельца — 03:52.",
+    "next_action": "Grok: взять только рабочие 03:52, провести контрольную читку 06/08/10 и сверить модель Зенита до крупного плана; Dot видео не запускает.",
+    "verified_at": "2026-11-26T22:07:30+00:00",
+    "blockers": [],
+    "evidence": [
+      {
+        "file": "projects/stikhiy/references/scenes/scene-1/reference-bindings.json",
+        "sha256": "ee455921736f0ae96eed6d5571ef654900c928cfed502593ba40f88928e301a2"
+      },
+      {
+        "file": "projects/stikhiy/references/scenes/scene-1/continuity-edit-v2.md",
+        "sha256": "501dff6d007aca261e6412a7a2fc983e6f2de19c45528ec9e17e328156dc85a5"
+      },
+      {
+        "file": "projects/stikhiy/references/scenes/scene-1/manifest.json",
+        "sha256": "d2976a0f28c4eb39b8688205d9194108778772ed1f898a6442feb133c27ef2a0"
+      }
+    ],
+    "read_next": [
+      "projects/stikhiy/INSTRUCTIONS.md",
+      "projects/stikhiy/references/scenes/scene-1/production-preflight.md"
+    ],
+    "checkpoint": {
+      "file": "projects/stikhiy/reports/current-work-checkpoint.md",
+      "anchor": "# 27.11.2026 — Стахий: подготовка пакета сцены 1",
+      "sha256": "50c4c1d96671abf86eac24e4a31e859526551dcf9a98c4e191d85cfe354d613e"
+    }
+  },
+  "checkpoint_text": "# 27.11.2026 — Стахий: подготовка пакета сцены 1\n\nwork_id: STIKHIY-SCENE1-20261118\n\nФасад и двор, два листа деда Толи с кепкой, сценарий и автономные промпты 9:16 подготовлены. Две разные Ольги: Ольга Чечулина, впоследствии Мазур, — сестра Надежды и Валерия, крёстная Стахия и мама Юлии. Ольга Гусарова, впоследствии Чечулина, — жена Валерия и мама Виктории; пока в сериал не входит, её фото не присылались. На присланных фото с Ольгой — Ольга Мазур; конкретный файл её лица пока не привязан.\n\nВладелец выбрал единственный рабочий монтаж 03:52 с 8 монтажными карточками. Контрольная читка перед запуском — у Grok. Точный «Зенит» сверить перед крупным планом. Запуск делает Grok.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -107,7 +136,10 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [],
+  "read_next": [
+    "projects/stikhiy/INSTRUCTIONS.md",
+    "projects/stikhiy/references/scenes/scene-1/production-preflight.md"
+  ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -173,7 +205,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "020b49a47d181d5b171928def4a94588cba95269267030af3f073c550ae40540",
+      "sha256": "aefccd55381cf7400369377a7a6db9165ff75425def98d2e1645aec9132a614c",
       "bytes": 29586
     },
     {
@@ -188,13 +220,13 @@
     },
     {
       "file": "projects/stikhiy/HANDOFF.md",
-      "sha256": "225162b5b7ec600ca153a7bf5da8b7d1ba2f52bd627cc23e3a4cc115af7dc8dc",
-      "bytes": 3201
+      "sha256": "c4f63be1eebe2d39431463af38d68f0404a567f357d539c9234ded04060ea78e",
+      "bytes": 7097
     },
     {
       "file": "projects/stikhiy/INSTRUCTIONS.md",
-      "sha256": "03a2b5f94a91cd6967218f0a61b4a725887098a22d014619f559e20dce255f76",
-      "bytes": 2199
+      "sha256": "11f92f7a00a388bb532990e19813455eea96e35d924801b9155dc46312b539fa",
+      "bytes": 6791
     },
     {
       "file": "projects/stikhiy/ops/topview-launch-queue.json",
@@ -203,23 +235,38 @@
     },
     {
       "file": "projects/stikhiy/project-status.json",
-      "sha256": "93fc57747cda6b2b49aab00e1a9ac8b3cfcc15b6e6935f9173959946b918d82b",
-      "bytes": 7942
+      "sha256": "861366aeac36e4c11d785b881479beefdb0fc6ca851437d27799bf06c8d21579",
+      "bytes": 8333
+    },
+    {
+      "file": "projects/stikhiy/references/scenes/scene-1/continuity-edit-v2.md",
+      "sha256": "501dff6d007aca261e6412a7a2fc983e6f2de19c45528ec9e17e328156dc85a5",
+      "bytes": 18194
+    },
+    {
+      "file": "projects/stikhiy/references/scenes/scene-1/manifest.json",
+      "sha256": "d2976a0f28c4eb39b8688205d9194108778772ed1f898a6442feb133c27ef2a0",
+      "bytes": 34402
+    },
+    {
+      "file": "projects/stikhiy/references/scenes/scene-1/reference-bindings.json",
+      "sha256": "ee455921736f0ae96eed6d5571ef654900c928cfed502593ba40f88928e301a2",
+      "bytes": 55069
     },
     {
       "file": "projects/stikhiy/reports/current-work-checkpoint.md",
-      "sha256": "85e33fbc0493149c45eecf75f8cc870bde3860ddd60dc62ff3aa77cc88c7db7c",
-      "bytes": 1537
+      "sha256": "88dd58a770129f441675cee1c35520b77dc282b8e824b1111ff703310df0ed6f",
+      "bytes": 5549
     },
     {
       "file": "projects/stikhiy/video-prompts.md",
-      "sha256": "f3972a1fd89106e603c91d39c6ea10c91dcbfc2959c61988f9eeeb07162facd3",
-      "bytes": 156826
+      "sha256": "14eb5191ce1340fd9911f0845b53dc53e4c1b975f2e6a11da0399d60f5b70669",
+      "bytes": 173284
     },
     {
       "file": "projects/stikhiy/work-resume-register.json",
-      "sha256": "3d262c30d58ff2299db5a2583c49d75af3d61d73c91852d73e5efaff5f28d02b",
-      "bytes": 3917
+      "sha256": "6b3883182c8649d744147f071fdac92b54768b73df18fd71d5c3465a5fb143a3",
+      "bytes": 3997
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -228,14 +275,14 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "74b8e092253a2201b62004ff52c27bccbccf8953bcf93ca6b5d212737467deeb",
+      "sha256": "48dc3bbe039dd3250472b99acd3c2a27bf354afbef3a7e7ea7dad351bff1ca32",
       "bytes": 32409
     },
     {
       "file": "video-prompts.md",
-      "sha256": "b6485b582bc4a23105fc115f0eac7879eb6712d72fd88c79a1381eda9565e7d5",
-      "bytes": 2004751
+      "sha256": "dc5b9f1f870e262419a1cc08335677cd51119fdc8bd3df753b6a3561e8be9100",
+      "bytes": 2005020
     }
   ],
-  "packet_bytes": 5379
+  "packet_bytes": 5620
 }

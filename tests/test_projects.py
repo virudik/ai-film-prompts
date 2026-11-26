@@ -110,11 +110,11 @@ class RegistryTests(unittest.TestCase):
         status = json.loads((ROOT / candidate["status"]).read_text())
         self.assertEqual((status["scene_ids"], status["prompt_texts"]), ([1], 25))
         refs = json.loads((ROOT / candidate["references"]).read_text())
-        self.assertEqual((len(refs["characters"]), len(refs["assets"])), (9, 11))
+        self.assertEqual((len(refs["characters"]), len(refs["assets"])), (13, 14))
         sheets = {c["id"]: c["model_sheet"]["gallery"] for c in refs["characters"]}
-        self.assertEqual([len(items) for items in sheets.values()], [2, 2, 4, 2, 2, 2, 2, 2, 2])
+        self.assertEqual([len(items) for items in sheets.values()], [2, 2, 4, 2, 2, 4, 2, 2, 2, 0, 0, 0, 0])
         self.assertTrue(all(not im["active_prompt_input"] for items in sheets.values() for im in items))
-        self.assertEqual([im["scenes"] for im in sheets["S6-Shura"] + sheets["S6-Julia"]], [[], [], [], []])
+        self.assertEqual([im["scenes"] for im in sheets["S6-Shura"] + sheets["S6-Julia"]], [[1], [1], [], []])
         self.assertEqual([Path(im["path"]).stem for im in sheets["S6-Stas-ages"][1:]],
                          ["S6-Stakhiy-age-1-Head-V2", "S6-Stakhiy-age-2-Head-V2", "S6-Stakhiy-age-3-Head-V2"])
         raznoe = prj.get(ROOT, "raznoe")

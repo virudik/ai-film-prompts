@@ -21,9 +21,9 @@
 
 **Имя героя:** Стахий. Это имя используется во всех карточках, подписях и репликах для озвучки.
 
-**Семья (уточнения владельца 26–27.11.2026, t962u–t977u):** Стахий — главное действующее лицо; Надежда — мама; Аркадий — папа; Пётр и Нина — дедушка и бабушка по папе; Владимир — крёстный, дядя по папе (родство с Аркадием пока не подтверждено); Александра (Шура) и Анатолий — бабушка и дедушка по маме; Надежда, Ольга Мазур и Валерий — родные брат и сёстры. Ольга Мазур — крёстная, тётя, мать Юлии; в серии 1 владелец назвал сестру мамы Ольгой Чечулиной, позже Мазур (t969u). Карточка «Ольга Чечулина» (по t962u — жена Валерия, мать Виктории) остаётся отдельно: ждёт подтверждения, возможно одно лицо с Ольгой Мазур; не схлопывать. Юлия в серии 1 не появляется. Open: «Ольга» во вставке эпизода 03 — сестра Надежды, в рабочих текстах серии 1: Ольга Чечулина (позже Мазур). Файлов с именем «Ольга Мазур» в репозитории, на сайте и в папке «фото 2» не найдено; лицам без фото внешность не выдумывать и не считать блокером (некрупно / спиной / вне фокуса либо убрать из кадра). Никакие фото не приписывать Ольге Гусаровой. Разбор и бриф для Dot: [family-canon-photos-2026-11-26.md](projects/stikhiy/reports/family-canon-photos-2026-11-26.md), [dot-brief-stikhiy-scene1-2026-11-27.md](projects/stikhiy/reports/dot-brief-stikhiy-scene1-2026-11-27.md).
+**Семья:** Стахий — главный герой, Надежда — мама, Аркадий — папа; Пётр и Нина — дед и бабушка по папе; Владимир — крёстный, дядя по папе; Александра (Шура) и Анатолий — бабушка и дед по маме. Две разные Ольги: Ольга Чечулина, впоследствии Мазур, — сестра Надежды и Валерия, крёстная Стахия и мама Юлии. Ольга Гусарова, впоследствии Чечулина, — жена Валерия и мама Виктории; пока в сериал не входит, её фото не присылались. На присланных фото с Ольгой — Ольга Мазур; конкретный файл её лица пока не привязан.
 
-<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":188,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["owner_requested","draft","vertical_9x16","biographical_screenplay","two_duration_breakdowns","references_missing","not_approved"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":232,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["owner_requested","draft","vertical_9x16","biographical_screenplay","two_duration_breakdowns","references_missing","not_approved"]} -->
 
 **Контекст использования:** по файлу владельца «Фильм Стахий.docx», 18.11.2026. Первая сцена отдельного проекта «Стахий». Автобиографическая короткометражная драма, Люберцы и Москва, конец 1980-х. Сезон 1, серия 1. Авторские 10 эпизодов объединены в одну сцену проекта, а не десять новых Scene ID.
 
@@ -31,17 +31,17 @@
 
 **Источник:** [полный текст сценария с исходными репликами и примечаниями](projects/stikhiy/references/scenes/scene-1/source-scenario.md). Разбивка ниже редакторская; исходный текст не сокращён и не выдан за согласованные биографические факты.
 
-**Формат:** полный кадр 9:16, без чёрных полос; целевой монтаж 03:08 (188 с). Фотореалистичная сдержанная драма как постановочная реконструкция, не архивная хроника. Тёплое лето → зимняя мечта → тревога → холодная больница → тихая квартира.
+**Формат:** 9:16, без чёрных полос. Рабочий монтаж для Grok — **03:52 (232 с), выбран владельцем**. Фотореалистичная сдержанная драма, постановочная реконструкция, не хроника. Тёплое лето → зимняя мечта → тревога → холодная больница → тихая квартира.
 
-**Референсы:** 10 прежних локаций сохранены. Геометрию дачи с 26.11.2026 описывать по фото владельца (папка [фото 2](https://disk.yandex.ru/d/pMKJ6Ia_nRVXiw): «Дачный дом Аркадий и Надежда.JPG» и «… 2.JPG»); текущие ИИ-реконструкции дома этому не соответствуют. Исходные семейные фото в репозиторий не публикуются. Подробный разбор: [family-canon-photos-2026-11-26.md](projects/stikhiy/reports/family-canon-photos-2026-11-26.md).
+**Референсы:** 10 прежних локаций сохранены. Геометрию дачи с 26.11.2026 описывать по фото владельца (семейные исходники, доступ у владельца: «Дачный дом Аркадий и Надежда.JPG» и «… 2.JPG»); текущие ИИ-реконструкции дома этому не соответствуют. Исходные семейные фото в репозиторий не публикуются. Подробный разбор: [family-canon-photos-2026-11-26.md](projects/stikhiy/reports/family-canon-photos-2026-11-26.md).
 
-**Готовность:** DRAFT / not_approved. Разрешения на запуск нет. Цель совместно с Dot — довести сцену 1 до полной готовности к генерации видео: сценарий, закадр и диалоги, самодостаточные промты, согласованные рефы лиц/локаций/реквизита, проверенные длительности. После картинок Dot — проверка итога и список оставшихся препятствий. Исходные реплики не сокращались. Живые реплики-черновик — в эпизодах 01, 02, 04, 07 и 10. Рабочая эпоха — конец 1980-х. Развёртки персонажей, кроме правки кепки Анатолия, не перерисовывать. Эпизод 06 по-прежнему тесен.
+**Рабочий пакет:** четыре новых референса, 25 базовых вертикальных карточек, восемь дополнительных промптов для рабочей сетки 03:52. Все исходные реплики сохранены. Закадр — голос взрослого Стахия поверх нескольких эпизодов; диалоги произносят герои кадра. Перед началом Grok проверяет речь по слотам и не включает автоматическую очередь. Это не художественная приёмка.
 
 ### Локации сцены 1
 
 10 отдельных изображений без людей. Кухня, ванная, коридор и палата имеют портретное соотношение сторон, отличное от 9:16: это reference-only входы, не готовые кадры видео; не растягивать. Сама сцена остаётся 9:16. Локации не задают лица или внешность героев.
 
-<div class="scene-ref-gallery"><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.png" alt="Летняя дача — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Летняя дача · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png" alt="Общая комната квартиры — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Общая комната квартиры · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.png" alt="Кухня вечером — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Кухня вечером · 1052×1494 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.png" alt="Ванная — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Ванная · 1055×1491 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png" alt="Спальня ночью — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Спальня ночью · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png" alt="Красная площадь зимой — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Красная площадь зимой · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.png" alt="Токарный цех — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Токарный цех · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.png" alt="Больничный коридор — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Больничный коридор · 1049×1499 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png" alt="Больничная палата — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Больничная палата · 1054×1492 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.png" alt="Кладбище, дальний план — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Кладбище, дальний план · 941×1672 · не одобрено</figcaption></figure></div>
+<div class="scene-ref-gallery"><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png" alt="Летняя дача — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Летняя дача · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png" alt="Общая комната квартиры — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Общая комната квартиры · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.png" alt="Кухня вечером — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Кухня вечером · 1052×1494 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.png" alt="Ванная — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Ванная · 1055×1491 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png" alt="Спальня ночью — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Спальня ночью · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png" alt="Красная площадь зимой — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Красная площадь зимой · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.png" alt="Токарный цех — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Токарный цех · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.png" alt="Больничный коридор — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Больничный коридор · 1049×1499 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png" alt="Больничная палата — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Больничная палата · 1054×1492 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.png" alt="Кладбище, дальний план — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Кладбище, дальний план · 941×1672 · не одобрено</figcaption></figure></div>
 
 ### Персонажи сцены 1 — ростовой лист и ракурсы головы
 
@@ -51,7 +51,11 @@ V1 — прежняя ростовая версия. V2 — тот же обра
 
 Костюм Стахия с надписью Coca-Cola с семейных фото можно использовать в некоторых сценах как необязательный вариант, не как постоянный замок. Игрушку, похожую на пистолет, не использовать.
 
-**Лица без исходного фото (это не блокер, t977u):** новых фото не будет. Валерий, Виктория, Ольга Мазур / Ольга Чечулина (если останутся в кадре вставки эпизода 03) — либо убрать из плана, либо показать некрупно, спиной или вне фокуса. Лица не выдумывать. Юлия в серии 1 не появляется. Open: состав вставки эпизода 03 и тождество двух Ольг.
+**Уличные листы Анатолия:** [рост и портрет](projects/stikhiy/references/scenes/scene-1/S6-Anatoly-cap.webp) · [ракурсы головы](projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2-cap.webp). Самокрутки на листах нет: она только в уличном кадре. Для интерьера использовать исходные листы без кепки.
+
+**Стоп-правила:** не добавлять пистолет, неизвестную женщину с края фото, Юлию и жену Валерия. Для Валерия, Вики и Ольги Мазур без привязанного лицевого референса: только дальний план, спина, нерезкость или убрать из кадра. Лицо не выдумывать.
+
+**Лица без привязанного референса:** не блокируют сцену 1. В квартирной вставке при необходимости Ольга — сестра Надежды, будущая Мазур; жена Валерия не входит. Дальний план, спина, нерезкость либо исключение.
 
 **Анатолий / дед Толя.** На улице всегда в мягкой гражданской фуражке (кепке) по «Анатолий 4.JPG» (профиль — «Анатолий 3.JPG»): невысокая чуть сплюснутая тулья из мелкофактурной ткани, на чёрно-белом снимке среднего серого тона, без кокарды и форменного околыша; сидит низко на лбу. На улице всегда самокрутка во рту (не фабричная сигарета). В помещении самокрутки нет; кепка в помещении не обязательна. Текущие эпизоды 02 и 04 поставлены как интерьер: самокрутки там нет. Если эпизод 02 вынесут во двор дачи — кепка и самокрутка обязательны. Существующие листы ниже — без кепки: лицо с них сохранять. Dot только дорисует кепку на `S6-Anatoly.webp` и `S6-Anatoly-Head-V2.webp`, остальные развёртки не перерисовывать. Самокрутку на листы не добавлять (она только в уличных кадрах сцены).
 
@@ -99,58 +103,47 @@ V1 — прежняя ростовая версия. V2 — тот же обра
 
 Деревянная дача сцены 1 — по снимкам «Дачный дом Аркадий и Надежда.JPG» и «Дачный дом Аркадий и Надежда 2.JPG»: небольшой дощатый дом с волнистой металлической кровлей, два окна с переплётом и занавесками, центральный дверной проём с деревянными створками; летом у фасада высокие пальчатые садовые растения. На участке отдельно стоит душевая с бочкой для воды на крыше и ещё одна бочка в траве («Дачная душевая и бочка с водой Аркадий и Надежда.JPG»). По решению владельца при перерисовке пустых локаций добавить: вишнёвое дерево у бочки; правее бочки — теплица с помидорами и огурцами. Это фон двора, не новый сюжетный эпизод. Формат сцены и новых пластин локаций — **9:16** (вертикаль), не 16:9. Пустые локации дорисует Dot, без людей; промты и имена файлов — в [брифе](projects/stikhiy/reports/dot-brief-stikhiy-scene1-2026-11-27.md). Текущие ИИ-реконструкции дома не совпадают с фото (бирюзовая покраска, теплица и кованая беседка не с того места). Снимок «Дом в деревне Стахий и Пътр.JPG» — другой дом и школьный возраст Стахия; в серию 1 не входит.
 
-Картинка ниже — прежняя ИИ-реконструкция: бирюзовая покраска, теплица и кованая беседка **не совпадают** с фото дома. Пока её не перерисуют без людей, геометрию и материалы брать из текстового описания фото, а не из этой картинки как из авторитета. Исходные семейные фото в репозиторий не публикуются: [папка «фото 2»](https://disk.yandex.ru/d/pMKJ6Ia_nRVXiw).
+Картинка ниже — прежняя ИИ-реконструкция: бирюзовая покраска, теплица и кованая беседка **не совпадают** с фото дома. Пока её не перерисуют без людей, геометрию и материалы брать из текстового описания фото, а не из этой картинки как из авторитета. Исходные семейные фото в репозиторий не публикуются: источники владельца, не для публикации.
 
-<div class="scene-ref-gallery"><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-Dacha-reference.webp" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-Dacha-reference.webp" alt="Дача и сад · реконструкция по фото · черновик" loading="lazy"></a><figcaption>Дача и сад · реконструкция по фото · черновик</figcaption></figure></div>
+<div class="scene-ref-gallery"><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png" alt="Дача и сад · реконструкция по фото · черновик" loading="lazy"></a><figcaption>Дача и сад · реконструкция по фото · черновик</figcaption></figure></div>
 
 ### Два варианта по количеству роликов
 
 **Основная разбивка бережёт границы 10 авторских эпизодов:** вариант A — **15 роликов по 15 с** (225 с исходного материала, 188 с в монтаже); вариант B — **10 роликов по 30 с** (300 с исходного материала, 188 с в монтаже). «Использовать» ниже — длина в финальном монтаже, а не обещание нативного режима 8/9/12/23/26/29 с. Лишние секунды — монтажный запас, не новые события и не длинные неподвижные паузы. Это альтернативы, не суммарный заказ 25 генераций.
 
-Арифметический минимум при сквозной сетке — 13×15 с либо 7×30 с, но он объединяет разные места/времена и режет драматические эпизоды. Он не выбран как производственная разбивка. Число пригодных дублей и повторных попыток заранее неизвестно.
+Единственный монтаж от начала до титра — 03:52. Число дублей заранее неизвестно.
 
 <div class="engine-tabs" data-scene="1">
 
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
-#### 1 · Вариант B · 10 роликов по 30 с
+#### 1 · Базовые карточки Wan 3.0 · лимит 30 с
 
 **Входы:** локации и дополнительные рабочие референсы перечислены у каждой карточки. Для слышимой русской речи предпочтение Wan 3.0; подпись общей вкладки не разрешает перенос в Seedance 2.5. Ни одна карточка пока не READY.
 
-| Подсцена | Исходный эпизод / время фильма | Использовать | Постановочное действие, звук и монтажный выход |
-|---|---|---:|---|
-| 1-B01 | 01. Счастливое лето · 00:00–00:23 | 23 с | Дача по фото дома: Аркадий держит годовалого Стахия на коленях, Надежда кормит клубникой. Пётр (дедушка по папе), Нина (бабушка по папе) и Владимир (крёстный, дядя по папе) рядом. Короткие живые реплики семьи (черновик), без закадрового объяснения. |
-| 1-B02 | 02. Дедушка и сладкая вата · 00:23–00:38 | 15 с | Анатолий (дедушка по маме) приносит сладкую вату в коричневой крафтовой бумаге. Сейчас интерьер: без самокрутки, кепка не обязательна. Если вынести во двор дачи — кепка по «Анатолий 4.JPG» и самокрутка во рту обязательны. Короткие живые реплики Анатолия и Надежды; малыш без слов. |
-| 1-B03 | 03. Мечта · 00:38–01:02 | 24 с | Зима, Красная площадь, родители с коляской. Реплики Аркадия о своей квартире и ответ Надежды сохранить целиком. Монтажная вставка тесной четырёхкомнатной квартиры: Александра (Шура), Валерий, Ольга Чечулина (позже Мазур), сестра Надежды — Open, и маленькая Виктория (Вика). Юлия не появляется. У кого нет фото лица (Валерий, Ольга, Виктория) — некрупно, спиной или вне фокуса, либо убрать из кадра; лица не выдумывать. Это не блокер. Не выдавать вставку за непрерывное перемещение камеры. |
-| 1-B04 | 04. Смерть дедушки Анатолия · 01:02–01:17 | 15 с | Квартира, в помещении: Анатолию плохо, он падает; самокрутки нет, кепка не обязательна. Взгляд с высоты маленького Стахия. Короткие испуганные возгласы без объяснения. Склейка на пустое кресло и бумагу. Без натурализма и музыки, подсказывающей диагноз. |
-| 1-B05 | 05. Первый кашель · 01:17–01:32 | 15 с | АЗЛК, Аркадий у токарного станка; приступ кашля, пауза, возвращение к работе. Звук оборудования и кашель как мост домой. Не связывать болезнь с работой причинным утверждением. |
-| 1-B06 | 06. Ничто не вечно · 01:32–01:58 | 26 с | Возвращение, кухня, бритьё и ночной разговор рядом со спящим сыном. Самый перегруженный эпизод: исходные реплики и кровь при кашле оставлены только как реконструкция до согласования. Монтаж/запись речи должны подтвердить длительность; не ускорять речь ради цифры. |
-| 1-B07 | 07. Год надежды · 01:58–02:18 | 20 с | Надежда ведёт почти двухлетнего Стахия по коридору к Аркадию. Сдержанный монтаж года: палата, персонал, календарь, операция вне подробностей, временное улучшение и ухудшение. Точный текст взрослого Стахия из источника; без добавленного диагноза. |
-| 1-B08 | 08. Зенит · 02:18–02:47 | 29 с | Сын обнимает ослабленного отца и говорит о мясе; мама приносит коробку с новым «Зенитом», отец отвечает. Реплики целиком по источнику, руки и корпус камеры крупно, щелчок затвора в финале. Кульминация, без рекламной подачи. |
-| 1-B09 | 09. Тишина · 02:47–02:56 | 9 с | Щелчок обрывается, тишина. Дальний план похорон, Надежда и Стахий. Голос: «Папе было тридцать. Мне — три». Музыки нет; сохранить паузу и отсутствие натуралистичных подробностей. |
-| 1-B10 | 10. То, что осталось · 02:56–03:08 | 12 с | Надежда ставит «Зенит» у фотографии Аркадия, Стахий смотрит. Полный финальный закадровый текст из источника. Чёрный экран и «Продолжение следует…» делать монтажом, не генерировать буквы внутри кадра. |
+**Время в фильме:** только [рабочая сетка 03:52](projects/stikhiy/references/scenes/scene-1/continuity-edit-v2.md). Ниже блоки промптов по движку, а не отдельная монтажная версия. Эпизоды 06, 08 и 10 собирать по карточкам 06a–06d, 08a–08c и 10a из рабочей сетки.
 
 <a id="1-B01"></a>
 #### 1-B01 · 30 с · DRAFT
 
-**Локации:** [Летняя дача](projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.png). Только окружение, не лица.
+**Локации:** [Летняя дача](projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp) · [Пётр](projects/stikhiy/references/scenes/scene-1/S6-Petr.webp) · [Нина](projects/stikhiy/references/scenes/scene-1/S6-Nina.webp) · [Владимир](projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp) · [Дача и сад · реконструкция по фото](projects/stikhiy/references/scenes/scene-1/S6-Dacha-reference.webp). Стахию около года: левая колонка листа.
+**Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp) · [Пётр](projects/stikhiy/references/scenes/scene-1/S6-Petr.webp) · [Нина](projects/stikhiy/references/scenes/scene-1/S6-Nina.webp) · [Владимир](projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp) · [Дача и сад · реконструкция по фото](projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png). Стахию около года: левая колонка листа.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0
 
 REFERENCES / LOCATION AUTHORITY:
-@Image1 = projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.png; Летняя дача. Environment geometry, materials and period only; not identity, costume or mandatory first frame. Текущая ИИ-картинка не соответствует фото дачного дома владельца; геометрию брать из текстового описания фасада, слот @Image1 не перенумеровывать.
+@Image1 = projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png; Летняя дача. Environment geometry, materials and period only; not identity, costume or mandatory first frame. Фасад конца 1980-х, сверенный с архивными фото, без людей. Слот @Image1 не перенумеровывать.
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
-WORKING REFERENCES (for review; not numbered inputs): S6-Arkady: projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp; S6-Nadezhda: projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp; S6-Stas-ages: projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp; S6-Petr: projects/stikhiy/references/scenes/scene-1/S6-Petr.webp; S6-Nina: projects/stikhiy/references/scenes/scene-1/S6-Nina.webp; S6-Vladimir: projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp; S6-Dacha-reference: projects/stikhiy/references/scenes/scene-1/S6-Dacha-reference.webp.
+WORKING REFERENCES (for review; not numbered inputs): S6-Arkady: projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp; S6-Nadezhda: projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp; S6-Stas-ages: projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp; S6-Petr: projects/stikhiy/references/scenes/scene-1/S6-Petr.webp; S6-Nina: projects/stikhiy/references/scenes/scene-1/S6-Nina.webp; S6-Vladimir: projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp; S6-LOC-dacha-shower: projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png.
 Стахию около года: левая колонка листа.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Аркадий — папа, муж Надежды; Надежда — мама; Стахий — ребёнок около года. Пётр — дедушка по папе, Нина — бабушка по папе, Владимир — крёстный, дядя по папе. Не смешивать их лица и поколения. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Аркадий — папа, муж Надежды; Надежда — мама; Стахий — ребёнок около года. Пётр — дедушка по папе, Нина — бабушка по папе, Владимир — крёстный, дядя по папе. Не смешивать их лица и поколения. Если лицо второстепенного родственника не подтверждено рабочим входом, оставлять его вне фокуса или снимать со спины; его короткую реплику можно оставить за кадром. Не выдумывать лицо. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Летняя семейная дача по фото владельца: небольшой дощатый дом с волнистой металлической кровлей, два окна с переплётом и занавесками, центральный дверной проём с деревянными створками; летом у фасада высокие пальчатые садовые растения; в глубине двора может читаться отдельно стоящая душевая с бочкой на крыше, вишнёвое дерево у бочки и правее бочки теплица с помидорами и огурцами — только как часть участка, не отдельный сюжет. Не брать геометрию у текущих ИИ-реконструкций (бирюзовый дом, теплица, кованая беседка). Натуральный дневной свет сквозь листву. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
@@ -168,7 +161,7 @@ CAMERA / CONTINUITY:
 Один мягкий боковой проезд на уровне сидящих людей; не кружить вокруг ребёнка. Stable physical camera, coherent space and motivated cuts only. Preserve object ownership and hand contacts. No forced frozen tableau merely to fill the render limit.
 
 AUDIO:
-Живые реплики, черновик 26.11.2026, не из диалогов исходного документа. НАДЕЖДА: «На, ягодку. Сладкая.» АРКАДИЙ: «Кушай, сынок.» ПЁТР: «Хороший денёк.» НИНА: «Только аккуратнее.» ВЛАДИМИР: «Я воды наберу.» Около 13 слов, в слоте 30 с запас есть. Русская естественная речь, говорящий один за раз; смех, птицы и листья ниже речи. Без закадрового объяснения.
+Живые реплики, черновик 26.11.2026, не из диалогов исходного документа. НАДЕЖДА: «На, ягодку. Сладкая.» АРКАДИЙ: «Кушай, сынок.» ПЁТР: «Хороший денёк.» НИНА: «Только аккуратнее.» ВЛАДИМИР: «Я воды наберу.» 12 слов; расчётный запас в монтажных 23 с есть. Русская естественная речь, говорящий один за раз; смех, птицы и листья ниже речи. Без закадрового объяснения.
 
 NEGATIVE / FRAME FILL:
 Не дублировать ребёнка, не менять хват отца, не навязывать печальную музыку. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
@@ -190,31 +183,30 @@ REFERENCES / LOCATION AUTHORITY:
 @Image1 = projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png; Общая комната квартиры. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
-WORKING REFERENCES (for review; not numbered inputs): S6-Anatoly: projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp; S6-Stas-ages: projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp.
+WORKING REFERENCES (for review; not numbered inputs): S6-Anatoly: projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp; S6-Nadezhda: projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp; S6-Stas-ages: projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp.
 Стахий около года: предварительно левая колонка листа.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Анатолий — дедушка Стахия по маме, отец Надежды. Этот эпизод сейчас поставлен как интерьер: самокрутки нет, кепка в помещении не обязательна. Правило на улице (если сцену вынесут во двор): всегда кепка по «Анатолий 4.JPG» (профиль — «Анатолий 3.JPG») и всегда самокрутка во рту. Листы S6-Anatoly.webp и S6-Anatoly-Head-V2.webp пока без кепки: лицо с них сохранять, кепку дорисует Dot, самокрутку на лист не добавлять. Стахий — маленький ребёнок. Это не дедушка Пётр. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Анатолий — дедушка Стахия по маме, отец Надежды. Этот эпизод сейчас поставлен как интерьер: самокрутки нет, кепка в помещении не обязательна. Правило на улице (если сцену вынесут во двор): всегда кепка по «Анатолий 4.JPG» (профиль — «Анатолий 3.JPG») и всегда самокрутка во рту. Листы S6-Anatoly.webp и S6-Anatoly-Head-V2.webp пока без кепки: лицо с них сохранять, кепку дорисует Dot, самокрутку на лист не добавлять. Стахий — маленький ребёнок около года; Надежда — его мать, рядом на краю кадра. Она единственный взрослый голос помимо Анатолия. Это не дедушка Пётр. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Обычный семейный интерьер конца 1980-х, мягкий оконный свет. Место этого эпизода — постановочное предложение, в исходнике не уточнено. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
 
 START STATE:
-Дедушка держит сладкую вату в коричневой крафтовой бумаге, ребёнок видит угощение.
-Дедушка держит сладкую вату в коричневой крафтовой бумаге, ребёнок видит угощение.
+Анатолий входит в комнату с одним свёртком в коричневой крафтовой бумаге; Стахий замечает его, Надежда рядом, чуть сзади.
 
 STORY FLOW:
-Дедушка приближается и раскрывает угощение; ребёнок тянется к нему. Показать руки, шуршащую бумагу, радость ребёнка и улыбку дедушки.
+Анатолий опускается к уровню ребёнка и приоткрывает один свёрток. Стахий тянется к вате; Надежда говорит свою короткую реплику из-за плеча ребёнка. Показать руки, не меняя владельца свёртка, шорох бумаги и улыбку деда. Второй свёрток и новая порция не появляются.
 
 END STATE:
-Угощение между дедушкой и ребёнком; коричневая бумага хорошо различима.
+Именно этот лист крафтовой бумаги различим у пальцев Анатолия; в эпизоде 04 он вернётся на столе уже пустым, узнаваемым по той же складке.
 
 CAMERA / CONTINUITY:
 Мотивированные склейки: средний парный план → крупно руки и бумага → реакция ребёнка. Stable physical camera, coherent space and motivated cuts only. Preserve object ownership and hand contacts. No forced frozen tableau merely to fill the render limit.
 
 AUDIO:
-Живые реплики, черновик 26.11.2026. АНАТОЛИЙ: «На, Стахий, тебе сладкую вату принёс.» НАДЕЖДА: «Скажи деду спасибо.» Около 10 слов, умещается в 15 с. Малыш отвечает радостным звуком, без разборчивых слов. Шорох крафтовой бумаги ниже речи. Русская естественная речь, говорящий один за раз.
+Живые реплики, черновик 26.11.2026. АНАТОЛИЙ: «На, Стахий, тебе сладкую вату принёс.» НАДЕЖДА: «Скажи деду спасибо.» 9 слов; в сетке 15 с есть расчётный запас, но темп зависит от записи. Надежда вне резкого плана, её реплика звучит из-за плеча ребёнка. Малыш отвечает радостным звуком, без разборчивых слов. Шорох крафтовой бумаги ниже речи. Русская естественная речь, говорящий один за раз.
 
 NEGATIVE / FRAME FILL:
 Не заменять бумагу пластиком, не подменять Анатолия Петром, не превращать в рекламу сладостей. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
@@ -226,7 +218,7 @@ NEGATIVE / FRAME FILL:
 
 **Локации:** [Красная площадь зимой](projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png) · [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Ранний возраст Стахия: предварительно левая колонка. Для Шуры есть рабочий лист. У Валерия, Ольги (Чечулина / позже Мазур) и Виктории исходного фото лица в репозитории нет: не выдумывать, показать некрупно / спиной / вне фокуса либо убрать из кадра (это не блокер). Юлию не ставить.
+**Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Ранний возраст Стахия: предварительно левая колонка. Для Шуры есть рабочий лист. У Валерия, Ольги Мазур (девичья фамилия Чечулина) и Виктории нет привязанного лицевого референса: не выдумывать, показать некрупно / спиной / вне фокуса либо убрать из кадра (это не блокер). Юлию не ставить.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
@@ -238,11 +230,11 @@ REFERENCES / LOCATION AUTHORITY:
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
 WORKING REFERENCES (for review; not numbered inputs): S6-Arkady: projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp; S6-Nadezhda: projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp; S6-Stas-ages: projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp. S6-Shura: projects/stikhiy/references/scenes/scene-1/S6-Shura.webp.
-Ранний возраст Стахия: предварительно левая колонка. Для Шуры есть рабочий лист. У Валерия, Ольги (Чечулина / позже Мазур) и Виктории исходного фото лица в репозитории нет: не выдумывать, показать некрупно / спиной / вне фокуса либо убрать из кадра (это не блокер). Юлию не ставить.
+Ранний возраст Стахия: предварительно левая колонка. Для Шуры есть рабочий лист. У Валерия, Ольги Мазур (девичья фамилия Чечулина) и Виктории нет привязанного лицевого референса: не выдумывать, показать некрупно / спиной / вне фокуса либо убрать из кадра (это не блокер). Юлию не ставить.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Аркадий — папа, Надежда — мама, Стахий — маленький ребёнок в коляске; в квартирной вставке также Александра (Шура) — бабушка по маме; Валерий — дядя по маме, родной брат Надежды; Ольга Чечулина (позже Мазур) — сестра Надежды (рабочее чтение «Ольги» в этой квартире для серии 1; Open: t967u/t969u, карточки Мазур и Чечулиной не схлопывать). Виктория (Вика) — маленькая дочь Валерия, двоюродная сестра Стахия. Юлию не ставить. У Валерия, Ольги и Виктории нет исходного фото лица: не выдумывать, некрупно / спиной / вне фокуса либо убрать из кадра. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Аркадий — папа, Надежда — мама, Стахий — ребёнок. Во вставке Александра (Шура), бабушка по маме. При необходимости Валерий, Вика и сестра Надежды Ольга Чечулина (позже Мазур) только спиной, издали или вне фокуса. Не показывать жену Валерия Ольгу Гусарову (после брака также Чечулину), Юлию и неизвестную женщину. Не выдумывать лица. Natural anatomy and age-appropriate scale; no identity swaps, sudden aging or costume changes.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Зимняя Красная площадь Москвы в конца 1980-х, рассеянный зимний свет. Вставка: тесная многолюдная четырёхкомнатная квартира в Люберцах, домашний свет. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
@@ -287,7 +279,7 @@ WORKING REFERENCES (for review; not numbered inputs): S6-Anatoly: projects/stikh
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Анатолий — дедушка по маме, отец Надежды. Эпизод в квартире, в помещении: самокрутки нет, кепка не обязательна. На улице были бы обязательны кепка по «Анатолий 4.JPG» и самокрутка во рту — здесь этого нет. Маленький Стахий — точка наблюдения. Взрослые родственники реагируют за пределами главного плана. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Анатолий — дедушка по маме, отец Надежды. Эпизод в квартире: никаких самокруток или дыма, кепка не обязательна. Стахий — точка наблюдения. Надежда и Аркадий уже находятся рядом, за пределами главного плана; только эти двое произносят свои короткие возгласы. Не добавлять третьего говорящего. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Квартира конца 1980-х, обычный дневной свет, кресло и стол с коричневой крафтовой бумагой. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
@@ -590,49 +582,33 @@ NEGATIVE / FRAME FILL:
 
 <div class="engine-pane" data-engine="sd20">
 
-#### 1 · Вариант A · 15 роликов по 15 с
+#### 1 · Базовые карточки Seedance 2.0 · лимит 15 с
 
 **Входы:** локационные слоты сохранены; дополнительные рабочие референсы перечислены у каждой карточки. Для непрерывного продолжения A02, A05, A09, A11, A13 использовать настоящий хвост предыдущей части только после его появления и QC, если это именно непрерывный кадр; самостоятельную монтажную склейку не маскировать под бесшовное продолжение. @Video1 и имена файлов сейчас не назначаются. Русскую речь для Seedance 2.0 планировать отдельной записью и монтажом; естественный липсинк не заявлен проверенным.
 
-| Подсцена | Время фильма | Использовать | Действие / звук / стык |
-|---|---|---:|---|
-| 1-A01 | 00:00–00:15 | 15 с | Дача по фото дома: Аркадий с годовалым Стахием, Надежда и клубника. Короткие живые реплики Надежды и Аркадия (~6 слов), без закадрового пояснения. |
-| 1-A02 | 00:15–00:23 | 8 с | Продолжение счастливого лета: Пётр, Нина и Владимир в саду. Короткие живые реплики (~7 слов) в 8 с, без спешки и нового сюжета. |
-| 1-A03 | 00:23–00:38 | 15 с | Анатолий со сладкой ватой; сейчас интерьер (без самокрутки, кепка не обязательна). Если двор — кепка по «Анатолий 4.JPG» и самокрутка обязательны. Короткие живые реплики, радость Стахия, мотив крафтовой бумаги. |
-| 1-A04 | 00:38–00:53 | 15 с | Зимняя прогулка с коляской. Вся реплика Аркадия о своём жилье целиком; спокойная речь, без разрыва фразы на границе клипа. |
-| 1-A05 | 00:53–01:02 | 9 с | Ответ Надежды «Будет, Аркаш. Обязательно будет». Отдельная монтажная вставка тесной квартиры. Переход к следующему эпизоду после реакции. |
-| 1-A06 | 01:02–01:17 | 15 с | Квартира: Анатолию плохо, короткие испуганные возгласы с уровня ребёнка; самокрутки нет, кепка не обязательна. Затем пустое кресло и бумага. Смерть через отсутствие, не натурализм. |
-| 1-A07 | 01:17–01:32 | 15 с | Токарный станок АЗЛК, кашель, возвращение к работе. Кашель звуковым мостом в следующую часть. |
-| 1-A08 | 01:32–01:47 | 15 с | Домашний вечер: возвращение к сыну, кухня и переход к ночному разговору. Бритьё/кровь только после фактического согласования. Первая длинная реплика Аркадия целиком, без рубки слов. Требуется проба записи. |
-| 1-A09 | 01:47–01:58 | 11 с | Ответ Надежды и оставшиеся ночные реплики, перевод внимания на спящего ребёнка. Это предварительный монтажный слот: полный диалог в 11 с пока не подтверждён и вероятно требует пересмотра тайминга. Не сокращать текст самостоятельно. |
-| 1-A10 | 01:58–02:13 | 15 с | Надежда со Стахием в коридоре, палата, ход лечения и временное улучшение. Взрослый Стахий рассказывает о почти годе борьбы; запись отдельно. |
-| 1-A11 | 02:13–02:18 | 5 с | Завершение больничного монтажа и ухудшение. Последняя фраза «Но болезнь не отступила». Без нового диагноза или хирургического натурализма. |
-| 1-A12 | 02:18–02:33 | 15 с | Сын обнимает Аркадия, целая детская реплика о мясе. Надежда достаёт коробку; переход к её реплике на следующем клипе, не обрывая ребёнка. |
-| 1-A13 | 02:33–02:47 | 14 с | Надежда с «Зенитом», её полная реплика, затем полная реплика Аркадия. Руки и камера крупно, щелчок затвора. Темп проверить по записи до производства. |
-| 1-A14 | 02:47–02:56 | 9 с | Похороны общим планом, точная короткая фраза взрослого Стахия. Пауза, без музыки. |
-| 1-A15 | 02:56–03:08 | 12 с | «Зенит» рядом с фото Аркадия, взгляд Стахия, весь финальный закадровый текст. Чёрный экран и титр в редакторе. |
+**Время в фильме:** только [рабочая сетка 03:52](projects/stikhiy/references/scenes/scene-1/continuity-edit-v2.md). Ниже блоки промптов по движку, а не отдельная монтажная версия. Эпизоды 06, 08 и 10 собирать по карточкам 06a–06d, 08a–08c и 10a из рабочей сетки.
 
 <a id="1-A01"></a>
 #### 1-A01 · 15 с · DRAFT
 
-**Локации:** [Летняя дача](projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.png). Только окружение, не лица.
+**Локации:** [Летняя дача](projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp) · [Пётр](projects/stikhiy/references/scenes/scene-1/S6-Petr.webp) · [Нина](projects/stikhiy/references/scenes/scene-1/S6-Nina.webp) · [Владимир](projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp) · [Дача и сад · реконструкция по фото](projects/stikhiy/references/scenes/scene-1/S6-Dacha-reference.webp). Стахию около года: левая колонка листа.
+**Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp) · [Пётр](projects/stikhiy/references/scenes/scene-1/S6-Petr.webp) · [Нина](projects/stikhiy/references/scenes/scene-1/S6-Nina.webp) · [Владимир](projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp) · [Дача и сад · реконструкция по фото](projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png). Стахию около года: левая колонка листа.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
 Optimized for Seedance 2.0
 
 REFERENCES / LOCATION AUTHORITY:
-@Image1 = projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.png; Летняя дача. Environment geometry, materials and period only; not identity, costume or mandatory first frame. Текущая ИИ-картинка не соответствует фото дачного дома владельца; геометрию брать из текстового описания фасада, слот @Image1 не перенумеровывать.
+@Image1 = projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png; Летняя дача. Environment geometry, materials and period only; not identity, costume or mandatory first frame. Фасад конца 1980-х, сверенный с архивными фото, без людей. Слот @Image1 не перенумеровывать.
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
-WORKING REFERENCES (for review; not numbered inputs): S6-Arkady: projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp; S6-Nadezhda: projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp; S6-Stas-ages: projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp; S6-Petr: projects/stikhiy/references/scenes/scene-1/S6-Petr.webp; S6-Nina: projects/stikhiy/references/scenes/scene-1/S6-Nina.webp; S6-Vladimir: projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp; S6-Dacha-reference: projects/stikhiy/references/scenes/scene-1/S6-Dacha-reference.webp.
+WORKING REFERENCES (for review; not numbered inputs): S6-Arkady: projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp; S6-Nadezhda: projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp; S6-Stas-ages: projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp; S6-Petr: projects/stikhiy/references/scenes/scene-1/S6-Petr.webp; S6-Nina: projects/stikhiy/references/scenes/scene-1/S6-Nina.webp; S6-Vladimir: projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp; S6-LOC-dacha-shower: projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png.
 Стахию около года: левая колонка листа.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Аркадий — папа, муж Надежды; Надежда — мама; Стахий — ребёнок около года. Пётр — дедушка по папе, Нина — бабушка по папе, Владимир — крёстный, дядя по папе. Не смешивать их лица и поколения. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Аркадий — папа, муж Надежды; Надежда — мама; Стахий — ребёнок около года. Пётр — дедушка по папе, Нина — бабушка по папе, Владимир — крёстный, дядя по папе. Не смешивать их лица и поколения. Если лицо второстепенного родственника не подтверждено рабочим входом, оставлять его вне фокуса или снимать со спины; его короткую реплику можно оставить за кадром. Не выдумывать лицо. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Летняя семейная дача по фото владельца: небольшой дощатый дом с волнистой металлической кровлей, два окна с переплётом и занавесками, центральный дверной проём с деревянными створками; летом у фасада высокие пальчатые садовые растения; в глубине двора может читаться отдельно стоящая душевая с бочкой на крыше, вишнёвое дерево у бочки и правее бочки теплица с помидорами и огурцами — только как часть участка, не отдельный сюжет. Не брать геометрию у текущих ИИ-реконструкций (бирюзовый дом, теплица, кованая беседка). Натуральный дневной свет сквозь листву. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
@@ -650,7 +626,7 @@ CAMERA / CONTINUITY:
 Устойчивая камера, средний план и мотивированные крупные перебивки только для описанного здесь действия. Сохранять ось, передачу предметов и контакт рук. Смена помещения только явной монтажной склейкой, не телепортацией. No forced frozen tableau merely to fill the render limit.
 
 AUDIO:
-Native audio off. Только изображение: не генерировать речь, музыку или случайный голос. Реплики записываются отдельно; не изображать активную несинхронную артикуляцию. Для будущего звучащего диалога использовать согласованный монтаж по слушающему персонажу/рукам или отдельно подготовленный lip-sync, не обещать его здесь. Живые реплики этого клипа, черновик 26.11.2026 (~6 слов, 15 с): НАДЕЖДА: «На, ягодку. Сладкая.» АРКАДИЙ: «Кушай, сынок.»
+Native audio off. Только изображение: не генерировать речь, музыку или случайный голос. Реплики записываются отдельно; не изображать активную несинхронную артикуляцию. Для будущего звучащего диалога использовать согласованный монтаж по слушающему персонажу/рукам или отдельно подготовленный lip-sync, не обещать его здесь. Живые реплики этого клипа, черновик 26.11.2026 (5 слов, 15 с): НАДЕЖДА: «На, ягодку. Сладкая.» АРКАДИЙ: «Кушай, сынок.»
 
 NEGATIVE / FRAME FILL:
 Не дублировать ребёнка, не менять хват отца, не навязывать печальную музыку. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
@@ -660,24 +636,24 @@ NEGATIVE / FRAME FILL:
 <a id="1-A02"></a>
 #### 1-A02 · 15 с · DRAFT
 
-**Локации:** [Летняя дача](projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.png). Только окружение, не лица.
+**Локации:** [Летняя дача](projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp) · [Пётр](projects/stikhiy/references/scenes/scene-1/S6-Petr.webp) · [Нина](projects/stikhiy/references/scenes/scene-1/S6-Nina.webp) · [Владимир](projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp) · [Дача и сад · реконструкция по фото](projects/stikhiy/references/scenes/scene-1/S6-Dacha-reference.webp). Стахию около года: левая колонка листа.
+**Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp) · [Пётр](projects/stikhiy/references/scenes/scene-1/S6-Petr.webp) · [Нина](projects/stikhiy/references/scenes/scene-1/S6-Nina.webp) · [Владимир](projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp) · [Дача и сад · реконструкция по фото](projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png). Стахию около года: левая колонка листа.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
 Optimized for Seedance 2.0
 
 REFERENCES / LOCATION AUTHORITY:
-@Image1 = projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.png; Летняя дача. Environment geometry, materials and period only; not identity, costume or mandatory first frame. Текущая ИИ-картинка не соответствует фото дачного дома владельца; геометрию брать из текстового описания фасада, слот @Image1 не перенумеровывать.
+@Image1 = projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png; Летняя дача. Environment geometry, materials and period only; not identity, costume or mandatory first frame. Фасад конца 1980-х, сверенный с архивными фото, без людей. Слот @Image1 не перенумеровывать.
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
-WORKING REFERENCES (for review; not numbered inputs): S6-Arkady: projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp; S6-Nadezhda: projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp; S6-Stas-ages: projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp; S6-Petr: projects/stikhiy/references/scenes/scene-1/S6-Petr.webp; S6-Nina: projects/stikhiy/references/scenes/scene-1/S6-Nina.webp; S6-Vladimir: projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp; S6-Dacha-reference: projects/stikhiy/references/scenes/scene-1/S6-Dacha-reference.webp.
+WORKING REFERENCES (for review; not numbered inputs): S6-Arkady: projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp; S6-Nadezhda: projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp; S6-Stas-ages: projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp; S6-Petr: projects/stikhiy/references/scenes/scene-1/S6-Petr.webp; S6-Nina: projects/stikhiy/references/scenes/scene-1/S6-Nina.webp; S6-Vladimir: projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp; S6-LOC-dacha-shower: projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png.
 Стахию около года: левая колонка листа.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Аркадий — папа, муж Надежды; Надежда — мама; Стахий — ребёнок около года. Пётр — дедушка по папе, Нина — бабушка по папе, Владимир — крёстный, дядя по папе. Не смешивать их лица и поколения. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Аркадий — папа, муж Надежды; Надежда — мама; Стахий — ребёнок около года. Пётр — дедушка по папе, Нина — бабушка по папе, Владимир — крёстный, дядя по папе. Не смешивать их лица и поколения. Если лицо второстепенного родственника не подтверждено рабочим входом, оставлять его вне фокуса или снимать со спины; его короткую реплику можно оставить за кадром. Не выдумывать лицо. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Летняя семейная дача по фото владельца: небольшой дощатый дом с волнистой металлической кровлей, два окна с переплётом и занавесками, центральный дверной проём с деревянными створками; летом у фасада высокие пальчатые садовые растения; в глубине двора может читаться отдельно стоящая душевая с бочкой на крыше, вишнёвое дерево у бочки и правее бочки теплица с помидорами и огурцами — только как часть участка, не отдельный сюжет. Не брать геометрию у текущих ИИ-реконструкций (бирюзовый дом, теплица, кованая беседка). Натуральный дневной свет сквозь листву. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
@@ -717,31 +693,30 @@ REFERENCES / LOCATION AUTHORITY:
 @Image1 = projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png; Общая комната квартиры. Environment geometry, materials and period only; not identity, costume or mandatory first frame.
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
-WORKING REFERENCES (for review; not numbered inputs): S6-Anatoly: projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp; S6-Stas-ages: projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp.
+WORKING REFERENCES (for review; not numbered inputs): S6-Anatoly: projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp; S6-Nadezhda: projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp; S6-Stas-ages: projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp.
 Стахий около года: предварительно левая колонка листа.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Анатолий — дедушка Стахия по маме, отец Надежды. Этот эпизод сейчас поставлен как интерьер: самокрутки нет, кепка в помещении не обязательна. Правило на улице (если сцену вынесут во двор): всегда кепка по «Анатолий 4.JPG» (профиль — «Анатолий 3.JPG») и всегда самокрутка во рту. Листы S6-Anatoly.webp и S6-Anatoly-Head-V2.webp пока без кепки: лицо с них сохранять, кепку дорисует Dot, самокрутку на лист не добавлять. Стахий — маленький ребёнок. Это не дедушка Пётр. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Анатолий — дедушка Стахия по маме, отец Надежды. Этот эпизод сейчас поставлен как интерьер: самокрутки нет, кепка в помещении не обязательна. Правило на улице (если сцену вынесут во двор): всегда кепка по «Анатолий 4.JPG» (профиль — «Анатолий 3.JPG») и всегда самокрутка во рту. Листы S6-Anatoly.webp и S6-Anatoly-Head-V2.webp пока без кепки: лицо с них сохранять, кепку дорисует Dot, самокрутку на лист не добавлять. Стахий — маленький ребёнок около года; Надежда — его мать, рядом на краю кадра. Она единственный взрослый голос помимо Анатолия. Это не дедушка Пётр. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Обычный семейный интерьер конца 1980-х, мягкий оконный свет. Место этого эпизода — постановочное предложение, в исходнике не уточнено. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
 
 START STATE:
-Дедушка держит сладкую вату в коричневой крафтовой бумаге, ребёнок видит угощение.
-Дедушка держит сладкую вату в коричневой крафтовой бумаге, ребёнок видит угощение.
+Анатолий входит в комнату с одним свёртком в коричневой крафтовой бумаге; Стахий замечает его, Надежда рядом, чуть сзади.
 
 STORY FLOW:
-Дедушка приближается и раскрывает угощение; ребёнок тянется к нему. Показать руки, шуршащую бумагу, радость ребёнка и улыбку дедушки.
+Анатолий опускается к уровню ребёнка и приоткрывает один свёрток. Стахий тянется к вате; Надежда говорит свою короткую реплику из-за плеча ребёнка. Показать руки, не меняя владельца свёртка, шорох бумаги и улыбку деда. Второй свёрток и новая порция не появляются.
 
 END STATE:
-Угощение между дедушкой и ребёнком; коричневая бумага хорошо различима.
+Именно этот лист крафтовой бумаги различим у пальцев Анатолия; в эпизоде 04 он вернётся на столе уже пустым, узнаваемым по той же складке.
 
 CAMERA / CONTINUITY:
 Устойчивая камера, средний план и мотивированные крупные перебивки только для описанного здесь действия. Сохранять ось, передачу предметов и контакт рук. Смена помещения только явной монтажной склейкой, не телепортацией. No forced frozen tableau merely to fill the render limit.
 
 AUDIO:
-Native audio off. Только изображение: не генерировать речь, музыку или случайный голос. Реплики записываются отдельно; не изображать активную несинхронную артикуляцию. Для будущего звучащего диалога использовать согласованный монтаж по слушающему персонажу/рукам или отдельно подготовленный lip-sync, не обещать его здесь. Живые реплики этого клипа, черновик 26.11.2026 (~10 слов, 15 с): АНАТОЛИЙ: «На, Стахий, тебе сладкую вату принёс.» НАДЕЖДА: «Скажи деду спасибо.» Малыш без разборчивых слов.
+Native audio off. Только изображение: не генерировать речь, музыку или случайный голос. Реплики записываются отдельно; не изображать активную несинхронную артикуляцию. Для будущего звучащего диалога использовать согласованный монтаж по слушающему персонажу/рукам или отдельно подготовленный lip-sync, не обещать его здесь. Живые реплики этого клипа, черновик 26.11.2026 (9 слов, 15 с): АНАТОЛИЙ: «На, Стахий, тебе сладкую вату принёс.» НАДЕЖДА: «Скажи деду спасибо.» Малыш без разборчивых слов.
 
 NEGATIVE / FRAME FILL:
 Не заменять бумагу пластиком, не подменять Анатолия Петром, не превращать в рекламу сладостей. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
@@ -753,7 +728,7 @@ NEGATIVE / FRAME FILL:
 
 **Локации:** [Красная площадь зимой](projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Ранний возраст Стахия: предварительно левая колонка. Для Шуры есть рабочий лист. У Валерия, Ольги (Чечулина / позже Мазур) и Виктории исходного фото лица в репозитории нет: не выдумывать, показать некрупно / спиной / вне фокуса либо убрать из кадра (это не блокер). Юлию не ставить.
+**Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Ранний возраст Стахия: предварительно левая колонка. Для Шуры есть рабочий лист. У Валерия, Ольги Мазур (девичья фамилия Чечулина) и Виктории нет привязанного лицевого референса: не выдумывать, показать некрупно / спиной / вне фокуса либо убрать из кадра (это не блокер). Юлию не ставить.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
@@ -764,11 +739,11 @@ REFERENCES / LOCATION AUTHORITY:
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
 WORKING REFERENCES (for review; not numbered inputs): S6-Arkady: projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp; S6-Nadezhda: projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp; S6-Stas-ages: projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp.
-Ранний возраст Стахия: предварительно левая колонка. Для Шуры есть рабочий лист. У Валерия, Ольги (Чечулина / позже Мазур) и Виктории исходного фото лица в репозитории нет: не выдумывать, показать некрупно / спиной / вне фокуса либо убрать из кадра (это не блокер). Юлию не ставить.
+Ранний возраст Стахия: предварительно левая колонка. Для Шуры есть рабочий лист. У Валерия, Ольги Мазур (девичья фамилия Чечулина) и Виктории нет привязанного лицевого референса: не выдумывать, показать некрупно / спиной / вне фокуса либо убрать из кадра (это не блокер). Юлию не ставить.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Аркадий — папа, Надежда — мама, Стахий — маленький ребёнок в коляске; в квартирной вставке также Александра (Шура) — бабушка по маме; Валерий — дядя по маме, родной брат Надежды; Ольга Чечулина (позже Мазур) — сестра Надежды (рабочее чтение «Ольги» в этой квартире для серии 1; Open: t967u/t969u, карточки Мазур и Чечулиной не схлопывать). Виктория (Вика) — маленькая дочь Валерия, двоюродная сестра Стахия. Юлию не ставить. У Валерия, Ольги и Виктории нет исходного фото лица: не выдумывать, некрупно / спиной / вне фокуса либо убрать из кадра. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Только Аркадий, Надежда и Стахий в коляске. Стахий ещё мал, в зимней одежде; слушает Надежда, говорит Аркадий. Родственники из квартирной вставки в этот кадр не входят. Без выдуманных лиц и современных деталей.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Зимняя Красная площадь Москвы в конца 1980-х, рассеянный зимний свет. Вставка: тесная многолюдная четырёхкомнатная квартира в Люберцах, домашний свет. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
@@ -798,7 +773,7 @@ NEGATIVE / FRAME FILL:
 
 **Локации:** [Красная площадь зимой](projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png) · [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png). Только окружение, не лица.
 
-**Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Ранний возраст Стахия: предварительно левая колонка. Для Шуры есть рабочий лист. У Валерия, Ольги (Чечулина / позже Мазур) и Виктории исходного фото лица в репозитории нет: не выдумывать, показать некрупно / спиной / вне фокуса либо убрать из кадра (это не блокер). Юлию не ставить.
+**Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Ранний возраст Стахия: предварительно левая колонка. Для Шуры есть рабочий лист. У Валерия, Ольги Мазур (девичья фамилия Чечулина) и Виктории нет привязанного лицевого референса: не выдумывать, показать некрупно / спиной / вне фокуса либо убрать из кадра (это не блокер). Юлию не ставить.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
@@ -810,11 +785,11 @@ REFERENCES / LOCATION AUTHORITY:
 These generated empty-location images are fictional production references, not documentary evidence. Keep the assigned space coherent; use only the image matching the current location. Do not transfer one room into another or invent a hybrid set. Portrait references are not to be stretched; compose final video at 9:16. Character identity must come from the separately approved personal inputs, never from location imagery.
 
 WORKING REFERENCES (for review; not numbered inputs): S6-Arkady: projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp; S6-Nadezhda: projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp; S6-Stas-ages: projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp. S6-Shura: projects/stikhiy/references/scenes/scene-1/S6-Shura.webp.
-Ранний возраст Стахия: предварительно левая колонка. Для Шуры есть рабочий лист. У Валерия, Ольги (Чечулина / позже Мазур) и Виктории исходного фото лица в репозитории нет: не выдумывать, показать некрупно / спиной / вне фокуса либо убрать из кадра (это не блокер). Юлию не ставить.
+Ранний возраст Стахия: предварительно левая колонка. Для Шуры есть рабочий лист. У Валерия, Ольги Мазур (девичья фамилия Чечулина) и Виктории нет привязанного лицевого референса: не выдумывать, показать некрупно / спиной / вне фокуса либо убрать из кадра (это не блокер). Юлию не ставить.
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Аркадий — папа, Надежда — мама, Стахий — маленький ребёнок в коляске; в квартирной вставке также Александра (Шура) — бабушка по маме; Валерий — дядя по маме, родной брат Надежды; Ольга Чечулина (позже Мазур) — сестра Надежды (рабочее чтение «Ольги» в этой квартире для серии 1; Open: t967u/t969u, карточки Мазур и Чечулиной не схлопывать). Виктория (Вика) — маленькая дочь Валерия, двоюродная сестра Стахия. Юлию не ставить. У Валерия, Ольги и Виктории нет исходного фото лица: не выдумывать, некрупно / спиной / вне фокуса либо убрать из кадра. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Аркадий — папа, Надежда — мама, Стахий — ребёнок. Во вставке Александра (Шура), бабушка по маме. При необходимости Валерий, Вика и сестра Надежды Ольга Чечулина (позже Мазур) только спиной, издали или вне фокуса. Не показывать жену Валерия Ольгу Гусарову (после брака также Чечулину), Юлию и неизвестную женщину. Не выдумывать лица. Natural anatomy and age-appropriate scale; no identity swaps, sudden aging or costume changes.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Зимняя Красная площадь Москвы в конца 1980-х, рассеянный зимний свет. Вставка: тесная многолюдная четырёхкомнатная квартира в Люберцах, домашний свет. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
@@ -823,7 +798,7 @@ START STATE:
 После реплики Аркадия Надежда поворачивается к нему у коляски.
 
 STORY FLOW:
-Надежда отвечает. После реакции прямая монтажная склейка в тесную четырёхкомнатную квартиру: родители, Стахий, Александра (Шура), Валерий, Ольга Чечулина (позже Мазур, сестра Надежды; Open) и маленькая Виктория (Вика). Юлию не ставить. У кого нет фото лица — некрупно, спиной или вне фокуса, либо убрать из кадра; лица не выдумывать.
+Надежда отвечает. После реакции склейка в тесную четырёхкомнатную квартиру: родители, ребёнок и Шура; тесноту показать через занятый проход и бытовые предметы. При необходимости Валерий, Вика и Ольга Мазур видны только со спины, издали или вне фокуса. Жены Валерия, Юлии и неизвестной женщины нет.
 
 END STATE:
 Семья в общей квартире, мечта об отдельной комнате ещё не осуществилась.
@@ -859,7 +834,7 @@ WORKING REFERENCES (for review; not numbered inputs): S6-Anatoly: projects/stikh
 Оригинальные @Image-слоты не менять. Без отдельного разрешения владельца не запускать.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Анатолий — дедушка по маме, отец Надежды. Эпизод в квартире, в помещении: самокрутки нет, кепка не обязательна. На улице были бы обязательны кепка по «Анатолий 4.JPG» и самокрутка во рту — здесь этого нет. Маленький Стахий — точка наблюдения. Взрослые родственники реагируют за пределами главного плана. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
+Анатолий — дедушка по маме, отец Надежды. Эпизод в квартире: никаких самокруток или дыма, кепка не обязательна. Стахий — точка наблюдения. Надежда и Аркадий уже находятся рядом, за пределами главного плана; только эти двое произносят свои короткие возгласы. Не добавлять третьего говорящего. Natural human anatomy and age-appropriate scale. No identity swaps, sudden aging, beautification or changing costume within the shot. Appearance is not to be borrowed from unrelated fictional characters.
 
 STYLE / LOCATION / LIGHT:
 Постановочная фотореалистичная семейная драма, не документальная хроника. Квартира конца 1980-х, обычный дневной свет, кресло и стол с коричневой крафтовой бумагой. Natural skin and fabric texture, restrained acting, ordinary breathing and weight shifts; no glossy commercial finish.
@@ -970,7 +945,7 @@ CAMERA / CONTINUITY:
 Устойчивая камера, средний план и мотивированные крупные перебивки только для описанного здесь действия. Сохранять ось, передачу предметов и контакт рук. Смена помещения только явной монтажной склейкой, не телепортацией. No forced frozen tableau merely to fill the render limit.
 
 AUDIO:
-Native audio off. Только изображение: не генерировать речь, музыку или случайный голос. Реплики записываются отдельно; не изображать активную несинхронную артикуляцию. Для будущего звучащего диалога использовать согласованный монтаж по слушающему персонажу/рукам или отдельно подготовленный lip-sync, не обещать его здесь. Только исходный текст, без новых реплик. Первая длинная реплика целиком: АРКАДИЙ: «Знаешь, Надь… Мы всё время думаем, что впереди ещё много лет. Что успеем и квартиру купить, и Стахия вырастить…» Тайминг эпизода 06 по-прежнему тесен.
+Native audio off. Только изображение: не генерировать речь, музыку или случайный голос. Реплики записываются отдельно; не изображать активную несинхронную артикуляцию. Для будущего звучащего диалога использовать согласованный монтаж по слушающему персонажу/рукам или отдельно подготовленный lip-sync, не обещать его здесь. Только исходный текст, без новых реплик. Первая длинная реплика целиком: АРКАДИЙ: «Знаешь, Надь… Мы всё время думаем, что впереди ещё много лет. Что успеем и квартиру купить, и Стахия вырастить…» Эта базовая карточка не подтверждает длительность речи; для полной дорожки использовать проверочную разбивку из аудиолиста только после согласования тайминга.
 
 NEGATIVE / FRAME FILL:
 Не создавать липсинк без утверждённой записи; нет крови, объяснения диагноза, чрезмерной агонии и счастливой развязки. No subtitles, watermarks or decorative graphics. Full-bleed vertical 9:16; fill frame edge-to-edge, no letterboxing, pillarboxing or empty margins.
@@ -1297,12 +1272,12 @@ NEGATIVE / FRAME FILL:
 
 </div>
 
-[Полный аудиолист и предложение расширения](projects/stikhiy/references/scenes/scene-1/audio-timing.md) · [Карта референсов и расчёт озвучки](projects/stikhiy/references/scenes/scene-1/production-preflight.md)
+[Полный аудиолист и монтажная проба](projects/stikhiy/references/scenes/scene-1/audio-timing.md) · [Карта референсов и расчёт озвучки](projects/stikhiy/references/scenes/scene-1/production-preflight.md) · [Рабочий монтаж, стыки и автономные промпты](projects/stikhiy/references/scenes/scene-1/continuity-edit-v2.md)
 
 ### Проверки до производственных промптов и запуска
 
-- Хронометраж таблиц без разрывов: A01–A15 = B01–B10 = 188 с. B01=A01+A02; B02=A03; B03=A04+A05; B04=A06; B05=A07; B06=A08+A09; B07=A10+A11; B08=A12+A13; B09=A14; B10=A15.
-- Приоритет исходных реплик над жёсткой сеткой. Эпизод 06 содержит 50 слов диалога плюс несколько бытовых действий в 26 с: спокойная драматическая речь и паузы могут не поместиться. Сначала пробная озвучка; если не помещается, согласовать увеличение длительности/числа клипов либо сокращение текста. Текущие 15/10 — план по авторскому хронометражу, не гарантия производства.
+- Хронометраж фильма один: 232 с. Номера A/B ниже различают технические формы исходных промптов, не два монтажа.
+- Рабочая сетка **03:52** позволяет оставить исходные реплики полными и не ускорять их. Эпизоды 06/08/10 получают 60/36/15 с. Перед озвучкой проверить естественную читку.
 - В исходнике «почти двухлетний Стахий» в начале больничного года и «Мне — три» в финале: это может быть переход возраста за год. Согласовать хронологию и отдельные возрастные образы, не менять цифры молча.
 - Ночной диалог, кровь при кашле и бытовые действия обозначены автором как художественная реконструкция. Не представлять их установленными фактами. Не выводить диагноз из операции и не объяснять болезнь заводской работой.
 - До создания узнаваемых лиц проверить согласие/права на исходные фото; до публикации готового фильма получить художественную и фактическую приёмку владельца. Эта запись не разрешает будущую рассылку, генерацию или платные действия.

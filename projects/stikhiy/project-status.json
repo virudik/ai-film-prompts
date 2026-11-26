@@ -3,12 +3,12 @@
   "source_of_truth": "GitHub main/projects/stikhiy/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-26T21:44:57Z",
+  "synced_at": "2026-11-26T22:07:30Z",
   "revision_date": "27.11.2026",
   "master_declared_last_full_sync": "27.11.2026 · ответы владельца (конец 1980-х; брат и сёстры; Юлия вне серии 1; две Ольги не схлопнуты; лица без фото — не блокер). Анатолий на улице — кепка и самокрутка; в помещении самокрутки нет. Развёртки, кроме правки кепки Анатолия, не перерисовывать. Бриф для Dot по пустым локациям дачи 9:16. 25 DRAFT-промтов. Исходные семейные фото не опубликованы. Запуск не разрешён.",
-  "canonical_master_sha256": "5e3e744957690676635744200a1fcc5bfe05ff4b78009294093374315b6eb654",
-  "canonical_revision_sha256": "ac1b9b0711d04b1ee3d58ab2d0a0347d4ca6ca902c0875edec1251b636709bac",
-  "canonical_master_bytes": 183542,
+  "canonical_master_sha256": "14eb5191ce1340fd9911f0845b53dc53e4c1b975f2e6a11da0399d60f5b70669",
+  "canonical_revision_sha256": "bfbd8bd1c99cbb51012d1d36e984bceef090455a5fe36c0d64c7cf210a334090",
+  "canonical_master_bytes": 173284,
   "scenes": 1,
   "prompt_texts": 25,
   "work_items": [],
@@ -26,7 +26,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 9.126,
+    "age_hours_at_status_build": 9.502,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -104,7 +104,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 9.126,
+      "age_hours": 9.502,
       "blocking": false
     },
     "topview_task_map": {
@@ -118,7 +118,7 @@
     "1": {
       "target_engine": "Wan 3.0",
       "production_state": "DRAFT",
-      "duration_s": 188,
+      "duration_s": 232,
       "dialogue": {
         "enabled": true,
         "language": "ru"
@@ -138,9 +138,9 @@
   },
   "audit_fingerprint": {
     "revision_date": "27.11.2026",
-    "synced_at": "2026-11-26T21:44:57Z",
-    "canonical_master_sha256": "5e3e744957690676635744200a1fcc5bfe05ff4b78009294093374315b6eb654",
-    "canonical_revision_sha256": "ac1b9b0711d04b1ee3d58ab2d0a0347d4ca6ca902c0875edec1251b636709bac",
+    "synced_at": "2026-11-26T22:07:30Z",
+    "canonical_master_sha256": "14eb5191ce1340fd9911f0845b53dc53e4c1b975f2e6a11da0399d60f5b70669",
+    "canonical_revision_sha256": "bfbd8bd1c99cbb51012d1d36e984bceef090455a5fe36c0d64c7cf210a334090",
     "scene_count": 1,
     "prompt_count": 25,
     "scene_ids": [
