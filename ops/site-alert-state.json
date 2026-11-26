@@ -2,14 +2,13 @@
   "schema_version": 1,
   "signature": [
     "canon:instruction-size:SYNC-RUNBOOK.md|SYNC-RUNBOOK.md: 129 КБ, порог предупреждения 100 КБ.",
-    "canon:pages-size:ops/pages-deploy.json|Общий сайт Pages всех проектов (legacy) — 1157 МБ, порог 900 МБ.",
     "canon:resume-selected-stale:projects/kot-detektiv/shadow/resume-packet.json|projects/kot-detektiv/shadow/resume-packet.json: выбранная работа «KD-WAIT-OWNER» от 27.10.2026, старше 7 дней (29).",
     "canon:resume-selected-stale:shadow/resume-packet.json|shadow/resume-packet.json: выбранная работа «SEREGIUS-SHIFT-20261113-T611U» от 16.11.2026, старше 7 дней (9)."
   ],
   "sequence": 0,
   "relay": {
     "status": "sent",
-    "detail": "message_id=251655450407251968",
-    "at": "2026-11-26T10:28:52Z"
+    "detail": "message_id=251658934739935232",
+    "at": "2026-11-26T10:42:44Z"
   }
 }
