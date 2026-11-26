@@ -808,6 +808,20 @@
       "yandex_public_key": "https://yadi.sk/i/kT-35NVeLQrAXA",
       "yandex_verified_at": "2026-11-25T23:37:08Z"
     },
+    "71ff9f82cf864225b0cea5caae96854a": {
+      "archived_at": "2026-11-26T10:47:34Z",
+      "label": "Wan-3.0",
+      "md5": "69c8efb7008f7a7ed13f9f659c6c00e6",
+      "project": "seregius",
+      "scene_id": 21,
+      "sha256": "3dc0cb47ed757649449393e94552b596bddfed6e315b41c1883e96c97f757ccf",
+      "size_bytes": 34920826,
+      "source": "topview",
+      "task_id": "71ff9f82cf864225b0cea5caae96854a",
+      "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-10-11/S21_Wan-3.0_71ff9f82cf864225b0cea5caae96854a.mp4",
+      "yandex_public_key": "https://yadi.sk/i/MKfbGP-Z94hCKQ",
+      "yandex_verified_at": "2026-11-26T10:47:34Z"
+    },
     "721cfbef2af0479da57f0a52479d2f54": {
       "archived_at": "2026-10-16T07:15:27Z",
       "drive_url": "https://drive.google.com/file/d/1izIyYzTlPQAGkELv875dntoifEXDJuMY/view",
