@@ -122,7 +122,10 @@ window.fetch=function(input,init){
      if(MAP[path])return origFetch(P.root+MAP[path]+q,init);
      if(path==='topview-status.json')return synthTopview().then(reply);
      if(path==='topview-task-map.json')return synthTaskMap().then(reply);
-     if(path==='topview-video-archive.json')return origFetch(P.root+'topview-video-archive.json'+q,init).then(function(r){return r.ok?r:reply({schema_version:1,project:P.id,videos:{},copy_scheme:'yandex-original'})});
+     // Finished videos (Yandex Disk links, same format for every project): projects/<id>/topview-video-archive.json.
+     // A project without the file yet gets an empty list.
+     if(path==='topview-video-archive.json')return origFetch(P.root+'topview-video-archive.json'+q,init).then(function(r){
+      return r.ok?r:reply({schema_version:1,project:P.id,videos:{}})},function(){return reply({schema_version:1,project:P.id,videos:{}})});
     }else if(path==='topview-status.json'){
      telemetry().then(function(tel){return fresh('topview-status.json').then(function(root){SHARED=sharedSlots(root||{},tel);showSlots()})});
     }

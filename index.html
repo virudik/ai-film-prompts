@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>AI Film — Центр управления</title>
-<script src="projects.js?v=contest20261120"></script>
+<script src="projects.js?v=yandex20261126"></script>
 <meta name="description" content="Read-only production control center for the current AI Film Prompts master" />
 <style>
 :root{color-scheme:dark;--bg:#090b0e;--panel:#101419;--panel2:#151b22;--panel3:#0d1116;--text:#edf2f7;--muted:#8f9aa6;--line:#28313b;--accent:#7dbbff;--ok:#79d58c;--warn:#ffd179;--bad:#ff929d;--code:#080b0f;--shadow:0 12px 34px rgba(0,0,0,.22);--sidebar-width:328px}
@@ -276,15 +276,16 @@ function sceneResultAttempts(sceneId,tv){
  }
  return [...seen.values()].sort((a,b)=>String(a.finished_at||'').localeCompare(String(b.finished_at||''))||String(a.task_id).localeCompare(String(b.task_id)));
 }
+// Archive entries (same format in every project, see ops/TOPVIEW-VIDEO-ARCHIVE.md): scene_id (or scene), Drive file_id and/or yandex_public_key.
+function archiveSceneOf(e){const n=Number(e?.scene_id??e?.scene);return Number.isFinite(n)&&n>0?n:null}
+function archiveEntryPlayable(e){return /^[A-Za-z0-9_-]{15,}$/.test(String(e?.file_id||''))||/^https:\/\/(yadi\.sk|disk\.yandex\.(ru|com))\/(i|d)\//.test(String(e?.yandex_public_key||''))}
+function archiveProjectParam(){const P=window.AIFP;return P&&!P.isRoot?'&project='+encodeURIComponent(P.id):''}
 function archivedDriveUrl(taskId,sceneId){
  const entry=topviewVideoArchive?.videos?.[String(taskId)];
- if(!entry||Number(entry.scene_id)!==Number(sceneId))return null;
- const id=String(entry.file_id||'');
- const yandex=/^[A-Za-z0-9_-]{8,}$/.test(String(entry.yandex_public_key||''));
- if(!/^[A-Za-z0-9_-]{15,}$/.test(id)&&!yandex)return null;
- // A Yandex key is a single file (disk.yandex.ru/i/…), not a folder. Old Drive rows keep file_id.
- // Either way the card opens videos.html, which plays the copy. Drive's own viewer cannot play these MP4s.
- return 'videos.html?task='+encodeURIComponent(String(taskId));
+ // A copy on Yandex Disk (any project) or in Google Drive; videos.html picks the source (video-source.js).
+ if(archiveSceneOf(entry)!==Number(sceneId)||!archiveEntryPlayable(entry))return null;
+ // Drive's own viewer cannot play these files (MP4 written over text seed files, no video preview): open the site's video list.
+ return 'videos.html?task='+encodeURIComponent(String(taskId))+archiveProjectParam();
 }
 function topviewResultLinks(sceneId,tv,onlyPart){
  const pm=onlyPart&&typeof taskPartMap==='function'?taskPartMap():null;
@@ -294,10 +295,7 @@ function topviewResultLinks(sceneId,tv,onlyPart){
   const pt=typeof taskPartMap==='function'?taskPartMap().get(x.task_id):null,n=pt?shortPart(pt):String(i+1);
   const inTopview='<a target="_blank" rel="noopener noreferrer" title="Открыть получившийся ролик в своём Topview" href="https://www.topview.ai/board/'+TOPVIEW_FILM_BOARD+'?tool-type=video-edit&amp;boardResultId='+x.task_id+'">'+(pt?'▶ Готово '+esc(n):'▶ Версия '+n)+'</a>';
   const url=archivedDriveUrl(x.task_id,sceneId);
-  const yandex=/^[A-Za-z0-9_-]{8,}$/.test(String(topviewVideoArchive?.videos?.[String(x.task_id)]?.yandex_public_key||''));
-  const copyTitle=yandex?'Смотреть копию на Яндекс Диске':'Смотреть проверенную копию MP4 из Google Drive';
-  const copyLabel=yandex?'💾 MP4 ':'💾 Drive ';
-  return inTopview+(url?' · <a target="_blank" rel="noopener noreferrer" title="'+copyTitle+'" href="'+esc(url)+'">'+copyLabel+esc(n)+'</a>':'');
+  return inTopview+(url?' · <a target="_blank" rel="noopener noreferrer" title="Смотреть проверенную копию MP4 из Google Drive" href="'+esc(url)+'">💾 Drive '+esc(n)+'</a>':'');
  }).join(' · ')+'</div>';
 }
 function sceneDoneState(sid){const st=typeof runtimeSceneStatus==='function'&&runtimeTopview?runtimeSceneStatus(sid):null;if(!st||st.running)return null;if(st.finishedStatus==='success')return 'done';if(['fail','failed','cancelled'].includes(st.finishedStatus))return 'fail';return null}
@@ -314,10 +312,20 @@ function syncArchivedSceneLinks(){
    if(!url)return;
    const link=document.createElement('a');
    link.className='scene-chip scene-archive-link';
-   const yandex=/^[A-Za-z0-9_-]{8,}$/.test(String(topviewVideoArchive?.videos?.[String(v.task_id)]?.yandex_public_key||''));
    link.textContent='💾 MP4 '+(i+1);
    link.href=url;link.target='_blank';link.rel='noopener noreferrer';
-   link.title=yandex?'Смотреть копию на Яндекс Диске':'Смотреть проверенную копию MP4 из Google Drive';
+   link.title='Смотреть проверенную копию MP4 из Google Drive';
+   videosRow(tools).appendChild(link);
+  });
+  // Videos stored for this scene that the Topview telemetry does not list (e.g. other projects uploaded to Yandex Disk).
+  const seen=new Set(successful.map(v=>String(v.task_id)));
+  Object.entries(topviewVideoArchive?.videos||{}).filter(([k,e])=>!seen.has(k)&&archiveSceneOf(e)===s.sceneId&&archiveEntryPlayable(e))
+   .sort((a,b)=>String(a[1].archived_at||'').localeCompare(String(b[1].archived_at||''))).forEach(([k],i)=>{
+   const link=document.createElement('a');
+   link.className='scene-chip scene-archive-link';
+   link.textContent='📼 Ролик '+(i+1);
+   link.href='videos.html?task='+encodeURIComponent(k)+archiveProjectParam();link.target='_blank';link.rel='noopener noreferrer';
+   link.title='Смотреть ролик сцены (Яндекс Диск)';
    videosRow(tools).appendChild(link);
   });
  });
@@ -566,7 +574,7 @@ function syncSubScenes(){
   lab.textContent='Подсцены: готово '+count.done+(count.run+count.queue?' · генерируется '+(count.run+count.queue):'')+(count.fail?' · ошибка '+count.fail:'')+' · '+(byPart.unknown?'нет записи о запуске ':'не запускалась ')+count.none+(byPart.unknown?' · ещё '+byPart.unknown+' старых задач без кода подсцены':'')+' —';
   if(tools)tools.appendChild(strip);
   // video links of the card: name the part instead of «Ролик 1 / 2»
-  tools?.querySelectorAll('a.scene-chip').forEach(a=>{const id=(a.href.match(/boardResultId=([0-9a-f]{32})/)||a.href.match(/[?&]task=([0-9a-f]{32})/)||[])[1]||(topviewVideoArchive?.videos&&Object.entries(topviewVideoArchive.videos).find(([,v])=>a.href.includes(encodeURIComponent(String(v?.file_id||'-'))))?.[0]),pt=id&&parts.get(id);if(pt)a.textContent=(/MP4/.test(a.textContent)?'💾 MP4 ':'▶ Ролик ')+shortPart(pt)});
+  tools?.querySelectorAll('a.scene-chip').forEach(a=>{const id=(a.href.match(/boardResultId=([0-9a-f]{32})/)||[])[1]||(topviewVideoArchive?.videos&&Object.entries(topviewVideoArchive.videos).find(([,v])=>a.href.includes(encodeURIComponent(String(v?.file_id||'-'))))?.[0]),pt=id&&parts.get(id);if(pt)a.textContent=(/MP4/.test(a.textContent)?'💾 MP4 ':'▶ Ролик ')+shortPart(pt)});
  });
  // «⏳ Сейчас в медленной генерации»: show the part code next to the scene number of each task row
  const slowTable=[...content.querySelectorAll('table')].find(t=>/^Сцена$/.test(t.querySelector('thead th')?.textContent.trim()||'')&&/^Действие$/.test(t.querySelector('thead th:last-child')?.textContent.trim()||''));

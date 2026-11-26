@@ -6018,7 +6018,7 @@
         },
         {
           "slot": "@Image4",
-          "path": "projects/kotmonavty/references/ship-exterior-front.png",
+          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
           "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
           "required": true,
           "input_status": "available"
@@ -7260,7 +7260,7 @@
       "references": [
         {
           "slot": "@Image1",
-          "path": "projects/kotmonavty/references/ship-exterior-front.png",
+          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
           "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
           "required": true,
           "input_status": "available"
@@ -7434,7 +7434,7 @@
         },
         {
           "slot": "@Image1",
-          "path": "projects/kotmonavty/references/ship-exterior-front.png",
+          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
           "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
           "required": true,
           "input_status": "available"
@@ -7580,7 +7580,7 @@
         },
         {
           "slot": "@Image2",
-          "path": "projects/kotmonavty/references/ship-exterior-front.png",
+          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
           "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
           "required": true,
           "input_status": "available"
@@ -9434,7 +9434,7 @@
       "references": [
         {
           "slot": "Image1",
-          "path": "projects/kotmonavty/references/ship-exterior-front.png",
+          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
           "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f"
         },
         {
@@ -9885,7 +9885,7 @@
       "references": [
         {
           "slot": "@Image1",
-          "path": "projects/kotmonavty/references/roskotmos-logo.png",
+          "path": "references/scenes/scene-45/S45-roskotmos-logo.png",
           "sha256": "8481db6884b934d5889adf7ae9504ed82e447136b5002b0bf7fc120fdb9cb94f",
           "required": true
         },
@@ -9897,13 +9897,13 @@
         },
         {
           "slot": "@Image3",
-          "path": "projects/kotmonavty/references/ship-exterior-front.png",
+          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
           "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
           "required": true
         },
         {
           "slot": "@Image4",
-          "path": "projects/kotmonavty/references/ship-exterior-rear.png",
+          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-rear.png",
           "sha256": "cbfccd3343a453cbe4ab8a866901d20c8a622de1414ea9efbfe7b62552ada30f",
           "required": true
         }
@@ -9944,13 +9944,13 @@
       "references": [
         {
           "slot": "@Image1",
-          "path": "projects/kotmonavty/references/roskotmos-logo.png",
+          "path": "references/scenes/scene-45/S45-roskotmos-logo.png",
           "sha256": "8481db6884b934d5889adf7ae9504ed82e447136b5002b0bf7fc120fdb9cb94f",
           "required": true
         },
         {
           "slot": "@Image2",
-          "path": "projects/kotmonavty/references/ship-exterior-front.png",
+          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
           "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
           "required": true
         },
@@ -11424,7 +11424,7 @@
         {
           "slot": "@Image1",
           "input_status": "available",
-          "path": "projects/kotmonavty/references/roskotmos-logo.png",
+          "path": "references/scenes/scene-45/S45-roskotmos-logo.png",
           "sha256": "8481db6884b934d5889adf7ae9504ed82e447136b5002b0bf7fc120fdb9cb94f"
         },
         {
@@ -11437,7 +11437,7 @@
           "slot": "@Image3",
           "canonical_role": "vehicle_exterior",
           "input_status": "available",
-          "path": "projects/kotmonavty/references/ship-exterior-four-engines.png",
+          "path": "references/scenes/scene-45/S45-ship-design-actual.png",
           "sha256": "41b51f4b883a2b88ca111f139a166abfbfac39d0ca99157061244bc04ad4cb00"
         },
         {
@@ -11480,14 +11480,14 @@
         {
           "slot": "@Image1",
           "input_status": "available",
-          "path": "projects/kotmonavty/references/roskotmos-logo.png",
+          "path": "references/scenes/scene-45/S45-roskotmos-logo.png",
           "sha256": "8481db6884b934d5889adf7ae9504ed82e447136b5002b0bf7fc120fdb9cb94f"
         },
         {
           "slot": "@Image2",
           "canonical_role": "vehicle_exterior",
           "input_status": "available",
-          "path": "projects/kotmonavty/references/ship-exterior-four-engines.png",
+          "path": "references/scenes/scene-45/S45-ship-design-actual.png",
           "sha256": "41b51f4b883a2b88ca111f139a166abfbfac39d0ca99157061244bc04ad4cb00"
         },
         {
@@ -12283,7 +12283,7 @@
       "decisions": [
         "New Scene 57: battle-damaged RosKOTmos ship crash-lands on the Sith planet, knocks down ancient columns and statues; maximally comic but realistic.",
         "New Scene 58: the cats run out of the downed, burning, falling-apart ship.",
-        "Ship design = the first generated ship reference projects/kotmonavty/references/ship-exterior-front.png.",
+        "Ship design = the first generated ship reference references/scenes/scene-45/S45-roskotmos-ship-first-option.png.",
         "Default placement chosen by Claude: 46 → 57 → 58 → 40 → 26 (film-order.json); owner may change."
       ],
       "selected_items": [
