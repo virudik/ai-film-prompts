@@ -28,13 +28,19 @@ function sources(e){
  if(!k)return Promise.resolve(tail());
  return yandexHref(k).then(function(h){return [{kind:'yandex',url:h}].concat(tail())},function(){return tail()})}
 // Put the first source into a <video>; on a playback error try the next one. onFail() when none works.
+// A late answer for a player that was already replaced (another clip opened) is ignored, so the label,
+// download link and error note always belong to the clip on screen.
 function attach(video,e,onFail,onSource){
+ var alive=function(){return video.isConnected&&video.dataset.aifpToken===token};
+ var token=String(Date.now())+Math.random();video.dataset.aifpToken=token;
  return sources(e).then(function(list){
+  if(!alive())return list;
   var i=0;
   function next(){
+   if(!alive())return;
    if(i>=list.length){if(onFail)onFail();return}
    var s=list[i++];if(onSource)onSource(s);video.src=s.url;video.load()}
-  video.addEventListener('error',function(){if(e&&yandexKey(e)&&list[i-1]&&list[i-1].kind==='yandex')delete cache[yandexKey(e)];next()});
+  video.addEventListener('error',function(){if(!alive())return;if(e&&yandexKey(e)&&list[i-1]&&list[i-1].kind==='yandex')delete cache[yandexKey(e)];next()});
   next();return list})}
 window.AIFP_VIDEO={yandexKey:yandexKey,driveStream:driveStream,playable:playable,yandexHref:yandexHref,sources:sources,attach:attach,STREAM:STREAM};
 })();
