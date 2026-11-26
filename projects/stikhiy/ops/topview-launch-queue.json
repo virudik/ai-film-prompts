@@ -2,15 +2,751 @@
   "schema_version": 1,
   "project": "stikhiy",
   "queue_id": "STIKHIY-QUEUE",
-  "updated_at": "2026-11-19T21:21:08.719Z",
-  "state": "paused_by_owner",
+  "updated_at": "2026-11-26T23:00:00Z",
+  "state": "active",
   "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
-  "selection_policy": "Доска не назначена, запуск заблокирован. Только по отдельной команде владельца, после настройки собственной доски, Unlimited и 0 кредитов.",
-  "board_id": null,
+  "selection_policy": "Owner t980u 27.11.2026: Wan 3.0 части сцены 1 следующими в очереди, раньше S28-A10/A11 и прочего ждущего. Только Unlimited, 0 кредитов; обычный протокол lease/claim/intent/один Create на wake робота.",
+  "board_id": "e4156a8c422a4904b88b7bce6018b796",
   "board_name": "Стахий",
   "board_routing_rule": "projects/README.md",
   "receipts_directory": "projects/stikhiy/reports",
-  "items": [],
+  "items": [
+    {
+      "id": "1-W01-WAN30",
+      "scene_id": 1,
+      "prompt_id": "1-W01",
+      "canonical_block_label": "1 · Wan 3.0 1-W01",
+      "canonical_prompt_sha256": "913f71269e4dc114d5d16b231ddffdac017af523843cf7b4bf5dd62f1d095808",
+      "priority": 0.001,
+      "state": "waiting_for_slot",
+      "model": "Wan 3.0",
+      "mode": "omni_reference",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "9:16",
+      "quantity": 1,
+      "native_audio": true,
+      "max_new_submissions": 1,
+      "automatic_retry": false,
+      "board_id": "e4156a8c422a4904b88b7bce6018b796",
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png",
+          "sha256": "e40fecded4d642945e916419ed6385d2040344738d77c5d1959a8d6350c8010e",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png",
+          "sha256": "c11129f42a7288629c17eb79b3f53a9cede2b976eb71bb3e5f5ca7b813b0d04f",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp",
+          "sha256": "751092a5f51e3c8343a6aee125b0328300b35e3d8bb6d5e718b5bd65c295fe2d",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp",
+          "sha256": "605e99dcd85c39f16b48bb0907cfaba69ddd9aa2a1fe471fa707cbd43f81debd",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp",
+          "sha256": "6c6c3c379444bcf95d4ad5969685c4124ae45d1189199af19c58ed5853023511",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Petr-Head-V2.webp",
+          "sha256": "4a8749e7b81a5f499447d460f361120b0fbd93336304fd921f4e29c5d8f705fa",
+          "required": true
+        },
+        {
+          "slot": "@Image7",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nina-Head-V2.webp",
+          "sha256": "df7a713b2097a6f4edf67bc6137b8492162e92ea6318c38485b6620fabe468b0",
+          "required": true
+        },
+        {
+          "slot": "@Image8",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Vladimir-Head-V2.webp",
+          "sha256": "dda42e6d61565f6c71d744627555f7193dfa992285b6a0228093b3e1e6032666",
+          "required": true
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "blocker": null,
+      "launch_readiness": "authorized_inputs_available",
+      "authorization": "Owner t980u 27.11.2026 01:27 MSK: «Да, генерируй…», «в Ван3 запускай через топвюв их следующими в очереди». Unlimited 0 only.",
+      "result_group": "Сцена 1 · Версия Wan 3.0"
+    },
+    {
+      "id": "1-W02-WAN30",
+      "scene_id": 1,
+      "prompt_id": "1-W02",
+      "canonical_block_label": "1 · Wan 3.0 1-W02",
+      "canonical_prompt_sha256": "af898ad23078fa36fdf42dfddd226444b9a91eca1952fe2839c7012056bc04d6",
+      "priority": 0.002,
+      "state": "waiting_for_slot",
+      "model": "Wan 3.0",
+      "mode": "omni_reference",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "9:16",
+      "quantity": 1,
+      "native_audio": true,
+      "max_new_submissions": 1,
+      "automatic_retry": false,
+      "board_id": "e4156a8c422a4904b88b7bce6018b796",
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png",
+          "sha256": "2d9c9f55bf640e7532c2f1f9b8676f137de22b8c3cf193174310089c9464cedc",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp",
+          "sha256": "57b61e7362cf72db9bb6a9cf7e98ce44232a21670de0031ca8a7703533cf1692",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2.webp",
+          "sha256": "349a4589d24ef2a1cdce703c28e274aaf015ddda89cf1d48a03b5fb15c3cff19",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
+          "sha256": "ecb8e3889da18219df7cff1a257745d72fcee325bd72e78221aff01d353661f4",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp",
+          "sha256": "605e99dcd85c39f16b48bb0907cfaba69ddd9aa2a1fe471fa707cbd43f81debd",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp",
+          "sha256": "6c6c3c379444bcf95d4ad5969685c4124ae45d1189199af19c58ed5853023511",
+          "required": true
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "blocker": null,
+      "launch_readiness": "authorized_inputs_available",
+      "authorization": "Owner t980u 27.11.2026 01:27 MSK: «Да, генерируй…», «в Ван3 запускай через топвюв их следующими в очереди». Unlimited 0 only.",
+      "result_group": "Сцена 1 · Версия Wan 3.0"
+    },
+    {
+      "id": "1-W03-WAN30",
+      "scene_id": 1,
+      "prompt_id": "1-W03",
+      "canonical_block_label": "1 · Wan 3.0 1-W03",
+      "canonical_prompt_sha256": "defd388ea26774e134aadd286edb7e79e906f187be39b8d28b64f38957012799",
+      "priority": 0.003,
+      "state": "waiting_for_slot",
+      "model": "Wan 3.0",
+      "mode": "omni_reference",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "9:16",
+      "quantity": 1,
+      "native_audio": true,
+      "max_new_submissions": 1,
+      "automatic_retry": false,
+      "board_id": "e4156a8c422a4904b88b7bce6018b796",
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png",
+          "sha256": "4b550666f00a5b40927eed232db198d00f5b422727603b1786a0a1b03be8a560",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
+          "sha256": "2b46c27705531e51535878b15437f54f13743dd7ab293a916079987c1213ee97",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp",
+          "sha256": "751092a5f51e3c8343a6aee125b0328300b35e3d8bb6d5e718b5bd65c295fe2d",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
+          "sha256": "ecb8e3889da18219df7cff1a257745d72fcee325bd72e78221aff01d353661f4",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp",
+          "sha256": "605e99dcd85c39f16b48bb0907cfaba69ddd9aa2a1fe471fa707cbd43f81debd",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp",
+          "sha256": "6c6c3c379444bcf95d4ad5969685c4124ae45d1189199af19c58ed5853023511",
+          "required": true
+        },
+        {
+          "slot": "@Image7",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png",
+          "sha256": "2d9c9f55bf640e7532c2f1f9b8676f137de22b8c3cf193174310089c9464cedc",
+          "required": true
+        },
+        {
+          "slot": "@Image8",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Shura-Head-V2.webp",
+          "sha256": "ad15ca87c37f6ad7a33ed0084938a1bb865480ed01feffcdf1e0353a225b1ed7",
+          "required": true
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "blocker": null,
+      "launch_readiness": "authorized_inputs_available",
+      "authorization": "Owner t980u 27.11.2026 01:27 MSK: «Да, генерируй…», «в Ван3 запускай через топвюв их следующими в очереди». Unlimited 0 only.",
+      "result_group": "Сцена 1 · Версия Wan 3.0"
+    },
+    {
+      "id": "1-W04-WAN30",
+      "scene_id": 1,
+      "prompt_id": "1-W04",
+      "canonical_block_label": "1 · Wan 3.0 1-W04",
+      "canonical_prompt_sha256": "4efff318b93f6af4a562929eb9d0a39f21dfc302d780bd90f46b4d16041fcc28",
+      "priority": 0.004,
+      "state": "waiting_for_slot",
+      "model": "Wan 3.0",
+      "mode": "omni_reference",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "9:16",
+      "quantity": 1,
+      "native_audio": true,
+      "max_new_submissions": 1,
+      "automatic_retry": false,
+      "board_id": "e4156a8c422a4904b88b7bce6018b796",
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png",
+          "sha256": "2d9c9f55bf640e7532c2f1f9b8676f137de22b8c3cf193174310089c9464cedc",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp",
+          "sha256": "57b61e7362cf72db9bb6a9cf7e98ce44232a21670de0031ca8a7703533cf1692",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2.webp",
+          "sha256": "349a4589d24ef2a1cdce703c28e274aaf015ddda89cf1d48a03b5fb15c3cff19",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
+          "sha256": "ecb8e3889da18219df7cff1a257745d72fcee325bd72e78221aff01d353661f4",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp",
+          "sha256": "605e99dcd85c39f16b48bb0907cfaba69ddd9aa2a1fe471fa707cbd43f81debd",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
+          "sha256": "2b46c27705531e51535878b15437f54f13743dd7ab293a916079987c1213ee97",
+          "required": true
+        },
+        {
+          "slot": "@Image7",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp",
+          "sha256": "751092a5f51e3c8343a6aee125b0328300b35e3d8bb6d5e718b5bd65c295fe2d",
+          "required": true
+        },
+        {
+          "slot": "@Image8",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp",
+          "sha256": "7ba78814eacf9914200c1de2da69920c4b0363cefb9e1a05a788eb5984b40722",
+          "required": true
+        },
+        {
+          "slot": "@Image9",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.png",
+          "sha256": "d0c143bfe758d6a241aeaf83246ea77896adbd42fbb59ddbf2c6e8dfc0f888b5",
+          "required": true
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "blocker": null,
+      "launch_readiness": "authorized_inputs_available",
+      "authorization": "Owner t980u 27.11.2026 01:27 MSK: «Да, генерируй…», «в Ван3 запускай через топвюв их следующими в очереди». Unlimited 0 only.",
+      "result_group": "Сцена 1 · Версия Wan 3.0"
+    },
+    {
+      "id": "1-W05-WAN30",
+      "scene_id": 1,
+      "prompt_id": "1-W05",
+      "canonical_block_label": "1 · Wan 3.0 1-W05",
+      "canonical_prompt_sha256": "9e30a18b9968d5d358933a7858dd00b3d6cde359b56e768f5f5980dc1203543b",
+      "priority": 0.005,
+      "state": "waiting_for_slot",
+      "model": "Wan 3.0",
+      "mode": "omni_reference",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "9:16",
+      "quantity": 1,
+      "native_audio": true,
+      "max_new_submissions": 1,
+      "automatic_retry": false,
+      "board_id": "e4156a8c422a4904b88b7bce6018b796",
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png",
+          "sha256": "2d9c9f55bf640e7532c2f1f9b8676f137de22b8c3cf193174310089c9464cedc",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.png",
+          "sha256": "837b3c2b2ac4a8fc8ad8f09c81de62691af7d4fdaee638909d5f2c2166010ea2",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.png",
+          "sha256": "34e52dc5deb372be16a3f84d2a426b631369b8b178d3e1d1afb5125853af4cd5",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
+          "sha256": "2b46c27705531e51535878b15437f54f13743dd7ab293a916079987c1213ee97",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp",
+          "sha256": "751092a5f51e3c8343a6aee125b0328300b35e3d8bb6d5e718b5bd65c295fe2d",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
+          "sha256": "ecb8e3889da18219df7cff1a257745d72fcee325bd72e78221aff01d353661f4",
+          "required": true
+        },
+        {
+          "slot": "@Image7",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp",
+          "sha256": "605e99dcd85c39f16b48bb0907cfaba69ddd9aa2a1fe471fa707cbd43f81debd",
+          "required": true
+        },
+        {
+          "slot": "@Image8",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp",
+          "sha256": "7ba78814eacf9914200c1de2da69920c4b0363cefb9e1a05a788eb5984b40722",
+          "required": true
+        },
+        {
+          "slot": "@Image9",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png",
+          "sha256": "c20fb33409a9abec6159bc41b317682398e24051a99df99f951ff48a2ebaf5bf",
+          "required": true
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "blocker": null,
+      "launch_readiness": "authorized_inputs_available",
+      "authorization": "Owner t980u 27.11.2026 01:27 MSK: «Да, генерируй…», «в Ван3 запускай через топвюв их следующими в очереди». Unlimited 0 only.",
+      "result_group": "Сцена 1 · Версия Wan 3.0"
+    },
+    {
+      "id": "1-W06-WAN30",
+      "scene_id": 1,
+      "prompt_id": "1-W06",
+      "canonical_block_label": "1 · Wan 3.0 1-W06",
+      "canonical_prompt_sha256": "6b6a0ce063ea01aab3e952d1b14a3d1e1f3330c6818da0ac412db7c4b10d3f9a",
+      "priority": 0.006,
+      "state": "waiting_for_slot",
+      "model": "Wan 3.0",
+      "mode": "omni_reference",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "9:16",
+      "quantity": 1,
+      "native_audio": true,
+      "max_new_submissions": 1,
+      "automatic_retry": false,
+      "board_id": "e4156a8c422a4904b88b7bce6018b796",
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png",
+          "sha256": "c20fb33409a9abec6159bc41b317682398e24051a99df99f951ff48a2ebaf5bf",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
+          "sha256": "2b46c27705531e51535878b15437f54f13743dd7ab293a916079987c1213ee97",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp",
+          "sha256": "751092a5f51e3c8343a6aee125b0328300b35e3d8bb6d5e718b5bd65c295fe2d",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
+          "sha256": "ecb8e3889da18219df7cff1a257745d72fcee325bd72e78221aff01d353661f4",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp",
+          "sha256": "605e99dcd85c39f16b48bb0907cfaba69ddd9aa2a1fe471fa707cbd43f81debd",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp",
+          "sha256": "7ba78814eacf9914200c1de2da69920c4b0363cefb9e1a05a788eb5984b40722",
+          "required": true
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "blocker": null,
+      "launch_readiness": "authorized_inputs_available",
+      "authorization": "Owner t980u 27.11.2026 01:27 MSK: «Да, генерируй…», «в Ван3 запускай через топвюв их следующими в очереди». Unlimited 0 only.",
+      "result_group": "Сцена 1 · Версия Wan 3.0"
+    },
+    {
+      "id": "1-W07-WAN30",
+      "scene_id": 1,
+      "prompt_id": "1-W07",
+      "canonical_block_label": "1 · Wan 3.0 1-W07",
+      "canonical_prompt_sha256": "d5372df119164a7c47c70ed432d88b57cfccdaa9f2793d9e8eec885adff74873",
+      "priority": 0.007,
+      "state": "waiting_for_slot",
+      "model": "Wan 3.0",
+      "mode": "omni_reference",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "9:16",
+      "quantity": 1,
+      "native_audio": true,
+      "max_new_submissions": 1,
+      "automatic_retry": false,
+      "board_id": "e4156a8c422a4904b88b7bce6018b796",
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.png",
+          "sha256": "00ac6be49fe7b8776bf3db188f1e678c0806eb5964b5bcee046bd61ec68d654f",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png",
+          "sha256": "71e214b21d6d2f8e8e41613b4cd6b6faa92498a09780fbabcb6e7cc813c6ac63",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
+          "sha256": "ecb8e3889da18219df7cff1a257745d72fcee325bd72e78221aff01d353661f4",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp",
+          "sha256": "605e99dcd85c39f16b48bb0907cfaba69ddd9aa2a1fe471fa707cbd43f81debd",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
+          "sha256": "2b46c27705531e51535878b15437f54f13743dd7ab293a916079987c1213ee97",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp",
+          "sha256": "751092a5f51e3c8343a6aee125b0328300b35e3d8bb6d5e718b5bd65c295fe2d",
+          "required": true
+        },
+        {
+          "slot": "@Image7",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp",
+          "sha256": "7ba78814eacf9914200c1de2da69920c4b0363cefb9e1a05a788eb5984b40722",
+          "required": true
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "blocker": null,
+      "launch_readiness": "authorized_inputs_available",
+      "authorization": "Owner t980u 27.11.2026 01:27 MSK: «Да, генерируй…», «в Ван3 запускай через топвюв их следующими в очереди». Unlimited 0 only.",
+      "result_group": "Сцена 1 · Версия Wan 3.0"
+    },
+    {
+      "id": "1-W08-WAN30",
+      "scene_id": 1,
+      "prompt_id": "1-W08",
+      "canonical_block_label": "1 · Wan 3.0 1-W08",
+      "canonical_prompt_sha256": "b814cd4cbc6034298a547559c5a1ffddfcdcef7a4ed273e84741c80f42409bc2",
+      "priority": 0.008,
+      "state": "waiting_for_slot",
+      "model": "Wan 3.0",
+      "mode": "omni_reference",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "9:16",
+      "quantity": 1,
+      "native_audio": true,
+      "max_new_submissions": 1,
+      "automatic_retry": false,
+      "board_id": "e4156a8c422a4904b88b7bce6018b796",
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png",
+          "sha256": "71e214b21d6d2f8e8e41613b4cd6b6faa92498a09780fbabcb6e7cc813c6ac63",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
+          "sha256": "2b46c27705531e51535878b15437f54f13743dd7ab293a916079987c1213ee97",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp",
+          "sha256": "751092a5f51e3c8343a6aee125b0328300b35e3d8bb6d5e718b5bd65c295fe2d",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
+          "sha256": "ecb8e3889da18219df7cff1a257745d72fcee325bd72e78221aff01d353661f4",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp",
+          "sha256": "605e99dcd85c39f16b48bb0907cfaba69ddd9aa2a1fe471fa707cbd43f81debd",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp",
+          "sha256": "551b02331509554ba23e0d0c0c60742d44bb7f6a2e5cbc62473e3853fb3e5fd5",
+          "required": true
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "blocker": null,
+      "launch_readiness": "authorized_inputs_available",
+      "authorization": "Owner t980u 27.11.2026 01:27 MSK: «Да, генерируй…», «в Ван3 запускай через топвюв их следующими в очереди». Unlimited 0 only.",
+      "result_group": "Сцена 1 · Версия Wan 3.0"
+    },
+    {
+      "id": "1-W09-WAN30",
+      "scene_id": 1,
+      "prompt_id": "1-W09",
+      "canonical_block_label": "1 · Wan 3.0 1-W09",
+      "canonical_prompt_sha256": "b0396b7140b2c821b6da55b171a3c0b2a02bcccbdcf6c49d65e7557dfbb7aeab",
+      "priority": 0.009,
+      "state": "waiting_for_slot",
+      "model": "Wan 3.0",
+      "mode": "omni_reference",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "9:16",
+      "quantity": 1,
+      "native_audio": true,
+      "max_new_submissions": 1,
+      "automatic_retry": false,
+      "board_id": "e4156a8c422a4904b88b7bce6018b796",
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png",
+          "sha256": "71e214b21d6d2f8e8e41613b4cd6b6faa92498a09780fbabcb6e7cc813c6ac63",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp",
+          "sha256": "2b46c27705531e51535878b15437f54f13743dd7ab293a916079987c1213ee97",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp",
+          "sha256": "751092a5f51e3c8343a6aee125b0328300b35e3d8bb6d5e718b5bd65c295fe2d",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
+          "sha256": "ecb8e3889da18219df7cff1a257745d72fcee325bd72e78221aff01d353661f4",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp",
+          "sha256": "605e99dcd85c39f16b48bb0907cfaba69ddd9aa2a1fe471fa707cbd43f81debd",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp",
+          "sha256": "551b02331509554ba23e0d0c0c60742d44bb7f6a2e5cbc62473e3853fb3e5fd5",
+          "required": true
+        },
+        {
+          "slot": "@Image7",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.png",
+          "sha256": "1845c13ab4da5f1bf0f8df9979c361877f22b7e5499b0b024946c6f45da72eb7",
+          "required": true
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "blocker": null,
+      "launch_readiness": "authorized_inputs_available",
+      "authorization": "Owner t980u 27.11.2026 01:27 MSK: «Да, генерируй…», «в Ван3 запускай через топвюв их следующими в очереди». Unlimited 0 only.",
+      "result_group": "Сцена 1 · Версия Wan 3.0"
+    },
+    {
+      "id": "1-W10-WAN30",
+      "scene_id": 1,
+      "prompt_id": "1-W10",
+      "canonical_block_label": "1 · Wan 3.0 1-W10",
+      "canonical_prompt_sha256": "388777ecd3243ea753d174937c56fc95ce85ff2fe4171b70764454ae5385c7eb",
+      "priority": 0.01,
+      "state": "waiting_for_slot",
+      "model": "Wan 3.0",
+      "mode": "omni_reference",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "9:16",
+      "quantity": 1,
+      "native_audio": true,
+      "max_new_submissions": 1,
+      "automatic_retry": false,
+      "board_id": "e4156a8c422a4904b88b7bce6018b796",
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png",
+          "sha256": "2d9c9f55bf640e7532c2f1f9b8676f137de22b8c3cf193174310089c9464cedc",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
+          "sha256": "ecb8e3889da18219df7cff1a257745d72fcee325bd72e78221aff01d353661f4",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp",
+          "sha256": "605e99dcd85c39f16b48bb0907cfaba69ddd9aa2a1fe471fa707cbd43f81debd",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp",
+          "sha256": "551b02331509554ba23e0d0c0c60742d44bb7f6a2e5cbc62473e3853fb3e5fd5",
+          "required": true
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "blocker": null,
+      "launch_readiness": "authorized_inputs_available",
+      "authorization": "Owner t980u 27.11.2026 01:27 MSK: «Да, генерируй…», «в Ван3 запускай через топвюв их следующими в очереди». Unlimited 0 only.",
+      "result_group": "Сцена 1 · Версия Wan 3.0"
+    }
+  ],
   "already_submitted": {},
-  "owner_site_actions": []
+  "owner_site_actions": [],
+  "owner_front_order_20261127_t980u": {
+    "quote": "Сделай свою версию и в Ван3 запускай через топвюв их следующими в очереди",
+    "order": [
+      "1-W01-WAN30",
+      "1-W02-WAN30",
+      "1-W03-WAN30",
+      "1-W04-WAN30",
+      "1-W05-WAN30",
+      "1-W06-WAN30",
+      "1-W07-WAN30",
+      "1-W08-WAN30",
+      "1-W09-WAN30",
+      "1-W10-WAN30"
+    ]
+  }
 }

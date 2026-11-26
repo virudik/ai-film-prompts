@@ -4,7 +4,7 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**26.11.2026 · 1 сцен к генерации/доработке · 25 полных текстов промта**
+**27.11.2026 · 1 сцен к генерации/доработке · 53 полных текстов промта**
 
 - **🛠️ 0** рабочих направлений W.
 - **⏳ 0** сцен сейчас в медленной генерации: **нет**.
@@ -14,7 +14,7 @@
 
 | ID | Сцена | Персонажи | Что происходит |
 |---|---|---|---|
-| 1 | [Ради этого стоит жить — Стахий, S1E1](#scene-1) | Аркадий, Надежда, Стахий, семья | Исходник 03:08, 9:16. Одна сцена: 15 подсцен под 15 с либо 10 под 30 с. Сценарная разбивка DRAFT, без запусков |
+| 1 | [Ради этого стоит жить — Стахий, S1E1](#scene-1) | Аркадий, Надежда, Стахий, семья | Исходник 03:08, 9:16. Одна сцена: 15 подсцен под 15 с либо 10 под 30 с. Рабочий пакет 03:52: 18 клипов READY + 10 частей Wan 3.0; прежняя разбивка DRAFT, без запусков |
 
 <a id="scene-1"></a>
 ## Сцена 1 — Ради этого стоит жить (Стахий, сезон 1 / серия 1)
@@ -41,7 +41,7 @@
 
 10 отдельных изображений без людей. Кухня, ванная, коридор и палата имеют портретное соотношение сторон, отличное от 9:16: это reference-only входы, не готовые кадры видео; не растягивать. Сама сцена остаётся 9:16. Локации не задают лица или внешность героев.
 
-<div class="scene-ref-gallery"><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png" alt="Летняя дача — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Летняя дача · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png" alt="Общая комната квартиры — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Общая комната квартиры · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.png" alt="Кухня вечером — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Кухня вечером · 1052×1494 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.png" alt="Ванная — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Ванная · 1055×1491 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png" alt="Спальня ночью — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Спальня ночью · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png" alt="Красная площадь зимой — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Красная площадь зимой · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.png" alt="Токарный цех — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Токарный цех · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.png" alt="Больничный коридор — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Больничный коридор · 1049×1499 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png" alt="Больничная палата — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Больничная палата · 1054×1492 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.png" alt="Кладбище, дальний план — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Кладбище, дальний план · 941×1672 · не одобрено</figcaption></figure></div>
+<div class="scene-ref-gallery"><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.webp" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.webp" alt="Летняя дача — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Летняя дача · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp" alt="Общая комната квартиры — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Общая комната квартиры · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.webp" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.webp" alt="Кухня вечером — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Кухня вечером · 1052×1494 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.webp" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.webp" alt="Ванная — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Ванная · 1055×1491 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.webp" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.webp" alt="Спальня ночью — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Спальня ночью · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.webp" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.webp" alt="Красная площадь зимой — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Красная площадь зимой · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.webp" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.webp" alt="Токарный цех — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Токарный цех · 941×1672 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.webp" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.webp" alt="Больничный коридор — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Больничный коридор · 1049×1499 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp" alt="Больничная палата — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Больничная палата · 1054×1492 · не одобрено</figcaption></figure><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.webp" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.webp" alt="Кладбище, дальний план — ИИ-реконструкция, не одобрено" loading="lazy"></a><figcaption>Кладбище, дальний план · 941×1672 · не одобрено</figcaption></figure></div>
 
 ### Персонажи сцены 1 — ростовой лист и ракурсы головы
 
@@ -107,7 +107,7 @@ V1 — прежняя ростовая версия. V2 — тот же обра
 
 Картинка ниже — прежняя ИИ-реконструкция: бирюзовая покраска, теплица и кованая беседка **не совпадают** с фото дома. Пока её не перерисуют без людей, геометрию и материалы брать из текстового описания фото, а не из этой картинки как из авторитета. Исходные семейные фото в репозиторий не публикуются: источники владельца, не для публикации.
 
-<div class="scene-ref-gallery"><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png" alt="Дача и сад · реконструкция по фото · черновик" loading="lazy"></a><figcaption>Дача и сад · реконструкция по фото · черновик</figcaption></figure></div>
+<div class="scene-ref-gallery"><figure><a href="projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.webp" target="_blank" rel="noopener"><img src="projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.webp" alt="Дача и сад · реконструкция по фото · черновик" loading="lazy"></a><figcaption>Дача и сад · реконструкция по фото · черновик</figcaption></figure></div>
 
 ### Два варианта по количеству роликов
 
@@ -128,9 +128,9 @@ V1 — прежняя ростовая версия. V2 — тот же обра
 <a id="1-B01"></a>
 #### 1-B01 · 30 с · DRAFT
 
-**Локации:** [Летняя дача](projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png). Только окружение, не лица.
+**Локации:** [Летняя дача](projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.webp). Только окружение, не лица.
 
-**Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp) · [Пётр](projects/stikhiy/references/scenes/scene-1/S6-Petr.webp) · [Нина](projects/stikhiy/references/scenes/scene-1/S6-Nina.webp) · [Владимир](projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp) · [Дача и сад · реконструкция по фото](projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png). Стахию около года: левая колонка листа.
+**Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp) · [Пётр](projects/stikhiy/references/scenes/scene-1/S6-Petr.webp) · [Нина](projects/stikhiy/references/scenes/scene-1/S6-Nina.webp) · [Владимир](projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp) · [Дача и сад · реконструкция по фото](projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.webp). Стахию около года: левая колонка листа.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
@@ -173,7 +173,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-B02"></a>
 #### 1-B02 · 30 с · DRAFT
 
-**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png). Только окружение, не лица.
+**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp). Только окружение, не лица.
 
 **Дополнительные референсы:** [Анатолий](projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Стахий около года: предварительно левая колонка листа.
 
@@ -218,7 +218,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-B03"></a>
 #### 1-B03 · 30 с · DRAFT
 
-**Локации:** [Красная площадь зимой](projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png) · [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png). Только окружение, не лица.
+**Локации:** [Красная площадь зимой](projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.webp) · [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Ранний возраст Стахия: предварительно левая колонка. Для Шуры есть рабочий лист. У Валерия, Ольги Мазур (девичья фамилия Чечулина) и Виктории нет привязанного лицевого референса: не выдумывать, показать некрупно / спиной / вне фокуса либо убрать из кадра (это не блокер). Юлию не ставить.
 
@@ -264,7 +264,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-B04"></a>
 #### 1-B04 · 30 с · DRAFT
 
-**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png). Только окружение, не лица.
+**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp). Только окружение, не лица.
 
 **Дополнительные референсы:** [Анатолий](projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Дедушка Анатолий; ранний возраст Стахия, точная дата не указана.
 
@@ -309,7 +309,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-B05"></a>
 #### 1-B05 · 30 с · DRAFT
 
-**Локации:** [Токарный цех](projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.png). Только окружение, не лица.
+**Локации:** [Токарный цех](projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.webp). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp). Аркадий до болезни.
 
@@ -354,7 +354,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-B06"></a>
 #### 1-B06 · 30 с · DRAFT
 
-**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png) · [Кухня вечером](projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.png) · [Ванная](projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.png) · [Спальня ночью](projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png). Только окружение, не лица.
+**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp) · [Кухня вечером](projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.webp) · [Ванная](projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.webp) · [Спальня ночью](projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.webp). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Ранний возраст Стахия: предварительно левая колонка.
 
@@ -402,7 +402,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-B07"></a>
 #### 1-B07 · 30 с · DRAFT
 
-**Локации:** [Больничный коридор](projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.png) · [Больничная палата](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png). Только окружение, не лица.
+**Локации:** [Больничный коридор](projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.webp) · [Больничная палата](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Стахию почти два года: средняя колонка.
 
@@ -448,7 +448,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-B08"></a>
 #### 1-B08 · 30 с · DRAFT
 
-**Локации:** [Больничная палата](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png). Только окружение, не лица.
+**Локации:** [Больничная палата](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Для «Зенита» правая колонка Стахия пока ориентир; точный возраст надо уточнить.
 
@@ -493,7 +493,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-B09"></a>
 #### 1-B09 · 30 с · DRAFT
 
-**Локации:** [Кладбище, дальний план](projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.png). Только окружение, не лица.
+**Локации:** [Кладбище, дальний план](projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.webp). Только окружение, не лица.
 
 **Дополнительные референсы:** [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Стахию три года: правая колонка.
 
@@ -538,7 +538,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-B10"></a>
 #### 1-B10 · 30 с · DRAFT
 
-**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png). Только окружение, не лица.
+**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Стахию три года: правая колонка. Фото Аркадия на полке — отдельный источник; 3D-лист не заменяет архивный портрет.
 
@@ -593,9 +593,9 @@ NEGATIVE / FRAME FILL:
 <a id="1-A01"></a>
 #### 1-A01 · 15 с · DRAFT
 
-**Локации:** [Летняя дача](projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png). Только окружение, не лица.
+**Локации:** [Летняя дача](projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.webp). Только окружение, не лица.
 
-**Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp) · [Пётр](projects/stikhiy/references/scenes/scene-1/S6-Petr.webp) · [Нина](projects/stikhiy/references/scenes/scene-1/S6-Nina.webp) · [Владимир](projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp) · [Дача и сад · реконструкция по фото](projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png). Стахию около года: левая колонка листа.
+**Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp) · [Пётр](projects/stikhiy/references/scenes/scene-1/S6-Petr.webp) · [Нина](projects/stikhiy/references/scenes/scene-1/S6-Nina.webp) · [Владимир](projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp) · [Дача и сад · реконструкция по фото](projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.webp). Стахию около года: левая колонка листа.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
@@ -638,9 +638,9 @@ NEGATIVE / FRAME FILL:
 <a id="1-A02"></a>
 #### 1-A02 · 15 с · DRAFT
 
-**Локации:** [Летняя дача](projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png). Только окружение, не лица.
+**Локации:** [Летняя дача](projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.webp). Только окружение, не лица.
 
-**Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp) · [Пётр](projects/stikhiy/references/scenes/scene-1/S6-Petr.webp) · [Нина](projects/stikhiy/references/scenes/scene-1/S6-Nina.webp) · [Владимир](projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp) · [Дача и сад · реконструкция по фото](projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png). Стахию около года: левая колонка листа.
+**Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp) · [Пётр](projects/stikhiy/references/scenes/scene-1/S6-Petr.webp) · [Нина](projects/stikhiy/references/scenes/scene-1/S6-Nina.webp) · [Владимир](projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp) · [Дача и сад · реконструкция по фото](projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.webp). Стахию около года: левая колонка листа.
 
 ```text
 Mode: reference-to-video (draft specification) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
@@ -683,7 +683,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-A03"></a>
 #### 1-A03 · 15 с · DRAFT
 
-**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png). Только окружение, не лица.
+**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp). Только окружение, не лица.
 
 **Дополнительные референсы:** [Анатолий](projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Стахий около года: предварительно левая колонка листа.
 
@@ -728,7 +728,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-A04"></a>
 #### 1-A04 · 15 с · DRAFT
 
-**Локации:** [Красная площадь зимой](projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png). Только окружение, не лица.
+**Локации:** [Красная площадь зимой](projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.webp). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Ранний возраст Стахия: предварительно левая колонка. Для Шуры есть рабочий лист. У Валерия, Ольги Мазур (девичья фамилия Чечулина) и Виктории нет привязанного лицевого референса: не выдумывать, показать некрупно / спиной / вне фокуса либо убрать из кадра (это не блокер). Юлию не ставить.
 
@@ -773,7 +773,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-A05"></a>
 #### 1-A05 · 15 с · DRAFT
 
-**Локации:** [Красная площадь зимой](projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png) · [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png). Только окружение, не лица.
+**Локации:** [Красная площадь зимой](projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.webp) · [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Ранний возраст Стахия: предварительно левая колонка. Для Шуры есть рабочий лист. У Валерия, Ольги Мазур (девичья фамилия Чечулина) и Виктории нет привязанного лицевого референса: не выдумывать, показать некрупно / спиной / вне фокуса либо убрать из кадра (это не блокер). Юлию не ставить.
 
@@ -819,7 +819,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-A06"></a>
 #### 1-A06 · 15 с · DRAFT
 
-**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png). Только окружение, не лица.
+**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp). Только окружение, не лица.
 
 **Дополнительные референсы:** [Анатолий](projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Дедушка Анатолий; ранний возраст Стахия, точная дата не указана.
 
@@ -864,7 +864,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-A07"></a>
 #### 1-A07 · 15 с · DRAFT
 
-**Локации:** [Токарный цех](projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.png). Только окружение, не лица.
+**Локации:** [Токарный цех](projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.webp). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp). Аркадий до болезни.
 
@@ -909,7 +909,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-A08"></a>
 #### 1-A08 · 15 с · DRAFT
 
-**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png) · [Кухня вечером](projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.png) · [Ванная](projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.png) · [Спальня ночью](projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png). Только окружение, не лица.
+**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp) · [Кухня вечером](projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.webp) · [Ванная](projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.webp) · [Спальня ночью](projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.webp). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Ранний возраст Стахия: предварительно левая колонка.
 
@@ -957,7 +957,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-A09"></a>
 #### 1-A09 · 15 с · DRAFT
 
-**Локации:** [Спальня ночью](projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png). Только окружение, не лица.
+**Локации:** [Спальня ночью](projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.webp). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Ранний возраст Стахия: предварительно левая колонка.
 
@@ -1002,7 +1002,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-A10"></a>
 #### 1-A10 · 15 с · DRAFT
 
-**Локации:** [Больничный коридор](projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.png) · [Больничная палата](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png). Только окружение, не лица.
+**Локации:** [Больничный коридор](projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.webp) · [Больничная палата](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Стахию почти два года: средняя колонка.
 
@@ -1048,7 +1048,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-A11"></a>
 #### 1-A11 · 15 с · DRAFT
 
-**Локации:** [Больничная палата](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png). Только окружение, не лица.
+**Локации:** [Больничная палата](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Стахию почти два года: средняя колонка.
 
@@ -1093,7 +1093,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-A12"></a>
 #### 1-A12 · 15 с · DRAFT
 
-**Локации:** [Больничная палата](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png). Только окружение, не лица.
+**Локации:** [Больничная палата](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Для «Зенита» правая колонка Стахия пока ориентир; точный возраст надо уточнить.
 
@@ -1138,7 +1138,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-A13"></a>
 #### 1-A13 · 15 с · DRAFT
 
-**Локации:** [Больничная палата](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png). Только окружение, не лица.
+**Локации:** [Больничная палата](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Для «Зенита» правая колонка Стахия пока ориентир; точный возраст надо уточнить.
 
@@ -1183,7 +1183,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-A14"></a>
 #### 1-A14 · 15 с · DRAFT
 
-**Локации:** [Кладбище, дальний план](projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.png). Только окружение, не лица.
+**Локации:** [Кладбище, дальний план](projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.webp). Только окружение, не лица.
 
 **Дополнительные референсы:** [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Стахию три года: правая колонка.
 
@@ -1228,7 +1228,7 @@ NEGATIVE / FRAME FILL:
 <a id="1-A15"></a>
 #### 1-A15 · 15 с · DRAFT
 
-**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png). Только окружение, не лица.
+**Локации:** [Общая комната квартиры](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp). Только окружение, не лица.
 
 **Дополнительные референсы:** [Аркадий](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · [Надежда](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · [Стахий: 1, 2 и 3 года](projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp). Стахию три года: правая колонка. Фото Аркадия на полке — отдельный источник; 3D-лист не заменяет архивный портрет.
 
@@ -1273,6 +1273,753 @@ NEGATIVE / FRAME FILL:
 </div>
 
 </div>
+
+<a id="scene-1-ready"></a>
+### Рабочий пакет 03:52 · 18 клипов · READY (27.11.2026, owner t980u)
+
+Единственный монтаж 03:52 = 232 с. 18 самостоятельных карточек по 15 с рендера (в монтаж — обрезка с начала до указанной длины). Формат 9:16, 720p, 24 fps, **звук включён: русская речь в кадре с указанием говорящего**, закадр взрослого Стахия — отдельный голос, никто в кадре его не артикулирует. Эпизоды 06, 08 и 10 — отдельные карточки 1-G08…1-G11, 1-G14…1-G16 и 1-G18. Лица только по листам; без листа — спиной, вдали или вне фокуса. Пистолета и любого оружия нет. Анатолий на улице — кепка по «Анатолий 4.JPG» (`S6-Anatoly-cap.webp`, `S6-Anatoly-Head-V2-cap.webp`) и самокрутка; в этом монтаже Анатолий только в интерьере (1-G03, 1-G06), поэтому там листы без кепки и без самокрутки. «Зенит» — словесное описание корпуса в стиле «Зенит‑12сд» без читаемой маркировки, отдельного файла нет. Рефы ниже — порядок входов `<IMAGE_n>`; для локаций PNG-оригинал — вход генерации, ссылка ведёт на WebP-копию для сайта. Прежние карточки 1-A/1-B выше — исходные DRAFT-формы, не для запуска.
+
+| Клип | Время | В монтаж | Эпизод | Что |
+|---|---|---|---|---|
+| [1-G01](#1-G01) | 00:00–00:15 | 15 с | 01 Лето | Лето на даче: ягодка |
+| [1-G02](#1-G02) | 00:15–00:23 | 8 с | 01 Лето | Лето на даче: родные в саду |
+| [1-G03](#1-G03) | 00:23–00:38 | 15 с | 02 Вата | Дедушка и сладкая вата |
+| [1-G04](#1-G04) | 00:38–00:50 | 12 с | 03 Мечта | Мечта: Красная площадь |
+| [1-G05](#1-G05) | 00:50–01:02 | 12 с | 03 Мечта | Мечта: ответ и тесная квартира |
+| [1-G06](#1-G06) | 01:02–01:17 | 15 с | 04 Утрата | Смерть дедушки Анатолия |
+| [1-G07](#1-G07) | 01:17–01:32 | 15 с | 05 Кашель | Цех АЗЛК: первый кашель |
+| [1-G08](#1-G08) | 01:32–01:47 | 15 с | 06 Ночь | 06a · Вечер дома |
+| [1-G09](#1-G09) | 01:47–02:02 | 15 с | 06 Ночь | 06b · Ночной разговор 1 |
+| [1-G10](#1-G10) | 02:02–02:17 | 15 с | 06 Ночь | 06c · Ночной разговор 2 |
+| [1-G11](#1-G11) | 02:17–02:32 | 15 с | 06 Ночь | 06d · «Не откладывай» |
+| [1-G12](#1-G12) | 02:32–02:42 | 10 с | 07 Год надежды | Больница: «Идём к папе» |
+| [1-G13](#1-G13) | 02:42–02:52 | 10 с | 07 Год надежды | Больница: лечение |
+| [1-G14](#1-G14) | 02:52–03:06 | 14 с | 08 Зенит | 08a · «Ты мало мяса ел» |
+| [1-G15](#1-G15) | 03:06–03:18 | 12 с | 08 Зенит | 08b · Подарок |
+| [1-G16](#1-G16) | 03:18–03:28 | 10 с | 08 Зенит | 08c · «Ради такого фотоаппарата» |
+| [1-G17](#1-G17) | 03:28–03:37 | 9 с | 09 Тишина | Тишина: похороны |
+| [1-G18](#1-G18) | 03:37–03:52 | 15 с | 10 Полка | Полка: тот же «Зенит» |
+
+<a id="1-G01"></a>
+#### 1-G01 · 15 с · READY
+
+**Время в фильме:** 00:00–00:15 · в монтаж 15 с · **Эпизод:** 01 Лето · **Лето на даче: ягодка**
+
+**Рефы:** `<IMAGE_0>` [S6-LOC01-dacha-v3](projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.webp) · `<IMAGE_1>` [S6-LOC-dacha-shower](projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.webp) · `<IMAGE_2>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_3>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_4>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_5>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_6>` [S6-Stakhiy-age-1-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp)
+
+```text
+Лето на даче: ягодка — Stakhiy, scene 1, film time 00:00–00:15. Mode: reference-to-video. Duration 15 s render, used 15 s from the start. 720p, 9:16, 24 fps. Native audio ON.
+
+STYLE: Photorealistic, restrained family drama; staged period reconstruction of the late 1980s in the USSR (Moscow and Lyubertsy), not documentary footage. 35mm film look, soft natural grain, muted warm palette, natural skin and fabric texture, practical light, calm handheld-steady physical camera, motivated cuts only. Vertical 9:16 frame filled edge to edge, no letterbox, no on-screen text, no subtitles, no captions, no logos, no watermarks.
+
+REFERENCES: Arkady (father, about 28): <IMAGE_2> <IMAGE_3>. Nadezhda (mother, mid-twenties): <IMAGE_4> <IMAGE_5>. Stakhiy (their son, about one year old): <IMAGE_6>. Location: the small weathered plank dacha house with corrugated metal roof, two lattice windows with lace curtains and wooden double doors <IMAGE_0>; the yard with the outdoor shower, barrel, cherry tree and greenhouse <IMAGE_1> in the background.
+
+RULES: Faces come only from the reference sheets listed below; keep every face, age and costume consistent, no beautification, no identity swaps. Anyone without a reference sheet stays in the background, seen from behind, far away or out of focus, never a clear invented face. No toy guns, pistols or weapons of any kind. Anatoly (maternal grandfather): outdoors always his soft mid-grey tweed flat cap and a hand-rolled cigarette in his mouth; indoors no cigarette and no smoke. Late-1980s Soviet clothes and objects, no modern items.
+
+ACTION: Bright warm summer afternoon at the family dacha, low child's-eye camera. Arkady sits on a wooden bench in front of the house holding little Stakhiy securely on his knees. Nadezhda crouches beside them with a small enamel bowl of garden strawberries, holds one berry to the boy's lips; he tastes it, scrunches his face, then smiles and reaches for more. Arkady laughs softly and steadies him. Leaves move in a light breeze, insects in the warm air.
+
+SPEECH: At about 2 s Nadezhda, smiling, offering the berry: «На, ягодку. Сладкая.» Pause while the boy eats. At about 8 s Arkady, looking down at his son: «Кушай, сынок.» The baby makes only happy wordless sounds.
+
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+
+END / NOTES: End with the family still on the bench, same light, ready to continue.
+```
+
+<a id="1-G02"></a>
+#### 1-G02 · 15 с · READY
+
+**Время в фильме:** 00:15–00:23 · в монтаж 8 с · **Эпизод:** 01 Лето · **Лето на даче: родные в саду**
+
+**Рефы:** `<IMAGE_0>` [S6-LOC-dacha-shower](projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.webp) · `<IMAGE_1>` [S6-LOC01-dacha-v3](projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.webp) · `<IMAGE_2>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_3>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_4>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_5>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_6>` [S6-Stakhiy-age-1-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp) · `<IMAGE_7>` [S6-Petr-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Petr-Head-V2.webp) · `<IMAGE_8>` [S6-Nina-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nina-Head-V2.webp) · `<IMAGE_9>` [S6-Vladimir-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Vladimir-Head-V2.webp)
+
+```text
+Лето на даче: родные в саду — Stakhiy, scene 1, film time 00:15–00:23. Mode: reference-to-video. Duration 15 s render, used 8 s from the start. 720p, 9:16, 24 fps. Native audio ON.
+
+STYLE: Photorealistic, restrained family drama; staged period reconstruction of the late 1980s in the USSR (Moscow and Lyubertsy), not documentary footage. 35mm film look, soft natural grain, muted warm palette, natural skin and fabric texture, practical light, calm handheld-steady physical camera, motivated cuts only. Vertical 9:16 frame filled edge to edge, no letterbox, no on-screen text, no subtitles, no captions, no logos, no watermarks.
+
+REFERENCES: Yard with outdoor wooden shower with a dark barrel on its roof, a second barrel in the grass, a cherry tree by the barrel and a greenhouse with tomatoes and cucumbers to the right: <IMAGE_0>; dacha house <IMAGE_1>. Arkady <IMAGE_2> <IMAGE_3>, Nadezhda <IMAGE_4> <IMAGE_5>, Stakhiy about one year old <IMAGE_6>. Petr (paternal grandfather, about sixty) <IMAGE_7>, Nina (paternal grandmother, about sixty) <IMAGE_8>, Vladimir (godfather, Arkady's brother-like uncle, about thirty) <IMAGE_9>.
+
+RULES: Faces come only from the reference sheets listed below; keep every face, age and costume consistent, no beautification, no identity swaps. Anyone without a reference sheet stays in the background, seen from behind, far away or out of focus, never a clear invented face. No toy guns, pistols or weapons of any kind. Anatoly (maternal grandfather): outdoors always his soft mid-grey tweed flat cap and a hand-rolled cigarette in his mouth; indoors no cigarette and no smoke. Late-1980s Soviet clothes and objects, no modern items.
+
+ACTION: Same summer day. The camera gently pans from Arkady with the baby on his knees across the yard: Petr straightens up from the greenhouse with a ripe tomato, Nina stands under the cherry tree with a bowl, Vladimir walks to the barrel with a metal bucket. Ordinary relaxed dacha chores, warm light.
+
+SPEECH: Everything spoken within the first 7 seconds, short pauses between lines. Petr, wiping his hands, contented: «Хороший денёк.» Then Nina, looking at the baby: «Только аккуратнее.» Then Vladimir, lifting the bucket: «Я воды наберу.»
+
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+
+END / NOTES: After the lines a calm hold of the family in the yard; nothing dramatic happens.
+```
+
+<a id="1-G03"></a>
+#### 1-G03 · 15 с · READY
+
+**Время в фильме:** 00:23–00:38 · в монтаж 15 с · **Эпизод:** 02 Вата · **Дедушка и сладкая вата**
+
+**Рефы:** `<IMAGE_0>` [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp) · `<IMAGE_1>` [S6-Anatoly](projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp) · `<IMAGE_2>` [S6-Anatoly-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2.webp) · `<IMAGE_3>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_4>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_5>` [S6-Stakhiy-age-1-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp)
+
+```text
+Дедушка и сладкая вата — Stakhiy, scene 1, film time 00:23–00:38. Mode: reference-to-video. Duration 15 s render, used 15 s from the start. 720p, 9:16, 24 fps. Native audio ON.
+
+STYLE: Photorealistic, restrained family drama; staged period reconstruction of the late 1980s in the USSR (Moscow and Lyubertsy), not documentary footage. 35mm film look, soft natural grain, muted warm palette, natural skin and fabric texture, practical light, calm handheld-steady physical camera, motivated cuts only. Vertical 9:16 frame filled edge to edge, no letterbox, no on-screen text, no subtitles, no captions, no logos, no watermarks.
+
+REFERENCES: Interior of a modest late-1980s Lyubertsy apartment room <IMAGE_0>. Anatoly (maternal grandfather, around fifty, balding, zigzag knit sweater) <IMAGE_1> <IMAGE_2> — indoors, so no cigarette and no smoke; no cap needed indoors. Nadezhda <IMAGE_3> <IMAGE_4>. Stakhiy about one and a half <IMAGE_5>.
+
+RULES: Faces come only from the reference sheets listed below; keep every face, age and costume consistent, no beautification, no identity swaps. Anyone without a reference sheet stays in the background, seen from behind, far away or out of focus, never a clear invented face. No toy guns, pistols or weapons of any kind. Anatoly (maternal grandfather): outdoors always his soft mid-grey tweed flat cap and a hand-rolled cigarette in his mouth; indoors no cigarette and no smoke. Late-1980s Soviet clothes and objects, no modern items.
+
+ACTION: Soft window light. Anatoly comes into the room holding one parcel wrapped in brown kraft paper with a visible fold. He squats to the child's eye level and opens the paper: a fluffy pink cotton candy. Stakhiy, on the floor rug near Nadezhda, reaches for it with both hands; Anatoly smiles warmly, the paper rustles. Nadezhda is just behind the boy's shoulder. Only one parcel exists; the same kraft sheet stays in Anatoly's fingers at the end.
+
+SPEECH: At about 3 s Anatoly, kindly: «На, Стахий, тебе сладкую вату принёс.» Pause. At about 9 s Nadezhda, from behind the boy's shoulder: «Скажи деду спасибо.» The child does not speak, only reaches and smiles.
+
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+
+END / NOTES: End on the kraft paper in Anatoly's hand and the boy's happy face.
+```
+
+<a id="1-G04"></a>
+#### 1-G04 · 15 с · READY
+
+**Время в фильме:** 00:38–00:50 · в монтаж 12 с · **Эпизод:** 03 Мечта · **Мечта: Красная площадь**
+
+**Рефы:** `<IMAGE_0>` [S6-LOC06-red-square](projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.webp) · `<IMAGE_1>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_2>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_3>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_4>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_5>` [S6-Stakhiy-age-1-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp)
+
+```text
+Мечта: Красная площадь — Stakhiy, scene 1, film time 00:38–00:50. Mode: reference-to-video. Duration 15 s render, used 12 s from the start. 720p, 9:16, 24 fps. Native audio ON.
+
+STYLE: Photorealistic, restrained family drama; staged period reconstruction of the late 1980s in the USSR (Moscow and Lyubertsy), not documentary footage. 35mm film look, soft natural grain, muted warm palette, natural skin and fabric texture, practical light, calm handheld-steady physical camera, motivated cuts only. Vertical 9:16 frame filled edge to edge, no letterbox, no on-screen text, no subtitles, no captions, no logos, no watermarks.
+
+REFERENCES: Winter Red Square, Moscow, late 1980s, overcast diffuse light, light snow on the paving stones <IMAGE_0>. Arkady in a dark winter coat and fur hat <IMAGE_1> <IMAGE_2>, Nadezhda in a winter coat and knitted hat <IMAGE_3> <IMAGE_4>, little Stakhiy bundled in a Soviet pram <IMAGE_5>.
+
+RULES: Faces come only from the reference sheets listed below; keep every face, age and costume consistent, no beautification, no identity swaps. Anyone without a reference sheet stays in the background, seen from behind, far away or out of focus, never a clear invented face. No toy guns, pistols or weapons of any kind. Anatoly (maternal grandfather): outdoors always his soft mid-grey tweed flat cap and a hand-rolled cigarette in his mouth; indoors no cigarette and no smoke. Late-1980s Soviet clothes and objects, no modern items.
+
+ACTION: Medium two-shot tracking slowly alongside the young couple as they walk pushing the pram across the square, breath visible in the cold. Arkady looks from his wife to the pram and speaks calmly and hopefully; Nadezhda listens without speaking.
+
+SPEECH: Speech within the first 10 seconds. Arkady, calm and dreamy: «Надь, я хочу, чтобы у нас было своё жильё. Только наше. Чтобы у Стахия была отдельная комната.» Nadezhda stays silent and listens.
+
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+
+END / NOTES: End as he finishes and waits for her answer.
+```
+
+<a id="1-G05"></a>
+#### 1-G05 · 15 с · READY
+
+**Время в фильме:** 00:50–01:02 · в монтаж 12 с · **Эпизод:** 03 Мечта · **Мечта: ответ и тесная квартира**
+
+**Рефы:** `<IMAGE_0>` [S6-LOC06-red-square](projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.webp) · `<IMAGE_1>` [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp) · `<IMAGE_2>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_3>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_4>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_5>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_6>` [S6-Stakhiy-age-1-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp) · `<IMAGE_7>` [S6-Shura-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Shura-Head-V2.webp)
+
+```text
+Мечта: ответ и тесная квартира — Stakhiy, scene 1, film time 00:50–01:02. Mode: reference-to-video. Duration 15 s render, used 12 s from the start. 720p, 9:16, 24 fps. Native audio ON.
+
+STYLE: Photorealistic, restrained family drama; staged period reconstruction of the late 1980s in the USSR (Moscow and Lyubertsy), not documentary footage. 35mm film look, soft natural grain, muted warm palette, natural skin and fabric texture, practical light, calm handheld-steady physical camera, motivated cuts only. Vertical 9:16 frame filled edge to edge, no letterbox, no on-screen text, no subtitles, no captions, no logos, no watermarks.
+
+REFERENCES: Winter Red Square <IMAGE_0>, then the crowded apartment <IMAGE_1>. Arkady <IMAGE_2> <IMAGE_3>, Nadezhda <IMAGE_4> <IMAGE_5>, Stakhiy about one year <IMAGE_6>, Shura / Alexandra (maternal grandmother, about fifty) <IMAGE_7>.
+
+RULES: Faces come only from the reference sheets listed below; keep every face, age and costume consistent, no beautification, no identity swaps. Anyone without a reference sheet stays in the background, seen from behind, far away or out of focus, never a clear invented face. No toy guns, pistols or weapons of any kind. Anatoly (maternal grandfather): outdoors always his soft mid-grey tweed flat cap and a hand-rolled cigarette in his mouth; indoors no cigarette and no smoke. Late-1980s Soviet clothes and objects, no modern items.
+
+ACTION: First 5 seconds on the square: Nadezhda turns to Arkady by the pram and answers warmly with a soft smile. Then one clear straight cut to the cramped shared four-room apartment in Lyubertsy: a narrow corridor crowded with coats, boxes and a folding bed; Shura passes with a pot, the parents with the baby squeeze past. Other relatives only as backs and out-of-focus figures in a doorway, no clear new faces.
+
+SPEECH: In the first 4 seconds Nadezhda: «Будет, Аркаш. Обязательно будет.» After the cut no speech, only domestic sounds.
+
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+
+END / NOTES: End inside the cramped apartment: the dream of an own room is not yet real.
+```
+
+<a id="1-G06"></a>
+#### 1-G06 · 15 с · READY
+
+**Время в фильме:** 01:02–01:17 · в монтаж 15 с · **Эпизод:** 04 Утрата · **Смерть дедушки Анатолия**
+
+**Рефы:** `<IMAGE_0>` [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp) · `<IMAGE_1>` [S6-Anatoly](projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp) · `<IMAGE_2>` [S6-Anatoly-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2.webp) · `<IMAGE_3>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_4>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_5>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_6>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_7>` [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp)
+
+```text
+Смерть дедушки Анатолия — Stakhiy, scene 1, film time 01:02–01:17. Mode: reference-to-video. Duration 15 s render, used 15 s from the start. 720p, 9:16, 24 fps. Native audio ON.
+
+STYLE: Photorealistic, restrained family drama; staged period reconstruction of the late 1980s in the USSR (Moscow and Lyubertsy), not documentary footage. 35mm film look, soft natural grain, muted warm palette, natural skin and fabric texture, practical light, calm handheld-steady physical camera, motivated cuts only. Vertical 9:16 frame filled edge to edge, no letterbox, no on-screen text, no subtitles, no captions, no logos, no watermarks.
+
+REFERENCES: Same apartment room, ordinary daylight, an armchair and a small table <IMAGE_0>. Anatoly <IMAGE_1> <IMAGE_2> (indoors: no cigarette, no cap). Nadezhda <IMAGE_3> <IMAGE_4>, Arkady <IMAGE_5> <IMAGE_6>, Stakhiy about two <IMAGE_7>.
+
+RULES: Faces come only from the reference sheets listed below; keep every face, age and costume consistent, no beautification, no identity swaps. Anyone without a reference sheet stays in the background, seen from behind, far away or out of focus, never a clear invented face. No toy guns, pistols or weapons of any kind. Anatoly (maternal grandfather): outdoors always his soft mid-grey tweed flat cap and a hand-rolled cigarette in his mouth; indoors no cigarette and no smoke. Late-1980s Soviet clothes and objects, no modern items.
+
+ACTION: Low camera at the child's eye level, Stakhiy in the foreground watching. Anatoly stands by his armchair, suddenly unwell, loses his balance and sinks out of the bottom of the frame — no close-up of the fall. Nadezhda and Arkady rush towards him, slightly out of focus. Then one straight time cut: the empty armchair, and on the table the same brown kraft paper from the cotton candy, now empty, lying still.
+
+SPEECH: At about 3 s Nadezhda, frightened: «Папа!» Right after her Arkady: «Держи его.» Then silence over the empty armchair.
+
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+
+END / NOTES: End on the empty armchair and the motionless kraft paper; absence is the meaning of the shot. No medical details, no music.
+```
+
+<a id="1-G07"></a>
+#### 1-G07 · 15 с · READY
+
+**Время в фильме:** 01:17–01:32 · в монтаж 15 с · **Эпизод:** 05 Кашель · **Цех АЗЛК: первый кашель**
+
+**Рефы:** `<IMAGE_0>` [S6-LOC07-azlk](projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.webp) · `<IMAGE_1>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_2>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp)
+
+```text
+Цех АЗЛК: первый кашель — Stakhiy, scene 1, film time 01:17–01:32. Mode: reference-to-video. Duration 15 s render, used 15 s from the start. 720p, 9:16, 24 fps. Native audio ON.
+
+STYLE: Photorealistic, restrained family drama; staged period reconstruction of the late 1980s in the USSR (Moscow and Lyubertsy), not documentary footage. 35mm film look, soft natural grain, muted warm palette, natural skin and fabric texture, practical light, calm handheld-steady physical camera, motivated cuts only. Vertical 9:16 frame filled edge to edge, no letterbox, no on-screen text, no subtitles, no captions, no logos, no watermarks.
+
+REFERENCES: AZLK car factory workshop, late 1980s, a lathe, metal shavings, practical workshop light <IMAGE_0>. Arkady in work overalls <IMAGE_1> <IMAGE_2>.
+
+RULES: Faces come only from the reference sheets listed below; keep every face, age and costume consistent, no beautification, no identity swaps. Anyone without a reference sheet stays in the background, seen from behind, far away or out of focus, never a clear invented face. No toy guns, pistols or weapons of any kind. Anatoly (maternal grandfather): outdoors always his soft mid-grey tweed flat cap and a hand-rolled cigarette in his mouth; indoors no cigarette and no smoke. Late-1980s Soviet clothes and objects, no modern items.
+
+ACTION: Arkady works concentrated at the lathe, hands well away from rotating parts. A coughing fit interrupts his rhythm: he steps back from the machine, coughs into his fist, catches his breath, glances around and returns to his work place. No blood, no diagnosis.
+
+SPEECH: No speech at all. Only machine noise, steps and his coughing.
+
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+
+END / NOTES: End on Arkady back at the lathe; a faint residual cough can bridge to home.
+```
+
+<a id="1-G08"></a>
+#### 1-G08 · 15 с · READY
+
+**Время в фильме:** 01:32–01:47 · в монтаж 15 с · **Эпизод:** 06 Ночь · **06a · Вечер дома**
+
+**Рефы:** `<IMAGE_0>` [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp) · `<IMAGE_1>` [S6-LOC03-kitchen](projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.webp) · `<IMAGE_2>` [S6-LOC04-bathroom](projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.webp) · `<IMAGE_3>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_4>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_5>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_6>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_7>` [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp)
+
+```text
+06a · Вечер дома — Stakhiy, scene 1, film time 01:32–01:47. Mode: reference-to-video. Duration 15 s render, used 15 s from the start. 720p, 9:16, 24 fps. Native audio ON.
+
+STYLE: Photorealistic, restrained family drama; staged period reconstruction of the late 1980s in the USSR (Moscow and Lyubertsy), not documentary footage. 35mm film look, soft natural grain, muted warm palette, natural skin and fabric texture, practical light, calm handheld-steady physical camera, motivated cuts only. Vertical 9:16 frame filled edge to edge, no letterbox, no on-screen text, no subtitles, no captions, no logos, no watermarks.
+
+REFERENCES: Lyubertsy apartment, late 1980s: room <IMAGE_0>, kitchen <IMAGE_1>, bathroom <IMAGE_2>; keep each room as in its reference and do not mix them. Arkady <IMAGE_3> <IMAGE_4>, Nadezhda <IMAGE_5> <IMAGE_6>, Stakhiy about two <IMAGE_7>.
+
+RULES: Faces come only from the reference sheets listed below; keep every face, age and costume consistent, no beautification, no identity swaps. Anyone without a reference sheet stays in the background, seen from behind, far away or out of focus, never a clear invented face. No toy guns, pistols or weapons of any kind. Anatoly (maternal grandfather): outdoors always his soft mid-grey tweed flat cap and a hand-rolled cigarette in his mouth; indoors no cigarette and no smoke. Late-1980s Soviet clothes and objects, no modern items.
+
+ACTION: Four short actions joined by clear cuts, light going from ordinary evening to dim: Arkady comes home, catches his son's look and smiles; a short quiet supper in the kitchen next to Nadezhda; in the bathroom he switches off an electric razor in front of the mirror and coughs; the switched-off razor lies by the mirror as the cough fades into a quiet bedroom.
+
+SPEECH: No words. Only domestic sounds, the razor hum stopping and a cough. No blood, no music.
+
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+
+END / NOTES: End on the silent razor by the mirror.
+```
+
+<a id="1-G09"></a>
+#### 1-G09 · 15 с · READY
+
+**Время в фильме:** 01:47–02:02 · в монтаж 15 с · **Эпизод:** 06 Ночь · **06b · Ночной разговор 1**
+
+**Рефы:** `<IMAGE_0>` [S6-LOC05-bedroom](projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.webp) · `<IMAGE_1>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_2>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_3>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_4>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_5>` [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp)
+
+```text
+06b · Ночной разговор 1 — Stakhiy, scene 1, film time 01:47–02:02. Mode: reference-to-video. Duration 15 s render, used 15 s from the start. 720p, 9:16, 24 fps. Native audio ON.
+
+STYLE: Photorealistic, restrained family drama; staged period reconstruction of the late 1980s in the USSR (Moscow and Lyubertsy), not documentary footage. 35mm film look, soft natural grain, muted warm palette, natural skin and fabric texture, practical light, calm handheld-steady physical camera, motivated cuts only. Vertical 9:16 frame filled edge to edge, no letterbox, no on-screen text, no subtitles, no captions, no logos, no watermarks.
+
+REFERENCES: Bedroom of the same apartment at night, warm low lamp light <IMAGE_0>. Arkady <IMAGE_1> <IMAGE_2> and Nadezhda <IMAGE_3> <IMAGE_4> lying in bed; Stakhiy about two <IMAGE_5> asleep in his cot nearby.
+
+RULES: Faces come only from the reference sheets listed below; keep every face, age and costume consistent, no beautification, no identity swaps. Anyone without a reference sheet stays in the background, seen from behind, far away or out of focus, never a clear invented face. No toy guns, pistols or weapons of any kind. Anatoly (maternal grandfather): outdoors always his soft mid-grey tweed flat cap and a hand-rolled cigarette in his mouth; indoors no cigarette and no smoke. Late-1980s Soviet clothes and objects, no modern items.
+
+ACTION: Quiet intimate night scene. Arkady lies looking at the ceiling, then at Nadezhda, speaking slowly. Shoot the current speaker and the listener's reaction in turns. Bodies and light do not change.
+
+SPEECH: Arkady, calm and unhurried, at about 1 s: «Знаешь, Надь… Мы всё время думаем, что впереди ещё много лет. Что успеем и квартиру купить, и Стахия вырастить…» Pause. Then Nadezhda, turning to him: «Ты чего вдруг?»
+
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+
+END / NOTES: End on her attentive look. No blood, no subtitles, no music.
+```
+
+<a id="1-G10"></a>
+#### 1-G10 · 15 с · READY
+
+**Время в фильме:** 02:02–02:17 · в монтаж 15 с · **Эпизод:** 06 Ночь · **06c · Ночной разговор 2**
+
+**Рефы:** `<IMAGE_0>` [S6-LOC05-bedroom](projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.webp) · `<IMAGE_1>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_2>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_3>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_4>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_5>` [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp)
+
+```text
+06c · Ночной разговор 2 — Stakhiy, scene 1, film time 02:02–02:17. Mode: reference-to-video. Duration 15 s render, used 15 s from the start. 720p, 9:16, 24 fps. Native audio ON.
+
+STYLE: Photorealistic, restrained family drama; staged period reconstruction of the late 1980s in the USSR (Moscow and Lyubertsy), not documentary footage. 35mm film look, soft natural grain, muted warm palette, natural skin and fabric texture, practical light, calm handheld-steady physical camera, motivated cuts only. Vertical 9:16 frame filled edge to edge, no letterbox, no on-screen text, no subtitles, no captions, no logos, no watermarks.
+
+REFERENCES: Same night bedroom <IMAGE_0>, same clothes and positions. Arkady <IMAGE_1> <IMAGE_2>, Nadezhda <IMAGE_3> <IMAGE_4>, Stakhiy asleep <IMAGE_5>.
+
+RULES: Faces come only from the reference sheets listed below; keep every face, age and costume consistent, no beautification, no identity swaps. Anyone without a reference sheet stays in the background, seen from behind, far away or out of focus, never a clear invented face. No toy guns, pistols or weapons of any kind. Anatoly (maternal grandfather): outdoors always his soft mid-grey tweed flat cap and a hand-rolled cigarette in his mouth; indoors no cigarette and no smoke. Late-1980s Soviet clothes and objects, no modern items.
+
+ACTION: Calm two-shot or Nadezhda's listening face; soft side light. Only Arkady's mouth moves on his lines; Nadezhda's reaction and hands in the pause.
+
+SPEECH: Arkady at about 1 s: «Да так… Просто иногда забываем, как быстро всё может измениться.» A short pause. Then Arkady again: «Я уже давно кашляю. И мне всё хуже. Кажется, опять температура.»
+
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+
+END / NOTES: End just before her answer. No new people, no symptoms in close-up, no diagnosis, no music.
+```
+
+<a id="1-G11"></a>
+#### 1-G11 · 15 с · READY
+
+**Время в фильме:** 02:17–02:32 · в монтаж 15 с · **Эпизод:** 06 Ночь · **06d · «Не откладывай»**
+
+**Рефы:** `<IMAGE_0>` [S6-LOC05-bedroom](projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.webp) · `<IMAGE_1>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_2>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_3>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_4>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_5>` [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp)
+
+```text
+06d · «Не откладывай» — Stakhiy, scene 1, film time 02:17–02:32. Mode: reference-to-video. Duration 15 s render, used 15 s from the start. 720p, 9:16, 24 fps. Native audio ON.
+
+STYLE: Photorealistic, restrained family drama; staged period reconstruction of the late 1980s in the USSR (Moscow and Lyubertsy), not documentary footage. 35mm film look, soft natural grain, muted warm palette, natural skin and fabric texture, practical light, calm handheld-steady physical camera, motivated cuts only. Vertical 9:16 frame filled edge to edge, no letterbox, no on-screen text, no subtitles, no captions, no logos, no watermarks.
+
+REFERENCES: Same night bedroom <IMAGE_0>. Arkady <IMAGE_1> <IMAGE_2>, Nadezhda <IMAGE_3> <IMAGE_4>, Stakhiy about two asleep in the cot <IMAGE_5>.
+
+RULES: Faces come only from the reference sheets listed below; keep every face, age and costume consistent, no beautification, no identity swaps. Anyone without a reference sheet stays in the background, seen from behind, far away or out of focus, never a clear invented face. No toy guns, pistols or weapons of any kind. Anatoly (maternal grandfather): outdoors always his soft mid-grey tweed flat cap and a hand-rolled cigarette in his mouth; indoors no cigarette and no smoke. Late-1980s Soviet clothes and objects, no modern items.
+
+ACTION: Nadezhda looks at Arkady and speaks firmly but gently; he nods slightly. Then the camera slowly racks focus to the sleeping child in the cot and holds on him.
+
+SPEECH: At about 1 s Nadezhda: «Аркаш, завтра обязательно к врачу. Не откладывай.» Then silence.
+
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+
+END / NOTES: End on the sleeping boy.
+```
+
+<a id="1-G12"></a>
+#### 1-G12 · 15 с · READY
+
+**Время в фильме:** 02:32–02:42 · в монтаж 10 с · **Эпизод:** 07 Год надежды · **Больница: «Идём к папе»**
+
+**Рефы:** `<IMAGE_0>` [S6-LOC08-hospital-corridor](projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.webp) · `<IMAGE_1>` [S6-LOC09-hospital-room](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp) · `<IMAGE_2>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_3>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_4>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_5>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_6>` [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp)
+
+```text
+Больница: «Идём к папе» — Stakhiy, scene 1, film time 02:32–02:42. Mode: reference-to-video. Duration 15 s render, used 10 s from the start. 720p, 9:16, 24 fps. Native audio ON.
+
+STYLE: Photorealistic, restrained family drama; staged period reconstruction of the late 1980s in the USSR (Moscow and Lyubertsy), not documentary footage. 35mm film look, soft natural grain, muted warm palette, natural skin and fabric texture, practical light, calm handheld-steady physical camera, motivated cuts only. Vertical 9:16 frame filled edge to edge, no letterbox, no on-screen text, no subtitles, no captions, no logos, no watermarks.
+
+REFERENCES: Hospital corridor <IMAGE_0> and ward <IMAGE_1>, late 1980s, cool daylight, restrained medical everyday life. Nadezhda <IMAGE_2> <IMAGE_3>, Arkady in hospital pyjamas <IMAGE_4> <IMAGE_5>, Stakhiy almost two <IMAGE_6>.
+
+RULES: Faces come only from the reference sheets listed below; keep every face, age and costume consistent, no beautification, no identity swaps. Anyone without a reference sheet stays in the background, seen from behind, far away or out of focus, never a clear invented face. No toy guns, pistols or weapons of any kind. Anatoly (maternal grandfather): outdoors always his soft mid-grey tweed flat cap and a hand-rolled cigarette in his mouth; indoors no cigarette and no smoke. Late-1980s Soviet clothes and objects, no modern items.
+
+ACTION: Nadezhda leads little Stakhiy by the hand along the corridor and into the ward where Arkady sits on the bed and smiles to them. Staff are only blurred backgrounds.
+
+SPEECH: At about 1 s Nadezhda to the boy: «Идём к папе.» From about 3 s the off-screen adult narrator: «Папа почти год боролся за жизнь. Врачи делали всё возможное.»
+
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+
+END / NOTES: The adult Stakhiy voice-over is an off-screen calm warm male voice in his late thirties, Russian, unhurried; nobody on screen moves their lips to it. End with the family meeting in the ward.
+```
+
+<a id="1-G13"></a>
+#### 1-G13 · 15 с · READY
+
+**Время в фильме:** 02:42–02:52 · в монтаж 10 с · **Эпизод:** 07 Год надежды · **Больница: лечение**
+
+**Рефы:** `<IMAGE_0>` [S6-LOC09-hospital-room](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp) · `<IMAGE_1>` [S6-LOC08-hospital-corridor](projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.webp) · `<IMAGE_2>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_3>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_4>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_5>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_6>` [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp)
+
+```text
+Больница: лечение — Stakhiy, scene 1, film time 02:42–02:52. Mode: reference-to-video. Duration 15 s render, used 10 s from the start. 720p, 9:16, 24 fps. Native audio ON.
+
+STYLE: Photorealistic, restrained family drama; staged period reconstruction of the late 1980s in the USSR (Moscow and Lyubertsy), not documentary footage. 35mm film look, soft natural grain, muted warm palette, natural skin and fabric texture, practical light, calm handheld-steady physical camera, motivated cuts only. Vertical 9:16 frame filled edge to edge, no letterbox, no on-screen text, no subtitles, no captions, no logos, no watermarks.
+
+REFERENCES: Hospital ward <IMAGE_0> and corridor <IMAGE_1>. Arkady <IMAGE_2> <IMAGE_3>, Nadezhda <IMAGE_4> <IMAGE_5>, Stakhiy about two <IMAGE_6>.
+
+RULES: Faces come only from the reference sheets listed below; keep every face, age and costume consistent, no beautification, no identity swaps. Anyone without a reference sheet stays in the background, seen from behind, far away or out of focus, never a clear invented face. No toy guns, pistols or weapons of any kind. Anatoly (maternal grandfather): outdoors always his soft mid-grey tweed flat cap and a hand-rolled cigarette in his mouth; indoors no cigarette and no smoke. Late-1980s Soviet clothes and objects, no modern items.
+
+ACTION: Calm montage by clear cuts: a nurse's blurred hands with a chart, closed doors of the operating block, a wall calendar, a short moment of relief with Arkady smiling weakly to his son; then the same ward later, Arkady weaker again, Nadezhda and the boy at his bed. No surgery shown, no diagnosis.
+
+SPEECH: Only the off-screen adult narrator, from about 0.5 s: «Ему удалили одно лёгкое. На какое-то время стало лучше.» A pause of about 2 seconds. Then: «Но болезнь не отступила.» Nobody on screen speaks.
+
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+
+END / NOTES: The adult Stakhiy voice-over is an off-screen calm warm male voice in his late thirties, Russian, unhurried; nobody on screen moves their lips to it.
+```
+
+<a id="1-G14"></a>
+#### 1-G14 · 15 с · READY
+
+**Время в фильме:** 02:52–03:06 · в монтаж 14 с · **Эпизод:** 08 Зенит · **08a · «Ты мало мяса ел»**
+
+**Рефы:** `<IMAGE_0>` [S6-LOC09-hospital-room](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp) · `<IMAGE_1>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_2>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_3>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_4>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_5>` [S6-Stakhiy-age-3-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp)
+
+```text
+08a · «Ты мало мяса ел» — Stakhiy, scene 1, film time 02:52–03:06. Mode: reference-to-video. Duration 15 s render, used 14 s from the start. 720p, 9:16, 24 fps. Native audio ON.
+
+STYLE: Photorealistic, restrained family drama; staged period reconstruction of the late 1980s in the USSR (Moscow and Lyubertsy), not documentary footage. 35mm film look, soft natural grain, muted warm palette, natural skin and fabric texture, practical light, calm handheld-steady physical camera, motivated cuts only. Vertical 9:16 frame filled edge to edge, no letterbox, no on-screen text, no subtitles, no captions, no logos, no watermarks.
+
+REFERENCES: Cold hospital ward <IMAGE_0>, late 1980s. Arkady, weakened, in bed <IMAGE_1> <IMAGE_2>. Nadezhda at the bed holding a closed cardboard box <IMAGE_3> <IMAGE_4>. Stakhiy about three <IMAGE_5>.
+
+RULES: Faces come only from the reference sheets listed below; keep every face, age and costume consistent, no beautification, no identity swaps. Anyone without a reference sheet stays in the background, seen from behind, far away or out of focus, never a clear invented face. No toy guns, pistols or weapons of any kind. Anatoly (maternal grandfather): outdoors always his soft mid-grey tweed flat cap and a hand-rolled cigarette in his mouth; indoors no cigarette and no smoke. Late-1980s Soviet clothes and objects, no modern items.
+
+ACTION: Little Stakhiy hugs his father in bed and talks to him earnestly, as children do. Arkady strokes his head. Nadezhda waits by the bed with the box still closed. Towards the end the hug loosens.
+
+SPEECH: At about 1 s Stakhiy, a three-year-old child's voice, sincere: «Папа, ты мало мяса ел, поэтому заболел. Тебе надо кушать, и ты поправишься.» No other voices.
+
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+
+END / NOTES: These are a child's words, not a diagnosis. The box stays closed. No music.
+```
+
+<a id="1-G15"></a>
+#### 1-G15 · 15 с · READY
+
+**Время в фильме:** 03:06–03:18 · в монтаж 12 с · **Эпизод:** 08 Зенит · **08b · Подарок**
+
+**Рефы:** `<IMAGE_0>` [S6-LOC09-hospital-room](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp) · `<IMAGE_1>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_2>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_3>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_4>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_5>` [S6-Stakhiy-age-3-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp)
+
+```text
+08b · Подарок — Stakhiy, scene 1, film time 03:06–03:18. Mode: reference-to-video. Duration 15 s render, used 12 s from the start. 720p, 9:16, 24 fps. Native audio ON.
+
+STYLE: Photorealistic, restrained family drama; staged period reconstruction of the late 1980s in the USSR (Moscow and Lyubertsy), not documentary footage. 35mm film look, soft natural grain, muted warm palette, natural skin and fabric texture, practical light, calm handheld-steady physical camera, motivated cuts only. Vertical 9:16 frame filled edge to edge, no letterbox, no on-screen text, no subtitles, no captions, no logos, no watermarks.
+
+REFERENCES: Same ward, same bed and window side <IMAGE_0>. Nadezhda <IMAGE_1> <IMAGE_2>, Arkady <IMAGE_3> <IMAGE_4>, Stakhiy about three by the bed <IMAGE_5>.
+
+RULES: Faces come only from the reference sheets listed below; keep every face, age and costume consistent, no beautification, no identity swaps. Anyone without a reference sheet stays in the background, seen from behind, far away or out of focus, never a clear invented face. No toy guns, pistols or weapons of any kind. Anatoly (maternal grandfather): outdoors always his soft mid-grey tweed flat cap and a hand-rolled cigarette in his mouth; indoors no cigarette and no smoke. Late-1980s Soviet clothes and objects, no modern items.
+
+ACTION: Nadezhda opens the cardboard box and lifts out the camera, holding it in both palms towards Arkady; close shots of the box and her hands, body turned three-quarters. The camera is a Soviet 35mm film SLR in the style of a Zenit-12sd: black leatherette body, satin-chrome top plate, silver standard lens, thin black neck strap; no readable lettering, logos or model markings anywhere (markings turned away or soft), the same single camera every time. The camera stays in her hands until the end of her line; Arkady only looks.
+
+SPEECH: At about 1 s Nadezhda, slowly and warmly: «Смотри, что я тебе принесла. Новый „Зенит“. Ты ведь такой хотел. Выздоравливай, будем фотографировать.» No answer yet.
+
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+
+END / NOTES: The camera is not yet handed over.
+```
+
+<a id="1-G16"></a>
+#### 1-G16 · 15 с · READY
+
+**Время в фильме:** 03:18–03:28 · в монтаж 10 с · **Эпизод:** 08 Зенит · **08c · «Ради такого фотоаппарата»**
+
+**Рефы:** `<IMAGE_0>` [S6-LOC09-hospital-room](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp) · `<IMAGE_1>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_2>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_3>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_4>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_5>` [S6-Stakhiy-age-3-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp)
+
+```text
+08c · «Ради такого фотоаппарата» — Stakhiy, scene 1, film time 03:18–03:28. Mode: reference-to-video. Duration 15 s render, used 10 s from the start. 720p, 9:16, 24 fps. Native audio ON.
+
+STYLE: Photorealistic, restrained family drama; staged period reconstruction of the late 1980s in the USSR (Moscow and Lyubertsy), not documentary footage. 35mm film look, soft natural grain, muted warm palette, natural skin and fabric texture, practical light, calm handheld-steady physical camera, motivated cuts only. Vertical 9:16 frame filled edge to edge, no letterbox, no on-screen text, no subtitles, no captions, no logos, no watermarks.
+
+REFERENCES: Same ward <IMAGE_0>, same people and the same single camera. Arkady <IMAGE_1> <IMAGE_2>, Nadezhda <IMAGE_3> <IMAGE_4>, Stakhiy about three <IMAGE_5>.
+
+RULES: Faces come only from the reference sheets listed below; keep every face, age and costume consistent, no beautification, no identity swaps. Anyone without a reference sheet stays in the background, seen from behind, far away or out of focus, never a clear invented face. No toy guns, pistols or weapons of any kind. Anatoly (maternal grandfather): outdoors always his soft mid-grey tweed flat cap and a hand-rolled cigarette in his mouth; indoors no cigarette and no smoke. Late-1980s Soviet clothes and objects, no modern items.
+
+ACTION: Arkady takes the camera from Nadezhda with both hands, looks at it and then at his wife and son, smiles weakly. The camera is a Soviet 35mm film SLR in the style of a Zenit-12sd: black leatherette body, satin-chrome top plate, silver standard lens, thin black neck strap; no readable lettering, logos or model markings anywhere (markings turned away or soft), the same single camera every time. He raises it slightly and presses the shutter once.
+
+SPEECH: At about 1 s Arkady, quietly: «Да… Ради такого фотоаппарата можно дальше жить.» Then one single shutter click at about 6 s and abrupt silence.
+
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+
+END / NOTES: No second click, no other camera, no music.
+```
+
+<a id="1-G17"></a>
+#### 1-G17 · 15 с · READY
+
+**Время в фильме:** 03:28–03:37 · в монтаж 9 с · **Эпизод:** 09 Тишина · **Тишина: похороны**
+
+**Рефы:** `<IMAGE_0>` [S6-LOC10-cemetery](projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.webp) · `<IMAGE_1>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_2>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_3>` [S6-Stakhiy-age-3-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp)
+
+```text
+Тишина: похороны — Stakhiy, scene 1, film time 03:28–03:37. Mode: reference-to-video. Duration 15 s render, used 9 s from the start. 720p, 9:16, 24 fps. Native audio ON.
+
+STYLE: Photorealistic, restrained family drama; staged period reconstruction of the late 1980s in the USSR (Moscow and Lyubertsy), not documentary footage. 35mm film look, soft natural grain, muted warm palette, natural skin and fabric texture, practical light, calm handheld-steady physical camera, motivated cuts only. Vertical 9:16 frame filled edge to edge, no letterbox, no on-screen text, no subtitles, no captions, no logos, no watermarks.
+
+REFERENCES: Cemetery in late autumn, overcast neutral light <IMAGE_0>. Nadezhda in dark clothes and a dark headscarf <IMAGE_1> <IMAGE_2>, Stakhiy about three in a dark coat <IMAGE_3>.
+
+RULES: Faces come only from the reference sheets listed below; keep every face, age and costume consistent, no beautification, no identity swaps. Anyone without a reference sheet stays in the background, seen from behind, far away or out of focus, never a clear invented face. No toy guns, pistols or weapons of any kind. Anatoly (maternal grandfather): outdoors always his soft mid-grey tweed flat cap and a hand-rolled cigarette in his mouth; indoors no cigarette and no smoke. Late-1980s Soviet clothes and objects, no modern items.
+
+ACTION: Restrained wide shot: Nadezhda and little Stakhiy stand still side by side among mourners, who are only backs and out-of-focus figures. Quiet breathing, wind in bare branches, no hysteria, no readable faces of the crowd, no readable inscriptions.
+
+SPEECH: Silence, then from about 2 s the off-screen adult narrator: «Папе было тридцать. Мне — три.» Then silence again. Nobody on screen speaks.
+
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+
+END / NOTES: The adult Stakhiy voice-over is an off-screen calm warm male voice in his late thirties, Russian, unhurried; nobody on screen moves their lips to it.
+```
+
+<a id="1-G18"></a>
+#### 1-G18 · 15 с · READY
+
+**Время в фильме:** 03:37–03:52 · в монтаж 15 с · **Эпизод:** 10 Полка · **Полка: тот же «Зенит»**
+
+**Рефы:** `<IMAGE_0>` [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp) · `<IMAGE_1>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_2>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_3>` [S6-Stakhiy-age-3-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp)
+
+```text
+Полка: тот же «Зенит» — Stakhiy, scene 1, film time 03:37–03:52. Mode: reference-to-video. Duration 15 s render, used 15 s from the start. 720p, 9:16, 24 fps. Native audio ON.
+
+STYLE: Photorealistic, restrained family drama; staged period reconstruction of the late 1980s in the USSR (Moscow and Lyubertsy), not documentary footage. 35mm film look, soft natural grain, muted warm palette, natural skin and fabric texture, practical light, calm handheld-steady physical camera, motivated cuts only. Vertical 9:16 frame filled edge to edge, no letterbox, no on-screen text, no subtitles, no captions, no logos, no watermarks.
+
+REFERENCES: Quiet apartment room, late 1980s <IMAGE_0>. Nadezhda <IMAGE_1> <IMAGE_2>, Stakhiy about three <IMAGE_3>.
+
+RULES: Faces come only from the reference sheets listed below; keep every face, age and costume consistent, no beautification, no identity swaps. Anyone without a reference sheet stays in the background, seen from behind, far away or out of focus, never a clear invented face. No toy guns, pistols or weapons of any kind. Anatoly (maternal grandfather): outdoors always his soft mid-grey tweed flat cap and a hand-rolled cigarette in his mouth; indoors no cigarette and no smoke. Late-1980s Soviet clothes and objects, no modern items.
+
+ACTION: Nadezhda places the same camera on a bookshelf next to a small photo frame (the frame stays out of focus or edge-on, no visible portrait). The camera is a Soviet 35mm film SLR in the style of a Zenit-12sd: black leatherette body, satin-chrome top plate, silver standard lens, thin black neck strap; no readable lettering, logos or model markings anywhere (markings turned away or soft), the same single camera every time. Stakhiy watches from below; he does not take the camera. Camera slowly moves to the child's look and the shelf.
+
+SPEECH: At about 1 s Nadezhda, softly: «Смотри.» From about 3 s the off-screen adult narrator: «Тогда я ещё не знал, что однажды возьму в руки фотоаппарат. И он изменит всю мою жизнь.» The child stays silent.
+
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+
+END / NOTES: The adult Stakhiy voice-over is an off-screen calm warm male voice in his late thirties, Russian, unhurried; nobody on screen moves their lips to it. Leave the last 3 seconds calm on the shelf; the title is added later in the editor, not in the video. No adult Stakhiy on screen, no music, no second camera.
+```
+
+<a id="scene-1-wan30"></a>
+### Wan 3.0 · 10 частей по 30 с · READY · очередь Topview
+
+Те же 18 карточек, соседние объединены в части по 30 с (omni reference, 720p, 9:16, звук включён). Только бесплатно (Unlimited, 0 кредитов), доска Topview «Стахий». Очередь: `projects/stikhiy/ops/topview-launch-queue.json`.
+
+| Часть | Карточки | Сюжет, с |
+|---|---|---|
+| [1-W01](#1-W01) | 1-G01, 1-G02 | 23 |
+| [1-W02](#1-W02) | 1-G03 | 15 |
+| [1-W03](#1-W03) | 1-G04, 1-G05 | 24 |
+| [1-W04](#1-W04) | 1-G06, 1-G07 | 30 |
+| [1-W05](#1-W05) | 1-G08, 1-G09 | 30 |
+| [1-W06](#1-W06) | 1-G10, 1-G11 | 30 |
+| [1-W07](#1-W07) | 1-G12, 1-G13 | 20 |
+| [1-W08](#1-W08) | 1-G14, 1-G15 | 26 |
+| [1-W09](#1-W09) | 1-G16, 1-G17 | 19 |
+| [1-W10](#1-W10) | 1-G18 | 15 |
+
+<a id="1-W01"></a>
+#### 1-W01 · 30 с · READY · Wan 3.0
+
+**Входы:** @Image1 [S6-LOC01-dacha-v3](projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.webp) · @Image2 [S6-LOC-dacha-shower](projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.webp) · @Image3 [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · @Image4 [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · @Image5 [S6-Stakhiy-age-1-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp) · @Image6 [S6-Petr-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Petr-Head-V2.webp) · @Image7 [S6-Nina-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nina-Head-V2.webp) · @Image8 [S6-Vladimir-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Vladimir-Head-V2.webp)
+
+```text
+Stakhiy, scene 1, Wan 3.0 part 1-W01 (1-G01, 1-G02). Mode: omni reference. 30 s, 720p, 9:16. Native audio ON. Story content lasts 23 s; join segments by one clear straight cut; after the last segment a calm hold.
+
+STYLE: Photorealistic, restrained family drama; staged period reconstruction of the late 1980s in the USSR (Moscow and Lyubertsy), not documentary footage. 35mm film look, soft natural grain, muted warm palette, natural skin and fabric texture, practical light, calm handheld-steady physical camera, motivated cuts only. Vertical 9:16 frame filled edge to edge, no letterbox, no on-screen text, no subtitles, no captions, no logos, no watermarks.
+
+RULES: Faces come only from the reference sheets listed below; keep every face, age and costume consistent, no beautification, no identity swaps. Anyone without a reference sheet stays in the background, seen from behind, far away or out of focus, never a clear invented face. No toy guns, pistols or weapons of any kind. Anatoly (maternal grandfather): outdoors always his soft mid-grey tweed flat cap and a hand-rolled cigarette in his mouth; indoors no cigarette and no smoke. Late-1980s Soviet clothes and objects, no modern items.
+
+[0–15 s · Лето на даче: ягодка] REFERENCES: Arkady (father, about 28): @Image3. Nadezhda (mother, mid-twenties): @Image4. Stakhiy (their son, about one year old): @Image5. Location: the small weathered plank dacha house with corrugated metal roof, two lattice windows with lace curtains and wooden double doors @Image1; the yard with the outdoor shower, barrel, cherry tree and greenhouse @Image2 in the background.
+ACTION: Bright warm summer afternoon at the family dacha, low child's-eye camera. Arkady sits on a wooden bench in front of the house holding little Stakhiy securely on his knees. Nadezhda crouches beside them with a small enamel bowl of garden strawberries, holds one berry to the boy's lips; he tastes it, scrunches his face, then smiles and reaches for more. Arkady laughs softly and steadies him. Leaves move in a light breeze, insects in the warm air.
+SPEECH: At about 2 s Nadezhda, smiling, offering the berry: «На, ягодку. Сладкая.» Pause while the boy eats. At about 8 s Arkady, looking down at his son: «Кушай, сынок.» The baby makes only happy wordless sounds.
+NOTES: End with the family still on the bench, same light, ready to continue.
+
+[15–23 s · Лето на даче: родные в саду] REFERENCES: Yard with outdoor wooden shower with a dark barrel on its roof, a second barrel in the grass, a cherry tree by the barrel and a greenhouse with tomatoes and cucumbers to the right: @Image2; dacha house @Image1. Arkady @Image3, Nadezhda @Image4, Stakhiy about one year old @Image5. Petr (paternal grandfather, about sixty) @Image6, Nina (paternal grandmother, about sixty) @Image7, Vladimir (godfather, Arkady's brother-like uncle, about thirty) @Image8.
+ACTION: Same summer day. The camera gently pans from Arkady with the baby on his knees across the yard: Petr straightens up from the greenhouse with a ripe tomato, Nina stands under the cherry tree with a bowl, Vladimir walks to the barrel with a metal bucket. Ordinary relaxed dacha chores, warm light.
+SPEECH: Everything spoken within the first 7 seconds, short pauses between lines. Petr, wiping his hands, contented: «Хороший денёк.» Then Nina, looking at the baby: «Только аккуратнее.» Then Vladimir, lifting the bucket: «Я воды наберу.»
+NOTES: After the lines a calm hold of the family in the yard; nothing dramatic happens.
+
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+```
+
+<a id="1-W02"></a>
+#### 1-W02 · 30 с · READY · Wan 3.0
+
+**Входы:** @Image1 [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp) · @Image2 [S6-Anatoly](projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp) · @Image3 [S6-Anatoly-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2.webp) · @Image4 [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · @Image5 [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · @Image6 [S6-Stakhiy-age-1-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp)
+
+```text
+Stakhiy, scene 1, Wan 3.0 part 1-W02 (1-G03). Mode: omni reference. 30 s, 720p, 9:16. Native audio ON. Story content lasts 15 s; join segments by one clear straight cut; after the last segment a calm hold.
+
+STYLE: Photorealistic, restrained family drama; staged period reconstruction of the late 1980s in the USSR (Moscow and Lyubertsy), not documentary footage. 35mm film look, soft natural grain, muted warm palette, natural skin and fabric texture, practical light, calm handheld-steady physical camera, motivated cuts only. Vertical 9:16 frame filled edge to edge, no letterbox, no on-screen text, no subtitles, no captions, no logos, no watermarks.
+
+RULES: Faces come only from the reference sheets listed below; keep every face, age and costume consistent, no beautification, no identity swaps. Anyone without a reference sheet stays in the background, seen from behind, far away or out of focus, never a clear invented face. No toy guns, pistols or weapons of any kind. Anatoly (maternal grandfather): outdoors always his soft mid-grey tweed flat cap and a hand-rolled cigarette in his mouth; indoors no cigarette and no smoke. Late-1980s Soviet clothes and objects, no modern items.
+
+[0–15 s · Дедушка и сладкая вата] REFERENCES: Interior of a modest late-1980s Lyubertsy apartment room @Image1. Anatoly (maternal grandfather, around fifty, balding, zigzag knit sweater) @Image2 @Image3 — indoors, so no cigarette and no smoke; no cap needed indoors. Nadezhda @Image4 @Image5. Stakhiy about one and a half @Image6.
+ACTION: Soft window light. Anatoly comes into the room holding one parcel wrapped in brown kraft paper with a visible fold. He squats to the child's eye level and opens the paper: a fluffy pink cotton candy. Stakhiy, on the floor rug near Nadezhda, reaches for it with both hands; Anatoly smiles warmly, the paper rustles. Nadezhda is just behind the boy's shoulder. Only one parcel exists; the same kraft sheet stays in Anatoly's fingers at the end.
+SPEECH: At about 3 s Anatoly, kindly: «На, Стахий, тебе сладкую вату принёс.» Pause. At about 9 s Nadezhda, from behind the boy's shoulder: «Скажи деду спасибо.» The child does not speak, only reaches and smiles.
+NOTES: End on the kraft paper in Anatoly's hand and the boy's happy face.
+
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+```
+
+<a id="1-W03"></a>
+#### 1-W03 · 30 с · READY · Wan 3.0
+
+**Входы:** @Image1 [S6-LOC06-red-square](projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.webp) · @Image2 [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · @Image3 [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · @Image4 [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · @Image5 [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · @Image6 [S6-Stakhiy-age-1-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp) · @Image7 [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp) · @Image8 [S6-Shura-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Shura-Head-V2.webp)
+
+```text
+Stakhiy, scene 1, Wan 3.0 part 1-W03 (1-G04, 1-G05). Mode: omni reference. 30 s, 720p, 9:16. Native audio ON. Story content lasts 24 s; join segments by one clear straight cut; after the last segment a calm hold.
+
+STYLE: Photorealistic, restrained family drama; staged period reconstruction of the late 1980s in the USSR (Moscow and Lyubertsy), not documentary footage. 35mm film look, soft natural grain, muted warm palette, natural skin and fabric texture, practical light, calm handheld-steady physical camera, motivated cuts only. Vertical 9:16 frame filled edge to edge, no letterbox, no on-screen text, no subtitles, no captions, no logos, no watermarks.
+
+RULES: Faces come only from the reference sheets listed below; keep every face, age and costume consistent, no beautification, no identity swaps. Anyone without a reference sheet stays in the background, seen from behind, far away or out of focus, never a clear invented face. No toy guns, pistols or weapons of any kind. Anatoly (maternal grandfather): outdoors always his soft mid-grey tweed flat cap and a hand-rolled cigarette in his mouth; indoors no cigarette and no smoke. Late-1980s Soviet clothes and objects, no modern items.
+
+[0–12 s · Мечта: Красная площадь] REFERENCES: Winter Red Square, Moscow, late 1980s, overcast diffuse light, light snow on the paving stones @Image1. Arkady in a dark winter coat and fur hat @Image2 @Image3, Nadezhda in a winter coat and knitted hat @Image4 @Image5, little Stakhiy bundled in a Soviet pram @Image6.
+ACTION: Medium two-shot tracking slowly alongside the young couple as they walk pushing the pram across the square, breath visible in the cold. Arkady looks from his wife to the pram and speaks calmly and hopefully; Nadezhda listens without speaking.
+SPEECH: Speech within the first 10 seconds. Arkady, calm and dreamy: «Надь, я хочу, чтобы у нас было своё жильё. Только наше. Чтобы у Стахия была отдельная комната.» Nadezhda stays silent and listens.
+NOTES: End as he finishes and waits for her answer.
+
+[12–24 s · Мечта: ответ и тесная квартира] REFERENCES: Winter Red Square @Image1, then the crowded apartment @Image7. Arkady @Image2 @Image3, Nadezhda @Image4 @Image5, Stakhiy about one year @Image6, Shura / Alexandra (maternal grandmother, about fifty) @Image8.
+ACTION: First 5 seconds on the square: Nadezhda turns to Arkady by the pram and answers warmly with a soft smile. Then one clear straight cut to the cramped shared four-room apartment in Lyubertsy: a narrow corridor crowded with coats, boxes and a folding bed; Shura passes with a pot, the parents with the baby squeeze past. Other relatives only as backs and out-of-focus figures in a doorway, no clear new faces.
+SPEECH: In the first 4 seconds Nadezhda: «Будет, Аркаш. Обязательно будет.» After the cut no speech, only domestic sounds.
+NOTES: End inside the cramped apartment: the dream of an own room is not yet real.
+
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+```
+
+<a id="1-W04"></a>
+#### 1-W04 · 30 с · READY · Wan 3.0
+
+**Входы:** @Image1 [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp) · @Image2 [S6-Anatoly](projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp) · @Image3 [S6-Anatoly-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2.webp) · @Image4 [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · @Image5 [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · @Image6 [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · @Image7 [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · @Image8 [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp) · @Image9 [S6-LOC07-azlk](projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.webp)
+
+```text
+Stakhiy, scene 1, Wan 3.0 part 1-W04 (1-G06, 1-G07). Mode: omni reference. 30 s, 720p, 9:16. Native audio ON. Story content lasts 30 s; join segments by one clear straight cut; after the last segment a calm hold.
+
+STYLE: Photorealistic, restrained family drama; staged period reconstruction of the late 1980s in the USSR (Moscow and Lyubertsy), not documentary footage. 35mm film look, soft natural grain, muted warm palette, natural skin and fabric texture, practical light, calm handheld-steady physical camera, motivated cuts only. Vertical 9:16 frame filled edge to edge, no letterbox, no on-screen text, no subtitles, no captions, no logos, no watermarks.
+
+RULES: Faces come only from the reference sheets listed below; keep every face, age and costume consistent, no beautification, no identity swaps. Anyone without a reference sheet stays in the background, seen from behind, far away or out of focus, never a clear invented face. No toy guns, pistols or weapons of any kind. Anatoly (maternal grandfather): outdoors always his soft mid-grey tweed flat cap and a hand-rolled cigarette in his mouth; indoors no cigarette and no smoke. Late-1980s Soviet clothes and objects, no modern items.
+
+[0–15 s · Смерть дедушки Анатолия] REFERENCES: Same apartment room, ordinary daylight, an armchair and a small table @Image1. Anatoly @Image2 @Image3 (indoors: no cigarette, no cap). Nadezhda @Image4 @Image5, Arkady @Image6 @Image7, Stakhiy about two @Image8.
+ACTION: Low camera at the child's eye level, Stakhiy in the foreground watching. Anatoly stands by his armchair, suddenly unwell, loses his balance and sinks out of the bottom of the frame — no close-up of the fall. Nadezhda and Arkady rush towards him, slightly out of focus. Then one straight time cut: the empty armchair, and on the table the same brown kraft paper from the cotton candy, now empty, lying still.
+SPEECH: At about 3 s Nadezhda, frightened: «Папа!» Right after her Arkady: «Держи его.» Then silence over the empty armchair.
+NOTES: End on the empty armchair and the motionless kraft paper; absence is the meaning of the shot. No medical details, no music.
+
+[15–30 s · Цех АЗЛК: первый кашель] REFERENCES: AZLK car factory workshop, late 1980s, a lathe, metal shavings, practical workshop light @Image9. Arkady in work overalls @Image6 @Image7.
+ACTION: Arkady works concentrated at the lathe, hands well away from rotating parts. A coughing fit interrupts his rhythm: he steps back from the machine, coughs into his fist, catches his breath, glances around and returns to his work place. No blood, no diagnosis.
+SPEECH: No speech at all. Only machine noise, steps and his coughing.
+NOTES: End on Arkady back at the lathe; a faint residual cough can bridge to home.
+
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+```
+
+<a id="1-W05"></a>
+#### 1-W05 · 30 с · READY · Wan 3.0
+
+**Входы:** @Image1 [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp) · @Image2 [S6-LOC03-kitchen](projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.webp) · @Image3 [S6-LOC04-bathroom](projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.webp) · @Image4 [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · @Image5 [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · @Image6 [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · @Image7 [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · @Image8 [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp) · @Image9 [S6-LOC05-bedroom](projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.webp)
+
+```text
+Stakhiy, scene 1, Wan 3.0 part 1-W05 (1-G08, 1-G09). Mode: omni reference. 30 s, 720p, 9:16. Native audio ON. Story content lasts 30 s; join segments by one clear straight cut; after the last segment a calm hold.
+
+STYLE: Photorealistic, restrained family drama; staged period reconstruction of the late 1980s in the USSR (Moscow and Lyubertsy), not documentary footage. 35mm film look, soft natural grain, muted warm palette, natural skin and fabric texture, practical light, calm handheld-steady physical camera, motivated cuts only. Vertical 9:16 frame filled edge to edge, no letterbox, no on-screen text, no subtitles, no captions, no logos, no watermarks.
+
+RULES: Faces come only from the reference sheets listed below; keep every face, age and costume consistent, no beautification, no identity swaps. Anyone without a reference sheet stays in the background, seen from behind, far away or out of focus, never a clear invented face. No toy guns, pistols or weapons of any kind. Anatoly (maternal grandfather): outdoors always his soft mid-grey tweed flat cap and a hand-rolled cigarette in his mouth; indoors no cigarette and no smoke. Late-1980s Soviet clothes and objects, no modern items.
+
+[0–15 s · 06a · Вечер дома] REFERENCES: Lyubertsy apartment, late 1980s: room @Image1, kitchen @Image2, bathroom @Image3; keep each room as in its reference and do not mix them. Arkady @Image4 @Image5, Nadezhda @Image6 @Image7, Stakhiy about two @Image8.
+ACTION: Four short actions joined by clear cuts, light going from ordinary evening to dim: Arkady comes home, catches his son's look and smiles; a short quiet supper in the kitchen next to Nadezhda; in the bathroom he switches off an electric razor in front of the mirror and coughs; the switched-off razor lies by the mirror as the cough fades into a quiet bedroom.
+SPEECH: No words. Only domestic sounds, the razor hum stopping and a cough. No blood, no music.
+NOTES: End on the silent razor by the mirror.
+
+[15–30 s · 06b · Ночной разговор 1] REFERENCES: Bedroom of the same apartment at night, warm low lamp light @Image9. Arkady @Image4 @Image5 and Nadezhda @Image6 @Image7 lying in bed; Stakhiy about two @Image8 asleep in his cot nearby.
+ACTION: Quiet intimate night scene. Arkady lies looking at the ceiling, then at Nadezhda, speaking slowly. Shoot the current speaker and the listener's reaction in turns. Bodies and light do not change.
+SPEECH: Arkady, calm and unhurried, at about 1 s: «Знаешь, Надь… Мы всё время думаем, что впереди ещё много лет. Что успеем и квартиру купить, и Стахия вырастить…» Pause. Then Nadezhda, turning to him: «Ты чего вдруг?»
+NOTES: End on her attentive look. No blood, no subtitles, no music.
+
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+```
+
+<a id="1-W06"></a>
+#### 1-W06 · 30 с · READY · Wan 3.0
+
+**Входы:** @Image1 [S6-LOC05-bedroom](projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.webp) · @Image2 [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · @Image3 [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · @Image4 [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · @Image5 [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · @Image6 [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp)
+
+```text
+Stakhiy, scene 1, Wan 3.0 part 1-W06 (1-G10, 1-G11). Mode: omni reference. 30 s, 720p, 9:16. Native audio ON. Story content lasts 30 s; join segments by one clear straight cut; after the last segment a calm hold.
+
+STYLE: Photorealistic, restrained family drama; staged period reconstruction of the late 1980s in the USSR (Moscow and Lyubertsy), not documentary footage. 35mm film look, soft natural grain, muted warm palette, natural skin and fabric texture, practical light, calm handheld-steady physical camera, motivated cuts only. Vertical 9:16 frame filled edge to edge, no letterbox, no on-screen text, no subtitles, no captions, no logos, no watermarks.
+
+RULES: Faces come only from the reference sheets listed below; keep every face, age and costume consistent, no beautification, no identity swaps. Anyone without a reference sheet stays in the background, seen from behind, far away or out of focus, never a clear invented face. No toy guns, pistols or weapons of any kind. Anatoly (maternal grandfather): outdoors always his soft mid-grey tweed flat cap and a hand-rolled cigarette in his mouth; indoors no cigarette and no smoke. Late-1980s Soviet clothes and objects, no modern items.
+
+[0–15 s · 06c · Ночной разговор 2] REFERENCES: Same night bedroom @Image1, same clothes and positions. Arkady @Image2 @Image3, Nadezhda @Image4 @Image5, Stakhiy asleep @Image6.
+ACTION: Calm two-shot or Nadezhda's listening face; soft side light. Only Arkady's mouth moves on his lines; Nadezhda's reaction and hands in the pause.
+SPEECH: Arkady at about 1 s: «Да так… Просто иногда забываем, как быстро всё может измениться.» A short pause. Then Arkady again: «Я уже давно кашляю. И мне всё хуже. Кажется, опять температура.»
+NOTES: End just before her answer. No new people, no symptoms in close-up, no diagnosis, no music.
+
+[15–30 s · 06d · «Не откладывай»] REFERENCES: Same night bedroom @Image1. Arkady @Image2 @Image3, Nadezhda @Image4 @Image5, Stakhiy about two asleep in the cot @Image6.
+ACTION: Nadezhda looks at Arkady and speaks firmly but gently; he nods slightly. Then the camera slowly racks focus to the sleeping child in the cot and holds on him.
+SPEECH: At about 1 s Nadezhda: «Аркаш, завтра обязательно к врачу. Не откладывай.» Then silence.
+NOTES: End on the sleeping boy.
+
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+```
+
+<a id="1-W07"></a>
+#### 1-W07 · 30 с · READY · Wan 3.0
+
+**Входы:** @Image1 [S6-LOC08-hospital-corridor](projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.webp) · @Image2 [S6-LOC09-hospital-room](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp) · @Image3 [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · @Image4 [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · @Image5 [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · @Image6 [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · @Image7 [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp)
+
+```text
+Stakhiy, scene 1, Wan 3.0 part 1-W07 (1-G12, 1-G13). Mode: omni reference. 30 s, 720p, 9:16. Native audio ON. Story content lasts 20 s; join segments by one clear straight cut; after the last segment a calm hold.
+
+STYLE: Photorealistic, restrained family drama; staged period reconstruction of the late 1980s in the USSR (Moscow and Lyubertsy), not documentary footage. 35mm film look, soft natural grain, muted warm palette, natural skin and fabric texture, practical light, calm handheld-steady physical camera, motivated cuts only. Vertical 9:16 frame filled edge to edge, no letterbox, no on-screen text, no subtitles, no captions, no logos, no watermarks.
+
+RULES: Faces come only from the reference sheets listed below; keep every face, age and costume consistent, no beautification, no identity swaps. Anyone without a reference sheet stays in the background, seen from behind, far away or out of focus, never a clear invented face. No toy guns, pistols or weapons of any kind. Anatoly (maternal grandfather): outdoors always his soft mid-grey tweed flat cap and a hand-rolled cigarette in his mouth; indoors no cigarette and no smoke. Late-1980s Soviet clothes and objects, no modern items.
+
+[0–10 s · Больница: «Идём к папе»] REFERENCES: Hospital corridor @Image1 and ward @Image2, late 1980s, cool daylight, restrained medical everyday life. Nadezhda @Image3 @Image4, Arkady in hospital pyjamas @Image5 @Image6, Stakhiy almost two @Image7.
+ACTION: Nadezhda leads little Stakhiy by the hand along the corridor and into the ward where Arkady sits on the bed and smiles to them. Staff are only blurred backgrounds.
+SPEECH: At about 1 s Nadezhda to the boy: «Идём к папе.» From about 3 s the off-screen adult narrator: «Папа почти год боролся за жизнь. Врачи делали всё возможное.»
+NOTES: The adult Stakhiy voice-over is an off-screen calm warm male voice in his late thirties, Russian, unhurried; nobody on screen moves their lips to it. End with the family meeting in the ward.
+
+[10–20 s · Больница: лечение] REFERENCES: Hospital ward @Image2 and corridor @Image1. Arkady @Image5 @Image6, Nadezhda @Image3 @Image4, Stakhiy about two @Image7.
+ACTION: Calm montage by clear cuts: a nurse's blurred hands with a chart, closed doors of the operating block, a wall calendar, a short moment of relief with Arkady smiling weakly to his son; then the same ward later, Arkady weaker again, Nadezhda and the boy at his bed. No surgery shown, no diagnosis.
+SPEECH: Only the off-screen adult narrator, from about 0.5 s: «Ему удалили одно лёгкое. На какое-то время стало лучше.» A pause of about 2 seconds. Then: «Но болезнь не отступила.» Nobody on screen speaks.
+NOTES: The adult Stakhiy voice-over is an off-screen calm warm male voice in his late thirties, Russian, unhurried; nobody on screen moves their lips to it.
+
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+```
+
+<a id="1-W08"></a>
+#### 1-W08 · 30 с · READY · Wan 3.0
+
+**Входы:** @Image1 [S6-LOC09-hospital-room](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp) · @Image2 [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · @Image3 [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · @Image4 [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · @Image5 [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · @Image6 [S6-Stakhiy-age-3-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp)
+
+```text
+Stakhiy, scene 1, Wan 3.0 part 1-W08 (1-G14, 1-G15). Mode: omni reference. 30 s, 720p, 9:16. Native audio ON. Story content lasts 26 s; join segments by one clear straight cut; after the last segment a calm hold.
+
+STYLE: Photorealistic, restrained family drama; staged period reconstruction of the late 1980s in the USSR (Moscow and Lyubertsy), not documentary footage. 35mm film look, soft natural grain, muted warm palette, natural skin and fabric texture, practical light, calm handheld-steady physical camera, motivated cuts only. Vertical 9:16 frame filled edge to edge, no letterbox, no on-screen text, no subtitles, no captions, no logos, no watermarks.
+
+RULES: Faces come only from the reference sheets listed below; keep every face, age and costume consistent, no beautification, no identity swaps. Anyone without a reference sheet stays in the background, seen from behind, far away or out of focus, never a clear invented face. No toy guns, pistols or weapons of any kind. Anatoly (maternal grandfather): outdoors always his soft mid-grey tweed flat cap and a hand-rolled cigarette in his mouth; indoors no cigarette and no smoke. Late-1980s Soviet clothes and objects, no modern items.
+
+[0–14 s · 08a · «Ты мало мяса ел»] REFERENCES: Cold hospital ward @Image1, late 1980s. Arkady, weakened, in bed @Image2 @Image3. Nadezhda at the bed holding a closed cardboard box @Image4 @Image5. Stakhiy about three @Image6.
+ACTION: Little Stakhiy hugs his father in bed and talks to him earnestly, as children do. Arkady strokes his head. Nadezhda waits by the bed with the box still closed. Towards the end the hug loosens.
+SPEECH: At about 1 s Stakhiy, a three-year-old child's voice, sincere: «Папа, ты мало мяса ел, поэтому заболел. Тебе надо кушать, и ты поправишься.» No other voices.
+NOTES: These are a child's words, not a diagnosis. The box stays closed. No music.
+
+[14–26 s · 08b · Подарок] REFERENCES: Same ward, same bed and window side @Image1. Nadezhda @Image4 @Image5, Arkady @Image2 @Image3, Stakhiy about three by the bed @Image6.
+ACTION: Nadezhda opens the cardboard box and lifts out the camera, holding it in both palms towards Arkady; close shots of the box and her hands, body turned three-quarters. The camera is a Soviet 35mm film SLR in the style of a Zenit-12sd: black leatherette body, satin-chrome top plate, silver standard lens, thin black neck strap; no readable lettering, logos or model markings anywhere (markings turned away or soft), the same single camera every time. The camera stays in her hands until the end of her line; Arkady only looks.
+SPEECH: At about 1 s Nadezhda, slowly and warmly: «Смотри, что я тебе принесла. Новый „Зенит“. Ты ведь такой хотел. Выздоравливай, будем фотографировать.» No answer yet.
+NOTES: The camera is not yet handed over.
+
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+```
+
+<a id="1-W09"></a>
+#### 1-W09 · 30 с · READY · Wan 3.0
+
+**Входы:** @Image1 [S6-LOC09-hospital-room](projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp) · @Image2 [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · @Image3 [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · @Image4 [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · @Image5 [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · @Image6 [S6-Stakhiy-age-3-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp) · @Image7 [S6-LOC10-cemetery](projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.webp)
+
+```text
+Stakhiy, scene 1, Wan 3.0 part 1-W09 (1-G16, 1-G17). Mode: omni reference. 30 s, 720p, 9:16. Native audio ON. Story content lasts 19 s; join segments by one clear straight cut; after the last segment a calm hold.
+
+STYLE: Photorealistic, restrained family drama; staged period reconstruction of the late 1980s in the USSR (Moscow and Lyubertsy), not documentary footage. 35mm film look, soft natural grain, muted warm palette, natural skin and fabric texture, practical light, calm handheld-steady physical camera, motivated cuts only. Vertical 9:16 frame filled edge to edge, no letterbox, no on-screen text, no subtitles, no captions, no logos, no watermarks.
+
+RULES: Faces come only from the reference sheets listed below; keep every face, age and costume consistent, no beautification, no identity swaps. Anyone without a reference sheet stays in the background, seen from behind, far away or out of focus, never a clear invented face. No toy guns, pistols or weapons of any kind. Anatoly (maternal grandfather): outdoors always his soft mid-grey tweed flat cap and a hand-rolled cigarette in his mouth; indoors no cigarette and no smoke. Late-1980s Soviet clothes and objects, no modern items.
+
+[0–10 s · 08c · «Ради такого фотоаппарата»] REFERENCES: Same ward @Image1, same people and the same single camera. Arkady @Image2 @Image3, Nadezhda @Image4 @Image5, Stakhiy about three @Image6.
+ACTION: Arkady takes the camera from Nadezhda with both hands, looks at it and then at his wife and son, smiles weakly. The camera is a Soviet 35mm film SLR in the style of a Zenit-12sd: black leatherette body, satin-chrome top plate, silver standard lens, thin black neck strap; no readable lettering, logos or model markings anywhere (markings turned away or soft), the same single camera every time. He raises it slightly and presses the shutter once.
+SPEECH: At about 1 s Arkady, quietly: «Да… Ради такого фотоаппарата можно дальше жить.» Then one single shutter click at about 6 s and abrupt silence.
+NOTES: No second click, no other camera, no music.
+
+[10–19 s · Тишина: похороны] REFERENCES: Cemetery in late autumn, overcast neutral light @Image7. Nadezhda in dark clothes and a dark headscarf @Image4 @Image5, Stakhiy about three in a dark coat @Image6.
+ACTION: Restrained wide shot: Nadezhda and little Stakhiy stand still side by side among mourners, who are only backs and out-of-focus figures. Quiet breathing, wind in bare branches, no hysteria, no readable faces of the crowd, no readable inscriptions.
+SPEECH: Silence, then from about 2 s the off-screen adult narrator: «Папе было тридцать. Мне — три.» Then silence again. Nobody on screen speaks.
+NOTES: The adult Stakhiy voice-over is an off-screen calm warm male voice in his late thirties, Russian, unhurried; nobody on screen moves their lips to it.
+
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+```
+
+<a id="1-W10"></a>
+#### 1-W10 · 30 с · READY · Wan 3.0
+
+**Входы:** @Image1 [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp) · @Image2 [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · @Image3 [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · @Image4 [S6-Stakhiy-age-3-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-3-Head-V2.webp)
+
+```text
+Stakhiy, scene 1, Wan 3.0 part 1-W10 (1-G18). Mode: omni reference. 30 s, 720p, 9:16. Native audio ON. Story content lasts 15 s; join segments by one clear straight cut; after the last segment a calm hold.
+
+STYLE: Photorealistic, restrained family drama; staged period reconstruction of the late 1980s in the USSR (Moscow and Lyubertsy), not documentary footage. 35mm film look, soft natural grain, muted warm palette, natural skin and fabric texture, practical light, calm handheld-steady physical camera, motivated cuts only. Vertical 9:16 frame filled edge to edge, no letterbox, no on-screen text, no subtitles, no captions, no logos, no watermarks.
+
+RULES: Faces come only from the reference sheets listed below; keep every face, age and costume consistent, no beautification, no identity swaps. Anyone without a reference sheet stays in the background, seen from behind, far away or out of focus, never a clear invented face. No toy guns, pistols or weapons of any kind. Anatoly (maternal grandfather): outdoors always his soft mid-grey tweed flat cap and a hand-rolled cigarette in his mouth; indoors no cigarette and no smoke. Late-1980s Soviet clothes and objects, no modern items.
+
+[0–15 s · Полка: тот же «Зенит»] REFERENCES: Quiet apartment room, late 1980s @Image1. Nadezhda @Image2 @Image3, Stakhiy about three @Image4.
+ACTION: Nadezhda places the same camera on a bookshelf next to a small photo frame (the frame stays out of focus or edge-on, no visible portrait). The camera is a Soviet 35mm film SLR in the style of a Zenit-12sd: black leatherette body, satin-chrome top plate, silver standard lens, thin black neck strap; no readable lettering, logos or model markings anywhere (markings turned away or soft), the same single camera every time. Stakhiy watches from below; he does not take the camera. Camera slowly moves to the child's look and the shelf.
+SPEECH: At about 1 s Nadezhda, softly: «Смотри.» From about 3 s the off-screen adult narrator: «Тогда я ещё не знал, что однажды возьму в руки фотоаппарат. И он изменит всю мою жизнь.» The child stays silent.
+NOTES: The adult Stakhiy voice-over is an off-screen calm warm male voice in his late thirties, Russian, unhurried; nobody on screen moves their lips to it. Leave the last 3 seconds calm on the shelf; the title is added later in the editor, not in the video. No adult Stakhiy on screen, no music, no second camera.
+
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+```
+
+<a id="scene-1-video"></a>
+### Видео сцены 1 — две версии
+
+<a id="scene-1-video-grok"></a>
+#### Версия Grok
+
+Статус: **готовится** — 18 клипов по карточкам 1-G01…1-G18 и черновой монтаж 03:52. Исходники и монтаж — Яндекс Диск «Нейровидео/Стахий/.Грок/2026-11-27» по эпизодам; ролики — [страница роликов](videos.html?project=stikhiy), группа «Сцена 1 · Версия Grok».
+
+<a id="scene-1-video-wan30"></a>
+#### Версия Wan 3.0
+
+Статус: **в очереди Topview** — 10 частей 1-W01…1-W10. Результаты появятся по квитанциям Topview в архиве проекта и на [странице роликов](videos.html?project=stikhiy), группа «Сцена 1 · Версия Wan 3.0».
 
 [Полный аудиолист и монтажная проба](projects/stikhiy/references/scenes/scene-1/audio-timing.md) · [Карта референсов и расчёт озвучки](projects/stikhiy/references/scenes/scene-1/production-preflight.md) · [Рабочий монтаж, стыки и автономные промпты](projects/stikhiy/references/scenes/scene-1/continuity-edit-v2.md)
 

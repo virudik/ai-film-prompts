@@ -63,10 +63,12 @@ function play(v,auto){
 }
 function render(){
  const q=$('filter').value.trim().toLowerCase();
- const byScene=new Map();videos.forEach(v=>{if(!byScene.has(v.scene))byScene.set(v.scene,[]);byScene.get(v.scene).push(v)});
- const groupOf=s=>String((byScene.get(s)||[]).find(v=>v.e.group)?.e.group||'').trim();
- const scenes=[...byScene.keys()].sort((a,b)=>a-b).filter(s=>!q||String(s)===q||String(s).startsWith(q)||(titles[s]||'').toLowerCase().includes(q)||groupOf(s).toLowerCase().includes(q));
- $('list').innerHTML=scenes.length?scenes.map(s=>'<div class="scene"><div class="scene-head"><span class="num">'+(groupOf(s)?esc(groupOf(s)):'Сцена '+s)+'</span><span class="t">'+esc(groupOf(s)?'':(titles[s]||''))+'</span></div><div class="vers">'+
+ // One block per scene and group: a scene may hold separate versions (e.g. Grok and Wan 3.0).
+ const byScene=new Map();videos.forEach(v=>{const k=v.scene+'|'+String(v.e.group||'').trim();if(!byScene.has(k))byScene.set(k,[]);byScene.get(k).push(v)});
+ const sceneOfKey=k=>Number(String(k).split('|')[0]);
+ const groupOf=k=>String(k).split('|').slice(1).join('|');
+ const scenes=[...byScene.keys()].sort((a,b)=>sceneOfKey(a)-sceneOfKey(b)||groupOf(a).localeCompare(groupOf(b))).filter(k=>{const s=sceneOfKey(k);return !q||String(s)===q||String(s).startsWith(q)||(titles[s]||'').toLowerCase().includes(q)||groupOf(k).toLowerCase().includes(q)});
+ $('list').innerHTML=scenes.length?scenes.map(s=>'<div class="scene"><div class="scene-head"><span class="num">'+(groupOf(s)?esc(groupOf(s)):'Сцена '+sceneOfKey(s))+'</span><span class="t">'+esc(groupOf(s)?'':(titles[sceneOfKey(s)]||''))+'</span></div><div class="vers">'+
   byScene.get(s).map(v=>'<button type="button" class="v" data-task="'+esc(v.task)+'">▶ '+esc(v.e.label||v.n)+(v.at?' · '+esc(day(v.at).slice(0,5)):'')+'</button>').join('')+'</div></div>').join(''):'<div class="note">'+(videos.length?'Ничего не найдено.':'В этом проекте пока нет сохранённых роликов.')+'</div>';
  $('list').querySelectorAll('.v').forEach(b=>b.onclick=()=>play(videos.find(v=>v.task===b.dataset.task),true));
 }
@@ -81,13 +83,13 @@ Promise.all([get('topview-video-archive.json'),get('film-order.json'),get('video
  // Key: Topview task id (/^[0-9a-f]{32}$/) or another short id for videos made elsewhere; scene_id or scene.
  const sceneOf=e=>Number(e.scene_id??e.scene);
  const list=Object.entries(a?.videos||{}).filter(([t,e])=>(/^[0-9a-f]{32}$/.test(t)||/^[A-Za-z0-9._-]{1,80}$/.test(t))&&e&&VS.playable(e)&&sceneOf(e)>0)
-  .map(([t,e])=>({task:t,e,scene:sceneOf(e),at:e.archived_at||'',size:Number(e.size_bytes)||0}));
+  .map(([t,e])=>{const dg=a?.default_group_by_source;if(!e.group&&dg&&typeof dg==='object'){const g=dg[e.source||'topview'];if(typeof g==='string'&&g)e=Object.assign({},e,{group:g})}return {task:t,e,scene:sceneOf(e),at:e.archived_at||'',size:Number(e.size_bytes)||0}});
  // versions numbered per scene in archive order (oldest = 1)
- const per=new Map();list.sort((x,y)=>x.scene-y.scene||String(x.at).localeCompare(String(y.at))).forEach(v=>{const n=(per.get(v.scene)||0)+1;per.set(v.scene,n);v.n=n});
+ const per=new Map();list.sort((x,y)=>x.scene-y.scene||String(x.at).localeCompare(String(y.at))).forEach(v=>{const k=v.scene+'|'+String(v.e.group||'');const n=(per.get(k)||0)+1;per.set(k,n);v.n=n});
  videos=list.sort((x,y)=>x.scene-y.scene||y.n-x.n);
  const ya=videos.filter(v=>VS.yandexKey(v.e)).length;
  const groups=[...new Set(videos.map(v=>String(v.e.group||'').trim()).filter(Boolean))];
- const sceneN=[...per.keys()].filter(s=>!videos.some(v=>v.scene===s&&v.e.group)).length;
+ const sceneN=new Set(videos.filter(v=>!v.e.group).map(v=>v.scene)).size;
  $('sub').innerHTML=videos.length+' роликов · '+sceneN+' сцен'+(groups.length?' · '+groups.map(esc).join(', '):'')+' · с Яндекс Диска '+ya+(AIFP.isRoot?' · <a href="'+DRIVE_FOLDER+'" target="_blank" rel="noopener noreferrer">📁 запасная папка в Google Drive</a>':'');
  render();$('filter').oninput=render;
  const want=new URLSearchParams(location.search).get('task');const v=want&&videos.find(x=>x.task===want);if(v)play(v,false);

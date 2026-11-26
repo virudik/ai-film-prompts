@@ -108,7 +108,7 @@ class RegistryTests(unittest.TestCase):
         switcher = (ROOT / "projects.js").read_text(encoding="utf-8")
         self.assertIn("id:'stikhiy',name:'Стахий',emoji:'📷'", switcher)
         status = json.loads((ROOT / candidate["status"]).read_text())
-        self.assertEqual((status["scene_ids"], status["prompt_texts"]), ([1], 25))
+        self.assertEqual((status["scene_ids"], status["prompt_texts"]), ([1], 53))
         refs = json.loads((ROOT / candidate["references"]).read_text())
         self.assertEqual((len(refs["characters"]), len(refs["assets"])), (13, 14))
         sheets = {c["id"]: c["model_sheet"]["gallery"] for c in refs["characters"]}

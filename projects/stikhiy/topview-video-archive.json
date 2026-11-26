@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "location": "Нейровидео/Стахий",
+  "videos": {},
+  "default_group_by_source": {
+    "grok": "Сцена 1 · Версия Grok",
+    "topview": "Сцена 1 · Версия Wan 3.0"
+  }
+}

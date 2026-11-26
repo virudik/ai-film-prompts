@@ -159,9 +159,10 @@
       "lock": "projects/stikhiy/canon-lock.json",
       "status": "projects/stikhiy/project-status.json",
       "topview_board": {
-        "board_id": null,
+        "board_id": "e4156a8c422a4904b88b7bce6018b796",
         "name": "Стахий",
-        "state": "not_configured"
+        "state": "configured",
+        "created_at": "2026-11-26T22:37:34Z"
       }
     },
     {

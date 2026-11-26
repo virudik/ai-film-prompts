@@ -29,7 +29,31 @@
             ],
             "editorial_status": "not_approved",
             "role": "character_identity_draft",
-            "active_prompt_input": false
+            "active_prompt_input": false,
+            "used_in_clips": [
+              "1-G01",
+              "1-G02",
+              "1-G04",
+              "1-G05",
+              "1-G06",
+              "1-G07",
+              "1-G08",
+              "1-G09",
+              "1-G10",
+              "1-G11",
+              "1-G12",
+              "1-G13",
+              "1-G14",
+              "1-G15",
+              "1-G16",
+              "1-W03",
+              "1-W04",
+              "1-W05",
+              "1-W06",
+              "1-W07",
+              "1-W08",
+              "1-W09"
+            ]
           },
           {
             "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp",
@@ -45,6 +69,31 @@
             "active_prompt_input": false,
             "derived_from": [
               "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp"
+            ],
+            "used_in_clips": [
+              "1-G01",
+              "1-G02",
+              "1-G04",
+              "1-G05",
+              "1-G06",
+              "1-G07",
+              "1-G08",
+              "1-G09",
+              "1-G10",
+              "1-G11",
+              "1-G12",
+              "1-G13",
+              "1-G14",
+              "1-G15",
+              "1-G16",
+              "1-W01",
+              "1-W03",
+              "1-W04",
+              "1-W05",
+              "1-W06",
+              "1-W07",
+              "1-W08",
+              "1-W09"
             ]
           }
         ]
@@ -130,7 +179,35 @@
             ],
             "editorial_status": "not_approved",
             "role": "character_identity_draft",
-            "active_prompt_input": false
+            "active_prompt_input": false,
+            "used_in_clips": [
+              "1-G01",
+              "1-G02",
+              "1-G03",
+              "1-G04",
+              "1-G05",
+              "1-G06",
+              "1-G08",
+              "1-G09",
+              "1-G10",
+              "1-G11",
+              "1-G12",
+              "1-G13",
+              "1-G14",
+              "1-G15",
+              "1-G16",
+              "1-G17",
+              "1-G18",
+              "1-W02",
+              "1-W03",
+              "1-W04",
+              "1-W05",
+              "1-W06",
+              "1-W07",
+              "1-W08",
+              "1-W09",
+              "1-W10"
+            ]
           },
           {
             "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp",
@@ -146,6 +223,35 @@
             "active_prompt_input": false,
             "derived_from": [
               "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp"
+            ],
+            "used_in_clips": [
+              "1-G01",
+              "1-G02",
+              "1-G03",
+              "1-G04",
+              "1-G05",
+              "1-G06",
+              "1-G08",
+              "1-G09",
+              "1-G10",
+              "1-G11",
+              "1-G12",
+              "1-G13",
+              "1-G14",
+              "1-G15",
+              "1-G16",
+              "1-G17",
+              "1-G18",
+              "1-W01",
+              "1-W02",
+              "1-W03",
+              "1-W04",
+              "1-W05",
+              "1-W06",
+              "1-W07",
+              "1-W08",
+              "1-W09",
+              "1-W10"
             ]
           }
         ]
@@ -234,7 +340,8 @@
             ],
             "editorial_status": "not_approved",
             "role": "character_identity_draft",
-            "active_prompt_input": false
+            "active_prompt_input": false,
+            "used_in_clips": []
           },
           {
             "path": "projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp",
@@ -250,6 +357,16 @@
             "active_prompt_input": false,
             "derived_from": [
               "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp"
+            ],
+            "used_in_clips": [
+              "1-G01",
+              "1-G02",
+              "1-G03",
+              "1-G04",
+              "1-G05",
+              "1-W01",
+              "1-W02",
+              "1-W03"
             ]
           },
           {
@@ -266,6 +383,19 @@
             "active_prompt_input": false,
             "derived_from": [
               "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp"
+            ],
+            "used_in_clips": [
+              "1-G06",
+              "1-G08",
+              "1-G09",
+              "1-G10",
+              "1-G11",
+              "1-G12",
+              "1-G13",
+              "1-W04",
+              "1-W05",
+              "1-W06",
+              "1-W07"
             ]
           },
           {
@@ -282,6 +412,16 @@
             "active_prompt_input": false,
             "derived_from": [
               "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp"
+            ],
+            "used_in_clips": [
+              "1-G14",
+              "1-G15",
+              "1-G16",
+              "1-G17",
+              "1-G18",
+              "1-W08",
+              "1-W09",
+              "1-W10"
             ]
           }
         ]
@@ -418,7 +558,8 @@
             ],
             "editorial_status": "not_approved",
             "role": "character_identity_draft",
-            "active_prompt_input": false
+            "active_prompt_input": false,
+            "used_in_clips": []
           },
           {
             "path": "projects/stikhiy/references/scenes/scene-1/S6-Petr-Head-V2.webp",
@@ -434,6 +575,10 @@
             "active_prompt_input": false,
             "derived_from": [
               "projects/stikhiy/references/scenes/scene-1/S6-Petr.webp"
+            ],
+            "used_in_clips": [
+              "1-G02",
+              "1-W01"
             ]
           }
         ]
@@ -519,7 +664,8 @@
             ],
             "editorial_status": "not_approved",
             "role": "character_identity_draft",
-            "active_prompt_input": false
+            "active_prompt_input": false,
+            "used_in_clips": []
           },
           {
             "path": "projects/stikhiy/references/scenes/scene-1/S6-Nina-Head-V2.webp",
@@ -535,6 +681,10 @@
             "active_prompt_input": false,
             "derived_from": [
               "projects/stikhiy/references/scenes/scene-1/S6-Nina.webp"
+            ],
+            "used_in_clips": [
+              "1-G02",
+              "1-W01"
             ]
           }
         ]
@@ -623,7 +773,13 @@
             ],
             "editorial_status": "not_approved",
             "role": "character_identity_draft",
-            "active_prompt_input": false
+            "active_prompt_input": false,
+            "used_in_clips": [
+              "1-G03",
+              "1-G06",
+              "1-W02",
+              "1-W04"
+            ]
           },
           {
             "path": "projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2.webp",
@@ -639,6 +795,12 @@
             "active_prompt_input": false,
             "derived_from": [
               "projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp"
+            ],
+            "used_in_clips": [
+              "1-G03",
+              "1-G06",
+              "1-W02",
+              "1-W04"
             ]
           },
           {
@@ -654,7 +816,8 @@
             ],
             "editorial_status": "not_approved",
             "role": "outdoor_costume_reference",
-            "active_prompt_input": false
+            "active_prompt_input": false,
+            "used_in_clips": []
           },
           {
             "path": "projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2-cap.webp",
@@ -669,7 +832,8 @@
             ],
             "editorial_status": "not_approved",
             "role": "outdoor_costume_reference",
-            "active_prompt_input": false
+            "active_prompt_input": false,
+            "used_in_clips": []
           }
         ]
       },
@@ -734,6 +898,21 @@
           "sheet_task_for_dot": "Поправить только S6-Anatoly.webp и S6-Anatoly-Head-V2.webp: добавить кепку, лицо сохранить. Самокрутку на лист не рисовать.",
           "description": "Мягкая гражданская фуражка с коротким плотным козырьком; невысокая чуть сплюснутая тулья из мелкофактурной ткани, на чёрно-белом снимке среднего серого тона, без кокарды и форменного околыша; сидит низко на лбу."
         }
+      },
+      "binding_20261127": {
+        "outdoor": [
+          "projects/stikhiy/references/scenes/scene-1/S6-Anatoly-cap.webp",
+          "projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2-cap.webp"
+        ],
+        "indoor": [
+          "projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp",
+          "projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2.webp"
+        ],
+        "clips": {
+          "1-G03": "interior, no cap sheet, no cigarette",
+          "1-G06": "interior, no cap sheet, no cigarette"
+        },
+        "note": "В монтаже 03:52 Анатолия на улице (дача) нет. Любой уличный кадр с ним — только листы с кепкой и самокрутка."
       }
     },
     {
@@ -761,7 +940,8 @@
             ],
             "editorial_status": "not_approved",
             "role": "character_identity_draft",
-            "active_prompt_input": false
+            "active_prompt_input": false,
+            "used_in_clips": []
           },
           {
             "path": "projects/stikhiy/references/scenes/scene-1/S6-Vladimir-Head-V2.webp",
@@ -777,6 +957,10 @@
             "active_prompt_input": false,
             "derived_from": [
               "projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp"
+            ],
+            "used_in_clips": [
+              "1-G02",
+              "1-W01"
             ]
           }
         ]
@@ -865,7 +1049,8 @@
             ],
             "editorial_status": "not_approved",
             "role": "character_identity_draft",
-            "active_prompt_input": false
+            "active_prompt_input": false,
+            "used_in_clips": []
           },
           {
             "path": "projects/stikhiy/references/scenes/scene-1/S6-Shura-Head-V2.webp",
@@ -881,6 +1066,10 @@
             "active_prompt_input": false,
             "derived_from": [
               "projects/stikhiy/references/scenes/scene-1/S6-Shura.webp"
+            ],
+            "used_in_clips": [
+              "1-G05",
+              "1-W03"
             ]
           }
         ]
@@ -965,7 +1154,8 @@
             "scenes": [],
             "editorial_status": "not_approved",
             "role": "gallery_only",
-            "active_prompt_input": false
+            "active_prompt_input": false,
+            "used_in_clips": []
           },
           {
             "path": "projects/stikhiy/references/scenes/scene-1/S6-Julia-Head-V2.webp",
@@ -979,7 +1169,8 @@
             "active_prompt_input": false,
             "derived_from": [
               "projects/stikhiy/references/scenes/scene-1/S6-Julia.webp"
-            ]
+            ],
+            "used_in_clips": []
           }
         ]
       },
@@ -1187,7 +1378,7 @@
       "notes": "Архивный черновик реконструкции с неверной геометрией. Для сцены 1 использовать новый фасад и отдельный двор.",
       "images": [
         {
-          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.png",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.webp",
           "caption": "Летняя дача",
           "scenes": [
             1
@@ -1197,7 +1388,9 @@
           "height": 1672,
           "editorial_status": "not_approved",
           "sha256": "90babd927e0ba425af0d917deecaa11b8ebbc648e2b21011ea0895bdf410292c",
-          "bytes": 3394063
+          "bytes": 3394063,
+          "generation_input": "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.png",
+          "site_copy": "WebP q92 для сайта (Pages не публикует PNG из references/)"
         }
       ],
       "editorial_status": "not_approved",
@@ -1217,7 +1410,7 @@
       "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
       "images": [
         {
-          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.webp",
           "caption": "Общая комната квартиры",
           "scenes": [
             1
@@ -1227,7 +1420,9 @@
           "height": 1672,
           "editorial_status": "not_approved",
           "sha256": "2d9c9f55bf640e7532c2f1f9b8676f137de22b8c3cf193174310089c9464cedc",
-          "bytes": 2549468
+          "bytes": 2549468,
+          "generation_input": "projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png",
+          "site_copy": "WebP q92 для сайта (Pages не публикует PNG из references/)"
         }
       ],
       "editorial_status": "not_approved",
@@ -1246,7 +1441,7 @@
       "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
       "images": [
         {
-          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.png",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.webp",
           "caption": "Кухня вечером",
           "scenes": [
             1
@@ -1256,7 +1451,9 @@
           "height": 1494,
           "editorial_status": "not_approved",
           "sha256": "837b3c2b2ac4a8fc8ad8f09c81de62691af7d4fdaee638909d5f2c2166010ea2",
-          "bytes": 2401204
+          "bytes": 2401204,
+          "generation_input": "projects/stikhiy/references/scenes/scene-1/S6-LOC03-kitchen.png",
+          "site_copy": "WebP q92 для сайта (Pages не публикует PNG из references/)"
         }
       ],
       "editorial_status": "not_approved",
@@ -1275,7 +1472,7 @@
       "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
       "images": [
         {
-          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.png",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.webp",
           "caption": "Ванная",
           "scenes": [
             1
@@ -1285,7 +1482,9 @@
           "height": 1491,
           "editorial_status": "not_approved",
           "sha256": "34e52dc5deb372be16a3f84d2a426b631369b8b178d3e1d1afb5125853af4cd5",
-          "bytes": 2126926
+          "bytes": 2126926,
+          "generation_input": "projects/stikhiy/references/scenes/scene-1/S6-LOC04-bathroom.png",
+          "site_copy": "WebP q92 для сайта (Pages не публикует PNG из references/)"
         }
       ],
       "editorial_status": "not_approved",
@@ -1304,7 +1503,7 @@
       "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
       "images": [
         {
-          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.webp",
           "caption": "Спальня ночью",
           "scenes": [
             1
@@ -1314,7 +1513,9 @@
           "height": 1672,
           "editorial_status": "not_approved",
           "sha256": "c20fb33409a9abec6159bc41b317682398e24051a99df99f951ff48a2ebaf5bf",
-          "bytes": 2447794
+          "bytes": 2447794,
+          "generation_input": "projects/stikhiy/references/scenes/scene-1/S6-LOC05-bedroom.png",
+          "site_copy": "WebP q92 для сайта (Pages не публикует PNG из references/)"
         }
       ],
       "editorial_status": "not_approved",
@@ -1333,7 +1534,7 @@
       "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
       "images": [
         {
-          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.webp",
           "caption": "Красная площадь зимой",
           "scenes": [
             1
@@ -1343,7 +1544,9 @@
           "height": 1672,
           "editorial_status": "not_approved",
           "sha256": "4b550666f00a5b40927eed232db198d00f5b422727603b1786a0a1b03be8a560",
-          "bytes": 2797165
+          "bytes": 2797165,
+          "generation_input": "projects/stikhiy/references/scenes/scene-1/S6-LOC06-red-square.png",
+          "site_copy": "WebP q92 для сайта (Pages не публикует PNG из references/)"
         }
       ],
       "editorial_status": "not_approved",
@@ -1362,7 +1565,7 @@
       "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
       "images": [
         {
-          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.png",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.webp",
           "caption": "Токарный цех",
           "scenes": [
             1
@@ -1372,7 +1575,9 @@
           "height": 1672,
           "editorial_status": "not_approved",
           "sha256": "d0c143bfe758d6a241aeaf83246ea77896adbd42fbb59ddbf2c6e8dfc0f888b5",
-          "bytes": 2768081
+          "bytes": 2768081,
+          "generation_input": "projects/stikhiy/references/scenes/scene-1/S6-LOC07-azlk.png",
+          "site_copy": "WebP q92 для сайта (Pages не публикует PNG из references/)"
         }
       ],
       "editorial_status": "not_approved",
@@ -1391,7 +1596,7 @@
       "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
       "images": [
         {
-          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.png",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.webp",
           "caption": "Больничный коридор",
           "scenes": [
             1
@@ -1401,7 +1606,9 @@
           "height": 1499,
           "editorial_status": "not_approved",
           "sha256": "00ac6be49fe7b8776bf3db188f1e678c0806eb5964b5bcee046bd61ec68d654f",
-          "bytes": 2192149
+          "bytes": 2192149,
+          "generation_input": "projects/stikhiy/references/scenes/scene-1/S6-LOC08-hospital-corridor.png",
+          "site_copy": "WebP q92 для сайта (Pages не публикует PNG из references/)"
         }
       ],
       "editorial_status": "not_approved",
@@ -1420,7 +1627,7 @@
       "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
       "images": [
         {
-          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.webp",
           "caption": "Больничная палата",
           "scenes": [
             1
@@ -1430,7 +1637,9 @@
           "height": 1492,
           "editorial_status": "not_approved",
           "sha256": "71e214b21d6d2f8e8e41613b4cd6b6faa92498a09780fbabcb6e7cc813c6ac63",
-          "bytes": 2362159
+          "bytes": 2362159,
+          "generation_input": "projects/stikhiy/references/scenes/scene-1/S6-LOC09-hospital-room.png",
+          "site_copy": "WebP q92 для сайта (Pages не публикует PNG из references/)"
         }
       ],
       "editorial_status": "not_approved",
@@ -1449,7 +1658,7 @@
       "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
       "images": [
         {
-          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.png",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.webp",
           "caption": "Кладбище, дальний план",
           "scenes": [
             1
@@ -1459,7 +1668,9 @@
           "height": 1672,
           "editorial_status": "not_approved",
           "sha256": "1845c13ab4da5f1bf0f8df9979c361877f22b7e5499b0b024946c6f45da72eb7",
-          "bytes": 3890794
+          "bytes": 3890794,
+          "generation_input": "projects/stikhiy/references/scenes/scene-1/S6-LOC10-cemetery.png",
+          "site_copy": "WebP q92 для сайта (Pages не публикует PNG из references/)"
         }
       ],
       "editorial_status": "not_approved",
@@ -1510,7 +1721,7 @@
       "notes": "Пустой двор конца 1980-х, 9:16. Отдельно стоящая душевая с тёмной вертикальной бочкой на крыше, горизонтальная ёмкость в траве, вишня у бочки, теплица с помидорами и огурцами справа. Только окружение; не новый сюжетный эпизод.",
       "images": [
         {
-          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.webp",
           "width": 941,
           "height": 1672,
           "sha256": "c11129f42a7288629c17eb79b3f53a9cede2b976eb71bb3e5f5ca7b813b0d04f",
@@ -1520,7 +1731,9 @@
           "scenes": [
             1
           ],
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "generation_input": "projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png",
+          "site_copy": "WebP q92 для сайта (Pages не публикует PNG из references/)"
         }
       ],
       "editorial_status": "not_approved",
@@ -1553,7 +1766,7 @@
       "notes": "Рабочая реконструкция конца 1980-х по геометрии архивных фото, 9:16, без людей. Старый фасад не применять.",
       "images": [
         {
-          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.webp",
           "width": 941,
           "height": 1672,
           "sha256": "e40fecded4d642945e916419ed6385d2040344738d77c5d1959a8d6350c8010e",
@@ -1563,7 +1776,9 @@
           "scenes": [
             1
           ],
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "generation_input": "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png",
+          "site_copy": "WebP q92 для сайта (Pages не публикует PNG из references/)"
         }
       ],
       "editorial_status": "not_approved",
