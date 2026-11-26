@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "project": "stikhiy",
-  "updated_at": "2026-11-19T22:37:50.615281Z",
-  "source": "Перенос уже опубликованных рабочих референсов проекта «Стахий»: 9 листов внешности и 11 локаций. Исходные семейные фотографии не публикуются. Добавлены 11 изображений V2 по опубликованным черновикам; исходники V1 оставлены как дополнительные.",
+  "updated_at": "2026-11-26T21:40:00Z",
+  "source": "Состав семьи по t962u–t977u (26–27.11.2026). Надежда, Ольга Мазур и Валерий — родные брат и сёстры. Карточки Ольги Мазур и Ольги Чечулиной не схлопывать. Файлов «Ольга Мазур» в репозитории и папке «фото 2» не найдено. Лица без фото — не блокер. Исходные семейные фото не публикуются. Развёртки, кроме правки кепки Анатолия, не перерисовывать.",
   "characters": [
     {
       "id": "S6-Arkady",
@@ -97,7 +97,13 @@
             "projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp"
           ]
         }
-      ]
+      ],
+      "relationship": "папа Стахия, муж Надежды",
+      "family_side": "nuclear",
+      "face_reference": {
+        "status": "draft_sheets_and_owner_photos",
+        "notes": "Рабочие листы V1/V2 (not_approved). Исходники в папке «фото 2», в репозиторий не публикуются."
+      }
     },
     {
       "id": "S6-Nadezhda",
@@ -192,12 +198,21 @@
             "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp"
           ]
         }
-      ]
+      ],
+      "relationship": "мама Стахия, жена Аркадия, родная сестра Ольги Мазур и Валерия",
+      "family_side": "nuclear",
+      "face_reference": {
+        "status": "draft_sheets_and_owner_photos",
+        "notes": "Рабочие листы V1/V2 (not_approved). Исходники в папке «фото 2». Кандидат «Ндежда.JPG» — только после подтверждения."
+      }
     },
     {
       "id": "S6-Stas-ages",
       "name": "Стахий: 1, 2 и 3 года",
-      "aliases": [],
+      "aliases": [
+        "Стахий",
+        "STAKHIY"
+      ],
       "scenes": [
         1
       ],
@@ -271,7 +286,7 @@
           }
         ]
       },
-      "outfit_variant": "Возрастные колонки слева направо: около 1, 2 и 3 лет.",
+      "outfit_variant": "Возрастные колонки слева направо: около 1, 2 и 3 лет. Костюм с надписью Coca-Cola с семейных фото можно использовать в некоторых сценах как необязательный вариант. Игрушку, похожую на пистолет, не использовать.",
       "variants": [
         {
           "model_sheet_path": "projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp",
@@ -370,7 +385,13 @@
             "projects/stikhiy/references/scenes/scene-1/S6-Stas-ages.webp"
           ]
         }
-      ]
+      ],
+      "relationship": "главное действующее лицо",
+      "family_side": "nuclear",
+      "face_reference": {
+        "status": "draft_sheets_and_owner_photos",
+        "notes": "Листы возрастов 1, 2 и 3 года. В папке «фото 2» также есть подписи 1 год 5–6 месяцев, 2 года 2 месяца, 2 года 4 месяца. Кадр со школьным возрастом у деревенского дома к сцене 1 не относится."
+      }
     },
     {
       "id": "S6-Petr",
@@ -465,7 +486,13 @@
             "projects/stikhiy/references/scenes/scene-1/S6-Petr.webp"
           ]
         }
-      ]
+      ],
+      "relationship": "дедушка по папе",
+      "family_side": "paternal",
+      "face_reference": {
+        "status": "draft_sheets_and_later_owner_photo",
+        "notes": "Рабочие листы V1/V2. В новой папке только «Дом в деревне Стахий и Пътр.JPG»: лицо есть, но Стахий на снимке уже школьного возраста — для сцены 1 этот возраст не использовать."
+      }
     },
     {
       "id": "S6-Nina",
@@ -560,12 +587,21 @@
             "projects/stikhiy/references/scenes/scene-1/S6-Nina.webp"
           ]
         }
-      ]
+      ],
+      "relationship": "бабушка по папе",
+      "family_side": "paternal",
+      "face_reference": {
+        "status": "draft_sheets_only",
+        "notes": "Рабочие листы V1/V2 есть. В папке «фото 2» исходника нет."
+      }
     },
     {
       "id": "S6-Anatoly",
       "name": "Анатолий",
-      "aliases": [],
+      "aliases": [
+        "Толя",
+        "дед Толя"
+      ],
       "scenes": [
         1
       ],
@@ -604,10 +640,40 @@
             "derived_from": [
               "projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp"
             ]
+          },
+          {
+            "path": "projects/stikhiy/references/scenes/scene-1/S6-Anatoly-cap.webp",
+            "width": 1250,
+            "height": 833,
+            "sha256": "2402d4e77522798538f9fc7e06e81787ba9094dd74c5f9a422f8969d61120dd3",
+            "bytes": 164790,
+            "blob_sha": "81c263a9daf70d4ab3bea5a1be3fffd9ae9d8772",
+            "caption": "Анатолий · уличная кепка · рост и портрет",
+            "scenes": [
+              1
+            ],
+            "editorial_status": "not_approved",
+            "role": "outdoor_costume_reference",
+            "active_prompt_input": false
+          },
+          {
+            "path": "projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2-cap.webp",
+            "width": 1536,
+            "height": 768,
+            "sha256": "66d0e264264cb4824cb2a980fd2249e11be3567b908f14227489ffec11ec2f5b",
+            "bytes": 175276,
+            "blob_sha": "7cca6ea27cc3ddb16e90daeb8935e6d8c74fa9c1",
+            "caption": "Анатолий · уличная кепка · повороты головы",
+            "scenes": [
+              1
+            ],
+            "editorial_status": "not_approved",
+            "role": "outdoor_costume_reference",
+            "active_prompt_input": false
           }
         ]
       },
-      "outfit_variant": "Одежду выбирать по эпизоду, а не по листу.",
+      "outfit_variant": "На улице всегда мягкая гражданская фуражка (кепка) по фото «Анатолий 4.JPG» (профиль — «Анатолий 3.JPG»): невысокая чуть сплюснутая тулья из мелкофактурной ткани, на чёрно-белом снимке среднего серого тона, без кокарды и форменного околыша; сидит низко на лбу. На улице всегда самокрутка во рту. В помещении самокрутки нет, кепка не обязательна. Текущие листы S6-Anatoly.webp и S6-Anatoly-Head-V2.webp — без кепки: лицо сохранять, кепку дорисует Dot (не перерисовывать остальные развёртки, самокрутку на лист не добавлять). Исходные фото в репозиторий не публикуются (папка (семейный архив, адрес не публикуется)).",
       "variants": [
         {
           "model_sheet_path": "projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2.webp",
@@ -655,7 +721,20 @@
             "projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp"
           ]
         }
-      ]
+      ],
+      "relationship": "дедушка по маме, отец Надежды",
+      "family_side": "maternal",
+      "face_reference": {
+        "status": "draft_sheets_and_owner_photos",
+        "notes": "Листы V1/V2 без кепки. На улице обязательны кепка по «Анатолий 4.JPG» и самокрутка во рту. В помещении самокрутки нет. Развёртки других персонажей не перерисовывать.",
+        "headwear_source": {
+          "primary_file": "Анатолий 4.JPG",
+          "profile_file": "Анатолий 3.JPG",
+          "published_in_repo": false,
+          "sheet_task_for_dot": "Поправить только S6-Anatoly.webp и S6-Anatoly-Head-V2.webp: добавить кепку, лицо сохранить. Самокрутку на лист не рисовать.",
+          "description": "Мягкая гражданская фуражка с коротким плотным козырьком; невысокая чуть сплюснутая тулья из мелкофактурной ткани, на чёрно-белом снимке среднего серого тона, без кокарды и форменного околыша; сидит низко на лбу."
+        }
+      }
     },
     {
       "id": "S6-Vladimir",
@@ -750,40 +829,55 @@
             "projects/stikhiy/references/scenes/scene-1/S6-Vladimir.webp"
           ]
         }
-      ]
+      ],
+      "relationship": "крёстный, дядя по папе; родство с Аркадием (родной брат или иначе) владельцем пока не подтверждено",
+      "family_side": "paternal",
+      "face_reference": {
+        "status": "draft_sheets_only",
+        "notes": "Рабочие листы V1/V2 есть. В папке «фото 2» исходника нет."
+      }
     },
     {
       "id": "S6-Shura",
-      "name": "Шура",
-      "aliases": [],
-      "scenes": [],
+      "name": "Александра (Шура)",
+      "aliases": [
+        "Шура",
+        "Александра"
+      ],
+      "scenes": [
+        1
+      ],
       "model_sheet": {
         "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
-        "primary": "Шура",
+        "primary": "Александра (Шура)",
         "additional": [],
         "public_image": "projects/stikhiy/references/scenes/scene-1/S6-Shura.webp",
         "full_image": "projects/stikhiy/references/scenes/scene-1/S6-Shura.webp",
         "gallery": [
           {
             "path": "projects/stikhiy/references/scenes/scene-1/S6-Shura.webp",
-            "caption": "Шура · V1, дополнительный лист",
+            "caption": "Александра (Шура) · V1, дополнительный лист · бабушка по маме",
             "width": 1250,
             "height": 833,
             "sha256": "fe4f5a31662abc87093ecd9342e69b15987dbb58059f34975d04090f2ac19972",
-            "scenes": [],
+            "scenes": [
+              1
+            ],
             "editorial_status": "not_approved",
-            "role": "gallery_only",
+            "role": "character_identity_draft",
             "active_prompt_input": false
           },
           {
             "path": "projects/stikhiy/references/scenes/scene-1/S6-Shura-Head-V2.webp",
-            "caption": "Шура · V2, ракурсы головы · только галерея, роль не назначена",
+            "caption": "Шура · V2, ракурсы головы · бабушка по маме",
             "width": 1536,
             "height": 1024,
             "sha256": "ad15ca87c37f6ad7a33ed0084938a1bb865480ed01feffcdf1e0353a225b1ed7",
-            "scenes": [],
+            "scenes": [
+              1
+            ],
             "editorial_status": "not_approved",
-            "role": "gallery_only",
+            "role": "character_turnaround_draft",
             "active_prompt_input": false,
             "derived_from": [
               "projects/stikhiy/references/scenes/scene-1/S6-Shura.webp"
@@ -791,13 +885,15 @@
           }
         ]
       },
-      "outfit_variant": "Галерея; сюжетный эпизод не назначен.",
+      "outfit_variant": "Бабушка по маме. Одежду для вставки эпизода 03 не выдумывать сверх рабочих листов; исходник «Шура.JPG» в репозиторий не публикуется, светловолосую женщину с края кадра не включать.",
       "variants": [
         {
           "model_sheet_path": "projects/stikhiy/references/scenes/scene-1/S6-Shura-Head-V2.webp",
-          "label": "Шура · V2, ракурсы головы · только галерея, роль не назначена",
+          "label": "Александра (Шура) · V2, ракурсы головы · бабушка по маме",
           "notes": "Черновик V2, отдельные положения головы в одном возрасте и прежней одежде.",
-          "scenes": []
+          "scenes": [
+            1
+          ]
         }
       ],
       "provenance": {
@@ -813,36 +909,49 @@
       "reference_images": [
         {
           "path": "projects/stikhiy/references/scenes/scene-1/S6-Shura.webp",
-          "caption": "Шура · черновик",
+          "caption": "Александра (Шура) · черновик · бабушка по маме",
           "sha256": "fe4f5a31662abc87093ecd9342e69b15987dbb58059f34975d04090f2ac19972",
-          "scenes": [],
+          "scenes": [
+            1
+          ],
           "editorial_status": "not_approved",
           "derived_from": []
         },
         {
           "path": "projects/stikhiy/references/scenes/scene-1/S6-Shura-Head-V2.webp",
-          "caption": "Шура · V2, ракурсы головы · только галерея, роль не назначена",
+          "caption": "Шура · V2, ракурсы головы · бабушка по маме",
           "width": 1536,
           "height": 1024,
           "sha256": "ad15ca87c37f6ad7a33ed0084938a1bb865480ed01feffcdf1e0353a225b1ed7",
-          "scenes": [],
+          "scenes": [
+            1
+          ],
           "editorial_status": "not_approved",
-          "role": "gallery_only",
+          "role": "character_turnaround_draft",
           "active_prompt_input": false,
           "derived_from": [
             "projects/stikhiy/references/scenes/scene-1/S6-Shura.webp"
           ]
         }
-      ]
+      ],
+      "relationship": "бабушка по маме",
+      "family_side": "maternal",
+      "face_reference": {
+        "status": "draft_sheets_and_owner_photos",
+        "notes": "Роль назначена 26.11.2026. Есть во вставке эпизода 03. Исходник «Шура.JPG»: светловолосую женщину с края кадра в идентичность не брать."
+      }
     },
     {
       "id": "S6-Julia",
-      "name": "Юлия",
-      "aliases": [],
+      "name": "Юлия (Юлька)",
+      "aliases": [
+        "Юлька",
+        "Юлия"
+      ],
       "scenes": [],
       "model_sheet": {
         "source": "Сгенерированный по фото лист 3D-внешности, не полигональная модель.",
-        "primary": "Юлия",
+        "primary": "Юлия (Юлька)",
         "additional": [],
         "public_image": "projects/stikhiy/references/scenes/scene-1/S6-Julia.webp",
         "full_image": "projects/stikhiy/references/scenes/scene-1/S6-Julia.webp",
@@ -860,7 +969,7 @@
           },
           {
             "path": "projects/stikhiy/references/scenes/scene-1/S6-Julia-Head-V2.webp",
-            "caption": "Юлия · V2, ракурсы головы · только галерея, роль не назначена",
+            "caption": "Юлия · V2, ракурсы головы · двоюродная сестра по маме; в серии 1 не появляется",
             "width": 1536,
             "height": 1024,
             "sha256": "229a862e63db7bcdd7cf8bc76f3e1bf0c9f3942f0b1584af99b15667f4f9eca3",
@@ -874,11 +983,11 @@
           }
         ]
       },
-      "outfit_variant": "Галерея; сюжетный эпизод не назначен.",
+      "outfit_variant": "Двоюродная сестра по маме, дочь Ольги Мазур. В серии 1 не появляется; одежду и возраст для неё не назначать.",
       "variants": [
         {
           "model_sheet_path": "projects/stikhiy/references/scenes/scene-1/S6-Julia-Head-V2.webp",
-          "label": "Юлия · V2, ракурсы головы · только галерея, роль не назначена",
+          "label": "Юлия (Юлька) · V2, ракурсы головы · двоюродная сестра по маме; в серии 1 не появляется",
           "notes": "Черновик V2, отдельные положения головы в одном возрасте и прежней одежде.",
           "scenes": []
         }
@@ -896,7 +1005,7 @@
       "reference_images": [
         {
           "path": "projects/stikhiy/references/scenes/scene-1/S6-Julia.webp",
-          "caption": "Юлия · черновик",
+          "caption": "Юлия (Юлька) · черновик · двоюродная сестра по маме; в серии 1 не появляется",
           "sha256": "a165ec9d705f0b7867bda487b7c72777b497bc0a69e7527d928c6c6bf47770d9",
           "scenes": [],
           "editorial_status": "not_approved",
@@ -904,7 +1013,7 @@
         },
         {
           "path": "projects/stikhiy/references/scenes/scene-1/S6-Julia-Head-V2.webp",
-          "caption": "Юлия · V2, ракурсы головы · только галерея, роль не назначена",
+          "caption": "Юлия · V2, ракурсы головы · двоюродная сестра по маме; в серии 1 не появляется",
           "width": 1536,
           "height": 1024,
           "sha256": "229a862e63db7bcdd7cf8bc76f3e1bf0c9f3942f0b1584af99b15667f4f9eca3",
@@ -916,7 +1025,155 @@
             "projects/stikhiy/references/scenes/scene-1/S6-Julia.webp"
           ]
         }
-      ]
+      ],
+      "relationship": "двоюродная сестра по маме, дочь Ольги Мазур; в серии 1 не появляется (t967u)",
+      "family_side": "maternal",
+      "face_reference": {
+        "status": "draft_sheets_only",
+        "notes": "Роль назначена, но в тексте серии 1 персонаж не появляется. В папке «фото 2» исходника нет."
+      }
+    },
+    {
+      "id": "S6-Olga-Mazur",
+      "name": "Ольга Мазур",
+      "aliases": [
+        "Ольга Мазур"
+      ],
+      "scenes": [
+        1
+      ],
+      "relationship": "Сестра Надежды и Валерия; до замужества Чечулина, позже Мазур. Крёстная Стахия, мама Юлии.",
+      "family_side": "maternal",
+      "model_sheet": {
+        "source": "Нет рабочего листа: исходного фото в проекте нет.",
+        "primary": "Ольга Мазур",
+        "additional": [],
+        "public_image": null,
+        "full_image": null,
+        "gallery": []
+      },
+      "outfit_variant": "На присланных фото с Ольгой именно она; отдельный рабочий лист пока не привязан. Лицо не выдумывать.",
+      "variants": [],
+      "provenance": {
+        "project": "stikhiy",
+        "created": "2026-11-26",
+        "source": "Состав семьи по уточнению владельца 26.11.2026 (t962u). Листа внешности нет.",
+        "status": "owner_confirmed",
+        "editorial_status": "identity_confirmed_source_not_bound"
+      },
+      "reference_images": [],
+      "face_reference": {
+        "status": "owner_confirmed_in_source_set_not_bound",
+        "notes": "На присланных фото с Ольгой — Мазур. Не переносить её лицо на жену Валерия."
+      },
+      "staging_if_no_photo": "некрупно / спиной / вне фокуса либо убрать из кадра; лицо не выдумывать"
+    },
+    {
+      "id": "S6-Valery",
+      "name": "Валерий",
+      "aliases": [
+        "Валерий"
+      ],
+      "scenes": [
+        1
+      ],
+      "relationship": "Дядя по маме, брат Надежды и Ольги Мазур; муж Ольги Гусаровой (Чечулиной после брака) и отец Виктории.",
+      "family_side": "maternal",
+      "model_sheet": {
+        "source": "Нет рабочего листа: исходного фото в проекте нет.",
+        "primary": "Валерий",
+        "additional": [],
+        "public_image": null,
+        "full_image": null,
+        "gallery": []
+      },
+      "outfit_variant": "Внешность и одежду не выдумывать до фото.",
+      "variants": [],
+      "provenance": {
+        "project": "stikhiy",
+        "created": "2026-11-26",
+        "source": "Состав семьи по уточнению владельца 26.11.2026 (t962u). Листа внешности нет.",
+        "status": "missing_photo",
+        "editorial_status": "no_photo_not_a_blocker"
+      },
+      "reference_images": [],
+      "face_reference": {
+        "status": "no_source_photo_not_a_blocker",
+        "notes": "Исходного фото лица в репозитории, на сайте и в папке «фото 2» нет. Новых фото не будет (t977u). Это не блокер: если персонаж остаётся в кадре — некрупно, спиной или вне фокуса; лицо не выдумывать. Либо убрать из кадра. Никакие фото не приписывать Ольге Гусаровой."
+      },
+      "no_face_photo": true,
+      "staging_if_no_photo": "некрупно / спиной / вне фокуса либо убрать из кадра; лицо не выдумывать"
+    },
+    {
+      "id": "S6-Olga-Chechulina",
+      "name": "Ольга Гусарова (Чечулина после брака)",
+      "aliases": [
+        "Ольга Гусарова"
+      ],
+      "scenes": [],
+      "relationship": "Жена Валерия, мать Виктории; не сестра Надежды. В сериал пока не включать.",
+      "family_side": "maternal",
+      "model_sheet": {
+        "source": "Нет рабочего листа: исходного фото в проекте нет.",
+        "primary": "Ольга Гусарова",
+        "additional": [],
+        "public_image": null,
+        "full_image": null,
+        "gallery": []
+      },
+      "outfit_variant": "Не в касте; её фото владелец не присылал.",
+      "variants": [],
+      "provenance": {
+        "project": "stikhiy",
+        "created": "2026-11-26",
+        "source": "Состав семьи по уточнению владельца 26.11.2026 (t962u). Листа внешности нет.",
+        "status": "missing_photo",
+        "editorial_status": "excluded_by_owner"
+      },
+      "reference_images": [],
+      "face_reference": {
+        "status": "not_provided_excluded",
+        "notes": "Не использовать фото Ольги Мазур. Не включать в сериал до отдельного решения."
+      },
+      "no_face_photo": true,
+      "staging_if_no_photo": "Не включать в кадр."
+    },
+    {
+      "id": "S6-Victoria",
+      "name": "Виктория",
+      "aliases": [
+        "Вика",
+        "Виктория"
+      ],
+      "scenes": [
+        1
+      ],
+      "relationship": "Двоюродная сестра по маме, дочь Валерия и Ольги Гусаровой (Чечулиной после брака).",
+      "family_side": "maternal",
+      "model_sheet": {
+        "source": "Нет рабочего листа: исходного фото в проекте нет.",
+        "primary": "Виктория",
+        "additional": [],
+        "public_image": null,
+        "full_image": null,
+        "gallery": []
+      },
+      "outfit_variant": "Внешность и одежду не выдумывать до фото.",
+      "variants": [],
+      "provenance": {
+        "project": "stikhiy",
+        "created": "2026-11-26",
+        "source": "Состав семьи по уточнению владельца 26.11.2026 (t962u). Листа внешности нет.",
+        "status": "missing_photo",
+        "editorial_status": "no_photo_not_a_blocker"
+      },
+      "reference_images": [],
+      "face_reference": {
+        "status": "no_source_photo_not_a_blocker",
+        "notes": "Исходного фото лица в репозитории, на сайте и в папке «фото 2» нет. Новых фото не будет (t977u). Это не блокер: если персонаж остаётся в кадре — некрупно, спиной или вне фокуса; лицо не выдумывать. Либо убрать из кадра. Никакие фото не приписывать Ольге Гусаровой."
+      },
+      "no_face_photo": true,
+      "staging_if_no_photo": "некрупно / спиной / вне фокуса либо убрать из кадра; лицо не выдумывать"
     }
   ],
   "assets": [
@@ -927,7 +1184,7 @@
       "scenes": [
         1
       ],
-      "notes": "Постановочная ИИ-реконструкция90-х, без людей. Только окружение; фото людей ожидаются.",
+      "notes": "Архивный черновик реконструкции с неверной геометрией. Для сцены 1 использовать новый фасад и отдельный двор.",
       "images": [
         {
           "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.png",
@@ -947,7 +1204,8 @@
       "provenance": {
         "status": "generated",
         "source": "ChatGPT ImageGen, owner requested location references 18.11.2026"
-      }
+      },
+      "geometry_status": "superseded_do_not_bind"
     },
     {
       "id": "S6-LOC02-apartment",
@@ -1214,7 +1472,7 @@
       "id": "S6-Dacha-reference",
       "name": "Дача и сад · реконструкция по фото",
       "kind": "location",
-      "notes": "Постановочная реконструкция по фото, без людей; не архив.",
+      "notes": "Архивный черновик реконструкции с неверной геометрией. Для сцены 1 использовать новый фасад и отдельный двор.",
       "images": [
         {
           "path": "projects/stikhiy/references/scenes/scene-1/S6-Dacha-reference.webp",
@@ -1239,12 +1497,132 @@
       },
       "scenes": [
         1
-      ]
+      ],
+      "geometry_status": "superseded_do_not_bind"
+    },
+    {
+      "id": "S6-LOC-dacha-shower",
+      "name": "Дачная душевая и бочки с водой",
+      "kind": "location",
+      "scenes": [
+        1
+      ],
+      "notes": "Пустой двор конца 1980-х, 9:16. Отдельно стоящая душевая с тёмной вертикальной бочкой на крыше, горизонтальная ёмкость в траве, вишня у бочки, теплица с помидорами и огурцами справа. Только окружение; не новый сюжетный эпизод.",
+      "images": [
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png",
+          "width": 941,
+          "height": 1672,
+          "sha256": "c11129f42a7288629c17eb79b3f53a9cede2b976eb71bb3e5f5ca7b813b0d04f",
+          "bytes": 3356815,
+          "blob_sha": "6881cec472be00d571f11650e9955387e0033136",
+          "caption": "Дача · двор и душевая, без людей",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "source_file": "Дачная душевая и бочка с водой Аркадий и Надежда.JPG",
+        "published_in_repo": false
+      },
+      "geometry_status": "visually_checked_against_owner_photos"
+    },
+    {
+      "id": "S6-LOC-village-house",
+      "name": "Дом в деревне (не дача сцены 1)",
+      "kind": "location",
+      "scenes": [],
+      "notes": "По фото «Дом в деревне Стахий и Пътр.JPG»: белый кирпич/блок, кирпичный цоколь, угловые окна. На снимке школьный Стахий и Пётр — другой возраст и другая локация. В серию 1 не включать. Возможный материал более поздних серий. Исходное фото не публикуется. Перерисовку пустой локации (дом; душевая, бочки, вишнёвое дерево у бочки, правее — теплица с помидорами и огурцами) делает Dot по брифу projects/stikhiy/reports/dot-brief-stikhiy-scene1-2026-11-27.md. Формат 9:16, без людей.",
+      "images": [],
+      "editorial_status": "out_of_scope_scene_1",
+      "provenance": {
+        "source_file": "Дом в деревне Стахий и Пътр.JPG",
+        "published_in_repo": false
+      }
+    },
+    {
+      "id": "S6-LOC01-dacha-v3",
+      "name": "Летняя дача · фасад",
+      "kind": "location",
+      "scenes": [
+        1
+      ],
+      "notes": "Рабочая реконструкция конца 1980-х по геометрии архивных фото, 9:16, без людей. Старый фасад не применять.",
+      "images": [
+        {
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png",
+          "width": 941,
+          "height": 1672,
+          "sha256": "e40fecded4d642945e916419ed6385d2040344738d77c5d1959a8d6350c8010e",
+          "bytes": 3577117,
+          "blob_sha": "537e1a1ead3faa6374bb8ae199d51e74e66cb14e",
+          "caption": "Дача · фасад по архивным фото, без людей",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "geometry_status": "visually_checked_against_owner_photos",
+      "provenance": {
+        "status": "generated",
+        "published_original": false
+      }
     }
   ],
   "non_character_reference_rules": [
     "Индивидуальный лист персонажа всегда выше кадра локации и реквизита для лица, возраста, пропорций и одежды.",
     "@Image1/@Image2/… — локальные обозначения внутри конкретного промта, не глобальные номера.",
-    "Пути к картинкам — от корня репозитория (projects/stikhiy/references/…)."
-  ]
+    "Пути к картинкам — от корня репозитория (projects/stikhiy/references/…).",
+    "Исходные семейные фотографии, в том числе папка (семейный архив, адрес не публикуется), не публиковать и не ставить в @Image.",
+    "В уличных кадрах Анатолий в мягкой гражданской кепке по уличным листам и с самокруткой; для помещения брать исходные листы без кепки, самокрутки нет.",
+    "Геометрию дачи брать из новых рабочих пластин S6-LOC01-dacha-v3.png и S6-LOC-dacha-shower.png; старые не применять.",
+    "Новых семейных фото не будет (t977u). У кого нет фото лица — не блокер: некрупно / спиной / вне фокуса либо убрать из кадра; лицо не выдумывать.",
+    "Никакие фото не приписывать Ольге Гусаровой.",
+    "Развёртки персонажей, кроме правки кепки на листах Анатолия, не перерисовывать.",
+    "На улице у Анатолия всегда кепка по «Анатолий 4.JPG» и самокрутка во рту; в помещении самокрутки нет.",
+    "Рабочая эпоха сцены 1 — конец 1980-х, не «1990-е».",
+    "Формат видео и новых пластин локаций дачи — 9:16 (вертикаль), не 16:9. Развёртки персонажей сохраняют свой текущий формат листа."
+  ],
+  "owner_photo_folder": {
+    "name": "фото 2",
+    "reviewed_at": "2026-11-26",
+    "published_in_repo": false,
+    "policy": "Исходные семейные фото не публиковать на сайте и в репозитории. Использовать как закрытый источник для описания локаций, ролей и головного убора Анатолия.",
+    "inventory": "projects/stikhiy/reports/family-canon-photos-2026-11-26.md"
+  },
+  "family": {
+    "updated_at": "2026-11-27",
+    "source": "Уточнения владельца t962u–t977u, 26–27.11.2026",
+    "title": "Семья Стахия",
+    "people_order": [
+      "S6-Stas-ages",
+      "S6-Nadezhda",
+      "S6-Arkady",
+      "S6-Petr",
+      "S6-Nina",
+      "S6-Vladimir",
+      "S6-Shura",
+      "S6-Anatoly",
+      "S6-Olga-Mazur",
+      "S6-Julia",
+      "S6-Valery",
+      "S6-Olga-Chechulina",
+      "S6-Victoria"
+    ],
+    "tree_text": "Пётр и Нина — бабушка и дед по папе, Аркадий — папа; Владимир — крёстный, дядя по папе. Александра (Шура) и Анатолий — бабушка и дед по маме. Надежда, Ольга Чечулина (позже Мазур) и Валерий — брат и сёстры. У Ольги Мазур дочь Юлия. Валерий и Ольга Гусарова (после брака Чечулина) — родители Виктории.",
+    "notes": [
+      "Надежда, Ольга Мазур и Валерий — родные брат и сёстры (t967u).",
+      "Родство Владимира с Аркадием не подтверждено.",
+      "В серии 1 сестра мамы названа Ольгой Чечулиной, позже Мазур (t969u). Карточки не схлопывать.",
+      "Юлия в серии 1 не появляется.",
+      "Файлов с именем «Ольга Мазур» в репозитории, на сайте и в папке «фото 2» не найдено. Новых фото не будет. Отсутствие фото — не блокер.",
+      "Никакие фото не приписывать Ольге Гусаровой."
+    ],
+    "owner_clarification_20261127": "Две разные Ольги: Ольга Чечулина, впоследствии Мазур, — сестра Надежды и Валерия, крёстная Стахия и мама Юлии. Ольга Гусарова, впоследствии Чечулина, — жена Валерия и мама Виктории; пока в сериал не входит, её фото не присылались. На присланных фото с Ольгой — Ольга Мазур; конкретный файл её лица пока не привязан."
+  }
 }

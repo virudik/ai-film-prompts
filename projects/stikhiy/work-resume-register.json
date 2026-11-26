@@ -1,46 +1,50 @@
 {
   "schema_version": 1,
   "project": "stikhiy",
-  "last_updated_at": "2026-11-19T21:24:24+00:00",
+  "last_updated_at": "2026-11-26T22:09:08+00:00",
   "active_work": [
     {
       "work_id": "STIKHIY-SCENE1-20261118",
       "project": "stikhiy",
       "title": "Стахий: сцена 1 и разбивка 15/30 секунд",
       "status": "awaiting_editorial_review",
-      "updated_at": "2026-11-19T21:24:24+00:00",
+      "updated_at": "2026-11-26T22:09:08+00:00",
       "completed": [
         "18.11.2026: создана сцена 1 «Ради этого стоит жить» по файлу «Фильм Стахий.docx»: 188 с, 9:16, 10 авторских эпизодов, A=15×15 с / B=10×30 с с монтажной обрезкой. Сценарные карточки, не READY. Озвучка эпизода 06 перегружена; фото/внешности и факты реконструкции ждут согласования. Очередь и генерации не менялись.",
         "18.11.2026: сцена 1 Стахий —25 автономных DRAFT-промптов (15×15 с /10×30 с),10 отдельных PNG локаций без людей созданы штатным ChatGPT и связаны с каждой подсценой/промптом. Все not_approved, видео не запускались, Topview/платные кредиты не использовались. Владелец позже пришлёт фото людей, после них 3D-модели. Ночной диалог50 слов: проба озвучки и решение о расширении тайминга ещё нужны; исходные188с сохранены."
       ],
-      "next_action": "Проверить с владельцем черновые референсы, уточнить роли Шуры и Юлии, затем проверить пробную озвучку ночного диалога и 188-секундный монтаж. До отдельного разрешения видео не запускать.",
+      "next_action": "Grok: 03:52; проверить синхронную русскую речь 06/08/10, записать закадр отдельно, использовать корпус Зенит‑12сд без читаемой маркировки во всех планах; Dot не запускает.",
       "canonical_refs": [
         "projects/stikhiy/video-prompts.md#scene-1",
         "projects/stikhiy/references/scenes/scene-1/source-scenario.md"
       ],
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-19T21:24:24+00:00",
-        "last_completed": "Перенос пакета сцены: 25 промтов и 20 рабочих референсов, без запуска.",
-        "next_action": "Проверить с владельцем черновые референсы, уточнить роли Шуры и Юлии, затем проверить пробную озвучку ночного диалога и 188-секундный монтаж. До отдельного разрешения видео не запускать.",
+        "verified_at": "2026-11-26T22:09:08+00:00",
+        "last_completed": "Подготовлены четыре референса, 25 базовых и восемь дополнительных промптов, карта русских реплик для Grok и единственный монтаж 03:52.",
+        "next_action": "Grok: 03:52; проверить синхронную русскую речь 06/08/10, записать закадр отдельно, использовать корпус Зенит‑12сд без читаемой маркировки во всех планах; Dot не запускает.",
         "checkpoint": {
           "file": "projects/stikhiy/reports/current-work-checkpoint.md",
-          "anchor": "# 19.11.2026 — Стахий: перенос проекта и статус работы",
-          "sha256": "af90a813fb3da751e3ab1956e69936a89752aaceea253d4d05d4ec4e7e56f2b5"
+          "anchor": "# 27.11.2026 — Стахий: подготовка пакета сцены 1",
+          "sha256": "f4537c2a43e42cff25ba0d4004c194c00ed62f4f91c67cd32876d997f1bc9533"
         },
         "evidence": [
           {
-            "file": "projects/stikhiy/reports/stakhiy-scene-1-breakdown.json",
-            "sha256": "20dc86f2c9713da39d86b5cc2f1a18fdc6cb292dc006eaf3ecf3e44e9ec7aee1"
+            "file": "projects/stikhiy/references/scenes/scene-1/reference-bindings.json",
+            "sha256": "ee455921736f0ae96eed6d5571ef654900c928cfed502593ba40f88928e301a2"
           },
           {
-            "file": "projects/stikhiy/references/scenes/scene-1/reference-bindings.json",
-            "sha256": "5303bef32030d48b20f8de0141b6df938aa950909e3c1c883e6bb33325691ecf"
+            "file": "projects/stikhiy/references/scenes/scene-1/continuity-edit-v2.md",
+            "sha256": "cbdc46272c04d303949b912e5619be65465ab76bc76dc2808ab0969a1e242113"
+          },
+          {
+            "file": "projects/stikhiy/references/scenes/scene-1/manifest.json",
+            "sha256": "d2976a0f28c4eb39b8688205d9194108778772ed1f898a6442feb133c27ef2a0"
           }
         ],
         "read_next": [
           "projects/stikhiy/INSTRUCTIONS.md",
-          "projects/stikhiy/reports/current-work-checkpoint.md"
+          "projects/stikhiy/references/scenes/scene-1/production-preflight.md"
         ],
         "blockers": []
       }
@@ -49,7 +53,7 @@
   "resume_focus": {
     "work_id": "STIKHIY-SCENE1-20261118",
     "project": "stikhiy",
-    "set_at": "2026-11-19T21:24:24+00:00",
+    "set_at": "2026-11-26T22:09:08+00:00",
     "reason": "Explicitly selected by the authorized task writer"
   }
 }

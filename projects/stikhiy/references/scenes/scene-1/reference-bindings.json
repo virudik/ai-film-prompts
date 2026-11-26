@@ -8,9 +8,9 @@
     "1-B01": [
       {
         "slot": "@Image1",
-        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png",
         "role": "location_only",
-        "blob_sha": "63820d40786f75697b7c27eb45332f9cfb222789"
+        "blob_sha": "537e1a1ead3faa6374bb8ae199d51e74e66cb14e"
       }
     ],
     "1-B02": [
@@ -118,17 +118,17 @@
     "1-A01": [
       {
         "slot": "@Image1",
-        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png",
         "role": "location_only",
-        "blob_sha": "63820d40786f75697b7c27eb45332f9cfb222789"
+        "blob_sha": "537e1a1ead3faa6374bb8ae199d51e74e66cb14e"
       }
     ],
     "1-A02": [
       {
         "slot": "@Image1",
-        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha.png",
+        "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png",
         "role": "location_only",
-        "blob_sha": "63820d40786f75697b7c27eb45332f9cfb222789"
+        "blob_sha": "537e1a1ead3faa6374bb8ae199d51e74e66cb14e"
       }
     ],
     "1-A03": [
@@ -307,10 +307,10 @@
           "blob_sha": "ae17c0e6f0f7aa33ce6b2f06af4cb07b8ad5ed61"
         },
         {
-          "asset_id": "S6-Dacha-reference",
-          "path": "projects/stikhiy/references/scenes/scene-1/S6-Dacha-reference.webp",
-          "role": "location_reconstruction",
-          "blob_sha": "9d51efebc0e86dfef93496ac92cb6540c964c1db"
+          "asset_id": "S6-LOC-dacha-shower",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png",
+          "blob_sha": "6881cec472be00d571f11650e9955387e0033136",
+          "role": "location_only"
         },
         {
           "asset_id": "S6-Arkady-Head-V2",
@@ -396,10 +396,10 @@
           "blob_sha": "ae17c0e6f0f7aa33ce6b2f06af4cb07b8ad5ed61"
         },
         {
-          "asset_id": "S6-Dacha-reference",
-          "path": "projects/stikhiy/references/scenes/scene-1/S6-Dacha-reference.webp",
-          "role": "location_reconstruction",
-          "blob_sha": "9d51efebc0e86dfef93496ac92cb6540c964c1db"
+          "asset_id": "S6-LOC-dacha-shower",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png",
+          "blob_sha": "6881cec472be00d571f11650e9955387e0033136",
+          "role": "location_only"
         },
         {
           "asset_id": "S6-Arkady-Head-V2",
@@ -485,10 +485,10 @@
           "blob_sha": "ae17c0e6f0f7aa33ce6b2f06af4cb07b8ad5ed61"
         },
         {
-          "asset_id": "S6-Dacha-reference",
-          "path": "projects/stikhiy/references/scenes/scene-1/S6-Dacha-reference.webp",
-          "role": "location_reconstruction",
-          "blob_sha": "9d51efebc0e86dfef93496ac92cb6540c964c1db"
+          "asset_id": "S6-LOC-dacha-shower",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png",
+          "blob_sha": "6881cec472be00d571f11650e9955387e0033136",
+          "role": "location_only"
         },
         {
           "asset_id": "S6-Arkady-Head-V2",
@@ -562,6 +562,18 @@
           "role": "character_turnaround_draft",
           "blob_sha": "057e135d7421117af777c3df7df811ed070482a3",
           "active_prompt_input": false
+        },
+        {
+          "asset_id": "S6-Nadezhda",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
+          "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf",
+          "role": "character_identity_draft"
+        },
+        {
+          "asset_id": "S6-Nadezhda-Head-V2",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp",
+          "blob_sha": "a9daf1b4cc16fa9ea73419e4face038a77ebf039",
+          "role": "character_turnaround_draft"
         }
       ],
       "notes": "Стахий около года: предварительно левая колонка листа."
@@ -593,6 +605,18 @@
           "role": "character_turnaround_draft",
           "blob_sha": "057e135d7421117af777c3df7df811ed070482a3",
           "active_prompt_input": false
+        },
+        {
+          "asset_id": "S6-Nadezhda",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp",
+          "blob_sha": "7e8273322f3e236c5156b3a307ad674522929ddf",
+          "role": "character_identity_draft"
+        },
+        {
+          "asset_id": "S6-Nadezhda-Head-V2",
+          "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp",
+          "blob_sha": "a9daf1b4cc16fa9ea73419e4face038a77ebf039",
+          "role": "character_turnaround_draft"
         }
       ],
       "notes": "Стахий около года: предварительно левая колонка листа."
