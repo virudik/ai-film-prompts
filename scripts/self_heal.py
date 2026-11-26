@@ -257,6 +257,13 @@ def gather(root):
     return f
 
 
+def pages_rebuild_command(repo, build_type):
+    """Legacy Pages is rebuilt with the builds API. Actions source runs the filtered workflow."""
+    if build_type == "workflow":
+        return ["gh", "workflow", "run", "Publish GitHub Pages", "--ref", "main"]
+    return ["gh", "api", "-X", "POST", f"repos/{repo}/pages/builds"]
+
+
 def act(root, a):
     repo = os.environ.get("GITHUB_REPOSITORY", "virudik/ai-film-prompts")
     if a["kind"] == "dispatch":
@@ -267,7 +274,8 @@ def act(root, a):
     if a["kind"] == "rerun":
         return sh("gh", "api", "-X", "POST", f"repos/{repo}/actions/runs/{a['run_id']}/rerun-failed-jobs")
     if a["kind"] == "pages_build":
-        return sh("gh", "api", "-X", "POST", f"repos/{repo}/pages/builds")
+        info = gh_json(f"repos/{repo}/pages") or {}
+        return sh(*pages_rebuild_command(repo, info.get("build_type")))
     return None
 
 

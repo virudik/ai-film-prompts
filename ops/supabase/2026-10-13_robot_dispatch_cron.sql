@@ -41,6 +41,9 @@ revoke all on function public.dispatch_github_workflow(text) from public, anon, 
 -- offsets keep the three runs from starting together
 select cron.schedule('dispatch-topview-robot',         '*/10 * * * *',    $job$ select public.dispatch_github_workflow('topview-robot.yml'); $job$);
 select cron.schedule('dispatch-sync-from-drive',       '2-59/10 * * * *', $job$ select public.dispatch_github_workflow('sync-from-drive.yml'); $job$);
+-- 26.11.2026: topview-video-archive.yml больше не копирует ролики в Google Drive.
+-- Живой cron снять: select cron.unschedule('dispatch-topview-video-archive');
+-- Новые копии — Яндекс Диск, по понедельникам, Grok Bot. Этот файл — история расписания.
 select cron.schedule('dispatch-topview-video-archive', '5-59/10 * * * *', $job$ select public.dispatch_github_workflow('topview-video-archive.yml'); $job$);
 
 -- Stop one:  select cron.unschedule('dispatch-topview-robot');

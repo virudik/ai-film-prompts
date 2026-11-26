@@ -24,13 +24,16 @@ DOCS = ["NEW-CHAT-HANDOFF.md", "SYNC-RUNBOOK.md", "AI-PROJECT-GUIDE.md", "PROMPT
 HANDOFF_MAX_BYTES = 35_000          # «Сейчас + журнал»: live block + stable rules + cleanup rule
 PROJECT_HANDOFF_MAX_BYTES = 12_000  # projects/<id>/HANDOFF.md: only «Сейчас», decisions, open items (22.10.2026)
 PROJECTS = "projects/projects.json"
-INSTRUCTION_MAX_BYTES = 60_000
+INSTRUCTION_REMINDER_BYTES = 60_000  # info: look for repetition
+INSTRUCTION_WARN_BYTES = 100_000       # warn: the instruction is actually too large
 NOW_BLOCK_MAX_DAYS = 3
+RESUME_SELECTED_MAX_DAYS = 7
+PAGES_WARN_BYTES = 900_000_000
 OPS_REVIEW_DAYS = 14
 TASK_MAX_DAYS = 3
 # Service files of the agents (owner decision 23.10.2026): they only grow; the weekly cleanup trims them
 # with scripts/trim_service_files.py. Over the limit = warn, so the cleanup also runs outside Sunday.
-SERVICE_FILES_MAX_BYTES = {"reports/current-work-checkpoint.md": 80_000, "work-resume-register.json": 100_000,
+SERVICE_FILES_MAX_BYTES = {"reports/current-work-checkpoint.md": 40_000, "work-resume-register.json": 100_000,
                            "ops/topview-launch-queue.json": 400_000,
                            "reports/topview-event-wake.json": 200_000}
 # Names that live outside the repository (generated Project files / Library copies) or are mentioned as removed.
@@ -112,8 +115,14 @@ def check(root, now):
         if t is None:
             add("warn", "instruction-missing", f"Нет инструкции {d}.", d)
             continue
-        if d != "NEW-CHAT-HANDOFF.md" and len(t.encode("utf-8")) > INSTRUCTION_MAX_BYTES:
-            add("info", "instruction-size", f"{d}: {len(t.encode('utf-8')) // 1000} КБ, проверить на повторы.", d)
+        if d != "NEW-CHAT-HANDOFF.md":
+            nbytes = len(t.encode("utf-8"))
+            kb = nbytes // 1000
+            if nbytes > INSTRUCTION_WARN_BYTES:
+                add("warn", "instruction-size",
+                    f"{d}: {kb} КБ, порог предупреждения {INSTRUCTION_WARN_BYTES // 1000} КБ.", d)
+            elif nbytes > INSTRUCTION_REMINDER_BYTES:
+                add("info", "instruction-size", f"{d}: {kb} КБ, проверить на повторы.", d)
         missing = set()
         for line in t.splitlines():
             if REMOVED_MARK.search(line):
@@ -216,14 +225,46 @@ def check(root, now):
             if t is not None and len(t.encode("utf-8")) > limit:
                 add("warn", "service-file-size", f"{base + rel}: {len(t.encode('utf-8')) // 1000} КБ (предел {limit // 1000} КБ): "
                     "старые записи перенести в архив — python3 scripts/trim_service_files.py . --write "
-                    "(раздел хендофа «Как чистить», п. 8).", base + rel)
+                    "(`ops/HANDOFF-CLEANUP.md`, п. 8).", base + rel)
+
+    # 9. Selected resume-packet work older than a week. Same rule for the root project and every
+    # registered projects/<id>/, including a project that appears after the current root film.
+    packets = ["shadow/resume-packet.json"]
+    for pr in reg.get("projects", []):
+        base = str(pr.get("root") or "").strip("/")
+        if base in ("", "."):
+            continue
+        packets.append(f"{base}/shadow/resume-packet.json")
+    for rel in packets:
+        packet = read_json(root, rel) or {}
+        selected = packet.get("selected_work") if isinstance(packet.get("selected_work"), dict) else None
+        if not selected:
+            continue
+        when = parse_iso(selected.get("verified_at"))
+        label = selected.get("work_id") or selected.get("title") or rel
+        if when and now - when > timedelta(days=RESUME_SELECTED_MAX_DAYS):
+            age = (now - when).days
+            add("warn", "resume-selected-stale",
+                f"{rel}: выбранная работа «{label}» от {when:%d.%m.%Y}, старше {RESUME_SELECTED_MAX_DAYS} дней ({age}).",
+                rel)
+
+    # 10. Published Pages size. Legacy branch-root publish includes the whole tree.
+    import pages_publish
+    mode = pages_publish.deploy_mode(root)
+    published = pages_publish.published_bytes(root, mode)
+    if published >= PAGES_WARN_BYTES:
+        mb = published // 1_000_000
+        add("warn", "pages-size",
+            f"Общий сайт Pages всех проектов ({mode}) — {mb} МБ, порог {PAGES_WARN_BYTES // 1_000_000} МБ.",
+            "ops/pages-deploy.json")
 
     warn = sum(p["level"] == "warn" for p in problems)
     return {"schema_version": 1, "checked_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
             "status": "warn" if warn else "ok", "warnings": warn,
             "info": sum(p["level"] == "info" for p in problems),
             "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. "
-                     "Устаревание по состоянию проекта, даты только сигнал. Чистку делает ChatGPT по предупреждению или в воскресенье 08:55 МСК.",
+                     "Одни пороги для корня и для каждого projects/<id>/ из реестра; Серёгиус — корневой проект, не отдельная схема. "
+                     "Устаревание по состоянию проекта, даты только сигнал. Чистка и еженедельная сверка копий роликов — ops/HANDOFF-CLEANUP.md.",
             "problems": problems}
 
 

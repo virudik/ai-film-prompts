@@ -45,7 +45,7 @@
         "prompt_path": "references/scenes/scene-58/S58-ship-explosion-open-hatch-prompt.txt",
         "input_paths": [
           "references/scenes/scene-58/S58-wreck-start-owner-selected.png",
-          "references/scenes/scene-45/S45-roskotmos-ship-first-option.png"
+          "projects/kotmonavty/references/ship-exterior-front.png"
         ]
       },
       "assistant_qc": {
@@ -110,7 +110,7 @@
         "prompt_path": "references/scenes/scene-58/S58-emblem-at-cats-paws-prompt.txt",
         "input_paths": [
           "references/scenes/scene-58/S58-cats-escape-open-hatch.png",
-          "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+          "projects/kotmonavty/references/ship-exterior-front.png",
           "references/luchik.jpg",
           "references/ryzhik.jpg"
         ]

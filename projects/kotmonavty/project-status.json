@@ -6,7 +6,7 @@
   "synced_at": "2026-11-26T08:24:08Z",
   "revision_date": "17.11.2026",
   "master_declared_last_full_sync": "30.10.2026 · два готовых результата (2/22) и два платных запуска в обработке (4/9); полные промпты и параметры подтверждены; изображения не изменены",
-  "canonical_master_sha256": "e34b1a9cbdeeafcc3b2a7006e899581b08f5583533e17b350075c7c23dcaf1d8",
+  "canonical_master_sha256": "40c3c06ea2cc64831f2f59e64f465702b7bae4237acdf8f92af1659d07c8cb6d",
   "canonical_revision_sha256": "8dc08be2cf8d262d69eeb54e40acc03c8a5a7033117f18b4884d8af41dc8f9f9",
   "canonical_master_bytes": 439435,
   "scenes": 22,
@@ -553,7 +553,7 @@
   "audit_fingerprint": {
     "revision_date": "17.11.2026",
     "synced_at": "2026-11-26T08:24:08Z",
-    "canonical_master_sha256": "e34b1a9cbdeeafcc3b2a7006e899581b08f5583533e17b350075c7c23dcaf1d8",
+    "canonical_master_sha256": "40c3c06ea2cc64831f2f59e64f465702b7bae4237acdf8f92af1659d07c8cb6d",
     "canonical_revision_sha256": "8dc08be2cf8d262d69eeb54e40acc03c8a5a7033117f18b4884d8af41dc8f9f9",
     "scene_count": 22,
     "prompt_count": 66,

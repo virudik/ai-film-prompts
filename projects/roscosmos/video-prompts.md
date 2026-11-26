@@ -5023,7 +5023,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <div class="scene-ref-gallery">
 <figure><a href="projects/roscosmos/references/scenes/scene-26/tt26-report.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-26/tt26-report.png" alt="Сцена 26, @Image1: Терра Тех: аналитик и широкий монитор" loading="lazy"></a><figcaption>@Image1 — аналитик и широкий монитор. Офисный кадр сохранён.</figcaption></figure>
 <figure><a href="projects/roscosmos/references/scenes/scene-26/tt26-orbit.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-26/tt26-orbit.png" alt="Сцена 26, @Image2: Терра Тех: та же дельта, яснее" loading="lazy"></a><figcaption>@Image2 — та же дельта, яснее. Восстановленный кадр ChatGPT; прежний файл — tt26-orbit-old.png.</figcaption></figure>
-<figure><a href="projects/roscosmos/references/scenes/scene-26/tt26-delta-clean.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-26/tt26-delta-clean.png" alt="Сцена 26, @Image3: чистая дельта для монитора" loading="lazy"></a><figcaption>@Image3 — чистая дельта для монитора. Те же пиксели, что у @Image2.</figcaption></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-26/tt26-orbit.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-26/tt26-orbit.png" alt="Сцена 26, @Image3: чистая дельта для монитора" loading="lazy"></a><figcaption>@Image3 — чистая дельта для монитора. Те же пиксели, что у @Image2.</figcaption></figure>
 <figure><a href="projects/roscosmos/references/scenes/scene-26/tt26-delta-mask.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-26/tt26-delta-mask.png" alt="Сцена 26, @Image4: та же дельта с бирюзовой маской" loading="lazy"></a><figcaption>@Image4 — та же дельта с бирюзовой маской. Берег не сдвинут.</figcaption></figure>
 </div>
 
@@ -5051,7 +5051,7 @@ Optimized for Wan 3.0 | Landscape civil Earth-observation concept, photoreal, pu
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Landscape 16:9 office: a fictional woman with a short black bob, charcoal blazer and cream knit stands beside a wide monitor. The monitor shows a river delta in natural color under a translucent teal mask and contains no text, numbers or logos. She controls the person and the room. File: projects/roscosmos/references/scenes/scene-26/tt26-report.png.
 @Image2 — Landscape 16:9 oblique aerial of the same river delta, closer and clearer, teal water and branching banks edge to edge. No labels and no black atmospheric bar. File: projects/roscosmos/references/scenes/scene-26/tt26-orbit.png.
-@Image3 — Monitor plate, pixel-identical to @Image2, mask off. File: projects/roscosmos/references/scenes/scene-26/tt26-delta-clean.png.
+@Image3 — Monitor plate, pixel-identical to @Image2, mask off. File: projects/roscosmos/references/scenes/scene-26/tt26-orbit.png.
 @Image4 — Same plate as @Image3 with a translucent teal mask and a thin contour only on the water edge. Land beyond that edge is unchanged, so the shoreline cannot jump. File: projects/roscosmos/references/scenes/scene-26/tt26-delta-mask.png.
 Priority: each image only for its named role. These are authored horizontal 16:9 concepts, not documentary evidence, real clients or measurements.
 
@@ -5109,7 +5109,7 @@ Optimized for Seedance 2.0 | Landscape civil Earth-observation concept, photorea
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Landscape 16:9 office: a fictional woman with a short black bob, charcoal blazer and cream knit stands beside a wide monitor. The monitor shows a river delta in natural color under a translucent teal mask and contains no text, numbers or logos. She controls the person and the room. File: projects/roscosmos/references/scenes/scene-26/tt26-report.png.
 @Image2 — Landscape 16:9 oblique aerial of the same river delta, closer and clearer, teal water and branching banks edge to edge. No labels and no black atmospheric bar. File: projects/roscosmos/references/scenes/scene-26/tt26-orbit.png.
-@Image3 — Monitor plate, pixel-identical to @Image2, mask off. File: projects/roscosmos/references/scenes/scene-26/tt26-delta-clean.png.
+@Image3 — Monitor plate, pixel-identical to @Image2, mask off. File: projects/roscosmos/references/scenes/scene-26/tt26-orbit.png.
 @Image4 — Same plate as @Image3 with a translucent teal mask and a thin contour only on the water edge. Land beyond that edge is unchanged, so the shoreline cannot jump. File: projects/roscosmos/references/scenes/scene-26/tt26-delta-mask.png.
 Priority: each image only for its named role. These are authored horizontal 16:9 concepts, not documentary evidence, real clients or measurements.
 
@@ -5161,7 +5161,7 @@ Optimized for Seedance 2.0 | Landscape civil Earth-observation concept, photorea
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Landscape 16:9 office: a fictional woman with a short black bob, charcoal blazer and cream knit stands beside a wide monitor. The monitor shows a river delta in natural color under a translucent teal mask and contains no text, numbers or logos. She controls the person and the room. File: projects/roscosmos/references/scenes/scene-26/tt26-report.png.
 @Image2 — Landscape 16:9 oblique aerial of the same river delta, closer and clearer, teal water and branching banks edge to edge. No labels and no black atmospheric bar. File: projects/roscosmos/references/scenes/scene-26/tt26-orbit.png.
-@Image3 — Monitor plate, pixel-identical to @Image2, mask off. File: projects/roscosmos/references/scenes/scene-26/tt26-delta-clean.png.
+@Image3 — Monitor plate, pixel-identical to @Image2, mask off. File: projects/roscosmos/references/scenes/scene-26/tt26-orbit.png.
 @Image4 — Same plate as @Image3 with a translucent teal mask and a thin contour only on the water edge. Land beyond that edge is unchanged, so the shoreline cannot jump. File: projects/roscosmos/references/scenes/scene-26/tt26-delta-mask.png.
 @Video1 — final 3 seconds of the actual Part 1 of THIS scene; absolute authority for the stopped finger, camera and mask.
 Priority: each image only for its named role. Actual @Video1 continuity comes before either still. These are authored horizontal 16:9 concepts, not documentary evidence, real clients or measurements.
@@ -5412,7 +5412,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure><a href="projects/roscosmos/references/scenes/scene-28/tt28-clearing.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-28/tt28-clearing.png" alt="Сцена 28, @Image1: Терра Тех: кроны и один просвет" loading="lazy"></a><figcaption>@Image1 — кроны и один просвет. Прежний PNG сохранён.</figcaption></figure>
 <figure><a href="projects/roscosmos/references/scenes/scene-28/tt28-pair.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-28/tt28-pair.png" alt="Сцена 28, @Image2: Терра Тех: две даты слева и справа" loading="lazy"></a><figcaption>@Image2 — две даты слева и справа, не стопкой. Прежний PNG сохранён.</figcaption></figure>
 <figure><a href="projects/roscosmos/references/scenes/scene-28/tt28-wipe-before.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-28/tt28-wipe-before.png" alt="Сцена 28, @Image3: целые кроны, тот же ракурс" loading="lazy"></a><figcaption>@Image3 — целые кроны для шторки. Тот же ракурс, просвет закрыт кронами.</figcaption></figure>
-<figure><a href="projects/roscosmos/references/scenes/scene-28/tt28-wipe-after.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-28/tt28-wipe-after.png" alt="Сцена 28, @Image4: просвет, тот же ракурс" loading="lazy"></a><figcaption>@Image4 — просвет для шторки. Те же пиксели, что у @Image1.</figcaption></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-28/tt28-clearing.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-28/tt28-clearing.png" alt="Сцена 28, @Image4: просвет, тот же ракурс" loading="lazy"></a><figcaption>@Image4 — просвет для шторки. Те же пиксели, что у @Image1.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Две даты. Один лес. Просвет видно без таблицы.»
@@ -5440,7 +5440,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image1 — Landscape 16:9 aerial: forest canopy fills the frame top to bottom, one pale clearing in the middle, no scale bar or text. File: projects/roscosmos/references/scenes/scene-28/tt28-clearing.png.
 @Image2 — Two photographs of the SAME canopy SIDE BY SIDE across the wide 16:9 frame: earlier dense forest on the LEFT, later opening on the RIGHT, only a hairline vertical photo seam. Never top/bottom or a black divider. No dates or captions. File: projects/roscosmos/references/scenes/scene-28/tt28-pair.png.
 @Image3 — Registered intact canopy, same camera as @Image4. The opening is filled with surrounding canopy. File: projects/roscosmos/references/scenes/scene-28/tt28-wipe-before.png.
-@Image4 — Registered просвет, pixel-identical to @Image1. Use with @Image3 for one horizontal curtain wipe. File: projects/roscosmos/references/scenes/scene-28/tt28-wipe-after.png.
+@Image4 — Registered просвет, pixel-identical to @Image1. Use with @Image3 for one horizontal curtain wipe. File: projects/roscosmos/references/scenes/scene-28/tt28-clearing.png.
 Priority: each image only for its named role. These are authored horizontal 16:9 concepts, not documentary evidence, real clients or measurements.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -5497,7 +5497,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image1 — Landscape 16:9 aerial: forest canopy fills the frame top to bottom, one pale clearing in the middle, no scale bar or text. File: projects/roscosmos/references/scenes/scene-28/tt28-clearing.png.
 @Image2 — Two photographs of the SAME canopy SIDE BY SIDE across the wide 16:9 frame: earlier dense forest on the LEFT, later opening on the RIGHT, only a hairline vertical photo seam. Never top/bottom or a black divider. No dates or captions. File: projects/roscosmos/references/scenes/scene-28/tt28-pair.png.
 @Image3 — Registered intact canopy, same camera as @Image4. The opening is filled with surrounding canopy. File: projects/roscosmos/references/scenes/scene-28/tt28-wipe-before.png.
-@Image4 — Registered просвет, pixel-identical to @Image1. Use with @Image3 for one horizontal curtain wipe. File: projects/roscosmos/references/scenes/scene-28/tt28-wipe-after.png.
+@Image4 — Registered просвет, pixel-identical to @Image1. Use with @Image3 for one horizontal curtain wipe. File: projects/roscosmos/references/scenes/scene-28/tt28-clearing.png.
 Priority: each image only for its named role. These are authored horizontal 16:9 concepts, not documentary evidence, real clients or measurements.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -5549,7 +5549,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image1 — Landscape 16:9 aerial: forest canopy fills the frame top to bottom, one pale clearing in the middle, no scale bar or text. File: projects/roscosmos/references/scenes/scene-28/tt28-clearing.png.
 @Image2 — Two photographs of the SAME canopy SIDE BY SIDE across the wide 16:9 frame: earlier dense forest on the LEFT, later opening on the RIGHT, only a hairline vertical photo seam. Never top/bottom or a black divider. No dates or captions. File: projects/roscosmos/references/scenes/scene-28/tt28-pair.png.
 @Image3 — Registered intact canopy, same camera as @Image4. The opening is filled with surrounding canopy. File: projects/roscosmos/references/scenes/scene-28/tt28-wipe-before.png.
-@Image4 — Registered просвет, pixel-identical to @Image1. Use with @Image3 for one horizontal curtain wipe. File: projects/roscosmos/references/scenes/scene-28/tt28-wipe-after.png.
+@Image4 — Registered просвет, pixel-identical to @Image1. Use with @Image3 for one horizontal curtain wipe. File: projects/roscosmos/references/scenes/scene-28/tt28-clearing.png.
 @Video1 — final 3 seconds of Part 1; authority for the stopped fingertip on the side-by-side pair.
 Priority: each image only for its named role. Actual @Video1 continuity comes before either still. These are authored horizontal 16:9 concepts, not documentary evidence, real clients or measurements.
 

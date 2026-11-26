@@ -1,23 +1,12 @@
 name: Archive successful Topview videos to Drive (private backup)
 
-# Independent from editorial approvals and from canonical slow membership.
-# Topview API: read-only. Drive: writes files in the dedicated backup subfolder.
-# No Topview signed URLs, credentials, generated video bytes or user prompts in Git.
+# DISABLED 26.11.2026. Do not copy Topview videos to Google Drive.
+# The index topview-video-archive.json stays. New copies go to Yandex Disk
+# on Mondays, done by Grok Bot. A dispatch (including the old Supabase cron)
+# starts this file and skips the job, so nothing is uploaded and the run does not fail.
+# The steps below are the previous procedure, kept in the file and not executed.
 on:
   workflow_dispatch:
-    inputs:
-      limit:
-        description: "Maximum videos per run (1-10)"
-        required: false
-        default: "2"
-  schedule:
-    - cron: '17,47 * * * *'
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/topview-video-archive.yml'
-      - 'scripts/topview_video_archive.py'
-      - 'tests/test_topview_video_archive.py'
 
 permissions:
   contents: write
@@ -30,6 +19,7 @@ concurrency:
 
 jobs:
   archive:
+    if: false
     runs-on: ubuntu-latest
     env:
       WIF_PROVIDER: ${{ vars.GCP_WORKLOAD_IDENTITY_PROVIDER }}

@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "description": "Completed Relay receipts and old wake-journal test sections, verbatim. History only.",
+  "events": [],
+  "test_sections": {
+    "slack_test": {
+      "test_id": "TOPVIEW_SLACK_TEST_20261024_01",
+      "status": "blocked_membership_validation_mismatch",
+      "workspace_id": "T0CBMHB1CS1",
+      "channel_id": "C0CBQT4H50E",
+      "channel_name": "all-vint",
+      "owner_user_id": "U0CBWH0DXKN",
+      "chatgpt_bot_user_id": "U0CBQTGARUN",
+      "membership_verified_at": "2026-10-23T23:17:57.305Z",
+      "joined_at": "2026-10-23T23:15:05Z",
+      "new_submissions": 0,
+      "scope": "Human-authored marker tests Slack->ChatGPT execution only; robot->Slack delivery not implemented.",
+      "subscription_saved": false,
+      "setup_errors": {
+        "attempts": 2,
+        "variants": [
+          "connector_type:slack",
+          "explicit installed connector_id"
+        ],
+        "message": "I couldn't create an immediate Slack monitor because @ChatGPT isn't in all-vint.",
+        "readback": "Original Gmail prompt unchanged, task enabled, no Slack branch saved.",
+        "conflicting_evidence": "Slack member IDs include U0CBQTGARUN; profile verifies name ChatGPT and Bot:Yes; channel join message timestamp 2026-10-23T23:15:05Z.",
+        "reconnect_url": "https://chatgpt.com/slack-ai-app-install",
+        "cause": "not established"
+      }
+    },
+    "slack_test_ack": null,
+    "v2_new_thread": {
+      "prepared_at": "2026-10-24T00:05:00Z",
+      "prepared_by": "claude:slot-wake",
+      "hypothesis": "Gmail trigger may fire only on the first message of a new thread; all five V1 mails were in one Gmail thread 1a16ad875d0bbd98 (test 1 opened it while the filter still expected a subject without 'Re:').",
+      "robot": "new issue per slot event, label topview-slot-wake, title 'TOPVIEW_SLOT_WAKE_V2 · свободно N · result:<taskID>'; V1 issue18 comment kept",
+      "trigger_filter_needed": "^\\[virudik/ai-film-prompts\\] TOPVIEW_(SLOT_WAKE|WAKE_TEST)_V2 ",
+      "test_id": "wake-v2-newthread-20261024-01",
+      "test_enabled": false,
+      "test_ack": null,
+      "status": "no_run_after_new_thread",
+      "new_submissions": 0,
+      "trigger_filter_requested": "^\\[virudik/ai-film-prompts\\] TOPVIEW_(SLOT_WAKE|WAKE_TEST)_V2 ",
+      "filter_update_accepted_at": "2026-10-25T08:07:02.036119+00:00",
+      "prompt_readback_verified": true,
+      "structured_filter_readback": "not_exposed_by_automation_peek; API accepted exact requested trigger",
+      "issue_number": 35,
+      "issue_author": "github-actions[bot]",
+      "workflow_run_id": 40175492562,
+      "workflow_conclusion": "success",
+      "enable_commit": "02b8f41e7616be5ab05e249e025b52bb9481d97d",
+      "email_message_id": "1a1721be0f229453",
+      "email_thread_id": "1a1721be0f229453",
+      "email_received_at": "2026-10-25T08:09:52Z",
+      "subject_regex_matches": true,
+      "actual_from": "notifications@github.com",
+      "observation_deadline": "2026-10-25T08:24:52Z",
+      "checked_at": "2026-10-25T08:24:53.789Z",
+      "observation_seconds": 901.789,
+      "last_run_recorded": null,
+      "latest_result_recorded": null,
+      "automation_paused": true,
+      "cause": "not_established; API accepted trigger, but independent structured-filter readback and pending-event UI are unavailable"
+    },
+    "relay_test": {
+      "test_id": "wake-relay-20261025-0807",
+      "marker": "TOPVIEW_RELAY_WAKE_TEST_V1",
+      "status": "received_readonly_test_passed",
+      "automation_id": "6adc585e7ac08191bb93825117dc7213",
+      "conversation_id": "6adbf0f6-c40c-83eb-8d3a-8b2199600096",
+      "target_inbox": "chatgpt@cloud-239644772681871360",
+      "sender_mode": "person_via_authenticated_dashboard",
+      "test_ack": {
+        "test_id": "wake-relay-20261025-0807",
+        "event_id": "evt_9cd2fcb751a05ff6afbc4b740a9fb8a2",
+        "message_id": "240024801290301440",
+        "actual_sender": "vitalikrudik",
+        "target_inbox": "chatgpt@cloud-239644772681871360",
+        "run_id": null,
+        "run_id_unavailable_reason": "Automation runtime supplied the webhook event and run start time but no run ID.",
+        "run_started_at": "2026-10-25T08:13:19Z",
+        "verified_at": "2026-10-25T08:14:26.647Z",
+        "lock_outcome": "acquired_via_contents_sha_CAS; release follows in final commit",
+        "new_submissions": 0,
+        "source": "Agent Relay webhook",
+        "runner": "chatgpt_event_trigger",
+        "reply_message_id": "240025084864233472",
+        "reply_delivery": "queued_unconfirmed",
+        "scope": "Verified Relay message from vitalikrudik triggered this chat; not proof of external GitHub robot delivery."
+      },
+      "new_submissions": 0,
+      "prepared_at": "2026-10-25T08:08:58.589Z",
+      "prompt_readback_verified": true,
+      "scope": "existing subscribed chat, not this interactive chat",
+      "success_criterion": "actual event run plus genuine event-written ACK; enqueue/manual read/HTTP200 alone insufficient",
+      "actual_sender": "vitalikrudik",
+      "event_id": "evt_9cd2fcb751a05ff6afbc4b740a9fb8a2",
+      "message_id": "240024801290301440",
+      "received_at": "2026-10-25T08:12:52Z",
+      "observation_deadline": "2026-10-25T08:27:52Z",
+      "manual_read_only_evidence": true,
+      "send_blockers_resolved_by_dashboard": [
+        "OAuth connector permits only chatgpt sender, not as_person",
+        "OAuth self-DM rejected"
+      ],
+      "automatic_handler_run_observed": true,
+      "verified_at": "2026-10-25T08:27:12.062Z",
+      "observed_run": {
+        "id": "6ccb7614-2678-832b-b8f1-d3e7c781d14d",
+        "scheduled_for": "2026-10-25T08:13:17.050366Z",
+        "started_at": "2026-10-25T08:13:19.108603Z",
+        "completed_at": "2026-10-25T08:14:46.857555Z",
+        "status": "completed",
+        "source": "automations.peek, independently verified by interactive comparison run"
+      },
+      "message_to_handler_start_seconds": 27.108603,
+      "reply_visibly_verified": true,
+      "duplicate_test": {
+        "event_id": "evt_53aeb959bc096e039ffb15951746dfe5",
+        "message_id": "240026434417713152",
+        "received_at": "2026-10-25T08:19:21Z",
+        "run_id": "70be9a65-d8e4-8327-92a2-d85e24f8f960",
+        "run_status": "no_update",
+        "started_at": "2026-10-25T08:19:46.054240Z",
+        "completed_at": "2026-10-25T08:20:15.570352Z",
+        "ack_unchanged": true,
+        "total_test_messages": 2,
+        "total_replies": 1,
+        "new_submissions": 0,
+        "status": "passed_observed"
+      },
+      "robot_to_relay_verified": false
+    },
+    "comparison": {
+      "requested_at": "2026-10-25T08:08:58.589Z",
+      "owner_quote": "Gmail V2 и Agent Relay протестируй оба и выбери более удобный из них оставив часовую",
+      "status": "completed_transport_comparison",
+      "hourly_automation_id": "6acae6ab433481919e88665c520b8ef2",
+      "hourly_enabled_verified": true,
+      "hourly_modified": false,
+      "new_submissions": 0,
+      "completed_at": "2026-10-25T08:27:12.062Z",
+      "selected": "Agent Relay",
+      "rationale": "Agent Relay robot-origin delivery and genuine event ACK verified, duplicate suppressed, pause/resume recovered. Gmail V2 remains paused. Hourly remains unchanged.",
+      "gmail_event_task_enabled": false,
+      "relay_event_task_enabled": true,
+      "production_ready": false,
+      "remaining": "Final mutual exclusion behavior and after-lock ACK observed; only precise independent scheduled-run completion receipts remain to certify production readiness.",
+      "hourly_schedule": "HH:55 Europe/Moscow",
+      "new_automations": 0,
+      "credits_spent": 0
+    },
+    "previous_tests": [
+      {
+        "test_id": "wake-20261023-1792793840600",
+        "verification": {
+          "checked_by": "interactive_chatgpt",
+          "checked_at": "2026-10-23T22:20:52.344Z",
+          "offline_tests_passed": 30,
+          "integration_run_id": 40032704173,
+          "test_workflow_run_id": 40032704119,
+          "comment_id": 6375856180,
+          "comment_created_at": "2026-10-23T22:18:29Z",
+          "email_message_id": "1a16ad875d0bbd98",
+          "email_received_at": "2026-10-23T22:18:52Z",
+          "email_matches_test_and_comment": true,
+          "event_run_confirmed": false,
+          "new_submissions": 0
+        }
+      },
+      {
+        "test_id": "wake-reply-20261023-1792794144853",
+        "verification": {
+          "comment_id": 6375916336,
+          "comment_created_at": "2026-10-23T22:22:52Z",
+          "email_message_id": "1a16adc730d48eda",
+          "email_received_at": "2026-10-23T22:23:14Z",
+          "event_run_confirmed": false,
+          "new_submissions": 0
+        }
+      },
+      {
+        "test_id": "wake-source-20261023-1792794282988",
+        "verification": {
+          "checked_by": "interactive_chatgpt",
+          "checked_at": "2026-10-23T22:27:51.191Z",
+          "offline_tests_passed": 30,
+          "integration_run_id": 40032704173,
+          "canon_health_run_id": 40033440831,
+          "test_workflow_run_id": 40033440836,
+          "comment_id": 6375949642,
+          "comment_created_at": "2026-10-23T22:25:14Z",
+          "email_message_id": "1a16ade9dad3d27a",
+          "email_received_at": "2026-10-23T22:25:36Z",
+          "email_matches_test_and_comment": true,
+          "event_run_confirmed": false,
+          "event_last_run": null,
+          "event_latest_result": null,
+          "new_submissions": 0
+        }
+      },
+      {
+        "test_id": "wake-subject-20261023-1792794728492",
+        "verification": {
+          "comment_id": 6376047593,
+          "comment_created_at": "2026-10-23T22:32:34Z",
+          "email_message_id": "1a16ae55510b8f29",
+          "email_received_at": "2026-10-23T22:32:56Z",
+          "event_run_confirmed": false,
+          "new_submissions": 0
+        }
+      }
+    ],
+    "robot_relay_bridge": {
+      "prepared_at": "2026-10-25T08:55:00Z",
+      "prepared_by": "claude:slot-wake",
+      "code": "scripts/relay_wake.py; robot_telemetry GhNotifier.wake sends one DM after the V2 issue; topview-wake-test.yml channel=relay",
+      "config": "ops/relay-wake.json (api_base https://cast.agentrelay.com/v1, address chatgpt@cloud-239644772681871360)",
+      "credential": "GitHub secret AGENT_RELAY_TOKEN = agent token of a dedicated robot identity in the owner's Agent Relay workspace (set by the owner; never in chat or canon)",
+      "status": "transport_verified_final_mutex_test_scheduled",
+      "test_id": "wake-relay-robot-20261025-01",
+      "test_ack": null,
+      "open_checks": [
+        "Controlled common-lock test with actual hourly and event runs; genuine after-lock ACK; production gate still false."
+      ],
+      "new_submissions": 0,
+      "test_ack_reference": "robot_relay.test_acks"
+    }
+  }
+}

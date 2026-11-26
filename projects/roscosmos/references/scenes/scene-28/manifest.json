@@ -53,7 +53,7 @@
       "technical_qc": "Горизонталь 16:9, 1672×941. Производная пластина из уже опубликованного кадра, без новой генерации людей. not_approved. Тот же ракурс, что tt28-wipe-after.png. Просвет закрыт кронами вокруг."
     },
     {
-      "path": "projects/roscosmos/references/scenes/scene-28/tt28-wipe-after.png",
+      "path": "projects/roscosmos/references/scenes/scene-28/tt28-clearing.png",
       "caption": "Терра Тех: просвет, тот же ракурс",
       "prompt_file": "projects/roscosmos/references/scenes/scene-28/tt28-wipe-after.image-prompt.txt",
       "created_by": "derived from existing still, no new generation",

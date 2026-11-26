@@ -16,6 +16,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  issues: write
 
 concurrency:
   group: service-maintenance
@@ -117,6 +118,7 @@ jobs:
           set -e
           if [ "$code" = "2" ]; then
             echo "nothing old and dated to propose"
+            python3 scripts/propose_handoff_trim.py . --publish-stuck-issue
             exit 0
           fi
           if [ "$code" != "0" ]; then exit "$code"; fi
@@ -130,6 +132,10 @@ jobs:
           python3 scripts/propose_handoff_trim.py --body-json /tmp/handoff-proposal.json > /tmp/handoff-pr-body.md
           url=$(gh pr create --base main --head robot/handoff-trim --title "Хендоф: предложить перенос старых блоков" --body-file /tmp/handoff-pr-body.md)
           echo "opened $url"
+          open_stuck=$(gh api "repos/${GITHUB_REPOSITORY}/issues?state=open&labels=handoff-trim-stuck&per_page=5" --jq '.[0].number // empty' || true)
+          if [ -n "$open_stuck" ]; then
+            gh api -X PATCH "repos/${GITHUB_REPOSITORY}/issues/${open_stuck}" -f state=closed -f body="Робот всё же нашёл, что вынести, и открыл PR ${url}." >/dev/null
+          fi
           python3 - << PY
           import sys
           sys.path.insert(0, "scripts")

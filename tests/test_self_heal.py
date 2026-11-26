@@ -120,6 +120,10 @@ class SelfHeal(unittest.TestCase):
         f["lock"] = {"state": "held", "holder": "x", "expires_at": ago(60)}
         kinds = sorted(a["kind"] for a in sh.plan(f, {}, {"tasks": []}, NOW)[0])
         self.assertEqual(kinds, ["pages_build", "release_lock"])
+        self.assertEqual(sh.pages_rebuild_command("virudik/ai-film-prompts", "legacy")[-1],
+                         "repos/virudik/ai-film-prompts/pages/builds")
+        self.assertEqual(sh.pages_rebuild_command("virudik/ai-film-prompts", "workflow")[3],
+                         "Publish GitHub Pages")
         f["pages_build_status"] = "building"
         f["lock"]["expires_at"] = ago(5)
         self.assertEqual(sh.detect(f, NOW), {})

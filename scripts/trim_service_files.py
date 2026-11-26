@@ -18,7 +18,14 @@ short. Nothing is deleted and nothing live is touched:
 * reports/topview-event-wake.json (root only) — keeps at most 100 completed receipts from the last
   30 days, plus every unresolved/blocked/unknown receipt. Only explicitly non-retryable, known terminal
   outcomes with valid past checked_at are archived verbatim. archived_event_ids preserves exact IDs
-  for deduplication and robot ACK checks; diagnostic ACKs and other report fields are untouched.
+  for deduplication and robot ACK checks; diagnostic ACKs and acceptance evidence stay.
+  Old test sections named in WAKE_TEST_SECTIONS (slack_test, relay_test, v2_new_thread, comparison
+  and the same kind of finished test block) move verbatim into the same archive. Anything not on
+  that list stays, including events, robot_relay, test_acks and primary_backup_acceptance.
+* Owner instruction / policy / hold records on the launch queue move only when the record itself is
+  explicitly superseded, cancelled, replaced, or already marked history_only with archived_to.
+  Live policies read by queue_readiness stay. Ambiguous records stay. Items, budgets and receipts
+  are not decided by this rule.
 
 The same is done for every project in projects/projects.json under its own folder.
 Run: python3 scripts/trim_service_files.py .            (dry run, prints what would move)
@@ -60,6 +67,25 @@ TERMINAL_ITEM = re.compile(r"^(superseded|cancelled)", re.I)
 DONE_ITEM = re.compile(r"^(submitted|completed)$", re.I)
 STUB_KEYS = ("id", "scene_id", "prompt_id", "canonical_block_label", "state", "task_id", "submitted_at",
              "completed_at", "canonical_prompt_sha256", "normalized_prompt_sha256")
+OWNER_RECORD_RE = re.compile(r"^owner_(instruction|policy|hold)_")
+# queue_readiness.py reads these as the live launch order. Never archive them from a nested word.
+PROTECTED_OWNER_KEYS = frozenset({
+    "owner_policy_20261108_t369u",
+    "owner_policy_20261109_t422u",
+    "owner_policy_20261113_t601u",
+})
+LIVE_OWNER_EFFECTS = frozenset({
+    "music_requires_owner_consent",
+    "tatooine_chain_first",
+    "explicit_front_order",
+})
+TERMINAL_EFFECT_RE = re.compile(r"^(superseded|cancelled|canceled|replaced|obsolete)\b", re.I)
+TERMINAL_OWNER_STATUS = frozenset({"superseded", "cancelled", "canceled", "replaced", "obsolete"})
+# Finished wake-journal test blocks. Not receipts, not the live robot_relay config.
+WAKE_TEST_SECTIONS = (
+    "slack_test", "slack_test_ack", "v2_new_thread", "relay_test", "comparison",
+    "previous_tests", "robot_relay_bridge",
+)
 
 
 def load_json(path):
@@ -293,6 +319,118 @@ def dump_relay_json(path, data):
             temp.unlink(missing_ok=True)
 
 
+def classify_owner_record(key, value):
+    """'move', 'keep', 'ambiguous', or None when the key is not an owner instruction/policy/hold.
+
+    A nested word such as "superseded" inside a quote is not a mark. Only the record's own
+    effect/status/superseded_by/replaced_by/cancelled_by, or an explicit history_only+archived_to stub.
+    """
+    if not isinstance(key, str) or not OWNER_RECORD_RE.match(key):
+        return None
+    if key in PROTECTED_OWNER_KEYS:
+        return "keep"
+    if not isinstance(value, dict):
+        return "ambiguous"
+    effect = value.get("effect")
+    if isinstance(effect, str) and effect in LIVE_OWNER_EFFECTS:
+        return "keep"
+    if isinstance(effect, str) and TERMINAL_EFFECT_RE.match(effect.strip()):
+        return "move"
+    for field in ("state", "status"):
+        raw = value.get(field)
+        if isinstance(raw, str) and raw.strip().lower() in TERMINAL_OWNER_STATUS:
+            return "move"
+    for field in ("superseded_by", "replaced_by", "cancelled_by"):
+        raw = value.get(field)
+        if isinstance(raw, str) and raw.strip():
+            return "move"
+    if value.get("history_only") is True and isinstance(value.get("archived_to"), str) and value["archived_to"].strip():
+        return "move"
+    return "ambiguous"
+
+
+def _store_verbatim(bucket, versions, key, value):
+    """Keep the previous body if a different one was already archived under the same key."""
+    if key in bucket and bucket[key] != value:
+        previous = {"key": key, "value": bucket[key]}
+        if previous not in versions:
+            versions.append(previous)
+    bucket[key] = value
+
+
+def trim_owner_records(queue, archive):
+    """Move explicitly retired owner records. Returns a result dict, or None when nothing moves.
+
+    `ambiguous` is always the keys left in place for the owner to judge. Items are not touched.
+    """
+    if not isinstance(queue, dict):
+        raise ValueError("Invalid launch queue; refusing to archive owner records")
+    moving, ambiguous = {}, []
+    for key, value in queue.items():
+        verdict = classify_owner_record(key, value)
+        if verdict == "move":
+            moving[key] = value
+        elif verdict == "ambiguous":
+            ambiguous.append(key)
+    if not moving:
+        return {"queue": queue, "archive": archive, "moved": [], "ambiguous": sorted(ambiguous)}
+    live = dict(queue)
+    for key in moving:
+        del live[key]
+    archive = dict(archive or {"schema_version": 1,
+        "description": "Finished launch-queue items and retired owner records, verbatim. History only.",
+        "items": []})
+    records = dict(archive.get("owner_records") or {})
+    versions = list(archive.get("owner_record_versions") or [])
+    for key, value in moving.items():
+        _store_verbatim(records, versions, key, value)
+    archive["owner_records"] = records
+    if versions:
+        archive["owner_record_versions"] = versions
+    return {"queue": live, "archive": archive, "moved": sorted(moving), "ambiguous": sorted(ambiguous)}
+
+
+def trim_wake_test_sections(data, archive, archive_rel=RELAY_ARCHIVE):
+    """Move the named old test sections. Receipts and unnamed fields stay. None if nothing moves."""
+    if not isinstance(data, dict):
+        raise ValueError("Invalid wake journal; refusing to archive test sections")
+    moving = {key: data[key] for key in WAKE_TEST_SECTIONS if key in data}
+    if not moving:
+        return None
+    live = dict(data)
+    for key in moving:
+        del live[key]
+    archive = dict(archive or {"schema_version": 1,
+        "description": "Completed Relay receipts and old wake-journal test sections, verbatim. History only.",
+        "events": []})
+    if not isinstance(archive.get("events", []), list):
+        raise ValueError("Invalid wake archive; refusing to overwrite it")
+    sections = dict(archive.get("test_sections") or {})
+    versions = list(archive.get("test_section_versions") or [])
+    for key, value in moving.items():
+        _store_verbatim(sections, versions, key, value)
+    archive["test_sections"] = sections
+    if versions:
+        archive["test_section_versions"] = versions
+    live["test_sections_archive"] = archive_rel
+    return live, archive, sorted(moving)
+
+
+def run_wake_tests(root, write):
+    path = Path(root) / RELAY_REPORT
+    if not path.is_file():
+        return []
+    data = load_json(path)
+    arch = Path(root) / RELAY_ARCHIVE
+    res = trim_wake_test_sections(data, load_json(arch) if arch.is_file() else None)
+    if not res:
+        return []
+    if write:
+        dump_relay_json(arch, res[1])
+        dump_relay_json(path, res[0])
+    return ["seregius: тестовые разделы журнала → архив {}".format(", ".join(res[2]))]
+
+
 # ----------------------------------------------------------------------------- driver
 def bases(root):
     yield "", root
@@ -310,6 +448,7 @@ def run(root, write=False, now=None, relay_only=False, root_only=False, skip_hel
     report = run_relay(root, write, now)
     if relay_only:
         return report
+    report.extend(run_wake_tests(root, write))
     for pid, base in bases(root):
         if root_only and pid:
             continue
@@ -355,13 +494,23 @@ def run(root, write=False, now=None, relay_only=False, root_only=False, skip_hel
             active_ids.update(t.get("task_id") for t in tv.get("active_tasks", []))
             terminal_ids = {t.get("task_id") for t in tm.get("processed_tasks", [])
                             if t.get("final_status") in ("success", "fail", "failed", "cancelled", "canceled")}
-            res = trim_queue(load_json(qp), load_json(arch) if arch.is_file() else None, now, prefix + QUEUE_ARCHIVE,
+            queue = load_json(qp)
+            stored = load_json(arch) if arch.is_file() else None
+            res = trim_queue(queue, stored, now, prefix + QUEUE_ARCHIVE,
                              active_task_ids=active_ids, terminal_task_ids=terminal_ids)
             if res:
+                queue, stored = res[0], res[1]
                 report.append("{}: очередь → архив {} пунктов".format(name, res[2]))
-                if write:
-                    dump_json(arch, res[1])
-                    dump_json(qp, res[0])
+            owner = trim_owner_records(queue, stored)
+            if owner["moved"]:
+                queue, stored = owner["queue"], owner["archive"]
+                report.append("{}: указания владельца → архив {}".format(name, ", ".join(owner["moved"])))
+            if owner["ambiguous"]:
+                report.append("{}: указания без явной отмены, оставлены: {}".format(
+                    name, ", ".join(owner["ambiguous"])))
+            if write and (res or owner["moved"]):
+                dump_json(arch, stored if stored is not None else owner["archive"])
+                dump_json(qp, queue)
     return report
 
 

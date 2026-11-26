@@ -12347,5 +12347,120 @@
         "S66-STITCH-NB-IMAGE-3"
       ]
     }
+  },
+  "owner_records": {
+    "owner_hold_20261108_t364u": {
+      "authorization_id": "owner-20261108-t364u",
+      "at": "2026-11-08T17:16:00Z",
+      "source": "t364u",
+      "quote": "Музыкально-Танцевальные пока не запускаем.",
+      "effect": "superseded_by_t365u",
+      "scenes": [
+        28,
+        49,
+        50,
+        51
+      ],
+      "includes_linked_parts": true,
+      "keeps_prepared": true,
+      "does_not_cancel_states": [
+        "submitted",
+        "submitting",
+        "submission_unknown"
+      ],
+      "until": "separate_owner_decision",
+      "superseded_at": "2026-11-08T17:24:00Z",
+      "superseded_by": "owner-20261108-t365u"
+    },
+    "owner_instruction_20261016": {
+      "archived_to": "archive/ops/topview-launch-queue-archive.json",
+      "archive_key": "metadata_history.owner_instruction_20261016",
+      "history_only": true
+    },
+    "owner_instruction_20261017": {
+      "archived_to": "archive/ops/topview-launch-queue-archive.json",
+      "archive_key": "metadata_history.owner_instruction_20261017",
+      "history_only": true
+    },
+    "owner_instruction_20261017_2112": {
+      "archived_to": "archive/ops/topview-launch-queue-archive.json",
+      "archive_key": "metadata_history.owner_instruction_20261017_2112",
+      "history_only": true
+    },
+    "owner_instruction_20261017_2145": {
+      "archived_to": "archive/ops/topview-launch-queue-archive.json",
+      "archive_key": "metadata_history.owner_instruction_20261017_2145",
+      "history_only": true
+    },
+    "owner_instruction_20261017_2233": {
+      "archived_to": "archive/ops/topview-launch-queue-archive.json",
+      "archive_key": "metadata_history.owner_instruction_20261017_2233",
+      "history_only": true
+    },
+    "owner_instruction_20261017_2253": {
+      "archived_to": "archive/ops/topview-launch-queue-archive.json",
+      "archive_key": "metadata_history.owner_instruction_20261017_2253",
+      "history_only": true
+    },
+    "owner_instruction_20261017_2303": {
+      "archived_to": "archive/ops/topview-launch-queue-archive.json",
+      "archive_key": "metadata_history.owner_instruction_20261017_2303",
+      "history_only": true
+    },
+    "owner_instruction_20261017_2358": {
+      "archived_to": "archive/ops/topview-launch-queue-archive.json",
+      "archive_key": "metadata_history.owner_instruction_20261017_2358",
+      "history_only": true
+    },
+    "owner_instruction_20261018_0017": {
+      "archived_to": "archive/ops/topview-launch-queue-archive.json",
+      "archive_key": "metadata_history.owner_instruction_20261018_0017",
+      "history_only": true
+    },
+    "owner_instruction_20261018_0030": {
+      "archived_to": "archive/ops/topview-launch-queue-archive.json",
+      "archive_key": "metadata_history.owner_instruction_20261018_0030",
+      "history_only": true
+    },
+    "owner_instruction_20261018_0106": {
+      "archived_to": "archive/ops/topview-launch-queue-archive.json",
+      "archive_key": "metadata_history.owner_instruction_20261018_0106",
+      "history_only": true
+    },
+    "owner_instruction_20261018_0309": {
+      "archived_to": "archive/ops/topview-launch-queue-archive.json",
+      "archive_key": "metadata_history.owner_instruction_20261018_0309",
+      "history_only": true
+    },
+    "owner_instruction_20261019_1315": {
+      "archived_to": "archive/ops/topview-launch-queue-archive.json",
+      "archive_key": "metadata_history.owner_instruction_20261019_1315",
+      "history_only": true
+    },
+    "owner_instruction_20261020_0055": {
+      "archived_to": "archive/ops/topview-launch-queue-archive.json",
+      "archive_key": "metadata_history.owner_instruction_20261020_0055",
+      "history_only": true
+    },
+    "owner_instruction_20261020_0229": {
+      "archived_to": "archive/ops/topview-launch-queue-archive.json",
+      "archive_key": "metadata_history.owner_instruction_20261020_0229",
+      "history_only": true
+    },
+    "owner_instruction_20261020_1937": {
+      "archived_to": "archive/ops/topview-launch-queue-archive.json",
+      "archive_key": "metadata_history.owner_instruction_20261020_1937",
+      "history_only": true
+    },
+    "owner_instruction_20261028_stitch_batch": {
+      "recorded_at": "2026-10-28T16:32:18+00:00",
+      "items": [
+        "S66-STITCH-NB-IMAGE-1",
+        "S66-STITCH-NB-IMAGE-2",
+        "S66-STITCH-NB-IMAGE-3"
+      ],
+      "policy": "Optional visual trial; keep first in queue. After one video slot becomes free, submit the three existing image prompts consecutively, one image per prompt, without waiting for results. Owner reports three images fit one video slot and take about 10 min; verify live Unlimited image capacity and 0-credit UI, do not hardcode runtime or equate one image to one video slot. Check taskID/capacity after each click; stop on UI limit, no paid fallback or repeat. First item has one newly authorized attempt after the documented no-task rejection. Videos may use the existing general frame without waiting for these images or their approval.",
+      "superseded_by": "owner_instruction_20261029_resume_without_stitch"
+    }
   }
 }

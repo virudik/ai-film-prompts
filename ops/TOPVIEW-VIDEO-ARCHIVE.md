@@ -1,5 +1,7 @@
 # Topview completed video archive — private Drive backup
 
+Статус: показ с Яндекс Диска действует; копирование на Google Drive выключено 26.11.2026. Проверено: 26.11.2026.
+
 ## Показ роликов с Яндекс Диска (все проекты, решение владельца 26.11.2026)
 
 - Сайт играет готовые ролики с Яндекс Диска. Google Drive и поток Supabase `drive-video` остаются запасным вариантом.
@@ -9,11 +11,20 @@
 - Яндекс отвечает 403, если в запросе виден чужой Referer. Поэтому в `videos.html` и `film.html` обязательна строка `<meta name="referrer" content="no-referrer">`, её проверяют `scripts/validate_site.py` и `tests/test_yandex_video_links.py`.
 - Новые ролики добавляет понедельничная проверка: она докачивает файлы на Яндекс, затем выполняет `python3 scripts/yandex_video_links.py publish --project <id> --remote "ya-api:<папка>" --write`. Скрипт сверяет md5 и sha256 и публикует только совпавший файл. Ролики других проектов добавляются командой `python3 scripts/yandex_video_links.py import <manifest.json> --write`, записи в манифесте: `project`, `scene`, `yandex_public_key`, `yandex_path`, `task_id`.
 - 26.11.2026 опубликованы и проверены по md5+sha256+размеру все 123 ролика «Серёгиуса» из `Нейровидео/Серёгиус/. Topview/<дата>`. 82 найдены по номеру задачи в имени файла, 41 по точному размеру (имена `*_video_edit_*`).
+- Карточка сцены открывает `videos.html` и для записи только с `yandex_public_key`. Ролики, которых нет в телеметрии Topview, подписаны «📼 Ролик N»; копия, привязанная к успешной задаче, — «💾 MP4».
 
+## Хранение (t935u, тот же день)
 
-Статус: действует. Проверено: 15.11.2026.
+Одна схема для Серёгиуса, Кот-детектива, Котмонавтов, Роскосмоса, пародий и любого нового `projects/<id>/`. Понедельничная сверка — `ops/HANDOFF-CLEANUP.md`, п. 11.
 
-**Status 13.10.2026: OPERATIONAL.** End-to-end uploads with Drive checksum read-back verified (Scene 30, 78,644,925 B, and Scene 27, 78,611,053 B; Scene 25 added later by the schedule). GitHub Actions runs 38381306579 and 38381835331. Output link / scene ID / task ID are recorded in `topview-video-archive.json`. No Topview generation launched.
+- **Яндекс Диск**, исходное качество, без пережатия; перед записью сверить md5 и `ffprobe`. Имя: `S28_Seedance-2.0_<номер задачи>.mp4`.
+- Ролики Topview: `Нейровидео/<Проект>/. Topview/<YYYY-MM-DD>/`.
+- Ролики, сделанные Grok: `Нейровидео/<Проект>/.Грок/<YYYY-MM-DD>/`.
+- **Box** — основное место только для Серёгиуса и только через браузер. На Google Drive ролики не класть: `.github/workflows/topview-video-archive.yml` отключён, индекс `topview-video-archive.json` не удалять. MP4 в публичный GitHub не класть.
+- **Сайт** `промты.рудик.рф` показывает видео сцен с Яндекс Диска. Ссылка — на отдельный файл (`https://disk.yandex.ru/i/<ключ>`), не на папку. Запись архива: `project`, `scene`, `yandex_public_key`, `yandex_path`, `md5`. Страница роликов одна для любого проекта. У страницы, которая играет ролик, обязателен `<meta name="referrer" content="no-referrer">`. Пока у старой записи есть только `file_id` Drive и нет яндексовского ключа, страница играет эту прежнюю копию.
+- **Жёлтая плашка** на сайте — только реальный сбой, не обычная задержка публикации (PR 1036, `status-freshness.js`).
+
+**Status 13.10.2026: был OPERATIONAL, с 26.11.2026 остановлен.** End-to-end uploads with Drive checksum read-back verified (Scene 30, 78,644,925 B, and Scene 27, 78,611,053 B; Scene 25 added later by the schedule). GitHub Actions runs 38381306579 and 38381835331. Output link / scene ID / task ID are recorded in `topview-video-archive.json`. No Topview generation launched.
 
 Still open (issue #16): two versions of one scene not yet shown; Drive links on the site are live ("💾 Drive N" in the slow table, "💾 MP4 N" in scene cards). Since 20.10.2026 they open `videos.html` (all copies by scene, button «📼 Ролики по сценам»; old `video.html` links redirect). It plays through the Supabase edge function `drive-video` (source `ops/supabase/drive-video/index.ts`, verify_jwt off, serves only file ids listed in this archive, passes Range through), because drive.usercontent answers 403 to any browser request with `Sec-Fetch-Site: cross-site`. Supabase free-plan egress is limited, so heavy rewatching counts against it. Why the Drive viewer fails: the Drive viewer cannot play these files because each MP4 is a new revision of a text seed file and Drive never builds a video preview for it (all 34: `hasThumbnail=false`, no `videoMediaMetadata`; bytes and md5 are fine, anonymous range request returns 206 video/mp4). **Upload slots are finite:** the service account cannot own new MP4 bytes (403 `storageQuotaExceeded`), so each video is written into one pre-created owner-owned placeholder listed in `topview-archive-seeds.json` (100 pool slots registered 13.10 13:21 MSK; 41 successful tasks were pending when documented). At 10 or fewer free slots the workflow opens the issue labelled `topview-archive-pool` (and closes it when more than 10 are free again); at 0 the run fails with "No preauthorized owner-owned Drive upload slots remain". Replenish only through the owner's Drive (folder `AI Film Generated Videos/Available Upload Slots`) and register the new IDs in the seeds file; do not weaken IAM or add keys. Full description: `NEW-CHAT-HANDOFF.md`, block "АВТОАРХИВ ГОТОВЫХ MP4 В DRIVE".
 

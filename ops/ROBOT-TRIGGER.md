@@ -11,7 +11,7 @@
 - Supabase (проект `ai-film-comments`, `vzohfatqzyioydtgjiyd`): расширения `pg_cron` и `pg_net`, функция `public.dispatch_github_workflow(файл)`, три задачи:
   - `dispatch-topview-robot` — каждые 10 минут (:00) → `topview-robot.yml` (сканер Topview);
   - `dispatch-sync-from-drive` — :02/:12/… → `sync-from-drive.yml` (кнопки владельца, статус, оповещения);
-  - `dispatch-topview-video-archive` — :05/:15/… → `topview-video-archive.yml` (копии MP4 в Drive).
+  - `dispatch-topview-video-archive` — :05/:15/… → `topview-video-archive.yml`. С 26.11.2026 workflow ничего не копирует в Google Drive (задание пропускается). Живой cron в Supabase стоит снять: `select cron.unschedule('dispatch-topview-video-archive');`. Новые копии — `ops/TOPVIEW-VIDEO-ARCHIVE.md`. Индекс `topview-video-archive.json` не удалять.
   - `dispatch-self-heal` — :19/:49 → `self-heal.yml` (самопроверка автоматики; добавлено 22.10.2026 по «да» владельца, проверено: ответ GitHub 204).
 - Токен GitHub (fine-grained, один репозиторий, права только Actions: Read and write) лежит в Supabase Vault под именем `github_dispatch_token`. В репозитории, чате и логах его нет. Срок действия выбирал владелец при создании; продлевать до окончания.
 - SQL без секретов: `ops/supabase/2026-10-13_robot_dispatch_cron.sql`.

@@ -37,7 +37,7 @@
       "technical_qc": "Горизонталь 16:9, 1672×941, без чёрных полос. Восстановленный кадр ChatGPT заменил прежний орбитальный снимок; предыдущий файл сохранён как tt26-orbit-old.png (sha256 b883e61e9a4de45264cc14da33bb5ccfdd11ddb72fe17eaf97645809ee0d4846). Офисный кадр с людьми не менялся. not_approved."
     },
     {
-      "path": "projects/roscosmos/references/scenes/scene-26/tt26-delta-clean.png",
+      "path": "projects/roscosmos/references/scenes/scene-26/tt26-orbit.png",
       "caption": "Терра Тех: чистая дельта для монитора",
       "prompt_file": "projects/roscosmos/references/scenes/scene-26/tt26-delta-clean.image-prompt.txt",
       "created_by": "derived from existing still, no new generation",

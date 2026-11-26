@@ -1,0 +1,5 @@
+{
+  "source": "legacy",
+  "artifact": "scripts/pages_publish.py",
+  "note": "Сейчас Pages публикует корень main (build_type legacy), поэтому в сайт попадает весь репозиторий. После вливания переключить источник: gh api -X PUT repos/virudik/ai-film-prompts/pages -f build_type=workflow и поставить здесь source=workflow. До этого canon-health считает размер всего дерева."
+}
