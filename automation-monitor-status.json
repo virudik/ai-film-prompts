@@ -497,7 +497,7 @@
       "S89F-WAN30",
       "S89F-WAN30-R2"
     ],
-    "last_event_id": "result:d6fb29ca214e42ec9b8c950657b26832",
+    "last_event_id": "slots:5caa3638:101",
     "receipt_present": false,
     "handler_outcome": null,
     "execution_stage": null,
@@ -509,6 +509,6 @@
       "45fb0ba125114ba48b48dd8a129f9015"
     ],
     "escalation_attempted_episode": "5caa3638",
-    "checked_at": "2026-11-26T13:21:04Z"
+    "checked_at": "2026-11-26T13:30:29Z"
   }
 }
