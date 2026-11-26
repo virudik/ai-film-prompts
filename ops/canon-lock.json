@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:919556f1-240a-41f1-8cc5-0b9d706cec10",
-  "task": "Стахий: вливание проверенного пакета сцены 1 и обновление галереи",
-  "acquired_at": "2026-11-26T22:14:34.855Z",
-  "expires_at": null,
-  "released_at": "2026-11-26T22:15:36.933Z",
+  "state": "held",
+  "holder": "grok:f873ee5c-b58b-45b6-bfe4-5d04e4459396",
+  "task": "Стахий: 18 клипов READY, Wan 3.0 очередь, версии видео, битые фото (owner t980u–t984u)",
+  "acquired_at": "2026-11-26T22:43:27Z",
+  "expires_at": "2026-11-26T23:43:27Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
