@@ -2829,7 +2829,7 @@
       "canonical_prompt_sha256": "16c7e16535f36792c8ceaf4687f735e8d5726fc07412b1e3aa421968f67c765a",
       "normalized_prompt_sha256": "2399d902f98f3365fbe3a4e6097b1d4226376b98d3516aff49b6466851513dae",
       "priority": 0.316,
-      "state": "submitting",
+      "state": "submitted",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -2838,7 +2838,7 @@
       "quantity": 1,
       "mode": "omni_reference",
       "max_new_submissions": 1,
-      "task_id": null,
+      "task_id": "be8cd77be15147d68e9ae4e1b8140472",
       "claim": {
         "claim_id": "86122844-dd6c-47af-ad50-6d3c9617f6c7",
         "execution_instance_id": "1cbc555c-9d69-492a-8522-3875106b51cf",
@@ -2997,7 +2997,16 @@
           "scene 51"
         ]
       },
-      "max_credits": 0
+      "max_credits": 0,
+      "submitted_at": "2026-11-26T21:10:29Z",
+      "topview_status": "init",
+      "create_click_count": 1,
+      "max_new_submissions_consumed": 1,
+      "creditsCost": 0,
+      "receipt": "reports/topview-queue-2026-10-16/S28-A13-20261030-20261126T211029Z.json",
+      "replay_forbidden": true,
+      "no_second_create": true,
+      "normalized_prompt_match": true
     },
     {
       "id": "S89D-WAN30",

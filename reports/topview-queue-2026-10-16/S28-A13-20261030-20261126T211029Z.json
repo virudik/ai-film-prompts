@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "item_id": "S28-A13-20261030",
+  "outcome": "submitted",
+  "task_id": "be8cd77be15147d68e9ae4e1b8140472",
+  "submitted_at": "2026-11-26T21:10:29Z",
+  "create_clicked_at_approx": "2026-11-26T21:10:26Z",
+  "checked_at": "2026-11-26T21:13:27Z",
+  "create_click_count": 1,
+  "credits_spent": 0,
+  "credit_balance_before_after": [
+    11.05,
+    11.05
+  ],
+  "creditsCost": 0,
+  "useUnlimitMode": true,
+  "numeric_zero_displayed": false,
+  "ui_unlimited_label": "Безлимитный режим — бесплатно",
+  "credits_cost_evidence": "selected_free_unlimited_current_form",
+  "owner_free_label_rule": "owner t718s3708 19.11 03:30 MSK; ops/TOPVIEW-FREE-LAUNCH.md",
+  "browser": "parent-coordinated Grok computerUse helper; UI screenshot kept privately",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "model_id": "seedance-2.0-style",
+  "duration_seconds": 15,
+  "resolution": 720,
+  "aspect_ratio": "16:9",
+  "topview_status_at_check": "init",
+  "canonical_prompt_sha256": "16c7e16535f36792c8ceaf4687f735e8d5726fc07412b1e3aa421968f67c765a",
+  "normalized_prompt_sha256": "2399d902f98f3365fbe3a4e6097b1d4226376b98d3516aff49b6466851513dae",
+  "submitted_prompt_sha256_raw": "3a4a5777d13a3142b0be6e700a88d432b693ced7775cbeaf6d4e5b9fefdcdb6e",
+  "full_prompt_match": true,
+  "prompt_match_method": "provider positivePrompt with <<<ImageN>>> chips mapped to @ImageN equals canonical block ignoring whitespace",
+  "submitted_prompt_verbatim": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal live-action final musical dance number\n\nREFERENCES / AUTHORITY ORDER:\n<<<Image1>>>  controls H28B architecture, fixtures and opening lighting phase. <<<Image2>>>  controls Masha R ONLY; <<<Image3>>>  Alina ONLY; <<<Image4>>>  Dasha ONLY. Individual sheets outrank every composition for faces, ages, scale and costume. <<<Image5>>>  is the dance composition/spacing helper, not a frozen pose or identity authority.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\nMASHA R (<<<Image2>>> ), CENTRE: adult woman with exact face, long wavy copper-red hair and bangs, long terracotta tunic, sand scarf, belt, brown crossbody satchel, dark trousers and boots. ALINA (<<<Image3>>> ), LEFT: girl with exact youthful face, blonde low ponytail, cream tunic, olive vest, dusty teal scarf, sand trousers, belt pouch and boots. DASHA (<<<Image4>>> ), RIGHT: girl with exact youthful face, straight light-brown chin-length bob, cream tunic, terracotta vest, sand scarf, dark-brown trousers, belt pouch and boots. Preserve exact reference ages, proportions, faces and costumes; Masha is adult and taller. Masha R is NOT the blue-skinned Masha Laguna. Exactly these three, no duplicate sheet poses, extra people or identity blending.\n\nLOCATION / LIVE LIGHT:\nThe exact H28B graphite hangar, Imperial floor medallion, fixed amber lanes, LED grid, space portal/planet and distant shuttle stay in world-space. Only their screen positions change with real camera parallax. Within the first second, existing overhead beams visibly sweep and cycle cyan, magenta, amber and cyan about every two seconds with brief intensity pulses; a travelling colour chase follows the existing floor LED borders and reflections. Geometry and floor material never change. Constant neutral-white facial fill and stable exposure preserve faces and base costume colours. No full-frame flashing or blackout. Return to the initial cyan/magenta phase only in the last half-second.\n\nACTION / PERFORMANCE:\nAlready dancing on the central medallion, Alina left, Masha centre, Dasha right, no instruments. An exuberant coordinated folk-rock disco groove at roughly120 BPM: springy alternating side steps, assertive shoulder accents and alternating sweeping forearm gestures. Masha initiates a phrase and the girls answer it with their own natural variations. Proud concentrated, almost deadpan faces contrast with lively full-body motion. Keep energy through the entire middle, connecting steps and changing weight continuously, not holding a copied pose. No touching, lifts or acrobatics; each has a clear lane. Signature moves to recur and vary (link them freely): a three-way synchronized spin in their own lanes with scarves and hems flaring, Masha's big market-haggle double-arm throw answered by the girls' sharp hands-on-hips stomp, and a fast skipping grapevine side to side; each may add one small two-foot hop. Let the model invent natural transitions between them without exchanging places. The closing accent occupies only the last half-second; breathing and clothing keep moving.\n\nCAMERA:\nOne continuous full-body three-shot, natural35mm perspective. A smooth35-degree front arc approaches on the answering phrase and eases outward into the closing accent. Keep all faces, hands and feet visible and separated. Stay in the front hemisphere; shorten the arc rather than overlap the girls. The dancers supply real movement, not a rotating background.\n\nAUDIO:\nOriginal driving instrumental rock/disco pulse, clear footsteps, cloth and hangar reverb. No speech, lyrics or recognizable published melody.\n\nNEGATIVE:\nFace/costume swaps, age changes, cloned performers, extra limbs, floaty feet, instruments, frozen middle, slow motion, random cuts, captions or watermark.\n\nFRAME FILL / NO BARS:\nFill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.",
+  "references": [
+    {
+      "slot": "@Image1",
+      "path": "references/scenes/scene-28/H28B-disco.png",
+      "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+      "provider_input": "Image1"
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+      "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+      "provider_input": "Image2"
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+      "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+      "provider_input": "Image3"
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+      "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
+      "provider_input": "Image4"
+    },
+    {
+      "slot": "@Image5",
+      "path": "references/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png",
+      "sha256": "f6499c3ca6b546daac6066754823348306bf8248f4979a708db16047f4be2c9c",
+      "provider_input": "Image5"
+    }
+  ],
+  "reference_count": 5,
+  "reference_sha_and_order_verified": "repo SHA verified before upload; provider stores re-encoded copies, order Image1..5 matches",
+  "claim_before_submission": {
+    "claim_id": "86122844-dd6c-47af-ad50-6d3c9617f6c7",
+    "intent_id": "e8179f3c-f040-4bb5-a64b-9cb0535f5d47",
+    "intent_at": "2026-11-26T21:09:28Z",
+    "intent_payload_sha256": "898819bd545d3bac78414d8710604ecf5bfae5d20b261fff799aad58a48e11d8",
+    "verify_main": "6d6f0b2b1ee8711c407927cae27c01df8c1626b0",
+    "lease_holder": "grok:1cbc555c-9d69-492a-8522-3875106b51cf"
+  },
+  "trigger": "owner card t961s5455 2026-11-26T20:53:00Z (queue record owner-20261126-t961s5455); wake #1058",
+  "event_id": "result:d6fb29ca214e42ec9b8c950657b26832",
+  "issue_number": 1058,
+  "evidence": {
+    "detection": "topview_list_board_tasks newest on My First Board + topview_get_board_task",
+    "credits_balance_ui": "11.05 before/after"
+  },
+  "artistic_acceptance": "pending_owner_review",
+  "retry_forbidden": true
+}

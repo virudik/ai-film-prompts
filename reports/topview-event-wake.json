@@ -2820,11 +2820,13 @@
       "run_id_unavailable_reason": "not exposed",
       "execution_instance_id": "1cbc555c-9d69-492a-8522-3875106b51cf",
       "route_generation": 7,
-      "outcome": "started",
-      "retryable": true,
+      "outcome": "submitted",
+      "retryable": false,
       "item_id": "S28-A13-20261030",
-      "task_ids": [],
-      "new_submissions": 0,
+      "task_ids": [
+        "be8cd77be15147d68e9ae4e1b8140472"
+      ],
+      "new_submissions": 1,
       "credits_spent": 0,
       "owner_command": {
         "host_address": "t961s5455 answer",
@@ -2839,7 +2841,7 @@
         "quote": "Да, и дальше A10 и A11 без вопросов",
         "record": "owner-20261126-t961s5455"
       },
-      "checked_at": "2026-11-26T21:05:56Z",
+      "checked_at": "2026-11-26T21:13:27Z",
       "completed_result": {
         "task_id": "d6fb29ca214e42ec9b8c950657b26832",
         "item_id": "S28-A7-20261023",
@@ -2847,11 +2849,16 @@
         "completed_at": "2026-11-26T12:59:46Z"
       },
       "execution": {
-        "state": "started",
-        "stage": "lease",
+        "state": "completed",
+        "stage": "submitted",
         "started_at": "2026-11-26T20:59:50Z",
-        "updated_at": "2026-11-26T21:05:56Z"
-      }
+        "updated_at": "2026-11-26T21:13:27Z",
+        "completed_at": "2026-11-26T21:13:27Z"
+      },
+      "receipt": "reports/topview-queue-2026-10-16/S28-A13-20261030-20261126T211029Z.json",
+      "claim_id": "86122844-dd6c-47af-ad50-6d3c9617f6c7",
+      "submission_intent_id": "e8179f3c-f040-4bb5-a64b-9cb0535f5d47",
+      "create_click_count": 1
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
