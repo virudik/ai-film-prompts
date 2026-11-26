@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-26T14:00:14Z",
+  "checked_at": "2026-11-26T14:20:04Z",
   "status": "warn",
   "warnings": 4,
   "info": 4,
@@ -51,7 +51,7 @@
     {
       "level": "warn",
       "code": "resume-selected-stale",
-      "text": "projects/kot-detektiv/shadow/resume-packet.json: выбранная работа «KD-WAIT-OWNER» от 27.10.2026, старше 7 дней (29).",
+      "text": "projects/kot-detektiv/shadow/resume-packet.json: выбранная работа «KD-WAIT-OWNER» от 27.10.2026, старше 7 дней (30).",
       "file": "projects/kot-detektiv/shadow/resume-packet.json"
     }
   ]
