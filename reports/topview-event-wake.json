@@ -2859,6 +2859,49 @@
       "claim_id": "86122844-dd6c-47af-ad50-6d3c9617f6c7",
       "submission_intent_id": "e8179f3c-f040-4bb5-a64b-9cb0535f5d47",
       "create_click_count": 1
+    },
+    {
+      "event_id": "result:a841c617d6ee4590adde0f8377ed43b9",
+      "issue_number": 1095,
+      "actor": "grok",
+      "source": "grok issue-assigned wake #1095 (primary) + owner t980u already in main (73f29ab5b)",
+      "runner": "grok_executor",
+      "run_id": null,
+      "run_id_unavailable_reason": "not exposed",
+      "execution_instance_id": "a89c9106-b3cc-452a-a7b0-215592fff60f",
+      "route_generation": 7,
+      "outcome": "started",
+      "retryable": true,
+      "item_id": "1-W01-WAN30",
+      "task_ids": [],
+      "new_submissions": 0,
+      "credits_spent": 0,
+      "owner_command": {
+        "standing_command_id": "t980u-20261127",
+        "at": "2026-11-26T22:27:00Z",
+        "quote": "Перед запуском доделай что написал. И по этим изменениям Да. … Сделай свою версию и в Ван3 запускай через топвюв их следующими в очереди",
+        "scope": "stikhiy 1-W01…W10 next in shared queue; board Стахий; 9:16 Unlimited 0"
+      },
+      "order_basis": {
+        "source": "owner_policy_20261127_t980u",
+        "at": "2026-11-26T22:27:00Z",
+        "at_local": "2026-11-27T01:27 Europe/Moscow",
+        "quote": "Перед запуском доделай что написал. И по этим изменениям Да. … Сделай свою версию и в Ван3 запускай через топвюв их следующими в очереди",
+        "commit": "73f29ab5b"
+      },
+      "checked_at": "2026-11-27T13:19:07Z",
+      "completed_result": {
+        "task_id": "a841c617d6ee4590adde0f8377ed43b9",
+        "item_id": "S28-A8-20261023",
+        "final_status": "success",
+        "completed_at": "2026-11-27T13:08:51Z"
+      },
+      "execution": {
+        "state": "started",
+        "stage": "intake",
+        "started_at": "2026-11-27T13:19:07Z",
+        "updated_at": "2026-11-27T13:19:07Z"
+      }
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
