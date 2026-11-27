@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-11-27T13:00:32Z",
+  "updated_at": "2026-11-27T13:10:43Z",
   "purpose": "Minimal Topview task state: active task IDs per Scene plus a bounded processed-task journal for deduplication. Detailed attempt/queue/ETA history is intentionally not persistent.",
   "authority": "Operational telemetry/dedup only. Google Drive video-prompts.md remains canonical for Scene IDs, editorial state and slow membership.",
   "rules": [
@@ -17,7 +17,6 @@
   "active_by_scene": {
     "28": [
       "17c2f95f1f9349dabfe9a2e75fd9a18c",
-      "a841c617d6ee4590adde0f8377ed43b9",
       "be8cd77be15147d68e9ae4e1b8140472"
     ],
     "89": [
@@ -1077,6 +1076,13 @@
       "final_status": "success",
       "finished_at": "2026-11-26T12:59:46Z",
       "part": "A7"
+    },
+    {
+      "task_id": "a841c617d6ee4590adde0f8377ed43b9",
+      "scene_id": 28,
+      "final_status": "success",
+      "finished_at": "2026-11-27T13:08:51Z",
+      "part": "A8"
     }
   ],
   "retention": {
@@ -1085,12 +1091,12 @@
     "scan_rule": "On each run, query every task already in active_by_scene first, then paginate all Board video-task pages needed to cover the overlap/checkpoint window; pinned tasks must not hide newer tasks. Deduplicate with active IDs + processed_tasks. Advance last_scan_at only after refresh + discovery + classification succeeds.",
     "slot_note": "Slot occupancy is derived only from current active_by_scene task IDs; processed_tasks never consume slots."
   },
-  "last_scan_at": "2026-11-27T13:00:32Z",
+  "last_scan_at": "2026-11-27T13:10:43Z",
   "scan_overlap_hours": 6,
   "slot_capacity": 6,
   "scan_cursor": {
     "strategy": "fast_path_all_owned_board_counts_plus_project_latest_page_and_direct_active",
-    "last_successful_scan_at": "2026-11-27T13:00:32Z",
+    "last_successful_scan_at": "2026-11-27T13:10:43Z",
     "last_full_board_pages_checked": 4,
     "last_board_total_seen": 612,
     "overlap_hours": 6,
@@ -1099,12 +1105,12 @@
     "total_video_tasks": 693,
     "board_id": "1a6244cf1ae747ef847d949a80d6133c",
     "media_type": "video",
-    "overlap_from": "2026-11-27T07:00:32.000Z",
+    "overlap_from": "2026-11-27T07:10:43.000Z",
     "unknown_recent_tasks": 0,
     "boards_scanned": 15,
     "project_board_total_video_tasks": 399,
     "scope": "all_owned_board_counts_plus_project_latest_100_with_direct_active_verification",
-    "last_full_scan_at": "2026-11-27T10:20:36Z",
+    "last_full_scan_at": "2026-11-27T13:10:43Z",
     "board_task_counts": {
       "e4156a8c422a4904b88b7bce6018b796": 0,
       "3db83056ccef4361a9563a4f77afa1d5": 56,
@@ -1122,7 +1128,7 @@
       "caa5d8898f14442ea37c3278d156b3fe": 59,
       "1a6244cf1ae747ef847d949a80d6133c": 750
     },
-    "scan_mode": "light",
+    "scan_mode": "full",
     "last_light_scan_at": "2026-10-13T19:02:02.187Z"
   },
   "note": "Light scan verified all 11 owned board counts, AI Film latest 100 video tasks, and direct reads of both known active task IDs. Scenes 35 and 38 remain init, unlimited and zero-credit. Physical capacity remains 2/6 with four free slots. Canonical slow is owner-controlled and unchanged.",
