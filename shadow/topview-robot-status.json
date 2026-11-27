@@ -3,11 +3,13 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-27T16:20:26Z",
+  "checked_at": "2026-11-27T16:30:43Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
-    "mode": "light",
-    "reasons": [],
+    "mode": "full",
+    "reasons": [
+      "last full scan 170 min ago"
+    ],
     "boards": 15,
     "board_task_counts": {
       "e4156a8c422a4904b88b7bce6018b796": 1,
@@ -26,9 +28,9 @@
       "caa5d8898f14442ea37c3278d156b3fe": 59,
       "1a6244cf1ae747ef847d949a80d6133c": 750
     },
-    "pages_scanned": 1,
-    "tasks_seen": 20,
-    "api_requests": 8,
+    "pages_scanned": 18,
+    "tasks_seen": 694,
+    "api_requests": 26,
     "detail_failed": []
   },
   "cursor": {
@@ -49,14 +51,14 @@
       "caa5d8898f14442ea37c3278d156b3fe": 59,
       "1a6244cf1ae747ef847d949a80d6133c": 750
     },
-    "last_full_scan_at": "2026-11-27T13:40:33Z"
+    "last_full_scan_at": "2026-11-27T16:30:43Z"
   },
   "slots": {
     "capacity": 6,
     "occupied": 6,
     "free": 0,
     "basis": "active unlimited video tasks on all owned boards",
-    "complete": false,
+    "complete": true,
     "active_not_unlimited": 0
   },
   "active_tasks": [
@@ -69,8 +71,8 @@
       "model": "Seedance 2.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 2165,
-      "wait_seconds": 74904,
+      "queue_count": 2162,
+      "wait_seconds": 74275,
       "process_seconds": null
     },
     {
@@ -82,8 +84,8 @@
       "model": "Wan 3.0",
       "scene_id": null,
       "mapping": "unknown_new",
-      "queue_count": 4062,
-      "wait_seconds": 187223,
+      "queue_count": 4060,
+      "wait_seconds": 186595,
       "process_seconds": null
     },
     {
@@ -95,8 +97,8 @@
       "model": "Wan 3.0",
       "scene_id": 89,
       "mapping": "task_map",
-      "queue_count": 3052,
-      "wait_seconds": 126743,
+      "queue_count": 3050,
+      "wait_seconds": 126115,
       "process_seconds": null
     },
     {
@@ -108,8 +110,8 @@
       "model": "Wan 3.0",
       "scene_id": 89,
       "mapping": "task_map",
-      "queue_count": 2763,
-      "wait_seconds": 109463,
+      "queue_count": 2761,
+      "wait_seconds": 108834,
       "process_seconds": null
     },
     {
@@ -121,8 +123,8 @@
       "model": "Wan 3.0",
       "scene_id": 89,
       "mapping": "task_map",
-      "queue_count": 2472,
-      "wait_seconds": 92183,
+      "queue_count": 2470,
+      "wait_seconds": 91554,
       "process_seconds": null
     },
     {
@@ -134,8 +136,8 @@
       "model": "Seedance 2.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 3773,
-      "wait_seconds": 169942,
+      "queue_count": 3771,
+      "wait_seconds": 169314,
       "process_seconds": null
     }
   ],
@@ -147,7 +149,7 @@
       "created_at": "2026-11-27 13:33:27",
       "model": "Wan 3.0",
       "unlimited": true,
-      "prompt_head": ""
+      "prompt_head": "Stakhiy, scene 1, Wan 3.0 part 1-W01 (1-G01, 1-G02). Mode: omni reference. 30 s, 720p, 9:16. Native audio ON. Story content lasts 23 s; join segments by one clear straight cut; after the last segment "
     }
   ],
   "finished_known": [],
@@ -163,7 +165,7 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-11-27T15:30:31Z",
-    "monitor_age_minutes": 50,
+    "monitor_age_minutes": 60,
     "monitor_occupied": 5,
     "robot_occupied": 6,
     "consistent": false,
