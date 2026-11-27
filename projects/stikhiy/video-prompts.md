@@ -1929,15 +1929,15 @@ RULES: Faces come only from the reference sheets listed below; keep every face, 
 
 [0–10 s · Больница: «Идём к папе»] REFERENCES: Hospital corridor @Image1 and ward @Image2, late 1980s, cool daylight, restrained medical everyday life. Nadezhda @Image3 @Image4, Arkady in hospital pyjamas @Image5 @Image6, Stakhiy almost two @Image7.
 ACTION: Nadezhda leads little Stakhiy by the hand along the corridor and into the ward where Arkady sits on the bed and smiles to them. Staff are only blurred backgrounds.
-SPEECH: At about 1 s Nadezhda to the boy: «Идём к папе.» From about 3 s the off-screen adult narrator: «Папа почти год боролся за жизнь. Врачи делали всё возможное.»
-NOTES: The adult Stakhiy voice-over is an off-screen calm warm male voice in his late thirties, Russian, unhurried; nobody on screen moves their lips to it. End with the family meeting in the ward.
+SPEECH: At about 1 s Nadezhda to the boy: «Идём к папе.» From about 3 s the off-screen adult male narrator (adult Stakhiy): «Папа почти год боролся за жизнь. Врачи делали всё возможное.»
+NOTES: VOICE-OVER: the off-screen narrator is the ADULT MAN Stakhiy, about 35 years old — a low, warm, calm, unhurried Russian male voice (baritone). Never a woman's voice, never a child's voice, never Nadezhda's voice. The narration is a separate off-screen voice, clearly distinct from the characters' lines; nobody on screen moves their lips to it; no adult Stakhiy on screen. End with the family meeting in the ward.
 
 [10–20 s · Больница: лечение] REFERENCES: Hospital ward @Image2 and corridor @Image1. Arkady @Image5 @Image6, Nadezhda @Image3 @Image4, Stakhiy about two @Image7.
 ACTION: Calm montage by clear cuts: a nurse's blurred hands with a chart, closed doors of the operating block, a wall calendar, a short moment of relief with Arkady smiling weakly to his son; then the same ward later, Arkady weaker again, Nadezhda and the boy at his bed. No surgery shown, no diagnosis.
-SPEECH: Only the off-screen adult narrator, from about 0.5 s: «Ему удалили одно лёгкое. На какое-то время стало лучше.» A pause of about 2 seconds. Then: «Но болезнь не отступила.» Nobody on screen speaks.
-NOTES: The adult Stakhiy voice-over is an off-screen calm warm male voice in his late thirties, Russian, unhurried; nobody on screen moves their lips to it.
+SPEECH: Only the off-screen adult male narrator (adult Stakhiy), from about 0.5 s: «Ему удалили одно лёгкое. На какое-то время стало лучше.» A pause of about 2 seconds. Then: «Но болезнь не отступила.» Nobody on screen speaks.
+NOTES: VOICE-OVER: the off-screen narrator is the ADULT MAN Stakhiy, about 35 years old — a low, warm, calm, unhurried Russian male voice (baritone). Never a woman's voice, never a child's voice, never Nadezhda's voice. The narration is a separate off-screen voice, clearly distinct from the characters' lines; nobody on screen moves their lips to it; no adult Stakhiy on screen.
 
-AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement — except the off-screen narrator lines, which are voiced only by the adult male narrator (Stakhiy, about 35, low warm calm male voice) with no lip movement on screen; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
 ```
 
 <a id="1-W08"></a>
@@ -1984,10 +1984,10 @@ NOTES: No second click, no other camera, no music.
 
 [10–19 s · Тишина: похороны] REFERENCES: Cemetery in late autumn, overcast neutral light @Image7. Nadezhda in dark clothes and a dark headscarf @Image4 @Image5, Stakhiy about three in a dark coat @Image6.
 ACTION: Restrained wide shot: Nadezhda and little Stakhiy stand still side by side among mourners, who are only backs and out-of-focus figures. Quiet breathing, wind in bare branches, no hysteria, no readable faces of the crowd, no readable inscriptions.
-SPEECH: Silence, then from about 2 s the off-screen adult narrator: «Папе было тридцать. Мне — три.» Then silence again. Nobody on screen speaks.
-NOTES: The adult Stakhiy voice-over is an off-screen calm warm male voice in his late thirties, Russian, unhurried; nobody on screen moves their lips to it.
+SPEECH: Silence, then from about 2 s the off-screen adult male narrator (adult Stakhiy): «Папе было тридцать. Мне — три.» Then silence again. Nobody on screen speaks.
+NOTES: VOICE-OVER: the off-screen narrator is the ADULT MAN Stakhiy, about 35 years old — a low, warm, calm, unhurried Russian male voice (baritone). Never a woman's voice, never a child's voice, never Nadezhda's voice. The narration is a separate off-screen voice, clearly distinct from the characters' lines; nobody on screen moves their lips to it; no adult Stakhiy on screen.
 
-AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement — except the off-screen narrator lines, which are voiced only by the adult male narrator (Stakhiy, about 35, low warm calm male voice) with no lip movement on screen; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
 ```
 
 <a id="1-W10"></a>
@@ -2004,10 +2004,10 @@ RULES: Faces come only from the reference sheets listed below; keep every face, 
 
 [0–15 s · Полка: тот же «Зенит»] REFERENCES: Quiet apartment room, late 1980s @Image1. Nadezhda @Image2 @Image3, Stakhiy about three @Image4.
 ACTION: Nadezhda places the same camera on a bookshelf next to a small photo frame (the frame stays out of focus or edge-on, no visible portrait). The camera is a Soviet 35mm film SLR in the style of a Zenit-12sd: black leatherette body, satin-chrome top plate, silver standard lens, thin black neck strap; no readable lettering, logos or model markings anywhere (markings turned away or soft), the same single camera every time. Stakhiy watches from below; he does not take the camera. Camera slowly moves to the child's look and the shelf.
-SPEECH: At about 1 s Nadezhda, softly: «Смотри.» From about 3 s the off-screen adult narrator: «Тогда я ещё не знал, что однажды возьму в руки фотоаппарат. И он изменит всю мою жизнь.» The child stays silent.
-NOTES: The adult Stakhiy voice-over is an off-screen calm warm male voice in his late thirties, Russian, unhurried; nobody on screen moves their lips to it. Leave the last 3 seconds calm on the shelf; the title is added later in the editor, not in the video. No adult Stakhiy on screen, no music, no second camera.
+SPEECH: At about 1 s Nadezhda, softly: «Смотри.» From about 3 s the off-screen adult male narrator (adult Stakhiy): «Тогда я ещё не знал, что однажды возьму в руки фотоаппарат. И он изменит всю мою жизнь.» The child stays silent.
+NOTES: VOICE-OVER: the off-screen narrator is the ADULT MAN Stakhiy, about 35 years old — a low, warm, calm, unhurried Russian male voice (baritone). Never a woman's voice, never a child's voice, never Nadezhda's voice. The narration is a separate off-screen voice, clearly distinct from the characters' lines; nobody on screen moves their lips to it; no adult Stakhiy on screen. Leave the last 3 seconds calm on the shelf; the title is added later in the editor, not in the video. No adult Stakhiy on screen, no music, no second camera.
 
-AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
+AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement — except the off-screen narrator lines, which are voiced only by the adult male narrator (Stakhiy, about 35, low warm calm male voice) with no lip movement on screen; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
 ```
 
 <a id="scene-1-video"></a>
@@ -2018,7 +2018,7 @@ AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken
 
 Статус: **готово** (27.11.2026) — 18 клипов 1-G01…1-G18 (15 с, 9:16, 720p, звук и речь) и черновой монтаж 03:52 с титром «Продолжение следует…». Смотреть: [страница роликов](videos.html?project=stikhiy), группа «Сцена 1 · Версия Grok». Яндекс Диск: «Нейровидео/Стахий/.Грок/2026-11-27/Сцена 1» по эпизодам.
 
-**Черновой монтаж 03:52 (v2, 27.11 04:05 МСК):** [открыть на Яндекс Диске](https://yadi.sk/i/xnBXFkKLp_p8FA).
+**Черновой монтаж 03:52 (v3, 27.11 17:10 МСК):** [открыть на Яндекс Диске](https://yadi.sk/i/3EW4UZbwF1hQ8g).
 
 | Клип | Время | Эпизод | Яндекс |
 |---|---|---|---|
@@ -2038,10 +2038,10 @@ AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken
 | [1-G14](#1-G14) 08a · «Ты мало мяса ел» | 02:52–03:06 (14 с) | 08 Зенит | [mp4](https://yadi.sk/i/MKEOH0P4xkpdsQ) |
 | [1-G15](#1-G15) 08b · Подарок | 03:06–03:18 (12 с) | 08 Зенит | [mp4](https://yadi.sk/i/-rUCdDSayA2miw) |
 | [1-G16](#1-G16) 08c · «Ради такого фотоаппарата» | 03:18–03:28 (10 с) | 08 Зенит | [mp4](https://yadi.sk/i/uuzGHFhLIcHVlw) |
-| [1-G17](#1-G17) Тишина: похороны | 03:28–03:37 (9 с) | 09 Тишина | [mp4](https://yadi.sk/i/4ZCXzeU_1-jpmQ) |
-| [1-G18](#1-G18) Полка: тот же «Зенит» | 03:37–03:52 (15 с) | 10 Полка | [mp4](https://yadi.sk/i/BTYkirxkN6-mZg) |
+| [1-G17](#1-G17) Тишина: похороны | 03:28–03:37 (9 с) | 09 Тишина | [mp4](https://yadi.sk/i/8vKO0-06WlHUSQ) |
+| [1-G18](#1-G18) Полка: тот же «Зенит» | 03:37–03:52 (15 с) | 10 Полка | [mp4](https://yadi.sk/i/PEuXfdJEUNtfQQ) |
 
-Правки версии Grok: 1-G03 v2 — без силуэта за тюлем в первую секунду; 1-G06 v3 — дед Анатолий внезапно теряет равновесие и падает в мягкое кресло, Надежда и Аркадий бросаются к нему, затем пустое кресло и крафт-бумага (первая формулировка с падением из кадра была отклонена фильтром генератора, v2 — дед просто садится в кресло); 1-G15/1-G16 — переделка без надписей на камере; 1-G18 v4 — камера без надписей и без размытых пятен, в кадре один мальчик. Все версии, включая забракованные, лежат на Яндекс Диске в подпапках «Версии» эпизодов: [папка «Сцена 1»](https://yadi.sk/d/NWTFvO4oHxfZSQ); прежний монтаж — «Сцена 1/Версии/S1_Grok_montage_03-52_v1.mp4».
+Правки версии Grok: 1-G03 v2 — без силуэта за тюлем в первую секунду; 1-G06 v3 — дед Анатолий внезапно теряет равновесие и падает в мягкое кресло, Надежда и Аркадий бросаются к нему, затем пустое кресло и крафт-бумага (первая формулировка с падением из кадра была отклонена фильтром генератора, v2 — дед просто садится в кресло); 1-G15/1-G16 — переделка без надписей на камере; 1-G18 v4 — камера без надписей и без размытых пятен, в кадре один мальчик. Закадр взрослого Стахия: в 1-G17 и 1-G18 генератор озвучил его женским голосом — картинку и реплики героев оставили, а закадр заменили мужским голосом (тот же текст слово в слово, в те же секунды; голос подобран по закадру 1-G12/1-G13, где он был мужским). Прежние файлы с женским закадром — в «Версии». Все версии, включая забракованные, лежат на Яндекс Диске в подпапках «Версии» эпизодов: [папка «Сцена 1»](https://yadi.sk/d/NWTFvO4oHxfZSQ); прежние монтажи — «Сцена 1/Версии/S1_Grok_montage_03-52_v1.mp4» и «…_v2.mp4».
 
 <a id="scene-1-video-wan30"></a>
 #### Версия Wan 3.0
