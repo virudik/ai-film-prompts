@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:e3120d81-dfa9-4638-a0a9-f365f910fb2f",
-  "task": "Grok 1095: short editor lease for started ACK (1-W01-WAN30, no Create)",
-  "acquired_at": "2026-11-27T13:18:50Z",
-  "expires_at": null,
-  "released_at": "2026-11-27T13:19:07Z",
+  "state": "held",
+  "holder": "grok:a89c9106-b3cc-452a-a7b0-215592fff60f",
+  "task": "Grok wake #1095 owner t980u: 1-W01-WAN30 lease/claim/intent/verify",
+  "acquired_at": "2026-11-27T13:23:01Z",
+  "expires_at": "2026-11-27T13:38:01Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
