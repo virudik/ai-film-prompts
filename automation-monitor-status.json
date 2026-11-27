@@ -478,11 +478,11 @@
     }
   },
   "launcher_health": {
-    "state": "launch_confirmed",
+    "state": "capacity_full",
     "unresolved": false,
     "episode": "0c5c12b8",
     "unresolved_since": null,
-    "reason": "submitted_receipt_task_ids_match_queue_and_live_scan",
+    "reason": "no_free_global_slot; launcher_health_not_proven",
     "free_slots_global": 0,
     "actionable_items": [
       "S49B",
