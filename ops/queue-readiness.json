@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "7f630a108ea3904311aac31653c93906e89e80337b6f0b3d7ca6c3195e75123f",
+  "source_queue_sha256": "ae847bae51439e0bedc7bf084b2d2aa83246974ae3e3c6a8c854abf190e95a0d",
   "source_task_map_sha256": "4ba6f24380e1b2f315c36a64368612f2e12274926946c85cd7b9bd5576569338",
   "topview_checked_at": "2026-11-27T13:40:33Z",
   "items": [
@@ -213,5 +213,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-27T13:40:51.903478Z"
+  "checked_at": "2026-11-27T14:01:51.902365Z"
 }
