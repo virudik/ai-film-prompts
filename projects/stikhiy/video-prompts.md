@@ -1430,6 +1430,8 @@ END / NOTES: End inside the cramped apartment: the dream of an own room is not y
 
 **Время в фильме:** 01:02–01:17 · в монтаж 15 с · **Эпизод:** 04 Утрата · **Смерть дедушки Анатолия**
 
+**Версия Grok (итоговый клип v3, 27.11.2026):** дед Анатолий стоит у кресла, ему становится плохо — рука к груди, он теряет равновесие и падает в мягкое кресло; Надежда и Аркадий бросаются к нему («Папа!» — «Держи его!»); затем пустое кресло и крафт-бумага от ваты на столике. Ниже — точный промт итогового клипа.
+
 **Рефы:** `<IMAGE_0>` [S6-LOC02-apartment](projects/stikhiy/references/scenes/scene-1/S6-LOC02-apartment.png) · `<IMAGE_1>` [S6-Anatoly](projects/stikhiy/references/scenes/scene-1/S6-Anatoly.webp) · `<IMAGE_2>` [S6-Anatoly-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Anatoly-Head-V2.webp) · `<IMAGE_3>` [S6-Nadezhda](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda.webp) · `<IMAGE_4>` [S6-Nadezhda-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp) · `<IMAGE_5>` [S6-Arkady](projects/stikhiy/references/scenes/scene-1/S6-Arkady.webp) · `<IMAGE_6>` [S6-Arkady-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp) · `<IMAGE_7>` [S6-Stakhiy-age-2-Head-V2](projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-2-Head-V2.webp)
 
 ```text
@@ -1441,13 +1443,13 @@ REFERENCES: Same apartment room, ordinary daylight, an armchair and a small tabl
 
 RULES: Faces come only from the reference sheets listed below; keep every face, age and costume consistent, no beautification, no identity swaps. Anyone without a reference sheet stays in the background, seen from behind, far away or out of focus, never a clear invented face. No toy guns, pistols or weapons of any kind. Anatoly (maternal grandfather): outdoors always his soft mid-grey tweed flat cap and a hand-rolled cigarette in his mouth; indoors no cigarette and no smoke. Late-1980s Soviet clothes and objects, no modern items.
 
-ACTION: Low camera at the child's eye level, Stakhiy in the foreground watching. Anatoly stands by his armchair, suddenly unwell, loses his balance and sinks out of the bottom of the frame — no close-up of the fall. Nadezhda and Arkady rush towards him, slightly out of focus. Then one straight time cut: the empty armchair, and on the table the same brown kraft paper from the cotton candy, now empty, lying still.
+ACTION: Quiet daylight in the apartment, wide shot from a low camera at the child's eye level; little Stakhiy, about two, sits on the rug in the soft foreground, watching. Anatoly stands next to his deep, softly upholstered armchair, about to sit. He suddenly feels faint: he blinks, puts a hand to his chest, sways, his knees give way and he drops back heavily but safely into the deep soft armchair, sliding half off the cushion, his head resting against the soft backrest, eyes closing, one arm hanging loosely over the armrest. The soft upholstery catches him completely; he does not touch the floor or any hard edge, nothing graphic, no injury, no blood. Nadezhda and Arkady rush to him from the background, slightly out of focus: Nadezhda takes his face in her hands, Arkady holds him by the shoulders so he does not slide further. Restrained, tender, sad. Then one straight time cut: the same armchair now empty, and on the small table the same brown kraft paper from the cotton candy, empty, lying still.
 
 SPEECH: At about 3 s Nadezhda, frightened: «Папа!» Right after her Arkady: «Держи его.» Then silence over the empty armchair.
 
 AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken by the named speaker on screen with matching lip movement; one voice at a time, the next speaker starts only after the previous line ends, natural pauses, no extra words, no translation, no music, only quiet natural ambience.
 
-END / NOTES: End on the empty armchair and the motionless kraft paper; absence is the meaning of the shot. No medical details, no music.
+END / NOTES: End on the empty armchair and the motionless kraft paper; absence is the meaning of the shot. No medical details, no music, no comedy, no fall to the floor.
 ```
 
 <a id="1-G07"></a>
@@ -2016,16 +2018,16 @@ AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken
 
 Статус: **готово** (27.11.2026) — 18 клипов 1-G01…1-G18 (15 с, 9:16, 720p, звук и речь) и черновой монтаж 03:52 с титром «Продолжение следует…». Смотреть: [страница роликов](videos.html?project=stikhiy), группа «Сцена 1 · Версия Grok». Яндекс Диск: «Нейровидео/Стахий/.Грок/2026-11-27/Сцена 1» по эпизодам.
 
-**Черновой монтаж 03:52:** [открыть на Яндекс Диске](https://yadi.sk/i/jiI6o21yNirzBA).
+**Черновой монтаж 03:52 (v2, 27.11 04:05 МСК):** [открыть на Яндекс Диске](https://yadi.sk/i/xnBXFkKLp_p8FA).
 
 | Клип | Время | Эпизод | Яндекс |
 |---|---|---|---|
 | [1-G01](#1-G01) Лето на даче: ягодка | 00:00–00:15 (15 с) | 01 Лето | [mp4](https://yadi.sk/d/hx8DHBp9H7qEpw) |
 | [1-G02](#1-G02) Лето на даче: родные в саду | 00:15–00:23 (8 с) | 01 Лето | [mp4](https://yadi.sk/i/ikYICrUs8L7Tgg) |
-| [1-G03](#1-G03) Дедушка и сладкая вата | 00:23–00:38 (15 с) | 02 Вата | [mp4](https://yadi.sk/i/OyRuG4avE5-4yA) |
+| [1-G03](#1-G03) Дедушка и сладкая вата | 00:23–00:38 (15 с) | 02 Вата | [mp4](https://yadi.sk/i/GzevRvkrljH_Ww) |
 | [1-G04](#1-G04) Мечта: Красная площадь | 00:38–00:50 (12 с) | 03 Мечта | [mp4](https://yadi.sk/i/WHfVHi4Fy4Qh_Q) |
 | [1-G05](#1-G05) Мечта: ответ и тесная квартира | 00:50–01:02 (12 с) | 03 Мечта | [mp4](https://yadi.sk/i/sb512qrhsUEF9Q) |
-| [1-G06](#1-G06) Смерть дедушки Анатолия | 01:02–01:17 (15 с) | 04 Утрата | [mp4](https://yadi.sk/i/X_aaf4AXQOUlfQ) |
+| [1-G06](#1-G06) Смерть дедушки Анатолия | 01:02–01:17 (15 с) | 04 Утрата | [mp4](https://yadi.sk/i/DJ5Tob5mKi4PLw) |
 | [1-G07](#1-G07) Цех АЗЛК: первый кашель | 01:17–01:32 (15 с) | 05 Кашель | [mp4](https://yadi.sk/i/xvVTedx66WVRYg) |
 | [1-G08](#1-G08) 06a · Вечер дома | 01:32–01:47 (15 с) | 06 Ночь | [mp4](https://yadi.sk/i/uVeCINViy29xEQ) |
 | [1-G09](#1-G09) 06b · Ночной разговор 1 | 01:47–02:02 (15 с) | 06 Ночь | [mp4](https://yadi.sk/i/Cpx5ejIJTSfuZg) |
@@ -2037,9 +2039,9 @@ AUDIO: native audio ON. Speech is Russian only, word for word as written, spoken
 | [1-G15](#1-G15) 08b · Подарок | 03:06–03:18 (12 с) | 08 Зенит | [mp4](https://yadi.sk/i/-rUCdDSayA2miw) |
 | [1-G16](#1-G16) 08c · «Ради такого фотоаппарата» | 03:18–03:28 (10 с) | 08 Зенит | [mp4](https://yadi.sk/i/uuzGHFhLIcHVlw) |
 | [1-G17](#1-G17) Тишина: похороны | 03:28–03:37 (9 с) | 09 Тишина | [mp4](https://yadi.sk/i/4ZCXzeU_1-jpmQ) |
-| [1-G18](#1-G18) Полка: тот же «Зенит» | 03:37–03:52 (15 с) | 10 Полка | [mp4](https://yadi.sk/i/zZNyI9ZtJ6iRjQ) |
+| [1-G18](#1-G18) Полка: тот же «Зенит» | 03:37–03:52 (15 с) | 10 Полка | [mp4](https://yadi.sk/i/BTYkirxkN6-mZg) |
 
-Правки версии Grok: 1-G06 — смягчённая формулировка действия (исходная была отклонена фильтром безопасности генератора; реплики те же); 1-G15/1-G16 — переделка без надписей на камере; 1-G18 — надпись на камере размыта (в файле клипа и в монтаже).
+Правки версии Grok: 1-G03 v2 — без силуэта за тюлем в первую секунду; 1-G06 v3 — дед Анатолий внезапно теряет равновесие и падает в мягкое кресло, Надежда и Аркадий бросаются к нему, затем пустое кресло и крафт-бумага (первая формулировка с падением из кадра была отклонена фильтром генератора, v2 — дед просто садится в кресло); 1-G15/1-G16 — переделка без надписей на камере; 1-G18 v4 — камера без надписей и без размытых пятен, в кадре один мальчик. Все версии, включая забракованные, лежат на Яндекс Диске в подпапках «Версии» эпизодов: [папка «Сцена 1»](https://yadi.sk/d/NWTFvO4oHxfZSQ); прежний монтаж — «Сцена 1/Версии/S1_Grok_montage_03-52_v1.mp4».
 
 <a id="scene-1-video-wan30"></a>
 #### Версия Wan 3.0

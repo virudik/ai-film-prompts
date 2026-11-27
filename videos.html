@@ -90,7 +90,8 @@ Promise.all([get('topview-video-archive.json'),get('film-order.json'),get('video
  videos=list.sort((x,y)=>x.scene-y.scene||String(x.e.group||'').localeCompare(String(y.e.group||''))||(x.e.group?x.n-y.n:y.n-x.n));
  const ya=videos.filter(v=>VS.yandexKey(v.e)).length;
  const groups=[...new Set(videos.map(v=>String(v.e.group||'').trim()).filter(Boolean))];
- const sceneN=new Set(videos.filter(v=>!v.e.group).map(v=>v.scene)).size;
+ // Count every scene that has videos, including scenes shown only as named groups (e.g. «Сцена 1 · Версия Grok»).
+ const sceneN=new Set(videos.map(v=>v.scene)).size;
  $('sub').innerHTML=videos.length+' роликов · '+sceneN+' сцен'+(groups.length?' · '+groups.map(esc).join(', '):'')+' · с Яндекс Диска '+ya+(AIFP.isRoot?' · <a href="'+DRIVE_FOLDER+'" target="_blank" rel="noopener noreferrer">📁 запасная папка в Google Drive</a>':'');
  render();$('filter').oninput=render;
  const want=new URLSearchParams(location.search).get('task');const v=want&&videos.find(x=>x.task===want);if(v)play(v,false);
