@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "grok:4a22807c-12f9-499e-aef4-e9ad02420b77",
   "task": "GB-51 Стахий Grok: переделки G03/G06/G18",
   "acquired_at": "2026-11-27T01:00:17Z",
-  "expires_at": "2026-11-27T01:40:17Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-27T01:01:09Z",
   "rules": "ops/CANON-LOCK.md",
   "project": "stikhiy"
 }
