@@ -2870,11 +2870,13 @@
       "run_id_unavailable_reason": "not exposed",
       "execution_instance_id": "a89c9106-b3cc-452a-a7b0-215592fff60f",
       "route_generation": 7,
-      "outcome": "started",
-      "retryable": true,
+      "outcome": "submitted",
+      "retryable": false,
       "item_id": "1-W01-WAN30",
-      "task_ids": [],
-      "new_submissions": 0,
+      "task_ids": [
+        "24fb1b34b52b442aaef1a14b208bb419"
+      ],
+      "new_submissions": 1,
       "credits_spent": 0,
       "owner_command": {
         "standing_command_id": "t980u-20261127",
@@ -2889,7 +2891,7 @@
         "quote": "Перед запуском доделай что написал. И по этим изменениям Да. … Сделай свою версию и в Ван3 запускай через топвюв их следующими в очереди",
         "commit": "73f29ab5b"
       },
-      "checked_at": "2026-11-27T13:23:01Z",
+      "checked_at": "2026-11-27T13:34:14Z",
       "completed_result": {
         "task_id": "a841c617d6ee4590adde0f8377ed43b9",
         "item_id": "S28-A8-20261023",
@@ -2897,11 +2899,16 @@
         "completed_at": "2026-11-27T13:08:51Z"
       },
       "execution": {
-        "state": "started",
-        "stage": "lease",
+        "state": "completed",
+        "stage": "submitted",
         "started_at": "2026-11-27T13:19:07Z",
-        "updated_at": "2026-11-27T13:23:01Z"
-      }
+        "updated_at": "2026-11-27T13:34:14Z",
+        "completed_at": "2026-11-27T13:34:14Z"
+      },
+      "receipt": "reports/topview-queue-2026-10-16/1-W01-WAN30-20261127T133327Z.json",
+      "claim_id": "650e5969-232f-4cf1-8b9a-d672e078cbf9",
+      "submission_intent_id": "1609f03f-2384-47cc-8ddc-fd6bc8f8cbf9",
+      "create_click_count": 1
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",

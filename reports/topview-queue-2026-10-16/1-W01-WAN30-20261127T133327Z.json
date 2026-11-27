@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "item_id": "1-W01-WAN30",
+  "outcome": "submitted",
+  "task_id": "24fb1b34b52b442aaef1a14b208bb419",
+  "submitted_at": "2026-11-27T13:33:27Z",
+  "create_clicked_at_approx": "2026-11-27T13:33:26Z",
+  "checked_at": "2026-11-27T13:34:14Z",
+  "create_click_count": 1,
+  "credits_spent": 0,
+  "credit_balance_before_after": [
+    11.05,
+    11.05
+  ],
+  "creditsCost": 0,
+  "useUnlimitMode": true,
+  "numeric_zero_displayed": false,
+  "ui_unlimited_label": "Безлимитный режим",
+  "credits_cost_evidence": "selected_free_unlimited_current_form",
+  "owner_free_label_rule": "owner t718s3708 19.11 03:30 MSK; ops/TOPVIEW-FREE-LAUNCH.md",
+  "browser": "parent-coordinated Grok computerUse helper; UI screenshot kept privately",
+  "board_id": "e4156a8c422a4904b88b7bce6018b796",
+  "model_id": "qwen-wan3.0-video",
+  "duration_seconds": 30,
+  "resolution": 720,
+  "aspect_ratio": "9:16",
+  "topview_status_at_check": "init",
+  "canonical_prompt_sha256": "913f71269e4dc114d5d16b231ddffdac017af523843cf7b4bf5dd62f1d095808",
+  "normalized_prompt_sha256": null,
+  "submitted_prompt_sha256_raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "full_prompt_match": true,
+  "prompt_match_method": "provider positivePrompt with <<<ImageN>>> chips mapped to @ImageN equals canonical block ignoring whitespace",
+  "submitted_prompt_verbatim": null,
+  "references": [
+    {
+      "slot": "@Image1",
+      "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC01-dacha-v3.png",
+      "sha256": "e40fecded4d642945e916419ed6385d2040344738d77c5d1959a8d6350c8010e",
+      "provider_input": "Image1"
+    },
+    {
+      "slot": "@Image2",
+      "path": "projects/stikhiy/references/scenes/scene-1/S6-LOC-dacha-shower.png",
+      "sha256": "c11129f42a7288629c17eb79b3f53a9cede2b976eb71bb3e5f5ca7b813b0d04f",
+      "provider_input": "Image2"
+    },
+    {
+      "slot": "@Image3",
+      "path": "projects/stikhiy/references/scenes/scene-1/S6-Arkady-Head-V2.webp",
+      "sha256": "751092a5f51e3c8343a6aee125b0328300b35e3d8bb6d5e718b5bd65c295fe2d",
+      "provider_input": "Image3"
+    },
+    {
+      "slot": "@Image4",
+      "path": "projects/stikhiy/references/scenes/scene-1/S6-Nadezhda-Head-V2.webp",
+      "sha256": "605e99dcd85c39f16b48bb0907cfaba69ddd9aa2a1fe471fa707cbd43f81debd",
+      "provider_input": "Image4"
+    },
+    {
+      "slot": "@Image5",
+      "path": "projects/stikhiy/references/scenes/scene-1/S6-Stakhiy-age-1-Head-V2.webp",
+      "sha256": "6c6c3c379444bcf95d4ad5969685c4124ae45d1189199af19c58ed5853023511",
+      "provider_input": "Image5"
+    },
+    {
+      "slot": "@Image6",
+      "path": "projects/stikhiy/references/scenes/scene-1/S6-Petr-Head-V2.webp",
+      "sha256": "4a8749e7b81a5f499447d460f361120b0fbd93336304fd921f4e29c5d8f705fa",
+      "provider_input": "Image6"
+    },
+    {
+      "slot": "@Image7",
+      "path": "projects/stikhiy/references/scenes/scene-1/S6-Nina-Head-V2.webp",
+      "sha256": "df7a713b2097a6f4edf67bc6137b8492162e92ea6318c38485b6620fabe468b0",
+      "provider_input": "Image7"
+    },
+    {
+      "slot": "@Image8",
+      "path": "projects/stikhiy/references/scenes/scene-1/S6-Vladimir-Head-V2.webp",
+      "sha256": "dda42e6d61565f6c71d744627555f7193dfa992285b6a0228093b3e1e6032666",
+      "provider_input": "Image8"
+    }
+  ],
+  "reference_count": 8,
+  "reference_sha_and_order_verified": "repo SHA verified before upload; provider stores re-encoded copies, order Image1..8 matches",
+  "claim_before_submission": {
+    "claim_id": "650e5969-232f-4cf1-8b9a-d672e078cbf9",
+    "intent_id": "1609f03f-2384-47cc-8ddc-fd6bc8f8cbf9",
+    "intent_at": "2026-11-27T13:32:48Z",
+    "intent_payload_sha256": "6767602be2d84954d48c8fdd471a0bdfe8a634b68265cd25ba139bfc6c54c0e5",
+    "verify_main": "58ab03d4b0c293c66259a736f88abde3241483db",
+    "lease_holder": "grok:a89c9106-b3cc-452a-a7b0-215592fff60f"
+  },
+  "trigger": "owner t980u 2026-11-26T22:27:00Z (commit 73f29ab5b, policy owner_policy_20261127_t980u); wake #1095",
+  "event_id": "result:a841c617d6ee4590adde0f8377ed43b9",
+  "issue_number": 1095,
+  "evidence": {
+    "detection": "topview_list_board_tasks newest on My First Board + topview_get_board_task",
+    "credits_balance_ui": "11.05 before/after"
+  },
+  "artistic_acceptance": "pending_owner_review",
+  "retry_forbidden": true
+}

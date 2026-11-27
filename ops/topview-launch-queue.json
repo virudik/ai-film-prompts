@@ -4017,7 +4017,7 @@
       "canonical_block_label": "1 · Wan 3.0 1-W01",
       "canonical_prompt_sha256": "913f71269e4dc114d5d16b231ddffdac017af523843cf7b4bf5dd62f1d095808",
       "priority": 0.001,
-      "state": "submitting",
+      "state": "submitted",
       "model": "Wan 3.0",
       "mode": "omni_reference",
       "duration_seconds": 30,
@@ -4081,7 +4081,7 @@
           "required": true
         }
       ],
-      "task_id": null,
+      "task_id": "24fb1b34b52b442aaef1a14b208bb419",
       "claim": {
         "claim_id": "650e5969-232f-4cf1-8b9a-d672e078cbf9",
         "execution_instance_id": "a89c9106-b3cc-452a-a7b0-215592fff60f",
@@ -4189,7 +4189,16 @@
         "anchor": "1-W01",
         "fence": "first ```text block after the anchor",
         "sha256_of": "fence body rstrip"
-      }
+      },
+      "submitted_at": "2026-11-27T13:33:27Z",
+      "topview_status": "init",
+      "create_click_count": 1,
+      "max_new_submissions_consumed": 1,
+      "creditsCost": 0,
+      "receipt": "reports/topview-queue-2026-10-16/1-W01-WAN30-20261127T133327Z.json",
+      "replay_forbidden": true,
+      "no_second_create": true,
+      "normalized_prompt_match": true
     },
     {
       "id": "1-W02-WAN30",
