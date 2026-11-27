@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:d9bae192-aabf-4312-bd46-0fc1e148cffd",
-  "task": "Стахий: оригиналы PNG, очередь Wan 3.0",
-  "acquired_at": "2026-11-26T22:50:04Z",
-  "expires_at": null,
-  "released_at": "2026-11-26T22:52:41Z",
+  "state": "held",
+  "holder": "grok:4a22807c-12f9-499e-aef4-e9ad02420b77",
+  "task": "Стахий: версия Grok на сайте",
+  "acquired_at": "2026-11-27T00:16:10Z",
+  "expires_at": "2026-11-27T01:01:10Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "stikhiy"
 }
