@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-27T13:26:08Z",
+  "checked_at": "2026-11-27T13:27:35Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "full",
@@ -51,7 +51,7 @@
       "caa5d8898f14442ea37c3278d156b3fe": 59,
       "1a6244cf1ae747ef847d949a80d6133c": 750
     },
-    "last_full_scan_at": "2026-11-27T13:26:08Z"
+    "last_full_scan_at": "2026-11-27T13:27:35Z"
   },
   "slots": {
     "capacity": 6,
@@ -72,7 +72,7 @@
       "scene_id": 28,
       "mapping": "task_map",
       "queue_count": 2338,
-      "wait_seconds": 85360,
+      "wait_seconds": 85272,
       "process_seconds": null
     },
     {
@@ -85,7 +85,7 @@
       "scene_id": 89,
       "mapping": "task_map",
       "queue_count": 3215,
-      "wait_seconds": 137200,
+      "wait_seconds": 137112,
       "process_seconds": null
     },
     {
@@ -98,7 +98,7 @@
       "scene_id": 89,
       "mapping": "task_map",
       "queue_count": 2926,
-      "wait_seconds": 119920,
+      "wait_seconds": 119831,
       "process_seconds": null
     },
     {
@@ -111,7 +111,7 @@
       "scene_id": 89,
       "mapping": "task_map",
       "queue_count": 2635,
-      "wait_seconds": 102640,
+      "wait_seconds": 102551,
       "process_seconds": null
     },
     {
@@ -124,7 +124,7 @@
       "scene_id": 28,
       "mapping": "task_map",
       "queue_count": 3936,
-      "wait_seconds": 180400,
+      "wait_seconds": 180311,
       "process_seconds": null
     }
   ],
@@ -142,7 +142,7 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-11-27T13:10:43Z",
-    "monitor_age_minutes": 15,
+    "monitor_age_minutes": 17,
     "monitor_occupied": 5,
     "robot_occupied": 5,
     "consistent": true,
