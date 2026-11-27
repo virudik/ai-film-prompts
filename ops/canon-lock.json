@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:d9bae192-aabf-4312-bd46-0fc1e148cffd",
-  "task": "Сайт: полноразмерные оригиналы PNG по клику (t987u); очередь Wan 3.0 Стахия в корень, 9:16 для stikhiy (t980u)",
-  "acquired_at": "2026-11-26T22:50:01Z",
-  "expires_at": null,
-  "released_at": "2026-11-26T22:52:44Z",
+  "state": "held",
+  "holder": "grok:4a22807c-12f9-499e-aef4-e9ad02420b77",
+  "task": "Стахий: версия Grok — 18 клипов и монтаж 03:52 на сайте (owner t980u/t990u)",
+  "acquired_at": "2026-11-27T00:16:08Z",
+  "expires_at": "2026-11-27T01:01:08Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
