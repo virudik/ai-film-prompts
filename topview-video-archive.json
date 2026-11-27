@@ -1398,6 +1398,21 @@
       "yandex_public_key": "https://yadi.sk/i/42oT99iiD4xyaA",
       "yandex_verified_at": "2026-11-25T23:37:08Z"
     },
+    "a841c617d6ee4590adde0f8377ed43b9": {
+      "archived_at": "2026-11-27T13:15:27Z",
+      "label": "Seedance-2.0",
+      "md5": "c9711b9b08129dd37bc5fbc13c7817d2",
+      "part": "A8",
+      "project": "seregius",
+      "scene_id": 28,
+      "sha256": "1908cad10b943bd3cef46d3d4226193cc9d316426c730ae77fd25ef8f3499aaa",
+      "size_bytes": 11729172,
+      "source": "topview",
+      "task_id": "a841c617d6ee4590adde0f8377ed43b9",
+      "yandex_path": "Нейровидео/Серёгиус/. Topview/2026-11-27/S28_Seedance-2.0_a841c617d6ee4590adde0f8377ed43b9.mp4",
+      "yandex_public_key": "https://yadi.sk/i/P1vq8n8mxZAQng",
+      "yandex_verified_at": "2026-11-27T13:15:27Z"
+    },
     "abb161edcf5c4b58b91460677939b5d3": {
       "archived_at": "2026-11-08T15:05:34Z",
       "drive_url": "https://drive.google.com/file/d/1SbiKvBs58kZeEzNEYQYHfA40FL2_og8Y/view",
