@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-27T13:14:07+00:00",
-  "source_head": "3fd5f64b718542eee00ca0890ac49a5c8db04111",
-  "source_fingerprint": "446729515a9e6b45fbd1ec757e5b0cb4515da049d92a01b48c2e3014e86fa652",
+  "checked_at": "2026-11-27T13:29:00+00:00",
+  "source_head": "c722152cc952f2c61ac17b04a44f7e94922e590e",
+  "source_fingerprint": "d562d3e2b66c86bc4410ea196e0ff97fa88c4ecafac0492117fb85772228cc2a",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -181,6 +181,13 @@
       {
         "item_id": "S89F-WAN30-R2",
         "state": "submitting",
+        "task_id": null,
+        "recovery_action": "reconcile_without_resubmitting",
+        "submit_authorized": false
+      },
+      {
+        "item_id": "1-W01-WAN30",
+        "state": "claimed",
         "task_id": null,
         "recovery_action": "reconcile_without_resubmitting",
         "submit_authorized": false
@@ -623,13 +630,6 @@
     ],
     "next_candidates": [
       {
-        "item_id": "1-W01-WAN30",
-        "state": "waiting_for_slot",
-        "task_id": null,
-        "recovery_action": "fresh_launch_preflight_required",
-        "submit_authorized": false
-      },
-      {
         "item_id": "1-W02-WAN30",
         "state": "waiting_for_slot",
         "task_id": null,
@@ -638,6 +638,13 @@
       },
       {
         "item_id": "1-W03-WAN30",
+        "state": "waiting_for_slot",
+        "task_id": null,
+        "recovery_action": "fresh_launch_preflight_required",
+        "submit_authorized": false
+      },
+      {
+        "item_id": "1-W04-WAN30",
         "state": "waiting_for_slot",
         "task_id": null,
         "recovery_action": "fresh_launch_preflight_required",
@@ -699,8 +706,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "aab056912c653f5e5ef22acfd2b3643cac16d619eaf05e96a908718a9a8d1cb1",
-      "bytes": 318300
+      "sha256": "118b93d07cce28ed4a0355bbd922bf9a772f57bd39b828eaa3c4f600670f0188",
+      "bytes": 322399
     },
     {
       "file": "project-status.json",
@@ -743,5 +750,5 @@
       "bytes": 95324
     }
   ],
-  "packet_bytes": 5241
+  "packet_bytes": 5287
 }
