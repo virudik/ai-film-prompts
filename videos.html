@@ -92,7 +92,7 @@ Promise.all([get('topview-video-archive.json'),get('film-order.json'),get('video
  const groups=[...new Set(videos.map(v=>String(v.e.group||'').trim()).filter(Boolean))];
  // Count every scene that has videos, including scenes shown only as named groups (e.g. «Сцена 1 · Версия Grok»).
  const sceneN=new Set(videos.map(v=>v.scene)).size;
- $('sub').innerHTML=videos.length+' роликов · '+sceneN+' сцен'+(groups.length?' · '+groups.map(esc).join(', '):'')+' · с Яндекс Диска '+ya+(AIFP.isRoot?' · <a href="'+DRIVE_FOLDER+'" target="_blank" rel="noopener noreferrer">📁 запасная папка в Google Drive</a>':'');
+ const ruN=(n,a,b,c)=>{const m=n%100,k=n%10;return n+' '+(m>10&&m<20?c:k==1?a:k>1&&k<5?b:c)};$('sub').innerHTML=ruN(videos.length,'ролик','ролика','роликов')+' · '+ruN(sceneN,'сцена','сцены','сцен')+(groups.length?' · '+groups.map(esc).join(', '):'')+' · с Яндекс Диска '+ya+(AIFP.isRoot?' · <a href="'+DRIVE_FOLDER+'" target="_blank" rel="noopener noreferrer">📁 запасная папка в Google Drive</a>':'');
  render();$('filter').oninput=render;
  const want=new URLSearchParams(location.search).get('task');const v=want&&videos.find(x=>x.task===want);if(v)play(v,false);
 }).catch(e=>{$('list').innerHTML='<div class="err">Не удалось загрузить список: '+esc(e.message)+'</div>'});
