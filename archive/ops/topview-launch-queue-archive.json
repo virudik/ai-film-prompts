@@ -3,6 +3,349 @@
   "description": "Finished launch-queue items moved verbatim at the weekly cleanup; newest first. History only: never relaunch from here.",
   "items": [
     {
+      "id": "S28-A4-20261023",
+      "scene_id": 28,
+      "prompt_id": "A4",
+      "canonical_block_label": "28 A4",
+      "canonical_prompt_sha256": "58a35e7fcf3c9cf21693f730bda492729fea678abd8f918a644c6eb0a3fa53e7",
+      "normalized_prompt_sha256": "af54a74de6f46231c0fd0bbb27cc6fc1668175903a9668784f35bd065ee2d36b",
+      "priority": 0.31,
+      "state": "submitted",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "role": "location",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/pasha.jpg",
+          "sha256": "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/sasha.jpg",
+          "sha256": "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": "3644ab40a51c428b9e733aaba2c1c24b",
+      "claim": {
+        "claim_id": "bd65db7f-d46c-47f3-a9df-c54db55e8599",
+        "execution_instance_id": "b9d9940c-9567-40f9-9ba1-387c936afb7d",
+        "route_generation": 7,
+        "source_sha": "5ddcce024296ddd5534950e0427116fce885eb90",
+        "claimed_at": "2026-11-20T07:18:08Z",
+        "lease_holder": "grok:b9d9940c-9567-40f9-9ba1-387c936afb7d",
+        "lease_acquired_at": "2026-11-20T07:16:23Z",
+        "preflight": {
+          "owner_authorized": true,
+          "prompt_match": true,
+          "input_sha_match": true,
+          "input_order_match": true,
+          "qc_passed": true,
+          "website_unlimited": true,
+          "unlimited_mode_selected": true,
+          "ui_prompt_exact": true,
+          "numeric_zero_displayed": false,
+          "paid_credit_mode_selected": false,
+          "credits_cost": 0,
+          "credits_cost_evidence": "selected_free_unlimited_current_form",
+          "ui_unlimited_label": "Безлимитный режим — бесплатно",
+          "quantity": 1,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "model_id": "seedance-2.0-style",
+          "duration_seconds": 15,
+          "prompt_sha256": "58a35e7fcf3c9cf21693f730bda492729fea678abd8f918a644c6eb0a3fa53e7",
+          "reference_sha256": [
+            "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+            "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
+            "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102"
+          ],
+          "form_evidence": {
+            "checked_at_msk": "2026-11-20 10:15 МСК",
+            "url": "https://www.topview.ai/board/1a6244cf1ae747ef847d949a80d6133c?tool-type=video-edit",
+            "mode": "Омни-референс / Seedance 2.0, 16:9, 15s, HD 720p, Количество 1; Авто повышение качества и Поиск в интернете выкл",
+            "payment": "Безлимитный режим — бесплатно выбран (Загружено, большая очередь), Кредитный режим не выбран, кнопка Создать без цены, баланс 11.05",
+            "refs_order": [
+              "1-H28B-disco.png",
+              "2-pasha.jpg",
+              "3-sasha.jpg"
+            ],
+            "prompt_dom_check": "3 чипа @Image1..3 в REFERENCES, вставка 4823 символа, readback editor-readback.txt cmp = prompt.txt sha256 58a35e7f…53e7"
+          },
+          "owner_free_label_decision": {
+            "host_address": "t718s3708 answer",
+            "at": "2026-11-19T00:30:00Z",
+            "role": "user",
+            "text": "Да, «Безлимитный режим» без цены считай бесплатным, запускай"
+          }
+        },
+        "coordination_version": 2,
+        "submission_intent_id": "2ffe82ab-1a1b-450d-9691-5b4f695f236f",
+        "submission_intent_at": "2026-11-20T07:19:49Z",
+        "replay_forbidden": true,
+        "host_run": {
+          "namespace": "cursor_host",
+          "observation_source": "parent_shell_os_environ",
+          "field": "CURSOR_REQUEST_ID",
+          "value": "4a9dd636-d34e-454d-a318-787b5aef80ec",
+          "conversation_field": "CURSOR_CONVERSATION_ID",
+          "conversation_id": "1c1bf697-3c93-4068-b457-e90efdd5ef8f",
+          "standing_command_id": "t413u-20261109"
+        },
+        "provider_run_key": "9b8aea63579d998981fd8be5d1e0f2477eb5784bb2f7c8648587e1a5949150e7",
+        "owner_event_keys": [
+          "64ce800988fb3f0ae12ac0f0910eea2b82392586d83a983b616a6d9d3e2e77af"
+        ],
+        "ledger_path": "ops/launcher-run-ledger.json",
+        "trigger": "owner_command",
+        "owner_command": {
+          "quote": "Говорю запускай значит запускай. Зачем спрашивать по 10 раз если есть уже согласованная очередь запуска",
+          "source": "cursor_host",
+          "at": "2026-11-09T08:25:00Z",
+          "standing_command_id": "t413u-20261109",
+          "standing_host_address": "t413u"
+        },
+        "intent_payload_sha256": "bd1f835a5c3f6922e1153d2059ff93eb637f2a27a32eced23ef9cf69b09c2903"
+      },
+      "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
+      "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
+      "blocker": null,
+      "launch_readiness": "authorized_inputs_available",
+      "result_review_required": true,
+      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
+      "editorial_completion": false,
+      "previous_prompt_sha256": [
+        "59a3173102b1f175977f23e68d85ae78918861af19fca243ec372517c903a6f9",
+        "daef3177300a02d2d5fdc4236cdede179326c40e298811c70c8501bd4861ec3b",
+        "f0002100d788d6c7d390b3c5f3096ebc9cdac7b015d8f1c20ec35f44d3771e75"
+      ],
+      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted.",
+      "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted.",
+      "owner_music_consent": true,
+      "owner_music_consent_record": {
+        "id": "owner-20261113-t601u",
+        "at_local": "2026-11-13T14:40 Europe/Moscow",
+        "also": [
+          "t576u",
+          "t578u"
+        ],
+        "quote": "Порядок очереди запуска: 1) S48-P4-R2; 2) совет джедаев на балконе S89A–S89E и голограммы S89F–S89G; 3) оставшиеся танцы сцены 28; 4) остальные разговорные S89H–S89J. Это согласие запускать танцы 28 в этом месте очереди.",
+        "scope": "remaining scene 28 dances listed in owner_policy_20261113_t601u only",
+        "not_consent_for_other_music": true
+      },
+      "submitted_at": "2026-11-20T07:20:40Z",
+      "topview_status": "init",
+      "create_click_count": 1,
+      "max_new_submissions_consumed": 1,
+      "creditsCost": 0,
+      "receipt": "reports/topview-queue-2026-10-16/S28-A4-20261023-20261120T072040Z.json",
+      "replay_forbidden": true,
+      "no_second_create": true,
+      "normalized_prompt_match": true
+    },
+    {
+      "id": "S28-A2-R2-20261025",
+      "scene_id": 28,
+      "prompt_id": "A2",
+      "canonical_block_label": "28 A2",
+      "canonical_prompt_sha256": "f9b7c8b25cdd8cbf0794a6477b75d8e3933ded1c310e64835f3ff5c7f8345286",
+      "normalized_prompt_sha256": "c954e5d931b776add7de7bf1916a6a12c621cff30edb5d8b7cbcc19ebb95726d",
+      "priority": 0.309,
+      "state": "submitted",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "role": "location",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/yulya.jpg",
+          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-28/P28-pair-facing.webp",
+          "sha256": "09e3a7e171c0843210d0a4e26d47dfdfce61d038446c7feb2387beeb10a8d1f7",
+          "role": "pose_composition_helper",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
+      "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
+      "blocker": null,
+      "launch_readiness": "authorized_inputs_available",
+      "result_review_required": true,
+      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
+      "editorial_completion": false,
+      "task_id": "55dadcb20d2b48a09d1b2b6b4ba0d9ea",
+      "claim": {
+        "claim_id": "3fe88f12-930a-4123-93ea-0c45c866b8f2",
+        "execution_instance_id": "291fb5d7-580a-4feb-8c3e-4fbd7ee2727a",
+        "route_generation": 7,
+        "source_sha": "92cd463fd31f42642ab740eb0b1b6362967a2806",
+        "claimed_at": "2026-11-19T21:36:45Z",
+        "lease_holder": "grok:291fb5d7-580a-4feb-8c3e-4fbd7ee2727a",
+        "lease_acquired_at": "2026-11-19T21:34:54Z",
+        "preflight": {
+          "owner_authorized": true,
+          "prompt_match": true,
+          "input_sha_match": true,
+          "input_order_match": true,
+          "qc_passed": true,
+          "website_unlimited": true,
+          "unlimited_mode_selected": true,
+          "ui_prompt_exact": true,
+          "numeric_zero_displayed": false,
+          "paid_credit_mode_selected": false,
+          "credits_cost": 0,
+          "credits_cost_evidence": "selected_free_unlimited_current_form",
+          "ui_unlimited_label": "Безлимитный режим — бесплатно",
+          "quantity": 1,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "model_id": "seedance-2.0-style",
+          "duration_seconds": 15,
+          "prompt_sha256": "f9b7c8b25cdd8cbf0794a6477b75d8e3933ded1c310e64835f3ff5c7f8345286",
+          "reference_sha256": [
+            "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+            "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+            "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+            "09e3a7e171c0843210d0a4e26d47dfdfce61d038446c7feb2387beeb10a8d1f7"
+          ],
+          "form_evidence": {
+            "checked_at_msk": "2026-11-20T00:29",
+            "mode": "Омни-референс / Seedance 2.0, 16:9, 15s, HD 720p, Количество 1; Авто повышение качества и Поиск в интернете выкл",
+            "payment": "Безлимитный режим — бесплатно выбран, Кредитный режим не выбран, кнопка Создать без цены",
+            "refs_order": [
+              "H28B-disco.png",
+              "serega.jpg",
+              "yulya.jpg",
+              "P28-pair-facing.webp"
+            ],
+            "prompt_dom_check": "4 чипа @Image1..4, счётчик 5322/10000, readback form-prompt-chips.txt sha256 f9b7c8b2…5286 = canonical"
+          }
+        },
+        "coordination_version": 2,
+        "submission_intent_id": "b8630301-69a4-4c96-b7cc-1b97ad72996c",
+        "submission_intent_at": "2026-11-19T21:38:32Z",
+        "replay_forbidden": true,
+        "host_run": {
+          "namespace": "cursor_host",
+          "observation_source": "parent_shell_os_environ",
+          "field": "CURSOR_REQUEST_ID",
+          "value": "3c6ed61a-6fde-4555-a5b6-75982eea0185",
+          "conversation_field": "CURSOR_CONVERSATION_ID",
+          "conversation_id": "1c1bf697-3c93-4068-b457-e90efdd5ef8f",
+          "owner_response_kind": "answered_card",
+          "owner_response_to_card_address": "t746s3893",
+          "owner_response_role": "user",
+          "current_owner_response_message_address": null
+        },
+        "provider_run_key": "ad11de5b791a8486b6a8b80133f59aacd705daa9a8d7e07ed83ac059bb89d6e1",
+        "owner_event_keys": [
+          "5e8567b45ea06a9969738c83c7cef1ccf628b4f69cebf25f67d15c14a65cc087"
+        ],
+        "ledger_path": "ops/launcher-run-ledger.json",
+        "trigger": "owner_command",
+        "owner_command": {
+          "quote": "Да, запускай S28-A2-R2",
+          "source": "cursor_host",
+          "at": "2026-11-19T21:32:00Z",
+          "owner_response_to_card_address": "t746s3893",
+          "owner_response_role": "user",
+          "current_owner_response_message_address": null
+        },
+        "intent_payload_sha256": "cfdd0d4ac51d11a450c0a3da4a6d2937e4103ef0c7454296562dbe80a2899fc5"
+      },
+      "rerender_of_item_id": "S28-A2-20261023",
+      "rerender_of_task_id": "8a8eadc809004e318c47201b8a463be0",
+      "rerender_authorized": true,
+      "rerender_authorized_at": "2026-10-25T09:29:18.695660Z",
+      "rerender_reason": "Owner25Oct: старые варианты были неудачные, их не учитывать отработанными",
+      "terminal_dependency_policy": "This predecessor is a duplicate-prevention gate, not a visual input. After terminal success OR fail and QC evidence, remove this depends_on_completed entry, set waiting_for_slot, preserve prior task; do not require a successful failed take and do not resurrect a one-test owner gate. Existing normalized match is allowed only for this explicit owner-authorized rerender, never for a second submission of this new item.",
+      "previous_prompt_sha256": [
+        "24772bbc7e879e0700b75371e15607b0255e9a2b2555be4e7bc701fddb35bcce",
+        "ccb820faa2125c4b4060004847135a3eabbdbbc66967c84bff930d48b217eb3e",
+        "a2c3a34b501d1dc4907d15a91b93a896e6cbc76a9393f9a9271aca58ac3a87fa"
+      ],
+      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted.",
+      "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted.",
+      "terminal_qc_gate_cleared_at": "2026-10-29T07:08:00Z",
+      "terminal_qc_report": "reports/topview-quality-2026-10-23/S28-A2-20261023-review.json",
+      "terminal_qc_result": "critical_defect_not_owner_approved",
+      "terminal_qc_note": "Predecessor terminal/QC duplicate-prevention gate is satisfied. This does not approve the predecessor or trigger an automatic retry; the separate R2 remains limited to its existing owner25Oct authorization and one future free submission.",
+      "owner_music_consent": true,
+      "owner_music_consent_record": {
+        "id": "owner-20261113-t601u",
+        "at_local": "2026-11-13T14:40 Europe/Moscow",
+        "also": [
+          "t576u",
+          "t578u"
+        ],
+        "quote": "Порядок очереди запуска: 1) S48-P4-R2; 2) совет джедаев на балконе S89A–S89E и голограммы S89F–S89G; 3) оставшиеся танцы сцены 28; 4) остальные разговорные S89H–S89J. Это согласие запускать танцы 28 в этом месте очереди.",
+        "scope": "remaining scene 28 dances listed in owner_policy_20261113_t601u only",
+        "not_consent_for_other_music": true
+      },
+      "submitted_at": "2026-11-19T21:39:23Z",
+      "topview_status": "init",
+      "create_click_count": 1,
+      "max_new_submissions_consumed": 1,
+      "creditsCost": 0,
+      "receipt": "reports/topview-queue-2026-10-16/S28-A2-R2-20261025-20261119T213923Z.json",
+      "replay_forbidden": true,
+      "no_second_create": true,
+      "normalized_prompt_match": true
+    },
+    {
       "id": "S28-A1-R2-20261025",
       "scene_id": 28,
       "prompt_id": "A1",
