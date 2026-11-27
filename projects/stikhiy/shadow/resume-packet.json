@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "stikhiy",
   "project_name": "Стахий",
-  "checked_at": "2026-11-27T13:43:44+00:00",
-  "source_head": "c60deadc8aa84890b14aea66645933771415bb49",
-  "source_fingerprint": "6bb54e3083e730d56374dcb4bcb53efca72258b637c2024755a4f2f4e9ad895f",
+  "checked_at": "2026-11-27T14:01:46+00:00",
+  "source_head": "267c641430bb7d714a3c400025996226d7bfee4a",
+  "source_fingerprint": "9f9008575b2185e2905ffec001a33293d9ccad1df9587e0b0bde972a8d269207",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -235,7 +235,7 @@
     },
     {
       "file": "projects/stikhiy/project-status.json",
-      "sha256": "07d265074b638872a48810617fc253e41a2e6fb5f667088424e1560dc5dba432",
+      "sha256": "d318e6d971b75529b83f9c1ffe14b8b47010504e9ad2cc91610509cfa186f492",
       "bytes": 8333
     },
     {
@@ -260,8 +260,8 @@
     },
     {
       "file": "projects/stikhiy/video-prompts.md",
-      "sha256": "8775c481c8e21a2466ac5da486605d9d857c3ce10cb7974e30ecb64082c93379",
-      "bytes": 283691
+      "sha256": "372f96066c5eeca579dec6b154c832cd8e0e34c90dd6b44c1e91d33c016a79c1",
+      "bytes": 285729
     },
     {
       "file": "projects/stikhiy/work-resume-register.json",
