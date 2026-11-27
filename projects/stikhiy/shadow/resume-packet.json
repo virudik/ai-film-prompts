@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "stikhiy",
   "project_name": "Стахий",
-  "checked_at": "2026-11-27T23:13:42+00:00",
-  "source_head": "21646a30df55289cb7c80ff6b5d4146708d9ccc7",
-  "source_fingerprint": "e1c29286917c3d97f4a180ee895b1bdd2b044604a18c31807c3e75f2f1c08f8f",
+  "checked_at": "2026-11-27T23:23:40+00:00",
+  "source_head": "b84a1f7ac0469131678a2d8d041c225df45e4363",
+  "source_fingerprint": "ce66052aec202e76aaaa9d6851415a0c3c4121c6b6219c85ca871d392451f341",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -235,8 +235,8 @@
     },
     {
       "file": "projects/stikhiy/project-status.json",
-      "sha256": "615a84a0a440774e692cbf13a7e3db9a7ba24db8c63c15c53d05a6ef94981626",
-      "bytes": 8333
+      "sha256": "b9761e5084c41c7e0930e7596b69dc67403e44a1ffa7fe7e97eb3ccf5acfdd44",
+      "bytes": 8335
     },
     {
       "file": "projects/stikhiy/references/scenes/scene-1/continuity-edit-v2.md",
