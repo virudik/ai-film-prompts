@@ -4017,7 +4017,7 @@
       "canonical_block_label": "1 · Wan 3.0 1-W01",
       "canonical_prompt_sha256": "913f71269e4dc114d5d16b231ddffdac017af523843cf7b4bf5dd62f1d095808",
       "priority": 0.001,
-      "state": "claimed",
+      "state": "submitting",
       "model": "Wan 3.0",
       "mode": "omni_reference",
       "duration_seconds": 30,
@@ -4149,7 +4149,33 @@
             "ui_unlimited_label_note": "UI показывает «Безлимитный режим» без «— бесплатно»; по решению владельца t718s3708 безлимит без цены считается бесплатным"
           }
         },
-        "coordination_version": 2
+        "coordination_version": 2,
+        "submission_intent_id": "1609f03f-2384-47cc-8ddc-fd6bc8f8cbf9",
+        "submission_intent_at": "2026-11-27T13:32:48Z",
+        "replay_forbidden": true,
+        "host_run": {
+          "namespace": "cursor_host",
+          "observation_source": "parent_shell_os_environ",
+          "field": "CURSOR_REQUEST_ID",
+          "value": "b53fad83-3f48-4d9f-a6f5-48da4fd9a45e",
+          "conversation_field": "CURSOR_CONVERSATION_ID",
+          "conversation_id": "1c1bf697-3c93-4068-b457-e90efdd5ef8f",
+          "standing_command_id": "t413u-20261109"
+        },
+        "provider_run_key": "d20307cbcf2822d2d01166a4af97b4f896129105c1c5e85d5774a3d0dacad014",
+        "owner_event_keys": [
+          "329b3382bbe9ef6e5e2cd00ae4c7f26cfaa2251f883d5f2ea815c6edfdeeda6e"
+        ],
+        "ledger_path": "ops/launcher-run-ledger.json",
+        "trigger": "owner_command",
+        "owner_command": {
+          "quote": "Говорю запускай значит запускай. Зачем спрашивать по 10 раз если есть уже согласованная очередь запуска",
+          "source": "cursor_host",
+          "at": "2026-11-09T08:25:00Z",
+          "standing_command_id": "t413u-20261109",
+          "standing_host_address": "t413u"
+        },
+        "intent_payload_sha256": "6767602be2d84954d48c8fdd471a0bdfe8a634b68265cd25ba139bfc6c54c0e5"
       },
       "blocker": null,
       "launch_readiness": "authorized_inputs_available",
