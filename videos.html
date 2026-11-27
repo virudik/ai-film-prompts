@@ -86,7 +86,8 @@ Promise.all([get('topview-video-archive.json'),get('film-order.json'),get('video
   .map(([t,e])=>{const dg=a?.default_group_by_source;if(!e.group&&dg&&typeof dg==='object'){const g=dg[e.source||'topview'];if(typeof g==='string'&&g)e=Object.assign({},e,{group:g})}return {task:t,e,scene:sceneOf(e),at:e.archived_at||'',size:Number(e.size_bytes)||0}});
  // versions numbered per scene in archive order (oldest = 1)
  const per=new Map();list.sort((x,y)=>x.scene-y.scene||String(x.at).localeCompare(String(y.at))).forEach(v=>{const k=v.scene+'|'+String(v.e.group||'');const n=(per.get(k)||0)+1;per.set(k,n);v.n=n});
- videos=list.sort((x,y)=>x.scene-y.scene||y.n-x.n);
+ // Plain scene versions: newest first. A named group (e.g. clips of one cut) keeps its story order.
+ videos=list.sort((x,y)=>x.scene-y.scene||String(x.e.group||'').localeCompare(String(y.e.group||''))||(x.e.group?x.n-y.n:y.n-x.n));
  const ya=videos.filter(v=>VS.yandexKey(v.e)).length;
  const groups=[...new Set(videos.map(v=>String(v.e.group||'').trim()).filter(Boolean))];
  const sceneN=new Set(videos.filter(v=>!v.e.group).map(v=>v.scene)).size;
