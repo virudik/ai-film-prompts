@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/projects/kotmonavty/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-27T08:02:30Z",
+  "synced_at": "2026-11-27T11:02:31Z",
   "revision_date": "26.11.2026",
   "master_declared_last_full_sync": "30.10.2026 · два готовых результата (2/22) и два платных запуска в обработке (4/9); полные промпты и параметры подтверждены; изображения не изменены",
   "canonical_master_sha256": "40c3c06ea2cc64831f2f59e64f465702b7bae4237acdf8f92af1659d07c8cb6d",
@@ -47,7 +47,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 19.419,
+    "age_hours_at_status_build": 22.419,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -125,7 +125,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 19.419,
+      "age_hours": 22.419,
       "blocking": false
     },
     "topview_task_map": {
@@ -552,7 +552,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "26.11.2026",
-    "synced_at": "2026-11-27T08:02:30Z",
+    "synced_at": "2026-11-27T11:02:31Z",
     "canonical_master_sha256": "40c3c06ea2cc64831f2f59e64f465702b7bae4237acdf8f92af1659d07c8cb6d",
     "canonical_revision_sha256": "ff2bdc72fcf0e74ad3fec5e802b1f1de20f8493414a1e313cda4f38d3108e107",
     "scene_count": 22,
