@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "grok:4a22807c-12f9-499e-aef4-e9ad02420b77",
   "task": "GB-51 Стахий: мужской закадр",
   "acquired_at": "2026-11-27T13:59:56Z",
-  "expires_at": "2026-11-27T14:39:56Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-27T14:01:18Z",
   "rules": "ops/CANON-LOCK.md",
   "project": "stikhiy"
 }
