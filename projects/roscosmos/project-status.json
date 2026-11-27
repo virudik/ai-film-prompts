@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/projects/roscosmos/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-27T17:12:29Z",
+  "synced_at": "2026-11-27T20:12:33Z",
   "revision_date": "26.11.2026",
   "master_declared_last_full_sync": "05.11.2026 · Терра Тех 26–30: пять восстановленных PNG ChatGPT на местах, прежние байты как *-old.png, 15 видеопромтов горизонтальные; очередь не менялась",
   "canonical_master_sha256": "6483a585291928b56b4071c88d7f88d1beb36367b1a3446d4e978fbbcb9a209a",
@@ -55,7 +55,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 4.822,
+    "age_hours_at_status_build": 7.823,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -133,7 +133,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 4.822,
+      "age_hours": 7.823,
       "blocking": false
     },
     "topview_task_map": {
@@ -752,7 +752,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "26.11.2026",
-    "synced_at": "2026-11-27T17:12:29Z",
+    "synced_at": "2026-11-27T20:12:33Z",
     "canonical_master_sha256": "6483a585291928b56b4071c88d7f88d1beb36367b1a3446d4e978fbbcb9a209a",
     "canonical_revision_sha256": "ab163ae09a2f54a9687239da1c032e8e64fc93b838f62c1e568e16800fdbbe40",
     "scene_count": 30,
