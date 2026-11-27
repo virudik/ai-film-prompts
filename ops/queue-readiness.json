@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "aab056912c653f5e5ef22acfd2b3643cac16d619eaf05e96a908718a9a8d1cb1",
+  "source_queue_sha256": "118b93d07cce28ed4a0355bbd922bf9a772f57bd39b828eaa3c4f600670f0188",
   "source_task_map_sha256": "9181be0ecb3ded1de010f21d50a2edbb12b9d26bbb21bbf2c390b1d9fb1978a8",
   "topview_checked_at": "2026-11-27T13:10:43Z",
   "items": [
@@ -134,10 +134,10 @@
       "id": "1-W01-WAN30",
       "scene_id": 1,
       "part_label": "1 · Wan 3.0 1-W01",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
-      "queue_state": "waiting_for_slot"
+      "code": "preflight_required",
+      "ready": false,
+      "text": "Входы найдены; требуется снять записанный блокер после проверки",
+      "queue_state": "claimed"
     },
     {
       "id": "1-W02-WAN30",
@@ -222,5 +222,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-27T13:11:01.554450Z"
+  "checked_at": "2026-11-27T13:28:57.199443Z"
 }
