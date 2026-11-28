@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/projects/stikhiy/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-27T23:22:30Z",
+  "synced_at": "2026-11-28T02:22:32Z",
   "revision_date": "27.11.2026",
   "master_declared_last_full_sync": "27.11.2026 · ответы владельца (конец 1980-х; брат и сёстры; Юлия вне серии 1; две Ольги не схлопнуты; лица без фото — не блокер). Анатолий на улице — кепка и самокрутка; в помещении самокрутки нет. Развёртки, кроме правки кепки Анатолия, не перерисовывать. Бриф для Dot по пустым локациям дачи 9:16. 25 DRAFT-промтов. Исходные семейные фото не опубликованы. Запуск не разрешён.",
   "canonical_master_sha256": "372f96066c5eeca579dec6b154c832cd8e0e34c90dd6b44c1e91d33c016a79c1",
@@ -26,7 +26,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 10.989,
+    "age_hours_at_status_build": 13.989,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -104,7 +104,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 10.989,
+      "age_hours": 13.989,
       "blocking": false
     },
     "topview_task_map": {
@@ -138,7 +138,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "27.11.2026",
-    "synced_at": "2026-11-27T23:22:30Z",
+    "synced_at": "2026-11-28T02:22:32Z",
     "canonical_master_sha256": "372f96066c5eeca579dec6b154c832cd8e0e34c90dd6b44c1e91d33c016a79c1",
     "canonical_revision_sha256": "0467e693c2ddf84e9e7ade7a5daba724a8b7f076849364f1085681e8683c92a0",
     "scene_count": 1,
