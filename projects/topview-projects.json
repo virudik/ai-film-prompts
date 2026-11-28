@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-28T12:30:34Z",
+  "checked_at": "2026-11-28T13:10:31Z",
   "updated_by": "GitHub robot (robot_telemetry.py)",
   "rules": "projects/README.md",
   "note": "Задачи Topview других проектов (не Серёгиуса). Слоты общие: занято на аккаунте = topview-status.json.occupied_slots + число active здесь. Технический success ≠ одобрение.",
@@ -12,8 +12,8 @@
       "model": "Wan 3.0",
       "status": "init",
       "started_at": "2026-11-27T13:33:27Z",
-      "queue_count": 2836,
-      "wait_seconds": 114615,
+      "queue_count": 2796,
+      "wait_seconds": 112320,
       "label": "1 · Wan 3.0",
       "part": "Wan 3.0",
       "confidence": "prompt normalized match with project stikhiy master block 1 · Wan 3.0 (robot)"
