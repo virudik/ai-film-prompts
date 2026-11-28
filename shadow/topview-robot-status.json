@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-28T11:50:36Z",
+  "checked_at": "2026-11-28T12:00:36Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -69,8 +69,8 @@
       "model": "Seedance 2.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 237,
-      "wait_seconds": 4694,
+      "queue_count": 216,
+      "wait_seconds": 4094,
       "process_seconds": null
     },
     {
@@ -82,8 +82,8 @@
       "model": "Wan 3.0",
       "scene_id": null,
       "mapping": "unknown_new",
-      "queue_count": 2872,
-      "wait_seconds": 117014,
+      "queue_count": 2875,
+      "wait_seconds": 116413,
       "process_seconds": null
     },
     {
@@ -96,7 +96,7 @@
       "scene_id": 89,
       "mapping": "task_map",
       "queue_count": 1773,
-      "wait_seconds": 56534,
+      "wait_seconds": 55933,
       "process_seconds": null
     },
     {
@@ -109,7 +109,7 @@
       "scene_id": 89,
       "mapping": "task_map",
       "queue_count": 1389,
-      "wait_seconds": 39253,
+      "wait_seconds": 38653,
       "process_seconds": null
     },
     {
@@ -121,8 +121,8 @@
       "model": "Wan 3.0",
       "scene_id": 89,
       "mapping": "task_map",
-      "queue_count": 872,
-      "wait_seconds": 21974,
+      "queue_count": 863,
+      "wait_seconds": 21373,
       "process_seconds": null
     },
     {
@@ -134,8 +134,8 @@
       "model": "Seedance 2.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 2582,
-      "wait_seconds": 99734,
+      "queue_count": 2585,
+      "wait_seconds": 99133,
       "process_seconds": null
     }
   ],
@@ -163,7 +163,7 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-11-28T11:40:38Z",
-    "monitor_age_minutes": 10,
+    "monitor_age_minutes": 20,
     "monitor_occupied": 5,
     "robot_occupied": 6,
     "consistent": false,
