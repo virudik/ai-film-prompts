@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "stikhiy",
   "project_name": "Стахий",
-  "checked_at": "2026-11-28T11:43:37+00:00",
-  "source_head": "216b2085d01aec5b213b484b6498c7b330adc8dd",
-  "source_fingerprint": "230b6e80d0d26d65715fdae774633df0282322698956b477af9d33bdcef1a57d",
+  "checked_at": "2026-11-28T11:53:56+00:00",
+  "source_head": "3783774f3bfa5d3b5a2a462cc09c04480c18de9e",
+  "source_fingerprint": "b023cad70c72c86838bbaca6ef258209218d402de827defa31e9f5316362ea77",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -190,7 +190,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "d06d2c5089a919eb48dce4b0a75599b6ec825649e7f25ec4a246865dc1be2e4b",
+      "sha256": "39eff9e648287771569c53fe7c24c2d10c5b56139035faea4d62773848ad5d15",
       "bytes": 5134
     },
     {
@@ -205,8 +205,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "9788c62fafabca079fd6703219411aa86f11bfbc0079109cb8c7c28e6fae59b6",
-      "bytes": 29588
+      "sha256": "eed69301ad530c67a22e56850bf1967e482f08ebee3ae81a041ddbf5ba61a183",
+      "bytes": 29586
     },
     {
       "file": "projects/README.md",
@@ -235,8 +235,8 @@
     },
     {
       "file": "projects/stikhiy/project-status.json",
-      "sha256": "42ef918c354c69bc6092119b4d0438c8c306b4a4834967b76b0c6a1744e2e991",
-      "bytes": 8335
+      "sha256": "802208f4ddcda5c68d11be474f5e219092850cf8bb2cc26ceefef35bd08c73ba",
+      "bytes": 8333
     },
     {
       "file": "projects/stikhiy/references/scenes/scene-1/continuity-edit-v2.md",
