@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-26T22:53:12Z",
+  "checked_at": "2026-11-28T13:13:24Z",
   "status": "warn",
   "warnings": 5,
   "info": 4,
@@ -51,13 +51,13 @@
     {
       "level": "warn",
       "code": "resume-selected-stale",
-      "text": "shadow/resume-packet.json: выбранная работа «SEREGIUS-SHIFT-20261113-T611U» от 16.11.2026, старше 7 дней (10).",
+      "text": "shadow/resume-packet.json: выбранная работа «SEREGIUS-SHIFT-20261113-T611U» от 16.11.2026, старше 7 дней (11).",
       "file": "shadow/resume-packet.json"
     },
     {
       "level": "warn",
       "code": "resume-selected-stale",
-      "text": "projects/kot-detektiv/shadow/resume-packet.json: выбранная работа «KD-WAIT-OWNER» от 27.10.2026, старше 7 дней (30).",
+      "text": "projects/kot-detektiv/shadow/resume-packet.json: выбранная работа «KD-WAIT-OWNER» от 27.10.2026, старше 7 дней (31).",
       "file": "projects/kot-detektiv/shadow/resume-packet.json"
     }
   ]
