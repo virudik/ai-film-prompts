@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-28T04:30:28Z",
+  "checked_at": "2026-11-28T04:40:30Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -69,8 +69,8 @@
       "model": "Seedance 2.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 1182,
-      "wait_seconds": 31102,
+      "queue_count": 1172,
+      "wait_seconds": 30499,
       "process_seconds": null
     },
     {
@@ -83,7 +83,7 @@
       "scene_id": null,
       "mapping": "unknown_new",
       "queue_count": 3319,
-      "wait_seconds": 143421,
+      "wait_seconds": 142819,
       "process_seconds": null
     },
     {
@@ -96,7 +96,7 @@
       "scene_id": 89,
       "mapping": "task_map",
       "queue_count": 2297,
-      "wait_seconds": 82941,
+      "wait_seconds": 82339,
       "process_seconds": null
     },
     {
@@ -108,8 +108,8 @@
       "model": "Wan 3.0",
       "scene_id": 89,
       "mapping": "task_map",
-      "queue_count": 1965,
-      "wait_seconds": 65661,
+      "queue_count": 1963,
+      "wait_seconds": 65058,
       "process_seconds": null
     },
     {
@@ -121,8 +121,8 @@
       "model": "Wan 3.0",
       "scene_id": 89,
       "mapping": "task_map",
-      "queue_count": 1597,
-      "wait_seconds": 48381,
+      "queue_count": 1595,
+      "wait_seconds": 47779,
       "process_seconds": null
     },
     {
@@ -135,7 +135,7 @@
       "scene_id": 28,
       "mapping": "task_map",
       "queue_count": 3030,
-      "wait_seconds": 126141,
+      "wait_seconds": 125538,
       "process_seconds": null
     }
   ],
@@ -162,12 +162,12 @@
     }
   ],
   "comparison": {
-    "monitor_checked_at": "2026-11-28T03:40:32Z",
-    "monitor_age_minutes": 50,
+    "monitor_checked_at": "2026-11-28T04:30:28Z",
+    "monitor_age_minutes": 10,
     "monitor_occupied": 5,
     "robot_occupied": 6,
     "consistent": false,
-    "monitor_may_lag": true,
+    "monitor_may_lag": false,
     "differences": [
       {
         "type": "only_in_robot",
